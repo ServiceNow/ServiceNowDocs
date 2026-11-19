@@ -7,9 +7,9 @@ release: yokohama
 product: Mentoring
 classification: mentoring
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use, Mentoring, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Mentoring, Mentoring, Talent Development, Employee Service Management]
 ---
 
 # View suggested mentors
@@ -32,4 +32,23 @@ Role required: none
 
 3.  You can either connect with a suggested mentor or use the search option to search for other mentors.
 
+
+**Parent Topic:**[Using Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/using-mentoring-egd.md)
+
+**Related topics**  
+
+
+[Enroll as a mentor or mentee]()
+
+[Search for a mentor]()
+
+[Edit mentee preferences]()
+
+[Edit mentor preferences]()
+
+[Request a connection]()
+
+[View match insights]()
+
+[View mentoring requests]()
 

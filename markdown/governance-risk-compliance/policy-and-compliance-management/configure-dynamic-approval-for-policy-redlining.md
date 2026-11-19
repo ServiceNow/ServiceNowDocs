@@ -1,5 +1,5 @@
 ---
-title: Policy dynamic approval setup with redlining
+title: Configure dynamic approval configuration on a policy with redlining enabled
 description: Set up dynamic approval configuration on a policy for which redlining is enabled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/configure-dynamic-approval-for-policy-redlining.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Set up dynamic approval configuration on a policy record, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Set up dynamic approval configuration on a policy record, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Policy dynamic approval setup with redlining
+# Configure dynamic approval configuration on a policy with redlining enabled
 
 Set up dynamic approval configuration on a policy for which redlining is enabled.
 

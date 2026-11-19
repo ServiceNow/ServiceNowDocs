@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/list-of-reponsibilities-provided-with-base-system.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Create a responsibility definition, Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Create a responsibility definition, Configuring customer access management, User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # List of responsibilities provided with the base system
@@ -28,7 +28,7 @@ Used in Relationship
 
 </th><th>
 
-Role required
+Role Required
 
 </th><th>
 
@@ -53,7 +53,9 @@ Account Team Member \[sn\_customerservice\_team\_member\]
 
 </td><td>
 
-Yes
+Yes**Note:**
+
+Responsibility access configurations are currently inactive in Yokohama.
 
 </td></tr><tr><td>
 
@@ -83,7 +85,7 @@ Authorized Account
 
 </td><td rowspan="2">
 
-Case Management Core \[com.sn\_customerservice\]
+Customer Service \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -111,7 +113,7 @@ Authorized Representative
 
 </td><td rowspan="5">
 
-Case Management Core \[com.sn\_customerservice\]
+Customer Service \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -167,7 +169,7 @@ Preferred Technician
 
 </td><td>
 
-Case Management Core \[com.sn\_customerservice\]
+Customer Service \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -175,7 +177,7 @@ Account Team Member \[sn\_customerservice\_team\_member\]
 
 </td><td>
 
-None
+N/A
 
 </td><td>
 
@@ -187,7 +189,7 @@ Primary Support Agent
 
 </td><td>
 
-Case Management Core \[com.sn\_customerservice\]
+Customer Service \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -195,7 +197,7 @@ Account Team Member \[sn\_customerservice\_team\_member\]
 
 </td><td>
 
-None
+N/A
 
 </td><td>
 
@@ -207,7 +209,7 @@ Support Manager
 
 </td><td>
 
-Case Management Core \[com.sn\_customerservice\]
+Customer Service \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -215,7 +217,7 @@ Account Team Member \[sn\_customerservice\_team\_member\]
 
 </td><td>
 
-None
+N/A
 
 </td><td>
 
@@ -227,7 +229,7 @@ Asset Contact
 
 </td><td>
 
-Case Management Core \[com.sn\_customerservice\]
+Customer Service \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -235,7 +237,7 @@ Account Team Member \[sn\_customerservice\_team\_member\]
 
 </td><td>
 
-None
+N/A
 
 </td><td>
 
@@ -271,7 +273,7 @@ Business Location \[com.snc.business\_location\]
 
 </td><td>
 
-Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
+Service Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
 
 </td><td>
 
@@ -291,7 +293,7 @@ Business Location \[com.snc.business\_location\]
 
 </td><td>
 
-Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
+Service Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
 
 </td><td>
 
@@ -311,7 +313,7 @@ Business Location \[com.snc.business\_location\]
 
 </td><td>
 
-Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
+Service Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
 
 </td><td>
 
@@ -331,7 +333,7 @@ Business Location \[com.snc.business\_location\]
 
 </td><td>
 
-Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
+Service Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
 
 </td><td>
 
@@ -351,7 +353,7 @@ Business Location \[com.snc.business\_location\]
 
 </td><td>
 
-Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
+Service Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
 
 </td><td>
 
@@ -371,7 +373,7 @@ Business Location \[com.snc.business\_location\]
 
 </td><td>
 
-Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
+Service Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
 
 </td><td>
 
@@ -391,7 +393,7 @@ Business Location \[com.snc.business\_location\]
 
 </td><td>
 
-Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
+Service Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\]
 
 </td><td>
 

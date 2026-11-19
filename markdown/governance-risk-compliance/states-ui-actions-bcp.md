@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/states-ui-actions-bcp.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -14,9 +14,9 @@ breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Manageme
 
 When you create a business continuity plan \(BCP\), certain UI actions are associated with each state.
 
-## States and UI actions associated with a plan
+## States and UI actions that are associated with a business continuity plan
 
-UI actions and their associated states for a business continuity plan are described in the table.
+The states and UI actions that are associated with a business continuity plan are described in the following table.
 
 <table id="table_amh_4kb_cv"><thead><tr><th>
 
@@ -38,13 +38,13 @@ Description
 
 In business continuity plan record Lists view, select **New**.
 
- You can also navigate to the **Planning** section of the Home page and select **Create BIA**.
+ **Note:** You can also navigate to the **Planning** section of the Home page and select **Create BIA**.
 
 </td><td>
 
 When you select **New** in the Create New Plan form or **Create BIA** in the Home page, a record is created in the **Draft** state by default.
 
- On the **Details** tab, add details of the business continuity plan. Add details on the tabs:
+ On the **Details** tab, add details of the business continuity plan. Add details on the following tabs:
 
 -   Scope
 -   Documentation
@@ -105,7 +105,7 @@ When you select **Archive** in the **Create New Plan** form, the state of the bu
 
  Starting with BCM release 9.0.x, you can revert an archived business continuity plan \(BCP\) to the **Draft** state by selecting the **Edit** button on the form.
 
- You can perform additional UI actions in the Create New Plan form:
+ You can perform the following additional UI actions in the Create New Plan form:
 
 -   **Generate PDF**
 

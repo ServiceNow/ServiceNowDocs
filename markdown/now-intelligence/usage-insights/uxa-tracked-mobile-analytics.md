@@ -1,20 +1,20 @@
 ---
-title: Tracked mobile analytics fields for Usage Insights
-description: Usage Insights collects data from mobile applications on your mobile device. These tables list fields that are tracked in the mobile applications. Reports and charts are generated from these fields.
+title: Tracked mobile analytics fields for User Experience Analytics
+description: User Experience Analytics collects data from mobile applications on your mobile device. These tables list fields that are tracked in the mobile applications. Reports and charts are generated from these fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-tracked-mobile-analytics.html
 release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
+breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configuring User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
-# Tracked mobile analytics fields for Usage Insights
+# Tracked mobile analytics fields for User Experience Analytics
 
-Usage Insights collects data from mobile applications on your mobile device. These tables list fields that are tracked in the mobile applications. Reports and charts are generated from these fields.
+User Experience Analytics collects data from mobile applications on your mobile device. These tables list fields that are tracked in the mobile applications. Reports and charts are generated from these fields.
 
 For more information about using the data, see [Viewing user analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/viewing-user-data.md).
 

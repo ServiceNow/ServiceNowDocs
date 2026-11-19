@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Configuring CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Assign Continuous Authorization and Monitoring roles to users and groups

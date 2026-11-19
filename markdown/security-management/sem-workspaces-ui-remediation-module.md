@@ -1,41 +1,48 @@
 ---
 title: Remediation view
-description: The Remediation view in the Security Exposure Management workspace provides remediation owners and vulnerability analysts with a consolidated view of remediation tasks, findings \(vulnerable items and configuration test results\), and assets \(configuration items\) that are associated with exposure findings. In addition, vulnerability analysts will also have a consolidated view of fixes.
+description: The Remediation view in the Security Exposure Management workspace provides remediation owners and vulnerability managers with a consolidated view of remediation tasks, findings \(vulnerable items and configuration test results\), and assets \(configuration items\) that are associated with exposure findings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-workspaces-ui-remediation-module.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-12-03"
 reading_time_minutes: 1
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---
 
 # Remediation view
 
-The Remediation view in the Security Exposure Management workspace provides remediation owners and vulnerability analysts with a consolidated view of remediation tasks, findings \(vulnerable items and configuration test results\), and assets \(configuration items\) that are associated with exposure findings. In addition, vulnerability analysts will also have a consolidated view of fixes.
+The Remediation view in the Security Exposure Management workspace provides remediation owners and vulnerability managers with a consolidated view of remediation tasks, findings \(vulnerable items and configuration test results\), and assets \(configuration items\) that are associated with exposure findings.
 
-## Accessing the Remediation view
+## Locating the Remediation view
 
-Users can view fixes, remediation tasks and findings for all exposure types from a single location using filters. The data available on this page can help remediation owners prioritize their work, and vulnerability analysts can monitor overall remediation progress for specific types of exposure findings or fixes.
+Remediation owners and vulnerability managers can view remediation tasks and findings for multiple applications from a single location using filters. The data available on this page can help remediation owners prioritize their work, and vulnerability managers can monitor overall remediation progress for specific types of exposure findings.
 
 Navigate to **Workspaces** &gt; **Security Exposure Management** &gt; **Remediation**. What you can see and do in the view depends on your role and the applications you have installed.
 
-## Features of the Remediation view
+## Features of the overview page
 
-Following tabs are available:
+-   **Assigned to me**
 
--   Fix intelligence: Displays findings for all exposure types. Available only for vulnerability analysts.
+    Toggle between findings and remediation tasks that are assigned to you and your groups.
 
-    **Note:** It is available when both the Unified Exposure Pipeline \(sn\_vul\_int\_cmn\) and Fix Intel for Security Exposure Management \(sn\_vul\_fix\) applications are installed.
+-   **Tabs**
 
--   Remediation Tasks: Filter records by remediation status, state, or risk rating. Available for both remediation owners and vulnerability analysts. Remediation owners can filter for tasks assigned to them or their groups.
--   Findings: Filter records by impacted configuration items, by state, risk rating. Available for both remediation owners and vulnerability analysts. Remediation owners can filter for findings assigned to them or their groups.
--   Assets: Filter records by configuration items and their associated security exposures. Available for both remediation owners and vulnerability analysts. Remediation owners can filter for assets assigned to them or their groups.
+    View remediation task, finding, or asset records.
 
-**Note:** You can also filter remediation tasks and findings records by the type of security exposure, host findings \(VIT\), application findings \(AVIT\), and so on. These records are available based on the applications that you have installed and the roles you have assigned:
+-   **Widgets**
 
--   Application Vulnerability Response - AVITs and AVULs.
--   Container Vulnerability Response - CVITs and CVUL records.
--   Host Vulnerability Response VITs and VUL records.
--   Test results Configuration Compliance CTRs and CRG records.
+    Select the data visualizations to filter records by remediation tasks, findings, or asset records. These widgets must be activated in the Visualization library to display data on this page.
+
+    -   Remediation tasks - Filter records by remediation status, state, or risk rating.
+    -   Findings - Filter records by impacted configuration items, by state, risk rating.
+    -   Assets - Filter records by configuration items and their associated security exposures.
+-   **Exposure Type**
+
+    Filter remediation tasks and findings records by the type of security exposure, host findings \(VIT\), application findings \(AVIT\), and so on. These records are available based on the applications that you have installed and the roles you have assigned:
+
+    -   Application Vulnerability Response - AVITs and AVULs.
+    -   Container Vulnerability Response - CVITs and CVUL records.
+    -   Host Vulnerability Response VITs and VUL records.
+    -   Test results Configuration Compliance CTRs and CRG records.
 

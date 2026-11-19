@@ -7,10 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-keywords: [Obligation management, Contract repository]
-breadcrumb: [Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure contract request functionality, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
 ---
 
 # Add access to obligation management from contract repository records
@@ -31,7 +30,7 @@ Role required: admin
 
 4.  In the **View** list, select the workspace view that should include the Obligations tab.
 
-5.  Add access to obligation management by moving **Obligation** from the Available list to the Selected list.
+5.  Add access to obligation management by moving **Obligations** from the Available list to the Selected list.
 
 6.  Select **Save**.
 
@@ -41,8 +40,6 @@ Role required: admin
 ## Result
 
 The Obligations tab will appear in contract repository records.
-
-\[Omitted image "cmpro-obligation-tab.png"\] Alt text: View obligation for a signed contract fron the Obligations tab
 
 For more information on roles required to work on obligation management, see [Components installed with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-comp-ccore.md).
 
@@ -55,21 +52,19 @@ For more information on roles required to work on obligation management, see [Co
 
 [Add a workspace action button for initiating a contract request]()
 
-[Add Contract requests tab to the contract request record]()
-
-[Add Contract documents tab to the contract repository record]()
+[Add Contract requests tab to your workspace]()
 
 [Add amendment tabs to contract repository record]()
 
+[Display contract documents in a contract repository record]()
+
 [Copy fields from parent request to contract request]()
 
-[Group contract documents by contract type in a contract request]()
+[Group contract documents by contract type in the contract request form]()
 
-[Configure the contract request form header]()
+[Configure the contract request form header for your workspace]()
 
-[Assign a role for configuring template mappings]()
+[Provide permissions to configure default contract document information]()
 
-[Enable contract request fields in condition builders]()
-
-[Configuring the Playbook tab on contract repository records]()
+[Provide access to contract request fields in condition builders]()
 

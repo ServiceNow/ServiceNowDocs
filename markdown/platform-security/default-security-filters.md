@@ -1,18 +1,18 @@
 ---
-title: Default security filters
-description: Generally data filters are applied after absolute ACLs \(also sometimes called table-level ACLs\), and after row-level ACLs. They are applied by default, and can be impactful to system behavior if not used carefully.
+title: Locations of default security filters
+description: Review the locations where security data filters applied by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/default-security-filters.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-06-02"
 reading_time_minutes: 1
 breadcrumb: [Security data filters, Access Management]
 ---
 
-# Default security filters
+# Locations of default security filters
 
-Generally data filters are applied after absolute ACLs \(also sometimes called table-level ACLs\), and after row-level ACLs. They are applied by default, and can be impactful to system behavior if not used carefully.
+Review the locations where security data filters applied by default.
 
 ## Default applied security data filters
 

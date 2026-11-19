@@ -1,36 +1,30 @@
 ---
 title: App Engine and App Engine Studio
-description: Learn about the differences between App Engine and App Engine Studio.
+description: ServiceNow App Engine Studio \(AES\) is a development tool for creators of varying skill levels to build applications that meet the immediate needs of your organization. The App Engine Enterprise version includes App Engine Studio \(AES\) for building low-code apps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/app-engine-vs-aes.html
 release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Explore, App Engine Studio, Developing your application, Classic app development, Building applications]
+breadcrumb: [Exploring App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
 
 # App Engine and App Engine Studio
 
-Learn about the differences between App Engine and App Engine Studio.
+ServiceNow® App Engine Studio \(AES\) is a development tool for creators of varying skill levels to build applications that meet the immediate needs of your organization. The App Engine Enterprise version includes App Engine Studio \(AES\) for building low-code apps.
 
-App Engine is a ServiceNow AI Platform® suite of products to help boost productivity by automating workflows. ServiceNow® App Engine Studio \(AES\) is a development tool for creators of varying skill levels to build applications that meet the immediate needs of your organization.
+## App Engine Starter and Enterprise versions
 
-For more information, see [App Engine products and offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-products-offerings.md).
+App Engine Starter is included in all products \(that is, it's free\). To access additional features outside of App Engine Starter, you need a paid App Engine Enterprise license.
 
-## How App Engine and App Engine Studio work together
+The App Engine Enterprise version enables users to act as a Fulfiller for unlimited custom apps and unlimited custom tables. Customer entitlements may vary depending on the type of App Engine subscription purchased. Contact your account team or your company's ServiceNow admin for entitlement confirmation.
 
-App Engine provides the ServiceNow AI Platform infrastructure, governance, and application life cycle management capabilities. App Engine Studio is the development environment you use to build applications within that platform. App Engine serves as the platform infrastructure while App Engine Studio provides the development tools.
+For a full list of App Engine products, see the [ServiceNow product site](https://www.servicenow.com/products/now-platform-app-engine.html#plans-packages).
 
-|App Engine|App Engine Studio|
-|----------|-----------------|
-|Platform suite and entitlement|Development environment within App Engine|
-|Manages deployment, governance, and application lifecycle|Enables you to design, build, and test applications|
-|Platform administrators manage this environment|Developers and citizen developers use this environment|
-
-## Additional information about App Engine
+## Additional information on App Engine
 
 <table id="table_m51_zrm_jtb-1"><thead><tr><th>
 
@@ -46,7 +40,7 @@ ServiceNow provides several additional resources on App Engine.
 
 </td><td>
 
-\[Omitted image "bus-dollar-sign.svg"\] Alt text: [App Engine product page](https://www.servicenow.com/products/now-platform-app-engine.html)
+\[Omitted image "bus-dollar-sign.svg"\] Alt text: [App Engine Enterprise purchase overview and version comparison](https://www.servicenow.com/products/now-platform-app-engine.html)
 
 </td></tr><tr><td>
 

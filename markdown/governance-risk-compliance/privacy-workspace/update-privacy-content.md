@@ -1,20 +1,20 @@
 ---
-title: Activate privacy content
-description: Activate an authority document or risk statement version to install the associated citations, control objectives, or risk statements into your privacy library.
+title: Update Privacy Content
+description: Activate an authority document or risk statement category to install its citations, control objectives, or risk statements into your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/update-privacy-content.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-03-10"
+reading_time_minutes: 2
 breadcrumb: [Privacy content accelerator, Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Activate privacy content
+# Update Privacy Content
 
-Activate an authority document or risk statement version to install the associated citations, control objectives, or risk statements into your privacy library.
+Activate an authority document or risk statement category to install its citations, control objectives, or risk statements into your instance.
 
 ## Disclaimer
 
@@ -26,78 +26,56 @@ ServiceNow aims to provide software updates for new or updated major regulations
 
 ## Before you begin
 
-Privacy Management Content \(sn\_privacy\_content\) must be installed.
-
-Role required: sn\_privacy.manager
+Role required: admin
 
 ## Procedure
 
-1.  In the Privacy Workspace, select the Privacy content icon \[Omitted image "unified-content-mgmt-icon.png"\].
+1.  In the Privacy workspace, click the privacy content accelerator icon.
 
 2.  Select the **Privacy Frameworks** tab or the **Risk Statements** tab depending on the content you want to activate.
 
-3.  On the **Inactive** sub-tab, locate the new authority document or risk statement version to install, and select **Activate**.
+3.  On the authority document card you want to install, click **Activate**.
 
-    The **Activate** button appears only when the authority document status or the risk statement version is **New**.
+    The **Activate** button appears only when the authority document status is **New**. A disclaimer dialog opens.
 
-4.  Review the disclaimer, and select **Agree**.
+4.  Review the disclaimer.
 
-    The installation wizard opens, showing records associated with the selected authority document or risk statement version.
+    The following disclaimer appears on the page:
 
-    **Note:** Control objectives and risk statements are AI-generated. Although AI models are exposed to major privacy regulations, they aren't trained on the risk and compliance methodologies that your teams may use to derive a complete, consistent set of control objectives and risk statements from a regulation. Review each record for accuracy, scope, and fit with your internal taxonomy before you map it to processing activities or assessment questions.
+    ```
+    The customer is responsible for ensuring compliance with applicable laws, regulations, directives, and/or standards, and for ensuring that any content provided in the product is accurate and up to date.
+    The content provided with the product is for ease of use. It is the customer's responsibility to replace it with the applicable laws, regulations, directives, and/or standards at their own discretion. 
+    This content has been generated with the help of artificial intelligence (AI) and should be reviewed and validated before use.
+    ```
 
-<table id="table_b1d_h43_qjc"><thead><tr><th>
+5.  After reviewing the disclaimer, select **Confirm** to proceed.
 
-Record type
+    The installation page opens, showing records associated with the selected authority document.
 
-</th><th>
+6.  On the **Citations** page, review the list of citations and their installation states, then select the citations you want to install.
 
-Description
+    Each citation record displays its name, description, and installation state. Citations with a **Ready** state have not been installed.
 
-</th></tr></thead><tbody><tr><td>
+7.  Click **Next** to proceed to the **Control Objectives** page.
 
-**Citation**
+    The control objectives list is filtered to show only control objectives related to the citations you selected in the previous step.
 
-</td><td>
+8.  Select the control objectives you want to install, then click **Next**.
 
-Citations associated with the selected authority document. To view the source regulatory text related to citations, add **Supplemental guidance** as a column using the **Personalize fields** option.**Note:** Citation descriptions are AI-generated. The source regulatory text in supplemental guidance is formatted using AI. Review all content for accuracy.
+9.  On the summary page, verify the counts of selected citations and control objectives, then click **Submit**.
 
-</td></tr><tr><td>
+    The authority document status changes to **Updating** while installation is in progress.
 
-**Control objective**
+10. Refresh the page to confirm the installation is complete.
 
-</td><td>
+    The authority document card status changes to **Active**, the active version number is displayed, and the button label changes to **Update**. Installed citation records show the installation state **Installed**.
 
-Control objectives mapped to the selected citations. If no control objectives are mapped to the selected citations, proceed to the next step.
+11. To activate a risk statement category, click **Activate** on the risk statement category card.
 
-</td></tr></tbody>
-</table>    |Record type|Description|
-    |-----------|-----------|
-    |**Risk statement**|Privacy risk statements available with the selected version.|
+    A list of risk statements in that category is displayed.
 
-5.  Select the records to install, and then select **Next**.
+12. Review the risk statements and select **Submit**.
 
-    Records that are ready to be installed show **Ready**, and those that are already installed in your library show **Installed**.
+    The risk statements are activated and visible in the risk statement list.
 
-    **Note:** When you activate a new risk statement version, all risk statements appear as **Ready**, even those installed in the previous version. Reinstalling existing records from a new version can overwrite certain fields if they share the same name. To understand overwriting behavior, see [Overwrite behavior for existing records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/privacy-content-accelerator.md).
-
-6.  Review the number of selected records, and select **Submit**.
-
-    The status changes to **Updating** while installation is in progress.
-
-7.  Refresh the page to verify that installation is complete.
-
-
-## Result
-
--   The activated content moves to the **Active** sub-tab.
--   The content card displays the active version number.
--   The button label on the activated content changes to **Update**.
--   Access the installed authority document, citations, control objectives, and risk statements from the List view of the Privacy Workspace.
-
-## What to do next
-
-Update the activated authority documents to add more citations and control objectives.
-
-Update the version of the privacy risk statements to add new statements to your library. See [Update content in the privacy library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/update-privacy-mgmt-content.md).
 

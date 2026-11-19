@@ -7,9 +7,9 @@ release: yokohama
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Setting up roles and responsibilities, Configure, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configuring Healthcare Operations Core, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Assign roles to Healthcare Operations Core users
@@ -26,13 +26,15 @@ Roles control access to features, capabilities, and data in the Healthcare Opera
 
 You can assign roles to individual users or groups. When you apply roles to groups, the members of those groups inherit those roles.
 
-**Note:** User roles can be configured during the initial setup process for healthcare organizations, or at any time thereafter as needed.
+**Note:** User roles can be configured during the initial setup process for retail organizations or at any time thereafter as needed.
+
+User roles can be configured during the initial setup process for retail organizations or at any time thereafter as needed.
 
 **Example:** You could create a group called “HCO Team Members” and assign the role sn\_hco.care\_team\_member to the group. Then, when importing users, you would associate the users that are care team members with this group.
 
-**Note:** This group doesn’t give them direct access to care team operations. They must still be associated with a healthcare organization as a member then assigned responsibilities.
+**Note:** This group doesn’t give them direct access to care team operations – they’ll still need to be associated with a healthcare organization as a member and assigned responsibilities.
 
-For instructions on assigning roles to groups, see [Create a group for all care team members in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/hco-create-team-members-group.md)
+For instructions on assigning roles to groups, see [Create a group for all team members in Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/hco-create-team-members-group.md)
 
 <table id="table_w3v_gbg_d2c"><tbody><tr><td>
 
@@ -58,19 +60,9 @@ sn\_hco.care\_team\_manager
 
 </td><td>
 
-Has access to create and view healthcare cases. Can add members to healthcare organizations.
+Has access to create and view healthcare cases
 
-</td></tr><tr><td>
-
-sn\_hco.loc\_manager
-
-</td><td>
-
- 
-
-</td><td>
-
-Monitors the tasks within their organizations.
+ can add members to the care unit
 
 </td></tr></tbody>
 </table>## Procedure

@@ -1,5 +1,5 @@
 ---
-title: Assign user roles
+title: Assigning user roles for Telecommunications Network Inventory
 description: You can assign roles to control user access to specific features, capabilities, and data in the Telecommunications Network Inventory application. These assigned roles enable or prevent access to specific forms and processes by users with the specified roles only.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Telecommunications Network Inventory]
+breadcrumb: [Configuring Telecommunications Network Inventory, Telecommunications Network Inventory]
 ---
 
-# Assign user roles
+# Assigning user roles for Telecommunications Network Inventory
 
 You can assign roles to control user access to specific features, capabilities, and data in the Telecommunications Network Inventory application. These assigned roles enable or prevent access to specific forms and processes by users with the specified roles only.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/c\_DataManagement.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,19 +22,19 @@ Manage your instance data by configuring data management policies to archive and
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Data Management settings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/configuring-data-management.md)
+[Monitor data usage\[Omitted image "bus-discover.svg"\] Alt text:Monitor data usage over time on your current instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/viewing-data-usage.md)
 
 </td><td>
 
-[Analyze data usage\[Omitted image "bus-discover.svg"\] Alt text:Analyze data usage over time on your current instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/viewing-data-usage.md)
+[Manage data growth\[Omitted image "bus-database.svg"\] Alt text:Manage the growth of data on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/data-management-policies.md)
 
 </td></tr><tr><td>
 
-[Manage data growth\[Omitted image "bus-database.svg"\] Alt text:Manage the growth of data on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/managing-data-growth.md)
+[Update records safely\[Omitted image "bus-contract.svg"\] Alt text:Preview and update records safely.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/updating-records-safely.md)
 
 </td><td>
 
-[Database rotation\[Omitted image "ind-renewable-recycling.svg"\] Alt text:Learn about applying database rotation techniques.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_DatabaseRotation.md)
+[Delete records safely\[Omitted image "bus-reduce-redundancy.svg"\] Alt text:Preview and delete records safely.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/deleting-records-safely.md)
 
 </td><td>
 

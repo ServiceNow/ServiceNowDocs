@@ -1,16 +1,16 @@
 ---
-title: Create channel partner
+title: Create a channel partner
 description: Create a channel partner to streamline and help manage the sales process of a product or a service for an enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-create-channel-partner.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Set up dealer, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Set up dealer, Configuring Manufacturing Commercial Operations, Manufacturing Commercial Operations]
 ---
 
-# Create channel partner
+# Create a channel partner
 
 Create a channel partner to streamline and help manage the sales process of a product or a service for an enterprise.
 
@@ -20,23 +20,19 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace.**
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Partner Relationship Management** &gt; **Channel Partners**.
 
-2.  Select the List icon.
+2.  Select **New**.
 
-3.  Navigate to **Partner Relationship Management** &gt; **Channel Partners**.
-
-4.  Select **New**.
-
-5.  On the Channel partner form, fill in the fields.
+3.  On the Channel partner form, fill in the fields.
 
     For a description of the field values, see [Channel partner form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-cp-form.md).
 
-6.  Select **Save**.
+4.  Select **Save**.
 
 
 **Related topics**  
 
 
-[bundle-omgmt.register-partner-staff-on-workspace]
+[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/configure-partner-relationship-management.md)
 

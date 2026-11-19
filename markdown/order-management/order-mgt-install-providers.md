@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-mgt-install-providers.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-05-12"
 reading_time_minutes: 2
-breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Install and configure Order Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Order Management
@@ -25,10 +25,12 @@ Role required: admin
 
 The following items are installed with Order Management:
 
+-   Plugins
+-   Store applications
 -   Roles
 -   Tables
 
-For more information, see [Components installed with Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/components-installed-with-order-management.md).
+For more information on viewing components that are installed with an application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/find-components.md).
 
 ## Procedure
 
@@ -50,17 +52,10 @@ For more information, see [Components installed with Order Management](https://r
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-configuring.md)
-
-**Related topics**  
-
-
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-order-management.md)
-
-[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-order-management.md)
+**Parent Topic:**[Install and configure Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-configuring.md)
 

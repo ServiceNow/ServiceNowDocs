@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Reference, Telecommunications Network Inventory]
+breadcrumb: [Telecommunications Network Inventory reference, Telecommunications Network Inventory]
 ---
 
 # Pack tables
@@ -130,5 +130,5 @@ Use pack tables to learn about the tables that help to model your 5G network.
 **Related topics**  
 
 
-[Model 5G network function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/modeling_5g_xnf.md)
+[Modeling a 5G network function in Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/modeling_5g_xnf.md)
 

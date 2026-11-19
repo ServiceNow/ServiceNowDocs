@@ -1,16 +1,16 @@
 ---
-title: Configure quote PDF documents
+title: Configuring quote PDF documents
 description: As a sales operation specialist, you can generate professional-looking PDF templates that present quotes in a standardized format that reflects company branding and logos. You can also set up Docusign to enable signers to sign quotes electronically and send them through email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/quote-management-configure-pdf-documents.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Install and configure Quote Management, Configure, Sales Customer Relationship Management]
 ---
 
-# Configure quote PDF documents
+# Configuring quote PDF documents
 
 As a sales operation specialist, you can generate professional-looking PDF templates that present quotes in a standardized format that reflects company branding and logos. You can also set up Docusign to enable signers to sign quotes electronically and send them through email.
 

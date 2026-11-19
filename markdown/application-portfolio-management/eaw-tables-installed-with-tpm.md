@@ -5,20 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-tables-installed-with-tpm.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Activate the Technology Lifecycle Management \(TLM\) plugin, Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace, Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Tables installed with TLM in the EA Workspace
 
 Several types of tables are installed with Technology Lifecycle Management.
-
-**Important:**
-
-Technology Lifecycle Management \(TLM\) was previously known as Technology Portfolio Management \(TPM\). TPM and TLM refer to the same feature. Table names and scheduled job names continue to use TPM and haven't been renamed.
-
-Whether your instance displays TPM or TLM also depends on your application versions. TLM labels appear only when both the Enterprise Architecture Workspace application \(version 9.2.1 or later\) and the Technology Lifecycle Management plugin, sn\_apm\_tpm \(version 1.11.0 or later\), are installed. If either application is on an earlier version, the interface continues to show TPM.
 
 The following tables are installed with the Technology Lifecycle Management \(TLM\) plugin:
 
@@ -52,7 +46,7 @@ TPM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\]
 
 </td><td>
 
-Stores the technology life cycles associated with the discovered technologies.**Note:** When multiple sources contribute lifecycle phase dates for the same product, the source with the highest configured rank takes precedence, and phase dates are validated to stay in chronological order.
+Stores the technology life cycles associated with the discovered technologies.
 
 </td></tr><tr><td>
 
@@ -60,7 +54,7 @@ TPM Technology Lifecycle Exception \[sn\_apm\_tpm\_technology\_lifecycle\_except
 
 </td><td>
 
-Stores the lifecycles that were approximated or couldn’t be found from Software Asset Management \(SAM\) Professional or Hardware Asset Management \(HAM\) Professional.
+Stores the life cycles that were approximated or couldn’t be found from Software Asset Management \(SAM\) Professional or Hardware Asset Management \(HAM\) Professional.
 
 </td></tr><tr><td>
 
@@ -71,12 +65,5 @@ TPM Technology Risk \[sn\_apm\_tpm\_technology\_risk\]
 Stores the TPM technology risk information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
-
-**Related topics**  
-
-
-[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-install-tpm.md)
-
-[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-trm-governing-fields.md)
+</table>**Parent Topic:**[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-install-tpm.md)
 

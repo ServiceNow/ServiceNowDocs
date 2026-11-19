@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Associate existing RIDAC records for a project in Project Workspace
@@ -28,13 +28,17 @@ You can associate one record with multiple different records. For example, you c
 
 1.  Select the project for which you want to associate one RIDAC entry to another.
 
-    For information on how to navigate to a project in the Project Workspace, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information on how to navigate to a Project in the Project Workspace, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the RIDAC page of the project by selecting **RIDAC** from the list.
+
+    \[Omitted image "ridac-list.png"\] Alt text: L2 menu
 
 3.  On the Project form, select **Row context menu** for an individual risk, issue, decision, action, or request change record.
 
 4.  Select **Associate RIDAC**.
+
+    \[Omitted image "associate-RIDAC-list.png"\] Alt text: Associate RIDAC records in Project Workspace
 
 5.  On the Associate dialog box, from the Select type list, select the RIDAC record to which you want to associate the selected record.
 
@@ -44,8 +48,8 @@ You can associate one record with multiple different records. For example, you c
 
     For example, if you wanted to associate the selected issue to a decision \(DCSN0001005\), you would select **DCSN0001005**.
 
-7.  Select **OK**.
+7.  Click **OK**.
 
 
-**Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/manage-ridac-pw.md)
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-projects-pw.md)
 

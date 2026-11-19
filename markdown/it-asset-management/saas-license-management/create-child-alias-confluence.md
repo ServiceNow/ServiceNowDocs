@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-06-23"
 reading_time_minutes: 3
-breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Create a child alias to set up multiple Confluence Cloud integration profiles
@@ -18,7 +18,7 @@ Create a child alias to set up multiple Confluence Cloud integration profiles.
 
 ## Before you begin
 
-Role required: sam\_integrator
+Role required: admin or sam\_integrator
 
 ## Procedure
 

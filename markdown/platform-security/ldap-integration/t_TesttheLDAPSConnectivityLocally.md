@@ -7,9 +7,9 @@ release: yokohama
 product: LDAP integration
 classification: ldap-integration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure Microsoft AD for secure LDAPS communication, LDAP integration, Authentication, Access Management]
+breadcrumb: [Configure Microsoft Active Directory for secure LDAPS communication, LDAP integration, Authentication, Access Management]
 ---
 
 # Test the LDAPS connectivity locally

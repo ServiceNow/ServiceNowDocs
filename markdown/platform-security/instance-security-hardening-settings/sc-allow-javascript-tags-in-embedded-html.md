@@ -1,5 +1,5 @@
 ---
-title: Disable JavaScript tags in embedded HTML
+title: Disable JavaScript tags in embedded HTML \[Updated in Security Center 1.3\]
 description: Use the glide.ui.security.codetag.allow\_script property to disable support for embedding HTML JavaScript code created using of the \[code\] tag.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-allow-javascript-tags-in-embedded-html.html
@@ -7,18 +7,19 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Disable JavaScript tags in embedded HTML
+# Disable JavaScript tags in embedded HTML \[Updated in Security Center 1.3\]
 
 Use the **glide.ui.security.codetag.allow\_script** property to disable support for embedding HTML JavaScript code created using of the \[code\] tag.
 
-If **glide.ui.security.codetag.allow\_script** is not set to the recommended value of **false**, then this property allows rendered HTML in journal fields and forms which opens room for XSS attacks. Malicious HTML needs to be put between code tags for example \[code\]\[/code\].
+The ServiceNow AI Platform mitigates many injection and cross-site attacks by implementing escaping and encoding techniques. As a result, users can't write and submit HTML formatted inputs for journal fields. However, journal fields can render text enclosed within code tags as HTML. Ensure the**glide.ui.security.codetag.allow\_script** property exists in the sys\_properties table and is set to false.
 
-Ensure that the **glide.ui.security.codetag.allow\_script** property exists in the System Properties \[sys\_properties\] table and is set to **false**.
+-   However, there is an associated security risk. If set to **true**, malicious users can write harmful HTML JavaScript code that may be executed on a different client browser after rendering of journal fields.
+-   Set this property to **false** so that administrators can prevent journal fields from rendering HTML JavaScript code by disabling support for the `[code]` tag.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -34,7 +35,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Configuration name
+Property name
 
 </td><td>
 
@@ -50,11 +51,19 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Data type
+Category
 
 </td><td>
 
-Boolean
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+
+</td></tr><tr><td>
+
+Purpose
+
+</td><td>
+
+Protects against cross-site scripting and malicious script execution
 
 </td></tr><tr><td>
 
@@ -74,29 +83,11 @@ false
 
 </td></tr><tr><td>
 
-Fallback value
+Security risk rating
 
 </td><td>
 
-true
-
-</td></tr><tr><td>
-
-Category
-
-</td><td>
-
-[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
-
-</td></tr><tr><td>
-
-Security risk
-
-</td><td>
-
--   Severity score: High
--   CVSS rating:8.8
--   Security risk details: Uncontrolled JavaScript risks Cross-Site Scripting \(XSS\) attacks, enabling malicious actors to inject and execute harmful scripts in the user's browser. Such attacks can lead to session hijacking, credential theft, and compromise of sensitive data.
+8.8
 
 </td></tr><tr><td>
 
@@ -104,16 +95,30 @@ Functional impact
 
 </td><td>
 
-None
+This remediation enforces JavaScript escaping to occur on the UI and renders the encoded results to the user. It can have a functionality impact based on the instance user interaction with the resulted data.
 
 </td></tr><tr><td>
 
-Dependencies and prerequisites
+Security risk
 
 </td><td>
 
-None
+\(High\) Input validation must occur in the application to defend against cross-site scripting attacks. These attacks enable foreign scripts to execute on the user session in the logged in browser's context. Attackers can use it to steal session information and sensitive data.
+
+</td></tr><tr><td>
+
+References
+
+</td><td>
+
+[Restrict the CODE tag in journal fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_RestrictTheCODETagInJrnalFlds.md)
+
+ [Render journal field entries as HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/render-journal-field-entries-as.md.md)
+
+ [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/c_HighSecuritySettings.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+
+**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

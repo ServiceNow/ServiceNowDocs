@@ -1,20 +1,20 @@
 ---
-title: Migrate to CRM Workspace
-description: Follow the instructions in this topic to migrate from CSM Agent Workspace to CRM Workspace.
+title: Migrate to CSM Configurable Workspace
+description: Follow the instructions in this topic to migrate from CSM Agent Workspace to CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-migrate-configurable-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrating to Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# Migrate to CRM Workspace
+# Migrate to CSM Configurable Workspace
 
-Follow the instructions in this topic to migrate from CSM Agent Workspace to CRM Workspace.
+Follow the instructions in this topic to migrate from CSM Agent Workspace to CSM Configurable Workspace.
 
-If you are currently using CSM Agent Workspace and want to migrate to CRM Workspace, you can continue using most of your existing configurations. Some features, however, need to be configured specifically for CRM Workspace. You can migrate some of the configurations using lists and forms and others using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md) tool.
+If you are currently using CSM Agent Workspace and want to migrate to CSM Configurable Workspace, you can continue using most of your existing configurations. Some features, however, need to be configured specifically for CSM Configurable Workspace. You can migrate some of the configurations using lists and forms and others using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md) tool.
 
 <table id="table_rrk_p52_v4b"><thead><tr><th>
 
@@ -26,7 +26,7 @@ Examples
 
 </th></tr></thead><tbody><tr><td>
 
-Configurations that work in both CSM Agent Workspace and CRM Workspace without modification.
+Configurations that work in both CSM Agent Workspace and CSM Configurable Workspace without modification.
 
 </td><td>
 
@@ -35,7 +35,7 @@ Configurations that work in both CSM Agent Workspace and CRM Workspace without m
 
 </td></tr><tr><td>
 
-Configurations that are different for CRM Workspace.
+Configurations that are different for CSM Configurable Workspace.
 
 </td><td>
 
@@ -43,19 +43,22 @@ Configurations that are different for CRM Workspace.
 -   List categories
 
 </td></tr></tbody>
-</table>Also, be aware that some configuration changes made for one workspace can also affect the other. For example, changes to the CSM Agent Workspace configuration may impact CRM Workspace. The same applies to changes to the CRM Workspace configuration, which may impact CSM Agent Workspace.
+</table>Also, be aware that some configuration changes made for one workspace can also affect the other. For example, changes to the CSM Agent Workspace configuration may impact CSM Configurable Workspace. The same applies to changes to the CSM Configurable Workspace configuration, which may impact CSM Agent Workspace.
 
-**Note:** For customers who are **not** currently using CSM Agent Workspace and want to implement CRM Workspace, use the CRM Workspace guided setup by navigating to **Customer Service** &gt; **Administration** &gt; **Guided Setup** &gt; **CSM Configurable Workspace**. Clicking **Configure** in this category takes you to the Configurable Workspace guided setup. The information and instructions in the different guided setup categories can help you set up a new implementation of CRM Workspace.
+**Note:** For customers who are **not** currently using CSM Agent Workspace and want to implement CSM Configurable Workspace:
+
+-   Use the CSM Configurable Workspace guided setup by navigating to **Customer Service** &gt; **Administration** &gt; **Guided Setup** &gt; **CSM Configurable Workspace**. Clicking **Configure** in this category takes you to the Configurable Workspace guided setup. The information and instructions in the different guided setup categories can help you set up a new implementation of CSM Configurable Workspace.
+-   For additional information, see Setting up Workspace.
 
 ## Workspace features
 
-This section provides information, parameters, and steps to complete the migration of CSM Agent Workspace configurations to CRM Workspace. Select the feature that you want to migrate from the following list.
+This section provides information, parameters, and steps to complete the migration of CSM Agent Workspace configurations to CSM Configurable Workspace. Select the feature that you want to migrate from the following list.
 
 |Feature|Description|
 |-------|-----------|
 |[Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/migration-activity-stream.md)|Activity Stream enables agents to communicate with requesters and make internal notes about the work done on a record.|
 |[Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/migration-agent-assist.md)|Agent assist provides agents with automatic search results that show possible solutions for records they open.|
-|[Agent Chat for CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/migration-agent-chat.md)|Agent Chat enables agents to interact with customers, create incident or case records, or transfer chats to another agent or queue.|
+|[Agent Chat for Customer Service Management Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/migration-agent-chat.md)|Agent Chat enables agents to interact with customers, create incident or case records, or transfer chats to another agent or queue.|
 |[Branding and theming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/migration-branding-theming.md)|Branding and theming enables you to customize your Configurable Workspace to your company branding and theming.|
 |[Email Composer and Email Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/migration-compose-preview-email.md)|The Email Composer enables requestors and fulfillers to use email to communicate.|
 |[Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/migration-custom-central.md)|Customer Central displays all the touch points that a customer has had with a contact center in the form of information cards.|

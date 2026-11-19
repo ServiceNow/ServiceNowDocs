@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-generativeaicontroller-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -90,7 +90,7 @@ Yokohama
 
 </td><td>
 
--   **[\[Placeholder link text to key configure-custom-resource-path-byok\]](https://www.servicenow.com/docs/access?context=configure-custom-resource-path-byok&family=yokohama&ft:locale=en-US)**
+-   **[configure custom resource path byok](https://www.servicenow.com/docs/access?context=configure-custom-resource-path-byok&family=yokohama&ft:locale=en-US)**
 
 Connect Generative AI Controller to your Azure OpenAI deployment by configuring a custom resource path in your bring your own key \(BYOK\) model configuration. Use this when your Azure OpenAI endpoint includes a path segment that Generative AI Controller does not add by default.
 
@@ -101,7 +101,7 @@ Access the Gen AI log \[sys\_generative\_ai\_log\] table to gain insights for de
 
 -   **[Enhanced AI asset inventory](https://www.servicenow.com/docs/access?context=reference-for-generative-ai-controller&family=yokohama&ft:locale=en-US)**
 
-Track the enhanced AI asset inventory through AI Control Tower using new metadata fields in the Model \[sys\_generative\_ai\_model\_config\] and Prompt \[sys\_generative\_ai\_config\] tables. Gain better visibility into AI asset status and life-cycle details, such as retirement dates.
+Track the enhanced AI asset inventory through Control Tower using new metadata fields in the Model \[sys\_generative\_ai\_model\_config\] and Prompt \[sys\_generative\_ai\_config\] tables. Gain better visibility into AI asset status and life-cycle details, such as retirement dates.
 
 
  -   **[AI Model Version Mappings](https://www.servicenow.com/docs/access?context=reference-for-generative-ai-controller&family=yokohama&ft:locale=en-US)**

@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # 360° Relationship Visualization for Policy and Compliance Management

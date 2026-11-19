@@ -7,9 +7,9 @@ release: yokohama
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Mobile, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configure, Now Mobile app, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure catalogs
@@ -42,6 +42,4 @@ Role required: admin
 ## Result
 
 Your users can view and request items from all added catalogs.
-
-**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 

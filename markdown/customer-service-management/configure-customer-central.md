@@ -1,32 +1,32 @@
 ---
 title: Configure Customer Central
-description: Provide customer service agents with all the information about a customer in one central place by configuring the Customer Information and Customer History views for Customer Central.
+description: Provide customer service agents with all the information about a customer in one central place by configuring the Customer Information and Customer Activity views for Customer Central.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-customer-central.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Configure Customer Central
 
-Provide customer service agents with all the information about a customer in one central place by configuring the Customer Information and Customer History views for Customer Central.
+Provide customer service agents with all the information about a customer in one central place by configuring the Customer Information and Customer Activity views for Customer Central.
 
 ## Before you begin
 
-Role required: admin, or the app-specific sn\_customer\_central\_admin role.
-
-**Note:** Admins can assign either the full admin role for broad access or the app-specific sn\_customer\_central\_admin role to limit access to only the Customer Central application \(`sn_customercentral`\).
+Role required: admin
 
 ## About this task
 
 Customer Central provides customer service agents with all the information about the customer in one central place. It enables them to quickly zoom in on the customer issue and provide efficient and empathetic service to their customers.
 
-Customer Central consists of two views, Customer Information and Customer History. In CRM Workspace, Customer Central is displayed on the interaction, account, contact, or consumer records.
+Customer Central consists of two views, Customer Information and Customer Activity.
 
-For more information, see [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-central.md).
+**Note:** If you are using CSM Agent Workspace, Customer Central is displayed on the Interaction record. If you are using CSM Configurable Workspace, Customer Central is displayed on the interaction, account, contact, or consumer records. Both views are highly configurable and can be adapted to suit the needs of your business.
+
+For more details, see [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-central.md).
 
 ## Procedure
 
@@ -34,7 +34,7 @@ For more information, see [Customer Central](https://raw.githubusercontent.com/S
 
 2.  On the Getting Started page of the guided setup, select **Get Started**.
 
-3.  In the Customer Central - Customer Information or Customer Central - Customer History category, view the list of tasks to configure the feature.
+3.  In the Customer Central - Customer Information or Customer Central - Customer Activity category, view the list of tasks to configure the feature.
 
 <table id="table_pz1_qqv_llb"><thead><tr><th>
 
@@ -50,15 +50,15 @@ Activate Customer Central
 
 </td><td>
 
-The Customer Central application \(com.sn\_csm\_customer\_central\) is activated with the CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CRM Workspace application is activated with the Case Management Core plugin \(com.sn\_customerservice\).**Note:** Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store.
+The Customer Central application \(com.sn\_csm\_customer\_central\) is activated with the CSM Configurable Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CSM Configurable Workspace application is activated with the Customer Service plugin \(com.sn\_customerservice\).**Note:** Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store.
 
 </td></tr><tr><td>
 
-[Configure the Customer Information view using CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/cust-central-configure-info-tab.md)
+[Configure the Customer Information view using the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/cust-central-configure-info-tab.md)
 
 </td><td>
 
-Configure the display of the Customer Information view using CRM Workspace.
+Configure the display of the Customer Information view using CSM Configurable Workspace.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Configure the display of the Customer Information view using CRM Workspace.
 
 </td><td>
 
-Configure the display of the customer history view.
+Configure the display of the customer activity view.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Configure the Customer History component
 
 </td><td>
 
-Starting with the Yokohama release, the Customer History component displays customer activity information on some record pages in CRM Workspace.
+Starting with the Yokohama release, the Customer History component displays customer activity information on some record pages in CSM Configurable Workspace.
 
 </td></tr></tbody>
 </table>4.  To perform a task, select **Configure**.

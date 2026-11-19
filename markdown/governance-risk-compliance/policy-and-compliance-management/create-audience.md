@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Set up campaign, Acknowledge policy, Manage, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Set up a policy acknowledgement campaign, Acknowledge a policy, Manage control objectives and policies, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create an audience
@@ -24,15 +24,21 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Policy Acknowledgement** &gt; **Audience**.
 
-2.  Select **New**.
+    \[Omitted image "audiences.png"\] Alt text: Define audiences for acknowledgements
+
+2.  Click **New**.
+
+    \[Omitted image "new-audience.png"\] Alt text: Defining a new audience
 
 3.  Enter a name and description for the new audience, and save the record.
 
 4.  Additional tabs appear.
 
+    \[Omitted image "audiences-tabs.png"\] Alt text: Defining users and groups in audiences
+
 5.  Use the three tabs to identify members for this audience.
 
-<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d100482e101">
+<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d155527e122">
 
 **Users**
 
@@ -40,7 +46,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 Click **Edit** and add one or more individual users to the audience.
 
-</td></tr><tr><td id="d100482e113">
+</td></tr><tr><td id="d155527e134">
 
 **Groups**
 
@@ -48,7 +54,7 @@ Click **Edit** and add one or more individual users to the audience.
 
 Click **Edit** and add one or more predefined groups of users to the audience.
 
-</td></tr><tr><td id="d100482e125">
+</td></tr><tr><td id="d155527e146">
 
 **User Filters**
 

@@ -7,7 +7,7 @@ release: yokohama
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 8
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -57,8 +57,6 @@ Other functionality that utilizes the MID Server may be impacted when run in FIP
 
 [MID Server configuration file security]()
 
-[MID Server authentication methods comparison]()
-
 [MID Server authentication credentials and SOAP requests]()
 
 [MID Server unified key store]()
@@ -73,13 +71,13 @@ Other functionality that utilizes the MID Server may be impacted when run in FIP
 
 [Add SSL certificates for the MID Server]()
 
+[Specify an external TrustStore for the MID Server]()
+
 [MID Server SSH cryptographic algorithms]()
 
 [Attach a script file to a file synchronized MID Server]()
 
 [MID Server Governance]()
-
-[MID Server IPKI authentication]()
 
 ## Enable MID Server FIPS Enforced Mode
 

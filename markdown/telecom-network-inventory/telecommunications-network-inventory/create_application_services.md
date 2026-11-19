@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Manage your network functions, Define inventory records, Use, Telecommunications Network Inventory]
+breadcrumb: [Managing your network functions, Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
 ---
 
 # Define the network service instance details
@@ -53,5 +53,5 @@ When you create a network service instance record, it creates a corresponding co
     The Telecommunications Network Inventory attribute fields are displayed on the Service Instance form after you save the TNI CI Attributes form. The **Set Inventory Attributes** doesn't appear when you reopen the CI record.
 
 
-**Parent Topic:**[Manage your network functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/services.md)
+**Parent Topic:**[Managing your network functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/services.md)
 

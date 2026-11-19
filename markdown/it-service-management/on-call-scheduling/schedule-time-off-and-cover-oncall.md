@@ -7,9 +7,9 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Viewing schedules and request time-off, On-Call Scheduling, IT Service Management]
+breadcrumb: [View schedules and request time-off, On-Call Scheduling, IT Service Management]
 ---
 
 # Request time off and suggest who can cover
@@ -18,33 +18,31 @@ You can schedule your own time off and suggest a suitable cover from among fello
 
 ## Before you begin
 
-To request time off by members, the **com.snc.on\_call\_rotation.pto.configuration** system property for your on-call group must be **With approval** or **Without approval**. If the setting is **Not allowed**, you can't request time off. A user with the rota\_admin role sets the default for all groups with the system property. They can also override the setting for a specific group in the group's on-call settings.
+To use this feature, the system administrator must enable the **Configuration to determine if PTO requests need approval** system property \(**com.snc.on\_call\_rotation.pto.approval.required**\).
 
 Role required: itil
 
 ## Procedure
 
-1.  Navigate to **On-Call Scheduling** &gt; **On-Call Calendars**.
+1.  Navigate to **On-call Scheduling** &gt; **On-call Calendar**.
 
-2.  Select the shift entry.
+2.  Select the shift entry for the time off.
 
-3.  In the **Actions** list, select **Manage Shift**.
+3.  Click **Schedule Time Off** and fill in the form.
 
-4.  In the Manage Shift dialog box, select **Schedule time off** and then fill in the form.
-
-    \[Omitted image "OC\_SchedTimeOff.png"\] Alt text: Manage Shift dialog box with fields for scheduling time off.
+    \[Omitted image "OC\_SchedTimeOff.png"\] Alt text: Schedule time off form
 
     |Field|Description|
     |-----|-----------|
     |Member|The member getting time off \(typically, yourself\).|
     |Starts and Ends|Start and end dates for the time off.|
-    |Proposed cover|Name of a roster member who can provide cover in the absence. This field is required when the time off configuration for the group is **Time off without approval**.|
-    |All day event|Option to specify that the time off period involves full workdays.|
-    |Notes|Comments to help the shift manager understand the request.|
+    |Propose cover|Name of a roster member who can provide cover in the absence.|
+    |All day event|Option to specify that the time-off period involves full workdays.|
+    |Notes|Optional. Comments to help the shift manager understand the request.|
 
-5.  Select **Schedule**.
+4.  Click **Schedule**.
 
-    The time off is added to your On-Call calendar. If the time off configuration requires approval, the request remains pending until it is approved.
+    The time off is tentatively scheduled in your On-Call calendar.
 
 
 **Parent Topic:**[Viewing schedules and request time-off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/viewing-schedules-and-escalation.md)

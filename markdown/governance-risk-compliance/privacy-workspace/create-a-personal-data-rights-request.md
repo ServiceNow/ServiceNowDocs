@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Use, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -24,19 +24,21 @@ Role required: sn\_grc\_pdr.pdr\_requester
 
 1.  Navigate to **All** &gt; **Personal Data Rights Workspace**.
 
-2.  From the **Create** drop-down, select **Request**.
+2.  Select **Create**.
 
-3.  On the form, fill in the fields.
+3.  Select **Request**.
+
+4.  On the form, fill in the fields.
 
     For a description of the field values on the personal data rights request form, see [Personal data rights request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/new-pdr-request-form.md).
 
-4.  Select **Save**.
+5.  Select **Save**.
 
-5.  On the Details tab, select **Update state**.
+6.  On the Details tab, select **Update state**.
 
-6.  Provide additional comments.
+7.  Provide additional comments.
 
-7.  Select **Submit**.
+8.  Select **Submit**.
 
     The state of the task moves from **Draft** to **Assigned**.
 

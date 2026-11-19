@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [ITOM Optimization, IT Operations Management]
 ---
 
 # Cloud Provisioning and Governance
@@ -60,7 +60,7 @@ The following workflows have been deprecated:
 
 Explore
 
- -   Brazil
+ -   Yokohama
 -   [Domain separation and Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/domain-separation-cloud-management.md)
 
 </td><td>

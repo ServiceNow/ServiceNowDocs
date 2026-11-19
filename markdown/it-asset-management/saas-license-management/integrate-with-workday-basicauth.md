@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-02-26"
 reading_time_minutes: 8
-breadcrumb: [Integrating with Workday, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrating with Workday, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrate with Workday using Basic Authentication
@@ -36,7 +36,6 @@ Role required: Users having roles such as Security Admin, Integration Admin, Int
 
         |Operation|Domain Security Policy|Functional Areas|
         |---------|----------------------|----------------|
-        |Get Only|Worker Data: Public Worker Reports|Staffing|
         |Get Only|Worker Data: Current Staffing Information|Staffing|
         |Get Only|Worker Data: Workers|Staffing|
 
@@ -67,15 +66,15 @@ If you’re using Software Asset Workspace, the option to create the Workday int
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d146494e339">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d229347e327">
 
 Interface
 
-</th><th align="left" id="d146494e342">
+</th><th align="left" id="d229347e330">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d146494e348">
+</th></tr></thead><tbody><tr><td id="d229347e336">
 
 **Core UI**
 
@@ -86,7 +85,7 @@ Action
 3.  Select **Workday Integration Profile**.
 
 
-</td></tr><tr><td id="d146494e390">
+</td></tr><tr><td id="d229347e378">
 
 **Software Asset Workspace**
 
@@ -222,15 +221,15 @@ Password of the Integration system user created while [configuring permissions i
 
     **Note:** Only an admin role can create or update the SOAP user name and password.
 
-<table id="choicetable_rhj_5w1_stb"><thead><tr><th align="left" id="d146494e882">
+<table id="choicetable_rhj_5w1_stb"><thead><tr><th align="left" id="d229347e870">
 
 Interface
 
-</th><th align="left" id="d146494e885">
+</th><th align="left" id="d229347e873">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d146494e891">
+</th></tr></thead><tbody><tr><td id="d229347e879">
 
 **Core UI**
 
@@ -241,7 +240,7 @@ Action
 3.  Select **WorkdayHR**.
 
 
-</td></tr><tr><td id="d146494e930">
+</td></tr><tr><td id="d229347e918">
 
 **Software Asset Workspace**
 
@@ -316,18 +315,6 @@ Select the **SOAP username profile** link.
 ### What to do next
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
-
-After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
-
--   Software Models
--   Unrecognized Subscription Identifiers
--   Scheduled Jobs
--   Scheduled Job Results
--   Software Subscriptions
--   Subscription Identifier Exclusion Rule
--   Subscription User Exclusion Rule
-
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-child-alias-saas.md).
 

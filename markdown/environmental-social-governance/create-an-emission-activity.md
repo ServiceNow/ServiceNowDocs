@@ -1,18 +1,18 @@
 ---
 title: Create a new emission activity
-description: Create new emission activities to track the activity that leads to emissions if you do not want to use the standard emission activities provided through the Unified content management application.
+description: Create new emission activities to track the activity that leads to emissions if you do not want to use the standard emission activities provided through the ESG content accelerator application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/create-an-emission-activity.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Set up the emission factor library, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Create a new emission activity
 
-Create new emission activities to track the activity that leads to emissions if you do not want to use the standard emission activities provided through the Unified content management application.
+Create new emission activities to track the activity that leads to emissions if you do not want to use the standard emission activities provided through the ESG content accelerator application.
 
 ## Before you begin
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforstrategicportfoliomanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -457,7 +457,7 @@ Yokohama
 
  [Yokohama Patch 6](https://www.servicenow.com/docs/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 -   Use a decorative loader to elevate visual interest during content loading in Strategic Planning.
 -   Refine the planning item text descriptions by enabling AI assistance.
 -   Use ServiceNow Otto for SPM AI agents to help optimize workflows, improve productivity, and automate your tasks.

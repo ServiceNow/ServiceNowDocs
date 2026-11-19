@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Administer, Creator Studio, Developing your application, Classic app development, Building applications]
+breadcrumb: [Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
 
 # Administering templates and forms for Creator Studio

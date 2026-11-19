@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Kafka Consumer, Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [ServiceNow Kafka Consumer, Integration Hub available solutions, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Configure ServiceNow Kafka Consumer

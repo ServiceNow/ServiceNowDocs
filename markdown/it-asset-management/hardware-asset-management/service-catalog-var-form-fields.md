@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 7
-breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Hardware Asset Management reference, Hardware Asset Management, IT Asset Management]
 ---
 
 # Service Catalog variable form fields

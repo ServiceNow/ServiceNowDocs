@@ -1,53 +1,63 @@
 ---
-title: Enable ServiceNow Otto for Virtual Agent in Slack
-description: Enable large language model \(LLM\) conversational experiences with ServiceNow Otto in your Slack integration.
+title: Enable Now Assist in Virtual Agent for Slack
+description: Enable the large language model \(LLM\)-based conversational experience with Now Assist in your Virtual Agent integrated with Slack.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/enable-na-llm-slack.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Use ServiceNow Otto conversations with Slack, Slack, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+breadcrumb: [Using Now Assist in Virtual Agent conversations with Slack, Integrating Virtual Agent with Slack, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
-# Enable ServiceNow Otto for Virtual Agent in Slack
+# Enable Now Assist in Virtual Agent for Slack
 
-Enable large language model \(LLM\) conversational experiences with ServiceNow Otto in your Slack integration.
+Enable the large language model \(LLM\)-based conversational experience with Now Assist in your Virtual Agent integrated with Slack.
 
 ## Before you begin
 
-Ensure that you enable AI Search. For more information about enabling AI Search, see [Enable AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/enable-ais-next-exp-app.md).
+Ensure that you enable AI Search to have Now Assist conversations using the Now LLM Service. For more information about enabling AI Search, see [Enable AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/enable-ais-next-exp-app.md).
 
 Role required: admin
 
 ## Procedure
 
-1.  Log in to your ServiceNow instance and navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
+1.  Log in to your ServiceNow instance and navigate to the Now Assist Features page through one of the following navigation paths:
 
-2.  On the Assistants tab, select **Edit** for an assistant that is integrated with Slack.
+    -   **All** &gt; **Now Assist Admin** &gt; **Now Assist Features**.
+    -   **All** &gt; **Now Assist Admin** &gt; **Features**.
+2.  From the Now Assist Features page, select **Platform**.
 
-    For example, select **ServiceNow Otto for Virtual Agent \(default\)**.
+3.  On the Now Assist skills for Platform page, select **View details**.
 
-    \[Omitted image "assistants-na-va-2.png"\] Alt text: Select an assistant that is integrated with Slack.
+4.  On the Conversational experience page, select **Set up Now Assist in Virtual Agent**.
 
-    **Note:** Verify that the assistant you choose is integrated with the Slack workspace before selecting it.
+    You're directed to the Assistants page to select the Virtual Agent. For example, the **Now Assist in Virtual Agent \(default\)**.
 
-3.  On the assistant configuration page, navigate to **Review display experiences** &gt; **Channels**.
+5.  Select a Virtual Agent of your choice.
 
-4.  Select the Slack channels to integrate with ServiceNow Otto for Virtual Agent.
+    \[Omitted image "assistants-na-va.png"\] Alt text: Select a Virtual Agent that has Now Assist enabled to proceed with LLM capabilities.
 
-    \[Omitted image "choose-channels-for-LLM.png"\] Alt text: Select the Slack channels for LLM conversational experience with ServiceNow Otto.
+    **Note:** Verify that the Virtual Agent you choose is integrated with the Slack workspace before selecting.
 
-5.  On the assistant configuration page, navigate to **Chat features**.
+6.  On the bot page, navigate to **Display experience** &gt; **Channels** from the pane.
 
-6.  In the Response streaming section, select the **Allow response streaming** check box.
+7.  Select the channels to integrate with the Now Assist in Virtual Agent.
 
-    \[Omitted image "choose-response-streaming-for-slack-2.png"\] Alt text: Select Allow response streaming check box in the Response streaming section.
+    \[Omitted image "choose-channels-for-LLM.png"\] Alt text: Select the Slack channels for LLM conversational experience with Now Assist.
 
-7.  Select **Save and Continue**.
+8.  On the bot page, navigate to **Chat experience** &gt; **Chat experience** from the pane.
+
+9.  Scroll down to the Response streaming section and select the **Allow response streaming** check box.
+
+    \[Omitted image "choose-response-streaming-for-slack.png"\] Alt text: Select Allow response streaming check box in the Response streaming section.
+
+    **Important:** In the Now Assist Search Results Output Type \[now\_assist\_va\_search\_results\_output\_type\] table, set the **Streaming Ready** field value to `true` for Slack.\[Omitted image "choose-response-streaming-for-slack-true.png"\] Alt text: Set the Streaming Ready field value to true for Slack.
+
+10. Select **Save and Continue**.
 
 
-**Parent Topic:**[Using ServiceNow Otto for Virtual Agent conversations with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/na-va-llm-slack.md)
+**Parent Topic:**[Using Now Assist in Virtual Agent conversations with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/na-va-llm-slack.md)
 

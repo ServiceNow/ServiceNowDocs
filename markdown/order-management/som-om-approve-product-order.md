@@ -1,58 +1,50 @@
 ---
-title: Approve orders in Order Management
-description: Approve an order in Order Management to begin decomposition and fulfillment process.
+title: Approve a product or service order in Order Management
+description: When an order is submitted, the next step is to review the order and approve it. Approved orders are ready to begin the fulfillment process in Order Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-om-approve-product-order.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-03-21"
 reading_time_minutes: 1
-breadcrumb: [Approving orders, Order Management, Use, Sales Customer Relationship Management]
+breadcrumb: [Create an order in Order Management, Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
 ---
 
-# Approve orders in Order Management
+# Approve a product or service order in Order Management
 
-Approve an order in Order Management to begin decomposition and fulfillment process.
+When an order is submitted, the next step is to review the order and approve it. Approved orders are ready to begin the fulfillment process in Order Management.
 
 ## Before you begin
 
-Role required: sn\_ind\_tmt\_orm.order\_fulfilment\_manager, sn\_ind\_tmt\_orm.order\_approver
+Role required: sn\_ind\_tmt\_orm.order\_approver
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CRM Workspace.** .
+1.  In the **Configurable Workspace**, select the **List** \[Omitted image "Lists.png"\] view.
 
-2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+2.  Navigate to **Customer Orders** &gt; **All**.
 
-3.  Navigate to **Customer Orders** &gt; **All**.
+3.  Select the order that you want to review and approve.
 
-4.  Select the order that you want to review and approve.
+    Orders ready for approval are in a **Submitted** state.
 
-    Orders ready for approval are in the New state.
+4.  Review the order line items and select an option.
 
-5.  Review the order line items.
+    \[Omitted image "som-om-order-approval.png"\] Alt text: Image shows the order approval form used to review, update, and approve orders.
 
-6.  Select **Reprice** to recalculate prices when updates are made to an order line item.
+5.  |Options|Description|
+|-------|-----------|
+|Approve|Approve the order. The order is updated to **In progress** state while it is being validated, before it enters fulfillment.|
+|Reject|Reject the order. The order state changes to **Rejected**. Rejected orders are made available to order agents to make changes and updates.|
+|Reprice|Recalculate prices when updates are made to the order line items.|
+|New|Add a new order line to the existing order.|
+|Revise item|Make changes to selected order line items.|
+|Delete|Delete selected order line items. The line items are deleted and the prices are recalculated.|
 
-7.  To add more products to this order, select **New**.
+6.  Select **Approve**.
 
-8.  Delete selected order line items by selecting **Delete**.
-
-    When you delete an order line item, the prices are recalculated.
-
-9.  **Note:** Before approving an order, the system validates contract information based on the order line type. For recurring or entitlement offerings, the **Contract start date**, **Contract end date**, and **Term** are required before the order can be approved. For one‑time offerings, **Contract start date** and **Contract end date** must be empty. If these conditions are not met, the order cannot be approved and must be updated by an agent before approval can proceed.
-
-    When you're satisfied with the order details, select **Approve**.
-
-
-## Result
-
-The order is approved and the order state changes to In progress while it’s being validated, before it enters fulfillment.
-
-**Related topics**  
+    The order is approved and the order state changes to **In progress**.
 
 
-[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-configuring.md)
-
-[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-order-management.md)
+**Parent Topic:**[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-product-order.md)
 

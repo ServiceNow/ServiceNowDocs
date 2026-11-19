@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
+breadcrumb: [Microsites, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
 
 # Add a Button with the Rich Content Editor
@@ -39,13 +39,7 @@ Create the page layout using modules or columns.
 
     \[Omitted image "ecpro-settings-tab.jpg"\] Alt text: Settings tab on the side of the canvas has styling configurations
 
-4.  See full configration settings options.
-
-    \[Omitted image "ecpro-settings-tab-details.png"\] Alt text: Configuration options under the settings tab
-
-5.  Use any of the following styling settings:
-
-    **Note:** Changing the button type or size will clear all other setting properties and values. The background-color layer will be removed when changing the button type, and some values might be affected by button size selections, such as font size, line height, padding and border radius.
+4.  Use any of the following styling settings:
 
 <table id="table_zx2_tgw_jyb"><thead><tr><th>
 
@@ -69,7 +63,6 @@ Defines what kind of button you are adding. Your choices are:-   Primary \(defau
 -   Secondary
 -   Link only
 
-**Note:** All properties and background color layers will be cleared when changing the button type.
 
 </td></tr><tr><td>
 
@@ -82,7 +75,6 @@ Defines the size of your button. Your choices are:-   X-Small
 -   Medium \(default\)
 -   Large
 
-**Note:** All button size properties will be cleared when changing the button sizes.
 
 </td></tr><tr><td>
 
@@ -245,7 +237,7 @@ Indicates where the button directs the user. Your choices are:-   This window: S
 
 
 </td></tr></tbody>
-</table>6.  Select **Save** or **Save and Finish**.
+</table>5.  Select **Save** or **Save and Finish**.
 
     Selecting **Save** saves your content and you remain on the **Rich Content Editor** canvas. Selecting **Save and Finish** saves your record and returns you to the **New content** form.
 

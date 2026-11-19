@@ -7,7 +7,7 @@ release: yokohama
 product: Universal Task
 classification: universal-task
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Universal Task reference, Universal Task, Employee Service Management]
 ---
@@ -38,7 +38,7 @@ Response view roles
 
 </td><td>
 
-Read only roles. The Response View role in Universal Task \(part of the Universal Request framework\) grants users read-only visibility into Universal Task records without giving them permission to modify tasks or their metadata.
+Roles that will contain the Response view role
 
 </td></tr><tr><td>
 

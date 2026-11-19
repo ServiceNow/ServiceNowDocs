@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,9 +28,13 @@ The ServiceNow AI Platform® admin creates an API account role \(sn\_sec\_panfw.
 
 1.  Navigate to **All** &gt; **Organization** &gt; **Users**.
 
-2.  Select the **Users** module.
+2.  Click the **Users** module.
 
-3.  On the Users list that is displayed, select **New**.
+    \[Omitted image "4-30-user-nav.png"\] Alt text: Select the Users module.
+
+3.  On the Users list that is displayed, click **New**.
+
+    \[Omitted image "4-30-user-nav-new.png"\] Alt text: New User record.
 
     A new user form is displayed.
 
@@ -41,27 +45,41 @@ The ServiceNow AI Platform® admin creates an API account role \(sn\_sec\_panfw.
     |Field|Description|
     |-----|-----------|
     |User ID|Unique User ID for the role in your ServiceNow AI Platform® instance. This user ID is entered in the **Username** field in the **Client Authentication** section of the External Dynamic Lists dialog on the Palo Alto Networks site. An example is `API account SN`.|
-    |First name|Person you're assigning.|
-    |Last name|Person you're assigning.|
+    |First name|Person you are assigning.|
+    |Last name|Person you are assigning.|
     |Title|Job title, for example, `FW admin`.|
     |Password|Unique password created for this role. This password is entered in the **Password** field in the **Client Authentication** section of the External Dynamic Lists dialog on the Palo Alto Networks site.|
     |Email|Unique email address.|
 
-5.  Select **Submit**.
+    \[Omitted image "4-30-user-listed.png"\] Alt text: User record completed.
+
+5.  Click **Submit**.
 
     Once submitted, you can assign the role.
 
-6.  On the Users list in the **User ID** column, select the name of the user ID you entered, `API account SN`, for example.
+6.  On the Users list in the **User ID** column, click the name of the user ID you entered, `API account SN`, for example.
 
-7.  On the open record in the Roles section, select **Edit**.
+    \[Omitted image "4-30-user-listed-callout.png"\] Alt text: New User ID listed.
 
-8.  On the **Edit Members** form that is displayed, enter `sn_sec_panfw.api_account_access` in the **Collection** field.
+7.  On the open record in the Roles section, click **Edit**.
+
+    \[Omitted image "4-30-user-form-callout.png"\] Alt text: Click Edit to open the record.
+
+8.  On the **Edit Members**form that is displayed, enter `sn_sec_panfw.api_account_access` in the **Collection** field.
+
+    Below the **Collection** field, the role is displayed in the column.
+
+    \[Omitted image "4-30-user-add-enter.png"\] Alt text: Enter new role in Collection column.
 
 9.  In the **Collection** column, select then move `sn_sec_panfw.api_account_access` to the **Roles List**.
 
-10. Select **Save**.
+    \[Omitted image "4-30-add-role.png"\] Alt text: Move new role to Roles List.
 
-11. Navigate to **Users**, and in the **User** column on the list, select the ID name that you created for the role \(`API account SN`\).
+10. Click **Save**.
+
+11. Navigate to **Users**, and in the **User** column on the list, click the ID name that you created for the role \(`API account SN`\).
+
+    \[Omitted image "4-30-user-role-section.png"\] Alt text: New role displayed on Users list.
 
     The user record is displayed. This record verifies that the user account has been assigned. The **State** is active, and the role is not inherited.
 

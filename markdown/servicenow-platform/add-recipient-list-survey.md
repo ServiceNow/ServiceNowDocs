@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/add-recipient-list-survey.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Survey distribution, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Survey distribution, Survey administration, Using surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Add a recipients list to a survey
@@ -28,15 +28,15 @@ Recipients lists should be pre-defined in the Recipients Lists submodule. For mo
 
 3.  Perform any of the following steps.
 
-<table id="choicetable_jnl_df2_5fb"><thead><tr><th align="left" id="d488533e81">
+<table id="choicetable_jnl_df2_5fb"><thead><tr><th align="left" id="d482957e84">
 
 Option
 
-</th><th align="left" id="d488533e84">
+</th><th align="left" id="d482957e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d488533e90">
+</th></tr></thead><tbody><tr><td id="d482957e93">
 
 **From Platform**
 
@@ -47,7 +47,7 @@ Description
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d488533e123">
+</td></tr><tr><td id="d482957e126">
 
 **From Survey Designer**
 

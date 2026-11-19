@@ -1,5 +1,5 @@
 ---
-title: Mentors can modify and manage journeys
+title: Modify and manager journeys as a mentor
 description: Mentors with the appropriate permission can modify journeys and add other mentors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-designer/jny-dsgnr-mentor.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Work with journeys in Employee Center, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Managers, mentors, and employees work with journeys in the Employee Center, Using Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Mentors can modify and manage journeys
+# Modify and manager journeys as a mentor
 
 Mentors with the appropriate permission can modify journeys and add other mentors.
 

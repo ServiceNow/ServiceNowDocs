@@ -1,16 +1,16 @@
 ---
-title: Node and edge configurations and property settings
+title: Node and edge configurations and property setting from the UI
 description: To access the Node map configuration from the Operational Resilience Workspace, BCM administrators must set up the Main node configurations. Once the Main node configuration table is set up, it enables you to create configurations for entities such as services, business services, offerings, business processes, and application services. You can update the properties, node, and edge configuration details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/configuration-for-node-map.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-11-03"
 reading_time_minutes: 2
 breadcrumb: [Nexus map configurations, Main node configurations: A component of the Data Relationship Framework, Explore, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Node and edge configurations and property settings
+# Node and edge configurations and property setting from the UI
 
 To access the Node map configuration from the Operational Resilience Workspace, BCM administrators must set up the Main node configurations. Once the Main node configuration table is set up, it enables you to create configurations for entities such as services, business services, offerings, business processes, and application services. You can update the properties, node, and edge configuration details.
 

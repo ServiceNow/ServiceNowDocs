@@ -1,26 +1,24 @@
 ---
 title: Extend Your AI Search
-description: This Accelerator provides prescriptive guidance on extending your AI Search beyond the foundational level.
+description: This accelerator provides prescriptive guidance on extending your AI Search beyond the foundational level.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/extend-your-ai-search.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
 ---
 
 # Extend Your AI Search
 
-This Accelerator provides prescriptive guidance on extending your AI Search beyond the foundational level.
+This accelerator provides prescriptive guidance on extending your AI Search beyond the foundational level.
 
 ## Accelerator Overview
 
 Extend your AI Search provides Impact customers with advanced tools and insights to extend their AI Search capabilities beyond the foundational level. This offering explores advanced configuration options, enabling customers to greatly enhance the reach and performance of AI Search across their instance stack. This Accelerator also includes key resources and leading practice guides to optimize implementation and drive increased usage.
-
-## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -28,10 +26,8 @@ Extend your AI Search provides Impact customers with advanced tools and insights
 
 -   **Session Preparation**
 
-    The Technical Accelerator Consultant:
-
-    -   Provisions a temporary instance 
-    -   If applicable, activates and configures related plug-ins
+    -   Provision a temporary instance 
+    -   If applicable, activate and configure related plug-ins
     ​
 
 -   **Customer Coaching Session \#1 \(Up to 90 minutes\)**
@@ -72,7 +68,5 @@ Refer to the applicable Impact Accelerator description available at [https://www
 
 This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
 
-## Exclusions
-
-ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
+ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

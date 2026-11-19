@@ -7,7 +7,7 @@ release: yokohama
 product: Application Manager
 classification: application-manager
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Updating apps, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -29,41 +29,37 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 1.  Navigate to the **Updates** tab of Application Manager in one of the following ways.
 
-    -   Navigate to **Admin** &gt; **Application Manager**.
-    -   Navigate to **All** &gt; **Admin** &gt; **Application Manager**.
-2.  Select the **Updates** tab.
-
-    If nothing is displayed in the **Updates** tab, try selecting **Sync now** to sync your instance with the latest application versions available on the ServiceNow Store. If no applications are populated in your **Updates** tab after the sync, the latest application versions available for your instance are already installed.
-
-3.  Find and select the application or plugin that you want to update.
+    -   Navigate to **Admin** &gt; **Application Manager** &gt; **Updates**.
+    -   Navigate to **All** &gt; **Admin** &gt; **Application Manager** &gt; **Updates**.
+2.  Find and select the application or plugin that you want to update.
 
     You can search for an application or plugin by name, or use the sort and filter options available in the Application Manager.
 
-4.  From the Summary section of the details page, select **Proceed to update**.
+3.  From the Summary section of the details page, select **Proceed to update**.
 
-5.  Select a compatibleapplication version or a compatible AI Suites versionfrom the version drop-down menu.
+4.  Select a compatibleapplication version or a compatible Now Assist Suite versionfrom the version drop-down menu.
 
-    For additional information about AI Suites, see [Now Assist suite versions in the Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
+    For additional information about Now Assist Suites, see [Now Assist suite versions in the Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
 
-6.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
+5.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
     Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/manage-customizations-store-apps.md).
 
-7.  If the application or plugin has dependencies, verify that all necessary dependencies can be updated or installed.
+6.  If the application or plugin has dependencies, verify that all necessary dependencies can be updated or installed.
 
     If any dependencies are categorized as "Needs to be procured from store" or "Installation blocked," procure the necessary dependencies and sync the Application Manager with the ServiceNow Store before continuing. For more information about unavailable dependencies that block updates, see [Updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/application-manager/updating-apps-app-manager.md).
 
-8.  Install the update now or schedule installation for a later time.
+7.  Install the update now or schedule installation for a later time.
 
-<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d97977e244">
+<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d90925e223">
 
 Installation option
 
-</th><th align="left" id="d97977e247">
+</th><th align="left" id="d90925e226">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d97977e253">
+</th></tr></thead><tbody><tr><td id="d90925e232">
 
 **Install now**
 
@@ -73,7 +69,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d97977e277">
+</td></tr><tr><td id="d90925e256">
 
 **Install later**
 

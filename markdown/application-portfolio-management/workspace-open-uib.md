@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/workspace-open-uib.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Explore Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Open a Configurable Workspace experience in UI Builder
@@ -16,7 +16,7 @@ Access your Configurable Workspace experience in UI Builder for editing.
 
 ## Before you begin
 
-Role required: ui\_builder\_admin or admin
+Role required: admin, ui\_builder\_admin
 
 ## Procedure
 

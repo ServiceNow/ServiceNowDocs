@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistinaisearch-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -252,7 +252,7 @@ Xanadu
 Now Assist in AI Search is installed when you install any of the following licensed applications from the ServiceNow Store.
 
 -   
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -290,7 +290,7 @@ Now Assist in AI Search is installed when you install any of the following licen
     -   [Now Assist in CM Pro](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&family=yokohama&ft:locale=en-US)
     -   [Now Assist in Conversational Spokes](https://www.servicenow.com/docs/access?context=conv-spokes-na&family=yokohama&ft:locale=en-US)
     -   [ServiceNow Lens](https://www.servicenow.com/docs/access?context=servicenow-lens-landing-page&family=yokohama&ft:locale=en-US)
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Now Assist in AI Search is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -455,7 +455,7 @@ Yokohama
 
  [Yokohama Patch 6](https://www.servicenow.com/docs/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 -   Increase search recall with semantic indexing of Catalog Item short descriptions.
 
  [Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)

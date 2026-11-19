@@ -7,9 +7,9 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [PowerShell activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
+breadcrumb: [PowerShell activity pack, Orchestration activity packs, Classic Orchestration, Data and Automation]
 ---
 
 # PowerShell activity designer

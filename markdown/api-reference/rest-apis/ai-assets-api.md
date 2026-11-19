@@ -7,8 +7,8 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 83
+last_updated: "2025-01-30"
+reading_time_minutes: 82
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -56,9 +56,7 @@ sys\_id
 
 </td><td>
 
-Sys\_id of the asset.Table: AI Dataset Asset \[alm\_ai\_dataset\_digital\_asset\]
-
-Data type: String
+Sys\_id of the asset in the AI Dataset Asset \[alm\_ai\_dataset\_digital\_asset\] table.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -161,12 +159,12 @@ result.acceptable\_usage.value
 
 </td><td>
 
-The purpose of the dataset or model, like for training or evaluation.Valid values:
+Number value of the acceptable usage.Valid values:
 
--   `1`: indicates training purpose
--   `2`: indicates an evaluative purpose
+-   1: Training
+-   2: Evaluation
 
-Data type: String \(number\)
+Data type: String
 
 </td></tr><tr><td>
 
@@ -310,9 +308,7 @@ result.provider
 
 </td><td>
 
-Provider of the associated AI Dataset Product Model record.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
-
-Data type: Object
+Provider of the associated AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\] table record.Data type: Object
 
 ```
 provider: {
@@ -327,9 +323,7 @@ result.provider.name
 
 </td><td>
 
-Name of the provider.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
-
-Data type: String
+Name of the provider.Data type: String
 
 </td></tr><tr><td>
 
@@ -337,9 +331,7 @@ result.provider.sys\_id
 
 </td><td>
 
-Sys\_id of the provider in the associated AI Dataset Product Model record.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
-
-Data type: String
+Sys\_id of the provider in the associated AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -364,12 +356,12 @@ result.state
 
 State of the AI Dataset Asset record.Possible values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -484,9 +476,7 @@ sys\_id
 
 </td><td>
 
-Sys\_id of the asset.Table: AI Model Asset \[alm\_ai\_model\_digital\_asset\]
-
-Data type: String
+Sys\_id of the asset in the AI Model Asset \[alm\_ai\_model\_digital\_asset\] table.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -600,9 +590,7 @@ result.base\_model.sys\_id
 
 </td><td>
 
-Sys\_id of the AI model asset to model this AI model after.Table: AI Model Asset \[alm\_ai\_model\_digital\_asset\]
-
-Data type: String
+Sys\_id of the AI model asset to model this AI model after.Data type: String
 
 </td></tr><tr><td>
 
@@ -636,9 +624,17 @@ result.description
 
 </td><td>
 
-Description to give the AI Model Product Model. Table: AI Model Product Model \[cmdb\_ai\_model\_product\_model\]
+Description to give the AI Model Product Model. Updated in table: AI Model Product Model \[cmdb\_ai\_model\_product\_model\]
 
 Data type: String
+
+</td></tr><tr><td>
+
+result.result.display\_name
+
+</td><td>
+
+Display name of the asset record.Data type: String
 
 </td></tr><tr><td>
 
@@ -656,7 +652,7 @@ result.evaluation\_datasets
 
 </td><td>
 
-Comma-separated list of sys\_ids or display names of AI datasets of the AI Dataset Digital Asset used for evaluating the model. Mostly applicable for models developed within an organization.
+Comma-separated list of sys\_ids or display names of AI datasets of the AI Dataset Digital Asset used for evaluating the model. Mostly applicable for models developed within an organization.Tables: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\]
 
 Data type: Array
 
@@ -731,17 +727,9 @@ result.name
 
 </td><td>
 
-Required. Name of the AI Model Product Model. Table: AI Model Product Model \[cmdb\_ai\_model\_product\_model\]
+Required. Name of the AI Model Product Model. Updated in table: AI Model Product Model \[cmdb\_ai\_model\_product\_model\]
 
 Data type: String
-
-</td></tr><tr><td>
-
-result.parameters\_info
-
-</td><td>
-
-Properties of the training data that learn during the learning process. For example: `7B` or `30B`.Data type: String
 
 </td></tr><tr><td>
 
@@ -749,7 +737,7 @@ result.provider
 
 </td><td>
 
-Provider of the associated AI Dataset Product Model record.Data type: Object
+Provider of the associated AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\] table record.Data type: Object
 
 ```
 provider: {
@@ -760,23 +748,19 @@ provider: {
 
 </td></tr><tr><td>
 
-result.provider.name
-
-</td><td>
-
-Name of the provider.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
-
-Data type: String
-
-</td></tr><tr><td>
-
 result.provider.sys\_id
 
 </td><td>
 
-Sys\_id of the provider in the associated AI Dataset Product Model record.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
+Sys\_id of the provider in the associated AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\] table record.Data type: String
 
-Data type: String
+</td></tr><tr><td>
+
+result.provider.name
+
+</td><td>
+
+Name of the provider.Data type: String
 
 </td></tr><tr><td>
 
@@ -785,14 +769,6 @@ result.required\_infrastructure
 </td><td>
 
 Documentation of infrastructure needs for the model deployment. For example, details about the infrastructure stack and processing needs. Mostly applicable for models deployed within an organization.Data type: String
-
-</td></tr><tr><td>
-
-result.result.display\_name
-
-</td><td>
-
-Display name of the asset record.Data type: String
 
 </td></tr><tr><td>
 
@@ -815,12 +791,12 @@ result.state
 
 State to apply to the AI Model Asset.Possible values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -868,56 +844,6 @@ result.sys\_id
 </td><td>
 
 Sys\_id of the AI model asset record.Table: AI Model Asset \[alm\_ai\_model\_digital\_asset\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-result.training\_datasets
-
-</td><td>
-
-Reference to 1+ associated data sets used for training the model.Data type: Array
-
-```
-"training_datasets": [
-  { 
-  "name": "String",
-  "sys_id": "String"
-  } 
-]
-```
-
-</td></tr><tr><td>
-
-result.training\_procedure
-
-</td><td>
-
-Type of AI training applied to the model.Possible values:
-
--   1: Decision Trees
--   2: Deep Neural Networks
--   3: Linear Regression
--   4: Logistic Regression
--   5: Random Forest
--   6: Supervised Learning
--   7: Unsupervised Learning
--   8: Reinforcement Learning
--   9: Transfer Learning
--   10: Semi-Supervised Learning
--   11: Instruction Finetuning
--   12: Supervised Finetuning
-
-Data type: String
-
-</td></tr><tr><td>
-
-result.updated
-
-</td><td>
-
-Date and time that the AI model asset was last updated.Format: YYYY-MM-DD HH:mm:ss
 
 Data type: String
 
@@ -1036,9 +962,7 @@ sys\_id
 
 </td><td>
 
-Sys\_id of the asset.Table: AI Prompt Asset \[alm\_ai\_prompt\_digital\_asset\]
-
-Data type: String
+Sys\_id of the asset in the AI Prompt Asset \[alm\_ai\_prompt\_digital\_asset\] table.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -1201,9 +1125,7 @@ result.managed\_by.name
 
 </td><td>
 
-Name of the user who manages the asset record.Tables: User \[sys\_user\], AI Prompt Asset \[alm\_ai\_model\_digital\_asset\]
-
-Data type: String
+Name of the user who manages the asset record.Data type: String
 
 </td></tr><tr><td>
 
@@ -1241,9 +1163,7 @@ result.provider
 
 </td><td>
 
-Provider of the AI Prompt Product Model record.Table: AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\]
-
-```
+Provider of the AI Prompt Product Model record.```
 "provider": {
   "name": "String",
   "sys_id": "String"
@@ -1258,9 +1178,7 @@ result.provider.name
 
 </td><td>
 
-Name of the associated AI Prompt Product Model record.Table: AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\]
-
-Data type: String
+Name of the associated AI Prompt Product Model record.Data type: String
 
 </td></tr><tr><td>
 
@@ -1268,7 +1186,7 @@ result.provider.sys\_id
 
 </td><td>
 
-Sys\_id of the Company table record that corresponds to the provider of the associated AI Prompt Product Model record.Tables: Company \[core\_company\], AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\]
+Sys\_id of the Company \[core\_company\] table record that corresponds to the Provider of the associated AI Prompt Product Model record.Tables: Company \[core\_company\], AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\]
 
 Data type: String
 
@@ -1280,12 +1198,12 @@ result.state
 
 State of the AI Prompt Asset record.Possible values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -1395,9 +1313,7 @@ sys\_id
 
 </td><td>
 
-Sys\_id of the asset.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: String
+Sys\_id of the asset in the AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] table.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -1474,9 +1390,7 @@ result.ai\_models
 
 </td><td>
 
-List of AI models in the AI System Digital Asset record.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: Array
+List of AI models in the AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] table record.Data type: Array
 
 ```
 "ai_models": [
@@ -1724,16 +1638,16 @@ result.state
 
 </td><td>
 
-State of the AI System Asset record.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
+State of the AI System Asset record.Possible values:
 
-Possible values:
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
 
 Data type: String
 
@@ -1886,16 +1800,39 @@ Description
 
 </td></tr><tr><td>
 
+\{object\}
+
+</td><td>
+
+```
+{
+  "acceptable_usage": "String",
+  "base_datasets": [Array],
+  "dataset_card": "String"
+  "data_type": "String",
+  "description": "String",
+  "documentation": "String",
+  "managed_by": "String", 
+  "name": "String", 
+  "provider": "String",
+  "state": "String" 
+  "source": "String",
+  "version": "String"
+}
+```
+
+</td></tr><tr><td>
+
 \{object\}.acceptable\_usage
 
 </td><td>
 
-The purpose of the dataset or model, like for training or evaluation.Valid values:
+Determines how a dataset or model can be used, typically for training or evaluation purposes.Valid values:
 
--   `1`: indicates training purpose
--   `2`: indicates an evaluative purpose
+-   1: Training
+-   2: Evaluation
 
-Data type: String \(number\)
+Data type: String
 
 </td></tr><tr><td>
 
@@ -1906,7 +1843,7 @@ Data type: String \(number\)
 Comma-separated list of base datasets needed to build this dataset. Accepts names or sys\_ids of datasets present in AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\] table.Data type: Array
 
 ```
-“base_datasets”: ["String", “String"]
+“base_datasets”: [ “String”, “String”]
 ```
 
 </td></tr><tr><td>
@@ -1931,9 +1868,7 @@ The data set card. A dataset\_card is a metadata document that describes the con
 
 </td><td>
 
-Description of the associated AI Dataset Product Model.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
-
-Data type: String
+Description of the associated record in the AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\] table.Data type: String
 
 </td></tr><tr><td>
 
@@ -1941,9 +1876,7 @@ Data type: String
 
 </td><td>
 
-Documentation for the AI Dataset Product Model.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
-
-Data type: String
+Documentation for the AI Dataset Product Model.Data type: String
 
 </td></tr><tr><td>
 
@@ -1951,7 +1884,10 @@ Data type: String
 
 </td><td>
 
-Sys\_id or name value of the user in the Managed by field of the AI Dataset Product Model record. Tables: User \[sys\_user\], AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
+Value of the Managed by field of an existing User \[sys\_user\] table record. Valid values:
+
+-   Name of the User \[sys\_user\] record
+-   Sys\_id of the User \[sys\_user\] record
 
 Data type: String
 
@@ -1969,7 +1905,12 @@ Required. Name of the associated record in the AI Dataset Product Model \[cmdb\_
 
 </td><td>
 
-Required. Sys\_id or name value of the Provider field of the Company \[core\_company\] table record.Data type: String
+Required. Value of the Provider field of an existing record in the Company \[core\_company\] table. Valid values:
+
+-   Name of the Company \[core\_company\] record
+-   Sys\_id of the Company \[core\_company\] record
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -1994,12 +1935,12 @@ Default: empty or null
 
 State of the AI dataset asset.Valid values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -2103,12 +2044,12 @@ result.acceptable\_usage.value
 
 </td><td>
 
-The purpose of the dataset or model, like for training or evaluation.Valid values:
+Number value of the acceptable usage.Valid values:
 
--   `1`: indicates training purpose
--   `2`: indicates an evaluative purpose
+-   1: Training
+-   2: Evaluation
 
-Data type: String \(number\)
+Data type: String
 
 </td></tr><tr><td>
 
@@ -2252,9 +2193,7 @@ result.provider
 
 </td><td>
 
-Provider of the associated AI Dataset Product Model record.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
-
-Data type: Object
+Provider of the associated AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\] table record.Data type: Object
 
 ```
 provider: {
@@ -2269,9 +2208,7 @@ result.provider.sys\_id
 
 </td><td>
 
-Sys\_id of the provider in the associated AI Dataset Product Model record.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
-
-Data type: String
+Sys\_id of the provider in the associated AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -2279,9 +2216,7 @@ result.provider.name
 
 </td><td>
 
-Name of the provider.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
-
-Data type: String
+Name of the provider.Data type: String
 
 </td></tr><tr><td>
 
@@ -2306,12 +2241,12 @@ result.state
 
 State of the AI Dataset Asset record.Possible values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -2371,12 +2306,12 @@ curl -X POST 'https://instance.servicenow.com/api/sn_ent/asset/ai_dataset' \
   "provider": "servicenow", 
   "version": "V1", 
   "state": 31, 
-  "source”: "Source of dataset”,
+  “source”: “Source of dataset” 
   "documentation": "document", 
-  "dataset_card”: "Dataset Card”, 
-  "base_datasets”: ["Dataset Two”, "Dataset Three”], 
-  "data_type”: "1,2”, 
-  "acceptable_usage”: "1,2”, 
+  “dataset_card”: “Dataset Card”, 
+  “base_datasets”: [ “Dataset Two”, “Dataset Three”], 
+  “data_type”: “1,2”, 
+  “acceptable_usage”: “1,2”, 
   "managed_by": "abel.tuter" 
 }'
 ```
@@ -2490,7 +2425,10 @@ ai\_model
 
 </td><td>
 
-Name of sys\_id value of the AI Model field in the AI Model Digital Asset record.Table: AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]
+Value of the AI Model field of an existing record in the AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\] table.Valid values:
+
+-   Name of the AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\] record
+-   Sys\_id of the AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\] record
 
 Data type: String
 
@@ -2514,9 +2452,7 @@ documentation
 
 </td><td>
 
-Documentation of the AI Prompt Product Model.Table: AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\]
-
-Data type: String
+Documentation of the AI Prompt Product Model.Data type: String
 
 Default: empty string
 
@@ -2526,7 +2462,10 @@ managed\_by
 
 </td><td>
 
-Name or sys\_id of the user that manages the asset. Located in the Managed by field of the asset record.Tab;e: User \[sys\_user\]
+Value of the Managed by field of an existing record in the User \[sys\_user\] table.Valid values:
+
+-   Name of the User \[sys\_user\] record
+-   Sys\_id of the User \[sys\_user\] record
 
 Data type: String
 
@@ -2558,7 +2497,10 @@ provider
 
 </td><td>
 
-Required. Provider name or sys\_id of the Company table record.Table: Company \[core\_company\]
+Required. Value of the Provider field of an existing record in the Company \[core\_company\] table.Valid values:
+
+-   Name of the Company \[core\_company\] record
+-   Sys\_id of the Company \[core\_company\] record
 
 Data type: String
 
@@ -2570,12 +2512,12 @@ state
 
 State to apply to the AI Model Asset. For example, Valid values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -2673,9 +2615,7 @@ result.asset.ai\_model
 
 </td><td>
 
-List of AI models in the AI System Asset table record.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: Array
+List of AI models in the AI System Asset \[cmdb\_ai\_ system\_asset\_model\] table record.Data type: Array
 
 ```
 "ai_model": [
@@ -2692,9 +2632,7 @@ result.asset.ai\_models.name
 
 </td><td>
 
-Name of the AI System Digital Asset record.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: String
+Name of the AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -2702,9 +2640,7 @@ result.asset.ai\_models.sys\_id
 
 </td><td>
 
-Sys\_id of the AI System Digital Asset record.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: String
+Sys\_id of the AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -2739,9 +2675,7 @@ result.asset.ai\_prompts.sys\_id
 
 </td><td>
 
-Sys\_id of the AI System Digital Asset record.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: String
+Sys\_id of the AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -2779,9 +2713,7 @@ result.asset.documentation
 
 </td><td>
 
-Documentation of the associated AI System Product Model record.Table: AI System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: String
+Documentation of the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -2886,9 +2818,7 @@ result.asset.provider
 
 </td><td>
 
-Value of the provider field in the associated AI System Product Model record.Table: AI System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: Object
+Value of the Provider field in the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: Object
 
 ```
 provider: {
@@ -2903,9 +2833,7 @@ result.asset.provider.name
 
 </td><td>
 
-Name of the provider in the associated AI System Product Model record.Table: AI System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: String
+Name of the provider in the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -2913,9 +2841,7 @@ result.asset.provider.sys\_id
 
 </td><td>
 
-Sys\_id of the provider in the associated AI System Product Model record.Table: AI System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: String
+Sys\_id of the provider in the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -2925,12 +2851,12 @@ result.asset.state
 
 State of the AI Model Asset. Possible values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -3283,7 +3209,10 @@ Default: empty string
 
 </td><td>
 
-Required. Sys\_id or name of the user to assign the Provider field in the AI Model Product Model record.Table: Company \[core\_company\]
+Required. Value of the 'Provider' field of existing record in Company \[core\_company\] table. Assigns this provider to the new AI model.Valid values:
+
+-   Name of the Company \[core\_company\] record
+-   Sys\_id of the Company \[core\_company\] record
 
 Data type: String
 
@@ -3322,12 +3251,12 @@ Default: empty or null
 
 State to apply to the AI Model Asset.Valid values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -3348,8 +3277,8 @@ Comma-separated list of languages that are supported by the AI Model.Data type: 
 
 Valid values:
 
--   Sys\_id of the Language \[sys\_language\] record.
--   Name of the Language \[sys\_language\] record. For example, `"French", "English"`.
+-   Sys\_id of Language \[sys\_language\] record
+-   Name of Language \[sys\_language\] record. For example, `"French", "English"`.
 
 Default: empty string
 
@@ -3376,20 +3305,20 @@ Default: empty string
 
 </td><td>
 
-Number indicating the type of training to apply to the AI model.Valid values:
+Type of training to apply to the AI model.Valid values:
 
--   `1`: Decision Trees
--   `2`: Deep Neural Networks
--   `3`: Linear Regression
--   `4`: Logistic Regression
--   `5`: Random Forest
--   `6`: Supervised Learning
--   `7`: Unsupervised Learning
--   `8`: Reinforcement Learning
--   `9`: Transfer Learning
--   `10`: Semi-Supervised Learning
--   `11`: Instruction Finetuning
--   `12`: Supervised Finetuning
+-   1: Decision Trees
+-   2: Deep Neural Networks
+-   3: Linear Regression
+-   4: Logistic Regression
+-   5: Random Forest
+-   6: Supervised Learning
+-   7: Unsupervised Learning
+-   8: Reinforcement Learning
+-   9: Transfer Learning
+-   10: Semi-Supervised Learning
+-   11: Instruction Finetuning
+-   12: Supervised Finetuning
 
 Data type: String represented with a number \(for example, `"3"`\)
 
@@ -3589,7 +3518,7 @@ result.asset.evaluation\_datasets
 
 </td><td>
 
-AI datasets used for evaluating the model. Mostly applicable for models developed within an organization.Tables: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\], AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]
+Comma-separated list of sys\_ids or display names of AI datasets of the AI Model Digital Asset used for evaluating the model. Mostly applicable for models developed within an organization.Tables: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\], AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]
 
 Data type: Array
 
@@ -3608,9 +3537,7 @@ result.evaluation\_datasets.name
 
 </td><td>
 
-Name of the AI Dataset Digital Asset.Table: AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]
-
-Data type: String
+Name of the AI Dataset Digital Asset.Data type: String
 
 </td></tr><tr><td>
 
@@ -3711,9 +3638,7 @@ result.asset.provider.name
 
 </td><td>
 
-Name of the the Company record that corresponds to the provider of the associated AI Model Product Model record.Tables: Company \[core\_company\], AI Model Product Model \[cmdb\_ai\_model\_product\_model\]
-
-Data type: String
+Name of the provider.Data type: String
 
 </td></tr><tr><td>
 
@@ -3721,7 +3646,7 @@ result.asset.provider.sys\_id
 
 </td><td>
 
-Sys\_id of the Company record that corresponds to the provider of the associated AI Model Product Model record.Tables: Company \[core\_company\], AI Model Product Model \[cmdb\_ai\_model\_product\_model\]
+Sys\_id of the record from Company \[core\_company\] table that corresponds to the Provider of the associated AI Model Product Model record.Table: AI Model Product Model \[cmdb\_ai\_model\_product\_model\]
 
 Data type: String
 
@@ -3746,12 +3671,12 @@ result.asset.state
 
 State of the AI Model Asset record.Possible values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -3808,22 +3733,22 @@ result.asset.training\_procedure
 
 </td><td>
 
-A numeric value indicating the type of AI training applied to the model.Possible values:
+Type of AI training applied to the model.Possible values:
 
--   `1`: Decision Trees
--   `2`: Deep Neural Networks
--   `3`: Linear Regression
--   `4`: Logistic Regression
--   `5`: Random Forest
--   `6`: Supervised Learning
--   `7`: Unsupervised Learning
--   `8`: Reinforcement Learning
--   `9`: Transfer Learning
--   `10`: Semi-Supervised Learning
--   `11`: Instruction Finetuning
--   `12`: Supervised Finetuning
+-   1: Decision Trees
+-   2: Deep Neural Networks
+-   3: Linear Regression
+-   4: Logistic Regression
+-   5: Random Forest
+-   6: Supervised Learning
+-   7: Unsupervised Learning
+-   8: Reinforcement Learning
+-   9: Transfer Learning
+-   10: Semi-Supervised Learning
+-   11: Instruction Finetuning
+-   12: Supervised Finetuning
 
-Data type: String represented by a number
+Data type: String
 
 </td></tr><tr><td>
 
@@ -3879,26 +3804,6 @@ Data type: Object
   }
 ]
 ```
-
-</td></tr><tr><td>
-
-result.asset.supported\_languages.name
-
-</td><td>
-
-Name of the language that is supported by the asset.Table: Language \[sys\_language\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-result.asset.supported\_languages.sys\_id
-
-</td><td>
-
-Sys\_id of the language that is supported by the asset.Table: Language \[sys\_language\]
-
-Data type: String
 
 </td></tr><tr><td>
 
@@ -4101,7 +4006,12 @@ object.provider
 
 </td><td>
 
-Required. Sys\_id or name value of the Provider field of the Company \[core\_company\] table record.Data type: String
+Required. Value of the Provider field in an existing Company \[core\_company\] table record. Valid values:
+
+-   Name of the Company \[core\_company\] record
+-   Sys\_id of the Company \[core\_company\] record
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -4111,12 +4021,12 @@ object.state
 
 State to apply to the AI System Asset. Valid values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -4148,13 +4058,14 @@ object.ai\_models
 
 </td><td>
 
-Comma-separated list of names or sys\_ids of the AI Model Digital Asset record, where each string represents an AI Model field value of an existing AI Model Digital Asset record.Table: AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]
+Comma-separated list of strings, where each string represents an AI Model field value of an existing AI Model Digital Asset record.Table: AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]
 
-Data type: Array of Strings
+Valid values:
 
-```
-"ai_models": [{String", "String"}]
-```
+-   Name of the AI Model Digital Asset record.
+-   Sys\_id of the AI Model Digital Asset record.
+
+Data type: String
 
 Default: empty string
 
@@ -4164,13 +4075,18 @@ object.evaluation\_datasets
 
 </td><td>
 
-Comma-separated list of names or sys\_ids of the AI datasets used for evaluating the AI System Asset record. Mostly applicable for models developed within an organization.Tables: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\], AI System Asset \[AI System Digital Asset alm\_ai\_system\_digital\_asset\]
+Comma-separated list of AI datasets used for evaluating the AI System Asset record. Mostly applicable for models developed within an organization.Tables: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\], AI System Asset \[AI System Digital Asset alm\_ai\_system\_digital\_asset\]
 
-Data type: Array of Strings
+Data type: Array
 
 ```
 "evaluation_datasets": [{String", "String"}]
 ```
+
+Valid values:
+
+-   Name of the AI Dataset Digital Asset record.
+-   Sys\_id of the AI Dataset Digital Asset record.
 
 Default: empty string
 
@@ -4202,7 +4118,12 @@ object.managed\_by
 
 </td><td>
 
-Sys\_id or name of the 'Managed by' field of an existing User \[sys\_user\] table record.Data type: String
+Value of the 'Managed by' field of an existing User \[sys\_user\] table record. Valid values:
+
+-   Name of the User \[sys\_user\] record
+-   Sys\_id of the User \[sys\_user\] record
+
+Data type: String
 
 Default: empty string
 
@@ -4290,9 +4211,7 @@ result.asset.ai\_models
 
 </td><td>
 
-List of AI models in the AI System Digital Asset record.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: Array
+List of AI models in the AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] record.Data type: Array
 
 ```
 "ai_models": [
@@ -4309,9 +4228,7 @@ result.asset.ai\_models.name
 
 </td><td>
 
-Name of the AI System Digital Asset record.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: String
+Name of the AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -4319,9 +4236,7 @@ result.asset.ai\_models.sys\_id
 
 </td><td>
 
-Sys\_id of the AI System Digital Asset record.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: String
+Sys\_id of the AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -4354,9 +4269,7 @@ result.asset.ai\_prompts.sys\_id
 
 </td><td>
 
-Sys\_id of the AI System Digital Asset record.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: String
+Sys\_id of the AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -4394,9 +4307,7 @@ result.asset.documentation
 
 </td><td>
 
-Documentation for the associated AI System Product Model record.Table: AI System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: String
+Documentation of the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -4423,9 +4334,7 @@ result.asset.evaluation\_datasets.name
 
 </td><td>
 
-Name of the AI Dataset Digital Asset.Table: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\]
-
-Data type: String
+Name of the AI Dataset Digital Asset.Data type: String
 
 </td></tr><tr><td>
 
@@ -4433,9 +4342,7 @@ result.asset.evaluation\_datasets.sys\_id
 
 </td><td>
 
-Sys\_id of the AI Dataset Digital Asset record.Table: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\]
-
-Data type: String
+Sys\_id of the AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -4505,9 +4412,7 @@ result.asset.provider
 
 </td><td>
 
-Value of the Provider field in the associated AI System Product Model record.Table: AI System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: Object
+Value of the Provider field in the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: Object
 
 ```
 provider: {
@@ -4522,9 +4427,7 @@ result.asset.provider.name
 
 </td><td>
 
-Name of the provider in the associated AI System Product Model record.Table: System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: String
+Name of the provider in the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -4532,9 +4435,7 @@ result.asset.provider.sys\_id
 
 </td><td>
 
-Sys\_id of the provider in the associated AI System Product Model record.Table: System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: String
+Sys\_id of the provider in the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -4544,12 +4445,12 @@ result.asset.state
 
 State of the AI Model Asset. Possible values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -4709,9 +4610,7 @@ sys\_id
 
 </td><td id="entry-ai-assetapi-datasetID">
 
-Sys\_id of the asset.Table: AI Dataset Asset \[alm\_ai\_dataset\_digital\_asset\]
-
-Data type: String
+Sys\_id of the asset in the AI Dataset Asset \[alm\_ai\_dataset\_digital\_asset\] table.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -4755,12 +4654,12 @@ Description
 
 </td><td>
 
-The purpose of the dataset or model, like for training or evaluation.Valid values:
+Determines how a dataset or model can be used, typically for training or evaluation purposes.Valid values:
 
--   `1`: indicates training purpose
--   `2`: indicates an evaluative purpose
+-   1: Training
+-   2: Evaluation
 
-Data type: String \(number\)
+Data type: String
 
 </td></tr><tr><td>
 
@@ -4771,7 +4670,7 @@ Data type: String \(number\)
 Comma-separated list of base datasets needed to build this dataset. Accepts names or sys\_ids of datasets present in AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\] table.Data type: Array
 
 ```
-“base_datasets”: ["String", “String"]
+“base_datasets”: [ “String”, “String”]
 ```
 
 </td></tr><tr><td>
@@ -4796,9 +4695,7 @@ The data set card. A dataset\_card is a metadata document that describes the con
 
 </td><td>
 
-Description of the associated AI Dataset Product Model.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
-
-Data type: String
+Description of the associated record in the AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\] table.Data type: String
 
 </td></tr><tr><td>
 
@@ -4806,9 +4703,7 @@ Data type: String
 
 </td><td>
 
-Documentation for the AI Dataset Product Model.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
-
-Data type: String
+Documentation for the AI Dataset Product Model.Data type: String
 
 </td></tr><tr><td>
 
@@ -4816,7 +4711,10 @@ Data type: String
 
 </td><td>
 
-Sys\_id or name value of the user in the Managed by field of the AI Dataset Product Model record. Tables: User \[sys\_user\], AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
+Value of the Managed by field of an existing User \[sys\_user\] table record. Valid values:
+
+-   Name of the User \[sys\_user\] record
+-   Sys\_id of the User \[sys\_user\] record
 
 Data type: String
 
@@ -4834,7 +4732,12 @@ Required. Name of the associated record in the AI Dataset Product Model \[cmdb\_
 
 </td><td>
 
-Required. Sys\_id or name value of the Provider field of the Company \[core\_company\] table record.Data type: String
+Required. Value of the Provider field of an existing record in the Company \[core\_company\] table. Valid values:
+
+-   Name of the Company \[core\_company\] record
+-   Sys\_id of the Company \[core\_company\] record
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -4859,12 +4762,12 @@ Default: empty or null
 
 State of the AI dataset asset.Valid values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -4969,12 +4872,12 @@ result.acceptable\_usage.value
 
 </td><td>
 
-The purpose of the dataset or model, like for training or evaluation.Valid values:
+Number value of the acceptable usage.Valid values:
 
--   `1`: indicates training purpose
--   `2`: indicates an evaluative purpose
+-   1: Training
+-   2: Evaluation
 
-Data type: String \(number\)
+Data type: String
 
 </td></tr><tr><td>
 
@@ -5118,9 +5021,7 @@ result.provider
 
 </td><td>
 
-Provider of the associated AI Dataset Product Model record.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
-
-Data type: Object
+Provider of the associated AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\] table record.Data type: Object
 
 ```
 provider: {
@@ -5135,9 +5036,7 @@ result.provider.name
 
 </td><td>
 
-Name of the provider.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
-
-Data type: String
+Name of the provider.Data type: String
 
 </td></tr><tr><td>
 
@@ -5145,9 +5044,7 @@ result.provider.sys\_id
 
 </td><td>
 
-Sys\_id of the provider in the associated AI Dataset Product Model record.Table: AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\]
-
-Data type: String
+Sys\_id of the provider in the associated AI Dataset Product Model \[cmdb\_ai\_dataset\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -5172,12 +5069,12 @@ result.state
 
 State of the AI Dataset Asset record.Possible values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -5328,9 +5225,7 @@ sys\_id
 
 </td><td>
 
-Sys\_id of the asset.Table: AI Prompt Asset \[alm\_ai\_prompt\_digital\_asset\]
-
-Data type: String
+Sys\_id of the asset in the AI Prompt Asset \[alm\_ai\_prompt\_digital\_asset\] table.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -5373,7 +5268,10 @@ ai\_model
 
 </td><td>
 
-Name of sys\_id value of the AI Model field in the AI Model Digital Asset record.Table: AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]
+Value of the AI Model field of an existing record in the AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\] table.Valid values:
+
+-   Name of the AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\] record
+-   Sys\_id of the AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\] record
 
 Data type: String
 
@@ -5397,9 +5295,7 @@ documentation
 
 </td><td>
 
-Documentation of the AI Prompt Product Model.Table: AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\]
-
-Data type: String
+Documentation of the AI Prompt Product Model.Data type: String
 
 Default: empty string
 
@@ -5409,7 +5305,10 @@ managed\_by
 
 </td><td>
 
-Name or sys\_id of the user that manages the asset. Located in the Managed by field of the asset record.Tab;e: User \[sys\_user\]
+Value of the Managed by field of an existing record in the User \[sys\_user\] table.Valid values:
+
+-   Name of the User \[sys\_user\] record
+-   Sys\_id of the User \[sys\_user\] record
 
 Data type: String
 
@@ -5441,7 +5340,10 @@ provider
 
 </td><td>
 
-Required. Provider name or sys\_id of the Company table record.Table: Company \[core\_company\]
+Required. Value of the Provider field of an existing record in the Company \[core\_company\] table.Valid values:
+
+-   Name of the Company \[core\_company\] record
+-   Sys\_id of the Company \[core\_company\] record
 
 Data type: String
 
@@ -5453,12 +5355,12 @@ state
 
 State to apply to the AI Model Asset. For example, Valid values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -5553,9 +5455,7 @@ result.asset.ai\_model
 
 </td><td>
 
-List of AI models in the AI System Asset table record.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: Array
+List of AI models in the AI System Asset \[cmdb\_ai\_ system\_asset\_model\] table record.Data type: Array
 
 ```
 "ai_model": [
@@ -5572,9 +5472,7 @@ result.asset.ai\_models.name
 
 </td><td>
 
-Name of the AI System Digital Asset record.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: String
+Name of the AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -5582,9 +5480,7 @@ result.asset.ai\_models.sys\_id
 
 </td><td>
 
-Sys\_id of the AI System Digital Asset record.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: String
+Sys\_id of the AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -5622,9 +5518,7 @@ result.asset.documentation
 
 </td><td>
 
-Documentation of the associated AI System Product Model record.Table: AI System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: String
+Documentation of the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -5687,9 +5581,7 @@ result.asset.provider
 
 </td><td>
 
-Value of the provider field in the associated AI System Product Model record.Table: AI System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: Object
+Value of the Provider field in the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: Object
 
 ```
 provider: {
@@ -5704,9 +5596,7 @@ result.asset.provider.name
 
 </td><td>
 
-Name of the provider in the associated AI System Product Model record.Table: AI System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: String
+Name of the provider in the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -5714,9 +5604,7 @@ result.asset.provider.sys\_id
 
 </td><td>
 
-Sys\_id of the provider in the associated AI System Product Model record.Table: AI System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: String
+Sys\_id of the provider in the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -5726,12 +5614,12 @@ result.asset.state
 
 State of the AI Model Asset. Possible values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -5868,9 +5756,7 @@ sys\_id
 
 </td><td id="entry-ai-assetapi-systemID">
 
-Sys\_id of the asset.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: String
+Sys\_id of the asset in the AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] table.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -5931,7 +5817,12 @@ object.provider
 
 </td><td>
 
-Required. Sys\_id or name value of the Provider field of the Company \[core\_company\] table record.Data type: String
+Required. Value of the Provider field in an existing Company \[core\_company\] table record. Valid values:
+
+-   Name of the Company \[core\_company\] record
+-   Sys\_id of the Company \[core\_company\] record
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -5941,12 +5832,12 @@ object.state
 
 State to apply to the AI System Asset. Valid values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -5978,13 +5869,14 @@ object.ai\_models
 
 </td><td>
 
-Comma-separated list of names or sys\_ids of the AI Model Digital Asset record, where each string represents an AI Model field value of an existing AI Model Digital Asset record.Table: AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]
+Comma-separated list of strings, where each string represents an AI Model field value of an existing AI Model Digital Asset record.Table: AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]
 
-Data type: Array of Strings
+Valid values:
 
-```
-"ai_models": [{String", "String"}]
-```
+-   Name of the AI Model Digital Asset record.
+-   Sys\_id of the AI Model Digital Asset record.
+
+Data type: String
 
 Default: empty string
 
@@ -5994,13 +5886,18 @@ object.evaluation\_datasets
 
 </td><td>
 
-Comma-separated list of names or sys\_ids of the AI datasets used for evaluating the AI System Asset record. Mostly applicable for models developed within an organization.Tables: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\], AI System Asset \[AI System Digital Asset alm\_ai\_system\_digital\_asset\]
+Comma-separated list of AI datasets used for evaluating the AI System Asset record. Mostly applicable for models developed within an organization.Tables: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\], AI System Asset \[AI System Digital Asset alm\_ai\_system\_digital\_asset\]
 
-Data type: Array of Strings
+Data type: Array
 
 ```
 "evaluation_datasets": [{String", "String"}]
 ```
+
+Valid values:
+
+-   Name of the AI Dataset Digital Asset record.
+-   Sys\_id of the AI Dataset Digital Asset record.
 
 Default: empty string
 
@@ -6032,7 +5929,12 @@ object.managed\_by
 
 </td><td>
 
-Sys\_id or name of the 'Managed by' field of an existing User \[sys\_user\] table record.Data type: String
+Value of the 'Managed by' field of an existing User \[sys\_user\] table record. Valid values:
+
+-   Name of the User \[sys\_user\] record
+-   Sys\_id of the User \[sys\_user\] record
+
+Data type: String
 
 Default: empty string
 
@@ -6121,9 +6023,7 @@ result.ai\_models
 
 </td><td>
 
-List of AI models in the AI System Digital Asset record.Table: AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]
-
-Data type: Array
+List of AI models in the AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] table record.Data type: Array
 
 ```
 "ai_models": [
@@ -6225,9 +6125,7 @@ result.asset.documentation
 
 </td><td>
 
-Documentation for the associated AI System Product Model record.Table: AI System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: String
+Documentation of the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -6254,9 +6152,7 @@ result.asset.evaluation\_datasets.name
 
 </td><td>
 
-Name of the AI Dataset Digital Asset.Table: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\]
-
-Data type: String
+Name of the AI Dataset Digital Asset.Data type: String
 
 </td></tr><tr><td>
 
@@ -6264,9 +6160,7 @@ result.asset.evaluation\_datasets.sys\_id
 
 </td><td>
 
-Sys\_id of the AI Dataset Digital Asset record.Table: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\]
-
-Data type: String
+Sys\_id of the AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -6336,9 +6230,7 @@ result.asset.provider
 
 </td><td>
 
-Value of the Provider field in the associated AI System Product Model record.Table: AI System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: Object
+Value of the Provider field in the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: Object
 
 ```
 provider: {
@@ -6353,9 +6245,7 @@ result.asset.provider.name
 
 </td><td>
 
-Name of the provider in the associated AI System Product Model record.Table: System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: String
+Name of the provider in the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -6363,9 +6253,7 @@ result.asset.provider.sys\_id
 
 </td><td>
 
-Sys\_id of the provider in the associated AI System Product Model record.Table: System Product Model \[cmdb\_ai\_ system\_product\_model\]
-
-Data type: String
+Sys\_id of the provider in the associated AI System Product Model \[cmdb\_ai\_ system\_product\_model\] table record.Data type: String
 
 </td></tr><tr><td>
 
@@ -6375,12 +6263,12 @@ result.asset.state
 
 State of the AI Model Asset. Possible values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -6533,9 +6421,7 @@ sys\_id
 
 </td><td id="entry-ai-assetapi-promptID">
 
-Sys\_id of the asset.Table: AI Prompt Asset \[alm\_ai\_prompt\_digital\_asset\]
-
-Data type: String
+Sys\_id of the asset in the AI Prompt Asset \[alm\_ai\_prompt\_digital\_asset\] table.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -6607,9 +6493,7 @@ base\_model.name
 
 </td><td>
 
-Name of the AI model asset to model this AI model after.Table: AI Model Digital Asset alm\_ai\_model\_digital\_asset
-
-Data type: String
+Name of the AI model asset to model this AI model after.Data type: String
 
 </td></tr><tr><td>
 
@@ -6718,7 +6602,10 @@ managed\_by
 
 </td><td>
 
-Sys\_id or name of the user in the 'Managed by' field of the AI Dataset Asset record. Table: User \[sys\_user\]
+Value of the 'Managed by' field of an existing record in the User \[sys\_user\] table. Valid values:
+
+-   Name of the User \[sys\_user\] record
+-   Sys\_id of the User \[sys\_user\] record
 
 Data type: String
 
@@ -6770,7 +6657,12 @@ provider
 
 </td><td>
 
-Required. Sys\_id or name value of the 'Provider' field of an existing Company \[core\_company\] table record. Assigns this provider to the new AI model.Data type: String
+Required. Value of the 'Provider' field of an existing Company \[core\_company\] table record. Assigns this provider to the new AI model.Valid values:
+
+-   Name of the Company \[core\_company\] record
+-   Sys\_id of the Company \[core\_company\] record
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -6805,12 +6697,12 @@ state
 
 State to apply to the AI Model Asset.Valid values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -6861,18 +6753,18 @@ training\_procedure
 
 Type of training to apply to the AI model.Valid values:
 
--   `1`: Decision Trees
--   `2`: Deep Neural Networks
--   `3`: Linear Regression
--   `4`: Logistic Regression
--   `5`: Random Forest
--   `6`: Supervised Learning
--   `7`: Unsupervised Learning
--   `8`: Reinforcement Learning
--   `9`: Transfer Learning
--   `10`: Semi-Supervised Learning
--   `11`: Instruction Finetuning
--   `12`: Supervised Finetuning
+-   1: Decision Trees
+-   2: Deep Neural Networks
+-   3: Linear Regression
+-   4: Logistic Regression
+-   5: Random Forest
+-   6: Supervised Learning
+-   7: Unsupervised Learning
+-   8: Reinforcement Learning
+-   9: Transfer Learning
+-   10: Semi-Supervised Learning
+-   11: Instruction Finetuning
+-   12: Supervised Finetuning
 
 Data type: String represented with a number \(for example, `"3"`\)
 
@@ -7080,7 +6972,7 @@ result.asset.evaluation\_datasets
 
 </td><td>
 
-AI datasets used for evaluating the model. Mostly applicable for models developed within an organization.Tables: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\], AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]
+Comma-separated list of sys\_ids or display names of AI datasets of the AI Model Digital Asset used for evaluating the model. Mostly applicable for models developed within an organization.Tables: AI Dataset Digital Asset \[alm\_ai\_dataset\_digital\_asset\], AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]
 
 Data type: Array
 
@@ -7099,9 +6991,7 @@ result.evaluation\_datasets.name
 
 </td><td>
 
-Name of the AI Dataset Digital Asset.Table: AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]
-
-Data type: String
+Name of the AI Dataset Digital Asset.Data type: String
 
 </td></tr><tr><td>
 
@@ -7202,9 +7092,7 @@ result.asset.provider.name
 
 </td><td>
 
-Name of the the Company record that corresponds to the provider of the associated AI Model Product Model record.Tables: Company \[core\_company\], AI Model Product Model \[cmdb\_ai\_model\_product\_model\]
-
-Data type: String
+Name of the provider.Data type: String
 
 </td></tr><tr><td>
 
@@ -7212,7 +7100,7 @@ result.asset.provider.sys\_id
 
 </td><td>
 
-Sys\_id of the Company record that corresponds to the provider of the associated AI Model Product Model record.Tables: Company \[core\_company\], AI Model Product Model \[cmdb\_ai\_model\_product\_model\]
+Sys\_id of the record from Company \[core\_company\] table that corresponds to the Provider of the associated AI Model Product Model record.Table: AI Model Product Model \[cmdb\_ai\_model\_product\_model\]
 
 Data type: String
 
@@ -7237,12 +7125,12 @@ result.asset.state
 
 State of the AI Model Asset record.Possible values:
 
--   In use
--   Deployed
--   Retired
--   Development
--   Unknown
--   N/A
+-   1: In use
+-   31: Deployed
+-   32: Retired
+-   33: Development
+-   34: Unknown
+-   35: N/A
 
 Data type: String
 
@@ -7299,22 +7187,22 @@ result.asset.training\_procedure
 
 </td><td>
 
-A numeric value indicating the type of AI training applied to the model.Possible values:
+Type of AI training applied to the model.Possible values:
 
--   `1`: Decision Trees
--   `2`: Deep Neural Networks
--   `3`: Linear Regression
--   `4`: Logistic Regression
--   `5`: Random Forest
--   `6`: Supervised Learning
--   `7`: Unsupervised Learning
--   `8`: Reinforcement Learning
--   `9`: Transfer Learning
--   `10`: Semi-Supervised Learning
--   `11`: Instruction Finetuning
--   `12`: Supervised Finetuning
+-   1: Decision Trees
+-   2: Deep Neural Networks
+-   3: Linear Regression
+-   4: Logistic Regression
+-   5: Random Forest
+-   6: Supervised Learning
+-   7: Unsupervised Learning
+-   8: Reinforcement Learning
+-   9: Transfer Learning
+-   10: Semi-Supervised Learning
+-   11: Instruction Finetuning
+-   12: Supervised Finetuning
 
-Data type: String represented by a number
+Data type: String
 
 </td></tr><tr><td>
 
@@ -7370,26 +7258,6 @@ Data type: Object
   }
 ]
 ```
-
-</td></tr><tr><td>
-
-result.asset.supported\_languages.name
-
-</td><td>
-
-Name of the language that is supported by the asset.Table: Language \[sys\_language\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-result.asset.supported\_languages.sys\_id
-
-</td><td>
-
-Sys\_id of the language that is supported by the asset.Table: Language \[sys\_language\]
-
-Data type: String
 
 </td></tr><tr><td>
 

@@ -1,29 +1,29 @@
 ---
 title: Create and edit shift in Service Operations Workspace
-description: A shift manager can create a shift using the Schedule menu or Teams menu in Service Operations Workspace.
+description: Shift manager can create a new shift using the Schedule menu or Teams menu in Service Operations Workspace
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/create-a-schedule-in-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-09-21"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configuring On-Call Scheduling in Service Operations Workspace, On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Scheduling in service operation workspace, On-Call Scheduling in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Create and edit shift in Service Operations Workspace
 
-A shift manager can create a shift using the **Schedule** menu or **Teams** menu in Service Operations Workspace.
+Shift manager can create a new shift using the **Schedule** menu or **Teams** menu in Service Operations Workspace
 
 ## About this task
 
-There are two ways to create and edit a shift for one team at a time:
+There are two ways to create and edit a shift:
 
--   Navigate to **Workspaces** &gt; **Service Operation Workspace** and select \[Omitted image "icon-sr-teams.png"\] Alt text: Teams menu. Select a team to view details and select the **schedules** tab.
+-   Navigate to **Workspaces** &gt; **Service Operation Workspace** and select \[Omitted image "icon-sr-teams.png"\] Alt text: Teams menu. Select a team to view details and click **schedules** tab.
 -   Navigate to **Workspaces** &gt; **Service Operation Workspace** and select \[Omitted image "show-schedules-icon.png"\] Alt text: Schedules menu.
 
-**Note:** To associate a shift template with multiple teams or groups at one time, use the On-call Onboarding wizard. For more information, see [On-call Onboarding wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
+Get an overview of how to create and edit a shift in this video.
 
 ## Before you begin
 
@@ -31,9 +31,9 @@ Role required: rota\_manager, rota\_admin
 
 ## Procedure
 
-1.  On the **Schedules** page, select **Create shift** and provide values for the following fields on the **Create new** shift form:
+1.  On **Schedules** page, select **Create shift** and provide values for the following fields on the **Create new** shift form:
 
-    If you select **Create new**, provide the following details and select **Create shift**: \[Omitted image "create\_shift\_schedule\_sow.png"\] Alt text: Create shift form
+    If you select **Create New**, provide the following details and select **Create shift**: \[Omitted image "create\_shift\_schedule\_sow.png"\] Alt text: Create shift form
 
 <table id="table_d1x_z3z_21c"><thead><tr><th>
 
@@ -57,7 +57,7 @@ All day shift
 
 </td><td>
 
-Toggle for all-day commitment.
+Toggle for all day commitment.
 
 </td></tr><tr><td>
 
@@ -125,7 +125,7 @@ Repeats until
 Date and time to end repetition.
 
 </td></tr></tbody>
-</table>    For **Use template**, fill in the fields, as appropriate.
+</table>    For **Use shift template**, fill in the fields, as appropriate.
 
 <table id="table_zl1_djz_21c"><thead><tr><th>
 
@@ -145,11 +145,11 @@ Name for the shift.
 
 </td></tr><tr><td>
 
-Schedule
+Template/Schedule
 
 </td><td>
 
-Existing schedule templates for shifts.Choices are:
+Existing templates for shifts.Choices are:
 
 -   24 x 7
 -   Off hours \(workday 8:00 - 5:00\)
@@ -159,11 +159,11 @@ Existing schedule templates for shifts.Choices are:
 
 
 </td></tr></tbody>
-</table>    The shift is created.
+</table>    You have successfully created a new shift.
 
 2.  To edit a shift, right-click the shift card and select the icon\[Omitted image "edit-icon.png"\] Alt text: Edit shift
 
-    Shift details open in the side panel.
+    Shift details open up in the side panel.
 
 3.  From the shift details in the side panel, you can update the following shift details:
 
@@ -200,16 +200,8 @@ Update the shift details:\[Omitted image "edit\_shift\_details\_tab\_sow.png"\] 
 
 Update the shift details:\[Omitted image "edit\_shift\_members\_tab\_sow.png"\] Alt text: Members form
 
--   Type of rotation interval. Possible options are:
-    -   Daily
-    -   Weekly
-    -   Monthly
-
-**Note:** This option is available only for the 2024 schedule engine. For information about this schedule engine, see [On-Call Scheduling new schedule engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/oncall-schedule-engine.md).
-
--   Rotation frequency for weekly interval
--   Rotation frequency for monthly interval. Also, specify if the roster rotation should start on the last day of the month or any specific day of the month.
--   Day of the week or month for rotation
+-   Repeats every week
+-   Day of the week for rotation
 -   Add rotation
 -   Add/delete/rename responder level
 
@@ -220,10 +212,10 @@ Update the shift details:\[Omitted image "edit\_shift\_members\_tab\_sow.png"\] 
 
 </td><td>
 
-View the escalation policy and select **Open Team Record** to go to the team record. \[Omitted image "edit\_shift\_escalation\_policies\_tab\_sow.png"\] Alt text: Escalation policies form
+View escalation policy and click **Open Team Record** go to the team record. \[Omitted image "edit\_shift\_escalation\_policies\_tab\_sow.png"\] Alt text: Escalation policies form
 
 </td></tr></tbody>
-</table>4.  After updating the shift details, select **Save &amp; publish** to save the changes.
+</table>4.  After updating the shift details, click **Save &amp; publish** to save the changes.
 
 5.  Select the \[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: More icon icon to change shift to draft mode, delete, or deactivate/activate the selected shift.
 
@@ -232,5 +224,5 @@ View the escalation policy and select **Open Team Record** to go to the team rec
     You can also select \[Omitted image "icon-sr-more-actions-vertical.png"\] Alt text: More icon to change shift color.
 
 
-**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)
+**Parent Topic:**[Scheduling in service operation workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)
 

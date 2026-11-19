@@ -1,18 +1,18 @@
 ---
-title: Configure an email template
-description: Configure email templates to quickly create emails for common issues.
+title: Set up email templates in Configurable Workspace
+description: Use email templates to quickly create emails for common issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/configure-email-templates.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Emails, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Administering emails in Configurable Workspace, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Configure an email template
+# Set up email templates in Configurable Workspace
 
-Configure email templates to quickly create emails for common issues.
+Use email templates to quickly create emails for common issues.
 
 ## Before you begin
 
@@ -22,28 +22,12 @@ Role required: email\_client\_admin
 
 1.  Navigate to **All** &gt; **Email Client** &gt; **Email Client Templates**.
 
-2.  Select **New**.
+2.  Configure a new email template by selecting the **New** button in the Email Client Templates page.
 
-    A new Email Client Template record opens.
+3.  Complete the fields with the template settings you want.
 
-3.  Complete the following fields:
+4.  Select **Submit**.
 
-    -   **Name**
-
-        Enter a name for the email template.
-
-    -   **Table**
-
-        Select the table where the email template will apply.
-
-    -   **Conditions**
-
-        Select conditions to determine when the email template will apply.
-
-4.  From the **Content** tab, enter the content that will apply to the email template.
-
-5.  From the **Recipients** tab, enter recipients that will apply to the email template.
-
-6.  Select **Submit**.
+    \[Omitted image "new-email-template.png"\] Alt text: New email template configuration
 
 

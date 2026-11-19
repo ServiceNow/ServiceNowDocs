@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [CAM reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Fields on the Authorization Boundary form
@@ -46,7 +46,7 @@ Operational status
 
 </td><td>
 
-Option to set the status of the boundary. The operational status:-   Under development
+The operational status:-   Under development
 -   Reauthorize
 -   Operational
 -   Decommissioned
@@ -92,5 +92,5 @@ Diagrams
 If needed, or if you do not have a Configuration Management Database \(CMDB\), add data flow, network, and boundary diagrams.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
+</table>**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

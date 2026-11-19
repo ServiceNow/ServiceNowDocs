@@ -1,30 +1,30 @@
 ---
-title: Learn about task assignment
-description: The application configuration works with the Field Service Management configuration for task assignment.
+title: Learn about task assignment methods for an application configuration
+description: The Appointment Booking feature works with Field Service Management task assignment methods to effectively assign tasks and manage appointments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/appt-booking-config-overview.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Field Service Management]
+breadcrumb: [Field Service Management reference, Field Service Management]
 ---
 
-# Learn about task assignment
+# Learn about task assignment methods for an application configuration
 
-The application configuration works with the Field Service Management configuration for task assignment.
+The Appointment Booking feature works with Field Service Management task assignment methods to effectively assign tasks and manage appointments.
 
-Appointment booking works with the task-driven process life cycle and the following task assignment methods:
+Appointment Booking supports these task assignment methods:
 
 -   Auto-assignment
 -   Dynamic scheduling
 -   Manual
 
-Auto-assignment and dynamic scheduling include enhancements that support appointment booking:
+Appointment booking provides enhancements that help with scheduling efficiency:
 
--   Identifying the best dispatch group for task assignment.
--   Preventing tasks with appointment windows from being unassigned.
--   Calculating availability for agents and groups.
+-   Automatically identifies the most suitable dispatch group for each appointment-based task.
+-   Prevents tasks with booked appointments from becoming unassigned.
+-   Calculates agent and group availability accurately for appointment windows.
 
 ## Dynamic scheduling
 

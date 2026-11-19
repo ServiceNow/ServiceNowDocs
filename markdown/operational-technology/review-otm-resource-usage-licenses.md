@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/review-otm-resource-usage-licenses.html
 release: yokohama
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Management licensing and subscriptions, Operational Technology]
 ---
@@ -30,9 +30,13 @@ Explore detailed licensing data trends of OTM using the [OTM Licensing dashboard
 
 2.  Select the relevant tab to display the dashboard for the OTM product.
 
-3.  Point to a bar to view the number of OT devices in each category.
+    For example, select **Foundation**.
 
-4.  Select the bar to view a list of the type of OT devices.
+    \[Omitted image "otm-dashboard-foundation.png"\] Alt text: OTM Licensing Dashboard
+
+3.  Point to a bar to view the number of CIs in each category.
+
+4.  Select the bar to view a list of the counted CIs.
 
 5.  Review the dashboard described in [OTM Licensing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/otm-licensing-dashboard.md).
 

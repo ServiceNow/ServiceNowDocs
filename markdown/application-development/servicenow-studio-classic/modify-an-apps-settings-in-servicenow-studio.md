@@ -1,20 +1,20 @@
 ---
 title: Modify an app's settings in ServiceNow Studio
-description: Modify an app's settings in ServiceNow Studio to update the name, description, scoping, or other metadata. Use the Related Links section to publish the app, manage collaborators, and more.
+description: Adjust an app's settings in ServiceNow Studio using the full platform app record in app settings. Change the name, description, or other metadata associated with the app, and view all related links associated to the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/modify-an-apps-settings-in-servicenow-studio.html
 release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [App details page, Applications in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Using ServiceNow Studio, Building applications with ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Modify an app's settings in ServiceNow Studio
 
-Modify an app's settings in ServiceNow Studio to update the name, description, scoping, or other metadata. Use the Related Links section to publish the app, manage collaborators, and more.
+Adjust an app's settings in ServiceNow Studio using the full platform app record in app settings. Change the name, description, or other metadata associated with the app, and view all related links associated to the application.
 
 ## Before you begin
 
@@ -24,30 +24,24 @@ Role required: admin or delegated\_developer
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Open the application you want to update.
+2.  In the Navigator panel, select the apps icon \(\[Omitted image "sn-studio-app-nav-icon.png"\] Alt text: Apps icon\).
 
-3.  Select **App details** to open the app in the canvas.
+3.  Select the app that you want to open.
 
-    The App details page opens for the selected application.
+4.  Select **App details** to open the app in the canvas.
 
-4.  Select the more options icon \[Omitted image "sn-studio-more-options-icon.png"\] Alt text:, then select **Settings**.
+5.  In the top-right corner, select the app settings icon \(\[Omitted image "sn-studio-app-settings-icon.png"\] Alt text: App settings icon\).
 
-    The app settings page opens in a new tab. Use this page to view and edit application scoping, design and runtime, subscription management, primary menu, and end user access settings. The **Related Links** section enables you to publish your app, manage collaborators, and more.
+    The app settings page opens in a new integrated tab. You can view information related to application scoping, design and runtime, subscription management, primary menu, and end user access. The **Related Links** section enables you to publish your app, manage collaborators, and more.
 
-5.  On the Custom application form, fill in the fields.
+6.  Edit the settings for your app.
 
-    For a description of the field values, see [Custom Application record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/application-record-field-descriptions.md).
+7.  Select **Update**.
 
-6.  Select **Update**.
+8.  Return to the **App details** integrated tab for the application.
 
-    Your changes are saved to the app record.
-
-7.  Return to the **App details** tab for the application.
-
-8.  Select the reload app details icon \[Omitted image "sn-studio-reload-app-details-icon.png"\] Alt text: to apply the changes from the **App settings** tab.
-
-    The App details page refreshes and displays the updated app settings.
+9.  Select the reload app details icon \(\[Omitted image "sn-studio-reload-app-details-icon.png"\] Alt text: Reload app details icon\) to incorporate the changes you made on the **App settings** tab.
 
 
-**Parent Topic:**[App details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/app-details-page.md)
+**Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/using-servicenow-studio.md)
 

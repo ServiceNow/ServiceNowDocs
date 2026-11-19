@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/create-security-annotations-multiple.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Security annotations, Security Operations common functionality, Security Operations]
 ---
@@ -28,11 +28,13 @@ Role required: admin
 
 3.  From the **Actions on selected rows** drop-down menu, choose **Add security annotation**.
 
+    \[Omitted image "SecurityAnnotMultiObs.png"\] Alt text: Creating multiple security annotations for observables.
+
 4.  Enter an annotation.
 
     Annotations can be in any text format.
 
-5.  Select **Submit**.
+5.  Click **Submit**.
 
 
 **Parent Topic:**[Security annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-annotations.md)

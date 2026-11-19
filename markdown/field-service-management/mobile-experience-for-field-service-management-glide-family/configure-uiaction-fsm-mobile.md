@@ -7,9 +7,9 @@ release: yokohama
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configure the Now Mobile Agent application, Setting up Field Service Mobile Agent, Configure, Field Service Management]
+breadcrumb: [Configure the Now Mobile Agent application, Setting up Field Service Mobile Agent, Configuring Field Service Management, Field Service Management]
 ---
 
 # Customizing UI actions for the Now Mobile Agent application
@@ -21,6 +21,8 @@ The configurations for UI action conditions are different in Field Service mobil
 As an administrator, you can review the mobile UI actions and disable the ones that aren’t being used to use less mobile resources.
 
 The following image shows the Now Mobile Agent application open in Studio. The Now Mobile Agent application open in Studio is where you can configure UI actions.
+
+\[Omitted image "fsm-mobile-studio.png"\] Alt text: Studio open with the starting point for Field Service Mobile.
 
 Here's a sample UI action configuration for accepting a work order task.
 
@@ -35,7 +37,7 @@ The system checks these state flow conditions:
 1.  The `SMconfiguration` record to see if the **accept\_reject** UI action is enabled or disabled using this script:
 
     ```
-    (new global.SMConfigurationHelper()).isEnabled(current, "accept_reject", false)
+    (new sn_sm.SMConfiguration()).isEnabled(current, "accept_reject", false)
     ```
 
 2.  If the task has been self-assigned
@@ -46,7 +48,7 @@ To modify the UI action for the corresponding button on your mobile device:
 2.  If this condition:
 
     ```
-    (new global.SMConfigurationHelper()).isEnabled(current, "accept_reject", false)
+    (new sn_sm.SMConfiguration()).isEnabled(current, "accept_reject", false)
     ```
 
     is set to **false**, drop this condition and disable the corresponding mobile UI actions on the mobile application.

@@ -1,18 +1,18 @@
 ---
-title: Resize modals
-description: Configure a property in UI Builder to resize all modals on a record page.
+title: Resize all record page modals in Configurable Workspace
+description: Configure the Enable Resize property in UI Builder to enable resizing for all record page modals in your Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/enable-workspace-users-to-resize-modals.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Resize modals
+# Resize all record page modals in Configurable Workspace
 
-Configure a property in UI Builder to resize all modals on a record page.
+Configure the **Enable Resize** property in UI Builder to enable resizing for all record page modals in your Configurable Workspace.
 
 ## Before you begin
 
@@ -20,26 +20,28 @@ Role required: admin
 
 ## Procedure
 
-1.  Open your workspace experience in UI Builder.
+1.  Open a record page in UI Builder.
 
-    For instructions, see Open a Configurable Workspace experience in UI Builder.
+    1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-2.  Select or create a record page.
+    2.  Open an experience to work in or create an experience by selecting **+ Create**.
 
-    For instructions on creating a workspace page in UI Builder, see [Create a Configurable Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/create-configurable-workspace-page-uib.md).
+        See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/work-experiences.md) for more information on creating experiences.
 
-3.  From the Content tree, select **Modals** &gt; **Modal Container**.
+    3.  Open or create a record page in the experience.
 
-4.  Select the **Configure** tab.
+        For more information on creating a record page in UI Builder, see [Learning UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/learning-uib.md).
 
-5.  Select **Enable Resize**.
+2.  Enable resizing for a modal.
 
-6.  In the Minimum Resize Height and Minimum Resize Width fields, enter a minimum value.
+    1.  Select the **Modal Container**.
 
-7.  In the Maximum Resize Height and Maximum Resize Width fields, enter a maximum value.
+    2.  Select **Enable Resize**.
 
-8.  Select **Save**.
+    3.  Enter a minimum resize height and width.
 
-    If resizing isn’t required for all modals on the record page, use declarative actions to resize individual modals. For instructions, see [Resize a modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/set-up-resizing-for-select-modals-in-configurable-workspace.md).
+    4.  Select **Save**.
+
+    If resizing isn’t required for all record page modals, use declarative actions to enable resizing for select modals. For instructions, see [Set up resizing for select modals in your Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/set-up-resizing-for-select-modals-in-configurable-workspace.md).
 
 

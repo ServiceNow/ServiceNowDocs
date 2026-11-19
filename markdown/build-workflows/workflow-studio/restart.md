@@ -1,42 +1,55 @@
 ---
-title: Enabling playbook restart
-description: Learn how playbook restart during runtime works and how restart rules control the behavior of stages and activities during a restarted run.
+title: Restart
+description: Give agents and fulfillers the ability to restart a playbook, stage, or activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/restart.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
+last_updated: "2025-01-30"
+reading_time_minutes: 3
+breadcrumb: [Playbooks in Workflow Studio, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
 ---
 
-# Enabling playbook restart
+# Restart
 
-Learn how playbook restart during runtime works and how restart rules control the behavior of stages and activities during a restarted run.
+Give agents and fulfillers the ability to restart a playbook, stage, or activity.
 
-Playbook restart lets agents and fulfillers in Playbook Experience restart a playbook from the beginning, or from a specific stage or activity. Playbooks administrators enable restart in Workflow Studio and define restart rules for each stage and activity.
+In the Workflow Studio Playbooks builder, Playbooks administrators enable restart for Playbook Experience agents and fulfillers. Playbooks can be restarted from the beginning, or from certain activities or stages during runtime. Playbooks administrators also define what each activity and stage does when an agent restarts.
 
-Restart is automatically enabled for new playbooks. For existing playbooks, an administrator must enable restart manually. Once enabled, restart cannot be disabled.
+## Workflow Studio
 
-## Restart rules
+In Workflow Studio, Playbooks admins [enable restart for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/enable-define-restart.md), and define the rules for what an activity or stage does during restart:
 
-When you configure restart for a stage or activity, you define what it does when a playbook is restarted. The following rules are available:
+-   **Skip on restart**: The stage or activity only runs during a playbook's initial run. It does not run on restart.
 
-|Rule|Description|
-|----|-----------|
-|Skip on restart|The stage or activity runs only during the initial run. It does not run when the playbook is restarted. Use this rule when you don't want new tasks or records to be created during a restarted run, because the original execution and its resulting record are still relevant.|
-|Run always|The stage or activity runs during both the initial run and any restarted run.|
-|Skip on first run|The stage or activity runs only during a restarted run. It never runs during the initial run.|
+    **Note:** This setting is helpful if you don't want new tasks or records to be created during a restarted run, because the original execution and resulting record is still relevant.
 
-## Restart states
+-   **Run always**: The stage or activity always runs, whether during an initial or restarted run.
+-   **Skip on first run**: The stage or activity runs only on restart. It never runs during an initial run.
 
-The state of a playbook, stage, or activity determines whether it can be restarted.
+## Playbook Experience
 
-A playbook can only be restarted when it is in an active state. The only active state is In Progress. Playbooks in a terminal state — Complete, Error, or Cancelled — cannot be restarted.
+During runtime, [agents and fulfillers can restart playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/restart-a-playbook.md) from the beginning, or from certain stages or activities.
 
-The opposite is true for stages and activities. A stage or activity can only be restarted when it is in a complete or error state.
+**Note:** Playbooks in an active state can be restarted:
+
+-   **Queued**
+-   **Pending Cancel**
+-   **In Progress**
+
+Playbooks in a terminal state cannot be restarted:
+
+-   **Complete**
+-   **Error**
+-   **Cancelled**
+
+\[Omitted image "restart-playbook-pe.png"\] Alt text: Restarting a playbook during runtime
+
+The opposite is true for activities and stages. Activities and stages must be complete or in an error state before they can be restarted.
+
+\[Omitted image "restart-stage-pe.png"\] Alt text: Restarting a stage during runtime
 
 ## Design considerations
 
@@ -51,13 +64,21 @@ Follow these design considerations when configuring restart for your playbook, s
     Avoid grouping all activities that are configured to **Skip on first run** in one \(1\) stage. If you do so, the stage is completely hidden the first time that it runs. The stage must run twice to become visible.
 
 
--   **[Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/enable-define-restart.md)**  
-Configure restart so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
+-   **[Enable and Configure Restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/enable-define-restart.md)**  
+Configure your playbook so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
 
-**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/creating-managing-playbooks.md)
+**Parent Topic:**[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-definitions.md)
 
 **Related topics**  
 
 
-[Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/enable-define-restart.md)
+[Create a playbook]()
+
+[Playbook variants]()
+
+[Test a playbook]()
+
+[Duplicate Playbooks]()
+
+[Add translations for playbooks]()
 

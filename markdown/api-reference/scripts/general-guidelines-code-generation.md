@@ -7,9 +7,9 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Explore, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Exploring code generation, Now Assist for code generation, Scripting, API implementation, API implementation and reference]
 ---
 
 # General guidelines for code generation
@@ -20,11 +20,15 @@ Use these general guidelines for code generation to get better code suggestions 
 
 -   **Write clear and specific but concise prompts**
 
-    Specify the expected outcome and context clearly. Include important details like task requirements, specific APIs if you know them, and any limitations.
+    Specify the expected outcome and context, including necessary details like task requirements, specific APIs if you know them, and any constraints.
 
 -   **Experiment with different prompts**
-    -   Consider adjusting your task instructions and incorporating examples. Observe how the code suggestions change with different prompt styles and levels of detail.
-    -   Keep track of your prompts, along with any modifications and instructions for generating prompts that meet your specifications.
+
+    As you refine and experiment, the Now LLM Service uses this feedback to learn and improve.
+
+    -   Try adjusting task instructions and incorporating examples, and then observe how code suggestions differ with different prompt styles and levels of detail.
+    -   Try including a short code snippet as an example of how to start the script with a single-shot prompt.
+    -   Track your prompts, including any modifications, and instructions for generating prompts to meet your specifications. This tracking enables easy regeneration of past results for comparative analysis.
 -   **Character limit of the prompts**
 
     Short and concise prompts generate better outcomes.
@@ -36,11 +40,11 @@ Use these general guidelines for code generation to get better code suggestions 
 
 <table id="table_ryd_22l_yxb"><thead><tr><th>
 
-Weak prompt
+Strong prompt
 
 </th><th>
 
-Strong prompt
+Weak prompt
 
 </th><th>
 
@@ -48,11 +52,11 @@ Notes
 
 </th></tr></thead><tbody><tr><td>
 
-Get incidents with tasks
+Get incidents with related tasks
 
 </td><td>
 
-Get incidents with related tasks
+Get incidents with tasks
 
 </td><td>
 
@@ -60,11 +64,11 @@ Includes sufficient detail.
 
 </td></tr><tr><td>
 
-Count P1 incidents between 3-3 and 4-13
+Use Glide aggregate to count number of P1 incidents closed between March 3 to April 13 assigned to admin
 
 </td><td>
 
-Use Glide aggregate to count number of P1 incidents closed between March 3 to April 13 assigned to admin
+Count P1 incidents between 3-3 and 4-13
 
 </td><td>
 
@@ -72,11 +76,11 @@ Includes the API name and more specific language.
 
 </td></tr><tr><td>
 
-Don’t allow changing P1 change requests
+If open change request is P1, don’t allow reducing the severity unless it's the creator
 
 </td><td>
 
-If open change request is P1, don’t allow reducing the severity unless it's the creator
+Don’t allow changing P1 change requests
 
 </td><td>
 
@@ -84,11 +88,11 @@ Includes more specific instructions on what shouldn't change.
 
 </td></tr><tr><td>
 
-Latest change
+Glide record of the most recent change
 
 </td><td>
 
-Glide record of the most recent change
+Latest change
 
 </td><td>
 

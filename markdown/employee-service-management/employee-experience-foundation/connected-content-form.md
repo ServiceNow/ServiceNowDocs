@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Reference, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
 # Connected Content form
@@ -76,7 +76,7 @@ The topic that you want to associate the content with.
 
 [Activity Configuration Detail form]()
 
-[Approvals experience reference]()
+[Browser Extension for Employee Center forms]()
 
 [Default Employee Profile Header Configuration record]()
 
@@ -110,9 +110,11 @@ The topic that you want to associate the content with.
 
 [Portal notification content form]()
 
-[Trigger conditions form]()
-
 [Quick Link form]()
+
+[Standard banner and icon sizes]()
+
+[Trigger conditions form]()
 
 [Tab widget mapping form]()
 
@@ -120,13 +122,9 @@ The topic that you want to associate the content with.
 
 [Topic form]()
 
+[To-do content form]()
+
 [User Criteria form]()
 
 [User Criteria output]()
-
-[Schedule appointment form]()
-
-[Location Consent form]()
-
-[Website configuration form]()
 

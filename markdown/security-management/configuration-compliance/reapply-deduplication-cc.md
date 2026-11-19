@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [CI lookup rules, Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [CI Lookup Rules for identifying configuration items from Configuration Compliance third-party vulnerability integrations, Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Deduplicating existing configuration items for Configuration Compliance

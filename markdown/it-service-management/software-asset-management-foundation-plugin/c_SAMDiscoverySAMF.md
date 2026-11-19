@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Exploring Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Exploring Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
 # Basic Software Asset Management software discovery and normalization
@@ -22,7 +22,7 @@ For more information, see [Collect software data with either SCCM or Discovery](
 
 **Note:** To use Discovery, the [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md) must be activated.
 
-Discovery uses patterns in the discovery process that can be created or customized. The base system contains a wide range of patterns that cover most industry standard network devices and applications. Basic Software Asset Management automatically leverages SQL Server, Exchange Server, and Oracle Database specifically, but other patterns can be customized for use by Basic Software Asset Management, if needed.
+Discovery uses patterns in the discovery process that can be created or customized. The base system contains a wide range of patterns that cover most industry standard network devices and applications. Basic Software Asset Management automatically leverages SQL Server, Exchange Server, and Oracle Database Server specifically, but other patterns can be customized for use by Basic Software Asset Management, if needed.
 
 Discovered software is stored in the Software Installations \[cmdb\_sam\_sw\_install\] table.
 

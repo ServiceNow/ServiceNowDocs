@@ -1,16 +1,16 @@
 ---
-title: Exploring the Setup page in the Enterprise Architecture Workspace
+title: Work with the Setup page in the Enterprise Architecture Workspace
 description: Using the Setup page in the Enterprise Architecture Workspace, as an Enterprise Architect, you can configure Enterprise Architecture \(formerly Application Portfolio Management\) features within the EA Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-setup.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Exploring the Setup page in the Enterprise Architecture Workspace
+# Work with the Setup page in the Enterprise Architecture Workspace
 
 Using the Setup page in the Enterprise Architecture Workspace, as an Enterprise Architect, you can configure Enterprise Architecture \(formerly Application Portfolio Management\) features within the EA Workspace.
 
@@ -26,42 +26,39 @@ You can configure the following categories:
 
 -   **TCO**
 
-    The Application total cost of ownership \(TCO\) feature helps you to leverage application costs to prioritize the application portfolio and align with the business strategy. For more details, see [Manage application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-app-tco.md).
+    The Application total cost of ownership \(TCO\) feature helps you to leverage application costs to prioritize the application portfolio and align with the business strategy. For more details, see [Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-app-tco.md).
 
 
 \[Omitted image "eaw-setup.png"\] Alt text: Setup EA Workspace
 
--   **[Manage application categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-application-categories.md)**  
+-   **[Configure application categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-application-categories.md)**  
 An application category is a grouping of applications by their purpose and function, fields, or areas.
--   **[Manage application category groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-application-category-groups.md)**  
+-   **[Configure application category groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-application-category-groups.md)**  
 An application category group is a collection of application categories. Category groups help with the filtering and reporting of the application categories.
--   **[Manage application families](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-application-families.md)**  
-An application family is an attribute to group a set of related applications based on manufacturer classification of their products.
--   **[Manage indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-indicators.md)**  
+-   **[Configure application families](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-application-families.md)**  
+An application family is an attribute to group a set of related applications based on manufacturer classification of their products into product suites.
+-   **[Configure indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-indicators.md)**  
 You can view, add, or edit application or capability indicators in the Enterprise Architecture Workspace.
--   **[Manage scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-scoring-profiles.md)**  
+-   **[Configure scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-scoring-profiles.md)**  
 Scoring profiles help you to evaluate the applications based on various indicators.
--   **[Manage TRM phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-trm-phases.md)**  
+-   **[Configure TRM phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-trm-phases.md)**  
 A Technology Reference Model \(TRM\) phase refers to a specific stage in the lifecycle of an application within the organization’s TRM framework.
--   **[Manage TRM categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-trm-categories.md)**  
+-   **[Configure TRM categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-trm-categories.md)**  
 A Technology Reference Model \(TRM\) category refers to a grouping of TRM software products by their purpose and function. The categorization helps you to consolidate TRM products and rationalize decisions.
--   **[Manage information data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-config-info-data-domains.md)**  
+-   **[Configure information data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-config-info-data-domains.md)**  
 A data domain is a collection of information objects. ServiceNow® Discovery finds the database catalog that lists all the catalog objects, or databases, discovered for an instance of a database.
--   **[Manage architectural artifact categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-config-arch-art-categories.md)**  
-The architectural artifact categories enable you to categorize and manage artifacts more efficiently. Architectural artifact categories enable you to organize architectural artifacts and align them with your business goals and strategies.
--   **[Manage demand actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-config-demand-actions.md)**  
+-   **[Configure architectural artifact categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-config-arch-art-categories.md)**  
+The architectural artifact categories enable you to categorize and manage artifacts more efficiently.
+-   **[Configure demand actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-config-demand-actions.md)**  
 Demand actions are strategic decisions that you want to execute for an application. Enterprise Architecture Workspace provides preconfigured actions that help you enhance the capability of the applications. You can add new demand actions as per your requirements.
--   **[Manage Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-config-modeling.md)**  
-Enterprise Modeling and Visualization refers to the modeling and diagramming tools within the EA Workspace to represent business capabilities, business hierarchies, and their interrelationships.
--   **[Manage certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-config-cert-schedules.md)**  
+-   **[Configure Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-config-modeling.md)**  
+You can configure the shape libraries, modeling options, entities, and relationships used in the Enterprise Modeling and Visualization.
+-   **[Configure certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-config-cert-schedules.md)**  
 You can configure certification policies to keep your business applications inventory up to date. Keeping your business application data current helps you to assess your business applications precisely as there are indicators that are dependent on these business applications.
+-   **[Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-app-tco.md)**  
+You can configure the application TCO source and cost type.
+-   **[View TPM logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-tpm-logs.md)**  
+Track the progress of Technology Lifecycle Management \(TLM\) analysis by examining the TPM Discovered Technology Run Logs \[sn\_apm\_tpm\_discovered\_technology\_run\_log\] table. Each time the analysis is run, an entry is added to this table.
 
-**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/explore-eaw.md)
-
-**Related topics**  
-
-
-[Working with the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-setup-page.md)
-
-[Exploring total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-application-tco.md)
+**Parent Topic:**[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/ea-workspace.md)
 

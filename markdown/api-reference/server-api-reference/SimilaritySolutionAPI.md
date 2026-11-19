@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-02-03"
 reading_time_minutes: 8
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---

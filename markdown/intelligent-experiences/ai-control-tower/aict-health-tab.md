@@ -1,5 +1,5 @@
 ---
-title: Health tab in AI Control Tower
+title: Health tab in Control Tower
 description: Monitor the performance of guardrails enabled through AI Guardian.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/aict-health-tab.html
@@ -7,17 +7,17 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-08-11"
 reading_time_minutes: 3
 keywords: [Health, Now Assist Guardian]
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [AI Control Tower Home, Control Tower dashboard, Explore, Control Tower, Enable AI experiences]
 ---
 
-# Health tab in AI Control Tower
+# Health tab in Control Tower
 
 Monitor the performance of guardrails enabled through AI Guardian.
 
-The Health tab in the AI Control Tower dashboard helps you monitor and evaluate the effectiveness of offensive content and prompt injection guardrails active on your ServiceNow AI assets.
+The Health tab in the Control Tower dashboard helps you monitor and evaluate the effectiveness of offensive content and prompt injection guardrails active on your ServiceNow AI assets.
 
 \[Omitted image "aict-health-tab.png"\] Alt text: Health tab showing the metrics for offensive content and prompt injection guardrails.
 

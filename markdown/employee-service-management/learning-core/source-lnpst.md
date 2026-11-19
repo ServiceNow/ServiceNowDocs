@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Integrate with third-party systems, Configure, Learning Core, HR Service Delivery, Employee Service Management]
+breadcrumb: [Integrating Learning Core with third-party learning management systems, Configuring Learning Core, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
 # Sources for Learning Core

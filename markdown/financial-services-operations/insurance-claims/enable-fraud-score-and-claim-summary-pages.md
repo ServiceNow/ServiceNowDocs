@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Setting up Commercial Lines Claims, Commercial Lines Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Enable Claim workspace, Fraud score, and Claim summary pages
@@ -26,29 +26,29 @@ Role required: admin
 
 2.  Enable the CSM default record page under CSM/FSM Configurable Workspace.
 
-    For more information, see [CRM Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-config-workspace-record-pages.md).
+    For more information, see [CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-config-workspace-record-pages.md).
 
 3.  From the CSM default record page, set the page order.
 
 4.  Set the variant conditions on the following record pages.
 
-<table><thead><tr><th align="left" id="d108171e91">
+<table><thead><tr><th align="left" id="d88951e90">
 
 Claims page variant
 
-</th><th align="left" id="d108171e94">
+</th><th align="left" id="d88951e93">
 
 Navigation to page records
 
-</th></tr></thead><tbody><tr><td id="d108171e100">
+</th></tr></thead><tbody><tr><td id="d88951e99">
 
 **Record page for the adjuster task**
 
 </td><td>
 
-To access the record page for the adjuster task, navigate to: **CSM Configurable Workspace** &gt; **Record** &gt; **Claim Adjuster Record Page**.The record page for the adjuster task is a variant of CSM default record page. For more information, see [CRM Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-config-workspace-record-pages.md).
+To access the record page for the adjuster task, navigate to: **CSM Configurable Workspace** &gt; **Record** &gt; **Claim Adjuster Record Page**.The record page for the adjuster task is a variant of CSM default record page. For more information, see [CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-config-workspace-record-pages.md).
 
-</td></tr><tr><td id="d108171e127">
+</td></tr><tr><td id="d88951e126">
 
 **Claim workspace page**
 
@@ -56,7 +56,7 @@ To access the record page for the adjuster task, navigate to: **CSM Configurable
 
 To access the Claim workspace page for updates, navigate to page collection: **CSM default record post-Details** &gt; **Claim workspace** &gt; **Claim Workspace Default**.
 
-</td></tr><tr><td id="d108171e148">
+</td></tr><tr><td id="d88951e147">
 
 **Fraud score page**
 
@@ -64,7 +64,7 @@ To access the Claim workspace page for updates, navigate to page collection: **C
 
 To access the Fraud score page for updates, navigate to page collection: **CSM default record post-Details** &gt; **Fraud score** &gt; **Default**.
 
-</td></tr><tr><td id="d108171e169">
+</td></tr><tr><td id="d88951e168">
 
 **Claim Summary page**
 

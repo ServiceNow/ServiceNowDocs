@@ -1,20 +1,20 @@
 ---
 title: Add or edit expense lines
-description: Create or edit expense lines to capture the actual costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
+description: Create or edit expense lines to capture the actuals costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/create-expense-line.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Add or edit expense lines
 
-Create or edit expense lines to capture the actual costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
+Create or edit expense lines to capture the actuals costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
 
 ## Before you begin
 
@@ -24,9 +24,7 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 An expense line is part of the project cost plans that can be associated with a specific source. You can create multiple expense lines for a cost plan. Only the expense lines that are in the processed state are considered for roll ups on the work item.
 
-For unplanned expense lines not associated to any cost plan, the system creates a cost plan or associates an existing one of the same expense type.
-
-\[Omitted video\] Description: Add and manage expense lines
+For unplanned expense lines which are not associated to any cost plan, system automatically creates an cost plan or associates to an existing system generated cost plan of the same expense type.
 
 ## Procedure
 
@@ -38,15 +36,15 @@ For unplanned expense lines not associated to any cost plan, the system creates 
 
 4.  Use one of the following options to add an expense line.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d160888e113">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d129544e88">
 
 Choice
 
-</th><th align="left" id="d160888e116">
+</th><th align="left" id="d129544e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d160888e122">
+</th></tr></thead><tbody><tr><td id="d129544e97">
 
 **Select a cost plan**
 
@@ -56,7 +54,7 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d160888e143">
+</td></tr><tr><td id="d129544e118">
 
 **Select options**
 
@@ -66,7 +64,7 @@ Description
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d160888e170">
+</td></tr><tr><td id="d129544e145">
 
 **Select new expense line option**
 
@@ -85,7 +83,7 @@ Select **New expense line** using the More actions option.\[Omitted image "fin-n
 
     **Note:** The expense lines created for sub projects can be viewed in the Cost screen of the parent project.
 
-7.  To edit a cost plan from the finanicals record page, select the actuals value from the cost plan to open the Expense line side panel.
+7.  To edit a cost plan from the finanicals record page, select the actuals value from the cost plan to ex\[open the Expense line side panel.
 
 8.  Select the expense you want to edit.
 

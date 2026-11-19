@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-additional-resources.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Mobile Platform]
 ---
@@ -222,7 +222,7 @@ Getting Started
 
 </td><td>
 
-[Mobile](https://www.youtube.com/watch?v=ag38gnZvDyE&list=PLkGSnjw5y2U5bf79MQ1BPDk6hwOjXY54D&index=47&t=3s)
+[Getting started with Mobile Card Builder](https://www.youtube.com/watch?v=ag38gnZvDyE&list=PLkGSnjw5y2U5bf79MQ1BPDk6hwOjXY54D&index=47&t=3s)
 
 </td></tr><tr><td>
 
@@ -260,7 +260,7 @@ Getting Started
 
 </td><td>
 
-[Mobile Publishing getting started](https://www.youtube.com/watch?v=RIFOJFJroQo&list=PLkGSnjw5y2U5bf79MQ1BPDk6hwOjXY54D&index=1&t=15s)ç
+[Mobile Publishing getting started](https://www.youtube.com/watch?v=RIFOJFJroQo&list=PLkGSnjw5y2U5bf79MQ1BPDk6hwOjXY54D&index=1&t=15s)
 
 </td></tr><tr><td>
 

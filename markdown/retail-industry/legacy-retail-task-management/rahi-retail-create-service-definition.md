@@ -7,9 +7,9 @@ release: yokohama
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Retail Task Management, Retail]
+breadcrumb: [Configuring Retail Task Management, Retail Task Management, Retail]
 ---
 
 # Create a service definition for multi-store cases in Retail Task Management Core

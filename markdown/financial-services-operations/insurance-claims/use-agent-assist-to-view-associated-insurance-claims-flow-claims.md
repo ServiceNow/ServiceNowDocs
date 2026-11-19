@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Using Insurance claims, Insurance claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # View the associated Insurance claims cases with Agent assist
@@ -28,19 +28,19 @@ This procedure references service definitions and products that are used in the 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Lists icon.\).
 
 3.  Open the task from the case playbook or the Insurance claim adjuster tasks list.
 
-<table id="choicetable_fhd_gh3_vcc"><thead><tr><th align="left" id="d51507e103">
+<table id="choicetable_fhd_gh3_vcc"><thead><tr><th align="left" id="d46296e100">
 
 Option
 
-</th><th align="left" id="d51507e106">
+</th><th align="left" id="d46296e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d51507e112">
+</th></tr></thead><tbody><tr><td id="d46296e109">
 
 **From the case playbook**
 
@@ -50,7 +50,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d51507e136">
+</td></tr><tr><td id="d46296e133">
 
 **From the Insurance claim adjuster tasks list**
 
@@ -63,6 +63,6 @@ Steps
 </td></tr></tbody>
 </table>4.  Select the Agent assist icon \(\[Omitted image "Form\_AgentAssistIcon.png"\] Alt text: Graduation cap icon for Agent assist.\) to use the feature.
 
-    For more information about Agent assist, see [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/agent-assist-configurable-workspace.md).
+    For more information about Agent assist, see [Finding solutions using Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/agent-assist.md).
 
 

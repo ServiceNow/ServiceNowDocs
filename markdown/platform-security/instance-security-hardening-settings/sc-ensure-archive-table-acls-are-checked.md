@@ -1,5 +1,5 @@
 ---
-title: Ensure archive table ACLs are checked
+title: Ensure archive table ACLs are checked \[New in Security Center 1.3 and updated in 1.5\]
 description: The glide.security.enable\_archive\_table\_acls property controls whether access control lists \(ACLs\) of the original table, the table the archive table was created from, are evaluated to false.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-ensure-archive-table-acls-are-checked.html
@@ -7,18 +7,16 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Ensure archive table ACLs are checked
+# Ensure archive table ACLs are checked \[New in Security Center 1.3 and updated in 1.5\]
 
 The **glide.security.enable\_archive\_table\_acls** property controls whether access control lists \(ACLs\) of the original table, the table the archive table was created from, are evaluated to false.
 
-The **glide.security.enable\_archive\_table\_acls** system property controls whether ACLs added to archive tables are evaluated \(**true**\) or if only the ACLs of the original table \(the table the archive table was created from\) are evaluated \(**false**\). There is no reason for this property to not be true since the original table ACLs will be evaluated regardless of its value and since a customer can simply avoid additional ACLs for an archive table by not adding them.
-
-Ensure that the value of **glide.security.enable\_archive\_table\_acls** is set to **true**.
+The **glide.security.enable\_archive\_table\_acls** property should not be set to false since the original table's ACLs will be evaluated regardless of its value. You can avoid additional ACLs for an archive table by not adding them.
 
 ## More information
 
@@ -52,7 +50,7 @@ Data type
 
 </td><td>
 
-Boolean
+boolean
 
 </td></tr><tr><td>
 
@@ -72,14 +70,6 @@ true
 
 </td></tr><tr><td>
 
-Fallback value
-
-</td><td>
-
-true
-
-</td></tr><tr><td>
-
 Category
 
 </td><td>
@@ -92,17 +82,9 @@ Security risk
 
 </td><td>
 
--   Severity score: 3.0
+-   Severity score: 3
 -   CVSS score: Low
--   Security risk details: If the property is set to false, ACLs added to archived tables will be ignored, an action which is counter intuitive and may lead to authorization bypass.
-
-</td></tr><tr><td>
-
-Functional impact
-
-</td><td>
-
-When this property is set to true, any active read ACLs on archive tables will be honored. If no active read ACLs exist or the property is set to false, the original table's \(table from which data was archived\) will apply to the archive table.**Note:** Only read ACLs are supported on archive tables. Other operations on archive tables are governed internally through an Access Handler.
+-   Security risk details: If the property is set to false, ACLs added to archived tables will be ignored, an action that is counter intuitive and therefore may lead to authorization bypass.
 
 </td></tr><tr><td>
 
@@ -111,6 +93,14 @@ Dependencies and prerequisites
 </td><td>
 
 None
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+When this property is set to true, any active read ACLs on archive tables will be honored. If no active read ACLs exist or the property is set to false, the original table's \(table from which data was archived\) will apply to the archive table.**Note:** Only read ACLs are supported on archive tables. Other operations on archive tables are governed internally through an Access Handler.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)

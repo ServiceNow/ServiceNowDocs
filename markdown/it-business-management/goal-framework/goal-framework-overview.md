@@ -7,7 +7,7 @@ release: yokohama
 product: Goal Framework
 classification: goal-framework
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 8
 breadcrumb: [Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -92,8 +92,6 @@ Use the Goal Framework or Goal Framework for SPM application to do the following
 -   Create a goal relationship with a work, planning, strategic, or any other item to identify and associate your current or future work and achieve your goals. For more information, see [Associate a work or planning item with goals or targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/associate-work-with-goals.md).
 -   Associate the primary goal for a work and planning item. For more information, see [Associate the primary goal for work and planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/associating-primary-goal.md).
 
-For an example of the structure of a strategy from the strategic plan level down to targets, see [Enterprise strategy example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/enterprise-goal-example-strategy-gf.md).
-
 ## Comparing Goal Framework with Goal Framework for SPM
 
 -   Goal Framework: Create goals, set targets for them, and evaluate the progress of the goals and targets to accomplish the organizational plans and drive business outcomes.
@@ -106,11 +104,9 @@ For an example of the structure of a strategy from the strategic plan level down
 |Create goals|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 |Set targets|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 |Set target breakdowns|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Gregorian calendar for goals|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Fiscal calendars for goals|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 |Associate work with goals|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 |Automate actual value of targets|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Monitor goals and strategies in ServiceNow AI Control Tower|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Monitor goals and strategies in ServiceNow Control Tower|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 
 **Note:** The Goal Framework for SPM application is an extension to the Goal Framework application. When you install the Goal Framework for SPM application, you get all the features of Goal Framework as well as the target automation feature.
 

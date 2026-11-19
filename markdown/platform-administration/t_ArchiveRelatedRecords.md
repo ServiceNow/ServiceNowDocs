@@ -1,16 +1,16 @@
 ---
-title: Archive related records in Core UI
+title: Archive related records
 description: Archive, clear, or delete related records from an archive rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_ArchiveRelatedRecords.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Archiving records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Archiving records, Manage data growth, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Archive related records in Core UI
+# Archive related records
 
 Archive, clear, or delete related records from an archive rule.
 
@@ -22,15 +22,15 @@ Role required: admin.
 
 1.  Access the archive rule that you want to configure in one of the following ways.
 
-<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d130755e59">
+<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d121200e57">
 
 Option
 
-</th><th align="left" id="d130755e62">
+</th><th align="left" id="d121200e60">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d130755e68">
+</th></tr></thead><tbody><tr><td id="d121200e66">
 
 **Using a data management policy**
 
@@ -42,7 +42,7 @@ Steps
 4.  In the **Archive Related Records** related list, select **New**.
 
 
-</td></tr><tr><td id="d130755e110">
+</td></tr><tr><td id="d121200e108">
 
 **Using the Archive Rules module**
 
@@ -102,5 +102,5 @@ Steps
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/archiving-older-records.md)
+**Parent Topic:**[Archiving records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/archiving-older-records.md)
 

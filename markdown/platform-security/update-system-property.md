@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/update-system-property.html
 release: yokohama
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Administer, Log Export Service \(LES\), Platform Security]
+breadcrumb: [Administering Log Export Service \(LES\), Log Export Service \(LES\), Platform Security]
 ---
 
 # Update system property

@@ -5,20 +5,20 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/upgrade.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Prepare your upgrade, Brazil release notes]
+breadcrumb: [Prepare your upgrade, Yokohama release notes]
 ---
 
 # ServiceNow upgrades
 
 The upgrade process moves your instance to a new ServiceNow release version. Understand the difference between upgrading and patching, release definitions, rollback and backup options, and how to test your non-production and production instance upgrades.
 
-Before you begin the upgrade process, read the [Brazil release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/family-release-notes.md) and review the [upgrade and migration tasks for your applications and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrade-and-migration-tasks.md).
+Before you begin the upgrade process, read the [Yokohama release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/family-release-notes.md) and review the [upgrade and migration tasks for your applications and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrade-and-migration-tasks.md).
 
 \[Omitted image "upgrade-cycle-at-large.png"\] Alt text: Prepare, upgrade and test the test instance, upgrade and test production instance
 
-System upgrades can be significant projects. Each ServiceNow feature release includes major additions, and you should always consider the impact of new functionality on an instance. Upgrading implements enhancements to all features that are part of the base system or are already active, unless the feature is customized on your instance. For a list of all available plugins and whether they are active by default on the base system, see [List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md).
+System upgrades can be significant projects. Each ServiceNow feature release includes major additions, and you should always consider the impact of new functionality on an instance. Upgrading implements enhancements to all features that are part of the base system or are already active, unless the feature is customized on your instance. For a list of all available plugins and whether they are active by default on the base system, see [List of Yokohama plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md).
 
 Careful preparation and knowledge of the available software, tools, and resources can contribute to a successful upgrade. In addition to the materials provided by ServiceNow, it is important to understand how your ServiceNow instance is currently operating and the performance level of key business functionality. Set the expectation with IT and business users that time must be dedicated to preparing for, implementing, and testing ServiceNow upgrades.
 
@@ -26,7 +26,7 @@ If you have any issues during the upgrade process, [contact Customer Service and
 
 For additional help with upgrades, ServiceNow also offers various [Production Readiness Services](http://www.servicenow.com/services/production-readiness-services.html). These services specifically address challenges with instance upgradability, manageability, scalability, and performance. The reviews are performed by a ServiceNow certified professional consultant, who provide recommendations to align customer configurations with ServiceNow best practices. Contact your ServiceNow sales representative for more details.
 
-## Upgrade and update durations in Brazil
+## Upgrade and update durations in Yokohama
 
 The upgrade process takes a significantly shorter time for both updates and upgrades. \(An update occurs when an instance moves from one patch or hotfix to another within the same release family. An upgrade occurs when an instance moves from one release family to another\). As always, test your upgrades, but don't assume from the much faster completion time that the update or upgrade wasn't successful.
 
@@ -36,7 +36,7 @@ You can upgrade directly to the latest release family. If multiple software vers
 
 ## Upgrades vs. updates
 
-ServiceNow organizes its releases into families. A family is a set of releases that are named after a major city, such as Brazil. Families also contain patches and hotfixes. For example, the following releases are both part of the Orlando family:
+ServiceNow organizes its releases into families. A family is a set of releases that are named after a major city, such as Yokohama. Families also contain patches and hotfixes. For example, the following releases are both part of the Orlando family:
 
 -   Orlando Patch 4
 -   Orlando Patch 3 Hotfix 2
@@ -95,7 +95,7 @@ Hotfix
 
 ## Rollbacks and backups
 
-When you plan an upgrade, remember that ServiceNow does not provide a universal rollback option. Rollbacks are available for updates \(for example, Brazil patch-to-patch and Brazil patch-to-hotfix\). The rollback window is 10 days by default. You can customize this window by modifying the **glide.rollback.expiration\_days** property. To request a rollback, [contact Customer Service and Support](http://www.servicenow.com/support/contact-support.html).
+When you plan an upgrade, remember that ServiceNow does not provide a universal rollback option. Rollbacks are available for updates \(for example, Yokohama patch-to-patch and Yokohama patch-to-hotfix\). The rollback window is 10 days by default. You can customize this window by modifying the **glide.rollback.expiration\_days** property. To request a rollback, [contact Customer Service and Support](http://www.servicenow.com/support/contact-support.html).
 
 Avoid restoring a production instance from backup, when possible, due to downtime and data loss. When a problem cannot be solved using other methods, restoring a production instance from backup is a final option. ServiceNow can restore an instance to any point in time, regardless of when a backup is completed. Customer Service and Support provides support 24 hours a day, 7 days a week for assistance with critical post-upgrade issues.
 
@@ -111,7 +111,7 @@ This instance naming convention assumes that you have three ServiceNow instances
 2.  Test
 3.  Production
 
-If you have more or less than three instances, or if you are using Team Development, these instance labels will be different. In general, upgrade your instances furthest from production towards your production instance.
+If you have more or less than three instances, or if you are using [Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_TeamDevelopment.md), these instance labels will be different. In general, upgrade your instances furthest from production towards your production instance.
 
 <table id="table_uzh_mqs_tx"><thead><tr><th>
 
@@ -135,8 +135,8 @@ Test
 
 </td><td>
 
--   Use the ServiceNow Automated Test Framework to assist you in testing your non-production instances.
--   You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see Quick start tests.
+-   Use the ServiceNow [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/automated-test-framework.md) to assist you in testing your non-production instances.
+-   You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see [Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/quick-start-tests.md).
 -   For extra testing coverage, you can also conduct user acceptance testing \(UAT\) on your non-production instances.
 
 </td></tr><tr><td>
@@ -145,7 +145,7 @@ Production
 
 </td><td>
 
-Conduct UAT.**Note:** The Automated Test Framework is intended for use on non-production instances. On your production instance, conduct UAT only.
+Conduct UAT.**Note:** The [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/automated-test-framework.md) is intended for use on non-production instances. On your production instance, conduct UAT only.
 
 </td></tr></tbody>
 </table>If you encounter any post-upgrade issues, document the issue's conditions, steps to reproduce the issue, and your customizations. [Contact Customer Service and Support](http://www.servicenow.com/support/contact-support.html) to open an incident for each issue, and provide this information accordingly. Customer Service and Support is available 24 hours a day, 7 days a week to assist you with any questions or issues.

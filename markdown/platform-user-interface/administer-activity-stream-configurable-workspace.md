@@ -5,45 +5,41 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/administer-activity-stream-configurable-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Administering Activity stream for Configurable Workspace
 
 Administer Activity stream features that aren't configured in UI Builder with components.
 
--   **[Configure stacked view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-activity-stream-general.md)**
+-   **[Configure Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-activity-stream-general.md)**
 
-    Configure a stacked view option for journal fields in the Activity stream.
+    Set up the options of how agents can interact with Activity stream to make their job easier.
 
--   **[Configure rich text editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/config-activity-stream-rte.md)**
+-   **[Disable the Post button from disappearing in Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/disable-mandatory-field-post-button.md)**
 
-    Configure a rich text editor for journal fields in the Activity stream.
+    Disable the Post button from disappearing in Activity stream when mandatory fields aren't filled in. The Post button is functional even when mandatory fields aren't filled in.
 
--   **[Configure Post button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/disable-mandatory-field-post-button.md)**
+-   **[Display avatars on Activity stream tiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-activity-stream-avatars-icons.md)**
 
-    Configure the **Post** button in the Activity stream to display and function continuously by using the **glide.activity.compose.can\_post\_mandatory\_fields** system property.
+    Configure Activity stream tiles to display avatars instead of icons, or both avatars and icons.
 
--   **[Configure tile avatars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-activity-stream-avatars-icons.md)**
+-   **[Create tags for the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tags-activity-stream-admin.md)**
 
-    Configure Activity stream tiles to display avatars by using the **glide.activity.show\_tile\_icons** system property.
+    Enable your agents to filter through activities in the Activity stream with custom tags.
 
--   **[Configure tile icons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/config-journal-field-icons-and-colors.md)**
+-   **[Enable the Show more link in the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/display-sentreceiveemail-in-activity-stream.md)**
 
-    Configure custom icons for tiles in the Activity stream.
+    Enable the Show more link in Activity stream to configure the details you want to see in emails displayed in the Activity stream. You can select the email details you want to see, for example sent/received emails.
 
--   **[Create tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tags-activity-stream-admin.md)**
+-   **[Create filter sets in the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/create-filter-sets-in-the-activity-stream.md)**
 
-    Configure custom tags to filter through entries in the Activity stream.
+    Create filter sets with custom filter settings in the Activity stream.
 
--   **[Configure filter set access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-role-based-access-control-for-creating-personalized-filter-sets.md)**
+-   **[Restrict access to creating filter sets in the Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-role-based-access-control-for-creating-personalized-filter-sets.md)**
 
-    Configure access to create filter sets in the Activity stream by restricting specified users.
-
--   **[Configure most recent reply](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-last-viewed-timestamps-activity-stream.md)**
-
-    Configure the Activity stream to reduce visual clutter by displaying the most recent reply first.
+    Restrict specified agents from creating filter sets in the Activity stream.
 
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Get started with credentials, Connections and Credentials, Access Management]
+breadcrumb: [Getting started with credentials, Connections and Credentials, Access Management]
 ---
 
 # Credential affinity for Discovery and Orchestration

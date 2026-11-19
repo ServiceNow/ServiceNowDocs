@@ -1,73 +1,59 @@
 ---
-title: Calculate the engagement health score
-description: Use the Calculated metric data source to determine the health score of an engagement.
+title: Setup the engagement health definition
+description: Use the engagement health definition to configure the metrics required to calculate the health score for an engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-setup-health-defn.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Engagements, Customer success, Configure, Customer Success Management]
+breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
 ---
 
-# Calculate the engagement health score
+# Setup the engagement health definition
 
-Use the **Calculated** metric data source to determine the health score of an engagement.
+Use the engagement health definition to configure the metrics required to calculate the health score for an engagement.
 
 ## Before you begin
 
--   Role required: sn\_acct\_lc.customer\_success\_application\_admin
--   Data source and data context engine mapping must be setup. See [Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-metric-data.md).
+-   Role required: sn\_acct\_lc.ale\_success\_agent
+-   Data source and data context engine mapping must be setup. See [Setup the data context engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-metric-data.md).
 
 ## About this task
 
-If you’re upgrading from Customer Success Management 5.3.10 or earlier versions, you must run the `sn_acct_lc.MigrateHealthDataUtil().markHealthTablesDeprecated()` script. This script migrates data from the Engagement Health Definition and Health Metric Configuration tables to the **Calculated** metric data source. For more details, see [KB2668490](https://support.servicenow.com/kb?sys_kb_id=39f4e5cb47a9f250b6d8aa25126d43a0&id=kb_article_view).
+To view the health scores for an engagement, you must setup the health definition and configure the health metrics. For each health definition, you can add one or more data sources that will be used to calculate the health score.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Data Context Engine** &gt; **Data Sources** &gt; **Create New**.
+1.  Navigate to **All** &gt; **Success Configuration** &gt; **All Health Definitions** &gt; **New**.
 
-2.  Enter a name for the data source and select **Calculated** from the Source drop down list.
+2.  Enter the Name, Rank, and Description for the engagement.
 
-3.  In the **Breakdown table** field, select the source table that is used to calculate the score.
+    The Rank field is used to prioritize the health definition. The h
 
-4.  In the **Target table** field, select the table where the calculated score is written.
+3.  Select the `Global configuration` checkbox if you want to apply this health definition to all engagements.
 
-5.  Select a **Target field** and **Target Query field** in the Target table.
+4.  If you want to apply the health definition to a specific engagement, add a filter condition in the Definition section.
 
-    The calculated score is written into the records in the Target table that match the context specified in the Query field. For calculating the health score of an engagement, you can configure the data source as follows:
+    You can click on the `No of records matching the condition` link to view all engagements that match the condition.
 
-    -   Breakdown table: Engagement
-    -   Target table: Engagement
-    -   Target field: Health score
-    -   Target query field: sys\_id
-6.  Select **Submit** to create the **Calculated** data source.
+    **Note:** Health definitions that are applicable to one or more engagements take precedence over the global health definition.
 
-7.  Select **New** in the Segments related list.
+5.  Click **Submit** to create the health definition.
 
-8.  Enter a name for the segment and specify the **Rank**.
+6.  Open the health definition you have created, navigate to the Health Metric Configurations related list, and click **New**.
 
-    The Rank field is used to specify the priority of the Segment. The Breakdown table as specified in the Data Source is displayed.
+    You can specify the data sources that will be used to calculate the health score of the engagement.
 
-9.  Select **Add Filter Condition** and specify one of more conditions.
-
-    You can define multiple condition-based variations for a single metric.
-
-10. Select **Submit**.
-
-11. Navigate to the Segment Configurations related list and select **New**.
-
-12. Select **Submit** to create this segment configuration.
-
-13. Enter the following details.
+7.  Enter the following details:
 
 <table id="table_pcd_ndn_ydc"><thead><tr><th>
 
-Field name
+ 
 
 </th><th>
 
-Description
+ 
 
 </th></tr></thead><tbody><tr><td>
 
@@ -75,7 +61,15 @@ Data source
 
 </td><td>
 
-The **Calculated** data source that is used to determine the health score.
+Select the data source that will be used to calculate the health score.
+
+</td></tr><tr><td>
+
+Engagement health definition
+
+</td><td>
+
+The engagement for which this health metric is being configured.
 
 </td></tr><tr><td>
 
@@ -91,7 +85,7 @@ Weight
 
 </td><td>
 
-The weight or percentage assigned to this metric in calculating the overall health score of the engagement. If you’re defining two or more data sources for the health definition, the total weight across all the data sources should be equal to 100.For example, for these data sources, you can specify the Weight as follows:
+The weight or percentage assigned to this metric in calculating the overall health score of the engagement. If you are defining two or more data sources for the health definition, the total weight across all the data sources should be equal to 100.For example, for these data sources, you can specify the Weight as follows:
 
 -   Daily collection of CSAT: 40
 -   Weekly cases: 40
@@ -104,9 +98,13 @@ Direction
 
 </td><td>
 
--   Maximize: The higher the target, the better the score. For example, CSAT score: A higher value indicates a better score.
--   Minimize: The lower the target, the better the score. For example, Number of P1 cases: Fewer cases indicates a better performance.
+You can select:-   Maximize: The higher the target, the better the score.
 
+For example, CSAT score: A higher value indicates a better score.
+
+-   Minimize: The lower the target, the better the score.
+
+For example, Number of P1 cases: Fewer cases indicates a better performance.
 
 </td></tr><tr><td>
 
@@ -119,12 +117,8 @@ If multiple data records are returned for a data source, select how the aggregat
 
 
 </td></tr></tbody>
-</table>14. Select **Submit** to create segment configuration.
+</table>8.  Click **Publish**.
 
+    When the next data collection occurs, the health score is calculated and published on the Engagement page.
 
-## What to do next
-
-Create visualization using the newly created data source. See [Configure DCE Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-configure-dce-visual.md) for details. When the next data collection occurs, the health score is calculated and published on the Engagement page.
-
-**Parent Topic:**[Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-manage-engagement.md)
 

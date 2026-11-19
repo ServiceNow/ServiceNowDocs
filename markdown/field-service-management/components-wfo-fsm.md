@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/components-wfo-fsm.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 14
-breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
+breadcrumb: [Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
 ---
 
 # Workforce Optimization for Field Service components
@@ -50,7 +50,8 @@ Grants administrative rights to create, read, update, and delete \(CRUD\) additi
 
 </td><td>
 
-sn\_wfo.user
+-   agent\_schedule\_admin
+-   sn\_wfo\_fsm.manager
 
 </td></tr><tr><td>
 
@@ -83,9 +84,13 @@ Grants administrative rights to create, read, update, and delete \(CRUD\) coachi
 
 </td><td>
 
--   agent\_schedule\_admin
--   sn\_wfo\_fsm.manager
--   sn\_coaching\_admin
+-   sn\_team\_perf.team\_performance\_admin
+-   sn\_coaching.admin
+-   skill\_model\_admin
+-   sn\_channel\_mgmt.admin
+-   sn\_csm\_wfo\_workspa.manager
+-   sn\_mgr\_workspace.admin
+-   sn\_sre.admin
 
 </td></tr></tbody>
 </table>## Scheduling
@@ -112,7 +117,7 @@ Grants read access for scheduling including the ability to view schedules and sh
 
 </td><td>
 
-
+ 
 
 </td></tr><tr><td>
 

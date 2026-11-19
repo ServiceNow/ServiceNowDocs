@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
+breadcrumb: [Manage work order tasks, Prepare work orders, Using Field Service Management, Field Service Management]
 ---
 
 # Using rate types and labor rate cards
@@ -55,4 +55,6 @@ To enable multiple rate types for Field Service Management:
 5.  Enable the **Auto create time card on planned task update** field.
 6.  Enable the **Auto fill time card with time worked entries** field.
 7.  Click **Update**.
+
+**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 

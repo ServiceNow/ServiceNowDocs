@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: topic
-last_updated: "2026-09-10"
+last_updated: "2022-08-11"
 reading_time_minutes: 2
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -61,14 +61,4 @@ After transferring Workplace Central data between ServiceNow ServiceNow instance
 [Excel column lengths for move projects]()
 
 [Move conflicts for projects created via Excel upload]()
-
-[Workplace Task form - Space Assignment task]()
-
-[Neighborhood User Assignment Rule form]()
-
-[User Workplace Profile form]()
-
-[]()
-
-[]()
 

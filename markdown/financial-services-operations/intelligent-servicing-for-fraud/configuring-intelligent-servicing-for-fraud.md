@@ -1,5 +1,5 @@
 ---
-title: Configuring Intelligent Servicing for Fraud
+title: Setting up Intelligent Servicing for Fraud
 description: You can set up your implementation for the Intelligent Servicing for Fraud application by installing the application, importing financial services data, and reviewing and configuring the components that are installed with the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/intelligent-servicing-for-fraud/configuring-intelligent-servicing-for-fraud.html
@@ -7,13 +7,12 @@ release: yokohama
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-keywords: [configure intelligent servicing for fraud, set up fraud application, install intelligent servicing for fraud, assign roles for fraud users, configure service definitions, configure playbooks, configure workspace, configure user groups, configure assignment rules, configure slas, service level agreements, fraud operations analyst, fraud operations manager, fraud case routing]
-breadcrumb: [Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Intelligent Servicing for Fraud, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Configuring Intelligent Servicing for Fraud
+# Setting up Intelligent Servicing for Fraud
 
 You can set up your implementation for the Intelligent Servicing for Fraud application by installing the application, importing financial services data, and reviewing and configuring the components that are installed with the application.
 
@@ -69,13 +68,13 @@ Configure the playbook by navigating to **All** &gt; **Process Automation** &gt;
 
 </td></tr><tr><td>
 
-Configure CRM Workspace.
+Configure CSM Configurable Workspace.
 
 </td><td>
 
-Configure CRM Workspace to enable agents to interact with customers and to create and work on cases.
+Configure CSM Configurable Workspace to enable agents to interact with customers and to create and work on cases.
 
- For detailed instructions on how to configure CRM Workspace, see [Configure CRM Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md)
+ For detailed instructions on how to configure CSM Configurable Workspace, see[Configure CSM Configurable Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md)
 
 </td></tr><tr><td>
 
@@ -105,9 +104,11 @@ Configure user groups.
 
 Configure the following user groups for case and task assignments. You can also assign roles to groups and users.
 
- -   Fraud operations analyst \(sn\_bom\_fraud.agent\)
--   Fraud operations investigator \(sn\_bom\_fraud.agent\)
--   Fraud operations manager \(sn\_bom\_fraud.manager and sn\_process\_optimization\_analyst\)
+ |Name|Roles|
+|----|-----|
+|Fraud operations analyst|sn\_bom\_fraud.agent|
+|Fraud operations investigator|sn\_bom\_fraud.agent|
+|Fraud operations manager|sn\_bom\_fraud.manager and sn\_process\_optimization\_analyst|
 
  For detailed instructions on how to configure user groups, see [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-groups-fso.md).
 
@@ -117,7 +118,11 @@ Configure assignment rules to route tasks to agents, based on their skill sets.
 
 </td><td>
 
-Configure the Fraud case \(sn\_bom\_fraud\_case\) assignment rule to identify cases that meet certain conditions and then route those cases to agents.
+Configure the following assignment rule to identify cases that meet certain conditions and then route those cases to agents.
+
+ |Name|Table|
+|----|-----|
+|Fraud case|sn\_bom\_fraud\_case|
 
  For detailed instructions on how to configure assignment rules, see [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-assignment-rules-fso-applications.md)
 

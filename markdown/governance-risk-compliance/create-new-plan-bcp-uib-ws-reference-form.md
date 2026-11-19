@@ -1,20 +1,20 @@
 ---
-title: Create Plan form
-description: Use the Create Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
+title: Create New Plan form
+description: Use the Create New Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-new-plan-bcp-uib-ws-reference-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2025-07-31"
+reading_time_minutes: 1
 breadcrumb: [Create a business continuity plan, Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Create Plan form
+# Create New Plan form
 
-Use the Create Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
+Use the Create New Plan form in BCM UIB Workspace to add the details about the business continuity plan \(BCP\).
 
-## Create Plan form
+## Create New Plan form
 
 For description of the field values, see the table.
 
@@ -75,14 +75,6 @@ Plan owner
 </td><td>
 
 Owner of the business continuity plan.
-
-</td></tr><tr><td>
-
-Plan owner group
-
-</td><td>
-
-Group that owns the business continuity plan. All members of the selected group can edit the plan. The list is filtered to groups that hold the BCP planner or BCP manager role. Either the owner or the owner group is required.
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
-breadcrumb: [Create a SOAP web service activity, Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, Workflow Data Fabric]
+breadcrumb: [Create a SOAP web service activity, Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, Data and Automation]
 ---
 
 # Configure the SOAP execution command

@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Explore, Telecommunications Network Inventory]
+breadcrumb: [Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
 ---
 
 # Design and assign your network services
@@ -82,7 +82,7 @@ Playbook admin \[playbook.admin\]
 
 </td><td>
 
-Uses the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio.md) application to author, configure, and monitor the Design and Assign function.
+Uses the  application to author, configure, and monitor the Design and Assign function.
 
 </td></tr></tbody>
 </table>## Creating and configuring Design and Assign function for your network services
@@ -100,7 +100,7 @@ A Design and Assign function includes multiple activities for an agent to comple
 -   Mark an activity as complete and move to the next activity.
 -   Complete the activities necessary to design and assign an inventory record.
 
-To learn more, see [Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-playbooks-design-assign-inventory-record.md).
+To learn more, see [Using Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-playbooks-design-assign-inventory-record.md).
 
-You can create a logical connection by using the Design and Assign function available in the Telecommunications Network Inventory application. To learn more, see [Logical connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/design-logical-connection-design-assign-playbook.md).
+You can create a logical connection by using the Design and Assign function available in the Telecommunications Network Inventory application. To learn more, see [Design and Assign function for logical connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/design-logical-connection-design-assign-playbook.md).
 

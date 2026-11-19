@@ -1,5 +1,5 @@
 ---
-title: Visualize circuits
+title: Visualization of circuits
 description: The network diagram in the Telecommunications Network Inventory application graphically displays a hierarchical map of the logical connection and its underlying connection elements. You can use the network diagram to get a detailed overview of the logical connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Explore, Telecommunications Network Inventory]
+breadcrumb: [Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
 ---
 
-# Visualize circuits
+# Visualization of circuits
 
 The network diagram in the Telecommunications Network Inventory application graphically displays a hierarchical map of the logical connection and its underlying connection elements. You can use the network diagram to get a detailed overview of the logical connection.
 
@@ -33,7 +33,7 @@ A network diagram contains two panels:
 -   The map pane shows the map for a selected logical connection, revision of the logical connection, and protection path.
 -   The details pane shows related information of the logical connection according to the current selections.
 
-To learn more about how to use the network diagram, see [Network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md).
+To learn more about how to use the network diagram, see [Using the network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md).
 
 ## Map pane
 

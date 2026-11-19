@@ -1,30 +1,30 @@
 ---
-title: Multi-factor Authentication criteria
-description: Use MFA criteria to determine which users and roles must use two-step verification.
+title: Multi-factor authentication criteria
+description: Use multi-factor criteria to determine which users and roles must use two-step multi-factor verification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/multi-factor-authentication-criteria.html
 release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [Configure Multi-factor authentication, Multi-factor authentication, Authentication, Access Management]
 ---
 
-# Multi-factor Authentication criteria
+# Multi-factor authentication criteria
 
-Use MFA criteria to determine which users and roles must use two-step verification.
+Use multi-factor criteria to determine which users and roles must use two-step multi-factor verification.
 
 ## Multi-factor criteria
 
-Use MFA criteria to determine which users and roles must use two-step verification. You can use one of these criteria or a combination of them to suit your business needs.
+Use multi-factor criteria to determine which users and roles must use two-step multi-factor verification. You can use one of these criteria or a combination of them to suit your business needs. You can use one of these criteria or a combination of them to suit your business needs.
 
-**Note:** Use Adaptive Authentication policy-based MFA.
+**Note:** It is recommended to use Adaptive Authentication policy based MFA.
 
 -   **User-based multi-factor criteria**
 
-    Use user-based multi-factor criteria to select individual users who are required to log in using MFA. Administrators update the **Enable Multifactor Authentication** field on a user record to enable or turn off MFA requirements for a user. For details on this process, see [Configure user-based multi-factor criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_RequireMultifactorAuthForAUser.md).
+    Use user-based multi-factor criteria to select individual users who are required to log in using MFA. Administrators update the **Enable Multifactor Authentication** field on a user record to enable or disable MFA requirements for a user. For details on this process, see [Configure user-based multi-factor criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_RequireMultifactorAuthForAUser.md).
 
 -   **Role-based multi-factor criteria**
 

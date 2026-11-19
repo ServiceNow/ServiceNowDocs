@@ -1,5 +1,5 @@
 ---
-title: Integrate Coaching with Learning with third-party learning management systems
+title: Integrate Coaching With Learning with third-party learning management systems
 description: Connect your ServiceNow instance with third-party learning sites to pull learning content into your repository.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/workforce-optimization-for-it-service-management/integrate-learning-third-party-configurable-wfo-itsm.html
@@ -7,18 +7,16 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Setting up, Coaching, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Setting up Coaching in Workforce Optimization for ITSM, Coaching in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
 ---
 
-# Integrate Coaching with Learning with third-party learning management systems
+# Integrate Coaching With Learning with third-party learning management systems
 
 Connect your ServiceNow instance with third-party learning sites to pull learning content into your repository.
 
 ## Before you begin
-
-**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 **Important:** Coaching with Learning application is available from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/activate-configurable-workforce-optimization-itsm.md).
 
@@ -135,15 +133,15 @@ Configuration set to push a record if the previous push fails.**Note:** This fie
 </table>    7.  Click **Update**.
 2.  Integrate your ServiceNow instance with your third-party learning source accounts.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d293021e338">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d170544e312">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d293021e341">
+</th><th align="left" id="d170544e315">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d293021e347">
+</th></tr></thead><tbody><tr><td id="d170544e321">
 
 **Pluralsight Skills account**
 
@@ -151,7 +149,7 @@ Do this
 
 Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-pluralsight-spk.md) to perform the integration.
 
-</td></tr><tr><td id="d293021e363">
+</td></tr><tr><td id="d170544e337">
 
 **Cornerstone application**
 
@@ -159,7 +157,7 @@ Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set
 
 Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-cornerstone.md) to perform the integration.
 
-</td></tr><tr><td id="d293021e379">
+</td></tr><tr><td id="d170544e353">
 
 **Udemy application**
 
@@ -167,7 +165,7 @@ Register an OAuth application in Cornerstone and authenticate requests from Serv
 
 **Note:** You must manually configure fields such as logos and course reassignments in the learning system configuration table.
 
-</td></tr><tr><td id="d293021e391">
+</td></tr><tr><td id="d170544e365">
 
 **ServiceNow University application**
 
@@ -261,7 +259,7 @@ ServiceNow ServiceNow University
 </td></tr></tbody>
 </table>
 -   **[External Content Integration Sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/integration-source-coaching-with-learning-coaching-wfo-itsm.md)**  
-When you integrate Coaching with Learning with third-party learning management systems, the source record for Cornerstone OnDemand, Pluralsight, Udemy, and ServiceNow University applications are automatically created in the Enterprise Service Management Integrations Framework. These source records contain a predefined set of properties and integration services.
+When you integrate Coaching With Learning with third-party learning management systems, the source record for Cornerstone OnDemand, Pluralsight, Udemy, and ServiceNow University applications are automatically created in the Enterprise Service Management Integrations Framework. These source records contain a predefined set of properties and integration services.
 
 **Parent Topic:**[Setting up Coaching in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/setup-coaching-configurable-workforce-optimization-itsm.md)
 

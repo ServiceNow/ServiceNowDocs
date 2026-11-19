@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Managing Commercial Lines Claims, Commercial Lines Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create a commercial claim case
@@ -24,19 +24,19 @@ Role required: sn\_ins\_claim\_cml.fnol\_representative or sn\_ins\_claim\_cml.a
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+2.  Select the lists icon.
 
 3.  Create a case from the commercial auto claim cases list or an interaction record.
 
-<table><thead><tr><th align="left" id="d111051e85">
+<table><thead><tr><th align="left" id="d91403e75">
 
 Option
 
-</th><th align="left" id="d111051e88">
+</th><th align="left" id="d91403e78">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d111051e94">
+</th></tr></thead><tbody><tr><td id="d91403e84">
 
 **Commercial auto claim case from the commercial auto claim case list**
 
@@ -46,7 +46,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d111051e124">
+</td></tr><tr><td id="d91403e114">
 
 **Commercial auto claim case from an interaction record**
 

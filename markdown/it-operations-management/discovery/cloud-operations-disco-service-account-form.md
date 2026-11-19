@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Cloud Discovery reference, Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Cloud Discovery service account form reference
@@ -129,9 +129,7 @@ URL
 
 </td><td>
 
-URL of the datacenter.
-
- Configuring this field is required for Azure GovCloud \(US\) accounts. Add the required URL.
+Leave this field empty.
 
 </td></tr><tr><td>
 
@@ -424,5 +422,5 @@ URL
 Full URL of the vCenter.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Cloud Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cloud-discovery-reference.md)
+</table>**Parent Topic:**[Discovery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-references.md)
 

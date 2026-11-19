@@ -7,9 +7,9 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-11-05"
 reading_time_minutes: 4
-breadcrumb: [Creating requests for AI assets, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Creating requests for AI assets, Using Control Tower, Control Tower, Enable AI experiences]
 ---
 
 # Create offboarding requests for AI assets
@@ -205,4 +205,6 @@ Alternatively, navigate to **Lifecycle** &gt; **Deploy**.
 
     After all three stages are marked as complete, the Status of the request changes to Approved and the State changes to Completed. The State of the asset then changes to Retired.
 
+
+**Parent Topic:**[Creating requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/creating-ai-asset-requests.md)
 

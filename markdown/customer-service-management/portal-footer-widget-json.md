@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/portal-footer-widget-json.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [JSON parameter in Configurable Portal Widgets, Configurable Portal Widgets reference, Reference, Customer Service Management]
+breadcrumb: [Customer Service Management reference, Customer Service Management]
 ---
 
 # Portal Footer widget JSON parameters
@@ -50,14 +50,6 @@ The image that can be displayed as a logo in the footer. The image name should t
 
 </td></tr><tr><td>
 
-logo\_alt\_text
-
-</td><td>
-
-Alternate screen-readable text that describes the brand logo in the footer for accessibility purposes.
-
-</td></tr><tr><td>
-
 sitemap\_links\_menu\_sys\_id
 
 </td><td>
@@ -81,10 +73,4 @@ social\_links\_menu\_sys\_id
 The system identifier \(sys\_id\) of the menu record is used to display social links in the Portal Polaris Footer widget. You can create a menu record and map it to the social links by including its sys\_id in the JSON code. For more information on how to create a menu record, see [Menu Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/menu-item-form.md).
 
 </td></tr></tbody>
-</table>**Related topics**  
-
-
-[Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-footer-widget.md)
-
-[Configure the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-footer-widget.md)
-
+</table>

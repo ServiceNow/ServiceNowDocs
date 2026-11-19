@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Exploring Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
+breadcrumb: [Explore, Agile Development 2.0, Strategic Portfolio Management]
 ---
 
 # Agile Development — Unified Backlog

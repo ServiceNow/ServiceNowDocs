@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure metadata extraction, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configuring contract metadata extraction, Configure, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
 ---
 
 # Enable notification for contract metadata extraction
@@ -34,18 +34,12 @@ Role required: admin
 
 4.  On the Notification form, select the **Active** check box.
 
-    \[Omitted image "cmpro-na-me-notf.png"\] Alt text: Activate check box in the metadata extraction email notification.
-
 5.  Select **Update**.
 
 
-## Result
-
-The metadata extraction email notification is activated and triggers when the metadata extraction process is completed.
-
 ## What to do next
 
-[Configure the URL for metadata extraction notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-config-ext-wrkspc-email.md)
+[Configure the workspace URL for contract metadata extraction notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-config-ext-wrkspc-email.md)
 
 **Parent Topic:**[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
 
@@ -58,7 +52,7 @@ The metadata extraction email notification is activated and triggers when the me
 
 [Configure system properties for contract metadata extraction]()
 
-[Configure the URL for metadata extraction notifications]()
+[Configure the workspace URL for contract metadata extraction notifications]()
 
 [Configure an extension point to add contract metadata]()
 

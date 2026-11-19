@@ -1,11 +1,11 @@
 ---
 title: Technical dashboards compared to inline dashboards
-description: The inline editor produces dashboard components with events and page properties preconfigured. The technical editor allows for a full range of UIB components but requires more back-end configuration.
+description: The inline editor produces dashboard components with events and page properties preconfigured. The technical editor allows for a full range of UIB components but requires more backend configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/technical-vs-in-line-dashboards.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [filter, Platform Analytics, data visualization]
 breadcrumb: [Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -13,7 +13,7 @@ breadcrumb: [Technical dashboards, Dashboards, Platform Analytics experience, Pl
 
 # Technical dashboards compared to inline dashboards
 
-The inline editor produces dashboard components with events and page properties preconfigured. The technical editor allows for a full range of UIB components but requires more back-end configuration.
+The inline editor produces dashboard components with events and page properties preconfigured. The technical editor allows for a full range of UIB components but requires more backend configuration.
 
 <table id="table_d5z_rms_31c"><thead><tr><th>
 

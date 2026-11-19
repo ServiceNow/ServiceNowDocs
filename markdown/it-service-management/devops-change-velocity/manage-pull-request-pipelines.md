@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
@@ -46,15 +46,15 @@ For ADO pipelines, pull requests can be managed for ADO coding source.
 
 2.  Perform the following steps based on your orchestration tool.
 
-<table id="choicetable_khj_xzd_vyb"><thead><tr><th align="left" id="d301783e222">
+<table id="choicetable_khj_xzd_vyb"><thead><tr><th align="left" id="d390965e221">
 
 Orchestration tool
 
-</th><th align="left" id="d301783e225">
+</th><th align="left" id="d390965e224">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d301783e231">
+</th></tr></thead><tbody><tr><td id="d390965e230">
 
 **Jenkins**
 
@@ -64,7 +64,7 @@ Steps
 2.  Select the **Pull Request Pipeline Tracking Check** option.
 
 
-</td></tr><tr><td id="d301783e258">
+</td></tr><tr><td id="d390965e257">
 
 **GitHub Actions**
 
@@ -75,7 +75,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d301783e291">
+</td></tr><tr><td id="d390965e290">
 
 **ADO**
 

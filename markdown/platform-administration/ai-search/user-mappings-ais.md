@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-05-14"
 reading_time_minutes: 7
 breadcrumb: [External content security, Indexing and searching external content, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -160,7 +160,7 @@ AI Search creates an import set for each batch of user mappings that you import 
 
     1.  Perform the appropriate action for your version of the UI:
 
-<table><thead><tr><th>
+<table id="table_els_wyl_vpb"><thead><tr><th>
 
 UI version
 

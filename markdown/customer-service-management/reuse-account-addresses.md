@@ -1,22 +1,22 @@
 ---
 title: Reusing addresses between multiple accounts
-description: You can reuse the same addresses between multiple account records.
+description: Users can reuse the same addresses between multiple account records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/reuse-account-addresses.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Reusing addresses between multiple accounts
 
-You can reuse the same addresses between multiple account records.
+Users can reuse the same addresses between multiple account records.
 
-You can reuse the same address between multiple accounts within the account hierarchy or between non-related accounts. Use the account hierarchy feature to create a parent-child relationship between accounts.
+Users can reuse the same address between multiple accounts within the account hierarchy or between non-related accounts. Use the account hierarchy feature to create a parent-child relationship between accounts.
 
-To enable address sharing between accounts in the account hierarchy, see [Address sharing through account hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/address-sharing-account-hierarchy.md).
+To allow address sharing between accounts in the account hierarchy, see [Address sharing through account hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/address-sharing-account-hierarchy.md).
 
 To share addresses between non-related accounts, see [Share an address through non-related accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/address-sharing-non-related-accounts.md).
 

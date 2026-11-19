@@ -1,20 +1,20 @@
 ---
-title: Create credentials for ACME certificate authority
-description: Create credentials so Certificate Inventory and Management can communicate with your ACME certificate authority \(CA\) for automated certificate life-cycle management.
+title: Create the credential for the ACME Certificate Authority
+description: Create an ACME credential on the ACME Certificate Authority's website or API. The credential is used by your ACME client software to interact with the ACME Certificate Authority \(CA\) to request, renew, or revoke certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/create-credential-for-acme-ca.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Configuring ACME, Automated Certificate Management Environment, ITOM Visibility, IT Operations Management]
 ---
 
-# Create credentials for ACME certificate authority
+# Create the credential for the ACME Certificate Authority
 
-Create credentials so Certificate Inventory and Management can communicate with your ACME certificate authority \(CA\) for automated certificate life-cycle management.
+Create an ACME credential on the ACME Certificate Authority's website or API. The credential is used by your ACME client software to interact with the ACME Certificate Authority \(CA\) to request, renew, or revoke certificates.
 
 ## Before you begin
 
@@ -22,13 +22,13 @@ Role required: pki\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Credentials**.
+1.  Navigate to **All** &gt; **Discovery** &gt; **Credentials**.
 
 2.  Select **New**.
 
-    1.  From the credentials list, select **Certificate Management Credentials**.
+3.  On the **What type of Credentials would you like to create?** page, select **Certificate Management Credentials**.
 
-    2.  On the form, fill in the fields.
+4.  On the form, fill in the fields.
 
 <table id="table_hx4_qxq_gbc"><thead><tr><th>
 
@@ -44,7 +44,7 @@ Name
 
 </td><td>
 
-Descriptive name of the credential.
+Name for the credential.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Credential alias
 
 </td><td>
 
-Credential alias linked to the credential.
+Credential alias that is linked to the CA credential.
 
 </td></tr><tr><td>
 
@@ -60,14 +60,7 @@ CA Type
 
 </td><td>
 
-Type of the CA. The available options are:-   DigiCert
--   Entrust
--   Let's Encrypt
--   EJBCA
--   Sectigo Universal
--   Sectigo Public
-
-**Note:** If you added an ACME-compatible CA, it is listed here as a CA type. For more information, see [Add ACME-compatible certificate authorities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/add-acme-compatible-certificate-authorities.md).
+Type of the Certificate Authority \(for example, Let's Encrypt or Entrust\).
 
 </td></tr><tr><td>
 
@@ -75,7 +68,7 @@ ACME
 
 </td><td>
 
-Option to enable ACME flow the CA. For Let's Encrypt, EJBCA, Sectigo Universal, and Sectigo Public CAs, this check box is selected by default.
+Option to enable ACME flow for the Entrust CA type.**Note:** For the CA type **Let's Encrypt**, this option is selected by default.
 
 </td></tr><tr><td>
 
@@ -83,7 +76,7 @@ Private Key
 
 </td><td>
 
-Create any private key or generate an account using the ACME CA. Provide a private key with the key type RSA or ECDSA.
+Create any private key or generate an account using Let's Encrypt or Entrust. Provide a private key with the key type RSA or ECDSA.
 
 </td></tr><tr><td>
 
@@ -99,7 +92,7 @@ Key ID
 
 </td><td>
 
-Used for account binding and is provided by the CA.
+Used for account binding and is provided by the CA.**Note:** Applicable for CA Type **Entrust**.
 
 </td></tr><tr><td>
 
@@ -107,17 +100,9 @@ MAC Key
 
 </td><td>
 
-Used for account binding and is provided by the CA.
-
-</td></tr><tr><td>
-
-Active
-
-</td><td>
-
-Option to make the credential active. This check box is selected by default.
+Used for account binding and is provided by the CA.**Note:** Applicable for CA Type **Entrust**.
 
 </td></tr></tbody>
-</table>3.  Select **Submit**.
+</table>5.  Select **Update**.
 
 

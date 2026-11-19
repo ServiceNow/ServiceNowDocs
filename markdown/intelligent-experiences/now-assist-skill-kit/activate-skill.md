@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Activate a skill
@@ -28,7 +28,7 @@ Role required: admin
 
 3.  Select **Activate skill**.
 
-    Make sure you are in the correct application scope when you activate the skill. To learn more about application scopes, see .
+    Make sure you are in the correct application scope when you activate the skill. To learn more about application scopes, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationScope.md).
 
     \[Omitted image "nask-activation.png"\] Alt text: Skill activation page in AI Admin Hub.
 

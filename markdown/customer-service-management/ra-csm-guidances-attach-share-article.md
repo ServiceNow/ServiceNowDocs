@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ra-csm-guidances-attach-share-article.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 8
-breadcrumb: [Guidances, Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
+breadcrumb: [Guidances in Recommended Actions, Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Attach and share article guidance
@@ -16,7 +16,7 @@ The Attach and share article guidance recommends relevant knowledge articles to 
 
 The Attach and share article guidance recommends relevant knowledge articles based on the text in the case short description. Agents can view the recommended articles and share a selected article with the customer.
 
-The agent can view the knowledge articles in a card format in the contextual side panel or expand a selected card to see an article in a detail view. The card view provides a condensed view of articles for quick scanning. The detail view provides the full content of the selected article for further reading.
+The agent can view the knowledge articles in card format in the contextual side panel or expand a selected card to see an article in the detail view. The card view provides a condensed view of articles for quick scanning. The detail view provides the full content of the selected article for further reading.
 
 Each card contains a primary action. The default primary action is [Attach and add link in comment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-guidances-attach-share-article.md). Secondary actions are available in the More actions menu in the upper right corner of the card:
 
@@ -29,7 +29,7 @@ The relevancy score displays on the Attach and share article guidance in the Sea
 
 ## Modal and modeless dialog experiences
 
-The agent can share the article in a comment, a work note, or an email using the primary and secondary actions. Two different experiences are available for this guidance depending on the [record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-record-pages.md) you are using in the CRM Workspace:
+The agent can share the article in a comment, a work note, or an email using the primary and secondary actions. Two different experiences are available for this guidance depending on the [record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-record-pages.md) you are using in the CSM Configurable Workspace:
 
 -   **Modeless dialogs**: This experience is available for record pages that support [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) \(for example, the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page.md)\). Modeless dialogs are windows that overlay the main window content. Agents can move modeless dialogs around the window so they can interact with the window content and overlay content at the same time.
 -   **Modals**: This experience is available for record pages that support modals \(for example, the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-default-record-page.md)\). With modals, agents must complete the action within a modal before continuing to interact with the window content, which is the default experience.

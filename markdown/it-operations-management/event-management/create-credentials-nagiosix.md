@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure event collection from NagiosXI, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure event collection from NagiosXI, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Create Nagios XI server credentials
@@ -52,7 +52,7 @@ User name
 
 </td><td>
 
-Name to identify the user.
+Name to identify the user.Ensure that the user password contains the NagiosXI user API key, for example, `04lquEPqf4JimWCm8RWbJokOpW8LYBUfEvJp9OSHSRYe4QDrHPFndYbWcCHapBpk`.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Password
 
 </td><td>
 
-Nagios XI user API key. For example:`04lquEPqf4JimWCm8RWbJokOpW8LYBUfEvJp9OSHSRYe4QDrHPFndYbWcCHapBpk`
+Password to use this credential.
 
 </td></tr><tr><td>
 

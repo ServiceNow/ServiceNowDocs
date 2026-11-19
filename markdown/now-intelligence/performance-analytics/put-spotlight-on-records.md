@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Concepts, Explore, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Concepts, Exploring, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Put a Spotlight on records

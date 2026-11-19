@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-10-03"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -18,8 +18,6 @@ breadcrumb: [ServiceNow Otto for IT Service Management \(ITSM\), IT Service Mana
 Use the IT Service Management AI agents within an agentic workflow to complete tasks autonomously.
 
 ## Agentic workflows in IT Service Management
-
-For a list of IT Service Management AI agents, see .
 
 <table id="table_lxk_lck_h2c"><thead><tr><th>
 
@@ -47,11 +45,9 @@ Triage and categorize ITSM incidents
 
  Notify users withTwilio
 
- Incident assist
-
 </td></tr><tr><td>
 
-[Change management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/now-assist-itsm-agentic-ai-in-change.md)
+[Change management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/using-agentic-workflows.md)
 
 </td><td>
 

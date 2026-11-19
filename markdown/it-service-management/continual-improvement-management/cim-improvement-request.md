@@ -1,38 +1,57 @@
 ---
-title: Identifying improvement opportunities
-description: Identify improvement opportunities in your organization and determine your improvement goal.
+title: Requesting improvements
+description: Identify improvement opportunities within your environment and create an improvement request to begin implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/continual-improvement-management/cim-improvement-request.html
 release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2025-01-30"
+reading_time_minutes: 2
 breadcrumb: [Continual Improvement Management, IT Service Management]
 ---
 
-# Identifying improvement opportunities
+# Requesting improvements
 
-Identify improvement opportunities in your organization and determine your improvement goal.
+Identify improvement opportunities within your environment and create an improvement request to begin implementation.
 
-You can identify improvement opportunities based on feedback from cross-functional groups and from within integrated applications and determine the goal or expected result to be achieved from the improvement. Improvement opportunities need not be limited to the applications you use, your area of expertise, or your specific group. Examples of improvement opportunities include KPI performance, customer satisfaction, resources, processes, and training.
+You can request improvements either manually from Continual Improvement Management, or from an application that is integrated with Continual Improvement Management.
 
--   Identify improvement opportunists based on feedback from cross-functional groups.
-    -   Process manager or process owner: Reach out to the process manager or process owner to identify improvement suggestions for a process that is not working well.
-    -   IT, development, and project management groups: Reach out to the IT staff, development team, and project management staff for improvement suggestions. To enable them to submit improvement requests from within an integrated application, provide them the Improvement Requester role.
--   Identify improvement opportunities from within applications integrated with CIM. The following are some examples of identifying improvements from integrated applications.
+Continual Improvement Management [integration with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-integration.md) lets you:
 
-    |Application|Description|
-    |-----------|-----------|
-    |Surveys|Review customer feedback and complaints and send additional assessments soliciting customers for improvement opportunity suggestions.|
-    |Performance Analytics|Monitor process KPIs and internal process assessments in Performance Analytics reports to identify improvement opportunities.|
-    |Benchmarks|Compare KPI performance with Benchmarks baseline reports, and identify improvement opportunities in Benchmarks recommendations.|
-    |Service|Review undesirable trends in reports to identify improvement opportunities.|
-    |Problem Management and Change Management|Review Problem Management and Change Management trend reports to identify improvement opportunities.|
-    |Risk and GRC Audits|Review Risk registers and GRC Audit test failures to discover improvement opportunities.|
-    |IT Service Management|Review ITSM regularly to identify improvement opportunities for what is not working well.|
+-   Create an improvement initiative from within other applications
+-   Create a record for another application as part of an improvement initiative or CIM task
 
+## Identifying improvement opportunities
+
+There are many different ways you can identify improvements in your organization. Improvement opportunities need not to be limited to the applications you use, your area of expertise, or your specific group.
+
+You can identify improvement opportunities based on feedback from other groups.
+
+-   **Process manager or process owner**
+
+    Reach out to the process manager or process owner to identify improvement suggestions for a process that is not working well.
+
+-   **IT, development, and project management groups**
+
+    Reach out to the IT staff, development team, and project management staff for improvement suggestions, and provide the Improvement Requester role so they can submit an improvement request from within an integrated application with one click.
+
+
+You can also identify improvement opportunities from within many different applications.
+
+|Application|Description|
+|-----------|-----------|
+|Surveys|Review customer feedback and complaints and send additional assessments soliciting customers for improvement opportunity suggestions.|
+|Performance Analytics|Monitor process KPIs and internal process assessments in Performance Analytics reports to identify improvement opportunities.|
+|Benchmarks|Compare KPI performance with Benchmarks baseline reports, and identify improvement opportunities in Benchmarks recommendations.|
+|Service|Review undesirable trends in reports to identify improvement opportunities.|
+|Problem Management and Change Management|Review Problem Management and Change Management trend reports to identify improvement opportunities.|
+|Risk and GRC Audits|Review Risk registers and GRC Audit test failures to discover improvement opportunities.|
+|IT Service Management|Review ITSM regularly to identify improvement opportunities for what is not working well.|
+
+-   **[Create an improvement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/create-cim-request.md)**  
+Create an improvement request for improvement opportunities you identify in your environment. Once submitted, the improvement request is analyzed and implemented by the Improvement Manager and Improvement Coordinator.
 
 **Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-landing-page.md)
 

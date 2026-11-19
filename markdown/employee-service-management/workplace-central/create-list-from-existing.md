@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-04-11"
 reading_time_minutes: 1
 breadcrumb: [Creating custom lists on Workplace Central, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -15,12 +15,6 @@ breadcrumb: [Creating custom lists on Workplace Central, Use, Workplace Central,
 # Create a custom list based on an existing list
 
 Create a custom list based on an existing list on Workplace Central.
-
-## About this task
-
-The following video explains how to create a custom list from an existing list:
-
-\[Omitted video\] Description: Create a custom list in Workplace Central
 
 ## Before you begin
 
@@ -75,15 +69,15 @@ Columns that are picked from the selected Workplace Central list and displayed o
 </td></tr></tbody>
 </table>5.  In the Add filters section, use the following options to filter and sort the records in your custom list.
 
-<table id="choicetable_gj5_lfs_z2c"><thead><tr><th align="left" id="d740699e206">
+<table id="choicetable_gj5_lfs_z2c"><thead><tr><th align="left" id="d685497e195">
 
 Option
 
-</th><th align="left" id="d740699e209">
+</th><th align="left" id="d685497e198">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d740699e215">
+</th></tr></thead><tbody><tr><td id="d685497e204">
 
 **Use existing filter**
 
@@ -91,7 +85,7 @@ Description
 
 Use an existing filter that is available with the selected Workplace Central list.
 
-</td></tr><tr><td id="d740699e227">
+</td></tr><tr><td id="d685497e216">
 
 **Save filter**
 
@@ -99,7 +93,7 @@ Use an existing filter that is available with the selected Workplace Central lis
 
 Save the current filter criteria.You can use saved filters for other custom lists. You can also grant permissions to other users to use the filter for their custom lists.
 
-</td></tr><tr><td id="d740699e238">
+</td></tr><tr><td id="d685497e227">
 
 **Refresh \(Update count\)**
 
@@ -107,7 +101,7 @@ Save the current filter criteria.You can use saved filters for other custom list
 
 Update the number of records based on the current filter criteria.
 
-</td></tr><tr><td id="d740699e247">
+</td></tr><tr><td id="d685497e236">
 
 **Editor**
 
@@ -115,7 +109,7 @@ Update the number of records based on the current filter criteria.
 
 Create condition sets for the filter criteria.
 
-</td></tr><tr><td id="d740699e257">
+</td></tr><tr><td id="d685497e246">
 
 **Sort by**
 

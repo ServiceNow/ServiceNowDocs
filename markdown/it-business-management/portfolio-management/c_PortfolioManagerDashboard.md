@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Management
 classification: portfolio-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -29,8 +29,6 @@ View different graphical reports on the PMO Dashboard.
 [Create a portfolio]()
 
 [Open a portfolio status list]()
-
-[Legacy portfolio workbench]()
 
 [Scenario Planning for PPM]()
 

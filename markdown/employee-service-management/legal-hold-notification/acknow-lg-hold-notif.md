@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Hold Notification
 classification: legal-hold-notification
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-06-16"
 reading_time_minutes: 1
-breadcrumb: [Use, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Using Legal Hold Notification, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
 ---
 
 # Acknowledge the legal hold notice

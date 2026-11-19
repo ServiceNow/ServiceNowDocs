@@ -7,7 +7,7 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 22
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -978,7 +978,7 @@ Description
 
 Content-Type
 
-</td><td id="d2805e172">
+</td><td id="d2921e143">
 
 Data format of the request body. Supported types: **application/json** or **application/xml**. Default: **application/json**
 

@@ -1,17 +1,16 @@
 ---
-title: Add a beneficiary to a social benefits application in Social Benefits Playbook
+title: Add a beneficiary to a social benefits application
 description: As an agent, you can add multiple beneficiaries to an existing request for social benefits. Applicants, or the representatives of an applicant, can also add additional beneficiaries to an application through the Government Service Portal. Beneficiaries are people that share the household or are related to the applicant who will benefit from the assistance being provided.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-sbp-add-beneficiary.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-keywords: [How to Add a beneficiary to a social benefits application, Add a beneficiary, Add a beneficiary to a social benefits application]
-breadcrumb: [Using Social Benefits Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Social Benefits Playbook, Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Add a beneficiary to a social benefits application in Social Benefits Playbook
+# Add a beneficiary to a social benefits application
 
 As an agent, you can add multiple beneficiaries to an existing request for social benefits. Applicants, or the representatives of an applicant, can also add additional beneficiaries to an application through the Government Service Portal. Beneficiaries are people that share the household or are related to the applicant who will benefit from the assistance being provided.
 
@@ -21,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  In the Public Sector Workspace, navigate to **Lists** &gt; **Social Benefits** &gt; **All**.
+1.  In the CSM Configurable Workspace, navigate to **Lists** &gt; **Social Benefits** &gt; **All**.
 
 2.  Select **New** to create a case.
 

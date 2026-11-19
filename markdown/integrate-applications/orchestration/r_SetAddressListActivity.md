@@ -7,9 +7,9 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Exchange activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
+breadcrumb: [Exchange activity pack, Orchestration activity packs, Classic Orchestration, Data and Automation]
 ---
 
 # Set Address List activity

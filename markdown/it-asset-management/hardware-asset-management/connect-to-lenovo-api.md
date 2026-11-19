@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Receive asset warranty details from Lenovo, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
 ---
 
 # Connect to the Lenovo Warranty API
@@ -45,11 +45,10 @@ Role required: admin
 
 The Lenovo connection is successfully created and listed in the Connections tab.
 
-## What to do next
+**Parent Topic:**[Receive asset warranty details from Lenovo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/receive-warranty-details-lenovo.md)
 
-After you save the connection and credential records, the Lenovo Warranty API is ready to use. For information about the process for downloading warranty information for hardware assets, see [Integration with Lenovo for asset warranty details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/integration-with-lenovo-asset-warranty.md).
+**Related topics**  
 
-**Tip:** No connection test is available for the Lenovo Warranty API. To confirm that the connection is working, check the **Asset Job Log** \[asset\_job\_log\] table after the warranty download job runs. If the credentials are incorrect or the connection fails, the job runs but doesn't download warranty information, and logs the details for each run.
 
-**Parent Topic:**[Integrations and advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/integrations-advncd-configs.md)
+[Track the warranty details of your Lenovo assets]()
 

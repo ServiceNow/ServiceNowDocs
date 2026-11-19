@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Create a contract, Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Create a contract, Contracts, Contract Management use, Contract Management, Asset Management, IT Service Management]
 ---
 
 # Create a software maintenance contract example
@@ -36,7 +36,7 @@ The goal of this example is to create a contract that shows the total amount of 
 
 5.  Click **New** and enter the following information.
 
-<table id="choicetable_iy4_czk_35"><tbody><tr><td id="d243431e155">
+<table id="choicetable_iy4_czk_35"><tbody><tr><td id="d144810e158">
 
 **Agreement Type**
 
@@ -44,7 +44,7 @@ The goal of this example is to create a contract that shows the total amount of 
 
 Select **Enterprise**.
 
-</td></tr><tr><td id="d243431e167">
+</td></tr><tr><td id="d144810e170">
 
 **Application Model**
 
@@ -59,7 +59,7 @@ Select the application model created in step 1.
 
 7.  In the **Asset Covered** related list, click **New** and enter the following information.
 
-<table id="choicetable_yqm_mzk_35"><tbody><tr><td id="d243431e204">
+<table id="choicetable_yqm_mzk_35"><tbody><tr><td id="d144810e207">
 
 **Asset**
 
@@ -67,7 +67,7 @@ Select the application model created in step 1.
 
 Select the software license created in step 3.
 
-</td></tr><tr><td id="d243431e213">
+</td></tr><tr><td id="d144810e216">
 
 **Date added**
 
@@ -80,7 +80,7 @@ Enter the value.
 
 9.  Continue completing the form with the following information.
 
-<table id="choicetable_smt_zzk_35"><tbody><tr><td id="d243431e240">
+<table id="choicetable_smt_zzk_35"><tbody><tr><td id="d144810e243">
 
 **Payment schedule**
 
@@ -88,7 +88,7 @@ Enter the value.
 
 Select **Annually**.
 
-</td></tr><tr><td id="d243431e252">
+</td></tr><tr><td id="d144810e255">
 
 **Payment amount**
 

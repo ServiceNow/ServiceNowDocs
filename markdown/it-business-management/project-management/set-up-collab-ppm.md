@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [PPM Collaboration, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Setting up PPM collaboration for Slack
@@ -26,6 +26,4 @@ PPM Collaboration uses the Slack spoke actions such as creating a channel for yo
 
 
 [Slack spoke v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/slack-spoke.md)
-
-[Setting up PPM collaboration for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/setup-collab-ppm-msteams.md)
 

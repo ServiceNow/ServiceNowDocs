@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/io-help.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
+breadcrumb: [Impact Instance Observer, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
 ---
 
 # Help
@@ -20,6 +20,4 @@ There are four menu options in the Help Center:
 -   Metrics Overview: Provides information of the available metrics and reports that can be accessed along with helpful definitions.
 -   Release Notes: Contains information regarding each Instance Observer release.
 -   How to Docs: Access documentation directly related to Instance Observer functionality.
-
-**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-overview.md)
 

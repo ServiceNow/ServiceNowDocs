@@ -7,7 +7,7 @@ release: yokohama
 product: Skills Management
 classification: skills-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Routing work items to agents based on skills, Using Skills Management, Skills Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -80,15 +80,15 @@ Adds skills to work items using a script.
 
 7.  Create the rule.
 
-<table id="choicetable_vx5_gc1_wgb"><thead><tr><th align="left" id="d191108e204">
+<table id="choicetable_vx5_gc1_wgb"><thead><tr><th align="left" id="d190069e198">
 
 Rule type
 
-</th><th align="left" id="d191108e207">
+</th><th align="left" id="d190069e201">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d191108e213">
+</th></tr></thead><tbody><tr><td id="d190069e207">
 
 **Create a simple rule**
 
@@ -101,7 +101,7 @@ Steps
 
 For information about defining skill levels, see [Define a skill level type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/skills-management/define-skill-level-type.md).
 
-</td></tr><tr><td id="d191108e265">
+</td></tr><tr><td id="d190069e259">
 
 **Create a lookup rule**
 
@@ -120,7 +120,7 @@ The **Skills Field** that connects the source and reference tables is automatica
 8.  From the **Lookup table field** drop-down menu, select an attribute to map to the source table.
 
 
-</td></tr><tr><td id="d191108e337">
+</td></tr><tr><td id="d190069e331">
 
 **Create an advanced rule**
 

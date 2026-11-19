@@ -1,20 +1,20 @@
 ---
 title: Configure API Credentials for Amazon Bedrock
-description: Configure your API credentials to use AWS Bedrock as your LLM provider for Generative AI Controller capabilities.
+description: Configure your API credentials to use AWS Bedrock in custom workflows and Virtual Agent Designer topics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-amazon-bedrock.html
 release: yokohama
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring API credentials for generative AI capabilities, Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [Configuring API credentials for generative AI capabilities, Configuring Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
 ---
 
 # Configure API Credentials for Amazon Bedrock
 
-Configure your API credentials to use AWS Bedrock as your LLM provider for Generative AI Controller capabilities.
+Configure your API credentials to use AWS Bedrock in custom workflows and Virtual Agent Designer topics.
 
 ## Before you begin
 
@@ -47,11 +47,7 @@ To use Amazon Bedrock as your LLM provider for Generative AI Controller capabili
 
 ## Result
 
-You can use Amazon Bedrock as your LLM provider for Generative AI Controller capabilities.
+You can use Amazon Bedrock as your provider for Generative AI Controller capabilities in Flow Designer, Virtual Agent Designer, and scripts to create custom experiences with generative AI.
 
 \[Omitted image "gai-created-connection-amazon.png"\] Alt text: Complete connection for Amazon Bedrock.
-
-## What to do next
-
-Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-skills.md).
 

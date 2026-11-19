@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Interactive activities, Playbooks reference, Workflow Studio reference, Workflow Studio, Build workflows]
 ---
 
 # Send Email activity
@@ -349,4 +349,6 @@ These outputs can provide data to other activities in your playbook. You can acc
 |Automated|True/False|Whether the flow automatically completes or requires user input. If set to **True**, the activity card in Playbook Experience displays a **Automated Task** tagline.|
 |Record|Reference.Task\[task\]|Reference to record created.|
 |Email|Reference.Notification\[sysevent\_email\_action\]|Reference to the newly created email notification record|
+
+**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/interactive-activities.md)
 

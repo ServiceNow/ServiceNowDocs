@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Enable favorites option for Workplace Service Portal
@@ -66,8 +66,6 @@ The favorites option is enabled for employees to set any workplace location as t
 
 [Configure Workplace entity and entity types]()
 
-[Managing Neighborhoods]()
-
 [Create a workplace performer criteria]()
 
 [Mapping employees to their designated workspaces]()
@@ -92,5 +90,5 @@ The favorites option is enabled for employees to set any workplace location as t
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

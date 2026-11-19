@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 5
-breadcrumb: [CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2025-01-30"
+reading_time_minutes: 6
+breadcrumb: [CMDB classifications and class dependency, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a CI class
@@ -22,8 +22,8 @@ The class that is being extended must have its **Is\_Extendable** field checked,
 
 Role required:
 
--   sn\_cmdb\_admin or Itil\_admin, and personalize\_dictionary: Required for editing the dictionary table
--   sn\_cmdb\_admin or admin: Full access
+-   Itil\_admin and personalize\_dictionary: Required for editing the dictionary table
+-   admin: Full access
 
 ## About this task
 
@@ -103,7 +103,7 @@ Principal Class
 
 </td><td>
 
-Denotes whether this class is included in the [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md) filter. If this class is included in the Principal Class filter, then CIs from this class appear in CI list views when the Principal Class filter is applied.
+Denotes whether this class is included in the [Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md). If this class is included in the Principal Class filter, then CIs from this class appear in CI list views when the Principal Class filter is applied.
 
 </td></tr></tbody>
 </table>6.  On the **Add Attributes** tab, click the + sign and enter details for each new class column.
@@ -148,19 +148,21 @@ Denotes whether this class is included in the [Principal Class](https://raw.gith
 **Related topics**  
 
 
+[Dependent CIs management]()
+
 [CMDB record types]()
 
 [Related Lists of CI components]()
 
-[Principal Class]()
-
-[Dependent CIs management]()
-
-[View and edit class definitions and metadata]()
-
 [Reclassify a CI]()
 
 [Delete CIs]()
+
+[View and edit class definitions and metadata]()
+
+[Principal Class]()
+
+[Update the list of classes in the Principal Class filter]()
 
 [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
 

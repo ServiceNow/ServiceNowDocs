@@ -1,5 +1,5 @@
 ---
-title: View source type and log source relationships
+title: Source type and log source relationships
 description: Explore the many-to-many relationships between source types and log sources to help you optimize data input mapping in Health Log Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-view-sources-vs-sourcetypes.html
@@ -7,19 +7,17 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [ServiceNow, Health Log Analytics, HLA, relationship, source type, log source, data input, mapping, parsing, anomalies]
-breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Log data auto-mapping and mapping, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
-# View source type and log source relationships
+# Source type and log source relationships
 
 Explore the many-to-many relationships between source types and log sources to help you optimize data input mapping in Health Log Analytics.
 
 ## Before you begin
-
-For an overview of mapping, see [Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-automapping.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -31,7 +29,7 @@ Health Log Analytics uses source types to parse logs and utilizes log sources as
 
 1.  Navigate to **All** &gt; **Health Log Analytics** &gt; **Mapping** &gt; **Data Input Mapping**.
 
-2.  Verify that log data is streaming into your instance, and then open a data input mapping record.
+2.  Ensure that log data is streaming into your instance, and then open a data input mapping record.
 
 3.  View the associations between the log sources and the source types.
 
@@ -47,5 +45,5 @@ Health Log Analytics uses source types to parse logs and utilizes log sources as
     **Note:** The displayed results are updated once a day. Results that are older than 24 hours are deleted automatically.
 
 
-**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Log data auto-mapping and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-automapping.md)
 

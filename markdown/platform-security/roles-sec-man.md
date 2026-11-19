@@ -1,18 +1,18 @@
 ---
-title: Secrets Management roles
-description: Secrets Management adds these roles.Assign non-admin secrets roles to other users. Secrets administrators have the same privileges as secrets manager and viewer.Grant this role to users who must be able to perform any of the following functions.Grant this role to users who must be able to view secret and secret group records.
+title: Secrets management roles
+description: Secrets management adds these roles.Assign non-admin secrets roles to other users. Secrets administrators have the same privileges as secrets manager and viewer.Grant this role to users who must be able to perform any of the following functions.Grant this role to users who must be able to view secret and secret group records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/roles-sec-man.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Secrets Management dashboard, Secrets Management, Platform Security]
 ---
 
-# Secrets Management roles
+# Secrets management roles
 
-Secrets Management adds these roles.
+Secrets management adds these roles.
 
 **Parent Topic:**[Secrets Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/secrets-dashboard.md)
 
@@ -39,7 +39,7 @@ None.
 -   A user must have both the admin and security\_admin roles to be assigned the sn\_secret.admin role.
 -   Avoid granting an admin role when more targeted roles are available.
 
-## Secrets Management \[sn\_secrets.secret\_manager\]
+## Secrets manager \[sn\_secrets.secret\_manager\]
 
 Grant this role to users who must be able to perform any of the following functions.
 

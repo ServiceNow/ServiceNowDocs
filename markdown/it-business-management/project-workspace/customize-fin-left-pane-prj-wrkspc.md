@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure financials for Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configure financials for Project Workspace, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Customize the left pane view for financials
@@ -30,9 +30,13 @@ Role required: admin
 
 4.  Select the financials view by navigating to **List controls** &gt; **View** &gt; **Financials View**.
 
-    The selected view is displayed on the header.
+    \[Omitted image "fin-cost-plan-fin-view-selection-gif.gif"\] Alt text: Select financial view.
+
+    The selected view \(\[Omitted image "financials-view-cost-plan-table.png"\] Alt text: Cost plan financials view.\) is displayed on the header.
 
 5.  Select the header options to configure list layout.
+
+    \[Omitted image "financials-config-list-layout-gif.gif"\] Alt text: Configure list layout option selection.
 
 6.  Add or remove the fields in the Selected column to customize the left pane view in financials view.
 

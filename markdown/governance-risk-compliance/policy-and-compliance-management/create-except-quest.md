@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Allow policy exception requests, Enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Allow policy exception requests from other applications, Policy and Compliance Management enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create an exception questionnaire
@@ -24,9 +24,11 @@ Role required: sn\_compliance.attestation\_creator
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Policy Exceptions** &gt; **Exception Questionnaire**.
 
-2.  Select **New**.
+2.  Click **New**.
 
-    Notice that the Assessment Metric Type screen opened. In the terminology of GRC applications, a question in a questionnaire is considered a metric. A group of questions is a category. A group of categories is a metric type.
+    \[Omitted image "exception-quest-new.png"\] Alt text: New exception questionnaire
+
+    **Note:** Notice that the Assessment Metric Type screen opened. In the terminology of GRC applications, a question in a questionnaire is considered a metric. A group of questions is a category. A group of categories is a metric type.
 
 3.  On the form, fill in the fields.
 

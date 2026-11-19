@@ -7,9 +7,9 @@ release: yokohama
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
 ---
 
 # Configuring API credentials for generative AI capabilities
@@ -18,6 +18,7 @@ Configure the credentials and connections for your preferred generative AI servi
 
 You can use several different models and generative AI service providers to integrate into your custom flows, scripts, and topics.
 
+-   Aleph Alpha
 -   [Amazon Bedrock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-amazon-bedrock.md)
 -   [Azure OpenAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-azure-openai.md)
 -   [Google - AI Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-google-makersuite.md)

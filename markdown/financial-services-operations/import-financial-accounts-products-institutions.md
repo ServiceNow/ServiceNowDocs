@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/import-financial-accounts-products-institutions.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Financial Services Operations \(FSO\)]
+breadcrumb: [Planning and configuring, Financial Services Operations \(FSO\)]
 ---
 
 # Import your financial data using import sets
@@ -36,11 +36,11 @@ Role required: sn\_bom.admin
 
 5.  [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/t_CreateATransformMap.md) to define the field mapping between columns of the import set and columns of the target table.
 
-    For information on target tables, see the table topics in [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-operations-core-data-model.md).
+    For information on target tables, see [FSO Core Banking tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-core-banking-tables.md).
 
 6.  Transform the data from the import set table to the target table.
 
-    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/t_RunImport.md).
+    For more information, see Run an import.
 
 7.  Verify that the data records are imported into the target tables by navigating to the target tables.
 

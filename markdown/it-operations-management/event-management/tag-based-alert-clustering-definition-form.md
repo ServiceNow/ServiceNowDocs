@@ -1,5 +1,5 @@
 ---
-title: Event Management tag based alert grouping definition form
+title: Event Management tag based alert clustering definition form
 description: The form for creating or modifying a tag based alert clustering definition displays detailed information about the definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/tag-based-alert-clustering-definition-form.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event Management reference, Event Management, ITOM Health, IT Operations Management]
 ---
 
-# Event Management tag based alert grouping definition form
+# Event Management tag based alert clustering definition form
 
 The form for creating or modifying a tag based alert clustering definition displays detailed information about the definition.
 

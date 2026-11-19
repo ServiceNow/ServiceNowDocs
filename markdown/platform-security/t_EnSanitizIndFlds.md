@@ -1,16 +1,16 @@
 ---
-title: Enable sanitization on individual fields
+title: Enabling sanitization on individual fields
 description: You can use field attributes to enable or disable the sanitizer on individual fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/t\_EnSanitizIndFlds.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Enabling HTML sanitizer, HTML sanitizer]
 ---
 
-# Enable sanitization on individual fields
+# Enabling sanitization on individual fields
 
 You can use field attributes to enable or disable the sanitizer on individual fields.
 

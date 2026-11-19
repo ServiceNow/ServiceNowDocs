@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/explore-fso-integration-with-friss.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [FRISS, Integrate, Financial Services Operations \(FSO\)]
+breadcrumb: [Integrating with FRISS, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
 ---
 
 # Exploring Financial Services Operations Integration with FRISS
 
 With Financial Services Operations Integration with FRISS, your insurance company can embed the FRISS API for Claims in workflows, detect and prevent fraud, and improve your underwriting and claims processes.
 
-## Overview of the application
+## FRISS overview
 
 By using FRISS, you can detect fraud, assess your risks, and perform compliance management. You can also improve your profitability, customer satisfaction, and operational efficiency.
 
@@ -35,7 +35,7 @@ The following diagram is a workflow of the FRISS integration. The diagram shows 
 |-----|-----------|
 |Workflow Layer|Layer that contains the Commercial Lines Claims and Personal Lines Claims applications for triggering and storing fraud scores.|
 |Adapter/Integration Layer|Layer that contains the Financial Services Operations Integration with FRISS subflow to execute the FRISS spoke actions and to provide a fraud score. Additional tables are added to this service to store the fraud score.|
-|Spoke Layer|Layer that contains the FRISS spoke actions that use REST APIs to interact with FRISS. For more information on the FRISS spoke actions, see[FRISS Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/friss-spoke.md).|
+|Spoke Layer|Layer that contains the FRISS spoke actions that use REST APIs to interact with FRISS. For more information on the FRISS spoke actions, see.|
 
 ## Financial Services Operations Integration with FRISS benefits
 

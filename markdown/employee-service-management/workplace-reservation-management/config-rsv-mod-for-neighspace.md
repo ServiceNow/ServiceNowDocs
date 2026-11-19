@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Configure a reservable module, Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -84,13 +84,9 @@ Active from
 
 Date from when the reservable module must be active and available for reservation.
 
-</td></tr><tr><td>
+</td></tr><tr><td colspan="2">
 
-**Reservable Table Configuration** tab
-
-</td><td>
-
-Select the field details in the Reservable Table Configuration tab.
+**Reservable Table Configuration**
 
 </td></tr><tr><td>
 
@@ -144,27 +140,15 @@ Container selection, reservable quantity settings
 
 </td></tr><tr><td>
 
-**Area \(container\) selection** section
-
-</td><td>
-
-Select the field details in this section.
-
-</td></tr><tr><td>
-
 Reservable container field
 
 </td><td>
 
 Level of the container. This field is automatically set to **Area**.
 
-</td></tr><tr><td>
+</td></tr><tr><td colspan="2">
 
-**Reservable Module Configuration** tab
-
-</td><td>
-
-Select the field details in the Reservable Module Configuration tab.
+Reservable Module Configuration
 
 </td></tr><tr><td>
 

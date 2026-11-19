@@ -1,18 +1,18 @@
 ---
-title: Use the Root cause analysis history
-description: Check the Root cause analysis \(RCA\) History page to investigate the issues that caused an alert to trigger or performance to degrade to Critical or Warning.
+title: Utilizing RCC history to perform root cause analysis
+description: Check the RCC History page to further investigate the issues that caused an alert to trigger.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/utilizing-rcc-reports-perform-root-cause-analysis.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
+breadcrumb: [Root Cause Correlation, Alerts in Instance Observer, Impact Instance Observer, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
 ---
 
-# Use the Root cause analysis history
+# Utilizing RCC history to perform root cause analysis
 
-Check the Root cause analysis \(RCA\) History page to investigate the issues that caused an alert to trigger or performance to degrade to Critical or Warning.
+Check the RCC History page to further investigate the issues that caused an alert to trigger.
 
 ## Before you begin
 
@@ -22,17 +22,17 @@ Role required: admin
 
 1.  Navigate to **Impact** &gt; **Platform Health** &gt; **Monitor** &gt; **Instance Observer**.
 
-2.  From the **Alerts** menu, select **Root Cause Analysis History** to display the history of reports for all users in a selected instance for the last seven days.
+2.  From the **Alerts** menu, select **Root Cause Correlation History** to display the history of reports for all users in a selected instance for the last seven days.
 
-3.  Select an RCA entry to drill further into the issue that caused the alert.
+    \[Omitted image "rcc-history.png"\] Alt text: RCC history log.
 
-4.  From the RCA reports page, select an entry with the icon of Self-Service alert generated \(RCC generated\).
+3.  Select an RCC entry to drill further into the issue that caused the alert.
+
+4.  From the RCC reports page, select an entry with the icon of Self Service alert generated \(RCC generated\).
 
     Directly link to the issue that caused the alert from the table to further investigate the issue and to rectify the issue.
 
-    **Note:** The RCA report may also be generated from the Alerts Console.
-
-    You can also access the RCA reports using the Self-service alert icon on the performance pages.
+    **Note:** The RCC report may also be generated from the Alerts Console.
 
 5.  Navigate to **Impact** &gt; **Platform Health** &gt; **Monitor** &gt; **Instance Observer**.
 
@@ -42,8 +42,6 @@ Role required: admin
 
 8.  Select **Get Snapshot**.
 
-    The table contains information on the alerts.
+    Information for the alerts are listed in the table.
 
-
-**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-overview.md)
 

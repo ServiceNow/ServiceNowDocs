@@ -1,16 +1,16 @@
 ---
-title: Mobile encryption security compliance
+title: Mobile Encryption Security Compliance
 description: Learn about how ServiceNow mobile apps comply with encryption security standards for the FedRAMP and DISA environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-fedramp.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---
 
-# Mobile encryption security compliance
+# Mobile Encryption Security Compliance
 
 Learn about how ServiceNow mobile apps comply with encryption security standards for the FedRAMP and DISA environments.
 

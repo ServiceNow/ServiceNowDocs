@@ -1,5 +1,5 @@
 ---
-title: \(Legacy\) Set up the Virtual Agent integration with Facebook Messenger
+title: Set up the Virtual Agent integration with Facebook Messenger \(Legacy\)
 description: Configure the Virtual Agent integration for Facebook Messenger and associate the app with your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/setup-virtual-agent-fbmessenger.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Legacy setup and configuration, Configure, Facebook Messenger, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrating Virtual Agent with Facebook Messenger, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
-# \(Legacy\) Set up the Virtual Agent integration with Facebook Messenger
+# Set up the Virtual Agent integration with Facebook Messenger \(Legacy\)
 
 Configure the Virtual Agent integration for Facebook Messenger and associate the app with your instance.
 
@@ -135,5 +135,5 @@ Do not prompt users to link their account to their ServiceNow profile. Users can
 </table>    4.  Click **Update**.
 
 
-**Parent Topic:**[Legacy setup and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/legacy-va-fb-messenger-setup.md)
+**Parent Topic:**[Integrating Virtual Agent with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm.md)
 

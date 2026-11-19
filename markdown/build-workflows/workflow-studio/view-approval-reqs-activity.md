@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Interactive activities, Playbooks reference, Workflow Studio reference, Workflow Studio, Build workflows]
 ---
 
 # View Approval Requests activity
@@ -134,4 +134,6 @@ After configuring the required inputs for your activity, you can also choose to 
 |Order by|String|Field you want to use to sort a list of records.|
 |Sort Type|Choice|Option to sort records alphabetically or reverse alphabetically.|
 |Max Results|Integer|Maximum number of results to display to end users.|
+
+**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/interactive-activities.md)
 

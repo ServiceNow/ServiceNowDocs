@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Configure, SMS with Amazon End User Messaging, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrating Conversational SMS with AWS End User Messaging, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
 # Install the Conversational SMS Integration with AWS End User Messaging application
@@ -37,5 +37,5 @@ Ensure that the application and all of its associated ServiceNow store applicati
     In the Install dialog box, all dependent plugins are displayed.
 
 
-**Parent Topic:**[Configuring Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-ci-sms-with-aws.md)
+**Parent Topic:**[Integrating Conversational SMS with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversational-sms-integration-amazon.md)
 

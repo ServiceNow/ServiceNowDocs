@@ -1,26 +1,24 @@
 ---
 title: Create process configuration using Process Configuration Builder
-description: Process configuration helps you configure preferences for a process table. This configuration assists you when creating projects using the configured table. It streamlines the project creation process by providing a ready-made framework tailored to your organization's needs. Importantly, completing the process configuration allows you to independently create projects, even if you do not have prior experience with process mining.
+description: Process configurations include process preferences that activate features in the Process Mining workspace and assist in the creation of projects. Having complete process configurations enables you to independently create projects and quickly gain insights, even without prior process mining knowledge. This enhances the scalability of process mining across the organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/process-config-builder.html
 release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Creating process configuration, Use, Process Mining, Platform Analytics]
+breadcrumb: [Creating process configuration, Using Process Mining, Process Mining, Platform Analytics]
 ---
 
 # Create process configuration using Process Configuration Builder
 
-Process configuration helps you configure preferences for a process table. This configuration assists you when creating projects using the configured table. It streamlines the project creation process by providing a ready-made framework tailored to your organization's needs. Importantly, completing the process configuration allows you to independently create projects, even if you do not have prior experience with process mining.
+Process configurations include process preferences that activate features in the Process Mining workspace and assist in the creation of projects. Having complete process configurations enables you to independently create projects and quickly gain insights, even without prior process mining knowledge. This enhances the scalability of process mining across the organization.
 
 ## Before you begin
 
-Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
-
-**Important:** Process configuration is not available for Agentic AI data.
+Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimization\_admin
 
 ## Procedure
 
@@ -67,8 +65,6 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 -   **[Configure process details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/process-details.md)**  
 Describe the process to get help with further configuration and enhance the quality of the project setup and analysis.
--   **[Configure recommendations setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/reco-setup.md)**  
-Set up recommendations to simplify project creation and get help in the analysis.
 -   **[Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/investigative-features.md)**  
 Configure investigative features to set advanced analytics features for a process.
 -   **[Configure impact metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/impact-metrics.md)**  

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/linear-asset-support-properties.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Field Service Management]
+breadcrumb: [Field Service Management reference, Field Service Management]
 ---
 
 # Linear Assets Support properties

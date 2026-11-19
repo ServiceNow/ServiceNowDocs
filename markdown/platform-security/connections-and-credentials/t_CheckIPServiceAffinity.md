@@ -7,7 +7,7 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Authentication Algorithms, Connections and Credentials, Access Management]
 ---
@@ -34,8 +34,10 @@ A system property called **glide.discovery.ip\_service\_affinity** allows Discov
 
 2.  Filter the list to find the appropriate IP service.
 
-3.  Select the name of the service to go to that IP service page.
+3.  Click the name of the service to go to that IP service page.
 
-4.  Select the **IP Service Affinities** tab for the list of IP addresses associated with that service.
+4.  Click the **IP Service Affinities** tab for the list of IP addresses associated with that service.
+
+    \[Omitted image "IPServiceAffinity.png"\] Alt text: IP Service Affinities
 
 

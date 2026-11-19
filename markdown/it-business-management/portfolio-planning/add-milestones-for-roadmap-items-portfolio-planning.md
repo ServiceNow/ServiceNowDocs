@@ -1,5 +1,5 @@
 ---
-title: Add milestones for roadmap items
+title: Add milestones for roadmap items in Portfolio Planning Workspace
 description: Track key outcomes of your planning items \(such as demands and projects\) by creating milestones for them, directly from the roadmap view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/add-milestones-for-roadmap-items-portfolio-planning.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Add milestones for roadmap items
+# Add milestones for roadmap items in Portfolio Planning Workspace
 
 Track key outcomes of your planning items \(such as demands and projects\) by creating milestones for them, directly from the roadmap view.
 
@@ -37,15 +37,15 @@ However, any existing milestones of the project are visible on the roadmap if yo
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d189292e126">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d151572e123">
 
 Roadmap type
 
-</th><th align="left" id="d189292e129">
+</th><th align="left" id="d151572e126">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d189292e135">
+</th></tr></thead><tbody><tr><td id="d151572e132">
 
 **Portfolio plan roadmap**
 
@@ -55,7 +55,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d189292e156">
+</td></tr><tr><td id="d151572e153">
 
 **Free-form roadmap**
 
@@ -100,11 +100,11 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 Learn more about managing milestones:
 
--   [Customizing milestone display on roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/customizing-milestone-display-roadmap-portfolio-planning.md)
+-   [Customizing milestone display on roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/customizing-milestone-display-roadmap-portfolio-planning.md)
 -   [Item milestone errors in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/error-state-for-planning-item-milestones-portfolio-planning.md)
--   [Update roadmap item milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/update-roadmap-item-milestones-portfolio-planning-workspace.md)
+-   [Update roadmap item milestones in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/update-roadmap-item-milestones-portfolio-planning-workspace.md)
 
--   **[Update roadmap item milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/update-roadmap-item-milestones-portfolio-planning-workspace.md)**  
+-   **[Update roadmap item milestones in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/update-roadmap-item-milestones-portfolio-planning-workspace.md)**  
 Update or delete the milestones that you added to your planning items \(such as demands, scrum epics, or programs\) so that they reflect any change of plans.
 
 **Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)

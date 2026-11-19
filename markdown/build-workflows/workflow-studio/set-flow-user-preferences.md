@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Configuring flows, Configuring Workflow Studio, Workflow Studio, Build workflows]
 ---
 
 # Set flow user preferences
@@ -40,4 +40,6 @@ Role required: admin or flow\_designer
 
     For more information about available user preferences, see [User preferences for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-preferences.md).
 
+
+**Parent Topic:**[Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configuring-flow-designer.md)
 

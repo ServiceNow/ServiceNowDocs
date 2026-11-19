@@ -1,96 +1,114 @@
 ---
 title: Operational Resilience release notes
-description: The ServiceNow Operational Resilience application helps organizations maintain business services during adverse events, such as pandemics, severe weather, or cyber attacks. See the following sections for release notes by version.Operational Resilience, version 23.0.9 enhances Digital resilience incident reporting \(DRIR\) assessment cases with role-based contributor and collaborator assignment controls. It strengthens regulatory compliance and data quality for Digital Operational Resilience Act \(DORA\) reporting through controlled access and better management.
+description: The ServiceNow Operational Resilience application supports organizations to help keep business services running during adverse events like pandemics, severe weather, or cyber attacks. Operational Resilience was enhanced and updated in the Yokohama release.The ServiceNow Operational Resilience application supports organizations to help keep business services running during adverse events like pandemics, severe weather, or cyber attacks. Operational Resilience was enhanced and updated in the Yokohama release.The ServiceNow Operational Resilience application supports organizations to help keep business services running during adverse events like pandemics, severe weather, or cyber attacks. Operational Resilience was enhanced and updated in the Yokohama release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/grc-or-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+last_updated: "2025-01-30"
+reading_time_minutes: 4
+breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
 # Operational Resilience release notes
 
-The ServiceNow® Operational Resilience application helps organizations maintain business services during adverse events, such as pandemics, severe weather, or cyber attacks. See the following sections for release notes by version.
+The ServiceNow® Operational Resilience application supports organizations to help keep business services running during adverse events like pandemics, severe weather, or cyber attacks. Operational Resilience was enhanced and updated in the Yokohama release.
 
 ## About Operational Resilience
 
--   Identify, assess, and monitor operational risks across people, processes, systems, and external dependencies to understand impact on critical business services and customer outcomes.
--   Develop and execute resilience strategies, conduct scenario testing, and track remediation actions to strengthen your organization's ability to withstand and recover from operational disruptions.
+-   Align with the CSDM model to set up configurable main node configurations, which are used to retrieve CSDM and their dependency data.
+-   Add the primary origin to an operational vulnerability, and the impacted areas are automatically included. The vulnerability can then be viewed from any impacted area.
+-   All CSDM objects, dependencies, and their red flags can be rolled up based on the entity hierarchy.
+-   Use Smart Assessment for evaluating an Operational vulnerability.
 
-See  for more information.
+See [Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/grc-opres-landing-page.md) for more information.
 
 ## Activation and other requirements
 
+**Important:** Operational Resilience is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 -   **Activation information**
 
-    Install Operational Resilience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Operational Resilience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
--   **Upgrade information**
+-   **Browser requirements**
 
-    If you're upgrading from an earlier release, upgrade sequentially through each release rather than skipping versions. Upgrade scripts depend on running in order, and skipping releases can cause data inconsistencies or broken functionality.
+    Business Continuity Management requires the following browsers:
 
+    -   Google Chrome
+    -   Firefox and Firefox Extended Support Release \(ESR\)
+    -   Microsoft Edge Chromium
+    -   Safari 12.0 and later versions
 
 **Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
 
-## Version 23.0.9
+## May 2025
 
-Operational Resilience, version 23.0.9 enhances Digital resilience incident reporting \(DRIR\) assessment cases with role-based contributor and collaborator assignment controls. It strengthens regulatory compliance and data quality for Digital Operational Resilience Act \(DORA\) reporting through controlled access and better management.
+The ServiceNow® Operational Resilience application supports organizations to help keep business services running during adverse events like pandemics, severe weather, or cyber attacks. Operational Resilience was enhanced and updated in the Yokohama release.
 
 ### What's new
 
--   **Enable contributor assignment in DRIR assessment cases**
+-   **[Measure resilience metrics using the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/using-csdm-v5.md)**
 
-    Assign contributor and collaborator roles to streamline multi-stakeholder DRIR investigations. You can now assign contributors and collaborators to DRIR assessment instances, with role-based access controls ensuring appropriate team members can participate. This simplifies accountability and coordination during incident responses.
+    Define the entity types and pillars in Operational Resilience and generate the entities. Establish relationships between CSDM objects, including business services, service offerings, business processes, and application services. Specify the type of main node configuration that you want to use by setting the **sn\_oper\_res.opres\_csdm\_main\_node\_config** property.
 
--   **Tracking field-level changes in linked source records**
+    After generating the entities and setting up the main node configurations, you can import CMDB data into Operational Resilience for reporting. CSDM and their dependencies are updated weekly while the red flags data is calculated daily. The outcome is displayed on the Homepage or in the related list of the CSDM objects.
 
-    Maintain DRIR cases current with evolving incident data by tracking field-level changes in linked source records. The application detects modifications to incidents after case creation, generates audit trail records with complete change details, and displays pending updates in a banner within the workspace.
+-   **[Specify the primary origin of an operational vulnerability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/add-impacted-area-to-vul.md)**
 
--   **Enhance regulatory compliance and data quality for DORA reporting**
-
-    Improve financial data accuracy with better decimal handling, automated snapshot exports, and data quality warnings.
-
--   ****
-
-    Document register-of-information terminology directly in the workspace. Only the **Description** field is editable for each term. Term definitions are automatically included in the `B_99.01` CSV export through a scheduled quarterly job.
-
-    The scheduled job that generates this export is inactive by default; an administrator must activate it before it runs. The default frequency is quarterly, but administrators can adjust it. No email notification is sent for this job, because it runs as a system action rather than a user-initiated action.
+    Identify the primary origin of an operational vulnerability in its record. Once the primary origin is specified, its upstream dependencies are automatically included in the impacted areas, enabling you to view the operational vulnerability from all affected perspectives.
 
 
 ### What's changed
 
--   **Pending updates displayed in the banner**
+-   **[Business services dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/opres-ws-homepage-overview.md)**
 
-    The pending updates for the DRIR case are displayed in a banner within the workspace.
+    The Business services dashboard has been added to display business services data.
 
--   **Decimal precision for DORA monetary values**
+-   **[New modules for services and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/using-csdm-v5.md)**
 
-    Monetary value fields now support up to two decimal places. Previously, only zero or negative values were accepted, with all monetary values defaulting to zero. Values greater than zero are no longer rounded down to zero during download.
+    The Services, Business Services, Service Offerings, and Business Processes modules have been added to the Operational Resilience Workspace. Operational Resilience managers use these modules to manage the services, business services, service offerings, and business processes used in Operational Resilience reporting.
 
--   **CSV download only references applied filters when selecting all records**
+-   **[Entity Types and Pillars modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/manage-entity-types-pillars-from-ws.md)**
 
-    When a filter is applied to a list and users select all records for CSV download, only the filtered records are included. Previously, all records were downloaded regardless of the applied filter.
+    The Entity Types and Pillars modules have been added to the Operational Resilience Workspace. These modules enable Operational Resilience managers to update the entity types and pillars directly from the Workspace.
 
--   **Impact analysis correctly resolves Profile records**
+-   **[Primary origin tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/add-impacted-area-to-vul.md)**
 
-    Previously, impact analysis failed to resolve entities when a scheduled job processed GRC Profile records directly. This issue has been fixed. Impact analysis now correctly resolves Profile records in Operational Resilience and entity resolution completes as expected for all record types.
+    The **Primary origin** tab has been added to the Operational vulnerability record to identify the main source and report the upstream entities of the vulnerability.
 
--   **Rank 1 supply chain records update automatically when a contract's service provider changes**
 
-    If you change the service provider on a DORA contract record, the associated Rank 1 supply chain records update automatically. The records reflect the new provider or recipient.
+## Yokohama
 
--   **Excel export for DORA Functions requests no longer fails on large datasets**
+The ServiceNow® Operational Resilience application supports organizations to help keep business services running during adverse events like pandemics, severe weather, or cyber attacks. Operational Resilience was enhanced and updated in the Yokohama release.
 
-    Exporting a Functions-type Excel drop-down download and upload request no longer fails when drop-down fields reference large CMDB or reference tables. Results are capped at 10,000 records per drop-down field.
+### What's new
 
--   **Parent record navigation added to DORA third-party and contract records**
+-   **[Using Digital resilience incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/drir-module.md)**
 
-    A reference field is available on DORA third-party and third-party engagement records. Use it to navigate back to the originating contract record after arriving from a related list. Previously, there was no way to return to the parent contract or company record from these pages.
+    Assess whether any critical services are affected and classify the reported incident as a major incident if necessary. Notify regulators of major incidents, categorized by their severity and security ratings.
 
--   **Notice period fields accept a value of zero**
+    The Digital resilience incident reporting module, accessible from the Operational Resilience Workspace, is integrated with Incident Management and Security Incident Response to generate and share reports in the format that is specified by the regulators.
 
-    The notice period fields \(`B_02.02.0100` and `B_02.02.0110`\) now accept a value of `0`. Previously, a value of `0` was rejected as if the field were empty.
+    You can generate an initial report within 24 hours, an intermediate report within 72 hours, and a final report within 1 month. All of these reports are automatically triggered by the application from the time that the incident is classified as a major incident.
+
+
+### What's changed
+
+-   **[Addition of classes to the assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/submit-an-assessment-in-ws.md)**
+
+    The Business Service and Offering classes have been added to the **Scope** tab of the assessment form, enabling you to assess the business services and service offerings alongside services. Once the assessment is complete, the importance and impact tolerance of these items are displayed in the Importance and Impact Tolerance columns on the **Scope** tab.
+
+-   **[Addition of classes to the scenario analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/scenario-analysis-in-ws.md)**
+
+    The Business Service and Offering classes have been added to the **Scope** tab of the scenario analysis form, enabling you to analyze the business services and service offerings alongside services.
+
+-   **[Addition of classes to the self-attestation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/self-attestation-in-ws.md)**
+
+    The Business Service and Offering classes have been added to the **Scope** tab of the self-attestation form, enabling you to self-attest the business services and service offerings alongside services.
+
+-   **[Digital resilience incident reporting module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/drir-module.md)**
+
+    The Digital resilience incident reporting module is used to report the Information and Communication Technology \(ICT\) related incidents to the regulators.
 
 

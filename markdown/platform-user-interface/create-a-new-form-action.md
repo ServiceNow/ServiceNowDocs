@@ -1,30 +1,28 @@
 ---
 title: Create a form action button
-description: Create a form action button for a Configurable Workspace.
+description: Create a form action button and configure it to appear in a workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/create-a-new-form-action.html
 release: yokohama
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Create action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Customizing Configurable Workspace with declarative actions, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Create a form action button
 
-Create a form action button for a Configurable Workspace.
+Create a form action button and configure it to appear in a workspace.
 
 ## Before you begin
 
 Role required: admin
 
-\[Omitted video\] Description: Procedural video for creating a form action button
-
 ## Procedure
 
-1.  Navigate to **All** &gt; **Declarative Actions** &gt; **Create New Action**.
+1.  Navigate to **All** &gt; **Declarative Actions** &gt; **Create new action**.
 
-2.  Select **Form** from the list of action types.
+2.  Select **Form**.
 
     A new Action Assignment record opens.
 
@@ -42,11 +40,7 @@ Role required: admin
         -   **Server Script** applies the action to the server or database as JavaScript.
         -   **UXF Client Action** applies the action as a UI Builder page event.
         -   **Client Script** applies the action to the web browser as JavaScript.
-        -   **UI interaction** applies the action as reusable logic and UI elements. For configuration instructions, see [Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-da-ui-interactions.md).
-    -   **Application**
-
-        The scope that the action exists within.
-
+        -   **UI interaction** applies the action as reusable logic and UI elements. For configuration instructions, see Trigger a UI interaction from a declarative action.
     -   **Table**
 
         Table for the action button to appear on.
@@ -55,38 +49,36 @@ Role required: admin
 
         UI view for the action button to appear on.
 
-    -   **Enable for all Configurable Experiences**
+4.  Select the Additional actions icon \(\[Omitted image "menu-icon-save.png"\] Alt text:\) and **Save**.
 
-        When selected, the action is visible in all Configurable Experiences.
+5.  From the Layout Items related list, select your action.
 
-    -   **Active**
+    You can also select the **UX Form Layout Item** link in the form message.
 
-        When selected, the action is active.
+    A UX Form Actions Layout Item record opens.
 
-    -   **Order**
+6.  Complete the following fields to update the look and feel of the button:
 
-        Order in which the action appears relative to other actions.
+    -   **Icon**
 
-    -   **Tooltip**
+        Icon for the action.
 
-        Tooltip text that appears for the action.
+    -   **Color**
 
-    -   **Description**
+        Colors supported by the button component.
 
-        Description of the action for internal reference.
-
-4.  Select **Submit**.
+7.  Select **Update**.
 
 
 ## Result
 
-The form action button is created and scoped to the table and view you specified.
+The form action button appears within the workspace you specified.
 
 ## What to do next
 
 Configure a button to apply an action in the following ways:
 
--   **[Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-da-ui-interactions.md)**
+-   **Trigger a UI interaction from a declarative action**
 
     Trigger a UI interaction from a declarative action to extend a page without taking ownership.
 

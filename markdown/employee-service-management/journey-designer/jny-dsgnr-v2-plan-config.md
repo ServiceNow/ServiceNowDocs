@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Journey designer reference, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Journey designer version 2 plan configuration fields

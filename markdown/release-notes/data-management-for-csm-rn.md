@@ -1,154 +1,187 @@
 ---
-title: Data Management for CSM release notes
-description: The ServiceNow Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Brazil release. See the following sections for release notes by version.Order agents can update configurations of a consumer's product inventory one record at a time from the consumer record, with pricing that is updated automatically.Location Support Agents have read-only access to contracts, and entitlements, and write-access to entitlement usage for the organizations their business organization serves. Service organizations can now be added as buyers on install base records to control product inventory access by user role.CSM Data Management unifies billing schedules and payment profiles for clearer visibility into billing accounts. It adds related-party and return merchandise authorization \(RMA\) tracking on sold products directly from the portal. It also auto-proposes major and child cases for business organization outages in the Brazil release.
+title: Data management for CSM release notes
+description: The ServiceNow Data management for Customer Service Management application enables you to organize and manage the data for both your internal users and external customers. Data management for Customer Service Management was enhanced and updated in the Yokohama release.The ServiceNow Data management for Customer Service Management application enables you to organize and manage the data for both your internal users and external customers. Data management for Customer Service Management was enhanced and updated in the Yokohama release.The ServiceNow Data management for Customer Service Management application enables you to organize and manage the data for both your internal users and external customers. Data management for Customer Service Management was enhanced and updated in the Yokohama release.The ServiceNow Data management for Customer Service Management application enables you to organize and manage the data for both your internal users and external customers. Data management for Customer Service Management was enhanced and updated in the Yokohama release.The ServiceNow Data management for Customer Service Management application enables you to organize and manage the data for both your internal users and external customers. Data management for Customer Service Management was enhanced and updated in the Yokohama release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/data-management-for-csm-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
-keywords: [Data Management for CSM]
-breadcrumb: [Customer Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [Customer Service Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
-# Data Management for CSM release notes
+# Data management for CSM release notes
 
-The ServiceNow® Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Brazil release. See the following sections for release notes by version.
+The ServiceNow® Data management for Customer Service Management application enables you to organize and manage the data for both your internal users and external customers. Data management for Customer Service Management was enhanced and updated in the Yokohama release.
 
-## About Data Management
+## About Data management for CSM
 
--   Unify billing schedules and payment profiles across all billing accounts, with visibility into when each account is billed, who is responsible for payment, and how payments are collected.
--   Manage related parties and deal context on sold products, and enable customers to create and track Return Merchandise Authorization \(RMA\) cases directly from the portal.
--   Track business organization outages efficiently. As a major case manager, get auto-proposed major cases and child cases for every affected organization, ensuring consistent updates across all impacted accounts.
+-   Track the status and other information that is related to the Customer Life Cycle workflows by using the Sales and Order Management Request Tracker \(sn\_tmt\_core\_inbound\_queue\) table.
+-   Track pricing and subscription information for products and services on the CSM Configurable Workspace by using the revenue metrics on the sold product form.
+-   Integrate Strategic Portfolio Management \(SPM\) project management with business locations to create and manage projects across your organization.
 
-See  feature for more information.
+See [Data management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-data-management.md) for more information.
 
 ## Activation and other requirements
 
+**Important:** Business Location and Install Base Management are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 -   **Activation information**
 
-    CSM is a ServiceNow AI Platform application that is available with activation of the Customer Service Management \(CSM\) plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/t_ActivateCustomerService.md).
+    Customer Service Management is a ServiceNow AI Platform feature that is available with activation of the Customer Service Management plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/t_ActivateCustomerService.md).
 
-    Additional CSM features are available with the activation of other plugins. For details, see .
+    Additional Customer Service Management features are available with the activation of other plugins. For details, see [Additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/r_CustServMgmtAddtlPluginsTable.md).
 
     Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-exploring.md).
 
+    Starting from the Yokohama release, the following plugins are available on ServiceNow Store for quicker and better maintenance:
+
+    -   Install Base Management \(com.snc.install\_base\)
+    -   Install base characteristics \(com.snc.install\_base\_characteristics\)
+    -   Customer Service with Service Portfolio management \(com.snc.csm\_spm\)
+    For details, see [Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-install-base.md).
+
+    Starting from the Yokohama release, the Business Location plugin \(com.snc.business\_location\) is available on ServiceNow Store for quicker and better maintenance. For details, see [Activate business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/activate-business-location.md).
+
 -   **Browser requirements**
 
-    Starting with the Brazil release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
+    Starting with the Yokohama release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/browser-support.md).
 
 
 **Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/customer-service-mgmt-rn-landing.md)
 
-## Version 3.0
+## February 2026
 
-Order agents can update configurations of a consumer's product inventory one record at a time from the consumer record, with pricing that is updated automatically.
-
-### What's changed
-
--   ****
-
-    Order agents can modify, suspend, resume, or disconnect a consumer’s product inventory from the consumer record. Configuration updates reflect automatically on each quote or order to make sure customer's services are faster and more accurate.
-
-
-## Version 2.0
-
-Location Support Agents have read-only access to contracts, and entitlements, and write-access to entitlement usage for the organizations their business organization serves. Service organizations can now be added as buyers on install base records to control product inventory access by user role.
+The ServiceNow® Data management for Customer Service Management application enables you to organize and manage the data for both your internal users and external customers. Data management for Customer Service Management was enhanced and updated in the Yokohama release.
 
 ### What's new
 
--   **View Customer contracts and entitlements for business organizations and edit entitlement usage**
+-   **Billing account store application**
 
-    Location support agents \[sn\_bus\_loc.svc\_location\_support\_agent\] can view customer contract records \(Business Organization as a customer\) and their associated entitlements, and edit entitlement usage when either of the following is true:
-
-    -   The channel partner is one of their organizations, and a buyer organization is specified.
-    -   The buyer organization is one of the organizations that they manage.
-
-### What's changed
-
--   **Service organizations as buyers on install base records**
-
-    Add service organizations as buyers on install base records to control access to their product inventory by user role. Use the Modify or Disconnect actions from the service organization record to enable service organizations to create orders or quotes.
+    Use the new CSM Billing Account Core store app that provides a foundational data model for managing billing accounts across organizations and users. It enables businesses to define, organize, and maintain billing relationships, supporting accurate billing, payments, and scalable financial operations.
 
 
-## Version 1.0
+## May 2025
 
-CSM Data Management unifies billing schedules and payment profiles for clearer visibility into billing accounts. It adds related-party and return merchandise authorization \(RMA\) tracking on sold products directly from the portal. It also auto-proposes major and child cases for business organization outages in the Brazil release.
+The ServiceNow® Data management for Customer Service Management application enables you to organize and manage the data for both your internal users and external customers. Data management for Customer Service Management was enhanced and updated in the Yokohama release.
 
 ### What's new
 
--   **Restricted Customer Access now controls visibility**
+-   **[Inbound Request Configuration table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/inbound-request-configuration-table.md)**
 
-    Extended the organization customer criteria for a business organization with a new **Restricted Customer Access** check box that controls visibility of customer records. When enabled, business organization staff can view only the customer and consumer records that satisfy the configured criteria at their business organization. This applies to both service and sales personas. Upgrade customers must run the one-time scheduled job, **Remove Legacy roles from Loc Mgr Contrib** to enable restricted customer access configuration.
+    Use the Inbound Request Configuration \[sn\_tmt\_core\_inbound\_queue\_config\] table to enable configurations that determine how a flow is executed, whether synchronous or asynchronous.
 
--   **New business organization-scoped contributor personas**
+    Use the **Trigger Notifications** field on the Inbound Request Configuration \[sn\_tmt\_core\_inbound\_queue\_config\] table to enable configuration of notification types, whether default, custom,or no notifications.
 
-    Added two new roles, Business Org Account Contributor \[sn\_bus\_loc.business\_org\_account\_contributor\] and Business Org Consumer Contributor \[sn\_bus\_loc.business\_org\_account\_contributor\] that grant location-scoped equivalents of the existing Account Contributor and Consumer Contributor roles. With Business Org Account Contributor role, you can create cases for accounts supported by your business organization. You can also track and manage cases created by you for the accounts associated with your organization. With Business Org Consumer Contributor role, you can create cases for consumers or households supported by your business organization. You can also track and manage cases created by you for the consumers or households associated with your organization.
+-   **[Activate Customer Life Cycle Management Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/activate-customer-life-cycle-management-self-service.md)**
 
--   **Proactive Customer Service extended to business organizations**
+    Enable customers who are primary contacts associated to a sold product to perform the Modify, Suspend, Resume, and Disconnect actions on the Business portal..
 
-    Extended proactive customer service and major case management to business organizations, alongside the existing support for accounts and consumers. When a network alert affects install base items belonging to a business organization, the system can propose a major case and build a recipient list of the affected business organizations. If the major case manager accepts the proposal, they can create a child case for each affected business organization, so all affected business organizations are tracked and updated under a single major case. Business Organization staff can track cases from Business Organization Support Portal.
-
--   **Billing account address**
-
-    Associate one or more locations with a billing account using the new Billing Account Address \[sn\_billing\_account\_address\] table. Each address record captures the address type, identifies the primary address, and tracks whether the address is active or inactive.
-
--   **Billing account payment profile**
-
-    Define payment information for a billing account using the new Billing Account Payment Profile \[sn\_billing\_account\_payment\_profile\] table, which captures the payment method and related payment details for the account.
-
--   **Payment responsibility on billing accounts**
-
-    Specify who pays for a billing account with the new Paying party and Paying billing account fields, supporting self, parent, and designated-account payment relationships.
-
--   **Billing schedules on billing accounts**
-
-    Define when billing occurs for a billing account with the new Billing Schedule field, which links the account to a platform schedule and its schedule entry records. The new billing account schedule viewer \[sn\_billing\_account.schedule\_viewer\] and writer \[sn\_billing\_account.schedule\_writer\] roles control read and write access to these schedules.
-
--   **New fields across the Customer Data Foundation tables**
-
-    Added fields to the core customer data model tables to support segmentation, life cycle tracking, and external-system integration:
-
-    -   **Account table**: Account stage, Account status, Customer since, Relationship tier, Market segment, Total ACV, and External ID
-    -   **Contact table**: External ID
-    -   **Consumer table**: Consumer stage, Consumer status, Customer since, Relationship tier, and External ID
-    -   **Account Team Member table**: Active, Start date, and End date
 
 ### What's changed
 
--   **Project task assignment access for business organization staff**
+-   **[Inbound Request Configuration table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/inbound-request-configuration-table.md)**
 
-    Gain write access to the Assignment group and Assigned to field, and read access to the Priority field, on business organization project tasks with the Location Project Member \[sn\_bus\_loc.location\_project\_stakeholder\] or Location Project Manager Contributor \[sn\_bus\_loc.location\_manager\_project\_stakeholder\] role.
+    The Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table is renamed to Inbound Request table.
 
--   **Billing account roles and responsibility access**
+    Use the **Request Configuration** field on the Inbound Request \[sn\_tmt\_core\_inbound\_queue\] table to reference the Inbound Request Configuration \[sn\_tmt\_core\_inbound\_queue\_config\] table while executing synchronous or asynchronous flows.
 
-    Updated billing account roles and responsibility access to align with the expanded billing account capabilities. Extended access to Billing Account Address, Billing Account Payment Profile, and Billing Schedule \(schedule and schedule entry\) through:
 
-    -   Billing Account platform granular and CRM granular roles
-    -   Billing Account responsibilities through the customer access management \(CAM\) framework
--   ****
+## Yokohama Early Availability
 
-    Edit and view multiple related parties in the sold product enable users to review the details of a deal and review deal context without leaving the record. **Deal type** and **Route to Market** aren't captured on the sold product, with route to market options filtered automatically based on the selected deal type.
+The ServiceNow® Data management for Customer Service Management application enables you to organize and manage the data for both your internal users and external customers. Data management for Customer Service Management was enhanced and updated in the Yokohama release.
 
--   **Create return merchandize authorization \(RMA\) cases directly from the business portal**
+### What's new
 
-    Initiate an RMA case from the business portal without contacting an agent to reduce the back-and-forth for returns and replacements.
+-   **[Project Management for business locations​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-ppm-integration.md)**
 
-    -   Enable customer contacts to view the list of their RMA cases from the **Request** menu on the portal to track their requests in progress.
-    -   Customer contacts can open individual RMA cases and drill into case lines to review its status and details.
+    Integrate SPM project management with business locations to support operations such as opening, closing, or modernizing locations. With the project management integration, your teams can track the timelines, collaborate, and execute the business location-facing tasks more effectively.
 
-### Plugin information
+-   **[Work orders for business locations​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/track-work-orders-on-the-blsp.md)**
 
--   **Renamed or changed plugins**
+    Fulfill Field Service Management \(FSM\) work orders at business locations. This way, you can enable location members to view and complete the assigned tasks. By using the existing business location data, you can streamline work order assignments.
 
-    Customer Service Base Entities \(com.snc.cs\_base\): Renamed to CRM Base Entities \(com.snc.cs\_base\).
+-   **[Enhanced data fields for business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/data-model-business-location-form.md)**
 
-    Customer Service Base Extension Entities \(com.snc.cs\_base\_extension\): Renamed to CRM Base Extension Entities \(com.snc.cs\_base\_extension\).
+    Track additional information about business locations by using new fields for opening and closing dates, status, and description.
 
-    Customer Data Models for B2B2C \(com.sn\_csm\_b2b\_consumers\): Renamed to CRM B2B2C Entities \(com.sn\_csm\_b2b\_consumers\).
+-   **[Staff movement between internal business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/create-internal-business-location.md)**
 
-    Customer Service Install Base Characteristics \(com.snc.install\_base\_characteristics\): Renamed to Customer Install Base Characteristics \(com.snc.install\_base\_characteristics\).
+    Enable managers to transfer the staff between internal business locations. You can streamline updates for organizations that have frequent staff movements.
 
-    Customer Service Install Base Management \(com.snc.install\_base\): Renamed to Customer Install Base Management \(com.snc.install\_base\).
+-   **[Company-owned, third-party operated business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/add-user-internal-bus-location.md)**
+
+    Assign external staff to internal business locations to support various operating models, including company-owned, third-party operated locations.
+
+-   **[Customer Life Cycle workflows for Sold Products and Product Inventory records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-life-cycle-management-workflows.md)**
+
+    Use the Customer Life Cycle workflows to do the following tasks:
+
+    -   Create a Modify, Suspend, Resume, and Disconnect order for single or multiple root product inventory records that are associated with a service specification.
+    -   Select multiple root product inventories to perform the modify action to create both orders and quotes.
+    -   Track the status of the Modify, Suspend, Resume, and Disconnect flows on sold products and product inventory record by using the Sales and Order Management Request Tracker \(sn\_tmt\_core\_inbound\_queue\) table.
+
+### What's changed
+
+-   **[Specification Class on Product Inventory related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/product_inventory_configurations.md)**
+
+    The **Specification class** field on the Product Inventory related list provides information on whether the selected product inventory record has a product specification or service specification that is associated with it.
+
+
+-   **[Notification for case tasks at business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/manage-business-location-cases.md)**
+
+    View the notifications for the case tasks that are associated with the business locations on the Business Location Service Portal \(BLSP\). This way, your location members can stay informed about their pending tasks.
+
+-   **[Case resolution by location staff at other business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ebl-as-a-fulfiller.md)**
+
+    Enable your location staff, whether at company-owned or third-party-owned organizations \(internal and external business locations\), to handle and resolve issues from other eligible business locations.
+
+
+## Yokohama
+
+The ServiceNow® Data management for Customer Service Management application enables you to organize and manage the data for both your internal users and external customers. Data management for Customer Service Management was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[Naming customer relationship records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/adding-related-party-to-case.md)**
+
+    Use the Type field through related party configurations to name records in the account team member, contact relationship, consumer relationship, and household member relationship tables. With this functionality, you can identify the relationship that is based on the industry use case.
+
+-   **[Ordering customer relationship records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/adding-related-party-to-case.md)**
+
+    Organize records in tables such as account team members, consumer relationships, and more by using the **Order** field. You can set the order manually or auto-populate it based on the selected Type through related party configurations. This way, you can arrange records logically based on your use case.
+
+-   **[Enhancements to the declarative responsibility framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/declarative-resposibility-framework.md)**
+
+    Enhance the declarative responsibility framework to simplify administration and access management by enabling administrators to do the following tasks:
+
+    -   Add new granular roles for accessing customer data that is based on responsibility definitions.
+    -   Include additional entities in the framework.
+-   **[Subscription metrics for sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/create-sold-item.md)**
+
+    Enable agents to track and analyze the pricing information for products and services by using the pricing and subscription revenue metrics on the sold product form on the CSM Configurable Workspace.
+
+
+### What's changed
+
+-   **[Product Inventories configurations for Customer Life Cycle Management workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/product_inventory_configurations.md)**
+
+    Perform the Modify, Suspend, Resume, and Disconnect operations on product inventory records directly from the Product Inventory related list on the Accounts page.
+
+-   **[Grant write access to account relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/t_CreateAcctRelationshipRecord.md)**
+
+    Enable administrators and customer service managers to update account relationship records.
+
+-   **[Enable write access to contact relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/t_CreateAContactRelationship.md)**
+
+    Enable administrators and customer service managers to update the contact relationship records.
+
+-   **[Populate the Type field in relationship tables using the fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/migration-of-account-manager-responsibility-access.md)**
+
+    Migrate the account manager responsibilities from the account team member relationships to the new responsibility access configurations. The updated framework enables you to manage access settings more efficiently.
+
+-   **[Update roles within relationship agent and relationship contributor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/features-supp-and-unsupp-by-unified-consumer.md)**
+
+    Modify the roles of the relationship agent and relationship contributor to include the new granular roles that can grant access by responsibilities.
 
 

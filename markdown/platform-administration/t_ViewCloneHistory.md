@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_ViewCloneHistory.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Manage, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,12 +24,10 @@ The `clone_instance` table stores records for all previously and currently sched
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Clone \(legacy\)** &gt; **Clone History \(legacy\)**.
+1.  Navigate to **All** &gt; **Instance Clone** &gt; **Live Clones** &gt; **Clone History**.
 
     Clone history also displays the **State** for current and past clones. Clones in the **Draft** state don’t appear on the clone history table. For more information see [Clone states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/clone-states.md).
 
-    The **System Clones** list opens. Requests submitted from the Clone Admin Console appear on the **Clone Home** page instead.
-
-2.  Select a clone ID to view its history.
+2.  Select a record to view its history.
 
 

@@ -1,5 +1,5 @@
 ---
-title: Uninstall Conversational Integration with LINE
+title: Remove Conversational Integration with LINE
 description: Users can remove the Conversational Integration with LINE application when the app is no longer needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/remove-conv-integ-line.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, LINE, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrating Virtual Agent with LINE, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
-# Uninstall Conversational Integration with LINE
+# Remove Conversational Integration with LINE
 
 Users can remove the Conversational Integration with LINE application when the app is no longer needed.
 
@@ -36,4 +36,6 @@ Role required: admin
 
     The Facebook Messenger application and all of its data is removed.
 
+
+**Parent Topic:**[Integrating Virtual Agent with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-line.md)
 

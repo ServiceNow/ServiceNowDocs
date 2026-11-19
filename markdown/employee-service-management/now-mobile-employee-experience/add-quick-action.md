@@ -7,9 +7,9 @@ release: yokohama
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Configuring Now Mobile, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configure, Now Mobile app, Unified Employee Experience, Employee Service Management]
 ---
 
 # Add a quick action in your mobile applications
@@ -47,8 +47,6 @@ Role required: admin
 ## Result
 
 Your users can open the quick action by selecting the \[Omitted image "more-items.png"\] Alt text: Plus icon icon on the applet launcher page.
-
-**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 
 ## Create a quick action in your mobile applications
 

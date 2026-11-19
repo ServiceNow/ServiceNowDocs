@@ -1,5 +1,5 @@
 ---
-title: Lightweight Directory Access Protocol integration
+title: LDAP integration
 description: An LDAP integration allows your instance to use your existing LDAP server as the primary source of user data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/ldap-integration/c\_LDAPIntegration.html
@@ -7,12 +7,12 @@ release: yokohama
 product: LDAP integration
 classification: ldap-integration
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
 breadcrumb: [Authentication, Access Management]
 ---
 
-# Lightweight Directory Access Protocol integration
+# LDAP integration
 
 An LDAP integration allows your instance to use your existing LDAP server as the primary source of user data.
 

@@ -1,18 +1,18 @@
 ---
 title: Use response templates in License and Permit Administration
-description: Respond to cases by using the response templates in the contextual side panel in Public Sector Workspace. Good templates save you time by eliminating repetitive work. Response templates replace the static text with details from the license/permit application.
+description: Respond to cases by using the response templates in the contextual side panel in CSM Configurable Workspace. Good templates save you time by eliminating repetitive work. Response templates replace the static text with details from the license/permit application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/use-response-templates-lpr-psds.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using the contextual side panel, Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using the contextual side panel in Public Sector Digital Services License and Permit Administration, Using License and Permit Administration, Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Use response templates in License and Permit Administration
 
-Respond to cases by using the response templates in the contextual side panel in Public Sector Workspace. Good templates save you time by eliminating repetitive work. Response templates replace the static text with details from the license/permit application.
+Respond to cases by using the response templates in the contextual side panel in CSM Configurable Workspace. Good templates save you time by eliminating repetitive work. Response templates replace the static text with details from the license/permit application.
 
 ## Before you begin
 
@@ -35,7 +35,7 @@ For information on how to create response templates, see [Create or modify a res
 
 ## Procedure
 
-1.  In the Public Sector Workspace, open an information request task.
+1.  In the CSM Configurable Workspace, open an information request task.
 
 2.  In the contextual side panel, select the response templates icon \[Omitted image "response-template-icon.png"\] Alt text: Response template icon. to display a list of the available templates.
 

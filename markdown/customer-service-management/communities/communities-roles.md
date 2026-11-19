@@ -7,9 +7,9 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Communities references, Communities, Customer Service Management]
+breadcrumb: [Communities, Customer Service Management]
 ---
 
 # Communities roles
@@ -149,18 +149,5 @@ A community user who can create a customer service case from a community discuss
 Communities Portal
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/communitie-references.md)
-
-**Related topics**  
-
-
-[Quick start tests for Communities]()
-
-[Properties installed with Communities]()
-
-[Forum form fields]()
-
-[Video Configurations form fields]()
-
-[Topic form fields]()
+</table>**Parent Topic:**[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/servicenow-communities.md)
 

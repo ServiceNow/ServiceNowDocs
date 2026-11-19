@@ -1,20 +1,20 @@
 ---
-title: Define an assignment rule for incidents
-description: Define assignment rules to automatically assign incidents to the group or user who has the skills to work on them.
+title: Define assignment rules for incidents
+description: Define assignment rules to identify the right group or the user which is skilled to work on an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-management/t\_DefinAnAssignRuleIncidents.html
 release: yokohama
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring Incident Management, Incident Management, IT Service Management]
+breadcrumb: [Configure, Incident Management, IT Service Management]
 ---
 
-# Define an assignment rule for incidents
+# Define assignment rules for incidents
 
-Define assignment rules to automatically assign incidents to the group or user who has the skills to work on them.
+Define assignment rules to identify the right group or the user which is skilled to work on an incident.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: assignment\_rule\_admin or admin
 
 2.  Create assignment rules by following the steps provided in [Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignmentModuleRule.md).
 
-3.  Select **Submit**.
+3.  Click **Submit**.
 
 
 **Parent Topic:**[Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/incident-configuration.md)

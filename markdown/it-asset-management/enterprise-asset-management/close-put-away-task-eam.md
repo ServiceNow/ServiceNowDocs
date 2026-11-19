@@ -7,10 +7,10 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-05-07"
 reading_time_minutes: 2
 keywords: [close asset put away task, asset put away task]
-breadcrumb: [Putting away enterprise assets, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
+breadcrumb: [Manage asset put away using the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Close an Asset put away task in the Enterprise Asset Workspace

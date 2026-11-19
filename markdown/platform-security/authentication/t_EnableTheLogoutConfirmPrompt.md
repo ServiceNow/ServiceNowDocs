@@ -1,5 +1,5 @@
 ---
-title: Configure the logout confirmation prompt
+title: Configuring the logout confirmation prompt
 description: You can enable a logout confirmation prompt to prevent users from inadvertently logging themselves out.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/t\_EnableTheLogoutConfirmPrompt.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Local authentication, Authentication, Access Management]
+breadcrumb: [Local Authentication, Authentication, Access Management]
 ---
 
-# Configure the logout confirmation prompt
+# Configuring the logout confirmation prompt
 
 You can enable a logout confirmation prompt to prevent users from inadvertently logging themselves out.
 

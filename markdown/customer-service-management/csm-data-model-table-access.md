@@ -5,16 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-data-model-table-access.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-28"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Service Model Foundation overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Service Model Foundation overview, Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Service Model Foundation table access by role
 
 The user roles that can access the Service Model Foundation tables.
-
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
 
 <table id="table_zj3_gj2_2mb"><thead><tr><th>
 
@@ -38,9 +36,7 @@ Delete
 
 </th></tr></thead><tbody><tr><td>
 
-Organization Core \(formerly Service Organization\)
-
- \[sn\_customer\_service\_organization\]
+Service Organization\[sn\_customer\_service\_organization\]
 
 </td><td>
 
@@ -62,9 +58,7 @@ Organization Core \(formerly Service Organization\)
 
 </td></tr><tr><td>
 
-Business Organization \(formerly Business Location\)
-
- \[sn\_csm\_business\_location\]
+Business Location\[sn\_csm\_business\_location\]
 
 </td><td>
 
@@ -89,9 +83,7 @@ Business Organization \(formerly Business Location\)
 
 </td></tr><tr><td>
 
-Internal Organization \(formerly Internal Business Location\)
-
- \[sn\_csm\_business\_location\_internal\]
+Internal Business Location\[sn\_csm\_business\_location\_internal\]
 
 </td><td>
 
@@ -118,9 +110,7 @@ Internal Organization \(formerly Internal Business Location\)
 
 </td></tr><tr><td>
 
-External Organization \(formerly External Business Location\)
-
- \[sn\_csm\_business\_location\_external\]
+External Business Location\[sn\_csm\_business\_location\_external\]
 
 </td><td>
 
@@ -145,31 +135,31 @@ External Organization \(formerly External Business Location\)
 
 </td></tr><tr><td>
 
-Organization Member \(formerly Service Organization Member\)\[sn\_csm\_service\_organization\_member\]
+Service Organization Member\[sn\_csm\_service\_organization\_member\]
 
 </td><td>
 
 -   CSM manager
--   location managers \(for their hierarchy only\)
+-   location manager \(for their hierarchy only\)
 
 </td><td>
 
 -   CSM manager
 -   Customer agent
 -   Consumer agent
--   Location managers \(for their hierarchy only\)
--   Location agents \(for their locations only\)
--   Location consumer agents \(their locations only\)
+-   Location manager \(for their hierarchy only\)
+-   Location agent \(for their locations only\)
+-   Location consumer agent \(their locations only\)
 
 </td><td>
 
 -   CSM manager
--   Location managers \(for their hierarchy only\)
+-   Location manager \(for their hierarchy only\)
 
 </td><td>
 
 -   CSM manager
--   Location managers \(for their hierarchy only\)
+-   Location manager \(for their hierarchy only\)
 
 </td></tr><tr><td>
 
@@ -185,8 +175,8 @@ Household\[csm\_household\]
 -   Consumer agent
 -   Location manager
 -   Location consumer agent
--   Relationship agents \(for households they have relationships with\)
--   Consumers \(for their households\)
+-   Relationship agent \(for households they have relationships with\)
+-   Consumer \(for their households\)
 
 </td><td>
 
@@ -210,13 +200,13 @@ CSM manager
 -   Consumer agent
 -   Location manager
 -   Location consumer agent
--   Relationship agents \(for households they have relationships with\)
--   Consumers \(for households where they’re head of household or for consumers that they represent\)
+-   Relationship agent \(for households they have relationships with\)
+-   Consumer \(for households where they are head of household or for consumers that they represent\)
 
 </td><td>
 
 -   CSM manager
--   Relationship agents \(for households they have relationships with\)
+-   Relationship agent \(for households they have relationships with\)
 
 </td><td>
 
@@ -275,25 +265,25 @@ Account Team Member\[sn\_customerservice\_team\_member\]
 </td><td>
 
 -   CSM manager
--   Location manager
+-   Location manager \(for their hierarchy\)
 
 </td><td>
 
 -   CSM manager
 -   customer agent
--   Location manager
--   Location agents \(for their locations\)
--   Relationship agents \(for accounts that they have relationships with\)
+-   Location manager \(for their hierarchy\)
+-   Location agent \(for their locations\)
+-   Relationship agent \(for accounts that they have relationships with\)
 
 </td><td>
 
 -   CSM manager
--   Location manager
+-   Location manager \(for their hierarchy\)
 
 </td><td>
 
 -   CSM manager
--   Location manager
+-   Location manager \(for their hierarchy\)
 
 </td></tr><tr><td>
 
@@ -302,25 +292,25 @@ Consumer Team Member\[sn\_customer\_rel\_consumer\_to\_user\]
 </td><td>
 
 -   CSM manager
--   Location manager
+-   Location manager \(for their hierarchy\)
 
 </td><td>
 
 -   CSM manager
 -   Consumer agent
--   Location manager
--   Location consumer agents \(for their locations\)
--   Relationship agents \(for consumers that they have relationships with\)
+-   Location manager \(for their hierarchy\)
+-   Location consumer agent \(for their locations\)
+-   Relationship agent \(for consumers that they have relationships with\)
 
 </td><td>
 
 -   CSM manager
--   Location manager
+-   Location manager \(for their hierarchy\)
 
 </td><td>
 
 -   CSM manager
--   Location manager
+-   Location manager \(for their hierarchy\)
 
 </td></tr><tr><td>
 
@@ -329,25 +319,25 @@ Household Team Member\[sn\_customer\_rel\_household\_to\_user\]
 </td><td>
 
 -   CSM manager
--   Location manager
-
-</td><td>
-
--   CSM managers
--   Consumer agents
--   Location manager
--   Location consumer agents \(for their locations\)
--   Relationship agents \(for households that they have relationships with\)
+-   Location manager \(for their hierarchy\)
 
 </td><td>
 
 -   CSM manager
--   Location manager
+-   Consumer agent
+-   Location manager \(for their hierarchy\)
+-   Location consumer agent \(for their locations\)
+-   Relationship agent \(for households that they have relationships with\)
 
 </td><td>
 
 -   CSM manager
--   Location manager
+-   Location manager \(for their hierarchy\)
+
+</td><td>
+
+-   CSM manager
+-   Location manager \(for their hierarchy\)
 
 </td></tr></tbody>
 </table>

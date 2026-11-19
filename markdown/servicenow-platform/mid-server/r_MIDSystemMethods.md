@@ -7,7 +7,7 @@ release: yokohama
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ MIDSystem variables \(referred to by the variable name ms.\) provide a variety o
 
 <table id="table_lhn_gsf_khb"><tbody><tr><td>
 
-![MID Server reference navigation](../image/MIDRefIconBar.png)
+![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>|Method summary|Description|

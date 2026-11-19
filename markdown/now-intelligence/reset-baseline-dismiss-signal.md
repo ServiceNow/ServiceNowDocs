@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/reset-baseline-dismiss-signal.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Use, KPI Signals, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Using KPI Signals, KPI Signals, Platform Analytics experience, Platform Analytics]
 ---
 
 # Reset baseline or dismiss signal

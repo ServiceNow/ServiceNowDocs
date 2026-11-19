@@ -1,5 +1,5 @@
 ---
-title: Specify user segment groups for bulk case requests
+title: Specify a user segment group for a bulk case request in Agent Workspace for HR Case Management
 description: Create a user segment group to specify in a bulk case request the users for whom a case will be created. You can specify values for a group of users or specify multiple segments with different values for different groups of users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/agent-workspace-for-hr-case-management/segment-group-aws.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Create a bulk case request using Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Create a bulk case request using Agent Workspace for HR Case Management, Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
 ---
 
-# Specify user segment groups for bulk case requests
+# Specify a user segment group for a bulk case request in Agent Workspace for HR Case Management
 
 Create a user segment group to specify in a bulk case request the users for whom a case will be created. You can specify values for a group of users or specify multiple segments with different values for different groups of users.
 
@@ -24,7 +24,7 @@ Role required: sn\_hr\_core\_admin
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the Lists icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
+2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: HR Workspace Lists icon\).
 
 3.  Select **Bulk case requests**.
 
@@ -71,15 +71,15 @@ Further details about the user segment.
 
 8.  Indicate how you will indicate which users the bulk case request will create cases for in the **Filter by** field.
 
-<table id="choicetable_nwr_13z_bbc"><thead><tr><th align="left" id="d446673e185">
+<table id="choicetable_nwr_13z_bbc"><thead><tr><th align="left" id="d414953e192">
 
 Data source
 
-</th><th align="left" id="d446673e188">
+</th><th align="left" id="d414953e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d446673e194">
+</th></tr></thead><tbody><tr><td id="d414953e201">
 
 **File**
 
@@ -93,7 +93,7 @@ Upload a file with user names or email addresses.1.  Select the file type in the
 4.  Select **Process file**.
 
 
-</td></tr><tr><td id="d446673e245">
+</td></tr><tr><td id="d414953e252">
 
 **HR criteria**
 
@@ -101,7 +101,7 @@ Upload a file with user names or email addresses.1.  Select the file type in the
 
 Criteria based on conditions defined by the HR Profile \[sn\_hr\_core\_profile\] or User \[sys\_user\] tables.
 
-</td></tr><tr><td id="d446673e254">
+</td></tr><tr><td id="d414953e261">
 
 **User criteria**
 
@@ -109,7 +109,7 @@ Criteria based on conditions defined by the HR Profile \[sn\_hr\_core\_profile\]
 
 Criteria based on role, department, group, location, or company.
 
-</td></tr><tr><td id="d446673e263">
+</td></tr><tr><td id="d414953e270">
 
 **HR profile**
 
@@ -117,7 +117,7 @@ Criteria based on role, department, group, location, or company.
 
 Condition based on the HR profile \[sn\_hr\_core\_profile\] table.
 
-</td></tr><tr><td id="d446673e273">
+</td></tr><tr><td id="d414953e280">
 
 **Users**
 

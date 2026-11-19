@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/automate-and-optimize.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Use, Customer Service Management]
+breadcrumb: [Using Customer Service Management, Customer Service Management]
 ---
 
 # Automate and optimize
@@ -57,7 +57,7 @@ Guided Decisions
 
 </td></tr><tr><td>
 
-Recommended Actions for Service
+Recommended Actions for Customer Service
 
 </td><td>
 

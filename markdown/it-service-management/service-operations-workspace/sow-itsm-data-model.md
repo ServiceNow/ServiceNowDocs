@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Service Operations Workspace for ITSM reference, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Reference, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Service Operations Workspace for ITSM data model
@@ -27,11 +27,9 @@ The following diagram shows the tables and their relationships within SOW for IT
 **Related topics**  
 
 
-[Additional roles for SOW admin]()
+[Terminology in Service Operations Workspace for ITSM]()
 
 [Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM]()
 
 [Components installed with Service Operations Workspace ITSM Applications]()
-
-[Service Operations Workspace for ITSM glossary]()
 

@@ -1,40 +1,36 @@
 ---
-title: Life cycle of product entities
-description: The product life-cycle value pairs represent the overall life cycle of a product model, a specific version, or a product configuration. The life-cycle values for the product life-cycle process are visible only in Product \(Models\) tables.
+title: Product life cycle
+description: The CSDM framework provides standard fields and values that you can use to track the life cycle of an asset or a CI. The product life-cycle value pairs represent the overall life cycle of a product model, a specific version, or a product configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-product.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Life cycle of product entities
+# Product life cycle
 
-The product life-cycle value pairs represent the overall life cycle of a product model, a specific version, or a product configuration. The life-cycle values for the product life-cycle process are visible only in Product \(Models\) tables.
+The CSDM framework provides standard fields and values that you can use to track the life cycle of an asset or a CI. The product life-cycle value pairs represent the overall life cycle of a product model, a specific version, or a product configuration.
 
 ## Life-cycle value pairs for products
 
-For definitions of the values in the diagram, see [Definitions of life-cycle values for product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-product.md).
+A life-cycle value pair is the combination life cycle stage and life cycle stage status values for a CI, asset, or IBI over the life cycle of a product instance. For example, a product CI in the **Operational** stage might change status over time from **Available** to **Pending Retirement** to **End of Support**. A different product CI in the **Operational** stage might go from the **Available** status directly to the **End of Support** status without ever having been in the **Pending Retirement** status.
 
-\[Omitted image "csdm-lifecycle-vp-product.png"\] Alt text: Relationships between CSDM stages and life cycle values.
+\[Omitted image "csdm-lifecycle-product.png"\] Alt text: Product life cycle process: pipeline, design, operational, and end of life.
 
-**Note:** The \[life\_cycle\_control\] table uses the type of CI \(tangible/physical, document and contract, location and so on\) to determine which *life cycle stage status* values are available for each *life cycle stage*.
+**Note:** The \[life\_cycle\_control\] table uses the type of CI \(hardware, document, logical and so on\) to determine which *life cycle stage status* values are available for each *life cycle stage*.
 
 For additional details on products, see [Products and product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/foundation-domain.md).
 
 For additional information on how you can benefit from implementing life-cycle value pairs for CMDB entities, see the ['Map existing status values to CSDM life-cycle value pairs' section in the 'Foundation domain' topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/foundation-domain.md).
 
--   **[Definitions of life-cycle values for product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-product.md)**  
-The product life-cycle value pairs represent the overall life cycle of a product model, a specific version, or a product configuration. The life-cycle values for the product life-cycle process are visible only in Product \(Models\) tables.
+## CSDM videos in the ServiceNow Community
+
+[Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
 **Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
-
-**Related topics**  
-
-
-[Definitions of life-cycle values for product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-product.md)
 

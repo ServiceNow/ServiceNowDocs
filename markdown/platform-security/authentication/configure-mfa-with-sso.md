@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [MFA with SSO, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [Configure Multi-factor authentication with Single Sign-On, Configure Multi-factor authentication, Multi-factor authentication, Authentication, Access Management]
 ---
 
 # Configure MFA with SSO
@@ -22,7 +22,7 @@ The MFA with SSO feature is offered as a part of the Adaptive Authentication plu
 
 **Note:** MFA with SSO login is available if the **glide.authenticate.mfa.with.multisso.enabled** property is set to **true**.
 
-Role required: adaptive\_auth\_admin, sso\_config\_admin
+Role required: admin
 
 ## Procedure
 
@@ -32,13 +32,11 @@ Role required: adaptive\_auth\_admin, sso\_config\_admin
 
     \[Omitted image "mfa-sso-properties.png"\] Alt text: Enable MFA for SSO.
 
-3.  Select **Save**.
+3.  Click **Save**.
 
 4.  Navigate to **Multi-factor Authentication** &gt; **MFA Context**.
 
-    The MFA Context form appears.
-
-    \[Omitted image "mfa-auth-context.png"\] Alt text: MFA Auth Context
+    The MFA Context form appears.\[Omitted image "mfa-auth-context.png"\] Alt text: MFA Auth Context
 
     **Note:** By default, the policy is **Step-Up MFA Policy**. Users are shown with Multi-factor Authentication if a condition configured in **Step-Up MFA Policy** evaluates to **true**. Policy takes precedence over the user or role-based configuration.
 
@@ -46,9 +44,9 @@ Role required: adaptive\_auth\_admin, sso\_config\_admin
 
     When you navigate to the Authentication Policy record, you can add or edit the 'Policy Inputs' to the referenced Policy fields, **Step-Up MFA Policy** or **Step-Down MFA Policy**.
 
-6.  To set a new policy condition, select **Policy Conditions**.
+6.  To set a new policy condition, click **Policy Conditions**.
 
-7.  Select **New**.
+7.  Click **New**.
 
 8.  On the form, fill in the fields.
 
@@ -96,7 +94,7 @@ The type of condition that you want to apply for the policy. You can add filter 
     2.  Select **Identity Provider** and specify the provider as the IDP record for which you want to enable MFA. For example, **Okta**.
     Based on this selection, if the user logs in with SSO, the user is not challenged with MFA. In contrast, if the user logs in using Okta, then the user is challenged with MFA.
 
-9.  Select **Submit**.
+9.  Click **Submit**.
 
 
 **Related topics**  
@@ -104,5 +102,5 @@ The type of condition that you want to apply for the policy. You can add filter 
 
 [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/adaptive-authentication.md)
 
-[Multi-factor Authentication with Single Sign-On](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/mfa-sso.md)
+[Configure Multi-factor authentication with Single Sign-On](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/mfa-sso.md)
 

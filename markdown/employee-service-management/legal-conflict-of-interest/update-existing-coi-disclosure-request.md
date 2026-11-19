@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Requesting legal clearance for conflict of interests, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
 ---
 
 # Update an existing conflict of interest disclosure request
@@ -24,29 +24,31 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal and selecting **My Requests** &gt; **View all requests** from the header.
+    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal portal and selecting **My Requests** from the header.
 
-2.  Select **My Requests** from the header.
+2.  Select **Legal services** from the header.
 
-3.  Open the conflict of interest disclosure request.
+3.  Select **My Requests** from the header.
 
-4.  From the Actions menu, select **Edit Request**.
+4.  Open the conflict of interest disclosure request.
 
-5.  On the form, update the fields and click **Submit**.
+5.  From the Actions menu, select **Edit Request**.
+
+6.  On the form, update the fields and click **Submit**.
 
     **Note:** You cannot update a few fields on the form, and so they show up as inactive.
 
-6.  Manage documents supporting your request.
+7.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d376652e127">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d350896e130">
 
 Option
 
-</th><th align="left" id="d376652e130">
+</th><th align="left" id="d350896e133">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d376652e136">
+</th></tr></thead><tbody><tr><td id="d350896e139">
 
 **If the Attachments tab is visible**
 
@@ -57,7 +59,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d376652e175">
+</td></tr><tr><td id="d350896e178">
 
 **If the Documents tab is visible**
 
@@ -78,5 +80,5 @@ The conflict of interest disclosure request is updated and the state is set as N
 
 The approval details appear under the **Approvals** tab on the Standard Ticket page.
 
-**Parent Topic:**[Using Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/lsd-coi-use-landing.md)
+**Parent Topic:**[Requesting legal clearance for conflict of interests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/submitting-legal-coi-request.md)
 

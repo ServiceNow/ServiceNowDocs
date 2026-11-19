@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -53,5 +53,5 @@ The MSIM Conference Call Cisco Webex integration enables you to manage and initi
 
 [Integrate Major Security Incident Management with Microsoft Teams]()
 
-[Establish Microsoft Teams Graph connection on ServiceNow AI Platform]()
+[Establish MS Teams Graph connection on ServiceNow AI Platform]()
 

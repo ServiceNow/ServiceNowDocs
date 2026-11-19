@@ -1,27 +1,29 @@
 ---
-title: Exploring Dispute Rules Content Pack for Visa
-description: Learn how the Dispute Rules Content Pack for Visa application leverages questionnaire and mapping to ensure proper categorization and processing of disputes.
+title: Exploring the Dispute Rules Content Pack for Visa
+description: Learn how the Dispute Rules Content Pack for Visa application leverages questionnaire and mapping to ensure proper categorisation and processing of disputes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/exploring-the-dispute-rules-content-pack-for-visa.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Dispute Rules Content Pack for Visa, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Dispute Rules Content Pack for Visa, Managing Visa disputes, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Exploring Dispute Rules Content Pack for Visa
+# Exploring the Dispute Rules Content Pack for Visa
 
-Learn how the Dispute Rules Content Pack for Visa application leverages questionnaire and mapping to ensure proper categorization and processing of disputes.
+Learn how the Dispute Rules Content Pack for Visa application leverages questionnaire and mapping to ensure proper categorisation and processing of disputes.
 
-## Overview of the application
+## Overview
 
-The Dispute Rules Content Pack for Visa application is a content pack that extends the Financial Services Card Operations application with Visa-specific dispute rule configuration. The Dispute Rules Content Pack for Visa application:
+The Dispute Rules Content Pack for Visa application:
 
--   Supplies decision-table logic that maps responses from the dispute intake questionnaire \(provided by the Financial Services Card Operations application\) to Visa dispute categories and reason codes.
+-   Provides an intake questionnaire for Visa card related disputes and guides on the dispute reason code for the disputed transactions.
 -   Determines eligibility for the disputed transactions based on the **Visa Core Rules and Visa Product and Service Rules**.
+
+The Dispute Rules Content Pack for Visa contains the latest chargeback eligibility rules as of the August store release.
 
 ## Key benefits
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Increasing the credit limit, Use, Card Operations, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Increasing the credit limit of a card, Managing credit card service requests, Card Operations, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Increase the credit limit for a customer
@@ -32,19 +32,19 @@ This credit card task is automatically created when the credit assessment task h
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  Open the task from a credit card service case or from the Credit Card Task list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d130940e126">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d108087e114">
 
 Option
 
-</th><th align="left" id="d130940e129">
+</th><th align="left" id="d108087e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d130940e135">
+</th></tr></thead><tbody><tr><td id="d108087e123">
 
 **From a credit card service case**
 
@@ -55,7 +55,7 @@ Steps
 3.  In the case, click the **Tasks** tab and select the credit card task.
 
 
-</td></tr><tr><td id="d130940e168">
+</td></tr><tr><td id="d108087e156">
 
 **From the Credit Card Task list**
 

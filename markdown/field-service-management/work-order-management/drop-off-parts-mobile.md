@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
+breadcrumb: [Inventory on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
 ---
 
 # View schedule and track the parts for drop-off
@@ -22,11 +22,11 @@ Role required: wm\_agent or wm\_dispatcher
 
 ## About this task
 
-The transfer order line for drop-off must be in **Draft** or **Requested** state.
+The transfer order line for drop-off must be in **Draft** or **Requested** state. For more information on transfer order line stages, refer to [Transfer orders for Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/transfer-orders-for-am.md).
 
 ## Procedure
 
-1.  Open the ServiceNow Agent Agent application.
+1.  Open the Now Mobile Agent application.
 
 2.  Tap **Parts to receive**.
 
@@ -34,4 +34,6 @@ The transfer order line for drop-off must be in **Draft** or **Requested** state
 
     For more information on dropping off an asset, refer to [Drop off an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_DropOffAnAsset.md).
 
+
+**Parent Topic:**[Inventory on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/easily-track-parts.md)
 

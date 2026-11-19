@@ -7,8 +7,8 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-10-07"
-reading_time_minutes: 7
+last_updated: "2026-10-27"
+reading_time_minutes: 6
 breadcrumb: [ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
@@ -34,7 +34,6 @@ Plugins and applications are installed with ITOM Visibility, and application dep
 |ITOMDiscovery Admin Workspace \(com.snc.itom.daw\)|Enables the Discovery Admin Workspace experience for managing and monitoring Discovery operations.|
 |Service Operations WorkspaceService Reliability Management \(SRM\) Common \(sn\_sow\_srm\_common\)|Delivers common configurations for Service Reliability Management, which are stored globally, such as access control changes. This configuration is installed only as a result of enabling the Service Reliability Management application.|
 |CMDB Workspace \(sn\_cmdb\_ws\)|Provides a centralized experience for managing CMDB data health, governance, and insights. Use it to assess CMDB quality, investigate data issues, and gain visibility into configuration data so you can maintain a trusted CMDB.|
-|Discovery and Service Mapping Patterns \(sn\_itom\_pattern\)|Provides the latest versions of the Discovery and Service Mapping Patterns released on the ServiceNow Store. ServiceNow releases new patterns on the ServiceNow® Store on a monthly basis, enabling your organization to discover the latest industry-standard devices and applications.|
 |ITOM Configuration Console \(sn\_itom\_admin\)|Delivers structured onboarding journeys for both Event Management and Discovery, with step-by-step workflows covering monitoring tool integration, alert response configuration, CI classification, and diagnostics validation.|
 |ITOM Guided Setup - New \(sn\_sow\_guide\_setup\)|Provides a structured onboarding experience to help users quickly implement and realize value from ITOM.|
 |CMDB CI Class Models \(sn\_cmdb\_ci\_class\)|Adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships if applicable. Applications such as Discovery and Service Mapping can use these class extensions to populate configuration items \(CIs\) and discover various technologies and software.|
@@ -62,8 +61,6 @@ Plugins and applications are installed with ITOM Visibility, and application dep
 |Flow Designer Action Step - Script on MID \(com.glide.hub.action\_step.script\_mid\)|Provides an action step to execute custom JavaScript within a reusable action on a MID Server.|
 
 ## Cloud Discovery Workspace
-
-**Important:** Cloud Discovery Workspace is now deprecated and no longer supported or available for new activation. [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace.md) provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 |Plugin or application name|Description|
 |--------------------------|-----------|
@@ -101,5 +98,5 @@ Plugins and applications are installed with ITOM Visibility, and application dep
 
 [Plugins activated with ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/plugin-itom-optimization.md)
 
-[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/app-now-assist-itom.md)
+[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)
 

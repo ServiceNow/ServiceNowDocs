@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-24"
 reading_time_minutes: 1
-breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
 ---
 
 # Activate a solution version
@@ -41,6 +41,4 @@ The system creates a solution version each time you train a solution definition.
 ## What to do next
 
 For classification solutions, [review the trained solution precision and coverage statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/review-solution-statistics.md). For similarity solutions, [review the similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
-
-**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
 

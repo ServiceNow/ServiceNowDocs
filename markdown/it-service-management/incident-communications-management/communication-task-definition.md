@@ -1,22 +1,22 @@
 ---
-title: Communication task definitions
-description: Each communication plan involves a series of communication tasks. A communication task definition helps you specify the mode of communication \(channel\) and the frequency at which the communication must be carried out.
+title: Communication task definition
+description: Each communication plan involves a series of communication tasks. A communication task definition helps you to specify the mode of communication \(channel\) and the frequency at which the communication must be carried out.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-communications-management/communication-task-definition.html
 release: yokohama
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Managing incident communications, Incident Communications Management, IT Service Management]
+breadcrumb: [Manage, Incident Communications Management, IT Service Management]
 ---
 
-# Communication task definitions
+# Communication task definition
 
-Each communication plan involves a series of communication tasks. A communication task definition helps you specify the mode of communication \(channel\) and the frequency at which the communication must be carried out.
+Each communication plan involves a series of communication tasks. A communication task definition helps you to specify the mode of communication \(channel\) and the frequency at which the communication must be carried out.
 
-For instructions on creating a communication task definition, see [Create communication task definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-comm-task-definition.md).
+For information on how to create a communication task definition, refer to [Create communication task definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-comm-task-definition.md).
 
-**Parent Topic:**[Managing incident communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Configuring custom dashboards in EAP, Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---

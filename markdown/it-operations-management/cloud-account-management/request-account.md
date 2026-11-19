@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2024-02-01"
 reading_time_minutes: 1
-breadcrumb: [Creating a cloud account, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Creating a cloud account, Using Cloud Account Management in Cloud Workspace, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Request a cloud account
@@ -24,18 +24,22 @@ Role required: sn\_itom\_cam.cw\_requester
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Cloud Workspace** &gt; **Manage and Configure** &gt; **Requests** &gt; **All requests**.
+1.  Navigate to **All** &gt; **Cloud Workspace** &gt; **Home**.
 
-2.  Select **Create new request**.
+2.  From the **Requests** tab, select **Create new request**.
 
-3.  On the Request new cloud account form, fill in the fields.
+3.  Select the desired environment and select **Next**.
+
+4.  On the Request form, fill in the fields.
 
     For a description of the field values, see [New cloud account request fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/account-creation-details.md).
 
-    **Note:** To create your custom catalog, see [Configure a custom catalog ID in Cloud Account Management account request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/configuring-catalog-ids-in-cam-account-request.md).
+5.  Select **Next**.
 
-4.  Select **Submit**.
+6.  Enter key-value information to categories the account.
 
+    For example, by region, country, organization, or a branch.
 
-**Parent Topic:**[Creating a cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/creating-an-account.md)
+7.  Select **Submit**.
+
 

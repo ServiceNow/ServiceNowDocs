@@ -1,20 +1,20 @@
 ---
 title: Turn on the spoke generation skill
-description: Turn on the flow generation skill to use generative AI to create a spoke.
+description: Turn on the flow generation skill to use generative AI to create spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/turn-on-spk-gen-skill.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use ServiceNow Otto to create spokes and build actions, Building spokes using Spoke Generator, Workflow Studio, Build workflows]
+breadcrumb: [Use Now Assist to create spokes and build actions, Building spokes using Spoke Generator, Using Workflow Studio, Workflow Studio, Build workflows]
 ---
 
 # Turn on the spoke generation skill
 
-Turn on the flow generation skill to use generative AI to create a spoke.
+Turn on the flow generation skill to use generative AI to create spoke.
 
 ## Before you begin
 
@@ -24,18 +24,18 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Overview**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Features**.
 
-2.  Select the **AI Skills** tab.
+2.  In the workflow list, select **Creator**.
 
-3.  In the workflow list, select **Creator**.
+3.  In the Spoke card, select **View details**.
 
-4.  In the **Spoke Generation** modal, click **Turn on**.
-
-    \[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill in AI Admin Hub console.
+4.  Under All available Spoke skills, click **Turn on**.
 
 
 ## Result
 
-You can now create spoke and actions using ServiceNow Otto in Spoke Generator.
+You can now create spoke and actions using Now Assist in Spoke Generator.
+
+**Parent Topic:**[Use Now Assist to create spokes and build actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/now-assist-in-spk-gen.md)
 

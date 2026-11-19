@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Contract Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Contract Management, Asset Management, IT Service Management]
 ---
 
 # Domain separation and Contract Management
@@ -18,16 +18,8 @@ Domain separation is unsupported in Contract Management. Domain separation enabl
 
 ## Support level: No support
 
--   **Data-level separation**
-
-    The Contract \[ast\_contract\] table includes a **Domain** field \(sys\_domain\). Domain separates contract records. Users in one domain can't view contracts created in a different domain.
-
--   **Business logic**
-
-    Scheduled jobs, renewal processing, approval flows, and other automated processes in Contract Management do not respect domain separation. Domain separation for these automated processes is not supported.
-
-
-**Warning:** Contract data is separated by domain, but automated contract processes might not respect domain boundaries. Test all automated workflows in your domain-separated environment before deploying to production.
+-   The domain field may exist on data tables but there is no business logic to manage the data.
+-   This level is not considered domain-separated.
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
 
@@ -39,8 +31,6 @@ For more information on support levels, see [Application support for domain sepa
 [Use the Asset Contract Overview module]()
 
 [Components installed with Contract Management]()
-
-[Contract approval flow]()
 
 [Contract Management use]()
 

@@ -1,20 +1,20 @@
 ---
 title: View sales opportunities
-description: View, sort, and filter sales opportunities using the ServiceNow Agent application.
+description: View, sort, and filter sales opportunities using the Now Mobile Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/view-sales-opportunities.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
+breadcrumb: [Prioritizing on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
 ---
 
 # View sales opportunities
 
-View, sort, and filter sales opportunities using the ServiceNow Agent application.
+View, sort, and filter sales opportunities using the Now Mobile Agent application.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Role required: wm\_technician\_sales\_write
 
 ## Procedure
 
-1.  Open the ServiceNow Agent application.
+1.  Navigate to the Now Mobile Agent application.
 
 2.  Tap the **Sales** tab.
 
@@ -45,4 +45,6 @@ Role required: wm\_technician\_sales\_write
 
     The list of opportunities will be filtered according to the selected criteria.
 
+
+**Parent Topic:**[Prioritizing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-field-service-tasks-mobile.md)
 

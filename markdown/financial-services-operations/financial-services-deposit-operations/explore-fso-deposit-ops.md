@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Deposit Operations, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Exploring Financial Services Deposit Operations
@@ -20,7 +20,7 @@ You can use ServiceNow® Financial Services Deposit Operations to manage a strea
 
 -   Systematic and repeatable processes for account updates, standing order modifications, and account origination and closures
 -   Automated workflows available for common account requests​ to route cases and tasks across different departments and functions
--   Personalized CRM Workspace for different roles
+-   Personalized CSM Configurable Workspace for different roles
 -   Playbook experience for a guided navigation to resolve cases
 -   Performance Analytics dashboard with pre-configured reports to track trends and response times and drive continuous improvement
 -   Process Mining to visualize process and identify improvement opportunities

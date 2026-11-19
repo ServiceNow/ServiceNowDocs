@@ -1,18 +1,18 @@
 ---
-title: Resize a modal
-description: Use declarative actions to resize a modal in your workspace.
+title: Resize select modals in Configurable Workspace
+description: Use declarative actions to enable resizing for select modals in your Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/set-up-resizing-for-select-modals-in-configurable-workspace.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Resize all record page modals in Configurable Workspace, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Resize a modal
+# Resize select modals in Configurable Workspace
 
-Use declarative actions to resize a modal in your workspace.
+Use declarative actions to enable resizing for select modals in your Configurable Workspace.
 
 ## Before you begin
 
@@ -20,23 +20,19 @@ Role required: admin
 
 ## About this task
 
-If resizing isn’t required for all record page modals, use declarative actions to resize individual modals.
+If resizing isn’t required for all record page modals, use declarative actions to enable resizing for select modals.
 
-Declarative actions take higher precedence than system properties.
+Configuration at the declarative action level takes higher precedence than system properties.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Declarative Actions** &gt; **Related List Actions**.
 
-2.  From the Action Assignments list, select a related list action.
+2.  Open a related list action.
 
-    An Action Assignment record opens.
+3.  From the UX Add-on Event Mapping, select the event mapping for opening a modal.
 
-3.  From UX Add-on Event Mappings related list, select the event mapping for opening a modal.
-
-    A UX Add-on Event Mapping record opens.
-
-4.  In the Target Payload Mapping field, enter the following snippet under `“container”: {`.
+4.  Add the following snippet to the Target Payload Mapping field under `“container”: {`.
 
     ```
                                     "resizableConfig": { 
@@ -45,7 +41,7 @@ Declarative actions take higher precedence than system properties.
     
     ```
 
-5.  Specify the modal’s default size by appending the following snippet.
+5.  Specify the modal’s default size by adding the following snippet under your previous addition.
 
     ```
     "customSize": { 

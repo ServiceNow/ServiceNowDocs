@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Using Insurance claims, Insurance claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on Insurance claims adjuster tasks
@@ -20,7 +20,7 @@ Review a claim to verify the documents, evaluate the claim coverages, determine 
 
 Role required: sn\_ins\_gen\_claim.adjuster
 
-**Important:** To access the Claim workspace, and Summary adjuster workspace related tabs, you must activate the CSM default record page. By default, the page is set to inactive. To determine the default page for displaying records in CSM Configurable Workspace, see [CRM Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-config-workspace-record-pages.md) .
+**Important:** To access the Claim workspace, and Summary adjuster workspace related tabs, you must activate the CSM default record page. By default, the page is set to inactive. To determine the default page for displaying records in CSM Configurable Workspace, see [CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-config-workspace-record-pages.md).
 
 ## About this task
 
@@ -32,15 +32,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the task in one of the following ways.
 
-<table id="choicetable_kfd_jfb_vcc"><thead><tr><th align="left" id="d92595e93">
+<table id="choicetable_kfd_jfb_vcc"><thead><tr><th align="left" id="d75640e90">
 
 Option
 
-</th><th align="left" id="d92595e96">
+</th><th align="left" id="d75640e93">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d92595e102">
+</th></tr></thead><tbody><tr><td id="d75640e99">
 
 **From the landing page**
 
@@ -48,13 +48,13 @@ Steps
 
 From the All open claims list, select a task.
 
-</td></tr><tr><td id="d92595e111">
+</td></tr><tr><td id="d75640e108">
 
 **From the Insurance claim adjuster task list**
 
 </td><td>
 
--   Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+-   Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: List icon.\).
 -   On the **Lists** tab, under **Insurance claim adjuster tasks** \(or the list category that is specific to your custom workflow\), select **All**.
 -   In the list, select the task that you want to open.
 
@@ -62,15 +62,15 @@ From the All open claims list, select a task.
 </td></tr></tbody>
 </table>3.  Work on the adjuster task by completing actions from the claim workspace.
 
-<table id="choicetable_ozd_rgb_vcc"><thead><tr><th align="left" id="d92595e156">
+<table id="choicetable_ozd_rgb_vcc"><thead><tr><th align="left" id="d75640e157">
 
 Claim task
 
-</th><th align="left" id="d92595e159">
+</th><th align="left" id="d75640e160">
 
 Claim workspace actions
 
-</th></tr></thead><tbody><tr><td id="d92595e165">
+</th></tr></thead><tbody><tr><td id="d75640e166">
 
 **Add a document verification task**
 
@@ -81,7 +81,7 @@ Claim workspace actions
 -   Select **Save**.
 
 
-</td></tr><tr><td id="d92595e192">
+</td></tr><tr><td id="d75640e193">
 
 **Verify a document**
 
@@ -89,7 +89,7 @@ Claim workspace actions
 
 In a Submitted document task, select **Verify** to verify the submitted document.
 
-</td></tr><tr><td id="d92595e204">
+</td></tr><tr><td id="d75640e205">
 
 **Reject a document**
 
@@ -97,7 +97,7 @@ In a Submitted document task, select **Verify** to verify the submitted document
 
 In a Submitted document task, select **Reject** to reject the submitted document.
 
-</td></tr><tr><td id="d92595e216">
+</td></tr><tr><td id="d75640e217">
 
 **Add claim coverage**
 
@@ -108,7 +108,7 @@ In a Submitted document task, select **Reject** to reject the submitted document
 -   Select **Save**.
 
 
-</td></tr><tr><td id="d92595e244">
+</td></tr><tr><td id="d75640e245">
 
 **Add a reserve or payment**
 
@@ -121,7 +121,7 @@ In a Submitted document task, select **Reject** to reject the submitted document
 -   Select **Save**.
 
 
-</td></tr><tr><td id="d92595e278">
+</td></tr><tr><td id="d75640e279">
 
 **Add an ad-hoc claim task**
 
@@ -132,7 +132,7 @@ In a Submitted document task, select **Reject** to reject the submitted document
 -   Select **Save**.
 
 
-</td></tr><tr><td id="d92595e305">
+</td></tr><tr><td id="d75640e306">
 
 **Submit a reserve or payment amount for approval**
 
@@ -140,7 +140,7 @@ In a Submitted document task, select **Reject** to reject the submitted document
 
 If the reserve or payment amount is above your approval threshold, an approval task is created and assigned to your manager when you submit the amount.
 
-</td></tr><tr><td id="d92595e317">
+</td></tr><tr><td id="d75640e318">
 
 **Submit a claim settlement decision**
 

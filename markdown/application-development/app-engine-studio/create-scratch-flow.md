@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Add logic and automation, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
+breadcrumb: [Add logic and automation, Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Add a flow from scratch
@@ -98,6 +98,10 @@ Roles that the flow runs with. This option is available only when **Run as** is 
 
 </td></tr></tbody>
 </table>7.  On the summary screen, select **Edit this flow** to open your flow.
+
+    \[Omitted image "fd-aes-2.png"\] Alt text: Create the flow
+
+    For an example of how to build a flow, see [Build your first flow in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/build-your-first-flow.md).
 
 8.  Add a trigger to your flow.
 

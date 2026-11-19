@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-an-onboarding-case-with-portal-playbook.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Use Playbooks for Portals, Customer communication, Use, Customer Service Management]
+breadcrumb: [Using Playbooks for Portals, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Creating an onboarding case with Playbooks for Portals
 
 Whether you're a contact or a consumer, you can create an onboarding case with a case type that is based on the issue or request in either the Customer Service Portal or Consumer Service Portal.
 
-## Playbooks for Portals overview
+## Overview
 
 With Playbooks for Portals, you get a clear roadmap where you can see your progress in the submission process and in the remaining steps that you have left to complete. If needed, you can easily navigate back to a previous step. To expedite the process, you’re presented with the options and input controls so that you can quickly and accurately input your information. Additionally, you can save an application or form that is not yet ready for submission so that you can resume work on it later. After saving the case, you can access the playbook through the case lists and find your saved drafts in the case list view on the **My Draft Cases** tab.
 
@@ -45,7 +45,7 @@ The following diagram shows how a customer creates a case.
 **Related topics**  
 
 
-[Creating a guided onboarding case from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
+[Creating a guided onboarding case from CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
 
 [Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-an-onboarding-request-from-catalog.md)
 

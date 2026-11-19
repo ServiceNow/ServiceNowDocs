@@ -1,5 +1,5 @@
 ---
-title: Domain separation
+title: Domain separation in Telecommunications Network Inventory
 description: Domain separation in Telecommunications Network Inventory provides a structured and efficient way to manage complex, multilevel organizational environments. It enables secure, tailored access and control, ensuring that users view data relevant to their domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/domain-seperation-telecommunication-network-inventory.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-03"
 reading_time_minutes: 1
-breadcrumb: [Reference, Telecommunications Network Inventory]
+breadcrumb: [Telecommunications Network Inventory reference, Telecommunications Network Inventory]
 ---
 
-# Domain separation
+# Domain separation in Telecommunications Network Inventory
 
 Domain separation in Telecommunications Network Inventory provides a structured and efficient way to manage complex, multilevel organizational environments. It enables secure, tailored access and control, ensuring that users view data relevant to their domain.
 

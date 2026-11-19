@@ -7,22 +7,18 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
+breadcrumb: [Team Development, Exploring Team Development, Team Development, Planning your application, Building applications]
 ---
 
 # Back out a push
 
 Application developers can back out a push to remove unwanted changes.
 
-## Before you begin
-
-Role required: none.
-
 ## Procedure
 
-1.  Navigate to **Team Development** &gt; **Pushes and Pulls**.
+1.  Navigate to **Team Development &gt; Pushes and Pulls**.
 
 2.  Select the push to back out.
 
@@ -30,4 +26,6 @@ Role required: none.
 
 4.  Click **OK** when the confirmation message appears.
 
+
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

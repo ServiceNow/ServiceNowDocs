@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-06-17"
 reading_time_minutes: 2
 keywords: [Azure Private Gateway, Azure virtual network gateway, Azure discovery, Azure patterns, Private Gateway pattern]
-breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Azure Private Gateway pattern-based discovery
@@ -21,7 +21,7 @@ Discovery and Service Mapping Patterns finds Azure virtual network gateways on y
 
 -   **Verify the Microsoft Azure discovery prerequisites**
 
-    For more information, see the prerequisites section in [Microsoft Azure Cloud discovery using patterns]().
+    For more information, see the prerequisites section in [Microsoft Azure Cloud components discovery using patterns]().
 
 -   **Configure the Discovery schedule to support GovCloud**
 
@@ -72,5 +72,5 @@ The Azure - Private Gateway \(LP\) pattern collects tags and populates them in t
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Virtual Private Gateway \[cmdb\_ci\_virtual\_pvt\_gateway\] table.|
 
-**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

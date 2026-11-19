@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Set up and configure CMDB Health, CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Enable and configure a CMDB Health Dashboard job
@@ -18,7 +18,7 @@ Enable and configure the CMDB Health Dashboard jobs that process CMDB Health tes
 
 ## Before you begin
 
-Role required: sn\_cmdb\_admin or admin
+Role required: admin
 
 ## About this task
 

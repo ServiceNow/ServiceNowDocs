@@ -1,5 +1,5 @@
 ---
-title: Manage impacted people
+title: Managing impacted people
 description: Generate and manage an impacted people list,view an impacted person's record, and update their status in Critical Event Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/critical-event-management/manage-impacted-people.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Critical Event Management
 classification: critical-event-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
-# Manage impacted people
+# Managing impacted people
 
 Generate and manage an impacted people list,view an impacted person's record, and update their status in Critical Event Management.
 

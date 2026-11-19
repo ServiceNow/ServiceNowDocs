@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-11-17"
 reading_time_minutes: 4
 breadcrumb: [Security Incident Details section, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

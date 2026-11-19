@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/run-block-request.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration- Block Request capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -82,7 +82,9 @@ Option to specify the severity assigned to the indicator in CrowdStrike when the
 
 
 </td></tr></tbody>
-</table>8.  Select **Submit**.
+</table>    \[Omitted image "allow:block-obs.png"\] Alt text: Allow/Block request
+
+8.  Select **Submit**.
 
     The flow execution audit is displayed in the work notes section.
 

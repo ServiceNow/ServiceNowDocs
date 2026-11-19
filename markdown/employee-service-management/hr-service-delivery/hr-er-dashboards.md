@@ -7,16 +7,16 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using HR Service Delivery Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # HR Service Delivery Employee Relations dashboards
 
 The HR Service Delivery Employee Relations dashboards provides visual reports that give you statistics on ER cases.
 
-There are five \(5\) sections that provide information:
+There are four \(4\) sections that provide information:
 
 ## Employee Relations Case Volume by Month
 
@@ -34,11 +34,5 @@ Map showing the number of ER cases per geographic region. Click the country and 
 
 Shows the number of ER cases by company department. Click the image and the Involved Parties list appears.
 
-## ER Cases Consolidated View
-
-Provides a holistic view of all related tables for all the ER cases.
-
-\[Omitted image "hr-er-db.png"\] Alt text: ER Dashboards
-
-\[Omitted image "hr-er-db-view.png"\] Alt text: ER Dashboards
+\[Omitted image "hr-er-dashboard.png"\] Alt text: HR ER - Dashboard
 

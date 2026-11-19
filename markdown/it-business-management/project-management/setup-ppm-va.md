@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Virtual Agent for PPM, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Virtual Agent for PPM, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Enable Virtual Agent for PPM
@@ -26,15 +26,8 @@ The base system provides predefined Virtual Agent topics \(chatbot conversations
 
 1.  Navigate to **All** &gt; **Collaboration &gt; Virtual Agent &gt; Designer &gt; Topics**.
 
-2.  Select the **PPM Virtual Agent** card to open it.
+2.  Click the **PPM Virtual Agent** card to open it.
 
-    -   To use the provided topic with no changes, select **Publish**.
-    -   To duplicate the topic so you can customize it, select **Duplicate**. Enter a name for the duplicate topic and select **Save**.
-
-**Related topics**  
-
-
-[PPM Virtual Agent conversation flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ppm-va-conversations.md)
-
-[Reusable PPM Virtual Agent topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ppm-va-topic-blocks.md)
+    -   To use the provided topic with no changes, click **Publish**.
+    -   To duplicate the topic so you can customize it, click **Duplicate**. Enter a name for the duplicate topic and click **Save**.
 

@@ -1,18 +1,18 @@
 ---
-title: Relabel Public Sector Workspace items after upgrade
-description: After you upgrade your instance for the first time, you can relabel certain items in the Public Sector Workspace for public sector use.
+title: Relabel CSM Configurable Workspace items for public sector use after upgrade
+description: After you upgrade your instance for the first time, you can relabel certain items in the CSM Configurable Workspace for public sector use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-relabel-after-upgrading.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Public Sector Workspace, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [CSM Configurable Workspace, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Relabel Public Sector Workspace items after upgrade
+# Relabel CSM Configurable Workspace items for public sector use after upgrade
 
-After you upgrade your instance for the first time, you can relabel certain items in the Public Sector Workspace for public sector use.
+After you upgrade your instance for the first time, you can relabel certain items in the CSM Configurable Workspace for public sector use.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Certain menus and menu items in the Public Sector Workspace are relabeled for public sector use. However, after upgrading your instance, those items revert to the original labels used for Customer Service Management \(CSM\). You can relabel the following items for public sector use by changing them in the UX List Categories for Customer and Service Organizations.
+Certain menus and menu items in the CSM Configurable Workspace are relabeled for public sector use. However, after upgrading your instance, those items revert to the original labels used for Customer Service Management \(CSM\). You can relabel the following items for public sector use by changing them in the UX List Categories for Customer and Service Organizations.
 
 |CSM label|Change to public sector label|
 |---------|-----------------------------|
@@ -73,5 +73,5 @@ Certain menus and menu items in the Public Sector Workspace are relabeled for pu
         In the **Title** field, change `Service Organization External Staff` to `External Staff`.
 
 
-**Parent Topic:**[Set up the Public Sector Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/setting-up-csm-fsm.md)
+**Parent Topic:**[Set up the CSM Configurable Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/setting-up-csm-fsm.md)
 

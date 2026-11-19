@@ -1,16 +1,16 @@
 ---
-title: Configure Financial Services Operations Integration with Jack Henry jXchange
+title: Configure the Financial Services Operations Integration with Jack Henry jXchange
 description: Configure the Financial Services Operations Integration with Jack Henry jXchange application by using the Jack Henry jXchange connection and credential record to authenticate ServiceNow requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/configuring-fso-integration-with-jha.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Jack Henry jXchange, Integrate, Financial Services Operations \(FSO\)]
+breadcrumb: [Integrating with Jack Henry jXchange, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
 ---
 
-# Configure Financial Services Operations Integration with Jack Henry jXchange
+# Configure the Financial Services Operations Integration with Jack Henry jXchange
 
 Configure the Financial Services Operations Integration with Jack Henry jXchange application by using the Jack Henry jXchange connection and credential record to authenticate ServiceNow requests.
 
@@ -24,7 +24,7 @@ Role required: admin
 
 2.  To customize the connection configuration, access the connection settings in **Flow Designer** &gt; **Connections** and select **JHA**.
 
-    For more information on how to update the connection configuration, see [Set up Jack Henry jXchange Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/jha-spk-setup.md).
+    For more information on how to update the connection configuration, see Set up Jack Henry jXchange Spoke.
 
 3.  To update other attributes, navigate to **Integration Hub** &gt; **Connection &amp; Credential Aliases** and edit the required information.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-03-28"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
 ---
 
 # ServiceNow Otto for Employee Experience reference

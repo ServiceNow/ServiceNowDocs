@@ -1,16 +1,16 @@
 ---
-title: Create user form
+title: Create new user form
 description: Create a user to add to a department.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-create-new-user-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Create user form
+# Create new user form
 
 Create a user to add to a department.
 
@@ -161,24 +161,6 @@ Select this check box to make this user active
 
 </td></tr><tr><td>
 
-Identity type
-
-</td><td>
-
-The category of identity associated with this user record. You can select the following: -   **Human**: If the user is a person
--   **Machine**: If the user is a service account or automated process
--   **AI**: If the user is an AI-based agent
-
-</td></tr><tr><td>
-
-Web service access only
-
-</td><td>
-
-Select this check box to designate this user as a non-interactive user.
-
-</td></tr><tr><td>
-
 Internal integration user
 
 </td><td>
@@ -194,12 +176,12 @@ Photo
 Attach a photo of the user, if appropriate.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[Exploring departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-departments.md)
+[Manage departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-departments.md)
 
 [Add a user to a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-a-new-user-to-a-deparment.md)
 

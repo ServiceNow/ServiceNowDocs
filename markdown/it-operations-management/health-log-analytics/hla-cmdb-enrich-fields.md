@@ -1,5 +1,5 @@
 ---
-title: Log-based CI candidates fields in Health Log Analytics
+title: Field descriptions for log-based CI candidates
 description: Field descriptions for the Log-based CI candidates table, the Log-based CI candidate form, and the Add CI candidate to CMDB form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich-fields.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Enhancing the CMDB with host data found in logs, Administering Health Log Analytics, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
-# Log-based CI candidates fields in Health Log Analytics
+# Field descriptions for log-based CI candidates
 
 Field descriptions for the Log-based CI candidates table, the Log-based CI candidate form, and the Add CI candidate to CMDB form.
 
@@ -340,8 +340,8 @@ IsVirtual
 
 </td><td>
 
-Option to indicate if the device is running on a virtual machine instance.​
+Option for indicating whether the device is running on a virtual machine instance.​
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-reference.md)
+</table>**Parent Topic:**[Enhancing the CMDB with host data found in logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich-concept.md)
 

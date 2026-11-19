@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-agentclientcollector-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -248,7 +248,7 @@ Yokohama
 
 </td><td>
 
--   **[\[Placeholder link text to key acc-visibility-landing-page\]](https://www.servicenow.com/docs/access?context=acc-visibility-landing-page&family=yokohama&ft:locale=en-US)**
+-   **[acc visibility landing page](https://www.servicenow.com/docs/access?context=acc-visibility-landing-page&family=yokohama&ft:locale=en-US)**
 
 Starting in version 1.1.0, ACC for Visibility has been renamed as Kubernetes Visibility Agent and consists only of what is currently CNO for Visibility. The term CNO for Visibility has been deprecated and replaced with Kubernetes Visibility Agent. All other ACC for Visibility functions are now part of Agent Client Collector for Visibility Content.
 

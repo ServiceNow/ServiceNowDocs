@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-analyze-applications-by-capability.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+last_updated: "2025-01-30"
+reading_time_minutes: 4
+breadcrumb: [Bubble chart view of application rationalization, Rationalization of business applications, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Analyze applications using the bubble chart
@@ -21,8 +21,6 @@ Role required: sn\_apm.apm\_analyst
 ## About this task
 
 You can narrow down the number of business applications that may be viewed, based on their application indicator scores.
-
-You can also generate insights into business applications using Now Assist. For information, see [Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/generate-insights-into-ba.md).
 
 ## Procedure
 
@@ -40,7 +38,7 @@ You can also generate insights into business applications using Now Assist. For 
 
         **Note:**
 
-        -   For details on how to add the X and Y-axis indicators of the bubble chart, see [Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-indicator.md).
+        -   For details on how to add the X and Y-axis indicators of the bubble chart, see [Create or edit a bubble chart for application strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/setup-bubble-chart-for-appln-strategy.md).
         -   For a bubble to be displayed on the bubble chart, the indicator scores for the selected fiscal period must be available for both X and Y-axis indicators.
     -   Bubble size: The bubble size is based on indicators related to business applications. The indicator scores determine the size of the bubble.
 
@@ -67,7 +65,7 @@ You can also generate insights into business applications using Now Assist. For 
     \[Omitted image "bubble-chart-group.png"\] Alt text: Bubble chart page with a grouped bubble and the info section displaying the individual business applications within the grouped bubble, highlighted.
 
 
-**Parent Topic:**[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
+**Parent Topic:**[Bubble chart view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-bubble-chart-view.md)
 
 **Related topics**  
 
@@ -77,4 +75,8 @@ You can also generate insights into business applications using Now Assist. For 
 [Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.md)
 
 [Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)
+
+[Bubble chart view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-bubble-chart-view.md)
+
+[Apply filters on the Application Rationalization page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-apply-filters-app-rat.md)
 

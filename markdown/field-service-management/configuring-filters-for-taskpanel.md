@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configuring-filters-for-taskpanel.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Configuring Dispatcher Workspace, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
 ---
 
 # Determine the tasks to appear in the task panel
@@ -26,7 +26,7 @@ By default, dispatchers can filter work order tasks based on their states such a
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatcher Workspace Configuration** &gt; **Task Panel Filters**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 
@@ -41,8 +41,6 @@ By default, dispatchers can filter work order tasks based on their states such a
     |User|Name of the user to whom the filter applicable.|
     |Active|Option for enabling the filter in the Dispatcher Workspace.|
 
-4.  Select **Submit**.
-
-    \[Omitted image "determine-tasks.png"\] Alt text: application filter configuration form and submit button
+4.  Click **Submit**.
 
 

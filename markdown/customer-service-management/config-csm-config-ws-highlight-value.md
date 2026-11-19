@@ -1,18 +1,18 @@
 ---
-title: Set up a highlighted value in a form header in CRM Workspace
-description: You can configure fields that appear as highlighted values in a form header in CRM Workspace.
+title: Set up a highlighted value in a form header in CSM Configurable Workspace
+description: You can configure fields that appear as highlighted values in a form header in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-csm-config-ws-highlight-value.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-20"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# Set up a highlighted value in a form header in CRM Workspace
+# Set up a highlighted value in a form header in CSM Configurable Workspace
 
-You can configure fields that appear as highlighted values in a form header in CRM Workspace.
+You can configure fields that appear as highlighted values in a form header in CSM Configurable Workspace.
 
 ## Before you begin
 
@@ -20,26 +20,23 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 ## About this task
 
-After creating a highlighted value, you must link it to a highlighted value configuration if you want it to appear in CRM Workspace.
+After creating a highlighted value, you must link it to a highlighted value configuration if you want it to appear in CSM Configurable Workspace.
 
-**Note:** You can also use highlighted values from CSM Agent Workspace in CRM Workspace if you link the value to the highlighted value configuration.
+**Note:** You can also use highlighted values from CSM Agent Workspace in CSM Configurable Workspace if you link the value to the highlighted value configuration.
 
-One highlighted value configuration, **CSM/FSM Configurable Workspace Highlighted Value Config**, is included with CRM Workspace. You can use this configuration out of the box without completing any additional configuration steps.
+One highlighted value configuration, **CSM/FSM Configurable Workspace Highlighted Value Config**, is included with CSM Configurable Workspace. You can use this configuration out of the box without completing any additional configuration steps.
 
 ## Procedure
 
 1.  Create a highlighted value.
 
-    1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values**.
+    1.  Navigate to **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values**.
 
     2.  Select **New**.
 
     3.  Fill in the fields on the Highlighted Value form and select **Submit**.
 
-        |Field|Description|
-        |-----|-----------|
-        |Table|Table that contains the field that you want to highlight in the form header.|
-        |Field|Field that you want to highlight.|
+        For field descriptions, see Highlight values in the form header.
 
     4.  In the Highlighted Values list, select the record you created.
 
@@ -47,20 +44,13 @@ One highlighted value configuration, **CSM/FSM Configurable Workspace Highlighte
 
     6.  Fill in the fields on the Highlighted Value Condition form.
 
-        |Field|Description|
-        |-----|-----------|
-        |Conditions|Condition builder where you can set the conditions for your highlighted value to display.|
-        |Status|Background color. Each status has its own color, for example, Critical displays a red background, Moderate displays a purple background, and Info displays a blue background.|
-        |Show icon|Toggle that makes a small circle display in addition to the background coloring.|
-        |Value Override|Text that renders instead of the Status value. For example, instead of "Critical," you can display, "Address this immediately." You can reference a text value using`{{value}}`.|
-        |Application|Application scope that contains the record.|
-        |Order|Order that the highlighted values are evaluated.|
+        For field descriptions, see Highlight values in the form header.
 
     7.  Select **Submit**.
 
 2.  Add the highlighted value to the highlighted value configuration.
 
-    1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values Configurations**.
+    1.  Navigate to **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values Configurations**.
 
     2.  Select the configuration.
 
@@ -70,9 +60,4 @@ One highlighted value configuration, **CSM/FSM Configurable Workspace Highlighte
 
     5.  Select **Save**.
 
-
-**Related topics**  
-
-
-[Set up a highlighted value in a form header in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/config-ws-highlight-value.md)
 

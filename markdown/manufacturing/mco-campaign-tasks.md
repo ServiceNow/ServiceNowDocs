@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-campaign-tasks.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Related lists for my campaigns, My campaigns, Recall management, Agent management, Using Manufacturing Commercial Operations, Manufacturing Commercial Operations]
 ---
 
 # Campaign tasks
@@ -16,20 +16,16 @@ As an OEM, plan, manage, and execute a promotional effort.
 
 ## Before you begin
 
-Role required: sn\_rcl\_claim\_mgmt.recall\_manager
+Role required: admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Campaign Tasks**.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Campaign Tasks**.
 
 2.  Select **New**.
 
-3.  On the Campaign tasks form, fill in the fields.
-
-    For a description of the field values, see [Campaign tasks form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-campaign-tasks-form.md).
+3.  Fill in the required [Campaign tasks form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-campaign-tasks-form.md) form fields.
 
 4.  Select **Save**.
 
-
-**Parent Topic:**[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-my-campaigns.md)
 

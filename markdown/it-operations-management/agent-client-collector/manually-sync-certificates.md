@@ -1,26 +1,30 @@
 ---
 title: Manually refresh Agent Client Collector certificates
-description: Refresh Agent Client Collector self-signed certificates manually to validate Agent Client Collector plugins, instead of waiting for the scheduled synchronization. For example, you can use this feature when the agent can't validate a plugin and you don't want to wait for the scheduled synchronization.
+description: Pull self-signed certificates from the ServiceNow install server, instead of waiting for the scheduled MID Server synchronization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/manually-sync-certificates.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ACC certificates, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
 
 # Manually refresh Agent Client Collector certificates
 
-Refresh Agent Client Collector self-signed certificates manually to validate Agent Client Collector plugins, instead of waiting for the scheduled synchronization. For example, you can use this feature when the agent can't validate a plugin and you don't want to wait for the scheduled synchronization.
+Pull self-signed certificates from the ServiceNow install server, instead of waiting for the scheduled MID Server synchronization.
 
 ## Before you begin
 
 -   Ensure that the self-signed certificate is placed in a `.zip` file on the MID Server in the following location: `agent\static\cert`
--   Ensure that the certificate authority is part of a truststore, as the certificate chain validates before the customer plugin signature.
+-   Ensure that the certificate authority is part of the agent host's truststore, as the certificate chain is validated before the customer plugin signature.
 -   Role required: agent\_client\_collector\_admin
+
+## About this task
+
+The MID Server checks for updates once each day, or after being restarted.
 
 ## Procedure
 
@@ -35,7 +39,5 @@ Refresh Agent Client Collector self-signed certificates manually to validate Age
 
 ## Result
 
-When an agent fails to perform a certificate check, the agent synchronizes certificates available on the MID Server by pulling self-signed certificates from the install server. Certificates are downloaded by the Agent Client Collector if the agent does not validate its plugins.
-
-**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-certificates.md)
+When an agent fails to perform a certificate check, the agent synchronizes certificates available on the MID Server. Synchronization is carried out for certificates on the ServiceNow install server and the self-signed certificates placed in the `.zip` file on the MID Server's `agent\static\cert` folder. Certificates are downloaded by the Agent Client Collector if the agent fails to validate a check definition's associated plugin assets.
 

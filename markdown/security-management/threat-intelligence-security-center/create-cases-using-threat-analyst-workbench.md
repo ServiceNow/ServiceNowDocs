@@ -7,9 +7,8 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-keywords: [Threat Analyst Workbench, case creation, case artifacts, threat analyst case]
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -187,8 +186,6 @@ Roll up of MITRE technique associations from observables, indicators, objects, a
 
 [Workbench Overview]()
 
-[Summarize a Case using generative AI]()
-
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
@@ -196,8 +193,6 @@ Roll up of MITRE technique associations from observables, indicators, objects, a
 [Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
-
-[Generate a Case Report using generative AI]()
 
 [Generate a Case Report using a template]()
 

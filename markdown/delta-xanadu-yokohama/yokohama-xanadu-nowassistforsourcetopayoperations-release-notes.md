@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforsourcetopayoperations-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -114,7 +114,7 @@ The following new skills are available in Now Assist for SPO:
     -   Sourcing request summarization for requesters: Summarize sourcing requests to keep requesters informed about their current status, progress, and action items.
 -   **[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=yokohama&ft:locale=en-US)**
 
-ServiceNow Otto for SLO includes an agentic workflow to streamline the supplier onboarding process by automating supplier registration. AI agents automate the supplier onboarding process, including data validation, duplicate checking, task generation, and communication with suppliers, streamlining the entire process for faster time-to-activation. For more information, see [\[Placeholder link text to key bundle-stpop.agentic-workflows-na-slo\]](https://www.servicenow.com/docs/access?context=agentic-workflows-na-slo&family=yokohama&ft:locale=en-US).
+ServiceNow Otto for SLO includes an agentic workflow to streamline the supplier onboarding process by automating supplier registration. AI agents automate the supplier onboarding process, including data validation, duplicate checking, task generation, and communication with suppliers, streamlining the entire process for faster time-to-activation. For more information, see [agentic workflows na slo](https://www.servicenow.com/docs/access?context=agentic-workflows-na-slo&family=yokohama&ft:locale=en-US).
 
 The following new skills are available in ServiceNow Otto for SLO:
 
@@ -250,7 +250,7 @@ Xanadu
 
 </td><td>
 
-Install Now Assist for Source-to-Pay Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Now Assist for Source-to-Pay Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -260,7 +260,7 @@ Yokohama
 
 -   **Activation information**
 
-Install Now Assist for Source-to-Pay Operations by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Now Assist for Source-to-Pay Operations by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr></tbody>

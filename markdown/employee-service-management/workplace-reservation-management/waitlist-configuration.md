@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-09"
 reading_time_minutes: 4
-breadcrumb: [Manage employee reservations, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage and configure reservation waitlist, Manage, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Reservation Waitlist data model
@@ -54,17 +54,9 @@ The following configuration options must be enabled in the Reservable Module Con
     For more information, see [Create a reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/create-rsv-waitlist.md).
 
 
--   **[Create a reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/create-rsv-waitlist.md)**  
-When work spaces in a location are fully booked, and employees are unable to find a space, they can join a reservation waitlist.
+**Parent Topic:**[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)
 
-**Parent Topic:**[Manage employee reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/manage-reservation-requests.md)
+**Previous topic:**[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)
 
-**Related topics**  
-
-
-[View or update reservations]()
-
-[Approve a reservation]()
-
-[Print workplace reservations]()
+**Next topic:**[Create a reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/create-rsv-waitlist.md)
 

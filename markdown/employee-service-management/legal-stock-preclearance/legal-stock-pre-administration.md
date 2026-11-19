@@ -1,5 +1,5 @@
 ---
-title: Configure Legal Stock Preclearance
+title: Setting up Legal Stock Preclearance
 description: Configure the foundation data for your stock preclearance process to enable employees to submit preclearance approval requests before they trade in the securities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-stock-preclearance/legal-stock-pre-administration.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Legal Stock Preclearance, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Legal Stock Preclearance, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
 ---
 
-# Configure Legal Stock Preclearance
+# Setting up Legal Stock Preclearance
 
 Configure the foundation data for your stock preclearance process to enable employees to submit preclearance approval requests before they trade in the securities.
 

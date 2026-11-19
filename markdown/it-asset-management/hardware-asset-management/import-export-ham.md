@@ -7,10 +7,10 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [import hardware asset management content library, export hardware normalization data, Manage Hardware Library module]
-breadcrumb: [Opt-in to the Hardware Asset Management Content Service, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Work with hardware normalization, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
 ---
 
 # Import and export content data
@@ -59,5 +59,5 @@ Role required:
     5.  Download and send this zip file to the ServiceNow content service team.
 
 
-**Parent Topic:**[Opt-in to the Hardware Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/opt-in-hardware-normalization.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

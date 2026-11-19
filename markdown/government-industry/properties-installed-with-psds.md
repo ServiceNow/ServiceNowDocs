@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/properties-installed-with-psds.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Components and roles installed, Reference, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Set up your environment, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Properties installed with Public Sector Digital Services
@@ -67,5 +67,4 @@ If this property is set to false, the License and Permit Playbooks data is expos
 -   Location: System Property \[/sys\_properties\_list.do\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/installed-with-public-sector-digital-services-core.md)
-
+</table>

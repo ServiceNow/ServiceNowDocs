@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/setup-bcm-element-variable.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Grid configuration, BCM in the Classic Workspace, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -16,13 +16,13 @@ As a functional system administrator, you can set up an element variable that is
 
 ## Before you begin
 
-Role required: admin, sn\_bcm.admin
+Role required: admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Business Continuity** &gt; **General Administration** &gt; **Element Variables**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  On the form, fill in the fields.
 

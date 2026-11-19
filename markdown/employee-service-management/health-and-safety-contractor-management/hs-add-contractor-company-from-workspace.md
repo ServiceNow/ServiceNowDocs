@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Manage contractors, Health and Safety Contractor Management, Health and Safety, Employee Service Management]
 ---
@@ -18,13 +18,11 @@ Add a contractor company to prequalify it and its workers. You can then manage t
 
 ## Before you begin
 
-Verify that the primary contact person from the contractor company is added as a system user \(sys\_user\) and the snc\_external role is assigned to them. For more information on this explicit role, see [Explicit Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/explicit-roles.md).
-
-Role required: sn\_hs\_crm.contractor\_coordinator and nds\_admin
+Role required: sn\_hs\_crm.contractor\_coordinator
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Health and Safety Workspace**.
+1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
 2.  Select the contractor management icon \(\[Omitted image "icon-contractor-mgmt.png"\] Alt text: Contractor management icon\) to open the **Contractor Management** tab.
 
@@ -32,60 +30,19 @@ Role required: sn\_hs\_crm.contractor\_coordinator and nds\_admin
 
 4.  Select **New** to add a contractor company for health and safety.
 
-5.  In the **Create new contractor** dialog box, fill in the fields.
+5.  On the form, fill in the fields.
 
-<table id="table_acd_3p2_mjc"><thead><tr><th>
+    1.  Enter company details such as Company name, Services provided, Industry type, address, and its star rating.
 
-Field
+    2.  Add a primary contact from the contractor company in the **Primary contact** field.
 
-</th><th>
+        The **Primary contact** field displays only users who have been assigned the \[snc\_external\] role and have the Health and Safety profile created for them.
 
-Description
+        For more information, see [Assign Health and Safety profile to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-contractor-management/hs-assign-hs-user-profile-contract-worker.md).
 
-</th></tr></thead><tbody><tr><td>
+6.  If necessary, add attachments related to the company using the add attachments icon \(\[Omitted image "icon-add-attachment.png"\] Alt text: Add attachment icon.\).
 
-Company name
-
-</td><td>
-
-Name of the company being added.Select an existing company from the list. If the company doesn't already exist in the system, select the **New company** check box and then enter the company name to be added.
-
-</td></tr><tr><td>
-
-New company
-
-</td><td>
-
-Option to enable entering the name of a new company.When selected, the **Company name** field is enabled for typing a new company name.
-
-</td></tr><tr><td>
-
-Industry type
-
-</td><td>
-
-Industry that the contractor company operates in.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-Brief description of the company or the nature of the work it performs.
-
-</td></tr><tr><td>
-
-Primary contact
-
-</td><td>
-
-Primary contact person from the contractor company.The **Primary contact** field displays only users who have been assigned the \[snc\_external\] role and have the Health and Safety profile created for them.
-
-For more information, see [Assign Health and Safety profile to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-contractor-management/hs-assign-hs-user-profile-contract-worker.md).
-
-</td></tr></tbody>
-</table>6.  Select **Submit**.
+7.  Select **Save**.
 
 
 ## Result
@@ -109,5 +66,4 @@ For more information, see [Assign Health and Safety profile to a contractor work
 
     If any workers associated with this company already have the site access, they appear in this list. For information on adding site access for a worker, see [Grant site access to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-contractor-management/hs-grant-site-access-worker.md).
 
--   If necessary, add attachments related to the company using the add attachments icon \(\[Omitted image "icon-add-attachment.png"\] Alt text: Add attachment icon.\).
 

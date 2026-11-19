@@ -7,9 +7,9 @@ release: yokohama
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Sourcing items in a service catalog request, Procurement, Common applications, Asset Management]
+breadcrumb: [Sourcing items in a service catalog request, Procurement, IT Asset Management]
 ---
 
 # Add an assignment from a request

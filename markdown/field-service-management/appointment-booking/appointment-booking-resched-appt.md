@@ -7,9 +7,9 @@ release: yokohama
 product: Appointment Booking
 classification: appointment-booking
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Managing appointments from a work order or work order task, Managing appointments on behalf of a customer, Managing appointments, Use, Field Service Management]
+breadcrumb: [Manage appointments from a work order or work order task, Manage appointments on behalf of a customer, Manage appointments, Using Field Service Management, Field Service Management]
 ---
 
 # Reschedule an appointment for a customer
@@ -44,4 +44,6 @@ A dispatcher or an agent can reschedule an appointment for a customer from a wor
 
     Rescheduling an appointment triggers an appointment rescheduled email to the customer.
 
+
+**Parent Topic:**[Manage appointments from a work order or work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appts-from-work-order.md)
 

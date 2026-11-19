@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configure, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Configuring ServiceNow Studio, Building applications with ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Installing ServiceNow Studio
@@ -45,14 +45,14 @@ If your company has an App Engine Enterprise license, you can access these addit
 -   Create a table from a PDF. For more information, see [Use a PDF to create data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/pdf-extractor.md).
 -   Access the UI Template library.
 -   Access App Engine Studio Catalog templates. For more information, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/use-app-template.md).
--   Access Workspace Builder. For more information, see [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/workspace-builder-landing.md).
+-   Access Workspace Builder. For more information, see [Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace.md).
 -   Access Workspace UI templates.
--   Deploy scoped and global apps using the App Engine pipeline. For more information, see [Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md).
+-   Deploy scoped apps using the App Engine pipeline. For more information, see [Managing app deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-review-apps-p-and-d.md).
 
 -   **[ServiceNow Studio instance strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-instance-strategy.md)**  
-Install ServiceNow Studio on every ServiceNow instance where you develop applications, then define your company's access and deployment strategy.
+ServiceNow Studio should be available on all ServiceNow instances where you develop applications.
 -   **[Components installed with ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/components-installed-with-sn-studio.md)**  
-Activating the ServiceNow Studio plugin installs tables, roles, and dependencies automatically.
+When you activate the ServiceNow Studio plugin, various components like tables are automatically installed.
 
 **Parent Topic:**[Configuring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/configuring-servicenow-studio.md)
 

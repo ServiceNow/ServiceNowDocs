@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Develop applications, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Develop applications, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Create and use JavaScript modules in applications in the ServiceNow IDE
@@ -27,8 +27,6 @@ Role required: admin
 ## About this task
 
 To learn about support for using JavaScript modules in scoped applications, including some limitations, see [JavaScript modules and third-party libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/javascript-modules-third-party-libraries.md). For general information about the syntax used to create JavaScript modules, see the [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) page on the MDN Web Docs website.
-
-**Note:** With ServiceNow Otto for Code, you can use the Code autocomplete skill to generate code suggestions for module scripts. For more information, see [Generate code with autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/generate-code-with-autocomplete.md).
 
 ## Procedure
 
@@ -66,15 +64,15 @@ To learn about support for using JavaScript modules in scoped applications, incl
 
 7.  Use code from the exported module in other modules or server-side scripts.
 
-<table id="choicetable_kjx_xnm_pzb"><thead><tr><th align="left" id="d324595e200">
+<table id="choicetable_kjx_xnm_pzb"><thead><tr><th align="left" id="d160142e189">
 
 File
 
-</th><th align="left" id="d324595e203">
+</th><th align="left" id="d160142e192">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d324595e209">
+</th></tr></thead><tbody><tr><td id="d160142e198">
 
 **Module**
 
@@ -95,7 +93,7 @@ import { feature } from "path/to/module";
 3.  Call the module code from this module to reuse it.
 
 
-</td></tr><tr><td id="d324595e248">
+</td></tr><tr><td id="d160142e237">
 
 **Server-side script in source code**
 
@@ -122,7 +120,7 @@ script: `
 
 For more information about server-side scripts in source code, see [ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/servicenow-fluent-api-reference.md).
 
-</td></tr><tr><td id="d324595e308">
+</td></tr><tr><td id="d160142e297">
 
 **Server-side script record**
 

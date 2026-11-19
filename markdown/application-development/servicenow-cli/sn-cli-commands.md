@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 9
-breadcrumb: [ServiceNow CLI, Developing your application, Classic app development, Building applications]
+breadcrumb: [ServiceNow CLI, Building low-code applications, Developing your application, Building applications]
 ---
 
 # ServiceNow CLI available commands

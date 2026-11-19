@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
 ---
 
 # Add an SRM team
@@ -18,11 +18,11 @@ Request to create a team to start monitoring your services. Teams are responsibl
 
 ## Before you begin
 
-Role required: srm\_manager, srm\_responder, or srm\_admin
+Role required: srm\_admin, srm\_manager, or srm\_responder
 
 ## About this task
 
-If you have the srm\_admin or admin role, you can set up teams using a different process. See [Activate teams and services in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-activate-teams-and-services-in-srm.md) for more information.
+The ServiceNow system administrator can set up teams in your workspace using a different process. See [Activate teams and services in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-activate-teams-and-services-in-srm.md) for more information.
 
 ## Procedure
 
@@ -36,15 +36,15 @@ If you have the srm\_admin or admin role, you can set up teams using a different
 
 3.  Create a new team or add an existing one.
 
-<table id="choicetable_m4k_fmf_n1c"><thead><tr><th align="left" id="d466881e118">
+<table id="choicetable_m4k_fmf_n1c"><thead><tr><th align="left" id="d88442e121">
 
 Option
 
-</th><th align="left" id="d466881e121">
+</th><th align="left" id="d88442e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d466881e127">
+</th></tr></thead><tbody><tr><td id="d88442e130">
 
 **Add a new team**
 
@@ -58,7 +58,7 @@ For more information on the field descriptions, see [Create team form](https://r
 3.  Select **Add team**.
 
 
-</td></tr><tr><td id="d466881e166">
+</td></tr><tr><td id="d88442e169">
 
 **Register an existing team**
 

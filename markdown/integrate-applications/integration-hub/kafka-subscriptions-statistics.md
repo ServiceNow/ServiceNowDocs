@@ -1,20 +1,20 @@
 ---
 title: Viewing Kafka subscriptions and statistics
-description: View detailed information about a Kafka consumer and its performance. Details include the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
+description: View detailed information about a Kafka consumer and its performance, including the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/kafka-subscriptions-statistics.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 5
-breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
+last_updated: "2025-01-30"
+reading_time_minutes: 4
+breadcrumb: [Using Stream Connect for Apache Kafka, Importing and streaming data in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Viewing Kafka subscriptions and statistics
 
-View detailed information about a Kafka consumer and its performance. Details include the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
+View detailed information about a Kafka consumer and its performance, including the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
 
 A subscription is a record associated with a consumer. It stores configuration and performance details about the consumer. A subscription is created when a Kafka stream is activated.
 
@@ -23,7 +23,7 @@ Each subscription page includes the following sections.
 -   Kafka subscription
 -   Metrics
 -   Kafka subscription partition groups
--   Stream Connect logs
+-   Consumer logs
 -   Kafka consumer statistics
 
 To view a subscription record, navigate to **IntegrationHub** &gt; **Stream Connect** &gt; **Subscriptions**. Select the info icon \(\[Omitted image "info-icon.png"\] Alt text: info icon\) for the subscription you want to view, then select **Open Record**.
@@ -62,11 +62,11 @@ State of the consumer. Options are:-   ACTIVE
 
 </td></tr><tr><td>
 
-Topic alias
+Topic
 
 </td><td>
 
-Topic alias for the topic the consumer is processing messages from.
+Topic the consumer is processing messages from.
 
 </td></tr><tr><td>
 
@@ -84,15 +84,6 @@ Kafka Auto Position Policy
 
 Specifies where the consumer starts reading messages from the topic. Options are:-   earliest: The consumer starts reading from the earliest available message in the topic.
 -   latest: The consumer reads only the messages delivered to the topic after the consumer started.
-
-</td></tr><tr><td>
-
-Serialization format
-
-</td><td>
-
-Serialization format for the message. Options are:-   Plain Text
--   Encoded
 
 </td></tr><tr><td>
 
@@ -141,12 +132,8 @@ Maximum number of messages processed per run. Options are:-   automatically opti
 Each metric is measured over three time intervals: the previous five minutes, the previous hour, and the previous 24 hours.
 
 -   Topic Input Rate: The average number of records added to the topic per second.
+-   Consumer Processing Rate: The average number of records processed per second.
 -   Topic Queue Depth: The average number of records remaining to be processed in the topic.
--   Consumer Processing Rate: The average number of records processed per second. The **Estimated time to process the current queue** shows the time required to process the messages currently in the queue. It's calculated based on the queue depth and the consumer processing rate. The time estimate is formatted as HH:MM:SS.
-
-## Related Links
-
-View the record for the consumer that is processing the messages by selecting **Open consumer processing record**.
 
 ## Kafka subscription partition groups
 
@@ -243,13 +230,11 @@ Queue depthGiven for the last five minutes, last hour, and last 24 hours.
 Average number of records remaining to be processed in the partition group.
 
 </td></tr></tbody>
-</table>## Stream Connect logs
+</table>## Consumer logs
 
-The Stream Connect Logs tab displays the log entries for the associated consumer. Each log entry shows when it was created; its level, message, and source; and links to any related Alert or Subscription records. Stream Connect logs are stored in the Stream Connect Logs \[sys\_consumer\_log\] table. This table also includes logging for [producers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/producer-statistics.md)
+The Consumer Logs tab displays the log entries for the associated consumer. It shows when each entry was created, its log level, the message, and the source. Consumer logs are stored in the Consumer Logs \[sys\_consumer\_log\] table.
 
-You can enable more detailed logging in the Stream Connect logs by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) **glide.ih.kafka.stream\_connect.debug** and setting it to **true**. To avoid filling up the logs, this property is automatically disabled after 24 hours. If you need detailed logging for longer than 24 hours, you can re-enable the property manually.
-
-Use the **glide.ih.kafka.producer.message\_bytes\_to\_log** property to specify how many bytes of a message to display in the logs. This property only impacts logging for producers. The default value is 0, meaning no message content is logged.
+You can increase the number of log messages added to the consumer logs by enabling the **glide.ih.kafka.debug.consume** property.
 
 ## Kafka consumer statistics
 
@@ -273,30 +258,6 @@ Date and time the consumer statistics record was created.
 
 </td></tr><tr><td>
 
-Partition group
-
-</td><td>
-
-Record for the partition group.
-
-</td></tr><tr><td>
-
-Topic Alias
-
-</td><td>
-
-The topic alias for the topic associated with the consumer. A topic alias is a unique topic name that can be connected to any underlying Hermes or Direct Kafka topic.
-
-</td></tr><tr><td>
-
-Topic
-
-</td><td>
-
-The Hermes or Direct Kafka topic associated with the consumer.
-
-</td></tr><tr><td>
-
 Interval
 
 </td><td>
@@ -304,38 +265,6 @@ Interval
 Duration for the consumer statistics record, given in seconds. You can change the length of the interval with the **glide.ih.kafka.consumer.log\_interval** property. The default value is 60 seconds.
 
  You can specify whether to log messages to the consumer log when there are no produced or consumed Kafka messages during the interval with the **glide.ih.kafka.consumer.log\_empty\_stats** property. The default value is true.
-
-</td></tr><tr><td>
-
-Offset
-
-</td><td>
-
-Sum of all the offsets for the partition group.
-
-</td></tr><tr><td>
-
-End offset
-
-</td><td>
-
-Sum of all the end offsets for the partition group.
-
-</td></tr><tr><td>
-
-Lag messages
-
-</td><td>
-
-Difference between the end offset and the current offset.
-
-</td></tr><tr><td>
-
-Consumed messages
-
-</td><td>
-
-Number of messages processed by the consumer during the interval time.
 
 </td></tr><tr><td>
 
@@ -347,6 +276,14 @@ Number of messages produced to the topic during the interval time.
 
 </td></tr><tr><td>
 
+Consumed messages
+
+</td><td>
+
+Number of messages processed by the consumer during the interval time.
+
+</td></tr><tr><td>
+
 Consumed bytes
 
 </td><td>
@@ -355,20 +292,35 @@ Number of bytes processed by the consumer during the interval time.
 
 </td></tr><tr><td>
 
-Consumer ID
+Offset
 
 </td><td>
 
-Unique identifier for the consumer.
+Sum of all the offsets for the partition group.
 
 </td></tr><tr><td>
 
-Consumer Table
+Lag messages
 
 </td><td>
 
-Name of the underlying consumer table. One of the following:-   Kafka Stream \[sys\_kafka\_stream\]
--   Kafka Flow Trigger \[sys\_kafka\_flow\_trigger\]
+Difference between the end offset and the current offset.
+
+</td></tr><tr><td>
+
+End offset
+
+</td><td>
+
+Sum of all the end offsets for the partition group.
+
+</td></tr><tr><td>
+
+Partition group
+
+</td><td>
+
+Record for the partition group.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-apache-kafka.md)

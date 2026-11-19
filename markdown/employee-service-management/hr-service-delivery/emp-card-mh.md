@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Know your team's skills, Use Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Know your team's skills, Use Manager Hub, Manager Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # View employee cards in Skills Expectations section
@@ -24,15 +24,13 @@ Role required: sn\_mh.manager\_hub\_user
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    The Employee Center portal opens.
-
 2.  Open **Your team** &gt; **Skills**.
 
-3.  In the Skills Expectations section, select \[Omitted image "viewmenu.png"\] Alt text: View menu icon on an employee card and select any of the following options:
+3.  In the Skills expectations section, select the menu icon \(\[Omitted image "viewmenu.png"\] Alt text: View menu\) on an employee card and select any of the following actions:
 
 <table id="table_phb_mr3_pzb"><thead><tr><th>
 
-Option
+Actions
 
 </th><th>
 
@@ -45,7 +43,7 @@ Validate skills
 </td><td>
 
 1.  Review the current skill proficiencies of an employee, and then select any skills you want to validate.
-2.  Select **Validate selected skills**.
+2.  Select **Validate selected skills**. For more information, see [Validate skills in Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/skills-intelligence-manager-hub.md).
 
 **Note:** For Score analysis, you must validate the skills.
 
@@ -63,7 +61,7 @@ View profile
 
 </td><td>
 
-The employee profile page appears with details such as reporting structure, coworkers, designation of employee.
+The employee skills profile page appears with details such as Essential skills, Additional skills, and Recommended skills. For more information, see [Career tab in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/manage-skills-profile.md).
 
 </td></tr></tbody>
 </table>4.  In the Skills Expectations section, select **Score analysis** on an employee card to view the score percentage of the employee's validated skills.
@@ -72,7 +70,7 @@ The employee profile page appears with details such as reporting structure, cowo
 
     2.  Select **Assign learning** in the **Validated** skills section to view progress bars of skills that meet and don't meet expected proficient levels.
 
-    3.  Select the Skill pill icon \(\[Omitted image "viewmenu.png"\] Alt text: View menu icon\) on a skill to perform one of the following:
+    3.  Select the menu icon \(\[Omitted image "viewmenu.png"\] Alt text: View menu\) on a Skill pill to perform one of the following:
 
         -   **View skill details**: View a detailed description of the skill.
         -   **Assign learning**: Assign a learning course to an employee. For more information, see [Assign learning form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/assign-learning-form.md).

@@ -9,7 +9,7 @@ classification: discovery
 topic_type: task
 last_updated: "2026-10-20"
 reading_time_minutes: 3
-breadcrumb: [Discovery behaviors, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery behaviors, Advanced Discovery configuration, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Create a Discovery behavior

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/itsm-extension-points.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Overview, Integrate with IT Service Management, Integrate, Customer Service Management]
+breadcrumb: [CSM integration with IT Service Management overview, Integrating with IT Service Management, Integrating Customer Service Management with other applications, Customer Service Management]
 ---
 
 # Extension points for CSM integration with IT Service Management

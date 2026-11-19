@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/tb-resize-logo.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Upload new logo, Global styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Upload a logo while publishing a theme with Theme Builder, Publish your themes with Theme Builder, Configuring Next Experience with Theme Builder, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Resize a logo for your login screen
@@ -16,15 +16,11 @@ After you have uploaded a logo for your login screen, you can resize the logo by
 
 ## Before you begin
 
-Role required: ui\_builder\_admin
-
-For information on granular roles, see .
+Role required: admin
 
 ## Procedure
 
-1.  In the Unified Navigation All menu, enter `sys_properties.list` and press **Enter**.
-
-    \[Omitted image "pol-nav-all-p.png"\] Alt text: All menu.
+1.  In the Navigation filter, enter `sys_properties.list` and press **Enter**.
 
     The entire list of properties in the System Properties \[sys\_properties\] table appears.
 
@@ -47,5 +43,5 @@ For information on granular roles, see .
     At the next launch, your logo is resized based on how you configured the system property.
 
 
-**Parent Topic:**[Upload a new logo to your Theme Builder theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-upload-logo.md)
+**Parent Topic:**[Upload a logo while publishing a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-upload-logo.md)
 

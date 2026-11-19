@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-07-27"
 reading_time_minutes: 1
 keywords: [Kubernetes, auto-retirement, system properties, configuration, cluster management]
-breadcrumb: [Reference, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Kubernetes Visibility Agent Reference, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Kubernetes cluster auto-retirement properties

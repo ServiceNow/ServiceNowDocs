@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
 ---
 
 # View scheduling history of work order tasks
@@ -42,4 +42,6 @@ View the scheduling history of the work order task with the following details:
 ## Result
 
 The work order task assignments with the scheduling method appear.
+
+**Parent Topic:**[Scheduling and dispatching work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/scheduling-and-dispatching-agents.md)
 

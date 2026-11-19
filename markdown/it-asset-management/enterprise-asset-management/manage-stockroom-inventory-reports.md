@@ -7,14 +7,16 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-06-22"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
+breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Manage stockrooms with inventory reports in the Enterprise Asset Workspace
 
 Track and manage stockrooms efficiently by evaluating the inventory reports in the Enterprise Asset Workspace.
+
+**Important:** The inventory reports are available with Enterprise Asset Management version 9.0 and later.
 
 The inventory reports help you:
 

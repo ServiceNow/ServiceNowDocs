@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/install-based-item-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
+breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
 ---
 
 # Install based item form
@@ -153,10 +153,8 @@ Specification
 Specification that is associated with an install base item. Option that helps in fulfilling orders to create an install base item and its hierarchy.**Note:** The **Specification** field appears only to CSM agents, managers, and contributor persona.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/repair-form.md)
-
-**Related topics**  
+</table>**Related topics**  
 
 
-[Configure install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-create-install-base-item.md)
+[Create an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-create-install-base-item.md)
 

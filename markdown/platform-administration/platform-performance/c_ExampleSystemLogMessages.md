@@ -1,5 +1,5 @@
 ---
-title: Example system log messages
+title: Example system log messages for transactions
 description: An example of system log messages for transactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/platform-performance/c\_ExampleSystemLogMessages.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Platform performance reference, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
-# Example system log messages
+# Example system log messages for transactions
 
 An example of system log messages for transactions.
 

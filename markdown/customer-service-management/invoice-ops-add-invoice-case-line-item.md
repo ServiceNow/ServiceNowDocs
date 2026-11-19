@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/invoice-ops-add-invoice-case-line-item.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Creating an invoice case, Case Management for Invoice Operations, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Creating an invoice case, Case Management for Invoice Operations, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Add an invoice case line to an invoice case
@@ -20,7 +20,7 @@ Role required: sn\_csm\_invoice.agent, sn\_csm\_invoice.manager, admin
 
 ## Procedure
 
-1.  Open an invoice case In CRM Workspace.
+1.  Open an invoice case In CSM Configurable Workspace.
 
 2.  Select the Invoice Case Lines tab and then select **New**.
 

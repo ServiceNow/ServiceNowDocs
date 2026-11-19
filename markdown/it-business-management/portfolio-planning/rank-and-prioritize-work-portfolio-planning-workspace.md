@@ -1,5 +1,5 @@
 ---
-title: Rank planning items
+title: Rank planning items in Portfolio Planning Workspace
 description: Rank the planning items that are added to the pipeline of your portfolio plan and decide on their priority so that you can start planning your portfolio roadmap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/rank-and-prioritize-work-portfolio-planning-workspace.html
@@ -7,28 +7,28 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Rank planning items
+# Rank planning items in Portfolio Planning Workspace
 
 Rank the planning items that are added to the pipeline of your portfolio plan and decide on their priority so that you can start planning your portfolio roadmap.
 
 ## Before you begin
 
 -   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-portfolio-plan-in-portfolio-planning-workspace.md).
--   Ensure that the planning items in the Prioritization tab are sorted by the Rank column in ascending order.
+-   Ensure that the planning items in the Prioritization page are sorted by the Rank column in ascending order.
 
 Role required: sn\_align\_core.apw\_user
 
 ## About this task
 
-Use the Prioritization tab to stack-rank the planning items of your portfolio plan.
+Use the List view to stack-rank the planning items of your portfolio plan.
 
-Within the ServiceNow system, all the planning items are assigned a global rank. Reorder the items in the Prioritization tab to change their rank and update their planning state. If you decide to include a planning item into your roadmap schedule, mark its Planning State as **Prioritized** to add it to the roadmap directly from the Prioritization tab.
+Within the ServiceNow system, all the planning items are assigned a global rank. Reorder the items in the Prioritization page to change their rank and update their planning state. If you decide to include a planning item into your roadmap schedule, mark its Planning State as **Prioritized** to add it to the roadmap directly from the Prioritization page.
 
 The Rank column helps you quickly identify the rank of an item relative to the other items in the backlog. This information is useful to determine the top-ranked items from a long list of planning items. When there’s no custom grouping or sorting, the planning items are sorted by their rank, and you can reorder the rows.
 
@@ -40,17 +40,17 @@ The Rank column helps you quickly identify the rank of an item relative to the o
 
 2.  From the list of portfolio plans, select one and then select **Planning**.
 
-3.  From the Prioritization tab, rank the planning items according to your priority by rearranging their order.
+3.  From the **List** view, Rank the planning items according to your priority by rearranging their order.
 
-<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d140940e146">
+<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d113637e142">
 
 Choice
 
-</th><th align="left" id="d140940e149">
+</th><th align="left" id="d113637e145">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d140940e155">
+</th></tr></thead><tbody><tr><td id="d113637e151">
 
 **Reorder a single planning item**
 
@@ -60,7 +60,7 @@ Use the Rearrange rows icon \(\[Omitted image "icon-rearrange.png"\] Alt text: R
 
  \[Omitted image "backlog-v2-single-reorder.gif"\] Alt text: Prioritization page single row reorder
 
-</td></tr><tr><td id="d140940e180">
+</td></tr><tr><td id="d113637e176">
 
 **Reorder multiple planning items at once**
 
@@ -73,7 +73,7 @@ Use the Rearrange rows icon \(\[Omitted image "icon-rearrange.png"\] Alt text: R
 </td></tr></tbody>
 </table>    Repeat this step until the ranking of the planning items align with your business priorities. To get better visibility of data that you need:
 
-    -   Sort or group the list by the required columns. See [Personalize Prioritization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/personalize-prioritization-page-portfolio-planning-workspace.md).
+    -   Sort or group the list by the required columns. See [Personalize Prioritization List view in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/personalize-prioritization-page-portfolio-planning-workspace.md).
     -   Filter the planning items. See [Apply quick filters for Prioritization and Roadmap data in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/quick-fiters-prioitization-roadmap-ppw.md).
     **Tip:** Using the Row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu\), you can also assign the highest and lowest ranks to the planning items using the **Move to top** and **Move to bottom** options respectively.
 

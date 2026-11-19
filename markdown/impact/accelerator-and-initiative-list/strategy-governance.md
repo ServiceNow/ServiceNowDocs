@@ -7,26 +7,24 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
 ---
 
 # Strategy Governance
 
 Guidance on aligning ServiceNow strategic roadmap to business outcomes
 
-## Accelerator Overview
+## Overview
 
 Strategy Governance provides Impact Customers with leading practice recommendations on the establishment and operation of strategy governance, which will assist Customer in driving decisions aligning a ServiceNow strategic roadmap to business outcomes.
 
-## Package Availability
-
-**Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
+**Note:** This Accelerator is available in Advanced and Total packages.
 
 ## What you get
 
--   **Introductory Customer Session \(up to 1 hr\)**
+-   **Introductory Customer Session \(up to 60 min\)**
     -   Set expectations on process and depth of deliverable.
     -   Communicate expectation for Customer participation.
     -   Request data and any other inputs.

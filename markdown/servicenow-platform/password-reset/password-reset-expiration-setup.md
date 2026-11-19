@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+last_updated: "2025-01-30"
+reading_time_minutes: 3
+breadcrumb: [Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure password expiration reminder
@@ -63,8 +63,6 @@ You can view a password expiration table and validate whether a record is create
 **Related topics**  
 
 
-[Calculating the security score for password reset process]()
-
 [Credential stores for Password Reset]()
 
 [Password Reset verifications]()
@@ -73,7 +71,7 @@ You can view a password expiration table and validate whether a record is create
 
 [Enable users to enroll for Password Reset]()
 
-[Configure Password Reset properties]()
+[Configuring Password Reset properties]()
 
 [Send email to remind users to enroll for Password Reset]()
 

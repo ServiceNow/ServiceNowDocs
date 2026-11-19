@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-opportunitymanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -94,7 +94,7 @@ Yokohama
 
 </td><td>
 
--   **[\[Placeholder link text to key bundle-omgmt.opportunity-management-add-product-to-opportunity\]](https://www.servicenow.com/docs/access?context=opportunity-management-add-product-to-opportunity&family=yokohama&ft:locale=en-US)**
+-   **[opportunity management add product to opportunity](https://www.servicenow.com/docs/access?context=opportunity-management-add-product-to-opportunity&family=yokohama&ft:locale=en-US)**
 
 Enables the sales representatives to customize the complex product offerings by using the product configurator. This ensures that the sales representatives identify and share the detailed requirements and price to the customer much earlier in the cycle.
 

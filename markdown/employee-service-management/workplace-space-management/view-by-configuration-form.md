@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Reference, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -66,7 +66,7 @@ Application
 
 </td><td>
 
-Application that the record is created in.This field is automatically set to the application scope of the instance and can't be edited.
+Application that the record is created in.This field is automatically set to Workplace Space Management and can't be edited.
 
 </td></tr><tr><td>
 
@@ -75,8 +75,6 @@ Mode
 </td><td>
 
 Mode where the view by configuration is enabled.**Note:**
-
--   Space Planning is not supported for the Scenario Plan Space Detail \[sn\_wsd\_spcmgmt\_scenario\_plan\_space\_detail\] table.
 
 -   Building overview is not supported for the Scenario Plan Space Detail \[sn\_wsd\_spcmgmt\_scenario\_plan\_space\_detail\] table.
 
@@ -89,7 +87,7 @@ Order
 
 </td><td>
 
-Order of the view by configuration in the drop-down list of the scenario planner, space planning page, or building overview.
+Order of the view by configuration in the drop-down list of the scenario planner or building overview.
 
 </td></tr><tr><td>
 
@@ -97,7 +95,7 @@ Domain
 
 </td><td>
 
-Domain for the view by configuration.This field is automatically set to global and can't be edited.
+Domain for the view by configuration.This field is automatically set to global.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Workplace Space Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-space-management/workplace-space-mgmt-references.md)
@@ -105,13 +103,7 @@ Domain for the view by configuration.This field is automatically set to global a
 **Related topics**  
 
 
-[Allocation - types, setting, and impact]()
-
 [Components installed with Workplace Space Management]()
 
 [Properties installed with Workplace Space Management]()
-
-[KPI Configuration form]()
-
-[]()
 

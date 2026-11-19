@@ -7,7 +7,7 @@ release: yokohama
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Time Sheets, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ A user can create only one time sheet per week.
 
 1.  Create the time sheet with one of these options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d216954e80">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d173084e71">
 
 Option
 
-</th><th align="left" id="d216954e83">
+</th><th align="left" id="d173084e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d216954e89">
+</th></tr></thead><tbody><tr><td id="d173084e80">
 
 **From the time sheet menu**
 
@@ -46,7 +46,7 @@ Steps
 
 Navigate to **Time Sheets** &gt; **My Time Sheets** &gt; **Current \(This Week\)**.The time sheet form for the current week opens.
 
-</td></tr><tr><td id="d216954e113">
+</td></tr><tr><td id="d173084e104">
 
 **From the time sheet list**
 

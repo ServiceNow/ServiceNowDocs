@@ -1,29 +1,24 @@
 ---
 title: Adding comments to assessments
-description: Add comments and work notes to an assessment to clarify questions or other aspects of the assessment. Owners, contributors, readers, and administrators can add comments while the assessment is active. After the assessment is cancelled, existing comments and work notes remain visible but read-only.
+description: Comments can be added to an assessment at any time by the owner or contributors, regardless of its current state. This feature enables for clarification on questions or other aspects of the assessment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/smart-assessment-engine/adding-comments-to-assessments.html
 release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Adding comments to assessments
 
-Add comments and work notes to an assessment to clarify questions or other aspects of the assessment. Owners, contributors, readers, and administrators can add comments while the assessment is active. After the assessment is cancelled, existing comments and work notes remain visible but read-only.
+Comments can be added to an assessment at any time by the owner or contributors, regardless of its current state. This feature enables for clarification on questions or other aspects of the assessment.
 
 ## Before you begin
 
--   To post a work note, your user account must also have one of the roles configured in the **Worknotes roles** field on the template category.
--   Role required: sn\_smart\_asmt.actor, sn\_smart\_asmt.assessment\_admin, or sn\_smart\_asmt.assessment\_reader.
-
-## About this task
-
-**Note:** This task describes how to add comments at the assessment level. To comment on a specific question instead, see [Add a comment or work note to a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/add-comment-to-question.md).
+Role required: sn\_smart\_asmt.actor
 
 ## Procedure
 
@@ -31,13 +26,12 @@ Add comments and work notes to an assessment to clarify questions or other aspec
 
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
-    1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
-    2.  Select the tasks icon \[Omitted image "list-icon.png"\] Alt text:.
-    3.  Select the **Control attestations** &gt; **Smart Assessments** on the left panel.
-    4.  The smart assessments list is displayed.
+    1.  Navigate to **Workspaces** &gt; **Compliance Workspace**
+    2.  Select the list icon \(\[Omitted image "icon-tprm-ws-list.png"\] Alt text: List icon.\).
+    3.  Navigate to **Control attestations** &gt; **Smart Assessments**.
 2.  Select the assessments in which you want to add a comment.
 
-3.  From the contextual sidebar, select the **Comment** icon \[Omitted image "adding-comments.png"\] Alt text:.
+3.  From the contextual sidebar, select the **Comment** icon \[Omitted image "user-group-outline-24.svg"\] Alt text: Attachment icon..
 
 4.  Provide your comment in the **Comment** field.
 
@@ -45,8 +39,4 @@ Add comments and work notes to an assessment to clarify questions or other aspec
 
     The comment appears in the comment list.
 
-
-## Result
-
-The comment or work note appears in the comment list and is visible to all participants on the assessment.
 

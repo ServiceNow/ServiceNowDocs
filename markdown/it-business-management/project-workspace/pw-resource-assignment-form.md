@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Form field information for Project Workspace, Project Workspace reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Form field information for Project Workspace, Reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Resource assignment form
@@ -26,57 +26,20 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+Assignment type
+
+</td><td>
+
+Select an assignment type from the list.-   User - to create a resource assignment for a user.
+-   Group - to crate a resource assignment for a group.
+
+</td></tr><tr><td>
+
 Resource
 
 </td><td>
 
-Category of resource. To request any member of group or user, select the name from the resource list.
-
-</td></tr><tr><td>
-
-Effort Type
-
-</td><td>
-
-Type of effort selected during the creation of resource assignment. If you select any of the following choices, then a field is displayed for that choice.-   Hours
--   FTE
--   Person days
-
-For example, if you select **Hours**, then the **Hours** field is displayed.
-
-</td></tr><tr><td>
-
-Effort
-
-</td><td>
-
-Effort of the resource assignment.-   If you select **Hours**, the number of allocated hours for a selected resource is displayed.
--   If you select **FTE**, the number of units for the full-time equivalent value for a selected resource is displayed. By default resource assignment is created with 1 FTE \(1FTE=8 hours\) effort.
--   If you select **Person days**, the number of days for the selected resource is displayed.
-
-</td></tr><tr><td>
-
-Start date
-
-</td><td>
-
-Start date for the resource assignment. By default, this field shows the **Planned start date** of the associated project record or task record. If both planned and actual start dates are available on the project tasks, the actual dates are considered by default for resource assignment start date.
-
-</td></tr><tr><td>
-
-End date
-
-</td><td>
-
-End date for the resource plan. By default, the date is derived from the **Planned end date** of the associated project record or task record. Edit the default date, if necessary. If both planned and actual end dates are available on the project tasks, the actual end dates are considered by default for resource assignment.
-
-</td></tr><tr><td>
-
-Role
-
-</td><td>
-
-Role associated with a role resource assignment. **Note:** You can define project-specific roles for the team members based on their skills and competencies.
+Name of the resource.This field is disabled for Group assignment.
 
 </td></tr><tr><td>
 
@@ -84,7 +47,16 @@ Group
 
 </td><td>
 
-Group associated with the resource assignment.**Note:** When you select a group in the resource field, the assignment is created for all the members of the group. You can associate roles, skills, locations, and other attributes to groups, which then apply to users within a group. Groups can also be assigned as primary groups based on your requirements.
+Name of the group to create resource assignment.If a resource is selected, the primary group name is populated by default.
+
+</td></tr><tr><td>
+
+Role
+
+</td><td>
+
+Primary role for the employee.-   If a resource is selected, the primary role is populated by default.
+-   This field is disabled for Group assignment.
 
 </td></tr><tr><td>
 
@@ -92,33 +64,37 @@ Skill
 
 </td><td>
 
-Skills that the requested resources possess to allocate the resources to the resource assignment.
+Primary skill of the resource.-   If a resource is selected, the primary role is populated by default.
+-   This field is disabled for Group assignment.
 
 </td></tr><tr><td>
 
-Resource status
+Effort type
 
 </td><td>
 
-State of the resource assignment.**Note:** If the resource assignment is for a user or group, then the assignment is created in the Pending state.
+Select the effort type to request a resource.-   Hours - to request a resource or group by hourly basis.
+-   FTE - to request a resource or group by FTE.
 
-If the assignment is attribute-based, then the assignment is created in the Unassigned state.
+By default, one FTE is 8 hours.
+
+-   Person days - to request a resource or group by Person days.
 
 </td></tr><tr><td>
 
-Employee Type
+Effort
 
 </td><td>
 
-Type of employee. For example, internal or external resources.
+Enter the required effort count.
 
 </td></tr><tr><td>
 
-Allocation status
+Name
 
 </td><td>
 
-Status of the resource allocation. This field is automatically set to **Allocated**.
+Enter a custom name for resource assignment.
 
 </td></tr><tr><td>
 
@@ -126,51 +102,67 @@ Task
 
 </td><td>
 
-Task to which the assignment applies. If the resource assignment was created from a project task, the task number appears here.
+Select the task from the list to associate the resource assignment.
 
 </td></tr><tr><td>
 
-Top task
+Start date
 
 </td><td>
 
-Parent task for which the assignment is created.
+Select the start date of the assignment using the calendar palette.
 
 </td></tr><tr><td>
 
-Resource allocation
+End date
 
 </td><td>
 
-Allocation number of the resource.
+Select the end date of the assignment using the calendar palette.
 
 </td></tr><tr><td>
 
-Assignment type
+Resource status
 
 </td><td>
 
-Type of resource assignment.-   Group
--   User
+Select the state of the resource assignment.-   Pending
+-   Approved
+-   Unapproved
+-   Unassigned
 
 </td></tr><tr><td>
 
-Allocation type
+Rate override
 
 </td><td>
 
-Type of allocation.-   Monthly
--   Weekly
-
-For example, if you select **Monthly**, the allocation hours are split evenly for the month and if you select **Weekly**, the allocation hours are split evenly for the week.
+Select this option to override the resource rate to match with your organization requirements.
 
 </td></tr><tr><td>
 
-Offset
+Resource rate
 
 </td><td>
 
-Difference between actual or planned start date of project or task and resource assignment start date.
+Select the required currency and enter the resource rate.
+
+</td></tr><tr><td>
+
+Ready for review
+
+</td><td>
+
+Select an option from the list so that the resource manager can review the request for allocation.-   Yes - if the resource assignment request is finalized and ready for resource manager's review for allocation.
+-   No - if the resource assignment details are still being updated.
+
+</td></tr><tr><td>
+
+Notes
+
+</td><td>
+
+Enter details about the assignment to help resource manager or project manager with insights and additional information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Form field information for Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/form-field-information-for-project-workspace.md)

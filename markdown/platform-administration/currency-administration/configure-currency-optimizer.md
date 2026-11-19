@@ -7,9 +7,9 @@ release: yokohama
 product: Currency Administration
 classification: currency-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Defaults required for standard currency use, Configure, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Setting up defaults required for standard currency use, Configuring currency fields, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure the currency optimizer

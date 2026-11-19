@@ -1,20 +1,20 @@
 ---
-title: States of Localization Framework projects and tasks
-description: In Localization Framework, the state of a localization project or of a task defines the status of the localization request. The states of the localization tasks change based on the workflow that is configured for translations.
+title: States of localization projects and tasks
+description: The state of a localization project or of a task defines the status of the localization request. The states of the localization tasks change based on the workflow that is defined for translations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/localization-framework/localization-task-states.html
 release: yokohama
 product: Localization Framework
 classification: localization-framework
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Localization Framework reference, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# States of Localization Framework projects and tasks
+# States of localization projects and tasks
 
-In Localization Framework, the state of a localization project or of a task defines the status of the localization request. The states of the localization tasks change based on the workflow that is configured for translations.
+The state of a localization project or of a task defines the status of the localization request. The states of the localization tasks change based on the workflow that is defined for translations.
 
 |State|Definition|
 |-----|----------|
@@ -34,9 +34,4 @@ In Localization Framework, the state of a localization project or of a task defi
 |Under Review|Approver is reviewing the translations.|
 
 **Parent Topic:**[Localization Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/reference-localization-framework.md)
-
-**Related topics**  
-
-
-[Localization Workspace Home and translation job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-status-synchronization.md)
 

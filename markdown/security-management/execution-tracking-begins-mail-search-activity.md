@@ -1,22 +1,18 @@
 ---
-title: Legacy: Execution Tracking Begin \(Mail Search\) action
+title: Execution Tracking Begin \(Mail Search\) action
 description: The Execution Tracking - Begin \(Mail Search\) capability execution action creates an execution tracking record and marks the record state as Started. This action is used by all capability and implementation flows to keep track of their state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/execution-tracking-begins-mail-search-activity.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration - Email Search and Delete flow, Security Operations Integration- Email Search and Delete capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
 
-# Legacy: Execution Tracking Begin \(Mail Search\) action
+# Execution Tracking Begin \(Mail Search\) action
 
 The Execution Tracking - Begin \(Mail Search\) capability execution action creates an execution tracking record and marks the record state as Started. This action is used by all capability and implementation flows to keep track of their state.
-
-**Note:**
-
-This feature is no longer deployed, enhanced, or supported. It has been replaced by Capability Implementation Execution. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 ## Results
 
@@ -50,7 +46,7 @@ The output variables contain data that can be used in subsequent actions.
 |capabilityExecutionId|System identifier of the execution tracking record.|
 
 -   [Get Supported Security Capabilities action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/get-supported-security-capabilities-activity.md)
--   [Legacy: Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/execution-tracking-noimpls-activity.md)
+-   [Capability Execution Tracking- No Impls action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/execution-tracking-noimpls-activity.md)
 
 **Parent Topic:**[Security Operations Integration - Email Search and Delete flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/secops-integ-email-search-delete.md)
 

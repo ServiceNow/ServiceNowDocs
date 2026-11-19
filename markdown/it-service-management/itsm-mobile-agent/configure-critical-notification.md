@@ -1,21 +1,20 @@
 ---
-title: Configure a critical notification
-description: Specify which push notifications are sent as critical alerts so that agents receive them even when their mobile device is in Do Not Disturb mode.
+title: Configure critical notification
+description: Configure the list of critical alerts that you want to receive when your mobile device is in Do Not Disturb mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/itsm-mobile-agent/configure-critical-notification.html
 release: yokohama
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-keywords: [Configure critical notification]
-breadcrumb: [Enable critical alerts in Do Not Disturb mode, Configuring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Management]
+breadcrumb: [Enable Override do not disturb to receive critical alerts, Configure, ITSM Mobile Agent, IT Service Management]
 ---
 
-# Configure a critical notification
+# Configure critical notification
 
-Specify which push notifications are sent as critical alerts so that agents receive them even when their mobile device is in Do Not Disturb mode.
+Configure the list of critical alerts that you want to receive when your mobile device is in Do Not Disturb mode.
 
 ## Before you begin
 
@@ -29,15 +28,15 @@ By default, the following notifications are set as critical:
 -   Major Incident- ICA SLA Breached
 -   Major Incident- ICT SLA Warning
 
-You can set any push notification as critical so that agents receive it even when their mobile device is in Do Not Disturb mode.
+Set any notification as critical and receive alerts when your mobile device is in Do Not Disturb mode.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System notification** &gt; **Push** &gt; **Push Notification** and open the notification to set as critical.
+1.  Navigate to **All** &gt; **System notification** &gt; **Push** &gt; **Push Notification** and open the notification that you want to set as critical.
 
 2.  In the selected notification record, select the **What to send** tab.
 
-3.  Select the info icon \[Omitted image "icon-more-info.png"\] Alt text: next to the **Push message** field.
+3.  Select the info icon \(\[Omitted image "icon-more-info.png"\] Alt text: Info icon.\) next to the **Push message** field.
 
 4.  Select **Open record** from the **Push Notification Message** pop-up message.
 

@@ -1,5 +1,5 @@
 ---
-title: Minimize Concurrent Interactive Sessions with Limit Concurrent Sessions Plugin
+title: Limit concurrent interactive sessions \[Updated in Security Center 1.3\]
 description: Manage the number of interactive sessions on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-glide-authenticate-limit-concurrent-interactive-sessions.html
@@ -7,18 +7,16 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Minimize Concurrent Interactive Sessions with Limit Concurrent Sessions Plugin
+# Limit concurrent interactive sessions \[Updated in Security Center 1.3\]
 
 Manage the number of interactive sessions on your instance.
 
-The **glide.authenticate.limit.concurrent.interactive.sessions** system property controls the number of active sessions that can be open for a user when the Limit Concurrent Sessions \(com.glide.limit.concurrent.sessions\) plugin is enabled. It is recommended that this value be the default of `1` to reduce the number of sessions that can be left open for a user.
-
-Ensure that the property **glide.authenticate.limit.concurrent.interactive.sessions** is set to `1` when the Limit Concurrent Sessions \(com.glide.limit.concurrent.sessions\) plugin is active.
+This property is meant to be used with the Limit Concurrent Sessions \(**com.glide.limit.concurrent.sessions**\) plugin. When the plugin is active and the property is set to false, a user can have any number of concurrent interactive sessions on an instance. A greater number of open sessions means there is a great possibility for session hijacking to occur.
 
 ## More information
 
@@ -52,7 +50,7 @@ Data type
 
 </td><td>
 
-Integer
+boolean
 
 </td></tr><tr><td>
 
@@ -60,7 +58,7 @@ Recommended value
 
 </td><td>
 
-1
+true
 
 </td></tr><tr><td>
 
@@ -68,15 +66,7 @@ Default value
 
 </td><td>
 
-&lt;none&gt;
-
-</td></tr><tr><td>
-
-Fallback value
-
-</td><td>
-
-1
+false
 
 </td></tr><tr><td>
 
@@ -94,7 +84,7 @@ Security risk
 
 -   Severity score: 3.7
 -   CVSS score: Low
--   Security risk details: A greater number of open sessions means there are more sessions that can potentially be hijacked.
+-   Security risk details: When the plugin is active and the property is set to **false**, a user can have any number of concurrent interactive sessions which increases the possibility for a session hijacking.
 
 </td></tr><tr><td>
 
@@ -110,7 +100,7 @@ References
 
 </td><td>
 
-[Minimize Concurrent Interactive Sessions with Limit Concurrent Sessions Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-glide-authenticate-limit-concurrent-interactive-sessions.md)
+[Limit concurrent interactive sessions \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-glide-authenticate-limit-concurrent-interactive-sessions.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-session-management.md)

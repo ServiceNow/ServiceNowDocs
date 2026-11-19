@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/work-group-life-service-case.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Use, Group Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Using Group Life Servicing, Group Life Servicing, Life Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on a group life policy service case
@@ -32,17 +32,19 @@ Use the case playbook that provides the activities and tasks required to researc
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  In the **Lists** tab, under **Group life service cases**, open the case list.
 
     -   For your assigned cases, select **Assigned to me**.
     -   For all Group life cases, select **All**.
-4.  In the list, select which case you want to work on.
+4.  In the list, select the case to work on.
 
-    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
+    To work on a case that is not assigned to you yet, assign it to yourself by selecting **Assign to me**.
 
 5.  Select the **Playbook** tab.
+
+    The case playbook guides processors through the steps that are involved in resolving a case.
 
 6.  Use the activities and tasks under the following playbook stages to fulfill the request and resolve the case:
 
@@ -56,15 +58,15 @@ Use the case playbook that provides the activities and tasks required to researc
 
 8.  Close the task from the playbook activity or the task form.
 
-<table><thead><tr><th align="left" id="d120696e231">
+<table><thead><tr><th align="left" id="d100591e230">
 
 Policy task
 
-</th><th align="left" id="d120696e234">
+</th><th align="left" id="d100591e233">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d120696e240">
+</th></tr></thead><tbody><tr><td id="d100591e239">
 
 **To verify a change or a document**
 
@@ -74,7 +76,7 @@ Action
 -   In the task form, in the **State** field, change the state of the task to **Closed Complete**.
 
 
-</td></tr><tr><td id="d120696e267">
+</td></tr><tr><td id="d100591e266">
 
 **To submit a review**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
+breadcrumb: [Telecommunications Network Inventory function catalog, Telecommunications Network Inventory reference, Telecommunications Network Inventory]
 ---
 
 # Create and Assign Range/Single Number function
@@ -160,7 +160,7 @@ Reference.Inventory Number record
 No
 
 </td></tr></tbody>
-</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/action-inputs-outputs.md).
+</table>To learn more about the variable data types, see Flow Designer input and output data variables.
 
 ## Output
 

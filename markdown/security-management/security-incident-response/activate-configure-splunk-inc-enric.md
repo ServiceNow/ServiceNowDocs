@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Splunk - Incident Enrichment integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -18,7 +18,7 @@ Splunk software searches, monitors, and analyzes machine-generated big data and 
 
 ## Before you begin
 
-Role required: sn\_si.admin
+Role required: sn\_si\_admin
 
 ## Procedure
 
@@ -30,7 +30,9 @@ Role required: sn\_si.admin
 
     The available security integrations appear as a series of cards.
 
-4.  In the Splunk - Incident Enrichment card, select **New**.
+4.  In the Splunk - Incident Enrichment card, click **New**.
+
+    \[Omitted image "splunk-new-config.png"\] Alt text: Splunk - Incident Enrichment Configuration
 
 5.  Fill in the fields, as needed.
 
@@ -48,17 +50,13 @@ Role required: sn\_si.admin
 
     **Note:** Configuring this integration activates workflows. To manage the workflows, navigate to the **Workflow Editor**.
 
-6.  Select **Submit**.
+6.  Click **Submit**.
 
     The integration configuration card displays.
 
-7.  When viewing the new configuration card, you can select **Configure** or **Delete** to change or delete the configuration, respectively.
+7.  When viewing the new configuration card, you can click **Configure** or **Delete** to change or delete the configuration, respectively.
 
 8.  To return to the original list of integration configuration cards, select **No** from the **Show Configurations** drop-down list.
-
-9.  Add the **Sightings Search Details** and **Sightings Search Results** related lists to the **Show IoC** related list group on the security incident form.
-
-    **Note:** These related lists aren't added to the form automatically when you configure the integration.
 
 
 **Parent Topic:**[Splunk - Incident Enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-in-enrich-landing-page.md)

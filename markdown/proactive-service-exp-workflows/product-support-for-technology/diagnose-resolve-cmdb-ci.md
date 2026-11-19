@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use, Proactive Service Experience Workflows, Product Support for Technology]
+breadcrumb: [Using Proactive Service Experience Workflows, Proactive Service Experience Workflows]
 ---
 
 # Run diagnostics tests for a CI or a service
@@ -46,11 +46,11 @@ This task helps you to understand how to execute relevant preconfigured diagnost
 
         The drop-down list shows the current product inventory and all the child inventories.
 
-        To set up test definitions, see .
+        To set up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/settingup-test-specifications.md).
 
     3.  Expand the cards in **Available test suite**.
 
-        To set up test group, see .
+        To set up test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/setting-test-group.md).
 
     4.  In the manual test, select single/multiple tests.
 

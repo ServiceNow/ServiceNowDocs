@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Import Models and Templates, Use, Telecommunications Network Inventory]
+breadcrumb: [Import Models and Templates, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
 ---
 
 # Import models and templates in JSON format

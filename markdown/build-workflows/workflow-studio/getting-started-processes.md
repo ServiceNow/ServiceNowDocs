@@ -1,5 +1,5 @@
 ---
-title: Building your first playbook
+title: Getting started with Playbooks
 description: Learn the basics of designing an automated process for your organization. Get an overview of how Workflow Studio Playbooks work in the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/getting-started-processes.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Build Playbooks, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
 ---
 
-# Building your first playbook
+# Getting started with Playbooks
 
 Learn the basics of designing an automated process for your organization. Get an overview of how Workflow Studio Playbooks work in the ServiceNow AI Platform®.
 
@@ -37,7 +37,7 @@ Each playbook consists of a trigger as well as stages and activities. Triggers d
 
 When you're done creating your playbook, activate it so that it runs when triggered.
 
-\[Omitted image "getting-started-process-definition.png"\] Alt text: Create a digitized representation of your business process, known as a playbook.
+\[Omitted image "getting-started-process-definition.png"\] Alt text: Create a digitized representation of your business process, known as aplaybook.
 
 ## What happens when a playbook runs
 
@@ -59,11 +59,11 @@ In summary, your playbook runs when:
 
 If you're ready to start digitizing your business process with Playbooks in Workflow Studio, try checking out these resources:
 
--   [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/design-automated-process.md)
+-   [Design your first automated process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/design-automated-process.md)
 -   [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-process-definition.md)
 
 -   **[Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/design-automated-process.md)**  
 Create a sample playbook to standardize and automate how Service Desk agents handle chat interactions with VIP users.
 
-**Parent Topic:**[Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-a-process.md)
+**Parent Topic:**[Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-a-process.md)
 

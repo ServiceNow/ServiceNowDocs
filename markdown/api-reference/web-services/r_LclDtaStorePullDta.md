@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Strategies, Record retrieval limitations, SOAP web service, Inbound, Web services, API implementation, API implementation and reference]
+breadcrumb: [SOAP strategies, Retrieve a large number of records using SOAP, Inbound web service examples, Inbound web services, Web services, API implementation, API implementation and reference]
 ---
 
 # Use a local data store to pull data from

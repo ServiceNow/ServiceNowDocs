@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [About custom activities, Administer, Creator Studio, Developing your application, Classic app development, Building applications]
+breadcrumb: [Administering activities in Creator Studio, Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
 
 # Make a custom activity available for playbooks in Creator Studio
@@ -42,9 +42,9 @@ Role required: admin or app\_engine\_admin
 
     All of the standard Creator Studio activities appear in the list, not just custom activities.
 
-    \[Omitted image "crs-activities-table.png"\] Alt text: Creator Studio Activities table showing available activities with their descriptions and order values.
-
     The Creator Studio Activities table appears.
+
+    \[Omitted image "crs-activities-table.png"\] Alt text: Table showing all activities defined for Creator Studio playbooks
 
 2.  Create the basis of the new activity.
 
@@ -68,7 +68,7 @@ Activity
 
 Search for and select the type of activity that will be the basis of your custom activity.For example, create a complex approval activity by selecting **Request Multi-Level Approval**.
 
-**Note:** Once you choose an activity, you can select the information icon \[Omitted image "icon-information.png"\] Alt text: to preview its Activity Definition record.
+**Note:** Once you choose an activity, you can select the information icon \(\[Omitted image "icon-information.png"\] Alt text:\) to preview its Activity Definition record.
 
 </td></tr><tr><td>
 
@@ -108,9 +108,9 @@ Brief description of the custom activity, which appears in the activity picker.
 
         For example, set the **Assigned To** field to **Always Show** to users building a playbook in Creator Studio.
 
-        For more information, see [Add dynamic inputs to an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/add-dynamic-inputs-to-activity.md).
+        \[Omitted image "crs-activity-inputs.png"\] Alt text: Select Always Show to make a field appear
 
-        \[Omitted image "crs-activity-inputs.png"\] Alt text: Activity Definition form showing Variables section with input fields for Assigned To, Comments, Due Date, Table, and Record.
+        For more information, see [Add dynamic inputs to an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/add-dynamic-inputs-to-activity.md).
 
     4.  Hide a field from the properties panel by setting it to **Show as additional property for admins only.**
 

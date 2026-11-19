@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/create-sb-product-offerings.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
+breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Extending Order Management with ServiceNow applications and integrations, Sales Customer Relationship Management]
 ---
 
 # Create a product offering for a remote catalog item
@@ -16,7 +16,7 @@ Create a product offering in a Service Exchange provider instance. When you publ
 
 ## Before you begin
 
-Role required: sn\_prd\_pm.product\_catalog\_admin or sn\_prd\_pm.product\_catalog\_manager
+Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_catalog\_manager
 
 ## About this task
 
@@ -24,7 +24,7 @@ When you're creating the product offering, use the **Distribution channel** fiel
 
 ## Procedure
 
-1.  In the CRM Workspace on the provider instance, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace on the provider instance, select the **List** \[Omitted image "Lists.png"\] view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings**.
 
@@ -70,7 +70,7 @@ Offering type
 
 </td><td>
 
-Offering entity. Select one of the following types:-   Product: A product entity that an agent can add to an order using the CRM Workspace.
+Offering entity. Select one of the following types:-   Product: A product entity that an agent can add to an order using the CSM Configurable Workspace.
 -   Entitlement: An entity such as a warranty or subscription that can be added to an order by an agent.
 
 
@@ -108,7 +108,7 @@ Start date
 
 </td><td>
 
-Date and time that the product offering is available for Sales Customer Relationship Management applications. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: to choose the start date and time, then select **OK**.
+Date and time that the product offering is available for Sales Customer Relationship Management applications. Select the Calendar icon \(\[Omitted image "field-calendar.png"\] Alt text: Calendar icon.\) to choose the start date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ End date
 
 </td><td>
 
-Date and time that the product offering is deleted from Sales Customer Relationship Management applications. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: to choose the end date and time, then select **OK**.
+Date and time that the product offering is deleted from Sales Customer Relationship Management applications. Select the Calendar icon \(\[Omitted image "field-calendar.png"\] Alt text: Calendar icon.\) to choose the end date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -275,15 +275,15 @@ Name of the previous version of the product offering, For example:-   When you c
 
 7.  When you finish creating the product offering version, select one of the following actions.
 
-<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d49477e536">
+<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d34911e535">
 
 Action
 
-</th><th align="left" id="d49477e539">
+</th><th align="left" id="d34911e538">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d49477e545">
+</th></tr></thead><tbody><tr><td id="d34911e544">
 
 **Publish**
 
@@ -293,7 +293,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d49477e563">
+</td></tr><tr><td id="d34911e562">
 
 **Update**
 
@@ -301,7 +301,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d49477e572">
+</td></tr><tr><td id="d34911e571">
 
 **Copy**
 

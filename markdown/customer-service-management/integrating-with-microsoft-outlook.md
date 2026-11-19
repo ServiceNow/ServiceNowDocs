@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/integrating-with-microsoft-outlook.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Integrate, Customer Service Management]
+breadcrumb: [Integrating Customer Service Management with other applications, Customer Service Management]
 ---
 
 # Integrating with Microsoft Outlook
@@ -17,5 +17,5 @@ Integrate Customer Service Management with Microsoft Outlook to perform tasks su
 The following plugins are required to enable you to interact with the ServiceNow platform and customers from within Microsoft Outlook:
 
 -   ServiceNow Add-In for Microsoft Outlook \(com.sn\_outlook\_addin\)
--   Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
+-   CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
 

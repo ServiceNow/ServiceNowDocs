@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/install-psds-service-request-playbook.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Service Request Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Service Request Playbook, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Install Service Request Administration for Public Sector Digital Services
@@ -47,7 +47,7 @@ The Service Request \[sn\_gsm\_service\_request\_case\] table is installed with 
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 

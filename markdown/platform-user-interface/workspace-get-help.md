@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/workspace-get-help.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Reference, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configurable Workspace reference, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Get help with Configurable Workspace

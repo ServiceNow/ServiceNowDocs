@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 7
-breadcrumb: [Employee Center Pro reference, Employee Center Pro, EmployeeWorks, Employee Service Management]
+breadcrumb: [Reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
 
 # Campaign overview and Campaign analytics dashboards
@@ -199,6 +199,8 @@ Campaign impact shows data related to your established campaign success goals. F
 **Related topics**  
 
 
+[Approvals experience reference]()
+
 [Block content form]()
 
 [Components installed with Employee Center Pro]()
@@ -221,11 +223,15 @@ Campaign impact shows data related to your established campaign success goals. F
 
 [Employee Center Pro widgets]()
 
+[Feedback Analytics dashboard]()
+
 [Feedback configuration form]()
 
 [Feedback definition form]()
 
 [Link content form]()
+
+[Location Consent form]()
 
 [Notification content form]()
 
@@ -235,7 +241,5 @@ Campaign impact shows data related to your established campaign success goals. F
 
 [Properties installed with Content Publishing]()
 
-[Standard banner and icon sizes]()
-
-[To-do content form]()
+[Schedule appointment form]()
 

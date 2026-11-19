@@ -1,27 +1,25 @@
 ---
-title: Manage application categories
+title: Configure application categories
 description: An application category is a grouping of applications by their purpose and function, fields, or areas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-configure-application-categories.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring the Setup page in the Enterprise Architecture Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Work with the Setup page in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Manage application categories
+# Configure application categories
 
 An application category is a grouping of applications by their purpose and function, fields, or areas.
 
-Such a categorization helps you to consolidate applications and rationalize decisions. Application categories provide clarity on your application landscape and enhances compliance.
+Such a categorization helps you to consolidate applications and rationalize decisions. You can create an application category or edit an existing one to align it with your business requirements.
 
-**Parent Topic:**[Exploring the Setup page in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup.md)
+-   **[View all application categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-application-categories.md)**  
+You can view the list of all application categories in the Enterprise Architecture Workspace.
+-   **[Add or edit an application category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-app-category.md)**  
+Each application should have an application category defined. This field is used to describe the purpose of the application, and the key business function this application supports. You can keep the categorization at a high level, like a business function. For example, Sales, HR, Marketing, and Manufacturing.
 
-**Related topics**  
-
-
-[View all application categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-application-categories.md)
-
-[Add or edit an application category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-app-category.md)
+**Parent Topic:**[Work with the Setup page in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup.md)
 

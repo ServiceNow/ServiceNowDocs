@@ -1,30 +1,30 @@
 ---
 title: Resume an entitlement
-description: Resume an entitlement by creating an order on the CRM Workspace. By resuming an entitlement, you are restarting the services and the characteristics specified in that entitlement.
+description: Resume an entitlement by creating an order on the CSM Configurable Workspace. By resuming an entitlement, you are restarting the services and the characteristics specified in that entitlement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cce-resume-entitlement.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Customer management, Use, Customer Service Management]
+breadcrumb: [Using Contracts and Entitlements Workflows, Using Customer Contracts and Entitlements, Customer management, Using Customer Service Management, Customer Service Management]
 ---
 
 # Resume an entitlement
 
-Resume an entitlement by creating an order on the CRM Workspace. By resuming an entitlement, you are restarting the services and the characteristics specified in that entitlement.
+Resume an entitlement by creating an order on the CSM Configurable Workspace. By resuming an entitlement, you are restarting the services and the characteristics specified in that entitlement.
 
 ## Before you begin
 
 You can resume an entitlement when the associated root sold product is in Inactive, Cancelled, or Suspended state. For product inventory records, you can resume an entitlement when the associated product inventory record is in Suspended state.
 
-**Note:** You can only resume entitlements associated with an account. You cannot resume entitlements associated to customer contract lines.
+**Note:** You can only resume entitlements associated with an account. You cannot resume entitlements associated to service contract lines.
 
 Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace.**.
 
 2.  In the list view, select **Customer** &gt; **Accounts**.
 

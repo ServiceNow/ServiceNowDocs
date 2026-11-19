@@ -7,8 +7,8 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2025-01-30"
+reading_time_minutes: 3
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -32,6 +32,8 @@ Role required: it\_project\_manager, resource\_user
 
 3.  Select **Request**.
 
+    You can also request resources from the [Allocation Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/manage-resources-allocation-workbench.md).
+
 
 ## Result
 
@@ -54,7 +56,7 @@ The resource plan moves to the Requested state and is ready for review by the re
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan of a project or demand]()
+[Recalculate costs of a resource plan]()
 
 [Update cost plan related to a resource plan]()
 

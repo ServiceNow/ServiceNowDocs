@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure Intelligent Task Recommendations, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Setting up Intelligent Task Recommendations, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
 ---
 
 # Create custom recommendation criteria
@@ -18,7 +18,7 @@ Define recommendation criteria that policies can use to rank or evaluate tasks f
 
 ## Before you begin
 
-Role required: admin, sn\_task\_recommend.task\_rec\_admin
+Role required: admin
 
 ## About this task
 

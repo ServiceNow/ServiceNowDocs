@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-03-27"
 reading_time_minutes: 3
-breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Request a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Edit a workplace request
@@ -68,7 +68,7 @@ Role required: sn\_wsd\_core.workplace\_user
     The Workplace Request is updated.
 
 
-**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-workplace-services.md)
+**Parent Topic:**[Request a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 

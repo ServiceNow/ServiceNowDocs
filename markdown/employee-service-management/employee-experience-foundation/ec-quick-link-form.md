@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Reference, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
 # Quick Link form
@@ -35,6 +35,9 @@ The type of content that you want the quick link to display. The choices are:-  
 -   **Page**
 -   **External link**
 -   **Guided Self-service**
+
+**Note:** You can't add a quick link as a featured item.
+
 
 </td></tr><tr><td>
 
@@ -122,7 +125,7 @@ Background image
 
 </td><td>
 
-The background image for the quick link.
+The background image for the quick link.**Note:** The background image for quick link is now visible to external users.
 
 </td></tr><tr><td>
 
@@ -150,7 +153,7 @@ The application scope on which the functionality runs.
 
 [Activity Configuration Detail form]()
 
-[Approvals experience reference]()
+[Browser Extension for Employee Center forms]()
 
 [Connected Content form]()
 
@@ -186,6 +189,8 @@ The application scope on which the functionality runs.
 
 [Portal notification content form]()
 
+[Standard banner and icon sizes]()
+
 [Trigger conditions form]()
 
 [Tab widget mapping form]()
@@ -194,15 +199,11 @@ The application scope on which the functionality runs.
 
 [Topic form]()
 
+[To-do content form]()
+
 [User Criteria form]()
 
 [User Criteria output]()
-
-[Schedule appointment form]()
-
-[Location Consent form]()
-
-[Website configuration form]()
 
 [Create a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/create-quick-links.md)
 

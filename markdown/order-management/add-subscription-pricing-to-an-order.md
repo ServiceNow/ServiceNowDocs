@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/add-subscription-pricing-to-an-order.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
+breadcrumb: [Create an order in Order Management, Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
 ---
 
 # Add subscription pricing to an order
@@ -30,15 +30,13 @@ See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Orders** &gt; **All**
 
 3.  Select the order that you’re working with.
 
-4.  Select the More Actions icon \[Omitted image "icon-three-dot-menu.png"\] Alt text: and select **Order details**.
-
-5.  In the **Order Details** tab, add a **Contract start date** and a **Contract end date**.
+4.  In the **Order Details** tab, add a **Contract start date** and a **Contract end date**.
 
     When the dates are entered, the following information automatically updates.
 
@@ -47,13 +45,10 @@ See [Subscription revenue metrics](https://raw.githubusercontent.com/ServiceNow/
     |Total monthly recurring price|Shows the monthly recurring price based on the dates entered in subscription pricing.|
     |Total annual recurring price|Shows the total annual recurring subscription pricing based on the dates entered.|
     |Total amount|Shows the total amount of the subscription pricing according to the contract start and end dates.|
-    |Term|Shows the number of months the subscription is valid based on the contract start and end dates.|
+    |Term|Shows the number of months the subscription is valid based on the start and end dates.|
 
-6.  Select **Update**.
-
-
-**Related topics**  
+5.  Select **Save**.
 
 
-[Order details page - Dates fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/field-descriptions-customer-orders.md)
+**Parent Topic:**[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-product-order.md)
 

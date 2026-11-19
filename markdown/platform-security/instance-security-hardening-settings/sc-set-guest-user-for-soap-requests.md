@@ -1,5 +1,5 @@
 ---
-title: Set guest user for soap requests
+title: Set guest user for soap requests \[Updated in Security Center 1.3 and 2.0\]
 description: Configure this property to control the level of access of unauthenticated SOAP requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-set-guest-user-for-soap-requests.html
@@ -7,18 +7,16 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Set guest user for soap requests
+# Set guest user for soap requests \[Updated in Security Center 1.3 and 2.0\]
 
 Configure this property to control the level of access of unauthenticated SOAP requests.
 
-Use the **com.glide.soap.guest\_user** system property to control the access level of unauthenticated SOAP requests. If this property isn't set to the recommended value of `soap.guest` or is set to a user with limited privileges, then SOAP requests execute on behalf of this user.
-
-Ensure the property is set to `soap.guest` to ensure an appropriate level of access for unauthenticated SOAP requests.
+This property controls the level of access of unauthenticated SOAP requests. If it is not set to the recommended value of **soap.guest**, or is set to a user with limited privileges, then SOAP requests will execute on behalf of the user. If this property is blank, then it enables unauthenticated access to administrator or maintenance level operations which negates all security controls within the instance.
 
 ## More information
 
@@ -36,7 +34,7 @@ Configuration name
 
 </td><td>
 
-****
+**com.glide.soap.guest\_user**
 
 </td></tr><tr><td>
 
@@ -52,7 +50,7 @@ Data type
 
 </td><td>
 
-String
+string
 
 </td></tr><tr><td>
 
@@ -65,14 +63,6 @@ soap.guest
 </td></tr><tr><td>
 
 Default value
-
-</td><td>
-
-soap.guest
-
-</td></tr><tr><td>
-
-Fallback value
 
 </td><td>
 
@@ -94,15 +84,7 @@ Security risk
 
 -   Severity score: 8.1
 -   CVSS score: High
--   Security risk details: Unauthenticated SOAP requests can allow unauthorized access if not properly restricted. Evaluating these requests against a minimally privileged user helps reduce the risk of exposing sensitive operations. Failure to enforce this control may result in elevated access and compromise system integrity.
-
-</td></tr><tr><td>
-
-Functional impact
-
-</td><td>
-
-SOAP requests are restricted to the permissions of the soap.guest user. If an integration relies on a resource that does not have the appropriate ACLs for soap.guest, those requests will result in permission denials.
+-   Security risk details: Setting this property to blank enables unauthenticated access to administrator or maintenance level operations.
 
 </td></tr><tr><td>
 

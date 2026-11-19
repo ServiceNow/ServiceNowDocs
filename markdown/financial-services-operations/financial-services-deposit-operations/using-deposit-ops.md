@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Deposit Operations, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Using Financial Services Deposit Operations
@@ -72,7 +72,7 @@ Deposit admin
 
 </td><td>
 
-Configures the deposit workspace as per business requirements. For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
+Configures the deposit workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr></tbody>
 </table>## Automated workflows

@@ -1,18 +1,18 @@
 ---
 title: Playbook layout and features
-description: A playbook includes several features that agents use to complete activities and resolve cases, including the playbook stage picker, activity picker, and activity viewer. Record pages created in UI Builder determine how these playbook features are displayed in CRM Workspace.
+description: A playbook includes several features that agents use to complete activities and resolve cases, including the playbook stage picker, activity picker, and activity viewer. Record pages created in UI Builder determine how these playbook features are displayed in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-playbook-layout.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Playbook layout and features
 
-A playbook includes several features that agents use to complete activities and resolve cases, including the playbook stage picker, activity picker, and activity viewer. Record pages created in UI Builder determine how these playbook features are displayed in CRM Workspace.
+A playbook includes several features that agents use to complete activities and resolve cases, including the playbook stage picker, activity picker, and activity viewer. Record pages created in UI Builder determine how these playbook features are displayed in CSM Configurable Workspace.
 
 UI Builder [page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-playbook-templates.md) and [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-playbook-pages.md) that include horizontally and vertically oriented playbooks are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\].
 

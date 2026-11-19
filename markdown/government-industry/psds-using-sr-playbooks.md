@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-using-sr-playbooks.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using Service Request Playbooks
@@ -16,7 +16,7 @@ If you're a government service agent or manager, you can use the Service Request
 
 A playbook provides a step-by-step guidance through the life cycle of a government service case.
 
-The Service Request Administration automatically appears in the **Playbook** tab when you open or create a service request case in the Public Sector Workspace.
+The Service Request Administration automatically appears in the **Playbook** tab when you open or create a service request case in the CSM Configurable Workspace.
 
 A playbook takes a workflow and breaks it into multiple stages or lanes. Each stage in a playbook includes one or more activities, or steps, for you to complete. Stages can also include automated activities, such as auto-sending an email to a constituent when a stage or activity is complete, or auto-sending a work order to a field service agent. When using a playbook, you can:
 

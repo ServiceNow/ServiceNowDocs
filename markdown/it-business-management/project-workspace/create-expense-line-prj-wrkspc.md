@@ -7,7 +7,7 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Manage financials, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,11 +22,9 @@ Role required: it\_project\_manager
 
 ## About this task
 
-An expense line is part of the project cost plans that can be associated with a specific source. You can create multiple expense lines for a cost plan. Only the expense lines that are in the processed state are considered for roll ups on the work item.
+An expense line is part of the project cost plans that can be associated with a specific source. You can create multiple expense lines for a cost plan. Only the expense lines that are in the processed state are considered for roll-ups on the work item.
 
-For unplanned expense lines not associated to any cost plan, the system creates a cost plan or associates an existing one of the same expense type.
-
-The video is recorded using the Strategic Planning view. Navigate to your portfolio to manage expense lines in Project Workspace.\[Omitted video\] Description: Add and manage expense lines
+For unplanned expense lines which aren’t associated with any cost plan, the system automatically creates a cost plan or associates with an existing system-generated cost plan of the same expense type.
 
 ## Procedure
 
@@ -34,17 +32,17 @@ The video is recorded using the Strategic Planning view. Navigate to your portfo
 
 2.  Select **Financials** from the left menu.
 
-3.  Use one of the following options to add an expense line.
+3.  Add an expense line using one of the following options.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d60073e115">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d51791e82">
 
 Choice
 
-</th><th align="left" id="d60073e118">
+</th><th align="left" id="d51791e85">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d60073e124">
+</th></tr></thead><tbody><tr><td id="d51791e91">
 
 **Select a cost plan**
 
@@ -54,7 +52,7 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d60073e145">
+</td></tr><tr><td id="d51791e112">
 
 **Select options**
 
@@ -64,7 +62,7 @@ Description
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d60073e172">
+</td></tr><tr><td id="d51791e139">
 
 **Select new expense line option**
 
@@ -81,13 +79,7 @@ Select **New expense line** using the More actions option.\[Omitted image "fin-n
 
 5.  Select **Save**.
 
-    **Note:** The expense lines created for sub projects can be viewed in the Cost screen of the parent project.
-
-6.  To edit a cost plan from the finanicals record page, select the actuals value from the cost plan to open the Expense line side panel.
-
-7.  Select the expense you want to edit.
-
-8.  Update the expense values as needed and select **Save**.
+    **Note:** The expense lines created for sub-projects can be viewed in the Cost screen of the parent project.
 
 
 **Parent Topic:**[Managing financials for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/using-financials-prj-wrkspc.md)

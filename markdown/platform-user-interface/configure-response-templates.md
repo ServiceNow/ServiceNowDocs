@@ -1,18 +1,18 @@
 ---
-title: Disable response templates
-description: Disable response templates for journal fields.
+title: Set up response templates in Configurable Workspace
+description: Enable response templates in journal fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/configure-response-templates.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Emails, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Administering emails in Configurable Workspace, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Disable response templates
+# Set up response templates in Configurable Workspace
 
-Disable response templates for journal fields.
+Enable response templates in journal fields.
 
 ## Before you begin
 
@@ -22,13 +22,13 @@ Role required: admin
 
 1.  Navigate to `sys_properties.list`.
 
-    The entire list of properties in the System Properties \[sys\_properties\] table opens.
-
-2.  Add a system property named **glide.ui.enable\_response\_templates**.
+2.  Select **glide.ui.enable\_response\_templates** from the list or add **glide.ui.enable\_response\_templates** as a system property.
 
     For instructions on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
-3.  Set the Value to **false**.
+3.  Disable response templates by setting the Value field to **false**.
+
+    **Note:** This system property is set to **true** and enabled by default.
 
 4.  Select **Submit**.
 

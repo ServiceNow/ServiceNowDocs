@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
 ---
 
 # Agent Workspace for HR Case Management contextual side panel
@@ -18,7 +18,7 @@ The contextual side panel in Agent Workspace for HR Case Management provides inf
 
 The contextual side panel provides a column of icons that provides you with information. Use the information when you interact with your employees or to complete the case.
 
-\[Omitted image "contextual-sidebar-1.png"\] Alt text: Contextual side panel in Agent Workspace showing column of icons for case information and employee interaction
+\[Omitted image "contextual-sidebar-1.png"\] Alt text: HR Agent Workspace Contextual side panel
 
 The icons that appear depend on the type of HR case you are looking at.
 
@@ -32,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "agent-ws-hr-at-a-glance-icon.png"\] Alt text:
+\[Omitted image "agent-ws-hr-at-a-glance-icon.png"\] Alt text: Click the At a Glance icon to show the At a Glance panel
 
 </td><td>
 
@@ -40,7 +40,7 @@ At a Glance: Provides key HR profile details for fast recall. Having this inform
 
 </td></tr><tr><td>
 
-\[Omitted image "knowledge-base-icon.png"\] Alt text:
+\[Omitted image "knowledge-base-icon.png"\] Alt text: Agent Assist icon
 
 </td><td>
 
@@ -48,7 +48,7 @@ Agent Assist: Provides relevant knowledge articles about the case. You can also 
 
 </td></tr><tr><td>
 
-\[Omitted image "employee-docs-icon.png"\] Alt text:
+\[Omitted image "employee-docs-icon.png"\] Alt text: Employee Documents icon
 
 </td><td>
 
@@ -56,21 +56,20 @@ Employee Documents: Lists documents related to the case you are on. Select the d
 
 </td></tr><tr><td>
 
-\[Omitted image "attach-icon.png"\] Alt text:
+\[Omitted image "attach-icon.png"\] Alt text: Attachment icon
 
 </td><td>
 
-Attachments: Documents relevant or related to the HR case are displayed as attachments. These documents can be moved to Employee Document Management \(EDM\) for archival and historical purposes. For example, receipts for tuition reimbursement are attachments to an HR case. After you move attachments to Employee Document Management, they will be employee documents.-   To add attachments to a case, click **Select File**.
--   To download all attachments at one time, select \[Omitted image "select-icon.png"\] Alt text: and select **Download all**.
--   To download only a specific attachment, select a specific attachment, select \[Omitted image "select-icon.png"\] Alt text:, and select **Download**.
--   To delete all attachments at one time, select \[Omitted image "select-icon.png"\] Alt text: and select **Delete all**.
--   To delete only a specific attachment, select a specific attachment, select \[Omitted image "select-icon.png"\] Alt text:, and select **Delete**.
+Attachments: Documents relevant or related to the HR case are displayed as attachments. These documents can be moved to Employee Document Management \(EDM\) for archival and historical purposes. For example, receipts for tuition reimbursement are attachments to an HR case. After you move attachments to Employee Document Management, they will be employee documents. See [Move employee documents using HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-edm.md).-   To add attachments to a case, click **Select File**.
+-   To download all attachments at one time, select \[Omitted image "select-icon.png"\] and select **Download all**.
+-   To download only a specific attachment, select a specific attachment, select \[Omitted image "select-icon.png"\], and select **Download**.
+-   To delete only a specific attachment, select a specific attachment, select \[Omitted image "select-icon.png"\], and select **Delete**.
 
-**Note:** A small green dot indicates there are attachments \[Omitted image "agent-ws-hr-attach-icon.png"\] Alt text:.
+**Note:** A small green dot indicates there are attachments \[Omitted image "agent-ws-hr-attach-icon.png"\] Alt text: HR Agent WS - Attachment icon.
 
 </td></tr><tr><td>
 
-\[Omitted image "templates-aws.png"\] Alt text:
+\[Omitted image "templates-aws.png"\] Alt text: Templates icon
 
 </td><td>
 
@@ -78,7 +77,7 @@ Templates: Displays reusable templates that you can use to auto-fill certain fie
 
 </td></tr><tr><td>
 
-\[Omitted image "response-template-icon.png"\] Alt text:
+\[Omitted image "response-template-icon.png"\] Alt text: Response Template icon
 
 </td><td>
 
@@ -90,7 +89,7 @@ Response Templates: Displays reusable messages that you can use when responding 
 
 </td></tr><tr><td>
 
-\[Omitted image "fulfill-insts-icon.png"\] Alt text:
+\[Omitted image "fulfill-insts-icon.png"\] Alt text: Fulfillment instructions icon
 
 </td><td>
 
@@ -100,15 +99,15 @@ Fulfillment Instructions: Provides you with focused and targeted information on 
 
 </td></tr><tr><td>
 
-\[Omitted image "checklist-icon.png"\] Alt text:
+\[Omitted image "checklist-icon.png"\] Alt text: Checklist icon
 
 </td><td>
 
-Checklist: Provides you with a list of things that need to be checked or done. Checklist helps you in resolving an issue efficiently and in a quicker way.For more information, see [Using checklists in HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-checklists.md).
+Checklist: Provides you with a list of things that need to be checked or done. Checklist helps you in resolving an issue efficiently and in a quicker way.For more information, see [Using checklists in HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-checklists.md).
 
 </td></tr><tr><td>
 
-\[Omitted image "personal-notes.png"\] Alt text:
+\[Omitted image "personal-notes.png"\] Alt text: Personal notes
 
 </td><td>
 

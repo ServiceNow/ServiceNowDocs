@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -21,11 +21,11 @@ Use the Discovery Admin Workspace dashboard to create an Amazon Web Services \(A
 
 Verify the following:
 
--   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-install-prereqs.md).
+-   At least one validated MID Server with a status of **Up** is installed. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
--   You have created suitable credentials in the ServiceNow AI Platform to connect with the service accounts on which you want to perform the discovery.
--   Cloud Discovery has adequate permission to discover the resources of the target cloud. For more information on AWS cloud permissions, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aws-create-user-policy-cloud-mgt.md).
--   You're using Discovery Admin Workspace v1.11.0 or later.
+-   Suitable credentials are created in the ServiceNow AI Platform to connect with the service accounts on which you want to perform the discovery. For more information, see [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/access-aws-accounts.md).
+-   Cloud Discovery is configured with adequate permission to discover the resources of the target cloud. For more information on AWS cloud permissions, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aws-create-user-policy-cloud-mgt.md).
+-   Discovery Admin Workspace, starting with v1.11.0 is installed.
 
 Role required: discovery\_admin
 
@@ -43,15 +43,15 @@ Role required: discovery\_admin
 
 6.  Choose a MID Server.
 
-<table id="choicetable_bcg_4pg_z2c"><thead><tr><th align="left" id="d284856e224">
+<table id="choicetable_bcg_4pg_z2c"><thead><tr><th align="left" id="d406292e241">
 
 Option
 
-</th><th align="left" id="d284856e227">
+</th><th align="left" id="d406292e244">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d284856e233">
+</th></tr></thead><tbody><tr><td id="d406292e250">
 
 **Use a cluster of MID servers**
 
@@ -59,7 +59,7 @@ Description
 
 Select an existing MID Server. Clusters provide failover protection and load balancing between MID Servers. See [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md) for more information.
 
-</td></tr><tr><td id="d284856e252">
+</td></tr><tr><td id="d406292e269">
 
 **Automatically select a MID server**
 
@@ -67,7 +67,7 @@ Select an existing MID Server. Clusters provide failover protection and load bal
 
 An available MID Server with an Identity and Access Management \(IAM\) role is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-auto-mid-selection.md) for more information.
 
-</td></tr><tr><td id="d284856e280">
+</td></tr><tr><td id="d406292e297">
 
 **Search for a MID server**
 
@@ -82,20 +82,20 @@ Choose a MID Server to run the Discovery schedule. Only MID Servers that are val
 
     |Option|Description|
     |------|-----------|
-    |**Existing cloud account**|Select an existing cloud account on your instance. Once an account is selected, the **Account name** and **Account ID** fields auto-populate.|
-    |**New cloud account**|Add a new cloud account to your instance by entering an account name and ID.|
+    |**Existing cloud account**|Select an existing cloud account on your instance. Once an account is selected, the **Account name**, **Account ID**, **Discover GovCloud regions**, and **GovCloud URL** fields auto-populate.|
+    |**New cloud account**|Add a new cloud account to your instance by entering an account name and ID. To discover GovCloud regions, set **Discover GovCloud regions** to **Yes** and enter the **GovCloud URL**.|
 
 9.  Choose whether you want to **Assume an IAM role** or **Use permanent credentials**.
 
-<table id="choicetable_lvl_1hq_jhc"><thead><tr><th align="left" id="d284856e372">
+<table id="choicetable_lvl_1hq_jhc"><thead><tr><th align="left" id="d406292e404">
 
 Option
 
-</th><th align="left" id="d284856e375">
+</th><th align="left" id="d406292e407">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d284856e381">
+</th></tr></thead><tbody><tr><td id="d406292e413">
 
 **Assume an IAM role**
 
@@ -107,7 +107,7 @@ The MID Server temporarily assumes an IAM role using a trust relationship. After
 -   The IAM role must trust the MID Server's account so it can assume the role.
 If these prerequisites aren't met, verification fails. It's best to confirm with your cloud admin that the role and trust relationship are properly configured before proceeding.
 
-</td></tr><tr><td id="d284856e407">
+</td></tr><tr><td id="d406292e439">
 
 **Use permanent credentials**
 
@@ -122,7 +122,7 @@ The MID Server uses static access keys tied to an IAM user.
 
     **Note:** This option displays only when the target cloud account is an AWS management account.
 
-    1.  If discovering specific subscriptions, select **Add member accounts**.
+    1.  If discovering specific member accounts, select **Add member accounts**.
 
         The Discoverable Accounts dialog displays.
 
@@ -140,13 +140,7 @@ The MID Server uses static access keys tied to an IAM user.
 
 13. Select **Next**.
 
-14. To complement your cloud schedule with an IP-based Discovery schedule, enable the **Create a server discovery schedule** toggle.
-
-    1.  Select a method from the **Discovery method** drop-down list.
-
-        **Discover servers with credentials** uses operating system \(OS\)-level credentials to perform deep discovery on EC2 instances. **Discover servers with AWS Systems Manager \(SSM\)** uses AWS SSM Agent to perform deep discovery on EC2 instances. The system property **glide.discovery.enable\_ssm** must be enabled to use SSM discovery. For more information, see [Enable AWS SSM-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/enable-aws-ssm-based-discovery.md).
-
-    2.  Select a MID Server or cluster that can discover the Virtual Machines \(VM\) and their attributes.
+14. To complement your cloud schedule with an IP-based Discovery schedule, enable the **Create a server discovery schedule** toggle and choose a MID Server.
 
 15. Select **Next**.
 

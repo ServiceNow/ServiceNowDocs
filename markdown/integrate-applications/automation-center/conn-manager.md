@@ -7,14 +7,16 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Explore, Automation Center, Workflow Data Fabric]
+breadcrumb: [Exploring Automation Center, Automation Center, Data and Automation]
 ---
 
 # Connection Manager
 
 Connection Manager enables you to add data from a third-party tool into Automation Center tables by correctly mapping and testing the data import.
+
+**Note:** In Connection Manager, only current session's domain data is displayed.
 
 Connection Manager helps you to add data from a third-party tool into Automation Center tables efficiently and in a few clicks.
 

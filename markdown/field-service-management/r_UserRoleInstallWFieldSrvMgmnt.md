@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/r\_UserRoleInstallWFieldSrvMgmnt.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Components installed, Reference, Field Service Management]
+breadcrumb: [Components installed with Field Service Management, Field Service Management reference, Field Service Management]
 ---
 
 # Roles installed with Field Service Management
@@ -40,16 +40,13 @@ Manages data related to field service management. Field service management admin
 -   View expense lines.
 -   View certain fields in non-subscription-based contracts.
 -   Create questionnaires.
+-   Assign skills to agents.
 -   Book an appointment.
--   Create, read, upload, and delete ACLs for Custom Map Screen and Custom Map Provider.
--   Review quality management configuration, auto close configuration, and monitor the quality dashboard.
--   Manage the Acceptance due date, and work management order fields.
--   Migrate UI actions to questionnaires.
 
 </td><td>
 
 -   wm\_approver\_user
--   fsm\_skill\_admin
+-   fsm\_skill\_admin \(contains the skill\_manager role\)
 -   dynamic\_scheduling\_admin
 -   wm\_agent
 -   skill\_model\_admin
@@ -215,7 +212,6 @@ Initiator-qualifiers can:-   Create work orders.
 -   Create tasks.
 -   Add part requirements.
 -   Source parts.
--   Assign skills to agents.
 -   View incidentals.
 
 </td><td>
@@ -233,7 +229,6 @@ Initiator-qualifier-dispatchers can:-   Create work orders.
 -   Create tasks.
 -   Add parts requirements.
 -   Source parts.
--   Assign skills to agents.
 -   Assign work to agents.
 -   Manage agent tasks.
 -   View incidentals.
@@ -253,11 +248,12 @@ Field Service Management Manager\[wm\_manager\]
 Field Service Managers can:-   Manage agent skills
 -   Manage time cards
 -   View and maintain work schedules
+-   Assign skills to agents
 -   View and maintain personal events
 
 </td><td>
 
--   fsm\_skill\_admin
+-   fsm\_skill\_admin \(contains the skill\_manager role\)
 -   wm\_agent
 -   timecard\_manager
 -   agent\_schedule\_manager
@@ -325,35 +321,10 @@ Create, delete, and modify work order tasks and part requirements when both the 
 
 wm\_initiator
 
-</td></tr><tr><td>
-
-Field Service Management Proxy Admin \[sn\_fsm\_proxy\_actn.proxy\_admin\]
-
-</td><td>
-
-Required to create or edit a proxy policy.
-
-</td><td>
-
--   sn\_fsm\_proxy\_actn.proxy\_agent
--   delegation\_admin
-
-</td></tr><tr><td>
-
-Field Service Proxy Agent \[sn\_fsm\_proxy\_actn.proxy\_agent\]
-
-</td><td>
-
-Required to perform a proxy action. Every user who performs a proxy action needs
-
-</td><td>
-
- 
-
 </td></tr></tbody>
 </table>## Role integration with Customer Service Management
 
-When you enable the Case Management Core plugin \(com.sn\_customerservice\) along with the Field Service Management plugin \(com.snc.work\_management\) and add specific Customer Service roles to Field Service agents, they can view or create a case and also view additional customer service data. For more information on customer service agent roles, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
+When you enable the Customer Service Management plugin \(com.sn\_customerservice\) along with the Field Service Management plugin \(com.snc.work\_management\) and add specific Customer Service roles to Field Service agents, they can view or create a case and also view additional customer service data. For more information on customer service agent roles, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
 <table id="table_abt_gsr_4jb"><thead><tr><th>
 
@@ -388,7 +359,7 @@ To have read-only access to customer data entities such as:-   Install base item
 
 </td></tr><tr><td>
 
-sn\_csm\_proxy\_cont
+sn\_customerservice.proxy\_contact
 
 </td><td>
 

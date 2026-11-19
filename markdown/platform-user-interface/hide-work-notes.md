@@ -1,38 +1,36 @@
 ---
-title: Hide journal fields
-description: Hide journal fields for forms so that work notes and comments only appear in the Activity stream.
+title: Hide journal fields on Workspace forms
+description: Disable journal fields on Workspace forms so that work notes and comments only appear in the Activity Stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/hide-work-notes.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Working on records in your Workspace, Using Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Hide journal fields
+# Hide journal fields on Workspace forms
 
-Hide journal fields for forms so that work notes and comments only appear in the Activity stream.
+Disable journal fields on Workspace forms so that work notes and comments only appear in the Activity Stream.
 
 ## Before you begin
 
-Role required: form\_admin
+Hiding journal fields is not supported for new records. New records display journal input fields because Activity Stream doesn't display. ​
+
+Role required: admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX View Rules Configurations**.
 
-2.  From the UX View Rules Configurations list, select a workspace.
+2.  Select the Workspace Experience that contains the record page with the work notes you want to hide.
 
-    The UX View Rules Configuration record for the workspace opens.
+3.  Select a Workspace View Rule from the Workspace View Rules related list.
 
-3.  From the Workspace View Rules related list, select a record type.
+4.  On the View Rule form, select the **Form Settings** tab.
 
-    The View Rule record for the record type opens.
-
-4.  Select the **Form Settings** tab.
-
-5.  Select **Hide Journal Input Fields**.
+5.  In the Form Settings tab, select **Hide Journal Input Fields**.
 
 6.  Select **Update**.
 

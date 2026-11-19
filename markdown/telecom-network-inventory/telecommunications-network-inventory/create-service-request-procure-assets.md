@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Hardware Asset Management integration, Integrate, Telecommunications Network Inventory]
+breadcrumb: [Telecommunications Network Inventory integration with Hardware Asset Management, Integrating Telecommunications Network Inventory with other applications, Telecommunications Network Inventory]
 ---
 
 # Create a service request to procure assets

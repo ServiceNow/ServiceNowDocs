@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/modify-data-retention-table-cleanup-sales-cart.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring Sales Cart for Business Portal, Business Portal, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring the Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Modifying the data retention and table cleanup policy for the Sales Cart application
@@ -19,12 +19,10 @@ By default, records in the complete state are deleted from the Sales Cart \[sn\_
 -   Records older than six months
 -   Records that haven't been updated for more than six months
 
-Modify the data retention and table cleanup frequency depending on your expected load and volume. For more information, see [Modify data retention policy for ATF test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/atf-edit-table-cleanup.md).
+Modify the data retention and table cleanup frequency depending on your expected load and volume. For more information, see .
 
 **Related topics**  
 
 
-[Table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/table-cleanup.md)
-
-[Autoflush form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/atf-auto-flush.md)
+[bundle-cadev.table-cleanup]
 

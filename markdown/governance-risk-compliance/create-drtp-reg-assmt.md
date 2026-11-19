@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-drtp-reg-assmt.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create an assessment and enhance digital resilience data
@@ -39,21 +39,17 @@ It's required that you review your contracts and third parties annually. You can
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Operational Resilience Workspace** &gt; **Digital resilience third-party registers** &gt; **Contracts** and select the desired contract.
+1.  Navigate to **Workspaces** &gt; **Operational Resilience Workspace** &gt; **Digital resilience third-party registers**.
 
-2.  In the **Assessments of the ICT services** tab on the Contract form, select **New**.
+2.  Select **Contracts** and then select the contract record you want to associate an assessment record with.
 
-    The Create New Assessment of the ICT service form is displayed.
+3.  Navigate to the Assessments of the ICT services related list and select **New**.
 
-3.  On the form, fill in the fields.
+4.  On the form, fill in the fields.
 
-4.  Set up the digital resilience information for the assessments on the form.
-
-    For more information, see [Create Assessment of the ICT service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-new-asmt-ict-service.md).
+    For descriptions of all these fields, see [Create New Contractual arrangement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-create-new-cont-arrange-form.md).
 
 5.  Select **Save**.
-
-    Every contract with specific information should have at least one assessment. If none exists, the system displays a warning instead of blocking the save.
 
 6.  To edit the assessment record, select it from the list and select **Edit**.
 
@@ -64,15 +60,15 @@ It's required that you review your contracts and third parties annually. You can
 
 7.  To export the record, select **Export**.
 
-<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d208409e247">
+<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d341743e235">
 
 Step
 
-</th><th align="left" id="d208409e250">
+</th><th align="left" id="d341743e238">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d208409e256">
+</th></tr></thead><tbody><tr><td id="d341743e244">
 
 **Select __File Type__.**
 
@@ -84,7 +80,7 @@ File type selected for the export. Available choices are:-   **Excel**
 -   **PDF**
 
 
-</td></tr><tr><td id="d208409e286">
+</td></tr><tr><td id="d341743e274">
 
 **Select __Delivery Type__.**
 
@@ -94,7 +90,7 @@ Delivery type selected for the export. Available choices are:-   **Download**
 -   **Email**
 
 
-</td></tr><tr><td id="d208409e308">
+</td></tr><tr><td id="d341743e296">
 
 **Select __Export.__**
 
@@ -112,9 +108,6 @@ Once all details are captured, you can perform the following tasks:
 
 -   Download the information using the Microsoft Excel download feature
 -   Upload requests as needed
-
--   **[Create Assessment of the ICT service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-new-asmt-ict-service.md)**  
-On the Create Assessment of the ICT service form, fill in the fields.
 
 **Parent Topic:**[Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/using-dg-registers.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-05-08"
 reading_time_minutes: 1
-breadcrumb: [Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Resolving platform performance issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Improving response times on forms

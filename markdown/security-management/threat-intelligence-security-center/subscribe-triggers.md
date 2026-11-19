@@ -7,9 +7,8 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [subscribe webhook triggers, Webhook Triggers dialog, unsubscribe webhook]
 breadcrumb: [Configure webhooks, Working with Webhooks, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

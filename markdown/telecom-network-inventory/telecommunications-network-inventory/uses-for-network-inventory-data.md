@@ -1,5 +1,5 @@
 ---
-title: Data model
+title: Data model for Telecommunications Network Inventory
 description: The data model for Telecommunications Network Inventory displays the relationships between your network assets, infrastructure, and services. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for the network growth in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.html
@@ -7,16 +7,16 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 7
-breadcrumb: [Explore, Telecommunications Network Inventory]
+breadcrumb: [Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
 ---
 
-# Data model
+# Data model for Telecommunications Network Inventory
 
 The data model for Telecommunications Network Inventory displays the relationships between your network assets, infrastructure, and services. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for the network growth in your organization.
 
-The data model contains details about your network assets, including telco equipment configuration data, port availability, and bandwidth allocations between your sites and services. It enables you to build, manage, maintain, and allocate network infrastructure and services. It also supports the automation of design and creation of network equipment and connections for customer service orders and internal network orders.
+The data model contains the details about your network assets, such as the telco equipment configuration data, port availability of a framework, and bandwidth allocations between your sites and services. This data model enables you to build, manage, maintain, and allocate the network infrastructure and services. Further, this data model provides a for the automation of design and creation of your network equipment and connections that support the customer service orders and internal network orders.
 
 The assets, services, and the relationships of your network inventory defines the infrastructure of your telecommunications networks. With this information, you can plan and forecast your network. You can store the data of the asset in a network inventory record.
 
@@ -189,7 +189,7 @@ Network Topology \[cmdb\_ci\_network\_topology\]
 
 Represents the grouping of the network elements such as nodes \(equipment\), edges \(connections\), and termination points \(interfaces\), how they are organized and connected to each other.
 
- To learn more, see [Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-of-topology.md).
+ To learn more, see [Visualization of network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-of-topology.md).
 
 </td></tr><tr><td>
 

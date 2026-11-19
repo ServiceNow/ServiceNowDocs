@@ -1,16 +1,16 @@
 ---
-title: Explore the Application Assessments dashboard
+title: Working with the Application Assessments dashboard
 description: The Application Assessments dashboard is a responsive dashboard that provides a complete view of applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-working-with-the-applications-assessment-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring dashboards in Enterprise Architecture Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Work with Enterprise Architecture Workspace dashboard, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Explore the Application Assessments dashboard
+# Working with the Application Assessments dashboard
 
 The Application Assessments dashboard is a responsive dashboard that provides a complete view of applications.
 
@@ -36,12 +36,10 @@ Use the following filters to narrow down the results on the dashboard page:
 
 On applying any filter, the filter criteria are applied to all available widgets across the dashboard.
 
-You can manually refresh the dashboard by using the refresh icon \(\[Omitted image "eaw-dashboard-refresh-icon.png"\] Alt text: Refresh dashboard icon.\).
+You can manually refresh the dashboard by using the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon.\).
 
-**Parent Topic:**[Exploring dashboards in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-exploring-dashboards-in-ea-workspace.md)
+-   **[View application performance in Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)**  
+Use the Application Assessments dashboard to view overview reports on the performance of the business applications.
 
-**Related topics**  
-
-
-[View application performance in Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)
+**Parent Topic:**[Working with the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-workspace-dashboard.md)
 

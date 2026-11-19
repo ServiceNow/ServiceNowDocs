@@ -1,100 +1,100 @@
 ---
 title: Find an app or app file using the Navigator panel
-description: Use the Navigator panel in ServiceNow Studio to browse apps and app files by metadata type and open them directly.
+description: Use the Navigator panel in ServiceNow Studio to find and open an app or app file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.html
 release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [ServiceNow Studio quick start, Exploring ServiceNow Studio, Building applications with ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Find an app or app file using the Navigator panel
 
-Use the Navigator panel in ServiceNow Studio to browse apps and app files by metadata type and open them directly.
+Use the Navigator panel in ServiceNow Studio to find and open an app or app file.
 
 ## Before you begin
 
-Role required: admin or delegated\_developer
+Role required: admin or delegated developer
 
 ## About this task
 
-The Navigator panel organizes apps and app files alphabetically by metadata category and type. For example, to find an audio app file, navigate to **File Categories** &gt; **Content** &gt; **Audio**.
+The Navigator panel in ServiceNow Studio is a powerful tool that you can use to find apps and app files. The Navigator panel is organized alphabetically and by metadata type. For example, if you want to find an audio app file, you can locate the file in the Navigator panel under **File Categories** &gt; **Content** &gt; **Audio**.
 
-For more information about the file types available in the Navigator panel, see [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md).
+For more information about the types of files you can find in the Navigator panel, see [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Verify that the Navigator panel is open on the left side of ServiceNow Studio.
+2.  On the left side of ServiceNow Studio, verify that the Navigator panel is open.
 
-3.  Select the icon that corresponds to the type of file you want to find.
+3.  Select the icon that corresponds to the type of file that you want to find.
 
-    -   To find an app, select the Apps icon \[Omitted image "sn-studio-apps-icon.png"\] Alt text:.
-    -   To find an app file, select the File Categories icon \[Omitted image "sn-studio-file-categories-icon.png"\] Alt text:.
-4.  Refine the list of apps or app files using the following options.
+    -   To find an app, select the Apps icon \(\[Omitted image "sn-studio-app-nav-icon.png"\] Alt text: apps icon\).
+    -   To find an app file, select the File Categories icon \(\[Omitted image "sn-studio-file-nav-icon.png"\] Alt text: file categories icon\).
+4.  Choose from the following options to refine the list of apps or app files that appear.
 
-<table id="choicetable_gjw_s5k_fdc"><thead><tr><th align="left" id="d175617e177">
+<table id="choicetable_gjw_s5k_fdc"><thead><tr><th align="left" id="d204411e164">
 
 Choice
 
-</th><th align="left" id="d175617e180">
+</th><th align="left" id="d204411e167">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d175617e186">
+</th></tr></thead><tbody><tr><td id="d204411e173">
 
-**Filter icon \[Omitted image "filter-fill-24.svg"\] Alt text:**
+**Filter icon \(\[Omitted image "filter-fill-24.svg"\] Alt text: filter icon\)**
 
 </td><td>
 
 **Note:** Only used when finding apps.
 
-Select a filter to display applications within a specific scope.Available filters: **All**, **Custom**, **Store**, **Creator Studio**, and **Fluent**. The default filter is **Custom**.
+Select a filter to display applications only within the selected scope.You can choose from **All**, **Custom**, **Store**, **Creator Studio**, and **Fluent** filters. By default, the filter is set to **Custom**.
 
-</td></tr><tr><td id="d175617e222">
+</td></tr><tr><td id="d204411e211">
 
-**Sort icon \[Omitted image "sort-ascending-outline-24.svg"\] Alt text:**
+**Sort icon \(\[Omitted image "sort-ascending-outline-24.svg"\] Alt text: sort icon\)**
 
 </td><td>
 
 Sort the list of apps or app files in alphabetical or reverse alphabetical order.
 
-</td></tr><tr><td id="d175617e235">
+</td></tr><tr><td id="d204411e226">
 
-**Filter list box\[Omitted image "sn-studio-filter-box-track.png"\] Alt text: Enter the name of the app or app file in the Filter list box to refine the list of items.
-
-**
-
-</td><td>
-
-Enter an app or app file name in the Filter list box to display only matching results.
-
-</td></tr><tr><td id="d175617e250">
-
-**Expand the metadata section\[Omitted image "sn-studio-metadata-section-flow.png"\] Alt text: Expand the metadata section, then select the file type that corresponds to the app file you are looking for
+**Filter list box\[Omitted image "sn-studio-filter-box-track.png"\] Alt text: Enter the name of the app or app file in the Filter list box to refine the list items.
 
 **
 
 </td><td>
 
-**Note:** Only used when finding app files. For more information, see [Metadata record categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
+Enter the name of the app or app file in the Filter list box to display only apps or files that contain your entered text.
 
-Expand the metadata section that contains the app file you want. For example, to find a flow file, expand **Automation** and select **Flow**.
+</td></tr><tr><td id="d204411e241">
+
+**Expand the metadata section\[Omitted image "sn-studio-metadata-section-flow.png"\] Alt text: Expand the metadata section, then select the file type that corresponds to the app file you're looking for
+
+**
+
+</td><td>
+
+**Note:** Only used when finding app files. For more information about metadata and app files, see [Working with metadata app file categories in the ServiceNow Studio Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sn-studio-working-with-metadata.md).
+
+Expand the metadata section that contains the app file that you’re looking for. For example, to find a flow file, expand the **Automation** section and then select **Flow**
 
 </td></tr></tbody>
-</table>5.  Select **Open list** to view a complete list of apps or app files in a new tab.
+</table>5.  Expand the list of apps or app files by selecting **Open list** link.
 
-    ServiceNow Studio opens a new tab with the complete list of apps or app files.
+    Selecting **Open list** opens a new tab in ServiceNow Studio that displays a complete list of apps or app files.
 
-6.  To view all files of a single metadata type, hover over a file type and select **Show all Files**.
+6.  Expand the list of a single type of metadata by hovering over a file type and selecting **Show all Files**.
 
     \[Omitted image "sn-studio-show-all-files.png"\] Alt text: Selecting show all files opens a list of just one type of file.
 
-7.  Select the app or file to open it in a new integrated tab.
+7.  Select the app or file to open it in a new tab in ServiceNow Studio.
 
 

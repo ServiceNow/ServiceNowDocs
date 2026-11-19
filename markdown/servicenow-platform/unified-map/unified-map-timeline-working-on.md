@@ -7,9 +7,9 @@ release: yokohama
 product: Unified Map
 classification: unified-map
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [UNDER CONSTRUCTION Use, Unified Map, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Viewing related items on the Unified Map timeline
@@ -79,7 +79,7 @@ View the date and time for a related item marker
 
 </td><td>
 
-Move to the marker.
+Point to the marker.
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ View the details for a related item
 
 </td><td>
 
-Move to the badge for the related item.
+Point to the badge for the related item.
 
 </td></tr><tr><td>
 

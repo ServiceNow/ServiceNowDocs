@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-06-25"
 reading_time_minutes: 2
-breadcrumb: [Floor map, Network visualization view, Use, Telecommunications Network Inventory]
+breadcrumb: [Using the floor map, Using Network visualization view, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
 ---
 
 # Map Indoor Mapping campus to a datacenter
@@ -64,12 +64,12 @@ The Indoor Mapping campus record including buildings, floors, places are mapped 
 
 View the details of your datacenter infrastructure using the floor map. To learn more, see [View details of floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/view-details-floor-map.md).
 
-**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
+**Parent Topic:**[Using the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 
 **Related topics**  
 
 
 [Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/sync-cmn-location.md)
 
-[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.md)
+[Visualization of floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.md)
 

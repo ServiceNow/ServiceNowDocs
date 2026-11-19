@@ -7,9 +7,9 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Viewing schedules and request time-off, On-Call Scheduling, IT Service Management]
+breadcrumb: [View schedules and request time-off, On-Call Scheduling, IT Service Management]
 ---
 
 # View my personal schedule on the My Schedule report

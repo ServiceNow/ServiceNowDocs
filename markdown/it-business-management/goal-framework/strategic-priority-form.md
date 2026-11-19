@@ -7,7 +7,7 @@ release: yokohama
 product: Goal Framework
 classification: goal-framework
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -84,14 +84,6 @@ Strategic priority type categorizes the strategic priority by its nature and org
 
 </td></tr><tr><td>
 
-Status
-
-</td><td>
-
-Status of the strategic priority. Status can be **Red**, **Yellow**, **Green**, or **No status**.
-
-</td></tr><tr><td>
-
 Strategic Plan
 
 </td><td>
@@ -104,13 +96,8 @@ Description
 
 </td><td>
 
-A detailed description of the strategic priority.You can refine strategic priority description using the Refine records skill, if the ServiceNow Otto for SPM application is installed.
+A detailed description of the strategic priority.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/goal-framework-reference.md)
-
-**Related topics**  
-
-
-[Enterprise strategy example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/enterprise-goal-example-strategy-gf.md)
 

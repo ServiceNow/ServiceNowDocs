@@ -1,43 +1,40 @@
 ---
 title: Customize an order summarization skill in ServiceNow Otto for Order Management
-description: Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CRM Workspace and Business Portal.
+description: If you have the admin role, you can configure the ServiceNow Otto for Order Management application so that your order agent and fulfilment agent can use the generative AI skills in CSM Configurable Workspace and in Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/customize-order-summarization-skill-now-assist-order-management.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-11-12"
 reading_time_minutes: 4
-keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Order management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure, ServiceNow Otto for Order Management]
 ---
 
 # Customize an order summarization skill in ServiceNow Otto for Order Management
 
-Configure the ServiceNow Otto for Order Management application so that your order agent and fulfillment agent can use the generative AI skills in the CRM Workspace and Business Portal.
+If you have the admin role, you can configure the ServiceNow Otto for Order Management application so that your order agent and fulfilment agent can use the generative AI skills in CSM Configurable Workspace and in Platform.
 
 ## Before you begin
-
-**Note:** Microsoft Azure, Amazon bedrock, Now LLM, Now LLM LTS, and Google Cloud vertex AI are currently the providers for this ServiceNow Otto application's skills.
 
 Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
 
-2.  In the **Customer** workflow group, view the skills for the ServiceNow Otto for Order Management under Sales CRM.
+2.  In the **Customer** workflow group, view the skills for the ServiceNow Otto for Order Management under SOM.
 
-3.  Copy the order summarization skill for customization.
+3.  Copy the Order Summarization skill for customization.
 
-    1.  Make a copy of an active skill by selecting either **Order Summarization \(Order Capture\)** or **Order Summarization \(Order Fulfillment\)**.
+    1.  Choose either Order Summarization \(Order Capture\) or Order Summarization \(Order Fulfilment\) to make a copy of an active skill.
 
         **Note:** Only one version of a skill can be active at a time for each skill. If you create and activate a copy of the skill, any previously activated version of the skill is deactivated.
 
-    2.  Select the More actions icon \[Omitted image "more-options.png"\] Alt text: for the skill, and create a copy that you can customize by selecting **Make a copy**.
+    2.  Select the More actions icon \[Omitted image "more-options.png"\] Alt text: More options icon. for the skill, and create a copy that you can customize by selecting **Make a copy**.
 
         The copy that you make is listed in the All section.
 
-    3.  On the copied skill, select **Activate skill** to open and modify it.
+    3.  Select **Activate skill** on the copied skill to open and modify it.
 
         A guided setup leads you through configuring General details, View order input, Customize prompt output, Define Availability, Define access, select display, and Review and activate of the skill to be customized.
 
@@ -47,13 +44,13 @@ Role required: admin
 
     2.  Select **Save and continue** to go to the next step.
 
-    **Note:** The **More details on the skills** fields are read-only.
+    **Note:** The **More details on the skills** are read-only fields.
 
 5.  Configure the base input table fields and related lists for the different input templates \(Product Order Capture or Service Order Capture\) for the skill.
 
-    **Note:** The **Choose base table** field is ready-only.
+    **Note:** The **Choose base table** is a ready-only field.
 
-    Each skill relies on a base input table and input fields with descriptions to provide context for all the Now LLM Service to generate a response.
+    Each skill relies on a base input table and input fields with descriptions to provide context for all the LLM Services to generate a response.
 
     Select only those related tables that are offered as the base system as part of the input data.
 
@@ -89,18 +86,18 @@ Field description
 
 Description of the base input field value.
 
- For example, `Order number`.
+ For example, `Order number.`
 
 </td></tr></tbody>
 </table>    2.  For each input template, configure the rule conditions by using the condition builder to filter the data.
 
-        The rule conditions determine when the input template is used. By default, the record state determines the input template that all Now LLM Service use.
+        The rule conditions determine when the input template is used. By default, the record state determines the input template that all LLM services use.
 
-        You can build the condition out further by selecting **New condition set** and configuring additional parameters.
+        You can build the condition out further by selecting **+New condition set** and configuring additional parameters.
 
-    3.  Configure the additional input data sources by selecting **New data source** for each input template, as needed.
+    3.  For each input template, select **+New data source** to configure the additional input data sources, as needed.
 
-        Adding input data source, like the related tables, provides more context to all Now LLM Service in a related list.
+        Adding input data source, like the related tables, provides more context to all LLM services in a related list.
 
         You can also add the rule conditions to these additional data sources.
 
@@ -108,42 +105,42 @@ Description of the base input field value.
 
     4.  Select **Save and continue** to go to the next step.
 
-6.  Customize the prompt output.
+6.  Customize prompt output.
 
-    Review and test the default prompt provided. The prompt is fixed and can’t be customized directly within this step or from the AI Admin Hub screen.
+    Review and test the default prompt provided. The prompt is fixed and can’t be customized directly in this step or from the Now Assist Admin screen.
 
-    To customize or create prompts, select **Edit prompt in AI Skill Kit**. You are redirected to the AI Skill Kit, where you can manage prompt configurations for the skill. For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skill-kit-landing.md).
+    To customize or create prompts, select **Edit prompt in Now Assist Skill Kit**. You are redirected to the Now Assist Skill Kit, where you can manage prompt configurations for the skill. For more info, see [Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)
 
     1.  For each input template \(Product Order Capture or Service Order Capture\), select a record in the Test output section and test the prompt response output format by selecting **Run Test**.
 
     2.  Select **Save and continue** to go to the next step.
 
-7.  Use the Define availability section to define how the skill is available to users.
+7.  Define how the skill is available to your users in the Define availability section.
 
-    1.  Configure the skill to be available to users, or select the conditions that must be met before the skill is available.
+    1.  Configure the skill to be available to users, or select conditions that must be met before the skill is available.
 
         Selecting **Customize skill availability** displays a condition builder to filter the data further.
 
-        Select **New condition set** to configure additional conditions, as needed.
+        Select **+New condition set** to configure additional conditions, as needed.
 
     2.  Select **Save and continue** to go to the next step.
 
-8.  Specify which users can access the skill in the Define access section.
+8.  Select **Define access** to determine who can access this skill.
 
-    By selecting specific roles, you're controlling who can use the skill. The roles that you choose will also be available in the **Select display** step.
+    By selecting specific roles, you're controlling who can use it. The roles you choose will also be available in the next step **Select display**.
 
-    Default and Custom roles:
+    Default and Custom Roles:
 
     -   If no changes are made, the default role sn\_ind\_tmt\_orm.order\_agent automatically appears in **User access - Access Control List \(ACL\)**.
-    -   Apply role restrictions when the skill is invoked by selecting **Roles** and defining which data and resources \(for example, tables\) the user can access in the **Role restrictions to skill** field.
+    -   Select **Roles** to apply role restrictions whenever the skill is invoked, defining which data and resources \(for example, tables\) it can access in **Role restrictions to skill**.
 
-        **Note:** If you add a role in the **Define Access** step, you must manually select it in the **Select Display** field to make it active.
+        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you must manually select it in **Select Display** to make it active.
 
-9.  Configure the **In-product desktop** field to display the order summarization for Order Management.
+9.  Configure **In-product desktop** to display the order summarization for Order Management.
 
-    1.  Display Now Assist skills on the forms and workspaces by selecting the **In-product desktop** field.
+    1.  Select **In-product desktop** to display Now Assist skills on the forms and workspaces.
 
-        For the skills that appear in-product, select the arrow to identify the roles that can use the skill.
+        For the skills that appear in-product, select the right arrow to identify the roles that can use the skill.
 
     2.  Select **Save and continue** to go to the next step.
 
@@ -154,5 +151,5 @@ Description of the base input field value.
     Select **Summarize** in an order to generate the order summary.
 
 
-**Parent Topic:**[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-for-order-management-configuring.md)
 

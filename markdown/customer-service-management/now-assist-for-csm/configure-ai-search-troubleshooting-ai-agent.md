@@ -7,10 +7,10 @@ release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-04-11"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Configure AI Search to use with the Troubleshooting steps identification AI agent
@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-This AI agent relies on AI Search for fetching the relevant cases and knowledge articles that could help solve your issue. For more information on configuring AI Search, see [Using AI Search with CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-ai-search.md) and [Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/semantic-index-cfg-ais.md).
+This AI agent relies on AI Search for fetching the relevant cases and knowledge articles that could help solve your issue. For more information on configuring AI Search, see [Using AI Search with CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-ai-search.md) and [Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/semantic-index-cfg-ais.md).
 
 ## Procedure
 

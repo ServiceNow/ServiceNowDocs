@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2024-08-02"
 reading_time_minutes: 3
-breadcrumb: [Reference, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Cloud Account Management reference, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Policy list for scanning cloud accounts

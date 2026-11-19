@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Enabling ACC data collection, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
 
 # Clear Agent Client Collector plugins
@@ -36,14 +36,12 @@ Role required: agent\_client\_collector\_admin
 
 2.  Select an agent.
 
-3.  In the **Related Links** section, select **Clear ACC Plugins**.
+3.  In the **Related Links** section, select **Clear Assets**.
 
-4.  In the confirmation dialog box, select **Clear ACC Plugins**.
+4.  In the confirmation dialog box, select **Clear Agent Assets**.
 
 5.  Select **Collect host data** to re-download your plugins from the instance.
 
     Plugins download automatically when used by their respective checks/policies.
 
-
-**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/data-collection-enabling.md)
 

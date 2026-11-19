@@ -1,20 +1,20 @@
 ---
 title: Incident Management in Service Operations Workspace reference
-description: Find additional information about Incident Management in Service Operations Workspace.
+description: Reference topics provide additional information about Incident Management in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/sow-im-reference.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Incident Management in Service Operations Workspace, Operate, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Incident Management in Service Operations Workspace reference
 
-Find additional information about Incident Management in Service Operations Workspace.
+Reference topics provide additional information about Incident Management in Service Operations Workspace.
 
 -   **[Components installed with Agent Client Collector for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/components-installed-investigate.md)**  
 Several types of components are installed with activation of the Agent Client Collector for Investigation \(sn\_acc\_adapter\) application, including user roles and ServiceNow Store applications.
@@ -46,9 +46,9 @@ Validate that Incident Management in Service Operations Workspace still works af
 
 [Work on an incident record in Service Operations Workspace]()
 
-[Remedial actions using Playbook]()
-
 [Close resolved incident]()
+
+[Remedial actions using Playbook]()
 
 [Reopen an incident in Service Operations Workspace]()
 

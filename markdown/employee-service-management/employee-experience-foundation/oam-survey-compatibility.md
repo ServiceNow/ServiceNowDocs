@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow for Microsoft Outlook reference, ServiceNow for Microsoft Outlook, EmployeeWorks, Employee Service Management]
+breadcrumb: [Reference, ServiceNow for Microsoft Outlook, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
 ---
 
 # Outlook Actionable Messages compatibility for surveys

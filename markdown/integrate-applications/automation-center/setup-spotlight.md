@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Spotlight feature, Configure, Automation Center, Workflow Data Fabric]
+breadcrumb: [Working with ServiceNow Spotlight feature, Configuring Automation Center, Automation Center, Data and Automation]
 ---
 
 # Set up ServiceNow Spotlight
@@ -18,7 +18,7 @@ Set up ServiceNow Spotlight to start using and getting the benefits of this feat
 
 ## Before you begin
 
-Install ServiceNow® Spotlight. For more information, see the ServiceNow Spotlight documentation.
+Install ServiceNow® Spotlight. For more information, see the [ServiceNow Spotlight documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/setting-up-spotlight.md).
 
 Role required: admin, pa\_spotlight
 

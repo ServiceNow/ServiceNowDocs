@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/use-customer-central.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Using Customer Service Management, Customer Service Management]
 ---
 
 # Use Customer Central
@@ -26,15 +26,15 @@ Use customer central to get a quick insight into key customer information and re
 
 **Note:** Accounts require contact information to display account information in Customer Central.
 
-In CRM Workspace, you can access Customer Central from within the Interaction, Contact, Account, or Consumer records.
+In CSM Configurable Workspace, you can access Customer Central from within the Interaction, Contact, Account, or Consumer records.
 
 ## Procedure
 
-1.  Open CRM Workspace.
+1.  Open CSM Configurable Workspace.
 
 2.  On the Interaction, Contact, Account, or Consumer record, select Customer Information to view key information on the customer.
 
-3.  On the Interaction, Contact, Account, or Consumer record, select Customer History to view recent activity from the customer or chat summary between the agent and customer.
+3.  On the Interaction, Contact, Account, or Consumer record, select Customer Activity to view recent activity from the customer or chat summary between the agent and customer.
 
 4.  Create a case or close the record.
 

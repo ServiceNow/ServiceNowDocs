@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-10-23"
 reading_time_minutes: 1
-breadcrumb: [Explore, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Explore, ServiceNow AI Lens, Enable AI experiences]
 ---
 
 # ServiceNow AI Lens skill
@@ -22,6 +22,8 @@ This skill is a Platform skill that is enabled by the admin from the ServiceNow 
 -   Preview the extracted data.
 -   Provide instructions to extract data in a specific way or to get a specific output.
 -   Gather insights from multiple images.
+
+\[Omitted image "servicenow-lens-skill.png"\] Alt text: ServiceNow lens screen.
 
 ## Availability
 

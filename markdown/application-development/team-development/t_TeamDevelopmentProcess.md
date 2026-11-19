@@ -7,18 +7,14 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Administer, Team Development, Planning your application, Classic app development, Building applications]
+breadcrumb: [Using Team Development, Team Development, Planning your application, Building applications]
 ---
 
 # Team Development process
 
 The basic Team Development process sets up the instance hierarchy, grants developer access rights, manages the movement of development changes from development instances to test instances, and promotes applications to the production instance.
-
-## Before you begin
-
-Role required: admin
 
 ## Procedure
 
@@ -48,7 +44,7 @@ Role required: admin
 **Related topics**  
 
 
-[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/team-development-landing.md)
+[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 
 [Access rights for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/r_GrantingAccessRightsToDevelopers.md)
 

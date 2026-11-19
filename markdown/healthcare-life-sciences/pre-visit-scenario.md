@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/pre-visit-scenario.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Explore, Pre-Visit Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Exploring Pre-Visit Management, Pre-Visit Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Pre-Visit Management - Workflow scenario
@@ -23,6 +23,8 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 Scenario: A physician orders the colonoscopy procedure for a patient from an EMR system. When a procedure request case is created in the ServiceNow instance, the Pre-Visit Management workflow initiates a playbook configured for procedure request cases. The case gets assigned to John Jason from the patient services group.
 
 The following graphic shows how the Pre-Visit Management application is used for managing the colonoscopy procedure request for a patient as discussed in the scenario.
+
+\[Omitted image "pre-visit-workflow.png"\] Alt text: Infographic displaying the Pre-Visit Management workflow. For more information, refer to the text that follows.
 
 The following workflow elaborates how various users use the Pre-Visit Management application for the colonoscopy procedure:
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/manage-escalated-case-account.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Case and account escalation, Manage cases, Use, Customer Service Management]
+breadcrumb: [Case and account escalation, Configure escalation management, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Manage an escalated case or account
@@ -16,10 +16,7 @@ Manage and document the progress for an escalation using the case or account esc
 
 ## Before you begin
 
-Role required:
-
--   sn\_customerservice\_agent or sn\_customerservice.consumer\_agent to escalate a case.
--   sn\_customerservice\_agent, sn\_customerservice.consumer\_agent sn\_crm\_escalation\_admin, or sn\_crm\_foundation\_admin, to escalate an account.
+Role required: sn\_customerservice\_agent or sn\_customerservice.consumer\_agent
 
 ## About this task
 

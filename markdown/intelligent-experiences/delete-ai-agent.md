@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/delete-ai-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-02-27"
 reading_time_minutes: 1
-breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---
 
 # Delete an AI agent
@@ -22,7 +22,7 @@ Role required: sn\_aia\_admin
 
 You must assign appropriate permissions by using the access control lists \(ACLs\) to delete AI agents on AI Agent Studio.
 
-**Note:** You can't delete the AI agents that come installed with applications.
+**Note:** You can't delete the AI agents that come installed with Now Assist applications.
 
 ## Procedure
 
@@ -30,9 +30,9 @@ You must assign appropriate permissions by using the access control lists \(ACLs
 
 2.  Select the check box of the AI agent that you want to delete and select **Delete**.
 
-    You can also delete multiple AI agents by selecting multiple AI agent records at a time.
+    \[Omitted image "delete-ai-agent.png"\] Alt text: Selecting the AI agent for deletion.
 
-    **Note:** Some AI agents installed with ServiceNow applications can't be deleted.
+    **Note:** You can also delete multiple AI agent cases by selecting multiple AI agent records at a time if you define the ACLs.
 
 3.  In the confirmation pop-up window, select **Delete**.
 

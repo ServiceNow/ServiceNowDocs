@@ -1,24 +1,22 @@
 ---
-title: Modify product model
-description: Modify a product record that your company sells and supports. The product record maintains all the product information used across customer issue management, quality investigations, service requests, warranty claims, and dealer collaboration workflows.
+title: Modify a product model
+description: Modify a product record that your company sells and supports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-create-prod-mod.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Set up MCO, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Configuring product models, Create a warranty contract, Set up Manufacturing Commercial Operations, Configuring Manufacturing Commercial Operations, Manufacturing Commercial Operations]
 ---
 
-# Modify product model
+# Modify a product model
 
-Modify a product record that your company sells and supports. The product record maintains all the product information used across customer issue management, quality investigations, service requests, warranty claims, and dealer collaboration workflows.
+Modify a product record that your company sells and supports.
 
 ## Before you begin
 
 Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_operations\_admin\)
-
-**Note:** To create the install base items, you need admin role \(sn\_customerservice\_manager\).
 
 ## About this task
 
@@ -26,22 +24,18 @@ Product models provide dealers and manufacturers with a detail of the products b
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace.**
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **MCO Setup** &gt; **Product Models**.
 
-2.  Select the List icon.
+2.  Select a product model that you want to edit.
 
-3.  Navigate to **MCO Setup** &gt; **Product Models**.
+3.  Select **Edit**.
 
-4.  Select a product model that you want to edit.
+4.  On the Model form, fill in the fields.
 
-5.  Select **Edit**.
+    For a description of the field values, see [Model form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/r_ModelFormFields.md).
 
-6.  Select **Update**.
+5.  Select **Update**.
 
-
-## Result
-
-The product model is updated with the latest information.
 
 **Related topics**  
 

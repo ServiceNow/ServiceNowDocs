@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development, Strategic Portfolio Management]
+breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development 2.0, Strategic Portfolio Management]
 ---
 
 # Agile 2.0 Team Dashboard
@@ -114,7 +114,7 @@ Active Stories by State
 
 </td><td>
 
-Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
+Bar chart\[Omitted image "column-icon.png"\] Alt text: Bar chart
 
 </td><td>
 
@@ -126,7 +126,7 @@ Time in State
 
 </td><td>
 
-Stacked bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
+Stacked bar chart\[Omitted image "bar-stacked.svg"\] Alt text: Stacked bar chart
 
 </td><td>
 
@@ -138,7 +138,7 @@ Average Cycle Time per State
 
 </td><td>
 
-Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
+Line chart \[Omitted image "line-icon.png"\] Alt text: Line chart
 
 </td><td>
 
@@ -163,7 +163,7 @@ Velocity History
 
 </td><td>
 
-Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
+Bar chart\[Omitted image "column-icon.png"\] Alt text: Bar chart
 
 </td><td>
 
@@ -185,7 +185,7 @@ Velocity by Type
 
 Stacked bar chart
 
- \[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
+ \[Omitted image "bar-stacked.svg"\] Alt text: Stacked bar chart
 
 </td><td>
 
@@ -208,7 +208,9 @@ Sprint Variance
 
 </td><td>
 
-Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
+Bar chart
+
+ \[Omitted image "column-icon.png"\] Alt text: Bar chart
 
 </td><td>
 
@@ -238,7 +240,7 @@ Team Members
 
 </td><td>
 
-List\[Omitted image "inline-data-vis-96px-list.png"\] Alt text:
+List
 
 </td><td>
 
@@ -263,7 +265,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
+Bubble chart\[Omitted image "bubble-icon.png"\] Alt text: Bubble chart
 
 </td><td>
 

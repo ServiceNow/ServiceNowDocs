@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Shodan integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -71,9 +71,11 @@ For the Madrid release and later family releases, the Security Incident Response
 
 2.  After the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Shodan tile.
 
-3.  Select **Configure**.
+    \[Omitted image "shodan-configure.png"\] Alt text: The tile with a description of the app and the button used to initiate the configuration.
 
-4.  In the **Shodan Configuration** dialog box, enter the API key you obtained from the Shodan website and select **Submit**.
+3.  Click **Configure**.
+
+4.  In the **Shodan Configuration** dialog box, enter the API key you obtained from the Shodan website and click **Submit**.
 
     \[Omitted image "shodan-api.png"\] Alt text: This field is populated with encrypted account information.
 

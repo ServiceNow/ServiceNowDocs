@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-12-01"
 reading_time_minutes: 2
-breadcrumb: [Employee profile, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Employee profile, Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure the Employee Profile overview widget

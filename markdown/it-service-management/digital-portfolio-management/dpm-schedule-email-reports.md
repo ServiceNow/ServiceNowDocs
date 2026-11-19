@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-04-17"
 reading_time_minutes: 3
-breadcrumb: [Configure the Admin Center, Configure, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Use the Admin Center in Digital Portfolio Management, Configuring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
 ---
 
 # Configure scheduled email reports in DPM Admin Center
@@ -19,8 +19,6 @@ Send periodic emails of KPI metrics to the DPM solution owners.
 ## Before you begin
 
 Role required: sn\_dpm.dpm\_admin
-
-\[Omitted video\] Description: Let's review the Digital Portfolio Management Admin Center.
 
 ## Procedure
 

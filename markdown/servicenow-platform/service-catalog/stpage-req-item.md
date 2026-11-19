@@ -1,25 +1,43 @@
 ---
 title: Standard ticket page for a requested item
-description: To display the related information, you can configure the standard ticket page for requested items on the various portals. This configuration verifies a consistent experience when viewing submitted requests in portals.
+description: In Service Portal, you can configure the ticket page of a requested item to display the related information, while still having a consistent layout that is similar to other request types. This configuration ensures a consistent experience when viewing submitted requests in Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/stpage-req-item.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service Catalog in Service Portal, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Standard ticket page for a requested item
 
-To display the related information, you can configure the standard ticket page for requested items on the various portals. This configuration verifies a consistent experience when viewing submitted requests in portals.
+In Service Portal, you can configure the ticket page of a requested item to display the related information, while still having a consistent layout that is similar to other request types. This configuration ensures a consistent experience when viewing submitted requests in Service Portal.
 
-For example, in Service Portal, you can access the ticket page for a requested item using the Requests option from the main menu header.
+In Service Portal, you can access the ticket page for a requested item by using the Requests option from the main menu header.
 
--   **[Generative AI summarization on the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/genai-summary-standard-ticket-page.md)**  
-On the standard ticket page, requesters can quickly access a generative AI summary of the ticket and its recent activity at the top. To display this summary, make sure the **Summary fields** is set up on the Ticket configuration page and that the ServiceNow Otto in Standard Ticket Page skill is enabled.
+For new instances, the standard ticket page for a requested item is available by default. For upgraded instances, you need to activate the Standard Ticket Route page route map. For information about activating this page route map, see [Activate the page route map for the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/config-pageroutemap-stpage.md).
 
-**Parent Topic:**[Integrating Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/integrating-service-catalog.md)
+## Standard ticket page configuration for a requested item
+
+The layout of the standard ticket page can be configured for a requested item. Navigate to **Standard Ticket** &gt; **Standard Ticket Configurations** and edit the sc\_req\_item ticket configuration. For information about configuring the standard ticket page, see [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-st-page.md).
+
+**Parent Topic:**[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/catalog-on-portal.md)
+
+**Related topics**  
+
+
+[Access Service Catalog categories in Service Portal]()
+
+[Add an item to the wish list in Service Portal]()
+
+[Add a catalog item to the shopping cart]()
+
+[Request a catalog item from Service Portal]()
+
+[Request an order guide from Service Portal]()
+
+[Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/standard-ticket-page.md)
 

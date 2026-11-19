@@ -7,7 +7,7 @@ release: yokohama
 product: Service Creator
 classification: service-creator
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Manage a service, Service Creator, Build workflows]
 ---
@@ -18,7 +18,7 @@ Service fulfillers can complete service requests submitted for a service categor
 
 ## Before you begin
 
-Role required: none.
+Role required: admin
 
 ## About this task
 

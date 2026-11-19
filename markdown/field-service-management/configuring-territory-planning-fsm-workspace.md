@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configuring-territory-planning-fsm-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
 ---
 
 # Configuring Field Service Territory Planning Console

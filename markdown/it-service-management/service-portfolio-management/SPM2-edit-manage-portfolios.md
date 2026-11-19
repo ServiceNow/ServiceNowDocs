@@ -7,9 +7,9 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use, Service Portfolio Management, IT Service Management]
+breadcrumb: [Using Service Portfolio Management, Service Portfolio Management, IT Service Management]
 ---
 
 # Edit and manage service portfolios in Service Portfolio Management

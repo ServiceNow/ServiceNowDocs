@@ -7,7 +7,7 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Build workflows]
 ---
@@ -28,19 +28,19 @@ Integrate workflow authoring, configuring, and monitoring into a single page exp
 
 </td></tr><tr><td>
 
-[Flows, subflows, and actions\[Omitted image "bus-workflow.svg"\] Alt text:Use flows to automate repeatable multi-step processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/workflow-studio-flows-subflows-and-actions-landing.md)
+[Using\[Omitted image "bus-workflow.svg"\] Alt text:Build workflows and workflow components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-workflow-studio-components.md)
 
 </td><td>
 
-[Playbooks\[Omitted image "bus-learn.svg"\] Alt text:Use Playbooks to automate, streamline, and standardize complex processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Review roles and system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/workflow-studio-reference.md)
 
 </td></tr><tr><td>
 
-[Flow Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate flows from text prompts or images using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow-now-assist.md)
+Flow Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate flows from text prompts and generate recommendations for the next step of a flow.
 
 </td><td>
 
-[AI in Playbooks\[Omitted image "bus-ai-otto.svg"\] Alt text:Use AI to create and manage Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/now-assist-features-playbooks.md)
+[Playbook Assist\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Generate playbook outlines from text directions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-assist-landing.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure Google reCAPTCHA for the password reset process
@@ -18,7 +18,7 @@ To use the Google reCAPTCHA service, instances that are running on a domain othe
 
 ## Before you begin
 
-Role required: password\_reset\_admin
+Role required: admin
 
 ## About this task
 
@@ -83,8 +83,6 @@ Select reCAPTCHA v2, **I'm not a robot** option. \(reCAPTCHA v3 is not currently
 **Related topics**  
 
 
-[Calculating the security score for password reset process]()
-
 [Configure password expiration reminder]()
 
 [Credential stores for Password Reset]()
@@ -95,7 +93,7 @@ Select reCAPTCHA v2, **I'm not a robot** option. \(reCAPTCHA v3 is not currently
 
 [Enable users to enroll for Password Reset]()
 
-[Configure Password Reset properties]()
+[Configuring Password Reset properties]()
 
 [Send email to remind users to enroll for Password Reset]()
 

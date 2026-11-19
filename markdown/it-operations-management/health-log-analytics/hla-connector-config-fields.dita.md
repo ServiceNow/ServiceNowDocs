@@ -1,5 +1,5 @@
 ---
-title: Integration configuration fields
+title: Integration configuration field descriptions
 description: This section provides descriptions of the fields on the integration configuration forms for Health Log Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-connector-config-fields.dita.html
@@ -7,18 +7,16 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [data input, integration, configuration, fields, description, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
-# Integration configuration fields
+# Integration configuration field descriptions
 
 This section provides descriptions of the fields on the integration configuration forms for Health Log Analytics.
 
--   **[ACC Log Analytics \(ACC-L\) integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-hla-accl-fields.md)**  
-Description of the fields on the ACC Log Analytics \(ACC-L\) integration configuration forms for Health Log Analytics.
 -   **[Amazon CloudWatch integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-hla-cloudwatch-fields.md)**  
 Description of the fields on the Amazon CloudWatch integration configuration forms for Health Log Analytics.
 -   **[Amazon S3 integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-hla-aws-s3-fields.md)**  
@@ -27,12 +25,6 @@ Description of the fields on the Amazon S3 integration configuration forms for H
 Description of the fields on the Apache Kafka integration configuration forms for Health Log Analytics.
 -   **[Amazon Data Firehose integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-hla-firehose-fields.md)**  
 Description of the fields on the Amazon Data Firehose integration configuration forms for Health Log Analytics.
--   **[Cribl integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-hla-cribl-fields.md)**  
-Description of the fields on the Cribl integration configuration forms for Health Log Analytics.
--   **[Edge Delta REST integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-hla-edgedelta-rest-fields.md)**  
-Description of the fields on the Edge Delta REST integration configuration form for Health Log Analytics.
--   **[Edge Delta TCP integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-hla-edgedelta-tcp-fields.md)**  
-Description of the fields on the Edge Delta TCP integration configuration forms for Health Log Analytics.
 -   **[Elasticsearch integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-hla-elastic-fields.md)**  
 Description of the fields on the Elasticsearch integration configuration forms for Health Log Analytics.
 -   **[GCP PubSub integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-hla-gcp-pubsub-fields.md)**  

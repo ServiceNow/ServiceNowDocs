@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-create-input-set.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Set up Sales promotion, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Set up sales promotion, Configuring Manufacturing Commercial Operations, Manufacturing Commercial Operations]
 ---
 
 # Create promotion questionnaire
@@ -20,15 +20,11 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace.**
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Sales Promotion Setup** &gt; **Promotion Questionnaires**.
 
-2.  Select the List icon.
+2.  Select **New**.
 
-3.  Navigate to **Sales Promotion Setup** &gt; **Promotion Questionnaires**.
-
-4.  Select **New**.
-
-5.  On the form, fill in the fields.
+3.  On the form, fill in the fields.
 
 <table id="table_lmd_qm4_4fc"><thead><tr><th>
 
@@ -55,6 +51,6 @@ Application
 Configuration record details. You can’t edit the application.**Note:** To learn more about the Application file, see [Application files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationFiles.md).
 
 </td></tr></tbody>
-</table>6.  Select **Save**.
+</table>4.  Select **Save**.
 
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Innovation Management
 classification: innovation-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Managing ideas using Innovation Management, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage Ideas, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Train the similarity solution for Innovation Management to find similar ideas

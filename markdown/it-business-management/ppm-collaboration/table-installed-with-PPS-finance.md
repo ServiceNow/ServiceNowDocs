@@ -1,5 +1,5 @@
 ---
-title: Tables installed with Project Portfolio Management \(PPM\) Standard
+title: Tables installed with Project Portfolio Management Standard
 description: Tables are added with activation of PPM Standard plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/ppm-collaboration/table-installed-with-PPS-finance.html
@@ -7,12 +7,12 @@ release: yokohama
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 7
-breadcrumb: [Components installed with Project Portfolio Management \(PPM\) Standard, Project Portfolio Management reference, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Components installed with Project Portfolio Management \(PPM\) Standard, Reference, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Tables installed with Project Portfolio Management \(PPM\) Standard
+# Tables installed with Project Portfolio Management Standard
 
 Tables are added with activation of PPM Standard plugin.
 
@@ -83,24 +83,6 @@ Budget Reference Rates\[itfm\_fx\_rate\]
 </td><td>
 
 The exchange rates that budgets use.
-
-</td></tr><tr><td>
-
-Inbound Actuals Configuration
-
-\[sn\_invst\_pln\_inbound\_actuals\_config\]
-
-</td><td>
-
-Import and map project codes from ERP systems to SPM.
-
-</td></tr><tr><td>
-
-Inbound Actuals\[sn\_invst\_pln\_inbound\_actuals\]
-
-</td><td>
-
-Import expense lines from ERP systems to SPM.
 
 </td></tr></tbody>
 </table>## Project Portfolio Suite tables
@@ -518,14 +500,7 @@ Resource Aggregate Weekly\[resource\_aggregate\_weekly\]
 
 </td><td>
 
-Stores the following aggregated values on weekly basis: -   Capacity
--   Allocated hours in a project
--   Confirmed hours in a project
--   Non-project time
--   Actual hours
--   Availability of every user
-
-The values in the table are asynchronously updated on every insert/update/delete to the Resource Allocation Daily \[resource\_allocation\_daily\] table.
+On a weekly basis, stores aggregated values, such as capacity, allocated hours in a project, confirmed hours in a project, non-project time, actual hours, and availability of every user. The values in the table are asynchronously updated on every insert/update/delete to the Resource Allocation Daily \[resource\_allocation\_daily\] table.
 
 </td></tr><tr><td>
 
@@ -533,14 +508,7 @@ Resource Aggregate Monthly\[resource\_aggregate\_monthly\]
 
 </td><td>
 
-Stores the following aggregated values on monthly basis:-   Capacity
--   Allocated hours in a project
--   Confirmed hours in a project
--   Non-project time
--   Actual hours
--   Availability of every user
-
-The values in the table are asynchronously updated on every insert/update/delete to the Resource Allocation Daily \[resource\_allocation\_daily\] table.
+On a monthly basis, stores aggregated values, such as capacity, allocated hours in a project, confirmed hours in a project, non-project time, actual hours, and availability of every user. The values in the table are asynchronously updated on every insert/update/delete to the Resource Allocation Daily \[resource\_allocation\_daily\] table.
 
 </td></tr><tr><td>
 

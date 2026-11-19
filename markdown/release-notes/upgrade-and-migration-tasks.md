@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/upgrade-and-migration-tasks.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 118
-breadcrumb: [Prepare your upgrade, Brazil release notes]
+breadcrumb: [Prepare your upgrade, Yokohama release notes]
 ---
 
 # Pre- and post-upgrade tasks for various products
@@ -18,7 +18,7 @@ In preparation for your upgrade, review the upgrade and migration tasks for vari
 
 \[Omitted image "upgrade-migration-tasks.png"\] Alt text: Pre-upgrade tasks, upgrade, post-upgrade tasks
 
-Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
+Before you upgrade to Yokohama, review these pre- and post-upgrade tasks and complete the tasks as needed.
 
 ## Upgrade and migration tasks
 
@@ -51,21 +51,6 @@ If you run into issues when you're upgrading an AI product, see the [Issues and 
 The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform. These changes include a new read\_only\_option field with granular control levels, including strict\_read\_only and client\_script\_modifiable. The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen instance security while preserving flexibility. If you have custom client scripts that modify read‑only fields using `g_form.setValue()` or `g_form.clearValue()`, refer to the [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) article in the Now Support Knowledge Base to identify affected fields and adjust the settings.
 
 The existing access control lists \(ACLs\) have been updated to replace the admin role with purpose-driven granular roles within scripts or security attributes. As part of this update, the `getRoles()` API is replaced with the `hasRole()` API for authorization purposes. Additionally, all references to the admin role in the code have been substituted with the granular roles for authorization use cases. For more information, see [Granular admin roles](https://servicenow.com/docs/access?context=granular-admin-roles&family=australia&ft:locale=en-US).
-
-
-</td><td>
-
-Australia
-
-</td></tr><tr><td>
-
-AI Control Tower
-
-</td><td>
-
--   **Upgrade information**
-
-For details on upgrading to the redesigned AI Control Tower experience, see the [AI Control Tower Migration \[KB3144679\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144679) article in Now Support.
 
 
 </td><td>
@@ -704,7 +689,7 @@ When upgrading, all Core UI reports and dashboards are identified as such in the
 
 **Note:** Users who have not migrated their instances to Platform Analytics experience have the option to create dashboards and data visualizations in either Core UI or Next Experience. Next Experience is recommended.
 
-All Core UI public reports are unpublished after upgrading. Report administrators can make these reports available to logged-in users.
+All Core UI public reports are unpublished after upgrading. The unpublished reports are tracked in the table Reports Public \[sys\_report\_public\]. Report administrators can make these reports available to logged-in users.
 
 After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub are redirected to KPI Details.
 
@@ -1030,6 +1015,21 @@ Australia
 
 </td></tr><tr><td>
 
+Super Intelligence Control Tower
+
+</td><td>
+
+-   **Upgrade information**
+
+For details on upgrading to the redesigned Control Tower experience, see the [Super Intelligence Control Tower Migration \[KB3144679\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144679) article in Now Support.
+
+
+</td><td>
+
+Australia
+
+</td></tr><tr><td>
+
 Third-party Risk Management
 
 </td><td>
@@ -1123,28 +1123,13 @@ Australia
 
 </td></tr><tr><td>
 
-AI Control Tower
-
-</td><td>
-
--   **Upgrade information**
-
-For details on upgrading to the redesigned AI Control Tower experience, see the [AI Control Tower Migration \[KB3144679\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144679) article in Now Support.
-
-
-</td><td>
-
-Brazil
-
-</td></tr><tr><td>
-
 AI Desktop Actions
 
 </td><td>
 
 -   **Upgrade information**
 
-Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [\[Placeholder link text to key bundle-platai.download-agentic-desktop-installer\]](https://servicenow.com/docs/access?context=download-agentic-desktop-installer&family=brazil&ft:locale=en-US).
+Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [download agentic desktop installer](https://servicenow.com/docs/access?context=download-agentic-desktop-installer&family=brazil&ft:locale=en-US).
 
 
 </td><td>
@@ -1161,7 +1146,7 @@ AI Risk and Compliance
 
 If you're upgrading from an earlier release, upgrade sequentially through each release. Upgrade scripts depend on running in order, and skipping releases can cause data inconsistencies or broken functionality.
 
-**Warning:** If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Installation and upgrade considerations](https://servicenow.com/docs/access?context=aict-ea-common-upgrade-considerations&family=brazil&ft:locale=en-US) and [Configure](https://servicenow.com/docs/access?context=configuring-ai-risk-and-compliance&family=brazil&ft:locale=en-US).
+**Warning:** If AI Risk and Compliance, EA Workspace, and Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Installation and upgrade considerations](https://servicenow.com/docs/access?context=aict-ea-common-upgrade-considerations&family=brazil&ft:locale=en-US) and [Configure](https://servicenow.com/docs/access?context=configuring-ai-risk-and-compliance&family=brazil&ft:locale=en-US).
 
 
 </td><td>
@@ -1542,6 +1527,21 @@ ServiceNow Otto for Virtual Agent
 -   **Upgrade information**
 
 You can upgrade ServiceNow Otto for Virtual Agent from the ServiceNow Store.
+
+
+</td><td>
+
+Brazil
+
+</td></tr><tr><td>
+
+Super Intelligence Control Tower
+
+</td><td>
+
+-   **Upgrade information**
+
+For details on upgrading to the redesigned Control Tower experience, see the [Super Intelligence Control Tower Migration \[KB3144679\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144679) article in Now Support.
 
 
 </td><td>
@@ -2270,21 +2270,6 @@ Yokohama
 
 </td></tr><tr><td>
 
-AI Control Tower
-
-</td><td>
-
--   **Upgrade information**
-
-General availability release, no upgrade.
-
-
-</td><td>
-
-Yokohama
-
-</td></tr><tr><td>
-
 AI Skill Kit
 
 </td><td>
@@ -2387,6 +2372,21 @@ Configuration Management Database \(CMDB\)
 -   **Upgrade information**
 
 Three new indexes \(parent, type\), \(child, type\), and \(child, parent, type, port\) are added to the CI Relationship \[cmdb\_rel\_ci\] table to improve the performance of Identification and Reconciliation Engine \(IRE\) querying this table. This change is likely to increase upgrade time. For more information about the impact of this change during upgrade and to learn how to minimize that impact, see [Increased Yokohama Upgrade Time due to cmdb\_rel\_ci index additions \[KB1703367\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB1703367).
+
+
+</td><td>
+
+Yokohama
+
+</td></tr><tr><td>
+
+Control Tower
+
+</td><td>
+
+-   **Upgrade information**
+
+General availability release, no upgrade.
 
 
 </td><td>
@@ -3126,21 +3126,6 @@ Yokohama
 
 </td></tr><tr><td>
 
-AI Control Tower
-
-</td><td>
-
--   **Upgrade information**
-
-For details on upgrading to the redesigned AI Control Tower experience, see the [AI Control Tower Migration \[KB3144679\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144679) article in Now Support.
-
-
-</td><td>
-
-Zurich
-
-</td></tr><tr><td>
-
 AI Desktop Actions
 
 </td><td>
@@ -3326,6 +3311,21 @@ Zurich
 
 </td></tr><tr><td>
 
+Control Tower
+
+</td><td>
+
+-   **Upgrade information**
+
+For details on upgrading to the redesigned Control Tower experience, see the [AI Control Tower Migration \[KB3144679\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144679) article in Now Support.
+
+
+</td><td>
+
+Zurich
+
+</td></tr><tr><td>
+
 Customer self-service for Sales Customer Relationship Management
 
 </td><td>
@@ -3415,7 +3415,7 @@ Enterprise Asset Management
 
 Starting with Zurich release, a new menu, Asset put away, has been added to the ServiceNow Agent app navigation bar. When upgrading to the Zurich release, a fix script identifies whether the ServiceNow Agent app navigation bar was customized and takes the necessary action.
 
-    -   If the navigation bar wasn’t customized before the upgrade, a new Asset put away icon \(\[Omitted image "asset-putaway-icon-ma.png"\] Alt text: Asset put away icon\) is included in the navigation bar
+    -   If the navigation bar wasn’t customized before the upgrade, a new Asset put away icon \(\[Omitted image "image.asset-putaway-icon-ma"\] Alt text: Asset put away icon\) is included in the navigation bar
     -   If the navigation bar was customized before the upgrade, two navigation bars appear: Customized old IT Asset Management and IT Asset Management. The new icon appears in the IT Asset Management navigation bar.
 
 </td><td>
@@ -3489,7 +3489,7 @@ Hardware Asset Management
             -   If the impacted workflows were customized before the upgrade, the Workflow Studio flows are installed but aren’t executed for any of the impacted flows post-upgrade. You can view and access the impacted workflows in the instance after the upgrade. However, the deprecated workflows are considered custom code and aren’t supported for maintenance.
     -   After upgrading to the Zurich release, if an approval history record exists for a contract that is no longer required, reject the record instead of deleting it. If the approval history record is deleted, Workflow Studio doesn’t support updating the contract’s **Substate** field value to display the correct state.
     -   Starting with Zurich release, a new menu, Asset put away, has been added to the ServiceNow Agent app navigation bar. When upgrading to the Zurich release, a fix script identifies whether the ServiceNow Agent app navigation bar was customized and takes the necessary action.
-        -   If the navigation bar wasn’t customized before the upgrade, a new Asset put away icon \(\[Omitted image "asset-putaway-icon-ma.png"\] Alt text: Asset put away icon\) is included in the navigation bar
+        -   If the navigation bar wasn’t customized before the upgrade, a new Asset put away icon \(\[Omitted image "image.asset-putaway-icon-ma"\] Alt text: Asset put away icon\) is included in the navigation bar
         -   If the navigation bar was customized before the upgrade, two navigation bars appear: Customized old IT Asset Management and IT Asset Management. The new icon appears in the IT Asset Management navigation bar.
     -   A new role, sn\_itam\_recomm.recommendations\_read, helps ensure that only valid users can execute APIs related to the Important Actions menu in the Asset Workspace. The following roles, which have access to the Asset Workspace, now include the sn\_itam\_recomm.recommendations\_read role:
         -   procurement\_user

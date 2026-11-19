@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-components-in-store-operations.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Components installed with plugins, Reference, Retail]
+breadcrumb: [Components installed with plugins, Retail reference, Retail]
 ---
 
 # Components installed with Retail In-store Operations
@@ -34,8 +34,6 @@ Retail In-store Operations
 
  \[com.sn\_rtl\_in\_store\_ops\] 
 
-\[com.sn\_rtl\_instore\_ops\]
-
 </td><td>
 
 The Retail In-store Operations plugin allows store team members to report and track in-store operational issues, whether for routine or cyclical demands. This ensures that issues are documented and monitored for consistent execution and support.
@@ -44,7 +42,7 @@ The Retail In-store Operations plugin allows store team members to report and tr
 
 -   com.sn\_retail\_core
 -   com.sn\_retail\_mobile
--   com.snc.fsm\_work\_types
+-   com.snc.work\_management
 
 </td></tr></tbody>
 </table>## Roles installed with Retail In-store Operations
@@ -63,7 +61,7 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-sn\_rtl\_in\_store\_ops.associatesn\_rtl\_instore\_ops.associate
+sn\_rtl\_in\_store\_ops.associate
 
 </td><td>
 
@@ -76,7 +74,7 @@ Create, update, and close Store Operations case for their stores. Can view and c
 
 </td></tr><tr><td>
 
-sn\_rtl\_in\_store\_ops.managersn\_rtl\_instore\_ops.manager
+sn\_rtl\_in\_store\_ops.manager
 
 </td><td>
 
@@ -85,7 +83,6 @@ Can Create, update, and close Store Operations case for the stores and associate
 </td><td>
 
 -   sn\_rtl\_in\_store\_ops.associate
--   sn\_rtl\_instore\_ops.associate
 -   sn\_retail.manager\_fulfiller
 -   wm\_location\_assignment\_manager
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-digital-interface-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Digital interface form
@@ -30,12 +30,7 @@ Name
 
 </td><td>
 
-Unique and meaningful name of the digital interface. Enter a descriptive name that reflects the purpose of the interface.For example, a Customer Management application might expose multiple digital interfaces, such as:
-
--   Customer Profile API — provides customer identity and profile information
--   Customer Order Service — supports order creation and status updates
-
-Even though all interfaces are provided by the same application, each interface represents a different interaction contract and can be consumed independently by multiple applications.
+Unique and meaningful name of the digital interface. Enter a descriptive name that reflects the purpose of the interface.
 
 </td></tr><tr><td>
 
@@ -219,7 +214,7 @@ You can use the system-provided authentication types or add yours.
 |-----|-----------|
 |Work notes|Comments about the interface.|
 
-**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 

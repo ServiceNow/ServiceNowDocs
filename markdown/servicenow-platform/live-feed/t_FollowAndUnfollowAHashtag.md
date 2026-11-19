@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Use hashtags in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,6 +29,8 @@ Role required: admin
 3.  Select the hashtag you want to follow.
 
 4.  Click **Follow**.
+
+    \[Omitted image "FollowTag.png"\] Alt text: Follow tag
 
     A confirmation message appears.
 

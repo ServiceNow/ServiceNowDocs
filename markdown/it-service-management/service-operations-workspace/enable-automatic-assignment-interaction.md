@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure the inbox in Service Operations Workspace, Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configure the inbox in Service Operations Workspace, Configuring Service Operations Workspace for ITSM to improve your experience, Configure, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Enable automatic assignment of interactions to an agent
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Select the Chat - Most Capacity assignment rule.
 
-    For information about AWA assignment rules, see Configure agent assignment rules.
+    For information about AWA assignment rules, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-assignment-rule.md).
 
 3.  In the Auto-assign handling related list, perform the following tasks.
 
@@ -36,7 +36,7 @@ Role required: admin
 
         -   Inbox card: Accepts the interactions and adds them to the agent inbox. Agent can open the accepted interaction from the inbox.
         -   Inbox card and workspace tab: Accepts the interactions and opens a tab for each accepted interaction.
-4.  Select **Update**.
+4.  Click **Update**.
 
 
 **Parent Topic:**[Configure the inbox in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-inbox-in-sow.md)

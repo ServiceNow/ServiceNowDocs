@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-06-09"
 reading_time_minutes: 1
-breadcrumb: [ACC certificates, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Using Agent Client Collector for Visibility Content, Agent Client Collector for Visibility Content, Agent Client Collector, IT Operations Management]
 ---
 
 # Run Certificate Discovery via Agent Client Collector for Visibility Content
@@ -32,19 +32,11 @@ Role required: agent\_client\_collector\_admin
 
 3.  Navigate to **All** &gt; **System properties** &gt; **All properties**.
 
-4.  To discover certificates on specific ports:
+4.  Locate and select the **sn\_acc\_vis\_content.tls\_ssl\_scanner\_ports** property.
 
-    1.  Locate and select the **sn\_acc\_vis\_content.tls\_ssl\_scanner\_ports** property.
+5.  Enter a comma-separated list of port numbers on which to scan for certificates in the **Choices** field.
 
-    2.  Enter a comma-separated list of port numbers on which to scan for certificates in the **Choices** field.
-
-        By default, the values are identical to those values configured for the **tls\_ssl\_certs** property.
-
-5.  To discover certificates on all available open ports:
-
-    1.  Locate and select the **sn\_acc\_vis\_content.tls\_ssl\_scan\_all\_open\_ports** property.
-
-    2.  Assign the value **true**.
+    By default, the values are identical to those values configured for the **tls\_ssl\_certs** property.
 
 6.  To store the original certificate in the instance, set the **sn\_acc\_vis\_content.tls\_ssl\_keep\_original** property to **true**.
 
@@ -61,7 +53,7 @@ The TLS/SSL certificates are populated in the following tables:
 
 A CI relationship is created between the discovered certificates and the corresponding Host CI \(in this case, the agent's server\).
 
-**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-certificates.md)
+**Parent Topic:**[Using Agent Client Collector for Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-v-using-agent-client-collector-for-visibility.md)
 
 **Related topics**  
 

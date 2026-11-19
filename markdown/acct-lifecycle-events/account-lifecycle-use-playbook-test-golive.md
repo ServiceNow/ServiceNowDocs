@@ -1,18 +1,18 @@
 ---
-title: Testing, training
-description: These phases are designed to involve customers in testing and confirm that they have received adequate training before the go-live date.
+title: Testing, training, and go-live
+description: These two phases are meant to ensure that customers have been involved in testing and have received adequate training. This ensures that all the steps are complete before the go-live date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-use-playbook-test-golive.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Account onboarding playbook, Manage account onboarding cases, Account onboarding, Use, Customer Success Management]
+breadcrumb: [Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
-# Testing, training
+# Testing, training, and go-live
 
-These phases are designed to involve customers in testing and confirm that they have received adequate training before the go-live date.
+These two phases are meant to ensure that customers have been involved in testing and have received adequate training. This ensures that all the steps are complete before the go-live date.
 
 <table id="table_ghf_3n4_1yb"><thead><tr><th>
 
@@ -36,12 +36,32 @@ Details
 
 </td><td>
 
-The following tasks are available with the base system:-   Plan and complete go-live communications
+The following tasks are available with the base system:-   Go-live change request
+-   Plan and complete go-live communications
 -   Plan and complete training
 -   Execute training
 
-Select **Mark Complete** to go to the next stage.
+Click **Mark Complete** to go to the next stage.
+
+</td></tr><tr><td>
+
+**Go-Live /Post Support**
+
+</td><td>
+
+ 
+
+</td><td>
+
+Go-live support caseThe primary case related to any onboarding issues that are a result of go-live. The onboarding team will work with the appropriate teams to resolve any outstanding issues.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
+</table>After you have created the account onboarding case, you can perform the following activities:
+
+-   Click **Discuss** to start a sidebar discussion about this onboarding case. In the popup window, select the participants who need to participate in the discussion, enter a brief message, and click **Start discussion**. A window appears with a link to the record for this onboarding case. Click **Open record** to open the record and start the discussion. When the discussion has been completed, you can see the details in the Activity stream.
+-   Click **Create success play** to create automated actions that need to be performed during an engagement lifecycle. See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-success-play.md) for details.
+-   Open the Activity stream and select **Email** from the More drop down list. Enter the required details and click **Send email**.
+
+    **Note:** You can send emails only to the team members associated with the account.
+
 

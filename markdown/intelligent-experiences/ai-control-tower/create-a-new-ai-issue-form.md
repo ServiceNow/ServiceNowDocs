@@ -7,9 +7,9 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Create an AI issue in the AI Control Tower, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Create an AI issue in the Control Tower, Using Control Tower, Control Tower, Enable AI experiences]
 ---
 
 # Create new AI issue form
@@ -106,7 +106,7 @@ Workflow state of the issue. This field is automatically set to **Review**. The 
 -   **Closed Complete**
 -   **Closed Incomplete**
 
- For more information on Issue management workflow and life cycle, see [View AI assets by life-cycle stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/view-ai-assets-lifecycle-stage.md).
+For more information on issue management workflow and lifecycle, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md).
 
 </td></tr><tr><td>
 
@@ -351,4 +351,5 @@ Functional domain
 Functional domain that the issue belongs to. For example, an issue may belong to the AI Risk and Compliance domain.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Create an AI issue in the Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-an-ai-issue-in-the-ai-control-tower.md)
+

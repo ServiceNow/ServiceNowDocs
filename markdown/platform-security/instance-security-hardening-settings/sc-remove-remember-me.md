@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Data protection, Hardening settings, Platform Security]
 ---
@@ -15,10 +15,6 @@ breadcrumb: [Data protection, Hardening settings, Platform Security]
 # Remove remember me
 
 Use the **glide.ui.forgetme** property to remove the **Remember Me** check box from the login page to prevent login information from being cached.
-
-The **glide.ui.forgetme** system property controls the **Remember Me** check box from the login page to prevent login information from being cached when set to **true**. If the value is set to **false**, caching of authentication information is allowed and the **Remember Me** checkbox is displayed.
-
-Ensure that the property **glide.ui.forgetme** is set to **true**.
 
 ## More information
 
@@ -32,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Configuration name
+Property name
 
 </td><td>
 
@@ -48,11 +44,27 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Data type
+Category
 
 </td><td>
 
-Boolean
+[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-data-protection.md)
+
+</td></tr><tr><td>
+
+Purpose
+
+</td><td>
+
+To ensure that no authentication information is cached.
+
+</td></tr><tr><td>
+
+Security risk rating
+
+</td><td>
+
+3.5
 
 </td></tr><tr><td>
 
@@ -72,19 +84,11 @@ true
 
 </td></tr><tr><td>
 
-Fallback value
+Functional impact
 
 </td><td>
 
-true
-
-</td></tr><tr><td>
-
-Category
-
-</td><td>
-
-[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-data-protection.md)
+This remediation would change the user experience by automatically logging them out of the instance when their session expires. The session expiration would solely depend on the value set in the system property as detailed in [Managing user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ManageUserSessions.md).
 
 </td></tr><tr><td>
 
@@ -92,28 +96,19 @@ Security risk
 
 </td><td>
 
--   Severity score: 3.5
--   CVSS rating: Low
--   Security risk details: This increases the risk of unauthorized access if the device is shared, lost, or compromised, as cached credentials can allow attackers to bypass authentication.
+\(Low\) When you select the **Remember me** check box at login, an extra cookie is stored on the user's computer. -   Its purpose is to automatically re-establish the session for the subsequent visits of the logged-in user.
+-   It poses a security risk as it allows the user session to be active until they deliberately log out. The likelihood of an attack for this scenario increases when the end user has left the browser unattended, or if it is compromised from a different attack.
 
 </td></tr><tr><td>
 
-Functional impact
+References
 
 </td><td>
 
-None
-
-</td></tr><tr><td>
-
-Dependencies and prerequisites
-
-</td><td>
-
-None
+[Remove the Remember me check box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_ChSetRemMeChkbxCookie.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see 
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
 
 **Parent Topic:**[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-data-protection.md)
 

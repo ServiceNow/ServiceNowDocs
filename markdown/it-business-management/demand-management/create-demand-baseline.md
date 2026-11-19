@@ -1,26 +1,26 @@
 ---
-title: Create a baseline of a demand
-description: Create a financial baseline of a demand to capture a snapshot of cost plan, benefit plan, and demand-level financial metrics at a specific point in time.
+title: Create baseline of a demand
+description: Create financial baseline of a demand, which captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and demand-level financial metrics\) at a particular moment in time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/create-demand-baseline.html
 release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Create a baseline of a demand
+# Create baseline of a demand
 
-Create a financial baseline of a demand to capture a snapshot of cost plan, benefit plan, and demand-level financial metrics at a specific point in time.
+Create financial baseline of a demand, which captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and demand-level financial metrics\) at a particular moment in time.
 
 ## Before you begin
 
-You can create as many financial baselines as necessary and review the financials changes that have been made to the demand since the previous baseline. Any financial baseline doesn’t capture the actual cost component of the demand.
-
 Role required: it\_demand\_manager
+
+You can create as many financial baselines as necessary and review the financials changes that have been made to the demand since the previous baseline. Any financial baseline does not capture the actual cost component of the demand.
 
 ## Procedure
 
@@ -30,35 +30,35 @@ Role required: it\_demand\_manager
 
 3.  To create a financial baseline of a demand, use either of the options.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d362668e86">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d283685e83">
 
 Option
 
-</th><th align="left" id="d362668e89">
+</th><th align="left" id="d283685e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d362668e95">
+</th></tr></thead><tbody><tr><td id="d283685e92">
 
 **From a related link**
 
 </td><td>
 
-1.  Select the **Create Baseline** related link.
+1.  Click the **Create Baseline** related link.
 2.  In the Create Baseline pop-up, enter a suitable description.
-3.  Select **Save**.
+3.  Click **Save**.
 
 
-</td></tr><tr><td id="d362668e122">
+</td></tr><tr><td id="d283685e119">
 
 **From a related list**
 
 </td><td>
 
-1.  Select the **Demand Baselines** related list.
-2.  Select the **Create Baseline** button.
+1.  Click the **Demand Baselines** related list.
+2.  Click the **Create Baseline** button.
 3.  In the Create Baseline pop-up, enter a suitable description.
-4.  Select **Save**.
+4.  Click **Save**.
 
 
 </td></tr></tbody>

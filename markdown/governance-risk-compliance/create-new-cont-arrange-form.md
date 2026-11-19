@@ -1,20 +1,20 @@
 ---
-title: Create Contractual arrangement form
-description: On the Create Contractual arrangement form, fill in the fields. For each contract, a separate form would be required.
+title: Create New Contractual arrangement form
+description: On the Create New Contractual arrangement form, fill in the fields. For each contract, a separate form would be required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-new-cont-arrange-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 10
-breadcrumb: [Create a contract and enhance digital resilience data, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+last_updated: "2025-07-31"
+reading_time_minutes: 9
+breadcrumb: [Create a contract and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create Contractual arrangement form
+# Create New Contractual arrangement form
 
-On the Create Contractual arrangement form, fill in the fields. For each contract, a separate form would be required.
+On the Create New Contractual arrangement form, fill in the fields. For each contract, a separate form would be required.
 
-## Create Contractual arrangement form
+## Create New Contractual arrangement form
 
 <table id="table_dxf_lyp_zfc"><thead><tr><th>
 
@@ -27,14 +27,6 @@ Description
 </th></tr></thead><tbody><tr><td class="sub-head" colspan="2">
 
 Contractual arrangement
-
-</td></tr><tr><td>
-
-Contract
-
-</td><td>
-
-Reference to the Contractual arrangement record that this Digital resilience information record belongs to. This field is auto-filled.
 
 </td></tr><tr><td>
 
@@ -70,8 +62,6 @@ Type of contractual arrangement that is identified by using one of the options i
 -   **Overarching arrangement**
 -   **Subsequent or associated arrangement**
 
-**Note:** If you set this field to **Overarching arrangement**, link at least one subsequent contract to it. Otherwise, the system displays a warning.
-
 </td></tr><tr><td>
 
 State
@@ -103,8 +93,6 @@ Annual expense or estimated cost for the past year
 </td><td>
 
 Annual expense or estimated cost \(or intragroup transfer\) of the ICT service arrangement for the past year.
-
- A value of 0 is accepted for this field.
 
 </td></tr><tr><td>
 
@@ -209,8 +197,6 @@ Type of code to identify the ICT third-party service provider
 </td><td>
 
 Type of code to identify the ICT third-party service provider, for example, LEI.
-
- If the code type is not LEI or EUID, the system displays a warning instead of blocking the record.
 
 </td></tr><tr><td>
 
@@ -367,8 +353,6 @@ Notice period for the financial entity making use of the ICT service\(s\)
 
 Notice period for terminating the contractual arrangement by the financial entity making use of the ICT service\(s\) in a business-as-usual case.
 
- When the related function's **Criticality or importance assessment** field is set to **Yes**, this field becomes mandatory.
-
 </td></tr><tr><td>
 
 Notice period for the ICT third-party service provider
@@ -377,8 +361,6 @@ Notice period for the ICT third-party service provider
 
 Notice period for terminating the contractual arrangement by the direct ICT third-party service provider in a business-as-usual case.
 
- When the related function's **Criticality or importance assessment** field is set to **Yes**, this field becomes mandatory.
-
 </td></tr><tr><td>
 
 Country of the governing law of the contractual arrangement
@@ -386,8 +368,6 @@ Country of the governing law of the contractual arrangement
 </td><td>
 
 Country whose legal system oversees the contract.
-
- When the related function's **Criticality or importance assessment** field is set to **Yes**, this field becomes mandatory.
 
 </td></tr><tr><td>
 
@@ -416,8 +396,6 @@ Option to identify the level of sensitiveness of the data stored or processed by
 -   **Medium**
 -   **High**
 
-**Note:** When the related function's **Criticality or importance assessment** field is set to **Yes** and **Storage of data** is set to **Yes**, this field becomes mandatory. Select **Medium** or **High**. The system displays a warning if you select **Low** instead.
-
 </td></tr><tr><td>
 
 Level of reliance on the ICT service
@@ -428,8 +406,6 @@ Option to specify the level of reliance on the ICT service. Available options ar
 -   **Low reliance**
 -   **Material reliance**
 -   **Full reliance**
-
-**Note:** When the related function's **Criticality or importance assessment** field is set to **Yes**, this field becomes mandatory. Select **Material reliance** or **Full reliance**. The system displays a warning if you select **Not significant** instead.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -549,7 +525,7 @@ Type of code to identify the ICT third-party service provider
 
 Type of code to identify ICT third-party service provider, for example, LEI.
 
- Starting with version 21.1.x, the field Type of code to identify the ICT third-party service provider is a choice field in the Digital resilience third-party registers in the contract record. The field aligns with regulator-defined options for selecting identification systems when creating new providers.
+ Starting with version 21.1.x, the field Type of code to identify the ICT third-party service provider is now updated to be a choice field in the Digital resilience third-party registers in the contract record. This update aligns the field with regulator-defined options for selecting identification systems when creating new providers.
 
 </td></tr><tr><td>
 
@@ -725,8 +701,6 @@ Existence of an exit plan
 
 Availability of an exit plan. The following options are available:-   Yes
 -   No
-
-**Note:** When the related function's **Criticality or importance assessment** field is set to **Yes**, select **Yes**. The system displays a warning during CSV download if you select **No** instead.
 
 </td></tr><tr><td>
 

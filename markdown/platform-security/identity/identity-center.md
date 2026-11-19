@@ -1,20 +1,20 @@
 ---
 title: Identity Center
-description: Enables you to monitor, manage, and minimize identity-based risk and security gaps.
+description: Allows you to monitor, manage, and minimize identity-based risk and security gaps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/identity-center.html
 release: yokohama
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Identity]
 ---
 
 # Identity Center
 
-Enables you to monitor, manage, and minimize identity-based risk and security gaps.
+Allows you to monitor, manage, and minimize identity-based risk and security gaps.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

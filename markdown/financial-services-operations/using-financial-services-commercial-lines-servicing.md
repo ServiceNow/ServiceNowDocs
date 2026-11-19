@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/using-financial-services-commercial-lines-servicing.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Commercial Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Commercial Lines Servicing, Property and Casualty Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Using Commercial Lines Servicing
@@ -44,7 +44,7 @@ Policy admin
 
 </td><td>
 
-Configures the insurance policy workspace as per business requirements. For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
+Configures the insurance policy workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Underwriting admin
 
 </td><td>
 
-Configures the insurance underwriting workspace as per business requirements. For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
+Configures the insurance underwriting workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr><tr><td colspan="2">
 
@@ -91,12 +91,4 @@ Underwriter
 Views the status of and works on underwriting tasks.
 
 </td></tr></tbody>
-</table>-   **[Request, review, and approve change coverage request workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/request-review-approve-change-coverage-request-workflows-commercial-lines.md)**  
-Learn how agents, using the change coverage limits workflows, resolve service requests for requesting, reviewing, and approving policy change requests.
--   **[Submit a policy service request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/submit-ins-policy-service-request-commercial-lines-servicing.md)**  
-Help your customers by submitting a policy service request for them.
--   **[Work on a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/work-commercial-policy-case.md)**  
-Review a policy case for a policy service request and update its details to trigger its workflow.
-
-**Parent Topic:**[Commercial Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-ins-commercial-policy-ops-landing-page.md)
-
+</table>

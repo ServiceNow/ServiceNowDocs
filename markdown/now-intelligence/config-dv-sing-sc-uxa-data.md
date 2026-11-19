@@ -1,20 +1,18 @@
 ---
-title: Usage Insights data options for Single Score data visualizations
-description: When you select a Usage Insights data source for a single score visualization, the following Data configuration options are available.
+title: User Experience Analytics data options for Single scores
+description: When you select a User Experience Analytics data source for a single score visualization, the following Data configuration options are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-sing-sc-uxa-data.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
 breadcrumb: [Single score visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Usage Insights data options for Single Score data visualizations
+# User Experience Analytics data options for Single scores
 
-When you select a Usage Insights data source for a single score visualization, the following Data configuration options are available.
-
-**Note:** If you add a Platform Analytics data visualization with Usage Insights data to an inline dashboard, the default drilldown for that data visualization is to open the corresponding UXA analytics page. This feature provides a quick and efficient way to drill down and explore specific user behavior from your Platform Analytics dashboard.
+When you select a User Experience Analytics data source for a single score visualization, the following Data configuration options are available.
 
 <table id="simpletable_wqy_sjr_qtb"><thead><tr><th>
 
@@ -34,7 +32,7 @@ Data source
 
 </td><td>
 
-You have selected a Usage Insights data source in [Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-sing-sc-ac.md).
+You have selected a User Experience Analytics data source in [Create a single score data visualization in the Visualization Designer or on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-sing-sc-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -42,11 +40,11 @@ Metric
 
 </td></tr><tr><td>
 
-Metric
+Label
 
 </td><td>
 
-Label of the metric. By default it is the same as the name of the data source: Events or Sessions.For sessions, you can configure the metric to reflect the number of sessions, average session duration, average pages per session, or average sessions per user.
+Label of the metric. By default it is the same as the name of the data source.
 
 </td></tr><tr><td>
 
@@ -169,12 +167,8 @@ Period
 </td><td>
 
 Time interval for each date period. -   Days `D`
--   Weeks `W`
 -   Months `M`
--   Quarters `Q`
 -   Years `Y`
-
- The available periods depend on the time aggregation. A period can't be shorter than the time aggregation unit. If you change the time aggregation to a longer unit than the selected period, the period changes to the shortest period that is still available.
 
  This property applies only when **Set absolute period** is false.
 
@@ -196,7 +190,7 @@ Show metric label
 
 </td><td>
 
-Option to show the metric label. In donut charts, the value is not shown if it can't fit the donut.
+Option to show the metric label. In donut charts, the value is not shown if it cannot fit the donut.
 
 </td></tr><tr><td>
 
@@ -264,14 +258,6 @@ Header text of the message that describes why no data was returned.
 
 </td></tr><tr><td>
 
-Heading level
-
-</td><td>
-
-Header text size for the message that describes why no data was returned.
-
-</td></tr><tr><td>
-
 Content
 
 </td><td>
@@ -287,5 +273,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-sing-sc-ac.md)
+</table>**Parent Topic:**[Create a single score data visualization in the Visualization Designer or on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-sing-sc-ac.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-walkup-view-assigned-location.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Manage queues and interactions, Use Walk-up Experience, Customer communication, Use, Customer Service Management]
+breadcrumb: [Walk-up Experience queue and interaction management, Using Walk-up Experience, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # View assigned Walk-up Experience location
@@ -20,11 +20,11 @@ Role required: sn\_csm\_walkup.walkup\_technician
 
 ## About this task
 
-There are two ways technicians can view the walk-up location queues they’re assigned to support. Technicians primarily access CRM Workspace for all CSM Walk-up Experience related information, including locations. However technicians can also access CSM Walk-up Experience in the application navigator, or side navigation bar, to view assigned queue locations.
+There are two ways technicians can view the walk-up location queues they’re assigned to support. Technicians primarily access CSM Configurable Workspace for all CSM Walk-up Experience related information, including locations. However technicians can also access CSM Walk-up Experience in the application navigator, or side navigation bar, to view assigned queue locations.
 
 ## Procedure
 
-1.  To view walk-up locations, open CRM Workspace.
+1.  To view walk-up locations, open CSM Configurable Workspace.
 
 2.  Select **List** in the left navigation bar.
 

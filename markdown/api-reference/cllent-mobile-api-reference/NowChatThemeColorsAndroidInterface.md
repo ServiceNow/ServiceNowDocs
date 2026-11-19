@@ -7,12 +7,12 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API implementation and reference]
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Mobile SDK API reference - Android, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# NowChatTheme interface- Android
+# NowChatTheme interface - Android
 
 The NowChatTheme interface defines default colors for the elements in the Live Agent and Virtual Agent chat UI.
 
@@ -20,7 +20,7 @@ The NowChatTheme interface extends the NowUITheme interface and inherits the pro
 
 `val nowUIColoring: NowUIColoring?`
 
-You can modify these default colors and create your own themes for your specific chat implementation. The default colors use the Coral theme.
+You can modify these default colors and create your own themes for your specific chat implementation.
 
 <table id="table_vx2_klw_5pb" class="parameters"><thead><tr><th>
 
@@ -32,35 +32,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-actionableIconPrimaryAI
-
-</td><td>
-
-AI assistant icon tint in output cards.Default value: \#004F65
-
-</td></tr><tr><td>
-
-actionablePrimaryAIBackgroundColorGradientEnd
-
-</td><td>
-
-End color of the AI actionable background gradient in voice chat.Default value: \#71D5FE
-
-</td></tr><tr><td>
-
-actionablePrimaryAIBackgroundColorGradientStart
-
-</td><td>
-
-Start color of the AI actionable background gradient in voice chat.Default value: \#86F673
-
-</td></tr><tr><td>
-
 alertCritical0
 
 </td><td>
 
-Alert text background.Default value: \#F9C8CE
+Alert text background.Default value: \#F8C8CD
 
 </td></tr><tr><td>
 
@@ -68,7 +44,7 @@ alertCritical2
 
 </td><td>
 
-Alert text icon color.Default value: \#EC596B
+Alert text icon color.Default value: \#E42338
 
 </td></tr><tr><td>
 
@@ -76,7 +52,7 @@ alertCritical3
 
 </td><td>
 
-Alert text icon and bar.Default value: \#E52239
+Alert text icon and bar.Default value: \#B61C2D
 
 </td></tr><tr><td>
 
@@ -84,47 +60,23 @@ alertCritical4
 
 </td><td>
 
-New message divider.Default value: \#B31B2C
+New message divider.Default value: \#891522
 
 </td></tr><tr><td>
 
-alertHigh3
+alertInfoZero
 
 </td><td>
 
-High level alert.Default value: \#C25600
+Highlighting conversation items.Default value: \#BDDCF2
 
 </td></tr><tr><td>
 
-alertInfo0
+alertInfoTwo
 
 </td><td>
 
-Highlight conversation items.Default value: \#BDDCF1
-
-</td></tr><tr><td>
-
-alertInfo2
-
-</td><td>
-
-Highlight conversation items.Default value: \#409BD7
-
-</td></tr><tr><td>
-
-alertInfo3
-
-</td><td>
-
-Alert level three \(informational\).Default value: \#007AC9
-
-</td></tr><tr><td>
-
-alertLow2
-
-</td><td>
-
-Alert level two \(low\). Used in voice chat.Default value: \#96979F
+Highlighting conversation items.Default value: \#0079CC
 
 </td></tr><tr><td>
 
@@ -132,31 +84,7 @@ alertModerate3
 
 </td><td>
 
-Alert, search result, and AI icons.Default value: \#7B56FF
-
-</td></tr><tr><td>
-
-alertPositive0
-
-</td><td>
-
-Positive alert background.Default value: \#C7DCB5
-
-</td></tr><tr><td>
-
-alertPositive2
-
-</td><td>
-
-Positive alert accent and icon \(mid-tone\).Default value: \#6CA33D
-
-</td></tr><tr><td>
-
-alertPositive3
-
-</td><td>
-
-Positive alert text and icon.Default value: \#3E8600
+Alert and search result icons.Default value: \#5D46B6
 
 </td></tr><tr><td>
 
@@ -172,7 +100,7 @@ backgroundPrimaryActionable
 
 </td><td>
 
-Pagination selected, popup background.Default value: \#10171A
+Pagination selected, popup background.Default value: \#151920
 
 </td></tr><tr><td>
 
@@ -180,7 +108,7 @@ backgroundSecondary
 
 </td><td>
 
-Bottom bar, columns in cards, search background in choice picker.Default value: \#F5F6F7
+Bottom bar, columns in cards, search background in choice picker.Default value: \#F6F6F8
 
 </td></tr><tr><td>
 
@@ -188,7 +116,7 @@ backgroundSecondaryActionable
 
 </td><td>
 
-Clickable input such as search background \(15%\) or date and time background \(100%\).Default value: \#232E33
+Clickable input such as search background \(15%\) or date and time background \(100%\).Default value: \#2C323F
 
 </td></tr><tr><td>
 
@@ -196,7 +124,7 @@ backgroundTertiary
 
 </td><td>
 
-Agent and bot bubble background.Default value: \#E2E5E7
+Agent and bot bubble background.Default value: \#E4E6EA
 
 </td></tr><tr><td>
 
@@ -204,15 +132,15 @@ backgroundTertiaryActionable
 
 </td><td>
 
-Offline banner background.Default value: \#37444A
+Offline banner background.Default value: \#454D5B
 
 </td></tr><tr><td>
 
-borderTertiary
+boarderTertiary
 
 </td><td>
 
-Chat input borders.Default value: \#CFD5D7
+Chat input boardersDefault value: \#D3D6DC
 
 </td></tr><tr><td>
 
@@ -220,7 +148,7 @@ brand
 
 </td><td>
 
-Header background in toolbar and tables.Default value: \#032D42
+HeadersDefault value: \#302F4B
 
 </td></tr><tr><td>
 
@@ -228,7 +156,7 @@ brandBackground
 
 </td><td>
 
-User bubble background.Default value: \#BDDEE7
+User bubble background.Default value: \#D1D2EE
 
 </td></tr><tr><td>
 
@@ -236,15 +164,7 @@ destructive
 
 </td><td>
 
-Destructive action on buttons.Default value: \#E52239
-
-</td></tr><tr><td>
-
-divider
-
-</td><td>
-
-Divider lines separating banners and content sections.Default value: \#F1F2F3
+Destructive action on buttons.Default value: \#B61C2D
 
 </td></tr><tr><td>
 
@@ -252,7 +172,7 @@ highlightBlue
 
 </td><td>
 
-Inline citation items.Default value: \#C4DBFE
+Inline citation items.Default value: \#D9F4F9
 
 </td></tr><tr><td>
 
@@ -260,23 +180,7 @@ highlightGray
 
 </td><td>
 
-Inline citation item background.Default value: \#DCDDDE
-
-</td></tr><tr><td>
-
-highlightGreen
-
-</td><td>
-
-Green highlight. Used in voice chat.Default value: \#BFE1D4
-
-</td></tr><tr><td>
-
-highlightYellow
-
-</td><td>
-
-Yellow highlight. Used in voice chat.Default value: \#F0E2BF
+Inline citation item background.Default value: \#E8EAEA
 
 </td></tr><tr><td>
 
@@ -284,7 +188,7 @@ linkPrimary
 
 </td><td>
 
-Link on neutral background. For disabled links use 25% opacity with same color.Default value: \#1955BE
+Link on neutral background. For disabled links use 25% opacity with same color.Default value: \#3C59E7
 
 </td></tr><tr><td>
 
@@ -292,7 +196,7 @@ linkSecondary
 
 </td><td>
 
-Links on non-neutral \(not \#FFFFFF\) background.Default value: \#113A82
+Links on non-neutral \(not \#FFFFFF\) background.Default value: \#293D9E
 
 </td></tr><tr><td>
 
@@ -300,15 +204,7 @@ mandatory
 
 </td><td>
 
-Mandatory input field indicator.Default value: \#E52239
-
-</td></tr><tr><td>
-
-messagingIconPrimaryAI
-
-</td><td>
-
-AI sparkle icon and avatar tint in conversation messages.Default value: \#178BAB
+Mandatory input field indicator.Default value: \#E42338
 
 </td></tr><tr><td>
 
@@ -316,7 +212,7 @@ navigation
 
 </td><td>
 
-Navigation icon background.Default value: \#737F84
+Navigation icon background.Default value: \#454D58
 
 </td></tr><tr><td>
 
@@ -324,15 +220,7 @@ notification
 
 </td><td>
 
-New message indicator.Default value: \#E52239
-
-</td></tr><tr><td>
-
-presenceAvailable
-
-</td><td>
-
-Presence available indicator. Used in voice chat.Default value: \#4EA800
+New message indicator.Default value: \#B61C2D
 
 </td></tr><tr><td>
 
@@ -340,15 +228,7 @@ primary
 
 </td><td>
 
-Actionable text and button background.Default value: \#00566E
-
-</td></tr><tr><td>
-
-primaryOne
-
-</td><td>
-
-Greeting message view gradient.Default value: \#0080A3
+Actionable text and button background.Default value: \#4F52BD
 
 </td></tr><tr><td>
 
@@ -364,7 +244,7 @@ secondary
 
 </td><td>
 
-User's swiping motion.Default value: \#002832
+User's swiping motion.Default value: \#1C1D42
 
 </td></tr><tr><td>
 
@@ -372,7 +252,7 @@ separatorSecondary
 
 </td><td>
 
-Dividers.Default value: \#AAB2B6
+Divider linesDefault value: \#B0B5BF
 
 </td></tr><tr><td>
 
@@ -380,7 +260,7 @@ separatorTertiary
 
 </td><td>
 
-Divider lines.Default value: \#CFD5D7.
+Divider linesDefault value: \#D3D6DC
 
 </td></tr><tr><td>
 
@@ -388,7 +268,7 @@ shadow
 
 </td><td>
 
-Card shadow \(15%\).Default value: \#10171A
+Card shadow \(15%\)Default value: \#151920
 
 </td></tr><tr><td>
 
@@ -404,7 +284,7 @@ textPrimary
 
 </td><td>
 
-Chat bubble text, card header.Default value: \#10171A
+Chat bubble text, card header.Default value: \#151920
 
 </td></tr><tr><td>
 
@@ -412,7 +292,7 @@ textSecondary
 
 </td><td>
 
-Card content, search bar icon, and text.Default value: \#232E33
+Card content, search bar icon, and text.Default value: \#2C323F
 
 </td></tr><tr><td>
 
@@ -420,8 +300,8 @@ textTertiary
 
 </td><td>
 
-Weekday for calendar, placeholder.Default value: \#37444A
+Weekday for calendar, placeholder.Default value: \#454D5B
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+</table>**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 

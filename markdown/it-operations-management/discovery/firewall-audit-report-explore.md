@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
+breadcrumb: [Firewall Audits and Reporting, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Exploring Firewall Audits and Reporting
@@ -18,11 +18,11 @@ With Firewall Audits and Reporting, you have the capability to explore and condu
 
 ## Firewall Audits and Reporting overview
 
-A firewall device acts as a network security system, monitoring and controlling traffic based on specific policies. It establishes a protective barrier between trusted internal and untrusted external networks, incorporating multiple security policies to safeguard against threats. Ongoing maintenance and audits are crucial as security policies evolve, preventing potential loopholes. The firewall audit process streamlines rule tracking and updating, ensuring alignment with company security policies. Firewall vendors, including Palo Alto Panorama and Fortinet FortiManager, provide centralized managers for efficient control over devices and policies.
+A firewall device acts as a network security system, monitoring and controlling traffic based on specific policies. It establishes a protective barrier between trusted internal and untrusted external networks, incorporating multiple security policies to safeguard against threats. Ongoing maintenance and audits are crucial as security policies evolve, preventing potential loopholes. The firewall audit process streamlines rule tracking and updating, ensuring alignment with company security policies. Palo Alto Panorama provides a centralized manager for efficient control over devices and policies.
 
 ## Firewall Audits and Reporting workflow
 
-The Firewall Audits and Reporting application enables the ServiceNow Discovery process to discover firewalls from supported vendors \(Palo Alto Panorama and Fortinet FortiManager\). It discovers CMDB CIs for the firewall devices, firewall manager, firewall device groups, and firewall policies using serverless patterns. Firewall policy audit tasks are generated from the firewall managers or devices. You can also request new firewall security policies through the Service Catalog and archive older firewall rule requests, audit requests, and audit tasks to improve system performance. For more information, see [Visibility to Firewall inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/use-firewall-audit-rep.md). To see various reports to track discovered policies and audit tasks, see [Firewall Admin Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/firewall-admin-workspace-dashboard.md).
+The Firewall Audits and Reporting application enables the ServiceNow Discovery process to discover firewalls from Palo Alto Panorama. It discovers CMDB CIs for the firewall devices, firewall manager, firewall device groups, and firewall policies using serverless patterns. Firewall policy audit tasks are generated from the firewall managers or devices. You can also request new firewall security policies through the Service Catalog and archive older firewall rule requests, audit requests, and audit tasks to improve system performance. For more information, see [Visibility to Firewall inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/use-firewall-audit-rep.md). To see various reports to track discovered policies and audit tasks, see [Firewall Admin Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/firewall-admin-workspace-dashboard.md).
 
 ## Firewall Audits and Reporting benefits
 
@@ -34,5 +34,5 @@ The Firewall Audits and Reporting application enables the ServiceNow Discovery p
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 

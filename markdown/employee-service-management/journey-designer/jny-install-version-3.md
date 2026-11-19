@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Installation and configuration overview, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Install Journey designer
@@ -18,23 +18,27 @@ Install the Journey designer version 3 \[sn\_jny\] application to enable adminis
 
 ## Before you begin
 
-**Note:** You must upgrade to Vancouver before you can install Journey designer.
+**Note:** You must upgrade to Vancouver before you can install Journey designer version 3.
 
 Dependent plugins and apps for Journey designer:
 
 -   Human Resources Scoped App: Core \[com.sn\_hr\_core\]
 -   Human Resources Scoped App: Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\]
--   Employee Center Pro 28.2.1 \[sn\_ex\_sp\_pro\]
--   Journey Accelerator 6.2.2 \[sn\_ja\]
--   Admin Experience Framework 2.1.3
+-   Employee Center Pro 34.0.2 \[sn\_ex\_sp\_pro\]
+-   Journey Accelerator 6.5.6 \[sn\_ja\]
+-   Admin Experience Framework 5.0.0 \[sn\_ace\]
+-   Shared UI Libary 1.2.2 \[sn\_ui\_lib\]
+-   Document Templates 26.4.6 \[sn\_doc\]
+
+**Note:** Journey designer version 5.2.0 is compatible with Vancouver and later.
 
 Role required: admin.
 
 ## About this task
 
-Journey designer must be installed as a store application.
+Journey designer version 5.2.0 must be installed as a store application on the Yokohama family release.
 
-**Important:** The Journey designer app also installs the Journey Accelerator \[sn\_ja\] \(JA\) application.
+**Important:** The Journey designer app also installs the Journey Accelerator v6.5.6 \[sn\_ja\] \(JA\) application.
 
 ## Procedure
 

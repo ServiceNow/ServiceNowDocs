@@ -1,5 +1,5 @@
 ---
-title: Execution Dashboard in Portfolio Planning Workspace
+title: Execution Dashboard in Portfolio Planning
 description: The Execution Dashboard helps portfolio and product managers gain real-time visibility into delivery progress across work items, enabling portfolio leads to detect delays, course-correct early, and keep the strategy on track.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/execution-dashboard-ppw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Use dashboards, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Execution Dashboard in Portfolio Planning Workspace
+# Execution Dashboard in Portfolio Planning
 
 The Execution Dashboard helps portfolio and product managers gain real-time visibility into delivery progress across work items, enabling portfolio leads to detect delays, course-correct early, and keep the strategy on track.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-case-task-specific-case-type.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Manage cases, Use, Customer Service Management]
+breadcrumb: [Manage cases, Using Customer Service Management, Customer Service Management]
 ---
 
 # Create a case task of a specific type for a customer service case
@@ -32,7 +32,7 @@ The types of case tasks that agents can create depends on the configuration of t
 -   [Manage customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/manage-csm-case-types.md)
 -   [Configuring service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-service-definitions-configure.md)
 
-In CRM Workspace, agents use the [Case type selector screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-type-select-modals.md) to make selections and create cases.
+In CSM Configurable Workspace, agents use the [Case type selector screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-type-select-modals.md) to make selections and create cases.
 
 ## Procedure
 

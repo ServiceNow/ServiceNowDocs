@@ -1,16 +1,16 @@
 ---
-title: Enable HTML Sanitizer logging
+title: Enabling HTML Sanitizer logging
 description: When the HTML sanitizer removes elements or attributes, they are added to the system log.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/t\_EnableHTMLSanitizerLogging.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Enabling HTML sanitizer, HTML sanitizer]
 ---
 
-# Enable HTML Sanitizer logging
+# Enabling HTML Sanitizer logging
 
 When the HTML sanitizer removes elements or attributes, they are added to the system log.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2025-01-30"
 reading_time_minutes: 12
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,19 +39,13 @@ The ServiceNow instance must be able to reach the certificate's OCSP and CRL end
 
 In the Quebec release, a MID Server using the Health Log Analytic application cannot be configured with mutual authentication.
 
-As a general guideline, use a unique mTLS certificate for each MID Server to limit the impact if a single certificate is compromised.
-
 **Note:** Certificate-based authentication is not supported on On-Prem or edge encryption-enabled instances.
 
 ## Procedure
 
-1.  Verify that the instance is set up with ADCv2 load balancers.
+1.  Contact ServiceNow support to request mutual authentication on the MID Server.
 
-    Run the following command and check the response's `Server` header: `curl -I https://<instance>.service-now.com`
-
-    -   If the `Server` header value is `snow_adc`, the instance is on ADCv2. Continue to the next step.
-    -   If the value is anything else, the instance isn't on ADCv2. Contact ServiceNow Support to request migration to ADCv2 load balancers before you continue.
-    For additional technical details and troubleshooting information, see [KB1116112](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1116112).
+    For additional technical details and troubleshooting information, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB1116112](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1116112).
 
 2.  Obtain a certificate and private key from the certificate authority.
 
@@ -85,36 +79,50 @@ As a general guideline, use a unique mTLS certificate for each MID Server to lim
 
 3.  Split up the PEM certificate into 3 different PEM files.
 
-    1.  Private key and leaf certificate
-    2.  Leaf certificate
-    3.  Intermediate certificates and root certificate
-4.  On the instance, upload file containing the intermediate and root certificates to the CA Certificate Chain table: **sys\_ca\_certificate.list**.
+    1.  File 1: Private key and leaf certificate
+    2.  File 2: Leaf certificate
+    3.  File 3: Intermediate certificates and root certificate
+4.  On the instance, navigate to the CA Certificate Chain table \(**sys\_ca\_certificate**\) and upload File 3.
 
     **Note:** It is preferable to upload the root certificate and intermediate certificates as a single PEM bundle with the type set to CA Cert, rather than uploading them separately. If you choose to upload them individually, start with the root certificate followed by the intermediate certificates, and verify that the type is set to CA Cert for each, not Intermediate, as this is a platform requirement.
 
 5.  Check the uploaded CA Cert record on the instance and wait for the **Publish Status** to change to **Exists**.
 
-    **Warning:** Do not proceed until the publish status is updated to **Exists**.
+    **Note:** Do not proceed until the publish status is updated to **Exists**.
 
-6.  On the instance, navigate to **sys\_user\_certificate.list**.
+6.  On the instance, navigate to the **sys\_user\_certificate** table.
 
-7.  Attach only the leaf certificate to **sys\_user\_certificate.list** without including the private key.
+7.  Create a new record to map the MID Server user to the leaf certificate.
 
-8.  If the MID Server is validated, invalidate the MID Server before continuing.
-
-9.  Create a new record.
-
-    **Note:** The record must have the MID Server's name and the **User Role** must be **mid\_server**.
-
-10. Attach the original, unsplit PEM certificate to the record.
+    In the **User** field, select a user with the MID Server role
 
     \[Omitted image "mid-mtls-user-cert-record.png"\] Alt text: The attachment is in the top corner of the record.
 
-    **Note:** Ensure that the attached file contains only the certificate.
+8.  Attach File 2 to the record.
+
+9.  Click **Submit**.
+
+10. If the MID Server is validated, invalidate the MID Server before continuing.
 
 11. If the MID Server is running, stop the MID Server.
 
-12. On the MID Server host machine, run the following commands to install and manage the certificate and private key.
+12. Copy File 1 to a location on the MID Server host machine.
+
+13. Import File 1 into the MID Server keystore.
+
+    To configure mutual authentication between the MID Server and the instance, the certificate entry must be added to the `keystore` using the alias name `defaultsecuritykeypairhandle`.
+
+    For Windows, use the command: `bin\scripts\manage-certificates.bat -a defaultsecuritykeypairhandle <path_to_File_1>`
+
+    For Linux, use the command: `./bin/scripts/manage-certificates.sh -a defaultsecuritykeypairhandle <Path to File 1>`
+
+14. Enable mutual authentication.
+
+    For Windows, use the command: `bin\scripts\manage-certificates.bat -m`
+
+    For Linux, use the command: .`/bin/scripts/manage-certificates.sh -m`
+
+15. On the MID Server host machine, run the following commands to install and manage the certificate and private key.
 
     Run the script from the root of the agent directory because it requires the jar files in the class path. The security directory is then created in the agent root folder and is used by MID Server. For example: `bin\scripts\manage-certificates.bat -m.`
 
@@ -140,27 +148,27 @@ As a general guideline, use a unique mTLS certificate for each MID Server to lim
 
         The `alias` is a unique name given to the certificate being imported. The MID Server requires a custom certificate for mutual authentication, with the default alias name `defaultsecuritykeypairhandle`. To configure MTLS communication between the MID Server and instance, the certificate entry must be added to the key store using the alias name `defaultsecuritykeypairhandle`.
 
-        The `fileName` is the path to a PEM bundle file that contains one or more certificates and a private key in PKCS\#8 format. Include the private key and certificates in the following order:
+        The `fileName` is a file path that can contain a PEM certificate, or certificate chain, and a PCKS\#8 private key. The file path to the PEM bundle can contain multiple certificates and a single private key. The header and footer of each PEM certificate must be the following:
 
         ```
-         -----BEGIN CERTIFICATE-----
-        Leaf certificate
-        -----END CERTIFICATE-----
-        
-         -----BEGIN CERTIFICATE-----
-        Intermediate certificate
-         -----END CERTIFICATE-----
-        
-         -----BEGIN CERTIFICATE-----
-         Root certificate
-         -----END CERTIFICATE-----
-        
-         -----BEGIN PRIVATE KEY-----
-         Private key
+         -----BEGIN CERTIFICATE----- 
+        ```
+
+        ```
+         -----END CERTIFICATE----- 
+        ```
+
+        The header and footer of the PKCS\#8 syntax must be the following:
+
+        ```
+         -----BEGIN PRIVATE KEY----- 
+        ```
+
+        ```
          -----END PRIVATE KEY----- 
         ```
 
-        The private key can go at the top or the bottom of the file. If the file contains multiple certificates, order them as follows: leaf certificate, intermediate certificates, then root certificates. The system throws an exception if the certificate chain fails validation.
+        An exception is thrown if the certificate chain fails validation. If the file contains multiple certificates, they must be ordered: leaf certificate, intermediate certificates, then root certificates.
 
     -   **Display certificate details for the specified alias**
 
@@ -194,7 +202,7 @@ As a general guideline, use a unique mTLS certificate for each MID Server to lim
 
         This command deletes the existing entries from the keystore, except alias **DefaultSecurityKeyPairHandle**. ​
 
-13. Start the MID Server.
+16. Start the MID Server.
 
 
 **Parent Topic:**[Securing and encrypting MID Server data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/mid-server-security-encryption.md)
@@ -208,8 +216,6 @@ As a general guideline, use a unique mTLS certificate for each MID Server to lim
 
 [MID Server configuration file security]()
 
-[MID Server authentication methods comparison]()
-
 [MID Server authentication credentials and SOAP requests]()
 
 [MID Server unified key store]()
@@ -222,6 +228,8 @@ As a general guideline, use a unique mTLS certificate for each MID Server to lim
 
 [Add SSL certificates for the MID Server]()
 
+[Specify an external TrustStore for the MID Server]()
+
 [MID Server SSH cryptographic algorithms]()
 
 [Attach a script file to a file synchronized MID Server]()
@@ -229,8 +237,6 @@ As a general guideline, use a unique mTLS certificate for each MID Server to lim
 [MID Server FIPS Enforced Mode]()
 
 [MID Server Governance]()
-
-[MID Server IPKI authentication]()
 
 [Install custom certificates in the MID Server unified key store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/mid-unified-keystore.md)
 

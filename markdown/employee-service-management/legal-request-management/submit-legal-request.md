@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Use, Legal Request Management, Legal Service Delivery, Employee Service Management]
 ---
 
 # Submit a legal request
@@ -31,19 +31,23 @@ You can also submit a legal request through your mobile device or the Virtual Ag
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you're using Legal Service Portal, you can submit a legal request by navigating to the Legal Service Portal and selecting a request from the **Service Catalog**.
+    **Note:** If you are using Legal Service Portal, you can submit a legal request by navigating to the Legal Service Portal portal and selecting a request from the **Service Catalog**.
 
-2.  Navigate to **Help center** &gt; **Legal services**.
+2.  Select **Legal services** from the header.
 
-3.  Select a legal service item for which you want to submit a request.
+3.  Select **Browse Legal services**.
 
-    If you're not sure which legal service item to choose to submit your request, select **General Legal Request**.
+4.  Filter and search in the categories for the legal service request.
 
-4.  On the form, fill in the fields.
+5.  Click a legal service item for which you want to submit a request.
+
+    If you are not sure which legal service item to choose to submit your request, select **General Legal Request**.
+
+6.  On the form, fill in the fields.
 
     **Note:** Each legal service request form has a different set of fields based on the selected legal service item.
 
-5.  Select **Submit**.
+7.  Click **Submit**.
 
 
 ## Result

@@ -7,7 +7,7 @@ release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -150,7 +150,7 @@ Sprint Burndown
 
 </td><td>
 
-Line chart \[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
+Line chart \[Omitted image "line-icon.png"\] Alt text: Line chart
 
 </td><td>
 
@@ -171,7 +171,7 @@ Sprint Burnup
 
 </td><td>
 
-Line chart \[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
+Line chart \[Omitted image "line-icon.png"\] Alt text: Line chart
 
 </td><td>
 
@@ -190,7 +190,7 @@ Sprint Cumulative Flow Diagram
 
 </td><td>
 
-Area chart\[Omitted image "inline-data-vis-96px-area.png"\] Alt text:
+Area chart\[Omitted image "icon-area-report.png"\] Alt text: Area chart
 
 </td><td>
 

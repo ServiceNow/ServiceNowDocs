@@ -7,9 +7,9 @@ release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configure CAD objects using the Map Configuration tab, Autocad import tool, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure CAD objects using the Map Configuration tab, AutoCAD import tool, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure layers
@@ -18,11 +18,9 @@ Select a layer on the Map Configuration preview and edit it.
 
 ## Before you begin
 
-\[Omitted video\] Description: Configure layers in the Indoor Mapping application.
-
 Layers are the shapes or geometries in your CAD file.
 
-Role required: sn\_map\_core.map\_admin
+Role required: admin
 
 ## Procedure
 

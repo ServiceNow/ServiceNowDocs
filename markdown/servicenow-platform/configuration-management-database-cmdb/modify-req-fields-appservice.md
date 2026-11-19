@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Modify the attributes and relationships required for application services
@@ -18,7 +18,7 @@ Modify the lists of attributes and relationships that are required when creating
 
 ## Before you begin
 
-Role required: sn\_cmdb\_admin or itil\_admin
+Role required: itil\_admin
 
 ## About this task
 

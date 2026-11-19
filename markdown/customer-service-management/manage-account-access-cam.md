@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/manage-account-access-cam.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using customer access management, Customer management, Use, Customer Service Management]
+breadcrumb: [Using customer access management, Customer management, Using Customer Service Management, Customer Service Management]
 ---
 
 # Restrict contact access
@@ -16,13 +16,7 @@ Restrict contact access to sold products and install bases by limiting the acces
 
 ## Before you begin
 
-Role required: One of the following roles:
-
--   sn\_crm\_foundation\_admin
--   sn\_crm\_foundation\_data\_manager
--   sn\_crm\_account\_relationship\_data\_manager
--   sn\_customerservice\_manager
--   sn\_customerservice.customer\_admin
+Role required: sn\_customerservice\_manager and sn\_customerservice.customer\_admin
 
 ## About this task
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Analyzing team performance, Teams, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Analyzing team performance using Teams in Workforce Optimization for ITSM, Teams in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Get insights into performance of your team
@@ -17,8 +17,6 @@ breadcrumb: [Analyzing team performance, Teams, Workforce Optimization for ITSM,
 Get insights into process bottlenecks and find potential areas that you could optimize. You can also view variation analysis.
 
 ## Before you begin
-
-**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_process\_optimization\_analyst
 

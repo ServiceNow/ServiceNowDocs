@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Custom instance URLs, Authentication, Access Management]
+breadcrumb: [Custom URLs association to your instance, Authentication, Access Management]
 ---
 
 # Generate SP metadata for SAML/SSO custom URL installations
@@ -18,7 +18,7 @@ A SAML or SSO installation needs the SP metadata generated for the IdP before th
 
 ## Before you begin
 
-Role required: custom\_url\_admin
+Role required: admin
 
 The IdP needs SP metadata for the instance to authenticate and forward requests.
 
@@ -28,7 +28,7 @@ The IdP needs SP metadata for the instance to authenticate and forward requests.
 
 1.  Choose your installed SSO plugin:
 
-<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d40653e84">
+<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d36589e77">
 
 **Multi-Provider SSO**
 
@@ -36,7 +36,7 @@ The IdP needs SP metadata for the instance to authenticate and forward requests.
 
 Navigate to **Multi-Provider SSO** &gt; **Identity Providers**. Choose an IdP and click the **Generate Metadata** button. The integration automatically generates the instance's SP metadata from the system property settings.
 
-</td></tr><tr><td id="d40653e105">
+</td></tr><tr><td id="d36589e98">
 
 **SAML 2 SSO**
 

@@ -1,18 +1,18 @@
 ---
 title: Global Search in configurable workspaces
-description: Learn about how the CSM Agent Workspace Global Search functions with CRM Workspace.
+description: Learn about how the CSM Agent Workspace Global Search functions with CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/migration-search-config.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CRM Workspace, Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrate to CSM Configurable Workspace, Migrating to Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Global Search in configurable workspaces
 
-Learn about how the CSM Agent Workspace Global Search functions with CRM Workspace.
+Learn about how the CSM Agent Workspace Global Search functions with CSM Configurable Workspace.
 
 Global Search provides users with the ability to search for information within the defined search sources.
 
@@ -20,5 +20,5 @@ Global Search provides users with the ability to search for information within t
 |-----------------|--------------|
 |sys\_aw\_global\_search\_config|sys\_ux\_page\_property|
 
-For more information, see [Using AI Search with CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-ai-search.md).
+For more information, see [Using AI Search with CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-ai-search.md).
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 8
-breadcrumb: [Reference, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Digital Portfolio Management reference, Digital Portfolio Management, IT Service Management]
 ---
 
 # Digital Portfolio Management related applications and data sources
@@ -431,7 +431,7 @@ DPM Manager \[sn\_dpm.dpm\_manager\]
 View general information about the business applicaton.
 
 </td></tr></tbody>
-</table>## Service instances
+</table>## Application services
 
 **Note:** Your data view in DPM is the same as what your product license permits from the application that you pull data from \(standard or pro\).
 
@@ -493,7 +493,7 @@ To see reliability indicators, install the plugin for Site Reliability Metrics:
 
 View the following information:
 
- View service instance performance
+ View application service performance
 
 -   Service health
 -   Service impact
@@ -504,7 +504,7 @@ View the following information:
 -   Number of reliability indicators
 -   Description of reliability indicators
 
- View offerings that depend on this service instance
+ View offerings that depend on this application service
 
 -   Number of reliability offerings
 -   Drill down to offering to see the related records
@@ -529,7 +529,7 @@ DPM Manager \[sn\_dpm.dpm\_manager\]
 
 </td><td>
 
-View general information about the service instance.
+View general information about the application service.
 
 </td></tr></tbody>
 </table>## Examples

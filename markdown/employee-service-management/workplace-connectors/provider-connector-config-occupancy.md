@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2025-01-30"
+reading_time_minutes: 3
 breadcrumb: [Setup Workplace Connectors for occupancy data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -50,6 +50,14 @@ Name of the occupancy data provider. This field is auto-filled when the Metrikus
 
 </td></tr><tr><td>
 
+Connector Configuration
+
+</td><td>
+
+Option to select required sensor items from the Connector Configuration table. For example, Occupancy And Environment.
+
+</td></tr><tr><td>
+
 Source Type
 
 </td><td>
@@ -66,14 +74,6 @@ Option to select active provider connector configuration data. Only active recor
 
 </td></tr><tr><td>
 
-Connector Configuration
-
-</td><td>
-
-Option to select required sensor items from the Connector Configuration table. For example, badging or Occupancy.
-
-</td></tr><tr><td>
-
 Auto-refresh locations
 
 </td><td>
@@ -85,6 +85,14 @@ The scheduled Job **Refresh Provider Space Mapping records** runs daily and read
 If this option is selected, then spaces that are added to a location are synchronized with the Provider Space Mapping table. If spaces are removed, the occupancy sensor data record is removed from the connector list of the Provider Space Mapping table.
 
 For example, if a floor or a space is added to a location, then they're automatically added to a selected location.
+
+</td></tr><tr><td>
+
+Metrics
+
+</td><td>
+
+Option to select the Space Occupancy metric value.
 
 </td></tr></tbody>
 </table>3.  Filter spaces using the **Space Filter Condition**.

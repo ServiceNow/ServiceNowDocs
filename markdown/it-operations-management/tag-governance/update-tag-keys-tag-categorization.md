@@ -7,7 +7,7 @@ release: yokohama
 product: Tag Governance
 classification: tag-governance
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Use, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
@@ -28,7 +28,7 @@ Role required: tag\_governance\_admin
 
 2.  Verify that you're in the leaf domain.
 
-    1.  In the page header, select the globe icon \(\[Omitted image "globe-icon.png"\]\).
+    1.  In the page header, select the globe icon \[Omitted image "globe-outline-24.svg"\].
 
     2.  Select **Domain scope**, and choose the appropriate leaf domain.
 
@@ -36,15 +36,15 @@ Role required: tag\_governance\_admin
 
 4.  Under **CI tag keys**, either add a tag key or delete an existing tag key.
 
-<table id="choicetable_dvx_hzd_5fc"><thead><tr><th align="left" id="d749268e139">
+<table id="choicetable_dvx_hzd_5fc"><thead><tr><th align="left" id="d567032e139">
 
 Action
 
-</th><th align="left" id="d749268e142">
+</th><th align="left" id="d567032e142">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d749268e148">
+</th></tr></thead><tbody><tr><td id="d567032e148">
 
 **Add a tag key**
 
@@ -57,13 +57,13 @@ Steps
 5.  Select **Update** to save your changes.
 
 
-</td></tr><tr><td id="d749268e186">
+</td></tr><tr><td id="d567032e186">
 
 **Delete a tag key**
 
 </td><td>
 
-1.  Under **Tag key**, select the delete icon \(\[Omitted image "marked-for-deletion.png"\] Alt text:\) next to the tag key you want to remove.
+1.  Under **Tag key**, select the delete icon \(\[Omitted image "marked-for-deletion.png"\]\) next to the tag key you want to remove.
 2.  Select **Update** to save your changes.
 
 

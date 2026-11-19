@@ -7,9 +7,9 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-02"
 reading_time_minutes: 1
-breadcrumb: [Create AI connection for Azure Foundry, Microsoft, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Create AI connection for Azure Foundry, Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, Control Tower, Enable AI experiences]
 ---
 
 # Properties of Azure Foundry

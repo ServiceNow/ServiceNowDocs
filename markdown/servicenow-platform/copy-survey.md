@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/copy-survey.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+last_updated: "2025-01-30"
+reading_time_minutes: 2
+breadcrumb: [Survey administration, Using surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Copy a survey
@@ -16,9 +16,7 @@ Create a copy of a survey with at least one category to reduce the effort of cre
 
 ## Before you begin
 
-Role required: survey\_admin or admin, survey\_creator
-
-**Note:** Users with the survey\_creator role can copy a survey only if they own the survey. If they do not own the survey, they cannot copy it.
+Role required: survey\_admin or admin
 
 ## About this task
 
@@ -32,15 +30,15 @@ All associated questions \(type\), configurations, categories, metrics, domain s
 
 3.  Perform any of the following steps.
 
-<table id="choicetable_vbb_qcl_l2b"><thead><tr><th align="left" id="d146531e89">
+<table id="choicetable_vbb_qcl_l2b"><thead><tr><th align="left" id="d146105e85">
 
 Option
 
-</th><th align="left" id="d146531e92">
+</th><th align="left" id="d146105e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d146531e98">
+</th></tr></thead><tbody><tr><td id="d146105e94">
 
 **From Platform**
 
@@ -48,7 +46,7 @@ Description
 
 In the title bar, click **Copy**.
 
-</td></tr><tr><td id="d146531e110">
+</td></tr><tr><td id="d146105e106">
 
 **From Platform**
 
@@ -56,7 +54,7 @@ In the title bar, click **Copy**.
 
 In the title bar, select **Copy** from the context menu.
 
-</td></tr><tr><td id="d146531e122">
+</td></tr><tr><td id="d146105e118">
 
 **From survey designer**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Use, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
 # Use Personalized Answers
@@ -37,17 +37,11 @@ Employee can quickly scan the remainder of leaves for the year and select **Requ
 
 [Use the My To-dos page]()
 
-[Use approval experience]()
-
-[Manage approvals from Microsoft Teams]()
-
-[Manage approvals from a Microsoft Outlook email]()
+[View advanced portal navigation]()
 
 [Task filters on My tasks]()
 
 [View the Recommended for you content]()
-
-[Use Employee Center from Zoom]()
 
 [View employee profile]()
 
@@ -56,8 +50,6 @@ Employee can quickly scan the remainder of leaves for the year and select **Requ
 [RTL support for Employee Center]()
 
 [Manage favorites]()
-
-[Access applications from App Launcher]()
 
 [Use Guided Self-Service]()
 

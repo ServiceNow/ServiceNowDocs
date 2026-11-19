@@ -7,7 +7,7 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-03-17"
 reading_time_minutes: 5
 breadcrumb: [Time series widgets, Performance Analytics widgets, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---

@@ -1,23 +1,21 @@
 ---
 title: Generate a chat reply recommendation by using ServiceNow Otto for Customer Service Management \(CSM\)
-description: Generate a reply based on the context of the chat conversation using AI icon. Chat reply recommendations can help provide agents with quick replies to common questions.
+description: Generate a reply based on the context of the chat conversation using Now Assist icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/generate-chat-reply-recommendations.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Generate a chat reply recommendation by using ServiceNow Otto for Customer Service Management \(CSM\)
 
-Generate a reply based on the context of the chat conversation using AI icon. Chat reply recommendations can help provide agents with quick replies to common questions.
-
-See the video to understand how generative AI provides agents with suggested, personalized responses during live chat interactions. \[Omitted video\] Description: Chat reply recommendation
+Generate a reply based on the context of the chat conversation using Now Assist icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 
 ## Before you begin
 
@@ -25,16 +23,16 @@ Role required: admin
 
 ## About this task
 
-You can do these actions by using the AI icon:
+You can do these actions by using the Now Assist icon:
 
 -   Generate a recommended reply that is based on the context of the conversation.
 -   Refine the recommendation by elaborating or shortening the response.
 
-**Note:** The Chat reply recommendation skill is on the Chat skill card in the Customer group.
+**Note:** The Chat reply recommendation skill is on the Chat skill card in the Customer group. For more info, see Chat reply recommendation.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
 2.  Open the inbox and accept the chat interaction.
 
@@ -44,19 +42,19 @@ You can do these actions by using the AI icon:
 
     For example, if the requester is having an issue with hardware, you may need the hardware model number and serial number.
 
-4.  In the chat message window, either type a response, or leave blank, and then select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
+4.  In the chat message window, either type a response, or leave blank, and then select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
     \[Omitted image "now-assist-chat-reply-recommendation.png"\] Alt text: Modal that shows a chat recommendation from the agent.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d34796e162">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d32382e158">
 
 Chat message window
 
-</th><th align="left" id="d34796e165">
+</th><th align="left" id="d32382e161">
 
-AI icon
+Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d34796e171">
+</th></tr></thead><tbody><tr><td id="d32382e169">
 
 **Typed response**
 
@@ -73,7 +71,7 @@ Provides the option to refine your response:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d34796e205">
+</td></tr><tr><td id="d32382e203">
 
 **Left blank**
 
@@ -82,7 +80,7 @@ Provides the option to refine your response:
 Generates a recommended reply that is based on the context of the conversation up to this point.
 
 </td></tr></tbody>
-</table>    The reply response appears in the AI icon modal.
+</table>    The reply response appears in the Now Assist icon modal.
 
 5.  Review the generated reply and select **Refine** to modify the response, or select **Insert** to paste the response into the chat message window.
 

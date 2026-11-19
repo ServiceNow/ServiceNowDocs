@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/setting-up-fso-applications.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Financial Services Operations \(FSO\)]
 ---
@@ -54,7 +54,7 @@ Set up your Financial Services Operations application by importing financial ser
 
     Review the CSM Configurable Workspace in Financial Services Operations applications to ensure it meets your business needs. Customize its components as needed and set it up for agents to engage with customers, answer questions, create cases, and resolve issues.
 
-11. [Setting up decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/decision-table.md)
+11. Setting up decision tables
 
     Create decision tables.
 

@@ -1,18 +1,18 @@
 ---
-title: Configure a form header for a workspace
-description: Create a form header and add it to a workspace's form configuration.
+title: Set up a form header in Configurable Workspace
+description: You can create a form header for use in Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/config-ws-form-header.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Administering forms for Configurable Workspace, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Configure a form header for a workspace
+# Set up a form header in Configurable Workspace
 
-Create a form header and add it to a workspace's form configuration.
+You can create a form header for use in Configurable Workspace.
 
 ## Before you begin
 
@@ -20,54 +20,34 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 ## About this task
 
-After creating a form header, you must add it to your workspace's form header configuration.
+After creating a form header, you must link it to a form header configuration if you want it to appear in Configurable Workspace.
 
-One form header configuration is included with each workspace. You can use this configuration without completing any additional steps.
+One form header configuration is included with Configurable Workspace. You can use this configuration out of the box without completing any additional configuration steps.
 
 ## Procedure
 
 1.  Create a form header.
 
-    1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Form Header**.
+    1.  Navigate to **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Form Header**.
 
-    2.  Select **New**.
+    2.  Click **New**.
 
-        A new Form Header record opens.
+    3.  Fill in the fields on the Ribbon Setting form.
 
-    3.  Complete the following fields:
-
-        -   **Table**
-
-            Select the table where the form header will apply.
-
-        -   **Primary field**
-
-            Select a primary field for the form header.
-
-        -   **Subheading**
-
-            Select a subheading for the form header.
-
-        -   **Header Image**
-
-            Select a header image for the form header.
-
-    4.  Select **Submit**.
+    4.  Click **Submit**.
 
 2.  Add the form header to the form header configuration.
 
-    1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Header Configurations**.
+    1.  Navigate to **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Header Configurations**.
 
-    2.  Select the header configuration for your workspace.
+    2.  Select the header configuration.
 
-        The UX Header Configuration record opens.
+    3.  In the Workspace Form Headers related list, click **Edit**.
 
-    3.  From the Workspace Form Headers related list, select **Edit**.
+        **Note:** You may need to configure the form to display the related list.
 
-        **Note:** You may need to configure the form to display the Workspace Form Headers related list.
+    4.  Move the desired form header from the left column to the right column to add it to the header configuration.
 
-    4.  Add the form header.
-
-    5.  Select **OK**.
+    5.  Click **Save**.
 
 

@@ -1,16 +1,16 @@
 ---
-title: Set up a Service Exchange connection between a Provider and a Consumer
+title: Set up a Service Exchange connection between a Provider and a Consumer using Service Exchange for Public Sector Digital Services
 description: Establish an instance-to-instance integration between a provider and a consumer using Service Exchange for Public Sector Digital Services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-servicebridge-config-connect-prov-consu.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Service Exchange, Case Management, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Service Bridge, Case Management, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Set up a Service Exchange connection between a Provider and a Consumer
+# Set up a Service Exchange connection between a Provider and a Consumer using Service Exchange for Public Sector Digital Services
 
 Establish an instance-to-instance integration between a provider and a consumer using Service Exchange for Public Sector Digital Services.
 
@@ -37,7 +37,7 @@ Before proceeding, the provider should have requested the contact details of an 
     -   Select the Company associated with the consumer instance being registered.
     -   Select the contact details associated with the Company you have selected.
 
-        **Note:** This contact must be an admin user in the consumer instance, otherwise the registration process cannot be completed. On the provider instance, only a Service Bridge Consumer role is required.
+        **Note:** This contact must be an admin user in the consumer instance, otherwise the registration process cannot be completed. On the provider instance, only a Service Bridge Consumer role \(sn\_sb\_pro.consumer\) is required.
 
     -   Select the **Lock** icon on the URL field and enter the URL of the consumer ServiceNow instance.
 3.  Select **Save**.
@@ -50,7 +50,9 @@ Before proceeding, the provider should have requested the contact details of an 
 
     **Note:** The consumer admin completing the registration process must be the named contact on the provider’s registration task or an admin in the provider's instance. Registration will fail during the OAUTH authentication step if attempted by another user.
 
-5.  Navigate to **All** &gt; **Service Bridge Consumer** &gt; **Provider Connections**.
+5.  Navigate to **All** &gt; **Service Bridge Consumer** &gt; **Provider Connections** in the consumer instance.
+
+    If coming from link, it will take you there automatically.
 
 6.  On the Provider Connection form in the consumer instance, select the name of the Company that the provider is associated with and select **Save**.
 

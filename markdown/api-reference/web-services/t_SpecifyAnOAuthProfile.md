@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Profiles and scopes, Use a third-party OAuth provider, Configure a message with OAuth, Outbound REST authentication, REST, Outbound, Web services, API implementation, API implementation and reference]
+breadcrumb: [OAuth profiles and scopes, Use a third-party OAuth provider, Configure a REST message with OAuth, Outbound REST authentication, Outbound REST web service, Outbound web services, Web services, API implementation, API implementation and reference]
 ---
 
 # Specify an OAuth profile
@@ -24,13 +24,13 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **System OAuth** &gt; **Application Registry** and open a third-party OAuth provider record.
+1.  Open a third-party OAuth provider record.
 
 2.  In the OAuth Entity Profiles embedded list, click **Insert a new row** and then enter a name for the profile.
 
-3.  Right-click the OAuth provider form header and select **Save**.
+3.  Right-click the Application Registry form header and select **Save**.
 
-    The profile record is created.
+    The system creates the profile record.
 
 4.  Click the name of the profile you created and then fill in the form fields.
 

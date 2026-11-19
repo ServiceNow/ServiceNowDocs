@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/c\_OnScreenAlerts.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-18"
 reading_time_minutes: 6
-breadcrumb: [Manage cases, Use, Customer Service Management]
+breadcrumb: [Administer Customer Service Management, Customer Service Management]
 ---
 
 # Special handling notes
@@ -85,10 +85,10 @@ The note has reached it's expiration date or it has been expired manually.If a n
  A note is expired automatically by a scheduled job when it reaches it's expiration date. The scheduled job also sets any inactive notes to expired if the inactive notes have reached their expiration date.
 
 </td></tr></tbody>
-</table>A note can be assigned one of the following priorities. Each priority has an associated color, which is displayed as a colored bar in the pop-up window and as a colored circle in the **Priority** field in a list. The Core UI and the CRM Workspace interface use different colors to represent priority.
+</table>A note can be assigned one of the following priorities. Each priority has an associated color, which is displayed as a colored bar in the pop-up window and as a colored circle in the **Priority** field in a list. The Core UI and the CSM Configurable Workspace interface use different colors to represent priority.
 
-|Priority|Core UI|CRM Workspace|
-|--------|-------|-------------|
+|Priority|Core UI|CSM Configurable Workspace|
+|--------|-------|--------------------------|
 |1 - Critical|Red|Red|
 |2 - High|Orange|Orange|
 |3 - Moderate|Green|Purple|
@@ -116,7 +116,7 @@ Special handling notes can be displayed on a form in an embedded or related list
 
 ## Resurfacing special handling notes
 
-Special handling notes are typically displayed in a pop-up window when a record is opened. Agents can view the special handling notes, dismiss individual notes, and close the window. If an agent closes the window, they can open it again and display the special handling notes without closing and reopening the record tab in CRM Workspace.
+Special handling notes are typically displayed in a pop-up window when a record is opened. Agents can view the special handling notes, dismiss individual notes, and close the window. If an agent closes the window, they can open it again and display the special handling notes without closing and reopening the record tab in CSM Configurable Workspace.
 
 To open the special handling notes pop-up window after it has been closed, select **Special handling notes** from the More actions menu \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: agent workspace more UI actions icon\) on the action bar. If no special handling notes are available, the system displays an informational message: “No special handling notes are available.”
 
@@ -125,25 +125,12 @@ The **Special handling notes** action that agents can use to reopen the special 
 -   Front-line case page
 -   CSM default record page
 
-In addition to these pages, the action is also available on records from the following tables:
-
--   Account
--   Asset
--   Contact
--   Incident
--   Product model
--   Work order task
-
 ## Expiring special handling notes
 
 The **Deactivate Special Handling Notes** scheduled job, which runs daily at midnight, checks the dates in the **Effective on** and **Expires on** fields for each note.
 
 -   If a special handling note has reached its **Effective on** date, the scheduled job sets the status of the note to **Active**.
 -   If a special handling note has reached its **Expires on** date, the scheduled job sets the status of the note to **Expired**.
-
-## Special handling notes plugin
-
-Activating the Case Management Core plugin \(com.sn\_customerservice\) provides the CRM Workspace functionality, including the CRM Workspace Special Handling Notes \(com.snc.uib.special\_handling\_notes\).
 
 ## Domain separation for Special Handling Notes
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configure, Employee Center Pro Kiosk overview, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure the mail and SMS send to self
@@ -102,8 +102,6 @@ Employee can send the mail and SMS using the default Email and SMS template.
 
 -   **User triggered notification template** is available from **All** &gt; **System Notifications** &gt; **Email** &gt; **Templates**.
 -   **User triggered employee notification layout** is available from **All** &gt; **System Policy** &gt; **Email** &gt; **Layout**.
-
-**Parent Topic:**[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
 
 **Related topics**  
 

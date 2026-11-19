@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Collaboration, Administer, Creator Studio, Developing your application, Classic app development, Building applications]
+breadcrumb: [Administering collaboration in Creator Studio, Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
 
 # Customized app collaboration permissions in Creator Studio

@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 8
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -102,7 +102,6 @@ Error code. Returned when the report creation fails or invalid input parameters 
 -   `USER_NOT_AUTHORIZED_EXCEPTION`
 -   `INVALID_PARAM`
 -   `QUERY_SYS_ID_INVALID`
--   `REPORT_INELIGIBLE`
 
 Data type: String
 
@@ -279,9 +278,7 @@ Data type: String
 </table>This example shows how to delete a saved query by passing the query name.
 
 ```
-var delQuery = sn_cmdb.CMDBQBScopedScriptableAPI.deleteQuery('', 'CMDBQueryTest1');
-
-gs.info(JSON.stringify(delQuery, null, 2));
+gs.info(JSON.stringify(sn_cmdb.CMDBQBScopedScriptableAPI.deleteQuery('', 'CMDBQueryTest1')));
 ```
 
 Output:
@@ -296,9 +293,7 @@ Output:
 This example shows an error when the query sys\_id and name are both missing from the method call.
 
 ```
-var delQuery = sn_cmdb.CMDBQBScopedScriptableAPI.deleteQuery('', '');
-
-gs.info(JSON.stringify(delQuery, null, 2));
+gs.info(JSON.stringify(sn_cmdb.CMDBQBScopedScriptableAPI.deleteQuery('', '')));
 ```
 
 Output:

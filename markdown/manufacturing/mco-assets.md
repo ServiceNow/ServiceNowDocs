@@ -1,16 +1,16 @@
 ---
-title: Viewing assets for Manufacturing Commercial Operations
+title: Configuring assets
 description: An asset is a specific product or instance that is supported for a Manufacturing Commercial Operations to manage the asset details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-assets.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Set up MCO, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Create a warranty contract, Set up Manufacturing Commercial Operations, Configuring Manufacturing Commercial Operations, Manufacturing Commercial Operations]
 ---
 
-# Viewing assets for Manufacturing Commercial Operations
+# Configuring assets
 
 An asset is a specific product or instance that is supported for a Manufacturing Commercial Operations to manage the asset details.
 
@@ -27,7 +27,7 @@ Manufacturers must have their assets details, such as:
 
 You can use the Advanced view filter to filter the assets based on your requirements.
 
-Select the filter icon or menu. Select **Advanced view**.
+Select the filter icon or menu. Select **Advanced view**. .
 
 Select any field from the root table that you want to filter the data by.
 

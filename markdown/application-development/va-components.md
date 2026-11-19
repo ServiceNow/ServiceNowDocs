@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/va-components.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Create custom components using ServiceNow CLI, Builder library, Developing your application, Classic app development, Building applications]
+breadcrumb: [Create custom components using ServiceNow CLI, Builder library, Developing your application, Building applications]
 ---
 
 # Develop a component for Virtual Agent

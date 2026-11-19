@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Reference, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
 # Employee Center widgets
@@ -142,7 +142,7 @@ admin, sp\_admin
 
 [Activity Configuration Detail form]()
 
-[Approvals experience reference]()
+[Browser Extension for Employee Center forms]()
 
 [Connected Content form]()
 
@@ -176,9 +176,11 @@ admin, sp\_admin
 
 [Portal notification content form]()
 
-[Trigger conditions form]()
-
 [Quick Link form]()
+
+[Standard banner and icon sizes]()
+
+[Trigger conditions form]()
 
 [Tab widget mapping form]()
 
@@ -186,13 +188,9 @@ admin, sp\_admin
 
 [Topic form]()
 
+[To-do content form]()
+
 [User Criteria form]()
 
 [User Criteria output]()
-
-[Schedule appointment form]()
-
-[Location Consent form]()
-
-[Website configuration form]()
 

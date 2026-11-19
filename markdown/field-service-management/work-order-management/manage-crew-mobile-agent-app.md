@@ -1,24 +1,27 @@
 ---
-title: Crew on ServiceNow Agent
-description: Add equipment or members to your crew using the ServiceNow Agent application.
+title: Crew on Mobile Agent
+description: Add equipment or members to your crew using the Now Mobile Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/manage-crew-mobile-agent-app.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
+breadcrumb: [Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
 ---
 
-# Crew on ServiceNow Agent
+# Crew on Mobile Agent
 
-Add equipment or members to your crew using the ServiceNow Agent application.
+Add equipment or members to your crew using the Now® Mobile Agent application.
 
-[Add members or equipment to your crew](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/add-members-eq-crew.md)
+-   **[Add members or equipment to your crew](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/add-members-eq-crew.md)**  
+Add crew members or equipment to your crews on the Now Mobile Agent application.
+-   **[Remove or release members and equipment from your crew](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/remove-members-eq-crew.md)**  
+Remove or release crew members and equipment from your crews on the Now Mobile Agent application.
+-   **[Edit member or equipment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/edit-member-eq-details.md)**  
+Edit the details of an individual planned crew member or equipment, as well as an entire crew on the Now Mobile Agent application. Mark members, equipment, and crews as active or inactive, or add details for task crew members.
 
-[Remove or release members and equipment from your crew](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/remove-members-eq-crew.md)
-
-[Release a task crew member](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/remove-members-eq-crew.md)
+**Parent Topic:**[Complete work orders on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Use-mobile-app-fsm.md)
 

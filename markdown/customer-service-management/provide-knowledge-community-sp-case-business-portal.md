@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/provide-knowledge-community-sp-case-business-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Deflect cases with knowledge content
@@ -32,7 +32,7 @@ The business portal Case form displays contextual search results based on text e
 
 3.  Start entering in the **Subject** field.
 
-    If there are any search results that match, they’re displayed in the **Related Content** widget.
+    If there are any search results that match, they’re displayed in the **Related Search Results** widget.
 
     **Note:** If embedded search has been enabled, the results are displayed inline in the Case form in a **Knowledge results** section and are read only.
 
@@ -44,9 +44,4 @@ The business portal Case form displays contextual search results based on text e
 
 6.  Select **Submit**.
 
-
-**Related topics**  
-
-
-[Search the knowledge base on Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_SearchForInfoUsingThe-businessPortal.md)
 

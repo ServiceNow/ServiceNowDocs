@@ -1,20 +1,20 @@
 ---
 title: Inquiries
-description: You can view all the assigned and unassigned inquiries in a list view in the AI Control Tower.
+description: You can view all the assigned and unassigned inquiries in a list view in the Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/inquiries.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [AI assets, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [AI assets, Control Tower dashboard, Explore, Control Tower, Enable AI experiences]
 ---
 
 # Inquiries
 
-You can view all the assigned and unassigned inquiries in a list view in the AI Control Tower.
+You can view all the assigned and unassigned inquiries in a list view in the Control Tower.
 
 ## Inquiries list view
 
@@ -28,5 +28,5 @@ The following image displays all the AI inquiries in a list view.
 
 \[Omitted image "aict-inquiries.png"\] Alt text: Inquiries in a list view on the AI assets page.
 
-For information about creating AI inquiries from the AI cases tab in the AI Control Tower workspace, see [Create an AI issue in the AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-an-ai-issue-in-the-ai-control-tower.md)
+For information about creating AI inquiries from the AI cases tab in the Control Tower workspace, see [Create an AI issue in the Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-an-ai-issue-in-the-ai-control-tower.md)
 

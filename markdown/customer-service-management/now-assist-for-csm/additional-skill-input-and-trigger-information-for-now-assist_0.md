@@ -1,36 +1,36 @@
 ---
 title: Additional skill input and trigger information
-description: Review the inputs and triggers for sidebar summarization, sentiment analysis case and suggested steps generation skill.
+description: Enable remaining Generative AI Skills within Now Assist CSM, and reference summarized details to complete setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/additional-skill-input-and-trigger-information-for-now-assist\_0.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-06-03"
 reading_time_minutes: 1
-breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Additional skill input and trigger information
 
-Review the inputs and triggers for sidebar summarization, sentiment analysis case and suggested steps generation skill.
+Enable remaining Generative AI Skills within Now Assist CSM, and reference summarized details to complete setup.
 
 ## Overview of skills and triggers
 
 Depending on the selected skill, you can configure inputs or triggers. These settings determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a case summary. A trigger initiates an action, such as when the system generates a chat summary.
 
-## Sidebar summarization skill
+## Sidebar discussion summarization skill
 
-For the sidebar summarization skill, select the triggers that determine when a sidebar discussion summary is generated.
+For the sidebar discussion summarization skill, select the triggers that determine when a sidebar discussion summary is generated.
 
 The following table lists the triggers that determine when a sidebar discussion summary is generated.
 
 |Trigger|Description|
 |-------|-----------|
-|Quick action|Sidebar summarization that is generated when the agent manually triggers the skill.|
+|User triggered|Sidebar discussion summarization that is generated when the agent manually triggers the skill.|
 
-## Sentiment analysis case skill
+## Case sentiment analysis skill
 
 The case sentiment analysis skill includes the inputs and outputs that identify the table and fields that are used when a case sentiment is generated.
 
@@ -50,7 +50,7 @@ Input table
 
 </td><td>
 
-Case \[sn\_customerservice\_case\]
+Case \[Case\]
 
 </td></tr><tr><td>
 
@@ -62,7 +62,9 @@ Input fields
 -   Description
 -   Priority
 -   State
--   Additional comments
+-   Task creation date
+-   Activities
+-   Task SLA
 
 </td></tr></tbody>
 </table>The following table lists the outputs for the case sentiment analysis skill.
@@ -103,19 +105,19 @@ Sentiment reasoning
 
 </td><td>
 
-Reasons for the sentiment value.
+Reasons for provide the sentiment value.
 
 </td></tr></tbody>
 </table>The following table lists the scheduled job for the sentiment analysis skill
 
 |Scheduled job name|Default value|Description|
 |------------------|-------------|-----------|
-|Sentiment analysis scheduler job CSM|False|Refreshes sentiments on the Trigger frequency screen for the Sentiment analysis skill.|
+|Sentiment analysis scheduled job \(case\)|True|Refreshes sentiments on the Trigger frequency screen for the Sentiment analysis skill.|
 |Update sentiment historical records|False|When active, calculates sentiment and sentiment trends for historical records.|
 
 ## Suggested steps generation skill
 
-The following table lists the inputs for the suggested steps generation skill
+The following table lists the suggested steps generation skill
 
 <table id="table_id3_4qw_52c"><thead><tr><th>
 

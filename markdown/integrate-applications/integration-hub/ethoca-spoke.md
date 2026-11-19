@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Ethoca spoke
@@ -18,15 +18,15 @@ Integrate ServiceNow instance with your Ethoca account to manage card dispute re
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-## Integration Hub subscription
+## Subscription information
 
-This spoke requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
+This spoke requires a subscription. Contact your ServiceNow account manager or sales representative for subscription details. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf)
 
 ## Spoke version
 
-Ethoca spoke v3.0.0 is the latest version. For version history of the spoke, see [Ethoca Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ethoca-spoke.html).
+Ethoca spoke v3.0.0 is the latest version.
 
 ## Supported versions
 
@@ -41,8 +41,7 @@ This spoke was built for Consumer Clarity and Issuer Alerts Management.
 
 ## Spoke requirements
 
--   Integration Hub subscription
--   Ethoca configuration details such as, certificate, key alias, consumer key, and keystore password
+Ethoca configuration details such as, certificate, key alias, consumer key, and keystore password.
 
 ## Spoke dependencies
 

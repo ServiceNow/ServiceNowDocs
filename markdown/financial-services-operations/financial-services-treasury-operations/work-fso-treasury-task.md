@@ -1,20 +1,20 @@
 ---
-title: Work on a treasury task for due diligence or fulfillment
-description: Work on a treasury task to perform due diligence or fulfillment activities for the parent treasury service case.
+title: Work on a treasury task for due diligence or fulfilment
+description: Work on a treasury task to perform due diligence or fulfilment activities for the parent treasury service case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-treasury-operations/work-fso-treasury-task.html
 release: yokohama
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Use, Treasury Operations, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Using Financial Services Treasury Operations, Treasury Operations, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Work on a treasury task for due diligence or fulfillment
+# Work on a treasury task for due diligence or fulfilment
 
-Work on a treasury task to perform due diligence or fulfillment activities for the parent treasury service case.
+Work on a treasury task to perform due diligence or fulfilment activities for the parent treasury service case.
 
 ## Before you begin
 
@@ -40,19 +40,19 @@ If assignment rules are configured, the task is automatically assigned to a trea
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  Open the task from the case playbook or the treasury task list.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d44562e150">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d40154e124">
 
 Option
 
-</th><th align="left" id="d44562e153">
+</th><th align="left" id="d40154e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d44562e159">
+</th></tr></thead><tbody><tr><td id="d40154e133">
 
 **From the case playbook**
 
@@ -65,7 +65,7 @@ Steps
 
 **Note:** The Due diligence activity is available only for an RDC treasury case.
 
-</td></tr><tr><td id="d44562e200">
+</td></tr><tr><td id="d40154e174">
 
 **From the Treasury task list**
 

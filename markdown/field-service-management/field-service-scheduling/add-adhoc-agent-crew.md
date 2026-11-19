@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace for crew operations, Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
 ---
 
 # Assign an ad hoc agent to the crew on a work order task
@@ -22,17 +22,17 @@ Role required: wm\_dispatcher
 
 ## About this task
 
-You can add ad hoc agents to work on a crew task. These agents join the crew members to work on the task but aren’t part of the crew.
+You can add ad hoc agents to work on a crew task. These agents join the crew members to work on the task but are not part of the crew.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Select**Dispatcher Workspace**.
+2.  Click**Dispatcher Workspace**.
 
 3.  Open the work order task to which you want to assign ad hoc agents.
 
-4.  In the Assignees related list, select **Add**.
+4.  In the Assignees related list, click **Add**.
 
 5.  On the form, fill in the fields.
 
@@ -41,10 +41,12 @@ You can add ad hoc agents to work on a crew task. These agents join the crew mem
 |Assignee|Name of the agent you want to add.|
 |Role|Role assigned to the newly added resource. For example, member or leader.|
 
-7.  Select **Save**.
+7.  Click **Save**.
 
 
 ## Result
 
 An ad hoc agent is added to the crew task.
+
+**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-disp-wrkspc-crew-operations.md)
 

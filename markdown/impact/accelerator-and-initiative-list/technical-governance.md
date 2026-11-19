@@ -7,26 +7,24 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
 ---
 
 # Technical Governance
 
 Guidance on technical governance management of the ServiceNow AI Platform
 
-## Accelerator Overview
+## Overview
 
 Technical Governance provides Impact Customers with a framework that defines how to govern and manage the stability of the ServiceNow platform. This Impact Accelerator aims to assist Customers in establishing technical decision-making processes, and governance policies and processes that can facilitate faster implementations and upgrades, smoother development, and greater value from enhanced feature adoption.
 
-## Package Availability
-
-**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
+**Note:** This Accelerator is available in Advanced and Total packages.
 
 ## What you get
 
--   **Introductory Customer Session \(up to 1 hr\)**
+-   **Introductory Customer Session \(up to 60 min\)**
     -   Set expectations on process and depth of deliverable
     -   Communicate expectation for Customer participation
     -   Request data and any other inputs from Customer
@@ -38,7 +36,7 @@ Technical Governance provides Impact Customers with a framework that defines how
     -   Workshop slides
     -   Action planning notes
     -   Action planning templates
--   **Follow-up Customer Session \(optional upon Customer request – up to 1 hr\)**
+-   **Follow-up Customer Session \(optional upon Customer request – up to 60 min\)**
     -   Opportunity for Q&amp;A related to Technical Governance Deliverables
     -   Provide additional guidance on leading practices
 

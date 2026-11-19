@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-using-ir-playbooks.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using Information Request Administration
@@ -16,7 +16,7 @@ If you're an information request case agent or manager, you can use the Informat
 
 A playbook provides you with step-by-step guidance through the life cycle of an information request case.
 
-The Information Request Administration automatically appears in the **Playbook** tab when you create an information request case by using the Public Sector Workspace.
+The Information Request Administration automatically appears in the **Playbook** tab when you create an information request case by using the CSM Configurable Workspace.
 
 A playbook takes a workflow and breaks it into multiple stages or lanes. Each stage in a playbook includes one or more activities, or steps, for you to complete. Stages can also include automated activities, such as auto-sending an email to a customer when a stage or activity is complete. When using a playbook, you can:
 
@@ -51,7 +51,7 @@ The process-based playbook layout shows the following features:
 
 -   Related records in the contextual side panel supported by the dynamic related records component.
 
-\[Omitted image "information-request-process-based-layout.png"\] Alt text: Playbook layout, shown in process-based experience view. For the text description, refer to the table in Playbook components.
+\[Omitted image "information-request-process-based-layout.png.png"\] Alt text: Playbook layout, shown in process-based experience view. For the text description, refer to the table in Playbook components.
 
 The following table shows the components that you can see in the Information Request Playbook workspace.
 

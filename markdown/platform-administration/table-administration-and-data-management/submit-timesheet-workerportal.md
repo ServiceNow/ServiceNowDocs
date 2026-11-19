@@ -7,9 +7,9 @@ release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Time Sheet Portal, Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Time Sheet Portal, Time Card management, Work with the Task table, Table administration, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Submit time sheet through Time Sheet Portal
@@ -18,7 +18,7 @@ Once you update the time sheet with time worked for a given week, submit it for 
 
 ## Before you begin
 
-Role required: timecard\_user
+Role required: timecard\_ user
 
 ## About this task
 

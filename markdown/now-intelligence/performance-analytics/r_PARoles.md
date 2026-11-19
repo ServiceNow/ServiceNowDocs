@@ -7,7 +7,7 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
 breadcrumb: [Reference, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -41,7 +41,7 @@ No role
 -   View Performance Analytics visuals on the Service Portal.
 -   View dashboards that have been shared with this user.
 
-Some dashboards require a subject matter related role for viewing, such as sn\_hr\_core\_basic for the HR Agent dashboard. Dashboard owners and administrators can also restrict dashboard access by role. For more information, see [Core UI dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_DashboardRoles.md).
+Some dashboards require a subject matter related role for viewing, such as sn\_hr\_core\_basic for the HR Agent dashboard. Dashboard owners and administrators can also restrict dashboard access by role. For more information, see [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_DashboardRoles.md).
 
 
 </td><td>
@@ -54,7 +54,6 @@ Any role \(not necessarily a Performance Analytics role\)
 
 </td><td>
 
--   Open the indicator library
 -   Create dashboards.
 -   Restrict access by role to a dashboard they create.
 -   Share dashboards they own.
@@ -194,7 +193,7 @@ pa\_data\_collectorContained by: pa\_admin
 -   CRUD system units
 -   CRUD scripts and automated notifications
 -   CRUD bucket groups
--   Activate or deactivate Data snapshots
+-   Activate or deactivate data snapshots
 
 </td><td>
 
@@ -384,18 +383,6 @@ pa\_data\_collector or pa\_power\_user
 
 </td></tr><tr><td>
 
-Bucket group mappings
-
-</td><td>
-
-CRUD
-
-</td><td>
-
-pa\_power\_user
-
-</td></tr><tr><td>
-
 Bucket groups
 
 </td><td>
@@ -405,18 +392,6 @@ CRUD
 </td><td>
 
 pa\_data\_collector or pa\_power\_user
-
-</td></tr><tr><td>
-
-Calculated fields
-
-</td><td>
-
-CRUD
-
-</td><td>
-
-pa\_data\_collector
 
 </td></tr><tr><td>
 
@@ -476,7 +451,7 @@ Read a dashboard that has been shared with you
 
 </td><td>
 
-No role by default, but dashboards can require roles to view their data. For more information, see [Core UI dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_DashboardRoles.md).
+No role by default, but dashboards can require roles to view their data. For more information, see [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_DashboardRoles.md).
 
 </td></tr><tr><td>
 
@@ -796,7 +771,7 @@ pa\_power\_user
 **Related topics**  
 
 
-[Core UI dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_DashboardRoles.md)
+[Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_DashboardRoles.md)
 
-[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdminsteringReports.md)
+[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdminsteringReports.md)
 

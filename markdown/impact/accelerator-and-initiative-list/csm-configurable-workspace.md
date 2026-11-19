@@ -7,9 +7,9 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
 ---
 
 # Jumpstart Your CSM Configurable Workspace
@@ -20,22 +20,17 @@ The Jumpstart Your Customer Service Management \(CSM\) Configurable Workspace Ac
 
 Jumpstart Your \(CSM\) Configurable Workspace helps Impact customers gain a deeper understanding of how to get started with CSM Configurable Workspace by providing a comprehensive overview and applied  demonstration. This Accelerator guides you through the setup process and clearly illustrates the value of the workspace. Additionally, key resources and leading practices are offered to enhance product adoption and usage.
 
-For additional information on the feature, see [CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-workspaces-configure.md).
+For additional information on the feature, see [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-workspaces-configure.md).
 
-## Package Availability
-
-**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 
 Offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
 ## What you get
 
 -   **Session preparation**
-
-    The Technical Accelerator Consultant:
-
-    -   Provisions a temporary instance
-    -   Activates related plugins
+    -   Provision a temporary instance
+    -   Activate related plugins
 -   **Customer coaching session \#1 \(up to 90 minutes\)**
 
     Includes the following:

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/invoice-ops-installed-components.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 8
-breadcrumb: [Case Management for Invoice Operations, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Case Management for Invoice Operations, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Components installed with Case Management for Invoice Operations
@@ -324,9 +324,9 @@ To view the Invoice case type, navigate to **All** &gt; **Customer Service** &gt
 
 ## Invoice case form views
 
-The Case Management for Invoice Operations application includes form views to display invoice cases in CRM Workspace and in the Core UI.
+The Case Management for Invoice Operations application includes form views to display invoice cases in CSM Configurable Workspace and in the Core UI.
 
-This application uses the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-default-record-page.md) to display Invoice case records in CRM Workspace.
+This application uses the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-default-record-page.md) to display Invoice case records in CSM Configurable Workspace.
 
 Invoice cases include the following related lists:
 

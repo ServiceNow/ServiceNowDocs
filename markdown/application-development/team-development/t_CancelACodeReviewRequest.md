@@ -7,18 +7,14 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
+breadcrumb: [Team Development, Exploring Team Development, Team Development, Planning your application, Building applications]
 ---
 
 # Cancel a code review request
 
 Developers can cancel any push they submitted that is in the Awaiting Code Review stage.
-
-## Before you begin
-
-Role required: none.
 
 ## About this task
 
@@ -38,4 +34,6 @@ Canceling a request sets the push to the **Code Review Request Cancelled** stage
 
 5.  Click **Cancel Code Review**.
 
+
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

@@ -1,5 +1,5 @@
 ---
-title: CMDB IRE reference
+title: CMDB Identification and Reconciliation reference
 description: Reference topics provide property settings, domain separation, and other reference content for the CMDB Identification and Reconciliation Engine \(IRE\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/ire-reference.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB Identification and Reconciliation \(IRE\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# CMDB IRE reference
+# CMDB Identification and Reconciliation reference
 
 Reference topics provide property settings, domain separation, and other reference content for the CMDB Identification and Reconciliation Engine \(IRE\).
 

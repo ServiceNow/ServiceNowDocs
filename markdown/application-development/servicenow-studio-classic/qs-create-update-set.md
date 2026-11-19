@@ -1,30 +1,30 @@
 ---
 title: Create an update set in ServiceNow Studio
-description: Create an update set in ServiceNow Studio to package your app changes for deployment.
+description: Create an update set as you work in ServiceNow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/qs-create-update-set.html
 release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [ServiceNow Studio quick start, Exploring ServiceNow Studio, Building applications with ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Create an update set in ServiceNow Studio
 
-Create an update set in ServiceNow Studio to package your app changes for deployment.
+Create an update set as you work in ServiceNow Studio.
 
 ## Before you begin
 
-Role required: admin or delegated\_developer
+Role required: admin or delegated developer
 
 ## About this task
 
-Create an update set without leaving ServiceNow Studio. For more information about update sets on the ServiceNow AI Platform, see [General guidelines for planning the update process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/get-started-update-sets.md).
+Create an update set without having to leave ServiceNow Studio. For more information about creating an update set on the ServiceNow AI Platform, see [Get started with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/get-started-update-sets.md).
 
-Watch a short video on how to create an update set.
+You can also watch this short video on how to create an update set.
 
 \[Omitted video\] Description: Video on how to create an update set in ServiceNow Studio
 
@@ -36,7 +36,7 @@ Watch a short video on how to create an update set.
 
 3.  At the bottom-left corner of the canvas, expand the update set dialog by selecting the current update set from the status bar.
 
-    \[Omitted image "sn-studio-scope-update-set-zs1.png"\] Alt text: Select the current update set from the status bar to open the update set dialog.
+    \[Omitted image "sn-studio-status-bar-update-set-dialog.png"\] Alt text: To open the update set dialog, select the current update set from the status bar.
 
 4.  Select **New**.
 

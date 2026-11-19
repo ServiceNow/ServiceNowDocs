@@ -1,18 +1,18 @@
 ---
 title: Configure the maximum number of related records to display
-description: Configure the maximum number of related records to display in the Related Records tab in the contextual side panel in CRM Workspace.
+description: Configure the maximum number of related records to display in the Related Records tab in the contextual side panel in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-max-num-related-records.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure dynamic related records, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Configure dynamic related records, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Configure the maximum number of related records to display
 
-Configure the maximum number of related records to display in the Related Records tab in the contextual side panel in CRM Workspace.
+Configure the maximum number of related records to display in the Related Records tab in the contextual side panel in CSM Configurable Workspace.
 
 ## Before you begin
 

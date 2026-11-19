@@ -1,5 +1,5 @@
 ---
-title: \(Legacy\) Configure the help link for the Virtual Agent Facebook Messenger integration
+title: Configure the help link for the Virtual Agent Facebook Messenger integration \(Legacy\)
 description: Use the va.messenger.help.url system property to create the link that opens a web help page when requesters use the Help command in the Virtual Agent Facebook Messenger integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/create-fb-help-prop.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Legacy setup and configuration, Configure, Facebook Messenger, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrating Virtual Agent with Facebook Messenger, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
-# \(Legacy\) Configure the help link for the Virtual Agent Facebook Messenger integration
+# Configure the help link for the Virtual Agent Facebook Messenger integration \(Legacy\)
 
 Use the **va.messenger.help.url** system property to create the link that opens a web help page when requesters use the **Help** command in the Virtual Agent Facebook Messenger integration.
 
@@ -45,5 +45,5 @@ Use the **va.messenger.help.url** system property to create the link that opens 
 
 When your Facebook Messenger users type `help`, they are directed to the URL of the website specified in the **va.messenger.help.url** property.
 
-**Parent Topic:**[Legacy setup and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/legacy-va-fb-messenger-setup.md)
+**Parent Topic:**[Integrating Virtual Agent with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm.md)
 

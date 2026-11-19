@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/planning-implementation-fsm.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Field Service Management]
+breadcrumb: [Configuring Field Service Management, Field Service Management]
 ---
 
 # Planning your Field Service Management implementation

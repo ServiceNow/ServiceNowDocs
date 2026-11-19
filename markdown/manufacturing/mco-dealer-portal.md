@@ -1,20 +1,20 @@
 ---
-title: Dealer landing page
-description: The dealer portal supports post-sales service for OEMs and dealers, who submit claims, manage recalls, and view real-time insights for informed decisions.
+title: Manufacturing Commercial Operations Dealer portal
+description: The dealer portal enables the OEM and Dealers to engage in the post-sales customer service requirements like claim submission, product recall announcements, customer service requests. It enables dealers to efficiently manage day-to-day business operations. The portal also provides real-time data insights, enabling proactive monitoring and informed decision-making.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-dealer-portal.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Explore, Manufacturing Commercial Operations]
+breadcrumb: [Exploring Manufacturing Commercial Operations, Manufacturing Commercial Operations]
 ---
 
-# Dealer landing page
+# Manufacturing Commercial Operations Dealer portal
 
-The dealer portal supports post-sales service for OEMs and dealers, who submit claims, manage recalls, and view real-time insights for informed decisions.
+The dealer portal enables the OEM and Dealers to engage in the post-sales customer service requirements like claim submission, product recall announcements, customer service requests. It enables dealers to efficiently manage day-to-day business operations. The portal also provides real-time data insights, enabling proactive monitoring and informed decision-making.
 
-\[Omitted image "Dealer-portal-lp.png"\] Alt text: Dealer portal landing page
+\[Omitted image "image.Dealer\_portal\_lp"\] Alt text: Decorative
 
 The Dealer Portal landing page includes different sections and components.
 
@@ -43,7 +43,6 @@ My lists
 Displays the list of claims that includes:-   Sales promotion claims
 -   Sales promotion bulk upload
 -   Repair claims
--   Report an issue
 -   All Cases
 
 </td></tr><tr><td>
@@ -53,7 +52,7 @@ Catalogs
 </td><td>
 
 Displays the categories under the dealer catalog:-   Customer Operations
--   Support &amp; Services
+-   Support &amp; services
 
 </td></tr><tr><td>
 
@@ -69,7 +68,7 @@ My information
 
 </td><td>
 
-Displays the dealer information.**Note:** Here, dealer refers to a business location.
+Displays the dealer information.**Note:** Here, dealer is business location.
 
 </td></tr><tr><td>
 
@@ -117,13 +116,13 @@ User Profile
 
 </td><td>
 
-Displays user profile information. To learn more about user profile, see [User Profile widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/user-profile-widget.md).
+Display user profile information. To learn more about user profile, see [User Profile widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/user-profile-widget.md).
 
 </td></tr></tbody>
-</table>## What to explore next
+</table>**Related topics**  
 
-To learn more about configuring and using the dealer portal, see:
 
--   [Dealer data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/dealer-data-model-overview.md)
--   [Using the dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-use-dealer-portal.md)
+[Dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/dealer-data-model-overview.md)
+
+[Dealer management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-use-dealer-portal.md)
 

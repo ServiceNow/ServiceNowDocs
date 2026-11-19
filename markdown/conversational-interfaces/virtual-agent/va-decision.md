@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Virtual Agent Designer utilities, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Decision utility
@@ -26,13 +26,13 @@ For more information, see [Branch a Virtual Agent conversation with a Decision u
 
 ## Example Decision utility node with branches
 
-In this example, a static choice control prompts the user to select from three available colors and the selection is stored in a variable. The Decision utility control is configured with a branch for each possible selection. Each branch uses the condition builder, which returns true when the corresponding color is selected. In the example, the condition builder returns true when the choice is Blue.
+In this example, a static choice control prompts the user to select from three available colors and the selection is stored in a variable. The Decision utility control is configured with a branch for each possible selection. Each branch uses the condition builder, which returns true when the corresponding color is selected. In the example, the condition builder returns true when the choice is Red.
 
-\[Omitted image "DecisionExample.png"\] Alt text: Decision utility with three branches and highlighted corresponding condition defined property for the Blue branch.
+\[Omitted image "DecisionExample.png"\] Alt text: Decision utility with three branches and highlighted corresponding condition defined property for the Red branch.
 
 You can also use the Script option for branch conditions. In the following example, the script provides the same functionality as the condition builder.
 
-\[Omitted image "decision-example-script.png"\] Alt text: Decision utility with three branches and highlighted corresponding scripted property for the Blue branch.
+\[Omitted image "decision-example-script.png"\] Alt text: Decision utility with three branches and highlighted corresponding scripted property for the Red branch.
 
-**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-utilities.md)
 

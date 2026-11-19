@@ -1,5 +1,5 @@
 ---
-title: Using Workplace Services Kiosk
+title: Use Workplace Services Kiosk
 description: Workplace Services Kiosk provides a seamless check-in, check-out, and self-registration experience for visitors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Using Workplace Services Kiosk
+# Use Workplace Services Kiosk
 
 Workplace Services Kiosk provides a seamless check-in, check-out, and self-registration experience for visitors.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Auto-creation of cases, Use, Proactive Service Experience Workflows, Product Support for Technology]
+breadcrumb: [Auto-creation of cases and updates from incidents, Using Proactive Service Experience Workflows, Proactive Service Experience Workflows]
 ---
 
 # Redirection to the right case type

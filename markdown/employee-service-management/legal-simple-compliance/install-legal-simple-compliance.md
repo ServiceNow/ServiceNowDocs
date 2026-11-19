@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Simple Compliance
 classification: legal-simple-compliance
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-02-07"
 reading_time_minutes: 1
-breadcrumb: [Legal Simple Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Legal Simple Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
 ---
 
 # Install Legal Simple Compliance
@@ -50,6 +50,4 @@ When you install the Legal Simple Compliance application, the following applicat
 
 5.  Select **Install**.
 
-
-**Parent Topic:**[Legal Simple Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-compliance/legal-simple-compliance-applications.md)
 

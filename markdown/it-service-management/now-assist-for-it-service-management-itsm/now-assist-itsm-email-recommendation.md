@@ -1,13 +1,13 @@
 ---
 title: Generate an email response by using ServiceNow Otto for IT Service Management \(ITSM\)
-description: Generate an email as a recommendation based on the context of the incident using the ServiceNow Otto icon. Email responses can help agents save time and learn efficient ways to respond to requesters.
+description: Generate an email as a recommendation based on the context of the incident using the Now Assist icon. Email responses can help agents save time and learn efficient ways to respond to requesters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-email-recommendation.html
 release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -15,17 +15,17 @@ breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management
 
 # Generate an email response by using ServiceNow Otto for IT Service Management \(ITSM\)
 
-Generate an email as a recommendation based on the context of the incident using the ServiceNow Otto icon. Email responses can help agents save time and learn efficient ways to respond to requesters.
+Generate an email as a recommendation based on the context of the incident using the Now Assist icon. Email responses can help agents save time and learn efficient ways to respond to requesters.
 
 ## Before you begin
 
-An admin must activate the email response skill. For more information, see [Configure email reply recommendation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-email-recommendation.md).
+An admin must activate the email response skill.
 
 Role required: itil
 
 ## About this task
 
-As an agent, you can do these actions using the ServiceNow Otto icon:
+As an agent, you can do these actions using the Now Assist icon:
 
 -   Generate an email response as a recommendation based on the context of the incident and the email.
 -   Generate an email response as a recommendation for replies to new, forwarded, and draft emails.
@@ -38,15 +38,15 @@ As an agent, you can do these actions using the ServiceNow Otto icon:
 
 2.  Start composing an email using the More actions icon or from the activity stream.
 
-<table id="choicetable_gdb_tkm_pdc"><thead><tr><th align="left" id="d234449e125">
+<table id="choicetable_gdb_tkm_pdc"><thead><tr><th align="left" id="d357035e121">
 
 Method
 
-</th><th align="left" id="d234449e128">
+</th><th align="left" id="d357035e124">
 
 Instructions
 
-</th></tr></thead><tbody><tr><td id="d234449e134">
+</th></tr></thead><tbody><tr><td id="d357035e130">
 
 **Compose email using More actions icon\[Omitted image "now-assist-itsm-more-actions-icon.png"\] Alt text: More actions icon**
 
@@ -55,39 +55,43 @@ Instructions
 1.  Select **Email**.
 2.  Write six or more words and then select the words.
 
-The ServiceNow Otto icon appears.
+The Now Assist icon appears.
 
-3.  Select the ServiceNow Otto icon\[Omitted image "now-assist-sn-otto-dark-icon.png"\] Alt text:
+3.  Select the Now Assist icon. \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-ServiceNow Otto creates an email response as a recommendation.
+Now Assist creates an email response as a recommendation.
 
 4.  Select **Refine** and then select **Shorten** or **Elaborate** depending on whether you want a more concise or a lengthy response.
 
 Get an email response as a recommendation for the agent to ask more questions or sent notes to an end user.
 
-</td></tr><tr><td id="d234449e195">
+</td></tr><tr><td id="d357035e192">
 
 **Compose an email from Activity stream**
 
 </td><td>
 
 1.  In the activity stream, select an existing email that you want to reply to.
-2.  Position your cursor within the email message window to see the ServiceNow Otto icon \[Omitted image "now-assist-sn-otto-dark-icon.png"\] Alt text: ServiceNow Otto icon.
-3.  Select the ServiceNow Otto icon \[Omitted image "now-assist-sn-otto-dark-icon.png"\] Alt text: ServiceNow Otto icon to get an email response as a recommendation. This is for the agent to ask more questions or sent notes to an end user.
+2.  Position your cursor within the email message window to see the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
+3.  Select the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist. to get an email response as a recommendation for the agent to ask more questions or sent notes to an end user.
 
 
 </td></tr></tbody>
-</table>3.  In the email message window, either type a response or leave it empty, and then select the ServiceNow Otto \[Omitted image "now-assist-sn-otto-dark-icon.png"\] Alt text: ServiceNow Otto icon icon.
+</table>3.  In the email message window, either type a response or leave it empty, and then select the Now Assist \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.icon.
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d234449e252">
+    \[Omitted image "itsm-email-recommendation.png"\] Alt text: Email response workspace screen with Now Assist option
+
+    \[Omitted image "itsm-email-recommendation-coreui.png"\] Alt text: Email response CoreUI screen with Now Assist option
+
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d357035e286">
 
 Email message window
 
-</th><th align="left" id="d234449e255">
+</th><th align="left" id="d357035e289">
 
-ServiceNow Otto icon
+Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d234449e264">
+</th></tr></thead><tbody><tr><td id="d357035e298">
 
 **Typed response**
 
@@ -97,7 +101,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d234449e281">
+</td></tr><tr><td id="d357035e315">
 
 **Left blank**
 

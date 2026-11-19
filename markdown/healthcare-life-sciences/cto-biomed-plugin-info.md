@@ -1,16 +1,16 @@
 ---
-title: Set up work order synchronization in Care Team Operations for Biomed
+title: Setting up plugins for Care Team Operations for Biomed
 description: The Field Service Management \[com.snc.work\_management\] plugin is required for work order synchronization to function with Care Team Operations for Biomed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/cto-biomed-plugin-info.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configuring Care Team Operations for Biomed, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
-# Set up work order synchronization in Care Team Operations for Biomed
+# Setting up plugins for Care Team Operations for Biomed
 
 The Field Service Management \[com.snc.work\_management\] plugin is required for work order synchronization to function with Care Team Operations for Biomed.
 
@@ -18,11 +18,15 @@ For Care Team Operations for Biomed to create work orders from Healthcare Biomed
 
 This plugin provides all roles and features needed for the healthcare biomed case to synchronize with work orders.
 
-For information on fulfilling work orders, see [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/c_ManageWorkOrders.md).
+It also provides the following roles for Care Team Operations for Biomed:
+
+-   biomed.dispatcher
+-   biomed.agent
+-   biomed.qualifier
 
 **If the Field Service Management \[com.snc.work\_management\] plugin isn’t installed:**
 
-Work orders won’t be created from healthcare biomed cases. Instead, agents work on fulfilling those cases directly from their portals.
+Work orders won’t****be created from healthcare biomed cases. Instead, agents work on fulfilling those cases directly from their portals.
 
 Cases created are assigned to assignment groups based on the requesting location associations and are configured normally with CSM case management functionality.
 

@@ -5,10 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/public-services-performance-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-keywords: [Public Services Performance Overview dashboard, Public Services Performance metrics, Assess Public Services Performance]
-breadcrumb: [Analytics and Reporting, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Analytics and Reporting Solutions for Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Public Services Performance Overview dashboard

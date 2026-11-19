@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Manage actions, Working with actions, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Manage actions, Working with actions, Using Automation Center, Automation Center, Data and Automation]
 ---
 
 # Create assigned groups

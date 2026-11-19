@@ -7,10 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-audience: sn\_cm\_core.contract\_fulfiller
-breadcrumb: [Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Use self-served contract request, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
 ---
 
 # Reviewing and finalizing a self-serve contract document
@@ -34,6 +33,8 @@ After submitting a self-serve contract request, a contract document is generated
 As a contract user, review a contract document and submit a change request to the contract fulfiller if changes are required in the contract document.
 -   **[Work on a contract change request]()**  
 As a contract fulfiller, review the change request, update the contract document, and send it back to the contract user.
+-   **[Send a contract document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-send-doc-signature.md)**  
+After a contract document has been reviewed and finalized, send the document for signature.
 
-**Parent Topic:**[Own paper contract requests]()
+**Parent Topic:**[Use self-served contract request]()
 

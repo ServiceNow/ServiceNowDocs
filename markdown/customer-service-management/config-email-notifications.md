@@ -1,18 +1,18 @@
 ---
 title: Configure email and comment notifications
-description: Add a script to the email reply or case comment template to include all case activities in email replies and notifications.
+description: Add a script to the email reply or case comment template to include all activities \(emails and comments\) on a case record in email replies and in email notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-email-notifications.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure email replies and notifications for cases, Email to case, Configure Email, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [Email to case, Configuring the email channel, Configure communication channels, Enable communication channels, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Configure email and comment notifications
 
-Add a script to the email reply or case comment template to include all case activities in email replies and notifications.
+Add a script to the email reply or case comment template to include all activities \(emails and comments\) on a case record in email replies and in email notifications.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ Role required: admin
 
     1.  Navigate to **All** &gt; **Email client templates** &gt; **Reply**.
 
-    2.  In the **reply-received** system property, add the following script to the **Body HTML** field: `${mail_script:get_emails_comments_activity_history}`.
+    2.  In the **reply-recieved** system property, add the following script to the **Body HTML** field: `${mail_script:get_emails_comments_activity_history}`.
 
     3.  Save the field.
 

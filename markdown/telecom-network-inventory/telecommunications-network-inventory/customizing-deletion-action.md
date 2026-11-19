@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [CMDB Workspace, Use, Telecommunications Network Inventory]
+breadcrumb: [Viewing your network inventory configuration items with CMDB Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
 ---
 
 # Customizing deletion action
@@ -18,7 +18,7 @@ Customizing deletion action enables you to create your own process of the deleti
 
 ## Before you begin
 
-Role required: admin.
+Role required: Admin
 
 ## Procedure
 
@@ -35,5 +35,5 @@ Role required: admin.
 6.  Under **Decision table**, update the **Action Type** against the appropriate **CI Type**.
 
 
-**Parent Topic:**[Viewing your network inventory configuration items with CMDB or Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/viewing-network-inventory-using-cmdb-workspace.md)
+**Parent Topic:**[Viewing your network inventory configuration items with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/viewing-network-inventory-using-cmdb-workspace.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Modify a portfolio plan
+title: Modify a portfolio plan in Portfolio Planning Workspace
 description: Update the details of a portfolio plan in Portfolio Planning Workspace or delete it, to reflect the changes in your planning priorities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/modify-portfolio-plan-in-portfolio-planning-workspace.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Manage portfolio plans, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Modify a portfolio plan
+# Modify a portfolio plan in Portfolio Planning Workspace
 
 Update the details of a portfolio plan in Portfolio Planning Workspace or delete it, to reflect the changes in your planning priorities.
 
@@ -39,15 +39,15 @@ Role required: sn\_align\_core.apw\_user or business\_stakeholder
 
 4.  Update the details of the portfolio plan or delete it using the Portfolio plan actions menu.
 
-<table id="choicetable_hjj_wbj_gvb"><thead><tr><th align="left" id="d130875e141">
+<table id="choicetable_hjj_wbj_gvb"><thead><tr><th align="left" id="d106365e138">
 
 Choice
 
-</th><th align="left" id="d130875e144">
+</th><th align="left" id="d106365e141">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d130875e150">
+</th></tr></thead><tbody><tr><td id="d106365e147">
 
 **Update portfolio plan**
 
@@ -61,7 +61,7 @@ For more information on using this wizard, see [Create a portfolio plan](https:/
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d130875e190">
+</td></tr><tr><td id="d106365e187">
 
 **Delete portfolio plan**
 
@@ -79,7 +79,7 @@ Share your updated portfolio plan or collaborate with other stakeholders.
 
 -   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/show-or-hide-the-features-for-your-portfolio-plan-ppw.md).
 -   [Share a portfolio plan with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/share-portfolio-plan-in-portfolio-planning-workspace.md).
--   [Collaborate on portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/collaborate-on-portfolio-plans-in-portfolio-planning-workspace.md).
+-   [Collaborate on portfolio plans in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/collaborate-on-portfolio-plans-in-portfolio-planning-workspace.md).
 
 **Parent Topic:**[Managing portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/managing-portfolio-plans-in-portfolio-planning.md)
 

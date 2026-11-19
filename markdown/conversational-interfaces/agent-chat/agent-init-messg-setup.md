@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Chat
 classification: agent-chat
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configure Agent-Initiated Messaging Interface, Configure, Agent Chat, Conversational Interfaces]
+breadcrumb: [Configuring Agent-Initiated Messaging Interface, Configuring Agent Chat, Agent Chat, Conversational Interfaces]
 ---
 
 # Set up Agent-Initiated Messaging Interface for a messaging channel
@@ -31,7 +31,7 @@ Role required: admin
 
 A messaging channel is available when you install the application associated with a service channel.
 
-For example, use the SMS messaging channel to send an SMS message to a customer. The SMS messaging channel is available when you have installed the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/install-conversational-sms.md) application.
+For example, use the SMS messaging channel to send an SMS message to a customer. The SMS messaging channel is available when you have installed the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/install-conversational-sms.md) application.
 
 ## Procedure
 
@@ -68,7 +68,7 @@ Check if active recipient profile exists
 
 </td><td>
 
-Option to ensure that an active channel user profile exists when sending messages to the user from the channel.If there are no active channel user profiles, the associated channel is not available for agent-initiated messages. In this case, the channel does not appear in the **Channel** field of the Compose Message form. For information on the Compose Message form available in CRM Workspace, see [Initiate messaging conversations from CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/agent-init-messg-csm-cws.md).
+Option to ensure that an active channel user profile exists when sending messages to the user from the channel.If there are no active channel user profiles, the associated channel is not available for agent-initiated messages. In this case, the channel does not appear in the **Channel** field of the Compose Message form. For information on the Compose Message form available in CSM Configurable Workspace, see [Initiate messaging conversations from CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/agent-init-messg-csm-cws.md).
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Order
 
 </td><td>
 
-Order number for each channel in which they appear for agent on the Compose Message form when composing messages. The channel that has the lowest order number is displayed first.For information on the Compose Message form available in CRM Workspace, see [Initiate messaging conversations from CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/agent-init-messg-csm-cws.md).
+Order number for each channel in which they appear for agent on the Compose Message form when composing messages. The channel that has the lowest order number is displayed first.For information on the Compose Message form available in CSM Configurable Workspace, see [Initiate messaging conversations from CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/agent-init-messg-csm-cws.md).
 
 </td></tr></tbody>
 </table>4.  Save the configuration setting.

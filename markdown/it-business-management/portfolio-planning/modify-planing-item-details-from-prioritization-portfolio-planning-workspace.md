@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
@@ -23,7 +23,7 @@ Role required: sn\_align\_core.apw\_user
 
 ## About this task
 
-Update the details of a planning item using the Prioritization and Hierarchy tabs in the portfolio planning page. Edit the details inline from the grid view to facilitate smoother real-time backlog grooming. Use the full details page of the planning item to add attachments and collaborate on them with the stakeholders.
+Update the details of a planning item using the List and Hierarchy views in the portfolio Prioritization page. Edit the details inline from the grid view to facilitate smoother real-time backlog grooming. Use the full details page of the planning item to add attachments and collaborate on them with the stakeholders.
 
 ## Procedure
 
@@ -31,17 +31,19 @@ Update the details of a planning item using the Prioritization and Hierarchy tab
 
 2.  From the list of portfolio plans, select one and then select **Planning**.
 
-3.  Update item details, attach files to the item, or delete the item.
+3.  From the Prioritization page, select **List** or **Hierarchy** view.
 
-<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d229968e113">
+4.  Update item details, attach files to the item, or delete the item.
+
+<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d181755e125">
 
 Choice
 
-</th><th align="left" id="d229968e116">
+</th><th align="left" id="d181755e128">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d229968e122">
+</th></tr></thead><tbody><tr><td id="d181755e134">
 
 **Update planning item details**
 
@@ -55,7 +57,7 @@ Edit using one of the following ways:
 
  For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
-</td></tr><tr><td id="d229968e159">
+</td></tr><tr><td id="d181755e171">
 
 **Attach files to planning item**
 
@@ -63,7 +65,7 @@ Edit using one of the following ways:
 
 In the Attachments section of the full details page, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d229968e174">
+</td></tr><tr><td id="d181755e186">
 
 **Delete planning item**
 
@@ -72,10 +74,7 @@ In the Attachments section of the full details page, select **Browse** and uploa
 From the full details page:
 
 1.  Select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\) and select **Delete**.
-
-**Note:** You can't delete the project record from Portfolio Planning Workspace if it has associated execution item. To delete such projects, open the record in PPM Standard.
-
-2.  Select **OK** to confirm.
+2.  Click **OK** to confirm.
 
 
 </td></tr></tbody>

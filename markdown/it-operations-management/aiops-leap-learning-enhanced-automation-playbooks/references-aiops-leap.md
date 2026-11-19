@@ -1,18 +1,18 @@
 ---
-title: LEAP reference
-description: These topics provide detailed field description information required during LEAP installation.
+title: AIOps LEAP reference
+description: These topics provide detailed field description information required during AIOps LEAP installation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/references-aiops-leap.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-03-20"
 reading_time_minutes: 1
-breadcrumb: [Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
+breadcrumb: [AIOps Learning Enhanced Automation Playbook \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
-# LEAP reference
+# AIOps LEAP reference
 
-These topics provide detailed field description information required during LEAP installation.
+These topics provide detailed field description information required during AIOps LEAP installation.
 

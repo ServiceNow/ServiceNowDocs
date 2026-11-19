@@ -7,9 +7,9 @@ release: yokohama
 product: Opportunity Marketplace
 classification: opportunity-marketplace
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Create custom opportunity types, Configure, Opportunity Marketplace, Hiring Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Creating custom opportunity types in Opportunity Marketplace, Configure, Opportunity Marketplace, Talent Development, Employee Service Management]
 ---
 
 # Select or create user criteria

@@ -1,20 +1,20 @@
 ---
 title: Use the Agent Client Collector Health Dashboard
-description: The Agent Client Collector Health Dashboard enables you to monitor the status of the agents in your system.
+description: The Agent Health Dashboard enables you to monitor the status of the agents in your system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-health-dashboard.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
 
 # Use the Agent Client Collector Health Dashboard
 
-The Agent Client Collector Health Dashboard enables you to monitor the status of the agents in your system.
+The Agent Health Dashboard enables you to monitor the status of the agents in your system.
 
 ## Before you begin
 
@@ -34,6 +34,4 @@ Role required: agent\_client\_collector\_admin
 
     You can refresh all widgets on the dashboard by selecting the form header icon \[Omitted image "acc-hamburger-icon.png"\] Alt text: Form header icon and then selecting **Refresh**.
 
-
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

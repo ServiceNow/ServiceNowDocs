@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-virtualagent-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
@@ -199,7 +199,7 @@ Slide the new **Show links for each record** toggle switch to activate links for
 
 -   **Virtual Agent server**
     -   In chatHandshake, set **dynamic\_step\_loader\_enabled** to `true` to send stacked Agentic AI messages to server. Set **dynamic\_step\_loader\_enabled** to `false` to avoid sending messages.
-    -   Pre-chat and post-chat surveys are now available for Anthropic Claude on AWS and Google Gemini LLMs. For more information on surveys, see [Chat surveys](https://www.servicenow.com/docs/access?context=ci-conversational-chat-surveys&family=yokohama&ft:locale=en-US).
+    -   Pre-chat and post-chat surveys are now available for Anthropic Claude and Google Gemini LLMs. For more information on surveys, see [Chat surveys](https://www.servicenow.com/docs/access?context=ci-conversational-chat-surveys&family=yokohama&ft:locale=en-US).
 
  -   **[AI Connector Utility](https://www.servicenow.com/docs/access?context=vad-ai-connector-utility&family=yokohama&ft:locale=en-US)**
 

@@ -7,18 +7,14 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
+breadcrumb: [Team Development, Exploring Team Development, Team Development, Planning your application, Building applications]
 ---
 
 # Push a version
 
 Pushing promotes changes from the development instance to the parent instance and commits the current version of a customized record on the development instance as the current version on the parent instance.
-
-## Before you begin
-
-Role required: none
 
 ## About this task
 
@@ -46,7 +42,7 @@ Pushing creates a local Update Set on the parent that is marked as complete. Pus
 
 6.  Review the list of changes to ensure that the correct changes are included.
 
-<table id="choicetable_qtn_cmc_bq"><tbody><tr><td id="d313913e150">
+<table id="choicetable_qtn_cmc_bq"><tbody><tr><td id="d143447e144">
 
 **To remove changes that you do not want to push**
 
@@ -54,7 +50,7 @@ Pushing creates a local Update Set on the parent that is marked as complete. Pus
 
 Select the check boxes beside the rows and select **Do Not Push** from the Actions choice list
 
-</td></tr><tr><td id="d313913e165">
+</td></tr><tr><td id="d143447e159">
 
 **To add changes**
 
@@ -97,4 +93,6 @@ Click **Cancel** and repeat the procedure from [step 2](https://raw.githubuserco
     -   An error occurred on the parent during the push. The Log field on the push record contains the exception message. Review the system logs on the parent instance and troubleshoot any problems with the instance.
     \[Omitted image "PushHistory.png"\] Alt text: Push history
 
+
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

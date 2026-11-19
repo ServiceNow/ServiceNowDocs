@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/email-notifications-in-psds.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Government Service Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Government Service Portal, Using Portals, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Email notifications for the Service Request Case Type

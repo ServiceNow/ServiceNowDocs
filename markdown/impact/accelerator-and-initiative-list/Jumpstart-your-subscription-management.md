@@ -1,26 +1,24 @@
 ---
 title: Jumpstart Your Subscription Management
-description: This Accelerator provides a demonstration on how to efficiently manage your ServiceNow subscriptions in the Subscription Management Application.
+description: This accelerator provides a demonstration on how to efficiently manage your ServiceNow subscriptions in the Subscription Management Application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/Jumpstart-your-subscription-management.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
 ---
 
 # Jumpstart Your Subscription Management
 
-This Accelerator provides a demonstration on how to efficiently manage your ServiceNow subscriptions in the Subscription Management Application.
+This accelerator provides a demonstration on how to efficiently manage your ServiceNow subscriptions in the Subscription Management Application.
 
 ## Accelerator Overview
 
 Jumpstart Your Subscription Management provides Impact customers with an  overview of Subscription Management's key capabilities and features. This offering explores core functionalities and leading practices to help customers understand how to proactively manage their subscriptions using the Subscription Management Application. Additionally, this Accelerator includes key resources for getting started with ServiceNow Subscription Management.
-
-## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -62,7 +60,5 @@ Please refer to the applicable Impact Accelerator Description available at [http
 
 This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
 
-## Exclusions
-
-ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
+ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

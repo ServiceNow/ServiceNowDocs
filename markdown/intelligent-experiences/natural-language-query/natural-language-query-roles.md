@@ -7,9 +7,9 @@ release: yokohama
 product: Natural Language Query
 classification: natural-language-query
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Natural Language Query References, Natural Language Query, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Natural Language Query References, Natural Language Query, Enable AI experiences]
 ---
 
 # Natural Language Query roles

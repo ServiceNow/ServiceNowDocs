@@ -7,14 +7,16 @@ release: yokohama
 product: Talent Feedback
 classification: talent-feedback
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-04-08"
 reading_time_minutes: 1
-breadcrumb: [Talent Feedback, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Talent Feedback, Talent Development, Employee Service Management]
 ---
 
 # Configuring Talent Feedback
 
 Set up Talent Feedback to be able to use it along with Talent Development.
+
+**Parent Topic:**[Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/talent-feedback-landing.md)
 
 ## Install Talent Feedback
 
@@ -29,7 +31,7 @@ Role required: admin
 
 ### About this task
 
-The following items are installed with Talent Feedback:
+The following items are installed with :
 
 -   Plugins
 -   Store applications
@@ -37,7 +39,7 @@ The following items are installed with Talent Feedback:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/components-installed-tf.md).
+For more information, see .
 
 ### Procedure
 
@@ -57,7 +59,7 @@ For more information, see [Components installed with Talent Feedback](https://ra
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts, Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
 ---
 
 # Create a contract template to contain content controls
@@ -29,8 +29,6 @@ Role required: sn\_cm\_core.contract\_config
 1.  Navigate to **All** &gt; **Contracts Core** &gt; **Contract Administration** &gt; **Contract Templates**.
 
 2.  Select **New**.
-
-    \[Omitted image "cmpro-contract-template.png"\] Alt text: New contract template form
 
 3.  On the form, fill in the fields.
 
@@ -56,11 +54,7 @@ Table
 
 </td><td>
 
-Table to which you want to associate the contract template.**Note:**
-
--   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure the template on a different table.
--   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
-
+Table to which you want to associate the contract template.**Note:** The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure the template on a different table.
 
 </td></tr><tr><td>
 
@@ -163,7 +157,7 @@ The contract template is saved in the Draft state.
 
 [Add document content controls using Microsoft Word add-in for ServiceNow Contracts]()
 
-[Complete mapping and upload Microsoft Word document that includes content controls]()
+[Upload and parse a Microsoft Word document that includes content controls]()
 
 [Complete clause mapping to build a clause library]()
 

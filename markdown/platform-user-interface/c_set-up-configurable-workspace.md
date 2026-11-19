@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_set-up-configurable-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-06-30"
 reading_time_minutes: 1
 breadcrumb: [Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ Configure a Configurable Workspace using UI Builder.
 
 **Note:**
 
-ServiceNow offers prebuilt Configurable Workspace experiences to target specific users and issues like CRM Workspace.
+ServiceNow offers prebuilt Configurable Workspace experiences to target specific users and issues like CSM Configurable Workspace.
 
 These prebuilt workspaces can be updated and modified in UI Builder instead of creating an experience from scratch.
 
@@ -32,7 +32,7 @@ To update an existing Configurable Workspace experience, see [Open a Configurabl
 
     Create a Configurable Workspace page from scratch or with a page template in UI Builder.
 
--   **UI Builder**
+-   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md)**
 
     Receive additional, detailed documentation on configuring and using UI Builder.
 

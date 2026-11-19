@@ -1,20 +1,20 @@
 ---
 title: Domain separation and Incident Communications Management
-description: Incident Communications Management supports domain separation. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+description: Domain separation is supported in Incident Communications Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-communications-management/domain-separation-incident-comm-mgt.html
 release: yokohama
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Incident Communications Management reference, Incident Communications Management, IT Service Management]
+breadcrumb: [Reference, Incident Communications Management, IT Service Management]
 ---
 
 # Domain separation and Incident Communications Management
 
-Incident Communications Management supports domain separation. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+Domain separation is supported in Incident Communications Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
 ## Support level: Standard
 
@@ -27,15 +27,18 @@ Sample use case: An admin must be able to make comments required when a record c
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
 
-## Incident Communications Management purpose
+## Incident Communications Management overview
 
 -   The Incident Communications Management application enables organizations to create and manage communications related to major business issues or incidents. Incident communication plan administrators can bring together all involved users during these events and establish quick and easy communication within this group.
--   Typically, an incident communication plan administrator or a major incident manager creates incident communication plans for an existing incident. You can create multiple incident communication plans for the same incident.
--   The incident communication plan and incident communication task tables support domain separation. Fulfillers see only incident communication plans or incident communication tasks that have been created within the \(tenant\) domain that they belong to.
+
+-   Typically, Incident Communication Plan Admin or Major Incident Manager creates incident communication plans for an existing incident. Multiple incident communication plans can be created against the same incident.
+
+-   The incident communication plan and incident communication task tables support domain separation. Therefore, an Itil/Fulfiller sees only incident communication plans or incident communication tasks that have been created within the \(tenant\) domain that they belong to.
+
 
 ## How domain separation works in Incident Communications Management
 
-Fulfillers see only incident communication plans and incident communication tasks that have been created within the \(tenant\) domain that they belong to.
+Fulfillers see only incident communication plan and incident communication plan tasks that have been created within the \(tenant\) domain that they belong to.
 
 ## Domain separated tables
 
@@ -44,7 +47,7 @@ Fulfillers see only incident communication plans and incident communication task
 
 ## Use cases
 
-An incident communication plan administrator or a major incident manager can view only the incidents in domains they have access to. They can create incident communication plans only for those incidents.
+An Incident Communication Plan Admin or Major Incident Manager is able to view incidents only of those domains that they have access to. They can create incident communication plans against only those incidents.
 
 **Parent Topic:**[Incident Communications Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-communications-management/reference-section-inci-comm-mngmt.md)
 

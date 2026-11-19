@@ -1,5 +1,5 @@
 ---
-title: Configuring CMDB Health
+title: Set up and configure CMDB Health
 description: Data collection for CMDB Health is highly configurable to reflect data health requirements and standards in your organization. Most importantly, the CMDB Health Dashboard jobs are disabled by default and health data isn't collected until you enable those jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/c\_CMDBHealthSetupandConfig.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configuring CMDB Health
+# Set up and configure CMDB Health
 
 Data collection for CMDB Health is highly configurable to reflect data health requirements and standards in your organization. Most importantly, the CMDB Health Dashboard jobs are disabled by default and health data isn't collected until you enable those jobs.
 

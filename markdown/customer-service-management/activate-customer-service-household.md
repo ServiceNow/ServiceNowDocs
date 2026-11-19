@@ -1,18 +1,18 @@
 ---
-title: Activate customer household data model
-description: Activate the Customer Household Data Model plugin to manage customer service for households.
+title: Activate customer service household
+description: Activate the Customer Service Household plugin to manage customer service for households.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-customer-service-household.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring households, Customer data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Activating plugins for Customer Service Management \(CSM\), Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# Activate customer household data model
+# Activate customer service household
 
-Activate the Customer Household Data Model plugin to manage customer service for households.
+Activate the Customer Service Household plugin to manage customer service for households.
 
 ## Before you begin
 
@@ -20,21 +20,19 @@ Role required: admin
 
 ## About this task
 
-The CRM Household Entities plugin \(com.snc.household\) enables you to create households, define the members of a household, and identify relationships between household members. This plugin automatically activates the CRM Base Extension Entities plugin \(com.snc.cs\_base\_extension\), which provides granular access control through relationships, user profile attributes, and roles.
-
-**Note:** Starting with the Australia release, the CRM Household Entities plugin \(com.snc.household\) has been migrated to the ServiceNow Store as a standalone application. Any new enhancements to this application are delivered through the Household store app. This change provides improved packaging, versioning, and deployment flexibility for business-to-consumer \(B2C\) implementations that require household relationship management.
+The Customer Service Household plugin \(com.snc.household\) enables you to create households, define the members of a household, and identify relationships between household members. This plugin automatically activates the Customer Service Base Extension Entities plugin \(com.snc.cs\_base\_extension\), which provides granular access control through relationships, user profile attributes, and roles.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
-2.  Search for the CRM Household Entities plugin \(com.snc.household\).
+2.  Search for the Customer Service Household plugin \(com.snc.household\).
 
-3.  Select **Activate**.
+3.  Click **Activate**.
 
 
 **Related topics**  
 
 
-[Activate the Business Location plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/activate-business-location.md)
+[Activate business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/activate-business-location.md)
 

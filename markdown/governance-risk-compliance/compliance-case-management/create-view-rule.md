@@ -1,5 +1,5 @@
 ---
-title: Create view rule
+title: Create a view rule
 description: Define the view rules for the workspace and default view in the GRC: Compliance Case Management application. By defining the rules, you can control how the compliance case or request form appears.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/compliance-case-management/create-view-rule.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Create a case type, Configure, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Create a case type, Configuring Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
-# Create view rule
+# Create a view rule
 
 Define the view rules for the workspace and default view in the GRC: Compliance Case Management application. By defining the rules, you can control how the compliance case or request form appears.
 

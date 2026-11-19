@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_PublishASurvey.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Survey administration, Using surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Publish a survey
@@ -16,9 +16,7 @@ You must publish a survey to enable people to receive and complete survey instan
 
 ## Before you begin
 
-Role required: admin or survey\_admin, survey\_creator
-
-**Note:** Users with the survey\_creator role can publish a survey only if they own the survey. If they do not own the survey, they cannot publish it.
+Role required: admin or survey\_admin
 
 ## About this task
 

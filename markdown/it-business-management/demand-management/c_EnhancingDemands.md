@@ -7,8 +7,8 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 7
+last_updated: "2025-01-30"
+reading_time_minutes: 6
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -80,10 +80,6 @@ This link appears only if you have the [Investment Funding](https://raw.githubus
 
 [Create a demand]()
 
-[Identify similar records using AI]()
-
-[Summarize demands with the demand summarization skill]()
-
 [View demands]()
 
 [RIDACs records for a demand]()
@@ -98,7 +94,5 @@ This link appears only if you have the [Investment Funding](https://raw.githubus
 
 [PPM PIWB template - Find similar demands]()
 
-[Associate AI systems with demands]()
-
-[Work with demands in Employee Slate]()
+[Identify similar records using ServiceNow Otto for Strategic Portfolio Management]()
 

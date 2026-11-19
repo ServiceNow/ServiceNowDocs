@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configure-na-data-overflow.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Data sharing and processes, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Configure general Now Assist settings, Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
 ---
 
 # Configure Now Assist data overflow processing
@@ -20,7 +20,9 @@ Role required: sn\_generative\_ai.data\_steward
 
 ## About this task
 
-By default, Now Assist data is handled in ServiceNow datacenters. During periods of high network traffic, data can be "burst" to Microsoft Azure datacenters to help keep consistent load times and avoid capacity overflow errors. Users with the data steward role can opt out of or into this behavior from the Now Assist Admin console.
+By default, Now Assist data is handled in ServiceNow datacenters. During periods of high network traffic, data can be "burst" to Microsoft Azure datacenters to help keep consistent load times and avoid capacity overflow errors. Users with the data steward role can opt out of or into this behavior from the AI Admin Hub console.
+
+Data processing is not supported in regulated markets.
 
 ## Procedure
 
@@ -33,5 +35,5 @@ By default, Now Assist data is handled in ServiceNow datacenters. During periods
     Instances are opted in by default. You can change this setting at any time.
 
 
-**Parent Topic:**[Data sharing and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-sharing-and-processes.md)
+**Parent Topic:**[Configure general Now Assist settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-now-assist-admin-settings.md)
 

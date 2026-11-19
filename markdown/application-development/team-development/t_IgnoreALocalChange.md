@@ -7,18 +7,14 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
+breadcrumb: [Team Development, Exploring Team Development, Team Development, Planning your application, Building applications]
 ---
 
 # Ignore a local change
 
 Ignoring a local change prevents updates to a record from generating new versions in the Local Changes list.
-
-## Before you begin
-
-Role required: none.
 
 ## About this task
 
@@ -48,7 +44,7 @@ An ignored local change always points to the current version for the record. You
 
     This step is a recommended best practice.
 
-<table id="choicetable_nvm_53c_bq"><tbody><tr><td id="d371182e201">
+<table id="choicetable_nvm_53c_bq"><tbody><tr><td id="d227770e195">
 
 **To stop ignoring changes**
 
@@ -56,7 +52,7 @@ An ignored local change always points to the current version for the record. You
 
 Select the check boxes beside the rows and select **Do Not Ignore** from the Actions choice list.
 
-</td></tr><tr><td id="d371182e216">
+</td></tr><tr><td id="d227770e210">
 
 **To stop ignoring changes and add them to the queue instead**
 
@@ -67,4 +63,6 @@ Select the check boxes beside the rows and select **Queue for Push** from the Ac
 </td></tr></tbody>
 </table>    \[Omitted image "Ignored.png"\] Alt text: The Ignored tab
 
+
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

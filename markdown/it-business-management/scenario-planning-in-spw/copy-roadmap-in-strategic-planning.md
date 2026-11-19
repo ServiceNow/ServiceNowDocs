@@ -1,5 +1,5 @@
 ---
-title: Duplicate a free-form roadmap
+title: Duplicate a free-form roadmap in Strategic Planning Workspace
 description: Create a roadmap with the data of an existing roadmap. If the roadmap you want to create is similar to an existing roadmap, duplicating the existing roadmap saves your time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/copy-roadmap-in-strategic-planning.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Duplicate a free-form roadmap
+# Duplicate a free-form roadmap in Strategic Planning Workspace
 
 Create a roadmap with the data of an existing roadmap. If the roadmap you want to create is similar to an existing roadmap, duplicating the existing roadmap saves your time.
 

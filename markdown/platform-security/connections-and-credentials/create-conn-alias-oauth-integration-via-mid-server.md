@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
-breadcrumb: [Get started with credentials, Connections and Credentials, Access Management]
+breadcrumb: [Getting started with credentials, Connections and Credentials, Access Management]
 ---
 
 # Set up OAuth integration via MID Server
@@ -94,7 +94,7 @@ Support Multiple Active Connections
 
 </td><td>
 
-Designator that indicates whether the alias supports multiple active connections. Add connections using the Connections table and associated them to the alias using the Connections related list. This setting is not supported for IntegrationHub integrations.
+Designator that indicates whether the alias supports multiple active connections. Add connections using the Connections table and associated them to the alias using the Connections related list.
 
 </td></tr><tr><td>
 

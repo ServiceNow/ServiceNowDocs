@@ -1,22 +1,22 @@
 ---
-title: Create an information request record using Information Request Administration
+title: Create an information request record by using Information Request Administration
 description: Create an information request record in the Public Sector Digital Services application by using an Information Request Administration activity. By using a playbook, you can have an efficient, streamlined way to create and resolve an information request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-ir-playbook-create-record.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Information Request Administration, Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Create an information request record using Information Request Administration
+# Create an information request record by using Information Request Administration
 
 Create an information request record in the Public Sector Digital Services application by using an Information Request Administration activity. By using a playbook, you can have an efficient, streamlined way to create and resolve an information request.
 
 ## Before you begin
 
-**Note:** Before you start this procedure, verify that the Information Request Administration application, which is separate from Public Sector Digital Services Core, is installed and enabled in the Public Sector Workspace. For instructions, see [Install Information Request Administration for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/install-psds-information-request-playbook.md).
+**Note:** Before you start this procedure, verify that the Information Request Administration application, which is separate from Public Sector Digital Services Core, is installed and enabled in the CSM Configurable Workspace. For instructions, see [Install Information Request Administration for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/install-psds-information-request-playbook.md).
 
 Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agency\_agent, sn\_gsm.relationship\_agent, and sn\_gsm.service\_manager
 
@@ -26,7 +26,7 @@ If a playbook is configured to use a record generator, you can create a record b
 
 ## Procedure
 
-1.  In the Public Sector Workspace, navigate to **Lists** &gt; **Information Requests** &gt; **All**.
+1.  In the CSM Configurable Workspace, navigate to **Lists** &gt; **Information Requests** &gt; **All**.
 
 2.  Select **New**.
 

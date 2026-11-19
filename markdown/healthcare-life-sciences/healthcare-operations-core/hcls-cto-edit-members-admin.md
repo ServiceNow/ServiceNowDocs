@@ -7,9 +7,9 @@ release: yokohama
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configuring Healthcare Operations Core, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Add or remove members in Healthcare Operations Core
@@ -32,10 +32,8 @@ Role required: admin
 
 5.  In **Responsibility**, select the responsibility you want to edit the members of.
 
-    Options are:
+    Your options are Team member or Team manager.
 
-    -   Care team member
-    -   Care team manager
 6.  Use the arrows between the **Available** and **Selected** panels to indicate which members belong to each responsibility.
 
     **Note:**

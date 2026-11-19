@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Rally, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -52,23 +52,11 @@ URL of your Rally instance to integrate.
 
 </td></tr><tr><td>
 
-Credential type
+Tool password / Access token
 
 </td><td>
 
-Type of credential, Basic Auth or OAuth 2.0.
-
-</td></tr><tr><td>
-
--   For Basic Auth: Tool password / Access token
--   For OAuth 2.0: Tool credential
-
-
-</td><td>
-
--   For Basic Auth: Enter the API key for Rally.
--   For OAuth 2.0: Select the OAuth 2.0 credential record. For information on setting up your OAuth 2.0 credentials for Rally, see [Setting up Rally OAuth 2.0 credentials for DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/setting-up-rally-oauth-2-0-credentials-for-devops.md).
-
+Enter the API key for Rally.
 
 </td></tr><tr><td>
 

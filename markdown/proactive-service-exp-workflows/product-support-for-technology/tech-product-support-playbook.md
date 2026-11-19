@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 18
-breadcrumb: [Explore, Technology Product Support Case, Product Support for Technology]
+breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
 ---
 
 # Technology Product Support Case playbook
@@ -109,7 +109,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_Tags.md).
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/setting-record-tags-agent-workspace.md).
 
 </td></tr><tr><td>
 
@@ -194,7 +194,6 @@ The contextual side panel component includes different tools that agents can use
 -   Templates
 -   Response Templates
 -   Email Templates
--   Run diagnostics
 
 For more information, see the following sections:
 
@@ -375,14 +374,6 @@ The Email Templates tab provides access to available email templates. These temp
 -   Sender
 -   Subject of the email
 -   Text to include in the message body
-
-</td></tr><tr><td>
-
-Run diagnostics
-
-</td><td>
-
-The Run diagnostics tab provides access to run the diagnose and identify the root-cause of the problem.
 
 </td></tr></tbody>
 </table>## Activity stream component

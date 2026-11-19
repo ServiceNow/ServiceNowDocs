@@ -1,16 +1,16 @@
 ---
-title: Review antivirus activity
+title: Reviewing antivirus activity
 description: Review the Antivirus Activities log that tracks all activities that occur on potentially-infected files from the point that they are discovered and placed into quarantine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/generate-log-report-of-quarantined-files.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Reviewing quarantined files, Antivirus Scanning]
 ---
 
-# Review antivirus activity
+# Reviewing antivirus activity
 
 Review the Antivirus Activities log that tracks all activities that occur on potentially-infected files from the point that they are discovered and placed into quarantine.
 

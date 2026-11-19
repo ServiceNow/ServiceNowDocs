@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/configuring-service-request-playbook.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Install and configure the Service Request Administration application
@@ -23,5 +23,5 @@ As a user with the admin role, complete the following configuration tasks to set
 |[Configure Engagement Messenger for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-configure-engagement-messenger.md)|Configure certain Engagement Messenger settings that enable public sector end users to create and track non-emergency service requests from Engagement Messenger.|
 |[Enable public sector end users to create a service request using Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-configuring-va.md)|Use Virtual Agent Designer to [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/publish-virtual-agent-topic.md) the prebuilt conversation topic, **Create a Service Request**, which enables end users to submit a service request using the Virtual Agent chatbot.|
 |[Configure the Similar Records Activity UI in Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-srp-configure-similar-records.md)|View a list of similar requests by location, without having to search for the requests or leave the playbook.|
-|[Configure Mobile Agent for Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-mobile-agent.md)|\(Optional\) Install the Customer Service Mobile and Service Request Administration plugins to enable government service agents to track non-emergency service requests on the Mobile Agent.|
+|[Configure Mobile Agent for Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-configure-mobile-agent-for-service-request-playbook.md)|\(Optional\) Install the Customer Service Mobile and Service Request Administration plugins to enable government service agents to track non-emergency service requests on the Mobile Agent.|
 

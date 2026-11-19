@@ -1,24 +1,22 @@
 ---
 title: Invalidate Session After OAuth Token Expiration \[New in Security Center 2.0\]
-description: Use a system property to the secure value to prevent users from continuing to use a session via cookies after the OAuth token used to create the session expires.
+description: Configure the glide.authenticate.oauth.post.token.expiration.cookie\_auth.disabled property to the secure value to prevent users from continuing to use a session via cookies after the OAuth token used to create the session expires.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-invalidate-session-after-oauth-token-expiration.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
 # Invalidate Session After OAuth Token Expiration \[New in Security Center 2.0\]
 
-Use a system property to the secure value to prevent users from continuing to use a session via cookies after the OAuth token used to create the session expires.
+Configure the **glide.authenticate.oauth.post.token.expiration.cookie\_auth.disabled** property to the secure value to prevent users from continuing to use a session via cookies after the OAuth token used to create the session expires.
 
-When an OAuth access token is issued, the response includes a cookie. Users can use this cookie to continue using a session even after the OAuth token used to create that session expires. Use the **glide.authenticate.oauth.post.token.expiration.cookie\_auth.disabled** system property to prevent this.
-
-Ensure the **glide.authenticate.oauth.post.token.expiration.cookie\_auth.disabled** system property exists in the System Properties \[sys\_properties\] table, and is set to a value of `true`.
+When the **glide.authenticate.oauth.post.token.expiration.cookie\_auth.disabled** property is not set to the secure value of true, a user may continue to use a session via cookies after the OAuth token used to create the session expires. This increases the risk of cookies being leaked and the session being hijacked by a malicious user to access unauthorized resources. Ensure that the glide property **glide.authenticate.oauth.post.token.expiration.cookie\_auth.disabled** is set to true. If the record does not exist in the sys\_properties table, the default value is false.
 
 ## More information
 
@@ -52,7 +50,7 @@ Data type
 
 </td><td>
 
-Boolean
+boolean
 
 </td></tr><tr><td>
 
@@ -68,15 +66,7 @@ Default value
 
 </td><td>
 
-true
-
-</td></tr><tr><td>
-
-Fallback value
-
-</td><td>
-
-false
+For zboot instances, the property is true. For the update instances, the property is false by default.
 
 </td></tr><tr><td>
 
@@ -92,9 +82,9 @@ Security risk
 
 </td><td>
 
--   Severity score: 6.8
+-   Severity score: 5.4
 -   CVSS score: Medium
--   Security risk details: If an OAuth token is leaked or compromised, the lack of expiration would allow an attacker to use and extend the session via the created cookie. Malicious users can use sessions to access unauthorized resources and take unauthorized actions. Set this property to the secure value to eliminate this hidden session extension mechanism and reduce replay risk by enforcing token expiration.
+-   Security risk details: When this property is not set to the secure value of true, a user may continue to use a session even after the OAuth token used to create the session has expired, increasing the likelihood of the session being hijacked by a malicious user.
 
 </td></tr><tr><td>
 
@@ -110,21 +100,9 @@ Functional impact
 
 </td><td>
 
-Impact when set to true:
+True: Cookie authentication is only honored until the OAuth access token expires; after the expiration, authentication is not honored.
 
--   Sessions end immediately when the access token expires.
--   Cookies no longer refresh session validity.
--   Clients must use refresh tokens or re-authenticate to obtain a new access token.
-
- Potential Breakage:
-
--   Legacy clients or custom integrations relying on cookie-based session extension fail after token expiry.
--   Long-running jobs without token renewal logic may encounter 401 errors.
-
- What Continues to Work:
-
--   Standard OAuth flows with refresh tokens.
--   Properly designed integrations that renew tokens proactively.
+ False: Cookie authentication is honored even after the OAuth access token expires.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-session-management.md)

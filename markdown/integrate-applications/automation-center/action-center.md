@@ -7,14 +7,16 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Explore, Automation Center, Workflow Data Fabric]
+breadcrumb: [Exploring Automation Center, Automation Center, Data and Automation]
 ---
 
 # Action Center
 
 Action Center provides an easy way to fix repeated issues that cause automations to fail in Automation Center.
+
+**Note:** In Action Center, the domain data from both global and current session domains is displayed.
 
 Action Center provides the following benefits:
 

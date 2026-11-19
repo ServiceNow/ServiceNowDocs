@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/wsm-mappedin-properties.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Configure Mappedin, Configure, Workplace Space Mapping, Workplace Service Delivery, Employee Service Management]
 ---
@@ -15,10 +15,6 @@ breadcrumb: [Configure Mappedin, Configure, Workplace Space Mapping, Workplace S
 Use Import Properties when you create your own credential records, scheduled imports, or data sources. Currently, the properties are configured for the records used when importing.
 
 ## Before you begin
-
-**Important:**
-
-The Mappedin integration is not available for new customers. Existing customers can upgrade to Mappedin version 1.11.0.
 
 Role required: sn\_wsd\_mappedin.admin
 
@@ -36,15 +32,15 @@ Role required: sn\_wsd\_mappedin.admin
 
 4.  Enter `sys_properties.list` in the navigation filter and open the following properties
 
-<table id="choicetable_sct_wbg_h4b"><thead><tr><th align="left" id="d274997e105">
+<table id="choicetable_sct_wbg_h4b"><thead><tr><th align="left" id="d254199e99">
 
 System property
 
-</th><th align="left" id="d274997e108">
+</th><th align="left" id="d254199e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d274997e114">
+</th></tr></thead><tbody><tr><td id="d254199e108">
 
 **sn\_wsd\_core.external\_id\_generator.field​**
 
@@ -52,7 +48,7 @@ Description
 
 Defines the external ID.
 
-</td></tr><tr><td id="d274997e123">
+</td></tr><tr><td id="d254199e117">
 
 **sn\_wsd\_core.external\_id\_generator.max\_buildings**
 
@@ -60,7 +56,7 @@ Defines the external ID.
 
 The maximum number of buildings to generate IDs for with a single selection.50 is the default.
 
-</td></tr><tr><td id="d274997e135">
+</td></tr><tr><td id="d254199e129">
 
 **sn\_wsd\_core.external\_id\_generator.max\_spaces**
 
@@ -68,7 +64,7 @@ The maximum number of buildings to generate IDs for with a single selection.50 i
 
 The maximum number of spaces to generate IDs for at a given time.The default is 5000.
 
-</td></tr><tr><td id="d274997e147">
+</td></tr><tr><td id="d254199e141">
 
 **sn\_wsd\_core.external\_id\_generator.stagger​**
 

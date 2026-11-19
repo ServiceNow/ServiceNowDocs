@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Use, Proactive Service Experience Workflows, Product Support for Technology]
+breadcrumb: [Using Proactive Service Experience Workflows, Proactive Service Experience Workflows]
 ---
 
 # Diagnose and resolve a change request
@@ -37,6 +37,8 @@ The change request progresses through several stages from start to closure. It b
 5.  Review and verify the change request.
 
     1.  In the **Overview** tab, expand the **Summary**, and then review and verify the general details for the change request.
+
+        \[Omitted image "psew-change-request-overview.png"\] Alt text: change request overview.
 
     2.  Expand the **Scope and impact** and review the remaining details of the change request.
 
@@ -69,11 +71,11 @@ The change request progresses through several stages from start to closure. It b
 
         The drop-down list shows the configuration item and Affected CIs.
 
-        To set up test definitions, see .
+        To set up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/settingup-test-specifications.md).
 
     3.  Expand the cards in the **Available test suite**.
 
-        To set up test group, see .
+        To set up test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/setting-test-group.md).
 
     4.  In the manual test, select single/multiple tests.
 

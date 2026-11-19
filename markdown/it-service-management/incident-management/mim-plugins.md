@@ -7,10 +7,9 @@ release: yokohama
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-keywords: [major incident plugin details]
-breadcrumb: [Managing major incidents, Incident Management, IT Service Management]
+breadcrumb: [Manage major incidents, Incident Management, IT Service Management]
 ---
 
 # Major Incident Management plugins

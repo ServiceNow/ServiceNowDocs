@@ -7,9 +7,9 @@ release: yokohama
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-02-04"
 reading_time_minutes: 1
-breadcrumb: [Entity view action mapper, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [EVAM, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configuring entity view action mapper
@@ -18,16 +18,16 @@ The Entity View Action Mapper \(EVAM\) allows you to map specific actions to ent
 
 ## Configuration overview
 
--   [Create an EVAM action definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/entity-view-action-mapper-evam/define-evam-action.md)
+-   [Define a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/entity-view-action-mapper-evam/define-evam-datasource.md)
 
-    You can associate a declarative action with a view template. EVAM also enables user interactions to trigger a server script or UXF client action.
+    The data source is an entity that has associated data that you intend to display. For example, a community post or a user.
 
--   [Create an EVAM definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/entity-view-action-mapper-evam/define-composite-dataset.md)
+-   [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/entity-view-action-mapper-evam/define-evam-template.md)
 
-    Define the list of data sources to render. The EVAM definition is the main record for an EVAM configuration.
+    You can configure multiple view templates per data source based on conditions to customize how data displays for users. The view template maps fields from the view configuration to component.
 
--   [Create a multi-data source list display in Entity View Action Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/entity-view-action-mapper-evam/tutorial-create-evam.md)
+-   [Define an EVAM configuration bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/entity-view-action-mapper-evam/define-view-configuration-bundle.md)
 
-    Use EVAM to take in different data sources, configure views, and show them in a card display view.
+    Create a view configuration to combine conditions, database fields, and declarative actions with an associated view template using the Entity View Action Mapper \(EVAM\).
 
 

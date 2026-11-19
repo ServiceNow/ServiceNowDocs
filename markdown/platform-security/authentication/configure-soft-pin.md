@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-11-14"
 reading_time_minutes: 1
-breadcrumb: [Soft PIN authentication, Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [SoftPIN authentication, Configure authentication factors, Authentication factors, Authentication, Access Management]
 ---
 
 # Configure Soft PIN
@@ -20,11 +20,7 @@ Users are required to configure Soft PIN before it can be used for authenticatio
 
 Role required: none
 
-Perform the following:
-
--   Administrator must enable Soft PIN on the instance before you can enroll.
--   Install Now Assist for Platform `sn_genai_platform` for activating AI voice agents and set `glide.auth_factors.softpin.enrollment.enabled` property to `true`. To know more, see [Availability in Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/softpin-authentication.md).
--   The user record must exist in the `sys_user` table.
+**Note:** Soft PIN enrollment is available to all users and is used exclusively for AI Voice Agent authentication.
 
 ## Procedure
 
@@ -42,7 +38,7 @@ Perform the following:
 
         \[Omitted image "softpin-2.png"\] Alt text: Soft PIN on the Navigation menu
 
-2.  Specify a six-digit PIN that satisfies the enrollment rules:
+2.  Create a PIN that meets these requirements:
 
     Rules for Soft PIN:
 
@@ -57,19 +53,7 @@ Perform the following:
 
 ## Result
 
-You can use your Soft PIN to authenticate with AI voice agents.
+You can use the submitted Soft PIN to authenticate various ServiceNow system or service. For example, AI voice service.
 
-**Note:** Users are eligible for Soft PIN enrollment only if their user ID is present in **sys\_user** table. If it's missing, an enrollment failure message is displayed.
-
--   **Update your Soft PIN**
-
-    To change your PIN, return to the enrollment page from any of the entry points before and enter a new PIN. The new PIN must satisfy the same rules and can't match any of your previous five PINs. Submitting a new PIN replaces the existing one immediately.
-
-
-**Related topics**  
-
-
-[Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/softpin-authentication.md)
-
-[Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/authentication-factors.md)
+**Note:** Users are eligible for Soft PIN enrollment only if their user ID is present in **sys\_user** table. If its missing, an enrollment failure message is displayed.
 

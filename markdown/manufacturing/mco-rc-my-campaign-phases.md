@@ -1,39 +1,33 @@
 ---
-title: Create My campaign phases
-description: Display the claims assigned to the person who has logged in to the workspace.
+title: My campaign phases
+description: Recall campaign phase displays the claims assigned to the person who has logged in to the workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-rc-my-campaign-phases.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Recall management, Agent management, Using Manufacturing Commercial Operations, Manufacturing Commercial Operations]
 ---
 
-# Create My campaign phases
+# My campaign phases
 
-Display the claims assigned to the person who has logged in to the workspace.
+Recall campaign phase displays the claims assigned to the person who has logged in to the workspace.
 
 ## Before you begin
 
-Role required: sn\_rcl\_claim\_mgmt.recall\_manager
+Role required: admin
 
 ## Procedure
 
-1.  **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **All Campaigns**
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaign phases**.
 
-    **Note:** A recall campaign must be in an In-progress state before creating a recall campaign phases.
+2.  Select **New**.
 
-2.  Select **New**, to [Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-my-campaigns.md).
+3.  On the Recall campaign phases form, fill in the fields.
 
-3.  Select the corresponding campaign record in which you want to create phases and sub-phases.
+    For a description of the field values, see [Recall campaign phases form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-recall-campaign-phases-form.md).
 
-4.  On the Recall campaign phases form, fill in the fields.
+4.  Select **Save**.
 
-    For a description of the field values, see [Recall campaign phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-recall-campaign-phases-form.md).
-
-5.  Select **Save**.
-
-
-**Parent Topic:**[Recall management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-recall-management.md)
 

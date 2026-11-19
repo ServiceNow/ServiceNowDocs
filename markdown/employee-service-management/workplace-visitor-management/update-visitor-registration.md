@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Manage, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -53,12 +53,10 @@ Role required: sn\_wsd\_visitor.admin or sn\_wsd\_visitor.staff
 
 The status of the visitor registration is updated.
 
-**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
+**Parent Topic:**[Manage visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
 **Related topics**  
 
-
-[Use the receptionist portal]()
 
 [View visitor registrations]()
 

@@ -1,40 +1,42 @@
 ---
-title: Playbook generation from text prompt or image
-description: Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
+title: Exploring Now Assist for Playbooks
+description: Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the ServiceNow Otto for Creator application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/playbook-assist.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Playbook generation, Exploring playbooks, Exploring Workflow Studio, Workflow Studio, Build workflows]
 ---
 
-# Playbook generation from text prompt or image
+# Exploring Now Assist for Playbooks
 
-Generate a playbook using AI from text prompt or image inputs. For example, you can enter a text description to generate a playbook for managing customer support cases.
+Use Now Assist to generate playbooks from text directions or images. For example, you can enter directions to generate a playbook outline for managing customer support cases. Playbook Assist is part of the ServiceNow Otto for Creator application.
 
 ServiceNow Otto for Creator activates the playbook generation skill. Playbook generation gives generative AI capabilities to playbook authors.
 
 ## Activation
 
-Playbook generation is a skill that is installed with the ServiceNow Otto for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website. You must enable the Playbook generation skill to generate playbooks using AI.
+Playbook generation is a skill that is installed with the ServiceNow Otto for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Supported user interfaces
 
-Access the Playbook generation skill when you're creating a playbook in Workflow Studio.
+Access the playbook generation skill when you’re creating a playbook in Workflow Studio.
 
-\[Omitted image "new-playbook-otto.png"\] Alt text: Build a new playbook using AI.
+\[Omitted image "new-playbook-now-assist.png"\] Alt text: Build a new playbook with Now Assist.
 
-## Writing prompts
+## Writing prompts and reviewing playbook outlines
 
-Follow these guidelines when writing prompts to generate playbooks.
+Follow these guidelines when creating playbooks with playbook generation skills.
+
+Write prompts:
 
 -   **Provide a meaningful name for the playbook**
 
-    The more descriptive the playbook name is, the better the playbook that AI can create.
+    The more descriptive the playbook name is, the better the playbook that Now Assist can create.
 
 -   **Be precise and descriptive in the directions**
     -   Describe each stage and activity in as much detail as you can.
@@ -43,12 +45,6 @@ Follow these guidelines when writing prompts to generate playbooks.
 
     -   Specify if any stages or activities run at the same time.
 
--   **Use clear images**
-
-    Use high resolution images with clear shapes, text, and arrows. Avoid using blurred screenshots and images of unclear whiteboard diagrams.
-
-    You can use one image of up to 10 MB, in JPG, JPEG, PNG, or WEBP format.
-
 -   **Experiment with prompts**
 
     Save your prompts somewhere, including any modified versions. Saving your prompts enables easy comparison of results.
@@ -56,9 +52,7 @@ Follow these guidelines when writing prompts to generate playbooks.
     **Note:** Prompts used only to generate a preview aren't saved, but prompts used for a saved playbook outline are in the playbook's Properties setting.
 
 
-## Reviewing playbooks
-
-Follow these guidelines to review the generated playbooks.
+Review playbook outlines:
 
 -   **Check for accuracy**
 
@@ -141,13 +135,7 @@ The following examples can help you to generate playbook outlines:
     ```
 
 
--   **[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/generate-a-playbook-outline.md)**  
-Generate a playbook using AI by providing text directions or an image.
+**Note:** Generating or regenerating a playbook preview counts as 10 assists. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/creating-managing-playbooks.md)
-
-**Related topics**  
-
-
-[Generate a playbook from text or image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/generate-a-playbook-outline.md)
+**Parent Topic:**[Playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-assist-landing.md)
 

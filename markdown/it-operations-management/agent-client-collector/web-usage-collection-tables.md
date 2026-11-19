@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-26"
 reading_time_minutes: 2
-breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector for Visibility Content, Agent Client Collector, IT Operations Management]
 ---
 
 # Web usage data collection tables and fields
@@ -177,5 +177,4 @@ Metric monitoring \(monitored\)
 Indicates whether the application is monitored for metrics. Read-only.Default: false
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
-
+</table>

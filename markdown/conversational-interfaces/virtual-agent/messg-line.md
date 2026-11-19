@@ -1,40 +1,35 @@
 ---
-title: Conversational Integration with LINE
-description: Conduct user-initiated, system-initiated, or agent-initiated conversations using the Conversational Integration with LINE application. The application connects a requester with a virtual agent or live agent using your company's LINE account.
+title: Integrating Virtual Agent with LINE
+description: Engage with requesters who prefer the LINE messaging app to interact with your business. Requesters include customer contacts and consumers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/messg-line.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
-# Conversational Integration with LINE
+# Integrating Virtual Agent with LINE
 
-Conduct user-initiated, system-initiated, or agent-initiated conversations using the Conversational Integration with LINE application. The application connects a requester with a virtual agent or live agent using your company's LINE account.
+Engage with requesters who prefer the LINE messaging app to interact with your business. Requesters include customer contacts and consumers.
 
-## Get started with Conversational Integration with LINE
+## Request apps on the Store
 
-Select a tile to get started.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-<table id="table_ev3_ndm_v4b" class="nav-card"><tbody><tr><td>
+## Overview of Integrating Virtual Agent with LINE
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure your Conversational Integration with LINE implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-line-configure.md)
-
-</td><td>
-
-[Use\[Omitted image "bus-chat.svg"\] Alt text:Agents and requesters can use Conversational Integration with LINE in portals on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-line-using.md)
-
-</td></tr></tbody>
-</table>## Request apps on the Store
-
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Conduct user-initiated, system-initiated, or agent-initiated conversations using the Conversational Integration with LINE application. The application connects a requester with a virtual agent or live agent using your company's LINE account. To get started with the Conversational Integration with LINE application, see [Configure Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-line-configure.md).
 
 -   **[Using Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-line-using.md)**  
 Enable a requester to converse with an agent using the LINE chat conversations.
+-   **[Integrating the LINE messaging app with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-line-integrating-apps.md)**  
+Other ServiceNow applications and features can use the Conversational Integration with LINE application.
+-   **[Remove Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/remove-conv-integ-line.md)**  
+Users can remove the Conversational Integration with LINE application when the app is no longer needed.
 
 **Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

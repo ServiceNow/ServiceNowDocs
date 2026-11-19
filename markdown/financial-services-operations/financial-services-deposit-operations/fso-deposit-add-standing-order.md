@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Deposit Operations workflows, Use, Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Financial Services Deposit Operations workflows, Using Financial Services Deposit Operations, Deposit Operations, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Add, modify, and cancel standing order workflows

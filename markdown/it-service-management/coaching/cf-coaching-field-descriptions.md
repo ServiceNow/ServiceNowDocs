@@ -7,9 +7,9 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Reference, Coaching, IT Service Management]
+breadcrumb: [Coaching reference, Coaching, IT Service Management]
 ---
 
 # Coaching field descriptions

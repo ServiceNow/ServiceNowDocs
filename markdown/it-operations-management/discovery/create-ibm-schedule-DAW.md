@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for IBM Cloud Platform, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -21,11 +21,11 @@ Use the Discovery Admin Workspace dashboard to create an IBM Discovery schedule.
 
 Verify the following:
 
--   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-install-prereqs.md).
+-   At least one validated MID Server with a status of **Up** is installed. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
 -   A Service ID in the IBM Cloud Console is configured with an associated API key that has the required Identity and Access Management \(IAM\) roles. The MID Server can access the cloud resources to discover.
--   You have created suitable IBM Cloud credentials in the ServiceNow AI Platform to connect with the IBM Cloud Service ID you created. For more information, see [Discovery for IBM Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/ibm-cloud-discovery.md).
--   You're using Discovery Admin Workspace v1.13.0.
+-   Suitable IBM Cloud credentials are created in the ServiceNow AI Platform to connect with the IBM Cloud Service ID you created. For more information, see [Discovery for IBM Cloud Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/ibm-cloud-discovery.md).
+-   Discovery Admin Workspace, starting with v1.13.0 is installed.
 
 Role required: discovery\_admin
 
@@ -66,9 +66,9 @@ Role required: discovery\_admin
 
     You can choose to include all datacenters linked to the cloud account or select specific datacenters. There’s no restriction on the number of datacenters that you can add.
 
-    1.  To discover specific datacenters, select the datacenters from the **Select the data centers** drop-down list.
+    1.  To discover specific datacenters, select **Specific datacenters**, and then select the datacenters from the **Available datacenters** list.
 
-    2.  If the datacenters don't appear, select **Refresh data centers**.
+    2.  If the datacenters don't appear, select **Refresh datacenters**.
 
 11. Select **Next**.
 

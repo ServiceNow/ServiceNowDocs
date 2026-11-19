@@ -1,24 +1,22 @@
 ---
-title: Core UI dashboard URL parameters
-description: Dashboard URL parameters allow you to control the visibility of headers and the breakdown sources of responsive dashboards used in application pages.Use the sysparm\_group parameter to select the default value of the dashboard group on the Dashboards overview page.
+title: Dashboard URL parameters
+description: Dashboard URL parameters allow you to control the visibility of headers and the breakdown sources of dashboards used in application pages.Use the sysparm\_group parameter to select the default value of the dashboard group on the Dashboards overview page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/dashboard-url-parameters.html
 release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Core UI dashboard URL parameters
+# Dashboard URL parameters
 
-Dashboard URL parameters allow you to control the visibility of headers and the breakdown sources of responsive dashboards used in application pages.
+Dashboard URL parameters allow you to control the visibility of headers and the breakdown sources of dashboards used in application pages.
 
 ## Dashboard header
-
-**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-dashboards.md).
 
 This sysparm\_header URL system parameter controls the visibility of the header of the dashboard. It has the following values:
 
@@ -62,7 +60,7 @@ The sysparm\_group URL system parameter enables you to include a single dashboar
     Indicates whether the editing panel can be visible.
 
 
-**Parent Topic:**[Administering Core UI dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_DashboardAdministration.md)
+**Parent Topic:**[Administering dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_DashboardAdministration.md)
 
 ## Dashboards overview URL parameter
 

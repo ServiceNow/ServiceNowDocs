@@ -1,0 +1,95 @@
+---
+title: Opportunity Marketplace release notes
+description: The ServiceNow Opportunity Marketplace application transforms internal mobility, providing employees with a unified hub to explore career opportunities. Opportunity Marketplace was enhanced and updated in the Yokohama release.The ServiceNow Opportunity Marketplace application transforms internal mobility, providing employees with a unified hub to explore career opportunities. Opportunity Marketplace was enhanced and updated in the Yokohama release.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/opportunity-marketplace-rn.html
+release: yokohama
+topic_type: topic
+last_updated: "2025-01-30"
+reading_time_minutes: 3
+breadcrumb: [Talent Development release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+---
+
+# Opportunity Marketplace release notes
+
+The ServiceNow® Opportunity Marketplace application transforms internal mobility, providing employees with a unified hub to explore career opportunities. Opportunity Marketplace was enhanced and updated in the Yokohama release.
+
+## About Opportunity Marketplace
+
+-   Opportunity owners can select multiple user criteria when creating opportunities.
+-   Import an opportunity from the ServiceNow Project Workspace. Importing a project from the Project Workspace is only available with the Project type opportunity.
+
+See [Opportunity Marketplace overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-opportunity-marketplace-ovrvw.md) for more information.
+
+## Activation and other requirements
+
+**Important:** Opportunity Marketplace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
+-   **Activation information**
+
+    Install Opportunity Marketplace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Parent Topic:**[Talent Development release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/employee-growth-development-landing.md)
+
+## Yokohama
+
+The ServiceNow® Opportunity Marketplace application transforms internal mobility, providing employees with a unified hub to explore career opportunities. Opportunity Marketplace was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[Create project opportunities by importing project details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
+
+    Opportunity owners create gigs, projects, and volunteer opportunities. Opportunity details for Project type opportunities can be imported from projects in the ServiceNow Project Workspace. These opportunities are different from internal jobs. OPM enables you to manage any opportunities that you create and track applications. The ability to create opportunities is based on user criteria.
+
+-   **[Select multiple user criteria groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
+
+    Access to opportunities is controlled by assigning user criteria groups to an opportunity. From the Opportunity details page of the Create an opportunity widget, you can select multiple user criteria to manage access to the opportunity.
+
+
+### What's changed
+
+-   **[A new step is added in the task for creating opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
+
+    You must select how you want to get started with creating an opportunity.
+
+    -   **Create using an existing project** enables opportunity owners with the correct assigned roles to import details from Project Workspace projects.
+
+        **Note:** This option is only visible when both Project Workspace and Opportunity Marketplace are installed.
+
+    -   **Create on your own** enables Opportunity Marketplace opportunity owners to create opportunities of type **Gig**, **Project**, or **Volunteer**.
+-   **[Enable selection of multiple user goups to manage which groups of users can view an opportunity.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
+
+    Select multiple user criteria groups from the **Who can view this opportunity?** field on the Opportunity details widget page.
+
+
+-   **[Import Project Workspace project information to create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
+
+    Opportunity Marketplace opportunity owners can create Project Opportunity types by importing projects from the ServiceNow® Project Workspace.
+
+    **Note:** Creating a project opportunity type by importing a project file is only available to users with both ServiceNow Project Workspace and Opportunity Marketplace installed.
+
+    An opportunity owner must have the following roles assigned to them to create a Project type opportunity by importing project details from Project Workspace.
+
+    -   **reource\_user [Resource management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/r_ResourceManagementProcess.md)**
+
+        If you’re assigned the resource\_user role, you can be a resource requester.
+
+    -   **[sn\_ppm\_read](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/business-stakeholder-role-ppm.md)**
+
+        The sn\_ppm\_read role provides read-only access to the Portfolio, Program, and Timecard dashboards along with the Resources report to the assigned users.
+
+-   **[Select multiple user criteria groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
+
+    Opportunity owners can select multiple user criteria groups from the **Who can views this opportunity?** field on the Opportunity details page. For more information, see [Create opportunities in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md).
+
+
+-   **reource\_user [Resource management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/r_ResourceManagementProcess.md)**
+
+    If you’re assigned the resource\_user role, you can be a resource requester.
+
+-   **[sn\_ppm\_read](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/business-stakeholder-role-ppm.md)**
+
+    The sn\_ppm\_read role provides read-only access to the Portfolio, Program, and Timecard dashboards along with the Resources report to the assigned users.
+
+

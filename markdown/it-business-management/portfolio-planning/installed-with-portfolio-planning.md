@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Reference, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -108,7 +108,6 @@ Business stakeholder\[business\_stakeholder\]
 
 -   Can create and update portfolio plans and free-form roadmaps.
 -   Can add notes, comments, or attachments to portfolio plans and roadmaps that are shared with them.
--   Can fill out the assessments for scoring and reviews demands before they are approved.
 -   Can personalize the roadmaps.
 -   Can view generated resource capacity for planning items in the Capacity Planning screen.
 -   Can view goals and related records using the platform view.
@@ -158,11 +157,7 @@ connection\_admin
 |sn\_align\_ws.spw\_capacity\_user|Can generate resource capacity details.|sn\_align\_ws.spw\_capacity\_read|
 |sn\_align\_ws.spw\_capacity\_read|Can view resource capacity details.|None|
 
-|Role title \[name\]|Description|Contains roles|
-|-------------------|-----------|--------------|
-|sn\_align\_ws.spw\_financial\_user|Create cost plans and expense lines for planning items.|None|
-
-<table id="table_n5v_r51_fdd"><thead><tr><th>
+<table id="table_n5v_r51_fdc"><thead><tr><th>
 
 Role title \[name\]
 
@@ -176,11 +171,12 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-RIDAC reader\[sn\_align\_ws.ridac\_read\_only\]
+sn\_align\_ws.spw\_financial\_user
 
 </td><td>
 
-Can view RIDAC \(Risk, Issue, Decision, Action, Change request\) items on planning items.
+-   Can view financials, create cost plans and expense lines, create and compare financial baselines for planning items.
+-   Can create, edit, and view financial values in scenario planning.
 
 </td><td>
 
@@ -188,15 +184,15 @@ None
 
 </td></tr><tr><td>
 
-RIDAC user\[sn\_align\_ws.ridac\_user\]
+sn\_align\_ws.spw\_funding\_user
 
 </td><td>
 
-Can create, update, and delete RIDAC \(Risk, Issue, Decision, Action, Change request\) items on planning items.
+Can view the financial widgets while comparing scenarios and approve a scenario with financial changes.
 
 </td><td>
 
-None
+sn\_align\_ws.spw\_financial\_user
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -370,13 +366,66 @@ Table Map
 Stores table mapping relationships between planning items in Portfolio Planning and PPM
 
 </td></tr></tbody>
-</table>## Scheduled jobs installed
+</table><table id="table_erv_tw1_fdc"><thead><tr><th>
 
-|Scheduled job|Description|
-|-------------|-----------|
-|Update planning item on RIDAC tables|Populates the planning item field on RIDAC records that were created before the RIDAC feature introduced in Portfolio Planning was installed. This job ensures legacy RIDAC records appear correctly in related lists and reports.|
+Table
 
-## System properties installed
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Investment Baselines
+
+ \[sn\_invst\_pln\_invst\_investment\_baseline\]
+
+</td><td>
+
+Stores the information about the financial baselines.
+
+</td></tr><tr><td>
+
+Investment Baseline Headers
+
+ \[sn\_invst\_pln\_invst\_investment\_baseline\_header\]
+
+</td><td>
+
+Stores all the information about financial baselines and the investment tables.
+
+</td></tr><tr><td>
+
+Investment Budget
+
+\[sn\_invst\_pln\_invst\_budget\]
+
+</td><td>
+
+Stores the migrated budget information to work on lean budgeting at required time scope.
+
+</td></tr><tr><td>
+
+Scenario item financial
+
+ \[sn\_align\_ws\_scenario\_item\_financial\]
+
+</td><td>
+
+Stores the updated budget value of planning items from scenario planning in simulation mode.
+
+</td></tr><tr><td>
+
+Scenario target
+
+ \[sn\_align\_ws\_scenario\_target\]
+
+</td><td>
+
+Stores the portfolio-level target budget in scenario planning.
+
+</td></tr></tbody>
+</table>## System properties installed
 
 <table id="table_k2f_t3m_fwb"><thead><tr><th>
 

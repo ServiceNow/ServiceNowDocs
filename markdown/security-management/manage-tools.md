@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/manage-tools.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2025-01-30"
+reading_time_minutes: 5
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 
@@ -32,9 +32,11 @@ Tools enable you to know how and when threat actors use them for executing campa
 
     You can view the listed tools.
 
-2.  Select a tool to view all the associated information.
+2.  Click a tool to view all the associated information.
 
-3.  To view how these objects are related, select **Show Relationships**.
+    In the following illustration, you can view the details for the CARROTBALL tool, its ID, source, and other related information.\[Omitted image "mitre-tools-overview.gif"\] Alt text: View the details for the tools and their related information.
+
+3.  To view how these objects are related, click **Show Relationships**.
 
 
 ## What to do next

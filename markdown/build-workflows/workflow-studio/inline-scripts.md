@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 7
-breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
 ---
 
 # Inline scripts

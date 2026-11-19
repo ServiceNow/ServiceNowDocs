@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-06-17"
 reading_time_minutes: 1
-breadcrumb: [Confirming the assigned serialized hardware assets, Employee self-service, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Confirming the assigned serialized hardware assets, Audit your hardware assets by using Asset Attestation, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
 ---
 
 # Confirm the assigned assets using the Now Mobile app

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/add-contracts-related-list.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Administer Customer Contracts and Entitlements, Administer, Customer Service Management]
+breadcrumb: [Administer Customer Contracts and Entitlements, Administer Customer Service Management, Customer Service Management]
 ---
 
 # Add a service contract related list
@@ -22,21 +22,21 @@ Role required: manager
 
 To see the contracts associated with Accounts, Consumers, and Households, respectively, on the same page, you must add the related list manually on the form.
 
-**Note:** You can only add the related list on the platform interface in the Workspace view. The same setting is implemented on the CRM Workspace.
+**Note:** You can only add the related list on the platform interface in the Workspace view. The same setting is implemented on the CSM Configurable Workspace.
 
 ## Procedure
 
 1.  Add related lists to sold products and install base items.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d337223e65">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d272697e65">
 
 Add to
 
-</th><th align="left" id="d337223e68">
+</th><th align="left" id="d272697e68">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d337223e74">
+</th></tr></thead><tbody><tr><td id="d272697e74">
 
 **Accounts**
 
@@ -46,7 +46,7 @@ Procedure
 2.  Select the account.
 
 
-</td></tr><tr><td id="d337223e107">
+</td></tr><tr><td id="d272697e107">
 
 **Consumers**
 
@@ -56,7 +56,7 @@ Procedure
 2.  Select the consumer.
 
 
-</td></tr><tr><td id="d337223e140">
+</td></tr><tr><td id="d272697e140">
 
 **Households**
 

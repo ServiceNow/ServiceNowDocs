@@ -7,10 +7,9 @@ release: yokohama
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-keywords: [use intelligent servicing for fraud, fraud case workflow, initiate a fraud case, investigate fraud cases, resolve fraud cases, fraud alert case, card fraud by alert, card fraud, fraud case playbook, fraud agent workspace, fraud case lifecycle, service definitions for fraud, external fraud detection system]
-breadcrumb: [Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Intelligent Servicing for Fraud, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Using Intelligent Servicing for Fraud

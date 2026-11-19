@@ -1,5 +1,5 @@
 ---
-title: Rule-based finding definition form
+title: Rule-based finding definition form from Finding Builder
 description: Use the Create Improvement opportunity definition form to create a finding definition from the Finding Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/finding-definition-form.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Process Mining, Platform Analytics]
+breadcrumb: [Process Mining reference, Process Mining, Platform Analytics]
 ---
 
-# Rule-based finding definition form
+# Rule-based finding definition form from Finding Builder
 
 Use the Create Improvement opportunity definition form to create a finding definition from the Finding Builder.
 
@@ -26,19 +26,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Title
+Message
 
 </td><td>
 
-Specify a title for your rule-based finding definition.
-
-</td></tr><tr><td>
-
-Apply to process/project
-
-</td><td>
-
-Displays the table or project name that you have selected. This field is non-editable.
+Specify a description for your rule-based finding definition.
 
 </td></tr><tr><td>
 
@@ -58,14 +50,6 @@ This field is available when you’re creating a rule-based finding definition f
 
 </td></tr><tr><td>
 
-Pattern type
-
-</td><td>
-
-Select the type of improvement opportunity you want to create.
-
-</td></tr><tr><td>
-
 Category
 
 </td><td>
@@ -77,19 +61,35 @@ Specify a category to which the automated finding definition belongs. The availa
 
 </td></tr><tr><td>
 
-Impacted KPIs
-
-</td><td>
-
-Select the KPIs most likely impacted by the findings. Choosing the affected KPIs enables you to assess the business impact. You can view the KPI-related findings in the Insights panel of the Process Mining workspace.
-
-</td></tr><tr><td>
-
 Active
 
 </td><td>
 
 Select the field if you want this finding definition to be active. By default, it’s selected.
+
+</td></tr><tr><td>
+
+Table
+
+</td><td>
+
+Displays the table name that you have selected. This field is non-editable.
+
+</td></tr><tr><td>
+
+Apply to process/project
+
+</td><td>
+
+Displays the table or project name that you have selected. This field is non-editable.
+
+</td></tr><tr><td>
+
+Impacted KPIs
+
+</td><td>
+
+Select the KPIs most likely impacted by the findings. Choosing the affected KPIs enables you to assess the business impact. You can view the KPI-related findings in the Insights panel of the Process Mining workspace.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Process Mining reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/process-mining-reference.md)

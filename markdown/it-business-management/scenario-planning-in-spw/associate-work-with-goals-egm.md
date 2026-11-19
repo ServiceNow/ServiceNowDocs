@@ -1,5 +1,5 @@
 ---
-title: Align a planning item with goals or targets
+title: Associate a planning item with goals or targets
 description: Create a goal or target relationship with a planning item or any other item to identify and associate your current or future work and achieve your goals and targets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/associate-work-with-goals-egm.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage goals, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Align a planning item with goals or targets
+# Associate a planning item with goals or targets
 
 Create a goal or target relationship with a planning item or any other item to identify and associate your current or future work and achieve your goals and targets.
 
@@ -34,15 +34,15 @@ You can create goal or target relationships with a custom planning item from the
 
 1.  Open the Goal/Target Relationship form using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d161584e80">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d130407e80">
 
 Option
 
-</th><th align="left" id="d161584e83">
+</th><th align="left" id="d130407e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d161584e89">
+</th></tr></thead><tbody><tr><td id="d130407e89">
 
 **From the Align work window**
 
@@ -65,7 +65,7 @@ You can search for the required planning items by applying filter on the Name co
 
 For a description of the field values, see [Goal/Target Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/goal-relationship-form-egm.md).
 
-</td></tr><tr><td id="d161584e180">
+</td></tr><tr><td id="d130407e184">
 
 **From the Planning items or Other items tab**
 

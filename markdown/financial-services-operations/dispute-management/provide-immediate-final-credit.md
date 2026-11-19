@@ -1,20 +1,20 @@
 ---
-title: Provide immediate final credit
-description: Issue immediate final credit to the card holder.
+title: Issue credit
+description: Issue immediate final credit to the card holder during the Investigation stage based on the amount being disputed and the policy for the credit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/provide-immediate-final-credit.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Investigation, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Investigating a dispute, Working on a dispute case, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Provide immediate final credit
+# Issue credit
 
-Issue immediate final credit to the card holder.
+Issue immediate final credit to the card holder during the Investigation stage based on the amount being disputed and the policy for the credit.
 
 ## Before you begin
 
@@ -24,44 +24,42 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 ## About this task
 
-Based on business rules, the bank can make a determination to issue immediate final credit to the card holder. Immediate final credit can be issued during the Investigation stage.
+Based on the business rules, the bank decides to issue immediate final credit to the card holder.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+2.  Select the lists icon \(\[Omitted image "icon-list.png"\] Alt text: List icon.\).
 
-3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
+3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
 
     -   For your assigned cases, select **Assigned to me**.
     -   For all dispute cases, select **All**.
-4.  In the list, select which case you want to work on.
+4.  In the list, select the case to work on.
 
-    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
+    To work on a case that is not assigned to you yet, assign it to yourself by selecting **Assign to me**.
 
 5.  Select the **Playbook** tab.
 
-6.  Select the **Immediate final credit** task under the Investigation playbook stage.
+6.  Select the transaction ID in the transaction level playbook of the **Processing** tab.
 
-7.  Select the immediate final credit task that you want to complete.
+    The **Investigate** stage is initiated for the transaction.
 
-8.  On the form, fill in the required fields and any other related information that you have gathered.
+7.  Select the **Immediate final credit** activity.
 
-9.  In the **Work notes** field, enter any comments.
+8.  Review the dispute amount and enter the refund details.
 
-10. After you have entered the details in the task, select **Update**.
+9.  In the **Remarks** field, enter any comments.
+
+10. Select **Close task**.
 
 11. Close the task from the playbook.
-
-    |Dispute activity|Action|
-    |----------------|------|
-    |**To close the Immediate final credit task**|Select **Close**.|
 
 
 ## Result
 
-The task state updates to Closed Complete. The dispute transaction moves to the Chargeback stage.
+The task state updates to Closed Complete. The dispute transaction moves to the **Chargeback** stage.
 
 **Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/investigate-a-dispute.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
 
 # Schedule appointment form
@@ -85,66 +85,52 @@ Contact detail
 Phone number or email that receives the notifications related to the appointment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+</table>**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 
 
-[Activity Configuration form]()
-
-[Activity Configuration Detail form]()
-
 [Approvals experience reference]()
 
-[Connected Content form]()
+[Block content form]()
 
-[Default Employee Profile Header Configuration record]()
+[Campaign overview and Campaign analytics dashboards]()
 
-[Employee Center widgets]()
+[Components installed with Employee Center Pro]()
 
-[Employee Profile form]()
+[Components installed with Content engagement]()
 
-[Employee Profile Header Configuration form]()
+[Components installed with Content Experiences]()
 
-[Employee Profile portal configuration form]()
+[Components installed with Content Publishing]()
 
-[Employee Profile upgrade scenarios]()
+[Components installed with Content Governance]()
 
-[Enhanced Requests Experience forms]()
+[Components installed with Content Analytics]()
 
-[External Link form]()
+[Content Analytics dashboards]()
 
-[Featured Content form]()
+[Content engagement dashboard]()
 
-[Footer form]()
+[Content Library Overview dashboard]()
 
-[Footer Menus form]()
+[Employee Center Pro widgets]()
 
-[Guided Self-Service reference]()
+[Feedback Analytics dashboard]()
 
-[Menu Item form]()
+[Feedback configuration form]()
 
-[Overview section form]()
+[Feedback definition form]()
 
-[Portal notification configuration form]()
-
-[Portal notification content form]()
-
-[Trigger conditions form]()
-
-[Quick Link form]()
-
-[Tab widget mapping form]()
-
-[Taxonomy form]()
-
-[Topic form]()
-
-[User Criteria form]()
-
-[User Criteria output]()
+[Link content form]()
 
 [Location Consent form]()
 
-[Website configuration form]()
+[Notification content form]()
+
+[Properties installed with Content Experiences]()
+
+[Properties installed with Content Governance]()
+
+[Properties installed with Content Publishing]()
 

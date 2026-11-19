@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/mcp-reference.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-02"
 reading_time_minutes: 1
-breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client, Now Assist AI agents, Enable AI experiences]
 ---
 
 # Model Context Protocol Client reference
@@ -32,9 +32,7 @@ MCP Client Admin \[sn\_mcp\_client.admin\]
 
 </td><td>
 
-Administrator of the application.A user with the sn\_mcp-client.admin role can create, read, update, and delete records.
-
-**Note:** The sn\_aia.admin role contains the sn\_mcp\_client.admin role, a role inheritance on plugin activation.
+Administrator of the application. A user with the sn\_mcp-client.admin role can create, read, update, and delete records.**Note:** The sn\_aia.admin has the sn\_mcp\_client.admin role.
 
 </td></tr><tr><td>
 
@@ -42,9 +40,7 @@ MCP Client Viewer \[sn\_mcp\_client.viewer\]
 
 </td><td>
 
-Read-only access to the application. A user with the sn\_mcp\_client.viewer role has read and report access on all tables.
-
-**Note:** The sn\_aia.viewer role contains the sn\_mcp\_client.viewer role, a role inheritance on plugin activation.
+Read-only access to the application. A user with the sn\_mcp\_client.viewer role has read and report access on all tables.**Note:** The sn\_aia.viewer has the sn\_mcp\_client.viewer role.
 
 </td></tr></tbody>
 </table>## MCP Client system properties

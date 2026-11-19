@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Workflow Studio flow logic, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
 ---
 
 # Do the following until flow logic
@@ -59,8 +59,6 @@ In this example, the flow sends a daily email about the incident, until the inci
 
 **Related topics**  
 
-
-[Append to Flow Variables flow logic]()
 
 [Assign subflow outputs flow logic]()
 

@@ -7,9 +7,8 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [timeline, custom event types, investigation canvas, entity history]
 breadcrumb: [Configure tooltips for nodemaps, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -35,15 +34,15 @@ Analysts can add, edit, or remove events associated with the intelligence record
 
 3.  Fill in the fields as appropriate.
 
-<table id="choicetable_zrg_dgj_fhc"><thead><tr><th align="left" id="d408239e114">
+<table id="choicetable_zrg_dgj_fhc"><thead><tr><th align="left" id="d398051e103">
 
 Field
 
-</th><th align="left" id="d408239e117">
+</th><th align="left" id="d398051e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d408239e123">
+</th></tr></thead><tbody><tr><td id="d398051e112">
 
 **Event Name**
 
@@ -51,7 +50,7 @@ Description
 
 A unique name that identifies the specific activity or event occurrence recorded on the timeline.This serves as a primary label for each event, to help you quickly understand the node created, status updated, or any additional details.
 
-</td></tr><tr><td id="d408239e134">
+</td></tr><tr><td id="d398051e123">
 
 **Description**
 
@@ -59,7 +58,7 @@ A unique name that identifies the specific activity or event occurrence recorded
 
 Description of the event type to provide context of the event.
 
-</td></tr><tr><td id="d408239e143">
+</td></tr><tr><td id="d398051e132">
 
 **Status**
 
@@ -67,7 +66,7 @@ Description of the event type to provide context of the event.
 
 Indicates the current status of an event on the timeline.
 
-</td></tr><tr><td id="d408239e152">
+</td></tr><tr><td id="d398051e141">
 
 **Icon**
 
@@ -75,7 +74,7 @@ Indicates the current status of an event on the timeline.
 
 An icon that appears on the timeline to visually represent events of this type.
 
-</td></tr><tr><td id="d408239e162">
+</td></tr><tr><td id="d398051e151">
 
 **Color**
 

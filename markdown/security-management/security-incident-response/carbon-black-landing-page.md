@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2025-07-31"
+reading_time_minutes: 3
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -33,7 +33,8 @@ The Carbon Black integration enables you to investigate and respond to security 
 
 **Use**
 
- -   [View affected items for a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/show-affected-items-for-si.md)
+ -   [Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/workflow-triggers.md)
+-   [View affected items for a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/show-affected-items-for-si.md)
 -   [Security Operations - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/secops-integration-get-running-processes-workflow.md)
 -   [Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/secops-integration-cb-get-running-processes-workflow.md)
 -   [View affected items for a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/show-affected-items-for-si.md)

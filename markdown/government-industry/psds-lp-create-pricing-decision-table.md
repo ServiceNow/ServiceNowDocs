@@ -1,16 +1,16 @@
 ---
-title: Create a pricing configuration decision table for the License and Permit Administration
+title: Create pricing configuration decision table for License and Permit
 description: The License and Permit Administration uses decision tables to configure pricing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-lp-create-pricing-decision-table.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Configure decision tables, License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Configure decision tables for License and Permit Administration, License and Permit Playbook, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Create a pricing configuration decision table for the License and Permit Administration
+# Create pricing configuration decision table for License and Permit
 
 The License and Permit Administration uses decision tables to configure pricing.
 
@@ -83,5 +83,5 @@ Role required: admin
 
 The decision table is now created and can be associated with the License and Permit case type. For more information on how to do this, see [Associate a decision table with a License &amp; Permit case type​​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-associate-decision-table-with-lpr.md).
 
-As an admin, you can use a price adjustment definition to add adjustments to field prices based on the conditions of fields that are not price fields, such as residency status of the constituent for the location they are requesting in. For more information on how to add price adjustment definitions, see [Add a price adjustment definition to a decision table​ in License and Permit Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-decision-table-price-adjustment.md).
+As an admin, you can use a price adjustment definition to add adjustments to field prices based on the conditions of fields that are not price fields, such as residency status of the constituent for the location they are requesting in. For more information on how to add price adjustment definitions, see [Add a price adjustment to a decision table​​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-decision-table-price-adjustment.md).
 

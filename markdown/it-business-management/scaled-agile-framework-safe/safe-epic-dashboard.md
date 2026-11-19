@@ -7,7 +7,7 @@ release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -106,7 +106,7 @@ Feature Progress
 
 Horizontal bar chart
 
- \[Omitted image "inline-data-vis-96px-bar-horizontal.png"\] Alt text:
+ \[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar chart
 
 </td><td>
 
@@ -118,7 +118,7 @@ Epic Burnup
 
 </td><td>
 
-Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
+Line chart\[Omitted image "line-icon.png"\] Alt text: Line chart
 
 </td><td>
 
@@ -139,7 +139,7 @@ Epic Cumulative Flow Diagram
 
 </td><td>
 
-Area chart\[Omitted image "inline-data-vis-96px-area.png"\] Alt text:
+Area chart\[Omitted image "icon-area-report.png"\] Alt text: Area chart
 
 </td><td>
 
@@ -176,7 +176,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
+Bubble chart\[Omitted image "bubble-icon.png"\] Alt text: Bubble chart
 
 </td><td>
 

@@ -1,36 +1,36 @@
 ---
 title: Recall campaign tables
-description: The recall claim feature adds and modifies database tables in Manufacturing Commercial Operations for recall campaign management.
+description: This section explains the recall campaign tables in Manufacturing Commercial Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/recall-claims-table.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Recall campaign data model, Data model, Reference, Manufacturing Commercial Operations]
+breadcrumb: [Recall campaign data model, Data model of Manufacturing Commercial Operations, Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
 ---
 
 # Recall campaign tables
 
-The recall claim feature adds and modifies database tables in Manufacturing Commercial Operations for recall campaign management.
+This section explains the recall campaign tables in Manufacturing Commercial Operations.
 
-## Recall claim tables
+## Recall claim plugin
 
 The recall claim feature adds or modifies the existing tables:
 
 -   Planning Item \[sn\_align\_core\_planning\_item\]
--   Task \[sn\_customerservice\_task\]
+-   Task
 -   Service Organization Criteria
 
-The recall claim feature adds the following tables.
+The recall claim plugin adds the following tables.
 
 <table id="table_sxb_p4l_jfc"><thead><tr><th>
 
-Label
+ 
 
 </th><th>
 
-Description
+ 
 
 </th></tr></thead><tbody><tr><td>
 
@@ -38,7 +38,7 @@ Recall Campaign\[sn\_rcl\_claim\_mgmt\_rcp\]
 
 </td><td>
 
-Stores the recall campaign initiative information as the parent table.
+It is the parent table and stores the Recall campaign initiative information.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Recall Campaign Task\[sn\_rcl\_claim\_mgmt\_campaign\_task\]
 
 </td><td>
 
-Stores the task information that must be fulfilled to complete the Recall Campaign process.
+Stores the task information that must be fulfilled in order to complete the Recall Campaign process.
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Corrective Action\[sn\_rcl\_claim\_mgmt\_ca\]
 
 </td><td>
 
-Stores the remedy procedures to resolve the issues mentioned as part of the recall campaign record.
+Stores the remedy procedures to resolve the issues mentioned as part of recall campaign record.
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Recall Campaign Phase Task\[sn\_rcl\_claim\_mgmt\_phase\_task\]
 
 </td><td>
 
-Stores the tasks related to a recall campaign phase.
+Stores the tasks related to a recall Campaign phase.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Corrective Action Labor Charges\[sn\_rcl\_claim\_mgmt\_ca\_labor\_charges\]
 
 </td><td>
 
-Stores the details of different types of charges to perform the remedy procedures.
+Stores the detail of different types of charges to perform the remedy procedures.
 
 </td></tr><tr><td>
 
@@ -96,30 +96,5 @@ Planning Item \[sn\_align\_core\_planning\_item\]
 
 Stores the new item details.
 
-</td></tr><tr><td>
-
-Recall campaign part requirement\[sn\_rcl\_claim\_mgmt\_rcp\_part\_requirement\]
-
-</td><td>
-
-Stores the part requirements needed to complete a recall campaign.
-
-</td></tr><tr><td>
-
-Recall campaign part availability\[sn\_rcl\_claim\_mgmt\_rcp\_part\_availability\]
-
-</td><td>
-
-Stores the availability information for parts required by a recall campaign.
-
-</td></tr><tr><td>
-
-Recall phase part allocation\[sn\_rcl\_claim\_mgmt\_phase\_part\_allocation\]
-
-</td><td>
-
-Stores the part allocation information for a recall campaign phase.
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Recall campaign data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/recall-claims.md)
-
+</table>

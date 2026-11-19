@@ -1,5 +1,5 @@
 ---
-title: Record Form activity
+title: User Form activity
 description: Use this activity to surface a record to the end user. This activity requires you to select a table and record, and the desired form view that should be surfaced to the end user in your playbook. The end user can then interact with this record accordingly. Display a form during runtime to collect input values for your playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/user-form-activity.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks reference, Workflow Studio reference, Workflow Studio, Build workflows]
 ---
 
-# Record Form activity
+# User Form activity
 
 Use this activity to surface a record to the end user. This activity requires you to select a table and record, and the desired form view that should be surfaced to the end user in your playbook. The end user can then interact with this record accordingly. Display a form during runtime to collect input values for your playbook.
 
@@ -254,7 +254,7 @@ What an activity or stage does during restart:-   **Skip on restart**: The stage
 -   **Run always**: The stage or activity always runs, whether during an initial or restarted run.
 -   **Skip on first run**: The stage or activity runs only on restart. It never runs during an initial run.
 
-To learn more about enabling and configuring restart for playbooks, stages, and activities, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/enable-define-restart.md).
+To learn more about enabling and configuring restart for playbooks, stages, and activities, see [Enable and Configure Restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/enable-define-restart.md).
 
 **Note:** Select **Show additional options** to see this field.
 
@@ -413,4 +413,6 @@ These outputs can provide data to other activities in your playbook. You can acc
 |------|----|-----------|
 |Table|Table Name|Name of the table associated with the activity.|
 |Record|Reference.Task\[task\]|Reference to the record associated with the activity.|
+
+**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

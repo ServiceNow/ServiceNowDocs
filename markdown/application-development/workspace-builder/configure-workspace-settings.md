@@ -1,41 +1,46 @@
 ---
 title: Configure workspace settings in Workspace Builder
-description: Define workspace settings in Workspace Builder to control the basic functionality of the workspace, such as name and record page navigation.
+description: Define workspace settings in App Engine Studio \(AES\) to control the basic functionality of the workspace, such as name and record page navigation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/workspace-builder/configure-workspace-settings.html
 release: yokohama
 product: Workspace Builder
 classification: workspace-builder
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Classic app development, Building applications]
+breadcrumb: [Add a workspace, Add an application experience, Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Configure workspace settings in Workspace Builder
 
-Define workspace settings in Workspace Builder to control the basic functionality of the workspace, such as name and record page navigation.
+Define workspace settings in App Engine Studio \(AES\) to control the basic functionality of the workspace, such as name and record page navigation.
 
 This video shows you how to perform the following procedure.
 
 ## Before you begin
 
-Role required:
-
--   admin or Guided Application Creator for ServiceNow Studio.
--   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## Procedure
 
-1.  Navigate to Workspace Builder.
+1.  Navigate to **All** &gt; **App Engine** &gt; **App Engine Studio**.
 
-    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/accessing-workspace-builder-aes-crs.md).
+2.  From the My Apps page, open your application.
 
-2.  Display the Settings form by selecting **Workspace settings** in the Workspace Builder header.
+3.  Next to the workspace you created, select the additional actions icon \(\[Omitted image "additional-actions-icon-purple.png"\] Alt text: Additional actions icon\) and then select **Edit**.
+
+    You can also select the bar that lists the workspace in the Experience section of your app.
+
+    \[Omitted image "wb-edit-worspace-experience-purple.png"\] Alt text: Select to edit a workspace
+
+    The workspace appears in Workspace Builder.
+
+4.  Display the Settings form by selecting **Workspace settings** in the Workspace Builder header.
 
     \[Omitted image "wb-settings-dialog-new-theme.png"\] Alt text: Define settings for your workplace
 
-3.  On the **General** tab of the form, specify or change the basic settings for the workspace by filling in the editable fields.
+5.  On the **General** tab of the form, specify or change the basic settings for the workspace by filling in the editable fields.
 
     **Note:** Some settings are specified when adding a workspace, and can't be changed.
 
@@ -113,9 +118,9 @@ Theme to define the visual style of the workspace, which you can select only if 
 </td></tr></tbody>
 </table>    Add only one **User access** role at a time. For more information, see this [Knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1561167).
 
-4.  Select **Save**.
+6.  Select **Save**.
 
-5.  Specify what type of records users can create by selecting the **Record navigation** tab of the form and then filling in the fields.
+7.  Specify what type of records users can create by selecting the **Record navigation** tab of the form and then filling in the fields.
 
 <table id="table_fkb_3zx_wtb"><thead><tr><th>
 
@@ -154,6 +159,8 @@ Label
 Brief label for the option that appears when users select the new record menu. Specify a label that tells users what the record is used for.
 
 </td></tr></tbody>
-</table>6.  Select **Save**.
+</table>8.  Select **Save**.
 
+
+**Parent Topic:**[Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Initiating a chargeback, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Initiating a chargeback, Working on a dispute case, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Provide final credit to customer
@@ -30,36 +30,38 @@ If a merchant's representment was not approved as sufficient supporting evidence
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
-3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
+3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
 
     -   For your assigned cases, select **Assigned to me**.
     -   For all dispute cases, select **All**.
-4.  In the list, select which case you want to work on.
+4.  In the list, select the case to work on.
 
-    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
+    To work on a case that is not assigned to you yet, assign it to yourself by selecting **Assign to me**.
 
 5.  Select the **Playbook** tab.
 
-6.  Select the **Issue final credit** activity under the Chargeback playbook stage.
+6.  Select the **Provide final credit** activity under the Chargeback playbook stage.
 
-7.  On the form, fill in the required fields and any other related information that you've gathered.
+7.  Select the Provide final credit task that you want to complete.
 
-8.  In the **Remarks** field, enter any comments.
+8.  On the form, fill in the required fields and any other related information that you've gathered.
 
-9.  After you have entered the details in the task, select **Update**.
+9.  In the **Work notes** field, enter any comments.
 
-10. Close the task from the playbook.
+10. After you have entered the details in the task, select **Update**.
+
+11. Close the task from the playbook.
 
     |Dispute activity|Action|
     |----------------|------|
-    |**To close the task**|Select **Close task**.|
+    |**To close the Provide final credit task**|Select **Close**.|
 
 
 ## Result
 
-Once final credit issuance to the customer is submitted, the transaction task state updates to Closed complete.
+Once final credit issuance to the customer is submitted, the transaction task state updates to **Closed complete**.
 
 **Parent Topic:**[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/initiate-a-chargeback.md)
 

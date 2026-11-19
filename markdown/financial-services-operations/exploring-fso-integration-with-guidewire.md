@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/exploring-fso-integration-with-guidewire.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Guidewire, Integrate, Financial Services Operations \(FSO\)]
+breadcrumb: [Integrating with Guidewire, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
 ---
 
 # Exploring Financial Services Operations Integration with Guidewire
@@ -51,7 +51,7 @@ Spoke Layer
 
 </td><td>
 
-Layer that includes the Guidewire spoke plugin. This layer provides the actions that use REST Web Services to interact with the Guidewire APIs. To view Guidewire spoke actions, see [Guidewire Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/guidewire-spoke.md) actions.
+Layer that includes the Guidewire spoke plugin. This layer provides the actions that use REST Web Services to interact with the Guidewire APIs. To view Guidewire spoke actions, see  actions.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Financial Services Operations Integration with Guidewire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-integration-with-guidewire-landing-page.md)

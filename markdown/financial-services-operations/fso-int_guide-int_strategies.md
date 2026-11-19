@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/fso-int\_guide-int\_strategies.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Developer resources, Financial Services Operations \(FSO\)]
+breadcrumb: [Using the developer guide, Financial Services Operations \(FSO\)]
 ---
 
 # Integration use cases

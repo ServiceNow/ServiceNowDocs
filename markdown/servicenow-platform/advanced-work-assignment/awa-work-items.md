@@ -1,0 +1,58 @@
+---
+title: Work items
+description: View Advanced Work Assignment work items using the Work Items menu options.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/advanced-work-assignment/awa-work-items.html
+release: yokohama
+product: Advanced Work Assignment
+classification: advanced-work-assignment
+topic_type: concept
+last_updated: "2025-01-30"
+reading_time_minutes: 2
+breadcrumb: [Configure, Advanced Work Assignment, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
+---
+
+# Work items
+
+View Advanced Work Assignment work items using the Work Items menu options.
+
+Work items are a single piece of work handled by an agent from start to finish. For example, one chat or one case is an object that is routed and assigned to agents. Only users with awa\_manager privileges can access the Management menu options.
+
+-   **[Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-queues.md)**  
+In Advanced Work Assignment, queues store a specific type of work item for a service channel.
+
+**Parent Topic:**[Configuring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/installing-awa.md)
+
+**Related topics**  
+
+
+[Advanced Work Assignment home page]()
+
+[Get started with Advanced Work Assignment]()
+
+[Install Conversational SMS service channel]()
+
+[Activate Agent Affinity]()
+
+[Activate Conversational Messaging]()
+
+[Service channels]()
+
+[Work assignments]()
+
+[Using Agent Affinity]()
+
+[Agent Inbox controls]()
+
+[Advanced Work Assignment Inbox Sentiment display]()
+
+[Wrap up overview]()
+
+[Management]()
+
+[AWA group queue priorities]()
+
+[Configure messaging actions]()
+
+[Enable logging for Advanced Work Assignment]()
+

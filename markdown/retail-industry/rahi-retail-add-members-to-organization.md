@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-add-members-to-organization.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Retail]
+breadcrumb: [Configuring Retail, Retail]
 ---
 
 # Add members to a retail organization
@@ -16,7 +16,7 @@ Add members to your organization to enable them to view and complete tasks withi
 
 ## Before you begin
 
-Role required: sn\_rtl.retail\_admin
+Role required: admin
 
 ## Procedure
 

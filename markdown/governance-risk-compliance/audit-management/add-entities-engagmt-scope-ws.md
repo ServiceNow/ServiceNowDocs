@@ -1,5 +1,5 @@
 ---
-title: Add entities to an engagement scope and validate it
+title: Add entities to an engagement scope and validate the engagement
 description: Add entities related to the selected auditable units to the engagement. In addition, you can also add entities other than the ones created for auditable units to the engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/audit-management/add-entities-engagmt-scope-ws.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Audit Supervisor Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Workspace for the Audit supervisor, Audit Workspace, Audit Management, Governance, Risk, and Compliance]
 ---
 
-# Add entities to an engagement scope and validate it
+# Add entities to an engagement scope and validate the engagement
 
 Add entities related to the selected auditable units to the engagement. In addition, you can also add entities other than the ones created for auditable units to the engagement.
 

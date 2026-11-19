@@ -7,7 +7,7 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -48,7 +48,7 @@ Third-party editor \[vendor\_editor\]
 
 </td><td>
 
-Create, update, or delete third-party contact records.
+Create/update/delete third-party contact records.
 
 </td><td>
 
@@ -60,7 +60,7 @@ Third-party assessment reviewer\[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewe
 
 </td><td>
 
-View assessment and questionnaire data. Users with this role can also leave comments on the following tables:
+View assessment and questionnaire data. In addition to viewing, they can leave comments on the following tables:
 
 -   Tiering assessment
 -   Internal assessment
@@ -73,11 +73,8 @@ View assessment and questionnaire data. Users with this role can also leave comm
 
 Contains:
 
- -   sn\_risk.implementation\_reader
--   sn\_compliance.control\_framework\_reader
--   sn\_compliance.policy\_reader
--   sn\_grc.library\_reader
--   sn\_smart\_asmt.actor
+ -   compliance\_reader
+-   risk\_reader
 -   task\_editor
 -   vendor\_reader
 -   sn\_dora\_accel.user
@@ -87,44 +84,28 @@ Contains:
 
 </td></tr><tr><td>
 
-TPR internal task responder\[sn\_vdr\_risk\_asmt\_internal\_task\_responder\]
-
-</td><td>
-
-Create, read, update, and delete the elements linked to the internal tasks for which the user is the respondent.
-
- This role is automatically granted to the assigned respondent when an internal task moves to the **Submitted to respondent** state, and replaces use of the internal assessment user \[sn\_vdr\_risk\_asmt.internal\_assessment\_responder\] role for internal tasks specifically.
-
-</td><td>
-
--   sn\_grc\_workspace.task\_reader
--   sn\_grc\_workspace.user
-
-</td></tr><tr><td>
-
 TPR assessor \(Third-party risk assessor\)
 
  \[sn\_vdr\_risk\_asmt.vendor\_assessor\]
 
 </td><td>
 
--   All permissions of the Third-party assessment reviewer role, plus the ability to manage third parties, third-party contacts, external risk assessments, and issues.
+-   Includes all permissions of the Third-party assessment reviewer role plus: Manage third parties, third-party contacts, external risk assessments, and issues.
 -   You can set the following options for the sn\_svdp.allow\_assessor\_edit property:
 
     -   Enable TPR assessors to answer questions or modify responses in third-party questionnaires \(default\).
     -   Enable TPR assessors to modify responses.
-    -   Don't enable TPR assessors to answer questions or modify responses.
+    -   Don’t enable TPR assessors to answer questions or modify responses.
 See [Configure TPRM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-properties-configure.md).
 
 
 </td><td>
 
-Contains:-   vendor\_assessment\_reviewer
--   sn\_grc.library\_reader
+Contains:-   compliance\_reader
+-   vendor\_assessment\_reviewer
 -   vendor\_editor
 -   vendor\_reader
 -   sn\_dora\_accel.manager
--   sn\_smart\_asmt.reassign
 
 </td></tr><tr><td>
 
@@ -161,7 +142,6 @@ Contains:
 
 -   vendor\_assessor
 -   sn\_dora\_accel.manager
--   sn\_smart\_asmt.reassign
 
 </td></tr><tr><td>
 
@@ -180,7 +160,7 @@ Includes all permissions of the TPR manager role plus:
 -   Document request templates
 -   Post assessment automation rules
 
- **Note:** Templates include both classic and SAE templates.
+ **Note:** All the templates include both classic and SAE templates.
 
 </td><td>
 
@@ -191,7 +171,6 @@ Contains:
 -   sn\_dora\_accel.admin
 -   sn\_smart\_asmt.assessment\_admin
 -   sn\_smart\_imp\_auto.automation\_creator
--   sn\_smart\_asmt.reassign
 
 </td></tr><tr><td>
 
@@ -201,7 +180,7 @@ Contract risk negotiator\[sn\_vdr\_risk\_asmt.contract\_negotiator\]
 
 Includes all permissions of the TPR assessor role plus:
 
- Users in the legal department can modify contract status and the start and expiration dates.
+ Gives users in the legal department access to modify contract status and the start and expiration dates.
 
  You can add users with this role to the **Contract risk negotiators** user group. See [Add users to groups based on responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-groups-add-users-to.md).
 
@@ -214,12 +193,10 @@ Contains:
 
 </td></tr><tr><td>
 
-Third-party / engagement contact
+\[vendor\_contact\]
 
- \[vendor\_contact\]
-
- -   Called a third-party contact when responding to an external questionnaire or task or issue for a third party.
--   Called an engagement contact when responding to a questionnaire or task or issue for an engagement.
+-   Called a third-party contact when responding to an external questionnaire/task/issue for a third party.
+-   Called an engagement contact when responding to a questionnaire/task/issue for an engagement.
 
 </td><td>
 
@@ -274,7 +251,7 @@ A user with one of the following roles can respond to questionnaires in the Vend
 
     This role is required to respond to internal/IRQ assessment questionnaires using the GRC Portal.
 
-    This role contains the following roles: canvas\_user, sn\_smart\_asmt.actor, sn\_grc\_workspace.user, and sn\_grc\_workspace.task\_reader.
+    This role contains the following roles: sn\_grc\_business\_user, canvas\_user, and sn\_smart\_asmt.actor.
 
 -   TPRMSAE external assessment user \[sn\_vdr\_risk\_asmt.external\_assessment\_responder\]
 
@@ -287,19 +264,21 @@ A user with one of the following roles can respond to questionnaires in the Vend
 
 A user with the TPRM SAE admin \[sn\_smart\_asmt.assessment\_admin\] role can create SAE templates in the Vendor Management Workspace and Assessment Workspace.
 
-A user with the sn\_smart\_imp\_auto.automation\_creator role can create post assessment impact automation rules. The TPR admin contains this role.
+Third-party admin contains this role.
 
-The TPR administrator \[sn\_vdr\_risk\_asmt.vendor\_risk\_admin\], TPR assessor \[sn\_vdr\_risk\_asmt.vendor\_assessor\], and TPR manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] roles now include the sn\_smart\_asmt.reassign role. You can reassign Smart Assessment Engine questionnaires to another member of your organization.
+A user with the sn\_smart\_imp\_auto.automation\_creator role can create post assessment impact automation rules.
 
-**Note:** The Third-party assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role is the minimum role required to view any template that is a member of the TPRM external questionnaire, TPRM external document request, TPRM internal tiering questionnaire, and TPRM internal IRQ purposes.
+Third-party admin contains this role.
 
-For more information on SAE related roles, see [Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
+**Important:** The Third-party assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role is the minimum role that you must have to view any template that is a member of the TPRM external questionnaire, TPRM external document request, TPRM internal tiering questionnaire, and TPRM internal IRQ purposes.
+
+For more information on SAE related roles, see [Roles in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
 
 ## Roles required for using ServiceNow Otto for Third-party Risk Management \(TPRM\)
 
 A user with the Third-party Assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role can use the ServiceNow Otto for TPRM skills.
 
-The system automatically grants the TPRM GenAI User \[sn\_tprm\_genai.nowassist\_user\] role to Third-party Assessment reviewers \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] after the ServiceNow Otto for TPRM application is installed. For more information about a ServiceNow Otto for TPRM, see [ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/exploring-now-assist-tprm.md).
+The TPRM GenAI User \[sn\_tprm\_genai.nowassist\_user\] role is granted to Third-party Assessment reviewers \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] automatically after you install the ServiceNow Otto for TPRM application. For more information about a ServiceNow Otto for TPRM, see [ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/now-assist-tprm.md).
 
 **Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 
@@ -310,5 +289,5 @@ The system automatically grants the TPRM GenAI User \[sn\_tprm\_genai.nowassist\
 
 [Roles installed with Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/roles-for-drtpr.md)
 
-[Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md)
+[Roles in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md)
 

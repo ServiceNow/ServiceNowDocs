@@ -7,9 +7,9 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Remote task definition, Configure for providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Create remote task definitions in Service Exchange for Providers, Installing and configuring Service Exchange for Providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Create a remote task using Workflow Studio in Service Exchange for Providers

@@ -1,5 +1,5 @@
 ---
-title: Debugging sessions
+title: Session debug
 description: Enable session debugging to display debugging messages in the user interface.Display session debug logs to help diagnose script and application problems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/c\_SessionDebug.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Debug scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Debugging scripts, Scripting, API implementation, API implementation and reference]
 ---
 
-# Debugging sessions
+# Session debug
 
 Enable session debugging to display debugging messages in the user interface.
 

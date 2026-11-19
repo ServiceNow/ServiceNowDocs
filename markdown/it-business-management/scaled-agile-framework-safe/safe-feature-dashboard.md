@@ -7,7 +7,7 @@ release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -83,7 +83,7 @@ Stories By State
 
 </td><td>
 
-Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
+Bar chart\[Omitted image "column-icon.png"\] Alt text: Bar chart
 
 </td><td>
 
@@ -95,7 +95,7 @@ Feature Burnup
 
 </td><td>
 
-Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
+Line chart\[Omitted image "line-icon.png"\] Alt text: Line chart
 
 </td><td>
 
@@ -129,7 +129,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
+Bubble chart\[Omitted image "bubble-icon.png"\] Alt text: Bubble chart
 
 </td><td>
 

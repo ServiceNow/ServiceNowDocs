@@ -1,5 +1,5 @@
 ---
-title: Log user impersonation
+title: Log user impersonation \[Updated in Security Center 1.3 and 2.0\]
 description: Configure glide.sys.log\_impersonation to control if user-impersonating events are logged in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-log-user-impersonation.html
@@ -7,18 +7,16 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Error handling and logging, Hardening settings, Platform Security]
 ---
 
-# Log user impersonation
+# Log user impersonation \[Updated in Security Center 1.3 and 2.0\]
 
 Configure **glide.sys.log\_impersonation** to control if user-impersonating events are logged in your instance.
 
-If **glide.sys.log\_impersonation** is not set to the recommended value of **true**, then user-impersonating events are no longer logged.
-
-Ensure that the property **glide.sys.log\_impersonation** exists in the System Properties \[sys\_properties\] table and is set to **true**. If the property does not appear in the System Properties \[sys\_properties\] table, add a new record.
+If this property is not set to the recommended value of **true**, user-impersonating events are no longer logged. The absence of logging could impact the automated security detection and investigation capabilities on your instance. Ensure the property **glide.sys.log\_impersonation** exists and is set to true. If the property does not appear in the sys\_properties table, add a new record.
 
 ## More information
 
@@ -52,7 +50,7 @@ Data type
 
 </td><td>
 
-Boolean
+boolean
 
 </td></tr><tr><td>
 
@@ -72,14 +70,6 @@ true
 
 </td></tr><tr><td>
 
-Fallback value
-
-</td><td>
-
-false
-
-</td></tr><tr><td>
-
 Category
 
 </td><td>
@@ -94,7 +84,7 @@ Security risk
 
 -   Severity score: 6.4
 -   CVSS score: Medium
--   Security risk details: ServiceNow's automated security detections and security investigation capabilities effectiveness is reduced.
+-   Security risk details: If this property is not set to **true**, user-impersonating events are no longer logged which could impact your instance's security detection and investigation capabilities.
 
 </td></tr><tr><td>
 
@@ -110,7 +100,7 @@ References
 
 </td><td>
 
-
+[Impersonating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ImpersonateAUser.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Error handling and logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-error-handling-logging.md)

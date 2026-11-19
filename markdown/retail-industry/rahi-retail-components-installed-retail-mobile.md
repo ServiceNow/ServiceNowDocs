@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-components-installed-retail-mobile.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Components installed with plugins, Reference, Retail]
+breadcrumb: [Components installed with plugins, Retail reference, Retail]
 ---
 
 # Components installed with Retail Mobile

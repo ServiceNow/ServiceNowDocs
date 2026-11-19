@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Use, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
 # Task filters on My tasks
@@ -40,15 +40,9 @@ For configuration steps, see [Configurable task filters](https://raw.githubuserc
 
 [Use the My To-dos page]()
 
-[Use approval experience]()
-
-[Manage approvals from Microsoft Teams]()
-
-[Manage approvals from a Microsoft Outlook email]()
+[View advanced portal navigation]()
 
 [View the Recommended for you content]()
-
-[Use Employee Center from Zoom]()
 
 [View employee profile]()
 
@@ -59,8 +53,6 @@ For configuration steps, see [Configurable task filters](https://raw.githubuserc
 [RTL support for Employee Center]()
 
 [Manage favorites]()
-
-[Access applications from App Launcher]()
 
 [Use Guided Self-Service]()
 

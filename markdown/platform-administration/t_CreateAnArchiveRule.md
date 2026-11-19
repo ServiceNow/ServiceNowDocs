@@ -1,16 +1,16 @@
 ---
-title: Create an archive rule in Core UI
+title: Create an archive rule
 description: Define the criteria for archiving records by creating an archive rule.Preview the records that you want to archive, and then activate an archive rule.Delete archived records and related records after a specified amount of time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_CreateAnArchiveRule.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Archiving records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Archiving records, Manage data growth, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Create an archive rule in Core UI
+# Create an archive rule
 
 Define the criteria for archiving records by creating an archive rule.
 
@@ -22,27 +22,17 @@ Role required: admin
 
 ## Procedure
 
-1.  Access the new archive rule form in one of the following ways.
+1.  Access the archive rule form in one of the following ways.
 
-<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d169870e66">
+<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d157371e64">
 
 Option
 
-</th><th align="left" id="d169870e69">
+</th><th align="left" id="d157371e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d169870e75">
-
-**Using the Data Management Console**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **System Data Management** &gt; **Data Management Console** &gt; ****.
-2.  On the Overview tab, select **New archive rule**.
-
-
-</td></tr><tr><td id="d169870e110">
+</th></tr></thead><tbody><tr><td id="d157371e73">
 
 **Using a data management policy**
 
@@ -53,7 +43,7 @@ Steps
 3.  In the Archive Rules related list, select **New**.
 
 
-</td></tr><tr><td id="d169870e146">
+</td></tr><tr><td id="d157371e109">
 
 **Using the Archive Rules module**
 
@@ -159,7 +149,7 @@ The time interval before the restored record is automatically archived.
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/archiving-older-records.md)
+**Parent Topic:**[Archiving records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/archiving-older-records.md)
 
 ## Activate an archive rule
 
@@ -179,15 +169,15 @@ The sample archive rules are inactive by default.
 
 1.  Access the archive rule that you want to activate in one of the following ways.
 
-<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d169870e458">
+<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d157371e421">
 
 Option
 
-</th><th align="left" id="d169870e461">
+</th><th align="left" id="d157371e424">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d169870e467">
+</th></tr></thead><tbody><tr><td id="d157371e430">
 
 **Using a data management policy**
 
@@ -198,7 +188,7 @@ Steps
 3.  In the Archive Rules related list, select the archive rule that you want to activate.
 
 
-</td></tr><tr><td id="d169870e500">
+</td></tr><tr><td id="d157371e463">
 
 **Using the Archive Rules module**
 
@@ -280,7 +270,7 @@ Archive Duration
 
 </td><td>
 
-Specify the amount of time that records stay in the archive table before the system deletes them.**Important:** Archive records are destroyed immediately if the **Archive Duration** field is empty or set to 0.
+Specify the amount of time that records stay in the archive table before the system deletes them.
 
 </td></tr></tbody>
 </table>3.  Estimate the number of archived records marked for deletion by selecting the **Recalculate Destroy Estimate** related link.

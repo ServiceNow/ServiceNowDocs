@@ -7,10 +7,10 @@ release: yokohama
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2026-10-16"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [import data, rte, transform map]
-breadcrumb: [Imports, Workflow Data Fabric]
+breadcrumb: [Imports, Data and Automation]
 ---
 
 # Import sets

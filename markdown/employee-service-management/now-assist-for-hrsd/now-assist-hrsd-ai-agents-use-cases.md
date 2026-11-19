@@ -7,8 +7,8 @@ release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2025-03-07"
+reading_time_minutes: 4
 keywords: [Now Assist, generative AI]
 breadcrumb: [ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -31,120 +31,65 @@ Available AI agents
 
 </th></tr></thead><tbody><tr><td>
 
-Help resolve tuition requests
+Resolve policy for tuition reimbursement
 
 </td><td>
 
-AI agents resolve tuition reimbursement pre-approval requests by connecting to various parties \(for example, the manager for approval\) and resolving the case. The human agent stays in the loop.
+AI agents resolve tuition reimbursement requests by connecting to various parties \(for example, the manager for approval\) and resolving the case, while keeping the human agent in the loop.
 
 </td><td>
 
--   Tuition reimbursement policy based HR case evaluation AI agent
--   Tuition reimbursement case closure AI agent
--   Tuition reimbursement pre-approval task generation AI agent
+-   Tuition reimbursement requestor information retrieval AI agent
+-   Tuition reimbursement eligibility check AI agent
+-   Tuition reimbursement checklist creator AI agent
+-   Total rewards case closure AI agent
+-   Total rewards case details management AI agent
+-   Tuition reimbursement pre-approval task creation AI agent
+-   Tuition reimbursement policy retrieval AI agent
 
 </td></tr><tr><td>
 
-Help resolve tuition reimbursement requests
+Resolve HR cases
 
 </td><td>
 
-AI agents resolve tuition reimbursement requests that were already pre-approved and the employee completed the course.
+Automate the resolution of routine employee queries submitted via portal or email by leveraging agents to assess criticality and retrieve relevant knowledge article responses.Create an ordered step-wise HR case fulfillment/execution plan.
 
 </td><td>
 
--   Tuition reimbursement request evaluator AI agent
--   Tuition reimbursement request closure AI agent
-
-</td></tr><tr><td>
-
-Predict service and transfer HR cases
-
-</td><td>
-
-Analyze an HR case and automatically route it to the most appropriate HR service.
-
-</td><td>
-
--   Record field value prediction AI agent
--   HR Case Transfer AI Agent
-
-</td></tr><tr><td>
-
-Resolve noncritical HR cases
-
-</td><td>
-
-Use the Resolve noncritical HR cases agentic workflow to assess the criticality of HR cases and automatically respond to noncritical inquiries without human intervention. Human agents must intervene when requests are marked critical.
-
-</td><td>
-
--   HR search and notify AI agent
+-   HR search retrieval AI agent
+-   HR notification AI agent
+-   Record management AI agent
 -   HR criticality detection AI agent
-
-</td></tr><tr><td>
-
-Resolve critical HR cases
-
-</td><td>
-
-Resolve critical HR requests efficiently with the Resolve critical HR case agentic workflow. This workflow generates a tailored fulfillment plan for an HR case using fulfillment instructions, KB articles, or resolution notes of similar past cases. It helps accelerate the resolution process by providing planning support to HR agents.
-
-</td><td>
-
 -   HR Case Planner AI Agent
--   Next action recommended AI agent
 
 </td></tr><tr><td>
 
-Schedule interviews
+Generate onboarding ramp-up plan
 
 </td><td>
 
-AI agents collect necessary inputs from the recruiters or recruitment coordinators and schedule interviews seamlessly from the ServiceNow Otto panel.
+Provides an efficient process for helping managers generate personalized onboarding plans for new employees who are joining their organization. The workflow uses Journey Accelerator to create a plan and tasks associated with the employee's onboarding journey. The manager uses Now Assist in Virtual Agent to review, revise, and accept the onboarding ramp-up plan that was curated by the AI agent.
 
 </td><td>
 
-Interview schedule AI agent
-
-</td></tr><tr><td>
-
-Create job requisition
-
-</td><td>
-
-AI agents assist hiring managers in creating requisitions more efficiently and accurately on the first attempt by providing the necessary guidance through the agentic workflow.
-
-</td><td>
-
-Job requisition creation AI agent
-
-</td></tr><tr><td>
-
-Generate onboarding ramp-up plan agentic workflow
-
-</td><td>
-
-Accelerate onboarding with the Generate onboarding ramp-up plan workflow, which creates personalized and team-specific plans for every new hire. Powered by AI agents, it tailors learning paths, team tasks, and 1:1 introductions to help employees ramp up faster, build stronger connections, and reach productivity sooner.
-
-</td><td>
-
--   Ramp up plan generation AI agent
 -   Ramp up plan gather inputs AI agent
--   Ramp up plan reviewer AI agent
+-   Ramp up plan generation AI agent
+-   Ramp up plan review AI agent
 
 </td></tr><tr><td>
 
-Offboarding knowledge transfer plan generation agentic workflow
+Help Plan Growth Conversations
 
 </td><td>
 
-Automate the knowledge transfer process during employee offboarding with the Offboarding knowledge transfer plan generation agentic workflow. Powered by AI agents, it discovers documents authored by the departing employee, organizes them into categories, and generates a structured knowledge transfer summary. The departing employee can review and approve the summary before sharing it with the manager and successors.
+AI agents work together to help managers select a reportee, create and retrieve upcoming conversations, generate employee data summaries with talking points from talent development activities, and recommend resources and learning courses for effective preparation.
 
 </td><td>
 
--   Offboarding knowledge transfer gather inputs AI agent
--   Knowledge transfer reviewer AI agent
+-   Conversation management AI agent
+-   Employee data summarization AI agent
+-   Manager resource recommendation AI agent
 
 </td></tr></tbody>
 </table><table id="table_qxx_bcg_vfc"><thead><tr><th>
@@ -232,54 +177,6 @@ View paychecks AI agent
 
 Retrieves paycheck information for the selected period.
 
-</td></tr><tr><td>
-
-Record field value prediction AI agent
-
-</td><td>
-
-Predicts the HR service of an incoming case. It can also provide a summary and justification of prediction.
-
-</td></tr><tr><td>
-
-HR Case Transfer AI Agent
-
-</td><td>
-
-Automatically transfers the case to the predicted service.
-
-</td></tr><tr><td>
-
-HR search and notify AI agent
-
-</td><td>
-
-Performs search to find relevant HR knowledge articles and catalog items related to the given query and raise notification if relevant information is found.
-
-</td></tr><tr><td>
-
-HR criticality detection AI agent
-
-</td><td>
-
-Performs criticality detection on an HR case and acts based on the criticality level.
-
-</td></tr><tr><td>
-
-HR Case Planner AI Agent
-
-</td><td>
-
-Creates an ordered step-wise fulfillment/execution plan for an HR case based on specific COE or HR service.
-
-</td></tr><tr><td>
-
-Next action recommended AI agent
-
-</td><td>
-
-Identifies the optimal steps for resolving tasks by referencing similar case details, reviewing relevant knowledge articles and web search results. It summarizes and presents to the user a step-by-step summarized resolution plan and derived action plan. Implements the feedback flow only when asked for it.
-
 </td></tr></tbody>
 </table>**Important:** All agentic workflow and AI agent records are read-only by default.
 
@@ -296,7 +193,21 @@ For more information about duplicating an agentic workflow, implementing access 
 -   [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/modify-ai-agent.md)
 -   [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)
 
-There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
+Looking for an AI agent?
 
-**Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
+-   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+
+**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
+-   **[Help resolve tuition requests agentic workflow for ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md)**  
+Use the Help resolve tuition requests agentic workflow for faster mean time to repair \(MTTR\) cases that require validation based on policies that are built for tuition reimbursement.
+-   **[Resolve HR cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/employee-issue-resolver-na.md)**  
+Use the Resolve HR cases agentic workflow to evaluate case criticality and retrieve relevant knowledge articles to resolve HR cases, and generate a fulfillment plan for an HR case, minimizing the need for agent intervention.
+-   **[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/onboarding-ramp-up-plan-agentic-wf.md)**  
+The Generate onboarding ramp-up plan agentic workflow is an AI-powered solution that helps managers at your organization onboard new employees more efficiently. This workflow uses AI agents to generate personalized plans that are designed to elevate the knowledge and skills of new employees beginning to embark on their onboarding journey.
+-   **[HCM AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/conversational-agents.md)**  
+Place requests to the Human Capital Management \(HCM\) system using the HR Service Delivery AI agent collection.
+
+**Parent Topic:**[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)
 

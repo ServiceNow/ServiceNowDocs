@@ -1,6 +1,6 @@
 ---
 title: Subscriptions for IT Operations Management
-description: The ServiceNow AI Platform uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow ITOM Visibility, ServiceNow ITOM Discovery, ServiceNow ITOM AIOps, ServiceNow Health Log Analytics, ServiceNow ITOM Optimization, ServiceNow ITOM Cloud Accelerate, ServiceNow Service Reliability Management, ServiceNowSLO Management, ServiceNow Service Observability, and ServiceNow synthetic monitoring.
+description: The ServiceNow AI Platform uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow ITOM Visibility, ServiceNow ITOM Discovery, ServiceNow ITOM Health, ServiceNow Health Log Analytics, ServiceNow ITOM Optimization, ServiceNow ITOM Cloud Accelerate, ServiceNow Service Reliability Management, ServiceNowSLO Management, ServiceNow Service Observability, and ServiceNow synthetic monitoring.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-license-module.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Mana
 
 # Subscriptions for IT Operations Management
 
-The ServiceNow AI Platform® uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow® ITOM Visibility, ServiceNow® ITOM Discovery, ServiceNow® ITOM AIOps, ServiceNow® Health Log Analytics, ServiceNow® ITOM Optimization, ServiceNow® ITOM Cloud Accelerate, ServiceNow® Service Reliability Management, ServiceNow®SLO Management, ServiceNow® Service Observability, and ServiceNow® synthetic monitoring.
+The ServiceNow AI Platform® uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow® ITOM Visibility, ServiceNow® ITOM Discovery, ServiceNow® ITOM Health, ServiceNow® Health Log Analytics, ServiceNow® ITOM Optimization, ServiceNow® ITOM Cloud Accelerate, ServiceNow® Service Reliability Management, ServiceNow®SLO Management, ServiceNow® Service Observability, and ServiceNow® synthetic monitoring.
 
 For licensing purposes, licensable resources are assigned to CI categories. License usage is measured using subscription units, which may cover a different number of resources, depending on the resource CI category. The customer contract for your organization determines the CI categories from the available options, and also the ratios of CI allocation for subscription units in each CI category. Information from the customer contract is synchronized with the ServiceNow platform. The latest version of ServiceNow® ITOM/OT SU Licensing supports the following CI categories:
 
@@ -38,7 +38,7 @@ ServiceNow® charges for the following IT Operations Management products:
 
 -   **ITOM Visibility**
 
-    The ServiceNow® ITOM Visibility product consists of ServiceNow® [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r-discovery.md), [Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/firewall-audit-reporting.md), [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cert-inventory-mgmt.md), [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/c_ServiceMappingOverview.md), [Cryptographic Asset Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/CAC-landing-page.md), [AI Agent Topology Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/ai-agent-topology-mapping-landing.md), [ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/discovery-content-services.md), [Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/tag-governance/landing-page-tag-governance.md), [Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-discovery-workspace/cow-landing-page.md), and [Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-license-estimator/cloud-license-estimator-landing.md) applications. Discovery and Service Mapping give you a unified, connected view of your entire IT network and the services that it supports. The [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sgc-available.md) and [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/multisource-cmdb.md) applications provide data to ITOM Visibility.
+    The ServiceNow® ITOM Visibility product consists of ServiceNow® [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r-discovery.md), [Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/firewall-audit-reporting.md), [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cert-inventory-mgmt.md), [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/c_ServiceMappingOverview.md), , [AI Agent Topology Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/ai-agent-topology-mapping-landing.md), [ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/discovery-content-services.md), [Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/tag-governance/landing-page-tag-governance.md), [Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-discovery-workspace/cow-landing-page.md), and  applications. Discovery and Service Mapping give you a unified, connected view of your entire IT network and the services that it supports. The [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sgc-available.md) and [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/multisource-cmdb.md) applications provide data to ITOM Visibility.
 
     In addition, Service Graph Connectors populate the CMDB by bringing in data from third-party monitoring and management systems. CMDB 360 enables you to track how the CMDB contains various discovery sources at the CI attribute level. Use Certificate Inventory and Management to avoid service outages due to expired TLS certificates. Firewall Audits and Reporting helps you to discover and manage your firewall security policies to heighten the security awareness for firewall audits.
 
@@ -52,15 +52,15 @@ ServiceNow® charges for the following IT Operations Management products:
 
     ITOM Discovery provides the count of CIs found by ServiceNow® Discovery and brought in by Service Graph Connectors.
 
--   **ITOM AIOps**
+-   **ITOM Health**
 
-    The ServiceNow® ITOM AIOps product includes the ServiceNow® Event Management and ServiceNow® Metric Intelligence applications, which help you track and maintain the health of services in your organization.
+    The ServiceNow® ITOM Health product includes the ServiceNow® Event Management and ServiceNow® Metric Intelligence applications, which help you track and maintain the health of services in your organization.
 
-    ITOM AIOps reports the number of CIs, where it captures alerts, events, and metric data. ITOM AIOps reports the CI count for all CI categories.
+    ITOM Health reports the number of CIs, where it captures alerts, events, and metric data. ITOM Health reports the CI count for all CI categories.
 
 -   **Health Log Analytics**
 
-    Health Log Analytics CI count is based on log data received from licensable resource types. The consumption is reflected in ITOM AIOps as well as in Health Log Analytics. For that reason, you need the ITOM AIOps subscription in addition to the Health Log Analytics subscription.
+    Health Log Analytics CI count is based on log data received from licensable resource types. The consumption is reflected in ITOM Health as well as in Health Log Analytics. For that reason, you need the ITOM Health subscription in addition to the Health Log Analytics subscription.
 
 -   **ITOM Cloud Accelerate**
 
@@ -68,7 +68,7 @@ ServiceNow® charges for the following IT Operations Management products:
 
     For licensing purposes, the ITOM Cloud Accelerate license provides the CI count for CIs managed and monitored by Cloud Migration Assessment, Cloud Configuration Governance, or Cloud Action Library. If different ITOM Cloud Accelerate features report the same CIs as their resources, the CI count is manipulated to remove the duplication.
 
-    **Note:** Starting with the brazil release, the following applications are being prepared for future deprecation. They will be hidden and no longer installed on new instances but will continue to be supported:
+    **Note:** Starting with the yokohama release, the following applications are being prepared for future deprecation. They will be hidden and no longer installed on new instances but will continue to be supported:
 
     -   Cloud Configuration Governance
     -   CCG Content Pack

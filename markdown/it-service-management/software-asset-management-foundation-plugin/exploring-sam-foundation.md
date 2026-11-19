@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
 # Exploring Basic Software Asset Management
@@ -20,7 +20,7 @@ The Basic Software Asset Management \(com.snc.sams\) application's core function
 
 ## Using the Software Asset Workspace
 
-To use the Software Asset Workspace, activate the Basic Software Asset Management \(com.snc.sams\) and then activate the Software Asset Workspace \(sn\_sam\_workspace\) store app.
+To use the Software Asset Workspace, activate the Basic Software Asset Management \(com.snc.sams\) and then activate the Software Asset Workspace \(sn\_sam\_workspace\) plugin.
 
 **Note:** After you activate the Software Asset Workspace store app, you can't revert to the classic Basic Software Asset Management application.
 
@@ -30,9 +30,9 @@ For information on configuring and using the Software Asset Workspace, see [Conf
 
 To use the Software Asset Management Core UI, activate the Basic Software Asset Management \(com.snc.sams\). You don't need to activate any additional plugins.
 
-If you later decide to use the Software Asset Workspace, activate the Software Asset Workspace \(sn\_sam\_workspace\) store application.
+If you later decide to use the Software Asset Workspace, activate the Software Asset Workspace \(sn\_sam\_workspace\) plugin.
 
-For information on configuring and using the classic application, see [Configuring the classic Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md) and [Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/using-sam-classic.md).
+For information on configuring and using the classic application, see [Configuring Basic Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md) and [Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/using-sam-classic.md).
 
 -   **[Basic Software Asset Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/r_SAMRolesSAMF.md)**  
 Basic Software Asset Management adds the following roles.

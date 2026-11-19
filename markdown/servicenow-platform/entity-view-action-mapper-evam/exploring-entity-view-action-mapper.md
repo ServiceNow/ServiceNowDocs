@@ -7,9 +7,9 @@ release: yokohama
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-02-04"
 reading_time_minutes: 4
-breadcrumb: [Entity view action mapper, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [EVAM, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Exploring Entity View Action Mapper

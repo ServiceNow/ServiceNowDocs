@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
+breadcrumb: [Storage discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Storage discovery via SMI-S and CIM
@@ -97,16 +97,15 @@ Discovery uses the following tables and probes to gather information about stora
 |Disk \[cmdb\_ci\_disk\]|SMI 1.5 - Storage Server|
 |Fibre Channel Export \[cmdb\_ci\_fc\_export\]|SMI 1.5 - Storage Server|
 |iSCSI Exports \[cmdb\_ci\_iscsi\_export\]|SMI 1.5 - Storage Server|
-|Fibre Channel Port \[cmdb\_ci\_fc\_port\]|SMI 1.5 - Storage Server|
+|Fibre Channel Port \[cmdb\_ci\_fc\_port\]|SMI 1.5 - Storage Server, SMI - Fibre Channel Switch|
 |SAN Export \[cmdb\_ci\_san\_export\]|SMI 1.5 - Storage Server|
 |Storage Controller \[cmdb\_ci\_storage\_controller\]|SMI 1.5 - Storage Server|
 |Storage Export \[cmdb\_ci\_storage\_export\]|SMI 1.5 - Storage Server|
 |Storage File Share \[cmdb\_ci\_storage\_fileshare\]|SMI - Array - File Shares|
 |Storage Pool \[cmdb\_ci\_storage\_pool\]|SMI 1.5 - Storage Server|
 |Storage Server \[cmdb\_ci\_storage\_server\]|CIM - Identity|
-|Storage Switch \[cmdb\_ci\_storage\_switch\]|CIM - Identity|
+|Storage Switch \[cmdb\_ci\_storage\_switch\]|CIM - Identity, SMI - Fibre Channel Switch|
 |Storage Volume \[cmdb\_ci\_storage\_volume\]|SMI 1.5 - Storage Server|
-|Storage Device \[cmdb\_ci\_storage\_device\]|SMI 1.5 - Storage Server|
 |Storage Area Network \[cmdb\_ci\_san\]|SMI - Fabric|
 |SAN Connection \[cmdb\_ci\_san\_connection\]|SMI - Fabric|
 |SAN Endpoint \[cmdb\_ci\_san\_endpoint\]|SMI - Fabric|
@@ -129,8 +128,8 @@ These probes are available but not currently used:
 -   SMI - Array - Volumes
 
 -   **[Discovery of storage area networks \(SAN\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/storage-area-networks.md)**  
-Discovery collects information about storage area networks from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches. Discovery creates specific references between the tables in the SAN schema.
--   **[How CIM discovery works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_HowCIMDiscoveryWorks.md)**  
+Discovery collects information about storage area networks from specialized devices, such as storage arrays and Fibre Channel \(FC\) switches, and creates specific references between the tables in the SAN schema.
+-   **[How CIM Discovery works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_HowCIMDiscoveryWorks.md)**  
 This is the processing flow for classifying Common Information Model \(CIM\) storage systems.
 -   **[Configure SMI-S Provider for storage Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/t_ConfigDiscoForStandaloneStorage.md)**  
 Use this procedure for configuring a standalone storage device with the required SMI-S Provider for Discovery.

@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-02-23"
 reading_time_minutes: 2
-breadcrumb: [Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Contract Management Pro, Employee Service Management]
 ---
 
 # Domain separation and Contract Management Pro

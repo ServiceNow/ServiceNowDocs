@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
 breadcrumb: [Viewing and editing config data, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Define or update a collection while working in a changeset of a application.
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington DC release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: cdm\_editor or cdm\_admin
 
@@ -32,15 +32,15 @@ Role required: cdm\_editor or cdm\_admin
 
 2.  To edit individual data items, you can either work directly in the code or select the more actions icon \(\[Omitted image "icon-actions-menu.png"\] Alt text: More actions icon.\) for an item and select an action, as follows.
 
-<table id="choicetable_hkz_r4h_tpb"><thead><tr><th align="left" id="d334465e101">
+<table id="choicetable_hkz_r4h_tpb"><thead><tr><th align="left" id="d408314e112">
 
 Selection
 
-</th><th align="left" id="d334465e104">
+</th><th align="left" id="d408314e115">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d334465e110">
+</th></tr></thead><tbody><tr><td id="d408314e121">
 
 **Create collection**
 
@@ -48,7 +48,7 @@ Action
 
 Add an individual component to the collection.
 
-</td></tr><tr><td id="d334465e119">
+</td></tr><tr><td id="d408314e130">
 
 **Create CDI**
 
@@ -63,7 +63,7 @@ Add an individual config data item \(CDI\) and value to the collection. See the 
 -   Overlay: A CDI that does not appear in any included component.
 
 
-</td></tr><tr><td id="d334465e152">
+</td></tr><tr><td id="d408314e163">
 
 **Inherit from collection**
 
@@ -79,7 +79,7 @@ Select **Remove inheritance** to remove the existing hereditary relationship fro
 -   There are more than the maximum number of collections in a chain. This number is 5 by default. Example: Collection1 is inherited by Collection2. Collection2 is inherited by Collection3. This chain of inheritance cannot continue to Collection6. You can change the valid chain length by editing the **sn\_cdm.max\_inheritance\_chain\_length** system property.
 
 
-</td></tr><tr><td id="d334465e184">
+</td></tr><tr><td id="d408314e195">
 
 **Include in deployables**
 
@@ -91,7 +91,7 @@ Include the selected collection in specified deployables.
 
  **Note:** Only deployables that do not currently include the collection appear in the list.
 
-</td></tr><tr><td id="d334465e218">
+</td></tr><tr><td id="d408314e229">
 
 **Rename**
 
@@ -99,7 +99,7 @@ Include the selected collection in specified deployables.
 
 Rename the selected collection.
 
-</td></tr><tr><td id="d334465e227">
+</td></tr><tr><td id="d408314e238">
 
 **Delete**
 
@@ -107,7 +107,7 @@ Rename the selected collection.
 
 Delete the selected collection.
 
-</td></tr><tr><td id="d334465e236">
+</td></tr><tr><td id="d408314e247">
 
 **Details**
 
@@ -115,7 +115,7 @@ Delete the selected collection.
 
 View the administrative information associated with the collection.
 
-</td></tr><tr><td id="d334465e245">
+</td></tr><tr><td id="d408314e256">
 
 **View relationships**
 

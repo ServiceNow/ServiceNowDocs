@@ -7,10 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2025-01-30"
+reading_time_minutes: 4
 keywords: [Recurring obligation task, Recurring schedule]
-breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Contract Management Pro reference, Contract Management Pro, Employee Service Management]
 ---
 
 # Obligation form
@@ -189,10 +189,6 @@ This field appears only when **Recurring** is selected from the **Schedule** fie
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
-[Amendment and renewal interaction messages]()
-
-[Signatory roles]()
-
 [Clause Variation form]()
 
 [Contract Configuration form]()
@@ -209,15 +205,5 @@ This field appears only when **Recurring** is selected from the **Schedule** fie
 
 [Obligation Management notifications]()
 
-[Contract Analysis Playbook form]()
-
-[Contract analysis playbook tool messages]()
-
-[Contract request ticket page actions]()
-
-[Default availability of out-of-the-box record producers]()
-
 [Contract Management Pro glossary]()
-
-[Contract Management solutions]()
 

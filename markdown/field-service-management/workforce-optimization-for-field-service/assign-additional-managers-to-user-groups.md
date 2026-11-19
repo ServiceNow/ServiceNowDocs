@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Users, Set up workforce, Configure, Field Service Management]
+breadcrumb: [Configuring users, Setting up your workforce, Configuring Field Service Management, Field Service Management]
 ---
 
 # Assign additional managers to user groups when Workforce Optimization for Field Service is installed

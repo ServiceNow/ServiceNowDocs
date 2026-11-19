@@ -1,30 +1,31 @@
 ---
 title: View AI asset details
-description: View the AI asset governance details to track the lifecycle's status, phase, and the install status.
+description: View the AI asset governance details to track the lifecycle status, phase, and the install status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/view-ai-asset-details.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+keywords: [generative AI]
+breadcrumb: [AI asset inventory, AI assets, Control Tower dashboard, Explore, Control Tower, Enable AI experiences]
 ---
 
 # View AI asset details
 
-View the AI asset governance details to track the lifecycle's status, phase, and the install status.
+View the AI asset governance details to track the lifecycle status, phase, and the install status.
 
 ## Before you begin
 
-Role required: AI steward
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **AI Control Tower**.
 
-2.  From the AI Control Tower, open the AI assets view.
+2.  From the Control Tower, open the AI assets view.
 
 3.  From the navigation menu of the AI assets view, under AI asset inventory, select an AI asset.
 
@@ -32,15 +33,15 @@ Role required: AI steward
 
 4.  On the page, review the AI asset details.
 
-<table id="choicetable_pq3_wwl_ngc"><thead><tr><th align="left" id="d221955e84">
+<table id="choicetable_pq3_wwl_ngc"><thead><tr><th align="left" id="d43051e90">
 
 Field
 
-</th><th align="left" id="d221955e87">
+</th><th align="left" id="d43051e93">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d221955e93">
+</th></tr></thead><tbody><tr><td id="d43051e99">
 
 **Version**
 
@@ -48,7 +49,7 @@ Description
 
 Version number of the asset
 
-</td></tr><tr><td id="d221955e102">
+</td></tr><tr><td id="d43051e108">
 
 **Asset type**
 
@@ -63,7 +64,7 @@ Type of assets:-   Generative AI
 -   AI datasets
 
 
-</td></tr><tr><td id="d221955e135">
+</td></tr><tr><td id="d43051e141">
 
 **Provider**
 
@@ -71,7 +72,7 @@ Type of assets:-   Generative AI
 
 who has built the asset
 
-</td></tr><tr><td id="d221955e144">
+</td></tr><tr><td id="d43051e150">
 
 **Vendor**
 
@@ -79,7 +80,7 @@ who has built the asset
 
 Who has sold the Asset
 
-</td></tr><tr><td id="d221955e154">
+</td></tr><tr><td id="d43051e160">
 
 **Department**
 
@@ -87,7 +88,7 @@ Who has sold the Asset
 
 Department where the asset is allocated
 
-</td></tr><tr><td id="d221955e163">
+</td></tr><tr><td id="d43051e169">
 
 **Managed by**
 
@@ -95,7 +96,7 @@ Department where the asset is allocated
 
 Managed by the user who owns the asset
 
-</td></tr><tr><td id="d221955e172">
+</td></tr><tr><td id="d43051e178">
 
 **License details**
 
@@ -103,7 +104,7 @@ Managed by the user who owns the asset
 
 License details of the asset
 
-</td></tr><tr><td id="d221955e181">
+</td></tr><tr><td id="d43051e187">
 
 **Supported locations**
 
@@ -111,7 +112,7 @@ License details of the asset
 
 Shows the locations supported for the AI asset.
 
-</td></tr><tr><td id="d221955e193">
+</td></tr><tr><td id="d43051e199">
 
 **Lifecycle phase**
 
@@ -126,7 +127,7 @@ Shows the asset's lifecycle phase.
 -   Offboarding
 
 
-</td></tr><tr><td id="d221955e222">
+</td></tr><tr><td id="d43051e228">
 
 **State**
 
@@ -139,7 +140,7 @@ The state of the asset.-   Deployed
 -   N/A
 
 
-</td></tr><tr><td id="d221955e249">
+</td></tr><tr><td id="d43051e255">
 
 **Lifecycle status**
 
@@ -156,7 +157,7 @@ The lifecycle status of the asset.-   In review
 -   Canceled
 
 
-</td></tr><tr><td id="d221955e288">
+</td></tr><tr><td id="d43051e294">
 
 **Risk classification**
 
@@ -164,7 +165,7 @@ The lifecycle status of the asset.-   In review
 
 Risk classification of the asset
 
-</td></tr><tr><td id="d221955e297">
+</td></tr><tr><td id="d43051e303">
 
 **Created**
 
@@ -172,7 +173,7 @@ Risk classification of the asset
 
 Creation date
 
-</td></tr><tr><td id="d221955e306">
+</td></tr><tr><td id="d43051e312">
 
 **Updated**
 

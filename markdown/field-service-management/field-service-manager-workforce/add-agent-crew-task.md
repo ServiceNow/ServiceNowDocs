@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using Crew operations, Managing workforce, Use, Field Service Management]
+breadcrumb: [Using Field Service Crew operations, Manage workforce, Using Field Service Management, Field Service Management]
 ---
 
 # Add a resource to a crew task
@@ -40,4 +40,6 @@ Role required: wm\_dispatcher, wm\_manager
 
     The resource is added to the crew.
 
+
+**Parent Topic:**[Using Field Service Crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/Using-crew-operations-fsm.md)
 
