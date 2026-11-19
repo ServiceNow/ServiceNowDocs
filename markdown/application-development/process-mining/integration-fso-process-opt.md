@@ -8,13 +8,57 @@ product: Process Mining
 classification: process-mining
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Activate content packs, Activate, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Content pack for Financial Services Operations
 
 Using the Process Mining content pack with Financial Services Operations \(FSO\) enables you to analyze processes relevant to your KPIs, and identify bottlenecks associated with FSO cases.
+
+## Optimization projects
+
+The content pack adds pre-built Process Mining project model definitions for these Financial Services Operations applications.
+
+-   Financial Services Business Deposit Operations
+-   Financial Services Business Loan Operations
+-   Financial Services Business Lifecycle
+-   Financial Services Card Operations
+-   Financial Services Client Lifecycle
+-   Financial Services Complaint Management
+-   Financial Services Payment Operations
+-   Financial Services Personal Loan Operations
+-   Financial Services Personal Deposit Operations
+-   Financial Services Treasury Operations
+-   Individual Life Servicing
+-   Group Life Servicing
+-   Commercial Lines Claims
+-   Personal Lines Claims
+-   Intelligent Servicing for Fraud
+
+You can also configure a new process project that is based on a pre-built project. For more information, see [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/define-workflow-model.md).
+
+## Roles
+
+Based on the Financial Services Operations application that you're using the Process Mining application for, you need the following roles.
+
+|Financial Services Operations application|Required role|
+|-----------------------------------------|-------------|
+|Financial Services Card Operations|Dispute management: sn\_bom\_credit\_card.dispute\_manager and sn\_process\_optimization\_analyst|
+|Financial Services Payment Operations|sn\_bom\_payment.payments\_manager and sn\_process\_optimization\_analyst|
+|Financial Services Business Loan Operations|sn\_bom\_loan\_b2b.manager and sn\_process\_optimization\_analyst|
+|Financial Services Personal Loan Operations|sn\_bom\_loan.b2c\_manager and sn\_process\_optimization\_analys|
+|Financial Services Business Lifecycle|sn\_bom\_clo\_b2b.manager and sn\_process\_optimization\_analyst|
+|Financial Services Client Lifecycle|sn\_bom\_clo\_b2c.manager and sn\_process\_optimization\_analyst|
+|Financial Services Complaint Management|sn\_bom\_compl.manager and sn\_process\_optimization\_analyst|
+|Financial Services Business Deposit Operations|sn\_bom\_deposit\_b2b.manager and sn\_process\_optimization\_analyst|
+|Financial Services Personal Deposit Operations|sn\_bom\_deposit\_b2c.manager and sn\_process\_optimization\_analyst|
+|Commercial Lines Claims|sn\_ins\_claim\_cml.manager and sn\_process\_optimization\_analyst|
+|Personal Lines Claims|sn\_ins\_claim\_pers.manager and sn\_process\_optimization\_analyst|
+|Financial Services Treasury Operations|sn\_bom\_treasury.admin and sn\_process\_optimization\_analyst|
+|Individual Life Servicing|sn\_ins\_indiv\_life.manager and sn\_process\_optimization\_analyst|
+|Group Life Servicing|sn\_ins\_group\_life.manager and sn\_process\_optimization\_analyst|
+|Intelligent Servicing for Fraud|sn\_bom\_fraud.manager and sn\_process\_optimization\_analyst|
 
 **Parent Topic:**[Activate content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/activate-po-content-pack.md)
 

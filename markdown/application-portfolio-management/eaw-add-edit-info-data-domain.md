@@ -26,9 +26,9 @@ A data domain is a collection of information objects. ServiceNow® Discovery fin
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Setup page by selecting the Setup icon \(\[Omitted image "setup-icon.png"\] Alt text: Setup icon\).
+2.  Open the Setup page by selecting the Setup icon \(\[Omitted image "setup-icon.png"\] Alt text:\).
 
-3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Information Data Domains**.
+3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text:\) next to **Information Data Domains**.
 
 4.  Select **All**.
 

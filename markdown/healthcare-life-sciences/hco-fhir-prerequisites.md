@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-prerequisites.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 1
 keywords: [prerequisites, dependencies, FHIR spoke]
 breadcrumb: [EMR Provider Directory Sync, Healthcare Integrations, Healthcare and Life Sciences]
@@ -39,7 +39,7 @@ The EMR Provider Directory Sync writes to tables owned by several Healthcare Ope
 
     See [Configure the HL7 FHIR connection and credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/fhir-spoke-activate.md).
 
-4.  Confirm that the administrator who will operate the sync has the `sn_hco.admin` role, which grants the `sn_hco_intg_fhir.admin` role through inheritance.
+4.  Confirm that the administrator who will operate the sync has the `sn_hco.admin` role, which grants the `sn_hcls_emr_sync.admin` role through inheritance.
 
 
 ## Result

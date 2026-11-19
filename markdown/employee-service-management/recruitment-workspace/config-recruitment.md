@@ -17,7 +17,7 @@ breadcrumb: [Recruitment Workspace, Hiring Experiences, HR Service Delivery, Emp
 Set up the Recruitment workspace to provide recruiters with an integrated workspace and a collaborative communication channel.
 
 -   **[Install Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/recruitment-workspace/install-recruitment-workspace.md)**  
-You can install the Recruitment workspace application \(sn\_ta\_recruiter\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+Users with the admin role can install the Recruitment workspace application \(sn\_ta\_recruiter\). The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 -   **[Activate the performance analytics jobs in Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/recruitment-workspace/activate-pa-jobs.md)**  
 Activate the performance analytics \(PA\) jobs to create an uninterrupted flow of job requisition updates by their states in the Recruitment workspace.
 -   **[Create assignment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/recruitment-workspace/create-assignment-groups-ta.md)**  

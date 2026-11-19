@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage store plans, Retail]
+breadcrumb: [Create and manage store plans, Retail]
 ---
 
 # Track In-store operations cases and tasks
@@ -15,11 +15,11 @@ breadcrumb: [Manage store plans, Retail]
 Monitor progress, completion rates, or delays across all stores for a single plan by tracking and monitoring in-store operations case and task progress.
 
 -   **[Track an In-store operations case created from a store plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-track-in-store-case.md)**  
-Monitor the progress of an In-store operations case from the CSM/FSM Configurable Workspace.
+Monitor the progress of an In-store operations case from the CRM Workspace.
 -   **[Track an In-store operations task created from a store plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-track-in-store-task.md)**  
-Monitor the progress of an In-store operations task from the CSM/FSM Configurable Workspace.
+Monitor the progress of an In-store operations task from the CRM Workspace.
 -   **[Track an In-store operations task on Retail mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-track-in-store-tasks-mobile.md)**  
 Monitor the progress of an In-store operations task on Retail mobile app.
 
-**Parent Topic:**[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plans.md)
+**Parent Topic:**[Create and manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plans.md)
 

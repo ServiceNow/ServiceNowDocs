@@ -172,7 +172,7 @@ Space type
 
 </td><td>
 
-Type of the office space. To configure a new space type, see [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
+Type of the office space. To configure a new space type, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
 
 </td></tr><tr id="managed-by-group"><td>
 
@@ -262,6 +262,8 @@ You can add an allocation if there is none. For more information on how to add a
 [Add an area using Workplace Space Management]()
 
 [Add a space using Workplace Space Management]()
+
+[Configure a space type as usable with Workplace Space Management]()
 
 [Allocate a cost center, department, or workplace entity]()
 

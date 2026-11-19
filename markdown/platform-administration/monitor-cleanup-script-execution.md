@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [cleanup script, clone, execution, monitoring]
-breadcrumb: [Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Instance Clone, Configure core features, ServiceNow AI Platform]
 ---
 
 # Monitor cleanup script execution

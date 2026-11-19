@@ -36,15 +36,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 4.  Manage the neighborhoods based on your requirement.
 
-<table id="choicetable_zfx_yfn_g3c"><thead><tr><th align="left" id="d728783e101">
+<table id="choicetable_zfx_yfn_g3c"><thead><tr><th align="left" id="d729474e103">
 
 Action
 
-</th><th align="left" id="d728783e104">
+</th><th align="left" id="d729474e106">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d728783e110">
+</th></tr></thead><tbody><tr><td id="d729474e112">
 
 **Filter neighborhoods**
 
@@ -52,7 +52,7 @@ Steps
 
 You can filter, sort, and group the neighborhoods in the list using filters. For more information about filters, see [Filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_UsingFiltersAndBreadcrumbs.md).
 
-</td></tr><tr><td id="d728783e123">
+</td></tr><tr><td id="d729474e125">
 
 **Create a neighborhood**
 
@@ -66,7 +66,7 @@ For a description of the field values, see the Neighborhood Form table in [Creat
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d728783e159">
+</td></tr><tr><td id="d729474e161">
 
 **Edit neighborhood details**
 

@@ -28,7 +28,6 @@ This accelerator provides an overview and demonstration of Demand Management wit
 ## Prerequisites
 
 -   Foundational data established
--   Portfolio Planning, Strategic Planning, or Collaborative Work Management already deployed
 
 ## What You Get
 

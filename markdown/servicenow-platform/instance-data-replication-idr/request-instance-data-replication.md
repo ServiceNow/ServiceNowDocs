@@ -93,5 +93,5 @@ Plan your replication strategy. See [Preparing for Instance Data Replication](ht
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 

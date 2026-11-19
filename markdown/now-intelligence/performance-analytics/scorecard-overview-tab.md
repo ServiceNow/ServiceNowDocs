@@ -8,7 +8,7 @@ product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 13
+reading_time_minutes: 14
 breadcrumb: [Analytics Hub for a specific indicator, \(Legacy\) Analytics Hub, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 

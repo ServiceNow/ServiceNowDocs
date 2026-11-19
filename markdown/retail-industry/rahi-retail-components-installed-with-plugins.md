@@ -44,7 +44,7 @@ Certain roles and dependencies must be considered when using the PWM Playbook Ac
 -   **[Components installed with Store Plans - Fulfilment in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-fulfilment-in-portal.md)**  
 Certain roles, plugin dependencies, and fields must be considered when fulfilling Store Cases and Store Tasks from the Retail Portal.
 -   **[Components installed with Smart Assessments for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-smart-assessments.md)**  
-Smart Assessment support in Customer Service Management \(CSM\) and Field Service Management \(FSM\) workspaces provides a unified experience for creating, configuring, and viewing assessment templates and instances.
+Smart Assessment support in CRM Workspace provides a unified experience for creating, configuring, and viewing assessment templates and instances.
 -   **[Components installed with Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-reference.md)**  
 Reference information for roles, tables, fields, and workspace configuration artifacts for Retail Store Audit Operations.
 -   **[Components for Break-Fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-reference.md)**  

@@ -33,15 +33,15 @@ Before a bulk deployment starts, the agent must be uninstalled from your candida
 
 1.  Uninstall the agent using the method for your operating system.
 
-<table id="choicetable-uninstall-acc"><thead><tr><th align="left" id="d381884e126">
+<table id="choicetable-uninstall-acc"><thead><tr><th align="left" id="d384759e128">
 
 Option
 
-</th><th align="left" id="d381884e129">
+</th><th align="left" id="d384759e131">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d381884e135">
+</th></tr></thead><tbody><tr><td id="d384759e137">
 
 **macOS**
 
@@ -55,7 +55,7 @@ Procedure
 bash -c "$(curl -L https://<instance_url>/api/sn_agent/agents/install_agent)" -s "--remove"
     ```
 
-</td></tr><tr><td id="d381884e162">
+</td></tr><tr><td id="d384759e164">
 
 **Windows**
 

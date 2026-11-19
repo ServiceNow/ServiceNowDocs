@@ -18,7 +18,7 @@ File-based Discovery helps you identify what software is running on your Windows
 
 ## Required plugins
 
-The File-based Discovery \[com.snc.discovery.file\_based\_discovery\] plugin is required for file signature filtering. Your Discovery subscription includes this plugin, but you must [request activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_RequestAPlugin.md). Once the File-based Discovery plugin is active, the Software Asset Management - File Signature Normalization \[com.snc.file\_signature\_normalization\] plugin is also activated. For more information on the File Signature Normalization plugin, see [File Signature Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/sam-file-based-discovery.md).
+The File-based Discovery \[com.snc.discovery.file\_based\_discovery\] plugin is required for file signature filtering. Your Discovery subscription includes this plugin, but you must [request activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_RequestAPlugin.md). Once the File-based Discovery plugin is active, the Software Asset Management - File Signature Normalization \[com.snc.file\_signature\_normalization\] plugin is also activated. For more information on the File Signature Normalization plugin, see File Signature Normalization.
 
 ## How File-based Discovery works
 
@@ -45,7 +45,7 @@ You can disable File-based Discovery at any time by changing the setting in the 
 
 ## Software version information on Linux and UNIX devices
 
-The Unix - File Discovery probe returns file name and file size only for Linux and UNIX devices. It is not designed to collect file version metadata. As a result, the **Version** field in the File Information \[cmdb\_file\_information\] table is empty for files discovered on Linux and UNIX devices. This is expected behavior, not a configuration issue. Linux software versions are collected through the rpm- and dpkg-based discovery probes instead, such as the Linux - Install Software probe.
+The Unix - File Discovery probe returns file name and file size only for Linux and UNIX devices. It is not designed to collect file version metadata. As a result, the **Version** field in the File Information \[cmdb\_file\_information\] table is empty for files discovered on Linux and UNIX devices. This is expected behavior, not a configuration issue. Linux software versions in the Software Installation \[cmdb\_sam\_sw\_install\] table are populated by the rpm- and dpkg-based discovery probes instead, such as the Linux - Install Software probe.
 
 To obtain version information for software on Linux and UNIX devices, enable SWID tag scanning for products that provide valid SWID tags. SWID tags include version data and populate the Swid Tags \[cmdb\_swid\_tag\] table. Enable SWID tag scanning selectively for products known to provide valid SWID tags rather than enabling it across all servers, to avoid unnecessary scanning overhead. For more information, see [Discovery Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryConfigurationConsole.md).
 

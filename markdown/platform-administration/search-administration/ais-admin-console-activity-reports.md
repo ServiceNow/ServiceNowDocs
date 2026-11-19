@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Track your AI Search activity, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Track your AI Search activity, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # AI Search activity reports

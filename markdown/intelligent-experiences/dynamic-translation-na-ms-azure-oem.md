@@ -81,5 +81,5 @@ Alternatively, you can deactivate Dynamic Translation in this context using anot
 
 [Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/generative-ai-controller/generative-ai-controller.md)
 
-[Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/translation-for-now-assist.md)
+[Multilingual service for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/translation-for-now-assist.md)
 

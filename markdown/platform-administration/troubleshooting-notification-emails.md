@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [support-video]
-breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Notification email logs and diagnostics

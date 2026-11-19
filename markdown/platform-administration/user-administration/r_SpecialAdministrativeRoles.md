@@ -9,7 +9,7 @@ classification: user-administration
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Base system roles, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Base system roles, Managing roles, User administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Special administrative roles

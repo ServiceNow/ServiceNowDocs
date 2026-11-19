@@ -16,7 +16,7 @@ breadcrumb: [Service Level Management reference, Service Level Management, IT Se
 
 SLA condition rules control how the different conditions you define in an SLA definition are combined to determine whether an SLA should attach, pause, complete, reattach, or cancel.
 
-The way that the conditions in an SLA definition are interpreted, to control transitions in state, can be varied using SLA Condition Rules. SLA Condition Rules are defined globally, and can be overridden for specific SLA definitions.
+The way that the conditions in an SLA definition are interpreted, to control transitions in state, can be varied using SLA condition rules. SLA condition rules are defined globally, and can be overridden for specific SLA definitions.
 
 **SLAConditionBase** is the default set of SLA condition rules.
 

@@ -94,7 +94,7 @@ Survey instance
 
 </td><td colspan="2">
 
-Link to the completed employee form. **Note:** This field appears only if the Collect Employee Input task is selected in **Type** field, and the value of the **State** field is complete.
+Link to the completed employee form. **Note:** This field appears only if the Collect Employee Input task is selected in the **Type** field, and the value of the **State** field is complete.
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Assignment group
 
 </td><td colspan="2">
 
-Group assigned to the Universal Task. This field is available for the **Mark When Complete** and **Checklist** task types. Other tasks types require a mandatory update of the **Assigned to** field with the **Assignment group**.**Note:** Email notifications are sent only for the two task types.
+Group assigned to the Universal Task. This field is available for the **Mark When Complete** and **Checklist** task types. Other task types require a mandatory update of the **Assigned to** field with the **Assignment group**.**Note:** Email notifications are sent only for the two task types.
 
 </td></tr><tr><td>
 

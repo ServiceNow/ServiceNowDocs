@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-ai-code-fix-for-platform-health.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure real-time code resolution with AI
@@ -34,7 +34,7 @@ The following are minimum prerequisites:
 ## Procedure
 
 1.  Set system to enforce real-time validation.
-2.  Navigate to **All** &gt; **** &gt; **Impact** &gt; **** &gt; **Configuration** &gt; **Scan Engine Properties**.
+2.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
 
 3.  On the **Real Time Scanning** related list, select **Enforce real-time validation**.
 
@@ -55,14 +55,14 @@ The following are minimum prerequisites:
 
     **Note:** Enables the **Generate fixes with AI** button to display on script records.
 
-9.  Navigate to **ALL** &gt; **System Properties** &gt; **sn\_impact\_gen\_ai.ai\_fix.enabled** &gt; **.**
+9.  Navigate to **ALL** &gt; **System Properties** &gt; **sn\_impact\_gen\_ai.ai\_fix.enabled**.
 
 10. Set the value to `true`.
 
     This value is disabled by default.
 
 11. Assign users to have access to the Fix code in real-time panel. See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-roles.md) for details.
-12. Navigate to **All****sys\_user\_role.list**.
+12. Navigate to **All** &gt; **sys\_user\_role.list**.
 
 13. Assign the role to relevant users or groups.
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Instance Clone, Configure core features, ServiceNow AI Platform]
 ---
 
 # Request a clone

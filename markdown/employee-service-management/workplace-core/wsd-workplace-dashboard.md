@@ -68,7 +68,7 @@ The data displayed in visualizations corresponds to the selected campus.
 |Cleaning tasks for this campus|
 |Unassigned cleaning tasks|Single score \[Omitted image "single-score.png"\] Alt text: Single-score icon|Number of active workplace tasks that are not assigned to anyone and not in the Closed state.|
 |Planned tasks|Single score \[Omitted image "single-score.png"\] Alt text: Single-score icon|Number of active planned workplace tasks that are not yet closed.|
-|Cleaning tasks by day|Trend \[Omitted image "column-time-icon.png"\] Alt text: Trend over time icon|Trend of the number of active cleaning tasks per day for which the due date is between today and the next seven days, or for which no due date is defined. The tasks in this report are grouped by the workplace task type.|
+|Cleaning tasks by day|Trend \[Omitted image "column-time-icon.png"\] Alt text: Trend over time icon|Trend of active cleaning tasks per day, grouped by workplace task type. Includes tasks due within seven days or tasks with no due date.|
 |Workplace requests for this campus|
 |Pending workplace requests|Single score \[Omitted image "single-score.png"\] Alt text: Single-score icon|Number of workplace requests that are pending.|
 |Workplace requests created today|Single score \[Omitted image "single-score.png"\] Alt text: Single-score icon|Total number of workplace reservation requests created by the employees today.|

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-agentexperienceforcsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 16
 breadcrumb: [Products combined by family]
 ---
@@ -284,12 +284,12 @@ Australia
 
 </td><td>
 
--   **[\[Placeholder link text to key csm-front-line-case-page\]](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=australia&ft:locale=en-US)Knowledge article link insertion from Recommended Actions**
+-   **[csm front line case page](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=australia&ft:locale=en-US)Knowledge article link insertion from Recommended Actions**
 
 Selecting any of the three attach knowledge article options for work notes, comments, or email from the Recommended Actions panel now automatically switches to the relevant target tab, so the inserted link is immediately visible without manual navigation. Inserted links also now display the article title alongside the article number as a hyperlink, replacing the previous article-number-only display. This enhancement applies to the Front-line case page and CSM default record page.
 
 
- -   **[\[Placeholder link text to key csm-email-interaction-record-page\]](https://www.servicenow.com/docs/access?context=csm-email-interaction-record-page&family=australia&ft:locale=en-US)Knowledge article link insertion from Recommended Actions on the Email Interaction record page**
+ -   **[csm email interaction record page](https://www.servicenow.com/docs/access?context=csm-email-interaction-record-page&family=australia&ft:locale=en-US)Knowledge article link insertion from Recommended Actions on the Email Interaction record page**
 
 Inserted knowledge article links from the Recommended Actions panel now display the article title alongside the article number as a hyperlink in the email body, replacing the previous article-number-only display. This enhancement applies to the Email Interaction record page.
 
@@ -456,7 +456,7 @@ Zurich
 
 CRM Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=zurich&ft:locale=en-US).
 
-Install CRM Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install CRM Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr><tr><td>
@@ -469,7 +469,7 @@ Australia
 
 CRM Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=australia&ft:locale=en-US).
 
-Install CRM Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install CRM Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** CRM Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

@@ -45,7 +45,7 @@ See [ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 **Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/now-platform-security-rn-landing.md)
 
-## Brazil Patch 1
+## Brazil Patch 2
 
 For the November 2026 release of ServiceNow Vault, Vault Suite version 1.1.1 no longer includes Code Signing.
 

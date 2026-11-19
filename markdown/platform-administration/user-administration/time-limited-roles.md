@@ -9,7 +9,7 @@ classification: user-administration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Time-limited role, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Time-limited role, Managing roles, User administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Grant a time-limited user role

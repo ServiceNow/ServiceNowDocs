@@ -32,9 +32,17 @@ The Generate my work plan agentic workflow creates personalized work plans based
 
 Along with the plan itself, the agentic workflow also provides reasoning behind its decisions for creating the plan.
 
-The agents, tools, and triggers associated with the Generate my work plan agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md) by adding triggers and setting the display settings to include the ServiceNow Otto panel. To change this agentic workflow's instructions, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version instead.
+By default, you can enable the agentic workflow so it is accessible in the ServiceNow Otto panel. Optionally, you can add triggers or UI actions to allow users to invoke the agentic workflow in other ways. See [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/channels-access-aw-new.md) and [Add a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aw-new.md) for more information.
+
+The agents and tools that are associated with the agentic workflow are provided by AI applications. If you want to change this agentic workflow, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-ai-asset-new.md), make adjustments, and activate the duplicated version instead.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
+## Sample utterance
+
+After the workflow is activated in AI Agent Studio, enter `What should I work on today?` or similar phrases in the ServiceNow Otto panel to trigger the workflow. You must have the sn.now\_assist\_panel\_user role to run the workflow. Also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
+
+Users must have the sn\_uxc\_gen\_ai.platform\_ai\_work\_planner role to execute the agentic workflow.
 
 ## Prerequisites and setup
 
@@ -122,12 +130,6 @@ If you don't see your UI actions after configuring it in AI Agent Studio, verify
 Manually test an agentic workflow execution or access on the Testing page of AI Agent Studio if you have the sn.aia\_admin role and all other roles configured [in the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md). Start a manual test, select a test type and the name of the workflow, and use utterances in the Task field like the following samples. See [Test an agentic workflow execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-use-case.md).
 
 To evaluate the agentic workflow over many different execution logs, run an [automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/execute-aia-eval.md).
-
-## Sample utterance
-
-After the workflow is activated in AI Agent Studio, enter `What should I work on today?` or similar phrases in the ServiceNow Otto panel to trigger the workflow. You must have the sn.now\_assist\_panel\_user role to run the workflow. Also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
-
-Users must have the sn\_uxc\_gen\_ai.platform\_ai\_work\_planner role to execute the agentic workflow.
 
 ## AI agents used in the Generate my work plan agentic workflow
 

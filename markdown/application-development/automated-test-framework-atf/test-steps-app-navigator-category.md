@@ -178,8 +178,6 @@ When creating an application menu, consider grouping like modules into a consoli
 
 Modules are the children, or the second tier navigation options to the applications in the application navigator. Modules often link to other pages or records in the platform. You can configure which modules appear in the application navigator using Application Menus module.
 
-Watch this five-minute video to learn about adding application menus and modules to the application navigator.
-
 ### Before you begin
 
 Role required: admin

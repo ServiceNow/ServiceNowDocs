@@ -30,4 +30,6 @@ The questionnaire displayed when a user requests an exception on a vulnerability
 For scanners configured using unified exposure pipeline, provides information about the impacted target tables in Unified Security Exposure Management \(USEM\).
 -   **[Security asset fields for asset types in unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/uep-asset-types-labels.md)**  
 Provides information about security asset fields added for various asset types in the unified exposure pipeline.
+-   **[Scanner integration exposures in unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/uep-scanners-asset-types.md)**  
+For scanners configured using the unified exposure pipeline, provides information about the exposures that each integrated scanner updates in Unified Security Exposure Management \(USEM\).
 

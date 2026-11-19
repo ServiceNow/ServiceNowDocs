@@ -20,6 +20,8 @@ The Assists dashboard page aggregates metrics related to conversational assists,
 
 \[Omitted image "NAinVA-assistant-designer-analytics-assists.png"\] Alt text: Assists dashboard page in Assistant analytics.
 
+Assist and action counts include those charged to conversational assistants and to agentic executions, at both the execution plan and execution task levels. Charts can list AI agents and agentic workflows alongside assistants.
+
 The visualizations on the Assists page help you with the following.
 
 -   Track overall consumption of assists and the usage breakdown by assistants.

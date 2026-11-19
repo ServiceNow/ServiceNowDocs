@@ -7,7 +7,7 @@ release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-10-22"
+last_updated: "2026-11-10"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, property, properties]
 breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -326,4 +326,5 @@ true \| false
 Indicates whether a CSRF token is sent for OData calls in Zero Copy Connector for ERP operations.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-integration-reference.md)
+

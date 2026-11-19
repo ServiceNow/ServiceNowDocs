@@ -9,7 +9,7 @@ classification: now-mobile-employee-experience
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configuring Now Mobile, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configuring Now Mobile, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Add a quick action in your mobile applications

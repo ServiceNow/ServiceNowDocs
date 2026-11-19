@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Operational Sustainability Management]
 ---
 
 # Operational Sustainability Management \(formerly ESG\) reference
@@ -25,5 +25,5 @@ Fields added to the Material Topic \(sn\_esg\_material\_topic\) table for Social
 -   **[Socialsuite import log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/socialsuite-import-log.md)**  
 The Socialsuite import log table \(sn\_osm\_ma\_import\_log\) tracks material topic data imported from Socialsuite into your ServiceNow instance. When you sync material topics, the assessment data is first imported into this table before the system creates corresponding material topic records. The import log is read-only and automatically maintained by the system.
 
-**Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)
+**Parent Topic:**[Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)
 

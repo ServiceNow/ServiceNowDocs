@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-aiadminhub-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 30
 breadcrumb: [Products combined by family]
 ---
@@ -316,7 +316,7 @@ Initiate and view agentic workflows from within Google Chat.
 
 Access the Gen AI Metrics \[sys\_generative\_ai\_metric\] table to review the logged invocations of sensitive topics and gain insights into how these topics are being triggered and monitored.
 
--   **[\[Placeholder link text to key bundle-platai.long-term-stable-models\]](https://www.servicenow.com/docs/access?context=long-term-stable-models&family=zurich&ft:locale=en-US)**
+-   **[long term stable models](https://www.servicenow.com/docs/access?context=long-term-stable-models&family=zurich&ft:locale=en-US)**
 
 Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
 
@@ -361,7 +361,7 @@ As an admin, clone the KB generation skill and update prompts for AI model provi
 
 Choose and update your preferred LLM provider at the instance, skill, or skill group level for Now Assist base system skills.
 
-Deactivate skills that aren't compatible with any of the LLM providers and access the audit history to view updates by the AI steward in AI Control Tower.
+Deactivate skills that aren't compatible with any of the LLM providers and access the audit history to view updates by the AI steward in Control Tower.
 
 -   **[Configure multilingual service for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&family=zurich&ft:locale=en-US)**
 
@@ -765,7 +765,7 @@ Australia
 -   **Activation information**
     -   **[Skills](https://www.servicenow.com/docs/access?context=now-assist-skills&family=australia&ft:locale=en-US)**
 
-AI features are available with activation of any ServiceNow Otto® plugin from [https://www.servicenow.com/docs/access?context=external.sn-app-store&amp;family=australia&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=australia&ft:locale=en-US). For AI Admin Hub in the ServiceNow® Store, see [https://store.servicenow.com/store/app/c3b967621b246a50a85b16db234bcb97](https://store.servicenow.com/store/app/c3b967621b246a50a85b16db234bcb97).
+AI features are available with activation of any ServiceNow Otto® plugin from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For AI Admin Hub in the ServiceNow® Store, see [https://store.servicenow.com/store/app/c3b967621b246a50a85b16db234bcb97](https://store.servicenow.com/store/app/c3b967621b246a50a85b16db234bcb97).
 
 
 **Important:** AI Admin Hub is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -778,7 +778,7 @@ Brazil
 
 -   **Activation information**
 
-AI Admin Hub is available from the ServiceNow® Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+AI Admin Hub is available from the ServiceNow® Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr></tbody>

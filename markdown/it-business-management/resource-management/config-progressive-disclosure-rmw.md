@@ -23,13 +23,13 @@ Role required: admin
 
 ## About this task
 
-The resource board in Resource Management Workspace uses progressive disclosure by default to load users incrementally and reduce performance impact. Setting the **com.snc.resource\_management.progressive\_disclosure** property to **false** disables this behavior and loads all 200 users immediately, which may affect performance on instances with large user datasets.
+The resource board in Resource Management Workspace uses progressive disclosure by default to load users incrementally and reduce performance impact. Setting the **sn\_rm\_ws\_use\_progressive\_disclosure** property to **false** disables this behavior and loads all 200 users immediately, which may affect performance on instances with large user datasets.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Properties** &gt; **All**.
 
-2.  Filter the Name field to locate and open **com.snc.resource\_management.progressive\_disclosure**.
+2.  Filter the Name field to locate and open **sn\_rm\_ws\_use\_progressive\_disclosure**.
 
 3.  In the Value field, enter **false**.
 

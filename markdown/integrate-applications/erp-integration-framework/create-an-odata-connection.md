@@ -169,3 +169,5 @@ Test the connection using one of the following methods.
     8.  When complete, select the link **Your test has finished running. View the Action execution details**.
     9.  View and check the output, for example, in **Output Data**, select the **Response** to view the output.
 
+**Parent Topic:**[Connecting Zero Copy Connector for ERP to ERP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
+

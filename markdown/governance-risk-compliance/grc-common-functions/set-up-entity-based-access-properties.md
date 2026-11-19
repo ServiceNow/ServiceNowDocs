@@ -20,6 +20,8 @@ Enable or disable the Entity Based Access properties to control access to the ob
 
 Role required: sn\_grc\_ent\_access.admin
 
+**Note:**
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Entity Based Access Configurations** &gt; **Properties**.
@@ -28,25 +30,13 @@ Role required: sn\_grc\_ent\_access.admin
 
     |Property|Options|Description|
     |--------|-------|-----------|
-    |Entity-based access on record types related to entity \[sn\_grc\_ent\_access.enable\_entity\_based\_accesss\]|Enable|Option for Entity Based Access. By default, entity-based access is turned off. Entity-based access administrators are responsible for activating these properties for users.|
+    |Entity-based access on record types related to entity \[sn\_grc\_ent\_access.enable\_entity\_based\_access\]|Enable|Option for Entity Based Access. By default, entity-based access is turned off. Entity-based access administrators are responsible for activating these properties for users.|
     |Enable data filters on record types consuming entity-based access \[sn\_grc\_ent\_access.enable\_datafilters\_for\_eba\]|Yes or No|Option for enabling data filters on record types. By default, entity-based access is Yes. Enabling this property filters the records based on the entity-based access configuration.|
 
 2.  Select **Save**.
 
     Based on your selected settings, the entity-based access properties are configured in your system.
 
-3.  Navigate to the record that you want to set up entity-based access for.
-
-4.  On the **Access settings** tab, select **Entity based access restriction**.
-
-    The **Entity based access restriction** field is available only on the Issue form. For all other records, you must configure a bulk access update to enable an entity-based access restriction.
-
-    \[Omitted image "eba-issue-form.png"\] Alt text: Access settings for entity-based access restriction on the Issue form.
-
-
-## Result
-
-You have completed configuring entity-based access properties in your system.
 
 **Parent Topic:**[Configuring Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/setting-up-entity-based-access.md)
 

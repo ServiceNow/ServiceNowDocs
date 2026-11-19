@@ -43,7 +43,7 @@ The Reports application creates a basic report, which is scoped to the query res
 **Related topics**  
 
 
-[bundle-par.reporting-landing-page]
+[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting-landing-page.md)
 
 [Build a CMDB query using the CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/use-cmdb-query-builder.md)
 

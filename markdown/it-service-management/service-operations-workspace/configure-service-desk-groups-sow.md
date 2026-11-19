@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The landing page's access is based on the audience associated with that page. Configure the audiences with the required service desk groups and the users that are part of these service desk groups can then access the landing page. If you want users from multiple service desk groups to access the landing page, you should configure the landing page's audience with all those service desk groups.
+The landing page's access is based on the audience associated with that page. Configure the audiences with the required service desk groups and the users that are part of these service desk groups can then access the landing page. To enable users from multiple service desk groups to access the landing page, configure the audience of the landing page with all those service desk groups.
 
 It is applicable only for an instance that has Service Operations Workspace 1.1 installed and has upgraded to Brazil.
 
@@ -42,7 +42,7 @@ It is applicable only for an instance that has Service Operations Workspace 1.1 
 
     2.  Select an audience and perform the following steps, for example, **SOW Service Desk Audience**.
 
-        **Note:** If the **User Criteria Inclusions** related list is read-only after setting the **glide.ux.user\_criteria\_enabled** property to `true`, open the audience record directly in the classic ServiceNow AI Platform user interface by navigating to the record URL with the sys\_id of the audience. Editing user criteria records require write access to the **sys\_user\_criteria** table, which may require the admin role.
+        **Note:** If the **User Criteria Inclusions** related list is read-only after setting the **glide.ux.user\_criteria\_enabled** property to `true`, open the audience record directly in the classic ServiceNow AI Platform user interface by navigating to the record URL with the sys\_id of the audience. Editing user criteria records requires write access to the sys\_user\_criteria table, which may require the admin role.
 
         1.  From the **User Criteria Inclusions** related list, open the audience, for example, **Service Desk Group Inclusion**.
         2.  For the **Groups** field, add the required service desk group that the user is part of.

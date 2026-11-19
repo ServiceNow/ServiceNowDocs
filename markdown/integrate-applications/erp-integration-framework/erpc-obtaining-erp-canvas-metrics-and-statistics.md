@@ -45,3 +45,5 @@ The **Historical overview** tab contains all information.
 |Synchronous transactions by entity type|Bar|Synchronous transactions organized by entity type \(for example, read\).|
 |Users grouped by role \(available on the **Recent overview** tab for users with the sn\_erp\_mining.erp\_admin role\)|Donut|Users who have initiated a job, organized by role.|
 
+**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
+

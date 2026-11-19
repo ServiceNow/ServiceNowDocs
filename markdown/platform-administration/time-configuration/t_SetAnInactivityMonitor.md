@@ -9,7 +9,7 @@ classification: time-configuration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Event scheduling, System scheduler, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Event scheduling, System scheduler, Explore, Time configuration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Set an inactivity monitor

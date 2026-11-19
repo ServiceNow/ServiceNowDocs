@@ -51,7 +51,7 @@ Default high-assurance session length upon login
 
 </td><td>
 
-Duration in minutes for the default high-assurance session length upon user login. Default value: 5 minutes.**Note:** This property is only applicable for non-SSO logins.
+Duration in minutes for the default high-assurance session length upon user login. Default value: 5 minutes.**Note:** This property applies to non-SSO logins and to SSO \(SAML or OIDC\) logins.
 
 </td></tr><tr><td>
 

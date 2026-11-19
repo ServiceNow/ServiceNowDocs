@@ -87,6 +87,14 @@ Learn how to turn off the banner on mobile app screens where Zero Trust Access \
 Configure the PINIdleTimeout property to define the PIN timeout for different ServiceNow mobile apps. You can use this property to enhance security by controlling how long users are allowed to remain inactive before being required to reenter their PIN.
 -   **[Asynchronous attachment uploads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/asynchronous-attachment-uploads.md)**  
 Set the `AsyncAttachmentsUploadEnabled` mobile property to true to turn on background file uploads in the ServiceNow mobile app.
+-   **[Image max dimension preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/image-max-dimension-preset.md)**  
+Set the ImageMaxDimensionPreset mobile property to improve image uploads and make uploads faster.
+-   **[Enable or disable voice to form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/enable-disable-voice-form.md)**  
+Configure whether voice to form is turned on or off for your mobile instance.
+-   **[Otto onboarding modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/otto-onboarding-modal.md)**  
+Configure the `ottoOnboardingModalEnabled` mobile property to turn the Otto onboarding modal on or off in the ServiceNow mobile app.
+-   **[Enable mobile header color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/enable-mobile-header-color.md)**  
+Configure the **EnableMobileHeaderColor** property so that the header of native mobile screens displays a background color in the ServiceNow mobile apps.
 
 **Parent Topic:**[Considerations before implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/imp-considerations.md)
 

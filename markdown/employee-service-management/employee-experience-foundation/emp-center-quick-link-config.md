@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [servicenow quick links, quick link]
-breadcrumb: [Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Quick links

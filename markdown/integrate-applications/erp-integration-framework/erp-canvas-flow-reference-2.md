@@ -96,3 +96,5 @@ You can use these outputs as inputs for other items.
     Requested data that's returned from the ERP system. For more information, see [Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md).
 
 
+**Parent Topic:**[Zero Copy Connector for ERP troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-troubleshooting.md)
+

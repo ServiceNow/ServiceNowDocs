@@ -51,7 +51,7 @@ View application health scores in the Application Health dashboard by navigating
 **Related topics**  
 
 
-[Configure application scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-application-scanning-properties.md)
+[configure-application-scanning-properties]
 
 [Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/create-scan-engine-definition-suites.md)
 

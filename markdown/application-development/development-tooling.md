@@ -1,6 +1,6 @@
 ---
 title: Development tooling
-description: Three tools can build a Lux experience: Lux Lab, ServiceNow Lux Lab for VS Code, and the ServiceNow SDK. Lux and ServiceNow Lux Lab for VS Code build on the ServiceNow SDK foundation.
+description: Three tools can build a Lux experience: Lux Lab, ServiceNow Lux Lab for VS Code, and the ServiceNow SDK. Lux Lab and ServiceNow Lux Lab for VS Code build on the ServiceNow SDK foundation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/development-tooling.html
 release: brazil
@@ -13,7 +13,7 @@ breadcrumb: [Exploring Lux, Lux Development, Building pro-code applications, Dev
 
 # Development tooling
 
-Three tools can build a Lux experience: Lux Lab, ServiceNow Lux Lab for VS Code, and the ServiceNow SDK. Lux and ServiceNow Lux Lab for VS Code build on the ServiceNow SDK foundation.
+Three tools can build a Lux experience: Lux Lab, ServiceNow Lux Lab for VS Code, and the ServiceNow SDK. Lux Lab and ServiceNow Lux Lab for VS Code build on the ServiceNow SDK foundation.
 
 ## Tool comparison
 

@@ -207,7 +207,7 @@ Check box to capture agenda decisions automatically on the meeting widget. The a
 You can now add agenda items and attendees to the CAB meeting.
 
 -   **[View CAB meeting details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/view-cab-meeting-details.md)**  
-You can view the details of any past, scheduled, or in-progress CAB meeting.
+View the details of any past, scheduled, or in-progress CAB meeting.
 -   **[Modify CAB meeting details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/refresh-cab-meeting-agenda-items.md)**  
 Modify the agenda items for a specific Change Advisory Board \(CAB\) meeting.
 -   **[Send CAB meeting request to attendees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/send-cab-meeting-request-attendees.md)**  

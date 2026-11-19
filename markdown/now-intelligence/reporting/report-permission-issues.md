@@ -40,7 +40,7 @@ This issue is caused by the fact that Before Query business rules are performed 
 
 ## Reports no longer public
 
-On upgrade to Brazil, all public Core UI reports are unpublished to enhance security awareness and control. The glide.report.published\_reports.enabled property on all Core UI reports is set to false. Users with the report\_admin role can navigate to the sys\_report\_public table to view unpublished reports or enable sharing with logged in users inside the platform. Only customer support can enable the public capacity.
+On upgrade from Zurich, all public Core UI reports are unpublished to enhance security awareness and control. The **glide.report.published\_reports.enabled** property is set to false. Users with the report\_admin role can navigate to the Reports Public \[sys\_report\_public\] table to view unpublished reports. Such users can also enable the public capacity or enable sharing with logged in users inside the platform.
 
 **Note:** To make a Core UI report available only to users who are logged in, set its **Sharing** setting to **Everyone**, but do not publish it.
 

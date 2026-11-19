@@ -8,7 +8,7 @@ product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Run SGC imports, Use, Telecommunications Service Operations Management]
 ---
 

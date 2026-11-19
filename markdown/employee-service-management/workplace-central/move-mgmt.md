@@ -61,7 +61,7 @@ For more information about the Move management workspace, refer to [Move managem
 
 [Space Optimization]()
 
-[Scenario Planning]()
+[Scenario planning]()
 
 [Schedule Planning]()
 

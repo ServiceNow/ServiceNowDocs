@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -82,11 +82,8 @@ Choice
 
 </td><td>
 
-Under **Schedule** &gt; **Start Rule**, select a start rule for when your stage should start running:-   **When process starts**: Your stage starts running as soon as the playbook starts.
--   **After specific stages**: Your stage starts running after specified stage\(s\) have finished running.
-
-Under Schedule &gt; Start Rule, select a start rule for when your activity should start running:-   **When stage starts**: Your activity starts running as soon as its stage starts running. Your stage starts running when your playbook is triggered.
--   **After specific activities**: Your activity starts running after specified activities have finished running.
+Under **Schedule** &gt; **Start Rule**, select a start rule for when the activity should start running:-   **When stage starts**: The activity starts running as soon as its stage starts running.
+-   **After specific activities**: The activity starts running after specified activities have finished running. You can select one more activities from the available activities. By default, the previous activity is selected.
 
 </td></tr><tr><td>
 
@@ -127,7 +124,7 @@ Option to pause the playbook until the end user manually completes or skips the 
 </td></tr></tbody>
 </table>## Outputs
 
-These outputs can provide data to other activities in your playbook. You can access this data as activity inputs when you configure your activity:
+These outputs can provide data to other activities in your playbook. The outputs are available in the **Automation** tab and you can access this data as activity inputs when you configure your activity:
 
 |Output|Description|
 |------|-----------|

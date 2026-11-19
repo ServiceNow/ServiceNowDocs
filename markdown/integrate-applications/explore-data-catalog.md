@@ -14,7 +14,7 @@ breadcrumb: [Data Catalog, Workflow Data Fabric]
 
 The Data Catalog is the self-service discovery layer for finding, evaluating, and accessing governed data assets.
 
-The Data Catalog provides a centralized discovery and governance layer where users search for data assets, understand their lineage and quality, and request access to governed data across the enterprise.
+The Data Catalog provides a centralized discovery and governance layer for enterprise data. Use it to search for data assets, understand their lineage and quality, and request access to governed data.
 
 ## Data Catalog overview
 

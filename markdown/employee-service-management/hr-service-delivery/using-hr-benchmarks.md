@@ -1,6 +1,6 @@
 ---
 title: Using HR Benchmarks
-description: Gain instant visibility into your key performance indicators \(KPIs\) and trends, as well as comparative insight relative to industry averages of your peers and to the industry top performers.
+description: Gain instant visibility into your key performance indicators \(KPIs\), trends, and comparative insight relative to industry averages of your peers and to the industry top performers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/using-hr-benchmarks.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [HR Benchmarks, Case and Knowledge Management, HR Service Delivery, 
 
 # Using HR Benchmarks
 
-Gain instant visibility into your key performance indicators \(KPIs\) and trends, as well as comparative insight relative to industry averages of your peers and to the industry top performers.
+Gain instant visibility into your key performance indicators \(KPIs\), trends, and comparative insight relative to industry averages of your peers and to the industry top performers.
 
 ## Before you begin
 

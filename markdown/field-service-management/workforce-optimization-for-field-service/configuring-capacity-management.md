@@ -24,22 +24,22 @@ The steps for configuring Field Service Capacity and Reservations Management are
 
     You can activate the Field Service Capacity and Reservations Management plugin \(com.snc.fsm\_capacity\_management\) for Field Service Management if you have the admin role.
 
-2.  [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md) to have the Capacity Console in the CSM/FSM Configurable workspace for capacity planners.
-3.  [Capacity reservation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/capacity-reservations.md)
+2.  [Activate Field Service Advanced Capacity and Reservations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md) to have the Capacity Console in the CRM Workspace for capacity planners.
+3.  [Create a demand channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/create-a-demand-channel.md)
+
+    Demand channels help organize and manage work by efficiently distributing resources. When creating a reservation rule, you can allocate a specific percentage of capacity to a particular demand channel. By tagging work orders or tasks with demand channels, you ensure they’re routed correctly, improving resource allocation and scheduling accuracy.
+
+4.  [Capacity reservation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/capacity-reservations.md)
 
     Create capacity reservation rules to use in the capacity definition.
 
-4.  [Create capacity allocation schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/allocate-schedule-for-capaity-definition.md)
+5.  [Create capacity allocation schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/allocate-schedule-for-capaity-definition.md)
 
     The capacity allocation schedule helps manage and distribute your resource capacity over a set period, ensuring that a certain percentage of your resources are reserved for high-priority or same-day tasks.
 
-5.  [Create a capacity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/create-capacity-definitions.md)
+6.  [Create a capacity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/create-capacity-definitions.md)
 
     Allocate work to different task attributes based on their reserved capacity percentage and defined source of capacity.
-
-6.  [Create a demand channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/create-a-demand-channel.md)
-
-    Demand channels help organize and manage work by efficiently distributing resources. When creating a reservation rule, you can allocate a specific percentage of capacity to a particular demand channel. By tagging work orders or tasks with demand channels, you ensure they’re routed correctly, improving resource allocation and scheduling accuracy.
 
 7.  [Create a capacity assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/assign-work-based-on-the-defined-capacity-.md)
 

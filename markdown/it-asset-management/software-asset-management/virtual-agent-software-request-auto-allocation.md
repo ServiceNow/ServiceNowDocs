@@ -28,7 +28,7 @@ Before you can begin using Virtual Agent for your software requests, complete th
 
 -   Activate the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin on your ServiceNow instance.
 
-    See [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/activate-virtual-agent.md) for more information on how to activate this plugin.
+    See Activate Virtual Agent for more information on how to activate this plugin.
 
 -   Request and install the ITSM Virtual Agent Conversations application from the [ServiceNow Store](https://store.servicenow.com/).
 -   Request and install the ITSM NLU Model for Virtual Agent Conversations application from the [ServiceNow Store](https://store.servicenow.com/).

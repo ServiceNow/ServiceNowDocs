@@ -105,3 +105,5 @@ The data derived from the input URL and the output example is retrieved.
 
 Next, select the input and output fields that the operation uses. For the inputs, see [Manage input parameters for RaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-manage-model-inputs-raas.md). For the outputs, see [Manage model output parameters for RaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs-raas.md).
 
+**Parent Topic:**[Obtaining data from Workday using RaaS reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/obtain-data-from-workday-using-raas.md)
+

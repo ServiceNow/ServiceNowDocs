@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Process flow of MCP servers via AI Gateway, AI Gateway, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Process flow of MCP servers via AI Gateway, AI Gateway, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # MCP server approval workflow
@@ -22,7 +22,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **AI Control Tower** &gt; **AI assets** &gt; **Approvals**.
+1.  Navigate to **Control Tower** &gt; **AI assets** &gt; **Approvals**.
 
 2.  Select the MCP server from the asset type filter or navigate to Lifecycle and filter by the current state: **New**.
 
@@ -30,7 +30,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 4.  Select **Start Review**.
 
-    **Note:** Within AI Agent Studio, the MCP Server shows a status of AI Steward review during this phase. Product Owners can select View approval record in AI Agent Studio to go straight to the MCP Server record in AI Control Tower.
+    **Note:** Within AI Agent Studio, the MCP Server shows a status of AI Steward review during this phase. Product Owners can select View approval record in AI Agent Studio to go straight to the MCP Server record in Control Tower.
 
     A playbook is triggered to guide the approval process through three phases: Assess, Build and Test, and Deploy.
 

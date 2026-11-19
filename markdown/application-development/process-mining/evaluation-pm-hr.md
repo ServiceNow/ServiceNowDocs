@@ -8,7 +8,7 @@ product: Process Mining
 classification: process-mining
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Evaluation projects, Explore, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
@@ -48,5 +48,7 @@ For more information, see [Run the Process Mining evaluation project](https://ra
 **Related topics**  
 
 
-[create-db-in-ac]
+[Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md)
+
+[Run the Process Mining evaluation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/run-evaluation-project.md)
 

@@ -227,7 +227,5 @@ Use the AIOps home page to view and manage the alerts assigned to the AIOps AI S
 **Related topics**  
 
 
-[Autonomous Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-workforce.md)
-
-[AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-ai-specialist.md)
+[bundle-platai.ai-workforce]
 

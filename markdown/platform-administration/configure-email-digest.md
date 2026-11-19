@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Email digests, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email digests, Email and SMS notifications, System notifications, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure email digests
@@ -35,15 +35,15 @@ When you [create or update a notification](https://raw.githubusercontent.com/Ser
 
 3.  Select the **Digest type**.
 
-<table id="choicetable_jb2_kxp_1fc"><thead><tr><th align="left" id="d267697e165">
+<table id="choicetable_jb2_kxp_1fc"><thead><tr><th align="left" id="d267638e167">
 
 Digest Type
 
-</th><th align="left" id="d267697e168">
+</th><th align="left" id="d267638e170">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d267697e174">
+</th></tr></thead><tbody><tr><td id="d267638e176">
 
 **Single target record**
 
@@ -51,7 +51,7 @@ Description
 
 Allows this notification to be sent in an email digest when it is triggered multiple times during the selected interval for a single target record, for example INC001 only.
 
-</td></tr><tr><td id="d267697e190">
+</td></tr><tr><td id="d267638e192">
 
 **Multiple target record**
 

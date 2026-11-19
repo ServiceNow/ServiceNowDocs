@@ -135,7 +135,3 @@ Conditions used to filter users from the selected table. For more information ab
 
 [User Workplace Profile form]()
 
-[]()
-
-[]()
-

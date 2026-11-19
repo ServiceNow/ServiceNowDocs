@@ -97,7 +97,7 @@ Role required: admin
 
 5.  Select **Install**.
 
-    The Review Installation Details pane opens.\[Omitted image "review-installation-details.png"\] Alt text:
+    The Review Installation Details pane opens.\[Omitted image "review-installation-details.png"\] Alt text: Review Installation Details pane
 
 6.  Review the dependencies and install now or later.
 

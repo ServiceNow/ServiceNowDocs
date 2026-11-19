@@ -105,7 +105,7 @@ Field name to select from the list. This field can be used to analyze permission
 
     \[Omitted image "permissions-for-a-user.png"\] Alt text: Permission results
 
-    The results can be read by referring to the Legends, access control list \(ACL\), IAccesshandler, and Data filters.
+    The results can be read by referring to the Legends, access control list \(ACL\), IAccessHandler, and Data filters.
 
     Let's take the example of **read** operation. For the **ITIL User** , overall access is Passed, which means the user can read the record with the correct permissions \(ACL\).
 
@@ -113,13 +113,13 @@ Field name to select from the list. This field can be used to analyze permission
 
     **Note:** In the example, **write** and **delete** operations are blocked for the selected user and the user can’t edit or delete the selected record \(INC0000001\).
 
-5.  Select read operation to know more about the Debug logs.
+5.  Select read operation to learn more about the Debug logs.
 
     \[Omitted image "acl-details-for-user.png"\] Alt text: ACL Details
 
     The Debug logs page displays the business rule and associated ACLs that are required to perform the **read** operation for the record.
 
-    The Debug logs shows that there’s a business rule and four ACLs associated for the read operation.
+    The Debug logs show that there’s a business rule and four ACLs associated for the read operation.
 
     There’s a status **Passed** for one of the ACLs, which means to read the selected record, the user has the required ACL and can read the record. Since one of the ACLs is **Passed**, the other ACL evaluations are **Skipped**.
 

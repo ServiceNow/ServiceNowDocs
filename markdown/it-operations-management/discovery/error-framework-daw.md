@@ -7,8 +7,8 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-11-06"
-reading_time_minutes: 4
+last_updated: "2026-11-19"
+reading_time_minutes: 5
 breadcrumb: [Diagnostics, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -93,11 +93,13 @@ Error Framework is enabled by default. Administrators can disable it by setting 
 
     -   ServiceNow Otto for Error Framework \(com.sn\_ef\_gen\_ai\) is available in Australia Patch 3 and requires the ServiceNow Otto for Platform \(sn\_genai\_platform\) plugin. If the plugin is not enabled, the panel displays a prompt to enable it.
     -   The Error Analysis and Remediation Workflow and Error Analysis and Remediation Agent are enabled by default with the ServiceNow Otto for Error Framework plugin.
-    -   To interact with an agent, you must first [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    -   To interact with an agent, you must first .
 
 ## Roles
 
 The discovery\_admin role is required to access Discovery Admin Workspace and interact with errors.
+
+Starting with Discovery Admin Workspace v1.23.0, users with the discovery\_operator role can view and filter errors, view the AI Insights panel, and change error states. Error actions that are restricted to administrators aren't available to these users. For more information, see [Discovery Operator role access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-discovery-operator-access.md).
 
 ## Requirements
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Operational Sustainability Management]
 ---
 
 # Integrating Operational Sustainability Management \(formerly ESG\) with other applications
@@ -53,7 +53,7 @@ Use the Operational Sustainability Integration with Concur to calculate your car
 -   **[Integrating Operational Sustainability Management with Socialsuite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/integrate-operational-sustainability-with-SocialSuite.md)**  
 Socialsuite is a platform for conducting materiality assessments. You can import material topics from Socialsuite into your ServiceNow instance and manage them in the Operational Sustainability Management application.
 
-**Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)
+**Parent Topic:**[Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)
 
 **Related topics**  
 

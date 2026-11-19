@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 1
 keywords: [approve metric data tasks, reject metric data tasks, bulk approval, campaign approvals]
-breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Manage metric data tasks for a campaign

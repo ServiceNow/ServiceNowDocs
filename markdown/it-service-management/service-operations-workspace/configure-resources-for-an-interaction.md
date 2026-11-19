@@ -1,6 +1,6 @@
 ---
 title: Configure search resources for an interaction in Service Operations Workspace for ITSM
-description: You can configure additional search resources for an interaction to assist agents with quick resolution of the interaction.
+description: Configure additional search resources for an interaction to help agents resolve it quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-resources-for-an-interaction.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configu
 
 # Configure search resources for an interaction in Service Operations Workspace for ITSM
 
-You can configure additional search resources for an interaction to assist agents with quick resolution of the interaction.
+Configure additional search resources for an interaction to help agents resolve it quickly.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Role required: itil or interaction\_agent
 
     1.  Search for a resource or combination of resources in the **Searcher** field and select the search resource that you want to add.
 
-    2.  Update the Searcher text field with the name that you want to give to the search resource.
+    2.  Update the **Searcher** text field with the name that you want to give to the search resource.
 
     3.  Save or update the record.
 

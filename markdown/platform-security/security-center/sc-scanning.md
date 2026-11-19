@@ -1,6 +1,6 @@
 ---
 title: Security scanner
-description: Scan your instance against a set of security checks to identify misconfiguration. The scanner tool simplifies the process of creating different suites of checks for different use cases so that you can analyze the results over time.
+description: Scan your instance against a set of security checks to identify misconfiguration. Use the scanner tool to create different suites of checks for different use cases so that you can analyze the results over time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/sc-scanning.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Security configuration console, Security Center, Platform Security]
 
 # Security scanner
 
-Scan your instance against a set of security checks to identify misconfiguration. The scanner tool simplifies the process of creating different suites of checks for different use cases so that you can analyze the results over time.
+Scan your instance against a set of security checks to identify misconfiguration. Use the scanner tool to create different suites of checks for different use cases so that you can analyze the results over time.
 
 \[Omitted image "security-scanner.png"\] Alt text: Security scanner tab in the Security Center
 
@@ -27,13 +27,13 @@ A finding is a reference to a record that has violated a rule from a check on th
 -   **[Security scan comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/score-comparison.md)**  
 Compare two scans of the same security suite to gain visibility to the health of your hardening settings and improve the security posture of your instance.
 -   **[Auditor suite findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-auditor-finding.md)**  
-Review Security Center Auditor suite findings over time.
+Review Security Center Auditor suite findings over time. Compare findings between two selected dates and use chart options to analyze targets, thresholds, forecasts, and trends.
 -   **[Scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/scan-checks.md)**  
 Use checks to detect anomalies within an instance, running against tables, records, or metadata.
 -   **[Scan suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sec-center-suites.md)**  
-Review details on the scan suites available on your instance.
+Review details on the scan suites available on your instance. Scan suites group security checks that run together, so you can scan your instance with base system suites or with custom suites that you create.
 -   **[Scan results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/scan-results.md)**  
-View data related to your scan results from a single view.
+View data related to your scan results from a single view. Each scan result shows the status and type of the scan, the checks and suites that ran, and any findings, failures, and scan logs.
 
 **Parent Topic:**[Security configuration console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/homepage.md)
 

@@ -16,6 +16,8 @@ Use the Enterprise Architecture Workspace \(EAW\) for managing portfolios, model
 
 -   **[Working with Enterprise Architecture workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-ea-workspace-homepage.md)**  
 Enterprise Architecture Workspace home page serves as a personalized command center for enterprise architects, offering a unified, role-based view of portfolio insights, tasks, and health indicators. The Home page is designed to give architects immediate visibility into the state of their portfolios.
+-   **[Open a Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/workspace-open-uib.md)**  
+Access your Configurable Workspace experience in UI Builder for editing.
 -   **[Working with Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-qna-use.md)**  
 You can ask the Enterprise Architecture query agent natural language questions about your enterprise architecture portfolio using the ServiceNow Otto® panel in Enterprise Architecture Workspace.
 -   **[Working with AI agent agentic workflow in ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/using-na-ea-ai-agents.md)**  

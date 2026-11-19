@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-25"
 reading_time_minutes: 7
-breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Create a metric

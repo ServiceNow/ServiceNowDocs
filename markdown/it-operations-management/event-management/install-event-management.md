@@ -29,7 +29,7 @@ The following items are installed with Event Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/r_InstalledWithEventManagement.md).
+For more information about the components installed with this application, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 ## Procedure
 

@@ -72,7 +72,7 @@ Uses the Arc to perform tasks, interact with AI agents, use connectors, answers 
 
 -   -   **Enterprise governance and controls**
 
-    Organizations can monitor what agents accessed and what actions were performed. Administrators control agent permissions and activity through policies and AI Control Tower.
+    Organizations can monitor what agents accessed and what actions were performed. Administrators control agent permissions and activity through policies and Control Tower.
 
 -   -   **Skills and workflows**
 
@@ -104,7 +104,7 @@ Uses the Arc to perform tasks, interact with AI agents, use connectors, answers 
 
 -   -   **Usage insights and skill observability**
 
-    Administrators can view Arc usage telemetry through usage insights for sessions, conversation counts, connector activity, and policy events. Skill observability tracks invocation counts, success rates, latency, and token consumption per skill, with detailed traces available in AI Control Tower.
+    Administrators can view Arc usage telemetry through usage insights for sessions, conversation counts, connector activity, and policy events. Skill observability tracks invocation counts, success rates, latency, and token consumption per skill, with detailed traces available in Control Tower.
 
 
 ## What to explore next

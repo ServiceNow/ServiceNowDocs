@@ -46,7 +46,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
     -   Automatic: The skill is initiated without user interaction.
     -   User trigger: The skill is initiated when by an user action.
-7.  For the demand summarization skill, the triggers behaving in the following ways:
+7.  For the demand summarization skill, the triggers behave in the following ways:
     -   Automatic: The skill is initiated without user interaction. When users navigate to the **AI Overview** page of a demand, the summary of the record is auto-generated.
     -   User trigger: The skill is initiated when users select the **Summarize** action on a demand record.
 8.  Define and review the user accesses.

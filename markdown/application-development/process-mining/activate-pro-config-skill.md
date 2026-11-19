@@ -20,11 +20,9 @@ Use AI to generate a suggestion for the process configuration fields for a table
 
 Role required: admin
 
-**Note:** This skill is activated by default. If it is turned off, you can activate it with the following procedure.
-
 ## About this task
 
-AI analyzes your table's fields and how frequently they change, then suggests which fields to use for your control flow \(state\), team, and agent definitions, along with suggested breakdown, work notes, and root-cause-analysis fields.
+AI analyzes your table's fields and how frequently they change. It then suggests which fields to use for your control flow \(state\), team, and agent definitions, along with suggested breakdown, work notes, and root-cause-analysis fields.
 
 **Activate the skill**
 
@@ -33,6 +31,8 @@ AI analyzes your table's fields and how frequently they change, then suggests wh
 1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  Select **Platform** &gt; **Other**.
+
+    **Note:** If you use Process Mining versions earlier than 3.2.0, select **Creator** instead.
 
 3.  Select **Generate process configuration** from the list of AI skills for Platform.
 

@@ -35,7 +35,7 @@ To review the applications and features that make up the AI experience, the role
 
 AI Admin Center is a single workspace where you set up, manage, and optimize your generative AI solutions on the ServiceNow AI Platform. The home page is tailored to your environment, role, and business objectives, and surfaces AI-generated actionable use cases to help you implement AI adoption and best practices. AI Agent Advisor analyzes your instance data to identify leading automation opportunities and estimates the potential time savings for each one.
 
-AI Admin Center also tracks performance of recently activated AI solutions with usage trend lines, provides direct access to AI readiness assessments, and links to other AI applications on the platform such as AI Agent Studio, AI Control Tower, and the AI Admin Hub.
+AI Admin Center also tracks performance of recently activated AI solutions with usage trend lines, provides direct access to AI readiness assessments, and links to other AI applications on the platform such as AI Agent Studio, Control Tower, and the AI Admin Hub.
 
 To set up, manage, and optimize your generative AI solutions from one workspace and act on the automation opportunities AI Agent Advisor surfaces, see [AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-landing-page.md).
 

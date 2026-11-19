@@ -21,7 +21,7 @@ Add a participant to a conference call so that they can join the discussion to r
 -   **[Join a conference call from Zoom in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/join-conference-call-zoom.md)**  
 Join an existing conference call to participate in the discussion to resolve an incident.
 -   **[Mute participants from a Zoom conference call in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/mute-participants-zoom-conference-call.md)**  
-Join an existing conference call to participate in the discussion to resolve an incident.
+Mute participants in a Zoom conference call to avoid background noise.
 
 **Parent Topic:**[Conference calls with Zoom in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/zoom-sow.md)
 

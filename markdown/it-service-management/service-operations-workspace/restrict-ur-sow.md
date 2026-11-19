@@ -18,7 +18,7 @@ Mark a universal request as restricted or unrestricted when you identify that th
 
 ## Before you begin
 
-Role required: routing agents, sn\_uni\_req.sensitiveinfo\_agent or service-specific assignment group members
+Role required: routing agents, sn\_uni\_req.sensitiveinfo\_agent, or service-specific assignment group members
 
 ## Procedure
 

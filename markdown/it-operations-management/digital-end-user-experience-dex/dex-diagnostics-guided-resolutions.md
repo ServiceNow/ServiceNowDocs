@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-10-22"
 reading_time_minutes: 4
+keywords: [incident investigation, incident diagnostics, suggested resolutions, remedial actions, service desk agents, service operations workspace]
 breadcrumb: [Manage employee experience, Digital End-User Experience, IT Operations Management]
 ---
 
@@ -22,7 +23,7 @@ Incident investigation with DEX provides a comprehensive view of device and appl
 
 ## Accessing DEX incident diagnostics and suggested resolutions
 
-You can access incident diagnostics and suggested resolutions for DEX monitored devices from the **Investigation** tab of an incident record page. Navigate to the Service Operations Workspace and open the incident record from the Incidents list. For more information, see [Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-sow.md) and [Features of the Investigation tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/features-of-investigation-tab.md).
+You can access incident diagnostics and suggested resolutions for DEX monitored devices from the **Investigation** tab of an incident record page. Navigate to the Service Operations Workspace and open the incident record from the Incidents list. For more information, see [Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-sow.md) and .
 
 **Important:** The configuration item \(CI\) associated with the incident record must be a DEX monitored device.
 

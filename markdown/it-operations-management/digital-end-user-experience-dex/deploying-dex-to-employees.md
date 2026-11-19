@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [deploy dex, bulk deployment, deploy agent client collector, agent client collector \(acc\), deploy browser extension, dex browser extension]
 breadcrumb: [Configure, Digital End-User Experience, IT Operations Management]
 ---
 

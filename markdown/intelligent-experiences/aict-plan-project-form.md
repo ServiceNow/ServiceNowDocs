@@ -1,6 +1,6 @@
 ---
 title: Project form
-description: Learn about the fields on the Project form. Use this form to create or edit a project from the Execute page in AI Control Tower.
+description: Learn about the fields on the Project form. Use this form to create or edit a project from the Execute page in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-project-form.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [project form, project fields, AI Plan, Execute]
-breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Project form
 
-Learn about the fields on the Project form. Use this form to create or edit a project from the Execute page in AI Control Tower.
+Learn about the fields on the Project form. Use this form to create or edit a project from the Execute page in Control Tower.
 
 The Project form contains the following fields.
 
@@ -118,5 +118,5 @@ The Project form contains the following fields.
 **Related topics**  
 
 
-[Monitoring AI plan execution in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-execute.md)
+[Monitoring AI plan execution in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-execute.md)
 

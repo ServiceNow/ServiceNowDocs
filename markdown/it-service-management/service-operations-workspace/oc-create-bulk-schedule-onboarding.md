@@ -46,9 +46,9 @@ Your progress is saved as you move between steps. However, selecting **Back** di
 
 2.  Select the teams icon \(\[Omitted image "icon-sow-teams.png"\]\).
 
-3.  On the Teams page, select **On-Call Bulk Onboarding**
+3.  On the Teams page, select **On-Call Bulk Onboarding**.
 
-    The **On-Call Bulk Onboarding** button appears only when you have the required plugins are installed and you have the rota\_admin role.
+    The **On-Call Bulk Onboarding** button appears only when the required plugins are installed and you have the rota\_admin role.
 
     The Bulk schedule setup wizard page opens.
 
@@ -69,7 +69,7 @@ Your progress is saved as you move between steps. However, selecting **Back** di
         -   **Skip escalation policy**: Enables you to manually select on-call people to notify.
     3.  Select **Let's set it up**.
 
-5.  Map teams to a shift templates.
+5.  Map teams to a shift template.
 
     1.  Select one or more teams or groups from the teams list.
 

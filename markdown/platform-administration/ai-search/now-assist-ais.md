@@ -7,10 +7,10 @@ release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # ServiceNow Otto for AI Search
@@ -21,9 +21,9 @@ The ServiceNow Otto for AI Search application combines the power of search with 
 
 In Service Portal, Virtual Agent, Employee Center, and global searches, ServiceNow Otto for AI Search includes the following AI Genius Result configurations:
 
--   **[Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md)**
+-   **[ServiceNow Otto Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md)**
 
-    Summary Genius Results use your chosen LLM to generate actionable Genius Result answers synthesized from a variety of content sources. Answers can include content from knowledge articles, Service Catalog items, Knowledge Graph schema nodes, enhanced chat searches and conversations, and external content documents and attachments.
+    ServiceNow Otto Summary Genius Results use your chosen LLM to generate actionable Genius Result answers synthesized from a variety of content sources. Answers can include content from knowledge articles, Service Catalog items, Knowledge Graph schema nodes, enhanced chat searches and conversations, and external content documents and attachments.
 
 -   **[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)**
 

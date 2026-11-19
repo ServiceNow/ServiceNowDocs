@@ -1,6 +1,6 @@
 ---
 title: Activate Change Management - Success Probability
-description: You can activate the Change Management - Success Probability plugin \(com.snc.change\_management.success\_probability\) if you have the admin role.
+description: Activate the Change Management - Success Probability plugin \(com.snc.change\_management.success\_probability\) to calculate change success probability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/install-chg-mgmt-success-probability.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Change Management plugins, Configure, Change Management, IT Service
 
 # Activate Change Management - Success Probability
 
-You can activate the Change Management - Success Probability plugin \(com.snc.change\_management.success\_probability\) if you have the admin role.
+Activate the Change Management - Success Probability plugin \(com.snc.change\_management.success\_probability\) to calculate change success probability.
 
 ## Before you begin
 
@@ -44,7 +44,7 @@ Activate the Change Management - Success Probability plugin \(com.snc.change\_ma
 **Related topics**  
 
 
-[Request ITSM Roles - Change Management]()
+[Request ITSM Roles for Change Management]()
 
 [Activate Business Stakeholder]()
 

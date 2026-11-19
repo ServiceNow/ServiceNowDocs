@@ -41,7 +41,7 @@ The following restrictions apply to imported data:
 
 **Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
-Importing report data in this way is useful when you have information that is maintained outside of your instance, for example, recurring third-party data. To import an external data set into your instance permanently, see [Importing data using import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/c_ImportDataUsingImportSets.md).
+Importing report data in this way is useful when you have information that is maintained outside of your instance, for example, recurring third-party data. To import an external data set into your instance permanently, see Importing data using import sets.
 
 ## Procedure
 

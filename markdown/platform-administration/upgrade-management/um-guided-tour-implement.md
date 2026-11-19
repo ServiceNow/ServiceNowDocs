@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Upgrade Console, Upgrade, ServiceNow AI Platform]
 ---
 
 # Access guided upgrade on a non-production instance
@@ -24,15 +24,15 @@ Role required: upgrade\_admin
 
 1.  Access Upgrade Console in one of the following ways.
 
-<table id="choicetable_jnj_mj1_ndc"><thead><tr><th align="left" id="d241581e57">
+<table id="choicetable_jnj_mj1_ndc"><thead><tr><th align="left" id="d241511e59">
 
 Option
 
-</th><th align="left" id="d241581e60">
+</th><th align="left" id="d241511e62">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d241581e66">
+</th></tr></thead><tbody><tr><td id="d241511e68">
 
 **Using the application navigator**
 
@@ -40,7 +40,7 @@ Navigation
 
 Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Console**.
 
-</td></tr><tr><td id="d241581e87">
+</td></tr><tr><td id="d241511e89">
 
 **Using Admin tab option**
 
@@ -48,7 +48,7 @@ Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Console**.
 
 Navigate to **Admin** &gt; **Upgrade Console**.
 
-</td></tr><tr><td id="d241581e105">
+</td></tr><tr><td id="d241511e107">
 
 **Using Admin tab and Admin Home option.**
 
@@ -65,15 +65,15 @@ Navigate to **Admin** &gt; **Upgrade Console**.
 
 2.  Access the guided upgrade in one of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d241581e156">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d241511e158">
 
 Option
 
-</th><th align="left" id="d241581e159">
+</th><th align="left" id="d241511e161">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d241581e165">
+</th></tr></thead><tbody><tr><td id="d241511e167">
 
 **Using Get started button__Note:__ This option is available only when you haven't started the upgrade yet.
 
@@ -85,7 +85,7 @@ Steps
 2.  Select the Guided upgrade version that you want to implement on your instance.
 
 
-</td></tr><tr><td id="d241581e188">
+</td></tr><tr><td id="d241511e190">
 
 **Using Guided upgrade tab option__Note:__ This tab is visible only if there’s an ongoing upgrade in the instance.
 

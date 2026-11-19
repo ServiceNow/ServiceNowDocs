@@ -177,15 +177,15 @@ When you use [translate with Dynamic Translation](https://raw.githubusercontent.
 
     **Important:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the AI Skill Kit .
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d405055e591">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d406096e593">
 
 To
 
-</th><th align="left" id="d405055e594">
+</th><th align="left" id="d406096e596">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d405055e600">
+</th></tr></thead><tbody><tr><td id="d406096e602">
 
 **Evaluate a prompt for each input template**
 
@@ -199,7 +199,7 @@ Do this
 2.  Select **Run Test**.\[Omitted image "now-assist-itsm-evaluate-prompt.png"\] Alt text: Run test for the selected incident record
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the incident state selections and retest as needed.
 
-</td></tr><tr><td id="d405055e639">
+</td></tr><tr><td id="d406096e641">
 
 **Edit the prompt in the AI Skill Kit and test the prompt**
 

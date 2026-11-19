@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-l
 release: brazil
 topic_type: concept
 last_updated: "2026-09-22"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [configure agentic workflows, Customer Success Management]
-breadcrumb: [Configure ServiceNow Otto for TMT, Configure, Customer Success Management]
+breadcrumb: [Configure ServiceNow Otto for Customer Success Management, Configure, Customer Success Management]
 ---
 
 # Configure agentic workflows for Customer Success Management
@@ -54,6 +54,8 @@ Agentic workflows included with the base system are read-only. Before you use on
     **Important:** Source topics disagree on this plugin's ID \(sn\_cust\_succ\_ai\_ag vs. com.sn\_cust\_succ\_ai\_agent\) — confirm before publishing.
 
 -   Activate the product release content generator skill on the AI Skills page. See [Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-skill.md).
+
+**Parent Topic:**[Configure ServiceNow Otto for Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-otto-get-started.md)
 
 **Related topics**  
 

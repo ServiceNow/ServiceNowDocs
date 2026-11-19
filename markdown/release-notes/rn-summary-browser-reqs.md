@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-browser-reqs.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-04"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---

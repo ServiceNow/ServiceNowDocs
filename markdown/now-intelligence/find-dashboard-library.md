@@ -56,7 +56,7 @@ Description
 
 </td><td>
 
-Option for creating dashboards. For more information on creating dashboards, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md).
+Option for creating dashboards. For more information on creating dashboards, see [Create a Platform Analytics dashboard with the inline editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md).
 
 </td></tr><tr><td rowspan="2">
 
@@ -72,7 +72,7 @@ Option for filtering the Dashboards list to display the data based on the follow
 -   **Certified**: Dashboards that an administrator has certified \(company approved and recommended for use\). For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/certify-db-ac.md).
 -   **Owned by me**: Dashboards that you own.
 -   **Recently opened by me**: Dashboards that you recently opened.
--   **Shared with me**: Dashboards that other users have shared with you.
+-   **Shared with me**: Dashboards that other users have shared with you, a role you have, or a group you belong to.
 
 </td></tr><tr><td>
 

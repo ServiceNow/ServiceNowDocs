@@ -57,13 +57,13 @@ Role required: admin
 4.  Copy the value of the Cloud ID for later use.
 
 
-### Configure a connection for Jira spoke
+### Configure a connection for the Jira spoke
 
 Add and configure a Jira connection to authenticate ServiceNow requests in Jira spoke.
 
 #### Before you begin
 
-Role required: admin
+Role required: admin.
 
 #### Procedure
 
@@ -76,19 +76,30 @@ Role required: admin
 4.  Locate the **Jira** connection alias and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Jira spoke, click **View Details**.
+
+        \[Omitted image "jira-connection.png"\] Alt text: Connection for the Jira spoke.
+
     -   To manage more than one Jira spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-5.  On the **Connection** form, fill in the fields.
+    \[Omitted image "jira-connection-conf.png"\] Alt text: Initial connection configuration.
+
+5.  On the form, fill in these fields:
 
     |Field|Description|
     |-----|-----------|
+    |Connection Information|
     |Connection Name|Name to uniquely identify the connection. For example, `Jira Spoke OAuth basic conn`.|
     |Connection URL|URL of your Jira instance in this format: `https://api.atlassian.com/ex/jira/{cloud-id}/`. Replace `{cloud-id}` with value of the Cloud ID you had obtained previously.|
+    |Additional Information|
     |Scopes|By default, these scopes are provided `read:jira-work, read:jira-user, write:jira-work, manage:jira-project, manage:jira-configuration, manage:jira-webhook, manage:jira-data-provider, delete:sprint:jira-software, read:sprint:jira-software, write:sprint:jira-software, read:board-scope:jira-software, read:project:jira, read:jql:jira, read:issue-details:jira, read:me, read:account, offline_access`. You can modify the scopes as per your requirement.|
 
-    \[Omitted image "jira-new-conf-temp.jpg"\] Alt text:
+    \[Omitted image "jira-conf-temp.png"\] Alt text: Configure a connection for the Jira spoke.
 
 6.  Click **Save and Get OAuth Token**.
 
+
+#### Result
+
+The Jira spoke connection is configured.
 

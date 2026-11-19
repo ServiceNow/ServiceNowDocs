@@ -9,7 +9,7 @@ classification: table-administration-and-data-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assignment rules, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Assignment rules, Working with Task table, Table admin, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Data lookup rules

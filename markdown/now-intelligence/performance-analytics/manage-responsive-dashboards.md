@@ -79,11 +79,11 @@ Role required: Any user who can share a dashboard can copy it.
 
 2.  Select the dashboard that you want to duplicate.
 
-3.  From the context menu \[Omitted image "ContextMenu.png"\] Alt text: context menu icon select **Duplicate Dashboard**.
+3.  From the context menu \[Omitted image "ContextMenu.png"\] Alt text: Context menu icon select **Duplicate Dashboard**.
 
     A copy of the dashboard is created with you as the owner. The name of the copy is Copy of \[Original Dashboard Name\].
 
-4.  To rename the dashboard, select the context menu\[Omitted image "ContextMenu.png"\] Alt text: context menu icon, select **Dashboard Properties**, and edit the **Name** field.
+4.  To rename the dashboard, select the context menu\[Omitted image "ContextMenu.png"\] Alt text: Context menu icon, select **Dashboard Properties**, and edit the **Name** field.
 
 
 ### Result

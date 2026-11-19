@@ -42,9 +42,9 @@ Ensure that Next Experience is enabled on your instance. For information about i
 
     1.  From the **System Properties** section, select **Configure** for the required property.
 
-        -   glide.login.home: If set to true, the default homepage is displayed upon login. If left blank, the last page visited is used. This property is overwritten by the Homepage Destination Rule for the SOW landing page.
-        -   glide.next\_experience.user\_selected\_landing\_page\_enabled: Sets the user selected landing page preference to true.
-        -   glide.ux.user\_criteria\_enabled: Enables use of user criteria records instead of **Roles** fields for UX Framework variants.
+        -   **glide.login.home**: If set to true, the default homepage is displayed on login. If left blank, the last page visited is used. This property is overwritten by the Homepage Destination Rule for the SOW landing page.
+        -   **glide.next\_experience.user\_selected\_landing\_page\_enabled**: Sets the user selected landing page preference to true.
+        -   **glide.ux.user\_criteria\_enabled**: Enables use of user criteria records instead of **Roles** fields for UX Framework variants.
     2.  Modify the property and select **Update**.
 
 

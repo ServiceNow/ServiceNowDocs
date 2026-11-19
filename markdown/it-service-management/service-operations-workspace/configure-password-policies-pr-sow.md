@@ -1,6 +1,6 @@
 ---
 title: Configure the password policies
-description: Create a password policy to ensure that all passwords are strong and secure.
+description: Create a password policy to help enforce password strength requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-password-policies-pr-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Setting up Service Desk assisted Password Reset in Service Operatio
 
 # Configure the password policies
 
-Create a password policy to ensure that all passwords are strong and secure.
+Create a password policy to help enforce password strength requirements.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Role required: admin
 2.  On the **Admin Center** page, do one of the following:
 
     -   In the **Overview** tab, select the **Configure** button in the **Service Desk Assisted Password Reset** card.
-    -   In the **Configurations** tab, select **Service Desk Assisted Password Reset** card.
+    -   In the **Configurations** tab, select the **Service Desk Assisted Password Reset** card.
 3.  On the **Password policies** card, select **Configure**.
 
     The default password policy is displayed.
@@ -43,7 +43,7 @@ Role required: admin
     |Minimum Password Length|Minimum number of characters for a password.|
     |Maximum Password Length|Maximum number of characters for a password.|
     |Excluded Special Characters|List of special characters not to be included in a password.|
-    |Disallow User Data|Option to exclude the user related data from the password.|
+    |Disallow User Data|Option to exclude the user-related data from the password.|
     |Sequence Length Threshold|Maximum number of sequential characters allowed in the password.|
     |Repetition Length Threshold|Maximum number of times a character can be repeated in the password.|
 

@@ -9,7 +9,7 @@ classification: value-library
 topic_type: task
 last_updated: "2026-10-05"
 reading_time_minutes: 2
-breadcrumb: [Product value, Value Management, Impact reference, Impact]
+breadcrumb: [Product value, Value Management, Using Impact, Impact]
 ---
 
 # Configure an estimated data definition

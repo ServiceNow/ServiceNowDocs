@@ -56,5 +56,7 @@ Some ServiceNow resources that can provide helpful information:
 **Related topics**  
 
 
-[bundle-platadm.ia-landing]
+[ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-landing.md)
+
+[Explore ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ia-explore.md)
 

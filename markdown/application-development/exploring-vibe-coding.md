@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/exploring-vibe-coding.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-11-03"
+reading_time_minutes: 5
 keywords: [explore, vibe coding, AI-assisted development, conversational interface, plain language, application development, AI agents, code generation, developer experience, governance, security]
 breadcrumb: [Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
@@ -30,6 +30,13 @@ Build Agent can do the following:
 -   Include audit trails, security controls, and governance for enterprise compliance.
 -   Build a custom AI agent, agentic workflow, or AI skill for the ServiceNow AI Platform.
 -   Integrates with ServiceNow Otto for Creator and App Engine for enterprise-grade workflows.
+-   Author Playbook Designer artifacts, such as stages, activities, and runtime permissions.
+-   Connect to MCP servers to access external tools and context.
+-   Develop in Developer Sandboxes for isolated, parallel development. For more information, see [Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/exploring-sandboxes.md).
+
+## Autonomous Engineer and agentic development
+
+For large or complex implementations, Autonomous Engineer takes your requirements and generates an implementation plan with work items. Background agents then build the work items in parallel. Autonomous Engineer is available in ServiceNow Studio. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-autonomous-engineer.md).
 
 ## ServiceNow Otto for Creator and using AI to build out apps
 
@@ -47,7 +54,7 @@ While not exclusively an agentic development tool, ServiceNow Otto for Creator c
 Security and governance enforces enterprise standards for every app with built-in compliance, and includes the following:
 
 -   App Engine Management Center enforces compliance with corporate policy through its lifecycle management tools.
--   AI Control Tower serves as the central governance hub for all AI activities across the enterprise, including agentic development workflows.
+-   Super Intelligence Control Tower serves as the central governance hub for all AI activities across the enterprise, including agentic development workflows. For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md).
 -   ServiceNow Vault Console enables you to discover and protect sensitive data across workflows.
 -   Machine Identity Console helps you govern API connections and authenticate AI agents.
 
@@ -61,7 +68,7 @@ An enhanced developer experience for agentic development is available in the fol
 -   ServiceNow Fluent is a declarative, TypeScript-based language designed specifically for ServiceNow metadata that enables AI to communicate effectively with the ServiceNow AI Platform.
 -   Build agentically in your choice of development environments, such as:
     -   An isolated sandbox using Developer Sandboxes, which enables safe spaces for testing and collaboration.
-    -   A Personal Development Instance \(PDI\), which is a non-production instance.
+    -   A Personal Developer Instance \(PDI\), which is a non-production instance.
 -   Tools like the ServiceNow SDK can work in conjunction with tools like Claude Code to interface with your ServiceNow instance when working locally.
 -   AI agents can analyze and repair code issues through debugging and automated error-fixing.
 

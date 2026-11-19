@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/security-management/threat-inte
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 

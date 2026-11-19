@@ -1,6 +1,6 @@
 ---
 title: Activate Change Management - Standard Change Catalog
-description: You can activate the Change Management - Standard Change Catalog plugin \(com.snc.change\_management.standard\_change\_catalog\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+description: Activate the Change Management - Standard Change Catalog plugin \(com.snc.change\_management.standard\_change\_catalog\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ActivateStandardChangeCatalog.html
 release: brazil
@@ -8,13 +8,13 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Activate Change Management - Standard Change Catalog
 
-You can activate the Change Management - Standard Change Catalog plugin \(com.snc.change\_management.standard\_change\_catalog\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Change Management - Standard Change Catalog plugin \(com.snc.change\_management.standard\_change\_catalog\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 
 ## Before you begin
 
@@ -64,7 +64,7 @@ Several types of components are installed with Change Management - Standard Chan
 **Related topics**  
 
 
-[Request ITSM Roles - Change Management]()
+[Request ITSM Roles for Change Management]()
 
 [Activate Business Stakeholder]()
 

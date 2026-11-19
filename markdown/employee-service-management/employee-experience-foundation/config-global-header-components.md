@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employee Center global header, Admin configurations, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Employee Center global header, Admin configurations, Configuring Employee Center, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Enable or disable global header options
@@ -36,87 +36,15 @@ Role required: admin
 
 5.  Edit the **Additional options, JSON format** field.
 
-<table id="choicetable_osb_gxg_5qb"><thead><tr><th align="left" id="d464961e113">
+<table id="choicetable_osb_gxg_5qb"><thead><tr><th align="left" id="d464891e115">
 
 Option
 
-</th><th align="left" id="d464961e116">
+</th><th align="left" id="d464891e118">
 
 Parameter setting
 
-</th></tr></thead><tbody><tr><td id="d464961e122">
-
-**Search bar**
-
-</td><td>
-
-To enable this option, set the `exclude_search_on_homepage` value to **false**.```
-"exclude_search_on_homepage":{
-		"displayValue":"false",
-		"value":false
-```
-
-Default value: true**Note:** By default, the search widget is displayed in the Employee Center homepage. Search bar on the global header is hidden by default that you can enable, if needed.
-
-</td></tr><tr><td id="d464961e146">
-
-**Wishlist**
-
-</td><td>
-
-To enable this option, set the `enable_wishlist` value to **true** ```
-"enable_wishlist":{
-		"displayValue":"true",
-		"value":true
-```
-
-Default value: False
-
-</td></tr><tr><td id="d464961e164">
-
-**My Requests**
-
-</td><td>
-
-To disable this option, set the `enable_requests` value to **false** ```
-"enable_requests":{
-		"displayValue":"false",
-		"value":false
-```
-
-Default value: True
-
-</td></tr><tr><td id="d464961e182">
-
-**My Tasks**
-
-</td><td>
-
-To disable this option, set the `enable_tasks` value to **false** ```
-"enable_tasks":{
-		"displayValue":"false",
-		"value":false
-```
-
-Default value: True
-
-</td></tr><tr><td id="d464961e201">
-
-**More**
-
-</td><td>
-
-To disable this option, set the `enable_more_items` value to **false** ```
-"enable_more_items":{
-      	"displayValue":"false",
-      	"value":true,
-"sysId":"47c952cbec8305107f44e04d648d43c0"
-
-```
-
-Default value: True
-
-</td></tr><tr><td id="d464961e219">
+</th></tr></thead><tbody><tr><td id="d464891e124">
 
 **Cart**
 
@@ -130,7 +58,7 @@ To enable this option, set the `enable_cart` value to **true** ```
 
 Default value: False
 
-</td></tr><tr><td id="d464961e237">
+</td></tr><tr><td id="d464891e142">
 
 **Update Cart**
 
@@ -140,6 +68,78 @@ To enable this option, set the `auto_update_cart` value to **true**. Update the 
 "auto_update_cart": {
         "displayValue": "true",
           "value": true}
+```
+
+Default value: True
+
+</td></tr><tr><td id="d464891e160">
+
+**Search bar**
+
+</td><td>
+
+To enable this option, set the `exclude_search_on_homepage` value to **false**.```
+"exclude_search_on_homepage":{
+		"displayValue":"false",
+		"value":false
+```
+
+Default value: true**Note:** By default, the search widget is displayed in the Employee Center homepage. Search bar on the global header is hidden by default that you can enable, if needed.
+
+</td></tr><tr><td id="d464891e184">
+
+**Wishlist**
+
+</td><td>
+
+To enable this option, set the `enable_wishlist` value to **true** ```
+"enable_wishlist":{
+		"displayValue":"true",
+		"value":true
+```
+
+Default value: False
+
+</td></tr><tr><td id="d464891e203">
+
+**My Requests**
+
+</td><td>
+
+To disable this option, set the `enable_requests` value to **false** ```
+"enable_requests":{
+		"displayValue":"false",
+		"value":false
+```
+
+Default value: True
+
+</td></tr><tr><td id="d464891e221">
+
+**My Tasks**
+
+</td><td>
+
+To disable this option, set the `enable_tasks` value to **false** ```
+"enable_tasks":{
+		"displayValue":"false",
+		"value":false
+```
+
+Default value: True
+
+</td></tr><tr><td id="d464891e239">
+
+**More**
+
+</td><td>
+
+To disable this option, set the `enable_more_items` value to **false** ```
+"enable_more_items":{
+      	"displayValue":"false",
+      	"value":true,
+"sysId":"47c952cbec8305107f44e04d648d43c0"
+
 ```
 
 Default value: True

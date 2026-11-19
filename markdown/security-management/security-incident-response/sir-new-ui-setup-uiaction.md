@@ -1,5 +1,5 @@
 ---
-title: Related List configuration
+title: Legacy: Related List configuration
 description: You can add new related lists or new related list groups, and modify existing groups or related lists that appear in the Security Analyst Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-new-ui-setup-uiaction.html
@@ -9,12 +9,16 @@ classification: security-incident-response
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Additional Security Analyst Workspace configuration, Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Legacy: Additional Security Analyst Workspace configuration, Legacy: Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Related List configuration
+# Legacy: Related List configuration
 
 You can add new related lists or new related list groups, and modify existing groups or related lists that appear in the Security Analyst Workspace.
+
+**Important:**
+
+The Security Incident Response UI \[sn\_app\_secops\_ui\] is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-workspace-landing-page.md) instead.
 
 **Add a Related List Group**
 

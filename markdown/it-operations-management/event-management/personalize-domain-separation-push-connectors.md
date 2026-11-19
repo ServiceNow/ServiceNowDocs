@@ -20,7 +20,7 @@ Configure push connectors to create events in domains other than the user's curr
 
 Make sure that you have the following setup:
 
--   You have read access to the domain information table for the evt\_mgmt\_integration role \(default table: core\_company\). For more information, see [Configure an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_CreateAnACLRule.md).
+-   You have read access to the domain information table for the evt\_mgmt\_integration role \(default table: core\_company\). For more information, see .
 -   You enabled the **evt\_mgmt.connector\_enable\_custom\_domain\_separation** .system property.
 -   You installed the following plug-ins in the ServiceNow AI Platform® instance:
     -   Event Management \(**com.glideapp.itom.snac**\)
@@ -44,15 +44,15 @@ Role required: evt\_mgmt\_admin
 
 4.  In the **Push Connector Configurations** screen, determine whether events should be created in the provided domain or the domain provided in the payload of each event.
 
-<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d308035e187">
+<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d310800e188">
 
 Domain creation location
 
-</th><th align="left" id="d308035e190">
+</th><th align="left" id="d310800e191">
 
 Parameter and values
 
-</th></tr></thead><tbody><tr><td id="d308035e196">
+</th></tr></thead><tbody><tr><td id="d310800e197">
 
 **The provided domain**
 
@@ -62,7 +62,7 @@ Parameter and values
 -   **Value**: domain-identifier
 
 
-</td></tr><tr><td id="d308035e218">
+</td></tr><tr><td id="d310800e219">
 
 **The domain provided in the payload of each event**
 
@@ -94,7 +94,7 @@ Parameter and values
 
 Events are created in the domain referred to by the domain identifier.
 
-**Note:** The table that stores domain information records \(for example, core\_company\) must be domain separated. For more information, see [Domain-separate a custom table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-ds-custom-table.md).
+**Note:** The table that stores domain information records \(for example, core\_company\) must be domain separated. For more information, see .
 
 **Parent Topic:**[Event Management Connectors domain personalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/domain-separation-connectors-personalization.md)
 

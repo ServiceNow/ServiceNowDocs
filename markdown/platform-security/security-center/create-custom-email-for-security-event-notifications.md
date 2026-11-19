@@ -1,6 +1,6 @@
 ---
 title: Create a custom email for security event notifications
-description: Learn how for creating a custom email for security event notifications by configuring new notifications, setting triggers, defining recipients, and crafting email content with dynamic event fields.
+description: Create a custom email for security event notifications by configuring new notifications, setting triggers, defining recipients, and crafting email content with dynamic event fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/create-custom-email-for-security-event-notifications.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure policy preferences, Security Event Notifications, Securit
 
 # Create a custom email for security event notifications
 
-Learn how for creating a custom email for security event notifications by configuring new notifications, setting triggers, defining recipients, and crafting email content with dynamic event fields.
+Create a custom email for security event notifications by configuring new notifications, setting triggers, defining recipients, and crafting email content with dynamic event fields.
 
 ## Before you begin
 
@@ -24,11 +24,11 @@ Role required: admin
 
 1.  Select **system notifications** &gt; **notification**.
 
-2.  Select **new**.
+2.  Select **New**.
 
-3.  Enter a **name** for the notification field.
+3.  In the **Name** field, enter a name for the notification.
 
-4.  Select the field next to **table** and enter security policy notification \(`sn_vsc_security_policy`\).
+4.  Select the field next to **Table** and enter security policy notification \(`sn_vsc_security_policy`\).
 
 5.  Configure the new record.
 
@@ -56,8 +56,8 @@ Select the field next to **Send when** label and select **Triggered**.
 
 </td><td>
 
--   Select the local icon next to **Users/Groups in fields**, and select both **Users** and **Groups**. Select the **Add Item** \(&gt;\) icon to move the fields into the **Selected** text field.
--   Right click on the record header banner and select **Save**.\)
+-   Select the local icon next to **Users/Groups in fields**, and select both **Users** and **Groups**. Select the Add Item \(&gt;\) icon to move the fields into the **Selected** text field.
+-   Select and hold \(or right-click\) the record header banner and select **Save**.
 
 
 </td></tr><tr><td>
@@ -66,9 +66,9 @@ Select the field next to **Send when** label and select **Triggered**.
 
 </td><td>
 
-Create an email template.See [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAnEmailTemplate.md) for more information.
+Create an email template.For instructions on creating an email template, see [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAnEmailTemplate.md).
 
-Enter fields of the event into **Message HTML**. This can be done by using the `${event_id.FIELD_NAME}`. Here's an example:
+Enter fields of the event into **Message HTML** by using the `${event_id.FIELD_NAME}`. Here's an example:
 
 ```
 

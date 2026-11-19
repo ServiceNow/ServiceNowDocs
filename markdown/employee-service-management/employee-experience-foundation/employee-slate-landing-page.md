@@ -20,7 +20,7 @@ ServiceNow EmployeeWorks Web App \(formerly known as Employee Slate\) is your AI
 
 <table id="table_topic-areas" class="nav-card presentation"><tbody><tr><td>
 
-[Getting started\[Omitted image "bus-service-aware.svg"\] Alt text:Install plugins, set up flows, configure branding, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md)
+[Getting started\[Omitted image "bus-service-aware.svg"\] Alt text:Install plugins, set up flows, configure branding, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/eslate-config-admin-console.md)
 
 </td><td>
 
@@ -32,7 +32,7 @@ ServiceNow EmployeeWorks Web App \(formerly known as Employee Slate\) is your AI
 
 </td></tr><tr><td>
 
-[Now Assist\[Omitted image "bus-chat.svg"\] Alt text:AI-powered assistance integrated into the EmployeeWorks Web App experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/employee-slate-nowassist.md)
+[Now Assist\[Omitted image "bus-chat.svg"\] Alt text:AI-powered assistance integrated into the EmployeeWorks Web App experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-slate-nowassist.md)
 
 </td><td>
 

@@ -1,6 +1,6 @@
 ---
 title: Create a script in Microsoft Endpoint Configuration Manager
-description: Create a script in the Microsoft Endpoint Configuration Manager to configure the display of the processes metrics on the Investigation tab of the Incident record.
+description: Create a script in the Microsoft Endpoint Configuration Manager to configure the display of the process metrics on the Investigation tab of the incident record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-mecm-script.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configuring CI metrics for MECM, Setting up Investigation Framework
 
 # Create a script in Microsoft Endpoint Configuration Manager
 
-Create a script in the Microsoft Endpoint Configuration Manager to configure the display of the processes metrics on the **Investigation** tab of the Incident record.
+Create a script in the Microsoft Endpoint Configuration Manager to configure the display of the process metrics on the **Investigation** tab of the incident record.
 
 ## About this task
 
@@ -34,7 +34,7 @@ Role required: admin
 
 2.  On the Microsoft Endpoint Configuration Manager, select **Software Library**.
 
-3.  On the Software Library section, select **Scripts** and click **Create Script**.
+3.  On the Software Library section, select **Scripts** and select **Create Script**.
 
     Alternatively, you can also right-click **Scripts** and select **Create Script**.\[Omitted image "select-create-script.png"\] Alt text: Select create script option
 
@@ -52,13 +52,13 @@ Role required: admin
 
 8.  Select the script record.
 
-9.  Select the **Approve/Deny** option and then click **Approve** to approve the script.
+9.  Select the **Approve/Deny** option and then select **Approve** to approve the script.
 
-    Alternatively, you can also right-click on the created script record and select the **Approve/Deny** option and then click **Approve**.\[Omitted image "approve-script-record.png"\] Alt text: Approve script record
+    Alternatively, you can also right-click on the created script record and select the **Approve/Deny** option and then select **Approve**.\[Omitted image "approve-script-record.png"\] Alt text: Approve script record
 
 10. Get the script GUID.
 
-    1.  Open power shell console using **Connect via Windows PowerShell ISE**.
+    1.  Open the PowerShell console using **Connect via Windows PowerShell ISE**.
 
         \[Omitted image "connect-window-power-shell.png"\] Alt text: Connect via Windows Powershell ISE
 

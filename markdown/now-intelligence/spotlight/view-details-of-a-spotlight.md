@@ -24,7 +24,7 @@ Role required: pa\_spotlight or admin
 
 1.  Navigate to **All** &gt; **Spotlight** &gt; **Spotlight** or view the **Spotlights** related list in a Spotlight Group record.
 
-2.  Locate the Spotlight that interests you and click the information icon \[Omitted image "PreviewIcon.png"\] Alt text:.
+2.  Locate the Spotlight that interests you and click the information icon \[Omitted image "PreviewIcon.png"\] Alt text: Information icon.
 
 3.  Click **Open Record**
 

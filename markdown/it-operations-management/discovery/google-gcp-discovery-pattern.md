@@ -8,7 +8,7 @@ product: Discovery
 classification: discovery
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [Patterns, Google, Cloud, Discovery]
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Button condition support enablement
-description: Use mobile scripts to update data across multiple tables and to control button visibility and behavior, whether users are online or offline.
+description: Learn how to enable button conditions for mobile scripting. Use mobile scripts to update data across multiple tables and to control button visibility and behavior, whether users are online or offline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/button-config-mobile-script.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Components that support mobile scripts, Mobile scripting in offline
 
 # Button condition support enablement
 
-Use mobile scripts to update data across multiple tables and to control button visibility and behavior, whether users are online or offline.
+Learn how to enable button conditions for mobile scripting. Use mobile scripts to update data across multiple tables and to control button visibility and behavior, whether users are online or offline.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: mobile\_admin
 
 ## About this task
 
-Mobile scripts can serve as the functional component behind a button condition, so button visibility and behavior can be driven by script logic when both offline and online. By default, the mobile offline capabilities for button conditions aren't enabled for existing records. You must explicitly opt in to the new Mobile Scripts framework capabilities.
+Mobile scripts can serve as the functional component behind a button condition, so button visibility and behavior is driven by script logic when both offline and online. By default, the mobile offline capabilities for button conditions aren't enabled for existing records. You must explicitly opt in to the mobile script framework capabilities.
 
 **Note:** Enabling mobile scripting capabilities for offline button functions takes place in the ServiceNow AI Platform. All other button function configuration occurs in MAB. For more information, see [Configure offline mode properties for action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/config-offline-properties-action-funct.md).
 
@@ -32,7 +32,7 @@ Mobile scripts can serve as the functional component behind a button condition, 
 
 2.  Either select **New** to create a button record or select an existing record.
 
-3.  In the record select the **Offline Properties**tab.
+3.  In the record select the **Offline Properties** tab.
 
 4.  Select the **Offline** option.
 

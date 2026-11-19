@@ -8,7 +8,7 @@ product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [risk assessment, AI systems, risk score, Advanced Risk, risk assessment methodology, perform risk assessment, AI Risk and Compliance]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---

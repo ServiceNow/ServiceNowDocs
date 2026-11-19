@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [AI Search record producer for Service Portal, Integrate, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [AI Search record producer for Service Portal, Integrate, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure AI Search Assist for a record producer

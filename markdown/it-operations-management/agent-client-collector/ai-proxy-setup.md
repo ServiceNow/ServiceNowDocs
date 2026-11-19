@@ -38,7 +38,7 @@ Role required: agent\_client\_collector\_admin
     -   On a Windows server:
 
         ```
-        msiexec /i <msi_file_path> /quiet /qn /norestart CONNECT_WITHOUT_MID="true" ACC_CNC="<itom_gateway_url>" REGISTRATION_KEY="<agent_registration_key>" INSTANCE_URL="https://<instance_url> AI_PROXY_ENABLED="true" LOCALUSERNAME="LocalSystem" 
+        msiexec /i <msi_file_path> /quiet /qn /norestart CONNECT_WITHOUT_MID="true" ACC_CNC="<itom_gateway_url>" REGISTRATION_KEY="<agent_registration_key>" INSTANCE_URL="https://<instance_url>" AI_PROXY_ENABLED="true" LOCALUSERNAME="LocalSystem" 
         ```
 
     -   On a Linux or macOS server:
@@ -56,5 +56,5 @@ The AI proxy monitors AI traffic coming from your AI tools. Traffic is either al
 
 ## What to do next
 
-Configure AICT policies to determine which AI resources are blocked, and for whom. For details, see .
+Configure AICT policies to determine which AI resources are blocked, and for whom. For details, see [Create AI Control Tower \(AICT\) policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/create-aict-policies.md).
 

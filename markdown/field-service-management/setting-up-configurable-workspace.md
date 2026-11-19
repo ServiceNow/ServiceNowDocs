@@ -1,6 +1,6 @@
 ---
-title: Setting up CSM/FSM Configurable Workspace
-description: Setting up CSM/FSM Configurable Workspace involves configuring Dispatcher Workspace and the Field Service Territory Planning Console.
+title: Setting up CRM Workspace
+description: Setting up CRM Workspace involves configuring Dispatcher Workspace and the Field Service Territory Planning Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/setting-up-configurable-workspace.html
 release: brazil
@@ -10,15 +10,15 @@ reading_time_minutes: 1
 breadcrumb: [Configure, Field Service Management]
 ---
 
-# Setting up CSM/FSM Configurable Workspace
+# Setting up CRM Workspace
 
-Setting up CSM/FSM Configurable Workspace involves configuring Dispatcher Workspace and the Field Service Territory Planning Console.
+Setting up CRM Workspace involves configuring Dispatcher Workspace and the Field Service Territory Planning Console.
 
 To enhance efficiency in task management and agent assignments, set up the Dispatcher Workspace. This setup will help in organizing and distributing tasks effectively. Use the Field Service Territory Planning tool to define and assign the most appropriate territories for work order tasks, which helps achieve optimal task distribution. Additionally, configure the CSM Agent Workspace and establish specific roles to facilitate precise task execution. Lastly, configure Workforce to manage team schedules, access geographical data, and track historical movements of agents, ensuring a comprehensive management system that supports both current and future operational needs.
 
 ## Configuration overview
 
-The steps for setting up CSM/FSM Configurable Workspace are:
+The steps for setting up CRM Workspace are:
 
 1.  [Configuring Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/configuring-dispatcher-workspace.md)
 

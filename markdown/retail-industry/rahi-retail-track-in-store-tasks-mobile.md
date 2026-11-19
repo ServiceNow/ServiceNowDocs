@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 1
-breadcrumb: [Track In-store operations cases and tasks, Manage store plans, Retail]
+breadcrumb: [Track In-store operations cases and tasks, Create and manage store plans, Retail]
 ---
 
 # Track an In-store operations task on Retail mobile app

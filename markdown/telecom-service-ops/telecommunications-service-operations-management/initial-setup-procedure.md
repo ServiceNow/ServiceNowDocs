@@ -9,7 +9,7 @@ classification: telecommunications-service-operations-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure Nokia Altiplano SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Nokia Altiplano SGC, Configure service graph connectors, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Set up Nokia Altiplano
@@ -44,7 +44,7 @@ Verify the active application scope is Service Graph Connector \(SGC\) for Nokia
 
     3.  Select **Mark as Complete** when done.
 
-        **Note:** For more information on how to install and configure MID Server, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-mid-server.md).
+        **Note:** For more information on how to install and configure MID Server, see .
 
     4.  Configure or skip the validation step.
 
@@ -69,7 +69,7 @@ Verify the active application scope is Service Graph Connector \(SGC\) for Nokia
         2.  In the **User name** field, specify your Nokia Altiplano instance user name.
         3.  In the **Password** field, specify your Nokia Altiplano instance password.
 
-            **Note:** Other authentication fields may be required depending on the authentication methods used in your Nokia Altiplano instance. By default, we use [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md) \(as part of the Guided setup\).
+            **Note:** Other authentication fields may be required depending on the authentication methods used in your Nokia Altiplano instance. By default, we use  \(as part of the Guided setup\).
 
         4.  Leave the rest of the fields as default, select **Submit** and then select **Mark as Complete**.
     4.  Create HTTP Connection by selecting **Configure**
@@ -84,15 +84,15 @@ Verify the active application scope is Service Graph Connector \(SGC\) for Nokia
         5.  Leave the rest of the fields as default, select **Submit** and then select **Mark as Complete**.
 5.  Configure Data Collection Schedule either for bulk discovery or filtered discovery by clicking **Get Started**and then click **Configure**.
 
-<table id="choicetable_h3d_ndy_yfc"><thead><tr><th align="left" id="d35601e357">
+<table id="choicetable_h3d_ndy_yfc"><thead><tr><th align="left" id="d35421e351">
 
 To
 
-</th><th align="left" id="d35601e360">
+</th><th align="left" id="d35421e354">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d35601e366">
+</th></tr></thead><tbody><tr><td id="d35421e360">
 
 **Schedule data collection for bulk discovery \(Use bulk discovery data source for all devices in connection alias\)**
 
@@ -107,7 +107,7 @@ Do the following
 -   In the **Time** field, enter the time in hours, minutes, and seconds.
 
 
-</td></tr><tr><td id="d35601e423">
+</td></tr><tr><td id="d35421e417">
 
 **Schedule data collection for filtered discovery \(Use Filtering Discovery data source for specific OLT filter criteria for each connection alias\)**
 

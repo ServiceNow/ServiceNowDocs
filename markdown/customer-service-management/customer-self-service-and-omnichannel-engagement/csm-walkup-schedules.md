@@ -1,6 +1,6 @@
 ---
 title: Configure Walk-up Experience schedules
-description: Once you know the hours of operation for your Walk-up Experience location, you can either access the base system default schedules or create schedules to associate with your walk-up location.
+description: Use a base-system schedule or create one for the hours of operation of your walk-up location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-schedules.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set u
 
 # Configure Walk-up Experience schedules
 
-Once you know the hours of operation for your Walk-up Experience location, you can either access the base system default schedules or create schedules to associate with your walk-up location.
+Use a base-system schedule or create one for the hours of operation of your walk-up location.
 
 ## Before you begin
 
@@ -26,9 +26,11 @@ Role required: sn\_csm\_walkup.walkup\_admin
 
     The Schedules list opens. You can view all available base-system default schedules, such as **8-5 weekdays excluding holidays**.
 
-2.  To modify an existing base system schedule, select the schedule name, otherwise select New to create a schedule if none of the default schedules apply for your walk-up location.
+2.  Select the schedule name to modify an existing base system schedule.
 
-3.  Complete the Schedule New record form or modify fields on an existing form.
+3.  If none of the default schedules apply to your walk-up location, select **New** to create a schedule.
+
+4.  Complete the Schedule New record form or modify fields on an existing form.
 
     To complete this process and for detailed information on creating, modifying, and using schedules in the system, including a definition of all form fields, refer to [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UseSchedules.md).
 

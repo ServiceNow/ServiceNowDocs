@@ -1,5 +1,5 @@
 ---
-title: Common Service Data Model
+title: Common Service Data Model \(CSDM\)
 description: The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB help to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.html
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 breadcrumb: [Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Common Service Data Model
+# Common Service Data Model \(CSDM\)
 
 The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB help to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 

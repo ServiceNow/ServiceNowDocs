@@ -1,19 +1,19 @@
 ---
-title: Managing assist consumption \(Lux UI\)
-description: The Assist consumption page provides features that enable you to view the assists consumed on your instance.
+title: Assist management page \(Lux UI\)
+description: The Assist management page provides features that enable you to view the assists consumed on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-admin-center-lux-managing-assist-consumption.html
 release: brazil
 topic_type: concept
 last_updated: "2026-10-05"
 reading_time_minutes: 1
-keywords: [AI Admin Center, Now Assist Center, AI, AI setup, assist consumption]
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup, assist consumption, assist management]
 breadcrumb: [Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
-# Managing assist consumption \(Lux UI\)
+# Assist management page \(Lux UI\)
 
-The Assist consumption page provides features that enable you to view the assists consumed on your instance.
+The Assist management page provides features that enable you to view the assists consumed on your instance.
 
 **Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-user-experience.md).
 

@@ -32,7 +32,7 @@ For each client that you want to access servers on an instance, create an OAuth 
 
     Alternatively, you can navigate to **All** &gt; **Machine Identity Console** and select the **Inbound integrations** tab.
 
-    **Note:** In the list of existing inbound integrations, you might see integrations created with the same names as servers \(including underscores\). These are integrations for monitoring servers from AI Control Tower and shouldn't be used to integrate with clients.
+    **Note:** In the list of existing inbound integrations, you might see integrations created with the same names as servers \(including underscores\). These are integrations for monitoring servers from Control Tower and shouldn't be used to integrate with clients.
 
 4.  Select **New integration**.
 

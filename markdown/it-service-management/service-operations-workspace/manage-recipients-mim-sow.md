@@ -1,6 +1,6 @@
 ---
 title: Manage recipients in a communication task
-description: Manage the recipients list for a communication task to create flexible and effective communication with the required stakeholders.
+description: Manage the recipients list for a communication task to communicate with the required stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/manage-recipients-mim-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Communicating about incidents and major incidents, Managing a major
 
 # Manage recipients in a communication task
 
-Manage the recipients list for a communication task to create flexible and effective communication with the required stakeholders.
+Manage the recipients list for a communication task to communicate with the required stakeholders.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: major\_incident\_manager, ia\_admin, itil, or admin
 
 2.  Select **Manage recipients**.
 
-    You can also select the **More actions** \(\[Omitted image "mim-more-action-icon.png"\] Alt text: More action icon\) icon for a communication task and then select **Manage recipients**.
+    You can also select the More actions icon \[Omitted image "mim-more-action-icon.png"\] Alt text: for a communication task and then select **Manage recipients**.
 
 3.  On the Manage recipients pop-up window, fill in the details.
 
@@ -44,7 +44,7 @@ Communication
 
 </td><td>
 
-Communication plan that is associated with the communication task for which you want to manage recipients.**Note:** When you select the **More actions** icon \(\[Omitted image "mim-more-action-icon.png"\] Alt text: More action icon\) for a communication task and then select **Manage recipients**, the communication plan associated the selected communication task is selected by default. When you select the **Manage recipients** option directly from the **Communicate** tab, you must select the communication plan.
+Communication plan that is associated with the communication task for which you want to manage recipients.**Note:** When you select the More actions icon \[Omitted image "mim-more-action-icon.png"\] Alt text: for a communication task and then select **Manage recipients**, the communication plan associated with the selected communication task is selected by default. When you select the **Manage recipients** option directly from the **Communicate** tab, you must select the communication plan.
 
 </td></tr><tr><td>
 

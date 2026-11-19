@@ -1,6 +1,6 @@
 ---
 title: Incident record page customization
-description: You can customize the Overview tab and the contextual side panel for an incident.Modify the Overview tab of an incident record page to display the summary and other information of the incident for an agent.Modify the Investigation tab of an incident record page.Customize the Remedial action playbook displayed on the contextual side panel of an incident record page.Modify the incident record information displayed on the contextual side panel of an incident record page.Configure the display of service level agreement \(SLA\) information in the incident record page.Enable quick updates for field values in a list in Service Operations Workspace.Customize on how the CI related metrics information is displayed on the Investigate tab of the Incident record.Configure the collection rules and map the rules to the metric definitions in the Investigate Framework module. This configuration enables you to define when the CI related metrics information is automatically retrieved on the Investigate tab of the Incident record.
+description: You can customize the Overview tab and the contextual side panel for an incident.Modify the Overview tab of an incident record page to display the summary and other information of the incident for an agent.Modify the Investigation tab of an incident record page.Customize the Remedial action playbook displayed on the contextual side panel of an incident record page.Modify the incident record information displayed on the contextual side panel of an incident record page.Configure the display of service level agreement \(SLA\) information in the incident record page.Enable quick updates for field values in a list in Service Operations Workspace.Customize how the CI-related metrics information is displayed on the Investigate tab of the Incident record.Configure the collection rules and map the rules to the metric definitions in the Investigate Framework module. This configuration enables you to define when the CI related metrics information is automatically retrieved on the Investigate tab of the Incident record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/customize-the-incident-record-page.html
 release: brazil
@@ -69,11 +69,11 @@ For advanced customization of the **Overview** tab with SRP record, use the foll
 
 8.  Before making any changes, duplicate the SRP variant by performing the following steps:
 
-    1.  Navigate to **All** &gt; **Service Operations Workspace** &gt; **Administration** &gt; **Page Collections.**
+    1.  Navigate to **All** &gt; **Service Operations Workspace** &gt; **Administration** &gt; **Page Collections**
 
     2.  Select **Duplicate** on the incident record page variant.
 
-        Working on a duplicate allows you to make changes safely while the original SRP remains unchanged. You can use it as a backup if required.
+        Working on a duplicate enables you to make changes safely while the original SRP remains unchanged. You can use it as a backup if required.
 
 9.  Select the duplicate variant icon \(\[Omitted image "duplicate-variant.png"\] Alt text: Duplicate variant icon.\).
 
@@ -115,7 +115,7 @@ For advanced customization of the **Overview** tab with SRP record, use the foll
 
     If the new copy is in a different application scope, select **Edit in original scope** before you start editing.
 
-13. Edit the **Order** value to modify the display order of the variants,
+13. Edit the **Order** value to modify the display order of the variants.
 
     The variant with the lowest number is the default configuration.
 
@@ -168,7 +168,7 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
     The Variant creation page is displayed.
 
-9.  Enter the **Name** as`SOW Investigate SNC copy`.
+9.  Enter the **Name** as `SOW Investigate SNC copy`.
 
     An error is displayed for the **Conditions** field.
 
@@ -221,7 +221,7 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
     For more information on working with pages, see [Work with pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/work-pages.md).
 
 
-## Customize the Remedial action playbook for an incident
+## Customize the remedial action playbook for an incident
 
 Customize the Remedial action playbook displayed on the contextual side panel of an incident record page.
 
@@ -301,7 +301,7 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
 15. Select **Save**.
 
-16. Select the **Editor** tab to start editing the page components for customizing the remedial action playbook .
+16. Select the **Editor** tab to start editing the page components for customizing the remedial action playbook.
 
     1.  Select the **Body** level of the **Content** tree to the left of the main page area of UI Builder.
 
@@ -356,9 +356,9 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
     1.  Close the Variant creation page.
 
-    2.  Under **Record Information**, point to the **Record Information SNC** variant, select the options icon \(\[Omitted image "options-variant.png"\] Alt text: Options icon,\), and then select **View settings**.
+    2.  Under **Record Information**, point to the **Record Information SNC** variant, select the options icon \(\[Omitted image "options-variant.png"\] Alt text: Options icon.\), and then select **View settings**.
 
-    3.  Select **Open records** then select **Variant record**.
+    3.  Select **Open records** and then select **Variant record**.
 
         The Record Information SNC record is displayed.
 
@@ -384,7 +384,7 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
 11. Edit the **Order** value to modify the display order of the variants.
 
-    The variant with the lowest number is considered as the default configuration.
+    The variant with the lowest number is the default configuration.
 
 12. Add the criteria to display a page or tab in **Variant conditions**.
 
@@ -412,13 +412,13 @@ The following SLA timer configurations display the response and resolution SLA f
 -   Incident Response
 -   Incident Resolution
 
-You should configure SLA timer configuration mappings for these timer configurations. For information on how you can configure these mappings, see [Configure the SLA timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/sla-timer-configurations.md).
+SLA timer configuration mappings must be configured for these timer configurations. For information on how you can configure these mappings, see [Configure the SLA timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/sla-timer-configurations.md).
 
 ### Procedure
 
 1.  Navigate to **System Definition** &gt; **Script Includes**.
 
-2.  From the Script Includes list, select **SOWIncidentInfo**.
+2.  From the Script Includes list, select `SOWIncidentInfo`.
 
 3.  In the **Script** field, modify the display information for SLAs.
 
@@ -465,7 +465,7 @@ If the Hardware Asset Management Professional plugin \(com.sn\_hamp\) is install
 
 ## Customize the Investigate tab
 
-Customize on how the CI related metrics information is displayed on the **Investigate** tab of the Incident record.
+Customize how the CI-related metrics information is displayed on the **Investigate** tab of the Incident record.
 
 ### Before you begin
 
@@ -492,7 +492,7 @@ Use this task to customize and configure the **Investigate** tab of the Incident
 
 4.  From the Script Includes list, select **sn\_sow.SOWInvestigateConfig**.
 
-    For example, refer the screen shot for sn\_sow.SOWInvestigateConfig script include record.
+    For example, see the screenshot for the `sn_sow.SOWInvestigateConfig` script include record.
 
     \[Omitted image "script\_includes\_sowinvestigate.png"\] Alt text: sn\_sow.SOWInvestigateConfig script includes record
 
@@ -512,7 +512,7 @@ Use this task to customize and configure the **Investigate** tab of the Incident
 
     -   **sn\_acc\_adapter.AccTransformUtils** for Agent Client Collector for Investigation \(ACC\).
     -   **sn\_mecm\_adapter.MecmTransformUtils** for Microsoft Endpoint Configuration Manager for Investigation \(MECM\).
-    For example, refer the screen shot for sn\_acc\_adapter.AccTransformUtils script include record.
+    For example, see the screenshot for the `sn_acc_adapter.AccTransformUtils` script include record.
 
     \[Omitted image "script\_includes\_acctransform.png"\] Alt text: sn\_acc\_adapter.AccTransformUtils script includes record
 
@@ -525,7 +525,7 @@ Use this task to customize and configure the **Investigate** tab of the Incident
 
 ### What to do next
 
-On the **Investigate** tab of the Incident record in the Service Operations Workspace, click the get latest metrics icon \(\[Omitted image "get-latest-matrix.png"\] Alt text: get latest matrix refresh\) to refresh and view the customizations. For more information, see [Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/incident-sow.md).
+On the **Investigate** tab of the Incident record in the Service Operations Workspace, select the get latest metrics icon \(\[Omitted image "get-latest-matrix.png"\] Alt text: get latest matrix refresh\) to refresh and view the customizations. For more information, see [Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/incident-sow.md).
 
 ## Configure Investigate tab collection rules
 

@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [EmployeeWorks, Employee Service Management]
+breadcrumb: [Employee Center \(Pro\), Employee Service Management]
 ---
 
 # ServiceNow Otto for Employee Experience

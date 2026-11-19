@@ -18,9 +18,9 @@ Configure the **fuzzyCount** property to modify how the number of records is dis
 
 ## About this task
 
-The input of the **fuzzyCount** property is JSON key value pair. The property applies to any new list component used across SOW pages where record count limit input for the component isn't defined.
+The input of the **fuzzyCount** property is a JSON key-value pair. The property applies to any new list component used across SOW pages where record count limit input for the component isn't defined.
 
-The **fuzzyCount** property applies to all SOW list including related list and Multi Record Associator \(MRA\) list in the SOW records pages.
+The **fuzzyCount** property applies to all SOW lists, including related lists and Multi Record Associator \(MRA\) lists, in the SOW records pages.
 
 ## Before you begin
 

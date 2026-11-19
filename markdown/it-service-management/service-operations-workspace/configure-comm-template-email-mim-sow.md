@@ -1,6 +1,6 @@
 ---
 title: Configure a communication template for email in Major Incident Management
-description: Configure a communication templates for email in Major Incident Management to help reduce the efforts and time spent in creating and composing communication emails.
+description: Configure a communication template for email in Major Incident Management to help reduce the effort and time spent creating and composing communication emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-comm-template-email-mim-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Setting up communication templates and plans in Major Incident Mana
 
 # Configure a communication template for email in Major Incident Management
 
-Configure a communication templates for email in Major Incident Management to help reduce the efforts and time spent in creating and composing communication emails.
+Configure a communication template for email in Major Incident Management to help reduce the effort and time spent creating and composing communication emails.
 
 ## Before you begin
 
@@ -78,7 +78,7 @@ Execution order
 
 </td><td>
 
-The sequence that the templates are applied. The template with lowest execution order is applied first. For example, a template with execution order = 100 is applied first then a template with execution order = 200.
+The sequence in which the templates are applied. The template with the lowest execution order is applied first. For example, a template with execution order = 100 is applied first, and then a template with execution order = 200.
 
 </td></tr><tr><td>
 
@@ -166,10 +166,10 @@ From Generation Type
 
 </td><td>
 
-Generation type of the email sent. This value provides information about the email sender displayed on the **From** section of the email. Possible values:-   **SMTP Email Account**: Email is generated and sent using the SMTP email account of the sender.The **From** section of the email sent displays the SMTP email account of the sender.
+Generation type of the email sent. This value provides information about the email sender displayed on the **From** section of the email. Possible values:-   **SMTP Email Account**: Email is generated and sent using the SMTP email account of the sender. The **From** section of the email sent displays the SMTP email account of the sender.
 -   **Select from List**: The **From** section of the email sent displays the list of email addresses specified in the **Email Client from Address** field.
--   **Script**: Email is generated and sent using the script specified in the **Script For From** field. The From section of the email sent displays the sender name based on the script.
--   **Text**: The From section of the email displays the value specified in the **From** field.
+-   **Script**: Email is generated and sent using the script specified in the **Script For From** field. The **From** section of the email sent displays the sender name based on the script.
+-   **Text**: The **From** section of the email displays the value specified in the **From** field.
 -   **None**: The **From** section of the email sent displays no value.
 
 

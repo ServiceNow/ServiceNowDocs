@@ -1,5 +1,5 @@
 ---
-title: Suggested steps generation in ServiceNow Otto for IT Service Management \(ITSM\)
+title: Generate suggested steps in ServiceNow Otto for IT Service Management \(ITSM\)
 description: Generate suggested steps automatically by analyzing clusters of closed incidents with similar incident resolution in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/now-assist-for-it-service-management-itsm/resolution-steps-generation-now-assist-itsm.html
@@ -13,7 +13,7 @@ keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Suggested steps generation in ServiceNow Otto for IT Service Management \(ITSM\)
+# Generate suggested steps in ServiceNow Otto for IT Service Management \(ITSM\)
 
 Generate suggested steps automatically by analyzing clusters of closed incidents with similar incident resolution in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 
@@ -57,15 +57,15 @@ Data from the short description field and the filter conditions set in the incid
 
     The steps to resolve the incident appear in a **Recommendations** pop-up window in the incident record. This action may take a few minutes.
 
-<table id="choicetable_mpv_t1l_ljc"><thead><tr><th align="left" id="d203571e248">
+<table id="choicetable_mpv_t1l_ljc"><thead><tr><th align="left" id="d204266e250">
 
 If
 
-</th><th align="left" id="d203571e251">
+</th><th align="left" id="d204266e253">
 
 Then
 
-</th></tr></thead><tbody><tr><td id="d203571e257">
+</th></tr></thead><tbody><tr><td id="d204266e259">
 
 **You're using LEAP**
 
@@ -73,7 +73,7 @@ Then
 
 The LEAP Resolution Steps Recommendation will appear.\[Omitted image "now-assist-itsm-recommended-actions-leap.png"\] Alt text: LEAP recommended actions
 
-</td></tr><tr><td id="d203571e274">
+</td></tr><tr><td id="d204266e276">
 
 **You're using Suggested steps**
 

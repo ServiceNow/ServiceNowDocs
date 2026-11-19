@@ -8,7 +8,7 @@ product: System Import Sets
 classification: system-import-sets
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Importing data using import sets, Import sets, Imports, Workflow Data Fabric]
 ---
 

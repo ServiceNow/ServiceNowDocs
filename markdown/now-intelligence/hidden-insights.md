@@ -16,6 +16,8 @@ Generate a deeper level of analysis that can reveal new insights, enabling you t
 
 Extended analysis requires the analytics hidden insight skill from Query Generation to be active. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-query-generation.md).
 
+For extended analysis to apply to Workflow Data Fabric tables, the system property **sn\_query\_gen.hidden.insights.wdf.enabled** must be created and set to `true`.
+
 To turn on extended analysis for an exploration, select it in the **Ask a question about data** field. You have the same choice when you launch AI Data Explorer in a data visualization or list.
 
 \[Omitted image "nowass-expl-extended-vs-standard-analysis.png"\] Alt text: Selecting extended or standard analysis.

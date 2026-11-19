@@ -1,25 +1,25 @@
 ---
 title: Change and offboarding requests
-description: Make controlled changes to a managed AI asset, or retire an asset that is no longer needed, by submitting a request for AI steward review and approval.
+description: Make controlled changes to a managed AI asset in Super Intelligence Control Tower, or retire an asset that is no longer needed, by submitting a request for AI steward review and approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ac-change-and-offboarding-requests.html
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [change request, offboarding request, retire]
-breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing tasks and approvals, Address action items, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Change and offboarding requests
 
-Make controlled changes to a managed AI asset, or retire an asset that is no longer needed, by submitting a request for AI steward review and approval.
+Make controlled changes to a managed AI asset in Super Intelligence Control Tower, or retire an asset that is no longer needed, by submitting a request for AI steward review and approval.
 
-A request is a structured submission that an asset owner makes when they need to change or retire a managed AI asset. AI Control Tower routes each request to an AI steward for review, runs the request through the appropriate approval playbook, and either applies the requested change or moves the asset to retirement. Requests give asset owners a controlled way to evolve their AI assets, and they give AI stewards a consistent way to govern those changes.
+A request is a structured submission that an asset owner makes when they need to change or retire a managed AI asset. Control Tower routes each request to an AI steward for review, runs the request through the appropriate approval playbook, and either applies the requested change or moves the asset to retirement. Requests give asset owners a controlled way to evolve their AI assets, and they give AI stewards a consistent way to govern those changes.
 
 ## Types of requests
 
-AI Control Tower supports two types of requests:
+Control Tower supports two types of requests:
 
 -   **Change request**
 
@@ -35,9 +35,9 @@ AI Control Tower supports two types of requests:
 Both request types follow a similar lifecycle:
 
 1.  An asset owner submits the request from the asset record.
-2.  AI Control Tower runs the request through an approval playbook. The playbook might require a review of the asset, an evaluation of the impact, and a remediation plan before the request can be approved.
+2.  Control Tower runs the request through an approval playbook. The playbook might require a review of the asset, an evaluation of the impact, and a remediation plan before the request can be approved.
 3.  An AI steward reviews the request, including the impact on related sub-AI systems and AI models. The steward approves or rejects the request.
-4.  If approved, AI Control Tower applies the change to the asset \(for a change request\) or moves the asset into the offboarding stage \(for an offboarding request\). If rejected, the asset is unchanged and the request is closed.
+4.  If approved, Control Tower applies the change to the asset \(for a change request\) or moves the asset into the offboarding stage \(for an offboarding request\). If rejected, the asset is unchanged and the request is closed.
 
 ## Where requests appear
 

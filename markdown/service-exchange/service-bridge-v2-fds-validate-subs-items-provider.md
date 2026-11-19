@@ -64,15 +64,15 @@ After the consumer sends the sample, the system creates a subscription for each 
 
     Some non-CMDB tables have names that start with cmdb\_, such as Product Model \[cmdb\_model\], Hardware Model \[cmdb\_hardware\_product\_model\], and Consumable Model \[cmdb\_consumable\_product\_model\]. Configure these tables using the non-CMDB table option. Refer to the following table for detailed steps.
 
-<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d38472e206">
+<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d38474e208">
 
 Option
 
-</th><th align="left" id="d38472e209">
+</th><th align="left" id="d38474e211">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38472e215">
+</th></tr></thead><tbody><tr><td id="d38474e217">
 
 **Configure data integration for CMDB CI tables**
 
@@ -92,7 +92,7 @@ The system creates a basic field mappings based on matching field names. Review 
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d38472e261">
+</td></tr><tr><td id="d38474e263">
 
 **Configure data integration for CMDB CI tables \(__Maintain sysID__ enabled by the provider\)**
 
@@ -107,7 +107,7 @@ A message is displayed stating that you're about to navigate to the Transform Ma
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d38472e303">
+</td></tr><tr><td id="d38474e305">
 
 **Configure data integration for non-CMDB table and CMDB non-CI table**
 

@@ -1,13 +1,13 @@
 ---
 title: Discovery release notes
-description: The ServiceNow Discovery application automatically identifies and maps IT infrastructure across on-premises and cloud environments. It helps organizations maintain an accurate Configuration Management Database \(CMDB\), improve operational visibility, and reduce manual data collection efforts.The Brazil release expands Discovery's monitoring and scanning capabilities with daily performance snapshots for slow-pattern tables, PowerShell 7 support for MID Server configuration, and expanded credential-less scan options.Discovery Admin Workspace continues to centralize Discovery workflows with new certificate discovery capabilities, Kubernetes resource visibility, and integrated Shazzam insights. These updates help administrators manage discovery activities more efficiently without switching between multiple tools and dashboards.
+description: The ServiceNow Discovery application automatically identifies and maps IT infrastructure across on-premises and cloud environments. It helps organizations maintain an accurate Configuration Management Database \(CMDB\), improve operational visibility, and reduce manual data collection efforts.The Brazil release expands Discovery's monitoring and scanning capabilities with daily performance snapshots for slow-pattern tables, PowerShell 7 support for MID Server configuration, and expanded credential-less scan options.Discovery Admin Workspace continues to centralize Discovery workflows with new certificate discovery capabilities, Kubernetes resource visibility, and integrated Shazzam insights. These updates help administrators manage discovery activities more efficiently without switching between multiple tools and dashboards.Discovery Admin Workspace now offers read-only access for Operator users and domain filtering for IP-based schedules and anomaly detection. Operators are limited in what they can do, while domain filtering limits which data users can see.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/discovery-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 4
-keywords: [Discovery, Discovery Admin Workspace, Discovery, Discovery Admin Workspace]
+reading_time_minutes: 5
+keywords: [Discovery, Discovery Admin Workspace, Discovery, Discovery Admin Workspace, Discovery, Discovery Admin Workspace]
 breadcrumb: [ITOM Visibility release notes, IT Operations Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -87,5 +87,31 @@ Discovery Admin Workspace continues to centralize Discovery workflows with new c
 -   **[IP Inventory multi-schedule link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/daw-ip-inventory.md)**
 
     IP ranges and IP network discovery ranges that belong to a discovery range set used across multiple schedules now display a linked value in the **Discovery Schedule** column. Select the **Multiple** link to open the associated records in the Discovery Schedule Range \[discovery\_schedule\_range\] table, filtered by the relevant discovery range.
+
+
+## Discovery Admin Workspace version 1.23.0
+
+Discovery Admin Workspace now offers read-only access for Operator users and domain filtering for IP-based schedules and anomaly detection. Operators are limited in what they can do, while domain filtering limits which data users can see.
+
+### What's new
+
+-   **Monitor discovery with read-only access**
+
+    The `discovery_operator` role gives team members read-only access to Discovery Admin Workspace so they can monitor Discovery health, investigate failures, and validate results. Operators can view schedules, diagnostics, anomaly detection, and IP inventory. They can run an existing schedule with **Discover now** and export data from the IP inventory and available insights. Available insights depend on installed plugins and instance configuration.
+
+    Operators can't create, edit, or delete schedules, change settings, or install apps, or access the **Content 360**, **Tuning**, and **Settings** pages.
+
+-   **[Filter views by domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_DiscoveryDomainSeparation.md)**
+
+    Teams that use multiple domains can view IP-based schedules and anomaly detection data only for the domains they belong to. Users see data from their current domain, its child domains, and the global domain. This separation helps Managed Service Providers \(MSP\) and other multi-tenant organizations manage and monitor Discovery operations while keeping domain-specific data isolated. Domain filtering applies to the **Home**, **Schedules**, and **Diagnostics** tabs.
+
+    Domain separation doesn't apply to the **Settings** and **Tuning** tabs, which show the same content in every domain. Cloud and certificate schedules aren't included in this release.
+
+
+### What's changed
+
+-   **Certificate Inventory and Management dependency**
+
+    To use certificate discovery, install the application separately. Until it's installed, the **Certificate Discovery** tab on the Schedules page is disabled, and the certificate discovery tile doesn't appear when you create a new discovery schedule. If the application is already installed, upgrading Discovery Admin Workspace doesn't uninstall it.
 
 

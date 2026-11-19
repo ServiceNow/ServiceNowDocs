@@ -1,6 +1,6 @@
 ---
 title: Add a state to the state model
-description: Add a state to the state model for different change types to meet the requirements of your organization.Any modification to the state model may impact the default workflows for change requests.
+description: Add a state to the state model for different change types to meet the requirements of your organization.Review the default workflow for each change type to confirm that state model changes haven't adversely affected them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_AddANewState.html
 release: brazil
@@ -179,7 +179,7 @@ To verify that the new state works as expected, review the default workflows. Ad
 
 ## Review default workflows
 
-Any modification to the state model may impact the default workflows for change requests.
+Review the default workflow for each change type to confirm that state model changes haven't adversely affected them.
 
 ### Before you begin
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/get-approval-history-mcp.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 1
-keywords: [MCP tools, approval history, quote approval, Advanced Approval Management AI]
+keywords: [MCP tools, approval history, quote approval, Advanced Approval Management AI, ServiceNow Otto for Advanced Approval Management]
 breadcrumb: [Advanced Approval Management AI, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
@@ -24,11 +24,15 @@ The following applications must be installed and configured on your ServiceNow i
 
 Input required: Number of an active quote.
 
-Role required: sn\_adv\_appr\_mgmt.approval\_request\_writer or sn\_adv\_appr\_mgmt.approver
+To read the quote, you also need the sn\_quote\_mgmt\_core.quote\_viewer role.
+
+Role required: sn\_adv\_appr\_mgmt.approval\_request\_approver or sn\_adv\_appr\_mgmt.approval\_request\_writer
 
 ## About this task
 
-The Approval Details tool in Advanced Approval Management AI retrieves the approval activity for a quote. You can check the current status of a submitted quote and review decisions made during the approval process.
+The Get Approval Details tool in Advanced Approval Management AI retrieves the approval activity for a quote. You can check the current status of a submitted quote and review decisions made during the approval process.
+
+The history covers the approval requests for the current version of the quote. Earlier quote versions aren't included.
 
 Enter a natural language request in your MCP client to run the tool.
 
@@ -43,19 +47,19 @@ Enter a natural language request in your MCP client to run the tool.
     -   `Show me the approval history for quote QT0001006.`
     -   `What approvals have been completed for QT0001006?`
     -   `Who has approved quote QT0001006 so far?`
-    -   `Who rejected this QT0001006 and why?`
+    -   `Who rejected quote QT0001006?`
     -   `Who recalled this quote?`
     -   `What is the full approval path for this quote?`
-    The MCP client returns the approval history for the quote, which may include:
+    The MCP client returns each approval request for the quote, newest first. For each request, the client shows the following information:
 
-    -   The approvers who have acted on the quote
-    -   The decision made by each approver \(for example, approved or rejected\)
-    -   The date and time of each approval action
-    -   Any comments or rejection reasons provided by approvers
+    -   The request number and state.
+    -   Who requested the approval and when.
+    -   Whether the request was recalled or rejected.
+    -   Each approval step, with its approval chain, approval rule, trigger condition, step state, assigned approver, the approver who acted, and the dates.
 
 ## What to do next
 
-Depending on your role and the state of the quote, you can submit the quote for approval if you're a requester. If you're an approver, you can approve or reject an approval request for a quote.
+To act on the approval, see  or .
 
 **Parent Topic:**[Using Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-advanced-approval-mgmt-ai.md)
 

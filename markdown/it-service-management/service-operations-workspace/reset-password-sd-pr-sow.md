@@ -1,6 +1,6 @@
 ---
 title: Reset password using service-desk assistance
-description: Resetting the password enables the user to log in to their system and resume their work.
+description: Reset a user password so that the user can log in to their system and resume work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/reset-password-sd-pr-sow.html
 release: brazil
@@ -14,11 +14,11 @@ breadcrumb: [Reset password, Managing IT services in your organization, Service 
 
 # Reset password using service-desk assistance
 
-Resetting the password enables the user to log in to their system and resume their work.
+Reset a user password so that the user can log in to their system and resume work.
 
 ## About this task
 
-Resetting the password will both unlock the account and set a new password if the user account is locked.
+Resetting the password unlocks the account and sets a new password if the user account is locked.
 
 \[Omitted video\] Description: Reset password in Service Operations Workspace
 
@@ -38,7 +38,7 @@ Role required: password\_reset\_service\_desk or password\_reset\_admin
     -   Navigate to list of interactions, and select an interaction record.
 4.  Select the **More actions** icon, and then select **Reset password**.
 
-    **Note:** This option is displayed only to the agent having password reset service desk role who are assigned to the incident or an interaction.
+    **Note:** This option is displayed only to agents who have the password reset service desk role and are assigned to the incident or interaction.
 
 5.  Identify the user.
 
@@ -46,7 +46,7 @@ Role required: password\_reset\_service\_desk or password\_reset\_admin
 
     2.  Select the password reset process for the user.
 
-        **Note:** You can only reset the password using a specified process for three times in a 24-hour time interval.
+        **Note:** You can reset the password using a specified process only three times in a 24-hour period.
 
     3.  Select **Continue to verify**.
 
@@ -66,7 +66,7 @@ Email verification
 
 </td><td>
 
-A verification code is sent to the registered email address displayed. Select Send verification code and enter the code in the code in Enter verification code field.
+A verification code is sent to the registered email address displayed. Select **Send verification code** and enter the code in the **Enter verification code** field.
 
  **Note:** You have only three attempts to perform an email verification.
 
@@ -76,7 +76,7 @@ SMS verification
 
 </td><td>
 
-A verification code is sent to the registered mobile numbers. The same verification code is sent to all the registered mobile numbers of the user. Select **Send verification code** and enter the code in the code in **Enter verification code field**.
+A verification code is sent to the registered mobile numbers. The same verification code is sent to all the registered mobile numbers of the user. Select **Send verification code** and enter the code in the **Enter verification code** field.
 
  **Note:**
 
@@ -117,13 +117,13 @@ The email address of the user is displayed. You must ask the email address of th
     |---------------------|-----------|
     |Send email with instructions|An email is sent to the user with the password reset details.|
     |Auto-generate new password|The system automatically generates a new password for the user. You must read the password to the user.|
-    |Reset password manually|You must enter a new password in Enter new password and Re-enter new password fields. Select Reset password. You must read the password to the user.|
+    |Reset password manually|You must enter a new password in the **Enter new password** and **Re-enter new password** fields. Select **Reset password**. You must read the password to the user.|
 
 9.  Select **Close**.
 
-10. Select **Exit** in the confirmation modal displays to indicate that the password has been shared with the user.
+10. Select **Exit** in the confirmation dialog box that indicates that the password has been shared with the user.
 
-    To know about errors that you encounter while you reset the password, refer [Password Reset in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/pr-sow-reference.md).
+    For information about errors that might occur when you reset the password, see [Password Reset in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/pr-sow-reference.md).
 
 
 **Parent Topic:**[Resetting password using Service-desk assisted Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/resetting-password-pr-sow.md)

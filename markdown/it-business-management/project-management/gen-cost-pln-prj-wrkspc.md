@@ -8,7 +8,7 @@ product: Project Management
 classification: project-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -29,15 +29,15 @@ Generate labor costs based on the planning attributes configured for financials 
 
 2.  Generate labor costs using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d61997e111">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d62169e113">
 
 Choice
 
-</th><th align="left" id="d61997e114">
+</th><th align="left" id="d62169e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d61997e120">
+</th></tr></thead><tbody><tr><td id="d62169e122">
 
 **Using link from Financials Summary view**
 
@@ -48,7 +48,7 @@ Description
 3.  Select **Generate Labor Costs**.
 
 
-</td></tr><tr><td id="d61997e153">
+</td></tr><tr><td id="d62169e155">
 
 **Using related links**
 
@@ -56,7 +56,7 @@ Description
 
 Select the **Generate Labor Costs** related link.
 
-</td></tr><tr><td id="d61997e165">
+</td></tr><tr><td id="d62169e167">
 
 **Activate a scheduled job**
 

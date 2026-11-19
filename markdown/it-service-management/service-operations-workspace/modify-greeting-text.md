@@ -1,6 +1,6 @@
 ---
 title: Configure the header message on the landing page
-description: Configure the header message that is part of the greeting text on the landing page. For example, You are on-call until Monday, Mar 21.
+description: Configure the header message that is part of the greeting text on the landing page. For example, "You are on-call until Monday, Mar 21."
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/modify-greeting-text.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Landing page configurations in Service Operations Workspace for ITS
 
 # Configure the header message on the landing page
 
-Configure the header message that is part of the greeting text on the landing page. For example, You are on-call until Monday, Mar 21.
+Configure the header message that is part of the greeting text on the landing page. For example, "You are on-call until Monday, Mar 21."
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The Get service desk agent shift data broker server script calls the `SOWServiceDeskAgentShift` script includes to display the shift information in the greeting text.
+The Get service desk agent shift data broker server script calls the `SOWServiceDeskAgentShift` script include to display the shift information in the greeting text.
 
 While the display text can be customized for the default landing page, the visual styling changes to the text can be done only by creating a copy of the landing page.
 
@@ -40,23 +40,23 @@ The alert notification on the banner in SOW automatically expands to display the
 
 3.  On the Landing Page form, select **Configure** next to **Greetings**.
 
-    The Script Includes form is displayed for SOWServiceDeskAgentShift, which internally calls the SOWServiceDeskAgentShiftSNC
+    The Script Includes form is displayed for `SOWServiceDeskAgentShift`, which internally calls the `SOWServiceDeskAgentShiftSNC`.
 
-4.  Copy the **Script** value of SOWServiceDeskAgentShiftSNC.
+4.  Copy the **Script** value of `SOWServiceDeskAgentShiftSNC`.
 
     1.  Navigate to **All** &gt; **System Definition** &gt; **Script Includes**.
 
-    2.  From the list of Script Includes, open SOWServiceDeskAgentShiftSNC.
+    2.  From the list of Script Includes, open `SOWServiceDeskAgentShiftSNC`.
 
     3.  Copy the **Script** field value.
 
-5.  Edit the SOWServiceDeskAgentShift script.
+5.  Edit the `SOWServiceDeskAgentShift` script.
 
     1.  Navigate to **All** &gt; **System Definition** &gt; **Script Includes**.
 
-    2.  From the list of Script Includes, open SOWServiceDeskAgentShift.
+    2.  From the list of Script Includes, open `SOWServiceDeskAgentShift`.
 
-    3.  Paste the **Script** field value that you copied from SOWServiceDeskAgentShiftSNC.
+    3.  Paste the **Script** field value that you copied from `SOWServiceDeskAgentShiftSNC`.
 
         ```
         initialize: function() { 

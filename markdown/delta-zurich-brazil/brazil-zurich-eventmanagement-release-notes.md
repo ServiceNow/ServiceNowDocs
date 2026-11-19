@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-eventmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -95,15 +95,15 @@ Starting in version 2.17.1, added support to enable multiple member accounts to 
 
 Starting in version 2.17.1, you can use the Dynatrace metric connector from the Integrations Launchpad to bring metrics from Dynatrace into ServiceNow Metric Intelligence for visualization, enrichment, dynamic thresholds, and anomaly detection.
 
--   **[\[Placeholder link text to key configure-datadog-connector\]](https://www.servicenow.com/docs/access?context=configure-datadog-connector&family=zurich&ft:locale=en-US)**
+-   **[configure datadog connector](https://www.servicenow.com/docs/access?context=configure-datadog-connector&family=zurich&ft:locale=en-US)**
 
 Starting in version 2.17.1, you can use the out-of-the-box Datadog metric connector to integrate Datadog metrics with ServiceNow Metric Intelligence, enabling anomaly detection, metric visualization, enrichment, and correlation of metric anomalies with events and log alerts.
 
--   **[\[Placeholder link text to key configure-kafka-metrics-connector\]](https://www.servicenow.com/docs/access?context=configure-kafka-metrics-connector&family=zurich&ft:locale=en-US)**
+-   **[configure kafka metrics connector](https://www.servicenow.com/docs/access?context=configure-kafka-metrics-connector&family=zurich&ft:locale=en-US)**
 
 Starting in version 2.17.1, you can use the new Kafka connector to stream time-series metric data from Kafka topics into ServiceNow Metric Intelligence for real-time monitoring, anomaly detection, and alerting.
 
--   **ITOM [\[Placeholder link text to key c\_EM\]](https://www.servicenow.com/docs/access?context=c_EM&family=zurich&ft:locale=en-US) guided setup**
+-   **ITOM [c EM](https://www.servicenow.com/docs/access?context=c_EM&family=zurich&ft:locale=en-US) guided setup**
 
 Starting in 27.2.1, introduced ITOM Event Management guided setup, providing a sequence of tasks that help you install and get started with Event Management efficiently.
 
@@ -383,7 +383,7 @@ Brazil
 
 -   **Activation information**
 
-Install Event Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+Install Event Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Note:** Event Management is available in the ServiceNow Store. For details, see the following activation information.

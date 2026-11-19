@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Dispatcher Workspace, Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Set up Dispatcher Workspace, Dispatcher Workspace, CRM Workspace, Configure, Field Service Management]
 ---
 
 # Clear Dispatcher Workspace resource filters

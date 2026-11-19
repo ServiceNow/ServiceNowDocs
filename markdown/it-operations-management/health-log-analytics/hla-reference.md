@@ -21,7 +21,7 @@ Activating the Health Log Analytics, Health Log Analytics Viewer and Health Log 
 -   **[Supported data inputs for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-supported.md)**  
 Health Log Analytics \(HLA\) enables you to connect your ServiceNow instance to several types of data input.
 -   **[General guidelines for streaming data to Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-streaming-ref.md)**  
-This section helps you identify the appropriate data input for streaming your specific data type to the Health Log Analytics application.
+This section helps you identify the appropriate data input for streaming your specific data type to the Health Log Analytics \(HLA\) application.
 -   **[MID Server proxy preconditions for streaming logs to Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-mid-proxy-configure.md)**  
 Requirements for using a MID Server proxy to stream log data to Health Log Analytics.
 -   **[Health Log Analytics configuration preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-configuration-preferences.md)**  

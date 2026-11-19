@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/platform-administration/r\_Avai
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 146
-breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
+reading_time_minutes: 147
+breadcrumb: [Basic system configuration, Get started, ServiceNow AI Platform]
 ---
 
 # Available system properties
@@ -2883,6 +2883,20 @@ Some properties are available on a system properties form, but some lesser-used 
 
     Select search suggestions \(Suggestions\) or type-ahead functionality \(Typeahead\). For more information about search suggestions, see [Enable search suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/enable-search-suggestions.md).
 
+-   **glide.session.guest.max\_for\_memory\_remediation**
+
+    When a node is in a high-memory state, guest \(unauthenticated\) sessions are evicted oldest-first until the guest count is at or below this value. This property has no effect when memory is normal. Logged-in sessions are never evicted. Lower this value to cap guest-session memory more aggressively on instances with heavy public-page traffic. Tune per instance.
+
+    -   Type: integer
+    -   Default value: 50000
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.session.guest.min\_idle\_ms\_for\_eviction**
+
+    Minimum idle time in milliseconds before a guest session can be evicted. This prevents eviction of sessions for users who are mid-login.
+
+    -   Type: integer
+    -   Default value: 5000
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.set\_x\_frame\_options**
 
     Enables \(**true**\) or disables \(**false**\) the X-Frame-Options response header to SAMEORIGIN for all UI pages. The X-Frame-Options HTTP response header can be used to indicate whether a browser should be allowed to render a page in a &lt;frame&gt; or &lt;iframe&gt;. Set this property to **true** to avoid clickjacking attacks, by ensuring that CMS content cannot be embedded into other sites.
@@ -3354,13 +3368,6 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: integer
     -   Default value: 8
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
--   **glide.ui.choice.display\_none**
-
-    Controls the label displayed for the empty option in choice fields. Set to **true** to display **None**. When set to **false**, displays the default **--None--** label.
-
-    -   Type: true \| false
-    -   Default value: false
-    -   Location: System Property \[sys\_properties\] table
 -   **glide.ui.clickthrough.popup**
 
     -   For reference fields, enables \(**true**\) or disables \(**false**\) display of the pop-up diamond icon for reference fields, and opening a new window when clicking the icon.
@@ -4442,6 +4449,13 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: integer
     -   Default value: 100
+    -   Location: System Property \[sys\_properties\] table
+-   **sn\_analyticsstudio.api\_timeout\_seconds**
+
+    Timeout for every RESTMessageV2 call in AnalyticsStudioApiClient, AnalyticsStudioClient, PyramidUserSyncer, and PyramidContentHandler. Bulk action timeouts are automatically twice this value \(default 120 seconds\)
+
+    -   Type: integer
+    -   Default value: 60
     -   Location: System Property \[sys\_properties\] table
 -   **sn\_app\_insights.minutes\_between\_triggers**
 

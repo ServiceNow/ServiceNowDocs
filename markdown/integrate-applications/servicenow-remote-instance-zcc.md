@@ -18,6 +18,10 @@ The ServiceNow Remote Instance connector enables you to query tables residing in
 
 A connection admin can set up a connection to a remote ServiceNow instance in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from the remote instance. This allows users to access remote ServiceNow data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
 
+**Note:**
+
+This connector is available starting with Zurich patch 4.
+
 ## How the connector works
 
 After a zero copy connection is established and a data steward creates a data fabric table with mapped data, the connector queries the remote instance each time users access the data fabric table. Records are retrieved in real time and displayed in lists and forms. They're never stored or persisted on your local instance. After users close the list or form, the retrieved data is purged from memory.

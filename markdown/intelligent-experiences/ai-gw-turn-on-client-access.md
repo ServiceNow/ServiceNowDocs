@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-26"
 reading_time_minutes: 1
 keywords: [client access control, access management, system property]
-breadcrumb: [Control client access, Configure, AI Gateway, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control client access, Configure, AI Gateway, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Turn on client access control for your instance

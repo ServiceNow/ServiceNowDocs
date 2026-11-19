@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Reviewing external content connector crawl results and analytics
 
 Search administrators can review crawl histories and analytics for external content connectors to gain a better understanding of what they're crawling. Administrators with the ais\_high\_security\_admin elevated role can also review user and group permission mappings for external content connectors to verify that source system security principals are correctly associated with ServiceNow AI Platform® users.
 
-To access the External Content Connectors application, navigate to **All** &gt; **External Content Connectors** &gt; **External Content Admin Home**. From this page, you can select an individual connector to review its crawl history, its analytics, or its user permissions.
+To access the External Content Connectors application, navigate to **All** &gt; **External Content Connectors** &gt; **External Content Admin Home**. From this page, you can select an individual connector to review its crawl history, its analytics, or its user mappings.
 
 -   **[Review crawl history for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/review-crawl-ext-cont-connector.md)**  
 View crawl history records for an external content connector. Drill into a crawl history record to see metrics and alerts for the crawl in question.
@@ -25,7 +25,7 @@ View crawl history records for an external content connector. Drill into a crawl
 Review analytics for an external content connector to gain insight into its crawl behavior.
 -   **[Review indexing status for individual content items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/review-indexing-status-content-items.md)**  
 View indexing status, selected fields, errors, and user and group access permissions for individual content items using the Index inspector tool in the external content connector editor.
--   **[Review user permissions for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/review-usr-maps-ext-cont-connector.md)**  
+-   **[Review user mappings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/review-usr-maps-ext-cont-connector.md)**  
 View user and group access permissions retrieved by an external content connector, and see how the connector maps those permissions to your ServiceNow AI Platform® instance's users.
 
 **Parent Topic:**[External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ext-cont-connectors-landing-page.md)

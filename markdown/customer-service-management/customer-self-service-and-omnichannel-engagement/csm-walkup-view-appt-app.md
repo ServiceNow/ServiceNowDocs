@@ -1,6 +1,6 @@
 ---
 title: View or modify a Walk-up Experience appointment booking configuration
-description: View the base system default appointment booking configuration to determine if the criteria meets your walk-up appointment booking requirement. You can modify the configuration to manage appointment booking. The information stored in the Walk-up Experience appointment booking configuration applies to all the services within the application.
+description: View or modify the base-system appointment booking configuration for Walk-up Experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-view-appt-app.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Appointment booking configuration, Walk-up Experience appointment b
 
 # View or modify a Walk-up Experience appointment booking configuration
 
-View the base system default appointment booking configuration to determine if the criteria meets your walk-up appointment booking requirement. You can modify the configuration to manage appointment booking. The information stored in the Walk-up Experience appointment booking configuration applies to all the services within the application.
+View or modify the base-system appointment booking configuration for Walk-up Experience.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_csm\_walkup.walkup\_admin
 
 ## About this task
 
-The **Walk-up Experience** configuration is provided with the **Appointment Booking** feature.
+The information in the application configuration applies to all services \(queue locations\) in the application. The **Walk-up Experience** configuration is provided with the **Appointment Booking** feature.
 
 ## Procedure
 

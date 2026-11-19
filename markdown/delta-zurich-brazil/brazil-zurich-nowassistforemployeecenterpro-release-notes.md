@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-nowassistforemployeecenterpro-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -243,7 +243,7 @@ Australia
 
 -   **Activation information**
 
-Now Assist for Employee Center Pro is a ServiceNow AI Platform feature that is available with activation of the now-activation-platform-default plugin. For details, see [\[Placeholder link text to key ecpro-plugins\]](https://www.servicenow.com/docs/access?context=ecpro-plugins&family=australia&ft:locale=en-US).
+Now Assist for Employee Center Pro is a ServiceNow AI Platform feature that is available with activation of the now-activation-platform-default plugin. For details, see [ecpro plugins](https://www.servicenow.com/docs/access?context=ecpro-plugins&family=australia&ft:locale=en-US).
 
 
 **Important:** Now Assist for Employee Center Pro is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -434,7 +434,7 @@ Australia
 -   Use AI-powered capabilities, enterprise search, and omnichannel delivery to meet your productivity needs.
 
 
- See [\[Placeholder link text to key na-ec-pro-landing\]](https://www.servicenow.com/docs/access?context=na-ec-pro-landing&family=australia&ft:locale=en-US) for more information.
+ See [na ec pro landing](https://www.servicenow.com/docs/access?context=na-ec-pro-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

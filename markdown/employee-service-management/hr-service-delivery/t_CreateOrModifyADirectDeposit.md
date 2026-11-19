@@ -20,7 +20,7 @@ Setup direct deposit for a employee.
 
 Role required: sn\_hr\_core.profile\_writer
 
-
+[Create or modify an employee bank account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/t_CreateOrModifyABankAccount-global.md)
 
 ## Procedure
 
@@ -54,7 +54,7 @@ Bank account
 
 </td><td>
 
-Select the **Lookup using list** icon and select the bank account.If necessary, add a new bank account: 
+Select the **Lookup using list** icon and select the bank account.If necessary, add a new bank account: [Create or modify an employee bank account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/t_CreateOrModifyABankAccount-global.md)
 
 </td></tr><tr><td>
 
@@ -83,6 +83,9 @@ Amount of money from paycheck for direct deposit.
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
+
+-   **[Create or modify an employee bank account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/t_CreateOrModifyABankAccount-global.md)**  
+Add or modify an employee bank account so you can setup direct deposit.
 
 **Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 

@@ -26,7 +26,7 @@ Role required: admin, sn\_vsc.security\_center\_viewer
 
 2.  In the **Tools** section, select **Security scanner**.
 
-3.  Select **Suites** in the menu on the left edge of the screen.
+3.  Select **Suites**.
 
 4.  Open the suite you want to reschedule.
 
@@ -34,7 +34,7 @@ Role required: admin, sn\_vsc.security\_center\_viewer
 
 6.  Select an existing schedule, or select **New** to create a new schedule.
 
-7.  In the **Scheduled Scan** form, fill in the fields as needed.
+7.  In the Scheduled Scan form, fill in the fields as needed.
 
 <table id="table_l15_tcs_4dc"><thead><tr><th>
 
@@ -58,7 +58,7 @@ Run
 
 </td><td>
 
-Select the how often your suite will run.**Note:** Additional fields will appear to help define your schedule. These fields vary depending on your selection.
+Frequency at which the suite runs.**Note:** Additional fields appear to help define your schedule. These fields vary depending on your selection.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Active
 
 </td><td>
 
-Whether the schedule is active. Inactive schedules are never executed.
+Whether the schedule is active. Inactive schedules aren't executed.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Conditional
 
 </td><td>
 
-Select to enable the **Condition** field, where you can define a scripted condition for your schedule.
+Option that, when selected, makes the **Condition** field available so that you can define a scripted condition for your schedule.
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Condition
 
 </td><td>
 
-A scripted condition for your schedule. The suite will only run when the script evaluates to `true`.
+A scripted condition for your schedule. The suite runs only when the script evaluates to `true`.
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Run as tz
 
 </td><td>
 
-Which timezone the schedule uses when determining when to run.
+Time zone that the schedule uses to determine when to run.
 
 </td></tr></tbody>
 </table>

@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Enterprise AI discovery: Unlock Visibility, Governance &amp; Value
@@ -18,7 +18,7 @@ Explore Enterprise AI discovery, its key benefits, and capabilities.
 
 ## AI discovery overview
 
-Enterprise AI discovery is a fundamental feature of the AI Control Tower offering a unified and comprehensive view of all AI assets—including AI systems, agents, models, prompts, and tools— across various hyperscalars, AI apps, and Agentic AI frameworks via Service Graph Connectors \(SGC\).
+Enterprise AI discovery is a fundamental feature of the Control Tower offering a unified and comprehensive view of all AI assets—including AI systems, agents, models, prompts, and tools— across various hyperscalars, AI apps, and Agentic AI frameworks via Service Graph Connectors \(SGC\).
 
 ## Key Benefits
 
@@ -38,13 +38,13 @@ Enterprise AI discovery is a fundamental feature of the AI Control Tower offerin
 
     **Note:** We identify Assets and CIs \(Configuration Item\) using their unique source IDs, such as ARN \(Amazon Resource Names\) for AWS and Product Models are identified by the associated asset.
 
--   **Automatic Discovery:** Seamlessly discover and incorporate agents, models, prompts, and tools into the AI Control Tower's AI asset inventory.
+-   **Automatic Discovery:** Seamlessly discover and incorporate agents, models, prompts, and tools into the Control Tower's AI asset inventory.
 -   **Comprehensive Meta data:** Capture detailed information for each asset, including relationships, versions, and operational status.
 -   **Visibility &amp; Control:** Eliminates silos by aggregating AI assets from all major platforms, enabling holistic management and oversight, across cloud, on-premises, and hybrid environments. The AI steward has visibility into all the connections and integrations that the admin has set to be able to maintain oversight and get access to active connections. Enabling AI stewards to selectively synchronize assets and environments.
 
 ## AI discovery challenges &amp; solution
 
-Enterprise AI adoption is growing rapidly, yet many organizations face challenges with fragmented visibility across internal developments, vendor offerings, and cloud deployments. The AI discovery feature in AI Control Tower automatically detects AI assets on the Now Platform, AWS Bedrock, Azure Machine Learning Services, Azure Cognitive Services, Copilot Studio, and GCP Vertex AI, then adds them to the ServiceNow's Configuration Management Database for unified governance.
+Enterprise AI adoption is growing rapidly, yet many organizations face challenges with fragmented visibility across internal developments, vendor offerings, and cloud deployments. The AI discovery feature in Control Tower automatically detects AI assets on the Now Platform, AWS Bedrock, Azure Machine Learning Services, Azure Cognitive Services, Copilot Studio, and GCP Vertex AI, then adds them to the ServiceNow's Configuration Management Database for unified governance.
 
 This capability helps organizations achieve comprehensive visibility of their AI assets while supporting the expansion of initiatives across hybrid cloud environments.
 
@@ -54,7 +54,7 @@ AI discovery helps organizations reduce AI deployment risks by automatically fin
 
 For customers using both ServiceNow and cloud platforms, AI asset discovery is unified. This simplifies operations and ensures strong visibility.
 
-AI discovery in the AI Control Tower enables enterprises to automatically find, catalog, and manage AI assets across cloud platforms through AI connections.
+AI discovery in the Control Tower enables enterprises to automatically find, catalog, and manage AI assets across cloud platforms through AI connections.
 
-This setup can be accessed through the [AI connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-discovery-setup.md) page in AI Control Tower using ServiceNow Graph Connectors to discover AI assets, and usage.
+This setup can be accessed through the [AI connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-discovery-setup.md) page in Control Tower using ServiceNow Graph Connectors to discover AI assets, and usage.
 

@@ -40,8 +40,8 @@ Role required: sn\_ta\_hiring\_core.recruiter or sn\_ta\_hiring\_core.recruitmen
 ## What to do next
 
 -   Once you have sent a request, you can navigate to **List view** &gt; **Lists** &gt; **Scheduling preferences-All** &gt; **Interviewer name** and select **Send reminder** to remind the interviewer via an email notification to share their scheduling preferences. For more information, see [List view in Recruitment workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/recruitment-workspace/list-view-recruit-workspace.md).
--   By default, a scheduled job sends a reminder email to the interviewer on alternate days for 14 days from the day it was requested, if they haven't shared their preferences. This default value can be configured by an admin by updating the **sn\_ta\_int\_mgmt.remind\_availability\_in\_days** value.
--   If the interviewer is part of the same Microsoft organization as yours and have installed Proactive prompts application and configured Virtual Agent in Microsoft Teams, they will be notified about the reminder in Microsoft Teams.
+-   By default, a scheduled job sends a reminder email to the interviewer on alternate days for 14 days from the day it was requested. This reminder is sent only if the interviewer hasn not shared their preferences. This default value can be configured by an admin by updating the **sn\_ta\_int\_mgmt.remind\_availability\_in\_days** value.
+-   The interviewer receives the reminder in Microsoft Teams under certain conditions. The conditions are: the interviewer is in the same Microsoft organization as yours, has installed the Proactive prompts application, and configured Virtual Agent in Microsoft Teams.
 
 **Parent Topic:**[Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/interview-management/using-interview-mgmnt.md)
 

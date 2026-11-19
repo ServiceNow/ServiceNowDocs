@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage store plans to generate cases and tasks, Manage store plans, Retail]
+breadcrumb: [Create a store plan, Manage store plans to generate cases and tasks, Create and manage store plans, Retail]
 ---
 
 # Add store task details
@@ -32,7 +32,7 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
 
 5.  Select a questionnaire template in the **Questionnaire template** or select **Create new questionnaire**.
 
-    Once you create and fulfill the questionnaire, you can view the smart assessment instance through View Questionnaire on mobile app and the list of smart assessment templates through the Retail Questionnaire list on the workspace.
+    Once you create and fulfill the questionnaire, you can view the smart assessment instance through View Questionnaire on mobile app and the list of smart assessment templates through the Retail Questionnaire list on the CRM Workspace.
 
 6.  Select the **Add file** in the Attachments, if any.
 
@@ -59,5 +59,5 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
     3.  Select **Continue** to go next step.
 
 
-**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plan-authoring.md)
+**Parent Topic:**[Create a store plan from the CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/create-plan-workspace.md)
 

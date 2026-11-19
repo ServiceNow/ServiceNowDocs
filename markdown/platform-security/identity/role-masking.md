@@ -7,7 +7,7 @@ release: brazil
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 keywords: [role masking, AI agents, Agent Access Role Configuration, Agent Access Permission Set Configuration, least-access privileges, Allow all session roles]
 breadcrumb: [Identity]
@@ -29,7 +29,7 @@ Role masking lets you restrict the AI agent's runtime role set to only the roles
     The AI admin can choose for the component to run as either an AI user or a dynamic user. If set to run as a dynamic user, the AI admin can configure role masking for the component. Role masking can't be configured for agentic workflows or AI agents set to run as AI users.
 
     -   If an AI user is selected, all roles assigned to the AI user are available to the agentic workflow or AI agent. This can be used to provide elevated access to the agentic workflow AI agent.
-    -   If Role masking is applied to an agentic workflow, AI agent, or tool running as a dynamic user, the component runs with roles limited to the intersection of the current invoking user's roles and the roles included in the role masking approved roles list.
+    -   If role masking is applied to an agentic workflow, AI agent, or tool running as a dynamic user, the component runs with roles limited to the intersection of the current invoking user's roles and the roles included in the role masking approved roles list.
 
 To learn more about AI agent role masking, see [Role masking in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md).
 

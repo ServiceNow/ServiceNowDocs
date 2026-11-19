@@ -18,7 +18,7 @@ View metrics related to authentication on your instance from a dashboard.
 
 This page displays cards with information on metrics related to authentication. Each card displays a trend line for the following metrics:
 
--   Users enrolled for MFA: Total count of users enrolled to use MFA.
+-   Users enrolled for MFA: Total count of users enrolled to use multi-factor authentication \(MFA\).
 -   Users using MFA bypass: Total count of users who are circumventing multi factor authentication.
 -   High privileged non-MFA user: Total count of high-privileged users that are not using MFA.
 -   Active MFA users: Total count of MFA users that are active on your instance.
@@ -28,6 +28,9 @@ This page displays cards with information on metrics related to authentication. 
 -   Biometric scanner/Hardware key users: Total count of users login with biometric scanner or Hardware key.
 -   REST API's Without Access Policy: Total count of users login without REST API's Access Policy.
 -   Integration Accounts without Web Service Access Only Flag enabled: Total count of users login without Integration Accounts Web Service Access Only Flag enabled. To clear entries from the enforcement table, see [Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-enforcement.md).
+-   Biometric scanner/Hardware key users: Total count of users who log in with biometric scanner or Hardware key.
+-   REST API's Without Access Policy: Total count of users who log in without REST API's Access Policy.
+-   Integration Accounts without Web Service Access Only Flag enabled: Total count of users who log in without Integration Accounts Web Service Access Only Flag enabled.
 
 Select the cards to view the individual metrics page with additional details.
 

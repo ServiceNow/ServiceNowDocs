@@ -60,7 +60,7 @@ Word Corpus
 
 </td><td>
 
-Defines which knowledge articles and tasks are selected for knowledge gap analysis.If you don’t have a relevant word corpus, follow the steps in Create a word corpus.
+Defines which knowledge articles and tasks are selected for knowledge gap analysis.If you don’t have a relevant word corpus, follow the steps in [Create a word corpus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-word-corpus.md).
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Frequency with which to include new records in the model for the similarity solu
     -   For an existing solution definition record, click **Update &amp; Retrain**.
 5.  Include more useful related articles by reviewing the similarity examples based on the similarity score and updating the similarity score threshold value.
 
-    For more information, see Review solution similarity examples and Update your similarity score threshold.
+    For more information, see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/review-similarity-examples.md) and [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/update-similarity-threshold.md).
 
 6.  In the Solution Definitions \(ML view\) list, search for and select the clustering solution definition for the task type.
 
@@ -250,7 +250,7 @@ Complete the KB curation configuration form to define the scheduled jobs for dem
 
 [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-similarity-solution.md)
 
-[bundle-platai.create-clustering-solution]
+[Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-clustering-solution.md)
 
 [Analyze knowledge gaps from a demand insights dashboard and create knowledge gap feedback tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/analyze-knowledge-gaps-demand-insights.md)
 

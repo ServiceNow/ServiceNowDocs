@@ -18,6 +18,8 @@ As an Event Management operator, your role is to find alerts, analyze them, and 
 
 This guide can assist you on a regular basis.
 
+-   **[Express List in the Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/express-list.md)**  
+Express List helps you identify health issues across the datacenter on the Service Operations Workspace. It provides quick information on alerts so you can monitor systems and services,​ resolve alerts, evaluate the alert impact,​ track issues, and report incidents more efficiently.
 -   **[View alert information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMViewAlert.md)**  
 View a list of all alerts for application services s, and then manage individual alerts as necessary.
 -   **[Monitor service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMViewDashboard.md)**  

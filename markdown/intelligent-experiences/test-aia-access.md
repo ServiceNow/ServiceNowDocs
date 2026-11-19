@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-aia-access.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 3
 breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -60,4 +60,6 @@ Access Analyzer identifies all the ACL calls made in the execution of the AI age
 If the results are different than what you expect or want, you can [redefine the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aia.md) of the AI agent.
 
 You can also test an AI agent's performance with either a manual test or automated evaluations. See [Test performance manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-ai-agent.md) or [Evaluate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/execute-aia-eval.md).
+
+After testing and activating your AI agent, test access in the Virtual Agent or ServiceNow Otto channels you selected. If you don't see your AI agent, ensure that the agent is activated.
 

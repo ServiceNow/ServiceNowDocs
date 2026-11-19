@@ -32,15 +32,15 @@ When you unbundle a work order task bundle, the work order task bundle enters a 
 
 3.  Select the bundle.
 
-<table id="choicetable_o4n_qvz_2wb"><thead><tr><th align="left" id="d86659e96">
+<table id="choicetable_o4n_qvz_2wb"><thead><tr><th align="left" id="d86786e98">
 
 Bundle
 
-</th><th align="left" id="d86659e99">
+</th><th align="left" id="d86786e101">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d86659e105">
+</th></tr></thead><tbody><tr><td id="d86786e107">
 
 **Single bundle**
 
@@ -48,7 +48,7 @@ Action
 
 Select the bundle.
 
-</td></tr><tr><td id="d86659e114">
+</td></tr><tr><td id="d86786e116">
 
 **Multiple bundles**
 

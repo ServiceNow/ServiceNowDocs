@@ -30,15 +30,15 @@ You can create additional tasks as needed on a claim by using the **Add task** b
 
 2.  Create a task from the **claim workspace** tab in a case or from the tasks list.
 
-<table id="choicetable_otl_dtz_pbc"><thead><tr><th align="left" id="d104122e110">
+<table id="choicetable_otl_dtz_pbc"><thead><tr><th align="left" id="d104112e112">
 
 Option
 
-</th><th align="left" id="d104122e113">
+</th><th align="left" id="d104112e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d104122e119">
+</th></tr></thead><tbody><tr><td id="d104112e121">
 
 **From the claim workspace in a case**
 
@@ -46,7 +46,7 @@ Steps
 
 In the Tasks section, select **Add claim task**. The new task has the case set as the parent record.
 
-</td></tr><tr><td id="d104122e131">
+</td></tr><tr><td id="d104112e133">
 
 **From the tasks list**
 

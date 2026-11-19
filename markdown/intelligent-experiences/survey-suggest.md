@@ -20,9 +20,15 @@ The Propose survey responses agentic workflow can help simplify and increase sur
 
 When this agentic workflow and trigger are activated, the assignee receives an email with AI-suggested answers to their survey based on the associated Incident or Request. They then have the option to accept the AI-generated answers with a link at the bottom of the email. They can also choose to fill out the survey manually.
 
-The agents, tools, and triggers that are associated with the Propose survey responses agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md) by making the trigger active. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your needs, and activate the duplicated version of the agentic workflow instead.
+The agents and tools that are associated with the agentic workflow are provided by AI applications. If you want to change this agentic workflow, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-ai-asset-new.md), make adjustments, and activate the duplicated version instead.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
+## Sample utterance
+
+After the workflow has been activated in AI Agent Studio, you need to set a trigger for the workflow to run. This workflow cannot be triggered from the ServiceNow Otto panel.
+
+If you want to test the agentic workflow in AI Agent Studio and you have the sn.aia\_admin role, enter the following phrase in the Testing page in the Task field: `Help me with survey AINST00XXXX. List of fields to extract inc/case/req details: number, short_description, description, calendar_stc, escalation, reopen_count, close_code, close_notes, state, priority, caller_id`. You must include the list of fields to extract.
 
 ## Prerequisites and setup
 
@@ -62,12 +68,6 @@ Agentic workflows can be accessed in the Core UI and in workspaces in the AI Act
 To enable users to access agentic workflows with UI actions, you can open the agentic workflow in AI Agent Studio and navigate to the **Select channels and access** step. You can select a UI action as a possible way to access the workflow
 
 If you don't see your UI actions after configuring it in AI Agent Studio, ensure that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`. See [Enable the in-product experience for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/enable-inproduct-aia.md).
-
-## Sample utterance
-
-After the workflow has been activated in AI Agent Studio, you need to set a trigger for the workflow to run. This workflow cannot be triggered from the ServiceNow Otto panel.
-
-If you want to test the agentic workflow in AI Agent Studio and you have the sn.aia\_admin role, enter the following phrase in the Testing page in the Task field: `Help me with survey AINST00XXXX. List of fields to extract inc/case/req details: number, short_description, description, calendar_stc, escalation, reopen_count, close_code, close_notes, state, priority, caller_id`. You must include the list of fields to extract.
 
 ## AI agents used in the Propose survey responses agentic workflow
 

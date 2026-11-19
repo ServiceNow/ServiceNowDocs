@@ -18,9 +18,15 @@ Use the Platform Process images for new tasks agentic workflow to convert images
 
 The process images for new tasks agentic workflow can help decrease manual data entry and improve task organization by automatically converting images into task records. First, the agentic workflow extracts information from the image, such as error messages, and presents the analysis to the user. Then, the user is presented with the details of the task, such as short description, category, and priority, before it is submitted so that they can make any changes. Once the information is confirmed, the agentic workflow creates an incident record and attaches the image.
 
-The agents, tools, and triggers that are associated with the process images for new tasks agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md) and set the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must [duplicate it to create a custom agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+By default, you can enable the agentic workflow so it is accessible in the ServiceNow Otto panel. Optionally, you can add triggers or UI actions to allow users to invoke the agentic workflow in other ways. See [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/channels-access-aw-new.md) and [Add a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aw-new.md) for more information.
+
+The agents and tools that are associated with the agentic workflow are provided by AI applications. If you want to change this agentic workflow, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-ai-asset-new.md), make adjustments, and activate the duplicated version instead.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
+## Sample utterance
+
+After the workflow has been activated in AI Agent Studio, enter `Convert image to new task` or similar phrases in the ServiceNow Otto panel to trigger the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin and sn\_uxc\_gen\_ai.platform\_ai\_image\_processor roles.
 
 ## Prerequisites and setup
 
@@ -103,10 +109,6 @@ Agentic workflows can be accessed in the Core UI and in workspaces in the AI Act
 To enable users to access agentic workflows with UI actions, you can open the agentic workflow in AI Agent Studio and navigate to the **Select channels and access** step. You can select a UI action as a possible way to access the workflow
 
 If you don't see your UI actions after configuring it in AI Agent Studio, ensure that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`. See [Enable the in-product experience for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/enable-inproduct-aia.md).
-
-## Sample utterance
-
-After the workflow has been activated in AI Agent Studio, enter `Convert image to new task` or similar phrases in the ServiceNow Otto panel to trigger the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin and sn\_uxc\_gen\_ai.platform\_ai\_image\_processor roles.
 
 ## AI agents used in the Process images for new tasks agentic workflow
 

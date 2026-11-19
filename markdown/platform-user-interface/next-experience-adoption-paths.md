@@ -62,7 +62,7 @@ During the upgrade, the Next Experience UI is not turned on.
 
 **Important:**
 
-Connect Chat is not available in Next Experience. Starting with Brazil, certain Connect Chat functions are available in Next Experience by using Sidebar. See [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615) for more information about the differences between Connect Chat and Sidebar.
+Connect Chat is not available in Next Experience. Starting with Brazil, certain Connect Chat functions are available in Next Experience by using Sidebar. See [KB3049135 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3049135) for more information about the differences between Connect Chat and Sidebar.
 
 Connect Support is not available in Next Experience and is scheduled to be completely deprecated in Utah. If you want to automatically assign chat requests and other work items to agents in Next Experience, you must migrate to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/migrate-from-connect-support.md).
 
@@ -82,7 +82,7 @@ These features and products are not currently supported with Next Experience:
 For more information, see:
 
 -   [KB1156736 – Moving from Connect Chat to AWA and Agent Chat](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1156736)
--   [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615)
+-   [KB3049135 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3049135)
 -   [KB1157068 – Live Feed Is Not Supported in Next Experience](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1157068)
 
 **Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/next-experience-ui-admin.md)

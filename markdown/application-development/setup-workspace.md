@@ -28,15 +28,15 @@ Using the ServiceNow Extensions for VS Code, create a project work folder to use
 
 2.  Do any of the following actions.
 
-<table id="choicetable_ctz_q3f_blb"><thead><tr><th align="left" id="d431041e99">
+<table id="choicetable_ctz_q3f_blb"><thead><tr><th align="left" id="d566874e99">
 
 Option
 
-</th><th align="left" id="d431041e102">
+</th><th align="left" id="d566874e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d431041e108">
+</th></tr></thead><tbody><tr><td id="d566874e108">
 
 **To set up a workspace from a new folder**
 
@@ -47,7 +47,7 @@ Description
 3.  Click **Create**.
 
 
-</td></tr><tr><td id="d431041e138">
+</td></tr><tr><td id="d566874e138">
 
 **To set up a workspace from an existing folder**
 
@@ -63,7 +63,7 @@ Description
 
 ## What to do next
 
-[Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/create-project.md) in your workspace. You can create multiple projects of different project types within a workspace.
+[Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-project.md) in your workspace. You can create multiple projects of different project types within a workspace.
 
 **Parent Topic:**[ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vs-code.md)
 

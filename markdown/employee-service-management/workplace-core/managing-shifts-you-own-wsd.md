@@ -8,7 +8,7 @@ product: Workplace Core
 classification: workplace-core
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -21,20 +21,20 @@ Review and modify the details of the workplace shifts that you own in Workplace 
 -   **[Review workplace reservations for shifts that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/review-workplace-reservation-requests-for-shifts-you-own-wsd.md)**  
 Review the workplace reservations and the reservation requests made for the shifts that you own in Workplace Core. You can identify pending requests and work with your workplace manager to resolve them.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 
 
 [Import your workspaces data from an Excel spreadsheet]()
 
-[Add a space type configuration]()
+[]()
 
 [Configure a workplace card]()
 
 [Block a workplace location]()
 
-[Configure Workplace entity and entity types]()
+[Configure Workplace entities and entity types]()
 
 [Managing Neighborhoods]()
 

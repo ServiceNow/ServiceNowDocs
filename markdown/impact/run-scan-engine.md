@@ -18,7 +18,7 @@ Run an initial full instance scan to set a baseline to tune the instance environ
 
 [Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-initial-scan-engine-settings.md) before beginning this task.
 
-You can complete the configuration steps directly in the Guided Setup interface or can configure the properties using the indicated navigation path.
+You can complete the configuration steps directly in the setup interface or can configure the properties using the indicated navigation path.
 
 **Important:**
 

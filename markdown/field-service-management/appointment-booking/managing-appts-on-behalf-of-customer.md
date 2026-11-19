@@ -16,7 +16,7 @@ breadcrumb: [Managing appointments, Use, Field Service Management]
 
 Agents and dispatchers can book, reschedule, or cancel appointments on behalf of customers.
 
-Agents and dispatchers can manage appointments on behalf of a customer from a work order, work order task, or in the CSM Configurable Workspace.
+Agents and dispatchers can manage appointments on behalf of a customer from a work order, work order task, or in the CRM Workspace.
 
 Booked appointments can be rescheduled and canceled within the time constraints identified in the configuration.
 

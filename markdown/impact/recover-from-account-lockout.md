@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Register your instance, Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Register your instance in My SN Instances, Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Recover from account lockout
@@ -45,5 +45,5 @@ The integration user account is unlocked and the password reset flag is cleared.
 
 Before retrying validation, resolve the root cause of the failed attempts. See [Validate your instance connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/validate-instance-connection.md) for the full validation troubleshooting checklist.
 
-**Parent Topic:**[Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md)
+**Parent Topic:**[Register your instance in My SN Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md)
 

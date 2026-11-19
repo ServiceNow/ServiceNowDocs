@@ -9,7 +9,7 @@ classification: table-administration-and-data-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exporting data, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Exporting data, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Export directly from a URL

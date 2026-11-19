@@ -24,15 +24,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open the obligation task from the notification email, Employee Center, or Contract Workspace.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d731891e64">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d732567e66">
 
 Options
 
-</th><th align="left" id="d731891e67">
+</th><th align="left" id="d732567e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d731891e73">
+</th></tr></thead><tbody><tr><td id="d732567e75">
 
 **From the email notification**
 
@@ -40,7 +40,7 @@ Steps
 
 Select the link in the notification email sent when an obligation task is assigned to you for approval to access the obligation task.
 
-</td></tr><tr><td id="d731891e82">
+</td></tr><tr><td id="d732567e84">
 
 **From Employee Center**
 
@@ -51,7 +51,7 @@ Select the link in the notification email sent when an obligation task is assign
 3.  Select the obligation task under the **Open** tab.
 
 
-</td></tr><tr><td id="d731891e124">
+</td></tr><tr><td id="d732567e126">
 
 **From Contract Workspace**
 
@@ -69,15 +69,15 @@ Select the link in the notification email sent when an obligation task is assign
 </td></tr></tbody>
 </table>2.  Review the obligation task and approve or reject it.
 
-<table id="choicetable_ygc_svh_tcc"><thead><tr><th align="left" id="d731891e194">
+<table id="choicetable_ygc_svh_tcc"><thead><tr><th align="left" id="d732567e196">
 
 Options
 
-</th><th align="left" id="d731891e197">
+</th><th align="left" id="d732567e199">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d731891e203">
+</th></tr></thead><tbody><tr><td id="d732567e205">
 
 **From Employee Center**
 
@@ -87,7 +87,7 @@ Steps
 -   To reject the task, select **Reject**.
 
 
-</td></tr><tr><td id="d731891e230">
+</td></tr><tr><td id="d732567e232">
 
 **From Contract Workspace**
 

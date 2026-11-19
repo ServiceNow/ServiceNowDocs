@@ -56,5 +56,5 @@ Stores Collaboration Service related data.
 </table>**Related topics**  
 
 
-[bundle-crint.configure-slack-workspace]
+[Configure Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-slack-workspace.md)
 

@@ -8,7 +8,7 @@ product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Reference, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 

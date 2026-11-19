@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/mobile/enable-ext-users-attach-
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Mobile properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 

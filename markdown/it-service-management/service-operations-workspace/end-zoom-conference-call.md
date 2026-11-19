@@ -36,7 +36,7 @@ Role required: itil
 
 7.  Select the active call card.
 
-8.  Select **Leave call** drop-down menu.
+8.  Select the **Leave call** drop-down menu.
 
 9.  Select **End call**.
 

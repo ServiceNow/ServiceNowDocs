@@ -41,6 +41,8 @@ Edit a report template to reuse an existing template to create a new template.
 **Related topics**  
 
 
+[Setup for the UI Builder]()
+
 [Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
 
 [Set up view of SIR Records]()

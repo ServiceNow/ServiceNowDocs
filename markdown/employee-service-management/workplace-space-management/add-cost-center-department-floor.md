@@ -167,6 +167,8 @@ You can assign the allocation to the child locations such as areas, rooms, and s
 
 [Add a space using Workplace Space Management]()
 
+[Configure a space type as usable with Workplace Space Management]()
+
 [Configure a workspace or desk as flexible or permanent]()
 
 [Update the measurement details of a workplace location]()

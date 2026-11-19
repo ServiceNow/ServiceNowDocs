@@ -7,7 +7,7 @@ release: brazil
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configure, Critical Event Management, Health and Safety, Employee Service Management]
 ---
@@ -43,9 +43,9 @@ After you configure group-to-location mapping, the responder groups are automati
 
 1.  Navigate to **All** &gt; **System Security** &gt; **User and groups** &gt; **Groups**.
 
-2.  Create a new group by selecting **New**.
+2.  Create a group by selecting **New**.
 
-3.  In the form, fill in the fields.
+3.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -59,11 +59,6 @@ After you configure group-to-location mapping, the responder groups are automati
 
 5.  Open the new group and add members and roles for the members.
 
-    **Note:** Assign the following roles to agent groups to enable them to create Health and Safety incidents through Critical Event Management:
-
-    -   sn\_ohs\_im.incident\_reader
-    -   sn\_ohs\_im.incident\_writer
-    -   sn\_ohs\_im.incident\_create
 
 -   **[Add members to the group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/critical-event-management/add-members-group.md)**  
 Add members to the group mapped to a location.

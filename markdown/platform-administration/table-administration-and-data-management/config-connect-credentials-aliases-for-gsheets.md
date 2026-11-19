@@ -9,7 +9,7 @@ classification: table-administration-and-data-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Exporting your table records to Google Sheets, Exporting data, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Exporting your table records to Google Sheets, Exporting data, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure ServiceNow connection and credential aliases for Google sheets

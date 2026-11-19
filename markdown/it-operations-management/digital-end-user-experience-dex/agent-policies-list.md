@@ -62,7 +62,7 @@ Interval\(sec\)
 
 </td><td>
 
-The frequency in seconds according to which the policy checks are executed.This field applies only to checks with an empty cron expression value.
+Frequency, in seconds, at which the policy checks run.This field applies only to checks with an empty cron expression value.
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Cron expressions
 
 </td><td>
 
-Expressions according to which the policy checks are executed.This field applies only to checks with an empty interval value.
+Cron expressions that schedule the policy checks.This field applies only to checks with an empty interval value.
 
 </td></tr><tr><td>
 

@@ -1,6 +1,6 @@
 ---
-title: New Benchmarks Dashboard
-description: The Benchmarks dashboard displays KPI data, performance trends, and indicator scorecards.
+title: Benchmarks Dashboard
+description: Use the Benchmarks dashboard to view KPI data, performance trends, and indicator scorecards, and filter by industry or region.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/c-newuidashboard-cf.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Use, Benchmarks, IT Service Management]
 ---
 
-# New Benchmarks Dashboard
+# Benchmarks Dashboard
 
-The Benchmarks dashboard displays KPI data, performance trends, and indicator scorecards.
+Use the Benchmarks dashboard to view KPI data, performance trends, and indicator scorecards, and filter by industry or region.
 
 The Benchmarks KPI dashboard view, which shows all KPIs, is launched in Service Portal.
 

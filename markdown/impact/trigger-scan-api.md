@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/trigger-scan-api.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-23"
+last_updated: "2026-11-04"
 reading_time_minutes: 5
 keywords: [scan, API, POST, trigger]
 breadcrumb: [Scan Engine Headless REST API, Scan your instance, Platform Health, Using Impact, Impact]
@@ -84,7 +84,19 @@ Role required: sn\_se.scan\_engine\_user
 
     |Field|Default|Description|
     |-----|-------|-----------|
-    |`update_set_sys_ids`|Required|Array of sys\_ids to scan \(not update set numbers\). Must be a JSON array — sending a single sys\_id as a bare string is rejected with 400 INVALID\_FIELD\_VALUE.|
+    |`update_set_sys_ids`|Required|Array of sys\_ids to scan, not update set numbers. Must be a JSON array of sys\_id strings, even for a single update set. A bare string or a non-string element returns 400 INVALID\_FIELD\_VALUE. An empty array returns 400 MISSING\_REQUIRED\_FIELD.|
+
+    To scan a single update set, wrap its sys\_id in an array:
+
+    ```
+    {
+      "scan_mode": "update_set",
+      "trigger_channel": "api",
+      "update_set_sys_ids": ["<32-char sys_id>"]
+    }
+    ```
+
+    Do not send the sys\_id as a string, such as `"update_set_sys_ids": "<32-char sys_id>"`. The API rejects the request with 400 INVALID\_FIELD\_VALUE.
 
     Optional fields for update set scans:
 
@@ -105,7 +117,7 @@ Role required: sn\_se.scan\_engine\_user
 
     |Field|Default|Description|
     |-----|-------|-----------|
-    |`application_sys_ids`|Required|Array of application sys\_ids to scan. The API natively supports multiple applications in one request. Must be a JSON array — sending a single sys\_id as a bare string is rejected with 400 INVALID\_FIELD\_VALUE.|
+    |`application_sys_ids`|Required|Array of application sys\_ids to scan. The API natively supports multiple applications in one request. Must be a JSON array of sys\_id strings, even for a single application. A bare string or a non-string element returns 400 INVALID\_FIELD\_VALUE. An empty array returns 400 MISSING\_REQUIRED\_FIELD.|
 
     **Content scan \(XML payload\)**
 
@@ -151,8 +163,9 @@ Role required: sn\_se.scan\_engine\_user
 
     |Error code|What it means|
     |----------|-------------|
-    |MISSING\_REQUIRED\_FIELD \(400\)|A required field is missing from your request.|
+    |MISSING\_REQUIRED\_FIELD \(400\)|A required field is missing from your request, or `update_set_sys_ids` or `application_sys_ids` is an empty array.|
     |INVALID\_SCAN\_MODE \(400\)|The `scan_mode` value is not recognized.|
+    |INVALID\_FIELD\_VALUE \(400\)|A field has the wrong type. For example, `update_set_sys_ids` or `application_sys_ids` is a string instead of an array of sys\_id strings.|
     |NOT\_AUTHORIZED \(403\)|Your user account is missing the `sn_se.scan_engine_user` role.|
     |CONCURRENT\_SCAN\_RUNNING \(409\)|Another scan is already running for this target.|
     |NO\_ELIGIBLE\_DEFINITIONS \(409\)|A content scan found no scan definitions on the instance applicable to the submitted XML. Distinguishes **nothing could run** from a clean scan that found nothing.|

@@ -18,7 +18,7 @@ Enhance appointment booking by adding selection criteria to your recommendation 
 
 ## Before you begin
 
-Role required: appointment\_booking\_admin
+Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
 Ensure a recommendation rule already exists, or create one first.
 

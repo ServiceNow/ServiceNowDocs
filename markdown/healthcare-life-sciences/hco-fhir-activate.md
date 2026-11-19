@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-activate.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 1
 keywords: [activate, scheduled job, FHIR sync]
 breadcrumb: [Prerequisites for the FHIR integration, EMR Provider Directory Sync, Healthcare Integrations, Healthcare and Life Sciences]
@@ -17,11 +17,13 @@ Activate the **FHIR Sync — Daily** scheduled job so that the EMR Provider Dire
 
 ## Before you begin
 
-Role required: `sn_hco_intg_fhir.admin` \(granted through `sn_hco.admin`\).
+Role required: `sn_hcls_emr_sync.admin` \(granted through `sn_hco.admin`\).
 
 Complete the steps in [Prerequisites for the FHIR integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-prerequisites.md) first.
 
 ## About this task
+
+The EMR Provider Directory Sync plugin has the scope name `sn_hcls_emr_sync`.
 
 The application ships a scheduled job named **FHIR Sync — Daily** that starts the import orchestration subflow. Activate the job to begin scheduled syncs.
 

@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Access guided upgrade on a production instance, Configure, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Access guided upgrade on a production instance, Configure, Upgrade Console, Upgrade, ServiceNow AI Platform]
 ---
 
 # Implement post-upgrade activities on a prod instance

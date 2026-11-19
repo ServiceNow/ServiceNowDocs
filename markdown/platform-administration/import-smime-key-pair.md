@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up S/MIME, Email encryption, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Setting up S/MIME, Email encryption, Email Administration, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Import an S/MIME key pair
@@ -27,8 +27,6 @@ You must have the key alias.
 Make sure the file format is PKCS \#12.
 
 ## About this task
-
-This video shows you how to perform the following procedure.
 
 ## Procedure
 

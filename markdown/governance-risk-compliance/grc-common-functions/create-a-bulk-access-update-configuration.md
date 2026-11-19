@@ -8,7 +8,7 @@ product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Manage Entity Based Access, Entity Based Access, Common GRC features, Governance, Risk, and Compliance]
 ---
 

@@ -8,7 +8,7 @@ product: Service Level Management
 classification: service-level-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Service Level Management reference, Service Level Management, IT Service Management]
 ---
 
@@ -24,7 +24,7 @@ When you define an SLA, you can select either a **user specified duration** or a
 
     Specifies a static duration period, such as **8 hours**, along with a business schedule. The **Duration** field is displayed, enabling you to specify the length of time in days, hours, minutes, and seconds that the SLA must run before it is marked as **breached**. The number of days specified in the **Duration** field is converted to 24- hour blocks.
 
-    Each time that you set a duration, an example breach time information message is displayed at the top of the form. This information assists you to understand how the breach date is calculated. For example, if the current date is January 1, 2015, the time is 10:30 am, and the duration is set to 10 hours and no schedule has been selected, the following information message is displayed: `An SLA starting now will end breach on 2015-01-01 20:30 (Actual elapsed time: 10 Hours)`.
+    Each time you set a duration, an example breach time message is displayed at the top of the form. This helps you understand how the breach date is calculated. For example, with a current date of January 1, 2015, a time of 10:30 a.m., and a duration of 10 hours with no schedule selected, the system displays: `An SLA starting now will end breach on 2015-01-01 20:30 (Actual elapsed time: 10 Hours)`.
 
 -   **Relative duration**
 
@@ -41,7 +41,9 @@ When you define an SLA, you can select either a **user specified duration** or a
 
     The **Breach on Due Date** sets the breach time of the SLA to the date and time from the **Due Date** field of the task that the SLA is attached to.
 
-    If no information is available in the **Due Date** field, or the date and time provided is in the past, the breach time of the task SLA is calculated to be one second ahead of the task SLA start time. If the date and time in the **Due Date** field is outside the schedule for the task SLA, the breach time is set to the next available scheduled time. For example, if the SLA definition specifies a task SLA schedule as 08:00-16:00 and the value in the **Due Date** field is **Wednesday 11th Jan 2017 20:30**, the breach time is set to **Thursday 12th 2017 Jan 08:00**.
+    If no information is available in the **Due Date** field, the breach time is set to one second after the task SLA start time. The same applies if the date and time provided is in the past.
+
+    If the date and time in the **Due Date** field is outside the task SLA schedule, the breach time is set to the next available scheduled time. For example, if the SLA definition specifies a schedule of 08:00–16:00 and the **Due Date** value is **Wednesday 11th Jan 2017 20:30**, the breach time is set to **Thursday 12th Jan 2017 08:00**.
 
     If your task record has a target date and time field, you can create an SLA with a relative duration based on that field.
 

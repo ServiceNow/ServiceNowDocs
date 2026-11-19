@@ -23,7 +23,7 @@ You can now tag a single HTTP endpoint or discovered API to multiple application
 
 ## How it works
 
-When you select more than one application service for an HTTP endpoint or discovered API, synthetic monitoring creates a Connects to::Connected by relationship between the endpoint and each service you select. Adding a service does not remove relationships to services already tagged.
+synthetic monitoring creates a Connects to::Connected by relationship between an endpoint and each application service you tag to it. Adding a service does not remove existing relationships.
 
 The endpoint's related services list shows every application service tagged to it, with duplicate entries removed, so each team can see which other services share the same endpoint.
 

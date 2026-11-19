@@ -224,6 +224,8 @@ Option to link the timeline event to a major security incident record.
 
 [Unlink records from Major Security Incident]()
 
+[]()
+
 [Manage tasks in a Major Security Incident]()
 
 [Track collaboration activity via MSIM workspace]()

@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Getting on-premise apps, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Getting on-premise apps, ServiceNow Store, Administering applications, Get started, ServiceNow AI Platform]
 ---
 
 # Upload an app to an on-premise instance

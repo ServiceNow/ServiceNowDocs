@@ -9,7 +9,7 @@ classification: table-administration-and-data-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Read-only options, Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Read-only options, Managing tables and indexes, Table admin, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Make a field read only
@@ -36,15 +36,15 @@ For details on read only options, see [Configuring read-only security options](h
 
     The option that you select determines how strict the system treats the security of read-only values once they've been entered. Each option displays the field as read-only in the UI.
 
-<table id="choicetable_ic3_bwk_tgc"><thead><tr><th align="left" id="d126436e109">
+<table id="choicetable_ic3_bwk_tgc"><thead><tr><th align="left" id="d126375e111">
 
 Option
 
-</th><th align="left" id="d126436e112">
+</th><th align="left" id="d126375e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d126436e118">
+</th></tr></thead><tbody><tr><td id="d126375e120">
 
 **__Display Read Only__**
 
@@ -52,7 +52,7 @@ Description
 
 Allows changes to the read-only field through client scripts and server-side operations such as **TableAPI**, **GraphQL**, and **GlideRecordSecure\(\)**.
 
-</td></tr><tr><td id="d126436e140">
+</td></tr><tr><td id="d126375e142">
 
 **__Client Script Modifiable__**
 
@@ -60,7 +60,7 @@ Allows changes to the read-only field through client scripts and server-side ope
 
 Allows changes to the read-only field through client scripts but not through background scripts or server-side APIs like **TableAPI**, **GraphQL**, and **GlideRecordSecure\(\)**.
 
-</td></tr><tr><td id="d126436e162">
+</td></tr><tr><td id="d126375e164">
 
 **__Strict Read Only__**
 

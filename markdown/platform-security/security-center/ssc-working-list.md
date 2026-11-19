@@ -1,6 +1,6 @@
 ---
 title: Filter hardening settings
-description: Simplify your hardening review process using filters. These filters can create a working list of hardening settings for review, which restored for later use and shared with other users.
+description: Simplify your hardening review process using filters. These filters can create a working list of hardening settings for review, which you can restore for later use and share with other users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/ssc-working-list.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [All settings, Security hardening, Security configuration console, S
 
 # Filter hardening settings
 
-Simplify your hardening review process using filters. These filters can create a working list of hardening settings for review, which restored for later use and shared with other users.
+Simplify your hardening review process using filters. These filters can create a working list of hardening settings for review, which you can restore for later use and share with other users.
 
 ## Before you begin
 
@@ -30,17 +30,17 @@ Role required: admin
 
 4.  Select **All settings**.
 
-5.  Select the **Show filter panel** button \(\[Omitted image "filter-panel-icon.png"\] Alt text: Show filter panel\).
+5.  Select the **Show filter panel** button \[Omitted image "filter-panel-icon.png"\] Alt text:.
 
 6.  In the **Filter** window, select **Advanced view**.
 
 7.  Create a filter showing only the hardening settings you want to review.
 
-8.  Once your filter is complete, select **Save Filter**.
+8.  After your filter is complete, select **Save Filter**.
 
 9.  Enter a name for your filter and select **Save**.
 
-    **Note:** You may also make this list available to other users by setting permissions to **Everyone**, or **Group** to share with a specific group. These users must also have permission to use Security Center.
+    **Note:** You can also make this list available to other users by setting permissions to **Everyone**, or **Group** to share with a specific group. These users must also have permission to use Security Center.
 
 
 ## What to do next

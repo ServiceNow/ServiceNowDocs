@@ -36,14 +36,14 @@ Leader Hub provides an integration with the following applications:
 
 -   **Career Conversations**
 
-    When you optionally install the Career Conversations plugin \(sn\_egd\_act\), Leader Hub generates metrics for employee engagement with the Career Conversations app, such as the percentage of managers in your organization who had conversations with their employees in the past 30 days.
+    When you optionally install the Career Conversations plugin \(sn\_egd\_act\), Leader Hub generates employee engagement metrics for the Career Conversations app. One example is the percentage of managers who had conversations with their employees in the past 30 days.
 
 -   **Mentoring**
 
-    When you optionally install the Employee Connections plugin \(sn\_ecn\), Leader Hub generates metrics for employee engagement with the Mentoring app, such as the percentage of employees in your organization currently engaged in mentorship.
+    When you optionally install the Employee Connections plugin \(sn\_ecn\), Leader Hub generates employee engagement metrics for the Mentoring app. For example, the percentage of employees currently engaged in mentorship.
 
 -   **Learning**
 
-    When you optionally install the Learning plugin \(sn\_lep\), Leader Hub generates metrics for employee engagement with the Learning app, such as the percentage of employees in your organization who have completed courses in the past 30 days.
+    When you optionally install the Learning plugin \(sn\_lep\), Leader Hub generates employee engagement metrics for the Learning app. For example, the percentage of employees who have completed courses in the past 30 days.
 
 

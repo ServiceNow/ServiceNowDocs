@@ -1,20 +1,20 @@
 ---
 title: Set the default language for an instance
-description: Change the language that appears by default for an instance.
+description: Define the language that appears by default for an instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/system-localization/r\_GlobalLanguage.html
 release: brazil
 product: System Localization
 classification: system-localization
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-14"
 reading_time_minutes: 1
-breadcrumb: [Configuring System Localization, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configuring System Localization, System Localization, Translation and localization, Configure core features, ServiceNow AI Platform]
 ---
 
 # Set the default language for an instance
 
-Change the language that appears by default for an instance.
+Define the language that appears by default for an instance.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-This property defines the language that users with a role see if a language is not specified in their user record. Users without a role see the default guest language, as described in [User specific language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/r_UserSpecificLanguage.md).
+This property defines the language that users with a role see if a language is not specified in their user record. Configuring the system default language using the sys property glide.sys.language sets the language for both the login page and all users without a user role. For more information see [User specific language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/system-localization/r_UserSpecificLanguage.md) and [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 ## Procedure
 

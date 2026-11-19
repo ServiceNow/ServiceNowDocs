@@ -18,7 +18,7 @@ Get actionable real-time recommendations in the side panel to help address custo
 
 ## Before you begin
 
-**Important:** Users who have itil or sn\_incident\_write in the ITSM base system, can see and use the recommendations. These roles \(itil and sn\_incident\_write\) also include the following two roles:
+**Important:** Users who have itil or sn\_incident\_write in the ITSM base system can see and use the recommendations. These roles \(itil and sn\_incident\_write\) also include the following two roles:
 
 -   -   sn\_nb\_action.next\_best\_action\_user: To view the recommendation.
 -   sn\_gd\_guidance.guidance\_user: To use the recommendation
@@ -27,19 +27,19 @@ Role required: itil, admin, sn\_incident\_write
 
 ## About this task
 
-The guidance based recommendations appear for various records in the Service Operations Workspace, including Incident, Incident task, Problem, Problem task, Change request, Change task, Interaction, and Request.
+The guidance-based recommendations appear for various records in the Service Operations Workspace, including Incident, Incident task, Problem, Problem task, Change request, Change task, Interaction, and Request.
 
-For incident records, clicking the **Recommendations** icon\(\[Omitted image "recommended-actions-icon.png"\] Alt text: recommended actions icon\) displays the **Recommended actions** and **Search** sub-tabs. The **Search** sub-tab allows you to manually search for AI-powered recommendations.
+For incident records, selecting the **Recommendations** icon \(\[Omitted image "recommended-actions-icon.png"\] Alt text: recommended actions icon\) displays the **Recommended actions** and **Search** sub-tabs. The **Search** sub-tab enables you to manually search for AI-powered recommendations.
 
 For records other than incidents \(such as Incident Tasks, Problems, Problem tasks, Change requests, Change tasks, Interactions, and Requests\), recommendations do not appear directly. Instead, you can use AI-powered search to find the recommendations.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspace Experience** &gt; **Workspaces** &gt; **Service Operations Workspace.**.
+1.  Navigate to **All** &gt; **Workspace Experience** &gt; **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Open a record that you want to work on.
+2.  Open a record that you need to work on.
 
-3.  Select the **Recommendations** icon\(\[Omitted image "recommended-actions-icon.png"\] Alt text: recommended actions icon\) in the contextual side panel.
+3.  Select the **Recommendations** icon \(\[Omitted image "recommended-actions-icon.png"\] Alt text: recommended actions icon\) in the contextual side panel.
 
 4.  Select the **Recommended actions** to review the actionable recommendation cards.\[Omitted image "Using\_RA.png"\] Alt text: Guidance based recommendations
 

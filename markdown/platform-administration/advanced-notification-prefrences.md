@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Notification Preferences, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # System and custom notification and delivery channel preferences in Next Experience

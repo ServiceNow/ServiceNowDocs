@@ -1,6 +1,6 @@
 ---
 title: PersonalAuthAPI - Scoped
-description: The PersonalAuthAPI provides methods that enable you to manage access/refresh tokens for personal authentication credentials.Instantiates a new PersonalAuthAPI object.Returns the OAuth initiator URL for the personal authentication credential associated with a specified alias.Checks whether a valid access/refresh token exists for the personal authorization credential associated with a specified alias.Revokes an existing access/refresh token for the personal authentication credential associated with a specified alias.
+description: The PersonalAuthAPI provides methods that enable you to manage access/refresh tokens for personal authentication credentials.Instantiates a new PersonalAuthAPI object.Returns the OAuth initiator URL for the personal authentication credential associated with a specified alias.Retrieves OAuth token expiration information for a specified connection and credential alias.Checks if a personal authentication credential is associated with a specified alias.Checks whether a valid access/refresh token exists for the personal authorization credential associated with a specified alias.Revokes an existing access/refresh token for the personal authentication credential associated with a specified alias.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/api-reference/server-api-reference/PersonalAuthAPIScoped.html
 release: brazil
@@ -8,7 +8,7 @@ product: Server API Reference
 classification: server-api-reference
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 4
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -82,6 +82,140 @@ Output:
 
 ```
 /oauth_initiator.do?oauth_requestor_context=oauth_2_0_credentials&oauth_requestor=d84b5115532102104c4bddeeff7b12f2&oauth_provider_profile=d84b5115532102104c4bddeeff7b12ec&response_type=code&personal=true 
+```
+
+## PersonalAuthAPI - getOAuthTokenExpiryInfo\(String aliasId\)
+
+Retrieves OAuth token expiration information for a specified connection and credential alias.
+
+<table id="table_gte_prm_1" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+aliasId
+
+</td><td>
+
+String
+
+</td><td>
+
+Sys\_id of the connection and credential alias to retrieve OAuth token expiry information for.Table: Connection &amp; Credential Aliases \[sys\_alias\]
+
+</td></tr></tbody>
+</table><table id="table_gte_ret_1" class="returns"><thead><tr><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Object
+
+</td><td>
+
+An OAuthTokenExpiryInfo object with methods to obtain expiry information for the access token and refresh token.-   getAccessTokenExpiryInSeconds\(\): Returns the number of seconds until the access token expires. Returns 0 if the token is expired.
+-   getRefreshTokenExpiryInSeconds\(\): Returns the number of seconds until the refresh token expires. Returns 0 if the token is expired.
+
+An object with both the access token and the refresh token marked as expired is returned in the following cases:
+
+-   **aliasId** isn't provided or doesn't exist in the sys\_alias table.
+-   No OAuth credential is found for the alias.
+-   The expiry information can't be retrieved.
+
+</td></tr></tbody>
+</table>The following code example shows how to call this method.
+
+```
+var aliasId = "279d56efff4321108914224b793bf1d0";
+var personalAuthAPI = new sn_cc.PersonalAuthAPI();
+var expiryInfo = personalAuthAPI.getOAuthTokenExpiryInfo(aliasId);
+gs.info("Access token expiry: " + expiryInfo.getAccessTokenExpiryInSeconds());
+gs.info("Refresh token expiry: " + expiryInfo.getRefreshTokenExpiryInSeconds());
+```
+
+Output:
+
+```
+Access token expiry: 3540
+Refresh token expiry: 86340
+```
+
+## PersonalAuthAPI - isPersonalAuthEnabled\(String aliasId\)
+
+Checks if a personal authentication credential is associated with a specified alias.
+
+<table id="table_ipa_enb_1" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+aliasId
+
+</td><td>
+
+String
+
+</td><td>
+
+Sys\_id of the connection and credential alias to check for an associated personal authentication credential.Table: Connection &amp; Credential Aliases \[sys\_alias\]
+
+</td></tr></tbody>
+</table><table id="table_ipa_ret_1" class="returns"><thead><tr><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether a personal authentication credential is associated with the specified alias.Possible values:
+
+-   true: A personal authentication credential is associated with the specified alias.
+-   false: The credential associated with the alias isn't a personal authentication credential, or no credential could be found for the alias. Also returned if **aliasId** isn't provided or doesn't exist in the sys\_alias table.
+
+</td></tr></tbody>
+</table>The following code example shows how to call this method.
+
+```
+var aliasId = "f4668804ff03221071aaf10303cb1456";
+var personalAuthAPI = new sn_cc.PersonalAuthAPI();
+var result = personalAuthAPI.isPersonalAuthEnabled(aliasId);
+gs.info(result);
+```
+
+Output:
+
+```
+true
 ```
 
 ## PersonalAuthAPI - isTokenValid\(String aliasId\)

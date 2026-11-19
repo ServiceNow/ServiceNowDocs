@@ -7,8 +7,8 @@ release: brazil
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 12
+last_updated: "2026-11-17"
+reading_time_minutes: 13
 keywords: [Virtual, Agent, branding]
 breadcrumb: [Branding your chat client, General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
@@ -86,7 +86,7 @@ Menu Title
 
 </td><td>
 
-Name of the support menu. The default title is Contact Support.
+Name of the support menu. The default title is Contact Support. Applies to standard chat only. Enhanced chat doesn’t use this field. To change the support label text shown in enhanced chat, update the **nass-support-label** translation record instead.
 
 </td></tr><tr><td>
 
@@ -95,6 +95,8 @@ Branding key
 </td><td>
 
 Read-only sys\_id of the configuration, which reflects the **Branding name** you entered. The key is in lower case letters with spaces replaced by underscore characters.
+
+ When more than one chat experience could apply, Virtual Agent uses the one with the lowest order value to decide which branding is shown. For more information, see [\(Legacy\) Configure a Virtual Agent NLU chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-default-chat-experience.md).
 
 </td></tr><tr><td>
 

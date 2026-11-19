@@ -18,7 +18,7 @@ Appointment booking slot recommendations help users quickly select the best avai
 
 ## Before you begin
 
-Role required: appointment\_booking\_admin
+Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
 ## Procedure
 

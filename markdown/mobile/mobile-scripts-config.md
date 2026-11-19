@@ -32,20 +32,64 @@ Role required: mobile\_admin
 
 3.  On the form, fill in the required fields.
 
-    |Field|Description|
-    |-----|-----------|
-    |Name|Unique name of the mobile script, used as the display field. This name is the class name, so it can use only letters, numbers, and underscores, and it can’t start with a number.|
-    |API Name|A read-only, automatically generated name. The API name combines the scope and the name, separated by a period \(for example, global.my\_script\). If no scope is set, the scope defaults to global.|
-    |Description|Free-form description of the mobile script you’re creating.|
-    |Active|Define whether this mobile script should be active not. The default value is &lt;true&gt;.|
-    |Script|The JavaScript source executed on the device. For script examples, see [Mobile Scripting API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/api-mobile-scripting.md).|
-    |Script dependencies|A read-only automatically generated list of the API names this script calls. It lists the API names this script calls, and any other scripts that are downloaded for this script to work end to end.|
+<table id="table_cqp_5jq_clc"><thead><tr><th>
 
-4.  In the **Name** field, add a unique name for the Mobile script.
+Field
 
-5.  Select **Turn on ECMAScript 2021 \(ES12\) mode** if you want to use ES2021 syntax and feature.
+</th><th>
 
-6.  Select **Submit**.
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Unique name of the mobile script, used as the display field. This name is the class name, so it can use only letters, numbers, and underscores, and it can’t start with a number.
+
+</td></tr><tr><td>
+
+API Name
+
+</td><td>
+
+A read-only, automatically generated name. The API name combines the scope and the name, separated by a period \(for example, global.my\_script\). If no scope is set, the scope defaults to global.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Free-form description of the mobile script you’re creating.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Define whether this mobile script should be active not. The default value is &lt;true&gt;.
+
+</td></tr><tr><td>
+
+Script
+
+</td><td>
+
+The JavaScript source executed on the device. For script examples, see [Mobile Scripting API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/api-mobile-scripting.md).Select **Turn on ECMAScript 2021 \(ES12\) mode**, if you want to use ES2021 syntax and capabilities.
+
+</td></tr><tr><td>
+
+Script dependencies
+
+</td><td>
+
+A read-only, automatically generated list of the API names this script calls. It lists the API names this script calls, and any other scripts that are downloaded for this script to work end to end.
+
+</td></tr></tbody>
+</table>4.  Select **Submit**.
 
 
 **Parent Topic:**[Mobile scripting in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-script-concept.md)

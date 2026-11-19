@@ -1,6 +1,6 @@
 ---
 title: Create an AI connection for Veza access intelligence
-description: Connect AI Control Tower to Veza using OAuth 2.0 so that agent risk scores and severity levels from Veza access intelligence appear in the agent map. Since Veza is an enrichment connector, it doesn't import new assets.
+description: Connect Super Intelligence Control Tower to Veza using OAuth 2.0 so that agent risk scores and severity levels from Veza access intelligence appear in the agent map. Since Veza is an enrichment connector, it doesn't import new assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-create-ai-connection-veza.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-09-08"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring connectors, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring connectors, Configuring integrations, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create an AI connection for Veza access intelligence
 
-Connect AI Control Tower to Veza using OAuth 2.0 so that agent risk scores and severity levels from Veza access intelligence appear in the agent map. Since Veza is an enrichment connector, it doesn't import new assets.
+Connect Super Intelligence Control Tower to Veza using OAuth 2.0 so that agent risk scores and severity levels from Veza access intelligence appear in the agent map. Since Veza is an enrichment connector, it doesn't import new assets.
 
 ## Before you begin
 

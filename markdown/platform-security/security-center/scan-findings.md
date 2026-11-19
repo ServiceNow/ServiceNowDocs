@@ -18,7 +18,7 @@ A finding is a reference to a record that has violated a rule from a check on th
 
 \[Omitted image "security-scanner.png"\] Alt text: Security scanner tab in the Security Center
 
-Navigate to the **Findings** tab to view scan findings in a list. The cards above the list provide a count of the findings that match specific criteria listed on the card. Select any of these cards to filter the list to show only those that match the criteria.
+Navigate to the **Findings** tab to view scan findings in a list. The cards on this tab provide a count of the findings that match specific criteria listed on the card. Select any of these cards to filter the list to show only those that match the criteria.
 
 Select the **+Create task** button to create a Security Task to resolve a finding. This button appears both on the list and within the finding record. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-task-manager.md).
 
@@ -70,7 +70,7 @@ Select a link under the **Count** column to view a finding record, which display
 
 -   **Domain**
 
-    Which domain the scan is applied to.
+    Domain the scan is applied to.
 
 -   **Short Description**
 
@@ -81,7 +81,7 @@ Select a link under the **Count** column to view a finding record, which display
     Instructions on how to resolve issues reported by the scan.
 
 
-Findings can be muted by selecting the **Mute / Unmute** button. When muting a scan finding, you're prompted a reason for muting the finding. Findings muted in the last six months are available in the muted findings card in the **Scan Findings** page.
+You can mute findings by selecting the **Mute / Unmute** button. When muting a scan finding, you're prompted a reason for muting the finding. Findings muted in the last six months are available in the muted findings card in the **Scan Findings** page.
 
 **Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-scanning.md)
 

@@ -27,7 +27,7 @@ Role required: You can delete any data visualization that you created. If you ha
 
 2.  Open the data visualization that you want to delete.
 
-3.  Select the **Delete** icon \[Omitted image "Form\_DeleteIcon.png"\].
+3.  Select the **Delete** icon \[Omitted image "Form\_DeleteIcon.png"\] Alt text: Delete icon.
 
 4.  Confirm the deletion.
 

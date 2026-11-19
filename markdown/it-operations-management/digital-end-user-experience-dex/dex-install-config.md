@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-10-22"
 reading_time_minutes: 1
+keywords: [guided setup, dex setup, get started with dex, install dex plugins, configure dex plugins]
 breadcrumb: [Before you begin, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

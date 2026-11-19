@@ -18,7 +18,7 @@ An appointment schedule override modifies default slot configurations for specif
 
 ## Before you begin
 
-Role required: appointment\_booking\_admin
+Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
 Ensure that the Advanced Appointment Booking plugin is active. For more information, see [Activate Advanced Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/activate-adv-appt-booking.md).
 

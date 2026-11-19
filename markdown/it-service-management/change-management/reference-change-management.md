@@ -30,8 +30,8 @@ Risk lookup table is to get the risk value corresponding to the success probabil
 You can integrate Change Management with other ServiceNow applications such as Discovery, Software Asset Management, and Hardware Asset Management.
 -   **[Domain separation and Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/domain-separation-change-mgt.md)**  
 Change Management supports domain separation. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Tutorial: Add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)**  
-Add a Complete state between the Implement and Review states as an example of extending the state model.
+-   **[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)**  
+This tutorial provides an example of adding a new state to the existing state model.
 -   **[Change flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-flows.md)**  
 Change Management change flows provide a library of reusable actions and end-to-end implementations of the change models in the base system.
 -   **[ITSM Enhanced Security Features for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/features-itsm-enhanced-security-change.md)**  

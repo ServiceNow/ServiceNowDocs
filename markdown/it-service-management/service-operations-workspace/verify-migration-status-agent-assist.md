@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-At the end of the migration process, a confirmation message specifies if the migration is successful or not. You can review the migration information and perform the post-migration steps to ensure successful migration of your configuration or customization.
+At the end of the migration process, a confirmation message specifies whether the migration is successful. You can review the migration information and perform the post-migration steps to ensure successful migration of your configuration or customization.
 
 ## Procedure
 
@@ -34,13 +34,13 @@ At the end of the migration process, a confirmation message specifies if the mig
 
         -   To open SOW, navigate to **All** &gt; **Workspace Experience** &gt; **Workspaces** &gt; **Service Operations Workspace**.
         -   To open ITSM Agent Workspace, enter `<instance-name>.service-now/workspace` in the web browser.
-    2.  Open a record in SOW that is corresponding to a table for which Agent assist configuration is migrated.
+    2.  Open a record in SOW that corresponds to a table for which Agent assist configuration is migrated.
 
-        For example: If you want to verify the Agent assist configuration migration status for an incident, navigate to **List** &gt; **Incident** &gt; **All** and then select any incident record.
+        For example, if you want to verify the Agent assist configuration migration status for an incident, navigate to **List** &gt; **Incident** &gt; **All** and then select any incident record.
 
-    3.  Select the **Agent Assist** \(\[Omitted image "agent-assist-icon.png"\] Alt text: agent assist icon\) icon from the Contextual side panel.
+    3.  Select the **Agent Assist** \(\[Omitted image "agent-assist-icon.png"\] Alt text:\) icon from the contextual side panel.
 
-    4.  Review the Agent assist side panel to verify that the Agent assist configurations for all selected tables are available in SOW same as in ITSM Agent Workspace.
+    4.  Review the Agent assist side panel to verify that the Agent assist configurations for all selected tables are available in SOW the same as in ITSM Agent Workspace.
 
     5.  Navigate to **All** &gt; **sys\_ux\_screen.list** and ensure that the Macroponent Configuration field and mappings are applied to Agent assist SNC record.
 
@@ -50,7 +50,7 @@ At the end of the migration process, a confirmation message specifies if the mig
 
     1.  On the migration completion page in SOW Admin Center, select **View migration details**.
 
-    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text: Error\) icon.
+    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text:\) icon.
 
     3.  Review the logs to determine which items failed during migration.
 

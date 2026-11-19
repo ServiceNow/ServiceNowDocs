@@ -73,7 +73,7 @@ Agent Workspace
 
 </td></tr><tr><td>
 
-AI Control Tower
+Control Tower
 
 </td><td>
 
@@ -179,7 +179,7 @@ Customer Service Management \(CSM\)
     -   [Case API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/rest-apis/case-api.md)
     -   [Consumer API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/rest-apis/consumer-api.md)
     -   [Contact API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/rest-apis/contact-api.md)
-    -   
+    -   [Cookie Auth API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/rest-apis/cookieauth-api.md)
     -   [CSM Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/rest-apis/attachment_csm-api.md)
     -   [Customer Central API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/rest-apis/cust_central-api.md)
     -   [Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/rest-apis/entitlement-api.md)

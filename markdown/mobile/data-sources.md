@@ -18,8 +18,6 @@ A data source is a loading mechanism that maps UI elements to specific database 
 
 Data sources enable the mapping of various types of data, such as input values, input actions, and descriptive elements to UI elements on the screen. This mapping is achieved by querying and filtering data from specific tables and fields in the database, and then associating the data with the corresponding UI elements. The mechanism uses an identifier to connect a UI element to a specific data field within a record. This mapping enables the UI element to retrieve and display the specified data.
 
-**Note:** Data sources aren't supported in offline.
-
 ## Data source variables
 
 The data source script that maps data into UI elements uses the *DataSourceId* and *ElementIdentifier* variables.

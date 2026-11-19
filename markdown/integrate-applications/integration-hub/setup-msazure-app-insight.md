@@ -83,23 +83,26 @@ Role required: admin.
 
 ### Procedure
 
-1.  Log in to your ServiceNow instance.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+2.  Click the **Integrations** tab.
 
-3.  Select **Integrations**.
-
-4.  Select **Connections**.
-
-5.  In the Search all connections field, search the Microsoft Azure Application Insights connection alias record.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
     **Note:** The **Outbound** tab is enabled by default. Or else, toggle to enable it.
 
-6.  On the Microsoft Azure Application Insights connection alias tile, select **View Details**.
+4.  Locate the alias for Microsoft Azure Application Insights and click **View Details**.
 
-7.  Select **Configure**.
+    -   To configure the default connection and credential alias record that is shipped along with the Microsoft Azure Application Insights spoke, click **View Details**.
 
-8.  Fill the form.
+        \[Omitted image "app-insight-connection.png"\] Alt text: Connection for the Microsoft Azure Application Insights spoke
+
+    -   To manage more than one Microsoft Azure Application Insights spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+
+    \[Omitted image "app-insight-connection-conf.png"\] Alt text: Initial connection configuration.
+
+5.  On the form, fill in these fields:
 
 <table id="table_usv_xlj_zcc"><thead><tr><th>
 
@@ -166,7 +169,9 @@ Redirect URL
 Specific address where the third-party application sends your ServiceNow instance back after the request is authenticated. You must set the redirect URL when you create the OAuth application on Microsoft Azure Application Insights.
 
 </td></tr></tbody>
-</table>9.  Select **Configure and Get OAuth Token**.
+</table>    \[Omitted image "app-insight-connection-conf-temp.png"\] Alt text:
+
+6.  Click **Configure and Get OAuth Token**.
 
     You're required to log in to [https://portal.azure.com/](https://portal.azure.com/) before the OAuth token is provided.
 

@@ -1,6 +1,6 @@
 ---
 title: Detect change conflicts
-description: Detect change conflicts by setting Change Management conflict analysis properties. Use the resulting information to calculate conflicts for change requests and review and modify the change to eliminate conflicts.Conflict detection includes properties that determine how the conflict detection capability is executed.
+description: Configure Change Management conflict analysis properties to detect change conflicts, then review this information to calculate conflicts in change requests and modify the change to eliminate confllicts.Conflict detection includes properties that determine how the conflict detection capability is executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-conflict-properties.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Conflict detection, Configure, Change Management, IT Service Manage
 
 # Detect change conflicts
 
-Detect change conflicts by setting Change Management conflict analysis properties. Use the resulting information to calculate conflicts for change requests and review and modify the change to eliminate conflicts.
+Configure Change Management conflict analysis properties to detect change conflicts, then review this information to calculate conflicts in change requests and modify the change to eliminate confllicts.
 
 ## Before you begin
 

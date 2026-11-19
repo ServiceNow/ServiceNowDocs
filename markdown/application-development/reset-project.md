@@ -44,5 +44,5 @@ The project is reset to its original state.
 **Related topics**  
 
 
-[Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/create-project.md)
+[Create a project in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-project.md)
 

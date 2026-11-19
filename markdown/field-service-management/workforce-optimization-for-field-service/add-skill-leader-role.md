@@ -18,7 +18,7 @@ Identify a crew leader if one isn’t specified by the dispatcher by adding skil
 
 ## Before you begin
 
-Role required: wm\_admin
+Role required: wm\_crew\_moderator
 
 ## About this task
 

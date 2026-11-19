@@ -88,15 +88,15 @@ AI applications often function interdependently. AI Suites help reduce runtime e
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d142107e463">
+<table><thead><tr><th align="left" id="d142736e465">
 
 Installation option
 
-</th><th align="left" id="d142107e466">
+</th><th align="left" id="d142736e468">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d142107e472">
+</th></tr></thead><tbody><tr><td id="d142736e474">
 
 **Install now**
 
@@ -106,7 +106,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d142107e496">
+</td></tr><tr><td id="d142736e498">
 
 **Install later**
 

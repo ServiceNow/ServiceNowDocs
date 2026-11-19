@@ -35,7 +35,7 @@ For more information, see [Components installed with Agent Client Collector for 
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Service Operations Workspace ITSM Applications](https://tpp.servicenow.com/sn_appstore_store.do#!/tpp/application/editapplication/213afe191b860dd029bd1f03b24bcbd1?st=appdetail) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   Installing the Agent Client Collector for Investigation application requires ITSM Pro package subscription.
+-   Installing the Agent Client Collector for Investigation application requires an ITSM Pro package subscription.
 
 Role required: admin
 

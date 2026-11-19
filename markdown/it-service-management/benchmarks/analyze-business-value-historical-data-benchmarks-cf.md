@@ -1,6 +1,6 @@
 ---
 title: Use Benchmarks data for value management analysis
-description: Manually collect historical Benchmarks data to analyze the benefits of year-over-year growth when you use the ServiceNow Benchmarks application.
+description: Manually collect historical Benchmarks data to analyze the benefits of year-over-year growth.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/analyze-business-value-historical-data-benchmarks-cf.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Use, Benchmarks, IT Service Management]
 
 # Use Benchmarks data for value management analysis
 
-Manually collect historical Benchmarks data to analyze the benefits of year-over-year growth when you use the ServiceNow Benchmarks application.
+Manually collect historical Benchmarks data to analyze the benefits of year-over-year growth.
 
 ## Before you begin
 
@@ -38,7 +38,7 @@ If you want to analyze year-over-year performance, you must collect at least 24 
 
         Recommended interval is 24 months.
 
-    5.  Click **Execute**.
+    5.  Select **Execute**.
 
         For detailed information on scheduling a data collection job, refer to [Create or schedule a data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_CreatASchedDataCollJob.md).
 
@@ -54,7 +54,7 @@ If you want to analyze year-over-year performance, you must collect at least 24 
 
     4.  Select the **Copy historical scores from PA to Benchmarks table**.
 
-    5.  Click **Execute Now**.
+    5.  Select **Execute Now**.
 
         The data is automatically sent for value management analysis. Connect with your account representative to receive the report and discuss the benefits for your organization's value management.
 

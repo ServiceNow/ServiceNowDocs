@@ -14,8 +14,12 @@ breadcrumb: [Configure, Telecommunications Customer 360, Telecommunications, Med
 
 Configure the ServiceNow Otto for TMT application so that your agents can use the generative AI skills in CRM Workspace and in Core UI for Telecom Customer 360.
 
--   **[Install ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/install-servicenow-otto-c360.md)**  
-Install the ServiceNow Otto for TMT sn\_tmt\_gen\_ai plugin to configure and use agentic workflows and skills in CTelecom Customer 360.
+To configure ServiceNow Otto® for Telecommunications Customer 360, do the following:
+
+-   [Install ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-install-all.md).
+-   Review the configuration checklist in [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) configuration prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-checklist.md).
+-   [Configure agentic workflows for Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/configure-agentic-workflows-C360.md)
+
 -   **[Configure agentic workflows for Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/configure-agentic-workflows-C360.md)**  
 Duplicate and activate the Telecommunications Customer 360 agentic workflows, and complete any additional setup a specific workflow requires.
 

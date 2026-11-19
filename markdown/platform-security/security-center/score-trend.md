@@ -16,7 +16,7 @@ breadcrumb: [Security hardening, Security configuration console, Security Center
 
 View the trends of your hardening compliance score over time in a chart or table.
 
-See trends in your compliance score over time. Use the date picker to select a time range to analyze to gain insights into the data by applying performance analytics functionality such as targets, thresholds, and KPIs.\[Omitted image "hardening-compliance-score-trend.png"\] Alt text: hardening compliance score chart UI
+See trends in your compliance score over time. Use the date picker to select a time range to analyze to gain insights into the data by applying Performance Analytics functionality such as targets, thresholds, and key performance indicators \(KPIs\).\[Omitted image "hardening-compliance-score-trend.png"\] Alt text: hardening compliance score chart UI
 
 ## Compliance score chart
 
@@ -60,7 +60,7 @@ Use the **Chart options** button to specify what information to analyze and how 
 
     -   **Score**
 
-        Score for the Key Performance Indicator \(KPI\).
+        Score for the key performance indicator \(KPI\).
 
     -   **Change**
 
@@ -80,7 +80,7 @@ Use the **Chart options** button to specify what information to analyze and how 
 The All Records table displays the date on which the compliance scores were collected, the score percentages, and the number of non-compliant settings. You can use this table as another option to analyze the security posture of your instance over time.
 
 -   **[Increase hardening compliance score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/increase-hardening-comp-score.md)**  
-Increase your hardening compliance score by ensuring that the hardening settings are compliant with the system's recommendations.
+Increase your hardening compliance score by making sure that the hardening settings are compliant with the system's recommendations.
 
 **Parent Topic:**[Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-hardening.md)
 

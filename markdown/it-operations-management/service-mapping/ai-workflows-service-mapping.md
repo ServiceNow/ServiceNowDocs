@@ -8,7 +8,7 @@ product: Service Mapping
 classification: service-mapping
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [Now Assist, generative AI, Service Mapping, AI agent, agentic workflow, MCP Server, service map]
 breadcrumb: [Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -92,23 +92,6 @@ Autonomously creates service maps from ML-powered Application Service Candidates
 </td><td>
 
 A Service Mapping administrator wants to process a large volume of ML-powered candidates and create service maps automatically, without reviewing each candidate individually.
-
-</td><td>
-
--   [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/service-mapping-ai-agents.md)
--   [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/activate-sm-ai-agents.md)
-
-</td></tr><tr><td>
-
-Business App Mapping AI Agent
-
-</td><td>
-
-Automatically creates CSDM Consumes::Consumed by relationships between Business Applications and discovered Application Services by invoking the Business App Identification skill.**Note:** The Business App Mapping AI Agent is available through the Feature Preview Program. For more information, see [Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/feature-preview-program.md).
-
-</td><td>
-
-A Service Mapping administrator wants to connect discovered application services to their business application context in the CSDM without manually mapping each relationship.
 
 </td><td>
 

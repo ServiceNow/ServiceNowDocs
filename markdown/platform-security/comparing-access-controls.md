@@ -99,7 +99,7 @@ Field name, chosen from the list.
 
     In this example, select the **read** operation.
 
-6.  Select any of the **Access Control** to know more about the access.
+6.  Select any of the **Access Control** to learn more about the access.
 
     \[Omitted image "comparing-access-controls-operation.png"\] Alt text: ACL details
 
@@ -113,7 +113,7 @@ Field name, chosen from the list.
 
     \[Omitted image "comparing-access-controls-role-details.png"\] Alt text: Role or group details
 
-    In the example, **Abel Tuter** doesn't have `itil` assigned.
+    In the example, **Abel Tuter** doesn't have itil assigned.
 
     Select a node to learn more about the role, resources the role can access, or the group.
 

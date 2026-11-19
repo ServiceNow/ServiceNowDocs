@@ -40,7 +40,7 @@ Learn how to monitor the progress of your discoveries and how to configure the s
 
 -   **[Discovery Troubleshooting Guide](https://support.servicenow.com/kb_view.do?sysparm_article=KB0535181)**
 
-    Use this article in the Now SupportKnowledge Base if you're experiencing symptoms, such as the inability for Discovery to classify a discovered host, or the Shazzam probe not finding certain types of devices.
+    Use this article in the Now SupportKnowledge Base if Discovery fails to classify a discovered host or the Shazzam probe does not find certain device types.
 
 -   **[Troubleshoot Discovery Performance, Cancellation, and Timeout](https://support.servicenow.com/now/nav/ui/classic/params/target/kb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0676340)**
 
@@ -58,7 +58,7 @@ Learn how to monitor the progress of your discoveries and how to configure the s
 
     View performance metrics on probe/pattern and sensor processing times. You can use the roll-up data to monitor the performance of specific discoveries or to compare performance between versions after an upgrade.
 
--   **[Daily Slow Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/daily_slow_patterns.md)**
+-   ****
 
     Monitor day-over-day trend and anomaly signals on platform performance patterns such as slow queries, scripts, and transactions.
 

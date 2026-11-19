@@ -9,10 +9,27 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Assigning and managing alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Manage alert states in Express List
 
 Learn how to change alert states.
+
+-   **[Acknowledge viewed alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/acknowledge-alerts.md)**  
+Acknowledge alerts that you’ve viewed to remove clutter in the Express List pane.
+-   **[Place an alert in the Acknowledged state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-acknowledged-status.md)**  
+Placing an alert into the Acknowledged state indicates that the alert has issues that need to be addressed.
+-   **[Place an alert in the Maintenance state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-maintenance-state.md)**  
+Placing an alert into the Maintenance state indicates that there are issues with the alert's CIs that are being addressed.
+-   **[Mute a CI's alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/put-into-maintenance.md)**  
+Mute a CI's alerts in Express List to avoid alerts being issued when replacing or upgrading the CI.
+-   **[Close an alert in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/close-alert.md)**  
+Manually close alerts from the Express List pane or preview panel if you know the root cause or have fixed the problem.
+-   **[Reopen alert closed by AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/reopen-ai-closed-alert.md)**  
+Reopen an alert that the AIOps AI Specialist auto-closed as noise so it bypasses the noise classifier and runs the full investigation pipeline. Your override is honored for the alert's entire lifecycle, preserved in the audit trail, and fed back to improve future classification accuracy.
+-   **[Hide closed alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-hide-closed-alerts.md)**  
+Choose whether to display the closed alerts in an alert group as well as the open alerts on the preview panel and in Link View.
+
+**Parent Topic:**[Assigning and managing alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/assigning-and-managing-alerts.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Acumatica
+title: Acumatica \(REST\)
 description: The Acumatica connector enables access to ERP data from your Acumatica account without moving or copying data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/acumatica-zcc.html
@@ -11,11 +11,15 @@ keywords: [Acumatica connector, REST connector, zero-copy connector, ERP data, d
 breadcrumb: [Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
-# Acumatica
+# Acumatica \(REST\)
 
 The Acumatica connector enables access to ERP data from your Acumatica account without moving or copying data.
 
 Connection admins set up connections to Acumatica in the Zero Copy Connector Hub and grant data stewards access. Data stewards use the connection to create data fabric tables and map data from Acumatica. Users can then access Acumatica data through the table list view or GlideRecord scripts. For details, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
+
+**Note:**
+
+This connector is available starting with Australia patch 6.
 
 **Note:**
 

@@ -9,7 +9,7 @@ classification: upgrade-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Preparing your upgrade plan, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Preparing your upgrade plan, Using Upgrade Center, Upgrade Center, Upgrade, ServiceNow AI Platform]
 ---
 
 # Prepare to upgrade with Upgrade Plan

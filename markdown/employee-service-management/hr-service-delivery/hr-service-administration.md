@@ -106,7 +106,7 @@ HR services are the requests and assistance an HR organization provides its empl
 -   **[HR service catalog management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-service-catalog-management.md)**  
 Enable employees to request HR services such as benefits updates, travel visas, or paycheck inquiries through the HR service catalog.
 -   **[HR fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.md)**  
-HR fulfillment instructions provide focused and targeted information on how an agent can complete an HR case faster and more efficiently for HR Service Delivery Agent Workspace and legacy HR Case Management.
+HR fulfillment instructions provide focused, targeted information on how an agent can complete an HR case faster and more efficiently for HR Service Delivery Agent Workspace and legacy HR Case Management.
 -   **[HR templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-template-configuration.md)**  
 HR templates allow you to automatically populate fields on an HR case or task form. You can configure HR templates for HR services, HR catalog items, HR service activities, and lifecycle event activities.
 

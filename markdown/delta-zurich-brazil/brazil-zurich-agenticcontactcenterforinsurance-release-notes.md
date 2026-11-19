@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-agenticcontactcenterforinsurance-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -83,7 +83,7 @@ Australia
 
 </td><td>
 
--   **[\[Placeholder link text to key customer-360-insurance-agentic-contact-centre\]](https://www.servicenow.com/docs/access?context=customer-360-insurance-agentic-contact-centre&family=australia&ft:locale=en-US)**
+-   **[customer 360 insurance agentic contact centre](https://www.servicenow.com/docs/access?context=customer-360-insurance-agentic-contact-centre&family=australia&ft:locale=en-US)**
 
 The Customer 360 page delivers a consolidated view of insurance customer data spanning contact details, policies, details of family members covered, premiums, claims, coverages, interaction history, and attachments.
 
@@ -244,7 +244,7 @@ Australia
 
 -   **Activation information**
 
-Install Agentic Contact Center for Insurance by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Agentic Contact Center for Insurance by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Note:** Agentic Contact Center for Insurance is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -439,7 +439,7 @@ Australia
 -   Accelerates interaction resolution with AI insights, customer analysis, and action recommendations.
 -   Enables CSR agents to access consolidated customer information including policy details, recent interactions, and related products information within a unified interface.
 
- See [\[Placeholder link text to key bundle-finso.agentic-contact-centre-for-insurance-landing\]](https://www.servicenow.com/docs/access?context=agentic-contact-centre-for-insurance-landing&family=australia&ft:locale=en-US) for an overview of features and capabilities.
+ See [agentic contact centre for insurance landing](https://www.servicenow.com/docs/access?context=agentic-contact-centre-for-insurance-landing&family=australia&ft:locale=en-US) for an overview of features and capabilities.
 
 </td></tr><tr><td>
 

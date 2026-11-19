@@ -93,7 +93,7 @@ Role required: admin
 
 5.  From the Reservation portal home page, select **Order something** to browse the workplace service catalog and request workplace services.
 
-    For more information, see [Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-services-portal-wsd.md).
+    For more information, see .
 
     1.  On the Workplace Services Catalog page, select **General Request** &gt; **General**.
 

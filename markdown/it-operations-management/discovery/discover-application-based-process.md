@@ -188,7 +188,7 @@ The name of the process that was excluded from discovery using the **Ignore** ac
 **Related topics**  
 
 
-[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/predictive-intelligence.md)
+[bundle-platai.predictive-intelligence]
 
 [Application Fingerprints dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-application-fingerprint-dashboard.md)
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/instance-health-score-calculation.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-07"
-reading_time_minutes: 3
+last_updated: "2026-11-16"
+reading_time_minutes: 4
 keywords: [Instance Health Score, Platform Health, score calculation, category weights, Scan Engine]
 breadcrumb: [Scan Engine reference, Impact reference, Impact]
 ---
@@ -15,13 +15,7 @@ breadcrumb: [Scan Engine reference, Impact reference, Impact]
 
 Your Platform Health score is the foundation for understanding instance risk. The score reflects platform risk through a four-step, category-weighted calculation that combines findings into a single 0–100 health metric.
 
-Each scoring category is evaluated independently, then combined into a single overall score using fixed category weights. A critical Security finding should not be weighted exactly the same as a cosmetic User Experience finding, and remediating a Performance issue should not alter your Upgradeability score. The priority order by category scoring capacity is:
-
-1.  Security
-2.  Performance
-3.  Upgradeability
-4.  Manageability
-5.  User Experience
+Each scoring category is evaluated independently, then combined into a single overall score using fixed category weights. A critical Security finding should not be weighted exactly the same as a cosmetic User Experience finding, and remediating a Performance issue should not alter your Upgradeability score.
 
 |Step|What happens|Why it matters|
 |----|------------|--------------|
@@ -52,7 +46,7 @@ What it computes
 
 </td><td>
 
-`Magnitude = min(2, 1 + ln(1+F) ÷ ln(1+R))`**Note:** Magnitude = 0 when F = 0, and is capped at 2 after F reaches R. This is the natural logarithm.
+`Magnitude = min(2, 1 + ln(1+F) ÷ ln(1+R))`**Note:** Magnitude = 0 when F = 0, and is capped at 2 when F reaches or exceeds R. This is the natural logarithm.
 
 </td><td>
 
@@ -104,6 +98,8 @@ Category scores combined into one Platform Health score, weighted by importance.
 -   ΣPenalty: The sum of all weighted penalties in that category.
 -   ΣCeiling: 2 × W for every active check in the category, whether or not it fired.
 
+**Note:** The Platform Health score displays as a whole number on the Executive, Platform Owner, and Team Lead dashboards. For example, a calculated score of 92.94 displays as 93%. Rounding applies to the display only and does not change the stored score.
+
 ## How categories are weighted
 
 Category weighting reflects how much risk each area typically represents across the check library. These weights are applied only at the final roll-up step, so a change in one category's findings won't distort the calculated health of another category. See [Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/scan-engine-definitions.md) for their definitions.
@@ -116,7 +112,7 @@ Category weighting reflects how much risk each area typically represents across 
 |Upgradeability|~9%|Smaller in volume but can block or delay ServiceNow release upgrades.|
 |User Experience|~9%|Important to adoption and satisfaction, but carries the lowest urgency overall.|
 
-**Note:** Publishing new definitions does not change the score on its own.
+**Note:** Publishing new definitions is designed to have minimal impact to the score on its own, as your denominator includes active definitions. .
 
 ## Related concepts
 

@@ -1,6 +1,6 @@
 ---
 title: Add comments to your change tasks
-description: Add comments to a change task from the Mobile Agent mobile application. For example, to add an insight about the change task or a discussion regarding the change task.
+description: Add comments to a change task from the Mobile Agent mobile application, such as an insight or a discussion about the task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/mobile-add-comment-changetask.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Get started with Change Management mobile tasks, Mobile experience 
 
 # Add comments to your change tasks
 
-Add comments to a change task from the Mobile Agent mobile application. For example, to add an insight about the change task or a discussion regarding the change task.
+Add comments to a change task from the Mobile Agent mobile application, such as an insight or a discussion about the task.
 
 ## Before you begin
 

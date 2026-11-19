@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-config
 release: brazil
 topic_type: task
 last_updated: "2026-03-10"
-reading_time_minutes: 4
+reading_time_minutes: 8
 breadcrumb: [Entity Management, Investigative Case Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -20,11 +20,13 @@ Link Analysis is a shared, prebuilt graph visualization component that lives in 
 
 An interactive knowledge graph renders all entities, evidence, tasks, and related cases; blue dotted lines show direct case relationships and gray solid lines show entity-to-entity links. Any node can be set as the home node to instantly re-map the network, and the view exports to PDF or PowerPoint for case reviews and handoffs.
 
+It provides the node and edge graph, info cards, status chips, search, and context menus. You supply only a config provider script include that describes your data model, a registration record, and a page placement.
+
 ## Before you begin
 
 Before you begin, verify that
 
--   The `com.sn-configurable-comps` \(scope `sn_config_comps`\) plugin is installed on your instance.
+-   The Configurable Components `com.sn-configurable-comps` \(scope `sn_config_comps`\) plugin is installed on your instance.
 -   You have a "home" table, the record that users will view when they open the graph \(e.g., the case table\)
 -   You have entity tables configured, and have linked the tables that connect them
 
@@ -253,8 +255,162 @@ Static number: 2
 How many relationship hops \(1, 2, or 3\)
 
 </td></tr></tbody>
-</table>
+</table>8.  Choose a unique graph ID string, for example `myapp-case-graph`.
+
+    This value is the `graphSysId` that scopes your configuration. It does not need to be a real sys\_id. Two teams that use the same value merge their configurations into one graph.
+
+9.  In your application scope, create a script include that extends `sn_config_comps.NodeMapConfigProvider`.
+
+    Use the following skeleton.
+
+    ```
+    var MyAppNodeMapConfigProvider = Class.create();
+    MyAppNodeMapConfigProvider.prototype = Object.extendsObject(
+        sn_config_comps.NodeMapConfigProvider,
+        {
+            MY_GRAPH_ID: 'myapp-case-graph',
+    
+            getConfig: function(graphSysId) {
+                if (graphSysId !== this.MY_GRAPH_ID) {
+                    return { nodeTypes: {}, relationships: [], directRelationships: [] };
+                }
+                return {
+                    nodeTypes: { /* ... */ },
+                    relationships: [ /* ... */ ],
+                    directRelationships: [ /* ... */ ],
+                    iconMap: { /* ... */ },
+                    defaultIcon: 'gear-fill',
+                    captionConfig: { /* ... */ },
+                    statusColorMap: { /* ... */ },
+                    statusConfig: { /* ... */ },
+                    edgeLabelConfig: { /* ... */ }
+                };
+            },
+    
+            type: 'MyAppNodeMapConfigProvider'
+        }
+    );
+    ```
+
+10. Confirm that `getConfig()` returns an empty configuration when `graphSysId` does not match your graph ID.
+
+    The engine calls `getConfig()` on every registered provider and merges the results. Without this guard, your nodes appear on every other graph on the instance.
+
+11. In the `nodeTypes` object, add one entry for each kind of node on your graph.
+
+    For each node type, set at least **tables**, **baseTable**, **primaryLabelField**, **iconMap**, **colorMap**, and **cardHeadings**. Use **fieldConfig** to choose the fields shown on the info card.
+
+    ```
+    nodeTypes: {
+        myapp_case: {
+            tables: ['myapp_case'],
+            baseTable: 'myapp_case',
+            primaryLabelField: 'short_description',
+            secondaryLabelField: 'state',
+            secondaryLabelFallbackText: 'Case',
+            iconMap: { myapp_case: 'folder-outline' },
+            colorMap: { myapp_case: 'blue' },
+            cardHeadings: { myapp_case: 'short_description' },
+            fieldConfig: {
+                assigned_to: { label: 'Assigned to', valueType: 'text-link' },
+                priority: { label: 'Priority' }
+            }
+        }
+    }
+    ```
+
+12. Define how your node types connect.
+
+    1.  For many-to-many connections through a join table, add an entry to `relationships`.
+
+        ```
+        relationships: [
+            {
+                table: 'myapp_case_person_link',
+                label: 'Related to',
+                a: { col: 'case', type: 'myapp_case' },
+                b: { col: 'person', type: 'myapp_person' }
+            }
+        ]
+        ```
+
+        If the link table is shared across multiple parent records, also set **scopeField** and **scopeType** on the relationship. Otherwise, edges from one record appear on another record's graph.
+
+    2.  For plain foreign-key connections, add an entry to `directRelationships`.
+
+        ```
+        directRelationships: [
+            {
+                fromType: 'myapp_task',
+                toType: 'myapp_case',
+                fkField: 'parent_case',
+                label: 'Belongs to'
+            }
+        ]
+        ```
+
+13. Define the top-level visual settings: **iconMap** \(filled icon for each node\), **defaultIcon**, **captionConfig**, **statusConfig**, **statusColorMap**, and **edgeLabelConfig**.
+
+    The **iconMap** inside a node type \(card tagline\), the top-level **iconMap** \(node bubble\), and **avatarIcon** \(card avatar\) are three separate settings. Keys in **statusColorMap** must be the raw choice values from **sys\_choice**, not the display text. An incorrect key produces an unstyled gray chip with no error.
+
+14. Register the script include as an extension instance by creating a record in the **sys\_extension\_instance** table with the following values.
+
+    |Field|Value|
+    |-----|-----|
+    |Active|true|
+    |Order|100|
+    |Point|`sn_config_comps.NodeMapConfigProvider`|
+    |Script Include|Your `MyAppNodeMapConfigProvider` script include|
+
+    If you use the Now SDK, define the same record in Fluent:
+
+    ```
+    Record({
+        table: 'sys_extension_instance',
+        data: {
+            active: 'true',
+            order: '100',
+            point: 'sn_config_comps.NodeMapConfigProvider',
+            script_include: '<sys_id of your script include>'
+        }
+    })
+    ```
+
+15. In UI Builder, open your workspace record page and add a new tab or open an existing tab.
+
+16. In the component palette, search for **Link Analysis default** \(scope `sn_config_comps`\) and drag it onto the page.
+
+17. Bind the component properties.
+
+    |Property|Bind to|Description|
+    |--------|-------|-----------|
+    |table|Page parameter: table name|The table of the home record, for example `myapp_case`.|
+    |sysId|Page parameter: record sys\_id|The sys\_id of the home record.|
+    |graphSysId|Static string: your graph ID|Must match `MY_GRAPH_ID` in your config provider.|
+    |maxLevels|Static number: `2`|The number of relationship hops to display: 1, 2, or 3.|
+
+18. Open a record that has linked entities and go to the tab that contains Link Analysis.
+
+    The home node appears at the center of the graph, and at least one related node and edge appear.
+
+19. Select a node.
+
+    The info card opens and shows the fields you configured.
+
+20. Right-click a node.
+
+    The context menu appears.
+
+21. Open a graph page that belongs to a different team.
+
+    Verify that your nodes do not appear. If they do, check the **graphSysId** guard in your config provider.
+
+
 ## Result
 
 The link analysis is now set up, and the relationship between each entity can be viewed with a graph.
+
+## What to do next
+
+To change the graph, edit the script include on your dev instance and refresh the record page. Changes take effect immediately. Do not modify `LinkAnalysisUtilImpl`; file bugs against the sn-configurable-comps component instead.
 

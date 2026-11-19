@@ -16,7 +16,7 @@ breadcrumb: [Use generative AI, ServiceNow Otto for Creator, Build, AI Workflow 
 
 Learn about the Process Mining skill available with ServiceNow Otto for Creator.
 
-With Process Mining, you can identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work. To learn more about Process Mining, see [ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist.md).
+With Process Mining, you can identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work. To learn more about Process Mining, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/process-mining.md).
 
 **Parent Topic:**[Using generative AI with ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/using-gen-ai-now-assist-for-creator.md)
 

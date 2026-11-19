@@ -8,7 +8,7 @@ product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Setting up HR Service Delivery Playbook, HR Service Delivery Playbook, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 

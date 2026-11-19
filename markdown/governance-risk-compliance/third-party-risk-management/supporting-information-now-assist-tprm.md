@@ -35,5 +35,7 @@ The ServiceNow Otto for TPRM application skills TPRM Issue Summarization and TPR
 
 Activate the ServiceNow Otto for TPRM \(sn\_tprm\_gen\_ai\) store app.
 
+**Important:** After installation, all ServiceNow Otto for TPRM skills are made available but remain inactive. Activate each skill after installation. To turn on generative AI skills use the [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
+
 For more information, see [Configure AI capabilities in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/configure-now-assist-for-tprm.md).
 

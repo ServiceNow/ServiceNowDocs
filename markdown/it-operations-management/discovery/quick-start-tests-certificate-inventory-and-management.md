@@ -20,7 +20,7 @@ The quick start tests for Certificate Inventory and Management validate certific
 
 The tests are inactive when the application is installed. Enable the Automated Test Framework test execution properties such as Test/Test Suite Properties, Test Debugging Properties, and Screenshot Properties before you run them. Run the tests only on development, test, and other non-production instances.
 
-To run a test, navigate to **All** &gt; **Automated Test Framework** &gt; **Tests**, open the test that you want, copy it, enter the parameter values for your instance, and then run the test using the **Run Test** button. Certificate Inventory and Management doesn't provide a test suite, so copy and run each test individually.
+To run a test, navigate to **All** &gt; **Automated Test Framework** &gt; **Tests**, open the test, and copy it. Enter the parameter values for your instance, then select the **Run Test** button. Certificate Inventory and Management doesn't provide a test suite, so copy and run each test individually.
 
 The certificate authority discovery tests require a MID Server, a credential alias for the authority, and the authority's URL.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-quotemanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
@@ -454,7 +454,7 @@ Install Quote Management by requesting it from the ServiceNow Store.
 
 To add Docusign plugin to the Quote Management PDF document function, use the Docusign eSignature Spoke plugin \(sn\_docusign\_spoke\).
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr><tr><td>
@@ -469,7 +469,7 @@ Install Quote Management by requesting it from the ServiceNow Store.
 
 To add Docusign plugin to the Quote Management PDF document function, use the Docusign eSignature Spoke plugin \(sn\_docusign\_spoke\).
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Quote Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -482,7 +482,7 @@ Australia
 
 -   **Activation information**
 
-Install Quote Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Quote Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Quote Management is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
@@ -777,7 +777,7 @@ Australia
 -   Use a conversational AI agent to handle the full spectrum of quoting tasks, from simple line-item updates to complex multi-product configurations, through a single interface.
 -   Improve pricing accuracy on quotes by automatically adding, updating, and removing system-generated lines in response to pricing rule changes, without requiring manual edits.
 
- See [\[Placeholder link text to key bundle-omgmt.quote-management\]](https://www.servicenow.com/docs/access?context=quote-management&family=australia&ft:locale=en-US) for more information.
+ See [quote management](https://www.servicenow.com/docs/access?context=quote-management&family=australia&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

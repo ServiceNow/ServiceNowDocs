@@ -7,10 +7,10 @@ release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-12"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Crawl, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Crawl, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Activate delta content crawling for an external content connector
@@ -45,14 +45,12 @@ For full details on how delta content crawls behave and operate, see [Delta cont
 
 3.  In the connector editor's **Manage crawls** tab, navigate to the **Default crawl schedules** section and select the **Delta content crawls** option.
 
-4.  Select **Save default schedules**.
-
 
 ## Result
 
 The system activates delta content crawling for the selected external content connector.
 
-You can deactivate delta content crawling for the connector by deselecting the **Delta content crawls** option, then selecting **Save default schedules**.
+You can deactivate delta content crawling for the connector by deselecting the **Delta content crawls** option.
 
 **Parent Topic:**[Crawling content with External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/using-ext-cont-connectors.md)
 

@@ -1,23 +1,23 @@
 ---
-title: AI Admin Center Assist Consumption page
-description: Use the Assist Consumption page in AI Admin Center to monitor assist consumption trends and identify which AI assets are consuming the most assists across your organization.
+title: AI Admin Center Assist management page
+description: Use the Assist management page in AI Admin Center to monitor assist consumption trends and identify which AI assets are consuming the most assists across your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-assist-consumption.html
 release: brazil
 topic_type: concept
 last_updated: "2026-10-02"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, assist consumption]
-breadcrumb: [View your assist consumption \(Lux UI\), Managing assist consumption \(Lux UI\), Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [View your assist consumption \(Lux UI\), Assist management page \(Lux UI\), Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
-# AI Admin Center Assist Consumption page
+# AI Admin Center Assist management page
 
-Use the Assist Consumption page in AI Admin Center to monitor assist consumption trends and identify which AI assets are consuming the most assists across your organization.
+Use the Assist management page in AI Admin Center to monitor assist consumption trends and identify which AI assets are consuming the most assists across your organization.
 
-## Assist Consumption page
+## Assist management page
 
-The Assist Consumption page is accessible from the side navigation bar in AI Admin Center. Use the page to track total assist consumption and identify usage patterns across AI assets, departments, and users.
+The Assist management page is accessible from the side navigation bar in AI Admin Center. Use the page to track total assist consumption and identify usage patterns across AI assets, departments, and users.
 
 The Overview tab displays a **Last 3 months** label at the top of the page. This label indicates the fixed period for all data on the tab. This includes the trend chart, the top assets table, the top departments table, and the consumption band chart.
 
@@ -25,7 +25,7 @@ The Overview tab displays a **Last 3 months** label at the top of the page. This
 
 \[Omitted image "ai-admin-center-assist-consumption-overview.png"\] Alt text: Overview tab of the Assist Consumption page, showing the Total Assist Consumption summary, the Assists by asset type trend chart, and the Top assets by assist usage table.
 
-The Overview tab of the Assist Consumption page contains the following components:
+The Overview tab of the Assist management page contains the following components:
 
 -   **Total Assist Consumption**
 

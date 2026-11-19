@@ -16,7 +16,7 @@ Add the L1 IT Service Desk AI Specialist to your team or user assignment group.
 
 ## Before you begin
 
-Role required: sn\_itsm\_common.sn\_service\_desk\_manager
+Role required: sn\_sow\_itsm\_common.sn\_service\_desk\_manager
 
 ## About this task
 

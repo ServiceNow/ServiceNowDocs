@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [explore]
-breadcrumb: [Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Now Assist, Use, Operational Sustainability Management]
 ---
 
 # Exploring ServiceNow Otto for Operational Sustainability \(formerly ESG\)

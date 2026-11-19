@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore chronological alert data for an alert group, Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Explore chronological alert data for an alert group, Working with alert groups in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View a timeline of the alerts in an alert group
@@ -42,6 +42,8 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 7.  Show or hide closed alerts by toggling the **Hide closed alerts** slider.
 
+
+**Parent Topic:**[Chronological alert data in an alert group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-timeline-view-concept.md)
 
 **Related topics**  
 

@@ -1,6 +1,6 @@
 ---
 title: Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM
-description: Through a set of simple steps, quickly migrate your ITSM Agent Workspace features including configurations and customizations to Service Operations Workspace for ITSM.
+description: Migrate your ITSM Agent Workspace features including configurations and customizations to Service Operations Workspace for ITSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/migrate-itsm-agent-workspace-to-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Migration from ITSM Agent Workspace to Service Operations Workspace
 
 # Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM
 
-Through a set of simple steps, quickly migrate your ITSM Agent Workspace features including configurations and customizations to Service Operations Workspace for ITSM.
+Migrate your ITSM Agent Workspace features including configurations and customizations to Service Operations Workspace for ITSM.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Service Operations Workspace Admin Center** &gt; **Overview** &gt; **Initial Setup** &gt; **Migrate from ITSM Agent Workspace to SOW** if you're upgrading from AW 2.0 or higher.
+1.  Navigate to **All** &gt; **Service Operations Workspace Admin Center** &gt; **Overview** &gt; **Initial Setup** &gt; **Migrate from ITSM Agent Workspace to SOW** if you're upgrading from AW 2.0 or later.
 
     If you're installing the latest migration utility, navigate to **All** &gt; **Service Operations Workspace** &gt; **Migrate from ITSM Agent Workspace to SOW**.
 
@@ -44,7 +44,7 @@ Role required: admin
 
     5.  Select **Start migration**.
 
-    **Note:** In case your previous migration task is partially complete, you can select **Continue migration** on this page to resume the migration process.
+    **Note:** If your previous migration task is partially complete, you can select **Continue migration** on this page to resume the migration process.
 
 3.  On the Features to migrate from Agent Workspace page, for each feature, select the configurations and customizations to migrate.
 
@@ -56,7 +56,7 @@ Role required: admin
 
     The migration can be fully or partially successful.
 
-    -   Full successful migration: All configurations and customizations of selected features are successfully migrated to Service Operations Workspace for ITSM and captured in the specified update sets in the non-production instance.
+    -   Fully successful migration: All configurations and customizations of selected features are successfully migrated to Service Operations Workspace for ITSM and captured in the specified update sets in the non-production instance.
     -   Partial migration: All successfully migrated configurations and customizations of selected features are captured in the specified update sets in Service Operations Workspace for ITSM in the non-production instance.
 6.  Select **View migration details** to review the migration information.
 

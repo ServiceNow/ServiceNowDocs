@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfoli
 release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
-topic_type: concept
+topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
@@ -15,6 +15,8 @@ breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
 # Next Experience for Demand Management in Portfolio Planning
 
 Next Experience for Demand Management enables you to create, evaluate, and prioritize demands throughout the demand life cycle.
+
+\[Omitted video\] Description: Overview of Next Experience for Demand Management
 
 ## Get started
 

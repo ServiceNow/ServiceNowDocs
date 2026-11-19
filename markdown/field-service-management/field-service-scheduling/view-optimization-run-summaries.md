@@ -48,15 +48,15 @@ Role required: wm\_admin
     -   Objectives and constraints applied
 5.  View the related list for more optimization details.
 
-<table id="choicetable_cn3_5tb_3kc"><thead><tr><th align="left" id="d123983e164">
+<table id="choicetable_cn3_5tb_3kc"><thead><tr><th align="left" id="d124346e166">
 
 Tab
 
-</th><th align="left" id="d123983e167">
+</th><th align="left" id="d124346e169">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d123983e173">
+</th></tr></thead><tbody><tr><td id="d124346e175">
 
 **Qualifiers**
 
@@ -64,7 +64,7 @@ Description
 
 The assignment groups or territories included in the optimization run.
 
-</td></tr><tr><td id="d123983e182">
+</td></tr><tr><td id="d124346e184">
 
 **Work Order Tasks**
 
@@ -72,7 +72,7 @@ The assignment groups or territories included in the optimization run.
 
 The work order tasks evaluated and processed during the optimization run.
 
-</td></tr><tr><td id="d123983e191">
+</td></tr><tr><td id="d124346e193">
 
 **Dropped Technicians**
 
@@ -80,7 +80,7 @@ The work order tasks evaluated and processed during the optimization run.
 
 Technicians who were not considered for optimization.Select a technician to view the Run Detail record, which shows the optimization status and resource notes explaining why the technician was excluded from optimization.
 
-</td></tr><tr><td id="d123983e202">
+</td></tr><tr><td id="d124346e204">
 
 **Technician Schedules**
 
@@ -88,7 +88,7 @@ Technicians who were not considered for optimization.Select a technician to view
 
 Schedules for technicians included in the optimization run.
 
-</td></tr><tr><td id="d123983e212">
+</td></tr><tr><td id="d124346e214">
 
 **Run Summary Shifts**
 
@@ -96,7 +96,7 @@ Schedules for technicians included in the optimization run.
 
 Shift plans and the tasks assigned to each plan.
 
-</td></tr><tr><td id="d123983e221">
+</td></tr><tr><td id="d124346e223">
 
 **Associated Batch Record**
 
@@ -104,7 +104,7 @@ Shift plans and the tasks assigned to each plan.
 
 The batch configuration associated with the optimization run.
 
-</td></tr><tr><td id="d123983e230">
+</td></tr><tr><td id="d124346e232">
 
 **Associated ML Solutions**
 
@@ -114,6 +114,8 @@ Machine learning solutions associated with this optimization run.
 
 </td></tr></tbody>
 </table>    Use run summaries to verify optimization results, investigate assignment decisions, and troubleshoot issues identified during optimization.
+
+    **Note:** Run summaries aren’t available for crews. If you assign work order tasks to a crew, the run summary doesn’t include those assignments.
 
 
 **Related topics**  

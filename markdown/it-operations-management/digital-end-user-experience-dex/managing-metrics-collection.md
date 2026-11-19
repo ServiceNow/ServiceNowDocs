@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [dex metrics, collect metrics, metrics collection, metric collection frequency, stop collecting metric, agent policy metrics, device performance metrics, application performance metrics]
 breadcrumb: [Configure, Digital End-User Experience, IT Operations Management]
 ---
 

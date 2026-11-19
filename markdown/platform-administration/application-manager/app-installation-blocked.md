@@ -9,7 +9,7 @@ classification: application-manager
 topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, Application Manager, Administering applications, Get started, ServiceNow AI Platform]
 ---
 
 # App installation blocked when installing or updating AI Suite

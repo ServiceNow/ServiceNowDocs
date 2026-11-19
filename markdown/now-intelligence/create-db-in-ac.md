@@ -1,16 +1,16 @@
 ---
-title: Create a dashboard with the in-line editor
+title: Create a Platform Analytics dashboard with the inline editor
 description: In the Platform Analytics experience, you can create shareable dashboards with data visualizations, filters, and other elements. You can create elements and add existing elements from the inline editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-db-in-ac.html
 release: brazil
 topic_type: task
-last_updated: "2026-11-02"
-reading_time_minutes: 4
+last_updated: "2026-11-09"
+reading_time_minutes: 5
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
-# Create a dashboard with the in-line editor
+# Create a Platform Analytics dashboard with the inline editor
 
 In the Platform Analytics experience, you can create shareable dashboards with data visualizations, filters, and other elements. You can create elements and add existing elements from the inline editor.
 
@@ -20,7 +20,11 @@ The dashboard inline editor doesn’t automatically save your dashboard when you
 
 Role required: Any user with an internal role can create dashboards with the inline editor.
 
-**Note:** Data visualizations based on table data are automatically shared with users that you share a dashboard with.
+**Note:**
+
+-   The user must be allowed to create dashboards. By default, anybody with an internal role can create a dashboard, but your organization might restrict this permission.
+-   This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see .
+-   Data visualizations based on table data are automatically shared with users that you share a dashboard with.
 
 ## Procedure
 

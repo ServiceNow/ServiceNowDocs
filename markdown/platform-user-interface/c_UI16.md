@@ -14,8 +14,6 @@ breadcrumb: [Working in Core UI, Configure UIs and portals, Configure user exper
 
 The Core UI predates the Next Experience UI.
 
-Watch the video above to learn about the elements of the Core UI.
-
 Notable features include real-time form updates, user presence, a pinned application navigator with tabs for favorites and history, and activity streams.
 
 \[Omitted image "UI16.png"\] Alt text: A list viewed in Core UI.

@@ -114,3 +114,5 @@ Role required: sn\_erp\_integration.erp\_admin
 
 When you're ready to create an application with a content pack, see [Using Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-using-content-packs.md).
 
+**Parent Topic:**[Accelerating SAP integrations with Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
+

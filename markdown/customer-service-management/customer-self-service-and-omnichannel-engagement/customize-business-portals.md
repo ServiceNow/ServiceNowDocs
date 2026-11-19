@@ -1,6 +1,6 @@
 ---
 title: Set up Business and Consumer Portal
-description: set up the Business and Consumer Portal to match your organization's requirements, including branding, menus, home pages, widgets, and search sources.
+description: Set up the Business and Consumer Portal to match your organization's requirements, including branding, menus, home pages, widgets, and search sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/customize-business-portals.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up s
 
 # Set up Business and Consumer Portal
 
-set up the Business and Consumer Portal to match your organization's requirements, including branding, menus, home pages, widgets, and search sources.
+Set up the Business and Consumer Portal to match your organization's requirements, including branding, menus, home pages, widgets, and search sources.
 
 ## Before you begin
 

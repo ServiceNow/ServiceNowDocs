@@ -23,7 +23,7 @@ You can install the Incident Management for Field Service application \(sn\_fsm\
     -   **Required ServiceNow plugins**
         -   **CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)**
 
-            Enable your agents so they can engage with customers, answer questions, create cases, and resolve issues. For more information, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-set-up.md).
+            Enable your agents so they can engage with customers, answer questions, create cases, and resolve issues. For more information, see [Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-set-up.md).
 
 
 Role required: admin

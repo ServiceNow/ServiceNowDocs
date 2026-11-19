@@ -40,7 +40,7 @@ Supported version: 21.3.71.
     |Last error message|The last error message is automatically updated.|
     |Connector definition|Select **PRTG**.|
     |Connector Instance Values section|The parameters that are specific to **PRTG** display here when the form is saved.|
-    |MID Servers \(MID Server for Connectors section\)|Optional. Name of a MID Server. If no MID Server is specified, an available MID Server that has a matching IP range is used. In the MID Servers for Connectors section, specify a MID Server that is up and valid. You can configure several MID Servers. If the first is down, the next MID Server is used. If that MID Server is not available, the next is selected, and so on. MID Servers are sorted according to the order that their details were entered into the MID Server for Connectors section.|
+    |Connectors MID Servers|Optional. Name of a MID Server. If no MID Server is specified, an available MID Server is used. In the MID Servers for Connectors section, specify a MID Server that is up and valid. You can configure several MID Servers. If the first is down, the next MID Server is used. If that MID Server is not available, the next is selected, and so on. MID Servers are sorted according to the order that their details were entered into the MID Server for Connectors section.|
 
 3.  Right-click the form header and select **Save**.
 
@@ -56,9 +56,9 @@ Supported version: 21.3.71.
 
     2.  **date\_format**.
 
-        The format date and time. Default format M/d/yyyy/ h:mm:ss a. If you receive an event whose date is in a different format, modify this value to match the format of the incoming event. If you do not, the event will not be processed correctly.
+        The format date and time. Default format mm/dd/yyyy h:mm:ss a. If you receive an event whose date is in a different format, modify this value to match the format of the incoming event. If you don't, the event will not be processed correctly.
 
-        For example, an event might arrive on June 27, 2019 at 11:25 AM with a listed date of **2019/06/27/ 11:25:00 a**. Modify the **date\_format** value to **yyyy/M/d/ h:mm:ss a** to match the format of the received event.
+        For example, an event might arrive on June 27, 2019 at 11:25 AM with a listed date of **2019/06/27 11:25:00 a**. Modify the **date\_format** value to **yyyy/mm/dd h:mm:ss a** to match the format of the received event.
 
         In the **date\_format**, `a` represents AM, and `p` represents PM.
 
@@ -68,15 +68,15 @@ Supported version: 21.3.71.
 
     4.  **debug**.
 
-        Default value `false`.
+        Specify whether to log debug messages, such as the calls made to the PRTG server to retrieve events. After debugging is complete, set this parameter to false to prevent overloading the midserver. Default value `false`.
 
     5.  **port**.
 
-        Default value `80`.
+        Specify the port number of the PRTG server. If your PRTG server uses HTTPS, set the port to 443. Default value is `80`.
 
     6.  **protocol**.
 
-        The default protocol type is `http`.
+        Specify the protocol used to connect to the PRTG server. The default protocol type is HTTP. The default protocol type is `HTTP`.
 
     7.  **prtg\_api\_fetched\_events\_num**.
 
@@ -84,7 +84,7 @@ Supported version: 21.3.71.
 
     8.  **time\_zone**.
 
-        The default time zone is the `GMT` time zone; update this value to the PRTG time zone. For example, if PRTG is sending events according to the `EDT` time zone, update this value to `GMT-4` \(abbreviations such as EDT are not supported\).
+        The default time zone is the `GMT` time zone; update this value to the PRTG time zone. For example, if PRTG is sending events according to the `EDT` time zone, update this value to `GMT-4` \(abbreviations such as EDT aren't supported\).
 
 5.  Right-click the form header and select **Save**.
 

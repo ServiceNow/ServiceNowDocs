@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Frequently Asked Questions, Access Analyzer, Access Management]
+breadcrumb: [Frequently asked questions, Access Analyzer, Access Management]
 ---
 
 # Access Analyzer debug logs
@@ -20,7 +20,7 @@ For a given operation, the debug logs show a granular view of how ACLs, business
 
 \[Omitted image "access-analyzer-logs-details.png"\] Alt text: Fields in the Debug log
 
-Following are the fields and their description in the Debug logs:
+The following are the fields and their descriptions in the Debug logs:
 
 |Fields|Description|
 |------|-----------|
@@ -41,7 +41,7 @@ Permissions for the selected user, group, or role are evaluated in the following
 
 1.  **Business rule**: A business rule is a server-side script that runs when a record is read, inserted, updated, or deleted, or when a table is queried.
 2.  **Access Handler**: An internal system check using hidden source code on the platform.
-3.  **Data Filtration**: A data filter is a form of access control designed to work along with the existing Access Control rules \(ACLs\) on your instance. Data filters support only read operations.
+3.  **Data Filtration**: A data filter is a form of access control that works along with the existing Access Control rules \(ACLs\) on your instance. Data filters support only read operations.
 4.  **Access control list \(ACL\)**: Rules for access control lists \(ACLs\) restrict access to specific data by requiring users to pass a set of requirements before they can interact with it. Within an ACL, the following hierarchy is evaluated:
     1.  Role
     2.  Security Attribute

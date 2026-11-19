@@ -36,7 +36,7 @@ You have selected an Indicator data source in [Create a horizontal or vertical b
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-MetricYou can set multiple metrics. You can set whether dashboard filters apply to individual metrics. For more information, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/chart-options-multi-metrics.md).
+MetricYou can set multiple metrics. You can set whether dashboard filters apply to individual metrics. For more information, see [Multiple metrics in time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/chart-options-multi-metrics.md).
 
 </td></tr><tr><td>
 
@@ -44,7 +44,7 @@ Label
 
 </td><td>
 
-Label of the metric. By default it is the same as the name of the data source.
+Label of the metric. By default it is the same as the name of the data source.**Note:** If you have multiple metrics on the same data source, consider giving them custom labels. If you are defining group-by fields or breakdowns, this is particularly important. Chart labels in this case show both the metric label and the group-by value, so the metrics need different labels.
 
 </td></tr><tr><td>
 
@@ -187,7 +187,7 @@ This selection opens a dialog in which you select additional items that the data
 
 Data snapshots indicators support only reference, Boolean, and choice fields for alternative group bys.
 
-For more information about setting alternative group-bys for multiple metrics, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/select-group-runtime.md).
+For more information about setting alternative group-bys for multiple metrics, see [Multiple metrics in time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/select-group-runtime.md).
 
 **Important:**
 

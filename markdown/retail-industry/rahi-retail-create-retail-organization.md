@@ -16,7 +16,7 @@ Create a retail organization to enable management of hierarchical stores and fra
 
 ## Before you begin
 
-Role required: sn\_rtl.retail\_admin
+Role required: sn\_retail.retail\_admin
 
 ## About this task
 

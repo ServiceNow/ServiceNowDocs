@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Notifications in messaging applications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Notifications in messaging applications, System notifications, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Set up notifications for a custom Slack app

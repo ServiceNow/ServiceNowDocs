@@ -1,6 +1,6 @@
 ---
 title: Activate Change Management - ATF Tests
-description: You can activate the Change Management - ATF Tests plugin \(com.snc.change\_management.atf\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+description: Activate the Change Management - ATF Tests plugin \(com.snc.change\_management.atf\) to load Automated Test Framework \(ATF\) tests when State Model is active. It includes demo data and activates related plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/activate-changemgmt-atftests.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Change Management plugins, Configure, Change Management, IT Service
 
 # Activate Change Management - ATF Tests
 
-You can activate the Change Management - ATF Tests plugin \(com.snc.change\_management.atf\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Change Management - ATF Tests plugin \(com.snc.change\_management.atf\) to load Automated Test Framework \(ATF\) tests when State Model is active. It includes demo data and activates related plugins.
 
 ## Before you begin
 
@@ -44,7 +44,7 @@ The Change Management - ATF Tests plugin \(com.snc.change\_management.atf\) load
 **Related topics**  
 
 
-[Request ITSM Roles - Change Management]()
+[Request ITSM Roles for Change Management]()
 
 [Activate Business Stakeholder]()
 

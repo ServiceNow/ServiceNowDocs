@@ -8,7 +8,7 @@ product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [GRC reference, Common GRC features, Governance, Risk, and Compliance]
 ---
 

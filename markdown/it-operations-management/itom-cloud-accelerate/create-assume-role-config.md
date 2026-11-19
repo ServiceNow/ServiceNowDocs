@@ -24,7 +24,9 @@ Role required: sn\_itom\_ccg.scheduling\_admin
 
 ## About this task
 
-If permanent credentials aren't defined for the member account, Cloud Configuration Governance checks the Cloud Service Account Assume Role Config \[sn\_itom\_ccg\_service\_account\_assume\_role\_config\] table to identify the special configuration associated with the management account. It then uses the management account credentials to generate temporary credentials for the member accounts. If the configuration exists in the table, Cloud Configuration Governance uses the temporary credentials acquired by specifying a role and its configuration in the Amazon Web Services \(AWS\) Security Token Services API AssumeRole action.
+If permanent credentials aren't defined for the member account, Cloud Configuration Governance checks the Cloud Service Account Assume Role Config \[sn\_itom\_ccg\_service\_account\_assume\_role\_config\] table. It identifies the configuration associated with the management account, then uses the management account credentials to generate temporary credentials for the member accounts.
+
+If the configuration exists in the table, Cloud Configuration Governance uses temporary credentials. These credentials are acquired through the Amazon Web Services \(AWS\) Security Token Services API AssumeRole action, using a specified role and its configuration.
 
 ## Procedure
 

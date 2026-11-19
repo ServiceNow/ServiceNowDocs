@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-softwareassetmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
@@ -105,10 +105,6 @@ Expand your Microsoft Entra ID SSO integrations to improve identification of ina
 -   **[Onboard entitlements faster with additional predefined license metrics](https://www.servicenow.com/docs/access?context=c_SAMLicenseMetrics&family=australia&ft:locale=en-US)**
 
 Reduce entitlement onboarding time by using additional predefined license metrics for supported publishers. These predefined license metrics help you track consumption, verify compliance, and reconcile deployments against entitlements. Review tier ranges and calculation factors on the new **License Metric Tier** tab of the Software entitlement page.
-
--   **[Analyze software spend transactions with AI in the Software Asset Workspace](https://www.servicenow.com/docs/access?context=spend-detection-ai-enhancements&family=australia&ft:locale=en-US)**
-
-Reduce manual software spend classification with AI-powered detection. The Software Asset Workspace now automatically identifies software purchases from imported transactions, extracts publisher and product details, and matches them to your Software Asset Management Content Library.
 
 
  -   **[Manage IBM sub-capacity licensing on Nutanix AHV \(Acropolis Hypervisor\)](https://www.servicenow.com/docs/access?context=ibm-licensing-vmware-vsphere-environment&family=australia&ft:locale=en-US)**
@@ -339,6 +335,10 @@ Understand licensing scope at a glance from the renamed column in the Software M
 
 The **Reclamation** tab in the License usage view on the Software Asset Workspace presents a consolidated view of reclamation candidates across all publishers, SaaS integrations, installed software, and reconciliation flows.
 
+-   **[Software Spend Detection Core UI](https://www.servicenow.com/docs/access?context=spend-detection-sam-workspace&family=brazil&ft:locale=en-US)**
+
+The Software Spend Detection feature is no longer available in the Core UI. Software Spend Detection is now accessible from the Software Asset Workspace under License operations. Existing imports and spend transactions created in the Core UI are now accessible from the Software Asset Workspace.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -435,7 +435,7 @@ To access the foundation capabilities of Software Asset Management, activate thi
 
 The ServiceNow AI Platform® in the Australia release has limited support for the Software Asset Management classic user interface. However, it remains active in your instance, including when you upgrade to a newer ServiceNow AI Platform® release.
 
-Install the listed Software Asset Management applications by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/store) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install the listed Software Asset Management applications by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/store) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
     -   Software Asset Management - SaaS License Management
     -   Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\)
@@ -627,8 +627,6 @@ Australia
 
  See [Software Asset Management](https://www.servicenow.com/docs/access?context=c_SoftwareAssetMgmt&family=australia&ft:locale=en-US) for more information.
 
- **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US).
-
 </td></tr><tr><td>
 
 Brazil
@@ -642,8 +640,6 @@ Brazil
 -   Track and manage financial transaction data for your software products to optimize your software spend.
 
  See [Software Asset Management](https://www.servicenow.com/docs/access?context=c_SoftwareAssetMgmt&family=brazil&ft:locale=en-US) for more information.
-
- **Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/rn-combined-intro.md)

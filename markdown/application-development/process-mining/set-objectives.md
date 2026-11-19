@@ -28,15 +28,15 @@ Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, o
 
     **Note:** If you want to create a project using Agentic AI data, see [Create a project using agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/project-agentic-ai.md). If you want to create a project using Playbook data, see [Create a project using Playbook data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/playbook-project.md).
 
-<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d303151e103">
+<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d408506e105">
 
 Field
 
-</th><th align="left" id="d303151e106">
+</th><th align="left" id="d408506e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d303151e112">
+</th></tr></thead><tbody><tr><td id="d408506e114">
 
 **Select type**
 
@@ -44,7 +44,7 @@ Description
 
 Choose whether you want to create a project or a template.
 
-</td></tr><tr><td id="d303151e121">
+</td></tr><tr><td id="d408506e123">
 
 **Template type**
 
@@ -60,7 +60,7 @@ This field is available only if you choose the type as **Template**.
 
  Analysts and above can create Custom templates. An analyst never sees the **Template type** filed when creating a template. The type is always set to Custom.
 
-</td></tr><tr><td id="d303151e161">
+</td></tr><tr><td id="d408506e163">
 
 **Name**
 
@@ -68,7 +68,7 @@ This field is available only if you choose the type as **Template**.
 
 An intuitive name for the project or template you’re creating.
 
-</td></tr><tr><td id="d303151e170">
+</td></tr><tr><td id="d408506e172">
 
 **Short description**
 
@@ -76,7 +76,7 @@ An intuitive name for the project or template you’re creating.
 
 A short description for the project or template you’re creating.
 
-</td></tr><tr><td id="d303151e180">
+</td></tr><tr><td id="d408506e182">
 
 **Source Type**
 
@@ -90,7 +90,7 @@ The source for the project or template you’re creating.-   Table: Any database
 -   Playbook: Select a table with playbook data.
 
 
-</td></tr><tr><td id="d303151e210">
+</td></tr><tr><td id="d408506e212">
 
 **Table__Note:__ This name changes based on the choice of source you want to analyze.
 
@@ -102,7 +102,7 @@ Select a source that you want to base your project on. This list varies dependin
 
  This field is auto-selected for Agentic AI.
 
-</td></tr><tr><td id="d303151e227">
+</td></tr><tr><td id="d408506e229">
 
 **Mark as restricted**
 
@@ -112,7 +112,7 @@ Select the check box if you want to limit project access to the owner and the us
 
 When you’re dealing with sensitive data and must restrict access, you can use this option.
 
-</td></tr><tr><td id="d303151e240">
+</td></tr><tr><td id="d408506e242">
 
 **Auto retire**
 
@@ -128,7 +128,7 @@ This field is available only if you choose the type as **Project**.
 
 **Note:** If a project has been automatically retired, you can remine it directly. Remining a retired project automatically sets its state to Draft if the project wasn't shared earlier, or to Published if it was shared. Previously, you had to open the project and manually change its state to Draft or Published before you could remine it.
 
-</td></tr><tr><td id="d303151e279">
+</td></tr><tr><td id="d408506e281">
 
 **Add a KPI dashboard**
 

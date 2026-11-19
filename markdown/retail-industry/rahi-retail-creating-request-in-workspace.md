@@ -1,6 +1,6 @@
 ---
-title: Create and assign a retail customer complaint case in workspace
-description: Create and assign a retail customer complain case in Workspace on behalf of a customer.
+title: Create and assign a retail customer complaint case in CRM Workspace
+description: Create and assign a retail customer complain case in CRM Workspace on behalf of a customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-creating-request-in-workspace.html
 release: brazil
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Manage customer complaints, Retail]
 ---
 
-# Create and assign a retail customer complaint case in workspace
+# Create and assign a retail customer complaint case in CRM Workspace
 
-Create and assign a retail customer complain case in Workspace on behalf of a customer.
+Create and assign a retail customer complain case in CRM Workspace on behalf of a customer.
 
 ## Before you begin
 
@@ -28,15 +28,15 @@ The retail customer complaint case type enables customers to submit complaints a
 
 2.  Select **New** and fill in the information about the customer complaint.
 
-<table id="choicetable_wkg_1lc_ccc"><thead><tr><th align="left" id="d26259e102">
+<table id="choicetable_wkg_1lc_ccc"><thead><tr><th align="left" id="d26251e104">
 
 Fields
 
-</th><th align="left" id="d26259e105">
+</th><th align="left" id="d26251e107">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26259e113">
+</th></tr></thead><tbody><tr><td id="d26251e115">
 
 **Service**
 
@@ -44,7 +44,7 @@ Description
 
 Type of service request.
 
-</td></tr><tr><td id="d26259e123">
+</td></tr><tr><td id="d26251e125">
 
 **Customer name**
 
@@ -52,7 +52,7 @@ Type of service request.
 
 Name of the customer. **Note:** The name of the customer might not get registered in the system.
 
-</td></tr><tr><td id="d26259e134">
+</td></tr><tr><td id="d26251e136">
 
 **Customer email**
 
@@ -60,7 +60,7 @@ Name of the customer. **Note:** The name of the customer might not get registere
 
 Email address of the customer.
 
-</td></tr><tr><td id="d26259e145">
+</td></tr><tr><td id="d26251e147">
 
 **Priority**
 
@@ -68,7 +68,7 @@ Email address of the customer.
 
 Sequence in which this case must be resolved, based on the impact and urgency.
 
-</td></tr><tr><td id="d26259e156">
+</td></tr><tr><td id="d26251e158">
 
 **Assignment group**
 
@@ -76,7 +76,7 @@ Sequence in which this case must be resolved, based on the impact and urgency.
 
 Associated assignment group that is responsible for working on this request.
 
-</td></tr><tr><td id="d26259e168">
+</td></tr><tr><td id="d26251e170">
 
 **Reported Retail Organization**
 
@@ -84,7 +84,7 @@ Associated assignment group that is responsible for working on this request.
 
 Retail organization from which this request has been created.
 
-</td></tr><tr><td id="d26259e177">
+</td></tr><tr><td id="d26251e179">
 
 **Assigned to**
 
@@ -92,7 +92,7 @@ Retail organization from which this request has been created.
 
 Person who is responsible for working on this request.
 
-</td></tr><tr><td id="d26259e186">
+</td></tr><tr><td id="d26251e188">
 
 **Short description**
 
@@ -100,7 +100,7 @@ Person who is responsible for working on this request.
 
 Short description about this request.
 
-</td></tr><tr><td id="d26259e195">
+</td></tr><tr><td id="d26251e197">
 
 **Description**
 

@@ -98,7 +98,7 @@ The filter applies to all elements on the same dashboard or the same dashboard t
 
 [Configure a True/False filter]()
 
-[Configure a Date filter in the inline editor]()
+[Configure a Date filter]()
 
 [URL filter parameters for dashboard filters]()
 

@@ -1,6 +1,6 @@
 ---
-title: Request ITSM Roles - Change Management
-description: Request the ITSM Roles plugin \(com.snc.itsm.roles\) to activate the ITSM Roles - Change Management plugin \(com.snc.itsm.roles.change\_management\). This gives change agents, technicians, and managers more control over access within your Change Management process.
+title: Request ITSM Roles for Change Management
+description: 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/request-itsm-roles-cm.html
 release: brazil
@@ -12,9 +12,7 @@ reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
-# Request ITSM Roles - Change Management
-
-Request the ITSM Roles plugin \(com.snc.itsm.roles\) to activate the ITSM Roles - Change Management plugin \(com.snc.itsm.roles.change\_management\). This gives change agents, technicians, and managers more control over access within your Change Management process.
+# Request ITSM Roles for Change Management
 
 ## Before you begin
 
@@ -22,17 +20,11 @@ Role required: admin
 
 ## About this task
 
-The ITSM Roles plugin activates the following related plugins, which update the security model and introduce roles for respective products:
+The ITSM Roles plugin activates several related plugins, including Business Stakeholder \(com.snc\_business\_stakeholder\), ITSM Roles — Incident Management \(com.snc.itsm.roles.incident\_management\), ITSM Roles — Problem Management \(com.snc.itsm.roles.problem\_management\), ITSM Roles — Change Management \(com.snc.itsm.roles.change\_management\), and ITSM Roles — Request Management \(com.snc.service\_management.roles.request\_management\). The related plugins update the security model and introduce roles for each product.
 
--   Business Stakeholder \(com.snc\_business\_stakeholder\)
--   ITSM Roles - Incident Management \(com.snc.itsm.roles.incident\_management\)
--   ITSM Roles - Problem Management \(com.snc.itsm.roles.problem\_management\)
--   ITSM Roles - Change Management \(com.snc.itsm.roles.change\_management\)
--   ITSM Roles - Request Management \(com.snc.service\_management.roles.request\_management\)
+With the introduction of the new roles, ITSM provides more control over the access that users have within the process.
 
-These roles provide more control over the access that users have within the process.
-
-By default, this feature is active only on new instances created in New York and later releases. It isn't activated automatically when you upgrade to New York or a later release from an earlier release.
+By default, this feature is activated only in new instances created in New York or the above releases. It is not automatically activated when upgrading to New York or newer releases from a version prior to New York.
 
 ## Procedure
 

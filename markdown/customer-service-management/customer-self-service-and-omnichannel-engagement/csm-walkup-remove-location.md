@@ -1,6 +1,6 @@
 ---
 title: Remove a Walk-up Experience location
-description: If you permanently close down a physical Walk-up Experience location, you can also remove the location from the Walk-up Location Queues table.
+description: Remove a walk-up location from the Walk-up Location Queues table when you permanently close the physical location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-remove-location.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set u
 
 # Remove a Walk-up Experience location
 
-If you permanently close down a physical Walk-up Experience location, you can also remove the location from the Walk-up Location Queues table.
+Remove a walk-up location from the Walk-up Location Queues table when you permanently close the physical location.
 
 ## Before you begin
 
@@ -24,13 +24,13 @@ Role required: sn\_csm\_walkup.walkup\_admin
 
 1.  Navigate to **All** &gt; **CSM Walk-up Experience** &gt; **** &gt; **Administration** &gt; **Walk-up Locations**.
 
-2.  Click the name of the walk-up location you want to remove to open the location queue record.
+2.  Select the name of the walk-up location you want to remove to open the location queue record.
 
-3.  Click **Delete** in the form header.
+3.  Select **Delete** in the form header.
 
     A confirmation pop-up appears ensuring you want to delete the record.
 
-4.  Click **Delete**.
+4.  Select **Delete**.
 
     The Walk-up Experience location queue is removed from the application.
 

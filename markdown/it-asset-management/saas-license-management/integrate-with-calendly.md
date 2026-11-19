@@ -139,15 +139,15 @@ If you’re using Software Asset Workspace, the option to create the Calendly in
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d234787e525">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d234218e531">
 
 Interface
 
-</th><th align="left" id="d234787e528">
+</th><th align="left" id="d234218e534">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d234787e534">
+</th></tr></thead><tbody><tr><td id="d234218e540">
 
 **Core UI**
 
@@ -158,7 +158,7 @@ Action
 3.  Select **Calendly Integration Profile**.
 
 
-</td></tr><tr><td id="d234787e576">
+</td></tr><tr><td id="d234218e582">
 
 **Software Asset Workspace**
 

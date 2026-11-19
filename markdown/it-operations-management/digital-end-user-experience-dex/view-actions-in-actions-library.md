@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [dex action library, view device actions, action library, remedial actions list, device services]
 breadcrumb: [Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
 ---
 

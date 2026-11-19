@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing indexed sources, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Managing indexed sources, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Index the content from an indexed source for searchability
@@ -41,15 +41,15 @@ You can also index the content from an indexed source for external documents. Fo
 
 5.  Start indexing.
 
-<table id="choicetable_wty_414_tdc"><thead><tr><th align="left" id="d170750e225">
+<table id="choicetable_wty_414_tdc"><thead><tr><th align="left" id="d170645e227">
 
 Option
 
-</th><th align="left" id="d170750e228">
+</th><th align="left" id="d170645e230">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d170750e234">
+</th></tr></thead><tbody><tr><td id="d170645e236">
 
 **Enable AI Search indexing content from internal indexed sources, including both parent table and its child tables**
 
@@ -59,7 +59,7 @@ Procedure
 2.  Select **Start**.
 
 
-</td></tr><tr><td id="d170750e259">
+</td></tr><tr><td id="d170645e261">
 
 **Enable AI Search indexing content from the source tables, including only the selected child tables**
 

@@ -72,5 +72,5 @@ Use quick discovery to run an on-demand, IP-based discovery without configuring 
 **Related topics**  
 
 
-[Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/credentials-getting-started.md)
+[bundle-psec.credentials-getting-started]
 

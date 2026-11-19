@@ -45,7 +45,7 @@ Creating a template has the following conditions:
 -   Analysts and above can create Custom templates.
 -   An analyst never sees the type selector when creating a template. The type is always set to Custom automatically.
 
--   **[Create a Process Mining template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/create-template.md)**  
+-   **[Create a Process Mining template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/create-template.md)**  
 Create a Process Mining template to reuse a Process Mining project configuration and reapply it across your organization without the need of creating it everytime.
 -   **[Save a project as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/save_project_as_template.md)**  
 Save a project you have tested and refined as a template, so anyone can reuse its configuration for new projects.

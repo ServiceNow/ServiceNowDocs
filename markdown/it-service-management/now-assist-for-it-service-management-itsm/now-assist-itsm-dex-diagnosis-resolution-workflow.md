@@ -19,6 +19,8 @@ Use the Digital End-User Experience \(DEX\) issue diagnosis and resolution agent
 
 ## DEX issue diagnosis and resolution agentic workflow capabilities
 
+As a prerequisite, enable the ServiceNow Otto panel.
+
 Using the DEX issue diagnosis and resolution agentic workflow:
 
 -   Get automated diagnoses for incidents on DEX monitored end-user devices. Root cause analysis is generated based on sources such as device health check data from 24 hours before the incident to incident time. Similar past incidents are also used. With the integration of Zoom specific diagnostics, you can diagnose Zoom call quality issues by correlating device, network, and application data.
@@ -34,10 +36,7 @@ To access the DEX issue diagnosis and resolution agentic workflow, make sure tha
 
 ## Roles required to access the agentic workflow
 
-To use the DEX issue diagnosis and resolution agentic workflow, you must have one of the following role combinations:
-
--   sn\_dex.service\_desk\_user and itil
--   sn\_dex.engineer and itil
+To use the DEX issue diagnosis and resolution agentic workflow, you must have the `itil` role.
 
 ## Additional requirements to access the agentic workflow
 

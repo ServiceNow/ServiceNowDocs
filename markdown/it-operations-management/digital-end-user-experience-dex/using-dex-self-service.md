@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [dex self service, device health check, check device health, device health check unavailable, device offline, employee center device health, virtual agent device health]
 breadcrumb: [Solve issues, Digital End-User Experience, IT Operations Management]
 ---
 

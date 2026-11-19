@@ -27,8 +27,8 @@ Role required: admin
 -   For an incident, you can customize the fields in the Assign and Resolve dialog boxes.
 -   For a change request, you can customize the fields in the Assign box.
 -   Only the fields that are configured in the Service Operations Workspace view can be added to the Resolve or Assign dialog boxes.
--   Any pre-configured client scripts and UI policies configured for the customized fields are also applicable on the Resolve or Assign dialog boxes.
--   The fields in the Assign, Reassign and Resolve dialog boxes do not support field decorators.
+-   Any preconfigured client scripts and UI policies for the customized fields also apply to the Resolve or Assign dialog boxes.
+-   The fields in the Assign, Reassign, and Resolve dialog boxes don't support field decorators.
 
 ## Procedure
 
@@ -36,13 +36,13 @@ Role required: admin
 
     1.  Open an incident or change request in Core UI.
 
-    2.  On the incident form or the change request form, select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\) on the header.
+    2.  On the incident form or the change request form, select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text:\) on the header.
 
     3.  Navigate to **View** &gt; **SOW Assign Modal**.
 
         The record is opened in the SOW Assign Modal view.
 
-    4.  Select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\) on the header.
+    4.  Select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text:\) on the header.
 
     5.  Navigate to **Configure** &gt; **Form Layout**.
 
@@ -54,13 +54,13 @@ Role required: admin
 
     1.  Open an incident in Core UI.
 
-    2.  On the incident form, select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\) on the header.
+    2.  On the incident form, select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text:\) on the header.
 
     3.  Navigate to **View** &gt; **SOW Incident Resolve Modal**.
 
         The record is opened in the SOW Incident Resolve Modal view.
 
-    4.  Select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\) on the header.
+    4.  Select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text:\) on the header.
 
     5.  Navigate to **Configure** &gt; **Form Layout**.
 

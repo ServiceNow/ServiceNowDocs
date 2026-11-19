@@ -111,7 +111,7 @@ View the reclamation candidates that are identified by your reclamation rule and
 
 [SaaS License Management setup for large companies]()
 
-[SaaS Overview dashboard]()
+[]()
 
 [Integrate with SaaS applications]()
 

@@ -80,7 +80,7 @@ Minimum threshold \(per week\)
 
 </td><td>
 
-Minimum threshold value for the trigger criteria so that the survey is triggered and sent to the recipients.For example, if the trigger criterion is application usage time and the minimum threshold is set to 15 \(hours per week\), then the survey is sent to only the recipients who used the application for more than 15 hours in a particular week.
+Minimum threshold value for the trigger criteria so that the survey is triggered and sent to the recipients.For example, if the trigger criterion is application usage time and the minimum threshold is set to 15 \(hours per week\). The survey is sent only to recipients who used the application for more than 15 hours that week.
 
 This field appears only when **Application** is selected in the **Survey feedback type** field.
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [PLACEHOLDER: Add keywords for search]
-breadcrumb: [Strategize AI plan, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Strategize AI plan, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Edit a strategize record
@@ -21,7 +21,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home 2.0**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home 2.0**.
 
 2.  Expand the **Plan** menu and **Strategize**.
 

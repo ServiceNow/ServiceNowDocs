@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-views
 release: brazil
 topic_type: concept
 last_updated: "2026-05-07"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 

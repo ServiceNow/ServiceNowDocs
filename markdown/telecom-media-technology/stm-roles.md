@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-10-13"
 reading_time_minutes: 1
 keywords: [service test management roles, test\_def\_creator, test\_def\_manager, permissions]
-breadcrumb: [Getting started with Service Test Management, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Get started, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Roles installed with Service Test Management

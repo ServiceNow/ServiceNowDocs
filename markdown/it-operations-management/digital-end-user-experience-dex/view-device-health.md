@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [device health, battery health, storage space, top applications by cpu, memory usage, last restart]
 breadcrumb: [Desktop Assistant, Solve issues, Digital End-User Experience, IT Operations Management]
 ---
 

@@ -22,14 +22,14 @@ If you want information regarding subscriptions for ITOM Service Operations Work
 
 When setting up the Service Operations Workspace, it's crucial to configure both IT Operations Management \(ITOM\) for managing alerts and IT Service Management \(ITSM\) for resolving incidents and delivering services. This integrated setup ensures access to the full range of features, facilitating comprehensive management of IT operations and service quality.
 
-To know about the ITSM configurations, see [Configuring Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configure-sow.md).
+To know about the ITSM configurations, see .
 
 -   **[Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/install-sow-itom-apps.md)**  
 You can install the AIOps Experience \[sn\_sow\_aiops\] application to get Service Operations Workspace for ITOM if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications if they are not already installed.
 -   **[ITOM AIOps configuration center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-aiops-conf-center.md)**  
 The ITOM AIOps configuration center is a centralized hub to manage AIOps settings. It helps you integrate monitoring tools, optimize alerts, metrics, and logs, manage services, dashboards, teams, and authorization—streamlining event-to-response workflows for better visibility, noise reduction, and operational efficiency.
--   **[Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md)**  
-Configure observability agents for third-party application performance monitoring \(APM\) or network performance monitoring \(NPM\) vendors. These agents are used by the analyze alert impact agentic workflowand the AIOps AI specialist.
+-   **[Configure observability tool connections for ITOM AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md)**  
+Configure observability tool connections to let ITOM AI capabilities retrieve additional alert context during investigations. The connections are used by the analyze alert impact agentic workflowand the AIOps AI specialist.
 -   **[Customize the Service Operations Workspace for ITOM home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/customize-sow-landing-page-itom.md)**  
 You can customize the data displayed in sub pages of the home page that is available in the base system. For any visual styling changes, you need to create a copy of that landing page and edit it.
 -   **[Open your Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/sow-itom-workspace-open-uib.md)**  

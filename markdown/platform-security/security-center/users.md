@@ -1,5 +1,5 @@
 ---
-title: Users
+title: User metrics in Security Center
 description: View the trend line for total users \(active and inactive\) and their activity on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/users.html
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Security metrics, Security monitoring console, Security Center, Platform Security]
 ---
 
-# Users
+# User metrics in Security Center
 
 View the trend line for total users \(active and inactive\) and their activity on the ServiceNow AI Platform.
 
 The Users overview section displays the trend line for total users \(active and inactive\) and their activity on the ServiceNow AI Platform.
 
-Below is an explanation of the type of users:
+The following metrics describe the types of users:
 
 -   Total users: Total count of users on your instance.
 -   Active users: Total number of users who initiated sessions on your instance.
@@ -27,8 +27,8 @@ Below is an explanation of the type of users:
 -   New users: Users who have recently been added to your instance.
 -   Successful logins: Users that have successfully logged in.
 -   Failed logins: Unsuccessful login attempts.
--   External logins: Authentications that uses a 3rd party.
--   Local logins not protected by MFA: Logins that do not use MFA.
+-   External logins: Authentications that use a third party.
+-   Local logins not protected by MFA: Logins that do not use multi-factor authentication \(MFA\).
 -   Users not logged in since last month: Users that have not logged in the last 30 days.
 -   Users not logged in since the last 6 months: Users that have not logged in the last 6 months.
 -   Users not logged in since the last 1 year: Users that have not logged in the past year.

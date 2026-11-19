@@ -18,7 +18,7 @@ Initiate a Sidebar chat to work towards the resolution of an incident.
 
 ## About this task
 
-You can integrate Slack and Microsoft Teams with Sidebar To know more about configuring Sidebar, refer [Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/sidebar-landing.md).
+You can integrate Slack and Microsoft Teams with Sidebar. For more information about configuring Sidebar, see [Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/sidebar-landing.md).
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ Role required: itil
 
 5.  Select **Collaborate** from the contextual side panel.
 
-6.  Select **Chat** tab, and then select plus\(+\) icon.
+6.  Select the **Chat** tab, and then select the plus \(+\) icon.
 
 7.  Select **Start Sidebar discussion**.
 
@@ -58,7 +58,7 @@ Subject
 
 Option to provide a title for the sidebar discussion.
 
- **Note:** The chat count will be displayed at the beginning of the subject.
+ **Note:** The chat count is displayed at the beginning of the subject.
 
 </td></tr><tr><td>
 
@@ -68,9 +68,9 @@ Add participants
 
 Options to add participants for the sidebar discussion.**Note:**
 
-If On-Call Scheduling is defined for a group, only members who are on-call will be added as participants. If it is not set up, then all members of the group will be included as participants.
+If On-Call Scheduling is defined for a group, only members who are on-call are added as participants. If it is not set up, then all members of the group are included as participants.
 
-Additionally, if On-Call Scheduling is active, and no members are available in a shift, no one will be added to the chat.
+Additionally, if On-Call Scheduling is active, and no members are available in a shift, no one is added to the chat.
 
 The Sidebar discussion is applicable only for incident, change, and problem.
 

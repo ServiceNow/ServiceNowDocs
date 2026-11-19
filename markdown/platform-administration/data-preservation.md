@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Manage, Instance Clone, Configure core features, ServiceNow AI Platform]
 ---
 
 # Preserving data from target instances during clones

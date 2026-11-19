@@ -51,15 +51,15 @@ Role required: assigned as approver for a plan configuration
 
 3.  Review the changes.
 
-<table id="choicetable_r3s_wmc_dwb"><thead><tr><th align="left" id="d654676e114">
+<table id="choicetable_r3s_wmc_dwb"><thead><tr><th align="left" id="d655424e116">
 
 Options
 
-</th><th align="left" id="d654676e117">
+</th><th align="left" id="d655424e119">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d654676e123">
+</th></tr></thead><tbody><tr><td id="d655424e125">
 
 **Approve or Reject changes**
 
@@ -69,7 +69,7 @@ Description
 -   **Reject**:
 
 
-</td></tr><tr><td id="d654676e145">
+</td></tr><tr><td id="d655424e147">
 
 **View comment added by the owner**
 

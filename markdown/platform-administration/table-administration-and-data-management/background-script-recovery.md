@@ -9,7 +9,7 @@ classification: table-administration-and-data-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Roll back and delete recovery, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Roll back and delete recovery, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Use the Script Execution History module to roll back a Scripts-Background execution

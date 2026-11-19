@@ -22,14 +22,14 @@ The password reset feature is available in the base system. Alternatively, you c
 
 -   **[Assign the password reset service desk role to the user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/assign-sd-role-pr-sow.md)**  
 Assign the password reset service desk agent \(password\_reset\_service\_desk\) role to the users to work on the incidents or interactions related to the password reset issues.
--   **[Create credential store for Password Reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-cred-store-pr-sow.md)**  
+-   **[Create a credential store for password reset in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-cred-store-pr-sow.md)**  
 Create a password reset credential store record to configure access to your credential store server while a user is changing or resetting a password.
--   **[Create password reset process in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-password-reset-process-sow.md)**  
-Create configure credentials, verification methods and settings, and enrollment settings to create a password reset process.
+-   **[Create a password reset process in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-password-reset-process-sow.md)**  
+Configure credentials, verification methods and settings, and enrollment settings to create a password reset process.
 -   **[Configure the verification methods for service desk process in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configuring-verification-methods-pr-sow.md)**  
 Create and edit verification methods so they align with service desk processes, and map each verification to a specific process. After mapping the processes, integrate them with UXF routes to complete an end-to-end flow for resetting a password in Service Operations Workspace.
 -   **[Configure the password policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-password-policies-pr-sow.md)**  
-Create a password policy to ensure that all passwords are strong and secure.
+Create a password policy to help enforce password strength requirements.
 -   **[Configure the session properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-session-properties-pr-sow.md)**  
 Configure the password reset properties based on the requirement.
 

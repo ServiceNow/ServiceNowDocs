@@ -32,15 +32,15 @@ Begin or continue a conversation with Build Agent to edit previewed files throug
 
 2.  Preview files from the App details page or from within an open file.
 
-<table id="choicetable_e2q_c5z_tfc"><thead><tr><th align="left" id="d250945e136">
+<table id="choicetable_e2q_c5z_tfc"><thead><tr><th align="left" id="d344164e138">
 
 Option
 
-</th><th align="left" id="d250945e139">
+</th><th align="left" id="d344164e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d250945e145">
+</th></tr></thead><tbody><tr><td id="d344164e147">
 
 **Preview from App details**
 
@@ -51,7 +51,7 @@ Description
 
 \[Omitted image "sn-studio-preview-app-details.png"\] Alt text: Select the Preview button.
 
-</td></tr><tr><td id="d250945e177">
+</td></tr><tr><td id="d344164e179">
 
 **Preview from an open file**
 

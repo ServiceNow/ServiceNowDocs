@@ -7,7 +7,7 @@ release: brazil
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-04"
 reading_time_minutes: 1
 breadcrumb: [Manage Walk-up Experience queue and interactions, Walk-up Experience, IT Service Management]
 ---
@@ -22,21 +22,15 @@ Role required: sn\_walkup.walkup\_technician
 
 ## About this task
 
-There are two ways the agents can view the walk-up inbox. The agents primarily access Agent Workspace for all Walk-up Experience related information, including the inbox. However the agents can also access Walk-up Experience in the application navigator, or left navigation bar, to link to and view the inbox in Agent Workspace.
+Agents view the inbox from the Walk-up Experience application.
 
 ## Procedure
 
-1.  To view the walk-up inbox using Agent Workspace, navigate to **Workspace Experience** &gt; **Agent Workspace Home**.
+1.  Navigate to **All** &gt; **Walk up Experience** &gt; **Agent** &gt; **My Walk-up Inbox.**.
 
-    The Agent Workspace homepage opens, greeting you with your name.
+2.  Select **Inbox** in the left navigation bar.
 
-2.  Click **Inbox** in the left navigation bar of the interface.
-
-    Automatically pushed interaction assignments appear in the inbox based on agent schedules and assignment rule configurations in the Advanced Work Assignment feature. The agents can set an inbox status of **Available**, **Away**, and **Offline**.
-
-3.  Alternatively, to view the walk-up inbox via the application navigator, navigate to **Walk-up Experience** &gt; **Technician** &gt; **My Walk-up Inbox**.
-
-    You are linked directly to your personal inbox in Agent Workspace. Automatically pushed interaction assignments appear in the inbox based on agent schedules and assignment rule configurations in the Advanced Work Assignment feature.
+    Automatically pushed interaction assignments appear in the inbox based on agent schedules and assignment rule configurations in the Advanced Work Assignment feature. The agents can set the inbox status to **Available**, **Away**, and **Offline**.
 
 
 **Parent Topic:**[Manage Walk-up Experience queue and interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)

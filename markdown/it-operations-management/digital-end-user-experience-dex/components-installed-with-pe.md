@@ -168,7 +168,10 @@ sn\_pren\_resolution
 
 </td><td>
 
-Record used to store the resolutions configured to be executed when a threshold breach occurs, as per the metric rule configuration. It can include a self-help instruction with defined steps, a URL with a specified link, a remedial action with a reference to the configured remedial action, or an incident creation type.
+Record used to store the resolutions configured to be executed when a threshold breach occurs, as per the metric rule configuration. Resolution types include:-   Self-help instruction with defined steps
+-   URL with a specified link
+-   Remedial action with a reference to the configured remedial action
+-   Incident creation
 
 </td></tr><tr><td>
 

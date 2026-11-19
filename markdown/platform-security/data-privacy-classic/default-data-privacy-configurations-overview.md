@@ -7,16 +7,14 @@ release: brazil
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: concept
-last_updated: "2026-11-06"
-reading_time_minutes: 2
+last_updated: "2026-11-19"
+reading_time_minutes: 1
 breadcrumb: [Data Privacy, Platform Privacy]
 ---
 
 # Default data privacy configurations
 
 Data Privacy includes out-of-the-box default configurations that automatically activate for licensed Vault customers, providing immediate value without requiring setup. These configurations enable discovery of existing sensitive data and real-time alerting and user logs for new sensitive data entries in specific fields.
-
-The Vault by Default initiative solves a critical adoption challenge: licensed Vault customers often delay implementing data privacy protections because the setup process is time-consuming and requires configuration across multiple product modules. By providing intelligent default configurations, customers derive immediate value from Data Privacy upon Store App installation and license activation—before completing any manual setup.
 
 ## Default alerting policy
 

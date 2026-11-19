@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Subscription Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Subscription Management, Get started, ServiceNow AI Platform]
 ---
 
 # Configure subscription allocation status in Subscription Management

@@ -50,7 +50,7 @@ Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 6.  Select **Save** and **Exit editing mode**.
 
-    For more information about Platform Analytics \(PAR\) dashboards, see .
+    For more information about Platform Analytics \(PAR\) dashboards, see [Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ac-elements.md).
 
 
 ## Result

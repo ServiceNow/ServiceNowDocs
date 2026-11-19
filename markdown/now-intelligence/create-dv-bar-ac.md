@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-dv-bar-ac.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 13
 keywords: [Create horizontal bar report, Create horizontal bar visualization, Create vertical bar report, Create vertical bar visualization]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -253,6 +253,17 @@ Show % of total in tooltip
 </td><td>
 
 Enable to show the percentage each data point contributes to the total alongside absolute values in the tooltip.
+
+</td></tr><tr><td>
+
+Chart variation
+
+</td><td>
+
+Style of bars. Options include:-   Stacked `stacked`: Group by fields are stacked on top of each other.
+-   Side-by-side `grouped`: Group by fields are side-by-side.
+-   Normalized `normalized`: Group by fields are stacked and stretched to fill the chart.
+This property applies only when more than one **Group by** is applied.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

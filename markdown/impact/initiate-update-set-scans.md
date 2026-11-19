@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/initiate-update-set-scans.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-29"
-reading_time_minutes: 2
+last_updated: "2026-11-09"
+reading_time_minutes: 3
 keywords: [update set scans, Suite Scan, scan engine]
 breadcrumb: [Initiate and monitor scans, Scan your instance, Platform Health, Using Impact, Impact]
 ---
@@ -19,7 +19,9 @@ Scan open update sets for findings to gain insights into what you're importing a
 
 By default, Scan Engine scans update sets whose State is In progress and whose names don't start with Default. Your Scan Engine administrator can change this condition.
 
-Local update set scans are performed in batches. Retrieved update set scans are scanned individually.
+Scan Engine scans update sets one at a time, whether the scan is the nightly scan, an on-demand scan, or an on-demand scan of a retrieved update set. If the update set is a parent update set, or a child of a parent update set, Scan Engine scans the entire chain of related update sets.
+
+Scan Engine doesn't scan updates that belong to the Impact and Scan Engine applications, even when they are in an update set that you scan. Scan Engine still scans the other updates in that update set. To exclude your own applications, tables, or records, create a record in the **Scan Filters** module.
 
 Role required: sn\_se.scan\_engine\_user
 
@@ -37,15 +39,20 @@ Role required: sn\_se.scan\_engine\_user
 
 4.  Select a scan type.
 
-    -   Full Scan: Scans against all active definitions\[Omitted image "update-set-scan-modal.png"\] Alt text: Full scan modal.
-    -   Suite Scan: Scans against a specific suite of definitions. \[Omitted image "update-set-scan-modal-select-scanengine.png"\] Alt text: Suite scan selection modal.
+    -   Full Scan: Scans against all active definitions
 
-        **Note:** Suite Scan is only available if the **Allow Suite Scan for update sets** property is enabled.
+        \[Omitted image "update-set-scan-modal.png"\] Alt text: Full scan modal.
+
+    -   Suite Scan: Scans against a specific suite of definitions.
+
+        \[Omitted image "update-set-scan-modal-select-scanengine.png"\] Alt text: Suite scan selection modal.
+
+        **Note:** Suite Scan is only available if the **Allow Scanning with Suites** property is enabled.
 
 5.  If you selected Suite Scan, select a suite from list.
 
     -   The Scan Engine suite is one that is provided as an example suite that, once populated with Definitions, can be selected for the suite scan to complete.
-    -   If an Update Set completion condition includes a specific suite name value, or that Suite is empty \(requiring a full scan\) and your scan doesn't meet the criteria, an error message is returned with a link to update the settings and repeat your scan.
+    -   If an Update Set condition includes a name value, is empty \(requiring a full scan\), and doesn't meet the criteria, an error message returns with a link to update the settings. You will need to repeat the scan with the updated settings.
     \[Omitted image "scan-suite-error.png"\] Alt text: Update set error message when the suite is empty in the configuration.
 
 6.  Review the update set completion enforcement message.

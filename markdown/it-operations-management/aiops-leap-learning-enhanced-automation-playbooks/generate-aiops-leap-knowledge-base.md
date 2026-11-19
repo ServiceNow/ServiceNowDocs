@@ -25,7 +25,7 @@ Role required: LEAP admin
 
 A default knowledge base must be configured in LEAP properties before LEAP AI agent creates knowledge base articles. See [LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md).
 
-Each knowledge base used in LEAP must have the correct Can Contribute permissions configured. See [Knowledge base permissions for LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configure-knowledge-base-user-collections.md).
+Each knowledge base used in LEAP must have the correct Can Contribute permissions configured. See [Configure knowledge base permissions for LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configure-knowledge-base-user-collections.md).
 
 ## About this task
 

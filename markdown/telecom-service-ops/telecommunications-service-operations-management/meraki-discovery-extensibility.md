@@ -8,7 +8,7 @@ product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [meraki extensibility extension points collection plan parser hooks field mappings tag transformation lifecycle stage status]
 breadcrumb: [Telecom Discovery via Cisco Meraki SD-WAN, Indirect Discovery with SGCs, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---

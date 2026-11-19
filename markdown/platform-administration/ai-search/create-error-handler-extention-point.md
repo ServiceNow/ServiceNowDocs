@@ -8,8 +8,8 @@ product: AI Search
 classification: ai-search
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Configuring bring your own model \(BYOM\), Configuring your embedding model, AI Search RAG \(Retrieval-Augmented Generation\), Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+reading_time_minutes: 2
+breadcrumb: [Configuring bring your own model \(BYOM\), Configuring your embedding model, AI Search RAG \(Retrieval-Augmented Generation\), Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create error handler extension point

@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
+keywords: [dex score, application experience score, device experience score, user sentiment score, service experience score, application health metrics score, device health metrics score, employee experience score, dex score components]
 breadcrumb: [Explore, Digital End-User Experience, IT Operations Management]
 ---
 

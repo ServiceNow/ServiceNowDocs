@@ -34,7 +34,7 @@ See [Define a report drilldown](https://raw.githubusercontent.com/ServiceNow/Ser
 
 2.  Select the **Show report structure** icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Show report structure\).
 
-3.  Select the link icon \(\[Omitted image "link-icon.png"\] Alt text:\).
+3.  Select the link icon \(\[Omitted image "link-icon.png"\] Alt text: Link icon\).
 
     \[Omitted image "set-redirect-url.png"\] Alt text: Set redirect URL link button
 

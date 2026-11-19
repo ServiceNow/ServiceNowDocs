@@ -63,7 +63,7 @@ When domain separation is enabled and the system property **glide.security.admin
 
 3.  Select the Sharing icon \(\[Omitted image "icon-share-db.png"\] Alt text: Sharing icon\) to open the **Share** panel.
 
-4.  Select **Add groups and users** \(\[Omitted image "icon-add-user-db.png"\] Alt text: Add content icon\). Users who have the admin, pa\_admin, dashboard\_admin, or pa\_power\_user roles can also see roles on the **Share** panel.
+4.  Select **Add groups and users** \(\[Omitted image "icon-add-user-db.png"\] Alt text: Add groups and users icon\). Users who have the admin, pa\_admin, dashboard\_admin, or pa\_power\_user roles can also see roles on the **Share** panel.
 
 5.  Start typing the name in the **To** field.
 

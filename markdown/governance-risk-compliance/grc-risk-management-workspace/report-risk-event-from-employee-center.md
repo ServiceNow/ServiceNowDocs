@@ -76,7 +76,7 @@ Other entities affected
 
 </td><td>
 
-Select other related entities that are affected by the event.**Note:** You can select more than one entity.
+Select other entities affected by this event. These are in addition to the entity that absorbs the loss.**Note:** You can select more than one entity.
 
 </td></tr><tr><td>
 

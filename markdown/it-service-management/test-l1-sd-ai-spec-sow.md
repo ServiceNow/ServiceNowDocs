@@ -16,7 +16,7 @@ Test your L1 IT Service Desk AI Specialist on a single record to preview how it 
 
 ## Before you begin
 
-Role required: sn\_itsm\_common.sn\_service\_desk\_manager or admin
+Role required: sn\_sow\_itsm\_common.sn\_service\_desk\_manager or admin
 
 ## About this task
 

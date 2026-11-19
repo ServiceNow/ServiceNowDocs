@@ -42,5 +42,5 @@ Biometric authenticators use fingerprint or facial recognition to identify users
 
 \[Omitted image "biometirc-mfa.png"\] Alt text: MFA - Biometric or Hardware
 
-To configure the web authentication plugin, see .
+To configure the web authentication plugin, see [Activate the Web Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/activate-web-authentication.md).
 

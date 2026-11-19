@@ -1,6 +1,6 @@
 ---
-title: Managing ServiceNow Arc policies in AI Control Tower
-description: Create and manage ServiceNow Arc policies that control what Arc can do, which actions need approval, and which actions are blocked.
+title: Managing ServiceNow Arc policies
+description: Create and manage ServiceNow Arc policies that control what Arc can do, which actions need approval, and which actions are blocked, from Super Intelligence Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-managing-arc-policies.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: concept
 last_updated: "2026-10-22"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, arc policies, manage arc policies]
-breadcrumb: [Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Managing ServiceNow Arc policies in AI Control Tower
+# Managing ServiceNow Arc policies
 
-Create and manage ServiceNow Arc policies that control what Arc can do, which actions need approval, and which actions are blocked.
+Create and manage ServiceNow Arc policies that control what Arc can do, which actions need approval, and which actions are blocked, from Super Intelligence Control Tower.
 
 ## Managing Arc policies workflow
 

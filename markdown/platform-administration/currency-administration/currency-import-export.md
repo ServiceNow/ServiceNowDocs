@@ -9,7 +9,7 @@ classification: currency-administration
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Standard currency fields, Explore, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Standard currency fields, Explore, Currency administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Default currency values in import and export

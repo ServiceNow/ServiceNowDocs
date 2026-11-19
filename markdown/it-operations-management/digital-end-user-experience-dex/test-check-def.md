@@ -31,7 +31,7 @@ Role required: admin
 
 3.  In the Related Links section, select **Test check**.
 
-4.  In the Test Check dialog box, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: in the **Agent** field.
+4.  In the Test Check dialog box, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] in the **Agent** field.
 
 5.  On the Agent Client Collectors page, select the agent from the Name list.
 

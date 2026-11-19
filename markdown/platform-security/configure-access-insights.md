@@ -41,5 +41,5 @@ The following procedure describes the steps for enabling Access Insights.
 
 ## Result
 
-The Access Insights feature is shown when you're comparing user access to a resource under **Role Hierarchy**. To know more about using Access Insights, see [Use Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/use-access-insights.md).
+The Access Insights feature is shown when you're comparing user access to a resource under **Role Hierarchy**. To learn more about using Access Insights, see [Use Access Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/use-access-insights.md).
 

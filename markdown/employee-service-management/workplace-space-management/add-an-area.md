@@ -8,7 +8,7 @@ product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -291,6 +291,8 @@ You can add an allocation if there is none. For more information on how to add a
 [Add a room using Workplace Space Management]()
 
 [Add a space using Workplace Space Management]()
+
+[Configure a space type as usable with Workplace Space Management]()
 
 [Allocate a cost center, department, or workplace entity]()
 

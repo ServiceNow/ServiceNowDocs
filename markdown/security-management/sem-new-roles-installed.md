@@ -166,6 +166,25 @@ Create, read, update, and delete records in the `sn_sec_calculator` scope.
 
 sn\_sec\_calculator.read
 
+</td></tr><tr><td>
+
+Vulnerability Response
+
+</td><td>
+
+sn\_vul.vulnerability\_admin
+
+</td><td>
+
+Configure integrations, rules, and workflows in Unified Security Exposure Management.
+
+</td><td>
+
+-   sn\_vul\_int\_cmn.write
+-   sn\_vul\_int\_cmn.read
+
+ **Note:** Both roles are available only when the unified exposure pipeline is installed. For information about installing the Unified Exposure Pipeline application, see [Install Unified Exposure Pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-unified-exposure-pipeline.md).
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Security Exposure Management Workspace Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-components-installed.md)
 

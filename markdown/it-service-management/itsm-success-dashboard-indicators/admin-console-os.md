@@ -1,5 +1,5 @@
 ---
-title: Operational Success Admin dashboard Console
+title: Operational Success Admin Console
 description: The Operational Success dashboard provides a consolidated view of the end-to-end performance of the IT processes that are implemented.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/admin-console-os.html
@@ -12,13 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
 
-# Operational Success Admin dashboard Console
+# Operational Success Admin Console
 
 The Operational Success dashboard provides a consolidated view of the end-to-end performance of the IT processes that are implemented.
-
-## Prerequisites
-
-User roles: You can assign different roles based on specific access requirements.
 
 ## Configure
 

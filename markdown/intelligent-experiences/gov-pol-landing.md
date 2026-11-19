@@ -1,6 +1,6 @@
 ---
-title: Controlling AI asset usage in AI Control Tower
-description: Create AI asset usage policies that automatically respond to detected AI threats or block an AI agent, domain, or model outright.
+title: Controlling AI asset usage
+description: Create AI asset usage policies in Super Intelligence Control Tower that automatically respond to detected AI threats or block an AI agent, domain, or model outright.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-landing.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Controlling AI asset usage in AI Control Tower
+# Controlling AI asset usage
 
-Create AI asset usage policies that automatically respond to detected AI threats or block an AI agent, domain, or model outright.
+Create AI asset usage policies in Super Intelligence Control Tower that automatically respond to detected AI threats or block an AI agent, domain, or model outright.
 
 ## Get started
 

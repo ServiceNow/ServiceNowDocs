@@ -1,6 +1,6 @@
 ---
 title: Data visualization component
-description: Enables you to display a graphical representation of information from any ServiceNow table, using visual elements such as single score, pie chart, donut, and semi donut. Use this component to monitor activities related to cases, incidents, and so on, that can help you to take decisions based on the information shown.
+description: Use the Data visualization component to show data from any ServiceNow table as a score, pie, donut, or semi-donut chart.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-data-viz-comp-overview.html
 release: brazil
@@ -14,7 +14,9 @@ breadcrumb: [Configure web components, Configure Web Embeddables, Set up self-se
 
 # Data visualization component
 
-Enables you to display a graphical representation of information from any ServiceNow table, using visual elements such as single score, pie chart, donut, and semi donut. Use this component to monitor activities related to cases, incidents, and so on, that can help you to take decisions based on the information shown.
+Use the Data visualization component to show data from any ServiceNow table as a score, pie, donut, or semi-donut chart.
+
+Use this component to monitor activity such as cases and incidents and to support decisions based on the data shown.
 
 Following are the visual elements which you can embed on your webpage to display information:
 

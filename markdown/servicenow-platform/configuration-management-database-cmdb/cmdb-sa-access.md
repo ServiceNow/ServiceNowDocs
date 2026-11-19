@@ -70,12 +70,9 @@ You can access the CMDB success advisor app from Service Graph Workspace and CMD
 
     2.  Locate the CMDB success advisor application, then select an action for your current view.
 
-        -   In the Home view, the Product highlights section shows a card for each configured or entitled product among Data Foundations, HAM, and SAM. Select **Remediate** on a product card.
-
-            -   If the advisor scope for the product is already configured, **Remediate** opens the advisor dashboard for that product.
-            -   If the advisor scope for the product isn't configured yet, **Remediate** opens the CMDB success advisor landing page and starts the setup for that product.
-            **Note:** A card for a product doesn't appear in the Product highlights section when its advisor scope isn't configured and the product isn't entitled on your instance. For details on what each card shows, see [Product highlight card states in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-workspace-card-states.md).
-
+        -   In the Home view, select the CMDB success advisor card in the Product highlights section. Then select an action based on your progress.
+            -   On first access, select **Get started**, and then in the Get started with CMDB success advisor dialog box, select **Continue**.
+            -   On subsequent visits, select **View details**.
         -   In the Management view, select the CMDB success advisor link, available within the Optimize category in the Management tools section. Then select an action based on your progress.
             -   On first access, select **Get started**, and then in the Get started with CMDB success advisor dialog box, select **Continue**.
 
@@ -98,6 +95,4 @@ You can access the CMDB success advisor app from Service Graph Workspace and CMD
 The CMDB success advisor landing page opens, displaying product cards for Data Foundations and application-specific modules like HAM and SAM. Each card includes a brief description and actions to configure dashboards and review data quality insights and metrics.
 
 If you access CMDB success advisor from the Software Asset Workspace after the SAM advisor scope is configured, the SAM advisor dashboard opens directly instead of the landing page.
-
-If you select **Remediate** on the card for a configured product in the Home view of CMDB Workspace, its advisor dashboard opens directly instead of the landing page.
 

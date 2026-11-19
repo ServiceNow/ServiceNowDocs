@@ -1,6 +1,6 @@
 ---
-title: Resolve a store inquiry support request from workspace
-description: Resolve a store inquiry case with a resolution from your workspace.
+title: Resolve a store inquiry support request from CRM Workspace
+description: Resolve a store inquiry case with a resolution from your CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-fulfill-retail-store-service-workspace.html
 release: brazil
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Manage store inquiries, Retail]
 ---
 
-# Resolve a store inquiry support request from workspace
+# Resolve a store inquiry support request from CRM Workspace
 
-Resolve a store inquiry case with a resolution from your workspace.
+Resolve a store inquiry case with a resolution from your CRM Workspace.
 
 ## Before you begin
 

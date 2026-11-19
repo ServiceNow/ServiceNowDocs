@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Archiving records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Archiving records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Archive related records in Core UI
@@ -22,15 +22,15 @@ Role required: admin.
 
 1.  Access the archive rule that you want to configure in one of the following ways.
 
-<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d130748e59">
+<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d130674e61">
 
 Option
 
-</th><th align="left" id="d130748e62">
+</th><th align="left" id="d130674e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d130748e68">
+</th></tr></thead><tbody><tr><td id="d130674e70">
 
 **Using a data management policy**
 
@@ -42,7 +42,7 @@ Steps
 4.  In the **Archive Related Records** related list, select **New**.
 
 
-</td></tr><tr><td id="d130748e110">
+</td></tr><tr><td id="d130674e112">
 
 **Using the Archive Rules module**
 

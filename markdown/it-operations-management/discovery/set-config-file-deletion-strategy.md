@@ -7,7 +7,7 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 breadcrumb: [Configuration file tracking, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -54,7 +54,7 @@ Keep
 
 </td><td>
 
-Preserves the configuration file CI record and makes no other changes to the record. This option is the default setting.
+Preserves the CI record and makes no other changes to it. This option is the default setting.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Delete
 
 </td><td>
 
-Deletes the configuration file CI record from the CMDB, and the relationship to the main CI.
+Deletes the CI record from the CMDB, together with its relationships.
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Mark as absent
 
 </td><td>
 
-Marks the **Status** \[install\_status\] field of the configuration file CI record as **Absent**, meaning that Discovery cannot find the tracked configuration file. This status does not instruct the system to delete the actual CI or the relationship.**Note:** There are two tables that do have their CIs deleted if marked as absent: cmdb\_ci\_network\_adapter and cmdb\_ci\_ip\_address.
+Marks the **Status** \[install\_status\] field of the CI record as **Absent**, meaning that Discovery can't find the CI. This status doesn't instruct the system to delete the CI or or its relationships.**Note:** There are two exceptions. Discovery deletes CIs in the cmdb\_ci\_network\_adapter and cmdb\_ci\_ip\_address tables when it marks them as absent.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Mark as retired
 
 </td><td>
 
-Marks the **Status** \[install\_status\] field of the configuration file CI record as **Retired**, meaning that Discovery no longer uses this configuration file. This status does not instruct the system to delete the actual CI or the relationship.
+Marks the **Status** \[install\_status\] field of the CI record as **Retired**, meaning that Discovery no longer uses this CI. This status doesn't instruct the system to delete the CI or its relationship.
 
 </td></tr></tbody>
 </table>

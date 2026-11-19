@@ -7,7 +7,7 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Domain separation and Discovery, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -34,9 +34,11 @@ In domain-separated environments, the domain of the user who creates a Discovery
 
 3.  Double-click the **Run as** field to perform inline editing.
 
-    By default, the **Run as** column doesn’t display in the Discovery Schedules \[discovery\_schedule\] table. For information about customizing columns in tables, see [Personalize a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_PersonalLists.md).
+    By default, the **Run as** column doesn’t display in the Discovery Schedules \[discovery\_schedule\] table. For information about customizing columns in tables, see .
 
 4.  Enter the name of the user that you want the schedule to run as.
+
+    **Warning:** The user must be in the same domain as the MID Server and the credentials that the schedule uses. For Cloud Discovery, the cloud service account must also be in that domain. Domain misalignment can cause discovery failures or incorrect data storage.
 
 5.  Select the check mark \(\[Omitted image "icon-check-mark.png"\] Alt text: check mark icon\) icon.
 

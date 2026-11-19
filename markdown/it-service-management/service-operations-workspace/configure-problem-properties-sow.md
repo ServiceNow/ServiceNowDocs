@@ -1,6 +1,6 @@
 ---
 title: Configure properties for Problem Management in Service Operations Workspace
-description: Configure the properties used to control process-related features, such as creating a problem task on a closed problem and re-analyzing a closed or a canceled problem.
+description: Configure the properties used to control process-related features, such as creating a problem task on a closed problem and reanalyzing a closed or a canceled problem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-problem-properties-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configuring Problem Management in Service Operations Workspace, Get
 
 # Configure properties for Problem Management in Service Operations Workspace
 
-Configure the properties used to control process-related features, such as creating a problem task on a closed problem and re-analyzing a closed or a canceled problem.
+Configure the properties used to control process-related features, such as creating a problem task on a closed problem and reanalyzing a closed or a canceled problem.
 
 ## Before you begin
 

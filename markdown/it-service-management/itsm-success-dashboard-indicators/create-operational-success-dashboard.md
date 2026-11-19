@@ -9,7 +9,7 @@ classification: itsm-success-dashboard-indicators
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Operational Success Admin dashboard Console, Configure, ITSM Success Dashboard indicators, IT Service Management]
+breadcrumb: [Operational Success Admin Console, Configure, ITSM Success Dashboard indicators, IT Service Management]
 ---
 
 # Create an operational success dashboard
@@ -55,5 +55,5 @@ Role required: sn\_sd.success\_dashboard\_admin
 
 The new dashboard appears on the Operational success dashboard.
 
-**Parent Topic:**[Operational Success Admin dashboard Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/admin-console-os.md)
+**Parent Topic:**[Operational Success Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/admin-console-os.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Security posture dashboards
-description: Use the customizable single and multi-instance security posture dashboards to monitor your security KPIs. These dashboards consolidate the important information regarding the security of your instances in a single location and include a number of base system dashboard widgets.
+description: Use the customizable single and multi-instance security posture dashboards to monitor your security key performance indicators \(KPIs\). These dashboards consolidate the important information regarding the security of your instances in a single location and include several base system dashboard widgets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/scc-sec-posture-dashboard.html
 release: brazil
@@ -14,21 +14,21 @@ breadcrumb: [Security posture console, Security Center, Platform Security]
 
 # Security posture dashboards
 
-Use the customizable single and multi-instance security posture dashboards to monitor your security KPIs. These dashboards consolidate the important information regarding the security of your instances in a single location and include a number of base system dashboard widgets.
+Use the customizable single and multi-instance security posture dashboards to monitor your security key performance indicators \(KPIs\). These dashboards consolidate the important information regarding the security of your instances in a single location and include several base system dashboard widgets.
 
-## Accessing the Security posture dashboards
+## Accessing the security posture dashboards
 
 To access the Security posture dashboard, open Security Center by navigating to **All** &gt; **Security Center**. Select **Security posture console** in the **Security consoles** section. On the **Security posture console** page, select **Security posture dashboards** at the top.
 
 Use the down arrow next to **Security posture dashboard** to switch between instance dashboards.
 
-\[Omitted image "spd-title-dropdown.png"\] Alt text: Change dashboard drop-down
+\[Omitted image "spd-title-dropdown.png"\] Alt text: Drop-down list for switching between instance security posture dashboards
 
 The dashboard is divided into multiple sections containing widgets related to an aspect of instance security. Select any widget on the dashboard to view more detail on this aspect of your instance's security.
 
 ## At a glance
 
-\[Omitted image "spd-at-a-glance.png"\] Alt text: At a glance
+\[Omitted image "spd-at-a-glance.png"\] Alt text: At a glance section showing compliance score, metric threshold alert, customer action, antivirus, and release version widgets
 
 The **At a glance** section displays an overview of security on an instance, such as a compliance score, Customer Actions due, and release information for the instance.
 
@@ -50,7 +50,7 @@ The **At a glance** section displays an overview of security on an instance, suc
 
 -   **Antivirus downloaded files**
 
-    Displays a count of files uploaded to your instance that have been quarantined. Select this widget to view these quarantined files in the [Antivirus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/antivirus.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of files uploaded to your instance that have been quarantined. Select this widget to view these quarantined files in the [Antivirus metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/antivirus.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
 
 -   **Release version**
 
@@ -59,34 +59,34 @@ The **At a glance** section displays an overview of security on an instance, suc
 
 ## Users
 
-\[Omitted image "spd-users.png"\] Alt text: Users
+\[Omitted image "spd-users.png"\] Alt text: Users section showing widgets for total, active, integration, privileged, and never logged-in users
 
 The **Users** section provides information on the users in your instance. The widgets on this section show user information, and a line graph showing changes to this information over time. Select a widget to view more detail.
 
 -   **Total users**
 
-    Displays a count of users on your Users \[sys\_user\] table. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of users on your Users \[sys\_user\] table. Select this widget to see details on these records in the [Active sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
 
 -   **Active users**
 
-    Displays a count of active users on your Users \[sys\_user\] table. Active users are user records where the **Active** field is selected. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of active users on your Users \[sys\_user\] table. Active users are user records where the **Active** field is selected. Select this widget to see details on these records in the [Active sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
 
 -   **Active integration accounts**
 
-    Displays a count of integration accounts on your Users \[sys\_user\] table. Integration accounts are user records where the **Web service access only** field is selected. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of integration accounts on your Users \[sys\_user\] table. Integration accounts are user records where the **Web service access only** field is selected. Select this widget to see details on these records in the [Active sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
 
 -   **Active privileged accounts**
 
-    Displays a count of active privileged users on your Users \[sys\_user\] table. Privileged users are user records where the **Active** field is true, the **Internal Integration User** is false, and **Internal Integration User** is inactive. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of active privileged users on your Users \[sys\_user\] table. Privileged users are user records where the **Active** field is true, the **Internal Integration User** is false, and **Internal Integration User** is inactive. Select this widget to see details on these records in the [Active sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
 
 -   **Never logged-in users**
 
-    Displays a count of users on your Users \[sys\_user\] table created in the last 60 days, and have no value in the **Last login time** field. Select this widget to see details on these records in the [Active Sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of users on your Users \[sys\_user\] table created in the last 60 days, and have no value in the **Last login time** field. Select this widget to see details on these records in the [Active sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-active-sessions.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
 
 
 ## Login protection
 
-\[Omitted image "spd-login-protection.png"\] Alt text: Login protection
+\[Omitted image "spd-login-protection.png"\] Alt text: Login protection section showing widgets for failed logins, privileged logins without multi-factor authentication, and unrestricted REST APIs
 
 The **Login protection** section includes information on failed logins, including failed login attempts for privileged users. These widgets include a line graph showing changes to this information over time. Select a widget to view more detail.
 
@@ -109,19 +109,19 @@ The **Login protection** section includes information on failed logins, includin
 
 ## Instance hardening
 
-\[Omitted image "spd-instance-hardening.png"\] Alt text: Instance hardening
+\[Omitted image "spd-instance-hardening.png"\] Alt text: Instance hardening section listing recommended security settings with their priority and potential impact
 
 The **Instance hardening** section contains recommended hardening security settings that you can change to improve instance security. Use this section to see the priority and potential impact of these changes.
 
 ## Instance trends
 
-\[Omitted image "spd-instance-trends.png"\] Alt text: Instance trends
+\[Omitted image "spd-instance-trends.png"\] Alt text: Instance trends section showing access controls auditor scan suite results
 
 The **Instance trends** dashboard displays the results of the access controls auditor scan suite.
 
 ## Data protection
 
-\[Omitted image "spd-data-protection.png"\] Alt text: Data protection
+\[Omitted image "spd-data-protection.png"\] Alt text: Data protection section showing widgets for classified data, classified data exports, and classified table columns
 
 Use the **Data protection** section to see an overview of classified data, such as personally identifiable information \(PII\). The dashboard also tracks exports of classified data.
 
@@ -131,7 +131,7 @@ Use the **Data protection** section to see an overview of classified data, such 
 
 -   **Classified data exports**
 
-    Displays a count of classified records that have been exported from your instance. Select this widget to see a list of classified exports in the [Export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/export.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of classified records that have been exported from your instance. Select this widget to see a list of classified exports in the [Export metrics in Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/export.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
 
 -   **Total table columns**
 
@@ -139,11 +139,11 @@ Use the **Data protection** section to see an overview of classified data, such 
 
 -   **Encrypted PII classified columns**
 
-    Displays a count of encrypted records classified as Personally Identifiable Information \(PII\). Select this widget to review these records in the [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/data-classification-security-metrics.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of encrypted records classified as personally identifiable information \(PII\). Select this widget to review these records in the [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/data-classification-security-metrics.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
 
 -   **Total PII classified columns**
 
-    Displays a count of all records classified as Personally Identifiable Information \(PII\). Select this widget to review these records in the [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/data-classification-security-metrics.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
+    Displays a count of all records classified as personally identifiable information \(PII\). Select this widget to review these records in the [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/data-classification-security-metrics.md) section of [Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md).
 
 
 ## Review multiple instances
@@ -154,11 +154,11 @@ View the security posture of your non-production instances without leaving your 
 
 By default, the **All instances** tab displays information on the production instance you’re logged in to, and all non-production instances across all your production environments.
 
-You may add or remove instances that appear on this dashboard by modifying your trust configuration. Providing data visibility between instances allows them to appear within your dashboard. For details on this process, see [Basic trust configuration for data sync applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/grant-access-other-instances.md).
+You can add or remove instances that appear on this dashboard by modifying your trust configuration. Providing data visibility between instances allows them to appear within your dashboard. For details on this process, see [Basic trust configuration for data sync applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/grant-access-other-instances.md).
 
 ## Dashboard customization
 
-The instance security posture dashboard can’t be customized, but you can duplicate the dashboard by selecting the **More Actions** \(\[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text: More actions\) icon and selecting **Duplicate**. You can change the duplicate dashboard.
+The instance security posture dashboard can’t be customized, but you can duplicate the dashboard by selecting the **More Actions** \[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text: icon and selecting **Duplicate**. You can change the duplicate dashboard.
 
 **Parent Topic:**[Security posture console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-posture-console.md)
 

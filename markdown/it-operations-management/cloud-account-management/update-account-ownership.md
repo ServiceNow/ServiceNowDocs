@@ -50,6 +50,8 @@ Role required: sn\_itom\_cam.cw\_admin
 
     2.  Select the account owner from the **Account Owner** from the drop-down list.
 
+        The Account Owner Changed Notification email is sent to the account owner.
+
     3.  Select the primary teams from the**Primary Teams** drop-down list.
 
     4.  Select the secondary teams from the**Secondary Teams** drop-down list.

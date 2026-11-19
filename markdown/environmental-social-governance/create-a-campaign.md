@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 1
 keywords: [create a campaign, campaigns, metric campaign]
-breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Create a campaign

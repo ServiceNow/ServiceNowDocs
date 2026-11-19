@@ -36,7 +36,7 @@ Compliance status
 
 </td><td>
 
-Indicates if the hardening setting is compliant nor not.
+A status that indicates whether the hardening setting is compliant.
 
 </td></tr><tr><td>
 

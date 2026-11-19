@@ -19,7 +19,7 @@ Summarize the Virtual Agent chat conversation between a live agent and a request
 
 ## Before you begin
 
-Role required: itil
+Role required: itil, sn\_service\_desk\_agent
 
 ## About this task
 

@@ -26,15 +26,15 @@ Role required: none
 
 1.  In the RPA Desktop Design Studio, select one of the following options to handle errors either at a component level or at an activity level.
 
-<table id="choicetable_r3f_bsy_vqb"><thead><tr><th align="left" id="d578885e89">
+<table id="choicetable_r3f_bsy_vqb"><thead><tr><th align="left" id="d586231e91">
 
 Option
 
-</th><th align="left" id="d578885e92">
+</th><th align="left" id="d586231e94">
 
 Action and description
 
-</th></tr></thead><tbody><tr><td id="d578885e98">
+</th></tr></thead><tbody><tr><td id="d586231e100">
 
 **To handle errors at a component level**
 
@@ -42,7 +42,7 @@ Action and description
 
 On the Design surface, right-click the component title bar and select **Error Handler** to open the ERROR HANDLER dialog box.
 
-</td></tr><tr><td id="d578885e110">
+</td></tr><tr><td id="d586231e112">
 
 **To handle errors at an activity level**
 

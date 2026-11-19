@@ -27,7 +27,7 @@ For details on when cases and tasks are generated, see [Stages of store plan tra
 The plan progress summary gives headquarters and regional managers a single view of how a published plan is progressing for a selected schedule occurrence, without opening individual cases.
 -   **[Hierarchical list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-hierarchical-list-view.md)**  
 The hierarchical list view on the Track Plan tab presents a plan's generated cases and tasks as a navigation tree, so managers can move from the plan down to an individual store task without losing context.
--   **[Track a store plan on the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/track-hq-case.md)**  
+-   **[Track a store plan on the CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/track-hq-case.md)**  
 Enable plan creators to track published plan execution end-to-end, overall completion status, parent \(HQ\) cases, HQ tasks, store cases, and store tasks.
 -   **[Track a store case from an HQ case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/track-store-case-hq-case.md)**  
 Track a store case from an HQ case to view the status.

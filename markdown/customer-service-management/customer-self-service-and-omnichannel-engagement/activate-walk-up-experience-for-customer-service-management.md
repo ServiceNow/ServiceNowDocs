@@ -1,6 +1,6 @@
 ---
 title: Activate Walk-up Experience for Customer Service Management
-description: You can activate the Walk-Up for CSM plugin \(com.snc.walkup\_for\_csm\) for Walk-up Experience if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
+description: Activate the Walk-Up for CSM plugin \(com.snc.walkup\_for\_csm\) to enable Walk-up Experience. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-walk-up-experience-for-customer-service-management.html
 release: brazil
@@ -8,13 +8,13 @@ product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Activate Walk-up Experience for Customer Service Management
 
-You can activate the Walk-Up for CSM plugin \(com.snc.walkup\_for\_csm\) for Walk-up Experience if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
+Activate the Walk-Up for CSM plugin \(com.snc.walkup\_for\_csm\) to enable Walk-up Experience. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
 
 ## Before you begin
 

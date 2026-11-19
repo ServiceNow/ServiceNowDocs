@@ -14,7 +14,7 @@ breadcrumb: [Explore, Service Test Management, Telecommunications, Media, and Te
 
 A test group organizes related test definitions and measurement consequences to help identify the root cause of a service problem. Use test groups to define manual or automated testing strategies, apply shared characteristics across test definitions, and limit scope using conditions tied to product inventory records.
 
-A test group contains multiple test definitions and defines the relationships and measurement consequences used to identify the root cause of a service problem.You can define these entities for each test, based on your requirements. The test group contains multiple test definitions.
+A test group contains multiple test definitions and defines the relationships and measurement consequences used to identify the root cause of a service problem. You can define these entities for each test, based on your requirements. The test group contains multiple test definitions.
 
 A test group can also have characteristics that its test definitions inherit. You can limit a test group to specific product inventory records by adding conditions to its relationship with a specification. To configure characteristics that test definitions inherit, see [Test group characteristics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/test-group-characteristics.md).
 

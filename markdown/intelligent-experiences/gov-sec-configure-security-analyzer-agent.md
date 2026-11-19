@@ -1,50 +1,48 @@
 ---
-title: Turn on the AICT Security Analyzer agent
-description: Turn on the AICT Security Analyzer agent to get additional analysis of AI asset security events. The agent classifies events by severity, adds them to Your top recommendations, and creates relevant security tasks.Post-runtime probabilistic metrics require that the AICT Security Analyzer agent is turned on. Both the AI agent and probabilistic metrics are turned off by default, and the sampling rate for the metrics is set to 1%. Turn them on to get additional monitoring and analysis of your AI systems.
+title: Turn on the Security Analyzer agent
+description: Turn on the AICT Security Analyzer agent to enable automated analysis of AI asset security events, add those events to Your top recommendations or Security events detected, and generate security tasks in Super Intelligence Control Tower.Post-runtime probabilistic metrics require that the AICT Security Analyzer agent is turned on. Both the AI agent and probabilistic metrics are turned off by default, and the sampling rate for the metrics is set to 1%. Turn them on to get additional monitoring and analysis of your AI systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-configure-security-analyzer-agent.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-28"
+last_updated: "2026-11-13"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Turn on the AICT Security Analyzer agent
+# Turn on the Security Analyzer agent
 
-Turn on the AICT Security Analyzer agent to get additional analysis of AI asset security events. The agent classifies events by severity, adds them to **Your top recommendations**, and creates relevant security tasks.
+Turn on the AICT Security Analyzer agent to enable automated analysis of AI asset security events, add those events to **Your top recommendations** or **Security events detected**, and generate security tasks in Super Intelligence Control Tower.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
+Role required: sn\_ai\_governance\_ai\_steward
 
 ## About this task
 
 The AICT Security Analyzer agent is turned off by default, so that no AI usage is consumed until you choose to turn it on. When the agent is turned on, it analyzes security events using historical trends and intents. For more information about the agent, see [AICT security analyzer AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-aict-security-analyzer-agent-ai-agent.md).
 
-**Note:** When you turn on the agent, any Post-runtime settings that are enabled increase monitoring for threats and may increase token consumption.
+**Note:** When you turn on the agent, any post-runtime settings that are enabled \(except for Sensitive Information Disclosure and Improper Input and Output Handling\) increase monitoring for threats and may increase token consumption.
 
 ## Procedure
 
-1.  In AI Control Tower, navigate to **Settings** &gt; **Rules and templates** &gt; **Security**.
+1.  In Control Tower, navigate to **Settings** &gt; **Rules and templates** &gt; **Security**.
 
 2.  Select the **Security insights** tab.
 
-    The **AICT Security Analyzer** section shows the current status of the agent.
+    The AICT Security Analyzer section shows the current status of the agent.
 
-3.  Select the arrow for **Open in AI Agent Studio**.
+3.  Turn on the AICT Security Analyzer agent as follows.
 
-4.  In AI Agent Studio, turn on the AICT Security Analyzer agent.
-
-    For more information, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aias-landing.md).
-
+    -   If you aren't on a domain-separated instance, turn on the agent using the toggle.
+    -   If you are on a domain-separated instance, select the arrow for **Open in AI Agent Studio**. In AI Agent Studio, turn on the AICT Security Analyzer agent. For more information, see [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aias-landing.md).
 
 ## Result
 
-The AICT Security Analyzer agent starts analyzing security events for the settings you have enabled. To confirm, return to the **Security insights** tab. The status of the agent shows **Enabled**.
+The AICT Security Analyzer agent starts analyzing security events for the settings you have enabled. To confirm, check the status of the agent on the **Security insights** tab.
 
-**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)
+**Parent Topic:**[Configuring security metrics in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)
 
 ## AICT Security Analyzer agent and Post-runtime settings
 
@@ -60,8 +58,5 @@ The following metrics are turned off by default so that no AI usage is consumed 
 -   Correctness detection
 -   Data integrity incident detection
 -   Excessive agency
--   Improper input and output handling
--   Prompt injection
--   Sensitive data disclosure
 -   System prompt leakage
 

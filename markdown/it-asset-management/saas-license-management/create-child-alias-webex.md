@@ -71,7 +71,7 @@ Role required: sam\_integrator
 
 [SaaS License Management setup for large companies]()
 
-[SaaS Overview dashboard]()
+[]()
 
 [Integrate with SaaS applications]()
 

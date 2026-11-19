@@ -8,7 +8,7 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Configure Contract Management Pro, Configure Word Add-in, Configure contract templates, Configure Contract Workspace, Configure Obligation Management, Create word document template, Contract configuration]
 breadcrumb: [Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---

@@ -38,7 +38,7 @@ As a territory planner, you can configure and use territories in Field Service M
 
 5.  [Field Service Territory Planning console properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/territory-planning-components-fsm.md)Use the territory planning components and properties to customize workflow based on your requirements.
 
-For more information about setting up Territory planning in the CSM/FSM Configurable workspace, see [Configuring Field Service Territory Planning Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/configuring-territory-planning-fsm-workspace.md).
+For more information about setting up Territory planning in the CRM Workspace, see [Configuring Field Service Territory Planning Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/configuring-territory-planning-fsm-workspace.md).
 
 **Related topics**  
 

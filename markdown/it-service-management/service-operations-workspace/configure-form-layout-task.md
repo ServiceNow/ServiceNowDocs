@@ -29,10 +29,10 @@ A task record, for example, problem or incident, has the following editable view
 
 ## Filter experience in Service Operations Workspace and Classic UI
 
-The form layout changes you make in the classic ServiceNow AI Platform determine the fields that should be appear in both the creation form and the record details in Service Operations Workspace However, filtering records works differently between the two interfaces.
+The form layout changes you make in the classic ServiceNow AI Platform determine the fields that should appear in both the creation form and the record details in Service Operations Workspace. However, filtering records works differently between the two interfaces.
 
--   **Classic UI:** Select the column header filter icon to filter list records.
--   **Service Operations Workspace:** Use the filter panel on the left side of the list view to filter records.
+-   **Classic UI**: Select the column header filter icon to filter list records.
+-   **Service Operations Workspace**: Use the filter panel in the list view to filter records.
 
 ## Procedure
 
@@ -42,10 +42,10 @@ The form layout changes you make in the classic ServiceNow AI Platform determine
 
     |Option|Description|
     |------|-----------|
-    |**Edit the form view that appears while creating a record**|Select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\) on the header and navigate to **View** &gt; **Service Operations Workspace New Record**.|
-    |**Edit the form view that appears after saving the record**|Select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\) on the header and navigate to **View** &gt; **Service Operations Workspace**.|
+    |**Edit the form view that appears while creating a record**|Select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text:\) on the header and navigate to **View** &gt; **Service Operations Workspace New Record**.|
+    |**Edit the form view that appears after saving the record**|Select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text:\) on the header and navigate to **View** &gt; **Service Operations Workspace**.|
 
-3.  On the task record form, for example, in an incident form, select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions icon\) and perform any of the following actions.
+3.  On the task record form, for example, in an incident form, select the additional actions icon \(\[Omitted image "additional-actions-icon.png"\] Alt text:\) and perform any of the following actions.
 
     |Option|Description|
     |------|-----------|

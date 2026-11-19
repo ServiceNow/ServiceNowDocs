@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Working with alert groups in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Chronological alert data in an alert group
@@ -31,6 +31,11 @@ Standard severity colors are used in the bars, with gray segments indicating per
 |\[Omitted image "el-timeline-green.png"\] Alt text: Green used to represent OK in the alert severity bar.|OK|
 
 The title of the Timeline view for an alert group summarizes the group's description, number, state, severity, and grouping type, derived from the primary alert. Detailed information including alert number, state, severity, a brief description, and associated Configuration Item \(CI\) or node, when available, is displayed for each alert within the group.
+
+-   **[View a timeline of the alerts in an alert group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-timeline-view.md)**  
+Gain insight into the sequence of events relating to an issue by viewing chronological information of the alerts in an alert group in Express List.
+
+**Parent Topic:**[Working with alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/working-with-alert-groups.md)
 
 **Related topics**  
 

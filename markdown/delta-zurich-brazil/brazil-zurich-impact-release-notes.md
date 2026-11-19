@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-impact-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
-reading_time_minutes: 19
+last_updated: "2026-11-19"
+reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
 
@@ -84,7 +84,7 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key bundle-ipact.impact-healthscan-store-app\]](https://www.servicenow.com/docs/access?context=impact-healthscan-store-app&family=zurich&ft:locale=en-US)**
+-   **[impact healthscan store app](https://www.servicenow.com/docs/access?context=impact-healthscan-store-app&family=zurich&ft:locale=en-US)**
     -   Implement Scan Engine to enable proactive management of instance quality, compliance, and performance.
     -   Examine ServiceNow instances for violations of the active leading practice definitions and report violations that are stored in the Scan Findings table.
     -   View existing or resolved findings that resulted from the instance scans or from summarized and detailed scan information.
@@ -229,7 +229,7 @@ Grant selected users with partner accounts access to the Impact Store Applicatio
 Version 7.0.0: The Capabilities Map homepage now shows true application capabilities organized by product line.
 
 
- -   **[\[Placeholder link text to key prevent-resolve-technical-debt-ai\]](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US)**
+ -   **[prevent resolve technical debt ai](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US)**
 
 Version 9.00
 
@@ -242,7 +242,7 @@ Version 8.0.0
 Version 7.0.0
 
     -   Proactively identify, prioritize, and resolve technical debt by using the collection of AI-native tools embedded within the Impact Platform Health experience.
-    -   Track and resolve issues in developer code throughout the end-to-end workflow by reviewing and applying AI-recommended fixes to [\[Placeholder link text to key prevent-resolve-technical-debt-ai\]](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US) , which provides AI-generated code fixes for leading practice violations.
+    -   Track and resolve issues in developer code throughout the end-to-end workflow by reviewing and applying AI-recommended fixes to [prevent resolve technical debt ai](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US) , which provides AI-generated code fixes for leading practice violations.
 -   **[New Accelerators in the Australia Release](https://www.servicenow.com/docs/access?context=new-accelerators-australia-release&family=australia&ft:locale=en-US)**
 
 Version 8.0.0
@@ -359,11 +359,11 @@ ServiceNow Otto is the new AI experience brand. This change is reflected in the 
 
 Optimization accelerators catalog displays across dashboards, catalog filter and navigation, accelerator creation flows, and accelerator detail views inline with the other accelerator catalogs Flash cards now reflect the Optimization accelerator catalog category, and dashboards include platform optimization usage and consumption metrics.
 
--   **[\[Placeholder link text to key bundle-ipact.scan-engine-diagnostic-dashboards\]](https://www.servicenow.com/docs/access?context=scan-engine-diagnostic-dashboards&family=australia&ft:locale=en-US)**
+-   **[Track Platform Health trends](https://www.servicenow.com/docs/access?context=scan-engine-diagnostic-dashboards&family=australia&ft:locale=en-US)**
 
 Open the Real-time Messaging panel directly alongside the development workspace; a slide-in side panel that stays visible until dismissed. Findings are organized into tabs by severity level, each showing a total count, and ordered by impact to the instance.Hover over the Level of Finding field in the findings table and definition records now displays a tooltip explaining Act, Recommend, Suggest, and Review.Select and open a filtered back-end list view for donut chart segments.
 
--   **[\[Placeholder link text to key prevent-resolve-technical-debt-ai\]](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US)**
+-   **[prevent resolve technical debt ai](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US)**
 
 Dashboard data refresh timing and status jobs trigger at the enhanced time frame and frequency for near real-time data. The dashboard also displays status messaging about job progress and any delays.
 
@@ -504,9 +504,9 @@ Australia
 -   **Activation information**
     -   **[Impact](https://www.servicenow.com/docs/access?context=impact-landing-page&family=australia&ft:locale=en-US)**
 
-For information on package entitlement and features activation, see [\[Placeholder link text to key impact-packages1\]](https://www.servicenow.com/docs/access?context=impact-packages1&family=australia&ft:locale=en-US).
+For information on package entitlement and features activation, see [impact packages1](https://www.servicenow.com/docs/access?context=impact-packages1&family=australia&ft:locale=en-US).
 
-For details on configuring Impact and its features, see [\[Placeholder link text to key configuring-impact-platform\]](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=australia&ft:locale=en-US).
+For details on configuring Impact and its features, see [configuring impact platform](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=australia&ft:locale=en-US).
 
 
 **Important:** Impact is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -519,7 +519,7 @@ Brazil
 
 -   **Activation information**
 
-Install Impact by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+Install Impact by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr></tbody>

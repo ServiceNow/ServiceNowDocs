@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-13"
 reading_time_minutes: 1
 keywords: [archive test definition, retired test definition]
-breadcrumb: [Setting up test definitions, Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Set up test definitions, Set up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Archive test definitions

@@ -28,11 +28,11 @@ You have several options for filtering what appears in the library. The numbered
 
 1.  Under **Filter by**, you have the option to filter on bookmarked indicators. If you have the right to create indicators, you can also filter on the indicators that you have created.
 2.  Use the Search field to search by indicator name or description.
-3.  Expand the Filter list \[Omitted image "filter.png"\] Alt text: and add conditions for filtering the indicators. Under **Saved filters**, you can save the filters you currently have open and reopen them later. You can also toggle the labels on the filter fields on and off.
+3.  Expand the Filter list \[Omitted image "icon-filter.png"\] Alt text: Filter icon and add conditions for filtering the indicators. Under **Saved filters**, you can save the filters you currently have open and reopen them later. You can also toggle the labels on the filter fields on and off.
 
     \[Omitted image "ind-list-conditions.png"\] Alt text: Conditional filter list on indicator library.
 
-4.  Open the Edit columns \[Omitted image "icon-edit-list-columns.png"\] dialog, and select which indicator parameters appear as columns in the list.
+4.  Open the Edit columns \[Omitted image "icon-edit-list-columns.png"\] Alt text: Edit columns icon dialog, and select which indicator parameters appear as columns in the list.
 
 Sort the records according to a column's values by selecting the column label. Repeatedly select the label to switch between forward and reverse sorting. The type of sorting depends on the type of data in the column, such as alphanumeric sorting for text or date sorting for dates.
 

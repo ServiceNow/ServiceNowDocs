@@ -23,7 +23,7 @@ AI Guardian closes that gap by evaluating every request and response in real tim
 
 ## How AI Guardian fits into AI governance
 
-AI governance operates at two levels, and a complete program needs both. Lifecycle governance, supported by AI Control Tower and AI Risk and Compliance, evaluates AI assets before deployment and across their full life cycle: intake, impact assessment, risk classification, control attestation, and ongoing monitoring. Runtime governance, supported by AI Guardian, evaluates each individual AI interaction as it happens.
+AI governance operates at two levels, and a complete program needs both. Lifecycle governance, supported by Control Tower and AI Risk and Compliance, evaluates AI assets before deployment and across their full life cycle: intake, impact assessment, risk classification, control attestation, and ongoing monitoring. Runtime governance, supported by AI Guardian, evaluates each individual AI interaction as it happens.
 
 The two layers reinforce each other. Lifecycle reviews establish which AI systems are approved to operate and what controls must be in place. AI Guardian enforces parts of those controls at runtime and produces the logs that feed back into ongoing risk monitoring. When a guardrail surfaces a pattern of incidents, that signal can drive reassessment in AI Risk and Compliance without disrupting service.
 

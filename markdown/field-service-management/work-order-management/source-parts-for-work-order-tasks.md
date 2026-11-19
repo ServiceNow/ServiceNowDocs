@@ -58,3 +58,5 @@ You can source parts for the work order task either manually or automatically.
 
 Complete the transfer orders: If the agent sources parts from other stockrooms or assignment groups, a transfer order line is created automatically. You can then complete the transfer order, ensuring the parts are moved to the designated location.
 
+**Note:** If a work order task is closed before all parts are delivered, parts that are received or delivered afterward are released automatically. Their status changes from **Reserved** to **Available**, so you can use them for other tasks.
+

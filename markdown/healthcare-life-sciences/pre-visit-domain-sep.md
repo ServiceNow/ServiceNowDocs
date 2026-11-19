@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/pre-vi
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Pre-Visit Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 

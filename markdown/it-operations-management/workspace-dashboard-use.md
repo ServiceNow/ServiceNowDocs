@@ -17,7 +17,7 @@ The Service Operations Workspace monitors services within your Event Management 
 
 **Note:** The Operator Workspace interface is available only to customers who have upgraded from a release prior to the Utah release. New customers as of the Utah release can use the Service Operations Workspace for ITOM, which offers an enhanced UI for managing alerts.
 
-You can configure the Service Operations Workspace to remain logged in for up to 24 hours. For more information, see [Manage user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ManageUserSessions.md).
+You can configure the Service Operations Workspace to remain logged in for up to 24 hours. For more information, see Manage user sessions.
 
 -   **[View application service health information in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/workspace-dashboard.md)**  
 Monitor the health of services and filter the information that you want to view, allowing you to focus on the most relevant data and make informed decisions quickly.

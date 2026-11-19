@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-23"
 reading_time_minutes: 2
 keywords: [install service test management, sn\_st\_mgmt]
-breadcrumb: [Getting started with Service Test Management, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Get started, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Install Service Test Management

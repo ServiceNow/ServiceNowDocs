@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-At the end of the migration process, a confirmation message specifies if the migration is successful or not. You can review the migration information and perform the post-migration steps to ensure successful migration of your configuration or customization.
+At the end of the migration process, a confirmation message specifies whether the migration is successful. You can review the migration information and perform the post-migration steps to ensure successful migration of your configuration or customization.
 
 ## Procedure
 
@@ -36,9 +36,9 @@ At the end of the migration process, a confirmation message specifies if the mig
         -   To open ITSM Agent Workspace, enter `<instance-name>.service-now/workspace` in the web browser.
     2.  Verify that the menu items are available in the SOW.
 
-        By default, order is same as available in the ITSM Agent Workspace except for some menu items that are available in the SOW out-of-the-box.
+        By default, the order is the same as in the ITSM Agent Workspace except for some menu items that are available in the SOW out-of-the-box.
 
-    3.  To make any modifications in order in which the menu items appear on UI, navigate to **All** &gt; **sys\_ux\_page\_property.list**.
+    3.  To modify the order in which the menu items appear in the UI, navigate to **All** &gt; **sys\_ux\_page\_property.list**.
 
     4.  Filter the **Name** with **chrome\_tab** property.
 

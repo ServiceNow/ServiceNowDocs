@@ -53,3 +53,5 @@ The policy is configured to assign preferred technicians to tasks. When the opti
 
 [Set technician preferences for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/assign-preferred-agents-tasks.md)
 
+[Technician preference combinations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/technician-preference-combinations.md)
+

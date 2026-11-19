@@ -67,15 +67,15 @@ If you’re using Software Asset Workspace, the option to create the Workday int
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d146420e339">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d146180e345">
 
 Interface
 
-</th><th align="left" id="d146420e342">
+</th><th align="left" id="d146180e348">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d146420e348">
+</th></tr></thead><tbody><tr><td id="d146180e354">
 
 **Core UI**
 
@@ -86,7 +86,7 @@ Action
 3.  Select **Workday Integration Profile**.
 
 
-</td></tr><tr><td id="d146420e390">
+</td></tr><tr><td id="d146180e396">
 
 **Software Asset Workspace**
 
@@ -199,7 +199,7 @@ Password of the Integration system user created while [configuring permissions i
 
     |Interface|Action|
     |---------|------|
-    |**Core UI**|In the **Connection Details** field, select the search icon \(\[Omitted image "search-icon.png"\] Alt text: Search icon.\).|
+    |**Core UI**|In the **Connection Details** field, select the search \[Omitted image "search-icon.png"\] Alt text: Search icon. icon.|
     |**Software Asset Workspace**|Select the **Connection details** link.|
 
     1.  Select **New**.
@@ -222,15 +222,15 @@ Password of the Integration system user created while [configuring permissions i
 
     **Note:** Only an admin role can create or update the SOAP user name and password.
 
-<table id="choicetable_rhj_5w1_stb"><thead><tr><th align="left" id="d146420e882">
+<table id="choicetable_rhj_5w1_stb"><thead><tr><th align="left" id="d146180e888">
 
 Interface
 
-</th><th align="left" id="d146420e885">
+</th><th align="left" id="d146180e891">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d146420e891">
+</th></tr></thead><tbody><tr><td id="d146180e897">
 
 **Core UI**
 
@@ -241,7 +241,7 @@ Action
 3.  Select **WorkdayHR**.
 
 
-</td></tr><tr><td id="d146420e930">
+</td></tr><tr><td id="d146180e936">
 
 **Software Asset Workspace**
 

@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-You can customize the header label, data source, metric, group by field, `viewAllQuery`and `roles` for each donuts. The `roles` property is required and controls which users can view each donut.
+You can customize the header label, data source, metric, group by field, `viewAllQuery`and `roles` for each donut. The `roles` property is required and controls which users can view each donut.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ You can customize the header label, data source, metric, group by field, `viewAl
 
 2.  On the **Overview** tab, from the **Initial Setup** section, select the **Configure the landing page** option.
 
-3.  On the Landing Page form, under **Tier 2** section, select **Configure** next to **Donut configurations**.
+3.  On the Landing Page form, under the **Tier 2** section, select **Configure** next to **Donut configurations**.
 
 4.  If the PAR dashboard is active on the landing page, do the following:
 
@@ -42,7 +42,7 @@ You can customize the header label, data source, metric, group by field, `viewAl
 
     2.  Select the default dashboard for the SOW landing page from the **Dashboard loaded on the Landing Page** drop-down option. Select **Save**.
     3.  After modifying the elements in the dashboard, select **Save**.
-5.  If the PAR dashboard isn't active on the landing page, edit the **Script** field add the code inside the class **SOWLandingPageTier2Utils**.
+5.  If the PAR dashboard isn't active on the landing page, edit the **Script** field and add the code inside the class **SOWLandingPageTier2Utils**.
 
     ```
     static async getVisualizationConfig(helpers, mode, conditionalRecordCount) {
@@ -108,7 +108,7 @@ You can customize the header label, data source, metric, group by field, `viewAl
 
     **Important:** The `roles` property is required in each donut configuration object. It accepts an array of role name strings and controls which users can view the donut. Omitting `roles` or providing an empty array makes the donut visible to all users regardless of their role.
 
-    Add below snippet object to add Catalog Tasks donut to tier2 landing page.
+    Add the following snippet object to add the Catalog Tasks donut to the tier 2 landing page.
 
     ```
       {
@@ -128,7 +128,7 @@ You can customize the header label, data source, metric, group by field, `viewAl
      
     ```
 
-    Copy **getLabelMaps** and/or fetchTitle method from **SOWLandingPageTier2UtilsSNC** to add labels for list that is displayed when you click on the donut.
+    Copy **getLabelMaps** or fetchTitle methods from **SOWLandingPageTier2UtilsSNC** to add labels for the list that is displayed when you select the donut.
 
     ```
     static async fetchTitle(table, nameValueMap, groupMode = false, elementId) {
@@ -187,7 +187,7 @@ You can customize the header label, data source, metric, group by field, `viewAl
     
     ```
 
-    Catalog task labels can be added to the code snippet below to view them on the donut.
+    Catalog task labels can be added to the following code snippet to view them on the donut.
 
     ```
                     'sc_task': {

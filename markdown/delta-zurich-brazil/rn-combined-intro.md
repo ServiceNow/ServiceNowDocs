@@ -53,8 +53,6 @@ Consolidated page of all release notes for AI Admin Hub from Zurich to Brazil.
 Consolidated page of all release notes for AI Agent Advisor from Zurich to Brazil.
 -   **[Combined AI Agent Studio release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-aiagentstudio-release-notes.md)**  
 Consolidated page of all release notes for AI Agent Studio from Zurich to Brazil.
--   **[Combined AI Control Tower release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-aicontroltower-release-notes.md)**  
-Consolidated page of all release notes for AI Control Tower from Zurich to Brazil.
 -   **[Combined AI Cost Management release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-aicostmanagement-release-notes.md)**  
 Consolidated page of all release notes for AI Cost Management from Zurich to Brazil.
 -   **[Combined AI Desktop Actions release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-aidesktopactions-release-notes.md)**  
@@ -175,6 +173,8 @@ Consolidated page of all release notes for Contract Management Pro from Zurich t
 Consolidated page of all release notes for Contract Management Pro for Legal Service Delivery from Zurich to Brazil.
 -   **[Combined Contract Management Pro MCP Server release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-contractmanagementpromcpserver-release-notes.md)**  
 Consolidated page of all release notes for Contract Management Pro MCP Server from Zurich to Brazil.
+-   **[Combined Control Tower release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-controltower-release-notes.md)**  
+Consolidated page of all release notes for Control Tower from Zurich to Brazil.
 -   **[Combined Conversation Improvement Themes release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-conversationimprovementthemes-release-notes.md)**  
 Consolidated page of all release notes for Conversation Improvement Themes from Zurich to Brazil.
 -   **[Combined Conversation Insights release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-conversationinsights-release-notes.md)**  
@@ -747,6 +747,8 @@ Consolidated page of all release notes for Strategic Spend Tracking for PPM from
 Consolidated page of all release notes for Stream Connect from Zurich to Brazil.
 -   **[Combined Subscription Management release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-subscriptionmanagement-release-notes.md)**  
 Consolidated page of all release notes for Subscription Management from Zurich to Brazil.
+-   **[Combined Super Intelligence Control Tower release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-superintelligencecontroltower-release-notes.md)**  
+Consolidated page of all release notes for Super Intelligence Control Tower from Zurich to Brazil.
 -   **[Combined Supplier Lifecycle Operations release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-supplierlifecycleoperations-release-notes.md)**  
 Consolidated page of all release notes for Supplier Lifecycle Operations from Zurich to Brazil.
 -   **[Combined Synthetic Monitoring release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-syntheticmonitoring-release-notes.md)**  

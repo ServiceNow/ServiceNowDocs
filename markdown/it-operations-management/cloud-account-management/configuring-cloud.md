@@ -16,3 +16,10 @@ breadcrumb: [Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Oper
 
 The topics in this section cover various cloud configurations required to set up and work with Cloud Account Management in Cloud Workspace.
 
+-   **[Setting up AWS cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/setting-up-aws-cloud.md)**  
+This section covers all the topics required to set up AWS cloud. The topics are arranged based on configuration priority.
+-   **[Setting up Azure cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/setting-up-azure-cloud.md)**  
+Topics for setting up Azure cloud, arranged in order of configuration priority.
+
+**Parent Topic:**[Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/cam-landing.md)
+

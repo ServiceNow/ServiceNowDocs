@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-18"
 reading_time_minutes: 4
 keywords: [controller instance, managed instances, Multi-Instance Setup, controller instance, Multi-Instance Setup, production instance, add instance, automatic scan, managed instances, action needed, approve request, resend request]
-breadcrumb: [Multi-Instance Setup, Multi-Instance Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Multi-Instance Setup, Multi-Instance Management, Get started, ServiceNow AI Platform]
 ---
 
 # Connecting controller and managed instances
@@ -70,15 +70,15 @@ The environment type can be used by other ServiceNow applications that use Multi
 
 3.  From the pop-up window, select one of the following options for adding instances.
 
-<table><thead><tr><th align="left" id="d323526e305">
+<table><thead><tr><th align="left" id="d323432e311">
 
 Option
 
-</th><th align="left" id="d323526e308">
+</th><th align="left" id="d323432e314">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d323526e314">
+</th></tr></thead><tbody><tr><td id="d323432e320">
 
 **Run scan**
 
@@ -90,7 +90,7 @@ Run a scan to automatically discover related non-production instances. The scan 
 2.  Select **Save and request access**.
 If no instances are discovered, select **Add another instance** to add instances manually instead.
 
-</td></tr><tr><td id="d323526e341">
+</td></tr><tr><td id="d323432e347">
 
 **Skip and set up manually**
 
@@ -130,15 +130,15 @@ Role required: sn\_amf.amf\_core\_admin or admin
 
 1.  Navigate to a request in one of the following ways depending on the instance type.
 
-<table id="choicetable_rjs_qcs_lkc"><thead><tr><th align="left" id="d323526e480">
+<table id="choicetable_rjs_qcs_lkc"><thead><tr><th align="left" id="d323432e488">
 
 Option
 
-</th><th align="left" id="d323526e483">
+</th><th align="left" id="d323432e491">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d323526e489">
+</th></tr></thead><tbody><tr><td id="d323432e497">
 
 **From the non-production instance**
 
@@ -146,7 +146,7 @@ Description
 
 Navigate to **All** &gt; **Multi-Instance Management** &gt; **Instance Configuration** &gt; **Manager Instances**.
 
-</td></tr><tr><td id="d323526e513">
+</td></tr><tr><td id="d323432e521">
 
 **From the controller instance**
 

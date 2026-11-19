@@ -9,7 +9,7 @@ classification: common-service-data-model-csdm
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Tangible/physical life cycle, Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Tangible/physical life cycle, Reference, Common Service Data Model \(CSDM\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Definitions of life-cycle values for tangible/physical CIs

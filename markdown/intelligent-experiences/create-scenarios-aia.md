@@ -35,15 +35,15 @@ Role required: sn\_aia.admin
 
 5.  Select an input method.
 
-<table><thead><tr><th align="left" id="d209910e129">
+<table><thead><tr><th align="left" id="d210546e131">
 
 Input method
 
-</th><th align="left" id="d209910e132">
+</th><th align="left" id="d210546e134">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d209910e138">
+</th></tr></thead><tbody><tr><td id="d210546e140">
 
 **__Table records__**
 
@@ -51,7 +51,7 @@ Description
 
 Select records from an existing table to test against. You can use table fields as variables when you craft your test objective. Continue to the next step.
 
-</td></tr><tr><td id="d209910e148">
+</td></tr><tr><td id="d210546e150">
 
 **__Manual entry__**
 

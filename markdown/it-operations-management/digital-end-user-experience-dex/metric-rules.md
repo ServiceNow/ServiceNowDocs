@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [alert rules, metric rules, dex alert rules, alert thresholds, preconfigured alert rules, activate alert rules, alert actions, performance alerts]
 breadcrumb: [DEX alerts, Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
 ---
 

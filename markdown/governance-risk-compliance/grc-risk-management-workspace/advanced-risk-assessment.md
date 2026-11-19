@@ -7,7 +7,7 @@ release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-11"
 reading_time_minutes: 6
 breadcrumb: [Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Advanced Risk Assessment offers the following benefits:
 -   Automatically aggregates the bottom-up risk assessment scores across the risk.
 -   Embeds the risk assessment process in the workspace for first-line users. This embedding helps users make informed decisions based on risks that are associated with actions.
 
-**Note:** To know if your current license entitles you to Advanced Risk Assessments, contact ServiceNow.
+For more information about the IRM application that enables Advanced Risk features for your product, see the [Advanced risk feature availability by license tier](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3150663) article in the Now Support Knowledge Base. You must log in to the Now Support portal to view the article.
 
 ## Steps of risk assessment
 

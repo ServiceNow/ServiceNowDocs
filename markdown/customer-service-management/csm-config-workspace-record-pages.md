@@ -133,7 +133,10 @@ Components
 
 </td><td>
 
-Components are the building blocks that you use to create pages. End users, such as agents, use components to view and interact with data. Commonly used components include Heading, Image, List, Form, and Button.For more information about components and component configuration, see the [ServiceNow® Developer site](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?availability[]=Draft&availability[]=In+Progress&availability[]=Available&categories[]=Dev-Design+System&releases[]=utah&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades).
+Components are the building blocks that you use to create pages. End users, such as agents, use components to view and interact with data. Commonly used components include Heading, Image, List, Form, and Button.For more information about components and component configuration, see the following topics:
+
+-   UIB Setup information
+-   [Horizon component documentation](https://horizon.servicenow.com/workspace/components?release=brazil)
 
 </td></tr><tr><td>
 

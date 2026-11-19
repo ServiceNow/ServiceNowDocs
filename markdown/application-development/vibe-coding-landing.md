@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-landing.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-03"
 reading_time_minutes: 5
 keywords: [vibe coding, AI-assisted development, agentic development, application development, natural language, full-stack applications, workflows, integrations, governance, security, autonomous development]
 breadcrumb: [Build, AI Workflow Factory Prime, Agentic app development, Building applications]

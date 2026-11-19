@@ -136,3 +136,5 @@ Role required: Azure admin
 
 [Set up scan configuration for data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/set-up-data-visualization.md)
 
+**Parent Topic:**[Setting up Azure cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/setting-up-azure-cloud.md)
+

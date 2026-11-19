@@ -28,15 +28,15 @@ Role required: sn\_wfo\_cfg\_itsm.employee
 
 3.  Select the **Discover** tab.
 
-<table id="choicetable_ktw_2dd_3vb"><thead><tr><th align="left" id="d419125e99">
+<table id="choicetable_ktw_2dd_3vb"><thead><tr><th align="left" id="d420182e103">
 
 To enroll in a course or a path by browsing
 
-</th><th align="left" id="d419125e102">
+</th><th align="left" id="d420182e106">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d419125e108">
+</th></tr></thead><tbody><tr><td id="d420182e112">
 
 **The full catalog**
 
@@ -45,13 +45,13 @@ Do this
 Enter a name or a description in the search field.**Note:** You can also narrow down the display of courses based on the following fields:
 
 -   Type—course or a path
--   Skill—skill associate with the course or path
+-   Skill—skill associated with the course or path
 -   Source—internal or external
 -   Time to complete—estimated duration to complete the course or path
 -   State—completed, in-progress, or unassigned or not enrolled
 
 
-</td></tr><tr><td id="d419125e137">
+</td></tr><tr><td id="d420182e141">
 
 **Recommended learning**
 
@@ -60,7 +60,7 @@ Enter a name or a description in the search field.**Note:** You can also narrow 
 Select **Browse recommended learning**. The content is grouped into different categories. For more information, see [Recommendation grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configurable-wfo-itsm-coaching-reference.md).
 
 </td></tr></tbody>
-</table>4.  Select a course or a path in which you'd like to enroll.
+</table>4.  Select a course or a path to enroll in.
 
 5.  Select **Enroll**.
 

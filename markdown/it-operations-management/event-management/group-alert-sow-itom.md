@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Alert automation in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Alert automation in SOW for ITOM, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create Group automation
@@ -97,7 +97,7 @@ For users familiar with the classic Event Management experience, this feature of
 
                 For example, if you have alerts from USA, CA, and USA, NY, you can group the alerts by country. Set the **Source** field to the location. If the **Match Method for Grouping** is a fuzzy match and the **Similarity threshold \(percentage\)** is 50%, alerts are grouped when they are at least 50% similar. They share the country "USA" as a common attribute.
 
-            -   When you select a value for the pattern match method in the grouping field, the **Pattern matching** field becomes visible. Alerts are grouped when the specified pattern matches. For more information, see [Pattern matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_PatternMatching.md).
+            -   When you select a value for the pattern match method in the grouping field, the **Pattern matching** field becomes visible. Alerts are grouped when the specified pattern matches. For more information, see .
 
                 Use asterisks \(\*\) in the search string to match any number of characters or a question mark \(?\) to match any single character. Everything else in the search string matches itself. For example, use "HTTP Error 5??" to match all HTTP 500 errors.
 

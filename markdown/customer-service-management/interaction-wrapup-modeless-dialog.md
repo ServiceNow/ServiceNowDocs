@@ -37,6 +37,17 @@ Managers can configure the length of the wrap-up period for their agents. Manage
 
 Admins can set and manage wrap-up time limits for voice and chat interactions and create wrap-up codes. Agents can quickly select from a list of available codes during wrap-up.
 
+## Required roles
+
+To configure the interaction wrap up feature, users need the interaction administrator \(interaction\_admin\) role. This role contains the interaction agent \(interaction\_agent\) role.
+
+To use the interaction wrap up feature, agents need the interaction agent \(interaction\_agent\) role. The service management agent \(sn\_esm\_agent\) role contains this role.
+
+The following Customer Service Management roles include the service management agent \(sn\_esm\_agent\) role:
+
+-   Customer service agent \(sn\_customerservice\_agent\)
+-   Consumer service agent \(sn\_customerservice.consumer\_agent\)
+
 ## Wrap-up codes
 
 Wrap-up codes provide information about how an interaction was resolved. Agents can select a wrap-up code when wrapping up an interaction in CRM Workspace. When wrap-up codes are enabled, agents can select a code from the configured list in the wrap-up modeless dialog.
@@ -195,4 +206,11 @@ The wrap-up controller, wrap-up codes, and wrap-up modeless dialog are available
 
 -   CSM Interaction record page
 -   CSM Voice interaction record page
+
+**Related topics**  
+
+
+[Interaction Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-management.md)
+
+[Interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-wrap-up-state.md)
 

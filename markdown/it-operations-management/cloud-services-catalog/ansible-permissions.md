@@ -65,7 +65,7 @@ Ansible Day 2 operations
 
 </td><td>
 
-Uses Ansible tower user credentials, service account credentials of Amazon Web Services/ Azure, and a private SSH key pair or Windows user name and password to connect to the provisioned cloud resource.
+Uses Ansible tower user credentials and service account credentials of Amazon Web Services or Azure. Connects to the provisioned cloud resource using a private SSH key pair or Windows user name and password.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[CSC references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/csc-reference.md)

@@ -20,7 +20,7 @@ Next Experience for Demand Management enables you to create, evaluate, and prior
 
 Next Experience for Demand Management is a centralized workspace experience that streamlines how your organizations can capture, evaluate, and progress demands through their life cycle. It brings together all demand‑related activities such as intake, qualification, and task management into a single interface. By consolidating access to demands, tasks, resources, financials, and supporting records, the workspace means you don't have to navigate across multiple modules. You can define scope, assess capacity, estimate effort, and evaluate financial and strategic impact. Playbooks guide demands through each stage from intake to completion so your team follows a consistent process.
 
-\[Omitted image "ppw-all-demands-list.png"\] Alt text: Demands Dashboard home page.
+\[Omitted image "ppw-all-demands-list.png"\] Alt text: Demands open in the Dashboard with tabs and widgets.
 
 ## Next Experience for Demand Management users
 
@@ -56,7 +56,6 @@ To learn more about configuring and using Next Experience for Demand Management,
 -   [Using Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/managing-demands-ppw.md)
 -   [Managing financials for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/managing-financials-for-demands-ppw.md)
 -   [Manage resources for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/resource-planning-for-demands-ppw.md)
--   [Enterprise-Wide Deployment for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/ewd-for-demands-ppw.md)
 -   [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/smart-assessments-overview-ppw.md)
 -   [Collaborate with docs in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/docs-for-demands-ppw.md)
 -   [Next Experience for Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/demand-workspace-reference-ppw.md)

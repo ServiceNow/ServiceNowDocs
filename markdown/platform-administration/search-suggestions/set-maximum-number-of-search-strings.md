@@ -9,7 +9,7 @@ classification: search-suggestions
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Search Suggestions, Search Suggestions, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configuring Search Suggestions, Search Suggestions, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Set maximum age for searches used in suggestion generation
@@ -30,7 +30,7 @@ The Search Event \[sys\_search\_event\] table contains all of the strings used i
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `sys_auto_flush.list`.
+    2.  In the navigation filter, enter `sys_auto_flush.list`.
 
     3.  Press Enter.
 

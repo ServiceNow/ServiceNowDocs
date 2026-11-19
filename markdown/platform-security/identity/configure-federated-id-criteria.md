@@ -38,7 +38,7 @@ Role required: iamsync\_admin
     -   The ID fields must include at least one unique field. User ID is no longer mandatory — it qualifies as a unique field, but you can select any other unique field instead.
     -   Only a field marked unique in the dictionary or a field with a single-column unique database index can be selected as a unique field.
     -   User ID and email are used to generate Federated IDs by default.
-    \[Omitted image "federated-id.png"\] Alt text: Federated ID Criterias page
+    \[Omitted image "federated-id.png"\] Alt text: Federated ID Criteria page
 
     **Note:** You can only change ID fields when generating new Federated IDs for the existing records. To learn more, see [Update ID fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/identity/updating-id-fields.md).
 

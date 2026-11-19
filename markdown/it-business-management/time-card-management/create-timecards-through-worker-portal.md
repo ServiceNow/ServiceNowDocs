@@ -7,7 +7,7 @@ release: brazil
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Time Sheet Portal, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -27,15 +27,15 @@ After you create time cards in Time Sheet Portal, log time in the time cards.
 
 2.  Create time cards in the **Logged Time Cards** section using any of the following options.
 
-<table id="choicetable_uks_jpt_vz"><thead><tr><th align="left" id="d362980e122">
+<table id="choicetable_uks_jpt_vz"><thead><tr><th align="left" id="d365104e124">
 
 Option
 
-</th><th align="left" id="d362980e125">
+</th><th align="left" id="d365104e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d362980e131">
+</th></tr></thead><tbody><tr><td id="d365104e133">
 
 **Generate time cards for assigned projects or project tasks**
 
@@ -51,7 +51,7 @@ Steps
     -   The **Allow time card reporting on** field on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/t_CreateAProject.md) determines the level at which the time cards are created for project tasks.
 
 
-</td></tr><tr><td id="d362980e189">
+</td></tr><tr><td id="d365104e191">
 
 **__Copy time cards from a previous time sheet__**
 
@@ -66,7 +66,7 @@ Steps
     -   Time cards for all the non-task categories, such as meetings and trainings, are copied from the selected time sheet. If a time card for a non-task category exists, a duplicate time card is created while copying.
 
 
-</td></tr><tr><td id="d362980e234">
+</td></tr><tr><td id="d365104e236">
 
 **Create a time card from the Tasks, Group Tasks, or Other tab**
 
@@ -77,7 +77,7 @@ Steps
 
 **Note:** **Add to Time Sheet** creates a time card with the default rate type of the user, if it exists.
 
-</td></tr><tr><td id="d362980e268">
+</td></tr><tr><td id="d365104e270">
 
 **Create multiple time cards from the Tasks tab**
 
@@ -87,7 +87,7 @@ Steps
 2.  Click **Add selected to Time Sheet**.
 
 
-</td></tr><tr><td id="d362980e293">
+</td></tr><tr><td id="d365104e295">
 
 **Create a time card for unassigned task**
 
@@ -104,15 +104,15 @@ Steps
 
 3.  In the **Logged Time Cards** section, log time in a time card.
 
-<table id="choicetable_ixh_s1h_d1b"><thead><tr><th align="left" id="d362980e372">
+<table id="choicetable_ixh_s1h_d1b"><thead><tr><th align="left" id="d365104e374">
 
 Option
 
-</th><th align="left" id="d362980e375">
+</th><th align="left" id="d365104e377">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d362980e381">
+</th></tr></thead><tbody><tr><td id="d365104e383">
 
 **Through inline editing**
 
@@ -122,7 +122,7 @@ Steps
 2.  Edit the values as required.
 
 
-</td></tr><tr><td id="d362980e402">
+</td></tr><tr><td id="d365104e404">
 
 **Through time card form**
 
@@ -134,7 +134,7 @@ Steps
 4.  Click **Save**.
 
 
-</td></tr><tr><td id="d362980e438">
+</td></tr><tr><td id="d365104e440">
 
 **Add notes to time cards**
 

@@ -32,15 +32,15 @@ You can either copy from an existing checklist template and edit and add more ch
 
 3.  In the **Create checklist template** dialog box, fill in the fields.
 
-<table id="choicetable_yjr_z2v_21c"><thead><tr><th align="left" id="d270103e89">
+<table id="choicetable_yjr_z2v_21c"><thead><tr><th align="left" id="d269617e91">
 
 Field
 
-</th><th align="left" id="d270103e92">
+</th><th align="left" id="d269617e94">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d270103e98">
+</th></tr></thead><tbody><tr><td id="d269617e100">
 
 **Name**
 
@@ -48,7 +48,7 @@ Description
 
 Name of the checklist template.
 
-</td></tr><tr><td id="d270103e107">
+</td></tr><tr><td id="d269617e109">
 
 **Copy from template**
 
@@ -56,7 +56,7 @@ Name of the checklist template.
 
 List of existing templates that you can copy from.
 
-</td></tr><tr><td id="d270103e116">
+</td></tr><tr><td id="d269617e118">
 
 **Checklist items**
 

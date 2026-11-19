@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 29
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configuring External Content Connectors
@@ -176,7 +176,7 @@ AI Search administrator creates \(and optionally schedules\) crawls for external
 </td><td>
 
 -   [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
--   [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
+-   [Create a user permissions crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
 
 </td></tr></tbody>
 </table>-   **[Adobe Acrobat Sign external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/adobe-acrobat-sign-external-content-connector.md)**  
@@ -264,7 +264,7 @@ Deactivate an external connector to pause its scheduled crawls while retaining a
 -   **[Edit connection or crawl settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/edit-connection-crawl-settings-external-content-connector.md)**  
 Connector administrators can modify the connection settings and crawl settings for an existing external content connector. If your changes to a connector's settings invalidate its current crawl results, the system prompts you to run a new content crawl.
 -   **[Configure user mapping settings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-user-mapping-settings-external-content-connector.md)**  
-Override the default field mappings for an external content connector's user permission crawls. Specify the fields that uniquely identify user security principals in your source system and users in your ServiceNow AI Platform® instance. Optionally execute a custom script to transform security principal IDs before they're compared with the IDs of users in your instance.
+Override the default field mappings for an external content connector's user permissions crawls. Specify the fields that uniquely identify user security principals in your source system and users in your ServiceNow AI Platform® instance. Optionally execute a custom script to transform security principal IDs before they're compared with the IDs of users in your instance.
 -   **[Connect an external content connector to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/connect-external-content-connector-search-profile.md)**  
 Make results from an external content connector searchable in your portals and search applications by connecting its search sources to your existing search profiles.
 -   **[Add an external content search source to ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/add-ext-cont-srch-src-na-va.md)**  

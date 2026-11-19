@@ -27,3 +27,5 @@ For process details, see [View Zero Copy Connector for ERP software information]
 |CPU architecture|CPU design and instruction set, for example, x86\_64.|
 |Unicode|Option that indicates whether the system supports the international standard character set.|
 
+**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+

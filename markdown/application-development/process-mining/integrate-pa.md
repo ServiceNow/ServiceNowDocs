@@ -16,9 +16,9 @@ breadcrumb: [Integration, Activate, Process Mining, Discover, AI Workflow Factor
 
 Using Process Mining with Platform Analytics indicator data sources enables you to perform data extraction from an indicator and analyze processes associated with KPIs such as Time to resolve.
 
-The Process Mining plugin \(com.sn\_po\) provides an integration between Process Mining and indicator data sources. Integration occurs automatically when you enable the Process Mining plugin. Afterwards, you can open the Process Mining workbench from KPI Details for an indicator.
+The Process Mining plugin \(com.sn\_po\) provides an integration between Process Mining and indicator source data sources. Integration occurs automatically when you enable the Process Mining plugin. Later, you can open the Process Mining workbench from KPI Details for an indicator.
 
-The Process Mining plugin provides template configurations for indicator sources that use the following tables:
+The Process Mining plugin provides template configurations for indicator source that use the following tables:
 
 -   Customer service case \[sn\_customerservice\_case\]
 -   Incident \[incident\]
@@ -42,12 +42,9 @@ Integrating with indicators does not add any roles to Process Mining roles. To e
 Integrating with indicators adds the **Run process analysis** option to the KPI Details menu. Users can:
 
 -   Open Process Mining for a specific indicator from KPI Details.
-
-    \[Omitted image "image.kpi-details-process-analysis"\] Alt text: Run process analysis from KPI Details.
-
 -   Schedule data extraction from a Performance Analytics indicator.
 
-When you initiate data extraction for an indicator, you see the extraction progress. Once it completes, you can view the project from the Process Mining Analyst workbench. If you initiate an extraction at a later time on the same indicator settings, but on a different date, you will see a new PA project created in the **Process Mining** &gt; **Projects** &gt; **PA Projects** list.
+When you initiate data extraction for an indicator, you see the extraction progress. After it completes, you can view the project from the Process Mining Analyst workbench. If you initiate an extraction at a later time on the same indicator settings, but on a different date, you will see a new PA project created in the **Process Mining** &gt; **Projects** &gt; **PA Projects** list.
 
 **Parent Topic:**[Integrating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/integrating-process-mining.md)
 

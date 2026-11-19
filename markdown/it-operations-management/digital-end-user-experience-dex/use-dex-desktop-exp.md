@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [desktop assistant, dex desktop assistant, network test, device health check card, it notifications, outage notifications, home page sections, desktop assistant cards]
 breadcrumb: [Solve issues, Digital End-User Experience, IT Operations Management]
 ---
 

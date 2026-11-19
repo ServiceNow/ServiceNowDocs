@@ -18,7 +18,7 @@ Enable an agent \(with the sn\_openframe\_user role\) to receive inbound calls a
 
 ## Before you begin
 
-Enable the following plugins.
+The following plugins must be enabled:
 
 -   com.snc.notify
 -   com.snc.cti
@@ -38,7 +38,7 @@ For more information on the various OpenFrame APIs, see [openFrameAPI - Client](
 
 ## Procedure
 
-1.  From the **All** &gt; **sys\_properties.list**.
+1.  Navigate to **All** &gt; **sys\_properties.list**.
 
 2.  Open the **sn\_sow.default\_call\_from\_contact\_page** property.
 

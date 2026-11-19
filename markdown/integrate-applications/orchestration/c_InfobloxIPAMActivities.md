@@ -8,7 +8,7 @@ product: Orchestration
 classification: orchestration
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Infoblox DDI activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
 

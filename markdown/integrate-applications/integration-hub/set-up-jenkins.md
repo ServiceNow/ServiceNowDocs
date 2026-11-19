@@ -22,13 +22,13 @@ Integrate the ServiceNow instance and Jenkins using basic authentication to auth
 -   Activate the Jenkins spoke.
 -   Role required: admin.
 
-## Configure a connection for Jenkins v2 spoke
+## Configure a connection for the Jenkins v2 spoke
 
 Add and configure a Jenkins v2 connection to authenticate ServiceNow requests in Jenkins v2 spoke.
 
 ### Before you begin
 
-Role required: admin
+Role required: admin.
 
 ### Procedure
 
@@ -44,23 +44,25 @@ Role required: admin
 
         \[Omitted image "jenkins-v2-conn-template.png"\] Alt text: Connection template for Jenkins V2
 
-    -   To manage more than oneJenkins v2 spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+    -   To manage more than one Jenkins v2 spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
     \[Omitted image "jenkins-v2-conn-config.png"\] Alt text: Jenkins v2 connection configuration
 
-5.  On the Connection form, fill in the fields.
+5.  On the form, fill in these fields:
 
     |Field|Description|
     |-----|-----------|
+    |Connection Information|
     |Connection Name|Name to uniquely identify the connection. For example, `Jenkins v2 connection`.|
-    |Connection URL|Base URL to connect to Jenkins. The format of URL should be: http://&lt;host\_ip\_address&gt;:&lt;port&gt;. For example, `http://198.51.100.24:8080`.|
-    |User name|User name of your Jenkins account.|
+    |Connection URL|Base URL to connect to Jenkins. The format of URL should be: https://&lt;host\_ip\_address&gt;:&lt;port&gt;. For example, `https://198.51.100.24:8080`.|
+    |Credential Information|
+    |User Name|User name of your Jenkins account.|
     |Password|API token of your Jenkins account.|
 
     \[Omitted image "jenkinsv2-conf-template.png"\] Alt text: Configure connection for the Jenkins v2 spoke.
 
-6.  Click **Create Connection**.
+6.  Click **Save**.
 
 7.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connections**.
 

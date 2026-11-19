@@ -35,15 +35,15 @@ Role required: admin
 
     **Note:** If you're using the self-configured bot, do not check the **Join spaces and group conversations** box in the Enabled APIs &amp; services tab. Conversational Integration with Google Chat only supports 1-on-1 conversations.
 
-<table id="choicetable_dwk_ccn_b1c"><thead><tr><th align="left" id="d148274e165">
+<table id="choicetable_dwk_ccn_b1c"><thead><tr><th align="left" id="d150019e167">
 
 Integration type
 
-</th><th align="left" id="d148274e168">
+</th><th align="left" id="d150019e170">
 
 Method
 
-</th></tr></thead><tbody><tr><td id="d148274e174">
+</th></tr></thead><tbody><tr><td id="d150019e176">
 
 **Now Virtual Agent**
 
@@ -51,7 +51,7 @@ Method
 
 Log in to your Google Chat account when prompted. The production bot is automatically configured for your account.
 
-</td></tr><tr><td id="d148274e183">
+</td></tr><tr><td id="d150019e185">
 
 **Self-configured bot**
 

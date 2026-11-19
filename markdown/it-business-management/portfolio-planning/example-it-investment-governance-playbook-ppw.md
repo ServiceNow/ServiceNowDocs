@@ -47,7 +47,7 @@ As each stage finishes, the playbook moves the demand from Draft to Screening, t
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**,
 
 2.  Select the **Playbooks** tab.
 
@@ -279,5 +279,5 @@ Adapt the example to other processes. For example:
 
 [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md)
 
-[bundle-crworkflow.workflow-studio-playbooks-landing]
+[Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-playbooks-landing.md)
 

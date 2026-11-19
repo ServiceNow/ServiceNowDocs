@@ -7,7 +7,7 @@ release: brazil
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, Agentic AI, Generative AI, Gen AI, Issue Summarization]
 breadcrumb: [AI in Third-party Risk Management, Explore, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -63,6 +63,8 @@ The following fields are used to generate issue summaries:
 -   Related tasks
 
 **Note:** Summaries are generated based on prompts configured for the issue summarization skill. For more information, see [Activate the TPRM issue summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-summarize-an-issue.md).
+
+**Important:** After installation, all ServiceNow Otto for TPRM skills are made available but remain inactive. Each skill needs to be activated after installation to be available for use. To turn on generative AI skills use the [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 **Related topics**  
 

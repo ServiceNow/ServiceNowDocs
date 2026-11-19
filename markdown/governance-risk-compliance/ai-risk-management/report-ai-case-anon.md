@@ -25,7 +25,7 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(This role is requir
 
 ## About this task
 
-You can report anytime, without sharing your name or contact details. Investigators only see the report details, not who submitted it. The AI case is managed as part of AI Risk and Compliance application and can be viewed in AI Control Tower to support risk and compliance oversight.
+You can report anytime, without sharing your name or contact details. Investigators only see the report details, not who submitted it. The AI case is managed as part of AI Risk and Compliance application and can be viewed in Control Tower to support risk and compliance oversight.
 
 The Report an AI case record producer within the AI Case Management application \(sn\_ai\_case\_mgmt\) supports secure handling of anonymous AI case reports. Before an anonymous report is saved, all free‑text fields \(such as case type, summary, business unit, and jurisdiction\) are automatically sanitized. This process removes HTML, scripts, styles, symbols, and unsupported characters; restricts input to standard alphanumeric characters and basic punctuation; and trims extra whitespace. Only alphanumeric characters and `@ . _ -` are retained. These automated checks help reduce the risk of unsafe or malformed input in anonymously submitted AI cases.
 
@@ -35,15 +35,15 @@ The Report an AI case record producer within the AI Case Management application 
 
 1.  Access the Anonymous report center using one of these options.
 
-<table id="choicetable_npy_jjm_23c"><thead><tr><th align="left" id="d302878e106">
+<table id="choicetable_npy_jjm_23c"><thead><tr><th align="left" id="d303285e108">
 
 Option
 
-</th><th align="left" id="d302878e109">
+</th><th align="left" id="d303285e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d302878e115">
+</th></tr></thead><tbody><tr><td id="d303285e117">
 
 **Direct portal access**
 
@@ -53,7 +53,7 @@ Description
 2.  Select **Submit a report anonymously**.
 
 
-</td></tr><tr><td id="d302878e139">
+</td></tr><tr><td id="d303285e141">
 
 **Employee center access**
 

@@ -30,7 +30,7 @@ For more information, see [Create routing policies for EJBCA ACME certificates](
 
 Perform the following task to use EJBCA ACME to automate your certificate life cycle:
 
-1.  [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connection-alias.md)
+1.  
 2.  [Configure base API URL for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configure-base-api-url-for-ejbca-acme.md)
 3.  [Validate EJBCA ACME base API URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/validate-ejbca-acme-base-api-url.md)
 

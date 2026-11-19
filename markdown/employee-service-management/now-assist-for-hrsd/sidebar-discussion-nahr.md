@@ -48,19 +48,21 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
     3.  Select **Start Discussion**.
 
-3.  Generate a summary of the Sidebar discussion during the conversation either by using the Summarize quick action \(enter `/Summarize` in the Active sidebar discussion window\), or by selecting the quick action icon \[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: Quick action icon..
+3.  Generate a summary of the Sidebar discussion during the conversation.
+
+    You can either use the Summarize quick action \(enter `/Summarize` in the Active sidebar discussion window\), or select the quick action icon \[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: Quick action icon..
 
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d596451e215">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d597053e220">
 
 Option
 
-</th><th align="left" id="d596451e218">
+</th><th align="left" id="d597053e223">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d596451e224">
+</th></tr></thead><tbody><tr><td id="d597053e229">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -71,7 +73,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d596451e251">
+</td></tr><tr><td id="d597053e256">
 
 **Provide feedback for the summary**
 

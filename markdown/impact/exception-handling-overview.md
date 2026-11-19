@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/exception-handling-overview.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-28"
+last_updated: "2026-11-03"
 reading_time_minutes: 5
 keywords: [exceptions, exception reasons, exception approval, findings, governance]
 breadcrumb: [Prevent technical debt with real-time code fixes, Platform Health, Using Impact, Impact]
@@ -34,13 +34,11 @@ The exception scope you select determines the user experience in the Findings pa
 
 ## Approval and enforcement
 
-After a developer submits an exception request, designated approval groups review the request and either approve or reject it. Approvers can be different from administrators who configured the exception settings. When an exception is approved, the finding is automatically excluded from technical debt metrics. Certain settings configured by a system administrator can determine whether an exception is approved or rejected automatically.
+After a developer submits an exception request, designated approval groups review the request and either approve or reject it. Approvers can be different from administrators who configured the exception settings. When an exception is approved, the finding is automatically excluded from technical debt metrics. An approved exception can also carry forward automatically. By default, when the same issue is found again or its line number changes, the existing approved reason stays in effect without re-approval. Exceptions are never rejected automatically.
 
-Administrators control the approval behavior in Scan Engine Properties. They choose the approval groups, whether exceptions are approved in production, what happens to a linked object when a request is rejected, and whether approved exceptions are re-evaluated when the same issue is found again or the line number changes. For each setting and its values, see [Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/exception-reason-properties.md).
+Administrators control the approval behavior in Scan Engine Properties, such as setting approval groups, production approval access, and linked object evaluation when a request is rejected. Also configured is whether approved exceptions are re-evaluated when the same issue is found again or the line number changes. For each setting and its values, see [Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/exception-reason-properties.md).
 
-## Exception lifecycle
-
-\[Omitted image "exception-lifecycle.png"\] Alt text: The developer lifecycle for submitting an exception.
+\[Omitted image "exception-lifecycle-flowchart.png"\] Alt text: The developer lifecycle for submitting an exception.
 
 An exception reason moves through four states: Not Yet Requested, Requested, Approved, and Rejected.
 

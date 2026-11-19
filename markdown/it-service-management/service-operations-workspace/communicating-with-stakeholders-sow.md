@@ -86,9 +86,9 @@ The **Communicate** tab contains the following options to create and manage comm
 -   **[Compose communications for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/compose-communication-mim-sow.md)**  
 Compose communication messages for incidents and major incidents using communication channels such as email and SMS.
 -   **[Manage recipients in a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-recipients-mim-sow.md)**  
-Manage the recipients list for a communication task to create flexible and effective communication with the required stakeholders.
--   **[Create an adhoc communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-task-mim-sow.md)**  
-Create an adhoc communication task as required during the various phases of an incident in Major Incident Management.
+Manage the recipients list for a communication task to communicate with the required stakeholders.
+-   **[Create an ad hoc communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-task-mim-sow.md)**  
+Create an ad hoc communication task as required during the various phases of an incident in Major Incident Management.
 -   **[Manage an announcement for communicating about major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-announcements-major-inc.md)**  
 Create and manage an announcement to broadcast messages for Service Portal users to keep them informed about the ongoing major incident. Major incident managers can create and deploy announcements from Service Operations Workspace \(SOW\).
 

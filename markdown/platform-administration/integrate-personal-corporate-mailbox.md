@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Personal corporate mailbox, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Personal corporate mailbox, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Set up personal corporate mailbox

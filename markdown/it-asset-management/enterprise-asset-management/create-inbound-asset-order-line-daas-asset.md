@@ -26,15 +26,15 @@ Role required: sn\_eam\_provider.provider\_asset\_manager
 
 2.  Open the Inbound asset order lines list.
 
-<table id="choicetable_my1_vjg_bhc"><thead><tr><th align="left" id="d186162e78">
+<table id="choicetable_my1_vjg_bhc"><thead><tr><th align="left" id="d186007e80">
 
 Navigation option
 
-</th><th align="left" id="d186162e81">
+</th><th align="left" id="d186007e83">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d186162e87">
+</th></tr></thead><tbody><tr><td id="d186007e89">
 
 **Provider inbound asset order**
 
@@ -45,7 +45,7 @@ Procedure
 3.  On the inbound asset order record, select the **Inbound asset order lines** tab.
 
 
-</td></tr><tr><td id="d186162e120">
+</td></tr><tr><td id="d186007e122">
 
 **Provider inbound asset order line**
 

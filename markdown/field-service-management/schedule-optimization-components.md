@@ -143,6 +143,8 @@ Objectives and constraints are optimization features that determine how tasks ar
 You can set parameters that control how optimization runs.
 -   **[Schedule Optimization integration user access requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/schedule-optimization-integration-user-access-requirements.md)**  
 Describes the access requirements for the shared integration user account used by Schedule Optimization.
+-   **[Technician preference combinations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/technician-preference-combinations.md)**  
+Check which technician preferences work together on the same work order task \(WOT\) to avoid configuration errors.
 
 **Parent Topic:**[Field Service Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-reference.md)
 

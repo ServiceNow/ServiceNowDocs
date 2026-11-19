@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-partnerpassportportal-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -281,7 +281,7 @@ Australia
 
 -   **Activation information**
 
-Partner Passport Portal is installed on every instance with no separate plugin to activate. Check your entitlements to determine whether you can purchase partner applications. For more information, see [\[Placeholder link text to key explore-partner-passport-portal\]](https://www.servicenow.com/docs/access?context=explore-partner-passport-portal&family=australia&ft:locale=en-US).
+Partner Passport Portal is installed on every instance with no separate plugin to activate. Check your entitlements to determine whether you can purchase partner applications. For more information, see [explore partner passport portal](https://www.servicenow.com/docs/access?context=explore-partner-passport-portal&family=australia&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -292,7 +292,7 @@ Brazil
 
 -   **Activation information**
 
-Partner Passport Portal is installed on every instance with no separate plugin to activate. Check your entitlements to determine whether you can purchase partner applications. For more information, see [\[Placeholder link text to key explore-partner-passport-portal\]](https://www.servicenow.com/docs/access?context=explore-partner-passport-portal&family=brazil&ft:locale=en-US).
+Partner Passport Portal is installed on every instance with no separate plugin to activate. Check your entitlements to determine whether you can purchase partner applications. For more information, see [explore partner passport portal](https://www.servicenow.com/docs/access?context=explore-partner-passport-portal&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -515,7 +515,7 @@ Australia
 -   View your fabric credit balance, including available credits, total entitled credits, and the reset date.
 -   Review every purchase made on the instance in the purchase log.
 
- See [\[Placeholder link text to key partner-passport-portal\]](https://www.servicenow.com/docs/access?context=partner-passport-portal&family=australia&ft:locale=en-US) for more information.
+ See [partner passport portal](https://www.servicenow.com/docs/access?context=partner-passport-portal&family=australia&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -528,7 +528,7 @@ Brazil
 -   View your fabric credit balance, including available credits, total entitled credits, and the reset date.
 -   Review every purchase made on the instance in the purchase log.
 
- See [\[Placeholder link text to key partner-passport-portal\]](https://www.servicenow.com/docs/access?context=partner-passport-portal&family=brazil&ft:locale=en-US) for more information.
+ See [partner passport portal](https://www.servicenow.com/docs/access?context=partner-passport-portal&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

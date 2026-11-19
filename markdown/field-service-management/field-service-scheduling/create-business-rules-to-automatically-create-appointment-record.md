@@ -54,11 +54,14 @@ By creating a business rule, you can:
     For example, add the below script to creates appointment record.
 
     ```
-    (sn_apptmnt_booking.AppointmentBooking_Factory().getWrapperType(sn_apptmnt_booking.AppointmentBookingConstants.APPOINTMENT_BOOKING_IMPL);
+    (function executeRule(current, previous /*null when async*/) {
+     
+        var sn_appointment = (sn_apptmnt_booking.AppointmentBooking_Factory().getWrapperType(sn_apptmnt_booking.AppointmentBookingConstants.APPOINTMENT_BOOKING_IMPL));
         var sn_appointmentJSON = JSON.parse(sn_appointment);
-        // creating an appointment <br>
+        // creating an appointment
         var appointmentId = helper.submitAppointmentFromPortal(sn_appointment, current, sn_appointmentJSON.config.opened_for, sn_appointmentJSON.config.location, current.short_description);
-    )
+     
+    })(current, previous);
     ```
 
 9.  Click **Submit**.

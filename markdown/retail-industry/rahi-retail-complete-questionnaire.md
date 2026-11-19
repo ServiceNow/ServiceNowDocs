@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 1
-breadcrumb: [Fulfill In-store operations cases and tasks in Retail Mobile, Manage store plans, Retail]
+breadcrumb: [Fulfill In-store operations cases and tasks in Retail Mobile, Create and manage store plans, Retail]
 ---
 
 # Complete a questionnaire for a store task on Retail mobile app
@@ -36,7 +36,7 @@ Role required: sn\_rtl\_instore\_ops.associate or sn\_rtl\_instore\_ops.manager
 
     **Note:**
 
-    -   Once you create and fulfill the questionnaire, you can view the smart assessment instance through View Questionnaire option on mobile app and the list of smart assessment templates through the Retail Questionnaire list on the workspace.
+    -   Once you create and fulfill the questionnaire, you can view the smart assessment instance through View Questionnaire option on mobile app and the list of smart assessment templates through the Retail Questionnaire list on the CRM Workspace.
     -   Only users assigned to the corresponding store task or smart assessment instance can perform fulfillment actions.
 
 **Parent Topic:**[Fulfill In-store operations cases and tasks in Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-fulfill-in-store-ops-mobile.md)

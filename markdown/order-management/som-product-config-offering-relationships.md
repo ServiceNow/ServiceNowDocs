@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/som-product-co
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -16,11 +16,13 @@ Create product relationships to bundle products and services together to make or
 
 ## Before you begin
 
-Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_catalog\_manager
+Role required: sn\_prd\_pm.product\_catalog\_admin or sn\_prd\_pm.product\_catalog\_manager
 
 ## About this task
 
 Create product offering relationships that bundle products together. A bundled product offering can be ordered as a group and can’t be changed.
+
+**Important:** If the source product offering has a value in the **Product model** field, its relationship groups are deleted when you save the offering, and the **Product offering relationship group** field on its relationships is cleared. After you set a product model, review the relationships on the **Product Offering Relationships** tab.
 
 ## Procedure
 
@@ -64,7 +66,7 @@ Target product offering
 
 </td><td>
 
-The offering that is bundled with the source product offering.
+The offering that is bundled with the source product offering. If the source is an entitlement offering, the target must also be an entitlement offering. A product offering can have both product and entitlement offerings as targets, for example a laptop offering bundled with an extended warranty entitlement. If the source is a transient offering, the target must be a transient offering that isn't a contract offering.
 
 </td></tr><tr><td>
 
@@ -73,7 +75,7 @@ Relationship type
 </td><td>
 
 Option that identifies how the products are related:-   None - Indicates that the bundled products have no relationship.
--   Implicit - Indicates the products grouped in a bundle have an implicit relationship.
+-   Implicit - Indicates the products grouped in a bundle have an implicit relationship. The target must be a simple product offering, one with no product specification, no child offerings, and no characteristics for the agent to configure.
 
 
 </td></tr><tr><td>
@@ -82,7 +84,7 @@ Order
 
 </td><td>
 
-Numerical order for the options. Options designated with the number 1 appear first in the order.
+Numerical order for the options. Options designated with the number 1 appear first in the order. The default value is 10.
 
 </td></tr><tr><td>
 
@@ -122,7 +124,7 @@ Default quantity
 
 </td><td>
 
-Option indicating the default quantity of product relationships.
+Default quantity of the target product offering in the bundle. The default value is 1.
 
 </td></tr><tr><td>
 
@@ -130,7 +132,7 @@ Max quantity
 
 </td><td>
 
-Option indicating the maximum quantity of products in the bundle.
+Maximum quantity of products in the bundle. The default value is 1.
 
 </td></tr><tr><td>
 
@@ -138,7 +140,7 @@ Min quantity
 
 </td><td>
 
-Option indicating the minimum quantity of products in the bundle. These flags mean different things depending on whether each relationship is or is not part of a relationship group.
+Minimum quantity of products in the bundle. The default value is 1. These quantities mean different things depending on whether each relationship is or is not part of a relationship group.
 
 </td></tr><tr><td>
 
@@ -153,6 +155,10 @@ Future date on which the product offering is available for quoting or ordering.
 
     The relationship is created. Select the relationship on the **Product Offering Relationships** tab to make further changes.
 
+    If the relationship doesn't save, an error message names the problem:
+
+    -   `Source Product Offering of type "Entitlement" cannot have Target Product Offering of type "Product".`: Select an entitlement offering as the target.
+    -   `The type of source product offering is entitlement and the relationship type is implicit, the target product offering needs be simple.`: Select a simple product offering as the target, or set the Relationship type to None. This message appears for any implicit relationship with a target that isn't simple, not only for entitlement offerings.
 
 ## What to do next
 

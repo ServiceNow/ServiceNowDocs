@@ -38,15 +38,15 @@ A search application configuration specifies the AI Search profile used by the R
 
 4.  Apply the custom Search Application Configuration to the AI Search topic block used in a conversation or to a custom chat experience.
 
-<table id="choicetable_csd_xws_wqb"><thead><tr><th align="left" id="d78748e171">
+<table id="choicetable_csd_xws_wqb"><thead><tr><th align="left" id="d79086e173">
 
 Option
 
-</th><th align="left" id="d78748e174">
+</th><th align="left" id="d79086e176">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d78748e180">
+</th></tr></thead><tbody><tr><td id="d79086e182">
 
 **Specify the custom Search Application Configuration in the AI Search topic block used in a conversation**
 
@@ -66,7 +66,7 @@ If you leave this field empty, AI Search uses the default search application con
 
 The AI Search topic block runs the selected search application configuration to generate the customized AI Search experience.
 
-</td></tr><tr><td id="d78748e290">
+</td></tr><tr><td id="d79086e292">
 
 **Use the custom Search Application Configuration in a custom chat experience**
 

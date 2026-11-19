@@ -16,7 +16,7 @@ breadcrumb: [Security Center, Platform Security]
 
 Use the security configuration page to get an overview of the security posture of your instance. View your hardening compliance score, discover graphical trends, analyze the top non-compliant hardening settings, and see the results of your security scans.
 
-\[Omitted image "overview-page.png"\] Alt text: Security center overview page
+\[Omitted image "overview-page.png"\] Alt text: Security Center overview page
 
 ## Navigation bar
 
@@ -26,7 +26,7 @@ Use the bar at the top of the page to navigate between this page and the securit
 
 Find details about your hardening compliance in the security hardening section. Select the cards on in this section to navigate to the [Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-hardening.md) page.
 
-The hardening compliance score is a percentage that shows how closely your security settings align with the recommended settings. The security hardening section shows this percentage, as well as the history of the score on your instance over time.
+The hardening compliance score is a percentage that shows how closely your security settings align with the recommended settings. The security hardening section shows this percentage and the history of the score on your instance over time.
 
 ## Security scanner
 
@@ -44,12 +44,12 @@ View the most urgent Security Tasks assigned to you. Select a task to view its d
 
 ## Additional resources
 
-Use the additional resources section on the edge of the screen to navigate to documentation and videos relevant to learning Security Center as well as information on managing instance security.
+Use the additional resources section on the edge of the screen to navigate to documentation and videos relevant to learning Security Center and information on managing instance security.
 
 -   **[Security hardening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-hardening.md)**  
 View your hardening compliance score, compare it with previous scores, and change settings to improve your compliance score and security posture in the security hardening page.
 -   **[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-scanning.md)**  
-Scan your instance against a set of security checks to identify misconfiguration. The scanner tool simplifies the process of creating different suites of checks for different use cases so that you can analyze the results over time.
+Scan your instance against a set of security checks to identify misconfiguration. Use the scanner tool to create different suites of checks for different use cases so that you can analyze the results over time.
 -   **[Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/critical-updates.md)**  
 Use the Customer Actions tool to implement important security updates based on your instance and the configuration of plugins.
 

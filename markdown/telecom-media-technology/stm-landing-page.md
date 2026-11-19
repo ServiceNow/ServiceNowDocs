@@ -1,6 +1,6 @@
 ---
 title: Service Test Management
-description: Define tests, set measurable thresholds, and monitor real-time execution with accuracy using the ServiceNow \(STM\) application. Streamline your testing process to improve performance, verify reliability, and deliver consistent results in every scenario.
+description: Define tests, set measurable thresholds, and monitor real-time execution with accuracy using the ServiceNow Service Test Management \(STM\) application. Streamline your testing process to improve performance, verify reliability, and deliver consistent results in every scenario.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/stm-landing-page.html
 release: brazil
@@ -12,29 +12,29 @@ breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 
 # Service Test Management
 
-Define tests, set measurable thresholds, and monitor real-time execution with accuracy using the ServiceNow® \(STM\) application. Streamline your testing process to improve performance, verify reliability, and deliver consistent results in every scenario.
+Define tests, set measurable thresholds, and monitor real-time execution with accuracy using the ServiceNow® Service Test Management \(STM\) application. Streamline your testing process to improve performance, verify reliability, and deliver consistent results in every scenario.
 
 ## Get started
 
 <table id="table_nr4_4bw_33c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Service Test Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/stm-explore.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Service Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/stm-explore.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/stm-configure.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/stm-configure.md)
 
 </td><td>
 
-[Setup test configuration\[Omitted image "bus-contract.svg"\] Alt text:Create and configure test definitions and test groups.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/stm-set-up-test-configurartion-records.md)
+[Setup test configuration\[Omitted image "bus-contract.svg"\] Alt text:Create and configure test definitions and test groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/stm-set-up-test-configurartion-records.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Review the test run records to understand the test results.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/stm-use.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Review the test run records to understand the test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/stm-use.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about STM.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/stm-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about Service Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/stm-reference.md)
 
 </td><td>
 

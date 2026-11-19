@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -22,9 +22,9 @@ The CMDB Workspace is an efficient, central, and modernized way for you to work.
 
 ## General interaction and additional information
 
--   CMDB Workspace leverages many Performance Analytics capabilities and features, such as indicator sources. Throughout the CMDB Workspace views, you can select the various cards to drill down to Performance Analytics KPI Details panes that show trends for the associated data. On a KPI Details pane, you can modify different settings to change the scope of the data. You can also select **Show Records** to list the records associated with the chart.
+-   CMDB Workspace leverages many [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-overview.md) capabilities and features, such as indicator sources. Throughout the CMDB Workspace views, you can select the various cards to drill down to Performance Analytics KPI Details panes that show trends for the associated data. On a KPI Details pane, you can modify different settings to change the scope of the data. You can also select **Show Records** to list the records associated with the chart.
 -   Lists throughout the CMDB Workspace have a filter icon that you can select to show the filter definition used for the list.
--   You can open your Configurable Workspace experience in UI Builder to access and edit your CMDB Workspace experience.
+-   You can [open your Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md) to access and edit your CMDB Workspace experience.
 -   See [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/list-of-workspaces.md) for a list of all Workspaces that ServiceNow® provides.
 -   CMDB Workspace doesn't support domain separation.
 
@@ -72,7 +72,7 @@ When you drill down to CI details, how those details appear depends on system se
     -   Select **Save** to save any changes made to attributes for the CI record.
 
     -   Select the More Actions icon \(...\) for additional functions:
-        -   Select **Create Change** to create a new change request for the CI record.
+        -   Select **Create Change** to [create a new change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/t_CreateAChange.md) for the CI record.
         -   Select **Create Incident** to [create a new incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/create-an-incident.md) for the CI record.
         -   Select **Delete** to delete the CI record.
 <table id="table_cxt_nn4_mrb"><thead><tr><th>
@@ -197,10 +197,10 @@ To learn more about configuring and using CMDB Workspace, see:
 
 -   CMDB views:
     -   [Home view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-home-view.md)
-    -   
-    -   
-    -   
-    -   
+    -   [My Work view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-govern-view.md)
+    -   [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-cmdb360-view.md)
+    -   [Insights view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-insights-view.md)
+    -   [Management view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md)
     -   [SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgcc-landing.md) view in CMDB Workspace \(if installed\)
 -   [Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 -   [Resume a disabled Cloud vs Non-cloud resources scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-resume-cloud-job.md)
@@ -210,20 +210,20 @@ To learn more about configuring and using CMDB Workspace, see:
 
 -   **[Home view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-home-view.md)**  
 Home view is the default view in CMDB Workspace. It shows important tasks that you should tend to, various counts for activities in CMDB such as new CIs, CMDB Health aggregations, and various charts. The Home view also provides several links with immediate access to key CMDB tools.
--   **[SGC Central view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)**  
-The Overview page in the SGC Central view in CMDB Workspace provides a centralized dashboard view for administrators to monitor the installation, performance, and error handling of Service Graph Connectors.
--   **[Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md)**  
-Governance view in CMDB Workspace provides administrators with important information, actions, and links to tools that are used to manage, monitor, and administer data ingestion and other CMDB functions.
+-   **[My Work view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-govern-view.md)**  
+Use the My Work view in CMDB Workspace to manage your tasks. Tasks in this view are related to data compliance such as attestation, certification, and other life-cycle tasks.
+-   **[CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-cmdb360-view.md)**  
+The CMDB 360 dashboard provides aggregations and analysis of CMDB 360 data. CMDB 360 collects data about all the discovery sources reporting attribute values for CIs. Use the CMDB 360 view in CMDB Workspace to track activities and identify potential issues of discovery sources. You can also create your own queries and associated schedules and reportsto explore CMDB 360 data.
 -   **[Explore and Search view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md)**  
 Search through CMDB tables without having detailed knowledge of the CMDB data model by using contexts that are mapped to CI classes as navigation. Use natural language with the AI-driven search to search the CMDB and related data.
--   **[Tasks view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-tasks-view.md)**  
-The Task view in CMDB Workspace provides task owners access for tracking and managing their tasks such as CMDB Health related tasks, certification, attestation, and lifecycle tasks generated by the CMDB Data Manager.
+-   **[Insights view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-insights-view.md)**  
+Use the Insights view in CMDB Workspace to see and increase the level of adoption of key CMDB features and application services to improve the overall health of the CMDB. Explore how tools and features can maximize the health and efficiency of your CMDB and use direct links to install and start using features immediately.
+-   **[Management view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md)**  
+The Management view provides CMDB Admins with quick access to key management tools and deep insights into CMDB health and activities. The view provides details such as duplicate CIs and recent activities in the CMDB.
+-   **[SGC Central view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-ingestion-view.md)**  
+The Overview page in the SGC Central view in CMDB Workspace provides a centralized dashboard view for administrators to monitor the installation, performance, and error handling of Service Graph Connectors.
 -   **[Insights view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-view.md)**  
-View insightful dashboards that show aggregated counts, state, and health for key features such as CMDB Health, Service Instances, and CMDB 360.
--   **[Data Owner view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-data-owner-home-view.md)**  
-Data Owner view in CMDB Workspace provides a filtered view for data owner users who own, manage, or support CIs. It provides those users with a simple method to browse their CIs, view health, related activity associated with their CIs, understand what their CIs support, and access to actions they're authorized to use for their CIs.
--   **[Lists view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-lists-view.md)**  
-The Lists view in CMDB Workspace provides access to CIs within the CMDB hierarchy and to records in tables that aren't descendants of the Configuration Item \[cmdb\_ci\] table, but are important in the CMDB ecosystem.
+Use the Insights view in CMDB Workspace to see and increase the level of adoption of key CMDB features and application services to improve the overall health of the CMDB. Explore how tools and features can maximize the health and efficiency of your CMDB and use direct links to install and start using features immediately.
 -   **[Configuration identifiers framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/configuration-identifiers-framework.md)**  
 Configuration identifiers provide a framework that lets you customize some behaviors of a CMDB Workspace feature, enabling different settings for that feature, on different workspaces. Most importantly, you can use this customization framework when integrating a CMDB Workspace feature into another workspace.
 

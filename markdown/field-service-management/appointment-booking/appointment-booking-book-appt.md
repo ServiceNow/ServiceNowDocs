@@ -18,7 +18,7 @@ Dispatchers and agents can book appointments for customers.
 
 ## Before you begin
 
-Role required: wm\_dispatch, sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
+Role required: wm\_dispatcher, sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 You must activate and set up the Field Service Order Configuration, Field Service Task Configuration to book an appointment for work order and work order tasks respectively. For more information, see [Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/appointment-booking-administer.md).
 

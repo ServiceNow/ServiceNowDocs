@@ -1,6 +1,6 @@
 ---
 title: Auditor suite findings
-description: Review Security Center Auditor suite findings over time.
+description: Review Security Center Auditor suite findings over time. Compare findings between two selected dates and use chart options to analyze targets, thresholds, forecasts, and trends.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/sc-auditor-finding.html
 release: brazil
@@ -14,13 +14,13 @@ breadcrumb: [Security scanner, Security configuration console, Security Center, 
 
 # Auditor suite findings
 
-Review Security Center Auditor suite findings over time.
+Review Security Center Auditor suite findings over time. Compare findings between two selected dates and use chart options to analyze targets, thresholds, forecasts, and trends.
 
 \[Omitted image "sec-center-sc-auditor.png"\] Alt text: SC Auditor suite findings
 
 ## SC Auditor suite findings chart
 
-The page shows SC Auditor suite findings compared between the two selected dates.Use the **Chart options** button to specify what information to analyze and how to present the information.
+The page shows Security Center \(SC\) Auditor suite findings compared between the two selected dates.Use the **Chart options** button to specify what information to analyze and how to present the information.
 
 -   **Analysis**
 
@@ -28,7 +28,7 @@ The page shows SC Auditor suite findings compared between the two selected dates
 
     -   **Target**
 
-        Goals your organization wants to achieve. See [Indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-targets.md).
+        Displays the goals your organization wants to achieve. See [Indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-targets.md).
 
     -   **Threshold**
 
@@ -60,7 +60,7 @@ The page shows SC Auditor suite findings compared between the two selected dates
 
     -   **Score**
 
-        Score for the Key Performance Indicator \(KPI\).
+        Score for the key performance indicator \(KPI\).
 
     -   **Change**
 

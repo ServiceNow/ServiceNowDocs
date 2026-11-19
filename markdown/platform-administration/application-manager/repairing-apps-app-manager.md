@@ -9,7 +9,7 @@ classification: application-manager
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Application Manager, Administering applications, Get started, ServiceNow AI Platform]
 ---
 
 # Repairing applications and plugins

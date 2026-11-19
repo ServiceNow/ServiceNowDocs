@@ -1,12 +1,13 @@
 ---
 title: Add a table to the semantic data layer
-description: Add more tables to the Query Generation semantic layer so that users can use ServiceNow Otto for Platform Analytics applications to ask questions about the data in those tables.Instead of adding individual tables or database views to the semantic layer, you can select multiple ones from a list and enable Query Generation for them together.
+description: Add more tables to the Query Generation semantic layer so that users can use ServiceNow Otto for Platform Analytics applications to ask questions about the data in those tables.Instead of adding individual tables or database views to the semantic layer, you can select multiple ones from a list and enable Query Generation for them together.Several extra requirements have to be kept in mind when you add a Workflow Data Fabric table to the semantic layer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/add-table-semantic-layer.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
+keywords: [semantic table configuration, query generation, AI data explorer, workflow data fabric, WDF, batch add tables semantic table config, bulk add tables semantic table config]
 breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
@@ -18,11 +19,16 @@ Add more tables to the Query Generation semantic layer so that users can use Ser
 
 \[Omitted video\] Description: Adding a table to the semantic data layer
 
-Semantic table configuration supports regular tables, database views, and Workflow Data Fabric tables.
-
-**Warning:** Adding a table to the semantic data layer and enabling semantic generation on that table can negatively impact both initial load time and runtime performance of Query Generation.
-
 Role required: sn\_query\_gen.admin or higher
+
+## About this task
+
+Semantic table configuration supports regular tables, database views, and Workflow Data Fabric tables \(df\_\*, table\_type = REMOTE\).
+
+**Warning:**
+
+-   Adding a table to the semantic data layer and enabling semantic generation on that table can negatively impact both initial load time and runtime performance of Query Generation.
+-   All tables that are addressed by a query must be listed in the semantic table configuration, including tables in any multi-table relationship.
 
 ## Procedure
 
@@ -42,13 +48,15 @@ Role required: sn\_query\_gen.admin or higher
 
 4.  Select a table from the **Table Name** list.
 
+    Workflow Data Fabric \(WDF\) table names begin `df_*` and are listed under Remote Tables.
+
 5.  Select whether to enable semantic generation for the table.
 
-    By default, semantic generation is enabled. For more information, see [Enable semantic generation for tables in the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-semantics-generation.md).
+    By default, semantic generation is enabled. It must be enabled for WDF tables. For more information, see [Enable semantic generation for tables in the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-semantics-generation.md).
 
 6.  Select whether to include the hierarchy of child tables.
 
-    By default, child hierarchies are included.
+    By default, child hierarchies are included. However, they are not relevant for WDF tables.
 
 7.  Select **Submit**.
 
@@ -120,4 +128,22 @@ Role required: admin, now\_assist\_explorer\_admin, sn\_query\_gen.admin
 
     You can disable semantic generation for any of the tables/database views or add support for their child hierarchies. You can also remove the tables/database views from Semantic Table Configurations.
 
+
+## Additional points for Workflow Data Fabric tables
+
+Several extra requirements have to be kept in mind when you add a Workflow Data Fabric table to the semantic layer.
+
+The semantic layer supports Workflow Data Fabric \(WDF\) tables.
+
+-   The tables are listed in the Table \[sys\_db\_object\] table, with names beginning `df_*` and the table type REMOTE.
+-   Child Hierarchies do not apply to WDF tables.
+-   Semantic generation must be enabled on the Semantic Table Config record.
+-   Every WDF table has a generated read role. Find this role in the Roles \[x\_snc\_plugin\_reque\_plugin\_role\] table and grant it to the appropriate users. Users without this role see "No Access" in AI Data Explorer, or Query Generation silently answers from an unrelated table.
+-   To enable extended analysis for WDF tables, the system property **sn\_query\_gen.hidden.insights.wdf.enabled** must be created and set to `true`.
+-   In the response metadata for WDF answers, `additionalMetadata.entitySourceType / entitySourceLabel / entityType = remote_table`. The **View Source** label relies on this metadata.
+
+### Limitations of Workflow Data Fabric tables in the semantic layer
+
+-   There can be routing ambiguity when a Glide table exists with a similar name to the WDF table.
+-   Some query shapes are not supported for remote tables.
 

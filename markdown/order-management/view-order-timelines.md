@@ -34,15 +34,15 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 6.  To change the information or elements displayed in the timeline view, use these options.
 
-<table id="choicetable_pwy_bnv_c1c"><thead><tr><th align="left" id="d36661e118">
+<table id="choicetable_pwy_bnv_c1c"><thead><tr><th align="left" id="d36682e120">
 
 Option
 
-</th><th align="left" id="d36661e121">
+</th><th align="left" id="d36682e123">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d36661e127">
+</th></tr></thead><tbody><tr><td id="d36682e129">
 
 **Add or change columns**
 
@@ -53,7 +53,7 @@ Description
 3.  Select **Apply**.
 
 
-</td></tr><tr><td id="d36661e159">
+</td></tr><tr><td id="d36682e161">
 
 **Change the timeline elements displayed**
 
@@ -64,7 +64,7 @@ Description
 3.  Select **Apply**.
 
 
-</td></tr><tr><td id="d36661e191">
+</td></tr><tr><td id="d36682e193">
 
 **Adjust the time scale used**
 

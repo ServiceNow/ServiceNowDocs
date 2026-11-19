@@ -42,7 +42,7 @@ By default, all record pages such as an incident and interaction record page hav
 
 6.  Select the \[Omitted image "open-side-panel-tab.png"\] Alt text: Open contextual side panel tab icon to open the tab configuration.
 
-    The pages and variants associated with contextual sidebar appears. For example, select the Agent assist SNC to add the Agent assist option in the sidebar.
+    The pages and variants associated with the contextual sidebar appear. For example, select the Agent assist SNC to add the Agent assist option in the sidebar.
 
 7.  Duplicate the variant before editing it.
 
@@ -66,7 +66,7 @@ By default, all record pages such as an incident and interaction record page hav
 
     3.  From the UX Screen Conditions related list on the UX screen form, open the associated record.
 
-    4.  Edit the **Script** field to add or delete conditions for records where you want the tab to be available.
+    4.  Edit the **Script** field to add or delete conditions for records where the tab must be available.
 
     5.  Select **Update**.
 

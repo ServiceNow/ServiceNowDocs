@@ -44,7 +44,7 @@ You must have a role with the following access with regard to the change model t
 
 5.  Select the More actions menu, and then select **Create template for selected model**.
 
-    The Change Template page is displayed in UI16 module. For information on creating a template and providing template fields and policies, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-template.md).
+    The Change Template page is displayed in the UI16 module. For information on creating a template and providing template fields and policies, see [Create and propose a change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-change-template.md).
 
 
 ## What to do next

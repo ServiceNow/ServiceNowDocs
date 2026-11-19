@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ae-using-autonomous-engineer.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-08"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 keywords: [Autonomous Engineer, Build Agent, use, implementation plan, work items, plan dashboard, background agents, update set, ServiceNow Studio, requirements]
 audience: programmer
@@ -46,7 +46,7 @@ While you navigate the plan and its work items, the chat panel remains in contex
 -   **[Accessing Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/access-autonomous-engineer.md)**  
 Autonomous Engineer is available in ServiceNow Studio. You access it through the Build Agent chat panel by switching the active mode to Autonomous Engineer.
 -   **[Use Autonomous Engineer to implement an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-autonomous-engineer.md)**  
-Use Autonomous Engineer \(powered by Build Agent\) to generate a plan from your requirements and build all work items in parallel, without creating each artifact individually. When implementing a ServiceNow product or application, Autonomous Engineer uses agent packs to give background agents product-specific domain knowledge.
+Use Autonomous Engineer \(powered by Build Agent\) to generate a plan from your requirements and build all work items in parallel, without creating each artifact individually. Autonomous Engineer uses agent packs to give background agents the knowledge to build custom applications on the platform.
 -   **[Plans in Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-plans.md)**  
 Access all Autonomous Engineer plans from the **Plans** view in the Build Agent panel. The **Plans** view shows the plans you created and all plans available on the instance.
 -   **[Manage work items during execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-autonomous-engineer-work-items.md)**  

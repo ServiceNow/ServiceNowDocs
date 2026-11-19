@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reviewing calculation details with formula trees, Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Reviewing calculation details with formula trees, Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # View the calculation breakdown in a formula tree

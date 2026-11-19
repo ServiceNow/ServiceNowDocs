@@ -23,7 +23,7 @@ Role required: itil or admin
 
 ## About this task
 
-When you view a CI, you can see proposed changes before they are applied. This is useful when you want to plan modifications prior to the approval stage and apply them only after the change is implemented.
+When you view a CI, you can see proposed changes before they are applied. This is useful when you want to plan modifications before the approval stage and apply them only after the change is implemented.
 
 If the change is not approved, no records need to be reversed. If it is implemented, select **Apply proposed changes** to apply all proposed changes.
 
@@ -51,7 +51,7 @@ If the change is not approved, no records need to be reversed. If it is implemen
 
 6.  To propose a single change to affected CIs, do the following:
 
-    1.  In the **Affected CIs** list, select the Propose a single change \(\[Omitted image "propose-single-change-icon.png"\] Alt text: Propose a single change icon\) icon next to the CI you want to propose changes for.
+    1.  In the **Affected CIs** list, select the **Propose a single change** \(\[Omitted image "propose-single-change-icon.png"\] Alt text: Propose a single change icon\) icon next to the CI you want to propose changes for.
 
         The Propose single change dialog opens and displays the CI class, such as Computer.
 
@@ -67,7 +67,7 @@ If the change is not approved, no records need to be reversed. If it is implemen
 
     4.  Select **Propose**.
 
-7.  Select the View proposed change \(\[Omitted image "view-proposed-change-icon.png"\] Alt text: View proposed change icon\) icon next to the CI.
+7.  Select the **View proposed change** \(\[Omitted image "view-proposed-change-icon.png"\] Alt text: View proposed change icon\) icon next to the CI.
 
     The Proposed change dialog lists each change with its current value, proposed value, and the time the change was proposed.
 

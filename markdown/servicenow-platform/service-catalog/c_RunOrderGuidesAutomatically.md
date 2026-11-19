@@ -25,7 +25,7 @@ For example, you can run an order guide to fulfill HR onboarding requests, passi
 **Related topics**  
 
 
-[bundle-crapiref.c_ServiceCatalogAPI]
+[Service Catalog API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_ServiceCatalogAPI.md)
 
 ## Running order guides from scripts
 

@@ -24,7 +24,7 @@ Role required: admin
 
 2.  Open the **par\_notification\_email\_recipients** table.
 
-3.  Press Ctrl+Click on the Preview Users button \[Omitted image "InfoIcon.png"\] Alt text: info buttonnext to Users on the **Columns** tab to open the Users dictionary entry.
+3.  Press Ctrl+Click on the Preview Users button \[Omitted image "InfoIcon.png"\] Alt text: Preview iconnext to Users on the **Columns** tab to open the Users dictionary entry.
 
     Point to the Users Column label to see this button.\[Omitted image "preview-buttons-sched-export.png"\] Alt text: Preview Users and Preview Groups buttons on the Columns list of Par Notification Email Recipients
 
@@ -38,7 +38,7 @@ Role required: admin
 
 6.  Select **Update**.
 
-7.  Press Ctrl+Click on the Preview Groups button \[Omitted image "InfoIcon.png"\] Alt text: info buttonnext to Groups on the **Columns** tab to open the Users dictionary entry.
+7.  Press Ctrl+Click on the Preview Groups button \[Omitted image "InfoIcon.png"\] Alt text: Preview iconnext to Groups on the **Columns** tab to open the Users dictionary entry.
 
     Point to the Groups Column label to see this button.
 

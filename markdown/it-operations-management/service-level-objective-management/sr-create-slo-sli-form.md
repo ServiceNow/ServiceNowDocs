@@ -71,7 +71,7 @@ Objective \(%\)
 
 </td><td>
 
-The percentage of how available \(uptime\) you want the service to be over a length of time. If measuring by duration, an objective percentage of Five Nines \(99.999%\) means the service was unavailable for 26 seconds per month, or about 5 minutes and 35 seconds per year. This value is used to calculate your error budget.
+The percentage of uptime you want the service to maintain. For example, Five Nines \(99.999%\) equals 26 seconds of downtime per month, or about 5 minutes and 35 seconds per year. This value is used to calculate your error budget.
 
 </td></tr><tr><td>
 

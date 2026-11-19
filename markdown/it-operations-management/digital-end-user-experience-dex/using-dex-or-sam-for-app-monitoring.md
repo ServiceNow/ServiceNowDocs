@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [dex or sam, software asset management \(sam\), software metering, application usage monitoring, choose dex or sam, app monitoring limits]
 breadcrumb: [Explore, Digital End-User Experience, IT Operations Management]
 ---
 
@@ -64,5 +65,5 @@ SAMScalable beyond 200 apps
 For more information about application monitoring with SAM, see the following:
 
 -   [Using push-based Discovery and SAM together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/using-enhanced-discovery-and-sam-together.md)
--   [SaaS detection report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/shadow-saas-analytics.md)
+-   
 

@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-10-23"
 reading_time_minutes: 2
-breadcrumb: [Integrate, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Integrate, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # AI Search Assist record producer integration for Service Portal
@@ -28,7 +28,7 @@ AI Search Assist supports ServiceNow mobile.
 
 AI Search Assist doesn't support Summary Genius Results. Summary Genius Results use an improved LLM pipeline that includes Knowledge Graph support, and AI Search Assist can't display them. To display Genius Results, use the . AI Search Assist displays only AI Search results.
 
-For more information about Summary Genius Results, see [Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md).
+For more information about Summary Genius Results, see [ServiceNow Otto Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md).
 
 ## Activation information
 

@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [device location, location determination, default gateway location, geoip location, remote location format, geomap, impacted devices by location, location determination property]
 breadcrumb: [DEX advanced configuration, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

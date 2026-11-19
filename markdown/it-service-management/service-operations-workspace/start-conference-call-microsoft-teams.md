@@ -1,6 +1,6 @@
 ---
 title: Start a conference call using Microsoft Teams in Service Operations Workspace
-description: Start a conference call from Microsoft Teams to work towards the resolution of an incident.
+description: Start a conference call from Microsoft Teams to work toward the resolution of an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/start-conference-call-microsoft-teams.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Using Microsoft Teams to make conference calls in Service Operation
 
 # Start a conference call using Microsoft Teams in Service Operations Workspace
 
-Start a conference call from Microsoft Teams to work towards the resolution of an incident.
+Start a conference call from Microsoft Teams to work toward the resolution of an incident.
 
 ## Before you begin
 
@@ -24,13 +24,13 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text: List icon\) icon.
+2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text:\) icon.
 
 3.  Select **Incidents** &gt; **Open**.
 
 4.  Select the incident record.
 
-5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text: Collaborate icon\) from the contextual side panel.
+5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text:\) from the contextual side panel.
 
 6.  Select the **Calls** tab, and then select the plus \(+\) icon.
 

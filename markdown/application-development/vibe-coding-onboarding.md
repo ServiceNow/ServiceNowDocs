@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-onboarding.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-11-03"
+reading_time_minutes: 3
 keywords: [configure]
 breadcrumb: [Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
@@ -22,19 +22,21 @@ The following checklist helps to ensure your environment is properly configured,
 
     **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
-3.  Confirm that the plugins for the tools that you want to use are installed and activated. For more information, see the following topics:
+3.  Confirm that the plugins for the tools that you want to use are installed and activated.Build Agent \(Trial\) is installed automatically on all instances. Autonomous Engineer is a separate application that you install from the ServiceNow Store. Installing Autonomous Engineer also installs Build Agent. For more information, see the following topics:
     -   [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/install-build-agent.md)
 
-        **Note:** You can also connect a supported MCP server to Build Agent, for example, to accelerate the conversion of Figma designs into enterprise-grade applications. For more information, see [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md).
+        **Note:** You can also connect a supported MCP server to Build Agent, for example, to accelerate the conversion of Figma designs into enterprise-grade applications. For more information, see [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md).For information on connecting other supported servers, see [Connect Build Agent to a supported MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-connct-mcp-server.md).
 
+    -   [Install Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/install-autonomous-engineer.md)
     -   [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
-4.  Install Developer Sandboxes, which is not required for agentic development but provides a helpful instance to experiment with development. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/sandboxes-landing.md).
+4.  Configure Build Agent settings. For more information, see [Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/configure-build-agent.md).
+5.  Set up Developer Sandboxes, which is not required for agentic development but provides an isolated environment to experiment with development. Check your entitlements to determine whether you have access.A free pack of four sandboxes is automatically available to all organizations. The free pack can be assigned to one non-production instance and can't be split across instances. For more information, see [Developer Sandboxes installation and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dsb-configuring-landing.md) and [Developer Sandboxes entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-entitlements.md).
 
 ServiceNow Studio and ServiceNow IDE are automatically available on every instance, so you don't need to confirm their installation.
 
 ## Prepare your development environment
 
-1.  Use Developer Sandboxes to allocate a sandbox for safe, isolated agentic development. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/sandboxes-landing.md).
+1.  Use Developer Sandboxes to allocate a sandbox for isolated agentic development. Allocating a sandbox requires the admin or sandbox\_manager role. For more information, see [Allocate a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/allocating-sandboxes.md). If you don't have either role, see [Requesting sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dsb-requesting-sandboxes.md).
 2.  Validate compliance policies and security controls.
 3.  Enable Vault Console and Machine Identity Console for sensitive data protection and API governance.
 

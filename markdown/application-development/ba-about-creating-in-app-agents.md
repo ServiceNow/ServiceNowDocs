@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ba-about-creating-in-app-agents.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
@@ -67,7 +67,7 @@ The agentic capability turns business requirements into fully configured agents,
 
 In-App agents can work with any custom scoped application. Applications with real data, established roles, and defined automation produce more targeted, domain-specific artifacts. Applications with no data or configuration produce agents that aren't scoped to a specific data model.
 
-**Note:** Generated agents are automatically registered in AI Control Tower for centralized governance, and artifacts deploy through standard update sets.
+**Note:** Generated agents are automatically registered in Super Intelligence Control Tower for centralized governance, and artifacts deploy through standard update sets. For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md).
 
 **Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-build-agent.md)
 

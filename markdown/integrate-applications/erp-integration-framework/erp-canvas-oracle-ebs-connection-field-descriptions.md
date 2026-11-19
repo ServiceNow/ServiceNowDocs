@@ -37,3 +37,5 @@ These values are sent with each request so that Oracle E-Business Suite evaluate
 |Responsibility|Oracle E-Business Suite responsibility that determines which functions and data the request can access.|
 |NLS Language|Language that Oracle E-Business Suite uses for the response, set using the Oracle National Language Support value.|
 
+**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+

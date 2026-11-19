@@ -18,7 +18,7 @@ Learn how to call the logic in a mobile script from another script. To do this, 
 
 Scripts can be standalone or can call other scripts. To call another script, see the usage examples in the Supported syntax for the Script field section of the [Mobile Scripting API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/api-mobile-scripting.md).
 
-Fore more information about the mobile script table and where to add your scripts, see [Configuring mobile scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-scripts-config.md).
+For more information about the mobile script table and where to add your scripts, see [Configuring mobile scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mobile-scripts-config.md).
 
 The mobile script syntax can be used with the following elements:
 

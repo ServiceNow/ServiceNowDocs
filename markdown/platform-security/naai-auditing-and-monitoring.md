@@ -1,6 +1,6 @@
 ---
 title: Agent traceability and monitoring
-description: Learn how to use tools like AI Control Tower to track, monitor, and report on your AI assets.
+description: Learn how to use tools like Control Tower to track, monitor, and report on your AI assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/naai-auditing-and-monitoring.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Agentic AI security and governance]
 
 # Agent traceability and monitoring
 
-Learn how to use tools like AI Control Tower to track, monitor, and report on your AI assets.
+Learn how to use tools like Control Tower to track, monitor, and report on your AI assets.
 
 Monitoring your AI agents gives you visibility into how they are performing, what actions they are taking, and whether your guardrails are working as expected. Now Assist provides tools for tracking guardrail activity for security review, and for analyzing agent and skill usage across your instance.
 

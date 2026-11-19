@@ -20,7 +20,7 @@ Integrate Logicmonitor with Event Management to send events into ServiceNow by a
 
 -   Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
 -   The Event Management plugin must be installed on the ServiceNow AI Platform instance.
--   Role required: evt\_mgmt\_integration
+-   Role required: evt\_mgmt\_admin
 
 ## About this task
 

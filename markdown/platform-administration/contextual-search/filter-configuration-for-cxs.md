@@ -9,7 +9,7 @@ classification: contextual-search
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configuring contextual search, Contextual search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Filter configuration for contextual search

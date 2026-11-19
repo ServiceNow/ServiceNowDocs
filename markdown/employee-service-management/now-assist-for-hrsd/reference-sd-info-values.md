@@ -1,5 +1,5 @@
 ---
-title: Sensitivity detection filters mapping
+title: Sensitive topics filters mapping
 description: The sys\_gen\_ai\_filter table includes eight out-of-the-box filters that determines which topics are regarded as sensitive. Each filter is mapped to an HR service that is used to create a case and a chat queue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/reference-sd-info-values.html
@@ -7,12 +7,12 @@ release: brazil
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Reference, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Sensitivity detection filters mapping
+# Sensitive topics filters mapping
 
 The `sys_gen_ai_filter` table includes eight out-of-the-box filters that determines which topics are regarded as sensitive. Each filter is mapped to an HR service that is used to create a case and a chat queue.
 

@@ -64,11 +64,7 @@ Role required: sn\_mcp\_server.admin
 **Related topics**  
 
 
-[MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mcp-platform-manager-landing.md)
-
-[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-mcp-server-console.md)
+[bundle-platai.mcp-server-console-landing]
 
 [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md)
-
-[Install Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-mcp-client.md)
 

@@ -7,7 +7,7 @@ release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 32
 breadcrumb: [Cloud resource discovery references, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -74,7 +74,7 @@ Discovery uses multiple [vCenter probes](https://raw.githubusercontent.com/Servi
 |URL \[url\]|The endpoint URL used to connect to vCenter.|
 |Fully qualified domain name \[fqdn\]|The fully qualified domain name of the vCenter server.|
 
-The combination of the vCenter instance in the cmdb\_ci\_vcenter table and the object ID in the cmdb\_ci\_vm\_object table identifies a specific vCenter.
+The combination of the vCenter instance in the VMware vCenter Instance \[cmdb\_ci\_vcenter\] table and the object ID in the Virtual Machine Objects \[cmdb\_ci\_vm\_object\] table identifies a specific vCenter.
 
 The tables extend from the Virtual Machine Objects \[cmdb\_ci\_vm\_object\] table, which holds object IDs for all cloud-based resources, except virtualization servers.
 
@@ -1025,7 +1025,7 @@ Install Status
 
 Installed
 
- Any
+ Any value except Terminated or empty
 
 </td><td>
 

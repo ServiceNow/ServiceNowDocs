@@ -28,7 +28,7 @@ As an IT technician, you can propose a standard change template for a change req
 
 ## Procedure
 
-1.  Create change request to open the standard change catalog.
+1.  Create a change request to open the standard change catalog.
 
 2.  From the **More Actions** icon \(\[Omitted image "vertical-more-action.png"\] Alt text: More actions icon\), select **Propose a new template**.
 

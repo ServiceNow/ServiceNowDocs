@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/managing
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Zero Copy Connectors, Workflow Data Fabric]
 ---
 
@@ -37,6 +37,12 @@ A connection admin with the df\_connection\_admin role can create connections to
 Connect to external data sources using primary connectors in Zero Copy Connector Hub.
 -   **[Community connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/community-connectors-zcc.md)**  
 Connect to external data sources using community connectors in Zero Copy Connector Hub.
+-   **[Set up personal authentication for a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-personal-auth-zcc.md)**  
+Configure a connection so that each user authenticates with their own credentials.
+-   **[Test an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/test-connection-zcc.md)**  
+Test the connection to an external data source from an established connection.
+-   **[Data steward access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/steward-access-zcc.md)**  
+Connection admins grant data stewards access to established connections by assigning roles in Zero Copy Connector Hub. Data stewards are responsible for creating and maintaining data fabric tables.
 -   **[Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-access-connection-zcc.md)**  
 Manage which data stewards can access an established connection and create data fabric tables.
 -   **[View data assets from an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-assets-connection-zcc.md)**  
@@ -45,8 +51,6 @@ View the external schema and tables that are accessible to the service account u
 Maintain the health of established connections by monitoring connection status in Zero Copy Connector Hub.
 -   **[Update an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-connection-details-zcc.md)**  
 Keep connection details current by updating service account information, authentication, or security settings.
--   **[Test an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/test-connection-zcc.md)**  
-Test the connection to an external data source from an established connection.
 
 **Parent Topic:**[Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/zero-copy-connectors.md)
 

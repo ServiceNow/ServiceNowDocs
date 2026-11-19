@@ -47,15 +47,15 @@ The demand summarization skill generates a summary of a demand record from a set
 
 7.  Add or remove an input field.
 
-<table id="choicetable_zn4_5qk_fkc"><thead><tr><th align="left" id="d193277e157">
+<table id="choicetable_zn4_5qk_fkc"><thead><tr><th align="left" id="d193589e159">
 
 Goal
 
-</th><th align="left" id="d193277e160">
+</th><th align="left" id="d193589e162">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d193277e166">
+</th></tr></thead><tbody><tr><td id="d193589e168">
 
 **Add a field**
 
@@ -66,7 +66,7 @@ Action
 3.  Provide a description for the field.
 
 
-</td></tr><tr><td id="d193277e190">
+</td></tr><tr><td id="d193589e192">
 
 **Remove a field**
 
@@ -77,19 +77,19 @@ Select the cross icon next to an input field.
 </td></tr></tbody>
 </table>    For more information on the default input fields and related tables, see [Inputs for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/skill-inputs-for-ai-skills-ppw.md).
 
-8.  Add rules or conditions for the skill.
+8.  Add conditions for the skill.
 
 9.  Add or remove a field from a related table, add or remove a related table, or add rule conditions for each related table.
 
-<table id="choicetable_wzc_j5k_fkc"><thead><tr><th align="left" id="d193277e227">
+<table id="choicetable_wzc_j5k_fkc"><thead><tr><th align="left" id="d193589e229">
 
 Goal
 
-</th><th align="left" id="d193277e230">
+</th><th align="left" id="d193589e232">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d193277e236">
+</th></tr></thead><tbody><tr><td id="d193589e238">
 
 **Add a field from a related table**
 
@@ -100,7 +100,7 @@ Action
 3.  Provide a description for the field.
 
 
-</td></tr><tr><td id="d193277e260">
+</td></tr><tr><td id="d193589e262">
 
 **Remove a field from a related table**
 
@@ -108,7 +108,7 @@ Action
 
 Select the cross icon next to a related table field.
 
-</td></tr><tr><td id="d193277e269">
+</td></tr><tr><td id="d193589e271">
 
 **Add a related table**
 
@@ -120,7 +120,7 @@ Select the cross icon next to a related table field.
 4.  Provide a description for the field.
 
 
-</td></tr><tr><td id="d193277e296">
+</td></tr><tr><td id="d193589e298">
 
 **Remove a related table**
 
@@ -128,7 +128,7 @@ Select the cross icon next to a related table field.
 
 Select the cross icon next to a related table.
 
-</td></tr><tr><td id="d193277e306">
+</td></tr><tr><td id="d193589e308">
 
 **Add rule conditions for a related table**
 
@@ -176,5 +176,5 @@ The copy of the demand summarization skill is activated. This will now be used t
 
 ## What to do next
 
-After cloning the demand summarization skill, you can create and customize prompts for the skill using the AI Skill Kit. You can use a base prompt and create a prompt of your own. For more information, see . This prompt will be applied to the skill in Next Experience for Demand Management.
+After cloning the demand summarization skill, you can create and customize prompts for the skill using the AI Skill Kit. You can use a base prompt and create a prompt of your own. For more information, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-prompt-template.md). This prompt will be applied to the skill in Next Experience for Demand Management.
 

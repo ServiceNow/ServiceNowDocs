@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-default-record-page.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 8
+last_updated: "2026-11-10"
+reading_time_minutes: 12
 breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -42,6 +42,96 @@ You receive notifications in the Notifications menu at the top of the page accor
 -   [Follow records in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/follow-records-in-next-experience.md)
 
 When the **Follow** action is selected, the button toggles to **Unfollow**. To stop receiving notifications, select **Unfollow**.
+
+## Contextual side panel component
+
+The contextual side panel component includes different tools that agents can use to research and resolve customer issues. The contextual side panel in the CSM default record page includes the following tabs.
+
+<table id="table_qk1_rcl_2lc"><thead><tr><th>
+
+Tab
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Recommended Actions
+
+</td><td>
+
+The Recommended Actions tab is available as the first tab in the contextual side panel. It includes a set of base system recommendations, such as similar incidents and similar open incidents.
+
+The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-ai-search.md) functionality and Suggested Actions.-   **AI search** tab: Agents can use AI search to find relevant resources or resolutions for customer issues. The search feature displays an initial set of search results based on the text in the interaction short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search. From the list of search results, agents can select a source to see search results of that type. For more information, see Search sources and guidance actions.
+
+For all the other source types, the default guidance is supported. The default guidance for search results is a guidance that can be used for any search sources that don't have mapped guidances. For more information on default guidance, see [Default guidance for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-guidances-default-guidance-search.md).
+
+For more information, see the following topics:
+
+    -   [Enable AI search in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/migrate-ra-agent-assist.md)
+    -   [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/nba-use-ai-search.md)
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CRM Workspace application.
+
+-   **Suggested Actions** tab: This tab displays relevant actions to agents based on a context of a record or recommend a value for a field. For more information on how to configure contexts so that relevant recommendations are displayed for the agents, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-nba.md).
+
+</td></tr><tr><td>
+
+Record Information
+
+</td><td>
+
+The Record Information tab includes the following information: record overview and SLAs.-   The **Overview** card displays relevant information about the record including account and contact, case priority, and state.
+-   The Task SLA cards component displays cards with the record SLA information, including time remaining, the SLA state, and any breaches. For more information, see [Task SLA cards component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-record-page-sla-card-component.md).
+
+</td></tr><tr><td>
+
+Attachments
+
+</td><td>
+
+Provides access to case-related attachments. From this tab, agents can view, add, download, and delete attachments.
+
+</td></tr><tr><td>
+
+Templates
+
+</td><td>
+
+Provides access to available form templates which enable agents to automatically populate fields on new records. Agents can manually apply a template when creating a new record such as an incident or change.
+
+</td></tr><tr><td>
+
+Response Templates
+
+</td><td>
+
+Provides access to available response templates. These templates contain reusable messages that agents can copy to provide quick and consistent messages to customers.
+
+</td></tr><tr><td>
+
+Email Templates
+
+</td><td>
+
+Provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include:-   The recipients \(email addresses in the To, Cc, and Bcc fields\)
+-   The sender
+-   The subject of the email
+-   Text to include in the message body
+
+</td></tr><tr><td>
+
+Collaborate
+
+</td><td>
+
+Provides access to the Collaborate component, which enables agents to communicate with stakeholders and other users and gather information for case resolution. For more information, see [Collaborate component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-ws-collaborate-component.md).
+
+</td></tr></tbody>
+</table>The tabs that are available on the CSM default record page depend on the contextual side panel component configuration in UI Builder. For more information, see the following topics:
+
+-   [Configure tabs in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-ws-side-panel-tabs2.md)
+-   [Configure the Agent Assist and Response Template tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-ws-agent-assist-table-configid.md)
 
 ## Thin compose modeless dialogs
 

@@ -42,7 +42,7 @@ Role required: If the **com.snc.par.coreui.dashboard\_create.enabled** system pr
 **Related topics**  
 
 
-[Create a dashboard with the in-line editor]()
+[Create a Platform Analytics dashboard with the inline editor]()
 
 [Edit Platform Analytics dashboards]()
 

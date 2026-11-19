@@ -1,6 +1,6 @@
 ---
-title: How Proactive Triggers work
-description: Explore example use cases and how information flows through the Proactive Triggers process.
+title: Proactive Triggers use cases and process
+description: Example use cases illustrate how information flows through the Proactive Triggers process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/how-proactive-triggers-work.html
 release: brazil
@@ -9,27 +9,26 @@ classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Proactive Triggers, Proactive Triggers, Manage people and work, Conversational Interfaces]
+breadcrumb: [Explore, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---
 
-# How Proactive Triggers work
+# Proactive Triggers use cases and process
 
-Explore example use cases and how information flows through the Proactive Triggers process.
+Example use cases illustrate how information flows through the Proactive Triggers process.
 
 ## Proactive Triggers use cases
 
 Proactive Triggers are useful in various scenarios. Explore the following example use cases to determine how to use Proactive Triggers effectively for your organization.
 
--   An admin creates a Proactive Triggers rule that runs when a user views a Knowledge article containing the keyword “VPN” \(or any other keyword that has a matching Virtual Agent topic\). The admin configures the rule to run the VPN Connectivity Virtual Agent conversation, which proactively helps the user resolve the VPN issues.
-
+-   An admin creates a Proactive Triggers rule that runs when a user views a knowledge article containing the keyword “VPN” \(or any other keyword that has a matching Virtual Agent topic\). The admin configures the rule to run the VPN Connectivity Virtual Agent conversation, which proactively helps the user resolve the VPN issues.
 -   An admin creates a Proactive Triggers rule that runs when a user views any catalog item with a short description that includes a specific keyword, such as “laptop.” The admin configures the rule to connect the user to a live agent, using the Live Agent Support topic, which proactively helps the user get assistance in ordering a laptop.
 
 You can also use Proactive Triggers to engage with customers in more complex scenarios. Admin users can create multiple rules using different delay times and different user criteria to create a customized user experience. For more information about configuring more complex scenarios, see [Multiple Proactive Triggers rules and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/product-support-for-technology/multiple-rules-and-actions.md).
 
 ## Proactive Triggers process
 
-1.  Whenever an end user navigates to a Proactive Triggers enabled page, Proactive Triggers reads the page URL or called API to determine if any Proactive Triggers rules should run.
-2.  During this analysis, Proactive Triggers determines the Trigger Type source.
+1.  Whenever an end user navigates to a page enabled by Proactive Triggers, Proactive Triggers reads the page URL or called API to determine if any Proactive Triggers rules should run.
+2.  During this analysis, Proactive Triggers determines the trigger type source.
 
     |Web browsing \(client side\)|Trigger type|
     |----------------------------|------------|
@@ -42,11 +41,11 @@ You can also use Proactive Triggers to engage with customers in more complex sce
     |--------------------------|------------|
     |Search event on portal pages|Search Event|
 
-3.  Next, Proactive Triggers evaluates all the Proactive Triggers rules for that Trigger Type one by one until a matching rule is found.
+3.  Next, Proactive Triggers evaluates all the Proactive Triggers rules for that trigger type one by one until a matching rule is found.
 
-    **Note:** Rules are created with the required fields **Delay Time** and **Order**. During the rule matching process, rules are analyzed in ascending Order, according to the order number assigned. If the Delay Time is reached before the order number, the Delay Time takes precedent.
+    **Note:** Rules are created with the required fields **Delay time** and **Order**. During the rule matching process, rules are analyzed in ascending order, according to the order number assigned. If the delay time is reached before the order number, the delay time takes precedence.
 
-4.  After a Proactive rule has been matched, the rule's actions are evaluated one by one. This evaluation proceeds in ascending order, according to the **Order** field in the associated Proactive actions. As part of this process, the **Applies To** field is compared with the user visiting the page to determine if the action applies to this user.
+4.  After a rule is matched, the rule's actions are evaluated one by one. This evaluation proceeds in ascending order, according to the **Order** field in the associated Proactive actions. As part of this process, the **Applies To** field is compared with the user visiting the page to determine if the action applies to this user.
 5.  After Proactive Triggers identifies at least one rule and action that apply to the visiting user and the Delay Time has been met, a pop-up message appears directly on the web page. The contents of this message are configured by the admin for the matched action.
-6.  If the user selects the pop-up message, the chat widget opens. If the matched action is of the type **Virtual Agent Topic**, the chat widget also runs the topic configured in that action.
+6.  If the user selects the pop-up message, the chat widget opens. If the matched action is of the type **Message that launches a virtual agent topic**, the chat widget also runs the topic configured in that action.
 

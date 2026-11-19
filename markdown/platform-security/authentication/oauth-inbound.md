@@ -8,7 +8,7 @@ product: Authentication
 classification: authentication
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [OAuth authentication, Authentication, Access Management]
 ---
 
@@ -43,7 +43,7 @@ Applications that must access user data on behalf of user with the user’s cons
 The user initiates the login process from the client application, which redirects them to a ServiceNow login page. After the user logs in and grants consent, the client application receives an authorization code. The client application exchanges the authorization code with the ServiceNow instance for an access token. Authorization code grant is a highly secure and widely used workflow for user-facing integrations. It supports both confidential clients \(with a client secret\) and public clients using Proof Key for Code Exchange \(PKCE\).
 
 </td></tr></tbody>
-</table>For more information about Authorization code grant workflow and configuration, see 
+</table>For more information about Authorization code grant workflow and configuration, see [Authorization code grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/authorization-code-grant.md)
 
 ## Client credentials grant
 
@@ -51,7 +51,7 @@ The user initiates the login process from the client application, which redirect
 |--------------------|-------------|
 |Client applications such as back-end services or automated system integrations that must access ServiceNow APIs without user involvement.|The client application authenticates directly with the ServiceNow instance using its own credentials \(client ID and secret\). Once authenticated, the application receives an access token to access the ServiceNow APIs.|
 
-For more information about Client credentials grant workflow and configuration, see .
+For more information about Client credentials grant workflow and configuration, see [Authenticate a client application with the client credentials grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/client-credentials-grant-workflow.md).
 
 ## Third party ID token flow
 
@@ -59,7 +59,7 @@ For more information about Client credentials grant workflow and configuration, 
 |--------------------|-------------|
 |Federated authentication scenarios where ServiceNow trusts identity tokens issued by external identity providers such as Azure AD or Okta.|The client application obtains an ID or access token from a trusted third-party identity provider, and includes it in the authorization header when making API requests to the ServiceNow instance. ServiceNow validates the token and, if trusted, grants access based on the identity it asserts. This enables single sign-on \(SSO\) and federated authentication across systems.|
 
-For more information about Third party token flow and configuration, see.
+For more information about Third party token flow and configuration, see [Third party token workflow for user accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/third-party-token-worflow-for-user-accounts.md) and [Third party token workflow for service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/third-party-token-workflow-for-service-accounts.md).
 
 ## JWT bearer grant
 
@@ -87,7 +87,7 @@ The token identifies and authenticates the client application directly. Instead 
 
 
 </td></tr></tbody>
-</table>For more information about JWT bearer grant workflow and configuration, see .
+</table>For more information about JWT bearer grant workflow and configuration, see [JSON Web token bearer grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/jwt-bearer-grant.md).
 
 ## Resource owner password credentials grant
 

@@ -1,6 +1,6 @@
 ---
 title: Configure list control settings for the list editor
-description: You can configure the list control settings that affect the list editor.
+description: Configure the list control settings that determine how users edit records in the list editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_ConfigListEditorControlSettings.html
 release: brazil
@@ -9,12 +9,12 @@ classification: list-administration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [List editor, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [List editor, Administer, List administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure list control settings for the list editor
 
-You can configure the list control settings that affect the list editor.
+Configure the list control settings that determine how users edit records in the list editor.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Role required: personalize\_control
 
 1.  Navigate to a list view for the desired table.
 
-2.  Right-click any column heading and select **Configure** &gt; **List Control**.
+2.  Select and hold \(or right-click\) any column heading and select **Configure** &gt; **List Control**.
 
 3.  On the List Control form, select the desired settings.
 
@@ -62,6 +62,6 @@ Ability for a user to create records in list view. When it is enabled, an empty 
  This field is available for standard lists only.
 
 </td></tr></tbody>
-</table>4.  Click **Update**.
+</table>4.  Select **Update**.
 
 

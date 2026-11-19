@@ -34,7 +34,7 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(Employee Center\), 
 
 ## About this task
 
-If you're using the AI Risk and Compliance \(AIRC\) application, you submit requests through the Employee Center and related tasks such as impact assessments and review tasks \(for example, legal, security, and architecture\). If you're using the AI Control Tower \(AICT\) application, you can submit requests from the AI Control Tower dashboard and manage AI assets through AICT's inventory and life cycle experience. After you submit through the Employee Center, you land on the confirmation page. The **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page open the corresponding record in AI Control Tower instead of the legacy AI Control Tower workspace. The AI system record header also displays the system name and identifier.
+If you're using the AI Risk and Compliance \(AIRC\) application, you submit requests through the Employee Center and related tasks such as impact assessments and review tasks \(for example, legal, security, and architecture\). If you're using the Control Tower \(AICT\) application, you can submit requests from the Control Tower dashboard and manage AI assets through AICT's inventory and life cycle experience. After you submit through the Employee Center, you land on the confirmation page. The **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page open the corresponding record in Control Tower instead of the legacy Control Tower workspace. The AI system record header also displays the system name and identifier.
 
 For more information about the end-to-end life cycle, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md). For an overview of AI Risk and Compliance setup and configuration, see [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md).
 
@@ -44,17 +44,17 @@ For example, a financial institution wants to improve its loan approval process 
 
 ## Procedure
 
-1.  Request an AI system from the Employee Center or from the AI Control Tower dashboard.
+1.  Request an AI system from the Employee Center or from the Control Tower dashboard.
 
-<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d282467e228">
+<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d283072e230">
 
 Option
 
-</th><th align="left" id="d282467e231">
+</th><th align="left" id="d283072e233">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d282467e237">
+</th></tr></thead><tbody><tr><td id="d283072e239">
 
 **Request an AI system using AI Risk and Compliance**
 
@@ -66,13 +66,13 @@ Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**. 1.  Select *
 
 AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-</td></tr><tr><td id="d282467e288">
+</td></tr><tr><td id="d283072e290">
 
-**Request an AI system using AI Control Tower**
+**Request an AI system using Control Tower**
 
 </td><td>
 
-Navigate to **All** &gt; **AI Control Tower**. 1.  On the AI Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**.
+Navigate to **All** &gt; **AI Control Tower**. 1.  On the Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**.
 2.  Select **AI systems**, then select **Add AI system**.
 **Note:**
 
@@ -81,7 +81,7 @@ An AI Asset owner can complete this option.
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For full descriptions of the fields, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-system-form.md). For more information about adding an AI system using AI Control Tower, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-system-assets.md).
+    For full descriptions of the fields, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-system-form.md). For more information about adding an AI system using Control Tower, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-system-assets.md).
 
 3.  To add attachments, select **Add attachments**.
 

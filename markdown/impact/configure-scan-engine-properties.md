@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/impact/configure-scan-engine-pr
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [impact scan engine, scan properties, scheduled scans]
-breadcrumb: [Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure Scan Engine properties
@@ -43,23 +43,10 @@ Run
 
 </td><td>
 
-Daily, Weekly, or Monthly scheduled scan run times.
+Select the scan frequency:-   Daily
+-   Weekly: The day of the week to run weekly scans
+-   Monthly: The day of the month to run monthly scans.Day of Week
 
-</td></tr><tr><td>
-
-Day of Week
-
-</td><td>
-
-The day of the week on which to run weekly scans.
-
-</td></tr><tr><td>
-
-Day of Month
-
-</td><td>
-
-The day of the month on which to run monthly scans.
 
 </td></tr><tr><td>
 
@@ -75,8 +62,8 @@ Time
 
 </td><td>
 
--   Field type = `glide_utc_time`
 -   The time the scan should begin in 24-hour format \(HH:MM:SS\).
+-   Field type = `glide_utc_time`
 
 
 </td></tr></tbody>
@@ -96,22 +83,25 @@ Scan Non-Configuration Records
 
 </td><td>
 
-Includes non-configuration tables \(which do not extend `sys_metadata`\) in the scan.
+-   Field: **scan\_non\_configuration\_records**
+-   Default: `true`
+-   When enabled, includes non-configuration tables \(tables that don't extend sys\_metadata\) in full scans.
+
 
 </td></tr><tr><td>
 
-Scan Read-Only Records
+Scan read-only records
 
 </td><td>
 
--   Includes read-only records in the scan.
--   **scan\_read\_only**: Default: `true`.
--   Read-only records are scanned by default.
+-   Include read-only records in the scan
+-   API name: **scan\_read\_only**
+-   Read-only records are set to scan by default
 
 
 </td></tr><tr><td>
 
-Track Resolved Findings
+Track resolved findings
 
 </td><td>
 
@@ -119,31 +109,19 @@ Logs any resolved findings as part of the scan and includes them in the View Res
 
 </td></tr><tr><td>
 
-Scan Findings Limit
+Custom workday
 
 </td><td>
 
--   **scan\_findings\_limit**
--   The maximum number of findings that can be generated for each definition during a scan.
--   The limit is applied per applicable table. For example, if the limit is set to 100, a maximum of 100 findings will be generated for each applicable table.
--   Prevents excessive or redundant findings and optimizes scan performance.
-
+Select this option to specify the number of hours for a workday. By default, technical debt is calculated as a 24-hour workday. For example, developer workdays can be set to 8 hours instead of 24.**Note:** This is used to calculate various metrics that appear in the Analytics Dashboards.
 
 </td></tr><tr><td>
 
-Custom Workday
+Average development rate
 
 </td><td>
 
-By default, technical debt is calculated as a 24-hour day, which allows you to specify a number of hours for a workday. For example, developer workdays can be set to 8 hours instead of 24.**Note:** This is used to calculate various metrics that appear in the Analytics Dashboards.
-
-</td></tr><tr><td>
-
-Average hourly rate of development
-
-</td><td>
-
-This figure calculates the cost of technical debt that displays on your dashboard by multiplying it by the estimated time to resolve each finding in the system.
+This figure calculates the cost of technical debt that displays on your dashboard by multiplying the hourly development rate by the estimated time to resolve each finding in the system.
 
 </td></tr><tr><td>
 
@@ -151,22 +129,22 @@ Batch Record Size
 
 </td><td>
 
--   **full\_scan\_batch\_size**
+-   Field: **full\_scan\_batch\_size**
 -   Default: 50,000 records.
 -   Specifies the maximum number of records allowed to be analyzed in a single batch scan for an applicable table.
--   This value does not limit the total number of records that can be scanned. When a table's record count exceeds this threshold \(50,000\), the table is assigned to its own dedicated batch during scan processing to optimize performance.
--   This value determines when an applicable table warrants its own batch during scans.
-
-**Note:** This is a read-only system property that cannot be modified through the UI.
+-   This value does not limit the total number of records that can be scanned.
+    -   This value determines when an applicable table warrants its own batch during scans.
+    -   When a table's record count exceeds this threshold \(50,000\), the table is assigned to its own dedicated batch during scan processing to optimize performance.
+    -   **Note:** This is a read-only system property that can't be modified through the UI.
 
 </td></tr><tr><td>
 
-Scheduled Scan Logging Frequency
+Scheduled scan logging frequency
 
 </td><td>
 
 -   Default: `false`
--   Leave blank to disable verbose logging. When set, logs scan progress after processing the specified number of records
+-   Leave blank to disable verbose logging. When set, logs scan progress after processing the specified number of records.
 
 
 </td></tr><tr><td>
@@ -175,10 +153,11 @@ Days of scan finding histories to keep
 
 </td><td>
 
--   **keep\_days\_finding\_history**
+-   Field: **keep\_days\_finding\_history**
 -   Sets the retention period for finding history records.
+-   The default value is 30 days.
 
-**Note:** This controls how long historical scan data is retained, not the findings themselves.The default value is 30 days.
+**Note:** This controls how long historical scan data is retained, not the findings themselves.
 
 </td></tr><tr><td>
 
@@ -186,7 +165,31 @@ Include review findings in technical debt
 
 </td><td>
 
-Displays findings on the dashboard where the level of the rule is equal to Review.
+Select to display findings on the dashboard where the level of the finding is equal to **Review**. **Note:** See [Understand scan results and findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/understand-scan-engine-results-findings.md) for information on findings levels.
+
+</td></tr><tr><td>
+
+Scan Findings Limit
+
+</td><td>
+
+-   Field: **scan\_findings\_limit**
+-   The maximum number of findings that can be generated for each definition during a scan to prevent excessive or redundant findings and optimizes scan performance.
+-   The limit is applied per applicable table. For example, if the limit is set to 100, a maximum of 100 findings will be generated for each applicable table.
+
+
+</td></tr><tr><td>
+
+Max Scan Retry Attempts
+
+</td><td>
+
+-   The maximum number of times the Scan Recovery job retries a stalled Full or Delta scan before it cancels the scan. A scan counts as stalled when its cluster node stopped mid-scan with no activity for over an hour.
+-   After the maximum number of retries, the job cancels the scan outright, along with any of its batches not yet completed or skipped.
+-   Select **None** to never retry a stalled scan and cancel it instead.
+-   This limit applies only to stalled scans. Scans that resume after a routine, expected platform or application upgrade pause don't count against it.
+-   This limit does not apply to on-demand scans, which have their own separate pre-start requeue limit.
+
 
 </td></tr><tr><td>
 
@@ -194,44 +197,32 @@ Enable instance specific definitions
 
 </td><td>
 
--   **instance\_specific\_definitions**
--   Select to restrict scan definitions to run only on designated instances.
+-   Configuration option that controls whether definitions run only on specified instances. Select to restrict scan definitions to run only on designated instances.
+-   Field: **instance\_specific\_definitions**
 -   When disabled, all active definitions run on all instances.
 -   When enabled without matching instances:
-
     -   If the `*sn\_se\_my\_sn\_instances*`*table is empty, all definitions run \(system assumes feature is not in use\)*
     -   If the `*sn\_se\_my\_sn\_instances*`*table __has entries__ but the current instance is not listed, only 'All Instances' definitions execute"*
-**Note:** Configuration option that controls whether definitions run only on specified instances.
-
-</td></tr><tr><td>
-
-Scan Non-Configuration Records
-
-</td><td>
-
--   **scan\_non\_configuration\_records**
--   Default: `true`
--   When enabled, includes non-configuration tables \(tables that do not extend sys\_metadata\) in full scans.
 
 
 </td></tr></tbody>
 </table>
--   **[Configure scanning properties per persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/teamdev-scanning-properties.md)**  
-You can view and configure a variety of information, formatted into lists, that the Scan Engine uses to permit users, team leads, and admins to access content.
--   **[Configure application scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-application-scanning-properties.md)**  
-The Scan Engine provides options to configure application scanning and enhance governance over Team Dev push approval. Configure which applications are scanned, the parameters applications must have to satisfy Team Dev approval, and whether developers can use Suite Scans for faster, focused validation.
--   **[Configure update set scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/update-set-scanning-properties2.md)**  
-The Scan Engine provides several options to further configure update set scanning and enhance the governance over update set management. Update set scanning occurs during scheduled instance scans and when developers attempt to mark update sets complete.
--   **[Define My SN Instance environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/add-view-scan-engine-related-lists.md)**  
-Configure instance integration settings to define the different environments for your ServiceNow instances and to take advantage of exception processing, definition syncing, and user story tracking in Impact.
--   **[Manage definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/additional-scan-engine-properties.md)**  
+-   **[Configure definition properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/additional-scan-engine-properties.md)**  
 You can configure additional capabilities and configuration options for the definition ruleset.
+-   **[Configure scan filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-filters.md)**  
+Create scan filters to exclude applications, tables, or individual records from scans.
 -   **[Configure real-time scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-real-time-scanning-properties.md)**  
 Real-time scanning properties allow control over which users have access to real-time scanning, and how the scan operates within their environment. Perform the following procedure to configure real time scanning properties.
 -   **[Configure real-time code resolution with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-ai-code-fix-for-platform-health.md)**  
 Follow these steps to configure real-time code resolution with AI suggested fixes for Impact Platform Health.
 -   **[Configure exception reason properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/exception-reason-properties.md)**  
 When real-time enforcement, `enforce_real_time_validation`, is enabled, exception reasons can be configured for Suggest, Review, Recommend, and Act level findings based on the exception reason scope. The scope controls which finding levels can have exceptions. It doesn't decide which findings block a save.
+-   **[Configure update set scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/update-set-scanning-properties2.md)**  
+The Scan Engine provides several options to further configure update set scanning and enhance the governance over update set management. Update set scanning occurs during scheduled instance scans and when developers attempt to mark update sets complete.
+-   **[Configure Team Dev scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/teamdev-scanning-properties.md)**  
+You can view and configure a variety of information, formatted into lists, that the Scan Engine uses to permit users, team leads, and admins to access content.
+-   **[Define My SN Instance environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/add-view-scan-engine-related-lists.md)**  
+Configure instance integration settings to define the different environments for your ServiceNow instances and to take advantage of exception processing, definition syncing, and user story tracking in Impact.
 
-**Parent Topic:**[Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-initial-scan-engine-settings.md)
+**Parent Topic:**[Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/scan-engine-properties-overview.md)
 

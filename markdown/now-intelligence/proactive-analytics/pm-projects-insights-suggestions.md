@@ -8,7 +8,7 @@ product: Proactive Analytics
 classification: proactive-analytics
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Insights on dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -18,7 +18,7 @@ If you are using Proactive analytics with Process Mining, Proactive analytics ca
 
 An IT process owner might benefit from a Process Mining project that has not yet been created. If they are following their processes through indicators shown on a Platform Analytics dashboard, this feature can suggest Process Mining projects to create.
 
-The feature works through a scheduled job, PA Indicator Recommendations. This job scans Performance Analytics indicators for anomalous behavior in the last 15 days and correlates that behavior against a set of variables to generate a score, which it stores on the par\_indicator\_model table. The job weighs the scores against the number of dashboards that each indicator is used in, then generates suggestions for the indicators with the three highest results. A single interaction with a suggestion creates a Process Mining project and generates insights based on that project. However, several requirements must be met.
+The feature works through a scheduled job, PA Indicator Recommendations. This job scans Performance Analytics indicators for anomalous behavior in the last 15 days and correlates that behavior against a set of variables to generate a score. It then stores the score on the par\_indicator\_model table. The job weighs the scores against the number of dashboards that each indicator is used in, then generates suggestions for the indicators with the three highest results. A single interaction with a suggestion creates a Process Mining project and generates insights based on that project. However, several requirements must be met.
 
 ## Requirements on the dashboard side
 
@@ -29,12 +29,12 @@ The feature works through a scheduled job, PA Indicator Recommendations. This jo
 ## Requirements for the suggestions to be created
 
 -   The facts tables for the relevant indicators must be set up to generate audit logs. For more information, see [Configuring auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_EnableAuditingForATable.md).
--   A process configuration must exist for the facts tables of the relevant indicators. For more information, see [Create process configuration using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/create-process-config.md).
--   A template project with table configurations specific to the facts table of the indicators should exist. To create such a project, see [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/define-workflow-model.md).
+-   A process configuration must exist for the facts tables of the relevant indicators. For more information, see .
+-   A template project with table configurations specific to the facts table of the indicators should exist. To create such a project, see .
 
-## Requirements for insights to be created from the new project
+## Requirements for insights to be created from the project
 
-Automated finding definitions must exist within the relevant process configurations, to ensure that the indicators are linked through the **Impacted KPIs** field. For more information, see [Configuring improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/configuring-finding-definitions.md).
+Automated finding definitions must exist within the relevant process configurations, to ensure that the indicators are linked through the **Impacted KPIs** field. For more information, see .
 
 **Related topics**  
 

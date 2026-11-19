@@ -29,7 +29,7 @@ Work assignment rules:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Field Service Management** &gt; **Capacity Management** &gt; **Capacity Assignments**.
+1.  Navigate to **All** &gt; **Field Service** &gt; **Capacity Management** &gt; **Capacity Assignments**.
 
 2.  Click **New**.
 
@@ -49,7 +49,7 @@ Capacity Definition
 
 </td><td>
 
-Name of the capacity definition based on which the capacity will be assigned. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/create-capacity-definitions.md)
+Name of the capacity definition based on which the capacity will be assigned. For more information, see [Create a capacity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/create-capacity-definitions.md).
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Type
 Select the capacity type. -   Territory Internal Agents: Choose to assign work specifically to internal agents within a designated territory.
 -   Territory Contractor Group: Choose to assign work to contractor groups within a territory. Ideal for managing external contractor teams within specified territories.
 -   None: Select to have the flexibility to choose either assignment groups or contractor groups. When the Territory Planning plugin is installed, choosing "None" directs you to select contractor groups. Without the plugin, it allows you to proceed to the next step of choosing a group facilitating to decide based on your workflow.
-**Note:** If the Territory Planning plugin is activated, Territory internal agents and contractor groups options appear in the field.
+**Note:** If the Field Service Territory Planning plugin \(com.snc.fsm\_territory\_planning\) is activated, the **Territory Internal Agents** option appears in the **Type** field and is the default. The **Territory Contractor Group** option also requires the Field Service Contractor Management plugin \(com.snc.fsm\_contractor\_management\).
 
 </td></tr><tr><td>
 

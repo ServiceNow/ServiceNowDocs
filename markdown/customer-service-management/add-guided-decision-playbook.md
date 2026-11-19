@@ -40,7 +40,7 @@ For more details on playbooks for Customer Service Management, see [Playbooks fo
 
 5.  In the Details tab, fill in the basic details of your activity.
 
-<table id="choicetable_n4l_ydt_vlb"><tbody><tr><td id="d176756e136">
+<table id="choicetable_n4l_ydt_vlb"><tbody><tr><td id="d177072e138">
 
 **Label**
 
@@ -48,7 +48,7 @@ For more details on playbooks for Customer Service Management, see [Playbooks fo
 
 Unique name for your activity. This name appears in user-facing views of your playbook.
 
-</td></tr><tr><td id="d176756e145">
+</td></tr><tr><td id="d177072e147">
 
 **Description**
 
@@ -56,7 +56,7 @@ Unique name for your activity. This name appears in user-facing views of your pl
 
 Description of your activity.
 
-</td></tr><tr><td id="d176756e154">
+</td></tr><tr><td id="d177072e156">
 
 **Run condition**
 
@@ -64,7 +64,7 @@ Description of your activity.
 
 After the activity starts, the activity runs only if specific conditions are met.
 
-</td></tr><tr><td id="d176756e163">
+</td></tr><tr><td id="d177072e165">
 
 **When to start**
 

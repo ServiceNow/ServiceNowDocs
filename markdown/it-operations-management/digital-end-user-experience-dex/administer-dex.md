@@ -20,7 +20,7 @@ As a DEX administrator, use the DEX Administration tab to manage applications, a
 
 ## DEX administration
 
-Ongoing administration for Digital End-User Experience is centered on the **Administration** tab, where you manage the applications you monitor, agent policies, user roles, metric rules, remedial actions, and settings. Complete the following tasks as needed to keep your DEX deployment running as expected.
+Ongoing administration for Digital End-User Experience is centered on the **Administration** tab. Use it to manage the applications you monitor, agent policies, user roles, metric rules, remedial actions, and settings. Complete the following tasks as needed to keep your DEX deployment running as expected.
 
 -   [DEX Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/dex-workspace-administration-tab.md)
 

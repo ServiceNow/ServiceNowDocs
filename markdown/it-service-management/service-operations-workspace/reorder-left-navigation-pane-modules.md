@@ -30,7 +30,7 @@ Role required: admin
 
 4.  On the Experience Settings: Service Operations Workspace page, navigate to the **Side navigation** section.
 
-    This section displays all modules left navigation pane modules in Service Operations Workspace for ITSM.
+    This section displays all the left navigation pane modules in Service Operations Workspace for ITSM.
 
 5.  Drag the modules in the required order.
 

@@ -9,7 +9,7 @@ classification: platform-performance
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Application quotas, Configure, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Application quotas, Configure, Platform performance, Maintain and monitor, ServiceNow AI Platform]
 ---
 
 # Configure an application quota rule

@@ -48,7 +48,7 @@ You can add announcements for additional tables by defining additional data sour
 
 6.  To create an announcement for an additional table, add a data source for that table.
 
-    For information on data source, see Define a data source. For information on defining a data source, see [Define a datasource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-evam-datasource.md).
+    For information on defining a data source, see [Define a datasource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/define-evam-datasource.md).
 
 7.  To source custom announcements into the **Announcements** section, create an additional banner announcement configuration for the Banner Announcement \[sys\_ux\_banner\_announcement\] table by performing the following steps.
 

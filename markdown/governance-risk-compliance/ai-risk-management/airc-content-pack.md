@@ -8,7 +8,7 @@ product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [AI Risk and Compliance content pack, EU AI Act, NIST AI RMF, SB 53, Colorado AI Act, regulatory framework, control objectives, risk statements]
 breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---

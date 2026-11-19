@@ -84,7 +84,7 @@ Administrators can configure the Change Management Intelligent solutions system 
 -   **[Train the Risk Intelligence solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/train-risk-intelligence-solution.md)**  
 Create Risk categorization or similarity solution definitions to use the predictive intelligence that helps in accessing change risk.
 -   **[Configure Risk Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-risk-intelligence.md)**  
-Configure the Risk Intelligence properties to control how the Predictive Intelligence solution predicts the risk of a change request and how the predicted risk is used.
+Configure the Risk Intelligence properties to control how Predictive Intelligence predicts the risk of a change request and how that prediction is used.
 -   **[Train the clustering solution for standard change proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/train-std-chg-proposal-soln.md)**  
 Train the Standard change proposal solution definition to use clustering capabilities to identify and suggest Standard Change templates to create a change.
 

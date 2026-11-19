@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [CRM Workspace, Configure, Field Service Management]
 ---
 
 # Configuring Field Service Territory Planning Console

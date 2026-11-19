@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Monitoring an AI system, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Monitoring an AI system, Working with AI asset records, Discover and manage AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure metrics evaluated for an AI system
@@ -29,22 +29,22 @@ The metrics evaluated for an AI system come from your organization's global metr
 
 1.  Navigate to the **Monitor** tab for the AI system that you want to configure in one of the following ways:
 
-    -   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory**. Select the AI system asset and then select the **Monitor** tab.
-    -   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** and select a system name in the **AI systems ranked by score** widget.
-    -   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** &gt; **Evaluated sessions** and select the AI system name in the **AI system** column.
+    -   Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Inventory**. Select the AI system asset and then select the **Monitor** tab.
+    -   Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** and select a system name in the **AI systems ranked by score** widget.
+    -   Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** &gt; **Evaluated sessions** and select the AI system name in the **AI system** column.
 2.  Configure which metrics to score for this asset.
 
     **Important:** Adding more metrics increases the visibility you gain into each session, but also increases assist usage to evaluate it. Select the metrics that give you the insight you need.
 
-<table id="choicetable_configure_metrics"><thead><tr><th align="left" id="d348903e166">
+<table id="choicetable_configure_metrics"><thead><tr><th align="left" id="d349843e168">
 
 Scenario
 
-</th><th align="left" id="d348903e169">
+</th><th align="left" id="d349843e171">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d348903e175">
+</th></tr></thead><tbody><tr><td id="d349843e177">
 
 **Configuring for the first time**
 
@@ -55,7 +55,7 @@ Steps
 3.  Select the check box next to each metric that you want to evaluate for this AI system.
 
 
-</td></tr><tr><td id="d348903e211">
+</td></tr><tr><td id="d349843e213">
 
 **Modifying an existing configuration**
 

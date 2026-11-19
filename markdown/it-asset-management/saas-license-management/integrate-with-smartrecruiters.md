@@ -77,15 +77,15 @@ If you’re using Software Asset Workspace, the option to create the SmartRecrui
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d84621e384">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d84684e390">
 
 Interface
 
-</th><th align="left" id="d84621e387">
+</th><th align="left" id="d84684e393">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d84621e393">
+</th></tr></thead><tbody><tr><td id="d84684e399">
 
 **Core UI**
 
@@ -96,7 +96,7 @@ Action
 3.  Select **SmartRecruiters Integration Profile**.
 
 
-</td></tr><tr><td id="d84621e435">
+</td></tr><tr><td id="d84684e441">
 
 **Software Asset Workspace**
 

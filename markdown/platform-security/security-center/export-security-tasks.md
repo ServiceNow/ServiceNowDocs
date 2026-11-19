@@ -1,6 +1,6 @@
 ---
 title: Export Security Tasks
-description: Learn how to export Security Tasks into files you can download and use in other software.
+description: Export Security Tasks to Excel, CSV, JSON, or PDF files that you can download or receive by email and use in other software.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/export-security-tasks.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Security Tasks, Security Center, Platform Security]
 
 # Export Security Tasks
 
-Learn how to export Security Tasks into files you can download and use in other software.
+Export Security Tasks to Excel, CSV, JSON, or PDF files that you can download or receive by email and use in other software.
 
 ## Before you begin
 
@@ -24,11 +24,11 @@ Role required: admin
 
 1.  Access your Security Task list by navigating to **All** &gt; **Security Center** &gt; **Security Tasks**.
 
-2.  Select one or more Security Tasks by selecting on its check box on the left
+2.  Select one or more Security Tasks by selecting its check box
 
 3.  Select the **Export** button.
 
-4.  Under **File type**, select the file format you want the Security Tasks exported to.
+4.  Under **File type**, select the file format for the exported Security Tasks.
 
     You can select from Excel, CSV, JSON, or PDF formats.
 

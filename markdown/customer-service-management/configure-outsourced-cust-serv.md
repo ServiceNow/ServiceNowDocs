@@ -123,15 +123,15 @@ Role required: admin
 
 5.  Fill in the fields on the new record form, as appropriate.
 
-<table id="choicetable_nmd_nql_mlb"><thead><tr><th align="left" id="d125193e388">
+<table id="choicetable_nmd_nql_mlb"><thead><tr><th align="left" id="d125313e394">
 
 Option
 
-</th><th align="left" id="d125193e391">
+</th><th align="left" id="d125313e397">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d125193e397">
+</th></tr></thead><tbody><tr><td id="d125313e403">
 
 **Description**
 
@@ -139,7 +139,7 @@ Description
 
 Description for the outsourcing criteria.
 
-</td></tr><tr><td id="d125193e406">
+</td></tr><tr><td id="d125313e412">
 
 **Table**
 
@@ -147,7 +147,7 @@ Description for the outsourcing criteria.
 
 The table that stores the task for which the outsourcing criteria is created. Select either **Account**, **Asset**, **Consumer**, or **Sold Product** tables.
 
-</td></tr><tr><td id="d125193e427">
+</td></tr><tr><td id="d125313e433">
 
 **Condition**
 
@@ -255,15 +255,15 @@ Role required: admin
 
 3.  Fill in the fields on the Outsourced Service Provider form, as appropriate.
 
-<table id="choicetable_ckq_svb_hlb"><thead><tr><th align="left" id="d125193e970">
+<table id="choicetable_ckq_svb_hlb"><thead><tr><th align="left" id="d125313e982">
 
 Option
 
-</th><th align="left" id="d125193e973">
+</th><th align="left" id="d125313e985">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d125193e979">
+</th></tr></thead><tbody><tr><td id="d125313e991">
 
 **Name**
 
@@ -271,7 +271,7 @@ Description
 
 The OSP's name.
 
-</td></tr><tr><td id="d125193e988">
+</td></tr><tr><td id="d125313e1000">
 
 **Service Provider Type**
 
@@ -279,7 +279,7 @@ The OSP's name.
 
 Customer or Field service provider.
 
-</td></tr><tr><td id="d125193e997">
+</td></tr><tr><td id="d125313e1009">
 
 **Manager**
 
@@ -287,7 +287,7 @@ Customer or Field service provider.
 
 The OSP's manager name.
 
-</td></tr><tr><td id="d125193e1006">
+</td></tr><tr><td id="d125313e1018">
 
 **Website**
 
@@ -295,7 +295,7 @@ The OSP's manager name.
 
 The web address for the internal business location.
 
-</td></tr><tr><td id="d125193e1016">
+</td></tr><tr><td id="d125313e1028">
 
 **Notes**
 
@@ -303,7 +303,7 @@ The web address for the internal business location.
 
 Any note regarding the OSP.
 
-</td></tr><tr><td id="d125193e1025">
+</td></tr><tr><td id="d125313e1037">
 
 **Company**
 
@@ -311,7 +311,7 @@ Any note regarding the OSP.
 
 The company or organization to which the OSP belongs.**Note:** The **Company** field is a read-only field. Additionally, there’s a 1:1 relationship between an OSP and a company. It means that only one company record can be mapped to an OSP record at any given time.
 
-</td></tr><tr><td id="d125193e1039">
+</td></tr><tr><td id="d125313e1051">
 
 **Active**
 
@@ -319,7 +319,7 @@ The company or organization to which the OSP belongs.**Note:** The **Company** f
 
 Enables the OSP. The default value is set to **True**.
 
-</td></tr><tr><td id="d125193e1051">
+</td></tr><tr><td id="d125313e1063">
 
 **Contact**
 
@@ -327,7 +327,7 @@ Enables the OSP. The default value is set to **True**.
 
 Enter **Phone** or **Fax phone** number.
 
-</td></tr><tr><td id="d125193e1066">
+</td></tr><tr><td id="d125313e1078">
 
 **Address**
 
@@ -342,7 +342,7 @@ The OSP's postal address. The following address fields are available by default:
 -   Country
 
 
-</td></tr><tr><td id="d125193e1094">
+</td></tr><tr><td id="d125313e1106">
 
 **Case Transfer**
 

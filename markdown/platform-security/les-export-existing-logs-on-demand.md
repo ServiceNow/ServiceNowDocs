@@ -1,16 +1,16 @@
 ---
-title: Export existing logs on demand
+title: Export Historical Logs
 description: Replay historical log data from a supported table to a Hermes topic by creating and starting a Backfill Run. Use this process to export logs from a specific time range for analysis or archival.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/les-export-existing-logs-on-demand.html
 release: brazil
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 breadcrumb: [Administer, Log Export Service \(LES\), Platform Security]
 ---
 
-# Export existing logs on demand
+# Export Historical Logs
 
 Replay historical log data from a supported table to a Hermes topic by creating and starting a Backfill Run. Use this process to export logs from a specific time range for analysis or archival.
 

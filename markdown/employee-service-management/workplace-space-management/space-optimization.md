@@ -68,7 +68,7 @@ Ensure that you have installed the Workplace Connectors application. For more in
 
 []()
 
-[Scenario Planning]()
+[Scenario planning]()
 
 [Schedule Planning]()
 

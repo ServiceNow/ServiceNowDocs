@@ -1,23 +1,23 @@
 ---
 title: Configure AI agent containment using kill switch protocol manually
-description: Connect identity providers and AI agent platforms to ServiceNow to let you contain and enforce guardrails for AI assets at runtime using kill switch protocol.
+description: Connect identity providers and AI agent platforms to ServiceNow to let you contain and enforce guardrails for AI assets at runtime using kill switch protocol in Super Intelligence Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-configure-ai-agent-containment.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure AI agent containment using kill switch protocol manually
 
-Connect identity providers and AI agent platforms to ServiceNow to let you contain and enforce guardrails for AI assets at runtime using kill switch protocol.
+Connect identity providers and AI agent platforms to ServiceNow to let you contain and enforce guardrails for AI assets at runtime using kill switch protocol in Super Intelligence Control Tower.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
+Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 
@@ -32,7 +32,7 @@ To deactivate or reinstate an AI agent using kill switch protocol, you must have
 
 ## Procedure
 
-1.  In AI Control Tower, navigate to **Settings** &gt; **Integrations** &gt; **Control Enforcement Points**.
+1.  In Control Tower, navigate to **Settings** &gt; **Integrations** &gt; **Control Enforcement Points**.
 
 2.  Select the connector from the Available connectors view and follow the guided setup wizard.
 
@@ -45,5 +45,5 @@ To deactivate or reinstate an AI agent using kill switch protocol, you must have
 
 You can now deactivate and reinstate AI agents using kill switch protocol. For more information, see [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
 
-**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)
+**Parent Topic:**[Configuring security metrics in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)
 

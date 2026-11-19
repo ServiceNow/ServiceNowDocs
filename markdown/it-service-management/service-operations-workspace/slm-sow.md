@@ -74,16 +74,16 @@ You should configure SLA timer configuration mappings for these timer configurat
 
 1.  Open an incident record page.
 
-2.  From the contextual side panel, select the record Information icon \(\[Omitted image "record-info-icon.png"\] Alt text: record Information icon\).
+2.  From the contextual side panel, select the record Information icon \(\[Omitted image "record-info-icon.png"\] Alt text:\).
 
     -   The response and resolution SLAs are displayed.
     -   In case of multiple SLA timer configuration mappings for Incident Response and Incident Resolution timer configurations, only one response and resolution SLA record associated with the mapping with the least order is displayed.
-    -   After the SLA is complete, the time taken to respond and resolve the incident are displayed.
+    -   After the SLA is complete, the time taken to respond and resolve the incident is displayed.
     For information about configuring the display of SLA information, see [Customize the display of service level agreements for an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 
     \[Omitted image "sla-info-sow.png"\] Alt text: SLA information for an incident
 
-3.  To view all SLAs related to the incident, click **View more SLAs**.
+3.  To view all SLAs related to the incident, select **View more SLAs**.
 
     A list of all task SLAs is displayed.
 

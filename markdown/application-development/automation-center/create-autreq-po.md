@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating an automation request, Working with automations, Use, Automation Center, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Automation Center integrations, Use, Automation Center, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Integration with Process Mining
@@ -24,7 +24,7 @@ You need the following roles:
 -   sn\_ac.automation\_technical\_user
 -   sn\_ac.automation\_admin
 
-For more information, see the [Submit an automation idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/integration-with-ac.md).
+For more information, see the [Submit an automation idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/integration-with-ac.md).
 
-**Parent Topic:**[Creating an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/create-automation-request.md)
+**Parent Topic:**[Automation Center integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/automation-center-integrations.md)
 

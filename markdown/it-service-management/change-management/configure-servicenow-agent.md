@@ -1,6 +1,6 @@
 ---
 title: Download the Mobile Agent mobile application
-description: Access Mobile Agent on your mobile device to manage your change tasks.
+description: Download and install Mobile Agent on your mobile device to manage your change tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-servicenow-agent.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Mobile experience for Change Management, Use, Change Management, IT
 
 # Download the Mobile Agent mobile application
 
-Access Mobile Agent on your mobile device to manage your change tasks.
+Download and install Mobile Agent on your mobile device to manage your change tasks.
 
 ## Before you begin
 

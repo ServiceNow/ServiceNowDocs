@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Field Service Territory Planning Console, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Configuring Field Service Territory Planning Console, CRM Workspace, Configure, Field Service Management]
 ---
 
 # Enable identification of relevant territories for a work order or work order task

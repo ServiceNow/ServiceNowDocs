@@ -16,9 +16,9 @@ breadcrumb: [Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app 
 
 You should understand how plugins and sandboxes work before you clone or upgrade an instance with Developer Sandboxes. Back up your work in a sandbox before any clone or upgrade, either by exporting the update sets or committing to source control.
 
-**Warning:** Because sandboxes are retired automatically after an upgrade or clone, ensure any work that you want to keep is preserved before upgrading or cloning.
+**Warning:** Because sandboxes are retired automatically after a clone and after upgrades before Brazil Patch 3, ensure any work that you want to keep is preserved before cloning or upgrading.
 
--   For upgrades, you can restore work from the remote update sets that Developer Sandboxes automatically created from prior sandboxes.
+-   For upgrades before Brazil Patch 3, you can restore work from the remote update sets that Developer Sandboxes automatically created from prior sandboxes.
 -   For clones, you must manually save and restore all work in sandboxes.
 -   Any custom table configuration changes or fixes must be reapplied after an upgrade. Contact Now Support to open a case.
 

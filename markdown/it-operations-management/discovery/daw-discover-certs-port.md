@@ -21,7 +21,7 @@ Configure a certificate port probe in the Discovery Admin Workspace, so Discover
 
 Confirm the following:
 
--   Discovery Admin Workspace v1.20.0 is installed.
+-   Discovery Admin Workspace, starting with v1.20.8 is installed.
 -   Certificate Inventory and Management v4.2.4 is installed.
 -   The ServiceNow AI Platform is running on the Brazil, Australia, or Zurich release starting with Patch 8.
 

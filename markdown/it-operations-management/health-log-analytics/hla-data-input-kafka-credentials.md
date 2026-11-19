@@ -7,8 +7,8 @@ release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-11-11"
+reading_time_minutes: 3
 breadcrumb: [Apache Kafka data input configuration fields, Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -16,21 +16,96 @@ breadcrumb: [Apache Kafka data input configuration fields, Data input configurat
 
 Description of the fields on the Kafka SSL credentials form.
 
-|Field|Description|
-|-----|-----------|
-|SSL keystore|The content of an actual server.keystore.jks file, encoded as a Base64 string. This field is mandatory.|
-|SSL keystore type|Format of the SSL keystore file. Default: Java KeyStore \(JKS\).|
-|SSL keystore password|Password to the keystore, identical to the value of the ssl.keystore.password property in Apache Kafka. This field is mandatory.|
-|SSL key password|Password, identical to the ssl.key.password property value in Apache Kafka. This field is mandatory.|
-|||
-|SSL truststore|The content of an actual client.truststore.jks file, encoded as a Base64 string. This field is mandatory.|
-|SSL truststore type|Format of the truststore file. Default: Java KeyStore \(JKS\).|
-|SSL truststore password|Password to the truststore, identical to the value of the ssl.truststore.password property in Apache Kafka. This field is mandatory.|
-|SSL provider|Name of the security provider used for SSL connections.|
-|Disable hostname verification|Option to disable verification of the hostname.|
-|Additional Kafka consumer properties|Semicolon-separated string of additional Kafka consumer properties. For example: ssl.protocol=TLSv1.2;ssl.enabled.protocols=TLSv1.2,TLSv1.1|
+<table id="table_ynx_qtz_htb"><thead><tr><th>
 
-<table id="table_frn_5tz_htb"><thead><tr><th>
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+SSL keystore
+
+</td><td>
+
+The content of an actual server.keystore.jks file, encoded as a Base64 string. This field is mandatory.
+
+</td></tr><tr><td>
+
+SSL keystore type
+
+</td><td>
+
+Format of the SSL keystore file. Default: Java KeyStore \(JKS\).
+
+</td></tr><tr><td>
+
+SSL keystore password
+
+</td><td>
+
+Password to the keystore, identical to the value of the ssl.keystore.password property in Apache Kafka. This field is mandatory.
+
+</td></tr><tr><td>
+
+SSL key password
+
+</td><td>
+
+Password, identical to the ssl.key.password property value in Apache Kafka. This field is mandatory.
+
+</td></tr><tr><td>
+
+SSL truststore
+
+</td><td>
+
+The content of an actual client.truststore.jks file, encoded as a Base64 string.Configure a custom truststore only if the Kafka broker's certificate is signed by a private or internal CA. If it is signed by a publicly trusted CA, leave this field empty. In that case, the Kafka client automatically uses the JVM's default truststore to validate the broker's certificate.
+
+</td></tr><tr><td>
+
+SSL truststore type
+
+</td><td>
+
+Format of the truststore file. Default: Java KeyStore \(JKS\).
+
+</td></tr><tr><td>
+
+SSL truststore password
+
+</td><td>
+
+Password to the truststore, identical to the value of the ssl.truststore.password property in Apache Kafka. This field is mandatory.
+
+</td></tr><tr><td>
+
+SSL provider
+
+</td><td>
+
+Name of the security provider used for SSL connections.
+
+</td></tr><tr><td>
+
+Disable hostname verification
+
+</td><td>
+
+Option to disable verification of the hostname.
+
+</td></tr><tr><td>
+
+Additional Kafka consumer properties
+
+</td><td>
+
+Semicolon-separated string of additional Kafka consumer properties. For example: ssl.protocol=TLSv1.2;ssl.enabled.protocols=TLSv1.2,TLSv1.1
+
+</td></tr></tbody>
+</table><table id="table_frn_5tz_htb"><thead><tr><th>
 
 Field
 
@@ -44,7 +119,7 @@ SSL truststore
 
 </td><td>
 
-The content of an actual client.truststore.jks file, encoded as a Base64 string. This field is mandatory.
+The content of an actual client.truststore.jks file, encoded as a Base64 string.Configure a custom truststore only if the Kafka broker's certificate is signed by a private or internal CA. If it is signed by a publicly trusted CA, leave this field empty. In that case, the Kafka client automatically uses the JVM's default truststore to validate the broker's certificate.
 
 </td></tr><tr><td>
 

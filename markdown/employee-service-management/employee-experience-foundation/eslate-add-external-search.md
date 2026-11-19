@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-04-02"
 reading_time_minutes: 1
 keywords: [external search sources, Employee Slate, ServiceNow Otto]
-breadcrumb: [Search sources, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
+breadcrumb: [Search sources, Working with EmployeeWorks capabilities, Configure, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Add external search sources

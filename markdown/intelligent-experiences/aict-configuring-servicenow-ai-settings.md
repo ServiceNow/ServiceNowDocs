@@ -1,6 +1,6 @@
 ---
 title: Configuring ServiceNow AI settings
-description: Decide what AI data your instance shares with ServiceNow, which AI assets need AI steward approval before deployment, and which AI model providers your AI systems can use.
+description: Use Super Intelligence Control Tower to decide what AI data your instance shares with ServiceNow, which AI assets need AI steward approval before deployment, and which AI model providers your AI systems can use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configuring-servicenow-ai-settings.html
 release: brazil
@@ -8,14 +8,14 @@ topic_type: concept
 last_updated: "2026-11-02"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configuring ServiceNow AI settings
 
-Decide what AI data your instance shares with ServiceNow, which AI assets need AI steward approval before deployment, and which AI model providers your AI systems can use.
+Use Super Intelligence Control Tower to decide what AI data your instance shares with ServiceNow, which AI assets need AI steward approval before deployment, and which AI model providers your AI systems can use.
 
-ServiceNow AI settings apply across your instance and affect AI features throughout it, not only AI Control Tower. Review each setting against your organization's data governance and AI governance policies before you change it.
+ServiceNow AI settings apply across your instance and affect AI features throughout it, not only Control Tower. Review each setting against your organization's data governance and AI governance policies before you change it.
 
 ## Data controls
 
@@ -44,5 +44,5 @@ Keep a human review between building an AI asset and deploying it by requiring A
 -   **[Configuring AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-ai-model-providers.md)**  
 Limit your AI systems to the model providers your organization approves, control where AI requests are processed, and see how each change affects the AI systems on your instance before you save it.
 
-**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring.md)
+**Parent Topic:**[Configuring Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Set the lockdown preview maximum
-description: Change the maximum number of records that a change lockdown preview displays. This keeps the preview readable on instances with a large volume of change requests.
+description: Change the maximum number of records that a change lockdown preview displays so the preview stays readable on instances with many change requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/set-lockdown-preview-maximum.html
 release: brazil
@@ -15,7 +15,7 @@ breadcrumb: [Change lockdown, Configure, Change Management, IT Service Managemen
 
 # Set the lockdown preview maximum
 
-Change the maximum number of records that a change lockdown preview displays. This keeps the preview readable on instances with a large volume of change requests.
+Change the maximum number of records that a change lockdown preview displays so the preview stays readable on instances with many change requests.
 
 ## Before you begin
 

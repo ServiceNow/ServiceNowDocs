@@ -91,15 +91,15 @@ If you are on any version for Yokohama below patch 1, refer [KB1801232](https://
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d76048e457">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d76109e463">
 
 Interface
 
-</th><th align="left" id="d76048e460">
+</th><th align="left" id="d76109e466">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d76048e466">
+</th></tr></thead><tbody><tr><td id="d76109e472">
 
 **Core UI**
 
@@ -110,7 +110,7 @@ Action
 3.  Select **CrowdStrike Integration Profile**.
 
 
-</td></tr><tr><td id="d76048e508">
+</td></tr><tr><td id="d76109e514">
 
 **Software Asset Workspace**
 

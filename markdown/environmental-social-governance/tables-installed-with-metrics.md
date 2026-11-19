@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [GRC: Metrics reference, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [GRC: Metrics reference, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Components installed with the GRC: Metrics application

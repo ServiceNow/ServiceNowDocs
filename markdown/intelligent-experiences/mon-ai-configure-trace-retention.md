@@ -1,6 +1,6 @@
 ---
 title: Configure trace data retention and access
-description: Control how long session, trace, and span data is stored to reduce storage usage, and choose whether that data stays available for analysis.
+description: Control how long session, trace, and span data is stored in Super Intelligence Control Tower to reduce storage usage, and choose whether that data stays available for analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-configure-trace-retention.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure trace data retention and access
 
-Control how long session, trace, and span data is stored to reduce storage usage, and choose whether that data stays available for analysis.
+Control how long session, trace, and span data is stored in Super Intelligence Control Tower to reduce storage usage, and choose whether that data stays available for analysis.
 
 ## Before you begin
 
@@ -25,33 +25,33 @@ By default, session, trace, and span data is retained for 30 days. If your organ
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Evaluation**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Evaluation**.
 
 2.  Select the **Trace data retention and access** sub-tab.
 
 3.  Choose a trace retention option.
 
-<table id="choicetable_xh1_qdf_hkc"><thead><tr><th align="left" id="d183666e106">
+<table id="choicetable_xh1_qdf_hkc"><thead><tr><th align="left" id="d184618e111">
 
 Option
 
-</th><th align="left" id="d183666e109">
+</th><th align="left" id="d184618e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d183666e115">
+</th></tr></thead><tbody><tr><td id="d184618e120">
 
 **Don't keep traces**
 
 </td><td>
 
-Permanently delete session, trace, and span data after approximately 1 day, once scoring is complete, by selecting **Don't keep traces**.After selecting this option, no session data is displayed in AI Control Tower.
+Permanently delete session, trace, and span data after approximately 1 day, once scoring is complete, by selecting **Don't keep traces**.After selecting this option, no session data is displayed in Control Tower.
 
 -   Evaluated sessions views on the monitoring overview and on each AI system's **Monitor** tab are hidden.
 -   Actionable insights from AI Skill Kit are turned off.
 
 
-</td></tr><tr><td id="d183666e146">
+</td></tr><tr><td id="d184618e151">
 
 **Keep traces for scoring**
 

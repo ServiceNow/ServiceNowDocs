@@ -1,5 +1,5 @@
 ---
-title: Set up primary and secondary filters for Security Analyst Workspace
+title: Legacy: Set up primary and secondary filters for Security Analyst Workspace
 description: The Security Analyst Workspace base system includes a set of primary filters for narrowing down the list of security incidents for analysis \(for security incidents assigned to you, all open incidents, and so forth\) and a set of quick \(or secondary\) filters for narrowing down the list even further \(by new incidents, open incidents, only critical incidents, and so forth\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/set-up-filters-for-new-ui.html
@@ -8,11 +8,11 @@ product: Security Incident Response
 classification: security-incident-response
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
+reading_time_minutes: 2
+breadcrumb: [Legacy: Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Set up primary and secondary filters for Security Analyst Workspace
+# Legacy: Set up primary and secondary filters for Security Analyst Workspace
 
 The Security Analyst Workspace base system includes a set of primary filters for narrowing down the list of security incidents for analysis \(for security incidents assigned to you, all open incidents, and so forth\) and a set of quick \(or secondary\) filters for narrowing down the list even further \(by new incidents, open incidents, only critical incidents, and so forth\).
 
@@ -25,6 +25,12 @@ As you define filters to be used in the Security Analyst Workspace, you can assi
 Select **Edit** next to the Quick Filters option to select secondary \(or quick\) filters.
 
 Role required: admin or sn\_sec\_cmn.write
+
+## About this task
+
+**Important:**
+
+The Security Incident Response UI \[sn\_app\_secops\_ui\] is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-workspace-landing-page.md) instead.
 
 ## Procedure
 

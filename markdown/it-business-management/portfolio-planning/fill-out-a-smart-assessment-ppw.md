@@ -26,29 +26,39 @@ Role required:
 
 ## About this task
 
-Smart assessments are available at a demand level and the entire demands module level. Use the module level Smart Assessments menu item to view all assessments assigned to you across demands. Demand managers can view all assessments assigned to users but can't make any edits.
+Smart assessments are available at a demand level and the entire demands module level. Use the module level Smart Assessments menu item to view all assessments assigned to you across demands. Demand managers can view all assessments assigned to users but can't make any edit or submit them if they are not the assigned stakeholders for the assessment.
+
+An assessment created from the predefined template is due 14 days after it's triggered.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Smart Assessments**.
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**
+
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
+
+3.  Select **Smart Assessments** from the main navigation menu.
 
     \[Omitted image "demand-smart-assessments-l1.png"\] Alt text: Smart assessments for all demands.
 
-2.  From the Smart Assessments list, select the assessment instance you want to open.
+4.  From the Smart Assessments list, select the assessment instance you want to open.
 
     The form displays the assessment questions and any answers already filled in.
 
     \[Omitted image "demand-smart-assess-questions.png"\] Alt text: Predefined smart assessment questionnaire for a demand.
 
-3.  If you have access to fill in the assessment, answer the questions.
+5.  If you have access to fill in the assessment, answer the questions.
 
-4.  Select the All Questions drop-down list to filter the questions in the assessment.
+6.  Select the All Questions drop-down list to filter the questions in the assessment.
 
     \[Omitted image "demand-smart-assessment-question-filter.png"\] Alt text: Filter questions using the filters under All Questions.
 
-5.  Use the **Next** and **Previous** options to navigate between sections.
+7.  Use the **Next** and **Previous** options to navigate between sections.
 
-6.  Select **Save**.
+8.  Select **Submit** when you're ready to submit your assessment.
+
+    The **Submit** button is available when you have answered all the required questions.
+
+    \[Omitted image "demand-assessment-submit.png"\] Alt text: The Submit button is available in the assessment post answering all questions.
 
 
 ## Result

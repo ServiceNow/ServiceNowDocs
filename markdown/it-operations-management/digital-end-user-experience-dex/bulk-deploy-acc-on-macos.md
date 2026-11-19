@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
+keywords: [bulk deploy acc, bulk deploy acc macos, mass deploy acc, jamf acc deployment, jamf pro policy, agent client collector \(acc\), install acc multiple mac devices, acc yml package]
 breadcrumb: [Deploying DEX to employees, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

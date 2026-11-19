@@ -7,7 +7,7 @@ release: brazil
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [CI lookup rules, Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---

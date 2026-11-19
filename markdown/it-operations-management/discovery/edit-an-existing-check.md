@@ -1,6 +1,6 @@
 ---
 title: Edit an existing check
-description: By editing the definition check, you can change description and script.
+description: Edit a Tuning check definition to change its description or script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/edit-an-existing-check.html
 release: brazil
@@ -15,11 +15,21 @@ breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discove
 
 # Edit an existing check
 
-By editing the definition check, you can change description and script.
+Edit a Tuning check definition to change its description or script.
 
 ## Before you begin
 
 Role required: admin
+
+## About this task
+
+Active checks run automatically when their suite runs:
+
+-   Discovery suite runs once a week on Sunday at 8 AM.
+-   MID suite runs once a week on Sunday at 10 AM.
+-   Self monitoring suite runs every 15 mins.
+
+You can also deactivate a check. An inactive check doesn't run when its suite runs, and it isn't counted in the Tuning health score.
 
 ## Procedure
 
@@ -31,11 +41,10 @@ Role required: admin
 
 4.  To edit the check, select **Switch scope**.
 
-5.  Update all the required details and select **Save**.
+5.  Update the required details.
 
-    **Note:** If the Active option is enabled:
+    To stop the check from running, clear the **Active** check box.
 
-    -   Discovery suite runs once a week on Sunday at 8 AM.
-    -   MID suite runs once a week on Sunday at 10 AM.
-    -   Self monitoring suite runs every 15 mins.
+6.  Select **Save**.
+
 

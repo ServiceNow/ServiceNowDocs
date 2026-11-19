@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/breakfix-submit-case.html
 release: brazil
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
-breadcrumb: [Manage Break-Fix cases, Retail]
+breadcrumb: [Create and manage Break-Fix cases, Retail]
 ---
 
 # Submit Break-Fix Cases through Portal or Mobile
@@ -69,7 +69,7 @@ Case created in "New" state and routed to HQ support queue. Success screen displ
 
 HQ Support Agents will triage your case. You will receive notification when they propose resolution. See [Respond to Resolutions \(Portal and Mobile\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-respond-resolution.md) for next steps.
 
-**Parent Topic:**[Manage Break-Fix cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-manage-cases.md)
+**Parent Topic:**[Create and manage Break-Fix cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-manage-cases.md)
 
 **Related topics**  
 
@@ -78,7 +78,7 @@ HQ Support Agents will triage your case. You will receive notification when they
 
 [Respond to resolutions through Portal or Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-respond-resolution.md)
 
-[Resolve Cases in Workspace through HQ Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-resolve-workspace.md)
+[Resolve Cases in CRM Workspace through HQ Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-resolve-workspace.md)
 
 [Components for Break-Fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-reference.md)
 

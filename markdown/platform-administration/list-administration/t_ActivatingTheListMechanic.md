@@ -1,6 +1,6 @@
 ---
-title: Enable or disable personal lists
-description: You can enable or disable personal lists through the UI Macros module.
+title: Turn personal lists on or off
+description: Turn personal lists on or off by activating or deactivating the list\_mechanic2 UI macro.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_ActivatingTheListMechanic.html
 release: brazil
@@ -9,12 +9,12 @@ classification: list-administration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Personal lists, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Personal lists, Administer, List administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
-# Enable or disable personal lists
+# Turn personal lists on or off
 
-You can enable or disable personal lists through the UI Macros module.
+Turn personal lists on or off by activating or deactivating the list\_mechanic2 UI macro.
 
 ## Before you begin
 
@@ -24,6 +24,6 @@ Role required: ui\_macro\_admin
 
 1.  Navigate to **All** &gt; **System UI** &gt; **UI Macros**.
 
-2.  Activate \(or deactivate\) the **list\_mechanic2** UI macro.
+2.  Activate \(or deactivate\) the `list_mechanic2` UI macro.
 
 

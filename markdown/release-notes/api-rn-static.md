@@ -1,6 +1,6 @@
 ---
 title: API release notes
-description: The ServiceNow APIs enable organizations to programmatically integrate ServiceNow with other systems, automate business processes, and extend platform capabilities to create seamless, end-to-end workflows across their entire IT and business ecosystem. See the following sections for release notes by family and store release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the Brazil release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.
+description: The ServiceNow APIs enable organizations to programmatically integrate ServiceNow with other systems, automate business processes, and extend platform capabilities to create seamless, end-to-end workflows across their entire IT and business ecosystem. See the following sections for release notes by family and store release.ServiceNow APIs were enhanced and updated in the ServiceNow Store November 19, 2026 release. This release is considered a second November 2026 store release, referred to as Nov2, and is released with AP9 and BP3 patch updates.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the Brazil release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/api-rn-static.html
 release: brazil
@@ -31,6 +31,19 @@ See [API implementation and reference](https://raw.githubusercontent.com/Service
 
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/new-features-changes.md)
+
+## November 19, 2026
+
+ServiceNow® APIs were enhanced and updated in the ServiceNow Store November 19, 2026 release. This release is considered a second November 2026 store release, referred to as Nov2, and is released with AP9 and BP3 patch updates.
+
+### What's new
+
+-   ****
+
+    |Application|App Version|API type|API|Methods/Endpoints|
+    |-----------|-----------|--------|---|-----------------|
+    |Customer Service Management \(CSM\)|1.1.0|REST||POST endpoint creates the WebRTC phone widget a short-lived ticket to start a voice call, so guest users can call support from your portal without logging in.|
+
 
 ## November 5, 2026
 

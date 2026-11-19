@@ -52,7 +52,7 @@ The contract template is published.
 **Related topics**  
 
 
-[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts]()
+[Create contract template using Word add-in]()
 
 [Create contract template by manually adding content controls]()
 

@@ -8,7 +8,7 @@ product: Process Mining
 classification: process-mining
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Work notes analysis, Analyzing and getting process insights, Use, Process Mining, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 

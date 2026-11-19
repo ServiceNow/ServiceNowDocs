@@ -35,7 +35,7 @@ MCP Server Console console lets you create MCP servers on your instance and conf
 
 Any AI application, such as Microsoft Copilot or AWS Claude, can call a server using OAuth 2.0 authentication and get a list of available tools. Employees using the MCP Client can then prompt the server for information from the instance or to perform an action, such as summarizing a list of recently closed incidents or cases.
 
-**Note:** With AI Gateway in AI Control Tower, administrators can monitor MCP Server Console and access and view metrics for servers and their tools.
+**Note:** With AI Gateway in Control Tower, administrators can monitor MCP Server Console and access and view metrics for servers and their tools.
 
 To create MCP servers that expose your instance's tools, including generative AI skills, to external clients such as Microsoft Copilot or AWS Claude, see [MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 

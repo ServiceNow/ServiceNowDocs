@@ -19,7 +19,7 @@ Cloud Account Management supports both Terraform \(Cloud and Enterprise\) and cl
 
 ## Terraform support
 
-Terraform templates are configuration files that specify the infrastructure resources needed for a specific application or environment using the Hashicorp Configuration Language \(HCL\). Cloud Account Management dynamically retrieves Terraform credentials and templates from the Git repository during the Terraform account creation process. Using the Terraform template, the ServiceNow instance interacts with the cloud organization’s IAM \(Identity and Access Management\) to retrieve the user's identity.
+Terraform templates are configuration files that specify the infrastructure resources needed for a specific application or environment using the Hashicorp Configuration Language \(HCL\). Cloud Account Management dynamically retrieves Terraform credentials and templates from the Git repository during the Terraform account creation process. Using the Terraform template, the ServiceNow instance interacts with the cloud organization’s Identity and Access Management \(IAM\) to retrieve the user's identity.
 
 ## Cloud native interface support
 

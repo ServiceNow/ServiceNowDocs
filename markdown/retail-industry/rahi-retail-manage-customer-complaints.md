@@ -16,17 +16,17 @@ Manage customer complaints by creating and assigning them to HQ persona.
 
 For more information on customer complaints, see
 
--   [Create and assign a retail customer complaint case in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-creating-request-in-workspace.md)
--   [Track a customer complaint case in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-track-a-customer-complaint-case.md)
--   [Close a customer complaint case in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-close-customer-case-workspace.md)
+-   [Create and assign a retail customer complaint case in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-creating-request-in-workspace.md)
+-   [Track a customer complaint case in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-track-a-customer-complaint-case.md)
+-   [Close a customer complaint case in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-close-customer-case-workspace.md)
 -   [Customer complaint case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-retail-customer-complaint.md)
 
 .
 
--   **[Create and assign a retail customer complaint case in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-creating-request-in-workspace.md)**  
-Create and assign a retail customer complain case in Workspace on behalf of a customer.
--   **[Track a customer complaint case in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-track-a-customer-complaint-case.md)**  
-Track the status of a retail customer complaint case in Workspace.
--   **[Close a customer complaint case in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-close-customer-case-workspace.md)**  
-Provide a resolution and close a customer complaint case in workspace.
+-   **[Create and assign a retail customer complaint case in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-creating-request-in-workspace.md)**  
+Create and assign a retail customer complain case in CRM Workspace on behalf of a customer.
+-   **[Track a customer complaint case in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-track-a-customer-complaint-case.md)**  
+Track the status of a retail customer complaint case in CRM Workspace.
+-   **[Close a customer complaint case in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-close-customer-case-workspace.md)**  
+Provide a resolution and close a customer complaint case in CRM Workspace.
 

@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Process the skipped records list, Upgrade Monitor tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Process the skipped records list, Upgrade Monitor tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, ServiceNow AI Platform]
 ---
 
 # System Upgrade form

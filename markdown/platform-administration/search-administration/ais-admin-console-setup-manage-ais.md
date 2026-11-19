@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 10
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure and manage AI Search in search applications
@@ -39,15 +39,15 @@ You can modify existing search application configurations, or create and configu
 
 3.  In the application configuration landing page, assign a search profile.
 
-<table id="choicetable_s2z_q1p_f2c"><thead><tr><th align="left" id="d381061e255">
+<table id="choicetable_s2z_q1p_f2c"><thead><tr><th align="left" id="d380946e257">
 
 Option
 
-</th><th align="left" id="d381061e258">
+</th><th align="left" id="d380946e260">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d381061e264">
+</th></tr></thead><tbody><tr><td id="d380946e266">
 
 **Create a new search profile**
 
@@ -55,7 +55,7 @@ Procedure
 
 Select **Create new**.A new search profile is created automatically. You can rename it or use a different search profile. For more information about the search profile controls, see [AI Search Admin console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-admin-console-applications.md). For a description of the search profile field values, see [Search Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/search-profile-form-ais.md).
 
-</td></tr><tr><td id="d381061e304">
+</td></tr><tr><td id="d380946e306">
 
 **Link an existing search profile**
 
@@ -131,15 +131,15 @@ Select **Create new**.A new search profile is created automatically. You can ren
 
 4.  Define the search application configuration.
 
-<table id="choicetable_c42_rxp_f2c"><thead><tr><th align="left" id="d381061e718">
+<table id="choicetable_c42_rxp_f2c"><thead><tr><th align="left" id="d380946e720">
 
 Option
 
-</th><th align="left" id="d381061e721">
+</th><th align="left" id="d380946e723">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d381061e727">
+</th></tr></thead><tbody><tr><td id="d380946e729">
 
 **Create a new search application configuration**
 
@@ -147,7 +147,7 @@ Procedure
 
 Select **Create new**.A new search application configuration is created automatically. You can rename it or use a different configuration. For more information about the search application configuration controls, see [AI Search Admin console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-admin-console-applications.md). For a description of the search application configuration field values, see [Search Application Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/search-app-config-form-ais.md).
 
-</td></tr><tr><td id="d381061e767">
+</td></tr><tr><td id="d380946e769">
 
 **Link an existing search application configuration**
 

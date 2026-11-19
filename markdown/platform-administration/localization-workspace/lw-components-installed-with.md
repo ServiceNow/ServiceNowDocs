@@ -9,7 +9,7 @@ classification: localization-workspace
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Localization Workspace reference, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Localization Workspace reference, Localization Workspace, Translation and localization, Configure core features, ServiceNow AI Platform]
 ---
 
 # Components installed with Localization Workspace

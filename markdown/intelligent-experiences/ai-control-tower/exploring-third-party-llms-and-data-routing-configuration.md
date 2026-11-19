@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Explore Third-party LLMs and regions
@@ -33,5 +33,5 @@ Activating Fallback enables AI systems supported by your approved providers to s
 
 For information about Data routing, Fallback, Spillover and Impact summary, see [Explore AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/explore-ai-model-providers.md)
 
-For information on configuring of third party LLMs for APJC region, see [Configure third-party LLMs using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.md)
+For information on configuring of third party LLMs for APJC region, see [Configure third-party LLMs using Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.md)
 

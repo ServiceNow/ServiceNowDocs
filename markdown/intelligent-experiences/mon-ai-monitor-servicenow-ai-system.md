@@ -1,6 +1,6 @@
 ---
 title: Activate evaluation scoring for ServiceNow AI systems
-description: Assess the quality of your ServiceNow AI systems by activating evaluation scoring in AI Control Tower.
+description: Assess the quality of your ServiceNow AI systems by activating evaluation scoring in Super Intelligence Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-monitor-servicenow-ai-system.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure evaluation scoring for ServiceNow AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure evaluation scoring for ServiceNow AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Activate evaluation scoring for ServiceNow AI systems
 
-Assess the quality of your ServiceNow AI systems by activating evaluation scoring in AI Control Tower.
+Assess the quality of your ServiceNow AI systems by activating evaluation scoring in Super Intelligence Control Tower.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ ServiceNow AI systems are scored by the AI Skill Kit scoring engine. No addition
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Evaluation**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Evaluation**.
 
 2.  On the **AI evaluations** sub-tab, select **ServiceNow AI systems**.
 

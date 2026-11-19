@@ -1,22 +1,22 @@
 ---
 title: AI cost and net AI return
-description: AI Control Tower tracks the cost of your AI systems and subtracts it from the productivity value to show the net AI return. Cost is tracked by vendor from token consumption or a direct cost.
+description: Control Tower tracks the cost of your AI systems and subtracts it from the productivity value to show the net AI return. Cost is tracked by vendor from token consumption or a direct cost.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mc-ai-cost-net-ai-return.html
 release: brazil
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
-breadcrumb: [Cost, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Cost, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI cost and net AI return
 
-AI Control Tower tracks the cost of your AI systems and subtracts it from the productivity value to show the net AI return. Cost is tracked by vendor from token consumption or a direct cost.
+Control Tower tracks the cost of your AI systems and subtracts it from the productivity value to show the net AI return. Cost is tracked by vendor from token consumption or a direct cost.
 
 ## AI cost and net AI return overview
 
-The AI Control Tower \(AICT\) reports the productivity value of your AI systems as productivity gains, which it derives from your value templates and can express in currency. It also tracks the cost of running those AI systems. The net AI return is the money saved minus the cost.
+Control Tower reports the productivity value of your AI systems as productivity gains, which it derives from your value templates and can express in currency. It also tracks the cost of running those AI systems. The net AI return is the money saved minus the cost.
 
 ## Key benefits
 
@@ -29,9 +29,9 @@ AI cost tracking provides the following benefits:
 
 ## How cost is calculated
 
-The AI Control Tower calculates cost at the vendor level, because usage details for external vendors are available for the vendor rather than for each agent. For each vendor, the calculation uses the unit consumption, such as tokens, and the cost. A breakdown at the AI system level appears where that data is available.
+Control Tower calculates cost at the vendor level, because usage details for external vendors are available for the vendor rather than for each agent. For each vendor, the calculation uses the unit consumption, such as tokens, and the cost. A breakdown at the AI system level appears where that data is available.
 
-Integrated vendors, such as ServiceNow, the Vertex AI service, the Amazon Bedrock service, and the Azure Foundry service, use the trace integration to capture token consumption. When the API endpoint and the validation key are configured, the AI Control Tower tracks cost for those vendors automatically.
+Integrated vendors, such as ServiceNow, the Vertex AI service, the Amazon Bedrock service, and the Azure Foundry service, use the trace integration to capture token consumption. When the API endpoint and the validation key are configured, Control Tower tracks cost for those vendors automatically.
 
 You can define cost in two ways. Input and output token cost applies a separate rate to every million input tokens and output tokens. Direct cost applies a total cost that you enter, without a unit consumption.
 

@@ -22,8 +22,6 @@ You can create an automation request in three ways. You can create a request by 
 Submit an automation request using the ServiceNow® Service Catalog form to automate your business processes to streamline, reduce time spent on manual activities, and reduce costs.
 -   **[Create an automation request from Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/create-automation-request-autocenter.md)**  
 Create an automation request from Automation Center to automatically streamline your business processes, reduce how much time is spent on manual activities, and reduce your costs.
--   **[Integration with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/create-autreq-po.md)**  
-Create an automation request from the Process Mining Workspace, which is outside of the Automation Center. If you have installed Process Mining and Automation Center, then you can create an automation request from the Process Mining Workspace.
 
 **Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automations.md)
 

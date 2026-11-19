@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-industrialconnectedworkforcemobileexperience-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -343,7 +343,7 @@ Australia
 
 -   **Activation information**
 
-Install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. Install ICW Mobile by requesting it from the ServiceNow Store. The application is optimized for latest iOS and Android devices and may require a Mobile UI Framework dependency provided by the ICW suite. You can request ICW Mobile from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. Install ICW Mobile by requesting it from the ServiceNow Store. The application is optimized for latest iOS and Android devices and may require a Mobile UI Framework dependency provided by the ICW suite. You can request ICW Mobile from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** ICW Mobile is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

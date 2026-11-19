@@ -9,7 +9,7 @@ classification: currency-administration
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Defaults required for standard currency use, Configure, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Defaults required for standard currency use, Configure, Currency administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Control default currency field configuration and use in an instance

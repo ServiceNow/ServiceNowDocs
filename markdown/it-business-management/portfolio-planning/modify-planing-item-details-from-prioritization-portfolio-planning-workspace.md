@@ -33,15 +33,15 @@ Update the details of a planning item using the Prioritization and Hierarchy tab
 
 3.  Update item details, attach files to the item, or delete the item.
 
-<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d229744e113">
+<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d230610e115">
 
 Choice
 
-</th><th align="left" id="d229744e116">
+</th><th align="left" id="d230610e118">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d229744e122">
+</th></tr></thead><tbody><tr><td id="d230610e124">
 
 **Update planning item details**
 
@@ -55,7 +55,7 @@ Edit using one of the following ways:
 
  For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
-</td></tr><tr><td id="d229744e159">
+</td></tr><tr><td id="d230610e161">
 
 **Attach files to planning item**
 
@@ -63,7 +63,7 @@ Edit using one of the following ways:
 
 In the Attachments section of the full details page, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d229744e174">
+</td></tr><tr><td id="d230610e176">
 
 **Delete planning item**
 

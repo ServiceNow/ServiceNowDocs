@@ -30,15 +30,15 @@ Role required: sn\_apw\_advanced.spw\_goal\_user
 
 3.  Create a goal using one of the following methods depending on your board type.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d357489e83">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d359610e85">
 
 Option
 
-</th><th align="left" id="d357489e86">
+</th><th align="left" id="d359610e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d357489e92">
+</th></tr></thead><tbody><tr><td id="d359610e94">
 
 **From the Strategy page**
 
@@ -52,7 +52,7 @@ The strategic priority details page opens.
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d357489e121">
+</td></tr><tr><td id="d359610e123">
 
 **From the Goals page**
 

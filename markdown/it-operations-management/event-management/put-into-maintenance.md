@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage alert states in Express List, Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Manage alert states in Express List, Assigning and managing alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Mute a CI's alerts in Express List
@@ -40,4 +40,6 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 Alerts are muted for the configuration items of that alert.
 
 **Note:** The maintenance timeframe isn't provided in the **Put in Maintenance** action. Alert maintenance status is calculated based on whether the related CI is currently in maintenance, such as during an active change request or through a maintenance rule. The **Maintenance Calculation** scheduled job updates associated alerts when the CI enters or exits maintenance.
+
+**Parent Topic:**[Manage alert states in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/manage-alert-states-in-express-list.md)
 

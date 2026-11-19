@@ -29,3 +29,8 @@ SNC enables you to:
 
 SNC operates within the SAP NetWeaver Application Server \(AS\) environment. It uses the Generic Security Services Application Program Interface \(GSS-API\) to integrate with external security libraries and products. Commonly used security libraries include Kerberos-based solutions and SAP's own Secure Login Library \(SLL\).
 
+-   **[Configure an SNC connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-configure-an-snc-connection-in-erp-canvas.md)**  
+Learn how to set up an SNC connection, including preparing the environment, configuring the SAP system, and testing the configuration.
+
+**Parent Topic:**[Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-connect-to-sap.md)
+

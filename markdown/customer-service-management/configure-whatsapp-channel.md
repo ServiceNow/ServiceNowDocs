@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-whatsapp-channel.html
 release: brazil
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 6
 keywords: [WhatsApp, omnichannel, configure]
 breadcrumb: [Configure consumer messaging apps, Configure omnichannel, Configure, Customer Service Management]

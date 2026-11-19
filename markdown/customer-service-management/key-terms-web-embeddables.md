@@ -28,7 +28,7 @@ Global code
 
 </td><td>
 
-Global code is a common script for all the ServiceNow components. It enables you to define component themes, base URLs, authentication callbacks, and locale settings before embedding components onto your website. Additionally, it optimizes component performance by pre-caching the resources required for the components. You must add global code before adding component code onto your website hosting ServiceNow web embeddable components verifying a consistent look and feel, secure communication, and proper localization. Without including this script, your components don't render correctly or function as expected, potentially leading to issues with your user experience and functionality.
+Global code is a common script for all the ServiceNow components. It enables you to define component themes, base URLs, authentication callbacks, and locale settings before embedding components onto your website. Additionally, it optimizes component performance by pre-caching the resources required for the components. You must add global code before adding component code onto your website hosting ServiceNow web embeddable components ensuring a consistent look and feel, secure communication, and proper localization. Without including this script, your components don't render correctly or function as expected, potentially leading to issues with your user experience and functionality.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ CORS \(Cross-Origin Resource Sharing\) rules
 
 </td><td>
 
-CORS rules are a security mechanism in web browsers designed to control how resources on your webpages are accessed from different domains. This mechanism helps protect your data and resources from unauthorized access. By configuring CORS rules, you can specify and enforce access policies verifying that your embedded components can securely communicate with ServiceNow components. It is crucial for maintaining the integrity and security of your interactions on the website.
+CORS rules are a security mechanism in web browsers designed to control how resources on your webpages are accessed from different domains. This mechanism helps protect your data and resources from unauthorized access. By configuring CORS rules, you can specify and enforce access policies ensuring that your embedded components can securely communicate with ServiceNow components. It is crucial for maintaining the integrity and security of your interactions on the website.
 
 </td></tr><tr><td>
 

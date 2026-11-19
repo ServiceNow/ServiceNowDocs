@@ -26,7 +26,7 @@ These automated processes empower businesses to quicken their journey towards cl
 
 -   **[Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/cam-landing.md)**
 
-    Use the ServiceNow® [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/cam-landing.md) app for efficiently managing and provisioning of cloud accounts. The app allows you to either obtain manual approvals for account creation, ensuring the process is monitored and verified by relevant stakeholders, or automate the approval process based on predefined rules and conditions. Automation saves time and reduces manual intervention.
+    Use the ServiceNow® [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/cam-landing.md) app for efficiently managing and provisioning of cloud accounts. You can obtain manual approvals for account creation, so that relevant stakeholders monitor and verify the process. You can also automate the approval process based on predefined rules and conditions. Automation saves time and reduces manual intervention.
 
 -   **[Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-services-catalog/csc-home.md)**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-localization.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-04"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -53,17 +53,6 @@ AI Agent Studio
 </td><td>
 
 AI agents and AI Agent Studio are built on the GPT-4o-based framework and supports localization according to the GPT-4o model.
-
-</td></tr><tr><td>
-
-AI Control Tower
-
-</td><td>
-
--   ****
-
-Strings in AI asset security score details, AI agent containment, and configuration pages on the Security tab are available in your organization's configured language, including strings that were previously untranslated.
-
 
 </td></tr><tr><td>
 
@@ -261,6 +250,17 @@ ServiceNow Quote Experience
 -   ****
 
 Enhanced localization in ServiceNow CPQ: Translation and localization support is enhanced to include product offering labels, definitions, and field text in ServiceNow CPQ. Content is translated at compile time, enabling multilingual configuration workflows and a more consistent localized experience.
+
+
+</td></tr><tr><td>
+
+Super Intelligence Control Tower
+
+</td><td>
+
+-   ****
+
+Strings in AI asset security score details, AI agent containment, and configuration pages on the Security tab are available in your organization's configured language, including strings that were previously untranslated.
 
 
 </td></tr><tr><td>

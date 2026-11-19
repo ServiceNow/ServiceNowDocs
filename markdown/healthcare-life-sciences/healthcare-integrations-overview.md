@@ -18,7 +18,7 @@ Healthcare systems exchange patient, practitioner, organizational, and clinical 
 
 ## HL7 FHIR Integration
 
-The [Healthcare Operations HL7 FHIR Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-landing.md) reads the following HL7 FHIR R4 provider-directory resources from a FHIR R4-conformant server:
+The [EMR Provider Directory Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-emr-provider-directory-sync-landing.md) reads the following HL7 FHIR R4 provider-directory resources from a FHIR R4-conformant server:
 
 -   Organization
 -   Location

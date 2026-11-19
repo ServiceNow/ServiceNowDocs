@@ -1,21 +1,21 @@
 ---
 title: Close a security incident
-description: Chat with an AI agent in the ServiceNow Otto panel to help you close a security incident.
+description: Use the Wrap up security incident agentic workflow in the ServiceNow Otto panel to cancel open response tasks, generate close notes and post-incident analysis, and close a security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/close-sir-incident-aiagent.html
 release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-11-03"
+reading_time_minutes: 3
 keywords: [AI Agents, agentic AI]
 breadcrumb: [Close security incidents, Use agentic workflows, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Close a security incident
 
-Chat with an AI agent in the ServiceNow Otto panel to help you close a security incident.
+Use the Wrap up security incident agentic workflow in the ServiceNow Otto panel to cancel open response tasks, generate close notes and post-incident analysis, and close a security incident.
 
 ## Before you begin
 
@@ -25,63 +25,52 @@ Role required: sn\_si.analyst or sn\_si.manager
 
 **Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
+You can't use this agentic workflow to close a security incident that's in the Closed or Cancelled state. If you request a closure for such a security incident, the AI agent informs you and takes no action.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Security Incident** &gt; **Security Incident Response Workspace**.
 
 2.  Open the security incident that you want to close by using the AI agent.
 
-3.  Select the ServiceNow Otto icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI Sparkle icon.\) icon.
+3.  In the header, select the ServiceNow Otto icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI Sparkle icon.\).
 
-    The panel is displayed.
+4.  In the ServiceNow Otto panel, enter the closure request for the type of closure that you want.
 
-4.  Close the security incident by using one of the following options.
+    |Option|Description|
+    |------|-----------|
+    |**Close the security incident with generated closure details**|Enter `Close this incident`, `Close this security incident`, or `Close the security incident: SIR0012345`.|
+    |**Close the security incident as a false positive**|Enter `Close this incident as false positive` or `Close this security incident as false positive`.|
 
-<table id="choicetable_ytr_35h_m2c"><thead><tr><th align="left" id="d40484e117">
+    If you enter `Close this incident` or `Close this security incident`, the AI agent uses the security incident that's open. If no security incident is open, include the security incident number in your request.
 
-Option
+5.  If the AI agent warns that the security incident has open response tasks or mandatory assessments, select **Yes** to continue with the closure.
 
-</th><th align="left" id="d40484e120">
+    When it closes the security incident, the AI agent cancels the open response tasks and ignores any mandatory assessments. Nothing changes on the security incident or its tasks until the closure is complete. If you want to keep the response tasks, select **No** and close the tasks manually before you request the closure.
 
-Description
+6.  If you're closing the security incident with generated closure details, review the post-incident analysis and close notes that the AI agent generates, and then select **Approve**.
 
-</th></tr></thead><tbody><tr><td id="d40484e126">
+    If you want to change the content, select **Revise** and describe the changes, or paste the exact wording that you want. The AI agent shows the revised content and asks for your approval again.
 
-**Close a security incident**
+    If the AI agent can't generate the post-incident analysis, it informs you. You can approve the closure without a post-incident analysis, or select **Revise** and enter the post-incident analysis that you want to save. If the AI agent can't generate the close notes, it asks you to provide them.
 
-</td><td>
+7.  If you're closing the security incident with generated closure details, accept the close code that the AI agent suggests or choose a different close code.
 
-On the panel, ask the agent to close the security incident in natural language by entering `Close this incident`, `Close this security incident`, or `Close the security incident: SIR0012345`. **Note:**
+    The AI agent suggests a close code based on the security incident details, post-incident analysis, and close notes. Depending on how the AI agent presents the suggestion, select **Approve** or select the suggested close code to accept it. To use a different close code, select **Revise** and name the close code, or select it from the list. After you accept a close code, the AI agent closes the security incident without asking for further confirmation.
 
--   When you enter `Close this incident` or `Close this security incident`, the panel picks the security incident in context. When you provide a specific security incident number, such as `Close the security incident: SIR0012345`, the agentic workflow takes action for the suggested security incident.
--   You can close any security incident from the panel by providing the security incident number in your text.
--   When you request a security incident closure, the Wrap up security incident agentic workflow cancels the mandatory post incident assessment, flow actions, playbook actions, workflow actions, and response tasks. However, you can close these actions manually before initiating the security incident closure request.
- The Wrap up security incident agentic workflow provides content for each of the following fields and asks for your feedback. The agentic workflow populates your accepted feedback. After you accept the content for a field, the agentic workflow provides content for the next field.
+8.  If you're closing the security incident as a false positive, confirm the closure by selecting **Yes**.
 
--   **Post Incident Analysis**: Accept the suggested content by replying with a positive response such as `looks good` or `Ok`.
+    The AI agent shows a summary of the security incident before it asks you to confirm the closure.
 
-Ask the agentic workflow to refine the content and suggest the changes you require.
 
--   **Close notes**: Accept the suggested content by replying with a positive response such as `looks good` or `Ok`.
+## Result
 
-You can ask the agentic workflow to refine the content and you can also suggest the changes you require.
+-   The security incident is in the Closed state.
+-   The open response tasks are in the Cancelled state.
+-   For a closure with generated closure details, the **Close notes**, **Close code**, and **Post-incident analysis** fields contain the content that you approved. The **Post-incident analysis** field is empty if you approved the closure without it.
+-   For a false-positive closure, the **Close notes** field is set to `Closed by AI Agent as false positive.` and the **Close code** field is set to **False positive**.
+-   The panel shows a summary of the actions that the AI agent completed.
+-   The activity stream records the changes as AI entries made on behalf of your user, for example, `Security incident closed.`
 
--   **Close code**: On the basis of the security incident details, the agentic workflow suggests a close code. You can accept the close code or suggest an alternative close code for the security incident.
-The AI agent closes the security incident.
-
-**Note:** When a field is changed, the activity stream appends the words "AI AGENT:" with a description of the update made by the AI agent. For example, `AI AGENT: Close code is updated`.
-
-</td></tr><tr><td id="d40484e210">
-
-**Close a security incident as false positive**
-
-</td><td>
-
-On the panel, you can ask the AI agent to close the security incident as false positive. For example, `Close this incident as false positive` or `close this security incident as false positive`.The agentic workflow provides the summary of the security incident. To close the security incident, enter positive responses such as `looks good` or `Ok`.
-
-The AI agent closes the security incident. It also updates the Close notes as `Closed by AI Agent as false positive` and the Close code as **False positive** and cancels all active response tasks.
-
-</td></tr></tbody>
-</table>
 **Parent Topic:**[Close security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/now-assist-sir-close-incident-usecase.md)
 

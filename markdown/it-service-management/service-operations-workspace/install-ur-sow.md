@@ -41,7 +41,7 @@ For more information, see [Universal Request in Service Operations Workspace ref
 
     You can search for the application by its name or ID. If you can’t find the application, you might have to request it from the ServiceNow Store.
 
-    In the list next to the **Install** button, the versions that are available to you’re displayed.
+    In the list next to the **Install** button, the versions that are available to you are displayed.
 
 3.  Select a version from the list and select **Install**.
 

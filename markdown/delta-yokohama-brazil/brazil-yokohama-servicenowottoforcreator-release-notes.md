@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-servicenowottoforcreator-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 24
 breadcrumb: [Products combined by family]
 ---
@@ -249,7 +249,7 @@ When creating or editing a catalog item, you can use plain language to assign va
 
  -   **[Configure AI model providers](https://www.servicenow.com/docs/access?context=configure-model-providers-for-now-assist-skills&family=zurich&ft:locale=en-US)**
 
-Choose a model provider for ServiceNow Otto for Code skills in the script editor. You can choose from the models that are enabled in the AI Control Tower.
+Choose a model provider for ServiceNow Otto for Code skills in the script editor. You can choose from the models that are enabled in the Control Tower.
 
 -   **[Planning tool available with the Build Agent](https://www.servicenow.com/docs/access?context=exploring-build-agent&family=zurich&ft:locale=en-US)**
 
@@ -578,7 +578,7 @@ Yokohama
 
 -   **Activation information**
 
-Install ServiceNow Otto for Creator by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install ServiceNow Otto for Creator by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** ServiceNow Otto for Creator is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -591,7 +591,7 @@ Zurich
 
 -   **Activation information**
 
-Install ServiceNow Otto for Creator by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install ServiceNow Otto for Creator by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** ServiceNow Otto for Creator is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -604,7 +604,7 @@ Australia
 
 -   **Activation information**
 
-Install ServiceNow Otto for Creator by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install ServiceNow Otto for Creator by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** ServiceNow Otto for Creator is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -829,7 +829,7 @@ Yokohama
 
  [Yokohama Patch 6](https://www.servicenow.com/docs/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
 **Note:** Additional AI model providers are supported for the following ServiceNow Otto for Creator skills:
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-microsoft-onelake-connection.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-17"
 reading_time_minutes: 1
-breadcrumb: [Microsoft OneLake, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Microsoft OneLake \(Preview\), Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create a Microsoft OneLake connection
@@ -26,8 +26,8 @@ Work with your data source admin to create a connection to Microsoft OneLake. Fo
 
 1.  Navigate to the available primary connectors in Zero Copy Connector Hub in one of the following ways:
 
-    -   Navigate to **All** &gt; **Workflow Data Fabric Hub** &gt; **Available connectors** &gt; **Primary connectors**.
-    -   Navigate to **Admin** &gt; **Workflow Data Fabric Hub** &gt; **Available connectors** &gt; **Primary connectors**.
+    -   Navigate to **All** &gt; **Zero Copy Connector Hub** &gt; **Available connectors** &gt; **Primary connectors**.
+    -   Navigate to **Admin** &gt; **Zero Copy Connector Hub** &gt; **Available connectors** &gt; **Primary connectors**.
 2.  Find the Microsoft OneLake connector and select **Connect**.
 
 3.  On the form, fill in the fields.

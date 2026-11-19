@@ -22,5 +22,5 @@ With remedial actions, you can trigger an action on the end-user device. With th
 -   If there are any existing Virtual Agent topics, these can be populated as a resolution to the end user.
 -   When the metric rule criteria are met, a catalog item is displayed for the user to fill in and submit.
 
-To create your own remedial action, see [Configure the Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/config-remedial-action-fw.md).
+For creating your own remedial action, see .
 

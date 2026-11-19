@@ -18,6 +18,10 @@ You can configure AI search in Recommended Actions by performing these procedure
 
 <table id="table_jm3_lm4_15b"><thead><tr><th>
 
+Step number
+
+</th><th>
+
 Step
 
 </th><th>
@@ -26,6 +30,10 @@ Action
 
 </th></tr></thead><tbody><tr><td>
 
+1
+
+</td><td>
+
 [Enable the AI search tab in UI builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/vancouver/now-components/sn-next-best-action-list-connected/uib-setup)
 
 </td><td>
@@ -33,6 +41,10 @@ Action
 Deselect the **Hide Search** button in UI Builder to display the AI search tab in the contextual side panel of your workspace.
 
 </td></tr><tr><td>
+
+2
+
+</td><td>
 
 [Create a context and select a search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-contexts-create.md)
 
@@ -43,6 +55,10 @@ Deselect the **Hide Search** button in UI Builder to display the AI search tab i
 
 </td></tr><tr><td>
 
+3
+
+</td><td>
+
 [Map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-create-search-result-mapping-for-ai-search.md)
 
 </td><td>
@@ -50,6 +66,10 @@ Deselect the **Hide Search** button in UI Builder to display the AI search tab i
 Map AI search results with guidance inputs to enable the AI search results to be displayed with appropriate actions.
 
 </td></tr><tr><td>
+
+4
+
+</td><td>
 
 [Automatically map AI search results with guidance inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-configuring-ai-search-automatically.md)
 
@@ -59,6 +79,10 @@ Automatically create AI search results for a search configuration application in
 
 </td></tr><tr><td>
 
+5
+
+</td><td>
+
 [Configure dynamic filters in AI Search for Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-configure-contextual-filtering.md)
 
 </td><td>
@@ -67,6 +91,8 @@ Configure AI Search to preprocess contextual inputs from Recommended Actions so 
 
 </td></tr></tbody>
 </table>## Configuring genius results
+
+You must install the ServiceNow Otto for Customer Service Management \(CSM\) is the plugin to use genius result in AI search in Recommended Actions.
 
 In the search profile of your selected search application configuration, link the following Genius Result configurations to display actionable top results. For more information, see [Link a Genius Result configuration to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/link-gr-search-profile-ais.md).
 

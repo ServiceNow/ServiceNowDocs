@@ -1,19 +1,19 @@
 ---
 title: Conversational evaluator
-description: Conversational evaluator measures the quality of Virtual Agent conversations in AI Control Tower.
+description: Conversational evaluator measures the quality of Virtual Agent conversations in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-conversational-evaluator.html
 release: brazil
 topic_type: concept
 last_updated: "2026-09-23"
 reading_time_minutes: 2
-keywords: [Conversational Evaluator, AI Control Tower, Virtual Agent, auto-evaluation]
-breadcrumb: [Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+keywords: [Conversational Evaluator, Control Tower, Virtual Agent, auto-evaluation]
+breadcrumb: [Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Conversational evaluator
 
-Conversational evaluator measures the quality of Virtual Agent conversations in AI Control Tower.
+Conversational evaluator measures the quality of Virtual Agent conversations in Control Tower.
 
 ## Conversational evaluator overview
 
@@ -21,7 +21,7 @@ Conversational Evaluator gives you a measurable view of conversation quality so 
 
 A conversation that saves time for a live agent is treated as a successful conversation. Conversational Evaluator combines quality scores with value metrics, such as estimated time savings, so you can connect conversation quality to business impact.
 
-You access Conversational Evaluator from the **Evaluation** tab in AI Control Tower.
+You access Conversational Evaluator from the **Evaluation** tab in Control Tower.
 
 **Note:** Generative AI may produce inaccurate or incomplete information. Always validate AI-generated content.
 

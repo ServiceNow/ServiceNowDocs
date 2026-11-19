@@ -18,7 +18,7 @@ Activity definitions describe how the activities in your playbook get the data t
 
 Activity definitions provide default configurations and values for your activities so that they can run properly when your playbook is triggered. Each activity definition contains some basic configuration details, as well as an automation plan and activity experience.
 
-The Activity Definition \[sys\_pd\_activity\_definition\] table lists the definitions for the activities that you can add to a playbook in Workflow Studio. To access these activity definitions, navigate to **Process Automation** &gt; **Process Automation Administration** &gt; **Activity Definitions**.
+The Activity Definition \[sys\_pd\_activity\_definition\] table lists the definitions for the activities that you can add to a playbook in Workflow Studio. To access these activity definitions, navigate to **Process Automation** &gt; **Playbook Administration** &gt; **Activity Definitions**.
 
 ## Fields
 

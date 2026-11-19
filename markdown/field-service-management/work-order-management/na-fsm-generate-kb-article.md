@@ -1,6 +1,6 @@
 ---
-title: Generate a knowledge article from the CSM/FSM Configurable Workspace and classic environment
-description: As a technician, generate knowledge articles for closed work order tasks within the CSM/FSM Configurable Workspace and classic environment with ServiceNow Otto.
+title: Generate a knowledge article from the CRM Workspace and classic environment
+description: As a technician, generate knowledge articles for closed work order tasks within the CRM Workspace and classic environment with ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/na-fsm-generate-kb-article.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 3
 breadcrumb: [Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
-# Generate a knowledge article from the CSM/FSM Configurable Workspace and classic environment
+# Generate a knowledge article from the CRM Workspace and classic environment
 
-As a technician, generate knowledge articles for closed work order tasks within the CSM/FSM Configurable Workspace and classic environment with ServiceNow Otto®.
+As a technician, generate knowledge articles for closed work order tasks within the CRM Workspace and classic environment with ServiceNow Otto®.
 
 ## Before you begin
 
@@ -40,11 +40,11 @@ Role required: wm\_dispatcher, wm\_manager
 
 ## About this task
 
-In the FSM Configurable Workspace and classic environment, you can generate the knowledge article information for a work order task by selecting **Create Knowledge** on the work order task record. This UI action displays the Use Al to draft this article modal. By using this modal, you can choose to write the article yourself or draft an article with ServiceNow Otto® and review and edit the knowledge article text.
+In the CRM Workspace and classic environment, you can generate the knowledge article information for a work order task by selecting **Create Knowledge** on the work order task record. This UI action displays the Use Al to draft this article modal. By using this modal, you can choose to write the article yourself or draft an article with ServiceNow Otto® and review and edit the knowledge article text.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Open a work order task that is assigned to you.
 

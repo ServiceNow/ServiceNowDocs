@@ -9,7 +9,7 @@ classification: system-localization
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Translating custom content, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Translating custom content, System Localization, Translation and localization, Configure core features, ServiceNow AI Platform]
 ---
 
 # Locating translatable UI strings

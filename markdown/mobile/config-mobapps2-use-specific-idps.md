@@ -56,7 +56,7 @@ Admins can define the login experience for mobile users by associating app-speci
 
     You can also enter the login URL for a custom login page.
 
-    To use identifier-first login for the mobile app, enter `ifl_login.do` as the Login URL. Identifier-first login is opt-in, so mobile app logins use it only when this Login URL is set in the corresponding OAuth entity record. Identifier-first login takes effect only when the policy-based login experience is enabled and at least one active identifier-first login policy exists. After the user enters an identifier, the instance routes the user to an authentication method based on the active identifier-first login policies. For more information, see .
+    To use identifier-first login for the mobile app, enter `ifl_login.do` as the Login URL. Identifier-first login is opt-in, so mobile app logins use it only when this Login URL is set in the corresponding OAuth entity record. Identifier-first login takes effect only when the policy-based login experience is enabled and at least one active identifier-first login policy exists. After the user enters an identifier, the instance routes the user to an authentication method based on the active identifier-first login policies. For more information, see [IFL policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/ifl-policies.md).
 
     **Note:** If **Force local login** is enabled for the mobile app, identifier-first login behavior at login isn't effective in mobile authentication. For more information about force local login, see [KB1560809](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1560809).
 

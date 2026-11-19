@@ -1,36 +1,30 @@
 ---
-title: Configure scanning properties per persona
+title: Configure Team Dev scanning properties
 description: You can view and configure a variety of information, formatted into lists, that the Scan Engine uses to permit users, team leads, and admins to access content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/teamdev-scanning-properties.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
+last_updated: "2026-11-16"
+reading_time_minutes: 1
+breadcrumb: [Configure Scan Engine properties, Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
-# Configure scanning properties per persona
+# Configure Team Dev scanning properties
 
 You can view and configure a variety of information, formatted into lists, that the Scan Engine uses to permit users, team leads, and admins to access content.
 
-## TeamDev scanning properties
+You can specify whether to scan Team Dev code pushes that are pending a review, whether to approve or reject those pushes automatically, and whether developers can use Suite scans for applications.
 
-You can specify whether to scan TeamDev code pushes that are pending a review. You can also specify the requirements they must meet to be automatically approved or rejected.
+If you use Team Dev as a method for pushing code, the Scan Engine can be used to scan code pushes that are pending a code review. You scan these pushes for findings, and you can choose to approve or reject code reviews automatically.
 
-If you use TeamDev as a method for pushing code, the Scan Engine can be used to scan code pushes that are pending a code review. You scan these pushes for findings, as well as define the conditions to automatically approve or reject code reviews.
-
-**Note:** Code reviews must be enabled for TeamDev scanning to work properly. Additionally, admins must perform a one-time API configuration to enable TeamDev scanning. For more information, refer to [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
+**Note:** Code reviews must be enabled for Team Dev scanning to work properly. Additionally, admins must perform a one-time API configuration to enable Team Dev scanning. For more information, refer to [Register your instance in My SN Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
 
 Properties include:
 
 -   **Automatically scan pushes pending Code Review** \(`auto_scan_team_dev_pushes`\)
--   **Automatically approve or reject pushes** \(`team_dev_auto_approve`\)
--   **Approval condition** \(`team_dev_approval_condition`\)
-
-    **Note:** The default approval condition is `total_errors=0`. This means TeamDev code pushes with zero errors will be auto-approved.
-
--   **Code reviewer user** \(`team_dev_user`\)
+-   **Automatically approve or reject pushes** \(`team_dev_auto_approve`\). This option becomes available after you select **Automatically scan pushes pending Code Review**.
+-   **Allow Suite scanning for Applications**. When selected, developers can choose between a Full scan and a Suite scan. A Suite scan runs only selected definitions for faster validation. A Full scan runs all active definitions. When cleared, only Full scans are available.
 
 ## Users and administrators
 
@@ -51,24 +45,6 @@ The team and team leads defined here can view the Team Lead information in the A
     |My Team - Users|Specify the user or list of users that are part of this team.|
     |My Team - Groups|Specify the group or list of groups that are part of this team.|
 
-
-**Important:** The teams and members are used to populate the **Technical debt by developer over time** chart on the Health Analytics dashboard. If these are Teams aren't defined, the chart will be empty.
-
-## Set requirements for automatic approval or rejection
-
-To automatically scan TeamDev code pushes when they are committed, configure the **Automatically Scan Pushes Pending Code Review** option:
-
-1.  Enable **Automatically approve or reject pushes**.
-2.  Add a Code reviewer user for additional tracking.
-
-    You can see the table that will be used for checking scan results.
-
-3.  Use the condition builder to specify the rules for how a code push is approved.
-
-    If it does not meet these rules, it will be rejected.
-
-
-You can add and configure additional filter conditions by selecting **Add filter condition**. You can also add and configure OR clauses by selecting **Add OR clause**.
 
 **Parent Topic:**[Configure Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md)
 

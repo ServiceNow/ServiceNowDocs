@@ -24,7 +24,7 @@ Projects are temporary opportunities, but they can be either long-term or short-
 -   Demonstrate the ability to handle responsibility
 -   Lead teams
 
-Projects enable managers to pull quickly from an available pool of resources and skills. For more information about opportunity types, see .
+Projects enable managers to pull quickly from an available pool of resources and skills.
 
 **Parent Topic:**[Explore Opportunity Marketplace \(OPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-explore.md)
 

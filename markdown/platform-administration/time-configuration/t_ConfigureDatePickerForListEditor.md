@@ -9,7 +9,7 @@ classification: time-configuration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Date and Date/Time fields, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Date and Date/Time fields, Explore, Time configuration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure the date picker for the list editor

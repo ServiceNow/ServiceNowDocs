@@ -34,7 +34,7 @@ This Accelerator provides guided coaching to measure adoption, close post-go-liv
 
 ## What You Get
 
-Includes the following CSE-led sessions and activities, as applicable \(up to 1.5 hours each\):
+Includes the following sessions and activities, as applicable \(up to 1.5 hours each\):
 
 -   **Executive Sponsor Re-Engagement Session**
     -   Reconnect sponsor to current adoption data and outcomes

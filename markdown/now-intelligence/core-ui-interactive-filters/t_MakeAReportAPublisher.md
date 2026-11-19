@@ -33,9 +33,9 @@ Only reports with a **Type** value of pie, donut, semi donut, funnel, or pyramid
 
 2.  Put the dashboard into Edit mode.
 
-    Select the sharing icon \(\[Omitted image "SharingIcon.png"\] Alt text:\).
+    Select the sharing icon \(\[Omitted image "SharingIcon.png"\] Alt text: Sharing icon\).
 
-3.  Point to the top of the report widget, and select the Edit widget icon \(\[Omitted image "Pa\_dashboard\_cog.png"\] Alt text:\).
+3.  Point to the top of the report widget, and select the Edit widget icon \(\[Omitted image "Pa\_dashboard\_cog.png"\] Alt text: Edit widget icon\).
 
 4.  Select **Act as interactive filter**.
 

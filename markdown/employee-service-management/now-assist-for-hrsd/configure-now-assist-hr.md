@@ -38,7 +38,7 @@ Set up ServiceNow Otto for HRSD by installing plugins, assigning roles, preparin
 
     Turn on the skills your organization needs and adjust their settings.
 
-6.  [Configure sensitivity detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/config-na-sd-filters.md)
+6.  [Configure AI guardrails for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/config-na-sd-filters.md)
 
     Set the content sensitivity levels and filters that screen the inputs and outputs.
 
@@ -53,8 +53,8 @@ Install the plugins that provide AI capabilities for HR Service Delivery.
 Review a snapshot of your HR data health to find gaps before you deploy AI agents. The HR Data Readiness Dashboard scores 32 metrics across six readiness areas. Each metric is flagged red, yellow, or green. Use the results to decide what to fix before you configure AI agents.
 -   **[Configure ServiceNow Otto for HRSD skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/customize-nahr-skill.md)**  
 Learn which AI skills are auto-activated and which require you to activate and configure. Alternatively, you can duplicate a generative AI skill to experiment with skill settings and configure the skill to fit your business needs.
--   **[Configure sensitivity detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/config-na-sd-filters.md)**  
-Configure sensitivity detection in the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
+-   **[Configure AI guardrails for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/config-na-sd-filters.md)**  
+Configure offensiveness detection, prompt injection detection, and sensitive topic filters for the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
 -   **[HRSD MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/hrsd-mcp-server.md)**  
 The HRSD MCP Server allows HR agents and employees to securely access Case and Knowledge Management features through AI applications like Claude.
 -   **[Configure Gen AI Virtual Agent for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/use-genai-ec.md)**  

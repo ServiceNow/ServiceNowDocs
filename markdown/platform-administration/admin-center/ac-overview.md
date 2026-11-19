@@ -9,7 +9,7 @@ classification: admin-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exploring Admin Center, Admin Center, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Exploring Admin Center, Admin Center, Get started, ServiceNow AI Platform]
 ---
 
 # Admin Center summary

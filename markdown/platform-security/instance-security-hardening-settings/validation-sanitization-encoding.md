@@ -20,6 +20,16 @@ This control ensures input validation and output encoding are in place and corre
 
 -   **[Allow HTML Links to Trusted Domains in the Description Fields of the Impact Workspace Module \[New in Security Center 7.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-allow-html-links-to-trusted.md)**  
 Use a system property to help sanitize the HTML allowed in the descriptions fields. This property limits the allowed links to only those from the trusted domains listed in the property.
+-   **[Disable AJAXEvaluate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-disable-ajaxevaluate.md)**  
+Use the **glide.script.allow.ajaxevaluate** to protect the system API from vulnerabilities of Client script execution through AJAX calls.
+-   **[Disable Entity Expansion within the XMLDocument2 Streaming Parser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-disable-entity-expansion.md)**  
+If customizations do not require entity expansion, use the **glide.stax.allow\_entity\_resolution** property to completely disable external entity expansion. The XML completes parsing but doesn't include any internal or external entities.
+-   **[Disable JavaScript tags in embedded HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-allow-javascript-tags-in-embedded-html.md)**  
+Use the **glide.ui.security.codetag.allow\_script** property to disable support for embedding HTML JavaScript code created using of the \[code\] tag.
+-   **[Disable external content URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-disable-external-content-url.md)**  
+Manage how external link metadata is used in your instance with Connect Chat.
+-   **[Define restricted downloadable MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-downloadable-mime-types.md)**  
+Use the **glide.ui.attachment.force\_download\_all\_mime\_types** property to download MIME types and not to render inline in the browser.
 -   **[Enable the hardened java security manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-enable-the-hardened-java-security-manager.md)**  
 The **glide.security.manager** property contains the Java classname of the current Java security manager.
 -   **[Enable HTML Sanitizer \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-html-sanitizer.md)**  
@@ -36,14 +46,6 @@ The **glide.cs.sanitize\_inbound\_messages.enabled** property controls whether V
 Use the **com.glide.security.check\_unsanitized\_html** property to enforce sanitization behavior of translated\_html fields on a global level for field assignments.
 -   **[Ensure Contextual Search Do Not Contain An Unvalidated Redirect \[New in Security Center 7.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-ensure-contextual-search-do-not-contain-an-unvalidated-redirect.md)**  
 Prevent Contextual Search results from containing referral links outside the current domain with a system property.
--   **[Disable AJAXEvaluate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-disable-ajaxevaluate.md)**  
-Use the **glide.script.allow.ajaxevaluate** to protect the system API from vulnerabilities of Client script execution through AJAX calls.
--   **[Disable Entity Expansion within the XMLDocument2 Streaming Parser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-disable-entity-expansion.md)**  
-If customizations do not require entity expansion, use the **glide.stax.allow\_entity\_resolution** property to completely disable external entity expansion. The XML completes parsing but doesn't include any internal or external entities.
--   **[Disable external content URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-disable-external-content-url.md)**  
-Manage how external link metadata is used in your instance with Connect Chat.
--   **[Disable JavaScript tags in embedded HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-allow-javascript-tags-in-embedded-html.md)**  
-Use the **glide.ui.security.codetag.allow\_script** property to disable support for embedding HTML JavaScript code created using of the \[code\] tag.
 -   **[Restrict downloadable MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-downloadable-mime-type-denylist.md)**  
 The **glide.ui.attachment.download\_mime\_types** property will force the specified list of dangerous file types to be downloaded to the client and not viewed inline in the browser.
 -   **[Enable HTML sanitizer within Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-enable-html-sanitizer.md)**  
@@ -70,12 +72,6 @@ Learn how scratchpad factors into the security posture of your instance and how 
 Use the **glide.ui.escape\_text** property to force escape of XML values at the parser level before transmitting them to the client's browser.
 -   **[Escape xml response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-escape-xml-response.md)**  
 Manage how XML escapes are handled on your instance.
--   **[Restrict access to GlideSystemUserSession scriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-glidesystemusersession-scriptable-api.md)**  
-The client callable GlideSystemUserSessionSandbox scriptable API exposes GlideSystemUserSession's addErrorMessageNoSanitization and addInfoMessageNoSanitization methods to the JavaScript sandbox. This allows all users to call this method via script.
--   **[Restrict allowed Java packages \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-java-packages-allowlist.md)**  
-Configuring these properties protect from dangerous APIs being exposed to the scripting engine.
--   **[Unset LDAP Initial distinguished name \[Updated in Security Center 1.3 and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-ldap-initial-distinguished-name.md)**  
-Use this property to manage the distinguished name of a LDAP Server record.
 -   **[Enforce strict security of session cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-secure-session-cookies.md)**  
 Use the **glide.ui.secure\_cookies** property to require properly formatted cookies
 -   **[Minimize entity expansion threshold for GlideXMLUtil scriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-setting-entity-expansion-threshold.md)**  
@@ -84,8 +80,10 @@ Use the **glide.xmlutil.max\_entity\_expansion** property to change the maximum 
 Set the **glide.security.empty\_acl.popup\_window.enabled** property to the secure value of true to block attempts to create, update, or save an invalid ACL. This setting will also provide a client-side model to configure a role or security attribute for the ACL.
 -   **[Prevent Reuse of REST API Sessions in UI/Web](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-prevent-reuse-of-rest-api-sessions-in-ui-web.md)**  
 Prevent REST API session cookies from bypassing Single Sign-On \(SSO\) and Multi-Factor Authentication \(MFA\) controls using a system property.
--   **[Define restricted downloadable MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-downloadable-mime-types.md)**  
-Use the **glide.ui.attachment.force\_download\_all\_mime\_types** property to download MIME types and not to render inline in the browser.
+-   **[Restrict allowed Java packages \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-java-packages-allowlist.md)**  
+Configuring these properties protect from dangerous APIs being exposed to the scripting engine.
+-   **[Restrict access to GlideSystemUserSession scriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-glidesystemusersession-scriptable-api.md)**  
+The client callable GlideSystemUserSessionSandbox scriptable API exposes GlideSystemUserSession's addErrorMessageNoSanitization and addInfoMessageNoSanitization methods to the JavaScript sandbox. This allows all users to call this method via script.
 -   **[Restrict uploaded MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-upload-mime-type-restriction.md)**  
 Use the **glide.security.file.mime\_type.validation** property to activate MIME type checking for uploads. You can enable \(set the property to **true**\) or disable \(set it to **false**\) MIME type validation for file attachments.
 -   **[Restrict XML external entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-xml-entity-validation-url-allowlist.md)**  
@@ -98,6 +96,8 @@ Learn how to configure the **glide.translated\_html.sanitize\_all\_fields** prop
 Sanitize the HTML in the description fields by removing HTML tags that are sources of HTML injection attacks with the **sn\_impact\_common.blacklist\_tags\_HTML\_injection** property.
 -   **[Set safe content security policy for SVG files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-set-safe-content-security-policy-for-svg-files.md)**  
 The **com.glide.csp.self\_script\_src\_svg** property adds the **script-src none** directive to the HTTP Content-Security-Policy header when Scalable Vector Graphics \(SVGs\) are accessed through the Translation Memory Index \(IIX\) file extension.
+-   **[Unset LDAP Initial distinguished name \[Updated in Security Center 1.3 and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-ldap-initial-distinguished-name.md)**  
+Use this property to manage the distinguished name of a LDAP Server record.
 -   **[Validate MIME type for multi-extension filenames and polyglot files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-validate-mime-type-for-multi.md)**  
 Use a system property to prevent attachments from bypassing MIME-type restrictions.
 

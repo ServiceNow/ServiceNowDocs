@@ -1,6 +1,6 @@
 ---
 title: Sample code for the Case create component
-description: Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
+description: Use this sample code to run an action when the Case create component triggers an event.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-create-sample-code.html
 release: brazil
@@ -14,9 +14,11 @@ breadcrumb: [Case create component, Configure web components, Configure Web Embe
 
 # Sample code for the Case create component
 
-Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
+Use this sample code to run an action when the Case create component triggers an event.
 
 ## Sample code
+
+Update the sample code for your use case before embedding the component on your webpage.
 
 ```
 { 
@@ -93,7 +95,7 @@ var {items} = e.detail.payload;
 
 console.log(items); 
 
-} 
+} }
 ```
 
 **Related topics**  

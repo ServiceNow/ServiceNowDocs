@@ -205,7 +205,7 @@ Role required: discovery\_admin
 
     \[Omitted image "CIScheduleMgrErrorInst.png"\] Alt text: Error details and remediation instructions
 
-6.  To begin work, either select the check box next to an error to resolve that specific error or select an action for **ALL** to resolve that error code for all instances of that error.
+6.  Select the check box next to an error to resolve it, or select an action for **ALL** to resolve that error code for all instances.
 
     In this example, the system recommends creating new Windows credentials to resolve this error code.
 

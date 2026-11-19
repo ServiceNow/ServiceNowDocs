@@ -1,6 +1,6 @@
 ---
-title: Exploring AI Control Tower \(legacy\)
-description: Explore and learn about the AI Control Tower and its role in managing the AI asset inventory, overseeing configurations, integrating with other applications, and handling the asset approval workflow.
+title: Exploring Control Tower \(legacy\)
+description: Explore and learn about the Control Tower and its role in managing the AI asset inventory, overseeing configurations, integrating with other applications, and handling the asset approval workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/exploring-ai-control-tower.html
 release: brazil
@@ -10,16 +10,16 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, LLM, large language model]
-breadcrumb: [AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Exploring AI Control Tower \(legacy\)
+# Exploring Control Tower \(legacy\)
 
-Explore and learn about the AI Control Tower and its role in managing the AI asset inventory, overseeing configurations, integrating with other applications, and handling the asset approval workflow.
+Explore and learn about the Control Tower and its role in managing the AI asset inventory, overseeing configurations, integrating with other applications, and handling the asset approval workflow.
 
-## AI Control Tower overview
+## Control Tower overview
 
-AI Control Tower provides enterprises with visibility into their AI footprint, manages the lifecycle of their AI investments, and identifies risks. This AI Control Tower's functionality ensures that their AI models, workflows, and agents are governed, optimized, and aligned with business strategy. It focuses on:
+Control Tower provides enterprises with visibility into their AI footprint, manages the lifecycle of their AI investments, and identifies risks. This Control Tower's functionality ensures that their AI models, workflows, and agents are governed, optimized, and aligned with business strategy. It focuses on:
 
 -   **AI Strategy &amp; Value:** Tracks how AI improves efficiency, revenue, and cost savings.
 -   **AI Governance &amp; Compliance:** Ensures that AI systems follow company policies and global regulations, focusing on privacy, data governance, and ethical AI.
@@ -32,7 +32,7 @@ AI Control Tower provides enterprises with visibility into their AI footprint, m
 
 The AI asset data model catalogs different AI assets such as AI systems, AI models, datasets, and prompts. It also manages the relationship between different assets that helps manage the AI inventory effectively.
 
-## AI Control Tower benefits
+## Control Tower benefits
 
 -   Visibility and management of enterprise AI in the organization.
 -   Manage the lifecycle of AI assets such as AI systems, AI models, prompts, and datasets.
@@ -41,14 +41,14 @@ The AI asset data model catalogs different AI assets such as AI systems, AI mode
 
 ## What to explore next
 
-To learn more about AI Control Tower and other applications integrating with its workspace, see the following topics:
+To learn more about Control Tower and other applications integrating with its workspace, see the following topics:
 
--   [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-governance.md)
--   [Configure AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/configuring-ai-governance.md)
+-   [Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-governance.md)
+-   [Configure Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/configuring-ai-governance.md)
 -   [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-and-compliance.md)
 -   [Explore Now Assist AI asset discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/now-assist-asset-discovery.md)
 -   [Enterprise AI discovery: Unlock Visibility, Governance &amp; Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/enterprise-ai-discovery.md)
 -   [AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-gateway-overview.md)
--   [Using AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
--   [AI Control Tower reference \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/aict-references.md)
+-   [Using Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
+-   [Super Intelligence Control Tower reference \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/aict-references.md)
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administer the ServiceNow AI Platform]
+breadcrumb: [ServiceNow AI Platform]
 ---
 
 # Additional resources for ServiceNow AI Platform products and solutions

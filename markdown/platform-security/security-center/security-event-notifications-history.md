@@ -16,7 +16,7 @@ breadcrumb: [Security Event Notifications, Security monitoring console, Security
 
 Explore the complete history of security event notifications on your instance.
 
-The **Notifications** page provides an overview of the notification history for all security event notification policies on your instance. You can view the data in charts, presenting it graphically and applying performance analytics functionalities like targets, thresholds, and KPI signals. Alternatively, you can view the data in a table format, enabling you to utilize standard functionalities such as search, sort, filter, and querying.
+The **Notifications** page provides an overview of the notification history for all security event notification policies on your instance. You can view the data in charts, presenting it graphically and applying performance analytics functionalities like targets, thresholds, and KPI signals. Alternatively, you can view the data in a table format, enabling you to use standard functionalities such as search, sort, filter, and querying.
 
 **Parent Topic:**[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-policies.md)
 

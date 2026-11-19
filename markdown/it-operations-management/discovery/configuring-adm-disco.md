@@ -22,7 +22,7 @@ Role required: discovery\_admin or admin
 
 ## About this task
 
-You can also control both the size of the TCP tracking file and the payload using parameters on the enhanced ADM probes. See [TCP connection discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoTCPConnections.md) for the names of the probes and parameters.
+You can also control the size of the TCP tracking file with parameters on the enhanced ADM probes, and the payload size with the `mid.adme.max_result_size` MID Server parameter. See [TCP connection discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoTCPConnections.md) for the names of the probes and parameters.
 
 ## Procedure
 
@@ -80,7 +80,7 @@ Enable the application mapping feature. When this property is set to true, all d
 
 </td></tr><tr><td>
 
-sampling\_interval
+sampling\_interval \(Unix\)powershell\_param\_sampling\_interval \(Windows\)
 
 </td><td>
 
@@ -122,34 +122,6 @@ Powershell - Target Base Dir: A network share on the target Windows machines to 
 
 </td></tr><tr><td>
 
-aggregation\_interval \(Unix\)powershell\_param\_aggregation\_interval \(Windows\)
-
-</td><td>
-
-glide.discovery.adme.aggregation\_interval
-
-</td><td>
-
-ADME - Aggregation interval \(sec\): How often to aggregate instantaneous data into chunks in seconds. It must be a minimum of 60 seconds and it must be a multiple of ADME Sampling interval.-   Type: integer
--   Default value: 3600
-
-
-</td></tr><tr><td>
-
-rolling\_window\_size \(Unix\)powershell\_param\_rolling\_window\_size \(Windows\)
-
-</td><td>
-
-glide.discovery.adme.rolling\_window\_size
-
-</td><td>
-
-ADME - Rolling window size: How many recently aggregated chunks to keep. An aggregated chunk consists of ADME Aggregation interval divided by ADME Sampling interval samples. Only the newest chunks are kept.-   Type: integer
--   Default value: 24
-
-
-</td></tr><tr><td>
-
 max\_total\_samples \(Unix\)powershell\_param\_max\_total\_samples \(Windows\)
 
 </td><td>
@@ -182,17 +154,17 @@ MID Server parameter that selects the Windows management protocol used for devic
 
 </td></tr><tr><td>
 
-powershell\_param\_max\_result\_payload\_size \(Windows\)
+ 
 
 </td><td>
 
-\[OXY-PLACEHOLDER\]
+mid.adme.max\_result\_size
 
 </td><td>
 
-ADME - Max result payload size: The maximum size of the ADME result payload.
+MID Server parameter that sets the maximum size of the ADME result payload that the MID Server pulls from the target host. Applies to UNIX and Windows hosts.
 
- -   Type: \[OXY-PLACEHOLDER\]
+ -   Type: integer \(bytes\)
 -   Default value: 4 MB
 
 

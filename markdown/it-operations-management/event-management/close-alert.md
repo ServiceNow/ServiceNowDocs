@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage alert states in Express List, Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Manage alert states in Express List, Assigning and managing alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Close an alert in Express List
@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     You can close alerts regardless of whether you are working in the main pane or in the preview panel. The preview panel opens only when a single alert or alert group is selected.
 
-<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d474714e89">
+<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d478011e91">
 
 Location
 
-</th><th align="left" id="d474714e92">
+</th><th align="left" id="d478011e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d474714e98">
+</th></tr></thead><tbody><tr><td id="d478011e100">
 
 **The Express List pane**
 
@@ -57,7 +57,7 @@ To display the individual alerts inside a group, select the chevron icon \(\[Omi
 2.  From the **Close** drop-down list at the top right of the alert list, select **Close alert**.
 
 
-</td></tr><tr><td id="d474714e151">
+</td></tr><tr><td id="d478011e153">
 
 **The Express List preview panel for group alerts**
 
@@ -74,4 +74,6 @@ To display the individual alerts inside a group, select the chevron icon \(\[Omi
 ## Result
 
 The alert is closed and its status is displayed at the top of the preview panel.
+
+**Parent Topic:**[Manage alert states in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/manage-alert-states-in-express-list.md)
 

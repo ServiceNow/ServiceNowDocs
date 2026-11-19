@@ -47,7 +47,7 @@ Enables fulfillers to determine the category, subcategory, and configuration ite
 
 </td></tr><tr><td>
 
-[Investigate and resolve ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-incident-resolver-workflow.md)
+[Investigate and recommend incident resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-incident-resolver-workflow.md)
 
 </td><td>
 

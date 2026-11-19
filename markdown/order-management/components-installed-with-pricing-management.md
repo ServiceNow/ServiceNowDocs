@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/components-ins
 release: brazil
 topic_type: reference
 last_updated: "2026-11-05"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Pricing Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
@@ -142,6 +142,16 @@ Schedule job to populate code field on pricing entities
 </td><td>
 
 Populates the Code field on pricing entity records. The Code field is a mandatory, indexed identifier on price lists, price list lines, cost books, cost book lines, adjustment types, pricing plans, and pricing plan steps. Run this job to add a Code value to records that were created before the field existed. The job is active and runs only when you run it, not on a schedule.
+
+</td></tr><tr><td>
+
+Derived Price Rules Cache - Scheduled Refresh
+
+</td><td>
+
+Refreshes the rows already in the Derived Price Rules Cache \[sn\_csm\_pricing\_der\_rules\_cache\] table so that cached results stay current. Where a cached result no longer matches the rule matrix, the job overwrites the stored result. The job does not add rows, and it ends without an error when the cache table is empty.
+
+ This job ships inactive, so activate it for the refresh to run. Once active, it runs daily at 02:00, from a run start of 2026-09-24 00:30:00. The job also ends without doing anything when the sn\_csm\_pricing.derived\_price\_cache\_enabled system property is false.
 
 </td></tr></tbody>
 </table>## Tables installed

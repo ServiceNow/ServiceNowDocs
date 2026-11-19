@@ -64,13 +64,13 @@ npm install -g @servicenow/sdk@latest
 |`now-sdk cicd`|Integrate builds and installs into a CI/CD pipeline|
 |`now-sdk run dev`|Start the local dev server with hot reload|
 
-A scaffolded project wraps the common ones as `package.json` scripts — `pnpm dev`, `pnpm build`, `pnpm deploy`, `pnpm deploy:reinstall`, `pnpm lint`. So day to day you run those instead of calling `now-sdk` directly. For the scaffold those scripts come from, see [Create your first Lux experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-your-first-experience.md).
+A scaffolded project wraps the common ones as `package.json` scripts — `pnpm dev`, `pnpm build`, `pnpm deploy`, `pnpm deploy:reinstall`, `pnpm lint`. So, day to day you run those instead of calling `now-sdk` directly. For the scaffold those scripts come from, see [Create your first Lux experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-your-first-experience.md).
 
-Those are the only scripts a scaffolded app ships with. The `build:force`, `storybook`, `test`, and `typecheck` scripts exist only inside the Lux monorepo and won't be in your app's `package.json`.
+These are the only scripts a scaffolded app ships with. The `build:force`, `storybook`, `test`, and `typecheck` scripts exist only inside the Lux monorepo and won't be in your app's `package.json`.
 
 ## Reference documentation
 
-The SDK's own documentation covers the commands, `now.config.json`, and the Fluent language in depth.
+The SDK's own documentation covers the commands `now.config.json` and the Fluent language in depth.
 
 |Resource|URL|
 |--------|---|

@@ -80,7 +80,7 @@ Users with the admin role perform the following steps to implement AI Search for
 
 5.  [Enable AI Search in product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enable-ai-search-catalog.md).
 
-    Set the **enable\_ai\_search\_in\_catalog** property to true, which enables AI Search for the product catalog interface and verifies that the necessary files are configured to run AI Search.
+    Set the **sn\_prd\_pm.enable\_ai\_search\_in\_catalog** property to true, which enables AI Search for the product catalog interface and verifies that the necessary files are configured to run AI Search.
 
 6.  [Reindex the product offering search index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reindex-product-offering-search.md) only if you're using AI Search in the product catalog and upgraded to the Brazil release.
 

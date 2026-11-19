@@ -7,9 +7,9 @@ release: brazil
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Installing Proactive Triggers, Proactive Triggers, Manage people and work, Conversational Interfaces]
+breadcrumb: [Install, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---
 
 # Application scopes

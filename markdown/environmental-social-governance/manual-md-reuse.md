@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Create a manual metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Create a manual metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Manual metric definition fields

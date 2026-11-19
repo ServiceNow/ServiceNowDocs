@@ -1,6 +1,6 @@
 ---
 title: Configure the problem task form layout in Service Operations Workspace
-description: Configure the problem task form so that the information it collects is relevant to your organization's processes. You can easily modify the form to show only the fields, related lists, and other elements that you need.
+description: Configure the problem task form so that the information it collects is relevant to your organization's processes. You can modify the form to show only the fields, related lists, and other elements that you need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-problem-task-form-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configuring Problem Management in Service Operations Workspace, Get
 
 # Configure the problem task form layout in Service Operations Workspace
 
-Configure the problem task form so that the information it collects is relevant to your organization's processes. You can easily modify the form to show only the fields, related lists, and other elements that you need.
+Configure the problem task form so that the information it collects is relevant to your organization's processes. You can modify the form to show only the fields, related lists, and other elements that you need.
 
 ## Before you begin
 

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up your workspace, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Set up your workspace, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Add or modify Express List columns
@@ -51,4 +51,6 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 -   [Filter the Express List display by adding or removing fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/filter-express-list-fields.md)
 -   [Save a custom filter in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/filter-saving-deleting-default.md)
+
+**Parent Topic:**[Set up your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/set-up-your-workspace.md)
 

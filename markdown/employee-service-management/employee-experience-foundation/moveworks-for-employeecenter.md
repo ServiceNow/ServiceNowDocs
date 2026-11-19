@@ -8,8 +8,8 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
+reading_time_minutes: 2
+breadcrumb: [Configuring Employee Center, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Moveworks for Employee Center

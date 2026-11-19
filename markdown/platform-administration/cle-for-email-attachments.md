@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Explore, Inbound email, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Column Level Encryption for email attachments

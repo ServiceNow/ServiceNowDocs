@@ -70,7 +70,7 @@ Opened for
 
 </td><td>
 
-The user who requested for this universal request.
+The user who requested this universal request.
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Priority
 
 </td><td>
 
-It identifies how quickly the service desk should address the request.
+How quickly the service desk should address the request.
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Needs resolution review
 
 </td><td>
 
-When checked, and when the department agent closes the primary ticket, the Universal Request doesn’t get closed. Universal Request state remains in **In Progress** and the state reason changes to **Confirm Response**. This notifies the tier 1 agent \(Routing agent\) to either Accept or Reject the resolution provided in the primary ticket before closing the Universal Request for the requester.
+When selected, and when the department agent closes the primary ticket, the universal request doesn’t get closed. The universal request state remains in **In Progress** and the state reason changes to **Confirm Response**. This notifies the tier 1 agent \(Routing agent\) to either Accept or Reject the resolution provided in the primary ticket before closing the universal request for the requester.
 
 </td></tr><tr><td>
 

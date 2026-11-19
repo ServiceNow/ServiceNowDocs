@@ -26,7 +26,7 @@ Role required: service\_mapping\_admin
 
 ## About this task
 
-When you transfer a map segment into another application service, you create a link between the original application service and the application service into which you planted the map segment. The connection to the top CI in the segment becomes an entry point when you transfer it into another application service.
+Transferring a map segment creates a link between the original application service and the target application service. The connection to the top CI in the segment becomes an entry point in the target service.
 
 The original service map shows the link to the other application service instead of the map segment. The service that contains the reference, becomes a dependent service. The service that appears as a reference is a contained service.
 

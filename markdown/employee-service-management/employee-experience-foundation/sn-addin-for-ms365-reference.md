@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Add-in for Microsoft 365, EmployeeWorks, Employee Service Management]
+breadcrumb: [ServiceNow Add-in for Microsoft 365, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # ServiceNow Add-in for Microsoft 365 reference

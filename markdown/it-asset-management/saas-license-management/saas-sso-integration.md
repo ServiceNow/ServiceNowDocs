@@ -32,7 +32,7 @@ You can integrate your ServiceNow instance with Okta to view software usage for 
 
 [SaaS License Management setup for large companies]()
 
-[SaaS Overview dashboard]()
+[]()
 
 [Integrate with SaaS applications]()
 

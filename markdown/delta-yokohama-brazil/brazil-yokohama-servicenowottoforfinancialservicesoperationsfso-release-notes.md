@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-servicenowottoforfinancialservicesoperationsfso-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
@@ -83,7 +83,7 @@ Yokohama
 
 </td><td>
 
--   **[Long term stable models](https://www.servicenow.com/docs/access?context=long-term-stable-models&family=yokohama&ft:locale=en-US)**
+-   **[long term stable models](https://www.servicenow.com/docs/access?context=long-term-stable-models&family=yokohama&ft:locale=en-US)**
 
 Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
 
@@ -403,7 +403,7 @@ Yokohama
 
 -   **Activation information**
 
-Install ServiceNow Otto for FSO by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install ServiceNow Otto for FSO by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** ServiceNow Otto for FSO is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -416,7 +416,7 @@ Zurich
 
 -   **Activation information**
 
-Install ServiceNow Otto for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install ServiceNow Otto for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** ServiceNow Otto for FSO is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -429,7 +429,7 @@ Australia
 
 -   **Activation information**
 
-Install ServiceNow Otto for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install ServiceNow Otto for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** ServiceNow Otto for FSO is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -653,7 +653,7 @@ Yokohama
 
  Yokohama Patch 6
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 -   Implement security in Now Assist AI agents and Now Assist for FSO skills with Access Control Lists \(ACLs\).
 
  Yokohama Patch 3

@@ -18,7 +18,12 @@ Install the GRC: Entity Based Access \(sn\_grc\_ent\_access\) application.
 
 ## Before you begin
 
-Make sure that you have an instance with Yokohama Patch 3 release or a later release.
+Your instance must be on the Yokohama Patch 6 release or later.
+
+The following GRC applications must be installed and active:
+
+-   GRC: Profiles \(sn\_grc\)
+-   GRC: Common Workspace Elements \(sn\_grc\_workspace\)
 
 Role required: admin
 

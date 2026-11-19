@@ -9,7 +9,7 @@ classification: localization-workspace
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Exploring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Exploring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, ServiceNow AI Platform]
 ---
 
 # Localization Workspace Home and translation job status

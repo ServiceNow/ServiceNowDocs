@@ -22,11 +22,11 @@ Role required: admin
 
 ## About this task
 
-Update the table configuration using to get the required search results.
+Update the table configuration to get the required search results.
 
 To create a table configuration, see [Configure table for a contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DefineContextualSearchForForm.md).
 
-**Important:** If you are on version which is prior to 4.0, [Edit the table configuration for Agent Assist in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/edit-the-table-configuration-for-agent-assist-in-service-operations-workspace.md).
+**Important:** If you are on a version prior to 4.0, see [Edit the table configuration for Agent Assist in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/edit-the-table-configuration-for-agent-assist-in-service-operations-workspace.md).
 
 ## Procedure
 
@@ -44,9 +44,9 @@ To create a table configuration, see [Configure table for a contextual search](h
 
 5.  From the Open records drop-down list, select **Variant record**.
 
-6.  In the UX screen form, add the property and sys ID in the **Macroponent Configuration** tab.
+6.  In the UX screen form, add the property and sys\_id in the **Macroponent Configuration** tab.
 
-    1.  Enter the new table name and the sys\_id of the required table configuration.\[Omitted image "screen\_variant\_srp.png"\] Alt text: UX Screen form with callouts the additions to the Macroponent Configuration field
+    1.  Enter the new table name and the sys\_id of the required table configuration.\[Omitted image "screen\_variant\_srp.png"\] Alt text: UX Screen form with callouts for the additions to the Macroponent Configuration field
 
         **Note:** To copy the sys\_id, navigate to **Table Configuration** &gt; **Copy\_sysid**.
 

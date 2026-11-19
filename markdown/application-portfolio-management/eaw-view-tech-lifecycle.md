@@ -42,7 +42,7 @@ Each software technology lifecycle record also shows which TRM product and produ
 **Related topics**  
 
 
-[Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/update-tpm-data.md)
+[Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/update-tpm-data.md)
 
 [View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-audit-risk-details.md)
 
@@ -50,11 +50,11 @@ Each software technology lifecycle record also shows which TRM product and produ
 
 [Update the system property to gather software products from a CMDB table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-update-system-property-gather-software-cmdb.md)
 
-[Update verification status of TPM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-update-verif-status.md)
+[Update verification status of TLM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-update-verif-status.md)
 
 [Restart the Populate TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
 
-[View TPM logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-tpm-logs.md)
+[View Technology Lifecycle Management logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-tpm-logs.md)
 
 [View TPM risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-tech-risk.md)
 

@@ -23,7 +23,7 @@ Use the AI conversational experience in the Configuration Console to configure a
 -   The ServiceNow Otto panel must be enabled on your ServiceNow instance. For details, see [Enable the ServiceNow Otto panel \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-enable-now-assist-panel.md).
 -   AI Search must be activated on your ServiceNow instance. For details, see the AI Search activation steps in [Install ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/install-now-assist-ham.md).
 
-Role required: To access the Configuration Console, you must have the ham\_admin and ia\_user roles. The setup items available within the console depend on the additional roles assigned. For more information on roles required for modules, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/config-console-ham.md).
+Role required: To access the Configuration Console, you must have the ham\_admin and sn\_ia\_config.ia\_user roles. The setup items available within the console depend on the additional roles assigned. For more information on roles required for modules, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/config-console-ham.md).
 
 ## About this task
 
@@ -52,7 +52,7 @@ The Configuration Console includes a **Configure with AI** option that opens a c
     -   Select **Choose something else** to view all available options, including groups, users, and roles.
 5.  Based on your selection, follow the prompts in the panel.
 
-<table id="choicetable_otq_dy3_hkc"><tbody><tr><td id="d352465e248">
+<table id="choicetable_otq_dy3_hkc"><tbody><tr><td id="d351682e250">
 
 **__Assignment groups \(Team management\)__ or __Roles \(Team management\)__**
 
@@ -65,7 +65,7 @@ Select one of the following options or enter a natural-language prompt: -   **As
 -   **Search by Org Chart**
 
 
-</td></tr><tr><td id="d352465e284">
+</td></tr><tr><td id="d351682e286">
 
 **__Users \(Team management\)__**
 

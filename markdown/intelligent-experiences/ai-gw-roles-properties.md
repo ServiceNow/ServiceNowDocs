@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-10-22"
 reading_time_minutes: 1
 keywords: [AI Gateway roles, AI Gateway system properties]
-breadcrumb: [Reference, AI Gateway, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, AI Gateway, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Gateway roles and system properties
@@ -95,5 +95,5 @@ Turns client access control on or off for the instance. When it's on, AI steward
  Default value: false
 
 </td></tr></tbody>
-</table>For the properties that control tool scanning, see [System properties for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-reference-system-properties.md).
+</table>For the properties that control tool scanning, see [System properties for Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-reference-system-properties.md).
 

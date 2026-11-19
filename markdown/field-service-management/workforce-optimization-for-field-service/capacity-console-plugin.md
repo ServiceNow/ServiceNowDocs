@@ -1,6 +1,6 @@
 ---
-title: Activate Field Service Advanced Capacity and Reservations management
-description: You can activate the Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
+title: Activate Field Service Advanced Capacity and Reservations Management
+description: You can activate the Field Service Advanced Capacity and Reservations Management \(com.snc.fsm\_advanced\_capacity\_management\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.html
 release: brazil
@@ -12,16 +12,16 @@ reading_time_minutes: 3
 breadcrumb: [Capacity and Reservations Management, Set up workforce, Configure, Field Service Management]
 ---
 
-# ActivateField Service Advanced Capacity and Reservations management
+# ActivateField Service Advanced Capacity and Reservations Management
 
-You can activate the Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) for Field Service Management if you have the admin role.
+You can activate the Field Service Advanced Capacity and Reservations Management \(com.snc.fsm\_advanced\_capacity\_management\) for Field Service Management if you have the admin role.
 
 ## Before you begin
 
--   Field Service Advanced Capacity and Reservations management requires the following plugins.
+-   Field Service Advanced Capacity and Reservations Management requires the following plugins.
     -   **Required ServiceNow plugins**
 
-        Ensure that these plugins are activated before you install Field Service Advanced Capacity and Reservations management.
+        Ensure that these plugins are activated before you install Field Service Advanced Capacity and Reservations Management.
 
         -   Field Service Capacity and Reservations Management \(com.snc.fsm\_capacity\_management\) plugin.
         -   Field Service Territory Planning \(com.snc.fsm\_territory\_planning\) plugin.
@@ -33,7 +33,7 @@ Role required: admin.
 
 The following components are installed with Field Service Advanced Capacity and Reservations Management plugin:
 
--   The Capacity Planner role \(fsm\_adv\_cap\_mgmt.wm\_capacity\_planner\) provides read, write, and create access to capacity-related tables, along with access to the Capacity Console.
+-   The Capacity Planner role \(sn\_fsm\_adv\_cap.wm\_capacity\_planner\) provides read, write, and create access to capacity-related tables, along with access to the Capacity Console.
 -   Script Includes: The following table provides the list of script includes that are installed.
 
     |Name|Description|
@@ -53,7 +53,7 @@ The following components are installed with Field Service Advanced Capacity and 
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Field Service Advanced Capacity and Reservations Management plugin \(com.snc.fsm\_capacity\_management\) using the filter criteria and search bar.
+2.  Find the Field Service Advanced Capacity and Reservations Management plugin \(com.snc.fsm\_advanced\_capacity\_management\) using the filter criteria and search bar.
 
     You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel.
 

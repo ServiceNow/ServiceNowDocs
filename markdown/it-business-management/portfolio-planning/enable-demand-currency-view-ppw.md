@@ -24,7 +24,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-The demand currency view enables you to see the planned cost fields in some demand forms in the selected demand currency. For more information about which fields are supported in the demand currency view, see [Multicurrency fields in demand-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/multicurrency-fields-in-demand-related-forms-ppw.md).
+The demand currency view enables you to see the planned cost fields in some demand forms in the selected demand currency. For more information about which fields are supported in the demand currency view, see [Multicurrency fields in demand forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/multicurrency-fields-in-demand-related-forms-ppw.md).
 
 ## Procedure
 

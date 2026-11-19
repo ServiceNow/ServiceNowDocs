@@ -18,7 +18,7 @@ Configure entity-based record access rules on record types to apply access restr
 
 ## Before you begin
 
-Role required:sn\_grc\_ent\_access.admin or sn\_grc\_ent\_access.bulk\_access\_admin
+Role required: sn\_grc\_ent\_access.admin or sn\_grc\_ent\_access.bulk\_access\_config\_admin
 
 ## Procedure
 

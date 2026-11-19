@@ -1,5 +1,5 @@
 ---
-title: Export
+title: Export metrics in Security Center
 description: Discover the data that is commonly exported, and which users do the exporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/export.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Security metrics, Security monitoring console, Security Center, Platform Security]
 ---
 
-# Export
+# Export metrics in Security Center
 
 Discover the data that is commonly exported, and which users do the exporting.
 

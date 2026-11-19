@@ -24,7 +24,7 @@ Role required: itil or problem\_coordinator
 
 1.  Open a problem.
 
-2.  From the problem record page, create a problem task in the one of the following ways.
+2.  From the problem record page, create a problem task in one of the following ways.
 
     -   Select **Create problem task**.
     -   From the **Problem Tasks** tab, select **New**.

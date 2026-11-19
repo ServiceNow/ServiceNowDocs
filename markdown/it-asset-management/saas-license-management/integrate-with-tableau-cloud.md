@@ -104,15 +104,15 @@ If you’re using the Software Asset Workspace, the option to create the integra
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d39949e487">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d39961e494">
 
 Interface
 
-</th><th align="left" id="d39949e490">
+</th><th align="left" id="d39961e497">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d39949e496">
+</th></tr></thead><tbody><tr><td id="d39961e503">
 
 **Core UI**
 
@@ -123,7 +123,7 @@ Action
 3.  Select **Tableau Cloud**.
 
 
-</td></tr><tr><td id="d39949e538">
+</td></tr><tr><td id="d39961e545">
 
 **Software Asset Workspace**
 
@@ -191,7 +191,7 @@ Type of integration profile. This field is automatically set to Tableau Cloud Su
 
     The **Connection &amp; Credential** field appears and is automatically set to **sn\_tableau\_spoke.TableauCloud**.
 
-5.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Preview icon.\) beside the **Connection &amp; Credential** field.
+5.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "Form\_ReferenceLookupIcon.png"\] beside the **Connection &amp; Credential** field.
 
 6.  Select **Open Record** in the record preview.
 

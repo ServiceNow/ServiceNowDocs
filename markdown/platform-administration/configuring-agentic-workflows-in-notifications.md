@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure email agentic workflows in Notifications

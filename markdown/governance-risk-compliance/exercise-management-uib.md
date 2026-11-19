@@ -22,7 +22,7 @@ Creating an exercise includes these steps:
 -   BCM program manager adds additional details for the exercise such as an asset, plan, and event task.
 -   BCM program manager submits the event task related to the exercise for an approval.
 -   Assigned BCM program manager reviews the details on the event task and approves the exercise.
--   Exercise is moved to the **Approved** state. An approved exercise is moved to the **Archived** state later.
+-   Exercise is moved to the **Approved** state. The BCM program manager then closes the exercise by selecting **Closed complete** or **Closed incomplete**.
 -   BCM program manager can generate the PDF of the details and save a copy for reference.
 
 ## Types of exercises

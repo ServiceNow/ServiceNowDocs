@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-view-upgrade-inventory-job-status.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-17"
 reading_time_minutes: 1
 breadcrumb: [Updating specification versions, Specifications and product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ View the status of a specification upgrade job using the upgrade inventory Job s
 
 ## Before you begin
 
-Role required: sn\_ind\_tmt\_orm.order\_agent
+Role required: sn\_prd\_pm.product\_catalog\_manager
 
 ## Procedure
 
@@ -24,12 +24,13 @@ Role required: sn\_ind\_tmt\_orm.order\_agent
 
 2.  Select the inventory job that you’re working with.
 
-    |Entry|Description|
+    |Field|Description|
     |-----|-----------|
     |Number|A system-generated number identifying the inventory job.|
     |Target specification|The target specification that is going to be updated.|
     |Payload|Payload is the specification data that is being added to the target specification.|
-    |State|Shows the state of the job.|
+    |State|Shows the state of the job. The states are Ready, In progress, Completed, and Error. The default state is Ready.|
+    |Error Message|Error message if the job fails.|
 
 3.  Select **Update** to save any changes.
 

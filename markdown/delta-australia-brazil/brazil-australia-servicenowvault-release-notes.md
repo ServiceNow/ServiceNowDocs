@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-servicenowvault-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -306,7 +306,7 @@ Australia
 
 -   **Activation information**
 
-Install Vault Console, ServiceNow Otto for Vault and Vault Suite by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Vault Console, ServiceNow Otto for Vault and Vault Suite by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** ServiceNow Vault is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -319,7 +319,7 @@ Brazil
 
 -   **Activation information**
 
-Install Vault Console, Vault Suite and ServiceNow Otto for Vault by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US). Vault console is available for free installation, but a ServiceNow Vault subscription is required to access its full features.
+Install Vault Console, Vault Suite and ServiceNow Otto for Vault by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Vault console is available for free installation, but a ServiceNow Vault subscription is required to access its full features.
 
 
 **Note:** ServiceNow Vault is available in the ServiceNow Store. For details, see the following activation information.

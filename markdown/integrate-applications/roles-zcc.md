@@ -36,7 +36,7 @@ None.
 
 ### Special considerations
 
-A user with the df\_connection\_admin role can create and manage connections in Zero Copy Connector Hub, and can also create and manage data fabric tables just like a user with the a role that contains the df\_data\_steward role.
+A user with the df\_connection\_admin role can create and manage connections in Zero Copy Connector Hub, and can also create and manage data fabric tables just like a user with a role that contains the df\_data\_steward role.
 
 ## Data steward \[df\_data\_steward\]
 

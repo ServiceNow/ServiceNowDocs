@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring the Scope 3 dashboard, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Configuring the Scope 3 dashboard, Configure, Operational Sustainability Management]
 ---
 
 # Create an inflation factor

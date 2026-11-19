@@ -46,3 +46,5 @@ You can create multiple ERP extraction tables, and multiple extraction tables ca
 5.  Select **Save**.
 
 
+**Parent Topic:**[Extracting and transforming ERP data with Zero Copy Connector for ERP extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md)
+

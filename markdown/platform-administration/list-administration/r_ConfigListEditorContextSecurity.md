@@ -1,5 +1,5 @@
 ---
-title: Configuring contextual security for the list editor
+title: Contextual security for the list editor
 description: The list editor enforces existing access control rules \(ACLs\) and additional security controls to restrict editing from a list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/r\_ConfigListEditorContextSecurity.html
@@ -9,14 +9,14 @@ classification: list-administration
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [List editor, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [List editor, Administer, List administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
-# Configuring contextual security for the list editor
+# Contextual security for the list editor
 
 The list editor enforces existing access control rules \(ACLs\) and additional security controls to restrict editing from a list.
 
-The list\_edit security operation specifically controls the ability to edit information in a list. Apply this operation in the same manner as the write operation to limit list editing for fields that require the user to navigate to the form. Reasons you may require a user to edit a field in a form include complex UI policy constraints or other policies you have in place.
+The list\_edit security operation specifically controls the ability to edit information in a list. Apply this operation in the same manner as the write operation to limit list editing for fields that require the user to navigate to the form. Reasons you might require a user to edit a field in a form include complex UI policy constraints or other policies you have in place.
 
 -   write and list\_edit access to the field
 -   write and list\_edit access to any dependent fields of the field

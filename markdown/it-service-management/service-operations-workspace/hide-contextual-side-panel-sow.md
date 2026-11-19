@@ -18,7 +18,7 @@ Set the **hideContextualSidebar** page property to determine when to hide the de
 
 ## About this task
 
-The feature helps in increasing the focus and utilizing the workspace area in an efficient way. For example, when viewing the **Schedule** tab in a user group page, setting the **hideContextualSidebar** UX page property to true, hides the default contextual side panel for the user group to avoid overlap with the contextual side panel of the **Schedule** tab. If enabled, users can benefit from a streamlined, less cluttered interface that reduces confusion and improves focus on relevant contextual information.
+This feature hides the default contextual side panel so that the tab's own contextual side panel uses the workspace area. For example, when viewing the **Schedule** tab in a user group page, setting the **hideContextualSidebar** UX page property to true, hides the default contextual side panel for the user group to avoid overlap with the contextual side panel of the **Schedule** tab. If enabled, only the contextual side panel of the tab is displayed.
 
 **Note:** The contextual sidebar for the **Schedule** tab is hidden by default in the base system. However, you can unhide the sidebar as required.
 
@@ -40,7 +40,7 @@ Role required: admin
 
 4.  On the UX Page Property page, edit the **Value** field to add the table and tab combination.
 
-    The input of the **hideContextualSidebar** property is JSON key value pair. You can add multiple json objects with different table and tab combinations to hide the contextual side panel for the table and tab combinations.
+    The input of the **hideContextualSidebar** property is a JSON key-value pair. You can add multiple JSON objects with different table and tab combinations to hide the contextual side panel for the table and tab combinations.
 
     \[Omitted image "hide-contextual-sidepanel-ux-property-sow.png"\] Alt text: Hide contextual sidepanel UX property
 

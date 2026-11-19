@@ -39,7 +39,7 @@ To modify fields after saving, verify that the change request is still in an edi
 
 1.  Create the change request with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d331471e98">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d332090e100">
 
 **From the Change application**
 
@@ -58,7 +58,7 @@ You can create all three types of change from the **Change** application. This i
 -   **All**: All models are available to select.
 
 
-</td></tr><tr><td id="d331471e200">
+</td></tr><tr><td id="d332090e202">
 
 **From an incident or a problem**
 
@@ -68,7 +68,7 @@ As a user with the sn\_change\_write role, you can create a standard, normal, or
 2.  Select and hold \(or right-click\) the form header and select **Create Normal Change**, **Create Standard Change**, or **Create Emergency Change**.
 
 
-</td></tr><tr><td id="d331471e227">
+</td></tr><tr><td id="d332090e229">
 
 **From an existing change record**
 
@@ -408,11 +408,11 @@ List of agenda items and details of respective items. For example, the meeting s
 -   **[Create a change request from a configuration item \(CI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateAChangeFromACI.md)**  
 Create a change request from a list of configuration items \(CIs\), or add selected CIs from a list to a change record.
 -   **[Create a standard change request from the catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_RaiseNewStdCngeFmTempl.md)**  
-You can create a standard change request from the published standard change catalog templates.
+Create a standard change request from a published catalog template.
 -   **[Copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/copy-a-change-request.md)**  
-You can copy details of an active or canceled change request to a new change request.
+Copy the details of an active or canceled change request to a new change request.
 -   **[Create a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-a-change-task.md)**  
-Create change tasks to track the work for a change request, such as planning, implementing, testing, and reviewing the change.
+You can create change tasks for a change request. A change task is a piece of work related to the change request. For example, there can be tasks to plan the change, implement the change, and test, and review the work.
 -   **[Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/unauthorized-change-request.md)**  
 Understand how an unauthorized change activity on a configuration item \(CI\) is captured and managed, so that you can review and take timely action on this change.
 

@@ -8,7 +8,7 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-09-25"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, workday, raas]
 breadcrumb: [Connecting to Workday with RaaS, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -117,4 +117,6 @@ Your changes are saved to the model entity and its field records and apply the n
 ## What to do next
 
 Next, check the output parameters for the operation and update them as needed. For more information, see [Manage model output parameters for RaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs-raas.md).
+
+**Parent Topic:**[Obtaining data from Workday using RaaS reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/obtain-data-from-workday-using-raas.md)
 

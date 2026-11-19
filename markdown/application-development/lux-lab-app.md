@@ -22,7 +22,7 @@ Lux Lab is one of the tools you can use to create or extend Lux experiences. The
 |Requirement|Minimum|Recommended|
 |-----------|-------|-----------|
 |Operating system|macOS 12 \(Monterey\) or later|macOS 13 \(Ventura\) or later|
-|Processor|Apple Silicon \(M1 or later\)|Apple Silicon M2 or later|
+|Processor|Apple Silicon \(M1 or later\)|Apple Silicon \(M2 or later\)|
 |RAM|8 GB|16 GB or more|
 |Disk space|2 GB free|10 GB or more free|
 
@@ -33,7 +33,12 @@ Lux Lab is one of the tools you can use to create or extend Lux experiences. The
 |RAM|8 GB|16 GB or more|
 |Disk space|2 GB free|10 GB or more free|
 
-You also need Node.js v24 or later, pnpm v10 or later, Git v2.30 or later, and an internet connection for instance connectivity and agent features.
+You also need all the following:
+
+-   Node.js v24 or later
+-   pnpm v10 or later
+-   Git v2.30 or later
+-   an internet connection for instance connectivity and agent features
 
 ## Installation
 
@@ -44,17 +49,17 @@ For more information on installing Lux Lab, see [Install Lux Lab](https://raw.gi
 
 ## First launch
 
-On the first macOS launch, the operating system may block the app. Open it from **System Settings** &gt; **Privacy &amp; Security** by selecting **Open Anyway**.
+On the first macOS launch, the operating system may block the app. To open it, select **System Settings** &gt; **Privacy &amp; Security** &gt; **Open Anyway**.
 
-A guided setup screen walks you through three steps before you reach the home page.
+A guided setup screen walks you through the following steps before you reach the home page.
 
 |Step|What it does|Required|
 |----|------------|--------|
 |**Environment**|Checks for Node.js v24+, pnpm v10+, and Git v2.30+|Yes|
-|**Agents**|Detects whether the agents the Agent Chat Harness needs are installed, and offers to install them|No|
+|**Agents**|Detects whether the agents required by the Agent Chat Harness are installed, and offers to install any that are missing|No|
 |**Instance sign-in**|Signs in to a provisioned ServiceNow instance that can run Lux applications, using your instance URL, username, and password \(basic authentication\)|Yes|
 
-A failing environment check gets a **Run Fix** button that installs or resolves the issue and re-validates. All environment checks must pass before you continue. The Agents step completes automatically if the agents are already present, and you can configure agents later from the Agents and Skills panel. The home page is not accessible without signing in to an instance.
+A failing environment check gets a **Run Fix** button that installs or resolves the issue and re-validates. All environment checks must pass before you continue. If the agents are already present, the Agents step completes automatically and you can configure agents later from the Agents and Skills panel. The home page is not accessible without signing in to an instance.
 
 Agent support is vendor-neutral. The Agents and Skills panel lists every ACP-compatible agent configured on your system, such as Claude, Devin, or Codex. The panel also lists the skills bundled with Lux Lab and any project-level skills in your project.
 
@@ -87,17 +92,17 @@ Lux Lab scaffolds the project, installs dependencies, and opens it. For the same
 
 ## Run and preview actions
 
-**Run** starts the local dev server. The button shows **Stop** while the server is up. **Preview** starts the dev server and opens the preview at the same time. Saving a source file triggers hot module replacement, which compiles only the changed module and pushes it to the preview without a full reload. Changes to configuration files such as `aiux.json` need a dev server restart.
+**Run** starts the local dev server. The button shows **Stop** while the server is up. **Preview** starts the dev server and opens the preview at the same time. Saving a source file triggers hot module replacement, which compiles only the changed module and pushes it to the preview without a full reload. Changes to configuration files, such as `aiux.json`, need a dev server restart.
 
-The preview opens as an editor tab showing your application in an embedded browser frame. Lux Lab serves it on localhost and proxies it to the instance you're connected to in the app.
+The preview opens as an editor tab showing your app in an embedded browser frame. Lux Lab serves it on localhost and proxies it to the instance you're connected to in the app.
 
 Dev server logs and hot-reload activity stream into the **Console** tab. Linter and type errors land in **Problems**; build failures land in **Build**.
 
 ## Deployment
 
-Lux Lab's deploy pipeline follows the ServiceNow SDK deployment process. When you trigger a deploy, Lux Lab builds the application, compiling and bundling the source into deployable artifacts. It then runs `now-sdk install` to push the built metadata and artifacts to the target instance. The target is the instance you're currently signed in to. The process is identical to running the ServiceNow SDK deployment from the command line.
+The Lux Lab deploy pipeline follows the ServiceNow SDK deployment process. When you trigger a deploy, Lux Lab builds the application, compiling and bundling the source into deployable artifacts. It then runs `now-sdk install` to push the built metadata and artifacts to the target instance. The target is the instance you're currently signed in to. The process is identical to running the ServiceNow SDK deployment from the command line.
 
-The **Deploy** button in the title bar runs a full build and deploy \(`Cmd+Shift+D` on macOS, `Ctrl+Shift+D` on Windows\). Its drop-down menu adds three options.
+The **Deploy** button in the title bar runs a full build and deploy \(`Cmd+Shift+D` on macOS, `Ctrl+Shift+D` on Windows\). Its drop-down menu adds the following options.
 
 |Option|What it does|
 |------|------------|

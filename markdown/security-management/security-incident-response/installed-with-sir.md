@@ -497,6 +497,18 @@ sn\_si.special\_access\_enabler
 
 </td></tr><tr><td>
 
+AI Security Incident Creator\[sn\_si.ai\_security\]
+
+</td><td>
+
+Grants read, write, and create access to security incidents with the AI Threat category only. Users with this role who don't have the sn\_si.basic role create security incidents with the AI Threat category by default.
+
+</td><td>
+
+N/A
+
+</td></tr><tr><td>
+
 Secops Setup Assistant Administrator\[sn\_secops\_setup.admin\]
 
 </td><td>

@@ -24,6 +24,8 @@ Predefined system integrations use Fortinet REST APIs to pull metric data into y
 The Service Graph Connector for Fortinet exposes nine scripted extension points that let you customize specific parts of the connector's behavior without modifying the shipped application. Use this reference to find which extension point controls the behavior you want to change.
 -   **[Cisco Meraki installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/meraki-installed-integrations.md)**  
 Predefined system integrations use Meraki REST APIs to pull metric data into your ServiceNow instance to monitor your Cisco Meraki devices. Each integration is driven by a connector instance whose metric parameter determines the data that the instance collects.
+-   **[Roles and access control in Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/tsom-roles-and-access-control.md)**  
+Access control lists \(ACLs\) restrict Telecommunications Service Operations Management \(TSOM\) records to users with a TSOM administrator role.
 -   **[System components installed with Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/alarm-management-user-roles.md)**  
 Administrators can assign user roles to grant access to the API notification database tables. The following standard roles for the Topic \[sn\_api\_notif\_mgmt\_topic\] and Topic Subscription \[sn\_api\_notif\_mgmt\_subscription\] tables are included in the ServiceNow system.
 -   **[System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md)**  
@@ -46,8 +48,8 @@ Reference for the latency KPIs collected by the MPN Pull Connector and the deriv
 
 -   **[MPN health status rule reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/mpn-rag-status-rule-reference.md)**  
 Default rule set \(version 0.0.11\) for calculating health status for MPN radio and core server components, including error codes.
--   **[Equinix connector metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/equinix-connector-metrics.md)**  
-Reference for the power metrics collected at the cabinet level and the environmental metrics collected at the zone level by the Equinix pull connector.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/equinix-connector-metrics.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/equinix-connector-metrics.md)**  
+
 -   **[Retrieve data from Nokia Altiplano via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/retrieving-data-nokia-altiplano-API.md)**  
 Examples of Retrieving Data from Nokia Altiplano via REST API.
 -   **[Page limits for Meraki pull connector endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/meraki-pull-connector-page-limits.md)**  

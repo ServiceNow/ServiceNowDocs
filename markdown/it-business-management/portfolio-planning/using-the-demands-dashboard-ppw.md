@@ -24,7 +24,7 @@ Access level
 
 </th><th>
 
-Required roles
+Minimum required roles
 
 </th></tr></thead><tbody><tr><td>
 
@@ -32,7 +32,7 @@ Read, duplicate, or share the Demands Dashboard
 
 </td><td>
 
-**it\_demand\_manager**, **it\_demand\_user**, or **ppm\_read****Note:** To view data in financial-related widgets, users must have the appropriate roles.
+**it\_demand\_user** or **sn\_ppm\_read****Note:** To view data in financial-related widgets, users must have the appropriate roles.
 
 </td></tr><tr><td>
 
@@ -40,7 +40,7 @@ Edit the Demands Dashboard
 
 </td><td>
 
-**admin** or **apw\_admin**
+**sn\_align\_core.apw\_admin**
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ Create dashboards
 
 </td><td>
 
-**it\_demand\_manager**, **it\_demand\_user**
+**it\_demand\_user**
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Edit dashboards
 
 </td><td>
 
-**it\_demand\_manager**, **it\_demand\_user****Note:** You can edit dashboards that you own or those you have been granted permission to edit.
+**it\_demand\_user****Note:** You can edit dashboards that you own or those you have been granted permission to edit.
 
 </td></tr></tbody>
 </table>**Note:** You can create widgets in dashboards by configuring any available data source table in the ServiceNow AI Platform. However, you must have read access to the source tables to view key data, metrics, or visualizations.

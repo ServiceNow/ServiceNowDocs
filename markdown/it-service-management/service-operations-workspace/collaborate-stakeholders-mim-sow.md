@@ -30,8 +30,8 @@ Role required: major\_incident\_manager, itil, ia\_admin, or admin
 
     The collaborate tab displays the following tabs:
 
-    -   Call – Includes a list of call records and call-related information, such as status and due date with time duration, for the upcoming, pending, overdue, and active calls with the collaborators.
-    -   Chat - Includes a list of chat records and chat-related information, such as name and number of participants and due date with time duration, for upcoming, pending, overdue, and active chats with collaborators.
+    -   Call – Displays call records and call-related information for upcoming, pending, overdue, and active calls with collaborators. Information includes status and due date with time duration.
+    -   Chat – Displays chat records for upcoming, pending, overdue, and active chats with collaborators. Information includes participant name, number of participants, and due date with time duration.
 2.  Select the **Initiate collaboration** \(\[Omitted image "mim-add-call-chat-icon.png"\] Alt text:\) icon.
 
 3.  Collaborate using chat.
@@ -84,8 +84,8 @@ Role required: major\_incident\_manager, itil, ia\_admin, or admin
         The call starts with the selected participants.
 
 
--   **[Create adhoc communication and collaboration using the Related record tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-collab-mim-sow.md)**  
-Create adhoc communication and collaboration using the incident communication plan related list on the **Related records** tab of an incident record page.
+-   **[Create ad hoc communication and collaboration using the Related records tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-collab-mim-sow.md)**  
+Create ad hoc communication and collaboration using the incident communication plan related list on the **Related records** tab of an incident record page.
 
 **Parent Topic:**[Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-major-incident-sow.md)
 

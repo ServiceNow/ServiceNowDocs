@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [dex license, dex licensing, subscription unit \(su\), subscription unit calculation, license counting, dex capacity limits, active applications limit, metric rules limit, metricbase, end user computing device \(euc\), dex pricing]
 breadcrumb: [Explore, Digital End-User Experience, IT Operations Management]
 ---
 

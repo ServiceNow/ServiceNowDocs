@@ -158,7 +158,7 @@ sn\_fsm\_disp\_wrkspc
 
 </td><td>
 
-Provides the FSM components and pages to support dispatcher flows on CSM Configurable Workspace.Dispatcher Workspace replaced FSM Agent Workspace \(Deprecated\), Central Dispatch \(Deprecated\), and Field Service Map \(Deprecated\).
+Provides the FSM components and pages to support dispatcher flows on CRM Workspace.Dispatcher Workspace replaced FSM Agent Workspace \(Deprecated\), Central Dispatch \(Deprecated\), and Field Service Map \(Deprecated\).
 
 </td></tr><tr><td>
 
@@ -170,7 +170,7 @@ com.snc.uib.fsm\_agent\_workspace
 
 </td><td>
 
-Provides the FSM components, lists, and forms to support FSM on CSM Configurable Workspace.
+Provides the FSM components, lists, and forms to support FSM on CRM Workspace.
 
 </td></tr><tr><td>
 

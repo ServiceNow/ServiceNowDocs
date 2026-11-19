@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-workforceoptimizationforcsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -110,7 +110,7 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key decouple-channel-management-dependencies-from-wfo\]](https://www.servicenow.com/docs/access?context=decouple-channel-management-dependencies-from-wfo&family=zurich&ft:locale=en-US)**
+-   **[decouple channel management dependencies from wfo](https://www.servicenow.com/docs/access?context=decouple-channel-management-dependencies-from-wfo&family=zurich&ft:locale=en-US)**
 
 Decoupling Channel Management from the core Workforce Optimization \(WFO\) modules is necessary during dependencies or emergency situations. This architectural enhancement supports modular deployment, enabling independent updates or scaling of Channel Management without impacting other workforce engagement features.
 
@@ -134,7 +134,7 @@ Australia
 
 </td><td>
 
--   **[\[Placeholder link text to key schedule-management-capabilities-in-csm-configurable-workspace\]](https://www.servicenow.com/docs/access?context=schedule-management-capabilities-in-csm-configurable-workspace&family=australia&ft:locale=en-US)**
+-   **[schedule management capabilities in csm configurable workspace](https://www.servicenow.com/docs/access?context=schedule-management-capabilities-in-csm-configurable-workspace&family=australia&ft:locale=en-US)**
 
 Enable Schedule Management schedule management capabilities in CSM configurable workspace:
 
@@ -401,7 +401,7 @@ Australia
 
 -   **Activation information**
 
-Install Workforce Optimization by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Workforce Optimization by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Workforce Optimization for Customer Service is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

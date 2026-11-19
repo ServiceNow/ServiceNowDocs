@@ -69,7 +69,7 @@ To access the Kiosk Indoor Mapping module, navigate to **All** &gt; **Workplace 
 
 [Space Optimization]()
 
-[Scenario Planning]()
+[Scenario planning]()
 
 [Schedule Planning]()
 

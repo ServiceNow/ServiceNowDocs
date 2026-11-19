@@ -503,7 +503,7 @@ Dashboards
 
 </td></tr><tr><td>
 
-Monitor goals and strategies in ServiceNow AI Control Tower
+Monitor goals and strategies in ServiceNow Control Tower
 
 </td><td>
 

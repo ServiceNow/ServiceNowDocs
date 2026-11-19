@@ -19,7 +19,7 @@ Use the CAB Workbench to review and authorize change requests and review recentl
 -   **[Create a CAB definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/define-your-cab.md)**  
 A Change Advisory Board \(CAB\) definition is similar to a recurring meeting invitation. When you define a CAB definition, it determines the attributes that are associated with all CAB meetings generated from that definition.
 -   **[View the CAB calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/view-cab-workbench.md)**  
-The CAB calendar provides an overview of your CAB meeting schedule to help with planning and managing CAB meetings.
+Use the CAB calendar to view and manage your CAB meeting schedule. The calendar provides an overview of upcoming meetings to support planning and coordination.
 -   **[Create a single CAB meeting occurrence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-a-cab-meeting.md)**  
 Create an individual Change Advisory Board \(CAB\) meeting occurrence.
 -   **[CAB meeting attendance using the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/attend-cab-meeting-using-cab-workbench.md)**  

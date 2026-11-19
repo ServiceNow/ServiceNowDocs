@@ -1,19 +1,19 @@
 ---
 title: Activate design-time security metrics
-description: Set up AI Service Graph Connectors for the AI security tools you currently use to import AI model vulnerability and AI validation \(automated red teaming\) data and show it in design-time metrics. To see additional metrics, including details for each metric, install the AI Security Exposure Management plugin \(com.sn\_sec\_ai\).
+description: Set up AI Service Graph Connectors for the AI security tools you currently use to import AI model vulnerability and AI validation \(automated red teaming\) data and show it in design-time metrics in Super Intelligence Control Tower. To see additional metrics, including details for each metric, install the AI Security Exposure Management plugin \(com.sn\_sec\_ai\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-configure-design-time.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Activate design-time security metrics
 
-Set up AI Service Graph Connectors for the AI security tools you currently use to import AI model vulnerability and AI validation \(automated red teaming\) data and show it in design-time metrics. To see additional metrics, including details for each metric, install the AI Security Exposure Management plugin \(com.sn\_sec\_ai\).
+Set up AI Service Graph Connectors for the AI security tools you currently use to import AI model vulnerability and AI validation \(automated red teaming\) data and show it in design-time metrics in Super Intelligence Control Tower. To see additional metrics, including details for each metric, install the AI Security Exposure Management plugin \(com.sn\_sec\_ai\).
 
 ## Before you begin
 
@@ -48,5 +48,5 @@ If the AI Security Exposure Management plugin isn't installed, a source dropdown
 6.  Select **Install**.
 
 
-**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)
+**Parent Topic:**[Configuring security metrics in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)
 

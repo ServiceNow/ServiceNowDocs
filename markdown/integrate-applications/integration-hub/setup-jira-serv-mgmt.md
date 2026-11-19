@@ -55,7 +55,7 @@ Add and configure a Jira Service Management connection to authenticate ServiceNo
 
 ### Before you begin
 
-Role required: admin
+Role required: admin.
 
 ### Procedure
 
@@ -68,10 +68,15 @@ Role required: admin
 4.  Locate the **Jira\_SM** connection alias and click **View Details**.
 
     -   To configure the default connection and credential alias record that is shipped along with the Jira Service Management spoke, click **View Details**.
+
+        \[Omitted image "jira-sm-connection.png"\] Alt text: Connection for the Jira Service Management spoke.
+
     -   To manage more than one Jira Service Management spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-5.  On the **Connection** form, fill in the fields.
+    \[Omitted image "jira-sm-connection-conf.png"\] Alt text: Initial connection configuration.
+
+5.  On the form, fill in these fields:
 
 <table id="table_tfv_3d5_h5b"><thead><tr><th>
 
@@ -81,7 +86,11 @@ Field
 
 Description
 
-</th></tr></thead><tbody><tr><td>
+</th></tr></thead><tbody><tr><td colspan="2">
+
+Connection Information
+
+</td></tr><tr><td>
 
 Connection Name
 
@@ -97,6 +106,10 @@ Connection URL
 
 URL of your Jira instance in this format: `https://api.atlassian.com/ex/jira/{cloud-id}/`. Replace `{cloud-id}` with value of the Cloud ID you had obtained previously.
 
+</td></tr><tr><td colspan="2">
+
+Additional Information
+
 </td></tr><tr><td>
 
 Scopes
@@ -106,8 +119,12 @@ Scopes
 By default, these scopes are provided `read:jira-user, read:servicedesk-request, write:servicedesk-request, manage:servicedesk-customer, read:jira-work, read:me, read:account, offline_access`. You can modify the scopes as per your requirement.**Note:** After the scopes are modified and saved, whenever you edit the connection record, the scopes are reset to the default scopes.
 
 </td></tr></tbody>
-</table>    \[Omitted image "jira-sm-conn-temp.jpg"\] Alt text:
+</table>    \[Omitted image "jira-sm-conf-temp.png"\] Alt text: Configure a connection for the Jira Service Management spoke.
 
 6.  Click **Save and Get OAuth Token**.
 
+
+### Result
+
+The Jira Service Management spoke connection is configured.
 

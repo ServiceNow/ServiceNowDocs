@@ -8,7 +8,7 @@ product: Reporting
 classification: reporting
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Predefined colors in reports, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -80,7 +80,7 @@ Name
 
 </td><td>
 
-Table used for the report.**Note:** The list shows only tables and database views that are [in the same scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md) as the chart colors record.
+Table used for the report.**Note:** The list shows only tables and database views that are in the same scope as the chart colors record.
 
 </td></tr><tr id="row_h2z_tfw_1z"><td>
 

@@ -1,20 +1,20 @@
 ---
 title: Monitoring and analyzing safety risk metrics
-description: The Risk Management tab of the Health and Safety dashboard provides a comprehensive and interactive view for monitoring and analyzing safety risk metrics. By providing real-time insights into inspections, job safety analyses \(JSAs\), and various hazard and risk categories, it enables you to proactively identify trends, respond swiftly to emerging issues, and continuously enhance workplace safety across all organizational levels.
+description: The Risk Management tab of the Health and Safety dashboard provides a comprehensive and interactive view for monitoring and analyzing safety risk metrics. It gives you real-time insights into inspections, job safety analyses \(JSAs\), and hazard and risk categories. Use these insights to spot trends, respond to emerging issues, and continuously improve workplace safety across all organizational levels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/health-and-safety-risk-management/hs-monitoring-analyzing-safety-risk-metrics.html
 release: brazil
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-11"
 reading_time_minutes: 3
 breadcrumb: [Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
 
 # Monitoring and analyzing safety risk metrics
 
-The **Risk Management** tab of the Health and Safety dashboard provides a comprehensive and interactive view for monitoring and analyzing safety risk metrics. By providing real-time insights into inspections, job safety analyses \(JSAs\), and various hazard and risk categories, it enables you to proactively identify trends, respond swiftly to emerging issues, and continuously enhance workplace safety across all organizational levels.
+The **Risk Management** tab of the Health and Safety dashboard provides a comprehensive and interactive view for monitoring and analyzing safety risk metrics. It gives you real-time insights into inspections, job safety analyses \(JSAs\), and hazard and risk categories. Use these insights to spot trends, respond to emerging issues, and continuously improve workplace safety across all organizational levels.
 
 For any selected period and location, you can drill down into detailed data for granular visibility for risk mitigation strategies.
 
@@ -22,11 +22,7 @@ For any selected period and location, you can drill down into detailed data for 
 
 ## Prerequisites
 
--   Ensure that Health and Safety Risk Management and Health and Safety Incident Management applications are installed. For more information, see [Install Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-risk-management/install-hs-risk-mgmt.md).
--   Run the **\[OHS\] Safety Metrics** scheduled job to update the safety metrics on demand. For more information, see [Configure scheduled job to generate frequency rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/configure-job-generate-frequency-rates.md).
-
-    **Note:** The **\[OHS\] Safety Metrics** job is set to run daily by default.
-
+-   Confirm that Health and Safety Risk Management and Health and Safety Incident Management applications are installed. For more information, see [Install Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-risk-management/install-hs-risk-mgmt.md).
 
 ## Required roles
 
@@ -35,7 +31,7 @@ For any selected period and location, you can drill down into detailed data for 
     -   pa\_admin, to edit the Performance Analytics \(PA\) components used in the dashboard.
     -   ui\_builder\_admin, to edit the dashboard visualizations that are built using the UI Builder.
 
-## Access the Health and Safety Incident Management metrics
+## Access the Health and Safety Risk Management metrics
 
 Navigate to **Workspaces** &gt; **Health and Safety Workspace** and select the **Risk Management** tab on the Health and Safety dashboard.
 

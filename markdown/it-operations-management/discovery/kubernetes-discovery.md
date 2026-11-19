@@ -108,6 +108,8 @@ Perform the following steps so that Discovery can use the pattern to successfull
     -   https://&lt;url&gt;/apis/apps/v1/replicasets
     -   https://&lt;url&gt;/apis/batch/v1/cronjobs
     -   https://&lt;url&gt;/apis/batch/v1/jobs
+    For a ready-to-apply ClusterRole manifest for these permissions, see [Kubernetes and OpenShift Discovery — RBAC &amp; Setup Guide \[KB3157117\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3157117).
+
     **Note:** When using the **Kubernetes Cluster - Per-Namespace LP** pattern, verify your RBAC setup before switching. The LP pattern requires the same permissions listed above, but lists resources per namespace instead of cluster-wide. A ClusterRole with a ClusterRoleBinding covers all namespaces automatically and requires no changes. If you use namespace-scoped Role and RoleBinding objects, verify that a binding exists in each namespace that discovery will enumerate, because missing bindings could cause incomplete discovery for that namespace.
 
 5.  To discover the OpenShift components of the Kubernetes deployment, verify that the user configured on the Kubernetes platform has **GET** permissions to run the following /api/v1 elements:
@@ -125,6 +127,8 @@ Perform the following steps so that Discovery can use the pattern to successfull
     -   Deploy Istio on your K8s cluster.
     -   Provide the Prometheus URL.
     -   Configure Prometheus to scrape metrics from Istio.
+    For the additional OpenShift permissions and service account binding, see [Kubernetes and OpenShift Discovery — RBAC &amp; Setup Guide \[KB3157117\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3157117).
+
 6.  Activate **Get Kubernetes Config Files** extension to:
 
     -   Discover configuration files.
@@ -390,6 +394,8 @@ Internal parameter used by the **Kubernetes Cluster - Per-Namespace LP** pattern
 10. To include discovered components into service instances, enable CI relationships used in tag-based discovery by Service Mapping. These CI relationships are available from the 1.0.68 release on the ServiceNow Store. For operational steps, see [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/tag_discovery_configuration.md).
 
 ## Additional prerequisites for Kubernetes Cloud infrastructure discovery
+
+For cluster-side RBAC setup on EKS, AKS, and GKE, see [Kubernetes and OpenShift Discovery — RBAC &amp; Setup Guide \[KB3157117\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3157117).
 
 For the Google Cloud Platform \(GCP\) – Get Kubernetes Clusters pattern, perform the following:
 

@@ -60,7 +60,7 @@ Launch agentic workflow guidance is a configuration record that determines which
 **Related topics**  
 
 
-[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
+[now-assist-spmc]
 
 [Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-home-page.md)
 

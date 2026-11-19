@@ -7,7 +7,7 @@ release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -35,7 +35,7 @@ When you share a project with the right to edit, that user has the same rights t
 
 1.  Navigate to **All** &gt; **KPI Composer** and create or open a project.
 
-2.  Click the Sharing icon on the toolbar \(\[Omitted image "kpi-composer-share-icon.png"\] Alt text:\).
+2.  Click the Sharing icon on the toolbar \(\[Omitted image "kpi-composer-share-icon.png"\] Alt text: Share icon\).
 
 3.  Click **Add groups and users**.
 

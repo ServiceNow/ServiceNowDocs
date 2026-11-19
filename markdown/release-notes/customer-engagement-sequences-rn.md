@@ -32,7 +32,7 @@ See [Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow
 
 -   **Additional requirements**
 
-    Email-based sequences requires the User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) to be active on your instance so that the sequence can detect email replies from prospects.
+    Email-based sequences requires the User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) to be active on your instance so the email can be sent using individual email address and detect email replies from recipients. Sequence demo data requires the User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\).
 
 
 ## Accessibility and localization

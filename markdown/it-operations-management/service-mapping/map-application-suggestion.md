@@ -38,15 +38,15 @@ Along with automatically generated suggestions, you can identify and choose an a
 
 3.  Select an application service either based on candidate suggestions or identify services with desired component.
 
-<table id="sm-auto-sug"><thead><tr><th align="left" id="d540505e165">
+<table id="sm-auto-sug"><thead><tr><th align="left" id="d544167e167">
 
 Search method
 
-</th><th align="left" id="d540505e168">
+</th><th align="left" id="d544167e170">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d540505e174">
+</th></tr></thead><tbody><tr><td id="d544167e176">
 
 **Select from candidates based on a desired component**
 
@@ -57,7 +57,7 @@ Actions
 3.  Select your preferred application service candidate.
 
 
-</td></tr><tr><td id="d540505e201">
+</td></tr><tr><td id="d544167e203">
 
 **Select the candidate using basic details**
 

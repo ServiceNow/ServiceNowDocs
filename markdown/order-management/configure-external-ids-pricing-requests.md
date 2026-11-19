@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/configure-exte
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [External ID support in Sales CRM Pricing API, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -53,7 +53,11 @@ For information on the pricing API, see [Sales CRM Pricing API](https://raw.gith
 
         The **Column name** and **Code** fields are automatically generated based on the **Label name** entered. The default value for the **Type of mapping** field is set to Field mapping.
 
-        **Note:** You can enter your own **Code** value to replace the system-generated code. If the context variable is used in a published pricing or product eligibility matrix, the **Code** value for the context variable can't be changed.
+        **Note:**
+
+        You can enter your own Code value to replace the system-generated code before you save the context variable. After you save the context variable or it it's used in a published pricing or product eligibility matrix, the Code value becomes read-only and can't be changed.
+
+        The restriction applies to every update path. A list edit, an import, or a Pricing API request that changes the Code value is rejected with the message “The Code field cannot be modified after the context variable has been created.”
 
     3.  In the **Context type** field, select the context that indicates where the variable is retrieved from, for example the Transaction Header or Transaction Line for an opportunity or quote.
 

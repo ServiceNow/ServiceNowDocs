@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-run-initial-load.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 1
 keywords: [initial load, full sync, execute now]
 breadcrumb: [EMR Provider Directory Sync, Healthcare Integrations, Healthcare and Life Sciences]
@@ -17,7 +17,7 @@ Run the FHIR import on demand to perform the first full load of Organization, Lo
 
 ## Before you begin
 
-Role required: `sn_hco_intg_fhir.admin`.
+Role required: `sn_hcls_emr_sync.admin`.
 
 The **FHIR Sync — Daily** job must be configured. See [Activate the FHIR sync schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-fhir-activate.md).
 

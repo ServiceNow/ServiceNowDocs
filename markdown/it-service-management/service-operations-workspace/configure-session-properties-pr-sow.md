@@ -70,7 +70,7 @@ Workflow expiration \(time, in milliseconds, before the password reset/change wo
 
 </td><td>
 
-Maximum wait time in milliseconds for the workflow to complete. The workflow is triggered during the password reset request when the user clicks **Submit**.
+Maximum wait time in milliseconds for the workflow to complete. The workflow is triggered during the password reset request when the user selects **Submit**.
 
  -   Type: integer
 -   Default value: 90000
@@ -174,7 +174,7 @@ Maximum number of SMS codes sent for verification per day
 
 </td><td>
 
-Maximum number of SMS codes that are sent to a user within one 24-hour period. The 24-hour period begins when a user clicks **Send Code**.
+Maximum number of SMS codes that are sent to a user within one 24-hour period. The 24-hour period begins when a user selects **Send Code**.
 
 </td></tr><tr><td>
 

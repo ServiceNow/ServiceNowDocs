@@ -18,7 +18,8 @@ Enable Agent Client Collector monitoring on the MID Server by configuring the Ag
 
 ## Before you begin
 
-Role required: evt\_mgmt\_admin
+-   Ensure that you have installed Agent Client Collector Monitoring.
+-   Role required: evt\_mgmt\_admin
 
 ## Procedure
 

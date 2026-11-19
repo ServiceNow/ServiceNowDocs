@@ -18,7 +18,7 @@ Customize the starting day of the week on your appointment booking calendar to m
 
 ## Before you begin
 
-Role required: appointment\_booking\_admin
+Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
 ## Procedure
 

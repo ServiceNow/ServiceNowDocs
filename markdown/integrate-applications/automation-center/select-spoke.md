@@ -22,7 +22,7 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
 If your spoke isn’t already installed, ensure to install it first.
 
-Proceed from the **Schedule data import** section. For information on scheduling data import, see [Schedule data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/schedule-import.md).
+Proceed from the **Schedule data import** section. For information on scheduling data import, see .
 
 ## Procedure
 

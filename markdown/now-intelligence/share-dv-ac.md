@@ -49,7 +49,7 @@ Edit rights granted by sharing a data visualization do not apply to that visuali
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d83512e165">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d75133e167">
 
 **Add as viewer**
 
@@ -57,7 +57,7 @@ Edit rights granted by sharing a data visualization do not apply to that visuali
 
 Grant only viewing rights to the users, groups, or roles you share the visualization with. Users who only have viewing rights can make changes to the visualization, but aren't able to save those changes.
 
-</td></tr><tr><td id="d83512e174">
+</td></tr><tr><td id="d75133e176">
 
 **Add as editor**
 
@@ -83,7 +83,7 @@ Role required: You can change the access rights to any data visualization that y
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or to a workspace that has a component based on the Analytics Center template \(\[Omitted image "analytics-center-icon.png"\] Alt text:\) and the data visualizations you want to share.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or to a workspace that has a component based on the Analytics Center template \(\[Omitted image "analytics-center-icon.png"\] Alt text: Analytics center icon\) and the data visualizations you want to share.
 
 2.  Open the **Data visualizations** tab and select the data visualization whose access you want to manage.
 
@@ -118,7 +118,7 @@ Role required: admin
 
 2.  Open the **par\_visualization\_permission** table.
 
-3.  Press Ctrl+Click on the Preview Users button \[Omitted image "InfoIcon.png"\] Alt text: info buttonnext to Users on the **Columns** tab to open the Users dictionary entry.
+3.  Press Ctrl+Click on the Preview Users button \[Omitted image "InfoIcon.png"\] Alt text: Preview iconnext to Users on the **Columns** tab to open the Users dictionary entry.
 
     Point to the Users Column label to see this button.
 

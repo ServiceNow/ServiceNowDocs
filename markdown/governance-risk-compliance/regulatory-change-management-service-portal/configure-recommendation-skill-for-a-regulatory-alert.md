@@ -8,7 +8,7 @@ product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Now Assist, generative AI, GenAI, ServiceNow AI Platform]
 breadcrumb: [AI-generated recommendations for a regulatory alert skill, AI in Regulatory Change Management, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -120,15 +120,15 @@ Template used for this skill.
 </td></tr></tbody>
 </table>5.  Define the user roles that can access the skill by selecting **Define access** and specifying a User access option.
 
-<table id="choicetable_mvq_4wl_tgc"><thead><tr><th align="left" id="d233666e342">
+<table id="choicetable_mvq_4wl_tgc"><thead><tr><th align="left" id="d234191e344">
 
 Option
 
-</th><th align="left" id="d233666e345">
+</th><th align="left" id="d234191e347">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d233666e351">
+</th></tr></thead><tbody><tr><td id="d234191e353">
 
 **Any authenticated user**
 
@@ -136,7 +136,7 @@ Description
 
 Any user that has successfully logged in can access this skill.
 
-</td></tr><tr><td id="d233666e360">
+</td></tr><tr><td id="d234191e362">
 
 **Select Roles**
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-aiagentstudio-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
-reading_time_minutes: 14
+last_updated: "2026-11-19"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -569,13 +569,13 @@ Brazil
 
 </td><td>
 
-[\[Placeholder link text to key australia-patch-5\]](https://www.servicenow.com/docs/access?context=australia-patch-5&family=brazil&ft:locale=en-US)
+[australia patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=brazil&ft:locale=en-US)
 
 -   Redesigned AI Agent Studio with streamlined setup and evaluation processes for agentic AI assets.
 -   Custom headers in external agents configuration.
 -   AI specialist configuration and deployment to harness coordinated agentic AI that reasons and executes end-to-end work.
 
- [\[Placeholder link text to key australia-patch-3\]](https://www.servicenow.com/docs/access?context=australia-patch-3&family=brazil&ft:locale=en-US)
+ [australia patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=brazil&ft:locale=en-US)
 
 -   Add or remove AI agents or tools from the built-in AI agents.
 -   Detect and disable runaway AI agent triggers to prevent unintended consumption.
@@ -583,11 +583,11 @@ Brazil
 -   Enforce deny-by-default ACLs for new agentic ACL types.
 -   Enable AI Agent Studio skill migration to Mosaic.
 
- [\[Placeholder link text to key australia-patch-2\]](https://www.servicenow.com/docs/access?context=australia-patch-2&family=brazil&ft:locale=en-US)
+ [australia patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=brazil&ft:locale=en-US)
 
 -   Enable UI validation for agentic AI processes and generative AI skills.
 
- [\[Placeholder link text to key australia-patch-1\]](https://www.servicenow.com/docs/access?context=australia-patch-1&family=brazil&ft:locale=en-US)
+ [australia patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=brazil&ft:locale=en-US)
 
 -   Test an agentic solution in the playground in AI-native mode.
 -   Add widgets for tool outputs to provide an improved experience in AI-native mode.
@@ -596,7 +596,7 @@ Brazil
 
  See [AI Agent Studio \(legacy\)](https://www.servicenow.com/docs/access?context=na-ai-agents&family=brazil&ft:locale=en-US) for more information.
 
- For the Platform AI release notes, see [\[Placeholder link text to key now-assist-rn\]](https://www.servicenow.com/docs/access?context=now-assist-rn&family=brazil&ft:locale=en-US).
+ For the Platform AI release notes, see [now assist rn](https://www.servicenow.com/docs/access?context=now-assist-rn&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/rn-combined-intro.md)

@@ -20,6 +20,10 @@ Users in your company can use the Security Incident Catalog to request various t
 
 Role required: none
 
+## About this task
+
+**Note:** The Security Incident Catalog is open to all internal users, so anyone in your organization can report a security incident. Access requires only the snc\_internal role, which is the basic role that all internal users have.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Security Incident Catalog**.

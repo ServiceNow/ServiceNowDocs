@@ -72,7 +72,7 @@ In this example, you pick an assignment group and see which incidents are assign
     \[Omitted image "incident-ass-to-filter.png"\] Alt text: Filter on User data with the Incident table Assigned to field as a second target.
 
 5.  Scroll down the Configuration panel to the Follow other filters section.
-6.  Under Filters with table connections, toggle on **Follow Group** and select the Group Member \[sys\_user\_grmember\] connecting table.\[Omitted image "grmember-connecting-table.png"\] Alt text:
+6.  Under Filters with table connections, toggle on **Follow Group** and select the Group Member \[sys\_user\_grmember\] connecting table.\[Omitted image "grmember-connecting-table.png"\] Alt text: Group Member connecting table in the Follow other filters section.
 7.  Save the dashboard and exit editing mode.
 
 Now, when you select a group and then select a member of that group, you filter the incidents by that member.

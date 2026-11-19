@@ -20,11 +20,11 @@ Gain visibility to the health of your hardening settings and use this data to im
 
 This page displays a summary of your hardening compliance and the changes made to your instance that impact this score.
 
-The hardening score comparison page displays hardening settings with changes in compliance status between the dates selected in the **Older date** and **Recent date** fields. With this information you can see how they’ve impacted your hardening compliance score.
+The hardening score comparison page displays hardening settings with changes in compliance status between the dates selected in the **Older date** and **Recent date** fields. With this information you can see how these changes impact your hardening compliance score.
 
 -   **Hardening compliance score**
 
-    The card compares the compliance score of your instance on the selected dates as a percentage.
+    Compares the compliance score of your instance on the selected dates as a percentage.
 
 -   **Changed settings' score impact by priority**
 

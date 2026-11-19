@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-10-13"
 reading_time_minutes: 1
 keywords: [service test management plugins, requirements, product model, product inventory]
-breadcrumb: [Getting started with Service Test Management, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Get started, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Plugins installed with Service Test Management

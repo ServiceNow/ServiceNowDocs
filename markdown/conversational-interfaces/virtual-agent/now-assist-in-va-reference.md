@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -64,6 +64,8 @@ Use system properties to customize your assistant. Some properties are available
 Setup topics handle the basic parts of a chat, such as greeting users, ending the chat, and responding when the assistant can't interpret a request.
 -   **[Assistant analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/assistant-analytics-dashboard-indicator-details.md)**  
 View the data and calculations behind an indicator that is presented in the form of a visualization on the Assistant analytics dashboard.
+-   **[Virtual Agent feedback data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/virtual-agent-feedback-analysis-dashboard.md)**  
+Locations where ServiceNow Otto for Virtual Agent stores the requests and feedback that users give on responses, including the tables that hold the data.
 -   **[Multilingual support for voice assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/multi-lingual-support-for-voice-assistants.md)**  
 Voice assistants support multiple languages to enable users to interact in their preferred language. This topic lists the languages available for voice interactions and linguistic capabilities of the voice assistant.
 

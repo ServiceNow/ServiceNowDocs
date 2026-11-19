@@ -24,19 +24,19 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text: List icon\) icon.
+2.  Select the List icon \[Omitted image "list-icon-new.png"\] Alt text:.
 
 3.  Select **Incidents** &gt; **Open**.
 
 4.  Select the incident record that has an active conference call.
 
-5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text: Collaborate icon\) from the contextual side panel.
+5.  Select the Collaborate icon \[Omitted image "collab-icon-02.png"\] Alt text: from the contextual side panel.
 
 6.  Select the **Calls** tab.
 
 7.  On the **Active** card, select **Join call**.
 
-    **Note:** You can search the chat history by participant name, and the subject of the chat.
+    **Note:** You can search the chat history by participant name and the subject of the chat.
 
 
 **Parent Topic:**[Managing Zoom conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-conference-calls-zoom.md)

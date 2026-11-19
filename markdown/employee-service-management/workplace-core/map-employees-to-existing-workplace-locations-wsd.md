@@ -35,7 +35,7 @@ Create a mapping for all employees and their designated workplaces. You can also
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workplace Safety Management** &gt; **Administration** &gt; **Workplace profiles**.
+1.  Navigate to **All** &gt; **Workplace Core** &gt; **Administration** &gt; **Workplace profiles**.
 
 2.  Select **New**.
 

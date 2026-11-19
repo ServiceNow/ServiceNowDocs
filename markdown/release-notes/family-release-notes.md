@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/family-release-notes.html
 release: brazil
 topic_type: concept
-last_updated: "2026-11-05"
+last_updated: "2026-11-13"
 reading_time_minutes: 3
 ---
 
@@ -40,7 +40,7 @@ To use the release notes in your upgrade process, choose the upgrade phase that 
 
 New Brazil release versions are released throughout the year. Here are the current dates for Brazil patch and security patch releases. To view a full list of Brazil release versions, refer to [Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/available-versions.md). Future release dates are subject to change.
 
-\[Omitted image "release-timeline-brazil.png"\] Alt text: Brazil release timeline for the year of 2026
+\[Omitted image "release-timeline-brazil-legacy.png"\] Alt text: Brazil release timeline for the year of 2026
 
 ## Maximize your release notes value
 

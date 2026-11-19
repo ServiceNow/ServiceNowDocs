@@ -24,7 +24,10 @@ For more information about the timeline features, see [CRM Workspace form ribbon
 
 \[Omitted image "component-timeline.png"\] Alt text: The timeline component shows record activities, the duration of each activity, and who performed the activity using colors and icons.
 
-The [Timeline component](https://horizon.servicenow.com/workspace/components/sn-component-timeline?release=zurich) is available in the UIB toolbox. This component displays activities for task-based records such as cases or incidents in a timeline view. It uses the resolution shaper configuration to automatically fetch and organize your data.
+The Timeline component displays activities for task-based records such as cases or incidents in a timeline view. This component uses the resolution shaper configuration to automatically fetch and organize your data. For more information, see the following topics:
+
+-   Timeline component setup
+-   [Timeline component](https://horizon.servicenow.com/workspace/components/sn-component-timeline?release=zurich)
 
 To add the Timeline component to a record page as a standalone component, the admin can select the **Task activity timeline preset and controller** and complete the component configuration. For more information, see the following topics:
 

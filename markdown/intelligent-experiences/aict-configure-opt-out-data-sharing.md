@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-11-02"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring data controls, Configuring ServiceNow AI settings, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring data controls, Configuring ServiceNow AI settings, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Opt out of data sharing
@@ -29,7 +29,7 @@ The setting applies to one instance. If multi-instance management is configured,
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **ServiceNow AI**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **ServiceNow AI**.
 
 2.  Select the **Data controls** tab.
 

@@ -39,7 +39,7 @@ There are two different user personas in Identity and Access Audit \(identity\_a
 -   role\_viewer and group\_viewer​: View audit records and configuration.​
 -   Security Admin: View the audit trails. Enable or turn off auditing for specific tables or fields.
 
-## Audit Tables
+## Audit tables
 
 The following tables can be audited using Identity and Access Audit​:
 
@@ -53,7 +53,7 @@ The following tables can be audited using Identity and Access Audit​:
 -   Contained Role \[sys\_user\_role\_contains\]​
 -   Group Member \[sys\_user\_grmember\]​
 
-## Identity and Access Audit Modules
+## Identity and Access Audit modules
 
 Identity and Access Audit's modules include:
 

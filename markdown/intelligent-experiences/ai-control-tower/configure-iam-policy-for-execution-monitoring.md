@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure AWS console, Hyperscaler connection with AWS, Using AI Control Tower to create hyperscaler connections, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure AWS console, Hyperscaler connection with AWS, Using Control Tower to create hyperscaler connections, Using Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure an IAM policy for execution monitoring
@@ -26,7 +26,7 @@ Cloud watch logs:
 -   StartQuery
 -   GetQueryResults
 
-**Note:** To exclude specific resources from AI Control Tower, you can restrict them from the resources region. Select 'all' to include all CloudWatch logs data in AI Control Tower.
+**Note:** To exclude specific resources from Control Tower, you can restrict them from the resources region. Select 'all' to include all CloudWatch logs data in Control Tower.
 
 ```
 { 

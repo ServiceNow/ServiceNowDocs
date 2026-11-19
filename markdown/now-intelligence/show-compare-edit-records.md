@@ -32,7 +32,7 @@ If you have activated **Show records**, you can edit one of the records from ins
 
 Depending on how the KPI Details component is configured, you can edit a listed record in one of the following ways:
 
--   In the Quick view pane. To open the Quick view for a record, click the Information icon \(\[Omitted image "InfoIcon.png"\] Alt text:\) next to the record's list entry. You can view the activity on the record or edit the record. Click **Update** when you are done.\[Omitted image "kpi-details-quick-edit.png"\] Alt text: Quick edit pane on KPI Details.
+-   In the Quick view pane. To open the Quick view for a record, click the Information icon \(\[Omitted image "InfoIcon.png"\] Alt text: Information icon\) next to the record's list entry. You can view the activity on the record or edit the record. Click **Update** when you are done.\[Omitted image "kpi-details-quick-edit.png"\] Alt text: Quick edit pane on KPI Details.
 
     The Quick view pane is available only if it has been turned on in UI Builder.
 

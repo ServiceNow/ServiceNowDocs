@@ -30,7 +30,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 2.  Select the name of a report that uses to imported data source to open the report in the Report Designer.
 
-3.  On the **Data** tab, click the pencil icon \(\[Omitted image "EditWidgetButton.png"\] Alt text:\) next to the name of the external import.
+3.  On the **Data** tab, click the pencil icon \(\[Omitted image "EditWidgetButton.png"\] Alt text: Pencil icon\) next to the name of the external import.
 
 4.  In the **Edit external import** dialog box you can make these changes:
 

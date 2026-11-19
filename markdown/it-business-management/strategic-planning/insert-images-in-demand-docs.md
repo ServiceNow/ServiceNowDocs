@@ -35,15 +35,15 @@ Role required: it\_demand\_user, it\_demand\_manager, or demand\_approver
 
 6.  Add an image to the Doc page either by pasting it directly, uploading it from your system, or by embedding a link.
 
-<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d250532e110">
+<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d251900e112">
 
 Goal
 
-</th><th align="left" id="d250532e113">
+</th><th align="left" id="d251900e115">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d250532e119">
+</th></tr></thead><tbody><tr><td id="d251900e121">
 
 **Copy and paste an image from an external source or another page**
 
@@ -51,7 +51,7 @@ Actions
 
 Use your standard method to copy and paste the image.
 
-</td></tr><tr><td id="d250532e128">
+</td></tr><tr><td id="d251900e130">
 
 **Upload an image from your local system**
 
@@ -62,7 +62,7 @@ Use your standard method to copy and paste the image.
 3.  Select the image from your local system and select **Open**.
 
 
-</td></tr><tr><td id="d250532e163">
+</td></tr><tr><td id="d251900e165">
 
 **Embed a link to your image**
 

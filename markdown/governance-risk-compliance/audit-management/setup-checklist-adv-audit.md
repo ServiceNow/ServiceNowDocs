@@ -20,22 +20,16 @@ Complete the checklist that includes the setup tasks required to complete in you
 
 Role required: admin
 
-Consider creating and printing a PDF of this checklist topic. You can then check off tasks as you complete them.
+## About this task
 
-## Procedure
+Audit Management application checklist:
 
-1.  To generate a PDF, select the save as PDF icon \(\[Omitted image "pdf.png"\] Alt text: Save as PDF icon.\) at the top of the topic.
-
-2.  Select the **Selected topic**.
-
-    Audit Management application checklist:
-
-    -   \[Omitted image "checkbox.png"\] Alt text: Create an audit plan to manage audits and group engagements.
-    -   \[Omitted image "checkbox.png"\] Alt text: Create auditable units and perform risk assessments.
-    -   \[Omitted image "checkbox.png"\] Alt text: Use advanced planning to create an engagement and engagement project.
-    -   \[Omitted image "checkbox.png"\] Alt text: Create milestones to track engagement progress and audit tasks.
-    -   \[Omitted image "checkbox.png"\] Alt text: Create a resource plan for tasks.
-    -   \[Omitted image "checkbox.png"\] Alt text: Create a cost plan for fiscal periods.
-    -   \[Omitted image "checkbox.png"\] Alt text: Create audit observations from reviews and analysis.
-    -   \[Omitted image "checkbox.png"\] Alt text: Request evidence and supporting documents.
+-   \[Omitted image "checkbox.png"\] Alt text: Create an audit plan to manage audits and group engagements.
+-   \[Omitted image "checkbox.png"\] Alt text: Create auditable units and perform risk assessments.
+-   \[Omitted image "checkbox.png"\] Alt text: Use advanced planning to create an engagement and engagement project.
+-   \[Omitted image "checkbox.png"\] Alt text: Create milestones to track engagement progress and audit tasks.
+-   \[Omitted image "checkbox.png"\] Alt text: Create a resource plan for tasks.
+-   \[Omitted image "checkbox.png"\] Alt text: Create a cost plan for fiscal periods.
+-   \[Omitted image "checkbox.png"\] Alt text: Create audit observations from reviews and analysis.
+-   \[Omitted image "checkbox.png"\] Alt text: Request evidence and supporting documents.
 

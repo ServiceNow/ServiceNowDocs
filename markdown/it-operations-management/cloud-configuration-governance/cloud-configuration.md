@@ -36,11 +36,11 @@ Role required to use the Cloud Provisioning and Governance administration guide 
 
 -   **Create resource profiles**
 
-    Resource profiles contain the attributes that a resource can have. Users select values for these attributes when they order a cloud resource. You can configure these types of resource profiles: Compute \(such as the size of a VM\), Operating System \(such as the type and version\), Storage \(such as backup\), and Security Groups \(such as whether to use HTTPS\). Each profile type controls a different aspect of the resource. See [Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md) for more information.
+    Resource profiles contain the attributes that a resource can have. Users select values for these attributes when they order a cloud resource. Resource profile types include Compute, Operating System, Storage, and Security Groups. Each type controls a different aspect of the resource, such as VM size, OS version, backup settings, and HTTPS usage. See [Resource Profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-resource-profiles.md) for more information.
 
 -   **Configure governance**
 
-    Governance tools that you can use to restrict the provisioning of cloud resources include quotas and policies. Examples of things you can configure include the approval subflow that is used after a user requests a cloud resource, whether an email is sent after a cloud resource is stopped, and which datacenter is automatically selected when a user selects a resource from a specific cloud provider. See [Cloud Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-governance.md) for more information.
+    Governance tools include quotas and policies, which restrict cloud resource provisioning. You can configure the approval subflow that runs after a user requests a cloud resource. You can also control whether an email is sent after a cloud resource is stopped. You can specify which datacenter is selected when a user chooses a resource from a specific cloud provider. See [Cloud Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/cloud-governance.md) for more information.
 
 -   **Populate the Cloud Service Catalog**
 

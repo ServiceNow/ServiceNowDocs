@@ -24,13 +24,13 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select an application such as Interaction, Incident, Problem.
+2.  Select an application such as Interaction, Incident, or Problem.
 
 3.  Select a record.
 
-4.  Select Help icon, and then select Help articles tab.
+4.  Select the **Help** icon, and then select the **Help articles** tab.
 
-    The Help articles tab contains the list of help articles available on the page. The Take a tour option is available below the list of help articles.
+    The Help articles tab contains the list of help articles available on the page. The **Take a tour** option is available below the list of help articles.
 
 5.  Select **Take a tour**.
 

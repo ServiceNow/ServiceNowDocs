@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/activate-offensiveness-protection-for-generative-ai.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 2
 keywords: [Generative AI, Gen AI, Now Assist, Admin, Guardian, offensiveness protection]
 breadcrumb: [AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
@@ -21,42 +21,48 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-Generative AI output is probabilistic, which means that the same input can produce different outputs. Some of the AI generated content may be offensive, which includes toxic, sexist, or other harmful language. AI Guardian enables you to detect offensive content in both inputs and outputs, and logs the event when it is detected. You can also cofigure it to block offensive material so that users see a standard error message instead of the generated response.
+Generative AI output is probabilistic, which means that the same input can produce different outputs. Some of the AI generated content may be offensive, which includes toxic, sexist, or other harmful language. AI Guardian enables you to detect offensive content in both inputs and outputs, and logs the event when it is detected. You can also configure it to block offensive material so that users see a standard error message instead of the generated response.
 
-**Note:** Offensiveness detection applies only to specific AI skills and workflows.. For more information about the list of skills that support offensiveness detection, see [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-guardian.md).
+**Note:** Offensiveness detection applies to specific skills and workflows, and to AI agents and Virtual Agent conversations when configured in AI Agent Studio.. For more information about skills that support offensiveness detection, see [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-guardian.md). For information about enabling offensiveness guardrails in AI Agent Studio, see [Enable AI Guardian for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/enable-aia-na-guardian.md).
 
-You can export logs for review. For more information, see [Export Now Assist Guardian logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/export-now-assist-guardian-logs.md).
+By default, offensiveness guardrails for AI skills are not active. You must activate offensiveness guardrails for each workflow where you want offensiveness guardrails to operate in AI skills. Blocking content may increase latency.
+
+Offensiveness guardrails are available only for supported workflows and AI skills. This behavior is different from prompt injection protection, which is applied instance-wide.
+
+You can export logs for review. For more information, see [Export AI Guardian logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/export-now-assist-guardian-logs.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Settings**.
 
-2.  In the side panel, select the **Now Assist Guardian** &gt; **Offensiveness** tab.
+2.  In the side panel, select the **AI Guardian** &gt; **Offensiveness** tab.
 
-3.  Go to the **Available for you** tab to see which workflows you can choose from.
+3.  Select the **Available for you** tab to review which workflows you can choose from.
 
     Offensiveness guardrails that are already activated appear in the **Active** tab.
 
 4.  Select **Activate** for the workflow that you want to enable offensiveness detection.
 
-5.  Select your impact detection.
+5.  Select the appropriate action.
 
-    -   Select **Log only** to record the events when offensive content is detected. The content is still shown to the user.
-    -   Select **Block and log** to record the event and prevents the content from being shown to the user. The user sees a standard error message instead.
+    -   Select **Log the output** to record the events when offensive content is detected. The content is still shown to the user.
+    -   Select **Block the response and log the output** to record the event and prevent the content from being shown to the user. The user sees a standard error message instead.
     \[Omitted image "na-guardian-activate-offensiveness.png"\] Alt text: Offensiveness guardrail for AI Guardian with option "log only" selected
 
-6.  Select **Save**.
+6.  Select **Save and activate**.
+
+7.  Repeat the proceeding steps for other workflows where you want offensiveness guardrails to operate.
 
 
 ## Result
 
-Offensiveness detection guardrail is enabled on your instance for the selected workflow. Events are logged when offensive content is detected or generated.
+Offensiveness detection guardrail is enabled for the selected workflow. Events are logged when offensive content is detected or generated.
 
 ## What to do next
 
-You can enable offensiveness detection for separately for each supported generative AI application and workflow. Repeat this task for each workflow on which you want offensiveness protection enabled.
+You can enable offensiveness detection separately for each supported generative AI application and workflow. Repeat this task for each workflow where you want offensiveness protection enabled.
 
-To change the detection impact for an active workflow, select more options \(\[Omitted image "more-options-menu-item.png"\] Alt text: More options icon.\) icon in the list of active workflows and then select **Edit**.
+To change the action for an active workflow, select more options \(\[Omitted image "more-options-menu-item.png"\] Alt text: More options icon.\) icon in the list of active workflows, then select **Edit**.
 
 To deactivate offensiveness protection for a workflow, select more options \(\[Omitted image "more-options-menu-item.png"\] Alt text: More options icon.\) icon in the list of active workflows and then select **Deactivate** .
 

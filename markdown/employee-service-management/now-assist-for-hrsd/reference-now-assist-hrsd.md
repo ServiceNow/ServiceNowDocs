@@ -7,7 +7,7 @@ release: brazil
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -24,7 +24,7 @@ Information about the roles and scheduled jobs that are installed.
 Information about the roles, tables, and scheduled jobs that are installed with Voice Agents.
 -   **[MCP Server Tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/mcp-server-tools-reference.md)**  
 Reference for the tools available in the HRSD MCP Server.
--   **[Sensitivity detection filters mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/reference-sd-info-values.md)**  
+-   **[Sensitive topics filters mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/reference-sd-info-values.md)**  
 The `sys_gen_ai_filter` table includes eight out-of-the-box filters that determines which topics are regarded as sensitive. Each filter is mapped to an HR service that is used to create a case and a chat queue.
 
 **Parent Topic:**[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/now-assist-hrsd.md)

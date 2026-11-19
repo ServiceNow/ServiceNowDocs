@@ -97,16 +97,15 @@ Discovery uses the following tables and probes to gather information about stora
 |Disk \[cmdb\_ci\_disk\]|SMI 1.5 - Storage Server|
 |Fibre Channel Export \[cmdb\_ci\_fc\_export\]|SMI 1.5 - Storage Server|
 |iSCSI Exports \[cmdb\_ci\_iscsi\_export\]|SMI 1.5 - Storage Server|
-|Fibre Channel Port \[cmdb\_ci\_fc\_port\]|SMI 1.5 - Storage Server|
+|Fibre Channel Port \[cmdb\_ci\_fc\_port\]|SMI 1.5 - Storage Server, SMI - Fibre Channel Switch|
 |SAN Export \[cmdb\_ci\_san\_export\]|SMI 1.5 - Storage Server|
 |Storage Controller \[cmdb\_ci\_storage\_controller\]|SMI 1.5 - Storage Server|
 |Storage Export \[cmdb\_ci\_storage\_export\]|SMI 1.5 - Storage Server|
 |Storage File Share \[cmdb\_ci\_storage\_fileshare\]|SMI - Array - File Shares|
 |Storage Pool \[cmdb\_ci\_storage\_pool\]|SMI 1.5 - Storage Server|
 |Storage Server \[cmdb\_ci\_storage\_server\]|CIM - Identity|
-|Storage Switch \[cmdb\_ci\_storage\_switch\]|CIM - Identity|
+|Storage Switch \[cmdb\_ci\_storage\_switch\]|CIM - Identity, SMI - Fibre Channel Switch|
 |Storage Volume \[cmdb\_ci\_storage\_volume\]|SMI 1.5 - Storage Server|
-|Storage Device \[cmdb\_ci\_storage\_device\]|SMI 1.5 - Storage Server|
 |Storage Area Network \[cmdb\_ci\_san\]|SMI - Fabric|
 |SAN Connection \[cmdb\_ci\_san\_connection\]|SMI - Fabric|
 |SAN Endpoint \[cmdb\_ci\_san\_endpoint\]|SMI - Fabric|

@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2026-10-27"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Amazon S3 external content connector
 
 The Amazon S3 external content connector makes content and metadata from your Amazon S3 buckets searchable in AI Search applications.
 
-Connector administrators can run or schedule content crawls to retrieve updated content and access permissions from your source system, or user permission crawls to retrieve updated security principals from your source system. Both types of crawl feed their data to AI Search for indexing.
+Connector administrators can run or schedule content crawls to retrieve updated content and access permissions from your source system, or user permissions crawls to retrieve updated security principals from your source system. Both types of crawl feed their data to AI Search for indexing.
 
 The indexed content and metadata are stored as records in a connector-specific indexed source. Search administrators can create search sources from this indexed source and link them to search profiles to make the indexed records searchable in AI Search applications.
 
@@ -45,7 +45,7 @@ The Amazon S3 external content connector offers multiple permission modes to con
 -   **[Configure permission mode and user mapping settings for an Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-amazon-s3-permission-settings-external-content-connector.md)**  
 Select the permission mode that controls which users can see content crawled by an Amazon S3 external content connector, and specify user mapping if needed.
 -   **[Amazon S3 bucket policy elements supported by the external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/amazon-s3-bucket-policy-support-external-content-connector.md)**  
-In a standard user permission crawl, the Amazon S3 connector evaluates only the policy elements listed here. It doesn't index content items with policy statements that use other elements.
+In a standard user permissions crawl, the Amazon S3 connector evaluates only the policy elements listed here. It doesn't index content items with policy statements that use other elements.
 -   **[AWS permissions required for Amazon S3 external content connector permission modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/amazon-s3-required-permissions-external-content-connector.md)**  
 The Identity and Access Management \(IAM\) user for an Amazon S3 external content connector requires Amazon S3 and IAM permissions that depend on the permission mode.
 
@@ -56,5 +56,5 @@ The Identity and Access Management \(IAM\) user for an Amazon S3 external conten
 
 [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
 
-[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
+[Create a user permissions crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
 

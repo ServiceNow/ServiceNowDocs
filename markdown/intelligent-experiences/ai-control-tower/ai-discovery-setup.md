@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI connections
@@ -41,7 +41,7 @@ There are two types of scheduled jobs on AI connections.
 
 AI connections are a combination of hyperscalars, AI apps, and agentic AI frameworks created using Service Graph Connectors. AI connections can discover AI agents and usage data from the hyperscalars, AI apps, and agentic AI frameworks.
 
-Navigate to the AI connections page in the AI Control Tower, you’re able to create AI connections as well as manage the existing ones. The existing connections appear under the section Legacy connections.
+Navigate to the AI connections page in Control Tower, you’re able to create AI connections as well as manage the existing ones. The existing connections appear under the section Legacy connections.
 
 Starting March 2026, these AI Service Graph Connectors  are available.
 

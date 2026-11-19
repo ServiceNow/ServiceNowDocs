@@ -24,7 +24,7 @@ Discovery and Service Mapping uses the Patterns extension sections to provide a 
 The Discovery and Service Mapping Patterns application uses the MSSql DB On Windows pattern to find Microsoft SQL DB servers and clusters on your infrastructure. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[MySQL discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/c_MySQLDiscovery.md)**  
 Discovery can identify an instance of MySQL that is running on UNIX or Windows operating systems.
--   **[MongoDB discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DiscoverMongoDBInstances.md)**  
+-   **[MongoDB probe-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DiscoverMongoDBInstances.md)**  
 Discovery creates or updates a CMDB record when it detects a running instance of MongoDB.
 -   **[PostgreSQL discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DiscoverPostgreSQLInstances.md)**  
 Discovery can find running instances of PostgreSQL on Windows and Linux systems.

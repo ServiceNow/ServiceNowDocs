@@ -7,7 +7,7 @@ release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 9
 breadcrumb: [Manage enterprise goals, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---

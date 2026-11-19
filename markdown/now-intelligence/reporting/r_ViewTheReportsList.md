@@ -35,7 +35,7 @@ You can filter the Reports list with the following tabs:
 |Global|Reports that are available to everyone.|
 |All|All reports that you have access to \(Global, Group, and My reports\).|
 
-Select the star icon \(\[Omitted image "favorites-icon.png"\] Alt text: Favorites icon.\) to show only your Favorites in the Reports list. Select the X next to **Favorites filtering is on** to show all reports you are allowed to see.
+Select the star icon \(\[Omitted image "favorites-icon.png"\] Alt text: Favorites icon\) to show only your Favorites in the Reports list. Select the X next to **Favorites filtering is on** to show all reports you are allowed to see.
 
 \[Omitted image "view-create-list.png"\] Alt text: The reports list - only favorites shown
 
@@ -76,7 +76,7 @@ Role required: report\_admin
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
 
-2.  Select the Personalize List icon\[Omitted image "icon-personalize-list.png"\] to show the **Edit columns** option.
+2.  Select the Personalize List icon\[Omitted image "icon-personalize-list.png"\] Alt text: Personalize list icon to show the **Edit columns** option.
 
 3.  Move **Created by** up the list so that it is visible.
 

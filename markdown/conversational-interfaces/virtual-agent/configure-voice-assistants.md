@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 15
+reading_time_minutes: 16
 breadcrumb: [View assistants, Configure assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -367,21 +367,37 @@ Voice or DTMF
 
     Advanced settings let you configure supplementary features for the voice assistant.
 
-    1.  In the **Noise cancellation** section, select the level of background noise cancellation intensity.
+    1.  In the **Noise cancellation** sectionon the **Caller experience** tab, select the level of background noise cancellation intensity.
 
         Noise cancellation reduces background noise from the caller's side so the voice agent can better hear them. Select from the following levels:
 
         -   **Low**: Picks up even the quietest background noises. Use in quiet environments where background sounds such as TV or music may be present.
         -   **Medium** \(default\): Picks up somewhat quiet background noises. Use in environments with moderate background noise, such as public places or areas with normal talking.
         -   **High**: Picks up only the loudest background noises. Use in very noisy environments such as construction sites or areas with loud background speech.
-    2.  On the **Language and voice** tab, configure the messages played during language selection.
+    2.  In the **Assistant response speed** section on the **Caller experience** tab, move the slider to set how quickly the assistant replies.
+
+        Move the slider toward **Slower** to give callers more time to follow the assistant's spoken responses. Move it toward **Faster** to speed up the assistant's spoken responses. The slider starts at the default position.
+
+        To return the slider to the default position, select **Reset to default**.
+
+    3.  On the **Language and voice** tab, configure the messages played during language selection.
 
         |Field|Description|
         |-----|-----------|
         |Retry message|Message played before each replay of the language selection prompt, up to three times.|
         |Goodbye message|Message played after the maximum number of retry attempts is reached without a valid selection.|
 
-    3.  Select **Save and continue**.
+    4.  On the **Interruption management** tab, select **Enable interruption handling** to allow the voice assistant to keep its context when a caller interrupts it.
+
+        Without interruption handling, the assistant can lose track of what it was saying when a caller speaks over it. With interruption handling, the assistant is designed to respond to the interruption and resume where it left off, if applicable. This setting is turned off by default.
+
+        For example, the assistant asks, "Did you book your ticket through our website or through a third party?" The caller interrupts with "Yes." With interruption handling turned on, the assistant replies, "Got it. You booked your ticket. Did you book it through our website or through a third party?" With interruption handling turned off, the assistant replies, "Got it. You booked. Let's continue," and the context of the question is lost.
+
+        To view this example in the interface, expand **How does interruption handling work?** on the tab.
+
+        Results can vary based on audio quality, caller accent, and context, and the assistant's responses may be inaccurate. Test the assistant before you deploy it.
+
+    5.  Select **Save and continue**.
 
         You're directed to the Review page.
 

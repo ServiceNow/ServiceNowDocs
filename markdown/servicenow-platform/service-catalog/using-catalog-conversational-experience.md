@@ -41,7 +41,7 @@ The **Update catalog items conversational status** scheduled job pulls conversat
 **Related topics**  
 
 
-[bundle-convint.configure-gen-ai-catalog-item]
+[Configure ServiceNow Otto in Conversational Catalog Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-gen-ai-catalog-item.md)
 
 [View the conversational catalog overview dashboard using Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/using-catalog-conversational-experience.md)
 

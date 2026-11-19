@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [open dex, application and device health, service operations workspace, dex workspace, end user experience trends, root cause analysis]
 breadcrumb: [Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
 ---
 

@@ -38,15 +38,15 @@ Role required: sn\_msi.workspace\_manager
 
 5.  On the Report section template form, fill in the fields.
 
-<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d184566e121">
+<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d184542e125">
 
 Field
 
-</th><th align="left" id="d184566e124">
+</th><th align="left" id="d184542e128">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d184566e130">
+</th></tr></thead><tbody><tr><td id="d184542e134">
 
 **Name**
 
@@ -54,7 +54,7 @@ Description
 
 Name of the Report template section. For example, Summary.
 
-</td></tr><tr><td id="d184566e139">
+</td></tr><tr><td id="d184542e143">
 
 **Table**
 
@@ -62,7 +62,7 @@ Name of the Report template section. For example, Summary.
 
 Name of the report template table.
 
-</td></tr><tr><td id="d184566e148">
+</td></tr><tr><td id="d184542e152">
 
 **Active**
 
@@ -70,7 +70,7 @@ Name of the report template table.
 
 Select the check box to create a report section for the selected template in the MSIM workspace.**Note:** If the check box is unselected, the MSI Manager can’t create a report section for this template in the MSIM workspace.
 
-</td></tr><tr><td id="d184566e160">
+</td></tr><tr><td id="d184542e164">
 
 **MSI report template**
 
@@ -78,7 +78,7 @@ Select the check box to create a report section for the selected template in the
 
 The MSI Report Template name for which the report is divided into sections.
 
-</td></tr><tr><td id="d184566e170">
+</td></tr><tr><td id="d184542e174">
 
 **Order**
 
@@ -86,7 +86,7 @@ The MSI Report Template name for which the report is divided into sections.
 
 The order in which the report sections will be rendered.
 
-</td></tr><tr><td id="d184566e179">
+</td></tr><tr><td id="d184542e183">
 
 **Icon**
 
@@ -94,7 +94,7 @@ The order in which the report sections will be rendered.
 
 Use the icon to display system icons in the report.
 
-</td></tr><tr><td id="d184566e188">
+</td></tr><tr><td id="d184542e192">
 
 **Hint**
 
@@ -102,7 +102,7 @@ Use the icon to display system icons in the report.
 
 Use the hint text to guide the report creation. Within the report, the hint text is displayed under the section title.
 
-</td></tr><tr><td id="d184566e197">
+</td></tr><tr><td id="d184542e201">
 
 **Editor - Body**
 

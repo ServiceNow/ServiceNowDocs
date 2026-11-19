@@ -47,7 +47,7 @@ When the **change.conflict.useprogressworker** system property is set to false, 
 You can choose to display a conflict calendar to view identified scheduling conflicts. For more information, see [Conflict calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-conflict-calendar.md)
 
 -   **[Detect change conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-conflict-properties.md)**  
-Detect change conflicts by setting Change Management conflict analysis properties. Use the resulting information to calculate conflicts for change requests and review and modify the change to eliminate conflicts.
+Configure Change Management conflict analysis properties to detect change conflicts, then review this information to calculate conflicts in change requests and modify the change to eliminate confllicts.
 -   **[Create blackout and maintenance schedules in Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateBlkoutMaintSched.md)**  
 Use the Blackout and Maintenance windows to schedule a change. Blackout windows specify times during which normal change activity should not be scheduled. Maintenance windows specify times during which change requests should be scheduled. For example, create a blackout schedule for code freezes at the end of the year.
 -   **[Schedule types in conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/schedule-types-conflict-detection.md)**  

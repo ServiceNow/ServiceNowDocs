@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-employeeslate-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -84,7 +84,7 @@ Depending on your license, you will have access to certain application features,
 
 Replaces traditional browse navigation with an AI-powered search bar and personalized canvas, supporting service delivery across departments.
 
--   **[EmployeeWorks home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=australia&ft:locale=en-US)**
+-   **[Configure home page](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=australia&ft:locale=en-US)**
 
 Provides a homepage centered on an AI-powered search bar with five configurable widgets: To-dos, Employee Communications, Trending Content, Quick Links, and Holiday Calendar.
 
@@ -259,7 +259,7 @@ Australia
 
 Access the Employee Slate setup experience through the profile icon to configure branding, data sources for search, and experience settings.
 
-For more information, see [Configuration flow](https://www.servicenow.com/docs/access?context=emp-slate-setup-flow&family=australia&ft:locale=en-US).
+For more information, see [Configure](https://www.servicenow.com/docs/access?context=empw-config&family=australia&ft:locale=en-US).
 
 
 **Important:** Employee Slate is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -419,7 +419,7 @@ Australia
 -   Manage and create content from content library with conversational content generation.
 -   Navigate organizational hierarchies with an integrated search experience for detailed employee information access.
 
- For more information, see [\[Placeholder link text to key employee-slate-landing-page\]](https://www.servicenow.com/docs/access?context=employee-slate-landing-page&family=australia&ft:locale=en-US) documentation.
+ For more information, see [employee slate landing page](https://www.servicenow.com/docs/access?context=employee-slate-landing-page&family=australia&ft:locale=en-US) documentation.
 
 </td></tr><tr><td>
 

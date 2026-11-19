@@ -18,7 +18,7 @@ Identify the root cause of boot time issues and get resolutions such as remedial
 
 ## Before you begin
 
-Role required: sn\_dex.user
+Role required: `sn_dex.user` `sn_dex.service_desk_user`
 
 ServiceNow Otto for DEX must be enabled to access AI-generated boot time diagnostics.
 
@@ -46,7 +46,7 @@ You can view boot time metrics in two locations: the **Insights** page and the *
 
     The **Key metrics** section displays the last data fetch timestamp and comprehensive boot time breakdown.
 
-4.  In the **ServiceNow Otto for Boot Time Issues** banner, select **Investigate**.
+4.  In the **Investigate device boot time issues** banner, select **Investigate**.
 
     **Note:** The ServiceNow Otto banner appears only if the device has boot time metrics.
 
@@ -54,7 +54,7 @@ You can view boot time metrics in two locations: the **Insights** page and the *
 
 5.  Review the AI-generated analysis, which includes:
 
-    -   **ServiceNow Otto for Boot time issues**: Provides a root cause of boot time issues.
+    -   **Investigate device boot time issues**: Provides a root cause of boot time issues.
     -   **Key findings**: Provides a key summary of boot time durations.
     -   **Issue Classification**: Provides the primary issue, secondary issue, or other issue details.
 6.  Select the **Show recommendations** button.

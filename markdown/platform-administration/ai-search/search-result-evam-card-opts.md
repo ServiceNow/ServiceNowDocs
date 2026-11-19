@@ -7,9 +7,9 @@ release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 11
-breadcrumb: [Configure EVAM display settings for search results, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure EVAM display settings for search results, Configure, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # List of Search Result EVAM card properties
@@ -99,8 +99,8 @@ detailLabelType
 Defines how to render label-value pairs on the Search Result card. -   Type: choice list
 -   Default value: inline
 -   Supported values:
-    -   **inline**: Render label-value pairs using the [Label-value](https://developer.servicenow.com/dev.do#!/reference/next-experience/paris/now-components/now-label-value-inline/overview) component, with each label appearing on the same line as its value string.
-    -   **stacked**: Render label-value pairs using the [Label value stacked](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/now-components/now-label-value-stacked/overview) component, with each label appearing on a separate line from its value string.
+    -   **inline**: Render label-value pairs using the [Label-value](https://horizon.servicenow.com/workspace/components/now-label-value-inline) component, with each label appearing on the same line as its value string.
+    -   **stacked**: Render label-value pairs using the [Label value stacked](https://horizon.servicenow.com/workspace/components/now-label-value-stacked) component, with each label appearing on a separate line from its value string.
 
 </td></tr><tr><td>
 
@@ -164,7 +164,7 @@ Defines the icon you want to show on the Search Result card when **imageType** i
 
 **Note:** To specify literal text for this property, include the property in the `staticValues` object and specify the text as its `key` value. To populate this property with the current search result's value from an AI Search indexed field, include the property in the `mappings` object with the field name as its value. For a list of AI Search indexed field names, see [AI Search index fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/index-fields-list-ais.md).
 
- For the set of available icon names, see the [Icon Gallery](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/now-components/now-icon/gallery) in the Next Experience reference section on the ServiceNow® Developer Site.
+ For the set of available icon names, see the [Icon Gallery](https://horizon.servicenow.com/workspace/components/now-icon) in the Next Experience reference section on the ServiceNow® Developer Site.
 
 </td></tr><tr><td>
 

@@ -47,15 +47,15 @@ Next, depending on the authentication type that you selected for your configured
 
 7.  For a messenger module with OIDC-based or SAMl-based authentication, complete the following configuration.
 
-<table id="choicetable_vhq_vtl_p4b"><thead><tr><th align="left" id="d107959e153">
+<table id="choicetable_vhq_vtl_p4b"><thead><tr><th align="left" id="d108028e155">
 
 Authentication type
 
-</th><th align="left" id="d107959e156">
+</th><th align="left" id="d108028e158">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d107959e162">
+</th></tr></thead><tbody><tr><td id="d108028e164">
 
 **OIDC-based**
 
@@ -70,7 +70,7 @@ This function enables authenticated users to log in to Engagement Messenger seam
 
 This function enables authenticated users to seamlessly log out from Engagement Messenger and your website.
 
-</td></tr><tr><td id="d107959e202">
+</td></tr><tr><td id="d108028e204">
 
 **SAML-based**
 

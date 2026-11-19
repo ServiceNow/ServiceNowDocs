@@ -28,7 +28,7 @@ Role required: Any roles necessary to access the workspace. The access control l
 
     **Note:** In the context of KPI Signals, the term KPI refers to an indicator with optionally a first-level breakdown and element.
 
-3.  Select the Open KPI Signals icon.\[Omitted image "open-kpi-signals-icon.png"\]
+3.  Select the Open KPI Signals icon.\[Omitted image "open-kpi-signals-icon.png"\] Alt text: Open KPI Signals icon
 
     The KPI Signals panel opens.
 

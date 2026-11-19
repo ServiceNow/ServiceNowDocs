@@ -1,6 +1,6 @@
 ---
-title: Estimated cost savings for Success Dashboard indicators
-description: Use Estimated Cost Savings to measure the total amount agents save through Virtual Agent, Knowledge, and Service Catalog.
+title: Estimated Cost Savings for Success Dashboard indicators
+description: Estimated Cost Savings provides the data to measure the success of the product by calculating the total amount saved by the agents for Virtual Agent, Knowledge, and Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/estimated-cost-savings-sd.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Maximizing the benefits, ITSM Success Dashboard indicators, IT Service Management]
 ---
 
-# Estimated cost savings for Success Dashboard indicators
+# Estimated Cost Savings for Success Dashboard indicators
 
-Use Estimated Cost Savings to measure the total amount agents save through Virtual Agent, Knowledge, and Service Catalog.
+Estimated Cost Savings provides the data to measure the success of the product by calculating the total amount saved by the agents for Virtual Agent, Knowledge, and Service Catalog.
 
 View the total estimated cost saved and its breakdowns to measure benefits from the product capabilities:
 
@@ -27,7 +27,7 @@ View the total estimated cost saved and its breakdowns to measure benefits from 
 
 This dashboard provides the following features:
 
--   Centralized view with prescribed key performance indicators \(KPIs\), computing cost savings for the overall cost saved that includes Self-solved, Call deflection, Structured tickets completed, and Successful predictions
+-   Centralized view with prescribed KPIs, computing cost savings for the overall cost saved that includes Self-solved, Call deflection, Structured tickets completed, and Successful predictions
 -   Monthly, quarterly and yearly aggregation of the KPIs
 -   Contextual help explaining a selected KPI and its formula
 -   Ability to configure persona groups, the hourly salary for each persona group, and the time saving for each persona group per indicator

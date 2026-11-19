@@ -26,7 +26,7 @@ Role required: sn\_process\_mining\_power\_user
 
 1.  Navigate to **All** &gt; **Process Mining** &gt; **Process Configurations**.
 
-2.  [Configure the desired finding definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/view-business-findings.md).
+2.  [Setting improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/working-with-imp-opp.md).
 
     The insights filters available for a demand by default are defined in the following table:
 
@@ -56,7 +56,7 @@ Rework
 3.  On the Summary and insights page, for the selected insight:
 
     -   To perform process analysis, select **Process Analysis**. You can view the Process Mining map with the applied filters.
-    -   To perform cluster analysis, select **Cluster Analysis**. Select **View cluster** to view the results. For more information, see [View a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/cluster-analysis.md).
+    -   To perform cluster analysis, select **Cluster Analysis**. Select **View cluster** to view the results. For more information, see [View a cluster analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/view-cluster-analysis.md).
 
 **Parent Topic:**[Content pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/integration-with-spm.md)
 

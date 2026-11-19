@@ -34,9 +34,13 @@ Role required: sn\_grc\_ent\_access.admin
 
     \[Omitted image "entity-type-config.png"\] Alt text: Entity type.
 
-4.  Activate the configuration by selecting **Activate**.
+4.  Select **Submit**.
 
-    An entity type is set up where you can manage the object access for entities that are associated with that entity type. The configuration that is displayed in the example grants the users, Anglin and administrator, access to all system objects that are associated with the entities that belong to the selected entity type.
+    This saves your entity type access configuration but doesn't activate it.
+
+5.  To activate the configuration, open the saved configuration and select **Activate**.
+
+    An entity type is set up where you can manage object access for entities that are associated with that entity type. The configuration that is displayed in the example grants the users, Anglin and administrator, access to all system objects that are associated with the entities that belong to the selected entity type.
 
 
 -   **[Entity Type Configurations form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/entity-type-configurations-form.md)**  

@@ -16,7 +16,7 @@ breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Managem
 
 In Field Service Management, you can create and view work orders and work order tasks specifically for the inspection of linear assets. This enables you to systematically assess the condition of the assets and take the necessary measures to maintain the reliability and performance of the linear assets.
 
-Initiators, qualifiers, and dispatchers can create and manage work orders and work order tasks for linear assets using the service location maps accessed through the CSM and FSM Configurable Workspace.
+Initiators, qualifiers, and dispatchers can create and manage work orders and work order tasks for linear assets using the service location maps accessed through the CRM Workspace.
 
 Additionally, agents can manage assigned work order tasks for linear assets using the Now Mobile Agent application. They can also create work orders for specific segments that require maintenance, repair, or other types of work. For more information, see [Linear assets on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/working-on-linear-asset-wot.md).
 

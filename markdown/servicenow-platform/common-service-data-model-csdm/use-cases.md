@@ -8,8 +8,8 @@ product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+reading_time_minutes: 2
+breadcrumb: [Common Service Data Model \(CSDM\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Applying CSDM guidelines to your product — product views
@@ -37,31 +37,31 @@ The topics do not address the following information:
 
 -   **Change Management**
 
-
+    [Applying CSDM guidelines to Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-change-use-case-product-view.md)
 
 -   **Customer Service Management**
 
-
+    [Customer Service Management and the CSDM guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-use-case-product-view.md)
 
 -   **Digital Portfolio Management**
 
-
+    [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dpm-csdm.md)
 
 -   **Enterprise Architecture**
 
-
+    [Enterprise Architecture \(EA\) and the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/apm-use-case-product-view.md)
 
 -   **HR Service Delivery for Healthcare**
 
-
+    [HR Service Delivery and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hrsd-csdm.md)
 
 -   **Incident Management**
 
-
+    [Applying CSDM guidelines to Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-incident-use-case-product-view.md)
 
 -   **Install Base Management**
 
-
+    [Common Service Data Model framework for Install Base Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csdm-framework-for-install-base-management.md)
 
 -   **ITOM AIOps**
 
@@ -73,15 +73,15 @@ The topics do not address the following information:
 
 -   **Operational Technology Manager**
 
-
+    [Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/ot-use-case-product-view.md)
 
 -   **Problem Management**
 
-
+    [Applying CSDM guidelines to Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/pm-use-case-product-view.md)
 
 -   **RPA Hub**
 
-
+    [Applying the CSDM guidelines to RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-hub-apply-csdm.md)
 
 -   **Service Catalog**
 
@@ -89,16 +89,16 @@ The topics do not address the following information:
 
 -   **Service Portfolio Management**
 
-
+    [Applying the CSDM guidelines to Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/SPM2-csdm.md)
 
 -   **Vulnerability Response**
 
-
+    [Vulnerability Response applications and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vr-avr-sbom-csdm-guidelines.md)
 
 
 ## CSDM videos in the ServiceNow Community
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
-**Parent Topic:**[Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
+**Parent Topic:**[Common Service Data Model \(CSDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
 

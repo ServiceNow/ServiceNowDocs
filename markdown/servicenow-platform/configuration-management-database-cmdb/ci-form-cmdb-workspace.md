@@ -45,7 +45,7 @@ You can control the use and content of CI Form as follows:
 
     -   Select **Configure attributes** to modify the Summary and Attributes sections on the form, in Form Builder. For example, to add sections, modify section titles or the attributes included in sections: Requires the personalize\_form user role.
 
-        For more information about Form Builder and Table Builder, see  and .
+        For more information about Form Builder and Table Builder, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-view-configuration.md) and [Add fields to a form layout in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-form-fields.md).
 
     -   Select **Configure resources** to modify the Resources section on the form. For example, to add or remove subsections or items within subsections: Requires the personalize\_list user role.
 
@@ -58,7 +58,7 @@ Several key attributes are preconfigured to be highlighted on a CI form when spe
 
 To see those preconfigured highlight records that are used in CI Form and in various other CMDB Workspace features, navigate to **All** &gt; **Workspace Experience** &gt; **Administration** &gt; **Highlighted Values**.
 
-For more information about configuring attribute highlights in the ServiceNow AI Platform, see .
+For more information about configuring attribute highlights in the ServiceNow AI Platform, see [Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/highlight-list-fields-platform.md).
 
 ## Summary
 
@@ -258,7 +258,7 @@ This section appears only if CMDB 360 is enabled and configured.
 More information:
 
 -   [CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
--   [CMDB 360 experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)
+-   [CMDB 360 experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)
 -   [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md)
 
 **Parent Topic:**[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)

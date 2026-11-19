@@ -29,10 +29,10 @@ Service Operations Workspace contains incidents, cases, and tasks that an agent 
 -   ServiceNow doesn’t support customizing the Incident record page using methods such as **Record SNC** or **SRP Record**. So, no support is provided for record page customizations.
 
 -   **[Add declarative actions on the standard record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-srp-sow.md)**  
-Add declarative actions on the Incident page and its tabs Service Operations Workspace using the Standard Record Page \(SRP\) to customize list actions, related list actions, and field decorators.
--   **[Custom Modal Migration in Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/custom-modal-migration-srp.md)**  
+Add declarative actions on the Incident page and its tabs in Service Operations Workspace using the Standard Record Page \(SRP\) to customize list actions, related list actions, and field decorators.
+-   **[Customize modals in the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/custom-modal-migration-srp.md)**  
 Modify the modal containers inside a record page in the Service Operations Workspace.
--   **[Modify the Record Page in the Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-record-page-order-sow.md)**  
+-   **[Modify the record page in the Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-record-page-order-sow.md)**  
 Configure the order number and screen conditions of a record page using the Standard Record Page \(SRP\) in the Service Operations Workspace.
 -   **[Configure the Agent Assist tab in Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-agent-assist-tab-sow-srp.md)**  
 Enable or disable the Agent Assist tab in the contextual side panel for the required record type using the Standard Record Page \(SRP\) in Service Operations Workspace.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vc-build-agents-in-ba.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-03"
 reading_time_minutes: 3
 breadcrumb: [Build Agent overview, Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
@@ -18,9 +18,9 @@ The agentic development capabilities in Build Agent extend beyond building appli
 
 Before generating any new components, Build Agent scans your instance for existing agents, skills, and workflows that may already satisfy your requirements. If there are matches, Build Agent proposes using the existing components or creating new ones, so you can reuse what's already available before adding to your instance. In each case, Build Agent uses your instance's existing tables, roles, permissions, and automation patterns as context.
 
-All you need to do is describe the business problem you want to solve, and Build Agent determines whether to build an agentic workflow, an agent, or set of skills, and identifies the tools required. Drawing on its understanding of your application context, Build Agent handles the complexity of agent creation for you, with no prior knowledge required and significantly less development time.
+All you need to do is describe the business problem you want to solve, and Build Agent determines whether to build an agentic workflow, an agent, or set of skills, and identifies the tools required. Drawing on its understanding of your application context, Build Agent handles much of the complexity of agent creation for you.
 
-As part of the agent and skill creation process, Build Agent guides you through defining access controls and permissions alongside the agent itself, keeping governance integrated from the start. Once created, you can test and activate the agent in AI Agent Studio, then monitor and govern it in AI Control Tower.
+As part of the agent and skill creation process, Build Agent guides you through defining access controls and permissions alongside the agent itself, keeping governance integrated from the start. Once created, you can test and activate the agent in AI Agent Studio, then monitor and govern it in Super Intelligence Control Tower. For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md).
 
 **Note:** Your entitlements determine whether you have access to agentic workflows, agents, and skills in Build Agent.
 
@@ -37,6 +37,10 @@ Build Agent can generate agentic workflows that coordinate sequences of automate
 Build Agent can generate custom skills scoped to your application's data model, without manually authoring skill definitions. You describe what you want the skill to do, and Build Agent creates skills that align with your existing table structure, field configurations, and access controls.
 
 You can create custom skills individually, that is, they don't need to be used as tools for an agent. Think of skills as custom instructions that extend the quality of your agentic development outcomes. For more information, see [Exploring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md).
+
+## Playbooks
+
+Build Agent and Autonomous Engineer can also author Playbook Designer artifacts, such as playbook structures, activities, and runtime permissions. For more information, see [Playbook authoring with Build Agent and Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-playbooks.md).
 
 ## Helpful resources
 

@@ -16,7 +16,7 @@ Customize the name, profile icon, department, and description of your L1 IT Serv
 
 ## Before you begin
 
-Role required: sn\_itsm\_common.sn\_service\_desk\_manager
+Role required: sn\_sow\_itsm\_common.sn\_service\_desk\_manager
 
 ## Procedure
 

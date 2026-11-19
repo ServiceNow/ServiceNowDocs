@@ -1,5 +1,5 @@
 ---
-title: Add dependencies between template item
+title: Add dependencies between template items
 description: Add dependencies between template items in a task plan template to control the sequence in which tasks are available to agents after the template is applied.Edit the fields of an existing dependency or remove it from the dependency map in a task plan template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-dependencies-between-template-item.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Task Dependencies for Task Plan Templates, Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Add dependencies between template item
+# Add dependencies between template items
 
 Add dependencies between template items in a task plan template to control the sequence in which tasks are available to agents after the template is applied.
 
@@ -29,7 +29,7 @@ Task dependencies define the order in which agents act on tasks generated from a
 
 Dependencies control the order in which agents can act on those tasks after generation. You can set how strictly a dependency is enforced and add an optional time offset between tasks.
 
-You can define the following dependency types, which determine when a successor task becomes active:
+You can define the following dependency types, which determine when a successor task is set to active:
 
 |Dependency type|Status|
 |---------------|------|

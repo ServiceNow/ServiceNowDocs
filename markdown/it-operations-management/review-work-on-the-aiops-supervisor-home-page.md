@@ -27,7 +27,7 @@ Role required: evt\_mgmt\_operator
 
 2.  From the **Service Operations Workspace** navigation menu, select **Home**.
 
-    If the AIOps Supervisor home page does not appear, a customized home page might be configured. To show the AIOps Supervisor home page, revert to the default home page. For more information, see [Customize Service Operations Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configure-service-operations-workspace-landing-page.md).
+    If the AIOps Supervisor home page does not appear, a customized home page might be configured. To show the AIOps Supervisor home page, revert to the default home page. For more information, see .
 
 3.  Set the assignment group scope.
 

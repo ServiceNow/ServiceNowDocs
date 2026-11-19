@@ -1,5 +1,5 @@
 ---
-title: Value tab in AI Control Tower
+title: Value tab in Super Intelligence Control Tower
 description: Use the Value dashboard page to gain insights into the value realized from multiple types of AI in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/aict-value-tab.html
@@ -9,16 +9,16 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control Tower Home, Control Tower dashboard, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Value tab in AI Control Tower
+# Value tab in Super Intelligence Control Tower
 
 Use the Value dashboard page to gain insights into the value realized from multiple types of AI in your organization.
 
 The Value dashboard page contains visualizations that help you assess the value of your AI assets. Creator skills are included in the Value dashboard page. Value metrics for creator skills are aggregated across non-production and production instances.
 
-\[Omitted image "value-tab-aict.png"\] Alt text: Value tab in AI Control Tower.
+\[Omitted image "value-tab-aict.png"\] Alt text: Value tab.
 
 The indicators on the dashboard are based on the value templates associated with each AI asset. See [Using value templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/using-value-templates.md) for more information.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-plugin-info.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-04"
+last_updated: "2026-11-19"
 reading_time_minutes: 12
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -27,14 +27,6 @@ Application or feature
 Details
 
 </th></tr></thead><tbody><tr><td>
-
-AI Control Tower
-
-</td><td>
-
-AI Policy Framework \(sn\_ai\_policy\_framework\): Mitigate AI exposure through policies.
-
-</td></tr><tr><td>
 
 AI Workflow Factory Prime
 
@@ -225,6 +217,14 @@ Stream Connect
 </td><td>
 
 ServiceNow Stream Producer \(`com.glide.hub.stream_connect.stream_producer`\): Adds Stream Producer capabilities.
+
+</td></tr><tr><td>
+
+Super Intelligence Control Tower
+
+</td><td>
+
+AI Policy Framework \(sn\_ai\_policy\_framework\): Mitigate AI exposure through policies.
 
 </td></tr><tr><td>
 

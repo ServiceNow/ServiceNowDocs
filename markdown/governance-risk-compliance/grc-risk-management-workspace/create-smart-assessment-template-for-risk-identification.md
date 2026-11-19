@@ -76,7 +76,7 @@ Assessment target
 
 </td><td>
 
-The table records selected to be assessed, otherwise known as the assessment scope. Multiple tables can be added as the assessment target making the scope a combination of records from each table. You must select `Entity`.
+The table records selected to be assessed, otherwise known as the assessment scope. Multiple tables can be added as the assessment target making the scope a combination of records from each table. You can add other tables as targets, for example `Business Unit`.
 
 </td></tr></tbody>
 </table>3.  Select **Create**.

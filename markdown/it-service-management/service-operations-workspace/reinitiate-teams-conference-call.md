@@ -1,6 +1,6 @@
 ---
 title: Reinitiate a conference call from Microsoft Teams in Service Operations Workspace
-description: Reinitiate a conference call to discuss about the resolution of an incident.
+description: Reinitiate a conference call to discuss the resolution of an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/reinitiate-teams-conference-call.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Using Microsoft Teams to make conference calls in Service Operation
 
 # Reinitiate a conference call from Microsoft Teams in Service Operations Workspace
 
-Reinitiate a conference call to discuss about the resolution of an incident.
+Reinitiate a conference call to discuss the resolution of an incident.
 
 ## Before you begin
 

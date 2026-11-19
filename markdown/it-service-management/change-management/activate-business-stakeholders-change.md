@@ -20,7 +20,7 @@ Activate the Business Stakeholder plugin \(com.snc.business\_stakeholder\) if yo
 
 Role required: admin
 
-**Note:** Ensure that ITSM Roles plugin \(com.snc.itsm.roles\) is activated before you activate the Business Stakeholder plugin. For more information to activate ITSM Roles plugin, refer [Request ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/request-itsm-roles-cm.md).
+**Note:** Ensure that ITSM Roles plugin \(com.snc.itsm.roles\) is activated before you activate the Business Stakeholder plugin. For more information to activate ITSM Roles plugin, refer [Request ITSM Roles for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/request-itsm-roles-cm.md).
 
 ## Procedure
 
@@ -51,7 +51,7 @@ The Business Stakeholder plugin \(com.snc.business\_stakeholder\) installs the B
 **Related topics**  
 
 
-[Request ITSM Roles - Change Management]()
+[Request ITSM Roles for Change Management]()
 
 [Activate Change Management - State Model]()
 

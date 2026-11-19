@@ -18,7 +18,7 @@ Investigate Zoom call performance with ServiceNow Otto for Zoom Call Issues to i
 
 ## Before you begin
 
-Role required: sn\_dex.user
+Role required: `sn_dex.user` and `sn_dex.service_desk_user`
 
 -   DEX for Zoom must be configured. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md).
 -   Advanced monitoring must be enabled to capture Zoom call telemetry. For more information, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/enable-app-monitor.md).
@@ -59,7 +59,7 @@ ServiceNow Otto for Zoom Call Issues processes Zoom telemetry data including aud
 
     **Tip:** Apply **Additional filters** \(Device type, Version, Network type, and Location\) to narrow down the results and quickly find call details.
 
-7.  In the **ServiceNow Otto for Zoom Call Issues** banner, select **Investigate**.
+7.  In the **Investigate Zoom call issues** banner, select **Investigate**.
 
 8.  Review the AI-generated analysis, which includes:
 

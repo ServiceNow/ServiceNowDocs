@@ -23,7 +23,7 @@ The AI learns from your alert history. The more it processes, the more accurate 
 
 ## Investigate
 
-Investigate is the AI Specialist's analysis engine. For every alert assigned to it, the AI runs two analyzations:
+Investigate is the AI Specialist's analysis engine. For every alert assigned to it, the AI runs the following analysis:
 
 -   **Root cause analysis**
 

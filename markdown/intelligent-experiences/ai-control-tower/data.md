@@ -1,5 +1,5 @@
 ---
-title: Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower
+title: Data sharing, Data overflow processing, and Security &amp; privacy in Control Tower
 description: Explore the Data sharing, Data processing, and Security &amp; privacy sections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/data.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configurations, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configurations, Control Tower dashboard, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower
+# Data sharing, Data overflow processing, and Security &amp; privacy in Control Tower
 
 Explore the Data sharing, Data processing, and Security &amp; privacy sections.
 
@@ -21,7 +21,7 @@ The section focuses on improving AI models, managing datacenter traffic, and ena
 
 ## Data sharing
 
-By default, Data sharing is active. You can opt out to deactivate AI Control Tower and share your data with ServiceNow to improve AI accuracy, enhance user experiences, and gain a better understanding of business needs.
+By default, Data sharing is active. You can opt out to deactivate Control Tower and share your data with ServiceNow to improve AI accuracy, enhance user experiences, and gain a better understanding of business needs.
 
 \[Omitted image "aict-data-sharing.png"\] Alt text: Data sharing on the Configurations screen.
 

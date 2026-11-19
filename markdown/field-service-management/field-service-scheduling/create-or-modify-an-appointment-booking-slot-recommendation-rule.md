@@ -18,7 +18,7 @@ Create modify a appointment booking slot recommendation rules to categorize the 
 
 ## Before you begin
 
-Role required: appointment\_booking\_admin
+Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
 ## About this task
 

@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-09-28"
 reading_time_minutes: 9
-breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Administer, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Internationalization support for AI Search
@@ -80,6 +80,8 @@ When processing search query text, AI Search uses tokenization settings for the 
 **Note:** AI Search recognizes Japanese, Simplified Chinese, and Traditional Chinese terms in search queries. These terms are processed with the appropriate language tokenization settings regardless of the user session's language. As an example, if a user in a French user session searches for `remplacement ordinateur 笔记本电脑`, AI Search applies Simplified Chinese settings for the `笔记本电脑` term and French settings for the other search terms.
 
 AI Search compares your search query terms with terms from indexed content and metadata, returning search results for indexed records or documents that contain matches. When your search terms are in the same language as the indexed terms, AI Search processes both sets of terms with the same tokenization settings, producing predictable matches and search results. If your search terms aren't in the same language as the indexed terms, AI Search processes the two sets of terms with different tokenization settings and matching may be unpredictable.
+
+As an example, AI Search might split a Japanese term into different tokens in indexed content than in a search query. This can happen with names and compound words. When the tokens don’t match, search results might not include content you expect. You cannot customize tokenization.
 
 ## Language dependence for search features
 

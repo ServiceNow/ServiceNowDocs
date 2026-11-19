@@ -34,3 +34,5 @@ You can move changes to your production instance on the ServiceNow AI Platform i
 
 For more information about ways to publish your ERP updates, see [Application sharing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_SharingApplications.md).
 
+**Parent Topic:**[Building applications and flows with ERP data from Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-building-with-erp-data.md)
+

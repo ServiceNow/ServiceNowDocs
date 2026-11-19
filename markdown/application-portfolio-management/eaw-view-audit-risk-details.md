@@ -29,8 +29,8 @@ Role required: admin
     For a description of each column, see [Technology portfolio audit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-technology-portfolio-audit-form.md).
 
 
--   **[Update verification status of TPM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-update-verif-status.md)**  
-Change the verification status of a software product or hardware model lifecycle in the TPM technology lifecycle exception table.
+-   **[Update verification status of TLM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-update-verif-status.md)**  
+Change the verification status of a software product or hardware model lifecycle in the TLM technology lifecycle exception table.
 
 **Parent Topic:**[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-tpm.md)
 

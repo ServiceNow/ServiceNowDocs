@@ -54,7 +54,7 @@ You can refresh an existing event rule with new event data. For more information
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Rules** &gt; **Event Rules** and take one of the following actions.
 
-<table id="choicetable_u5d_w1m_zt"><tbody><tr><td id="d650006e196">
+<table id="choicetable_u5d_w1m_zt"><tbody><tr><td id="d654110e198">
 
 **Create an event rule from an existing event**
 
@@ -68,7 +68,7 @@ You can refresh an existing event rule with new event data. For more information
 
 The event fields are copied to the Event Field Rules section of the rule.
 
-</td></tr><tr><td id="d650006e224">
+</td></tr><tr><td id="d654110e226">
 
 **Edit an existing event rule**
 
@@ -81,7 +81,7 @@ Rule cannot be viewed in the
           event rule designer. To modify the rule click 'Save and Upgrade'.
 ```
 
-</td></tr><tr><td id="d650006e248">
+</td></tr><tr><td id="d654110e250">
 
 **Create an event rule**
 
@@ -149,7 +149,7 @@ When the rules are running – first the global rules run and then the rules tha
 </td></tr></tbody>
 </table>4.  Define the event rule using these Event Rule Designer features.
 
-<table id="choicetable_n2q_nks_sy"><tbody><tr><td id="d650006e378">
+<table id="choicetable_n2q_nks_sy"><tbody><tr><td id="d654110e380">
 
 **Event Filter**
 
@@ -157,7 +157,7 @@ When the rules are running – first the global rules run and then the rules tha
 
 Define a filter to restrict to which events the event rule must apply. See [Filter the events that an event rule applies to](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateFilter.md).
 
-</td></tr><tr><td id="d650006e394">
+</td></tr><tr><td id="d654110e396">
 
 **Transform and compose alert output**
 
@@ -165,7 +165,7 @@ Define a filter to restrict to which events the event rule must apply. See [Filt
 
 Configure the customization of alert content. See [Configure an event rule to customize alert content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMComposeOuput.md).
 
-</td></tr><tr><td id="d650006e413">
+</td></tr><tr><td id="d654110e415">
 
 **Threshold**
 
@@ -173,7 +173,7 @@ Configure the customization of alert content. See [Configure an event rule to cu
 
 Create or close alerts according to the specified threshold. See [Set a threshold to suppress alert generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMISetThresholdEvent.md).
 
-</td></tr><tr><td id="d650006e432">
+</td></tr><tr><td id="d654110e434">
 
 **Binding**
 
@@ -190,7 +190,7 @@ Configure event rules to automatically bind alerts to CI information from the CM
 **Related topics**  
 
 
-[Pattern matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_PatternMatching.md)
+[bundle-platadm.c_PatternMatching]
 
 [Use event input information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-input-information.md)
 

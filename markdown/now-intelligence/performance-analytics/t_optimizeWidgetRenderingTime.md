@@ -30,15 +30,15 @@ Role required: admin
 
 1.  Use these two system properties to optimize dashboard widget rendering.
 
-<table id="choicetable_txm_hjc_wy"><thead><tr><th align="left" id="d158727e78">
+<table id="choicetable_txm_hjc_wy"><thead><tr><th align="left" id="d141398e80">
 
 Name
 
-</th><th align="left" id="d158727e81">
+</th><th align="left" id="d141398e83">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d158727e87">
+</th></tr></thead><tbody><tr><td id="d141398e89">
 
 **glide.canvas.grid.widget\_performance\_threshold**
 
@@ -49,7 +49,7 @@ Defines the maximum number of seconds for a widget to render on a dashboard. Wid
 -   Location: **System Properties** &gt; **Dashboard Properties**
 The default value of -1 disables the threshold and widget performance isn’t evaluated. Widgets are evaluated against any value greater than or equal to 1.
 
-</td></tr><tr><td id="d158727e118">
+</td></tr><tr><td id="d141398e120">
 
 **glide.canvas.grid.widget\_render\_concurrent\_max**
 

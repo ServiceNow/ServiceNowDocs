@@ -8,7 +8,7 @@ product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 14
+reading_time_minutes: 13
 breadcrumb: [Device details pages, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
@@ -484,7 +484,7 @@ ServiceNow Otto for Boot time issues
 
 </td><td>
 
-In the **ServiceNow Otto for Boot time issues** banner, select the **Investigate** button to automatically analyze boot time performance and identify factors causing slow startup. You can also find recommendations to fix boot time issues. For more information, see [Investigate boot time issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/investigate-and-resolve-boot-time-issues.md).
+In the **ServiceNow Otto for Boot time issues** banner, select the **Investigate** button to automatically analyze boot time performance and identify factors causing slow startup. Also find recommendations to fix Boot time issues. For more information, see .
 
 </td></tr></tbody>
 </table><table id="table_nvx_xh1_zdc"><thead><tr><th>

@@ -40,7 +40,7 @@ Role required: admin
     -   **Delete**: Deletes the selected communications plan.
     -   **Deactivate**: Deactivates the selected active communications plan.
     -   **Copy**: Copies the communications plans along with the task information. This option helps when creating a communications plan using the data of an existing communication plan.
-    In case if no communication plans exist, the **Create a communication plan** option is displayed.
+    If no communication plans exist, the **Create a communication plan** option is displayed.
 
 4.  Select **New** to create a communication plan definition.
 
@@ -56,7 +56,7 @@ Role required: admin
 
 6.  On the Communication task definition record, select the required communication channel related link to define the communication channel.
 
-    The communication channel related list contains the communication channel related links such as Add channel - Email, Add channel - Sidebar discussion and Add channel - DEX Desktop Assistant. For more information on creating a communication channel, see [Define a communication channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-comm-channel-definition.md).
+    The communication channel related list contains the communication channel related links such as **Add channel - Email**, **Add channel - Sidebar discussion**, and **Add channel - DEX Desktop Assistant**. For more information on creating a communication channel, see [Define a communication channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-comm-channel-definition.md).
 
 7.  On the Communication plan definition record, select the Communication contact definition related list.
 

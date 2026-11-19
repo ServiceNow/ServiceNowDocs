@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure]
-breadcrumb: [CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Common Service Data Model \(CSDM\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configuring CSDM
@@ -26,5 +26,5 @@ Use the CSDM Data Foundations dashboard to monitor and evaluate key foundational
 -   **[Migrate and synchronize existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/migrate.md)**  
 You complete several tasks to confirm that your existing application data migrates successfully to the required tables in the CMDB.
 
-**Parent Topic:**[Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
+**Parent Topic:**[Common Service Data Model \(CSDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
 

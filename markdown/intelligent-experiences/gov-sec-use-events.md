@@ -1,27 +1,27 @@
 ---
 title: Monitor AI asset security events and recommendations
-description: Triage and resolve AI recommendations and AI asset security events to optimize AI asset security.
+description: Triage and resolve AI recommendations and AI asset security events to optimize AI asset security in Super Intelligence Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-use-events.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-26"
+last_updated: "2026-11-13"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Monitor AI asset security events and recommendations
 
-Triage and resolve AI recommendations and AI asset security events to optimize AI asset security.
+Triage and resolve AI recommendations and AI asset security events to optimize AI asset security in Super Intelligence Control Tower.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
+Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **AI Control Tower** &gt; **Govern** &gt; **Security**.
+1.  Navigate to **Control Tower** &gt; **Govern** &gt; **Security**.
 
 2.  On the **Overview** tab, go to Your top recommendations.
 
@@ -37,7 +37,7 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 5.  On any AI asset security event, select an option from the Actions menu.
 
-<table id="choicetable_kbs_cjn_1lc"><tbody><tr><td id="d359640e144">
+<table id="choicetable_kbs_cjn_1lc"><tbody><tr><td id="d360586e149">
 
 **__Create Asset Task__ \(shown as __Create SIR__ if the Security Incident Response plugin is installed\)**
 
@@ -45,7 +45,7 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 Create a task to remediate the security event.
 
-</td></tr><tr><td id="d359640e158">
+</td></tr><tr><td id="d360586e163">
 
 **__View asset details__**
 
@@ -53,7 +53,7 @@ Create a task to remediate the security event.
 
 View the asset record in inventory.
 
-</td></tr><tr><td id="d359640e168">
+</td></tr><tr><td id="d360586e173">
 
 **__View containment options__**
 
@@ -61,7 +61,7 @@ View the asset record in inventory.
 
 Review AI agent containment \(kill switch\), such as deactivating the agent.
 
-</td></tr><tr><td id="d359640e178">
+</td></tr><tr><td id="d360586e183">
 
 **__View source log__**
 
@@ -69,7 +69,7 @@ Review AI agent containment \(kill switch\), such as deactivating the agent.
 
 See the input, output, and reason the security event was captured. Sensitive data, such as credit card numbers, are masked. You can also view the source trace record for the event.
 
-</td></tr><tr><td id="d359640e191">
+</td></tr><tr><td id="d360586e196">
 
 **__View map__**
 

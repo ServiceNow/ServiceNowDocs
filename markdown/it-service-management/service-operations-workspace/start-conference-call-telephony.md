@@ -24,13 +24,13 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text: List icon\) icon.
+2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text:\) icon.
 
 3.  Select **Incidents** &gt; **Open**.
 
 4.  Select the incident record.
 
-5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text: Collaborate icon\) from the contextual side panel.
+5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text:\) from the contextual side panel.
 
 6.  Select the **Calls** tab, and then select the plus \(+\) icon.
 
@@ -73,7 +73,7 @@ Provide a brief summary about the issue to be discussed in the conference call.
 </td></tr></tbody>
 </table>9.  Select **Start**.
 
-    If there are more than 50 participants, the conference call will be initiated in asynchronous mode and a few additional participants will be added to the conference call soon in background, this enables you to continue work without any interruption.
+    If there are more than 50 participants, the conference call starts in asynchronous mode, and the system adds some participants to the call in the background shortly afterward. This enables you to continue working without interruption.
 
 10. At the conclusion of the discussion, end the call.
 

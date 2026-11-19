@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 keywords: [Workload Identity Federation, Google Cloud, GCP, Workload Identity Pool, token exchange]
 breadcrumb: [Workload Identity Federation, OAuth outbound, OAuth authentication, Authentication, Access Management]

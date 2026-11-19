@@ -16,8 +16,6 @@ Optimize processes and increase productivity with the Platform Analytics applica
 
 -   **[Automation Discovery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/automation-discovery-rn-2026-09.md)**  
 The Automation Discovery application helped you identify automation opportunities for your workflows. This application is no longer supported starting with the Brazil release.
--   **[ServiceNow Otto for Platform Analytics Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/otto-for-platform-analytics-rn-static.md)**  
-ServiceNow Otto® for Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics.
 -   **[Platform Analytics experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/platform-analytics-experience-rn.md)**  
 The Platform Analytics experience application enables you to distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data.
 -   **[Performance Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/performance-analytics-rn.md)**  
@@ -26,6 +24,8 @@ The ServiceNow® Performance Analytics application is an in-platform process opt
 The ServiceNow® Predictive Intelligence application is a powerful interface to train machine learning models. See the following sections for release notes by version.
 -   **[Process Mining release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/process-optimization-rn.md)**  
 The ServiceNow® Process Mining application helps analysts and process owners quickly analyze and optimize their business processes.
+-   **[ServiceNow Otto for Platform Analytics Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/otto-for-platform-analytics-rn-static.md)**  
+ServiceNow Otto® for Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/new-features-changes.md)
 

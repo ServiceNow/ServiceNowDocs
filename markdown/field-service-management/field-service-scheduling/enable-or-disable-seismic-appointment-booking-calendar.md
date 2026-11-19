@@ -18,7 +18,7 @@ Use the seismic appointment booking calendar across all user interfaces to ensur
 
 ## Before you begin
 
-Role required: appointment\_booking\_admin
+Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
 ## About this task
 

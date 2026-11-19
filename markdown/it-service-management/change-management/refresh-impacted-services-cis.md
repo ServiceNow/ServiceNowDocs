@@ -7,8 +7,8 @@ release: brazil
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-11-13"
+reading_time_minutes: 1
 breadcrumb: [Process a change request, Use, Change Management, IT Service Management]
 ---
 
@@ -19,14 +19,6 @@ The Impacted services and CIs related list refreshes its records based on the af
 ## Before you begin
 
 Role required: itil, change\_manager, sn\_change\_write, or admin
-
-## About this task
-
-Impacted services on a change request are refreshed in one of the following ways:
-
--   Conflict detection: When a conflict detection is triggered, refreshing of impacted services may be initiated. The **Automatically include business or application services related to Cis with conflicts in the Impacted Cis/Services related list** property \(**change.conflict.populateimpactedcis**\) controls whether the Impacted Services/CIs related list is refreshed. When this property is set to true, the refreshImpactedServices method of the `ChangeUtils` script include runs for the current change request.
--   Automatically when the change request moves from the new state: Impacted services are refreshed when the change request moves from the new state and when the Affected CIs related list is not modifiable.
--   Manually when selecting the **Refresh Impacted Services** option from the form context menu.
 
 ## Procedure
 

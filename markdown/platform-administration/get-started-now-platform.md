@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Administer the ServiceNow AI Platform]
+breadcrumb: [ServiceNow AI Platform]
 ---
 
 # Getting started on the ServiceNow AI Platform

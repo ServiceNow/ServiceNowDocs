@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-servicenowarc-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 29
 breadcrumb: [Products combined by family]
 ---
@@ -278,9 +278,9 @@ User initiated requests consumes assists, recorded in the generative AI log unde
 
 ServiceNow Arc now supports Windows. On Windows desktop, the Arc application acts as an AI agent that plans and runs multi-step tasks across your enterprise applications, within the governance and security policies your administrators define.
 
--   **[Arc policies in AI Control Tower](https://www.servicenow.com/docs/access?context=manage-arc-policies-aict&family=australia&ft:locale=en-US)**
+-   **[Arc policies in Control Tower](https://www.servicenow.com/docs/access?context=manage-arc-policies-aict&family=australia&ft:locale=en-US)**
 
-Administrators author and manage ServiceNow Arc agent policies in AI Control Tower, on the **Arc policies** tab under **Govern** &gt; **Policies**.
+Administrators author and manage ServiceNow Arc agent policies in Control Tower, on the **Arc policies** tab under **Govern** &gt; **Policies**.
 
 -   **[MCP servers managed by administrators](https://www.servicenow.com/docs/access?context=add-mcp-server-arc&family=australia&ft:locale=en-US)**
 
@@ -311,7 +311,38 @@ Brazil
 
 </td><td>
 
--   **[Microsoft 365 and GitHub connectors](https://www.servicenow.com/docs/access?context=connectors-in-cowork&family=brazil&ft:locale=en-US)**
+-   **[Windows support](https://www.servicenow.com/docs/access?context=install-arc-windows&family=brazil&ft:locale=en-US)**
+
+ServiceNow Arc now supports Windows. On Windows desktop, the Arc application acts as an AI agent that plans and runs multi-step tasks across your enterprise applications, within the governance and security policies your administrators define.
+
+-   **[Arc policies in Control Tower](https://www.servicenow.com/docs/access?context=manage-arc-policies-aict&family=brazil&ft:locale=en-US)**
+
+Administrators author and manage ServiceNow Arc agent policies in Control Tower, on the **Arc policies** tab under **Govern** &gt; **Policies**.
+
+-   **[MCP servers managed by administrators](https://www.servicenow.com/docs/access?context=add-mcp-server-arc&family=brazil&ft:locale=en-US)**
+
+MCP server connectors that administrators configure on the instance appear in ServiceNow Arc ready to connect, so users don't enter a server URL or client ID.
+
+When an administrator deactivates a connector, Arc ends any active session, blocks reconnection, and tells the user why. After the connector is reactivated, users reconnect it themselves.
+
+-   **[Notifications for approvals and reminders](https://www.servicenow.com/docs/access?context=notifications-arc&family=brazil&ft:locale=en-US)**
+
+ServiceNow Arc notifies users about pending approvals and reminders, with one notification for each pending approval before it times out. When users are in another chat, a banner appears at the top of the Arc window. When they're in another app, a desktop notification appears. Users can approve or reject the action from either one.
+
+For more information, see [Turn notifications on or off](https://www.servicenow.com/docs/access?context=manage-notification-settings&family=brazil&ft:locale=en-US).
+
+-   **[Fluent app development for MacOs](https://www.servicenow.com/docs/access?context=app-development-arc&family=brazil&ft:locale=en-US)**
+
+Build, deploy, and edit ServiceNow scoped applications from a conversation in ServiceNow Arc, using the Now SDK, which is preinstalled in the sandbox. The agent presents a build plan for approval, then creates a TypeScript project and authors the data model, server and client logic, flows, UI, AI agents, and tests.
+
+App development isn't supported on Windows.
+
+-   **[File preview](https://www.servicenow.com/docs/access?context=preview-files-arc&family=brazil&ft:locale=en-US)**
+
+Users can preview Word, Excel, PowerPoint, PDF, and PNG files in ServiceNow Arc. From the preview, they can download a file, open it in its native app or its folder, zoom in or out, and view it full screen.
+
+
+ -   **[Microsoft 365 and GitHub connectors](https://www.servicenow.com/docs/access?context=connectors-in-cowork&family=brazil&ft:locale=en-US)**
 
 Connect ServiceNow Arc to Microsoft 365 and GitHub so the agent can work with your mail, calendar, files, and repositories. Administrators control which connector operations the agent can perform through connector scopes.
 
@@ -353,13 +384,13 @@ View ServiceNow Arc as an application in Usage Insights, with active users, mont
 
 Build funnels, cohorts, and retention reports, and drill down from aggregate charts to individual users and tasks. Data is scoped to your instance only, and user IDs are hashed.
 
--   **[Observability in AI Control Tower](https://www.servicenow.com/docs/access?context=cowork-trace-evaluation&family=brazil&ft:locale=en-US)**
+-   **[Observability in Control Tower](https://www.servicenow.com/docs/access?context=cowork-trace-evaluation&family=brazil&ft:locale=en-US)**
 
-Register ServiceNow Arc as a managed AI system in AI Control Tower to monitor its use across your organization. Sessions and traces flow into AI Control Tower, where each trace receives quality, safety, and risk assessment scores. You can drill down from a session to its individual steps, including tool calls and policy decisions.
+Register ServiceNow Arc as a managed AI system in Control Tower to monitor its use across your organization. Sessions and traces flow into Control Tower, where each trace receives quality, safety, and risk assessment scores. You can drill down from a session to its individual steps, including tool calls and policy decisions.
 
--   **[Kill switch and heartbeat monitoring in AI Control Tower](https://www.servicenow.com/docs/access?context=cowork-architecture&family=brazil&ft:locale=en-US)**
+-   **[Kill switch and heartbeat monitoring in Control Tower](https://www.servicenow.com/docs/access?context=cowork-architecture&family=brazil&ft:locale=en-US)**
 
-Monitor and control ServiceNow Arc across your organization from AI Control Tower. The fleet view shows who installs ServiceNow Arc and who is active. Heartbeat monitoring checks each installation at regular intervals and flags any that stop responding, so you can find offline installations before they affect users. If an agent takes unsafe actions, use the kill switch to stop them from escalating. The kill switch revokes credentials and terminates running actions.
+Monitor and control ServiceNow Arc across your organization from Control Tower. The fleet view shows who installs ServiceNow Arc and who is active. Heartbeat monitoring checks each installation at regular intervals and flags any that stop responding, so you can find offline installations before they affect users. If an agent takes unsafe actions, use the kill switch to stop them from escalating. The kill switch revokes credentials and terminates running actions.
 
 -   **[Predictable retry behavior](https://www.servicenow.com/docs/access?context=set-agent-limits-safeguards&family=brazil&ft:locale=en-US)**
 
@@ -376,37 +407,6 @@ Choose a model from Anthropic Claude \(Opus 4.6, 4.7, 4.8, and Sonnet 4.6\), Ope
 -   **Assist metering and entitlements**
 
 User initiated requests consumes assists, recorded in the generative AI log under the feature name ServiceNow Arc Execution. Check your entitlements to determine whether you have access to ServiceNow Arc.
-
-
- -   **[Windows support](https://www.servicenow.com/docs/access?context=install-arc-windows&family=brazil&ft:locale=en-US)**
-
-ServiceNow Arc now supports Windows. On Windows desktop, the Arc application acts as an AI agent that plans and runs multi-step tasks across your enterprise applications, within the governance and security policies your administrators define.
-
--   **[Arc policies in AI Control Tower](https://www.servicenow.com/docs/access?context=manage-arc-policies-aict&family=brazil&ft:locale=en-US)**
-
-Administrators author and manage ServiceNow Arc agent policies in AI Control Tower, on the **Arc policies** tab under **Govern** &gt; **Policies**.
-
--   **[MCP servers managed by administrators](https://www.servicenow.com/docs/access?context=add-mcp-server-arc&family=brazil&ft:locale=en-US)**
-
-MCP server connectors that administrators configure on the instance appear in ServiceNow Arc ready to connect, so users don't enter a server URL or client ID.
-
-When an administrator deactivates a connector, Arc ends any active session, blocks reconnection, and tells the user why. After the connector is reactivated, users reconnect it themselves.
-
--   **[Notifications for approvals and reminders](https://www.servicenow.com/docs/access?context=notifications-arc&family=brazil&ft:locale=en-US)**
-
-ServiceNow Arc notifies users about pending approvals and reminders, with one notification for each pending approval before it times out. When users are in another chat, a banner appears at the top of the Arc window. When they're in another app, a desktop notification appears. Users can approve or reject the action from either one.
-
-For more information, see [Turn notifications on or off](https://www.servicenow.com/docs/access?context=manage-notification-settings&family=brazil&ft:locale=en-US).
-
--   **[Fluent app development for MacOs](https://www.servicenow.com/docs/access?context=app-development-arc&family=brazil&ft:locale=en-US)**
-
-Build, deploy, and edit ServiceNow scoped applications from a conversation in ServiceNow Arc, using the Now SDK, which is preinstalled in the sandbox. The agent presents a build plan for approval, then creates a TypeScript project and authors the data model, server and client logic, flows, UI, AI agents, and tests.
-
-App development isn't supported on Windows.
-
--   **[File preview](https://www.servicenow.com/docs/access?context=preview-files-arc&family=brazil&ft:locale=en-US)**
-
-Users can preview Word, Excel, PowerPoint, PDF, and PNG files in ServiceNow Arc. From the preview, they can download a file, open it in its native app or its folder, zoom in or out, and view it full screen.
 
 
 </td></tr></tbody>
@@ -680,7 +680,7 @@ Zurich
 
 -   **Activation information**
 
-Install ServiceNow Arc by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install ServiceNow Arc by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Note:** ServiceNow Arc is available in the ServiceNow Store. For details, see the activation information below.
@@ -693,7 +693,7 @@ Australia
 
 -   **Activation information**
 
-Install ServiceNow Arc by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install ServiceNow Arc by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Note:** ServiceNow Arc is available in the ServiceNow Store. For details, see the activation information below.
@@ -706,7 +706,7 @@ Brazil
 
 -   **Activation information**
 
-Install ServiceNow Arc by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+Install ServiceNow Arc by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Note:** ServiceNow Arc is available in the ServiceNow Store. For details, see the activation information below.

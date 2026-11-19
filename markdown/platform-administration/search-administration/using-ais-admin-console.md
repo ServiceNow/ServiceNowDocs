@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [AI Search Admin console, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Using AI Search Admin console
@@ -39,7 +39,7 @@ You can customize the appearance and layout of the result-card interface in AI S
 Control hybrid search settings in AI Search applications to optimize search performance. Activate hybrid search to create context-aware results that provide both search precision and contextual relevance. Deactivating hybrid search generates results that rely solely on keyword-based queries.
 -   **[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/ais-managing-indexed-source.md)**  
 If you have the ais\_admin role, you can create, view, or edit indexed sources directly from the AI Search Admin console.
--   **[Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md)**  
+-   **[Configure multimodal captioning with AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md)**  
 Use the AI Search Admin console to select the visual language model \(VLM\) provider and model for multimodal captioning.
 -   **[Configure multi-content synthesized sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-multi-content-synthesis-sources.md)**  
 Configure indexed sources so that AI Search includes content from multiple sources when generating responses. When you configure a source for synthesis, the large language model draws from that source alongside others to produce more complete, contextually relevant answers.

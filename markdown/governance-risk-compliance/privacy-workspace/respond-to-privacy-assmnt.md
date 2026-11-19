@@ -32,15 +32,15 @@ While responding to an assessment, you can reassign the assessment to another us
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_o5d_vrr_xxb"><thead><tr><th align="left" id="d263035e99">
+<table id="choicetable_o5d_vrr_xxb"><thead><tr><th align="left" id="d263628e101">
 
 Choice
 
-</th><th align="left" id="d263035e102">
+</th><th align="left" id="d263628e104">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d263035e108">
+</th></tr></thead><tbody><tr><td id="d263628e110">
 
 **To take the assessment**
 
@@ -60,7 +60,7 @@ Action
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d263035e158">
+</td></tr><tr><td id="d263628e160">
 
 **To reassign the assessment**
 

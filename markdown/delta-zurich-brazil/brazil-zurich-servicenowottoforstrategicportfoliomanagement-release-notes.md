@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-servicenowottoforstrategicportfoliomanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -100,7 +100,7 @@ Generate clear, consistent acceptance criteria for user stories with the accepta
 Use the upgraded agile story generation skill to convert epics into actionable user stories quickly. Powered by an agentic workflow, the skill analyzes epic details to recommend the optimal number of stories, enables adjustments, refines story content, and creates story records.
 
 
- -   **[\[Placeholder link text to key bundle-itbm.refine-text-with-write-planning-item-skill\]](https://www.servicenow.com/docs/access?context=refine-text-with-write-planning-item-skill&family=zurich&ft:locale=en-US)**
+ -   **[Improve efficiency with refine records skillSkill name is changed to Refine records](https://www.servicenow.com/docs/access?context=refine-text-with-write-planning-item-skill&family=zurich&ft:locale=en-US)**
 
 Simplify record creation and updates by using the refine records skill with Now Assist context menu. Improve record quality by enabling AI-assisted text refinement in the text fields of Product idea, Demand, Epic, Projects, Capability, Feature, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms.
 

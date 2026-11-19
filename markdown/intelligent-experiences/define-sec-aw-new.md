@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/define-sec-aw-new.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-16"
-reading_time_minutes: 3
+last_updated: "2026-11-05"
+reading_time_minutes: 4
 breadcrumb: [Create an agentic workflow, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
@@ -20,9 +20,13 @@ Role required: sn\_aia.admin
 
 ## About this task
 
-The Access rules section is divided into two parts: **Which users can access this agentic workflow \(ACLs\)** and **Which data this agentic workflow can access**. The former creates an ACL that determines who can discover or invoke the agentic workflow. The latter defines the data that the agentic workflow has access to once it's invoked.
+The Access rules section is divided into two parts: **Which users can access this agentic workflow \(ACLs\)** and **Which data this agentic workflow can access**. The former creates an ACL that determines who can discover or invoke the agentic workflow. The latter defines the data that the agentic workflow has access to after it's invoked.
+
+Misconfigured user and data access settings can result in errors or silent failures. After modifying access rules, manually test the access requirements of your agentic workflow and its underlying AI agents. See [Test access to an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-access-ai-asset.md).
 
 See [Security for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-security-implementation.md) for more information about creating ACLs and user identities for security for AI agents.
+
+**Note:** These fields may be read-only. Change the scope to Platform AI Agents and Skills to enable editing.
 
 ## Procedure
 

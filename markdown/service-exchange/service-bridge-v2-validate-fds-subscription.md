@@ -61,15 +61,15 @@ After the provider sends the sample, a subscription is generated for each offeri
 
     Some non-CMDB tables have names that start with `cmdb_`, such as Product Model \[cmdb\_model\], Hardware Model \[cmdb\_hardware\_product\_model\], and Consumable Model \[cmdb\_consumable\_product\_model\]. Configure these tables using the non-CMDB table option. Refer to the following table for detailed steps.
 
-<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d27125e186">
+<table id="choicetable_msz_gll_sfc"><thead><tr><th align="left" id="d27125e188">
 
 Option
 
-</th><th align="left" id="d27125e189">
+</th><th align="left" id="d27125e191">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d27125e195">
+</th></tr></thead><tbody><tr><td id="d27125e197">
 
 **Configure data integration for CMDB tables**
 
@@ -87,7 +87,7 @@ A message is displayed stating that you're about to navigate to the ETL Transfor
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d27125e239">
+</td></tr><tr><td id="d27125e241">
 
 **Configure data integration for CMDB tables \(__Maintain sysID__ enabled by the provider\)**
 
@@ -102,7 +102,7 @@ A message is displayed stating that you're about to navigate to the Transform Ma
 4.  Close the browser tab to return to the Subscription Item page.
 
 
-</td></tr><tr><td id="d27125e281">
+</td></tr><tr><td id="d27125e283">
 
 **Configure data integration for non-CMDB table**
 

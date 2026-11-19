@@ -9,7 +9,7 @@ classification: application-manager
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Reference, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, Application Manager, Administering applications, Get started, ServiceNow AI Platform]
 ---
 
 # Application state indicators in Application Manager

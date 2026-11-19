@@ -25,7 +25,7 @@ The Lists tab contains all the tables that are installed with your Workplace Ser
 For more information about the lists, you can refer to the documentation of the relevant application.
 
 -   [Workplace Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/workplace-analytics.md)
--   [Scenario Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/scenario-planning.md)
+-   [Scenario planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/scenario-planning.md)
 -   [Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/schedule-planning.md)
 -   [Space assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/space-assistance.md)
 -   [Event Planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/event-planner.md)
@@ -50,7 +50,7 @@ For more information about creating custom lists, see [Creating custom lists on 
 
 [Space Optimization]()
 
-[Scenario Planning]()
+[Scenario planning]()
 
 [Schedule Planning]()
 

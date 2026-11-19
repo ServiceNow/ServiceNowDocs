@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-17"
 reading_time_minutes: 3
 keywords: [churn audit, high-churn field detection]
-breadcrumb: [High-churn field detection, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [High-churn field detection, Indexed sources, Configure, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Review high-churn field audit results
@@ -33,7 +33,7 @@ For background on how high-churn fields are detected and scored, see [High-churn
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `ais_datasource_churn_audit.list`.
+    2.  In the navigation filter, enter `ais_datasource_churn_audit.list`.
 
     3.  Press Enter.
 

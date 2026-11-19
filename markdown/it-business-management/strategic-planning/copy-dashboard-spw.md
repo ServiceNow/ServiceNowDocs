@@ -7,7 +7,7 @@ release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 breadcrumb: [Use, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---

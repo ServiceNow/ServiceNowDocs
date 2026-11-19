@@ -9,7 +9,7 @@ classification: table-administration-and-data-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exporting and importing data via XML, Exporting data, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Exporting and importing data via XML, Exporting data, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Export data to XML
@@ -26,15 +26,15 @@ Role required: admin
 
 2.  Export a record or a list of records to XML.
 
-<table id="choicetable_ndh_4j1_j1c"><thead><tr><th align="left" id="d311876e56">
+<table id="choicetable_ndh_4j1_j1c"><thead><tr><th align="left" id="d311774e58">
 
 Option
 
-</th><th align="left" id="d311876e59">
+</th><th align="left" id="d311774e61">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d311876e65">
+</th></tr></thead><tbody><tr><td id="d311774e67">
 
 **Export a record to XML**
 
@@ -45,7 +45,7 @@ Description
 3.  Select **Export** &gt; **XML This Record\)**.
 
 
-</td></tr><tr><td id="d311876e101">
+</td></tr><tr><td id="d311774e103">
 
 **Export a list of records to XML**
 

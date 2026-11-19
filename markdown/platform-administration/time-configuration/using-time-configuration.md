@@ -9,7 +9,7 @@ classification: time-configuration
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Time configuration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Using time configuration

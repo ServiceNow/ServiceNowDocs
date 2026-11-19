@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/product-catalog-management-properties.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-17"
 reading_time_minutes: 1
 breadcrumb: [Product Catalog Management reference, Lead-to-cash foundation, Reference, Sales Customer Relationship Management]
 ---
@@ -32,6 +32,7 @@ sn\_prd\_pm.supported\_language\_translations
 -   Default value: Empty
 -   Other possible values: Comma-separated list of language ISO codes. For example, en,fr,de.
 -   Location: System Property \[sys\_properties\] table
+-   Role required to change the value: sn\_prd\_pm.product\_catalog\_admin or admin
 -   Learn more: [Enable localized product catalogs and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enable-multi-locale-catalogs.md).
 
 </td></tr><tr><td>

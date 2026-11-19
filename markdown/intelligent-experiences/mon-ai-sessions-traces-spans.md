@@ -1,6 +1,6 @@
 ---
 title: Sessions, traces, and spans
-description: Understand the three levels of AI interaction data that AI Control Tower uses to structure, score, and display runtime behavior.
+description: Understand the three levels of AI interaction data that Super Intelligence Control Tower uses to structure, score, and display runtime behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-sessions-traces-spans.html
 release: brazil
@@ -8,14 +8,14 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Sessions, traces, and spans
 
-Understand the three levels of AI interaction data that AI Control Tower uses to structure, score, and display runtime behavior.
+Understand the three levels of AI interaction data that Super Intelligence Control Tower uses to structure, score, and display runtime behavior.
 
-To investigate a low quality or safety score, you can dig deeper into a session to narrow the problem to a specific step in the AI system's reasoning. AI Control Tower structures interaction data into three hierarchical levels following open telemetry standards.
+To investigate a low quality or safety score, you can dig deeper into a session to narrow the problem to a specific step in the AI system's reasoning. Control Tower structures interaction data into three hierarchical levels following open telemetry standards.
 
 |Level|What it represents|Ends when|Example|
 |-----|------------------|---------|-------|
@@ -27,8 +27,7 @@ To investigate a low quality or safety score, you can dig deeper into a session 
 
 Different metrics are evaluated at different levels because each level captures different aspects of behavior.
 
--   Session-level metrics \(such as Task completion\) need the full context of the conversation to determine whether the user's goal was met. There is one score per session.
--   Trace-level metrics \(such as Overall task completeness for ServiceNow AI systems\) assess whether a single turn achieved its intended outcome.
+-   Trace-level metrics \(such as Overall task completeness for ServiceNow AI systems and Answer relevancy for external AI systems\) assess whether a single turn achieved its intended outcome.
 -   Span-level metrics \(such as Tool error\) assess whether the AI system made good decisions at the individual step level, including whether the correct tool was called with valid parameters.
 
 ## Telemetry data on traces

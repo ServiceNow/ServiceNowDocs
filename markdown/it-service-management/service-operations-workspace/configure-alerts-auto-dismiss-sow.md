@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-If you don't have the UI Builder application updated to version 28.1, you can still configure the alert notifications by navigating to **All** &gt; **Now Experience Framework** &gt; **Experiences** and then select Service Operations Workspace from the list of UX applications. You can then select the **alert\_auto\_dismiss\_config** UX page property and customize the script in the **Value** field to configure the alert notifications.
+If you don't have the UI Builder application updated to version 28.1, you can still configure the alert notifications by navigating to **All** &gt; **Now Experience Framework** &gt; **Experiences** and then selecting Service Operations Workspace from the list of UX applications. You can then select the **alert\_auto\_dismiss\_config** UX page property and customize the script in the **Value** field to configure the alert notifications.
 
 ## Procedure
 
@@ -133,7 +133,7 @@ Select the check box to automatically dismiss the low notification messages.**No
 Specify the time in seconds within which the low notification message is dismissed automatically.**Note:** By default, this field is set to three seconds.
 
 </td></tr></tbody>
-</table>    **Note:** The **Timeout \(Seconds\)** field is enabled only if the **Auto-dismiss** check box is selected for the specific alert status such as Critical, Moderate and so on.
+</table>    **Note:** The **Timeout \(Seconds\)** field is enabled only if the **Auto-dismiss** check box is selected for the specific alert status such as Critical, Moderate, and so on.
 
 <table id="table_ydt_lzg_vfc"><thead><tr><th>
 
@@ -149,7 +149,7 @@ Show time label
 
 </td><td>
 
-Select the check box to display the time label along with the visual time indicator when alert notification is automatically dismissed within the set auto-dismiss time.**Note:** By default, this check box is cleared.
+Option to display the time label along with the visual time indicator when an alert notification is automatically dismissed within the set auto-dismiss time.**Note:** By default, this check box is cleared.
 
 </td></tr><tr><td>
 
@@ -157,7 +157,7 @@ Expand alert content by default
 
 </td><td>
 
-Select the check box to automatically expand the alert content in the alert notification message.**Note:** By default, this check box is selected.
+Option to automatically expand the alert content in the alert notification message.**Note:** By default, this check box is selected.
 
 </td></tr></tbody>
 </table>    \[Omitted image "sow-configure-alerts-ui-builder.png"\] Alt text: Configure alerts settings

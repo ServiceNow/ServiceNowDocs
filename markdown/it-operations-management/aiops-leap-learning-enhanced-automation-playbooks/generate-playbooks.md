@@ -18,6 +18,10 @@ Create standard, dynamic, and automated playbooks using LEAP to promote fast inc
 
 ## Before you begin
 
+-   Workflow Studio must be installed
+-   ServiceNow Otto for Creator must be installed and the Playbook generation skill must be enabled for the Creator.
+-   LEAP must be activated. See [Activate LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/activate-aiops-leap.md).
+
 Role required: LEAP admin
 
 ## Procedure
@@ -26,19 +30,21 @@ Role required: LEAP admin
 
 2.  On the LEAP landing page, select the required automation opportunity to create a playbook.
 
+    The playbook generation skill must be enabled from **AI Admin Hub** &gt; **AI Skills** &gt; **Creator** &gt; **Playbook generation**.
+
 3.  If resolution steps are unavailable in the Overview section, select **Generate resolution steps**.
 
 4.  Select one of the following options to create playbook.
 
-<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d843354e105">
+<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d846856e157">
 
 UI option
 
-</th><th align="left" id="d843354e108">
+</th><th align="left" id="d846856e160">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d843354e114">
+</th></tr></thead><tbody><tr><td id="d846856e166">
 
 **Actions**
 
@@ -46,7 +52,7 @@ Steps
 
 Select Actions button \[Omitted image "actions-icon.png"\], and select **Create Playbook**.
 
-</td></tr><tr><td id="d843354e128">
+</td></tr><tr><td id="d846856e180">
 
 **Ask Otto**
 

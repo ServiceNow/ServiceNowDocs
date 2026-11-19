@@ -9,7 +9,7 @@ classification: event-management
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Reference, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Attributes in Express List Link View

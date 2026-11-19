@@ -38,14 +38,7 @@ Role required: admin
 
     1.  In the **Check type** field, select the Lookup using list icon \[Omitted image "icon-magnifying-glass-blue.png"\] Alt text: to navigate to the Check Types page.
 
-    2.  Always select the `DexContentAction` check type from the list.
-
-    3.  Add a timeout script for the remedial action check definition.
-
-        ```
-        var util = new sn_dex.DEXRemedialActionsUtils();
-        util.handleRemedialActionTimeout(request);
-        ```
+    2.  Always select the `DexContentActions` check type from the list.
 
 5.  In the **Command** field, enter the name of the `.rb` script included in the ACC plugin package.
 
@@ -65,10 +58,17 @@ Role required: admin
 
     3.  Select the Lock plugins icon \[Omitted image "icon-lock-visible-fields.png"\] Alt text:.
 
-8.  On the form, fill in the remaining fields.
+8.  Add a timeout script for the remedial action check definition.
+
+    ```
+    var util = new sn_dex.DEXRemedialActionsUtils();
+    util.handleRemedialActionTimeout(request);
+    ```
+
+9.  On the form, fill in the remaining fields.
 
     For a description of the field values, see [Agent Client Collector check definition page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/check-definition-form.md).
 
-9.  Select **Submit**.
+10. Select **Submit**.
 
 

@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-10-23"
 reading_time_minutes: 1
+keywords: [terminate process, end process, kill process on device, free device resources, remote process termination]
 breadcrumb: [Creating DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

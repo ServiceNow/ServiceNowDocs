@@ -8,7 +8,7 @@ product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Components installed with Advanced Risk, Reference, Risk Management, Governance, Risk, and Compliance]
 ---
 

@@ -110,6 +110,8 @@ The CICD Update Set API provides methods to create, retrieve, preview, commit, a
 The Conversation Member API provides methods for changing a specific agent’s member state to removed or updated in a given Agent Chat conversation.
 -   **[Copy Assessments API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/rest-apis/copy-assessments-api.md)**  
 The Copy Assessments API provides an endpoint to create a copy of an assessment metric type or survey definition in the Assessment Metric Type \[asmt\_metric\_type\] table.
+-   **[Cookie Auth API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/rest-apis/cookieauth-api.md)**  
+The Cookie Auth Scripted REST API provides an endpoint that creates a short-lived ticket that the WebRTC phone widget needs to start a voice call. Because this endpoint doesn’t require a login, it works for authenticated and unauthenticated users.
 -   **[CSM Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/rest-apis/attachment_csm-api.md)**  
 The CSM Attachment API provides endpoints that allow both internal and external users to upload, download, and remove attachments associated with a table and to retrieve attachment metadata.
 -   **[CTI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/rest-apis/cti-api.md)**  

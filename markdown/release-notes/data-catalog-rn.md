@@ -1,13 +1,13 @@
 ---
 title: Data Catalog release notes
-description: Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Brazil release.The October 2026 release adds AI-powered catalog enrichment, lineage enhancements, a Microsoft Fabric collector, MID Server routing, collector notifications, and data classification with Vault.The September 2026 release adds bulk glossary management, cloud-based metadata collectors, rich text editing for data assets, and SAP HANA and Salesforce collectors.
+description: Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Brazil release.This release adds Data Catalog Analytics dashboards, an SSRS metadata collector, and Databricks Unity Catalog metric view support. It also includes Salesforce OAuth authorization code flow and the ability to download lineage nodes and edges as CSV.The October 2026 release adds AI-powered catalog enrichment, lineage enhancements, a Microsoft Fabric collector, MID Server routing, collector notifications, and data classification with Vault.The September 2026 release adds bulk glossary management, cloud-based metadata collectors, rich text editing for data assets, and SAP HANA and Salesforce collectors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/data-catalog-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 4
-keywords: [data catalog, metadata collectors, Microsoft Fabric, MID Server, Vault, lineage, AI enrichment, data catalog, glossary, metadata collectors, SAP HANA, Salesforce, lineage]
+reading_time_minutes: 5
+keywords: [data catalog, analytics dashboards, SSRS collector, Databricks, Salesforce, lineage, CSV download, data catalog, metadata collectors, Microsoft Fabric, MID Server, Vault, lineage, AI enrichment, data catalog, glossary, metadata collectors, SAP HANA, Salesforce, lineage]
 breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -33,6 +33,44 @@ See  for more information.
 
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)
+
+## November 2026 store
+
+This release adds Data Catalog Analytics dashboards, an SSRS metadata collector, and Databricks Unity Catalog metric view support. It also includes Salesforce OAuth authorization code flow and the ability to download lineage nodes and edges as CSV.
+
+### What's new
+
+-   **Data Catalog Analytics dashboards**
+
+    Track catalog adoption and collector health from dashboards inside Workflow Data Fabric. The Adoption overview tab shows how many users have access to Data Catalog, how many are active, and how activity changes over time. The Collector health tab shows how many collector runs succeeded or failed, which collectors are active, and which collectors have not run recently.
+
+-   **SQL Server Reporting Services \(SSRS\) metadata collector**
+
+    Collect and catalog metadata from your SSRS environment. The collector harvests datasets, data sources, folders, KPIs, reports, and linked reports, including lineage between datasets, data sources, and reports.
+
+-   **Databricks Unity Catalog metric views**
+
+    The Databricks collector harvests Unity Catalog metric views, including dimensions, measures, YAML definition, source table, filter, and materialization status. Lineage from a metric view to its source table is available even if the metric view has never been queried.
+
+-   **Salesforce OAuth authorization code flow**
+
+    The Salesforce collector supports OAuth authorization code flow using a refresh token, alongside the existing username and password and OAuth client ID and secret options.
+
+-   **Download lineage nodes and edges as CSV**
+
+    Download the nodes, edges, or both from your current lineage view to a CSV file to analyze dependencies in other tools.
+
+
+### What's changed
+
+-   **ServiceNow collector includes application short descriptions**
+
+    The ServiceNow metadata collector harvests the short description field from system application assets. Catalog users get more context when browsing or searching for ServiceNow application metadata.
+
+-   **Metadata Enrichment AI Agent display updates**
+
+    Review enrichment suggestions with a more consistent interface. Labels, fonts, and formats are standardized, asset type is now visible in the enrichment view, and terminology uses "data asset" consistently.
+
 
 ## October 2026 store
 

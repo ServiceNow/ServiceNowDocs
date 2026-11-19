@@ -1,6 +1,6 @@
 ---
 title: Perform post-migration tasks for form headers
-description: Verify that the form header in Service Operations Workspace \(SOW\) are consistent with the form header in ITSM Agent Workspace \(ITSM AW\) and are ready for use in SOW. You can update the migrated form header settings in SOW based on your requirements.
+description: Verify that the form headers in Service Operations Workspace \(SOW\) are consistent with the form headers in ITSM Agent Workspace \(ITSM AW\) and are ready for use in SOW. You can update the migrated form header settings in SOW based on your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/verify-migration-status-form-headers-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Migration of form headers from ITSM Agent Workspace to Service Oper
 
 # Perform post-migration tasks for form headers
 
-Verify that the form header in Service Operations Workspace \(SOW\) are consistent with the form header in ITSM Agent Workspace \(ITSM AW\) and are ready for use in SOW. You can update the migrated form header settings in SOW based on your requirements.
+Verify that the form headers in Service Operations Workspace \(SOW\) are consistent with the form headers in ITSM Agent Workspace \(ITSM AW\) and are ready for use in SOW. You can update the migrated form header settings in SOW based on your requirements.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-At the end of the migration process, a confirmation message specifies if the migration is successful or not. You can review the migration information and perform the post-migration steps to ensure successful migration of your configuration or customization.
+At the end of the migration process, a confirmation message specifies whether the migration is successful. You can review the migration information and perform the post-migration steps to ensure successful migration of your configuration or customization.
 
 ## Procedure
 
@@ -34,21 +34,21 @@ At the end of the migration process, a confirmation message specifies if the mig
 
         -   To open SOW, navigate to **All** &gt; **Workspace Experience** &gt; **Workspaces** &gt; **Service Operations Workspace**.
         -   To open ITSM Agent Workspace, enter `<instance-name>.service-now/workspace` in the web browser.
-    2.  Open a record in SOW that is corresponding to a table for which form header are migrated.
+    2.  Open a record in SOW that corresponds to a table for which form headers are migrated.
 
-        For example: If you want to verify the form header migration status for an incident form header, navigate to **List** &gt; **Incident** &gt; **All** and then select any incident record.
+        For example, if you want to verify the form header migration status for an incident form header, navigate to **List** &gt; **Incident** &gt; **All** and then select any incident record.
 
     3.  Review the form header on the record.
 
         You can also view the form header record in sys\_aw\_form\_header and mapping data in the sys\_ux\_m2m\_workspace\_header\_ux\_header\_config table to verify the migrated data.
 
-    4.  If the migration is successful and the form header that exist in ITSM Agent Workspace is not displayed in SOW record, verify the order value of the form header in the sys\_aw\_form\_header table to ensure that it has the least order value.
+    4.  If the migration is successful and the form header that exists in ITSM Agent Workspace is not displayed in SOW record, verify the order value of the form header in the sys\_aw\_form\_header table to ensure that it has the least order value.
 
 2.  If the migration fails, perform the following steps.
 
     1.  On the migration completion page in SOW Admin Center, select **View migration details**.
 
-    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text: Error\) icon.
+    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text:\) icon.
 
     3.  Review the logs to determine which items failed during migration.
 

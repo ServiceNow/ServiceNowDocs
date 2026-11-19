@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage alert states in Express List, Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Manage alert states in Express List, Assigning and managing alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Hide closed alerts in Express List
@@ -45,4 +45,6 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     In Link View: Show only the attributes of open alerts while hiding those of closed alerts by switching the **Hide attributes of closed alerts** toggle to the open position.
 
+
+**Parent Topic:**[Manage alert states in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/manage-alert-states-in-express-list.md)
 

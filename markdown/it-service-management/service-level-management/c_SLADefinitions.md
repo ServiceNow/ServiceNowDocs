@@ -18,7 +18,7 @@ An SLA definition is used to create and progress SLAs, enabling you to use an SL
 
 An SLA definition record defines the timings, conditions, workflows, and other information required to create and progress task SLAs.
 
-For example, the default **Priority 1 resolution \(8 hour\)** SLA Definition defines the Task SLAs to attach to incidents with a P1 - Critical priority, specifies appropriate conditions for those Task SLAs, and uses the default SLA workflow to create events such as to send a notification, when an incident's Task SLA reaches 50% of its allotted time.
+For example, the default **Priority 1 resolution \(8 hour\)** SLA definition attaches Task SLAs to P1 - Critical priority incidents and specifies the conditions for those Task SLAs. It also uses the default SLA workflow to send a notification when an incident's Task SLA reaches 50% of its allotted time.
 
 -   **[Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/t_CreateAnSLADefinition.md)**  
 Create SLA definitions to set the conditions under which SLAs attach, pause, stop, and reset on task records. Use them to track and enforce service commitments across your organization.

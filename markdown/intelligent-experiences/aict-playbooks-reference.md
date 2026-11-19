@@ -1,6 +1,6 @@
 ---
-title: AI Control Tower playbooks
-description: Drive the lifecycle and approval workflows for AI assets using playbooks in AI Control Tower.
+title: Control Tower playbooks
+description: Drive the lifecycle and approval workflows for AI assets using playbooks in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-playbooks-reference.html
 release: brazil
@@ -8,14 +8,14 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# AI Control Tower playbooks
+# Control Tower playbooks
 
-Drive the lifecycle and approval workflows for AI assets using playbooks in AI Control Tower.
+Drive the lifecycle and approval workflows for AI assets using playbooks in Control Tower.
 
-Playbooks define the structured workflows that guide AI stewards and asset owners through asset onboarding, offboarding, and approval. The playbooks are active by default and can't be edited from within AI Control Tower. To modify a playbook's logic or steps, open it in Workflow Studio by selecting the playbook.
+Playbooks define the structured workflows that guide AI stewards and asset owners through asset onboarding, offboarding, and approval. The playbooks are active by default and can't be edited from within Control Tower. To modify a playbook's logic or steps, open it in Workflow Studio by selecting the playbook.
 
 **Important:**
 
@@ -36,5 +36,5 @@ Manage AI assets through structured lifecycle workflows using the updated playbo
 -   **[Migrate to updated AI asset onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/migrate-new-playbook-govern.md)**  
 Configure the new AI asset onboarding playbook to simplify AI asset management through structured lifecycle workflows. The migration also includes an opt-in to decide between moving to the new playbook or continuing in the existing playbook.
 
-**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring.md)
+**Parent Topic:**[Configuring Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring.md)
 

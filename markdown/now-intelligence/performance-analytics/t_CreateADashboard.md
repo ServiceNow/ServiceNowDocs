@@ -43,15 +43,15 @@ Consider creating Platform Analytics dashboards instead of Core UI dashboards. F
 
 4.  Fill in the following fields:
 
-<table id="choicetable_bfl_jhv_yw"><thead><tr><th align="left" id="d69555e216">
+<table id="choicetable_bfl_jhv_yw"><thead><tr><th align="left" id="d62113e218">
 
 Field
 
-</th><th align="left" id="d69555e219">
+</th><th align="left" id="d62113e221">
 
 Description
 
-</th></tr></thead><tbody><tr id="chrow_lxl_nrq_dz"><td id="d69555e225">
+</th></tr></thead><tbody><tr id="chrow_lxl_nrq_dz"><td id="d62113e227">
 
 **Name**
 
@@ -59,7 +59,7 @@ Description
 
 Name the dashboard.
 
-</td></tr><tr id="chrow_lkc_4rq_dz"><td id="d69555e234">
+</td></tr><tr id="chrow_lkc_4rq_dz"><td id="d62113e236">
 
 **Order**
 
@@ -67,7 +67,7 @@ Name the dashboard.
 
 Enter an **Order** number to indicate the order the dashboard appears on the dashboard picker. Dashboards with lower numbers are listed first.
 
-</td></tr><tr id="chrow_hd3_4rq_dz"><td id="d69555e246">
+</td></tr><tr id="chrow_hd3_4rq_dz"><td id="d62113e248">
 
 **Active**
 
@@ -77,7 +77,7 @@ Clear this field to mark the dashboard **inactive**. Inactive dashboards are acc
 
  **Note:** When you activate responsive dashboards, the permissions associated with both active and inactive non-responsive dashboard are carried over to the responsive version.
 
-</td></tr><tr id="chrow_gf4_4rq_dz"><td id="d69555e267">
+</td></tr><tr id="chrow_gf4_4rq_dz"><td id="d62113e269">
 
 **Owner**
 
@@ -86,7 +86,7 @@ Clear this field to mark the dashboard **inactive**. Inactive dashboards are acc
 The dashboard owner. Only a user with the admin role can change this value.
 
 </td></tr></tbody>
-</table>5.  Select the **Restrict to roles** edit icon \[Omitted image "edit-icon.png"\] to specify the roles that a user must have to access this dashboard.
+</table>5.  Select the **Restrict to roles** edit icon \[Omitted image "edit-icon.png"\] Alt text: Edit icon to specify the roles that a user must have to access this dashboard.
 
     For more information, see [Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md).
 

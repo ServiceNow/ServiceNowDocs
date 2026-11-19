@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [enable virtual agent, desktop assistant chat, turn on chat icon, virtual agent enabled, employee self service chat]
 breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
@@ -28,7 +29,7 @@ Role required: sn\_dex\_desktop.admin
 
 2.  On the Desktop Assistant page, select the **Virtual agent enabled** check box.
 
-    For information about how to configure Virtual Agent, see [Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-virtual-agent.md).
+    For information about how to configure Virtual Agent, see .
 
 3.  Select **Update**.
 
@@ -36,6 +37,6 @@ Role required: sn\_dex\_desktop.admin
 
 4.  To open the chat window, select the Virtual Agent or chat icon \[Omitted image "icon-virtual-agent.png"\] Alt text: from the Desktop Assistant header.
 
-    For information about how to configure chat branding, see [Set up your Virtual Agent bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ac-configure-chat-branding.md).
+    For information about how to configure chat branding, see .
 
 

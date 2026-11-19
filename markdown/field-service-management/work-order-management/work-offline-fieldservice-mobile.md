@@ -47,15 +47,15 @@ You can view a list of all actions taken when your device was offline and the ti
 
 5.  Do one of the following to download data and go offline.
 
-<table id="choicetable_yld_hym_wfb"><thead><tr><th align="left" id="d51669e209">
+<table id="choicetable_yld_hym_wfb"><thead><tr><th align="left" id="d51778e213">
 
 To
 
-</th><th align="left" id="d51669e212">
+</th><th align="left" id="d51778e216">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d51669e218">
+</th></tr></thead><tbody><tr><td id="d51778e222">
 
 **Take the app offline when the data is downloaded.**
 
@@ -65,7 +65,7 @@ Do this
 2.  Tap **Download cache &amp; go offline**.
  The app takes a few minutes to download the data and then takes the app offline. You can click **cancel** if you do not want to download data and go offline.
 
-</td></tr><tr><td id="d51669e249">
+</td></tr><tr><td id="d51778e253">
 
 **Manually download the data and then choose to take the app offline.**
 
@@ -86,15 +86,15 @@ Do this
     -   To clear the cache, tap **Clear cache**.
 7.  Synchronize updated records.
 
-<table id="choicetable_ufz_wr3_zfb"><thead><tr><th align="left" id="d51669e319">
+<table id="choicetable_ufz_wr3_zfb"><thead><tr><th align="left" id="d51778e323">
 
 To
 
-</th><th align="left" id="d51669e322">
+</th><th align="left" id="d51778e326">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d51669e328">
+</th></tr></thead><tbody><tr><td id="d51778e332">
 
 **Synchronize the data when your mobile device is offline**
 
@@ -105,7 +105,7 @@ Do this
 3.  Tap **Go Online &amp; Sync**.
 
 
-</td></tr><tr><td id="d51669e359">
+</td></tr><tr><td id="d51778e363">
 
 **Synchronize the data after your mobile device is connected online**
 

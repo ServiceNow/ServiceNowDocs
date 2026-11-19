@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/it-service-management/fulfiller
 release: brazil
 topic_type: concept
 last_updated: "2026-09-22"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Simplified IT Service Management, IT Service Management]
 ---
 
@@ -57,9 +57,9 @@ Fulfillers can invoke the workflow by using keywords such as, "triage and catego
 
 For more information, see [IT Service Management AI agent collection Triage and categorize ITSM incidents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-catincidents-usecase.md).
 
-## Investigate and Resolve agentic workflow
+## Investigate and recommend incident resolution agentic workflow
 
-The Investigate and Resolve agentic workflow enables fulfillers to resolve incidents more efficiently by automatically suggesting resolution steps, related knowledge articles, and similar past incidents. This workflow executes based on trigger conditions you define. To use this workflow, you must have the Service Desk Agent \[sn\_service\_desk\_agent\] role.
+The Investigate and recommend incident resolution agentic workflow enables fulfillers to resolve incidents more efficiently by automatically suggesting resolution steps, related knowledge articles, and similar past incidents. This workflow executes based on trigger conditions you define. To use this workflow, you must have the Service Desk Agent \[sn\_service\_desk\_agent\] role.
 
 The workflow analyzes the incident details and context to provide targeted recommendations for investigation and resolution. This enables fulfillers to focus on complex issues while the AI agent handles routine troubleshooting and information gathering.
 
@@ -67,7 +67,7 @@ The workflow analyzes the incident details and context to provide targeted recom
 
 Fulfillers can invoke the workflow by using keywords such as, "investigate" or "tell me about" followed by the incident number.
 
-For more information, see [IT Service Management AI agent collection Investigate and resolve ITSM incidents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-incident-resolver-workflow.md).
+For more information, see [IT Service Management AI agent collection Investigate and recommend incident resolution agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-incident-resolver-workflow.md).
 
 ## Wrap-up and Resolve agentic workflow
 

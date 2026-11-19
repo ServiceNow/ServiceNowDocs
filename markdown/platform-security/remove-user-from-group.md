@@ -37,7 +37,7 @@ Take actions must be enabled. For more information, see [Configure the Access Si
     |Select record|Name of the record to select from the list.|
     |Select field|Name of the field to select from the list. This field can be used to analyze permissions at the field level. For example, **Active**, **Created By**, and so on.|
 
-    \[Omitted image "simulate-remove-group-criteria.png"\] Alt text: Remove the user from a group- criteria
+    \[Omitted image "simulate-remove-group-criteria.png"\] Alt text: Remove the user from a group criteria
 
 4.  Select **Next**.
 

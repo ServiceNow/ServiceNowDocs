@@ -7,7 +7,7 @@ release: brazil
 product: Security Center
 classification: security-center
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Customer Actions, Security configuration console, Security Center, Platform Security]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The activities will be listed from newest to oldest so that you can analyze the most recent activity first. Each update to an activity is timestamped, and you can use search and filter to query for specific information.
+The activities are listed from newest to oldest so that you can analyze the most recent activity first. Each update to an activity is timestamped, and you can use search and filter to query for specific information.
 
 ## Procedure
 
@@ -30,9 +30,9 @@ The activities will be listed from newest to oldest so that you can analyze the 
 
 2.  Navigate to the **Updates** label of Customer Actions.
 
-3.  Click a state, and then select a Customer Action from that state.
+3.  Select a state, and then select a Customer Action from that state.
 
-    In the example below, the **Complete** state is selected and then the Customer Action for **End of Support: GlideEncrypter API** is selected.
+    In the following example, the **Complete** state is selected and then the Customer Action for **End of Support: GlideEncrypter API** is selected.
 
     \[Omitted image "critical-updates-complete-state.png"\] Alt text: different states of Customer Actions
 
@@ -40,7 +40,7 @@ The activities will be listed from newest to oldest so that you can analyze the 
 
     \[Omitted image "critical-updates-activity.png"\] Alt text: Customer Action activities
 
-    All of the activity related to a Customer Action is automatically recorded. In addition, you have the ability to add additional comments to activities.
+    All of the activity related to a Customer Action is automatically recorded. In addition, you can add additional comments to activities.
 
 
 **Parent Topic:**[Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/critical-updates.md)

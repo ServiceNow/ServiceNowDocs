@@ -1,6 +1,6 @@
 ---
 title: Opt out of Benchmarks
-description: You can opt out of Benchmarks at any time. If you opt out, your company usage data is no longer included in the Benchmarks data set, and you no longer see aggregate metrics.
+description: Opt out of Benchmarks at any time. Your company usage data is no longer included in the benchmark data set and you can't view aggregate metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t\_OptOutBench-cf.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Reference, Benchmarks, IT Service Management]
 
 # Opt out of Benchmarks
 
-You can opt out of Benchmarks at any time. If you opt out, your company usage data is no longer included in the Benchmarks data set, and you no longer see aggregate metrics.
+Opt out of Benchmarks at any time. Your company usage data is no longer included in the benchmark data set and you can't view aggregate metrics.
 
 ## Before you begin
 

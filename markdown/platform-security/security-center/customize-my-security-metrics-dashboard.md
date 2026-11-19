@@ -1,6 +1,6 @@
 ---
 title: Customize the My security metrics dashboard
-description: Discover the flexibility of the My security metrics dashboard, which can be customized with metrics from various sources like graphs and charts. Tailor the dashboard to suit your organization's specific requirements.
+description: Customize the My security metrics dashboard with metrics from various sources like graphs and charts. Tailor the dashboard to suit your organization's specific requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/customize-my-security-metrics-dashboard.html
 release: brazil
@@ -14,13 +14,13 @@ breadcrumb: [Security metrics, Security monitoring console, Security Center, Pla
 
 # Customize the My security metrics dashboard
 
-Discover the flexibility of the My security metrics dashboard, which can be customized with metrics from various sources like graphs and charts. Tailor the dashboard to suit your organization's specific requirements.
+Customize the My security metrics dashboard with metrics from various sources like graphs and charts. Tailor the dashboard to suit your organization's specific requirements.
 
 ## Before you begin
 
 \[Omitted image "sc-custom-metrics.png"\] Alt text: User interface for dashboard customization
 
-To customize the Security Metrics dashboard, confirm you are within the Security Center application scope. To switch to this scope, select **application picker** &gt; **Application scope**, and type security center.
+The Security Center application scope must be selected to customize the Security Metrics dashboard. To switch to this scope, select **application picker** &gt; **Application scope**, and enter security center.
 
 Role required: admin
 
@@ -36,7 +36,7 @@ Implement and customize My security metrics dashboard. Add metrics and content t
 
 3.  Create a tab by selecting **+Add a tab**.
 
-    **Note:** You can also add a new tab by selecting the **plus \(+\)** icon next to an existing tab.
+    **Note:** You can also add a new tab by selecting the plus \(+\) icon next to an existing tab.
 
 4.  Edit the title of your newly created tab by selecting the pencil icon and entering a name.
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Basic system configuration, Get started, ServiceNow AI Platform]
 ---
 
 # Add a system property

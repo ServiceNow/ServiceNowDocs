@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vc-build-agent-limitations.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-03"
 reading_time_minutes: 2
 breadcrumb: [Build Agent overview, Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
@@ -36,6 +36,14 @@ To understand the upper limit of what Build Agent can do, review the ServiceNow 
 -   [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-fluent.md)
 
 If ServiceNow Fluent does not support a metadata type, Build Agent cannot update it unless you provide precise platform-specific instructions.
+
+## Regulated environments
+
+Build Agent, Autonomous Engineer, and Test Agent depend on off-instance services that have not completed the security compliance review required for regulated hosting environments. As a result, Build Agent v2 is not available in GCC, NSC, or FedRAMP environments.Autonomous Engineer depends on Build Agent v2 services, so it is also unavailable in those environments.
+
+**Note:** As of Brazil Patch 1, Build Agent, Autonomous Engineer, and Test Agent support ServiceNow Protected Platform \(SPP\) for Australia, the EU, and Singapore.
+
+For details, see [Build Agent limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-limitations.md).For limitations that apply to Autonomous Engineer, see [Autonomous Engineer limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-limitations.md).
 
 **Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-build-agent-landing.md)
 

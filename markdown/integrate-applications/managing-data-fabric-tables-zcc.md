@@ -62,7 +62,7 @@ Note the following requirements when creating references between tables:
 
 ## Table queries
 
-Records retrieved from a data stored and stored in a data fabric table have a finite duration, or life cycle, within the ServiceNow AI Platform.
+Records retrieved from a data source and stored in a data fabric table have a finite duration, or life cycle, within the ServiceNow AI Platform.
 
 After a data fabric table is connected to a data source, each time the data fabric table is viewed or accessed, a new query is made to the data source. The retrieved data lives in memory for as long as the list or form appears. After you close the list or form, that retrieved data is purged from memory. The next time that you use or view the retrieved data in the data fabric table, records are repopulated from the data source.
 
@@ -76,16 +76,16 @@ For additional data fabric table limitations, see [KB2017730](https://support.se
 
 -   **[Create a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-data-fabric-table-zcc.md)**  
 Retrieve data from an internal or external source by creating a data fabric table.
--   **[Update data mapping in a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/update-data-fabric-table-zcc.md)**  
-Update the data mapping between a source table and a data fabric table.
--   **[Delete a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/delete-data-fabric-table-zcc.md)**  
-Remove a data fabric table from your instance by deleting it.
 -   **[View data fabric table records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-data-fabric-table-zcc.md)**  
 View the records that are currently in a data fabric table.
+-   **[Update data mapping in a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/update-data-fabric-table-zcc.md)**  
+Update the data mapping between a source table and a data fabric table.
 -   **[Change the connection in a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/change-source-data-fabric-table-zcc.md)**  
 Connect a data fabric table to a different data source.
 -   **[Deploying a data fabric table from one instance to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/copying-data-fabric-table-zcc.md)**  
 Copy a data fabric table from one instance to another through an update set.
+-   **[Delete a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/delete-data-fabric-table-zcc.md)**  
+Remove a data fabric table from your instance by deleting it.
 
 **Parent Topic:**[Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/zero-copy-connectors.md)
 

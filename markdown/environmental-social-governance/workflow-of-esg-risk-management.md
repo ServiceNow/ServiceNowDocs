@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management]
 ---
 
 # Workflow of Operational Sustainability Risk Management

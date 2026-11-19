@@ -45,15 +45,15 @@ A ServiceNow app is a package that performs a specific task for a specified grou
 
 2.  In the chat panel, with **Default** mode selected, describe the application that you want to create in plain language or select a prompt.
 
-<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d387783e242">
+<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d504427e244">
 
 Scenario
 
-</th><th align="left" id="d387783e245">
+</th><th align="left" id="d504427e247">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d387783e251">
+</th></tr></thead><tbody><tr><td id="d504427e253">
 
 **Describe the app you want to create**
 
@@ -61,7 +61,7 @@ Actions
 
 Describe the application that you want to create, and then select the Send icon \[Omitted image "ba-send-icon.png"\] Alt text:. For example, `Create a basic to-do task tracker app with a user interface. Name the application Planner.`You can also attach images, such as architectural diagrams or UI wireframes, to provide context for prompts.
 
-</td></tr><tr><td id="d387783e269">
+</td></tr><tr><td id="d504427e271">
 
 **Select a predetermined prompt**
 

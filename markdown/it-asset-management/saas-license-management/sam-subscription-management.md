@@ -130,8 +130,8 @@ Depends on the public API and custom workflow configuration. Build removal logic
 Request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) so that you can create and manage integrations with your SaaS and Single Sign-on \(SSO\) applications. You can use these integrations to track license usage and to reclaim unused licenses.
 -   **[SaaS License Management setup for large companies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/saas-setup-large-companies.md)**  
 Set up SaaS License Management for large companies to confirm that you can view all SaaS usage data in your ServiceNow instance.
--   **[SaaS Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/saas-overview-dashboard.md)**  
-Optimize how much your organization spends on SaaS and SSO licensing by analyzing the subscription usage, cost, and compliance of your SaaS applications and SSO providers using the SaaS Overview dashboard.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/saas-overview-dashboard.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/saas-overview-dashboard.md)**  
+
 -   **[Integrate with SaaS applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/create-integration-profile.md)**  
 Create an integration profile to view software usage information and optimize stale licenses.
 -   **[Integrate with SSO providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/saas-sso-integration.md)**  

@@ -1,5 +1,5 @@
 ---
-title: Book work order appointment in the CSM Configurable Workspace
+title: Book work order appointment in the CRM Workspace
 description: Book appointment for an associated work order or work order task to dispatch agent to address the customer issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/appointment-booking/book-workorder-appointment-workspace.html
@@ -9,10 +9,10 @@ classification: appointment-booking
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing appointments in the CSM Configurable Workspace, Managing appointments on behalf of a customer, Managing appointments, Use, Field Service Management]
+breadcrumb: [Managing appointments in the CRM Workspace, Managing appointments on behalf of a customer, Managing appointments, Use, Field Service Management]
 ---
 
-# Book work order appointment in the CSM Configurable Workspace
+# Book work order appointment in the CRM Workspace
 
 Book appointment for an associated work order or work order task to dispatch agent to address the customer issue.
 
@@ -24,7 +24,7 @@ Setup the **Field Service Order Configuration** to book an appointment for work 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace**.
 
 2.  Click the List icon \(\[Omitted image "ListIcon.png"\] Alt text: List icon.\).
 
@@ -43,7 +43,7 @@ Setup the **Field Service Order Configuration** to book an appointment for work 
 **Related topics**  
 
 
-[Reschedule work order appointment in the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/appointment-booking/Reschedule-workorder-appointment-workspace.md)
+[Reschedule work order appointment in the CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/appointment-booking/Reschedule-workorder-appointment-workspace.md)
 
 [Cancel work order appointment in CSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/appointment-booking/Cancel-workorder-appointment-workspace.md)
 

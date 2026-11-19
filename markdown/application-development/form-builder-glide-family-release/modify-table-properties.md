@@ -51,15 +51,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
     \[Omitted image "tb-add-new-field.png"\] Alt text: Adding a new field to a table.
 
-<table id="choicetable_wqj_vdz_5wb"><thead><tr><th align="left" id="d334974e279">
+<table id="choicetable_wqj_vdz_5wb"><thead><tr><th align="left" id="d447016e279">
 
 Field
 
-</th><th align="left" id="d334974e282">
+</th><th align="left" id="d447016e282">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d334974e288">
+</th></tr></thead><tbody><tr><td id="d447016e288">
 
 **Column label**
 
@@ -67,7 +67,7 @@ Description
 
 Unique label for the column.
 
-</td></tr><tr><td id="d334974e297">
+</td></tr><tr><td id="d447016e297">
 
 **Column name**
 
@@ -75,7 +75,7 @@ Unique label for the column.
 
 Database name for the column.
 
-</td></tr><tr><td id="d334974e306">
+</td></tr><tr><td id="d447016e306">
 
 **Type**
 
@@ -87,7 +87,7 @@ Type of information that the column contains. For example, to contain plain text
 
  See [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_FieldTypes.md).
 
-</td></tr><tr><td id="d334974e337">
+</td></tr><tr><td id="d447016e337">
 
 **Reference**
 
@@ -95,7 +95,7 @@ Type of information that the column contains. For example, to contain plain text
 
 Table that is associated with the column. This field applies only if the column type is **Reference**.
 
-</td></tr><tr><td id="d334974e350">
+</td></tr><tr><td id="d447016e350">
 
 **Max length**
 
@@ -103,7 +103,7 @@ Table that is associated with the column. This field applies only if the column 
 
 Maximum number of characters that users can enter in the field.
 
-</td></tr><tr><td id="d334974e359">
+</td></tr><tr><td id="d447016e359">
 
 **Default value**
 
@@ -111,7 +111,7 @@ Maximum number of characters that users can enter in the field.
 
 Value that populates the field automatically after a new record is created.
 
-</td></tr><tr><td id="d334974e368">
+</td></tr><tr><td id="d447016e368">
 
 **Display**
 
@@ -121,7 +121,7 @@ Option to set the column as the display value for the table. A reference field s
 
  Only one column can act as the display value for a table.
 
-</td></tr><tr><td id="d334974e398">
+</td></tr><tr><td id="d447016e398">
 
 **Updated**
 

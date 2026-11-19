@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/set\_up\_user\
 release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 

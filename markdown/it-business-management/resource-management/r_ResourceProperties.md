@@ -330,6 +330,20 @@ Edit the effort fields for a resource assignment even when actual values have be
 
 true
 
+</td></tr><tr><td>
+
+Manage your resource board performance based on how the entries result
+
+ **sn\_rm\_ws\_use\_progressive\_disclosure**
+
+</td><td>
+
+Manage the performance based on how the resource board loads.
+
+</td><td>
+
+true
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/rsrc-mgmt-reference.md)
 

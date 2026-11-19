@@ -60,8 +60,8 @@ When analyzing access and permissions, Access Analyzer shows the evaluation's re
 
 The evaluation process is carried out by impersonating a user and by determining the access control list \(ACL\) permissions on the resource. Permission rules enable access to the specified resource if the following checks are evaluated to true:
 
--   IAccessHandlers must evaluate to “Passed”, or are empty or undefined
--   Data filters must evaluate to “Passed”, or are empty or undefined
+-   IAccessHandlers must evaluate to “Passed”, or be empty or undefined
+-   Data filters must evaluate to “Passed”, or be empty or undefined
 -   Access control rules \(ACLs\) evaluate to “Passed”
 
 ## IAccessHandlers

@@ -8,7 +8,7 @@ product: Discovery
 classification: discovery
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Discovery, DAW, Discovery Admin Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,6 +18,8 @@ breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Vis
 The Insights page provides widgets, dashboards, and reports for IT operations management and infrastructure monitoring. Use these tools to improve operational visibility and infrastructure health.
 
 To access the Discovery Admin Workspace Insights page, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights**.
+
+Starting with Discovery Admin Workspace v1.23.0, users with the discovery\_operator role can view insights that are available based on installed plugins and instance configuration, and export list data from them. Command validation task and SaCmdManager insights, the **Access store app** option, and actions other than export aren't available to these users. For more information, see [Discovery Operator role access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-discovery-operator-access.md).
 
 ## Information accessed through the Insights page
 

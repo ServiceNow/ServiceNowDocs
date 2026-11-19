@@ -1,6 +1,6 @@
 ---
 title: AI Gateway
-description: Explore the AI Gateway page and its tab in the AI Control Tower Configurations.
+description: Explore the AI Gateway page and its tab in the Control Tower Configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-gateway-configuration.html
 release: brazil
@@ -9,16 +9,16 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configurations, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configurations, Control Tower dashboard, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Gateway
 
-Explore the AI Gateway page and its tab in the AI Control Tower Configurations.
+Explore the AI Gateway page and its tab in the Control Tower Configurations.
 
 The AI Gateway page enables you to pause and resume AI Gateway transactions, as well as monitor AI connections. The AI Gateway page has the following tabs:
 
-**Settings**- enables to pause and continue the AI Gateway transactions.\[Omitted image "ai-gateway-config.png"\] Alt text: AICT Configurations screen.
+**Settings**- enables to pause and continue the AI Gateway transactions.\[Omitted image "ai-gateway-config.png"\] Alt text: Configurations screen.
 
 **AI connections**- Displays a list of allowed AI connections.\[Omitted image "ai-connections.png"\] Alt text: Allowed AI connections.
 
@@ -33,5 +33,5 @@ You can filter and export the list into PDF, JSON, Excel, and CSV format. The li
 -   Last updated by
 -   Updated
 
-For information on AI Gateway tab on the AI Control Tower Home, see [AI Gateway tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-gateway-tab.md)
+For information on AI Gateway tab on the Home page, see [AI Gateway tab in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/ai-gateway-tab.md)
 

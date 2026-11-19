@@ -1,6 +1,6 @@
 ---
 title: Using the ITOM MCP Server Console to perform ITOM tasks
-description: Connect an AI-enabled MCP Client application to your ServiceNow environment using the ITOM MCP Server Console. Use the MCP Client to investigate alerts, review configuration item \(CI\) reliability, assess incident impact, and create service level objectives \(SLOs\).
+description: Connect an AI-enabled MCP Client application to your ServiceNow environment using the ITOM MCP Server Console. Investigate alerts, review configuration item \(CI\) reliability, assess incident impact, and create service level objectives \(SLOs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/use-itom-mcp-server.html
 release: brazil
@@ -13,11 +13,11 @@ breadcrumb: [AI in ITOM, IT Operations Management]
 
 # Using the ITOM MCP Server Console to perform ITOM tasks
 
-Connect an AI-enabled MCP Client application to your ServiceNow environment using the ITOM MCP Server Console. Use the MCP Client to investigate alerts, review configuration item \(CI\) reliability, assess incident impact, and create service level objectives \(SLOs\).
+Connect an AI-enabled MCP Client application to your ServiceNow environment using the ITOM MCP Server Console. Investigate alerts, review configuration item \(CI\) reliability, assess incident impact, and create service level objectives \(SLOs\).
 
 ## ITOM MCP Server Console overview
 
-The ITOM MCP Server Console bridges your ServiceNow ITOM environment to any AI-enabled MCP Client, such as Moveworks or AWS Claude. When agents use an MCP Client to ask questions about alerts or CIs, the ITOM MCP Server Console fetches data from the ServiceNow ITOM environment. It performs actions on behalf of the agent through natural language conversation.
+The ITOM MCP Server Console bridges your ServiceNow ITOM environment to any AI-enabled MCP Client, such as Moveworks or AWS Claude. When agents use an MCP Client to ask questions about alerts or CIs, the ITOM MCP Server Console fetches data from the ServiceNow ITOM environment. It also performs actions on behalf of the agent through natural language conversation.
 
 The ITOM MCP Server Console supports these core capabilities for alert investigation and CI reliability:
 

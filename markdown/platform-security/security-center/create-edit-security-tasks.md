@@ -1,6 +1,6 @@
 ---
 title: Edit Security Tasks
-description: Learn how to create, edit, delete, or export Security Tasks in Security Center
+description: Edit or delete Security Tasks in Security Center to keep task details, assignments, and work notes current.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/create-edit-security-tasks.html
 release: brazil
@@ -8,13 +8,13 @@ product: Security Center
 classification: security-center
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Security Tasks, Security Center, Platform Security]
 ---
 
 # Edit Security Tasks
 
-Learn how to create, edit, delete, or export Security Tasks in Security Center
+Edit or delete Security Tasks in Security Center to keep task details, assignments, and work notes current.
 
 ## Before you begin
 
@@ -24,23 +24,23 @@ Role required: admin or sn\_vsc\_task\_manager
 
 1.  Access your Security Task list by navigating to **All** &gt; **Security Center** &gt; **Security Tasks**.
 
-2.  From the Security Task list, you can edit your Security Tasks in two ways:
+2.  Edit your Security Tasks from the Security Task list in one of two ways:
 
     -   **Edit in the Security Task form**
 
         Select a Security Task number from the list to open the Security Task record and see its details. Here you can edit, assign to another user, and add work notes.
 
-        **Important:** Remember that users who are assigned tasks must be admins or have the sn\_vsc\_task\_manager role.
+        **Important:** Remember that users who are assigned tasks must have the admin or sn\_vsc\_task\_manager role.
 
         \[Omitted image "sec-task-mgr-3.png"\] Alt text: Security task record
 
     -   **Edit from the Security Task list**
 
-        Select one or more Security Tasks by selecting on its check box on the left and then select the **Edit** button.
+        Select one or more Security Tasks by selecting its check box and then select the **Edit** button.
 
         \[Omitted image "sec-task-mgr-4.png"\] Alt text: Editing multiple tasks with the edit button
 
-3.  Fill in the fields as needed:
+3.  On the Security Task form, fill in the fields.
 
 <table id="table_fxg_brj_cfc"><thead><tr><th>
 
@@ -64,7 +64,7 @@ Type
 
 </td><td>
 
-Select a task type:-   Metrics threshold breached
+Type of task:-   Metrics threshold breached
 -   New Customer Action
 -   Event notification
 -   Hardening score deviation
@@ -93,7 +93,7 @@ Assigned to
 
 </td><td>
 
-Person assigned to the task. This user must be in the assignment group selected in the **Assignment Group** field, and have the **admin** or **sn\_vsc\_task\_manager** role.
+Person assigned to the task. This user must be in the assignment group selected in the **Assignment group** field, and have the admin or sn\_vsc\_task\_manager role.
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Due status
 
 </td><td>
 
-Whether the task is **Upcoming** or **Overdue**, depending on the date in the **Due date** field.
+Status that shows whether the task is **Upcoming** or **Overdue**, depending on the date in the **Due date** field.
 
 </td></tr><tr><td>
 
@@ -142,7 +142,7 @@ Details
 
 </td><td>
 
-Used to provide details, links, or other information users need to know about this task.
+Details, links, or other information that users need to know about this task.
 
 </td></tr><tr><td>
 
@@ -150,7 +150,7 @@ Work notes
 
 </td><td>
 
-Notes about this task. Notes entered into this field are timestamped and displayed on the Activity list on the right of the screen.
+Notes about this task. Notes entered into this field are timestamped and displayed in the Activity list.
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ Work notes can be privately added by entering them into this field and selecting
 </td></tr></tbody>
 </table>4.  Select **Save** to save the Security Task record, if you are editing a record from the list, select **Update**.
 
-5.  If needed, you can delete a task from the list by selecting on its check box on the right, and selecting **Delete**, or in the form by selecting the more icon \(...\), then selecting **Delete**.
+5.  Delete a task from the list by selecting its check box, and selecting **Delete**, or in the form by selecting the more icon \(...\), then selecting **Delete**.
 
 
 **Parent Topic:**[Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-task-manager.md)

@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
+keywords: [desktop assistant notifications, custom notifications, send notifications, notification api, desktopappnotificationutils, senddanotification, script include, notification parameters]
 breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

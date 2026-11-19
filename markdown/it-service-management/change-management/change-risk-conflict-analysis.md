@@ -26,7 +26,7 @@ Change Management features provide ways to calculate and assess the risk of chan
 -   **[Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_RskAsmtCalc.md)**  
 Change Management provides two methods to calculate the risk of a change. The Change Management - Risk Calculator plugin is active by default in the base system, and Change Management - Risk Assessment is optional.
 -   **[Migrate to legacy change risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/legacy-change-risk-assessment-migration.md)**  
-Users can migrate legacy change risk assessments to versions compatible with the new Change Risk Assessment table schema and logic.
+Migrate legacy change risk assessments to versions compatible with the new Change Risk Assessment table schema and logic.
 
 **Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/reference-change-management.md)
 

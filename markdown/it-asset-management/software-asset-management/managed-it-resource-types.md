@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Subscriptions for Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Subscriptions for Software Asset Management, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management licensing
@@ -42,7 +42,7 @@ Server
 
 </td><td>
 
-Physical or virtual server that is represented as a configuration item \(CI\) in the CMDB tables listed in the following license resource categories and managed by Software Asset Management.
+Physical or virtual server that is represented as a configuration item \(CI\) in the CMDB tables listed in the following license resource categories and managed bySoftware Asset Management.
 
 </td><td>
 
@@ -50,16 +50,16 @@ Physical or virtual server that is represented as a configuration item \(CI\) in
 
 </td><td>
 
--   cmdb\_ci\_server
--   cmdb\_ci\_win\_server
--   cmdb\_ci\_linux\_server
--   cmdb\_ci\_aix\_server
--   cmdb\_ci\_esx\_server
--   cmdb\_ci\_solaris\_server
--   cmdb\_ci\_hyper\_v\_server
--   cmdb\_ci\_hpux\_server
+-   Server \[cmdb\_ci\_server\]
+-   Windows Server \[cmdb\_ci\_win\_server\]
+-   Linux Server \[cmdb\_ci\_linux\_server\]
+-   AIX Server \[cmdb\_ci\_aix\_server\]
+-   ESX Server \[cmdb\_ci\_esx\_server\]
+-   Solaris Server \[cmdb\_ci\_solaris\_server\]
+-   Hyper-V Server \[cmdb\_ci\_hyper\_v\_server\]
+-   HPUX Server \[cmdb\_ci\_hpux\_server\]
 
- **Note:** Any CMDB classes derived from the above listed classes or cmdb\_ci\_hardware and not defined as another Managed IT Resource type.
+ **Note:** Any CMDB classes derived from the above listed classes or Hardware \[cmdb\_ci\_hardware\] aren't defined as another Managed IT Resource type.
 
 </td></tr><tr><td>
 
@@ -75,11 +75,9 @@ Physical or virtual non-server CI in the CMDB tables listed in the following lic
 
 </td><td>
 
--   cmdb\_ci\_computer
--   cmdb\_ci\_handheld\_computing
--   cmdb\_ci\_pc\_hardware
-
- Any CMDB classes derived from cmdb\_ci\_pc\_hardware.
+-   Computer \[cmdb\_ci\_computer\]
+-   Handheld Computing Device \[cmdb\_ci\_handheld\_computing\]
+-   Personal Computer cmdb\_ci\_pc\_hardware
 
 </td></tr><tr><td>
 
@@ -95,7 +93,7 @@ Unique User Principal name in the SaaS Subscription User table listed in the fol
 
 </td><td>
 
-samp\_sw\_subscription
+Software Subscription \[samp\_sw\_subscription\]
 
 </td></tr><tr><td>
 
@@ -111,8 +109,8 @@ Cloud-based platform services that are represented as a CI in the CMDB tables li
 
 </td><td>
 
--   cmdb\_ci\_database
--   cmdb\_ci\_cloud\_database
+-   Database \[cmdb\_ci\_database\]
+-   Cloud Database \[cmdb\_ci\_cloud\_database\]
 
  Any child classes of the above listed classes.
 
@@ -130,7 +128,7 @@ Cloud-based infrastructure service represented as a CI in a CMDB table listed in
 
 </td><td>
 
-cmdb\_ci\_storage\_volumeAny child classes of the above listed classes.
+Storage Volumes \[cmdb\_ci\_storage\_volume\]Any child classes of the above listed classes.
 
 </td></tr></tbody>
 </table>**Important:**

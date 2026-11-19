@@ -20,7 +20,7 @@ Create custom Problem Management models with states and transitions tailored to 
 
 See considerations for enabling Problem Management models at [Problem Management models in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/problem-mgmt-models-sow.md).
 
-Enable the system property **com.snc.problem\_management.models.enabled**. For more information, see [Enable Problem Management models in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/enable-problem-mgmt-models-sow.md).
+The **com.snc.problem\_management.models.enabled** system property must be enabled. For more information, see [Enable Problem Management models in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/enable-problem-mgmt-models-sow.md).
 
 Role required: admin
 
@@ -41,7 +41,7 @@ Role required: admin
 
         For more information, see [Problem task model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/problem-task-model-form.md).
 
-3.  Choose the states for your custom model by selecting **Save** from the form context menu icon \(\[Omitted image "form-context-menu.png"\] Alt text: Form context menu icon.\).
+3.  Choose the states for your custom model by selecting **Save** from the form context menu icon \(\[Omitted image "form-context-menu.png"\] Alt text:\).
 
     1.  From the Model States context menu that appears, select **New**.
 
@@ -54,7 +54,7 @@ Role required: admin
 
     3.  Select **Submit** for each state you choose.
 
-4.  Apply a transition to each model state by selecting the display/hide hierarchical lists icon \(\[Omitted image "display-hide-hierarchial-lists.png"\] Alt text: Display/hide hierarchical lists icon.\).
+4.  Apply a transition to each model state by selecting the display/hide hierarchical lists icon \(\[Omitted image "display-hide-hierarchial-lists.png"\] Alt text:\).
 
     1.  From the Model State Transitions context menu, select **New**.
 
@@ -64,7 +64,7 @@ Role required: admin
         |-----|-----------|
         |From|State that the problem task record is moving from.|
         |To|State that the problem task record is moving to.|
-        |Automatic transition|Option for enabling automatic transition to the problem task record when the defined conditions are met. Selecting this option also prevents you from manually selecting the **State** field on the problem task record.|
+        |Automatic transition|Option for enabling automatic transition to the problem task record when the defined conditions are met. Selecting this option also helps prevent you from manually selecting the **State** field on the problem task record.|
 
     3.  Select **Submit** for each model state transition that you add.
 
@@ -91,12 +91,12 @@ Role required: admin
         |Applies to|Set to **Problem Task \[problem-task\]** for creating problem task models.|
         |Order|Order in which the associated model is displayed.|
         |Title|Name of the model displayed on the button when creating problem tasks.|
-        |Description|Description of the model displayed on the button when creating problem task.|
+        |Description|Description of the model displayed on the button when creating problem tasks.|
         |Active|Option to make the record type selector active.|
 
     4.  From the drop-down **Values** list, select **Model**.
 
-    5.  Select the search icon \(\[Omitted image "search\_icon.png"\] Alt text: search icon\) and select your custom problem task model from the list.
+    5.  Select the search icon \(\[Omitted image "search\_icon.png"\] Alt text:\) and select your custom problem task model from the list.
 
     6.  From the Condition list, select **Show Related Fields** at the bottom of the list.
 

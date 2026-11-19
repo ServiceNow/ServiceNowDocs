@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Operational Sustainability Management]
 ---
 
 # Configure Operational Sustainability Management \(formerly ESG Management\)
@@ -41,5 +41,5 @@ You can learn about how Operational Sustainability Management is used by the inv
 -   **[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/monitor-data-using-esg-dashboards.md)**  
 You can monitor and analyze assessment data at various levels in the Operational Sustainability Management application using the Analytics dashboard. The custom dashboards you create provide tailored insights and deliver relevant information at a glance, improving the decision-making process.
 
-**Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)
+**Parent Topic:**[Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)
 

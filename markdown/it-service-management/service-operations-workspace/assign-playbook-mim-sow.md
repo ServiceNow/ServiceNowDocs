@@ -43,7 +43,7 @@ Role required: admin
     -   **Available Playbooks**: List of playbooks that are available to be assigned to Major Incident Management.
 4.  On the configuration page, use one of the following options to assign a playbook to Major Incident Management.
 
-<table id="choicetable_ttg_gsk_gbc"><tbody><tr><td id="d232505e190">
+<table id="choicetable_ttg_gsk_gbc"><tbody><tr><td id="d233199e192">
 
 **Recommended playbooks**
 
@@ -53,19 +53,19 @@ The recommended playbooks section displays the following two base system playboo
 -   **Advanced MI playbook**: Provides a similar interface to the MI playbook but has advanced, configurable capabilities for communication and collaboration, and unplanned communication or collaboration placed under a single section. You can configure the unplanned communication or collaboration section of the playbook to create, add, and configure the communication plans, tasks, collaboration channels, and channel types as required using the Playbooks.
 For more information, see [Designing a major incident playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/design-playbooks-mim-sow.md). Playbooks enables you to make the Advanced MI playbook more flexible to use. This playbook is suggested for and can be used by new or zBoot customers. For more information, see [Managing major incidents using playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-mi-playbook-sow.md).
 
-You can assign and use any or both playbooks with Major Incident Management based on your requirements and usage. Use the **sn\_sow.mim\_playbook\_ids** property to add the sys\_id of the playbook that you want to display under the playbook section and use for Major Incident Management.
+You can assign and use any or both playbooks with Major Incident Management based on your requirements and usage. Use the **sn\_sow\_mim.playbook\_ids** property to add the sys\_id of the playbook that you want to display under the playbook section and use for Major Incident Management. You can add multiple playbook IDs \(comma-separated\) to display under the playbook section.
 
 Select **View details** to view the playbook information and then select **Assign to MIM** to assign the playbook to Major Incident Management.
 
-</td></tr><tr><td id="d232505e264">
+</td></tr><tr><td id="d233199e266">
 
 **Available playbooks**
 
 </td><td>
 
-Select the **Available playbooks** tab, then select **Playbook** and then select **Assign**. The selected playbook is assigned to Major Incident Management and is added to the list of assigned playbooks.
+Select the **Available playbooks** tab, then select **Playbook** and then select **Assign**. The selected playbook is assigned to Major Incident Management and is added to the list of assigned playbooks in the **Assigned playbook** tab.To remove a playbook from the list of playbooks in the **Assigned playbook** tab, select the playbook and then select **Remove**.
 
-</td></tr><tr><td id="d232505e285">
+</td></tr><tr><td id="d233199e299">
 
 **Create new playbook**
 

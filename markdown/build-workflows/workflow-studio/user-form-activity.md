@@ -7,7 +7,7 @@ release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
 breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -20,7 +20,7 @@ Use this activity to surface a record to the end user. This activity requires yo
 
 This activity is available as a common activity. Users with the admin, playbook.admin, or pd\_author can add this activity to a playbook.
 
-## Inputs
+## Details
 
 Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/dot-walking-examples.md).
 
@@ -70,136 +70,8 @@ Choice
 
 </td><td>
 
-Under **Schedule** &gt; **Start Rule**, select a start rule for when your stage should start running:-   **When process starts**: Your stage starts running as soon as the playbook starts.
--   **After specific stages**: Your stage starts running after specified stage\(s\) have finished running.
-
-Under Schedule &gt; Start Rule, select a start rule for when your activity should start running:-   **When stage starts**: Your activity starts running as soon as its stage starts running. Your stage starts running when your playbook is triggered.
--   **After specific activities**: Your activity starts running after specified activities have finished running.
-
-</td></tr><tr><td>
-
-Tagline
-
-</td><td>
-
-String
-
-</td><td>
-
-Header tagline to display to end users.
-
-</td></tr><tr><td>
-
-Record fields
-
-</td><td>
-
-Reference
-
-</td><td>
-
-Any additional record fields you want in the form.**Note:** This field cannot be edited during a playbook run.
-
-</td></tr><tr><td>
-
-Associated table
-
-</td><td>
-
-Table Name
-
-</td><td>
-
-Table containing activity or playbook data.
-
-</td></tr><tr><td>
-
-Associated record
-
-</td><td>
-
-Reference
-
-</td><td>
-
-Reference to the record you want to display.
-
-</td></tr><tr><td>
-
-Form View
-
-</td><td>
-
-String
-
-</td><td>
-
-Form view to use for data collection. If you don't provide a form view, the system uses the default view. Use the **new tab** button \[Omitted image "new-tab-button.png"\] Alt text: a button that opens a new tabto open and edit a form view with Form Builder in a new Workflow Studio tab.**Note:** Many form views are not supported in Workspace.
-
-</td></tr><tr><td>
-
-Form Fields
-
-</td><td>
-
-String
-
-</td><td>
-
-Comma-separated list of fields names to display on the card for the form.**Note:** Make sure to include the form fields in the default view or the view of your choice, so that the fields are displayed in the playbook.
-
-</td></tr><tr><td>
-
-Attachment source
-
-</td><td>
-
-Choice
-
-</td><td>
-
-The attachment record containing the attachments that end users can upload during runtime.
-
-</td></tr></tbody>
-</table>## Advanced inputs
-
-After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/activity-definitions.md).
-
-<table id="table_cjj_sr3_plb"><thead><tr><th>
-
-Input
-
-</th><th>
-
-Type
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Assignment Group
-
-</td><td>
-
-Reference.Group \[sys\_user\_group\]
-
-</td><td>
-
-Group responsible for completing the task associated with the activity.**Note:** Select **Show additional options** to see this field.
-
-</td></tr><tr><td>
-
-Assigned To
-
-</td><td>
-
-Reference.User \[sys\_user\]
-
-</td><td>
-
-User responsible for completing the task associated with the activity.**Note:** Select **Show additional options** to see this field.
+Under **Schedule** &gt; **Start Rule**, select a start rule for when the activity should start running:-   **When stage starts**: The activity starts running as soon as its stage starts running.
+-   **After specific activities**: The activity starts running after specified activities have finished running. You can select one more activities from the available activities. By default, the previous activity is selected.
 
 </td></tr><tr><td>
 
@@ -260,6 +132,145 @@ To learn more about enabling and configuring restart for playbooks, stages, and 
 
 </td></tr><tr><td>
 
+Form View
+
+</td><td>
+
+String
+
+</td><td>
+
+Form view to use for data collection. If you don't provide a form view, the system uses the default view. Use the **new tab** button \[Omitted image "new-tab-button.png"\] Alt text: a button that opens a new tabto open and edit a form view with Form Builder in a new Workflow Studio tab.**Note:** Many form views are not supported in Workspace.
+
+</td></tr><tr><td>
+
+Form Fields
+
+</td><td>
+
+String
+
+</td><td>
+
+Comma-separated list of fields names to display on the card for the form.**Note:** Make sure to include the form fields in the default view or the view of your choice, so that the fields are displayed in the playbook.
+
+</td></tr><tr><td>
+
+Attachment source
+
+</td><td>
+
+Choice
+
+</td><td>
+
+The attachment record containing the attachments that end users can upload during runtime.
+
+</td></tr></tbody>
+</table>## Automation inputs
+
+The following inputs are available in the Automation of the activity property.
+
+<table id="table_cjj_sr3_plb"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Assignment Group
+
+</td><td>
+
+Reference.Group \[sys\_user\_group\]
+
+</td><td>
+
+Group responsible for completing the task associated with the activity.**Note:** Select **Show additional options** to see this field.
+
+</td></tr><tr><td>
+
+Assigned To
+
+</td><td>
+
+Reference.User \[sys\_user\]
+
+</td><td>
+
+User responsible for completing the task associated with the activity.**Note:** Select **Show additional options** to see this field.
+
+</td></tr><tr><td>
+
+Wait for user input
+
+</td><td>
+
+Yes/No
+
+</td><td>
+
+The activity pauses until the user provides an input.
+
+</td></tr></tbody>
+</table>## Outputs
+
+These outputs can provide data to other activities in your playbook. The outputs are available in the **Automation** tab and you can access this data as activity inputs when you configure your activity:
+
+|Output|Type|Description|
+|------|----|-----------|
+|Automated|True/False|Indicates if the activity is automated or not.|
+|Record|Reference.Task\[task\]|Reference to the record associated with the activity.|
+
+## UI Layout
+
+Use the fields in the UI layout tab to design the runtime UI for the form.
+
+<table id="table_tbm_frv_2lc"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Associated table
+
+</td><td>
+
+Table Name
+
+</td><td>
+
+Table containing activity or playbook data.
+
+</td></tr><tr><td>
+
+Associated record
+
+</td><td>
+
+Reference
+
+</td><td>
+
+Reference to the record you want to display.
+
+</td></tr><tr><td>
+
 Experience Status Table
 
 </td><td>
@@ -281,6 +292,18 @@ Reference
 </td><td>
 
 The flow data record with the status that you want to map with this activity's state. Changes made to the state in the activity card are mapped to the flow data record, and from the flow data record to the activity card. By default, this is the data record created by this activity's underlying flow, subflow, or action.**Note:** Select **Show additional options** to see this field.
+
+</td></tr><tr><td>
+
+Tagline
+
+</td><td>
+
+String
+
+</td><td>
+
+Header tagline to display to end users.
 
 </td></tr><tr><td>
 
@@ -346,15 +369,15 @@ Details to display to end users in a pending activity.**Note:** Select **Show ad
 
 </td></tr><tr><td>
 
-Attachments read only
+Record fields
 
 </td><td>
 
-True/False
+Reference
 
 </td><td>
 
-If enabled, prevents end users from renaming or deleting the existing attachments.**Note:** Select **Show additional options** to see this field.
+Any additional record fields you want in the form.**Note:** This field cannot be edited during a playbook run.
 
 </td></tr><tr><td>
 
@@ -367,6 +390,18 @@ String
 </td><td>
 
 Footer text to display to end users. **Note:** Select **Show additional options** to see this field.
+
+</td></tr><tr><td>
+
+Attachments read only
+
+</td><td>
+
+True/False
+
+</td><td>
+
+If enabled, prevents end users from renaming or deleting the existing attachments.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -405,12 +440,7 @@ True/False
 Option to show record checklist items.**Note:** Select **Show additional options** to see this field.
 
 </td></tr></tbody>
-</table>## Outputs
+</table>## AI Agents
 
-These outputs can provide data to other activities in your playbook. You can access this data as activity inputs when you configure your activity:
-
-|Output|Type|Description|
-|------|----|-----------|
-|Table|Table Name|Name of the table associated with the activity.|
-|Record|Reference.Task\[task\]|Reference to the record associated with the activity.|
+You can add AI agents to this activity and configure the agents to perform tasks within this activity. To learn about how to configure AI agents for the activity, see [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/configure-agentic-playbooks.md).
 

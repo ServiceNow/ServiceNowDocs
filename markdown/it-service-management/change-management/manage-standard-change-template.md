@@ -26,7 +26,7 @@ Role required: admin, change\_manager, sn\_change\_write, or itil
 
 2.  Select the template that you want to modify or retire, and then do one of the following.
 
-<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d190454e75">
+<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d191126e77">
 
 **Modify a standard change template**
 
@@ -38,7 +38,7 @@ Role required: admin, change\_manager, sn\_change\_write, or itil
 
  **Important:** You can change fields such as **Assignment group** and **Assigned to** on the template. The updated values apply only to change requests created after the new template version is approved. For more information about configuring default and copied field values, see [Configure standard change catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ConfigureTheStandardChangeCatalog.md).
 
-</td></tr><tr><td id="d190454e127">
+</td></tr><tr><td id="d191126e129">
 
 **Retire a standard change template**
 

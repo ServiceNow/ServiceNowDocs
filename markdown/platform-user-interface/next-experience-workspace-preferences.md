@@ -25,6 +25,8 @@ Role required: none
 
 1.  Navigate to **User Menu** &gt; **Preferences** &gt; **Workspace**.
 
+    \[Omitted image "next-exp-coral-user-menu-pref.png"\] Alt text: User menu with Preferences selected.
+
 2.  Select the toggle next to each option to turn the preference on or off.
 
     |Field|Description|

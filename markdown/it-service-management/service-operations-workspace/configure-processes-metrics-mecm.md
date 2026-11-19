@@ -28,7 +28,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 ## Procedure
 
-1.  Open the Microsoft Endpoint Configuration Manager.
+1.  Open the Microsoft Endpoint Configuration Manager \(MECM\).
 
 2.  Create a MECM script with the name `GetProcess`.
 

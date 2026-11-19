@@ -22,6 +22,8 @@ Role required: sn\_grc.user
 
 ## About this task
 
+The Assess action on a risk works only for risk assessment methodologies that don't require a target assessment. For a methodology that requires a target assessment, a banner directs you to the Risk Workspace, where the assessment is performed.
+
 Risk assessments do not appear in the **Self-Service** &gt; **My assessments &amp; surveys** module, because hundreds of GRC assessment records could be generated at once. Instead, risk assessments are shown in a separate list view.
 
 ## Procedure
@@ -30,7 +32,7 @@ Risk assessments do not appear in the **Self-Service** &gt; **My assessments &am
 
 2.  Open the assessment and review the details.
 
-<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d442069e108">
+<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d442606e113">
 
 **If you are unable to answer the questions**
 
@@ -42,7 +44,7 @@ Risk assessments do not appear in the **Self-Service** &gt; **My assessments &am
 
  The list of assessments refreshes when you reassign an assessment to another user.
 
-</td></tr><tr><td id="d442069e141">
+</td></tr><tr><td id="d442606e146">
 
 **If you are able to answer the questions**
 

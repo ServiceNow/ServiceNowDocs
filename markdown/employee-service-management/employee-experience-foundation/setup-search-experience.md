@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-10-22"
 reading_time_minutes: 1
-breadcrumb: [Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configuring Employee Center, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Setup Employee Center search experience features

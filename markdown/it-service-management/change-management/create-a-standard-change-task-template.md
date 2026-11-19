@@ -1,6 +1,6 @@
 ---
 title: Create a standard change task template
-description: You can create a change task template to add to a standard change proposal. If the standard change proposal is approved, the related change tasks are created when the standard change request is created.
+description: Create a change task template to add to a standard change proposal. If the standard change proposal is approved, the related change tasks are created when the standard change request is created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-a-standard-change-task-template.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Standard change catalog, Configure, Change Management, IT Service M
 
 # Create a standard change task template
 
-You can create a change task template to add to a standard change proposal. If the standard change proposal is approved, the related change tasks are created when the standard change request is created.
+Create a change task template to add to a standard change proposal. If the standard change proposal is approved, the related change tasks are created when the standard change request is created.
 
 ## Before you begin
 

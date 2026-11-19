@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-servicenowottoforsoftwareassetmanagementsam-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
-reading_time_minutes: 6
+last_updated: "2026-11-19"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -70,9 +70,19 @@ Australia
 
 </td><td>
 
--   **[Analyze software spend transactions with AI in the Software Asset Workspace](https://www.servicenow.com/docs/access?context=spend-detection-ai-enhancements&family=australia&ft:locale=en-US)**
+-   **[Resolve entitlement import errors by using ServiceNow Otto for Software Asset Management \(SAM\)](https://www.servicenow.com/docs/access?context=resolve-entitlement-import-error&family=australia&ft:locale=en-US)**
 
-Reduce manual software spend classification with AI-powered detection. The Software Asset Workspace now automatically identifies software purchases from imported transactions, extracts publisher and product details, and matches them to your Software Asset Management Content Library.
+Resolve unmatched publisher and product data that blocks bulk entitlement imports in Software Asset Workspace by using five new AI-powered skills that normalize publisher and product values:
+
+    -   Publisher Search Tags Generation
+    -   Product Search Tags Generation
+    -   Publisher Match Review
+    -   Product Match Review
+    -   Product Resolution
+
+ -   **[Evaluate software subscription removal candidates at integration profile and software model levels with the enhanced Evaluate Software Reclamation AI Agent](https://www.servicenow.com/docs/access?context=now-assist-sam-evaluate-removal-candidate-workflow&family=australia&ft:locale=en-US)**
+
+Launch the Evaluate Software Reclamation AI Agent directly from the **Reclamation** tab of the License usage view in the Software Asset Workspace. The AI agent enables you to evaluate software subscription removal candidates at both the integration profile and software model levels, using reclamation summary data, without leaving your workflow.
 
 
  -   **[Benefit with an integrated troubleshooting experience for SaaS applications with the ability to resolve common issues](https://www.servicenow.com/docs/access?context=troubleshooting-saas-now-assist-sam&family=australia&ft:locale=en-US)**
@@ -86,19 +96,20 @@ Brazil
 
 </td><td>
 
--   **[Analyze software spend transactions with AI in the Software Asset Workspace](https://www.servicenow.com/docs/access?context=spend-detection-ai-enhancements&family=brazil&ft:locale=en-US)**
-
-Reduce manual software spend classification with AI-powered detection. The Software Asset Workspace now automatically identifies software purchases from imported transactions, extracts publisher and product details, and matches them to your Software Asset Management Content Library.
-
 -   **[Resolve entitlement import errors by using ServiceNow Otto for Software Asset Management \(SAM\)](https://www.servicenow.com/docs/access?context=resolve-entitlement-import-error&family=brazil&ft:locale=en-US)**
 
-Resolve unmatched publisher and product data that blocks bulk entitlement imports in the Software Asset Workspace using the 5 new AI-powered skills that normalize publisher and product values:
+Resolve unmatched publisher and product data that blocks bulk entitlement imports in Software Asset Workspace by using five new AI-powered skills that normalize publisher and product values:
 
     -   Publisher Search Tags Generation
     -   Product Search Tags Generation
     -   Publisher Match Review
     -   Product Match Review
     -   Product Resolution
+
+ -   **[Evaluate software subscription removal candidates at integration profile and software model levels with the enhanced Evaluate Software Reclamation AI Agent](https://www.servicenow.com/docs/access?context=now-assist-sam-evaluate-removal-candidate-workflow&family=brazil&ft:locale=en-US)**
+
+Launch the Evaluate Software Reclamation AI Agent directly from the **Reclamation** tab of the License usage view in the Software Asset Workspace. The AI agent enables you to evaluate software subscription removal candidates at both the integration profile and software model levels, using reclamation summary data, without leaving your workflow.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -119,12 +130,7 @@ Australia
 
 </td><td>
 
--   **[Software Spend Detection Core UI](https://www.servicenow.com/docs/access?context=spend-detection-sam-workspace&family=australia&ft:locale=en-US)**
-
-The Software Spend Detection feature is no longer available in the Core UI. Software Spend Detection is now accessible from the Software Asset Workspace under License operations. Existing imports and spend transactions created in the Core UI are now accessible from the Software Asset Workspace.
-
-
- -   **[Troubleshoot button alongside the error message on the Integration profile form](https://www.servicenow.com/docs/access?context=troubleshooting-saas-now-assist-sam&family=australia&ft:locale=en-US)**
+-   **[Troubleshoot button alongside the error message on the Integration profile form](https://www.servicenow.com/docs/access?context=troubleshooting-saas-now-assist-sam&family=australia&ft:locale=en-US)**
 
 The **Troubleshoot** button is available for all SaaS integrations on the error message that is displayed when connection validation fails due to an error. When selected, the button triggers the generation of error summary and resolution guidance.
 
@@ -135,10 +141,7 @@ Brazil
 
 </td><td>
 
--   **[Software Spend Detection Core UI](https://www.servicenow.com/docs/access?context=spend-detection-sam-workspace&family=brazil&ft:locale=en-US)**
-
-The Software Spend Detection feature is no longer available in the Core UI. Software Spend Detection is now accessible from the Software Asset Workspace under License operations. Existing imports and spend transactions created in the Core UI are now accessible from the Software Asset Workspace.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Removed
@@ -188,7 +191,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Now LLM Service**
+
+Starting with the October 2026 release, Gemma 4 26B A4B IT and Gemini 3.5 flash models joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
@@ -196,7 +202,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Now LLM Service**
+
+Starting with the October 2026 release, Gemma 4 26B A4B IT and Gemini 3.5 flash models joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -219,12 +228,12 @@ Australia
 
 -   **Activation information**
 
-Install ServiceNow Otto for Software Asset Management \(SAM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install ServiceNow Otto for Software Asset Management \(SAM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 -   **Activation information**
 
-Install Now Assist for SAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Now Assist for SAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Now Assist for SAM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -237,7 +246,7 @@ Brazil
 
 -   **Activation information**
 
-Install ServiceNow Otto for Software Asset Management \(SAM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+Install ServiceNow Otto for Software Asset Management \(SAM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr></tbody>

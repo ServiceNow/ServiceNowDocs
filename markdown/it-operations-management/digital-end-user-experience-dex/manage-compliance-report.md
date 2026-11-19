@@ -33,15 +33,15 @@ Role required: admin
 
 4.  Select one or more of the following options to configure compliance monitoring for your organization's IT devices.
 
-<table id="choicetable_l2j_bvc_fdc"><thead><tr><th align="left" id="d345103e120">
+<table id="choicetable_l2j_bvc_fdc"><thead><tr><th align="left" id="d347756e122">
 
 Option
 
-</th><th align="left" id="d345103e123">
+</th><th align="left" id="d347756e125">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d345103e129">
+</th></tr></thead><tbody><tr><td id="d347756e131">
 
 **Manage compliance policy**
 
@@ -51,7 +51,7 @@ Steps
 2.  In the **Actions** drop-down list, select **Turn on monitoring**.
 
 
-</td></tr><tr><td id="d345103e153">
+</td></tr><tr><td id="d347756e155">
 
 **Manage applications**
 
@@ -61,7 +61,7 @@ Steps
 2.  In the **Actions** drop-down list, select **Turn on monitoring**.
  **Note:** To learn more about adding or editing an application to monitor, see [Add an application for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/add-new-application.md) or [Add web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/admin-new-app-form.md).
 
-</td></tr><tr><td id="d345103e194">
+</td></tr><tr><td id="d347756e196">
 
 **Manage metric rules**
 

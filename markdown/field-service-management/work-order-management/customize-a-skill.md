@@ -1,6 +1,6 @@
 ---
 title: Customizing a skill
-description: If you have the admin role, you can customize the ServiceNow Otto for FSM work order task summarization skill so that agents can use the generative AI skills in CSM/FSM Configurable Workspace and in Core UI.
+description: If you have the admin role, you can customize the ServiceNow Otto for FSM work order task summarization skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/customize-a-skill.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Set up work orders and tasks, Configure, Field Service M
 
 # Customizing a skill
 
-If you have the admin role, you can customize the ServiceNow Otto for FSM work order task summarization skill so that agents can use the generative AI skills in CSM/FSM Configurable Workspace and in Core UI.
+If you have the admin role, you can customize the ServiceNow Otto for FSM work order task summarization skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
 
 ## Configuration overview
 

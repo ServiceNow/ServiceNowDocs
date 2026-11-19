@@ -1,6 +1,6 @@
 ---
 title: Modify a change template
-description: Copy and modify change templates.
+description: Modify draft change templates, or copy proposed and published templates to modify them,
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/modify-or-retire-template.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Create and propose a change template, Create a Change model, Config
 
 # Modify a change template
 
-Copy and modify change templates.
+Modify draft change templates, or copy proposed and published templates to modify them,
 
 ## Before you begin
 
@@ -37,7 +37,7 @@ You can modify only templates in the Draft state. To modify templates that are i
 
 2.  Select the template you want to modify, copy, or retire.
 
-<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d129917e103">
+<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d130126e105">
 
 **Modify a change template**
 
@@ -47,7 +47,7 @@ Modify the information available in the template.**Note:** You can modify any fi
 
 You can modify only templates in the Draft state.
 
-</td></tr><tr><td id="d129917e116">
+</td></tr><tr><td id="d130126e118">
 
 **Copy a template**
 

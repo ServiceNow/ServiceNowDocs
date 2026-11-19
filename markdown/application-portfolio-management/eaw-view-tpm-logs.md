@@ -1,5 +1,5 @@
 ---
-title: View TPM logs
+title: View Technology Lifecycle Management logs
 description: Track the progress of Technology Lifecycle Management \(TLM\) analysis by examining the TPM Discovered Technology Run Logs \[sn\_apm\_tpm\_discovered\_technology\_run\_log\] table. Each time the analysis is run, an entry is added to this table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-view-tpm-logs.html
@@ -7,10 +7,11 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [TPM logs, TLM logs, Technology Lifecycle Management logs, Technology Portfolio Management logs, TPM Discovered Technology Run Logs, sn\_apm\_tpm\_discovered\_technology\_run\_log, TPM analysis, Enterprise Architecture Workspace, view logs, analysis run logs]
 breadcrumb: [Working with Technology Lifecycle Management \(TLM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# View TPM logs
+# View Technology Lifecycle Management logs
 
 Track the progress of Technology Lifecycle Management \(TLM\) analysis by examining the TPM Discovered Technology Run Logs \[sn\_apm\_tpm\_discovered\_technology\_run\_log\] table. Each time the analysis is run, an entry is added to this table.
 
@@ -32,7 +33,7 @@ Whether your instance displays TPM or TLM also depends on your application versi
 
 3.  Select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Logs**.
 
-4.  Select **TPM Logs**.
+4.  Select **TLM logs**.
 
 
 **Parent Topic:**[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-tpm.md)
@@ -44,7 +45,7 @@ Whether your instance displays TPM or TLM also depends on your application versi
 
 [Restart the Populate TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
 
-[Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/update-tpm-data.md)
+[Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/update-tpm-data.md)
 
 [View technology lifecycle details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-tech-lifecycle.md)
 
@@ -54,5 +55,5 @@ Whether your instance displays TPM or TLM also depends on your application versi
 
 [View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-audit-risk-details.md)
 
-[Update verification status of TPM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-update-verif-status.md)
+[Update verification status of TLM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-update-verif-status.md)
 

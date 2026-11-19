@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-10-20"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reference, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Analytics for external content connectors
@@ -141,12 +141,12 @@ Document crawls
 
 </td></tr><tr><td>
 
-User permission crawls
+User permissions crawls
 
 </td><td>
 
-**Dual score:**-   First value shows the number of successful user permission crawls run for the connector in the selected date range.
--   Second value shows the number of failed user permission crawls run for the connector in the selected date range.
+**Dual score:**-   First value shows the number of successful user permissions crawls run for the connector in the selected date range.
+-   Second value shows the number of failed user permissions crawls run for the connector in the selected date range.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/reference-ext-cont-connectors.md)

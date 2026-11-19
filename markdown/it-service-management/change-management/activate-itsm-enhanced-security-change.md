@@ -1,6 +1,6 @@
 ---
 title: Activate ITSM Enhanced Security Features for Change Management
-description: Prevent unauthorized access to change-related tables using deny-unless ACLs by activating the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin.
+description: Activate the ITSM Enhanced Security Features plugin to prevent unauthorized access to change-related tables with deny-unless ACLs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/activate-itsm-enhanced-security-change.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [ITSM Enhanced Security Features for Change Management, Reference, C
 
 # Activate ITSM Enhanced Security Features for Change Management
 
-Prevent unauthorized access to change-related tables using deny-unless ACLs by activating the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin.
+Activate the ITSM Enhanced Security Features plugin to prevent unauthorized access to change-related tables with deny-unless ACLs.
 
 ## Before you begin
 

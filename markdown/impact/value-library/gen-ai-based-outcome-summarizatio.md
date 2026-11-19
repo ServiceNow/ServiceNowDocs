@@ -9,7 +9,7 @@ classification: value-library
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Value Management, Impact reference, Impact]
+breadcrumb: [Value Management, Using Impact, Impact]
 ---
 
 # Summarize outcomes with ServiceNow Otto
@@ -28,15 +28,15 @@ Role required: Impact App Admin, Impact Platform Owner, or Impact Portfolio Owne
 
 2.  Select one of the following to open the desired outcomes page.
 
-<table id="choicetable_mq4_2zs_djc"><thead><tr><th align="left" id="d39689e92">
+<table id="choicetable_mq4_2zs_djc"><thead><tr><th align="left" id="d39484e92">
 
 Option
 
-</th><th align="left" id="d39689e95">
+</th><th align="left" id="d39484e95">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d39689e101">
+</th></tr></thead><tbody><tr><td id="d39484e101">
 
 **Outcomes Insights**
 
@@ -47,7 +47,7 @@ Action
 3.  In the Quick links section, select the **Outcome details page** link.
 
 
-</td></tr><tr><td id="d39689e131">
+</td></tr><tr><td id="d39484e131">
 
 **Objectives and Outcomes**
 

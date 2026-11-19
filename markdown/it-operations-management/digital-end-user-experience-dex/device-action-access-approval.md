@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [device action approval, approval control, sensitive device actions, catalog items, acc service account, device action limits]
 breadcrumb: [Device actions, Configuring DEX Self-service, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

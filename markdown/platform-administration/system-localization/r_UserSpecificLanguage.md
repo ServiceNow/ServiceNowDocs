@@ -9,7 +9,7 @@ classification: system-localization
 topic_type: reference
 last_updated: "2026-10-20"
 reading_time_minutes: 1
-breadcrumb: [Exploring System Localization, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Exploring System Localization, System Localization, Translation and localization, Configure core features, ServiceNow AI Platform]
 ---
 
 # User specific language

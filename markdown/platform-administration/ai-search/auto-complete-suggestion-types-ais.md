@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Auto-complete suggestions, Search application configurations, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Auto-complete suggestions, Search application configurations, Configure, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # List of auto-complete suggestion types for AI Search applications

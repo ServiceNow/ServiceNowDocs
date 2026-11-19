@@ -24,9 +24,9 @@ To set up the HR Service Delivery Integration with Cornerstone OnDemand applicat
 
 ## Using Enterprise Service Management Integrations Framework
 
-Enterprise Service Management Integrations Framework provides a consistent way of building integrations for common use cases such as pulling employee profile information, pulling to-dos, or pulling other data from third-party systems and storing it in ServiceNow instance. It contains common components, such as the Source table, HR Integration Services table, scheduled flows, and transform maps, that can be used for building integrations.
+Enterprise Service Management Integrations Framework provides a consistent way of building integrations for common use cases. They include pulling employee profile information, pulling to-dos, or pulling other data from third-party systems and storing it in ServiceNow instance. It contains common components, such as the Source table, HR Integration Services table, scheduled flows, and transform maps, that can be used for building integrations.
 
-By default, when the HR Service Delivery Integration with Cornerstone OnDemand application is set up, source, HR integration services, scheduled flows, and transform maps are automatically set up for the Cornerstone OnDemand system in Enterprise Service Management Integrations Framework. The schedule flows in Enterprise Service Management Integrations Framework interact with the Cornerstone OnDemand system to pull users, learning objects, and transcripts into ServiceNow.
+By default, when the HR Service Delivery Integration with Cornerstone OnDemand application sets up the source, HR integration services, scheduled flows, and transforms maps automatically. These are set up for the Cornerstone OnDemand system in Enterprise Service Management Integrations Framework. The schedule flows in Enterprise Service Management Integrations Framework interact with the Cornerstone OnDemand system to pull users, learning objects, and transcripts into ServiceNow.
 
 ## Assigning learning tasks to employees
 
@@ -34,7 +34,7 @@ When learning tasks are assigned to employees in the Cornerstone OnDemand system
 
 Enterprise Service Management Integrations Framework, using the Sync Transcripts service, pulls the transcripts from the Cornerstone OnDemand system and displays them as tasks in the To-dos page in Employee Center.
 
-On clicking the learning task in Employee Center, the employee is navigated to Cornerstone OnDemand system for completing the task. When the employee completes the task in Cornerstone OnDemand system, the status of task gets updated in Employee Center after the scheduled job is run for the Cornerstone OnDemand system.
+On clicking the learning task in Employee Center, the employee is redirected to Cornerstone OnDemand system to complete the task. When the employee completes the task, the status of task is updated in Employee Center after the scheduled job is run for the Cornerstone OnDemand system.
 
 ## Request apps on the Store
 

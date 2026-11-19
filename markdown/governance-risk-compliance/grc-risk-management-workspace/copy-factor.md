@@ -28,10 +28,16 @@ Role required: sn\_risk.admin
 
 3.  Click **Copy**.
 
+    The copy is created immediately as a Draft factor, with the same name and the copied choices. Rename the copy before you use it, since the name is the same as the original.
+
 
 ## Result
 
 A copy of the factor is created.
+
+## What to do next
+
+**Note:** A factor that is used by one risk assessment methodology \(RAM\) does not appear in the Collection list of other RAMs, so the factor cannot be reused from that list while it is in use.
 
 **Parent Topic:**[Perform Advanced Risk Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/use-advanced-risk-assessment.md)
 

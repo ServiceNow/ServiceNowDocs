@@ -62,7 +62,7 @@ Workplace entity
 
 </td><td>
 
-Workplace entity that the user must be allocated to.For more information about workplace entity, see [Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-entity.md).
+Workplace entity that the user must be allocated to.For more information about workplace entity, see [Configure Workplace entities and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-entity.md).
 
 </td></tr><tr><td>
 
@@ -109,8 +109,4 @@ Location privacy setting for the workplace profile. This field is automatically 
 [Workplace Task form - Space Assignment task]()
 
 [Neighborhood User Assignment Rule form]()
-
-[]()
-
-[]()
 

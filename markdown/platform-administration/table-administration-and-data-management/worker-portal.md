@@ -7,9 +7,9 @@ release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 7
-breadcrumb: [Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Time Sheet Portal

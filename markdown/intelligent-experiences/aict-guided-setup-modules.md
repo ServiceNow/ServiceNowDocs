@@ -1,6 +1,6 @@
 ---
 title: Guided setup areas
-description: Area-by-area listing of the setup items in guided setup, with cross-references to the topic each item relates to.
+description: Area-by-area listing of the setup items in Super Intelligence Control Tower guided setup, with cross-references to the topic each item relates to.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-guided-setup-modules.html
 release: brazil
@@ -8,18 +8,18 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Guided setup, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Guided setup, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Guided setup areas
 
-Area-by-area listing of the setup items in guided setup, with cross-references to the topic each item relates to.
+Area-by-area listing of the setup items in Super Intelligence Control Tower guided setup, with cross-references to the topic each item relates to.
 
 Guided setup groups setup items into the areas listed in this topic. The order of areas and items shown here matches the order in which guided setup displays them.
 
 ## Users and roles
 
-Assign users to the groups that grant access to AI Control Tower.
+Assign users to the groups that grant access to Control Tower.
 
 |Setup area|Setup item|Description|
 |----------|----------|-----------|
@@ -31,7 +31,7 @@ Bring ServiceNow and external AI assets into your inventory, and decide which as
 
 |Setup area|Setup item|Description|
 |----------|----------|-----------|
-|AI asset inventory|Manage ServiceNow AI assets|Review AI systems, models, prompts, and datasets that AI Control Tower discovers automatically, and mark them as managed to bring them into governance, monitoring, and value workflows. For more information, see [Managing your AI asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-ai-asset-inventory.md).|
+|AI asset inventory|Manage ServiceNow AI assets|Review AI systems, models, prompts, and datasets that Control Tower discovers automatically, and mark them as managed to bring them into governance, monitoring, and value workflows. For more information, see [Managing your AI asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-ai-asset-inventory.md).|
 |Discover external AI assets|Configure external connectors|Connect to cloud hyperscalers or SaaS applications to discover AI assets automatically and bring them into your inventory. For more information, see [Configuring connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-connectors.md).|
 |Discover external AI assets|Set up traces|Connect to AWS, Microsoft Azure, or Google Cloud to collect trace data, discover AI agents running on those platforms, and generate evaluation and security metrics. For more information, see [Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-trace-connections.md).|
 |Discover external AI assets|Add assets manually|Register an AI system, AI model, prompt, dataset, or MCP server that isn't reachable through a connector or trace. For more information, see [Creating AI assets manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/creating-ai-assets-newexperience.md).|
@@ -49,7 +49,7 @@ Configure the templates and cost inputs used to calculate the value your AI asse
 
 ## ServiceNow AI settings
 
-Configure data sharing, deployment approval, and AI model provider settings that apply across your instance, not just AI Control Tower.
+Configure data sharing, deployment approval, and AI model provider settings that apply across your instance, not just Control Tower.
 
 |Setup area|Setup item|Description|
 |----------|----------|-----------|

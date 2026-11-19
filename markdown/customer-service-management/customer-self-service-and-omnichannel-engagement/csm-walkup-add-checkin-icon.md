@@ -1,6 +1,6 @@
 ---
-title: Add a Walk-up Experience online check-in link on the Service Portal home page
-description: Configure a Walk-up Experience link to enable guest users to check in online to a walk-up location via Service Portal.
+title: Add a walk-up link to the Service Portal home page
+description: Add a link on the Service Portal home page so guest users can check in online to a walk-up location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-add-checkin-icon.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [System properties for configuring Walk-up Experience for guest users, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
-# Add a Walk-up Experience online check-in link on the Service Portal home page
+# Add a walk-up link to the Service Portal home page
 
-Configure a Walk-up Experience link to enable guest users to check in online to a walk-up location via Service Portal.
+Add a link on the Service Portal home page so guest users can check in online to a walk-up location.
 
 ## Before you begin
 
@@ -32,7 +32,9 @@ Service Portal for Enterprise Service Management \(com.glide.service-portal.esm\
 
 4.  Scroll down and select the **Open in Designer** related link.
 
-5.  Select the **Walk-up Check-In** widget from the **Widgets** list in the left pane and drag it to the desired location on the Customer Service Portal page where you want the link to appear.
+5.  From the **Widgets** list, select the **Walk-up Check-In** widget.
+
+6.  Drag the widget to the location on the Customer Service Portal page where you want the link to appear.
 
 
 **Related topics**  

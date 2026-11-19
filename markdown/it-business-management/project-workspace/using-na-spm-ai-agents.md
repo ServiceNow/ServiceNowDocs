@@ -75,7 +75,9 @@ Use the Monitor project tasks agentic workflow to autonomously generate a projec
 **Related topics**  
 
 
-[bundle-platai.ai-agent-studio]
+[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-studio.md)
+
+[Configure AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-ai-agents.md)
 
 [Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configure-agents-project-task-monitoring.md)
 

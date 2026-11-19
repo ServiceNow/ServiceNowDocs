@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Configure, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Form administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configuring the form layout
@@ -291,7 +291,7 @@ You can configure this indicator to appear for all or for specific administrator
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_o2r_v2r_3r"><tbody><tr><td id="d346937e1212">
+<table id="choicetable_o2r_v2r_3r"><tbody><tr><td id="d346862e1235">
 
 **Enable the indicator for all administrators**
 
@@ -299,7 +299,7 @@ You can configure this indicator to appear for all or for specific administrator
 
 Set the **owned\_by\_indicator.form** preference to **true**.
 
-</td></tr><tr><td id="d346937e1227">
+</td></tr><tr><td id="d346862e1250">
 
 **Enable the indicator for an individual administrator**
 

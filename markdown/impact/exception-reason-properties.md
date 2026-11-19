@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/exception-reason-properties.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-28"
-reading_time_minutes: 3
-breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
+last_updated: "2026-11-03"
+reading_time_minutes: 4
+breadcrumb: [Configure Scan Engine properties, Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure exception reason properties
@@ -81,7 +81,7 @@ Enable approvals in production \(**enable\_exception\_reason\_approvals\_in\_pro
 -   When disabled, exceptions can only be approved in the instances in which they are raised.
 -   Select this setting on each non-production instance where you want exceptions approved in production.
     -   The setting is read-only on production and doesn't sync between instances.
-    -   It is available after the instance is registered in My SN Instances. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
+    -   It is available after the instance is registered in My SN Instances. See [Register your instance in My SN Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
 
 
 </td><td>
@@ -126,8 +126,8 @@ Determines how an existing approved exception reason is handled when the same is
 
 </td><td>
 
--   **Auto Accept Existing Reason**: The existing approved reason carries forward automatically, and no re-approval is required.
--   **Re-approve Existing Reason**: The existing reason is suspended and must be re-reviewed before it takes effect again.
+-   **Auto Accept Existing Reason**: By default, the existing approved reason carries forward automatically, and no re-approval is required.
+-   **Re-approve Existing Reason**: The exception returns to the Requested state and must be re-approved before it takes effect again.
 
 
 </td></tr><tr><td>
@@ -141,7 +141,7 @@ Determines how an approved exception reason is handled when the finding's line n
 </td><td>
 
 -   **Auto Accept Existing Reason** \(default\): The exception reason stays approved even if the line number shifts. Use this when minor code movement is expected.
--   **Re-approve Existing Reason**: Any line number change requires re-review. Use this when line position is meaningful to the exception context.
+-   **Re-approve Existing Reason**: Any line number change returns the exception to the Requested state for re-approval. Use this when line position is meaningful to the exception context.
 
 
 </td></tr></tbody>

@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Data Management, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Data Management reference

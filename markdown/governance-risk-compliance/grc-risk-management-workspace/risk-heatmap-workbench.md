@@ -8,7 +8,7 @@ product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Analytics and reporting solutions for Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
 

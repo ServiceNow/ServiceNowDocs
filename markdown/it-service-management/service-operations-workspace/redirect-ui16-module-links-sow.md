@@ -39,7 +39,7 @@ Role required: sn\_exp\_redirect.sn\_redirect\_config\_admin
 3.  Configure any of the following options:
 
     -   **Global configuration for all users redirection**: Enables the classic UI16 module links including forms and lists across all applications, all users, and user groups to be redirected to the corresponding SOW experience, replacing the standard UI16 form, list, or page with its equivalent.
-    -   **Custom configuration**: Enables you to configure the redirection of classic UI16 module links to the equivalent SOW experience at both the application or record level and the user group level. You can enable the redirection of classic UI16 module links for a custom table or specific application such as On-Call Scheduling or Incident Management. For each custom table or application in SOW, you can enable the redirection behavior for a selected user groups or all user groups. The following records or application are supported:
+    -   **Custom configuration**: Enables you to configure the redirection of classic UI16 module links to the equivalent SOW experience at both the application or record level and the user group level. You can enable the redirection of classic UI16 module links for a custom table or specific application such as On-Call Scheduling or Incident Management. For each custom table or application in SOW, you can enable the redirection behavior for selected user groups or all user groups. The following records or applications are supported:
         -   Incident Management
         -   On-Call Schedule \(On-Call Scheduling\)
         -   Problem Management
@@ -51,11 +51,11 @@ Role required: sn\_exp\_redirect.sn\_redirect\_config\_admin
 
 ## What to do next
 
-Apart from the above admin configuration, the UI16 module must support the link redirect configuration. To verify, select the **Edit Module** option on the UI16 module and ensure the following:
+Apart from the preceding admin configuration, the UI16 module must support the link redirect configuration. To verify, select the **Edit Module** option on the UI16 module and ensure the following:
 
 -   The **Link Type** field is set to `URL`.
 -   The **Argument** field must reference the Redirect Handler Endpoint \(sn\_exp\_redirect\_redirect\_handler.do\).
--   The required query parameters has the following format:
+-   The required query parameters have the following format:
     -   coreui: URL for Classic UI \(Core UI\). For example, `incident.do%3Fsysparm_query%3D...`
     -   uib: URL for the UIB \(SOW experience\)
     -   type: Identifier of the module type

@@ -26,10 +26,10 @@ You must ensure that the following requirements are met:
 -   Install and configure Microsoft Endpoint Configuration Manager Spoke \(sn\_ms\_epcfgmgr\_spk\) application. For more information, see [Microsoft Endpoint Configuration Manager spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/ms-endpoint.md) and [Service Graph Connector for Microsoft SCCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_MicrosoftSCCMIntegration.md).
 -   Install the Microsoft Endpoint Configuration Manager for Investigation application.
 
-    For more information, see [Install Microsoft Endpoint Configuration Manager\(MECM\) for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/install-mecm-adapter.md).
+    For more information, see [Install Microsoft Endpoint Configuration Manager \(MECM\) for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/install-mecm-adapter.md).
 
 
--   **[Install Microsoft Endpoint Configuration Manager\(MECM\) for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/install-mecm-adapter.md)**  
+-   **[Install Microsoft Endpoint Configuration Manager \(MECM\) for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/install-mecm-adapter.md)**  
 You can install the Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
 -   **[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/config-ci-metrics-mecm-adapter.md)**  
 Configure the display of the metrics for Microsoft Endpoint Configuration Manager for Investigation.

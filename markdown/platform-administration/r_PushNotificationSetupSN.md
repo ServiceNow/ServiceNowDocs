@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Push notification setup with the ServiceNow mobile app

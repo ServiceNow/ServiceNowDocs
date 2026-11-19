@@ -24,11 +24,11 @@ Role required: admin
 
 To use the debug filter, add it to a dashboard. The debug filter is read-only and intended to aid in the design and implementation of custom interactive filters.
 
-\[Omitted image "Debug\_publisher\_plus.png"\] Alt text:
+\[Omitted image "Debug\_publisher\_plus.png"\] Alt text: Debug filter showing active filters
 
 ## Procedure
 
-1.  In the dashboard, click the Add widgets \(\[Omitted image "AddWidgetButton.png"\] Alt text:\) icon.
+1.  In the dashboard, click the Add widgets \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\) icon.
 
 2.  In the Add Widgets panel, select the widget category **Interactive Filters** and the widget **\{Debug\}**.
 

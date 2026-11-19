@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Fulfill In-store operations cases and tasks in Retail Mobile, Manage store plans, Retail]
+breadcrumb: [Fulfill In-store operations cases and tasks in Retail Mobile, Create and manage store plans, Retail]
 ---
 
 # Search for assigned cases and tasks using AI Search in Retail Mobile

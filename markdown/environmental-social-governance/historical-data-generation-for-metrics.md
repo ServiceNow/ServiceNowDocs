@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 3
 keywords: [historical data, historical start date, create historical data]
-breadcrumb: [Exploring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Exploring GRC: Metrics, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Historical data generation for metrics

@@ -48,8 +48,8 @@ Role required: sn\_fsm\_tp.fsm\_territory\_manager, wm\_manager, sn\_fsm\_capaci
     |Field|Description|
     |-----|-----------|
     |Name|Name of the schedule.|
-    |Relative start|Start date of the allocation schedule.|
-    |Relative end|End date of the allocation schedule.|
+    |Relative start|Number of days from today when the allocation schedule starts. Enter 0 to start today.|
+    |Relative end|Number of days from today when the allocation schedule ends. If no end day is specified, the schedule has no end date and applies to all days after the start day.|
     |% allocation|Percentage of capacity that should be allocated.|
 
     The capacity allocation schedule is created.

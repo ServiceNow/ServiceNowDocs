@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-aiagentstudio-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 42
 breadcrumb: [Products combined by family]
 ---
@@ -263,7 +263,7 @@ Runaway agent detection automatically disables an AI agent when the same record 
 
 Auto-migrate all the AI Agent Studio skills from on-glide execution path to the off-glide execution path.
 
--   **[\[Placeholder link text to key bundle-platai.aia-acl-configuration\]](https://www.servicenow.com/docs/access?context=aia-acl-configuration&family=zurich&ft:locale=en-US)**
+-   **[aia acl configuration](https://www.servicenow.com/docs/access?context=aia-acl-configuration&family=zurich&ft:locale=en-US)**
 
 Enforce deny-by-default access control for AI agentic record types \(`gen_ai_agent`, `gen_ai_workflow`, `gen_ai_skill`, `Flow`, `flow_action`\) for newly activated ServiceNow instances. In previous releases, these types defaulted to allow access.
 
@@ -1378,13 +1378,13 @@ Brazil
 
 </td><td>
 
-[\[Placeholder link text to key australia-patch-5\]](https://www.servicenow.com/docs/access?context=australia-patch-5&family=brazil&ft:locale=en-US)
+[australia patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=brazil&ft:locale=en-US)
 
 -   Redesigned AI Agent Studio with streamlined setup and evaluation processes for agentic AI assets.
 -   Custom headers in external agents configuration.
 -   AI specialist configuration and deployment to harness coordinated agentic AI that reasons and executes end-to-end work.
 
- [\[Placeholder link text to key australia-patch-3\]](https://www.servicenow.com/docs/access?context=australia-patch-3&family=brazil&ft:locale=en-US)
+ [australia patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=brazil&ft:locale=en-US)
 
 -   Add or remove AI agents or tools from the built-in AI agents.
 -   Detect and disable runaway AI agent triggers to prevent unintended consumption.
@@ -1392,11 +1392,11 @@ Brazil
 -   Enforce deny-by-default ACLs for new agentic ACL types.
 -   Enable AI Agent Studio skill migration to Mosaic.
 
- [\[Placeholder link text to key australia-patch-2\]](https://www.servicenow.com/docs/access?context=australia-patch-2&family=brazil&ft:locale=en-US)
+ [australia patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=brazil&ft:locale=en-US)
 
 -   Enable UI validation for agentic AI processes and generative AI skills.
 
- [\[Placeholder link text to key australia-patch-1\]](https://www.servicenow.com/docs/access?context=australia-patch-1&family=brazil&ft:locale=en-US)
+ [australia patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=brazil&ft:locale=en-US)
 
 -   Test an agentic solution in the playground in AI-native mode.
 -   Add widgets for tool outputs to provide an improved experience in AI-native mode.
@@ -1405,7 +1405,7 @@ Brazil
 
  See [AI Agent Studio \(legacy\)](https://www.servicenow.com/docs/access?context=na-ai-agents&family=brazil&ft:locale=en-US) for more information.
 
- For the Platform AI release notes, see [\[Placeholder link text to key now-assist-rn\]](https://www.servicenow.com/docs/access?context=now-assist-rn&family=brazil&ft:locale=en-US).
+ For the Platform AI release notes, see [now assist rn](https://www.servicenow.com/docs/access?context=now-assist-rn&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

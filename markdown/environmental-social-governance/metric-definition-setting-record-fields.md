@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate default values for CMD calculations, Reviewing calculation details with formula trees, Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Activate default values for CMD calculations, Reviewing calculation details with formula trees, Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Metric definition setting record fields

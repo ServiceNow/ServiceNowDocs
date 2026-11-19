@@ -1,6 +1,6 @@
 ---
-title: Overview tab in AI Control Tower
-description: Explore the overview tab in AI Control Tower and the widgets available on the tab.
+title: Overview tab in Control Tower
+description: Explore the overview tab in Control Tower and the widgets available on the tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/overview-tab-in-ai-control-tower.html
 release: brazil
@@ -9,12 +9,12 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control Tower Home, Control Tower dashboard, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Overview tab in AI Control Tower
+# Overview tab in Control Tower
 
-Explore the overview tab in AI Control Tower and the widgets available on the tab.
+Explore the overview tab in Control Tower and the widgets available on the tab.
 
 ## Overview dashboard
 
@@ -22,7 +22,7 @@ Explore the overview tab in AI Control Tower and the widgets available on the ta
 
 Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
-The **Overview** tab of the AI Control Tower dashboard provides a comprehensive view of all metrics of AI systems.
+The **Overview** tab of the Control Tower dashboard provides a comprehensive view of all metrics of AI systems.
 
 \[Omitted image "aict-overview.png"\] Alt text: Overview tab that displays all the metric types for AI systems.
 

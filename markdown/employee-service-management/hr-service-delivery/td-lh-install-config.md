@@ -23,7 +23,7 @@ Starting with the Brazil release, Leader Hub is being prepared for future deprec
 ## Installation and configuration overview
 
 -   **[Install the Leader Hub application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/td-lh-install.md)**  
-Install the Leader Hub application to equip your organizational and HR leaders with the necessary tools to cultivate growth, develop talent, and make critical decisions that guide their organization toward long-term prosperity. The Leader Hub app gives leaders access to data about their organization's talent from the Employee Center.
+Install the Leader Hub application to equip your organizational and HR leaders with the necessary tools. These tools cultivate growth, develop talent, and make critical decisions. Those decisions guide the organization toward long-term prosperity. The Leader Hub app gives leaders access to data about their organization's talent from the Employee Center.
 -   **[Configure metrics for employee engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/td-lh-configure-metrics.md)**  
 Use the Leader Hub Metric Configurations table to configure metrics for employee engagement with certain applications in the Talent Development suite. The configurable options are applicable to the metrics that appear in the Growth engagement widget and the employee cards on the Org talent page.
 -   **[Configure time range data in tenure widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/td-lh-configure-tenure-widgets.md)**  

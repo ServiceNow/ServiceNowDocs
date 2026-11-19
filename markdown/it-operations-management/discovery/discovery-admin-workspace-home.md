@@ -7,8 +7,8 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-11-06"
-reading_time_minutes: 4
+last_updated: "2026-11-19"
+reading_time_minutes: 5
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -22,6 +22,8 @@ To access the Discovery Admin Workspace, navigate to **Workspaces** &gt; **Disco
 **Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.17.0. If the **sn\_disco\_workspace.enable\_error\_framework** system property is turned off, the Home page displays the legacy experience. Specific version requirements are noted for individual features where applicable.
 
 \[Omitted image "daw-home-ef.png"\] Alt text: Discovery Admin Workspace Settings page
+
+Starting with v1.23.0, users with the discovery\_operator role can't access the Onboarding for Discovery, Discovery tuning advice, or Quick Discovery sections. In the ITOM Visibility apps section, these users can view installed apps but can't install apps. For more information, see [Discovery Operator role access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-discovery-operator-access.md).
 
 ## Onboarding for Discovery
 
@@ -91,5 +93,5 @@ Receive guidance on managing the Discovery process and resolving Discovery error
 **Important:**
 
 -   To view the resources in this section, confirm that you have installed ITOM Content Service version 1.2.8.
--   If you encounter an **Error 153: Video player configuration error** message when attempting to play a video on the **Videos** tab, update the system property **com.glide.security.referrerpolicy** to **origin-when-cross-origin**. For more information, see [Enforce secure referrer policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/sc-enforce-secure-referrer-policy.md).
+-   If you encounter an **Error 153: Video player configuration error** message when attempting to play a video on the **Videos** tab, update the system property **com.glide.security.referrerpolicy** to **origin-when-cross-origin**. For more information, see .
 

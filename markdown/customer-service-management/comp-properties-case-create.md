@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/com
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Web Embeddables component properties, Web Embeddables reference, Reference, Customer Service Management]
 ---
 

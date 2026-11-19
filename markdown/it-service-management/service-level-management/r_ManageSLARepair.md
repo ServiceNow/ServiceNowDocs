@@ -9,7 +9,7 @@ classification: service-level-management
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Repair Service Level Agreement \(SLA\), Using Service Level Management, Service Level Management, IT Service Management]
+breadcrumb: [Service Level Agreement \(SLA\) repair, Using Service Level Management, Service Level Management, IT Service Management]
 ---
 
 # Configure SLA repair
@@ -33,5 +33,5 @@ Navigate to **Service Level Management** &gt; **Repair Logs** to view repair log
 -   **All Repairs**: view all repairs.
 -   **Repair Entries**: view SLA Repair Log entries for all repairs that have run.
 
-**Parent Topic:**[Repair Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_RepairSLAs.md)
+**Parent Topic:**[Service Level Agreement \(SLA\) repair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_RepairSLAs.md)
 

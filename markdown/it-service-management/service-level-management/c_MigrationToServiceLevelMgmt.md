@@ -1,5 +1,5 @@
 ---
-title: Migrate to service level management
+title: Migration to service level management
 description: Migrate SLA processing from the escalations engine to use the service level management functionality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_MigrationToServiceLevelMgmt.html
@@ -12,15 +12,15 @@ reading_time_minutes: 1
 breadcrumb: [Service Level Management reference, Service Level Management, IT Service Management]
 ---
 
-# Migrate to service level management
+# Migration to service level management
 
 Migrate SLA processing from the escalations engine to use the service level management functionality.
 
-The two core differences between the old SLA engine and the new service level management plugin are that tasks can now run multiple SLAs simultaneously, and the escalation concept has been replaced with the more robust Workflow Editor. This allows administrators greater control on what actions, notifications, and events are triggered by tasks, to take into account more mature Service Level processes.
+The two core differences between the old SLA engine and the new service level management plugin are that tasks can run multiple SLAs simultaneously, and the escalation concept has been replaced with the more robust Workflow Editor. This gives administrators greater control over what actions, notifications, and events are triggered by tasks, to take into account more mature Service Level processes.
 
-If an instance has been using the original SLA engine and has just activated the Service Level Agreements \(SLA\) Plugin, the old SLAs will not work. For the old SLAs to work, they must be converted to the new SLA Definition records, which will attach the appropriate Task SLA records to the matching Task records. This is done manually by creating new SLA Definition records that reflect the definition of the old SLA. Old SLAs will continue to function, but any time a task is updated, the appropriate new Task SLAs will attach.
+If an instance has been using the original SLA engine and has just activated the Service Level Agreements \(SLA\) plugin, the old SLAs do not work. For the old SLAs to work, they must be converted to the new SLA Definition records, which attach the appropriate Task SLA records to the matching Task records. This is done manually by creating new SLA Definition records that reflect the definition of the old SLA. Old SLAs continue to function, but any time a task is updated, the appropriate new Task SLAs attach.
 
-Once new Task SLAs are implemented, they will attach themselves to any new or updated incident, including ones which already have old SLAs attached. If the new Task SLA is set to retroactively start, it will automatically calculate the duration from that point in the past, which means that the duration will still be accurate.
+After new Task SLAs are implemented, they attach themselves to any new or updated incident, including ones which already have old SLAs attached. If the new Task SLA is set to retroactively start, it automatically calculates the duration from that point in the past, which means that the duration is still accurate.
 
 When enabled, the property **Compute prior SLA pause time for new, retroactive SLAs \(2011 SLA engine only\)** calculates the pause time when a retroactive SLA is attached.
 

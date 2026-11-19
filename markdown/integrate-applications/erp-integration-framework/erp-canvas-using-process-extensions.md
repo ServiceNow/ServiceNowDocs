@@ -65,3 +65,5 @@ Before completing the procedure, it may be helpful to review the following pages
     For more information, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
 
 
+**Parent Topic:**[Accelerating SAP integrations with Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
+

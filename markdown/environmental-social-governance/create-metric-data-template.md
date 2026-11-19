@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Importing historical metric data, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Importing historical metric data, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Download a metric import template

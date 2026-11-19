@@ -24,7 +24,11 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
 ## Procedure
 
-1.  2.  3.  On the **Lists** tab, under **Build**, select **All Automation Requests**.
+1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation center Home**.
+
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
+
+3.  On the **Lists** tab, under **Build**, select **All Automation Requests**.
 
     **Note:** Ensure that the automation request is in In Progress state.
 

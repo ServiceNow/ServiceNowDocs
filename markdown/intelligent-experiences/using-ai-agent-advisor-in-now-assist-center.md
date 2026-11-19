@@ -60,7 +60,7 @@ Edit a custom AI agent that was created for an automation opportunity.
 **Related topics**  
 
 
-[AI Agent Advisor in AI Control Tower]()
+[AI Agent Advisor in Control Tower]()
 
 [AI Agent Advisor in AI Agent Studio]()
 

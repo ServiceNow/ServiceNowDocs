@@ -1,6 +1,6 @@
 ---
 title: DEX system requirements
-description: System requirements are the fundamental specifications and configuration needed to install and run DEX.
+description: System requirements are the fundamental specifications and configuration needed to install and run DEX effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/digital-end-user-experience-dex/dex-sys-requirements.html
 release: brazil
@@ -9,12 +9,13 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-10-22"
 reading_time_minutes: 1
+keywords: [dex requirements, supported operating systems, minimum version, browser extension requirements, supported browsers, supported acc versions, agent client collector framework, cpu consumption, cpu protection threshold, windows 11, macos, compatibility]
 breadcrumb: [Before you begin, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # DEX system requirements
 
-System requirements are the fundamental specifications and configuration needed to install and run DEX.
+System requirements are the fundamental specifications and configuration needed to install and run DEX effectively.
 
 Zurich Patch 1 is the minimum version required for Digital End-User Experience \(DEX\).
 

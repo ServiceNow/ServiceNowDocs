@@ -8,7 +8,7 @@ product: Work Order Management
 classification: work-order-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Recording time worked, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
@@ -22,9 +22,11 @@ Role required: wm\_agent
 
 ## About this task
 
-An agent can record time worked directly from a work order task by selecting **Record Time** from the Work Order Task form. An agent can record time regardless of the work order task state. An agent can also record time spent on other activities from the **Time Worked** list by creating a time worked record, recording the time, and selecting a category.
+An agent can record time worked directly from a work order task by selecting **Record Time** from the Work Order Task form. An agent can record time regardless of the work order task state. An agent can also record time spent on other activities from the **Time Worked** list by creating a time worked record, recording the time, and selecting a category. An agent can record, edit, and delete only the time worked entries that they created. Agent can't record time for other users. If a manager records time on agent's behalf, the entry appears as Logged by \[manager name\] for the agent. An administrator can also configure the system to create time worked records automatically as you work on a task. For more information, see [Recording the time worked on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/Recording-time-spent-on-work-order-tasks.md).
 
 **Note:** If multiple rate cards are enabled, agents can also select rate types when creating time worked entries.
+
+Y
 
 A time card is created for each category type and work order task. The total hours recorded on each time card are then recorded on the current time sheet in the **Time Cards** related list.
 

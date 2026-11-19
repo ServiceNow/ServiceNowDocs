@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Explore, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Search result disparities between AI Search and ServiceNow Otto search features
@@ -84,7 +84,7 @@ The following table summarizes some of the key differences between AI Search, Se
 
 [Hybrid search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/hybrid-search-ais.md)
 
-[Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md)
+[ServiceNow Otto Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md)
 
 [Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-qna-genius-results.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ba-update-sets.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-09"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
@@ -23,7 +23,7 @@ For general information about update sets on the ServiceNow AI Platform, see [Sy
 
 ## How Build Agent tracks changes
 
-Build Agent automatically captures changes in a unified update set as you work. Manual edits you make in the ServiceNow Studio editor and automatic edits made by Build Agent within the same work session are bundled into a single update set. The consolidated update set merges all the update sets created for previous agentic and manual development into a single update set for ease of deployment. The consolidation occurs after you tell Build Agent that you're done working on a task and no longer require rollback.
+Build Agent automatically captures the changes that it makes in an update set as you work. Changes that you make by hand, such as manual edits in the ServiceNow Studio editor, aren't automatically included in that update set. To deploy those changes, add them to the update set yourself or move them separately.
 
 Build Agent automatically captures changes to the app and metadata that you're working on.
 

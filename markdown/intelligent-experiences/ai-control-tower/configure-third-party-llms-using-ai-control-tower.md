@@ -1,6 +1,6 @@
 ---
-title: Configure third-party LLMs using AI Control Tower
-description: Use the AI Control Tower to configure third-party LLMs based on the data routing configuration for the APJC region.
+title: Configure third-party LLMs using Control Tower
+description: Use the Control Tower to configure third-party LLMs based on the data routing configuration for the APJC region.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.html
 release: brazil
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configuring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Configure third-party LLMs using AI Control Tower
+# Configure third-party LLMs using Control Tower
 
-Use the AI Control Tower to configure third-party LLMs based on the data routing configuration for the APJC region.
+Use the Control Tower to configure third-party LLMs based on the data routing configuration for the APJC region.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Configurations** &gt; **Controls** &gt; **AI model providers**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Configurations** &gt; **Controls** &gt; **AI model providers**.
 
 2.  Select **Edit**.
 

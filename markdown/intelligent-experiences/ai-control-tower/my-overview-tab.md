@@ -1,6 +1,6 @@
 ---
-title: My overview tab in AI Control Tower
-description: The My overview tab in the AI Control Tower home page displays all active assets to the asset owner and the AI stewards for assets that they manage or own.
+title: My overview tab in Control Tower
+description: The My overview tab in the Home page displays all active assets to the asset owner and the AI stewards for assets that they manage or own.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/my-overview-tab.html
 release: brazil
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Product Owner portal, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Product Owner portal, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# My overview tab in AI Control Tower
+# My overview tab in Control Tower
 
-The **My overview** tab in the AI Control Tower home page displays all active assets to the asset owner and the AI stewards for assets that they manage or own.
+The **My overview** tab in the Home page displays all active assets to the asset owner and the AI stewards for assets that they manage or own.
 
 ## Explore My overview tab
 

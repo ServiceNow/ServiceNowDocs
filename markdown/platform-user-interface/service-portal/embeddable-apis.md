@@ -23,11 +23,11 @@ The `spEmbeddables` service is the entry point for all embeddable interactions. 
 
 ## API details
 
-<table id="simpletable_k2x_qft_rkc"><thead><tr><th align="left" id="d133470e80">
+<table id="simpletable_k2x_qft_rkc"><thead><tr><th align="left" id="d133474e80">
 
 API
 
-</th><th align="left" id="d133470e83">
+</th><th align="left" id="d133474e83">
 
 Description and example
 

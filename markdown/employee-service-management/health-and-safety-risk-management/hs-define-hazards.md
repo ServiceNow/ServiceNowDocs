@@ -7,7 +7,7 @@ release: brazil
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configure, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -54,7 +54,6 @@ Review and update your hazard list regularly to verify its continued effectivene
 -   The hazard is listed in the **Hazards** list under **Configuration** and is saved in the Hazard \[sn\_hs\_rm\_hazard\] table.
 -   The hazard is available to select in the following fields:
     -   **Hazard** field on the Hazard and controls form when defining a job in the job register.
-    -   **Add hazards** window on a JSA form.
     -   **Hazard being assessed** field on the Hazard assessment form when conducting a risk assessment.
 
 **Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)

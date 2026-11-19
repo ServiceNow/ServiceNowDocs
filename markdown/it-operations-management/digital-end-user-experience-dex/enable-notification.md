@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [desktop assistant notifications, turn on notifications, turn off notifications, notification bell icon, notifications enabled]
 breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [application and device health \(adh\), adh ui log, ui log table, application health usage, device health usage, usage logs]
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up a test group, Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Set up test group, Set up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Create a test group
@@ -16,7 +16,7 @@ Create a test group to group related service tests, such as speed and ping tests
 
 ## Before you begin
 
-To create an automated test group, create the flow that the test group runs. For more details, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md) and [Service Test Management automation framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/stm-automation-framework.md).
+To create an automated test group, create the flow that the test group runs. For more details, see  and [Service Test Management automation framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/stm-automation-framework.md).
 
 Create the test definitions that you want to add to the test group. A test definition must be in the Draft or Published state. For more details, see [Create a test definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/create-test-specification.md).
 

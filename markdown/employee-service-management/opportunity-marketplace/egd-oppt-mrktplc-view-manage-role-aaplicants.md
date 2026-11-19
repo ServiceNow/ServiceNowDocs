@@ -40,7 +40,7 @@ Description
 
 </td><td>
 
-The names of the applicants links to their **Employee Profile**, see .
+The names of the applicants links to their **Employee Profile**.
 
 </td></tr><tr><td>
 

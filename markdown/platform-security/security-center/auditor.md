@@ -1,6 +1,6 @@
 ---
 title: Auditor checks
-description: Use the Auditor suite to SecureCheck to detect misconfiguration that can impact the security posture of your instance.
+description: Auditor suite checks in SecureCheck detect misconfigurations that can impact the security posture of your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/auditor.html
 release: brazil
@@ -14,13 +14,13 @@ breadcrumb: [Scan suites, Security scanner, Security configuration console, Secu
 
 # Auditor checks
 
-Use the Auditor suite to SecureCheck to detect misconfiguration that can impact the security posture of your instance.
+Auditor suite checks in SecureCheck detect misconfigurations that can impact the security posture of your instance.
 
 ## Check information
 
 <table id="table_ez5_r21_qcc"><thead><tr><th>
 
-Check Name
+Check name
 
 </th><th>
 
@@ -50,7 +50,7 @@ Insecure GlideRecord calls
 
 </td><td>
 
-Identifies scripts that are directly invokable by end users \(such as Client-Callable Script Includes, Widgets, Processors, REST Endpoints\)
+Identifies scripts that are directly invokable by end users \(such as client-callable script includes, widgets, processors, REST endpoints\)
 
  These scripts should respect ACLs and use GlideRecordSecure or GlideRecord with canRead, canWrite, canCreate, canDelete.
 
@@ -66,9 +66,9 @@ Review allowed JavaScript libraries
 
 Identifies scripts where JavaScript Content Access Control is used to allow or deny specific third-party JavaScript libraries.
 
- Review instance customizations to verify that libraries aren’t in use before blocking access. The JavaScript Content provider Access Tracking \[sys\_js\_content\_provider\_access\_tracking\] table can be reviewed to see the last date that the library was accessed.
+ Review instance customizations to verify that libraries aren’t in use before blocking access. Review the JavaScript Content provider Access Tracking \[sys\_js\_content\_provider\_access\_tracking\] table to see the last date that the library was accessed.
 
- **Note:** This check can be ignored in instances initially provisioned on Tokyo or later. Records on the associated table have deny rules set by default. In instances initially provisioned prior to Tokyo, there may be allow rules in the JavaScript Access Control tables.
+ **Note:** You can ignore this check in instances initially provisioned starting with the Tokyo release. Records on the associated table have deny rules set by default. In instances initially provisioned before Tokyo, there may be allow rules in the JavaScript Access Control tables.
 
 </td><td>
 
@@ -94,7 +94,7 @@ Review custom tables with record producers and no business rule
 
 </td><td>
 
-Identifies record producers that don’t have additional server-side validation. This check identifies custom tables with a Record Producer but without an associated business rule.
+Identifies record producers that don’t have additional server-side validation. This check identifies custom tables with a record producer but without an associated business rule.
 
  These may enable users to submit unexpected data into the associated table.
 
@@ -108,9 +108,9 @@ Review empty ACLs
 
 </td><td>
 
-Identifies ACL records which have no script, condition, security attribute, or role, or ACLs with the **public** role.
+Identifies ACL records which have no script, condition, security attribute, or role, or ACLs with the public role.
 
- Leaving ACLs empty or using the **public** role provides open access to any content protected by this ACL.
+ Leaving ACLs empty or using the public role provides open access to any content protected by this ACL.
 
 </td><td>
 
@@ -138,7 +138,7 @@ Review inactive security feature plugins
 
 Identifies plugins that aren’t activated that provide additional, configurable security controls. The findings produced by this check are provided for informational purposes.
 
- Before enabling one of the identified plugins, verify that the plugin meets your use cases or requirements. You can mute these findings if you don't have a use case for the identified.
+ Before activating one of the identified plugins, verify that the plugin meets your use cases or requirements. You can mute these findings if you don't have a use case for the identified.
 
 </td><td>
 
@@ -150,13 +150,13 @@ Review large allowed IP address ranges
 
 </td><td>
 
-Identifies IP Address Access Control Ranges that contain a large number of IP Addresses.
+Identifies IP Address Access Control Ranges that contain many IP addresses.
 
  **Note:**
 
-If you’re seeing a large number of false positives, consider adjusting the largestExpectedCIDRBlock variable for your specific business needs.
+If you’re seeing many false positives, consider adjusting the *largestExpectedCIDRBlock* variable for your specific business needs.
 
-Classless Inter-Domain Routing \(CIDR\) blocks contain a larger amount of IP addresses as the number decreases. For example, the CIDR block size 8 is larger \(contains more IP addresses\) than the CIDR block size 16.
+Classless inter-domain routing \(CIDR\) blocks contain a larger amount of IP addresses as the number decreases. For example, the CIDR block size 8 is larger \(contains more IP addresses\) than the CIDR block size 16.
 
  Review and confirm that the current configuration aligns with your business needs.
 
@@ -184,7 +184,7 @@ Review public knowledge base articles
 
 </td><td>
 
-Identifies knowledge bases and knowledge base Articles configured to enable access to unauthenticated users.
+Identifies knowledge bases and knowledge base articles configured to enable access to unauthenticated users.
 
  Review and confirm that the current configuration aligns with your business needs.
 
@@ -198,7 +198,7 @@ Review public REST API endpoints
 
 </td><td>
 
-Identifies Rest API Endpoints in the Scripted REST Resource \[sys\_ws\_operation\] table that are configured to be available without authentication.
+Identifies REST API endpoints in the Scripted REST Resource \[sys\_ws\_operation\] table that are configured to be available without authentication.
 
  Depending on the endpoint's functionality, this may allow unauthenticated users to perform unexpected actions or interact with unexpected data.
 
@@ -212,7 +212,7 @@ Review public Service Portal pages
 
 </td><td>
 
-Identifies Service Portal pages that are made public. Service Portal pages are made available to unauthenticated users by setting the "public" field to "true."
+Identifies Service Portal pages that are made public. Service Portal pages are made available to unauthenticated users by setting the **public** field to **true**.
 
  Review and confirm that the current configuration aligns with your business needs.
 
@@ -226,7 +226,7 @@ Review public UI Pages
 
 </td><td>
 
-Identifies UI Pages that are made public. UI Pages can be made available to unauthenticated users using the \[sys\_public\] page.
+Identifies UI pages that are made public. UI pages can be made available to unauthenticated users using the \[sys\_public\] page.
 
  Review and confirm that the current configuration aligns with your business needs.
 
@@ -240,9 +240,9 @@ Review roles that contain the 'admin' role
 
 </td><td>
 
-Identifies any roles \(Roles \[sys\_user\_role\] table\) that contains the **admin** role.
+Identifies any roles \(Roles \[sys\_user\_role\] table\) that contains the admin role.
 
- The **admin** role grants users administrative privileges and should be used only when necessary. Review and confirm that the current configuration aligns with your business needs. If this is an intentional configuration, this check can be muted.
+ The admin role grants users administrative privileges and should be used only when necessary. Review and confirm that the current configuration aligns with your business needs. If this is an intentional configuration, you can mute this check.
 
 </td><td>
 
@@ -254,9 +254,9 @@ Review UI Pages without corresponding ACLs
 
 </td><td>
 
-Identifies UI Pages that don’t have an ACL for that UI Page.
+Identifies UI pages that don’t have an ACL for that UI page.
 
- UI Pages that don’t have a specific ACL default to a generic UI Page ACL, which may grant access to unintended users.
+ UI pages that don’t have a specific ACL default to a generic UI page ACL, which may grant access to unintended users.
 
 </td><td>
 
@@ -284,9 +284,9 @@ Rotate passwords stored with outdated hashing algorithms
 
 </td><td>
 
-Identifies user accounts with passwords created in previous versions of the ServiceNow AI Platform, which may have used what is now considered a legacy or outdated hashing algorithm.
+Identifies user accounts with passwords created in previous versions of the ServiceNow AI Platform, which may have used a legacy or outdated hashing algorithm.
 
- Accounts created on old platform versions that haven’t rotated their passwords may still have passwords stored with a legacy hashing algorithm. Review the identified accounts created consider password resets.
+ Accounts created on earlier platform versions that haven’t rotated their passwords may still have passwords stored with a legacy hashing algorithm. Review the identified accounts created consider password resets.
 
 </td><td>
 
@@ -314,7 +314,7 @@ UI action visibility
 
 Identifies UI actions that can be accessed by a user with no roles who doesn’t have read access to the table.
 
- These users may be able to alter data on a table they don’t have access to via these UI actions. Verify that UI actions are only available to users with access to the table they affect.
+ These users may be able to alter data on a table they don’t have access to through these UI actions. Verify that UI actions are only available to users with access to the table they affect.
 
 </td><td>
 

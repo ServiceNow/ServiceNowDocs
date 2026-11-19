@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Gateway, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [AI Gateway, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Connecting with AI Agent Studio Via AI Gateway
@@ -38,7 +38,7 @@ Role required: an\_aia.admin
 
 8.  Select the MCP server from the list.
 
-    **Note:** In AWH for AI Control Tower \(2.0.0\), unapproved MCP Servers appear in the list but tools can't be fetched until the server is approved in AI Control Tower.
+    **Note:** In AWH for AI Control Tower \(2.0.0\), unapproved MCP Servers appear in the list but tools can't be fetched until the server is approved in Control Tower.
 
 9.  Select the specific tools from the MCP server that the agent should use.
 

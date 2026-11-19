@@ -1,6 +1,6 @@
 ---
 title: Use Mass Update CI
-description: You can use the proposed changes in a change request to apply the same update to a set of CIs for a specific CI class.
+description: Use the proposed changes in a change request to apply the same update to a set of CIs for a specific CI class.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/use-bulk-mass-ci-changes.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Process a change request, Use, Change Management, IT Service Manage
 
 # Use Mass Update CI
 
-You can use the proposed changes in a change request to apply the same update to a set of CIs for a specific CI class.
+Use the proposed changes in a change request to apply the same update to a set of CIs for a specific CI class.
 
 ## Before you begin
 

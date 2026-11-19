@@ -36,6 +36,10 @@ Role required: sn\_itom\_cam.cw\_requester
 
 4.  Select **Submit**.
 
+    The request is submitted for approval, and the following email notifications are sent:
+
+    -   Request Notification: Sent to the requester.
+    -   SA Request Notification: Sent to the approvers of the request.
 
 **Parent Topic:**[Creating a cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/creating-an-account.md)
 

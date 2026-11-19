@@ -39,15 +39,15 @@ To create a schedule within an unattended bot process, see [Create a schedule wi
 
 3.  View a robot calendar either from a robot or from a bot process.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d337615e186">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d341670e188">
 
 Option
 
-</th><th align="left" id="d337615e189">
+</th><th align="left" id="d341670e191">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d337615e195">
+</th></tr></thead><tbody><tr><td id="d341670e197">
 
 **View a robot calendar from a robot**
 
@@ -58,7 +58,7 @@ Action
 3.  In the form header, select **Robot Calendar**.
 
 
-</td></tr><tr><td id="d337615e228">
+</td></tr><tr><td id="d341670e230">
 
 **View a robot calendar from a bot process**
 

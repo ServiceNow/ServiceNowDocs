@@ -64,13 +64,13 @@ The search results are sorted in the following order based on the frequency of t
 **Related topics**  
 
 
-[bundle-platadm.search-administration]
+[Search administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration.md)
 
 [Service Catalog for managers and end users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/c_UsingTheServiceCatalog.md)
 
-[bundle-platadm.t_RegenerateATextIndexForATable]
+[Regenerate a text index for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_RegenerateATextIndexForATable.md)
 
-[bundle-platadm.t_ConfigureADidYouMeanSuggestion]
+[Configure a "Did You Mean?" suggestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ConfigureADidYouMeanSuggestion.md)
 
 [Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/t_DefineACatalogItem.md)
 

@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Definitions of AI asset inventory, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Definitions of AI asset inventory, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI systems
@@ -25,9 +25,9 @@ Explore AI systems in detail with examples.
     AI systems can be interconnected, with one system potentially depending on the outputs of another, referred to as a sub AI system." Recognizing these connections is important for monitoring AI usage and clarifying responsibilities.
 
 
-Tools are considered attributes of an AI system or sub AI system. They aren’t tracked as separate AI assets in the inventory and don’t have a lifecycle managed by the AI Control Tower for governance or value assessment. The concept of Tools is relevant for agentic AI use cases, where they’re linked to AI systems during discovery, often through cloud platforms like Azure Foundry, AWS, or internal discovery processes.
+Tools are considered attributes of an AI system or sub AI system. They aren’t tracked as separate AI assets in the inventory and don’t have a lifecycle managed by the Control Tower for governance or value assessment. The concept of Tools is relevant for agentic AI use cases, where they’re linked to AI systems during discovery, often through cloud platforms like Azure Foundry, AWS, or internal discovery processes.
 
-AI Control Tower helps identify and track all AI systems in an organization, including how they’re connected. This supports AI risk assessments and audits.
+Control Tower helps identify and track all AI systems in an organization, including how they’re connected. This supports AI risk assessments and audits.
 
 Examples:
 

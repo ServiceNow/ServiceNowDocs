@@ -18,7 +18,7 @@ Turn the Appointment Booking feature on or off for an application and its indivi
 
 ## Before you begin
 
-Role required: appointment\_booking\_admin
+Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
 ## Procedure
 

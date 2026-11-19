@@ -112,7 +112,7 @@ View details of a walk-up interaction.
 -   Opened for: View the requester's information.
 -   Source: View the source of the walk-up interaction record.
 
-    **Note:** The Source section appears only if a walk-up appointment is created through an incident. For more information, see [Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-walkup-appointment-incident-sow.md)
+    **Note:** The Source section appears only if a walk-up appointment is created through an incident. For more information, see [Create an appointment through an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-walkup-appointment-incident-sow.md)
 
 
 ## Related records tab
@@ -124,7 +124,7 @@ View details of the related records.
 
 -   **[Work on a Walk-up interaction in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/work-on-walkup-sow.md)**  
 Manage your Walk-up appointments in Service Operations Workspace.
--   **[Create an appointment through incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-walkup-appointment-incident-sow.md)**  
+-   **[Create an appointment through an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-walkup-appointment-incident-sow.md)**  
 Schedule an appointment on behalf of a requester through an incident record.
 
 **Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)

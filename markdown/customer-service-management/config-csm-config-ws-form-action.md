@@ -22,6 +22,12 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 To use UI actions in CRM Workspace, each UI action must have a corresponding form action.
 
+**Note:** The **Create Knowledge** action requires the following additional setup:
+
+-   Activate the Knowledge Management Advanced Installer plugin \(com.snc.knowledge\_advanced.installer\).
+-   Set the **sn\_customerservice.enable\_knowledge\_kcs** property to true.
+-   Set the KCS Article template to true \(navigate to **Knowledge** &gt; **Administration** &gt; **Article Templates**\).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Declarative Actions** &gt; **Form Actions**.
@@ -30,15 +36,15 @@ To use UI actions in CRM Workspace, each UI action must have a corresponding for
 
 3.  Fill in the following fields on the Action Assignment form.
 
-<table id="choicetable_zhx_pfj_q3c"><thead><tr><th align="left" id="d195636e101">
+<table id="choicetable_zhx_pfj_q3c"><thead><tr><th align="left" id="d196036e134">
 
 Field
 
-</th><th align="left" id="d195636e104">
+</th><th align="left" id="d196036e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d195636e110">
+</th></tr></thead><tbody><tr><td id="d196036e143">
 
 **Action label**
 
@@ -46,7 +52,7 @@ Description
 
 The name of the action. For example, Create or Save.
 
-</td></tr><tr><td id="d195636e119">
+</td></tr><tr><td id="d196036e152">
 
 **Action name**
 
@@ -54,7 +60,7 @@ The name of the action. For example, Create or Save.
 
 This field populates automatically with the action label in all lowercase and with spaces replaced with underscores.
 
-</td></tr><tr><td id="d195636e128">
+</td></tr><tr><td id="d196036e161">
 
 **Implemented as**
 
@@ -65,7 +71,7 @@ Select one of the following:-   Server Script: Applies the action to the server 
 -   Client Script: Applies the action to the web browser as JavaScript.
 
 
-</td></tr><tr><td id="d195636e148">
+</td></tr><tr><td id="d196036e181">
 
 **Table**
 
@@ -73,7 +79,7 @@ Select one of the following:-   Server Script: Applies the action to the server 
 
 Select a table for the action button to appear on.
 
-</td></tr><tr><td id="d195636e158">
+</td></tr><tr><td id="d196036e191">
 
 **View**
 

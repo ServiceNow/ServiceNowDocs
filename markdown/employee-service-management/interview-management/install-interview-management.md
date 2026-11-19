@@ -1,6 +1,6 @@
 ---
 title: Install Interview management
-description: You can install the Interview management application \(sn\_ta\_int\_mgmt\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: Users with the admin role can install the Interview management application \(sn\_ta\_int\_mgmt\).If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/interview-management/install-interview-management.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Interview Management, Hiring Experiences, HR Service Del
 
 # Install Interview management
 
-You can install the Interview management application \(sn\_ta\_int\_mgmt\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+Users with the admin role can install the Interview management application \(sn\_ta\_int\_mgmt\).The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 

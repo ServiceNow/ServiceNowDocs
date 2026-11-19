@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Time Zones, Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Configuring Time Zones, Dispatcher Workspace, CRM Workspace, Configure, Field Service Management]
 ---
 
 # Configure multiple time zones for dispatchers

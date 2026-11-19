@@ -40,6 +40,8 @@ The SIR Conference Call integration with third-party communication channels such
 **Related topics**  
 
 
+[Setup for the UI Builder]()
+
 [Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
 
 [Set up view of SIR Records]()

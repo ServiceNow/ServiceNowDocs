@@ -9,7 +9,7 @@ classification: table-administration-and-data-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Displaying function results, Work with database views, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Displaying function results, Work with database views, Table admin, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create a function field to perform a database function

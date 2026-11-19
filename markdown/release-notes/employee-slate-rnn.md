@@ -31,7 +31,7 @@ See  for more information.
 
     Install EmployeeWorks by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-    For more information, see [EmployeeWorks Web App setup flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/emp-slate-setup-flow.md).
+    For more information, see .
 
 -   **Upgrade information**
 

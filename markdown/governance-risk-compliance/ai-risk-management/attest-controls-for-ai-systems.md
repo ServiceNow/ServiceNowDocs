@@ -19,7 +19,7 @@ Create control attestations for AI assets to document the existence, implementat
 
 ## Before you begin
 
-Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst \(AI Risk and Compliance Workspace\), sn\_ai\_asset\_mgmt.ai\_asset\_owner \(AI Control Tower workspace\)
+Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst \(AI Risk and Compliance Workspace\), sn\_ai\_asset\_mgmt.ai\_asset\_owner \(Control Tower workspace\)
 
 ## About this task
 
@@ -35,21 +35,21 @@ Controls available for attestation are mapped to the AI asset during the assessm
 
     **All** &gt; **AI Risk and Compliance** &gt; **AI Risk and Compliance Workspace**
 
-    In the AI Control Tower workspace:
+    In the Control Tower workspace:
 
     **All** &gt; **AI Control Tower** &gt; **AI Control Tower Workspace**
 
 2.  Select the AI asset for which you need to create control attestations using one of the following options.
 
-<table id="choicetable_ftl_1bl_hjc"><thead><tr><th align="left" id="d368724e144">
+<table id="choicetable_ftl_1bl_hjc"><thead><tr><th align="left" id="d369247e146">
 
 Option
 
-</th><th align="left" id="d368724e147">
+</th><th align="left" id="d369247e149">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d368724e153">
+</th></tr></thead><tbody><tr><td id="d369247e155">
 
 **Create a control attestation using AI Risk and Compliance Workspace**
 
@@ -57,9 +57,9 @@ Description
 
 Select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text: and select the AI asset for which you need to create control attestations.
 
-</td></tr><tr><td id="d368724e169">
+</td></tr><tr><td id="d369247e171">
 
-**Create a control attestation using AI Control Tower**
+**Create a control attestation using Control Tower**
 
 </td><td>
 

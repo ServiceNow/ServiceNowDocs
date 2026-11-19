@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [AI asset inventory, AI assets, Control Tower dashboard, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Assets list- managed and unmanaged assets
@@ -22,9 +22,9 @@ AI assets are presented in a list format and organized by display name, provider
 
 ## Managed &amp; Unmanaged assets
 
-Starting with the March \(2026\) release, you can designate assets as managed or unmanaged directly from the list. By default, all the assets in AI Control Tower are under unmanaged assets.
+Starting with the March \(2026\) release, you can designate assets as managed or unmanaged directly from the list. By default, all the assets in Control Tower are under unmanaged assets.
 
-When an unmanaged asset is marked as managed, it gains access to AI Control Tower capabilities such as governance, lifecycle management, value assessment, risk classification, security, and privacy. If a managed asset is switched back to unmanaged, it loses all the before mentioned AI Control Tower capabilities.
+When an unmanaged asset is marked as managed, it gains access to Control Tower capabilities such as governance, lifecycle management, value assessment, risk classification, security, and privacy. If a managed asset is switched back to unmanaged, it loses all the before mentioned Control Tower capabilities.
 
 The Automation rules define how AI assets are set to managed. For information on Automation rules page, see [Automation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/automation-rules.md)
 

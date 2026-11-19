@@ -58,8 +58,8 @@ After you have enabled either Dynamic Translation or native translation, transla
 
 Multilingual service is enabled for ServiceNow Otto applications.
 
--   **[Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/translation-for-now-assist.md)**  
-Now Assist applications use the multilingual capabilities of large language models \(LLMs\) to translate user-generated content.
+-   **[Multilingual service for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/translation-for-now-assist.md)**  
+ServiceNow Otto applications use the multilingual capabilities of large language models \(LLMs\) to translate user-generated content.
 -   **[Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md)**  
 Support multi-language input in Now Assist applications with the Microsoft Azure OEM translator service included in Generative AI Controller.
 

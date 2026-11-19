@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-servicenowaiplatformcorefeature-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
@@ -203,6 +203,10 @@ Reduce manual entry errors through a new Address field type for Core UI and Work
 -   **[New dot-walk scoping security properties and table attribute](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&family=australia&ft:locale=en-US)**
 
 Strengthen scope boundary enforcement when dot-walking across application scopes using Reference Fields through additional properties and a table attribute. For more information, see the [Dot-Walk Scoping Security Enhancement \[KB2793170\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2793170) article in the Now Support Knowledge Base.
+
+-   **[New system properties for guest session memory management](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&family=australia&ft:locale=en-US)**
+
+Reduce memory pressure from guest sessions during high-memory states using two new system properties. Use **glide.session.guest.max\_for\_memory\_remediation** to set the maximum number of guest sessions retained when a node is under memory pressure, and **glide.session.guest.min\_idle\_ms\_for\_eviction** to set the minimum idle time before a guest session is eligible for eviction.
 
 
 </td></tr><tr><td>
@@ -407,6 +411,10 @@ Brazil
 
 The cross-scope security mechanism has been strengthened, supporting consistent application of authorization rules. For more information, see [KB3142985: Cross-Scope Access Security Enhancement \(Glide Element API: getRefRecord\(\)\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3142985).
 
+-   **[Default value of glide.sys.fencing.restricted\_caller\_access.invalidation\_mode is SCRIPT\_ENGINE](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&family=brazil&ft:locale=en-US)**
+
+The default value of the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property changed from DB\_LISTENER to SCRIPT\_ENGINE. When the property is set to SCRIPT\_ENGINE, and an update set contains a script with changes, the script engine doesn't invalidate associated RCA records. To enable a database listener that monitors update set commits on source code tables and invalidates RCA records at the time of the commits, set the value to DB\_LISTENER.
+
 
  -   **[AI indicators updated for form fields](https://www.servicenow.com/docs/access?context=platai-ai-indicator-form-fields&family=brazil&ft:locale=en-US)**
 
@@ -426,7 +434,9 @@ Configure choice fields to display either None or --None-- for empty options usi
 
 -   **[Base cross-scope access on the latest source code updates](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&family=brazil&ft:locale=en-US)**
 
-Control how the system invalidates Restricted Caller Access records when a source code record, such as a script include, in a cross-scope access table is committed in an update set with the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property. By default, a database listener monitors update set commits on source code tables and invalidates RCA records at the time of the commits so that cross-scope access is based on the latest source code updates.
+Control how the system invalidates Restricted Caller Access records when a source code record, such as a script include, in a cross-scope access table is committed in an update set with the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property.
+
+**Note:** In the Brazil Early Availability and Brazil Patch 1 releases, the default value is DB\_LISTENER. Beginning with the Brazil Patch 2 release, the default value is SCRIPT\_ENGINE.
 
 -   **[ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features](https://www.servicenow.com/docs/access?context=javascript-engine-feature-support&family=brazil&ft:locale=en-US)**
 
@@ -772,7 +782,7 @@ Brazil
 -   Maintain and monitor the ServiceNow AI Platform to identify issues or enhance performance.
 -   Plan and manage ServiceNow AI Platform upgrades to patches and new releases.
 
- See [Administer the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=intro-now-platform-landing&family=brazil&ft:locale=en-US) for more information.
+ See [ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=intro-now-platform-landing&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)

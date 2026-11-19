@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-10-21"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reference, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Statistics for external content connector content crawls

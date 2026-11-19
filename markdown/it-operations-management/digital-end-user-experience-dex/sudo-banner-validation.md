@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [sudo banner, sudo permissions, sudo exclusion list, mac agent permissions, sudoers, agent capabilities]
 breadcrumb: [DEX advanced configuration, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [Now Assist, generative AI]
-breadcrumb: [Creating AI assets, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Creating AI assets, Using Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create AI system assets
@@ -27,9 +27,9 @@ An AI system is a software artifact that provides AI and machine learning \(ML\)
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **AI Control Tower**.
+1.  Navigate to **Workspaces** &gt; **Control Tower**.
 
-2.  From the AI Control Tower, open the AI assets view.
+2.  From Control Tower, open the AI assets view.
 
 3.  From the navigation menu of the AI assets view, navigate to either **AI asset inventory - Managed** &gt; **AI Systems** or **AI asset inventory - Unmanaged** &gt; **AI Systems**.
 

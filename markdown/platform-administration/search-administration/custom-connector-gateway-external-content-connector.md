@@ -10,14 +10,14 @@ topic_type: concept
 last_updated: "2026-10-21"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Custom Connector Gateway external content connector
 
 The Custom Connector Gateway external content connector makes a source system's content and metadata searchable in AI Search applications. Retrieve content, metadata, and users with your own custom connector and push that data to the gateway connector using the Custom Connector Gateway API.
 
-Unlike other external content connectors, the Custom Connector Gateway connector doesn't run content or user permission crawls to retrieve content and security principals from the source system. Instead, it serves as a way for your custom connector to submit retrieved content and security principals for indexing via the Custom Connector Gateway API.
+Unlike other external content connectors, the Custom Connector Gateway connector doesn't run content or user permissions crawls to retrieve content and security principals from the source system. Instead, it serves as a way for your custom connector to submit retrieved content and security principals for indexing via the Custom Connector Gateway API.
 
 The process of indexing searchable content from your source system with a custom connector looks like this:
 

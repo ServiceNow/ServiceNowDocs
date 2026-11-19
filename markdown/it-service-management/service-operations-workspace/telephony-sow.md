@@ -25,7 +25,7 @@ Join an existing Twilio conference call to participate in a discussion to resolv
 -   **[Administer an existing Twilio call in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/add-participants-conference-call-telephony.md)**  
 Add or mute participants in a Twilio conference call.
 -   **[Reinitiate a conference call from Twilio in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/reinitiate-conference-call-telephony.md)**  
-Reinitiate a Twilio conference call that was ended to discuss about the resolution of an incident.
+Reinitiate a Twilio conference call that was ended to discuss the resolution of an incident.
 -   **[View a conference call recording from Twilio in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/view-call-recording-twilio-sow.md)**  
 View details for a recorded conference call in Service Operations Workspace by accessing the associated conference record as a reference.
 

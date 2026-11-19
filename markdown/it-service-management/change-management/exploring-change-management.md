@@ -19,7 +19,7 @@ The Change Management processes for a change request are controlled by workflows
 -   **[Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/manage-change-models.md)**  
 Change models help streamline change requests by tailoring a fit-for-purpose process to support specific, common change use cases.
 -   **[Change types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-types.md)**  
-Change Management supports the three types of service changes ITIL describes — standard, emergency, and normal. The change type determines which state model is invoked and the change process that must be followed.
+Change Management supports the three types of service changes ITIL describes: standard, emergency, and normal. The change type determines which state model is used and the change process and the change process to follow.
 -   **[Change templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-templates.md)**  
 Standardize the creation of change requests by creating change templates based on all available change models.
 -   **[State progression for normal, standard, and emergency changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/normal-standard-emergency-states.md)**  

@@ -9,7 +9,7 @@ classification: search-suggestions
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prevent the creation of suggestions in special cases, Configuring Search Suggestions, Search Suggestions, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Prevent the creation of suggestions in special cases, Configuring Search Suggestions, Search Suggestions, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Test regular expression patterns in Search Suggestion Exclusion List Rule entries

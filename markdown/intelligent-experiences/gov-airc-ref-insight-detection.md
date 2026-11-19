@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-10-01"
 reading_time_minutes: 1
 keywords: [stalled lifecycle tasks, significant issues, detection threshold, AI insight]
-breadcrumb: [Governance insights, Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Governance insights, Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Governance insight detection reference

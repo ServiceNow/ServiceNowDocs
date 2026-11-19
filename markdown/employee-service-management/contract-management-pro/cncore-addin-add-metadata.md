@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Add content controls, Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Add content controls, Create template using Word add-in, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure metadata for fields, variables, and variables sets in a contract document
@@ -59,15 +59,15 @@ The following video walks you through the process of adding metadata for fields,
 
 7.  On the Create mapping form in the **Type** field, select either field mapping or variables.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d222801e300">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d222982e302">
 
 Type of metadata
 
-</th><th align="left" id="d222801e303">
+</th><th align="left" id="d222982e305">
 
 Fields available
 
-</th></tr></thead><tbody><tr><td id="d222801e309">
+</th></tr></thead><tbody><tr><td id="d222982e311">
 
 **Field mapping**
 
@@ -77,7 +77,7 @@ Fields available
 -   **Field Name**- The field is automatically set to the value of the **Mapping Field**. You can also modify the value.
 
 
-</td></tr><tr><td id="d222801e334">
+</td></tr><tr><td id="d222982e336">
 
 **Variables**
 

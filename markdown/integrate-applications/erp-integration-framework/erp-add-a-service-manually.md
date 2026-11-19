@@ -103,3 +103,5 @@ Before you can add a service manually, you must do the following:
 14. When you're finished, select **Add entity**.
 
 
+**Parent Topic:**[Connecting Zero Copy Connector for ERP to ERP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
+

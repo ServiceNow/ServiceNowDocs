@@ -16,8 +16,6 @@ breadcrumb: [Banking applications, Financial Services Operations \(FSO\)]
 
 Dispute management helps agents create dispute cases for both personal and business debit and credit card accounts, as well as non-card \(ACH\) transactions, and automate the process of dispute routing and fraud-related activities.
 
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/dispute-management-compliance-updates-mastercard.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/dispute-management-compliance-updates-mastercard.md)**  
-
 -   **[Set up Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/setting-up-disputes-management.md)**  
 Configure Dispute Management to process card payment network and ACH disputes. Installation requirements vary by network provider.
 -   **[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/managing-card-disputes.md)**  

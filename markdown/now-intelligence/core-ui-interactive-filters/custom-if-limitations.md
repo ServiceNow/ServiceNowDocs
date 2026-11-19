@@ -26,11 +26,11 @@ Custom interactive filters are a fallback for use when standard interactive filt
 
 -   **Retaining filter value on refreshing the widget**
 
-    When you click a widget's refresh icon \(\[Omitted image "icon-refresh2.png"\] Alt text:\) to refresh its content, or when you select **Refresh** from the context menu \(\[Omitted image "context-menu.png"\] Alt text:\), the custom interactive filter value does not persist.
+    When you click a widget's refresh icon \(\[Omitted image "icon-refresh2.png"\] Alt text: Refresh icon\) to refresh its content, or when you select **Refresh** from the context menu \(\[Omitted image "context-menu.png"\] Alt text: Context menu icon\), the custom interactive filter value does not persist.
 
 -   **Resetting custom filter values / All filter values**
 
-    When you select **Reset Filters** from the context menu \(\[Omitted image "context-menu.png"\] Alt text:\), the custom interactive filter does not change and is still applied.
+    When you select **Reset Filters** from the context menu \(\[Omitted image "context-menu.png"\] Alt text: Context menu icon\), the custom interactive filter does not change and is still applied.
 
 -   **Setting filter values on page load or tab switch**
 

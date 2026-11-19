@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-26"
 reading_time_minutes: 2
 keywords: [client access policy, access management, MCP tools, MCP client]
-breadcrumb: [Control client access, Configure, AI Gateway, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control client access, Configure, AI Gateway, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create a client access policy
@@ -28,7 +28,7 @@ A policy grants access to one client. To grant several clients access, create a 
 
 ## Procedure
 
-1.  In AI Control Tower, navigate to **Inventory** &gt; **Assets** &gt; **MCP servers** and select the server name.
+1.  In Control Tower, navigate to **Inventory** &gt; **Assets** &gt; **MCP servers** and select the server name.
 
 2.  Select the **AI Gateway** tab, and then select the **Policies** sub-tab.
 

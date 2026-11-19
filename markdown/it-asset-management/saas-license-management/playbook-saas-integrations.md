@@ -8,7 +8,7 @@ product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -37,7 +37,7 @@ Integrate your ServiceNow instance with the Salesforce customer relationship man
 
 [SaaS License Management setup for large companies]()
 
-[SaaS Overview dashboard]()
+[]()
 
 [Integrate with SaaS applications]()
 

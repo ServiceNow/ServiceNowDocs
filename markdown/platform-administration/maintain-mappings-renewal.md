@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing custom tables and apps, Subscription Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Managing custom tables and apps, Subscription Management, Get started, ServiceNow AI Platform]
 ---
 
 # Maintain custom table and application mappings at renewal in Subscription Management

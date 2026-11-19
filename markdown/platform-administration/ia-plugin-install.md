@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Administer, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Administer, ServiceNow Otto for Setup, Get started, ServiceNow AI Platform]
 ---
 
 # Individual plugin installation from Product Hub

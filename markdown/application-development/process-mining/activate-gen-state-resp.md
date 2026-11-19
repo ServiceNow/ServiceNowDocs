@@ -20,8 +20,6 @@ Map process steps to stakeholder responsibilities using AI, enabling advanced Pr
 
 Role required: admin
 
-**Note:** This skill is activated by default. If it is turned off, you can activate it with the following procedure.
-
 ## About this task
 
 AI recommends the mapping of states to stakeholder responsibilities in the Process details step. You can update it as required.
@@ -33,6 +31,8 @@ AI recommends the mapping of states to stakeholder responsibilities in the Proce
 1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  Select **Platform** &gt; **Other**.
+
+    **Note:** If you use Process Mining versions earlier than 3.2.0, select **Creator** instead.
 
 3.  Select **Generate state responsibility mapping** from the list of AI skills for Platform.
 

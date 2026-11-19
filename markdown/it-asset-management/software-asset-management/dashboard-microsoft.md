@@ -209,7 +209,7 @@ Number of total active rights per SQL Server.
 </td></tr></tbody>
 </table>## Office 365 &amp; Adobe Cloud dashboard
 
-Only Microsoft 365 software products that are recognized as subscription software are shown. [Microsoft Office 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/set-up-microsoft-office-365.md) must be set up to view compliance information.
+Only Microsoft 365 software products that are recognized as subscription software are shown. [Microsoft Office 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/set-up-microsoft-office-365.md) must be set up to view compliance information.
 
 \[Omitted image "publisher-dashboard-o365.png"\] Alt text: Office 365 &amp; Adobe Cloud dashboard.
 

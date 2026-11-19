@@ -1,6 +1,6 @@
 ---
 title: Leave a Zoom conference call in Service Operations Workspace
-description: Leave an active conference call. The call will still be active with other participants.
+description: Leave an active conference call. The call is still active with other participants.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/leave-zoom-conference-call.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Conference calls with Zoom in Service Operations Workspace, Notify 
 
 # Leave a Zoom conference call in Service Operations Workspace
 
-Leave an active conference call. The call will still be active with other participants.
+Leave an active conference call. The call is still active with other participants.
 
 ## Before you begin
 
@@ -24,13 +24,13 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text: List icon\) icon.
+2.  Select the List icon \[Omitted image "list-icon-new.png"\] Alt text:.
 
 3.  Select **Incidents** &gt; **Open**.
 
 4.  Select the incident record that has an active conference call.
 
-5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text: Collaborate icon\) from the contextual side panel.
+5.  Select the Collaborate icon \[Omitted image "collab-icon-02.png"\] Alt text: from the contextual side panel.
 
 6.  Select the **Calls** tab.
 

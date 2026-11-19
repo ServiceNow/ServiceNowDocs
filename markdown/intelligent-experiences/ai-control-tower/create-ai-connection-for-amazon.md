@@ -1,6 +1,6 @@
 ---
 title: Create AI connection for Amazon
-description: Create an AI connection for Amazon in AI Control Tower using the AI Service Graph Connector for Amazon.
+description: Create an AI connection for Amazon in Control Tower using the AI Service Graph Connector for Amazon.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connection-for-amazon.html
 release: brazil
@@ -9,12 +9,12 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [AWS, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [AWS, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create AI connection for Amazon
 
-Create an AI connection for Amazon in AI Control Tower using the AI Service Graph Connector for Amazon.
+Create an AI connection for Amazon in Control Tower using the AI Service Graph Connector for Amazon.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **AI Control Tower** &gt; **Configurations** &gt; **AI connections**.
+1.  Navigate to **Control Tower** &gt; **Configurations** &gt; **AI connections**.
 
 2.  Select **Add**.
 

@@ -96,3 +96,8 @@ The following table lists the fields for AR invoice \[sn\_otc\_invoice\] table.
 |Tax Rate String|String|Tax rate % applied on the invoice - Tax rate in string if tax code and decimal is not used|
 |Type|String|The type of invoice debit or credit.|
 
+**Related topics**  
+
+
+[ar-invoice-access]
+

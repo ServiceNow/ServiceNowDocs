@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage data growth in Data Management, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Manage data growth in Data Management, Data Management, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Restore archived records and related records

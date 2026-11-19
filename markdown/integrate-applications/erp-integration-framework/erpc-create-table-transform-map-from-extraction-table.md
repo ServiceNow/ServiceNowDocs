@@ -68,3 +68,5 @@ Confirm that you have an extraction table associated with a model containing out
 11. To view the transform map at any time, select the link in **Table transform map link**.
 
 
+**Parent Topic:**[Extracting and transforming ERP data with Zero Copy Connector for ERP extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md)
+

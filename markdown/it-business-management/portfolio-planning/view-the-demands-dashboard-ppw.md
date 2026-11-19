@@ -18,7 +18,7 @@ Use the Demands Dashboard to monitor performance, track progress, and make infor
 
 ## Before you begin
 
-Role required: it\_demand\_manager, it\_demand\_user, or ppm\_read
+Role required: it\_demand\_user or sn\_ppm\_read
 
 ## About this task
 

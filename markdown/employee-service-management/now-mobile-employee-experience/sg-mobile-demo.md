@@ -9,7 +9,7 @@ classification: now-mobile-employee-experience
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Now Mobile app, EmployeeWorks, Employee Service Management]
+breadcrumb: [Now Mobile app, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Now Mobile app demo

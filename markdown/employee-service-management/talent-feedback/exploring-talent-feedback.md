@@ -112,7 +112,7 @@ Employee
 
 -   **[Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/manager-hub-overview.md)**
 
-    The ServiceNow® Manager Hub increases a manager's self-service and proactive engagement with their team by providing insights and recommended actions for what's most urgent and important to drive team success. It enables managers to grow as leaders through curated and personalized resources.
+    The ServiceNow® Manager Hub increases a manager's self-service and proactive engagement with their team. It provides insights and recommended actions for what's most urgent and important to drive team success. It enables managers to grow as leaders through curated and personalized resources.
 
 
 ## What to explore next

@@ -26,7 +26,7 @@ This configuration must contain the credentials of the user who is logged in and
 
 ## Procedure
 
-1.  From the **All** menu, in the navigation filter, enter **sys\_auth\_profile\_basic.list**.
+1.  From the **All** menu, in the navigation filter, enter `sys_auth_profile_basic.list`.
 
 2.  On the Basic Auth Configurations page, select **New**.
 

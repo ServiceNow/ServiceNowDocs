@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Indexed source attributes, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Indexed source attributes, Indexed sources, Configure, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # List of AI Search indexed source attributes

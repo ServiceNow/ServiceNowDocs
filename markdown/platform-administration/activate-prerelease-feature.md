@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [What's New, feature preview]
-breadcrumb: [Feature Preview Program, Basic system configuration, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Feature Preview Program, Basic system configuration, Get started, ServiceNow AI Platform]
 ---
 
 # Activate a pre-release feature

@@ -1,6 +1,6 @@
 ---
 title: Proactive Action form
-description: When creating a Proactive Triggers rule, the Proactive Action form includes the following fields.
+description: The Proactive Action form defines the message, target users, and order of each action that a Proactive Triggers rule triggers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/proactive-action-new-record-form.html
 release: brazil
@@ -9,12 +9,12 @@ classification: product-support-for-technology
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Proactive Triggers reference, Proactive Triggers, Manage people and work, Conversational Interfaces]
+breadcrumb: [Reference, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---
 
 # Proactive Action form
 
-When creating a Proactive Triggers rule, the Proactive Action form includes the following fields.
+The Proactive Action form defines the message, target users, and order of each action that a Proactive Triggers rule triggers.
 
 <table id="table_pff_wh1_cwb"><thead><tr><th>
 
@@ -30,7 +30,7 @@ Name
 
 </td><td>
 
-Name of the action that you want to associate with a rule.
+Name of the action to associate with a rule.
 
 </td></tr><tr><td>
 
@@ -46,9 +46,9 @@ Applies to
 
 </td><td>
 
-The set of end users to which this action applies. For example, you can apply an action to any **Any Users** or **Guest Users** user criteria. Use the lookup using list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup using list con.\) to select the user. The **Applies to** settings must be unique for the actions for each rule. To create a user criteria record, see [Create a user criteria record for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-user-criteria-record.md).
+The set of end users to which this action applies. For example, you can apply an action to the **Any Users** or **Guest Users** user criteria. Use the lookup using list icon \[Omitted image "look-up-icon.png"\] Alt text: to select the user. The **Applies to** settings must be unique for the actions for each rule. To create a user criteria record, see [Create a user criteria record for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/create-user-criteria-record.md).
 
- **Note:** If you don't specify a user, this rule is applied to all users.
+**Note:** If you don't specify a user, the action applies to all users.
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Model Type
 
 </td><td>
 
-Topic type, either an **LLM** or **NLU/Keyword** value, that is associated with the Proactive Triggers action. This field is only applicable if Now Assist is installed and enabled.
+Topic type, either an **LLM** or **NLU/Keyword** value, that is associated with the Proactive Triggers action. This field is only applicable if ServiceNow Otto for Virtual Agent is installed and enabled.
 
 </td></tr><tr><td>
 
@@ -107,9 +107,9 @@ Message
 
 </td><td>
 
-Text that the end users see when the action is applied. To enter the text, you can:-   Use the tools and options of the HTML editor.
+Text that end users see when the action is applied. To enter the text, you can:-   Use the tools and options of the HTML editor.
 
-**Note:** Support for using the link button may be included in future releases.
+**Note:** The link button isn't supported.
 
 -   Use variables \(Trigger Type or User\).
 
@@ -119,7 +119,7 @@ Tagline
 
 </td><td>
 
-Text that the end users see above the buttons that you've created. The default tagline text is `Suggested for you`.\(For **Message that launches a selection of virtual agent topics** actions only.\)
+Text that end users see above the buttons. The default tagline text is `Suggested for you`.\(For **Message that launches a selection of virtual agent topics** actions only.\)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Proactive Triggers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/product-support-for-technology/proactive-triggers-reference.md)

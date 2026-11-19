@@ -1,6 +1,6 @@
 ---
 title: Install Talent profile
-description: You can install the Talent profile application \(sn\_ta\_tp\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: Users with the admin role can install the Talent profile application \(sn\_ta\_tp\). The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/install-talent-profile.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Talent Profile, Hiring Experiences, HR Service Delivery,
 
 # Install Talent profile
 
-You can install the Talent profile application \(sn\_ta\_tp\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+Users with the admin role can install the Talent profile application \(sn\_ta\_tp\). The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 

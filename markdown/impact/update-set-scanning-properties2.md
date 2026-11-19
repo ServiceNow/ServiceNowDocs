@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/update-set-scanning-properties2.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-29"
+last_updated: "2026-11-09"
 reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure update set scanning properties
@@ -81,7 +81,7 @@ Enables all active definitions to run during update set scans regardless of inst
 
 </td></tr><tr><td>
 
-Allow Suite Scan for update sets
+Allow Scanning with Suites
 
 </td><td>
 
@@ -103,7 +103,7 @@ Allow Suite Scan for update sets
 
 [Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/create-scan-engine-definition-suites.md)
 
-[Configure application scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-application-scanning-properties.md)
+[configure-application-scanning-properties]
 
 [Initiate update set scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-update-set-scans.md)
 

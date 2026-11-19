@@ -1,6 +1,6 @@
 ---
-title: Tables installed with AI Control Tower
-description: Certain Tables or fields are installed along with the activation of the AI Control Tower core plugin.
+title: Tables installed with Control Tower
+description: Certain Tables or fields are installed along with the activation of the Control Tower core plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/tables-installed-with-ai-control-tower.html
 release: brazil
@@ -9,12 +9,12 @@ classification: ai-control-tower
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Tables installed with AI Control Tower
+# Tables installed with Control Tower
 
-Certain Tables or fields are installed along with the activation of the AI Control Tower core plugin.
+Certain Tables or fields are installed along with the activation of the Control Tower core plugin.
 
 The following table is provided to understand the AI assessment and AI task fields.
 

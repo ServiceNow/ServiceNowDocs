@@ -7,7 +7,7 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 5
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Schedules, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -33,7 +33,7 @@ Each tab displays a list of IP data with the following controls:
 -   **Export**: Download the list as Excel, CSV, JSON, or PDF, or send it by email.
 -   **More Actions** icon: Add or remove columns or copy the URL.
 
-Starting with v1.22.0, users with the discovery\_operator role can view and export IP data. The **New** and **Add to Range Set** controls aren't available to these users. For more information, see Discovery Operator role access.
+Starting with v1.23.0, users with the discovery\_operator role can view and export IP data. The **New** and **Add to Range Set** controls aren't available to these users. For more information, see [Discovery Operator role access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-discovery-operator-access.md).
 
 The following sections describe the IP data on each tab.
 

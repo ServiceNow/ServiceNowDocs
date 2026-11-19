@@ -113,7 +113,3 @@ Workplace case record that is created for assignment changes of the user.Workpla
 
 [User Workplace Profile form]()
 
-[]()
-
-[]()
-

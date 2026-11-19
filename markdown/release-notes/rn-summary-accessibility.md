@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-accessibility.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-04"
+last_updated: "2026-11-19"
 reading_time_minutes: 6
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -42,15 +42,6 @@ After enabled, the Enable voice input for the ServiceNow Otto panel option is av
 
 Voice-to-text input can help users with mobility impairments access generative AI skills without using a keyboard. This feature can also be useful to blind or low-vision users, neurodivergent users, non-native language speakers, or mobile users on the go, such as field service agents.
 
-
-</td></tr><tr><td>
-
-AI Control Tower
-
-</td><td>
-
--   ****
-    -   AI asset security score details, AI agent containment, and configuration pages on the Security tab are fully navigable by keyboard and compatible with screen readers.
 
 </td></tr><tr><td>
 
@@ -259,6 +250,15 @@ ServiceNow Quote Experience
 
 Color contrast in ServiceNow Quote Experience was updated to display all interface elements clearly in dark-themed environments. This update helps users view and interact with all interface elements clearly in a dark-themed environment.
 
+
+</td></tr><tr><td>
+
+Super Intelligence Control Tower
+
+</td><td>
+
+-   ****
+    -   AI asset security score details, AI agent containment, and configuration pages on the Security tab are fully navigable by keyboard and compatible with screen readers.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Brazil features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/release-notes-summaries.md)

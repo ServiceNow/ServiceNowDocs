@@ -18,7 +18,7 @@ Configure and publish an inherent assessment in the Advanced Risk application to
 
 ## Before you begin
 
-Role required: sn\_risk.admin
+Role required: sn\_risk\_advanced.ara\_admin
 
 ## About this task
 

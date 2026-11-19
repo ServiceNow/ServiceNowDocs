@@ -1,5 +1,5 @@
 ---
-title: Modify the Record Page in the Service Operations Workspace using the Standard Record Page
+title: Modify the record page in the Service Operations Workspace using the Standard Record Page
 description: Configure the order number and screen conditions of a record page using the Standard Record Page \(SRP\) in the Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-record-page-order-sow.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Configuring standard record pages in Service Operations Workspace, Configuring record pages in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Modify the Record Page in the Service Operations Workspace using the Standard Record Page
+# Modify the record page in the Service Operations Workspace using the Standard Record Page
 
 Configure the order number and screen conditions of a record page using the Standard Record Page \(SRP\) in the Service Operations Workspace.
 
@@ -34,7 +34,7 @@ SRP also provides ways to add screen condition mappings when a page appears.
 
 3.  Under the **Pages and Variants** section, under **Record**, select **SRP Record**.
 
-    **Note:** If you are on a version prior to 4.0, you can navigate from **Record SNC** in **UI Builder** to modify a record page.
+    **Note:** If you are on a version earlier than 4.0, you can navigate from **Record SNC** in **UI Builder** to modify a record page.
 
 4.  Under **Contents**, in the **Body** level, select **Main Tab**.
 
@@ -52,9 +52,9 @@ SRP also provides ways to add screen condition mappings when a page appears.
     -   Inline tabs: Inline tabs and the Page collection tab contain the code related to a page.
     -   Related List: Contains the details of the records associated with the record. The related list is a static tab, and you can’t modify the order of this tab.
     -   Repeater tabs: Contains the details of the tabs that recur throughout the page. The repeater tab is a static tab, and you can’t modify the order of this tab.
-    These tabs help in changing of the page layout. For example, if you want to add a tab that appears before the **Details** tab, you can change the **SOW - Record tabs left**. Similarly, to add a tab after the **Details** tab, you can modify the **SOW - Record tabs middle**.
+    These tabs help change the page layout. For example, to add a tab that appears before the **Details** tab, you can change the **SOW - Record tabs left**. Similarly, to add a tab after the **Details** tab, you can modify the **SOW - Record tabs middle**.
 
-7.  To modify and view the pages and variants inside each tab, select the \[Omitted image "SRP\_Edit\_overviewpage\_left\_icon.png"\] Alt text: Edit content icon.
+7.  To modify and view the pages and variants inside each tab, select the edit content icon \(\[Omitted image "SRP\_Edit\_overviewpage\_left\_icon.png"\] Alt text:\).
 
 8.  Under the Pages and Variants list, select the required page.
 
@@ -62,7 +62,7 @@ SRP also provides ways to add screen condition mappings when a page appears.
 
     **Note:** The data, events, and mappings in the **Config** and **Events** tabs can’t be modified.
 
-9.  From the top of the page, select the \[Omitted image "menu-outline-24.svg"\] Alt text: Menu icon open menu icon.
+9.  From the top of the page, select the open menu icon \(\[Omitted image "menu-outline-24.svg"\] Alt text:\).
 
 10. To modify the order of the record, perform the following steps.
 

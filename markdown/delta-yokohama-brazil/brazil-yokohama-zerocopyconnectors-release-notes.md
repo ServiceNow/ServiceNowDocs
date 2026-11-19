@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-zerocopyconnectors-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -100,12 +100,12 @@ Australia
 </td><td>
 
 -   **[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)**
-    -   [Oracle HCM \(Discovery\)](https://www.servicenow.com/docs/access?context=oracle-hcm-discovery-zcc&family=australia&ft:locale=en-US): Retrieve discovery-related data from Oracle HCM in real-time without copying or duplicating the data.
-    -   [Acumatica](https://www.servicenow.com/docs/access?context=acumatica-zcc&family=australia&ft:locale=en-US): Retrieve data from Acumatica in real-time without copying or duplicating the data.
+    -   [Oracle HCM \(REST\)](https://www.servicenow.com/docs/access?context=oracle-hcm-discovery-zcc&family=australia&ft:locale=en-US): Retrieve discovery-related data from Oracle HCM in real-time without copying or duplicating the data.
+    -   [Acumatica \(REST\)](https://www.servicenow.com/docs/access?context=acumatica-zcc&family=australia&ft:locale=en-US): Retrieve data from Acumatica in real-time without copying or duplicating the data.
     -   [REST connectors](https://www.servicenow.com/docs/access?context=rest-connectors&family=australia&ft:locale=en-US), Oracle HCM \(Discovery\) and Acumatica, display dedicated connector icons and a REST tag in the connector selection UI.
     -   Authenticate to [Databricks](https://www.servicenow.com/docs/access?context=databricks-zcc&family=australia&ft:locale=en-US) and [Snowflake](https://www.servicenow.com/docs/access?context=snowflake-zcc&family=australia&ft:locale=en-US) using your own credentials instead of a shared service account, so that access is individually authenticated and auditable at the source system.
 
- -   **[Cloudera Hive](https://www.servicenow.com/docs/access?context=cloudera-hive-zcc&family=australia&ft:locale=en-US)**
+ -   **[Cloudera Hive \(Preview\)](https://www.servicenow.com/docs/access?context=cloudera-hive-zcc&family=australia&ft:locale=en-US)**
 
 Retrieve data from Cloudera Hive in real time without copying or duplicating the data. This connector is available with a Preview label, indicating that enhancements are ongoing.
 
@@ -183,13 +183,13 @@ Australia
 </td><td>
 
 -   **[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)**
-    -   [MySQL](https://www.servicenow.com/docs/access?context=mysql-zcc&family=australia&ft:locale=en-US): The MySQL connector moved from the Community connector list to the Primary connector list. This connector is available with a Preview label, indicating that performance enhancements are ongoing.
+    -   [MySQL \(Preview\)](https://www.servicenow.com/docs/access?context=mysql-zcc&family=australia&ft:locale=en-US): The MySQL connector moved from the Community connector list to the Primary connector list. This connector is available with a Preview label, indicating that performance enhancements are ongoing.
     -   [PostgreSQL](https://www.servicenow.com/docs/access?context=postgresql-zcc&family=australia&ft:locale=en-US): The PostgreSQL connector moved from the Community connector list to the Primary connector list.
     -   Authentication options for MySQL and PostgreSQL connections: The connection form for MySQL and PostgreSQL now includes additional authentication drop-down options, including AWS IAM and OAuth, alongside basic authentication.
 
  -   **[Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)**
     -   [Teradata](https://www.servicenow.com/docs/access?context=teradata-zcc&family=australia&ft:locale=en-US): The Teradata connector now supports Bearer Token and OAuth authentication methods.
-    -   [Apache Iceberg](https://www.servicenow.com/docs/access?context=apache-iceberg-primary-zcc&family=australia&ft:locale=en-US): The Apache Iceberg connector now supports S3-compatible object storage systems.
+    -   [Apache Iceberg \(Preview\)](https://www.servicenow.com/docs/access?context=apache-iceberg-primary-zcc&family=australia&ft:locale=en-US): The Apache Iceberg connector now supports S3-compatible object storage systems.
 
  -   **[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)**
     -   [Amazon S3 Tables](https://www.servicenow.com/docs/access?context=amazon-s3-tables-zcc&family=australia&ft:locale=en-US)
@@ -214,8 +214,8 @@ Workflow Data Fabric Hub is now Zero Copy Connector Hub.
 
 -   **[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)**
     -   Authenticate to [Databricks](https://www.servicenow.com/docs/access?context=databricks-zcc&family=australia&ft:locale=en-US) and [Snowflake](https://www.servicenow.com/docs/access?context=snowflake-zcc&family=australia&ft:locale=en-US) using your own credentials with personal authentication support.
-    -   Retrieve real-time metadata and data from REST-enabled systems without copying or duplicating the data. This release adds [REST connectors](https://www.servicenow.com/docs/access?context=rest-connectors&family=australia&ft:locale=en-US) for [Oracle HCM \(Discovery\)](https://www.servicenow.com/docs/access?context=oracle-hcm-discovery-zcc&family=australia&ft:locale=en-US) and [Acumatica](https://www.servicenow.com/docs/access?context=acumatica-zcc&family=australia&ft:locale=en-US).
-    -   [MySQL](https://www.servicenow.com/docs/access?context=mysql-zcc&family=australia&ft:locale=en-US) and [PostgreSQL](https://www.servicenow.com/docs/access?context=postgresql-zcc&family=australia&ft:locale=en-US) connectors moved from Community connectors to Primary connectors.
+    -   Retrieve real-time metadata and data from REST-enabled systems without copying or duplicating the data. This release adds [REST connectors](https://www.servicenow.com/docs/access?context=rest-connectors&family=australia&ft:locale=en-US) for [Oracle HCM \(REST\)](https://www.servicenow.com/docs/access?context=oracle-hcm-discovery-zcc&family=australia&ft:locale=en-US) and [Acumatica \(REST\)](https://www.servicenow.com/docs/access?context=acumatica-zcc&family=australia&ft:locale=en-US).
+    -   [MySQL \(Preview\)](https://www.servicenow.com/docs/access?context=mysql-zcc&family=australia&ft:locale=en-US) and [PostgreSQL](https://www.servicenow.com/docs/access?context=postgresql-zcc&family=australia&ft:locale=en-US) connectors moved from Community connectors to Primary connectors.
 
 </td></tr><tr><td>
 
@@ -225,7 +225,7 @@ Brazil
 
 -   **MySQL connector moved to Primary with Preview label**
 
-The [MySQL](https://www.servicenow.com/docs/access?context=mysql-zcc&family=brazil&ft:locale=en-US) connector moved from the Community connector list to the Primary connector list. This connector is available with a **Preview** label, indicating that performance enhancements are ongoing.
+The [MySQL \(Preview\)](https://www.servicenow.com/docs/access?context=mysql-zcc&family=brazil&ft:locale=en-US) connector moved from the Community connector list to the Primary connector list. This connector is available with a **Preview** label, indicating that performance enhancements are ongoing.
 
 -   **PostgreSQL connector moved to Primary**
 
@@ -359,7 +359,7 @@ Australia
 
 -   **Activation information**
 
-Install Zero Copy Connector Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Zero Copy Connector Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://www.servicenow.com/docs/access?context=request-zcc&family=australia&ft:locale=en-US).
 
@@ -374,7 +374,7 @@ Brazil
 
 -   **Activation information**
 
-Install Zero Copy Connector Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+Install Zero Copy Connector Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://www.servicenow.com/docs/access?context=request-zcc&family=brazil&ft:locale=en-US).
 

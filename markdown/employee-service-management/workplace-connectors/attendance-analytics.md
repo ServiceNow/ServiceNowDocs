@@ -29,7 +29,7 @@ Role required: sn\_wsd\_wc.admin
 2.  Navigate to **All** &gt; **Workplace Core** &gt; **Administration** &gt; **Workplace profiles**.
 
     -   Verify that the **Location** field is updated with the correct location. For more information, see [Set the primary location of a workplace profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/set-prim-location-of-worplace-profile.md).
-    -   Verify that the **Workplace entity** column is mapped to the user workplace profile. For more information, see [Map designated workspaces to user profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/map-employees-to-existing-workplace-locations-wsd.md) and [Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-entity.md).
+    -   Verify that the **Workplace entity** column is mapped to the user workplace profile. For more information, see [Map designated workspaces to user profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/map-employees-to-existing-workplace-locations-wsd.md) and [Configure Workplace entities and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-entity.md).
 3.  Navigate to **All** and in the application context menu search for **sn\_wsd\_central\_attendance\_analytics.list**.
 
     The Attendance Analytics page is displayed.

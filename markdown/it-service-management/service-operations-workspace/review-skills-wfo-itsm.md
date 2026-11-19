@@ -18,29 +18,29 @@ Evaluate the skill proficiency for an existing skill or add a new skill and requ
 
 ## Before you begin
 
-Role required:sn\_wfo\_skillreview.user
+Role required: sn\_wfo\_skillreview.user
 
 ## About this task
 
-You will receive a notification when your manager initiates or approves a skill review request.
+You receive a notification when your manager initiates or approves a skill review request.
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the List icon \(\[Omitted image "sow-list.png"\] Alt text: List icon\).
+2.  Select the **List** icon \(\[Omitted image "sow-list.png"\] Alt text: List icon\).
 
 3.  Send a request to review an updated skill proficiency or to review a new skill to be added to your skill set.
 
-<table id="choicetable_sz5_hnf_jtb"><thead><tr><th align="left" id="d446366e80">
+<table id="choicetable_sz5_hnf_jtb"><thead><tr><th align="left" id="d447428e87">
 
 To
 
-</th><th align="left" id="d446366e83">
+</th><th align="left" id="d447428e90">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d446366e89">
+</th></tr></thead><tbody><tr><td id="d447428e96">
 
 **Send a request to review an updated skill proficiency**
 
@@ -52,9 +52,9 @@ Do this
 4.  In the **New skill level** field, update the new skill level for a skill based on your proficiency.
 
 
-</td></tr><tr><td id="d446366e128">
+</td></tr><tr><td id="d447428e135">
 
-**Send a request to review a new skill to be add to your profile**
+**Send a request to review a new skill to be added to your profile**
 
 </td><td>
 
@@ -62,7 +62,7 @@ Do this
 2.  In the **Title** field, enter a title for the request.
 3.  Select **Save**. The **Skill review results** page appears.
 4.  Select **Add new skill**.
-5.  In the **Skill** field, select a skill that you want approval for to add to your skill set.
+5.  In the **Skill** field, select a skill that you want to add to your skill set.
 6.  In the **Skill level** field select the skill level based on your proficiency.
 7.  Select **Save**. An **Add new skill** section appears below the Skill review results section. You can add more new skills and select the skill levels for each added skill and select **Save**.
 
@@ -70,7 +70,7 @@ Do this
 </td></tr></tbody>
 </table>4.  Select **Submit for review**.
 
-    When your manager approves or rejects the skill review request and completes it, you will receive a notification.
+    When your manager approves or rejects the skill review request and completes it, you receive a notification.
 
 
 **Parent Topic:**[Workforce Optimization for ITSM in the Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/wfo-itsm-service-operations-workspace.md)

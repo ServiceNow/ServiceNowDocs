@@ -43,6 +43,12 @@ Sandboxes are retained during instance upgrades in Developer Sandboxes, sandboxe
 
 ### What's changed
 
+-   **[Sandboxes kept during upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/dev-sbx-clone-upgrade-info.md)**
+
+    Starting with Brazil Patch 3, upgrades keep your sandboxes in Developer Sandboxes instead of deleting them, so you can continue working in a sandbox after an upgrade.
+
+    **Note:** A retained sandbox isn't upgraded with the base instance, so it might be out of date or lose some functionality.
+
 -   **[Manual sandbox enablement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/dsb-properties-installed.md)**
 
     Starting with the Brazil Patch 2 release, installing the `com.glide.dsb` plugin no longer enables Developer Sandboxes automatically. Enable it manually by setting the following property on the instance before you add it through license management:

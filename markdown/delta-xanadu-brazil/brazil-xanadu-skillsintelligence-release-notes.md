@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-skillsintelligence-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -206,7 +206,7 @@ Xanadu
 
 </td><td>
 
-The Skills onboarding feature is removed and is replaced with Skill imports playbook experience. For customers who already have their data in Skills onboarding, download all the skills in the Ready for review state and re-upload them using the new import process. For more information, see [\[Placeholder link text to key import-and-validate-custom-skills-onboarding\]](https://www.servicenow.com/docs/access?context=import-and-validate-custom-skills-onboarding&family=xanadu&ft:locale=en-US).
+The Skills onboarding feature is removed and is replaced with Skill imports playbook experience. For customers who already have their data in Skills onboarding, download all the skills in the Ready for review state and re-upload them using the new import process. For more information, see [import and validate custom skills onboarding](https://www.servicenow.com/docs/access?context=import-and-validate-custom-skills-onboarding&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -312,7 +312,7 @@ Xanadu
 
 </td><td>
 
-Install Skills Foundation by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install Skills Foundation by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 

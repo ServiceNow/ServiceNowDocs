@@ -1,6 +1,6 @@
 ---
-title: Frequently Asked Questions
-description: Frequently asked questions while using Access Analyzer.
+title: Frequently asked questions
+description: Answers to common questions about evaluating access, comparing users, and comparing user access in Access Analyzer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/frequently-asked-questions.html
 release: brazil
@@ -10,9 +10,9 @@ reading_time_minutes: 4
 breadcrumb: [Access Analyzer, Access Management]
 ---
 
-# Frequently Asked Questions
+# Frequently asked questions
 
-Frequently asked questions while using Access Analyzer.
+Answers to common questions about evaluating access, comparing users, and comparing user access in Access Analyzer.
 
 ## Evaluate Access
 
@@ -101,9 +101,9 @@ The following are frequently asked questions while using the Compare user record
 |Questions|Explanation|
 |---------|-----------|
 |How to read the results on the **Details** tab?|The **Details** tab displays the metadata associated with user 1 and user 2.|
-|How to grant a role to a user?|From the **Roles** tab, you can check the role that must be granted for the user and assign that role.|
-|How to add a user to a group?|From the **Groups** tab, you can check the group the user must be added and add the user to the group.|
-|What is Show differences only?|When you enable the **Show differences only** check box, only the roles or groups that are different between the user 1 and user 2 are shown.|
+|How to grant a role to a user?|From the **Roles** tab, you can select the role that must be granted for the user and assign that role.|
+|How to add a user to a group?|From the **Groups** tab, you can select the group the user must be added and add the user to the group.|
+|What is Show differences only?|When you select the **Show differences only** check box, only the roles or groups that are different between the user 1 and user 2 are shown.|
 
 ## Compare user access
 
@@ -142,7 +142,7 @@ What is **Show differences only**?
 
 </td><td>
 
-When you enable the **Show differences only** check box, only the operation evaluation states that are different between the user 1 and user 2 are shown.
+When you select the **Show differences only** check box, only the operation evaluation states that are different between the user 1 and user 2 are shown.
 
 </td></tr><tr><td>
 
@@ -167,7 +167,7 @@ The **Role Hierarchy** page displays roles that are assigned to user 1 and user 
 
 </td></tr><tr><td>
 
-How can I see the details of the user?
+How can you see the details of the user?
 
 </td><td>
 
@@ -175,7 +175,7 @@ You can select the **User \(node\)** &gt; **More actions** &gt; **View user deta
 
 </td></tr><tr><td>
 
-How can I see the details of the role?
+How can you see the details of the role?
 
 </td><td>
 
@@ -183,7 +183,7 @@ You can select the **Role \(node\)** &gt; **More actions** &gt; **View role deta
 
 </td></tr><tr><td>
 
-How can I see the details of the resources the role can access?
+How can you see the details of the resources the role can access?
 
 </td><td>
 
@@ -191,7 +191,7 @@ You can select the **Role \(node\)** &gt; **More actions** &gt; **View all resou
 
 </td></tr><tr><td>
 
-How can I see the details of the group?
+How can you see the details of the group?
 
 </td><td>
 

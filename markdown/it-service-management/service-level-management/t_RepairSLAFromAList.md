@@ -9,7 +9,7 @@ classification: service-level-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Repair Service Level Agreement \(SLA\), Using Service Level Management, Service Level Management, IT Service Management]
+breadcrumb: [Service Level Agreement \(SLA\) repair, Using Service Level Management, Service Level Management, IT Service Management]
 ---
 
 # Repair SLAs from a list
@@ -39,10 +39,10 @@ You can also repair SLA records from the relevant Task form, or from the SLA for
     **Note:** Closing the progress dialog box does not stop the repair process. You can go to **Active repairs** or **My repairs** and click **Show progress** to view the progress dialog again.
 
 
-**Parent Topic:**[Repair Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_RepairSLAs.md)
+**Parent Topic:**[Service Level Agreement \(SLA\) repair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_RepairSLAs.md)
 
 **Related topics**  
 
 
-[Repair Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_RepairSLAs.md)
+[Service Level Agreement \(SLA\) repair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_RepairSLAs.md)
 

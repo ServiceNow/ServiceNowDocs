@@ -32,15 +32,15 @@ Role required: admin
 
 2.  Perform one of the following actions to start creating an incident.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d433935e103">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d435009e107">
 
 Option
 
-</th><th align="left" id="d433935e106">
+</th><th align="left" id="d435009e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d433935e112">
+</th></tr></thead><tbody><tr><td id="d435009e116">
 
 **From the List menu**
 
@@ -51,7 +51,7 @@ Description
 3.  Select **New Incident**.
 
 
-</td></tr><tr><td id="d433935e151">
+</td></tr><tr><td id="d435009e155">
 
 **From an incident list**
 
@@ -69,7 +69,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d433935e191">
+</td></tr><tr><td id="d435009e195">
 
 **From an interaction**
 
@@ -84,15 +84,15 @@ Description
 
 4.  Perform one of the following actions to get the field recommendations:
 
-    -   If you're on a version prior to 4.2, then press the tab key to get the field recommendations.
+    -   If you're on a version prior to 4.2, then press the Tab key to get the field recommendations.
 
         The fields are auto-filled or recommended based on the output defined in the recommendation.
 
         \[Omitted image "ra-field-recommendation.png"\] Alt text: UI of the field recommendations on a new incident form when using a version prior to 4.2.
 
-    -   If you're using a version after 4.2, select the required fields to see the field recommendations in the drop-down list.
+    -   If you're using a version later than 4.2, select the required fields to see the field recommendations in the drop-down list.
 
-        \[Omitted image "ra\_get\_field\_recommendations\_drop-down.png"\] Alt text: UI of the field recommendations on a new incident form when using a version after 4.2.
+        \[Omitted image "ra\_get\_field\_recommendations\_drop-down.png"\] Alt text: UI of the field recommendations on a new incident form when using a version later than 4.2.
 
 
 **Parent Topic:**[Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md)

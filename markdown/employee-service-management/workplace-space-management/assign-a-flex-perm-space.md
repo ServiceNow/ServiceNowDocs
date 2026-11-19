@@ -77,6 +77,8 @@ The space is configured as flexible or permanent based on the assignment type th
 
 [Add a space using Workplace Space Management]()
 
+[Configure a space type as usable with Workplace Space Management]()
+
 [Allocate a cost center, department, or workplace entity]()
 
 [Update the measurement details of a workplace location]()

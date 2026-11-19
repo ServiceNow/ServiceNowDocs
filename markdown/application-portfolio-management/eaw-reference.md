@@ -19,13 +19,13 @@ The TLM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\] table inclu
 -   **[Filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-filter-conditions-reference.md)**  
 Filter and sort options define which records appear in a custom list and the order in which they are displayed.
 -   **[Scheduled jobs installed with Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-scheduled-jobs.md)**  
-The installation of the Enterprise Architecture Workspace store application adds scheduled jobs.
+Scheduled jobs are installed with the Enterprise Architecture Workspace store application.
 -   **[Tables installed with TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-tables-installed-with-tpm.md)**  
 Several types of tables are installed with Technology Lifecycle Management.
 -   **[Business rules for TLM in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-tpm-business-rules.md)**  
-Several types of business rules are added with Technology Lifecycle Management.
+Business rules for Technology Lifecycle Management support technology lifecycle management in EA Workspace.
 -   **[Scheduled jobs for TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-tpm-scheduled-jobs.md)**  
-Several types of scheduled jobs are added for Technology Lifecycle Management.
+Scheduled jobs for Technology Lifecycle Management populate technology life cycle data, technical debt records, and risk data in the EA Workspace.
 -   **[Application indicator score calculation in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-application-indicator-score-calculation.md)**  
 Enterprise Architecture Workspace calculates a composite score for each business application and business capability by running data from configured indicators through a multi-step pipeline. The pipeline normalizes raw values, applies weighted contributions, and aggregates the results into a final score per fiscal period.
 -   **[Technology lifecycle risk score in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-trm-technology-lifecycle-risk-score.md)**  

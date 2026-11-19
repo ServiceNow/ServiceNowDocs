@@ -8,7 +8,8 @@ product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-10-23"
-reading_time_minutes: 1
+reading_time_minutes: 2
+keywords: [powershell remedial action, custom remedial action, powershell script, acc plugin, agent client collector \(acc\), check definition, sign acc plugin, endpoint script]
 breadcrumb: [Creating DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

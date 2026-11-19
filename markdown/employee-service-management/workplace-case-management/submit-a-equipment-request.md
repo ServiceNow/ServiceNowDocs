@@ -28,15 +28,15 @@ Use the **Equipment** workplace service to request for additional chairs, tables
 
 1.  Navigate to the portal from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d630152e70">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d630747e72">
 
 Location
 
-</th><th align="left" id="d630152e73">
+</th><th align="left" id="d630747e75">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d630152e79">
+</th></tr></thead><tbody><tr><td id="d630747e81">
 
 **Workplace Service Portal**
 
@@ -56,7 +56,7 @@ The portal homepage opens.
 3.  Select **Submit a maintenance request**.
 
 
-</td></tr><tr><td id="d630152e149">
+</td></tr><tr><td id="d630747e151">
 
 **Employee Center**
 

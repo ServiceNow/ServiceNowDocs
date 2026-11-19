@@ -64,7 +64,7 @@ To enable an agent to see the ServiceNow Otto experience on the Create Article p
 -   Activate the Knowledge Content Recommendation skill. In Otto Admin, navigate to **Otto Experiences** &gt; **Otto Context Menu** and activate the Knowledge Content Recommendation skill. Activating the Otto Context Menu alone does not enable this skill.
 -   Currently, only the Create Article experience is available.
 
-Role required: itil
+Role required: itil, sn\_service\_desk\_agent
 
 ## Procedure
 
@@ -108,15 +108,15 @@ Role required: itil
 
 6.  To add or update the knowledge article, follow the instructions in the table below.
 
-<table><thead><tr><th align="left" id="d191197e563">
+<table><thead><tr><th align="left" id="d191869e565">
 
 To add or update the knowledge article
 
-</th><th align="left" id="d191197e566">
+</th><th align="left" id="d191869e568">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d191197e572">
+</th></tr></thead><tbody><tr><td id="d191869e574">
 
 **In Service Operation Workspace**
 
@@ -129,7 +129,7 @@ Do this
 -   Click **Save**.
 
 
-</td></tr><tr><td id="d191197e607">
+</td></tr><tr><td id="d191869e609">
 
 **In Core UI**
 
@@ -153,15 +153,15 @@ To update it:
 
     \[Omitted image "now-assist-itsm-ai-search.png"\] Alt text: AI Search activated
 
-<table id="choicetable_d3l_scz_23c"><thead><tr><th align="left" id="d191197e705">
+<table id="choicetable_d3l_scz_23c"><thead><tr><th align="left" id="d191869e707">
 
 Type of UI
 
-</th><th align="left" id="d191197e708">
+</th><th align="left" id="d191869e710">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d191197e714">
+</th></tr></thead><tbody><tr><td id="d191869e716">
 
 **In Service Operation Workspace**
 
@@ -180,7 +180,7 @@ The Knowledge article is created and attached to all selected similar incidents.
 
 \[Omitted image "now-assist-itsm-sow-similar-inc-knowledge.png"\] Alt text: Knowledge created for similar incidentsSelect **Save** to save the article.
 
-</td></tr><tr><td id="d191197e783">
+</td></tr><tr><td id="d191869e785">
 
 **In Core UI**
 

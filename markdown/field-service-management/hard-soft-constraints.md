@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/field-service-management/hard-s
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 21
+reading_time_minutes: 22
 breadcrumb: [Schedule Optimization components, Reference, Field Service Management]
 ---
 
@@ -16,7 +16,7 @@ Objectives and constraints are optimization features that determine how tasks ar
 
 ## Objectives
 
-Objectives prioritize agent task assignments, and each objective is weighted. Schedule Optimization prioritizes higher-numbered weights. For default settings, apply a weight of 1, and for more important factors, such as maximizing high-priority task assignments, apply a weight of 2.
+Objectives prioritize agent task assignments, and each objective is weighted. Schedule Optimization prioritizes higher-numbered weights. For default settings, apply a weight of 1, and for more important factors, such as maximizing high-priority task assignments, apply a weight of 2. Weight values must be integers greater than 0 and less than 100.
 
 <table id="table_p1j_q3h_fyb"><thead><tr><th>
 
@@ -42,6 +42,8 @@ Reward for even distribution of work hours \(i.e., tasks, travel\) between agent
 
 Shift “A” is assigned to tech A, and Shift “B” is assigned to tech B. Tasks “X”, “Y”, and “Z” have durations of 1 hour, 2 hours, and 3 hours, respectively. Travel between the shift start location, task locations, and the shift end location takes 1 hour for each segment.**Result:** When the objective applies, the assignment prioritizes an even distribution of total work hours \(tasks plus travel\) across agents. Assigning tasks “X” and “Y” to Shift “A” \(3 hours on tasks + 3 hours on travel\) and task “Z” to Shift “B” \(3 hours on tasks + 2 hours on travel\) achieves a more balanced split than other assignments.
 
+**Note:** You can enable only one balance objective for each policy record.
+
 </td></tr><tr><td>
 
 Maximize balance in number of tasks agents work
@@ -53,6 +55,8 @@ Reward for even distribution of tasks between agents.
 </td><td>
 
 Shift “A” is assigned to tech A, and Shift “B” is assigned to tech B. Tasks “X” and “Y” each require one hour to complete.**Result:** When the objective applies, the assignment prioritizes giving one task to each shift so both agents have an equal workload.
+
+**Note:** You can enable only one balance objective for each policy record.
 
 </td></tr><tr><td>
 
@@ -582,7 +586,7 @@ Enable demand channels
 
 </td><td>
 
-Tasks can only be assigned to technicians who support the demand channel associated with the tasks on the day of assignment.**Note:** Install Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) plugin and enable system properties **Enable Shift Scheduling for FSM to Determine Availability** and **Enable/disable association of territory resources with demand channels** to use this feature.
+Tasks can only be assigned to technicians who support the demand channel associated with the tasks on the day of assignment.**Note:** Install Field Service Advanced Capacity and Reservations Management \(com.snc.fsm\_advanced\_capacity\_management\) plugin and enable system properties **Enable Shift Scheduling for FSM to Determine Availability** and **Enable/disable association of territory resources with demand channels** to use this feature.
 
 </td><td>
 

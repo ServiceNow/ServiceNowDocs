@@ -1,6 +1,6 @@
 ---
 title: Set up the Google Chat spoke
-description: Integrate the ServiceNow instance and Google Chat by creating a custom OAuth application in Google Cloud console to authenticate ServiceNow requests.Create credentials in Google Cloud console account to enable OAuth 2.0 authentication with the Google Chat spoke.Add and configure a Docker connection to authenticate ServiceNow requests in Docker spoke.
+description: Integrate the ServiceNow instance and Google Chat by creating a custom OAuth application in Google Cloud console to authenticate ServiceNow requests.Create credentials in Google Cloud console account to enable OAuth 2.0 authentication with the Google Chat spoke.Add and configure a connection to authenticate ServiceNow requests in the Google Chat spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/integration-hub/setup-google-chat.html
 release: brazil
@@ -93,46 +93,53 @@ Complete these steps from the [Google Cloud console](https://console.cloud.googl
 12. Save the configuration of your app in Google Cloud console.
 
 
-## Configure a connection for Google Chat spoke
+## Configure a connection for the Google Chat spoke
 
-Add and configure a Docker connection to authenticate ServiceNow requests in Docker spoke.
+Add and configure a connection to authenticate ServiceNow requests in the Google Chat spoke.
 
 ### Before you begin
 
-Role required: admin
+Role required: admin.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Click the **Connections** tab.
+2.  Click the **Integrations** tab.
 
-3.  Locate the alias for **Google\_Chat** and and click **View Details**.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-    **Note:** Don't click**Add Connection**.
+4.  Locate the alias for **Google\_Chat** and click **View Details**.
 
-    \[Omitted image "google-chat-spoke-conn-temp.png"\] Alt text: Google Chat spoke connection template
+    -   To configure the default connection and credential alias record that is shipped along with the Google Chat spoke, click **View Details**.
 
-4.  Click **Configure** if you are configuring the connection for the first time.
+        \[Omitted image "google-chat-spoke-conn-temp.png"\] Alt text: Connection for the Google Chat spoke.
+
+    -   To manage more than one Google Chat spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
+5.  Click **Configure** if you are configuring the connection for the first time. Otherwise, click **Edit**.
 
     \[Omitted image "google-chat-spoke-conn-config.png"\] Alt text: Google Chat spoke connection configuration
 
-5.  On the **Configure Connection** form, fill in the fields.
+6.  On the **Configure Connection** form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
+    |Connection Information|
     |Connection Name|Name to uniquely identify the connection record.|
-    |Connection URL|URL to Google Chat APIs. Enter `https://chat.googleapis.com`|
+    |Connection URL|URL to Google Chat APIs. Enter `https://chat.googleapis.com`.|
     |API Version|Google Chat API version. Enter `v1`.|
+    |Credential Information|
     |OAuth Client ID|OAuth client ID of Google Chat app in Google Cloud console.|
     |OAuth Client Secret|OAuth client secret of Google Chat app in Google Cloud console.|
-    |OAuth Redirect URL|OAuth redirect URL of your ServiceNow instance. Enter in this format`https://<your-instance-name>.service-now.com/oauth_redirect.do`|
+    |OAuth Redirect URL|OAuth redirect URL of your ServiceNow instance. Enter in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`.|
 
-6.  Click **Configure and Get OAuth Token**.
+    \[Omitted image "google-chat-spoke-conf-temp.png"\] Alt text: Google Chat spoke connection configuration form
+
+7.  Click **Save and Get OAuth Token**.
 
     You will be redirected to Google accounts login page.
 
-7.  Enter your Google Chat API credentials.
+8.  Enter your Google Chat API credentials.
 
 
 ### Result

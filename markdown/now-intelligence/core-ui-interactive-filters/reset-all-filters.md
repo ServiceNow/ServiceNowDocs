@@ -32,7 +32,7 @@ If there is a default value on a filter, resetting the filters returns that filt
 
 2.  Select the dashboard and tab that you want to reset.
 
-3.  Click the context menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text:\) and select **Reset Filters**.
+3.  Click the context menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: Context menu icon\) and select **Reset Filters**.
 
 
 **Parent Topic:**[Interactive Filters on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/c_PublishersOnHomepages.md)

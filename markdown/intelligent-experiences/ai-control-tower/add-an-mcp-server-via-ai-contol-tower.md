@@ -1,6 +1,6 @@
 ---
-title: Add an MCP server from AI Control Tower
-description: Add an MCP server from AI Control Tower.
+title: Add an MCP server from Control Tower
+description: Add an MCP server from Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/add-an-mcp-server-via-ai-contol-tower.html
 release: brazil
@@ -9,12 +9,12 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Process flow of MCP servers via AI Gateway, AI Gateway, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Process flow of MCP servers via AI Gateway, AI Gateway, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Add an MCP server from AI Control Tower
+# Add an MCP server from Control Tower
 
-Add an MCP server from AI Control Tower.
+Add an MCP server from Control Tower.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: sn\_ai\_governance.ai\_steward
 -   \(AIG admin\) aig\_admin
 -   \(MCP Client admin\) sn\_mcp\_client.admin
 
-For more information on the AI Steward role and its responsibilities, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.md)
+For more information on the AI Steward role and its responsibilities, see [Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.md)
 
 ## Procedure
 
@@ -42,7 +42,7 @@ For more information on the AI Steward role and its responsibilities, see [AI Co
 
 6.  Select the Client registration type.
 
-    **Note:** Selecting Dynamic client Registration, AI Control Tower automatically receives the Client ID and Client Secret. Selecting Manual registration, the client must be created externally on the MCP provider side while the client ID and secret must be entered manually.
+    **Note:** Selecting Dynamic client Registration, Control Tower automatically receives the Client ID and Client Secret. Selecting Manual registration, the client must be created externally on the MCP provider side while the client ID and secret must be entered manually.
 
 7.  Review all the other details such as Grant type, and Token authentication method.
 

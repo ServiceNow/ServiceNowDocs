@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Internationalization support, Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Internationalization support, Administer, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Assign Knowledge article search languages by country
@@ -32,7 +32,7 @@ Search administrators can expand the recall of Knowledge article searches for a 
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `ais_country_to_search_language.list`.
+    2.  In the navigation filter, enter `ais_country_to_search_language.list`.
 
     3.  Press Enter.
 

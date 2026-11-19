@@ -8,7 +8,7 @@ product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 

@@ -18,7 +18,7 @@ Create risk frameworks to group risk statements into manageable categories and g
 
 ## Before you begin
 
-Role required: sn\_risk.manager
+Role required: sn\_risk.manager, plus one of the Risk Workspace persona roles: sn\_risk\_workspace.operational\_risk\_manager, sn\_risk\_workspace.IT\_risk\_manager or sn\_risk\_workspace.business\_op\_risk\_manager. Without a persona role, the Risk Workspace is not available.
 
 ## Procedure
 
@@ -89,15 +89,15 @@ Additional information for this risk framework.
 
 6.  To add risk statements, click the Risk Statements related list and do one of the following.
 
-<table id="choicetable_tsm_t3y_qpb"><thead><tr><th align="left" id="d355420e219">
+<table id="choicetable_tsm_t3y_qpb"><thead><tr><th align="left" id="d355943e221">
 
 Choice
 
-</th><th align="left" id="d355420e222">
+</th><th align="left" id="d355943e224">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d355420e228">
+</th></tr></thead><tbody><tr><td id="d355943e230">
 
 **To add an existing risk statement**
 
@@ -108,7 +108,7 @@ Steps
 3.  Click **Add**.
 
 
-</td></tr><tr><td id="d355420e254">
+</td></tr><tr><td id="d355943e256">
 
 **To create a risk statement**
 

@@ -1,6 +1,6 @@
 ---
 title: Exploring On-call Scheduling in Service Operations Workspace
-description: On-Call Scheduling ensures that dedicated support team members are always available to resolve issues as they arise. You can set up on-call schedules, roster rotations, and escalation policies, escalate notifications for a group, and determine the current contact for an escalation.
+description: On-Call Scheduling helps make dedicated support team members available to resolve issues as they arise. You can set up on-call schedules, roster rotations, and escalation policies, escalate notifications for a group, and determine the current contact for an escalation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/on-call-scheduling-in-service-operations-workspace.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Exploring Service Operations Workspace for ITSM, Service Operations
 
 # Exploring On-call Scheduling in Service Operations Workspace
 
-On-Call Scheduling ensures that dedicated support team members are always available to resolve issues as they arise. You can set up on-call schedules, roster rotations, and escalation policies, escalate notifications for a group, and determine the current contact for an escalation.
+On-Call Scheduling helps make dedicated support team members available to resolve issues as they arise. You can set up on-call schedules, roster rotations, and escalation policies, escalate notifications for a group, and determine the current contact for an escalation.
 
 You can access your shifts and schedules within Service Operations Workspace using **Schedules** options.
 
@@ -24,20 +24,20 @@ See [On-Call Scheduling in Service Operations Workspace](https://raw.githubuserc
 
 ## On-Call Scheduling in Service Operations Workspace workflow
 
-The various members of an organisation use On-Call Scheduling to work together. See a sample end-to-end workflow:\[Omitted image "Oncall\_workflow.png"\] Alt text: On-call scheduling workflow
+The various members of an organization use On-Call Scheduling to work together. See a sample end-to-end workflow:\[Omitted image "Oncall\_workflow.png"\] Alt text: On-call scheduling workflow
 
 1.  Shift admin creates shift and group templates.
 2.  Shift admin assigns role and configures escalation trigger rules. See [Roles in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/roles-in-sow.md) and [Assigning On-Call Scheduling roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/on-call-scheduling/roles-assigning-oncall.md)
-3.  The shift manager creates a shift and add or delete members to the shift.
+3.  The shift manager creates a shift and adds or deletes members for the shift.
 4.  Shift manager designs the entire escalation process for the new shift.
-5.  Roster member views their on-call schedules and find out who the other members on their shift are.
+5.  Roster member views their on-call schedules and finds out who the other members on their shift are.
 6.  Roster member can specify their availability and preferred contact methods from the methods set up by Shift admin.
 7.  Roster members can submit a time-off request and refer another member of the group to cover the shift.
-8.  Roster members views the roster and escalation details for a shift.
+8.  Roster members view the roster and escalation details for a shift.
 9.  Roster members view on-call reports and receive reminders.
 10. The shift manager approves or rejects the time-off requests.
 11. Shift manager reviews the on-call schedules for their groups for any gaps and time-off requests.
-12. Shift manager provides, replace, or delete coverage and time-off requests.
+12. Shift manager provides, replaces, or deletes coverage and time-off requests.
 13. Roster members receive on-call escalation notifications to acknowledge tasks or conference requests.
 14. Shift manager views escalation, group, and performance reports of their on-call teams.
 
@@ -83,7 +83,7 @@ itil, rota\_manager \(Shift Manager\), rota\_admin
 
 </td></tr><tr><td>
 
-Create your own escalation policies and path. On-Call Scheduling allows you to create an escalation trigger rule using the templates available, based on your requirement.
+Create your own escalation policies and path. On-Call Scheduling enables you to create an escalation trigger rule using the templates available, based on your requirement.
 
 </td><td>
 
@@ -95,7 +95,7 @@ itil, rota\_manager \(Shift Manager\), rota\_admin, admin
 
 </td></tr><tr><td>
 
-Create and edit Notification preferences for an entire team.
+Create and edit notification preferences for an entire team.
 
 </td><td>
 

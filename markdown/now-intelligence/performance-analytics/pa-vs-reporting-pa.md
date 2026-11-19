@@ -32,7 +32,7 @@ In addition to calculating trends from snapshots, Performance Analytics is able 
 
 Finally, while you can develop table data visualizations through trial and error, Performance Analytics requires background knowledge in how the feature works. You should carefully plan your Performance Analytics solutions and test them before implementing in a production environment.
 
-**Important:** Do not try to configure Performance Analytics without training. A poorly-designed Performance Analytics solution can severely impact performance and even destabilize your instance. The initial training, [Performance Analytics Essentials](https://learning.servicenow.com/lxp/en/now-intelligence/performance-analytics-pa-essentials?id=learning_course_prev&course_id=289a949bdb2b009015531cbd139619d1), is available free of charge.
+**Important:** Do not try to configure Performance Analytics without training. A poorly-designed Performance Analytics solution can severely impact performance and even destabilize your instance. The initial training, [Platform Analytics Overview](https://learning.servicenow.com/lxp/en/now-intelligence/platform-analytics-pa-overview?id=learning_course_prev&course_id=bb6023f287efcb18a3bc40c5cebb35b7&s=1&ssa=3), is available at no extra charge.
 
 **Parent Topic:**[Exploring Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_GetStartedwithPA.md)
 

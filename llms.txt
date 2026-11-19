@@ -41,7 +41,7 @@ Each folder within the `markdown` directory is a separate publication. The index
 - [Build workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/index.md)
 - [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/index.md)
 - [Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/index.md)
-- [Environmental, Social, and Governance Management (formerly Environmental, Social, and Governance)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/index.md)
+- [Environmental, Social, and Governance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/index.md)
 - [Financial Services Operations (FSO)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/index.md)
 - [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/index.md)
 - [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/glossary/index.md)

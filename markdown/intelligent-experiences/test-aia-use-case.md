@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-aia-use-case.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 3
 breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -76,4 +76,8 @@ Your AI agents start to execute the test autonomously to resolve the agentic wor
 
 
 You can restart the entire testing process at any time by selecting **Restart**.
+
+## What to do next
+
+After testing and activating your agentic workflow, test access in the Virtual Agent or ServiceNow Otto channels you selected. If you don't see your agentic workflow, ensure that it is activated.
 

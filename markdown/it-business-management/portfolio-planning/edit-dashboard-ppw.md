@@ -53,15 +53,15 @@ You can use the following elements to create or edit your dashboard.
 
 3.  From the dashboard header, select **Edit**.
 
-<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d317011e230">
+<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d319158e232">
 
 For this
 
-</th><th align="left" id="d317011e233">
+</th><th align="left" id="d319158e235">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d317011e239">
+</th></tr></thead><tbody><tr><td id="d319158e241">
 
 **Add a tab**
 
@@ -75,7 +75,7 @@ A new tab appears with the default name New Tab.
 3.  Press Enter to update the name of the tab.
 
 
-</td></tr><tr><td id="d317011e265">
+</td></tr><tr><td id="d319158e267">
 
 **Add a dashboard element**
 

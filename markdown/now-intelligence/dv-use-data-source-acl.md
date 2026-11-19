@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/now-intelligence/dv-use-data-so
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -34,7 +34,7 @@ By default, all roles can create data visualizations for all data sources. You c
 
     Your choices include any custom data sources that you have created in the Viz Framework Data Sources \[sys\_viz\_data\_source\] table.
 
-3.  Select the **Edit user roles** icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: pencil icon\) next to Roles.
+3.  Select the **Edit user roles** icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Edit user roles icon\) next to Roles.
 
 4.  In the **Available** field, highlight those roles that should be able to create data visualizations for this data source.
 

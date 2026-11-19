@@ -1,6 +1,6 @@
 ---
 title: Latest Accelerators by release
-description: A list of new Impact Accelerators introduced in each Impact store releases.List of new Accelerators in the v12.0.0 Impact release.List of new Accelerators in the v11.0.0 Impact release.List of new Accelerators in the v8.0.0 Impact release.List of new Impact Accelerators in the v7.0.0 release.
+description: A list of new Impact Accelerators introduced in each Impact store releases.Technical Accelerators introduced in the v12.2.0 Impact release.List of new Accelerators in the v12.0.0 Impact release.List of new Accelerators in the v11.0.0 Impact release.List of new Accelerators in the v8.0.0 Impact release.List of new Impact Accelerators in the v7.0.0 release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/new-accelerators-australia-release.html
 release: brazil
@@ -8,7 +8,7 @@ product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
@@ -16,10 +16,22 @@ breadcrumb: [Accelerator catalog, Accelerators and Initiatives, Using Impact, Im
 
 A list of new Impact Accelerators introduced in each Impact store releases.
 
+-   
 -   [Accelerators introduced in v12.0.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
 -   [Accelerators introduced in v11.0.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
 -   [Accelerators introduced in v8.0.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
 -   [Accelerators introduced in v7.0.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
+
+## Accelerators introduced in v12.2.0
+
+Technical Accelerators introduced in the v12.2.0 Impact release.
+
+### Technical accelerators
+
+The following Impact Technical Accelerators were introduced in v12.2.0:
+
+-   [Jumpstart Your Machine Identity Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-your-machine-identity-security.md): Helps participants govern and secure non-human identities with the Machine Identity Console and Machine Identity Access Controls. It also supports auditing service accounts, assessing authentication risk, applying least-privilege controls, receiving a prioritized remediation plan along with a practical approach to managing machine identities over time.
+-   [Introduction to Impact App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/introduction-to-the-impact-app.md): Shows Impact customers how value measurement, product adoption, and consumption work together in one continuous workflow. The accelerator uses Value Management, the Capabilities Map, Product Adoption Roadmaps, and the Consumption Report.
 
 ## Accelerators introduced in v12.0.0
 

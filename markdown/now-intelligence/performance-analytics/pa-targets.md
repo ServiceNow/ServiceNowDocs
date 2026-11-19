@@ -57,7 +57,7 @@ Role required: pa\_target\_admin to create global targets that are visible to al
 
     For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/applying-time-series-aggregations.md).
 
-4.  Click the Target icon \(\[Omitted image "TargetIcon.png"\] Alt text:\).
+4.  Click the Target icon \(\[Omitted image "TargetIcon.png"\] Alt text: Target icon\).
 
     The Targets panel opens.
 
@@ -69,7 +69,7 @@ Role required: pa\_target\_admin to create global targets that are visible to al
 
     -   To create a target, click the + plus sign.
     -   To edit an existing target, click it in the Targets panel.
-    -   To delete an existing target in the Analytics Hub, click the delete icon. \[Omitted image "delete-threshold-ah.png"\] Alt text:
+    -   To delete an existing target in the Analytics Hub, click the delete icon. \[Omitted image "delete-threshold-ah.png"\] Alt text: Delete icon
 7.  Enter the target value for the score, in one of the following ways:
 
     -   Enter an absolute value in **Target**, or

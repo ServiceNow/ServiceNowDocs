@@ -1,6 +1,6 @@
 ---
 title: Application management card
-description: The Application management card lists the applications in use, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
+description: The Application management card shows the list of the used applications, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/digital-end-user-experience-dex/app-mngmt-card.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Administration cards, DEX Application and Device Health reference, 
 
 # Application management card
 
-The Application management card lists the applications in use, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
+The Application management card shows the list of the used applications, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
 
 <table id="table_nzs_1cp_qdc"><thead><tr><th>
 
@@ -38,7 +38,7 @@ Metrics monitoring
 
 </td><td>
 
-Indication of whether application monitoring is turned on.Turn application monitoring on or off, or delete an application from the list by selecting the application and then selecting an option from the **Actions** list.
+Indication whether application monitoring is turned on.To turn application monitoring on or off, or to delete an application from the list, select the application and then select an option from the **Actions** list.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Compliance monitoring
 
 </td><td>
 
-Indication of whether application compliance monitoring is turned on.Turn compliance monitoring on or off, or remove an application from the list by selecting the application and then selecting an option from the **Actions** list.
+Indication whether application compliance monitoring is turned on.To turn compliance monitoring on or off, or to remove an application from the list, select the application and then select an option from the **Actions** list.
 
 </td></tr><tr><td>
 

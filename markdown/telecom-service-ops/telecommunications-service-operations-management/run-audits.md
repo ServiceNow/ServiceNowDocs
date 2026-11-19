@@ -148,5 +148,5 @@ After remediation:
 
 [Activate Telecom Discrepancy and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-telecom-reconciliation.md)
 
-[Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UIActions.md)
+[bundle-platadm.c_UIActions]
 

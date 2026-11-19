@@ -16,6 +16,10 @@ The Amazon Redshift connector provides read-only access to data and metadata fro
 
 A connection admin can set up a connection to Amazon Redshift in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Amazon Redshift. This allows users to access Amazon Redshift data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
 
+**Note:**
+
+This connector is available starting with Yokohama patch 5.
+
 The connector has been enhanced to improve the performance of the following Glide queries and list view operations. These improvements allow the majority of queries to be executed at the data source.
 
 -   Sort

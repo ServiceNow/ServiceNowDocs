@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate carbon calculations agentic workflow, Configure, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Activate carbon calculations agentic workflow, Configure, Now Assist, Use, Operational Sustainability Management]
 ---
 
 # Attaching calculation guidance document

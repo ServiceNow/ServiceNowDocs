@@ -68,6 +68,6 @@ Role required: admin
 
 12. Activate and define a scheduled job to generate labor costs for your projects and demands based on the attribute-based resource assignments.
 
-    For more information, see [Activate a scheduled job to generate labor costs for your projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/gen-labor-costs-scheduled-job-pp.md).
+    For more information, see [Activate a scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/gen-labor-costs-scheduled-job-pp.md).
 
 

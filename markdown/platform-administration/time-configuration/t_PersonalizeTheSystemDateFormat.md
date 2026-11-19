@@ -9,7 +9,7 @@ classification: time-configuration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Global date and time field format, Date and Date/Time fields, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Global date and time field format, Date and Date/Time fields, Explore, Time configuration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Personalize the system date format

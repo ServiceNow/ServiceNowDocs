@@ -41,7 +41,7 @@ A range of service requests come preconfigured for use with Care Team Operations
 
 1.  An administrator configures the Care Team Operations for Environmental Services application.
 2.  A care team member detects an Environmental Services issue and reports it using the Care Team Portal.
-3.  An Environmental Services support agent receives the request as a work order and fulfills it using CSM/FSM Configurable Workspace.
+3.  An Environmental Services support agent receives the request as a work order and fulfills it using CRM Workspace.
 
 ## Care Team Operations for Environmental Services benefits
 
@@ -49,7 +49,7 @@ A range of service requests come preconfigured for use with Care Team Operations
 |-------|-------|-----|
 |Automate healthcare operations by enabling Environmental Services support request creation and fulfillment.|[Healthcare EVS case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-evs-case-overview.md)|Admin|
 |Create support requests using Care Team Portal.|[Creating service requests for Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-evs-create-requests.md)|Care team|
-|Use CSM/FSM Configurable Workspace to fulfill EVS service requests as work orders when FSM is installed, or as cases.|[Fulfilling requests in Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-evs-fulfill-requests.md)|Agent|
+|Use CRM Workspace to fulfill EVS service requests as work orders when FSM is installed, or as cases.|[Fulfilling requests in Care Team Operations for Environmental Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-evs-fulfill-requests.md)|Agent|
 
 ## What to explore next
 

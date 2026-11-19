@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-22"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, configure, AI Gateway, AI Gateway settings]
-breadcrumb: [AI Gateway, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [AI Gateway, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configuring AI Gateway
@@ -17,9 +17,9 @@ Prepare your instance for AI Gateway, bring MCP servers into the inventory and a
 
 ## Configuration overview
 
-1.  [Activating AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-activating.md)
+1.  [Activating Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-activating.md)
 
-    Activate AI Control Tower, which installs the AWH for AI Control Tower plugin \(sn\_awh\_config\) that provides AI Gateway. There's no separate plugin to activate. AI Gateway isn't available on instances that use domain separation. For information about domain separation in AI Control Tower, see [Domain separation and AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-domain-separation.md).
+    Activate Control Tower, which installs the AWH for AI Control Tower plugin \(sn\_awh\_config\) that provides AI Gateway. There's no separate plugin to activate. AI Gateway isn't available on instances that use domain separation. For information about domain separation in Control Tower, see [Domain separation and Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-domain-separation.md).
 
 2.  [Configure users and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-users-and-roles.md)
 

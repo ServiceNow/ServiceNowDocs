@@ -21,7 +21,7 @@ Within MCO, ServiceNow Otto capabilities fall into the following categories:
 -   Skills
 -   Agentic workflows
 
-Most skills and workflows are available directly on the relevant record page, and you can also start them conversationally from the ServiceNow Otto panel. For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md). To activate the panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
+Most skills and workflows are available directly on the relevant record page, and you can also start them conversationally from the ServiceNow Otto panel. For more information about the panel, see . To activate the panel, see .
 
 ## AI plugins for MCO
 
@@ -33,9 +33,9 @@ These plugins are included in the existing MCO products, bringing AI-powered aut
 -   Advanced: Agentic workflows and multi-step automation.
 -   Prime: Custom AI agent development.
 
-To activate a skill, follow the general procedure in [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md), and select the **MCO** workflow group.
+To activate a skill, follow the general procedure in , and select the **MCO** workflow group.
 
-To edit a skill's prompt, duplicate the skill and edit the copy in AI Skill Kit. See [Clone and edit a ServiceNow skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-and-edit-servicenow-skill.md).
+To edit a skill's prompt, duplicate the skill and edit the copy in AI Skill Kit. See .
 
 ## ServiceNow Otto for MCO AI agents
 

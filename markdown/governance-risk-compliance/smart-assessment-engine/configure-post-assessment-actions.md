@@ -46,15 +46,15 @@ Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_ma
 
 6.  Add either a conditional action set or a standalone action set.
 
-<table id="choicetable_v2z_xht_42c"><thead><tr><th align="left" id="d385164e166">
+<table id="choicetable_v2z_xht_42c"><thead><tr><th align="left" id="d385687e168">
 
 Option
 
-</th><th align="left" id="d385164e169">
+</th><th align="left" id="d385687e171">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d385164e175">
+</th></tr></thead><tbody><tr><td id="d385687e177">
 
 **Choose a conditional action set**
 
@@ -66,7 +66,7 @@ Description
 4.  Select **Save**.
  **Note:** You can select **+New condition set** to add multiple conditions.
 
-</td></tr><tr><td id="d385164e221">
+</td></tr><tr><td id="d385687e223">
 
 **Choose a standalone action set**
 

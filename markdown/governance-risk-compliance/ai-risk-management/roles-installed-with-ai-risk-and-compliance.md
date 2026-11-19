@@ -140,7 +140,7 @@ The ​AI Risk and Compliance User can perform the following tasks:-   Create AI
 -   sn\_smart\_asmt.assessment\_reader
 -   sn\_risk\_advanced.risk\_asmt\_project\_reader
 
-**Note:** For more information on AI Control Tower roles, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/roles-installed-with-ai-control-tower.md).
+**Note:** For more information on Control Tower roles, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/roles-installed-with-ai-control-tower.md).
 
 </td></tr><tr><td>
 
@@ -165,7 +165,7 @@ AI System Reader
 
 </td><td>
 
-​The AI System Reader can have read access to the AI systems on AI Control Tower workspace and AI Risk and Compliance workspace.​
+​The AI System Reader can have read access to the AI systems on Control Tower workspace and AI Risk and Compliance workspace.​
 
 </td><td>
 

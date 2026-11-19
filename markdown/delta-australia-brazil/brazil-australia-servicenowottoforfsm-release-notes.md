@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-servicenowottoforfsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -373,7 +373,7 @@ Australia
 -   Use voice-to-text input when interacting with Now Assist Virtual Agent in the ServiceNow Agent mobile app.
 -   Experience updated visual indicators with consistent AI gradients across platform, workspace, and mobile interfaces.
 
- See [\[Placeholder link text to key bundle-fsm.now-assist-fsm\]](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=australia&ft:locale=en-US) for more information.
+ See [now assist fsm](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=australia&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

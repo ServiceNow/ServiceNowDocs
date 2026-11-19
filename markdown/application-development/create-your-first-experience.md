@@ -48,9 +48,9 @@ If you'd rather use Lux Lab or the ServiceNow Lux Lab for VS Code extension, whi
     now-sdk --version
     ```
 
-    If your version does not match the listed requirements, install or update your packages as necessary.
+    If your version doesn't match the listed requirements, install or update your packages as needed.
 
-2.  Connect the ServiceNow SDK to your instance
+2.  Connect the ServiceNow SDK to your instance.
 
     Run the following command to authenticate the now-sdk with your ServiceNow instance:
 
@@ -58,11 +58,11 @@ If you'd rather use Lux Lab or the ServiceNow Lux Lab for VS Code extension, whi
     now-sdk auth --add https://your-instance.service-now.com --type basic --alias dev
     ```
 
-    Replace `your-instance` with your actual instance name. You will be prompted to enter your ServiceNow username and password.
+    Replace `your-instance` with your actual instance name. You're prompted to enter your ServiceNow username and password.
 
     For more information on instance setup or other authentication methods, see the [ServiceNow SDK authentication documentation](https://www.servicenow.com/docs/r/application-development/servicenow-sdk/authenticate-instance-now-sdk.html).
 
-3.  Scaffold the application
+3.  Scaffold the application.
 
     Run the following commands to create a local directory for your first experience and initialize a new ServiceNow application project. This scaffolds the project for Lux development with a boilerplate structure including configuration files, build scripts, and server-side logic.
 
@@ -71,7 +71,7 @@ If you'd rather use Lux Lab or the ServiceNow Lux Lab for VS Code extension, whi
     npx @servicenow/sdk@latest init --template javascript.aiux
     ```
 
-    You will see prompts for an app name, package name \(also used as the URL basename\), and scope name. To skip the prompts:
+    Prompts appear for an app name, package name \(also used as the URL basename\), and scope name. To skip the prompts:
 
     ```
     npx @servicenow/sdk@latest init --template javascript.aiux --appName my-app --scopeName x_aix_myapp --packageName my-app
@@ -119,7 +119,7 @@ If you'd rather use Lux Lab or the ServiceNow Lux Lab for VS Code extension, whi
 
     The scaffold's `.gitignore` already excludes `dist/` and `dist-metadata/`, because the build generates both.
 
-4.  Install dependencies
+4.  Install dependencies.
 
     Run the following command to install dependencies.
 
@@ -127,7 +127,7 @@ If you'd rather use Lux Lab or the ServiceNow Lux Lab for VS Code extension, whi
     pnpm install
     ```
 
-5.  Run the example locally
+5.  Run the example locally.
 
     Use the following command to start a local dev server.
 
@@ -139,7 +139,7 @@ If you'd rather use Lux Lab or the ServiceNow Lux Lab for VS Code extension, whi
 
     To see your experience, open `http://localhost/aiux/<basename>/<route>` in your browser.
 
-    Example: if your app's `basename` is `my-app` and you want to access the `/home` route: `http://localhost/aiux/my-app/home`
+    Example: if your app's `basename` is `my-app` and you want to access the `/home` route open: `http://localhost/aiux/my-app/home`
 
     **Note:** The path after `/aiux/` is your app's basename \(from `aiux.json`\) followed by the page route:
 
@@ -149,7 +149,7 @@ If you'd rather use Lux Lab or the ServiceNow Lux Lab for VS Code extension, whi
 
     You can try creating a page to add more to your experience: [Create a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-a-page.md).
 
-6.  Build
+6.  Build.
 
     ```
     pnpm run build
@@ -159,7 +159,7 @@ If you'd rather use Lux Lab or the ServiceNow Lux Lab for VS Code extension, whi
 
     A clean build means that Node, pnpm, and the project dependencies all resolved correctly.
 
-7.  Deploy
+7.  Deploy.
 
     Make sure you've run the build before you deploy.
 
@@ -172,7 +172,7 @@ If you'd rather use Lux Lab or the ServiceNow Lux Lab for VS Code extension, whi
 
 ## Result
 
-The starter app ships two routes \(Home and Incidents\), an example component, and an example widget.
+The starter app ships 2 routes \(Home and Incidents\), an example component, and an example widget.
 
 ## What to do next
 

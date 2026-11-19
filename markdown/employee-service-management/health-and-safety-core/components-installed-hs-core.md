@@ -7,7 +7,7 @@ release: brazil
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-06"
 reading_time_minutes: 10
 breadcrumb: [Reference, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -368,7 +368,8 @@ Safety action writer restricted
 
 </td><td>
 
-Can create and update Health and Safety Actions when all restrictions have been met
+Can create and update Health and Safety Actions when all restrictions have been met. Users with this role can add an action to a task only when the task isn't in the Closed Complete state and one of these conditions is met:-   They have the safety agent \[sn\_ohs\_im.agent\] role, and the task is assigned to them or was opened by them.
+-   They have the safety operations manager \[sn\_ohs\_im.operations\_manager\] role, and the task is assigned to them.
 
 </td><td>
 
@@ -475,7 +476,8 @@ Safety incident writer restricted
 
 </td><td>
 
-Can create and update Health and Safety incidents when all restrictions have been met
+Can create and update Health and Safety incidents when all restrictions have been met. Users with this role can add injuries and illnesses, people involved, and root cause analyses to an incident only when both these conditions are met:-   The incident isn't in the Closed Complete state.
+-   The incident is assigned to them.
 
 </td><td>
 
@@ -933,7 +935,7 @@ Root cause analysis
 
 </td><td>
 
-Reference base Health and Safety task \[sn\_ohs\_im\_task\] so that it can be associated with any table that extends Health and Safety Task, for example, Health and Safety incident \[sn\_ohs\_im\_incident\].​ This table is the base table extended by all RCA types.
+References base Health and Safety task \[sn\_ohs\_im\_task\] so that it can be associated with any table that extends Health and Safety Task, for example, Health and Safety incident \[sn\_ohs\_im\_incident\].​ This table is the base table extended by all RCA types.
 
 </td></tr><tr><td>
 

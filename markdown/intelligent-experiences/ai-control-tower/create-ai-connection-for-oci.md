@@ -1,6 +1,6 @@
 ---
 title: Create an AI connection for AI Service Graph Connector for OCI
-description: Create an AI connection for OCI in AI Control Tower using the  AI Service Graph Connector for OCI.
+description: Create an AI connection for OCI in Control Tower using the  AI Service Graph Connector for OCI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connection-for-oci.html
 release: brazil
@@ -9,12 +9,12 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [OCI, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [OCI, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create an AI connection for AI Service Graph Connector for OCI
 
-Create an AI connection for OCI in AI Control Tower using the  AI Service Graph Connector for OCI.
+Create an AI connection for OCI in Control Tower using the  AI Service Graph Connector for OCI.
 
 ## Before you begin
 

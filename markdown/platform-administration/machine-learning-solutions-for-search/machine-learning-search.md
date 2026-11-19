@@ -9,7 +9,7 @@ classification: machine-learning-solutions-for-search
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Machine learning solutions for Search administration

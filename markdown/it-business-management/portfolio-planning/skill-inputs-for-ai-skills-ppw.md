@@ -9,7 +9,7 @@ classification: portfolio-planning
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Configure the demand AI skills, Configure, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Inputs for AI skills
@@ -18,11 +18,13 @@ Learn about the inputs of each skill for the ServiceNow Otto for Strategic Portf
 
 ## AI skill inputs overview
 
-Depending on the selected skill, you can configure inputs. These settings determine how a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a demand summary. If you have the admin role and any input fields are editable, you can modify the input data for a skill.
+Depending on the selected skill, you can configure inputs. These settings determine how a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a demand summary.
+
+**Note:** If you have the admin role and any input fields are editable, you can modify the input data for a skill.
 
 ## Demand summarization skill inputs
 
-The demand summarization skill includes the inputs that identify the table along with the fields and related lists that are used to generate the demand summary. The following table provides more details on the input data.
+The demand summarization skill includes the inputs that identify the table along with the fields and related list fields that are used to generate the demand summary. The following table provides more details on the input data.
 
 <table id="table_gnt_m1l_g3c"><thead><tr><th>
 
@@ -30,7 +32,7 @@ Input
 
 </th><th>
 
-Description
+Table/Field name
 
 </th></tr></thead><tbody><tr><td>
 
@@ -88,16 +90,53 @@ Fields
 
 </td></tr><tr><td>
 
-Related lists
+Demand task related list
 
 </td><td>
 
+-   Category
+-   Assigned to
+-   Short description
 -   Work notes
--   Demand tasks
--   Cost plans
--   Monetary benefit plans
--   Non-monetary benefit plans
--   Resource assignments
+
+</td></tr><tr><td>
+
+Cost plan related list
+
+</td><td>
+
+-   Cost type
+-   Total planned cost
+
+</td></tr><tr><td>
+
+Resource assignment related list
+
+</td><td>
+
+-   Name
+-   Group
+-   Role
+-   Skill
+-   Effort type
+-   Effort
+-   Start date
+-   End date
+-   Resource status
+
+</td></tr><tr><td>
+
+Benefit plan related list
+
+</td><td>
+
+-   Benefit type
+-   Sub category
+-   Description
+-   Total planned benefit
+-   Measure
+-   Non-monetary entered benefit
+-   Non-monetary planned benefit
 
 </td></tr></tbody>
 </table>

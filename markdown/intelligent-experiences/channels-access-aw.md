@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/channels-access-aw.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 2
 breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -21,6 +21,8 @@ Role required: sn\_aia.admin
 ## About this task
 
 The final step of the agentic workflow guided setup includes options for where a user can invoke the agentic workflow. The ServiceNow Otto panel is available to users with the correct role. You can specify the exact conditions when a UI action is available to users on a table.
+
+Once access channels are selected, agentic workflow executions are available in the AI Workflows panel. See [In-product experience for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/in-product-agentic-ai.md).
 
 ## Procedure
 
@@ -53,7 +55,7 @@ The final step of the agentic workflow guided setup includes options for where a
 
 You have completed the guided setup for creating an agentic workflow. Your new agentic workflow can be edited at any time using AI Agent Studio.
 
-If you added a UI action for your agentic workflow in this guided setup, but the UI action is not appearing on forms, ensure that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`.
+If you added a UI action for your agentic workflow, but the UI action is not appearing on forms, ensure that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`.
 
 ## What to do next
 

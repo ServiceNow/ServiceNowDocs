@@ -1,6 +1,6 @@
 ---
-title: Email
-description: Displays data related to spam emails that are being received externally.
+title: Email metrics in Security Center
+description: The Email page displays data about spam emails received from external sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/email.html
 release: brazil
@@ -12,11 +12,11 @@ reading_time_minutes: 1
 breadcrumb: [Security metrics, Security monitoring console, Security Center, Platform Security]
 ---
 
-# Email
+# Email metrics in Security Center
 
-Displays data related to spam emails that are being received externally.
+The Email page displays data about spam emails received from external sources.
 
-The page displays a card displays a trend line for the spam emails, representing the number of junk mail received per day.
+The page displays a card that displays a trend line for the spam emails, representing the number of junk mail received per day.
 
 Select the card to view additional details.
 

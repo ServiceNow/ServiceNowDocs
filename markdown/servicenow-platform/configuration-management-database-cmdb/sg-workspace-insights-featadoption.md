@@ -9,7 +9,7 @@ classification: configuration-management-database-cmdb
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 12
-breadcrumb: [Insights view, Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Insights view in CMDB Workspace, Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Feature adoption insights dashboard in CMDB Workspace
@@ -113,7 +113,7 @@ Data ingestion contains the following features and aggregations:
 
 -   **CMDB application for APIs and CLI**
 
-    Determines whether the CMDB application for APIs and CLI store app is installed.
+    Determines whether the [CMDB application for APIs and CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/cmdb-cli-commands.md) store app is installed.
 
     This card appears only if the store app isn't installed, providing helpful resources for exploration and adoption.
 

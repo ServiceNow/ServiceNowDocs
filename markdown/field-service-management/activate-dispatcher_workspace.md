@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Dispatcher Workspace, CRM Workspace, Configure, Field Service Management]
 ---
 
 # Activate Dispatcher Workspace
@@ -36,7 +36,7 @@ Field Service Management Configurable Workspace\[com.snc.uib.fsm\_agent\_workspa
 
 </td><td>
 
-Provides the components, lists, and forms to support Field Service Management on CSM Configurable Workspace.
+Provides the components, lists, and forms to support Field Service Management on CRM Workspace.
 
 </td></tr><tr><td>
 

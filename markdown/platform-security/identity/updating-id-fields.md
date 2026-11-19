@@ -26,7 +26,7 @@ Role required: iamsync\_admin
 
 In ServiceNow, Federated IDs verify consistent user identification across multiple instances. By default, the **User ID** and **Email** ID fields are used as the system's search criteria for identifying and matching users across instances. You can change these fields to meet your requirements, as long as the criteria includes at least one unique field. When you change the ID fields, the system regenerates Federated IDs \(a hash based on the selected ID fields\) for all records in the selected table based on the updated criteria. You can regenerate Federated IDs in two ways:
 
--   **Update**: Updates the system with your new search criteria when you add or remove ID fields. Use when you need to remove or add fields \(such as Employee Number\) or modify which attributes define a unique user. This approach is helpful for improving accuracy or aligning with new compliance requirements.
+-   **Update**: Updates the system with your new search criteria when you add or remove ID fields. Use when you need to remove or add fields \(such as Employee Number\) or modify which attributes define a unique user. Use this option to align the criteria with new compliance requirements.
 -   **Regenerate Federated IDs**: Uses existing search criteria when you only need to refresh Federated IDs without changing the identification logic. This is useful after XML data imports, the instance is not working correctly, or low-level database updates.
 
 ## Procedure
@@ -41,7 +41,7 @@ In ServiceNow, Federated IDs verify consistent user identification across multip
 
     To change the criteria, proceed to the next step.
 
-4.  Use the right and left arrow buttons to add or remove ID fields from the **Selected** list.
+4.  Use the arrow buttons to add or remove ID fields from the **Selected** list.
 
     All ID fields listed under **Selected** are used to generate new Federated IDs. For example, **Employee number**.
 
@@ -70,6 +70,6 @@ In ServiceNow, Federated IDs verify consistent user identification across multip
         -   System level fields
         -   Edge encryption fields
         -   Password fields
-6.  Navigate to the **sys\_user** table to view the new Federated IDs that are generated due to updating the ID fields.
+6.  Navigate to the User \[sys\_user\] table to view the new Federated IDs that are generated due to updating the ID fields.
 
 

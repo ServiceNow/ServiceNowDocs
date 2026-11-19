@@ -1,6 +1,6 @@
 ---
 title: Administering lists on the ServiceNow AI Platform
-description: Administrators can control the sort sequence, allow personal lists, restrict filters and breadcrumbs, allow context ranking and more.
+description: Administrators can control the sort sequence, allow personal lists, restrict filters and breadcrumbs, allow context ranking, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/administering-lists-now-platform.html
 release: brazil
@@ -9,12 +9,12 @@ classification: list-administration
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [List administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Administering lists on the ServiceNow AI Platform
 
-Administrators can control the sort sequence, allow personal lists, restrict filters and breadcrumbs, allow context ranking and more.
+Administrators can control the sort sequence, allow personal lists, restrict filters and breadcrumbs, allow context ranking, and more.
 
 ## Administration overview
 
@@ -24,13 +24,13 @@ Administrators can control the sort sequence, allow personal lists, restrict fil
 
 -   [List editor administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/r_AdministeringTheListEditor.md)
 
-    The list editor allows users to edit field values directly from a list without navigating to a form.
+    With the list editor, users can edit field values directly from a list without navigating to a form.
 
 -   [Personal list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/c_AdministeringPersonalLists.md)
 
     Users can customize the layout for any list view by personalizing a list. Administrators can configure options related to list personalization.
 
--   [Administer detail rows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/t_EnableDetailRows.md)
+-   [Enable detail rows in lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/t_EnableDetailRows.md)
 
     Detail rows provide additional information about records in a list.
 
@@ -44,7 +44,7 @@ Administrators can control the sort sequence, allow personal lists, restrict fil
 
 -   [Context ranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/r_ContextRanking.md)
 
-    Context ranking allows a user to sort a collection of records preferentially; that is, independently of the attributes of those records.
+    With context ranking, users can sort a collection of records preferentially; that is, independently of the attributes of those records.
 
 -   [Customize list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/t_CreateAContextMenu.md)
 

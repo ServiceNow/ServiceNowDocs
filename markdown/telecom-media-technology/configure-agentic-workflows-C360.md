@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-10-05"
 reading_time_minutes: 1
-breadcrumb: [Configure ServiceNow Otto for TMT, Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Agentic workflows, Configure, Telecommunications Customer 360, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Configure agentic workflows for Telecommunications Customer 360

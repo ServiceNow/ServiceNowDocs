@@ -1,6 +1,6 @@
 ---
 title: Manage personal lists
-description: Administrators can manage personal lists.
+description: Find and manage the personal lists that users create, which are stored as list records with a value in the User field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_ManagingPersonalLists.html
 release: brazil
@@ -9,12 +9,12 @@ classification: list-administration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Personal lists, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Personal lists, Administer, List administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Manage personal lists
 
-Administrators can manage personal lists.
+Find and manage the personal lists that users create, which are stored as list records with a value in the User field.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System UI** &gt; **Lists**.
 
-2.  Personal lists have a user value in the **User** field.
+2.  Filter the list to show records that have a value in the **User** field.
 
 
 **Related topics**  

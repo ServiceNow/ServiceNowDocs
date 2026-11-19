@@ -8,7 +8,7 @@ product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [Explore Cloud Workspace, Explore CW, What is Cloud Workspace, Benefits of Cloud Workspace, Subscription accounts in Cloud Workspace, personas in Cloud Workspace]
 breadcrumb: [Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -43,24 +43,75 @@ Cloud Account Management dynamically adjusts the features available to you based
 
 ## Compliance dashboard in Cloud Workspace
 
-The compliance dashboard consolidates data from ITOM Visibility, Cloud Account Management to provide a unified view of cloud data and key metrics critical for security and compliance reporting.
+The compliance dashboard consolidates data from ITOM Visibility and Cloud Account Management to provide a unified view of cloud data and key metrics critical for security and compliance reporting.
 
 For more details, see [Viewing the compliance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/viewing-compliance-dashboard.md).
 
-## Cloud account terminology
+## Features and integrations
 
-Cloud Account Management uses the term "cloud account," but other cloud providers use different terms for similar concepts. The terms are as follows:
+In addition to the core account management features, Cloud Workspace displays data from the following applications when they're installed.
+
+<table id="table-cam-features-integrations"><thead><tr><th>
+
+Integration
+
+</th><th>
+
+What it adds
+
+</th><th>
+
+Requirement
+
+</th></tr></thead><tbody><tr><td>
+
+Cloud Cost Management
+
+</td><td>
+
+Cost data for each account: -   Last month spend
+-   Monthly budget
+-   Last month variance
+-   Year-to-date annual spend
+-   Monthly spend chart
+
+Last month spend also appears on the accounts list and on the account overview.
+
+</td><td>
+
+The Cloud Cost Management workspace plugin `(sn_clin)` is installed.
+
+</td></tr><tr><td>
+
+Cloud Security for Cloud Workspace
+
+</td><td>
+
+Security findings for each account and asset, classified by severity: Critical, High, Medium, Low, and None.These findings are refreshed every 30 minutes.
+
+</td><td>
+
+The Security Operations integration for Cloud Workspace `(com.snc.secops.itomcw)` is activated.
+
+</td></tr></tbody>
+</table>## Cloud account terminology
+
+Cloud Account Management uses the term "cloud account". Each cloud providers use different terms for similar concepts. The terms are as follows:
 
 -   Microsoft Azure Cloud \(Azure\) refers to subscriptions
 -   Amazon AWS Cloud \(AWS\) refers to management and member accounts
 -   Google Cloud Platform \(GCP\) refers to projects
+
+Cloud Account Management creates cloud accounts in AWS and Azure. Cloud Account Management doesn't create GCP and OCI projects, but GCP and OCI projects that are discovered in your instance can appear in Cloud Workspace.
+
+In your instance, the application scope and system records use the name Cloud Workspace. Most roles installed with the application use the sn\_itom\_cam.cw\_ prefix, for example, sn\_itom\_cam.cw\_admin. The groups that provide the roles use the ITOM CW prefix, for example, ITOM CW Admin Group.
 
 Cloud providers offer two main access mechanisms for performing operations:
 
 -   Console user access
 -   Programmatic user access
 
-For Cloud Account Management, these operations are referred to as IAM service accounts. However, other cloud providers use different terminology:
+For Cloud Account Management, these operations are referred to as IAM service accounts. However, each cloud providers use different terminology:
 
 -   AWS refers to the IAM user
 -   Azure refers to service principals

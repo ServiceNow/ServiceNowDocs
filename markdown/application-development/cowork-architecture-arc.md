@@ -23,7 +23,7 @@ The architecture has three layers: the ServiceNow instance, which governs Arc th
 
 The ServiceNow instance governs Arc, logs its activity, and provides access to your data.
 
-AI Control Tower manages policy and auditing, for Arc when needed. It syncs policies to Arc and registers each Arc installation. Each installation sends AI Control Tower a periodic heartbeat, so AI Control Tower can show which installations are active and healthy. Administrators can use the kill switch in AI Control Tower to stop Arc from taking further actions. For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md).
+Control Tower manages policy and auditing, for Arc when needed. It syncs policies to Arc and registers each Arc installation. Each installation sends Control Tower a periodic heartbeat, so Control Tower can show which installations are active and healthy. Administrators can use the kill switch in Control Tower to stop Arc from taking further actions. For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md).
 
 Generative AI Controller \(GAIC\) logs every LLM \(large language model\) call that Arc makes. User initiated requests consume assists and are recorded in the Generative AI Log under the feature name ServiceNow Arc Execution. Requests that Arc makes on its own, such as evaluating actions in Auto mode, don't consume assists. For more information, see [Exploring Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-generative-ai-controller.md).
 
@@ -35,7 +35,7 @@ ServiceNow Arc runs on the user's desktop and has two main parts: the Arc runtim
 
 The Arc runtime includes the agent loop, sub-agents, skills, and memory. The agent loop plans a task, runs each step, checks the result, and adjusts when a step fails. Skills and connectors extend what Arc can do, and memory stores preferences, decisions, and context across sessions.
 
-The secure sandbox is an isolated environment on the device where tool execution, connectors, and the LLM client run under policy control. The LLM client sends requests to the large language model. Connectors run only when AI Control Tower policy allows them, so every action stays within the limits your administrator sets.
+The secure sandbox is an isolated environment on the device where tool execution, connectors, and the LLM client run under policy control. The LLM client sends requests to the large language model. Connectors run only when Control Tower policy allows them, so every action stays within the limits your administrator sets.
 
 ## Connected systems
 
@@ -44,7 +44,7 @@ Users provide a task to Arc through chat. Arc uses its connectors to gather cont
 Arc runs tasks on the user's desktop. The Arc runtime, memory, and tool execution stay on the device. Some data leaves the device:
 
 -   Requests from the LLM client to the large language model, which GAIC logs
--   Policy sync and registration with AI Control Tower
+-   Policy sync and registration with Control Tower
 -   Data that connectors send to connected systems
 
 **Parent Topic:**[Exploring ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cowork-exploring.md)

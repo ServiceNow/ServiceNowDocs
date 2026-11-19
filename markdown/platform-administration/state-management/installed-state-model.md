@@ -9,7 +9,7 @@ classification: state-management
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [State Management, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [State Management, Configure core features, ServiceNow AI Platform]
 ---
 
 # Installed with State Model

@@ -18,7 +18,7 @@ The Capacity Console provides flexibility for capacity planners and managers to 
 
 ## Before you begin
 
-Role required: fsm\_adv\_cap\_mgmt.wm\_capacity\_planner, sn\_fsm\_capacity\_mg.wm\_capacity\_write
+Role required: sn\_fsm\_adv\_cap.wm\_capacity\_planner, sn\_fsm\_capacity\_mg.wm\_capacity\_write
 
 ## About this task
 
@@ -34,7 +34,7 @@ Use contextual side panel \(CSP\) to:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM configurable workspace** &gt; **Capacity console**.
+1.  Navigate to **All** &gt; **CRM Workspace** &gt; **Capacity console**.
 
 2.  Select the **Group by** filter and choose **Territory**.
 

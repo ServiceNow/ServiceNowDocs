@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Enable the [ITSM Configurable Workspace chat session tabs in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs.md) feature and select the workspace that the feature applies to. You can also select values for two different chat SLA threshold timers that alert agents about unread messages in inactive chats. These timers alert agents by changing the tab colors of the inactive chats. For more information to change the tab colors, see [tab colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs.md).
+Enable the [ITSM Configurable Workspace chat session tabs in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs.md) feature and select the workspace that the feature applies to. You can also select values for two different chat SLA threshold timers that alert agents about unread messages in inactive chats. These timers alert agents by changing the tab colors of the inactive chats. For more information about changing the tab colors, see [tab colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-itsm-workspace-chat-session-tabs.md).
 
 ## Procedure
 
@@ -30,9 +30,9 @@ Enable the [ITSM Configurable Workspace chat session tabs in SOW](https://raw.gi
 
 2.  Select **Configure** on **Interaction Management** from the **ITSM core configurations** section.
 
-3.  Turn on the information sessions tabs option by rotating the Information session tabs toggle counterclockwise.
+3.  Turn on the **Information session tabs** option by selecting the toggle.
 
-4.  In the Information session tabs section, do the following:
+4.  In the **Information session tabs** section, do the following:
 
     1.  **Timer for warning of SLA breach**: Enter the value in the field for the tab color to turn from purple to yellow.
 

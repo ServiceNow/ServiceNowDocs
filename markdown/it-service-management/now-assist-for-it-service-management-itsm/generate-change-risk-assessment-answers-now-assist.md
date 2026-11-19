@@ -25,6 +25,10 @@ Roles required: `sn_change_write`, `change_manager`
 
 This skill is active by default and available to users with the appropriate roles. The skill is automatically available to users with the appropriate roles. For more information, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
+This skill inherits only the roles configured for it in Skill Data Access — in the base system, sn\_change\_write andchange\_manager. The skill uses only these roles, even if the user who triggers it has additional roles.
+
+**Important:** Confirm that the ACLs provide read access to the roles assigned to the skill, which are sn\_change\_write and change\_manager in the base system.
+
 When you trigger the skill, AI reviews the change request, related records, and additional knowledge—such as compliance details, policies, or other relevant information. AI then suggests an answer and provides reasoning for each supported question in the risk assessment. The **Reasoning** field explains why AI selected each answer. You can review and adjust the suggested answers before submitting, or complete the assessment manually.
 
 **Note:** The skill also reads all dynamic schema store type fields on the change request form. These fields are retrieved automatically, so they don't require an **AI Risk Data Sources** record or an entry in the change request fields property. The skill uses the retrieved values when it suggests answers. For information about dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-schema.md).
@@ -68,15 +72,15 @@ This AI capability for generating change risk assessment answers and reasoning r
     -   Select **Generate** to create a new risk assessment.
 6.  After you submit the risk assessment in Service Operations Workspace for ITSM, view, edit, or regenerate the saved answers.
 
-<table id="choicetable_sow_options"><thead><tr><th align="left" id="d432690e326">
+<table id="choicetable_sow_options"><thead><tr><th align="left" id="d433751e344">
 
 Option
 
-</th><th align="left" id="d432690e329">
+</th><th align="left" id="d433751e347">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d432690e335">
+</th></tr></thead><tbody><tr><td id="d433751e353">
 
 **View the saved answers**
 
@@ -84,7 +88,7 @@ Procedure
 
 In the **Record information** panel, select **View risk assessment**. The **Change Risk Assessment** dialog opens in read-only mode and shows the saved answers and reasoning for each question.
 
-</td></tr><tr><td id="d432690e353">
+</td></tr><tr><td id="d433751e371">
 
 **Edit the saved answers**
 
@@ -92,7 +96,7 @@ In the **Record information** panel, select **View risk assessment**. The **Chan
 
 Select **Assess Risk** again. The **Change Risk Assessment** dialog opens with the answers from the previous assessment copied in. Update any answers as needed, then submit the assessment.When you edit an assessment, the plain assessment page opens with the existing answers and no **Reasoning** field.
 
-</td></tr><tr><td id="d432690e373">
+</td></tr><tr><td id="d433751e391">
 
 **Regenerate the answers with the current change request context**
 

@@ -1,6 +1,6 @@
 ---
 title: List editor administration
-description: The list editor allows users to edit field values directly from a list without navigating to a form.
+description: With the list editor, users can edit field values directly from a list without navigating to a form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/r\_AdministeringTheListEditor.html
 release: brazil
@@ -9,23 +9,25 @@ classification: list-administration
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Administer, List administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # List editor administration
 
-The list editor allows users to edit field values directly from a list without navigating to a form.
+With the list editor, users can edit field values directly from a list without navigating to a form.
 
-Administrators can manage this feature by using the following options. Some of the options are not supported in List v3.
+Administrators can manage this feature by using the following options.
 
 -   Configure global properties
 -   Configure list control settings for a table
 -   Configure contextual security rules
 -   Manage user preferences \(List v2 only\)
 
-**Warning:** In List v2, the list editor does not enforce client scripts or UI policies. In List v3, the list editor enforces UI policies and mandatory dictionary attributes, but not client scripts. Allowing list editing with client scripts running on fields in a form can result in incorrect data being saved to the record. For systems in which client scripts or UI policies apply to forms, consider disabling list editing or creating appropriate business rules or access control to control the setting of values in the list editor. See [Use business rules and client scripts to control field values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/r_BsnsRlClntScptsCntrlFldVl.md) for information on managing form and list editing.
+## Restrictions
 
-**Warning:** You cannot edit state fields that are extended from the Task \[task\] table from a list of task records. Examples include:
+In List v2, the list editor does not enforce client scripts or UI policies. Allowing list editing with client scripts running on fields in a form can result in incorrect data being saved to the record. For systems in which client scripts or UI policies apply to forms, consider turning off list editing or creating appropriate business rules or access control to control the setting of values in the list editor. See [Use business rules and client scripts to control field values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/r_BsnsRlClntScptsCntrlFldVl.md) for information on managing form and list editing.
+
+You cannot edit state fields that are extended from the Task \[task\] table from a list of task records. Examples include:
 
 -   problem\_state
 -   incident\_state

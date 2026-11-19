@@ -7,7 +7,7 @@ release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-11"
 reading_time_minutes: 2
 breadcrumb: [Use ITOM Infra Services Workspace, ITOM Infra Services Workspace, ITOM Visibility, IT Operations Management]
 ---
@@ -47,6 +47,10 @@ In the **MID Server details** view, selected from the context menu, you can edit
 The **Purpose** field can be viewed from the dashboard tables by adding it to the **Personalize fields** menu, accessed through the three-dot menu beside the **Server Actions** menu.
 
 The **MID Server configuration** and **Troobleshooting** sections of the context menu show the records assigned to this MID Server. You can access the MID Server properties or logs. Use the **Create** button to create new records, or the **Manage** button to manage existing ones. You can filter the list of records by selecting the filter icon.
+
+## Default MID Server user
+
+Starting with Zurich Patch 11, the IPKI feature installs a user named mid\_server\_default. The user has the mid\_server role and a machine identity, and it's a web service user, so it can't sign in interactively. It's provided as the default user for new MID Servers configured with the CLI. When you onboard a new MID Server, you may override the user that the MID Server logs in as.
 
 **Parent Topic:**[Use ITOM Infra Services Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/itom-infra-srv-wrksp-use.md)
 

@@ -30,7 +30,7 @@ After you move a RAM to the **Retired** state, you can also move it back to the 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Advanced Risk Assessment** &gt; **Administration** &gt; **Risk Assessment Methodologies**.
+1.  Navigate to **All** &gt; **Advanced Risk Assessment** &gt; **Risk Identification** &gt; **Risk Assessment Methodologies**.
 
 2.  Select **New**.
 

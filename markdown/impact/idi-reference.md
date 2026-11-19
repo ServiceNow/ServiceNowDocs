@@ -34,7 +34,7 @@ The value management lifecycle starts with the creation of the Objectives and ou
 -   **[Value Reports in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/value-reports-in-impact-delivery-instance.md)**  
 Your impact squad can work with you to calculate the operational or monetized value you have realized with ServiceNow in a **Value Report**.
 -   **[Manage product adoption roadmaps for Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/create-and-publish-a-product-adoption-roadmap.md)**  
-Create a product Adoption Roadmap \(PAR\) with a single click by selecting the template that best supports your specific business outcome.
+Create a product adoption roadmap \(PAR\) by selecting the template that best supports your business outcome.
 -   **[Manage capabilities maps in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/manage-capabilities.md)**  
 Manage the usage status for capabilities and how they’re being used in your instance. The information in the capabilities status fields feeds the capabilities maps summary bar.
 -   **[Consumption Report in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/ide-consumption-report.md)**  

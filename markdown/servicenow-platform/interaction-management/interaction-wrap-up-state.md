@@ -22,7 +22,7 @@ While in the Wrap Up state, an agent's capacity is not reduced until the state o
 
 **Note:** The interaction wrap up feature works with multiple types of communication channels. This feature supports chat and messaging interactions in the base system.
 
-You can also use AI interaction wrap up to generate wrap up content for an interaction, such as the wrap up code and notes.
+You can also use [AI interaction wrap up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/interaction-wrapup-ai-generated.md) to generate wrap up content for an interaction, such as the wrap up code and notes.
 
 ## Configuring interaction wrap up
 
@@ -39,6 +39,8 @@ The interaction wrap up configuration includes the following information:
 The interaction wrap up configuration adds the Wrap Up state to the **State** field on the Interaction record. For more information about the wrap up state, see [Interaction states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/interaction-management/interaction-states.md).
 
 ## Required roles
+
+To configure the interaction wrap up feature, users need the interaction administrator \(interaction\_admin\) role. This role contains the interaction agent \(interaction\_agent\) role.
 
 To use the interaction wrap up feature, agents need the interaction agent \(interaction\_agent\) role. The service management agent \(sn\_esm\_agent\) role contains this role.
 

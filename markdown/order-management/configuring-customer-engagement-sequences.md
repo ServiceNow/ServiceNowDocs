@@ -16,7 +16,7 @@ Plan and configure your implementation of Customer Engagement Sequences.
 
 ## Configuration overview
 
-Create multi-trigger, multi-step sequences using the Customer Engagement Sequences application so that sales representatives can engage with prospective leads or customers on outreach-related activities in an organized format. Build telesales workflows and email-based sequences using schedule call activity, email activity, and decision nodes. Integrate with platforms such as Amazon Connect to enable outbound calling from the sequence task.Install the User Mailbox Integration plugin to enable sending emails from agent's mailbox.
+Create multi-trigger, multi-step sequences using the Customer Engagement Sequences application so that sales representatives can engage with prospective leads or customers on outreach-related activities in an organized format. Build telesales workflows and email-based sequences using schedule call activity, email activity, and decision nodes. Integrate with platforms such as Amazon Connect to enable outbound calling from the sequence task.Install the User Mailbox Integration plugin to enable sending emails from agent's mailbox. Sequence demo data also requires this plugin.
 
 1.  [Install Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/install-customer-engagement-sequences.md)
 
@@ -32,7 +32,7 @@ Create multi-trigger, multi-step sequences using the Customer Engagement Sequenc
 
 4.  [Install the User Mailbox Integration plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/personal-corporate-mailbox.md)
 
-    Install the User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) on your ServiceNow instance for using email-based sequences such as the Lead nurturing email sequence.
+    Install the User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) on your ServiceNow instance for using email-based sequences such as the Lead nurturing email sequence, and to load sequence demo data.
 
 
 ## What to do next

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/field-service-man
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -53,33 +53,6 @@ Field Service Management enhancements and new features in the Brazil release.
 -   **[Operational notes in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/operational-notes-overview.md)**
 
     Dispatchers can add day-specific notes for technicians, crews, equipment, and work order tasks. Only dispatchers and administrators can see these notes.
-
-
-### What's changed
-
--   ****
-
-### What's deprecated or removed
-
--   ****
-
-### Plugin information
-
--   **New plugins**
-
-     \(\): 
-
--   **Deprecated plugins**
-
-     \(\): 
-
--   **Plugins planned for deprecation**
-
-     \(\): Planned for deprecation in . 
-
--   **Renamed or changed plugins**
-
-     \(\): 
 
 
 ## 2026 October Monthly

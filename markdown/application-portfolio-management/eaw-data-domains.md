@@ -21,9 +21,7 @@ A data domain is a logical grouping of related information objects that represen
 **Related topics**  
 
 
-[View all data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-all-data-domains.md)
-
-[Add or edit a data domain from the Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-or-edit-a-data-domain-from-the-portfolio-page.md)
+[eaw-view-all-data-domains]
 
 [Exploring information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-information-objects.md)
 

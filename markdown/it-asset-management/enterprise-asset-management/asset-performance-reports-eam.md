@@ -83,7 +83,7 @@ Performance tracking for assets that belong to a model category opted in for per
         -   In stock - Pending repair
         -   In stock - Pending disposal
         -   In stock - Defective
-    -   A work order task is created
+    -   A work order task with a work type of Break Fix, Calibration, or Planned Maintenance moves to the Work in progress state. Work order tasks with any other work types, such as Install, don't create an outage record.
     -   An incident is created
     The outage record is closed when:
 

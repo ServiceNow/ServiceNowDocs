@@ -78,7 +78,7 @@ Font color
 
 </td><td>
 
-The font color to apply to values that match this rule. Select the search icon \(\[Omitted image "SearchIcon.png"\] Alt text:\) to choose colors from an existing list or enter a hexadecimal color value.
+The font color to apply to values that match this rule. Select the search icon \(\[Omitted image "SearchIcon.png"\] Alt text: Search icon\) to choose colors from an existing list or enter a hexadecimal color value.
 
 </td></tr><tr><td>
 

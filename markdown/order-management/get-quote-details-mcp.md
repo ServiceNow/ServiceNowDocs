@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/get-quote-details-mcp.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 2
-keywords: [MCP tools, quote details, quote header, quote lines, Advanced Approval Management AI]
+keywords: [MCP tools, quote details, quote header, quote lines, Advanced Approval Management AI, ServiceNow Otto for Advanced Approval Management]
 breadcrumb: [Advanced Approval Management AI, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
@@ -24,11 +24,11 @@ The following applications must be installed and configured on your ServiceNow i
 
 Input required: Number of an active quote.
 
-Role required: sn\_adv\_appr\_mgmt.approval\_request\_writer or sn\_adv\_appr\_mgmt.approver
+Role required: sn\_quote\_mgmt\_core.quote\_viewer
 
 ## About this task
 
-The Get Quote Details tool enables you to retrieve information from a quote header and quote lines in an MCP client. Header-level detail includes the quote status, approval state, and key quote attributes. Line-level detail includes the individual products, quantities, and pricing on the quote. You can specify the level of detail in your natural language prompt. Or you can simply enter the quote number to return both header and line details.
+The Get Quote Details tool enables you to retrieve information from a quote header and quote lines in an MCP client. Header-level detail includes the quote state, account, totals, and other key quote attributes. Line-level detail includes the individual products, quantities, and pricing on the quote. You can specify the level of detail in your natural language prompt. Or you can simply enter the quote number to return both header and line details.
 
 ## Procedure
 
@@ -49,16 +49,8 @@ The Get Quote Details tool enables you to retrieve information from a quote head
 
     For header-level requests, the MCP client returns information such as:
 
-    -   Quote number and name
-    -   Quote status and approval state
-    -   Account and opportunity details
-    -   Quote owner and creation date
     For line-level requests, the MCP client returns information such as:
 
-    -   Product names and catalog item details
-    -   Quantities and unit prices
-    -   Discounts and net amounts
-    -   Line-level approval status
 
 ## Get quote details
 
@@ -70,7 +62,7 @@ The MCP client considers the next approval activity in a typical approval workfl
 
 For example:
 
--   If you're a requester and the quote has not been submitted for approval, the MCP client asks if you want to preview the approval routing for the quote. If the quote is in a rejected state, the MCP client asks if you want to see the approval history. You can view the rejection reason so that you can update the quote accordingly before resubmitting the quote for approvals.
+-   If you're a requester and the quote has not been submitted for approval, the MCP client asks if you want to preview the approval routing for the quote. If the quote is in a rejected state, the MCP client asks if you want to see the approval history. You can see who rejected the quote. The rejection reason appears on the Approvals tab of the quote in CRM Workspace. Update the quote accordingly before you resubmit it for approval.
 -   If you're an approver, the MCP client asks if you want to see your pending approvals so that you can take action on your approval requests.
 
 **Parent Topic:**[Using Advanced Approval Management AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/use-advanced-approval-mgmt-ai.md)

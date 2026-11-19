@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Form features, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -42,4 +42,10 @@ For CRM Workspace, the form header is made up of individual components that can 
 Individual components provide customers with flexible and granular configuration options. Customers can control the placement, size and spacing of these components, giving them the ability to show additional information that agents may need.
 
 The Data Value Block component is used to display secondary values in the form header and the Contextual side panel.
+
+## Form actions
+
+Actions available to customer service agents appear in the form header as buttons or menu items.
+
+For CRM Workspace, you can link UI actions to form actions. For more information, see [Set up a form action in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-config-ws-form-action.md).
 

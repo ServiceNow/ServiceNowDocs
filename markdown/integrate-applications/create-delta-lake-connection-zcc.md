@@ -48,15 +48,15 @@ Work with your data source admin to create a connection to Delta Lake. For addit
 
 4.  Configure the metastore that you want to use with Delta Lake.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d659521e243">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d667880e245">
 
 Option
 
-</th><th align="left" id="d659521e246">
+</th><th align="left" id="d667880e248">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d659521e252">
+</th></tr></thead><tbody><tr><td id="d667880e254">
 
 **Hive Thrift**
 
@@ -72,7 +72,7 @@ Description
 3.  Enter the truststore password.
 
 
-</td></tr><tr><td id="d659521e287">
+</td></tr><tr><td id="d667880e289">
 
 **AWS Glue**
 

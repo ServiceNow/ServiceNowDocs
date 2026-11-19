@@ -62,7 +62,7 @@ Assess ServiceNow License, Store App and Instance Requirements
 
 </td><td>
 
-Ensure that you have all license entitlements for your use cases. Determine which software updates or configuration changes to your production and sub-production instances are needed to support your targeted number of devices.For details, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/versions-dependencies.md).
+Ensure that you have all license entitlements for your use cases. Determine which software updates or configuration changes to your production and sub-production instances are needed to support your targeted number of devices.For details, see .
 
 </td></tr><tr><td align="center">
 

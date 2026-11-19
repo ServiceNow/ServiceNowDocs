@@ -40,15 +40,15 @@ Role required: sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 5.  Fill in the fields.
 
-<table><thead><tr><th align="left" id="d213575e127">
+<table><thead><tr><th align="left" id="d293553e129">
 
 Field
 
-</th><th align="left" id="d213575e130">
+</th><th align="left" id="d293553e132">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d213575e136">
+</th></tr></thead><tbody><tr><td id="d293553e138">
 
 **Type**
 
@@ -56,7 +56,7 @@ Description
 
 Update the template type.This field allows you to update a template from default to list or vice versa.
 
-</td></tr><tr><td id="d213575e147">
+</td></tr><tr><td id="d293553e149">
 
 **Table**
 
@@ -64,7 +64,7 @@ Update the template type.This field allows you to update a template from default
 
 Update the table mapped to the template.
 
-</td></tr><tr><td id="d213575e156">
+</td></tr><tr><td id="d293553e158">
 
 **Template**
 
@@ -85,7 +85,7 @@ The template mapping is updated.
 **Related topics**  
 
 
-[Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/create-template.md)
+[Create a Process Mining template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/create-template.md)
 
 [Save a project as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/save_project_as_template.md)
 

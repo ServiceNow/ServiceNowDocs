@@ -1,6 +1,6 @@
 ---
 title: Configure problem task modals shown during state transitions
-description: Add the optional and mandatory fields necessary to move a problem task record through its life cycle using the Form Builder.
+description: Add the optional and required fields necessary to move a problem task record through its life cycle using the Form Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-problem-task-state-modals-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configuring Problem Management in Service Operations Workspace, Get
 
 # Configure problem task modals shown during state transitions
 
-Add the optional and mandatory fields necessary to move a problem task record through its life cycle using the Form Builder.
+Add the optional and required fields necessary to move a problem task record through its life cycle using the Form Builder.
 
 ## Before you begin
 

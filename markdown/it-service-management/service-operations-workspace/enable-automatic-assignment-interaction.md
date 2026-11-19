@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Select the Chat - Most Capacity assignment rule.
 
-    For information about AWA assignment rules, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-create-assignment-rule.md).
+    For information about Advanced Work Assignment \(AWA\) assignment rules, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/awa-create-assignment-rule.md).
 
 3.  In the Auto-assign handling related list, perform the following tasks.
 
@@ -34,7 +34,7 @@ Role required: admin
 
     2.  From the **Display options** list, select the required value.
 
-        -   Inbox card: Accepts the interactions and adds them to the agent inbox. Agent can open the accepted interaction from the inbox.
+        -   Inbox card: Accepts the interactions and adds them to the agent inbox. The agent can open the accepted interaction from the inbox.
         -   Inbox card and workspace tab: Accepts the interactions and opens a tab for each accepted interaction.
 4.  Select **Update**.
 

@@ -1,6 +1,6 @@
 ---
 title: Create a change task in Service Operations Workspace
-description: When you need to engage another team or agent for help, create and assign change task. For example, there can be tasks to plan the change, implement the change, and test, and review the work.
+description: When you need to engage another team or agent for help, create and assign a change task. For example, there can be tasks to plan the change, implement the change, test, and review the work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-change-task-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Change Management in Service Operations Workspace, Operating IT ser
 
 # Create a change task in Service Operations Workspace
 
-When you need to engage another team or agent for help, create and assign change task. For example, there can be tasks to plan the change, implement the change, and test, and review the work.
+When you need to engage another team or agent for help, create and assign a change task. For example, there can be tasks to plan the change, implement the change, test, and review the work.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: itil or admin
 
 1.  Open a change request.
 
-2.  On the change record page, Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Create Change Task**.
+2.  On the change record page, select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and select **Create Change Task**.
 
 3.  In the Create Change task dialog box, select the task type.
 
@@ -40,11 +40,11 @@ Role required: itil or admin
 
 <table id="table_blp_xnl_sy"><thead><tr><th>
 
-Name
+Field
 
 </th><th>
 
-Definition
+Description
 
 </th></tr></thead><tbody><tr><td>
 

@@ -8,7 +8,7 @@ product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
 last_updated: "2026-09-16"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Issue approval flows, Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -36,15 +36,15 @@ Approval requests assigned to you appear in the **Approvals** widget on your **H
 
     On the issue or remediation task, the available options depend on how many approval requests on that record are awaiting your decision.
 
-<table id="choicetable_approval_response_options"><thead><tr><th align="left" id="d386598e93">
+<table id="choicetable_approval_response_options"><thead><tr><th align="left" id="d387121e95">
 
 Approval requests awaiting your decision
 
-</th><th align="left" id="d386598e96">
+</th><th align="left" id="d387121e98">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d386598e102">
+</th></tr></thead><tbody><tr><td id="d387121e104">
 
 **One __State Change__ approval request**
 
@@ -52,7 +52,7 @@ Action
 
 Select **Approve** or **Reject**.
 
-</td></tr><tr><td id="d386598e123">
+</td></tr><tr><td id="d387121e125">
 
 **One __Due Date Extension__ approval request**
 
@@ -60,7 +60,7 @@ Select **Approve** or **Reject**.
 
 Select **Approve Extension** or **Reject Extension**.
 
-</td></tr><tr><td id="d386598e144">
+</td></tr><tr><td id="d387121e146">
 
 **More than one approval request**
 

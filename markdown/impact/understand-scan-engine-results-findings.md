@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/impact/understand-scan-engine-r
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [scan results, scan findings, platform health]
 breadcrumb: [Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
 ---
@@ -26,7 +26,7 @@ Every finding in your instance is evaluated along two critical dimensions to hel
 
 -   **Level of finding \(enforcement level\)**
 
-    The enforcement behavior is determined whether the system blocks an action, issues a warning, or provides informational guidance. Enforcement levels are ACT, RECOMMEND, SUGGEST, and REVIEW. The enforcement level determines the action the system will take and whether exceptions are available.
+    The enforcement behavior is determined whether the system blocks an action, issues a warning, or provides informational guidance. Enforcement levels are ACT, RECOMMEND, SUGGEST, and REVIEW. The enforcement level determines the action the system will take and whether exceptions are available. See [Exception handling in Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/exception-handling-overview.md) for additional information on requesting and managing exceptions.
 
 -   **Impact to instance \(risk rating\)**
 

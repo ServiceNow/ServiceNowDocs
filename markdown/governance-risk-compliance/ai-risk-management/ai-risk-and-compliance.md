@@ -1,6 +1,6 @@
 ---
 title: AI Risk and Compliance
-description: The ServiceNow AI Risk and Compliance application, along with the ServiceNow AI Control Tower, enables the risk and compliance managers to ensure that the organizations comply with the regulations and policies with respect to their AI systems.
+description: The ServiceNow AI Risk and Compliance application, along with the ServiceNow Control Tower, enables the risk and compliance managers to ensure that the organizations comply with the regulations and policies with respect to their AI systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Governance, Risk, and Compliance]
 
 # AI Risk and Compliance
 
-The ServiceNow® AI Risk and Compliance application, along with the ServiceNow® AI Control Tower, enables the risk and compliance managers to ensure that the organizations comply with the regulations and policies with respect to their AI systems.
+The ServiceNow® AI Risk and Compliance application, along with the ServiceNow® Control Tower, enables the risk and compliance managers to ensure that the organizations comply with the regulations and policies with respect to their AI systems.
 
 ## Get started
 
@@ -36,7 +36,7 @@ The ServiceNow® AI Risk and Compliance application, along with the ServiceNow®
 
 </td><td>
 
-[AI Control Tower\[Omitted image "bus-learn.svg"\] Alt text:Get details about how AI Control Tower manages and tracks all the AI assets and other AI assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower-landing.md)
+[AI Control Tower\[Omitted image "bus-learn.svg"\] Alt text:Get details about how AI Control Tower manages and tracks all the AI assets and other AI assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md)
 
 </td><td>
 

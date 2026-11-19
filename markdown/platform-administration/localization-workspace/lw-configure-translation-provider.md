@@ -9,7 +9,7 @@ classification: localization-workspace
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Language setup in Localization Workspace, Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Language setup in Localization Workspace, Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure a language provider
@@ -44,15 +44,15 @@ This record also enables the calculation of the informational cost estimate.\[Om
 
 3.  In the **Add a new language provider** window, enter the following information.
 
-<table id="choicetable_az3_wjw_bfc"><thead><tr><th align="left" id="d253061e195">
+<table id="choicetable_az3_wjw_bfc"><thead><tr><th align="left" id="d253004e197">
 
 Field
 
-</th><th align="left" id="d253061e198">
+</th><th align="left" id="d253004e200">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d253061e204">
+</th></tr></thead><tbody><tr><td id="d253004e206">
 
 **Label**
 
@@ -60,7 +60,7 @@ Value
 
 Enter a descriptive name. This label is displayed in the **Language Providers** list.
 
-</td></tr><tr><td id="d253061e216">
+</td></tr><tr><td id="d253004e218">
 
 **Language**
 
@@ -68,7 +68,7 @@ Enter a descriptive name. This label is displayed in the **Language Providers** 
 
 Enter a language. You can search from among the languages you have configured on the instance.
 
-</td></tr><tr><td id="d253061e225">
+</td></tr><tr><td id="d253004e227">
 
 **Provider Type**
 
@@ -76,7 +76,7 @@ Enter a language. You can search from among the languages you have configured on
 
 From the list, choose TMS \(Translation Management System\) or MT \(Machine Translation\). These provider types are available after you preconfigure them on your instance.
 
-</td></tr><tr><td id="d253061e234">
+</td></tr><tr><td id="d253004e236">
 
 **Rate**
 
@@ -88,7 +88,7 @@ This rate is used to calculate the informational cost estimate.
 
 **Note:** When displayed on the Home page of Localization Workspace, the **Cost** uses a rate that is rounded up to the decimal place that is set in your **Display Value Currency** field. However, the calculation of the informational cost estimate for a translation request uses the actual rate that you have configured in Localization Workspace. The calculation does not use the currency's display value. For more information, see [Identify the FX Currency field and its display parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/fx-currency-display-parameters.md).
 
-</td></tr><tr><td id="d253061e276">
+</td></tr><tr><td id="d253004e278">
 
 **TMS \(or MT\) Configuration**
 
@@ -96,7 +96,7 @@ This rate is used to calculate the informational cost estimate.
 
 This field is dependent on your selection for **Provider Type**. Select from available providers that you have configured.For example, if you selected TMS as the Provider Type, and you have configured the XTM third-party provider, then **XTM** is available in the list.
 
-</td></tr><tr><td id="d253061e293">
+</td></tr><tr><td id="d253004e295">
 
 **Unit**
 
@@ -106,7 +106,7 @@ The Unit count multiplied by the Rate equals the informational cost estimate. Ch
 
 Check your service provider's documentation to confirm the unit used for pricing. For details about the pricing of Google Cloud Translator Service, see [https://cloud.google.com/translate/pricing](https://cloud.google.com/translate/pricing). For details about Microsoft Azure Translator, see [https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator/](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator/).
 
-</td></tr><tr><td id="d253061e331">
+</td></tr><tr><td id="d253004e333">
 
 **Default provider for this language**
 

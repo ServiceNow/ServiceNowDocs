@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -190,6 +190,8 @@ Fields that normalization updates:
     1.  The weekly Download Hardware Content schedules download lifecycle content from the Content Service.
     2.  The weekly HAM - Hardware Lifecycles job applies the changed lifecycle content to models.
     3.  The daily HAM - Daily Job recalculates the current phase of each model.
+    The system stores lifecycle records in the Model Lifecycle \[cmdb\_model\_lifecycle\] table. When a model isn't normalized, the system deactivates the lifecycle records that it populated from the Content Service by setting the active field to **false**. The system never deletes lifecycle records.
+
 
 ## Normalization reports
 
@@ -216,6 +218,8 @@ The Hardware Asset Workspace includes these reports for model normalization:
     -   The system clears the normalized fields and changes the status to **Match Not Found**.
     -   For a Normalized or Partially Normalized model, the system deactivates the content rule that normalized it. The system also reverts the other models that the rule normalized, except Manually Normalized models.
     -   The system doesn’t normalize the model again immediately. The next daily run of the normalization job processes it, or you can select **Normalize** on the model. A different active rule can then normalize the model.
+    For details, see [Revert normalization of hardware and consumable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/revert-norm-ham.md).
+
 
 ## Administrator settings
 
@@ -229,6 +233,77 @@ The Hardware Asset Workspace includes these reports for model normalization:
     2.  Find the domain for which you want to enable normalization of models.
     3.  Set the Run asset process field to true.
     The next time the scheduled job runs, it normalizes the hardware models of that domain.
+
+-   **Scheduled jobs**
+
+<table id="table_yqz_3yq_clc"><thead><tr><th>
+
+Scheduled job
+
+</th><th>
+
+Description
+
+</th><th>
+
+What it does
+
+</th></tr></thead><tbody><tr><td>
+
+HAM - Hardware Normalization
+
+</td><td>
+
+Daily
+
+</td><td>
+
+Normalizes new and changed models, evaluates reverted models again.
+
+</td></tr><tr><td>
+
+Download Hardware Content schedules
+
+</td><td>
+
+Weekly
+
+</td><td>
+
+Downloads the weekly content from the Content Service.
+
+</td></tr><tr><td>
+
+HAM - Hardware Lifecycles
+
+</td><td>
+
+Weekly
+
+</td><td>
+
+Applies changed lifecycle content to normalized models.
+
+</td></tr><tr><td>
+
+HAM - Daily Job
+
+</td><td>
+
+Daily
+
+</td><td>
+
+Calculates the current lifecycle phase of each model.
+
+</td></tr></tbody>
+</table>-   **System properties**
+
+    |System property|Purpose|Default|
+    |---------------|-------|-------|
+    |**sn\_hamp.update\_assets\_norm\_model\_name**|When set to true, recalculates asset display names after their model is normalized. The asset display name includes the model display name.|true on new HAM installations; false on upgraded instances|
+    |**sn\_hamp.model\_lifecycle\_phase\_order**|Sets the priority of lifecycle phases when two records share a start date.|Availability, End of sale, End of support, End of extended support, End of life|
+    |**sn\_hamp.approximate\_dates\_in\_hw\_lifecycle**|Turns approximated lifecycle dates on or off.|True|
 
 
 **Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/exploring-ham.md)

@@ -9,7 +9,7 @@ classification: telecommunications-service-operations-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure Cisco Meraki SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Cisco Meraki SGC, Configure service graph connectors, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Mapping Cisco Meraki CIs and relationships

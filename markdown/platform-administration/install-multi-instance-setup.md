@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-17"
 reading_time_minutes: 1
 keywords: [install, store application, Multi Instance Setup, AMF Core]
-breadcrumb: [Multi-Instance Setup, Multi-Instance Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Multi-Instance Setup, Multi-Instance Management, Get started, ServiceNow AI Platform]
 ---
 
 # Install Multi-Instance Setup and AMF Core

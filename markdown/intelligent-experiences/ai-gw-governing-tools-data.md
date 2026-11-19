@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-22"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use, MCP tools, tool scan, Data Sensitivity Check]
-breadcrumb: [AI Gateway, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [AI Gateway, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Governing MCP server tools and data

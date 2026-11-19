@@ -39,7 +39,7 @@ A feedback task is created in the following ways:
 
 5.  Create the knowledge article by either selecting an article template or using the default template.
 
-<table id="choicetable_ajx_szw_hkb"><tbody><tr><td id="d370296e155">
+<table id="choicetable_ajx_szw_hkb"><tbody><tr><td id="d370535e155">
 
 **Selected article template**
 
@@ -55,7 +55,7 @@ Select an article template to create a knowledge article using defined fields an
 3.  Select **Create Article**.
  The Create Article dialog box is available if the article versioning and the Knowledge Article Templates features are enabled. For more information, see [Article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/article-versioning.md) and [Knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/knowledge-article-templates.md).
 
-</td></tr><tr><td id="d370296e200">
+</td></tr><tr><td id="d370535e200">
 
 **Default Standard template**
 
@@ -170,7 +170,7 @@ The date this knowledge article expires. Articles don’t appear in search resul
 
  On the first day of each month, the application sends an email notification to a list of authorized recipients to remind them about articles that are expire in the next month. The recipient can then extend the **Valid to** date to continue using the article. For more information, see [Managing email notifications in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/knowledge-management/email-notifications-km.md).
 
- **Note:** If the system date format or user preferences is set to use `yy` year format, you might face issues when the **Valid to** date is set to the default date. Contact your administrator or modify the user preferences to use a date format with the `yyyy` year format. For more information, see Global date and time field format and Personalize the system date format topics.
+ **Note:** If the system date format or user preferences is set to use `yy` year format, you might face issues when the **Valid to** date is set to the default date. Contact your administrator or modify the user preferences to use a date format with the `yyyy` year format. For more information, see [Global date and time field format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_FormatDateAndTimeFields.md) and [Personalize the system date format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_PersonalizeTheSystemDateFormat.md) topics.
 
 </td></tr><tr id="confidence-desc"><td>
 

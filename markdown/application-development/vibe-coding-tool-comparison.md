@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-tool-comparison.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-11-03"
+reading_time_minutes: 4
 keywords: [agentic development, tool comparison, development tools, artificial intelligence, application development, workflow comparison, development workflow, AI agents, code generation]
 audience: developer
 breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
@@ -97,6 +97,31 @@ Catalog items, record producers, order guidesFor a list of included generative, 
 </td><td>
 
 Specialized for catalog management with text-to-catalog generation and other generative and development skills
+
+</td></tr><tr><td>
+
+Autonomous Engineer
+
+</td><td>
+
+Larger implementations with well-defined requirements-   Applications built from a specification or a set of user stories
+-   Implementation of products through agent packs
+
+</td><td>
+
+Beginner to intermediate
+
+</td><td>
+
+High \(plan-driven, parallel execution\)
+
+</td><td>
+
+Complete applications built from a plan of work items, with ATF tests and an update set
+
+</td><td>
+
+Interviews you, generates a plan with work items, and builds the work items in parallel in the background
 
 </td></tr><tr><td>
 
@@ -205,7 +230,7 @@ Iterative prompts for variables and flows
 
 </td><td>
 
-Automatic Automated Test Framework \(ATF\) test creation, editing, and running
+Automatic Automated Test Framework \(ATF\) test creation, editing, and running through Test Agent, including troubleshooting of failed tests
 
 </td><td>
 
@@ -227,13 +252,16 @@ Deploy from Developer Sandboxes with audit trailsOptions include:
 Standard Service Catalog item publication workflow
 
 </td></tr></tbody>
-</table>## Tool access
+</table>For larger implementations with well-defined requirements, Autonomous Engineer can take the place of the generation phase. It interviews you, generates a plan with work items, and builds the work items in parallel. You review and approve the plan before any artifacts are built. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-autonomous-engineer.md).
+
+## Tool access
 
 The following table shows how to access ServiceNow agentic development tools.
 
 |Tool|Access method|
 |----|-------------|
 |Build Agent|Chat panel in ServiceNow Studio or ServiceNow IDE|
+|Autonomous Engineer|Chat panel in ServiceNow Studio. Select **Build Agent** from the selector in the chat panel, and then choose Autonomous Engineer|
 |ServiceNow Otto for Creator|Embedded in Service Catalog and Workflow Studio|
 |ServiceNow SDK|Local VS Code or the ServiceNow IDE with ServiceNow Fluent SDK|
 
@@ -244,6 +272,7 @@ The following table shows performance and scaling considerations for ServiceNow 
 |Tool|Best performance for|Limitations|
 |----|--------------------|-----------|
 |Build Agent|New applications with &lt; 20 tables|Limited support for cross-product integration|
+|Autonomous Engineer|Larger implementations with well-defined requirements|Available in ServiceNow Studio. Limitations that apply to Build Agent also apply.|
 |ServiceNow Studio|Iterative metadata updates; low-code workflows|Does not support complex custom code generation|
 |ServiceNow IDE|Complex business rules, script includes, advanced customization|Developer expertise required|
 |ServiceNow Otto for Creator|Service Catalog items \(one at a time\)|Creates single Service Catalog items, not full applications|

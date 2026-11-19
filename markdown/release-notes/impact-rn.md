@@ -1,12 +1,13 @@
 ---
 title: Impact release notes
-description: ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact was enhanced and updated in the Brazil release. See the following sections for release notes by version.Version 12.0.0 introduces a new Setup Hub onboarding experience, multi-participant maturity assessments, Scan Engine performance improvements, and Business Value Management enhancements.Version 11.0.0 introduces standalone product adoption functionality, new Accelerators across multiple domains, Scan Engine API and exception workflow enhancements, and Business Outcomes improvements. It also retires legacy Accelerators and Impact Health Diagnostics.
+description: ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact was enhanced and updated in the Brazil release. See the following sections for release notes by version.Version 12.2.0 introduces new accelerators to support Impact and manage machine identity security along with updates to monitoring and managing instance health.Version 12.0.0 introduces a new Setup Hub onboarding experience, multi-participant maturity assessments, Scan Engine performance improvements, and Business Value Management enhancements.Version 11.0.0 introduces standalone product adoption functionality, new Accelerators across multiple domains, Scan Engine API and exception workflow enhancements, and Business Outcomes improvements. It also retires legacy Accelerators and Impact Health Diagnostics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/impact-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 7
+keywords: [Machine Identity Console, Value measurement, Scan Engine access]
 breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -36,6 +37,39 @@ See [Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/
 
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/new-features-changes.md)
+
+## November 2026 \(v12.2.0\)
+
+Version 12.2.0 introduces new accelerators to support Impact and manage machine identity security along with updates to monitoring and managing instance health.
+
+### What's new
+
+-   **[Latest Accelerators by release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/new-accelerators-australia-release.md)**
+
+    ServiceNow Impact now includes an accelerator that introduces you to the Impact Store App and another that helps build knowledge of Machine Identity Security.
+
+    This release includes the following:
+
+    -   Turn insights into action by using value measurement, product adoption, and consumption data to identify meaningful next steps with Introduction to the Impact App.
+    -   Govern non-human identities using the Machine Identity Console and Machine Identity Access Controls with Jumpstart Your Machine Identity Security.
+
+### What's changed
+
+-   **[Monitor and manage instance health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/scan-engine-overview.md)**
+    -   Assign Scan Engine access with default user groups. Scan Engine now installs with five groups, Scan Engine User, Admin, Read User, Exception Approver, and Code Fix User. You can grant access after installation without creating groups manually.
+    -   Grant Otto Code Fix access within a group. The Code Fix User group provides Code Fix capabilities for Scan Engine findings, along with scan execution, rescanning, and viewing scan results and findings.
+    -   See the same Platform Health score in every view. The Executive, Team Lead, and Platform Owner dashboards now apply the same rounding to the score, so the value matches wherever you view it.
+
+### What's deprecated or removed
+
+-   **Accelerators retired in this release**
+
+    LSD Maturity Assessment, Jumpstart Your Success Dashboard, TuneUp Your Virtual Agent-Assessment, TuneUp Your Virtual Agent-NLU, TuneUp Your Virtual Agent-Performance Monitoring
+
+-   **Role removed from entitlements**
+
+    The role Customer Success Manager\(CSM\) has been removed from the entitlements for Guided and Total customers.
+
 
 ## October 2026 Store \(v12.0.0\)
 

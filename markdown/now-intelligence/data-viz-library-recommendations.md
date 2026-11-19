@@ -20,7 +20,7 @@ Analytics managers can view information about potentially problematic data visua
 
 Visible to roles: viz\_admin and higher, including pa\_admin.
 
-The book icon \[Omitted image "book-icon.png"\] expands and hides the data visualization recommendation panel. It also shows how many recommendation tiles there are. Selecting a tile filters the library on the matching data visualizations.
+The book icon \[Omitted image "book-icon.png"\] Alt text: Book icon expands and hides the data visualization recommendation panel. It also shows how many recommendation tiles there are. Selecting a tile filters the library on the matching data visualizations.
 
 If the system property com.glide.par.v\_table\_join.enabled is true, only Next Experience data visualizations are included in the recommendations. If this property is false or null, both Next Experience and Core UI data visualizations are included in recommendations.
 

@@ -42,4 +42,12 @@ Role required: sn\_erp\_integration.erp\_admin or sn\_erp\_integration.erp\_user
     3.  Select the **Table Cleanup Rules** tab.
     4.  In the list, select **sn\_erp\_integration\_log\_heartbeat**.
     5.  Edit the **Age in seconds**.
+5.  To check the connection immediately instead of waiting for the next scheduled check, select **Check Now**.
+
+    Scheduled heartbeat checks run every five minutes by default. Use **Check Now** to confirm a fix straight after you correct a misconfiguration.
+
+    You can also test a connection from the connection record. For more information, see [View a list of Zero Copy Connector for ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/view-and-monitor-erp-systems-health.md).
+
+
+**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
 

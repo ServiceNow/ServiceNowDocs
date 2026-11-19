@@ -1,6 +1,6 @@
 ---
 title: Edit web or installed application form
-description: Using a custom form, you can edit an application to be monitored for compliance or performance metrics.
+description: The Edit web or installed application form contains the fields for editing an application that's monitored for compliance or performance metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/digital-end-user-experience-dex/admin-edit-app-form.html
 release: brazil
@@ -8,13 +8,13 @@ product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Administration cards, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # Edit web or installed application form
 
-Using a custom form, you can edit an application to be monitored for compliance or performance metrics.
+The Edit web or installed application form contains the fields for editing an application that's monitored for compliance or performance metrics.
 
 <table id="table_qqf_kv4_qdc"><thead><tr><th>
 
@@ -51,7 +51,7 @@ Processes to monitor.This field has the following subfields:
 -   **Windows: Enter the process name \(ex. process.exe\)**: A unique identifier for the primary running instance of the Windows application.
 -   **Windows: Secondary processes separated by a comma**: A unique identifier for the secondary running instance of the Windows application.
 -   **Mac: Enter the process name \(ex. process.dmg\)**: A unique identifier for the primary running instance of the macOS application.
--   **Mac: Secondary processes separated by a comma**: A unique identifier for the secondary or additional running instances of the macOS application.
+-   **Mac: Secondary processes separated by a comma**: A unique identifier for the secondary or more running instance of the macOS application.
 -   **Web Endpoint Connection**: A comma-separated list of domains used for measuring network latency. Example: company-name.zoom.us, company-name.outlook.com.
 
 **Note:** Typically, you fill in this field for the applications you have installed that connect to the cloud.
@@ -65,7 +65,7 @@ Enable page-level monitoring
 
 </td><td>
 
-Specific pages to monitor within the domain.You can add a specific page to monitor by selecting **Configure**. See [Set up page-level monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/set-up-page-level-monitoring.md) for more details.
+Specific pages to monitor within the domain.You can add a specific page to monitor by selecting **Configure**. For instructions on setting up page-level monitoring, see [Set up page-level monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/set-up-page-level-monitoring.md).
 
 This field appears only if you select a web application to edit.
 
@@ -106,7 +106,7 @@ Option to add a Software Asset Management \(SAM\) product to enable tracking of 
 
 This field appears only when you're editing a web application.
 
-For more information, see [Using DEX or SAM for application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/using-dex-or-sam-for-app-monitoring.md).
+For a comparison of application monitoring with DEX and SAM, see [Using DEX or SAM for application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/using-dex-or-sam-for-app-monitoring.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Administration cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/administration-cards.md)

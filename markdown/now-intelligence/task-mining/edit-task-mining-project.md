@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Navigate to the project you want to edit.
 
-3.  Select the More actions icon \[Omitted image "more-actions-menu-icon.png"\].
+3.  Select the More actions icon \[Omitted image "icon-menu.png"\].
 
     \[Omitted image "tm-edit-project.png"\] Alt text: The More actions menu and the Edit option.
 

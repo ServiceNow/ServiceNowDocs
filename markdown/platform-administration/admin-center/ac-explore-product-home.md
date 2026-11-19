@@ -9,7 +9,7 @@ classification: admin-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuration Hub, Admin Center, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configuration Hub, Admin Center, Get started, ServiceNow AI Platform]
 ---
 
 # Configure the product home page

@@ -56,12 +56,12 @@ After you create the location migration configurations, you must perform the mig
     |Parent table|Parent workplace location table. The **Workplace location** is considered as the child workplace location table. The parent location is automatically generated after you select the **Workplace location**.|
     |Workplace location table|Child workplace location table. This location is set as the child location in the hierarchy configuration.|
     |Is optional hierarchy|Option to set this location migration configuration as optional. For example, if there are locations that do not match the Area &gt; Room hierarchy, then they are matched with the next hierarchy, which is Floor &gt; Room. If there are Rooms that are not assigned to any Areas, then they are matched with Floors directly because Area is optional.|
-    |Application|Application of the location migration configuration. Ensure that **Workplace Safety Management** is selected. This field is automatically set.|
+    |Application|Application of the location migration configuration. Verify that **Workplace Core** is selected. This field is automatically set.|
     |Active|Option to activate the location migration configuration.|
     |Domain|Domain of the location migration configuration. This field is automatically set.|
     |Location condition|Conditions based on which the locations must be filtered for migration. The locations are filtered based on their Location type for the migration.|
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 ## Result

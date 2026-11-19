@@ -1,6 +1,6 @@
 ---
-title: Configuring monitoring and evaluations in AI Control Tower
-description: Set up monitoring in AI Control Tower by activating evaluations, adding metrics, and configuring metric templates.
+title: Configuring monitoring and evaluations
+description: Set up monitoring in Super Intelligence Control Tower by activating evaluations, adding metrics, and configuring metric templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-configuring-aict-evaluations.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, configure]
-breadcrumb: [Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Configuring monitoring and evaluations in AI Control Tower
+# Configuring monitoring and evaluations
 
-Set up monitoring in AI Control Tower by activating evaluations, adding metrics, and configuring metric templates.
+Set up monitoring in Super Intelligence Control Tower by activating evaluations, adding metrics, and configuring metric templates.
 
 ## Configuration overview
 

@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-10-23"
 reading_time_minutes: 1
+keywords: [edit application, modify application details, update monitored application, change application name, monitored processes, application settings]
 breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

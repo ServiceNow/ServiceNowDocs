@@ -9,7 +9,7 @@ classification: user-administration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Creating users, Creating users, companies, departments, User administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Creating users, Creating users, companies, departments, User administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create a user

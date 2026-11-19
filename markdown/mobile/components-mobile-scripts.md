@@ -15,7 +15,7 @@ breadcrumb: [Mobile scripting in offline, Offline mode, Before implementation, C
 Review the components which use mobile scripting.
 
 -   **[Button condition support enablement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/button-config-mobile-script.md)**  
-Use mobile scripts to update data across multiple tables and to control button visibility and behavior, whether users are online or offline.
+Learn how to enable button conditions for mobile scripting. Use mobile scripts to update data across multiple tables and to control button visibility and behavior, whether users are online or offline.
 -   **[Write-back action support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/wba-mobile-script.md)**  
 Mobile scripting can use write-back actions and write-back-action steps, so data from multiple tables can be manipulated while offline and online.
 

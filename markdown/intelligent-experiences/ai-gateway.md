@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-22"
 reading_time_minutes: 1
 keywords: [AI Gateway, AI Gateway settings]
-breadcrumb: [Configure, AI Gateway, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, AI Gateway, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Gateway settings
@@ -17,7 +17,7 @@ Turn MCP server connections on or off, automatically deactivate vulnerable tools
 
 Role required: sn\_ai\_governance.ai\_steward or admin
 
-In AI Control Tower, navigate to **Settings** &gt; **AI Gateway**. The page opens on the **Overview** tab.
+In Control Tower, navigate to **Settings** &gt; **AI Gateway**. The page opens on the **Overview** tab.
 
 |Tab|What you can do|
 |---|---------------|

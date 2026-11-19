@@ -18,7 +18,7 @@ When installing Service Exchange, certain tables must be preserved or excluded t
 
 If the default system profile is used, some of the Service Exchange table data isn’t preserved. To address this issue, you must create a custom clone profile with specific settings required for Service Exchange. Navigate to **All** &gt; **System Clone** &gt; **Clone Profiles** and select **New** to create a custom profile. For more details on clone profiles, see [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-clone-profile.md). In this profile, you must:
 
--   Remove the **Remote Process Sync Disable Records** script from the Cleanup scripts related list,
+-   Starting with Service Exchange version 2.4.10, you don’t need to remove the **Remote Process Sync Disable Records** script from the Cleanup Scripts related list.
 -   Validate if the following Service Exchange tables are included in the custom profile.
 
 **Note:** After a clone, you must reestablish the connection and activate the Capture Definitions. See [Reestablish connection after a clone for a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-cloning-instances.md) and [Reestablish connection after a clone for a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-cloning-instances-con.md).

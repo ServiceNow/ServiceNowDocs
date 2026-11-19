@@ -39,7 +39,7 @@ Managing appointments includes one of the following activities.
 
 -   [Managing appointments on behalf of a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/appointment-booking/managing-appts-on-behalf-of-customer.md)
 
-    Agents and dispatchers can manage appointments on behalf of a customer from a work order, work order task, or in the CSM/ FSM Configurable Workspace.
+    Agents and dispatchers can manage appointments on behalf of a customer from a work order, work order task, or in the CRM Workspace.
 
 -   [Managing appointments as a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/appointment-booking/manage-appts-as-a-customer.md)
 

@@ -32,15 +32,15 @@ Unlike other work order tasks, the task card for a work order task related to a 
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_udq_gsr_4fb"><thead><tr><th align="left" id="d119288e95">
+<table id="choicetable_udq_gsr_4fb"><thead><tr><th align="left" id="d119650e97">
 
 Option
 
-</th><th align="left" id="d119288e98">
+</th><th align="left" id="d119650e100">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d119288e104">
+</th></tr></thead><tbody><tr><td id="d119650e106">
 
 **Accept a task**
 
@@ -55,7 +55,7 @@ Do one of the following:
     -   Tap **Accept**.
 When you accept a task, the work order task state changes to **Accepted**.
 
-</td></tr><tr><td id="d119288e145">
+</td></tr><tr><td id="d119650e147">
 
 **Reject a task**
 

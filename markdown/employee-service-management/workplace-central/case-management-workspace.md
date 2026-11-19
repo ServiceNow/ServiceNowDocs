@@ -53,7 +53,7 @@ As an admin or a case admin, you can cancel a case if it’s no longer required.
 
 [Space Optimization]()
 
-[Scenario Planning]()
+[Scenario planning]()
 
 [Schedule Planning]()
 

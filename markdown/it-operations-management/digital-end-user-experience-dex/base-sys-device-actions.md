@@ -1,6 +1,6 @@
 ---
 title: Base system device actions
-description: DEX Self-service includes base system device actions that end users can run to resolve common device issues.
+description: DEX Self-service includes base system device actions that end users can run to resolve common device issues, such as application crashes and low disk space.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/digital-end-user-experience-dex/base-sys-device-actions.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [DEX Self-service reference, Reference, Digital End-User Experience,
 
 # Base system device actions
 
-DEX Self-service includes base system device actions that end users can run to resolve common device issues.
+DEX Self-service includes base system device actions that end users can run to resolve common device issues, such as application crashes and low disk space.
 
 DEX Self-service includes the following device actions by default. Each action appears as a button for end users and helps resolve a specific device issue on supported operating systems.
 

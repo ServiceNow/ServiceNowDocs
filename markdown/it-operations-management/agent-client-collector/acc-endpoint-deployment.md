@@ -40,8 +40,8 @@ The Monitoring Technology Dashboard enables you to monitor server resources for 
 Agent Client Collector for Visibility Content \(ACC-VC\) version 1.3.0 supports exclusion lists for IPs and Network Interface Controllers \(NICs\). A flexible mechanism filters out values for IPs and NICs when creating or updating the host CI and related items.
 -   **[Identify software editions on Windows devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/identify-sw-edition.md)**  
 Determine which edition of software is in use on Windows devices in your environment, to maintain an accurate software inventory. Software products commonly support multiple editions, making it difficult to identify which edition is in use.
--   **[Generate a Pattern allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/generate-patterns-allow-list.md)**  
-Generate an allowlist for a selection of patterns, to configure the patterns permitted to run on an agent.
+-   **[Generate a Pattern allow list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/generate-patterns-allow-list.md)**  
+Generate an allow list for a selection of patterns, to configure the patterns permitted to run on an agent.
 -   **[Domain usage discovery and categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-ai-domain-usage-discovery.md)**  
 Agent Client Collector for Visibility \(ACC-VC\) domain usage discovery classifies the domains that users visit against a set of admin-defined domain signatures. It enables you to see which websites and services, such as AI tools, are being used across the endpoints in your environment.
 -   **[Browser extension discovery and categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-browser-extension-discovery.md)**  

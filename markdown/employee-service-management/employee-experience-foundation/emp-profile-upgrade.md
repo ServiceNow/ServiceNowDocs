@@ -8,8 +8,8 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Configure Employee Profile for a portal, Employee profile, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+reading_time_minutes: 4
+breadcrumb: [Configure Employee Profile for a portal, Employee profile, Setup task management, Configuring Employee Center, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Employee Profile upgrade scenarios

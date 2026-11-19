@@ -29,7 +29,7 @@ Role required: admin.
     |sys\_ui\_hp\_publisher.list|Interactive filters|
     |pa\_dashboards.list|Responsive dashboards|
 
-2.  Select the **Personalize List** icon \[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit columns icon to add columns to the list.
+2.  Select the **Personalize List** icon \[Omitted image "icon-cogwheel-ac.png"\] Alt text: Personalize list icon to add columns to the list.
 
 3.  Move **Do not migrate in bulk** to the **Selected** column.
 

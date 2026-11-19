@@ -135,7 +135,7 @@ Operational status of the resource. For example: Operational, Non-Operational, o
 </td></tr></tbody>
 </table>**Note:**
 
-If you have reactivated a retired virtual machine \(VM\) and want its active state to be accurately reflected in the **Operational status** and **Install Status** fields in the Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] table, set the **sn\_itom\_pattern.discover\_aws\_instance\_statuses** MID Server property to **true**. Note that this setting involves additional API calls—one for each page of the pattern execution—which may impact performance if you're managing a large number of VMs.
+After reactivating a retired virtual machine \(VM\), set the **sn\_itom\_pattern.discover\_aws\_instance\_statuses** MID Server property to **true**. This reflects the active state in the **Operational status** and **Install Status** fields in the Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] table. This setting involves additional API calls—one for each page of the pattern execution—which may impact performance when managing many VMs.
 
 <table id="table_storage_mapping"><thead><tr><th>
 

@@ -18,7 +18,7 @@ Run a mining job on a Task Mining project to generate an analysis of your projec
 
 ## Before you begin
 
-Analyses can only include data from users with completed data request approvals and agent installations. However, you can still mine a project with incomplete data. If any data request is pending approval, you can remove that data request from the project first. For information about adding and removing workstation users from a project, see [Add workstation users to a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/add-users-to-task-mining-project.md).
+An analysis includes data only from workstation users whose data request is approved and whose agent is installed. You don't have to wait for every request to be approved. You can mine the project with the data you have, and you can remove a pending data request from the project at any time. For information about adding and removing workstation users from a project, see [Add workstation users to a Task Mining project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/add-users-to-task-mining-project.md).
 
 Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
@@ -28,23 +28,21 @@ Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admi
 
 2.  Select the name of the project you want to analyze.
 
-    \[Omitted image "tm-mine-project.png"\] Alt text: Screenshot showing a Task Mining project before mining.
+    \[Omitted image "tm-mine-project.png"\] Alt text: Shows a Task Mining project before mining.
 
 3.  Review the **Approvals and actions** section for which data request approvals were completed and which agents were installed.
 
-    Analyses can only include data from users with completed data request approvals and agent installations. However, you can still mine a project with incomplete data.
-
-4.  Select the Project menu icon \[Omitted image "icon-vert-3dot-p.png"\] Alt text: Context menu icon and **Workstation users** to see details of data requests affiliated with the project including the manager responsible for approving the request.
+4.  Select the Project menu icon \[Omitted image "image.triggers-more-actions"\] and **Workstation users** to see details of data requests affiliated with the project including the manager responsible for approving the request.
 
 5.  Select **Mine project**.
 
     If this option isn’t available, check that the project timeline has started.
 
-6.  Select the Project menu icon \[Omitted image "icon-vert-3dot-p.png"\] Alt text: Context menu icon and **Mining Jobs** to monitor the progress of your mining jobs for this project.
+6.  Select the Project menu icon \[Omitted image "image.triggers-more-actions"\] and **Mining Jobs** to monitor the progress of your mining jobs for this project.
 
 7.  Select a tab of an analysis you selected when creating the project.
 
-    \[Omitted image "tm-after-mining.png"\] Alt text: Screenshot showing a project after mining.
+    \[Omitted image "tm-after-mining.png"\] Alt text: Shows the project after mining.
 
 
 ## What to do next

@@ -9,20 +9,20 @@ classification: value-library
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Value Management, Impact reference, Impact]
+breadcrumb: [Value Management, Using Impact, Impact]
 ---
 
 # Product value
 
 View how your ServiceNow investment is performing against the outcomes you are tracking, with full visibility into how values are calculated and the assumptions that drive them.
 
-The product value overview surfaces operational and monetized performance data directly from your ServiceNow instance. The product value overview is currently available for IT Service Management, Customer Service Management, and HR Service Delivery.
+The product value overview surfaces operational and monetized performance data directly from your ServiceNow instance. It is currently available for IT Service Management, Customer Service Management, and HR Service Delivery.
 
-**Note:** This experience requires the current version of the Impact Store Application, and is only available to IT Service Management, Customer Service Management, and HR Service Delivery customers using enhanced outcome definitions. The Product Value Overview is available from the Value management navigation menu.
+**Note:** This experience requires the current version of the Impact Store Application and is only available to IT Service Management, Customer Service Management, and HR Service Delivery customers using enhanced outcome definitions. The Product Value Overview is available from the Value management navigation menu.
 
-\[Omitted image "product\_value.png"\] Alt text: Product Value
+\[Omitted image "product\_value.png"\] Alt text: Product value overview page showing outcome cards and the side panel
 
-**Note:** For more information on the product value dashboard, see [View outcome performance on the product value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/value-library/manage-product-value.md).
+**Note:** For more information about the product value dashboard, see [View outcome performance on the product value dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/value-library/manage-product-value.md).
 
 ## Product value side panel
 
@@ -38,27 +38,35 @@ Available information
 
 </th></tr></thead><tbody><tr><td>
 
-**Outcome Overview**
+Outcome Overview
 
 </td><td>
 
-Description, associated objective, value driver, and key success metric for the selected outcome. An AI-generated summary powered by ServiceNow Otto® is also available and can be refreshed at any time during the session.
+Description, associated objective, value driver, and key success metric for the selected outcome. An AI-generated summary powered by ServiceNow Otto® is also available. You can refresh the summary at any time during the session.
 
 </td></tr><tr><td>
 
-**Calculations and Assumptions**
+Calculations and Assumptions
 
 </td><td>
 
-Displays derived dashboard values, across three sections: -   Estimated monetized value \(aggregate figure and formula\), business.
--   Business value that includes per-metric breakdown with observed values.
+Displays derived dashboard values, across three sections: -   Estimated monetized value \(aggregate figure and formula\).
+-   Business value that includes per metric breakdown with observed values.
 -   Observation value that includes underlying operational data.
 
-Assumption values with editable fields can be updated directly and are visible to your Impact squad. Where insufficient data exists, values display as N/A.
+You can update editable assumption values directly. They are visible to your Impact squad. Where insufficient data exists, values display as N/A.
 
 </td></tr><tr><td>
 
-**Capabilities**
+Recommendations
+
+</td><td>
+
+Suggested actions to improve performance for the selected outcome. Recommendations are outcome-specific and update when you select a different outcome. If none are available, the panel displays an informational message.
+
+</td></tr><tr><td>
+
+Capabilities
 
 </td><td>
 
@@ -66,7 +74,7 @@ ServiceNow capabilities mapped to the selected outcome, with adoption status in 
 
 </td></tr><tr><td>
 
-**Challenges**
+Challenges
 
 </td><td>
 
@@ -74,19 +82,11 @@ Business challenges associated with the selected outcome, as defined by the Serv
 
 </td></tr><tr><td>
 
-**Related Conversations**
+Related Conversations
 
 </td><td>
 
 Existing and new conversations with your Impact squad, listed by most recent activity.
-
-</td></tr><tr><td>
-
-**Recommendations**
-
-</td><td>
-
-Suggested actions to improve performance for the selected outcome. Recommendations are outcome-specific and update when a different outcome is selected. If none are available, an informational message is shown.
 
 </td></tr></tbody>
 </table>

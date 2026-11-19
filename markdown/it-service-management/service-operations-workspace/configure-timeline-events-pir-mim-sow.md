@@ -1,5 +1,5 @@
 ---
-title: Configure the timeline events for a Post Incident Report
+title: Configure the timeline events for a post incident report
 description: Configure the incident information displayed as the event on the post incident report that is generated after a major incident is resolved. You can configure what information a post incident report must contain and how the information is arranged.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-timeline-events-pir-mim-sow.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Configure the timeline events for a Post Incident Report
+# Configure the timeline events for a post incident report
 
 Configure the incident information displayed as the event on the post incident report that is generated after a major incident is resolved. You can configure what information a post incident report must contain and how the information is arranged.
 
@@ -52,7 +52,7 @@ Incident Milestones
 
 </td><td>
 
-Option to include the following critical incident milestones in the timeline events of the post incident report:-   Incident accepted as a Major Incident by an MI manager
+Option to include the following critical incident milestones in the timeline events of the post incident report:-   Incident accepted as a major incident by a major incident manager
 -   Incident marked as Resolved
 
 
@@ -66,7 +66,7 @@ Option to arrange the order of the incident events in a post incident report. Av
 
 -   Ascending – Order of events where the first event is placed at the top of the post incident report and the last event is displayed at the bottom of the post incident report.
 -   Descending – Order of events where the last event is placed at the top of the post incident report and the first event is placed at the bottom of the post incident report.
- **Note:** The first and last event displays the date along with the time.
+ **Note:** The first and last events display the date along with the time.
 
 </td></tr><tr><td>
 

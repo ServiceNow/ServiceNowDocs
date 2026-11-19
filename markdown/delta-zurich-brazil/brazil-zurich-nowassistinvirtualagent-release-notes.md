@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-nowassistinvirtualagent-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 37
 breadcrumb: [Products combined by family]
 ---
@@ -713,7 +713,7 @@ Zurich
 
  -   **Agentic support**
 
-The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss in functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features in [\[Placeholder link text to key additional-chat-features\]](https://www.servicenow.com/docs/access?context=additional-chat-features&family=zurich&ft:locale=en-US).
+The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss in functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features in [additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=zurich&ft:locale=en-US).
 
 -   **[ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US)**
 

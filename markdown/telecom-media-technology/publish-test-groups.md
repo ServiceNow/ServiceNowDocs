@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-23"
 reading_time_minutes: 1
 keywords: [publish test group, test group state]
-breadcrumb: [Setting up a test group, Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Set up test group, Set up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Publish a test group

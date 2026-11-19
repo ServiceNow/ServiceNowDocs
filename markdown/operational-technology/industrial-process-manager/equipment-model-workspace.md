@@ -36,15 +36,15 @@ If you have an assigned cmdb\_ot\_isa\_viewer role, you can only view equipment 
 
 3.  Review an existing equipment model entity, or create one.
 
-<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d33166e119">
+<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d33166e121">
 
 Task
 
-</th><th align="left" id="d33166e122">
+</th><th align="left" id="d33166e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d33166e128">
+</th></tr></thead><tbody><tr><td id="d33166e130">
 
 **Review and update an existing equipment model**
 
@@ -54,7 +54,7 @@ In the selector pane, do the following actions:1.  Expand the equipment model hi
 2.  Select the entity that you want to view.
 
 
-</td></tr><tr><td id="d33166e146">
+</td></tr><tr><td id="d33166e148">
 
 **Create an equipment model entity and populate the details**
 

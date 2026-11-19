@@ -16,8 +16,14 @@ breadcrumb: [Event Management, ITOM AIOps, IT Operations Management]
 
 Reference topics provide additional information about mapping and fine-tuning application services using Event Management lists and forms.
 
--   **[Components installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/r_InstalledWithEventManagement.md)**  
-Activating the Event Management \(com.glideapp.itom.snac\) plugin adds several roles, scheduled jobs, and tables.
+-   **[Roles installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/r_RolesInstalledWithEventMgmt.md)**  
+Roles used by the Event Management application.
+-   **[Scheduled jobs installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/r_ScheduledJobsInstalledWithEM.md)**  
+List of scheduled jobs that are provided with Event Management.
+-   **[Domain separation properties for Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/system-default-properties-personalizing-domain-separation-event-management-connectors.md)**  
+Properties provide the metadata to identify the domain.
+-   **[Tables installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/r_TblsinstldwithEventMgmt.md)**  
+Tables that are provided when Event Management is activated.
 -   **[Event Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-content-pack.md)**  
 Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 -   **[Machine learning solutions for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/ml-solutions-em.md)**  

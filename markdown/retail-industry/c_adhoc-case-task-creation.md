@@ -32,7 +32,7 @@ Quick case creation is best for issues that need rapid response and assignment w
 -   Customer experience escalations
 -   Any ad-hoc work that requires team coordination
 
-For large, multi-store initiatives with scheduled compliance activities, use [Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plans.md) instead.
+For large, multi-store initiatives with scheduled compliance activities, use [Create and manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plans.md) instead.
 
 ## Cases and tasks
 

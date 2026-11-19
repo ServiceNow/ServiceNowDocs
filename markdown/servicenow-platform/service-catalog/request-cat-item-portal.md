@@ -22,7 +22,7 @@ Role required: requester
 
 Select the **Allow Cloning** instance option on the Order Status page to display the **Additional Actions** section after placing the request.
 
-For information about the SC Catalog Item widget, see SC Catalog Item widget
+For information about the SC Catalog Item widget, see [SC Catalog Item widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/sc-catalog-item-widget.md)
 
 ## Procedure
 
@@ -38,7 +38,7 @@ For information about the SC Catalog Item widget, see SC Catalog Item widget
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d665756e136">
+<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d667211e136">
 
 **Add attachments**
 
@@ -46,7 +46,7 @@ For information about the SC Catalog Item widget, see SC Catalog Item widget
 
 To add one or more attachments to the catalog item, select the choose a file link to browse and choose the files or directly drag the files in the **Add attachments** window.
 
-</td></tr><tr><td id="d665756e151">
+</td></tr><tr><td id="d667211e151">
 
 **Add to Cart**
 
@@ -54,7 +54,7 @@ To add one or more attachments to the catalog item, select the choose a file lin
 
 To add the catalog item to the shopping cart, click the Add to Cart icon \(\[Omitted image "IconAddTocart.png"\] Alt text: Icon to add to the cart\).
 
-</td></tr><tr><td id="d665756e166">
+</td></tr><tr><td id="d667211e166">
 
 **Add to Wish List**
 

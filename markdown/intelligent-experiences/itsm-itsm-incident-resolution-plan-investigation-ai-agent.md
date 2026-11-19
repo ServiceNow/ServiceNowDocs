@@ -76,7 +76,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal
+snc\_internal, itil, sn\_service\_desk\_agent
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Used in agentic workflows
 
 </td><td>
 
-Investigate and resolve ITSM incidents
+Investigate and recommend incident resolution
 
 </td></tr></tbody>
 </table>Learn more about IT Service Management at [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/r_ITServiceManagement.md).

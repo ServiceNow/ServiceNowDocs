@@ -1063,15 +1063,15 @@ If you’re using Software Asset Workspace, the option to create the Salesforce 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d377675e3343">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d377345e3357">
 
 Interface
 
-</th><th align="left" id="d377675e3346">
+</th><th align="left" id="d377345e3360">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d377675e3352">
+</th></tr></thead><tbody><tr><td id="d377345e3366">
 
 **Core UI**
 
@@ -1082,7 +1082,7 @@ Action
 3.  Select **Salesforce Marketing Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d377675e3394">
+</td></tr><tr><td id="d377345e3408">
 
 **Software Asset Workspace**
 

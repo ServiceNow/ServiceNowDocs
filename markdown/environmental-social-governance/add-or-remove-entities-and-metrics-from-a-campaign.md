@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 1
 keywords: [campaign entities, campaign metrics, campaign scope, add entities to campaign]
-breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Add or remove entities and metrics from a campaign
@@ -40,15 +40,15 @@ Adding an entity to the campaign automatically adds metrics that match the campa
 
 6.  Add or remove records.
 
-<table id="choicetable_add-remove-campaign-records"><thead><tr><th align="left" id="d40327e152">
+<table id="choicetable_add-remove-campaign-records"><thead><tr><th align="left" id="d40327e154">
 
 Option
 
-</th><th align="left" id="d40327e155">
+</th><th align="left" id="d40327e157">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d40327e161">
+</th></tr></thead><tbody><tr><td id="d40327e163">
 
 **Add**
 
@@ -58,7 +58,7 @@ Select **Add**, select the records, and select **Add**.
 
  **Note:** An entity already in another campaign with the same group, frequency, and calendar is not available to select again.
 
-</td></tr><tr><td id="d40327e182">
+</td></tr><tr><td id="d40327e184">
 
 **Remove**
 

@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Using Employee Center, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Manage approvals from Microsoft Teams
@@ -45,15 +45,15 @@ Role required: approver\_user
 
     **Note:** You cannot accept or reject a report if the assigned approver has been modified or the report has been updated or closed.
 
-<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d244193e175">
+<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d244551e177">
 
 Decision
 
-</th><th align="left" id="d244193e178">
+</th><th align="left" id="d244551e180">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d244193e184">
+</th></tr></thead><tbody><tr><td id="d244551e186">
 
 **Approve the report**
 
@@ -61,7 +61,7 @@ Action
 
 Select **Approve**.
 
-</td></tr><tr><td id="d244193e196">
+</td></tr><tr><td id="d244551e198">
 
 **Reject the report**
 

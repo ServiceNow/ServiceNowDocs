@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Skipped Record Rules Editor tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Skipped Record Rules Editor tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, ServiceNow AI Platform]
 ---
 
 # Execute a skipped record rule
@@ -41,15 +41,15 @@ Role required: admin
 
 2.  Execute the rules on demand using either of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d338320e135">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d338225e139">
 
 Option
 
-</th><th align="left" id="d338320e138">
+</th><th align="left" id="d338225e142">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d338320e144">
+</th></tr></thead><tbody><tr><td id="d338225e148">
 
 **Using Run Now**
 
@@ -60,7 +60,7 @@ Steps
 
 **Note:** When you select **Run Now**, a progress bar shows up to display the progress of the rule execution.
 
-</td></tr><tr><td id="d338320e170">
+</td></tr><tr><td id="d338225e174">
 
 **Using View Latest Upgrade History tab**
 

@@ -1,6 +1,6 @@
 ---
 title: Configure module in Web Embeddables
-description: A module is a collection of component instances tied to specific domains or deployment contexts.
+description: Use modules to group the component instances that belong to a website, with their domain and theme settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-module.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure Web Embeddables, Set up self-service, Configure, Customer
 
 # Configure module in Web Embeddables
 
-A module is a collection of component instances tied to specific domains or deployment contexts.
+Use modules to group the component instances that belong to a website, with their domain and theme settings.
 
 A module represents a website with a collection of pages or a section using groups and a collection of components instances embedded on the website. The theme for component instances, external domain URL for CORS, and custom ServiceNow domain for base URL are derived from module meta data.
 

@@ -7,10 +7,10 @@ release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-09"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Box external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Box external content connector, Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure Box for external content indexing
@@ -27,7 +27,7 @@ Role required: none
 
 ## About this task
 
-The Box external content connector retrieves documents and user permissions from your Box source system using the Box API.
+The Box external content connector retrieves documents, users, and access permissions from your Box source system using the Box API.
 
 To allow the connector to access your Box source system via the Box API, you must configure and authorize an OAuth 2.0 application in the Box developer console. Your connector administrator can use settings copied from the OAuth 2.0 application and its API key to configure the Box external content connector for proper connection to your source system.
 

@@ -16,6 +16,10 @@ The Apache Hive connector provides read-only access to data and metadata from a 
 
 A connection admin can create a connection to Apache Hive and give data stewards access to that connection in Zero Copy Connector Hub. A data steward can select the established connection to create a data fabric table and map data from Apache Hive. This allows users to retrieve Apache Hive data through the table list view or GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
 
+**Note:**
+
+This connector is available starting with Yokohama patch 5.
+
 **Related topics**  
 
 

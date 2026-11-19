@@ -1,13 +1,13 @@
 ---
 title: Third-party Risk Management release notes
-description: The ServiceNow Third-party Risk Management application provides a centralized process for managing third-party engagement portfolios, assessing and scoring risk, and driving remediation. See the following sections for release notes by version. Version 23.0 adds AI asset support in element collection, DORA register-of-information terminology, and document version comparison. It also updates element assessments, risk scoring, and notifications, and fixes SBOM processing issues.Version 23.1.1 adds support to new AI models for Now LLM. Select model config updates are being deprecated and made inactive.
+description: The ServiceNow Third-party Risk Management application provides a centralized process for managing third-party engagement portfolios, assessing and scoring risk, and driving remediation. See the following sections for release notes by version. Version 23.0 adds AI asset support in element collection, DORA register-of-information terminology, and document version comparison. It also updates element assessments, risk scoring, and notifications, and fixes SBOM processing issues.Version 23.1.1 adds support to new AI models for Now LLM. Select model config updates are being deprecated and made inactive.All TPRM AI skills are turned off by default, leaving activation solely to administrators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/grc-tprm-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 9
-keywords: [Third-Party Risk Management, TPRM, Third-Party Risk Management, TPRM, element collection, AI assets, AI use cases, AI models, DORA, register of information, document version comparison, Document Management System, Smart Assessment Engine, SAE, questionnaire reassignment, risk scoring, internal tasks, external tasks, SBOM, issue generation, third-party portal, due diligence]
+reading_time_minutes: 10
+keywords: [Third-Party Risk Management, TPRM, Third-Party Risk Management, TPRM, element collection, AI assets, AI use cases, AI models, DORA, register of information, document version comparison, Document Management System, Smart Assessment Engine, SAE, questionnaire reassignment, risk scoring, internal tasks, external tasks, SBOM, issue generation, third-party portal, due diligence, Third-Party Risk Management, TPRM, deduplication, company dedup job, duplicate records, unique records, AI classification, company record clusters, Now Assist, AI skills, issue summarization, issue recommendation]
 audience: administrator
 breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -155,5 +155,18 @@ Version 23.1.1 adds support to new AI models for Now LLM. Select model config up
 -   **Now LLM Service**
 
     Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+## December 2026
+
+All TPRM AI skills are turned off by default, leaving activation solely to administrators.
+
+### What's changed
+
+-   **[ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/exploring-now-assist-tprm.md) skills are turned off by default**
+
+    After upgrading to version 23.0.0, the Third-party Risk Management issue summarization and issue recommendation skills are inactive by default. Previously, these skills were active after installation. To use either skill, an admin must activate it.
+
+    Starting with the December 2026 release, many AI assets \(generative AI skills, AI agents, agentic workflows, and AI specialists\) will be OFF by default. If you're actively using AI assets, those will remain ON after the upgrade. To turn on generative AI skills use the [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md). To turn on AI agents, agentic workflows, or AI specialists, use [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aias-landing.md).
 
 

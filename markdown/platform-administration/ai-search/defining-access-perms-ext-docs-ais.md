@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [External content security, Indexing and searching external content, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [External content security, Indexing and searching external content, Configure, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Defining access permissions for external documents

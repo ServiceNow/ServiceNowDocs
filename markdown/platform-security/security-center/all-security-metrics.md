@@ -14,9 +14,9 @@ breadcrumb: [Security metrics, Security monitoring console, Security Center, Pla
 
 # All Security Metrics
 
-Navigate to **All Security Metrics** to view a table with the data related to the Security Metrics of your instance.
+Navigate to All Security Metrics to view a table with the data related to the Security Metrics of your instance.
 
-Access the list of all Security Metrics on a filterable list by accessing the Security Metrics Dashboard, and selecting the **All Security Metrics** option on from the list on the left.
+Access the list of all Security Metrics on a filterable list by accessing the Security Metrics Dashboard, and selecting the **All Security Metrics** option from the metrics navigation pane.
 
 \[Omitted image "sc-metrics-1.png"\] Alt text: Security metrics
 

@@ -8,7 +8,7 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-10-22"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [sap, zero copy connector for erp, erp content pack, enterprise data foundation, hire to retire, quote to cash, source to settle, sap master data model, sap ecc, sap s/4hana, bapi, odata v2]
 breadcrumb: [Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -58,4 +58,15 @@ The ERP Content Pack for Source to Settle contains models including Purchase Ord
 |Content pack contents|Target systems|Methods|
 |---------------------|--------------|-------|
 |Models|ECC and S/4|RFC/BAPI/OData V2|
+
+-   **[Zero Copy Connector for ERP Enterprise Data Foundation content pack for SAP master data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)**  
+Use the Enterprise Data Foundation content pack in Zero Copy Connector for ERP to start from predefined models and process extensions for SAP master data instead of building them from scratch.
+-   **[Zero Copy Connector for ERP Quote to Cash content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-sales-order-content-pack.md)**  
+The Zero Copy Connector for ERP Quote to Cash content pack contains models and process extensions sales order processing.
+-   **[Zero Copy Connector for ERP Hire to Retire content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-recruit-to-retire-content-pack.md)**  
+The Zero Copy Connector for ERP Hire to Retire content pack contains models and process extensions that manage the employee lifecycle.
+-   **[Zero Copy Connector for ERP Source to Settle content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-source-to-settle-data-product.md)**  
+Obtain details about the models and process extensions in the Zero Copy Connector for ERP \(Enterprise Resource Planning\) Source to Settle content pack.
+
+**Parent Topic:**[Accelerating SAP integrations with Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
 

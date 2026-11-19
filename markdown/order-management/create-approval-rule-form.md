@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-approval-rule-form.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 2
 breadcrumb: [Advanced Approval Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -44,7 +44,7 @@ Approval chain
 
 </td><td>
 
-Sequence of approval steps that an approval request must meet before the request is fully approved.
+Optional sequence of approval rules that an approval request must meet before the request is fully approved.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Order
 
 </td><td>
 
-Sequence in which the approval rule is triggered within a set of steps.
+Sequence in which the approval rule is triggered within a set of rules. Order is mandatory or relevant when an approval chain is provided.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Active
 
 </td><td>
 
-Option indicating that the approval rule is in use. To deactivate the approval rule, deselect this option.
+Option indicating that the approval rule is in use. To deactivate the approval rule, deselect this option. The approval engine doesn't evaluate inactive rules.
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Dynamic approver
 
 </td><td>
 
-Rule logic that determines the approver dynamically when an approval request is submitted.
+Rule logic that determines the approver dynamically when an approval request is submitted. It's a dot-walkable field from the approval entity such as Quote.
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Auto escalate
 
 </td><td>
 
-Option that turns on escalations for the approval rule. Escalation is a mechanism for reassigning an approval request to another approver when the original approver hasn't acted on the request within the defined time set in the **Expected days to complete** field.
+Option that turns on escalations for the approval rule. Escalation is a mechanism for reassigning an approval request to another approver when the original approver hasn't acted on the request within the defined time set in the **Expected days to complete** field.Auto escalate works only when **Allow escalations** is selected in the approval configuration. For details, see [Approval Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/approval-configuration-form.md).
 
 </td></tr><tr><td>
 
@@ -119,7 +119,7 @@ Expected days to complete
 
 </td><td>
 
-The number of days, hours, minutes, and seconds that defines the total time allotted to approve or reject the request.
+The number of days, hours, minutes, and seconds that defines the total time allotted to approve or reject the request.The time counts only during the business hours of the escalation schedule. The default Approval Escalation SLA uses the 8-5 weekdays schedule, so a request submitted after business hours starts counting on the next business morning.
 
 </td></tr><tr><td>
 

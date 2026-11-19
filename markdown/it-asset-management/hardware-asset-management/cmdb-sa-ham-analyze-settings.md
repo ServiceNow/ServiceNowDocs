@@ -38,7 +38,7 @@ Navigate to the CMDB success advisor landing page and for the HAM card, select *
 
 You need the sn\_cmdb\_admin role to access the CMDB success advisor for HAM.
 
-To manage business rules, change the application scope from CMDB success advisor to Global in the [application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
+To manage business rules, change the application scope from CMDB success advisor to Global in the application picker.
 
 ## Use cases
 
@@ -94,15 +94,15 @@ Role required: sn\_cmdb\_admin
 
 5.  Evaluate each setting that requires attention and use the available actions to open the related configuration pages and make updates.
 
-<table id="choicetable_acr_fw5_ggc"><thead><tr><th align="left" id="d355367e487">
+<table id="choicetable_acr_fw5_ggc"><thead><tr><th align="left" id="d354584e491">
 
 Action
 
-</th><th align="left" id="d355367e490">
+</th><th align="left" id="d354584e494">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d355367e496">
+</th></tr></thead><tbody><tr><td id="d354584e500">
 
 **Manage rule**
 
@@ -110,7 +110,7 @@ Description
 
 Opens the configuration page for the related business rule that automates tasks between assets and CIs.
 
-</td></tr><tr><td id="d355367e505">
+</td></tr><tr><td id="d354584e509">
 
 **Manage model categories**
 
@@ -118,7 +118,7 @@ Opens the configuration page for the related business rule that automates tasks 
 
 Opens the Model categories list page where you can select a model category to review and update mappings between asset model categories and CI classes.
 
-</td></tr><tr><td id="d355367e514">
+</td></tr><tr><td id="d354584e518">
 
 **Manage mappings**
 
@@ -126,7 +126,7 @@ Opens the Model categories list page where you can select a model category to re
 
 Opens the Asset CI Field Mappings list page where you can select a CI and review and change how asset fields connect to CI fields to keep data accurate.
 
-</td></tr><tr><td id="d355367e523">
+</td></tr><tr><td id="d354584e527">
 
 **Manage policies**
 
@@ -134,7 +134,7 @@ Opens the Asset CI Field Mappings list page where you can select a CI and review
 
 Opens the Data Manager overview page where you can create or update policies for different CI classes to automate asset management.
 
-</td></tr><tr><td id="d355367e533">
+</td></tr><tr><td id="d354584e537">
 
 **Create policy**
 

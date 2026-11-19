@@ -23,7 +23,7 @@ The following applications must be installed on your ServiceNow instance:
 -   Hardware Asset Management \(HAM\) version 16.0.0 or later
 -   Setup Hub \(sn\_ia\_base\) version 3.0.4 or later
 
-Role required: To access the Configuration Console, you must have the ham\_admin and ia\_user roles. The setup items available within the console depend on the additional roles assigned. For more information on roles required for modules, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/config-console-ham.md).
+Role required: To access the Configuration Console, you must have the ham\_admin and sn\_ia\_config.ia\_user roles. The setup items available within the console depend on the additional roles assigned. For more information on roles required for modules, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/config-console-ham.md).
 
 ## About this task
 

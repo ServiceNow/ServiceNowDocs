@@ -113,7 +113,7 @@ Reclaim unused SaaS and SSO subscriptions in the Software Asset Workspace.
 
 [SaaS License Management setup for large companies]()
 
-[SaaS Overview dashboard]()
+[]()
 
 [Integrate with SaaS applications]()
 

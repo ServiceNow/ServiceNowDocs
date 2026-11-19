@@ -25,5 +25,5 @@ Integrate GitHub with Terraform to link workspaces to repositories, enabling ver
 -   **[Create Terraform API token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/set-up-administrator-api-key.md)**  
 Generating API tokens with limited permissions enhances security, enables fine-grained control, facilitates automation, and provides temporary access within your Terraform organization.
 
-**Parent Topic:**[Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/cam-landing.md)
+**Parent Topic:**[Setting up AWS cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/setting-up-aws-cloud.md)
 

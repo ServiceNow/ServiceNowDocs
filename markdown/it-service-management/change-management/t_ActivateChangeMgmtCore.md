@@ -1,6 +1,6 @@
 ---
 title: Activate Change Management - Core
-description: You can activate the Change Management - Core plugin \(com.snc.change\_management\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+description: Activate the Change Management - Core plugin \(com.snc.change\_management\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ActivateChangeMgmtCore.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Change Management plugins, Configure, Change Management, IT Service
 
 # Activate Change Management - Core
 
-You can activate the Change Management - Core plugin \(com.snc.change\_management\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Change Management - Core plugin \(com.snc.change\_management\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 
 ## Before you begin
 
@@ -70,7 +70,7 @@ Several types of components are installed with the Change Management - Core.
 **Related topics**  
 
 
-[Request ITSM Roles - Change Management]()
+[Request ITSM Roles for Change Management]()
 
 [Activate Business Stakeholder]()
 

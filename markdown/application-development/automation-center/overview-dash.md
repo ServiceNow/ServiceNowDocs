@@ -57,7 +57,7 @@ Robotic Process Automation \(RPA\) by source
 
 </td><td>
 
-This chart displays the automations for all RPAs grouped by sources. The graph gives details of the time lines when the RPA data was sent to Automation Center.\[Omitted image "image.overview-rpa-source"\] Alt text: Robotic Process Automation RPA by source
+This chart displays the automations for all RPAs grouped by sources. The graph gives details of the time lines when the RPA data was sent to [Automation Center API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/auto-api.md).\[Omitted image "overview-rpa-source.png"\] Alt text: Robotic Process Automation RPA by source
 
 </td></tr><tr><td>
 

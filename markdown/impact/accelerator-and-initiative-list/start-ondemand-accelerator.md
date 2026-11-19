@@ -7,7 +7,7 @@ release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Self-serve Accelerator fulfillment process, Request Accelerators and Initiatives, Accelerators and Initiatives, Using Impact, Impact]
 ---

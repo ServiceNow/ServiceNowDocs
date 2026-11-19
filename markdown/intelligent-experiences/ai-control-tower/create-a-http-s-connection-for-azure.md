@@ -1,6 +1,6 @@
 ---
 title: Create a HTTP\(s\) connection for Azure Foundry
-description: Use the AI Control Tower workspace to create a HTTP\(s\) connection for Azure Foundry.
+description: Use the Control Tower workspace to create a HTTP\(s\) connection for Azure Foundry.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-a-http-s-connection-for-azure.html
 release: brazil
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Connect to Azure from ServiceNow, Hyperscaler connection with Azure, Using AI Control Tower to create hyperscaler connections, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Connect to Azure from ServiceNow, Hyperscaler connection with Azure, Using Control Tower to create hyperscaler connections, Using Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create a HTTP\(s\) connection for Azure Foundry
 
-Use the AI Control Tower workspace to create a HTTP\(s\) connection for Azure Foundry.
+Use the Control Tower workspace to create a HTTP\(s\) connection for Azure Foundry.
 
 ## Before you begin
 

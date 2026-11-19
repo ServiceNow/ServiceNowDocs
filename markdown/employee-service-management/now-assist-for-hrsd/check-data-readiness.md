@@ -108,9 +108,9 @@ Execute with the **Run Readiness Check** menu option
     |Measurement &amp; Analytics Maturity|Whether you can measure outcomes after an agent goes live|Without reliable measurement, you can’t show whether agents improve results, such as faster resolution. A baseline before go-live makes later comparison possible.|
     |Table &amp; Schema Health|Customization on out-of-the-box HR tables|Agents read and write case data, so customization can interfere with them. Child tables, custom fields, and business rules that change fields can conflict with agent behavior. Checking the tables confirms that agents can record their activity.|
 
-    To learn what a metric measures, hover over the question icon.\[Omitted image "hr-dashboard-icon.png"\] Alt text:
+    To learn what a metric measures, hover over the question icon.\[Omitted image "hr-dashboard-icon.png"\] Alt text: Misrouting Rate dashboard card showing 3% rate marked AT RISK, with a tooltip explaining the metric and breakdowns for agent changed, service reclassified, and other categories.
 
-    Some metrics, such as misrouting rate, also support a drill-down view that lists every affected HR service in detail.\[Omitted image "hr-dashboard-more.png"\] Alt text:
+    Some metrics, such as misrouting rate, also support a drill-down view that lists every affected HR service in detail.\[Omitted image "hr-dashboard-more.png"\] Alt text: Misrouting Rate dashboard card showing 3% rate with detailed metrics: 3,011 total cases, 97 group changed, 0 agent changed, and 0 service reclassified, with “View by HR service” link highlighted.
 
 
 -   **[Scope KB readiness checks to HR knowledge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/scope-kb-readiness-checks.md)**  

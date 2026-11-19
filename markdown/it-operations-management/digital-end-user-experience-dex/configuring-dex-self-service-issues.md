@@ -24,7 +24,7 @@ Role required: sn\_dex.admin
 
 Device health issues and metric details displayed in DEX Self-service are based on evaluation criteria configured in issue configuration records. If metrics in the evaluation criteria of an issue resolution are defined as **Poor**, the corresponding device health subcategory is also marked as **Poor**. DEX Self-service displays resolutions for subcategories as configured in issue configuration records.
 
-For information about how device health is calculated, see [Device health check calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/Device-health-check-calculation.md).
+For information about how device health is calculated, see [Device heath check calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/Device-health-check-calculation.md).
 
 ## Procedure
 

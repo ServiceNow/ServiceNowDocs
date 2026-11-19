@@ -87,5 +87,5 @@ Role required: admin or survey\_admin
 
 [Schedule periods]()
 
-[bundle-platadm.c_ScheduleEvents]
+[Event scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduleEvents.md)
 

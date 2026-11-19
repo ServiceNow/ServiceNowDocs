@@ -28,6 +28,8 @@ By analyzing which topics are most frequently discussed, you can identify high-i
 
 ## Topics analytics
 
+\[Omitted image "now-assist-itsm-topics-analytics.png"\] Alt text: Topics tab showing the Chat topics overview donut chart with total chat interactions in the center and a legend of topic names
+
 Analyze topics metrics when users ask questions to resolve their issues in ITSM Virtual Agent.
 
 <table id="table_cg1_2gy_g3c"><thead><tr><th>

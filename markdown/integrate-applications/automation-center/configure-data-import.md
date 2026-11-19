@@ -18,7 +18,7 @@ Configure the details of the data import, such as the kind of data, the schedule
 
 Perform the following tasks in the same order to configure importing your automation data.
 
--   **[Schedule data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/schedule-import.md)**  
+-   **[Schedule data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/schedule-import-ac.md)**  
 Schedule the frequency for the data import to ensure that the automation data is updated as required.
 -   **[Select a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/select-spoke.md)**  
 Choose a spoke to set up a connection. This is an optional step.

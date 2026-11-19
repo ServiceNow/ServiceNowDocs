@@ -1,6 +1,6 @@
 ---
 title: Install Recruitment workspace
-description: You can install the Recruitment workspace application \(sn\_ta\_recruiter\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: Users with the admin role can install the Recruitment workspace application \(sn\_ta\_recruiter\).If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/recruitment-workspace/install-recruitment-workspace.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Recruitment Workspace, Hiring Experiences, HR Service De
 
 # Install Recruitment workspace
 
-You can install the Recruitment workspace application \(sn\_ta\_recruiter\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+Users with the admin role can install the Recruitment workspace application \(sn\_ta\_recruiter\).The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 

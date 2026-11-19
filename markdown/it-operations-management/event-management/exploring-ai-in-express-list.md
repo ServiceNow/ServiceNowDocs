@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, generative ai, Express List, agentic workflow, alert analysis, alert triage]
-breadcrumb: [Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # AI in Express List
@@ -171,4 +171,5 @@ An operations team wants alerts to be triaged, analyzed, and summarized automati
 -   [Review AI-generated alert insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/use-ai-insights-express-list.md)
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Express List in the Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/express-list.md)
+

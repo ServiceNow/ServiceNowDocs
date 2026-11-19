@@ -36,9 +36,9 @@ Only one app should be run on a given proxy agent because running multiple apps 
 
 4.  Select **Edit in Sandbox** to enable modifying fields on the form.
 
-5.  Indicate whether you are assigning a single proxy agent or a proxy agent cluster to monitor the policy CIs.
+5.  Indicate whether you are assigning a single proxy agent or a proxy agent cluster to monitor the policy CIs. Choose one of the following:
 
-    -   Assign a single proxy agent by selecting **Single proxy agent** and selecting an agent.
+    -   Assign a single proxy agent by selecting **Single proxy agent** and selecting an agent in the search window.
     -   Enable a proxy agent cluster by selecting **Multi-proxy agents by cluster**. Provide the name of the cluster in the field that appears.
 6.  Determine whether to select multiple proxy agents from the agents list through a filter or a script.
 

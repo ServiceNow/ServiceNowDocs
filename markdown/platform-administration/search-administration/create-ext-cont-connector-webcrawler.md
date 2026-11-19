@@ -7,10 +7,10 @@ release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-10-20"
+last_updated: "2026-11-10"
 reading_time_minutes: 7
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Webcrawler external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Webcrawler external content connector, Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create a Webcrawler external content connector
@@ -25,7 +25,7 @@ Role required: sn\_ext\_conn.xcc\_admin
 
 Follow this procedure to create a Webcrawler connector to retrieve searchable content and metadata from URLs found in a predefined or custom web source.
 
-By default, you can configure up to three Webcrawler connectors for custom web sources. If you need to retrieve items from more than three custom web sources, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the Webcrawler connector.
+By default, you can configure up to three Webcrawler connectors for custom web sources. If you need to retrieve items from more than three custom web sources, you can create a Customer Service and Support case at [https://support.servicenow.com/now?draw=case](https://support.servicenow.com/now?draw=case) to request a limit increase for the Webcrawler connector.
 
 ## Procedure
 
@@ -95,7 +95,9 @@ As an example, suppose you select the **Use sitemap** option and then specify `h
 **Note:** When this option is selected, the connector ignores the **Max crawling depth** setting.
 
 </td></tr></tbody>
-</table>6.  Select the **The administrator acknowledges and agrees…** legal disclaimer option.
+</table>        **Note:** The webcrawler considers the `robots.txt` configuration of target websites when crawling content. Website owners remain responsible for defining and maintaining `robots.txt` directives. Crawling behavior may be limited by these directives, which can affect content discovery and indexing results.
+
+6.  Select the **The administrator acknowledges and agrees…** legal disclaimer option.
 
 7.  Save and validate your connection settings by selecting **Validate Connection**.
 

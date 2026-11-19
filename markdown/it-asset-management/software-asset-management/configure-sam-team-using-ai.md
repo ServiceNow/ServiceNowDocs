@@ -51,15 +51,15 @@ Groups organize the users that are responsible for day-to-day Software Asset Man
     -   To view all available options, including groups, users, and roles, select **Choose something else**.
 5.  Follow the prompts in the panel based on your selection in the previous step.
 
-<table id="choicetable_follow_prompts"><thead><tr><th align="left" id="d273817e237">
+<table id="choicetable_follow_prompts"><thead><tr><th align="left" id="d273345e239">
 
 If you selected
 
-</th><th align="left" id="d273817e240">
+</th><th align="left" id="d273345e242">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d273817e246">
+</th></tr></thead><tbody><tr><td id="d273345e248">
 
 **__Start with Assignment groups \(Team management\)__**
 
@@ -72,7 +72,7 @@ Select one of the following options or enter a natural-language prompt: -   **As
 -   **Search by Org Chart**
 
 
-</td></tr><tr><td id="d273817e279">
+</td></tr><tr><td id="d273345e281">
 
 **__Choose something else__**
 

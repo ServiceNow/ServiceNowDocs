@@ -1,6 +1,6 @@
 ---
 title: CSM Walk-up Experience customer satisfaction surveys
-description: With Walk-up Experience surveys, you can rate your satisfaction with walk-up location interactions, providing management with feedback to improve the walk-up experience.
+description: Collect requester satisfaction ratings for walk-up interactions to help management improve the walk-up experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-survey.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set u
 
 # CSM Walk-up Experience customer satisfaction surveys
 
-With Walk-up Experience surveys, you can rate your satisfaction with walk-up location interactions, providing management with feedback to improve the walk-up experience.
+Collect requester satisfaction ratings for walk-up interactions to help management improve the walk-up experience.
 
 The Walk-up Experience application includes two base-system predefined surveys.
 
@@ -29,5 +29,5 @@ The Walk-up Experience application includes two base-system predefined surveys.
 
 Walk-up administrators and managers can modify these surveys and the associated trigger conditions. Managers and administrators can review responses by question and see a scorecard for each survey on the **Walk-up Experience Dashboard** module. User comments provide feedback that is used to improve the performance of walk-up interactions.
 
-For more detailed information about working with surveys, sentiment analysis, trigger conditions, and survey questions, see [Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/assessments-surveys-landing-page.md).
+For detailed information about working with surveys, sentiment analysis, trigger conditions, and survey questions, see [Assessments and Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/assessments-surveys-landing-page.md).
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-externalcontentconnectors-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 16
 breadcrumb: [Products combined by family]
 ---
@@ -181,7 +181,7 @@ Specify the source system and User \[sys\_user\] table fields to examine for mat
 
 Review statistics about the documents \(items or files with searchable content and metadata\) retrieved by a content crawl.
 
--   **[Statistics for user permission crawls](https://www.servicenow.com/docs/access?context=permission-statistics-external-content-connectors&family=zurich&ft:locale=en-US)**
+-   **[Statistics for user permissions crawls](https://www.servicenow.com/docs/access?context=permission-statistics-external-content-connectors&family=zurich&ft:locale=en-US)**
 
 Review statistics about the permissions \(user and group-membership security principals\) retrieved by a user permission crawl.
 
@@ -226,7 +226,7 @@ Retrieve searchable content and metadata from articles in your Zendesk Guide sou
 
 Review statistics for searchable items retrieved by a content crawl.
 
--   **[Statistics for user permission crawls](https://www.servicenow.com/docs/access?context=permission-statistics-external-content-connectors&family=zurich&ft:locale=en-US)**
+-   **[Statistics for user permissions crawls](https://www.servicenow.com/docs/access?context=permission-statistics-external-content-connectors&family=zurich&ft:locale=en-US)**
 
 Review statistics for user and group permissions retrieved by a user permission crawl.
 
@@ -578,7 +578,7 @@ Zurich
 
 Install External Content Connectors by requesting the External Content Connectors Application Suite plugin from the ServiceNow Store. If you want to activate the ServiceNow product documentation external content connector or the Webcrawler external content connector, you must request activation of those plugins after the Application Suite is activated.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr><tr><td>
@@ -591,7 +591,7 @@ Australia
 
 Install External Content Connectors by requesting the External Content Connectors Application Suite plugin from the ServiceNow Store. If you want to activate the ServiceNow product documentation external content connector or the Webcrawler external content connector, you must request activation of those plugins after the Application Suite is activated.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr><tr><td>
@@ -604,7 +604,7 @@ Brazil
 
 Install External Content Connectors by requesting the External Content Connectors Application Suite plugin from the ServiceNow Store. If you want to activate the ServiceNow product documentation external content connector or the Webcrawler external content connector, you must request activation of those plugins after the Application Suite is activated.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr></tbody>

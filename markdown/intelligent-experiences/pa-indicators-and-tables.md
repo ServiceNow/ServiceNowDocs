@@ -1,18 +1,18 @@
 ---
 title: Performance Analytics indicators and the database tables
-description: Learn about the out-of-the-box Performance Analytics \(PA\) indicators and the database tables that AI Control Tower uses to calculate value.
+description: Learn about the out-of-the-box Performance Analytics \(PA\) indicators and the database tables that Control Tower uses to calculate value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/pa-indicators-and-tables.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Reference, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Performance Analytics indicators and the database tables
 
-Learn about the out-of-the-box Performance Analytics \(PA\) indicators and the database tables that AI Control Tower uses to calculate value.
+Learn about the out-of-the-box Performance Analytics \(PA\) indicators and the database tables that Control Tower uses to calculate value.
 
 ## Predefined PA indicators for ServiceNow® AI systems
 
@@ -39,7 +39,7 @@ The following out-of-the-box performance indicators are available for enterprise
 |`sys_gen_ai_usage_log`|Stores daily skill and agent execution counts and assist averages. Stores usage data for ServiceNow® AI systems.|
 |`sn_ai_disc_ai_usage`|Stores usage data for third-party \(external\) agent invocations.|
 
-The AI Control Tower derives two common measures from the `sys_gen_ai_usage_log` table:
+Control Tower derives two common measures from the `sys_gen_ai_usage_log` table:
 
 -   **Daily Skill Executions**: the count of records in `sys_gen_ai_usage_log` for a specific asset on the previous day.
 -   **Daily Average Skill Assist**: the average of the assists column in `sys_gen_ai_usage_log` for a specific asset on the previous day.

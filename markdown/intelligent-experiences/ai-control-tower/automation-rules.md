@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Controls, Configurations, Control Tower dashboard, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Automation rules
@@ -18,7 +18,7 @@ The Automation rules define how AI assets are set to managed.
 
 ## Automation rules Overview
 
-The Automation rules page displays all default rules available in AI Control Tower. AI Stewards can modify existing rules or create based on their organizational requirements.
+The Automation rules page displays all default rules available in Control Tower. AI Stewards can modify existing rules or create based on their organizational requirements.
 
 ## Rule limits
 

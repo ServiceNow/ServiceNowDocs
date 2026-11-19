@@ -1,5 +1,5 @@
 ---
-title: Create an appointment through incident
+title: Create an appointment through an incident
 description: Schedule an appointment on behalf of a requester through an incident record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-walkup-appointment-incident-sow.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Walk-up Experience management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Create an appointment through incident
+# Create an appointment through an incident
 
 Schedule an appointment on behalf of a requester through an incident record.
 
@@ -40,7 +40,7 @@ Role required: itil or admin
 ## Result
 
 -   A walk-up appointment record is created.
--   The **Walk-up Appointment** option appears under the **Related records** tab for that incident. You can see all the Walk-up appointments related to the incident.
+-   The **Walk-up Appointment** option appears under the **Related records** tab for that incident. You can see all the walk-up appointments related to the incident.
 -   The requester is notified of the appointment. The requester can also see the appointment created on the home page under the My active items widget.
 
 **Parent Topic:**[Walk-up Experience management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/walkup-sow.md)

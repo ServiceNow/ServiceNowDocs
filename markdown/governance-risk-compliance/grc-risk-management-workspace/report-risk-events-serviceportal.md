@@ -1,6 +1,6 @@
 ---
 title: Report risk events from the Service Portal
-description: When you identify any event that might have a financial or non financial impact on your organization, report it from the ServiceNow, Inc. Service Portal. You can also report any event that has already occurred with a financial or non financial impact.
+description: When you identify any event that might have a financial or non financial impact on your organization, report it from the Service Portal. You can also report any event that has already occurred with a financial or non financial impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/report-risk-events-serviceportal.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Use Risk Events, Use, Risk Management, Governance, Risk, and Compli
 
 # Report risk events from the Service Portal
 
-When you identify any event that might have a financial or non financial impact on your organization, report it from the ServiceNow, Inc. Service Portal. You can also report any event that has already occurred with a financial or non financial impact.
+When you identify any event that might have a financial or non financial impact on your organization, report it from the Service Portal. You can also report any event that has already occurred with a financial or non financial impact.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ You can log your risk event under any of the following event types:
 
 1.  In the Service Portal, click **Catalog** &gt; **Browse by Categories**.
 
-2.  Click **Governance Risk and Compliance** and then click **Report Risk Event**.
+2.  Select **Governance Risk and Compliance** and then click **Report Risk Event**.
 
 3.  On the form, fill in the following fields:
 
@@ -134,7 +134,7 @@ Action taken
 Enter what was done to reduce the impact of this risk event. For example, if the fire in the server room was caused by an electrical short circuit, then the action taken is a replacement of the defective equipment.
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
 5.  To view all the risk events you have reported, navigate to **GRC &gt; My Risk Events**.
 

@@ -36,15 +36,15 @@ There are two system properties which control how location tracking registers us
 
 2.  Select the location tracking mobile properties that you want to configure.
 
-<table id="choicetable_dtv_3vz_2wb"><thead><tr><th align="left" id="d41132e104">
+<table id="choicetable_dtv_3vz_2wb"><thead><tr><th align="left" id="d41165e106">
 
 System property
 
-</th><th align="left" id="d41132e107">
+</th><th align="left" id="d41165e109">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d41132e113">
+</th></tr></thead><tbody><tr><td id="d41165e115">
 
 **glide.geolocation.tracking.frequency**
 
@@ -54,7 +54,7 @@ Procedure
 2.  In the **Value** field for the selected system property, select the value and change it to your desired amount.
 
 
-</td></tr><tr><td id="d41132e140">
+</td></tr><tr><td id="d41165e142">
 
 **glide.geolocation.proximity**
 

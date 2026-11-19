@@ -1,19 +1,19 @@
 ---
-title: Review Arc traces in AI Control Tower
-description: Check the quality and safety scores of Arc sessions in AI Control Tower, then open a session or trace to see which metric scores and details.
+title: Review Arc traces in Control Tower
+description: Check the quality and safety scores of Arc sessions in Control Tower, then open a session or trace to see which metric scores and details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/cowork-review-traces-aict.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-30"
 reading_time_minutes: 2
-keywords: [AI Control Tower, traces, Monitor tab, sample rate]
-breadcrumb: [Trace evaluation for Arc in AI Control Tower, Configure, ServiceNow Arc, Extend, AI Workflow Factory Prime, Agentic app development, Building applications]
+keywords: [Control Tower, traces, Monitor tab, sample rate]
+breadcrumb: [Trace evaluation for Arc in Control Tower, Configure, ServiceNow Arc, Extend, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Review Arc traces in AI Control Tower
+# Review Arc traces in Control Tower
 
-Check the quality and safety scores of Arc sessions in AI Control Tower, then open a session or trace to see which metric scores and details.
+Check the quality and safety scores of Arc sessions in Control Tower, then open a session or trace to see which metric scores and details.
 
 ## Before you begin
 
@@ -23,15 +23,15 @@ Role required: sn\_app\_arc.admin and sn\_ai\_governance.ai\_steward or sn\_app\
 
 ## About this task
 
-In AI Control Tower, each AI system is tracked as an asset in the Inventory. Arc appears as the ServiceNow Arc Agent asset, which AI Control Tower creates when a user connects Arc to the instance. The asset starts in the Unmanaged state, with limited functionality, and shows traces only after you move it to the Managed state. Nothing else needs to be configured to receive traces. For more on asset states, see [Managed and unmanaged AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-ai-managed-unmanaged.md).
+In Control Tower, each AI system is tracked as an asset in the Inventory. Arc appears as the ServiceNow Arc Agent asset, which Control Tower creates when a user connects Arc to the instance. The asset starts in the Unmanaged state, with limited functionality, and shows traces only after you move it to the Managed state. Nothing else needs to be configured to receive traces. For more on asset states, see [Managed and unmanaged AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-ai-managed-unmanaged.md).
 
 Review traces to see how users work with Arc and to catch a drop in quality or safety scores, or a security issue in a response.
 
-For how AI Control Tower scores traces, see [Trace evaluation for Arc in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/cowork-trace-evaluation.md).
+For how Control Tower scores traces, see [Trace evaluation for Arc in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/cowork-trace-evaluation.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home**,
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home**,
 
 2.  Select **Inventory**.
 
@@ -71,7 +71,7 @@ For how AI Control Tower scores traces, see [Trace evaluation for Arc in AI Cont
 
     For more options, including sample rates for this asset, see [Configure asset-specific metrics for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-asset-metrics-external.md).
 
-11. To score more traces, navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Evaluation**, and raise the **Sample rate** on the **AI evaluations** sub tab.
+11. To score more traces, navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Evaluation**, and raise the **Sample rate** on the **AI evaluations** sub tab.
 
     Select **Update** to save the change.
 
@@ -80,5 +80,5 @@ For how AI Control Tower scores traces, see [Trace evaluation for Arc in AI Cont
     To set the sample rate for each metric, see [Configure global metrics for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-global-metrics-external.md).
 
 
-**Parent Topic:**[Trace evaluation for Arc in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/cowork-trace-evaluation.md)
+**Parent Topic:**[Trace evaluation for Arc in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/cowork-trace-evaluation.md)
 

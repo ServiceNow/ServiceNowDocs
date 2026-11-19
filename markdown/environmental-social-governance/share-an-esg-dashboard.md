@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/share-an-esg-dashboard.html
 release: brazil
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
-breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management]
 ---
 
 # Share an Operational Sustainability Management dashboard
@@ -46,7 +46,7 @@ Only admins can see roles in the Sharing panel.
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d24664e123">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d24664e126">
 
 **Add as viewer**
 
@@ -54,7 +54,7 @@ Only admins can see roles in the Sharing panel.
 
 Grant only viewing permissions to the users, groups, or roles you’re sharing the dashboard with. They can’t edit it.
 
-</td></tr><tr><td id="d24664e132">
+</td></tr><tr><td id="d24664e135">
 
 **Add as editor**
 

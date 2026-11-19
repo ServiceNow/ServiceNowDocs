@@ -16,14 +16,14 @@ breadcrumb: [Security metrics, Security monitoring console, Security Center, Pla
 
 Access the Security Metrics for data classification on your ServiceNow instance.
 
-Data classification enables you to apply data classification labels to existing dictionary entries in any table. These labels help to provide visibility into the types of data hosted in your instances. Use these classifications to comply with privacy laws, and meet industry regulation requirements.
+Data classification enables you to apply data classification labels to existing dictionary entries in any table. These labels help to provide visibility into the types of data hosted in your instances. Use these classifications to support compliance with privacy laws and industry regulation requirements.
 
-See [data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-classification/exploring-data-classification.md) for more information.
+For an overview of data classification features, see [data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-classification/exploring-data-classification.md).
 
 -   **Classifiable data**: Tables or columns that can be classified.
 -   **Classified data**: Dictionary entries, tables, or columns that are classified.
 
-The data is graphically displayed in a customizable chart that provides detailed analysis such as setting targets, thresholds, trends, statistics, or forecasts. The data is also organized as records in a table. See [\(Legacy\) Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_UsePerformanceAnalyticsScorecards.md) for more information.
+The data is graphically displayed in a customizable chart that provides detailed analysis such as setting targets, thresholds, trends, statistics, or forecasts. The data is also organized as records in a table. For details on analyzing this data with Performance Analytics scorecards, see [\(Legacy\) Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_UsePerformanceAnalyticsScorecards.md).
 
 Select the cards to view the individual metrics page with additional details.
 

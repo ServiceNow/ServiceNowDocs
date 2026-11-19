@@ -229,7 +229,7 @@ You can access the associated Task Mining projects from the right panel using th
 \[Omitted image "wrkbench-tm.png"\] Alt text: Create a Task Mining project
 
 </td></tr></tbody>
-</table>**Note:** You can reproduce most of the functionality of a process map in a dashboard on a configurable workspace. For more information, see .
+</table>**Note:** You can reproduce most of the functionality of a process map in a dashboard on a configurable workspace. For more information, see [Configure a Process Mining map on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-po-map.md).
 
 **Parent Topic:**[Process details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/project-view-screen.md)
 

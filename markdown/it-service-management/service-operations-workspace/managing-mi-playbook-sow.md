@@ -26,7 +26,7 @@ The following playbooks are available in the base system for Major Incident Mana
 You can select and assign one or more of the playbooks to Major Incident Management as needed. The **Playbook** tab displays all the playbooks that are assigned to Major Incident Management. For more information on assigning playbooks to major incidents, see [Assign a playbook to Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/assign-playbook-mim-sow.md).
 
 -   **[Manage major incidents using the MI playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-mi-playbook-mim-sow.md)**  
-Manage major incidents using the MI playbook from the contextual side panel or the **Playbook** tab of an incident record page. This playbook provides a simple, concise, and task-oriented interface for managing the major incident process.
+Manage major incidents using the MI playbook from the contextual side panel or the **Playbook** tab of an incident record page. This playbook provides a task-oriented interface for managing the major incident process.
 -   **[Manage major incidents using the Advanced MI playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-advanced-playbook-mim-sow.md)**  
 Manage a major incident using the Advanced MI playbook that's available on the contextual side panel or the **Playbook** tab of an incident record page. This playbook provides a similar interface to the MI playbook but has advanced, configurable capabilities for communication and collaboration steps.
 

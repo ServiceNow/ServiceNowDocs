@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/autonomous-engineer.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-28"
+last_updated: "2026-11-09"
 reading_time_minutes: 4
 keywords: [Autonomous Engineer, Build Agent, implementation plan, agentic development, ServiceNow Studio, agent packs, work items, parallel execution]
 audience: programmer
@@ -18,7 +18,7 @@ The ServiceNow® Autonomous Engineer application is an agentic AI worker that bu
 
 Autonomous Engineer takes your requirements as input, generates an implementation plan, and implements each work item in the plan. During planning and implementation, it applies implementation guidelines for the ServiceNow AI Platform. It also generates and runs Automated Test Framework \(ATF\) tests for each work item.
 
-Autonomous Engineer is available in ServiceNow Studio and supports custom applications and agent pack implementations.
+Autonomous Engineer is available in ServiceNow Studio and supports custom applications.
 
 ## Get started
 

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Viewing links between alerts in alert groups, Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups, Working with alert groups in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Viewing links between alerts in rules-based alert groups
@@ -23,6 +23,8 @@ When you've set alert rules and Event Management has generated an alert group ba
 Rules-based alert groups are comprised of a primary alert and one or more secondary alerts. The primary alert is generated directly and is represented in Link View as the Home node. Secondary alert nodes are connected to the Home node by a dashed line, indicating that they don't share the same alert, but are correlated using rule criteria. A solid line between nodes indicates that the connected nodes share the same alert or multiple alerts.
 
 If an alert on a CI impacts a service in the Configuration Management Database \(CMDB\), Link View shows the impacted service. You can view it at a glance for quick triage. Hovering over a node displays a tooltip. The tooltip includes the tag name, type, number of alerts in which it appeared, and whether it is a primary or secondary alert.
+
+**Parent Topic:**[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-link-view.md)
 
 **Related topics**  
 

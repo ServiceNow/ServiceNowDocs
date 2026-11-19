@@ -248,7 +248,7 @@ Mode
 
 </td><td>
 
-Mode that is used to create the UI action. The choices are as follows:-   **Simple**: Mode to set simple filter conditions. For example, if the impact of an incident is **High**, the **Report a Risk Event** UI action must be created.
+Mode that is used to create the UI action. The choices are as follows:-   **Simple**: Mode to set simple filter conditions. For example, if the impact of an incident is **High**, the **Report Risk Event** UI action must be created.
 -   **Advanced**: Mode to write a script to query tables, including the table from the **Application table** field.
 
 
@@ -284,7 +284,7 @@ Field to write a custom script to query any table. **Note:** The option to write
 
 ## Result
 
-The application that is configured to report risk events displays the **Create Risk Event** button.
+The application that is configured to report risk events displays the **Report Risk Event** button.
 
 **Parent Topic:**[Use Risk Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/use-risk-events.md)
 

@@ -31,10 +31,6 @@ See: [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/S
 
 Reduce ticket volume by giving employees the tools to find answers without contacting the service desk. ITSM integrates with [Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/knowledge-articles-sow.md) and the [Employee Center dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-center.md) to deliver searchable knowledge articles and automated request fulfillment through a single self-service portal.
 
-Digital End-User Experience monitors device health and application performance, enabling proactive issue resolution before employees experience problems. Automated remediation and the Desktop Experience application give employees self-service tools to resolve common device issues without creating tickets.
-
-See: , , , , 
-
 ## Improve IT productivity
 
 Accelerate resolution with generative AI and agentic workflows.

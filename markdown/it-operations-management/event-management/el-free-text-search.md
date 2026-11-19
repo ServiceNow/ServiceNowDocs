@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Assigning and managing alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Find alert records in Express List using text search
@@ -47,4 +47,6 @@ Event Management searches through the alerts that you're currently seeing in the
 ## Result
 
 The results match both the filters that you have applied and the string you entered in the Search filtered alerts field. In the resulting alert records, the string is highlighted and the filters show the number of records that match the string. Recent searches are saved and accessible from the Search filtered alerts field.
+
+**Parent Topic:**[Assigning and managing alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/assigning-and-managing-alerts.md)
 

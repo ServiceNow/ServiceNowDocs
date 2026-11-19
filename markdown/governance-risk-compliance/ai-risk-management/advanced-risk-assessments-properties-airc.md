@@ -19,9 +19,9 @@ Enable Advanced Risk Assessments \(ARA\) to confirm that risk‑based assessment
 
 ## Before you begin
 
-Make sure that the Advanced Risk application is installed. You don't need to install the Advanced Risk application separately if you're using AI Control Tower.
+Make sure that the Advanced Risk application is installed. You don't need to install the Advanced Risk application separately if you're using Control Tower.
 
-If the **Migrate to Advanced Risk Assessments** property is already enabled, AI Control Tower uses the same configuration, and no further setup is required.
+If the **Migrate to Advanced Risk Assessments** property is already enabled, Control Tower uses the same configuration, and no further setup is required.
 
 Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin
 

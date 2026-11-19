@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Requires the Smart Assessment \(**sn\_smart\_asmt**\), Smart Assessment - Connected \(**sn\_smart\_asmt\_conn**\), Smart Assessment Designer \(**sn\_smart\_asmt\_desg**\), and Smart Scoring \(**sn\_smart\_scoring**\) plugins to be active. Portfolio Planning automatically installs these as dependencies.
+Requires the Smart Assessment \(**sn\_smart\_asmt**\), Smart Assessment - Connected \(**sn\_smart\_asmt\_conn**\), Smart Assessment Designer \(**sn\_smart\_asmt\_desg**\), and Smart Scoring \(**sn\_smart\_scoring**\) plugins to be active. Portfolio Planning version 8.19.0 automatically installs these as dependencies. You also require the AP9 glide version.
 
 **Tip:** Check **System Applications** &gt; **All Available Applications** if smart assessments aren't triggered after enabling the property and verify that all required plugins are active.
 
@@ -49,5 +49,5 @@ Demands route through smart assessments. No separate role assignment is needed f
 
 [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/smart-assessments-overview.md)
 
-[bundle-grc.smart-assessment-engine-cf-config]
+[Configuring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/smart-assessment-engine-cf-config.md)
 

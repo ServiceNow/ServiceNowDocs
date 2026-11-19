@@ -47,7 +47,7 @@ Create a change lockdown to pause in-flight change requests during major unplann
 -   **[Manage a change lockdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/manage-change-lockdown.md)**  
 Manage a change lockdown by previewing affected change requests, submitting for approval, reverting to draft, or canceling it.
 -   **[Set the lockdown preview maximum](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/set-lockdown-preview-maximum.md)**  
-Change the maximum number of records that a change lockdown preview displays. This keeps the preview readable on instances with a large volume of change requests.
+Change the maximum number of records that a change lockdown preview displays so the preview stays readable on instances with many change requests.
 -   **[Change lockdown states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-lockdown-states.md)**  
 These states describe where a change lockdown sits in its approval cycle, which actions are available, and whether the lockdown holds any change requests.
 -   **[Change lockdown conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/lockdown-conflict-detection.md)**  

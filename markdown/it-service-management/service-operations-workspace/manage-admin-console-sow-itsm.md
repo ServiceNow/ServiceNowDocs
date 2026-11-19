@@ -8,7 +8,7 @@ product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 14
+reading_time_minutes: 15
 breadcrumb: [Admin Center in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -26,7 +26,7 @@ The Admin Center consists of the following tabs:
 
 -   **Overview**: Provides access to all customizations available in Service Operations Workspace for ITSM.
 -   **Configurations**: Provides access to page-related customizations available in Service Operations Workspace for ITSM. For example, the landing page, incident record page, and modern change management page.
--   **Learning**: Provides access to learning resources to assist the admins in gaining a deeper understanding of SOW configuration. These resources are designed to provide users with the necessary knowledge and skills to effectively configure and manage ITSM.
+-   **Learning**: Provides access to learning resources to assist the admins in gaining a deeper understanding of SOW configuration. These resources are designed to provide users with the necessary knowledge and skills to configure and manage ITSM.
 
 ## Procedure
 
@@ -36,15 +36,15 @@ The Admin Center consists of the following tabs:
 
 3.  Select any of the following options.
 
-<table id="choicetable_lg2_mrt_cyb"><thead><tr><th align="left" id="d400146e138">
+<table id="choicetable_lg2_mrt_cyb"><thead><tr><th align="left" id="d401181e142">
 
 Option
 
-</th><th align="left" id="d400146e141">
+</th><th align="left" id="d401181e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d400146e147">
+</th></tr></thead><tbody><tr><td id="d401181e151">
 
 **Migrate configurations and customizations from ITSM Agent Workspace to SOW for ITSM**
 
@@ -52,7 +52,7 @@ Description
 
 On the **Overview** tab, from the **Initial Setup** section, select the **Migrate from ITSM Agent Workspace to SOW** option. For information about this migration utility, see [Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/migration-from-itsm-aw-sow.md).
 
-</td></tr><tr><td id="d400146e193">
+</td></tr><tr><td id="d401181e197">
 
 **Configure the landing page**
 
@@ -73,7 +73,7 @@ On the **Overview** tab, from the **Initial Setup** section, select the **Migrat
         -   For tier 1 agents, visibility of the Getting started section that provides an overview of key features in Service Operations Workspace.
 For information about landing page customizations, see [Customizing Service Operations Workspace for ITSM to align with your requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-sow-landing-page.md).
 
-</td></tr><tr><td id="d400146e308">
+</td></tr><tr><td id="d401181e312">
 
 **Configure the availability and order of contextual side panel tabs for record pages**
 
@@ -87,7 +87,7 @@ For information about landing page customizations, see [Customizing Service Oper
 
 **Note:** Ensure that the user's scope is set to that of the app route.
 
-</td></tr><tr><td id="d400146e362">
+</td></tr><tr><td id="d401181e366">
 
 **Configure the SOW properties**
 
@@ -96,12 +96,12 @@ For information about landing page customizations, see [Customizing Service Oper
 1.  On the **Overview** tab, from the **Initial setup** section, select the **Configure** option.
 2.  Select **SOW Properties** and then configure any of the following options:
     -   Email notification redirection to SOW: Configure the email notifications to redirect the users to the Service Operations Workspace \(SOW\) view instead of Classic UI16. For more information, see [Email notification redirection for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/email-notif-redirt-inci-major-inci.md).
-    -   Set display count to improve list loading: Configure the fuzzyCount property to modify how the number of records is displayed on the Service Operations Workspace \(SOW\) list page. Configuring the fuzzyCount property helps improve the system performance. For more information, see [Configure the list page in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/incident-list-page.md).
+    -   Set display count to improve list loading: Configure the **fuzzyCount** property to modify how the number of records is displayed on the Service Operations Workspace \(SOW\) list page. Configuring the **fuzzyCount** property helps improve the system performance. For more information, see [Configure the list page in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/incident-list-page.md).
     -   Reference field auto-load behavior: Use the option to configure the **Reference search on click ** \(**ref\_search\_on\_click**\) UX page property. When the property is set to false, selecting empty reference fields such as Configuration item, Service offering, and Service or when user starts typing input on the reference fields displays only the recent selection values instead of automatic searching and displaying the results of all the field values available in the system.
-    -   Hide contextual side panel for specific table and tab combinations: Allows admins to define specific table and tab pairs in Service Operations Workspace \(SOW\) where the page default contextual side panel is hidden, prioritizing the embedded contextual side panel within the tab content instead. For more information, see [Hide contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/hide-contextual-side-panel-sow.md).
+    -   Hide contextual side panel for specific table and tab combinations: Enables admins to define specific table and tab pairs in Service Operations Workspace \(SOW\) where the page default contextual side panel is hidden, prioritizing the embedded contextual side panel within the tab content instead. For more information, see [Hide contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/hide-contextual-side-panel-sow.md).
 
 
-</td></tr><tr><td id="d400146e476">
+</td></tr><tr><td id="d401181e486">
 
 **Configure SOW vs Classic UI16 redirection**
 
@@ -113,14 +113,14 @@ Enables you to configure the redirection of the classic UI16 module navigation l
 -   Custom configuration
 For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
-</td></tr><tr><td id="d400146e517">
+</td></tr><tr><td id="d401181e527">
 
 **Configure the incident record page**
 
 </td><td>
 
 1.  On the **Overview** tab, from the **Incident Management** section, select the **Configure** option.
-2.  On the Incident record page, configure any of the incident record elements using any of the following options:
+2.  On the incident record page, configure any of the incident record elements using any of the following options:
     -   Overview: Configure any of the following options for the **Overview** tab.
         -   Tab visibility for tier 1 agents: Configure the visibility settings to display the **Overview** tab for the tier-1 agents. You can also configure the user criteria to include or exclude users with other roles and user groups.
 
@@ -142,7 +142,7 @@ For more information, see [Redirect UI16 module links to Service Operations Work
 
  For information about incident record page customizations, see [Incident record page customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 
-</td></tr><tr><td id="d400146e680">
+</td></tr><tr><td id="d401181e690">
 
 **Configure the Major Incident Management features**
 
@@ -159,7 +159,7 @@ For more information, see [Redirect UI16 module links to Service Operations Work
     -   Timeline configurations for post incident report.
 For more information on the configurations of features in Major Incident Management in Admin Center, see [Configuring Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configuring-mim-in-sow.md).
 
-</td></tr><tr><td id="d400146e754">
+</td></tr><tr><td id="d401181e762">
 
 **Configure the Problem Management features**
 
@@ -171,7 +171,7 @@ For more information on the configurations of features in Major Incident Managem
     -   Problem task record: configure the problem task record UI elements and the visible data content. For more information, see [Customize forms within a form component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/learn-by-example-edit-form-component.md)
 
 
-</td></tr><tr><td id="d400146e805">
+</td></tr><tr><td id="d401181e803">
 
 **Configure the Change Management features**
 
@@ -179,7 +179,7 @@ For more information on the configurations of features in Major Incident Managem
 
 1.  On the **Configurations** tab, select the **Change Management** option.
 2.  Configure the following options.
-    -   Modern change adoption: Contains widgets which navigates to the configuration pages for change models, change approval policies, risk and success scores, and automating DevOps changes.
+    -   Modern change adoption: Contains widgets that navigate to the configuration pages for change models, change approval policies, risk and success scores, and automating DevOps changes.
     -   Change models: Create optimized change state models with policy-based automation capabilities that are fit-for-purpose to increase change efficiency and velocity. Create change models, change model condition types, and change flows through this section.
         -   For information on creating a change model, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-a-change-model.md).
         -   For information on creating change model condition types, see [Create predefined transition condition types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-predefined-transition-condition-type.md).
@@ -196,12 +196,12 @@ For more information on the configurations of features in Major Incident Managem
         -   For information on calculated risk score, see [Calculated Risk Score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/risk-lookup.md).
 **Note:** You can also navigate to the Change Success Dashboard to see trends in resolution efficiency for a team, change type, or change model over time based on the parameters used to calculate the overall success score. For more information, see [Exploring ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/explore-success-dashboard-indicators.md).
 
-    -   Automate DevOps changes: Automate DevOps changes with DevOps Change Velocity. Connect and configure tools from your DevOps toolchain with our DevOps data model to drive enhanced DevOps change traceability. Automatically create changes from CI/CD pipeline executions with relevant DevOps data attached and leverage that data to drive full change approval automation. For more information, see [DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-landing-page-new.md).
+    -   Automate DevOps changes: Automate DevOps changes with DevOps Change Velocity. Connect and configure tools from your DevOps toolchain with our DevOps data model to drive enhanced DevOps change traceability. Automatically create changes from CI/CD pipeline executions with relevant DevOps data attached and use that data to drive full change approval automation. For more information, see [DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/devops-change-velocity/devops-landing-page-new.md).
     -   Change record: Configure the change record UI elements and the visible data content. For more information, see [Customize forms within a form component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/learn-by-example-edit-form-component.md).
     -   Change task record: Configure the change task record UI elements and the visible data content. For more information, see [Customize forms within a form component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/learn-by-example-edit-form-component.md).
 
 
-</td></tr><tr><td id="d400146e999">
+</td></tr><tr><td id="d401181e994">
 
 **Configure the On-Call Scheduling features**
 
@@ -221,7 +221,7 @@ For more information on the configurations of features in Major Incident Managem
 
 **Note:** You can restart a skipped configuration.
 
-</td></tr><tr><td id="d400146e1131">
+</td></tr><tr><td id="d401181e1127">
 
 **Configure the Service Reliability Management sections**
 
@@ -237,7 +237,7 @@ For more information on the configurations of features in Major Incident Managem
 
 For information about Service Reliability Management configurations, see [Service Operations Workspace setup for SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/sr-sow-admin-setup.md).
 
-</td></tr><tr><td id="d400146e1200">
+</td></tr><tr><td id="d401181e1196">
 
 **Configure the Notify features**
 
@@ -248,7 +248,7 @@ For information about Service Reliability Management configurations, see [Servic
 
     -   Configure your provider preferences.
     -   Configure Notify properties
-For more information on configuring Notify, refer [Configuring Notify in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-notify-sow.md).
+For more information on configuring Notify, see [Configuring Notify in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-notify-sow.md).
 
 </td></tr></tbody>
 </table>

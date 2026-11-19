@@ -12,7 +12,7 @@ reading_time_minutes: 5
 
 The **Timer** activity pauses the workflow for a specified period of time.
 
-This duration can be an absolute time value or a relative value based on a defined Creating and using schedules. It is best to adjust the **Duration** so the workflow can progress in a timely manner. To pause a workflow indefinitely until a condition is met, see [wait for condition]().
+This duration can be an absolute time value or a relative value based on a defined [Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UseSchedules.md). It is best to adjust the **Duration** so the workflow can progress in a timely manner. To pause a workflow indefinitely until a condition is met, see [wait for condition]().
 
 **Note:** Timer activities run as the System user because the system scheduler advances the workflow.
 

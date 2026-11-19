@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-ai-specialist.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-27"
+last_updated: "2026-11-17"
 reading_time_minutes: 1
 breadcrumb: [AI agents and agentic workflows, Enable AI Experiences]
 ---

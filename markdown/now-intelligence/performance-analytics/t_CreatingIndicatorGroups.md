@@ -39,7 +39,7 @@ After you create an indicator group, you can add indicators to the group or remo
 
 3.  Enter a **Label** for the indicator group.
 
-4.  Open the Additional actions menu \(\[Omitted image "additional-actions.png"\] Alt text: Additional actions menu icon\) and click **Save**.
+4.  Open the Additional actions menu \(\[Omitted image "additional-actions.png"\] Alt text: Additional actions icon\) and click **Save**.
 
     The Indicators related list appears.
 

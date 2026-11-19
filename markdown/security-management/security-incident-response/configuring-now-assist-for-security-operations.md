@@ -114,6 +114,8 @@ You can configure some of the inputs or triggers for a generative AI skill. Inpu
 **Related topics**  
 
 
+[Setup for the UI Builder]()
+
 [Set up view of SIR Records]()
 
 [Configure SI design time investigation]()

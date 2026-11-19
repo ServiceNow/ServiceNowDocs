@@ -34,5 +34,5 @@ Role required: none
 
 [Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/connect/c_Connect.md)
 
-[bundle-platux.c_VisualTaskBoards]
+[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_VisualTaskBoards.md)
 

@@ -32,6 +32,10 @@ Manual segments are the recommended way to ship domain-specific saved searches w
 
     Focus manual segments on the tables your users ask about most. A handful of well-crafted segments on incident, sc\_req\_item, or your application's primary table will have more impact than broad coverage across rarely-queried tables.
 
+-   **Check that your tables are in the semantic layer**
+
+    The target table for a manual segment must have a corresponding record in the Semantic Table Config \[sn\_query\_gen\_table\_config\] table. The value of Enable Semantic Generation in that record must be `true`.
+
 -   **Pair every choice-heavy filter with a clear name**
 
     If your segment filters on choice values—for example, `state=6^priority<=2`—the segment name must translate those codes into business language. The LLM matches on the name, not the filter. "Resolved Critical and High Incidents" is searchable, but `state=6^priority<=2` is not.

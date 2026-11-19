@@ -7,7 +7,7 @@ release: brazil
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -39,7 +39,7 @@ The following changes occur when the safety incident playbook is turned off:
     -   Assets
     -   Root cause analysis
     -   Health and Safety actions
--   Enables the association of multiple injuries and illnesses to a single incident.
+-   Enables the association of multiple injuries and illness records with a single incident in the Health and Safety Workspace.
 
 **Parent Topic:**[Setting up Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/setting-up-hs-incident-mgmt.md)
 

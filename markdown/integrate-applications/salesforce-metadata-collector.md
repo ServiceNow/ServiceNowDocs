@@ -71,7 +71,7 @@ The following lineage information is collected by the Salesforce collector:
 
 ## Authentication supported
 
-The collector uses username and password authentication to connect to Salesforce via [connected applications](https://docs.data.world/en/197977-preparing-to-run-the-salesforce-collector.html#UUID-d6750602-acdf-aa41-e87d-17b7fe18833a_section-idm234447327721945).
+The collector uses OAuth authorization code flow using a refresh token and username and password authentication to connect to Salesforce via [connected applications](https://docs.data.world/en/197977-preparing-to-run-the-salesforce-collector.html#UUID-d6750602-acdf-aa41-e87d-17b7fe18833a_section-idm234447327721945).
 
 -   **[Prepare to run the Salesforce collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/prepare-to-run-the-salesforce-collector.md)**  
 Set up access for cataloging Salesforce resources by configuring user credentials, security tokens, and connected applications.

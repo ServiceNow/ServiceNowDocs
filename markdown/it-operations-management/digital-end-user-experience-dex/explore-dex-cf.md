@@ -159,7 +159,7 @@ Having a positive digital experience can lead to the following benefits:
 
 ## Better together
 
--   **[DEX for Service Desk Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/features-of-investigation-tab.md)**
+-   **DEX for Service Desk Agents**
 
     As a Service Desk agent, navigate to the DEX device health page from the ServiceNow Core UI incident experience or from the Investigate tab within the incident experience in Service Operations Workspace \(SOW\). Configure a computer configuration item \(CI\) and install the DEX plugin for the ability to analyze device metrics from within the platform, getting valuable insights for effective issue investigation.
 

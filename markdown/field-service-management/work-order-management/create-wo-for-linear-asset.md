@@ -26,7 +26,7 @@ Creation of work order for a linear asset enables you to leverage the linear ass
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace.**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \(\[Omitted image "ListIcon.png"\] Alt text: List icon.\).
 

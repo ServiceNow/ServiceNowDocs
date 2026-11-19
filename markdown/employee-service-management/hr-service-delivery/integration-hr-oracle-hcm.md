@@ -28,15 +28,15 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/configure-oracle-hcm.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/configure-oracle-hcm.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Work on integrating ServiceNow with Oracle HCM Cloud Work on integrating ServiceNow with Oracle HCM Cloud.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/using-hrsd-int-oracle-clud-hcm.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Work on integrating ServiceNow with Oracle HCM Cloud.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/using-hrsd-int-oracle-clud-hcm.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like fields, tables, and properties Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/reference-hrsd-int-oracle-cloud-hcm.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/reference-hrsd-int-oracle-cloud-hcm.md)
 
 </td></tr></tbody>
 </table>

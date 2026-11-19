@@ -1,6 +1,6 @@
 ---
 title: Add declarative actions on the standard record page
-description: Add declarative actions on the Incident page and its tabs Service Operations Workspace using the Standard Record Page \(SRP\) to customize list actions, related list actions, and field decorators.
+description: Add declarative actions on the Incident page and its tabs in Service Operations Workspace using the Standard Record Page \(SRP\) to customize list actions, related list actions, and field decorators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/customize-srp-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configuring standard record pages in Service Operations Workspace, 
 
 # Add declarative actions on the standard record page
 
-Add declarative actions on the Incident page and its tabs Service Operations Workspace using the Standard Record Page \(SRP\) to customize list actions, related list actions, and field decorators.
+Add declarative actions on the Incident page and its tabs in Service Operations Workspace using the Standard Record Page \(SRP\) to customize list actions, related list actions, and field decorators.
 
 ## Before you begin
 

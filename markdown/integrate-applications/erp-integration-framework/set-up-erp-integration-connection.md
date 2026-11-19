@@ -55,3 +55,5 @@ The following SAP systems are supported:
     For more information, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
 
 
+**Parent Topic:**[Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-connect-to-sap.md)
+

@@ -51,7 +51,7 @@ Role required: sn\_cimaf.sn\_cimaf\_admin
 
 ## Result
 
-The asset utilization metrics is displayed on the **Investigation** tab of the incident record in Service Operations Workspace.
+The asset utilization metrics are displayed on the **Investigation** tab of the incident record in Service Operations Workspace.
 
 **Parent Topic:**[Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/config-ci-metrics-mecm-adapter.md)
 

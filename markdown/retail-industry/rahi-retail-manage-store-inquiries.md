@@ -1,18 +1,20 @@
 ---
 title: Manage store inquiries
-description: Manage your store inquiry cases by creating, managing, and resolving them by using the retail portal, workspace, or mobile app.
+description: Manage your store inquiry cases by creating, managing, and resolving them by using the retail portal, CRM Workspace, or mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-manage-store-inquiries.html
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Retail]
 ---
 
 # Manage store inquiries
 
-Manage your store inquiry cases by creating, managing, and resolving them by using the retail portal, workspace, or mobile app.
+Manage your store inquiry cases by creating, managing, and resolving them by using the retail portal, CRM Workspace, or mobile app.
+
+To create a store inquiry case, see [Create a store inquiry case from the Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-create-store-service-portal.md) or [Create a store inquiry case from a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-creating-request-mobile.md).
 
 For more information on your store inquiry cases, see the following topics:
 
@@ -22,7 +24,7 @@ For more information on your store inquiry cases, see the following topics:
 -   [Create a store inquiry case from a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-creating-request-mobile.md)
 -   [Manage a store inquiry case from a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-fulfill-retail-store-service-case-mobile.md)
 -   [Track a store inquiry case from a Retail mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-tract-store-inquiry-case-retail-mobile-app.md)
--   [Resolve a store inquiry support request from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-fulfill-retail-store-service-workspace.md)
+-   [Resolve a store inquiry support request from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-fulfill-retail-store-service-workspace.md)
 -   [Store inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-retail-store-services.md)
 
 -   **[Create a store inquiry case from the Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-create-store-service-portal.md)**  
@@ -37,6 +39,6 @@ Create a store inquiry case from a mobile app to report issues on behalf of the 
 Manage a store inquiry case from a mobile app by accepting or rejecting a proposed solution. By managing a case from a mobile app, you can immediately get visibility into the progress, issues, or status of your case without having to use a computer.
 -   **[Track a store inquiry case from a Retail mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-tract-store-inquiry-case-retail-mobile-app.md)**  
 Track the status of a store inquiry case from a mobile app. By tracking your case from a mobile app, you can immediately get visibility into the progress, issues, or status of your case without having to use a computer.
--   **[Resolve a store inquiry support request from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-fulfill-retail-store-service-workspace.md)**  
-Resolve a store inquiry case with a resolution from your workspace.
+-   **[Resolve a store inquiry support request from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-fulfill-retail-store-service-workspace.md)**  
+Resolve a store inquiry case with a resolution from your CRM Workspace.
 

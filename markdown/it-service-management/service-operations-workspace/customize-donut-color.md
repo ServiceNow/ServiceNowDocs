@@ -1,6 +1,6 @@
 ---
 title: Configure the donut color in the Overview section
-description: Create a visual experience that works the best for donuts in the Overview section.
+description: Create a visual experience that works best for donuts in the Overview section.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/customize-donut-color.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Landing page configurations in Service Operations Workspace for ITS
 
 # Configure the donut color in the Overview section
 
-Create a visual experience that works the best for donuts in the **Overview** section.
+Create a visual experience that works best for donuts in the **Overview** section.
 
 ## Before you begin
 

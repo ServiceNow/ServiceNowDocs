@@ -1,6 +1,6 @@
 ---
 title: Add a new change request type
-description: You can add a new change type to your change process. There are several processes involved with adding a change type. These processes include managing script includes and workflows.
+description: Add a new change type to your change process. There are several processes involved with adding a change type. These processes include managing script includes and workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_AddNewChangeType.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Change Management, IT Service Management]
 
 # Add a new change request type
 
-You can add a new change type to your change process. There are several processes involved with adding a change type. These processes include managing script includes and workflows.
+Add a new change type to your change process. There are several processes involved with adding a change type. These processes include managing script includes and workflows.
 
 ## Before you begin
 

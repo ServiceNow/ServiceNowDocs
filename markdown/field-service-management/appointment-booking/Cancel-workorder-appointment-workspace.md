@@ -9,7 +9,7 @@ classification: appointment-booking
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing appointments in the CSM Configurable Workspace, Managing appointments on behalf of a customer, Managing appointments, Use, Field Service Management]
+breadcrumb: [Managing appointments in the CRM Workspace, Managing appointments on behalf of a customer, Managing appointments, Use, Field Service Management]
 ---
 
 # Cancel work order appointment in CSM Agent Workspace

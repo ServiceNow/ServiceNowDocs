@@ -28,7 +28,7 @@ Visualizations in the Core UI tools include dashboards, reports, and analytics h
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Reporting \[Omitted image "bus-datasheet.svg"\] Alt text: Visualise the current state of your data to share with other users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/reporting-landing-page.md)
+[Reporting \[Omitted image "bus-datasheet.svg"\] Alt text: Visualize the current state of your data to share with other users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/reporting-landing-page.md)
 
 </td><td>
 

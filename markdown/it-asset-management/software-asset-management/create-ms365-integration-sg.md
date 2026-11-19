@@ -31,11 +31,11 @@ Complete the steps in the [Request Software Asset Management](https://raw.github
 
 1.  Integrate with Microsoft 365 in the cloud for user subscription data.
 
-    For more information, see [Create a Microsoft 365 integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/set-up-microsoft-office-365.md).
+    For more information, see [Create a Microsoft 365 integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/set-up-microsoft-office-365.md).
 
 2.  Configure Microsoft Power BI for gaining access to Power BI service content and APIs.
 
-    Power BI service content and APIs help optimize your Microsoft 365 subscriptions, such as by downgrading subscriptions from Office 365 E5 to Office 365 E3. For more information, see [Enable service principal authentication for Power BI read-only APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/enable-service-principal-authentication-microsoft.md).
+    Power BI service content and APIs help optimize your Microsoft 365 subscriptions, such as by downgrading subscriptions from Office 365 E5 to Office 365 E3. For more information, see [Enable service principal authentication for Power BI read-only APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/enable-service-principal-authentication-microsoft.md).
 
 3.  Integrate with an inventory tool for installation usage data.
 

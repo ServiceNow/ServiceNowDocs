@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage store plans, Retail]
+breadcrumb: [Create and manage store plans, Retail]
 ---
 
 # Fulfill In-store operations cases and tasks in Retail Mobile
@@ -27,5 +27,5 @@ Complete individual work items tied to a store case using Retail Mobile.
 -   **[Search for assigned cases and tasks using AI Search in Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-mobile-search-ai.md)**  
 Use the Search function in Retail Mobile to find cases or tasks based on relevant keywords or descriptions.
 
-**Parent Topic:**[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plans.md)
+**Parent Topic:**[Create and manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plans.md)
 

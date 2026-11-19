@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-30"
 reading_time_minutes: 1
 keywords: [Microsoft SQL Server, authentication, personal authentication, zero copy connector]
-breadcrumb: [Reference, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Connection form fields, Reference, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Microsoft SQL Server authentication method fields
@@ -40,7 +40,7 @@ Select the OAuth integration type that you want to use:
     **Note:** Each user can view, renew, or revoke their personal access token from the Personal Integrations Dashboard in the Zero Copy Connector Hub. If a user's token expires or is missing, an alert appears when that user tries to access data assets for this connection, with a link to sign in again.
 
 
-**Parent Topic:**[Zero Copy Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/reference-zcc.md)
+**Parent Topic:**[Connection form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/connection-form-fields-zcc.md)
 
 **Related topics**  
 

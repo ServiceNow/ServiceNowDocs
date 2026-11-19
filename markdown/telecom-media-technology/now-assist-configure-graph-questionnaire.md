@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agentic workflows, Configure, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Configure agentic workflows, Agentic workflows, Configure, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Configure the graph questionnaire ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)

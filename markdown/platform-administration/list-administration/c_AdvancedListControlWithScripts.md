@@ -1,6 +1,6 @@
 ---
 title: Advanced list control with scripts
-description: You can write scripts to specify which list elements, such as links, filters, and buttons, are present.You can create a UI action that opens the slushbucket interface to customize lists in the list view.
+description: You can write scripts to specify which list elements, such as links, filters, and buttons, are present.Create a UI action that opens the list layout configuration interface to customize lists in the list view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/c\_AdvancedListControlWithScripts.html
 release: brazil
@@ -9,14 +9,14 @@ classification: list-administration
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, List administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Advanced list control with scripts
 
 You can write scripts to specify which list elements, such as links, filters, and buttons, are present.
 
-These scripts can react to the record that is being displayed. For related list controls, the global variable **parent** identifies the parent record. For primary lists, there is no parent record.
+These scripts can react to the record that is being displayed. For related list controls, the global variable *parent* identifies the parent record. For primary lists, there is no parent record.
 
 [Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md) the List Control form and add the script field that you need:
 
@@ -46,7 +46,7 @@ answer;
 
 ## Configure a list UI action
 
-You can create a UI action that opens the slushbucket interface to customize lists in the list view.
+Create a UI action that opens the list layout configuration interface to customize lists in the list view.
 
 ### Before you begin
 
@@ -56,7 +56,7 @@ Role required: ui\_action\_admin
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **UI Actions**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  In the **Table** field, select the **List \[sys\_ui\_list\]** table.
 
@@ -73,6 +73,6 @@ Role required: ui\_action\_admin
     action. setRedirectURL (url ) ;
     ```
 
-7.  Click **Submit**.
+7.  Select **Submit**.
 
 

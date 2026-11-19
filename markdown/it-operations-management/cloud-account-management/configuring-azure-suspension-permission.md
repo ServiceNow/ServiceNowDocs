@@ -79,3 +79,5 @@ You must assign the permission to a role. For more information, see [https://lea
 
 Configure a lock/unlock policy. For more information, see [Set up suspension of a subscription using Azure policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/configuring-lock-unlock-policy-for-azure.md).
 
+**Parent Topic:**[Setting up Azure cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/setting-up-azure-cloud.md)
+

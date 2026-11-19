@@ -34,15 +34,15 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 5.  Configure the signatories.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d460381e117">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d460311e119">
 
 Option
 
-</th><th align="left" id="d460381e120">
+</th><th align="left" id="d460311e122">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d460381e126">
+</th></tr></thead><tbody><tr><td id="d460311e128">
 
 **Internal**
 
@@ -67,7 +67,7 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 4.  Select **Add**.
 
 
-</td></tr><tr><td id="d460381e216">
+</td></tr><tr><td id="d460311e218">
 
 **External**
 

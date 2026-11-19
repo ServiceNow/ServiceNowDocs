@@ -1,6 +1,6 @@
 ---
 title: Configure the visibility of landing page sections
-description: Configure if few sections of the landing page should be visible or hidden. For example, Quick links and Upcoming sections.
+description: Configure whether some sections of the landing page, such as the Quick links and Upcoming sections, are visible or hidden.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-visibility-landing-page-sections.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Landing page configurations in Service Operations Workspace for ITS
 
 # Configure the visibility of landing page sections
 
-Configure if few sections of the landing page should be visible or hidden. For example, **Quick links** and **Upcoming** sections.
+Configure whether some sections of the landing page, such as the **Quick links** and **Upcoming** sections, are visible or hidden.
 
 ## Before you begin
 

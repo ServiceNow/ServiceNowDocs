@@ -1,6 +1,6 @@
 ---
 title: Create AI connections for GCP Vertex AI
-description: Create an AI connection for GCP Vertex AI in AI Control Tower using the  AI Service Graph Connector for GCP Vertex AI.
+description: Create an AI connection for GCP Vertex AI in Control Tower using the  AI Service Graph Connector for GCP Vertex AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connections-for-gcp-vertex-ai.html
 release: brazil
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [GCP Vertex AI, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [GCP Vertex AI, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create AI connections for GCP Vertex AI
 
-Create an AI connection for GCP Vertex AI in AI Control Tower using the  AI Service Graph Connector for GCP Vertex AI.
+Create an AI connection for GCP Vertex AI in Control Tower using the  AI Service Graph Connector for GCP Vertex AI.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **AI Control Tower workspace** &gt; **Configuration** &gt; **AI connections**.
+1.  Navigate to **Control Tower** &gt; **Configuration** &gt; **AI connections**.
 
 2.  Select **Add**.
 

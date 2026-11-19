@@ -66,15 +66,15 @@ To become familiar with the process before handling more complex operations, you
 
     When you apply a filter to the list and then select All, the download includes only the records that match the filter.
 
-<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d41575e255">
+<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d41597e257">
 
 Step
 
-</th><th align="left" id="d41575e258">
+</th><th align="left" id="d41597e260">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d41575e264">
+</th></tr></thead><tbody><tr><td id="d41597e266">
 
 **Export to excel**
 
@@ -82,7 +82,7 @@ Description
 
 To download records related to Assessments, Branches, Contracts, Functions, Legal Entities, Supply Chains, Third Parties, or Third-Party Engagements, select **Export to Info Excel**.
 
-</td></tr><tr><td id="d41575e279">
+</td></tr><tr><td id="d41597e281">
 
 **Export to info register**
 
@@ -158,15 +158,15 @@ When making a download request for a Third-Party Information Register record, se
 
 13. To export Excel download/upload requests, select the requests you want and then **Export**.
 
-<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d41575e559">
+<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d41597e561">
 
 Step
 
-</th><th align="left" id="d41575e562">
+</th><th align="left" id="d41597e564">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d41575e568">
+</th></tr></thead><tbody><tr><td id="d41597e570">
 
 **Select __File Type__.**
 
@@ -178,7 +178,7 @@ File type selected for the export. Available choices are:-   **Excel**
 -   **PDF**
 
 
-</td></tr><tr><td id="d41575e598">
+</td></tr><tr><td id="d41597e600">
 
 **Select __Delivery Type__.**
 
@@ -188,7 +188,7 @@ Delivery type selected for the export. Available choices are:-   **Download**
 -   **Email**
 
 
-</td></tr><tr><td id="d41575e620">
+</td></tr><tr><td id="d41597e622">
 
 **Select __Export.__**
 

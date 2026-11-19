@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-nowassistinaisearch-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -234,11 +234,11 @@ Semantic indexing now indexes short descriptions from Catalog Item source record
 
 -   **[Knowledge base articles Genius Results](https://www.servicenow.com/docs/access?context=now-assist-qna-genius-results&family=zurich&ft:locale=en-US)**
 
-The Now Assist Q&amp;A Genius Results feature is in maintenance mode. This feature will have no new enhancements but will have continued support. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see [Summary Genius Results](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=zurich&ft:locale=en-US).
+The Now Assist Q&amp;A Genius Results feature is in maintenance mode. This feature will have no new enhancements but will have continued support. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see [ServiceNow Otto Summary Genius Results](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=zurich&ft:locale=en-US).
 
 -   **[Actions Genius Results](https://www.servicenow.com/docs/access?context=now-assist-catalog-ordering-gr&family=zurich&ft:locale=en-US)**
 
-The Now Assist Actions Genius Results feature is in maintenance mode. This feature will have no new enhancements but will have continued support. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see [Summary Genius Results](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=zurich&ft:locale=en-US).
+The Now Assist Actions Genius Results feature is in maintenance mode. This feature will have no new enhancements but will have continued support. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see [ServiceNow Otto Summary Genius Results](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=zurich&ft:locale=en-US).
 
 -   **[Microsoft SharePoint Online login prompts in Knowledge Graph user citations](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=zurich&ft:locale=en-US)**
 
@@ -400,7 +400,7 @@ Now Assist in AI Search is installed when you install any of the following licen
     -   [Now Assist in CM Pro](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&family=yokohama&ft:locale=en-US)
     -   [Now Assist in Conversational Spokes](https://www.servicenow.com/docs/access?context=conv-spokes-na&family=yokohama&ft:locale=en-US)
     -   [ServiceNow Lens](https://www.servicenow.com/docs/access?context=servicenow-lens-landing-page&family=yokohama&ft:locale=en-US)
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Now Assist in AI Search is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -420,7 +420,7 @@ Now Assist in AI Search is installed when you install any of the following licen
     -   [ServiceNow Otto for CSM](https://www.servicenow.com/docs/access?context=now-assist-csm&family=zurich&ft:locale=en-US)
     -   [ServiceNow Otto for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=zurich&ft:locale=en-US)
     -   [ServiceNow Otto](https://www.servicenow.com/docs/access?context=now-assist-for-esg&family=zurich&ft:locale=en-US)
-    -   [\[Placeholder link text to key bundle-fsm.now-assist-fsm\]](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=zurich&ft:locale=en-US)
+    -   [now assist fsm](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=zurich&ft:locale=en-US)
     -   [ServiceNow Otto for FSO](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=zurich&ft:locale=en-US)
     -   [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://www.servicenow.com/docs/access?context=now-assist-ham&family=zurich&ft:locale=en-US)
     -   [ServiceNow Otto for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&family=zurich&ft:locale=en-US)
@@ -428,7 +428,7 @@ Now Assist in AI Search is installed when you install any of the following licen
     -   [ServiceNow Otto for ITOM](https://www.servicenow.com/docs/access?context=now-assist-itom&family=zurich&ft:locale=en-US)
     -   [ServiceNow Otto for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&family=zurich&ft:locale=en-US)
     -   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&family=zurich&ft:locale=en-US)
-    -   [\[Placeholder link text to key bundle-gvin.now-assist-for-psds\]](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=zurich&ft:locale=en-US)
+    -   [now assist for psds](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=zurich&ft:locale=en-US)
     -   [ServiceNow Otto](https://www.servicenow.com/docs/access?context=now-assist-for-irm&family=zurich&ft:locale=en-US)
     -   [ServiceNow Otto for Security Incident Response \(SIR\)](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=zurich&ft:locale=en-US)
     -   [ServiceNow Otto for Software Asset Management \(SAM\)](https://www.servicenow.com/docs/access?context=now-assist-sam&family=zurich&ft:locale=en-US)
@@ -436,7 +436,7 @@ Now Assist in AI Search is installed when you install any of the following licen
     -   [ServiceNow Otto for Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=now-assist-spm&family=zurich&ft:locale=en-US)
     -   [ServiceNow Otto for SLO](https://www.servicenow.com/docs/access?context=now-assist-slo&family=zurich&ft:locale=en-US)
     -   [Now Assist for TMT](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=zurich&ft:locale=en-US)
-    -   [\[Placeholder link text to key bundle-grc.now-assist-tprm\]](https://www.servicenow.com/docs/access?context=now-assist-tprm&family=zurich&ft:locale=en-US)
+    -   [now assist tprm](https://www.servicenow.com/docs/access?context=now-assist-tprm&family=zurich&ft:locale=en-US)
     -   [ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&family=zurich&ft:locale=en-US)
     -   [Now Assist in Contract Management](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&family=zurich&ft:locale=en-US)
     -   [Now Assist in Conversational Spokes](https://www.servicenow.com/docs/access?context=conv-spokes-na&family=zurich&ft:locale=en-US)
@@ -681,7 +681,7 @@ Yokohama
 
  [Yokohama Patch 6](https://www.servicenow.com/docs/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 -   Increase search recall with semantic indexing of Catalog Item short descriptions.
 
  [Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)

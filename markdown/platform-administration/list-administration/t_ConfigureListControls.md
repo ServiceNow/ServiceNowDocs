@@ -1,6 +1,6 @@
 ---
 title: Configure list controls
-description: You can configure list controls, such as buttons and filters.The following example shows how to configure a list of related incidents in a problem record to suit specific business needs.
+description: Configure list controls, such as buttons, filters, and links, to control what users see and can do in a list.Change the label of the Incidents related list on a problem record and hide its New button by using list controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/t\_ConfigureListControls.html
 release: brazil
@@ -9,12 +9,12 @@ classification: list-administration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configure, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, List administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure list controls
 
-You can configure list controls, such as buttons and filters.
+Configure list controls, such as buttons, filters, and links, to control what users see and can do in a list.
 
 ## Before you begin
 
@@ -24,9 +24,9 @@ Role required: personalize\_control
 
 1.  Open a list.
 
-2.  Right-click any column heading and select **Configure** &gt; **List Control**.
+2.  Select and hold \(or right-click\) any column heading and select **Configure** &gt; **List Control**.
 
-3.  Complete the form.
+3.  On the List Control form, fill in the fields.
 
     **Note:** The list control fields that are available for embedded lists are more limited. Unless otherwise noted, the list control fields in the following table are available for both standard and embedded lists.
 
@@ -60,7 +60,7 @@ Label
 
 </td><td>
 
-Label to display for this list. Allows an admin to customize the label for a related list or list. If not supplied, the default plural label for the file is used. For example, the label for the Incident table would be **Incidents**.
+Label to display for this list. Enables administrators to customize the label for a related list or list. If not supplied, the default plural label for the table is used. For example, the label for the Incident table is **Incidents**.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Omit columns if empty
 
 </td><td>
 
-Option for a top-level list to omit the column headers AND filters/breadcrumbs for an empty column.
+Option for a top-level list to omit the column headers and filters or breadcrumbs for an empty column.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Omit filters
 
 </td><td>
 
-Option to hide filters or breadcrumbs for this list. Clear this check box if you always want filters or breadcrumbs or to control filters/breadcrumbs with roles \(**Filter roles** field\). This field is available for standard lists only.
+Option to hide filters or breadcrumbs for this list. Clear this check box to show filters or breadcrumbs or to control filters/breadcrumbs with roles \(**Filter roles** field\). This field is available for standard lists only.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Omit links
 
 </td><td>
 
-Option to hide links for fields that reference other files in this list. Leave this button unchecked to generate links or to control the use of links with roles \(**Link roles** field\).
+Option to hide links for fields that reference other files in this list. Clear this check box to generate links or to control the use of links with roles \(**Link roles** field\).
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ List edit type
 </td><td id="entry_ListEditTypeDesc">
 
 Ability for the user to edit values directly in individual cells in a list. The options are: -   **Save immediately \(cell edit mode\):** enables cell editing. The entire row is saved when the user enters a new value.
--   **Save data by rows:** enables cell editing. The row is saved only when the user navigates away from the row or selects the **Save** icon \(\[Omitted image "IconSave.png"\] Alt text: Save icon\). This mode allows the user to modify multiple values before saving a record.
+-   **Save data by rows:** enables cell editing. The row is saved only when the user navigates away from the row or selects the **Save** icon \[Omitted image "IconSave.png"\] Alt text:. In this mode, users can modify multiple values before saving a record.
 -   **Disable list editing:** prevents users from editing cells in the list.
  This field is available for standard lists only.
 
@@ -175,7 +175,7 @@ Disable Natural Language Query \(NLQ\)
 
 </td><td>
 
-Option to disable the NLQ filter in specific lists when NLQ on lists is enabled in the instance. The NLQ filter enables you to use natural language to filter lists instead of using the condition builder. For more information on NLQ filters, see [Natural Language Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/natural-language-query.md).**Note:** When the system property **com.snc.listv2.nlq.lists.enabled**\(com.snc.listv2.nlq.lists.enabled\) is set to **false**, the query destructs. Text entered in the search replaces existing conditions.
+Option to disable the NLQ filter in specific lists when NLQ on lists is enabled in the instance. The NLQ filter enables you to use natural language to filter lists instead of using the condition builder. For more information on NLQ filters, see [Natural Language Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/natural-language-query.md).**Note:** When the system property **com.snc.listv2.nlq.lists.enabled** is set to **false**, the query destructs. Text entered in the search replaces existing conditions.
 
 </td></tr><tr><td>
 
@@ -191,7 +191,7 @@ New roles
 
 </td><td>
 
-User roles that can access the **New** button on this list. Leave the field blank to enable all users to access the **New** button. This option does not apply to embedded lists, which do not contain **New** buttons.
+User roles that can access the **New** button on this list. Leave the field empty to enable all users to access the **New** button. This option does not apply to embedded lists, which do not contain **New** buttons.
 
 </td></tr><tr><td>
 
@@ -213,9 +213,9 @@ User roles required to have links generated for fields that reference other file
 </table>
 **Parent Topic:**[Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-administration/c_ListConfiguration.md)
 
-## Example of configuring list controls
+## Configure list controls for a related list
 
-The following example shows how to configure a list of related incidents in a problem record to suit specific business needs.
+Change the label of the Incidents related list on a problem record and hide its New button by using list controls.
 
 ### Before you begin
 

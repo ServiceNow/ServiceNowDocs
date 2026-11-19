@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Microsoft Active Directory v2 Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -24,7 +24,7 @@ Integrate the ServiceNow instance and the Microsoft Active Directory v2 spoke by
 -   Activate the Microsoft Active Directory v2 spoke.
 -   Role required: admin
 
-## Configure a connection record for the Microsoft Active Directory v2 spoke
+## Configure a connection for the Microsoft Active Directory v2 spoke
 
 Configure a connection record to connect to the Microsoft Active Directory v2 spoke host and enable the Microsoft Active Directory v2 spoke connections and credentials alias to authorize actions.
 
@@ -38,31 +38,38 @@ Role required: admin.
 
 2.  Click the **Integrations** tab.
 
-3.  Click **Connections**.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-4.  Toggle and enable the **Outbound** connections.
+4.  Locate the **AD\_v2** connection alias and click **View Details**.
 
-5.  Locate the **AD\_v2** connection alias and click **View Details**.
+    -   To configure the default connection and credential alias record that is shipped along with the Microsoft Active Directory v2 spoke, click **View Details**.
 
-    \[Omitted image "click-add-connection-ad-v2.png"\] Alt text: Configure connection and credentials for Microsoft Active Directory v2.
+        \[Omitted image "click-add-connection-ad-v2.png"\] Alt text: Configure connection and credentials for Microsoft Active Directory v2.
 
+    -   To manage more than one Microsoft Active Directory v2 spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**
 
-    \[Omitted image "configure-def-alias-adv2.jpg"\] Alt text: Configure the default alias.
+    \[Omitted image "configure-def-alias-adv2.png"\] Alt text: Configure the default alias.
 
-6.  Enter the following details in the form.
+5.  Enter the following details in the form.
 
-    |Field|Information|
+    |Field|Description|
     |-----|-----------|
-    |Connection name|Name to uniquely identify the record.|
-    |Host|Fully qualified domain name or IP address of the target host where the Microsoft AD is installed. For example, `<host>.<domain>.com`.|
-    |User name|User name with access to the target Windows host.|
+    |Connection Information|
+    |Connection Name|Name to uniquely identify the record.|
+    |Host|Fully qualified domain name or IP address of the domain controller where the Microsoft Active Directory is installed. For example, `<host>.<domain>.com`.|
+    |Credential Information|
+    |User Name|User name for outbound authentication in `domain\username` format.|
     |Password|Password for the account.|
 
     \[Omitted image "create-connection-form.png"\] Alt text: Configure connection form.
 
-7.  Click **Configure Connection**.
+6.  Click **Save**.
 
+
+### Result
+
+The spoke connection is configured and ready to be used.
 
 ### What to do next
 

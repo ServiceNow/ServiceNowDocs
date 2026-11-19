@@ -1,6 +1,6 @@
 ---
 title: Generate troubleshooting guidance for SaaS and SSO integrations by using ServiceNow Otto for Software Asset Management \(SAM\)
-description: Generate error messages and detailed guidance to troubleshoot runtime job failures for SaaS and SSO integrations. These recommendations enable you to resolve common configuration issues and reduce downtime.
+description: Generate error messages and detailed guidance to troubleshoot runtime job failures for SaaS and SSO integrations. These recommendations enable you to resolve common configuration issues and reduce downtime.Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate an error log summary. A trigger initiates an action, such as when the system generates an error log summary.Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate error resolution recommendations. A trigger initiates an action, such as when the system generates error resolution recommendations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/software-asset-management/troubleshooting-saas-now-assist-sam.html
 release: brazil
@@ -8,7 +8,7 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 5
 breadcrumb: [Use generative AI skills, Using AI in Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -18,7 +18,64 @@ Generate error messages and detailed guidance to troubleshoot runtime job failur
 
 ## Before you begin
 
-Role required: sam\_integrator
+Before you use the Error log summarization and Error resolution recommendation skills, install the following plugin and the store apps that match your platform release version.
+
+<table id="table_err_skills_plugins"><thead><tr><th>
+
+Platform release
+
+</th><th>
+
+Plugin
+
+</th><th>
+
+Store apps
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich Patch 8 or later patches
+
+</td><td>
+
+Software Asset Management Professional \[com.snc.samp\]
+
+</td><td>
+
+-   Software Asset Management - SaaS License Management \[sn\_sam\_saas\_int\] - 16.5.0 or later
+-   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 7.0.0 or later
+-   Software Asset Workspace \[sn\_sam\_workspace\] - 10.0.8 or later
+
+</td></tr><tr><td>
+
+Australia Patch 1 or later patches
+
+</td><td>
+
+Software Asset Management Professional \[com.snc.samp\]
+
+</td><td>
+
+-   Software Asset Management - SaaS License Management \[sn\_sam\_saas\_int\] - 17.2.0 or later
+-   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 7.0.0 or later
+-   Software Asset Workspace \[sn\_sam\_workspace\] - 11.0.4 or later
+
+</td></tr><tr><td>
+
+Brazil or later releases
+
+</td><td>
+
+Software Asset Management Professional \[com.snc.samp\]
+
+</td><td>
+
+-   Software Asset Management - SaaS License Management \[sn\_sam\_saas\_int\] - 18.0.4 or later
+-   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 11.0.0 or later
+-   Software Asset Workspace \[sn\_sam\_workspace\] - 12.0.4 or later
+
+</td></tr></tbody>
+</table>Role required: sam\_integrator
 
 ## About this task
 
@@ -28,6 +85,12 @@ Starting with the Australia Patch 4 release, AWS Claude is the default model pro
 
 ServiceNow Otto for SAM generates the troubleshooting guidance for all SaaS and SSO integrations by enabling dynamic debug-level logging for flow actions and validating connections. The troubleshooting guidance is available for both current and new SaaS integrations.
 
+The Error log summarization skill processes application logs and classifies failure types, such as API, code, infrastructure, database, and configuration errors.
+
+The Error resolution recommendation skill uses that error summary to generate prioritized, step-by-step resolution guidance.
+
+The skill correlates each error with knowledge base articles, historical solutions, support cases, and web search results.
+
 ## Procedure
 
 1.  Navigate to **Workspace** &gt; **Software Asset Workspace** &gt; **License operations**.
@@ -36,15 +99,15 @@ ServiceNow Otto for SAM generates the troubleshooting guidance for all SaaS and 
 
 3.  Generate troubleshooting guidance.
 
-<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d360415e136">
+<table id="choicetable_azy_b5f_g3c"><thead><tr><th align="left" id="d359635e286">
 
 Integration
 
-</th><th align="left" id="d360415e139">
+</th><th align="left" id="d359635e289">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d360415e145">
+</th></tr></thead><tbody><tr><td id="d359635e295">
 
 **Existing**
 
@@ -58,7 +121,7 @@ An error message is displayed on the Integration Profile form indicating that th
 
 The ServiceNow Otto for SAM application generates the troubleshooting details that contain the error summary and suggested resolutions. Each error that's listed in the Error Summary section has a corresponding troubleshooting guidance in the Suggested Resolutions section.
 
-</td></tr><tr><td id="d360415e173">
+</td></tr><tr><td id="d359635e323">
 
 **New**
 
@@ -91,4 +154,49 @@ The ServiceNow Otto for SAM application generates the troubleshooting details th
 
 
 **Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-now-assist-sam.md)
+
+## Error log summarization skill - Triggers and Inputs
+
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate an error log summary. A trigger initiates an action, such as when the system generates an error log summary.
+
+### Triggers for the Error log summarization skill
+
+The following table lists the trigger for the Error log summarization skill.
+
+|Trigger|Description|
+|-------|-----------|
+|User-triggered|Error log summary is generated when the user manually triggers the skill by selecting **Troubleshoot** on the SaaS integration profile page.|
+
+### Inputs for the Error log summarization skill
+
+The following table lists the inputs for the Error log summarization skill.
+
+|Input|Description|
+|-----|-----------|
+|Outbound HTTP Logs \[sys\_outbound\_http\_log\]|4xx and 5xx outbound request and response details, scoped by hostname, job sys\_id, and time window.|
+|Flow Execution Context \[sys\_flow\_context\]|Most recent errored flow or subflow execution context for the failing job or validate-connection action.|
+|Action Type Definition \[sys\_hub\_action\_type\_definition\]|Resolves the internal name and scope of the action into the flow source sys\_id that is used for context lookup.|
+|Integration Profile \[samp\_sw\_subscription\_profile\]|Profile metadata and custom properties such as action name, scope, validate timestamps, and troubleshooting parameters that scope the log queries.|
+|Step-Level Execution Reports|Per-step inputs, outputs, and error details that are fetched through FlowExecutionSummaryUtil for the errored context.|
+
+## Error resolution recommendation skill - Triggers and Inputs
+
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate error resolution recommendations. A trigger initiates an action, such as when the system generates error resolution recommendations.
+
+### Triggers for the Error resolution recommendation skill
+
+The following table lists the trigger for the Error resolution recommendation skill.
+
+|Trigger|Description|
+|-------|-----------|
+|Auto-triggered|Resolution recommendations are automatically generated after the Error log summarization skill produces an error summary.|
+
+### Inputs for the Error resolution recommendation skill
+
+The following table lists the inputs for the Error resolution recommendation skill.
+
+|Input|Description|
+|-----|-----------|
+|Error summary|Consolidated error signature such as status codes, messages, failing action, and profile context that is produced by the Error log summarization skill.|
+|Web search results|External guidance, vendor documentation, and API deprecation or known-issue references that are matched to the error signature.|
 

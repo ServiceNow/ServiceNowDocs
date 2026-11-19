@@ -23,13 +23,13 @@ AI governance on the ServiceNow AI Platform encompasses the policies, roles, and
 
 To learn more about AI policy considerations and AI policy stakeholders see [AI governance on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-governance.md).
 
-## AI Control Tower
+## Control Tower
 
-AI Control Tower brings the teams responsible for AI across your organization into a single workspace, so they can expand AI adoption while maintaining oversight. The Home page gives governance leaders a portfolio-level view at a glance — the highest-priority work to act on, the makeup of the AI inventory, governance posture across quality, safety, security, compliance, and risk, regulatory risk classification, and the value AI assets deliver. From the same workspace, teams plan AI strategy, discover and inventory AI assets, govern risk and compliance, monitor AI in production, and measure value.
+Control Tower brings the teams responsible for AI across your organization into a single workspace, so they can expand AI adoption while maintaining oversight. The Home page gives governance leaders a portfolio-level view at a glance — the highest-priority work to act on, the makeup of the AI inventory, governance posture across quality, safety, security, compliance, and risk, regulatory risk classification, and the value AI assets deliver. From the same workspace, teams plan AI strategy, discover and inventory AI assets, govern risk and compliance, monitor AI in production, and measure value.
 
-As AI activity grows, AI Control Tower surfaces the work that matters instead of leaving teams to search for it. Recommendations and AI insights flag the highest-priority governance issues and opportunities, ordered by role, severity, and confidence. Monitoring scores your AI systems for quality and safety, adds AI-generated insights, and tracks trends so regressions surface before they reach users. When an issue calls for judgment, a conversational assistant works through it with you in the workspace, proposing actions you can accept, refine, or reject, while routine fixes can run hands-off through an automated agent.
+As AI activity grows, Control Tower surfaces the work that matters instead of leaving teams to search for it. Recommendations and AI insights flag the highest-priority governance issues and opportunities, ordered by role, severity, and confidence. Monitoring scores your AI systems for quality and safety, adds AI-generated insights, and tracks trends so regressions surface before they reach users. When an issue calls for judgment, a conversational assistant works through it with you in the workspace, proposing actions you can accept, refine, or reject, while routine fixes can run hands-off through an automated agent.
 
-To inventory your AI, monitor its quality and safety, track risk and compliance, and measure the value it delivers from one workspace, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md).
+To inventory your AI, monitor its quality and safety, track risk and compliance, and measure the value it delivers from one workspace, see [Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md).
 
 ## AI Risk and Compliance
 

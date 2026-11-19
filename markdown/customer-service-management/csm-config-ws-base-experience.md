@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-ws-base-experience.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-22"
+last_updated: "2026-11-16"
 reading_time_minutes: 2
 breadcrumb: [CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -28,7 +28,7 @@ Several default lists are available for use, including Cases, Interactions, Know
 
 ## Record pages
 
-CRM Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-record-pages.md) provide the base structure for how a record is displayed in the workspace. These pages present the essential fields and related information agents need to resolve customer issues, including customer information, customer history, interactions, and SLAs. Review the record pages available with the CRM Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-record-pages.md).
+CRM Workspace [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-record-pages.md) provide the base structure for how a record is displayed in the workspace. These pages present the essential fields and related information agents need to resolve customer issues, including customer information, customer history, interactions, and SLAs.
 
 ## Responsive interface
 

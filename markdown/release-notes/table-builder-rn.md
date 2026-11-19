@@ -1,6 +1,6 @@
 ---
 title: Table Builder release notes
-description: The ServiceNow Table Builder application is a centralized way to build tables, forms, and display logic. See the following sections for release notes by version.Table Builder was enhanced in the Brazil patch X release to address issues with the formula editor.
+description: The ServiceNow Table Builder application is a centralized way to build tables, forms, and display logic. See the following sections for release notes by version.Table Builder was enhanced in the Brazil Patch 3 release to address issues with the formula editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/table-builder-rn.html
 release: brazil
@@ -37,9 +37,9 @@ See [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)
 
-## Brazil patch X
+## 
 
-Table Builder was enhanced in the Brazil patch X release to address issues with the formula editor.
+Table Builder was enhanced in the Brazil Patch 3 release to address issues with the formula editor.
 
 ### What's new
 

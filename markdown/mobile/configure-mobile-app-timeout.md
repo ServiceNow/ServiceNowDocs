@@ -32,7 +32,11 @@ Mobile apps timeout when their associated OAuth token expires. Token lifespans a
 
     2.  In the Refresh Token Lifespan field, change the number in seconds to the amount of time the refresh token is valid.
 
+        The default is 8,640,000 seconds \(100 days\).
+
     3.  In the Access Token Lifespan field, change the number in seconds to the amount of time the access token is valid.
+
+        The default is 1,800 seconds \(30 minutes\).
 
 
 ## Result

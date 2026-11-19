@@ -66,6 +66,10 @@ Active
 
 Select the check box to enable the rule.
 
+</td></tr><tr class="sub-head"><td colspan="2">
+
+Applies to
+
 </td></tr><tr><td>
 
 Table
@@ -82,6 +86,10 @@ Conditions
 
 Conditions in which the matching rule applies. Define conditions that classify which types of events the rule executes for.
 
+</td></tr><tr class="sub-head"><td colspan="2">
+
+Resource
+
 </td></tr><tr><td>
 
 Matching
@@ -93,7 +101,9 @@ Indicates the option to match the rules. Select **Selection Criteria** to use th
 </td></tr></tbody>
 </table>5.  Select **Submit**.
 
-6.  If you selected **Selection Criteria** in the **Matching** field, add one or more matching dimensions in the **Matching Criteria** related list.
+6.  Open the matching rule you created.
+
+7.  In the **Select Criteria** related list, add one or more matching dimensions.
 
     Available matching dimensions:
 
@@ -103,7 +113,7 @@ Indicates the option to match the rules. Select **Selection Criteria** to use th
     -   **Retrieve task\(s\) within radius**: identifies tasks located within the defined radius of the intraday event
     -   **Retrieve technician\(s\) based on skills**: identifies technicians whose skills match those required by the intraday event
     -   **Retrieve technician\(s\) within radius**: identifies technicians located within the defined radius of the intraday event
-7.  **Note:** If you have custom event types and flows for intraday optimization, migrate them to the Intraday Event Type table. Update your flows to populate the event type field with table references instead of drop-down values.
+8.  **Note:** If you have custom event types and flows for intraday optimization, migrate them to the Intraday Event Type table. Update your flows to populate the event type field with table references instead of drop-down values.
 
     Choose which event types use matching rules.
 

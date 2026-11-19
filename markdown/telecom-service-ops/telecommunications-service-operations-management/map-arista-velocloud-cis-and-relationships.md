@@ -9,7 +9,7 @@ classification: telecommunications-service-operations-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Arista VeloCloud SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Arista VeloCloud SGC, Configure service graph connectors, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Mapping Arista VeloCloud CIs and relationships

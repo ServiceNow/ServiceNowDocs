@@ -149,7 +149,7 @@ Discovery operator
 
 </td><td>
 
-Can run or cancel existing discovery schedules and view discovery-related data, including logs, ECC queue payloads, device history, and MID Server logs. Can't create, edit, or delete records.Starting with Discovery Admin Workspace v1.22.0, has read-only access to the workspace and can run existing schedules with **Discover now**. For more information, see Discovery Operator role access.
+Can run or cancel existing discovery schedules and view discovery-related data, including logs, ECC queue payloads, device history, and MID Server logs. Can't create, edit, or delete records.Starting with Discovery Admin Workspace v1.22.0, has read-only access to the workspace and can run existing schedules with **Discover now**. For more information, see [Discovery Operator role access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-discovery-operator-access.md).
 
 </td></tr><tr><td>
 

@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [proactive resolution, proactive issue resolution, resolve device issues, real time resolution, non real time resolution, auto correction scripts, bulk remediation, metric analyzer]
 breadcrumb: [Solve issues, Digital End-User Experience, IT Operations Management]
 ---
 

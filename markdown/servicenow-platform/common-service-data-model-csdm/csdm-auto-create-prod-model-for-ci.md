@@ -9,7 +9,7 @@ classification: common-service-data-model-csdm
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Foundation tab on the dashboard, Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Foundation tab on the dashboard, Reference, Common Service Data Model \(CSDM\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Auto-generate product models for logical CIs

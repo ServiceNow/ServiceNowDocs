@@ -24,14 +24,14 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select Dashboard icon \(\[Omitted image "dashboard-icon-sow.png"\] Alt text: Dashboard icon\).
+2.  Select the Dashboard icon \[Omitted image "dashboard-icon-sow.png"\] Alt text:.
 
 3.  Select **Edit**.
 
     **Tip:** If you see a message that you cannot edit the dashboard because it is read-only, select **Duplicate** to create an editable copy. To use the duplicated copy as the default view in Service Operations Workspace, open the duplicated dashboard, select the settings icon, and set it as the default for your user group.
 
-4.  Select the **Add new element** drop-down, and then select the element to be added to the dashboard.
+4.  Select the **Add new element** drop-down list, and then select the element to be added to the dashboard.
 
-    For more information to edit a dashboard, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-db-in-ac.md).
+    For more information about editing a dashboard, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/edit-db-in-ac.md).
 
 

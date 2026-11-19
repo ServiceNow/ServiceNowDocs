@@ -41,5 +41,5 @@ The **Connection Alias** can reference an HTTP connection configured with any of
 
 [jira-zcc]
 
-[Acumatica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/acumatica-zcc.md)
+[Acumatica \(REST\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/acumatica-zcc.md)
 

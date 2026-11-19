@@ -18,7 +18,7 @@ Use the Workplace manager dashboard to monitor the space allocation and workplac
 
 \[Omitted image "workplace-mgr-dashboard.png"\] Alt text: Workplace manager dashboard
 
-To access the Workplace Manager Dashboard, navigate to **Workplace Core** &gt; **Workplace dashboards** &gt; **Safety management**.
+To access the Workplace Manager Dashboard, navigate to **Workplace Core** &gt; **Workplace dashboards** &gt; **Workplace Core**.
 
 Selecting a region, site, and a campus in the Workplace Report Filter at the top of the dashboard displays reports for that campus.
 
@@ -67,8 +67,8 @@ sn\_wsd\_core.workplace\_manager
 |Today's scheduled arrivals|List|List of employee arrivals scheduled for today for different locations on the campus.|
 |Today's reservations by shift|Bar \[Omitted image "column-icon.png"\] Alt text: Bar graph icon|Number of workplace reservations for today grouped by their shifts.|
 |Today's reservations|List|Number of workplace reservations for today.|
-|Unassigned cleaning tasks by day|Trend \[Omitted image "column-time-icon.png"\] Alt text: Trend over time icon|Trend of the number of active cleaning tasks per day that are not assigned to anyone and not in the Closed state. The cleaning tasks in this report have a due date between today and the next seven days and include all task types such as planned, unplanned, and ad hoc.|
-|Unassigned cleaning tasks|List|List of active workplace tasks that are not assigned to anyone and not in the Closed state.|
+|Unassigned cleaning tasks by day|Trend \[Omitted image "column-time-icon.png"\] Alt text: Trend over time icon|Trend of unassigned active cleaning tasks per day, excluding tasks in the Closed state. Tasks have a due date within the next seven days. Task types include planned, unplanned, and ad hoc.|
+|Unassigned cleaning tasks|List|List of active workplace tasks that aren't assigned to anyone and not in the Closed state.|
 
 **Parent Topic:**[Workplace dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/wsd-workplace-dashboards.md)
 

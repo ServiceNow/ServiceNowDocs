@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+reading_time_minutes: 3
+breadcrumb: [Configure, Operational Sustainability Management]
 ---
 
 # Create related list groupings

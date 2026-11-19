@@ -16,7 +16,7 @@ View the task execution history of the L1 IT Service Desk AI Specialist to track
 
 ## Before you begin
 
-Role required: sn\_itsm\_common.sn\_service\_desk\_manager or admin
+Role required: sn\_sow\_itsm\_common.sn\_service\_desk\_manager or admin
 
 ## Procedure
 

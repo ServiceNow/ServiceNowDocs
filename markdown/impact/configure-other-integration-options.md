@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/configure-other-integration-options.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-27"
+last_updated: "2026-11-12"
 reading_time_minutes: 3
 breadcrumb: [Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
@@ -18,9 +18,11 @@ Configure the Other integration to create work items in any external system by u
 
 The API endpoint URL, the username, and the API token for your external system must be available. The request body format that the external system expects must also be known, because the payload script must produce it.
 
-Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\). Only users with this role can edit the Payload script.
+**Note:** See [Other integration leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-other-integration-options.md) for available script variables and leading practices.
 
 Configure this integration on the instance where Scan Engine runs and the findings are generated. You don't select a target instance, and no My SN Instances record is required.
+
+Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\). Only users with this role can edit the Payload script.
 
 ## Procedure
 
@@ -28,29 +30,85 @@ Configure this integration on the instance where Scan Engine runs and the findin
 
 2.  Set **Integration** to `Other`.
 
-    The **Payload** field appears only when **Integration** is set to `Other`.
+3.  Populate the fields.
 
-3.  Populate the following fields.
+<table><thead><tr><th>
 
-    |Field|Value|
-    |-----|-----|
-    |Integration Name|A descriptive name for this integration.|
-    |End Point|The full URL of the API to call. Select the lock icon next to the field to enter the URL.|
-    |Content Type|The content type required by the external API \(for example, `application/json`\).|
-    |Issue Type|The work item type to create in the external system.|
+Field
 
-4.  In the **Payload** field, enter the script that builds the request body.
+</th><th>
 
-    See [Other integration leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-other-integration-options.md) for available script variables and leading practices.
+Value
 
-5.  Enter the **Username** and **API Token** for the external system.
+</th></tr></thead><tbody><tr><td>
 
-    Select the lock icon next to **API Token** to enter the token. The username and API token are used in a basic authentication authorization header. See the security note that follows these steps.
+Integration
+
+</td><td>
+
+Read-only field that autopopulate the integration type as Other.
+
+</td></tr><tr><td>
+
+Integration Name
+
+</td><td>
+
+A descriptive name for this integration.
+
+</td></tr><tr><td>
+
+End Point
+
+</td><td>
+
+The full URL of the API end point to call. **Note:** Select the lock icon next to the field to enter the URL.
+
+</td></tr><tr><td>
+
+Content Type
+
+</td><td>
+
+The content type required by the external API with a maximum string of 100. For example, `application/json`\).
+
+</td></tr><tr><td>
+
+Issue Type
+
+</td><td>
+
+The issue type for the work item required by the external API with a maximum string of 100 to create in the external system.
+
+</td></tr><tr><td>
+
+Payload
+
+</td><td>
+
+-   The script that builds the request body.
+-   Turn on ECMAScript 2021 \(ES12 mode: Enables the latest supported JavaScript features for this script; otherwise the application's JavaScript features will be used.
 
 
-## What to do next
+</td></tr><tr><td>
 
-**Important:** The API token field is a text field, so the platform doesn't encrypt its value by default. If your organization uses Edge Encryption, you can encrypt this field. Restrict access to Scan Engine Properties to users who need it, and use a token with the narrowest access your external system allows.
+Username
+
+</td><td>
+
+The username for the external system.
+
+</td></tr><tr><td>
+
+API Token
+
+</td><td>
+
+The API token for the external system. The username and API token are used in a basic authentication authorization header. See the security note that follows these steps.**Important:** The API token field is a text field, so the platform doesn't encrypt its value by default. If your organization uses Edge Encryption, you can encrypt this field. Restrict access to Scan Engine Properties to users who need it, and use a token with the narrowest access your external system allows.
+
+</td></tr></tbody>
+</table>4.  Select **Update** to save the configuration.
+
 
 **Parent Topic:**[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-integration-scan-engine.md)
 

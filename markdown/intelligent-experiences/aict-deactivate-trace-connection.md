@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring trace connections, Configuring integrations, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Deactivate a trace connection
@@ -21,21 +21,21 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Traces**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Traces**.
 
 2.  On the **Established** sub-tab, select the connection you want to deactivate.
 
 3.  Deactivate the connection using one of the following methods.
 
-<table id="choicetable-deactivate"><thead><tr><th align="left" id="d46289e102">
+<table id="choicetable-deactivate"><thead><tr><th align="left" id="d46402e104">
 
 Method
 
-</th><th align="left" id="d46289e105">
+</th><th align="left" id="d46402e107">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d46289e111">
+</th></tr></thead><tbody><tr><td id="d46402e113">
 
 **Actions menu**
 
@@ -45,7 +45,7 @@ Steps
 2.  In the confirmation dialog, select **Deactivate**.
 
 
-</td></tr><tr><td id="d46289e139">
+</td></tr><tr><td id="d46402e141">
 
 **Edit form**
 

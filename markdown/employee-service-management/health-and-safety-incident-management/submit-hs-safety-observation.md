@@ -7,7 +7,7 @@ release: brazil
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-12"
 reading_time_minutes: 1
 breadcrumb: [Submit, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Submit, Health and Safety Incident Management, Health and Safety, E
 Submit a safety observation through the Employee Center to report it to the safety department for an investigation.
 
 ## Before you begin
-
-Role required: sn\_ohs\_im.requestor
 
 ## Procedure
 

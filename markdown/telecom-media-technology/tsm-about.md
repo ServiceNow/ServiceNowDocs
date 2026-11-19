@@ -26,7 +26,7 @@ TSM addresses these challenges by breaking down siloed legacy systems with a uni
     -   Receive real-time updates and proactive notifications during disruptions to reduce support calls and escalations.
 -   Supercharge agent productivity.
     -   Access unified customer and network context with AI-powered case summaries, diagnostics, and suggested solutions.
-    -   Use Now Assist for faster problem diagnosis, case closure, and knowledge article creation.
+    -   Use ServiceNow Otto for faster problem diagnosis, case closure, and knowledge article creation.
     -   Work in configurable workspaces with comprehensive customer views and visual task guides.
     -   Automate routine tasks so human agents can focus on complex problems.
 -   Deliver seamless ecosystem experiences.
@@ -42,7 +42,7 @@ TSM combines purpose-built applications with CSM and core platform capabilities 
 
 |Application|Value|
 |-----------|-----|
-|[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)|Use AI-powered industry workflows to supercharge insights, actions, and self-service experiences.|
+|[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-about.md)|Use AI-powered industry workflows to supercharge insights, actions, and self-service experiences.|
 |[Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/cspm-landing-page.md)|Efficiently identify and resolve service problems with a streamlined service management process.|
 |[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/account-lifecycle-events-landing.md)|Drive adoption, mitigate risk, and maximize customer value with proactive success strategies, real-time health monitoring, and intelligent automation.|
 |[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/tmt-service-bridge-both-landing-page.md)|Quickly connect enterprise customers and suppliers running ServiceNow® to optimize work across the value chain.|

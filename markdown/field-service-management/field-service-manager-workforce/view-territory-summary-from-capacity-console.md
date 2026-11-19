@@ -18,7 +18,7 @@ The Capacity Console is a visualization tool designed to address common organiza
 
 ## Before you begin
 
-Role required: fsm\_adv\_cap\_mgmt.wm\_capacity\_planner, sn\_fsm\_capacity\_mg.wm\_capacity\_write, sn\_fsm\_capacity\_mg.wm\_capacity\_read
+Role required: sn\_fsm\_adv\_cap.wm\_capacity\_planner, sn\_fsm\_capacity\_mg.wm\_capacity\_write, sn\_fsm\_capacity\_mg.wm\_capacity\_read
 
 ## About this task
 
@@ -30,7 +30,7 @@ When you open the Capacity Console, the calendar appears to present the capacity
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM configurable workspace** &gt; **Capacity console**.
+1.  Navigate to **All** &gt; **CRM Workspace** &gt; **Capacity console**.
 
 2.  In the **Territory** filter, select the territories.
 
@@ -48,10 +48,10 @@ When you open the Capacity Console, the calendar appears to present the capacity
 
     Choose either of the following.
 
-    -   Underutilized \(Orange\): Displays days and demand channels with significant underutilization, enabling users to make targeted decisions. Less than 25% of capacity is used.
-    -   Optimally used \(Green\): Highlights areas with optimal usage, helping users maintain efficiency. Optimal utilization falls between 25% and 75%.
-    -   Overutilized \(Blue\): Identifies days and channels where capacity is exceeded, aiding in resource reallocation. More than 75% of capacity is over used.
-    -   No Capacity \(Blank\): No capacity is defined for the selected criteria.
+    -   Under Utilized \(Orange\): Displays days and demand channels with significant underutilization, enabling users to make targeted decisions. Less than 25% of capacity is used.
+    -   Optimally Utilized \(Green\): Highlights areas with optimal usage, helping users maintain efficiency. Optimal utilization falls between 25% and 75%.
+    -   Over utilized \(Blue\): Identifies days and channels where capacity is exceeded, aiding in resource reallocation. More than 75% of capacity is over used.
+    -   Not Defined \(Blank\): No capacity is defined for the selected criteria.
 7.  Select **Save filters**.
 
     Selections remain intact when you log in again or refresh the session.
@@ -76,5 +76,5 @@ The capacity data appears in the calendar based on the applied filters.
 
 [Update capacity value and reservation for a territory in capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/update-reservation-rule-in-capacity-console.md)
 
-[Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
+[Activate Field Service Advanced Capacity and Reservations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
 

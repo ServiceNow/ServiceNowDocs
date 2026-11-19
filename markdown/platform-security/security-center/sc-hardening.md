@@ -25,13 +25,13 @@ The formula for calculating the hardening compliance score:
 -   Each hardening setting has a risk score between 0-10. You can see the values of individual settings in the **All settings** section.
 -   The score equals the sum of all the compliant risk scores divided by the sum of all risk scores.
 
-For example, the sum of all the compliant risk scores is 25.4, and the total for all risk scores is 34.9. For this sum, the compliance score is \(25.4 /34.9\) × 100 which equals 72.7. This decimal gets rounded up to the nearest whole number and will therefore be equal to 73.
+For example, the sum of all the compliant risk scores is 25.4, and the total for all risk scores is 34.9. For this sum, the compliance score is `(25.4 /34.9) × 100` which equals 72.7. This decimal gets rounded up to the nearest whole number and equals 73.
 
 This calculation is automatically performed on the first of the month, or after an installation or reinstallation of ServiceNow Security Center. You can trigger a recalculation at any time using the **Update score** button on this page.
 
 ## Security hardening subsections
 
-The security hardening section contains three subsections that you can select on the left edge of the screen.
+The security hardening section contains three subsections that you can select.
 
 -   [All settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/all-settings.md)
 -   [Hardening compliance score trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/score-trend.md)

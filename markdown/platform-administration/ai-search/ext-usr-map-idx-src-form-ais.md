@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # AI Search External Search User Mapping Table Data Source Relationship form

@@ -1,18 +1,18 @@
 ---
 title: Feedback form
-description: Learn about the fields of the feedback form. Use this form to create or edit the details of a feedback record in AI Control Tower.
+description: Learn about the fields of the feedback form. Use this form to create or edit the details of a feedback record in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-feedback-form.html
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Feedback form
 
-Learn about the fields of the feedback form. Use this form to create or edit the details of a feedback record in AI Control Tower.
+Learn about the fields of the feedback form. Use this form to create or edit the details of a feedback record in Control Tower.
 
 **Note:** Operational Sustainability Workspace and Strategic Planning users can’t view the fields that aren’t added to the default/custom form layout in the workspace. Configure the default/custom form layout to view those fields.
 

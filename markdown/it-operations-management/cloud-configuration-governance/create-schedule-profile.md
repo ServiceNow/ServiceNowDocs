@@ -44,7 +44,7 @@ Schedule
 
 </td><td>
 
-Select an existing schedule or define a custom schedule. A schedule is a rule that includes or excludes specified time periods for actions. To define a schedule, use the **System Scheduler** module. See [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DefineASchedule.md).
+Select an existing schedule or define a custom schedule. A schedule is a rule that includes or excludes specified time periods for actions. To define a schedule, use the **System Scheduler** module. See Define a schedule.
 
 </td></tr><tr><td>
 

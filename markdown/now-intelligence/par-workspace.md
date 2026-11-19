@@ -51,7 +51,7 @@ The Platform Analytics experience has two main sections:
 
 </td><td>
 
-[KPI Signals \[Omitted image "bus-customize.svg"\] Alt text:&gt;Learn when a business process behaves in an unexpected way. Notify responsible users when a KPI score changes significantly.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-behavior-charts-for-kpis.md)
+[KPI Signals \[Omitted image "bus-customize.svg"\] Alt text:Learn when a business process behaves in an unexpected way. Notify responsible users when a KPI score changes significantly.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-behavior-charts-for-kpis.md)
 
 </td><td>
 

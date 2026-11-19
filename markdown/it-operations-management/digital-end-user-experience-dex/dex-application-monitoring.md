@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [application monitoring, add application for monitoring, enable app monitoring, edit monitoring parameters, turn off monitoring]
 breadcrumb: [Configure, Digital End-User Experience, IT Operations Management]
 ---
 

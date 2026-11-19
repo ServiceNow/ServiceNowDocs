@@ -6,13 +6,24 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/repo
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 6
 breadcrumb: [Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Reporting incidents for multiple regulations
 
 You can now report incidents or security incidents for multiple regulations for various legal entities in Digital resilience incident reporting. The application streamlines operations by automating tasks, migrating data, helping to prevent duplicates, and verifying accurate reporting.
+
+## How reporting for multiple regulations works
+
+An incident or security incident can affect several legal entities, and each entity can be subject to one or more regulations. The application handles this as follows:
+
+-   Each entity that you add to an incident or security incident is mapped to the regulations that apply to it.
+-   The application creates a single Digital resilience incident reporting case for the incident and adds a regulation record to the case for each mapped regulation. You can also add a regulation to a case manually from the Regulations related list on the case.
+-   The application tracks the reporting status of each regulation record separately.
+-   The application creates action tasks, such as the initial, intermediate, and final reports, for each regulation from the action task templates that are configured for that regulation. Each regulation therefore follows its own reporting sequence.
+
+For example, a case can list two regulations, with one marked as Reportable and the other as Non-reportable. You then complete only the reports that apply to the Reportable regulation.
 
 ## Automated reporting workflow
 
@@ -25,17 +36,29 @@ Starting with Digital resilience incident reporting, release 21.1.1, the applica
 
 You can complete these tasks and generate reports in Microsoft Word format, as required by regulatory authorities for analysis.
 
+**Note:** If you upgrade to release 21.1.1 or later from a release that supported only the Digital Operational Resilience Act \(DORA\), existing DORA cases are migrated automatically. A DORA regulation record is created on each existing case, and the reporting status of the case is carried over to it.
+
 ## Case creation by adding entities
 
 Digital resilience incident reporting is used for incident reporting and assessment for legal entities or other objectives according to regulations. You can now add entities to an incident, which automatically create a Digital resilience incident reporting case.
 
 **Note:** When an entity is mapped to an incident or security incident, the 'DRI case creation on incident entity insert' or 'DRI case creation on SIR entity insert' flow runs and a Digital Resilience Incident Reporting case is created automatically in the Digital Resilience Incident Reporting module with the prebuilt flow. For information on the flows, see [Configure Digital resilience incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/workflow-confi-auto-trigger-inci-repo-cases.md).
 
-For information on setting up the entities, see [Set up entities for the targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-entities-for-targets.md).
+You cannot add the same entity to the same incident or security incident more than once. If you try, the application displays an error message and does not save the duplicate.
+
+For information on setting up the entities, see [Add entities to an incident or security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/set-up-entities-for-targets.md).
+
+## Reporting status for each regulation
+
+Each regulation on a case has its own reporting status. The status can be To be determined \(the default\), Reportable, Non-reportable, or Potentially reportable. When the status of a regulation changes to Reportable, the application creates the Initial report action task for that regulation.
+
+**Note:** If you send a regulatory reporting assessment of IT incidents task back to Work in progress from Review, the reporting status of all regulations on the case is reset to Potentially reportable. Reassess each regulation before you continue.
 
 ## Sequence of action tasks
 
 Template configurations drive the sequence of action tasks in the Digital Resilience Incident Reporting \(DIR\) process. The following overview explains how action tasks are created and sequenced:
+
+The sequence runs separately for each regulation on the case, using the action task templates that are configured for that regulation. A regulation creates action tasks only if templates are configured for it. Out of the box, the templates are configured for the Digital Operational Resilience Act \(DORA\). For other regulations, you configure the templates yourself. When the source incident or security incident is closed, a Final report action task is created for each regulation that has an active Final report template. This applies regardless of the reporting status of the regulation.
 
 Action task creation and sequence are explained:
 

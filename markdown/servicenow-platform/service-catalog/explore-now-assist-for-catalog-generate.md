@@ -63,5 +63,5 @@ AI generates only the entities that Catalog Builder supports. The limitations of
 **Related topics**  
 
 
-[bundle-platai.configuring-na-landing]
+[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-na-landing.md)
 

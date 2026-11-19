@@ -1,6 +1,6 @@
 ---
 title: Create Decision records
-description: Decision records contain the conditions that you can use to determine the change approval action. Create decisions with the condition builder when you create change approval policies.
+description: Create decisions with the condition builder when you create change approval policies. Decision records contain the conditions that you can use to determine the change approval action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-decisions.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Create change approval policies, Creating change approval policies,
 
 # Create Decision records
 
-Decision records contain the conditions that you can use to determine the change approval action. Create decisions with the condition builder when you create change approval policies.
+Create decisions with the condition builder when you create change approval policies. Decision records contain the conditions that you can use to determine the change approval action.
 
 ## Before you begin
 

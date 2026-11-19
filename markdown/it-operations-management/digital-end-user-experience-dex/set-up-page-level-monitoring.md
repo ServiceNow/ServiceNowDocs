@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-10-23"
 reading_time_minutes: 1
+keywords: [page level monitoring, web page monitoring, monitor web application pages, page path wildcard, url pattern, application pages, web app performance]
 breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [UI actions, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [UI actions, Administer, Form administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Override a UI action for an extended table

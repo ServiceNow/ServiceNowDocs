@@ -46,7 +46,7 @@ AI Desktop Actions maintains context of the task until it is completed or failed
     -   **Accessibility**: Enables the AI agent to control your keyboard and cursor
     You can grant system permissions by selecting **Open system settings**. After granting permissions, restart the application.
 
-    \[Omitted image "ai-da-system-settings.png"\] Alt text:
+    \[Omitted image "ai-da-system-settings.png"\] Alt text: Grant permissions by opening the system settings, making changes, and then restarting the application.
 
     If you have already granted the permissions, the application displays the login page.
 
@@ -94,15 +94,15 @@ AI Desktop Actions maintains context of the task until it is completed or failed
     -   **Cancel**: Select this option if you want to modify the plan and resubmit with more specific instructions.
 10. Depending on the security policy evaluation result, do one of the following.
 
-<table id="choicetable_tlm_zjb_jkc"><thead><tr><th align="left" id="d353661e367">
+<table id="choicetable_tlm_zjb_jkc"><thead><tr><th align="left" id="d466509e368">
 
 Resource access
 
-</th><th align="left" id="d353661e370">
+</th><th align="left" id="d466509e371">
 
 Description and action
 
-</th></tr></thead><tbody><tr><td id="d353661e376">
+</th></tr></thead><tbody><tr><td id="d466509e377">
 
 **Denied**
 
@@ -112,7 +112,7 @@ Description and action
 -   Application: The AI agent tries an alternative approach to open the application.
 
 
-</td></tr><tr><td id="d353661e394">
+</td></tr><tr><td id="d466509e395">
 
 **Allowed**
 
@@ -120,7 +120,7 @@ Description and action
 
 The AI agent continues with the task automatically.
 
-</td></tr><tr><td id="d353661e403">
+</td></tr><tr><td id="d466509e404">
 
 **Neither allowed nor denied**
 

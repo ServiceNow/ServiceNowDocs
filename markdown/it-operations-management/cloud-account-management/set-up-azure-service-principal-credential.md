@@ -45,3 +45,5 @@ Role required: ServiceNow AI Platform admin
 6.  To complete the process, select **Submit**.
 
 
+**Parent Topic:**[Setting up Azure cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/setting-up-azure-cloud.md)
+

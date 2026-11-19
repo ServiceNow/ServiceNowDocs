@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage store plans to generate cases and tasks, Manage store plans, Retail]
+breadcrumb: [Create a store plan, Manage store plans to generate cases and tasks, Create and manage store plans, Retail]
 ---
 
 # Add affected Retail stores
@@ -29,5 +29,5 @@ Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\
 3.  Select **Add** to continue or **Cancel** to stay on the same form.
 
 
-**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plan-authoring.md)
+**Parent Topic:**[Create a store plan from the CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/create-plan-workspace.md)
 

@@ -18,6 +18,7 @@ You can install the Data Catalog application \(sn\_dcg\_app\) if you have the ad
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the Data Catalog application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   If your organization operates in a regulated market, use MID Server for metadata collectors. For details, see [Metadata collector deployment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/metadata-collector-deployment-models.md) and [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854).
 -   Ensure that the AI Search application is enabled on your instance by navigating to **All** &gt; **AI Search** &gt; **AI Search Status**. If AI search is not enabled, select **Request AI Search**.
 
 Role required: admin

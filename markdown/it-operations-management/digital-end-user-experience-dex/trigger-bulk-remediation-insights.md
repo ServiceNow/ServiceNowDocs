@@ -51,7 +51,7 @@ Role required: sn\_dex.admin, sn\_dex.engineer
 
     The Action Library opens, displaying available remedial actions for the selected operating system. Run remediation on a single device by selecting the device. To run bulk remediation, select multiple devices.
 
-    **Note:** You can also select the action library icon \(\[Omitted image "icon-action-library.png"\] Alt text:\) on the screen to access the remedial actions.
+    **Note:** You can also select the action library icon \(\[Omitted image "icon-action-library.png"\]\) on the screen to access the remedial actions.
 
 6.  Select the remedial action and select **Run action**.
 

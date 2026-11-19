@@ -17,7 +17,7 @@ A layout wraps every page in your app's chrome \(header, sidebar, footer\) while
 
 ## The app layout
 
-A Lux app has one root layout, `pages/layout.js`; you can add nested layouts in route folders \(`pages/<route>/layout.js`\). The build identifies it as the layout, not a page, and wraps every page inside it. Pages shouldn't contain `<header>`, `<nav>`, or global footer elements; all app-wide chrome belongs in the layout.
+A Lux app has 1 root layout, `pages/layout.js`; you can add nested layouts in route folders \(`pages/<route>/layout.js`\). The build identifies it as the layout, not a page, and wraps every page inside it. Pages shouldn't contain `<header>`, `<nav>`, or global footer elements; all app-wide chrome belongs in the layout.
 
 ## Choosing a base class
 
@@ -77,7 +77,7 @@ export default class AppLayout extends NavLayout {
 
 Each item is a plain object with `icon`, `title`, and an `action`: `{type: 'navigate', path: '/route'}` for in-app navigation, or `{type: 'event', name: '...'}` for a non-navigation action. `action.path` must correspond to an actual page file; selecting an item whose path has no matching `pages/<route>/page.js` returns a 404 error.
 
-Add an `l2Nav` array to an item for sub-pages, and an `l3Nav` array on an L2 item for tab-style sub-views. Each L2/L3 entry needs its own page file. The layout renders L3 items as a tab bar automatically and highlights the active tab from the current URL.
+Add a `l2Nav` array to an item for sub-pages, and a `l3Nav` array on an L2 item for tab-style sub-views. Each L2/L3 entry needs its own page file. The layout renders L3 items as a tab bar automatically and highlights the active tab from the current URL.
 
 To change nav items after the initial load \(for example behind a feature flag\), use the imperative helpers instead of rewriting the whole array:
 
@@ -90,7 +90,7 @@ removeL1Nav('/risk');
 
 These write directly to `navLayoutContext`, so the sidebar re-renders automatically. `appendL1Nav` and `removeL1Nav` carry no `window` guard, so you can call them from `application.js`'s `setup(ctx)` hook and from the layout's loader.
 
-`prependL1Nav` is also available, and all three helpers accept a single item \(or path\) or an array. The older names, `addNavItem` and `removeNavItem`, still work but log a deprecation warning.
+`prependL1Nav` is also available, and all 3 helpers accept a single item \(or path\) or an array. The older names, `addNavItem` and `removeNavItem`, still work but log a deprecation warning.
 
 ## App lifecycle hooks
 
@@ -201,31 +201,31 @@ export default class HomePage extends AIUXElement {
 
 Call `body()` on every `render()` and don't cache its result. That is what makes the runtime consult the current request's `sys_aix_page_region` override registry rather than a module-load-time snapshot.
 
-The build enforces this, and there is no opt-out. The build fails on any file outside `regions/` that imports `region` or uses it as a tagged template. The required file shape is described in the following list.
+The build enforces this, and there is no opt-out. The build fails on any file outside `regions/` that imports `region` or uses it as a tagged template. The required file shape is described in the following list:
 
 -   The default export is a nullary, non-async, non-generator function: arrow, function expression, or declaration.
--   It returns a bare `region`…`` tagged template, either directly or as the sole statement of a block body. It uses the exact local name the file imported `region` as.
+-   It returns a bare `region'…'` tagged template, either directly or as the sole statement of a block body. It uses the exact local name as the file imported `region`.
 -   Every `${…}` interpolation is a literal: string, number, boolean, `null`, or an array of those. Object literals aren't allowed. A variable, ternary, or function call fails with `region interpolation must be a literal value`.
 -   A string value can't contain a `}` character.
 -   Widget imports go in the region file, with paths relative to it.
 -   No `<scope:tag>` elements; that prefix is only for admin-saved layouts.
 -   Every hyphenated tag must be a widget: one of the app's own widgets \(`widgets/<name>/index.js`\) or a published widget imported from `@servicenow/glide-widgets/<scope>/<tag>`. A plain component fails the build.
 
-The region's name comes from its file path, relative to `regions/`, extension stripped, `/` replaced with `-`: `regions/home/body.js` registers as `home-body`. That name is what the visual editor writes into `sys_aix_page_region.region`, and what the runtime looks up overrides by. There is no decorator for it, and writing it by hand \(the curried `region('my-name')`…`` form\) is also a build error. Folder and file segments must match `^[A-Za-z_][A-Za-z0-9._-]*$`. The derived name can't be `default`, `none`, `auto`, `and`, `or`, or `not`.
+The region's name comes from its file path, relative to `regions/`, extension stripped, `/` replaced with `-`: `regions/home/body.js` registers as `home-body`. That name is what the visual editor writes into `sys_aix_page_region.region`, and what the runtime looks up overrides by. There is no decorator for it, and writing it by hand \(the curried `region('my-name')'…'` form\) is also a build error. Folder and file segments must match `^[A-Za-z_][A-Za-z0-9._-]*$`. The derived name can't be `default`, `none`, `auto`, `and`, `or`, or `not`.
 
 ## Rows, columns, and the nesting cap
 
 |Tag|Role|Holds|
 |---|----|-----|
-|`row`|The arrangement: a 12-column grid|One or more `column`s, nothing else|
+|`row`|The arrangement: a 12-column grid|1 or more `column`, nothing else|
 |`column`|The slot: addressable, lockable, position-bearing, and a vertical flex column|Widgets, `raw`, and nested `row`s in any mix; never a `column` directly|
 |`raw`|Escape hatch for static author-written markup|An opaque HTML string; no attributes, no `${}`|
 
-A region's top level holds only `row`s, and a `column` is always inside a `row`. The one-column case has exactly one spelling, `<row><column span=${12}>`. With the nesting cap, a region can take exactly two shapes: `row > column > widget`, and `row > column > row > column > widget`. A third level of `row` is a parse error, and the visual editor refuses a deeper edit up front with "Max nesting reached."
+A region's top level holds only `row`s, and a `column` is always inside a `row`. The 1-column case has exactly 1 spelling, `<row><column span=${12}>`. With the nesting cap, a region can take exactly 2 shapes: `row > column > widget`, and `row > column > row > column > widget`. A third level of `row` is a parse error, and the visual editor refuses a deeper edit up front with "Max nesting reached."
 
-An empty `row` is refused, not seeded. A column-less row is a parse error at any depth. Nothing in it can hold a widget, so it is not a layout. A stored or code-authored region holding one doesn't parse, the editor never loads it, and the region's blocked reason carries the parser's message.
+An empty `row` is refused, not seeded. A column-less row is a parse error at any depth. Nothing in it can hold a widget, so it is not a layout. A stored or code-authored region holding 1 doesn't parse, the editor never loads it, and the region's blocked reason carries the parser's message.
 
-Several top-level rows are fine. Multiple widgets in one `column` already stack vertically, so there is no separate "stack" primitive; `<stack>` is deprecated and rewrites to `<row><column span=${12}>`, carrying none of its attributes across.
+Several top-level rows are fine. Multiple widgets in 1 `column` already stack vertically, so there is no separate "stack" primitive; `<stack>` is deprecated and rewrites to `<row><column span=${12}>`, carrying none of its attributes across.
 
 ## One rule explains every restriction
 
@@ -245,7 +245,7 @@ That's why there's no `class`, `style`, `@event` or arbitrary-attribute support.
 |`column`|`locked`|Bare|The visual editor fixes its position|
 |`column`|`scroll=${'sm'|'md'|'lg'}`|Closed token|Bounds block size and makes the column independently scrollable|
 |`row`|`container`|Bare|Switches child `span-{bp}` from the viewport axis to a container-query axis|
-|`raw`|none| |Takes zero attributes|
+|`raw`|none| |Takes 0 \(zero\) attributes|
 
 `container`'s viewport `md` \(`48rem`\) and container `@md` \(`28rem`\) are different physical widths under the same `span-md` attribute name. That's Tailwind's design, not a DSL quirk.
 
@@ -253,24 +253,24 @@ Values must arrive through `${}` for escaping reasons, not expressiveness. A `Da
 
 ## Spacing is one value, and it isn't admin-editable
 
-A region has one spacing value: the gutter `gap-layout` puts between every row's columns, every column's children, and the region's own top-level rows. There is no padding and no per-instance override, so the space between any two adjacent widgets is the same however deeply they nest.
+A region has 1 spacing value: the gutter `gap-layout` puts between every row's columns, every column's children, and the region's own top-level rows. There is no padding and no per-instance override, so the space between any two adjacent widgets is the same however deeply they nest.
 
-`gap` and `padding` are deprecated. Both are still parsed and still consumed by the region, so they never reach the rendered element. They are ignored on any tag and with any value, and warned one time per attribute/tag pair. Build-time warnings are source-located per region file; runtime warnings fire once per page load per distinct notice. Remove them. `margin` was considered and deliberately left out. A child owning its own outer spacing, alongside a container that already owns spacing between children, produces uneven or doubled gaps.
+`gap` and `padding` are deprecated. Both are still parsed and still consumed by the region, so they never reach the rendered element. They're ignored on any tag and with any value, and warned one time per attribute/tag pair. Build-time warnings are source-located per region file; runtime warnings fire once per page load per distinct notice. Remove them. `margin` was considered and deliberately left out. A child owning its own outer spacing, alongside a container that already owns spacing between children, produces uneven or doubled gaps.
 
-To retune the gutter, set the `--layout-gap` custom property at `:root`, or set `--spacing-layout` on an ancestor to scope one subtree. A `--layout-gap` set on a descendant of `:root` isn't read, because the `var()` in the token's definition is substituted where it's declared.
+To retune the gutter, set the `--layout-gap` custom property at `:root`, or set `--spacing-layout` on an ancestor to scope 1 subtree. A `--layout-gap` set on a descendant of `:root` isn't read, because the `var()` in the token's definition is substituted where it's declared.
 
 ## The region wrapper
 
 **Note:**
 
-Every rendered region is enclosed in exactly one wrapper element: `<div data-aiux-region="{name}" class="flex flex-col gap-layout overflow-hidden">`. The wrapper is part of the rendered-output contract, so query `data-aiux-region` as a literal.
+Every rendered region is enclosed in exactly 1 wrapper element: `<div data-aiux-region="{name}" class="flex flex-col gap-layout overflow-hidden">`. The wrapper is part of the rendered-output contract, so query `data-aiux-region` as a literal.
 
-The wrapper is a real layout box that stacks the region's top-level rows as a flex column on `gap-layout`. This is the same theme-able gutter a `row` puts between its columns and a `column` puts between its children. Two top-level rows sit exactly one gutter apart, the same distance as two widgets in a column. It carries `overflow-hidden` because it is the region's outermost box, the one the page's layout places. The layout consequence for the page: a region is one item of the page's own grid or flex parent, rather than each of its rows being one.
+The wrapper is a real layout box that stacks the region's top-level rows as a flex column on `gap-layout`. This is the same theme-able gutter a `row` puts between its columns and a `column` puts between its children. 2 top-level rows sit exactly one gutter apart, the same distance as 2 widgets in a column. It carries `overflow-hidden` because it is the region's outermost box, the one the page's layout places. The layout consequence for the page: a region is 1 item of the page's own grid or flex parent, rather than each of its rows being 1.
 
 The following consequences matter when you query or test a region.
 
 -   Measuring a region means measuring the union of the wrapper's children, not the wrapper's own rect; the page's layout can stretch the wrapper past the rows it holds.
--   Inner nodes carry no marker: one `<div>` per primitive, one element per widget, in AST order. Map DOM back to AST by walking both in parallel from the wrapper. The one exception is a `scroll`-bearing `column`, which emits two elements \(`data-aiux-scroll-root` around `data-aiux-scroll`\), with the grid placement on the outer one.
+-   Inner nodes carry no marker: 1 `<div>` per primitive, 1 element per widget, in AST order. Map DOM back to AST by walking both in parallel from the wrapper. The 1 exception is a `scroll`-bearing `column`, which emits 2 elements \(`data-aiux-scroll-root` around `data-aiux-scroll`\), with the grid placement on the outer one.
 
 **Note:** Widget-inside-widget composition isn't supported by the DSL.
 
@@ -285,14 +285,14 @@ Every region a page renders with `region` can be edited directly on the live pag
 
 The first edit to a region creates a new row in `sys_aix_page_region`, keyed on `(widget, region)` \(the page's widget and the path-derived region name\). From that point, the region's layout stops taking upgrades from new app versions. The widgets inside it keep taking theirs, but the arrangement is now the admin's to maintain. "Restore defaults" deletes the override row, and the app-shipped layout takes over again.
 
-Repositioning a widget needs nothing from you. Making a widget inside a region individually configurable needs an `aiux-config-id` on that widget in the region file. Configurable means the admin can edit its properties, not just move it. The `regions/home/body.js` example sets one on `<stat-card>`. See  for what that attribute stamps and how a component reads its slice.
+Repositioning a widget needs nothing from you. Making a widget inside a region individually configurable needs an `aiux-config-id` on that widget in the region file. Configurable means the admin can edit its properties, not just move it. The `regions/home/body.js` example sets 1 on `<stat-card>`. See  for what that attribute stamps and how a component reads its slice.
 
 Some regions can't be opened in the editor. In each case the admin gets the reason on the region's outline rather than an error.
 
 -   A `<raw>` block. Author it in code, or don't use `<raw>` in a region you expect admins to reconfigure.
 -   A region the parser rejects \(most commonly a column-less `row`\). The editor never loads it and surfaces the parser's own message as the blocked reason.
 
-A region rendered by one of the page's child widgets is also refused rather than reassigned upwards. A region is the page's own layout, and an override keyed on the page would claim the page owns something its child authored.
+A region rendered by 1 of the page's child widgets is also refused rather than reassigned upwards. A region is the page's own layout, and an override keyed on the page would claim the page owns something its child authored.
 
 ## Rendering a layout on the server
 

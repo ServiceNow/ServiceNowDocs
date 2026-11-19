@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/generate-ci-consumption-predictions.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-10"
 reading_time_minutes: 1
 keywords: [CI consumption, prediction, 2026 Packaging, 2026 Packaging SKU migration]
 breadcrumb: [Use, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
@@ -39,7 +39,7 @@ Before migrating to the 2026 Packaging SKUs, you can estimate post-migration con
 
     **Note:** **CI New Category** equals **true** if this category is not covered by your current license. It will be introduced as a new licensable category under the 2026 Packaging SKU.
 
-3.  See only the prediction records and not production licensing records by setting the filter conditions to **Contains Estimate**.
+3.  Navigate to **All** &gt; **ITOM License** &gt; **Report Estimate ITOM Licensable CIs** to see only the prediction records.
 
 4.  View the latest daily SU consumption prediction results per CI category created by usage count estimator jobs that run automatically on a daily basis.
 

@@ -22,7 +22,7 @@ Role required: awa\_admin or admin
 
 ## About this task
 
-You can specify additional conditions to filter the work items that are handled in the channel, change the agent capacity \(workload\) for the channel, set the inbox layouts that your agents use in Workspace, and view associated work item queues.
+Specify additional conditions to filter the work items that the channel handles, and change the agent capacity \(workload\) for the channel. Set the inbox layouts that your agents use in Workspace and view associated work item queues.
 
 If you activate the corresponding plugins or install the corresponding store applications, AWA provides base system channels for these services:
 
@@ -33,7 +33,7 @@ If you activate the corresponding plugins or install the corresponding store app
 -   Walk-up interactions plugin \(com.snc.walkup\)
 -   Conversational Integration with WhatsApp \(powered by Twilio\) application \(sn\_va\_whatsapp\_twi\)
 
-For each channel, you can change certain default settings, such as the default capacity \(workload\) for agents. You can also use the related lists to review associated queues, define the associated inbox layouts \(work item cards\) that are displayed in Workspace, and override the agent capacity value.
+For each channel, you can change certain default settings, such as the default capacity \(workload\) for agents. You can also use the related lists to review associated queues and override the agent capacity value. In addition, you can define the associated inbox layouts \(work item cards\) that appear in Workspace.
 
 You can also create a service channel record from the Service Channel module, but you must [create a queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-create-queue.md), [assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md), and [eligible assignment pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/awa-specify-assignment-eligibility.md) to route work through the service channel. For more information, see [Set up a custom service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/advanced-work-assignment/setup-custom-channel.md).
 

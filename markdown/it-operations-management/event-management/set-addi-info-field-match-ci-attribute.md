@@ -7,9 +7,9 @@ release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Create Enrich automation, Alert automation in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Create Enrich automation, Alert automation in SOW for ITOM, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Set additional info fields to match CI attribute format

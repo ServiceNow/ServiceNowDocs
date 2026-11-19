@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/problem-investigation.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-27"
+last_updated: "2026-11-05"
 reading_time_minutes: 6
 breadcrumb: [Platform agentic workflows, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -18,9 +18,15 @@ Use the Platform Investigate problems agentic workflow to perform root cause and
 
 The Investigate problems agentic workflow can help to assist agents and subject matter experts \(SMEs\) in investigating problems in their IT landscape. A problem can be associated with many incidents, and any investigator must be aware of a large number of details when looking at a problem. The agentic workflow can help provide insights from the incident and problem details and suggest plans or possible solutions.
 
-The agents, tools, and triggers that are associated with the investigate problems agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+By default, you can enable the agentic workflow so it is accessible in the ServiceNow Otto panel. Optionally, you can add triggers or UI actions to allow users to invoke the agentic workflow in other ways. See [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/channels-access-aw-new.md) and [Add a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aw-new.md) for more information.
+
+The agents and tools that are associated with the agentic workflow are provided by AI applications. If you want to change this agentic workflow, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-ai-asset-new.md), make adjustments, and activate the duplicated version instead.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
+## Sample utterance
+
+After the workflow has been activated in AI Agent Studio, enter `investigate the problem PRB001` or similar phrases in the ServiceNow Otto panel to trigger the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
 
 ## Prerequisites and setup
 
@@ -30,7 +36,7 @@ Because this agentic workflow analyzes problems and incidents related to those p
 
 ## Role filtering
 
-Required role: sn\_uxc\_gen\_ai.platform\_ai\_problem\_investigator.
+Required role: sn\_uxc\_gen\_ai.platform\_ai\_problem\_investigator
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
@@ -65,13 +71,11 @@ You can manually test an agentic workflow execution or access on the Testing pag
 
 If you want to evaluate the agentic workflow over many different execution logs, run an [automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/execute-aia-eval.md).
 
-## Sample utterance
-
-After the workflow has been activated in AI Agent Studio, enter `investigate the problem PRB001` or similar phrases in the ServiceNow Otto panel to trigger the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
-
 ## Troubleshooting
 
 If a Problem has a large number of related incidents, you may run into an error that states "This model's maximum context length is 128000 tokens. However, your messages resulted in \[X\] tokens. Please reduce the length of the messages." This maximum token count is in place for all generative AI skills, so there is currently no way to work around this error. You can try the agentic workflow again using a different Problem.
+
+If the workflow returns an access error or cannot create a plan, verify that the agentic workflow and its AI agents can read Problem and Incident records. Add the required role, such as itil, in the data access settings of the workflow and of each AI agent. If you added a custom role to user access, you must also add it to data access. See [Define access rules for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-aw-new.md).
 
 ## AI agents used in the Investigate problems agentic workflow
 
@@ -79,9 +83,9 @@ The following table lists the agents that are used in the Investigate problems a
 
 **Important:** In the Define availability step of each AI agent's guided setup, make sure that the Status toggle is enabled to activate the AI agent.
 
-|AI agent name|AI agent description|
-|-------------|--------------------|
-|Problem investigation AI agent|Identifies the root causes, performs an impact assessment, and plans resolutions.|
+|AI agent name|AI agent description|Required role|
+|-------------|--------------------|-------------|
+|Problem investigation AI agent|Identifies the root causes, performs an impact assessment, and plans resolutions.|sn\_uxc\_gen\_ai.platform\_ai\_problem\_investigator, itil|
 
 ## Other Platform agentic workflows
 

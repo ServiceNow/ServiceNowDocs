@@ -141,7 +141,7 @@ Contextual app pill
 
 </td><td>
 
-Provides the context for where you are in the instance. Select the star icon to favorite the displayed page.
+Provides the context for where you are in the instance. Select the star icon to favorite the displayed page. For more information, see [Add favorites in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/managing-your-favorites.md).
 
 </td></tr><tr><td>
 

@@ -7,8 +7,8 @@ release: brazil
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 7
+last_updated: "2026-11-13"
+reading_time_minutes: 8
 breadcrumb: [Containerized MID Server, Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -27,7 +27,7 @@ An agent admin can enter a MID Server Profile and create a deployment request on
 
 A MID Server profile contains all the settings required to configure a new MID Server, excluding sensitive data such as passwords and certificates. Sensitive data should be passed through Secrets created on the K8s cluster. The user only enters secret names and locations in the deployment request. An **agent\_admin** role is required to create or change profiles.
 
-For information about the tables that store MID Server profile data, see [MID Server profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-profiles.md)
+For information about the tables that store MID Server profile data, see [MID Server profile configuration data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-profile-configuration-data.md).
 
 During deployment, the **mid\_profile\_config** and **mid\_profile\_wrapper\_config** parameters are sent to the K8s cluster. These parameters populate the `config.xml` and `wrapper-override.conf` of the new MID Server. The other parameters are used by the auto-configuration on the instance. The user can access the MID Server profile from the module **MID Server Profiles** on the instance.
 
@@ -62,7 +62,7 @@ wrapper.java.additional.3
 
 ## MID Server Deployment Request
 
-After creating a MID server profile, the user can make a new deployment request to prepare the deployment process.​ A deployment request can be different for different container orchestrators. See [MID Server Deployment Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/containerized-mid-deploy-request.md) for more information.
+After creating a MID Server profile, create a deployment request. Deployment requests vary by container orchestrator. See [MID Server Deployment Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/containerized-mid-deploy-request.md).
 
 ## Export MID Deployment Request for Manual Deployment
 
@@ -71,6 +71,8 @@ The user can export it to a K8s deployment YAML file. The user can download the 
 ## Docker image preparation
 
 To prepare a Docker image, first build a MID Server image on a K8s cluster as explained in [Build MID Server Docker Image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-build-docker-linux.md). Upload the built image to an image registry and pull the image to a local image with the command: `docker pull registry/mid:<tag>`. Refer to [Docker Registry Setup for Containerized MID Server II: Auto Configuration \[KB1001380\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1001380) for information on limitations on pulling an image directly from a remote registry.
+
+Tag each image you build with the MID Server build stamp. You can find the build stamp on the stats.do page. Identify your images by the MID Server version, not by the instance release name.
 
 ## Kubernetes preparation
 
@@ -131,4 +133,8 @@ When a MID server is connected to the instance for the first time, a MID Server 
 The MID Server profile can be out-of-sync with the settings of existing MID Servers if the user updates the profile long after the related MID Servers were auto-configured. The user can synchronize the profile settings to the existing MID Server by selecting **Sync to MID Servers** on the instance.
 
 **Note:** When applying cluster settings from MID Server profile to a MID Server, the cluster assignment will fail if the MID Server doesn't have any capability assigned. It is controlled by the "validate MID server capability" business rule on the ecc\_agent\_cluster\_member\_m2m table. If you want to assign a MID server to a cluster, please make sure it has some capabilities.
+
+## Containerized MID Server upgrades
+
+A containerized MID Server upgrades itself when the instance requires a newer version. This is controlled by the **mid.container.autoupgrade.enabled** parameter, which is true by default. When you move to a new MID Server version, build a new image and tag it with the new build stamp. Then update the image in the deployment YAML file. For more information, see [Containerized MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/containerized-mid.md)
 

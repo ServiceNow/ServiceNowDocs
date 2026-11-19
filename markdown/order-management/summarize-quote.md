@@ -43,15 +43,15 @@ The AI summarization of quotes provides sales teams and stakeholders with fast, 
 
 4.  When you're finished summarizing a quote, you can save it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_z3p_sn2_3hc"><thead><tr><th align="left" id="d141450e142">
+<table id="choicetable_z3p_sn2_3hc"><thead><tr><th align="left" id="d140590e144">
 
 Option
 
-</th><th align="left" id="d141450e145">
+</th><th align="left" id="d140590e147">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d141450e151">
+</th></tr></thead><tbody><tr><td id="d140590e153">
 
 **Save the summary information by adding it to the work notes**
 
@@ -62,7 +62,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d141450e178">
+</td></tr><tr><td id="d140590e180">
 
 **Expand or collapse the summary**
 
@@ -70,7 +70,7 @@ Procedure
 
 Select the expand card icon \[Omitted image "icon-expand.png"\] Alt text: or the collapse card icon \[Omitted image "icon-collapse.png"\] Alt text: to see more details or fewer summary details.
 
-</td></tr><tr><td id="d141450e193">
+</td></tr><tr><td id="d140590e195">
 
 **Provide feedback for the summary**
 
@@ -78,7 +78,7 @@ Select the expand card icon \[Omitted image "icon-expand.png"\] Alt text: or the
 
 If you think that the summary was helpful, select the helpful icon \[Omitted image "icon-helpful.png"\] Alt text:. If you think that the summary wasn’t helpful, select the not helpful icon \[Omitted image "icon-not-helpful.png"\] Alt text:.This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d141450e210">
+</td></tr><tr><td id="d140590e212">
 
 **Copy the quote summary**
 
@@ -86,7 +86,7 @@ If you think that the summary was helpful, select the helpful icon \[Omitted ima
 
 Select the copy to clipboard icon \[Omitted image "icon-copy.png"\] Alt text: to use the quote summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d141450e223">
+</td></tr><tr><td id="d140590e225">
 
 **View the information about the quote summary**
 

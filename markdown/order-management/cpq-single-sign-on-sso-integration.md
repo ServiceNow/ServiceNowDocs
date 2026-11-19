@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-single-sig
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Manage workplace safety activities
+title: Manage Workplace Core
 description: Monitor your workplace activities. Perform workplace-related actions using the Workplace Core application such as import data, managing locations and configuring other workplace-related settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/workplace-core/manage-wsd-activites.html
@@ -12,22 +12,22 @@ reading_time_minutes: 4
 breadcrumb: [Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Manage workplace safety activities
+# Manage Workplace Core
 
 Monitor your workplace activities. Perform workplace-related actions using the Workplace Core application such as import data, managing locations and configuring other workplace-related settings.
 
-Manage workplace safety activities by adding a space type configuration, blocking a location, managing neighborhoods and so on. Starting from Workplace Core version 2.3, time zones are introduced, and all arrival schedules from version 2.2 and earlier are deactivated after upgrade. From version 2.16.1, the Department and cost center allocation types are no longer available. They're replaced with the new Workplace entity allocation type. Additionally, workplace user profiles are created in the Workplace Profile Location Assignment. For workplace entities, you can only view and make map-based space administration; you can't create scenarios. To view neighborhoods on a floor map, install the Indoor Mapping plugin and its dependencies.
+Manage Workplace Core activities by adding a space type configuration, blocking a location, managing neighborhoods and so on. Starting from Workplace Core version 2.3, time zones are introduced, and all arrival schedules from version 2.2 and earlier are deactivated after upgrade. From version 2.16.1, the Department and cost center allocation types are no longer available. They're replaced with the new Workplace entity allocation type. Additionally, workplace user profiles are created in the Workplace Profile Location Assignment. For workplace entities, you can only view and make map-based space administration; you can't create scenarios. To view neighborhoods on a floor map, install the Indoor Mapping plugin and its dependencies.
 
 -   **[Import your workspaces data from an Excel spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/import-excel-spreadsheet-workspace-data-wsd.md)**  
 Import your workspaces data from an Excel spreadsheet into the Workplace Core application.
--   **[Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md)**  
-Configure the different types of workspaces available in a workplace. You can add spaces based on different space types \(Workspace/Desk\). Space type enables employee to identify the different types of workspace available on a floor
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md)**  
+
 -   **[Configure a workplace card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/configure-workplace-card.md)**  
 Create a workplace card to be used in your workplace applications.
 -   **[Block a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/block-workplace-location.md)**  
 Block a workplace location for a specific period. The blocked workplace location is unavailable during the specified period for any type of reservation on the Workplace Reservation Management Reservation portal.
--   **[Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-entity.md)**  
-Create a business hierarchy based on your organization's businesses. Allocate workplace locations based on the business to which they’re associated with. Configure workplace entity types and workplace entities to create the structure. For example, add entity types such as Business Units, Marketing Units, and associate workplace entities such as ITSM, Facilities, and more under them.
+-   **[Configure Workplace entities and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-entity.md)**  
+Workplace entity types and workplace entities model your organization’s business hierarchy. Use them to associate workplace locations with the businesses that use them.
 -   **[Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/neighborhoods.md)**  
 Neighborhoods are a group of spaces assigned to employees within an organization. A neighborhood can be located anywhere within the organizational structure.
 -   **[Enable favorites option for Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/confgure-favourites-option-for-ws-portal-wsd.md)**  

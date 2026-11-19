@@ -37,7 +37,7 @@ Use the ServiceNow® ServiceNow Otto for Customer Service Management \(CSM\) app
 
 </td><td>
 
-[Use Agentic AI in CSM \[Omitted image "bus-ai-otto.svg"\] Alt text: ServiceNow Otto iconUse the ServiceNow Otto for CSM AI agents to complete tasks autonomously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
+[Use Agentic AI in CSM \[Omitted image "bus-ai-otto.svg"\] Alt text:Use the ServiceNow Otto for CSM AI agents to complete tasks autonomously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
 
 </td><td>
 

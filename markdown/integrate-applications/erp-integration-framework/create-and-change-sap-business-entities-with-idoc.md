@@ -35,3 +35,14 @@ Complete the following steps to work with IDoc entities in Zero Copy Connector f
 
 **Note:** The Zero Copy Connector for ERP Monitor includes IDoc information on the asynchronous tabs. For more information about the Monitor, see [Monitor Zero Copy Connector for ERP logged extraction and remote lookup transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md).
 
+-   **[Complete IDOC prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-idoc-prerequisites.md)**  
+Complete the prerequisites to work with SAP business entities that can only be created or changed using IDoc.
+-   **[Add an IDoc entity to a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/add-an-idoc-entity-to-a-model-operation.md)**  
+Specify the IDoc entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for an update or create operation.
+-   **[Create an IDoc outbound message configuration in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/create-an-idoc-outbound-message-configuration.md)**  
+Use IDoc outbound message configurations to create and change certain SAP business entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
+-   **[View and troubleshoot IDoc messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/view-and-troubleshoot-idoc-messages.md)**  
+When working with SAP business entities that can only be created or changed using IDoc, view outbound messages for details and troubleshooting information in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
+
+**Parent Topic:**[Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-connect-to-sap.md)
+

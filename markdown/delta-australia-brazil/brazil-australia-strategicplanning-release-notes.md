@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-strategicplanning-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 40
 breadcrumb: [Products combined by family]
 ---
@@ -628,7 +628,7 @@ Starting with the September 2026 release, Gemma 4 joins our growing portfolio of
 
 -   **Process Mining**
 
-Starting Brazil release, Process Mining Content Pack for SPM \(`com.snc.itbm_po`\) will be migrated to Process Mining Content Pack store application. Upgrade your instance to Brazil or higher releases. For more information, see [Process Optimization](https://www.servicenow.com/docs/access?context=process-mining&family=brazil&ft:locale=en-US) documentation.
+Starting Brazil release, Process Mining Content Pack for SPM \(`com.snc.itbm_po`\) will be migrated to Process Mining Content Pack store application. Upgrade your instance to Brazil or higher releases. For more information, see [process mining](https://www.servicenow.com/docs/access?context=process-mining&family=brazil&ft:locale=en-US) documentation.
 
 
 </td></tr></tbody>
@@ -652,7 +652,7 @@ Australia
 
 -   **Activation information**
 
-Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Strategic Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

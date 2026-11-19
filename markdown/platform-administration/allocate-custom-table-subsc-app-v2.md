@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing custom tables and apps, Subscription Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Managing custom tables and apps, Subscription Management, Get started, ServiceNow AI Platform]
 ---
 
 # Map custom tables to a product subscription in Subscription Management
@@ -30,15 +30,15 @@ Role required: usage\_admin, sn\_sub\_man.admin, or admin
 
     When possible, Subscription Management displays recommendations for product subscriptions with available custom table entitlements in the **Recommended Product** column. Subscription Management can't display product subscription recommendations for some unmapped custom tables, which therefore aren't shown in the **Unmapped custom applications** tab. For more information about mapping missing custom tables to product subscriptions, see [Map a missing custom table to a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/map-missing-custom-table-sub-mgt.md)
 
-<table id="choicetable_iph_zpv_2yb"><thead><tr><th align="left" id="d168297e145">
+<table id="choicetable_iph_zpv_2yb"><thead><tr><th align="left" id="d168196e147">
 
 Option
 
-</th><th align="left" id="d168297e148">
+</th><th align="left" id="d168196e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d168297e154">
+</th></tr></thead><tbody><tr><td id="d168196e156">
 
 **Map to a recommended product**
 
@@ -49,7 +49,7 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d168297e181">
+</td></tr><tr><td id="d168196e183">
 
 **Map to a product of your choice**
 
@@ -61,7 +61,7 @@ Description
 4.  Repeat these steps for each remaining unmapped table.
 
 
-</td></tr><tr><td id="d168297e211">
+</td></tr><tr><td id="d168196e213">
 
 **Manually map to a product through the Custom Applications table**
 

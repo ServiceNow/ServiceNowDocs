@@ -20,7 +20,7 @@ Install the HAM applications and plugins included in your subscription tier that
 
 The HAM application must be installed in your ServiceNow instance.
 
-Role required: ia\_admin
+Role required: sn\_ia\_config.ia\_admin
 
 ## About this task
 

@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Search for the **sn\_sow\_migration.itsm\_aw\_migration\_tables** system property.
 
-3.  In the **Value** field, add the custom ITSM table's id to the comma-separated list.
+3.  In the **Value** field, add the custom ITSM table's ID to the comma-separated list.
 
     By default, the **Value** field contains all ITSM tables whose list categories and modules, list actions, related list actions, and New record menu items should be migrated from ITSM Agent Workspace to Service Operations Workspace for ITSM.
 

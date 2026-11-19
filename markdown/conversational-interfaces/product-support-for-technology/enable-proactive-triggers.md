@@ -1,6 +1,6 @@
 ---
 title: Enable Proactive Triggers
-description: Use Proactive Triggers to create and view context-specific messages and use relevant actions on the chat widget.
+description: Enable Proactive Triggers so that you can create rules and actions that display context-specific messages in the chat widget.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/enable-proactive-triggers.html
 release: brazil
@@ -9,12 +9,12 @@ classification: product-support-for-technology
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Installing Proactive Triggers, Proactive Triggers, Manage people and work, Conversational Interfaces]
+breadcrumb: [Install, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---
 
 # Enable Proactive Triggers
 
-Use Proactive Triggers to create and view context-specific messages and use relevant actions on the chat widget.
+Enable Proactive Triggers so that you can create rules and actions that display context-specific messages in the chat widget.
 
 ## Before you begin
 
@@ -22,13 +22,13 @@ Use Proactive Triggers to create and view context-specific messages and use rele
 
 For conceptual information about Proactive Triggers, see [Exploring Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/product-support-for-technology/proactive-triggers.md).
 
-The Proactive Triggers feature can be used with Domain Separation. For more information about Domain Separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-what-is-domain-separation.md).
+The Proactive Triggers feature supports domain separation. For more information about domain separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-what-is-domain-separation.md).
 
 Role required: admin
 
 ## About this task
 
-An admin first enables and then creates rules and actions as separate tasks.
+An admin first enables the feature and then creates rules and actions as separate tasks.
 
 ## Procedure
 
@@ -62,11 +62,11 @@ An admin first enables and then creates rules and actions as separate tasks.
 
 7.  Navigate back to the **Conversational Interfaces** &gt; **Settings** page and next to **Trigger types**, select **View all**.
 
-    The default trigger types appear. All trigger types default to **Active is true** except the Search Event trigger type. To turn on the Search Event trigger type, proceed to the next step.\[Omitted image "pt-trigger-types.png"\] Alt text: Default Proactive Triggers types.
+    The default trigger types appear. All trigger types except Search Event are active by default. To turn on the Search Event trigger type, proceed to the next step.\[Omitted image "pt-trigger-types.png"\] Alt text: Default Proactive Triggers types.
 
 8.  Turn on the Search Event trigger.
 
-    The Search Event triggers a pop-up message on the Service Portal Default Search Profile whenever a search result yields no result. The Search Event trigger is an inactive default trigger type that uses the System API source rather than the web browsing source. Because this trigger type defaults to inactive, an admin must turn on the related business rule, trigger type, Proactive Triggers rule, and action prior to using this trigger.
+    The Search Event triggers a pop-up message on the Service Portal Default Search Profile whenever a search returns no results. The Search Event trigger is an inactive default trigger type that uses the System API source rather than the web browsing source. Because this trigger type defaults to inactive, an admin must turn on the related business rule, trigger type, Proactive Triggers rule, and action before using this trigger.
 
     1.  Navigate to **System Definition** &gt; **Business rules**.
 
@@ -76,7 +76,7 @@ An admin first enables and then creates rules and actions as separate tasks.
 
     4.  Adjust any settings, as needed.
 
-        **Note:** Your organization may want to update the **Filter Conditions** on the **When to Run** related tab. For example, if your organization doesn’t use the Service Portal, update the default values in the Filter Conditions section to reflect your organization's preferred portal or site. Your organization may also want to adjust the Proactive Triggers API script in the **Advanced** related tab. For additional information on the Proactive Triggers API script, see [ProactiveTriggerAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/ProactiveTriggerScopedAPI.md).
+        **Note:** You can update the **Filter Conditions** on the **When to Run** related tab. For example, if your organization doesn’t use the Service Portal, update the default values in the Filter Conditions section to reflect your organization's preferred portal or site. You can also adjust the Proactive Triggers API script in the **Advanced** related tab. For additional information on the Proactive Triggers API script, see [ProactiveTriggerAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/ProactiveTriggerScopedAPI.md).
 
     5.  Select **Update**.
 
@@ -105,7 +105,7 @@ An admin first enables and then creates rules and actions as separate tasks.
 
 ## Result
 
-The Proactive Triggers feature is enabled and you know where to create rules, actions, and custom trigger types.
+The Proactive Triggers feature is enabled, and you can create rules, actions, and custom trigger types.
 
 ## What to do next
 

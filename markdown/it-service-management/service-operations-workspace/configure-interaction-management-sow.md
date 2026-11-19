@@ -17,9 +17,9 @@ breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your e
 Configure the features of Interaction Management to manage the interactions in Service Operations Workspace.
 
 -   **[Configure the duration to view the requester's activities for an interaction in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-days-display-data.md)**  
-Configure the duration to display requester’s history, consisting of tasks, interactions, and assets. These details are displayed in the Requester Information side panel of Interaction Management record
+Configure the duration to display requester’s history, consisting of tasks, interactions, and assets. These details are displayed in the Requester Information side panel of Interaction Management record.
 -   **[Hide the inbox in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/hide-inbox-sow-interaction.md)**  
-Hide the inbox automatically when a work item, like a chat or call, is accepted. If disabled, the inbox will remain visible even after accepting a work item.
+Hide the inbox automatically when a work item, like a chat or call, is accepted. If disabled, the inbox remains visible even after accepting a work item.
 -   **[Automatically close an interaction in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/automatically-close-interaction-sow.md)**  
 Automatically close the interaction when a linked incident is closed in Service Operations Workspace.
 -   **[Configure the display of requester related records in an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-order-related-records-interaction.md)**  

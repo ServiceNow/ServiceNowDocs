@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Threat Response, edit]
-breadcrumb: [Managing policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing policies, Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Edit a Threat Response policy
@@ -25,7 +25,7 @@ You can change the threat type, which agents it applies to, and more by editing 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Govern** &gt; **Policies**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Govern** &gt; **Policies**.
 
 2.  Find the Threat Response policy you want to edit.
 
@@ -44,5 +44,5 @@ The policy takes effect with your changes. Enforcement activity from before the 
 
 ## What to do next
 
-Confirm the policy is working as expected by reviewing policy enforcement activity. For details, see [Reviewing policy enforcement activities in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
+Confirm the policy is working as expected by reviewing policy enforcement activity. For details, see [Reviewing policy enforcement activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
 

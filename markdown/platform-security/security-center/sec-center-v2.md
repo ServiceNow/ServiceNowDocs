@@ -1,6 +1,6 @@
 ---
 title: Security Center
-description: ServiceNow Security Center is an application that consists of a set of tools designed to help your organization maintain the security of your ServiceNow deployments. Using Security Center, you can improve security posture and strengthen compliance levels with a seamless user experience.
+description: ServiceNow Security Center is an application that consists of a set of tools that help your organization maintain the security of your ServiceNow deployments. Using Security Center, you can improve security posture and strengthen compliance levels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/sec-center-v2.html
 release: brazil
@@ -14,9 +14,9 @@ breadcrumb: [Platform Security]
 
 # Security Center
 
-ServiceNow Security Center is an application that consists of a set of tools designed to help your organization maintain the security of your ServiceNow deployments. Using Security Center, you can improve security posture and strengthen compliance levels with a seamless user experience.
+ServiceNow Security Center is an application that consists of a set of tools that help your organization maintain the security of your ServiceNow deployments. Using Security Center, you can improve security posture and strengthen compliance levels.
 
-\[Omitted image "sec-center-home-1.png"\] Alt text: Security Center homepage
+\[Omitted image "sec-center-home-1.png"\] Alt text: Security Center home page
 
 Security Center is a free application that administrators can download from the ServiceNow Store. It’s installed by default starting with the Vancouver release. It’s also made available in the ServiceNow Store every quarter, between family releases, to facilitate faster adoption of new functionality.
 
@@ -24,7 +24,7 @@ Security Center is a free application that administrators can download from the 
 
 Instance Security Center \(ISC\) has reached the end of sales as of September 2024, and is no longer supported or available for activation.
 
-Security Center \(SSC\) is the recommended solution going forward. For more information, see .
+Security Center \(SSC\) replaces Instance Security Center. For information on migrating from Instance Security Center to Security Center, see .
 
 ## Get started
 
@@ -94,11 +94,11 @@ Improve your ability to identify, respond to, and recover from security threats 
 -   **[Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-task-manager.md)**  
 Use Security Tasks to monitor, prioritize, and assign all your security-related tasks in one place.
 -   **[Security learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/learning.md)**  
-Access security learning materials from a single page.
+Access security white papers, ebooks, knowledge base articles, product documentation, and community discussions from a single page in Security Center.
 -   **[Security banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/scc-banner.md)**  
 Enable security banner announcements to stay informed about urgent and critical security alerts using high visibility banners visible to administrators within the instance UI.
 -   **[Granular roles for Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/granular-sc-roles.md)**  
-Use the new Security Center admin role to grant users security center administrative capability without using the admin role.
+The Security Center admin role grants users Security Center administrative capability without the admin role.
 
 **Parent Topic:**[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platsec-sublanding.md)
 

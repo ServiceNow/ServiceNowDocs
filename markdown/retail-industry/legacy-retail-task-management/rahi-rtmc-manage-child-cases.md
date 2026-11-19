@@ -30,7 +30,7 @@ Child cases created from a multi-store case can be reassigned to users with the 
 
 ## Procedure
 
-1.  In CSM/FSM Configurable Workspace, navigate to **Retail Cases**.
+1.  In CRM Workspace, navigate to **Retail Cases**.
 
 2.  Select the Retail case that you want to manage.
 

@@ -32,12 +32,12 @@ Cross-instance deployment calls also depend on the `sn_pipeline_environment` tab
 
 The Update set integration sends update set scan results to Production and to all other instances in the integration, so you can check results from any instance. Enable it on each instance whose scan data you want to share by selecting **Enable update set summary scan synchronization** on the **Update Set Scanning** tab of Scan Engine Properties.
 
-**Note:** The scanning user needs the `sn_se.scan_engine_user` role, or `sn_se.scan_engine_admin` if that user also manages definitions. The account that receives the summary sync needs `sn_se.internal_rest_integration`. The `admin` role isn't required. My SN Instances registration and authentication must be complete before configuring this integration. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
+**Note:** The scanning user needs the `sn_se.scan_engine_user` role, or `sn_se.scan_engine_admin` if that user also manages definitions. The account that receives the summary sync needs `sn_se.internal_rest_integration`. The `admin` role isn't required. My SN Instances registration and authentication must be complete before configuring this integration. See [Register your instance in My SN Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
 
 -   **[Configure AES/AEMC integration properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/aes-aemc-integration-properties.md)**  
 Configure the AES/AEMC integration to enforce automated Scan Engine compliance checks on custom app deployment requests from App Engine Studio and ServiceNow Studio.
 -   **[Configure update set integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/update-set-integration.md)**  
-Synchronize update set scan results from the instance where you run the scan to production and the other instances in the integration.
+Synchronize update set scan results from the development instance to the production instance.
 
 **Parent Topic:**[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-integration-scan-engine.md)
 

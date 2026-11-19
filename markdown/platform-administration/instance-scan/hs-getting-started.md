@@ -9,7 +9,7 @@ classification: instance-scan
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Instance Scan, Maintain and monitor, ServiceNow AI Platform]
 ---
 
 # Exploring Instance Scan

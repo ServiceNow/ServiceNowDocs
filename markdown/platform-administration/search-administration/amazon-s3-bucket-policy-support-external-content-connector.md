@@ -1,6 +1,6 @@
 ---
 title: Amazon S3 bucket policy elements supported by the external content connector
-description: In a standard user permission crawl, the Amazon S3 connector evaluates only the policy elements listed here. It doesn't index content items with policy statements that use other elements.
+description: In a standard user permissions crawl, the Amazon S3 connector evaluates only the policy elements listed here. It doesn't index content items with policy statements that use other elements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/search-administration/amazon-s3-bucket-policy-support-external-content-connector.html
 release: brazil
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-10-27"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Amazon S3 external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Amazon S3 external content connector, Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Amazon S3 bucket policy elements supported by the external content connector
 
-In a standard user permission crawl, the Amazon S3 connector evaluates only the policy elements listed here. It doesn't index content items with policy statements that use other elements.
+In a standard user permissions crawl, the Amazon S3 connector evaluates only the policy elements listed here. It doesn't index content items with policy statements that use other elements.
 
 ## Supported actions and effects
 

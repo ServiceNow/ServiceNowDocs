@@ -1,6 +1,6 @@
 ---
-title: Using AI Control Tower to create hyperscaler connections
-description: Use AI discovery setup on AI Control Tower to create hyperscaler connections.
+title: Using Control Tower to create hyperscaler connections
+description: Use AI discovery setup on Control Tower to create hyperscaler connections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/using-ai-control-tower-to-create-hyperscaler-connection.html
 release: brazil
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Using Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Using AI Control Tower to create hyperscaler connections
+# Using Control Tower to create hyperscaler connections
 
-Use AI discovery setup on AI Control Tower to create hyperscaler connections.
+Use AI discovery setup on Control Tower to create hyperscaler connections.
 
 AI discovery setup page allows to connect third-party applications for discovering assets and usage data.
 

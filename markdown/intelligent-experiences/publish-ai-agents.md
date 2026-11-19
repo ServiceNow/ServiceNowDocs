@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [External Registries, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [External Registries, Managing your AI asset inventory, Discover and manage AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Publish AI agents
@@ -25,7 +25,7 @@ An AI agent needs to meet all the prerequisites criteria to be eligible to get p
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Inventory**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Inventory**.
 
 2.  Open an AI agent.
 

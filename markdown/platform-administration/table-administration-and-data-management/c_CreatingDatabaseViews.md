@@ -9,7 +9,7 @@ classification: table-administration-and-data-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work with database views, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Work with database views, Table admin, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Joining tables using database views

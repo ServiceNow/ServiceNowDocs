@@ -96,7 +96,7 @@ Remediation
 
 Supported. While editing alert management rules, users can only apply relevant workflows.
 
-For more information on domain separation in the Flow Designer, see [Domain separation and Flow Designer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-designer-domain-separation.md)
+For more information on domain separation in the Flow Designer, see Domain separation and Flow Designer.
 
 </td></tr></tbody>
 </table>## Procedure

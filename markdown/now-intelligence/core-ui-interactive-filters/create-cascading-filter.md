@@ -106,7 +106,7 @@ This procedure includes examples based on a cascading interactive filter using m
 ## What to do next
 
 1.  After you create all levels of the filter, add it to a dashboard.
-2.  On the dashboard, select the **Edit widget** icon \(\[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit columns icon\) on each visualization on the dashboard that should follow the filter and select **Follow interactive filter**.
+2.  On the dashboard, select the **Edit widget** icon \(\[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit widget icon\) on each visualization on the dashboard that should follow the filter and select **Follow interactive filter**.
 
 **Parent Topic:**[Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md)
 

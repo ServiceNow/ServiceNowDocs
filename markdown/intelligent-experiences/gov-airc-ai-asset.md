@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI asset risk and compliance, regulatory risk classification, compliance score, aggregated risk rating, risk heat map]
-breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Working with AI asset records, Discover and manage AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Governing AI asset risk and compliance
@@ -154,7 +154,7 @@ Governance
 
 </td><td>
 
-Risk assessments, controls, compliance tasks, and related governance artifacts for the AI asset. Governance-related items are organized into categories with expandable subsections. Select an artifact to open it in the AI Control Tower workspace. For more information, see [Governance record types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-governance-records.md).
+Risk assessments, controls, compliance tasks, and related governance artifacts for the AI asset. Governance-related items are organized into categories with expandable subsections. Select an artifact to open it in the Control Tower workspace. For more information, see [Governance record types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-governance-records.md).
 
 </td><td>
 

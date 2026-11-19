@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 keywords: [identifier-first login policies, authentication policy conditions]
 breadcrumb: [Policy-based login experience, Authentication Console, Authentication, Access Management]

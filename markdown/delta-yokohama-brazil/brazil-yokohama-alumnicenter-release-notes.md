@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-alumnicenter-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -91,7 +91,7 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key alumni-service-center\]](https://www.servicenow.com/docs/access?context=alumni-service-center&family=zurich&ft:locale=en-US)Alumni Center revamp**
+-   **[alumni service center](https://www.servicenow.com/docs/access?context=alumni-service-center&family=zurich&ft:locale=en-US)Alumni Center revamp**
 
 The revamped alumni home page is a central hub where former employees can update their details, manage preferences, and access personalized job recommendations. It also provides quick access to alumni services, news, resources, and tasks to stay connected and engaged.Alumni can maintain their employment history with legacy &amp; latest employment details.Alumni can view the existing job opportunities​ and also get personal job recommendation based on your job preferences.
 
@@ -292,7 +292,7 @@ Zurich
 
 -   **Activation information**
 
-Install Alumni Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Alumni Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Alumni Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -533,7 +533,7 @@ Zurich
 -   As an alumni admin, you can configure the Alum Self-registration form based on the organization needs.
 -   As an alumni admin, you can highlight and showcase the recommended job opportunities.​​​
 
- See [\[Placeholder link text to key alumni-service-center\]](https://www.servicenow.com/docs/access?context=alumni-service-center&family=zurich&ft:locale=en-US) for more information.
+ See [alumni service center](https://www.servicenow.com/docs/access?context=alumni-service-center&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

@@ -18,7 +18,7 @@ Create specific variables in a Service Catalog record producer to capture essent
 
 ## Before you begin
 
-Role required: appointment\_booking\_admin
+Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
 Ensure you have an existing Service Catalog record producer to configure.
 

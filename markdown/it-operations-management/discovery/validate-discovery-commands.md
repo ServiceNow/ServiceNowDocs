@@ -83,7 +83,7 @@ Starting with Pattern Designer Enhancements version 3.9.0, the new pde\_viewer r
 
 [Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md)
 
-[Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/credentials-getting-started.md)
+[bundle-psec.credentials-getting-started]
 
 [Command List form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/commands-list-discovery.md)
 

@@ -218,7 +218,7 @@ The JAMF deployment creates two scripts, two policies, and a configuration profi
 
     2.  Add a rule with the following values:
 
-        -   **Rule Label**: `com.servicenowtaskmining.daemon`
+        -   **Rule Label**: `com.servicenow.taskmining.daemon`
         -   **Team Identifier**: `AS2BZHDV7Q`
         **Note:** The Team Identifier is the same value as the `subject.OU` in the code requirement from the previous step.
 

@@ -17,7 +17,7 @@ breadcrumb: [Legal and Contract Operations, Employee Service Management]
 
 The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract, amendment and renewal requests. Contract requests can be submitted in two ways: linked to a business unit entity such as a purchase requisition or sourcing event, or as standalone requests without a parent record.
 
-The solution uses AI to analyze non-standard and missing clauses in contracts, extract obligations and metadata, and provide AI-assisted search. It also supports e-signatures, wet signatures, and external storage systems.
+The solution uses AI to analyze non-standard and missing clauses in contracts, extract obligations and metadata, and provide AI-assisted search. A guided setup in the Word add-in uses AI to identify clauses and fields when setting up contract templates. It also supports e-signatures, wet signatures, and external storage systems.
 
 ## Contract Workspace and Dashboard
 

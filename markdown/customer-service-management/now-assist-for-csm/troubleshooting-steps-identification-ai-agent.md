@@ -8,7 +8,7 @@ product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -30,6 +30,17 @@ This AI agent does the following actions:
 -   Proposes additional troubleshooting steps.
 
 Agentic workflows can access this AI agent in Core UI or CSM/FSM workspace.
+
+## Required roles
+
+To use this AI agent, the user needs one of the sn\_customerservice\_agent or sn\_customerservice.consumer\_agent roles, and the platform\_ml\_di.creation\_agent role. The platform\_ml\_di.creation\_agent role is required in addition to one of the other two roles.
+
+## Activate the AI agent
+
+The AI agent is inactive by default. Activate it before you use it.
+
+1.  In AI Agent Studio, search for **Troubleshooting steps identification AI agent** and open it.
+2.  Select **Activate**.
 
 ## Configure AI Search for the Troubleshooting steps identification AI agent
 

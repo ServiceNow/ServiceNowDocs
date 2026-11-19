@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-platform-owner-dashboard.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-01"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [Track Platform Health trends, Platform Health, Using Impact, Impact]
 ---
@@ -40,6 +40,7 @@ Health score
 -   Combines five independent category scores — using fixed category weights so that higher severity findings influence the score more heavily than cosmetic issues.
 -   Each category's score is computed independently and never affected by changes in other categories.
 -   Each check compares its findings to a fixed reference point established when the definition was authored, not to the largest finding count in the scan. This ensures that fixing one issue never distorts the weight of an unrelated finding or shifts a category's score.
+-   The score displays as a whole number, rounded to the nearest integer.
 
  For a complete explanation of the four-step calculation model, category weights, and formulas, see [Platform Health score calculation model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-health-score-calculation.md).
 

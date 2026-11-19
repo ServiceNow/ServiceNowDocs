@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Responding to and working with alerts in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Triage and analyze alerts agentic workflow
@@ -28,7 +28,7 @@ The Triage and analyze alerts agentic workflow uses AI agents to support alert t
 
 **Note:** These functions can also be used for the origin alert of an incident when the workflow is accessed from the incident form or Express List using the ServiceNow Otto panel.
 
-Use the information on this page to learn about the agents related to the Triage and analyze alerts agentic workflow. To modify the Triage and analyze alerts agentic workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md).
+Use the information on this page to learn about the agents related to the Triage and analyze alerts agentic workflow. To modify the Triage and analyze alerts agentic workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see .
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -49,4 +49,6 @@ The Triage and analyze alerts agentic workflow uses a team of AI agents to perfo
 |Alert history analysis AI agent|Analyze past occurrences, assess its significance, and close the alert when applicable.|
 |Related incidents analysis AI agent|Analyze past incidents and provide insights on common assignments and summarized resolution notes.|
 |Alert verification AI agent|Assess data completeness and determine whether the alert is suitable for analysis.|
+
+**Parent Topic:**[Responding to and working with alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/responding-to-and-working-with-alerts-in-express-list.md)
 

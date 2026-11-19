@@ -1,6 +1,6 @@
 ---
 title: Benchmarks roles
-description: The Benchmarks admin and the viewer roles are introduced with Benchmarks.
+description: The Benchmarks admin role sets up the program and manages KPIs. The viewer role views benchmark reports and data visualizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/c\_BenchRoles-cf.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Explore, Benchmarks, IT Service Management]
 
 # Benchmarks roles
 
-The Benchmarks admin and the viewer roles are introduced with Benchmarks.
+The Benchmarks admin role sets up the program and manages KPIs. The viewer role views benchmark reports and data visualizations.
 
 <table id="table_ukk_4pn_b1b"><thead><tr><th>
 

@@ -64,5 +64,5 @@ This video introduces Digital End-User Experience and shows how IT teams monitor
 </table>## Troubleshoot and get help
 
 -   [Contact Now Support](https://support.servicenow.com/now?draw=case) for support cases and knowledge base articles.
--   [Visit the DEX community](https://www.servicenow.com/community/digital-end-user-experience/ct-p/digital-end-user-experience) to ask questions and share solutions with other DEX customers.
+-   [Visit the DEX community](https://www.servicenow.com/community/digital-end-user-experience-dex/ct-p/digital-end-use-experience) to ask questions and share solutions with other DEX customers.
 

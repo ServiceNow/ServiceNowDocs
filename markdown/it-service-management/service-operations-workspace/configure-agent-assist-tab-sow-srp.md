@@ -20,13 +20,13 @@ Enable or disable the Agent Assist tab in the contextual side panel for the requ
 
 Role required: admin
 
-**Note:** Admin should be in Global Domain to edit the table configurations of Agent Assist in Service Operations Workspace.
+**Note:** The administrator must be in the Global Domain to edit the table configurations of Agent Assist in Service Operations Workspace.
 
 ## About this task
 
 Add or remove a record table from the screen condition, update the sys\_id for the record, and update the script conditions to enable or disable the Agent Assist tab for that table.
 
-**Important:** If you are on a version prior to 4.0, see [Configure the Agent Assist tab in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-the-agent-assist-tab-in-service-operations-workspace.md).
+**Important:** If you are on a version earlier than 4.0, see [Configure the Agent Assist tab in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-the-agent-assist-tab-in-service-operations-workspace.md).
 
 ## Procedure
 
@@ -44,13 +44,13 @@ Add or remove a record table from the screen condition, update the sys\_id for t
 
 5.  To update the Script Conditions, do the following:
 
-    1.  Select the **Scripted Screen Conditions** icon \(\[Omitted image "scripting\_icon.png"\] Alt text: Scripted Screen Conditions icon\) to open the script conditions.
+    1.  Select the **Scripted Screen Conditions** icon \(\[Omitted image "scripting\_icon.png"\] Alt text:\) to open the script conditions.
 
-    2.  Under **Active** column, select **True**.
+    2.  In the **Active** column, select **True**.
 
-    3.  If you want to enable the Agent Assist tab for a record table, add the required script to the **Script** field and select **Update**.
+    3.  To enable the Agent Assist tab for a record table, add the required script to the **Script** field and select **Update**.
 
-    4.  If you want to disable the Agent Assist tab for a record table, remove the script from the **Script** field and select **Update**.
+    4.  To disable the Agent Assist tab for a record table, remove the script from the **Script** field and select **Update**.
 
 6.  To update the Screen Conditions and sys\_id, do the following:
 
@@ -64,13 +64,13 @@ Add or remove a record table from the screen condition, update the sys\_id for t
         controller.sowrecordctrl.table=incident^ORcontroller.sowrecordctrl.table=problem^ORcontroller.sowrecordctrl.table=problem_task^ORcontroller.sowrecordctrl.table=change_request^ORcontroller.sowrecordctrl.table=change_task^ORcontroller.sowrecordctrl.table=kb_knowledge^ORcontroller.sowrecordctrl.table=interaction
         ```
 
-    3.  If you want to enable the Agent Assist tab, add the relevant sys\_id of the table configuration in **Macroponent Configuration**.
+    3.  To enable the Agent Assist tab, add the relevant sys\_id of the table configuration in **Macroponent Configuration**.
 
         For more information, see [Edit the table configuration for Agent Assist in Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/edit-the-table-configuration-for-agent-assist-in-service-operations-workspace-using-standard-record-page.md).
 
-    4.  If you want to disable the Agent Assist tab, remove the sys\_id of the relevant table configuration in **Macroponent Configuration**.
+    4.  To disable the Agent Assist tab, remove the sys\_id of the relevant table configuration in **Macroponent Configuration**.
 
-        \[Omitted image "screen\_variant\_srp.png"\] Alt text: UX Screen form with callouts the additions to the Screen Condition and Macroponent Configuration fields
+        \[Omitted image "screen\_variant\_srp.png"\] Alt text: UX Screen form with callouts for the additions to the Screen Condition and Macroponent Configuration fields
 
     5.  Select **Update**.
 

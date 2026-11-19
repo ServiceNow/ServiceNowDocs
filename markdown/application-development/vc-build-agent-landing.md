@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vc-build-agent-landing.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-11-03"
+reading_time_minutes: 3
 keywords: [AI-assisted development, Build Agent, vibe coding, application development, artificial intelligence, code generation, natural language, development tools, enterprise development, automated testing, developer productivity]
 breadcrumb: [Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
@@ -21,8 +21,6 @@ Build Agent is not a one-shot tool, but enables enterprise-grade agentic develop
 -   Build Agent is for development on the ServiceNow AI Platform, and requires some knowledge of the ServiceNow AI Platform.
 -   Build Agent requires you to review and actively participate in the development process.
 -   Build Agent requires the admin role.
-
-**Note:** While Build Agent is part of ServiceNow Otto for Creator, it's the primary ServiceNow tool for agentic development, and thus highlighted in its own section of this document.
 
 ## Key benefits of Build Agent
 
@@ -54,7 +52,7 @@ Some sample use cases for app development with Build Agent include the following
 
 You can access Build Agent in both ServiceNow Studio and the ServiceNow IDE.For large or complex implementations, you can use Autonomous Engineer to go from requirements to a working implementation without building each artifact manually. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-autonomous-engineer.md).
 
-**Note:** This document provides an overview of how Build Agent sits in the agentic development workflow. For full product documentation, see [Build Agent and ServiceNow AI Platform tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-build-agent-studio-vs-ide.md).
+**Note:** This document provides an overview of how Build Agent sits in the agentic development workflow. For full product documentation, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md).
 
 -   **[Get started with agentic development using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-code-with-build-agent.md)**  
 Use Build Agent on the ServiceNow AI Platform to build apps agentically by executing complex configuration and development tasks through conversational prompts. This approach simplifies editing and creating ServiceNow applications and metadata such as tables, relationships, and access controls, without manual navigation.

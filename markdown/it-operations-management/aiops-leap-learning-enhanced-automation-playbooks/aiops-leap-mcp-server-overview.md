@@ -1,6 +1,6 @@
 ---
 title: LEAP MCP Server
-description: External AI clients can query LEAP automation data using Model Context Protocol \(MCP\) tools exposed through the ITOM MCP Server.
+description: External AI clients can query LEAP automation data using Model Context Protocol Server Console \(MCP\) tools exposed through the ITOM MCP Server Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-mcp-server-overview.html
 release: brazil
@@ -15,11 +15,11 @@ breadcrumb: [Explore, Learning Enhanced Automation Platform \(LEAP\), ITOM Visib
 
 # LEAP MCP Server
 
-External AI clients can query LEAP automation data using Model Context Protocol \(MCP\) tools exposed through the ITOM MCP Server.
+External AI clients can query LEAP automation data using Model Context Protocol Server Console \(MCP\) tools exposed through the ITOM MCP Server Console.
 
 ## Overview of LEAP with MCP
 
-LEAP exposes automation capabilities as MCP tools within the ITOM AIOps MCP Server. External AI clients such as Claude, ChatGPT, Copilot, and Gemini can invoke these tools using the Model Context Protocol \(MCP\), a standardized protocol for AI client integration.
+LEAP exposes automation capabilities as MCP tools within the ITOM AIOps MCP Server Console. External AI clients such as Claude, ChatGPT, Copilot, and Gemini can invoke these tools using the Model Context Protocol Server Console \(MCP\), a standardized protocol for AI client integration.
 
 MCP tools provide a governed, product-supported path for connecting external AI clients to LEAP automation workflows. Without MCP tools, the integration path is a manual process with no authentication guardrails or ServiceNow support coverage.
 
@@ -27,20 +27,20 @@ All MCP tool invocations use OAuth 2.0 authentication. Access to specific tools 
 
 ## How MCP tools work
 
-LEAP MCP tools are registered on the shared ITOM MCP Server \(`sn_genai.itom_mcp_server`\). When an external AI client connects to the server and calls `tools/list`, the LEAP tools appear alongside tools from other ITOM products. The server URL takes the form:`https://<instance>.service-now.com/sncapps/mcp-server/mcp/sn_genai_itom_mcp_server`
+LEAP MCP tools are registered on the shared ITOM MCP Server Console \(`sn_genai.itom_mcp_server`\). When an external AI client connects to the server and calls `tools/list`, the LEAP tools appear alongside tools from other ITOM products. The server URL takes the form:`https://<instance>.service-now.com/sncapps/mcp-server/mcp/sn_genai_itom_mcp_server`
 
 **Warning:** LEAP specific MCP tool invocations require the sn\_itom\_leap.leap\_viewer role at minimum. Other tools on the ITOM MCP Server might still work, but LEAP specific tools fail with an unauthorized error if the user lacks this role: `User is missing required role: sn_itom_leap.leap_viewer`.
 
 The following describes the invocation flow:
 
-1.  The external AI client authenticates to the ITOM MCP Server using an OAuth 2.0 token.
+1.  The external AI client authenticates to the ITOM MCP Server Console using an OAuth 2.0 token.
 2.  The client calls a LEAP MCP tool with the required input parameters.
-3.  The MCP Server routes the request to the underlying LEAP API.
+3.  The MCP Server Console routes the request to the underlying LEAP API.
 4.  The server returns a structured JSON response to the client.
 
 ## Tool categories
 
-LEAP MCP tools are registered as **Action** tools on the ITOM MCP Server and are organized into three categories:
+LEAP MCP tools are registered as **Action** tools on the ITOM MCP Server Console and are organized into three categories:
 
 |Tools|Description|
 |-----|-----------|
@@ -50,7 +50,7 @@ LEAP MCP tools are registered as **Action** tools on the ITOM MCP Server and are
 
 ## Set up the MCP connection
 
-To connect an external AI client to LEAP MCP tools, you must configure OAuth authentication on the ITOM MCP Server. A banner on the MCP Server Console confirms when OAuth setup is required. For setup instructions, see [Activate the ITOM MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/activate-itom-mcp-server.md).
+To connect an external AI client to LEAP MCP tools, you must configure OAuth authentication on the ITOM MCP Server Console. A banner on the MCP Server Console Console confirms when OAuth setup is required. For setup instructions, see and [Activate the ITOM MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/activate-itom-mcp-server.md).
 
 ## What to explore next
 

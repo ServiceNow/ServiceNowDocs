@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-23"
 reading_time_minutes: 7
 keywords: [action approval, tool gates, approval patterns, auto approval, hard gate, soft gate, arc policies]
-breadcrumb: [Working with Arc policy rules, Managing Arc policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Working with Arc policy rules, Managing Arc policies, Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Action approval flow in ServiceNow Arc

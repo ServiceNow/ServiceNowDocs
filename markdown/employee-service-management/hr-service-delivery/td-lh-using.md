@@ -1,6 +1,6 @@
 ---
 title: Using Leader Hub
-description: Use the Leader Hub app to access pertinent data about the talent in your organization so you can enhance employee engagement, adapt to changing circumstances, and make data-driven decisions that steer your organization toward success.
+description: Use the Leader Hub app to access pertinent data about the talent in your organization. You can use this data to enhance employee engagement, adapt to changing circumstances, and make data-driven decisions. These decisions steer your organization toward success.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/td-lh-using.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Leader Hub, HR Service Delivery, Employee Service Management]
 
 # Using Leader Hub
 
-Use the Leader Hub app to access pertinent data about the talent in your organization so you can enhance employee engagement, adapt to changing circumstances, and make data-driven decisions that steer your organization toward success.
+Use the Leader Hub app to access pertinent data about the talent in your organization. You can use this data to enhance employee engagement, adapt to changing circumstances, and make data-driven decisions. These decisions steer your organization toward success.
 
 **Important:**
 

@@ -36,7 +36,11 @@ There are five types of automation tasks:
 
 ## Procedure
 
-1.  2.  3.  On the **Lists** tab, under **Build**, select **All Automation Requests**.
+1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation center Home**.
+
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
+
+3.  On the **Lists** tab, under **Build**, select **All Automation Requests**.
 
 4.  Open the automation request that you want to create and associate an automation task to.
 
@@ -48,7 +52,9 @@ There are five types of automation tasks:
 
 7.  Select **Save**.
 
-8.  
+8.  In the **Activity** and **Compose** fields, view the activity of the form, work notes, and additional comments.
+
+
 ## What to do next
 
 Create an automation resource for the automation task. For more information, see [Create an automation resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/create-automation-resource.md).

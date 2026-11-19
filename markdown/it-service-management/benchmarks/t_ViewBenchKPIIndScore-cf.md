@@ -1,6 +1,6 @@
 ---
 title: Drill down within benchmark KPI data
-description: You can drill down within benchmark KPI data for further analysis within Performance Analytics.
+description: Drill down on a benchmark value in the KPI performance trends chart to view the individual data behind it in Performance Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t\_ViewBenchKPIIndScore-cf.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Use, Benchmarks, IT Service Management]
 
 # Drill down within benchmark KPI data
 
-You can drill down within benchmark KPI data for further analysis within Performance Analytics.
+Drill down on a benchmark value in the KPI performance trends chart to view the individual data behind it in Performance Analytics.
 
 ## Before you begin
 

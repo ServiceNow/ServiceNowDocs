@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-datamanagementforcsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 29
 breadcrumb: [Products combined by family]
 ---
@@ -772,7 +772,7 @@ Brazil
 
 CSM is a ServiceNow AI Platform application that is available with activation of the Customer Service Management \(CSM\) plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=brazil&ft:locale=en-US).
 
-Additional CSM features are available with the activation of other plugins. For details, see [\[Placeholder link text to key bundle-csm.r\_CustServMgmtAddtlPluginsTable\]](https://www.servicenow.com/docs/access?context=r_CustServMgmtAddtlPluginsTable&family=brazil&ft:locale=en-US).
+Additional CSM features are available with the activation of other plugins. For details, see [r CustServMgmtAddtlPluginsTable](https://www.servicenow.com/docs/access?context=r_CustServMgmtAddtlPluginsTable&family=brazil&ft:locale=en-US).
 
 Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Explore](https://www.servicenow.com/docs/access?context=som-exploring&family=brazil&ft:locale=en-US).
 

@@ -62,7 +62,7 @@ Indicator that the data domain is at the lowest level of the hierarchy.
 **Related topics**  
 
 
-[Add or edit a data domain from the Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-or-edit-a-data-domain-from-the-portfolio-page.md)
+[eaw-add-or-edit-a-data-domain-from-the-portfolio-page]
 
 [Add or edit an information data domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-edit-info-data-domain.md)
 

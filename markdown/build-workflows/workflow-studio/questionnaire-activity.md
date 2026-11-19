@@ -52,7 +52,7 @@ To require that users complete a questionnaire, remove the skip action from the 
 
 ## Outputs
 
-These outputs can provide data to other activities in your playbook. You can access this data as activity inputs when you configure your activity:
+These outputs can provide data to other activities in your playbook. The outputs are available in the **Automation** tab and you can access this data as activity inputs when you configure your activity:
 
 |Output|Type|Description|
 |------|----|-----------|

@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Bulk application updates, Configure, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Bulk application updates, Configure, Upgrade Console, Upgrade, ServiceNow AI Platform]
 ---
 
 # Update multiple applications at once

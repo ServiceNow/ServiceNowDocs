@@ -20,7 +20,9 @@ Multi-component models and multi-components assets help you track the maintenanc
 
 An enterprise model that is associated with one or more model components is defined as a multi-component model. Each model component can be a consumable or enterprise model. The same model can be listed more than once as a model component.
 
-Every model component has three mutually-exclusive properties that define its relationship with the parent multi-component model.
+You can add model components to a parent multi-component model only when it has a status of Build. In addition, each model component must have a status of In Production.
+
+Every model component has three mutually-exclusive properties that define its relationship with the parent multi-component model. You can configure these properties for each model component on the **Model Components** tab of the parent multi-component model record.
 
 |Property|Description|
 |--------|-----------|
@@ -28,7 +30,7 @@ Every model component has three mutually-exclusive properties that define its re
 |Hot swappable|If this property is set to **true**, the model component can be replaced while the multi-component model is operational.|
 |Repairable|If this property is set to **true**, the model component can be repaired when it fails.|
 
-The Enterprise Asset Management application supports two types of multi-component models: pre-assembled and user-assembled. You can convert a pre-assembled or user-assembled model to a simple model by removing all of its associated model components while it is in the Build state.
+The Enterprise Asset Management application supports two types of multi-component models: pre-assembled and user-assembled. You can convert a pre-assembled or user-assembled model to a simple model by removing all of its associated model components while it is in the Build state. For more information about pre-assembled and user-assembled models, see [Model types in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-model-types.md).
 
 ## Multi-component asset
 

@@ -44,15 +44,15 @@ If there’s enough data, the customer service summary component displays the **
 
 5.  After you're finished summarizing the service, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d23406e145">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d23682e145">
 
 Option
 
-</th><th align="left" id="d23406e148">
+</th><th align="left" id="d23682e148">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d23406e154">
+</th></tr></thead><tbody><tr><td id="d23682e154">
 
 **View more or less summary details**
 
@@ -62,7 +62,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
 
 
-</td></tr><tr><td id="d23406e184">
+</td></tr><tr><td id="d23682e184">
 
 **Provide feedback for the summary**
 
@@ -72,7 +72,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d23406e217">
+</td></tr><tr><td id="d23682e217">
 
 **Copy the service summary**
 
@@ -80,7 +80,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the service summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d23406e232">
+</td></tr><tr><td id="d23682e232">
 
 **View the information about the case summary**
 

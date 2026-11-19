@@ -1,6 +1,6 @@
 ---
 title: Create Enrich automation
-description: Alert enrichment involves transforming raw events from monitoring tools into a standard format, aiding automated grouping and response. This includes extracting fields from lengthy alert payloads or composing them into a standardized format. Additionally, you can create tags, which are metadata added to alerts for easier filtering and grouping.
+description: Enrich alerts by extracting fields, composing values, and adding tags to standardize them for easier filtering and grouping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/event-management/enrich-alert-sow-itom.html
 release: brazil
@@ -8,13 +8,14 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 12
-breadcrumb: [Alert automation in SOW for ITOM, Event Management, ITOM AIOps, IT Operations Management]
+reading_time_minutes: 13
+keywords: [Alert Automation, ITOM, Health, AIOps]
+breadcrumb: [Alert automation in SOW for ITOM, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create Enrich automation
 
-Alert enrichment involves transforming raw events from monitoring tools into a standard format, aiding automated grouping and response. This includes extracting fields from lengthy alert payloads or composing them into a standardized format. Additionally, you can create tags, which are metadata added to alerts for easier filtering and grouping.
+Enrich alerts by extracting fields, composing values, and adding tags to standardize them for easier filtering and grouping.
 
 ## Before you begin
 
@@ -24,7 +25,7 @@ Role required: evt\_mgmt\_admin, evt\_team\_operator, or srm\_responder
 
 Extracting takes values from event payload fields and places them in alert output fields, while composing combines multiple alert fields into one. For more information, see [Alert field extraction, composition, and value mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/extract-compose-fields.md).
 
-For users familiar with the classic Event Management experience, enrich automations create event rules but with an easier interface and with better teams support. Event rules offer a few advanced features like thresholds and CI identification using IRE that are not yet available in enrich automations. Admins may also enrich alerts with event field mapping rules. Changing alert values creates an event field mapping rule with the mapping type **Map field and transform value \(Single field\)**. This rule is linked to the event rule and runs simultaneously, allowing for streamlined mapping and transformation of event data to enrich alerts.
+For users familiar with the classic Event Management experience, Enrich automations create event rules and support teams. Event rules offer a few advanced features like thresholds and CI identification using the Identification and Reconciliation Engine \(IRE\) that are not available in Enrich automations. Administrators can also enrich alerts with event field mapping rules. Changing alert values creates an event field mapping rule with the mapping type **Map field and transform value \(Single field\)**. This rule is linked to the event rule and runs simultaneously, so event data is mapped and transformed to enrich alerts.
 
 ## Procedure
 
@@ -46,33 +47,39 @@ For users familiar with the classic Event Management experience, enrich automati
 
 5.  In the **Automation name** field, enter the name of the automation for enriching alerts.
 
-6.  In the **If these conditions are met** section, set up filter criteria to identify the alerts you want to enrich.
+6.  In the **If these conditions are met** section, set up filter criteria to identify the alerts to enrich.
 
     The condition is evaluated against the raw event received from the source monitoring system and does not account for enriched fields.
 
-    1.  From the **Assignment group** field menu, select the assignment group to determine which team’s alerts will trigger the automation.
+    1.  From the **Assignment group** field menu, select the assignment group to determine which team’s alerts trigger the automation.
 
-        The **Assignment group** represents a specific team responsible for handling certain alerts. By selecting an assignment group, you ensure that only the alerts assigned to that particular team will trigger the automation. This way, the automation is targeted and only activates for relevant alerts associated with the selected team.
+        The **Assignment group** represents a specific team responsible for handling certain alerts. Only alerts assigned to the selected team trigger the automation.
 
         **Note:**
 
         -   If you’re logged in to the instance with an administrator role \(evt\_mgmt\_admin\), all of the assignment groups are available. Additionally, you can select **All groups** to enable generating alerts for any of the available groups.
-        -   If you’re an team operator, only the groups you’re a member of are available.
+        -   If you’re a team operator, only the groups you’re a member of are available.
         -   Only members of the selected group or administrators can update or delete the automation.
     2.  From the **Source** field menu, select the monitoring tool from where the alert is generated.
     3.  Set up the conditions by selecting the field, operator, and field value. Then, add more conditions using OR or AND operators.
 
-        When using time-based condition filters in Enrich/Event rules \(a filter that contains a time-based condition\), the value is saved as a static value. The time is evaluated in the system time zone of the instance, defined by the **glide.sys.default.tz** system property, which defaults to America/Los\_Angeles if left empty.
+        When using time-based condition filters in Enrich automations and event rules \(a filter that contains a time-based condition\), the value is saved as a static value. The time is evaluated in the system time zone of the instance, defined by the **glide.sys.default.tz** system property, which defaults to America/Los\_Angeles if left empty.
 
         \[Omitted image "enrich-automation-time-condition.png"\] Alt text: Condition based on time of event
 
         To add another set of conditions, select **+ New condition set**. You can also manually add an additional info field if you don’t see it in the drop-down list.
 
-        **Note:** Select **Load past events** to view previous events when creating the automation.
+        The **Example source events** pane shows up to 50 recent events that match the conditions you define. Use these sample events to build and test your automation, for example, to test a regular expression in **Extract fields** or to test **Improve configuration item \(CI\) identification**. Select **Load past events** to display the sample events.
 
-        \[Omitted image "enrich-automation-conditions.png"\] Alt text: Enrich rule page where you can provide automation name, set conditions and actions.
+        To find matching events, the system loads a batch of 2,000 events from the source and filters them by your conditions. It then displays up to 50 of the matching events. If the batch contains no matching events, the pane displays **No recent matching events**. In this case, you can do one of the following:
 
-7.  In the **Then, apply the following actions** section, select the automation actions that will be triggered by this automation.
+        -   Select **Try again** to load another batch of events from the source and filter them by your conditions.
+        -   Send more recent events from the source that match the conditions, and then select **Try again**.
+        If no sample events are available, you can still enter or paste an example value in the **Sample value** field of the **Extract fields** action to test your regular expression.
+
+        \[Omitted image "enrich-automation-conditions.png"\] Alt text: Enrich alerts page with conditions defined and the Example source events pane showing recent matching events.
+
+7.  In the **Then, apply the following actions** section, select the actions that this automation triggers.
 
     You must select at least one action.
 
@@ -80,15 +87,15 @@ For users familiar with the classic Event Management experience, enrich automati
     -   **Copy or compose fields**: Merges various alert fields, tags and text to generate a composed alert output.
     -   **Change alert values**: Maps the current value of alert fields to specified new values.
     -   **Improve configuration item \(CI\) identification**: Identifies CIs other than a host for better alert grouping, team assignment, and service health.
-<table id="choicetable_p43_zvd_s1c"><thead><tr><th align="left" id="d233432e286">
+<table id="choicetable_p43_zvd_s1c"><thead><tr><th align="left" id="d235884e340">
 
 Option
 
-</th><th align="left" id="d233432e289">
+</th><th align="left" id="d235884e343">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d233432e295">
+</th></tr></thead><tbody><tr><td id="d235884e349">
 
 **__Extract alert fields__**
 
@@ -97,17 +104,17 @@ Action
 1.  Enable the **Extract fields** toggle switch.
 2.  From the **Extract from field** menu, select a value. The menu displays the standard event fields, additional info, and tags. The field value is then displayed. You can also manually enter a field name that is not displayed and add your own value.
 
-The example source events pane displays a sample of recent events in your system. If no events are displayed, you may create an event, see [Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-or-edit-event-rule.md).
+The **Example source events** pane displays a sample of recent events in your system. If no events are displayed, select **Try again** or send more recent events that match your conditions. For more information, see the **Example source events** description in the conditions step. You can also create an event. For more information, see [Create or edit an event rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-or-edit-event-rule.md).
 
-3.  In the **Regular expression** field, create a regular expression to extract the value that you want to extract.
+3.  In the **Regular expression** field, create a regular expression that extracts the value.
 
 **Note:** You can compose text using regular expression \(regex\) format conventions. Use one or more capture groups with parentheses to extract parts of the input. Capture groups in the regular expression are assigned to alert outputs based on the order in which they appear. The regex must match the entire input, so consider surrounding your regex with `.*` on each end. For example, `(\w+).acme.com.*` captures the host name in a fully qualified domain name. The parser for the regex engine is Perl Compatible Regular Expressions \(PCRE\) compatible. Nested JSON data is preprocessed to strip quotes and replace colons with equal signs.
 
 4.  In the **Alert output** field, select an alert field or an alert tag. You can also manually enter a new field name.
 
-If you want to add an alert tag, select the **Set as a tag** check box.
+To add an alert tag, select the **Set as a tag** check box.
 
-**Tip:** Create alert tags that can be shared across sources for easier filtering and grouping, such as the out-of-the-box tags.
+**Tip:** Create alert tags that can be shared across sources for easier filtering and grouping, such as the predefined tags.
 
 \[Omitted image "sow-extract-alert-fields.png"\] Alt text: Extract alert fields
 
@@ -119,50 +126,50 @@ If you want to add an alert tag, select the **Set as a tag** check box.
 
  To include additional fields for extraction, select **+ Add fields**.
 
-</td></tr><tr><td id="d233432e397">
+</td></tr><tr><td id="d235884e460">
 
 **__Copy or compose fields__**
 
 </td><td>
 
 1.  Enable the **Copy or compose fields** toggle switch.
-2.  From the **Composition** field, select alert fields and/or alert tags, manually enter a field name or even add free text. Alert fields are displayed in the `${field}` syntax format.
+2.  From the **Composition** field, select alert fields, alert tags, or both, manually enter a field name or even add free text. Alert fields are displayed in the `${field}` syntax format.
 3.  In **Output to field**, select an existing alert field or alert tag, or manually enter an alert field. **Output to field** is an enriched alert containing the composed alert data.
 
-For easier grouping, you can select a tag from the menu. If you want to use the new field name as a tag for grouping, select the **Set as a tag** check box.
+For easier grouping, you can select a tag from the menu. To use the new field name as a tag for grouping, select the **Set as a tag** check box.
 
-**Tip:** Create alert tags that can be shared across sources for easier filtering and grouping, such as the out-of-the-box tags.
+**Tip:** Create alert tags that can be shared across sources for easier filtering and grouping, such as the predefined tags.
 
 \[Omitted image "sow-compose-alert.png"\] Alt text: Compose alert fields
 
  To create additional alert data compositions, select **+ Add fields**.
 
-</td></tr><tr><td id="d233432e465">
+</td></tr><tr><td id="d235884e521">
 
 **__Change alert values__**
 
 </td><td>
 
 1.  Enable the **Change alert values** toggle switch.
-2.  In **Alert field to change values for** field, enter the field in the alert that you want to map values for.
-3.  In the **When value is** field, enter original value in the alert field that you want to change.
-4.  In the **Change it to** field, enter the new value that will replace the original value in the alert field.
+2.  In **Alert field to change values for** field, enter the alert field to map values for.
+3.  In the **When value is** field, enter the original value in the alert field to change.
+4.  In the **Change it to** field, enter the new value that replaces the original value in the alert field.
 
 To add more field values, select **+ Add value** and to add more fields to map, select **+ Add field to map**.
 
 \[Omitted image "sow-change-alert-values.png"\] Alt text: Change values of a field to a format that is easier to read, filter, and group.
 
-</td></tr><tr><td id="d233432e521">
+</td></tr><tr><td id="d235884e577">
 
-**Improve configuration item \(CI\) identification**
+**__Improve configuration item \(CI\) identification__**
 
 </td><td>
 
-This option allows you to change how alerts are bound or linked to a Configuration Item \(CI\). This ensures alerts are associated with the correct IT components for better visibility and faster issue resolution.
+You can use this option to change how alerts are bound or linked to a configuration item \(CI\). This option helps associate alerts with the correct IT components.
 
- The default and most common way to bind alerts to CIs is based on the **Node** field. This works out of the box with no configuration needed. Use it by populating the **Node** field in your alert with a CI’s Name, Fully Qualified Domain Name \(FQDN\), IP, or MAC address. This supports host CIs including Computers, Operating Systems \(OS\), Switches, Routers, or any CI type or any class that extends the \[cmdb\_ci\_hardware\] table.
+ The default and most common way to bind alerts to CIs is based on the **Node** field. This works by default and requires no configuration. Use it by populating the **Node** field in your alert with a CI’s name, fully qualified domain name \(FQDN\), IP address, or MAC address. This supports host CIs including Computers, Operating Systems \(OS\), Switches, Routers, or any CI type or any class that extends the \[cmdb\_ci\_hardware\] table.
 
- You may enable this action to improve the CI identification for other types of CIs such as processes or service instances. The system searches for a matching CI in the appropriate CMDB table based on the selected CI type. For example, if you select VMware Virtual Machine Instance as the CI class, the system searches for a matching record in the \[cmdb\_ci\_vmware\_instance\] table. The search uses details from the event rule record, specifically the **Additional info** fields.
+ You can enable this action to improve the CI identification for other types of CIs such as processes or service instances. The system searches for a matching CI in the appropriate CMDB table based on the selected CI type. For example, if you select VMware Virtual Machine Instance as the CI class, the system searches for a matching record in the \[cmdb\_ci\_vmware\_instance\] table. The search uses details from the event rule record, specifically the **Additional info** fields.
 
  \[Omitted image "enrich\_automation\_ci\_identification.png"\] Alt text: Improve configuration item \(CI\) identification section
 
@@ -197,14 +204,14 @@ After successful CI identification, the system displays a message with the relev
 
 If CI identification fails, the system shows a message explaining the details.\[Omitted image "enrich\_automation\_ci\_binding\_failed.png"\] Alt text: CI identification failed
 
- For more information on CI binding, see [Binding alerts to CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/ci-binding-alert.md).
+ For more information about CI binding, see [Binding alerts to CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/ci-binding-alert.md).
 
 </td></tr></tbody>
-</table>8.  In the **And finally** section, to continue running other enrichment automations with same filter conditions after this automation is executed, select **Run other enrich alert automations**.
+</table>8.  In the **And finally** section, to continue running other enrichment automations with the same filter conditions after this automation is executed, select **Run other enrich alert automations**.
 
     \[Omitted image "enrich-run-other-automation.png"\] Alt text: Option to select whether you want to run other enrich alert automations.
 
-    If you select **Don't run other enrich alert automations**, additional automations of this type will stop running after this automation is executed once. If the automation is managed by an administrator, it will stop running administrator-owned automations but will continue to run automations owned by other assignment groups.
+    If you select **Don't run other enrich alert automations**, additional automations of this type stop running after this automation runs once. If the automation is managed by an administrator, it stops running administrator-owned automations but continues to run automations owned by other assignment groups.
 
 9.  In the **Automation details** section, provide an order and automation description.
 
@@ -212,7 +219,7 @@ If CI identification fails, the system shows a message explaining the details.\[
 
     1.  In the **Order** field, enter the automation order.
 
-        **Note:** Automations run in order from the lowest to the highest. Ensure there are no enrichment automations with a lower order number that have matching conditions and have **Apply additional automations of this type** set to false. Otherwise, this may prevent subsequent automations from running.
+        **Note:** Automations run in order from the lowest to the highest. Ensure there are no enrichment automations with a lower order number that have matching conditions and have **Apply additional automations of this type** set to false. Otherwise, this may stop subsequent automations from running.
 
         During alert processing, enrichment automations assigned to specific teams are applied first, based on the **Order** field. After these are evaluated, enrichment automations assigned to **Global / All groups** are applied. If multiple automations match, the automation with the highest order value is selected to improve CI identification.
 
@@ -221,12 +228,12 @@ If CI identification fails, the system shows a message explaining the details.\[
     2.  In the **Automation description** field, enter a brief description of the automation.
 10. Select **Save automation**.
 
-    A notification appears when the automation is successfully saved. Otherwise, an error message is displayed. The enrich automation that you created appears on the Enrich alerts page where you can view, edit, or delete the existing automation.
+    A notification appears when the automation is successfully saved. Otherwise, an error message is displayed. The Enrich automation that you created appears on the Enrich alerts page where you can view, edit, or delete the existing automation.
 
 
 ## What to do next
 
-You can manage alerts more effectively by grouping similar alerts together with the help of [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
+You can group similar alerts. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/group-alert-sow-itom.md).
 
 **Related topics**  
 

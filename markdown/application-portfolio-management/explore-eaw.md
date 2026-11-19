@@ -57,8 +57,6 @@ Enterprise Modeling and Visualization in EA Workspace helps you with diagramming
 Exploring digital integration management in Enterprise Architecture Workspace.
 -   **[Exploring product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-exploring-product-capabilities.md)**  
 A product capability is the specific feature that a business application or a Technology Reference Model \(TRM\) product provides to support business objectives. Product capabilities are used to assess how well a business application or TRM product aligns with strategic goals and operational needs.
--   **[Open a Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/workspace-open-uib.md)**  
-Access your Configurable Workspace experience in UI Builder for editing.
 -   **[List of workspaces reference conkeyrefs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/workspace-list-workspaces.md)**  
 List of all workspaces ServiceNow offers to target specific users and issues.
 -   **[Exploring the publishing center in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/publishing-center-in-ea-workspace.md)**  

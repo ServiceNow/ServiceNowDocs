@@ -8,7 +8,7 @@ product: Discovery
 classification: discovery
 topic_type: reference
 last_updated: "2026-10-13"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [File-based Discovery references, File-based Discovery, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -73,6 +73,18 @@ PowerShell errors
 
 -   Include the script in your anti-virus software.
 -   Add ServiceNow publisher to your trusted publisher repository.
+
+</td></tr><tr><td>
+
+The **Version** field is empty in the File Information \[cmdb\_file\_information\] table for Linux or UNIX devices.
+
+</td><td>
+
+This is expected behavior. The Unix - File Discovery probe returns file name and file size only for Linux and UNIX devices. It is not designed to return version metadata, so the **Version** field is empty for those devices by design.
+
+ Linux software versions in the Software Installation \[cmdb\_sam\_sw\_install\] table are populated by the rpm- and dpkg-based discovery probes, such as the Linux - Install Software probe. File-based Discovery does not populate this table.
+
+ To obtain version information for software on Linux and UNIX devices, enable SWID tag scanning for products that provide valid SWID tags. SWID tags include version data and populate the Swid Tags \[cmdb\_swid\_tag\] table. Enable SWID tag scanning selectively for products known to provide valid SWID tags rather than enabling it across all servers. For more information, see [File-based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/file-based-discovery.md).
 
 </td></tr></tbody>
 </table>**Related topics**  

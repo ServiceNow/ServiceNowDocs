@@ -55,7 +55,7 @@ All filter functions can be used with each other.
 
 When working with large KPI trees, you can close those parts of the tree that you are not currently working with. To collapse part of a tree, click the minus - icon on an artifact that has child artifacts. Collapsed nodes appear as a shadow under the top-level node. To expand collapsed nodes, click the plus + icon.
 
-\[Omitted image "kpi-composer-collapse-nodes.png"\] Alt text: Collapse node icon with two levels of subnodes \[Omitted image "kpi-composer-collapsed-nodes.png"\] Alt text:
+\[Omitted image "kpi-composer-collapse-nodes.png"\] Alt text: Collapse node icon with two levels of subnodes \[Omitted image "kpi-composer-collapsed-nodes.png"\] Alt text: Collapsed node shadow
 
 When a filter or a search matches a collapsed, hidden artifact, the tree does not expand. Instead, the "shadow" turns white although the top-level element remains grey.
 
@@ -91,7 +91,7 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
 4.  Set the Business Goal properties as described in "Artifact properties."
 
-    You can edit these properties later by clicking the Edit icon \(\[Omitted image "kpi-comp-edit-item-icon.png"\] Alt text:\) on the artifact tile.
+    You can edit these properties later by clicking the Edit icon \(\[Omitted image "kpi-comp-edit-item-icon.png"\] Alt text: Edit icon\) on the artifact tile.
 
 5.  Repeat this process with Critical Success Factors and Measurements.
 
@@ -182,7 +182,7 @@ For more information, see [Cross-project library elements](https://raw.githubuse
 
 </td></tr><tr><td>
 
-Info\[Omitted image "kpi-comp-info-icon.png"\] Alt text:
+Info\[Omitted image "kpi-comp-info-icon.png"\] Alt text: Information icon
 
 </td><td>
 
@@ -196,7 +196,7 @@ This short animation shows a knowledge article being added to an artifact.\[Omit
 
 </td></tr><tr><td>
 
-Persona\[Omitted image "kpi-comp-persona-icon.png"\] Alt text:
+Persona\[Omitted image "kpi-comp-persona-icon.png"\] Alt text: Persona icon
 
 </td><td>
 
@@ -208,7 +208,7 @@ In this image, the Agent and CIO personas are linked to the project. The CIO per
 
 </td></tr><tr><td>
 
-Group by\[Omitted image "kpi-comp-bkdown-icon.png"\] Alt text:
+Group by\[Omitted image "kpi-comp-bkdown-icon.png"\] Alt text: Group by icon
 
 </td><td>
 

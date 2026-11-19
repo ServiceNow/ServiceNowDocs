@@ -20,7 +20,7 @@ It provides an intuitive, visual representation of capacity utilization, empower
 
 **Note:** To use Capacity Console, you must activate the following:
 
--   Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) plugin. For more information, see [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
+-   Field Service Advanced Capacity and Reservations Management \(com.snc.fsm\_advanced\_capacity\_management\) plugin. For more information, see [Activate Field Service Advanced Capacity and Reservations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
 -   Field Service territory model. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 -   **Comprehensive capacity view**
@@ -39,15 +39,15 @@ It provides an intuitive, visual representation of capacity utilization, empower
 
     -   Set thresholds: Define thresholds for capacity utilization quickly to identify areas needing attention. The following are the example thresholds. However, you can customize them as your business terminology and needs.
 
-        -   Underutilized: Below capacity limits.
-        -   Optimalutilized: Efficiently using resources.
-        -   Overutilized: Exceeding capacity limits.
+        -   Under Utilized: Below capacity limits.
+        -   Optimally Utilized: Efficiently using resources.
+        -   Over utilized: Exceeding capacity limits.
         **Note:** You can also customize color codes and legend labels to match your business terminology and clear categorization.
 
     -   Save filter preferences: Save your chosen filter settings for quick and easy access in future sessions.
     -   Customize calendar capacity data parameters: Update the calendar to prioritize specific metrics:
         -   Replace existing metrics by customizing the fields shown on events \(for example, "Used Capacity" with "Unused Capacity"\). You can also customize the summary operator used in the event \(for example, replace "+" with "-", "\*", or "/"\).
-        -   Add new fields using the **Application Field Set**: Capacity Console events fields. For more information, see [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
+        -   Add new fields using the **Application Field Set**: Capacity Console events fields. For more information, see [Activate Field Service Advanced Capacity and Reservations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
 -   **Refining data with the filters**
 
     Customizable filters at the top of the console enable for tailored data views.
@@ -58,7 +58,7 @@ It provides an intuitive, visual representation of capacity utilization, empower
         -   Demand channel filter: Refine data by additional parameters like demand channels.
         -   Group By filter: Group data by demand channel or territory.
         -   Unit filter: View capacity in terms of hours or tasks \(for example, focusing on underperforming territories for a given week\).
-        -   Advanced filter: Use thresholds to analyze data. Example, selecting **UnderUtilized** displays capacities below 25%.
+        -   Advanced filter: Use thresholds to analyze data. Example, selecting **Under Utilized** displays capacities below 25%.
 -   **Calendar features**
 
     The calendar in the Capacity Console provides flexible options to view and analyze data over time:

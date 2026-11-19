@@ -9,7 +9,7 @@ classification: user-administration
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impersonating users, Monitoring user activity, User administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Impersonating users, Monitoring user activity, User administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Impersonation logs
@@ -32,7 +32,9 @@ If you enable impersonation logging for interactive sessions by setting **glide.
 
 Non-interactive sessions are performed by applications and scripts, not through the UI.
 
-Impersonation logging of non-interactive sessions is turned off by default. If you enable impersonation logging by setting the **glide.sys.log\_impersonation.non\_interactive** property to **true**, impersonations of non-interactive sessions are recorded in the impersonate log.
+Impersonation logging of non-interactive sessions is turned off by default.
+
+If you enable impersonation logging for non-interactive sessions by setting **glide.sys.log\_impersonation.non\_interactive** to **true**, non-interactive impersonations are recorded in the log, and corresponding impersonation events are also created in the Event \[sys\_event\] table.
 
 Even with **glide.sys.log\_impersonation.non\_interactive** set to **true**, the system doesn’t log certain common impersonation tasks performed on behalf of the default users \(**system**, **soap.guest**, and **guest**\) because the application impersonates those default users to perform a variety of tasks.
 

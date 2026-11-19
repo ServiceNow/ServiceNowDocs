@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [churn audit]
-breadcrumb: [High-churn field detection, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [High-churn field detection, Indexed sources, Configure, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # List of AI Search Datasource Churn Audit fields

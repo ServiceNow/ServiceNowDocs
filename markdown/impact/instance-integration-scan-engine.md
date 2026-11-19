@@ -74,18 +74,17 @@ Synchronizes definition overrides and custom definitions between non-production 
 Creates tasks for findings from a ServiceNow instance to:
 
  -   ServiceNow production instance
--   Jira
 -   Azure DevOps
 -   Others
 
- **Note:** Jira and Azure DevOps authenticate with a Basic auth record and an API token, configured in Scan Engine Properties. The Other type takes a username and API token directly on Scan Engine Properties. None of these types use My SN Instances.
+ **Note:** Azure DevOps authenticate with a Basic auth record and an API token, configured in Scan Engine Properties. The Other type takes a username and API token directly on Scan Engine Properties. None of these types use My SN Instances.
 
 </td><td>
 
 -   ServiceNow user story integration:
     -   Configure on the source instance where the findings originate.
     -   The target is production.
--   Jira, Azure DevOps, or the Other types:
+-   Azure DevOps, or the Other types:
     -   Configure on the instance where Scan Engine runs and the findings are generated.
     -   These types don't need a My SN Instances record.
 
@@ -119,14 +118,14 @@ Create a dedicated integration user account and assign the required roles so tha
 Give the setup user KMF roles and approve the Scan Engine decryption policy so that imported credentials can be decrypted on the instance.
 -   **[Integrations across multiple instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/multi-instance-integration.md)**  
 A stack with more than two instances needs an OAuth provider registry and an OAuth client registry for every instance in the stack.
--   **[Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md)**  
+-   **[Register your instance in My SN Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md)**  
 Register each participating ServiceNow instance in the My SN Instances table before configuring any instance-to-instance integration.
 -   **[Definitions integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/definitions-integrations.md)**  
 The Definitions integration manually syncs new, customized, and overridden definitions from development to production and the other instances.
 -   **[Exception reason integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/exception-reason-integration.md)**  
 You can synchronize exception reasons from non-production to Production instances after a record is created or updated.
 -   **[User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/user-story-integration-properties.md)**  
-The User story integration creates agile tasks and stories directly from Scan Engine finding records in ServiceNow, Jira, Azure DevOps, or any external system.
+The User story integration creates agile tasks and stories directly from Scan Engine finding records in ServiceNow, Azure DevOps, or any external system using the Other type.
 -   **[Deployment and synchronization integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/deployment-sync-integrations.md)**  
 The AES/AEMC and Update set integrations control how custom app deployments are governed and how scan results are synchronized across your instance stack.
 -   **[Configure other integration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-other-integration-options.md)**  

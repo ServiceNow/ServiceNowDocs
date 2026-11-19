@@ -54,7 +54,7 @@ Specify your cloud provider and select the service account to discover. You can 
 
 ### Before you begin
 
-Before you attempt to configure Cloud Discovery, you must have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-install-prereqs.md). Ensure to configure the MID Server used for Cloud Discovery with the Cloud Management capability.
+Before you attempt to configure Cloud Discovery, you must have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-install-prereqs.md). The MID Server used for Cloud Discovery with the Cloud Management capability.
 
 Role required: discovery\_admin
 
@@ -210,6 +210,8 @@ You do not need to configure IP ranges for the MID Servers used with Cloud Disco
     -   **Auto-Select**: Discovery selects an appropriate MID Server automatically.
     -   **Specific MID Cluster**: Discovery uses the named MID Server cluster.
     -   **Specific MID Server**: Discovery uses the named MID Server.
+    **Note:** Discovery of Windows VMs requires a Windows MID Server. The **Auto-Select** option doesn't consider the MID Server operating system. If the schedule discovers Windows VMs, select a specific Windows MID Server or a MID cluster that contains only Windows MID Servers. Otherwise, you can use any selection type.
+
     \[Omitted image "CloudDiscoVMs.png"\] Alt text: Configure VMs to discover
 
 3.  To disable VM discovery, move the **Discover VMs by IP address** toggle switch to the left.

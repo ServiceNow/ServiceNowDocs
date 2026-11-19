@@ -61,7 +61,7 @@ None.
 
 ### Special considerations
 
-For detailed comparison of roles, see [Roles and responsibilities for AI administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-roles-responsibilities-ai-admin.md).
+This role may be contained within other roles. Check the Contained Roles \[sys\_user\_role\_contains\] table to confirm.
 
 ## ServiceNow Otto panel user \[now\_assist\_panel\_user\]
 

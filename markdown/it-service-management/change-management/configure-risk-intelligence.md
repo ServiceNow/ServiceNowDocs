@@ -1,6 +1,6 @@
 ---
 title: Configure Risk Intelligence
-description: Configure the Risk Intelligence properties to control how the Predictive Intelligence solution predicts the risk of a change request and how the predicted risk is used.
+description: Configure the Risk Intelligence properties to control how Predictive Intelligence predicts the risk of a change request and how that prediction is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-risk-intelligence.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Predictive Intelligence for Change Management, Configure, Change Ma
 
 # Configure Risk Intelligence
 
-Configure the Risk Intelligence properties to control how the Predictive Intelligence solution predicts the risk of a change request and how the predicted risk is used.
+Configure the Risk Intelligence properties to control how Predictive Intelligence predicts the risk of a change request and how that prediction is used.
 
 ## Before you begin
 

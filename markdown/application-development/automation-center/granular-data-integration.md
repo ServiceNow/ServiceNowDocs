@@ -24,7 +24,11 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 ## Procedure
 
-1.  2.  3.  On the **Lists** tab, under **Administration**, select **Automation Attributes**.
+1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation center Home**.
+
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
+
+3.  On the **Lists** tab, under **Administration**, select **Automation Attributes**.
 
 4.  Select the link on the **Class** column for an automation with the source name as **ServiceNow RPA**.
 

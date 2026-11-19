@@ -1,6 +1,6 @@
 ---
 title: Installed with Change Management - Change Schedule
-description: Several types of components are installed with the Change Management - Change Schedule.Plugins are added with activation of Change Management - Change Schedule.Roles are added with activation of Change Management - Change Schedule.Tables are added with activation of Change Management - Change Schedule.Properties are added with activation of Change Management - Change Schedule.Business rules are added with activation of Change Management - Change Schedule.UI policies are added with activation of Change Management - Change Schedule.Script includes are added with activation of Change Management - Change Schedule.UI scripts are added with activation of Change Management - Change Schedule.
+description: Several types of components are installed with the Change Management - Change Schedule.Plugins are added with activation of Change Management - Change Schedule.Roles are added with activation of Change Management - Change Schedule.Tables are added with activation of Change Management - Change Schedule.Properties are added with activation of Change Management - Change Schedule.These business rules are added when you activate Change Management - Change Schedule, with the table and purpose of each.UI policies are added with activation of Change Management - Change Schedule.Script includes are added with activation of Change Management - Change Schedule.UI scripts are added with activation of Change Management - Change Schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/installed-cm-changeschedule.html
 release: brazil
@@ -157,7 +157,7 @@ Define the number of days to be factored before and after the respective start/e
 </td></tr></tbody>
 </table>## Business rules installed with Change Management - Change Schedule
 
-Business rules are added with activation of Change Management - Change Schedule.
+These business rules are added when you activate Change Management - Change Schedule, with the table and purpose of each.
 
 <table id="table_u2s_mzv_mdb"><thead><tr><th>
 

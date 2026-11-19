@@ -14,6 +14,16 @@ breadcrumb: [Manage data fabric tables, Zero Copy Connectors, Workflow Data Fabr
 
 Retrieve data from an internal or external source by creating a data fabric table.
 
+## Before you begin
+
+Role required: One of the following role combinations or admin.
+
+-   delegated\_developer with sn\_dd\_&lt;application\_scope\_name&gt;\_tablesforms OR sn\_dd\_&lt;application\_scope\_name&gt;\_delegatedadmin, and a role containing the df\_data\_steward role
+-   delegated\_developer with sn\_dd\_&lt;application\_scope\_name&gt;\_tablesforms OR sn\_dd\_&lt;application\_scope\_name&gt;\_delegatedadmin, and df\_connection\_admin
+
+-   Only a user with the admin role can create a data fabric table in the global scope.
+-   A data steward with the delegated\_developer and the sn\_dd\_&lt;application\_scope\_name&gt;\_tablesforms roles can create data fabric tables in the permitted application scope. These roles enable a data steward to create data fabric tables in an application scope if they have permissions for that application, but not in the global scope.
+
 ## About this task
 
 Unlike a remote table, a data fabric table uses a zero copy connection to its data source, eliminating the need for a script to populate the table. This connection allows you to access the data source directly, map the data you need, and create a data fabric table for data consumers on the ServiceNow AI Platform.
@@ -22,20 +32,6 @@ With a data fabric table, you can retrieve data from either an internal or exter
 
 -   Connect the data fabric table to your local database to reuse data from a physical table on your instance.
 -   Connect the data fabric table to an outside data source, such as a data lake or third-party database, to retrieve data that resides outside of your instance.
-
-## Before you begin
-
-Role required: One of the following role combinations or admin.
-
--   delegated\_developer with sn\_dd\_&lt;application\_scope\_name&gt;\_tablesforms OR sn\_dd\_&lt;application\_scope\_name&gt;\_delegatedadmin, and a role containing the df\_data\_steward role
--   delegated\_developer with sn\_dd\_&lt;application\_scope\_name&gt;\_tablesforms OR sn\_dd\_&lt;application\_scope\_name&gt;\_delegatedadmin, and df\_connection\_admin
-
-Read access to table records is automatically added to users with either of the delegated developer roles.
-
-Note the following restrictions:
-
--   Only a user with the admin role can create a data fabric table in the global scope.
--   A data steward with the delegated\_developer and the sn\_dd\_&lt;application\_scope\_name&gt;\_tablesforms roles can create data fabric tables in the permitted application scope. These roles enable a data steward to create data fabric tables in an application scope if they have permissions for that application, but not in the global scope.
 
 ## Procedure
 

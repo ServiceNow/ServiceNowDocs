@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [token ratio]
-breadcrumb: [Viewing product subscription details, Explore, Subscription Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Viewing product subscription details, Explore, Subscription Management, Get started, ServiceNow AI Platform]
 ---
 
 # Monitoring Workflow Data Fabric capability usage with Subscription Management

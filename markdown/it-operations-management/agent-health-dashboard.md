@@ -14,7 +14,7 @@ breadcrumb: [AIOps Dashboards in SOW for ITOM, ITOM AIOps, IT Operations Managem
 
 The Agent Health dashboard provides visibility into the status and distribution of agents installed in your system. It allows you to quickly assess the number of deployed agents and their distribution, helping you prioritize your work more efficiently.
 
-The following example shows the agents in your system that are currently up, which agents are configured to collect data, and which agents have stopped data collection due to having reached their CPU threshold \(Silent/Off\). It also displays the agents according to their version, OS, and connected MID Server.
+The following example shows agents that are currently up, agents configured to collect data, and agents that stopped data collection after reaching their CPU threshold \(Silent/Off\). It also displays agents by version, OS, and connected MID Server.
 
 \[Omitted image "agent-health-dashboard.png"\] Alt text: Agent Health Dashboard
 

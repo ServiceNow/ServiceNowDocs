@@ -18,7 +18,7 @@ You can zoom on this page to 200% or 400% through your browser settings without 
 
 -   **[Filter software results using an encoded query in TLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/use-tpm-encoded-query.md)**  
 Use an encoded query to control which software products appear in the **Lifecycle Timeline** view of a business application. By default, TLM tracks only licensable software. Set the encoded query system property to include non-licensable software and limit results.
--   **[Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/update-tpm-data.md)**  
+-   **[Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/update-tpm-data.md)**  
 Manually update the Technology Lifecycle Management \(TLM\) lifecycle data for software and hardware models in your business applications and application services.
 -   **[Restart the Populate TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)**  
 You can restart the **Populate TPM Discovered Technologies and Lifecycles** job if it encounters any interruptions or failures.
@@ -30,7 +30,7 @@ Use Technology Lifecycle Management \(TLM\) risk data for software products that
 You can optionally customize the default values of the **sn\_apm\_tpm.configurationItemsWithSoftwareInstalls** system property, to capture the details of Technology Lifecycle Management \(TLM\) software products that aren’t stored in the default CMDB tables, Computer \(CMDB\_CI\_Computer\) and all similar instances of the table, Docker Container \(CMDB\_CI\_Docker\_Container\), and Serverless Hardwares \(CMDB\_CI\_Serverless\_Hardware\).
 -   **[View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-audit-risk-details.md)**  
 Use the Enterprise Architecture Workspace to view audit risk details for your technology portfolio and identify items that require attention.
--   **[View TPM logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-tpm-logs.md)**  
+-   **[View Technology Lifecycle Management logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-tpm-logs.md)**  
 Track the progress of Technology Lifecycle Management \(TLM\) analysis by examining the TPM Discovered Technology Run Logs \[sn\_apm\_tpm\_discovered\_technology\_run\_log\] table. Each time the analysis is run, an entry is added to this table.
 -   **[Run a scheduled job to populate Technology Lifecycle Management lifecycle record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.md)**  
 Run the Populate Number field in TPM Discovered Technologies job to populate missing Technology Lifecycle Management \(TLM\) lifecycle record identifiers.

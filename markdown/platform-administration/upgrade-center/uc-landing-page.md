@@ -9,7 +9,7 @@ classification: upgrade-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade, ServiceNow AI Platform]
 ---
 
 # Upgrade Center

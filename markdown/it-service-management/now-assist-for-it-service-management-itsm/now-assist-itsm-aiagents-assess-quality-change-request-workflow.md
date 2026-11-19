@@ -74,7 +74,7 @@ To change how similar change requests are selected, set the following system pro
 
 ## Create a change policy document
 
-A change policy document defines how the agent rates each field of a change request. Change policy documents are stored in the Change Policy Control table. If no active change policy document applies, the workflow falls back to the similar changes path.
+A change policy document defines how the agent rates each field of a change request. Change policy documents are stored in the **Change Policy Control** \[`change_policy_control`\] table. If no active change policy document applies, the workflow falls back to the similar changes path.
 
 To create a change policy document:
 

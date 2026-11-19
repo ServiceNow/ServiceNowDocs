@@ -7,19 +7,21 @@ release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Semantic Index Configuration form
 
 The Semantic Index Configuration form enables you to define semantic indexing settings for an AI Search indexed source.
 
-For details on defining and modifying semantic indexing settings for an indexed source, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/configure-semantic-indexing-ais.md).
+You can access this form from the Semantic Index Configuration related list on the Indexed Source form.
 
 **Note:** This form is only available when the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) is active on your instance. To activate this plugin, your instance must have at least one [ServiceNow Otto® application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md) installed.
+
+For details on defining and modifying semantic indexing settings for an indexed source, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/configure-semantic-indexing-ais.md).
 
 <table id="table_t1b_wjh_xcc"><thead><tr><th>
 

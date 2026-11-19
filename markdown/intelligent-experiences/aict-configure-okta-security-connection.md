@@ -1,6 +1,6 @@
 ---
 title: Add an Okta connection
-description: Connect Okta to AI Control Tower so that policies and AI agent containment with kill switch protocol prevent future tokens from being issued to a deactivated AI agent.
+description: Connect Okta to Super Intelligence Control Tower so that policies and AI agent containment with kill switch protocol prevent future tokens from being issued to a deactivated AI agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configure-okta-security-connection.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring security connections, Configuring integrations, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add an Okta connection
 
-Connect Okta to AI Control Tower so that policies and AI agent containment with kill switch protocol prevent future tokens from being issued to a deactivated AI agent.
+Connect Okta to Super Intelligence Control Tower so that policies and AI agent containment with kill switch protocol prevent future tokens from being issued to a deactivated AI agent.
 
 ## Before you begin
 
@@ -92,7 +92,7 @@ When Okta is configured and the agent's identity is federated through Okta, deac
 
     Select **Submit**.
 
-4.  Navigate to **AI Control Tower** &gt; **Settings** &gt; **Integrations** &gt; **Control Enforcement Points**.
+4.  Navigate to **Control Tower** &gt; **Settings** &gt; **Integrations** &gt; **Control Enforcement Points**.
 
 5.  On the **Available security connectors** sub-tab, select **Okta**.
 

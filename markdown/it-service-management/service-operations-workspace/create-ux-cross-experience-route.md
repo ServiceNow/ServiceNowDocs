@@ -19,7 +19,7 @@ Create a UX cross-experience route to share a record page from one workspace so 
 
 ## Before you begin
 
-Before you begin, identify the record page you want to share and the workspace where it should open.
+The record page to share and the workspace where it should open must be identified.
 
 Role required: admin.
 
@@ -27,7 +27,7 @@ Role required: admin.
 
 1.  Navigate to the UX cross-experience route list.
 
-    In the filter navigator, enter `sys_ux_interoperable_route.list`.
+    In the navigation filter, enter `sys_ux_interoperable_route.list`.
 
 2.  Select **New**.
 

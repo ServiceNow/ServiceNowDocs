@@ -18,7 +18,7 @@ You can add custom model categories for your instance.
 
 ## Before you begin
 
-Role required: model\_manager
+Role required: category\_manager
 
 ## About this task
 

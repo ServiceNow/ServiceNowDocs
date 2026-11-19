@@ -22,7 +22,7 @@ Starting with the Yokohama release, Patient Support Services is being prepared f
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-This test suite for Patient Support Services Enrollment Case ensures that enrollment actions are functional via the CSM/FSM configurable workspace. The following three tests are included within this suite:
+This test suite for Patient Support Services Enrollment Case ensures that enrollment actions are functional via the CRM Workspace. The following three tests are included within this suite:
 
 1.  PSS - Assigning enrollment case: Assign enrollment case to healthcare agents who are logged-in.
 2.  PSS - Updating enrollment case: Update enrollment cases after adding additional comments.

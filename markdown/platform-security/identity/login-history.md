@@ -24,7 +24,7 @@ Pagination in the login history is 20 by default and can be set to a maximum of 
 
 \[Omitted image "login-history.png"\] Alt text: Login History Details
 
-Following are some of the other details from the Login History:
+The following are some of the other details from the Login History:
 
 -   The Time of Login is the updated time when the mobile devices are used to access the instance.
 -   The records are stored in Identity Center for 30 days.
