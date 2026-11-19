@@ -1,31 +1,27 @@
 ---
-title: Configure a ServiceNow System Logs Retriever data input in Health Log Analytics manually
-description: Set up a data input for streaming log data from the ServiceNow System Log table to the HLA engine \(aka Occultus\).
+title: Configure ServiceNow System Logs Retriever data inputs
+description: Configure a data input for streaming log data from the ServiceNow System Log table to the Health Log Analytics AI engine \(Occultus\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-data-input-glide-syslog.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2025-01-30"
+reading_time_minutes: 1
 keywords: [ServiceNow, Health Log Analytics, HLA, data input, configuration]
-breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configuring data inputs for Health Log Analytics manually, Set up data inputs for Health Log Analytics manually, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
-# Configure a ServiceNow System Logs Retriever data input in Health Log Analytics manually
+# Configure ServiceNow System Logs Retriever data inputs
 
-Set up a data input for streaming log data from the ServiceNow System Log table to the HLA engine \(aka Occultus\).
+Configure a data input for streaming log data from the ServiceNow System Log table to the Health Log Analytics AI engine \(Occultus\).
 
 ## Before you begin
 
 **Note:** Only a single ServiceNow System Logs Retriever data input can exist in the system. This data input doesn't run on a MID Server.
 
 Role required: admin
-
-## About this task
-
-The HLA store app installation automatically creates the ServiceNow System Logs Retriever data input. Use this procedure if you need to recreate it manually.
 
 ## Procedure
 
@@ -48,15 +44,13 @@ The HLA store app installation automatically creates the ServiceNow System Logs 
 
 The data input configuration process is complete. Health Log Analytics adds the data input record to the **Data Inputs** table and attaches the configuration file to the data input record.
 
-The data input starts streaming ServiceNow log data from the System Log table to the Health Log Analytics AI engine, based on the configured filters. Admin users can set filters to query the System Log table. Operators can monitor the logs and view the alerts that Health Log Analytics generates from them.
-
-For a description of how this data input can help you detect and resolve emerging issues in your organization's ServiceNow instance, see [Use Case: Proactive monitoring of your ServiceNow instance in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-use-case-syslogs.md).
+The data input starts streaming ServiceNow log data from the System Log table to the Health Log Analytics AI engine, based on the configured filters. Admin users can set filters to query the System Log table. Users with the evt\_mgmt\_user role can use Event Management to monitor the logs and view the alerts that Health Log Analytics generates from them.
 
 **Note:** If the HLA engine is down and data has stopped streaming, a notification appears at the top of the data input configuration page. When this happens, contact ServiceNow support.
 
 ## What to do next
 
-[Verify that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
+[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
 **Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 

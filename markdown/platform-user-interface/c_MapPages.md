@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_MapPages.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2025-01-30"
+reading_time_minutes: 4
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -22,11 +22,13 @@ You can create as many map pages as required to define the types of data to disp
 
 Locations are used by various applications to locate users, facilities, or configuration items \(CI\) and are stored in the Location \[cmn\_location\] table. You can configure different levels of location in a parent-child hierarchy. For example, an email server might be associated with a location of Second Floor, whereas the email business service might be associated with New York City.
 
-Each level of this hierarchy contains a separate location record, with the next higher level specified as a parent.
+Each level of this hierarchy contains a separate location record, with the next higher level specified as a parent. In this example each location is selectable as a hierarchy from reference fields:
 
-The location is also used to generate a full identifier in the **Full name** field, which is available by configuring the form. For more information, see .
+\[Omitted image "LocationHierarchy1.png"\] Alt text: The Location hierarchy view
 
-\[Omitted image "LocationFullName.png"\] Alt text: The Full name field on the Location form
+The location is also used to generate a full identifier in the **Full name** field, which is available by configuring the form. For more information, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md).
+
+\[Omitted image "LocationFullName.png"\] Alt text:
 
 ## How locations are defined
 
@@ -118,7 +120,7 @@ Parent
 
 </td><td>
 
-Name of the parent location for this location. Location hierarchies are described earlier.
+Name of the parent location for this location. Location hierarchies are described above.
 
 </td></tr><tr><td>
 
@@ -164,7 +166,7 @@ Stock room
 
 </td><td>
 
-A Boolean field that identifies whether the location is being used as a stock room.
+A boolean field that identifies whether the location is being used as a stock room.
 
 </td></tr><tr><td>
 

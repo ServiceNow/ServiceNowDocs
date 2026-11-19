@@ -1,18 +1,18 @@
 ---
 title: UI Action Bar
-description: Learn how the Workspace UI Actions component functions with CRM Workspace.
+description: Learn how the Workspace UI Actions component functions with Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/migration-form-ui-actions.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CRM Workspace, Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrate to CSM Configurable Workspace, Migrating to Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # UI Action Bar
 
-Learn how the Workspace UI Actions component functions with CRM Workspace.
+Learn how the Workspace UI Actions component functions with Configurable Workspace.
 
 UI actions include custom buttons, menu items, and limiting access to forms based on user role. The UI Action Bar component replaces the UI Actions component in Workspace.
 

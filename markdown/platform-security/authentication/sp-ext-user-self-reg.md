@@ -1,5 +1,5 @@
 ---
-title: Enable external user self-registration for Service Portal
+title: Enabling external user self-registration for Service Portal
 description: Enable external users to register to a ServiceNow app through Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/sp-ext-user-self-reg.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Self-registration to ServiceNow instance, Authentication, Access Management]
+breadcrumb: [Self-register to ServiceNow instance, Authentication, Access Management]
 ---
 
-# Enable external user self-registration for Service Portal
+# Enabling external user self-registration for Service Portal
 
 Enable external users to register to a ServiceNow app through Service Portal.
 

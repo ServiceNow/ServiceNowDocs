@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Components installed with CSD, Client Software Distribution, Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Components installed with client software distribution, Client Software Distribution using Integration Hub, Integration Hub available solutions, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Flows and subflows installed

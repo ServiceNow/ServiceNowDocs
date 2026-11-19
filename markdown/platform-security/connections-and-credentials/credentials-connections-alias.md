@@ -1,5 +1,5 @@
 ---
-title: Explore credentials, connections, and aliases
+title: Exploring credentials, connections, and aliases
 description: All application integrations in the ServiceNow AI Platform use connections, credentials, and aliases to enable applications to access resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/connections-and-credentials/credentials-connections-alias.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Connections and Credentials, Access Management]
 ---
 
-# Explore credentials, connections, and aliases
+# Exploring credentials, connections, and aliases
 
 All application integrations in the ServiceNow AI Platform use connections, credentials, and aliases to enable applications to access resources.
 
@@ -65,9 +65,9 @@ The following features use connections, credentials, and aliases:
 You can set up aliases on the ServiceNow AI Platform in one of two ways:
 
 -   Using the Connections and Credentials module. See [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/connection-alias.md).
--   In the Connections dashboard of Integration Hub. See Add a connection.
+-   In the Connections dashboard of Integration Hub. See [Add a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/dashboard-add-connection.md).
 
-    **Note:** Integration Hub requires a separate subscription. For more information, see Request Integration Hub.
+    **Note:** Integration Hub requires a separate subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/request-ih-overview.md).
 
 
 ## Credential synchronization on MID Servers

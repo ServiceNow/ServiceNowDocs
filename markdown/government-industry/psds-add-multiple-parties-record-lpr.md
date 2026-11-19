@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-add-multiple-parties-record-lpr.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using License and Permit Administration, Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Add Multiple Parties to a record in License and Permit Administration
@@ -20,7 +20,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ## Procedure
 
-1.  Open the License and Permit Administration by navigating to Lists in the Public Sector Workspace.
+1.  Open the License and Permit Administration by navigating to Lists in the CSM Configurable Workspace.
 
 2.  Navigate to the **License and Permit Requests** list and select **All**.
 

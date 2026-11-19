@@ -7,9 +7,9 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Debug scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Debugging scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Debugging applications

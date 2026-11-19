@@ -7,9 +7,9 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Using Control Tower, Control Tower, Enable AI experiences]
 ---
 
 # Create a Now Assist approval task
@@ -42,4 +42,6 @@ Role required: admin
 
     A Now Assist Approval task of an approval request is created.
 
+
+**Parent Topic:**[Using Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

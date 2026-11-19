@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [GoTo Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [GoTo Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Set up the GoTo spoke
@@ -127,31 +127,29 @@ OAuth scope for initiating phone calls and other telephone services using GoToCo
 11. Click **Done**.
 
 
-## Configure a connection for the GoTo spoke
+## Create a GoTo connection
 
 Create a connection between your GoTo applications and your ServiceNow instance.
 
 ### Before you begin
 
-Role required: admin.
+Role required: admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+1.  From your ServiceNow instance, navigate to **Process Automation** &gt; **Flow Designer**.
 
-2.  Click the **Integrations** tab.
+    The Flow Designer launches in a new tab.
 
-3.  Under **Connections**, toggle and enable the **Outbound** connections.
+2.  Select the **Connections** tab.
 
-4.  Locate the alias for **GoTo** and click **View Details**.
+3.  Click **View Details** for your GoTo connection.
 
-    \[Omitted image "goto-connection.png"\] Alt text: Connection for the GoTo spoke
+4.  From the list of available connections, locate GoTo and then click **Configure**.
 
-    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+    The Configure Connection dialog box opens.
 
-    \[Omitted image "goto-connection-conf.png"\] Alt text: Initial connection configuration for the GoTo spoke
-
-5.  On the form, fill in these fields:
+5.  In the dialog box, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -159,11 +157,9 @@ Role required: admin.
     |Name|Name of your GoTo credentials. This field populates automatically.|
     |OAuth Client ID|Client ID that is assigned to your GoTo OAuth client.|
     |OAuth Client Secret|Client secret that is assigned to your GoTo OAuth client.|
-    |OAuth Redirect URL|Redirect URL of the ServiceNow instance on which you are integrating your GoTo applications. Enter the URL in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`.|
+    |OAuth Redirect URL|Redirect URL of the ServiceNow instance on which you are integrating your GoTo applications. This field populates automatically.|
 
-    \[Omitted image "goto-conf-temp.png"\] Alt text: Configure a connection for the GoTo spoke.
-
-6.  Click **Save and Get OAuth Token**.
+6.  Click **Configure and Get OAuth Token**.
 
     The Authorize App dialog box opens.
 

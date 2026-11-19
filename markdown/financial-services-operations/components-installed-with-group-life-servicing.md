@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/components-installed-with-group-life-servicing.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Reference, Group Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Group Life Servicing reference, Setting up Group Life Servicing, Group Life Servicing, Life Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Group Life Servicing
@@ -28,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Case Management Core\[com.sn\_customerservice\]
+Customer Service\[com.sn\_customerservice\]
 
 </td><td>
 

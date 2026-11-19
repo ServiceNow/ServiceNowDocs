@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Task Bundling, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Configuring Task Bundling, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
 ---
 
 # Activate Field Service Task Bundling
@@ -18,7 +18,7 @@ Activate the Task Bundling plugin \(com.snc.fsm\_task\_bundle\) for Field Servic
 
 ## Before you begin
 
-Role required: wm\_admin
+Role required: admin
 
 ## About this task
 

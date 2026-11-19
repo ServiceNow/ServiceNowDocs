@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, Setting up, Work scheduler, Workforce Optimization for ITSM, IT Service Management]
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, Setting up Work scheduler in Workforce Optimization for ITSM, Work scheduler in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Define event mappings for Work scheduler
@@ -17,8 +17,6 @@ breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, 
 Add event mappings required for card interactions and for the card properties transformation to the page configurations in Work scheduler.
 
 ## Before you begin
-
-**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: workspace\_admin or ui\_builder\_admin​
 
@@ -54,15 +52,15 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     The **Create an event** popup screen displays.
 
-<table id="choicetable_c2r_hgm_ntb"><thead><tr><th align="left" id="d245021e232">
+<table id="choicetable_c2r_hgm_ntb"><thead><tr><th align="left" id="d145098e216">
 
 To Attach
 
-</th><th align="left" id="d245021e235">
+</th><th align="left" id="d145098e219">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d245021e241">
+</th></tr></thead><tbody><tr><td id="d145098e225">
 
 **The __CARD\_CLICKED__ event**
 
@@ -74,7 +72,7 @@ Do this
 4.  Click **Add**.
 
 
-</td></tr><tr><td id="d245021e288">
+</td></tr><tr><td id="d145098e272">
 
 **The __CARD\_ACTION\_CLICKED \(Work item cards\)__ event**
 

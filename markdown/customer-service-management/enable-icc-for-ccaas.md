@@ -1,29 +1,29 @@
 ---
-title: Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations
+title: Implement the Interaction Controls Component \(ICC\) for contact center integration
 description: Implement prebuilt, certified integrations with Contact Center as a Service \(CCaaS\) providers using the ServiceNow voice reference architecture.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/enable-icc-for-ccaas.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2025-03-24"
+reading_time_minutes: 1
 keywords: [ICC for contact center integration, ICC for CCaaS, NVC for CCaaS integration]
-breadcrumb: [Configure voice, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [Enable communication channels, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations
+# Implement the Interaction Controls Component \(ICC\) for contact center integration
 
 Implement prebuilt, certified integrations with Contact Center as a Service \(CCaaS\) providers using the ServiceNow® voice reference architecture.
 
 ## About this task
 
-The Interaction Controls Component \(ICC\) feature enables CCaaS providers to display native voiceand callbackintegrations so agents can manage customer calls directly from their configurable workspace.
+The Interaction Controls Component \(ICC\) feature enables CCaaS providers to display native voice integrations so agents can manage customer calls directly from their configurable workspace.
 
-For more information, see [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/contact-center-integration-with-icc.md) and [Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/interaction-controls-component-icc-callback-integration-features.md).
+For more information, see [Integrating contact centers with Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/contact-center-integration-with-icc.md).
 
-The voice controls and callback controls display under the following conditions:
+The voice controls display under the following conditions:
 
--   When the interaction is a phone call, voice controls display.When the interaction is a phone call that is associated with a callback task, the callback controls display.
+-   The interaction is a phone call.
 -   The **Enable interaction controls** field is enabled on the OpenFrame Configuration record that allows the admin to configure the Agent Workspace to display voice interaction components.
 -   The agent is a member of the user group specified on the OpenFrame Configuration record. If no user group is specified, all agents can access the CSM voice interaction record page.
 -   Ensure the certified third-party App Store plugin is installed. For Example:
@@ -58,8 +58,4 @@ Role required: admin
 
 7.  Select **Update**.
 
-
-## What to do next
-
-Refer to [Plugin requirements for voice and callback integrations with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/plugin-requirements-for-external-call-routing-integration-for-contact-centers.md) for dependencies and address all prerequisite requirements to access the ICC features.
 

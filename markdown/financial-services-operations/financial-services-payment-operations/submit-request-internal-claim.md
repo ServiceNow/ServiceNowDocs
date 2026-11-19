@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Managing payment claims and debit approvals, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Managing payment claims and debit approvals, Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Submit a request for an internal claim
@@ -30,19 +30,19 @@ Internal claims can also be created by inquiry agents if the investigation of an
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon\).
 
 3.  Create a claim from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d73048e116">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d62550e101">
 
 Option
 
-</th><th align="left" id="d73048e119">
+</th><th align="left" id="d62550e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d73048e125">
+</th></tr></thead><tbody><tr><td id="d62550e110">
 
 **Create a claim from a consumer record**
 
@@ -52,7 +52,7 @@ Steps
 2.  Click the customer that you want to create a claim for.
 
 
-</td></tr><tr><td id="d73048e152">
+</td></tr><tr><td id="d62550e137">
 
 **Create a claim from a business account record**
 
@@ -62,7 +62,7 @@ Steps
 2.  Click the account that you want to create a claim for.
 
 
-</td></tr><tr><td id="d73048e179">
+</td></tr><tr><td id="d62550e164">
 
 **Create a claim from an interaction record**
 

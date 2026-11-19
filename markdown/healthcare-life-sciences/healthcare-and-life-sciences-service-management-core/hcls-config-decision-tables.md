@@ -1,5 +1,5 @@
 ---
-title: Configure the auto-generation of documents for healthcare cases
+title: Configuring the auto-generation of documents for healthcare cases
 description: You can define the conditions for auto-generating documents for a healthcare case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-decision-tables.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
-# Configure the auto-generation of documents for healthcare cases
+# Configuring the auto-generation of documents for healthcare cases
 
 You can define the conditions for auto-generating documents for a healthcare case.
 

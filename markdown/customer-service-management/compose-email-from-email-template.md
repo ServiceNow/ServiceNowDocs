@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/compose-email-from-email-template.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Manage email tasks, Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Manage email tasks, Using CSM Configurable Workspace in Customer Service Management, Manage cases, Using Customer Service Management, Customer Service Management]
 ---
 
 # Compose an email from an email template
@@ -24,7 +24,7 @@ Default values in email templates can include the recipients \(email addresses i
 
 ## Procedure
 
-1.  Open CRM Workspace.
+1.  Open CSM Configurable Workspace.
 
 2.  Open a case.
 

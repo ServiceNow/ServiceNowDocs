@@ -1,20 +1,20 @@
 ---
 title: Delete a conversion funnel
-description: Delete a funnel that you no longer need.
+description: Easily delete a funnel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/delete-funnel-step.html
 release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Conversion funnels, Using Usage Insights, Usage Insights, Platform Analytics]
+breadcrumb: [Conversion funnels, Using User Experience Analytics, User Experience Analytics, Platform Analytics]
 ---
 
 # Delete a conversion funnel
 
-Delete a funnel that you no longer need.
+Easily delete a funnel.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 ## Procedure
 
-1.  Navigate to **Platform Analytics** &gt; **Usage Insights**.
+1.  Navigate to **Platform Analytics** &gt; **User Experience Analytics**.
 
 2.  From the Applications list, select the application with the funnel you want to delete.
 
@@ -33,5 +33,5 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 5.  Confirm your choice by selecting **Delete**.
 
 
-**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/funnel-reports-uxa.md)
+**Parent Topic:**[Funnel reports in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/funnel-reports-uxa.md)
 

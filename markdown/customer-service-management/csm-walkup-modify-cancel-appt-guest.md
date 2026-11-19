@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-walkup-modify-cancel-appt-guest.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use Walk-up Experience, Customer communication, Use, Customer Service Management]
+breadcrumb: [Using Walk-up Experience, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Modify or cancel a walk-up appointment as a guest user
@@ -36,6 +36,6 @@ Role required: none
 
 4.  Either cancel the appointment or modify it.
 
-    -   To cancel the appointment, click **Cancel appointment**. You will receive an email to confirm that your appointment is cancelled.
+    -   To cancel the appointment, click **Cancel appointment**. You will receive an email to confirm that your appointment is canceled.
     -   To modify the appointment, modify the details and click **Update**.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Conversational Interfaces Diagnostics Tool
 classification: conversational-interfaces-diagnostics-tool
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Use, Conversational Interfaces Diagnostic Tool, Manage people and work, Conversational Interfaces]
+breadcrumb: [Using the Conversational Interfaces Diagnostic Tool, Conversational Interfaces Diagnostic Tool, Conversational Interfaces]
 ---
 
 # Diagnose Microsoft Teams configuration issues

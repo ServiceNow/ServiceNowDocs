@@ -1,18 +1,18 @@
 ---
 title: Impact Category record form
-description: Add impact category details such as name, criteria, applicable timeframes, and maximum RTO value in BCM UIB Workspace.
+description: Use the Impact Category record form to add details about the impact category such as name, criteria that the impact category contributes to, applicable timeframes, maximum RTO value, and so on in BCM UIB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/impact-category-new-record-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Configure impact category for BIA, General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Impact Category record form
 
-Add impact category details such as name, criteria, applicable timeframes, and maximum RTO value in BCM UIB Workspace.
+Use the Impact Category record form to add details about the impact category such as name, criteria that the impact category contributes to, applicable timeframes, maximum RTO value, and so on in BCM UIB Workspace.
 
 ## Impact Category record form
 

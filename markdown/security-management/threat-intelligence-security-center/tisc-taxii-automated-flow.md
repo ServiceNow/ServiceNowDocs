@@ -7,9 +7,8 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [TAXII collection, automated flow, flow designer, threat score, observable]
 breadcrumb: [Working with automated flows, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

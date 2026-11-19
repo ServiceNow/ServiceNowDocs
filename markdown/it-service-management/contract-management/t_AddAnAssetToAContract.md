@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Create a contract, Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Create a contract, Contracts, Contract Management use, Contract Management, Asset Management, IT Service Management]
 ---
 
 # Add an asset to a contract

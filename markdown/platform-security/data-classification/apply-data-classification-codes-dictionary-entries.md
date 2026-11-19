@@ -7,7 +7,7 @@ release: yokohama
 product: Data Classification
 classification: data-classification
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Data Classification, Platform Privacy]
 ---
@@ -36,6 +36,6 @@ Role required: data\_classification\_admin and admin
 
     You can select multiple data classifications as needed.
 
-    See  for additional information.
+    See [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DataDictionaryTables.md) for additional information.
 
 

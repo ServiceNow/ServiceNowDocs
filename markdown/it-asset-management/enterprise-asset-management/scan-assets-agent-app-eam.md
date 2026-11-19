@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Manage enterprise asset inventory audit using the ServiceNow Agent app, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
+breadcrumb: [Manage enterprise asset inventory audit using the ServiceNow Agent app, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Complete a single scan enterprise asset inventory audit using the ServiceNow Agent app
@@ -18,7 +18,11 @@ Scan your inventory assets by using the ServiceNow Agent app for single scan aud
 
 ## Before you begin
 
-Role required: sn\_eam.enterprise\_admin, sn\_eam.enterprise\_asset\_manager, sn\_eam.asset\_technician, sn\_itam\_common.asset\_audit\_user, or sn\_itam\_common.asset\_audit\_admin
+Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
+
+## About this task
+
+**Important:** This feature is available with Enterprise Asset Management version 10.0.0 onwards.
 
 ## Procedure
 

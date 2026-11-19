@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/setting-up-fso-integration-with-jha.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Jack Henry jXchange, Integrate, Financial Services Operations \(FSO\)]
+breadcrumb: [Integrating with Jack Henry jXchange, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
 ---
 
 # Setting up the Financial Services Operations Integration with Jack Henry jXchange spoke
@@ -21,7 +21,7 @@ You can set up and configure the Jack Henry jXchange integration in your flows f
 To set up your integration, do the following actions:
 
 1.  Request an Integration Hub subscription. To learn how, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/request-ih-overview.md).
-2.  Install the Financial Services Operations Integration with Jack Henry jXchange application from the ServiceNow Store, which automatically activates the Jack Henry jXchange spoke. For more information on how to integrate and set up a ServiceNow instance with your Jack Henry jXchange account, see [Jack Henry jXchange Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/jha-spoke.md).
+2.  Install the Financial Services Operations Integration with Jack Henry jXchange application from the ServiceNow Store, which automatically activates the Jack Henry jXchange spoke. For more information on how to integrate and set up a ServiceNow instance with your Jack Henry jXchange account, see .
 
 **Parent Topic:**[Financial Services Operations Integration with Jack Henry jXchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-integration-with-jha-integthub-landing-page.md)
 

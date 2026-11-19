@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-additional-plugins.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
-breadcrumb: [Activate, Configure, Field Service Management]
+last_updated: "2025-01-30"
+reading_time_minutes: 4
+breadcrumb: [Activate Field Service Management, Configuring Field Service Management, Field Service Management]
 ---
 
 # Additional plugins for Field Service Management
@@ -66,7 +66,7 @@ Field Services Integration with Project Management. This plugin activates the Pr
 
 </td></tr><tr><td>
 
-Field Service with Project Management Demo
+Field Service with Project Management Demo Data
 
 </td><td>
 
@@ -78,7 +78,7 @@ Demo plugin for the Field Services Integration with Project Management.
 
 </td></tr><tr><td>
 
-Field Service with Service Locations support
+Field Service with Service Locations
 
 </td><td>
 
@@ -102,7 +102,7 @@ Enables customers to receive SMS notification to know the status of their work o
 
 </td></tr><tr><td>
 
-Field Service Contractor Management
+Field Service - Contractor Management
 
 </td><td>
 
@@ -154,11 +154,11 @@ Field Service Management Configurable Dispatcher Workspace
 
 </td><td>
 
-sn\_fsm\_disp\_wrkspc
+com.snc.uib.fsm\_dispatcher\_workspace
 
 </td><td>
 
-Provides the FSM components and pages to support dispatcher flows on CSM Configurable Workspace.Dispatcher Workspace replaced FSM Agent Workspace \(Deprecated\), Central Dispatch \(Deprecated\), and Field Service Map \(Deprecated\).
+Provides the FSM components and pages to support dispatcher flows on CSM Configurable Workspace.
 
 </td></tr><tr><td>
 
@@ -178,7 +178,7 @@ Field Service Virtual Agent Conversations
 
 </td><td>
 
-sn\_fsm\_va
+com.sn\_fsm.virtualagent
 
 </td><td>
 
@@ -270,7 +270,7 @@ Enables Field Service agents to request and source multiple parts. Agents can re
 
 </td></tr><tr><td>
 
-Template Management for Field Service
+Template Management for Field Service Management
 
 </td><td>
 
@@ -286,7 +286,7 @@ Customer Service Install Base Management
 
 </td><td>
 
-sn\_install\_base
+com.snc.install\_base
 
 </td><td>
 
@@ -298,7 +298,7 @@ Process Mining Content Pack for FSM
 
 </td><td>
 
-sn\_fsm\_po
+com.snc.fsm\_process\_optimization
 
 </td><td>
 
@@ -363,30 +363,6 @@ com.sn\_shn
 </td><td>
 
 Enables users to quickly view important information about records.
-
-</td></tr><tr><td>
-
-Field Service Manager Mobile
-
-</td><td>
-
-com.snc.fsm\_manager\_mobile
-
-</td><td>
-
-Allows managers to use Field Service Manager Mobile
-
-</td></tr><tr><td>
-
-Proxy Actions for Field Service Management
-
-</td><td>
-
-sn\_fsm\_proxy\_actn
-
-</td><td>
-
-Enables users to take actions on behalf of other users.
 
 </td></tr></tbody>
 </table>**Related topics**  

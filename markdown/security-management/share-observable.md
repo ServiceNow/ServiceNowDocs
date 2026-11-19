@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/share-observable.html
 release: yokohama
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [View Sightings Search Results, Create sightings search configuration records, Security Operations Integration- Sightings Search capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -24,25 +24,27 @@ Role required: sn\_si.analyst
 
 2.  Select the **Observables** tab from **Show IoC** Related List group.
 
-3.  Select an observable.
+3.  Click on an observable.
 
-4.  On the **Observable** form, select the **Share observable** related link.
+4.  On the **Observable** form click the **Share observable** related link.
 
     The Observable Share dialog box appears.
 
+    \[Omitted image "ShareObservableDialogBox.png"\] Alt text: Share Observable dialog box
+
 5.  Enter a **Name** for this threat share record.
 
-6.  Enter a **Description** of the selected observables.
+6.  Enter a **Description**of the selected observables.
 
 7.  Choose **Circles** to share the observables with.
 
-8.  Select **Submit**.
+8.  Click **Submit**.
 
     The observable\(s\) are shared with the specified Trusted Circle.
 
-9.  You can view the threat share records by selecting the **Threat shares** tab.
+9.  You can view the threat share records by clicking the **Threat shares** tab.
 
-10. If any of the shared observables contain sightings, the sightings are also shared and can be viewed by selecting the **Sightings** tab.
+10. If any of the shared observables contain sightings, the sightings are also shared and can be viewed by clicking the **Sightings** tab.
 
 
 **Parent Topic:**[View Sightings Search Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/view-sightings-search-results.md)

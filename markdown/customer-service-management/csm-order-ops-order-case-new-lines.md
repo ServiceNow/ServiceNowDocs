@@ -1,16 +1,16 @@
 ---
-title: Create an order case line item for an order case
+title: Create a new order case line item for an order case
 description: Create a new order case line item for an existing order case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-order-ops-order-case-new-lines.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Creating an order case, Order Operations Case Management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Creating an order case, Order Operations Case Management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# Create an order case line item for an order case
+# Create a new order case line item for an order case
 
 Create a new order case line item for an existing order case.
 
@@ -20,7 +20,7 @@ Role required: sn\_order\_case.creator, sn\_order\_case.agent, sn\_customerservi
 
 ## Procedure
 
-1.  Open an order case record in CRM Workspace.
+1.  Open an order case record in CSM Configurable Workspace.
 
 2.  Select **New** in the Order Case Line list.
 

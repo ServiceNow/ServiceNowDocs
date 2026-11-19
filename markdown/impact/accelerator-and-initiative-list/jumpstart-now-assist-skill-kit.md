@@ -9,7 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
 ---
 
 # Jumpstart Your ServiceNow AI Skill Kit
@@ -19,8 +19,6 @@ This Accelerator provides a demonstration of the possibilities and capabilities 
 ## Accelerator overview
 
 Jumpstart Your ServiceNow AI Skill Kit provides Impact customers with an overview of the capabilities and features of ServiceNow AI Skill Kit. Through an applied demonstration, we highlight the creation of a simple, custom use case, such as Sentiment Analysis, illustrating how Skill Kit helps to harness the full potential of Now LLM and the platform for their unique needs. Additionally, this Accelerator provides customers with key resources and leading practices guides for getting started.​
-
-## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
@@ -56,11 +54,9 @@ One or more customer resource is requested. The specific number of resources pro
 |System Administrators|Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.|✓| |
 |Trusted Service Partners|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
 
-## Requested Information/Access
+## Requested information / access
 
-**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+Refer to the applicable Impact Accelerator description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
-## Exclusions
-
-ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
+ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

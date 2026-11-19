@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Discovery Operations Monitor dashboard, Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery Operations Monitor dashboard, Discovery Admin Workspace Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure the time interval for a visualization
@@ -18,7 +18,7 @@ Update the data collection time interval for individual visualizations on the Di
 
 ## Before you begin
 
-Discovery Admin Workspace must be installed, starting with v1.15.0.
+Verify you're using Discovery Admin Workspace v1.15.0 or later.
 
 Role required: discovery\_admin
 
@@ -48,6 +48,8 @@ Role required: discovery\_admin
 
 8.  Then, select **Exit editing mode**.
 
+
+**Parent Topic:**[Discovery Operations Monitor dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/disco-operations-monitor.md)
 
 **Related topics**  
 

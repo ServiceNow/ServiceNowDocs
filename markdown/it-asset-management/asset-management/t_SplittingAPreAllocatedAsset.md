@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Manage pre-allocated assets, Use, Base Asset Management, Common applications, Asset Management]
+breadcrumb: [Manage pre-allocated assets, Using Asset Management, Asset Management, IT Asset Management]
 ---
 
 # Split a pre-allocated asset

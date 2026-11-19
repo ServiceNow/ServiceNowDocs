@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/quote-mgt-copy-quote-item-location.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Using Quote Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
 ---
 
 # Copy locations for quote line items
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All**
 
@@ -32,15 +32,15 @@ Role required: sales\_agent
 
 6.  In the **Copy line items** dialog box, choose one of the options.
 
-<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d127001e143">
+<table id="choicetable_ij4_ykn_zcc"><thead><tr><th align="left" id="d33420e132">
 
 Option
 
-</th><th align="left" id="d127001e148">
+</th><th align="left" id="d33420e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d127001e156">
+</th></tr></thead><tbody><tr><td id="d33420e145">
 
 **Keep original location**
 
@@ -48,7 +48,7 @@ Description
 
 Line items for the selected quote are created and the source location is retained.
 
-</td></tr><tr><td id="d127001e165">
+</td></tr><tr><td id="d33420e154">
 
 **Choose new location**
 
@@ -63,6 +63,4 @@ This action copies the quote line items to a new location.In the **Service locat
 
 7.  Select **Copy**.
 
-
-**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgmt-using.md)
 

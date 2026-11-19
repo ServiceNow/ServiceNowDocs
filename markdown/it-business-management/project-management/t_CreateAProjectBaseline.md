@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create baseline of a project
@@ -42,15 +42,15 @@ You can create as many financial baselines as necessary and [compare them](https
 
 3.  To create schedule and financial baselines of a project, use any of the following options.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d168501e121">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d134996e121">
 
 Option
 
-</th><th align="left" id="d168501e124">
+</th><th align="left" id="d134996e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d168501e130">
+</th></tr></thead><tbody><tr><td id="d134996e130">
 
 **From the Financials tab**
 
@@ -62,19 +62,19 @@ Steps
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d168501e163">
+</td></tr><tr><td id="d134996e163">
 
 **From the Project Workspace**
 
 </td><td>
 
 1.  Open a project from planning page in Project Workspace.
-2.  Select the baseline icon \(\[Omitted image "icon-baselines.png"\] Alt text: baseline icon\).
+2.  Select the baseline icon \(\[Omitted image "icon-baselines.png"\] Alt text:\).
 3.  In the Create Baseline pop-up, enter a suitable name and description.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d168501e196">
+</td></tr><tr><td id="d134996e195">
 
 **From a related link**
 
@@ -85,7 +85,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d168501e223">
+</td></tr><tr><td id="d134996e222">
 
 **From a related list**
 
@@ -128,10 +128,6 @@ Compare baselines to review variance between tasks and identify which task has v
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
-
-[Schedule a project from a start date]()
-
-[Apply or change a task constraint]()
 
 [Update a project]()
 

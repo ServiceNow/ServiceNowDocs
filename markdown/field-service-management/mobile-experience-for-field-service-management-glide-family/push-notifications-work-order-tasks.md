@@ -7,9 +7,9 @@ release: yokohama
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure push notifications in the Now Mobile Agent app, Configure the Now Mobile Agent application, Setting up Field Service Mobile Agent, Configure, Field Service Management]
+breadcrumb: [Configuring push notifications for task assignment, Configure the Now Mobile Agent application, Setting up Field Service Mobile Agent, Configuring Field Service Management, Field Service Management]
 ---
 
 # Push notifications, actions, and messages

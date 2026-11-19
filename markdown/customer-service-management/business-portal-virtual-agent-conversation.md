@@ -1,18 +1,18 @@
 ---
 title: Get help using virtual agent conversations from Business Portal
-description: Predefined Customer Service Virtual Agent chatbot conversations help end users complete common self-service tasks. Configure chatbot topics with predefined NLU to interpret user input and return relevant responses based on conversation context.
+description: Predefined Customer Service Virtual Agent chatbot conversations help your customers complete common self-service tasks, such as getting help with a product or checking the status of a case. Use predefined NLU with your virtual agent chatbot topics to assess the intent of the user input and provide the best response based on the context of the conversation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/business-portal-virtual-agent-conversation.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Get help using virtual agent conversations from Business Portal
 
-Predefined Customer Service Virtual Agent chatbot conversations help end users complete common self-service tasks. Configure chatbot topics with predefined NLU to interpret user input and return relevant responses based on conversation context.
+Predefined Customer Service Virtual Agent chatbot conversations help your customers complete common self-service tasks, such as getting help with a product or checking the status of a case. Use predefined NLU with your virtual agent chatbot topics to assess the intent of the user input and provide the best response based on the context of the conversation.
 
 ## Before you begin
 
@@ -46,15 +46,15 @@ ServiceNow NLU enables discovery of the chatbot topics based on either the keywo
 
 4.  Use
 
-<table id="choicetable_cfq_4xm_rgb"><thead><tr><th align="left" id="d338140e133">
+<table id="choicetable_cfq_4xm_rgb"><thead><tr><th align="left" id="d273541e124">
 
 To
 
-</th><th align="left" id="d338140e136">
+</th><th align="left" id="d273541e127">
 
 Follow these steps
 
-</th></tr></thead><tbody><tr><td id="d338140e142">
+</th></tr></thead><tbody><tr><td id="d273541e133">
 
 **Check the status of a case**
 
@@ -74,7 +74,7 @@ Follow these steps
     -   Contact an agent.
 
 
-</td></tr><tr><td id="d338140e190">
+</td></tr><tr><td id="d273541e181">
 
 **Get help with a product**
 
@@ -94,7 +94,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
 -   Contact an agent
 
 
-</td></tr><tr><td id="d338140e233">
+</td></tr><tr><td id="d273541e224">
 
 **Get help**
 
@@ -102,7 +102,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
 
 If you’re an anonymous user not logged in to the application, enter keywords for your issue. The chatbot returns a list of related knowledge articles that have been made public. If there are no matching articles that would help resolve the issue, you can choose to be transferred to a live agent.
 
-</td></tr><tr><td id="d338140e245">
+</td></tr><tr><td id="d273541e236">
 
 **Submit Request**
 
@@ -115,10 +115,10 @@ If you’re an anonymous user not logged in to the application, enter keywords f
 
 **Note:** Wherever the topic is opened, the records will display on the same portal.
 
-3.  Click on the link displayed and exit the virtual agent if you do not have any further request.
+3.  Select the link displayed and exit the virtual agent if you do not have any further request.
 
 
-</td></tr><tr><td id="d338140e287">
+</td></tr><tr><td id="d273541e278">
 
 **Create Case**
 
@@ -126,22 +126,22 @@ If you’re an anonymous user not logged in to the application, enter keywords f
 
 Creates a case from Virtual Agent. You need the following fields to create a case:
 
--   short\_description \(mandatory\)
+-   short\_description \(required\)
 -   description
 -   account\_sys\_id
 -   contact\_sys\_id
 -   consumer\_sys\_id
-The values of these can be empty. If the account, contact, and consumer fields are empty, the logged in user details are populated. The topic block returns the variable case\_sys\_id from the toic block.
+The values of these can be empty. If the account, contact, and consumer fields are empty, the logged-in user details are populated. The topic block returns the variable case\_sys\_id from the topic block.
 
-</td></tr><tr><td id="d338140e317">
+</td></tr><tr><td id="d273541e308">
 
 **Update Case**
 
 </td><td>
 
-Updates a case from Virtual agent. You need the following 2 fields to update a case:
+Updates a case from Virtual agent. You need the following two fields to update a case:
 
- -   case\_sys\_id \(mandatory\) - must be a valid case ID. If the ID is valid the following 4 options are displayed:
+ -   case\_sys\_id \(required\) - must be a valid case ID. If the ID is valid the following four options are displayed:
     -   Add product information is displayed only if enable\_product\_update is set to true.
     -   Add a comment
     -   Attach an image

@@ -7,9 +7,9 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Setting up the Action-Oriented Landing Page, Configure, Industrial Workspace, Operational Technology]
+breadcrumb: [Set up OT Landing Page, Configure, Industrial Workspace, Operational Technology]
 ---
 
 # Set the system properties for the Operational Technology Action-Oriented Landing Page

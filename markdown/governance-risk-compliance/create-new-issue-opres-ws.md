@@ -1,20 +1,20 @@
 ---
-title: Create Issue form
-description: Use the Create Issue form in Operational Resilience Workspace to add an issue to a business service or a scenario analysis.
+title: Create New Issue form
+description: Use the Create New Issue form in Operational Resilience Workspace to add an issue to a business service or a scenario analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-new-issue-opres-ws.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Creating or adding an issue, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create Issue form
+# Create New Issue form
 
-Use the Create Issue form in Operational Resilience Workspace to add an issue to a business service or a scenario analysis.
+Use the Create New Issue form in Operational Resilience Workspace to add an issue to a business service or a scenario analysis.
 
-## Create Issue form
+## Create New Issue form
 
 For a description of the field values, see the following table.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
 ---
 
 # Configure an appointment booking record producer
@@ -20,7 +20,7 @@ Configure an appointment booking record producer and enable the appointment book
 
 Enable the appointment booking variable set to display the appointment selection widget on the record producer.
 
-Role required: catalog\_admin
+Role required: appointment\_booking\_admin, admin
 
 ## About this task
 

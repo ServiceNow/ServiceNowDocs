@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-data-model-forms.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Configure forms and lists
@@ -16,10 +16,7 @@ Configure forms to add the fields and related lists that are necessary to suppor
 
 ## Before you begin
 
-Role required: One of the following:
-
--   admin
--   csm\_guided\_setup\_user designated as a delegated developer
+Role required: admin
 
 ## Procedure
 
@@ -39,7 +36,7 @@ Role required: One of the following:
     -   Sold Products
 5.  Add the **Service Organization** field to the Case form for these views: Case and Workspace.
 
-6.  Add the **Requestor Organization \(formerly Requesting Service Organization\)** field to the Case form for these views: Case and Workspace.
+6.  Add the **Requesting Service Organization** field to the Case form for these views: Case and Workspace.
 
 7.  Add the **Updated by** field to the Case form for these views: Case and Workspace.
 

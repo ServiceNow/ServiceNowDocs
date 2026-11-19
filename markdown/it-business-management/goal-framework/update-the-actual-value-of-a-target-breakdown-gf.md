@@ -7,8 +7,8 @@ release: yokohama
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2025-01-30"
+reading_time_minutes: 1
 breadcrumb: [Target breakdowns, Manage goals, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
@@ -24,21 +24,19 @@ Role required: sn\_gf.goal\_user
 
 **Note:** Only the owner or contributors of the goal can update the target breakdowns.
 
-**Important:** You can't update the actual value of a stale target. Its fields are read-only until an administrator resets its check-in frequency. For details, see [Stale targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/stale-targets-gf.md).
-
 ## Procedure
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d288119e77">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d223813e62">
 
 Option
 
-</th><th align="left" id="d288119e80">
+</th><th align="left" id="d223813e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d288119e86">
+</th></tr></thead><tbody><tr><td id="d223813e71">
 
 **From the Targets related list**
 
@@ -49,7 +47,7 @@ Steps
 3.  From the Quantitative Targets related list, open the required target record.
 
 
-</td></tr><tr><td id="d288119e116">
+</td></tr><tr><td id="d223813e101">
 
 **From the Targets module**
 

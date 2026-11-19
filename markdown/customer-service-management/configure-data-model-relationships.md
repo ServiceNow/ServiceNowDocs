@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-data-model-relationships.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Create relationships
@@ -17,8 +17,6 @@ Use relationships to provide internal and external users with additional access 
 ## Before you begin
 
 Role required: admin
-
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
 
 ## About this task
 
@@ -110,7 +108,7 @@ Use the Authorized Representative responsibility to create a relationship betwee
 
 2.  Select the desired relationship.
 
-<table id="choicetable_emj_jjz_2mb"><tbody><tr><td id="d121243e275">
+<table id="choicetable_emj_jjz_2mb"><tbody><tr><td id="d100894e259">
 
 **Account Team Members**
 
@@ -118,7 +116,7 @@ Use the Authorized Representative responsibility to create a relationship betwee
 
 Create a relationship between an internal user and an account.
 
-</td></tr><tr><td id="d121243e284">
+</td></tr><tr><td id="d100894e268">
 
 **Consumer Team Members**
 
@@ -126,7 +124,7 @@ Create a relationship between an internal user and an account.
 
 Create a relationship between an internal user and a consumer.
 
-</td></tr><tr><td id="d121243e293">
+</td></tr><tr><td id="d100894e277">
 
 **Household Team Members**
 
@@ -134,7 +132,7 @@ Create a relationship between an internal user and a consumer.
 
 Create a relationship between an internal user and a household.
 
-</td></tr><tr><td id="d121243e302">
+</td></tr><tr><td id="d100894e286">
 
 **Consumer Relationships**
 
@@ -142,7 +140,7 @@ Create a relationship between an internal user and a household.
 
 Create a relationship between two consumers, regardless of household.
 
-</td></tr><tr><td id="d121243e311">
+</td></tr><tr><td id="d100894e295">
 
 **Household Relationships**
 
@@ -217,7 +215,7 @@ Household Member Relationship
 
 </td><td>
 
--   **Household**: Select the desired household.
+-   **Household**; select the desired household.
 -   **Consumer is**: Select the consumer in the household to fulfill the responsibility on behalf of another consumer within the same household.
 -   **Responsibility**: Select the **Authorized Representative** responsibility.
 -   **of Consumer**: Select the consumer who is being represented by the consumer in the **Consumer is** field.
@@ -230,7 +228,7 @@ Household Member Relationship
 
     The relationship is added to the relationship list.
 
-    Account, Consumer, and Household Team Member relationships are also added to the corresponding related lists on the Business Organization \(formerly Business Location\) form.
+    Account, Consumer, and Household Team Member relationships are also added to the corresponding related lists on the Business Location form.
 
     -   Account Staff Relationships
     -   Consumer Staff Relationships

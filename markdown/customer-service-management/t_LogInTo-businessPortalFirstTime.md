@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_LogInTo-businessPortalFirstTime.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Self-register, Use Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Customer contact self-registration on Business Portal, Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Log in to the Business Portal for the first time
@@ -20,7 +20,7 @@ Role required: none
 
 ## About this task
 
-After a customer administrator creates your account or approves your registration request, you receive a temporary password by email. You must log in with that temporary password and then set a permanent password before you can use the Business Portal.
+After a registration request is approved, the customer contact receives an email with a user ID and temporary password. When logging in for the first time, the contact is asked to change the password.
 
 ## Procedure
 
@@ -42,11 +42,4 @@ After a customer administrator creates your account or approves your registratio
 
 8.  Select **Submit**.
 
-
-**Related topics**  
-
-
-[Submit a self-registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_Submit-businessPortal-SelfRegRequest.md)
-
-[Request a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_RequestPasswordReset-businessportal.md)
 

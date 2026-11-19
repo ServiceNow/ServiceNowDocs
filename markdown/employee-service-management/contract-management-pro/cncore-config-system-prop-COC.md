@@ -7,10 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-keywords: [Certificate of completion]
-breadcrumb: [Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure additional features in CM Pro, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
 ---
 
 # Activate a system property to generate a certificate of completion
@@ -21,7 +20,7 @@ As a contract configurator, activate a system property to generate a certificate
 
 You must have configured an electronic signature provider. For more information, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
 
-Role required: admin
+Role required: sn\_cm\_core.contract\_config
 
 ## About this task
 
@@ -35,8 +34,6 @@ The certificate of completion provided by Docusign or Adobe Acrobat Sign include
 
 2.  In the **Name** column, search for the `sn_cm_core.enable_executed_contract_audit_certificate` property.
 
-    \[Omitted image "cmpro-audit-certificate.png"\] Alt text: Audit certificate property for executed contracts.
-
 3.  Select the property.
 
 4.  If you aren’t able to edit the property in the current application scope, select the word **here** in the message at the top of the page.
@@ -48,20 +45,18 @@ The certificate of completion provided by Docusign or Adobe Acrobat Sign include
 
 ## Result
 
-A certificate of completion will be generated for all electronically signed contracts.
+A certificate of completion will be issued for the electronically signed contract.
 
 **Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 
 
-[Configuring Contract Workspace]()
+[Configuring Contract Workspace with UI Builder components]()
 
 [Configure signature pause duration when modifying signatories]()
 
 [Auto-populate the start date and end date for contract requests]()
-
-[Enable signatory roles]()
 
 [Enable users to view email details in activity stream]()
 

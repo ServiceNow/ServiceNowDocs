@@ -7,9 +7,8 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
-keywords: [Webhook Triggers, Webhooks Configurations, Create Update Delete events]
 breadcrumb: [Working with Webhooks, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -31,15 +30,15 @@ Role required: sn\_sec\_tisc.admin
 
 3.  Click **New**.
 
-<table id="choicetable_cfv_dkn_zbc"><thead><tr><th align="left" id="d46099e101">
+<table id="choicetable_cfv_dkn_zbc"><thead><tr><th align="left" id="d45553e93">
 
 Field
 
-</th><th align="left" id="d46099e104">
+</th><th align="left" id="d45553e96">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d46099e110">
+</th></tr></thead><tbody><tr><td id="d45553e102">
 
 **Name**
 
@@ -47,7 +46,7 @@ Description
 
 Enter a webhook trigger name.
 
-</td></tr><tr><td id="d46099e119">
+</td></tr><tr><td id="d45553e111">
 
 **Description**
 
@@ -55,7 +54,7 @@ Enter a webhook trigger name.
 
 Add the description of the webhook trigger.
 
-</td></tr><tr><td id="d46099e128">
+</td></tr><tr><td id="d45553e120">
 
 **Table**
 
@@ -63,7 +62,7 @@ Add the description of the webhook trigger.
 
 Select the table for the webhook trigger.
 
-</td></tr><tr><td id="d46099e137">
+</td></tr><tr><td id="d45553e129">
 
 **Trigger Type**
 
@@ -77,7 +76,7 @@ These are the list of fields on the record for which the update event needs to b
 
 **Delete**: If the **Trigger Type: Delete** then the Exclusion Fields is not visible.
 
-</td></tr><tr><td id="d46099e174">
+</td></tr><tr><td id="d45553e166">
 
 **Exclusion Fields**
 
@@ -85,7 +84,7 @@ These are the list of fields on the record for which the update event needs to b
 
 These are the set of fields which are excluded from the webhook trigger payload.
 
-</td></tr><tr><td id="d46099e183">
+</td></tr><tr><td id="d45553e175">
 
 **Filter Conditions**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [Configure, Learning Core, HR Service Delivery, Employee Service Management]
+last_updated: "2025-01-30"
+reading_time_minutes: 3
+breadcrumb: [Configuring Learning Core, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
 # Integrating Learning Core with third-party learning management systems
@@ -30,76 +30,84 @@ The following plugins are not active by default, and you must install them to us
 
 1.  Integrate your ServiceNow instance with the third-party learning source account that you plan to use.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d83023e98">
+<table id="id_znb_bqn_vfc"><thead><tr><th>
 
-To integrate with this third-party learning source
+Third-party content
 
-</th><th align="left" id="d83023e101">
+</th><th>
 
-Do this
+New and Updated Services synchronized
 
-</th></tr></thead><tbody><tr><td id="d83023e107">
+</th></tr></thead><tbody><tr><td>
 
-**Pluralsight Skills account**
-
-</td><td>
-
-Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-pluralsight-spk.md) to perform the integration.
-
-</td></tr><tr><td id="d83023e122">
-
-**Cornerstone OnDemand application**
+Udemy
 
 </td><td>
 
-Register an OAuth application in Cornerstone OnDemand application and authenticate requests from ServiceNow instance. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-cornerstone.md) to perform the integration.
+-   Courses
+-   User activity
 
-</td></tr><tr><td id="d83023e140">
 
-**Udemy application**
+</td></tr><tr><td>
 
-</td><td>
-
-Integrate your Udemy application with your ServiceNow instance. For more information, see [Set up the Udemy spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-udemy-spk.md)
-
- **Note:** You must manually configure fields such as logos and course reassignments in the learning system configuration table.
-
-</td></tr><tr><td id="d83023e161">
-
-**Sumtotal application**
+Cornerstone
 
 </td><td>
 
-Integrate your Sumtotal application with your ServiceNow instance. For more information, see [Set up the Sumtotal spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-sumtotal.md).
+-   Users
+-   Courses
+-   User activity
+-   Course assign service
 
-</td></tr><tr><td id="d83023e183">
 
-**Saba application**
+</td></tr><tr><td>
 
-</td><td>
-
-Integrate your Saba application with your ServiceNow instance. For more information, see [Set up Saba spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/saba-spoke.md) .
-
-</td></tr><tr><td id="d83023e203">
-
-**Workday Learning**
+Pluralsight
 
 </td><td>
 
-Integrate your Workday Learning application with your ServiceNow instance. For more information, see [Set up Workday spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/saba-spoke.md) .
+-   Courses
+-   Course progress such as percentage
 
-</td></tr><tr><td id="d83023e223">
 
-**SuccessFactors Learning**
+</td></tr><tr><td>
+
+Sumtotal
 
 </td><td>
 
-Integrate your SuccessFactors Learning application with your ServiceNow instance. For more information, see [Set up SuccessFactors Learning spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/successfactors-learning-setup.md) .
+-   Users
+-   Courses
+-   User activity
+-   Assign course in Sumtotal
+
+
+</td></tr><tr><td>
+
+Saba
+
+</td><td>
+
+-   Course assign service
+-   Pull Courses from Saba
+-   Sync Saba Users
+-   Pull Saba User Course Activity
+
+
+</td></tr><tr><td>
+
+Workday Learning
+
+</td><td>
+
+-   Users
+-   Courses
+-   User activity
+-   Assign course in Workday Learning
+
 
 </td></tr></tbody>
-</table>    The records from the third-party content are pulled into your ServiceNow instance using an API call. To successfully run this API call, you must configure the **com.glide.transform.json.max-partial-length** and **com.snc.process\_flow.reporting.serialized.val\_size\_limit** properties. For more information on these system properties, see [Configure properties for Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/config-ln-prop.md) .
-
-2.  Activate the required schedule flow to synchronize third-party learning content into your ServiceNow instance.
+</table>2.  Activate the required schedule flow to synchronize third-party learning content into your ServiceNow instance.
 
     For more information, see [Activate Learning Core flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/flows-lp.md).
 
@@ -225,8 +233,6 @@ Activate the flows that run on a schedule basis to pull learning course items fr
 
 **Related topics**  
 
-
-[Install Learning Core]()
 
 [Administration tasks in Learning Core]()
 

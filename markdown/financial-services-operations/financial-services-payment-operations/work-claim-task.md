@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Work on a claim with an external refund, Managing payment claims and debit approvals, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Work on a claim with an external refund, Managing payment claims and debit approvals, Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on a claim task for an external refund
@@ -30,19 +30,19 @@ You can create an ad hoc claim task by navigating to the **Claim Tasks** tab of 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon\).
 
 3.  Open the claim task from a claim case or from the Claim Tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d139690e108">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d114088e93">
 
 Option
 
-</th><th align="left" id="d139690e111">
+</th><th align="left" id="d114088e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d139690e117">
+</th></tr></thead><tbody><tr><td id="d114088e102">
 
 **From a claim case**
 
@@ -53,7 +53,7 @@ Steps
 3.  In the case, click the **Claim Tasks** tab and click the claim task.
 
 
-</td></tr><tr><td id="d139690e150">
+</td></tr><tr><td id="d114088e135">
 
 **From the Claim Tasks list**
 

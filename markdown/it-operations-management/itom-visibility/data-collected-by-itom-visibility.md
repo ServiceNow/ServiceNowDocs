@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 13
-breadcrumb: [ITOM Visibility reference, ITOM Visibility, IT Operations Management]
+last_updated: "2025-01-30"
+reading_time_minutes: 12
+breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
 
 # Data collected by ITOM Visibility
@@ -20,7 +20,7 @@ ITOM Visibility collects unique data for each type of device and stores it in de
 
 <table id="table_hms_x3x_2bb"><tbody><tr><td align="left">
 
-\[Omitted image "bus-laptop.svg"\] Alt text:
+\[Omitted image "ComputersServers.png"\] Alt text:
 
 </td><td>
 
@@ -40,7 +40,7 @@ ITOM Visibility collects unique data for each type of device and stores it in de
 
 <table id="table_nqj_1lj_lnb"><tbody><tr><td>
 
-\[Omitted image "bus-monitor.svg"\] Alt text:
+\[Omitted image "OperatingSystemLevelVirtualization.png"\] Alt text:
 
 </td><td>
 
@@ -52,7 +52,7 @@ ITOM Visibility collects unique data for each type of device and stores it in de
 -   [IBM Virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/ibm-hmc-discovery.md)
 -   [Red Hat Virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/red-hat-virtualization-discovery.md)
 -   [Nutanix Acropolis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/nutanix-pattern.md)
--   [VMware vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/data-collected-by-itom-visibility.md)
+-   [VMware vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_VCenterDataCollected.md)
 -   [OpenStack Virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/openstack-discovery.md)
 
 </td></tr></tbody>
@@ -60,13 +60,13 @@ ITOM Visibility collects unique data for each type of device and stores it in de
 
 <table id="table_zvp_5kj_lnb"><tbody><tr><td>
 
-\[Omitted image "bus-cloud.svg"\] Alt text:
+\[Omitted image "fb460f0ecd7865a83cc62dfb9c26e904db2a6f86.png"\] Alt text:
 
 </td><td>
 
 [Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cloud-discovery-wizard.md)
 
- -   [AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/cloud-disco-aws-data-collected.md)
+ -   [Data collected for Amazon AWS Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/cloud-disco-aws-data-collected.md)
 -   [Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/azure-cloud-discovery.md)
 -   [Google Cloud Platform \(GCP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/google-gcp-discovery-pattern.md)
 -   [IBM cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/ibm-cloud-discovery.md)
@@ -77,7 +77,7 @@ ITOM Visibility collects unique data for each type of device and stores it in de
 
 <table id="table_gj4_5kj_lnb"><tbody><tr><td>
 
-\[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text:
+\[Omitted image "Containers.png"\] Alt text:
 
 </td><td>
 
@@ -92,7 +92,7 @@ Containers
 
 <table id="table_azl_5kj_lnb"><tbody><tr><td>
 
-\[Omitted image "bus-application-development.svg"\] Alt text:
+\[Omitted image "Software.png"\] Alt text:
 
 </td><td>
 
@@ -117,7 +117,7 @@ Containers
 
 <table id="table_c4b_5kj_lnb"><tbody><tr><td>
 
-\[Omitted image "bus-service-map.svg"\] Alt text:
+\[Omitted image "Clusters.png"\] Alt text:
 
 </td><td>
 
@@ -133,7 +133,7 @@ Containers
 
 <table id="table_xfr_rkj_lnb"><tbody><tr><td>
 
-\[Omitted image "bus-database.svg"\] Alt text:
+\[Omitted image "NewDatabase.png"\] Alt text:
 
 </td><td>
 
@@ -156,7 +156,7 @@ Containers
 
 <table id="table_qf5_pkj_lnb"><tbody><tr><td>
 
-\[Omitted image "bus-router.svg"\] Alt text:
+\[Omitted image "NetworkDevices.png"\] Alt text:
 
 </td><td>
 
@@ -174,7 +174,7 @@ Containers
     -   [Alteon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/alteon-load-balancer-discovery.md)
     -   [ACE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/ace-load-balancer-discovery.md)
     -   [Radware-appDirector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/radware-appdirector.md)
-    -   [AWS application ELB Service discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/aws-application-elb-service-discovery.md)
+    -   [AWS application ELB Service discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/aws-application-elb-service-discovery.md)
 -   Firewalls
     -   [Cisco firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/cisco-fw-discovery.md)
     -   [Fortinet firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/fortinet-fw-discovery.md)
@@ -193,7 +193,7 @@ Containers
 
 <table id="table_dtq_lkj_lnb"><tbody><tr><td>
 
-\[Omitted image "bus-server.svg"\] Alt text:
+\[Omitted image "NewStorage.png"\] Alt text:
 
 </td><td>
 
@@ -210,22 +210,4 @@ Containers
 -   [EMC Isilon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/emc-isilon-discovery.md)
 
 </td></tr></tbody>
-</table>-   **[Detailed information on products discovered by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_SupportedApplications.md)**  
-Discovery and Service Mapping can discover a wide range of operating systems and applications.
--   **[Cloud resource discovery references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/cloud-discovery-collected-data.md)**  
-ITOM Visibility discovers resources on cloud platforms.
--   **[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c_Computers.md)**  
-Discovery identifies the following computers, clusters, and virtual machines.
--   **[Operating system-level virtualization discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c-oslv-discovery.md)**  
-Discovery can collect image and container information from Operating system-level virtualization \(OS-level virtualization\) engines.
--   **[Software discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c_Software.md)**  
-Discovery identifies several types of software.
--   **[Database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/database-discovery.md)**  
-Discovery can find database applications, such as MySQL, Oracle, and MongoDB. Discovery can also find database management system software, such as MSSQL Server.
--   **[Network device discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c_NetworkDevices.md)**  
-Discovery identifies several network devices, including load balancers, routers, TCP connections, IP networks, and so on. It can find devices through traditional port probes, and then through identifications and exploration probes, or through patterns. It also supports discovery by identifying HTTP and TCP connections.
--   **[Storage discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c_Storage.md)**  
-Discovery collects information on Direct Attached Storage \(DAS\), Storage Area Networks \(SAN\), and Network Attached Storage \(NAS\).
-
-**Parent Topic:**[ITOM Visibility reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/visibility-reference.md)
-
+</table>

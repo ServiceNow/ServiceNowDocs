@@ -1,5 +1,5 @@
 ---
-title: Viewing Login History in Identity Center
+title: View Login History
 description: Provides details about your login history.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/login-history.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Identity Center for users, Identity Center, Identity]
 ---
 
-# Viewing Login History in Identity Center
+# View Login History
 
 Provides details about your login history.
 

@@ -1,18 +1,18 @@
 ---
-title: Configure a highlighted value for a form header
-description: Configure a highlighted value for a form header in a workspace.
+title: Set up a highlighted value in a form header in Configurable Workspace
+description: You can configure fields that appear as highlighted values in a form header in Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/config-ws-highlight-value.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Administering forms for Configurable Workspace, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Configure a highlighted value for a form header
+# Set up a highlighted value in a form header in Configurable Workspace
 
-Configure a highlighted value for a form header in a workspace.
+You can configure fields that appear as highlighted values in a form header in Configurable Workspace.
 
 ## Before you begin
 
@@ -20,7 +20,9 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 ## About this task
 
-After creating a highlighted value, you must add it to your workspace's highlighted value configuration.
+After creating a highlighted value, you must link it to a highlighted value configuration if you want it to appear in Configurable Workspace.
+
+**Note:** You can also use highlighted values from Workspace in Configurable Workspace if you link the value to the highlighted value configuration.
 
 ## Procedure
 
@@ -28,34 +30,30 @@ After creating a highlighted value, you must add it to your workspace's highligh
 
     1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values**.
 
-    2.  Select **New**.
+        You can also edit highlighted values by selecting the user menu when the list you want to edit is in focus, and navigating to **Configure Workspace** &gt; **Configure page** &gt; **Highlighted Values.**
 
-        A new Highlighted Value record opens.
+    2.  Click **New**.
 
-    3.  Complete the following fields:
+    3.  Fill in the fields on the Highlighted Value form and click **Submit**.
 
-        -   **Table**
+    4.  In the Highlighted Values list, click the record you created .
 
-            Select the table where the highlighted value will apply.
+    5.  In the Highlighted Value Conditions related list, click **New**.
 
-        -   **Field**
+    6.  Fill in the fields on the Highlighted Value Condition form.
 
-            Select the field where the highlighted value will apply.
-
-    4.  Select **Submit**.
+    7.  Select **Submit**.
 
 2.  Add the highlighted value to the highlighted value configuration.
 
-    1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values Configurations**.
+    1.  Navigate to **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values Configurations**.
 
-    2.  From the UX Highlighted Value Configurations list, select the configuration for your workspace.
+    2.  Select the configuration.
 
-        A UX Highlighted Value Configuration record opens.
+    3.  In the Highlighted Values related list, click **Edit**.
 
-    3.  From the Highlighted Values related list, select **Edit**.
+    4.  Move the desired value from the left column to the right column to add it to the selected configuration.
 
-    4.  Add the highlighted value.
-
-    5.  Select **OK**.
+    5.  Select **Save**.
 
 

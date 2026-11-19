@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-view-repair-cc.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Repair claim, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Repair claim, Agent management, Using Manufacturing Commercial Operations, Manufacturing Commercial Operations]
 ---
 
 # View a repair claim case
@@ -29,6 +29,4 @@ Role required: claim agent or manufacturing operations admin
     -   Open: All the open cases.
     -   Unassigned: Unassigned cases and assign them to the available agent.
     -   Escalated: Cases that are escalated and need attention.
-
-**Parent Topic:**[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-use-repair-claim.md)
 

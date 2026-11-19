@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring shipping, Configure, Enterprise Asset Management, Asset Management]
+breadcrumb: [Managing enterprise asset shipments, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Associate a third-party shipping carrier with an integration profile in the Enterprise Asset Workspace
@@ -26,17 +26,15 @@ Each shipping carrier can be associated with only one active integration profile
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
+1.  From the Enterprise Asset Workspace, open the Asset operations view.
 
-2.  From the Enterprise Asset Workspace, open the Admin center view.
+2.  From the left navigation menu of the Asset operations view, navigate to **Shipment** &gt; **Carrier integration profiles**.
 
-3.  From the navigation panel of the Admin center view, navigate to **Shipping** &gt; **Carrier integration**.
+3.  Select the integration profile that you want to associate a shipping carrier with.
 
-4.  Select the integration profile that you want to associate a shipping carrier with.
+4.  On the integration profile record, select the **Shipping Carriers** tab.
 
-5.  On the integration profile record, select the **Shipping Carriers** tab.
-
-6.  Associate a shipping carrier with the integration profile.
+5.  Associate a shipping carrier with the integration profile.
 
     -   To associate an existing shipping carrier with the integration profile, use the following steps:
         1.  Select **Add**.

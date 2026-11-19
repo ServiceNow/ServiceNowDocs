@@ -1,18 +1,18 @@
 ---
-title: Configure pre-chat after upgrading
-description: If you have upgraded, some settings need to be configured to use pre-chat effectively.
+title: Configure Pre-chat after upgrading
+description: If you have upgraded, some settings need to be configured to use Pre-chat effectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-configure-pre-chat-upgrade.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure chat, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [Configuring the chat channel, Configure communication channels, Enable communication channels, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# Configure pre-chat after upgrading
+# Configure Pre-chat after upgrading
 
-If you have upgraded, some settings need to be configured to use pre-chat effectively.
+If you have upgraded, some settings need to be configured to use Pre-chat effectively.
 
 ## Before you begin
 

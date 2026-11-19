@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Compliance Case Management reference, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Roles installed with Compliance Case Management
@@ -32,7 +32,7 @@ Contains roles
 
 Compliance Case Business User
 
- \[sn\_comp\_case.compliance\_case\_business\_user\]
+ \[sn\_comp\_case.compliance​\_case\_business\_user\]
 
 </td><td>
 
@@ -49,11 +49,14 @@ sn\_grc\_case\_mgmt.grc\_​case\_business\_user ​
 
 Compliance Case Analyst
 
- \[sn\_comp\_case.compliance\_case\_analyst\]
+ \[sn\_comp\_case.compliance\_​case\_analyst\]
 
 </td><td>
 
-Compliance case analyst work on the compliance cases assigned to them. They can review the key stakeholders, impacted areas, related areas, causes and consequences, regulations, and issues that are assigned to them.​
+Compliance case analyst can review the case. The compliance case analyst can perform the following tasks:-   Review the key stakeholders, impacted areas, related areas, causes and consequences, regulations, and issues that are assigned to the case analyst.
+-   Review any unassigned cases.
+
+​
 
 </td><td>
 
@@ -66,11 +69,14 @@ Compliance case analyst work on the compliance cases assigned to them. They can 
 
 Compliance Case Manager
 
- \[sn\_comp\_case.compliance\_case\_manager\]
+ \[sn\_comp\_case.compliance\_​case\_manager\]
 
 </td><td>
 
-Compliance cases can be classified into groups, and for every group there can be a manager. The compliance case manager reviews and works on cases within their group and can assign or reassign cases to analysts in the same group. They can also review key stakeholders, impacted areas, related areas, causes and consequences, regulations, and issues assigned to a case analyst.​
+Compliance case manager can review and work on the created cases. The compliance case manager can perform the following tasks:-   Review the key stakeholders, impacted areas, related areas, causes and consequences, regulations, and issues that are assigned to the case analyst.
+-   Review all cases.
+
+​
 
 </td><td>
 
@@ -83,7 +89,7 @@ Compliance cases can be classified into groups, and for every group there can be
 
 Compliance Case Admin
 
- \[sn\_comp\_case.compliance\_case\_admin\]
+ \[sn\_comp\_case.compliance\_​case\_admin\]
 
 </td><td>
 
@@ -108,7 +114,7 @@ Compliance case administrators can configure the Compliance Case Management appl
 
 GRC Employee User
 
- \[sn\_grc\_emp\_user.grc\_employee\]
+ \[sn\_grc\_emp\_user.grc​\_employee\]
 
 </td><td>
 

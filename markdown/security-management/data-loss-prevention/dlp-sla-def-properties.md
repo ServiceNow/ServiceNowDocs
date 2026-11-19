@@ -7,7 +7,7 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-04-02"
 reading_time_minutes: 5
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -197,7 +197,7 @@ Conditions under which the active SLA is completed and a new SLA is established 
 
 [Create repeat offender identification rules]()
 
-[Create Additional Incident Data Fields]()
+[Create additional incident data fields]()
 
 [Configure advanced settings]()
 

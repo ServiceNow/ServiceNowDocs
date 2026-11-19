@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/installed-with-cust-serv-workspace.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Reference, Customer Service Management]
+breadcrumb: [Customer Service Management reference, Customer Service Management]
 ---
 
 # Components installed with CSM workspaces

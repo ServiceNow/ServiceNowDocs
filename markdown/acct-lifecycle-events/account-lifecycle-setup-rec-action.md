@@ -1,16 +1,16 @@
 ---
-title: Set up recommended actions for account onboarding
+title: Set up Recommended Actions for account onboarding
 description: Set up recommended actions to display relevant recommendations in the account onboarding playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-setup-rec-action.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Account onboarding playbook, Configure, Customer Success Management]
+breadcrumb: [Configuring account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
-# Set up recommended actions for account onboarding
+# Set up Recommended Actions for account onboarding
 
 Set up recommended actions to display relevant recommendations in the account onboarding playbook.
 
@@ -20,7 +20,7 @@ Role required: sn\_acct\_lc.agent
 
 ## Procedure
 
-1.  Create a rule in Recommended Actions for Customer Success Management.
+1.  Create a rule in Recommended Actions for Account Lifecycle Events.
 
     For more information, see [Create a rule in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ra-csm-rules-create.md).
 
@@ -36,6 +36,4 @@ Role required: sn\_acct\_lc.agent
 
     For more information, see [Creating guidance and field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ra-csm-config-recommendations.md).
 
-
-**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-configure.md)
 

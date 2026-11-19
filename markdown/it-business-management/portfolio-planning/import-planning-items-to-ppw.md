@@ -1,5 +1,5 @@
 ---
-title: Import records to Portfolio Planning Workspace
+title: Import records to Portfolio Planning
 description: Import records from Project Portfolio Management, after the relevant table maps, fields maps, and choice maps are configured.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/import-planning-items-to-ppw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Execute work in PPM, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Import records to Portfolio Planning Workspace
+# Import records to Portfolio Planning
 
 Import records from Project Portfolio Management, after the relevant table maps, fields maps, and choice maps are configured.
 

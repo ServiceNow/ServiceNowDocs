@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector Framework reference, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector check definition page
@@ -90,14 +90,6 @@ Command
 
 </td></tr><tr><td>
 
-Configuration Data Files
-
-</td><td>
-
-Select the configuration data files to be downloaded when the check runs.
-
-</td></tr><tr><td>
-
 Description
 
 </td><td>
@@ -168,14 +160,6 @@ Timeout
 </td><td>
 
 The amount of time, in seconds, after which the check execution stops when no output is returned.For example, a value of 60 means that when the check execution doesn't return a value for 60 seconds, the execution stops.
-
-</td></tr><tr><td>
-
-Check group
-
-</td><td>
-
-A record in the **sn\_agent\_check\_group** table consisting of the group name and CMDB CI class type. Assign a check group to enable filtering only checks in the group for selection when defining a policy.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Configure, Industrial Workspace, Operational Technology]
 ---
@@ -18,7 +18,7 @@ Review the homepage destination rules for the Industrial Workspace.
 
 ## Before you begin
 
-Role required: configure\_industrial\_workspace
+Role required: admin
 
 ## About this task
 

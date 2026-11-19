@@ -1,20 +1,20 @@
 ---
-title: Using the contextual side panel in License and Permit Administration
+title: Using the contextual side panel in Public Sector Digital Services License and Permit Administration
 description: The contextual side panel provides you with the tools that can help you to research and resolve problems about your cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-lpr-playbook-using-contextual-side-panel.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using License and Permit Administration, Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using the contextual side panel in License and Permit Administration
+# Using the contextual side panel in Public Sector Digital Services License and Permit Administration
 
 The contextual side panel provides you with the tools that can help you to research and resolve problems about your cases.
 
-The contextual side panel in the Public Sector Workspace gives you access to information that can help you resolve license and permit request cases.
+The contextual side panel in the CSM Configurable Workspace gives you access to information that can help you resolve license and permit request cases.
 
 It includes a column of icons that you can select to access different types of information.
 
@@ -30,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Record information icon \[Omitted image "contextual-side-panel-record-info.png"\] Alt text: Record information icon
+Record information icon \[Omitted image "contextual-side-panel-record-info.jpg"\] Alt text: Record information icon
 
 </td><td>
 
@@ -38,7 +38,7 @@ Relevant information about a record. In License and Permit Administration, the r
 
 </td></tr><tr><td>
 
-Activity stream icon \[Omitted image "activity-stream-icon.png"\] Alt text: Activity stream icon
+Activity stream icon \[Omitted image "activity-stream-icon-psds-playbooks.png"\] Alt text: Activity stream icon
 
 </td><td>
 

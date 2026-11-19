@@ -7,7 +7,7 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Manage financials, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -20,25 +20,21 @@ Create a cost plan for a required duration to track your planned and actual expe
 
 Role required: it\_project\_manager
 
-## About this task
-
-\[Omitted video\] Description: Manage cost plans for your planning items.
-
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Project Workspace** and open a project.
 
 2.  Select **Financials** from the left menu.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d251636e85">
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d195934e71">
 
 Choice
 
-</th><th align="left" id="d251636e88">
+</th><th align="left" id="d195934e74">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d251636e94">
+</th></tr></thead><tbody><tr><td id="d195934e80">
 
 **To create a cost plan**
 
@@ -53,9 +49,9 @@ A side panel opens to create a cost plan.
 For a description of the field names, see [Create cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-cost-plan-form-spw.md).
 
 3.  Select **Save** to save the cost plan and close the side panel or **Save and add new** to save the cost plan and create a new cost plan.
- The cost plans created for sub projects can be viewed in the Cost screen of the parent project.
+ The cost plans created for sub-projects can be viewed in the Cost screen of the parent project.
 
-</td></tr><tr><td id="d251636e144">
+</td></tr><tr><td id="d195934e130">
 
 **To edit a cost plan**
 
@@ -66,7 +62,7 @@ You can edit a cost plan by one of the following ways.1.  Select the name of the
 
 **Tip:** Use the Tab key to navigate to the next fiscal period and continue editing.
 
-</td></tr><tr><td id="d251636e169">
+</td></tr><tr><td id="d195934e155">
 
 **To delete a cost plan**
 

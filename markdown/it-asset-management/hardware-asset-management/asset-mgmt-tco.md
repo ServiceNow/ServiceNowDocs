@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
 ---
 
 # Asset Total Cost of Ownership for Hardware Asset Management
@@ -121,6 +121,4 @@ TCO enables you to perform the following actions:
 
 -   Excluded assets
 -   Assets that are a part of the opted out model categories.
-
-**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/exploring-ham.md)
 

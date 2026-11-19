@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure Cloud Cost Management for Microsoft Azure, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
 ---
 
 # Set up access to Microsoft Azure billing and usage data
@@ -17,6 +17,8 @@ breadcrumb: [Configure Cloud Cost Management for Microsoft Azure, Configure, Clo
 Set up access to Microsoft Azure billing and usage data depending on your agreement type.
 
 You can access the billing and usage data, by assigning an appropriate role to the Microsoft Azure service principal, depending on your agreement type: Enterprise Agreement \(EA\), Microsoft Customer Agreement \(MCA\), or Microsoft Partner Agreement \(MPA\). Accordingly, some of the following steps might be optional for you.
+
+**Important:** The support for MCA accounts is available from Cloud Cost Management version 9.0 and later.
 
 1.  [Create a Microsoft Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/create-ms-azure-service-principal.md)
 2.  For EA accounts - [Add the Enrollment Reader role to the Microsoft Azure service principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/add-enrollment-reader-ms-azure.md)

@@ -1,19 +1,18 @@
 ---
 title: Create a sales promotion claim case
-description: Submit a sales promotion claim case to request incentive amounts for a completed sale.
+description: Create a sales promotion claim case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-create-sls-pro-claim-case.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-keywords: [sales promotion claim, sales promotion claim case, dealer sales agent, incentive claim, manufacturing commercial operations]
-breadcrumb: [Sales promotion claim management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Sales promotion claim management, Using Manufacturing Commercial Operations, Manufacturing Commercial Operations]
 ---
 
 # Create a sales promotion claim case
 
-Submit a sales promotion claim case to request incentive amounts for a completed sale.
+Create a sales promotion claim case.
 
 ## Before you begin
 
@@ -27,21 +26,21 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 3.  On the form, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
-    |Asset|Asset for the claim.|
-    |Requested by|Logged in user or member of the logged in user's service organization.|
-    |Consumer|Consumer is associated with the install base.|
-    |Dealer|Business location.|
-    |Sales price|Sale price of the product sold. Select the required currency from the list|
+    |Fields|Description|
+    |------|-----------|
+    |Asset| |
+    |Requested by| |
+    |Consumer| |
+    |Dealer| |
+    |Sales price| |
 
 4.  Select **Continue**.
 
 5.  On the form, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
-    |Select incentives|Applicable promotion, claimed amount, and other required fields for the claim.|
+    |Fields|Description|
+    |------|-----------|
+    |Select incentives|Select the applicable promotion, fill claimed amount, and the other required fields.|
 
 6.  Select **Continue**.
 
@@ -49,16 +48,10 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
     |Activity|Description|
     |--------|-----------|
-    |**Claim in review**|Submit the claim for review.|
-    |**Review and approve**|Review the claim and approve. Enter the amount to approve.|
+    |**Claim in review**|The claim is successfully submitted for review.|
+    |**Review and approve**|Review the claim and approve. Enter the amount that you want to approve.|
     |**Claim summary**|View the summary of the sales promotion claims.|
 
-
-## Result
-
-Sales promotion claim case is created.
-
-**Parent Topic:**[Sales promotion claim management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-sls-pro-clm-mgmt.md)
 
 **Related topics**  
 

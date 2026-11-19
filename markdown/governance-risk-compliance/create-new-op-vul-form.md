@@ -1,16 +1,16 @@
 ---
-title: Create Operational vulnerability form
+title: Create New Operational vulnerability form
 description: On the Create New Operational vulnerability form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-new-op-vul-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Report an Operational vulnerability from the module, Reporting Operational vulnerability, Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create Operational vulnerability form
+# Create New Operational vulnerability form
 
 On the Create New Operational vulnerability form, fill in the fields.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistindocumentintelligence-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -473,7 +473,7 @@ Yokohama
 
 -   Summarize the content in document and image attachments with the document and visual insights AI agent.
 -   Choose a large language model \(LLM\) to generate predictions for extraction and Q&amp;A \(question &amp; answer\) use cases.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
  [Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
 

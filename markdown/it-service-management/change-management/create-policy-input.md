@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Create change approval policies, Creating change approval policies, Use, Change Management, IT Service Management]
+breadcrumb: [Create change approval policies, Creating change approval policies, Using Change Management, Change Management, IT Service Management]
 ---
 
 # Create policy inputs
@@ -18,9 +18,11 @@ Policy inputs are variable sources that you can use while evaluating a decision 
 
 ## Before you begin
 
-Role required: admin or change\_manager
+Role required: admin or change manager
 
 You can create multiple policy input types. By default, the **change\_request** policy input of type **Reference** is available for all change types. This policy input provides access to the change request table and to any table change request references. For a normal change policy, an extra **manager\_approved** policy input of type **True/false** is available.
+
+To define additional policy inputs, perform the following steps:
 
 ## Procedure
 
@@ -28,21 +30,21 @@ You can create multiple policy input types. By default, the **change\_request** 
 
 2.  Create a change approval policy or open an existing policy.
 
-    For more information, see [Create change approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/create-change-policy.md).
+    For more information, see [Create change approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/create-change-policy.md)
 
-3.  On the **Policy inputs** tab, select **New**.
+3.  In the **Policy inputs** tab, click **New** to create a record.
 
-    The **Name** and **Application** fields are populated automatically.
+    The **Name** and **Application** fields are auto-populated.
 
-4.  In the **Type** field, select the reference lookup icon and select a type.
+4.  Click the reference lookup icon for the **Type** field and choose a Type value.
 
-5.  In the **Label** field, enter a name.
+5.  Enter a name in the **Label** field.
 
     The column name for the new record is populated in the **Column Name** field automatically.
 
-6.  Configure the other parameters for the policy input, which depend on the value in the **Type** field.
+6.  Depending on the value of the **Type** field, you can configure the other parameters for the policy input.
 
-7.  Select **Submit**.
+7.  Click **Submit**.
 
 
 ## What to do next

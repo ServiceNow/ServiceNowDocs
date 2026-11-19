@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-backup.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Account onboarding playbook, Configure, Customer Success Management]
+breadcrumb: [Configuring account onboarding, Account onboarding, Account Lifecycle Events]
 ---
 
 # Run scheduled job to back up staging table
@@ -23,7 +23,7 @@ Role required: admin
 Data present in the staging table backed up if:
 
 -   Import tasks are in an **Active** state.
--   The data creation date is earlier than the current date.
+-   Data creation date is earlier than the current date.
 
 **Note:** Import tasks that are in a **Canceled** or **Closed** state aren’t backed up.
 
@@ -37,12 +37,10 @@ Data present in the staging table backed up if:
 
 3.  Select **Execute Now**.
 
-    To configure the backup period, specify a number in the Value field for the `sn_acct_lc.BackupDays` system property. For example, if the Value field is set to 2, data that is more than two days old is included in the backup.
+    To configure the backup period, specify a number in the Value field for the `sn_accct_lc.BackupDays` system property. For example, if the Value field is set to 2, data that is more than two days old is included in the backup.
 
 
 ## Result
 
 A CSV file is created and attached to the import task. The file name includes the name of the staging file and the creation date in the format `stagingTable-dateCreated.csv`.
-
-**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-configure.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Default Template forms, Reference, Telecommunications Network Inventory]
+breadcrumb: [Default Template forms, Telecommunications Network Inventory reference, Telecommunications Network Inventory]
 ---
 
 # Scheduled Entity Generation form

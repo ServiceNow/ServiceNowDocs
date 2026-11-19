@@ -1,5 +1,5 @@
 ---
-title: Modify supporting documents in third-party contract request
+title: Modify supporting documents in third-party contract review request as a legal fulfiller
 description: As a legal fulfiller, add, remove, or reclassify supporting documents submitted in a third-party contract review request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-service-delivery/snlc-tpc-mod-supporting-doc.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Work on a third-party contract review request, Third-party contract review requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Work on a third-party contract review request, Third-party contract review requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
 ---
 
-# Modify supporting documents in third-party contract request
+# Modify supporting documents in third-party contract review request as a legal fulfiller
 
 As a legal fulfiller, add, remove, or reclassify supporting documents submitted in a third-party contract review request.
 
@@ -36,48 +36,32 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
 
 6.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d395127e118">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d366639e144">
 
 Action
 
-</th><th align="left" id="d395127e121">
+</th><th align="left" id="d366639e147">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d395127e127">
+</th></tr></thead><tbody><tr><td id="d366639e153">
 
 **Add supporting documents**
 
 </td><td>
 
 1.  Select **Attach Document**.
-2.  In the **Attach documents** form, select a storage source and upload one or more documents.
-    -   **To upload from your computer**
+2.  In the **Upload From** drop-down list, select a storage type and upload a new document.
 
-        -   Select **Computer**.
-        -   Select **Add file** and attach one or more documents.
-        -   Select **Upload** when single file is attached or **Upload All** when multiple files are attached. A preview is available for image files only.
-        -   After the file is uploaded, select **Attach**.
-To rename the file, use the Actions \[Omitted image "cmpro-supp-doc-action-icon.png"\] Alt text: Actions icon to download, delete, or rename the attachment option.
+The available storage types are:
 
-    -   **To upload from the activity stream**
-
-The activity stream includes documents attached while requesting changes for a contract or documents received through email. The **Document** field appears when you select this option.
-
-        -   Select **Activity stream**.
-        -   From the **Document** list, select one or more documents.
-        -   Select **Attach**.
-    -   **To upload from an external storage**
-
-This option is available only when external storage is enabled. The **External storage** field appears when you select this option.
-
-        -   Select **External storage**.
-        -   From the **Document** list, select one or more documents.
-        -   Select **Attach**.
+    -   **Computer** - Select **Attach File** and upload the revised document.
+    -   **Activity stream** - In the **Document** field, select the document that is displayed based on an attachment in the activity stream.
+    -   **External Storage** - In the **Document** field, select the document. This option is displayed only if external storage is configured.
 3.  \(Optional\) Add more information about the document in the **Work notes** field.
 
 
-</td></tr><tr><td id="d395127e279">
+</td></tr><tr><td id="d366639e216">
 
 **Reclassify supporting documents**
 
@@ -85,7 +69,7 @@ This option is available only when external storage is enabled. The **External s
 
 [Reclassify contract documents in third-party contract review request as a legal fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-tpc-reclassify-doc.md)
 
-</td></tr><tr><td id="d395127e293">
+</td></tr><tr><td id="d366639e230">
 
 **Remove the supporting document**
 

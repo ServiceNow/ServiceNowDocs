@@ -7,9 +7,9 @@ release: yokohama
 product: Task Intelligence
 classification: task-intelligence
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Task Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Task Intelligence, Enable AI experiences]
 ---
 
 # Exploring Task Intelligence

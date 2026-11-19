@@ -7,9 +7,9 @@ release: yokohama
 product: Conversational Intelligence
 classification: conversational-intelligence
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Conversation Insights reference, Conversation Insights, Analyzing AI effectiveness, Enable AI Experiences]
+breadcrumb: [Conversation Insights reference, Conversation Insights, Enable AI experiences]
 ---
 
 # Components installed with Conversation Insights

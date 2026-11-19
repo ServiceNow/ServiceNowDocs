@@ -7,9 +7,8 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-07"
 reading_time_minutes: 5
-keywords: [TISC overview, explore TISC, threat intelligence security center]
 breadcrumb: [Threat Intelligence Security Center, Security Operations]
 ---
 

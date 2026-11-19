@@ -1,27 +1,28 @@
 ---
-title: Edit improvement opportunities from Summary and insights page
-description: Edit improvement opportunities from the Summary and insights page to configure improvement opportunities for the project.
+title: Set improvement opportunities from Summary and Insights page
+description: Set improvement opportunities from the Summary and Insights page to configure improvement opportunities for the project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/summ-insights-page.html
 release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [For projects, Setting improvement opportunities, Use, Process Mining, Platform Analytics]
+breadcrumb: [Setting improvement opportunity for projects, Working with improvement opportunities, Using Process Mining, Process Mining, Platform Analytics]
 ---
 
-# Edit improvement opportunities from Summary and insights page
+# Set improvement opportunities from Summary and Insights page
 
-Edit improvement opportunities from the Summary and insights page to configure improvement opportunities for the project.
+Set improvement opportunities from the Summary and Insights page to configure improvement opportunities for the project.
 
 ## Before you begin
 
-Role required:
-
--   The sn\_process\_mining\_admin and sn\_process\_mining\_power\_user roles can create an improvement opportunity for a project.
--   The sn\_process\_mining\_analyst role can view an improvement opportunity for a project, but can’t create, edit, or delete an improvement opportunity.
+-   You can create one configuration per table for each project based on a process.
+-   You can create a rule-based finding definition from the Process Configurations page or the Projects page.
+-   Role required:
+    -   The sn\_process\_optimization\_admin and sn\_process\_optimization\_power\_user roles can create a finding definition for a project.
+    -   The sn\_process\_optimization\_analyst role can view a finding definition for a project, but can’t create, edit, or delete a definition.
 
 ## Procedure
 
@@ -31,14 +32,22 @@ Role required:
 
     Ensure that the project has improvement opportunities set.
 
-3.  Select **Edit definition** for an improvement opportunity from the list of actions.
+3.  Select the **Change the configuration** link on the **Opportunities** section.
 
-    The Finding Builder for the improvement opportunity is displayed. You can edit the improvement opportunity.
+    The **Improvement Opportunities** page from project Builder is displayed.
 
-    For information on editing improvement opportunities, see the following topics:
+4.  Select **New**.
 
-    -   [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/rule-based-builder.md)
-    -   [Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/automated-findings.md)
+    The **Improvement Opportunity definition** page is displayed.
+
+5.  Select **Create** on a card to create an improvement opportunity of that type.
+
+    For information on rule-based improvement opportunities, see [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/rule-based-builder.md).
+
+    For information on automated improvement opportunities, see [Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/automated-findings.md).
+
+    **Note:** You can have a maximum of 15 automated improvement opportunities for a project.
+
 
 **Parent Topic:**[Setting improvement opportunity for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/project-imp-opp.md)
 

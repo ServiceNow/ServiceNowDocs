@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/administering-tags.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Tags, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -159,7 +159,7 @@ Use automatically assigned tags to group high urgency incidents, overdue inciden
 **Related topics**  
 
 
-[bundle-platadm.configure-form-layout]
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md)
 
 ## Configure notifications for tagged records
 

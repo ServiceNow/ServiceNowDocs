@@ -7,10 +7,10 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-19"
 reading_time_minutes: 7
 keywords: [app form, request app add item]
-breadcrumb: [Forms in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
+breadcrumb: [Working with forms in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
 
 # Customize your form for an app in Creator Studio

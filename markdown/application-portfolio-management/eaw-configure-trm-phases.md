@@ -1,27 +1,25 @@
 ---
-title: Manage TRM phases
+title: Configure TRM phases
 description: A Technology Reference Model \(TRM\) phase refers to a specific stage in the lifecycle of an application within the organization’s TRM framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-configure-trm-phases.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring the Setup page in the Enterprise Architecture Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Work with the Setup page in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Manage TRM phases
+# Configure TRM phases
 
 A Technology Reference Model \(TRM\) phase refers to a specific stage in the lifecycle of an application within the organization’s TRM framework.
 
 A TRM phase represents the status of the application, that is whether the application is approved for use, being evaluated or being scheduled for divestment.
 
-**Parent Topic:**[Exploring the Setup page in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup.md)
+-   **[View all TRM phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-trm-phases.md)**  
+You can view the list of all Technology Reference Model \(TRM\) phases in the Enterprise Architecture Workspace.
+-   **[Add or edit a TRM phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-trm-phase.md)**  
+Define your own TRM phase for the TRM products.
 
-**Related topics**  
-
-
-[View all TRM phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-trm-phases.md)
-
-[Add or edit a TRM phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-trm-phase.md)
+**Parent Topic:**[Work with the Setup page in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup.md)
 

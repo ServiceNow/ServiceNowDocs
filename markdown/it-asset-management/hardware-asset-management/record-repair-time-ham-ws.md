@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Manage repair of defective assets in your stockroom in the Hardware Asset Workspace, Repair and maintenance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage repair of defective assets in your stockroom in the Hardware Asset Workspace, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
 ---
 
 # Record time worked on asset repair tasks in the Hardware Asset Workspace
@@ -30,5 +30,5 @@ Record a break from a repair task in the Hardware Asset Workspace if you’re no
 
 [Request repair of defective hardware assets in your stockroom]()
 
-[Repair order fulfillment in the Hardware Asset Workspace]()
+[Fulfill repair orders in the Hardware Asset Workspace]()
 

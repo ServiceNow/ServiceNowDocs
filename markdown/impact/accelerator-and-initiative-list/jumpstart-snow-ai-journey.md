@@ -1,81 +1,145 @@
 ---
 title: Jumpstart Your ServiceNow AI Journey
-description: This Accelerator provides guidance on how to achieve your organization's goals and objectives with ServiceNow's AI capabilities.
+description: The Jumpstart Your AI \(Artificial Intelligence\) Journey Accelerator provides guidance to kickstart your hyper-automation journey with ServiceNow platform AI capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-snow-ai-journey.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
 ---
 
 # Jumpstart Your ServiceNow AI Journey
 
-This Accelerator provides guidance on how to achieve your organization's goals and objectives with ServiceNow's AI capabilities.
+The Jumpstart Your AI \(Artificial Intelligence\) Journey Accelerator provides guidance to kickstart your hyper-automation journey with ServiceNow platform AI capabilities.
 
 ## Accelerator Overview
 
-Jumpstart Your ServiceNow AI Journey helps Impact customers navigate ServiceNow's expansive catalog of AI and automation capabilities with prescriptive guidance tailored to organizational objectives. This includes building a personalized roadmap to adopt the ServiceNow capabilities that are aligned with your strategic goals and recommending Impact AI Accelerators to accelerate and enhance adoption.
+Jumpstart Your ServiceNow AI Journey provides Impact customers with an overview of the ServiceNow catalog of AI and automation capabilities to enable you to kick start your hyper-automation journey and transform business processes and user experience. This includes building a personalized AI maturity journey with ServiceNow AI capabilities aligned with your strategic goals and objectives, as well as recommended Impact AI Accelerators to expedite time to value.
 
-## Package Availability
+This feature is available for packages such as Impact Advanced and Impact Total along with the Impact Guided package and Strategic Value or Platform Governance, as add-on.
 
-**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
-## What you get
+## What You Get
 
 -   **Session Preparation**
 
-    The Technical Accelerator Consultant:
+    -   Provision a temporary instance 
+    -   Activate and run [Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/automation-discovery.md).
+    -   Assess current AI maturity
+    ​
 
-    -   Provisions an instance copy
-    -   Runs AI Adoption Scan on the instance copy to assess current usage of AI and related products
-    -   Activates and runs AI-powered data exploration tools
--   **Customer Discovery Session \#1\(up to 1.5 hours\)**
+-   **Customer Coaching Session \#1**
+    -   Set Accelerator expectations
+    -   Discuss strategic goals and business objectives
+-   **Customer Coaching Session \#2 \(Up to 90 minutes\)**
 
-    Discovery session to:
+    Review of:
 
-    -   Establish a Terminology Baseline
-    -   Understand the Anatomy of an Objective
-    -   Define Objective
-    -   Brainstorm and refine use case
-    -   Discuss and agree on next steps
--   **Customer Delivery Session \#2 \(Up to 1 hour\)**
+    -   ServiceNow AI Blueprint
+    -   AI Maturity Journey
+    -   Automation Opportunities
+    -   AI Strategic Action Plan
+    -   Impact AI Accelerators
+-   **Customer Coaching Session \#3  \(Optional upon Customer request - up to 60 minutes\)**
 
-    Delivery session to review:
+    Opportunity for Q&amp;A related to AI Journey
 
-    -   Business objectives
-    -   AI Adoption Brief
-    -   Impact AI Accelerators Roadmap
--   **Outputs**
-    -   30-day access to the instance copy, where applicable
-    -   Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
-    -   Copy of the Delivery Session Deck containing the roadmap created during the engagement
-    -   AI Adoption Scan results
-    -   AI-powered data exploration results \(if applicable\)
 
 ## Requested Customer Resources
 
-|Customer Resource|Responsibilities|Required|Recommended|
-|:----------------|:---------------|:------:|:---------:|
-|Top Management|Provides insight into objectives, defines targets and success metrics, commits resources to execute roadmap activities, and demonstrates executive commitment to success.|✓| |
-|Platform Owner|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|✓| |
-|Subject Matter Experts\(s\)|Stakeholders that provide insights into pain points at a granular level, support objective setting and success metric definition, and identify qualified resources to execute activities.|✓| |
-|Trusted Service Partners|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
+<table id="table_wzw_lxh_c5b"><thead><tr><th>
 
-## Requested Information/Access
+Customer Resource
 
-**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+</th><th>
 
--   Objectives &amp; horizon – 3 outcomes you want in the next 3–6–12 months.
--   Scope boundaries – units/products/geographies in vs. out.
--   Top 3–5 use cases – name, stage \(idea/pilot/prod\), owner.
--   Constraints – budget/time box, key staffing/tools limits.
--   Success metrics – how do you quantify success \(MTTR, etc.\)
+Responsibilities
 
-## Exclusions
+</th></tr></thead><tbody><tr><td>
 
-ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
+Executive Suite: CTO, CIO \(Required\)
+
+</td><td>
+
+Responsible for the overall ServiceNow roadmap.
+
+</td></tr><tr><td>
+
+Platform Owner \(Required\)
+
+</td><td>
+
+Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.
+
+</td></tr><tr><td>
+
+System Administrator\(s\) \(Required\)
+
+</td><td>
+
+Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.
+
+</td></tr><tr><td>
+
+Enterprise Architect\(s\) \(Required\)
+
+</td><td>
+
+Provides a holistic view of the organization’s strategy, processes, and other systems, including any necessary policy or organizational requirements. Helps guide the Platform Owner to align with technical or functional standards.
+
+</td></tr><tr><td>
+
+Developer\(s\) \(Required\)
+
+</td><td>
+
+Writes code for the ServiceNow platform.
+
+</td></tr><tr><td>
+
+Service Desk Manager \(Recommended\)
+
+</td><td>
+
+Subject matter expert responsible for managing Service Desk.
+
+</td></tr><tr><td>
+
+Application Owner\(s\) \(Recommended\)
+
+</td><td>
+
+Manages ServiceNow application\(s\) \(e.g., ServiceNow HRSD owner\).
+
+</td></tr><tr><td>
+
+Application Service Owner\(s\) \(Recommended\)
+
+</td><td>
+
+Manages all applications across a given division \(e.g., Incident management or HR application owner\).
+
+</td></tr><tr><td>
+
+Trusted Service Partners \(Recommended\)
+
+</td><td>
+
+Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.
+
+</td></tr></tbody>
+</table>## Requested Information
+
+Please refer to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+
+## Exceptions
+
+This Impact Accelerator in its entirety or portions of the Impact Accelerator Activities may not be available to customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, to self-hosted customers, or in other restricted environments, or to managed service providers \(except for their internal use\).
+
+ServiceNow is not responsible for implementing AI Journey recommendations on Customer’s sub-production or production instances.
 

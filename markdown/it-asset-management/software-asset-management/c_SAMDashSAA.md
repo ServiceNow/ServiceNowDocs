@@ -7,19 +7,16 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 5
-breadcrumb: [Platform Analytics Solution for Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
+last_updated: "2025-01-30"
+reading_time_minutes: 6
+breadcrumb: [Platform Analytics Solution for Software Asset Management classic, Software Asset Management, IT Asset Management]
 ---
 
 # Software Asset Analytics dashboard
 
 View true-up costs and license, compliance, and removal summaries trend charts on the Software Asset Analytics dashboard integrated with Performance Analytics.
 
-**Note:** The Software Asset Analytics dashboard is no longer available for new Brazil users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Brazil without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil.
-
--   If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard.
--   If you activated the Software Asset Workspace \(sn\_sam\_workspace\) store application after upgrading to Brazil, you won’t be able to access this dashboard from the **Software Asset** navigation menu in your instance. You can however access this dashboard from the **Dashboards** navigation menu.
+**Note:** The Software Asset Analytics dashboard is no longer available for new Yokohama users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Yokohama without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Yokohama. If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Yokohama but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard. If you activated the workspace plugin \(before or after upgrading to Yokohama, you won’t be able to access this dashboard from the **Software Asset** navigation menu in your instance. You can however access this dashboard from the **Dashboards** navigation menu.
 
 The Software Asset Analytics dashboard tab is accessed by navigating to **Software Asset** &gt; **Overview**. Select an element within a report to see more information, or add and move widgets as needed.
 
@@ -29,7 +26,9 @@ The graphs show important statistics about the software that is being tracked. I
 
 **Note:** If you are not seeing data in the Overview dashboard, verify the **glide.cms.enable.responsive\_grid\_layout** system property is set to true.
 
-## Overview tab
+## Overview
+
+\[Omitted image "dashboard-analytic-overview.png"\] Alt text: Software Asset Analytics dashboard
 
 <table id="table_vgl_c3y_tz"><thead><tr><th>
 
@@ -129,6 +128,8 @@ Heat map of software product lifecycles that are reaching their end of life cycl
 
 </td></tr></tbody>
 </table>## License Summary
+
+\[Omitted image "SAMDashLicSumNew.png"\] Alt text: License Summary tab shows information pertaining to licenses
 
 <table id="table_y3q_r3y_tz"><thead><tr><th>
 
@@ -285,6 +286,8 @@ Total software spend by publisher.
 
 Compliance summary consists of time-series data using Performance Analytics to show the compliance trends over time. The source for compliance analysis data is the Product Result \[samp\_product\_result\] table.
 
+\[Omitted image "dashboard-analytics-compliance-summary.png"\] Alt text: Compliance Summary tab
+
 |Report|Description|
 |------|-----------|
 |True-up Cost|Cost to be compliant based on the average prices for entitlements for the rights.|
@@ -305,6 +308,8 @@ Compliance summary consists of time-series data using Performance Analytics to s
 ## Removal Summary
 
 The source for removal summary data is the Reclamation Candidate \[samp\_sw\_reclamation\_candidate\] table.
+
+\[Omitted image "removal-summary-tab.png"\] Alt text: Removal Summary tab
 
 <table id="table_ixc_kkc_fbb"><thead><tr><th>
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
 breadcrumb: [Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -77,6 +77,8 @@ Customize the Burnup, Burndown, and Cumulative Flow Diagram reports of your dash
 [SAFe — Unified Backlog]()
 
 [Work Progress Status for SAFe]()
+
+[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
 [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Journey designer plan configuration owners, Plan configuration components, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Journey designer plan configuration owners, Journey designer plan configuration template process, owners, and maintenance, Using Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Add or update stages in a journey plan configurations
@@ -34,7 +34,7 @@ Journey designer plan configuration owners can change or create task templates f
 
 ## Procedure
 
-1.  From the Employee Center service portal, navigate to the **Journeys** page.
+1.  Navigate to **All** &gt; **Employee Center** &gt; **Journeys**.
 
 2.  Select the **Journey templates** tab.
 

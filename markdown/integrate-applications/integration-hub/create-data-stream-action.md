@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 10
-breadcrumb: [Data Stream actions and pagination, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Data Stream actions and pagination, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Create a Data Stream action

@@ -1,70 +1,57 @@
 ---
 title: Exploring Manufacturing Commercial Operations
-description: The Manufacturing Commercial Operations helps your organization accelerate revenue, improve customer experiences, and reduce operational costs.
+description: Learn how the  Manufacturing Commercial Operations solution can help your organization to speed up revenue and create differentiated customer and channel experiences while reducing operations costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/manufacturing-explore.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-keywords: [MCO overview, MCO product overview, MCO introduction]
 breadcrumb: [Manufacturing Commercial Operations]
 ---
 
 # Exploring Manufacturing Commercial Operations
 
-The Manufacturing Commercial Operations helps your organization accelerate revenue, improve customer experiences, and reduce operational costs.
+Learn how the  Manufacturing Commercial Operations solution can help your organization to speed up revenue and create differentiated customer and channel experiences while reducing operations costs.
 
-## Overview of MCO
+## Overview of Manufacturing Commercial Operations
 
 The Manufacturing Commercial Operations product offers a single platform to manage your sales, support, and service operations. You can manage the end-to-end life cycle of your products, promotions, and services. Key benefits of the Manufacturing Commercial Operations include:
 
 -   **Sales promotion campaign management**
 
-    Create and manage sales promotion campaigns. Process and resolve related claims for channel partners and dealers.
+    Manage campaigns with ease. Boost sales and related claims to compensate channel partners/dealers.
 
 -   **Recall campaign management**
 
-    Create, launch, and track product recall campaigns. Manage and resolve recall-related claims.
+    Plan, launch, and monitor product recall campaigns. Resolve claims related to product recalls.
 
 -   **Repair \(recall and warranty\) claims**
 
-    Submit and approve repair claims for warranty and recall campaigns. Streamline post-sales service across warranty claims and recall operations.
-
--   **Pre-authorization request**
-
-    Submit and approve pre-authorization requests to verify the coverage of specific parts, fees, or repairs under an existing warranty or service contract.
+    Submission and approval of repair claims for both warranty and recall. Post-sales service through product recall campaigns, Warranty, and recall related claims management.
 
 -   **Dealer portal**
 
-    Access real-time information about the ongoing and upcoming product recall and sales promotions. Engage dealers and channel partners more effectively through the dealer portal.
+    Access real-time information about the ongoing and upcoming product recall and sales promotions. Better engagement with the dealer and channel partner through the dealer portal.
 
--   **Optimize lead-to-cash operations**
+-   **Optimize the lead-to-cash cycle and increase revenue**
 
-    Manage leads and opportunities from initial contact to close using order management and configurable catalogs. Launch complex products and services fast with configurable catalogs.
+    Manage leads and opportunities from start to finish and map customer requirement to the best offers with Order Management. Launch complex products and services fast with configurable catalogs.
 
--   **Quality issue management**
+-   **Improve agility and savings with automated exceptions and disputes workflows**
 
-    Drive measurable quality and cost improvements by enabling structured issue intake, faster resolution, and help prevent recurring quality issues across the product life cycle.
+    Automate the order exception and invoice dispute management processes by fusing customers, Original Entity Manufacturers \(OEMs\), channels, and partners with one system of engagement and action.
 
--   **Improve agility and savings with automated exception and dispute workflows**
+-   **Manage the manufacturing ecosystem in real-time**
 
-    Automate the order exception and invoice dispute management processes by fusing customers, ServiceNow® Original Equipment Manufacturers \(OEMs\), channels, and partners with one system of engagement and action.
+    Securely build business workflows across the ecosystem using Service Exchange. Manufacturers can adopt to new features, publish, and synchronize the product offerings to customers, suppliers, channels, and partners, all within one system of engagement.
 
 
-## MCO users
+## Manufacturing Commercial Operations users
 
 <table id="table_jlz_lyt_q2c"><thead><tr><th>
 
-Role
-
-</th><th>
-
-Persona
-
-</th><th>
-
-Internal name
+User
 
 </th><th>
 
@@ -72,111 +59,35 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Admin
-
-</td><td>
-
 Manufacturing Operations Admin
 
 </td><td>
 
-\[sn\_mfg\_cmn.manufacturing\_operations\_admin\]
-
-</td><td>
-
-Manage all OEM and dealer operations and configurations.
+-   Access to all Manufacturing Commercial Operations features and tables.
+-   They can perform both dealer and OEM \(Original Equipment Manufacturer\) operations.
+-   They can add, remove, and, update the dealer members and assign the responsibilities to dealer members for approval or rejection of the claims.
 
 </td></tr><tr><td>
-
-OEM
-
-</td><td>
 
 Sales Promotion Manager
 
 </td><td>
 
-\[sn\_sales\_prm\_mgmt.sales\_promotion\_manager\]
-
-</td><td>
-
-Create, read, update, and cancel a sales promotion.
+-   Member of the OEM marketing team.
+-   They can create, read, update, and cancel a sales promotion.
 
 </td></tr><tr><td>
-
-OEM
-
-</td><td>
 
 Claims Agent
 
 </td><td>
 
-\[sn\_claim\_cmn.claims\_agent\]
-
-</td><td>
-
-View, approve, recall, and reject claims.
+-   Member of the OEM team.
+-   They can view, approve, recall, and reject claims.
 
 </td></tr><tr><td>
-
-OEM
-
-</td><td>
-
-Recall Manager
-
-</td><td>
-
-\[sn\_rcl\_claim\_mgmt.recall\_manager\]
-
-</td><td>
-
-Create, read, and update a recall campaign claim.
-
-</td></tr><tr><td>
-
-OEM
-
-</td><td>
-
-Recall Phase Owner
-
-</td><td>
-
-\[sn\_rcl\_claim\_mgmt.recall\_phase\_owner\]
-
-</td><td>
-
-Update, publish, close, and cancel a recall campaign phase or sub-phase.
-
-</td></tr><tr><td>
-
-OEM
-
-</td><td>
-
-Warranty Specialist
-
-</td><td>
-
-\[sn\_claim\_cmn.warranty\_specialist\]
-
-</td><td>
-
-View, approve, return, or reject pre-authorization requests.
-
-</td></tr><tr><td>
-
-Dealer
-
-</td><td>
 
 Dealer Sales Agent
-
-</td><td>
-
-\[sn\_dealer\_mgmt.dealer\_sales\_agent\]
 
 </td><td>
 
@@ -184,197 +95,46 @@ Create, view, update, and cancel a sales promotion claim case.
 
 </td></tr><tr><td>
 
-Dealer
-
-</td><td>
-
 Dealer Operations Admin
 
 </td><td>
 
-\[sn\_dealer\_mgmt.dealer\_operations\_admin\]
-
-</td><td>
-
-Create, read, update, or cancel all claims.
+Create, read, update, or cancel all the claims.
 
 </td></tr><tr><td>
 
-Dealer
+Recall Manager
 
 </td><td>
+
+-   Member of the OEM team.
+-   They can create, read, and update a recall campaign claim.
+
+</td></tr><tr><td>
+
+Recall Phase Owner
+
+</td><td>
+
+-   Member of the OEM team.
+-   They can update, publish, close, and cancel a recall campaign phase.
+
+</td></tr><tr><td>
 
 Dealer Service Advisor
 
 </td><td>
 
-\[sn\_dealer\_mgmt.dealer\_service\_advisor\]
-
-</td><td>
-
-Create, view, update, and cancel repair claim cases.
-
-</td></tr></tbody>
-</table><table id="table_qrw_q3q_rjc"><thead><tr><th>
-
-Role
-
-</th><th>
-
-Persona
-
-</th><th>
-
-Internal Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Admin
-
-</td><td>
-
-Quality Issue Management Admin
-
-</td><td>
-
-\[sn\_mfg\_qm.admin\]
-
-</td><td>
-
-Full access to all Quality Issue Management \(QIM\) features, tables, and configuration.
-
-</td></tr><tr><td>
-
-OEM
-
-</td><td>
-
-Product Non-conformance Triager
-
-</td><td>
-
-\[sn\_mfg\_qm.triager\]
-
-</td><td>
-
-Review new submissions, check completeness, determine priority and severity, assign to resolvers, and update triage information.
-
-</td></tr><tr><td>
-
-OEM
-
-</td><td>
-
-Product Non-conformance Resolver
-
-</td><td>
-
-\[sn\_mfg\_qm.resolver\]
-
-</td><td>
-
-Work the full PNCC playbook: correction, impacted assets, containment, and closure. Create Quality Investigations.
-
-</td></tr><tr><td>
-
-OEM
-
-</td><td>
-
-Product Quality Investigation Member
-
-</td><td>
-
-\[sn\_mfg\_qm.investigation\_member\]
-
-</td><td>
-
-Participate in PQI activities: create RCA tasks, classify causes, and create CAPA actions.
-
-</td></tr><tr><td>
-
-OEM
-
-</td><td>
-
-Product Quality Investigation Lead
-
-</td><td>
-
-\[sn\_mfg\_qm.investigation\_lead\]
-
-</td><td>
-
-Create, view, update, and cancel a quality investigation and related records. Sign off the investigation and move it to closure.
-
-</td></tr><tr><td>
-
-OEM
-
-</td><td>
-
-Remediation Plan Approver
-
-</td><td>
-
-\[sn\_mfg\_qm.remediation\_plan\_approver\]
-
-</td><td>
-
-Approve or reject remediation action plans before they are enacted.
-
-</td></tr><tr><td>
-
-OEM
-
-</td><td>
-
-Finance Approver
-
-</td><td>
-
-\[sn\_mfg\_qm.finance\_approver\]
-
-</td><td>
-
-Approve Cost of Poor Quality \(COPQ\) financial requests and expense lines.
-
-</td></tr><tr><td>
-
-Dealer
-
-</td><td>
-
-Product Non-conformance Submitter
-
-</td><td>
-
-\[sn\_mfg\_qm.submitter\]
-
-</td><td>
-
-Create, view, update, and cancel a non-conformance case. Create a correction action and add expense lines to it.
+Create, view, update, and cancel a repair claim case.
 
 </td></tr></tbody>
 </table>## Manufacturing Commercial Operations workflow
 
-The Manufacturing Commercial Operations applications combined with ServiceNow® workflows help organizations manage sales, support, and service operations effectively.
+With Manufacturing Commercial Operations applications combined with ServiceNow® workflows, your organization can speed up revenue, improve profitability, and deliver exceptional customer and channel experiences.
 
-Manufacturing Commercial Operations unifies operational domains on a single platform, enabling organizations to achieve:
+\[Omitted image "MCO\_Overview.png"\] Alt text: Manufacturing Commercial Operations
 
--   End-to-end visibility across all operations
--   Automated workflows that reduce manual intervention
--   Proactive service delivery through predictive insights
--   Seamless collaboration between dealers, service providers, and customers
--   Revenue optimization by converting service events into sales opportunities
-
-## Benefits
-
-The MCO delivers measurable benefits across sales promotions, warranty and recall claims, quality issue resolution, and dealer engagement. The following table maps each benefit to its supporting feature and the personas who use it.
+## Manufacturing Commercial Operations benefits
 
 <table id="table_atr_j5s_k2c"><thead><tr><th>
 
@@ -384,122 +144,81 @@ Benefit
 
 Feature
 
-</th><th>
-
-Persona
-
 </th></tr></thead><tbody><tr><td>
 
-Create, manage, and resolve sales promotion campaigns. Support bulk uploads for dealer collaboration.
+Manage sales promotion campaigns and streamline collaboration with dealers to resolve claims​. Support bulk upload of sales promotion claims. It's a playbook guided experience for OEM assessor to resolve claims​.
 
 </td><td>
 
-[Sales promotion claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-sls-prom-clms.md)
-
-</td><td>
-
-Sales Promotion managerDealer Sales Agent
+[Sales promotion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-sls-prom-clms.md)
 
 </td></tr><tr><td>
 
-Manage warranty claims with dealers. Support dealers to submit, edit, and track claims. Streamline resolution for both dealer service advisors and OEM claims agents.
+Manage collaboration with dealers to submit and resolve claims for repairs performed under warranty. Supports dealers to submit, edit, and track claims​. It's a playbook-guided experience both dealer service advisor \(submit the claims\) and OEM claims agent to resolve claims​.
 
 </td><td>
 
-[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-warranty-clms.md)
-
-</td><td>
-
-Claims AgentDealer Operations Admin
+[Repair claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-warranty-clms.md)
 
 </td></tr><tr><td>
 
-Create, manage, and track recall campaigns to closure.
+Support creation of a recall campaign, manage it, and track it to closure.
 
 </td><td>
 
 [Recall campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rcl-clms.md)
 
+</td></tr><tr><td>
+
+Provide dealers a single unified experience to collaborate with New dealer portal​. It's a guided experience to submit, edit, and track claims​.
+
 </td><td>
 
-Recall ManagerRecall Phase Owner
+[Manufacturing Commercial Operations Dealer portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-dealer-portal.md)
 
 </td></tr><tr><td>
 
-Reduce quality costs and accelerate issue resolution. Build customer trust through proactive quality management.
+Resolve customer issues and requests for your customers. By adopting a proactive customer service approach, you can increase your customer satisfaction and retention.
 
 </td><td>
 
-[Quality issue management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-quality-issue-management.md)
+Customer Service Management
 
-</td><td>
-
-Product Non-conformance Triage Product Non-conformance Resolver
-
-Product Quality Investigation Member
-
-Product Quality Investigation Lead
+ See, [Additional features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/additional-features.md)
 
 </td></tr><tr><td>
 
-Provide dealers a unified experience to submit, edit, and track claims through the dealer portal.
-
-</td><td>
-
-[Dealer landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-dealer-portal.md)
-
-</td><td>
-
-Dealer Sales Agent
-
- Dealer Operations Admin
-
-</td></tr></tbody>
-</table>## Extended capabilities
-
-MCO works with other ServiceNow modules to extend your operational capabilities.
-
-<table id="id_or4_cxx_rjc"><thead><tr><th>
-
-Benefit
-
-</th><th>
-
-Feature
-
-</th></tr></thead><tbody><tr><td>
-
-Resolve customer issues and requests. Use a proactive service approach to increase customer satisfaction and retention.
-
-</td><td>
-
-[Extended capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/additional-features.md)
-
-</td></tr><tr><td>
-
-Manage order to cash operations. Launch new services and subscriptions. Capture up-sell and cross-sell revenue.
+Manage order to cash operation processes. Provides agility to launch new services and subscriptions and capture up-sell and cross-sell revenue.
 
 </td><td>
 
 Order to cash operations
 
- See [Extended capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/additional-features.md)
+ See, [Additional features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/additional-features.md)
 
 </td></tr><tr><td>
 
-Provide self-service capabilities and support requests for products, subscriptions, and services. Use Service Model Foundation \(SMF\) to define organization hierarchies and customer relationships.
+Self-service connectivity between multiple ServiceNow® instances within the enterprise and across the ecosystem. Improves collaboration across OEMs, B2B customers, suppliers, and other partners.
+
+</td><td>
+
+Service Exchange
+
+ See, [Additional features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/additional-features.md)
+
+</td></tr><tr><td>
+
+Provide self-service capabilities, support requests on products, subscriptions, and services. Proactive, consistent, and real-time communication. Define the organization, hierarchies, and relationships with the end customers with Service Model Foundation capabilities.
 
 </td><td>
 
 Channel Support Operations
 
- See [Extended capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/additional-features.md)
+ See, [Additional features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/additional-features.md)
 
 </td></tr></tbody>
-</table>## What to explore next
+</table>**Related topics**  
 
--   [What is Manufacturing Commercial Operations \(MCO\)?](https://www.servicenow.com/industries/manufacturing.html)
--   [Configure Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/configuring-manufacturing-foundation.md)
--   [Using Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/manufacturing-using.md)
--   [Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/manufacturing-reference.md)
+
+[Domain separation for Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-domain-separation.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Collaborate on portfolio plans
+title: Collaborate on portfolio plans in Portfolio Planning Workspace
 description: Add comments and attachments to your portfolio plan so that users can review and share their feedback. Collaborate with stakeholders and drive shared outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/collaborate-on-portfolio-plans-in-portfolio-planning-workspace.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Manage portfolio plans, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Collaborate on portfolio plans
+# Collaborate on portfolio plans in Portfolio Planning Workspace
 
 Add comments and attachments to your portfolio plan so that users can review and share their feedback. Collaborate with stakeholders and drive shared outcomes.
 
@@ -39,15 +39,15 @@ The attachments and comments that you add from the portfolio plan's header, they
 
 4.  Add comments or attachments to the portfolio plan.
 
-<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d237465e140">
+<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d187513e134">
 
 Choice
 
-</th><th align="left" id="d237465e143">
+</th><th align="left" id="d187513e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d237465e149">
+</th></tr></thead><tbody><tr><td id="d187513e143">
 
 **Attachments**
 
@@ -55,7 +55,7 @@ Action
 
 In the Attachments tab, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d237465e164">
+</td></tr><tr><td id="d187513e158">
 
 **Comments**
 

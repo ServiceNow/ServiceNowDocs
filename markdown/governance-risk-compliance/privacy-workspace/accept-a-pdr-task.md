@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Use, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -22,23 +22,19 @@ Role required: sn\_grc\_pdr.pdr\_agent
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Personal Data Rights Workspace**
+1.  Navigate to **All** &gt; **Personal Data Rights Workspace** &gt; **Lists** &gt; **Personal data rights** &gt; **All requests**.
 
-2.  On the PDR Workspace, navigate to **Lists** &gt; **Personal data rights** &gt; **All requests**.
+2.  Open the required request.
 
-3.  Open the required request.
+3.  On the Action tasks related list, select the action task that you want to accept.
 
-4.  On the Action tasks related list, select the action task that you want to accept.
+4.  Select **Accept work**.
 
-5.  Select **Accept work**.
+5.  Provide your notes and select **Accept work**.
 
-    **Note:** You can only accept work on action tasks that are in the Assigned state. If the task is not yet assigned, select **Update state**, then change the state to Assigned.
+6.  On the Details tab, provide the details for the task.
 
-6.  Provide your notes and select **Accept work**.\[Omitted image "accept-work-on-action-task.png"\] Alt text: Accept work on an assigned action task.
-
-7.  On the **Details** tab, provide the details for the task.
-
-8.  After you complete the task, select one of the following.
+7.  After you complete the task, select one of the following.
 
     |Choice|Action|
     |------|------|
@@ -47,11 +43,4 @@ Role required: sn\_grc\_pdr.pdr\_agent
 
 
 **Parent Topic:**[Using Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-personal-data-right.md)
-
-**Related topics**  
-
-
-[Workflow of Personal Data Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/workflow-of-personal-data-rights.md)
-
-[Add action tasks to a Personal Data Rights request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-action-tasks-to-a-personal-data-rights-request.md)
 

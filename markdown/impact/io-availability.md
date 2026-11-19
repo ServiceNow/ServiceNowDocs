@@ -1,20 +1,20 @@
 ---
-title: View instance-level availability
-description: The Availability section shows instance-level availability on a geographic map and instance level ServiceNow generated alerts \(limited alert types\) over the last seven days.
+title: Availability
+description: The Availability section shows instance level availability on a geographic map and instance level ServiceNow generated alerts \(limited alert types\) since the past 7 days.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/io-availability.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
+breadcrumb: [Impact Instance Observer, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
 ---
 
-# View instance-level availability
+# Availability
 
-The Availability section shows instance-level availability on a geographic map and instance level ServiceNow generated alerts \(limited alert types\) over the last seven days.
+The Availability section shows instance level availability on a geographic map and instance level ServiceNow generated alerts \(limited alert types\) since the past 7 days.
 
-## Instance availability
+## Instance Availability
 
 1.  Navigate to **Impact** &gt; **Platform Health** &gt; **Monitor** &gt; **Go to Instance Observer**.
 2.  Select **Availability** tab and click **Instance Availability** value.
@@ -37,9 +37,4 @@ The Availability section shows instance-level availability on a geographic map a
 ## Known Issues
 
 A problem or defect of an instance that requires proactive mitigation is listed in the **Known Issues** tab of the **Availability** section.
-
--   **[Cloud availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/cloud-availability.md)**  
-Check specific ServiceNow data center availability, service degradation, or for interruption.
-
-**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-overview.md)
 

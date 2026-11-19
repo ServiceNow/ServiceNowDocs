@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Setting up Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Set up, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Set up Microsoft Entra ID for Password Reset
@@ -27,7 +27,7 @@ Microsoft Entra ID users can reset passwords with the Microsoft Entra ID Integra
 
 ### Before you begin
 
-Role required: password\_reset\_admin
+Role required: admin
 
 ### About this task
 

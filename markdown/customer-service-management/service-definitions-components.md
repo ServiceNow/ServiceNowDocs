@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/service-definitions-components.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 6
-breadcrumb: [Customer service case types, Case management, Organize agent workspaces, Configure, Customer Service Management]
+last_updated: "2025-01-30"
+reading_time_minutes: 5
+breadcrumb: [Customer service case types, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Components installed with case types
@@ -79,7 +79,7 @@ Service to Service Relationship\[sn\_csm\_case\_types\_service\_to\_service\_rel
 
 </td><td>
 
-This table stores relationships that have been configured between services. For example, related services that have been added to a service definition.
+This table stores relationships that have been configured between services. For example, related services that have been added to a service definition.For more information about these relationships, see .
 
 </td></tr><tr><td>
 
@@ -88,22 +88,6 @@ Catalog Service Relationship\[sn\_csm\_case\_types\_catalog\_service\_rel\]
 </td><td>
 
 This table stores the catalog items that are linked to a service definition.For more information, see [Configure catalog items for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/service-def-config-catalog-items.md).
-
-</td></tr><tr><td>
-
-Service Definition User Criteria\[sn\_csm\_case\_types\_service\_user\_criteria\]
-
-</td><td>
-
-This table stores the user criteria that has been configured for a service definition record. The system uses this criteria to filter the services that are available to users in the service selector when creating a case. For more information, see [Configure user criteria for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-user-criteria-for-a-service-definition.md).
-
-</td></tr><tr><td>
-
-Service Definition Customer Criteria\[sn\_csm\_case\_types\_service\_customer\_criteria\]
-
-</td><td>
-
-This table stores the customer criteria that has been configured for a service definition record. The system uses this criteria to filter the services that are available to customers. For more information, see [Configure customer criteria for a service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-customer-criteria-for-a-service-definition.md).
 
 </td></tr></tbody>
 </table>## Roles installed with case types
@@ -206,7 +190,7 @@ sn\_csm\_case\_types.case\_type\_single\_field\_select
 
 </td><td>
 
-Set this property to true to enable the case type single select feature in CRM Workspace. When enabled, an agent can use this feature to create a case of a specific type with a single selection in the case type selector screen.-   **Type:** true \| false
+Set this property to true to enable the case type single select feature in CSM Configurable Workspace. When enabled, an agent can use this feature to create a case of a specific type with a single selection in the case type selector screen.-   **Type:** true \| false
 -   **Default value:** false
 -   **Location:** System Property \[sys\_properties\] table
 

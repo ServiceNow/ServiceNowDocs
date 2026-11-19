@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Using the Legal Invention Disclosure, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
 ---
 
 # Create a Legal Invention Disclosure request
@@ -26,11 +26,9 @@ Role required: sn\_lg\_ops.legal\_user
 
     1.  Navigate to **All** &gt; **Employee Center**.
 
-    2.  Navigate to **Help center** &gt; **Legal services** &gt; **.**.
+    2.  From the **Legal Services** menu, select **Intellectual Property**.
 
-    3.  Select **Intellectual Property** category.
-
-    4.  Select **Invention Disclosure Request**.
+    3.  Select **Invention Disclosure Request**.
 
 2.  On the Legal Invention Disclosure request form, fill in the fields.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Schema management, Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Schema management in Stream Connect, Using Stream Connect for Apache Kafka, Importing and streaming data in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Create a standalone schema in Stream Connect

@@ -1,30 +1,30 @@
 ---
-title: ServiceNow Otto for Code roles
-description: Understand the roles needed to use ServiceNow Otto for Code. These roles are created when ServiceNow Otto for Creator is installed.
+title: Code generation roles
+description: The following roles are installed for use with code generation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/now-assist-code-roles.html
 release: yokohama
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Code generation reference, Now Assist for code generation, Scripting, API implementation, API implementation and reference]
 ---
 
-# ServiceNow Otto for Code roles
+# Code generation roles
 
-Understand the roles needed to use ServiceNow Otto for Code. These roles are created when ServiceNow Otto for Creator is installed.
+The following roles are installed for use with code generation.
 
-To learn more about managing subscriptions for individual users, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative for assistance.
+To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
-## Admin \[now\_assist\_code\_admin\]
+## Now Assist Creator \[now.assist.creator\]
 
-Manage the preferences and configurations for ServiceNow Otto for Code.
+Write scripts using AI-powered code generation.
 
 -   **Groups**
 
-    This role is not assigned to any groups by default.
+    This role is assigned to no groups by default.
 
 -   **Contains Roles**
 
@@ -32,12 +32,12 @@ Manage the preferences and configurations for ServiceNow Otto for Code.
 
 -   **Elevated**
 
-    This role is an elevated role.
+    This role is not an elevated role.
 
 -   **Special considerations**
 
     None
 
 
-**Parent Topic:**[ServiceNow Otto for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/now-assist-code-reference.md)
+**Parent Topic:**[Code generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/now-assist-code-reference.md)
 

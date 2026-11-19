@@ -1,5 +1,5 @@
 ---
-title: Add or modify recommended learning in Journey designer
+title: Add or modify recommended learning in the Journey designer app
 description: Configure and manage recommended learning for employee journeys.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-designer/jny-dsgnr-config-reco-lrnng.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Recommended learning in journey configurations, Configure Journey designer features, Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Recommended learning in journey configurations, Configure Journey designer features, Installation and configuration overview, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Add or modify recommended learning in Journey designer
+# Add or modify recommended learning in the Journey designer app
 
 Configure and manage recommended learning for employee journeys.
 
 ## Before you begin
 
-Role required: admin \[sn\_jny.admin\]
+Role required: admin
 
 ## About this task
 

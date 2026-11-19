@@ -1,22 +1,22 @@
 ---
-title: Using the Public Sector Workspace for Public Sector Digital Services
+title: Using the CSM Configurable Workspace for Public Sector Digital Services
 description: Set up CSM Configurable Workspace for your agents and expand the Workspace UI so they can engage with customers, answer questions, create cases, and resolve issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-using-csm-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using the Public Sector Workspace for Public Sector Digital Services
+# Using the CSM Configurable Workspace for Public Sector Digital Services
 
 Set up CSM Configurable Workspace for your agents and expand the Workspace UI so they can engage with customers, answer questions, create cases, and resolve issues.
 
-Government service agents can complete most tasks in Public Sector Workspace. For more information on how to set up the Public Sector Workspace, see [Set up the Public Sector Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/setting-up-csm-fsm.md).
+Government service agents can complete most tasks in CSM Configurable Workspace. For more information on how to set up the CSM Configurable Workspace, see [Set up the CSM Configurable Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/setting-up-csm-fsm.md).
 
-The tables below describe some of the basic tasks that agents can perform in Public Sector Workspace.
+The tables below describe some of the basic tasks that agents can perform in CSM Configurable Workspace.
 
 <table id="table_csm_workspace_agent_tasks"><thead><tr><th>
 

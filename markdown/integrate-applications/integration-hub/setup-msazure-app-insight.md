@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Microsoft Azure Application Insights Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Microsoft Azure Application Insights Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Set up the Azure Application Insights spoke

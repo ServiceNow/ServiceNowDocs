@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Testing and monitoring predictions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Testing and monitoring predictions, Predictive Intelligence, Enable AI experiences]
 ---
 
 # Test a similarity solution prediction
@@ -117,12 +117,10 @@ This scenario illustrates a similarity solution prediction for a hypothetical ML
         \[Omitted image "predict-intel-simtest-soldef-recommendation.png"\] Alt text: Shows the user the Resolution notes in one of the Incident records.
 
 
-**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
-
 **Related topics**  
 
 
-[bundle-crapiref.agent-intelligence-api]
+[Predictive Intelligence API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/agent-intelligence-api.md)
 
-[bundle-crapiref.c_MLPredictorAPI]
+[MLPredictor - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_MLPredictorAPI.md)
 

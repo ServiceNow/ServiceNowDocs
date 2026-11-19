@@ -1,5 +1,5 @@
 ---
-title: Assign another agent's smart assessment to yourself
+title: Assign smart assessment through Mobile agent app
 description: You can assign the smart assessment for an inspection or an audit to yourself if you belong to the same assignment group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/health-and-safety/hs-assign-smart-assessment-mobile-agent.html
@@ -7,20 +7,18 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-01-13"
 reading_time_minutes: 1
 breadcrumb: [Manage the smart assessment for safety inspections and audits from mobile app, Manage safety inspections and audits through the mobile apps, Mobile experience for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
-# Assign another agent's smart assessment to yourself
+# Assign smart assessment through Mobile agent app
 
 You can assign the smart assessment for an inspection or an audit to yourself if you belong to the same assignment group.
 
 ## Before you begin
 
 Role required: sn\_hs\_rm.safety\_inspection\_writer or sn\_hs\_rm.safety\_audit\_writer
-
-**Note:** To perform this task, the role must match or contain the role specified in the **Assessment reader role** field. This field is set during the smart assessment template configuration. For more information, see [Configure the smart assessment template for safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-configure-smart-assessment-template.md).
 
 ## About this task
 
@@ -44,6 +42,8 @@ Role required: sn\_hs\_rm.safety\_inspection\_writer or sn\_hs\_rm.safety\_audit
 
 -   The inspection or the audit gets assigned to you.
 -   The smart assessment associated with the inspection also gets assigned to you.
+
+The smart assessment gets assigned to you.
 
 ## What to do next
 

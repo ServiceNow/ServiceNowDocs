@@ -1,5 +1,5 @@
 ---
-title: Activate a scheduled job to create financial baselines for your projects and demands
+title: Scheduled job to create financial baselines
 description: Define a scheduled job to automatically create financial baselines for your planning items at a required cadence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/baseline-schedule-job-pp.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure financials for Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Configure financials for planning items in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Activate a scheduled job to create financial baselines for your projects and demands
+# Scheduled job to create financial baselines
 
 Define a scheduled job to automatically create financial baselines for your planning items at a required cadence.
 

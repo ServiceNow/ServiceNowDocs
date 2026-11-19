@@ -1,26 +1,22 @@
 ---
 title: Associate an account with consumers
-description: Enable customer service managers to identify the end consumers who are using products or services and track customer information.
+description: Enable customer service managers to identify the end consumers who are using products or services and keep track of customer information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_AssociateConsumersToAccounts.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using customer data models for B2B2C, Customer management, Use, Customer Service Management]
+breadcrumb: [Using Customer Data Models for B2B2C, Customer management, Using Customer Service Management, Customer Service Management]
 ---
 
 # Associate an account with consumers
 
-Enable customer service managers to identify the end consumers who are using products or services and track customer information.
+Enable customer service managers to identify the end consumers who are using products or services and keep track of customer information.
 
 ## Before you begin
 
-Role required: One of the following roles:
-
--   sn\_crm\_foundation\_admin
--   sn\_customerservice\_manager
--   sn\_crm\_foundation\_data\_manager
+Role required: sn\_customerservice\_manager
 
 ## Procedure
 
@@ -28,9 +24,9 @@ Role required: One of the following roles:
 
 2.  Select an account.
 
-3.  Select the **Consumers** related list.
+3.  Click the **Consumers** related list.
 
-4.  Select **New** to add an existing or new consumer.
+4.  Click **New** to add an existing or new consumer.
 
 <table id="table_xhq_4cl_gqb"><thead><tr><th>
 
@@ -46,7 +42,7 @@ Add an existing consumer
 
 </td><td>
 
-1.  In the **Consumer** field, select the Lookup using list icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon.\).
+1.  In the **Consumer** field, click the Lookup using list icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon.\).
 2.  Select a consumer from the list.
 
 
@@ -56,14 +52,14 @@ Add a new consumer
 
 </td><td>
 
-1.  In the **Consumer** field, select the Lookup using list icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon.\).
-2.  Select **New**.
+1.  In the **Consumer** field, click the Lookup using list icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon.\).
+2.  Click **New**.
 3.  On the Consumer form, fill in the fields.
-4.  Select **Submit**.
+4.  Click **Submit**.
 
 
 </td></tr></tbody>
-</table>5.  Select **Submit**.
+</table>5.  Click **Submit**.
 
 
 ## Result

@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Lucidchart Diagramming Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Lucidchart Diagramming Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Create OAuth 2.0 Client in Lucidchart

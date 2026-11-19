@@ -1,5 +1,5 @@
 ---
-title: Limit guest's active session life span
+title: Limit guest's active session life span \[New in Security Center 1.3\]
 description: Use the glide.guest.active.session.life\_span property to control the duration of an active guest's HTTP sessions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-limit-guests-active-session-life-span.html
@@ -7,20 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-05-29"
+reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Limit guest's active session life span
+# Limit guest's active session life span \[New in Security Center 1.3\]
 
 Use the **glide.guest.active.session.life\_span** property to control the duration of an active guest's HTTP sessions.
 
-The **glide.guest.active.session.life\_span** property enforces a maximum lifespan on active guest HTTP sessions, regardless of the session activity. The configured value is in minutes. A value of zero disables the lifespan limit entirely, allowing sessions to persist indefinitely until the inactive timeout fires. Guest users are unauthenticated users who access the instance without logging in.
+The **glide.guest.active.session.life\_span** system property enforces a maximum lifespan on active guest HTTP sessions, regardless of session inactivity. The configured value is in minutes. A value of `0` disables the lifespan limit entirely, allowing sessions to persist until the inactive timeout fires. Guest users are unauthenticated users who access the instance without logging in.
 
-A larger maximum lifespan allows an attacker to persist a stolen session for longer, increasing the scope of a security incident.
-
-Navigate to /sys\_properties\_list.do on the instance and verify that the **glide.guest.active.session.life\_span** property exists and is set to a value greater than 0 and less than or equal to 720 minutes.
+Set the **glide.guest.active.session.life\_span** system property to `720`.
 
 ## More information
 
@@ -54,7 +52,7 @@ Data type
 
 </td><td>
 
-integer
+Integer
 
 </td></tr><tr><td>
 
@@ -96,7 +94,7 @@ Security risk
 
 -   Severity score: 4.2
 -   CVSS score: Medium
--   Security risk details: A larger maximum lifespan allows an attacker to persist a stolen session for longer, increasing the scope of a security incident.
+-   Security risk details: A larger maximum lifespan could allow an attacker to persist a stolen session for longer, increasing the scope of a security incident.
 
 </td></tr><tr><td>
 
@@ -104,7 +102,7 @@ Functional impact
 
 </td><td>
 
-Guest HTTP sessions that exceed the configured lifespan are silently invalidated and reissued a new session ID. The guest user sees no error or logout screen, but any session-scoped state \(for example, in-progress form data, embedded portal widget context, or session-based rate limiting\) accumulated during that session is lost and starts fresh. Legitimate guest users on long-running but otherwise idle browser tabs require reloading the page after the configured interval elapses.
+This configuration enforces max life-span on active guest HTTP sessions irrespective of inactive timeout. The configured value is in minutes. A value of zero disables the lifespan limit entirely. The max life-span should be more than the inactive timeout **glide.ui.session\_timeout** \(default 30 minutes\).
 
 </td></tr><tr><td>
 
@@ -112,7 +110,7 @@ Dependencies and prerequisites
 
 </td><td>
 
-This control interacts with the **glide.guest.session\_timeout** property, which controls the guest idle-session timeout duration. The platform requires the active session maximum lifespan to be greater than or equal to the idle timeout. If the active session lifespan is configured to a value lower than the idle-session timeout, the platform automatically increases the effective lifespan to match the idle-session timeout and logs a warning message.
+None
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-session-management.md)

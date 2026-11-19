@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-05-16"
 reading_time_minutes: 1
 keywords: [Workplace Management Reporting, service delivery monitoring]
 breadcrumb: [Workplace Core, Workplace Service Delivery, Employee Service Management]

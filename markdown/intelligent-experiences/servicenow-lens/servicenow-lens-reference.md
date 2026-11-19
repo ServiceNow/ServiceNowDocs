@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-03-06"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
+breadcrumb: [ServiceNow AI Lens, Enable AI experiences]
 ---
 
 # ServiceNow AI Lens reference

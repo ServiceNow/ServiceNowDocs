@@ -7,18 +7,14 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
+breadcrumb: [Team Development, Exploring Team Development, Team Development, Planning your application, Building applications]
 ---
 
 # Check the review status of a pushed change
 
 If the parent instance requires pushed changes to undergo code review, changes are placed in the Awaiting Code Review stage.
-
-## Before you begin
-
-Role required: none.
 
 ## About this task
 
@@ -44,4 +40,6 @@ If you configure the parent instance to send [notifications](https://raw.githubu
     -   What comments if any the reviewer provided.
     \[Omitted image "CodeReviewStatus.png"\] Alt text: Code review status
 
+
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

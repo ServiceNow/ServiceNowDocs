@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mab-record-config-panel.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Record screen, Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
+breadcrumb: [Mobile App Builder record screen, Mobile App Builder, Mobile app building tools, Building mobile apps, Mobile Platform]
 ---
 
 # Configuration panel within a record screen

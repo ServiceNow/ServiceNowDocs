@@ -1,20 +1,20 @@
 ---
 title: Create escalation trigger rules and policy from team record
-description: Create an escalation policy and trigger rules from a team record.
+description: Navigate to team record to create new policy and trigger rules
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/edit-escalation-trigger-rules-and-policy-from-team-record.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure escalation triggers and policies, Configuring On-Call Scheduling in Service Operations Workspace, On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Escalation triggers and policies, On-Call Scheduling in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Create escalation trigger rules and policy from team record
 
-Create an escalation policy and trigger rules from a team record.
+Navigate to team record to create new policy and trigger rules
 
 ## Before you begin
 
@@ -26,10 +26,10 @@ Role required: rota\_manager, rota\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operation Workspace**.
 
-2.  Select the **Schedule** icon.
+2.  Click the **Schedule** icon.
 
-3.  On the **Schedules** page, select and hold \(or right-click\) the shift span and select \[Omitted image "edit-icon.png"\] Alt text: Edit icon icon.
+3.  On the **Schedules** page, right-click the shift span and click \[Omitted image "edit-icon.png"\] Alt text: Edit icon icon.
 
 
-**Parent Topic:**[Configure escalation triggers and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/work-on-escalation-trigger-rules-and-policies-in-sow.md)
+**Parent Topic:**[Escalation triggers and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/work-on-escalation-trigger-rules-and-policies-in-sow.md)
 

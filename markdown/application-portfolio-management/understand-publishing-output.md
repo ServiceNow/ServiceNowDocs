@@ -1,16 +1,16 @@
 ---
-title: Understanding the publishing results and knowledge base output
+title: Publishing results and knowledge base output
 description: Understand what happens after you publish or republish a TRM catalog and how to interpret the results in the Publishing Center and the knowledge base.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/understand-publishing-output.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Working with the publishing center, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+last_updated: "2026-02-11"
+reading_time_minutes: 1
+breadcrumb: [Working with the publishing center, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Understanding the publishing results and knowledge base output
+# Publishing results and knowledge base output
 
 Understand what happens after you publish or republish a TRM catalog and how to interpret the results in the Publishing Center and the knowledge base.
 
@@ -21,11 +21,6 @@ When you publish or republish a TRM catalog, the Publishing Center tracks the ou
 ## Knowledge base output
 
 Publishing a TRM catalog generates knowledge base content that you can browse and search. After publishing, a catalog link is generated. For more information, see [Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/access-the-published-kb.md).
-
-**Note:** The **Authored by** and **Revised by** fields on knowledge base articles reflect the account that triggered the update:
-
--   Articles created or updated through the **Publish** button in the Publishing Center show **System Administrator** in both fields, because publishing runs as a scheduled job.
--   Articles updated automatically when a TRM product or product lifecycle record changes show the logged-in user who made the change.
 
 ## How TRM content is structured in the knowledge base
 
@@ -62,7 +57,7 @@ Access to the published TRM catalog depends on how the catalog and Knowledge Bas
 
 [Publish a TRM catalog to the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/publish-trm-cat-to-kb.md)
 
-[Create a configuration to publish TRM data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/config-trm-data-to-publish.md)
+[Create a new configuration to publish TRM data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/config-trm-data-to-publish.md)
 
 [Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/access-the-published-kb.md)
 

@@ -1,18 +1,18 @@
 ---
-title: Configure access to create filter sets in the Activity stream
-description: Configure access to create filter sets in the Activity stream by restricting specified users.
+title: Restrict access to creating filter sets in the Activity stream
+description: Restrict specified agents from creating filter sets in the Activity stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/configure-role-based-access-control-for-creating-personalized-filter-sets.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Activity stream, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Administering Activity stream for Configurable Workspace, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Configure access to create filter sets in the Activity stream
+# Restrict access to creating filter sets in the Activity stream
 
-Configure access to create filter sets in the Activity stream by restricting specified users.
+Restrict specified agents from creating filter sets in the Activity stream.
 
 ## Before you begin
 
@@ -20,17 +20,17 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to `sys_user.list`.
+1.  In the navigation filter, enter `sys_user.list`.
+
+    The entire list of properties in the System Properties \[sys\_properties\] table appears.
 
 2.  Select a user.
 
-3.  From Related Links, select the **Roles** tab.
+3.  Within the **Roles** tab, select **Edit**.
 
-4.  Select **Edit**.
+4.  Add **workspace.activity\_stream\_restrict\_create\_filter\_set** to the Roles List.
 
-5.  Add **workspace.activity\_stream\_restrict\_create\_filter\_set** to the Roles List.
-
-6.  Select **Save**.
+5.  Select **Save**.
 
 
 ## Result

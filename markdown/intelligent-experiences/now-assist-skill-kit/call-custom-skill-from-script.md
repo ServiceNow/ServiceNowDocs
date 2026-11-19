@@ -1,20 +1,20 @@
 ---
 title: Call a custom skill from a script
-description: Call a custom skill from a UI action script so that you can run the skill and use its output in your instance logic.
+description: You can use a script to call a custom skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skill-kit/call-custom-skill-from-script.html
 release: yokohama
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Call a custom skill from a script
 
-Call a custom skill from a UI action script so that you can run the skill and use its output in your instance logic.
+You can use a script to call a custom skill.
 
 ## Before you begin
 

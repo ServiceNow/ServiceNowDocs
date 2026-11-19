@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Telecommunications Network Inventory]
+breadcrumb: [Telecommunications Network Inventory reference, Telecommunications Network Inventory]
 ---
 
 # Create Logical Connection form
@@ -94,5 +94,5 @@ Bandwidth of this logical connection.
 **Related topics**  
 
 
-[Design and assign GPON broadband service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-service.md)
+[Designing and assigning a GPON broadband service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-service.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create a service frequency for your enterprise asset calibrations
@@ -28,15 +28,13 @@ For more details on calibration attributes, see [Add calibration attributes to a
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
+1.  From the Enterprise Asset Workspace, open the Admin center view.
 
-2.  From the Enterprise Asset Workspace, open the Admin center view.
+2.  From the left navigation menu of the Admin center view, navigate to **Calibration configuration** &gt; **Service frequency**.
 
-3.  From the navigation panel of the Admin center view, navigate to **Calibration configuration** &gt; **Service frequency**.
+3.  Select **New**.
 
-4.  Select **New**.
-
-5.  On the form, fill in the fields.
+4.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -44,10 +42,12 @@ For more details on calibration attributes, see [Add calibration attributes to a
     |Service frequency|Frequency at which you must perform the calibrations.|
     |Service frequency type|Type of frequency.|
 
-6.  Select **Save**.
+5.  Select **Save**.
 
 
 ## Result
 
 The service frequency is available to use in your calibration attributes.
+
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

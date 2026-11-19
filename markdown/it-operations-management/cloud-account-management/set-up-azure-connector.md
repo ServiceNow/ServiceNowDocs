@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-03-18"
 reading_time_minutes: 1
-breadcrumb: [Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Azure connection

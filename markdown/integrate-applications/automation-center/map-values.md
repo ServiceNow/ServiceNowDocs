@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Aligning source and destination values, Create an automation source, Working with Connection Manager, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Aligning source and destination values, Create an automation source, Working with Connection Manager, Using Automation Center, Automation Center, Data and Automation]
 ---
 
 # Map source values

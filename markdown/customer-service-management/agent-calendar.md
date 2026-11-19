@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/agent-calendar.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Schedules and sites, Use, Customer Service Management]
+breadcrumb: [Manage schedules and sites, Using Customer Service Management, Customer Service Management]
 ---
 
 # Managing agent calendar

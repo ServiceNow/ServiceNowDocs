@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
 
 # Create an Agent Client Collector configuration data file
@@ -36,15 +36,15 @@ Domain separation is supported in the Agent Client Collector configuration data 
 
 3.  Add or remove an attachment.
 
-<table id="choicetable_v1p_3mr_3zb"><thead><tr><th align="left" id="d747317e116">
+<table id="choicetable_v1p_3mr_3zb"><thead><tr><th align="left" id="d563796e110">
 
 Action
 
-</th><th align="left" id="d747317e119">
+</th><th align="left" id="d563796e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d747317e125">
+</th></tr></thead><tbody><tr><td id="d563796e119">
 
 **Add a file**
 
@@ -58,7 +58,7 @@ The Attachments dialog box opens.
 3.  Close the Attachments dialog box.
 
 
-</td></tr><tr><td id="d747317e159">
+</td></tr><tr><td id="d563796e153">
 
 **Delete a file**
 
@@ -92,6 +92,4 @@ The Attachments dialog box opens.
 -   The **Name** value is automatically set to the name of the attachment.
 
 Checks use the configuration data file with instance data during check execution.
-
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
 ---
 
 # Configure rate limiting for providers

@@ -1,16 +1,16 @@
 ---
-title: Assign roles to Care Team Operations for Healthcare IT users
+title: Set up roles for Care Team Operations for Healthcare IT
 description: Ensure that the correct roles are assigned to users of Care Team Operations for Healthcare IT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/cto-it-set-up-roles.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Setting up roles and responsibilities in Care Team Operations for Healthcare IT, Configure, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configuring Care Team Operations for Healthcare IT, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
-# Assign roles to Care Team Operations for Healthcare IT users
+# Set up roles for Care Team Operations for Healthcare IT
 
 Ensure that the correct roles are assigned to users of Care Team Operations for Healthcare IT.
 
@@ -30,6 +30,18 @@ You can assign roles to individual users or groups. When you apply roles to grou
 
 <table id="table_o3r_btl_c2c"><tbody><tr><td>
 
+sn\_cto\_hcit.admin
+
+</td><td>
+
+IT Admin
+
+</td><td>
+
+IT Admin role for Care Team Operations for Healthcare IT.
+
+</td></tr><tr><td>
+
 sn\_cto\_hcit.loc\_support\_agent
 
 </td><td>
@@ -42,15 +54,29 @@ Views/resolves all cases under their assignment group. Tracks and fulfills cases
 
 </td></tr><tr><td>
 
-sn\_cto\_hcit.loc\_manager
+sn\_cto\_hcit.viewer
 
 </td><td>
 
-Healthcare IT services support department manager
+IT Viewer
 
 </td><td>
 
-Monitors the tasks within their organizations.
+Views all IT and HCLS foundation data.
+
+ **Note:**If users need access to incidents, the sn\_incident\_read role can be added to this role.
+
+</td></tr><tr><td>
+
+sn\_cto\_hcit.loc\_contributor
+
+</td><td>
+
+CTO IT location contributor role for Nurse, Nurse Assistant
+
+</td><td>
+
+Reports cases, respond to cases, track cases at business location, views cases under their team.
 
 </td></tr></tbody>
 </table>**Example:**

@@ -1,232 +1,235 @@
 ---
-title: ServiceNow Otto for Virtual Agent release notes
-description: The ServiceNow Otto for Virtual Agent application uses large language models \(LLMs\) to create a natural-language conversational experience that can improve the success of your self-service workflows. See the following sections for release notes by version.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Brazil release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users quickly obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Brazil release.The September 2026 release deprecated Virtual Agent for NLU and keywords and added several features including upload file size improvements and embed enhanced chat capabilities.HEIDI BETH FEEL FREE TO UPDATE AS WELL. THIS MIMICS OLD HIGHLIGHTS SECTION.
+title: Virtual Agent release notes
+description: The ServiceNow Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/virtual-agent-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2026-09-10"
+last_updated: "2025-06-16"
 reading_time_minutes: 8
-breadcrumb: [Conversational Interfaces release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [Conversational Interfaces release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
-# ServiceNow Otto for Virtual Agent release notes
+# Virtual Agent release notes
 
-The ServiceNow® Otto for Virtual Agent application uses large language models \(LLMs\) to create a natural-language conversational experience that can improve the success of your self-service workflows. See the following sections for release notes by version.
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.
 
-## About ServiceNow Otto for Virtual Agent
+## About Virtual Agent
 
--   Use a conversation designer to build and test conversations without scripting or advanced skills.
--   Empower users to self-serve with AI agents, enhanced or premium chat with AI Search, conversational catalog skills, and more.
--   Seamlessly transfer the entire conversation history and context to the right human agent so they can quickly address any escalations and resolve user issues.
+[Yokohama Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
 
-See  for more information.
+-   Create and manage LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience.
 
-**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-llm-model-updates.md).
+[Yokohama Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-6.md)
+
+-   Start the create flow for all supported conversational assets directly from Virtual Agent Designer.
+-   Enhance the user experience with Slack response message streaming capability.
+
+[Yokohama Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-3.md)
+
+-   View people information in the synthesized response along with people citation when you search a person in Microsoft Teams chat.
+-   AI agent support for Virtual Agent.
+-   View AI agents and agentic workflows in Virtual Agent Designer.
+-   Select AI agents to handle tasks in the AI Connector utility. See [AI Connector utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/vad-ai-connector-utility.md), [Managing AI agents in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/managing-use-cases-ai-agents.md), and [Using AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/ai-agent-custom-skill.md) for more information.
+
+[Yokohama Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-1.md)
+
+-   Enhance the user experience with Microsoft Teams response message streaming capability.
+
+[Yokohama Early Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-security-notables.md)
+
+-   Enhance the overall voice-based chat experience in Conversational IVR with Now Assist.
+-   Generate synthesized responses in Slack conversations with Now Assist.
+-   Generate synthesized responses in Microsoft Teams conversations with Now Assist.
+-   View custom skills in Virtual Agent Designer.
+
+See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Note:** ServiceNow Otto for Virtual Agent is available in the ServiceNow Store. For details, see the following activation information.
-
 -   **Activation information**
 
-    Virtual Agent is available with activation of the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) if you have the admin role. For details, see Activate Virtual Agent. Once activated, you can install ServiceNow Otto for Virtual Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Virtual Agent is a ServiceNow AI Platform feature that is available with activation of the Glide Virtual Agent plugin \(com.glide.cs.chatbot\), which requires a separate subscription. For details, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/activate-virtual-agent.md).
 
--   **Upgrade information**
+    **Note:** The Glide Virtual Agent plugin initially installs the Topic Recommendations and Conversational Analytics applications. Subsequent updates to these apps must be installed from the ServiceNow Store.
 
-    You can upgrade ServiceNow Otto for Virtual Agent from the ServiceNow Store.
+    ServiceNow® Virtual Agent Lite is a subset of the Virtual Agent platform that is available to ServiceNow® IT Service Management \(ITSM\) customers. It doesn't require activation and works with ITSM Virtual Agent Lite conversations, which are also available to ITSM customers.
 
 -   **Browser requirements**
 
     Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
-
--   **Additional requirements**
-
-    ServiceNow Otto for Virtual Agent requires at least one ServiceNow Otto product or the Requestor Agents - Foundation plugin.
 
 
 ## Accessibility and localization
 
 -   **Localization information**
 
-    Dynamic Translation is supported for non-streaming ServiceNow Otto for Virtual Agent conversations. For more information, see .
+    The ServiceNow® Localization Framework is integrated in Virtual Agent.
 
 
 **Parent Topic:**[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/conversational-interfaces-rn-landing.md)
 
-## November 2026
+## January 2026
 
-The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Brazil release.
-
-### What's new
-
--   ****
--   **New features for premium chat**
-
-    These features were added to premium chat:
-
-    -   Switch between multiple interactive views in a single ServiceNow Otto conversation by using the drop-down list in the interactive view header. Return to a knowledge article, catalog form, or other content you opened earlier without searching for it again.
-    -   Preview files in the interactive view when ServiceNow Otto generates them, including Microsoft Word, Microsoft PowerPoint, Microsoft Excel, and PDF. Review a file's content before you download it, without leaving the conversation.
-    -   Ask a follow-up question about specific content by highlighting text in a ServiceNow Otto response and selecting **Ask a follow-up**. The highlighted text appears as a quote above the input bar and doesn't carry over when you start or switch to a different conversation.
-    -   Download generated files that use plain Microsoft Office templates, with no ServiceNow branding applied. Share or edit downloaded Word, PowerPoint, and Excel files without removing extra formatting first.
-    -   Download a generated file directly from the chat by selecting the download icon on the attachment in a ServiceNow Otto response.
-
-### What's changed
-
--   ****
-
--   **[Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md)**
-
-    Existing and newly created assistants now run on the latest version of Agentic Orchestrator \(v2\), and administrators don’t need to take further action.
-
-
-## October 2026
-
-The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users quickly obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Brazil release.
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.
 
 ### What's new
 
+-   **[Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/assistant-designer.md)**
+
+    Create and manage LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience. Assistant Designer is comprised of three main areas: Assistants, Asset library \(previously Virtual Agent Designer\), and Analytics.
+
+-   **[Conversational settings for Assets in the Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/asset-lib-conv-settings.md)Conversational settings**
+
+    Manage the settings for an asset directly from the Asset library page.
 
 
--   **Cancel live agent request**
+## August 2025
 
-    In premium chat, select the **Cancel** button on the banner while a live agent request is in process to cancel the request. After the request is cancelled or the live agent connects to the chat, the banner disappears from chat.
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.
 
--   ****
+### What's new
 
-    Turn voice dictation on or off for an assistant on the **Voice experience** page. For ServiceNow Otto for Virtual Agent assistants, voice dictation is only available for premium chat. For ServiceNow Otto panel – Platform assistant, voice dictation is available for all chat experiences.
+-   **[Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/create-virtual-agent-topic.md)**
 
-    **Note:** Voice dictation was previously known as voice input, which was enabled from within [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/additional-chat-features.md).
+    Start the create flow for all supported conversational LLM assets directly from Virtual Agent Designer.
 
--   ****
+-   **[Assistants in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)**
 
-    For eligible new customers, premium chat is the default and the only available chat experience. If the assistant uses the Now LLM provider, the premium chat option isn't available.
+    The Now Assist Panel - Platform \(default\) assistant is now available in Virtual Agent Designer.
 
--   **Non-English language recognition for voice input**
+-   **[AI Connector utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/vad-ai-connector-utility.md)**
 
-    When you speak in the default language selected in your profile, even if this language is non-English, your speech is transcribed into text in that same language.
+    Select AI agents to handle tasks in the AI Connector utility. For more information on AI agents in Virtual Agent Designer, see [Managing AI agents in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/managing-use-cases-ai-agents.md) and [Using AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/ai-agent-custom-skill.md).
 
--   ****
+-   **Virtual Agent Designer [Table bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/table-bot-response.md)**
 
-    Measure the quality of your conversational assistant at scale with automated evaluations in Assistant Designer. Choose the metrics that define success for you, such as conversation success, conversation fluency, faithfulness, skill selection accuracy, and turn count. You can run them against your own test data set and ground truth.
+    Slide the new **Show links for each record** toggle switch to activate links for each record in the output in your Virtual Agent conversation.
 
+-   **Virtual Agent server**
+    -   In chatHandshake, set **dynamic\_step\_loader\_enabled** to `true` to send stacked Agentic AI messages to server. Set **dynamic\_step\_loader\_enabled** to `false` to avoid sending messages.
+    -   Pre-chat and post-chat surveys are now available for Anthropic Claude and Google Gemini LLMs. For more information on surveys, see [Chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/ci-conversational-chat-surveys.md).
 
 ### What's changed
 
--   **[Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/additional-chat-features.md)**
+-   **Changes to Virtual Agent Designer list view**
+    -   Tabs have replaced pills in the Virtual Agent Designer list view.
+    -   Hover over the tooltip icon \(\[Omitted image "image.i-tooltip"\] Alt text:\) to see information about the assistant you have selected from the drop-down menu.
+    -   Use the new **AI agents** and **Agentic workflows** tabs to select from the types of topics on the home page, along with **Topics**, **Subflows**, **Actions**, and **Custom skills**.
+    -   When a promoted asset has a conditional property that determines the context in which appears for an assistant, it's marked as **Condition applied** under **Show more**.
 
-    The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features. Because all assistants now use agentic orchestration by default, AI agent skills are available during skills discovery. Turning on this option gives AI agents priority over other assets \(such as knowledge bases and Q&amp;A modules\) when the assistant discovers skills. If your assistant has overlapping skills \(for example, a knowledge base article and an AI agent that both answer the same question\), this setting lets you decide which one is prioritized, so you can steer users toward the AI agent experience instead of a static article.
+-   **[Test assistant options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/test-llm-topics.md)**
 
--   ****
+    The **Test** button in the Virtual Agent Designer canvas directly opens up the chat widget.
 
-    The **sn\_nowassist\_va.assistant\_personalization** system property is removed from the admin experience. This property previously let admins show or hide chat personalization options \(agent persona, tone, and response length\) when branding an assistant. By default, all settings are shown.
 
+## May 2025
+
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.
+
+### What's new
+
+-   **[AI Connector Utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/vad-ai-connector-utility.md)**
+
+    Link custom skills to generative AI to add their functionality to LLM conversations.
+
+-   **[AI agents and agentic workflows in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/managing-use-cases-ai-agents.md)**
+
+    View AI agents and agentic workflows created in AI Agent Studio in Virtual Agent Designer.
+
+-   **[Shorten responses option for bot text response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/va-text-response.md)**
+
+    For bot text responses, use the **Shorten responses** toggle in Virtual Agent Designer to turn on the **Show more** option in the chat on the user side.
+
+
+## April 2025
+
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.
 
 ### What's deprecated or removed
 
--   **Agentic support page**
+Support for Now Assist in Conversational IVR was removed.
 
-    The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss of functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring [additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/additional-chat-features.md).
+## Yokohama General Availability
 
-
-## September 2026 \| Early Availability
-
-The September 2026 release deprecated Virtual Agent for NLU and keywords and added several features including upload file size improvements and embed enhanced chat capabilities.
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.
 
 ### What's new
 
--   ****
+-   **[Application scope for topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/vad-topic-creation-form.md)**
 
-    For eligible new customers, premium chat is the default and the only available chat experience. If the assistant uses the Now LLM Service provider, the premium chat option isn't available.
-
--   **Embed on third-party sites for enhanced chat**
-
-    Embed the chat widget for enhanced chat on third-party websites.
-
--   **View all topics on the premium chat greeting screen**
-
-    Select **View all topics** on the chat’s greeting screen to show all promoted topics in premium chat.
+    Select the application scope for topics in Virtual Agent Designer.
 
 
 ### What's changed
 
--   ****
+-   **[UI chat updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/using-now-assist-in-va.md)**
+    -   The `New messages below` button in Virtual Agent was replaced with a simplified down-arrow indicator.
+    -   The `New messages above` button was deprecated because Virtual Agent now auto-scrolls to the top of the oldest new message.
+    -   Input text bar was updated to a more modern look and feel.
+    -   The start a new conversation icon was updated.
 
-    Role-based configuration is no longer stored or managed within Assistant Designer.
+## Yokohama Early Availability
 
--   **Upload files improvements**
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.
 
-    Upload up to 10 files or 50 MB for the following file types: PDF native, PDF OCR, Word, PPTX, Excel, CSV, TXT, JPEG, PNG for premium chat in ServiceNow Otto for Virtual Agent and Otto panel.
+### What's new
 
--   **Updated ServiceNow Otto processing animation**
+-   **[Synthesized response in Slack conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/slack-synthesized-response.md)**
 
-    View an updated ServiceNow Otto processing animation.
+    Generate synthesized responses in Slack conversations with Now Assist.
 
+-   **[Virtual Agent feature support in Microsoft Teams conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/va-teams-other-features.md)**
 
-### What's deprecated or removed
+    Generate synthesized responses in Microsoft Teams conversations with Now Assist.
 
--   **Deprecation of Virtual Agent for NLU and keywords**
+-   **[Custom skills in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/managing-custom-skills.md)**
 
-    Starting with the Brazil release, Virtual Agent for NLU and Virtual Agent Lite are being prepared for future deprecation. They will eventually be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+    View skills created in AI Skill Kit in Virtual Agent Designer.
 
--   **Deprecation of Virtual Agent channel integrations applications**
+-   **[Chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/ci-conversational-chat-surveys.md)**
 
-    Starting with the Brazil release, the following Virtual Agent channel integration applications are being prepared for future deprecation:
-
-    -   Conversational Integration with Alexa
-    -   Conversational IVR with Amazon Connect
-    -   IBM Watson Assistant conversations
-    They will eventually be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
--   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-llm-model-updates.md)**
-
-    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+    Create chat surveys compatible with LLM-enabled user inputs, aside from the Carousel user input.
 
 
-### Plugin information
+### What's changed
 
--   **Plugins planned for deprecation**
+-   **[Dynamic Translation calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/translation-for-now-assist.md)**
 
-    Conversational Analytics \(com.sn.conversational.analytics\): Replace with Assistant Analytics.
+    For Now Assist, if native translation is enabled, a Dynamic Translation call is only made if an unsupported language for native translation is used.
 
-    Conversational Integration with Alexa \(com.sn.va.alexa\): There is no replacement for this plugin.
 
-    Conversational IVR with Amazon Connect \(com.sn\_va\_amz.connect\): There is no replacement for this plugin.
+## Virtual Agent Patch 7 release notes
 
-    Glide Virtual Agent Lite \(com.glide.cs.chatbot.lite\): Replace with Requestor Agents - Foundation \(direct migration options\), EmployeeWorks - User, EmployeeWorks for GovCloud - User.
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.
 
-    HR Service Delivery NLU Model for Virtual Agent Conversations \(com.sn\_hr\_nlu\_model\): There is no replacement for this plugin.
+### What's changed
 
-    HR Service Delivery Virtual Agent Conversations \(com.sn\_hr\_virtual\_agent\): There is no replacement for this plugin.
+-   **[Table bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/table-bot-response.md)**
 
-    IBM Watson integration \(com.glide.cs.ibm.watson.assistant, com.glide.nlu.ibmwatson.intent.discovery, com.glide.cs.ibm.watson.assistant.topic, com.glide.cs.ibm.watson.assistant.topicV2\): There is no replacement for these plugins.
+    Use the new **Show links for each record** toggle switch to activate links for each record in the output in your Virtual Agent conversation.
 
-    Intent Discovery \(sn\_nlu\_discovery\): There is no replacement for this plugin.
 
-    Issue Auto Resolution \(com.glide.cs.auto\_resolution\): There is no replacement for this plugin.
+## Yokohama
 
-    Issue Auto resolution for HR \(com.snc.hr.issue\_auto\_resolution\): There is no replacement for this plugin.
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.
 
-    ITSM Virtual Agent Conversation Topics Lite \(com.snc.itsm.virtualagent.lite\): There is no replacement for this plugin.
+### What's changed
 
-    NLU Workbench-Advanced Features \(com.snc.nlu.workbench.advanced\): There is no replacement for this plugin.
+-   **[Topic Properties tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/vad-topic-properties-tab.md)**
+    -   [Create a topic form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/vad-topic-creation-form.md): Read improved topic description field helper text and tooltip.
+    -   [Change the application scope for Virtual Agent Designer topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/change-application-scope-vad.md): View the current scope setting on the Virtual Agent Designer topic properties tab.
+-   **[Topic Flow tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/vad-topic-flow-tab.md)**
+    -   View an updated `Unpublished changes` message on the header bar.
+    -   Hover over the `Unpublished changes` message to get info on which changes are not yet published.
+    -   Recover unsaved changes using the **Recover changes** button that appears on the header bar if you close a topic without saving.
+    -   Both message and button appear on the header bar if you add a node to the canvas before closing without saving.
+-   **[Testing LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/test-llm-topics.md)**
 
-    Topic Recommendations \(com.sn\_topic\_recommend\): There is no replacement for this plugin.
+    View a `Matching` badge next to the skill activated during testing.
 
--   **Renamed or changed plugins**
+-   **[Custom skills in Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/managing-custom-skills.md)**
 
-    Conversational Integration with Apple Messages for Business \(com.sn.va.abc.adapter\): Deprecation of NLU functionality and migration to LLM support.
-
-    Conversational Integration with AWS End User Messaging \(com.sn\_sms\_aws\_adapter\): Deprecation of Virtual Agent NLU functionality and migration to LLM support.
-
-    Conversational Integration with Facebook Messenger \(com.sn.va.fb.messenger\): Deprecation of Virtual Agent NLU functionality and migration to LLM support.
-
-    Conversational Integration with LINE \(com.sn.va.line\): Deprecation of NLU functionality and migration to LLM support.
-
-    Conversational Interfaces - Diagnostics \(com.sn.ci.diagnostics\): Deprecation of Virtual Agent NLU functionality. There is no replacement.
-
-    Omnichannel Callback for Customer Service Management \(com.sn\_omnichannel\_callback\): Deprecation of NLU functionality and migration to LLM support.
-
-    Virtual Agent NLU \(com.glide.cs.chatbot\): Deprecation of Virtual Agent NLU functionality. Migrate NLU topics to LLM.
+    Use an updated Virtual Agent Designer list-based home page that includes custom skills.
 
 

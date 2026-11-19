@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-01-13"
 reading_time_minutes: 1
-breadcrumb: [Set up or update preferred currency options, Use, Cloud Cost Management, IT Asset Management, Asset Management]
+breadcrumb: [Set up or update preferred currency options, Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
 ---
 
 # Choose preferred currency for cost and usage data

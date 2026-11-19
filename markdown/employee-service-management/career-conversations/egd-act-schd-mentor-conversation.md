@@ -1,5 +1,5 @@
 ---
-title: Schedule a mentoring conversation in Career Conversations
+title: Schedule a mentoring conversation
 description: Use the Career Conversations app to schedule a conversation with your mentee or mentor. For each conversation you schedule, discuss topics from which the mentee can benefit the most through the mentorship program.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/career-conversations/egd-act-schd-mentor-conversation.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Using the Career Conversations application, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using the Career Conversations application, Career Conversations, Talent Development, Employee Service Management]
 ---
 
-# Schedule a mentoring conversation in Career Conversations
+# Schedule a mentoring conversation
 
 Use the Career Conversations app to schedule a conversation with your mentee or mentor. For each conversation you schedule, discuss topics from which the mentee can benefit the most through the mentorship program.
 

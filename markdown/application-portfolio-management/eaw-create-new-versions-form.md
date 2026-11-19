@@ -1,16 +1,16 @@
 ---
-title: Create architectural artifact version form
+title: Create new architectural artifact version form
 description: Create new versions of architectural artifacts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-create-new-versions-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Create architectural artifact version form
+# Create new architectural artifact version form
 
 Create new versions of architectural artifacts.
 
@@ -32,13 +32,13 @@ Displays the new version number of the architectural artifact.
 
 </td></tr><tr><td>
 
-Format
+File type
 
 </td><td>
 
 Select the file type. Perform one of the following:
 
--   To upload a file, select **Attachment**, and then select **Add File** in the **Attachments** section of the page.
+-   To upload a file, select **Attachment**, and then select **Select File** in the **Attachments** section of the page.
 -   To link to a document, select **URL** and provide the link.
 
 </td></tr><tr><td>
@@ -58,14 +58,14 @@ Attachments
 Select the attachment that you want to add to the new architectural artifact. This field is only available when you select **Attachment** in the **File type** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 
 
-[eaw-add-an-architectural-artifact-version]
+[Add an architectural artifact version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-an-architectural-artifact-version.md)
 
-[Exploring architectural decision records \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-managing-arch-decision-records.md)
+[Manage architectural decision records \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-managing-arch-decision-records.md)
 
 [Add or edit an architectural decision record \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-edit-adr.md)
 

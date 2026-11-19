@@ -1,5 +1,5 @@
 ---
-title: Add or modify Life or AD&amp;D insurance benefits
+title: Add or modify Life, AD&amp;D insurance benefits
 description: You can add or modify an insurance benefit for an employee using the HR Benefits module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/t\_CreateOrModifyInsuranceBenefit.html
@@ -7,161 +7,175 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2025-01-30"
+reading_time_minutes: 2
 breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Add or modify Life or AD&amp;D insurance benefits
+# Add or modify Life, AD&amp;D insurance benefits
 
 You can add or modify an insurance benefit for an employee using the HR Benefits module.
 
 ## Before you begin
 
-Role required: sn\_hr\_core.profile\_writer
+Role required: sn\_hr\_core.basic, or sn\_hr\_core.manager
+
+## About this task
+
+Employees can ask questions about insurance benefits and request to enroll in or modify an insurance plan by submitting a request through the HR Service Portal. An insurance benefits case is opened and can be viewed and managed.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **HR Profile** &gt; **Life, AD&amp;D Insurance Benefits**.
 
-2.  Select **New** to open an insurance benefit record.
+2.  Click **New** to open an insurance benefit record.
 
 3.  Complete the form.
 
-    The fields you see depend on how the form is configured and what fields are selected to display.
+    \(The fields you see depend on how the form is configured and what fields are selected to display.\)
 
 <table id="table_opj_hct_nv"><thead><tr><th>
 
-Field
+Description
 
 </th><th>
 
-Description
+Field
 
 </th></tr></thead><tbody><tr><td>
 
-Plan
-
-</td><td>
-
 The name of the insurance plan. Click the **Lookup using list** icon and select the plan for the employee.
 
-</td></tr><tr><td>
-
-Employee
-
 </td><td>
+
+Plan
+
+</td></tr><tr><td>
 
 The user who requested enrollment. Click the **Lookup using list** icon and select the user.
 
-</td></tr><tr><td>
-
-Plan ID
-
 </td><td>
+
+Employee
+
+</td></tr><tr><td>
 
 The membership/enrollment ID number of the employee.
 
-</td></tr><tr><td>
-
-Provider
-
 </td><td>
+
+Plan ID
+
+</td></tr><tr><td>
 
 The life insurance company that provides the insurance benefit. Fills in when the plan is selected.
 
-</td></tr><tr><td>
-
-Plan type
-
 </td><td>
+
+Provider
+
+</td></tr><tr><td>
 
 The type of insurance plan. Fills in when the plan is selected.
 
-</td></tr><tr><td>
-
-Coverage type
-
 </td><td>
+
+Plan type
+
+</td></tr><tr><td>
 
 Enter the coverage type of the plan. An example is Family Coverage or Individual Plan. Not all insurance plans have coverage type.
 
-</td></tr><tr><td>
-
-Term
-
 </td><td>
+
+Coverage type
+
+</td></tr><tr><td>
 
 The period the insurance policy covers.
 
-</td></tr><tr><td>
-
-Beneficiaries
-
 </td><td>
+
+Term
+
+</td></tr><tr><td>
 
 Click the **Lookup using list** icon to search for and select contacts that are beneficiaries.
 
-</td></tr><tr><td>
-
-Who is covered
-
 </td><td>
+
+Beneficiaries
+
+</td></tr><tr><td>
 
 List of family members of the employee covered under the health benefit.
 
-</td></tr><tr><td>
-
-Start date
-
 </td><td>
+
+Who is covered
+
+</td></tr><tr><td>
 
 Date when the benefit is active for the employee and beneficiaries.
 
-</td></tr><tr><td>
-
-End date
-
 </td><td>
+
+Start date
+
+</td></tr><tr><td>
 
 Date when the benefit is no longer active for the employee and beneficiaries.
 
-</td></tr><tr><td>
-
-Employer Contribution \(per paycheck\)
-
 </td><td>
+
+End date
+
+</td></tr><tr><td>
 
 Dollar amount employer contributes to plan per paycheck.
 
-</td></tr><tr><td>
-
-Employer Contribution \(per year\)
-
 </td><td>
+
+Employer Contribution \(per paycheck\)
+
+</td></tr><tr><td>
 
 Dollar amount employer contributes to plan per year.
 
-</td></tr><tr><td>
-
-Employee Contribution \(per paycheck\)
-
 </td><td>
+
+Employer Contribution \(per year\)
+
+</td></tr><tr><td>
 
 Dollar amount employee contributes to plan per paycheck.
 
-</td></tr><tr><td>
-
-Employee Contribution \(per year\)
-
 </td><td>
+
+Employee Contribution \(per paycheck\)
+
+</td></tr><tr><td>
 
 Dollar amount employee contributes to plan per year.
 
+</td><td>
+
+Employee Contribution \(per year\)
+
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Click **Submit**.
 
     The insurance benefit is listed in the **HR Insurance Benefits** list.
+
+5.  To modify insurance benefit data, find the existing insurance benefit in the **HR Insurance Benefits** list.
+
+    You can use the list search menu by typing the employee name and pressing Enter.
+
+6.  Click the health benefit to open the form.
+
+7.  Modify the form.
+
+8.  Click **Update**.
 
 
 **Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)

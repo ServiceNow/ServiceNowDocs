@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
 ---
 
 # Transfer order line asset tracking
@@ -32,13 +32,11 @@ When a consumable is added to a transfer order line, the stock for the consumabl
 **Related topics**  
 
 
-[Transfer order flow]()
+[Transfer orders for Asset Management]()
 
-[Transfer order tasks]()
+[Create a transfer order for Asset Management]()
 
-[Customize transfer order line tasks]()
-
-[Transfer assets using transfer orders]()
+[Perform bulk updates for transfer order lines]()
 
 [Delete a transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/t_DeleteATransferOrder.md)
 

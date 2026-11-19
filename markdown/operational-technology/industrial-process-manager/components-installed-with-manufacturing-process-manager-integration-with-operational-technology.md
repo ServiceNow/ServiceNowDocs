@@ -1,5 +1,5 @@
 ---
-title: Automated mapping components installed with Industrial Process Manager and Operational Technology Manager
+title: Automated mapping components installed when Industrial Process Manager and Operational Technology Manager are both installed
 description: Several types of automated mapping components will be installed with activation of the Industrial Process Manager when Operational Technology Manager is also active, including tables, system properties, and scheduled flows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/industrial-process-manager/components-installed-with-manufacturing-process-manager-integration-with-operational-technology.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Industrial Process Manager, Operational Technology]
+breadcrumb: [Automated mapping of OT devices to the Equipment Model, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
 
-# Automated mapping components installed with Industrial Process Manager and Operational Technology Manager
+# Automated mapping components installed when Industrial Process Manager and Operational Technology Manager are both installed
 
 Several types of automated mapping components will be installed with activation of the Industrial Process Manager when Operational Technology Manager is also active, including tables, system properties, and scheduled flows.
 
@@ -80,5 +80,5 @@ Override location of an OT device with subnet's location. If checked, the locati
 |-----------|----|
 |Industrial Process Manager integration with Operational Technology Manager|OT device mapping flow|
 
-**Parent Topic:**[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
+**Parent Topic:**[Automated mapping of OT devices to the Equipment Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

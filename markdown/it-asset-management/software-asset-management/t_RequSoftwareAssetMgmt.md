@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configuring Software Asset Management, Software Asset Management, IT Asset Management]
 ---
 
 # Request Software Asset Management

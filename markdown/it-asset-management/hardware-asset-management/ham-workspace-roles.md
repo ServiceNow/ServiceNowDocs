@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-08-06"
 reading_time_minutes: 1
-breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Hardware Asset Management reference, Hardware Asset Management, IT Asset Management]
 ---
 
 # Hardware Asset Workspace roles
@@ -105,7 +105,7 @@ ham\_admin
 
 </td><td>
 
-This role is available only when theHardware Asset Management \(HAM\) is installed and provides access to all HAM features.
+This role is available only when the Hardware Asset Management \(HAM\) is installed and provides access to all HAM features.
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ sam\_user
 
 </td><td>
 
-This role is available only when theSoftware Asset Management is installed
+This role is available only when the Hardware Asset Management application is installed
 
 </td></tr><tr><td>
 

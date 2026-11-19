@@ -1,5 +1,5 @@
 ---
-title: Configure Propose Solution actions
+title: Configure the Propose Solution UI action and declarative action
 description: Add generative AI-specific functionality to the Case form by configuring the Propose Solution UI action and declarative action that are included with the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-config-propose-solution.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2025-01-30"
+reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
-# Configure Propose Solution actions
+# Configure the Propose Solution UI action and declarative action
 
 Add generative AI-specific functionality to the Case form by configuring the Propose Solution UI action and declarative action that are included with the ServiceNow Otto for Customer Service Management \(CSM\) application.
 
@@ -27,7 +27,7 @@ The Customer Service Management application includes a Propose Solution UI actio
 
 The ServiceNow Otto for Customer Service Management \(CSM\) application includes the following actions that provide generative AI-specific functionality. Agents can use these actions to propose solutions that include AI-generated resolution notes:
 
--   Propose Solution declarative action: Generates resolution notes in CRM Workspace.
+-   Propose Solution declarative action: Generates resolution notes in CSM Configurable Workspace.
 -   Propose Solution UI action: Generates resolution notes in Core UI.
 
 **Note:** These actions are inactive by default.
@@ -64,7 +64,7 @@ To use the generative AI functionality, you must deactivate the Propose Solution
 
         The system returns you to the UI Actions list.
 
-3.  Enable the Propose Solution declarative action for the ServiceNow Otto for CSM application to use this functionality in CRM Workspace.
+3.  Enable the Propose Solution declarative action for the ServiceNow Otto for CSM application to use this functionality in CSM Configurable Workspace.
 
     1.  Navigate to the **sys\_declarative\_action\_assignment.list** to display the Action Assignments list.
 

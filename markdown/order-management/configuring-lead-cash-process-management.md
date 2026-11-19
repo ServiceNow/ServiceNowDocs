@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/configuring-lead-cash-process-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [sales cockpit]
-breadcrumb: [Order operations apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
 
 # Configuring Lead-to-Cash Process Management
@@ -18,7 +18,7 @@ Plan and configure your implementation of Lead-to-Cash Process Management.
 ## Configuration overview
 
 1.  Review the dependencies for installing and using Lead-to-Cash Process Management.
-    -   For sales process managers to be able to create and monitor sales process records through the CRM WorkspaceCustomer Service Management \(CSM\) must be installed.
+    -   For sales process managers to be able to create and monitor sales process records through the CSM Configurable WorkspaceCustomer Service Management \(CSM\) must be installed.
     -   To be able to monitor opportunities, quotes, or orders in the sales process, you must have Opportunity Management, Quote Management, Order Management installed.
     -   Business Object Core \(sn\_bo\_core\) is automatically installed as a dependency when you install the Lead-to-Cash Process Management application \(app-l2c-cockpit\).
 2.  [Install Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/install-lead-cash-process-management.md)
@@ -43,13 +43,6 @@ Plan and configure your implementation of Lead-to-Cash Process Management.
 
 7.  [Setting conditions for enabling email access in Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/enabling-email-l2c-process-management.md)
 
-    Sales process managers can compose emails directly from the dashboard for sales entity records that are monitored in a sales process record.
+    Sales process managers can compose emails directly from the dashboard for sales entity records that are monitored within a sales process record.
 
-
-**Related topics**  
-
-
-[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-lead-cash-process-management.md)
-
-[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-lead-cash-process-management.md)
 

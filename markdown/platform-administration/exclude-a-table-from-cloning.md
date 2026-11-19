@@ -1,22 +1,22 @@
 ---
-title: Exclude a table from cloning \(legacy\)
+title: Exclude a table from cloning
 description: Exclude a table to create an empty but usable table on the target instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/exclude-a-table-from-cloning.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-09-30"
 reading_time_minutes: 1
-breadcrumb: [Add exclusion, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Exclude a table from cloning \(legacy\)
+# Exclude a table from cloning
 
 Exclude a table to create an empty but usable table on the target instance.
 
 ## Before you begin
 
-Role required: clone\_admin
+Role required: admin
 
 For information on excluding a table from cloning, see [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/clone-exclusions-guidelines.md).
 
@@ -26,18 +26,16 @@ Data is removed during the exclusion substage before the node repoint. The data 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Clone Admin Console** &gt; **Clone Definition** &gt; **Exclude Tables**.
+1.  Navigate to **All** &gt; **Clone Admin Console** &gt; **Clone Home**.
 
-2.  In the Clone Exclude Tables page, select **New**.
+2.  Select the Definitions tab.
 
-3.  Enter the table name in the **Name** field.
+3.  Select Exclusions.
 
-    **Note:** Entering a parent table results in the clone process also excluding its child tables. For example, excluding the task table would also exclude the Change, Incident, and Problem tables.
+4.  Select **New**.
 
-4.  Select **Submit**.
+5.  Enter the table **Name**.
 
+6.  Select **Save**.
 
-## Result
-
-The exclusion is created but isn't automatically added to your clone profiles. Add it to each profile where you want it applied. For more information, see [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/configure-clone-profile.md).
 

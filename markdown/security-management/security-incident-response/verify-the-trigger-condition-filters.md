@@ -7,9 +7,9 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure a profile, Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Configure profiles and security incidents for the Microsoft Defender for Endpoint integration, Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Verify the Trigger Condition Filters
@@ -28,17 +28,19 @@ After you activate the profile, based on the configured trigger conditions you c
 
 1.  Navigate to **Security Incidents** &gt; **Show All Incidents**.
 
-2.  To create a security incident, select **New**.
+2.  To create a new security incident, select **New**.
 
 3.  To trigger the respective profile, provide the filter conditions as given in the capability profile.
 
-4.  Select **Save**.
+4.  Click **Save**.
 
 5.  To validate the work notes and activities section, view and check the records that are tagged with the profile initiated, profile completed, or profile failed tags.
 
-6.  To validate all the data in the related lists, select **Show All Related Lists**.
+    \[Omitted image "review\_activities.png"\] Alt text: Validate the work notes and activities
 
-7.  Select any **Related List** tab to validate the details.
+6.  To validate all the data in the related lists, click **Show All Related Lists**.
+
+7.  Click any **Related List** tab to validate the details.
 
     For example, Host Details.
 

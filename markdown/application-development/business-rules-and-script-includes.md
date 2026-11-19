@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/business-rules-and-script-includes.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Build form and business logic, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Build form and business logic, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Business rules and script includes
 
 Business rules are server-side actions that can be run during CRUD \(Create, Read, Update, Delete\) operations on instance records.
 
-**Note:** Consider creating applications with help from agentic AI. For more information, see [Build applications with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-ai-workflow-factory-prime.md).
+**Note:** Consider creating applications with help from agentic AI. For more information, see [Use agentic AI to build and edit applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/plan-to-use-agentic-ai.md).
 
 Some good practices when using Business Rules are:
 

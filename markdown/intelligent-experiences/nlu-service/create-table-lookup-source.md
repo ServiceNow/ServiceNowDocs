@@ -1,5 +1,5 @@
 ---
-title: \(Legacy\) Create a table vocabulary source
+title: Create a table vocabulary source
 description: Use the values from a ServiceNow table as a vocabulary source. Your Natural Language Understanding \(NLU\) models use your provided synonym to interpret utterances that contain values from the chosen source fields of the table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/create-table-lookup-source.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [\(Legacy\) NLU vocabulary, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [NLU vocabulary, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
-# \(Legacy\) Create a table vocabulary source
+# Create a table vocabulary source
 
 Use the values from a ServiceNow table as a vocabulary source. Your Natural Language Understanding \(NLU\) models use your provided synonym to interpret utterances that contain values from the chosen source fields of the table.
 
@@ -87,4 +87,6 @@ In this example procedure, you want your models to be able to interpret utteranc
 ## What to do next
 
 Add a vocabulary source to a model by annotating an utterance. Use the @ symbol when adding an example utterance to an intent.
+
+**Parent Topic:**[NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-nlu-vocabulary.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-11-03"
 reading_time_minutes: 3
-breadcrumb: [Available AI agents for Integration Hub, Now Assist for Integration Hub, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Available AI agents for Integration Hub, Now Assist for Integration Hub, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Meeting scheduler AI agent
@@ -53,7 +53,10 @@ Using AI agent, Manish can also modify the meeting by adding room of the require
 -   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
 -   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
 
-There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
+Looking for an AI agent?
+
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
+-   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

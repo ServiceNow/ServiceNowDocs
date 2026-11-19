@@ -1,30 +1,33 @@
 ---
-title: Syntax errors and warnings
-description: All script fields provide controls for checking the syntax for errors and for locating the error easily when one occurs.
+title: Script syntax error checking
+description: All script fields provide controls for checking the syntax for errors and for locating the error easily when one occurs. The script editor places the cursor at the site of a syntax error and lets you search for errors in scripts by line number.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/c\_ScriptSyntaxErrorChecking.html
 release: yokohama
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using the JavaScript syntax editor, JavaScript syntax editor, Explore, Scripting, API implementation, API implementation and reference]
+breadcrumb: [JavaScript syntax editor, Scripting, API implementation, API implementation and reference]
 ---
 
-# Syntax errors and warnings
+# Script syntax error checking
 
-All script fields provide controls for checking the syntax for errors and for locating the error easily when one occurs.
+All script fields provide controls for checking the syntax for errors and for locating the error easily when one occurs. The script editor places the cursor at the site of a syntax error and lets you search for errors in scripts by line number.
 
-The syntax editor displays messages about errors or warnings in your scripts in the following situations:
+\[Omitted image "ScriptSyntaxCheck.png"\] Alt text:
 
--   Saving a new record or updating an existing record.
--   Selecting the syntax checking icon before saving or updating a record.
+The script editor notifies you of syntax errors in your scripts in the following situations.
 
-    \[Omitted image "ScriptSyntaxError.png"\] Alt text: Error message displays with the syntax editor and includes details about the issue and its location in the code.
+-   Save a new record or update an existing record. A banner appears at the bottom of the editor showing the location of the first error \(line number and column number\), and the cursor appears at the site of the error. Warnings presented at **Save** or **Update** show only one error at a time.
+
+    \[Omitted image "ScriptSyntaxErrorShort.png"\] Alt text:
+
+-   Click the syntax checking icon before saving or updating a record. A banner appears at the bottom of the editor showing the location of all errors in the script, and the cursor appears at the site of the first error.
+
+    \[Omitted image "ScriptSyntaxError.png"\] Alt text:
 
 
-You can configure whether to show indicators next to a line of code that contains an issue for errors, warnings, both, or none with the **glide.ui.syntax\_editor.show\_warnings\_errors** system property.
-
-**Parent Topic:**[Using the JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/r_EdtJvaScptWSyntxEdtr.md)
+**Parent Topic:**[JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_SyntaxEditor.md)
 

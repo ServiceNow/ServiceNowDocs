@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [BigFix Inventory Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [BigFix Inventory Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Set up the BigFix Inventory spoke
@@ -81,35 +81,28 @@ Role required: admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
 
-2.  Click the **Integrations** tab.
+2.  Select Connections.
 
-3.  Under **Connections**, toggle and enable the **Outbound** connections.
+3.  Turn on the Outbound tab.
 
-4.  Locate the alias for **BigFix\_Inventory** and click **View Details**.
+4.  In the Search all connections field, enter `BigFix Inventory`.
 
-    -   To configure the default connection and credential alias record that is shipped along with the BigFix Inventory spoke, click **View Details**.
+5.  On the BigFix\_Inventory card, select **View Details**.
 
-        \[Omitted image "bigfix-inventory-connection.png"\] Alt text: Connection for the BigFix Inventory spoke
+6.  Select **Configure**.
 
-    -   To manage more than one BigFix Inventory spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/support-multiple-connections.md).
-    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
+7.  Fill the form.
 
-    \[Omitted image "bigfix-inventory-connection-conf.png"\] Alt text: Initial connection configuration.
+    |Field|Description|
+    |-----|-----------|
+    |Connection Name|Name of the connection established with the BigFix Inventory instance. The first connection's default name is automatically assigned to match the name specified in the Connections and Credentials form on the Connection &amp; Credential Aliases page. To provide your custom name, create a connection record by selecting **Add Connection**.|
+    |Connection URL|The URL your ServiceNow instance uses to connect to the BigFix Inventory instance.|
+    |API Key|The key that your ServiceNow instance requires to access the BigFix Inventory instance. Enter the API key that you had generated in the BigFix Inventory portal. To learn how to generate an API key, see [Generate an API key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/setup-bigfix.md).|
 
-5.  On the form, fill in these fields:
+8.  Select **Configure Connection**.
 
-    |Field|Value required|
-    |-----|--------------|
-    |Connection Information|
-    |Name|Name of the connection established with the BigFix Inventory instance. The first connection's default name is automatically assigned to match the name specified in the Connections and Credentials form on the Connection &amp; Credential Aliases page. To provide your custom name, create a connection record by selecting `Add Connection`.|
-    |URL|The URL your ServiceNow instance uses to connect to the BigFix Inventory instance.|
-    |Credential Information|
-    |API Key|The key that your ServiceNow instance requires to access the BigFix Inventory instance. Enter the API key that you had generated in the BigFix Inventory portal. To learn how to generate an API key, see[Generate an API key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/setup-bigfix.md).|
-
-    \[Omitted image "bigfix-inventory-conf-temp.png"\] Alt text: Configure a connection for the BigFix Inventory spoke.
-
-6.  Click **Save**.
+    The connection and credential record is created.
 
 

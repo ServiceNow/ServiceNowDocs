@@ -1,18 +1,18 @@
 ---
-title: Configure CRM Workspace
-description: Review the CRM Workspace available with Financial Services Operations applications to see if it meets your business needs. You can customize its components, if needed.
+title: Configure CSM Configurable Workspace
+description: Review the CSM Configurable Workspace available with Financial Services Operations applications to see if it meets your business needs. You can customize its components, if needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Financial Services Operations \(FSO\)]
+breadcrumb: [Planning and configuring, Financial Services Operations \(FSO\)]
 ---
 
-# Configure CRM Workspace
+# Configure CSM Configurable Workspace
 
-Review the CRM Workspace available with Financial Services Operations applications to see if it meets your business needs. You can customize its components, if needed.
+Review the CSM Configurable Workspace available with Financial Services Operations applications to see if it meets your business needs. You can customize its components, if needed.
 
 ## Before you begin
 
@@ -33,7 +33,7 @@ Role required: Based on the application that you are configuring, you need the f
 
 ## Procedure
 
--   Configure the CRM Workspace as per your requirements.
+-   Configure the CSM Configurable Workspace as per your requirements.
 
     For more information on what you can configure, see [Set up CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-config-workspace-set-up.md).
 

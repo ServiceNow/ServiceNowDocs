@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-using-lp-playbooks.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using License and Permit Administration
@@ -16,7 +16,7 @@ If you're an license and permits case agent or manager, you can use the License 
 
 A playbook provides you with step-by-step guidance through the life cycle of a license and permits request case.
 
-The License and Permit Administration automatically appears in the **Playbook** tab when you create an license and permit request case by using the Public Sector Workspace.
+The License and Permit Administration automatically appears in the **Playbook** tab when you create an license and permit request case by using the CSM Configurable Workspace.
 
 A playbook takes a workflow and breaks it into multiple stages or lanes. Each stage in a playbook includes one or more activities, or steps, for you to complete. Stages can also include automated activities, such as auto-sending an email to a customer when a stage or activity is complete. When using a playbook, you can:
 

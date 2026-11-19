@@ -1,20 +1,20 @@
 ---
-title: Create an AI issue in the AI Control Tower
-description: Identify and manage issues related to the impacted areas for the reported AI case in the AI Control Tower.
+title: Create an AI issue in the Control Tower
+description: Identify and manage issues related to the impacted areas for the reported AI case in the Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/create-an-ai-issue-in-the-ai-control-tower.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Using Control Tower, Control Tower, Enable AI experiences]
 ---
 
-# Create an AI issue in the AI Control Tower
+# Create an AI issue in the Control Tower
 
-Identify and manage issues related to the impacted areas for the reported AI case in the AI Control Tower.
+Identify and manage issues related to the impacted areas for the reported AI case in the Control Tower.
 
 ## Before you begin
 
@@ -34,4 +34,9 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst or sn\_grc\_a
 
 5.  Select **Save**.
 
+
+-   **[Create new AI issue form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-a-new-ai-issue-form.md)**  
+Use the Create New Issue form to identify and manage issues related to the impacted areas for the reported AI case.
+
+**Parent Topic:**[Using Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 

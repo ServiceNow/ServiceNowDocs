@@ -7,9 +7,9 @@ release: yokohama
 product: Natural Language Query
 classification: natural-language-query
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Natural Language Query, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Natural Language Query, Enable AI experiences]
 ---
 
 # Configuring NLQ
@@ -29,5 +29,5 @@ Review NLQ logs to see how the system has handled your users' plain-language req
 -   **[View NLQ Table Guesser logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/natural-language-query/view-nlq-table-guesser-logs.md)**  
 Use the Table Guesser logs to review the CMDB tables that were picked by NLQ in response to plain-language queries.
 
-**Parent Topic:**[Machine learning and natural language capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/platai-machine-learning-natural-language-capabilities.md)
+**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-products.md)
 

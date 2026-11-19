@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -74,13 +74,9 @@ Active
 
 Option to activate the rule.
 
-</td></tr><tr><td>
+</td></tr><tr><td colspan="2">
 
 **Condition** **Note:** This tab appears only if you select **Condition** in the **Rule type** field.
-
-</td><td>
-
- 
 
 </td></tr><tr><td>
 
@@ -98,13 +94,9 @@ Conditions
 
 Conditions that you want to run on the table. Select **New criteria** to add multiple conditions.
 
-</td></tr><tr><td>
+</td></tr><tr><td colspan="2">
 
 **Script** **Note:** This tab appears only if you select **Advanced script** in the **Rule type** field.
-
-</td><td>
-
- 
 
 </td></tr><tr><td>
 
@@ -114,13 +106,9 @@ Script
 
 Script that you want to run on the Space table. The script will run on the table and return qualifying spaces. Ensure that the scripts returns a query on the Space table.
 
-</td></tr><tr><td>
+</td></tr><tr><td colspan="2">
 
 **Proximity**
-
-</td><td>
-
- 
 
 </td></tr><tr><td>
 
@@ -179,8 +167,6 @@ Add rules to a space recommender rule set based on which qualifying spaces must 
 [Raise a space assistance request]()
 
 [Create a view-by configuration]()
-
-[]()
 
 [Reviewing allocation changes]()
 

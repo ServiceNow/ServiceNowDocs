@@ -1,32 +1,30 @@
 ---
-title: View related items
-description: The Related Items component provides access to related lists associated with engagements, customer plays, and internal plays
+title: Related items component in customer success records
+description: The related items component provides access to related lists associated with engagements, touchpoints, success cases, and internal plays
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-cust-success-related-items.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Customer success, Use, Customer Success Management]
+breadcrumb: [Using customer success, Customer success, Account Lifecycle Events]
 ---
 
-# View related items
+# Related items component in customer success records
 
-The Related Items component provides access to related lists associated with engagements, customer plays, and internal plays
+The related items component provides access to related lists associated with engagements, touchpoints, success cases, and internal plays
 
-The Related Items component uses an expandable accordion format. You can expand the desired lists to see the related items. This component also displays an icon with the number of items in a list.
+The related items component uses an expandable accordion format. You can expand the desired lists to see the related items. This component also displays an icon with the number of items in a list.
 
 \[Omitted image "customer-success-related-item.png"\] Alt text: Related items
 
 Related lists include the following actions:
 
--   Create: opens a empty record in a sub tab that the agent can use to create item.
+-   Create: opens a blank record in a sub tab that the agent can use to create a new item.
 -   View all: opens a list of records in a sub tab.
 -   Show more: is displayed for lists that have more than five items.
 
-Several related lists including success objectives, outcomes, initiatives, customer plays, and documents are displayed on the engagement, customer play, and internal play pages.
+Several related lists including success objectives, outcomes, initiatives, success cases, and documents are displayed on the engagement, touchpoint, success case, and internal play pages.
 
 **Note:** The `Documents` related items is displayed only if you have installed the `com.snc.platform_document_management` plugin.
-
-**Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-use-cust-success.md)
 

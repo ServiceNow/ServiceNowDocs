@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Process Mining, Platform Analytics]
+breadcrumb: [Process Mining reference, Process Mining, Platform Analytics]
 ---
 
 # Create new process start/end condition
@@ -80,7 +80,6 @@ The qualifier for the condition.-   is
 -   is not
 -   is anything
 -   is one of
--   is not one of
 -   starts with
 -   ends with
 -   contains

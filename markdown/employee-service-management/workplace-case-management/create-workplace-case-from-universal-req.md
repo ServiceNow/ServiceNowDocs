@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Integration with Universal Request, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Workplace Service Delivery integration with Universal Request, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a workplace case from Universal Request

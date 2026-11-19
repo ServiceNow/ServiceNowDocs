@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Mobile
 classification: legal-mobile
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Legal Service Delivery, Employee Service Management]
 ---
 
 # Legal Mobile

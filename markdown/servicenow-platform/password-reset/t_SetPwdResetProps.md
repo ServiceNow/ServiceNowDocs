@@ -1,5 +1,5 @@
 ---
-title: Configure Password Reset properties
+title: Configuring Password Reset properties
 description: You can specify properties that configure the Password Reset experience for end users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/password-reset/t\_SetPwdResetProps.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure Password Reset properties
+# Configuring Password Reset properties
 
 You can specify properties that configure the Password Reset experience for end users.
 
@@ -39,8 +39,6 @@ For example, you would not want to allow 100 attempts for users to verify their 
 
 **Related topics**  
 
-
-[Calculating the security score for password reset process]()
 
 [Configure password expiration reminder]()
 

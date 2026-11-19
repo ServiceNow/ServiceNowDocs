@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-cp-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
+breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
 ---
 
 # Channel partner form
@@ -48,14 +48,6 @@ Manager from the enterprise who is associated with the channel partner.
 
 </td></tr><tr><td>
 
-Business function
-
-</td><td>
-
-A commercial function that an external partner performs, such as sales, distribution, implementation, service delivery, or customer support.
-
-</td></tr><tr><td>
-
 External partner manager
 
 </td><td>
@@ -78,22 +70,6 @@ Parent channel partner
 </td><td>
 
 Parent entity of the channel partner.
-
-</td></tr><tr><td>
-
-Partner manager
-
-</td><td>
-
-Select the partner manager from the list.
-
-</td></tr><tr><td>
-
-Type
-
-</td><td>
-
-Select if it is partner group or partner subsidiary.
 
 </td></tr><tr><td>
 
@@ -129,7 +105,7 @@ Short description.
 
 </td></tr><tr><td>
 
-Revenue per year
+Revenue according to year
 
 </td><td>
 
@@ -145,7 +121,7 @@ Number of employees working for the channel partner.
 
 </td></tr><tr><td>
 
-Supported Industries
+Industry
 
 </td><td>
 
@@ -192,10 +168,8 @@ Activity
 Updates and information related to the channel partner.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/repair-form.md)
-
-**Related topics**  
+</table>**Related topics**  
 
 
-[Create channel partner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-create-channel-partner.md)
+[Create a channel partner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-create-channel-partner.md)
 

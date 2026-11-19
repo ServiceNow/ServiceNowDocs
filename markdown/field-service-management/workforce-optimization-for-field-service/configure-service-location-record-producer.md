@@ -7,10 +7,10 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Service locations]
-breadcrumb: [Service Locations, Set up workforce, Configure, Field Service Management]
+breadcrumb: [Configuring Field Service with Service Locations, Setting up your workforce, Configuring Field Service Management, Field Service Management]
 ---
 
 # Add Service Locations functionality to a work order catalog item in the Customer Service Portal

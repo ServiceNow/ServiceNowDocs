@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/view-product-list-consumer-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Using the Consumer Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # View a list of products from the Consumer Service Portal
@@ -22,17 +22,10 @@ Role required: sn\_customerservice.consumer
 
 1.  Log in to the Consumer Service Portal.
 
-2.  Select **Support** &gt; **My Products** in the portal header.
+2.  Click **Support** &gt; **My Products** in the portal header.
 
     This displays a list of products registered to the current user.
 
-3.  If desired, select a product to display more information about the product.
+3.  If desired, click a product to display more information about the product.
 
-
-**Related topics**  
-
-
-[Register a product from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/register-product-consumer-portal.md)
-
-[Access your list of install base items from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/view-install-base-items-from-consumer-service-portal.md)
 

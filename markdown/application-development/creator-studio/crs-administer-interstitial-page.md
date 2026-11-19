@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Administer, Creator Studio, Developing your application, Classic app development, Building applications]
+breadcrumb: [Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
 ---
 
 # Disable the App type page in Creator Studio
@@ -44,7 +44,7 @@ Role required: admin
     |Read roles|Leave as-is.|
     |Write roles|Leave as-is.|
 
-    \[Omitted image "crs-sys-property-interstitial.png"\] Alt text: System Property form showing configuration fields for an example property
+    \[Omitted image "crs-sys-property-interstitial.png"\] Alt text: Adding the system property to the properties table
 
 5.  Select **Submit**.
 

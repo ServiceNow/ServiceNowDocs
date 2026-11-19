@@ -1,0 +1,78 @@
+---
+title: Exploring HR Service Delivery Playbook
+description: Use HR Service Delivery Agent Workspace to manage lifecycle event cases.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/playbook-hr-explore-classic.html
+release: yokohama
+product: HR Service Delivery
+classification: hr-service-delivery
+topic_type: concept
+last_updated: "2025-01-30"
+reading_time_minutes: 2
+breadcrumb: [HR Service Delivery Playbook, HR Service Delivery Agent Workspace \(Classic\), HR Service Delivery, Employee Service Management]
+---
+
+# Exploring HR Service Delivery Playbook
+
+Use HR Service Delivery Agent Workspace to manage lifecycle event cases.
+
+## HR Agent Workspace case form with Playbook
+
+When Playbook is activated with HR Service Delivery Agent Workspace, the **Playbook** tab appears in the Related Items menu.
+
+-   **Playbook Header**
+
+    The Playbook Header shows the title of an activity set.
+
+    **Note:** For more information on lifecycle event structure, see [Configure a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-type.md).
+
+    \[Omitted image "playbook-hr-header.png"\] Alt text: HR Agent WS - Playbook header
+
+-   **Stage panel**
+
+    Along the left side of the Playbook form, you will see the stage panel that shows the lifecycle event and each activity set. Below each activity set shows a the number of activities completed and a status circle. A check inside the circle indicates a completed activity set.
+
+    A check mark inside the Playbook Header indicates that the activity set is complete.
+
+    You can quickly see how many activities there are for an activity set and how many are completed.
+
+    In the example, the activity set Start onboarding has a total of nine activities with one completed \(1 of 9\).
+
+    \[Omitted image "playbook-hr-le-column.png"\] Alt text: HR Agent WS - Stage panel
+
+
+-   **Activity stream**
+
+    Click on an activity set in the stage panel to view all activities within the activity set.
+
+    \[Omitted image "playbook-hr-activity-stream.png"\] Alt text: HR Agent WS - Activity stream
+
+-   **HR card**
+
+    You can drill into an activity from the activity stream by clicking on an activity to view details about case or task.
+
+    \[Omitted image "playbook-hr-card.png"\] Alt text: HR Agent WS - Playbook card
+
+    The HR case opens in a separate widow and tab.
+
+-   **HR card details**
+
+    Click the activity and the **Assigned to**, **HR service**, **Opened for**, **Subject person**, **State**, and attachments appear.
+
+    At the top, right of an HR Playbook card are a series of icons.
+
+    \[Omitted image "playbook-hr-card-details.png"\] Alt text: HR Agent WS - Playbook card details
+
+    The first icon on the left provides the state of the HR case or task. Hovering over shows details of the SLA.
+
+    Click the **Add note or comment** \(\[Omitted image "playbook-hr-comment-icon.png"\] Alt text: HR Playbook - Add note or comment icon\) icon to add comments or notes related to the activity.
+
+    To view comments or notes, click the **See activity** button.
+
+    Click the Open task \(\[Omitted image "playbook-hr-open-task-icon.png"\] Alt text: HR Playbook - Open task icon\) icon to view the details of the HR case or task. A new tab with the HR case or tab opens.
+
+    Click the Minimize task \(\[Omitted image "playbook-hr-minimize-task-icon.png"\] Alt text: HR Playbook - Minimize task icon\) icon to close the details of the HR case or task.
+
+
+The other areas of Playbook are covered in [Exploring HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/learn-about-agent-ws-hr.md).
+

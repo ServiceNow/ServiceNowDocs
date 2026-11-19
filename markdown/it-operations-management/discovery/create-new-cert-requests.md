@@ -1,20 +1,20 @@
 ---
-title: Create certificate requests
-description: Create certificate requests manually through Service Catalog for approval when your certificate authority \(CA\) is not covered in the automated flow.
+title: Create new certificate requests
+description: Create new certificate requests manually through Service Catalog for a personalized and efficient procurement of certificates, providing greater flexibility and control.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/create-new-cert-requests.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Manual flow for certificate requests, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Create certificate requests
+# Create new certificate requests
 
-Create certificate requests manually through Service Catalog for approval when your certificate authority \(CA\) is not covered in the automated flow.
+Create new certificate requests manually through Service Catalog for a personalized and efficient procurement of certificates, providing greater flexibility and control.
 
 ## Before you begin
 

@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configure, App Engine Studio, Developing your application, Classic app development, Building applications]
+breadcrumb: [Configuring App Engine Studio and related apps, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Configure App Engine Studio
@@ -18,7 +18,7 @@ App Engine Studio \(AES\) guided setup provides a sequence of tasks that help yo
 
 App Engine Studio must be installed on the instances where you expect to be developing your applications. In earlier versions, you were required to install AES on all instances in your pipeline.
 
-If you plan to clone your production instance to one or more non-production instances, you should also install the AES product on your production instance prior to cloning. For more information, see .
+If you plan on cloning your production instance to one or more non-production instances, you should also install the AES product on your production instance prior to cloning. For more information, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/system-clone-landing.md).
 
 <table id="table_pdv_qb1_15b"><thead><tr><th>
 

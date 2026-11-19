@@ -1,18 +1,18 @@
 ---
-title: Configure script fields for a workspace
-description: Configure a Configurable Workspace to support script fields.
+title: Set up script field types in Configurable Workspace
+description: Enable your Configurable Workspace to support script field types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/use-script-field-types-in-your-configurable-workspace.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Administering forms for Configurable Workspace, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Configure script fields for a workspace
+# Set up script field types in Configurable Workspace
 
-Configure a Configurable Workspace to support script fields.
+Enable your Configurable Workspace to support script field types.
 
 ## Before you begin
 
@@ -20,26 +20,39 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to `sys_properties.list`.
+1.  In the navigation filter, enter `sys_properties.list`.
 
-    The entire list of properties in the System Properties \[sys\_properties\] table opens.
+    The entire list of properties in the System Properties \[sys\_properties\] table appears.
 
-2.  Show script fields in forms with a code editor component.
+2.  Select **Name** for the search value, and enter `script` into the search bar.
 
-    1.  Add a system property named **glide.ui.workspace.script.code\_editor.enable**.
+    \[Omitted image "search\_script.png"\] Alt text: Search for script
 
-        For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+3.  Configure the following system properties for the script field.
 
-    2.  Set the Value to **true**.
+<table id="choicetable_jlb_wgy_fyb"><thead><tr><th align="left" id="d77037e97">
 
-    3.  Select **Submit**.
+System property
 
-3.  Configure the line number after which the scroll bar should appear for the code editor component.
+</th><th align="left" id="d77037e100">
 
-    1.  Add a system property named **glide.ui.workspace.script.code\_editor.autoresize\_line\_limit**.
+Configuration
 
-        For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</th></tr></thead><tbody><tr><td id="d77037e106">
 
-    2.  Select **Submit**.
+**glide.ui.workspace.script.code\_editor.enable**
 
+</td><td>
 
+Determines whether to show script fields in forms with a code editor component.
+
+</td></tr><tr><td id="d77037e118">
+
+**glide.ui.workspace.script.code\_editor.autoresize\_line\_limit**
+
+</td><td>
+
+Determines the line number after which the scroll bar should appear for the code editor component.
+
+</td></tr></tbody>
+</table>

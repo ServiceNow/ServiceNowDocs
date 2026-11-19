@@ -1,21 +1,20 @@
 ---
-title: Configure multi-instance management for AI Control Tower
-description: Configuring Multi-Instance management for AI Control Tower.
+title: Configure Multi-instance management for Control Tower
+description: Configuring Multi-instance management for Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-keywords: [multi-instance management, AI governance workspace, instance configuration, manager instance]
-breadcrumb: [Configuring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Control Tower, Enable AI experiences]
 ---
 
-# Configure multi-instance management for AI Control Tower
+# Configure Multi-instance management for Control Tower
 
-Configuring Multi-Instance management for AI Control Tower.
+Configuring Multi-instance management for Control Tower.
 
 ## Before you begin
 
@@ -23,40 +22,24 @@ Configuring Multi-Instance management for AI Control Tower.
 
 This feature isn’t supported on Government Community Cloud \(GCC\) and on-premises instances.
 
-Role required: AI Steward \[sn\_ai\_governance.ai\_steward\]
+Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 ## About this task
 
-**Note:** Make sure the plugin com.glide.mif.mtls is active. If it is not installed, contact Now Support to activate the plugin com.glide.mif.mtls for MIF features.
+**Note:** Make sure the plugin com.glide.mif.mtls is active. If it isn’t active, install the plugin com.glide.mif.mtls by submitting a support request with Now support for MIF features.
 
 ## Procedure
 
-1.  Log in to the managed instance and navigate to **All** &gt; **Multi-Instance Management** &gt; **Manager Instances**.
+1.  Log in to all sub-prods and select your prod \(managed\) instance as manager for the Control Tower application.
 
-    The Manager Instances list view page appears.
-
-2.  Select **New**.
-
-3.  Select the **Application**: AI Control Tower Core.
-
-4.  Select the **Manager Instance**.
-
-    **Note:** The **Approval** field will show Awaiting Manager Confirmation.
-
-5.  Select **Submit**.
-
-6.  Log in to the valid prod instance \(selected in the step 4\) and navigate to Managed Instances.
-
-    A record will appear with the request status in auto-approved state. It gets auto-approved in 5 to 10 minutes.
-
-7.  Navigate to the Managed Instances tab on the Multi-instance Setup page to view all registered managed instances.
+2.  To verify the first step, log in to the prod instance and navigate to the managed instances tab under Multi-instance setup page to view all the sub-prods \(managed\) instances.
 
 
 ## Result
 
-Multi-instance management is configured for the AI Control Tower.
+Multi-instance management is configured for the Control Tower.
 
-For more information about Trust configuration and Trust configuration management, see [Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/grant-access-v2.md).
+For information about Trust configuration and Trust configuration management, see [Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/grant-access-v2.md)
 
-For more information about AI asset synchronization process, see [Multi-instance Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/multi-instance-management.md) section under Exploring the AI Control Tower configurations.
+For information about AI asset synchronization process, see [Multi-instance Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/multi-instance-management.md) section under Exploring the Control Tower configurations.
 

@@ -1,5 +1,5 @@
 ---
-title: Using multiple datasets in Core UI reports
+title: Using multiple datasets in a report
 description: You can create reports that use datasets from up to five tables in a single report. Add up to five extra datasets to visualize data from multiple sources in a single report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/reporting/c\_MultipleDataSets.html
@@ -7,20 +7,18 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+last_updated: "2025-01-30"
+reading_time_minutes: 2
+breadcrumb: [Advanced reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Using multiple datasets in Core UI reports
+# Using multiple datasets in a report
 
 You can create reports that use datasets from up to five tables in a single report.
 
-**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
-
 The following report types support multiple datasets: bar, horizontal bar, column, line, step line, area, spline.
 
-Multiple **Group by**s are not supported on multiple datasets. When using multiple datasets, the report legend is displayed.
+Multiple **Group by**s are not supported on multiple datasets. When using multiple datasets, the report legend is always displayed.
 
 \[Omitted image "MultipleDataSetsINTPRB.png"\] Alt text: Multiple data sets
 
@@ -28,13 +26,13 @@ Multiple **Group by**s are not supported on multiple datasets. When using multip
 
 Bear the following restrictions in mind when creating a report with multiple data sets:
 
--   Up to a maximum of 5 additional datasets can be added to any particular report. Each additional dataset will require additional processing and querying of the database. Therefore, if a particular report is experiencing performance issues, it could be due to the fact the report has multiple associated data sets.
+-   Up to a maximum of 5 additional datasets can be added to any particular report. Keep in mind that each additional dataset will require additional processing and querying of the database, so if a particular report is experiencing performance issues, it could be due to the fact the report has multiple data sets associated.
 -   All datasets associated with a parent report must be of the same type \(such as bar, donut, or pie\) as the parent report.
--   For multiple datasets associated with a time series chart, all additional data sets must have the same setting in the **Per** field as the parent report.
+-   For multiple datasets associated with a time series chart, all additional data sets must have the same setting in the Per field as the parent report.
 -   For multiple datasets on a Bar or Horizontal Bar chart, all associated datasets must have the same Group By value.
 -   The Show Legends option is always, by default, displayed on a report with multiple datasets, even if the parent report has this option unselected.
 
-**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Add an additional dataset to a report
 
@@ -42,25 +40,11 @@ Add up to five extra datasets to visualize data from multiple sources in a singl
 
 ### Before you begin
 
-Role required: If the **com.snc.par.coreui.report\_create.enabled** system property is `true`, any user with an internal role can create Core UI reports. For more information, see [Platform Analytics experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/pae-properties.md).
-
-The property **glide.ui.doctype** must be enabled.
-
-### About this task
-
-**Important:** You cannot create Core UI reports on instances that were net new on Xanadu or later. On instances that were net new on older releases, you can continue to create Core UI reports, even if the instance was fully migrated to Platform Analytics.
-
-Consider creating Platform Analytics data visualizations instead of Core UI dashboards. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-data-visualizations.md).
-
-**Note:**
-
-Starting with Australia, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library. If the **com.snc.par.coreui.dashboard\_create.enabled** system property is `true`, you can also create Core UI dashboards from the Dashboards library.
+Role required: itil, report\_user. The property **glide.ui.doctype** must be enabled.
 
 ### Procedure
 
-1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
-
-    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
+1.  Navigate to **All** &gt; **Reports** &gt; **View / Run**.
 
 2.  Create a report of a type that supports multiple datasets, or select an existing report of one of these types.
 

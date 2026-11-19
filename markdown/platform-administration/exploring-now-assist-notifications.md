@@ -1,31 +1,31 @@
 ---
-title: Explore AI in Notifications
-description: Automates inbound email processing and enables the creation and modification of email notifications, templates, and layouts.
+title: Explore Now Assist in Notifications
+description: Email agentic workflow automates inbound email processing by intelligently understanding inbound emails, extracting information, performing necessary actions, and drafting email responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/exploring-now-assist-notifications.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-11-18"
 reading_time_minutes: 1
 keywords: [explore]
-breadcrumb: [Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Now Assist in Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Explore AI in Notifications
+# Explore Now Assist in Notifications
 
-Automates inbound email processing and enables the creation and modification of email notifications, templates, and layouts.
+Email agentic workflow automates inbound email processing by intelligently understanding inbound emails, extracting information, performing necessary actions, and drafting email responses.
 
-## Overview of the Notification agent and agentic workflows in Notifications
+## Now Assist in Notifications overview
 
-Email Agents help automate the triage of tasks that are created via inbound emails by identifying intent, executing actions, &amp; drafting appropriate email responses. The Email Agentic Workflow is designed to intelligently process and respond to various inbound email requests.
+Email Agents help automate triaging of tasks that are created via inbound emails by identifying intent, executing actions, &amp; drafting appropriate email responses. The Email Agentic Workflow is designed to intelligently process and respond to various inbound email requests.
 
-## Users
+## Now Assist in Notifications users
 
 |User|Role|Description|
 |----|----|-----------|
 |Admin|sn\_notif\_agents.notification\_ai\_admin|Admins activate, enable, and create intents for email agents.|
 
-## Benefits
+## Now Assist in Notifications benefits
 
 <table id="table_amf_g24_3hc"><thead><tr><th>
 
@@ -51,22 +51,10 @@ Automate inbound email processing by intelligently understanding requests, extra
 
 Admin
 
-</td></tr><tr><td>
-
-Create and modify email notifications, templates, and layouts through conversation instead of navigating complex forms and scripts.
-
-</td><td>
-
-[Notification agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/notification-creation-agent.md)
-
-</td><td>
-
-Admin
-
 </td></tr></tbody>
 </table>## What to explore next
 
-To learn more about configuring and using the Notification agent and agentic workflows with email notifications, see:
+To learn more about configuring and using Now Assist in Notifications, see:
 
 -   [Configure email agentic workflows in Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/configuring-agentic-workflows-in-notifications.md)
 -   [General guidelines for creating and mapping an intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/guidelines-creating-intent.md)

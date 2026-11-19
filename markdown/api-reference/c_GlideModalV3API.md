@@ -1,14 +1,14 @@
 ---
 title: GlideModal - Client
-description: The GlideModal API provides methods for displaying a content overlay, known as a modal. Modals are interactive windows that appear above a page and close when a user takes an action. You can use a modal to display information, ask questions, or perform actions.Creates an instance of the GlideModal class.Closes the current modal.Returns the GlideModal object identified by the specified UI page name.Returns the value of the specified preference \(property\).Renders the UI page specified when the API was instantiated in the modal. You must call this method after you define the modal for it to appear in the UI.Displays a modal with the specified string-based HTML content.Sets the specified field on the current form to the specified value.Sets the specified preferences and then reloads the modal.Sets the title of the modal.Sets the width of the modal.Change the view and reload the modal.Updates the title specified using GlideModal setTitle\(\) method.
+description: The GlideModal API provides methods for displaying a content overlay, known as a modal. Modals are interactive windows that appear above a page and close when a user takes an action. You can use a modal to display information, ask questions, or perform actions.Creates an instance of the GlideModal class.Closes the current modal.Returns the GlideModal object identified by the specified UI page name.Returns the value of the specified preference \(property\). Use preferences to pass data into the page being rendered.Renders the UI page specified when the API was instantiated in the modal. You must call this method after you define the modal for it to appear in the UI.Displays a modal with the specified string-based HTML content.Sets the value of the specified preference \(property\). Use preferences to pass data into the page being rendered.Sets the specified preferences and then reloads the modal.Sets the title of the modal.Sets the width of the modal.Change the view and reload the modal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/c\_GlideModalV3API.html
 release: yokohama
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 12
+last_updated: "2025-01-30"
+reading_time_minutes: 15
 breadcrumb: [Client API reference, API reference, API implementation and reference]
 ---
 
@@ -18,10 +18,11 @@ The GlideModal API provides methods for displaying a content overlay, known as a
 
 Use the GlideModal methods in scripts anywhere that you can use client-side JavaScript. These methods are most often called from a UI action with the **Client** check box selected.
 
-For modal options and compatibility in Configurable Workspace in the Next Experience UI, refer to the following:
+Using the GlideModal API you can create custom modals or you can leverage existing base-system modals.
 
--   [g\_modal \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/g_modalClientAPINX.md)
--   [GlideModal \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/GModClientAPINX.md)
+**Note:** This is a fully-featured replacement for the GlideWindow and GlideDialogWindow APIs.
+
+GlideModal doesn't work in workspace, instead use the [g\_modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/g_modalClientAPI.md) API.
 
 \[Omitted image "GlideModalV3-Client-example-overlay-dialog.png"\] Alt text: Example overlay
 
@@ -35,9 +36,10 @@ Modals can contain different types of content such as:
 
 Using this API you can:
 
--   Get an existing modal.
+-   Retrieve a base-system modal such as `glide_confirm`, `glide_info`, or `glide_alert`.
 -   Create modal content from a UI page or from passed HTML.
 -   Set the title in the modal.
+-   Set the body content of the modal.
 -   Set the width of the modal.
 -   Get and set preferences.
 -   Switch modal views.
@@ -47,10 +49,10 @@ To make a modal appear in the UI you must call one of the render methods:
 -   [GlideModal - render\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md)
 -   [GlideModal - renderWithContent\(String html\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md)
 
-The following code example shows how to create and render a modal using the UI page "UI\_dialog\_name".
+The following code example shows how to create and render a modal using the UI page "my\_modal".
 
 ```
-var dialog = new GlideModal("UI_dialog_name");
+var dialog = new GlideModal("my_modal");
 
 //Set the dialog title
 dialog.setTitle('Show title');
@@ -89,19 +91,102 @@ function cancelDialog(){
     //Submit to the back-end
     if(thisButton=='Cancel Task'){
       if(thisAction=="cancelAll"){
-        g_form.setValue('state',4);//Closed Incomplete -- will close the Requested Item and all other open tasks
+        g_form.setValue('state',4); //Closed Incomplete -- will close the Requested Item and all other open tasks
       }else{
-        g_form.setValue('state',7);//Closed Skipped -- will only close this task
+        g_form.setValue('state',7); //Closed Skipped -- will only close this task
       }
          //Regular ServiceNow form submission
          gsftSubmit(null, g_form.getFormElement(), 'cancel_sc_task');
       }
    };
-   return false;//Prevents the form from submitting when the dialog first load
+   return false; //Prevents the form from submitting when the dialog first load
 }
 ```
 
-**Note:** This is a fully-featured replacement for the GlideWindow and GlideDialogWindow APIs.
+## Base system modals
+
+A base ServiceNow instance provides the following modals, defined as UI pages, that you can use when displaying a modal with GlideModal:
+
+-   `glide_alert_standard`: An alert modal with an **OK** button and an info or warning icon.
+
+    \[Omitted image "GM-glide\_modal\_alert.png"\] Alt text: glide\_alert\_standard modal
+
+-   `glide_ask_standard`: A confirmation modal with **Yes** and **No** buttons.
+
+    \[Omitted image "GM-glide\_ask\_standard.png"\] Alt text: glide\_ask\_standard modal
+
+-   `glide_confirm`: A confirmation modal with **Don't save**, **Cancel**, and **Save** buttons.
+
+    \[Omitted image "GM-glide\_modal\_confirm.png"\] Alt text: glide\_confirm modal
+
+-   `glide_confirm_basic`: A confirmation modal with an **OK** and **Cancel** button, without an icon.
+
+    \[Omitted image "GM-glide\_modal\_confirm\_basic.png"\] Alt text: glide\_confirm\_basic modal
+
+-   `glide_confirm_standard`: A confirmation modal with an **OK** and **Cancel** button, and an info or warning icon.
+
+    \[Omitted image "GM-glide\_modal\_confirm\_standard.png"\] Alt text: glide\_confirm\_standard modal
+
+-   `glide_info`: An information modal with an info icon and an **OK** button the width of the modal window.
+
+    \[Omitted image "GM-glide\_modal\_info.png"\] Alt text: glide\_info modal
+
+-   `glide_progress_standard`: An information modal with a **Close** button, an info or warning icon, and a scrolling progress bar. The progress bar is an animated GIF image and can't be updated as a typical progress bar.
+
+    \[Omitted image "GM-glide\_modal\_progress\_standard.png"\] Alt text: glide\_progress\_standard modal
+
+-   `glide_progress_no_button`: An information modal with an info or warning icon, and a scrolling progress bar. The progress bar is an animated GIF image and can't be updated as a typical progress bar.
+
+    \[Omitted image "GM-glide\_modal\_progress\_no\_button.png"\] Alt text: glide\_progress\_no\_button modal
+
+-   `glide_prompt`: A modal with a prompt text box and an **OK** and **Cancel** button.
+
+    \[Omitted image "GM-glide\_modal\_prompt.png"\] Alt text: glide\_prompt modal
+
+-   `glide_warn`: A simple modal with an **OK** button, but no icon.
+
+    \[Omitted image "GM-glide\_modal\_warn.png"\] Alt text: glide\_warn modal
+
+
+## Preferences
+
+Modal preferences provides a way to pass data into the modal being rendered. You use the [setPreference\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) or [setPrefAndReload\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) methods to set a preference value. You then use the [GlideModal - getPreference\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) method to retrieve a set preference.
+
+To retrieve preferences in a UI page, use the following function: RP.getWindowProperties\(\).get\('preference\_name'\).
+
+Some of the base-system modals support the following system-based preferences:
+
+-   autoFocus: Flag that indicates whether the modal automatically receives focus once it is rendered. Set to true when the modal is initialized.
+-   body: Sets the passed content in the body of the modal.
+-   buttonClass: Sets the button class.
+-   buttonClassCancel: Sets the class for the cancel button on the modal.
+-   buttonClassComplete: Sets the class for the OK button \(complete\) on the modal.
+-   buttonLabel Sets the button label.
+-   buttonLabelCancel: Sets the label for the cancel button on the modal.
+-   buttonLabelComplete: Sets the label for the OK button \(complete\) on the modal.
+-   callbackParam: Sets a callback parameter.
+-   focusTrap: Flag that indicates whether to block all interactions outside of the modal while open. Set to false when the modal is initialized.
+-   modal\_title: Sets the title of the modal. Used by the setTitle\(\) method.
+-   onPromptCancel: Defines a function to call when the user selects the **Cancel** button.
+
+    For example:
+
+    ```
+    dialog.setPreference("onPromptCancel", function() {
+      return false;
+    });
+    ```
+
+-   onPromptComplete: Defines a function to call when the user selects the **OK** button.
+
+    For example:
+
+    ```
+    dialog.setPreference("onPromptComplete", function () {
+      gsftSubmit(null, g_form.getFormElement(), 'check_button');
+    });
+    ```
+
 
 **Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/api-client.md)
 
@@ -129,11 +214,9 @@ id
 
 String
 
-</td><td id="GMod-GMod-id-entry">
+</td><td>
 
-Name of the[UI page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/r_UIPages.md) to load into the modal.You can also specify either the `glide_modal_confirm` or `glide_modal_info` modals that are provided in the base system.
-
-Table: UI Page \[sys\_ui\_page\]
+Name of the[UI page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/r_UIPages.md) to load into the modal.You can find the list of available UI pages in **System UI** &gt; **UI Pages**
 
 </td></tr><tr><td>
 
@@ -143,7 +226,7 @@ readOnly
 
 Boolean
 
-</td><td id="GMod-GMod-readOnly-entry">
+</td><td>
 
 Optional. Flag that indicates whether the content in the modal is read-only.Valid values:
 
@@ -160,7 +243,7 @@ width
 
 Number or String
 
-</td><td id="GMod-GMod-width-entry">
+</td><td>
 
 Optional. Width of the modal in pixels or the modal CSS class. If a pixel width is passed, it aligns the specified width with the corresponding CSS class.Possible modal CSS classes:
 
@@ -173,7 +256,7 @@ Default: modal-md
 
 Maximum width: 900 pixels
 
-**Note:** You can also set the modal width using the setWidth\(\) method.
+**Note:** You can also set the modal width using the [GlideModal - setWidth\(Number/String width\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) method.
 
 </td></tr></tbody>
 </table>The following code example shows how to create a GlideModal object using an existing UI page.
@@ -192,10 +275,10 @@ dialog.setPreference('name', 'value');
 dialog.render();
 ```
 
-The following code example shows how to create a GlideModal object using the `glide_modal_confirm` file.
+The following code example shows how to create a GlideModal object using the `glide_confirm` file.
 
 ```
-var dialog = new GlideModal('glide_modal_confirm', true, 300);
+var dialog = new GlideModal('glide_confirm', true, 300);
 dialog.setTitle(new GwtMessage().getMessage('Confirmation'));
 dialog.setPreference('body', new GwtMessage().format("This will complete all update sets in the batch. Continue changing state to complete?"));
 dialog.setPreference('focusTrap', true);
@@ -218,11 +301,11 @@ Closes the current modal.
 
 |Name|Type|Description|
 |----|----|-----------|
-|None|None|None|
+|None| | |
 
 |Type|Description|
 |----|-----------|
-|None|None|
+|None| |
 
 The following code example shows how to use the destroy\(\) method to close a modal.
 
@@ -314,45 +397,47 @@ id
 
 String
 
-</td><td id="GMod-get-id-entry">
+</td><td>
 
-Name of the[UI page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/r_UIPages.md) associated with the modal.You can also specify either the `glide_modal_confirm` or `glide_modal_info` modals that are provided in the base system.
+Name of the[UI page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/r_UIPages.md) associated with the modal.You can also specify the [base system modals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) that are provided in a base instance.
 
-Table: UI Page \[sys\_ui\_page\]
+You can find the list of available UI pages in **System UI** &gt; **UI Pages**.
 
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|GlideModal|Requested GlideModal object.|
+|[GlideModal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md)|Requested GlideModal object.|
 
 This example shows how to use the get\(\) method to obtain the modal that you want to close using the destroy\(\) method.
 
 ```
 // If the modal was initially created like this:
 
-var dialog = new GlideModal("glide_modal_confirm"); 
+var dialog = new GlideModal("glide_confirm"); 
 dialog.render();
 
-// Code using the modal
-...
+// Some code using the modal
+.
+.
+.
 
 // Now use the get() and destroy() methods to close the modal
-var glideModal = new GlideModal().get("glide_modal_confirm");
+var glideModal = new GlideModal().get("glide_confirm");
 glideModal.destroy();
 
-// You can also code it like this:
-// GlideModal.prototype.get('glide_modal_confirm').destroy();
+// You could also code it like this:
+GlideModal.prototype.get("glide_confirm").destroy();
 ```
 
 ## GlideModal - getPreference\(String name\)
 
-Returns the value of the specified preference \(property\).
+Returns the value of the specified preference \(property\). Use preferences to pass data into the page being rendered.
 
-Invoking actions that create the modal typically also create the necessary preferences for the modal using the [GlideModal - setPreference\(String name, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) method. The UI page client script can then consume these preferences using this method.
+Invoking actions that create the modal typically also create the necessary preferences for the modal using the [GlideModal - setPreference\(String name, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) method. The UI page client script can then consume these preferences using this method and the following function: RP.getWindowProperties\(\).get\('preference\_name'\).
 
 |Name|Type|Description|
 |----|----|-----------|
-|name|String|Name of the preference value to retrieve. This value must have previously been set on the modal using the setPreference\(\) method.|
+|name|String|Name of the preference value to retrieve. This value must have been previously set on the modal using the [GlideModal - setPreference\(String name, String value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) method.|
 
 |Type|Description|
 |----|-----------|
@@ -362,13 +447,13 @@ This example shows a simple case of setting a preference and then retrieving tha
 
 ```
 var dialog = new GlideModal('UI_dialog_name');
-//Sets the dialog title
+// Sets the dialog title
 dialog.setTitle('Modal title');
 
-//Sets the value of the preference table
+// Sets the value of the preference table
 dialog.setPreference('table', 'incident');
 
-//Gets the value of the preference table
+// Gets the value of the preference table
 var title = dialog.getPreference('table');
 ```
 
@@ -384,19 +469,90 @@ Call this method when you use a UI page to generate the content in your modal. I
 
 |Type|Description|
 |----|-----------|
-|void|None|
+|void| |
 
-The following code example shows how to instantiate a GlideModal object using the UI page "UI\_dialog\_name", set the title and width of the modal, and then display the modal in the UI \(render\).
+The following code example shows how to instantiate a GlideModal object using the UI pages `glide_confirm` and `glide_info`, set various preferences, and then display the appropriate modal in the UI \(render\).
 
 ```
-var dialog = new GlideModal("UI_dialog_name");
+var UpdateSetClient = Class.create({
 
-//Set the dialog title and width
-dialog.setTitle('Show title');		      	
-dialog.setWidth(550);
+  mergeConfirm: function () {
+    var filterCriteriaMsg = "Please select filter criteria matching two or more update sets to merge";
+    var messageMap = new GwtMessage().getMessages([filterCriteriaMsg, "Confirmation",
+      "Are you sure you want to merge these {0} update sets? You will not be able to undo this action",
+      "Invalid selection", "OK", "Cancel"]);
+    var list = GlideList2.get('sys_update_set');
+    var dialog;
+    if (list.totalRows == 0 || list.totalRows == 1) {
+      dialog = new GlideModal('glide_info', true, 300);
+      dialog.setPreference('focusTrap', true);
+      dialog.setTitle(messageMap["Invalid selection"]);
+      dialog.setPreference('body', messageMap[filterCriteriaMsg]);
+      dialog.setPreference('buttonLabel', messageMap["OK"]);
+      dialog.render();
+      return;
+    }
+    dialog = new GlideModal('glide_confirm', true, 300);
+    dialog.setTitle(messageMap["Confirmation"]);
+    dialog.setPreference('focusTrap', true);
+    dialog.setPreference('body', new GwtMessage().format(
+      messageMap["Are you sure you want to merge these {0} update sets? You will not be able to undo this action"],
+      list.totalRows));
+    dialog.setPreference('buttonLabelComplete', messageMap["OK"]);
+    dialog.setPreference('onPromptComplete', this.merge);
+    dialog.setPreference('buttonLabelCancel', messageMap["Cancel"]);
+    dialog.setPreference('onPromptCancel', this.mergeExit);
+    dialog.render();
+  },
 
-//Display the dialog
-dialog.render();
+  merge: function () {
+  var list = GlideList2.get('sys_update_set');
+  var query = list.getQuery();
+  var name = $('update_set_name').value;
+  var comments = $('update_set_comments').value;
+
+  var gurl = new GlideAjax('AngularProcessor','angular.do');
+  gurl.addParam('sysparm_type', 'hub_client');
+  gurl.addParam('type', 'merge_update_sets');
+  gurl.addParam('name', name);
+  gurl.addParam('comments', comments);
+  gurl.addParam('query', query);
+  gurl.getXML(function (response) {
+      var data = response.responseText.evalJSON();
+      var p = data.progress;
+      if (p) {
+        var progressId = p.progress_id;
+        var map = new GwtMessage().getMessages(["Close", "Update Set Merge"]);
+        var dialogClass = window.GlideModal ? GlideModal : GlideDialogWindow;
+        var dd = new dialogClass("hierarchical_progress_viewer", false, "40em", "10.5em");
+        dd.setPreference('focusTrap', true);
+        dd.setTitle(map["Update Set Merge"]);
+        dd.setPreference('sysparm_renderer_execution_id', progressId);
+        dd.setPreference('sysparm_renderer_expanded_levels', '0'); // collapsed root node by default
+        dd.setPreference('sysparm_button_close', map["Close"]);
+        dd.render();
+        //when all trackers are completed
+        dd.on("executionComplete", function(trackerObj) {
+          if (trackerObj.state == "2") {
+            var redirectUrl = new GlideURL('sys_update_set_list.do');
+            window.location.replace(redirectUrl.getURL());
+            return;
+          }
+          var closeBtn = $("sysparm_button_close");
+          if (closeBtn) {
+            closeBtn.onclick = function() {
+              dd.destroy();
+            };
+          }
+        });
+      }
+    });
+  },
+
+  mergeExit: function () {
+    // Do nothing interesting...
+  }
+});
 ```
 
 ## GlideModal - renderWithContent\(String html\)
@@ -411,7 +567,7 @@ Use the renderWithContent\(\) method in lieu of the render\(\) method when deriv
 
 |Type|Description|
 |----|-----------|
-|void|None|
+|void| |
 
 This code example shows how to display a modal that is constructed using the passed HTML string which contains a list of choices that the user can select from.
 
@@ -419,93 +575,53 @@ This code example shows how to display a modal that is constructed using the pas
 function cancelDialog(){
 
   var dialog = new GlideModal('cancelTask');
-
-  // Sets the dialog title
+  //Sets the dialog title
   dialog.setTitle('Cancel Task');
-
-  // Set up valid custom HTML to display
-  dialog.renderWithContent('<div style="padding:15px">
-    <p>What action do you want to take?</p>
+  //Set up valid custom HTML to display
+  dialog.renderWithContent('<div style="padding:15px"><p>What action do you want to take?</p>
     <p><select name="cancellation" id="taskCancellation" class="form-control">
-    <option value="cancelOnly" role="option">Cancel task but keep requested item open
-    </option>
-    <option value="cancelAll" role="option">Cancel this and all other tasks, closing the
-    requested item</option></select></p><div style="padding:5px;float:right"><button 
-    style="padding:5px;margin-right:10px onclick="window.changeTaskAction(this.innerHTML,
-    jQuery(\'#taskCancellation\').val())" class="btn btn-default">Abort</button>
-    <button style="padding:5px" class="btn btn-primary" 
-    onclick="window.changeTaskAction(this.innerHTML,jQuery(\'#taskCancellation\').val())">
-    Cancel Task</button></div></div>');
+    <option value="cancelOnly" role="option">Cancel this task but keep the requested item open</option>
+    <option value="cancelAll" role="option">Cancel this and all other tasks, closing the requested item</option>
+    </select></p><div style="padding:5px;float:right"><button style="padding:5px;margin-right:10px" 
+    onclick="window.changeTaskAction(this.innerHTML,jQuery(\'#taskCancellation\').val())" 
+    class="btn btn-default">Abort</button><button style="padding:5px" class="btn btn-primary" 
+    onclick="window.changeTaskAction(this.innerHTML,jQuery(\'#taskCancellation\').val())">Cancel Task</button></div></div>');
 
-  // Use the windows object to ensure the code is accessible from the modal dialog
+  //Use the windows object to ensure the code is accessible from the modal dialog
   window.changeTaskAction = function(thisButton, thisAction){
 
-    // Close the GlideModal dialog window
+    //Close the GlideModal dialog window
     dialog.destroy();
 
-    // Submit to the back-end
+    //Submit to the back-end
     if(thisButton=='Cancel Task'){
       if(thisAction=="cancelAll"){
-        // Closed Incomplete -- will close the Requested Item and all other open tasks
-        g_form.setValue('state',4);
+        g_form.setValue('state',4);//Closed Incomplete -- will close the Requested Item and all other open tasks
       }else{
-        // Closed Skipped -- will only close this task
-        g_form.setValue('state',7);
+        g_form.setValue('state',7);//Closed Skipped -- will only close this task
       }
          //Regular ServiceNow form submission
          gsftSubmit(null, g_form.getFormElement(), 'cancel_sc_task');
       }
    };
-
-   // Prevents the form from submitting when the dialog first loads
-   return false;
+   return false;//Prevents the form from submitting when the dialog first load
 }
 ```
 
 ## GlideModal - setPreference\(String name, String value\)
 
-Sets the specified field on the current form to the specified value.
+Sets the value of the specified preference \(property\). Use preferences to pass data into the page being rendered.
 
-<table id="table_cvd_zqs_3v" class="parameters"><thead><tr><th>
+To retrieve preferences in a UI page, use the following function: RP.getWindowProperties\(\).get\('preference\_name'\). For additional information on preferences, see [GlideModal - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md).
 
-Name
+|Name|Type|Description|
+|----|----|-----------|
+|name|String|Name of the preference whose value to set.|
+|value|String|Value to store in the specified preference.|
 
-</th><th>
-
-Type
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-name
-
-</td><td>
-
-String
-
-</td><td id="GMod-setPreference-name-entry">
-
-Name of the form field to update. If this field does not exist on the current form, the request is ignored.
-
-</td></tr><tr><td>
-
-value
-
-</td><td>
-
-String
-
-</td><td id="GMod-setPreference-value-entry">
-
-Value to store in the specified form field.
-
-</td></tr></tbody>
-</table>|Type|Description|
+|Type|Description|
 |----|-----------|
-|void|None|
+|void| |
 
 The following code example shows how to set the **table** preference to 'task' and the **name** preference to 'value'.
 
@@ -523,38 +639,49 @@ dialog.setPreference('name', 'value');
 dialog.render();
 ```
 
-## GlideModal - setPreferenceAndReload\(Object properties\)
+The following example shows how to set base preferences in a glide\_confirm modal.
+
+```
+var dialog = new GlideModal('glide_confirm', true, 300);
+  dialog.setTitle('Example Title');
+  dialog.setPreference('body', 'Example Body');
+  dialog.setPreference('focusTrap', true);
+  dialog.setPreference('callbackParam', 'exampleParameter');
+  dialog.setPreference('buttonClassComplete', 'btn-primary');
+  dialog.setPreference('onPromptComplete', function(param) {
+    console.log('Prompt completed with param: ' + param);
+  });
+
+  dialog.setPreference('onPromptCancel', function(param) {
+    console.log('Prompt cancelled with param: ' + param);
+  });
+
+dialog.render();
+```
+
+## GlideModal - setPreferenceAndReload\(Array properties\)
 
 Sets the specified preferences and then reloads the modal.
 
 |Name|Type|Description|
 |----|----|-----------|
-|properties|Object|Name-value pairs to set as preferences in the format.|
+|properties|Array|Name-value pairs to set as preferences.|
 
 |Type|Description|
 |----|-----------|
-|void|None|
+|void| |
 
-In this example, the setPreferenceAndReload\(\) function sets preferences and reloads the modal with updated preferences. The modal renders with the initial preferences, and after 5 seconds the setPreferenceAndReload\(\) is called and reloads the modal with the updated preferences.
+This example shows how to create and render a modal and then update the `body` preference and reloading the modal.
 
 ```
- // UI Page to render in the GlideModal is 'glide_modal_confirm'
- var glideModal = new GlideModal("glide_modal_confirm", false, 600);
- glideModal.setTitle(getMessage("Confirmation"));
- glideModal.setPreference("body", getMessage("Are you sure you want to reject this deal registration? This action cannot be undone."));
- glideModal.setPreference('buttonLabelComplete', getMessage("Reject"));
- glideModal.setPreference('buttonLabelCancel', getMessage("Cancel"));
- glideModal.render();
+var dialog = new GlideModal('glide_confirm');
+dialog.setPreference('body', 'This is a test modal body');
+dialog.setTitle('This is a test modal title');
+dialog.render();
 
- var preferences = {
-     "body": "THIS IS THE UPDATED BODY PREFERENCE",
-     "buttonLabelComplete": "NEW REJECT",
-     "buttonLabelCancel": "NEW CANCEL"
- };
+...
 
- setTimeout(function() {
-     glideModal.setPreferenceAndReload(preferences);
- }, 5000);
+dialog.setPreferenceAndReload({'body': 'this is another body'})
 ```
 
 ## GlideModal - setTitle\(String title\)
@@ -567,9 +694,9 @@ Sets the title of the modal.
 
 |Type|Description|
 |----|-----------|
-|void|None|
+|void| |
 
-The following code example shows how to set the modal title to `Table to update`.
+The following code example shows how to set the modal title to "Table to update".
 
 ```
 var dialog = new GlideModal('UI_dialog_name');
@@ -609,7 +736,7 @@ width
 
 Number or String
 
-</td><td id="GMod-setWidth-width-entry">
+</td><td>
 
 Width of the modal in pixels or the modal CSS class. If a pixel width is passed, it aligns the specified width with the corresponding CSS class.Possible modal CSS classes:
 
@@ -623,7 +750,7 @@ Maximum width: 900 pixels
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|void|None|
+|void| |
 
 The following code example shows how to set the modal width to 550 pixels.
 
@@ -649,37 +776,9 @@ Change the view and reload the modal.
 
 |Type|Description|
 |----|-----------|
-|void|None|
+|void| |
 
 ```
 
-```
-
-## GlideModal - updateTitle\(
-
-Updates the title specified using GlideModal setTitle\(\) method.
-
-You must always first call [GlideModal - setTitle\(String title\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md) to specify the Modal title using updateTitle\(\) to commit the change.
-
-|Name|Type|Description|
-|----|----|-----------|
-|None| | |
-
-|Type|Description|
-|----|-----------|
-|None| |
-
-The following example demonstrates how to use set and update a modal's title by calling setTitle\(\) and updateTitle\(\) respectively.
-
-```
-var modal = new nowapi.GlideModal();
-modal.renderWithContent('TEST CONTENT');
-
-setTimeout(function() {
-    modal.setTitle("TEST setTitle() AND updateTitle() METHODS"); 
-    // Only updates the 'title' prop, updateTitle() must be called to see change
-
-    modal.updateTitle();
-}, 3000);
 ```
 

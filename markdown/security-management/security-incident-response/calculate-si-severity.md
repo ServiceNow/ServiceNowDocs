@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,7 +24,9 @@ Role required: sn\_si.basic
 
 1.  If it is not already open, open the security incident you want to calculate the severity for.
 
-2.  Select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text:, and select **Calculate Severity**.
+2.  Click the form header context menu and select **Calculate Severity**:
+
+    \[Omitted image "HamburgerSevCalc.png"\] Alt text: Calculate Severity from form header menu
 
     The severity is calculated based on the predefined rules for base calculators. For more information, see [Understanding security incident calculators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/setup-assistant-reference.md).
 

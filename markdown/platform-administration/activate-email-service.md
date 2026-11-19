@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/activate-email-service.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Activate email administration, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Activate email administration, Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Activate Email Service
@@ -42,5 +42,5 @@ Role required: admin
 **Related topics**  
 
 
-[List of plugins \(Brazil\)]()
+[List of plugins \(Yokohama\)]()
 

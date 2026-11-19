@@ -1,20 +1,20 @@
 ---
 title: Complete learning tasks using the Service Operations Workspace
-description: Enhance your skill set by completing learning tasks from internal or external learning content.
+description: Enhance your skills set by completing learning tasks from internal or external learning content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/complete-training-tasks-workforce-optimization-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Learning path and course item discovery in Service Operations Workspace, Service Operations Workspace - Learning, Workforce Optimization for ITSM in the Service Operations Workspace, Optimizing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Learning path and course item discovery in Service Operations Workspace, Service Operations Workspace - Learning, Workforce Optimization for ITSM in the Service Operations Workspace, Optimize, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Complete learning tasks using the Service Operations Workspace
 
-Enhance your skill set by completing learning tasks from internal or external learning content.
+Enhance your skills set by completing learning tasks from internal or external learning content.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_wfo\_cfg\_itsm.employee
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the Learning icon \[Omitted image "coaching-icon-uib.png"\] Alt text:.
+2.  Select the Learning icon \[Omitted image "coaching-icon-uib.png"\] Alt text: Learning icon.
 
 3.  Select the **My learning** tab.
 
@@ -34,19 +34,19 @@ Role required: sn\_wfo\_cfg\_itsm.employee
         -   The tasks display a highlight to show which tasks are due on the current day, due soon, or are overdue. It also shows how long the course has been overdue. The most recently created tasks are highlighted as **New**.
         -   You can also see which tasks you've self-enrolled and which tasks were assigned to you and also the progress of each course or path.
         -   You can filter the tasks to display either all tasks that were assigned to you or all the ones you enrolled in or both.
-        -   You can sort the tasks by due date.
+        -   You can sort the task by the date the task is due.
     -   Select the **Completed** tab to view the list of tasks sorted by the date they were completed.
 4.  Complete a learning task.
 
-<table id="choicetable_pjd_rgc_d5b"><thead><tr><th align="left" id="d130489e127">
+<table id="choicetable_pjd_rgc_d5b"><thead><tr><th align="left" id="d296723e126">
 
 If
 
-</th><th align="left" id="d130489e130">
+</th><th align="left" id="d296723e129">
 
 Then
 
-</th></tr></thead><tbody><tr><td id="d130489e136">
+</th></tr></thead><tbody><tr><td id="d296723e135">
 
 **The task is associated with a learning path**
 
@@ -56,7 +56,7 @@ You can do any of the following:-   Select the task and view details of the task
 -   Select a task that's in progress and complete it.
 **Note:** You must complete the courses in the path in the given order to complete the learning task. After you complete all learning tasks in a path, the course items associated with the path display the status as **Complete** in the **Discover** tab.
 
-</td></tr><tr><td id="d130489e164">
+</td></tr><tr><td id="d296723e163">
 
 **The task is associated with a course item**
 
@@ -68,14 +68,14 @@ You can view the course description and the skills associated with the course it
 
 **Note:** After you complete an external course item, it is automatically marked as complete.
 
-</td></tr><tr><td id="d130489e184">
+</td></tr><tr><td id="d296723e183">
 
 **The task is a quiz associated with a learning path**
 
 </td><td>
 
 If you have a quiz associated with the learning path:1.  Select the path.
-2.  Select the course item that is a quiz.
+2.  Select the course item which is a quiz.
 3.  Select **Go to quiz**.
 4.  Select **Take the quiz**.
 5.  Select **Get started**.

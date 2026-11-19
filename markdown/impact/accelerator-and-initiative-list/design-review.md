@@ -7,9 +7,9 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
 ---
 
 # Design Review

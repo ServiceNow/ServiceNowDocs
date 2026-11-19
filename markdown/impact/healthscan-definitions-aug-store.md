@@ -1,16 +1,16 @@
 ---
-title: HealthScan definitions updates: August 2024 release
+title: HealthScan definitions updates: August release
 description: Some HealthScan definitions are deprecated or updated between releases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/healthscan-definitions-aug-store.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [HealthScan definitions, HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
+breadcrumb: [HealthScan definitions, HealthScan, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
 ---
 
-# HealthScan definitions updates: August 2024 release
+# HealthScan definitions updates: August release
 
 Some HealthScan definitions are deprecated or updated between releases.
 
@@ -749,7 +749,7 @@ HSD0004658
 
 </td><td>
 
-Adoption of ATF Quickstart Test 'Customer Proxy Contacts'
+Adoption of ATF Quickstart Test 'CSM Extension for Proxy Contacts'
 
 </td><td>
 
@@ -928,5 +928,4 @@ X
 -   Baseline findings were removed
 
 </td></tr></tbody>
-</table>**Parent Topic:**[HealthScan definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/healthscan-definitions.md)
-
+</table>

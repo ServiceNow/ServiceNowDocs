@@ -1,5 +1,5 @@
 ---
-title: Integration Hub solutions
+title: Integration Hub available solutions
 description: Automate typical business processes with Integration Hub solutions. Solutions combine pre-built flows, actions, and other integration-specific content into one package, for quicker, simpler process automation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/solutions.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
-# Integration Hub solutions
+# Integration Hub available solutions
 
 Automate typical business processes with Integration Hub solutions. Solutions combine pre-built flows, actions, and other integration-specific content into one package, for quicker, simpler process automation.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Available solutions
 

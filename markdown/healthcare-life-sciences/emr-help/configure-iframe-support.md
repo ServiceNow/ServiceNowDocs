@@ -7,9 +7,9 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Configuring EMR Help, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Configure iFrame support for EMR Help in ServiceNow
@@ -41,7 +41,7 @@ For any ServiceNow page or portal to be launched within an iframe, an HTTP Respo
 
 ## Result
 
-\[Omitted image "configureiframe.png"\] Alt text: Proper domain indication on iFrame configuration for Epic.
+\[Omitted image "image.configureiframe"\] Alt text: Proper domain indication on iFrame configuration for Epic.
 
 ## What to do next
 

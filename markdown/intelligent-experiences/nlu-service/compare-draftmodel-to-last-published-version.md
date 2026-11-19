@@ -1,5 +1,5 @@
 ---
-title: \(Legacy\) Compare draft and published versions of your NLU model
+title: Compare draft and published versions of your NLU model
 description: Compare a draft trained Natural Language Understanding \(NLU\) model to its most recent published version. Test and review the changes to make sure that your draft model will have increased performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/compare-draftmodel-to-last-published-version.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [\(Legacy\) Test and publish your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Test and publish your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
-# \(Legacy\) Compare draft and published versions of your NLU model
+# Compare draft and published versions of your NLU model
 
 Compare a draft trained Natural Language Understanding \(NLU\) model to its most recent published version. Test and review the changes to make sure that your draft model will have increased performance.
 
@@ -65,4 +65,6 @@ In this example procedure, you've cloned the model from a pre-built read-only HR
 ## What to do next
 
 Use the information in the test panel to see if the changes you make will improve the model's performance. Once you are satisfied with your changes, test your model before publishing. Then, publish your model to replace the current published version.
+
+**Parent Topic:**[Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/testing-your-model.md)
 

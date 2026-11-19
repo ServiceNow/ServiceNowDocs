@@ -5,30 +5,24 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/t\_IncludeApplicationData.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-02"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
+breadcrumb: [Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
 
 # Create application files to include sample data
 
 Include sample records from an application data table when sharing a custom application.
 
-## Before you begin
-
-Role required: admin, or delegated\_developer
-
 ## About this task
 
-The system can export selected records as application files that are included as part of the application update set when you share it. Including application files in an update set is not intended for the export and import of large numbers of records between instances. If you're trying to move data between instances, see [Import from another instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/c_ImportingFromAnotherSNInstance.md) instead.
+The system can export selected records as application files that are included as part of the application update set when you share it. Including application files in an update set is not intended for the export and import of large numbers of records between instances. If you are trying to move data between instances, see [Import from another instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/c_ImportingFromAnotherSNInstance.md) instead.
 
 The application data only includes the version of the records that existed when the records were shared. The system does not update this snapshot of the application data when the records change. Application designers can include data on a table by table basis.
 
 ## Procedure
 
-1.  In your application, open the list view of the data table you want to use.
-
-    **Note:** To navigate directly to the list view of any table, use the `<table name>.list` shortcut.
+1.  Navigate to the list for an application data table.
 
 2.  Filter the list to display the records you want to include.
 
@@ -41,7 +35,7 @@ The application data only includes the version of the records that existed when 
 
 4.  For **Load When**, select when the application record includes application data.
 
-<table id="choicetable_amy_wdd_br"><tbody><tr><td id="d52422e142">
+<table id="choicetable_amy_wdd_br"><tbody><tr><td id="d51940e127">
 
 **__New Install and Upgrades__**
 
@@ -49,7 +43,7 @@ The application data only includes the version of the records that existed when 
 
 Includes application data whenever the application is installed or upgraded.
 
-</td></tr><tr><td id="d52422e154">
+</td></tr><tr><td id="d51940e139">
 
 **__New Install__**
 
@@ -57,7 +51,7 @@ Includes application data whenever the application is installed or upgraded.
 
 Includes application data only when the application is installed.
 
-</td></tr><tr><td id="d52422e166">
+</td></tr><tr><td id="d51940e151">
 
 **__New Install with Demo Data__**
 

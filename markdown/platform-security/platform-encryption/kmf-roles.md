@@ -7,7 +7,7 @@ release: yokohama
 product: Platform Encryption
 classification: platform-encryption
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-05-20"
 reading_time_minutes: 4
 breadcrumb: [Key Management Framework Reference, Key Management Framework, Encryption]
 ---
@@ -20,7 +20,7 @@ The Key Management Framework \(KMF\) introduces specific roles for cryptographic
 
 KMF roles are required to use the Key Management Framework. Users without KMF roles are not able to access lists, tables, and modules used to configure key management.
 
-To assign the KMF admin role, you must have the **admin**, **security\_admin**, and **sn\_kmf.admin** roles. Use the KMF admin role to assign other KMF roles. For details on assigning KMF roles, see [Assign Key Management Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/assign-kmf-roles.md).
+To assign the KMF admin role, you must have the **admin**, **security\_admin**, and **sn\_kmf.admin** roles. Use the KMF admin role to assign other KMF roles. For details on assigning KMF roles, see [Assign KMF roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/kmf-roles.md).
 
 The **sn\_kmf.admin** role is also required to modify any group record that includes the **sn\_kmf.cryptographic\_manager** role. This requirement applies to all updates to the group record, not only to role assignment operations.
 
@@ -59,8 +59,7 @@ None.
 
 **Important:** Avoid granting an admin role when more specialized roles are available.
 
--   This role is assigned via the process shown in [Assign Key Management Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/assign-kmf-roles.md).
--   Users with this role must also have the admin and security\_admin
+-   This role is assigned via the process shown in [Assign KMF roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/kmf-roles.md).
 -   You must have this role to assign  KMF roles, and in addition can perform all the capabilities of the KMF cryptographic manager.
 
 ## KMF cryptographic manager \[sn\_kmf.cryptographic\_manager\]
@@ -81,7 +80,7 @@ None.
 
 ### Special considerations
 
-This role can only be assigned to a user by a KMF admin.
+None.
 
 ## KMF cryptographic auditor \[sn\_kmf.cryptographic\_auditor\]
 
@@ -101,7 +100,7 @@ None.
 
 ### Special considerations
 
-This role can only be assigned to a user by a KMF admin.
+None.
 
 ## KMF cryptographic integrator \[sn\_kmf.cryptographic\_integrator\]
 
@@ -121,7 +120,7 @@ None.
 
 ### Special considerations
 
-This role can only be assigned to a user by a KMF admin.
+None.
 
 ## KMF cryptographic operator \[sn\_kmf.cryptographic\_operator\]
 

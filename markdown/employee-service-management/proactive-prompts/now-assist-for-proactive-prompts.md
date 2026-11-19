@@ -7,9 +7,9 @@ release: yokohama
 product: Proactive Prompts
 classification: proactive-prompts
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Use, Proactive Prompts, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Proactive Prompts, Proactive Prompts, HR Service Delivery, Employee Service Management]
 ---
 
 # Now Assist with Proactive Prompts

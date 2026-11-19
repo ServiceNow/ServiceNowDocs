@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/components-installed-with-individual-life-underwriting.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Individual Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Individual Life Servicing reference, Setting up Individual Life Servicing, Individual Life Servicing, Life Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Individual Life Underwriting
@@ -93,5 +93,4 @@ Individual Life Underwriting Service Task
 Stores all underwriting tasks for individual policy service requests for all applications. This table extends the Financial Task \[sn\_bom\_task\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Individual Life Servicing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/individual-life-servicing-reference.md)
-
+</table>

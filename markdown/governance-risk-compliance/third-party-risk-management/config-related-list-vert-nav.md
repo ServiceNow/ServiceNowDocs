@@ -7,7 +7,7 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -84,11 +84,12 @@ For more information about related lists, see [Related lists](https://raw.github
 
     This step makes the related list available to the workspace but does not add it to the vertical navigation.
 
-3.  Navigate to the vertical navigation configuration table using one of the following options.
+3.  Navigate to the vertical navigation configuration table.
 
-    -   -   In the Application Navigator \(All\), enter `sn_rec_pg_vertical_view_config.list`.
--   Select **VRM vertical nav configuration**.
-    -   **All** &gt; **Third-party Risk Management** &gt; **Administration** &gt; **Vertical layout configuration**.
+    1.  In the Application Navigator \(All\), enter `sn_rec_pg_vertical_view_config.list`.
+
+    2.  Select **VRM vertical nav configuration**.
+
     This table defines which related lists appear in the vertical navigation for workspace record pages.
 
 4.  Create or update a vertical navigation entry.
@@ -129,5 +130,4 @@ If the related list does not appear, confirm that:
 -   The related list is configured on the workspace record view.
 -   A configuration entry exists in the vertical layout table.
 -   The correct application scope is selected.
--   After an upgrade, the configuration entry in the vertical layout table wasn't skipped. Check Upgrade History for skipped records related to the vertical layout configuration table, and preview and revert any that apply.
 

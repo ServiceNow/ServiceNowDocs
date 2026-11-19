@@ -7,9 +7,9 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
 ---
 
 # TuneUp Your Employee Center
@@ -22,9 +22,7 @@ TuneUp Your Employee Center provides Impact customers with an assessment of thei
 
 For additional information, see [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-center-landing-page.md).
 
-## Package Availability
-
-**Note:** This Accelerator is available for Impact  Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages
+This feature is available for packages such as Impact Advanced and Impact Total along with the Impact Guided package and Strategic Value or Platform Governance, as add-on.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 

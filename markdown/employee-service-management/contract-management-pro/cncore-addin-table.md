@@ -1,26 +1,20 @@
 ---
 title: Map contract tables using the Microsoft Word add-in for ServiceNow Contracts
-description: Use the ServiceNow Contracts add-in to map a contract table to a source table in your ServiceNow instance to determine the data that will be added in a contract document. When a contract document is generated from the template, the rows and columns are dynamically added in the mapped table of the contract document.
+description: Use the Microsoft Word add-in to map a contract table to a source table in your ServiceNow instance to determine the data that will be added in a contract document. When a contract document is generated from the template, the rows and columns are dynamically added in the mapped table of the contract document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-addin-table.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 5
-breadcrumb: [Add content controls, Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+last_updated: "2025-01-30"
+reading_time_minutes: 4
+breadcrumb: [Add document content controls using Microsoft Word add-in for ServiceNow Contracts, Creating a contract template using Microsoft Word add-in for ServiceNow Contracts, Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
 ---
 
 # Map contract tables using the Microsoft Word add-in for ServiceNow Contracts
 
-Use the ServiceNow Contracts add-in to map a contract table to a source table in your ServiceNow instance to determine the data that will be added in a contract document. When a contract document is generated from the template, the rows and columns are dynamically added in the mapped table of the contract document.
-
-## About this task
-
-The following video walks you through the process of configuring dynamic tables using Microsoft Word add-in for ServiceNow Contracts.
-
-\[Omitted video\] Description: The video walks you through the process of configuring dynamic tables using Microsoft Word add-in for ServiceNow Contracts.
+Use the Microsoft Word add-in to map a contract table to a source table in your ServiceNow instance to determine the data that will be added in a contract document. When a contract document is generated from the template, the rows and columns are dynamically added in the mapped table of the contract document.
 
 ## Before you begin
 
@@ -52,7 +46,7 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
         **Note:** The field appears only when Contract Request table \[sn\_cm\_core\_contract\_request\] is selected when creating the contract template.
 
-    2.  In the **Table** field, select the data source table from which you want to add data in a contract document.
+    2.  In the **Lookup table** field, select the data source table from which you want to add data in a contract document.
 
     3.  In the **Name** field, either retain the default name or enter a unique table name.
 
@@ -64,19 +58,17 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
     6.  Select **Next**.
 
-        \[Omitted image "cmpro-waddin-dyn-table-mapping.png"\] Alt text: Dynamic table mapping
-
 7.  In the **Table display configuration** section, set the display properties to define how the data appears within the table in the contract document and then select **Next**.
 
-<table id="choicetable_cv4_gdw_bcc"><thead><tr><th align="left" id="d540574e325">
+<table id="choicetable_cv4_gdw_bcc"><thead><tr><th align="left" id="d500123e287">
 
 Field
 
-</th><th align="left" id="d540574e328">
+</th><th align="left" id="d500123e290">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d540574e334">
+</th></tr></thead><tbody><tr><td id="d500123e296">
 
 **Sort by**
 
@@ -84,7 +76,7 @@ Description
 
 The criteria by which to sort the data.
 
-</td></tr><tr><td id="d540574e343">
+</td></tr><tr><td id="d500123e305">
 
 **Sorting order**
 
@@ -92,7 +84,7 @@ The criteria by which to sort the data.
 
 Sorts the data either in ascending or descending order.
 
-</td></tr><tr><td id="d540574e352">
+</td></tr><tr><td id="d500123e314">
 
 **Enable hierarchy**
 
@@ -100,7 +92,7 @@ Sorts the data either in ascending or descending order.
 
 Option to group the data based on parent-child relationships.
 
-</td></tr><tr><td id="d540574e361">
+</td></tr><tr><td id="d500123e323">
 
 **Parent field**
 
@@ -108,7 +100,7 @@ Option to group the data based on parent-child relationships.
 
 The parent field for the hierarchy view.This field appears only when **Enable hierarchy** has been selected.
 
-</td></tr><tr><td id="d540574e376">
+</td></tr><tr><td id="d500123e338">
 
 **Hierarchy column\(s\)**
 
@@ -116,7 +108,7 @@ The parent field for the hierarchy view.This field appears only when **Enable hi
 
 The columns for which data should be displayed in the hierarchy view.This field appears only when **Enable hierarchy** has been selected.
 
-</td></tr><tr><td id="d540574e390">
+</td></tr><tr><td id="d500123e352">
 
 **Row indentation**
 
@@ -125,9 +117,7 @@ The columns for which data should be displayed in the hierarchy view.This field 
 The number of spaces that child columns should be indented.This field appears only when **Enable hierarchy** has been selected.
 
 </td></tr></tbody>
-</table>    \[Omitted image "cmpro-waddin-dyn-tbl-disp-config.png"\] Alt text: Define how the data appears within the table in the contract document
-
-8.  Display the formatting symbols by selecting the Show/Hide formatting marks icon \(\[Omitted image "lsd-word-formatting-icon.png"\] Alt text: Show/Hide formatting marks icon\) on the Microsoft Word Home ribbon.
+</table>8.  Display the formatting symbols by selecting the Show/Hide formatting marks icon \(\[Omitted image "lsd-word-formatting-icon.png"\] Alt text: Show/Hide formatting marks icon\) on the Microsoft Word Home ribbon.
 
 9.  Initiate the table mapping in the contract template by selecting it along with the paragraph symbol \(¶\), and then selecting the table tag in the **Map dynamic table** section.
 
@@ -137,21 +127,15 @@ The number of spaces that child columns should be indented.This field appears on
 
 12. Select **Complete**.
 
-    \[Omitted image "cmpro-waddin-table-map-comp.png"\] Alt text: Table configuration \[Omitted image ""\] Alt text:
-
 
 ## Result
 
 The table mapping is completed and is listed under the **Table** tab on the add-in panel.
 
-The table mappings are synced to the ServiceNow instance.
+You can add conditions for the table mapping to filter for the data that appears in the contract. For more information, see [Add conditions for a contract table mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-add-filter-table-map.md).
 
-\[Omitted image "cmpro-waddin-dyn-table-result.png"\] Alt text: Configured dynamic table is synced to your instance
-
-You can add conditions for the table mapping to filter for the data that appears in the contract. For more information, see [Add conditions for a table mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-add-filter-table-map.md).
-
--   **[Add conditions for a table mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-add-filter-table-map.md)**  
-As a contract configurator, use condition builders to define criteria for a table mapping in a contract template so only the essential data from the mapped table is displayed in the contract document.
+-   **[Add conditions for a contract table mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-add-filter-table-map.md)**  
+As a contract configurator, use condition builders to define criteria for a table mapping for a contract template so only the essential data from the mapped table is displayed in the contract document.
 -   **[Configure mapped columns to append or add fields from related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-append-data-table.md)**  
 Configure dynamic tables in a contract template to display additional data from related table fields by appending it to existing columns or adding it as new columns.
 
@@ -164,5 +148,5 @@ Configure dynamic tables in a contract template to display additional data from 
 
 [Configuring signatories in Contract template using Microsoft Word add-in]()
 
-[Map clauses and clause variations]()
+[Map clauses and clause variations using the Microsoft Word add-in for ServiceNow Contracts]()
 

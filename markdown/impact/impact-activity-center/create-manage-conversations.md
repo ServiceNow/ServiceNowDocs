@@ -7,9 +7,9 @@ release: yokohama
 product: Impact Activity Center
 classification: impact-activity-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Conversations, Activity Center, Impact Delivery Instance reference, Impact reference, Impact]
+breadcrumb: [Activity Center Conversations, Activity Center, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
 ---
 
 # Create and manage conversations
@@ -79,7 +79,7 @@ Edit conversation subject
 </td><td>
 
 Changes the subject of the conversation from the available subjects:-   Business KPIs
--   Objectives
+-   Business objectives
 -   General
 -   Initiatives
 -   Platform health
@@ -148,6 +148,4 @@ Manage who receives and which conversations are part of the watchlist.
 
     Changes to the conversation are displayed.
 
-
-**Parent Topic:**[Activity Center Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-activity-center/conversations.md)
 

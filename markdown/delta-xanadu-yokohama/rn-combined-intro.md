@@ -35,8 +35,6 @@ Consolidated page of all release notes for Agent experience for CSM from Xanadu 
 Consolidated page of all release notes for Agent Workspace for HR Case Management from Xanadu to Yokohama.
 -   **[Combined AI Analytics release notes for upgrades from Xanadu to Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/yokohama-xanadu-aianalytics-release-notes.md)**  
 Consolidated page of all release notes for AI Analytics from Xanadu to Yokohama.
--   **[Combined AI Control Tower release notes for upgrades from Xanadu to Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/yokohama-xanadu-aicontroltower-release-notes.md)**  
-Consolidated page of all release notes for AI Control Tower from Xanadu to Yokohama.
 -   **[Combined AIOps LEAP release notes for upgrades from Xanadu to Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/yokohama-xanadu-aiopsleap-release-notes.md)**  
 Consolidated page of all release notes for AIOps LEAP from Xanadu to Yokohama.
 -   **[Combined AI Risk and Compliance release notes for upgrades from Xanadu to Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/yokohama-xanadu-airiskandcompliance-release-notes.md)**  
@@ -105,6 +103,8 @@ Consolidated page of all release notes for Continuous Authorization and Monitori
 Consolidated page of all release notes for Contract Management Pro from Xanadu to Yokohama.
 -   **[Combined Contract Management Pro for Legal Service Delivery release notes for upgrades from Xanadu to Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/yokohama-xanadu-contractmanagementproforlegalservicedelivery-release-notes.md)**  
 Consolidated page of all release notes for Contract Management Pro for Legal Service Delivery from Xanadu to Yokohama.
+-   **[Combined Control Tower release notes for upgrades from Xanadu to Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/yokohama-xanadu-controltower-release-notes.md)**  
+Consolidated page of all release notes for Control Tower from Xanadu to Yokohama.
 -   **[Combined Conversation Insights release notes for upgrades from Xanadu to Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/yokohama-xanadu-conversationinsights-release-notes.md)**  
 Consolidated page of all release notes for Conversation Insights from Xanadu to Yokohama.
 -   **[Combined Core ServiceNow AI Platform release notes for upgrades from Xanadu to Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/yokohama-xanadu-coreservicenowaiplatform-release-notes.md)**  

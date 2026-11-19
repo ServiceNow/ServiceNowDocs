@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/use-the-customer-portal.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Customer communication, Use, Customer Service Management]
+breadcrumb: [Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Using the Customer Service Portal
@@ -196,11 +196,4 @@ View a list of featured community content.
 
 </td></tr></tbody>
 </table>**Note:** You can view the metadata for each entry in the widgets, such as the number of views, number of days from the time the article or feature was published, and rating for the article.
-
-**Related topics**  
-
-
-[Customer contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_PortalSelfRegistration.md)
-
-[Log in to the Customer Service Portal for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_LogInToPortalFirstTime.md)
 

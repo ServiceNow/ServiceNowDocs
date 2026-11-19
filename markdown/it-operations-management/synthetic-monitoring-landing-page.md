@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/synthetic-monitoring-landing-page.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ITOM AIOps, IT Operations Management]
+breadcrumb: [ITOM Health, IT Operations Management]
 ---
 
 # Synthetic monitoring

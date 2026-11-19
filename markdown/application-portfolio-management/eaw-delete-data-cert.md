@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-delete-data-cert.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-11-24"
 reading_time_minutes: 1
-breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Data certification in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Delete a certification policy
@@ -16,7 +16,7 @@ Delete an unwanted certification policy permanently.
 
 ## Before you begin
 
-Role required: sn\_cmdb\_admin + sn\_apm.apm\_analyst
+Role required: System admin, cmdb admin + analyst, com.snc\_apm\_analyst
 
 ## About this task
 
@@ -39,7 +39,7 @@ Role required: sn\_cmdb\_admin + sn\_apm.apm\_analyst
 4.  Select **Delete**.
 
 
-**Parent Topic:**[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-data-cert.md)
+**Parent Topic:**[Data certification in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-explore-data-cert.md)
 
 **Related topics**  
 

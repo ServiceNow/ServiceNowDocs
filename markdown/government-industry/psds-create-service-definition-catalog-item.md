@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-create-service-definition-catalog-item.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [License and Permit Playbook, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure service definition catalog items for License and Permit Administration application
@@ -103,6 +103,6 @@ Description of the public service.
 </td></tr></tbody>
 </table>6.  Select **Submit**.
 
-    Your catalog item is created and ready for use by constituents submitting cases through the Government Service Portal, or agents creating a case from scratch in the Public Sector Workspace.
+    Your catalog item is created and ready for use by constituents submitting cases through the Government Service Portal, or agents creating a case from scratch in the CSM Configurable Workspace.
 
 

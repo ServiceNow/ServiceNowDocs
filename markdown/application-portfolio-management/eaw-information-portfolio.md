@@ -1,16 +1,16 @@
 ---
-title: Exploring the information portfolio
+title: Working with information portfolio
 description: Use the information portfolio to capture information from the assets of your organization as information objects. You can categorize the information assets and determine its business application use. You can also connect the different layers where data exists and map the layers. Mapping helps to retrieve the information and track the information flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-information-portfolio.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Exploring the information portfolio
+# Working with information portfolio
 
 Use the information portfolio to capture information from the assets of your organization as information objects. You can categorize the information assets and determine its business application use. You can also connect the different layers where data exists and map the layers. Mapping helps to retrieve the information and track the information flow.
 
@@ -25,25 +25,22 @@ Enterprise Architecture integrates with information portfolio by relating a busi
 
 The business application is related with the information object by establishing Uses::Used by CMDB CI relationship. The information object, in turn, is linked to the database catalog and instances by establishing Depends on::Used by CMDB CI relationship.
 
+\[Omitted image "InformationArchitecture.png"\] Alt text: Graphic illustrating the data model of information portfolio
+
 Enterprise Architecture integrates with ServiceNow Discovery that finds database applications, database instances, and database catalog. The database catalog lists all the catalog objects, or databases, discovered for an instance of a database.
 
 ## Plugin activation procedure
 
 CMDB plugin has the Information Object \(cmdb\_ci\_information\_object\) CI. When the Enterprise Architecture plugin is activated, the data domain field gets added to the cmdb\_ci\_information\_object table. The data domain field references the Data Domain table, which is included in the Enterprise Architecture plugin.
 
--   **[Exploring data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-data-domains.md)**  
+-   **[Manage data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-data-domains.md)**  
 A data domain is a collection of information objects. A data domain categorizes information objects.
--   **[Exploring information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-information-objects.md)**  
+-   **[Manage information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-information-objects.md)**  
 An information object captures the logical data for a business application. It also describes the type of data that is interchanged between the application and the database.
--   **[Exploring architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-managing-architectural-artifacts.md)**  
+-   **[Manage architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-managing-architectural-artifacts.md)**  
 Architectural artifacts are created to describe a system, solution, or state of an enterprise. The goal of architectural artifacts in Enterprise Architecture is to enable enterprise architects to create and manage artifacts in their organization.
--   **[Exploring architectural decision records \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-managing-arch-decision-records.md)**  
+-   **[Manage architectural decision records \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-managing-arch-decision-records.md)**  
 Use the Architectural Decision Records \(ADR\) to explain your infrastructure. ADR is a type of artifact that helps you to understand the background of a specific architectural decision.
 
-**Parent Topic:**[Exploring Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/portfolio-list-view.md)
-
-**Related topics**  
-
-
-[Working with information portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-info-portfoliodita.md)
+**Parent Topic:**[Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/portfolio-list-view.md)
 

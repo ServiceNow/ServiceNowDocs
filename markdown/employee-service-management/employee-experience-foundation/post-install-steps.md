@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Admin configurations, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Admin configurations, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
 # Post installation troubleshooting
@@ -40,11 +40,9 @@ Manually run fix scripts to upgrade to the latest taxonomy-based Employee Center
 
 [Employee Center global header]()
 
-[Configure widget heading levels for accessibility]()
-
 [Footer configuration]()
 
 [Employee live chat overview]()
 
-[Portal performance optimization]()
+[Update the Employee Center home page theme]()
 

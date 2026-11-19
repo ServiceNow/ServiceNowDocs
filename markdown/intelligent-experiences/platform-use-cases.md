@@ -1,18 +1,18 @@
 ---
 title: Platform agentic workflows
-description: You can use the available Platform agentic workflows to achieve business outcomes with self-executing autonomous AI agents.
+description: You can use the available Now Assist AI agents Platform agentic workflows to achieve business outcomes with self-executing autonomous AI agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/platform-use-cases.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-09-17"
-reading_time_minutes: 2
-breadcrumb: [Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
+last_updated: "2025-02-07"
+reading_time_minutes: 1
+breadcrumb: [Now Assist agentic workflows, Now Assist AI assets, Enable AI experiences]
 ---
 
 # Platform agentic workflows
 
-You can use the available Platform agentic workflows to achieve business outcomes with self-executing autonomous AI agents.
+You can use the available Now Assist AI agents Platform agentic workflows to achieve business outcomes with self-executing autonomous AI agents.
 
 Use the following agentic workflows that are available with ServiceNow AI Platform.
 
@@ -30,15 +30,15 @@ Available AI agents
 
 </th></tr></thead><tbody><tr><td>
 
-Analyze task trends
+Analyze incident trends
 
 </td><td>
 
-Detects recurring patterns, predicts disruptions, and enables proactive resolutions with actionable recommendations.
+Detects recurring patterns, predicts disruptions, and enables proactive resolutions.
 
 </td><td>
 
-Issue trend analysis AI Agent
+Incident trends analyzer
 
 </td></tr><tr><td>
 
@@ -50,23 +50,12 @@ Triages tasks by updating fields, evaluating sentiment, and summarizing.
 
 </td><td>
 
-Record field value prediction AI agent
+-   Record management AI agent
+-   Record field value prediction AI agent
 
 </td></tr><tr><td>
 
-Generate my work plan
-
-</td><td>
-
-Provides a personalized work plan based on current work and historical data of previous work.
-
-</td><td>
-
-Prioritize work AI agent
-
-</td></tr><tr><td>
-
-Generate resolution plan
+Generate resolution plans
 
 </td><td>
 
@@ -75,35 +64,12 @@ Analyzes tasks, generates resolution summaries, and updates comments or work not
 </td><td>
 
 -   Next best action recommendation AI agent
--   Resolution Action AI Agent
+-   Record management AI agent
+-   Web research and recommendation AI agent
 
 </td></tr><tr><td>
 
-Help optimize team productivity
-
-</td><td>
-
-Identifies backlog items, evaluates team member performance on previous assignments, and allocates work based on similarity to those previous assignments.
-
-</td><td>
-
-Work Allocator AI Agent
-
-</td></tr><tr><td>
-
-Identify escalation signals
-
-</td><td>
-
-Assesses and reports tickets that are at risk of escalation.
-
-</td><td>
-
-Proactive Escalation AI agent
-
-</td></tr><tr><td>
-
-Identify ways to improve service
+Identify ways to improve services
 
 </td><td>
 
@@ -111,11 +77,12 @@ Analyzes feedback, trends, and metrics and provides recommendations to help opti
 
 </td><td>
 
-Survey Analysis AI agent
+-   Survey requirement collector
+-   Survey analyzer
 
 </td></tr><tr><td>
 
-Investigate problems
+Investigate IT problems
 
 </td><td>
 
@@ -123,32 +90,7 @@ Provides insights from incident or problem details.
 
 </td><td>
 
-Problem investigation AI agent
-
-</td></tr><tr><td>
-
-Process images for tasks
-
-</td><td>
-
-Processes images and converts them to tasks.
-
-</td><td>
-
--   Image Processor Agent
--   Document and visual insights AI agent
-
-</td></tr><tr><td>
-
-Process task closure
-
-</td><td>
-
-Triages tickets for closure eligibility and guides through reviewing, documenting, and closing them.
-
-</td><td>
-
-Task Closure Eligibility AI Agent
+Problem investigator
 
 </td></tr><tr><td>
 
@@ -160,8 +102,8 @@ Suggests answers for survey questions.
 
 </td><td>
 
--   Survey response suggestion AI agent
--   Survey filling data collection AI agent
+-   Survey filling answer suggester
+-   Survey filling data collector
 
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read only.
@@ -176,18 +118,10 @@ To run the AI agents autonomously, you must either [activate the agentic workflo
 
 To find the tools mapped to AI agents used in the agentic workflows, you can perform the following steps:
 
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**
-2.  In the Agentic workflows tab, select the agentic workflow.
-3.  In the **Describe and connect** step of the guided setup, select the AI agent you want to see the tools for.
-4.  Go to the **Add tools and information** step.
-5.  Review the tools mapped to the AI agent.
-6.  Repeat for all AI agents in the agentic workflow.
-
-## Agentic workflows and UI actions
-
-To enable users to access agentic workflows with UI actions, you can open the agentic workflow in AI Agent Studio and navigate to the **Select channels and access** step. You can select a UI action as a possible way to access the workflow
-
-If you don't see your UI actions after configuring it in AI Agent Studio, ensure that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`.
-
-There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/find-ai-agents.md).
+-   Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**
+-   In the Agentic workflows tab, select the agentic workflow.
+-   In the **Describe and connect** step of the guided setup, select the AI agent you want to see the tools for.
+-   Go to the **Add tools and information** step.
+-   Review the tools mapped to the AI agent.
+-   Repeat for all AI agents in the agentic workflow.
 

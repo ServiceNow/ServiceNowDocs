@@ -55,7 +55,7 @@ You can create versions of these specific MID Server policy records that only a 
 
 By default, all records in these tables are members of the global domain. A user can override the default global domain and create a version of these policies for use in the user's own domain.
 
-**Note:** Attachments on MIB or JAR file records might not appear as they did in a non-domain separated environment. The attachments don't appear because the **Attachments** \[sys\_attachment\] table is data separated. When data is separated between domains, a record in a child domain can't access records in a parent domain.
+**Note:** Attachments on MIB or JAR file records might not appear as they did in a non-domain separated environment. The attachments do not appear because the **Attachments** \[sys\_attachment\] table is data separated. When data is separated between domains, a record in a child domain cannot access records in a parent domain.
 
 See [MID Server domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_MIDServerDomainSeparation.md) for instructions on setting up domain separation through the MID Server.
 

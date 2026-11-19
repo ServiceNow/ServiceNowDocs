@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Repair order fulfillment in the Hardware Asset Workspace, Manage repair of defective assets in your stockroom in the Hardware Asset Workspace, Repair and maintenance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage repair of defective assets in your stockroom in the Hardware Asset Workspace, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
 ---
 
 # Fulfill repair orders in the Hardware Asset Workspace
@@ -41,5 +41,12 @@ Cancel a repair order that no longer needs to be fulfilled.
 -   **[Cancel a repair order line in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/cancel-repair-order-line-ham-ws.md)**  
 Cancel a repair order line that no longer needs to be fulfilled.
 
-**Parent Topic:**[Repair order fulfillment in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/fulfilling-repair-orders-ham.md)
+**Parent Topic:**[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/manage-repair-of-defective-ham-assets.md)
+
+**Related topics**  
+
+
+[Request repair of defective hardware assets in your stockroom]()
+
+[Record time worked on asset repair tasks in the Hardware Asset Workspace]()
 

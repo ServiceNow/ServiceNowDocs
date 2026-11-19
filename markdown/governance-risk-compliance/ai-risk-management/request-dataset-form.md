@@ -7,9 +7,8 @@ release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-keywords: [request dataset form, dataset intake, dataset fields]
 breadcrumb: [Request a dataset, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -61,9 +60,7 @@ Data type
 
 </td><td>
 
-Data type to classify dataset. The following options are available.
-
--   **Image**
+Data type to classify dataset. The options are follows:-   **Image**
 -   **Table**
 -   **Text**
 -   **Video**

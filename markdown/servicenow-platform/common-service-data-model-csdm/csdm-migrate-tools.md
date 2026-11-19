@@ -1,26 +1,22 @@
 ---
-title: Assistance with the CSDM life-cycle synchronization process
-description: Several features help you to promote accuracy and completeness for the process of synchronizing legacy data with life-cycle data in the CSDM framework.
+title: Assistance with the CSDM life-cycle sync process
+description: Several features help you to ensure accuracy and completeness for the process of syncing legacy data with life-cycle data in the CSDM framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-migrate-tools.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Synchronize existing data, Configure, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Sync existing data, Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Assistance with the CSDM life-cycle synchronization process
+# Assistance with the CSDM life-cycle sync process
 
-Several features help you to promote accuracy and completeness for the process of synchronizing legacy data with life-cycle data in the CSDM framework.
+Several features help you to ensure accuracy and completeness for the process of syncing legacy data with life-cycle data in the CSDM framework.
 
-## Before you perform the life-cycle synchronization process
-
--   **Legacy status values that are auto-updated**
-
-    Several legacy statuses are automatically mapped to the **Life Cycle Stage** and **Life Cycle Stage Status** fields. For more information, see [Legacy status values that are auto-updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-status-auto-updated.md).
+## Before you perform the life-cycle sync process
 
 -   **Data migration script**
 
@@ -33,7 +29,7 @@ Several features help you to promote accuracy and completeness for the process o
     -   CMDB dashboard: Each tab provides key metrics that evaluate configuration and customizations in the CMDB.
     -   The metrics provide visible results of evaluation. Color codes and weighted priority help with planning.
     -   Each metric includes a link to a remediation playbook with background and plays for remediation.
-    See [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
+    See [Monitor system foundations in the CSDM and the CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
 
 -   **CSDM Data Foundations dashboard**
 
@@ -49,15 +45,15 @@ Several features help you to promote accuracy and completeness for the process o
 
     If you already have CSDM data but not in the recommended tables, you can run a script to identify dependencies that you may have created on the nonconforming tables. The results of the script identify referenced dependencies such as reports, UI scripts, business rules, and other references for a specified table \(editable in the script\). See this [post on the Now Community site](https://www.servicenow.com/community/common-service-data-model/migrating-into-csdm-identifying-table-dependencies/ta-p/2308617)
 
--   **The life-cycle synchronization process presents the discrepancy report**
+-   **The life-cycle sync process presents the discrepancy report**
 
-    When you start the synchronization process, the discrepancy report [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md) helps you to isolate and remediate mapping issues or missing data issues before proceeding with migration and synchronization. The report identifies issues and presents links that take you to the mappings that must be resolved before you can synchronize the data.
+    When you start the sync process, the discrepancy report [Enabling CSDM life-cycle sync between legacy fields and related assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md) helps you to isolate and remediate mapping issues or missing data issues before proceeding with migration and syncing. The report identifies issues and presents links that take you to the mappings that must be resolved before you can sync the data.
 
 
-**Parent Topic:**[Migrate and synchronize existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/migrate.md)
+**Parent Topic:**[Migrate and sync existing data to the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/migrate.md)
 
 **Related topics**  
 
 
-[Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)
+[Enabling CSDM life-cycle sync between legacy fields and related assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md)
 

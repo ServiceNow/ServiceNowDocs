@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_CreateATemplateUsingTheTmplForm.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Form templates, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Using form templates, Administering forms, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a template using the Template form
@@ -20,9 +20,9 @@ Role required: template\_editor\_global or admin
 
 ## About this task
 
-\[Omitted video\] Description: Create a template using the Template form.
+Templates allow users to more quickly and uniformly complete records.
 
-Templates enable users to more quickly and uniformly complete records.
+The video above shows you how to complete the procedure below to create a template using the Template form.
 
 ## Procedure
 
@@ -116,6 +116,10 @@ Template that links a child table with the template for the parent table. In the
 </table>4.  Select **Submit**.
 
 
+## What to do next
+
+See [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationScope.md).
+
 **Parent Topic:**[Using form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_Templates.md)
 
 **Related topics**  
@@ -125,7 +129,7 @@ Template that links a child table with the template for the parent table. In the
 
 [Create a template by saving a form]()
 
-[Schedule record creation from a template]()
+[Create records based on a template]()
 
 [Create a module for a template]()
 

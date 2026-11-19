@@ -1,5 +1,5 @@
 ---
-title: Enforce SOAP request strict security
+title: Enforce SOAP request strict security \[Updated in Security Center 1.3\]
 description: Use the glide.soap.strict\_security property to enforces web service security.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-soap-request-strict-security.html
@@ -7,18 +7,27 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2025-01-30"
+reading_time_minutes: 2
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enforce SOAP request strict security
+# Enforce SOAP request strict security \[Updated in Security Center 1.3\]
 
 Use the **glide.soap.strict\_security** property to enforces web service security.
 
-If the **glide.soap.strict\_security** system property is not set to the recommended value of **true**, then users do not need a SOAP role to make requests of non-public pages when the high security or web service plugin is installed.
+This property uses a combination of:
 
-Ensure the property **glide.soap.strict\_security** is set to **true**.
+-   Basic authentication challenge/response over the HTTP protocol and
+-   System level access controls in the [Enable security jump start plugin \(ACL Rules\) \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-security-jump-start-plugin-acl-rules.md).
+
+If you set this property to **true**, it performs the following actions:
+
+-   If the user has appropriate role to perform the operation, it checks incoming SOAP request for role authorization to validate. It occurs during SOAP web service calls/requests made against ServiceNow AI Platform tables when performing CREATE, READ, UPDATE or DELETE operations.
+-   Checks the system-level ACLs while retrieving data in the form of SOAP data on the table.
+-   Checks the field-level ACLs for any CRUD operation performed against a field of table.
+
+ACL checks are only complete for standard Table API calls and not web services.
 
 ## More information
 
@@ -32,7 +41,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Configuration name
+Property name
 
 </td><td>
 
@@ -48,19 +57,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Data type
+Category
 
 </td><td>
 
-Boolean
-
-</td></tr><tr><td>
-
-Recommended value
-
-</td><td>
-
-true
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
@@ -72,7 +73,7 @@ true
 
 </td></tr><tr><td>
 
-Fallback value
+Recommended value
 
 </td><td>
 
@@ -80,11 +81,11 @@ true
 
 </td></tr><tr><td>
 
-Category
+Functional impact
 
 </td><td>
 
-[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
+This remediation enforces the system-level access control while retrieving data from tables/pages in the form of SOAP data on the instance. If there are users currently accessing this data, they are restricted/allowed to access the data based on the ACL rules. For the default roles that have access to the SOAP data, see [SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/c_SOAPWebService.md).
 
 </td></tr><tr><td>
 
@@ -92,28 +93,20 @@ Security risk
 
 </td><td>
 
--   Severity score: 6.8
--   CVSS rating: Medium
--   Security risk details: An unauthorized user can get access to sensitive content/data on the target instance.
+\(Moderate\) Without appropriate authorization configured on the incoming SOAP requests, an unauthorized user can get access to sensitive content/data on the target instance.
 
 </td></tr><tr><td>
 
-Functional impact
+References
 
 </td><td>
 
-None
+[Enforce strict security for inbound SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/t_EnforceStrictSecurityWebSvcConns.md)
 
-</td></tr><tr><td>
-
-Dependencies and prerequisites
-
-</td><td>
-
-None
+ [SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/c_SOAPWebService.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see .
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

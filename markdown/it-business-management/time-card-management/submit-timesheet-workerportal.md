@@ -7,7 +7,7 @@ release: yokohama
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Time Sheet Portal, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Once you update the time sheet with time worked for a given week, submit it for 
 
 ## Before you begin
 
-Role required: timecard\_user
+Role required: timecard\_ user
 
 ## About this task
 

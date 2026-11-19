@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Complaint Management, Common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Complaint Management, Using common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Using Financial Services Complaint Management
@@ -64,7 +64,7 @@ Complaint admin
 
 </td><td>
 
-Configures the complaint workspace as per business requirements. For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
+Configures the complaint workspace as per business requirements. For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr></tbody>
 </table>## Automated workflow
@@ -83,5 +83,5 @@ Using the case playbook, complaint agents review and work on their cases and tas
 
 Performance Analytics give business owners an insight into how the team and business is performing. A dashboard with pre-configured reports and customizable views is available with the application.
 
-For more information, see [Complaint Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-complaint-mgmt-dashboard.md).
+For more information, see [Complaint Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-complaint-management/fso-complaint-mgmt-dashboard.md).
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/case-sentiment-analysis-configure.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Configure, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
+breadcrumb: [Configure Task Intelligence for Customer Service, Task Intelligence for Customer Service, Machine learning solutions for Customer Service Management, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Configure Sentiment Analysis
@@ -43,7 +43,7 @@ The Task Intelligence for Customer Service application enables customers to leve
  This application automatically activates the following plugins:
 
 -   Predictive Intelligence for Customer Service Management \(com.snc.csm\_ml\)
--   Case Management Core \(com.sn\_customerservice\)
+-   Customer Service \(com.sn\_customerservice\)
 -   Skills Management \(com.snc.skills\_management\)
 -   Dynamic Translation \(com.glide.dynamic\_translation\)
 -   ServiceNow Language Detection Service Spoke \(com.glide.language\_detection\_spoke\)
@@ -85,9 +85,9 @@ The sentiment analysis feature uses the following fields to display sentiment pr
 -   Current sentiment
 -   Sentiment over time
 
-Add the sentiment fields to Case list views and to the Case form for CRM Workspace, CSM Agent Workspace, and Core UI.
+Add the sentiment fields to Case list views and to the Case form for CSM Configurable Workspace, CSM Agent Workspace, and Core UI.
 
--   In CRM Workspace, these fields appear as secondary values in the configurable form header. You can configure secondary values to display either below the primary value at the top of the form or in the Record Information tab in the contextual side panel. \(For more information, see [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-display-header-in-sidebar.md).\)
+-   In CSM Configurable Workspace, these fields appear as secondary values in the configurable form header. You can configure secondary values to display either below the primary value at the top of the form or in the Record Information tab in the contextual side panel. \(For more information, see [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-display-header-in-sidebar.md).\)
 -   In CSM Agent Workspace, these fields appear in the Case form header.
 -   In Core UI, these fields appear on the Case form.
 

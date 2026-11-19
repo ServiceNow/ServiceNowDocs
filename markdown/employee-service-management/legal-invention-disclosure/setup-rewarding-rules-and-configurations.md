@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Configure, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configuring Legal Invention Disclosure, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
 ---
 
 # Set up optional inventor rewards in Legal Invention Disclosure
@@ -164,5 +164,5 @@ The status of the application at which the inventor should be rewarded.The stage
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
+**Parent Topic:**[Configuring Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
 

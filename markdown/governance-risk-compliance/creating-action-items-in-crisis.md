@@ -1,28 +1,28 @@
 ---
 title: Creating action items in crisis events
-description: Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams during open crisis events or exercises.
+description: Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime during a crisis event or exercise, as long as the event remains open. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/creating-action-items-in-crisis.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Creating action items in crisis events
 
-Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams during open crisis events or exercises.
+Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime during a crisis event or exercise, as long as the event remains open. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
 
 ## Action items in real-time
 
-Action items can be used to assign tasks in real-time. For example, verify no injuries at an office location or request a business continuity plan review.
+Action items can be used to assign tasks in real-time. For example, a crisis manager can assign an action item to verify that there are no injuries at a specific office location after an exercise or they can request someone to review the business continuity plan before proceeding to the next steps.
 
 You can also use action items to conduct assessments during a crisis event. For example, in the event of a fire, you can assign an action item to assess the situation, determining the severity, and identify affected employees and buildings. You can perform an assessment and assign an action item.
 
 ## Fields and states associated with Action items
 
-The Action items tab contains details related to the ad-hoc tasks:
+The Action items tab contains the following details related to the ad-hoc tasks:
 
 -   Actual start date
 -   Actual end date
@@ -35,11 +35,8 @@ The Action items tab contains details related to the ad-hoc tasks:
 -   Type
 -   Task
 -   Assessment
--   Collaboration thread
 
-The **Collaboration thread** field references the collaboration thread that an action item is created from. Action items created from a collaboration thread's **Action items** tab are automatically linked to the collaboration thread's parent crisis event. For more information about collaboration threads, see [Creating collaborations in exercises and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/creating-collaboration-threads-in-crisis.md).
-
-The states associated with action items are described in the table.
+The following workflow \(states\) is associated with action items.
 
 |State|Description|
 |-----|-----------|
@@ -50,7 +47,7 @@ The states associated with action items are described in the table.
 
 BCM managers or planners can update the action items and can reopen the ad-hoc tasks associated with them.
 
-You can assign the action item tasks to the groups or team members by using these fields:
+You can assign the action item tasks to the groups or team members by using the following fields:
 
 -   **Assignment group**
 -   **Assigned to**
@@ -58,7 +55,7 @@ You can assign the action item tasks to the groups or team members by using thes
 
 ## Comparison between event tasks and action items
 
-The action items are distinct from the event tasks in crises and events. The table outlines the differences between event tasks and action items.
+The action items are distinct from the event tasks in crises and events. The following table outlines the differences between event tasks and action items.
 
 <table id="table_gtp_vfc_zfc"><thead><tr><th>
 
@@ -187,7 +184,7 @@ No, the event tasks time is not rolled up for the action item tasks.
 </td></tr></tbody>
 </table>## Roles associated with action items
 
-The roles associated with action items are described in the table.
+The following roles are associated with action items.
 
 |Role|Description|
 |----|-----------|
@@ -196,8 +193,6 @@ The roles associated with action items are described in the table.
 |Viewers|Can read all action items.|
 |Recovery event/Plan owner|Can read and update all action items that they are assigned to.|
 
--   **[Action item collaborator synchronization with Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/action-item-collaborators-smart-assessment-sync.md)**  
-When users are assigned to a recovery action item, they are automatically synced as collaborators on the linked Smart Assessment instance.
 -   **[Create task and assessment-type action items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-action-items-based-on-smart-assessments.md)**  
 Use integration of crisis events and Smart Assessment for creating necessary action items related to the crisis event. The action items can be of task and assessment type.
 

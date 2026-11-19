@@ -1,5 +1,5 @@
 ---
-title: RIDAC form fields
+title: RIDAC form
 description: Learn about the fields of the RIDAC form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-management/ridac-forms.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 7
-breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Form field information for Project Management, Reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# RIDAC form fields
+# RIDAC form
 
 Learn about the fields of the RIDAC form.
 
@@ -645,5 +645,4 @@ Work notes
 Additional information to indicate progress on the project request change.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/form-field-information-for-project-management.md)
-
+</table>

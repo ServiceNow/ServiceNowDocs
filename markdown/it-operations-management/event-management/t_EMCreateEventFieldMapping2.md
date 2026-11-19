@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 14
-breadcrumb: [Event field mapping configuration, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event field mapping configuration, Processing Events, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Create event field mappings
@@ -23,8 +23,6 @@ Role required: evt\_mgmt\_admin
 ## About this task
 
 Create the rule to match the event by its class and original values. Also, specify the new values to replace the original values in the event.
-
-For users familiar with the classic Event Management experience, enrich automations create event rules but with an easier interface and with better team support. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 ## Procedure
 
@@ -105,7 +103,7 @@ Copies part of the Source field value to the Target field. Source and Target fie
 
 -   **Advanced mapping using script**:
 
-Implements your own logic for event values transformation by using a script. When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase. The dedicated script also has the sys\_id of the CI in the input parameters.
+Implements your own logic for event values transformation by using a script. When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase and uses the dedicated script that also has the sys\_id of the CI in the input parameters.
 
 **Warning:** Complex scripts may affect event processing performance.
 
@@ -120,8 +118,6 @@ Filter
 </td><td>
 
 A condition for event field mapping.Select **Add Filter Condition** or **Add "OR" Clause** to configure multiple conditions.
-
-**Note:** The filter is case-sensitive.
 
 </td></tr><tr><td>
 
@@ -468,7 +464,7 @@ Run after binding
 
 </td><td>
 
-When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase. The dedicated script also has the sys\_id of the CI in the input parameters.
+When the 'Run after binding' check box is selected, the rule is executed after the CI binding phase and uses the dedicated script that also has the sys\_id of the CI in the input parameters.
 
  **Warning:** Complex scripts may affect event processing performance.
 

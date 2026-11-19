@@ -1,20 +1,20 @@
 ---
 title: Add a space type configuration
-description: Configure the different types of workspaces available in a workplace. You can add spaces based on different space types \(Workspace/Desk\). Space type enables employee to identify the different types of workspace available on a floor
+description: Configure the different types of spaces available in your workplace. You can add spaces based on different space types. The space types enable your employee to identify the different types of spaces that are available on a floor in a Mappedin floor map
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-core/add-space-type-configuration-wsd.html
 release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add a space type configuration
 
-Configure the different types of workspaces available in a workplace. You can add spaces based on different space types \(Workspace/Desk\). Space type enables employee to identify the different types of workspace available on a floor
+Configure the different types of spaces available in your workplace. You can add spaces based on different space types. The space types enable your employee to identify the different types of spaces that are available on a floor in a Mappedin floor map
 
 ## Before you begin
 
@@ -22,9 +22,7 @@ Role required:sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workplace Core** &gt; **Administration** &gt; **Space type configuration**.
-
-    The Space Types page opens.
+1.  Navigate to **All** &gt; **Workplace Safety Management** &gt; **Administration** &gt; **Space type configuration**.
 
 2.  Select **New**.
 
@@ -35,7 +33,7 @@ Role required:sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
     |Name|Descriptive name of the space type.|
     |Code|Code for the space type. The code can also be a name.|
     |Table|Table of the space type. The field is automatically set to **Space \[sn\_wsd\_core\_space\]**. If the space type is a room, select **Room \[sn\_wsd\_core\_room\]**.|
-    |Application|Application of the space type. This field is automatically set. For example: Workplace Concierge|
+    |Application|Application of the space type. This field is automatically set. Make sure that **Workplace Safety Management** is selected.|
     |Active|Option to activate the space type.|
     |Available for|Option to specify the type of users for whom the space type is available.|
 
@@ -58,8 +56,6 @@ The space type is configured. You can select this space type while creating a sp
 [Block a workplace location]()
 
 [Configure Workplace entity and entity types]()
-
-[Managing Neighborhoods]()
 
 [Enable favorites option for Workplace Service Portal]()
 
@@ -87,5 +83,5 @@ The space type is configured. You can select this space type while creating a sp
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 

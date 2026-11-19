@@ -7,9 +7,9 @@ release: yokohama
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Create a data source, Data sources, Import sets, Imports, Workflow Data Fabric]
+breadcrumb: [Create a data source, Data sources, Import sets, Imports, Data and Automation]
 ---
 
 # Create an OIDC type data source

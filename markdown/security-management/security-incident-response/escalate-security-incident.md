@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,13 +28,17 @@ You must have an escalation group created to see this button. See [Create a Secu
 
 2.  Open the incident you want to escalate.
 
-3.  Select the **Escalate** button.
+3.  Click on the **Escalate** button.
+
+    \[Omitted image "EscalateButton.png"\] Alt text: Escalate button
 
 4.  Choose an escalation group.
 
 5.  Enter a reason for the escalation.
 
-6.  Select **Submit.**
+    \[Omitted image "EscalateForm.png"\] Alt text: Escalate
+
+6.  Click **Submit.**
 
     Updates **Assignment Group** and **Assigned to** on the security incident.
 

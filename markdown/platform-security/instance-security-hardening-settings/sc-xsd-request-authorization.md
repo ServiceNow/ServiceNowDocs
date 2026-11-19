@@ -1,5 +1,5 @@
 ---
-title: Require Authorization for XSD Requests
+title: Require Authorization for XSD Requests \[Updated in Security Center 1.3\]
 description: Use the glide.basicauth.required.xsd property to designate if incoming XSD \(XML Schema Definition\) requests should require basic authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-xsd-request-authorization.html
@@ -7,22 +7,20 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [API and web service, Hardening settings, Platform Security]
 ---
 
-# Require Authorization for XSD Requests
+# Require Authorization for XSD Requests \[Updated in Security Center 1.3\]
 
 Use the **glide.basicauth.required.xsd** property to designate if incoming XSD \(XML Schema Definition\) requests should require basic authentication.
 
-The **glide.basicauth.required.xsd** system property controls whether authentication is required to make a XSD request to an instance. If **glide.basicauth.required.xsd** is not set to the recommended value of **true**, then authentication is turned off for XSD requests on the instance.
-
-Ensure the property **glide.basicauth.required.xsd** exists in the System Properties \[sys\_properties\] table and is set to **true**.
-
-**Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
+Ensure the property **glide.basicauth.required.xsd** exists in the sys\_properties table and is set to true.
 
 ## More information
+
+**Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
 <table id="table_ajc_b43_3kb"><thead><tr><th>
 
@@ -34,11 +32,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Configuration name
+Property name
 
 </td><td>
 
-**glide.basicauth.required.xsd**
+glide.basicauth.required.xsd**glide.basicauth.required.xsd**
 
 </td></tr><tr><td>
 
@@ -50,11 +48,19 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Data type
+Category
 
 </td><td>
 
-Boolean
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+
+</td></tr><tr><td>
+
+Purpose
+
+</td><td>
+
+To enforce basic authentication on XSD requests.
 
 </td></tr><tr><td>
 
@@ -66,27 +72,22 @@ true
 
 </td></tr><tr><td>
 
-Default value
+Security risk rating
 
 </td><td>
 
-TRUE
+5.3
 
 </td></tr><tr><td>
 
-Fallback value
+Functional Impact
 
 </td><td>
 
-false
+This remediation enforces a combination of authentication methods, in the form of basic authentication and system level access control. -   It performs this authentication while retrieving data from tables/pages in the form of XSD data on the instance.
+-   It restricts any guest users who are currently accessing this data. If applicable, you may need to create a new account for users who need access to this content, with necessary access control permissions.
 
-</td></tr><tr><td>
-
-Category
-
-</td><td>
-
-[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+ To learn more, see [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_NonInteractiveSessions.md).
 
 </td></tr><tr><td>
 
@@ -94,28 +95,15 @@ Security risk
 
 </td><td>
 
--   Severity score: 5.3
--   CVSS rating: Medium
--   Security risk details: This property allows unauthenticated access to XSD processor leaking sensitive information.
+\(Moderate\) Without appropriate authorization configured on the incoming XSD requests, an unauthorized user can get access to sensitive content/data on the target instance.
 
 </td></tr><tr><td>
 
-Functional impact
+References
 
 </td><td>
 
-This remediation enforces a combination of authentication methods, in the form of basic authentication and system level access control. -   It performs this authentication while retrieving data from tables/pages in the form of XSD data on the instance.
--   It restricts any guest users who are currently accessing this data. If applicable, you may need to create a new account for users who need access to this content, with necessary access control permissions.
-
- To learn more, see Non-interactive sessions.
-
-</td></tr><tr><td>
-
-Dependencies and prerequisites
-
-</td><td>
-
-None
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_Authentication.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-api-web-service.md)

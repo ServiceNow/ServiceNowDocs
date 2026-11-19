@@ -7,7 +7,7 @@ release: yokohama
 product: Problem Management
 classification: problem-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Reference section for Problem Management, Problem Management, IT Service Management]
 ---
@@ -166,7 +166,7 @@ Create saved problemcom.snc.problem.create\_from\_interaction.save
 
 </td><td>
 
--   Type: true or false
+-   Type: Boolean
 -   Default value:
     -   Upgrade customers: No
     -   New customers: Yes

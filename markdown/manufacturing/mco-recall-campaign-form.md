@@ -1,22 +1,22 @@
 ---
 title: Recall campaign form
-description: The recall campaign form provides the original equipment manufacturer \(OEM\) with the required information to initiate a recall campaign.
+description: The recall campaign form enables the OEM to create a recall campaign.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-recall-campaign-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
+breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
 ---
 
 # Recall campaign form
 
-The recall campaign form provides the original equipment manufacturer \(OEM\) with the required information to initiate a recall campaign.
+The recall campaign form enables the OEM to create a recall campaign.
 
 <table id="table_xbz_nb3_wfc"><thead><tr><th>
 
-Field
+Fields
 
 </th><th>
 
@@ -56,19 +56,11 @@ Serial number of the product for which the recall campaign is created.
 
 </td></tr><tr><td>
 
-Minimum parts availability percentage
-
-</td><td>
-
-The minimum percentage of parts that must be available.
-
-</td></tr><tr><td>
-
 State
 
 </td><td>
 
-The recall campaign state. The default is draft.
+Product state. This field is automatically fetched based on the product number.
 
 </td></tr><tr><td>
 
@@ -130,19 +122,17 @@ Detailed issues for which the product is recalled.
 
 </td></tr><tr><td>
 
-Recall campaign Work notes
+Work notes
 
 </td><td>
 
 Additional notes, if any.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/repair-form.md)
-
-**Related topics**  
+</table>**Related topics**  
 
 
-[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-my-campaigns.md)
+[My campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-my-campaigns.md)
 
-[View All campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-all-campaigns.md)
+[All campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-all-campaigns.md)
 

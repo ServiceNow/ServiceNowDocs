@@ -1,46 +1,44 @@
 ---
-title: Configure install base item
-description: Create and configure install base item records to track sold products and assets associated with customer accounts.
+title: Create an install base item
+description: Create an install base item that represents the instance of the product that has been configured for a customer The install base item enables you to track all the purchases that were made by a customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-create-install-base-item.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Initial setup, Configure, Manufacturing Commercial Operations]
+breadcrumb: [Create a warranty contract, Set up Manufacturing Commercial Operations, Configuring Manufacturing Commercial Operations, Manufacturing Commercial Operations]
 ---
 
-# Configure install base item
+# Create an install base item
 
-Create and configure install base item records to track sold products and assets associated with customer accounts.
+Create an install base item that represents the instance of the product that has been configured for a customer The install base item enables you to track all the purchases that were made by a customer.
 
 ## Before you begin
 
-Role required: admin or sn\_customerservice\_manager
+Verify that the Customer Service Install Base Management plugin \(com.snc.install\_base\) is installed.
+
+Role required: admin
 
 ## About this task
 
-Install base items represent the products and assets sold to customers. Each install base item links to a corresponding asset record and maintains critical customer and service organization information. Setting up accurate install base items enables proper asset tracking and service delivery.
+Install base items help to track instances that have been provisioned for an account or customer. An install base item can be any configuration item that has been made accessible to customers. The install base item enables you to track all the purchases that were made by a customer.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace**.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **MCO Setup** &gt; **Install Base Items**.
 
-2.  Select the List icon.
+2.  Select **New**.
 
-3.  Navigate to **MCO Setup** &gt; **Install Base Items**.
-
-4.  Select **New**.
-
-5.  On the Install base item form, fill in the fields.
+3.  On the Install based item form, fill in the fields.
 
     For a description of the field values, see [Install based item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/install-based-item-form.md).
 
-6.  Select **Save**.
+4.  Select **Save**.
 
     The Sold Products, Entitlements, and Cases related lists are displayed.
 
-7.  Fill out the related lists as described in the following table.
+5.  Fill out the related lists as described in the following table.
 
 <table id="table_zch_sgz_3hb"><thead><tr><th>
 
@@ -52,7 +50,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Child Install Base Items
+Child Install Base items
 
 </td><td>
 
@@ -64,7 +62,7 @@ Sold Products
 
 </td><td>
 
-List of the sold products that are associated with an install base item. Edit a sold product by selecting **Edit**.
+List of the sold products that are associated with an install base Item. Edit a sold product by selecting **Edit**.
 
 </td></tr><tr><td>
 
@@ -93,9 +91,7 @@ List of contracts that are related to an install base. Edit a contract by select
 </td></tr></tbody>
 </table>    For more information on the related lists, see [Related list for an install base item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/install-base-related-list.md).
 
-8.  Select **Update**.
-
-    For more information on importing install base items, see [Import install base items with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/import-csm-install-base-items.md).
+6.  Select **Update**.
 
 
 ## Result

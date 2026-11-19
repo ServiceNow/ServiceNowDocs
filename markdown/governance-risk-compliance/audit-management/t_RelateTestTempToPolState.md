@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Audit Test Template and Plans, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage test templates and test plans, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Relate a test template to a control objective
@@ -26,7 +26,7 @@ Role required: sn\_audit.admin or sn\_audit.manager
 
 2.  Open the test template record.
 
-3.  Select a control objective and select **Update**.
+3.  Select a control objective and click **Update**.
 
     \[Omitted image "audit-test-template-c-b.png"\] Alt text: Test template control objectives update.
 

@@ -1,49 +1,45 @@
 ---
-title: Apply process step filter on a pre-defined filter
-description: Apply a process step filter on a selected node or connection.
+title: Apply transition filter on a pre-defined filter
+description: Apply a transition filter on a selected node or connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/apply-transitionfilter.html
 release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Applying a process step filter on an activity, Filtering project data, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
+breadcrumb: [Apply a transition filter on an activity, Filtering project data, Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
 ---
 
-# Apply process step filter on a pre-defined filter
+# Apply transition filter on a pre-defined filter
 
-Apply a process step filter on a selected node or connection.
+Apply a transition filter on a selected node or connection.
 
 ## Before you begin
 
-Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
+Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-2.  Open a project for which you want to set the process step filter.
+2.  Open a project for which you want to set the transition filter.
 
-3.  Go to the **Analyst workbench** tab.
+3.  Go to the **Analyst Workbench** tab.
 
 4.  Select a node or connection on the graph.
 
-    A window with details is displayed.
+    The Metrics window is displayed.
 
-5.  Select **Investigate &gt; Filter on process step** from the window under the **Investigate** section.
+5.  Select **Investigate &gt; Filter on transition** from the Metrics window.
 
     \[Omitted image "transition-location-2.png"\] Alt text: Add activity conditions using the Transitions filter
 
-    The Process step filter dialog box is displayed.
-
-6.  Provide the filter, and select **Apply**.
-
     The task runs in the background.
 
-7.  When the task completes, select **View result** in the Scheduled tasks panel of Analyst workbench.
+6.  When the task completes, select **View result** in the Scheduled tasks panel of the Analyst Workbench.
 
 
-**Parent Topic:**[Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/node-to-node-conditions.md)
+**Parent Topic:**[Apply a transition filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/node-to-node-conditions.md)
 

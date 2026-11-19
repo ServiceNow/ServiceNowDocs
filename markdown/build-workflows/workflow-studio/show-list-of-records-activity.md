@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Interactive activities, Playbooks reference, Workflow Studio reference, Workflow Studio, Build workflows]
 ---
 
 # Show List of Records activity
@@ -198,4 +198,6 @@ These outputs can provide data to other activities in your playbook. You can acc
 |------|----|-----------|
 |Record|Reference.Task \[task\]|Reference to the record associated with the activity.|
 |Fields|String|Comma-separated list of system field names to display as columns in the list.|
+
+**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/interactive-activities.md)
 

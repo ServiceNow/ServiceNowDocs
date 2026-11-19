@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/list-filter-sorting-attributes.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure sorting capabilities, Mobile list screen filters, List screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
+breadcrumb: [Configure sorting capabilities within mobile filters, Mobile list screen filters, List screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
 # Configure sorting display options for mobile filters
@@ -30,15 +30,15 @@ Role required: admin
 
 4.  Define attributes to configure for the selected item sorting.
 
-<table id="choicetable_cl5_cp2_1qb"><thead><tr><th align="left" id="d37066e91">
+<table id="choicetable_cl5_cp2_1qb"><thead><tr><th align="left" id="d35744e85">
 
 Attribute option
 
-</th><th align="left" id="d37066e94">
+</th><th align="left" id="d35744e88">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d37066e100">
+</th></tr></thead><tbody><tr><td id="d35744e94">
 
 **Define the ascending label**
 
@@ -49,7 +49,7 @@ Action
 3.  Right-click in the header and select **Save**.
 
 
-</td></tr><tr><td id="d37066e136">
+</td></tr><tr><td id="d35744e130">
 
 **Define the descending label**
 
@@ -60,7 +60,7 @@ Action
 3.  Right-click in the header and select **Save**.
 
 
-</td></tr><tr><td id="d37066e172">
+</td></tr><tr><td id="d35744e166">
 
 **Hide the ascending/descending suffix**
 
@@ -73,7 +73,7 @@ Action
 3.  Right-click in the header and select **Save**.
 
 
-</td></tr><tr><td id="d37066e217">
+</td></tr><tr><td id="d35744e211">
 
 **Display either ascending/descending option**
 

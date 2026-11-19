@@ -1,5 +1,5 @@
 ---
-title: Duplicate a playbook
+title: Duplicate Playbooks
 description: Make a copy of an existing playbook with the same trigger, stages, activities, and experience configurations as the original. Edit the duplicated playbook to quickly create a working variation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/duplicate-process.html
@@ -7,20 +7,20 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks in Workflow Studio, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
 ---
 
-# Duplicate a playbook
+# Duplicate Playbooks
 
 Make a copy of an existing playbook with the same trigger, stages, activities, and experience configurations as the original. Edit the duplicated playbook to quickly create a working variation.
 
 ## Before you begin
 
--   [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/activate-process-automation-designer.md) for your appropriate application.
+-   [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/activate-process-automation-designer.md) for your appropriate application.
 -   Familiarize yourself with the tables and relationships that your application uses for the playbook that you want to create.
--   Make sure to Familiarize yourself with any features that your business uses to automate operations on the ServiceNow AI Platform, such as [flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-flows.md), [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-subflows.md), and [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-actions.md).
+-   Make sure to familiarize yourself with any features that your business uses to automate operations on the ServiceNow AI Platform, such as [flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-flows.md), [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-subflows.md), and [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-actions.md).
 -   Learn how to [get started with ServiceNow® Process Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/getting-started-process-automation.md).
 -   Role required: admin or playbook.admin
 
@@ -44,7 +44,7 @@ Make a copy of an existing playbook with the same trigger, stages, activities, a
 
 5.  Fill in the playbook properties.
 
-<table id="choicetable_ndc_pgy_5lb"><tbody><tr><td id="d160921e215">
+<table id="choicetable_ndc_pgy_5lb"><tbody><tr><td id="d149464e217">
 
 **Label**
 
@@ -52,7 +52,7 @@ Make a copy of an existing playbook with the same trigger, stages, activities, a
 
 Enter a unique, user-facing name for your playbook. This name appears during playbook runtime.
 
-</td></tr><tr><td id="d160921e230">
+</td></tr><tr><td id="d149464e232">
 
 **Application**
 
@@ -60,7 +60,7 @@ Enter a unique, user-facing name for your playbook. This name appears during pla
 
 Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationScope.md).
 
-</td></tr><tr><td id="d160921e252">
+</td></tr><tr><td id="d149464e254">
 
 **Description**
 
@@ -68,7 +68,7 @@ Choose an application scope that you want your playbook to run in. Selecting **G
 
 Optionally, enter some descriptive details about your playbook.
 
-</td></tr><tr><td id="d160921e264">
+</td></tr><tr><td id="d149464e266">
 
 **Trigger type**
 
@@ -76,7 +76,7 @@ Optionally, enter some descriptive details about your playbook.
 
 Specify what causes your trigger to fire.
 
-</td></tr><tr><td id="d160921e273">
+</td></tr><tr><td id="d149464e275">
 
 **Table**
 
@@ -90,5 +90,18 @@ The table with the record operations that you want to trigger your playbook. Thi
 7.  Select **Save**.
 
 
-**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/creating-managing-playbooks.md)
+**Parent Topic:**[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-definitions.md)
+
+**Related topics**  
+
+
+[Create a playbook]()
+
+[Playbook variants]()
+
+[Test a playbook]()
+
+[Restart]()
+
+[Add translations for playbooks]()
 

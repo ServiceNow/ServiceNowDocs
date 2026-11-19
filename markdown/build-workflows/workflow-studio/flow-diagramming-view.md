@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Exploring flows, Exploring Workflow Studio, Workflow Studio, Build workflows]
 ---
 
 # Flow diagramming view
@@ -154,4 +154,6 @@ The flow diagramming view supports a limited selection of flow components. Workf
     -   REST API - Asynchronous
     -   Service Catalog
     -   SLA Task
+
+**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-flows.md)
 

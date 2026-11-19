@@ -1,5 +1,5 @@
 ---
-title: Enable or disable seismic appointment booking calendar
+title: Enable or disable seismic Appointment Booking calendar
 description: Use the seismic appointment booking calendar across all user interfaces to ensure a consistent and seamless scheduling experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/enable-or-disable-seismic-appointment-booking-calendar.html
@@ -7,22 +7,22 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
 ---
 
-# Enable or disable seismic appointment booking calendar
+# Enable or disable seismic Appointment Booking calendar
 
 Use the seismic appointment booking calendar across all user interfaces to ensure a consistent and seamless scheduling experience.
 
 ## Before you begin
 
-Role required: appointment\_booking\_admin
+Role required: admin
 
 ## About this task
 
-Seismic appointment booking calendar is enabled by default.
+Seismic Appointment Booking calendar is enabled by default, but can be disabled if required.
 
 Enhance scheduling support for appointment slot recommendations, customized themes, and an improved user interface.
 

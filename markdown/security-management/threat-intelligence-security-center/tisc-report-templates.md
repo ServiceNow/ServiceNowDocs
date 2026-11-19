@@ -7,9 +7,8 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-keywords: [report templates, case reports, Executive Summary report, Threat Intelligence Tipper, CTI reporting]
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

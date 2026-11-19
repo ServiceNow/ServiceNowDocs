@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 7
-breadcrumb: [Reference, App Engine Studio, Developing your application, Classic app development, Building applications]
+breadcrumb: [App Engine Studio reference, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Supported features and metadata in custom templates

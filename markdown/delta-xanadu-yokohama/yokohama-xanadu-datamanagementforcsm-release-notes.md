@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-datamanagementforcsm-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -201,7 +201,7 @@ You can now select multiple sold products at the same time to trigger the **Susp
 You can now use the sales and order management API to support use cases for order reconfiguration. To learn more about reconfiguration, see [LeadtoCashCore - Scoped](https://www.servicenow.com/docs/access?context=LeadToCashCoreAPI&family=xanadu&ft:locale=en-US).
 
 
--   **[\[Placeholder link text to key update\_product\_inventory\_configurations\]](https://www.servicenow.com/docs/access?context=update_product_inventory_configurations&family=xanadu&ft:locale=en-US)**
+-   **[update product inventory configurations](https://www.servicenow.com/docs/access?context=update_product_inventory_configurations&family=xanadu&ft:locale=en-US)**
     -   Perform **Modify**, **Suspend**, **Resume**, and **Disconnect** actions on product inventory records from the Product Inventories related list.
 
 **Note:** The Product Inventories related list is available only from the Yokohama release. If you're using the Washington or Xanadu versions, you can manually add the related list.

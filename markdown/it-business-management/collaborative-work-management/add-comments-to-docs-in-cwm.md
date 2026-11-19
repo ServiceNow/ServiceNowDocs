@@ -7,7 +7,7 @@ release: yokohama
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Collaborate with Docs, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -24,11 +24,7 @@ Role required: sn\_cwm.cwm\_user
 
 ## About this task
 
-\[Omitted video\] Description: Video demonstrating how to create and manage comments in Docs in CWM.
-
-You can add comments to plain text, hyperlinks, dynamic data, and text inside table cells. Comments are not supported on images, empty table cells, or selections that include multiple table cells. You can mention users using `@` in comments and add text and hyperlinks. You can't mention a table or an image in comments.
-
-Overlapping comments on the same text aren't supported. To add to an existing discussion on already-commented text, reply to the existing thread instead. For more information, see [Manage comments in Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/manage-comments-in-cwm-docs.md).
+You can add comments to plain text, hyperlinks, dynamic data, and text inside table cells. Comments are not supported on images, empty table cells, or selections that include multiple table cells. You can mention users using `@` in comments and add text and hyperlinks. You cannot mention a table or an image in comments.
 
 **Note:** Users can add and manage comments if they have read-only access to a document.
 

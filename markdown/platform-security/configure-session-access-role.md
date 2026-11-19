@@ -1,16 +1,16 @@
 ---
-title: Configure Session Access role
+title: Configuring Session Access role
 description: Configure Session Access to reduce user access in a session based on IP, location, Identity Provider attributes, and user attributes using adaptive authentication policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/configure-session-access-role.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Zero Trust Access, Access Management]
 ---
 
-# Configure Session Access role
+# Configuring Session Access role
 
 Configure Session Access to reduce user access in a session based on IP, location, Identity Provider attributes, and user attributes using adaptive authentication policies.
 
@@ -35,7 +35,7 @@ Role required: security\_admin
 
 2.  To create a Session Access role configuration, select **New**.
 
-3.  On the form, fill in the fields:
+3.  On the form, fill the fields:
 
 <table id="table_vdl_r1g_twb"><thead><tr><th>
 
@@ -67,7 +67,7 @@ Policy
 
 </td><td>
 
-The adaptive authentication policy to apply. Use the look-up icon to view the list of policy.
+Choose the adaptive authentication policy. Use the look-up icon to view the list of policy.
 
 </td></tr><tr><td>
 
@@ -85,7 +85,7 @@ Role List
 
 </td><td>
 
-Roles from the Role List.
+Choose roles from the Role List.
 
 </td></tr><tr><td>
 
@@ -93,10 +93,10 @@ Group List
 
 </td><td>
 
-The roles from the Group List to remove or limit for the user.
+Choose the roles from the Group List that you want to remove or limit to the user.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Select, **Submit**.
 
     The login for users based on the configured countries is as follows:
 
@@ -104,6 +104,6 @@ The roles from the Group List to remove or limit for the user.
     -   In **Limit To Roles**, the users from the configured countries with the selected roles only have those roles for the session.
     \[Omitted image "configure-session-access-role.png"\] Alt text: Configure Session Access Role
 
-    To know more about how to remove or limit roles for a session explained with a sample use-case, see [Use Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/use-zero-trust-access.md).
+    To know more about how to remove or limit roles for a session explained with a sample use-case, see [Tutorial: Use Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/use-zero-trust-access.md).
 
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-modeling-create-diagram-archimate.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Working with ArchiMate Shapes, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [ArchiMate shapes support in the Enterprise Modeling and Visualization, Enterprise Modeling and Visualization in the EA Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Create diagram using ArchiMate shapes and add relationships
@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_user
 
 ## About this task
 
-You can create a diagram with the combination of CSDM and ArchiMate shapes or you can use only the ArchiMate shapes. To create the diagram with only ArchiMate shapes, skip including the Business Application name in the Create a business hierarchy map form. This creates an empty canvas.
+You can create a diagram with the combination of CSDM and ArchiMate shapes or you can use only the ArchiMate shapes. If you want to create the diagram with only ArchiMate shapes, you can skip including the name of the Business Application in the Create a business hierarchy map form. It creates a empty canvas.
 
 ## Procedure
 
@@ -52,9 +52,7 @@ You can create a diagram with the combination of CSDM and ArchiMate shapes or yo
     -   **Create new**- Select this radio button to create a new CI for the selected shape.
 9.  Select a connector line to update the relationship type.
 
-    The Relationship side panel opens. Select a **Relationship** and **Value**. For information on the ArchiMate shapes and relationships, see [ArchiMate shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-archimate.md).
-
-    **Note:** Connector ports on ArchiMate shapes are bi-directional. You can use any connector port—top, bottom, left, or right—as either an input or an output.
+    The Relationship side panel opens. Select a **Value** and **ArchiMate relationship type**. For more information on the ArchiMate shapes and relationships, see [ArchiMate shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-archimate.md).
 
 10. Select a shape and add related records for the shape by selecting the \[Omitted image "icon-add-related-records.png"\] Alt text: Add related records icon.
 
@@ -74,11 +72,11 @@ You can create a diagram with the combination of CSDM and ArchiMate shapes or yo
 
 14. Select the More Actions menu \(\[Omitted image "icon-three-dot-menu-eaw.png"\] Alt text: More actions menu.\) to perform the following actions:
 
-    -   **Save as new version**: Select this option to create a version for the selected diagram. The version number is automatically added in the Version number field, and it isn’t editable. For more information, see [Save as a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-save-as-new.md).
+    -   **Save as new version**: Select this option to create a version for the selected diagram. The version number is automatically added in the Version number field, and it isn’t editable. For more information, see [Save as a new version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-save-as-new.md).
     -   **Duplicate**: Select this option to duplicate the diagram. For more information, see [Duplicate a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-duplicate.md).
     -   **Submit for approval**: Select this option to submit the diagram for approval. The approval process can be done through a configured workflow. By default, the approval request is submitted to the Enterprise Architect group. For more information, see [Submit a modeling diagram for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-submit-for-approval.md).
 
-**Parent Topic:**[Working with ArchiMate Shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-archimate-shapes.md)
+**Parent Topic:**[ArchiMate shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-archimate.md)
 
 **Related topics**  
 

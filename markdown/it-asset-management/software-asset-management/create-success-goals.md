@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Success portal view in Software Asset Workspace, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
 ---
 
 # Create success goals for Software Asset Management
@@ -34,6 +34,8 @@ Role required: sam\_admin
 
     The success goal appears in the [License operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/operations-workspace.md) under the Success goals list. You can cancel or delete a success goal from the License operations view.
 
+
+**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/using-sam-workspace.md)
 
 **Related topics**  
 

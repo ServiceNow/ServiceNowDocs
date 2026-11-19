@@ -1,20 +1,20 @@
 ---
-title: Analyze a cluster with Cluster Insight
-description: Analyze a cluster by a field available on the source table. With the Cluster Insight check box, you can add a filter condition on your input field when you review the list of results.
+title: Analyze a cluster with a data source
+description: Analyze a cluster by any of the dimensions available on the source table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/predictive-intelligence/analyze-cluster-data-source.html
 release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Create and train a clustering solution, Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Create and train a clustering solution, Creating and training solutions, Predictive Intelligence, Enable AI experiences]
 ---
 
-# Analyze a cluster with Cluster Insight
+# Analyze a cluster with a data source
 
-Analyze a cluster by a field available on the source table. With the Cluster Insight check box, you can add a filter condition on your input field when you review the list of results.
+Analyze a cluster by any of the dimensions available on the source table.
 
 ## Before you begin
 
@@ -23,20 +23,20 @@ Analyze a cluster by a field available on the source table. With the Cluster Ins
 
 ## About this task
 
-Drill down into a cluster and filter its records with Cluster Insight. You can add cluster insight analysis when creating a solution or editing an existing solution. For more information, see [https://www.servicenow.com/community/intelligence-ml-articles/predictive-intelligence-using-the-cluster-insight-table-to/ta-p/2301006](https://www.servicenow.com/community/intelligence-ml-articles/predictive-intelligence-using-the-cluster-insight-table-to/ta-p/2301006).\[Omitted image "clusterinsight\_table\_check.png"\] Alt text: Create Cluster Insight table check box in the Clustering Definition page.
+Analyze a cluster with a data source by accessing the cluster insight table. You can add a cluster insight table when creating a solution or editing an existing solution. For more information, see [https://www.servicenow.com/community/intelligence-ml-articles/predictive-intelligence-using-the-cluster-insight-table-to/ta-p/2301006](https://www.servicenow.com/community/intelligence-ml-articles/predictive-intelligence-using-the-cluster-insight-table-to/ta-p/2301006).\[Omitted image "clusterinsight\_table\_check.png"\] Alt text: Create ClusterInsight table check box in the Clustering Definition page.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Predictive Intelligence** &gt; **Clustering** &gt; **Solution Definitions**.
+1.  Navigate to **All** &gt; **Predictive Intelligence** &gt; **Clustering** &gt; **Solutions**.
 
-2.  Select a solution definition or create a new one.
+2.  Select a solution.
 
-3.  On the definition form, select the **Create Cluster Insight table** check box, then update and retrain the model.
+3.  Under **Cluster Visualization**, select a cluster.
+
+4.  On the **Cluster Insight** table, select the list menu icon \(\[Omitted image "List\_MenuIcon.png"\] Alt text: List menu icon.\) next to a column header, and select **Bar Chart**.
 
 
 ## Result
 
-In the **Solutions** \[ml\_solution\] table, open the trained solution, then open the **Cluster Visualization** tab. When you select a cluster, all records included in the cluster are displayed as a list. Using the filter icon \(\[Omitted image "List\_FilterIcon.png"\]\), open the list's filter conditions. Search for the input field from your source table. For example, if your source table is Incident and the input field is Short Description, you could filter for records containing the word "help" in the Short Description.
-
-To make other dimensions from your source table available for filtering, add them as input fields on the solution definition form.
+The **Create a Report** page shows your selected insight data in a bar chart. You can use this method on different insights and tables and with different visualizations.
 

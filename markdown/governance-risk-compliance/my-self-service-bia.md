@@ -1,18 +1,18 @@
 ---
 title: Update dependency details of a BIA in Self Service
-description: Contributors can update BIA dependency details including disruption duration, RPO impact analysis responses, dependency group state, and work notes.
+description: Use contributor role to update the disruption duration of the impact category result, RPO Impact analysis responses, state of the impact dependency group, and the work notes in the Activity related item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/my-self-service-bia.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Assess impact categories and dependencies of process, Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Update dependency details of a BIA in Self Service
 
-Contributors can update BIA dependency details including disruption duration, RPO impact analysis responses, dependency group state, and work notes.
+Use contributor role to update the disruption duration of the impact category result, RPO Impact analysis responses, state of the impact dependency group, and the work notes in the Activity related item.
 
 ## Before you begin
 
@@ -42,4 +42,6 @@ If you are a BCM contributor and is part of the Contributors list, then you can 
 
 9.  Click **Update** after your changes.
 
+
+**Parent Topic:**[Assess impact categories and dependencies of a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/assess-impact-categories-bia.md)
 

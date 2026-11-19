@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Manage observables, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,13 +28,9 @@ Role required: sn\_ti\_write
 
 2.  Choose an incident.
 
-3.  Select the **Investigation** tab.
+3.  Click the **Add Multiple Observables** related link.
 
-4.  Select **Associated Observables**.
-
-5.  Select Multiple New from the more options.
-
-6.  Enter or paste multiple observables.
+4.  Enter or paste multiple observables.
 
     Entries can be of any Observable Type. Accepted formats are: comma, new line, tab, or pipe separators.
 
@@ -44,6 +40,6 @@ Role required: sn\_ti\_write
 
     Note: Observable values not auto-detected are assigned to type Unknown.
 
-7.  Select **Submit**.
+5.  Click **Submit.**.
 
 

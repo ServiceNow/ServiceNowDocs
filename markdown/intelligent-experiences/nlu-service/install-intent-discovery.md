@@ -1,5 +1,5 @@
 ---
-title: \(Legacy\) Install Intent Discovery
+title: Install Intent Discovery
 description: You can install the Intent Discovery application \(sn\_nlu\_discovery\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/install-intent-discovery.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [\(Legacy\) Intent Discovery, \(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Intent Discovery, NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
 ---
 
-# \(Legacy\) Install Intent Discovery
+# Install Intent Discovery
 
 You can install the Intent Discovery application \(sn\_nlu\_discovery\) if you have the admin role.
 
@@ -28,18 +28,16 @@ You can install the Intent Discovery application \(sn\_nlu\_discovery\) if you h
 
         -   **NLU Workbench - Core \(com.glide.nlu\)**
 
-            Adds NLU Model capabilities. See [\(Legacy\) Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
+            Adds NLU Model capabilities. See [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/activate-nlu-workbench.md).
 
 
 Role required: admin
 
 ## About this task
 
-Starting with the Brazil release, Natural Language Understanding is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
 Tables are installed with Intent Discovery:
 
-For more information, see [\(Legacy\) Components installed with Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/installed-with-intent-discovery.md).
+For more information, see [Components installed with Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/installed-with-intent-discovery.md).
 
 ## Procedure
 
@@ -49,7 +47,7 @@ For more information, see [\(Legacy\) Components installed with Intent Discovery
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -57,4 +55,9 @@ For more information, see [\(Legacy\) Components installed with Intent Discovery
 
 4.  Select **Install**.
 
+
+-   **[Components installed with Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/installed-with-intent-discovery.md)**  
+Several types of components are installed with activation of the sn\_nlu\_discovery plugin, including tables.
+
+**Parent Topic:**[Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/intent-discovery.md)
 

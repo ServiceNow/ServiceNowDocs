@@ -7,9 +7,9 @@ release: yokohama
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: task
-last_updated: "2026-10-05"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configure, Health and Safety Core, Health and Safety, Employee Service Management]
+breadcrumb: [Configure settings, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
 
 # Assign Health and Safety profile to a user
@@ -55,13 +55,15 @@ For more information on Health and Safety user profiles, see [Health and Safety 
 
 [Install Health and Safety Core]()
 
-[Workplace location data]()
+[Set up your workplace location data]()
 
 [Enable a Health and Safety table for configuring report field mapping]()
 
 [Create a safety report field mapping for generating reports]()
 
 [Configure groups for Health and Safety]()
+
+[Configure scheduled job to generate frequency rates]()
 
 [Add a Health and Safety visitor]()
 

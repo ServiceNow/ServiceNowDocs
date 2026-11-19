@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Service Reliability Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Service Reliability Management, ITOM Health, IT Operations Management]
 ---
 
 # Service Reliability Management reference
@@ -39,9 +39,7 @@ Alert can be in a few different states depending on how they are acted on.
 -   **[SRM change request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-change-request-states.md)**  
 Incidents can be in a few different states depending on how they are acted on.
 -   **[CMDB service classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-cmdb-service-classes.md)**  
-Service Reliability Management \(SRM\) typically supports several Configuration Management Database \(CMDB\) service classes.
--   **[Troubleshoot SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/srm-troubleshoot.md)**  
-Find answers to issues that you may encounter when using Service Reliability Management \(SRM\).
+Service Reliability Management typically supports several Configuration Management Database \(CMDB\) service classes.
 
 **Parent Topic:**[Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-landing-page.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/using-the-business-location-360.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Manage cases, Use, Customer Service Management]
+breadcrumb: [Manage cases, Using Customer Service Management, Customer Service Management]
 ---
 
 # Using Business Location 360
@@ -18,7 +18,7 @@ Enable customer service agents to get a comprehensive, 360-degree view of the bu
 
 By using the Service Model Foundation data model framework, your location staff members can request assistance for their operations either from the central support team or peer business locations​. To handle these cases effectively, customer service agents require a complete, 360° view of the business location.
 
-The Business Location 360 template enables agents to get a comprehensive view that includes the crucial contextual information that they need for resolving reported issues. Your administrator can customize the Business Location 360 template to add data sources, show additional information, or represent entities like stores, government agencies, healthcare organizations, automotive dealerships, or departments. For more information about configuring the Business Location 360 template, see [CRM Workspace page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-page-templates.md).
+The Business Location 360 template enables agents to get a comprehensive view that includes the crucial contextual information that they need for resolving reported issues. Your administrator can customize the Business Location 360 template to add data sources, show additional information, or represent entities like stores, government agencies, healthcare organizations, automotive dealerships, or departments. For more information about configuring the Business Location 360 template, see [CSM Configurable Workspace page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-page-templates.md).
 
 **Note:** Your administrator can activate the Business Location 360 capabilities by using the Business Location \(com.snc.business\_location\) plugin.
 

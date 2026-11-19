@@ -1,32 +1,32 @@
 ---
 title: Mastercard Spoke
-description: Integrate your ServiceNow instance with Mastercard’s Mastercom API Suite \(MCOM\) and Mastercom Extended APIs \(MCOM Extended\) to manage the full card dispute lifecycle. Handle tasks such as searching transactions, creating claims, and processing chargebacks, pre-arbitration, and arbitration case filings efficiently.
+description: Integrate ServiceNow instance with your Mastercard account to enable access to Mastercard’s Mastercom API Suite \(MCOM\) and Mastercom Extended APIs \(MCOM Extended\) for card dispute resolution. This integration enables you to perform tasks such as searching transactions, creating claims, and processing chargebacks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/mastercard-spoke.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 9
-breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Mastercard Spoke
 
-Integrate your ServiceNow instance with Mastercard’s Mastercom API Suite \(MCOM\) and Mastercom Extended APIs \(MCOM Extended\) to manage the full card dispute lifecycle. Handle tasks such as searching transactions, creating claims, and processing chargebacks, pre-arbitration, and arbitration case filings efficiently.
+Integrate ServiceNow instance with your Mastercard account to enable access to Mastercard’s Mastercom API Suite \(MCOM\) and Mastercom Extended APIs \(MCOM Extended\) for card dispute resolution. This integration enables you to perform tasks such as searching transactions, creating claims, and processing chargebacks.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-## Integration Hub subscription
+## Subscription information
 
-This spoke requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
+This spoke requires a subscription. Contact your ServiceNow account manager or sales representative for subscription details. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf)
 
 ## Spoke version
 
-Mastercard Spoke v3.0.1 is the latest version. For version history of the spoke, see [Mastercard Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-mastercard-spoke.html).
+Mastercard Spoke v2.0.1 is the latest version.
 
 ## Supported version
 
@@ -37,8 +37,7 @@ This spoke was built for Mastercom v6.
 Mastercard Spoke enables a flow designer to build workflows using actions that invoke Mastercomand Mastercom Extended. This includes the ability to:
 
 -   Search transactions
--   Create claims and initiate chargebacks
--   Manage seamless filing of pre-arbitration and arbitration cases
+-   Create claims and chargebacks
 -   Collaborate with merchants to prevent chargebacks
 -   Monitor disputes throughout the dispute lifecycle
 -   Expedite the end-to-end dispute management process
@@ -48,8 +47,7 @@ Mastercard Spoke enables a flow designer to build workflows using actions that i
 
 ## Spoke requirements
 
--   Integration Hub subscription
--   Mastercard configuration details such as, certificate, key alias, consumer key, and keystore password
+Mastercard configuration details such as, certificate, key alias, consumer key, and keystore password.
 
 ## Spoke dependencies
 
@@ -70,21 +68,15 @@ The Mastercard Spoke provides actions to simplify card dispute resolution. Avail
 
     |Category|Action|Description|
     |--------|------|-----------|
-    |Mastercom Chargeback Management|Look up Chargeback Documents Request Builder|Retrieves and parses chargeback-related documents in the required format.|
-    |Look up Chargeback Documents Response Parser|
-    |Mastercom Case Filing Management|Create Case Request Builder|Allows issuers or acquirers to file a pre-arbitration, arbitration, pre-compliance, or compliance case and optionally upload documents. They can also use the endpoint to create an Expedited Billing Dispute Form \(EBDF\) and attach it to the claim.|
-    |Create Case Response Parser|
-    |Look up Case Documents Request Builder|Retrieves and parses documents associated with a case in the preferred format.|
-    |Look up Case Documents Response Parser|
-    |Transactions|Look up Authorization Details of Transaction Request Builder|Retrieves and parses authorization details for the original transaction involved in the claim.|
+    |Transactions|Look up Authorization Details of Transaction Request Builder|Allows the issuers to look up authorization details for the original transaction involved in the claim after the issuer creates a claim.|
     |Look up Authorization Details of Transaction Response Parser|
-    |Look up clearing Details of Transaction Request Builder|Retrieves and parses clearing details for the original transaction involved in the claim.|
+    |Look up clearing Details of Transaction Request Builder|Allows the issuers to retrieve clearing details for the original transaction involved in the claim. Acquirers may also use this to retrieve clearing details associated with an original transaction.|
     |Look up Clearing Details of Transaction Response Parser|
-    |Look up Transactions Request Builder|Searches for and parses information about an original transaction to support claim-related actions.|
+    |Look up Transactions Request Builder|Allows the issuers to search for information about an original transaction. An issuer may use this information to take an action on the original transaction, such as creating a claim.|
     |Look up Transactions Response Parser|
-    |Claims|Look up Claims in a Queue Request Builder|Retrieves and parses a list of claims in the queue within the specified date range.|
+    |Claims|Look up Claims in a Queue Request Builder|Allows the issuers to retrieve a list of claims in the queue within the date interval request builder.|
     |Look up Claims in a Queue Response Parser|
-    |Look up Claim Details by Claim ID Request Builder|Retrieves and parses detailed information about a specific claim and its associated cases.|
+    |Look up Claim Details by Claim ID Request Builder|Allows the issuers and acquirers to retrieve details for an existing claim, including any cases with which the claim is associated.|
     |Look up Claim Details by Claim ID Response Parser|
 
     |Category|Action|Description|
@@ -116,35 +108,7 @@ Action
 
 Description
 
-</th></tr></thead><tbody><tr><td rowspan="3">
-
-Mastercom Case Filing Management
-
-</td><td>
-
-Look up Cases Status
-
-</td><td>
-
-Allows issuers and acquirers search for the status of documents for a specific list of cases.
-
-</td></tr><tr><td>
-
-Take Action on Case
-
-</td><td>
-
-Allows issuers or acquirers take action on a case filing, such as accept, reject, rebut, escalate, or withdraw, with or without attaching documents.
-
-</td></tr><tr><td>
-
-Look up List of Claims
-
-</td><td>
-
-Allows issuers or acquirers retrieve a list of claims associated with the existing cases.
-
-</td></tr><tr><td rowspan="8">
+</th></tr></thead><tbody><tr><td rowspan="8">
 
 Mastercom Chargeback Management
 
@@ -154,7 +118,7 @@ Acknowledge Chargebacks
 
 </td><td>
 
-Moves a chargeback or second representment from the Unworked queue to the Worked queue.
+Acknowledges a chargeback or second representment moves the claim from the Unworked queue to the Worked queue.
 
 </td></tr><tr><td>
 
@@ -224,7 +188,7 @@ Create Claim
 
 </td><td>
 
-Issuers use this endpoint to create a claim, which is required before creating a retrieval request or a first chargeback.
+e this endpoint to create a claim, which is required before creating a retrieval request or a first chargeback.
 
 </td></tr><tr><td>
 
@@ -232,7 +196,7 @@ Take Action on Existing Claim
 
 </td><td>
 
-Issuers use this endpoint to perform operations \(reopen or close\) on an existing claim.
+e this endpoint to perform operations \(reopen or close\) on an existing claim.
 
 </td></tr><tr><td rowspan="2">
 
@@ -252,7 +216,7 @@ Look up Fraud Related Information
 
 </td><td>
 
-Issuers use this endpoint to obtain fraud-related information associated with a claim before creating a fraud item for the claim.
+e this endpoint to obtain fraud-related information associated with a claim before creating a fraud item for the claim.
 
 </td></tr><tr><td>
 
@@ -265,18 +229,6 @@ Look up Queue Names
 </td><td>
 
 Retrieves a list of queue names.
-
-</td></tr><tr><td>
-
-Health Check
-
-</td><td>
-
-Look up API Suite Health
-
-</td><td>
-
-Retrieves the status of the Mastercom API suite.
 
 </td></tr></tbody>
 </table><table id="table_qlx_mp3_l2c"><thead><tr><th>
@@ -523,5 +475,5 @@ Use this endpoint to acknowledge a representment, which moves the claim to the W
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up Mastercard spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/set-up-mastercard-spoke.md)
+For information about setting up the spoke, see [Set up Mastercard spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/set-up-mastercard-spoke.md).
 

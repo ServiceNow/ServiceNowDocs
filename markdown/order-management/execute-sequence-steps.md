@@ -1,26 +1,26 @@
 ---
 title: Complete predefined customer engagement tasks
-description: Execute predefined sequence steps in your sequence tasks in the CRM Workspace to engage with your prospective customers.
+description: Execute predefined sequence steps in your sequence tasks in the CSM Configurable Workspace to engage with your prospective customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/execute-sequence-steps.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Using Customer Engagement Sequences, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
 ---
 
 # Complete predefined customer engagement tasks
 
-Execute predefined sequence steps in your sequence tasks in the CRM Workspace to engage with your prospective customers.
+Execute predefined sequence steps in your sequence tasks in the CSM Configurable Workspace to engage with your prospective customers.
 
 ## Before you begin
 
-Role required: Sequence executor \[sn\_crm\_sequence.executor\]
+Role required: sequence viewer \[sn\_crm\_sequence.viewer\]
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -32,27 +32,10 @@ Role required: Sequence executor \[sn\_crm\_sequence.executor\]
 
     The navigation pane lists the activities or steps you need to complete. The activity details and actions are displayed in the work area.
 
-6.  View sequence steps in Workflow Studio.
+6.  After completing an activity, select an appropriate option to move to the next activity.
 
-    1.  Go to the **Details** tab.
-
-    2.  Select the Open record icon \[Omitted image "circle-info-outline-24.svg"\] Alt text: next to the **Sequence** field and select **Open record**.
-
-        The associated sequence record opens in a new tab.
-
-    3.  View the sequence by selecting **Open steps**.
-
-        You're redirected to Workflow Studio where you can view the sequence diagram, including stages and activities.
-
-7.  After completing an activity, select an appropriate option to move to the next activity.
-
-    The sequence is marked as Completed when you finish all activities in the sequence task.
+    The sequence is marked as Completed when you finish all activities within the sequence task.
 
 
 **Parent Topic:**[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-customer-engagement-sequences.md)
-
-**Related topics**  
-
-
-[Fulfill a telesales sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/complete-telesales-sequences.md)
 

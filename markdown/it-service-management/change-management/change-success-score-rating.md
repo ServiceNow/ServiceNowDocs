@@ -1,41 +1,39 @@
 ---
 title: Configure success score rating
-description: Configure the score ranges, colors, and text that the Change Success Score card displays for each success score rating.
+description: Based on the change success score rating, a color and text is associated that is displayed as part of the Change Success Score card. By default, four success score ratings are available with a specific score range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/change-success-score-rating.html
 release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Change success score, Configure, Change Management, IT Service Management]
 ---
 
 # Configure success score rating
 
-Configure the score ranges, colors, and text that the Change Success Score card displays for each success score rating.
+Based on the change success score rating, a color and text is associated that is displayed as part of the Change Success Score card. By default, four success score ratings are available with a specific score range.
 
 ## Before you begin
 
 Role required: admin
 
-The following default ratings are available.
+The following default ratings available.
 
 -   Low
 -   Medium
 -   High
 -   Excellent
 
-**Tip:** Score ratings map a calculated score range to a color and text. They don't define how the score itself is computed. For the success score formula and the default multipliers applied to each automated indicator, see [Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-score-calculation.md).
-
 Each rating is associated with a default range and color.
 
-The Change Success Score Ratings table stores the text and color associated with each success score range.
+The Change Success Score Ratings table is used to hold the records of the text and a color associated with the success score range.
 
-You can modify the score range and color of a rating, or add new ratings. These values appear on the **Change Success Score** card on the Change Request form.
+You can choose to modify the score range, color, introduce, or modify new rating values. The values defined here can be viewed in the **Change Success Score card** on the change Request form.
 
-**Note:** The change success score feature is installed after you activate the Change Management - Change Success Score plugin available with the ITSM Professional subscription only. Contact your account manager for more information.
+**Note:** The change success score feature is installed after you activate the Change Management - change success score plugin available with the ITSM Professional subscription only. Contact your account manager for more information.
 
 \[Omitted image "change-success-score-tokyo.png"\] Alt text: Change Success Score card
 
@@ -43,24 +41,15 @@ You can modify the score range and color of a rating, or add new ratings. These 
 
 1.  Navigate to **All** &gt; **Change** &gt; **Administration** &gt; **Change Success Score Ratings**.
 
-2.  Perform one of the following actions.
+2.  Perform the given action based on your requirements.
 
     |Action|Procedure|
     |------|---------|
-    |**To add a new score range**|Select **New**, enter the range details and the associated color, and select **Submit**.|
-    |**To modify the existing range**|Open the rating, and select the **here** link in the record information message to modify the values.|
+    |**To add a new score range**|Click **New** and fill in the range details and the color you want to associate and submit.|
+    |**To modify the existing range**|Open the rating, and click the **here** link in the record information message to modify the values.|
 
 3.  Select **Update**.
 
 
 **Parent Topic:**[Change success score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-success-score.md)
-
-**Related topics**  
-
-
-[Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-score-calculation.md)
-
-[Modify score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/modify-success-score-calculations.md)
-
-[Change success score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-success-score.md)
 

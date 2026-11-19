@@ -1,20 +1,20 @@
 ---
 title: Stages and activities
-description: In Playbook, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process.
+description: In Playbooks, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/process-automation-designer-lanes-activities.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 8
-breadcrumb: [Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
+last_updated: "2025-01-30"
+reading_time_minutes: 7
+breadcrumb: [Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
 ---
 
 # Stages and activities
 
-In Playbook, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process.
+In Playbooks, an activity represents one step in your overall business process. You can sequence many activities together in the stages of your process.
 
 ## Stages
 
@@ -114,10 +114,6 @@ Add and configure a stage in your playbook.
 Activity definitions describe how the activities in your playbook get the data that they need when your playbook runs.
 -   **[Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/add-configure-activity.md)**  
 Add and configure an activity in your playbook.
--   **[Use AI agent as an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/ai-agent-as-activity.md)**  
-Use an existing AI agent as an activity in your playbook to automate tasks. The AI agent gathers the required context, performs the work, and produces outputs that subsequent activities can consume.
--   **[Use an AI skill as an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/use-ai-skill-as-activity.md)**  
-Use an existing AI skill as an activity in your playbook to perform lightweight, focused AI tasks. When the playbook reaches the activity, the skill runs, produces structured outputs, and passes those outputs to subsequent activities.
 -   **[Automation Assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/automation-assets.md)**  
 Include all automation assets in the activity picker to add a subflow, flow, or action directly to your playbook without having to create an activity definition.
 -   **[Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/start-with-delay-properties.md)**  
@@ -125,13 +121,9 @@ Specify a duration of time to wait before running an activity or a stage whose s
 -   **[Optional activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/optional-activities.md)**  
 Enable your agents and fulfillers to add additional activities as they go through a playbook.
 -   **[Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-a-decision-activity.md)**  
-Create and define branches with different conditions for different paths between activities.
--   **[Decision stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-decision-stage.md)**  
-Create and define branches with different conditions for different paths between stages.
+Create and define branches with different conditions for different paths that an agent can follow in playbook.
 -   **[Questionnaire activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/questionnaire-activity.md)**  
 Collects inputs from a user during a playbook run to use later in the playbook.
--   **[Go back activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/go-back-activity.md)**  
-The Go back activity defines a conditional return point in a playbook, enabling the playbook to loop back to an earlier activity, stage, or the start of the playbook based on an outcome.
 -   **[Parallel branches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-parallel-activity.md)**  
 Add branches for activities and stages that run in parallel to another branch of activities and stages.
 -   **[Add dynamic inputs to an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/add-dynamic-inputs-to-activity.md)**  
@@ -139,5 +131,5 @@ Configure your activity to show a certain set of fields based on the value of an
 -   **[Playbook activity state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-activity-state-mapping.md)**  
 Use playbook activity state mapping to override the status of a playbook card.
 
-**Parent Topic:**[Understanding the playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-building-blocks.md)
+**Parent Topic:**[Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-a-process.md)
 

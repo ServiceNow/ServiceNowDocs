@@ -7,22 +7,18 @@ release: yokohama
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Working with update sets, System update sets, Deploying applications, Classic app development, Building applications]
+breadcrumb: [Update set use, System update sets, Deploying applications, Building applications]
 ---
 
 # Mark an update set complete
 
 When you have completed the customizations and compared local update sets to resolve conflicts, mark the update set as Complete.
 
-## Before you begin
-
-Role required: admin
-
 ## About this task
 
-Mark an update set as Complete only when it is ready to transfer. Once an update set is complete, do not change it back to In progress. Instead create another update set for the rest of the changes, and commit them in the order that they were created.
+Mark an update set as Complete only when it is ready to migrate. Once an update set is complete, do not change it back to In progress. Instead, create another update set for the rest of the changes, and be sure to commit them together in the order that they were created. Naming conventions may help in this case \(for example, Performance Enhancements and Performance Enhancements 2\).
 
 ## Procedure
 
@@ -30,8 +26,8 @@ Mark an update set as Complete only when it is ready to transfer. Once an update
 
 2.  Change the State of the update set from In progress to Complete.
 
-    The update set is available for other instances to retrieve and additional customizations aren't tracked in the update set.
+    -   The update set is available for other instances to retrieve.
+    -   No additional customizations are tracked in the update set.
+    \[Omitted image "Us20.png"\] Alt text: update set record
 
-
-**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/using-system-update-sets.md)
 

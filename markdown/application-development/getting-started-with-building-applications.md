@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/getting-started-with-building-applications.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Classic app development, Building applications]
+breadcrumb: [Building applications]
 ---
 
 # Learning about developing on the ServiceNow AI Platform

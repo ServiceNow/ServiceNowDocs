@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Use hashtags in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,11 @@ Role required: admin
 
 2.  Click **Hashtags** in the message posting.
 
-    The hashtags associated with the message display, along with the removal icon.
+    \[Omitted image "HashtagInPost.png"\] Alt text: Hashtag in post
+
+    The hashtags associated with the message are displayed, along with the removal icon.
+
+    \[Omitted image "RemoveTag.png"\] Alt text: Remove tag
 
 3.  Click the removal icon.
 

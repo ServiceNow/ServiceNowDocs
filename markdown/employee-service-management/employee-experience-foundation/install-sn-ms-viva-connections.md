@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Integrating Employee Center for Microsoft Viva Connections, Employee Center for Microsoft Viva Connections, Employee Center Integrations, EmployeeWorks, Employee Service Management]
+breadcrumb: [Integrate, Employee Center for Microsoft Viva Connections, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
 ---
 
 # Install Employee Center for Microsoft Viva Connections application

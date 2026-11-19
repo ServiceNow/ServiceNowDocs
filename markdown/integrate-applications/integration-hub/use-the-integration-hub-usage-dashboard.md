@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Integration Hub Usage Dashboard, Configure, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Integration Hub Usage Dashboard, Configuring Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Transaction reports in Integration Hub Usage Dashboard

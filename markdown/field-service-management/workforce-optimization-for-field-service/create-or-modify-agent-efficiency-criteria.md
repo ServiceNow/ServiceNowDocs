@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Agent Efficiency, Set up workforce, Configure, Field Service Management]
+breadcrumb: [Configuring Field Service Agent Efficiency, Setting up your workforce, Configuring Field Service Management, Field Service Management]
 ---
 
 # Create or modify Agent Efficiency criteria

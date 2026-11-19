@@ -1,20 +1,20 @@
 ---
 title: Install and activate Incident Communications Management
-description: Install and activate the Incident Communications Management \(com.snc.iam\) plugin to create and manage incident communication plans.
+description: Install and activate the Incident Communications Management \(com.snc.iam\) plugin if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-communications-management/t\_ActivateIncidentAlertManagement.html
 release: yokohama
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring Incident Communications Management, Incident Communications Management, IT Service Management]
+breadcrumb: [Configure, Incident Communications Management, IT Service Management]
 ---
 
 # Install and activate Incident Communications Management
 
-Install and activate the Incident Communications Management \(com.snc.iam\) plugin to create and manage incident communication plans.
+Install and activate the Incident Communications Management \(com.snc.iam\) plugin if you have the admin role.
 
 ## Before you begin
 

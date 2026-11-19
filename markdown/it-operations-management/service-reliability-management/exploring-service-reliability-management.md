@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Service Reliability Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Service Reliability Management, ITOM Health, IT Operations Management]
 ---
 
 # Exploring Service Reliability Management
@@ -45,11 +45,9 @@ admin
 
 </td><td>
 
-ServiceNow administrators manage, configure, and maintain the ServiceNow platform. In SRM, they can access and work in the Service Operations Workspace Admin Center. Only administrators can do the following:
+A ServiceNow administrator is responsible for the administration, development, operation, education, and maintenance of the ServiceNow platform.
 
--   Install SRM.
--   Add and manage SRM administrators.
--   Create and manage integration users.
+ Responsible for installation and can perform Service Operations Workspace Admin Center configuration of SRM.
 
 </td><td>
 
@@ -57,7 +55,7 @@ All
 
 </td></tr><tr><td>
 
-SRM administrator \[srm\_admin\]**Note:** This role differs from the ServiceNow admin role.
+Administrator \[srm\_admin\]**Note:** This role differs from the ServiceNow admin role.
 
 </td><td>
 
@@ -78,7 +76,7 @@ SRM administrators can manage account settings, configurations, and users.
 
 </td></tr><tr><td>
 
-SRM manager \[srm\_manager\]
+Manager \[srm\_manager\]
 
 </td><td>
 
@@ -97,7 +95,7 @@ Responder
 
 </td></tr><tr><td>
 
-SRM responder \[srm\_responder\]
+Responder \[srm\_responder\]
 
 </td><td>
 
@@ -133,7 +131,7 @@ Inherits 17 roles including the following:
 
 \[Omitted image "sr-explore-workfflows.png"\] Alt text: Infographic showing how responders, managers, and administrators manage teams, register services, define SLO, monitor integrations, respond to notifications, and remediate incidents. For details, refer to the following description.
 
-1.  Product teams in IT or Lines of Business continuously deliver newservice instances and technology management services. Example: New customer billing portal.
+1.  Product teams in IT or Lines of Business continuously deliver new technical and application services. Example: New customer billing portal.
 2.  Along with SLO Management, teams can register services and define service level objectives \(SLOs\), helping them reach business outcomes. Example: 95% monthly availability for the billing portal.
 3.  Monitoring integrations are set up by the teams to collect the real-time health of these services. Example: Cloud Observability.
 4.  Monitoring creates service level indicators \(SLIs\) impacting alerts when services are underperforming. Automation groups and enriches. Example: Billing portal latency is exceeding 7 s.
@@ -147,8 +145,8 @@ Inherits 17 roles including the following:
 |-------|-------|-----|
 |Team-based experience|[Working with SRM teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-teams.md)|SRM administrators, managers, and responders|
 |Service registration|[Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-services.md)|SRM administrators, managers, and responders|
-|Prebuilt integrations|[Working with integrations in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-integrations.md)|SRM administrators, managers, and responders|
-|Measure service health|[Reliability metrics in SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md)|SRM administrators, managers, and responders|
+|Prebuilt integrations|[Working with SRM integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-integrations.md)|SRM administrators, managers, and responders|
+|Measure service health|[Working with reliability metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md)|SRM administrators, managers, and responders|
 |On-call coverage|[Create an SRM on-call schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-create-on-call-schedule.md)|SRM administrators, managers, and responders|
 |Remediate high severity alerts and incidents|[Working with SRM reliability tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-reliability-tasks.md)|SRM administrators, managers, and responders|
 

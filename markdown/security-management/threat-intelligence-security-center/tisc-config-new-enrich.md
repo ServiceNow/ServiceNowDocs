@@ -7,9 +7,8 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-27"
 reading_time_minutes: 2
-keywords: [enrichment integration, threat intelligence enrichment, observables, threat lookup, sightings]
 breadcrumb: [TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 

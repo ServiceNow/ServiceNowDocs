@@ -1,16 +1,16 @@
 ---
-title: Create Salesforce spoke actions to retrieve opportunities
+title: Create Salesforce spoke actions to retrieve opportunities for use in the remote table definition
 description: The Salesforce spoke provides actions to retrieve metadata of the opportunity record and create a new opportunity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-integration-salesforce-spoke.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using remote tables and the Salesforce spoke, Reference Salesforce integration using remote tables, Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Using remote tables and the Salesforce spoke, Reference Salesforce integration using remote tables, Third-party data integration for CSM, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# Create Salesforce spoke actions to retrieve opportunities
+# Create Salesforce spoke actions to retrieve opportunities for use in the remote table definition
 
 The Salesforce spoke provides actions to retrieve metadata of the opportunity record and create a new opportunity.
 

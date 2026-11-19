@@ -1,5 +1,5 @@
 ---
-title: Configure service portal widgets table allow list
+title: Configure Service Portal Widgets Table Allow List \[New in Security Center 2.0\]
 description: Learn how the glide.service\_portal.widget.table\_allow\_list property enhances security by listing tables accessible to unauthenticated users through Service Portal widgets, dependent on additional checks and specific glide property settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-configure-service-portal-widgets-table-allow-list.html
@@ -7,18 +7,16 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Configure service portal widgets table allow list
+# Configure Service Portal Widgets Table Allow List \[New in Security Center 2.0\]
 
 Learn how the **glide.service\_portal.widget.table\_allow\_list** property enhances security by listing tables accessible to unauthenticated users through Service Portal widgets, dependent on additional checks and specific glide property settings.
 
-The **glide.service\_portal.widget.table\_allow\_list** property contains the list of tables allowed to be accessed by unauthenticated users through Service Portal widgets that make use of the additional security checks provided in the SNCACLWidgetUtil script include. This property is only enforced if the Glide Property The **glide.service\_portal.widget.table\_allow\_list** property is **true**. There may be unauthenticated information disclosure if unnecessary tables are listed in this property. Table ACLs will still be evaluated as previously occurred.
-
-Ensure that the **glide.service\_portal.widget.table\_allow\_list** property is empty, or the list is restricted to the smallest number of tables with use cases for unauthenticated access.
+The **glide.service\_portal.widget.table\_allow\_list** property contains a list of tables that unauthenticated users can access through Service Portal widgets, which utilize the additional security checks in the SNCACLWidgetUtil script. This property is enforced only if the glide property **glide.service\_portal.widget.enforce\_public\_check** is set to true. Including unnecessary tables in this property may lead to the disclosure of sensitive information. Nonetheless, Table ACLs will continue to be evaluated as they were previously.
 
 ## More information
 
@@ -52,7 +50,7 @@ Data type
 
 </td><td>
 
-String
+boolean
 
 </td></tr><tr><td>
 
@@ -60,7 +58,7 @@ Recommended value
 
 </td><td>
 
-&lt;empty&gt;
+true
 
 </td></tr><tr><td>
 
@@ -68,15 +66,7 @@ Default value
 
 </td><td>
 
-'' \(empty string\)
-
-</td></tr><tr><td>
-
-Fallback value
-
-</td><td>
-
-&lt;empty&gt;
+false
 
 </td></tr><tr><td>
 
@@ -93,16 +83,8 @@ Security risk
 </td><td>
 
 -   Severity score: 3.7
--   CVSS rating: Low
--   Security risk details: Unauthenticated users may gain access to sensitive data through Service Portal widgets, potentially leading to information disclosure despite existing table ACLs.
-
-</td></tr><tr><td>
-
-Functional impact
-
-</td><td>
-
-The table list controls access to the tables from which the widget is allowed to retrieve data.
+-   CVSS score: Low
+-   Security risk details: If this property is not set to the secure value, unnecessary tables may be included, potentially leading to the disclosure of sensitive information.
 
 </td></tr><tr><td>
 
@@ -111,6 +93,14 @@ Dependencies and prerequisites
 </td><td>
 
 The **glide.service\_portal.widget.enforce\_public\_check** property must be set to true for the **glide.service\_portal.widget.table\_allow\_list** setting to take effect.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+The table list controls access to the tables from which the widget is allowed to retrieve data.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)

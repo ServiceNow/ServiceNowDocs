@@ -1,24 +1,24 @@
 ---
 title: Configuring ServiceNow Otto for Customer Service Management \(CSM\)
-description: If you have the admin role, you can configure the ServiceNow Otto for Customer Service Management \(CSM\) application so that your agents can use the generative AI skills in CRM Workspace and in Core UI.
+description: If you have the admin role, you can configure the ServiceNow Otto for Customer Service Management \(CSM\) application so that your agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Configuring ServiceNow Otto for Customer Service Management \(CSM\)
 
-If you have the admin role, you can configure the ServiceNow Otto for Customer Service Management \(CSM\) application so that your agents can use the generative AI skills in CRM Workspace and in Core UI.
+If you have the admin role, you can configure the ServiceNow Otto for Customer Service Management \(CSM\) application so that your agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 
-Use the AI Admin Hub console to configure ServiceNow Otto for CSM. This console contains everything that you must install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub console to configure ServiceNow Otto for CSM. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following table lists the features and skills that you can access from the console.
+The following table lists the features and skills that you can access from the AI Admin Hub console.
 
 <table id="table_ipf_bbd_wyb"><thead><tr><th>
 
@@ -72,11 +72,12 @@ Call summarization
 </td></tr></tbody>
 </table>**Note:**
 
--   Learn how to select an LLM provider to configure all AI generated skills at once. Your choice controls the intelligence layer for the entire capability. For more info, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md) and [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/edit-model-providers.md).
--   The minimum version of the workspace required to support ServiceNow Otto for CSM features:
-    -   CRM Workspace Foundation \(sn\_cwf\_wrkspc\): 24.2.1.
+-   Now LLM Service is currently the only provider for this Now Assist application's skills.
 
-    -   CRM Workspace \(sn\_csm\_wrkspc\): 24.2.0.
+-   The minimum version of the workspace required to support ServiceNow Otto for CSM features:
+    -   CSM and FSM Configurable Workspace Foundation \(sn\_cwf\_wrkspc\): 24.2.1.
+
+    -   CSM Configurable Workspace \(sn\_csm\_wrkspc\): 24.2.0.
 
 
 For earlier versions, go to [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager.md) to upgrade it to a later version.
@@ -88,7 +89,7 @@ For earlier versions, go to [Application Manager](https://raw.githubusercontent.
 
 [Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-na-landing.md)
 
-[Using agentic AI in ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
+[Using agentic workflows in ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
 
 [Customer Service Management AI agent collection triage cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/case-resolving-use-case.md)
 

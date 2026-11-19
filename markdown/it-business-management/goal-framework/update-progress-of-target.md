@@ -7,7 +7,7 @@ release: yokohama
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Create targets for a goal, Manage goals, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Update the progress of a target when its status is changed.
 
 ## Before you begin
 
-Role required: sn\_gf.goal\_useror sn\_gf.goal\_admin
+Role required: sn\_gf.goal\_user
 
 ## About this task
 
@@ -28,15 +28,15 @@ Role required: sn\_gf.goal\_useror sn\_gf.goal\_admin
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d279550e61">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d217173e59">
 
 Option
 
-</th><th align="left" id="d279550e64">
+</th><th align="left" id="d217173e62">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d279550e70">
+</th></tr></thead><tbody><tr><td id="d217173e68">
 
 **From the Targets related list**
 
@@ -47,7 +47,7 @@ Steps
 3.  In the Quantitative Targets or Qualitative Targets related list, click **New**.
 
 
-</td></tr><tr><td id="d279550e103">
+</td></tr><tr><td id="d217173e101">
 
 **From the Targets module**
 

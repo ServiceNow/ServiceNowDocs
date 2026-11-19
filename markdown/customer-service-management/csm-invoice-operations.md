@@ -5,14 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-invoice-operations.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Case Management for Invoice Operations
 
 The Case Management for Invoice Operations application enables customer service agents to create cases for specific lines from a single invoice or for multiple invoices.
+
+\[Omitted image "invoice-operations-case-form.png"\] Alt text: Invoice case page with case details and the activity stream. This page also includes the configurable side panel.
 
 The Case Management for Invoice Operations application includes the [Invoice case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/invoice-ops-installed-components.md). This case type provides the ability to reference multiple invoices or invoice lines as case lines on an invoice case record. By using case lines, agents can track multiple issues for the same invoice case and resolve the issues in each case line independently before resolving and closing the invoice case.
 
@@ -52,7 +54,7 @@ Creating an invoice case
 
 </td><td>
 
-An agent can create an invoice case from CRM Workspace or from the Core UI by selecting **New** from the Invoice Cases list view.
+An agent can create an invoice case from CSM Configurable Workspace or from the Core UI by selecting **New** from the Invoice Cases list view.
 
 </td></tr><tr><td>
 
@@ -84,9 +86,9 @@ Case Management for Invoice Operations \(com.sn\_csm\_invoice\) is a case manage
 
 **Note:** The Case Management for Invoice Operations application has a dependency on the [Case lines and workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-mgmt-case-lines.md) application \(com.sn\_case\_line\).
 
-The Case Management for Invoice Operations application includes list views for CRM Workspace and Core UI.
+The Case Management for Invoice Operations application includes list views for CSM Configurable Workspace and Core UI.
 
--   In CRM Workspace, expand the **Invoice Cases** list category in the Lists tab.
+-   In CSM Configurable Workspace, expand the **Invoice Cases** list category in the Lists tab.
 -   In Core UI, navigate to **All** &gt; **Invoice Case**.
 
 The Case Management for Invoice Operations application also includes tables, roles, service definitions, the Invoice case type, and other components. For more information, see [Components installed with Case Management for Invoice Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/invoice-ops-installed-components.md).
@@ -95,5 +97,5 @@ The Case Management for Invoice Operations application is available from the Ser
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 

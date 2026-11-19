@@ -1,24 +1,20 @@
 ---
 title: Create a Mentoring program
-description: Create customized mentoring programs that can be adopted by a mentee.
+description: Create a customized mentoring program that can be adopted by a mentee.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/mentoring/create-mentoring-pgm.html
 release: yokohama
 product: Mentoring
 classification: mentoring
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Mentoring, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configuring mentoring, Mentoring, Talent Development, Employee Service Management]
 ---
 
 # Create a Mentoring program
 
-Create customized mentoring programs that can be adopted by a mentee.
-
-## About this task
-
-Mentoring admins can create multiple mentoring programs. Employees and managers use the Employee Center portal to enroll as mentors or mentees. See, [Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/enroll-mentoring.md).
+Create a customized mentoring program that can be adopted by a mentee.
 
 ## Before you begin
 
@@ -35,15 +31,13 @@ Role required: sn\_ecn.mentoring\_admin
     |Field|Description|
     |-----|-----------|
     |Name|Name of the program.|
-    |Minimum duration|The minimum number of moths that the mentoring program lasts.|
-    |Maximum duration|The maximum number of months that the mentoring program lasts.|
-    |Default duration|The default number of months that the mentoring program lasts.|
-    |User criteria|Records that contain lists of users that can participate in a mentoring program. See, [Create User Criteria Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-user-criteria-record-in-knowledge-management.md).|
-    |Auto complete overdue mentoring|When selected, a mentoring program is automatically closed when it’s overdue.|
-    |Auto complete grace period|The number of months to wait before auto-completing overdue program.|
-    |Short description|A brief description of a mentoring program that is visible in the UI that lists the program.|
-    |Description|A longer more detailed description of the mentoring program.|
+    |Minimum duration|Minimum duration of the program in months.|
+    |Default duration|Default duration of the program in months.|
+    |State|State of the program.|
+    |Maximum duration|Maximum duration of the program in months.|
 
-4.  Select **Submit**.
+4.  Select **Save**.
 
+
+**Parent Topic:**[Configuring mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/configuring-mentoring-egd.md)
 

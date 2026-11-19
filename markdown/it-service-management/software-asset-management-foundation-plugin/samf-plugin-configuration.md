@@ -1,5 +1,5 @@
 ---
-title: Configuring the classic Basic Software Asset Management
+title: Configuring Basic Software Asset Management classic
 description: Configure Basic Software Asset Management if you prefer to continue using the classic version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.html
@@ -7,22 +7,22 @@ release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
-# Configuring the classic Basic Software Asset Management
+# Configuring Basic Software Asset Management classic
 
 Configure Basic Software Asset Management if you prefer to continue using the classic version.
 
--   **[Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md)**  
+-   **[Create a Basic Software Asset Management entitlement in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md)**  
 Software entitlements enable you to define license details that are matched to software models.
--   **[Create a SAM Foundation software model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareModelSAMF.md)**  
+-   **[Create a Basic Software Asset Management software model in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareModelSAMF.md)**  
 Software models are used to connect purchased software rights with discovered software installations. Additionally, software models can be used to manage suites of software as well as to publish requestable software to the Service Catalog.
--   **[Manually normalize a SAM Foundation software discovery model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_EditASoftwareDiscModelSAMF.md)**  
+-   **[Manually normalize a SAM Foundation software discovery model in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_EditASoftwareDiscModelSAMF.md)**  
 You can edit a software discovery model to manually normalize discovered software on the Software Discovery Models form so that it can be reconciled.
--   **[Manually override SAM Foundation edition value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md)**  
+-   **[Manually override SAM Foundation edition value in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md)**  
 When the edition of a software install is not automatically discovered, you can specify the edition on the Software Installation form with the correct value \(if known\) so the software can be successfully reconciled.
 
 **Parent Topic:**[Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)

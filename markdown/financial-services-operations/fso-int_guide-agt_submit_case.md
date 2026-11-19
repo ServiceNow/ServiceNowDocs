@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/fso-int\_guide-agt\_submit\_case.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Integration use cases, Developer resources, Financial Services Operations \(FSO\)]
+breadcrumb: [Integration use cases, Using the developer guide, Financial Services Operations \(FSO\)]
 ---
 
 # Agent submitting a case
@@ -50,7 +50,7 @@ The following diagram shows the flow of the REST API calls for this use case and
 
 </td><td>
 
-1.  The agent enters the customer lookup information on the complaint form. Using this information, formulate the REST call /api/getConsumerDetails using the [RESTMessageV2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md) API and send it to the remote bank application to obtain the customer's account details.
+1.  The agent enters the customer lookup information on the complaint form. Using this information, formulate the REST call /api/getConsumerDetails using the RESTMessageV2 API and send it to the remote bank application to obtain the customer's account details.
 2.  The /getConsumerDetails endpoint returns the consumer details or an error if the customer is not located.
 3.  Using the [GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) API, create/update the associated customer record in the ServiceNow Consumers \[csm\_consumer\] table with the consumer information.
 4.  Using the account information returned by the /api/getConsumerDetails REST call, lookup the customer mortgage record on the remote bank application. Again, use the RESTMessageV2 API to formulate and send the call to the /getFinancialAccounts endpoint on the bank application to obtain the customer's mortgage record.

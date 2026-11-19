@@ -1,33 +1,30 @@
 ---
 title: Assign a team member to an account
-description: Assign a team member to an account by selecting an employee and their role or responsibility in the Customer Service Management \(CSM\) application. When a team member has the Account Manager responsibility, they can view account details and perform actions on behalf of the account.
+description: Assign a team member to an account by selecting an employee and their role or responsibility in the Customer Service Management \(CSM\) application. When you assign a team member to an account with account manager responsibility, they can view the information and perform actions on behalf of the accounts, such as creating or updating cases from the customer portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_AssignTeamMemberToAccount.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Creating an account team member, Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Creating an account team, Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Assign a team member to an account
 
-Assign a team member to an account by selecting an employee and their role or responsibility in the Customer Service Management \(CSM\) application. When a team member has the Account Manager responsibility, they can view account details and perform actions on behalf of the account.
+Assign a team member to an account by selecting an employee and their role or responsibility in the Customer Service Management \(CSM\) application. When you assign a team member to an account with account manager responsibility, they can view the information and perform actions on behalf of the accounts, such as creating or updating cases from the customer portal.
 
 ## Before you begin
 
-Role required: One of the following roles:
+Role required: sn\_customerservice\_manager or admin
 
--   sn\_crm\_foundation\_admin
--   sn\_crm\_foundation\_data\_manager
--   sn\_crm\_account\_relationship\_data\_manager
--   sn\_customerservice\_manager
-
-**Note:** Install the CSM Contributor User \(com.snc.csm\_contributor\_user\) plugin, which has been moved to App Store beginning with Australia release.
+**Note:** CSM Contributor User \(com.snc.csm\_contributor\_user\) plugin must be installed.
 
 ## About this task
 
-Administrators can assign a team member to an account using the Account Team Members related list on the Responsibility Definition form. Similarly, customer service managers can assign team members to an account using the Account Team Members related list on the account or partner record.
+If you're the system administrator, you can assign a team member to an account from the Account Team Members related list on the Responsibility Definition form.
+
+If you're the customer service manager, you can assign a team member to an account from the Account Team Members related list on the account or partner record.
 
 ## Procedure
 
@@ -37,7 +34,7 @@ Administrators can assign a team member to an account using the Account Team Mem
 
 3.  From the Account Team Members related list, select **New**.
 
-    The account team member must have a sn\_customerservice.relationship\_contributor role.
+    The account team member must have sn\_customerservice.relationship\_contributor role.
 
 4.  On the form, fill in the fields.
 
@@ -63,7 +60,7 @@ User
 
 </td><td>
 
-Employee selected to fulfill the role or responsibility.**Note:** Starting with the Vancouver release, the External Organization Staff \[sn\_csm\_service\_organization\_external\_staff\] can be added as Account Relationship Managers through Account Team Members \(Account Staff Relationships\).
+Employee selected to fulfill the role or responsibility.**Note:** Starting with the Vancouver release, the Service Organization External Staff \[sn\_csm\_service\_organization\_external\_staff\] can be added as Account Relationship Managers through Account Team Members \(Account Staff Relationships\).
 
 </td></tr><tr><td>
 
@@ -88,32 +85,6 @@ Order
 </td><td>
 
 Specifies the sequence in which records are displayed, organized according to business preferences.
-
-</td></tr><tr><td>
-
-Active
-
-</td><td>
-
-Indicates whether this team membership is currently in effect. **Note:** The default value is set to **True**.
-
-If the active flag is **True**, access is granted through the relationship. However, if the active flag is **False**, no access is granted through the relationship.
-
-</td></tr><tr><td>
-
-Start date
-
-</td><td>
-
-Date when the relationship is set to active.
-
-</td></tr><tr><td>
-
-End date
-
-</td><td>
-
-Date when the relationship ends or is closed.**Note:** If both dates are set, the end date must be later than the start date.
 
 </td></tr></tbody>
 </table>5.  Select **Submit**.

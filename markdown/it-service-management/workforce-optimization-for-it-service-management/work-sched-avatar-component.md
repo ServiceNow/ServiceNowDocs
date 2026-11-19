@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, Setting up, Work scheduler, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, Setting up Work scheduler in Workforce Optimization for ITSM, Work scheduler in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Configure an avatar component for Work scheduler
@@ -17,8 +17,6 @@ breadcrumb: [Create a Work scheduler card using the Next Experience UI Builder, 
 Use the **Container** component to add an avatar and the user name of the work item assignee.
 
 ## Before you begin
-
-**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: workspace\_admin or ui\_builder\_admin​
 
@@ -50,15 +48,15 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     The Components pop-up screen appears.
 
-<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d225181e236">
+<table id="choicetable_jbw_3mm_ntb"><thead><tr><th align="left" id="d352040e220">
 
 To
 
-</th><th align="left" id="d225181e239">
+</th><th align="left" id="d352040e223">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d225181e245">
+</th></tr></thead><tbody><tr><td id="d352040e229">
 
 **Add the Avatar component**
 
@@ -71,7 +69,7 @@ In the configure tab, set the size, user name, and tooltip.1.  In the **Size** m
 5.  In the **Tooltip text** menu, type **!@state.cardProps.assignedTo**.
 
 
-</td></tr><tr><td id="d225181e308">
+</td></tr><tr><td id="d352040e292">
 
 **Add the Label Value Tabbed component**
 

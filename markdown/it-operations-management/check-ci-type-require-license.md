@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/check-ci-type-require-license.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -17,6 +17,8 @@ View the list of configuration item \(CI\) types that require IT Operations Mana
 ## Before you begin
 
 Ensure that your organization has purchased ITOM subscriptions. You cannot view the information in the **ITOM License** module without subscriptions.
+
+Verify that you installed the latest available version of ITOM/OT SU Licensing from ServiceNow Store.
 
 Role required: sn\_itom\_license.reader
 

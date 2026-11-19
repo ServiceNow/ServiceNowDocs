@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2025-01-30"
+reading_time_minutes: 4
 breadcrumb: [Mobile Experience for Security Incident Response, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -32,7 +32,11 @@ From the list of records, assign an open, unassigned response task to yourself o
 
     If you navigate away from the Security Incident Response Mobile app after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
+    \[Omitted image "mobile\_SIR\_open\_rt.jpg"\] Alt text: Open Response Tasks applet highlighted.
+
     The Open Response Tasks screen is displayed with a list of open tasks.
+
+    \[Omitted image "mobile-opentask-list.jpg"\] Alt text: Open Response Tasks list.
 
 3.  Refer to [Search for security incidents with the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mobile-sir-search.md) to search for tasks that match specific criteria.
 
@@ -42,15 +46,15 @@ From the list of records, assign an open, unassigned response task to yourself o
 
 5.  Choose one to continue.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d286266e150">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d277626e162">
 
 Option
 
-</th><th align="left" id="d286266e153">
+</th><th align="left" id="d277626e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d286266e159">
+</th></tr></thead><tbody><tr><td id="d277626e171">
 
 **Assign to Me**
 
@@ -58,7 +62,7 @@ Description
 
 Assign the response task to yourself. If the task is already assigned to you, this option is not displayed.
 
-</td></tr><tr><td id="d286266e168">
+</td></tr><tr><td id="d277626e180">
 
 **Reassign**
 
@@ -72,32 +76,34 @@ To assign or reassign the assignment group:1.  Tap **Assignment group**
 2.  Tap a name from the list that is displayed, or enter text in the search field.
  A message is displayed that confirms the record is updated. The task on the parent security incident is assigned to a new user and updated in your ServiceNow AI Platform instance.
 
- Tap **Submit** to save and submit your changes.
+ Tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon in Android.\) or **Submit** to save and submit your changes.
 
 </td></tr></tbody>
 </table>6.  Alternatively, to view the details of an open response task record, with the Open Response Tasks screen displayed, tap a record on the list.
 
 7.  With the tabs on the response task record displayed, choose one in the following table to continue.
 
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d286266e231">
+    \[Omitted image "mobile-sir-open-restasks.jpg"\] Alt text: Open Response Task record.
+
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d277626e261">
 
 Option
 
-</th><th align="left" id="d286266e234">
+</th><th align="left" id="d277626e264">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d286266e240">
+</th></tr></thead><tbody><tr><td id="d277626e270">
 
 **Details tab**
 
 </td><td>
 
-With the Details tab selected, review the fields on the response task. To edit fields or assign the task, tap the menu icon. From the menu that is displayed, choose from the following options.-   Tap **Edit**. With the Edit Response Task screen displayed, tap a field to expand it and choose one or more of the options that are displayed. Alternatively, tap the search icon and enter text.
+With the Details tab selected, review the fields on the response task. To edit fields or assign the task, tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\). From the menu that is displayed, choose from the following options.-   Tap **Edit**. With the Edit Response Task screen displayed, tap a field to expand it and choose one or more of the options that are displayed. Alternatively, tap the search icon and enter text.
 -   To reassign the task, tap **Reassign** or **Assign to Me**.
- After you complete your edits, tap **Submit** to save your changes and update the record. The Security Incident Response Task on the parent security incident in your ServiceNow AI Platform instance is updated.
+ After you complete your edits, tap the send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon in Android.\) or **Submit** to save your changes and update the record. The Security Incident Response Task on the parent security incident in your ServiceNow AI Platform instance is updated.
 
-</td></tr><tr><td id="d286266e276">
+</td></tr><tr><td id="d277626e318">
 
 **Activity Stream tab**
 
@@ -105,11 +111,11 @@ With the Details tab selected, review the fields on the response task. To edit f
 
 With the Activity Stream tab selected, choose one to continue.
 
- -   View the audit trail created by the Work notes on the record. To add a work note or attach a file, tap the plus icon.
--   Tap the menu icon to edit or reassign the task.
+ -   View the audit trail created by the Work notes on the record. To add a work note or attach a file, tap the plus icon \(\[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon.\).
+-   Tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit or reassign the task.
 
 
-</td></tr><tr><td id="d286266e297">
+</td></tr><tr><td id="d277626e351">
 
 **Screen icons at the bottom of the screen.**
 

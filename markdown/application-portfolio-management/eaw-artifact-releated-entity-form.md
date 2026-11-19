@@ -1,18 +1,18 @@
 ---
-title: Create related entities form
-description: Enterprise Architecture Workspace enables Enterprise Architects to associate an architectural artifact to existing elements in the ServiceNow AI Platform. These associations create a relationship between the artifact and related entities such as business capabilities, business applications, digital integrations, digital interfaces, and TRM products.
+title: Create new related entities form
+description: Enterprise Architecture Workspace enables the Enterprise Architects to associate an architectural artifact to existing elements in the ServiceNow AI Platform, such as business capabilities, business applications, digital integrations, digital interfaces, and TRM products. These associations creates a relationship between the artifact and related entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-artifact-releated-entity-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Create related entities form
+# Create new related entities form
 
-Enterprise Architecture Workspace enables Enterprise Architects to associate an architectural artifact to existing elements in the ServiceNow AI Platform. These associations create a relationship between the artifact and related entities such as business capabilities, business applications, digital integrations, digital interfaces, and TRM products.
+Enterprise Architecture Workspace enables the Enterprise Architects to associate an architectural artifact to existing elements in the ServiceNow AI Platform, such as business capabilities, business applications, digital integrations, digital interfaces, and TRM products. These associations creates a relationship between the artifact and related entities.
 
 ## Related Entities form fields
 
@@ -22,7 +22,7 @@ Enterprise Architecture Workspace enables Enterprise Architects to associate an 
 |Entity|Type of the business entity. The entity type can be a business application, business capability, digital integration, digital interface, or a TRM product.|
 |Target Record|Name of the particular business application or business capability or digital integration or digital interface, or a TRM product to which you want to associate the artifact.|
 
-**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 

@@ -1,17 +1,17 @@
 ---
-title: Manage AI models
+title: Manage large language models
 description: Access and select the LLM \(large language model\) provider used for various Now Assist skills. The selection impacts all the skills within the capability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/manage-large-language-models.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-02-24"
 reading_time_minutes: 2
 keywords: [Manage, LLM, Large language model]
-breadcrumb: [AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Configure general Now Assist settings, Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
 ---
 
-# Manage AI models
+# Manage large language models
 
 Access and select the LLM \(large language model\) provider used for various Now Assist skills. The selection impacts all the skills within the capability.
 
@@ -21,9 +21,9 @@ Role required: admin, sn\_nowassist\_admin.nsa\_admin
 
 This feature is available in AI Admin Hub version 6.2 and Yokohama patch 6 onwards.
 
-To enable the model provider selection, ensure that the skill is available in that region. The configuration controls for the approved model providers and corresponding compliant skills for specific regions are approved in AI Control Tower by the AI steward. For example, to update the model provider for Now Assist Q&amp;A Genius Results, ensure that all the skills under Conversational skills are available and active in the region.
+To enable the model provider selection, ensure that the skill is available in that region. The configuration controls for the approved model providers and corresponding compliant skills for specific regions are approved in Control Tower by the AI steward. For example, to update the model provider for Now Assist Q&amp;A Genius Results, ensure that all the skills under Conversational skills are available and active in the region.
 
-As per the AI Control Tower settings, the model provider selection is available at multiple levels, including skill, skill group, and instance levels in AI Admin Hub. Therefore, in a situation where a skill is not compliant or a model provider is unavailable in a particular region, AI Admin Hub console presents the admin persona with alternate region scope options seeking approval permissions to proceed with model provider selection. For example: You opt to switch to another model provider to use a particular Now Assist skill. Consider, the region scope must be changed to global location for the skill to work. Here, you can proceed only after consenting to the region scope change.
+As per the Control Tower settings, the model provider selection is available at multiple levels, including skill, skill group, and instance levels in AI Admin Hub. Therefore, in a situation where a skill is not compliant or a model provider is unavailable in a particular region, AI Admin Hub console presents the admin persona with alternate region scope options seeking approval permissions to proceed with model provider selection. For example: You opt to switch to another model provider to use a particular Now Assist skill. Consider, the region scope must be changed to global location for the skill to work. Here, you can proceed only after consenting to the region scope change.
 
 **Note:** For regulated markets:
 
@@ -42,17 +42,13 @@ As per the AI Control Tower settings, the model provider selection is available 
 
     -   Policy Summary set by your organization about skills using non-compliant model providers.
 
-        **Note:** Note the routing and fallback exception details. These details are also derived from the AI Control Tower configurations.
+        **Note:** Note the routing and fallback exception details. These details are also derived from the Control Tower configurations. See [Explore AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-model-providers.md) to learn more about Fallback exception and other controls set by the AI steward.
 
     -   Model providers assigned to the Now Assist skills and skill groups.
-    -   Policy and skill updates by the AI steward in AI Control Tower under the **Change History** tab.
+    -   Policy and skill updates by the AI steward in Control Tower under the **Change History** tab.
 
--   **[Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-model-providers.md)**  
-Edit or customize the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organization, and view the change history here.
--   **[Manage Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-integration.md)**  
-Choose the preferred integration type for configuring the available model providers. There are two ways to configure a model provider in AI Admin Hub. You can either select Original Equipment Manufacturer \(OEM\) or Bring Your Own Key \(BYOK\).
--   **[Manage version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-version.md)**  
-Manage the version of the model providers across skills and instance levels. You can change and update versions for the out-of-box and custom skills.
+-   **[Edit model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-model-providers.md)**  
+Edit the model provider at skill, skill group or at the instance level from the list of supported third party model providers, including the default Now LLM Service.
 
-**Parent Topic:**[AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-now-assist-admin-settings.md)
+**Parent Topic:**[Configure general Now Assist settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-now-assist-admin-settings.md)
 

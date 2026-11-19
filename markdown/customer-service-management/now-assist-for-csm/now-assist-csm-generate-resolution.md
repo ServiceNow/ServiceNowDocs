@@ -1,21 +1,21 @@
 ---
 title: Generate the resolution notes for a case by using ServiceNow Otto for Customer Service Management \(CSM\)
-description: Use the resolution notes generation skill in ServiceNow Otto for Customer Service Management \(CSM\) to generate resolution notes for a case. You can propose the resolution to the customer and add it to the case record. By generating the resolution notes, you can wrap up cases faster and provide information about the case resolution to other agents who might encounter similar issues.
+description: Generate the resolution notes for a case, propose the resolution to the customer, and add the resolution information to the case record by using the resolution notes generation skill in the ServiceNow Otto for Customer Service Management \(CSM\) application. By generating the resolution notes, you can wrap up cases faster and provide information about the case resolution to other agents who might encounter similar issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-generate-resolution.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Generate resolution notes in case form, Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Generate resolution notes in case form, Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Generate the resolution notes for a case by using ServiceNow Otto for Customer Service Management \(CSM\)
 
-Use the resolution notes generation skill in ServiceNow Otto for Customer Service Management \(CSM\) to generate resolution notes for a case. You can propose the resolution to the customer and add it to the case record. By generating the resolution notes, you can wrap up cases faster and provide information about the case resolution to other agents who might encounter similar issues.
+Generate the resolution notes for a case, propose the resolution to the customer, and add the resolution information to the case record by using the resolution notes generation skill in the ServiceNow Otto for Customer Service Management \(CSM\) application. By generating the resolution notes, you can wrap up cases faster and provide information about the case resolution to other agents who might encounter similar issues.
 
 ## Before you begin
 
@@ -23,17 +23,19 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 ## About this task
 
-In CRM Workspace and Core UI, you can generate the resolution information for a case by selecting **Propose Solution** on the case record. This UI Action displays the Propose Solution modal. Using this modal, you can select a resolution code, add information about the cause of the issue, and review and edit the resolution notes text.
+In CSM Configurable Workspace and Core UI, you can generate the resolution information for a case by selecting **Propose Solution** on the case record. This UI action displays the Propose Solution modal. Using this modal, you can select a resolution code, add information about the cause of the issue, and review and edit the resolution notes text.
 
 **Note:** The Propose Solution UI action is available to the customer service agents who have assigned cases in the Open state.
 
-You can also generate resolution information on demand from the ServiceNow Otto panel.
+You can also generate resolution information on demand from the Now Assist panel. For more information, see .
 
-**Note:** You can skip this if you're using the ServiceNow Otto Content menu experience for Resolution Notes Generation skill.
+**Note:** The resolution notes generation skill requires a minimum of 50 words in the case record to generate the resolution notes. If the resolution notes cannot be generated, the system displays a message below the **Resolution notes** field.
+
+**Note:** You can skip this if you are using the Now Assist Content menu experience for Resolution Notes Generation skill.
 
 ## Procedure
 
-1.  In CRM Workspace, open a customer service case.
+1.  In CSM Configurable Workspace, open a customer service case.
 
 2.  Select **Propose Solution**.
 

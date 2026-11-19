@@ -1,5 +1,5 @@
 ---
-title: Configuring mandatory skills
+title: Configuring the mandatory skills feature
 description: Configure the mandatory skills feature for use with the Customer Service Management and Field Service Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/workforce-optimization-for-field-service/configure-mandatory-skills-feature.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Mandatory skills, Manage skills, Users, Set up workforce, Configure, Field Service Management]
+breadcrumb: [Mandatory skills, Manage Field Service and Customer Service skills, Configuring users, Setting up your workforce, Configuring Field Service Management, Field Service Management]
 ---
 
-# Configuring mandatory skills
+# Configuring the mandatory skills feature
 
 Configure the mandatory skills feature for use with the Customer Service Management and Field Service Management applications.
 
@@ -90,8 +90,4 @@ Contains a list of tables for which the **Skills** field has already been migrat
 -   **Default value**: none
 
 </td></tr></tbody>
-</table>**Related topics**  
-
-
-[Skills table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/skills-table-fields.md)
-
+</table>

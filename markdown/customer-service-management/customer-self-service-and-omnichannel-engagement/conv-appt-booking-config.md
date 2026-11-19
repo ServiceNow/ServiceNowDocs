@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up self-service, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Configure Conversational Appointment Booking
@@ -20,13 +20,9 @@ Install and set up the Conversational Appointment Booking application to enable 
 
 Role required: va\_admin
 
-**Important:** Conversational Appointment Booking is currently supported on the Portal only.
-
 ## About this task
 
 This procedure provides general steps to set up the Conversational Appointment Booking application so that your customers can book appointments on your ServiceNow instance with a Virtual Agent.
-
-**Note:** A Now Assist for CSM license must be active on your instance.
 
 ## Procedure
 
@@ -38,7 +34,7 @@ This procedure provides general steps to set up the Conversational Appointment B
 
 3.  Publish the following topics:
 
-    -   Walk-up Appointment Scheduling - LLM
+    -   Schedule a Walk-up Appointment
     -   Reschedule a Walk-up Appointment
     -   Cancel a Walk-up Appointment
     For more information, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/publish-virtual-agent-topic.md).

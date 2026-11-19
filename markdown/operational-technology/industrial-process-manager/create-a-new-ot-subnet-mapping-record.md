@@ -1,20 +1,20 @@
 ---
-title: Create an OT subnet mapping record
-description: Create an OT subnet mapping to associate with an equipment model entity.
+title: Create a new OT subnet mapping record
+description: Create a new OT subnet mapping to associate with an equipment model entity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/industrial-process-manager/create-a-new-ot-subnet-mapping-record.html
 release: yokohama
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Automatically map all OT devices, Automated Mapping Across Zone-based IP Network Groups, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
+breadcrumb: [Automated mapping of OT devices to the Equipment Model, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
 
-# Create an OT subnet mapping record
+# Create a new OT subnet mapping record
 
-Create an OT subnet mapping to associate with an equipment model entity.
+Create a new OT subnet mapping to associate with an equipment model entity.
 
 ## Before you begin
 
@@ -24,9 +24,7 @@ Role required: sn\_ot\_amazing\_write or sn\_ot\_amazing\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Equipment Model - ISA** &gt; **Equipment Model Entities**.
-
-    Alternatively, you can navigate to **All** &gt; **Industrial Workspace Admin** &gt; **OT Subnet Mapping**. Then select **New** in the OT Subnet Mappings table. If you create an OT subnet mapping record using this method, continue from step 4.
+1.  Navigate to **Industrial Workspace Admin** &gt; **Industrial Process Manager** &gt; **Equipment Model Entities**.
 
 2.  Select the site or equipment model entity you want to create a new mapping for.
 
@@ -68,16 +66,7 @@ Type
 
 Select the subnet type from these options:-   IP Range - a subset of IP addresses in a subnet
 -   IP Network - the entire subnet, in CIDR notation
--   Discovered Subnet - a discovered subnet in your OT network
 
-
-</td></tr><tr><td>
-
-Discovered subnet
-
-</td><td>
-
-Reference to the OT Discovered Subnet \[sn\_ot\_discovered\_subnet\] table. This field only appears if you select Discovered Subnet for the **Type** field.
 
 </td></tr><tr><td>
 
@@ -171,5 +160,5 @@ Specify the VLAN ID if applicable.
 </table>6.  Select **Submit**.
 
 
-**Parent Topic:**[Automatically map all OT devices to an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/automatedly-map-all-ot-assets.md)
+**Parent Topic:**[Automated mapping of OT devices to the Equipment Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

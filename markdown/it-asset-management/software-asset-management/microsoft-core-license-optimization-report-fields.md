@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
 ---
 
 # Microsoft Core License Optimization Reports fields
@@ -218,15 +218,7 @@ Summary of the recommended licensing optimization.
 
 </td></tr><tr><td>
 
-Additional Notes
-
-</td><td>
-
-Additional notes about the recommended licensing optimization.
-
-</td></tr><tr><td>
-
-Savings Achieved
+Optimization Savings Achieved
 
 </td><td>
 
@@ -234,7 +226,7 @@ Indicates if you have saved money by implementing the recommended licensing opti
 
 </td></tr><tr><td>
 
-Realized Savings
+Optimization Realized Savings
 
 </td><td>
 

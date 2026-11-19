@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-case-mgmt-order-ops.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Case management, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Order Operations Case Management
@@ -113,9 +113,9 @@ Selecting **Submit** on the Order case record moves the order case and the order
 
 Order Operations Case Management \(com.sn\_order\_case\) is a case management application for handling support requests on orders or order lines. This application enables customers to process order-related services such as inflight order changes, order inquiries, and order dispute requests. It provides an order case type that includes order line items that need changes, workflows, and agent and customer experiences.
 
-The Order Operations Case Management application includes list views for CRM Workspace and Core UI.
+The Order Operations Case Management application includes list views for CSM Configurable Workspace and Core UI.
 
--   In CRM Workspace, expand the **Order Cases** list category in the Lists tab.
+-   In CSM Configurable Workspace, expand the **Order Cases** list category in the Lists tab.
 -   In Core UI, navigate to **All** &gt; **Customer Order Management** &gt; **Order Cases**.
 
 The Order Operations Case Management application also includes tables, roles, service definitions and other components. For more information, see [Components installed with Order Operations Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-mgmt-order-ops-install-comp.md).
@@ -124,10 +124,10 @@ The Order Operations Case Management application is available from the ServiceNo
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Related topics**  
 
 
-[Case Lines and Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-mgmt-case-lines.md)
+[Case lines and workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-mgmt-case-lines.md)
 

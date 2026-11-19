@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Terms and conditions, Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Terms and conditions, Contracts, Contract Management use, Contract Management, Asset Management, IT Service Management]
 ---
 
 # Add terms and conditions to a contract
@@ -22,7 +22,7 @@ Role required: admin, contract\_manager\(core UI and Hardware Asset Workspace on
 
 ## About this task
 
-You can add terms and conditions to a contract only when the contract state is **Draft** and the substate is **Awaiting Review**. After the contract is approved, the substate changes to **Approved** and terms and conditions can't be added or changed at any subsequent stage. However, you can add terms and conditions to cancelled contracts.
+Terms and Conditions can only be added to a contract when it is being created. After the contract is approved, the terms and conditions cannot be changed.
 
 ## Procedure
 

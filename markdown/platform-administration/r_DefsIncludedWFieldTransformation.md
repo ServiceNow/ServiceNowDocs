@@ -1,16 +1,16 @@
 ---
-title: Default transform definitions
+title: Default Transform Definitions
 description: The system offers default transform definitions for fields containing text, text numeric, and numeric values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_DefsIncludedWFieldTransformation.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Field normalization and transformation, Administering fields, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Default transform definitions
+# Default Transform Definitions
 
 The system offers default transform definitions for fields containing text, text numeric, and numeric values.
 

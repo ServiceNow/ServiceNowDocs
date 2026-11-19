@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
 ---
 
 # Software Asset Management health check
@@ -26,9 +26,8 @@ The current set of checks include checks for the following configurations:
 -   SQL Server CMDB
 -   Windows Server CMDB
 -   Windows Server Config
--   Oracle Database
+-   Database Server - Oracle
 -   Java - Oracle
--   WebLogic Server - Oracle
 -   Microsoft 365
 -   General
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Proactive Service Experience Workflows, Product Support for Technology]
+breadcrumb: [Proactive Service Experience Workflows reference, Proactive Service Experience Workflows]
 ---
 
 # Domain separation and Proactive Service Experience Workflows
@@ -26,11 +26,11 @@ Sample use case: An admin must be able to make comments required when a record c
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
 
-## Overview of Proactive Service Experience Workflows
+## Introduction to Proactive Service Experience Workflows
 
-Proactive Service Experience Workflows \(TAW\) is a series of workflows that enhance the Incident Management application and its integration with customer workflow processes, such as Case Management and Field Service Management. That means that Proactive Service Experience Workflows doesn't require any additional domain separation support because the foundation applications already provide that support. To learn more, see [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md).
+Proactive Service Experience Workflows \(TAW\) is a series of workflows that enhance the Incident Management application and its integration with customer workflow processes, such as Case Management and Field Service Management. That means that Proactive Service Experience Workflows doesn't require any additional domain separation support because the foundation applications already provide that support. To learn more, see [Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md).
 
-**Parent Topic:**[Product Support for Technology reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+**Parent Topic:**[Proactive Service Experience Workflows reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
 **Related topics**  
 

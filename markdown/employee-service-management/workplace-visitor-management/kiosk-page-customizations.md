@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2025-01-30"
+reading_time_minutes: 2
 breadcrumb: [Reference, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -37,7 +37,7 @@ Description
 
 Check-in with Qr-code
 
-</td><td>
+</td><td rowspan="2">
 
 Visitor must scan the invitation QR code for authentication. The QR code is in the email invite that is sent to the visitor.**Note:** Ensure that the kiosk operator provides camera permissions on the kiosk to scan the QR code. For more information, see [Setting up a kiosk device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/setting-up-kiosk-device.md).
 
@@ -45,15 +45,11 @@ Visitor must scan the invitation QR code for authentication. The QR code is in t
 
 Check-out with Qr-code
 
-</td><td>
-
-Visitor must scan the invitation QR code for authentication. The QR code is in the email invite that is sent to the visitor.**Note:** Ensure that the kiosk operator provides camera permissions on the kiosk to scan the QR code. For more information, see [Setting up a kiosk device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/setting-up-kiosk-device.md).
-
 </td></tr><tr><td>
 
 Check-in with email address
 
-</td><td>
+</td><td rowspan="2">
 
 Visitor must use their email address for authentication.
 
@@ -61,15 +57,11 @@ Visitor must use their email address for authentication.
 
 Check-out with email address
 
-</td><td>
-
-Visitor must use their email address for authentication.
-
 </td></tr><tr><td>
 
 Check-in with invitation passcode
 
-</td><td>
+</td><td rowspan="2">
 
 Visitor must use the invitation pass code for authentication. The pass code is in the email invite that is sent to the visitor.
 
@@ -77,15 +69,11 @@ Visitor must use the invitation pass code for authentication. The pass code is i
 
 Check-out with invitation passcode
 
-</td><td>
-
-Visitor must use the invitation pass code for authentication. The pass code is in the email invite that is sent to the visitor.
-
 </td></tr><tr><td>
 
 Check-in with phone number
 
-</td><td>
+</td><td rowspan="2">
 
 Visitor must use their phone number for authentication.
 
@@ -93,25 +81,17 @@ Visitor must use their phone number for authentication.
 
 Check-out with phone number
 
-</td><td>
-
-Visitor must use their phone number for authentication.
-
 </td></tr><tr><td>
 
 Check-in with your name
 
-</td><td>
+</td><td rowspan="2">
 
 Visitor must use their full name for authentication.
 
 </td></tr><tr><td>
 
 Check-out with your name
-
-</td><td>
-
-Visitor must use their full name for authentication.
 
 </td></tr></tbody>
 </table>## End Page
@@ -143,12 +123,4 @@ After creating an end page configuration, you can add further steps for the visi
 [Kiosk Page Configuration form]()
 
 [Location Policy form]()
-
-[New visit form]()
-
-[Additional requirement form]()
-
-[About visit-related tables]()
-
-[Differences between Workplace Visitor Management versions]()
 

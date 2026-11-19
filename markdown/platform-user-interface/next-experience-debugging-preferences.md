@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/next-experience-debugging-preferences.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Next Experience preferences, Working in the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure Next Experience debugging preferences
@@ -54,7 +54,7 @@ Automated Test Framework Page Inspector
 
 </td><td>
 
-Enables you to identify and inspect pages created in classic custom UI pages using the page inspector. For more information, see Page Inspector.
+Enables you to identify and inspect pages created in classic custom UI pages using the page inspector. For more information, see [Page Inspector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/atf-page-inspector.md).
 
 </td></tr><tr><td>
 

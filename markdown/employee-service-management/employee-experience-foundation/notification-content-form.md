@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Employee Center Pro reference, Employee Center Pro, EmployeeWorks, Employee Service Management]
+breadcrumb: [Reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
 
 # Notification content form
@@ -110,6 +110,8 @@ Option to activate the push notification for use.**Note:** Your content must be 
 **Related topics**  
 
 
+[Approvals experience reference]()
+
 [Block content form]()
 
 [Campaign overview and Campaign analytics dashboards]()
@@ -134,11 +136,15 @@ Option to activate the push notification for use.**Note:** Your content must be 
 
 [Employee Center Pro widgets]()
 
+[Feedback Analytics dashboard]()
+
 [Feedback configuration form]()
 
 [Feedback definition form]()
 
 [Link content form]()
+
+[Location Consent form]()
 
 [Properties installed with Content Experiences]()
 
@@ -146,7 +152,5 @@ Option to activate the push notification for use.**Note:** Your content must be 
 
 [Properties installed with Content Publishing]()
 
-[Standard banner and icon sizes]()
-
-[To-do content form]()
+[Schedule appointment form]()
 

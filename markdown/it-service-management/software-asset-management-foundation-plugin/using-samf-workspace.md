@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
 # Using Basic Software Asset Management workspace

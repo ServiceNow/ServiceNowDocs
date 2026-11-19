@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Organize components in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
+breadcrumb: [Organize components in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
 
 # Change the layout of a page created in Quebec or Rome
@@ -38,15 +38,15 @@ Layouts control what containers and components are available on a page, and wher
 
 5.  Depending on the type of page, do one of the following to select a container to update.
 
-<table id="choicetable_cc5_jsb_dqb"><thead><tr><th align="left" id="d203908e139">
+<table id="choicetable_cc5_jsb_dqb"><thead><tr><th align="left" id="d254605e139">
 
 Type of page
 
-</th><th align="left" id="d203908e142">
+</th><th align="left" id="d254605e142">
 
 Instruction
 
-</th></tr></thead><tbody><tr><td id="d203908e148">
+</th></tr></thead><tbody><tr><td id="d254605e148">
 
 **Existing page**
 
@@ -54,7 +54,7 @@ Instruction
 
 Select the container on your page for which you want to change the layout.**Note:** Alternately, you can select the container in the content tree to the left of the main page area. When the page structure is in the structured tree, you can more easily find the container you want to change. If you have many components and containers in the content tree, use the search bar to find a specific container.
 
-</td></tr><tr><td id="d203908e160">
+</td></tr><tr><td id="d254605e160">
 
 **New page**
 
@@ -97,15 +97,15 @@ In the content tree to the left of the main page area, select the **Body** of yo
 
     You can add components by using any of the following ways.
 
-<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d203908e310">
+<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d254605e310">
 
 To add a component
 
-</th><th align="left" id="d203908e313">
+</th><th align="left" id="d254605e313">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d203908e319">
+</th></tr></thead><tbody><tr><td id="d254605e319">
 
 **Directly from your page \(option 1\)**
 
@@ -113,7 +113,9 @@ Do the following
 
 Select the add content \(plus\) icon, select the **Components** tab, and then select a component.
 
-</td></tr><tr><td id="d203908e336">
+ \[Omitted image "component-add-from-stage.png"\] Alt text: Add content icon selected on the stage showing the toolbox window with Components tab selected.
+
+</td></tr><tr><td id="d254605e343">
 
 **Directly from your page \(option 2\)**
 
@@ -121,7 +123,9 @@ Select the add content \(plus\) icon, select the **Components** tab, and then se
 
 On a column layout or component, select the add before \(plus\) or add after \(plus\) icon, and then select a component.
 
-</td></tr><tr><td id="d203908e348">
+ \[Omitted image "component-add-on-stage-plus.png"\] Alt text: Animation showing how to select the + Add icon on a component and add a component.
+
+</td></tr><tr><td id="d254605e364">
 
 **From the content tree**
 
@@ -131,7 +135,7 @@ In the content tree, select **+ Add content** and then select a component.
 
  \[Omitted image "component-add-from-content-tree.png"\] Alt text: Black arrow pointing to + add content option in content tree next to the toolbox window with Components tab selected.
 
-</td></tr><tr><td id="d203908e370">
+</td></tr><tr><td id="d254605e386">
 
 **From the floating menu above the page**
 
@@ -139,18 +143,20 @@ In the content tree, select **+ Add content** and then select a component.
 
 On a column layout or component, select the Menu icon, select **Add before** or **Add after**, and then select a component.
 
+ \[Omitted image "component-add-floating.png"\] Alt text: Arrow pointing to the expanded menu on the stage.
+
 </td></tr></tbody>
 </table>8.  Modify the layout styling options in any of the following ways.
 
-<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d203908e397">
+<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d254605e420">
 
 Option
 
-</th><th align="left" id="d203908e400">
+</th><th align="left" id="d254605e423">
 
 Instruction
 
-</th></tr></thead><tbody><tr><td id="d203908e406">
+</th></tr></thead><tbody><tr><td id="d254605e429">
 
 **Change the layout styling**
 
@@ -167,7 +173,7 @@ You can click the container in the content tree, or you can click the container 
 3.  Choose to display your content as either Flex or Grid. For more information about flex or grid options, see [Using Flexbox layouts in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/flexbox-uib.md) or [Using CSS Grid layouts to build a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/css-grid-uib.md).
 
 
-</td></tr><tr><td id="d203908e460">
+</td></tr><tr><td id="d254605e483">
 
 **Choose Flex**
 
@@ -198,7 +204,7 @@ You can click the container in the content tree, or you can click the container 
     -   Padding: Set the padding for each side of your flexbox items.
 \[Omitted image "UIB-flexbox-styling.png"\] Alt text: Flex style options.
 
-</td></tr><tr><td id="d203908e592">
+</td></tr><tr><td id="d254605e615">
 
 **Select Grid**
 

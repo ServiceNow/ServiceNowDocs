@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [\(Legacy\) Analytics Hub, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Analytics Hub, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Analytics Hub for a specific indicator
@@ -89,7 +89,7 @@ The Analytics Hub for a specific indicator has the Overview and Compare tabs, wh
 
 [Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/pa-targets-thresholds.md)
 
-[\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/impact-analysis.md)
+[Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/impact-analysis.md)
 
 [Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cim-landing-page.md)
 

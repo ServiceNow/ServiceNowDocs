@@ -1,20 +1,20 @@
 ---
 title: Request Incident Management — Core
-description: Request the Incident Management — Core plugin \(com.snc.incident\_management\), which provides the incident state model. The plugin includes demo data and activates related plugins if they are not already active.
+description: Incident Management - Core plugin \(com.snc.incident\_management\) is a new incident state model that includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-management/activate-incident-management-core-plugin.html
 release: yokohama
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Incident Management plugins, Reference, Incident Management, IT Service Management]
 ---
 
 # Request Incident Management — Core
 
-Request the Incident Management — Core plugin \(com.snc.incident\_management\), which provides the incident state model. The plugin includes demo data and activates related plugins if they are not already active.
+Incident Management - Core plugin \(com.snc.incident\_management\) is a new incident state model that includes demo data and activates related plugins if they are not already active.
 
 ## Before you begin
 
@@ -22,15 +22,17 @@ Role required: admin
 
 ## About this task
 
-Incident Management — Core \(com.snc.incident\_management\) is available by default in new instances. Customers upgrading from Geneva or earlier versions must request the plugin. For more information, see [KB0564465](https://support.servicenow.com/kb_view.do?sysparm_article=KB0564465) article in the Now Support Knowledge Base.
+Incident Management - Core \(com.snc.incident\_management\) is available by default in new instances. Customers upgrading from Geneva or earlier versions must request the plugin. For more information, see [KB0564465](https://support.servicenow.com/kb_view.do?sysparm_article=KB0564465).
 
-**Note:** If the new state model is installed on upgraded instances, map the old states to the new ones. The mapping is especially important if you have made customizations, implemented workflows, added script includes, or added business rules.
+**Note:** If the new state model is installed on upgraded instances, then ensure that the old states are mapped to the new ones. The mapping is especially important if you have made customizations, implemented workflows, added script includes, and added business rules.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
+
+    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -71,6 +73,8 @@ Select the date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
 
+    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
+
 4.  Select **Submit**.
 
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
@@ -81,5 +85,5 @@ Select the date and time to activate the plugin.
 **Related topics**  
 
 
-[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[List of Yokohama plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
 

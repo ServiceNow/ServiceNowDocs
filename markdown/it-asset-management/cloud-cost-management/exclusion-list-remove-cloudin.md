@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exclude a resource from all Cloud Cost Management reports, Use, Cloud Cost Management, IT Asset Management, Asset Management]
+breadcrumb: [Exclude a resource from all Cloud Cost Management reports, Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
 ---
 
 # Remove a resource from the Excluded Resources list

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/start-chat-agent-consumer-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Using the Consumer Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Chat with an agent from the Consumer Service Portal
@@ -36,11 +36,4 @@ Role required: sn\_customerservice.consumer
 ## What to do next
 
 If the agent creates a case or links the discussion to an existing case, you can view these cases from the Consumer Service Portal by selecting **Cases** and displaying the case list.
-
-**Related topics**  
-
-
-[Pre-chat from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-pre-chat.md)
-
-[Chat anonymously with an agent from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/start-anonymous-chat-with-agent.md)
 

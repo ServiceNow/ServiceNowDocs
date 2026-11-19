@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/add-trigger-aia.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+last_updated: "2025-11-23"
+reading_time_minutes: 2
+breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---
 
 # Add a trigger to an AI agent
@@ -22,8 +22,6 @@ Role required: sn\_aia.admin
 
 Adding a trigger is optional. If you want your AI agent to be used only in chats, you don't need to add a trigger. Only add a trigger if you want to invoke the AI agent automatically when some event occurs.
 
-**Note:** Triggers contain instance-specific information. If you're moving AI agents or agentic workflows between instances using Update Sets, you must set the triggers to inactive before adding them to the update sets and then activate them on the new instance.
-
 If you don't want to add a trigger, skip to the final step, [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/channels-access-aia.md).
 
 ## Procedure
@@ -36,7 +34,7 @@ If you don't want to add a trigger, skip to the final step, [Select channels and
     |------|-----------|
     |Select trigger|List of triggers that are available in the instance.|
     |Name|Name of the trigger.|
-    |Trigger objective|Additional user statements or sample utterances that help guide when to trigger this AI agent.|
+    |Trigger objective|Additional user statements or sample utterances that help guide when to trigger this agentic workflow.|
 
     \[Omitted image "edit-trigger-1.png"\] Alt text: Edit/create a trigger basic description
 
@@ -54,7 +52,7 @@ Table
 
 </td><td>
 
-Name of the applicable table for your AI agent.
+Name of the applicable table for your agentic workflow.
 
 </td></tr><tr><td>
 
@@ -62,7 +60,7 @@ Conditions
 
 </td><td>
 
-Conditions that you can add to control the trigger configuration. You must have at least one condition.Select **+ Add condition set** to add conditions to your AI agent trigger.
+Conditions that you can add to control the trigger configuration. You must have at least one condition.Select **+ Add condition set** to add conditions to your agentic workflow trigger.
 
 </td></tr><tr><td>
 
@@ -92,9 +90,9 @@ Channel
 
 </td><td>
 
-Medium for the AI agent output: ServiceNow Otto panel or Virtual Agent.
+Medium for the agentic workflow output: Now Assist panel or Virtual Agent.
 
- **Note:** To view the output from a triggered AI agent in the ServiceNow Otto panel, you need the now\_assist\_panel\_user role.
+ **Note:** To view the output from a triggered agentic workflow in the Now Assist panel, you need the now\_assist\_panel\_user role.
 
 </td></tr><tr><td>
 

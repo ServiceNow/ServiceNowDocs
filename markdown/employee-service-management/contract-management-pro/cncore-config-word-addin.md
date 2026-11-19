@@ -7,10 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-keywords: [Word add-in, Microsoft Word add-in, Add-ins for ServiceNow contracts, Add-ins for Contract Management]
-breadcrumb: [Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
 ---
 
 # Configure the Microsoft Word add-in for ServiceNow Contracts
@@ -35,13 +34,9 @@ Role required: admin
 
 2.  From the Office Manifests list, select **ServiceNow Contracts**.
 
-    \[Omitted image "cmpro-office-add-in.png"\] Alt text: Microsoft Word add-in for Contract Management Pro.
-
 3.  If your ServiceNow instance is configured with single sign-on \(SSO\) login, clear the **Login Page not Required** check box, right-click the form header, and then select **Save**.
 
 4.  Select **Download Manifest** to download the file.
-
-    \[Omitted image "cmpro-manifest-file.png"\] Alt text: Download Microsoft Word add-in manifest file.
 
 5.  If your ServiceNow instance is configured with single sign-on \(SSO\) login, update the manifest file.
 
@@ -64,15 +59,15 @@ Role required: admin
 
 6.  Configure the add-in.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d598701e278">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d552462e209">
 
 System
 
-</th><th align="left" id="d598701e281">
+</th><th align="left" id="d552462e212">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d598701e287">
+</th></tr></thead><tbody><tr><td id="d552462e218">
 
 **macOS**
 
@@ -86,16 +81,13 @@ Steps
 6.  Navigate to the menu **Home**.
  **Note:** To connect to multiple instances using the Microsoft Word add-in, add the corresponding manifest files to the `wef` folder in your system and ensure that each manifest file contains a unique ID.
 
-</td></tr><tr><td id="d598701e352">
+</td></tr><tr><td id="d552462e283">
 
 **Windows**
 
 </td><td>
 
 1.  Publish the manifest file. For more information, see [Office Add-ins with the unified app manifest for Microsoft 365](https://learn.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) from the Microsoft Office 365.
-
-**Note:** Ensure you have completed the step for publishing the manifest file before proceeding with the next steps.
-
 2.  Open Microsoft Word.
 3.  Open a document where you want to mark the content controls
 4.  Navigate to the menu **Insert** &gt; **My Add-ins**.
@@ -103,7 +95,7 @@ Steps
 6.  Navigate to the **Home** menu.
 
 
-</td></tr><tr><td id="d598701e411">
+</td></tr><tr><td id="d552462e340">
 
 **Microsoft Word Online**
 
@@ -125,9 +117,5 @@ The Upload confirmation screen appears.
 </table>
 ## Result
 
-The **ServiceNow Contracts** add-in is available on the Home ribbon. When you log in with ServiceNow instance credentials, the templates available in the ServiceNow instance appears in the add-in screen.
-
-## What to do next
-
-[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)
+The **ServiceNow Contracts** add-in is available in the Home ribbon.
 

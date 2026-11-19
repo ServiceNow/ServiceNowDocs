@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Manage OAuth tokens, OAuth inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Manage OAuth tokens, OAuth Inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Revoke an OAuth token
@@ -18,11 +18,11 @@ You might want to revoke an OAuth access or refresh token for security reasons.
 
 ## Before you begin
 
-Role required: oauth\_admin
+Role required: admin
 
 ## About this task
 
-Revoking the token pertains to the situation where your instance acts as the OAuth resource server. You can revoke the token through a URL.
+Revoking the token pertains to the situation where your instance acts as the OAuth resource server. You can revoke the token through a URL or by .
 
 ## Procedure
 

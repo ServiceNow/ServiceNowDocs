@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Workflow Studio, Build workflows]
+breadcrumb: [Configuring Workflow Studio, Workflow Studio, Build workflows]
 ---
 
 # Update to the latest version of Workflow Studio
@@ -22,13 +22,13 @@ Role required: admin
 
 ## About this task
 
-Workflow Studio displays an information banner when a new version is available.
+As of Washington DC Patch 3, updating Workflow Studio automatically updates all of its application dependencies such as Flow Designer, Playbook, and Decision Builder.
 
-\[Omitted image "workflow-studio-new-version.png"\] Alt text: Workflow Studio information banner indicating that a new version is available
+As of Xanadu Patch 3, you can also find and update each individual Workflow Studio application dependency from the ServiceNow® Store or the list of plugins.
 
-Updating Workflow Studio automatically updates all of its application dependencies such as Flow Designer, Playbook, and Decision Builder.
+\[Omitted image "workflow-studio-new-version-available.png"\] Alt text: Workflow Studio information banner indicating that a new version is available
 
-You can also find and update each individual Workflow Studio application dependency from the ServiceNow® Store or the list of plugins.
+Beginning with the Xanadu release, Workflow Studio displays an information banner when a new version is available.
 
 ## Procedure
 

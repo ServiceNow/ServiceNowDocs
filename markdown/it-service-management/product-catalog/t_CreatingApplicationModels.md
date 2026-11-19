@@ -7,9 +7,9 @@ release: yokohama
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Models, Product Catalog, Asset Management common applications, IT Service Management]
+breadcrumb: [Models, Product Catalog, Asset Management, IT Service Management]
 ---
 
 # Create application models
@@ -38,5 +38,5 @@ Role required: model\_manager
 **Related topics**  
 
 
-[bundle-itbm.agile-development]
+[Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/agile-landing-page.md)
 

@@ -1,16 +1,16 @@
 ---
-title: Configure License and Permit Eligibility Framework in License and Permit Administration
+title: Configure Eligibility in License and Permit Administration
 description: The eligibility criteria in License and Permit Administration allows an agent to confirm whether an applicant is eligible for the specific license or permit requested.​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-configure-eligibility-lpr.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [License and Permit Playbook, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure License and Permit Eligibility Framework in License and Permit Administration
+# Configure Eligibility in License and Permit Administration
 
 The eligibility criteria in License and Permit Administration allows an agent to confirm whether an applicant is eligible for the specific license or permit requested.​
 

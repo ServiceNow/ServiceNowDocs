@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Setting up Financial Services Deposit Operations, Deposit Operations, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Configure Financial Services Deposit Operations
@@ -35,15 +35,15 @@ Role required:
 
     Modify them or add new ones as applicable.
 
-<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d114772e162">
+<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d95402e141">
 
 Task
 
-</th><th align="left" id="d114772e165">
+</th><th align="left" id="d95402e144">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d114772e171">
+</th></tr></thead><tbody><tr><td id="d95402e150">
 
 **Configure service definitions**
 
@@ -51,7 +51,7 @@ Description
 
 [Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-service-definitions.md) to enable unique flows and views for deposit service cases and tasks. You can add new case types and configure service definitions for each type.
 
-</td></tr><tr><td id="d114772e193">
+</td></tr><tr><td id="d95402e172">
 
 **Edit or create flows**
 
@@ -59,7 +59,7 @@ Description
 
 [Edit or create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
 
-</td></tr><tr><td id="d114772e215">
+</td></tr><tr><td id="d95402e194">
 
 **Configure playbooks**
 
@@ -67,15 +67,15 @@ Description
 
 [Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d114772e237">
+</td></tr><tr><td id="d95402e216">
 
-**Configure CRM Workspace**
+**Configure CSM Configurable Workspace**
 
 </td><td>
 
-[Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable agents to interact with customers and create and work on cases.
+[Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable agents to interact with customers and create and work on cases.
 
-</td></tr><tr><td id="d114772e265">
+</td></tr><tr><td id="d95402e244">
 
 **Configure Service Level Agreements \(SLAs\)**
 
@@ -83,7 +83,7 @@ Description
 
 [Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-sla-definitions-fso-cases.md) to configure SLA timings for deposit service cases and tasks.
 
-</td></tr><tr><td id="d114772e284">
+</td></tr><tr><td id="d95402e263">
 
 **Configure user groups**
 
@@ -91,7 +91,7 @@ Description
 
 [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.Configure agent connector and contributor roles for the groups, if required. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-combine-csm-industry-roles.md).
 
-</td></tr><tr><td id="d114772e321">
+</td></tr><tr><td id="d95402e300">
 
 **Configure assignment rules**
 
@@ -99,7 +99,7 @@ Description
 
 [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d114772e337">
+</td></tr><tr><td id="d95402e316">
 
 **Configure Document Processor**
 
@@ -109,3 +109,5 @@ Description
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Setting up Financial Services Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-deposit-operations/config-fso-deposit-ops.md)
+

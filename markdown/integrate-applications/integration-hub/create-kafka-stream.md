@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Using Stream Connect for Apache Kafka, Importing and streaming data in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Create a Kafka stream
@@ -53,11 +53,11 @@ Name of the Kafka stream.
 
 </td></tr><tr><td>
 
-Topic Alias
+Topic
 
 </td><td>
 
-Name of the topic alias for the topic to monitor for messages.
+Name of the topic to monitor for messages.
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Option to run the consumer with the credentials of a specified user.
 
 </td></tr><tr><td>
 
-Consumer
+Kafka ETL consumer
 
 </td><td>
 

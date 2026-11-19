@@ -1,18 +1,18 @@
 ---
 title: Create a knowledge article from a case
-description: Create knowledge articles from customer service cases to save case information and make it available to others in a knowledge base.
+description: Reuse information from a customer service case by creating knowledge articles from customer service cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspace-create-knowledge.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Using CSM Configurable Workspace in Customer Service Management, Manage cases, Using Customer Service Management, Customer Service Management]
 ---
 
 # Create a knowledge article from a case
 
-Create knowledge articles from customer service cases to save case information and make it available to others in a knowledge base.
+Reuse information from a customer service case by creating knowledge articles from customer service cases.
 
 ## Before you begin
 
@@ -20,41 +20,28 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 ## About this task
 
-When you create or edit a knowledge article in CSM Configurable Workspace, you can access the editing capabilities available with the [Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/kc-article-editor.md). Use the editing capabilities available with the article editor to format article content such as text, images, and media.
-
-When creating a knowledge article, you can select a knowledge base and an article template and see a preview of the selected template. Then you can use the article editor in CRM Workspace to create the article.
-
-**Note:** The **sn\_km\_center.glide.knowman.ece.enable** system property enables the Knowledge Center article editor within CRM Workspace. This property is set to true by default for zBoot customers and can be enabled by upgrade customers.
-
-Before creating knowledge articles, the system administrator needs to [enable creation of articles from customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/administer-create-article-from-case.md).
+Your administrator must [enable creation of articles from customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/administer-create-article-from-case.md).
 
 ## Procedure
 
-1.  Open a customer service case.
+1.  Open CSM Configurable Workspace.
 
-2.  Select **Create** &gt; **Create Knowledge**.
+2.  Open a customer service case.
 
-    The system displays an interceptor page.
+3.  Click the More UI Actions icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions icon.\).
 
-3.  Select a knowledge base.
+4.  Click **Create Knowledge Article**.
 
-    After selecting a knowledge base, the system displays a list of the active templates.
+    This creates a new knowledge article in a sub-tab. By default, the new article is created from the KCS Article template. The following information is copied from the case to the knowledge article:
 
-4.  Select an article template.
+    -   Short description
+    -   Source
+    -   Cause
+    -   Close notes
+5.  In the **Knowledge base** field, enter the name of the knowledge base in which you want this article to display.
 
-5.  View the template preview and then select **Next**.
+6.  Edit the knowledge article.
 
-    The system displays the Knowledge Center article editor.
-
-6.  Use the article editor to create your article.
-
-    The article editor page includes three columns:
-
-    -   Article information fields
-    -   Article editor
-    -   Article building blocks and settings
-    For more information about using the Knowledge Center article editor to create your article, see [Generate and edit articles using the article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/kc-edit-knowledge-article.md).
-
-7.  Select **Save**.
+7.  Click **Save**.
 
 

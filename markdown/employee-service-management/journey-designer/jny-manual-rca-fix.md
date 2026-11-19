@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Installation and configuration overview, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Fix Restricted Caller Access \(RCA\) approval requests

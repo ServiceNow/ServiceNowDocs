@@ -1,5 +1,5 @@
 ---
-title: Assigning Policy and Compliance Management roles to your users
+title: Assign Policy and Compliance Management roles to your users
 description: Before you can successfully implement or use the Policy and Compliance Management application, you must assign roles to your users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/assign-user-roles.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Perform, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Perform Policy and Compliance Management administration, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Assigning Policy and Compliance Management roles to your users
+# Assign Policy and Compliance Management roles to your users
 
 Before you can successfully implement or use the Policy and Compliance Management application, you must assign roles to your users.
 

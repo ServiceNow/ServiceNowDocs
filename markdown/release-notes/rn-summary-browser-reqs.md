@@ -1,18 +1,18 @@
 ---
-title: Browser requirements for all Brazil features and products
-description: Cumulative release notes summary on browser requirements for Brazil features and products.
+title: Browser requirements for all Yokohama features and products
+description: Cumulative release notes summary on browser requirements for Yokohama features and products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-browser-reqs.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-04"
-reading_time_minutes: 2
-breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+last_updated: "2026-11-19"
+reading_time_minutes: 5
+breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
-# Browser requirements for all Brazil features and products
+# Browser requirements for all Yokohama features and products
 
-Cumulative release notes summary on browser requirements for Brazil features and products.
+Cumulative release notes summary on browser requirements for Yokohama features and products.
 
 Several products have specific browser requirements. Review this information to ensure you are using the correct browsers and browser versions.
 
@@ -26,22 +26,11 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
-AI Agent Studio
+AI Analytics
 
 </td><td>
 
-AI agents and AI Agent Studio support various browsers, including Google Chrome and Microsoft Edge. AI agents and AI Agent Studio aren't supported in Internet Explorer.
-
-</td></tr><tr><td>
-
-AI Desktop Actions
-
-</td><td>
-
--   ****
-
-ServiceNow Otto AI agents support various browsers, including Google Chrome and Microsoft Edge. ServiceNow Otto AI agents aren't supported in Internet Explorer.
-
+AI Analytics supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -56,36 +45,74 @@ For optimal performance, use AI Search in the latest release of Google Chrome or
 
 </td></tr><tr><td>
 
+AI Skill Kit
+
+</td><td>
+
+Now Assist supports various browsers, including Google Chrome and Microsoft Edge. Now Assist isn’t supported in Microsoft Internet Explorer.
+
+</td></tr><tr><td>
+
+Advanced Work Assignment
+
+</td><td>
+
+Advanced Work Assignment doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers that are listed in Browser support.
+
+</td></tr><tr><td>
+
 Agent experience for CSM
 
 </td><td>
 
--   ****
-
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/browser-support.md).
-
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/browser-support.md).
 
 </td></tr><tr><td>
 
-Data Management for CSM
+Automated Test Framework
 
 </td><td>
 
--   ****
+Automated Test Framework supports running tests only from desktop browsers. You can't run tests or test suites from tablets, mobile browsers, or the mobile UI. Some desktop browsers require additional configuration. For more information, see [Browser recommendations for Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/browser-recommendations-atf.md).
 
-Starting with the Brazil release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
-
+Automated Test Framework offers limited support for test design on tablets. You can't add new custom UI test steps from tablets because tablets can't retrieve components. Review any existing custom UI test steps that were added from a desktop browser instead.
 
 </td></tr><tr><td>
 
-Data Privacy and Discovery
+Business Continuity Management
 
 </td><td>
 
--   ****
+Business Continuity Management requires the following browsers:
 
-For optimal performance with Data Privacy and Discovery features, use the latest release of Chrome, Firefox, or Safari. Internet Explorer is not supported. Modern browsers with JavaScript enabled are required for all interactive features.
+-   Google Chrome
+-   Firefox and Firefox Extended Support Release \(ESR\)
+-   Microsoft Edge Chromium
+-   Safari 12.0 and later versions
 
+</td></tr><tr><td>
+
+Case management for CSM
+
+</td><td>
+
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/browser-support.md).
+
+</td></tr><tr><td>
+
+Control Tower
+
+</td><td>
+
+The Control Tower application supports all the browsers.
+
+</td></tr><tr><td>
+
+Data management for CSM
+
+</td><td>
+
+Starting with the Yokohama release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -93,18 +120,7 @@ Digital End-User Experience
 
 </td><td>
 
-Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see .
-
-</td></tr><tr><td>
-
-Domain Separation
-
-</td><td>
-
--   ****
-
-For optimal performance with Domain Separation features, use the latest release of Chrome, Firefox, or Safari. Internet Explorer is not supported. Modern browsers with JavaScript enabled are required for all administrative and policy configuration interfaces.
-
+Enable the DEX browser extension for monitoring Web applications to collect various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension for monitoring web/SaaS applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/enable-dex-browser-extension.md).
 
 </td></tr><tr><td>
 
@@ -119,25 +135,19 @@ For optimal performance, use External Content Connectors in the latest release o
 
 </td></tr><tr><td>
 
-Firewall Audits and Reporting
+Intelligence for CSM
 
 </td><td>
 
--   ****
-
-Use the latest version of Chrome, Firefox, Safari, or Edge for optimal performance.
-
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/browser-support.md).
 
 </td></tr><tr><td>
 
-Kubernetes Visibility Agent \(KVA\)
+Legal Hold Notification
 
 </td><td>
 
--   ****
-
-Use the latest version of Chrome, Firefox, Safari, or Edge for optimal performance when accessing the Kubernetes explorer dashboard.
-
+The Legal Hold Notification application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -145,10 +155,81 @@ Next Experience
 
 </td><td>
 
--   ****
+The Yokohama release doesn't support Internet Explorer 11. The iOS version of Firefox is also not supported.
 
-Next Experience doesn’t support Internet Explorer 11. The iOS version of Firefox is also not supported.
+</td></tr><tr><td>
 
+Next Experience Developer \(NED\) Tools
+
+</td><td>
+
+Next Experience Developer Tools requires Google Chrome.
+
+</td></tr><tr><td>
+
+Now Assist
+
+</td><td>
+
+Now Assist supports various browsers, including Google Chrome and Microsoft Edge. Now Assist isn’t supported in Microsoft Internet Explorer.
+
+</td></tr><tr><td>
+
+Now Assist AI agents
+
+</td><td>
+
+Now Assist AI agents supports various browsers, including Google Chrome and Microsoft Edge. Now Assist AI agents isn’t supported in Internet Explorer.
+
+</td></tr><tr><td>
+
+Now Assist in Contract Management
+
+</td><td>
+
+Now Assist supports various browsers, including Google Chrome and Microsoft Edge. Now Assist isn’t supported in Microsoft Internet Explorer.
+
+</td></tr><tr><td>
+
+Now Assist in Virtual Agent
+
+</td><td>
+
+Now Assist in Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
+
+</td></tr><tr><td>
+
+Operational Resilience
+
+</td><td>
+
+Business Continuity Management requires the following browsers:
+
+-   Google Chrome
+-   Firefox and Firefox Extended Support Release \(ESR\)
+-   Microsoft Edge Chromium
+-   Safari 12.0 and later versions
+
+</td></tr><tr><td>
+
+Policy and Compliance Management
+
+</td><td>
+
+GRC: Policy and Compliance Management requires the latest public release and two previous release versions of the following browsers:
+
+-   Google Chrome
+-   Firefox and Firefox Extended Support Release \(ESR\)
+-   Microsoft Edge Chromium
+-   Safari 12.0 and later versions
+
+</td></tr><tr><td>
+
+RPA Hub
+
+</td><td>
+
+ServiceNow workspaces don’t support mobile devices. For more information about the list of supported browsers, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -156,21 +237,27 @@ Self-service and omnichannel engagement for CSM
 
 </td><td>
 
--   ****
-
-The WebRTC voice call widget is not supported on mobile browsers.
-
+Internet Explorer isn't supported.
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Virtual Agent
+Service Portal
 
 </td><td>
 
--   ****
+The Yokohama release doesn't support Internet Explorer 11.
 
-Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
+The iOS version of Firefox doesn’t support Service Portal pages.
 
+For more information about Service Portal browser support, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Legal Service Delivery \(LSD\)
+
+</td><td>
+
+The ServiceNow Otto for Legal Service Delivery \(LSD\) application works with the latest stable versions of popular web browsers. To find the list of supported browsers, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
@@ -178,33 +265,24 @@ Table Builder
 
 </td><td>
 
--   ****
-
-Internet Explorer isn't supported.
-
+Internet Explorer isn’t supported.
 
 </td></tr><tr><td>
 
-Workforce Optimization for CSM
+Virtual Agent
 
 </td><td>
 
--   ****
-
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/browser-support.md).
-
+Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
 
 </td></tr><tr><td>
 
-Zing text indexing and search engine
+Workspace
 
 </td><td>
 
--   ****
-
-For optimal performance, use Zing text indexing and search engine in the latest release of Google Chrome or Mozilla Firefox. Zing text indexing and search engine doesn’t support Internet Explorer.
-
+Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge-Chromium or one of the other supported browsers that are listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Brazil features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Yokohama features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)
 

@@ -7,9 +7,8 @@ release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-keywords: [request risk assessments, AI asset risk evaluation, risk assessor]
+last_updated: "2025-07-31"
+reading_time_minutes: 2
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -25,7 +24,7 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst
 
 1.  Navigate to **All** &gt; **AI Risk and Compliance** &gt; **AI Risk and Compliance Workspace**.
 
-2.  Select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:.
+2.  Select the list \[Omitted image "list-icon-airc-ws.png"\] Alt text: List icon. icon.
 
 3.  From the List, open the AI asset for which you want to request risk assessments.
 
@@ -97,28 +96,15 @@ Days to overdue
 
 </td><td>
 
-Number of days within which the assessment should be completed after it’s initiated. For example, if you define a value of 10, the due date of the assessment is set to be 10 days after the date the assessment is initiated. The default value is 0.
+Number of days within which the assessment should be completed after it’s initiated. For example, if you define a value of 10, the due date of the assessment will be set to 10 days after the date the assessment is initiated. The default value is 0.
 
 </td></tr></tbody>
 </table>8.  Select **Request assessments**.
 
 
-## Result
-
-Risk assessments are created for the selected risks and sent to the assigned assessors. Each assessor receives their risk assessment in their task queue.
-
 ## What to do next
 
-After the assessments are sent, the assigned assessors receive individual risk assessments in their task queues. To complete the assessments, see [Perform risk assessments on AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.md). To track assessment progress and view risk scores, see [Perform advanced risk assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md).
+[Perform advanced risk assessment in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/perform-ara-workspace.md)
 
 **Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
-
-**Related topics**  
-
-
-[Perform risk assessments on AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.md)
-
-[Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md)
-
-[Create bulk risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/create-bulk-risk-assessment-airc.md)
 

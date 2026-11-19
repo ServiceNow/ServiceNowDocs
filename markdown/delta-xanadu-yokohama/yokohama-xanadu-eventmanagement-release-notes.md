@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-eventmanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -134,11 +134,11 @@ Yokohama
 
 </td><td>
 
--   **[\[Placeholder link text to key esc-notify-alert-sow-itom\]](https://www.servicenow.com/docs/access?context=esc-notify-alert-sow-itom&family=yokohama&ft:locale=en-US)**
+-   **[esc notify alert sow itom](https://www.servicenow.com/docs/access?context=esc-notify-alert-sow-itom&family=yokohama&ft:locale=en-US)**
 
 Starting in version 26.7.0, execute response subflows automatically, manually, or both for alerts that match specific conditions through the Run Other Response Actions option of Respond Automatic. This enhancement offers better control over automated responses with configurable execution limits and multiple response actions.
 
--   **[\[Placeholder link text to key enrich-alert-sow-itom\]](https://www.servicenow.com/docs/access?context=enrich-alert-sow-itom&family=yokohama&ft:locale=en-US)**
+-   **[enrich alert sow itom](https://www.servicenow.com/docs/access?context=enrich-alert-sow-itom&family=yokohama&ft:locale=en-US)**
 
 Starting in version 26.7.0, link a CI to an alert for more accurate IT component mapping though the Improve Configuration Item \(CI identification option of Enrich Automation. This enhancement improves alert visibility, speeds up issue resolution, and ensures better correlation between alerts and infrastructure components.
 

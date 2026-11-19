@@ -7,9 +7,8 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-27"
 reading_time_minutes: 1
-keywords: [sighting search configuration, threat detection, security monitoring]
 breadcrumb: [Configure Sighting Search, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 

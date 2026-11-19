@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [MS, Microsoft, Teams, Virtual Agent, self-configured, conversational integration, remove integration]
-breadcrumb: [Install, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
 # Remove Conversational Integration with Microsoft Teams
@@ -41,5 +41,5 @@ Roles required:
     The Virtual Agent integration with the selected Microsoft Teams bot has been removed.
 
 
-**Parent Topic:**[Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/teams-install.md)
+**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/teams-conv-integration.md)
 

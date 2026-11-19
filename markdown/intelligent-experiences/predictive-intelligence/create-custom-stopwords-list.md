@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
 ---
 
 # Create a custom stopwords list
@@ -62,6 +62,4 @@ In this example scenario, you create a custom stopwords list for the Brazilian P
 ## What to do next
 
 Assign a custom or default stopwords list to a classification, similarity, clustering, or regression solution definition.
-
-**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
 

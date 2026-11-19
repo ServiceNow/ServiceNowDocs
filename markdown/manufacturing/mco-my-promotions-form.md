@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-my-promotions-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Sales promotion form, Reference, Manufacturing Commercial Operations]
+breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
 ---
 
 # My promotions form
@@ -140,9 +140,7 @@ Max percentage
 Highest discount percentage applicable for the campaign. This field appears only when **percentage** is selected from **Incentive type**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sales promotion form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/sales-promotion-form.md)
-
-**Related topics**  
+</table>**Related topics**  
 
 
 [My promotions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-my-promotions.md)

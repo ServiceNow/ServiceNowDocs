@@ -1,16 +1,16 @@
 ---
-title: Using Playbooks Public Sector Digital Services
+title: Using Playbooks for Public Sector Digital Services
 description: A playbook provides government service agents with step-by-step guidance through the life cycle of a public service request case. Use Playbooks to fulfill requests for license and permits, government records and other public information, or non-emergency service requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-using-playbooks-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 8
-breadcrumb: [Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using Playbooks Public Sector Digital Services
+# Using Playbooks for Public Sector Digital Services
 
 A playbook provides government service agents with step-by-step guidance through the life cycle of a public service request case. Use Playbooks to fulfill requests for license and permits, government records and other public information, or non-emergency service requests.
 
@@ -29,7 +29,7 @@ The following applications are available with Public Sector Digital Services tha
 -   [Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-ir-playbooks.md)
 -   [Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-sr-playbooks.md)
 
-The corresponding playbook for each case type automatically appears in the **Playbook** tab when you create an public service request case as an agent in the Public Sector Workspace, or when a constituent puts in a request through the Government Service Portal.
+The corresponding playbook for each case type automatically appears in the **Playbook** tab when you create an public service request case as an agent in the CSM Configurable Workspace, or when a constituent puts in a request through the Government Service Portal.
 
 The workflows for a type of case and the activities that you need to resolve these cases are in the playbook. By using a playbook, you can visualize the entire life cycle of the public service case workflow.
 

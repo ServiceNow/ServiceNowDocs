@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Coaching, Workforce Optimization, Managing workforce, Use, Field Service Management]
+breadcrumb: [Coaching in Workforce Optimization for Field Service, Workforce Optimization, Manage workforce, Using Field Service Management, Field Service Management]
 ---
 
 # Skills Overview in Workforce Optimization for Field Service
@@ -202,7 +202,9 @@ None
 The percentage as well as the number of users with different levels of expertise for the skill.
 
 </td></tr></tbody>
-</table>## Access Skills Overview from Manager workspace
+</table>**Parent Topic:**[Coaching in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/coaching-wfo-fsm.md)
+
+## Access Skills Overview from Manager workspace
 
 Access Skills Overview from Manager Workspace using either the Scheduling application or the Teams application to analyze skill data.
 
@@ -222,15 +224,15 @@ You can access Skills Overview from Manager Workspace using the Teams or Shift S
 
 2.  Access Skills Overview from either the Teams application or the Shift Scheduling application.
 
-<table id="choicetable_a5f_ty2_hwb"><thead><tr><th align="left" id="d148953e492">
+<table id="choicetable_a5f_ty2_hwb"><thead><tr><th align="left" id="d131320e488">
 
 Application
 
-</th><th align="left" id="d148953e495">
+</th><th align="left" id="d131320e491">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d148953e501">
+</th></tr></thead><tbody><tr><td id="d131320e497">
 
 **Teams**
 
@@ -242,7 +244,7 @@ Actions
 4.  Select a skill from the Skill list.
 
 
-</td></tr><tr><td id="d148953e540">
+</td></tr><tr><td id="d131320e536">
 
 **Shift Scheduling**
 

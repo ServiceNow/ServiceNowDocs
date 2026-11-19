@@ -1,22 +1,22 @@
 ---
-title: View Microsoft Outlook customer contact details in your instance
+title: View Microsoft Outlook customer contact details in your ServiceNow instance
 description: Once you have integrated Customer Service Management \(CSM\) with Microsoft Outlook, you can view customer details in an Outlook add-in panel to make communication easier.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/view-existing-contact.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use Microsoft Outlook with CSM, Schedules and sites, Use, Customer Service Management]
+breadcrumb: [Using Microsoft Outlook with CSM, Manage schedules and sites, Using Customer Service Management, Customer Service Management]
 ---
 
-# View Microsoft Outlook customer contact details in your instance
+# View Microsoft Outlook customer contact details in your ServiceNow instance
 
 Once you have integrated Customer Service Management \(CSM\) with Microsoft Outlook, you can view customer details in an Outlook add-in panel to make communication easier.
 
 ## Before you begin
 
-Role required: sn\_customerservice.contact\_manager, sn\_csm\_proxy\_cont
+Role required: sn\_customerservice.contact\_manager, sn\_customerservice.proxy\_contact
 
 ## Procedure
 

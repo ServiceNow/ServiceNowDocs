@@ -1,22 +1,22 @@
 ---
-title: Resolving an information request case using the Information Request Administration
+title: Resolving an information request case by using playbooks in Public Sector Digital Services
 description: You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.Complete the Intake stage as your first step in resolving a case using the Information Request Administration.Complete the Review stage as your second step in resolving a case using the Information Request Administration.Complete the Process stage as your third step in resolving a case using the Information Request Administration.Complete the Decision stage as your last step in resolving a case using the Information Request Administration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/public-sector-resolving-info-case-playbooks.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
-breadcrumb: [Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Information Request Administration, Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Resolving an information request case using the Information Request Administration
+# Resolving an information request case by using playbooks in Public Sector Digital Services
 
 You can use playbooks to create cases and to complete the tasks and activities that are needed to resolve specific types of cases.
 
 **Note:** Verify that the Information Request Administration application, which is separate from the Public Sector Digital Services Core application, has been installed and configured. For instructions, see [Install and configure the Information Request Administration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/configuring-information-request-playbook.md).
 
-By default, the following stages are available to you as an information request case agent in the Information Request Administration in the Public Sector Workspace.
+By default, the following stages are available to you as an information request case agent in the Information Request Administration in the CSM Configurable Workspace.
 
 -   Intake
 -   Review
@@ -43,7 +43,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ### Procedure
 
-1.  In the Public Sector Workspace, navigate to **Lists** &gt; **Information Requests** &gt; **All**.
+1.  In the CSM Configurable Workspace, navigate to **Lists** &gt; **Information Requests** &gt; **All**.
 
 2.  Select **New**.
 

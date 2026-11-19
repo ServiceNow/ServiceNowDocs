@@ -9,7 +9,7 @@ classification: integration-hub
 topic_type: task
 last_updated: "2023-08-03"
 reading_time_minutes: 7
-breadcrumb: [Dropbox Business Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Dropbox Business Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Set up Dropbox Business spoke

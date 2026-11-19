@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Amazon RDS Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Amazon RDS Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Set up the Amazon RDS spoke
@@ -44,15 +44,15 @@ Role required: admin
 
 5.  On the form, fill these fields.
 
-<table id="choicetable_prq_ckx_glb"><thead><tr><th align="left" id="d498346e190">
+<table id="choicetable_prq_ckx_glb"><thead><tr><th align="left" id="d278758e193">
 
 Field
 
-</th><th align="left" id="d498346e193">
+</th><th align="left" id="d278758e196">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d498346e199">
+</th></tr></thead><tbody><tr><td id="d278758e202">
 
 **Name**
 
@@ -60,7 +60,7 @@ Description
 
 Name to uniquely identify the connection record. For example, enter `AWS Credentials`.
 
-</td></tr><tr><td id="d498346e211">
+</td></tr><tr><td id="d278758e214">
 
 **Active**
 
@@ -68,7 +68,7 @@ Name to uniquely identify the connection record. For example, enter `AWS Credent
 
 Option to actively use the credential record.
 
-</td></tr><tr><td id="d498346e220">
+</td></tr><tr><td id="d278758e223">
 
 **Access Key ID**
 
@@ -76,7 +76,7 @@ Option to actively use the credential record.
 
 Access Key ID of the user with full access to Amazon RDS.
 
-</td></tr><tr><td id="d498346e229">
+</td></tr><tr><td id="d278758e232">
 
 **Secret Access Key**
 
@@ -84,7 +84,7 @@ Access Key ID of the user with full access to Amazon RDS.
 
 Secret Access Key of the user with full access to Amazon RDS.
 
-</td></tr><tr><td id="d498346e239">
+</td></tr><tr><td id="d278758e242">
 
 **Credential alias**
 
@@ -92,7 +92,7 @@ Secret Access Key of the user with full access to Amazon RDS.
 
 Associated credential record.
 
-</td></tr><tr><td id="d498346e248">
+</td></tr><tr><td id="d278758e251">
 
 **Authentication Algorithm**
 

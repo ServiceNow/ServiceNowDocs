@@ -7,9 +7,9 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring On-Call Scheduling, On-Call Scheduling, IT Service Management]
+breadcrumb: [Configure, On-Call Scheduling, IT Service Management]
 ---
 
 # Setting up SMS and voice messaging as contact methods

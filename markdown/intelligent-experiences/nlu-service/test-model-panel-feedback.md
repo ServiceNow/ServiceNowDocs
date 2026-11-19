@@ -1,5 +1,5 @@
 ---
-title: \(Legacy\) Test panel feedback
+title: Test panel feedback
 description: When testing your NLU model on the Try model section of the test panel, use this feature to provide feedback on the model's intent predictions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/test-model-panel-feedback.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [\(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
-# \(Legacy\) Test panel feedback
+# Test panel feedback
 
 When testing your NLU model on the Try model section of the test panel, use this feature to provide feedback on the model's intent predictions.
 
@@ -85,4 +85,6 @@ Result: A banner appears at the top of the screen confirming the user feedback f
 ## Accessing your feedback records
 
 Your feedback data is stored in the **ml\_labeled\_data** table, which is also used by other ServiceNow products. This table can also house multiple sources, such as Virtual Agent chat logs that can be used for future predictions.
+
+**Parent Topic:**[Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/managing-model-content.md)
 

@@ -7,24 +7,22 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
 ---
 
 # Multi-instance Topologies
 
 This Accelerator provides education on drivers and topology alternatives to support multiple production instance implementations delivered within the context of a single-customer production implementation.
 
-## Accelerator Overview
+## Overview
 
 The Multi-instance Topologies Accelerator provides Impact customers with facilitated education sessions that establish a foundational understanding of the common business drivers that could warrant multiple production instances and an introduction to four multi-instance topology alternatives.
 
 The overview for each topology includes a description, topology-related use cases, strengths and weaknesses, and example process flows. The education sessions are interspersed with interactive use case activities, so that following the completion of the Accelerator, you may continue to evaluate your own multi-instance requirements by engaging your implementation provider to develop an implementation architecture.
 
-## Package Availability
-
-**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
+**Note:** This Accelerator is available in Advanced and Total packages.
 
 ## What You Get
 

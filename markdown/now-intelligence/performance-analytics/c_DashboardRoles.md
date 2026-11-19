@@ -1,22 +1,20 @@
 ---
-title: Core UI dashboard permissions
-description: Responsive dashboards have special granular view and edit permissions that are managed from the Sharing pane. Access control lists \(ACLs\) apply to most widgets that are added to dashboards.
+title: Dashboard permissions
+description: Dashboards have special granular view and edit permissions that are managed from the Sharing pane. Access control lists \(ACLs\) apply to most widgets that are added to dashboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/c\_DashboardRoles.html
 release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Core UI dashboard permissions
+# Dashboard permissions
 
-Responsive dashboards have special granular view and edit permissions that are managed from the Sharing pane. Access control lists \(ACLs\) apply to most widgets that are added to dashboards.
-
-**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-dashboards.md).
+Dashboards have special granular view and edit permissions that are managed from the Sharing pane. Access control lists \(ACLs\) apply to most widgets that are added to dashboards.
 
 -   Users with any role can create dashboards, share dashboards that they own with users and groups, and edit dashboards if they have been given edit permissions. Users with any role can restrict access by role to any dashboard that they have created. The user also needs whatever roles are necessary to access the specific data on the dashboards.
 -   Users without a role can view dashboards that have been shared with them, but cannot create or edit dashboards.
@@ -52,9 +50,9 @@ For example, when you add a pie report widget with 36 records to a dashboard, us
 
 [Restrict responsive dashboard access to specific roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/restrict-dashboard-access-to-certain-roles.md)
 
-[Organize Core UI dashboards into groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_GroupDashboards.md)
+[Organize dashboards into groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_GroupDashboards.md)
 
 [Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/r_PARoles.md)
 
-[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdminsteringReports.md)
+[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdminsteringReports.md)
 

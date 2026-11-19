@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Using Insurance claims, Insurance claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Add an ad-hoc task for an Insurance claims case
@@ -30,15 +30,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the claim one of the following ways.
 
-<table id="choicetable_fp4_xnh_vcc"><thead><tr><th align="left" id="d111920e89">
+<table id="choicetable_fp4_xnh_vcc"><thead><tr><th align="left" id="d92273e86">
 
 Option
 
-</th><th align="left" id="d111920e92">
+</th><th align="left" id="d92273e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d111920e98">
+</th></tr></thead><tbody><tr><td id="d92273e95">
 
 **From the landing page**
 
@@ -46,13 +46,13 @@ Steps
 
 From a claims list, select the claim case that you want to create a task for.
 
-</td></tr><tr><td id="d111920e107">
+</td></tr><tr><td id="d92273e104">
 
 **From the applicable case/tasks list**
 
 </td><td>
 
-1.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+1.  Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Lists icon.\).
 2.  On the **Lists** tab, navigate to one of the following applicable lists \(or the list category that is specific to your custom workflow\):
     -   As a processor, select **Insurance claim cases**, and then select **All**.
     -   As an adjuster, select **Insurance claim adjuster tasks**, and then select **All**.

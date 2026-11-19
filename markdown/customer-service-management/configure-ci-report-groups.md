@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-ci-report-groups.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure the Customer Information view using CSM Agent Workspace, Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Configure the Customer Information view using CSM Agent Workspace, Configure Customer Central, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Configure report groups for the Customer Information view
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Report groups are displayed in the Customer Information view in CRM Workspace.
+Report groups are displayed in the Customer Information view in Agent Workspace.
 
 \[Omitted image "report-groups.jpg"\] Alt text: Configured report group shows high priority cases in the Customer Information view.
 

@@ -1,16 +1,16 @@
 ---
-title: Manage enrollment requests in Workspace
+title: Managing enrollment requests in Workspace
 description: As a care coordinator or a nurse educator, you can use Workspace to manage enrollment requests or training tasks, respectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/pss-using-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
-# Manage enrollment requests in Workspace
+# Managing enrollment requests in Workspace
 
 As a care coordinator or a nurse educator, you can use Workspace to manage enrollment requests or training tasks, respectively.
 

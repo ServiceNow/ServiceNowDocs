@@ -1,5 +1,5 @@
 ---
-title: Minimize session window timeout duration
+title: Minimize session window timeout duration \[Updated in Security Center 1.3\]
 description: Use the glide.ui.user\_cookie.life\_span\_in\_days property to set the expiration time period for the Remember Me cookie. The default value is 15 days and the maximum cap is at 30 days.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-session-window-timeout.html
@@ -7,18 +7,14 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Minimize session window timeout duration
+# Minimize session window timeout duration \[Updated in Security Center 1.3\]
 
 Use the **glide.ui.user\_cookie.life\_span\_in\_days** property to set the expiration time period for the Remember Me cookie. The default value is 15 days and the maximum cap is at 30 days.
-
-The **glide.ui.user\_cookie.life\_span\_in\_days** system property affects the expiry of cookies. After each successful authentication, the cookie will expire after the number of days specified as the property value. If **glide.ui.user\_cookie.life\_span\_in\_days** isn't set to the recommended value of `15` or less, then there is a higher risk that the cookie, if stolen, can be used for longer.
-
-Ensure the property **glide.ui.user\_cookie.life\_span\_in\_days** is set to `15` or less.
 
 ## More information
 
@@ -32,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Configuration name
+Property name
 
 </td><td>
 
@@ -48,11 +44,27 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
+Category
+
+</td><td>
+
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-session-management.md)
+
+</td></tr><tr><td>
+
+Purpose
+
+</td><td>
+
+To enable the default expiry of the **remember me** cookie.
+
+</td></tr><tr><td>
+
 Data type
 
 </td><td>
 
-Boolean
+Integer
 
 </td></tr><tr><td>
 
@@ -60,7 +72,7 @@ Recommended value
 
 </td><td>
 
-15 or less
+15
 
 </td></tr><tr><td>
 
@@ -72,29 +84,11 @@ Default value
 
 </td></tr><tr><td>
 
-Fallback value
+Security risk rating
 
 </td><td>
 
-15
-
-</td></tr><tr><td>
-
-Category
-
-</td><td>
-
-[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-session-management.md)
-
-</td></tr><tr><td>
-
-Security risk
-
-</td><td>
-
--   Severity score: 4.9
--   CVSS rating: Medium
--   Security risk details: A longer life span increases the time window that a stolen cookie can be used.
+4.9
 
 </td></tr><tr><td>
 
@@ -106,12 +100,22 @@ This property is enabled by the end user when the end user checks the **Remember
 
 </td></tr><tr><td>
 
-Dependencies and prerequisites
+Security risk
 
 </td><td>
 
-None
+\(Moderate\) The user cookies being active for an indefinite amount of time is a security risk and should expire on a time-based configuration.
+
+</td></tr><tr><td>
+
+References
+
+</td><td>
+
+[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md) [Remember me](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_ChSetRemMeChkbxCookie.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-session-management.md)
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+
+**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

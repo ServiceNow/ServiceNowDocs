@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-05"
 reading_time_minutes: 6
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ For example, if you are reserving four workplaces for four different employees. 
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table id="choicetable_ewc_11d_vrb"><thead><tr><th align="left" id="d556396e73">
+<table id="choicetable_ewc_11d_vrb"><thead><tr><th align="left" id="d514507e73">
 
 Location
 
-</th><th align="left" id="d556396e76">
+</th><th align="left" id="d514507e76">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d556396e82">
+</th></tr></thead><tbody><tr><td id="d514507e82">
 
 **From application navigator search context menu**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d556396e106">
+</td></tr><tr><td id="d514507e106">
 
 **Employee Center**
 
@@ -133,25 +133,23 @@ The group reservation is created. You can view the reservation details on the Re
 
 [Create a reservation]()
 
-[Auto-resolve recurring reservations]()
-
 [Add invitees as collaborators and create a reservation]()
 
-[Set a location as favorite using the Space details page]()
+[Auto-resolve recurring reservations]()
 
 [Reserve a space near your colleague]()
 
-[Create a multi-day reservation]()
+[Create neighborhood reservations]()
 
 [Create multi-building reservations]()
 
-[Create neighborhood reservations]()
+[Create a multi-day reservation]()
 
 [Create reservation for multiple workplace items]()
 
-[Enable shift-based reservation]()
-
 [Create a reservation along with a shared reservation]()
+
+[Set a location as favorite using the Space details page]()
 
 [Create a reservation including a virtual meeting link]()
 
@@ -162,6 +160,4 @@ The group reservation is created. You can view the reservation details on the Re
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
-
-[Manage and configure reservation waitlist]()
 

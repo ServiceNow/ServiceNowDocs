@@ -1,5 +1,5 @@
 ---
-title: Display patient information on a healthcare case type in Healthcare workspace
+title: Displaying patient information on a healthcare case type in Healthcare workspace
 description: Improve agent efficiency and the quality of patient interactions by enabling healthcare agents to view relevant patient information within a case that extends the healthcare case type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-enable-viewing-patient-info.html
@@ -7,16 +7,16 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Set up your Healthcare Workspace, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Set up the Healthcare Workspace, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
-# Display patient information on a healthcare case type in Healthcare workspace
+# Displaying patient information on a healthcare case type in Healthcare workspace
 
 Improve agent efficiency and the quality of patient interactions by enabling healthcare agents to view relevant patient information within a case that extends the healthcare case type.
 
-By default, patient information is displayed on interaction records associated with patients. You can configure the CRM Workspace to display patient information for a case that extends the healthcare case type.
+By default, patient information is displayed on interaction records associated with patients. You can configure the CSM Configurable Workspace to display patient information for a case that extends the healthcare case type.
 
 <table id="table_m25_vzr_cqb"><thead><tr><th>
 

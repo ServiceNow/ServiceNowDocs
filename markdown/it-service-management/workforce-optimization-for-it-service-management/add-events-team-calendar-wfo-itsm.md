@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Scheduling your teams' work, Scheduling, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Scheduling your teams' work in Workforce Optimization for ITSM, Scheduling in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Add events to the team calendar
@@ -17,8 +17,6 @@ breadcrumb: [Scheduling your teams' work, Scheduling, Workforce Optimization for
 Create a meeting, training, time-off request, a custom event, or an adhoc work shift from the team calendar.
 
 ## Before you begin
-
-**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_shift\_planning.admin
 
@@ -40,15 +38,15 @@ You can create custom event types and add or remove the desired fields. For more
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d82894e138">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d66080e122">
 
 To
 
-</th><th align="left" id="d82894e141">
+</th><th align="left" id="d66080e125">
 
 Perform these tasks
 
-</th></tr></thead><tbody><tr><td id="d82894e147">
+</th></tr></thead><tbody><tr><td id="d66080e131">
 
 **Create a meeting, training, or time-off request**
 
@@ -74,7 +72,7 @@ In the **Attendees** field, start entering the name of each of the attendees for
     7.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d82894e254">
+</td></tr><tr><td id="d66080e238">
 
 **Create a custom event**
 
@@ -94,7 +92,7 @@ In the **Attendees** field, start entering the name of each of the attendees for
 9.  In the **Select Incident** field, select an incident you want to associate with this event.
 
 
-</td></tr><tr><td id="d82894e329">
+</td></tr><tr><td id="d66080e313">
 
 **Create a work shift**
 

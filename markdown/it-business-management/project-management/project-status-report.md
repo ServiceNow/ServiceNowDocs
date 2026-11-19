@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 8
-breadcrumb: [Create a project status report, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create a project status report, Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # View project status reports
@@ -32,15 +32,15 @@ The project status report shows snapshot status of RIDAC \(Risk, Issues, Decisio
 
 1.  Open a project status report.
 
-<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d65266e74">
+<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d55899e74">
 
 Option
 
-</th><th align="left" id="d65266e77">
+</th><th align="left" id="d55899e77">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d65266e83">
+</th></tr></thead><tbody><tr><td id="d55899e83">
 
 **From project workspace**
 
@@ -52,7 +52,7 @@ Steps
 4.  Select a status report from the list to view its contents.
 
 
-</td></tr><tr><td id="d65266e119">
+</td></tr><tr><td id="d55899e119">
 
 **From project record**
 
@@ -64,7 +64,7 @@ Steps
 4.  Select a status report from the list.
 
 
-</td></tr><tr><td id="d65266e161">
+</td></tr><tr><td id="d55899e161">
 
 **From Project Status form**
 
@@ -79,7 +79,9 @@ Steps
 
 
 </td></tr></tbody>
-</table>2.  Review project status in the following sections.
+</table>    **Note:** You can also open a project status report from the portfolio workbench. Open a portfolio in the portfolio workbench and select [**Track Portfolio**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-management/track-portfolio.md). Right-click a project in the **Timeline View** and select **Status Report** from the context menu.
+
+2.  Review project status in the following sections.
 
 <table id="table_status_report_project"><thead><tr><th>
 

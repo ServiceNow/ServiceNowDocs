@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Time sheets, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
+breadcrumb: [Time Sheets in Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
 ---
 
 # Add a time card to log your work time
@@ -22,7 +22,7 @@ Role required: wm\_agent
 
 ## Procedure
 
-1.  Open the ServiceNow Agent application.
+1.  Open the Now Mobile Agent application.
 
 2.  Tap the **Time Sheets** tab and open a time sheet.
 
@@ -30,15 +30,15 @@ Role required: wm\_agent
 
 4.  Add task-related or non-task related time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d121539e85">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d108253e79">
 
 Time card type
 
-</th><th align="left" id="d121539e88">
+</th><th align="left" id="d108253e82">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d121539e94">
+</th></tr></thead><tbody><tr><td id="d108253e88">
 
 **Copy from previous time sheet**
 
@@ -46,7 +46,7 @@ Action
 
 Tap **Copy** from a previous time sheet.
 
-</td></tr><tr><td id="d121539e109">
+</td></tr><tr><td id="d108253e103">
 
 **Add assigned task**
 
@@ -57,7 +57,7 @@ Tap **Copy** from a previous time sheet.
 3.  Tap **Add**.
 
 
-</td></tr><tr><td id="d121539e136">
+</td></tr><tr><td id="d108253e130">
 
 **Add unassigned task**
 
@@ -67,7 +67,7 @@ Tap **Copy** from a previous time sheet.
 2.  Tap **Add**.
 
 
-</td></tr><tr><td id="d121539e157">
+</td></tr><tr><td id="d108253e151">
 
 **Add from category**
 
@@ -82,4 +82,6 @@ Tap **Copy** from a previous time sheet.
 
 6.  Tap **Submit time sheet**.
 
+
+**Parent Topic:**[Time Sheets in Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/timesheet-fsm-mobile.md)
 

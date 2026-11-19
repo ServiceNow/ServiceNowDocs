@@ -1,16 +1,16 @@
 ---
-title: MCO input attributes form
+title: MCO input attributes
 description: MCO input attributes form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-input-atrributes\_form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
+breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
 ---
 
-# MCO input attributes form
+# MCO input attributes
 
 MCO input attributes form.
 
@@ -32,6 +32,4 @@ MCO input attributes form.
 |Display|Option to indicate that this field is the display value for reference fields|
 |Text index|Option to determine whether searches index the text in a table.|
 |Audit|Option to enable auditing for a table.|
-
-**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/repair-form.md)
 

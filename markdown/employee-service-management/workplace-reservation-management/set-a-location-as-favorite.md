@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 8
+last_updated: "2025-01-30"
+reading_time_minutes: 7
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -127,21 +127,19 @@ The location is added to your favorites list.
 
 [Create a reservation]()
 
-[Auto-resolve recurring reservations]()
-
 [Add invitees as collaborators and create a reservation]()
+
+[Auto-resolve recurring reservations]()
 
 [Reserve a space near your colleague]()
 
-[Create a multi-day reservation]()
+[Create neighborhood reservations]()
 
 [Create multi-building reservations]()
 
-[Create neighborhood reservations]()
+[Create a multi-day reservation]()
 
 [Create reservation for multiple workplace items]()
-
-[Enable shift-based reservation]()
 
 [Create a reservation along with a shared reservation]()
 
@@ -156,6 +154,4 @@ The location is added to your favorites list.
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
-
-[Manage and configure reservation waitlist]()
 

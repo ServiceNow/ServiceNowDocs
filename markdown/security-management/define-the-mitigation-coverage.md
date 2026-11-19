@@ -1,18 +1,18 @@
 ---
 title: Define the mitigation coverage
-description: Define mitigation coverage per technique to gain visibility into how well your organization can prevent related attacks.
+description: Define the mitigation coverage for each mitigation that is associated with a technique so that you gain visibility into how well your organization can prevent the attacks that happen due to a particular technique.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/define-the-mitigation-coverage.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 
 # Define the mitigation coverage
 
-Define mitigation coverage per technique to gain visibility into how well your organization can prevent related attacks.
+Define the mitigation coverage for each mitigation that is associated with a technique so that you gain visibility into how well your organization can prevent the attacks that happen due to a particular technique.
 
 ## Before you begin
 
@@ -80,9 +80,13 @@ Description
 Overall mitigation detection coverage. See the base system definition in the [technique mitigation coverage definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/technique-mitigation-coverage-definitions.md).
 
 </td></tr></tbody>
-</table>    **Note:** Ensure that you don't overlap the coverage percentage ranges if you customize the percentage limits \(lower or higher\). For example, if a coverage record has the ranges 0 to 20, then the next consecutive record must have lower limit range of 21 or higher to avoid overlapping the coverage percentage range.
+</table>    **Note:** Ensure that you do not overlap the coverage percentage ranges if you customize the percentage limits \(lower or higher\). For example, if a coverage record has the ranges 0 to 20, then the next consecutive record must have lower limit range of 21 or higher to avoid overlapping the coverage percentage range.
 
-3.  To add an entry, select **New**, complete the entries, and select **Submit**.
+    The following illustration shows the mitigation coverage definition list.
+
+    \[Omitted image "mitre-mitigation-definitions.png"\] Alt text: The illustration shows the technique mitigation coverage definition list.
+
+3.  To add an entry, click **New**, complete the entries, and click **Submit**.
 
 
 -   **[Technique mitigation coverage definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/technique-mitigation-coverage-definitions.md)**  

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_ToggleTheTemplateBar.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Form templates, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Using form templates, Administering forms, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Toggle the template bar
@@ -22,7 +22,7 @@ Role required: none
 
 You can toggle the template bar, which hides or shows it for all forms. The template bar is shown by default.
 
-\[Omitted image "template-bar.png"\] Alt text: Template bar
+\[Omitted image "UI16TemplateBar.png"\] Alt text: Template bar
 
 ## Procedure
 
@@ -44,7 +44,7 @@ You can toggle the template bar, which hides or shows it for all forms. The temp
 
 [Create a template by saving a form]()
 
-[Schedule record creation from a template]()
+[Create records based on a template]()
 
 [Create a module for a template]()
 

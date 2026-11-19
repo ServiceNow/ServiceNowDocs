@@ -1,5 +1,5 @@
 ---
-title: How CIM discovery works
+title: How CIM Discovery works
 description: This is the processing flow for classifying Common Information Model \(CIM\) storage systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-visibility/r\_HowCIMDiscoveryWorks.html
@@ -7,12 +7,12 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Storage discovery via SMI-S and CIM, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
+breadcrumb: [Storage discovery via SMI-S and CIM, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
-# How CIM discovery works
+# How CIM Discovery works
 
 This is the processing flow for classifying Common Information Model \(CIM\) storage systems.
 

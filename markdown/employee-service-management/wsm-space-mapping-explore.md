@@ -1,16 +1,16 @@
 ---
-title: Exploring Workplace Space Mapping
+title: Explore Workplace Space Mapping
 description: Workplace Space Mapping provides interactive locations and wayfinding solutions in your workplace with Indoor Mapping and Mappedin. Indoor Mapping provides inbuilt indoor maps for Workplace Space Mapping. Mappedin is a third-party map provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/wsm-space-mapping-explore.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Workplace Space Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Exploring Workplace Space Mapping
+# Explore Workplace Space Mapping
 
 Workplace Space Mapping provides interactive locations and wayfinding solutions in your workplace with Indoor Mapping and Mappedin. Indoor Mapping provides inbuilt indoor maps for Workplace Space Mapping. Mappedin is a third-party map provider.
 

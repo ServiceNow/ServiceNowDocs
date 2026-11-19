@@ -1,30 +1,36 @@
 ---
-title: Add tuition reimbursement
-description: Add tuition reimbursement to a human resources profile.
+title: Request tuition reimbursement
+description: As an employee, you can submit a question about, or request tuition reimbursement from the Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/t\_CreateOrModifyTuitionReimburse.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Add tuition reimbursement
+# Request tuition reimbursement
 
-Add tuition reimbursement to a human resources profile.
+As an employee, you can submit a question about, or request tuition reimbursement from the Employee Center.
 
 ## Before you begin
 
-Role required: sn\_hr\_core.profile\_writer
+Role required: none
+
+## About this task
+
+Employees can ask questions about approved courses and request tuition reimbursement by submitting a request through the Employee Center.
+
+Alternatively, a manager can submit a tuition reimbursement request by opening an HR case: [Create an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/search-hr-case.md).
 
 ## Procedure
 
-1.  Go to **All** &gt; **HR Profile** &gt; **Tuition Reimbursements**.
+1.  From the Employee Center menu, navigate to **Human Resources** &gt; **Benefits** &gt; **Education Reimbursement**.
 
-2.  Select **New**.
+2.  Click the **Tuition Reimbursement** request.
 
 3.  Complete the form.
 
@@ -32,17 +38,15 @@ Role required: sn\_hr\_core.profile\_writer
 
     |Field|Description|
     |-----|-----------|
-    |Employee|The user who requested tuition reimbursement. Click the lookup icon and select the user.|
-    |School/Program name|Name of the school or program where the employee took the course.|
-    |Refund amount|Amount reimbursed to the employee.|
-    |Refund date|Date the refund was issued.|
-    |Course justification|Explanation of why the employee took the course.|
-    |Course title|The name of the course.|
+    |School/Program name|Name of the school or program where you took the course.|
+    |Course Title|Name of the course you took.|
+    |Course justification|Explanation of why you took the course.|
     |Course start date|Date when the course started.|
     |Course end date|Date when the course ended.|
-    |Course cost|Cost of the course.|
 
-4.  Select **Submit**.
+4.  Click **Submit**.
+
+    The system creates an HR case and assigns it to the configured HR person. View the status of your request from the **My Requests** tab.
 
 
 **Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)

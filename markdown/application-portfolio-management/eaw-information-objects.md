@@ -1,29 +1,23 @@
 ---
-title: Exploring information objects
+title: Manage information objects
 description: An information object captures the logical data for a business application. It also describes the type of data that is interchanged between the application and the database.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-information-objects.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exploring the information portfolio, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Working with information portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Exploring information objects
+# Manage information objects
 
 An information object captures the logical data for a business application. It also describes the type of data that is interchanged between the application and the database.
 
-By analyzing information objects, you can understand how data is structured and used across your enterprise.
+-   **[View all information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-information-objects.md)**  
+You can view the list of all information objects in the Enterprise Architecture Workspace.
+-   **[Add or edit an information object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-new-information-object.md)**  
+Create an information object to capture the logical data for a business application.
 
-**Parent Topic:**[Exploring the information portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-information-portfolio.md)
-
-**Related topics**  
-
-
-[View all information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-information-objects.md)
-
-[Add or edit an information object](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-new-information-object.md)
-
-[Exploring data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-data-domains.md)
+**Parent Topic:**[Working with information portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-information-portfolio.md)
 

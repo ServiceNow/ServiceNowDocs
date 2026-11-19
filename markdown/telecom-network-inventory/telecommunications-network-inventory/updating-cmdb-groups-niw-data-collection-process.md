@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Workspace widget customization, Define inventory records, Use, Telecommunications Network Inventory]
+breadcrumb: [Customizing the content in your Network Inventory Workspace widgets, Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
 ---
 
 # Update CMDB groups for use in the data collection process

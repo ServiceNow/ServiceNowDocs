@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/secops-integ-email-search-delete.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration- Email Search and Delete capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -30,7 +30,7 @@ Activities specific to this flow are described here. For more information on oth
 
 The flow process activities include:
 
--   **[Legacy: Execution Tracking Begin \(Mail Search\) action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/execution-tracking-begins-mail-search-activity.md)**  
+-   **[Execution Tracking Begin \(Mail Search\) action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/execution-tracking-begins-mail-search-activity.md)**  
 The Execution Tracking - Begin \(Mail Search\) capability execution action creates an execution tracking record and marks the record state as Started. This action is used by all capability and implementation flows to keep track of their state.
 
 **Parent Topic:**[Security Operations Integration- Email Search and Delete capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/email-search-capability.md)

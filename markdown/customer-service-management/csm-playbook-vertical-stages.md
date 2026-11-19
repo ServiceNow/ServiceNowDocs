@@ -1,18 +1,18 @@
 ---
 title: Case playbook: vertical stages record page
-description: The Case playbook: vertical stages page is a record page that you can use in CRM Workspace. This page includes a playbook with a vertical stage picker that displays in the left panel and can track overall progress on the UI in a vertical view.
+description: The Case playbook: vertical stages page is a record page that you can use in CSM Configurable Workspace. This page includes a playbook with a vertical stage picker that displays in the left panel and can track overall progress on the UI in a vertical view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-playbook-vertical-stages.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 7
-breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+last_updated: "2025-01-30"
+reading_time_minutes: 8
+breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Case playbook: vertical stages record page
 
-The Case playbook: vertical stages page is a record page that you can use in CRM Workspace. This page includes a playbook with a vertical stage picker that displays in the left panel and can track overall progress on the UI in a vertical view.
+The Case playbook: vertical stages page is a record page that you can use in CSM Configurable Workspace. This page includes a playbook with a vertical stage picker that displays in the left panel and can track overall progress on the UI in a vertical view.
 
 The Case playbook: vertical stages record page is created from the [Case playbook: vertical stages template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-playbook-templates.md).
 
@@ -36,7 +36,7 @@ Active
 
 </td><td>
 
-The Case playbook: vertical stages page variant is not active by default. Enabling the **Active** check box makes the page variant available to the selected audience.The **Active** setting combined with the page order determines the page that CRM Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-set-record-page-order.md).
+The Case playbook: vertical stages page variant is not active by default. Enabling the **Active** check box makes the page variant available to the selected audience.The **Active** setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ The audience determines who can see the page variant. The Case playbook: vertica
 </table>To access the settings for this page variant:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Select the CRM Workspace experience.
+2.  Select the **CSM/FSM Configurable Workspace** experience.
 3.  In the Record section of the Pages and variants list, select **Case playbook: vertical stages**.
 4.  Select **Settings** at the top of the page.
 
@@ -99,7 +99,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/setting-record-tags-agent-workspace.md).
 
 </td></tr><tr><td>
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_ConfigSuggestTxtForJournalFields.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Suggestion field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Suggestion field type, Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure suggested text for journal fields
@@ -20,14 +20,18 @@ Role required: personalize\_responses
 
 ## Procedure
 
-1.  Select and hold \(or right-click\) the field label and select **Configure Responses**.
+1.  Right-click the field label and select **Configure Responses**.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  Enter a label, or brief description, for the option.
 
 4.  Enter the complete text in **Response text**.
 
-5.  Select **Save**.
+5.  Click **Save**.
 
+
+## Example
+
+\[Omitted image "PersonalizeResponses.png"\] Alt text: Configure responses
 

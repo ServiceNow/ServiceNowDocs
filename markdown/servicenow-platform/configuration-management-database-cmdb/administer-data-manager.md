@@ -1,5 +1,5 @@
 ---
-title: Administer CMDB Data Manager
+title: Administer Data Manager in CMDB Workspace
 description: As a CMDB administrator, you can create policies, manage CI attestation, manage CI exclusion lists, access CMDB Data Manager insights, and access subflows and settings that are used in the CMDB Data Manager.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/administer-data-manager.html
@@ -7,14 +7,12 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB Data Manager experience in CMDB Workspace, CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Administer CMDB Data Manager
+# Administer Data Manager in CMDB Workspace
 
 As a CMDB administrator, you can create policies, manage CI attestation, manage CI exclusion lists, access CMDB Data Manager insights, and access subflows and settings that are used in the CMDB Data Manager.
-
-You can administer CMDB Data Manager using the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
 

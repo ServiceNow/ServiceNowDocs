@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configure-use-case-ai-agents.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-11-23"
 reading_time_minutes: 1
-breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Now Assist AI agents, Enable AI experiences]
 ---
 
 # Create an agentic workflow

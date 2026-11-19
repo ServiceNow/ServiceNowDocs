@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
 ---
 
 # Reclamation rules for Microsoft 365 integration
@@ -35,8 +35,7 @@ Description
 -   SharePoint Online
 -   OneDrive for Business
 -   Teams
--   Project
--   Planner
+-   Project Online
 -   Visio Online
 -   Microsoft 365 Copilot
 
@@ -74,18 +73,14 @@ Microsoft 365
 
 </td><td>
 
--   Overlapping
 -   Low Usage
 -   Downgrade
+-   Overlapping
 -   Consolidate
 
  **Note:** The Overlapping and Consolidate use cases are applicable to all Microsoft 365 integration subscriptions.
 
 </td><td>
-
--   **Overlapping**
-
-For example, both Microsoft 365 E3 and Office 365 E3 subscriptions exist, leading to unnecessary duplicate access to Office applications and additional services already included in Microsoft 365 E3. Software Asset Management recommends reclaiming the Office 365 E3 subscriptions and using the Microsoft 365 E3 subscriptions instead.
 
 -   **Low usage**
 
@@ -94,6 +89,10 @@ For example, if Microsoft 365 individual subscriptions or subscriptions suites s
 -   **Downgrade**
 
 For example, if a Microsoft 365 E5 subscription including advanced features and capabilities with Power BI isn't being used, Software Asset Management recommends switching to a downgraded Microsoft 365 E3 subscription.
+
+-   **Overlapping**
+
+For example, both Microsoft 365 E3 and Office 365 E3 subscriptions exist, leading to unnecessary duplicate access to Office applications and additional services already included in Microsoft 365 E3. Software Asset Management recommends reclaiming the Office 365 E3 subscriptions and using the Microsoft 365 E3 subscriptions instead.
 
 -   **Consolidate**
 

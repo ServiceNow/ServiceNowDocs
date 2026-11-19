@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Digital Product Release, IT Service Management]
+breadcrumb: [Digital Product Release reference, Digital Product Release, IT Service Management]
 ---
 
 # Request new product or service form

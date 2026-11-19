@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Explore, Process Mining, Platform Analytics]
+breadcrumb: [Exploring Process Mining, Process Mining, Platform Analytics]
 ---
 
 # Key features of Process Mining
@@ -24,13 +24,13 @@ Some key features of Process Mining are listed in this topic.
 
     You must configure a breakdown that acts as a filter and provides insights into the categorical volume, velocity, and conformance.
 
--   **Summary and insights page**
+-   **Summary and Insights page**
 
-    Quickly understand process performance. From the Summary and insights page, view key performance indicators, improvement opportunities overview, and list of improvement opportunities. For more information, see [Summary and insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/summary-insights-dashboard.md).
+    Quickly understand process performance. From the Summary and Insights page, view key performance indicators, improvement opportunities overview, and list of improvement opportunities. For more information, see [Summary and Insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/summary-insights-dashboard.md).
 
--   **Analyst workbench page**
+-   **Analyst Workbench**
 
-    Analyze business workflows visually with the interactive process map, explorative filter panel, and prebuilt performance metrics. You can see process variation, breakdowns, bottleneck analysis, and ML and smart rule-based insights. Also, all duplicate audits are removed, and that removes all self-loops in the graph. For more information, see [Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/analyst-workbench-dashboard.md).
+    Analyze business workflows visually with the interactive process map, explorative filter panel, and prebuilt performance metrics. You can see process variation, breakdowns, bottleneck analysis, and ML and smart rule-based insights. Also, all duplicate audits are removed, and that removes all self-loops in the graph. For more information, see [Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/analyst-workbench-dashboard.md).
 
 -   **Easy collaboration and sharing**
 
@@ -69,9 +69,7 @@ Some key features of Process Mining are listed in this topic.
 **Related topics**  
 
 
-[Process Mining architecture]()
-
-[Evaluation projects]()
+[Evaluating Process Mining]()
 
 [Process Mining workspace]()
 

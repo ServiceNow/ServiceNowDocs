@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Manage loaner assets, Procurement and fulfillment, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage loaner assets, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
 ---
 
 # Prepare, deploy, and reclaim loaner assets

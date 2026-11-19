@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Processing Events, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Event field format for event collection
@@ -164,4 +164,5 @@ processing\_notes\[Processing Notes\]
 Display of the events processing log.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Processing Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/processing-events.md)
+

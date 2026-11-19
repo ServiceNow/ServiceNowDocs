@@ -1,17 +1,17 @@
 ---
-title: Enable Recommended Actions for an email interaction
+title: Enable recommended actions for an email interaction
 description: Help the agent to find relevant resources based on the context of an email by enabling recommended actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/enable-recommended-actions-email-interaction.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Configure the agent experience for email interactions, Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [Email Interaction, Configuring the email channel, Configure communication channels, Enable communication channels, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# Enable Recommended Actions for an email interaction
+# Enable recommended actions for an email interaction
 
 Help the agent to find relevant resources based on the context of an email by enabling recommended actions.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/cto-biomed-assign-members.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configuring Care Team Operations for Biomed, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Add members to your biomed support organization
@@ -43,5 +43,5 @@ Role required: admin
 
 ## Result
 
-You have added members to your biomed support team and associated them with the appropriate role.
+You have associated your biomed support team members with the Location Support Agent for the selected healthcare organization.
 

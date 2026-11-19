@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-06-12"
 reading_time_minutes: 2
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -32,40 +32,39 @@ These system properties use the **&lt;scope&gt;.impersonateCheck** naming format
 -   sn\_egd\_act
 -   sn\_em
 -   sn\_talent\_aia
--   sn\_ecn
 
 For each application with the **&lt;scope&gt;.impersonateCheck** property in the System Properties \[sys\_properties\] table, ensure the property value is set to **true**.
 
 **Note:** These properties can only be modified by the scoped administrator for the specific application.
 
-Use this script to identify properties that require updates or creation on the instance:
+Use this script to find which properties need to be updated or created on the instance:
 
 ```
 var properties = [
-        'sn_opp_market.impersonateCheck',
-        'sn_jny.impersonateCheck',
-        'sn_imt_vaccine.impersonateCheck',
-        'sn_imt_health_test.impersonateCheck',
-        'sn_hr_core.impersonateCheck',
-        'sn_egd_goals.impersonateCheck',
-        'sn_egd_core.impersonateCheck',
-        'sn_egd_act.impersonateCheck',
-	'sn_em.impersonateCheck',
-	'sn_talent_aia.impersonateCheck',
-        'sn_ecn.impersonateCheck'
-    ];
+    'sn_opp_market.impersonateCheck',
+    'sn_jny.impersonateCheck',
+    'sn_imt_vaccine.impersonateCheck',
+    'sn_imt_health_test.impersonateCheck',
+    'sn_hr_core.impersonateCheck',
+    'sn_egd_goals.impersonateCheck',
+    'sn_egd_core.impersonateCheck',
+    'sn_egd_act.impersonateCheck',
+'sn_em.impersonateCheck',
+'sn_talent_aia.impersonateCheck'
+];
 
-    var pm = new GlidePluginManager();
+var pm = new GlidePluginManager();
 
-    for (var i = 0; i < properties.length; i++) {
-        var property = properties[i];
-        var application = property.split('.')[0];
-        var propertyValue = gs.getProperty(property, 'false');
+for (var i = 0; i < properties.length; i++) {
+    var property = properties[i];
+    var application = property.split('.')[0];
+    var propertyValue = gs.getProperty(property, 'false');
 
-        if (pm.isActive(application) && propertyValue.toLowerCase() != 'true') {
-            gs.print(property);
-        }
+    if (pm.isActive(application) && propertyValue.toLowerCase() != 'true') {
+        gs.print(property);
     }
+}
+
 ```
 
 ## More information
@@ -116,14 +115,6 @@ Default value
 
 </td><td>
 
-true
-
-</td></tr><tr><td>
-
-Fallback value
-
-</td><td>
-
 false
 
 </td></tr><tr><td>
@@ -146,14 +137,6 @@ Security risk
 
 </td></tr><tr><td>
 
-Functional impact
-
-</td><td>
-
-Admin level users aren't be able to impersonate another user and view that user's data in a specific application context.
-
-</td></tr><tr><td>
-
 Dependencies and prerequisites
 
 </td><td>
@@ -161,7 +144,7 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see .
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

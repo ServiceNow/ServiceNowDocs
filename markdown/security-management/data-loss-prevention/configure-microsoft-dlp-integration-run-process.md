@@ -7,7 +7,7 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -69,7 +69,7 @@ The integration run contains the Source for which the integration profile and th
 
 [Create repeat offender identification rules]()
 
-[Create Additional Incident Data Fields]()
+[Create additional incident data fields]()
 
 [DLP SLA Definition form]()
 

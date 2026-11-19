@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -20,7 +20,7 @@ You can create a resource plan from the Resource Management application for any 
 
 **Important:** Resource plans in Resource Management will no longer be available for new customers from future releases.
 
-You're encouraged to [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility. [Create resource assignments and operation resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
+You're encouraged [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility [Create resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
 
 Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_manager, admin
 
@@ -28,17 +28,28 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 
 1.  Create a resource plan using one of the following options.
 
-<table id="choicetable_dws_ntk_xp"><tbody><tr><td id="d59663e119">
+<table id="choicetable_dws_ntk_xp"><tbody><tr><td id="d51445e119">
+
+**From Allocation Workbench**
+
+</td><td>
+
+1.  Navigate to **Resource** &gt; **Resource Workbench** &gt; **Allocation Workbench**.
+2.  Click the required allocation board.
+3.  In the Allocation workbench, click the **New Plan** located in the top-right corner.
+
+
+</td></tr><tr><td id="d51445e155">
 
 **From Resource tab in project workspace**
 
 </td><td>
 
-1.  Open a project record in project workspace. See [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+1.  Open a project record in project workspace. See [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 2.  On the **Resources** tab, click **New**.
 
 
-</td></tr><tr><td id="d59663e153">
+</td></tr><tr><td id="d51445e189">
 
 **From a project form**
 
@@ -49,7 +60,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 3.  In the **Resource Plan** related list, click **New**.
 
 
-</td></tr><tr><td id="d59663e192">
+</td></tr><tr><td id="d51445e228">
 
 **From a demand form**
 
@@ -61,7 +72,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 4.  On the Resource Plans page, click **New**.
 
 
-</td></tr><tr><td id="d59663e237">
+</td></tr><tr><td id="d51445e273">
 
 **From a project task**
 
@@ -74,7 +85,7 @@ Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_
 5.  In the **Resource Plan** related list, click **New**.
 
 
-</td></tr><tr><td id="d59663e288">
+</td></tr><tr><td id="d51445e325">
 
 **From an existing resource plan**
 
@@ -135,7 +146,7 @@ Use the [Resource Plan related links and lists](https://raw.githubusercontent.co
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan of a project or demand]()
+[Recalculate costs of a resource plan]()
 
 [Update cost plan related to a resource plan]()
 

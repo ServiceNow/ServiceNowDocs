@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/define-identities.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Identities, IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_ti.admin
 
 3.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d469210e80">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d458823e83">
 
 Field
 
-</th><th align="left" id="d469210e83">
+</th><th align="left" id="d458823e86">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d469210e89">
+</th></tr></thead><tbody><tr><td id="d458823e92">
 
 **Name**
 
@@ -42,7 +42,7 @@ Description
 
 Enter a descriptive name for this identity.When referring to a specific entity \(an individual or organization\), this property must contain the canonical name of the specific entity.
 
-</td></tr><tr><td id="d469210e101">
+</td></tr><tr><td id="d458823e104">
 
 **Identity Class**
 
@@ -50,7 +50,7 @@ Enter a descriptive name for this identity.When referring to a specific entity \
 
 The type of entity that this identity describes. For example, individual or organization.
 
-</td></tr><tr><td id="d469210e113">
+</td></tr><tr><td id="d458823e116">
 
 **Source**
 
@@ -58,7 +58,7 @@ The type of entity that this identity describes. For example, individual or orga
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d469210e122">
+</td></tr><tr><td id="d458823e125">
 
 **Description**
 
@@ -66,7 +66,7 @@ Specifies the threat source from which this record is created.
 
 A description that provides more details and context about the identity, potentially including its purpose and its key characteristics.
 
-</td></tr><tr><td id="d469210e132">
+</td></tr><tr><td id="d458823e135">
 
 **Source ID**
 
@@ -74,7 +74,7 @@ A description that provides more details and context about the identity, potenti
 
 Unique identifier for this object in the threat source.
 
-</td></tr><tr><td id="d469210e141">
+</td></tr><tr><td id="d458823e144">
 
 **Created Time in Source**
 
@@ -82,7 +82,7 @@ Unique identifier for this object in the threat source.
 
 Specifies the time the object is created in the source.
 
-</td></tr><tr><td id="d469210e150">
+</td></tr><tr><td id="d458823e153">
 
 **Modified Time in Source**
 

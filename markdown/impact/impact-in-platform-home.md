@@ -1,29 +1,33 @@
 ---
-title: Navigate Impact
-description: Use Impact to obtain new and updated features quickly. Leverage the home page for a personalized value guidance to get relevant and immediate access to the right content, at the right time.
+title: Impact home page
+description: Impact application is available for you to install from ServiceNow Store applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-in-platform-home.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Using Impact, Impact]
+breadcrumb: [Using Impact Store Application, Impact Store Application, Impact]
 ---
 
-# Navigate Impact
+# Impact home page
 
-Use Impact to obtain new and updated features quickly. Leverage the home page for a personalized value guidance to get relevant and immediate access to the right content, at the right time.
+Impact application is available for you to install from ServiceNow Store applications.
 
-**Important:** To access Impact, be sure to have the appropriate entitlements. See [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-packages1.md) for the details. For setup information, see [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/configuring-impact-platform.md).
+**Important:**
 
-## Impact Home page
+Before using Impact application, you must verify that you have the entitlement. You can then download the Impact application from the ServiceNow Store and install it from the Application manager in your instance.
 
-Use the Impact Home page to obtain new and updated features quickly. Leverage the home page for a personalized value guidance to get relevant and immediate access to the right content, at the right time.
+To install and configure the Impact application, see
 
-**Important:** Users may experience different navigation steps in the user interface between the Impact Store Application and the Impact Delivery Instance.
+-   [Configuring the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/configuring-impact-platform.md).
+-   [Install the Impact Store Application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/install-impact-innovation-lab.md).
 
--   For the Impact Store Application, navigate to **All** &gt; **Impact** &gt; **Overview** from your ServiceNow instance.
--   For Impact Delivery Instance, navigate to your Impact URL to open the home page.
+## Home page
+
+Use the Impact Home page that allows you to obtain new and updated features quickly. Leverage the home page for a personalized value guidance to get relevant and immediate access to the right content, at the right time.
+
+To explore the Impact Home page, navigate to **All** &gt; **Impact** &gt; **Home** from your ServiceNow instance. You can also select **Workspaces** and click **Impact** to land on the home page.
 
 The Impact Workspace home page is a central hub that guides and enables you to launch your application's key components from each of its respective widgets:
 
@@ -32,15 +36,16 @@ The Impact Workspace home page is a central hub that guides and enables you to l
 -   Curated for you
 -   Your Impact Squad
 -   Impact Foundations
--   Work Items
 -   Stay updated
 -   Impact Delivery Instance
 
+\[Omitted image "impact-home-page-iip-ws.png"\] Alt text: Impact Workspace Home page.
+
 ## Recommended next steps
 
-Recommended next steps provide personalized suggestions tailored to you. These recommendations are steps that you can focus and act on. Recommendations can be anything like attending a workshop, getting started on a training, applying for an event, initiating an accelerator, and other such activities. Only the latest three published recommendations are displayed here in the home page. To view the complete list, select **View full list**.
+Recommended next steps provide personalized suggestions tailored to you. These recommendations are steps that you can ideally focus and act on. Recommendations can be anything like attending a workshop, getting started on a training, applying for an event, initiating an accelerator, and other such activities. Only the latest three published recommendations are displayed here in the home page. To view the complete list, select **View full list**.
 
-You can select any given recommendation and get started on it by selecting **View Details** for each of the recommendations, which displays a model. You can learn about the recommendation and if you aren’t interested in it you can reject it by selecting the **Hide** option. Options to act on each recommendation vary depending on the type and source of the recommendation:
+You can select any given recommendation and get started on it by selecting **View Details** for each of the recommendations, which displays a model. You can learn about the recommendation and if you aren’t interested in that you can reject it by selecting the **Hide** option. Options to act on each recommendation vary depending on the type and source of the recommendation:
 
 -   If it’s a recommendation that is related to an accelerator, then you can accept it by selecting **Get Started**.
 -   If it’s a recommendation suggested for you to act on it or something that you might be interested in, then select **Open Link**.
@@ -49,30 +54,22 @@ If it’s a recommendation related to Strategic Portfolio Management \(SPM\), th
 
 For more information on convert to work item, see:
 
--   [Manage work items with recommendations for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/convert-spm-entity-impact-entity-recommendations.md)
--   [Manage work items from an initiative in the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/create-spm-work-item-impact-entity.md)
+-   [Convert an Impact entity to SPM entity as a work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/convert-spm-entity-impact-entity-recommendations.md)
+-   [Create a work item from Impact initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/create-spm-work-item-impact-entity.md)
 
-For more information on recommendations, see [Use the recommendations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/using-recommendations-iip-ws.md).
+For more information on recommendations, see [Using recommendations list in Impact home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/using-recommendations-iip-ws.md).
 
 ## Learn about Impact
 
 Use this section to onboard your team with a step-by-step guidance and help them understand Impact features. The features available are based on your products and package.
 
--   **Impact Overview**
+-   **Start the guided tour**
 
-    This page has information on all the major areas within Impact such as Introduction, Impact Squad, Value Management, Product Adoption, Platform Health, Expertise Access, Key deliverables. The content is based on your subscription package such as Guided, Advanced, or Total.
+    Launch the guided tour to onboard your users to experience the ServiceNow Impact application. Select the **Explore a personalized Impact experience** link to step through starting with the Impact Workspace navigation menu to other feature links in the home page to familiarize yourself with the Impact store app feature set. Select the different Impact features to learn more about each one in greater detail.
 
--   **Watch Demo**
+-   **Impact overview**
 
-    Watch a video demonstration of Impact for a walk-through of the various features of Impact in the Impact Overview Demo modal window.
-
--   **Guided Tour**
-
-    Launch the guided tour to onboard your users to experience the ServiceNow Impact application. Select the **Learn about Impact &gt; Guided Tour** link to familiarize yourself with the Impact navigation menu and other feature links in the home page of the Impact store app.
-
--   **What’s new:**
-
-    When customers land on the homepage for the first time, the What’s new modal displays the core new features. If you wish to view the modal information anytime during the Impact session, select the **Learn about Impact &gt; What’s new** link.
+    The links in this section give you details of all major areas within Impact such as Introduction, Impact Squad, Value Management, Product Adoption, Platform Health, Expertise Access, Key deliverables. The content available for each of the links vary based on the package such as Guided, Advanced, or Total.
 
 
 ## Curated for you
@@ -85,21 +82,11 @@ Similarly, you can save a news item or an upcoming event as your favorite by sel
 
 \[Omitted image "add-favorite-imp-ws-home.png"\] Alt text: Save a curated item as your favorite.
 
-## Help Center
+## Your Impact Squad
 
-When you are on an Impact page, to view its contextual help content, select the \[Omitted image "help-icon.png"\] Alt text: icon in the Navigation pane.
+The Impact team members that you interact with are listed here, along with their roles.
 
-## Impact Squad
-
-This section displays your subscription package along the name and role of the Impact team members you interact with, in your Impact journey.
-
-For more information on the team and roles, see [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-squad.md).
-
-## Partners
-
-The names of Impact partners that you have added are listed here.
-
-This section displays the names of your partner users who have access to your Impact Store application and assist you in managing your Impact account.
+For more information on the team and roles, see [Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-squad.md).
 
 ## Impact Foundations
 
@@ -107,23 +94,17 @@ View the progress that your team is making in a linear form. Use the slider arro
 
 Provides guidance for initial engagement for both new or seasoned customers and sets a baseline analysis of your current state and clear next steps to speed up your time to value, laying the groundwork for every action you take on the platform.
 
-## Work items
-
-View the Strategic Portfolio Management or the Collaborative Work Management \(CWM\) work items created in Impact.
-
-Select **View work items** to view or edit Strategic Portfolio Management \(SPM\) or Collaborative Work Management \(CWM\) work items created in Impact.
-
-For more information, see [Work items in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/creating-work-items-using-recommendations-and-initiatives.md).
-
 ## Stay updated
 
 Stay updated with Case Studies that interest you. Selecting the link takes you to a page where ServiceNow customer stories are featured based on industry, products, solution, or region.
 
-The release notes link takes you to Impact features and content that are documented for each release and are available to ServiceNow customers. For more information, see Release Notes and Upgrades.
+Release notes link takes you to Impact features and content that are documented for each release and are available to ServiceNow customers. For more information, see [Impact releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-releases.md).
 
 ## Impact Delivery Instance
 
-If you are in the Impact Store Application, access Quick links that take you directly to the Impact Delivery Instance, which was formerly known as Impact Digital Experience \(IDE\) portal.
+Quick links take you directly to the Impact Delivery Instance which was formerly known as Impact Digital Experience \(IDE\) portal.
 
 Select [Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-activity-center/impact-activity-center.md) and [Benefits &amp; Usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-features.md) to know more about the features listed in this section.
+
+For more information, see [Impact Delivery Instance \(formerly Impact Digital Experience\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-digital-experience.md).
 

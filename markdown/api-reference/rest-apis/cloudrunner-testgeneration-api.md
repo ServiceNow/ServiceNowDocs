@@ -7,7 +7,7 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 10
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -594,7 +594,7 @@ testSuite
 
 </td><td>
 
-Optional. Sets the name of the test suite to create via test generation.Data type: String
+Optional. Name of the test suite to create using test generation.Data type: String
 
 Default: ATF Generated Suite - &lt;time\_stamp&gt;
 

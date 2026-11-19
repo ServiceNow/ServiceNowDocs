@@ -1,30 +1,22 @@
 ---
 title: Configure the Smart Assessment Engine for Grants Management
-description: Create a new Smart Assessment template, which would show up in the compliance assessment field in the proposal playbook. The Smart assessment template is used to collect compliance information from applicants during proposal submission.
+description: The Smart Assessment Engine \(SAE\) in ServiceNow streamlines and automates assessment processes, reducing manual efforts and costs. It supports various assessment types, includes drag-and-drop functionality for designing templates, and offers end-to-end workflow automation. SAE is highly configurable, making it adaptable for a wide range of use cases, including control attestation and risk identification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-config-gmp-smart-assessment-engine.html
 release: yokohama
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Configure PaCE Eligibility Framework Engine, Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
+reading_time_minutes: 1
+breadcrumb: [Grants Management, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure the Smart Assessment Engine for Grants Management
 
-Create a new Smart Assessment template, which would show up in the compliance assessment field in the proposal playbook. The Smart assessment template is used to collect compliance information from applicants during proposal submission.
+The Smart Assessment Engine \(SAE\) in ServiceNow streamlines and automates assessment processes, reducing manual efforts and costs. It supports various assessment types, includes drag-and-drop functionality for designing templates, and offers end-to-end workflow automation. SAE is highly configurable, making it adaptable for a wide range of use cases, including control attestation and risk identification.
 
 ## Before you begin
 
-Role required: sn\_smart\_asmt.assessment\_admin, sn\_svc\_appl\_pgm\_mg.grant\_program\_manager, or sn\_svc\_appl\_pgm\_mg.grant\_program\_director
-
-Verify your scope is set to **Global**.
-
-## About this task
-
-The Smart Assessment Engine \(SAE\) streamlines and automates assessment processes, and supports various assessment types.
-
-You can create assessment templates for grants compliance, and add instructions, questions, and reference information by using the template designer in the Smart Assessment Engine application. Smart assessments can help you to evaluate various situations, aspects, or records.
+Role required: admin
 
 ## Procedure
 
@@ -34,42 +26,26 @@ You can create assessment templates for grants compliance, and add instructions,
 
 3.  On the form, fill in the fields.
 
-    In the Category role field, enter `sn_smart_asmt.template_manager`. In the Assessment Targets field, select **Grants Management Case**.
+    In the Category role field, enter `sn_smart_asmt.template_manager`.
 
-4.  Select **Add section** in the Questions tab, then fill in the details for the section and select **Save**.
+4.  Select **Submit**.
 
-5.  Select **Add question** to add a Single Select Dropdown Question, then.
+5.  Navigate to **Workspaces** &gt; **Assessment Workspace**
 
-6.  After adding all the questions, select **Publish**.
-
-7.  Select **Submit**.
-
-8.  Navigate to **Workspaces** &gt; **Assessment Workspace**
-
-9.  Select **New Template**, and on the form, fill in the fields.
+6.  Select **New Template**, and on the form, fill in the fields.
 
     In the Assessment targets field, enter **Grants Management Case**.
 
-10. Navigate to the **Questions** tab and select **Add section**.
+7.  Navigate to the **Questions** tab and select **Add section**.
 
     \[Omitted image "psds-gmp-smart-engine-questions-tab.png"\] Alt text: Smart assessment engine.
 
-11. On the form, fill in the details for the section, then select **Save**.
+8.  On the form, fill in the details for the section, then select **Save**.
 
-12. Select **Add question**, and add a Single Select Drop-down Question of your choice.
+9.  Select **Add question**, and add a Single Select Drop-down Question of your choice.
 
     Repeat until you have added all of your desired questions.
 
-13. Select **Publish**.
+10. Select **Publish**.
 
-
-## Result
-
-The template is now published, and can be selected in the **Compliance Assessment**activity of the Grants Setup Playbook. It is used to collect compliance information from applicants during proposal submission.
-
-**Parent Topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-pace.md)
-
-**Previous topic:**[Configure PaCE Restricted Caller Access Privileges \(RCA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-rca.md)
-
-**Next topic:**[Configure grants program record tabs in Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-gpp-tabs.md)
 

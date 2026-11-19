@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-10-08"
 reading_time_minutes: 3
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
 ---
 
 # Software subscription fields

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Configure Employee Profile for a portal, Employee profile, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Reference, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
 # Employee Profile form
@@ -51,7 +51,7 @@ For HR profile field configuration, see [HR profile editable field configuration
 
 [Activity Configuration Detail form]()
 
-[Approvals experience reference]()
+[Browser Extension for Employee Center forms]()
 
 [Connected Content form]()
 
@@ -85,9 +85,11 @@ For HR profile field configuration, see [HR profile editable field configuration
 
 [Portal notification content form]()
 
-[Trigger conditions form]()
-
 [Quick Link form]()
+
+[Standard banner and icon sizes]()
+
+[Trigger conditions form]()
 
 [Tab widget mapping form]()
 
@@ -95,15 +97,11 @@ For HR profile field configuration, see [HR profile editable field configuration
 
 [Topic form]()
 
+[To-do content form]()
+
 [User Criteria form]()
 
 [User Criteria output]()
-
-[Schedule appointment form]()
-
-[Location Consent form]()
-
-[Website configuration form]()
 
 [Employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
 

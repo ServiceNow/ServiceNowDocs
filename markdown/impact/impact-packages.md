@@ -1,53 +1,42 @@
 ---
 title: Impact packages
-description: Impact packages comprise support tools, self-help resources, human-led engagements, discounts, and additional benefits made available to you according to your impact subscription package.
+description: ServiceNow Impact packages comprise support tools, self-help resources, human-led engagements, and credits, discounts, and additional benefits made available to you depending on the level of Impact package procured.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-packages.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [General reference, Impact reference, Impact]
+last_updated: "2025-01-30"
+reading_time_minutes: 2
+breadcrumb: [Impact operating model, Impact]
 ---
 
 # Impact packages
 
-Impact packages comprise support tools, self-help resources, human-led engagements, discounts, and additional benefits made available to you according to your impact subscription package.
+ServiceNow Impact packages comprise support tools, self-help resources, human-led engagements, and credits, discounts, and additional benefits made available to you depending on the level of Impact package procured.
 
-Impact has the following subscription packages:
-
--   Guided
--   Total
--   Integrated Success
-
-Regardless of the package, all Impact customers get:
+There are three subscription packages for Impact, Guided, Advanced, and Total. Regardless of the package, all Impact customers get:
 
 -   A great digital experience with value realization dashboards and intuitive journey builders.
--   Personalized learning and coaching with curated content and tailored learning aligned to your roadmap and role.
+-   Personalized learning and coaching with curated content and tailored learning aligned to the customer’s roadmap and role.
 -   A smart recommendation engine that provides proactive insights, prescriptive alerts, and custom recommendations.
 
 ## Descriptions
 
-If you have purchased an Impact offering, the applicable Impact Package description applies to your purchase.
+If you have purchased an Impact offering, the applicable Impact Package description applies to your purchase. See the Legal Schedules for Impact for additional information at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 -   **Guided**
     -   Entry-level offerings including the Premium digital experience, enhanced technical support, and curated content.
+    -   Impact Squad: Customer Success Manager
+-   **Advanced**
+    -   Augments the Guided package with end-to-end technical support with tools like Instance Observer, developer support, advisory sessions, personalized content, and on-demand training and certifications.
+    -   Impact Squad Team: Customer Success Manager, Customer Success Executive, Platform Architect, and Support Account Manager
 -   **Total**
     -   The complete solution with a designated expert team, personalized recommendations, preventative tools, and much more.
-    -   Impact Squad Team: Customer Success Executive, Platform Architect, , and Support Account Manager
--   **Integrated Success**
-    -   Includes all benefits in Impact Total along with expert-led support for Program Delivery \(EM\), Design \(BPC\), and Architecture \(SA\) and Technical Implementation Services
-    -   Expert Team: Engineering Manager \(EM\), Business Process Consultant\(BPC\), Solution Architect\(SA\)
-
-**Note:**
-
-See the Legal Schedules for Impact for additional information at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+    -   Impact Squad Team: Customer Success Executive, Platform Architect, Success Program Manager, and Support Account Manager
 
 ## Accelerator consumption per Impact package
 
-According to the Impact package you have purchased, there’s an allotment of Accelerators from each sub-catalog that you can consume consecutively. See [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/accelerator-catalog.md) for additional information on Accelerators and sub-catalogs.
-
-The following consumption allocations apply to all variations \(for example, US PubSec, MSP Dedicated\) and versions \(for example, V3 &amp; V4\) of Impact packages, unless otherwise specified.
+Depending upon the Impact package that you have purchased, there’s an allotment of how many Accelerators from each sub-catalog that can be consumed consecutively. See [Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/accelerator-catalog.md) for additional information on Accelerators and sub-catalogs.
 
 <table id="table_qld_2xg_sxb"><thead><tr><th>
 
@@ -63,11 +52,12 @@ Accelerator Consumption
 
 </th></tr></thead><tbody><tr><td>
 
-Guided
+-   Guided
+-   Guided - Public Sector
 
 </td><td>
 
-Entry-level offerings including the Premium digital experience, enhanced technical support, , and curated content
+Entry-level offerings including the Premium digital experience, enhanced technical support, Impact Squad Customer Service Manager \(CSM\), curated content, and training credit.
 
 </td><td>
 
@@ -75,27 +65,29 @@ Entry-level offerings including the Premium digital experience, enhanced technic
 
 </td></tr><tr><td>
 
-Total
+-   Advanced
+-   Advanced - Public Sector
 
 </td><td>
 
-The complete Impact solution with a designated expert team, personalized recommendations, preventative tools, and much more.
+Augments the Guided package with an Impact Squad team, end-to-end technical support, and tools like Instance Observer, developer support, advisory sessions, personalized content, adoption tool kits, and on-demand training and certifications.
 
 </td><td>
 
-7 total \(2 of each sub-catalog concurrently for Architecture, Strategy and Technical accelerator sub-catalogs, 1 concurrently for Optimization sub-catalog\). Access to Optimization sub-catalog only applies to the newest version of Total \(v4, MSP Dedicated v4, MSP Domain Separated v2, USPS v5\).
+3 total \(1 of each sub-catalog concurrently at a time\)
 
 </td></tr><tr><td>
 
-Integrated Success
+-   Total
+-   Total - Public Sector
 
 </td><td>
 
-Comprehensive Impact solution that provides designated teams, personalized recommendations, and preventative tools with expert Services. It offers advisory services associated with transformation services in conjunction with implementation credit. The Integrated Success is initiated through Free Form initiative in Impact.
+Augments the Advanced package as the complete Impact solution with a designated expert team, personalized recommendations, preventative tools, and much more.
 
 </td><td>
 
-Customers effectively get access to the full suite of accelerators including the Platform Optimization accelerators delivered through Expert Services.
+6 total \(2 of each sub-catalog concurrently at a time\)
 
 </td></tr></tbody>
 </table>## Customer agreements and terms
@@ -121,7 +113,8 @@ Strategic Value
 </td><td align="left">
 
 -   Upgraded Value IDI
--   Two additional Strategy Accelerator catalog concurrencies
+-   Two additional Strategy Accelerator Catalog concurrencies
+-   Additional CSM coverage
 
 </td></tr><tr><td>
 
@@ -131,14 +124,7 @@ Platform Governance
 
 -   Upgraded Health IDI
 -   Two additional Architecture Accelerator catalog concurrencies
-
-</td></tr><tr><td>
-
-Platform Optimization
-
-</td><td>
-
-One additional Optimization Accelerator catalog concurrency
+-   Additional CSM coverage
 
 </td></tr><tr><td>
 
@@ -147,17 +133,8 @@ Managed Support
 </td><td align="left">
 
 -   Upgraded P1/P2 level issue initial target response times
--   Additional SAM coverage on 1 instance
--   Five [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/developer-support.md) seats
-
-</td></tr><tr><td>
-
-[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-overview.md) Features
-
-</td><td align="left">
-
--   A rolling 6-month period of performance and availability monitoring of the platform, application, and infrastructure hosting Customer’s instance with reporting capabilities
--   Ability to set self-service alerts, notifications, and analyze data
+-   Additional SAM coverage
+-   Five [Impact Developer Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/developer-support.md) Developer Support
 
 </td></tr><tr><td>
 
@@ -169,28 +146,24 @@ Ten Instance Observer seats, in addition to the procured Impact package
 
 </td></tr><tr><td>
 
+
+
+</td><td align="left">
+
+
+
+</td></tr><tr><td>
+
 [Preventive Care](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/preventive-care.md)
 
 </td><td align="left">
 
-Bi-annual in-depth view into the health of production instances-   Performance Engineer-led diagnostic
--   Presentation to customer stakeholders
--   Guided Remediation
-
-</td></tr><tr><td>
-
-Platform Health
-
-</td><td>
-
--   Unlimited Active Custom Definitions
--   Proposed Fix
+One Preventive Care assessment per quarter for a single instance.
 
 </td></tr></tbody>
 </table>**Note:**
 
 -   IDI = Impact Delivery Instance
+-   CSM = Customer Support Manager
 -   SAM = Support Account Manager
-
-**Parent Topic:**[General reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/general-reference.md)
 

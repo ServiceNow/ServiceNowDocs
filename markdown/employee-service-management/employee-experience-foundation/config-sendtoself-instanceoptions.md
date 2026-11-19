@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Customize Employee Center Pro Kiosk widgets, Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
+breadcrumb: [Customize Employee Center Pro Kiosk widgets, Configure, Employee Center Pro Kiosk overview, Unified Employee Experience, Employee Service Management]
 ---
 
 # Modify Send to self widget display
@@ -39,8 +39,6 @@ Role required: sn\_hr\_sp.esc\_admin
 
 5.  Click **Save**.
 
-
-**Parent Topic:**[Customize Employee Center Pro Kiosk widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md)
 
 **Related topics**  
 

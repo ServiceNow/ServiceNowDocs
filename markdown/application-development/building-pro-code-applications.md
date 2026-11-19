@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/building-pro-code-applications.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [Developing your application, Classic app development, Building applications]
+last_updated: "2025-01-30"
+reading_time_minutes: 5
+breadcrumb: [Developing your application, Building applications]
 ---
 
 # Building pro-code applications
@@ -31,50 +31,29 @@ Create and manage custom applications from scratch using classic pro-code tools.
     The ServiceNow extensions for VS Code editor enables you to edit applications offline and within ServiceNow instances.
 
 
-## Which app builder should I use?
+## Which builder should I use to create an app?
 
-Use the following table to choose the app building experience that matches your role and technical background.
+\[Omitted image "mmasset0020724-appengine-landing.svg"\] Alt text: Different builders available for different skill levels
 
-<table id="app-builders-table"><thead><tr><th>
+**Want to build an app easily, without code?**
 
-Tool
+Creator Studio specializes in helping you craft request-fulfillment applications without writing code. For example, an application to request office supplies by filling out a form, and someone approves or denies your request. For more information, see [Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/exploring-creator-studio.md).
 
-</th><th>
+**Need a more general app but still want low-code options?**
 
-Users
+App Engine Studio lets you build a broader range of apps than Creator Studio without being a programming pro. For more information, see [Exploring App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/exploring-aes.md).
 
-</th><th>
+**Are you a developer who wants more control in a centralized user interface?**
 
-Features
+Build apps smarter and deliver them faster with the new ServiceNow Studio. ServiceNow Studio empowers platform developers with a modern, unified environment for building on the ServiceNow AI Platform. ServiceNow Studio features streamlined navigation to applications and metadata, integrated low-code tools, efficient tracking and packaging of development work that accelerates development processes and enhances productivity. For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/exploring-servicenow-studio.md).
 
-</th></tr></thead><tbody><tr><td>
+**Are you a developer who wants to use industry-standard development tools and processes?**
 
-Build Agent: Build an app using natural language prompts.
+The ServiceNow IDE and ServiceNow SDK support developing applications in source code with ServiceNow Fluent, creating JavaScript modules, and using third-party libraries. ServiceNow Fluent is a domain-specific programming language for creating application metadata in code.
 
-</td><td>
+The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the ServiceNow AI Platform. The ServiceNow SDK uses Visual Studio Code Desktop locally. For more information, see [Building applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications-source-code.md).
 
-Developers of all experience levels \(from low-code to Platform and source code\)
-
-</td><td>
-
-Build full-stack applications via a conversational interface.You can use Build Agent in ServiceNow Studio and the ServiceNow IDE to generate a complete ServiceNow scoped or global application. For more information, see [Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/exploring-build-agent.md).
-
-</td></tr><tr><td>
-
-ServiceNow Studio: Build and deliver apps in a unified environment.
-
-</td><td>
-
-Citizen developers, Platform developers
-
-</td><td>
-
-Build apps in a unified development environment.ServiceNow Studio provides streamlined navigation, integrated low-code tools, and built-in tracking and packaging so you can develop and ship apps faster. Use Build Agent in ServiceNow Studio to create and update apps with a conversational interaction.
-
-For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/exploring-servicenow-studio.md).
-
-</td></tr></tbody>
-</table>## Scripting
+## Scripting
 
 -   **[Action Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/actions.md)**
 
@@ -132,6 +111,6 @@ For more information, see [Exploring ServiceNow Studio](https://raw.githubuserco
 
 -   **[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/ui-builder-overview.md)**
 
-    Use UI Builder to build web user interfaces for CRM Workspace, App Engine Studio generated workspaces and portals, or custom web experiences using Next Experience Components and custom web components.
+    Use UI Builder to build web user interfaces for CSM Configurable Workspace, App Engine Studio generated workspaces and portals, or custom web experiences using Next Experience Components and custom web components.
 
 

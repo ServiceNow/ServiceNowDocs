@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Event forwarding, Configure, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Event forwarding, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
 # Create basic auth server credentials
@@ -44,4 +44,6 @@ Role required: evt\_mgmt\_admin
 ## Result
 
 The Basic Auth credential for use with the server instance is created.
+
+**Parent Topic:**[Event forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/event-forwarding-em.md)
 

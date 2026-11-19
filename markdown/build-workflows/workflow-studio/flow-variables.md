@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
 ---
 
 # Flow variables
@@ -55,13 +55,11 @@ A summary of the Set Flow Variables flow logic appears in the execution details.
 
 Workflow Studio supports the following data types for flow variables:
 
--   Array.Object
 -   Date/Time
 -   Decimal
 -   Floating-point number
 -   Integer
 -   JSON
--   Object
 -   Reference
 -   String
 -   True/False

@@ -7,7 +7,7 @@ release: yokohama
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-02-20"
 reading_time_minutes: 1
 breadcrumb: [Create a scripted REST API, Scripted REST APIs, REST APIs, Web services, API implementation, API implementation and reference]
 ---
@@ -30,15 +30,15 @@ The following procedure describes the process for manually associating a REST AP
 
 1.  Create a Scripted REST Header Association record in one of the following ways
 
-<table id="choicetable_fv4_myc_j3c"><thead><tr><th align="left" id="d331041e66">
+<table id="choicetable_fv4_myc_j3c"><thead><tr><th align="left" id="d283616e67">
 
 Option
 
-</th><th align="left" id="d331041e69">
+</th><th align="left" id="d283616e70">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d331041e75">
+</th></tr></thead><tbody><tr><td id="d283616e76">
 
 **Navigate through a scripted REST API record**
 
@@ -50,7 +50,7 @@ Procedure
 4.  In the **Request Header Associations** tab, select **New**.
 
 
-</td></tr><tr><td id="d331041e120">
+</td></tr><tr><td id="d283616e121">
 
 **Navigate directly to a new Scripted REST Header Association record**
 

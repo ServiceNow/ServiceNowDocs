@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/work-with-govt-service-case.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Government Service Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Government Service Portal, Using Portals, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Manage your government service cases from the Government Service Portal

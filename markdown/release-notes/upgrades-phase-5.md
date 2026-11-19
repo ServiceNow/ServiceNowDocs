@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/upgrades-phase-5.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Upgrade to the Brazil release, Brazil release notes]
+breadcrumb: [Upgrade to the Yokohama release, Yokohama release notes]
 ---
 
 # Phase 5 - If applicable: Upgrade and validate your other non-production instances, such as your test instance
@@ -28,7 +28,7 @@ This instance naming convention assumes that you have three ServiceNow instances
 2.  Test
 3.  Production
 
-If you have more or less than three instances, or if you are using Team Development, these instance labels will be different. In general, upgrade your instances furthest from production towards your production instance.
+If you have more or less than three instances, or if you are using [Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_TeamDevelopment.md), these instance labels will be different. In general, upgrade your instances furthest from production towards your production instance.
 
 After you have applied your development update sets to your test instance, perform the following tasks on your test instance \(and other non-production instances, if applicable\).
 
@@ -50,6 +50,6 @@ After you have applied your development update sets to your test instance, perfo
 
 7.  Perform functional testing and monitor the performance of your instance.
 
-    Reproduce the typical user activities that occur on your production instance. The Automated Test Framework can greatly assist you in testing your non-production instances. You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see Quick start tests. For extra testing coverage, you can also conduct user acceptance testing \(UAT\).
+    Reproduce the typical user activities that occur on your production instance. The [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/automated-test-framework.md) can greatly assist you in testing your non-production instances. You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see [Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/quick-start-tests.md). For extra testing coverage, you can also conduct user acceptance testing \(UAT\).
 
 

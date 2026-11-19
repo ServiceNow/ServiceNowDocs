@@ -1,22 +1,18 @@
 ---
-title: Legacy: Capability Execution Tracking- Failure Flow Action
+title: Capability Execution Tracking- Failure Flow Action
 description: The Capability Execution Tracking - Failure flow action records a failure to the audit record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/capability-execution-tracking-failure.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Common Security Operations integration flows and orchestration activities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
 
-# Legacy: Capability Execution Tracking- Failure Flow Action
+# Capability Execution Tracking- Failure Flow Action
 
 The Capability Execution Tracking - Failure flow action records a failure to the audit record.
-
-**Important:**
-
-This feature is no longer deployed, enhanced, or supported. It has been replaced by Capability Implementation Execution. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 The Capability Execution Tracking - Failure flow action can be used with any flow to record a failure condition.
 

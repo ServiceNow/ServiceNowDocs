@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/modify-legal-dft-request.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Requests, Legal Digital Forensics, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Submitting digital forensics requests, Legal Digital Forensics, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
 ---
 
 # Update a submitted digital forensic request
@@ -22,23 +22,25 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal and selecting **My Requests** &gt; **View all requests** from the header.
+    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal portal and selecting **My Requests** from the header.
 
-2.  Select **My Requests** from the header.
+2.  Select **Legal services** from the header.
 
-3.  Open your submitted digital forensic request from the list.
+3.  Select **My Requests** from the header.
 
-4.  On the Standard Ticket page, review and edit the request details or cancel the request.
+4.  Open your submitted digital forensic request from the list.
 
-<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d238928e102">
+5.  On the Standard Ticket page, review and edit the request details or cancel the request.
+
+<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d220619e105">
 
 Action
 
-</th><th align="left" id="d238928e105">
+</th><th align="left" id="d220619e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d238928e111">
+</th></tr></thead><tbody><tr><td id="d220619e114">
 
 **Edit request details**
 
@@ -61,7 +63,7 @@ Steps
 4.  Click **Back** to return to the Standard Ticket page.
 The digital forensic request is updated with the new information. The changes appear as comments in the Additional Comments section of the request.
 
-</td></tr><tr><td id="d238928e205">
+</td></tr><tr><td id="d220619e208">
 
 **Cancel the request**
 
@@ -73,19 +75,19 @@ The digital forensic request is updated with the new information. The changes ap
 The request is canceled and the cancellation comments appear in the Additional Comments section of the request.
 
 </td></tr></tbody>
-</table>5.  In the **Activity** tab, provide comments supporting your request.
+</table>6.  In the **Activity** tab, provide comments supporting your request.
 
-6.  Manage documents supporting your request.
+7.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d238928e253">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d220619e256">
 
 Option
 
-</th><th align="left" id="d238928e256">
+</th><th align="left" id="d220619e259">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d238928e262">
+</th></tr></thead><tbody><tr><td id="d220619e265">
 
 **If the Attachments tab is visible**
 
@@ -96,7 +98,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d238928e301">
+</td></tr><tr><td id="d220619e304">
 
 **If the Documents tab is visible**
 
@@ -110,9 +112,9 @@ A link to the document is listed in the **External URL** column of the documents
 
 
 </td></tr></tbody>
-</table>7.  In the **Custodial Data** tab, view the existing custodians added to the request or export to a file by clicking the more options icon \(\[Omitted image "more-options-icon.png"\] Alt text: More options icon.\).
+</table>8.  In the **Custodial Data** tab, view the existing custodians added to the request or export to a file by clicking the more options icon \(\[Omitted image "more-options-icon.png"\] Alt text: More options icon.\).
 
-8.  In the **Non-Custodial Data** tab, view the existing non-custodial data added to the request or export to a file by clicking the more options icon \(\[Omitted image "more-options-icon.png"\] Alt text: More options icon.\).
+9.  In the **Non-Custodial Data** tab, view the existing non-custodial data added to the request or export to a file by clicking the more options icon \(\[Omitted image "more-options-icon.png"\] Alt text: More options icon.\).
 
 
 **Parent Topic:**[Submitting digital forensics requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/submitting-legal-dft-request.md)

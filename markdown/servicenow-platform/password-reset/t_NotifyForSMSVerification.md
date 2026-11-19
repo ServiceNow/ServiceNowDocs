@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [SMS Code Verification type for Password Reset, Password Reset verifications, Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [SMS Code Verification type for Password Reset, Password Reset verifications, Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Use Notify to send SMS codes for enrollment and verification
@@ -18,7 +18,7 @@ You can configure the Password Reset application to send SMS codes for enrollmen
 
 ## Before you begin
 
-Role required: password\_reset\_admin
+Role required: admin
 
 ## About this task
 

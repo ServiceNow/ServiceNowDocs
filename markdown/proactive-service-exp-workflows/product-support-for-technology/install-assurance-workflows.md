@@ -1,36 +1,34 @@
 ---
 title: Install Proactive Service Experience Workflows
-description: Install the Proactive Service Experience Workflows application on a development or test instance to access demo data and dependent plugins.
+description: If you’re a user with the system administrator role, you can install the Proactive Service Experience Workflows application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/proactive-service-exp-workflows/product-support-for-technology/install-assurance-workflows.html
 release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Getting started, Set up your environment, Configure, Proactive Service Experience Workflows, Product Support for Technology]
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Configuring Proactive Service Experience Workflows, Proactive Service Experience Workflows]
 ---
 
 # Install Proactive Service Experience Workflows
 
-Install the Proactive Service Experience Workflows application on a development or test instance to access demo data and dependent plugins.
+If you’re a user with the system administrator role, you can install the Proactive Service Experience Workflows application.
 
 ## Before you begin
 
-Verify that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
-Verify that the following plugins are installed:
-
--   Customer Service Management
--   Customer Service with Service Management
--   Service Operations Workspace
-
-Role required: admin
+-   Role required: admin
+-   Plugins required: The following plugins must have been installed:
+    -   Customer Service Management
+    -   Customer Service with Service Management
+    -   Service Operations Workspace
 
 ## About this task
 
-If the related plugins aren’t already active, the Proactive Service Experience Workflows plugin activates them. For more information, see [Plugins installed with Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/psew-plugins.md). The Telecom core application is installed with Proactive Service Experience Workflows:
+The Telecom core application is installed with Proactive Service Experience Workflows:
 
 ## Procedure
 
@@ -38,13 +36,13 @@ If the related plugins aren’t already active, the Proactive Service Experience
 
 2.  Find the Proactive Service Experience Workflows application \(sn\_ind\_tsm\_sdwan\) using the filter criteria and search bar.
 
-    You can search for the application by its name or ID. If you can't find the application, you might need to request it from the ServiceNow Store.
+    You can search for the application by its name or ID. If you can't find the application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
-    The dialog box lists all dependent plugins and applications that are included or must be installed.
+    All dependent plugins and applications that are included, or must be installed are listed in the dialog box.
 
 4.  If demo data is available and you want to install it, select **Load demo data**.
 
@@ -55,9 +53,5 @@ If the related plugins aren’t already active, the Proactive Service Experience
 5.  Select **Install**.
 
 
-## Result
-
-The Proactive Service Experience Workflows application and related plugins are activated. A confirmation message appears after installation is complete.
-
-**Parent Topic:**[Getting started with Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/getting-started-psew.md)
+**Parent Topic:**[Configuring Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
 

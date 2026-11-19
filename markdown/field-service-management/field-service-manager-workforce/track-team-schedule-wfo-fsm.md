@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Scheduling, Workforce Optimization, Managing workforce, Use, Field Service Management]
+breadcrumb: [Scheduling in Workforce Optimization for Field Service, Workforce Optimization, Manage workforce, Using Field Service Management, Field Service Management]
 ---
 
 # Track and manage your team's schedule
@@ -75,4 +75,6 @@ Using the calendar, you can do the following:
             If you approve the request, the schedule gets updated in the team calendar based on the approvals.
 
         -   To reject a request, click **Reject**.
+
+**Parent Topic:**[Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.md)
 

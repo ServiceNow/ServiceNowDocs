@@ -1,5 +1,5 @@
 ---
-title: \(Legacy\) Components installed with NLU Workbench - Advanced Features
+title: Components installed with NLU Workbench - Advanced Features
 description: Several types of components are installed with activation of the com.snc.nlu.workbench.advanced plugin, including tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/installed-with-nlu-wrkbnch-adv-features.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [\(Legacy\) Install NLU Workbench - Advanced Features, \(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Install NLU Workbench - Advanced Features, NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
 ---
 
-# \(Legacy\) Components installed with NLU Workbench - Advanced Features
+# Components installed with NLU Workbench - Advanced Features
 
 Several types of components are installed with activation of the com.snc.nlu.workbench.advanced plugin, including tables.
 
@@ -154,4 +154,5 @@ NLU Feedback Admin
 Data labelling \(NLU feedback\) Admin role - to manage data labelling across models also ability to optimize models
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Install NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.md)
+

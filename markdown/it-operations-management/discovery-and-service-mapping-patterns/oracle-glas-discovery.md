@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-10-28"
+last_updated: "2026-06-04"
 reading_time_minutes: 12
-breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Oracle GLAS data collection using patterns
@@ -93,7 +93,7 @@ The Data Collection for Oracle Global Licensing and Advisory Services applicatio
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -142,23 +142,11 @@ DBA\_ADVISOR\_TASKS
 
 </td><td>
 
-DMSYS.DM$OBJECT
+DBA\_USERS
 
 </td><td>
 
-SYSMAN.MGMT\_ADMIN\_LICENSES
-
-</td></tr><tr><td>
-
-dba\_aws
-
-</td><td>
-
-DMSYS.DM$P\_MODEL
-
-</td><td>
-
-SYSMAN.MGMT\_FU\_LICENSE\_MAP
+SYS.MODEL$
 
 </td></tr><tr><td>
 
@@ -166,23 +154,11 @@ DBA\_CPU\_USAGE\_STATISTICS
 
 </td><td>
 
-DVSYS.DBA\_DV\_REALM
+DMSYS.DM$MODEL
 
 </td><td>
 
-SYSMAN.MGMT\_FU\_REGISTRATIONS
-
-</td></tr><tr><td>
-
-DBA\_CUBES
-
-</td><td>
-
-GV$IM\_SEGMENTS
-
-</td><td>
-
-SYSMAN.MGMT\_FU\_STATISTICS
+SYS.REGISTRY$HISTORY
 
 </td></tr><tr><td>
 
@@ -190,7 +166,7 @@ DBA\_ENCRYPTED\_COLUMNS
 
 </td><td>
 
-GV$INSTANCE
+DMSYS.DM$OBJECT
 
 </td><td>
 
@@ -202,19 +178,7 @@ DBA\_FEATURE\_USAGE\_STATISTICS
 
 </td><td>
 
-GV$PARAMETER
-
-</td><td>
-
-SYSMAN.MGMT\_LICENSED\_TARGETS
-
-</td></tr><tr><td>
-
-DBA\_FLASHBACK\_ARCHIVE
-
-</td><td>
-
-LBACSYS.LBAC$POLT
+DMSYS.DM$P\_MODEL
 
 </td><td>
 
@@ -226,19 +190,7 @@ DBA\_FLASHBACK\_ARCHIVE\_TABLES
 
 </td><td>
 
-LBACSYS.OLS$POLT
-
-</td><td>
-
-SYSMAN.MGMT\_LICENSE\_CONFIRMATION
-
-</td></tr><tr><td>
-
-DBA\_FLASHBACK\_ARCHIVE\_TS
-
-</td><td>
-
-MDSYS.SDO\_FEATURE\_USAGE
+DVSYS.DBA\_DV\_REALM
 
 </td><td>
 
@@ -250,7 +202,7 @@ DBA\_INDEXES
 
 </td><td>
 
-MDSYS.SDO\_GEOM\_METADATA\_TABLE
+GV$IM\_SEGMENTS
 
 </td><td>
 
@@ -262,7 +214,7 @@ DBA\_LOBS
 
 </td><td>
 
-MGMT$TARGET
+GV$INSTANCE
 
 </td><td>
 
@@ -274,43 +226,7 @@ DBA\_LOB\_PARTITIONS
 
 </td><td>
 
-ODM.ODM\_MINING\_MODEL
-
-</td><td>
-
-SYSTEM.AQ$\_QUEUES
-
-</td></tr><tr><td>
-
-DBA\_LOB\_SUBPARTITIONS
-
-</td><td>
-
-ODM\_DOCUMENT
-
-</td><td>
-
-SYSTEM.AQ$\_QUEUE\_TABLES
-
-</td></tr><tr><td>
-
-DBA\_OBJECTS
-
-</td><td>
-
-ODM\_RECORD
-
-</td><td>
-
-SYSTEM.FND\_ORACLE\_USERID
-
-</td></tr><tr><td>
-
-DBA\_OBJECT\_TABLES
-
-</td><td>
-
-OLAPSYS.DBA$OLAP\_CUBES
+GV$PARAMETER
 
 </td><td>
 
@@ -318,11 +234,11 @@ V$ARCHIVE\_DEST\_STATUS
 
 </td></tr><tr><td>
 
-DBA\_RECYCLEBIN
+DBA\_LOB\_SUBPARTITIONS
 
 </td><td>
 
-RC\_DATABASE
+MDSYS.SDO\_FEATURE\_USAGE
 
 </td><td>
 
@@ -330,11 +246,11 @@ V$BLOCK\_CHANGE\_TRACKING
 
 </td></tr><tr><td>
 
-DBA\_REGISTRY
+DBA\_OBJECTS
 
 </td><td>
 
-REDACTION\_POLICIES
+MDSYS.SDO\_GEOM\_METADATA\_TABLE
 
 </td><td>
 
@@ -342,11 +258,11 @@ V$CONTAINERS
 
 </td></tr><tr><td>
 
-DBA\_SQLSET
+DBA\_RECYCLEBIN
 
 </td><td>
 
-SCHEMA\_VERSION\_REGISTRY
+MGMT$TARGET
 
 </td><td>
 
@@ -354,11 +270,11 @@ V$DATABASE
 
 </td></tr><tr><td>
 
-DBA\_SQLSET\_REFERENCES
+DBA\_REGISTRY
 
 </td><td>
 
-SYS.CDC\_CHANGE\_SETS$
+ODM.ODM\_MINING\_MODEL
 
 </td><td>
 
@@ -366,23 +282,11 @@ V$DATAGUARD\_CONFIG
 
 </td></tr><tr><td>
 
-DBA\_SQL\_PROFILES
+DBA\_SQLSET
 
 </td><td>
 
-SYS.CDC\_CHANGE\_TABLES$
-
-</td><td>
-
-V$INSTANCE
-
-</td></tr><tr><td>
-
-DBA\_TABLES
-
-</td><td>
-
-SYS.DBA\_AUDIT\_SESSION
+ODM\_DOCUMENT
 
 </td><td>
 
@@ -390,11 +294,11 @@ V$LICENSE
 
 </td></tr><tr><td>
 
-DBA\_TABLESPACES
+DBA\_SQLSET\_REFERENCES
 
 </td><td>
 
-SYS.DBA\_MINING\_MODELS
+ODM\_RECORD
 
 </td><td>
 
@@ -402,11 +306,11 @@ V$OPTION
 
 </td></tr><tr><td>
 
-DBA\_TAB\_PARTITIONS
+DBA\_SQL\_PROFILES
 
 </td><td>
 
-SYS.MODEL$
+REDACTION\_POLICIES
 
 </td><td>
 
@@ -414,11 +318,11 @@ V$PARAMETER
 
 </td></tr><tr><td>
 
-DBA\_TAB\_SUBPARTITIONS
+DBA\_TABLES
 
 </td><td>
 
-SYS.OBJ$
+SCHEMA\_VERSION\_REGISTRY
 
 </td><td>
 
@@ -426,11 +330,11 @@ V$SESSION
 
 </td></tr><tr><td>
 
-DBA\_USERS
+DBA\_TABLESPACES
 
 </td><td>
 
-SYS.REGISTRY$HISTORY
+SYS.CDC\_CHANGE\_SETS$
 
 </td><td>
 
@@ -438,11 +342,23 @@ V$VERSION
 
 </td></tr><tr><td>
 
-DMSYS.DM$MODEL
+DBA\_TAB\_PARTITIONS
 
 </td><td>
 
- 
+SYS.CDC\_CHANGE\_TABLES$
+
+</td><td>
+
+dba\_aws
+
+</td></tr><tr><td>
+
+DBA\_TAB\_SUBPARTITIONS
+
+</td><td>
+
+SYS.DBA\_MINING\_MODELS
 
 </td><td>
 
@@ -453,9 +369,9 @@ DMSYS.DM$MODEL
 
     Create applicative credentials on the ServiceNow AI Platform. For more information, see [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/applicative-creds.md).
 
--   **Use Oracle Wallet authentication instead of applicative credentials**
+-   **For UNIX: You can use Oracle Wallet authentication instead of applicative credentials**
 
-    For more information, see [Oracle Wallet authentication for database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/oracle-wallet-authentication.md).
+    For more information, see [Enable Oracle Wallet authentication for discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md).
 
 -   **For virtual machines: Verify virtual machine credentials**
 
@@ -679,7 +595,7 @@ For information about privileged user access, see [KB1705845](https://support.se
 
 For more information about Agent Client Collector with patterns, see [Application patterns for the Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/application-patterns-acc.md).
 
-For more information about Agent Client Collector with file-based discovery, see [Discover Java installation data using Agent Client Collector for Visibility Content File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-file-based-discovery.md).
+For more information about Agent Client Collector with file-based discovery, see [Discover java installation data using Agent Client Collector for Visibility Content file-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-file-based-discovery.md).
 
 -   **Data collected**
 
@@ -737,7 +653,7 @@ Download Oracle GLAS data in CSV format to get detailed information on patterns 
 -   **[Enable the Oracle GLAS V2 data collection method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-glas-v2-method.md)**  
 Enable the Oracle GLAS V2 data collection method to improve data collection performance in large-scale or high volume Oracle database environments.
 
-**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 
 **Related topics**  
 

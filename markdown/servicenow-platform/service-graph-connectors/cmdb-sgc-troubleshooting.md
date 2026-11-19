@@ -7,10 +7,10 @@ release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 keywords: [service graph connector, connector, resolve connector issues]
-breadcrumb: [Support Tools application, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service Graph Connector Support Tools, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Resolving Service Graph Connector issues

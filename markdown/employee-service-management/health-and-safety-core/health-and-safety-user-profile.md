@@ -1,24 +1,22 @@
 ---
 title: Health and Safety user profile
-description: A Health and Safety profile provides the safety team with all the information about a user in one central place.
+description: A Health and Safety profile provides safety team with all the information about a user in one central place.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/health-and-safety-core/health-and-safety-user-profile.html
 release: yokohama
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: concept
-last_updated: "2026-10-05"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Explore, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
 
 # Health and Safety user profile
 
-A Health and Safety profile provides the safety team with all the information about a user in one central place.
+A Health and Safety profile provides safety team with all the information about a user in one central place.
 
-The profile enables the safety team to access all safety-related information about users \(including employees, visitors, and contractors\) in the organization. They can see safety training records of workers and can track who is trained in what, and view safety incidents and other safety-related records associated with them.
-
-Health and Safety profiles are automatically created for users with assigned roles in Health and Safety applications through the weekly **Generate Health And Safety Profiles** scheduled job.
+It enables them to access all safety-related information about users \(including employees, visitors, and contractors\) in the organization. They can see safety training records of workers and can easily track who is trained in what, and view safety incidents and other safety-related records associated with them.
 
 ## Overview of a Health and Safety profile
 
@@ -30,14 +28,14 @@ The **Details** tab displays key information about the user such as their expert
 
 The profile also shows the following health and safety-related records associated with the user in the respective tabs.
 
--   Actions assigned to the user
+-   Actions that are assigned to the user
 -   Audits the user is involved in
 -   Cases opened by the user
--   Documents associated with the user
+-   Documents that are associated with the user
 -   Exposures the user is affected by
 -   Incidents the user is involved in
--   Injuries and illnesses where the user is injured
--   Inspections assigned to the user
+-   Injury and illnesses where they user is injured
+-   Inspections the user is assigned
 -   Job safety analyses \(JSAs\) the user is involved in
 -   Observations the user is involved in
 -   Risk Assessments the user is involved in
@@ -45,14 +43,14 @@ The profile also shows the following health and safety-related records associate
 
 The tabs in a profile appear based on the installed Health and Safety applications.
 
-## Accessing the Health and Safety profile
+## Accessing Health and Safety profile
 
 To open the Health and Safety profile for a user,
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 2.  Select the configuration icon \(\[Omitted image "icon-config.png"\] Alt text: Configuration icon\) and select the **Health and safety profiles** list.
 
-## Assigning the Health and Safety profile
+## Assigning Health and Safety profile
 
 -   To assign Health and Safety profile for a user, see [Assign Health and Safety profile to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-core/assign-hs-profile-user.md).
 -   To assign Health and Safety profile for a contract worker, see [Assign Health and Safety profile to a contractor worker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-contractor-management/hs-assign-hs-user-profile-contract-worker.md).

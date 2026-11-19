@@ -1,20 +1,20 @@
 ---
 title: Using Service Reliability Management
-description: Service Reliability Management \(SRM\) enables you to register services, monitor service health, and respond to service degradations with on-call shifts and escalation policies.
+description: SRM enables you to register services, monitor service health, respond to service degradations with on-call shifts and escalation policies and triggers, and onboard distributed teams with minimal governance from central IT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-reliability-management/using-service-reliability-management.html
 release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Service Reliability Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Service Reliability Management, ITOM Health, IT Operations Management]
 ---
 
 # Using Service Reliability Management
 
-Service Reliability Management \(SRM\) enables you to register services, monitor service health, and respond to service degradations with on-call shifts and escalation policies.
+SRM enables you to register services, monitor service health, respond to service degradations with on-call shifts and escalation policies and triggers, and onboard distributed teams with minimal governance from central IT.
 
 ## Basic Tasks in SRM
 

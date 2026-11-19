@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassist-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 22
 breadcrumb: [Products combined by family]
 ---
@@ -200,7 +200,7 @@ Choose and update your preferred large language model \(LLM\) provider at the in
 
 Manage the default and supported languages by the different LLM providers under Multilingual service for translation.
 
--   **[\[Placeholder link text to key bundle-platai.now-assist-email-recommendation\]](https://www.servicenow.com/docs/access?context=now-assist-email-recommendation&family=yokohama&ft:locale=en-US)**
+-   **[now assist email recommendation](https://www.servicenow.com/docs/access?context=now-assist-email-recommendation&family=yokohama&ft:locale=en-US)**
 
 Access the citations to the articles referenced from the knowledge base. Explore references and insert the suggested reply to your email.
 
@@ -225,7 +225,7 @@ Get relevant answers to your questions from external content sources, such as Mi
 -   **[Enhanced log visibility](https://www.servicenow.com/docs/access?context=now-assist-guardian&family=yokohama&ft:locale=en-US)**
     -   Access the Generative AI Metric table \[sys\_generative\_ai\_metric\] to gain insights into the guardian logs and determine if they are for monitoring only or for both logging and blocking. Each guardrail shows its status value as Monitor, Block, or Off, to help administrators to manage their security policies.
     -   View the logs of masking that involve personal identifiable information \(PII\) in the Generative AI Metric table \[sys\_generative\_ai\_metric\]. You can identify which data is masked, the type of request, system response, processing time, errors, or error codes.
--   **[\[Placeholder link text to key bundle-platai.now-assist-rn-summarization\]](https://www.servicenow.com/docs/access?context=now-assist-rn-summarization&family=yokohama&ft:locale=en-US)**
+-   **[now assist rn summarization](https://www.servicenow.com/docs/access?context=now-assist-rn-summarization&family=yokohama&ft:locale=en-US)**
 
 Define the output field destination so that you can select any multi-line text field from the base table You can customize incident forms and improve the usability of the resolution notes generation skill.Enable requesters to extract information from emails and email attachments to generate tasks. This email-to-task agentic workflow effectively addresses the challenge of task creation from emails.
 
@@ -724,7 +724,7 @@ Yokohama
 
 -   Enable administrators to set up a security access control list \(ACL\) that checks user authentication for Now Assist context menu skills and new setup options. This gives them control over who can use Now Assist context menu skills and actions, as well as the built-in options like shorten, elaborate, and change tone.
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 -   Select your preferred large language model \(LLM\) provider for Now Assist out-of-box skills. Apart from Now LLM Service, the platform supports Azure OpenAI GPT-4.1 and GPT-4.1 mini, Google Gemini 2.0 Flash and 2.5 Pro, and AWS Anthropic Claude 3.7 Sonnet LLM providers with ServiceNow® third-party model strategy.
 -   Select a display option for custom Now Assist context menu event with an option to suppress the modeless window.
 -   View the numbered citation and links to the source of information when you use Now Assist context menu for Email reply recommendation.

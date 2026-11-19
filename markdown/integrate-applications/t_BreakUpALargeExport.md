@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/t\_BreakUpALargeExport.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Export directly from a URL, Exports, Workflow Data Fabric]
+breadcrumb: [Export directly from a URL, Exports, Data and Automation]
 ---
 
 # Break up a large export

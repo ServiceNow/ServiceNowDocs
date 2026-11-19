@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/navigating-sales-process-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Using Lead-to-Cash Process Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
 ---
 
 # Navigating the sales process dashboard
@@ -29,7 +29,7 @@ The hierarchical node map visually represents the relationships of sales entitie
 |Delink|Delete child record and its hierarchy. To delink a record, select a link connecting a parent node and its child nodes you no longer want to monitor, and select **Delink**.|
 |Hard link|Enables you to convert soft links to hard links and vice versa. To convert a link, select it and select the **Hard link** toggle switch.|
 
-By default, only three levels are displayed on the node map when you open a sales process record in the CRM Workspace. Admins can increase or decrease the number of levels displayed. For more information, see [Customize hierarchical node map levels for Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/customize-node-map-levels.md).
+By default, only three levels are displayed on the node map when you open a sales process record in the CSM Configurable Workspace. Admins can increase or decrease the number of levels displayed. For more information, see [Customize hierarchical node map levels for Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/customize-node-map-levels.md).
 
 Only 250 nodes can be displayed on the node map at a time. If you have more than 250 nodes, collapse some nodes and then expand and view the other nodes.
 
@@ -40,8 +40,6 @@ A details section consolidates all relevant operational elements—tasks, emails
 **Note:**
 
 Related lists configured in the Sales cockpit view in Next Experience UI govern the tabs that are displayed for a sales entity on the sales dashboard.
-
-**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-lead-cash-process-management.md)
 
 **Related topics**  
 

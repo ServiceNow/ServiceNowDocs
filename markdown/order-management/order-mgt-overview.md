@@ -1,17 +1,17 @@
 ---
 title: Sales Customer Relationship Management
-description: ServiceNow Sales Customer Relationship Management \(Sales CRM\) applications enables organizations to manage the product sales life cycle. Your agents can use these applications to generate pre-sales leads and opportunities, provide sales quotes, capture and fulfill orders, work with contracts and entitlements, and manage the customer order workflow for changes.
+description: Learn how you can use the ServiceNow Sales Customer Relationship Management \(Sales CRM\) applications to manage the product sales life cycle in your organization. Your agents can use these applications to generate pre-sales leads and opportunities, provide sales quotes, capture and fulfill orders, work with contracts and entitlements, and manage the customer order workflow for changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-mgt-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 ---
 
 # Sales Customer Relationship Management
 
-ServiceNow® Sales Customer Relationship Management \(Sales CRM\) applications enables organizations to manage the product sales life cycle. Your agents can use these applications to generate pre-sales leads and opportunities, provide sales quotes, capture and fulfill orders, work with contracts and entitlements, and manage the customer order workflow for changes.
+Learn how you can use the ServiceNow® Sales Customer Relationship Management \(Sales CRM\) applications to manage the product sales life cycle in your organization. Your agents can use these applications to generate pre-sales leads and opportunities, provide sales quotes, capture and fulfill orders, work with contracts and entitlements, and manage the customer order workflow for changes.
 
 <table id="table_qq4_trz_3tb" class="nav-card"><tbody><tr><td>
 
@@ -31,11 +31,11 @@ ServiceNow® Sales Customer Relationship Management \(Sales CRM\) applications e
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-reference.md)
+Reference\[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as fields, tables, and properties.
 
 </td><td>
 
-[Automate \[Omitted image "bus-ai-otto.svg"\] Alt text: Improve customer, agent, and partner productivity and user experience with AI‑powered tools and workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/ai-capabilities-sales-crm.md)
+ 
 
 </td></tr></tbody>
 </table>## Additional resources

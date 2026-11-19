@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-case-of-specific-case-type.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Manage cases, Use, Customer Service Management]
+breadcrumb: [Manage cases, Using Customer Service Management, Customer Service Management]
 ---
 
 # Create a customer service case of a specific type
@@ -26,17 +26,13 @@ The types of cases that agents can create depend on the configuration of the [cu
 -   [Manage customer service case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/manage-csm-case-types.md)
 -   [Configuring service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-service-definitions-configure.md)
 
-In CRM Workspace, agents use the [Case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-type-select-modals.md) to make selections and create cases.
+In CSM Configurable Workspace, agents use the [Case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-type-select-modals.md) to make selections and create cases.
 
 **Note:** In the Core UI, use the Case interceptor to make selections and create a case.
 
 ## Procedure
 
 1.  Create a case by selecting one of the following actions.
-
-    The case type selector appears by default with the options the agent has for creating a case in the context of the record.
-
-    **Note:** The `sn_csm_case_types.enable_service_selector` property which enables the case type selector is set to true for zBoot customers, and can be enabled for upgrade customers.
 
 <table id="table_ulq_m3j_yxb"><thead><tr><th>
 
@@ -52,12 +48,7 @@ Select **New**
 
 </td><td>
 
-Select this action from case lists and case type lists including the following:
-
- -   Related lists: child case, case task
--   List view
--   Case task list view
-
+Select this action from case lists and case type lists such as My Cases or My Complaint Cases.
 
 </td></tr><tr><td>
 

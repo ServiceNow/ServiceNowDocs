@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-operations-data-model-tables.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Retail organization data model, Reference, Retail]
+breadcrumb: [Retail organization data model, Retail reference, Retail]
 ---
 
 # Retail organization data model tables
@@ -18,9 +18,9 @@ Tables configured within the Retail Operations application enable you to determi
 
 The Retail organization \[sn\_retail\_organization\] table stores information about your retail organizations.
 
-The Retail organization \[sn\_retail\_organization\] table has a one-to-one relationship with the Organization Core \[sn\_customer\_service\_organization\] table.
+The Retail organization \[sn\_retail\_organization\] table has a one-to-one relationship with the Service Organization \[sn\_customer\_service\_organization\] table.
 
-Organization Core \[sn\_customer\_service\_organization\] has an attribute of Retail Organization.
+Service Organization \[sn\_customer\_service\_organization\] has an attribute of Retail Organization.
 
 Retail-specific attributes should be maintained in this table.
 
@@ -51,11 +51,11 @@ The associated brand of this retail organization.
 
 </td></tr><tr><td>
 
-Organization Core
+Service Organization
 
 </td><td>
 
-The associated organization core.
+The associated service organization.
 
 </td></tr><tr><td>
 

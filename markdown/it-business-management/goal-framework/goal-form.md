@@ -7,7 +7,7 @@ release: yokohama
 product: Goal Framework
 classification: goal-framework
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -28,14 +28,6 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Number
-
-</td><td>
-
-Unique identifier of the goal. The number is generated automatically, for example, GOAL0001234. An administrator can change the prefix. For more information, see [Change the number prefix for goals and targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/change-number-prefix-goals-targets.md).
-
-</td></tr><tr><td>
-
 Name
 
 </td><td>
@@ -48,7 +40,7 @@ State
 
 </td><td>
 
-State of the goal. The state can be **Draft**, **In progress**, **Approved**, **Complete**, **Pending**, **Achieved**, **Not Achieved**, or **Cancelled**.
+State of the goal. The state can be **Draft**, **In progress**, **Approved**, **Complete**, **Pending**, **Achieved**, or **Not Achieved**.
 
 </td></tr><tr><td>
 
@@ -116,7 +108,7 @@ Status
 
 </td><td>
 
-Status of the goal. Status can be **Red**, **Yellow**, **Green**, or **No status**.
+Status of the goal. Status can be **Red**, **Yellow**, **Green**, or **None**.
 
 </td></tr><tr><td>
 

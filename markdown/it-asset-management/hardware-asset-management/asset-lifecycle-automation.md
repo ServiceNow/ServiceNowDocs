@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
 ---
 
 # Asset life-cycle automation
@@ -83,5 +83,4 @@ Field Service Management
 Deploy
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/exploring-ham.md)
-
+</table>

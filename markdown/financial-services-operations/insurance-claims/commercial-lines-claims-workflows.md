@@ -7,16 +7,16 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Managing Commercial Lines Claims, Commercial Lines Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Commercial Lines Claims workflows
 
 The Commercial Lines Claims application installs automated workflows that you can configure for any claims tasks. These workflows create cases and routes any tasks accordingly.
 
-## Overview of Commercial Lines Claims workflows
+## Overview
 
 After a claim case is initiated, an automated workflow begins. A business rules engine that is driven by base system, configurable rules, can help your organization to categorize a claim as a potential fraud or as a duplicate claim. Here are some example business rules:
 

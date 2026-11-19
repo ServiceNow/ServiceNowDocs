@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Using Notify with Incident Communications Management, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using Notify with Incident Communications Management, Use, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Join and end a conference call from incident communications management
@@ -18,7 +18,7 @@ After a conference call is initiated, join the call to participate in the discus
 
 ## Before you begin
 
-Role required: notify\_view, ia\_admin or notify\_setup\_admin
+Role required: notify\_view, ia\_admin or admin
 
 ## Procedure
 
@@ -30,15 +30,15 @@ Role required: notify\_view, ia\_admin or notify\_setup\_admin
 
 4.  For the relevant incident communications task, under **Actions**, perform one of the following actions.
 
-<table id="choicetable_erb_xlq_thb"><thead><tr><th align="left" id="d652758e92">
+<table id="choicetable_erb_xlq_thb"><thead><tr><th align="left" id="d639344e83">
 
 Option
 
-</th><th align="left" id="d652758e95">
+</th><th align="left" id="d639344e86">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d652758e101">
+</th></tr></thead><tbody><tr><td id="d639344e92">
 
 **Join Conference Call**
 
@@ -46,7 +46,7 @@ Description
 
 If you are not already logged into the conference call, you can join the conference.
 
-</td></tr><tr><td id="d652758e112">
+</td></tr><tr><td id="d639344e103">
 
 **End Conference Call**
 

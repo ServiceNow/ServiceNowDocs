@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Cloud Action Library, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Cloud Action Library reference, Cloud Action Library, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # CAL - Azure List VMs action

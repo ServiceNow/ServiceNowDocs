@@ -1,5 +1,5 @@
 ---
-title: Administering Playbooks
+title: Administering playbooks
 description: Monitor and troubleshoot issues by reviewing playbook executions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/administering-process-automation-designer.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Configuring playbooks, Configuring Workflow Studio, Workflow Studio, Build workflows]
 ---
 
-# Administering Playbooks
+# Administering playbooks
 
 Monitor and troubleshoot issues by reviewing playbook executions.
 
@@ -47,10 +47,12 @@ These modules are provided for admins to monitor and manage Playbooks.
     View or create data definitions. Data definitions are pieces of information that you only reuse in a specific playbook, and are stored in the sys\_flow\_data\_definition table.
 
 
+-   **[User access to playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/user-access-playbooks.md)**  
+Administrators can grant users access to playbooks by assigning delegated development permissions or directly assigning a user role. Administrators can also specify which features and content a user can access based on user roles.
 -   **[Archive process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/archive-process-executions.md)**  
 Improve database query performance by archiving unneeded records for playbooks that are in a **Complete**, **Error**, or **Cancelled** state.
 -   **[Create a Data Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-data-definition.md)**  
 Use data definitions to collect and use pieces of information later in a playbook.
 
-**Parent Topic:**[Configuring Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/setting-up-process-automation-designer.md)
+**Parent Topic:**[Configuring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/setting-up-process-automation-designer.md)
 

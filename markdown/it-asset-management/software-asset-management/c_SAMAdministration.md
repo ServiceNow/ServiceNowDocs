@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management, IT Asset Management]
 ---
 
 # Software Asset Management administration
@@ -32,6 +32,8 @@ Software Asset Job Results records are listed in the navigation path **All** &gt
 
 -   **[Enable sharing information with Software Asset Management content service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_EnableSAMContentService.md)**  
 Opt in to share unnormalized software installation data from your organization with Software Asset Management Content Service. You can opt out at any time.
+-   **[Exclude software assets on CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/exclude-software-assets-cis.md)**  
+You may want to manage software assets installed on a subset of your configuration items in the Software Asset Management application.
 -   **[Engineering license servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/eng-license-server.md)**  
 View the list of all the license management servers that OpenLM or Open iT connect with to get data into your ServiceNow instance.
 -   **[Add a software pattern normalization rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_AddAPatternNormRule.md)**  
@@ -41,7 +43,7 @@ Add a reclamation rule to aggregate usage records and to identify unused softwar
 -   **[Create a custom file rule to manually define file sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-custom-file-rule.md)**  
 Create custom rules to manually define file sets and normalize data not recognized by the SAM API. After you have created custom rules, custom file sets can be discovered with File Signature Normalization and software records can be generated.
 -   **[Configure third-party discovery sources for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/configure-third-party-discovery.md)**  
-Set up a third-party discovery source for Software Asset Management to populate the Software Installation \[cmdb\_sam\_sw\_install\] table with the software found in your environment.
+Set up a third-party discovery source for Software Asset Management to populate the Software Installation \[cmdb\_sam\_sw\_install\] table with software found in your environment.
 -   **[Delete uninstalled software from the Software Installation table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/delete-disco-entries-sam.md)**  
 Delete installations from the Software Installation \[cmdb\_sam\_sw\_install\] table if those software installations are also uninstalled from a CI.
 -   **[Create a reclamation rule to import Microsoft SCCM usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-reclamation-rule-sccm.md)**  

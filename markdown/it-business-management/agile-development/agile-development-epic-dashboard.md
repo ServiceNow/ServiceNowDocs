@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development, Strategic Portfolio Management]
+breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development 2.0, Strategic Portfolio Management]
 ---
 
 # Agile 2.0 Epic Dashboard
@@ -125,7 +125,7 @@ Epic Burnup
 
 </td><td>
 
-Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
+Line chart\[Omitted image "line-icon.png"\] Alt text: Line chart
 
 </td><td>
 
@@ -146,7 +146,7 @@ Epic Cumulative Flow Diagram
 
 </td><td>
 
-Area chart\[Omitted image "inline-data-vis-96px-area.png"\] Alt text:
+Area chart\[Omitted image "icon-area-report.png"\] Alt text: Area chart
 
 </td><td>
 
@@ -183,7 +183,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
+Bubble chart\[Omitted image "bubble-icon.png"\] Alt text: Bubble chart
 
 </td><td>
 

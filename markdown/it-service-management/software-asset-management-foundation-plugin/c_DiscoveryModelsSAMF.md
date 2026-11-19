@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Exploring Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Exploring Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
 # Basic Software Asset Management discovery models and software installations
@@ -238,7 +238,7 @@ Edition Override
 
 Override of the software edition setting.If the edition for the software was not discovered, you can edit this field to set the edition, if known, so reconciliation can be performed successfully.
 
- For more information, see [Manually override SAM Foundation edition value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md).
+ For more information, see [Manually override SAM Foundation edition value in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

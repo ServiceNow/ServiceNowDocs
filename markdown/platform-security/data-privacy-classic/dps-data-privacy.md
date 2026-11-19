@@ -1,5 +1,5 @@
 ---
-title: Data privacy
+title: Data privacy \(Store\)
 description: The data privacy store app is a Next Experience refresh for data classification and data privacy with modern look, feel, and usability. Data privacy store app is supported in Utah and above.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/data-privacy-classic/dps-data-privacy.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Data Privacy, Platform Privacy]
 ---
 
-# Data privacy
+# Data privacy \(Store\)
 
 The data privacy store app is a Next Experience refresh for data classification and data privacy with modern look, feel, and usability. Data privacy store app is supported in Utah and above.
 

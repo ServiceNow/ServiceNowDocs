@@ -1,5 +1,5 @@
 ---
-title: Hermes Messaging Service system properties
+title: Hermes Messaging Service properties
 description: These system properties control the behavior of the Hermes Messaging Service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-properties.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Reference, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Hermes Messaging Service system properties
+# Hermes Messaging Service properties
 
 These system properties control the behavior of the Hermes Messaging Service.
 

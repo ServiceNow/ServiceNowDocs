@@ -1,5 +1,5 @@
 ---
-title: Geo map
+title: Using the geo map
 description: Use the Geo map in the Telecommunications Network Inventory application to view the network site or data center location and its details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-site-map.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Network visualization view, Use, Telecommunications Network Inventory]
+breadcrumb: [Using Network visualization view, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
 ---
 
-# Geo map
+# Using the geo map
 
 Use the Geo map in the Telecommunications Network Inventory application to view the network site or data center location and its details.
 
@@ -23,10 +23,10 @@ Add image to a network inventory record. You can distinguish the network asset w
 -   **[Open site map from a network site form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/open-site-map-network-site-form.md)**  
 Open Network site map from a network site form in the Telecommunications Network Inventory application. You can understand the geographical location of the network site and information about the connections.
 
-**Parent Topic:**[Network visualization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-visualization.md)
+**Parent Topic:**[Using Network visualization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-visualization.md)
 
 **Related topics**  
 
 
-[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-map.md)
+[Visualization of geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-map.md)
 

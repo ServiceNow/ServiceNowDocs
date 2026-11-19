@@ -7,14 +7,16 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 8
-breadcrumb: [Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Data input configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
 # Elasticsearch data input configuration fields
 
 Description of the fields on the Elasticsearch data input configuration form.
+
+## Basic configuration
 
 <table id="table_s33_1lb_smb"><thead><tr><th>
 
@@ -38,7 +40,7 @@ Description
 
 </td><td>
 
-Optional description of the data input.
+Description of the data input.
 
 </td></tr><tr><td>
 
@@ -46,7 +48,7 @@ Execute on
 
 </td><td>
 
-Option to determine whether to use a specific MID Server or a specific MID Server cluster.This feature is supported in the Health Log Analytics application, Version 26.0.17 - February 2023 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+Option to determine whether to use a specific MID Server or a MID Server cluster.This feature is supported in the Health Log Analytics application, Version 26.0.17 - February 2023 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
 </td></tr><tr><td>
 
@@ -56,10 +58,13 @@ MID
 
 \(Only when the **Execute on** field is set to Specific MID Server\)
 
-The MID Server to which log data from Elasticsearch indices is pulled. This field is required.**Note:**
+ MID Server to which log data from Elasticsearch indices is pulled. **Note:**
 
+-   You can select only MID Servers that support basic authentication. MID Servers that support mTLS are not listed.
 -   The default maximum number of data inputs streaming logs to a single MID Server is 10. You can modify this number in the MID Server properties.
 -   If log ingestion is not enabled for the selected MID Server, Health Log Analytics enables it automatically.
+
+This field is required.
 
 </td></tr><tr><td>
 
@@ -69,18 +74,19 @@ MID Server Cluster
 
 \(Only when the **Execute on** field is set to Specific MID Server Cluster\)
 
-The MID Server cluster to which the log data is pulled. This field is required.The data input runs on a single MID Server in the cluster until that MID Server fails. The system then moves all the data input tasks to the next available MID Server in the cluster according to the configured order.
+The MID Server cluster to which the log data is pulled.The data input runs on a single MID Server in the cluster until that MID Server fails. The system then moves all the data input tasks to the next available MID Server in the cluster according to the configured order.
 
-This feature is supported in the Health Log Analytics application, Version 26.0.17 - February 2023 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+ This feature is supported in the Health Log Analytics application, Version 26.0.17 - February 2023 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
-**Note:**
+ **Note:**
 
 -   Health Log Analytics supports only failover MID Server clusters. In these clusters, multiple MID Servers are grouped together for failover protection. When selecting a cluster from the data input form, the MID Server Clusters list displays only failover clusters.
+-   The MID Server cluster must include only MID Servers that support basic authentication. mTLS is not supported for log ingestion.
 -   Log ingestion must be enabled for each MID Server in the cluster. If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
 -   If Elasticsearch uses client certificate or CA certificate authentication, all MID Servers in the cluster must have the appropriate certificates.
 -   The default maximum number of data inputs streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs running on it, even when that MID Server is down.
 
-For more information about MID Server clusters, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
+For more information about MID Server clusters, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).This field is required.
 
 </td></tr><tr><td>
 
@@ -88,12 +94,12 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. This field is required.Selecting the service instance enables HLA to correlate CIs and service instances in the CMDB for root cause analysis.
-
-**Note:** If no appropriate service instance exists, create one, add CIs to it, and set its status to Operational. For more information, see [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-it-services.md).
+The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [Create an service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-it-services.md) and add CIs to it. Set the status of the new service instance to Operational.
 
 </td></tr></tbody>
-</table><table id="table_zl5_1m1_pvb"><thead><tr><th>
+</table>The following fields show read-only information:
+
+<table id="table_zl5_1m1_pvb"><thead><tr><th>
 
 Field
 
@@ -107,7 +113,7 @@ Status
 
 </td><td>
 
-Status of the data input. This field is read-only.
+Status of the data input.
 
 </td></tr><tr><td>
 
@@ -115,7 +121,7 @@ Transport
 
 </td><td>
 
-Protocol used to stream the log data. This field is read-only.This data input uses Elastic to stream log data to your instance.
+Protocol used to stream the log data.This data input uses Elastic to stream log data to your instance.
 
 </td></tr><tr><td>
 
@@ -123,7 +129,7 @@ Sources count
 
 </td><td>
 
-The number of log sources this data input has created. This field is read-only.
+The number of log sources this data input has created.
 
 </td></tr><tr><td>
 
@@ -131,11 +137,11 @@ Disabled since
 
 </td><td>
 
-The time when the data input stopped or failed. This field is read-only.
+The time when the data input stopped or failed.
 
 </td></tr><tr><td>
 
-MID last receiving time
+Last log time
 
 </td><td>
 
@@ -176,6 +182,22 @@ The number of shards configured for the relevant index in Elasticsearch.This num
 
 </td></tr><tr><td>
 
+Proxy host
+
+</td><td>
+
+Host name of the HTTP proxy through which requests are sent.
+
+</td></tr><tr><td>
+
+Proxy port
+
+</td><td>
+
+Port of the HTTP proxy through which requests are sent.
+
+</td></tr><tr><td>
+
 Authentication method
 
 </td><td>
@@ -192,7 +214,23 @@ User name and password used to connect to the Elasticsearch search engine.**Note
 
 </td></tr><tr><td>
 
-Api key credentials
+AWS credentials
+
+</td><td>
+
+AWS credentials to use to connect to the AWS-hosted Elasticsearch search engine.**Note:** Fill in either this field or the **Basic auth credentials** field.
+
+</td></tr><tr><td>
+
+AWS region
+
+</td><td>
+
+AWS region where the Elasticsearch cluster runs.
+
+</td></tr><tr><td>
+
+API key credentials
 
 </td><td>
 
@@ -249,7 +287,7 @@ Use cross-cluster search
 
 </td><td>
 
-Option to search for data across Elasticsearch clusters.When this check box is selected, the **Clusters to search** field displays.
+Option for searching for data across Elasticsearch clusters.When this check box is selected, the **Clusters to search** field displays.
 
 **Note:** Your settings in the **Use minimal privileges** check box and the **Delay in reading current timestamp \(seconds\)** field on the **Advanced configuration** form affect how data is collected across multiple clusters.
 
@@ -295,7 +333,7 @@ Use minimal privileges
 
 </td><td>
 
-Option to read log data directly from the Elasticsearch indices with the configured prefix.-   When selected, the data input reads the log data directly from the Elasticsearch indices with the configured prefix. To perform this task, it needs only read privileges.
+Option for reading log data directly from the Elasticsearch indices with the configured prefix.-   When selected, the data input reads the log data directly from the Elasticsearch indices with the configured prefix. To perform this task, it needs only read privileges.
 
 **Note:** When this check box is selected and you're using cross-cluster search, data is collected from all the clusters simultaneously.
 
@@ -374,7 +412,7 @@ Value used to slice the data. Each slice is scrolled in parallel. Default: \_id
 
 </td></tr><tr><td>
 
-Search-after tie breaker
+Search-after tiebreaker
 
 </td><td>
 
@@ -390,7 +428,7 @@ Use search-after API
 
 </td><td>
 
-Option to toggle between using sliced-scrolling and search-after APIs. **Note:** Sliced-scrolling APIs are preferable when reading historical data, while search-after APIs are better for reading real-time data.
+Option for toggling between using sliced-scrolling and search-after APIs. **Note:** Sliced-scrolling APIs are preferable when reading historical data, while search-after APIs are better for reading real-time data.
 
 </td><td>
 
@@ -409,7 +447,9 @@ Format of the time suffix when using time-based index names, such as \[logstash-
 uuuu.MM.dd
 
 </td></tr></tbody>
-</table><table id="table_sqw_tg4_gnb"><thead><tr><th>
+</table>## Advanced configuration
+
+<table id="table_sqw_tg4_gnb"><thead><tr><th>
 
 Field
 
@@ -443,16 +483,6 @@ The lifetime of the created scroll when using the scroll API to read data from E
 
 </td></tr><tr><td>
 
-Delay in reading current timestamp \(seconds\)
-
-</td><td>
-
-The number of seconds before current time to query to include delayed data.The configured number of seconds is subtracted from the current time for reading the last timestamp.
-
-**Note:** If this value is 0 and data is collected from multiple clusters simultaneously, the query may not include data that was sent with a delay on one of the clusters,
-
-</td></tr><tr><td>
-
 Event processor workers
 
 </td><td>
@@ -473,7 +503,7 @@ Default timezone
 
 </td><td>
 
-The default time zone used when a log doesn't include time zone information.
+The default timezone if the event date and time doesn't include timezone information.
 
 </td></tr><tr><td>
 
@@ -497,7 +527,7 @@ Character encoding
 
 </td><td>
 
-The character encoding for this data input. This field is read-only.
+The character encoding for this data input.
 
 </td></tr><tr><td>
 
@@ -509,20 +539,22 @@ The interval, in seconds, to wait before querying again after a query has return
 
 </td></tr><tr><td>
 
-Polling interval
-
-</td><td>
-
-The interval, in seconds, to wait before polling for new events.
-
-</td></tr><tr><td>
-
 Max length in bytes
 
 </td><td>
 
 The maximum length, in bytes, of log messages.
 
+</td></tr><tr><td>
+
+Delay in reading current timestamp \(seconds\)
+
+</td><td>
+
+The number of seconds before current time to query to include delayed data.The configured number of seconds is subtracted from the current time for reading the last timestamp.
+
+**Note:** If this value is 0 and data is collected from multiple clusters simultaneously, the query may not include data that was sent with a delay on one of the clusters,
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+</table>**Parent Topic:**[Data input configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

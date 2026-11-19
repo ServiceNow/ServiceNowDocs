@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [X Spoke \(formerly Twitter Spoke\), Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
+breadcrumb: [X Spoke \(formerly Twitter Spoke\), Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Set up the X spoke
@@ -104,38 +104,36 @@ Two connections, **Twitter** and **Twitter\_Media**, are provided in the Flow De
 
 ### Procedure
 
-1.  Configure the **Twitter** connection alias.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-    1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+2.  Click the **Integrations** tab.
 
-    2.  Click the **Integrations** tab.
+3.  Select the **Connections** tab.
 
-    3.  Select the **Connections** tab.
+4.  In the Search all connections field, enter `Twitter`.
 
-    4.  In the Search all connections field, enter `Twitter`.
+5.  On the Twitter tile, select **View Details**.
 
-    5.  On the Twitter tile, select **View Details**.
+    \[Omitted image "twitter-alias-view-details.png"\] Alt text:
 
-        \[Omitted image "twitter-alias-view-details.png"\] Alt text:
+6.  Select **Configure**.
 
-    6.  Select **Configure**.
+7.  On the **Configure Connection** form, fill in the fields.
 
-    7.  On the **Configure Connection** form, fill in the fields.
+    |Field|Description|
+    |-----|-----------|
+    |Connection Name|Name to identify the Twitter connection alias record.|
+    |Connection URL|Enter `https://api.twitter.com`.|
+    |Consumer Key|Consumer key of your X developer app.|
+    |Consumer Secret|Consumer secret of your X developer app.|
+    |Access Token|Access token of your X developer app.|
+    |Access Token Secret|Access token secret of your X developer app.|
 
-        |Field|Description|
-        |-----|-----------|
-        |Connection Name|Name to identify the Twitter connection alias record.|
-        |Connection URL|Enter `https://api.twitter.com`.|
-        |Consumer Key|Consumer key of your X developer app.|
-        |Consumer Secret|Consumer secret of your X developer app.|
-        |Access Token|Access token of your X developer app.|
-        |Access Token Secret|Access token secret of your X developer app.|
+    \[Omitted image "twitter-conn-form.png"\] Alt text: Twitter alias connection form.
 
-        \[Omitted image "twitter-conn-form.png"\] Alt text: Twitter alias connection form.
+8.  Select **Create Connection**.
 
-    8.  Select **Create Connection**.
-
-2.  Configure the **Twitter\_Media** connection alias.
+9.  Configure the **Twitter\_Media** connection alias.
 
     1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 

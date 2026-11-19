@@ -1,5 +1,5 @@
 ---
-title: ServiceNow Otto for Code properties
+title: Code generation properties
 description: You can adjust how code generation functions on an instance using several advanced properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/now-assist-code-properties.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Reference, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Code generation reference, Now Assist for code generation, Scripting, API implementation, API implementation and reference]
 ---
 
-# ServiceNow Otto for Code properties
+# Code generation properties
 
 You can adjust how code generation functions on an instance using several advanced properties.
 
@@ -62,7 +62,7 @@ Enables using the Code with Now Assist dialog box to provide text prompts.
  -   Type: true \| false
 -   Default value: true
 -   Location: System Property \[sys\_properties\] table
--   Learn more: [Generate code with AI-powered code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/generate-scripts-from-text.md)
+-   Learn more: [Generate scripts from text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/generate-code.md)
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ sn\_now\_assist\_code.show\_ai\_code\_line\_marker
 
 </td><td>
 
-Enables tracking which lines of code are AI-generated. In a script editor, the AI-generated codes are indicated by a line next to the line numbers. However, if you edit any AI-generated code, the indicator doesn’t appear for the modified lines.
+Enables tracking which lines of code are AI-generated. This code is indicated by a line next to the lines of code in a script editor. If you edit AI-generated code, the line indicator doesn’t appear for those lines of code.
 
  -   Type: true \| false
 -   Default value: true
@@ -83,7 +83,7 @@ sn\_now\_assist\_code.collect\_schema\_for\_code\_assist
 
 </td><td>
 
-Specifies whether to collect the data schema of the table, a business rule, or client script runs when using code generation. If you set this property to false, you can receive code suggestions faster but may get fewer contextual suggestions.
+Specifies whether to collect the data schema of the table that a business rule or client script runs on when using code generation. If you set this property to false, you can receive code suggestions quicker but may get less contextual suggestions.
 
  -   Type: true \| false
 -   Default value: true
@@ -91,67 +91,17 @@ Specifies whether to collect the data schema of the table, a business rule, or c
 
 </td></tr><tr><td>
 
-sn\_now\_assist\_code.log\_edited\_response
+sn\_now\_assist\_code.code\_assist\_model\_provider
 
 </td><td>
 
-Enables logging of the full script content after you accept a suggestion from Now Assist in script editors.
+All requests for the Now Assist for Code model are redirected to Azure OpenAI for evaluation and response. Additionally, you’ll get access to the Code Explain and Code Summarize features.
 
- When enabled, the system captures the entire script body immediately after you accept an AI-generated suggestion and saves it in the sys\_generative\_ai\_log.edited\_response field.
-
- This property is useful for auditing, troubleshooting, or reviewing how suggestions were added to the final script.
-
- -   Type: true \| false
--   Default value: true
+ -   Type: String
+-   Default value: na4c\_nowllm
 -   Location: System Property \[sys\_properties\] table
-
-</td></tr><tr><td>
-
-sn\_now\_assist\_code.async\_max\_payload\_size
-
-</td><td>
-
-Specifies the maximum payload size for autocomplete messages sent over the Asynchronous Message Bus \(AMB\). The current platform limit for AMB payloads is 8 KB, and it shouldn’t be exceeded.
-
- Adjusting this setting helps optimize performance and help prevent errors caused by oversized payloads.
-
- -   Type: integer
--   Default value: 7056
--   Location: System Property \[sys\_properties\] table
-
-</td></tr><tr><td>
-
-sn\_now\_assist\_code.enable\_auto\_complete
-
-</td><td>
-
-Enables AI-driven code generation and autocomplete within Now Assist. Activate this property to enable Now Assist to provide intelligent, context-aware code suggestions as you write scripts.
-
- -   Type: true \| false
--   Default value: true
--   Location: System Property \[sys\_properties\] table
-
-</td></tr><tr><td>
-
-sn\_now\_assist\_code.disable\_snowsk8s\_autocomplete
-
-</td><td>
-
-Stops Now Assist from using SnowSkates for autocomplete. Set this property to true if you prefer a different code-suggestion provider or want to restrict SnowSkates-based processing.
-
- -   Type: true \| false
--   Default value: false
--   Location: System Property \[sys\_properties\] table
+-   Learn more: [Enable Code Explain and Summarize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/enable-code-explain-and-summarize.md)
 
 </td></tr></tbody>
-</table>**Note:**
-
-Users with access to the system property table can modify system properties. However, updating the following system properties requires the now\_assist\_code\_admin role:
-
--   sn\_now\_assist\_code.log\_edited\_response
--   sn\_now\_assist\_code.async\_max\_payload\_size
--   sn\_now\_assist\_code.enable\_auto\_complete
--   sn\_now\_assist\_code.disable\_snowsk8s\_autocomplete
-
-**Parent Topic:**[ServiceNow Otto for Code reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/now-assist-code-reference.md)
+</table>**Parent Topic:**[Code generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/now-assist-code-reference.md)
 

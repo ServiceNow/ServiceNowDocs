@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
 # Basic Software Asset Management
@@ -63,11 +63,11 @@ The reconciliation process calculates the compliance status of software products
 </td></tr></tbody>
 </table>-   **[Exploring Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/exploring-sam-foundation.md)**  
 The Basic Software Asset Management \(com.snc.sams\) supports tracking, evaluating, and managing software licenses and compliance. You can access this functionality through the Software Asset Workspace or the Software Asset Management Core UI.
--   **[Setting up Basic Software Asset Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)**  
-Set up Basic Software Asset Management plugin before configuration.
+-   **[Setting up Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_SAMSetupSAMF.md)**  
+Set up Basic Software Asset Management before configuration.
 -   **[Configuring Basic Software Asset Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)**  
 Once you have finished setting up the Basic Software Asset Management and the Software Asset Workspace plugin applications, you need to configure the Software Asset Workspace.
--   **[Configuring the classic Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)**  
+-   **[Configuring Basic Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)**  
 Configure Basic Software Asset Management if you prefer to continue using the classic version.
 -   **[Using Basic Software Asset Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/using-samf-workspace.md)**  
 Use the Software Asset Workspace, the intuitive and streamlined user interface of the Basic Software Asset Management application.
@@ -76,5 +76,5 @@ Using Basic Software Asset Management classic.
 -   **[Basic Software Asset Management Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)**  
 Basic Software Asset Management administration tasks include adding custom product records, creating custom license metrics, and setting properties. You can also refresh processor definitions, and migrate software installations.
 
-**Parent Topic:**[ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-sam.md)
+**Parent Topic:**[ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/asset-management/itsm-sam.md)
 

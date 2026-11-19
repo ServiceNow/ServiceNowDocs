@@ -1,18 +1,18 @@
 ---
 title: View value stream stage details
-description: You can view the list of all available value streams stages in the Enterprise Architecture Workspace. You can also view and manage the business processes and business capabilities associated with the value stream.
+description: You can view the list of all available value streams stages in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-view-all-value-stream-stages.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Manage value stream stages, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Manage value stream stages, Working with business architecture, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # View value stream stage details
 
-You can view the list of all available value streams stages in the Enterprise Architecture Workspace. You can also view and manage the business processes and business capabilities associated with the value stream.
+You can view the list of all available value streams stages in the Enterprise Architecture Workspace.
 
 ## Before you begin
 
@@ -41,12 +41,12 @@ Role required: sn\_apm.apm\_user
     **Note:** Select a business capability to view more details.
 
 
-**Parent Topic:**[Manage value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-value-stream-stages.md)
+**Parent Topic:**[Manage value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-stream-stage.md)
 
 **Related topics**  
 
 
 [Add or edit a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-or-edit-a-value-stream-stage.md)
 
-[Exploring value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-stream-stage.md)
+[Manage value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-stream-stage.md)
 

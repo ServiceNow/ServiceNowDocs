@@ -1,16 +1,16 @@
 ---
-title: Install Impact
+title: Install the Impact Store Application from the ServiceNow Store
 description: Follow these instructions to install the Impact Store Application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/install-impact-innovation-lab.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-04-28"
 reading_time_minutes: 1
-breadcrumb: [Guided Setup \(Legacy\), Configuring Impact, Impact]
+breadcrumb: [Configuring the Impact Store Application, Impact Store Application, Impact]
 ---
 
-# Install Impact
+# Install the Impact Store Application from the ServiceNow Store
 
 Follow these instructions to install the Impact Store Application.
 
@@ -27,9 +27,9 @@ Role required: Any Impact role, admin
 
 ## Procedure
 
-1.  Navigate to the [ServiceNow Store](https://store.servicenow.com/store).
+1.  Navigate to the ServiceNow Store.
 
-2.  Select **Apps and Solutions** from the Explore menu.
+2.  Select **Apps and Solutions**.
 
 3.  Find Impact using the filter criteria and search bar.
 
@@ -47,8 +47,6 @@ Role required: Any Impact role, admin
 
 8.  Select **Install** to complete the installation.
 
-    Refer to [Dependent applications installed with the Impact Store App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/data-sync-idi-store.md) for the tables installed.
-
 9.  Select **Configure**.
 
     \[Omitted image "configure-impact-store.png"\] Alt text: Configure option for Impact in the Application Manager.
@@ -58,7 +56,5 @@ Role required: Any Impact role, admin
 
 ## What to do next
 
-[Impact Guided Setup \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/guided-setup-impact-in-app.md).
-
-**Parent Topic:**[Impact Guided Setup \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/guided-setup-impact-in-app.md)
+[Initiate the connection to the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/initiate-the-connection-impact-delivery-instance.md).
 

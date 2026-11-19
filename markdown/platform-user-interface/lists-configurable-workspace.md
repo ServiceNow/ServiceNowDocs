@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/lists-configurable-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-06-13"
 reading_time_minutes: 1
-breadcrumb: [Explore, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Exploring Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Lists

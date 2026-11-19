@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Hardware Asset Management reference, Hardware Asset Management, IT Asset Management]
 ---
 
 # Hardware model details
@@ -705,9 +705,4 @@ Description of the hardware model.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Hardware Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/reference-hardware-asset-management.md)
-
-**Related topics**  
-
-
-[Create a hardware or consumable model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/create-hardware-consumable-model.md)
 

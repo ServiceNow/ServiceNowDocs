@@ -1,5 +1,5 @@
 ---
-title: Classic UI for Policy and Control Management
+title: Use the Classic user interface for Policy and Compliance tasks
 description: You can continue to use the Classic environment to perform all Policy and Compliance Management activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Classic UI for Policy and Control Management
+# Use the Classic user interface for Policy and Compliance tasks
 
 You can continue to use the Classic environment to perform all Policy and Compliance Management activities.
 

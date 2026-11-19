@@ -1,5 +1,5 @@
 ---
-title: Monitor and manage your NIST security posture
+title: View the dashboards to monitor and manage your NIST security posture
 description: Access the CAM Overview, AO Overview, and SCA Overview dashboards from the CAM Workspace to monitor and analyze data and view CAM reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/view-dashboards-cam-ws.html
@@ -7,12 +7,12 @@ release: yokohama
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Monitor and manage your NIST security posture
+# View the dashboards to monitor and manage your NIST security posture
 
 Access the CAM Overview, AO Overview, and SCA Overview dashboards from the CAM Workspace to monitor and analyze data and view CAM reports.
 
@@ -24,13 +24,11 @@ Role required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.authorization\_off
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CAM Workspace**.
-
-2.  Select \[Omitted image "feedback-dashboard-icon.jpg"\] Alt text: Dashboard icon. from the sidebar.
+1.  Navigate to **All** &gt; **CAM Workspace** and then select the dashboard icon \(\[Omitted image "feedback-dashboard-icon.jpg"\] Alt text: Dashboard icon.\).
 
     The dashboard appropriate for your user role opens.
 
-3.  Select the dashboard you want to view.
+2.  Select the change dashboard list icon \(\[Omitted image "change-dashboard-icon.png"\] Alt text: Change dashboard list icon.\) to select the dashboard to view.
 
     -   **CAM Overview dashboard**
 

@@ -1,22 +1,24 @@
 ---
-title: Working offline on ServiceNow Agent
-description: When you are at a task site that doesn't have an internet connection, you can work on field service tasks, record time, track asset usage, create part requirements, and complete work orders and tasks using the ServiceNow Agent application.Download field service data to the application cache and enable mobile offline mode to execute field service tasks at locations with no internet connection. Synchronize the data when your mobile device is online again.Manage tasks, record time, track inventory, pause tasks, complete tasks, and view knowledge articles using your mobile device when you're offline.Repair an SLA to capture the device timestamp that was recorded when an SLA was closed on the ServiceNow Agent application in offline mode.
+title: Working offline on Mobile Agent
+description: When you are at a task site that doesn't have an internet connection, you can work on field service tasks, record time, track asset usage, create part requirements, and complete work orders and tasks using the Now Mobile Agent application.Download field service data to the application cache and enable mobile offline mode to execute field service tasks at locations with no internet connection. Synchronize the data when your mobile device is online again.Manage tasks, record time, track inventory, pause tasks, complete tasks, and view knowledge articles using your mobile device when you're offline.Repair an SLA to capture the device timestamp that was recorded when an SLA was closed on the Now Mobile Agent application in offline mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/work-offline-fieldservice-mobile.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 7
-breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
+breadcrumb: [Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
 ---
 
-# Working offline on ServiceNow Agent
+# Working offline on Mobile Agent
 
-When you are at a task site that doesn't have an internet connection, you can work on field service tasks, record time, track asset usage, create part requirements, and complete work orders and tasks using the ServiceNow Agent application.
+When you are at a task site that doesn't have an internet connection, you can work on field service tasks, record time, track asset usage, create part requirements, and complete work orders and tasks using the Now Mobile Agent application.
 
-## Run ServiceNow Agent in offline mode
+**Parent Topic:**[Complete work orders on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Use-mobile-app-fsm.md)
+
+## Run the Now Mobile Agent application in offline mode
 
 Download field service data to the application cache and enable mobile offline mode to execute field service tasks at locations with no internet connection. Synchronize the data when your mobile device is online again.
 
@@ -30,7 +32,7 @@ You can view a list of all actions taken when your device was offline and the ti
 
 ### Procedure
 
-1.  Open ServiceNow Agent application.
+1.  Open Now Mobile Agent application.
 
 2.  Log in to your Field Service application instance.
 
@@ -47,15 +49,15 @@ You can view a list of all actions taken when your device was offline and the ti
 
 5.  Do one of the following to download data and go offline.
 
-<table id="choicetable_yld_hym_wfb"><thead><tr><th align="left" id="d51621e209">
+<table id="choicetable_yld_hym_wfb"><thead><tr><th align="left" id="d47240e210">
 
 To
 
-</th><th align="left" id="d51621e212">
+</th><th align="left" id="d47240e213">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d51621e218">
+</th></tr></thead><tbody><tr><td id="d47240e219">
 
 **Take the app offline when the data is downloaded.**
 
@@ -65,7 +67,7 @@ Do this
 2.  Tap **Download cache &amp; go offline**.
  The app takes a few minutes to download the data and then takes the app offline. You can click **cancel** if you do not want to download data and go offline.
 
-</td></tr><tr><td id="d51621e249">
+</td></tr><tr><td id="d47240e250">
 
 **Manually download the data and then choose to take the app offline.**
 
@@ -86,15 +88,15 @@ Do this
     -   To clear the cache, tap **Clear cache**.
 7.  Synchronize updated records.
 
-<table id="choicetable_ufz_wr3_zfb"><thead><tr><th align="left" id="d51621e319">
+<table id="choicetable_ufz_wr3_zfb"><thead><tr><th align="left" id="d47240e320">
 
 To
 
-</th><th align="left" id="d51621e322">
+</th><th align="left" id="d47240e323">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d51621e328">
+</th></tr></thead><tbody><tr><td id="d47240e329">
 
 **Synchronize the data when your mobile device is offline**
 
@@ -105,7 +107,7 @@ Do this
 3.  Tap **Go Online &amp; Sync**.
 
 
-</td></tr><tr><td id="d51621e359">
+</td></tr><tr><td id="d47240e360">
 
 **Synchronize the data after your mobile device is connected online**
 
@@ -168,11 +170,13 @@ With your Field Service instance on your mobile device in offline mode, you can:
     Take questionnaires when mobile is offline. For more information, see [Complete questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/complete-questionnaire-mobile-app.md).
 
 
+In the offline mode, the **My Schedule** option in the **My Tasks** page is not available because the FSM Schedule Events \(v\_st\_fsm\_schedule\_event\) remote table is not supported.
+
 You can close work order SLAs in offline mode. The Field Service mobile application records the device timestamp when the SLA was closed. After you connect your device online and synchronize the data, the SLA admin can repair the SLA to display the actual time the SLA was closed.
 
-## Repair an SLA after closing a work order on ServiceNow Agent
+## Repair an SLA after closing a work order on the Now Mobile Agent application
 
-Repair an SLA to capture the device timestamp that was recorded when an SLA was closed on the ServiceNow Agent application in offline mode.
+Repair an SLA to capture the device timestamp that was recorded when an SLA was closed on the Now Mobile Agent application in offline mode.
 
 ### Before you begin
 

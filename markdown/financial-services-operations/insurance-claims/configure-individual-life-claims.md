@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 6
-breadcrumb: [Configure, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Setting up Individual Life Claims, Individual Life Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Configure Individual Life Claims
@@ -34,15 +34,15 @@ Individual Life Claims includes a death benefit claim workflow that demonstrates
 
 2.  Review the installed components and modify them, or add new ones as applicable.
 
-<table id="choicetable_oxg_nxp_4bc"><thead><tr><th align="left" id="d54080e128">
+<table id="choicetable_oxg_nxp_4bc"><thead><tr><th align="left" id="d47793e124">
 
 Task
 
-</th><th align="left" id="d54080e131">
+</th><th align="left" id="d47793e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d54080e137">
+</th></tr></thead><tbody><tr><td id="d47793e133">
 
 **Configure roles and user groups**
 
@@ -59,7 +59,7 @@ Determine the roles of the individuals that you need to work on the claim cases 
 -   Admin: Included in Individual Life Claims and inherits the service definition admin core role. This role performs the configurations that are required for the application. This role is shared across all your lines of business. You may not need to make any changes to this role.
  Next, configure the user groups for the assignment of cases and tasks. You can also assign roles to groups. For more information, see [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-groups-fso.md).
 
-</td></tr><tr><td id="d54080e217">
+</td></tr><tr><td id="d47793e213">
 
 **Set up script includes**
 
@@ -75,7 +75,7 @@ Modify the ClaimConstants script include to reuse the object names across functi
 
 For more information, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
-</td></tr><tr><td id="d54080e250">
+</td></tr><tr><td id="d47793e246">
 
 **Configure tables and ACLs**
 
@@ -85,9 +85,9 @@ Configure the tables by reviewing the existing tables that were provided in Insu
 
 **Note:** The claims data model supports working on a single case with either a single policy, or multiple policies, or beneficiaries.
 
-For more information, see [Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/data-models.md) and [Components installed with Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims/components-installed-individual-life-claims.md).
+For more information, see [Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/data-models.md) and [Components installed with Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims/components-installed-individual-life-claims.md).
 
-</td></tr><tr><td id="d54080e282">
+</td></tr><tr><td id="d47793e278">
 
 **Configure form views**
 
@@ -95,7 +95,7 @@ For more information, see [Data Models](https://raw.githubusercontent.com/Servic
 
 Set up any required views for any new tables according to your business requirements.You can use the included case views and task views in this application for reference.
 
-</td></tr><tr><td id="d54080e294">
+</td></tr><tr><td id="d47793e290">
 
 **Configure service definitions**
 
@@ -107,7 +107,7 @@ You can also define the services for task tables to create different flows for y
 
 For more information, see [Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-service-definitions.md).
 
-</td></tr><tr><td id="d54080e318">
+</td></tr><tr><td id="d47793e314">
 
 **Set up UI actions**
 
@@ -119,7 +119,7 @@ Override or hide the actions according to your business requirements.
 
 For more information, see [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UIActions.md) and [FSO Core Banking tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-core-banking-tables.md).
 
-</td></tr><tr><td id="d54080e353">
+</td></tr><tr><td id="d47793e349">
 
 **Configure workspaces**
 
@@ -129,9 +129,9 @@ Configure the workspaces for your defined personas to interact with the customer
 
 For more information, see [Enable the claim workspace for Individual Life Claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims/enable-claim-workspace-for-individual-life-claims.md).**Note:** The claim workspace is accessible from an adjuster task.
 
-For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md) and [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md).
+For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md) and [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md).
 
-</td></tr><tr><td id="d54080e402">
+</td></tr><tr><td id="d47793e398">
 
 **Configure decision tables**
 
@@ -141,9 +141,9 @@ Set up the decision tables that are specific to your business requirements.Refer
 
  If the input parameters, rules, and other elements vary, new tables may be needed for each line of business.
 
-For more information, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/decision-table.md).
+For more information, see .
 
-</td></tr><tr><td id="d54080e422">
+</td></tr><tr><td id="d47793e417">
 
 **Configure the approval engine**
 
@@ -153,7 +153,7 @@ Update the approval engine properties as required at **Insurance claim operation
 
 For more information, see [Insurance claims core properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims-core-roles-and-properties.md).
 
-</td></tr><tr><td id="d54080e450">
+</td></tr><tr><td id="d47793e445">
 
 **Configure assignment rules**
 
@@ -161,7 +161,7 @@ For more information, see [Insurance claims core properties](https://raw.githubu
 
 Configure the assignment rules to identify the cases that meet certain conditions and then route those cases to agents. For more information, see [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-assignment-rules-fso-applications.md).
 
-</td></tr><tr><td id="d54080e467">
+</td></tr><tr><td id="d47793e462">
 
 **Edit or create flows**
 

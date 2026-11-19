@@ -1,39 +1,34 @@
 ---
-title: Jumpstart Your Workflow Automation: Flows
-description: This Accelerator provides an overview and applied demonstration of Flows in Workflow Studio, covering triggers, actions, sub-flows, and low-code automation capabilities.
+title: Jumpstart Your Legacy Workflow Migration
+description: The Jumpstart Your Legacy Workflow Migration Accelerator provides a demonstration of the possibilities and capabilities of Legacy Workflow Migration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-legacy-workflow-migration.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+last_updated: "2025-01-30"
+reading_time_minutes: 2
+breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
 ---
 
-# Jumpstart Your Workflow Automation: Flows
+# Jumpstart Your Legacy Workflow Migration
 
-This Accelerator provides an overview and applied demonstration of Flows in Workflow Studio, covering triggers, actions, sub-flows, and low-code automation capabilities.
+The Jumpstart Your Legacy Workflow Migration Accelerator provides a demonstration of the possibilities and capabilities of Legacy Workflow Migration.
 
 ## Accelerator overview
 
-Jumpstart Your Workflow Automation: Flows provides Impact customers with an overview and applied demonstration of Flows in Workflow Studio. Customers learn how to build and configure automated processes using triggers, actions, and reusable sub-flows — replacing complex custom scripts with upgrade-safe, low-code automation.
+Jumpstart Your Legacy Workflow Migration provides Impact customers with an overview and applied demonstration of migrating from legacy workflows to Flows and Playbooks. This offering  supports customers in adopting modern low-code automation tools, replacing workflows scheduled to be phased out in future releases. Additionally, this Accelerator provides key resources and leading practice guides to help customers with a smooth  transition.​
 
-This Accelerator also equips customers with key resources and leading practices to design, test, and scale workflows effectively using ServiceNow’s core actions and spoke library.
+**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 
-## Package Availability
-
-**Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
+Offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
 ## What you get
 
 -   **Session preparation**
-
-    The Technical Accelerator Consultant:
-
-    -   Provisions a temporary instance
-    -   Activates and configures flows
+    -   Provision a temporary instance
+    -   Activate and configure flows and playbooks
 -   **Customer coaching session \#1 \(up to 90 minutes\)**
 
     Includes the following:
@@ -41,17 +36,15 @@ This Accelerator also equips customers with key resources and leading practices 
     -   Overview of Workflow Studio
         -   Playbook
         -   Decision tables
-    -   Applied demonstration of low code automatic tools
+    -   Applied demonstration of: low code automatic tools
         -   Flows
-        -   Sub-flows
+        -   Subflows
         -   Actions
-        -   Triggers
-        -   Decision Tables
     -   Key resources and guides on leading practices
     -   30 days access to the temporary instance is provided
--   **Customer coaching session \#2 \(optional up on customer request, up to 60 minutes\)**
+-   **Customer coaching session \#2 \(optional upon customer request, up to 60 minutes\)**
 
-    Opportunity for Q&amp;A related to Flows
+    Opportunity for Q&amp;A related Legacy Workflow Migration
 
 
 ## Requested customer resources
@@ -67,11 +60,13 @@ One or more customer resource is requested. The specific number of resources pro
 |Trusted Service Partners|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
 |Business Process Owner|Responsible for developing, analyzing and improving critical business processes.| |✓|
 
-## Requested Information/Access
+## Requested information / access
 
-**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+Refer to the applicable Impact Accelerator description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
 ## Exclusions
 
-ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
+This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
+
+ServiceNow resources are not responsible for implementing recommendations on customer’s non-production or production instances.
 

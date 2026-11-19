@@ -7,9 +7,8 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Investigation Canvas, threat intelligence analysis, canvas relationships]
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -58,15 +57,11 @@ In the Investigation Canvas, you can view the MITRE ATT&amp;CK techniques and su
 
 [Creating cases using Threat Analyst Workbench]()
 
-[Summarize a Case using generative AI]()
-
 [Creating case task using Threat Analyst Workbench]()
 
 [Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
-
-[Generate a Case Report using generative AI]()
 
 [Generate a Case Report using a template]()
 

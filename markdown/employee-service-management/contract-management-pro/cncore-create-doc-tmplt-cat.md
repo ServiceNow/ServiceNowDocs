@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
 ---
 
 # Create document template categories
@@ -24,18 +24,10 @@ Role required: sn\_cm\_core.contract\_config
 
 1.  Navigate to **All** &gt; **Document Templates** &gt; **Document Template Categories**.
 
-2.  Select **New**.
+2.  In the **Name** field, enter the name for the category.
 
-3.  In the **Name** field, enter the name for the category.
+3.  Select **Active** to make the category active.
 
-4.  Select **Active** to make the category active.
+4.  Select **Submit** to save the category.
 
-    \[Omitted image "cmpro-temp-catg.png"\] Alt text: Activate Document template category.
-
-5.  Select **Submit** to save the category.
-
-
-## Result
-
-The document template category is activated and can be associated with a document template.
 

@@ -1,16 +1,16 @@
 ---
-title: Integrating withIT Service Management
+title: Integrating with IT Service Management
 description: Integrate Customer Service Management with IT Service Management that includes the Incident, Problem, Change, and Request Management applications. With this integration, users can create request, incident, problem, and change records from customer service cases and external users can view these records from the Customer and Consumer Service Portals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/integrating-with-it-service-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Integrate, Customer Service Management]
+breadcrumb: [Integrating Customer Service Management with other applications, Customer Service Management]
 ---
 
-# Integrating withIT Service Management
+# Integrating with IT Service Management
 
 Integrate Customer Service Management with IT Service Management that includes the Incident, Problem, Change, and Request Management applications. With this integration, users can create request, incident, problem, and change records from customer service cases and external users can view these records from the Customer and Consumer Service Portals.
 

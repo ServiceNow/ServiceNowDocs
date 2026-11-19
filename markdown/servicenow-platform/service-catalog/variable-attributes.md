@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Create a service catalog variable, Service catalog variables, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -51,6 +51,10 @@ In the Catalog variable form, under the **Type Specifications** tab, you can spe
 
     Applicable variables: List collector
 
+    \[Omitted image "VarGlideListCollapsed.png"\] Alt text: Screenshot for the glide\_list attribute when collapsed
+
+    \[Omitted image "VarGlideListExpanded.png"\] Alt text: Screenshot for the glide\_list attribute when expanded
+
 -   **is\_searchable\_choice**
 
     If set to **true**, enables you to search for and select the required value for the variable. For example, `is_searchable_choice=true`.
@@ -60,6 +64,8 @@ In the Catalog variable form, under the **Type Specifications** tab, you can spe
     -   For Lookup select box, a default value is available at the page load itself.
     -   This attribute is not applicable in Service Portal.
     Applicable variables: Lookup select box, Select box
+
+    \[Omitted image "VA\_SearchableChoice.png"\] Alt text: Screenshot for the is\_searchable\_choice attribute
 
 -   **max\_length**
 
@@ -80,6 +86,8 @@ In the Catalog variable form, under the **Type Specifications** tab, you can spe
     Hides the filter fields that appear above a list collector.
 
     Applicable variables: List collector
+
+    \[Omitted image "VarNoFilter.png"\] Alt text: Screenshot for the no\_filter attribute
 
 -   **ref\_ac\_columns**
 

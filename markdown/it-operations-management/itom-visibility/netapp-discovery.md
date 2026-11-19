@@ -7,10 +7,10 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-24"
 reading_time_minutes: 13
 keywords: [NetApp, Server, Cluster, Patterns]
-breadcrumb: [Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
+breadcrumb: [Storage discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # NetApp Server and Cluster discovery
@@ -920,7 +920,7 @@ Discovery populates the data in the CMDB when running the NetApp Cluster-Mode Pa
 
 **Note:** For more information on NetApp discovery with CIM, see [Storage discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md).
 
-## CI relationships and references
+## CI relationships
 
 The NetApp Storage patterns create the following relationships and references to support NetApp Server and Cluster discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 

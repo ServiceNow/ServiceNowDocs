@@ -1,5 +1,5 @@
 ---
-title: Create a SAM Foundation software model
+title: Create a Basic Software Asset Management software model in classic
 description: Software models are used to connect purchased software rights with discovered software installations. Additionally, software models can be used to manage suites of software as well as to publish requestable software to the Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/software-asset-management-foundation-plugin/t\_AddASoftwareModelSAMF.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 5
-breadcrumb: [Configuring the classic Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Configuring Basic Software Asset Management classic, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
-# Create a SAM Foundation software model
+# Create a Basic Software Asset Management software model in classic
 
 Software models are used to connect purchased software rights with discovered software installations. Additionally, software models can be used to manage suites of software as well as to publish requestable software to the Service Catalog.
 
@@ -346,7 +346,7 @@ Risk
 
 
 </td></tr></tbody>
-</table>    2.  [Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md).
+</table>    2.  [Create a Basic Software Asset Management entitlement in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md).
 
     3.  [View Basic Software Asset Management software model results in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_ViewSWModelResultsSAMF.md).
 
@@ -431,5 +431,5 @@ Check box for setting the attribute as unlimited.
 </table>    5.  [Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/product-catalog/t_CreateAVendorCatalogItem.md).
 
 
-**Parent Topic:**[Configuring the classic Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)
+**Parent Topic:**[Configuring Basic Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)
 

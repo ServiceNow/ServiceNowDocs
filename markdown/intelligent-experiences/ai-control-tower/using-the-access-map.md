@@ -1,24 +1,24 @@
 ---
 title: Using the access map
-description: Learn how to use the Access map in AI Control Tower.
+description: Learn how to use the Access map in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/using-the-access-map.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Using Control Tower, Control Tower, Enable AI experiences]
 ---
 
 # Using the access map
 
-Learn how to use the **Access map** in AI Control Tower.
+Learn how to use the **Access map** in Control Tower.
 
 ## Before you begin
 
-Role required: AI Steward
+Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 ## Procedure
 
@@ -156,3 +156,5 @@ The creator of the tool
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Using Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
+

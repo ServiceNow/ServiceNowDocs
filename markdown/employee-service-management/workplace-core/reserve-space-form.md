@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-02-07"
 reading_time_minutes: 1
 breadcrumb: [Reference, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
@@ -121,6 +121,4 @@ Floor of the area or space that you want to access.
 [Workplace Profile Location Assignment form]()
 
 [Workplace location assignment anomaly types]()
-
-[Card Configuration examples]()
 

@@ -1,20 +1,20 @@
 ---
 title: Activate the CSDM plugin
-description: Activate the CSDM plugin so you can begin implementing the CSDM data model.
+description: Activate the CSDM plugin so you can begin implementing the framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-enable.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Activate the CSDM plugin
 
-Activate the CSDM plugin so you can begin implementing the CSDM data model.
+Activate the CSDM plugin so you can begin implementing the framework.
 
 ## Before you begin
 
@@ -29,5 +29,5 @@ Activate the CSDM plugin so you can begin implementing the CSDM data model.
     For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/configure-csdm.md)
+**Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)
 

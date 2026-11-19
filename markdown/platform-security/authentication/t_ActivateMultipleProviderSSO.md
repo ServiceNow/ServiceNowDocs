@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Activate Multi-Provider SSO plugin
@@ -17,6 +17,8 @@ breadcrumb: [Multi-Provider single sign-on \(SSO\), Authentication, Access Manag
 This integration requires the Integration - Multiple Provider Single Sign-On Installer \(com.snc.integration.sso.multi.installer\) plugin.
 
 ## Before you begin
+
+Role required: admin.
 
 The com.snc.integration.sso.multi.installer plugin can also be used for OIDC, SAML, and Digest.
 

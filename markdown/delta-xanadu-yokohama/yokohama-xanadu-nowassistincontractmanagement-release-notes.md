@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistincontractmanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -463,7 +463,7 @@ Yokohama
 Yokohama Patch 6
 
 -   Use the contract playbook to review and update the AI extracted metadata and reminder date for contract renewal or termination.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
  Yokohama Patch 3
 

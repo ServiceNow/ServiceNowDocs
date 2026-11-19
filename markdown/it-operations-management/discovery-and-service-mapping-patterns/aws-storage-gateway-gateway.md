@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-05-13"
+reading_time_minutes: 3
 keywords: [AWS Storage Gateway Gateway, AWS Storage Gateway discovery, AWS patterns, Storage Gateway Extended Inventory]
-breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # AWS Storage Gateway Gateway pattern-based discovery
@@ -21,11 +21,11 @@ Discovery and Service Mapping Patterns finds AWS Storage Gateway Gateways on you
 
 -   **Verify the AWS discovery prerequisites**
 
-    For more information, see the prerequisites section in [AWS discovery using patterns]().
+    For more information, see the prerequisites section in [Amazon AWS Cloud components discovery using patterns]().
 
 -   **Remove resources from the Resource Inclusion List table**
 
-    Verify that the relevant resource isn't listed in the Resource Inclusion List \[sa\_cloud\_inventory\_resource\_whitelist\] table to avoid duplicate discovery. For more information on removing resources from the Resource Inclusion List, see [AWS Resource Inventory discovery with Patterns]().
+    Verify that the relevant resource isn't listed in the Resource Inclusion List \[sa\_cloud\_inventory\_resource\_whitelist\] table to avoid duplicate discovery. For more information on removing resources from the Resource Inclusion List, see [Amazon Web Services \(AWS\) Resource Inventory]().
 
 -   **Enable the relevant pattern**
 
@@ -193,5 +193,5 @@ The Amazon AWS - Storage Gateway Gateway - Extended Inventory \(LP\) pattern col
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Cloud Gateway \[cmdb\_ci\_cloud\_gateway\] table.|
 
-**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

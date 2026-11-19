@@ -1,20 +1,20 @@
 ---
 title: Use the site filter
-description: Filter dashboard data by site in the Operational Technology \(OT\) Visibility, Operational Technology Vulnerability Response \(PA\), and the Operational Technology \(OT\) Risk Rollup dashboards.
+description: Use the site in the Operational Technology \(OT\) Visibility dashboard, the Operational Technology Vulnerability Response \(PA\) dashboard, and the OT Vulnerability Risk Rollup dashboard to filter the data by the selected site or sites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/industrial-workspace/use-business-unit-and-site-filters-vr.html
 release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Site filter in the Industrial Workspace, Use, Industrial Workspace, Operational Technology]
 ---
 
 # Use the site filter
 
-Filter dashboard data by site in the Operational Technology \(OT\) Visibility, Operational Technology Vulnerability Response \(PA\), and the Operational Technology \(OT\) Risk Rollup dashboards.
+Use the site in the Operational Technology \(OT\) Visibility dashboard, the Operational Technology Vulnerability Response \(PA\) dashboard, and the OT Vulnerability Risk Rollup dashboard to filter the data by the selected site or sites.
 
 ## Before you begin
 
@@ -28,9 +28,11 @@ Role required: cmdb\_ot\_isa\_viewer with site access
 
 3.  Select either the OT Visibility dashboard or the Operational Technology Vulnerability Response dashboard.
 
-4.  Select **Site** to display the list of available sites.
+4.  Under the **Site** header, click the **Select** button.
 
-5.  Select any site to view the dashboard data.
+    \[Omitted image "select-button-site-filter.png"\] Alt text: Select button under the Site filter that opens the filter menu
+
+5.  To search for a specific site, use the search function.
 
 6.  To apply one or more sites to the dashboard, complete the following actions.
 

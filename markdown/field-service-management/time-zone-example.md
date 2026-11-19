@@ -1,16 +1,16 @@
 ---
-title: Example – Multiple time zones for dispatchers
+title: Example – Time zones for dispatchers
 description: Explore how adding multiple time zones to Dispatcher Workspace makes managing agent schedules more efficient.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/time-zone-example.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring Time Zones, Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Configure time zones for dispatchers, Configuring Dispatcher Workspace, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
 ---
 
-# Example – Multiple time zones for dispatchers
+# Example – Time zones for dispatchers
 
 Explore how adding multiple time zones to Dispatcher Workspace makes managing agent schedules more efficient.
 
@@ -50,7 +50,7 @@ Role required: admin
 **Related topics**  
 
 
-[Configure multiple time zones for dispatchers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/add-remore-time-zones.md)
+[Configure time zones for dispatchers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/add-remore-time-zones.md)
 
 [Change the time zone in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/change-timezone-calendar.md)
 

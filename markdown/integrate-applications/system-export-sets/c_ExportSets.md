@@ -7,9 +7,9 @@ release: yokohama
 product: System Export Sets
 classification: system-export-sets
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Exports, Workflow Data Fabric]
+breadcrumb: [Exports, Data and Automation]
 ---
 
 # Export sets

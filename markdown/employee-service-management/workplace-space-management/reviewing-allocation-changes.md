@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-04-04"
 reading_time_minutes: 3
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -53,33 +53,21 @@ The parent of the workplace entity was changed.
 
 Cost center
 
-</td><td>
+</td><td rowspan="4">
 
-The cost center that is impacted by the change.
+The allocation type that is impacted by the change. Only one of these columns is filled based on the allocation change.
 
 </td></tr><tr><td>
 
 Department
 
-</td><td>
-
-The department that is impacted by the change.
-
 </td></tr><tr><td>
 
 Neighborhood
 
-</td><td>
-
-The neighborhood that is impacted by the change.
-
 </td></tr><tr><td>
 
 Workplace Entity
-
-</td><td>
-
-The workplace entity that is impacted by the change.
 
 </td></tr><tr><td>
 
@@ -148,6 +136,4 @@ Previous parent of the workplace entity.This field is applicable for workplace e
 [Raise a space assistance request]()
 
 [Create a view-by configuration]()
-
-[]()
 

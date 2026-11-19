@@ -1,5 +1,5 @@
 ---
-title: Glide platform stack
+title: Glide stack
 description: Glide is an extensible Web 2.0 development platform written in Java that facilitates rapid development of forms-based workflow applications \(work orders, trouble ticketing, and project management, for example\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/r\_GlideStack.html
@@ -7,20 +7,22 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Explore, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Glide class overview, Scripting, API implementation, API implementation and reference]
 ---
 
-# Glide platform stack
+# Glide stack
 
 Glide is an extensible Web 2.0 development platform written in Java that facilitates rapid development of forms-based workflow applications \(work orders, trouble ticketing, and project management, for example\).
 
-\[Omitted image "GlideServlet.svg"\] Alt text: Diagram of the Glide stack
-
 <table id="table_e5t_msn_vq"><thead><tr><th>
 
-User interface and Java packages
+Java packages
+
+</th><th>
+
+ 
 
 </th><th>
 
@@ -28,7 +30,11 @@ Technologies used
 
 </th></tr></thead><tbody><tr><td>
 
-User Interface \(browser\)
+ 
+
+</td><td>
+
+User Interface \(Browser\)
 
 </td><td>
 
@@ -39,9 +45,13 @@ User Interface \(browser\)
 
 </td></tr><tr><td>
 
-GlideServlet com.glide.ui
+com.glide.ui
 
-com.glide.jelly
+ com.glide.jelly
+
+</td><td>
+
+GlideServlet
 
 </td><td>
 
@@ -49,7 +59,11 @@ Apache Jelly
 
 </td></tr><tr><td>
 
-Business Rulescom.glide.script
+com.glide.script
+
+</td><td>
+
+Business Rules
 
 </td><td>
 
@@ -57,7 +71,11 @@ Mozilla Rhino
 
 </td></tr><tr><td>
 
-Persistencecom.glide.db
+com.glide.db
+
+</td><td>
+
+Persistence
 
 </td><td>
 
@@ -70,6 +88,10 @@ Name
 
 </th><th>
 
+Description
+
+</th><th>
+
 Attributes
 
 </th></tr></thead><tbody><tr><td>
@@ -78,7 +100,9 @@ GlideServlet
 
 </td><td>
 
-The primary driver of Glide, and the only servlet in the system, is found in GlideServlet.java.
+The primary driver of Glide, and the only servlet in the system, is found in GlideServlet.java. The GlideServlet:
+
+</td><td>
 
 -   Handles inbound action requests
 -   Renders pages
@@ -92,13 +116,21 @@ Business Rules
 
 </td><td>
 
--   ECMAScript implementation based on [Mozilla Rhino](http://www.mozilla.org/rhino/)
+ 
+
+</td><td>
+
+-   ECMA / JavaScript implementation based on [Mozilla Rhino](http://www.mozilla.org/rhino/)
 -   Interfaces with persistence layer using JDBC recordset interface
 -   Merges persistence layer meta-data with data for easy correlation
 
 </td></tr><tr><td>
 
 Persistence
+
+</td><td>
+
+ 
 
 </td><td>
 
@@ -114,5 +146,7 @@ Persistence
     -   ElementDescriptor
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_Script.md)
+</table>\[Omitted image "GlideServlet.png"\] Alt text:
+
+**Parent Topic:**[Glide class overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/r_GlideClassOverview.md)
 

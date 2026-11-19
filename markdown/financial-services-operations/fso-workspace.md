@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/fso-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Explore, Financial Services Operations \(FSO\)]
+breadcrumb: [Learning and exploring, Financial Services Operations \(FSO\)]
 ---
 
 # Workspaces in Financial Services Operations
 
 The Financial Services Operations \(FSO\) workspace provides a single location for agents to process cases and tasks. Agents can use it to respond to all task types, view the full context of an issue, and get relevant recommendations to resolve issues.
 
-FSO uses CRM Workspace that agents can use. To learn more about the features available in the CRM Workspace, see [CSM workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-workspace-feature-overview.md).
+FSO uses CSM Configurable Workspace that agents can use. To learn more about the features available in the CSM Configurable Workspace, see [CSM workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-workspace-feature-overview.md).
 
 ## Workspace users
 
@@ -58,7 +58,7 @@ Application admin
 
 </td><td>
 
-Configures the workspace as per business requirements.For more information, see [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
+Configures the workspace as per business requirements.For more information, see [Configure CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md).
 
 </td></tr></tbody>
 </table>## Accessing the workspace
@@ -71,17 +71,17 @@ On the workspace landing page, get a quick overview of the cases and tasks that 
 
 **Note:** The widgets and the data that are displayed in the widgets depend on your role.
 
-The following is an example of a workspace landing page.
+The following is an example of the workspace landing page for the Financial Services Treasury Operations application.
 
-\[Omitted image "fso-workspace-landing-page.png"\] Alt text: FSO workspace showing customer list with contact details and case summary cards displaying active cases and tasks.
+\[Omitted image "workspace-landing-page-treasury.png"\] Alt text: Overview of Treasury operations features including workspace, case, and task management tools.
 
 ## List view
 
 In the lists pane, you can quickly access cases and tasks by using the filtered lists under different categories. The lists that are displayed depend on your role.
 
-The following is an example of the workspace list view.
+The following is an example of the workspace list view for the Financial Services Treasury Operations application.
 
-\[Omitted image "fso-workspace-list-view.png"\] Alt text: Customer Cases list view showing navigation panel with expandable sections and case records with details like number, service, consumer, and state.
+\[Omitted image "workspace-list-view-treasury.png"\] Alt text: List view in workspace for treasury operations showing cases and tasks filtered under different categories.
 
 ## Cases and tasks
 
@@ -90,9 +90,9 @@ In workspace, using the case playbook, you can review and work on your cases and
 -   Contributors and requesters can submit service cases and view the case status.
 -   Agents can investigate, triage, and respond to cases and tasks that are assigned to them.
 
-The following is an example of a case playbook for a card dispute in the Financial Services Card Operations application.
+The following is an example of a case playbook for the Financial Services Treasury Operations application.
 
-\[Omitted image "fso-workspace-case-playbook.png"\] Alt text: Case playbook workspace showing the Resolve card disputes process with completed Select transaction step and case information panel.
+\[Omitted image "workspace-case-playbook-treasury.png"\] Alt text: Playbook view of a treasury case in workspace showing an example request for onboarding RDC service with its task steps, and a form with setup information and check type fields.
 
 **Parent Topic:**[Exploring Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/exploring-fso-apps.md)
 

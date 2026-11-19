@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-configuring-va.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Enable communication channels, Configure, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Enable communication channels, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure Virtual Agent for Public Sector Digital Services
@@ -43,7 +43,7 @@ These blocks are subflows that run conversational elements or common tasks in a 
     2.  Locate **GSP Chat**, and select the check box to set the record to **Active**.
 2.  In Virtual Agent Designer, search for the corresponding topic block.
     -   For Service Request Administration requests, search for and select **Create a Service Request**.
-    -   For License and Permit Administration requests, search for and select **Start a License/Permit Application**. For more information, see [Configure Virtual Agent for License and Permit Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-lpr-configure-va.md).
+    -   For License and Permit Administration requests, search for and select **Start a License/Permit Application**. For more information, see [Configuring Virtual Agent for License and Permit Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-lpr-configure-va.md).
 3.  Select **Publish** to set the topic block to Active and make it available to your end users. For more information on creating and publishing Virtual Agent topics, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/publish-virtual-agent-topic.md).
 
 For more information on working with topics in Virtual Agent Designer, see [Getting Started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
@@ -59,9 +59,13 @@ The Public Sector Digital Services Core application provides several base system
 
     Use this topic block in a conversation to ask constituents to select a service from a list of available government services, for example permits or licenses. Activate the Customer Service Virtual Agent Conversations \(com.sn\_csm.virtualagent\) plugin to use this topic block.
 
+    \[Omitted image "prompt-service-example.png"\] Alt text: Virtual agent conversation window showing the available prompts that can be used with the virtual agent Constituent topic block.
+
 -   **Create Public Sector Additional Members topic block**
 
     Use this topic block to let your constituents specify other people, such as family members or other authorized individuals, who can view a case or issue. Activate the Customer Service Virtual Agent Conversations \(com.sn\_csm.virtualagent\) plugin to use this topic block.
+
+    \[Omitted image "additional-members-example.png"\] Alt text: Now Support chat showing the workflow for adding members to a government service case using Virtual Agent chat prompts.
 
     When you use this topic block in a conversation, you specify the input parameters from the originating \(calling\) topic to the topic block.
 

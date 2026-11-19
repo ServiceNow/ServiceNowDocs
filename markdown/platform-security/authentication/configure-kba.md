@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-12-03"
 reading_time_minutes: 1
-breadcrumb: [Knowledge-based authentication, Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Knowledge-based authentication, Configure authentication factors, Authentication factors, Authentication, Access Management]
 ---
 
 # Configure knowledge-based authentication
@@ -29,7 +29,7 @@ Role required: auth\_factors\_admin
     -   [Create KBA questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-knowledge-based-questions.md)
     -   [Create KBA answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-knowledge-based-answers.md)
     -   [Map KBA questions to answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-kba-answer-mappings.md)
-    -   [Specify knowledge-based questions for an AI voice agent service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-kba-service-mappings.md)
-    After creating the KBA configurations, you can use them as an identification and authentication method.
+    -   [Assign KBA questions to your AI voice agent service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-kba-service-mappings.md)
+    After creating the KBA configurations, you can use it as an identification and authentication method.
 
 

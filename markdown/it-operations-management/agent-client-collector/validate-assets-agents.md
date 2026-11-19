@@ -1,20 +1,20 @@
 ---
-title: Validate plugins on agents
-description: Validate plugins on your agents to ensure that they match the plugins on your ServiceNow instance. Validating plugins ensures that the instance provides accurate data on all of your agents' plugins.
+title: Validate assets on agents
+description: Validate assets on your agents to ensure that they match the assets on your ServiceNow instance. Validating assets ensures that the instance provides accurate data on all of your agents' assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/validate-assets-agents.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Enabling Agent Client Collector data collection, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
 
-# Validate plugins on agents
+# Validate assets on agents
 
-Validate plugins on your agents to ensure that they match the plugins on your ServiceNow instance. Validating plugins ensures that the instance provides accurate data on all of your agents' plugins.
+Validate assets on your agents to ensure that they match the assets on your ServiceNow instance. Validating assets ensures that the instance provides accurate data on all of your agents' assets.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-Only plugins that are able to be executed are validated. For example, if you’re running an agent on a macOS, only macOS plugins on your instance are validated.
+Only assets that are able to be executed are validated. For example, if you’re running an agent on a macOS, only macOS assets on your instance are validated.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ Only plugins that are able to be executed are validated. For example, if you’r
 
 2.  Select an agent on the **Agent Client Collectors** page.
 
-3.  Select the **Validate ACC Plugins** link.
+3.  Select the **Validate Assets** link.
 
     The **Queues** page appears, displaying the ECC queue.
 
@@ -40,10 +40,10 @@ Only plugins that are able to be executed are validated. For example, if you’r
 
     Validation status is visible in the **Payload** section of the form.
 
-    If plugins aren't validated, navigate back to the **Agent Client Collectors** page and select the **Clear ACC Plugins** link.
+    If assets aren't validated, navigate back to the **Agent Client Collectors** page and select the **Clear Assets** link.
 
-    The plugins automatically re-sync the next time a command runs which requires the plugin.
+    The assets automatically re-sync the next time a command runs which requires the asset.
 
 
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-server-deployment.md)
+**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/data-collection-enabling.md)
 

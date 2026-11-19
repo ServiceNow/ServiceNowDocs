@@ -1,5 +1,5 @@
 ---
-title: Configure email notifications for service severity changes
+title: Configure email notification on application service severity change
 description: Configure an email notification to notify users when there is an application service severity change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/t\_EMCreateEmailNotificationBusinessService.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Application services in Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Application services in Event Management, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
 ---
 
-# Configure email notifications for service severity changes
+# Configure email notification on application service severity change
 
 Configure an email notification to notify users when there is an application service severity change.
 

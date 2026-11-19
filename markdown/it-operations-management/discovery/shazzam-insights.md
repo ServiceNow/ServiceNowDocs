@@ -7,17 +7,16 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-keywords: [Discovery, Admin, Workspace]
-breadcrumb: [Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery Admin Workspace Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Shazzam Insights dashboard
 
 The Discovery Admin Workspace displays your port scanning information, IP address utilization, and Discovery schedules.
 
-\[Omitted image "shazaam-insights-daw.png"\] Alt text: shazzam dashboard
+\[Omitted image "shazam\_daw.png"\] Alt text: shazzam dashboard
 
 ## Required ServiceNow AI Platform roles
 
@@ -102,4 +101,5 @@ The filter enables you to select all Discovery schedules you want to review by c
 -   Active
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Discovery Admin Workspace Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-insights.md)
+

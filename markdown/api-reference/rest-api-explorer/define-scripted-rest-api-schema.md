@@ -7,7 +7,7 @@ release: yokohama
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-02-20"
 reading_time_minutes: 2
 breadcrumb: [Create a scripted REST API, Scripted REST APIs, REST APIs, Web services, API implementation, API implementation and reference]
 ---
@@ -30,15 +30,15 @@ The following procedure describes the process for manual schema definition. For 
 
 1.  Create a REST Schema in one of the following ways.
 
-<table id="choicetable_kbq_szc_j3c"><thead><tr><th align="left" id="d369648e90">
+<table id="choicetable_kbq_szc_j3c"><thead><tr><th align="left" id="d321227e88">
 
 Option
 
-</th><th align="left" id="d369648e93">
+</th><th align="left" id="d321227e91">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d369648e99">
+</th></tr></thead><tbody><tr><td id="d321227e97">
 
 **Navigate through a scripted REST API record**
 
@@ -49,7 +49,7 @@ Procedure
 3.  In the **Schemas** related list, select **New**.
 
 
-</td></tr><tr><td id="d369648e138">
+</td></tr><tr><td id="d321227e136">
 
 **Navigate directly to a new REST Schema record**
 

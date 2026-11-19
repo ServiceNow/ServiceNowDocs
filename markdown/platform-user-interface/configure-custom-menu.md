@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/configure-custom-menu.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [custom menu, unified navigation menu]
-breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure custom menus for Unified Navigation

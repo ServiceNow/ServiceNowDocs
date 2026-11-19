@@ -1,5 +1,5 @@
 ---
-title: Compliance configuration and regulatory content integration
+title: Configuring your compliance needs and integration with regulatory content providers
 description: Configure the Regulatory Change Management application to manage your compliance needs and integration with regulatory intelligence content providers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/configuring-rcm.html
@@ -7,18 +7,17 @@ release: yokohama
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-keywords: [regulatory change management, RCM, GRC, configuration, compliance setup, regulatory content providers, regulatory intelligence integration]
 breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
-# Compliance configuration and regulatory content integration
+# Configuring your compliance needs and integration with regulatory content providers
 
 Configure the Regulatory Change Management application to manage your compliance needs and integration with regulatory intelligence content providers.
 
 A typical configuration of the Regulatory Change Management application consists of the following steps:
 
-1.  Install the Regulatory Change Management application from ServiceNow Store. For more information, see [Download and install GRC: Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/activate-grc-rcm.md).
-2.  Complete the setup for the Administration module. For more information, see [Administration module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/manage-admin-portal.md).
+1.  Download the Regulatory Change Management application from ServiceNow Store. For more information, see [Download Regulatory Change Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/activate-grc-rcm.md).
+2.  Do the setup tasks for the Administration module. For more information, see [Manage Administration portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/manage-admin-portal.md).
 

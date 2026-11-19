@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
-breadcrumb: [Configuration file tracking, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Configuration file tracking, Advanced Discovery configuration, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Set the deletion strategy for tracked configuration files

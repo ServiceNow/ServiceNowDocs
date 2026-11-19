@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Administer and maintain the Talent Development Core app, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Administer and maintain the Talent Development Core app, Talent Development Core, Talent Development, Employee Service Management]
 ---
 
 # Add Talent Development Aspirations
@@ -18,7 +18,7 @@ An Talent admin can manage **Aspirations** that employees create and share.
 
 ## Before you begin
 
-Role required: sn\_egd\_core.admin
+Role required: sn\_egd\_core.admin or admin
 
 ## About this task
 

@@ -1,16 +1,16 @@
 ---
-title: Activate the record generator
+title: Activate the Record Generator
 description: Activate the record generator to the portal case and display the new guided playbook to the user. Portal users can navigate through the playbook steps to complete the case intake.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-the-record-generator.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Set up predefined Playbooks for Portals, Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Set up predefined Playbooks for Portals, Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
-# Activate the record generator
+# Activate the Record Generator
 
 Activate the record generator to the portal case and display the new guided playbook to the user. Portal users can navigate through the playbook steps to complete the case intake.
 

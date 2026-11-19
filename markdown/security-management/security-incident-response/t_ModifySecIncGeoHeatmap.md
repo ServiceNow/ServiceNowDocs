@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Security incident map, Security Incident Response Overview dashboard, Visual representation of Security Incident Response reporting, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,13 +26,15 @@ Role required: sn\_si.admin
 
 2.  Search for **Security Incident map**.
 
-3.  Select **Edit Report**.
+3.  Click **Edit Report**.
 
-4.  Select **Add Filter Condition** to add or edit filters.
+    \[Omitted image "ConfigureSecIncGeoHeatmap.png"\] Alt text: Filters available for Security Incident map
 
-5.  Select **Run** to see the changes applied.
+4.  Click **Add Filter Condition** to add or edit filters.
 
-6.  Select **Save**.
+5.  Click **Run** to see the changes applied.
+
+6.  Click **Save**.
 
 
 **Parent Topic:**[Security incident map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/c_SecurityIncidentGeoHeatmap.md)

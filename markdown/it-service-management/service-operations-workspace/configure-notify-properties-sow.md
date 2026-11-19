@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-04-17"
 reading_time_minutes: 2
-breadcrumb: [Configuring Notify in Service Operations Workspace, Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring Notify in Service Operations Workspace, Configuring Service Operations Workspace for ITSM to improve your experience, Configure, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configure Notify properties for SOW
@@ -24,11 +24,9 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Service Operations Workspace Admin Center** &gt; **Configurations**.
 
-2.  Select **Notify**, and then select **Notify Configurations**.
+2.  Select **Notify**, and then select **Configure** corresponding to **Review/Configure Notify properties**.
 
-3.  Select **Configure** against **Review/Configure Notify properties**.
-
-4.  On the form, fill the fields.
+3.  On the form, fill in the fields.
 
 <table id="table_esc_zcm_1rb"><thead><tr><th>
 
@@ -115,7 +113,7 @@ Maximum SMS message length
 1600
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>4.  Select **Save**.
 
 
 **Parent Topic:**[Configuring Notify in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-notify-sow.md)

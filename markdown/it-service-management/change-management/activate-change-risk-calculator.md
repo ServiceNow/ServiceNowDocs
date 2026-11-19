@@ -1,20 +1,20 @@
 ---
-title: Activate Change Management - Risk Calculator
-description: The Change Management - Risk Calculator plugin \(com.snc.bestpractice.change\_risk\) is active by default in the base system. This plugin includes demo data and activates related plugins if they are not already active.
+title: Activate Best Practice - Change Risk Calculator
+description: The Best Practice - Change Risk Calculator plugin \(com.snc.bestpractice.change\_risk\) is active by default in the base system. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/activate-change-risk-calculator.html
 release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2025-01-30"
+reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
-# Activate Change Management - Risk Calculator
+# Activate Best Practice - Change Risk Calculator
 
-The Change Management - Risk Calculator plugin \(com.snc.bestpractice.change\_risk\) is active by default in the base system. This plugin includes demo data and activates related plugins if they are not already active.
+The Best Practice - Change Risk Calculator plugin \(com.snc.bestpractice.change\_risk\) is active by default in the base system. This plugin includes demo data and activates related plugins if they are not already active.
 
 ## Before you begin
 
@@ -39,15 +39,15 @@ Role required: admin
 
 You can [define risk and impact conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/define-risk-and-impact-conditions.md) for your change records.
 
--   **[Installed with Change Management - Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/installed-with-change-risk-calc.md)**  
-Several types of components are installed with the Change Management- Risk Calculator.
+-   **[Installed with Best Practice - Change Risk Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/installed-with-change-risk-calc.md)**  
+Several types of components are installed with the Best Practice- Change Risk Calculator.
 
 **Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 
 
-[Request ITSM Roles - Change Management]()
+[Request ITSM Roles- Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -65,11 +65,11 @@ Several types of components are installed with the Change Management- Risk Calcu
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management - Approval policy]()
+[Activate Change Management -Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management - ATF Tests]()
+[Activate Change Management ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -77,7 +77,7 @@ Several types of components are installed with the Change Management- Risk Calcu
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Request Change Management - Predictive Intelligence Core]()
+[Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -85,9 +85,9 @@ Several types of components are installed with the Change Management- Risk Calcu
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management - Success Probability]()
+[Activate Change Management Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Yokohama\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
 

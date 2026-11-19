@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/aem-integration.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Integrate, Customer Service Management]
+breadcrumb: [Integrating Customer Service Management with other applications, Customer Service Management]
 ---
 
 # Integrating with Adobe Experience Manager

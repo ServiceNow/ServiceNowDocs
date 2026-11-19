@@ -1,5 +1,5 @@
 ---
-title: Preconfigured email templates in a card dispute flow
+title: Configuring preconfigured email templates in a card dispute flow
 description: Email templates are pre-formatted files that you can use to start creating email notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/pre-cofigured-email-template.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Dispute manager workspace, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Preconfigured email templates in a card dispute flow
+# Configuring preconfigured email templates in a card dispute flow
 
 Email templates are pre-formatted files that you can use to start creating email notifications.
 
@@ -73,5 +73,5 @@ Template that notifies users that their dispute submission is denied.
 
 \[Omitted image "Email\_ack\_submission.jpg"\] Alt text: Sample email acknowledgement letter.
 
-**Parent Topic:**[Dispute manager workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/workspace-for-dispute-manager.md)
+**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-card-disputes.md)
 

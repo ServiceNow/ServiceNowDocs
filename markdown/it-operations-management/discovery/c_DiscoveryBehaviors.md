@@ -9,7 +9,7 @@ classification: discovery
 topic_type: concept
 last_updated: "2026-10-20"
 reading_time_minutes: 4
-breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Advanced Discovery configuration, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery behaviors

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/r-port-banner-widget-json-schema.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [JSON parameter in Configurable Portal Widgets, Configurable Portal Widgets reference, Reference, Customer Service Management]
+breadcrumb: [Customer Service Management reference, Customer Service Management]
 ---
 
 # Portal Banner widget JSON parameters
@@ -67,10 +67,4 @@ quick\_links
 Name of the field in the presentation section. The default text is `Quick Links`.
 
 </td></tr></tbody>
-</table>**Related topics**  
-
-
-[Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-widget.md)
-
-[Add and configure the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-banner-widget-inst-opt.md)
-
+</table>

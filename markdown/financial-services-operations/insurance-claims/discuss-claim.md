@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Managing Commercial Lines Claims, Commercial Lines Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Discuss a claim
@@ -28,7 +28,7 @@ Create or view an ongoing sidebar discussion for cases.
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+2.  Select the lists icon.
 
 3.  Open a case from the list.
 
@@ -50,5 +50,5 @@ To view a discussion, select **Discuss**, then select **Open record** for the di
 **Related topics**  
 
 
-[Create a Sidebar discussion for a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/sidebar-discussions-record.md)
+[bundle-convint.sidebar-discussions-record]
 

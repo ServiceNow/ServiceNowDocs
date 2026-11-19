@@ -1,20 +1,20 @@
 ---
-title: Use recommended actions
-description: Provides real‑time, actionable guidance, and relevant resources that help HR agents speed up case resolution.
+title: Resolve HR cases using guided decision trees in Agent Workspace for HR Case Management
+description: Quickly resolve HR cases using guided decision trees that provide a predetermined sequence of questions to triage employee cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/agent-workspace-for-hr-case-management/guided-decision-tree-aws.html
 release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Agent Workspace for HR Case Management contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Agent Workspace for HR Case Management contextual side panel, Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
 ---
 
-# Use recommended actions
+# Resolve HR cases using guided decision trees in Agent Workspace for HR Case Management
 
-Provides real‑time, actionable guidance, and relevant resources that help HR agents speed up case resolution.
+Quickly resolve HR cases using guided decision trees that provide a predetermined sequence of questions to triage employee cases.
 
 ## Before you begin
 
@@ -22,28 +22,24 @@ Role required: sn\_hr\_core.admin or sn\_hr\_core.case\_writer
 
 ## About this task
 
-**Note:** If there are any existing guided decisions, add those decisions within the [HR case context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/config-rc-hr.md) in [Recommended Actions for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/recommended-actions-hrsd.md).
+For more information about guided decision trees, see [Configuring Guided Decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/setting-up-guided-decisions.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  Select the Lists icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text:\).
+2.  Select the Lists icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
 3.  Select an HR case.
 
-4.  In Contextual Side Panel, select the Recommendations icon \( \[Omitted image "recommendations-icon.png"\] Alt text:\).
+4.  In the contextual side panel, select the Recommendations icon \( \[Omitted image "recommendations-icon.png"\] Alt text: Recommendations icon\).
 
-5.  Review similar cases, relevant KB articles, and suggested actions in the context of the current case.
+5.  Select **Start**\[Omitted image "guided-trees-start.png"\] Alt text: Guided trees - start.
 
-    |Option|Description|
-    |------|-----------|
-    |**Similar cases**|Use the View case option to review the full details of the case.|
-    |**KB search**|Use the following options as needed: Attach and add link in comment, Read article, Attach and add link in email, Add link in worknote, and Copy link.|
-    |**Suggested actions**|Use the Create an HR approval option to add an approval to the case as needed.|
+6.  Select your response and then select **Next** to progress through the decision tree.
 
-    \[Omitted image "recommendation-hrsd.png"\] Alt text: Recommendations panel showing similar cases, KB search results, and suggested actions for HR case
+7.  When you want to end the decision tree, select **Dismiss**.
 
-    \[Omitted image "rec-hr-case-approval.png"\] Alt text: Create HR approval dialog with approval details and assignment options
+8.  Select **View my responses** to view all the responses chosen in the decision tree\[Omitted image "guided-trees-aws.png"\] Alt text: Guided decision tree.
 
 

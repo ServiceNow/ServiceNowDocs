@@ -1,18 +1,18 @@
 ---
 title: Clone terminology
-description: Key terms and definitions used in instance clone documentation and the Clone Admin Console.
+description: A reference topic that contains various terms and definitions for cloning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/clone-terminology.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-09-24"
 reading_time_minutes: 1
 breadcrumb: [Reference, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Clone terminology
 
-Key terms and definitions used in instance clone documentation and the Clone Admin Console.
+A reference topic that contains various terms and definitions for cloning.
 
 <table id="table_gkn_h2c_zfc"><thead><tr><th>
 
@@ -23,22 +23,6 @@ Term
 Description
 
 </th></tr></thead><tbody><tr><td>
-
-Preflight Check
-
-</td><td>
-
-A stage in the clone process that verifies the source and target instances are in a healthy state before the clone proceeds.
-
-</td></tr><tr><td>
-
-Provision DBI
-
-</td><td>
-
-A stage in the clone process where a new target database instance \(DBI\) is set up to receive the restored data.
-
-</td></tr><tr><td>
 
 Source Instance
 
@@ -72,14 +56,6 @@ Data that is not cloned to your target instance.
 
 </td></tr><tr><td>
 
-Client ID / OAuth
-
-</td><td>
-
-An authentication method used to preserve OAuth credentials on the target instance during a clone. The identity type for OAuth is human. The **oauth\_admin** role is required to manage OAuth credentials preserved during a clone.
-
-</td></tr><tr><td>
-
 Cleanup Scripts
 
 </td><td>
@@ -93,22 +69,6 @@ Clone Profiles
 </td><td>
 
 Reusable template for clone settings, exclusions, preservers, and scripts.
-
-</td></tr><tr><td>
-
-Multi-Instance View
-
-</td><td>
-
-A feature in the Clone Admin Console that enables administrators to monitor and manage clone operations across multiple linked instances from a single primary instance, without logging in to each instance separately.
-
-</td></tr><tr><td>
-
-Node Repoint
-
-</td><td>
-
-A stage in the clone process where the system switches traffic from the old target instance to the newly cloned instance. Node Repoint is a clone stage, not a clone state.
 
 </td></tr><tr><td>
 

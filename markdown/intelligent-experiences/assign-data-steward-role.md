@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/assign-data-steward-role.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Assign, data steward, Now Assist, Generative AI, Gen AI, User Administration, sn\_generative\_ai.data\_steward]
-breadcrumb: [Data sharing and processes, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Configure general Now Assist settings, Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
 ---
 
 # Assign the data steward role
@@ -17,7 +17,7 @@ Select a data steward to make decisions about data sharing with ServiceNow in No
 
 ## Before you begin
 
-Role required: sys\_admin
+Role required: sn\_generative\_ai.data\_steward
 
 ## About this task
 
@@ -42,5 +42,5 @@ The following steps explain how to assign a role to a specific user. Another opt
 
 Once the data steward has the correct role, they can review the data sharing information on the Now Assist Admin console in the **Settings** tab under **Data privacy and sharing** &gt; **Data sharing**.
 
-**Parent Topic:**[Data sharing and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-sharing-and-processes.md)
+**Parent Topic:**[Configure general Now Assist settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-now-assist-admin-settings.md)
 

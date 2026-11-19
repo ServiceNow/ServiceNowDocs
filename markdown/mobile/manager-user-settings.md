@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/manager-user-settings.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-04"
+last_updated: "2026-07-30"
 reading_time_minutes: 1
 breadcrumb: [Using the mobile apps, Mobile Platform]
 ---
@@ -14,38 +14,34 @@ breadcrumb: [Using the mobile apps, Mobile Platform]
 
 Use the settings in your mobile applications to manage accounts, accessibility, notifications, location tracking, and more.
 
-The Settings page in ServiceNow's mobile apps is where you manage things like account settings, accessibility options, experience type, and offline mode behavior. It is the central hub for personalizing and securing how the mobile app behaves on your device. The Settings page is usually accessed from an icon in the navigation bar, but your administrator may decide on a different location.
+The Settings page in ServiceNow's mobile apps is where you manage things like account settings, accessibility options, location tracking, and offline mode behavior. It is the central hub for personalizing and securing how the mobile app behaves on your device. The Settings page is usually accessed from an icon in the navigation bar, but your administrator may decide on a different location.
 
-\[Omitted image "settings-screen-oct-26.png"\] Alt text: Setting screen with menu on display
+|Settings page with expanded Account section|Settings page with expanded Account and Preference sections|
+|-------------------------------------------|-----------------------------------------------------------|
+|\[Omitted image "settings-screen-condensed.png"\] Alt text: Settings page with expanded Account section|\[Omitted image "settings-screen-expanded.png"\] Alt text: Settings page with expanded Account and Preference sections|
 
-The following is a list of the default option listings in the settings page.
+The following is a list of the default option listings in the settings page. Tap the arrow next to a heading to expand or collapse its related options.
 
 **Note:** You may not see all these options listed, as it depends on your administrator's configuration.
 
--   Experience
-    -   Experience
+-   Account
     -   Accounts
--   App Controls
-    -   Impersonate user
-    -   Offline
-    -   Location tracking
-    -   Upload manager
     -   Device sharing
--   Display
-    -   Theme
-    -   Language
+    -   Impersonate users
 -   Preferences
+    -   Language
+    -   Theme
+    -   Banners
     -   Notifications
     -   Security
-    -   Advanced settings
-        -   System Banners
-        -   Start my week
-        -   Chart accessibility
-        -   Analytics
--   About
-    -   App Legal &amp; Privacy
-    -   App Feedback
-    -   Version
+    -   Start my week
+    -   Analytics
+    -   Chart accessibility
+-   App Controls
+    -   Offline
+    -   Location tracking
+    -   Feedback
+-   Version
 -   Log out
 
 **Related topics**  

@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Live Feed UI overview, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,6 +25,8 @@ Role required: none
 1.  Click **People** in the sidebar.
 
     The system shows 10 most recent followers or users you are following.
+
+    \[Omitted image "People.png"\] Alt text: People
 
 2.  Click the Show More link if either list contains more than 10 users.
 

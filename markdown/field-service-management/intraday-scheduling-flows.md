@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/intraday-scheduling-flows.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, Field Service Management]
+breadcrumb: [Field Service Management reference, Field Service Management]
 ---
 
 # Intra-day schedule automation flows and subflows

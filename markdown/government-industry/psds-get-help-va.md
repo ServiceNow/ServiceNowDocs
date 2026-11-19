@@ -5,10 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-get-help-va.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-keywords: [assistance with virtual agent, get help with public service requests, use virtual agent chatbot, virtual assistance chatbot for public services]
-breadcrumb: [Government Service Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Government Service Portal, Using Portals, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Get help with Public Service requests using Virtual Agent

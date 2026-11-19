@@ -7,9 +7,9 @@ release: yokohama
 product: Benchmarks
 classification: benchmarks
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Benchmarks, IT Service Management]
+breadcrumb: [Configuring Benchmarks, Benchmarks, IT Service Management]
 ---
 
 # Configure resolved incident Benchmarks KPIs

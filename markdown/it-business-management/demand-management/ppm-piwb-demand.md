@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -50,10 +50,6 @@ Role required: piwb\_manager
 
 [Create a demand]()
 
-[Identify similar records using AI]()
-
-[Summarize demands with the demand summarization skill]()
-
 [View demands]()
 
 [Add details to demands]()
@@ -68,7 +64,5 @@ Role required: piwb\_manager
 
 [Train the similarity solution for Demand Management to find similar demands]()
 
-[Associate AI systems with demands]()
-
-[Work with demands in Employee Slate]()
+[Identify similar records using ServiceNow Otto for Strategic Portfolio Management]()
 

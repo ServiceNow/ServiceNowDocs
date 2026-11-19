@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-07"
 reading_time_minutes: 11
-breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
+breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Oracle database discovery
@@ -59,11 +59,11 @@ The user needs permissions for the SQL\*Plus command line tool and permissions t
 
 </td></tr><tr><td>
 
-[Oracle Wallet authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/oracle-wallet-authentication.md)
+[Oracle Wallet authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md)
 
 </td><td>
 
-You can use Oracle Wallet instead of applicative credentials.
+You can use Oracle Wallet instead of applicative credentials \(for UNIX only\).
 
 </td></tr><tr><td>
 

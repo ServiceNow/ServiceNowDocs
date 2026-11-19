@@ -7,9 +7,9 @@ release: yokohama
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-10-29"
 reading_time_minutes: 1
-breadcrumb: [Reference for Knowledge Graph, Knowledge Graph, Managing data for AI, Enable AI Experiences]
+breadcrumb: [Reference for Knowledge Graph, Knowledge Graph, Enable AI experiences]
 ---
 
 # Knowledge Graph roles

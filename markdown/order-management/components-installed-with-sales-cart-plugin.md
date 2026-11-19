@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/components-installed-with-sales-cart-plugin.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Business Portal reference, Reference, Sales Customer Relationship Management]
+breadcrumb: [Sales Customer Relationship Management reference, Sales Customer Relationship Management]
 ---
 
 # Components installed with Sales Cart
@@ -41,20 +41,6 @@ Creates, deletes, and edits sales cart and sales cart-related entities.
 </td><td>
 
 sn\_sales\_cart.cart\_viewer
-
-</td></tr><tr><td>
-
-Cart integrator
-
- \[sn\_sales\_cart.cart\_integrator\]
-
-</td><td>
-
-Controls access to the cart records, separately from the access control on the REST endpoints. This role is installed and used only when you have configured a ServiceNow CPQ instance with Sales CRM.
-
-</td><td>
-
-sn\_sales\_cart.cart\_editor
 
 </td></tr><tr><td>
 
@@ -130,7 +116,7 @@ Sales Cart Line Item
 
 </td><td>
 
-Represents individual line items in a sales cart, including products, pricing, quantities, and hierarchical relationships.
+Represents individual line items within a sales cart, including products, pricing, quantities, and hierarchical relationships.
 
 </td></tr><tr><td>
 
@@ -143,10 +129,5 @@ Sales Cart Pricing Adjustment
 Stores pricing adjustments applied to a sales cart or its line items, including adjustment type, value, and related references.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-business-portal-reference.md)
-
-**Related topics**  
-
-
-[Configuring Sales Cart for Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-sales-cart.md)
+</table>**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-reference.md)
 

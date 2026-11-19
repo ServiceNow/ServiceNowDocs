@@ -1,5 +1,5 @@
 ---
-title: Developer Support
+title: Get started with Developer Support
 description: Get Started with Developer Support is an Impact Initiative that facilitates the understanding of the Developer Support offering and identification of named contacts for requesting Developer Support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/getting-started-developer-support.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Initiatives catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Initiatives catalog, Initiatives &amp; Accelerators, Impact]
 ---
 
-# Developer Support
+# Get started with Developer Support
 
 Get Started with Developer Support is an Impact Initiative that facilitates the understanding of the Developer Support offering and identification of named contacts for requesting Developer Support.
 

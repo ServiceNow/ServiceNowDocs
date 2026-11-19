@@ -1,5 +1,5 @@
 ---
-title: Feedback in Strategic Planning
+title: Feedback
 description: Build a customer-centric feedback management system and optimize the process of creating and associating feedback and product ideas with Feedback application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/product-feedback/product-feedback-landing.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Product Feedback
 classification: product-feedback
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Feedback in Strategic Planning
+# Feedback
 
 Build a customer-centric feedback management system and optimize the process of creating and associating feedback and product ideas with Feedback application.
 

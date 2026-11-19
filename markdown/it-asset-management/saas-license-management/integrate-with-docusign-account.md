@@ -1,20 +1,20 @@
 ---
 title: Integrate with Docusign at Account level
-description: Integrating your Software Asset Management application with the Docusign service enables you to track your software subscriptions and to reclaim unused licenses.Register a Docusign application through the Docusign admin portal.Create a Docusign integration profile at Account level to track software subscriptions and optimize licensing for the Docusign service.
+description: Integrating your Software Asset Management application with the Docusign service at Account level enables you to track your software subscriptions and to reclaim unused licenses.Register a Docusign application through the Docusign admin portal.Create a Docusign integration profile at Account level to track software subscriptions and optimize licensing for the Docusign service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/saas-license-management/integrate-with-docusign-account.html
 release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-11-07"
 reading_time_minutes: 8
-breadcrumb: [Integrating with Docusign, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrating with Docusign, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrate with Docusign at Account level
 
-Integrating your Software Asset Management application with the Docusign service enables you to track your software subscriptions and to reclaim unused licenses.
+Integrating your Software Asset Management application with the Docusign service at Account level enables you to track your software subscriptions and to reclaim unused licenses.
 
 Docusign purchases made through resellers don’t reflect within the Docusign standard billing system. So no values are returned through the APIs for envelope consumption that is available to ServiceNow.
 
@@ -41,56 +41,114 @@ Docusign Role required: admin
 
 1.  Log in to your Docusign demo \(non-production\) account.
 
-    You can use any subaccount for logging in that is later promoted to the corresponding production account.
+2.  Select your profile picture.
 
-2.  Go to the Admin tab.
+3.  Select **My Apps and Keys**.
 
-    -   If you already have an API integration key from a previous integration ready for use in production, skip to [step 14](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-docusign-account.md).
-    -   If you don't have your API integration key saved, you must generate a new one.
-3.  On the side navigation pane, select **INTEGRATIONS** &gt; **Apps and Keys**.
+    -   If you already have an API integration key from a previous integration ready for use in production, [skip to step 33](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-docusign-account.md).
+    -   If you don't have your client secret saved, you must generate a new one.
+4.  On the side pane, select **INTEGRATIONS** &gt; **Apps and Keys**.
 
-4.  In the **Apps and Integration Keys** section, select **Add App and Integration key**.
+5.  In the **Apps and Integration Keys** section, select **ADD APP AND INTEGRATION KEY**.
 
-5.  On the Add Integration Key form, enter a unique name for your application in the **App Name** field and select **CREATE APP**.
+6.  On the Add Integration Key form, provide a name in the **App Name** field and select**CREATE APP**.
 
-6.  On the profile page of your application, select **Third-party integration key** in the **Integration Type** field.
+7.  Select **ADD URI** under the **Redirect URIs** field in the **Additional Settings** section.
 
-7.  Copy the value of the **Integration Key** and secure it for later use.
+8.  Add `https://oauth.pstmn.io/v1/browser-callback`.
 
-    Save the Integration Key \(Client ID\) in a secure location to use it later for integration with the ServiceNow instance.
+9.  Select **ADD URI** again and add`https://*ServiceNow instance*.service-now.com/oauth_redirect.do`.
 
-8.  Select **Save**.
+10. Select **ADD SECRET KEY**.
 
-9.  In the **Apps and Integration Keys** section, locate the application that you just created in the App Name list.
+    Save the Integration Key \(Client ID\) and Secret Key \(Client secret\) in a secure location to use them later in the Postman App and the Integration Key \(Client ID\) in the ServiceNow instance.
 
-10. Select **Actions** &gt; **Select Go-Live account**.
+11. Select **Save**.
 
-    A Docusign login window pops up prompting you to enter the credentials for your Docusign account.
+12. Download the latest version of [Postman App](https://www.getpostman.com/) and skip the login.
 
-11. Enter your Docusign credentials.
+13. Select **New Collection** and provide a name to the collection.
 
-12. Select a production account on the window that pops up prompting you to choose a production account to which you want to promote your integration key.
+14. Select the **Authorization** tab.
 
-    The **Go Live Status** field changes to **Pending approval**. For a successful Go-Live review, your app must meet the requirements for Go-Live for each API that it uses. For more information on the Go-Live review stages, see [Docusign documentation](https://developers.docusign.com/platform/go-live/).
+15. From the Type list menu, select **OAuth 2.0**.
 
-13. After the integration is approved, the **Go Live Status** changes to **View in production**.
+16. Provide a name and complete the fields on the **Configuration Options** tab to create a token:
 
-14. Log in to your Docusign production account and verify that the same integration key has been promoted to the production account.
+    |Field|Value|
+    |-----|-----|
+    |Callback URL|`https://oauth.pstmn.io/v1/browser-callback`|
+    |Auth URL|`https://account-d.docusign.com/oauth/auth`|
+    |Access Token URL|`https://account-d.docusign.com/oauth/token`|
+    |Client ID|The integration key from your Docusign demo account created in [step 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-docusign-account.md).|
+    |Client Secret|The secret key from your Docusign demo account [step 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-docusign-account.md).|
 
-15. On the side navigation pane, select **INTEGRATIONS** &gt; **Apps and Keys**.
+17. Select **Get New Access Token**.
 
-16. Next to your application, select **Actions** &gt; **Edit**.
+    You're redirected to Docusign.
 
-17. Select **ADD URI** and add `https://*ServiceNow instance*.service-now.com/oauth_redirect.do`.
+18. Select **Accept**.
 
-18. Select **ADD SECRET KEY**.
+19. After the access token is collected and authentication is complete, copy the Access Token to use it later.
 
-    Save the Secret Key \(Client secret\) for your production account in a secure location to use it later for integration with the ServiceNow instance.
+20. Select **New Request** to create a GET request for your account id.
 
-19. Select **Save**.
+21. Enter the URL in the GET field as `https://account-d.docusign.com/oauth/userinfo`.
+
+22. On the Headers tab, select **Authorization** under **KEY** and enter `Bearer *&lt;Access Token that you copied during authentication&gt;*` under **Value**.
+
+23. Select **Send** and verify that your request is complete.
+
+    The account id is displayed in the response body.
+
+24. Duplicate the GET request.
+
+    Copy the authorization key and value under **Headers**.
+
+25. Update the URL in the GET field to `https://demo.docusign.net/restapi/v2/accounts/<account-id>/users`.
+
+    Here, *account-id* is the ID that you saved from the previous request.
+
+26. Select **Send** 20 times to make 20 API calls.
+
+    You must invoke a minimum of 20 API calls to register your application through the Docusign admin portal.
+
+27. Navigate to **Apps and Integration Keys** on the Docusign admin portal.
+
+28. Select **Actions** &gt; **View API Dashboard** next to your application.
+
+29. Wait a few minutes for Docusign to register all the 20 API calls.
+
+30. Navigate to **INTEGRATIONS** &gt; **Apps and Keys** and select **Submit for review**.
+
+    After 5-20 minutes, your application review is complete. You can promote the application to your production account.
+
+31. Select **Actions** &gt; **Start-Go- Live review** to promote the application to the production account.
+
+32. Select an eligible production account to manage the integration key.
+
+33. Log in to your Docusign production account.
+
+34. Select your profile picture.
+
+35. Select **Go to Admin**.
+
+36. On the side pane, select **INTEGRATIONS** &gt; **Apps and Keys**.
+
+    Locate your API Account ID to use for the integration profile in your ServiceNow instance.
+
+37. Next to your application, select **Actions** &gt; **Edit**.
+
+38. Select **ADD URI** and add `https://*ServiceNow instance*.service-now.com/oauth_redirect.do`.
+
+39. Select **ADD SECRET KEY**.
+
+    Save the Secret Key \(Client secret\) for your production account in a secure location to use it in your ServiceNow instance.
+
+40. Select **Save**.
 
 
-## Create a Docusign integration profile at Account level
+## Create a Docusign integration profile
 
 Create a Docusign integration profile at Account level to track software subscriptions and optimize licensing for the Docusign service.
 
@@ -98,7 +156,7 @@ Create a Docusign integration profile at Account level to track software subscri
 
 To create a Docusign integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: sam\_integrator or admin
 
 ### About this task
 
@@ -108,15 +166,15 @@ If you’re using Software Asset Workspace, the option to create the Docusign in
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d55417e550">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d66235e871">
 
 Interface
 
-</th><th align="left" id="d55417e553">
+</th><th align="left" id="d66235e874">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d55417e559">
+</th></tr></thead><tbody><tr><td id="d66235e880">
 
 **Core UI**
 
@@ -127,7 +185,7 @@ Action
 3.  Select **DocuSign Integration Profile**.
 
 
-</td></tr><tr><td id="d55417e601">
+</td></tr><tr><td id="d66235e922">
 
 **Software Asset Workspace**
 
@@ -165,6 +223,8 @@ Action
 
     A draft integration profile is created.
 
+    The Connection &amp; Credential field appears and is automatically set to **sn\_sam\_saas\_int.Docusign**.
+
 5.  On the integration profile, select **Get OAuth Token** and follow the steps to get an OAuth token.
 
     **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-docusign-account.md) table.
@@ -176,23 +236,11 @@ Action
 
 ### Result
 
-You can view events performed by individual users up to one year before the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md). Software Asset Management pulls the events from the time that you start downloading user subscriptions irrespective of the profile creation date.
+You can view events performed by individual users up to one year prior to the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md). Software Asset Management pulls the events from the time that you start downloading user subscriptions irrespective of the profile creation date.
 
 ### What to do next
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
-
-After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
-
--   Software Models
--   Unrecognized Subscription Identifiers
--   Scheduled Jobs
--   Scheduled Job Results
--   Software Subscriptions
--   Subscription Identifier Exclusion Rule
--   Subscription User Exclusion Rule
-
-After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-child-alias-saas.md).
 

@@ -1,5 +1,5 @@
 ---
-title: Disable creating users from incoming emails
+title: Disable creating users from incoming emails \[Updated in Securty Center 1.3\]
 description: Use the glide.user.trusted\_domain property to specify the comma-separated list of trusted domains used in the creation of users from incoming emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-emails-by-domain.html
@@ -7,18 +7,16 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Disable creating users from incoming emails
+# Disable creating users from incoming emails \[Updated in Securty Center 1.3\]
 
 Use the **glide.user.trusted\_domain** property to specify the comma-separated list of trusted domains used in the creation of users from incoming emails.
 
-An administrator can set the **glide.pop3readerjob.create\_caller** system property to automatically create users from incoming emails. If set this property to the insecure value, the instance automatically creates users from incoming email. Each user created will have the same hardcoded default password which makes bypassing authentication through brute force easier.
-
-Ensure that the **glide.pop3readerjob.create\_caller** system property is set to **false**.
+An administrator can set an email property to automatically create users from incoming emails. If set this property to the insecure value, the instance will automatically create users from incoming email. Each user created will have the same hard coded default password which makes bypassing authentication through brute force easier.
 
 ## More information
 
@@ -32,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Configuration name
+Property name
 
 </td><td>
 
@@ -48,11 +46,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Data type
+Category
 
 </td><td>
 
-Boolean
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
 
 </td></tr><tr><td>
 
@@ -72,29 +70,11 @@ false
 
 </td></tr><tr><td>
 
-Fallback value
+Security risk rating
 
 </td><td>
 
-false
-
-</td></tr><tr><td>
-
-Category
-
-</td><td>
-
-[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
-
-</td></tr><tr><td>
-
-Security risk
-
-</td><td>
-
--   Severity score: 5.4
--   CVSS rating: Medium
--   Security risk details: Allowing automatic user creation without strong password controls undermines authentication security and increases the likelihood of system compromise.
+5.4
 
 </td></tr><tr><td>
 
@@ -102,18 +82,26 @@ Functional impact
 
 </td><td>
 
-None
+Once this property is configured, the instance only accepts emails from trusted domains. If you do not include the domain in the trusted list, there is an impact to guest users because accounts are created automatically.
 
 </td></tr><tr><td>
 
-Dependencies and prerequisites
+Security risk
 
 </td><td>
 
-None
+\(Moderate\) If the property is not enabled, an attacker might use an email spoofing/spamming campaign to send multiple emails resulting in the creation of more unnecessary guest users.
+
+</td></tr><tr><td>
+
+References
+
+</td><td>
+
+[Inbound mail configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_InboundMailConfiguration.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see .
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

@@ -1,18 +1,18 @@
 ---
 title: Create a sales promotion claim case
-description: Create a sales promotion claim case to claim the reimbursement or discount.
+description: To be updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-create-sls-promotion-cc.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create a checklist template, My promotions, Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [Related list for my promotions, My promotions, Sales promotion management, Using Manufacturing Commercial Operations, Manufacturing Commercial Operations]
 ---
 
 # Create a sales promotion claim case
 
-Create a sales promotion claim case to claim the reimbursement or discount.
+To be updated.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Sales Promotion Management** &gt; **My Promotions** &gt; **All Claims**.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Sales Promotion Management** &gt; **My Promotions** &gt; **All Claims**.
 
 2.  Select **New**.
 
@@ -29,11 +29,9 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
     |Field|Description|
     |-----|-----------|
     |Asset|Asset for the claim.|
-    |Requested by|Logged-in user or member of the logged-in user's service organization.|
+    |Requested by|Logged in user or member of the logged in user's service organization.|
     |Consumer|Consumer tagged to install base.|
     |Dealer|Business location.|
     |Sale price|Sale price of the product sold. Select the required currency from the list|
 
-
-**Parent Topic:**[Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-create-checklist.md)
 

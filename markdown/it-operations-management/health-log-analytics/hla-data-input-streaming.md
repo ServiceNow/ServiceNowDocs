@@ -1,21 +1,21 @@
 ---
-title: Identify and resolve a log streaming issue in Health Log Analytics
-description: Find and address log streaming issues to verify that your data inputs are streaming log data to your instance properly.
+title: Identify and resolve log streaming issues
+description: Identify and address log streaming issues to ensure that the data inputs you have configured for Health Log Analytics are streaming data properly to your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-data-input-streaming.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 keywords: [ServiceNow, Health Log Analytics, HLA, data input, log data, streaming, fix log streaming issues]
-breadcrumb: [Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
+breadcrumb: [Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
 ---
 
-# Identify and resolve a log streaming issue in Health Log Analytics
+# Identify and resolve log streaming issues
 
-Find and address log streaming issues to verify that your data inputs are streaming log data to your instance properly.
+Identify and address log streaming issues to ensure that the data inputs you have configured for Health Log Analytics are streaming data properly to your ServiceNow instance.
 
 ## Before you begin
 
@@ -88,5 +88,5 @@ When the logs are streaming properly, proceed to [map your raw log data](https:/
 
 **Note:** You can choose to [edit incoming raw log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-preprocess.md) before Health Log Analytics processes it. For example, preprocessing enables you to discard log portions or remove sensitive data from your logs. This task is optional.
 
-**Parent Topic:**[Set up data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md)
+**Parent Topic:**[Setting up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
 

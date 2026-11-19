@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Reference, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
 # Default Employee Profile Header Configuration record
@@ -48,7 +48,7 @@ The default Employee Profile header configuration record contains the following 
 
 [Activity Configuration Detail form]()
 
-[Approvals experience reference]()
+[Browser Extension for Employee Center forms]()
 
 [Connected Content form]()
 
@@ -82,9 +82,11 @@ The default Employee Profile header configuration record contains the following 
 
 [Portal notification content form]()
 
-[Trigger conditions form]()
-
 [Quick Link form]()
+
+[Standard banner and icon sizes]()
+
+[Trigger conditions form]()
 
 [Tab widget mapping form]()
 
@@ -92,13 +94,9 @@ The default Employee Profile header configuration record contains the following 
 
 [Topic form]()
 
+[To-do content form]()
+
 [User Criteria form]()
 
 [User Criteria output]()
-
-[Schedule appointment form]()
-
-[Location Consent form]()
-
-[Website configuration form]()
 

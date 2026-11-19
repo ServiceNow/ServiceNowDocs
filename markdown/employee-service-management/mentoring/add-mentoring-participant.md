@@ -1,24 +1,20 @@
 ---
 title: Add a new Mentoring participant
-description: As a manager, add members from your team either as mentors or mentees to participate in mentoring programs.
+description: As a manager, add members from your team either as mentors or mentees to participate in mentorship program.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/mentoring/add-mentoring-participant.html
 release: yokohama
 product: Mentoring
 classification: mentoring
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Mentoring, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configuring mentoring, Mentoring, Talent Development, Employee Service Management]
 ---
 
 # Add a new Mentoring participant
 
-As a manager, add members from your team either as mentors or mentees to participate in mentoring programs.
-
-## About this task
-
-Managers with the appropriate roles add mentors and mentees to mentoring programs from the ServiceNow platform.
+As a manager, add members from your team either as mentors or mentees to participate in mentorship program.
 
 ## Before you begin
 
@@ -54,7 +50,7 @@ Program
 
 </td><td>
 
-Name of the program that you want to add the participant to. You can select from the list of available programs. Your employee must meet the user criteria assigned to the program.
+Name of the program that you want add the participant to.
 
 </td></tr><tr><td>
 
@@ -78,6 +74,8 @@ State of the participant.-   **Draft**
 
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Select **Save**.
 
+
+**Parent Topic:**[Configuring mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/configuring-mentoring-egd.md)
 

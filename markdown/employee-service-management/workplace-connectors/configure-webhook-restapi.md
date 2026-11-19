@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2025-01-30"
+reading_time_minutes: 5
 breadcrumb: [Provider connector configuration, Setup Workplace Connectors for badging data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -50,11 +50,19 @@ Name for the provider configuration.
 
 </td></tr><tr><td>
 
+Connector Configuration
+
+</td><td>
+
+Option to search for and select the lookup list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup list icon.\) to select **Badging**. For more information, see [Configure connector configuration for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/workplace-connector-configuration.md).
+
+</td></tr><tr><td>
+
 Source Type
 
 </td><td>
 
-Source from where the badging data is collected and loaded into the target Employee attendance table. Select **Webhook** to configure the webhook event.
+Source from where the badging data is collected and loaded into the target Badging Data table. Select **Webhook** to configure the webhook event.
 
 </td></tr><tr><td>
 
@@ -82,19 +90,27 @@ Option to indicate that the provider configuration is Active.
 
 </td></tr><tr><td>
 
-Connector Configuration
-
-</td><td>
-
-Option to search for and select the lookup list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup list icon.\) to select **Badging**. For more information, see [Configure connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/workplace-connector-configuration.md).
-
-</td></tr><tr><td>
-
 Callback URL
 
 </td><td>
 
 Option to select the callback URL icon \(\[Omitted image "wsd-callback-url-icon.png"\] Alt text: Callback URL icon.\) to lock or edit the callback URL.
+
+</td></tr><tr><td>
+
+Auto Refresh Location
+
+</td><td>
+
+Option to auto-refresh locations when spaces are added or when some spaces are removed from a selected location.The scheduled Job **Refresh Provider Space Mapping records** runs daily and reads the **Auto Refresh Location** field in the Provider Connector Configuration table. It reads all records in the Provider Connector Configuration records and updates the Provider Space Mapping table with the latest data. For example, if a new floor or a space is added to a location, then they're automatically added to a selected location.
+
+</td></tr><tr><td>
+
+Metrics
+
+</td><td>
+
+Option to select target record for supported metrics. Select Event Data.
 
 </td></tr></tbody>
 </table>3.  Select **Update**.
@@ -141,5 +157,5 @@ Option to select the callback URL icon \(\[Omitted image "wsd-callback-url-icon.
 
 **Previous topic:**[Configure badging table data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/provider-configuration-wsd-connectors.md)
 
-**Next topic:**[Employee attendance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/employee-attendance.md)
+**Next topic:**[Badging Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/badging-data.md)
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/enable-agent-respond-customer-email-activity-history.html
 release: yokohama
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Configure the agent experience for email interactions, Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [Email Interaction, Configuring the email channel, Configure communication channels, Enable communication channels, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Enable agents to respond to customers with email activity history
@@ -17,33 +17,22 @@ Enable agents to respond to customers with email activity history, which is crea
 
 ## Before you begin
 
-Role required: admin, sn\_esm\_agent
-
-**Note:** Agents need the sn\_esm\_agent role to view the email client and email templates.
+Role required: admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Email Client** &gt; **Email Client Templates**.
 
-2.  Search and select **Email response to customer**.
+2.  View **Email response to the customer**.
 
-    **Note:** If a message appears about the application scope, select **here** to be able to edit the record.
+3.  Select **Email response to customer**.
 
-3.  In the  **Body HTML ** field, enter `<div id="collapsible-content">${mail_script:get_email_interaction_activity_history_for_reply}</div>`.
+4.  In the  **Body HTML ** field, enter `<div id="collapsible-content">${mail_script:get_email_interaction_activity_history_for_reply}</div>`.
 
-    **Note:**
+    This script, get\_email\_interaction\_activity\_history\_for\_reply \(available by default\), retrieves and formats email activity history, adding it to the email client in the agent workspace. The content is hidden behind ellipses within a DIV tag with the ID “collapsible-content".
 
-    -   The number of emails in the activity history matches the value set in the system property, number\_of\_activities\_in\_notification.
-    -   You can also create a client template and map it to the Interaction table. For more information, see [Create an email client template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateAnEmailClientTemplate.md).
-4.  Select **Update**.
+    The number of emails in the activity history matches the value set in the system property, number\_of\_activities\_in\_notification.
 
+    **Note:** You can also create a client template and map it to the Interaction table. For more information, see [Create an email client template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateAnEmailClientTemplate.md).
 
-## Result
-
-The get\_activity\_of\_case\_and\_related\_interaction\_for\_email script retrieves and formats cases and related interaction email history, adding it to the email client in the agent workspace. The content is hidden behind ellipses within a DIV tag with the ID “collapsible-content".
-
-**Related topics**  
-
-
-[Send case email replies with interaction email history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/send-case-email-replies-interaction-emails-activity-history.md)
 

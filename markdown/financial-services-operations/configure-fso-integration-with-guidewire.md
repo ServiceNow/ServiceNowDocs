@@ -1,16 +1,16 @@
 ---
-title: Configure Financial Services Operations Integration with Guidewire
+title: Configure the Financial Services Operations Integration with Guidewire
 description: Use this procedure to select and configure the Financial Services Operations Integration with Guidewire application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/configure-fso-integration-with-guidewire.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Guidewire, Integrate, Financial Services Operations \(FSO\)]
+breadcrumb: [Integrating with Guidewire, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
 ---
 
-# Configure Financial Services Operations Integration with Guidewire
+# Configure the Financial Services Operations Integration with Guidewire
 
 Use this procedure to select and configure the Financial Services Operations Integration with Guidewire application.
 
@@ -29,7 +29,7 @@ Role required: admin
     -   Guidewire ClaimCenter
     -   Guidewire PolicyCenter
     -   Guidewire ContactManager
-    Select one of these connections and follow the instructions described in [Set up the Guidewire spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/set-up-guidewire-spoke.md) to update the connection configuration.
+    Select one of these connections and follow the instructions described in  to update the connection configuration.
 
 3.  Select the **Subflows** tab.
 

@@ -1,29 +1,22 @@
 ---
 title: Share an address through non-related accounts
-description: Enable your users to reuse the same address between multiple non-related accounts. This way, you can share an address between multiple accounts by using the Location field on the Account Address form.
+description: Enable users to reuse the same address between multiple non-related accounts. Users can share an address between multiple accounts by using the Location field on the Account Address form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/address-sharing-non-related-accounts.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reusing addresses between multiple accounts, Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Reusing addresses between multiple accounts, Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Share an address through non-related accounts
 
-Enable your users to reuse the same address between multiple non-related accounts. This way, you can share an address between multiple accounts by using the **Location** field on the Account Address form.
+Enable users to reuse the same address between multiple non-related accounts. Users can share an address between multiple accounts by using the **Location** field on the Account Address form.
 
 ## Before you begin
 
-Role required:
-
--   admin
--   sn\_customerservice\_manager
--   sn\_crm\_account\_data\_manager,
--   sn\_crm\_account\_relationship\_data\_manager,
--   sn\_crm\_foundation\_data\_manager
--   sn\_crm\_foundation\_admin
+Role required: admin
 
 ## Procedure
 
@@ -39,7 +32,7 @@ Role required:
 
     \[Omitted image "location\_non\_related\_accounts.png"\] Alt text: Location window showing a list of locations that can be reused.
 
-6.  Select the search icon next to the **Account** field.
+6.  Click the search icon next to the **Account** field.
 
 7.  Choose the account for which you want to reuse the address.
 

@@ -7,14 +7,16 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Configure, Automation Center, Workflow Data Fabric]
+breadcrumb: [Configuring Automation Center, Automation Center, Data and Automation]
 ---
 
 # Track ServiceNow flows and actions as automations
 
 Track ServiceNow flows and actions as automations so you can view summary and detailed information of the flows and actions in the Automation Center Workspace.
+
+This video show you how to perform the following procedure.
 
 ## Before you begin
 

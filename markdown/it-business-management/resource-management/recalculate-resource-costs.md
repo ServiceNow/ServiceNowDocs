@@ -1,5 +1,5 @@
 ---
-title: Recalculate costs of a resource plan of a project or demand
+title: Recalculate costs of a resource plan
 description: Recalculate the resource costs of an individual resource plan for a project or demand whenever the hourly rates change in the associated rate model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/resource-management/recalculate-resource-costs.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Recalculate costs of a resource plan of a project or demand
+# Recalculate costs of a resource plan
 
 Recalculate the resource costs of an individual resource plan for a project or demand whenever the hourly rates change in the associated rate model.
 

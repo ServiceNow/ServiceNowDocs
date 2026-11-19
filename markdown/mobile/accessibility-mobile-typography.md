@@ -1,16 +1,16 @@
 ---
-title: Define font size settings for mobile devices
+title: Defining font size settings for mobile devices
 description: Adjust the size of text labels in the main screens of your mobile applications to enhance the readability of texts. This typography option can be used for accessibility purposes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/accessibility-mobile-typography.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Accessibility features in mobile, Using the mobile apps, Mobile Platform]
 ---
 
-# Define font size settings for mobile devices
+# Defining font size settings for mobile devices
 
 Adjust the size of text labels in the main screens of your mobile applications to enhance the readability of texts. This typography option can be used for accessibility purposes.
 

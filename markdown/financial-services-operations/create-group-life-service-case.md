@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/create-group-life-service-case.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use, Group Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Using Group Life Servicing, Group Life Servicing, Life Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create a group life service case
@@ -30,19 +30,19 @@ Contributors and processors can submit group policy service requests for custome
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
 3.  Create a case from the group life service case list or an interaction record.
 
-<table><thead><tr><th align="left" id="d45190e125">
+<table><thead><tr><th align="left" id="d40981e121">
 
 Option
 
-</th><th align="left" id="d45190e128">
+</th><th align="left" id="d40981e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d45190e134">
+</th></tr></thead><tbody><tr><td id="d40981e130">
 
 **Group life case from the group life case list**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d45190e164">
+</td></tr><tr><td id="d40981e160">
 
 **Group life case from an interaction record**
 

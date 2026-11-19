@@ -7,9 +7,9 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Control Tower, Enable AI experiences]
 ---
 
 # AI Risk and Compliance roles
@@ -159,7 +159,7 @@ AI System Reader
 
 </td><td>
 
-​The AI System Reader can have read access to the AI systems on AI Control Tower workspace and AI Risk and Compliance workspace.​
+​The AI System Reader can have read access to the AI systems on Control Tower workspace and AI Risk and Compliance workspace.​
 
 </td><td>
 
@@ -233,4 +233,6 @@ The AI Case Admin can manage type profiles to segregate AI cases. They can set u
 **Note:** Feature Roles provide granular access to individual risk and compliance capabilities, enabling teams to share only the functionality they need. This capability replaces broad Integrated Risk Management \(IRM\) roles with feature-specific roles for better control. Non-Integrated Risk Management families like Privacy Management, Operational Sustainability Management, and AI Risk and Compliance are restricted from accessing IRM-specific data or core plugin features. This model ensures secure, domain-specific access and simplifies governance across GRC applications.
 
 For more information, see [https://www.servicenow.com/products/employee-center.html](https://www.servicenow.com/products/employee-center.html).
+
+**Parent Topic:**[Control Tower reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/aict-references.md)
 

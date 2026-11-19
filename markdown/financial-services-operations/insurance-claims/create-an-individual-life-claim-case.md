@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Managing Individual Life Claims, Individual Life Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create an Individual Life Claims case
@@ -24,19 +24,19 @@ Role required: sn\_ins\_claim\_indl.fnol\_representative
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+2.  Select the lists \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Lists icon.\) icon.
 
 3.  Create a case from the individual life claim cases list.
 
-<table id="choicetable_jsk_byx_4bc"><thead><tr><th align="left" id="d107070e92">
+<table id="choicetable_jsk_byx_4bc"><thead><tr><th align="left" id="d87981e87">
 
 Option
 
-</th><th align="left" id="d107070e95">
+</th><th align="left" id="d87981e90">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d107070e101">
+</th></tr></thead><tbody><tr><td id="d87981e96">
 
 **Individual life claim**
 
@@ -61,15 +61,15 @@ Steps
 
 9.  In the Reporter details activity, enter the details of the entity reporting the incident.
 
-<table id="choicetable_ctl_hys_1cc"><thead><tr><th align="left" id="d107070e180">
+<table id="choicetable_ctl_hys_1cc"><thead><tr><th align="left" id="d87981e175">
 
 Reporter status
 
-</th><th align="left" id="d107070e183">
+</th><th align="left" id="d87981e178">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d107070e189">
+</th></tr></thead><tbody><tr><td id="d87981e184">
 
 **Is a policy participant**
 
@@ -80,7 +80,7 @@ Steps
 3.  In the **Consumer** \(person\) or **Account** \(company\) field, use the search function to search for policy participants. The contact details populate after selecting the participant.
 
 
-</td></tr><tr><td id="d107070e222">
+</td></tr><tr><td id="d87981e217">
 
 **Is not a policy participant**
 

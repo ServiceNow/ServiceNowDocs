@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 7
 keywords: [Reusable, Topic, Block, Virtual Agent, subflow, conversations]
-breadcrumb: [Maximizing code reuse with topic blocks, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Maximizing code reuse with topic blocks, Exploring other Virtual Agent features, Building and deploying Virtual Agent, Virtual Agent, Conversational Interfaces]
 ---
 
 # Create a reusable topic block
@@ -19,7 +19,7 @@ Build a reusable component that performs a specific subflow of tasks and convers
 
 ## Before you begin
 
-**Tip:** Developers and topic authors may need to access topic blocks created in other application scopes. To give them access, see [Configure cross-scope access privileges for topic blocks and custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-cross-scope-privileges.md).
+**Tip:** Developers and topic authors may need to access topic blocks created in other application scopes. To give them access, see [Create cross-scope access privileges for topic blocks and custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-cross-scope-privileges.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -29,17 +29,15 @@ Use topic blocks to run common steps, such as retrieving certain records.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
 
-2.  Select the **Asset library** tab.
+2.  On the home page, do one of the following:
 
-3.  In the Asset library, do one of the following:
-
-    -   To create a topic block from scratch, select **Create Asset**.
+    -   To create a topic block from scratch, select **Create**.
     -   To create a topic block based on a pre-built topic block, open the topic block and do the following:
         1.  In the header bar, select **Duplicate**.
         2.  Enter the name of the new block and select **Save**.
-4.  On the sheet, fill in the fields.
+3.  On the sheet, fill in the fields.
 
 <table id="table_jlp_q1z_njb"><thead><tr><th>
 
@@ -55,7 +53,7 @@ Type
 
 </td><td>
 
-List of items that you can create in Assistant Designer.
+List of items that you can create in Virtual Agent Designer.
 
  Select **Topic Block** and define the additional properties.
 
@@ -142,11 +140,11 @@ Categories
 Category that contains this block. You can define [custom topic categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-topic-category.md) for your topic blocks.
 
 </td></tr></tbody>
-</table>5.  Select **Create**.
+</table>4.  Select **Create**.
 
     The **Flow** tab opens. The canvas displays a flow with a **Start** and **End** node.
 
-6.  To define an input to the block, do the following:
+5.  To define an input to the block, do the following:
 
     1.  Select the **Start** node in the canvas.
 
@@ -227,11 +225,11 @@ Default value for the variable. This value can be used when previewing the block
 
     The calling topic or topic block passes input parameters to the topic block.
 
-7.  Drag Assistant Designer controls onto the canvas.
+6.  Drag Virtual Agent Designer controls onto the canvas.
 
-    These controls include the input, bot responses, and utilities. Use them in combination to define the logic that is run in the topic block. For more information, see [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
+    These controls include the input, bot responses, and utilities. Use them in combination to define the logic that is run in the topic block. For more information, see [Virtual Agent Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
 
-8.  To define the output returned from the topic block, do the following:
+7.  To define the output returned from the topic block, do the following:
 
     1.  Select the **End** node in the canvas.
 
@@ -249,13 +247,13 @@ Default value for the variable. This value can be used when previewing the block
 
     When the topic block finishes running in the calling topic, it can pass output variables to the calling topic.
 
-9.  To see how the topic block runs, select **Test**.
+8.  To see how the topic block runs, select **Test**.
 
     For example, the Contextual Search topic block returned the following results, including a preview-only message with the output values. The preview message helps you verify expected outputs and is not viewable to your users.
 
     \[Omitted image "preview-topic-block.png"\] Alt text: The preview window displays the chat conversation and a preview only section that shows the output variables and their values. For example, "results\_helpful":true.
 
-10. If you're ready to make the topic block available for use in calling topics, then do the following:
+9.  If you're ready to make the topic block available for use in calling topics, then do the following:
 
     1.  Remove the default parameters that you used for testing.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [EMR Help reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Components installed with EMR Help
@@ -53,20 +53,6 @@ sn\_ind\_rmt\_help.requester
 </td><td id="help-requester">
 
 Submit and monitor a ServiceNow service request from within an EMR system.
-
-</td><td>
-
-sn\_ind\_rmt\_help.viewer
-
-</td></tr><tr><td>
-
-sn\_ind\_rmt\_help.fulfiller
-
-</td><td id="help-fulfiller">
-
-Fulfill EMR Help requests with read-only access to EMR-captured incident data.
-
- **Note:** Assign this role to ITIL agents who fulfill EMR Help incidents. Subscription Management uses the sn\_ind\_rmt\_help.fulfiller role to identify EMR Help fulfiller licenses.
 
 </td><td>
 
@@ -166,7 +152,7 @@ Encryption Support plugin \(com.glide.encryption\)
 
 </td><td>
 
-Installs platform encryption capabilities to support EMR Help.
+Encrypts table columns and attachments associated with an EMR system in an IT service request.
 
 </td></tr></tbody>
 </table>## ServiceNow Store applications installed
@@ -188,5 +174,4 @@ Industry Core \(com.sn\_ind\)
 Includes common objects, code artifacts, and request definitions for industry vertical applications.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[EMR Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/emr-reference.md)
-
+</table>

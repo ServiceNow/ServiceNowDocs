@@ -1,24 +1,24 @@
 ---
 title: Customize related lists in Agent Workspace for HR Case Management
-description: Configure which related lists appear on HR cases and set their display order.
+description: Customize which related lists are visible to users in Agent Workspace for HR Case Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/agent-workspace-for-hr-case-management/related-lists-aws.html
 release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
 ---
 
 # Customize related lists in Agent Workspace for HR Case Management
 
-Configure which related lists appear on HR cases and set their display order.
+Customize which related lists are visible to users in Agent Workspace for HR Case Management.
 
 ## Before you begin
 
-Role required: sn\_hr\_agent\_ws.admin
+Role required: admin
 
 ## Procedure
 
@@ -26,7 +26,7 @@ Role required: sn\_hr\_agent\_ws.admin
 
 2.  Select the case that you want to customize related lists for.
 
-3.  Select the additional actions icon \(\[Omitted image "Form\_MenuIcon.png"\]\).
+3.  Select the additional actions icon \[Omitted image "Form\_MenuIcon.png"\] Alt text: Additional actions icon.
 
 4.  Navigate to **Configure** &gt; **Related lists**.
 

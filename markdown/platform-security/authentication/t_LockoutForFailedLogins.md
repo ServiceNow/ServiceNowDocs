@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Define login scenarios, Local authentication, Authentication, Access Management]
+breadcrumb: [Define login scenarios, Local Authentication, Authentication, Access Management]
 ---
 
 # Specify lockout for failed login attempts
@@ -18,7 +18,7 @@ The system provides inactive script actions that enable you to specify the numbe
 
 ## Before you begin
 
-Role required: password\_reset\_admin
+Role required: admin
 
 ## Procedure
 

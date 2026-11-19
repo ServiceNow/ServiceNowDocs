@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Explore, Cloud Cost Management, IT Asset Management, Asset Management]
+breadcrumb: [Exploring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
 ---
 
 # Unassigned resources

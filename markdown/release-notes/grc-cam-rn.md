@@ -1,86 +1,72 @@
 ---
 title: Continuous Authorization and Monitoring release notes
-description: The ServiceNow Continuous Authorization and Monitoring application provides a structured approach to defining an authorization package and completing the seven stages of the NIST Risk Management Framework. Release notes are organized by version.Continuous Authorization and Monitoring streamlines authorization package management with shared document versioning and approvals, AI-powered summarization, OSCAL import/export enhancement, and a dedicated POAM user role.
+description: The ServiceNow Continuous Authorization and Monitoring \(CAM\) application provides a standardized approach to defining an authorization package and walking through the seven stages of the National Institute of Standards and Technology \(NIST\) Risk Management Framework \(RMF\). CAM was enhanced and updated in the Yokohama release.The ServiceNow Continuous Authorization and Monitoring \(CAM\) application provides a standardized approach to defining an authorization package and walking through the seven stages of the National Institute of Standards and Technology \(NIST\) Risk Management Framework \(RMF\). CAM was enhanced and updated in the Yokohama release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/grc-cam-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-keywords: [continuous authorization, monitoring, NIST RMF, release notes, CAM version 23.0.1, OSCAL, POAM, authorization package]
-breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+last_updated: "2025-01-30"
+reading_time_minutes: 2
+breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
 # Continuous Authorization and Monitoring release notes
 
-The ServiceNow® Continuous Authorization and Monitoring application provides a structured approach to defining an authorization package and completing the seven stages of the NIST Risk Management Framework. Release notes are organized by version.
+The ServiceNow® Continuous Authorization and Monitoring \(CAM\) application provides a standardized approach to defining an authorization package and walking through the seven stages of the National Institute of Standards and Technology \(NIST\) Risk Management Framework \(RMF\). CAM was enhanced and updated in the Yokohama release.
 
 ## About Continuous Authorization and Monitoring
 
--   Applies a standardized approach to automate the NIST Risk Management Framework, a U.S. Federal mandate for information system security.
--   Defines clear accountability across System Owners, Authorizing Officials, Security Control Assessors, Information System Security Officers, and other roles
--   Provides continuous monitoring and centralized management of NIST RMF compliance, including control implementation and assessment, authorization boundaries and impact levels, and Plans of Action &amp; Milestones \(POA&amp;M\)
+-   Import catalog and System Security Plan \(SSP\) models with the new CAM Open Security Controls Assessment Language \(OSCAL\) import landing page.
+-   Export and import SSP models and catalog models in the OSCAL format.
+-   Export control objectives as a catalog in the OSCAL format.
+-   Generate additional reports in Microsoft Word format, such as a Security Assessment Plan \(SAP\), Authorization to Operate \(ATO\) Letter, and Executive Summary.
+-   Generate reports based on a Microsoft Word template.
 
-See  for more information.
+See [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/grc-cam-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-Continuous Authorization and Monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** Continuous Authorization and Monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
-    Install Continuous Authorization and Monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install CAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
 
-## September 2026
+## Yokohama
 
-Continuous Authorization and Monitoring streamlines authorization package management with shared document versioning and approvals, AI-powered summarization, OSCAL import/export enhancement, and a dedicated POAM user role.
+The ServiceNow® Continuous Authorization and Monitoring \(CAM\) application provides a standardized approach to defining an authorization package and walking through the seven stages of the National Institute of Standards and Technology \(NIST\) Risk Management Framework \(RMF\). CAM was enhanced and updated in the Yokohama release.
 
 ### What's new
 
--   **Document reuse and version control across records**
+-   **[OSCAL Import landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/import-oscal.md)**
 
-    Link documents as shared resources across authorization packages, boundaries, and engagements. Set approval workflows to control who reviews and activates documents before they take effect.
+    Import files for catalog and SSP models on the new OSCAL Import landing page. Once the import process is initiated, you can check the status under the Import status section.
 
--   **Analyze documents with AI**
+-   **[OSCAL Export button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/export-catalog-cam-ws.md)**
 
-    Summarize documents, generate frequently asked questions with answers, or ask specific questions about document content, all from the Documents side panel in an authorization package, boundary, or engagement.
+    Export selected control objectives in the OSCAL format with the new **OSCAL Export** button while in the control objectives list view.
 
--   **Voice-based document analysis**
+-   **[ATO artifacts in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-ato-artifacts-cam-ws.md)**
 
-    Generate spoken audio summaries of documents and conduct voice-based Q&amp;A using the Voice Assist panel, from the Documents side panel in an authorization package, boundary, or engagement.
+    Generate ATO artifacts from an authorization package in the Microsoft Word format. In CAM Workspace, you can use the **Generate SSP** drop-down list in a selected authorization package to generate the following reports:
 
--   ****
-
-    Link documents from Google Drive, OneDrive, or SharePoint and keep them synchronized with authorization packages, boundaries, and engagements. Pull updates from cloud storage or push approved versions back, without manual downloads and uploads.
-
--   **AI-generated authorization package summary**
-
-    Using generative AI, the Authorization package summarization skill generates a summary of authorization package records. Each summary consolidates system purpose, impact level, operational status, and open POA&amp;M counts to show the package's current state.
-
--   **POAM user role**
-
-    Users with the POAM User role can view and update their assigned Plan of Action and Milestones \(POA&amp;Ms\), including viewing and updating tasks, accepting or rejecting acceptance tasks, and completing milestone tasks.
+    -   Security Assessment Plan \(SAP\)
+    -   Authorization to Operate \(ATO\) Letter
+    -   Executive Summary
+    This enhancement verifies that all ATO artifacts are formatted consistently and can be shared and reviewed.
 
 
 ### What's changed
 
--   **OSCAL enhancements**
+-   **[Generate the OSCAL SSP model of an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-oscal-models.md)**
 
-    The OSCAL enhancements include:
+    Export the SSP model of an authorization package in the OSCAL format. The exported report contains only the control objectives linked to the authorization package and their additional information, such as inherited controls and the hierarchy of the control objectives.
 
-    -   Import system-generated authority documents \(SSP, POA&amp;M, SAR, SAP, ATO Letter, Executive Summary reports\) and user-attached files at Authorization Package and Authorization Boundary levels during OSCAL import.
-    -   Control objective IDs include source values during OSCAL import and export.
-    -   Policy fields are included during OSCAL import and export.
+-   **[Generate ATO artifacts in Microsoft Word and HTML templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-ato-artifacts-cam-ws.md)**
 
-### What's deprecated or removed
-
-### Now LLM Service Plugin information
-
--   **Plugins planned for deprecation**
-
-    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+    Use the Document designer plugin \(com.sn\_grc\_doc\_design\) to create report templates in Microsoft Word. A new property module has been introduced to select the template type as a Microsoft Word template in addition to an HTML template.
 
 

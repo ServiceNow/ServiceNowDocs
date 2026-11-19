@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-spm-integration.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Integrate, Customer Service Management]
+breadcrumb: [Integrating Customer Service Management with other applications, Customer Service Management]
 ---
 
 # Integrating with Service Portfolio Management
@@ -26,7 +26,7 @@ The Customer Service Management integration with Service Portfolio Management ca
 1.  Customer service managers can associate service offerings to product models. For more details, see [Associate services with product models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/associate-service-offering-product.md)
 2.  Customer service managers can associate service offerings to sold products. For more details, see [Associate service offerings with sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/asssociate-service-offering-sold-prod.md)
 3.  Service owners can view service offerings and which customers have subscribed to them.
-4.  Customer service agents can view which service offerings are associated to the sold products affected by an issue. They can also see the service commitments and availability. For more details, see [View sold product information in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/view-sold-product-info-workspace.md)
+4.  Customer service agents can view which service offerings are associated to the sold products affected by an issue. They can also see the service commitments and availability. For more details, see [View sold product information in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/view-sold-product-info-workspace.md)
 
 ## Activation information
 

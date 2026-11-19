@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/diagnose-resolve-domain-order-task.html
 release: yokohama
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Order Management diagnostics capability, Integrate, Sales Customer Relationship Management]
+breadcrumb: [Order Management diagnostics capability, Extending Order Management with ServiceNow applications and integrations, Sales Customer Relationship Management]
 ---
 
 # Diagnose and resolve a domain order
@@ -30,7 +30,7 @@ This task is applicable for product order, services, and resources.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
 2.  Select the List icon.
 
@@ -48,7 +48,7 @@ This task is applicable for product order, services, and resources.
 
 6.  Diagnose the domain order to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/decision-table.md).
+    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see .
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 
@@ -56,7 +56,11 @@ This task is applicable for product order, services, and resources.
 
         The drop-down list shows the current product inventory and all the child inventories.
 
+        To set up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/settingup-test-specifications.md).
+
     3.  Expand the cards in the **Available test suite**.
+
+        To set up test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/setting-test-group.md).
 
     4.  In the manual test, select single/multiple tests.
 

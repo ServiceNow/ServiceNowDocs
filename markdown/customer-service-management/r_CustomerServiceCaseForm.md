@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/r\_CustomerServiceCaseForm.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 8
-breadcrumb: [Customer Service forms, Reference, Customer Service Management]
+breadcrumb: [Customer Service forms, Customer Service Management reference, Customer Service Management]
 ---
 
 # Case form
@@ -59,7 +59,7 @@ Number
 
 </td><td>
 
-Automatically assigned case number.
+The automatically assigned case number.
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ Channel
 
 </td><td>
 
-Method by which the customer initiated contact and the case was opened. -   Web \(default\)
+The method by which the customer initiated contact and the case was opened. -   Web \(default\)
 -   Phone
 -   Email
 -   Chat
@@ -79,9 +79,9 @@ Contact Local Time
 
 </td><td>
 
-Local time of the contact assigned to the case. This is automatically filled according to the time zone set on the Contact form. If no time zone is set on the Contact form, it is filled according to the **Contact Timezone** set on the case itself.
+The local time of the contact assigned to the case. It is automatically filled according to the time zone set on the Contact form. If no time zone is set on the Contact form, it is filled according to the **Contact Timezone** set on the case itself.
 
- If no time zone is set on the Contact form or in the Case form, the field is left blank and is read-only.
+ If no time zone is set on the Contact form or in the case, the field is left blank and is read-only.
 
  If a case is closed or canceled, the **Contact Local Time** field is hidden.
 
@@ -93,9 +93,9 @@ Contact time zone
 
 </td><td>
 
-Contact time zone if the customer is working in a different time zone for the case. This field overrides the Contact form time zone.If no contact local time or contact time zone is set, the instance time zone is displayed.
+The contact time zone if the customer is working in a different time zone for the case. It overrides the Contact form time zone.If no contact local time or contact time zone is set, the instance time zone is displayed.
 
- After the case is created, the field is read-only.
+ Once the case is created, the field is read-only.
 
  **Note:** Configure the form layout to add this field to the Case form.
 
@@ -105,7 +105,7 @@ Account
 
 </td><td>
 
-Name of the contact's company. This field is filled in automatically if the information is available in the contact record.
+The name of the contact's company. This field is filled in automatically if the information is available in the contact record.
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ Contact
 
 </td><td>
 
-Name of the customer contact for this case.
+The name of the customer contact for this case.
 
 </td></tr><tr><td>
 
@@ -121,23 +121,23 @@ Consumer
 
 </td><td>
 
-Name of the consumer for this case.
+The name of the consumer for this case.
 
 </td></tr><tr><td>
 
-Provider Organization
+Service Organization
 
 </td><td>
 
-Organization resolving the cases.
+The name of business location.
 
 </td></tr><tr><td>
 
-Requestor Organization
+Requesting Service Organization
 
 </td><td>
 
-Organization requesting the omni-channel interactions.
+The service organization for which this case is being requested.
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Product
 
 </td><td>
 
-Product model of the asset. A model is a specific version or configuration of an asset \(for example, Apple Mac Book Pro\). If you select an asset in the **Asset** field and the asset has an associated product, the **Product** field is automatically updated. A product can be associated with multiple assets.
+The product model of the asset. A model is a specific version or configuration of an asset \(for example, Apple Mac Book Pro\). If you select an asset in the **Asset** field and the asset has an associated product, the **Product** field is automatically updated. A product can be associated with multiple assets.
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ Asset
 
 </td><td>
 
-Asset tag number or the serial number of the asset involved in this case.
+The asset tag number or the serial number of the asset involved in this case.
 
 </td></tr><tr><td>
 
@@ -169,7 +169,7 @@ Partner Contact
 
 </td><td>
 
-Name of the partner contact for this case.
+The name of the partner contact for this case.
 
 </td></tr><tr><td>
 
@@ -177,7 +177,9 @@ Follow the sun
 
 </td><td>
 
-Option to indicate that a case should be handed-off for global follow-up. If a customer enters additional comments on a **Priority 1 - Critical** or a**Priority 2 - High** case, or if the case is escalated, the flag is automatically selected.
+A check box to indicate that a case should be handed-off for global follow-up. If a customer enters additional comments on a **Priority 1 - Critical** or a**Priority 2 - High** case, or if the case is escalated, the flag is automatically selected.
+
+ You can also manually select the check box.
 
  The activity stream on the case form is updated with any changes.
 
@@ -189,7 +191,7 @@ Short description
 
 </td><td>
 
-Brief description of the issue or problem.
+A brief description of the issue or problem.
 
 </td></tr><tr><td>
 
@@ -197,7 +199,7 @@ Opened
 
 </td><td>
 
-Date and time that the case was opened.
+The date and time that the case was opened.
 
 </td></tr><tr><td>
 
@@ -231,7 +233,7 @@ Assignment group
 
 </td><td>
 
-Assigned customer service agent group.
+The assigned customer service agent group.
 
 </td></tr><tr><td>
 
@@ -239,7 +241,7 @@ Assigned to
 
 </td><td>
 
-Assigned agent. If a group is selected in the **Assignment group** field, the assigned agent must belong to this group.
+The assigned agent. If a group is selected in the **Assignment group** field, the assigned agent must belong to this group.
 
 </td></tr><tr><td>
 
@@ -247,7 +249,7 @@ Assigned on
 
 </td><td>
 
-Date and time when the case is assigned. This field is updated when a user is added or changed in the **Assigned to** field.
+The data and time when the case is assigned. This field is updated when a user is added or changed in the **Assigned to** field.
 
 </td></tr><tr><td>
 
@@ -255,7 +257,7 @@ Contract
 
 </td><td>
 
-Contract number associated with this case.
+The contract number associated with this case.
 
 </td></tr><tr><td>
 
@@ -263,12 +265,7 @@ Entitlement
 
 </td><td>
 
-Entitlement associated with this case. The entitlements available for selection in the reference list channel matches the case creation channel. The available entitlements are filtered by the settings in the **Account**, **Consumer**, and **Contract** fields.If only one entitlement is available for this case, it is automatically added to the **Entitlement** field.
-
-Starting with the Zurich release, agents can add multiple entitlements to a case. If the **sn\_customerservice.advanced\_entitlements** system property is set to true, the Case Entitlements related list is visible on the Case form and the **Entitlement** field is hidden. For more information, see the following topics:
-
--   [Add an entitlement to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-entitlement-to-case.md)
--   [Properties installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_PropInstallWcustServ.md)
+The entitlement associated with this case. The entitlements available for selection in the reference list channel matches the case creation channel. The available entitlements are filtered by the settings in the **Account**, **Contract**, **Product**, **Asset** fields.If only one entitlement is available for this case, it is automatically added to the **Entitlement** field.
 
 </td></tr><tr><td>
 
@@ -276,7 +273,7 @@ Partner
 
 </td><td>
 
-Name of the partner company.
+The name of the partner company.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -315,7 +312,7 @@ Contributor Users
 
 </td><td>
 
-When a user with the case task agent role \(sn\_customerservice.case\_task\_agent\) is assigned to a case task, the user is added to the **Contributor Users** field.If this user is removed from the **Assigned to** field on the Case Task form, and they are not assigned to any other tasks for the case, thenn they are also removed from the **Contributor Users** field.
+When a user with the case task agent role \(sn\_customerservice.case\_task\_agent\) is assigned to a case task, the user is added to the **Contributor Users** field.If this user is removed from the **Assigned to** field on the Case Task form, and they are not assigned to any other tasks for the case, they are also removed from the **Contributor Users** field.
 
 </td></tr><tr><td>
 
@@ -323,9 +320,9 @@ Contributor Groups
 
 </td><td>
 
-When a user with the case task agent role \(sn\_customerservice.case\_task\_agent\) is assigned to a case task, the user's assignment group is added to the **Contributor Groups** field.If this user is removed from the **Assigned to** field on the Case Task form, and no other member of their assignment group is assigned to any other tasks for the case, then the assignment group is removed from the **Contributor Groups** field.
+When a user with the case task agent role \(sn\_customerservice.case\_task\_agent\) is assigned to a case task, the user's assignment group is added to the **Contributor Groups** field.If this user is removed from the **Assigned to** field on the Case Task form, and no other member of their assignment group is assigned to any other tasks for the case, the assignment group is removed from the **Contributor Groups** field.
 
- If a group is removed from the **Assignment group** field on the Case Task form, and the group is not assigned to any other tasks for the case, then the assignment group is removed from the **Contributor Groups** field.
+ If a group is removed from the **Assignment group** field on the Case Task form, and the group is not assigned to any other tasks for the case, the assignment group is removed from the **Contributor Groups** field.
 
 </td></tr><tr><td>
 
@@ -365,7 +362,7 @@ Resolved by
 
 </td><td>
 
-Agent to whom the case is assigned when the case is resolved.
+The agent to whom the case is assigned when the case is resolved.
 
 </td></tr><tr><td>
 
@@ -373,7 +370,7 @@ Closed by
 
 </td><td>
 
-Name of the user who closed the case.
+The name of the user who closed the case.
 
 </td></tr><tr><td>
 
@@ -405,7 +402,9 @@ Add resolution notes to comments
 
 </td><td>
 
-Option to determine if the resolution notes are added to customer-viewable comments when the case is resolved. If selected, the resolution notes are added to the **Additional comments** \(customer-visible\) field.
+A check box to determine if the resolution notes are added to customer-viewable comments when the case is resolved. If selected, the resolution notes are added to the **Additional comments** \(customer-visible\) field.
+
+ By default, the check box is cleared.
 
 </td></tr><tr><td>
 
@@ -413,7 +412,7 @@ Resolved
 
 </td><td>
 
-Date and time that the case was resolved.
+The date and time that the case was resolved.
 
 </td></tr><tr><td>
 
@@ -421,7 +420,7 @@ Closed
 
 </td><td>
 
-Date and time that the case was closed.
+The date and time that the case was closed.
 
 </td></tr></tbody>
 </table>## Customer view

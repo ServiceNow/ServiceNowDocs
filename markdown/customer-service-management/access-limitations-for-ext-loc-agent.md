@@ -5,16 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/access-limitations-for-ext-loc-agent.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-28"
-reading_time_minutes: 2
-breadcrumb: [External Organization as a fulfiller, Cases, Service Model Foundation overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [External business location \(EBL\) as a fulfiller, Service Model Foundation cases, Service Model Foundation overview, Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Access limitations for external location agents
 
 Explore the limitations that an external location agent faces when using various platform modules during case resolution. You can use this topic to get a comprehensive overview of the modules that are supported and unsupported with the external location agent persona.
-
-**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
 
 ## Supported and unsupported modules
 
@@ -142,11 +140,11 @@ Supported
 
 </td></tr><tr><td rowspan="3">
 
-Business Organizations
+Service Organization
 
 </td><td>
 
-Internal Organizations \(formerly Internal Business Locations\)
+Internal Business Locations
 
 </td><td rowspan="3">
 
@@ -154,11 +152,11 @@ Supported
 
 </td></tr><tr><td>
 
-External Organizations \(formerly External Business Locations\)
+External Business Locations
 
 </td></tr><tr><td>
 
-External Organization Staff \(formerly Service Organization External Staffs\)
+Service Organization External Staffs
 
 </td></tr><tr><td rowspan="2">
 
@@ -370,9 +368,9 @@ Unsupported**Note:** All aspects of the workspace experience remain inaccessible
 -   The Launch Interactive Analysis option in the Case list form context menu isn’t functional.
 -   Related cases can’t be accessed from the related search results on the Case.
 
-However, with an external organization as a fulfiller, the external location agents can:
+However, with an external business location as a fulfiller, the external location agents can:
 
--   Access Service Model Foundation data, such as internal organization, external organization, organization members \(formerly service organization members\), and responsibilities, on the platform.
+-   Access Service Model Foundation data, such as internal business location, external business location, service organization members, and responsibilities, on the platform.
 -   Access customer foundation data, including accounts, contacts, sold products, and install base items on the platform.
 -   Access the case form on the platform.
 -   Self-assign and start working on a case.

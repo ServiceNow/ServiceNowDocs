@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 4
-breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Import your workspaces data from an Excel spreadsheet
@@ -68,8 +68,6 @@ Complete [Configuring spreadsheets to import workplace data](https://raw.githubu
 
 [Configure Workplace entity and entity types]()
 
-[Managing Neighborhoods]()
-
 [Enable favorites option for Workplace Service Portal]()
 
 [Create a workplace performer criteria]()
@@ -96,7 +94,7 @@ Complete [Configuring spreadsheets to import workplace data](https://raw.githubu
 
 [Location migration]()
 
-[View workplace service usage analytics with Usage Insights]()
+[View workplace service usage analytics with User Experience Analytics]()
 
 [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/t_RunImport.md)
 

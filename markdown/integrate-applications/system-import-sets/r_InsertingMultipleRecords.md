@@ -7,9 +7,9 @@ release: yokohama
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Web service import sets, Import sets, Imports, Workflow Data Fabric]
+breadcrumb: [Web service import sets, Import sets, Imports, Data and Automation]
 ---
 
 # Inserting multiple records using insertMultiple

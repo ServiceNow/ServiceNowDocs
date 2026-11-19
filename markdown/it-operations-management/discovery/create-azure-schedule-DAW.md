@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 keywords: [Discovery, Admin, Workspace]
-breadcrumb: [Discovery for Microsoft Azure, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery for Microsoft Azure Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Create an Azure Discovery schedule in Discovery Admin Workspace
@@ -21,11 +21,11 @@ Use the Discovery Admin Workspace dashboard to create an Azure Discovery schedul
 
 Verify the following:
 
--   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-install-prereqs.md).
+-   At least one validated MID Server with a status of **Up** is installed. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
--   You have configured a service principal in the Azure Active Directory with the necessary permissions to access the cloud resources you plan to discover. For more information, see [Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/azure-cloud-discovery.md).
--   You have created suitable credentials in the ServiceNow AI Platform to connect with the service accounts on which you want to perform the discovery. For more information, see [Create Azure cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-azure-cloud-credentials.md).
--   You're using Discovery Admin Workspace v1.11.0 or later.
+-   A service principal is configured in the Azure Active Directory with the necessary permissions to access the cloud resources you plan to discover. For more information, see [Discovery for Microsoft Azure Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/azure-cloud-discovery.md).
+-   Suitable credentials are created in the ServiceNow AI Platform to connect with the service accounts on which you want to perform the discovery. For more information, see [Create Azure cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-azure-cloud-credentials.md).
+-   Discovery Admin Workspace, starting with v1.11.0 is installed.
 
 Role required: discovery\_admin
 
@@ -53,29 +53,29 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d606730e325">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d339785e324">
 
 Option
 
-</th><th align="left" id="d606730e328">
+</th><th align="left" id="d339785e327">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d606730e334">
+</th></tr></thead><tbody><tr><td id="d339785e333">
 
 **Existing cloud account**
 
 </td><td>
 
-Select an existing cloud account on your instance. Once an account is selected, the **Account name** and **Subscription ID/Management Group ID** fields auto-populate.
+Select an existing cloud account on your instance. Once an account is selected, the **Account name**, **Subscription ID / Management Group ID**, **Discover GovCloud regions**, and **URL** fields auto-populate.
 
-</td></tr><tr><td id="d606730e349">
+</td></tr><tr><td id="d339785e354">
 
 **New cloud account**
 
 </td><td>
 
-Add a new cloud account to your instance by entering a name and subscription ID or management group ID.**Note:** You can access the Subscription or Group ID in the Azure portal, under the **Subscriptions** or **Management Groups** section, respectively.
+Add a new cloud account to your instance by entering an account name and subscription ID or management group ID. To discover GovCloud regions, set **Discover GovCloud regions** to **Yes** and enter the **URL**.**Note:** To find the subscription ID, go to **Subscriptions** in the Azure portal. The ID appears in the list of subscriptions. To find a management group ID, go to **Management groups** and select **details** next to the management group. Enter the management group ID, not its display name.
 
 </td></tr></tbody>
 </table>    Even if the service account was previously verified, you can reverify if policies or permissions may have changed by selecting **Verify information.**

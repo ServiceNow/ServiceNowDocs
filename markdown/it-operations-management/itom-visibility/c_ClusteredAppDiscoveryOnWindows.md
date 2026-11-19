@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
+breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Clustered application discovery on Windows
@@ -129,11 +129,15 @@ The [Windows Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
 1.  Navigate back to the process classification you just made.
 
-2.  Select the **Parameters** tab.
+2.  Click the **Parameters** tab.
 
-3.  Select **New**.
+3.  Click **New**.
 
-4.  Fill out the fields on the form.
+4.  Fill out the fields on the form as appropriate \(see table\).
+
+5.  Click **Submit**.
+
+    \[Omitted image "ClassifierParameterForm.png"\] Alt text: Classifier parameter
 
     |Field|Description|
     |-----|-----------|
@@ -141,8 +145,6 @@ The [Windows Cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     |Application|Select **Global**.|
     |Type|Enter **Cluster**.|
     |Value|This field defines two JavaScript objects, called resourceType and isMatch. For more information, see [Populate the Value field on the Classifier Parameter form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c_ClusteredAppDiscoveryOnWindows.md).|
-
-5.  Select **Submit**.
 
 
 ## Populate the Value field on the Classifier Parameter form

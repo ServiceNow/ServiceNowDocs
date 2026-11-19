@@ -7,9 +7,9 @@ release: yokohama
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Administer, Delegated Development, Planning your application, Classic app development, Building applications]
+breadcrumb: [Using Delegated Development, Delegated Development, Planning your application, Building applications]
 ---
 
 # Delegate development and deployment permissions to personnel

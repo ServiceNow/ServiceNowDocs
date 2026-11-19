@@ -1,25 +1,25 @@
 ---
 title: Change graph visualization
-description: Change a graph visualization to a different type within the same graph group, such as converting a bar chart or area chart.
+description: Change a graph visualization to a different type within the same graph group, such as converting a horizontal bar chart to a vertical bar chart or an area chart to a line chart.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/change-graph-visualization.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-12-01"
 reading_time_minutes: 1
 keywords: [Generative AI, Generative AI for Customer Service Management, Generative AI for customer service agents]
-breadcrumb: [Trending topics dashboard, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Trending topics dashboard, Activate Now Assist Skills, Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
 ---
 
 # Change graph visualization
 
-Change a graph visualization to a different type within the same graph group, such as converting a bar chart or area chart.
+Change a graph visualization to a different type within the same graph group, such as converting a horizontal bar chart to a vertical bar chart or an area chart to a line chart.
 
 ## Before you begin
 
-Role required: admin
+Role required: admin or maint
 
 ## About this task
 
@@ -59,7 +59,9 @@ This procedure allows you to change a graph to a different visualization type wi
 **Related topics**  
 
 
-[Change insight to use a different field for trending topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.md)
+[Configure trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/configure-trending-topics-dashboard.md)
 
-[Add a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
+[Add a new filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
+
+[Change an insight to use a different field for trending topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/change-insight-to-use-a-different-field.md)
 

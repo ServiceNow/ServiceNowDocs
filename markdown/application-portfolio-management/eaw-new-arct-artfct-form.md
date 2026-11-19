@@ -1,16 +1,16 @@
 ---
-title: Architectural artifact form
+title: New architectural artifact form
 description: Architectural artifacts describe a system, solution, or state of an enterprise. The architectural artifacts in Enterprise Architecture enable enterprise architects to create and manage the artifacts used in their organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-new-arct-artfct-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-04-10"
 reading_time_minutes: 1
-breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Architectural artifact form
+# New architectural artifact form
 
 Architectural artifacts describe a system, solution, or state of an enterprise. The architectural artifacts in Enterprise Architecture enable enterprise architects to create and manage the artifacts used in their organization.
 
@@ -40,11 +40,12 @@ The category of the newly created architectural artifact. Select the relevant ca
 
 </td></tr><tr><td>
 
-Format
+File type
 
 </td><td>
 
-The type of architectural artifact you want to create. You can select one of the following options:-   **Attachment**
+The type of architectural artifact you want to create. You can select one of the following options:-   **Architectural decision record**
+-   **Attachment**
 -   **URL**
 
 </td></tr><tr><td>
@@ -66,7 +67,7 @@ This field is displayed when the File Type is selected as **URL**.
  Enter the URL associated with the architectural artifact.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
 
 **Related topics**  
 

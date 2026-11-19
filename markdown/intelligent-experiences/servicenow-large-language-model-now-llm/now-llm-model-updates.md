@@ -7,10 +7,10 @@ release: yokohama
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2026-10-20"
+last_updated: "2026-11-13"
 reading_time_minutes: 9
 keywords: [model card, Now LLM Service, LLM, Large language model, Generative AI, Gen AI, Now Assist]
-breadcrumb: [Large language models, Large language models and providers, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
 # Model provider updates
@@ -25,7 +25,7 @@ Model cards explain the specific model's context, intended use, training data, l
 
 These model cards reflect the AI models that power various features within the ServiceNow platform. These include skills, agents, and agentic workflows within ServiceNow Otto as well as AI powered features outside of ServiceNow Otto. To see which model a ServiceNow Otto skill, agent, or agentic workflow is using, you can check the skill list in the AI Admin Hub console and review the LLM service column.
 
--   **Model card for Gemma 4 26B A4B**
+-   **[Model card for Gemma 4 26B A4B](https://downloads.docs.servicenow.com/resource/enus/infocard/20261110-SN-Gemma-4-model-card.pdf)**
 
     Selectable ServiceNow Otto model for enterprise AI that enhances text-based automation and content generation in ServiceNow workflows, including requester OOTB skills, custom skills, and agentic use cases.
 
@@ -161,6 +161,8 @@ Several key improvements were added to the Now LLM Service that are aimed at enh
     -   Error reduction: Unlike free-form text mode, JSON responses are less prone to format errors or stray characters, minimizing integration issues.
     -   Lower token consumption: The fixed structure of JSON can reduce token usage, making it more efficient and cost-effective for applications with high response frequency.
 -   Improvements in instruction following: The model has been fine-tuned to understand and follow instructions more precisely. This enables the model to deliver more to-the-point and actionable responses, helping users get the information they need faster and more efficiently.
+
+**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-products.md)
 
 **Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
 

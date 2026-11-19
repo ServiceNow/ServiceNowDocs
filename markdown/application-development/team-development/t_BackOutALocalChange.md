@@ -7,18 +7,14 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
+breadcrumb: [Team Development, Exploring Team Development, Team Development, Planning your application, Building applications]
 ---
 
 # Back out a local change
 
 Back out all local changes and restore the last version reconciled with the parent instance.
-
-## Before you begin
-
-Role required: none.
 
 ## Procedure
 
@@ -36,4 +32,6 @@ Role required: none.
     -   Right-click the local change you want to back out, and then click **Back Out**.
     \[Omitted image "LocalChangesBackOutAll.png"\] Alt text: Local changes back out all
 
+
+**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

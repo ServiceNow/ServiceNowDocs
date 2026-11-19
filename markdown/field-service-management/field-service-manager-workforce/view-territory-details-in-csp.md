@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Managing territories and agents, Managing workforce, Use, Field Service Management]
+breadcrumb: [Managing territories and agents from Territory Planning console, Manage workforce, Using Field Service Management, Field Service Management]
 ---
 
 # View territory information in contextual side panel
@@ -40,15 +40,15 @@ Territory Key Performance Indicators \(KPIs\) offer valuable insights into the p
 
 3.  View details in the contextual side panel.
 
-<table id="choicetable_wc2_mgn_2yb"><thead><tr><th align="left" id="d157278e123">
+<table id="choicetable_wc2_mgn_2yb"><thead><tr><th align="left" id="d138240e114">
 
 To view
 
-</th><th align="left" id="d157278e126">
+</th><th align="left" id="d138240e117">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d157278e132">
+</th></tr></thead><tbody><tr><td id="d138240e123">
 
 **Map overlay data items**
 
@@ -58,7 +58,7 @@ Do the following
 -   You can customize the display using the Settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Settings icon\).
 
 
-</td></tr><tr><td id="d157278e156">
+</td></tr><tr><td id="d138240e147">
 
 **Territory**
 
@@ -74,4 +74,6 @@ Do the following
 ## Result
 
 The following snapshot illustrates how you can view relevant territory information and its KPIs in the contextual side panel, helping you to efficiently manage your territories and resources. \[Omitted image "territory-planning-csp.jpg"\] Alt text: Snapshot displaying the San Diego territory details and Key Performance Indicators in the contextual side panel.
+
+**Parent Topic:**[Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-territory-planning-console.md)
 

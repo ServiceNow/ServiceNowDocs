@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/lookup-and-verify-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
 ---
 
 # Lookup and verify
@@ -21,13 +21,16 @@ This feature simplifies the process of looking up and verifying contact or consu
 
 **Note:** If this information has already been verified, such as through a customer portal login or authentication by Virtual Agent or by an IVR, the **Verified** check box on the interaction record is checked.
 
-Agents can access the search window on the interaction record by selecting the Verify Contact icon \(\[Omitted image "config-ws-lookup-verify-contact.png"\] Alt text: Verify contact icon.\) or the Verify Consumer icon \(\[Omitted image "config-ws-lookup-verify-consumer.png"\] Alt text: Verify consumer icon.\) in the contextual side panel.
+Agents can access the search window on the interaction record as follows:
+
+-   CSM Configurable Workspace: By clicking the Verify Contact icon \(\[Omitted image "config-ws-lookup-verify-contact.png"\] Alt text: Verify contact icon.\) or the Verify Consumer icon \(\[Omitted image "config-ws-lookup-verify-consumer.png"\] Alt text: Verify consumer icon.\) in the contextual side panel.
+-   CSM Agent Workspace: By clicking the **Lookup Contact** and **Lookup Consumer** buttons.
 
 Agents can perform a type-ahead search across multiple configurable fields such as name, phone number, email address, and record number. From the search results list, agents can select a result to display detailed information for the contact or consumer in a verification card. Once verified, the system adds the information to the interaction record and checks the **Verified** check box.
 
 ## Plugins
 
-The lookup and verify feature is included with the Case Management Core \(com.sn\_customerservice\) plugin. This plugin provides the configuration for contact and consumer lookup as well as **Lookup Contact** and **Lookup Consumer** UI actions that can be added to the interaction record in CRM Workspace.
+The lookup and verify feature is included with the Customer Service \(com.sn\_customerservice\) plugin. This plugin provides the configuration for contact and consumer lookup as well as **Lookup Contact** and **Lookup Consumer** UI actions that can be added to the interaction record in CSM Configurable Workspace.
 
 **Note:** These actions are not enabled by default. The workspace admin can enable these actions as part of the lookup and verify feature configuration.
 
@@ -35,7 +38,7 @@ The lookup and verify feature is included with the Case Management Core \(com.sn
 
 Two lookup and verify configurations are provided with the feature, one for contacts and one for consumers. Navigate to **Workspace Experience** &gt; **Lookup and Verify** &gt; **Configuration** to access the Lookup and Verify Configurations list.
 
-**Note:** To see the contact and consumer lookup and verify configurations, you must activate the CRM Workspace Lookup and Verify plugin \(com.snc.uib.lookup\_verify\).
+**Note:** To see the contact and consumer lookup and verify configurations, you must activate the CSM Lookup and Verify plugin \(com.snc.sn\_csm\_lookup\_verify\).
 
 For each configuration, the workspace administrator can:
 
@@ -48,9 +51,12 @@ For each configuration, the workspace administrator can:
 
 **Note:** Customers can contact ServiceNow to make changes to the search fields.
 
-## Using Lookup and verify in CRM Workspace
+## Using Lookup and verify in CSM workspaces
 
-Agents can use the lookup and verify feature to search for contact or consumer information in the contextual side panel.
+Agents can use the lookup and verify feature in CSM workspaces.
+
+-   CSM Configurable Workspace: agents search for contact or consumer information using the contextual side panel.
+-   CSM Agent Workspace: agents search for contact or consumer information using the Verify Contact or Verify Consumer pop-up windows on the interaction form.
 
 The search field provides type ahead search that displays results in a list and narrows the results as more characters are entered. Selecting a result from the list displays more detailed information about the contact or consumer in a verification card.
 

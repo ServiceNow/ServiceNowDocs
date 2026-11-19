@@ -1,48 +1,44 @@
 ---
-title: Software Asset Management licensing
-description: Software Asset Management \(SAM\) licensing is based on five categories of managed IT resources: Server, End User Computing Device, SaaS Subscription User, PaaS Resources, and IaaS Storage. Each category is counted toward your subscription at a different ratio.
+title: Managed IT Resource types
+description: There are five IT Resource categories in ServiceNow Software Asset Management - Server, End User Computing Device, SaaS Subscription User, PaaS Resources, and IaaS Storage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/managed-it-resource-types.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Subscriptions for Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Subscriptions for Software Asset Management, Software Asset Management, IT Asset Management]
 ---
 
-# Software Asset Management licensing
+# Managed IT Resource types
 
-Software Asset Management \(SAM\) licensing is based on five categories of managed IT resources: Server, End User Computing Device, SaaS Subscription User, PaaS Resources, and IaaS Storage. Each category is counted toward your subscription at a different ratio.
+There are five IT Resource categories in ServiceNow Software Asset Management - Server, End User Computing Device, SaaS Subscription User, PaaS Resources, and IaaS Storage.
 
-Each managed IT resource category is represented as a configuration item \(CI\) or table record in Software Asset Management. The subscription ratio differs by category, since the management effort required varies by resource type.
+-   Server is any physical or virtual server that is represented as a configuration item \(CI\) in the CMDB tables listed in the following license resource categories and managed by the Software Asset Management application.
+-   End User Computing Device is any physical or virtual non-server CI in the CMDB tables listed in the following license resource categories and managed by the Software Asset Management application.
+-   SaaS Subscription User is any unique User Principal name in the SaaS Subscription User table listed in the following license resource categories and managed by the Software Asset Management application.
+-   PaaS Resources are cloud-based platform services that are represented as a CI in the CMDB tables listed in the following license resource categories and managed by the Software Asset Management application.
+-   IaaS Storage is any cloud-based infrastructure service represented as a CI in a CMDB table listed in the following license resource categories and managed by the Software Asset Management application.
 
-## Managed IT resource categories
+Servers and End User Computing Devices are managed by the Software Asset Management application when the installed software on the Managed IT Resources is represented in the Software Installation \[cmdb\_sam\_sw\_install\] table.
 
-<table><thead><tr><th>
+<table id="table_qfg_twd_4qb"><thead><tr><th>
 
-Resource type
-
-</th><th>
-
-Description
-
-</th><th>
-
-Ratio
+Resource category
 
 </th><th>
 
-CMDB classes
+Subscription unit ratio
+
+</th><th>
+
+Model category
 
 </th></tr></thead><tbody><tr><td>
 
 Server
-
-</td><td>
-
-Physical or virtual server that is represented as a configuration item \(CI\) in the CMDB tables listed in the following license resource categories and managed by Software Asset Management.
 
 </td><td>
 
@@ -59,15 +55,11 @@ Physical or virtual server that is represented as a configuration item \(CI\) in
 -   cmdb\_ci\_hyper\_v\_server
 -   cmdb\_ci\_hpux\_server
 
- **Note:** Any CMDB classes derived from the above listed classes or cmdb\_ci\_hardware and not defined as another Managed IT Resource type.
+ Any CMDB classes derived from the above listed classes or cmdb\_ci\_hardware and not defined as another Managed IT Resource type.
 
 </td></tr><tr><td>
 
-End User Computing Device
-
-</td><td>
-
-Physical or virtual non-server CI in the CMDB tables listed in the following license resource categories and managed by Software Asset Management.
+End user computing device
 
 </td><td>
 
@@ -83,11 +75,7 @@ Physical or virtual non-server CI in the CMDB tables listed in the following lic
 
 </td></tr><tr><td>
 
-SaaS Subscription User
-
-</td><td>
-
-Unique User Principal name in the SaaS Subscription User table listed in the following license resource categories and managed by Software Asset Management.
+SaaS subscription user
 
 </td><td>
 
@@ -99,11 +87,7 @@ samp\_sw\_subscription
 
 </td></tr><tr><td>
 
-PaaS Resources
-
-</td><td>
-
-Cloud-based platform services that are represented as a CI in the CMDB tables listed in the following license resource categories and managed by Software Asset Management.
+PaaS resources
 
 </td><td>
 
@@ -118,11 +102,7 @@ Cloud-based platform services that are represented as a CI in the CMDB tables li
 
 </td></tr><tr><td>
 
-IaaS Storage
-
-</td><td>
-
-Cloud-based infrastructure service represented as a CI in a CMDB table listed in the following license resource categories and managed by Software Asset Management.
+IaaS storage
 
 </td><td>
 
@@ -133,9 +113,5 @@ Cloud-based infrastructure service represented as a CI in a CMDB table listed in
 cmdb\_ci\_storage\_volumeAny child classes of the above listed classes.
 
 </td></tr></tbody>
-</table>**Important:**
-
-Software Asset Management manages servers and end user computing devices only when their installed software on the Managed IT Resources is represented in the Software Installation \[cmdb\_sam\_sw\_install\] table.
-
-**Parent Topic:**[Subscriptions for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-subscription.md)
+</table>**Parent Topic:**[Subscriptions for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-subscription.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-impact-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
@@ -148,7 +148,7 @@ Yokohama
     -   [Jumpstart Your Knowledge Management](https://www.servicenow.com/docs/access?context=jumpstart-knowledge-management&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Knowledge Management.
     -   [Jumpstart Your Legacy Workflow Migration](https://www.servicenow.com/docs/access?context=jumpstart-legacy-workflow-migration&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Legacy Workflow Migration.
     -   [Jumpstart Your Now Assist for CSM](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-csm&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Now Assist for CSM.
-    -   [Jumpstart Your Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-skill-kit&family=yokohama&ft:locale=en-US): ​Provides a demonstration of the possibilities and capabilities of Now Assist Skill Kit.
+    -   [Jumpstart Your ServiceNow AI Skill Kit](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-skill-kit&family=yokohama&ft:locale=en-US): ​Provides a demonstration of the possibilities and capabilities of Now Assist Skill Kit.
     -   [Jumpstart Your Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-virtual-agent&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Now Assist in Virtual Agent.
     -   [Jumpstart Your Strategic Portfolio Management – Resource Management Workspace](https://www.servicenow.com/docs/access?context=jumpstart-strategic-portfolio-management-resource-management-workspace&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Resource Management Workspace within SPM.
     -   [Jumpstart Your GenAI](https://www.servicenow.com/docs/access?context=jumpstart-gen-ai&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of ServiceNow® Generative AI application \(Artificial Intelligence\)
@@ -185,7 +185,7 @@ Xanadu
 </td><td>
 
 -   **[Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog&family=xanadu&ft:locale=en-US)**
-    -   Updates to the [\[Placeholder link text to key bundle-ipact.training-strategy-assessment\]](https://www.servicenow.com/docs/access?context=training-strategy-assessment&family=xanadu&ft:locale=en-US) Accelerator
+    -   Updates to the [training strategy assessment](https://www.servicenow.com/docs/access?context=training-strategy-assessment&family=xanadu&ft:locale=en-US) Accelerator
     -   The UX \(User Experience\) Design: Employee Center Accelerator name is changed to [UX: Design for Employee Center](https://www.servicenow.com/docs/access?context=ux-design-employee-center&family=xanadu&ft:locale=en-US)
     -   The User Experience Review: Employee Center Accelerator name is changed to [UX: Portal Experience Review](https://www.servicenow.com/docs/access?context=ux-review-employee-center&family=xanadu&ft:locale=en-US)
 -   **[HealthScan definitions updates: November release](https://www.servicenow.com/docs/access?context=healthscan-definitions-nov-store&family=xanadu&ft:locale=en-US)**
@@ -236,7 +236,7 @@ The new Impact Store Application provides a more efficient, streamlined way for 
 Minor updates have been incorporated into the following accelerators:
 
     -   [Jumpstart Your GenAI](https://www.servicenow.com/docs/access?context=jumpstart-gen-ai&family=yokohama&ft:locale=en-US)
-    -   [Jumpstart Your Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-skill-kit&family=yokohama&ft:locale=en-US)
+    -   [Jumpstart Your ServiceNow AI Skill Kit](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-skill-kit&family=yokohama&ft:locale=en-US)
     -   [Jumpstart Your Document Intelligence](https://www.servicenow.com/docs/access?context=jumpstart-document-intelligence&family=yokohama&ft:locale=en-US)
     -   [On-Demand Value Report](https://www.servicenow.com/docs/access?context=on-demand-value-report&family=yokohama&ft:locale=en-US)
     -   [LSD Maturity Assessment](https://www.servicenow.com/docs/access?context=lsd-maturity-assessment&family=yokohama&ft:locale=en-US)

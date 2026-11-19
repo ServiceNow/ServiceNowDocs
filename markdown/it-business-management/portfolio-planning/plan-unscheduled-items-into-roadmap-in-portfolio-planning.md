@@ -1,5 +1,5 @@
 ---
-title: Plan unscheduled items into roadmap
+title: Plan unscheduled items into roadmap in Portfolio Planning Workspace
 description: Add items without start or end dates yet to your portfolio plan or free-form roadmap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/plan-unscheduled-items-into-roadmap-in-portfolio-planning.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Plan unscheduled items into roadmap
+# Plan unscheduled items into roadmap in Portfolio Planning Workspace
 
 Add items without start or end dates yet to your portfolio plan or free-form roadmap.
 
@@ -29,15 +29,15 @@ Planning items that meet the criteria of your portfolio plan or free-form roadma
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d168937e99">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d135424e93">
 
 Roadmap type
 
-</th><th align="left" id="d168937e102">
+</th><th align="left" id="d135424e96">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d168937e108">
+</th></tr></thead><tbody><tr><td id="d135424e102">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d168937e129">
+</td></tr><tr><td id="d135424e123">
 
 **Free-form roadmap**
 

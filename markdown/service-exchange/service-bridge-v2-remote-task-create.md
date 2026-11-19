@@ -1,20 +1,20 @@
 ---
 title: Create remote tasks to sync data
-description: Use remote tasks to link tasks across multiple instances and run business workflows without custom integrations.
+description: Remote tasks provide linked tasks across multiple instances and enable business workflows without any custom integrations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-exchange/service-bridge-v2-remote-task-create.html
 release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Use for consumers, Service Exchange for Consumers, Service Exchange]
+breadcrumb: [Installing and configuring Service Exchange for Consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
 # Create remote tasks to sync data
 
-Use remote tasks to link tasks across multiple instances and run business workflows without custom integrations.
+Remote tasks provide linked tasks across multiple instances and enable business workflows without any custom integrations.
 
 ## Before you begin
 
@@ -23,11 +23,11 @@ Use remote tasks to link tasks across multiple instances and run business workfl
 
 ## About this task
 
-As a consumer, you can integrate tasks such as incidents, cases, and service requests bi-directionally with your providers using remote tasks.
+As a consumer, you can integrate tasks like incidents, cases, and service requests bi-directionally with your providers using remote tasks.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Incident** &gt; **Open**.
+1.  Navigate to **All** &gt; **Incidents** &gt; **Open**.
 
 2.  Select the **Number** related link to open an incident.
 
@@ -35,40 +35,41 @@ As a consumer, you can integrate tasks such as incidents, cases, and service req
 
     **Note:** The **Create Task for Provider** related link appears in this section only if at least one active and valid remote task definition is available for the provider table associated with the task.
 
-    The Remote Task page opens. The **Parent** field is populated with the task record and the **Status** field is set to New.
+4.  The Remote Task page appears.
 
-4.  In the **Remote task definition** field, enter or search for a remote task definition.
+    The **Parent** field is populated with the task record and the **Status** field is set to **New**.
+
+5.  In the **Remote task definition** field, enter or search for a remote task definition.
 
     **Note:**
 
     -   Only active and valid remote task definitions associated with the parent task are displayed.
     -   The **Provider Connection** field is automatically filled in based on the remote task definition selected.
     -   If only one remote task definition is available, the **Remote Task Definition** field is automatically populated.
-5.  Select **Submit**.
+6.  Select **Submit**.
 
     When you navigate back to the parent task, the newly created remote task appears in the Remote Tasks related list.
 
     **Note:** The remote task is created asynchronously and may not show initially if the parent task form is quickly loaded. Refresh the form to see the newly created remote task.
 
-6.  Navigate to **Service Exchange Consumer** &gt; **Remote Tasks**.
+7.  Navigate to **Service Exchange Consumer** &gt; **Remote Tasks**.
 
     The list of remote tasks is displayed. When the newly created remote task is received in the provider instance, a new parent task based on the remote task is created.
 
-7.  Select the newly created task, then select the **Remote Tasks** tab in the Related Links section.
+8.  Select the newly created task, then select the **Remote Tasks** tab in the Related Links section.
 
     The **Status** field is set to **Connected** and the description has been updated.
 
-8.  Navigate back to the parent task.
+9.  Navigate back to the parent task.
 
-9.  Update the **Short Description** field for the parent task and select **Save**.
+10. Update the **Short Description** field for the parent task and select **Save**.
 
-10. Log into the consumer instance and open the task.
+11. Log into the consumer instance and open the task.
 
     The data is synced and the **Short Description** field is updated in the consumer instance. A work note indicates that the **Short Description** field was updated by the provider.
 
     **Note:**
 
     -   You can create a remote task on the provider instance by following the same steps. Data is synced between the consumer and provider instances and any changes you make in the consumer instance are automatically updated in the provider instance.
-    -   After an attachment is shared with another instance through Service Exchange using a remote task or a provider task, it becomes part of that instance's data. Service Exchange does not delete attachments on remote instances — the receiving instance must handle deletion.
     -   When you create a remote task on the consumer instance, the **Provider Connection** field is automatically populated when you select a remote task definition.
 

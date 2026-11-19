@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Use, Change Management, IT Service Management]
+breadcrumb: [Using Change Management, Change Management, IT Service Management]
 ---
 
 # Process a change request
@@ -34,7 +34,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
 4.  You can perform the following actions on a change request based on your role.
 
-<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d261441e126">
+<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d153654e126">
 
 **Approve or reject a change request**
 
@@ -42,7 +42,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
 Open the approval record from the **Self-Service** &gt; **My Approvals** module or from the **Approvers** related list on the change request or **Reject** to reject it.The change request changes to the **Scheduled** state if it is approved or to **New** state if it is rejected.
 
-</td></tr><tr><td id="d261441e159">
+</td></tr><tr><td id="d153654e159">
 
 **Implement a change request**
 
@@ -54,9 +54,7 @@ When you select **Implement**, the system automatically creates two change tasks
 -   **Post-implementation testing**: Covers testing and validation after implementation.
 The system creates theses tasks when the change request enters to **Implement** state. You can modify task assignments, dates and descriptions as needed. To cancel a task, set its state to **Cancelled**.
 
-Tasks remain open until you close or cancel them. Canceling a task does not affect the parent change request.
-
-</td></tr><tr><td id="d261441e203">
+</td></tr><tr><td id="d153654e200">
 
 **Review a change request**
 
@@ -64,7 +62,7 @@ Tasks remain open until you close or cancel them. Canceling a task does not affe
 
 Select **Review** after reviewing the details on the change request. The change request is moved to the **Review** state. All open change tasks are set to **Canceled**.
 
-</td></tr><tr><td id="d261441e224">
+</td></tr><tr><td id="d153654e221">
 
 **Close a change request**
 
@@ -72,7 +70,7 @@ Select **Review** after reviewing the details on the change request. The change 
 
 Select **Close** after entering the **Close code** and **Close notes** in the **Closure Information** section.The change request is closed.
 
-</td></tr><tr><td id="d261441e248">
+</td></tr><tr><td id="d153654e245">
 
 **Cancel a change request**
 
@@ -99,21 +97,19 @@ From the context menu, Select **Cancel Change**. Provide a reason for canceling 
     -   Implementation plan
     -   Risk and impact analysis
     -   Backout plan
-    You can add approval history to the change request activity log. Select the activity filter icon and select **Approval history** from the list. When there is a change in the approval process, such as an approval, rejection, or comments, the activity log is updated.
-
-    You can also implement, review and close change requests through the platform APIs instead of the UI. Use the Change Request API to run state transitions `change_request` records directly. For endpoint details and request examples, see the ServiceNow REST API reference.
+    You can also add approval history to the change request activity log. Click the activity filter icon and select **Approval history** from the list. When there is a change in the approval process, such as an approval, rejection, or comments, the activity log is updated.
 
 
 -   **[Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md)**  
-You can associate additional CIs or services with change requests through related lists on the Change Request form. You can also associate CIs with a change request from the dependency views map.
+You can associate additional CIs or services to change requests through related lists on the Change Request form. You can also associate CIs with a change request from the dependency views map.
 -   **[Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/bulk-ci-change.md)**  
-Mass Update CI enables you to apply the same update to a set of configuration items \(CIs\) in a specific CI class. Use Mass Update CI on instances where the Change Management - State Model plugin is active.
+The Mass Update CI plugin enable users to apply the same update to a set of CIs for a specific CI class. The Change Management - Mass Update CI plugin is intended to be used when the Change Management - State Model plugin is activated.
 -   **[Use Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/use-bulk-mass-ci-changes.md)**  
 You can use the proposed changes in a change request to apply the same update to a set of CIs for a specific CI class.
 -   **[Place a change request on hold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_PlaceAChangeRequestOnHold.md)**  
 You can put a change request on hold to get additional information for the created change request.
 -   **[Refresh impacted services and CIs for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/refresh-impacted-services-cis.md)**  
-The Impacted services and CIs related list refreshes its records based on the affected CIs. Records in the Service Offerings and Business Applications related lists also refresh. Use this information to identify impacted services and CIs and take action.
+The Impacted services and CIs related list refreshes its records and also the records listed in the Service Offerings and Business Applications related lists based on the affected CIs. You can identify the impacted services and CIs and take necessary action.
 
 **Parent Topic:**[Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/using-change-management.md)
 

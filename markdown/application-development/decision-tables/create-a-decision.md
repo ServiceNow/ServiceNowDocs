@@ -7,9 +7,9 @@ release: yokohama
 product: Decision Tables
 classification: decision-tables
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
-breadcrumb: [Decision tables in the classic environment, Decision Tables, Builder library, Developing your application, Classic app development, Building applications]
+breadcrumb: [Decision tables in the classic environment, Decision Tables, Builder library, Developing your application, Building applications]
 ---
 
 # Create a decision table to resolve complex decisions

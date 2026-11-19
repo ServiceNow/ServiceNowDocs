@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/conditions-link-delink-toggle-records.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Using Lead-to-Cash Process Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
 ---
 
 # Linking, delinking, and link conversion conditions
@@ -44,13 +44,4 @@ Hard links cannot be converted to soft links if they meet the following conditio
 -   The target node has immediate hard-linked child nodes but only one hard-linked source node.
 
 Soft links can be converted to hard links only if the source node has at least one hard-linked record.
-
-**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-lead-cash-process-management.md)
-
-**Related topics**  
-
-
-[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-lead-cash-process-management.md)
-
-[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-lead-cash-process-management.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
-breadcrumb: [Integration Hub - Import, Import and stream data, Integration Hub, Workflow Data Fabric]
+breadcrumb: [Integration Hub - Import, Importing and streaming data in Integration Hub, Integration Hub, Data and Automation]
 ---
 
 # Map source data to a target table
@@ -21,8 +21,6 @@ Specify how source data is transformed to your target tables.
 [Configure a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-data-source.md).
 
 Role required: admin or ih\_import.
-
-\[Omitted video\] Description: Video that shows how to map source data to a target table in Integration Hub - Import
 
 ## Procedure
 

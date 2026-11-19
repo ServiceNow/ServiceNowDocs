@@ -1,20 +1,20 @@
 ---
 title: Review and update release details
-description: Review and update the details of a release after it has been created.
+description: Review and modify the details of a release. You can also retarget the readiness date of the release as required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-product-release/dpr-work-release-details.html
 release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-12-09"
 reading_time_minutes: 1
 breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
 ---
 
 # Review and update release details
 
-Review and update the details of a release after it has been created.
+Review and modify the details of a release. You can also retarget the readiness date of the release as required.
 
 ## Before you begin
 

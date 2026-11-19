@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-29"
 reading_time_minutes: 3
-breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # RMF step 2 - Select controls for an authorization package

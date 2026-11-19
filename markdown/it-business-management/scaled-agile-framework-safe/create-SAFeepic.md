@@ -7,7 +7,7 @@ release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 5
 breadcrumb: [SAFe entities, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -24,15 +24,15 @@ Role required: safe\_art\_user or safe\_admin
 
 1.  Create an epic using either of the following options.
 
-<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d183652e71">
+<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d146822e71">
 
 Option
 
-</th><th align="left" id="d183652e74">
+</th><th align="left" id="d146822e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d183652e80">
+</th></tr></thead><tbody><tr><td id="d146822e80">
 
 **From the Backlog tab**
 
@@ -45,7 +45,7 @@ Steps
 5.  From the **Create** list, select **Create Epic**. The epic is displayed in the **Backlog** tab with the state as **Backlog**.
 
 
-</td></tr><tr><td id="d183652e131">
+</td></tr><tr><td id="d146822e131">
 
 **From the Epics module**
 
@@ -55,7 +55,7 @@ Steps
 2.  Click **New**. The epic is displayed in the **Epics** list and **Backlog** tab with the state as **Funnel**.
 
 
-</td></tr><tr><td id="d183652e170">
+</td></tr><tr><td id="d146822e170">
 
 **From the Portfolios module**
 

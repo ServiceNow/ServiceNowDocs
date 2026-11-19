@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/bia-impact-categories.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2025-07-31"
+reading_time_minutes: 4
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -26,46 +26,44 @@ When a business service, process, or application experiences downtime due to a d
 
 ## Impact categories in BCM
 
-With the BCM administrator role, you can view the impact categories that are installed with demo data. You can also set up new impact categories in the **Impact categories** module. The example shows the impact categories that are installed with demo data in an instance.
+With the BCM administrator role, you can view the impact categories that are installed with demo data and set up new impact categories in the **Impact categories** module of the BCM application. The following example shows the impact categories that are installed with demo data in an instance.
 
 \[Omitted image "bia-impact-categories.png"\] Alt text: BIA impact categories that are installed with demo data.
 
 ## Configuration of an impact category
 
-The BCM administrators can configure or modify the impact categories by adding key information about the impact. The example shows the configuration details of an impact category in an instance.
+The BCM administrators can configure or modify the impact categories by adding key information about the impact. The following example shows the configuration details of an impact category in an instance.
 
 \[Omitted image "configure-impact-category-for-bia.png"\] Alt text: Details of the legal impact category.
 
-The BCM administrators can configure the details of a new impact category:
+The BCM administrators can configure the following details of a new impact category:
 
 -   **Name**
 
-    Classification of the downtime impact for your service, process, or applications through an appropriate name such as Legal or Reputational impact.
+    Classify the impact of a downtime for your service, process, or applications by adding an appropriate name for the impact such as Legal or Reputational impact.
 
 -   **Contributes to**
 
-    Selection of whether the impact contributes to recovery time objective or recovery point objective.
+    Select whether the impact contributes to recovery time objective or recovery point objective.
 
 -   **Applicable timeframes**
 
-    Timeframe specification for the impact category.
+    Set the applicable timeframe for the impact category.
 
 -   **Maximum RTO value**
 
-    Maximum RTO value for the impact category.
+    Define the maximum RTO value for the impact category.
 
 -   **Description**
 
-    Description field for the impact category.
+    Add description for the impact category.
 
 -   **Helper text**
 
-    Helper text that provides a hint to users on how to respond to the assessment questions. The helper text is then displayed for the user in the business impact analysis record. In the example, "Select an estimated time for each impact level" is the helper text for the impact category.
-
-    \[Omitted image "imact-category-helper-text.png"\] Alt text: Helper text in the Impact Rating record.
+    Add the helper text that provides a hint to the users on how to respond to the assessment questions. The helper text is then displayed for the user in the business impact analysis record. In the following example, **Select an estimated time for each impact level** is the helper text for the impact category.\[Omitted image "imact-category-helper-text.png"\] Alt text: Helper text in the Impact Rating record.
 
 
-## Impact category configuration by BCM administrators
+## Impact category configuration by the administrators
 
 For more information on how to configure an impact category with the sn\_bcm.admin role, see [Configure impact category for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-impact-category-uib-ws.md).
 
@@ -75,37 +73,37 @@ If you have the BCM administrator role, you can view the impact ratings that are
 
 \[Omitted image "configure-impact-category-for-bia.png"\] Alt text: Impact ratings that are installed with demo data.
 
-The impact ratings for an impact category are shown in the example.
+The impact ratings for an impact category are shown in the following example.
 
 \[Omitted image "question-text.png"\] Alt text: Impact ratings for an impact category.
 
 ## Configuration of an impact rating
 
-The BCM administrators can configure details of an impact rating for the business impact analysis:
+The BCM administrators can configure the following details of an impact rating for the business impact analysis:
 
 -   **Name**
 
-    Unique name to the impact rating.
+    Assign a unique name to the impact rating.
 
 -   **Impact Category**
 
-    Classification of the impact category that the impact rating is associated with.
+    Classify the impact category that the impact rating is associated with.
 
 -   **Value**
 
-    Unique numerical value to each impact rating. The same value can not be reused for any other impact rating in the BCM application.
+    Assign a unique numerical value to each impact rating. The same value can not be reused for any other impact rating in the BCM application.
 
 -   **Tolerable**
 
-    Option for enabling the RTO impact as tolerable. This check box appears only if the impact category contributes to the recovery time objective.
+    Select the option for enabling the RTO impact as tolerable. This check box appears only if the impact category contributes to the recovery time objective.
 
 -   **Description**
 
-    Description about the impact rating.
+    Add the description about the impact rating.
 
 -   **Question text**
 
-    Question text in the Impact Rating record for the recovery time objective of an impact category. The revised question is then displayed in the RTO assessment form of the business impact analysis record.
+    Revise the question text in the Impact Rating record for the recovery time objective of an impact category. The revised question is then displayed in the RTO assessment form of the business impact analysis record.
 
 
 ## Impact rating configuration by the administrators

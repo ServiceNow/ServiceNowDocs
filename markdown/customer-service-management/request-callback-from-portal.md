@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/request-callback-from-portal.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Callback requests from customers, Use omnichannel callback, Customer communication, Use, Customer Service Management]
+breadcrumb: [Working with callback requests from an agent, Using Omnichannel Callback for Customer Service Management, Customer communication, Using Customer Service Management, Customer Service Management]
 ---
 
 # Working with callback requests using the Customer Service Portal
@@ -42,15 +42,15 @@ You can request an immediate callback only for a voice channel. Use the **Call m
 
 6.  Select whether to receive an immediate voice callback from an agent or schedule a voice or video callback for later.
 
-<table id="choicetable_dlg_q4r_2wb"><thead><tr><th align="left" id="d120529e166">
+<table id="choicetable_dlg_q4r_2wb"><thead><tr><th align="left" id="d100320e160">
 
 Type of callback
 
-</th><th align="left" id="d120529e169">
+</th><th align="left" id="d100320e163">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d120529e175">
+</th></tr></thead><tbody><tr><td id="d100320e169">
 
 **Immediate voice callback**
 
@@ -58,7 +58,7 @@ Action
 
 Select **Call me now**.
 
-</td></tr><tr><td id="d120529e187">
+</td></tr><tr><td id="d100320e181">
 
 **Scheduled voice or video callback**
 

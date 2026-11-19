@@ -1,21 +1,20 @@
 ---
-title: Group contract documents by contract type in a contract request
-description: As an administrator, group the contract documents by contract type in a contract request.
+title: Group contract documents by contract type in the contract request form
+description: As an administrator, group the contract documents by contract type in the contract request form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-config-srp-grouping.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-keywords: [BU configuration, Group contract documents, Uptake steps CM Pro]
-breadcrumb: [Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Configure contract request functionality, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
 ---
 
-# Group contract documents by contract type in a contract request
+# Group contract documents by contract type in the contract request form
 
-As an administrator, group the contract documents by contract type in a contract request.
+As an administrator, group the contract documents by contract type in the contract request form.
 
 ## Before you begin
 
@@ -27,8 +26,6 @@ Role required: admin
 
 Customize the Standard Record Page \(SRP\) to display contract documents grouped by contract type in the Contract document tab through UI Builder, a web user interface builder. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md).
 
-\[Omitted image "cmpro-bu-ctypr-grouping-result.png"\] Alt text: Grouping of contract documents
-
 ## Procedure
 
 1.  Navigate to **Now Experience Framework** &gt; **UI Builder**.
@@ -39,11 +36,7 @@ Customize the Standard Record Page \(SRP\) to display contract documents grouped
 
 4.  In the Page content list, under **Body** &gt; **Resizable panes** &gt; **left** &gt; **Main Tab** &gt; **Related List**, select **list related**.
 
-    \[Omitted image "cmpro-bu-ctype-group-related-list.png"\] Alt text: Select related list configuration for your workspace
-
-5.  In the **Configure** pane, select **Group by** field.
-
-    \[Omitted image "cmpro-bu-ctype-group-script.png"\] Alt text: Select group from the Configure pane
+5.  In the **Configure** tab of the right pane, select **Group by** field.
 
 6.  Enter the following code in the **Group by** field:
 
@@ -63,10 +56,6 @@ Customize the Standard Record Page \(SRP\) to display contract documents grouped
 7.  Select **Apply**.
 
 
-## Result
-
-The contract documents will be grouped by contract type in the Contract document tab while viewing a contract request.
-
 **Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 
 **Related topics**  
@@ -76,21 +65,19 @@ The contract documents will be grouped by contract type in the Contract document
 
 [Add a workspace action button for initiating a contract request]()
 
-[Add Contract requests tab to the contract request record]()
-
-[Add Contract documents tab to the contract repository record]()
+[Add Contract requests tab to your workspace]()
 
 [Add amendment tabs to contract repository record]()
+
+[Display contract documents in a contract repository record]()
 
 [Copy fields from parent request to contract request]()
 
 [Add access to obligation management from contract repository records]()
 
-[Configure the contract request form header]()
+[Configure the contract request form header for your workspace]()
 
-[Assign a role for configuring template mappings]()
+[Provide permissions to configure default contract document information]()
 
-[Enable contract request fields in condition builders]()
-
-[Configuring the Playbook tab on contract repository records]()
+[Provide access to contract request fields in condition builders]()
 

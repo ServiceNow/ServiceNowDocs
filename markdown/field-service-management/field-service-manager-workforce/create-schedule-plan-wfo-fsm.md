@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Scheduling, Workforce Optimization, Managing workforce, Use, Field Service Management]
+breadcrumb: [Scheduling in Workforce Optimization for Field Service, Workforce Optimization, Manage workforce, Using Field Service Management, Field Service Management]
 ---
 
 # Create a schedule plan
@@ -58,4 +58,6 @@ The **Total coverage/demand** row displays the number of agents covering each sh
     2.  Click **Save**.
     **Note:** It might take a few minutes for the screen to refresh.
 
+
+**Parent Topic:**[Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.md)
 

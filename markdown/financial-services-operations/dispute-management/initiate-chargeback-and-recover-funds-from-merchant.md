@@ -7,9 +7,9 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
-breadcrumb: [Initiating a chargeback, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Initiating a chargeback, Working on a dispute case, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Initiate chargeback and recover funds from merchant
@@ -30,36 +30,40 @@ A manual investigation can result in an outcome of initiating a chargeback, crea
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
 
-3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
+3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
 
     -   For your assigned cases, select **Assigned to me**.
     -   For all dispute cases, select **All**.
-4.  In the list, select which case you want to work on.
+4.  In the list, select the case to work on.
 
-    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
+    To work on a case that is not assigned to you yet, assign it to yourself by selecting **Assign to me**.
 
 5.  Select the **Playbook** tab.
 
-6.  Select the **Initiate chargeback and fill merchant response** activity under the Chargeback playbook stage.
+6.  Select the **Initiate chargeback** activity under the Chargeback playbook stage.
 
-7.  On the form, review the populated fields and add any other related information that you've gathered.
+7.  Select the initiate chargeback task that you want to complete.
 
-8.  In the **Work notes** field, enter any comments.
+8.  On the form, fill in the required fields and any other related information that you've gathered.
 
-9.  After you have entered the details in the task, select **Update**.
+    -   In the **Chargeback details** field, select the chargeback code.
 
-10. To submit the request, select **Initiate chargeback**.
+        **Note:** To configure chargeback reason codes, an admin can navigate to **Financial Services Operations** &gt; **Reference Data** &gt; **Chargeback reason codes**.
 
-11. Record the merchant response.
+    -   In the **Represented by merchant** field, select whether the merchant is providing representment to contest the chargeback request.
+9.  In the **Work notes** field, enter any comments.
 
-    |Network|Action|
-    |-------|------|
-    |**Visa**|In the **Dispute response received** field, indicate whether a response was received from the merchant.|
-    |**Other networks**|In the **Represented by merchant** field, select whether the merchant is providing representment to contest the chargeback request.|
+10. After you have entered the details in the task, select **Update**.
 
-12. Select **Close task** to close the task from the playbook.
+11. To submit the request, select **Initiate chargeback**.
+
+12. Close the task from the playbook.
+
+    |Dispute activity|Action|
+    |----------------|------|
+    |**To close the Initiate chargeback task**|Select **Close**.|
 
 
 ## Result
@@ -74,7 +78,7 @@ The task state moves to the Closed complete state. Additionally:
 
 ## What to do next
 
-If the merchant has provided representment, proceed to [Review merchant representment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/review-representment.md). Otherwise, proceed to [Provide final credit to customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/provide-final-credit-to-customer.md) or [Convert provisional credit to final credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/convert-provisional-credit-to-final-credit.md).
+[Review representment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/review-representment.md)
 
 **Parent Topic:**[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/initiate-a-chargeback.md)
 
