@@ -1,35 +1,35 @@
 ---
-title: Now Assist and Accessibility
-description: Now Assist, the generative AI capabilities from ServiceNow, helps users work more efficiently through conversational and proactive experiences. Its capabilities can also support accessibility by reducing cognitive load, offering alternative input methods, and simplifying complex tasks for a broad range of users.
+title: ServiceNow Otto and Accessibility
+description: ServiceNow Otto, the generative AI capabilities from ServiceNow, helps users work more efficiently through conversational and proactive experiences. Its capabilities can also support accessibility by reducing cognitive load, offering alternative input methods, and simplifying complex tasks for a broad range of users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/accessibility/now-assist-and-accessibility.html
 release: nofamily
 topic_type: concept
-last_updated: "2026-05-15"
+last_updated: "2026-09-18"
 reading_time_minutes: 3
-keywords: [Now Assist, accessibility, gen AI]
+keywords: [ServiceNow Otto, Now Assist, accessibility, gen AI]
 breadcrumb: [Product documentation for accessibility, Product accessibility]
 ---
 
-# Now Assist and Accessibility
+# ServiceNow Otto and Accessibility
 
-Now Assist, the generative AI capabilities from ServiceNow, helps users work more efficiently through conversational and proactive experiences. Its capabilities can also support accessibility by reducing cognitive load, offering alternative input methods, and simplifying complex tasks for a broad range of users.
+ServiceNow Otto, the generative AI capabilities from ServiceNow, helps users work more efficiently through conversational and proactive experiences. Its capabilities can also support accessibility by reducing cognitive load, offering alternative input methods, and simplifying complex tasks for a broad range of users.
 
-## How Now Assist Works
+## How ServiceNow Otto Works
 
-Built on domain‑specific large language models, Now Assist integrates directly into user experiences across IT Service Management, Customer Service Management, HR workflows, and creator tools. Users can access intelligent assistance without leaving the interface where their work takes place.
+ServiceNow Otto is the AI assistant for work built into the ServiceNow AI Platform. ServiceNow Otto combines generative AI, intelligent search, and workflow automation into a single experience, available through chat, voice, and mobile interfaces. Users can make requests or ask questions in plain language—without needing to know which system or application owns the task—and ServiceNow Otto handles the work end to end across departments and systems.
 
-Now Assist delivers its AI capabilities through modular **skills**—such as summarization, content generation, recommendations, and conversational assistance—embedded into platform experiences and applications.
+Under the hood, ServiceNow Otto understands the intent of a request, determines the appropriate action or workflow, and executes or routes the task on the user's behalf. Every interaction is logged and governed through AI Control Tower, giving organizations visibility and control over how AI acts within their environment.
 
-## Accessibility and Now Assist
+## Accessibility and ServiceNow Otto
 
-Many capabilities in Now Assist align with accessibility guidelines, helping reduce cognitive load, supporting multiple input preferences, and making complex tasks easier to complete. Standard platform features—such as Next Experience accessibility preferences, keyboard support, dark theme, and focus indicators—combine with AI‑powered assistance to improve usability for diverse needs.
+Many capabilities in ServiceNow Otto align with accessibility guidelines, helping reduce cognitive load, supporting multiple input preferences, and making complex tasks easier to complete. Standard platform features—such as Next Experience accessibility preferences, keyboard support, dark theme, and focus indicators—combine with AI‑powered assistance to improve usability for diverse needs.
 
-A key accessibility enhancement is the ability to interact with the Now Assist panel using voice input, enabling hands‑free prompts and navigation. Voice input supports users with mobility or dexterity limitations, blind or low‑vision users, neurodivergent users, and anyone who prefers speech‑driven interaction. Voice input can be enabled by system administrators and turned on in a user's personal Next Experience accessibility preferences. See the accessibility user preference document [Enable Voice input for Now Assist Panel](https://www.servicenow.com/docs/r/platform-user-interface/enable-voice-input-pref.html) for more information.
+A key accessibility enhancement is the ability to interact with the ServiceNow Otto panel using voice input, enabling hands‑free prompts and navigation. Voice input supports users with mobility or dexterity limitations, blind or low‑vision users, neurodivergent users, and anyone who prefers speech‑driven interaction. Voice input can be enabled by system administrators and turned on in a user's personal Next Experience accessibility preferences. See the accessibility user preference document [Enable Voice input for ServiceNow Otto Panel](https://www.servicenow.com/docs/r/platform-user-interface/enable-voice-input-pref.html) for more information.
 
-Another capability that supports cognitive accessibility is the Smart Documents skill, which can summarize content, generate questions and answers, and produce common questions and answers—helping readers understand materials quickly without parsing long or complex text. See the [Now Assist Smart Documents skill](https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/now-assist-skills-smart-documents.html) page for more information.
+Another capability that supports cognitive accessibility is the Smart Documents skill, which can summarize content, generate questions and answers, and produce common questions and answers—helping readers understand materials quickly without parsing long or complex text. See the [Smart Documents skill](https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skills/now-assist-skills-smart-documents.html) page for more information.
 
-The following table provides links to more resources and information about Now Assist.
+The following table provides links to more resources and information about ServiceNow Otto.
 
 <table id="table_wfx_frw_23c"><thead><tr><th>
 
@@ -41,44 +41,44 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Now Assist](https://www.servicenow.com/docs/r/intelligent-experiences/platform-now-assist-landing.html)
+[ServiceNow Otto](https://www.servicenow.com/docs/r/intelligent-experiences/platform-now-assist-landing.html)
 
 </td><td>
 
-Now Assist uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
+ServiceNow Otto uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
 
 </td></tr><tr><td>
 
-[Now Assist panel](https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-panel-overview.html)
+[ServiceNow Otto panel](https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-panel-overview.html)
 
 </td><td>
 
-With the Now Assist panel, you can get assistance from generative AI experiences to solve customer issues. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information.
+With the ServiceNow Otto panel, you can get assistance from generative AI experiences to solve customer issues. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information.
 
 </td></tr><tr><td>
 
-[Now Assist context menu](https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-write-overview.html)
+[ServiceNow Otto context menu](https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-write-overview.html)
 
 </td><td>
 
-The Now Assist context menu uses generative AI to help agents summarize, create, and edit written content.
+The ServiceNow Otto context menu uses generative AI to help agents summarize, create, and edit written content.
 
--   [Email recommendations using the Now Assist context menu](https://www.servicenow.com/docs/r/intelligent-experiences/email-recommendations-nacm.html)
--   [Summarize records with the Now Assist context menu](https://www.servicenow.com/docs/r/intelligent-experiences/summarize-with-now-assist-context-menu.html)
--   [Improve Docs content in Strategic Portfolio Management with Now Assist context menu](https://www.servicenow.com/docs/r/intelligent-experiences/answer-queries-with-now-assist-context-menu.html)
--   [Generate KB article with Now Assist context menu](https://www.servicenow.com/docs/r/intelligent-experiences/generate-kb-article-with.html)
--   [Now Assist context menu usage dashboard](https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-context-menu-dashboard.html)
--   [Use Now Assist context menu for custom skill deployment](https://www.servicenow.com/docs/r/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.html)
+-   [Email recommendations using the ServiceNow Otto context menu](https://www.servicenow.com/docs/r/intelligent-experiences/email-recommendations-nacm.html)
+-   [Summarize records with the ServiceNow Otto context menu](https://www.servicenow.com/docs/r/intelligent-experiences/summarize-with-now-assist-context-menu.html)
+-   [Improve Docs content in Strategic Portfolio Management with ServiceNow Otto context menu](https://www.servicenow.com/docs/r/intelligent-experiences/answer-queries-with-now-assist-context-menu.html)
+-   [Generate KB article with ServiceNow Otto context menu](https://www.servicenow.com/docs/r/intelligent-experiences/generate-kb-article-with.html)
+-   [ServiceNow Otto context menu usage dashboard](https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-context-menu-dashboard.html)
+-   [Use ServiceNow Otto context menu for custom skill deployment](https://www.servicenow.com/docs/r/intelligent-experiences/use-now-assist-context-menu-for-custom-skill-deployment.html)
 
 </td></tr><tr><td>
 
-[Voice Input for Now Assist](https://www.servicenow.com/docs/r/intelligent-experiences/enable-voice-input-for-now-assist-panel.html)
+[Voice Input for ServiceNow Otto](https://www.servicenow.com/docs/r/intelligent-experiences/enable-voice-input-for-now-assist-panel.html)
 
 </td><td>
 
-Give users the option to use their voice when interacting with the Now Assist panel to make the panel more accessible. Voice input enables you to use the panel without a keyboard.
+Give users the option to use their voice when interacting with the ServiceNow Otto panel to make the panel more accessible. Voice input enables you to use the panel without a keyboard.
 
- See also, [Enable Voice input for Now Assist Panel](https://www.servicenow.com/docs/r/platform-user-interface/enable-voice-input-pref.html), which describes the accessibility user preference.
+ See also, [Enable Voice input for ServiceNow Otto Panel](https://www.servicenow.com/docs/r/platform-user-interface/enable-voice-input-pref.html), which describes the accessibility user preference.
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Give users the option to use their voice when interacting with the Now Assist pa
 
 The Smart Documents skill provides a concise summary of the document associated with a workflow, along with interactive Q&amp;A and common questions and answers, enabling you to understand the content quickly, explore key insights, and get answers to specific questions.
 
- You can summarize a document in a workspace, ask interactive questions, and view common questions and answers. To learn how, see [Generate summary and ask questions using Now Assist in Document Management](https://www.servicenow.com/docs/access?context=ask-questions-faqs-now-assist&version=zurich).
+ You can summarize a document in a workspace, ask interactive questions, and view common questions and answers. To learn how, see [Generate summary and ask questions using ServiceNow Otto in Document Management](https://www.servicenow.com/docs/access?context=ask-questions-faqs-now-assist&version=zurich).
 
 </td></tr><tr><td>
 
