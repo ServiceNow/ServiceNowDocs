@@ -7,9 +7,9 @@ release: zurich
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Report critical events, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Report critival events, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # Self-report your status
@@ -24,15 +24,15 @@ Role required: sn\_critical.user
 
 1.  Open the email or SMS notification and respond.
 
-<table id="choicetable_iwx_5bh_ndc"><thead><tr><th align="left" id="d761049e57">
+<table id="choicetable_iwx_5bh_ndc"><thead><tr><th align="left" id="d749917e57">
 
 Notification
 
-</th><th align="left" id="d761049e60">
+</th><th align="left" id="d749917e60">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d761049e66">
+</th></tr></thead><tbody><tr><td id="d749917e66">
 
 **Email**
 
@@ -42,7 +42,7 @@ Steps
 2.  Select **Send**.
 
 
-</td></tr><tr><td id="d761049e90">
+</td></tr><tr><td id="d749917e90">
 
 **SMS**
 

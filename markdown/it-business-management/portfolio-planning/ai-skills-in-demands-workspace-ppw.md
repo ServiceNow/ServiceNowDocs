@@ -16,6 +16,14 @@ breadcrumb: [Explore, Next Experience for Demand Management in Portfolio Plannin
 
 ServiceNow Otto for Strategic Portfolio Management provides AI-powered skills for demand records that help you quickly understand demand details and refine records. These skills improve planning efficiency and support informed decision-making.
 
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+The following generative AI skills are available for demands and are turned on by default. The skill will be automatically available to appropriate role users for the application. To modify their configurations, turn them off, or reactivate them from **AI Admin Hub**, see [Configure the demand AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/configure-demand-ai-skills-ppw.md).
+
+-   Demand summarization
+-   Identify similar records
+-   Refine records
+
 ## Demand summarization
 
 The demand summarization skill reviews the fields and related lists of a demand record and helps generate a clear executive summary. Use this skill to quickly understand the key details of a demand without reviewing individual fields, comments, and work notes. You can trigger the skill by selecting the **Summarize** button in **AI Overview**.
@@ -43,8 +51,4 @@ For more information, see [Identify similar records using AI](https://raw.github
 The refine record skill improves demand quality by enabling AI-assisted text refinement directly within the text fields of demand records. You can elaborate on a brief description or shorten lengthy content without losing key information. This feature helps verify demands are clear, complete, and actionable from the start.
 
 The skill considers other fields in the demand form to generate contextually relevant content. It reduces rework caused by missing or unclear information and helps demand managers create well-structured records more efficiently.
-
-For more information, see [Improve data quality using the refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/improve-data-quality-using-the-refine-records-skill-ppw.md).
-
-\[Omitted image "demand-refine-records.png"\] Alt text: The shorten or elaborate options available in the Refine with AI menu.
 

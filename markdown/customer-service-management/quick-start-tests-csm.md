@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/quick-start-tests-csm.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 14
-breadcrumb: [Getting started with Customer Service Management, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Administer, Customer Service Management]
 ---
 
 # Quick start tests for Customer Service Management
@@ -45,8 +45,8 @@ All Customer Service Management quick start tests require activating the Custome
 -   Case Playbook for Onboarding \(sn\_onboarding\)
 -   Consumer Service Portal \(com.glide.service-portal.consumer-portal\)
 -   CSM Contributor User \(com.snc\_csm\_contributor\_user\)
--   Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
--   Customer Household Data Model \(com.snc.household\)
+-   CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
+-   Customer Service Household \(com.snc.household\)
 -   Customer Service Management for Orders \(com.snc.csm.order\)
 -   Customer Service Portal \(com.glide.service-portal.customer-portal\)
 -   Customer Service with Request Management \(com.sn\_cs\_sm\_request\)
@@ -475,7 +475,7 @@ CSM - Employee creating case OBO customer
 
 </td><td>
 
-As an employee with the proxy contact role \(sn\_customerservice\_proxy\_contact\), create a case from the self-service portal on behalf of a customer. **Note:** Requires the Customer Proxy Contacts.
+As an employee with the proxy contact role \(sn\_customerservice\_proxy\_contact\), create a case from the self-service portal on behalf of a customer. **Note:** Requires the CSM Extension for Proxy Contacts.
 
 </td><td>
 
@@ -621,7 +621,7 @@ CSM: Create Sold Product on Household
 
 </td><td>
 
-Create a sold product on a household and its member. **Note:** Requires Customer Service Install Base Management and Customer Household Data Model with **Load demo data** enabled.
+Create a sold product on a household and its member. **Note:** Requires Customer Service Install Base Management and Customer Service Household with **Load demo data** enabled.
 
 </td><td>
 
@@ -939,7 +939,7 @@ CSM - Create case from Portal as Consumer Contributor
 
 </td><td>
 
-Creates a customer case from the portal by a user with the consumer contributor user role \(sn\_customerservice.consumer\_contributor\).**Note:** Requires Business Location, Customer Household Data Model, and CSM Contributor User.
+Creates a customer case from the portal by a user with the consumer contributor user role \(sn\_customerservice.consumer\_contributor\).**Note:** Requires Business Location, Customer Service Household, and CSM Contributor User.
 
 </td><td>
 
@@ -951,7 +951,7 @@ CSM - Create case from Portal as Account Contributor
 
 </td><td>
 
-Creates a customer case from the portal by a user with the account contributor user role \(sn\_customerservice.account\_contributor\).**Note:** Requires Business Location, Customer Household Data Model, and CSM Contributor User.
+Creates a customer case from the portal by a user with the account contributor user role \(sn\_customerservice.account\_contributor\).**Note:** Requires Business Location, Customer Service Household, and CSM Contributor User.
 
 </td><td>
 
@@ -959,7 +959,7 @@ Rome
 
 </td></tr><tr><td>
 
-CSM - Add related parties on Case and perform action on case as Related party
+CSM - Add Related parties on Case and perform action on case as Related party
 
 </td><td>
 
@@ -968,18 +968,6 @@ Verify the ability to add related parties to the case and perform actions on the
 </td><td>
 
 Rome
-
-</td></tr><tr><td>
-
-CSM - Create product case as an account consumer from the CSM Portal
-
-</td><td>
-
-Create a product case as an account from the customer service portal.**Note:** Requires Customer Service Portal. Also requires that the test be run as admin.
-
-</td><td>
-
-Australia
 
 </td></tr></tbody>
 </table><table id="table_lss_wlb_4jb"><thead><tr><th>
@@ -996,7 +984,7 @@ Release version
 
 </th></tr></thead><tbody><tr><td>
 
-CSP - Create product case as consumer from CSP Portal
+CSP - Create Product Case as Consumer from CSP Portal
 
 </td><td>
 
@@ -1008,7 +996,7 @@ Madrid
 
 </td></tr><tr><td>
 
-CSP - Search on homepage
+CSP - Search on Homepage
 
 </td><td>
 
@@ -1020,7 +1008,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - Update support profile
+CSP - Update Support Profile
 
 </td><td>
 
@@ -1032,7 +1020,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - Register your product
+CSP - Register Your Product
 
 </td><td>
 
@@ -1056,7 +1044,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - Accept proposed solution on case
+CSP - Accept Proposed Solution On Case
 
 </td><td>
 
@@ -1068,7 +1056,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - Provide feedback on Survey
+CSP - Provide Feedback on Survey
 
 </td><td>
 
@@ -1080,7 +1068,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - View publications on CSP Portal
+CSP - View Publications on CSP Portal
 
 </td><td>
 
@@ -1092,23 +1080,11 @@ Orlando
 
 </td></tr><tr><td>
 
-CSP - Create product case as an internal unified consumer from CSP Portal
+CSP - Create Product Case as an internal unified consumer from CSP Portal
 
 </td><td>
 
-Verifies creating a product case as an internal unified consumer from the CSP portal. Requires the Customer Service and Consumer Service Portal plugins with the Customer Service Management \(CSM\) demo data plugin.
-
-</td><td>
-
-Yokohama
-
-</td></tr><tr><td>
-
-CSP - Create product case as an external unified consumer from CSP Portal
-
-</td><td>
-
-Verifies creating a product case as an external unified consumer from the CSP portal. Requires the Customer Service and Consumer Service Portal plugins with the Customer Service Management \(CSM\) demo data plugin.
+Verifies creating a product case as an internal unified consumer from the CSP portal using the Customer Service and Consumer Service Portal plugins with CSM demo data.
 
 </td><td>
 
@@ -1116,15 +1092,15 @@ Yokohama
 
 </td></tr><tr><td>
 
-CSP - Create household member as an account consumer from the CSM Portal
+CSP - Create Product Case as an external unified consumer from CSP Portal
 
 </td><td>
 
-Create a household member as an account from the customer service portal.**Note:** Requires Customer Service Portal. Also requires that the test be run as admin.
+Verifies creating a product case as an external unified consumer from the CSP portal using the Customer Service and Consumer Service Portal plugins with CSM demo data.
 
 </td><td>
 
-Australia
+Yokohama
 
 </td></tr></tbody>
 </table>|Test|Description|Release version|
@@ -1164,6 +1140,6 @@ Rome
 </td></tr></tbody>
 </table>|Test|Description|Release version|
 |----|-----------|---------------|
-|CSM PPM: Case creation from project workflow|As a customer service agent, create a case from a CSM project record in CRM Workspace.|Yokohama|
-|CSM PPM: Case creation from project task workflow|As a customer service agent, create a case from a CSM project task record in CRM Workspace.|Yokohama|
+|CSM PPM: Case creation from project workflow|As a customer service agent, create a case from a CSM project record in CSM Configurable Workspace.|Yokohama|
+|CSM PPM: Case creation from project task workflow|As a customer service agent, create a case from a CSM project task record in CSM Configurable Workspace.|Yokohama|
 

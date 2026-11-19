@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/r\_BypassTheProxyServer.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Web proxy, Basic system configuration, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Web proxy, Basic system configuration, Get started, Administer]
 ---
 
 # Bypass the proxy server

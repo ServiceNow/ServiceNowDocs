@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 7
-breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management]
 ---
 
 # Content lookup portal for Hardware Asset Management
@@ -153,28 +153,28 @@ Graphical representation of cumulative trend of hardware content released every 
 -   Hardware Models
 -   Hardware Lifecycles
 
-Select a speciﬁc point on the trend line to view a detailed list of the hardware content. On the list page, you can view the cumulative software content released for that particular content until the 1st of that month. For example, you selected the July 2025 trend point on the Hardware Products chart. The Hardware Products list table displays hardware products released until 1st July 2025.
+Select a speciﬁc point on the trend line to view a detailed list of the hardware content. On the list page, you can view the cumulative software content released for that particular content until the 1st of that month. For example, you selected the July 2025 trend point on the Hardware Products chart. The Hardware Products list table displays hardware products released till 1st July 2025.
 
 </td></tr></tbody>
 </table>## Hardware Manufacturers tab
 
-View a list of hardware manufacturers released in the Content Library. On the Hardware manufacturers list, only active manufacturers are displayed with a default filter condition applied. Select the manufacturer's name to view the manufacturer details.
+View a list of hardware manufacturers released in the Content Library. On the Hardware manufacturers list, only active manufacturers are displayed in this list with a default filter condition applied. Select the manufacturer's name to view the manufacturer details.
 
 ## Hardware Products tab
 
-View a list of hardware products released in the Content Library. On the Hardware products list, only active products are displayed with a default filter condition applied. Select the product's name to view the product details.
+View a list of hardware products released in the Content Library. On the Hardware products list, only active products are displayed in this list with a default filter condition applied. Select the product's name to view the product details.
 
 ## Hardware Models tab
 
 View a list of hardware models released in the Content Library. On the Hardware models list, only active models are displayed with a default filter condition applied. Select the Model number to view the model details.
 
-On the Hardware Model form, the **Copy model details** option enables you to copy the details of a model and add a model entry to the Product Model \[cmdb\_model\] table. For more information about copying model details, see [Copy a hardware model from the Content lookup portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/copy-hardware-model.md).
+On the Hardware Model form, the **Copy model details** option enables you to copy the details of a model and add a new model entry to the Product Model \[cmdb\_model\] table. For more information about copying model details, see [Copy a hardware model from the Content lookup portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/copy-hardware-model.md).
+
+**Important:** Copy a hardware model record from the Content lookup portal feature is available with Hardware Asset Management version 15.0.0 onwards.
 
 ## Hardware Lifecycles tab
 
-View a list of life cycle records of hardware models released in the Content Library. On the Hardware lifecycles list, only active lifecycles are displayed with a default filter condition applied. Select the Product model to view the hardware product lifecycle details.
-
-**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/using-ham-workspace.md)
+View a list of life cycle records of hardware models released in the Content Library. On the Hardware lifecycles list, only active lifecycles are displayed in this list with a default filter condition applied. Select the Product model to view the hardware product lifecycle details.
 
 ## Install Content lookup to view Hardware Asset Management data
 
@@ -199,7 +199,7 @@ If you have installed the Software Asset Management Professional \(com.sn\_samp\
 
     You can search for the application by its name or ID. If you can’t find the application, request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-offer-recommendation.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Configuring product offering recommendations, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Product offering recommendations, Product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a product offering recommendation
@@ -22,7 +22,7 @@ Role required: Role required: sn\_prd\_pm.product-catalog\_manager, sn\_prd\_pm.
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Recommendations** &gt; **Product Offering Recommendations** and select **New**.
 
@@ -76,7 +76,7 @@ Order
 
 </td><td>
 
-Number that determines the sequence in which the recommendation is displayed in the contextual side panel of theCRM Workspace.
+Number that determines the sequence in which the recommendation is displayed in the contextual side panel of theCSM Configurable Workspace.
 
 </td></tr><tr><td>
 
@@ -91,11 +91,4 @@ Brief description of the offering recommendation.
 
     The product recommendation card for the product is displayed to your agents when they're updating a quote that has the source product offering for this recommendation. For more information on how sales agents use product offering recommendations, see [Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-get-product-offer.md).
 
-
-**Related topics**  
-
-
-[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-product-catalog.md)
-
-[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/product-catalog-managment.md)
 

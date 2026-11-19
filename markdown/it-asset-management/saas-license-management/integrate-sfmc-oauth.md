@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 33
-breadcrumb: [Integrating with Salesforce Marketing Cloud, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrating with Salesforce Marketing Cloud, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrate Salesforce Marketing Cloud using OAuth 2.0
@@ -872,7 +872,7 @@ To create a Salesforce Marketing Cloud integration profile, request the Software
 
 **Tip:** To avoid incurring additional subscription costs, install the plugin and build the integration on a non-production instance.
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: sam\_integrator or admin
 
 Salesforce Marketing Cloud Role required: sn\_sforce\_mc\_spoke.Salesforce Marketing Cloud Admin
 
@@ -886,15 +886,15 @@ If you’re using Software Asset Workspace, the option to create the Salesforce 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d331314e2973">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d315985e2973">
 
 Interface
 
-</th><th align="left" id="d331314e2976">
+</th><th align="left" id="d315985e2976">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d331314e2982">
+</th></tr></thead><tbody><tr><td id="d315985e2982">
 
 **Core UI**
 
@@ -905,7 +905,7 @@ Action
 3.  Select **Salesforce Marketing Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d331314e3024">
+</td></tr><tr><td id="d315985e3024">
 
 **Software Asset Workspace**
 
@@ -1026,7 +1026,7 @@ Type of integration profile. This value is automatically set to **Salesforce Mar
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
 
 -   Software Models
 -   Unrecognized Subscription Identifiers
@@ -1061,7 +1061,7 @@ Create an integration profile for each additional Salesforce Marketing Cloud tha
 
 To create a Salesforce Marketing Cloud integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/)
 
-Role required: sam\_integrator
+Role required: sam\_integrator or admin
 
 Salesforce Marketing Cloud Role required: sn\_sforce\_mc\_spoke.Salesforce Marketing Cloud Admin
 
@@ -1075,15 +1075,15 @@ If you’re using Software Asset Workspace, the option to create the Salesforce 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d331314e3864">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d315985e3864">
 
 Interface
 
-</th><th align="left" id="d331314e3867">
+</th><th align="left" id="d315985e3867">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d331314e3873">
+</th></tr></thead><tbody><tr><td id="d315985e3873">
 
 **Core UI**
 
@@ -1094,7 +1094,7 @@ Action
 3.  Select **Salesforce Marketing Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d331314e3915">
+</td></tr><tr><td id="d315985e3915">
 
 **Software Asset Workspace**
 
@@ -1231,7 +1231,7 @@ Type of integration profile. This value is automatically set to **Salesforce Mar
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
 
 -   Software Models
 -   Unrecognized Subscription Identifiers

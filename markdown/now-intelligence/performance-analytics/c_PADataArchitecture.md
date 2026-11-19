@@ -7,7 +7,7 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -20,7 +20,7 @@ The topics in this section are meant primarily for Performance Analytics adminis
 
 -   **[Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md)**  
 Without a paid Performance Analytics subscription, your use is limited to 180 days of data collection \(five months for monthly indicators\) and to specific indicators provided by ServiceNow, and you cannot activate Data snapshots. For unlimited access to all features, purchase a subscription to Performance Analytics.
--   **[\(Legacy\) Performance Analytics Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/pa-admin-console.md)**  
+-   **[Performance Analytics Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/pa-admin-console.md)**  
 From a single console, administrators can manage Platform Analytics Solution content, manage Performance Analytics widgets and dashboards, diagnose and resolve errors, view usage analytics, modify configuration settings and access ServiceNow help.
 -   **[Collecting indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_ClctData.md)**  
 Performance Analytics uses data collection jobs to collect and clean scores and snapshots. You can also set indicator scores manually.

@@ -221,23 +221,6 @@ Project Program
 
 Plan, prioritize, and roadmap the work in your programs.
 
-</td></tr><tr><td>
-
-Planning item
-
-</td><td>
-
-Planning items
-
-</td><td>
-
--   Portfolio manager
--   Program manager
-
-</td><td>
-
-Plan, prioritize, and roadmap the work directly with planning items, without configuring organization structure, programs, portfolios, or products.
-
 </td></tr></tbody>
 </table>-   If you're an admin, you can modify the structure for these pre-defined lenses or configure a new lens altogether based on your planning manager's requirements. For more information, see [Lens configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/configuring-lens-in-alignment-planner-workspace.md).
 -   If you're a planning manager, learn about portfolio plans to start aligning your work with the business strategy. See [Portfolio plans in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/scenario-planning-in-spw/portfolio-plans-in-strategic-planning.md).

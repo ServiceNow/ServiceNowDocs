@@ -7,9 +7,8 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [secure file attachments, upload attachments, case attachments]
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -67,8 +66,6 @@ Role required: sn\_sec\_tisc\_secure\_file\_access, sn\_sec\_tisc.admin
 
 [Creating cases using Threat Analyst Workbench]()
 
-[Summarize a Case using generative AI]()
-
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
@@ -76,8 +73,6 @@ Role required: sn\_sec\_tisc\_secure\_file\_access, sn\_sec\_tisc.admin
 [Add artifacts to cases or case tasks]()
 
 [Run Enrichment Actions within a case]()
-
-[Generate a Case Report using generative AI]()
 
 [Generate a Case Report using a template]()
 

@@ -1,26 +1,25 @@
 ---
 title: Sign and verify an ACC plugin
-description: Sign an Agent Client Collector \(ACC\) plugin with a self-signed certificate and verify the signature so that endpoint devices can validate the plugin.
+description: Create a self-signed certificate for an Agent Client Collector \(ACC\) plugin and verify the signature to enable validation of the signed plugin on endpoint devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/sign-verify-plugin.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-03-09"
 reading_time_minutes: 2
-keywords: [sign acc plugin, verify plugin signature, self signed certificate, openssl, plugin validation, sign and verify plugin]
-breadcrumb: [Creating a PowerShell remedial action, Creating DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Creating and executing a PowerShell script-based remedial action, DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Sign and verify an ACC plugin
 
-Sign an Agent Client Collector \(ACC\) plugin with a self-signed certificate and verify the signature so that endpoint devices can validate the plugin.
+Create a self-signed certificate for an Agent Client Collector \(ACC\) plugin and verify the signature to enable validation of the signed plugin on endpoint devices.
 
 ## Before you begin
 
--   The ACC plugin `tar.gz` file must be created on your local computer.
--   OpenSSL must be installed on your local computer.
+-   Create the ACC plugin `tar.gz` file on your local computer.
+-   Make sure that OpenSSL is installed on your local computer.
 
 Role required: admin
 
@@ -104,4 +103,6 @@ Role required: admin
 
     For more information, see [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/create-edit-assets.md).
 
+
+**Parent Topic:**[Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/remedial-actions-ps.md)
 

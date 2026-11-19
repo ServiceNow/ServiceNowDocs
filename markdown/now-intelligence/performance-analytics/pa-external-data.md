@@ -7,8 +7,8 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 13
+last_updated: "2025-07-31"
+reading_time_minutes: 12
 breadcrumb: [Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
@@ -23,8 +23,6 @@ Performance Analytics external data collection uses three types of configuration
 -   An external indicator which specifies the JDBC data source and SQL statement used to collect scores.
 -   An external breakdown which specifies the JDBC data source and SQL statement used to specify breakdown elements.
 -   An external indicator breakdown which defines the relationship between an external indicator, and breakdown, and the SQL statement used to collect scores for each breakdown element for that indicator.
-
-**Important:** These topics do not apply to external data accessed through Workflow Data Fabric tables. You can create an indicator or breakdown source for a Workflow Data Fabric table normally.
 
 **Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 
@@ -227,12 +225,8 @@ When selected, the Analytics Hub and KPI Details can show the score of this indi
     -   KPI Details can show the score of this indicator in real time.
     \[Omitted image "auto-ind-other-tab.png"\] Alt text: The Other tab on an indicator with settings previously listed
 
-10. In the **Forecasting** tab, set the following fields:
+10. In the **Forecasting** tab, set the forecast method, the number of data collection periods to forecast, the amount of historical data to base the forecast on, and the upper and lower limits of forecast values.
 
-    -   Forecast method
-    -   The number of data collection periods to forecast
-    -   The amount of historical data to base the forecast on
-    -   The upper and lower limits of forecast values
     For more information, see [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_ForecastingData.md).
 
 11. Save the indicator.

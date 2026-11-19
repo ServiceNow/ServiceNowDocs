@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-18"
 reading_time_minutes: 6
 keywords: [AI Agent, Service Mapping, agentic AI, service map, CMDB, ML candidate]
-breadcrumb: [AI in Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [AI in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # AI Agents for Service Mapping
@@ -107,6 +107,11 @@ To raise the quota and reactivate the agents, first configure the following prop
 You can change the value based on your available AI resources. After raising the quota, reactivate the Service Mapping AI Agents in the Service Mapping workspace.
 
 **Note:** Raising the quota results in a higher AI resource consumption.
+
+-   **[Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/activate-sm-ai-agents.md)**  
+Activate the Service Mapping AI Agent from the Service Mapping home page to start automated service map creation.
+-   **[Service Mapping AI Agent activity list tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-ai-agent-activity-columns.md)**  
+Use this reference to interpret the tables in the Service Mapping AI Agent activity list.
 
 **Parent Topic:**[AI in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/ai-workflows-service-mapping.md)
 

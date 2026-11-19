@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 7
-breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2026-07-24"
+reading_time_minutes: 6
+breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Search Application Configuration form
@@ -166,7 +166,7 @@ Option to filter Genius Result searches based on the selected source facet bucke
 
 As an example, suppose you select the Knowledge source facet bucket in a search application that has this option selected. With that Knowledge source selection applied, Q&amp;A Genius Results, which include information from the Knowledge source, can still find search results and generate Genius Result answers. But Catalog Item Genius Results, which include information from the Catalog Item source which isn't selected, can't find search results and so can't generate Genius Result answers.
 
-**Note:** The Summary Genius Results configuration \(from the ServiceNow Otto for AI Search ServiceNow Store application\) includes information from multiple sources, so it can generate Genius Result answers no matter which source is selected. To learn more about Summary Genius Results, see [Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md).
+**Note:** The Summary Genius Results configuration \(from the ServiceNow Otto for AI Search ServiceNow Store application\) includes information from multiple sources, so it can generate Genius Result answers no matter which source is selected. To learn more about Summary Genius Results, see [ServiceNow Otto Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md).
 
 </td></tr><tr><td>
 
@@ -174,7 +174,7 @@ Show Search Results Count
 
 </td><td>
 
-Option to display search result counts for facets on the search application's results page. For more details on this option, see [Show search result counts for facets on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/display-result-counts-ais.md).
+Option to display search result counts for facets on the search application's results page. For more details on this option, see .
 
  Type: true \| false
 

@@ -1,18 +1,18 @@
 ---
 title: Filter activities in the activity stream
-description: Use tags to filter the items that appear in the activity stream in CRM Workspace.
+description: Use tags to filter the items that appear in the activity stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-csm-ws-activity-stream-tags.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Filter activities in the activity stream
 
-Use tags to filter the items that appear in the activity stream in CRM Workspace.
+Use tags to filter the items that appear in the activity stream.
 
 Tags enable you to filter your activities in the activity stream by dynamic and static states not offered in filter lists. For example, these states can include Workaround or Status checked.
 

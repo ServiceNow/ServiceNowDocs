@@ -7,9 +7,9 @@ release: zurich
 product: Appointment Booking
 classification: appointment-booking
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Managing appointments in the CSM Configurable Workspace, Managing appointments on behalf of a customer, Managing appointments, Use, Field Service Management]
+breadcrumb: [Managing appointments in the CSM Configurable Workspace, Managing appointments on behalf of a customer, Appointment booking, Use, Field Service Management]
 ---
 
 # Book work order appointment in the CSM Configurable Workspace
@@ -45,5 +45,5 @@ Setup the **Field Service Order Configuration** to book an appointment for work 
 
 [Reschedule work order appointment in the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/appointment-booking/Reschedule-workorder-appointment-workspace.md)
 
-[Cancel work order appointment in CSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/appointment-booking/Cancel-workorder-appointment-workspace.md)
+[Cancel work order appointment in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/appointment-booking/Cancel-workorder-appointment-workspace.md)
 

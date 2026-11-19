@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-install-tpm.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Technology Portfolio Management, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Configure Technology Lifecycle Management, Configure EA Workspace using the Setup page, Configure, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Activate the Technology Lifecycle Management \(TLM\) plugin
@@ -43,14 +43,12 @@ Role required: admin
 5.  Select **Install**.
 
 
-**Parent Topic:**[Configure Technology Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-config-tech-portfolio-mgmt.md)
+-   **[Tables installed with TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tables-installed-with-tpm.md)**  
+Several types of tables are installed with Technology Lifecycle Management.
+-   **[Business rules for TLM in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm-business-rules.md)**  
+Business rules for Technology Lifecycle Management support technology lifecycle management in EA Workspace.
+-   **[Scheduled jobs for TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm-scheduled-jobs.md)**  
+Scheduled jobs for Technology Lifecycle Management populate technology life cycle data, technical debt records, and risk data in the EA Workspace.
 
-**Related topics**  
-
-
-[Tables installed with TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tables-installed-with-tpm.md)
-
-[Business rules for TLM in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm-business-rules.md)
-
-[Scheduled jobs for TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm-scheduled-jobs.md)
+**Parent Topic:**[Configure Technology Lifecycle Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-config-tech-portfolio-mgmt.md)
 

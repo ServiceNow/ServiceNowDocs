@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ac-create-ai-case.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-16"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [AI cases, Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [AI cases, Managing tasks and approvals, Address action items, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Create an AI case
@@ -25,7 +25,7 @@ An AI case documents an incident that needs investigation, such as a suspected s
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Activity Center** &gt; **Work** &gt; **Assigned to you**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Activity Center** &gt; **Work** &gt; **Assigned to you**.
 
 2.  Select the **Cases** sub-tab.
 

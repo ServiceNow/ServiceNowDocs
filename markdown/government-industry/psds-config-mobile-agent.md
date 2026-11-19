@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-config-mobile-agent.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-01-14"
 reading_time_minutes: 3
 breadcrumb: [Agent tools, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -122,7 +122,7 @@ Role required: admin
 
 3.  If prompted, switch from the Global application to the Customer Service Mobile application.
 
-4.  Select the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon.\) under Required Roles and add the following roles:
+4.  Select the edit icon \(\[Omitted image "icon-edit-pencil.png"\] Alt text: Edit icon.\) under Required Roles and add the following roles:
 
     -   sn\_gsm.agency\_manager
     -   sn\_gsm.government\_service\_manager

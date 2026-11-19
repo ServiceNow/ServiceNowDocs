@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/sn-otto-for-psds.html
 release: zurich
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-09-18"
 reading_time_minutes: 3
 keywords: [ai-now-assist]
 breadcrumb: [Public Sector Digital Services \(PSDS\)]

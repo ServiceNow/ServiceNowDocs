@@ -7,7 +7,7 @@ release: zurich
 product: Emergency Exposure Management
 classification: emergency-exposure-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Tracing systems in Emergency Exposure Management, Set up Emergency Exposure Management, Emergency Exposure Management, Emergency Response Management, Workplace Service Delivery, Employee Service Management]
 ---

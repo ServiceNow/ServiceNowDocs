@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/config-offline-property-function-instance.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Supported functions, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Offline mode, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configure offline mode properties for function instances
@@ -16,11 +16,7 @@ Determine if the function instance available to users in online mode is also ava
 
 ## Before you begin
 
-Role required: mobile-admin, admin
-
-## About this task
-
-Function instances define the location of the function within the screen. For example: the footer area, top menu, or on a specific field. Define whether a function instance is available in offline mode. By default, all button instances are available offline, but you can disable specific ones if needed.
+Role required: admin
 
 ## Procedure
 
@@ -34,15 +30,15 @@ Function instances define the location of the function within the screen. For ex
 
 3.  Select one of the following methods to access a function instance.
 
-<table><thead><tr><th align="left" id="d84309e98">
+<table><thead><tr><th align="left" id="d80932e92">
 
 Method
 
-</th><th align="left" id="d84309e101">
+</th><th align="left" id="d80932e95">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d84309e107">
+</th></tr></thead><tbody><tr><td id="d80932e101">
 
 **From an existing screen**
 
@@ -54,7 +50,7 @@ Procedure
 
 **Note:** The default value of the **Disable Offline** field is turned off.
 
-</td></tr><tr><td id="d84309e136">
+</td></tr><tr><td id="d80932e134">
 
 **From the function instance table**
 
@@ -70,5 +66,5 @@ Procedure
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Supported functions for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/functions-offline.md)
+**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-offline-mode.md)
 

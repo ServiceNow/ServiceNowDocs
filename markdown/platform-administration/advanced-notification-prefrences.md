@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/advanced-notification-prefrences.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Notification Preferences, Notifications, Configure core features, Administer]
 ---
 
 # System and custom notification and delivery channel preferences in Next Experience

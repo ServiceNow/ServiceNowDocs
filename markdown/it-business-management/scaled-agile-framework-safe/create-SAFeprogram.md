@@ -7,7 +7,7 @@ release: zurich
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [SAFe entities, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -24,15 +24,15 @@ Role required: safe\_admin
 
 1.  Create an agile release train using either of the following options.
 
-<table id="choicetable_u3p_dtb_kfb"><thead><tr><th align="left" id="d71103e63">
+<table id="choicetable_u3p_dtb_kfb"><thead><tr><th align="left" id="d68418e56">
 
 Option
 
-</th><th align="left" id="d71103e66">
+</th><th align="left" id="d68418e59">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d71103e72">
+</th></tr></thead><tbody><tr><td id="d68418e65">
 
 **From the Agile Release Train module**
 
@@ -42,7 +42,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d71103e102">
+</td></tr><tr><td id="d68418e95">
 
 **From the Portfolio form**
 

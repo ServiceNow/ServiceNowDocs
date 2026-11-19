@@ -1,28 +1,28 @@
 ---
 title: DEX alert grouping
-description: When several alerts are triggered from events governed by the same metric rule in DEX, the alert grouping mechanism automatically consolidates them. This mechanism reduces the need for users to manage individual alerts, streamlines the response process, and enables faster issue resolution.
+description: When several alerts are triggered from events governed by the same metric rule in Digital End-User Experience \(DEX\), the alert grouping mechanism automatically consolidates them. This mechanism reduces the need to manage individual alerts, streamline their response process, and enable faster issue resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/alert-grouping.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [DEX alerts, Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [DEX Alerts, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # DEX alert grouping
 
-When several alerts are triggered from events governed by the same metric rule in DEX, the alert grouping mechanism automatically consolidates them. This mechanism reduces the need for users to manage individual alerts, streamlines the response process, and enables faster issue resolution.
+When several alerts are triggered from events governed by the same metric rule in Digital End-User Experience \(DEX\), the alert grouping mechanism automatically consolidates them. This mechanism reduces the need to manage individual alerts, streamline their response process, and enable faster issue resolution.
 
 When alerts are grouped, you see the total count of secondary alerts grouped next to the primary alert number.
 
 ## DEX events and alerts representation
 
-In the Events \[em\_event\] table, any event with the **Source** field value as DEX is classified as a DEX event. For DEX, the **Type** field displays **DEX Metric Rules** because DEX alerts are generated based on DEX metric rules. When the **State** of an event is **Processed**, an alert is generated and saved in the Alerts \[em\_alert\] table.
+In the Events table \[em\_event\], any event with the **Source** field value as DEX is classified as a DEX event. For DEX, the **Type** field displays **DEX Metric Rules** as DEX alerts are generated based on DEX metric rules. When for any event, the **State** of the event is **Processed**, an alert is generated and saved in the Alerts table \[em\_alert\].
 
-In the Alerts table, select any alert to access its details. An alert that is created from a DEX event displays the **Source** field value as DEX. The **Metric name** field value appears as either DEX App Metric or DEX Device Metric. For an alert, the **Metric name** field value is DEX Device Metric. The **Configuration item** field shows the name of the corresponding application or device. Alerts whose **Group** field shows **Rules-based** are DEX alert groups.
+In the Alerts table \[em\_alert\], select any alert to access its details. An alert that is created from a DEX event, displays the **Source** field value as DEX. The **Metric name** field value appears as either DEX App Metric or DEX Device Metric. For an alert, the **Metric name** field value is DEX Device Metric. The **Configuration item** field shows the name of the corresponding application or device. For the alert whose corresponding **Group** field shows **Rules-based**, are the DEX alert groups.
 
 ## Rule for alert correlation
 
@@ -34,11 +34,11 @@ In **All** &gt; **Event Management** &gt; **Rules** &gt; **Alert Correlation Rul
 
 Time-based alert grouping automatically groups alerts according to predefined time intervals, which is advantageous for services generating numerous alerts. Consolidated alerts result in fewer disruptions for responders and contribute to shorter resolution times.
 
-In the System Property \[sys\_properties\] table, the property **sn\_dex.alert.correlation\_rule.device.period** defines the time period in seconds for grouping and correlating similar metric rule-based DEX alerts. In the **Value** field, you can enter the desired time duration in seconds. For example, to set a 5-minute gap between alert groupings, enter `300`. Entering `0` turns off the rule.
+In the System Properties table \[sys\_properties\], the property **sn\_dex.alert.correlation\_rule.device.period** defines the time period in seconds for grouping and correlating similar metric rule-based DEX alerts. In the **Value** field, you can enter the desired time duration in seconds. For example, to set a 5-minute gap between alert groupings, enter 300. Entering 0 disables the rule.
 
-For example, alert A1 is generated for rule R1 from device D1. After two minutes, alerts A2 and A3 are generated for the same rule R1, but from devices D2 and D3 respectively. Because A1 is the first alert, it's designated as the primary alert, and A2 and A3 are grouped as secondary alerts under A1.
+Let's consider an example: Alert A1 is generated for rule R1 from device D1. After two minutes, alerts A2 and A3 are generated for the same rule R1, but from devices D2 and D3 respectively. With A1 being the first alert, it's designated as the primary alert, and A2 and A3 are grouped as secondary alerts under A1.
 
-Suppose you set the time duration to 300 seconds \(5 minutes\). If rule R1 generates no alerts within five minutes and alerts A4, A5, and A6 are then generated for the same rule, a new group is formed. Alert A4 is set as the primary alert, and A5 and A6 are grouped under A4.
+Now, suppose you have set the time duration to 300 seconds \(5 minutes\). If no alerts for rule R1 are generated within five minutes, and then after this period, alerts A4, A5, and A6 are generated for the same rule, a new group is formed. Alert A4 becomes the primary alert, and A5 and A6 are grouped under A4.
 
-However, if any alert is generated for rule R1 within five minutes, it's considered a secondary alert to A1 and grouped accordingly.
+However, if any alert is generated for rule R1 within five minutes, it's considered as a secondary alert to A1 and grouped accordingly.
 

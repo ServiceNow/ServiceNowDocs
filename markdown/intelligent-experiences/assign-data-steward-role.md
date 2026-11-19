@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/assign-data-steward-role.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Assign, data steward, Now Assist, Generative AI, Gen AI, User Administration, sn\_generative\_ai.data\_steward]
-breadcrumb: [Data sharing and processes, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Data sharing and processes, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Assign the data steward role

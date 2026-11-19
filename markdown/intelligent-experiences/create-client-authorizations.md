@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/create-client-authorizations.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-23"
 reading_time_minutes: 1
 keywords: [client authorization]
-breadcrumb: [Create an OAuth inbound integration for an MCP client, Connect, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [Create an OAuth inbound integration for an MCP client, Connect, MCP Server Console, Enable AI experiences]
 ---
 
 # Create client authorizations

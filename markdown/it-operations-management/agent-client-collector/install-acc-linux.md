@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [ACC installation on a Linux OS system, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC installation on a Linux system, ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
 # Install Agent Client Collector on a Linux system
@@ -32,7 +32,7 @@ Install Agent Client Collector using a package distribution tool.
     5.  Copy the value in the **Endpoint URL** field.
 -   Retrieve the MID Server API key specified in the agent's **api-key** parameter.
     1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Deployment** &gt; **MID Web Server API Key**.
-    2.  Select the API key to use.
+    2.  Select the API key you want to use.
     3.  In the **Related Links** section, select **View API key**.
     4.  Copy the API key value and close the pop-up window.
 

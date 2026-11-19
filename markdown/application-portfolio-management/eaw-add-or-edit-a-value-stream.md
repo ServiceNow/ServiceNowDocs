@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-add-or-edit-a-value-stream.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Manage value streams, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Manage with value streams, Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Add or edit a value stream
@@ -39,14 +39,14 @@ Role required: sn\_apm.apm\_user
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manage value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-value-streams.md)
+**Parent Topic:**[Manage with value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-manage-value-streams.md)
 
 **Related topics**  
 
 
-[Add value stream stages to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-vs-stages-to-a-vs.md)
+[Associate a business process with a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-assoc-bp-with-vs-stage.md)
 
-[Associate an application model to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-an-application-model-to-a-value-stream.md)
+[Add an application model to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-an-application-model-to-a-value-stream.md)
 
 [View value streams details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-all-value-streams.md)
 

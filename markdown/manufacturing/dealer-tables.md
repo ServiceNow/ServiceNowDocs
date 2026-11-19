@@ -1,34 +1,34 @@
 ---
 title: Dealer tables
-description: The dealer tables in Manufacturing Commercial Operations store dealer, service organization, and channel partner records.
+description: This section explains the dealer tables in Manufacturing Commercial Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/dealer-tables.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Dealer data model, Data model, Reference, Manufacturing Commercial Operations]
 ---
 
 # Dealer tables
 
-The dealer tables in Manufacturing Commercial Operations store dealer, service organization, and channel partner records.
+This section explains the dealer tables in Manufacturing Commercial Operations.
 
-## Dealer feature
+## Dealer plugin
 
 The dealer \[sn\_dealer\_mgmt\] feature adds or modifies the existing tables:
 
 -   Service Organization \[sn\_customer\_service\_organization\]
 -   Business Location \[sn\_csm\_business\_location\]
 -   Internal Business Location \[sn\_csm\_business\_location\_internal\]
--   External Business Location \[sn\_csm\_business\_location\_external\]
--   Service Organization member \[sn\_csm\_service\_organization\_member\]
--   Service Organization External Staff \[sn\_csm\_svc\_org\_member\_responsibility\]
+-   External Business Location \[sn\_cms\_business\_location\_external\]
+-   Service Organization member \[sn\_cms\_service\_organization\_member\]
+-   Service Organization External Staff \[sn\_cms\_svc\_org\_member\_responsibility\]
 -   Channel Partner \[sn\_prm\_channel\_partner\]
 -   Service Organization External Staff \[sn\_csm\_service\_organization\_external\_staff\]
 -   User \[sys\_user\]
 
-The dealer feature adds the following tables.
+The dealer plugin adds the following tables.
 
 <table id="table_ht5_lmw_t2c"><thead><tr><th>
 

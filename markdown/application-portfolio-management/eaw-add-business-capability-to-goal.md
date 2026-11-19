@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-add-business-capability-to-goal.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-03"
 reading_time_minutes: 1
 keywords: [business capability, goal, enterprise architecture]
-breadcrumb: [Manage goals, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Manage goals, Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Add a business capability to a goal

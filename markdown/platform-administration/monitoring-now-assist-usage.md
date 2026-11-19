@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/monitoring-now-assist-usage.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-21"
 reading_time_minutes: 3
-breadcrumb: [Viewing account-level entitlements, Explore, Subscription Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Viewing account-level entitlements, Explore, Subscription Management, Get started, Administer]
 ---
 
 # Monitoring Now Assist usage in Subscription Management

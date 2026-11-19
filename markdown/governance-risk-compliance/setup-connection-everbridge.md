@@ -1,16 +1,16 @@
 ---
-title: Create connection and authenticate with Everbridge
+title: Authenticate with an Everbridge instance
 description: As a first step, establish a connection and authenticate your login credentials with an Everbridge instance to send out a notification using a delivery channel. This connection not only helps you to send but also receive communications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/setup-connection-everbridge.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Setup steps for emergency notification, Integrating Crisis Management with Everbridge, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Create connection and authenticate with Everbridge
+# Authenticate with an Everbridge instance
 
 As a first step, establish a connection and authenticate your login credentials with an Everbridge instance to send out a notification using a delivery channel. This connection not only helps you to send but also receive communications.
 

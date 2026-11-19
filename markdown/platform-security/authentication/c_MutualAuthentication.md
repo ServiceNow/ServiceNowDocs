@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Web service security, Authentication, Access Management]
 ---
@@ -79,6 +79,8 @@ Now that the key store has been created, it can be uploaded to the Certificates 
 -   Provide a **Key store password**. This is the password that was used to create the keystore.
 
 Click **Submit** to create the Java Key Store entry.
+
+\[Omitted image "Keystore.png"\] Alt text:
 
 ## Specifying a Trusted Server Certificate
 

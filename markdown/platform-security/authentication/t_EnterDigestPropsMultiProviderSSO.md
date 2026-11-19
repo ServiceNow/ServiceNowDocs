@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Digest token authentication, Token based authentication \(user logins\), Authentication, Access Management]
+breadcrumb: [Digest token authentication, Token based authentication \(User logins\), Authentication, Access Management]
 ---
 
 # Configure the digest properties for multi-provider single sign-on \(SSO\)
@@ -18,7 +18,7 @@ After enabling a digest installation exist script, configure properties for mult
 
 ## Before you begin
 
-Role required: adaptive\_auth\_admin, user\_admin, sso\_config\_admin
+Role required: admin
 
 ## About this task
 
@@ -30,7 +30,7 @@ If you are not using multi-provider single sign-on, configure standard single si
 
 2.  Fill in the fields of Digest Properties form.
 
-<table id="choicetable_sf3_clr_xkb"><tbody><tr><td id="d49328e81">
+<table id="choicetable_sf3_clr_xkb"><tbody><tr><td id="d46453e78">
 
 **__Name__**
 
@@ -38,7 +38,7 @@ If you are not using multi-provider single sign-on, configure standard single si
 
 Enter the name of the digest token.
 
-</td></tr><tr><td id="d49328e93">
+</td></tr><tr><td id="d46453e90">
 
 **__User__**
 
@@ -46,7 +46,7 @@ Enter the name of the digest token.
 
 Enter the sys\_user field that contains the matching data for the incoming header.
 
-</td></tr><tr><td id="d49328e105">
+</td></tr><tr><td id="d46453e102">
 
 **__HTTP Digest header name__**
 
@@ -54,7 +54,7 @@ Enter the sys\_user field that contains the matching data for the incoming heade
 
 Enter the HTTP header you generated. For example, `DE_USER`.
 
-</td></tr><tr><td id="d49328e120">
+</td></tr><tr><td id="d46453e117">
 
 **__HTTP header name__**
 
@@ -62,7 +62,7 @@ Enter the HTTP header you generated. For example, `DE_USER`.
 
 Enter the HTTP header you generated for your created digested token. For example, `SM_USER`.
 
-</td></tr><tr><td id="d49328e135">
+</td></tr><tr><td id="d46453e132">
 
 **__Secret Passphrase__**
 
@@ -70,7 +70,7 @@ Enter the HTTP header you generated for your created digested token. For example
 
 Enter the secret key to use for encoding digest keys. For example, `32 or more characters`.
 
-</td></tr><tr><td id="d49328e151">
+</td></tr><tr><td id="d46453e148">
 
 **__Failed SSO Redirect field__**
 
@@ -78,7 +78,7 @@ Enter the secret key to use for encoding digest keys. For example, `32 or more c
 
 Enter the URL to redirect users after a failed authentication.
 
-</td></tr><tr><td id="d49328e163">
+</td></tr><tr><td id="d46453e160">
 
 **__External logout redirect__**
 
@@ -86,7 +86,7 @@ Enter the URL to redirect users after a failed authentication.
 
 Enter the URL to redirect users after a logout.
 
-</td></tr><tr><td id="d49328e175">
+</td></tr><tr><td id="d46453e172">
 
 **__Single Sign-on Script__**
 
@@ -94,13 +94,13 @@ Enter the URL to redirect users after a logout.
 
 Select **MultiSSO\_DigestedToken**.
 
-</td></tr><tr><td id="d49328e190">
+</td></tr><tr><td id="d46453e187">
 
 **__Client Type__**
 
 </td><td>
 
-Choose the client type, based on the type of your client. Options:**Iframe Embedded**.**Note:** If client type field is required for your configuration, you can edit the form and add the field. To know more, see [Client type configuration for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/client-type.md).
+Choose the client type, based on the type of your client. Options:**Iframe Embedded**.**Note:** If client type field is required for your configuration, you can edit the form and add the field. To know more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/client-type.md).
 
 </td></tr></tbody>
 </table>3.  Click **Update**.

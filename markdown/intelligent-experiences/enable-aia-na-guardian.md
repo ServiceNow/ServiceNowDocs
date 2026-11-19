@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/enable-aia-na-guardian.html
 release: zurich
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
-breadcrumb: [Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Configure, AI Agent Studio, Enable AI experiences]
 ---
 
 # Enable AI Guardian for AI agents
@@ -26,7 +26,7 @@ For example, let's say that AI Guardian detects an offensive message in the exec
 
 \[Omitted image "aia-offnsv-msg-dtctn-exction-trmntn.png"\] Alt text: Offensive message is detected during the execution plan and the execution of the agentic workflow is terminated.
 
-For more information about the different guardrails, see AI Guardian.
+For more information about the different guardrails, see [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md).
 
 ## Procedure
 
@@ -65,7 +65,7 @@ For more information about the different guardrails, see AI Guardian.
 
         \[Omitted image "aia-prompt-injection-new.png"\] Alt text: Prompt Injection page in AI Agent Studio.
 
-        **Note:** For more information about configuring the Prompt Injection, see .
+        **Note:** For more information about configuring the Prompt Injection, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-prompt-injection-attack-protection.md).
 
         When you configure the Prompt Injection for an agentic workflow by using the required instructions, the system is designed to detect harmful content and block the conversation.
 

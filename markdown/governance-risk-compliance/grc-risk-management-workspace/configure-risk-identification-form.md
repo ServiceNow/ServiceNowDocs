@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Application risk assessment using Advanced Risk Assessment, Integrate, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_risk.admin
 
 ## About this task
 
-The Risk Identification Configuration form contains an entity type and a default identification record for the business application table. As a risk admin, you can either modify the default record or create your own configuration. The steps in this procedure are for creating a record. The Risk Identification Configuration form is used to do the following:
+The Risk Identification Configuration form contains a default identification record for the business application table. As a risk admin, you can either modify the default record or create your own configuration. The steps in this procedure are for creating a record. The Risk Identification Configuration form is used to do the following:
 
 -   Gather information about the application by using a questionnaire.
 -   Determine the criticality of the application.

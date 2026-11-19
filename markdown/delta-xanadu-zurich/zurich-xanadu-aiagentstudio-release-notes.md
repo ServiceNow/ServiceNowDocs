@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-aiagentstudio-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 30
 breadcrumb: [Products combined by family]
 ---
@@ -263,7 +263,7 @@ Runaway agent detection automatically disables an AI agent when the same record 
 
 Auto-migrate all the AI Agent Studio skills from on-glide execution path to the off-glide execution path.
 
--   **[\[Placeholder link text to key bundle-platai.aia-acl-configuration\]](https://www.servicenow.com/docs/access?context=aia-acl-configuration&family=zurich&ft:locale=en-US)**
+-   **[aia acl configuration](https://www.servicenow.com/docs/access?context=aia-acl-configuration&family=zurich&ft:locale=en-US)**
 
 Enforce deny-by-default access control for AI agentic record types \(`gen_ai_agent`, `gen_ai_workflow`, `gen_ai_skill`, `Flow`, `flow_action`\) for newly activated ServiceNow instances. In previous releases, these types defaulted to allow access.
 

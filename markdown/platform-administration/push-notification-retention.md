@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/push-notification-retention.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer]
 ---
 
 # Push notification retention
@@ -58,8 +58,6 @@ You can manually archive push notifications on demand instead of waiting for the
 [Push notification system]()
 
 [Activate push notifications]()
-
-[Enable push notifications for logged-out users]()
 
 [Installed with push notifications]()
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/edit-published-matrices.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-11-30"
 reading_time_minutes: 1
-breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Allow changes to published pricing and product eligiblity matrices

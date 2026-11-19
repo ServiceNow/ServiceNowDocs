@@ -7,7 +7,7 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
@@ -50,10 +50,7 @@ Last logged in name
 
 Name of the person who had last logged in to the device.When the user isn’t a ServiceNow user, the name appears as `"-"`.
 
-**Note:**
-
--   When you select the user’s link, it redirects to the Users page in Service Operations Workspace.
--   The device list, including last logged-in user details, refreshes every 25 minutes.
+**Note:** When you select the user’s link, it redirects to the Users page in Service Operations Workspace.
 
 </td></tr><tr><td>
 
@@ -63,10 +60,7 @@ Last logged in user ID
 
 User ID of the person who had last logged in to the device.When the user isn’t a ServiceNow user, the name appears as `"-"`.
 
-**Note:**
-
--   When you select the user’s link, it redirects to the Users page in Service Operations Workspace.
--   The device list, including last logged-in user ID, refreshes every 25 minutes.
+**Note:** When you select the user’s link, it redirects to the Users page in Service Operations Workspace.
 
 </td></tr><tr><td>
 
@@ -74,7 +68,7 @@ Matches assigned to
 
 </td><td>
 
-Indication of whether the device that the user is using to connect to DEX is assigned to the user's name. **Note:** The field displays **Yes** when the user is the owner of the device. For shared devices, **Yes** is displayed as the value only when the user is the owner of the device.
+Indicates whether the device that the user is using to connect to DEX is assigned to the user's name. **Note:** The field displays **Yes** when the user is the owner of the device. For shared devices, **Yes** is displayed as the value only when the user is the owner of the device.
 
 </td></tr><tr><td>
 
@@ -117,5 +111,7 @@ Incidents
 Total count of active incidents for the device.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-console-reference.md)
+</table>To return to the main devices page, see [Devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-workspace-devices-tab.md).
+
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-console-reference.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforfsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -435,7 +435,7 @@ Zurich
 -   Use voice-to-text input when interacting with Now Assist Virtual Agent in the ServiceNow Agent mobile app.
 -   Enhance your productivity with the Create Work Order AI agent, which allows users to initiate work orders using AI to process descriptions from text.
 
- See [\[Placeholder link text to key bundle-fsm.now-assist-fsm\]](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=zurich&ft:locale=en-US) for more information.
+ See [now assist fsm](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

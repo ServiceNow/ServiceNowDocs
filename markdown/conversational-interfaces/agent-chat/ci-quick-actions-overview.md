@@ -7,10 +7,10 @@ release: zurich
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 9
 keywords: [Configuring, quick actions, Agent Chat, Virtual Agent]
-breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
+breadcrumb: [Configuring Agent Chat, Agent Chat, Conversational Interfaces]
 ---
 
 # Configuring quick actions

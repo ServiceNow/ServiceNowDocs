@@ -1,28 +1,40 @@
 ---
-title: DEX guided setup
-description: Install and configure required plugins to start monitoring and administering your organization's devices using Digital End-User Experience guided setup.
+title: DEX installation and initial configuration
+description: Install and configure required plugins to start monitoring and administering your organization's devices using Digital End-User Experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/dex-install-config.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-10-22"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Before you begin, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Configure, Digital End-User Experience, IT Operations Management]
 ---
 
-# DEX guided setup
+# DEX installation and initial configuration
 
-Install and configure required plugins to start monitoring and administering your organization's devices using Digital End-User Experience guided setup.
+Install and configure required plugins to start monitoring and administering your organization's devices using Digital End-User Experience.
+
+Install and configure the Digital End-User Experience \(DEX\) plugin and Agent Client Collector \(ACC\) to enable comprehensive monitoring of devices and web applications. Follow these procedures to generate the ACC registration key, install ACC on Windows and macOS, verify connectivity, configure proxy, optionally switch from MID-based to MID-less architecture, and enable the DEX browser extension. Complete these steps to make sure that devices are properly onboarded for Application and Device Health, laying the foundation for reliable experience data collection across your environment.
+
+## DEX guided setup
 
 After installing DEX, use the DEX guided setup experience to install and configure the associated plugins.
 
-In the primary navigation pane, select the DEX Administration icon \[Omitted image "icon-administration.png"\] Alt text: and access guided setup through the following cards:
+In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\) and access-guided setup through the following cards:
+
+-   **Agent deployment on Windows devices**
+
+    Install Agent Client Collector for DEX on Windows.
+
+-   **Agent deployment on macOS devices**
+
+    Install Agent Client Collector for DEX on macOS.
 
 -   **Deploy browser extension**
 
-    Enable the DEX browser extension.
+    Enable DEX browser extension.
 
 -   **Desktop Assistant deployment**
 
@@ -30,6 +42,6 @@ In the primary navigation pane, select the DEX Administration icon \[Omitted ima
 
 -   **Digital End-user Experience Self-service configuration**
 
-    Configure the DEX Self-service on your ServiceNow instance.
+    Configure the DEX Self-service on your ServiceNow® instance.
 
 

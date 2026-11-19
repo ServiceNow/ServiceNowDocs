@@ -1,5 +1,5 @@
 ---
-title: View and edit employee profiles
+title: Manage employee profiles
 description: Access employee profile information and edit your personal details to keep your information current.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/emp-slate-view-edit-profile.html
@@ -10,10 +10,10 @@ topic_type: task
 last_updated: "2026-04-02"
 reading_time_minutes: 1
 keywords: [employee profile, edit profile, personal information]
-breadcrumb: [Employee profile, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
+breadcrumb: [Use, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
-# View and edit employee profiles
+# Manage employee profiles
 
 Access employee profile information and edit your personal details to keep your information current.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
+breadcrumb: [Manage enterprise assets and tasks using Mobile Agent application, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Manage an Enterprise Asset Management task using the Mobile Agent application
@@ -45,7 +45,7 @@ Move assets of a startup work order task to the In use state in the Mobile Agent
 -   **[Move enterprise assets to maintenance state using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/move-assets-maintenance-mobile.md)**  
 Move assets of a break fix or planned maintenance work order task to the In maintenance state in the Mobile Agent application to indicate that the assets are under maintenance.
 
-**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/asset-management-landing-page.md)
+**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/it-asset-management.md)
 
 **Related topics**  
 

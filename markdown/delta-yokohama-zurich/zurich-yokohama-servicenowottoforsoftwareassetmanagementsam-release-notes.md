@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforsoftwareassetmanagementsam-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -119,7 +119,12 @@ Zurich
 
 </td><td>
 
--   **[Streamline entitlement import by resolving import errors with AI-suggested corrections](https://www.servicenow.com/docs/access?context=resolve-entitlement-import-error&family=zurich&ft:locale=en-US)**
+-   **[Evaluate software subscription removal candidates at integration profile and software model levels with the enhanced Evaluate Software Reclamation AI Agent](https://www.servicenow.com/docs/access?context=now-assist-sam-evaluate-removal-candidate-workflow&family=zurich&ft:locale=en-US)**
+
+Launch the Evaluate Software Reclamation AI Agent directly from the **Reclamation** tab of the License usage view in the Software Asset Workspace. The AI agent enables you to evaluate software subscription removal candidates at both the integration profile and software model levels, using reclamation summary data, without leaving your workflow.
+
+
+ -   **[Streamline entitlement import by resolving import errors with AI-suggested corrections](https://www.servicenow.com/docs/access?context=resolve-entitlement-import-error&family=zurich&ft:locale=en-US)**
 
 Reduce manual effort and improve data accuracy when reviewing entitlement import errors in the Software Asset Workspace by using AI skills. When publisher or product names in the standard entitlement import template don't match standard content, the Software normalization and Product match reviewer skills provide AI-suggested corrections for review. The feature also identifies potential duplicate entitlements, enabling you to review and dismiss them where appropriate.
 
@@ -321,7 +326,7 @@ Install Now Assist for SAM by requesting it from the ServiceNow Store.
 
 **Note:** To take full advantage of the Now Assist for SAM features, you need to install the Now Assist for SAM store application as well as upgrade to Yokohama Patch 3.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Now Assist for SAM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -334,7 +339,7 @@ Zurich
 
 -   **Activation information**
 
-Install Now Assist for SAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Now Assist for SAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Now Assist for SAM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -510,7 +515,9 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)- ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Software Asset Management \(SAM\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+Zurich Patch 13 - Evaluate software subscription removal candidates at integration profile and software model levels with the enhanced Evaluate Software Reclamation AI Agent.
+
+ [Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)- ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Software Asset Management \(SAM\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
  [Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
 

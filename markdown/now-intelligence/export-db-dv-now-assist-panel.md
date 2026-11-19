@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/export-db-dv-now-assist-panel.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-08-07"
 reading_time_minutes: 2
 keywords: [export, schedule, schedule export, Now Assist, Now Assist Panel, Platform Analytics AI]
 breadcrumb: [Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
@@ -16,6 +16,8 @@ breadcrumb: [Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto fo
 Export or schedule the export of dashboards and data visualizations conversationally through AI instead of going through the Platform Analytics user interface.
 
 ## Before you begin
+
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: now\_assist\_panel\_user. To schedule an export, you also need par\_scheduler. You need access to the dashboard or the data in the visualization.
 

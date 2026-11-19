@@ -45,3 +45,5 @@ Role required: Armis Intelligence Center console account and credentials
 
 [Configure the Early Warning for Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/configure-early-warning-integration.md)
 
+**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/armis-early-warning-integration.md)
+

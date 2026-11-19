@@ -9,7 +9,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Configure Business Portal, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the standard ticket page for cases
@@ -24,7 +24,7 @@ Role required: sp\_admin
 
 1.  Navigate to **All** &gt; **Standard Ticket** &gt; **Standard Ticket Configuration**.
 
-2.  Select sn\_customerservice\_case, or sn\_customerservice\_task which is available by default.
+2.  Select sn\_customerservice\_case for cases, or sn\_customerservice\_task for case tasks.".
 
     **Note:** You can add your own case types and add new configurations for the required tables. For more information, see [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/configure-st-page.md).
 
@@ -32,7 +32,7 @@ Role required: sp\_admin
 
 4.  Edit the fields on the Ticket Configuration form as required.
 
-    For example, you can add tabs to the existing **Activity** and **Attachments** tabs in the **Info fields** field under the Info Region tab.
+    For example, to add tabs, select **New** in the **Tab Configurations** related list. To choose which columns appear in the info region, select values in the **Info fields** field on the **Info Region** tab.
 
 5.  Select **Update**.
 

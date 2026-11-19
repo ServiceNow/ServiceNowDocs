@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-01-29"
 reading_time_minutes: 5
-breadcrumb: [Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Search, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Fuzzy numeric search in AI Search

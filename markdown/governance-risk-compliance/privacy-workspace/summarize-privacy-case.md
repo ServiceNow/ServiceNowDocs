@@ -7,7 +7,7 @@ release: zurich
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Case summarization for privacy cases, ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ Role required:
 
 ## About this task
 
-**Important:** This skill is turned on by default if you have ServiceNow Otto for Privacy Management installed. The skill is automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This skill is turned on by default if you have Now Assist for Privacy Management installed. The skill is automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Privacy cases can involve multiple coordinators, complex activity logs, and breach assessments. The GRC case summarization skill generates a concise AI summary of key case details, so assignees and approvers can quickly understand the context and support efficient decision-making.
 
@@ -58,15 +58,15 @@ If the **Summarize** option isn’t visible, an admin has to activate the skill 
 
 7.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d72936e222">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d107477e225">
 
 Option
 
-</th><th align="left" id="d72936e225">
+</th><th align="left" id="d107477e228">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d72936e231">
+</th></tr></thead><tbody><tr><td id="d107477e234">
 
 **Edit or save the summary**
 
@@ -78,7 +78,7 @@ Description
 
 Once saved to the case record, the summary appears in the **Overview** tab and in the **Activity** stream of the **Details** tab.
 
-</td></tr><tr><td id="d72936e269">
+</td></tr><tr><td id="d107477e272">
 
 **View information about the summary**
 
@@ -88,7 +88,7 @@ Select the information icon \(\[Omitted image "icon-more-info.png"\] Alt text: I
 
  **"AI summarized this using the record details. Check it for accuracy."**
 
-</td></tr><tr><td id="d72936e291">
+</td></tr><tr><td id="d107477e294">
 
 **Expand or collapse the summary card**
 
@@ -98,7 +98,7 @@ Select **View less** to partially collapse the summary, or **View more** to expa
 
  Alternatively, select the **Expand card** icon \(\[Omitted image "3514ebeb5281c378a441ab739e20167a2630a16b.png"\] Alt text: Expand icon.\) or **Collapse card** icon \(\[Omitted image "2ed2a915ca439e54301b2d87d922206f542ed51e.png"\] Alt text: Collapse icon.\) next to **Share to case summary** to fully expand or collapse the summary.
 
-</td></tr><tr><td id="d72936e333">
+</td></tr><tr><td id="d107477e336">
 
 **Provide feedback**
 
@@ -108,7 +108,7 @@ Select the helpful icon \(\[Omitted image "6703440d198d8d4e598de0ee6ca6e4bb6e927
 
  **Note:** User feedback doesn't affect future LLM outputs. It’s collected by ServiceNow® for internal quality monitoring only.
 
-</td></tr><tr><td id="d72936e365">
+</td></tr><tr><td id="d107477e368">
 
 **Copy the summary**
 
@@ -116,7 +116,7 @@ Select the helpful icon \(\[Omitted image "6703440d198d8d4e598de0ee6ca6e4bb6e927
 
 Select the copy icon \(\[Omitted image "b80284abf38e005516cfbb6a89e209fea7668e29.png"\] Alt text: Copy icon.\) to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d72936e383">
+</td></tr><tr><td id="d107477e386">
 
 **Regenerate the summary**
 

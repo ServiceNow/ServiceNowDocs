@@ -7,9 +7,9 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Bulk export of Usage Insights data via REST API, Using Usage Insights, Usage Insights, Platform Analytics]
+breadcrumb: [Bulk export of Usage Insights data via REST API, Use, Usage Insights, Platform Analytics]
 ---
 
 # Preparing for the Usage Insights data export via REST API

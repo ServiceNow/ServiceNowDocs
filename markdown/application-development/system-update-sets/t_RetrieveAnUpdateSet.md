@@ -9,7 +9,7 @@ classification: system-update-sets
 topic_type: task
 last_updated: "2026-10-27"
 reading_time_minutes: 2
-breadcrumb: [Working with update sets, System update sets, Deploying applications, Classic app development, Building applications]
+breadcrumb: [Transfers, System update sets, Deploying applications, Building applications]
 ---
 
 # Retrieve an update set
@@ -26,7 +26,7 @@ Role required: teamdev\_user or admin
 
 1.  If IP address access control is enabled on the source instance, set up the target instance as an exception.
 
-2.  On the target instance, navigate to **System Update Sets** &gt; **Update Sources** and select **New**.
+2.  On the target instance, navigate to **System Update Sets** &gt; **Update Sources** and click **New**.
 
 3.  Specify the connection settings as described in the table.
 
@@ -70,7 +70,7 @@ URL
 
 Specify the URL of the remote instance using the appropriate transfer protocol. Each remote instance record should have a unique URL. Creating duplicate records with the same URL can cause errors. The remote instance must be on the same release family as the local instance.
 
- **Note:** You can’t change the URL after the system verifies the connection. Use the Active field to deactivate unwanted remote instances.
+ **Note:** You cannot change the URL after the system verifies the connection. Use the Active field to deactivate unwanted remote instances.
 
 </td></tr><tr><td>
 
@@ -94,25 +94,26 @@ Short description
 
 </td><td>
 
-Enter any other relevant information about the remote instance.
+\[Optional\] Enter any other relevant information about the remote instance.
 
 </td></tr></tbody>
-</table>4.  Select **Test Connection**.
+</table>4.  Click **Test Connection**.
 
-    If the connection is successful, a confirmation message appears. If the connection fails, a warning message identifies the cause of the failure.
-
+    -   If the connection is successful, a confirmation message appears.
+    -   If the connection fails, a warning message identifies the cause of the failure.
 5.  If the connection fails, modify the settings to establish connectivity.
 
-    Connectivity must be established prior to saving the connection settings. Additionally, it may be necessary to modify the source instance configuration, such as updating the password.
+    -   You must establish connectivity before you can save the connection settings.
+    -   You may want to modify the source instance \(for example, change the password\).
+6.  Right-click the form header and select **Save**.
 
-6.  Select and hold \(or right-click\) the form header and select **Save**.
+7.  Under **Related Links**, click **Retrieve Completed Update Sets**.
 
-7.  Under **Related Links**, select **Retrieve Completed Update Sets**.
+    -   Any update sets marked as **Completed** are transferred from the source instance to the target instance. Update sets that already exist on the target instance are skipped.
+    -   The confirmation page provides detailed messages about how many update sets were transferred and how many were skipped.
+    -   To view retrieved update set, navigate to **System Update Sets** &gt; **Retrieved Update Sets**.
 
-    Update sets marked as completed are moved from the source to the target instance, while existing update sets on the target are skipped. The confirmation page details how many sets were transferred and skipped.
+## What to do next
 
-8.  To view retrieved update set, navigate to **System Update Sets** &gt; **Retrieved Update Sets**.
-
-
-**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/using-system-update-sets.md)
+If the system property **glide.update\_set.auto\_preview** is set to **true**, the system automatically starts the preview process after the update set is retrieved. If this property is **false**, you must start the process manually. For more information on the preview process, see [Preview a remote update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/t_PreviewARemoteUpdateSet.md).
 

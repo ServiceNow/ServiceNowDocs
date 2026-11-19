@@ -7,9 +7,8 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [dex components, dex roles, dex administrator role, dex engineer role, dex user role, dex service desk agent, dex application table, metric rules table, alert metadata table, alert impacted users table, alert locations table, action app config table, ci device configuration table]
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
@@ -37,7 +36,7 @@ DEX administrator \[sn\_dex.admin\]
 
 </td><td>
 
-Responsible for managing user access to DEX, managing the applications that are being monitored, handling onboarding/offboarding-related tasks, and troubleshooting issues that arise within the application.
+Responsible for managing user access to DEX, managing the applications that are being monitored, and handling onboarding/offboarding-related tasks. They also troubleshoot any issues that arise within the application.
 
 </td><td>
 
@@ -86,7 +85,7 @@ DEX Service Desk agent\[sn\_dex.service\_desk\_user\]
 
 </td><td>
 
-Responsible for enabling L1 or L2 support representatives to access DEX from the incident platform to explore and investigate the details of the devices linked to the incident.
+Responsible for L1 or L2 support representatives accessing DEX from the incident platform to explore and investigate the details of the devices linked to the incident.
 
 </td><td>
 

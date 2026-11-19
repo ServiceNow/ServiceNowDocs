@@ -7,9 +7,9 @@ release: zurich
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Security findings, Exploring Machine Identity Console, Machine Identity Console, Identity]
+breadcrumb: [Security findings, Explore Machine Identity Console, Machine Identity Console, Identity]
 ---
 
 # Accounts with no login for 100 days
@@ -26,5 +26,5 @@ The list uses a 99-day window, so it includes accounts that have not accessed an
 
 You can select the machine identity name to know more about the account and the recommendation to maintain a good security posture for the account.
 
-\[Omitted image "image.mic-recommendation-no-login-100days"\] Alt text: Recommendation
+\[Omitted image "mic-recommendation-no-login-100days.png"\] Alt text: Recommendation
 

@@ -5,16 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/how-now-platform-works.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-08"
 reading_time_minutes: 6
-breadcrumb: [Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Get started, Administer]
 ---
 
 # How the ServiceNow AI Platform works
 
 The ServiceNow AI Platform is the unified foundation for every ServiceNow product, bringing together AI, data, workflows, and security on a single data model.
-
-## Video overview
 
 \[Omitted video\] Description: Overview of ServiceNow AI Platform architecture
 
@@ -38,7 +36,7 @@ The ServiceNow AI Platform is built for enterprise scale, with global datacenter
 
 ## Administration
 
-The ServiceNow AI Platform [Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/admin-center-intro.md) gives business administrators at-a-glance information and access to configuration management and AI-powered implementation with [ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ia-landing.md).
+The ServiceNow AI Platform [Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/admin-center/admin-center-intro.md) gives business administrators at-a-glance information and access to configuration management.
 
 Localization is available in more than a dozen languages and currencies. In-house and third-party translation services handle communications, virtual agent chat, user input translation, and more. For more information, see [Translation and localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/translation-and-localization.md).
 
@@ -62,7 +60,7 @@ The Workflow Data Fabric enables connections between instances and external serv
 
 The ServiceNow AI Platform delivers [AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-products.md) and intelligent [AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/na-ai-agents.md) that go beyond recommendations to take action—running workflows across enterprise systems, all governed by your business rules and policies. Now Assist, generative AI, and flexible large language model \(LLM\) integration bring AI capabilities across every department.
 
-The platform supports prompt customization and prebuilt AI experiences, with full visibility through [AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower-landing.md). Customize and extend capabilities with AI Agent Fabric to fit your organization's needs.
+The platform supports prompt customization and prebuilt AI experiences, with full visibility through [Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-landing.md). Customize and extend capabilities with AI Agent Fabric to fit your organization's needs.
 
 ## Platform agentic workflows
 
@@ -82,11 +80,11 @@ For more information, see [Identity](https://raw.githubusercontent.com/ServiceNo
 
 ## Workflow automation and Playbooks
 
-The ServiceNow AI Platform executes work through a combination of structured workflows and agentic workflows. Playbooks provide stage-gated processes, decision logic, SLA enforcement, and audit trails that ensure AI agents act within the boundaries your organization defines. Agentic workflows break down complex, unpredictable tasks into manageable steps assigned to specialized AI agents. Together, Playbooks and agentic workflows support deterministic process execution and adaptive, context-driven agent action across every department.
+The ServiceNow AI Platform executes work through a combination of structured workflows and agentic workflows. [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md) provide stage-gated processes, decision logic, SLA enforcement, and audit trails that ensure AI agents act within the boundaries your organization defines. Agentic workflows break down complex, unpredictable tasks into manageable steps assigned to specialized AI agents. Together, Playbooks and agentic workflows support deterministic process execution and adaptive, context-driven agent action across every department.
 
 ## Developer and low-code/no-code tooling
 
-Build and extend applications faster with [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent.md), [App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aes-overview.md), [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio.md), [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub.md), and Playbooks, and more. The platform supports server-side JavaScript development, integration configuration, drag-and-drop workflow creation, user interface design, and AI-assisted application building. Create custom workflows, automate processes, and ship production-ready applications without sacrificing governance or control.
+Build and extend applications faster with [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent.md), [App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aes-overview.md), [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/workflow-studio.md), [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub.md), and[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md), and more. The platform supports server-side JavaScript development, integration configuration, drag-and-drop workflow creation, user interface design, and AI-assisted application building. Create custom workflows, automate processes, and ship production-ready applications without sacrificing governance or control.
 
 For more information, see [App development, agentic development, and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md).
 
@@ -96,7 +94,7 @@ The [Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
 ## Platform Analytics and Process Mining
 
-Distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data. Use dashboards to create a visual story with Platform Analytics data that you can share with multiple users. Use data visualizations based on table, indicator, or other data in dashboards across the Analytics Overview. Administrators can use Usage Insights to get information on user engagement with both mobile and web applications, including user population, retention, and behavior.
+Distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data. Use dashboards to create a visual story with Platform Analytics data that you can share with multiple users. Use data visualizations based on table, indicator, or other data in dashboards across the Analytics Center. Administrators can use Usage Insights to get information on user engagement with both mobile and web applications, including user population, retention, and behavior.
 
 [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/process-mining.md) helps you discover ways to streamline your business, find bottlenecks and deviations in workflows, and filter and compare processes. Process Mining identifies where new agentic opportunities exist, measures the impact of agents already deployed, and connects improvement opportunities directly to action on the same platform.
 

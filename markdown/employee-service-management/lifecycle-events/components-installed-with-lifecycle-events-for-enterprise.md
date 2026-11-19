@@ -7,9 +7,9 @@ release: zurich
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Lifecycle Events reference, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with Lifecycle Events for Enterprise

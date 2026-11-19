@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/explore-customer-engagement-sequences.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-11-18"
 reading_time_minutes: 4
-breadcrumb: [Sales automation, Explore, Sales Customer Relationship Management]
+breadcrumb: [Lead and opportunity management, Explore, Sales Customer Relationship Management]
 ---
 
 # Customer Engagement Sequences
@@ -36,7 +36,7 @@ Sequence admin, sequence writer
 
 </td><td>
 
-Creates multi-step sequences using Workflow Studio and defines triggers \(start conditions\), activities \(for example, call or email attempts\), and exit conditions.
+Creates multi-step sequences using Workflow Studio and defines triggers \(start conditions\), activities \(for example, call attempts\), and exit conditions.
 
 </td></tr><tr><td>
 
@@ -65,7 +65,7 @@ The following illustration describes the tasks involved in configuring and using
 
 \[Omitted image "customer-engagement-sequences-workflow-landing.svg"\] Alt text: Infographic showing how to create sequences and complete outreach using Customer Engagement Sequences. For details, refer to the list of tasks that follows.
 
-1.  As a sequence writer, create a customer engagement sequence such as a lead-nurturing sequence from the CRM Workspace.
+1.  As a sequence writer, create a customer engagement sequence such as a lead-nurturing sequence from the CSM Configurable Workspace.
 2.  Define the sequence parameters:
     -   Single or multi-trigger conditions \(for example, when a new lead is created\)
     -   Sequence steps \(for example, call, follow-up, email\)
@@ -157,18 +157,6 @@ Use the click-to-call capability to connect with prospective customers from the 
 </td><td>
 
 Sequence executor
-
-</td></tr><tr><td>
-
-Accelerate lead nurturing by creating an email-based sequence that automates outreach and follow-up.
-
-</td><td>
-
-[Customize the Lead nurturing email sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/customize-lead-nurturing-email-sequence.md)
-
-</td><td>
-
-Sequence admin, sequence writer
 
 </td></tr></tbody>
 </table>## What to explore next

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-15"
 reading_time_minutes: 1
 keywords: [MCP server logs, System Log, syslog, glide.log.off\_glide\_ingestion.enabled]
-breadcrumb: [Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [Configure, MCP Server Console, Enable AI experiences]
 ---
 
 # View MCP server logs

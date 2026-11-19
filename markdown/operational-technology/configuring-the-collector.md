@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/configuring-the-collector.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -53,10 +53,4 @@ Linux
 For more information, see [Install OT Discovery Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/linux-install-ot-discovery-collector.md).
 
 </td></tr></tbody>
-</table>-   **[Install the OT Discovery Collector on a Windows system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/installing-collector-on-windows.md)**  
-Install the OT Discovery Collector on a Windows system. The OT Discovery Collector installation is compatible on Windows 10 or Windows 11 systems.
--   **[Install OT Discovery Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/linux-install-ot-discovery-collector.md)**  
-Install the OT Discovery Collector on a Linux system.
-
-**Parent Topic:**[Operational Technology Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-discovery-collectors-landing.md)
-
+</table>

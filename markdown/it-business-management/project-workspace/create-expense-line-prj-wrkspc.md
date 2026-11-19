@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Manage financials, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,15 +36,15 @@ The video is recorded using the Strategic Planning view. Navigate to your portfo
 
 3.  Use one of the following options to add an expense line.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d59854e115">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d57261e115">
 
 Choice
 
-</th><th align="left" id="d59854e118">
+</th><th align="left" id="d57261e118">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d59854e124">
+</th></tr></thead><tbody><tr><td id="d57261e124">
 
 **Select a cost plan**
 
@@ -54,7 +54,7 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d59854e145">
+</td></tr><tr><td id="d57261e145">
 
 **Select options**
 
@@ -64,7 +64,7 @@ Description
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d59854e172">
+</td></tr><tr><td id="d57261e172">
 
 **Select new expense line option**
 

@@ -28,7 +28,7 @@ The **Agenda Items** related list connects a change request \(RFC\) to the CAB m
 
 1.  Navigate to **All** &gt; **Change** &gt; **Change Advisory Board** &gt; **All CAB Meetings**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see .
 
 2.  Select the CAB meeting record that you want to add an agenda item to.
 
@@ -62,7 +62,7 @@ Task
 
 </td><td>
 
-Lookup list to select the change request or standard change proposal.**Note:** The standard change proposal is available for selection only from Brazil.
+Lookup list to select the change request or standard change proposal.**Note:** The standard change proposal is available for selection only from Zurich .
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Order
 
 </td><td>
 
-Order that the agenda items are reviewed during the CAB meeting.
+Order that the agenda items will be reviewed during the CAB meeting.
 
 </td></tr><tr><td>
 

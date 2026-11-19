@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [HAM integrations, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Hardware Asset Management, IT Asset Management]
 ---
 
 # Hardware Asset Management integration with Zero Touch Mobility
@@ -68,8 +68,6 @@ The following Hardware Asset Management features have limited availability:
 -   HAM workflows: Non-mobile devices are excluded from the HAM workflows.
 -   [Lease expiration flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-leased-hw-asts-expiring-contract.md): Non-mobile devices are excluded from this flow.
 -   [Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/using-ham-workspace.md): Reports and dashboards related to normalization of assets aren't available.
-
-**Parent Topic:**[Hardware Asset Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-integrations.md)
 
 **Related topics**  
 

@@ -1,17 +1,17 @@
 ---
-title: Review the performance of an AI specialist in the legacy AI Agent Studio
+title: Review the performance of an AI specialist in AI Agent Studio
 description: Review the performance analytics of an AI specialist to track their task execution success. You can use the analytics to tune the AI specialist to suit your business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/view-aiw-performance.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-13"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [AI specialist metrics, AI specialist performance, AI specialist analytics]
-breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Use, Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
 
-# Review the performance of an AI specialist inthe legacy AI Agent Studio
+# Review the performance of an AI specialist in AI Agent Studio
 
 Review the performance analytics of an AI specialist to track their task execution success. You can use the analytics to tune the AI specialist to suit your business needs.
 

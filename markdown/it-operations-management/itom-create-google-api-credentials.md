@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/itom-create-google-api-credentials.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Set up Google Cloud Platform service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
@@ -28,15 +28,15 @@ Role required: discovery\_admin
 
 1.  Configure the GCP credentials either by importing a JSON file or by filing in the record manually.
 
-<table id="choicetable_fch_mpt_c1c"><thead><tr><th align="left" id="d413907e93">
+<table id="choicetable_fch_mpt_c1c"><thead><tr><th align="left" id="d409364e91">
 
 Option
 
-</th><th align="left" id="d413907e96">
+</th><th align="left" id="d409364e94">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d413907e102">
+</th></tr></thead><tbody><tr><td id="d409364e100">
 
 **Import the JSON file**
 
@@ -50,7 +50,7 @@ Actions
 6.  Select **Upload Credential Data**.
 
 
-</td></tr><tr><td id="d413907e165">
+</td></tr><tr><td id="d409364e163">
 
 **Configure the credentials manually**
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/p
 release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
-topic_type: reference
+topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Demand tasks, Explore, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]

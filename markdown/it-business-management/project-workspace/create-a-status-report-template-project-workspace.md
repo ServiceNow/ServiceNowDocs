@@ -7,7 +7,7 @@ release: zurich
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ Role required: it\_project\_manager
 
 3.  Select **New**.
 
-4.  On the Create New Document Template form, fill in the fields.
+4.  On the Create new Document Template form, fill in the fields.
 
     -   To create a project status report template, select **Project status report** from the Category list. Dynamic content is enabled by default for status report templates, so the **Is Dynamic** check box doesn't appear on the form.
     -   To enable dynamic content on Docs, select **Project Docs** from the Category list and select the **Is Dynamic** check box.

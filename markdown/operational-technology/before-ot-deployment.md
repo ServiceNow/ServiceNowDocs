@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/before-ot-deployment.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-24"
 reading_time_minutes: 2
 breadcrumb: [Deploy Operational Technology Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -49,6 +49,4 @@ With OT Discovery, you can add layers of capabilities over time such as:
 ## Adding locations over time
 
 On a site-by-site level, you can add locations over time, such as deploying the Discovery Console for OT and the Discovery Sensor for OT at a pilot site. For more information, see the [Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sites-page.md).
-
-**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/deploy-ot-discovery-devices-landing.md)
 

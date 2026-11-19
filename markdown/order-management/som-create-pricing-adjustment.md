@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-create-pricing-adjustment.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Pricing Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a product attribute-based pricing adjustment
@@ -26,7 +26,7 @@ In this task, you specify the product characteristics to which the pricing adjus
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Attribute Adjustments**.
 

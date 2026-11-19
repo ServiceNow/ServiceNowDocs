@@ -7,18 +7,14 @@ release: zurich
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Customer or Consumer Service Portal, Customer self service, Use, Field Service Management]
+breadcrumb: [Customer self service, Use, Field Service Management]
 ---
 
 # Track the current location of agents from email or SMS notifications
 
 Track the current location of agents and their estimated time of arrival through email or SMS notifications.
-
-## About this task
-
-Customers may see multiple geolocation records for a Field Service agent, showing different coordinates but the same timestamp. This is caused when the customer’s mobile device caches location requests and sends multiple at once. This happens when battery save mode is active on the customer’s device.
 
 ## Before you begin
 

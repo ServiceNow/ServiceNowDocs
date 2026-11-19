@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/config-profile-l1-sd-ai-spec-sow.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-14"
 reading_time_minutes: 1
 breadcrumb: [Configure, L1 IT Service Desk AI Specialist, IT Service Management]
 ---
@@ -16,7 +16,7 @@ Modify the profile of the L1 IT Service Desk AI Specialist to set its assignment
 
 ## Before you begin
 
-Role required: sn\_itsm\_common.sn\_service\_desk\_manager or admin
+Role required: sn\_sow\_itsm\_common.sn\_service\_desk\_manager or admin
 
 ## Procedure
 
@@ -95,7 +95,7 @@ Assignment groups
 
 </td><td>
 
-User groups to which the L1 IT Service Desk AI Specialist is assigned to perform various tasks. For example, to stop the L1 IT Service Desk AI Specialist from handling your team’s tickets, you can remove your team user group.
+User groups to which the L1 IT Service Desk AI Specialist is assigned to perform various tasks. For example, to stop the L1 IT Service Desk AI Specialist from handling your team’s tickets, you can remove your team user group.Assignment groups are optional. You can clear all assignment groups from the profile.
 
 </td></tr><tr><td>
 

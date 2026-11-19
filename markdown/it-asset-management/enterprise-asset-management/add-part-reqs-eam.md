@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create a work order for an enterprise asset, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Create a work order for an enterprise asset, Manage work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Select descendant models of multi-component assets to create part requirements

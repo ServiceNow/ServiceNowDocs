@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Script support for complex data, Complex data, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Script support for complex data, Complex data, Building actions, Use, Workflow Studio, Build workflows]
 ---
 
 # Create a custom action to generate an array of strings from a list of records

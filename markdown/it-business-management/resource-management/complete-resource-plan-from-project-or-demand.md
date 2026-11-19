@@ -7,7 +7,7 @@ release: zurich
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Complete a resource plan, Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -35,7 +35,7 @@ A similar message for completing the resource plans appears on the Demand form w
 
 1.  Open a project, task, or demand record in the Closed state.
 
-<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d121467e91">
+<table id="choicetable_en2_dhy_bcb"><tbody><tr><td id="d117581e92">
 
 **Open a Closed project record**
 
@@ -46,7 +46,7 @@ A similar message for completing the resource plans appears on the Demand form w
 3.  Select the **Details** tab to display the project form.
 
 
-</td></tr><tr><td id="d121467e127">
+</td></tr><tr><td id="d117581e128">
 
 **Open a Closed project task record**
 
@@ -57,7 +57,7 @@ A similar message for completing the resource plans appears on the Demand form w
 3.  In the **Project Tasks** related list, open the project task record in the Closed state.
 
 
-</td></tr><tr><td id="d121467e163">
+</td></tr><tr><td id="d117581e164">
 
 **Open a Closed project in Planning Console**
 
@@ -68,7 +68,7 @@ A similar message for completing the resource plans appears on the Demand form w
 3.  Select the **Planning** tab to display the project in planning console.
 
 
-</td></tr><tr><td id="d121467e199">
+</td></tr><tr><td id="d117581e200">
 
 **Open a Closed or Deferred demand record**
 

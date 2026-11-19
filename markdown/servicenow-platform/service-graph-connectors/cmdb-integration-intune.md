@@ -7,7 +7,7 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-02-27"
 reading_time_minutes: 6
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ The Service Graph Connector for Microsoft Intune pulls data from mobile devices,
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Supported versions
 
@@ -265,7 +265,7 @@ After you complete setting up the connection, you can configure the integration 
 
 **Note:**
 
--   For any discovered software applications that were deleted later in the Microsoft Intune application, the Service Graph Connector automatically deletes the corresponding records in CMDB.
+-   For any discovered software applications that were deleted later in the Microsoft Intune application, the Service Graph Connector automatically deletes the corresponding records in the CMDB.
 -   To view more details about a handheld computing device or computer in the Computer \[cmdb\_ci\_computer\] class, enable the related lists SG-Intune Device Related and SG-Intune Computer Related.
 
     You can add these related lists by configuring the Related Lists view on the form that opens when you select a handheld computing device or computer configuration item \(CI\) in the Computer \[cmdb\_ci\_computer\] class. Computer CIs are displayed in the Computers list, accessed by navigating to **All** &gt; **Configuration** &gt; **Base Items** &gt; **Computers**. For more information about adding related lists to a form, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-form-layout.md).

@@ -7,16 +7,16 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management publisher pack for Oracle, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management publisher pack for Oracle, Supported software publisher licenses, Software Asset Management, IT Asset Management]
 ---
 
 # Oracle reconciliation
 
 Oracle reconciliation keeps your Oracle license positions accurate and up-to-date without requiring manual calculations. Reconciliation runs weekly or on-demand.
 
-When you run an Oracle reconciliation, Software Asset Management determines the **Rights Used By** and **Rights Needed By** allocations for the named users, physical devices, and physical hosts that are accessing or running an Oracle product. You can use this information to keep your Oracle products in conformance.
+When you run an Oracle reconciliation, Software Asset Management determines the **Rights Used By** and **Rights Needed By** allocations for the named users, physical devices, and physical hosts that are accessing or running an Oracle product. You can use this information to keep your Oracle products in compliance.
 
 **Note:** Any allocations that you make on a physical host are considered valid. Software Asset Management marks these allocations as **Allocated in use** in the license workbench. Any allocations that you make on a virtual host, such as a virtual machine \(VM\), are considered invalid. Software Asset Management marks these allocations as **Allocated not in use**.
 

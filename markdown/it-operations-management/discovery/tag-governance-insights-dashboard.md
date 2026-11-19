@@ -7,10 +7,10 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-01-30"
 reading_time_minutes: 1
 keywords: [Discovery Admin Workspace, Tag Governance Insights dashboard]
-breadcrumb: [Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery Admin Workspace Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Tag Governance Insights dashboard

@@ -1,20 +1,20 @@
 ---
 title: Define a Cloud REST Query for cloud computing devices
-description: As part of creating or modifying a discovery pattern, use the Cloud REST Query operation to extract information from configuration items \(CIs\) of the PaaS \(Platform as a Service\) type, such as Microsoft Azure or Amazon Web Services.
+description: Use the Cloud REST Query operation to extract information from PaaS \(Platform as a Service\) CIs, such as Microsoft Azure or Amazon Web Services, when creating or modifying a discovery pattern.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery-and-service-mapping-patterns/cloud-rest-query-pattern.html
 release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Amazon DynamoDB, AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Define a Cloud REST Query for cloud computing devices
 
-As part of creating or modifying a discovery pattern, use the **Cloud REST Query** operation to extract information from configuration items \(CIs\) of the PaaS \(Platform as a Service\) type, such as Microsoft Azure or Amazon Web Services.
+Use the **Cloud REST Query** operation to extract information from PaaS \(Platform as a Service\) CIs, such as Microsoft Azure or Amazon Web Services, when creating or modifying a discovery pattern.
 
 ## Before you begin
 

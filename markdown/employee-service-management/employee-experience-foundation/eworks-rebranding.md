@@ -1,6 +1,6 @@
 ---
-title: Employee Slate product family rebranding
-description: The Employee Slate product family was rebranded to ServiceNow EmployeeWorks, with updated product names and feature tier names.
+title: EmployeeWorks Web App product family re-branding
+description: The Employee Slate product family was re-branded to ServiceNow EmployeeWorks Web App along with its associated product naming updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/eworks-rebranding.html
 release: zurich
@@ -10,16 +10,16 @@ topic_type: reference
 last_updated: "2026-09-08"
 reading_time_minutes: 1
 keywords: [product naming, rebranding, ServiceNow EmployeeWorks, Employee Slate]
-breadcrumb: [EmployeeWorks introduction, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
+breadcrumb: [Reference, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
-# Employee Slate product family rebranding
+# EmployeeWorks Web App product family re-branding
 
-The Employee Slate product family was rebranded to ServiceNow EmployeeWorks, with updated product names and feature tier names.
+The Employee Slate product family was re-branded to ServiceNow EmployeeWorks Web App along with its associated product naming updates.
 
 ## Product name changes
 
-The Employee Slate product family was rebranded to ServiceNow EmployeeWorks.
+The following are the changed product names for the EmployeeWorks Web App product family.
 
 |Previous name|New name|
 |-------------|--------|

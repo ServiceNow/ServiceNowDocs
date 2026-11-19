@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Dynamic inputs, Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Dynamic inputs, Create an action in Workflow Studio, Building actions, Use, Workflow Studio, Build workflows]
 ---
 
 # Create a data gathering action for a dynamic template

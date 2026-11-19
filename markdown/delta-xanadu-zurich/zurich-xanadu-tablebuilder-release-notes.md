@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-tablebuilder-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -455,7 +455,7 @@ Zurich
 
 </td><td>
 
-[\[Placeholder link text to key australia-patch-5\]](https://www.servicenow.com/docs/access?context=australia-patch-5&family=zurich&ft:locale=en-US)
+[australia patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=zurich&ft:locale=en-US)
 
 -   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   Starting with the Zurich release, Form Designer is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. Features within Form Designer will be available in the Form Builder.

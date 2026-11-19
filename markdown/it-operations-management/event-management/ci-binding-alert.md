@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 3
 breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -39,7 +39,7 @@ Event rules provide a structured way to analyze incoming event data, enrich it w
 |Binding type|Description|
 |------------|-----------|
 |Implicit Node binding \(Default binding\)|Binds alerts to host CIs by matching the **Node** field in the event with attributes like Name, FQDN, IP, or MAC address.|
-|CI field matching binding|Binds alerts using the **CI Identifier** field, a JSON structure containing column names and values \(e.g., Name, FQDN, IP, or MAC Address\).|
+|CI field matching binding|Binds alerts using the **Additional information** field through event rules.|
 |CI identification binding|Binds alerts to specific applications on hosts using event rules.|
 |Process-level binding|Binds alerts to application CIs by matching process-related attributes.|
 |Device-level binding|Binds alerts to device CIs by matching event data with attributes like hostname, IP address, or MAC address.|
@@ -67,8 +67,6 @@ Result: The alert now shows that MailServer-01 is the affected system.
 -   Efficiency: They don't need to check other infrastructure components or systems, saving time and effort.
 
 This direct link helps streamline troubleshooting by pointing to the exact problem source.
-
-To enrich alerts by identifying the CI or extracting, composing, or tagging alert fields, you can also create an enrich automation in Service Operations Workspace. For more information, see [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -19,8 +19,6 @@ With the ServiceNow Otto for Health and Safety application, safety agents and ma
 ## Skills
 
 The ServiceNow Otto for Health and Safety application includes the skills and features of generative AI to support safety teams working on resolving safety issues.
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Use the following skill provided by the ServiceNow Otto for Health and Safety application.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/view-recovery-tasks-from-self-service-uib-ws.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -22,9 +22,9 @@ Role required: sn\_bcm.recovery\_team\_member
 
 1.  Navigate to **Self-Service** &gt; **My Recovery Tasks**.
 
-2.  View event tasks assigned to you, your assigned group, or your recovery team where the event state is not **Pending**.
+2.  View event tasks assigned to you, your assigned group, or a recovery team you belong to.
 
-    You can view the name and description of the recovery task.
+    The list excludes tasks where the event state is **Pending**. You can view the name and description of each recovery task.
 
 3.  Select the link to the **Task ID** of an event task that you want to update.
 

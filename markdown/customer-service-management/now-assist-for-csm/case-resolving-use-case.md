@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 10
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents, AI agents for Customer Service Management Triage cases agentic workflow]
 breadcrumb: [Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
@@ -23,7 +23,7 @@ Using the Triage cases agentic workflow, handle end-to-end validation, creation,
 
 Refer to the information provided here on agents, tools, and triggers that are related to the Triage cases agentic workflow in AI agents for Customer Service Management.
 
-To modify the Triage cases agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the ServiceNow Otto panel.
+To modify the Triage cases agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -162,6 +162,14 @@ Agentic workflows and their AI agents use [role masking](https://raw.githubuserc
 
 In the data access settings, you must also add the necessary roles to access the cases that need triaging. For example, you can add the csm role to the agentic workflow's list of approved roles so that it can access case records.
 
+## Localization in Triage cases
+
+Multilingual and localization flows in the Triage Cases workflow are fully supported. When setting up translation, keep the following in mind:
+
+-   Add an explicit language instruction at the top of your prompt telling the model to respond in the user's language — instructions placed first carry the most weight.
+-   Avoid wrapping user-facing text in quotes. Quoted strings act as strong anchors that can override translation rules and force verbatim reproduction. Use semantic descriptions instead.
+-   Where possible, deliver static messages through `gs.getMessage()` in a script, and reserve the model's output for dynamic content only.
+
 ## Triaging the case
 
 In the triaging the case agentic workflow, perform the following steps:
@@ -175,7 +183,7 @@ In the triaging the case agentic workflow, perform the following steps:
         **Note:** Choose the user identity this agentic workflow should run as to determine the roles and the data access permissions derived from them. Remember, when agentic workflows can access data, they can also share that data with the human user who interacts with them. Agent level role mask are: B2B agents \(sn\_customerservice\_agent\) and B2C agents \(sn\_customerservice.consumer\_agent\).
 
     1.  In **Add triggers** you can set up optional triggers to launch the agentic workflow automatically without a user request. Triggers can be based on conditions or schedules you define and initiate agentic AI experiences.
-    2.  In **Select channels and status**, you can choose the channels where this agentic workflow will be available to engage with users who initiate interactions. Toggle the display for **Engage via the ServiceNow Otto panel** to see the agentic flow in ServiceNow Otto panel.
+    2.  In **Select channels and status**, you can choose the channels where this agentic workflow will be available to engage with users who initiate interactions. Toggle the display for **Engage via the ServiceNow Otto panel** to see the agentic flow in Now Assist panel.
 
         **Note:** To turn off the agentic workflow, toggle off **Engage via the ServiceNow Otto panel**.
 

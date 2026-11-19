@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/version-control.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-21"
 reading_time_minutes: 3
-breadcrumb: [Explore, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Explore, AI Agent Studio, Enable AI experiences]
 ---
 
 # Version control for AI agents and agentic workflows

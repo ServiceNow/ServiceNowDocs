@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-modeling-add-labels-to-connector-lines.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-13"
 reading_time_minutes: 1
 keywords: [connector, connector label, label]
-breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Working with Enterprise Modeling and Visualization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Add labels to connector lines between shapes in a diagram
@@ -16,8 +16,6 @@ breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterp
 You can enhance diagram clarity in Enterprise Modeling and Visualization by adding a descriptive text on the connector line between shapes. Connector line labels clarify the nature of the relationship between shapes, annotate the data flow direction, and provide contextual information.
 
 ## Before you begin
-
-\[Omitted video\] Description: Configure the relationship type or visual style of a connector between shapens in an Enterprise Modeling diagram.
 
 Role required: sn\_apm.apm\_user
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/r\_MailDiagnostics.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Email logs and diagnostics, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email logs and diagnostics, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer]
 ---
 
 # Email diagnostics
@@ -21,7 +21,7 @@ Navigate to the Diagnostics and Connection page from either of these modules:
 -   **System Mailboxes** &gt; **Email Diagnostics**
 -   **System Diagnostics** &gt; **Email Diagnostics**
 
-\[Omitted image "EmailDiagnosticsPage.png"\] Alt text: Diagnostics and Connection page that shows email receiving as non-operational
+\[Omitted image "email-diagnostics-page.png"\] Alt text: Diagnostics and Connection page that shows email sending and receiving as operational
 
 For quick status on a field, point to the green check mark or red X icon. The check mark icon indicates that the item is operational or healthy, while the X icon indicates that the item is not operational or within the expected range.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [AI Search in mobile, Configuring Now Mobile, EmployeeWorks, Employee Service Management]
+breadcrumb: [AI Search in mobile, Configure, Now Mobile app, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Add AI Search to a launcher screen
@@ -36,6 +36,4 @@ Role required: admin
 
 5.  Select **Save**.
 
-
-**Parent Topic:**[AI Search in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/text-search-advanced-now.md)
 

@@ -1,16 +1,16 @@
 ---
-title: Upload firmware packages
+title: Uploading firmware packages
 description: If you're using a local repository, upload firmware packages to the Discovery Console for OT so the system knows when an update is needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/edit-package-settings.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Settings page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Upload firmware packages
+# Uploading firmware packages
 
 If you're using a local repository, upload firmware packages to the Discovery Console for OT so the system knows when an update is needed.
 
@@ -20,9 +20,9 @@ Role required: admin
 
 ## Procedure
 
-1.  Obtain the latest firmware packages directly from your Discovery Console for OT account representative.
+1.  Obtain the latest firmware packages directly from your Discovery Console for OT representative.
 
-2.  Navigate to the Settings page and open the **Package** tab.
+2.  Navigate to the **Settings** page and open the **Package** tab.
 
 3.  Select **Import Packages**.
 
@@ -35,7 +35,5 @@ Role required: admin
 
 ## Result
 
-The Discovery Console for OT verifies the integrity and authenticity of the uploaded file before they're made available for device updates. Packages that fail authenticity checks are automatically rejected during the upload process.
-
-**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/settings-page-console.md)
+The Console verifies the integrity and authenticity of the uploaded file before they're made available for device updates. Packages that fail authenticity checks are automatically rejected during the upload process.
 

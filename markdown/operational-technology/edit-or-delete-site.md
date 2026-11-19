@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/edit-or-delete-site.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sites page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Sites page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Edit or delete a Site
@@ -40,6 +40,4 @@ Role required: admin
 
         **Note:** If devices are associated to a Site, the Site can't be deleted.
 
-
-**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sites-page.md)
 

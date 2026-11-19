@@ -1,16 +1,16 @@
 ---
-title: Create a table cleanup rule in Core UI
+title: Create a table cleanup rule
 description: Define the criteria for deleting unwanted records in a table cleanup rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/activate-table-cleanup.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Deleting older or unwanted records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Deleting older or unwanted records, Manage data growth, Data Management, Tables and data, Configure core features, Administer]
 ---
 
-# Create a table cleanup rule in Core UI
+# Create a table cleanup rule
 
 Define the criteria for deleting unwanted records in a table cleanup rule.
 
@@ -22,15 +22,15 @@ Role required: admin
 
 1.  Access the new Auto Flush form in one of the following ways.
 
-<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d73316e52">
+<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d70635e50">
 
 Option
 
-</th><th align="left" id="d73316e55">
+</th><th align="left" id="d70635e53">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d73316e61">
+</th></tr></thead><tbody><tr><td id="d70635e59">
 
 **Using the Data Management Console**
 
@@ -40,7 +40,7 @@ Steps
 2.  On the Overview tab, select **New cleanup rule**.
 
 
-</td></tr><tr><td id="d73316e96">
+</td></tr><tr><td id="d70635e94">
 
 **Using a data management policy**
 
@@ -146,5 +146,5 @@ Condition builder for specifying filter conditions that define the records to be
 
 The table cleanup rule runs automatically and deletes records when they meet the specified record age and any conditions that you set for them.
 
-**Parent Topic:**[Deleting older or unwanted records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-older-records.md)
+**Parent Topic:**[Deleting older or unwanted records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/deleting-older-records.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
+breadcrumb: [Configure, Learning Enhanced Automation Platform \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Activate LEAP
@@ -21,6 +21,8 @@ Activate the LEAP skill after installing the application to assemble and categor
 Role required: System admin or LEAP admin
 
 and the application scope must be LEAP.
+
+**Note:** If you require a different LLM, change it before activating LEAP. See [Change LEAP large language model \(LLM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/change-leap-large-languauge-model-llm.md).
 
 ## Procedure
 

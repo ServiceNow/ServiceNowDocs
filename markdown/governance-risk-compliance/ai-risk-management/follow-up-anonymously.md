@@ -7,9 +7,8 @@ release: zurich
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-keywords: [follow up anonymous report, anonymous report center, track AI case anonymously, report key]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Report an AI case anonymously, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -23,9 +22,9 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(This role is requir
 
 ## About this task
 
-You can report anytime, without sharing your name or contact details. Investigators only see the report details, not who submitted it. The AI case is managed as part of AI Risk and Compliance application and can be viewed in AI Control Tower to support risk and compliance oversight. After you submitted your anonymous AI case, the system generated a report number and a private report key. You need the report key to check status updates or provide additional information later. If you lose the report key, it can’t be recovered and the case can’t be identified or retrieved on your behalf. You need this information to follow up on a case.
+You can report anytime, without sharing your name or contact details. Investigators only see the report details, not who submitted it. The AI case is managed as part of AI Risk and Compliance application and can be viewed in Control Tower to support risk and compliance oversight.
 
-If you have not yet submitted an anonymous AI case, see [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md) for submission steps and field descriptions.
+After you submitted your anonymous AI case, the system generated a report number and a private report key. You need the report key to check status updates or provide additional information later. If you lose the report key, it can’t be recovered and the case can’t be identified or retrieved on your behalf. You need this information in order to follow up on a case.
 
 ## Procedure
 
@@ -33,15 +32,15 @@ If you have not yet submitted an anonymous AI case, see [Report an AI case anony
 
 2.  Access the Anonymous report center using one of these options.
 
-<table id="choicetable_x32_l4d_l3c"><thead><tr><th align="left" id="d220321e122">
+<table id="choicetable_x32_l4d_l3c"><thead><tr><th align="left" id="d394611e103">
 
 Option
 
-</th><th align="left" id="d220321e125">
+</th><th align="left" id="d394611e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d220321e131">
+</th></tr></thead><tbody><tr><td id="d394611e112">
 
 **Direct portal access**
 
@@ -51,7 +50,7 @@ Description
 2.  Select **Submit a report anonymously**.
 
 
-</td></tr><tr><td id="d220321e155">
+</td></tr><tr><td id="d394611e136">
 
 **Employee center access**
 
@@ -60,9 +59,6 @@ Description
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
 2.  On the Employee Center landing page, select **Help center** &gt; **Technology services** and then select **AI assets** from the Technology services topics section.
 3.  Select the **Visit Anonymous Report Center** card.
-
-**Note:** A confirmation dialog appears when you select this card. It notifies you that your current session will end and you will be signed out of the application. After confirmation, you gain access to the Anonymous Reporting Center as a guest user to maintain your anonymity throughout the submission process.
-
 4.  Select **Submit a report anonymously**.
 
 
@@ -84,15 +80,9 @@ Description
     This step opens your report, which hosts the case status and the history of your interactions with the investigator. Your identity remains confidential throughout.
 
 
-## Result
-
-Your report opens, showing the current case status and the full history of interactions with the investigator. You can add new information or respond to investigator comments while your identity remains confidential.
-
 ## What to do next
 
 Use the report to add new information or to respond to investigator comments.
-
-**Note:** Maintain the report number and private report key securely so you can track updates or provide additional information without revealing your identity.
 
 **Parent Topic:**[Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
 

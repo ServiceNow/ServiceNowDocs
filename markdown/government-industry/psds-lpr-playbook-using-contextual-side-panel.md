@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-lpr-playbook-using-contextual-side-panel.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [License and Permit Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using the contextual side panel in License and Permit Administration
@@ -30,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Record information icon \[Omitted image "contextual-side-panel-record-info.png"\] Alt text: Record information icon
+Record information icon \[Omitted image "contextual-side-panel-record-info.jpg"\] Alt text: Record information icon
 
 </td><td>
 
@@ -38,7 +38,7 @@ Relevant information about a record. In License and Permit Administration, the r
 
 </td></tr><tr><td>
 
-Activity stream icon \[Omitted image "activity-stream-icon.png"\] Alt text: Activity stream icon
+Activity stream icon \[Omitted image "image.activity-stream-icon-psds-playbooks"\] Alt text: Activity stream icon
 
 </td><td>
 

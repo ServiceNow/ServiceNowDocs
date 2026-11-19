@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/add-
 release: zurich
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Armis Early Warning, risk rule, risk scoring criteria, Default Risk Calculator]
 breadcrumb: [Early Warning for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
@@ -55,6 +55,8 @@ Role required: sn\_sec\_calculator.admin
 ## What to do next
 
 To preview how the updated risk rule scores existing vulnerable items, select **Preview** in the Criteria section before saving the rule.
+
+**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/armis-early-warning-integration.md)
 
 **Related topics**  
 

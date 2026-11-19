@@ -1,21 +1,20 @@
 ---
 title: Add a log correlator to identify related alerts
-description: In Health Log Analytics, detect related alerts in log data by adding log correlators. The base system includes several log correlators and you can define custom log correlators.
+description: Detect related alerts in log data by adding log correlators. The base system includes several log correlators and you can define custom log correlators.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/hla-op-correlator-define.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-keywords: [add log correlator, define log correlator, create log correlator, custom log correlators, log correlator configuration, correlator setup]
 breadcrumb: [Use log correlators to find related alerts, Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Add a log correlator to identify related alerts
 
-In Health Log Analytics, detect related alerts in log data by adding log correlators. The base system includes several log correlators and you can define custom log correlators.
+Detect related alerts in log data by adding log correlators. The base system includes several log correlators and you can define custom log correlators.
 
 ## Before you begin
 
@@ -29,37 +28,37 @@ For information about the types and functions of log correlators, see [Log corre
 
 1.  Use one of the following methods to add a log correlator.
 
-<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d391780e105">
+<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d387907e75">
 
 Option
 
-</th><th align="left" id="d391780e108">
+</th><th align="left" id="d387907e78">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d391780e114">
+</th></tr></thead><tbody><tr><td id="d387907e84">
 
 **Add a log correlator for a specific log source**
 
 </td><td>
 
 1.  Navigate to **Health Log Analytics** &gt; **Log Anomaly Detection** &gt; **Log Correlators**. The list of existing log correlators opens.
-2.  Select the name of a log correlator. The names appear in the **Correlation indicator** column.
-3.  Select **New**.
+2.  Click the name of a log correlator. The names appear in the **Correlation indicator** column.
+3.  Click **New**.
 
 
-</td></tr><tr><td id="d391780e153">
+</td></tr><tr><td id="d387907e123">
 
 **Add a log correlator that applies either to all log sources or to only those log sources that become active after you define this log correlator**
 
 </td><td>
 
 1.  Navigate to **Health Log Analytics** &gt; **Data Input** &gt; **Log Sources**.
-2.  Select the name of the log source.
+2.  Click the name of the log source.
 
 The Log correlators related list displays the list of existing log correlators that analyze log data from the selected log source.
 
-3.  On the **Log correlators** tab, select **New**.
+3.  On the **Log correlators** tab, click **New**.
 
 
 </td></tr></tbody>

@@ -9,14 +9,16 @@ classification: product-feedback
 topic_type: concept
 last_updated: "2026-07-24"
 reading_time_minutes: 1
-breadcrumb: [Explore, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Explore, Feedback, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # AI Skills in Feedback application in Strategic Planning
 
 Use AI skills and agents to transform Strategic Portfolio Management into a continuous value engine. Embed intelligence across every stage to optimize resources and investments.
 
-Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+Admin users can modify the skill configuration, turn it off, or reactivate it from **AI Admin Hub**. For more information, see [Configure the feedback AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/configure-feedback-summarization-skill.md).
 
 ## Multi feedback or Feedback summarization
 
@@ -27,7 +29,7 @@ Provides product managers with a concise and informative summary of the lengthy 
 
 [Summarize the feedback by using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/product-feedback/feedback-summary-sentiment-topics-pf.md)
 
-[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/configuring-na-spm.md)
+[Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md)
 
 [Use AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/using-na-admin-spm.md)
 

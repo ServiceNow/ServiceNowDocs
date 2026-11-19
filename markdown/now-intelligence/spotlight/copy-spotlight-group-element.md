@@ -7,7 +7,7 @@ release: zurich
 product: Spotlight
 classification: spotlight
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Ranking records with Spotlight, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -34,15 +34,15 @@ When you first create a Spotlight group, you can associate it with at most one e
 
 3.  In the Copy Spotlight Group dialog, select a value for **Name Preference**.
 
-<table id="choicetable_vdg_jsl_dhb"><thead><tr><th align="left" id="d35741e84">
+<table id="choicetable_vdg_jsl_dhb"><thead><tr><th align="left" id="d35062e80">
 
 Value
 
-</th><th align="left" id="d35741e87">
+</th><th align="left" id="d35062e83">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d35741e93">
+</th></tr></thead><tbody><tr><td id="d35062e89">
 
 **Do not change the name**
 
@@ -50,7 +50,7 @@ Description
 
 All copies will have the same name as the original Spotlight group.
 
-</td></tr><tr><td id="d35741e102">
+</td></tr><tr><td id="d35062e98">
 
 **Change the name**
 
@@ -58,7 +58,7 @@ All copies will have the same name as the original Spotlight group.
 
 Manually write a new name that will be given to all copies of the Spotlight group.
 
-</td></tr><tr><td id="d35741e111">
+</td></tr><tr><td id="d35062e107">
 
 **Add element name to new name as prefix**
 
@@ -66,7 +66,7 @@ Manually write a new name that will be given to all copies of the Spotlight grou
 
 For each copy of the Spotlight group, the [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) name is added to the beginning of the Spotlight group name. You can keep the base name from the original Spotlight group or specify a new one.The **New Name** field does not show these prefixes.
 
-</td></tr><tr><td id="d35741e130">
+</td></tr><tr><td id="d35062e126">
 
 **Add element name to new name as suffix**
 

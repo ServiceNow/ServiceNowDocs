@@ -1,5 +1,5 @@
 ---
-title: Enable High Security plugin
+title: Enable High Security Plugin \[Updated in Security Center 1.3\]
 description: When you activate the High Security plugin, it creates or updates hundreds of different configurations to control the level of security on your instance. These configurations mitigate many of the top OWASP attacks by enabling strict access control, input validation, and output encoding.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-high-security-plugin.html
@@ -7,18 +7,34 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2025-07-31"
+reading_time_minutes: 2
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enable High Security plugin
+# Enable High Security Plugin \[Updated in Security Center 1.3\]
 
 When you activate the High Security plugin, it creates or updates hundreds of different configurations to control the level of security on your instance. These configurations mitigate many of the top OWASP attacks by enabling strict access control, input validation, and output encoding.
 
-The High Security plugin, activated by default, creates more than 900 different configurations to control the level of security on your instance. These configurations enable strict access control, input validation, and output encoding. It separates user functionality from access control management functionality through requiring administrators to explicitly elevate into a **security\_admin** role before making access control changes.
+These configurations include:
 
-Ensure that the plugin **com.glide.high\_security** is activated.
+-   Access Control
+-   Business rules
+-   System properties
+-   UI policy action
+-   script actions
+-   script includes
+
+## Example
+
+Refer to the examples for the following properties:
+
+|Property|Topic|
+|--------|-----|
+|glide.ui.escape\_all\_script|[Escape jelly script \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-escape-jelly.md)|
+|glide.security.strict.actions|[Check UI action conditions before execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-check-ui-action-conditions-before-execution.md)|
+|glide.security.csrf\_previous.allow|[Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md)|
+|glide.security.csrf.strict.validation.mode|[Prevent Users From Accepting Warning To Bypass CSRF Validation \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-csrf-strict-validation.md)|
 
 ## More information
 
@@ -32,11 +48,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Configuration name
+Plugin Name
 
 </td><td>
 
-**com.glide.high\_security**
+com.glide.high\_security
 
 </td></tr><tr><td>
 
@@ -44,39 +60,7 @@ Configuration type
 
 </td><td>
 
-System Properties \(/sys\_properties\_list.do\)
-
-</td></tr><tr><td>
-
-Data type
-
-</td><td>
-
-Plugin
-
-</td></tr><tr><td>
-
-Recommended value
-
-</td><td>
-
-The plugin **com.glide.high\_security** is active
-
-</td></tr><tr><td>
-
-Default value
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
-Fallback value
-
-</td><td>
-
- 
+System Definition &gt; Plugins - Development
 
 </td></tr><tr><td>
 
@@ -84,17 +68,31 @@ Category
 
 </td><td>
 
- 
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 
 </td></tr><tr><td>
 
-Security risk
+Purpose
 
 </td><td>
 
--   Severity score: 9.8
--   CVSS rating: Critical
--   Security risk details: Critical parts of the instance may be exposed to unauthorized access or manipulation.
+It is mandatory to activate this plugin. It increases the security level of an instance, which reduces the attack surface by mitigating owasp top 10 attacks, including CSRF, XSS, Securing Session Cookies, and File uploads.
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+Active
+
+</td></tr><tr><td>
+
+Security risk rating
+
+</td><td>
+
+9.8
 
 </td></tr><tr><td>
 
@@ -102,16 +100,28 @@ Functional impact
 
 </td><td>
 
-None
+This plugin enables several system security configurations, which may impact UI and functionality as well.
 
 </td></tr><tr><td>
 
-Dependencies and prerequisites
+Security risk
 
 </td><td>
 
-None
+\(High\) Many security configurations are unintentionally left open, which may open the door for some of the critical vulnerabilities.
+
+</td></tr><tr><td>
+
+References
+
+</td><td>
+
+[Activating High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/t_ActivateHighSecuritySettings.md)
+
+ [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/c_HighSecuritySettings.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>To learn more about activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ActivateAPlugin.md)
+
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

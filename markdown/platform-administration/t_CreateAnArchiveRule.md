@@ -1,16 +1,16 @@
 ---
-title: Create an archive rule in Core UI
+title: Create an archive rule
 description: Define the criteria for archiving records by creating an archive rule.Preview the records that you want to archive, and then activate an archive rule.Delete archived records and related records after a specified amount of time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_CreateAnArchiveRule.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Archiving records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Archiving records, Manage data growth, Data Management, Tables and data, Configure core features, Administer]
 ---
 
-# Create an archive rule in Core UI
+# Create an archive rule
 
 Define the criteria for archiving records by creating an archive rule.
 
@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Access the new archive rule form in one of the following ways.
 
-<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d169829e66">
+<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d161723e64">
 
 Option
 
-</th><th align="left" id="d169829e69">
+</th><th align="left" id="d161723e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d169829e75">
+</th></tr></thead><tbody><tr><td id="d161723e73">
 
 **Using the Data Management Console**
 
@@ -42,7 +42,7 @@ Steps
 2.  On the Overview tab, select **New archive rule**.
 
 
-</td></tr><tr><td id="d169829e110">
+</td></tr><tr><td id="d161723e108">
 
 **Using a data management policy**
 
@@ -53,7 +53,7 @@ Steps
 3.  In the Archive Rules related list, select **New**.
 
 
-</td></tr><tr><td id="d169829e146">
+</td></tr><tr><td id="d161723e144">
 
 **Using the Archive Rules module**
 
@@ -159,7 +159,7 @@ The time interval before the restored record is automatically archived.
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Archiving records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/archiving-older-records.md)
+**Parent Topic:**[Archiving records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/archiving-older-records.md)
 
 ## Activate an archive rule
 
@@ -179,15 +179,15 @@ The sample archive rules are inactive by default.
 
 1.  Access the archive rule that you want to activate in one of the following ways.
 
-<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d169829e458">
+<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d161723e456">
 
 Option
 
-</th><th align="left" id="d169829e461">
+</th><th align="left" id="d161723e459">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d169829e467">
+</th></tr></thead><tbody><tr><td id="d161723e465">
 
 **Using a data management policy**
 
@@ -198,7 +198,7 @@ Steps
 3.  In the Archive Rules related list, select the archive rule that you want to activate.
 
 
-</td></tr><tr><td id="d169829e500">
+</td></tr><tr><td id="d161723e498">
 
 **Using the Archive Rules module**
 

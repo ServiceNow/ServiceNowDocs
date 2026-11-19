@@ -7,9 +7,9 @@ release: zurich
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
-breadcrumb: [Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
+breadcrumb: [Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
 ---
 
 # Troubleshooting issues for Azure DevOps integration with Agile Development

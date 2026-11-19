@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-gm-rolling-grant-approvals-concept.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-08"
 reading_time_minutes: 2
-breadcrumb: [Grants Management, Playbooks and Solutions, Explore, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Grants Management, Playbooks and solutions, Explore, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Rolling grant approvals
@@ -32,15 +32,7 @@ Multiple funding requests can exist simultaneously for the same grant program, a
 **Related topics**  
 
 
-[Use Rolling grant approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-gm-rolling-grant-approvals-concept.md)
-
-[Mark proposals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-rolling-grants-mark-proposals-task.md)
-
-[Submit a Funding Allocation Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-rolling-grants-submit-fr-task.md)
-
-[Review and Approve a Funding Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-gm-review-fr-task.md)
-
-[Release result notices to applicants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-gm-release-result-notices-task.md)
+[psds-using-gm-rolling-grant-approvals-concept]
 
 [Grant Proposal funding statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-gm-proposal-funding-status-ref.md)
 

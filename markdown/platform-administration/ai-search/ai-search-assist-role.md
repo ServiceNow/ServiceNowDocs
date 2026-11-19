@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [AI Search record producer for Service Portal, Integrate, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [AI Search record producer for Service Portal, Integrate, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # AI Search Assist roles

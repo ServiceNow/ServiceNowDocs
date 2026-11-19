@@ -7,10 +7,10 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [transfer order flow, transfer order line flow]
-breadcrumb: [Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
+breadcrumb: [Manage transfer order, Use, Asset Management, IT Asset Management]
 ---
 
 # Transfer order flow
@@ -19,7 +19,7 @@ Use the Transfer Order flow to track asset movement from one stockroom to the ot
 
 ## Prerequisites
 
-The Asset Management \(com.snc.asset\_management\) plugin is installed.
+Asset Management \(com.snc.asset\_management\) plugin is installed.
 
 ## Transfer Order
 
@@ -42,9 +42,7 @@ In the asset life cycle automation process, when multiple assets are transferred
 
 [Customize transfer order line tasks]()
 
-[Transfer assets using transfer orders]()
-
 [Transfer order line asset tracking]()
 
-[Transfer assets using transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/t_TransferAssetsUsingTransferOrders.md)
+[Transfer order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/asset-management/work-with-transfer-orders.md)
 

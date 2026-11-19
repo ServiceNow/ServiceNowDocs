@@ -1,20 +1,20 @@
 ---
-title: Update a saved ad hoc filter
-description: Update ad hoc filters saved in Dispatcher Workspace.
+title: Update a saved ad-hoc filter
+description: Update ad-hoc filters saved in Dispatcher Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/field-service-scheduling/update-a-saved-ad-hoc-filter.html
 release: zurich
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Managing ad hoc filters, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
+breadcrumb: [Ad-hoc filters, Using Dispatcher Workspace, Assigning WOTs from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
-# Update a saved ad hoc filter
+# Update a saved ad-hoc filter
 
-Update ad hoc filters saved in Dispatcher Workspace.
+Update ad-hoc filters saved in Dispatcher Workspace.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: wm\_dispatcher
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Select **List**.
+2.  Click **List**.
 
 3.  Under **Lists**, navigate to **Saved Filters** &gt; **Task Filter**.
 
@@ -32,7 +32,7 @@ Role required: wm\_dispatcher
 
 5.  Select and edit the desired fields.
 
-6.  Select **Save**.
+6.  Click **Save**.
 
 
 ## Result

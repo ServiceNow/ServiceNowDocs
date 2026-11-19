@@ -7,10 +7,10 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Summarize a Sidebar discussion by using ServiceNow Otto for Customer Service Management \(CSM\)
@@ -33,7 +33,7 @@ You can do these actions by using Sidebar discussion summarization:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace** and open a customer service case that supports Sidebar discussion and summarization.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and open a customer service case that supports Sidebar discussion and summarization.
 
 2.  Choose an existing discussion, or start a new discussion.
 
@@ -45,25 +45,21 @@ You can do these actions by using Sidebar discussion summarization:
 
     3.  Select **Start Discussion**.
 
-    \[Omitted image "now-assist-sidebar-discussion.png"\] Alt text: Modal to add participants for discussion.
-
-3.  Generate a summary of the Sidebar discussion during the conversation.
-
-    Use one of the following methods:
+3.  Generate a summary of the Sidebar discussion.
 
     -   Enter `/Summarize` in the Active sidebar discussion window.
     -   Select the quick action icon \[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: Quick action icon..
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d40841e231">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d39137e207">
 
 Option
 
-</th><th align="left" id="d40841e234">
+</th><th align="left" id="d39137e210">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d40841e240">
+</th></tr></thead><tbody><tr><td id="d39137e216">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -74,7 +70,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d40841e267">
+</td></tr><tr><td id="d39137e243">
 
 **Provide feedback for the summary**
 

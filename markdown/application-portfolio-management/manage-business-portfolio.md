@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/manage-business-portfolio.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+last_updated: "2025-07-31"
+reading_time_minutes: 3
+breadcrumb: [Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Exploring a business portfolio
@@ -47,21 +47,7 @@ To view the value stream stages associated with a business capability, open a bu
 **Related topics**  
 
 
-[Add a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/add-a-capability.md)
-
-[Create a demand towards achievement of a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-a-demand-towards-achievement-of-capability.md)
-
-[Update the hierarchy of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/update-hierarchy.md)
-
-[Create a sub-capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-create-sub-capability.md)
-
-[Assign a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/assign-a-business-application.md)
-
-[Delete a capability from the hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/delete-a-capability.md)
-
-[Unassign a business application from a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/unassign-a-business-application-from-a-capability.md)
-
-[View a roadmap of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-roadmap-bc.md)
+[Working with the business portfolio module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-work-with-business-portfolio-mod.md)
 
 [Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/generate-insights-into-ba.md)
 

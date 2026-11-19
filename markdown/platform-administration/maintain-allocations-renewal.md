@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/maintain-allocations-renewal.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Managing per-user subscriptions, Subscription Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Managing per-user subscriptions, Subscription Management, Get started, Administer]
 ---
 
 # Maintain per-user subscription allocations in Subscription Management at renewal

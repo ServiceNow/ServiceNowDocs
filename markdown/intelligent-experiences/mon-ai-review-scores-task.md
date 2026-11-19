@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reviewing scores, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reviewing scores, Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Review scores across your AI portfolio
@@ -21,7 +21,7 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor**.
 
 2.  Set the date range for the data you want to review.
 
@@ -43,7 +43,7 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
     3.  Expand the scoring formula section to see a stacked bar visualization of how each metric contributes to the composite score.
 
-    For example, if the Quality score is 68%, the side panel might show that Task completion \(weight 25%\) scored 54% while Answer completeness \(weight 40%\) scored 91%. The low Task completion score is pulling down the composite.
+    For example, if the Quality score is 68%, the side panel might show that Answer relevancy \(weight 25%\) scored 54% while Answer completeness \(weight 40%\) scored 91%. The low Answer relevancy score is pulling down the composite.
 
 5.  Identify which AI systems need attention by reviewing the **AI systems ranked by score** widget.
 
@@ -74,9 +74,9 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
     |**All metrics**|View the performance of all metrics over time.|
     |**Select a specific metric**|View the performance for a specific metric by selecting it from the list.|
 
-    Solid lines represent metrics that contribute to this AI system's overall quality or safety score. Dotted lines represent metrics that are collected but don't contribute to those scores. You can point to a data point on the chart to see the exact score for that date.
+    Solid lines represent metrics that contribute to your overall quality or safety score. Dotted lines represent metrics that are collected but don't contribute to those scores. You can point to a data point on the chart to see the exact score for that date.
 
-    For example, a gradual decline in Task completion from 90% to 72% over three weeks indicates a quality regression for this AI system that warrants session-level investigation.
+    For example, a gradual decline in Answer relevancy from 90% to 72% over three weeks indicates a quality regression across your AI portfolio that warrants investigation.
 
     To add a dotted-line metric to your scoring formula, see [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-configure-metric-templates.md).
 

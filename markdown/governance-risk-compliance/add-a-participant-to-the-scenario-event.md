@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-10-08"
 reading_time_minutes: 3
-breadcrumb: [Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Conducting a scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Add a participant to a scenario analysis

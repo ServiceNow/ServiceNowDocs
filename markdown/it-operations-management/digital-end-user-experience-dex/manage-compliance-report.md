@@ -1,21 +1,20 @@
 ---
 title: Manage your system compliance report
-description: Configure the DEX policy metrics, monitored applications, and threshold-based metric rules for your organization's device compliance report.
+description: Configure the DEX policy metrics and the applications to monitor for your organization's compliance report. Set up the compliance-related rules and actions for your organization's devices based on defined thresholds.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/manage-compliance-report.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
-reading_time_minutes: 1
-keywords: [compliance report, manage compliance, device compliance report, compliance policy, metric rules]
-breadcrumb: [DEX insights setup, Configure, Digital End-User Experience, IT Operations Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [DEX Insights, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Manage your system compliance report
 
-Configure the DEX policy metrics, monitored applications, and threshold-based metric rules for your organization's device compliance report.
+Configure the DEX policy metrics and the applications to monitor for your organization's compliance report. Set up the compliance-related rules and actions for your organization's devices based on defined thresholds.
 
 ## Before you begin
 
@@ -31,37 +30,37 @@ Role required: admin
 
 3.  Select **Configure** on the System compliance card.
 
-4.  Select one or more of the following options to configure compliance monitoring for your organization's IT devices.
+4.  Choose one or more of the following options to configure how you want to monitor the compliance of your organization's IT devices.
 
-<table id="choicetable_l2j_bvc_fdc"><thead><tr><th align="left" id="d345073e120">
+<table id="choicetable_l2j_bvc_fdc"><thead><tr><th align="left" id="d339375e101">
 
 Option
 
-</th><th align="left" id="d345073e123">
+</th><th align="left" id="d339375e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d345073e129">
+</th></tr></thead><tbody><tr><td id="d339375e110">
 
 **Manage compliance policy**
 
 </td><td>
 
-1.  Select a check box next to the system policy value that you want to use for monitoring.
+1.  Select a check box by the system policy value that you want to use for monitoring.
 2.  In the **Actions** drop-down list, select **Turn on monitoring**.
 
 
-</td></tr><tr><td id="d345073e153">
+</td></tr><tr><td id="d339375e134">
 
 **Manage applications**
 
 </td><td>
 
-1.  Select a check box next to the system policy value that you want to use for monitoring.
+1.  Select a check box by the system policy value that you want to use for monitoring.
 2.  In the **Actions** drop-down list, select **Turn on monitoring**.
- **Note:** To learn more about adding or editing an application to monitor, see [Add an application for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/add-new-application.md) or [Add web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/admin-new-app-form.md).
+ **Note:** To learn more about adding or editing an application to monitor, see [Add an application for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/add-new-application.md) or [New web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/admin-new-app-form.md).
 
-</td></tr><tr><td id="d345073e194">
+</td></tr><tr><td id="d339375e175">
 
 **Manage metric rules**
 
@@ -72,6 +71,6 @@ Select a metric rule name to customize. The rules trigger actions based on speci
 </td></tr></tbody>
 </table>    **Note:** You can enable multiple compliance policy values simultaneously by selecting a check box next to **Metric name**. Adjust your selection as needed by selecting individual check boxes for each value.
 
-    For more information about the compliance report, see [DEX Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-workspace-insights-tab.md).
+    For more information on the compliance report, see [DEX Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-workspace-insights-tab.md).
 
 

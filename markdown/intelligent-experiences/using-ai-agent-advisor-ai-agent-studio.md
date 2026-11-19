@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [Use, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Use, AI Agent Advisor, Enable AI experiences]
 ---
 
 # AI Agent Advisor in AI Agent Studio
@@ -25,10 +25,16 @@ For more information, see [AI Agent Studio overview](https://raw.githubuserconte
 
 **Parent Topic:**[Using AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor.md)
 
+**Parent Topic:**[Using AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor.md)
+
 **Related topics**  
 
 
 [AI Agent Advisor in AI Admin Center]()
 
-[AI Agent Advisor in AI Control Tower]()
+[AI Agent Advisor in Control Tower]()
+
+[AI Agent Advisor in AI Admin Center]()
+
+[AI Agent Advisor in Control Tower]()
 

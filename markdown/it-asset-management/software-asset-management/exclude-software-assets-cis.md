@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-10-19"
 reading_time_minutes: 2
 keywords: [exclude software, configuration items, CIs, Exclude from SAM, hardware, license compliance]
-breadcrumb: [License exclusions, Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [License exclusions, Configure, Software Asset Management, IT Asset Management]
 ---
 
 # Exclude software assets on CIs

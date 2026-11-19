@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/sgc-prereq-settings.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -25,6 +25,4 @@ Dependencies and requirements:
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
 -   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
-
-**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-ot-discovery.md)
 

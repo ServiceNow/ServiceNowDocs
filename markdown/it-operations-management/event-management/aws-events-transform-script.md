@@ -7,8 +7,8 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-06-22"
+reading_time_minutes: 3
 breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -115,7 +115,7 @@ Bind AWS platform alarms on the Load Balancer \(LB\) to the Cloud Load Balancer 
 
 5.  Configure AWS to forward CloudWatch or EventBridge events from multiple accounts to a centralized account using a single SNS topic.
 
-    The SNS topic delivers events to the ServiceNow Event Ingestion endpoint. To configure it, see [https://repost.aws/knowledge-center/cloudwatch-cross-account-sns](https://repost.aws/knowledge-center/cloudwatch-cross-account-sns). This design simplifies integration, avoids duplicating SNS topics across accounts, and provides a single entry point for all monitoring events flowing into ServiceNow.
+    To configure it, see [https://repost.aws/knowledge-center/cloudwatch-cross-account-sns](https://repost.aws/knowledge-center/cloudwatch-cross-account-sns). This design simplifies integration, avoids duplicating SNS topics across accounts, and provides a single entry point for all monitoring events flowing into ServiceNow.
 
 
 -   **[Integrate AWS with REST API key token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/integrate-aws-api-key.md)**  

@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Reports and dashboards, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Reports and dashboards, Enterprise Agile Planning, Strategic Planni
 The Agile Team dashboard provides you with sprint progress and team performance details for an Agile team in the Enterprise Agile Planning \(EAP\) workspace.
 
 \[Omitted image "eap-agile-team-dashboard.png"\] Alt text: Agile Team dashboard showing various data visualizations and team performance reports.
-
-Agile Teams whose planning methodology is Kanban see the Kanban Team dashboard on the **Home** tab instead of this dashboard. For more information, see [Kanban Team dashboard in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/kanban-team-dashboard-in-eap.md).
 
 You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.md).
 

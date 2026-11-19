@@ -7,7 +7,7 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: topic
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Operations Management]
 ---

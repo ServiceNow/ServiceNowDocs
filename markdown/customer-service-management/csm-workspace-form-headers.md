@@ -1,26 +1,26 @@
 ---
-title: CRM Workspace form headers
-description: Form headers in CRM Workspace provide agents with a brief description of the case.
+title: CSM Configurable Workspace form headers
+description: Form headers in CSM Configurable Workspace provide a quick glance of case, account, or contact information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-workspace-form-headers.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-06-30"
 reading_time_minutes: 1
-breadcrumb: [Form features, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CRM Workspace form headers
+# CSM Configurable Workspace form headers
 
-Form headers in CRM Workspace provide agents with a brief description of the case.
+Form headers in CSM Configurable Workspace provide a quick glance of case, account, or contact information.
 
 Form headers typically include the case short description. They can also include the action bar, record tags, and the [record presence component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/csm-front-line-case-page.md).
 
 \[Omitted image "csm-config-workspace-case-form-header.png"\] Alt text: Case form header that shows the short description, record tags, and action buttons such as Close Case, Save, and Assign to me
 
-For more information, see [Set up a form header in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-config-ws-form-header.md)
+For more information, see [Set up a form header in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-config-ws-form-header.md)
 
-**Note:** One form header configuration, **CRM Workspace Header Config**, is included with CRM Workspace.
+**Note:** One form header configuration, **CSM/FSM Configurable Workspace Header Config**, is included with CSM Configurable Workspace.
 
 ## Record Information tab
 
@@ -31,13 +31,13 @@ The Record Information tab in the contextual side panel can include the followin
 -   Overview: Displays relevant information about the case including the account and contact, the case priority, and the state.
 -   Active SLA: Displays active SLAs for the case, including time remaining, the SLA state, and any breaches.
 
-The cards that appear in the Record Information tab can be configured in the ribbon configuration. For more information, see [Set up a ribbon configuration in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-config-ws-ribbon.md).
+The cards that appear in the Record Information tab can be configured in the ribbon configuration. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-config-ws-ribbon.md).
 
 \[Omitted image "csm-config-workspace-case-form-header-sidebar.png"\] Alt text: The overview card shows the customer information, the case priority, and case state.
 
 ## Form header components
 
-For CRM Workspace, the form header is made up of individual components that can be configured with [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/using-ui-builder.md).
+For CSM Configurable Workspace, the form header is made up of individual components that can be configured with [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/using-ui-builder.md).
 
 Individual components provide customers with flexible and granular configuration options. Customers can control the placement, size and spacing of these components, giving them the ability to show additional information that agents may need.
 

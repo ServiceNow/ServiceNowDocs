@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/register-business-application-using-conversational-experience.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-22"
 reading_time_minutes: 3
-breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Register a business application conversationally
@@ -15,8 +15,6 @@ breadcrumb: [Working with an application portfolio, Working with Portfolio list 
 Use the conversational experience of ServiceNow Otto in Virtual Agent to register a business application from any application that supports Virtual Agent.
 
 ## Before you begin
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Ensure that the following tasks are completed:
 
@@ -39,15 +37,15 @@ In the application that supports Virtual Agent, for example Employee Service Cen
 
     You can start with a basic instruction such as **Register a business application** or an elaborate instruction that includes the business application's information. The following examples show how each instruction is handled in the chat.
 
-<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d114375e162">
+<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d129928e152">
 
 Instruction
 
-</th><th align="left" id="d114375e165">
+</th><th align="left" id="d129928e155">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d114375e171">
+</th></tr></thead><tbody><tr><td id="d129928e161">
 
 **Short: Register a business application**
 
@@ -63,7 +61,7 @@ Virtual Agent starts a conversation to ask more information from you about the b
 -   What type of application is this?
  The information you provide is used to fill in the fields of the business application form.\[Omitted image "register-ba-virtual-agent.png"\] Alt text: Screenshot showing ServiceNow OttoVirtual Agent chat window showing a request for the registration of a business application.
 
-</td></tr><tr><td id="d114375e218">
+</td></tr><tr><td id="d129928e208">
 
 **Elaborate: Register the new business application XYZ, which is used for capturing application metrics. Specify Abel Tuter as both the business application owner and IT owner. Also, category of the business application is Business Intelligence – Reports and type of application is SaaS.**
 

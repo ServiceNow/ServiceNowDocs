@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-01-20"
 reading_time_minutes: 1
-breadcrumb: [Condition check definitions, Contract Management, Common applications, Asset Management]
+breadcrumb: [Condition check definitions, Contract Management, IT Asset Management]
 ---
 
 # Define a condition check

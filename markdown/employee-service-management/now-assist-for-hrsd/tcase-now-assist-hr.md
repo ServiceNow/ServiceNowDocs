@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -39,7 +39,7 @@ Role required: sn\_hr\_core.case\_writer
 
     5.  Click **OK**.
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Using ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
@@ -58,9 +58,9 @@ Role required: sn\_hr\_core.case\_writer
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
 
-[Summarize an ER case interview using ServiceNow Otto for HRSD]()
-
 [Summarize an ER case using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
 
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 
@@ -75,8 +75,6 @@ Role required: sn\_hr\_core.case\_writer
 [Submit an HR request with Gen AI Virtual Agent]()
 
 [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
-
-[Generate activity responses for HR cases]()
 
 [Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

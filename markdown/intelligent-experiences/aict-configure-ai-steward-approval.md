@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-11-02"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring builder controls, Configuring ServiceNow AI settings, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring builder controls, Configuring ServiceNow AI settings, Configure, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Require AI steward approval for AI assets
@@ -25,21 +25,21 @@ Each change takes effect as soon as you select **Activate** or confirm **Deactiv
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **ServiceNow AI**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **ServiceNow AI**.
 
 2.  Select the **Builder controls** tab.
 
 3.  In the **AI steward approval for AI assets** section, set the approval requirement for each asset type.
 
-<table><thead><tr><th align="left" id="d94811e113">
+<table><thead><tr><th align="left" id="d73469e113">
 
 Scenario
 
-</th><th align="left" id="d94811e116">
+</th><th align="left" id="d73469e116">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d94811e122">
+</th></tr></thead><tbody><tr><td id="d73469e122">
 
 **Require approval**
 
@@ -47,7 +47,7 @@ Steps
 
 On the **AI systems**, **MCP servers**, or **AI models** row, select **Activate**.
 
-</td></tr><tr><td id="d94811e146">
+</td></tr><tr><td id="d73469e146">
 
 **Stop requiring approval**
 
@@ -62,15 +62,15 @@ On the **AI systems**, **MCP servers**, or **AI models** row, select **Activate*
 
 4.  In the **Automated requests** section, set whether approval requests are triggered automatically for AI assets.
 
-<table><thead><tr><th align="left" id="d94811e188">
+<table><thead><tr><th align="left" id="d73469e188">
 
 Scenario
 
-</th><th align="left" id="d94811e191">
+</th><th align="left" id="d73469e191">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d94811e197">
+</th></tr></thead><tbody><tr><td id="d73469e197">
 
 **Start approval requests automatically**
 
@@ -78,7 +78,7 @@ Steps
 
 On the **Automatically trigger playbooks** row, select **Activate**.
 
-</td></tr><tr><td id="d94811e215">
+</td></tr><tr><td id="d73469e215">
 
 **Start approval requests manually**
 

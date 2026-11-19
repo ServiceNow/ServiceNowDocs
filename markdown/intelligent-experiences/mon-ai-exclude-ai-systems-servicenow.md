@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mon-ai-exclude-ai-systems-servicenow.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-17"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure evaluation scoring for ServiceNow AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure evaluation scoring for ServiceNow AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Exclude ServiceNow AI systems from a metric
@@ -25,7 +25,7 @@ You can optionally exclude one or more AI systems from a single metric without a
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Evaluation**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Evaluation**.
 
 2.  On the **AI evaluations** sub-tab, select **ServiceNow AI systems**.
 

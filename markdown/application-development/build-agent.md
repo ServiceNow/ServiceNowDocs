@@ -6,10 +6,10 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/
 release: zurich
 topic_type: reference
 last_updated: "2026-10-28"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [Build Agent, AI agent, autonomous AI, application development, ServiceNow applications, conversational interface, natural language, application lifecycle management, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: programmer
-breadcrumb: [Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
 # Build Agent
@@ -55,14 +55,6 @@ Build Agent is available in ServiceNow Studio and the ServiceNow IDE. It appears
 
 Use the following resources to learn about related products and to get help:
 
--   **Autonomous Engineer**
-
-    For information about the agentic AI worker that builds applications from your requirements, see [Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/autonomous-engineer.md).
-
--   **Build Agent and Autonomous Engineer**
-
-    For the differences between the two products and what they share, see [Autonomous Engineer and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ae-build-agent-relationship.md).
-
 -   **Limitations**
 
     For limitations that apply when you use Build Agent, see [Build Agent limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-limitations.md).
@@ -89,15 +81,4 @@ This application requires data to be transferred from ServiceNow customers' indi
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for chat summarization, resolution notes generation, knowledge generation, call summarization\), chat transcripts \(for chat recommendation\), and email information \(for email response\). Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-products.md).
-
--   **[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/exploring-build-agent.md)**  
-Build Agent enables developers to create, edit, and deploy full-stack ServiceNow® applications to update sets that encompass both user interface and back-end components.
--   **[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/configure-build-agent.md)**  
-Build Agent connects your instance to AI-powered design workflows. Set up the required application and MCP server connections to start using it.
--   **[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/use-build-agent.md)**  
-Build Agent is an autonomous AI agent native to ServiceNow that translates plain language instructions into ready-to-deploy applications and metadata, using the platform’s domain language and guardrails. It's purpose-built for full-stack creation and editing across tables, flows, UI, and scripts, and it operates as the core engine for agentic development on the ServiceNow AI Platform.
--   **[Build Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-reference-landing.md)**  
-Reference topics provide additional information about using Build Agent to create and edit apps, as well as ServiceNow metadata.
-
-**Parent Topic:**[Build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-ai-workflow-factory-prime.md)
 

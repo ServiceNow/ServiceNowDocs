@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Using proxy agents in ACC, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Using proxy agents in ACC, ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure an agent on a proxy server
@@ -105,6 +105,4 @@ Clear this option to load balance the selected multi proxy agents that monitor t
 </td></tr></tbody>
 </table>5.  Select **Activate**.
 
-
-**Parent Topic:**[Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/proxy-agent.md)
 

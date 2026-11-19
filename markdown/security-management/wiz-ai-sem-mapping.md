@@ -70,3 +70,5 @@ AI\_SECURITY\_FINDING is not included in this mapping. Posture findings for that
 |Status \(mapped\)|Posture finding state|
 |Remediation|Posture finding remediation plan|
 
+**Parent Topic:**[Wiz AI Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/wiz-ai-sem-integration.md)
+

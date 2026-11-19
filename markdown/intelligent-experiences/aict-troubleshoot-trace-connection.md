@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-troubleshoot-trace-connection.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-30"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring trace connections, Configuring integrations, Configure, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Troubleshoot a trace connection
@@ -25,7 +25,7 @@ Each trace connection record shows an execution log with the result of every col
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Traces**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Traces**.
 
 2.  Select the **Established** sub-tab.
 

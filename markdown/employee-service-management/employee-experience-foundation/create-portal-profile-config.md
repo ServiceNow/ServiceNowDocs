@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Employee profile, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Employee profile, Setup task management, Configure, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Configure Employee Profile for a portal
@@ -46,9 +46,7 @@ Role required: sn\_employee.admin
 
     4.  Select **Save**.
 
-    **Note:**
-
-    You can create a tab configuration from the tab-mapping section by selecting **New**. For more information, see [Manage profile tabs and visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/manage-employee-profile-tabs-visibility.md).
+    **Note:** You can create a tab configuration from the tab-mapping section by selecting **New**. For more information, see [Manage profile tabs and visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/manage-employee-profile-tabs-visibility.md).
 
 6.  Save the record.
 

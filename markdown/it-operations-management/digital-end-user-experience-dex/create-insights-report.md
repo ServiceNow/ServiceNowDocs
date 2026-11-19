@@ -7,10 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [create insights report, insights report, dex insights, custom report, performance metrics report]
-breadcrumb: [Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Monitor, Digital End-User Experience, IT Operations Management]
 ---
 
 # Create an insights report
@@ -25,18 +24,18 @@ Role required: sn\_dex.admin, sn\_dex.engineer
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the DEX Insights icon \[Omitted image "icon-insights.png"\] Alt text:.
+2.  In the primary navigation pane, select the DEX Insights icon \(\[Omitted image "icon-insights.png"\] Alt text:\).
 
-3.  Select the metrics to include in your query.
+3.  Select the metrics you want to include in your query.
 
-4.  Filter by **Department**, **Device list**, and **Operating system**.
+4.  Filter by Department, Device list, and Operating system.
 
 5.  Select **View results**.
 
-6.  Select **Save**, enter a name for the report, and select **Save** again.
+6.  Select **Save**, assign a name to the report, and select **Save** again.
 
     **Note:** You can save up to 10 custom reports. Delete an existing report that is no longer needed to make space for a new custom report. Select **More actions** &gt; **Delete report**.
 
-    For more details on the report fields, see [Custom insights report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/custom-report-form.md). To reopen a saved report later, see .
+    For more details on the report fields, see [Custom insights report form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/custom-report-form.md).
 
 

@@ -7,9 +7,9 @@ release: zurich
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Use, Process Mining, Platform Analytics]
+breadcrumb: [Using Process Mining, Process Mining, Platform Analytics]
 ---
 
 # ServiceNow Otto for Process Mining
@@ -49,7 +49,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about work notes in Process Mining. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 -   **[Exploring ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/exp-na-process-mining.md)**  
-Use ServiceNow ServiceNow Otto for Process Mining to minimize time, maximize effort, and reduce complexity in project setup, identifying bottlenecks and retrieving process inefficiencies.
+Use ServiceNow Otto for Process Mining to minimize time, maximize effort, and reduce complexity in project setup, identifying bottlenecks and retrieving process inefficiencies.
 -   **[Configuring ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/config-na-proc-min.md)**  
 Configure ServiceNow Otto for Process Mining to use the feature.
 -   **[Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/process-mining/use-na-process-mining.md)**  

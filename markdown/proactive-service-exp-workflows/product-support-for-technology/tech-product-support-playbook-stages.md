@@ -1,24 +1,24 @@
 ---
 title: Playbook stages and activities
-description: The Technology Product Support Case playbook includes stages and activities that assist agents in researching and resolving technology cases.
+description: The Product Support for Technology playbook includes stages and activities that assist agents in researching and resolving technology cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.html
 release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 7
-breadcrumb: [Playbook, Explore, Technology Product Support Case, Product Support for Technology]
+breadcrumb: [Playbook, Technology Product Support Case, Proactive Service Experience Workflows]
 ---
 
 # Playbook stages and activities
 
-The Technology Product Support Case playbook includes stages and activities that assist agents in researching and resolving technology cases.
+The Product Support for Technology playbook includes stages and activities that assist agents in researching and resolving technology cases.
 
 When an agent creates a technology product support case, the system opens a service selector modal and displays the services defined for the Technology Product Support case type.
 
-The agent selects a service and then selects **Create** to create a case. The system creates the case and launches the Technology Product Support Case playbook. This playbook includes the stages and activities described in the following sections.
+The agent selects a service and then selects **Create** to create a case. The system creates the case and launches the Product Support for Technology playbook. This playbook includes the stages and activities described in the following sections.
 
 ## Intake stage
 
@@ -116,11 +116,11 @@ Diagnose
 
 </td><td>
 
-The decision table is provided with the Technology Product Support Case application. You can modify the conditions that have been defined, and the results to suit your requirements.
+The decision table is provided with the Product Support for Technology application. You can modify the conditions that have been defined, and the results to suit your requirements.
 
  To enable the diagnostic activity in the troubleshoot stage, select the case category in the decision table as Issue. The diagnostic activity field is field is updated to True.
 
- The status can be changed to False by the agent. For more details on updating decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/decision-table.md).
+ The status can be changed to False by the agent. For more details on updating decision tables, see .
 
  The agent can view and do the following actions in these tabs:
 

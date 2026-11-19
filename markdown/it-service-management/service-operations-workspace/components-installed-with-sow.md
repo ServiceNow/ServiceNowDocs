@@ -9,7 +9,7 @@ classification: service-operations-workspace
 topic_type: reference
 last_updated: "2026-09-21"
 reading_time_minutes: 3
-breadcrumb: [Service Operations Workspace for ITSM reference, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Reference, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Components installed with Service Operations Workspace ITSM Applications
@@ -238,11 +238,11 @@ Provides quick access to ITSM related configurations in Service Operations Works
 **Related topics**  
 
 
-[Additional roles for SOW admin]()
+[Terminology in Service Operations Workspace for ITSM]()
 
 [Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM]()
 
-[Service Operations Workspace for ITSM data model]()
+[Additional roles for SOW admin]()
 
-[Service Operations Workspace for ITSM glossary]()
+[Service Operations Workspace for ITSM data model]()
 

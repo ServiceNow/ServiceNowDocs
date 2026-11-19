@@ -7,8 +7,8 @@ release: zurich
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 8
+last_updated: "2025-07-31"
+reading_time_minutes: 9
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -72,6 +72,8 @@ Other functionality that utilizes the MID Server may be impacted when run in FIP
 [Rekey a MID Server]()
 
 [Add SSL certificates for the MID Server]()
+
+[Specify an external TrustStore for the MID Server]()
 
 [MID Server SSH cryptographic algorithms]()
 

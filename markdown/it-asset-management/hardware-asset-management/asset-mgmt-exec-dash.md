@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management]
 ---
 
 # Asset Management Executive Dashboard
@@ -340,9 +340,7 @@ Number of hardware models that are reaching their end of life in the next 90 day
 Not applicable
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/exploring-ham.md)
-
-## Sustainable IT dashboard
+</table>## Sustainable IT dashboard
 
 The Sustainable IT dashboard helps you track the environmental impact of your IT assets and displays a variety of information to gauge the sustainability impact of the hardware assets of an organization easily.
 

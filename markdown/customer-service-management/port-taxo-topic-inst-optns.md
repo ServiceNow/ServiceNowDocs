@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/port-taxo-topic-inst-optns.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configurable Portal widgets instance options, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
@@ -68,4 +68,8 @@ Browse taxonomy page
 The page ID of a portal page that opens when a topic card is accessed in the Portal Browse Taxonomy widget.
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Add and configure the Portal Taxonomy Topic widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/add-conf-port-taxo-topic.md)
+

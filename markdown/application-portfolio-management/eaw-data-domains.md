@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-data-domains.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Exploring the information portfolio, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Exploring the information portfolio, Exploring Portfolio list view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Exploring data domains
@@ -21,9 +21,7 @@ A data domain is a logical grouping of related information objects that represen
 **Related topics**  
 
 
-[View all data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-all-data-domains.md)
-
-[Add or edit a data domain from the Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-add-or-edit-a-data-domain-from-the-portfolio-page.md)
+[eaw-view-all-data-domains]
 
 [Exploring information objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-information-objects.md)
 

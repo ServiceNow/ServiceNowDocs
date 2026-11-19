@@ -1,17 +1,17 @@
 ---
-title: Create a copy of an AI specialist in the legacy AI Agent Studio
+title: Create a copy of an AI specialist in AI Agent Studio
 description: Create a copy of an AI specialist to configure different settings for different assignment groups
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/copy-aiw.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-13"
+last_updated: "2026-08-11"
 reading_time_minutes: 1
 keywords: [copy ai specialist, team ai specialist, new ai specialist, manage ai specialist, management ai specialist]
-breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Use, Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
 
-# Create a copy of an AI specialist inthe legacy AI Agent Studio
+# Create a copy of an AI specialist in AI Agent Studio
 
 Create a copy of an AI specialist to configure different settings for different assignment groups
 

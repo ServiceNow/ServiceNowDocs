@@ -7,9 +7,9 @@ release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Messages in escalation workflows, Use, Proactive Service Experience Workflows, Product Support for Technology]
+breadcrumb: [Messages in escalation workflows, Use, Proactive Service Experience Workflows]
 ---
 
 # Customize message files for Proactive Service Experience Workflows

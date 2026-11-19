@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Managing expiring contracts for leased enterprise assets, Create and manage contracts for enterprise assets, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
+breadcrumb: [Managing expiring contracts for leased enterprise assets, Create and manage contracts for enterprise assets, Manage enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Buy out a leased enterprise asset

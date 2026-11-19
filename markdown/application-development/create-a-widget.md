@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-01"
 reading_time_minutes: 2
 keywords: [Create a widget, Create with AI chat, Accept or decline a chat-driven change, Clone an existing widget]
-breadcrumb: [Lux widgets, Build with Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Lux widgets, Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Create a widget

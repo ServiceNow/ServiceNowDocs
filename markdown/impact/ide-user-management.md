@@ -1,18 +1,18 @@
 ---
-title: Manage Impact Delivery Instance users
-description: Impact Delivery Instance \(IDI\) admins can create, view, and manage their users.
+title: Manage Impact users
+description: Impact admins can create, view, and manage their users with Impact User Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/ide-user-management.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Setup for the Impact Delivery Instance, Impact Delivery Instance reference, Impact reference, Impact]
+breadcrumb: [Configuring Impact, Impact]
 ---
 
-# Manage Impact Delivery Instance users
+# Manage Impact users
 
-Impact Delivery Instance \(IDI\) admins can create, view, and manage their users.
+Impact admins can create, view, and manage their users with Impact User Management.
 
 ## Before you begin
 
@@ -24,12 +24,12 @@ Role required: Impact admin
 
 1.  Navigate to **Impact** &gt; **User Profile Menu** &gt; **Manage Users**.
 
-2.  Select **Add new user**.
+2.  Select **Add new user**.\[Omitted image "add-new-user.png"\] Alt text: Displays the Impact role designation screen.
 
 3.  Enter the relevant information including:
 
     -   User email \(required\)
-    -   User first and last names \(required\)
+    -   User First and Last names \(required\)
     -   Impact role
     -   Impact feature access
     -   ServiceNow University access role
@@ -37,26 +37,4 @@ Role required: Impact admin
 
     The new user is created.
 
-5.  Navigate to **Impact** &gt; **User Profile Menu** &gt; **Manage Users**.
-
-6.  Select **View all users**.
-
-7.  In the **Search users** field, enter the user's name.
-
-8.  Select **Actions** &gt; **Edit role\(s\)**.
-
-9.  Edit the user role and access.
-
-    Set the user role to **None** to remove IDI access.
-
-10. Select **Confirm**.
-
-    -   A confirmation message displays and the company users page opens.
-    -   An email is sent to the user with information on how to log in to Impact.
-
-**Parent Topic:**[Setup for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-idi.md)
-
-**Previous topic:**[Setup for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/configuring-impact-idi.md)
-
-**Next topic:**[Impact Delivery Instance roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/idi-roles.md)
 

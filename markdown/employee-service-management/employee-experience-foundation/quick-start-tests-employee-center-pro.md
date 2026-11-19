@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configure, Employee Center Pro, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Quick start tests for Employee Center Pro

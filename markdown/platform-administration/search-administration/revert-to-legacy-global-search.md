@@ -7,9 +7,9 @@ release: zurich
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Set global text search properties, Global search finds records from multiple tables, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Set global text search properties, Global search finds records from multiple tables, Zing text indexing and search engine, Search administration, Configure core features, Administer]
 ---
 
 # Revert to the legacy global search UI
@@ -28,7 +28,7 @@ Role required: admin
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `sys_properties.list`.
+    2.  In the navigation filter, enter `sys_properties.list`.
 
     3.  Press Enter.
 

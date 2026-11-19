@@ -7,7 +7,7 @@ release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -29,17 +29,15 @@ You can initiate one of the following assessments:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
+1.  Navigate to **All** &gt; **Regulatory Change Management** &gt; **Compliance Workspace** &gt; **Lists** &gt; **Regulatory Alerts**.
 
-2.  Select the List icon \[Omitted image "ListsIcon.jpg"\] Alt text:.
+2.  Select the regulatory alert that you want to assess.
 
-3.  In the Lists tab, navigate to **Regulatory alerts** &gt; **All assigned alerts**.
+3.  Select **Assess impact**.
 
-4.  Select the regulatory alert that you want to assess.
+4.  Select either **Regulatory assessment** or **Risk assessment** based on your requirement.
 
-5.  Select **Assess impact**.
-
-6.  For **Regulatory assessment**, perform the following in the Evaluate regulatory impact dialog box.
+5.  If you select, Regulatory assessment, do the following in the Evaluate regulatory impact dialog box.
 
     1.  In the **Assessment template** field, specify the template to use for the assessment.
 
@@ -55,21 +53,12 @@ You can initiate one of the following assessments:
 
     In the Regulatory assessments related list in the regulatory alert record, the new regulatory assessments are listed.
 
-7.  For **Risk assessment**, filter and select the entities to assess in the Evaluate risk impact dialog box.
+6.  If you select, Risk assessment, from the Entities list, select the entities that require an impact assessment.
 
-    1.  In the **Filter by** dropdown, select one of the following options:
+    1.  Select **Send**.
 
-        -   **Entities by Impacted Areas**: Displays entities derived from impacted areas, including citations, control objectives, controls, policies, risk statements, and risks. These correspond to the records on the Impacted areas tab of the alert.
-        -   **Entities by Recommendations**: Displays entities derived from AI-recommended impacted areas, including citations, control objectives, controls, and policies. These correspond to the records on the Recommendations tab of the alert.
-    2.  Select the entities, and then, select **Send**.
+        Ensure that the entity owners who are the risk assessors have the sn\_risk\_advanced.ara\_assessor role.
 
-        Ensure that the entity owners who are the risk assessors have the sn\_grc.business\_user and sn\_risk\_advanced.ara\_assessor roles.
+        In the Risk assessments related list in the regulatory alert record, the new impact assessments are listed.
 
-        In the Risk assessments tab in the regulatory alert record, the new risk assessments are listed.
-
-
-**Related topics**  
-
-
-[Update a regulatory assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/update-reg-assessment-template.md)
 

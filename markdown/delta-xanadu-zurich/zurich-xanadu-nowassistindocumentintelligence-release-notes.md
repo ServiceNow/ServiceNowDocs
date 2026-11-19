@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistindocumentintelligence-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
@@ -173,7 +173,7 @@ Turn on image mode to process images more efficiently for use cases that use a m
 
 -   **[Model provider flexibility at the use case level](https://www.servicenow.com/docs/access?context=llms-now-assist-document-intelligence&family=zurich&ft:locale=en-US)**
 
-Choose a model provider at the use case level, including a Now Assist default option that uses the instance-level model selected in AI Control Tower.
+Choose a model provider at the use case level, including a Now Assist default option that uses the instance-level model selected in Control Tower.
 
 -   **[Information extraction for Operational Sustainability Risk Management](https://www.servicenow.com/docs/access?context=filter-citations-and-authority-documents-for-esg&family=zurich&ft:locale=en-US)**
 
@@ -694,7 +694,7 @@ Yokohama
 
 -   Summarize the content in document and image attachments with the document and visual insights AI agent.
 -   Choose a large language model \(LLM\) to generate predictions for extraction and Q&amp;A \(question &amp; answer\) use cases.
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
  [Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
 

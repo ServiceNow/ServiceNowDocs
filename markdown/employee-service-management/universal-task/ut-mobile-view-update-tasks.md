@@ -7,9 +7,9 @@ release: zurich
 product: Universal Task
 classification: universal-task
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Universal Task, Universal Task, Employee Service Management]
+breadcrumb: [Use, Universal Task, Employee Service Management]
 ---
 
 # View and update Universal Task using Now Mobile
@@ -22,7 +22,7 @@ Role required: Requester
 
 ## Procedure
 
-1.  On your mobile device, tap the Now Mobile app icon \(\[Omitted image "now-mobile.png"\] Alt text: Now Mobile app\).
+1.  On your mobile device, tap the Now Mobile app icon \(\).
 
 2.  To view all tasks that are assigned to you, tap **My Tasks**.
 
@@ -32,15 +32,15 @@ Role required: Requester
 
 4.  Go to each tab to do the following.
 
-<table id="choicetable_wlp_5xs_d4b"><thead><tr><th align="left" id="d603839e117">
+<table id="choicetable_wlp_5xs_d4b"><thead><tr><th align="left" id="d593451e114">
 
 Tab
 
-</th><th align="left" id="d603839e120">
+</th><th align="left" id="d593451e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d603839e126">
+</th></tr></thead><tbody><tr><td id="d593451e123">
 
 **To-Do**
 
@@ -53,7 +53,7 @@ View and complete the tasks that are assigned to you. -   If the task type is Up
 -   If the task type is Collect Employee Input, tap the \[Omitted image "icon-view-empform.png"\] Alt text: View employee form icon to open the employee form. After you submit the form, the task is marked complete. If you leave the form midway, your responses are saved. You can complete and submit the form later.
 
 
-</td></tr><tr><td id="d603839e162">
+</td></tr><tr><td id="d593451e159">
 
 **Learn More**
 
@@ -61,7 +61,7 @@ View and complete the tasks that are assigned to you. -   If the task type is Up
 
 View task details.
 
-</td></tr><tr><td id="d603839e171">
+</td></tr><tr><td id="d593451e168">
 
 **Updates**
 

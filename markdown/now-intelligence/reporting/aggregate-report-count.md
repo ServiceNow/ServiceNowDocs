@@ -7,9 +7,9 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Aggregation in Core UI reporting, Core UI Reporting reference, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Aggregation in reporting, Reporting reference, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Aggregate a report on count
@@ -45,5 +45,5 @@ These images compare Count and Count Distinct. The first shows that the raw coun
 
 The sections of the visualization are grouped by the count of records.
 
-**Parent Topic:**[Aggregation in Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/aggregation-reporting.md)
+**Parent Topic:**[Aggregation in reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/aggregation-reporting.md)
 

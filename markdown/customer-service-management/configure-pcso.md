@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-pcso.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Extend capabilities, Configure, Customer Service Management]
 ---
@@ -16,7 +16,7 @@ Configure various aspects of Proactive Customer Service Operations based on the 
 
 ## Before you begin
 
-Role required: csm\_guided\_setup\_user or admin
+Role required: admin
 
 ## About this task
 
@@ -107,7 +107,7 @@ Automate workflows for proactive case creation to improve your operational effic
 
 [Create a case for install base from the Customer Service homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-case-install-base.md)
 
-[View the install base in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/install-base-aw-csm.md)
+[View the install base in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/install-base-aw-csm.md)
 
-[View sold product information in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/view-sold-product-info-workspace.md)
+[View sold product information in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/view-sold-product-info-workspace.md)
 

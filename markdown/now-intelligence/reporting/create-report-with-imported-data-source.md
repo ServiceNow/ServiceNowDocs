@@ -7,9 +7,9 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Create a Core UI report from an imported Microsoft Excel document
@@ -35,7 +35,7 @@ The following restrictions apply to imported data:
 -   The imported `.xlsx` file must have a specified expiration date.
 -   If the owner deletes the table after import, reports based on the imported table are also deleted.
 
-**Note:** Report\_view access control lists \(ACLs\) have to be defined for users to view these reports. For more information, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/report-view-access-control.md).
+**Note:** Report\_view access control lists \(ACLs\) have to be defined for users to view these reports. For more information, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md).
 
 ## About this task
 
@@ -45,10 +45,10 @@ Importing report data in this way is useful when you have information that is ma
 
 ## Procedure
 
-1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
+1.  Perform one of the following actions:
 
-    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
-
+    -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
+    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Core UI artifacts** &gt; **Reports** and select **New**.
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
 3.  In the **Source type** list, select **External import**.
@@ -90,9 +90,9 @@ Importing report data in this way is useful when you have information that is ma
 
 7.  Complete report creation as normal.
 
-    For information on specific report types, see [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md). For general information about creating reports, see [Create a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_CreateYourOwnReport.md).
+    For information on specific report types, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md). For general information about creating reports, see [Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/t_CreateYourOwnReport.md).
 
-8.  Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Overview main screen.
+8.  Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Center main screen.
 
 9.  Create report\_view ACLs for the table you created when you uploaded the external data in Step 4.
 
@@ -112,7 +112,7 @@ Importing report data in this way is useful when you have information that is ma
 
         The admin role with the elevated security\_admin role is required. If you are not an admin, consider passing the table name to a ServiceNow AI Platform administrator along with a request for the desired roles to have report\_view read permission.
 
-    5.  Create report\_view ACLs for roles that you want to be able to read the report, as described in [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/report-view-access-control.md).
+    5.  Create report\_view ACLs for roles that you want to be able to read the report, as described in [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-view-access-control.md).
 
 
 ## Result
@@ -121,7 +121,7 @@ The report is created from the external source. On a dashboard, this report has 
 
 ## What to do next
 
-Share the report, as described in [Distribute Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_DistributeReports.md).
+Share the report, as described in [Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_DistributeReports.md).
 
 -   **[Edit an imported data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/edit-config-external-data-source.md)**  
 You can edit imported Excel spreadsheets \(`.xlsx` files\) of data maintained outside of your instance.

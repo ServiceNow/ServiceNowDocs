@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 14
-breadcrumb: [Integrate with SSO providers, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrate with SSO providers, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrating with Okta
@@ -106,18 +106,7 @@ Application administrator
 okta.apps.manage
 
 </td></tr></tbody>
-</table>You can also integrate with Okta using the Configuration Console for Software Asset Management. For more details about the Configuration Console, see [Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/config-console-sam.md).
-
-**Parent Topic:**[Integrate with SSO providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/saas-sso-integration.md)
-
-**Related topics**  
-
-
-[Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/config-console-sam.md)
-
-[Configuration Console overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/config-console-overview.md)
-
-[Configure Software Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/configure-sam-from-config-console.md)
+</table>**Parent Topic:**[Integrate with SSO providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/saas-sso-integration.md)
 
 ## Create an Okta application
 
@@ -157,7 +146,7 @@ Create an Okta integration profile in your ServiceNow instance.
 
 To create an Okta integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: sam\_integrator or admin
 
 **Important:** You must select the **Okta Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -171,15 +160,15 @@ If you’re using Software Asset Workspace, the option to create the Okta integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_fcx_4nx_qtb"><thead><tr><th align="left" id="d252683e572">
+<table id="choicetable_fcx_4nx_qtb"><thead><tr><th align="left" id="d241622e515">
 
 Interface
 
-</th><th align="left" id="d252683e575">
+</th><th align="left" id="d241622e518">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d252683e581">
+</th></tr></thead><tbody><tr><td id="d241622e524">
 
 **Core UI**
 
@@ -190,7 +179,7 @@ Action
 3.  Select **Okta Integration Profile**.
 
 
-</td></tr><tr><td id="d252683e623">
+</td></tr><tr><td id="d241622e566">
 
 **Software Asset Workspace**
 
@@ -294,15 +283,15 @@ Option for creating a direct integration profile to view Okta subscriptions afte
 
 5.  Open the Create Connection and Credential dialog box.
 
-<table id="choicetable_oww_kmj_lzb"><thead><tr><th align="left" id="d252683e1002">
+<table id="choicetable_oww_kmj_lzb"><thead><tr><th align="left" id="d241622e945">
 
 Interface
 
-</th><th align="left" id="d252683e1005">
+</th><th align="left" id="d241622e948">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d252683e1011">
+</th></tr></thead><tbody><tr><td id="d241622e954">
 
 **Core UI**
 
@@ -310,7 +299,7 @@ Action
 
 Select the **Create New Connection &amp; Credential** related link on the SSO integration profile form.
 
-</td></tr><tr><td id="d252683e1023">
+</td></tr><tr><td id="d241622e966">
 
 **Software Asset Workspace**
 
@@ -427,7 +416,7 @@ Connect an SSO application to monitor all the users and groups who have access t
 
 ### Before you begin
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: sam\_integrator or admin
 
 ### About this task
 

@@ -7,10 +7,10 @@ release: zurich
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-03-20"
 reading_time_minutes: 5
 keywords: [ServiceNow Lens, ServiceNow Lens overview, ServiceNow Lens benefits]
-breadcrumb: [ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
+breadcrumb: [ServiceNow AI Lens, Enable AI experiences]
 ---
 
 # Exploring ServiceNow AI Lens

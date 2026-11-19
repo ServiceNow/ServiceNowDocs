@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/add-retriever-ai-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-21"
 reading_time_minutes: 3
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add a search retrieval to an AI agent

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-pol-create-explicit-block-policy.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-27"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Explicit Block, Control Framework, block]
-breadcrumb: [Managing policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing policies, Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Create an Explicit Block policy
@@ -27,7 +27,7 @@ An Explicit Block policy stops a user, a department, or everyone in your organiz
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Govern** &gt; **Policies**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Govern** &gt; **Policies**.
 
 2.  Select **Create policy**.
 
@@ -41,15 +41,15 @@ An Explicit Block policy stops a user, a department, or everyone in your organiz
 
 6.  In the Block section, define what they're blocked from using.
 
-<table><thead><tr><th align="left" id="d362090e169">
+<table><thead><tr><th align="left" id="d271765e169">
 
 Option
 
-</th><th align="left" id="d362090e172">
+</th><th align="left" id="d271765e172">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d362090e178">
+</th></tr></thead><tbody><tr><td id="d271765e178">
 
 **AI agent**
 
@@ -60,7 +60,7 @@ Description
 3.  Combine multiple conditions with **and** or **or**, or select **Add group** for another set of conditions.
 
 
-</td></tr><tr><td id="d362090e220">
+</td></tr><tr><td id="d271765e220">
 
 **Model**
 
@@ -70,7 +70,7 @@ Description
 2.  Enter one or more models in a comma-separated list.
 
 
-</td></tr><tr><td id="d362090e241">
+</td></tr><tr><td id="d271765e241">
 
 **Domain**
 
@@ -100,7 +100,7 @@ The policy takes effect at every enforcement point it applies to. If enforcement
 
 ## What to do next
 
-Confirm the policy is working as expected by reviewing the policy enforcement activity. For details, see [Reviewing policy enforcement activities in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
+Confirm the policy is working as expected by reviewing the policy enforcement activity. For details, see [Reviewing policy enforcement activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
 
 To change who or what a published policy blocks, edit it. For details, see [Edit an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-edit-explicit-block-policy.md). Alternatively, clone the policy to try a variant without changing the original, then delete the original once your clone is confirmed working, if you no longer need it. For details, see [Clone a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-clone-policy.md).
 

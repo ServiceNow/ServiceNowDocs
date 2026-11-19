@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-approval-recommendation-skill.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-24"
 reading_time_minutes: 1
 breadcrumb: [Approval recommendations using generative AI, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Approval recommendations using generative AI, Use, Unified Security
 Use a generative AI skill to streamline the approval process for exceptions and false positive requests with AI-driven recommendations. Reduce manual effort and improve decision accuracy for your approvers in the Security Exposure Management Workspace.
 
 ## Before you begin
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 The ServiceNow Otto® panel must be activated. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
@@ -43,4 +41,6 @@ Role required: sn\_sec\_exception.approver
 
 -   **Refresh** the recommendation with the refresh icon. Refresh generates a fresh recommendation by analyzing latest data related to the request.
 -   **Provide feedback** using the thumbs up/down icons to rate the usefulness of the recommendation.
+
+**Parent Topic:**[Approval recommendations using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-vr-generating-approvals.md)
 

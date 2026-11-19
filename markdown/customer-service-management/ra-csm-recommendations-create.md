@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/ra-csm-recommendations-create.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -43,8 +43,7 @@ Then you define the action inputs, which are the parameters that enable agents t
     -   A specific action to take or information to review \(guidance\)
     -   A guided flow to follow \(guided decision tree\)
     -   A field value to use \(field value recommendation\)
-    -   A playbook to run for step-by-step resolution
-    A new Recommendation form is displayed with the **Rule**, **Context**, and **Action type** fields auto-populated.
+    A new Recommendation form is displayed with the **Rule**, **Context**, and **Action type** fields auto populated.
 
 6.  In the **Name** field, enter a name for the recommendation.
 
@@ -54,7 +53,7 @@ Then you define the action inputs, which are the parameters that enable agents t
 
     1.  In the **Action** field, select the lookup icon.
 
-        In the resulting pop-up window, the **Table name** field is auto-populated with the table that stores the available actions for the selected action type.
+        In the resulting pop-up window, the **Table name** field is auto populated with the table that stores the available actions for the selected action type.
 
     2.  In the **Document** field, select the desired action by clicking the lookup icon.
 
@@ -84,7 +83,7 @@ Then you define the action inputs, which are the parameters that enable agents t
 
     Action types and actions need inputs. These parameters enable agents to complete an action. You can choose static values for action inputs or you can use a resource generator to supply values.
 
-<table id="choicetable_gx1_2sx_f5b"><tbody><tr><td id="d68276e314">
+<table id="choicetable_gx1_2sx_f5b"><tbody><tr><td id="d62980e308">
 
 **Use a static value**
 
@@ -92,7 +91,7 @@ Then you define the action inputs, which are the parameters that enable agents t
 
 Enter the value in the field in the input field or use the lookup icon to select a value from the list.
 
-</td></tr><tr><td id="d68276e323">
+</td></tr><tr><td id="d62980e317">
 
 **Use a pill picker**
 

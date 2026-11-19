@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-05"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, performance]
-breadcrumb: [View AI assets usage and performance \(Lux UI\), Monitor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [View AI assets usage and performance \(Lux UI\), Monitor, AI Admin Center, Enable AI experiences]
 ---
 
 # Performance Explorer dashboard in AI Admin Center \(Lux UI\)

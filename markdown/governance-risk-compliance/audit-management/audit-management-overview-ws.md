@@ -1,22 +1,22 @@
 ---
-title: Audit Workspace overview
-description: Audit workspace provides a single-pane view for audit supervisors and auditors. View the overall audit timeline and status, track budget and resources for engagements, trace high priority observations and issues, and monitor ongoing control testing and audit task progress.
+title: Audit Workspace
+description: Audit workspace is a single-pane view for audit supervisor and auditor to view the overall audit timeline and status, track budget and resources for engagements, trace high priority observations and issues, and monitor ongoing control testing and audit task progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/audit-management/audit-management-overview-ws.html
 release: zurich
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Audit Management, Governance, Risk, and Compliance]
 ---
 
-# Audit Workspace overview
+# Audit Workspace
 
-Audit workspace provides a single-pane view for audit supervisors and auditors. View the overall audit timeline and status, track budget and resources for engagements, trace high priority observations and issues, and monitor ongoing control testing and audit task progress.
+Audit workspace is a single-pane view for audit supervisor and auditor to view the overall audit timeline and status, track budget and resources for engagements, trace high priority observations and issues, and monitor ongoing control testing and audit task progress.
 
-## Highlights of the Audit Workspace
+## Highlights of the new Audit Workspace
 
 The workspace provides a new user experience.
 

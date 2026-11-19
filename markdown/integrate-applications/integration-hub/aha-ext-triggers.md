@@ -38,19 +38,19 @@ Role required: flow\_designer and connection\_admin
 
 4.  Locate the **Aha! Spoke** endpoint and click **View Details**.
 
-    \[Omitted image "aha-ext-triggers1.jpg"\] Alt text:
+    \[Omitted image "image.aha-ext-triggers1"\] Alt text:
 
 5.  For the **Aha! External Trigger** end point, click **Configure**.
 
-    \[Omitted image "aha-ext-triggers2.jpg"\] Alt text:
+    \[Omitted image "image.aha-ext-triggers2"\] Alt text:
 
 6.  Select the user who can trigger the endpoint and click **Activate**.
 
-    \[Omitted image "aha-ext-triggers3.jpg"\] Alt text:
+    \[Omitted image "image.aha-ext-triggers3"\] Alt text:
 
 7.  Copy the generated endpoint URL.
 
-    \[Omitted image "aha-ext-triggers4.jpg"\] Alt text:
+    \[Omitted image "image.aha-ext-triggers4"\] Alt text:
 
 
 ## Add the endpoint URL in Aha!

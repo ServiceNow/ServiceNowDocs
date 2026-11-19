@@ -1,18 +1,18 @@
 ---
 title: Complete predefined customer engagement tasks
-description: Execute predefined sequence steps in your sequence tasks in the CRM Workspace to engage with your prospective customers.
+description: Execute predefined sequence steps in your sequence tasks in the CSM Configurable Workspace to engage with your prospective customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/execute-sequence-steps.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Customer Engagement Sequences, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
 
 # Complete predefined customer engagement tasks
 
-Execute predefined sequence steps in your sequence tasks in the CRM Workspace to engage with your prospective customers.
+Execute predefined sequence steps in your sequence tasks in the CSM Configurable Workspace to engage with your prospective customers.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: Sequence executor \[sn\_crm\_sequence.executor\]
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

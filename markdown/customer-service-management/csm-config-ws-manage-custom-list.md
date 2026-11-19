@@ -1,6 +1,6 @@
 ---
 title: Manage customized record lists
-description: Agents can manage the customized lists of records that they create in CRM Workspace. This includes saving a copy of a list, renaming a list, sharing or deleting a list, and opening a list in a new tab.
+description: Agents can manage the customized lists of records that they create in CSM Configurable Workspace. This includes saving a copy of a list, renaming a list, sharing or deleting a list, and opening a list in a new tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-config-ws-manage-custom-list.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Manage cases, Use, Customer Service Management]
 
 # Manage customized record lists
 
-Agents can manage the customized lists of records that they create in CRM Workspace. This includes saving a copy of a list, renaming a list, sharing or deleting a list, and opening a list in a new tab.
+Agents can manage the customized lists of records that they create in CSM Configurable Workspace. This includes saving a copy of a list, renaming a list, sharing or deleting a list, and opening a list in a new tab.
 
 ## Before you begin
 

@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Enhance employee experience by integrating ServiceNow with Zoom, Integrating and using ServiceNow with Zoom, ServiceNow for Zoom, EmployeeWorks, Employee Service Management]
+breadcrumb: [Enhance employee experience by integrating ServiceNow with Zoom, Integrate, ServiceNow for Zoom, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Starting and importing a Zoom Team Chat

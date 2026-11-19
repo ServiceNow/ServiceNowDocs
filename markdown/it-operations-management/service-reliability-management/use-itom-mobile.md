@@ -1,5 +1,5 @@
 ---
-title: Use ITOM Mobile
+title: Using ITOM Mobile Agent
 description: Work with alerts, incidents, on-call schedules, and tasks on the go.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-reliability-management/use-itom-mobile.html
@@ -7,12 +7,12 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Use ITOM Mobile
+# Using ITOM Mobile Agent
 
 Work with alerts, incidents, on-call schedules, and tasks on the go.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-28"
 reading_time_minutes: 2
 breadcrumb: [Making reservations using the Create a reservation agent, Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
@@ -67,6 +67,4 @@ Role required: admin
 
     \[Omitted image "wsd-create-rsv-agent-last-step.png"\] Alt text: Agent completes the request and asks employees to confirm if they require any other help from it.
 
-
-**Parent Topic:**[Making reservations using the Create a reservation agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-assist-for-wsd/using-reservation-agent.md)
 

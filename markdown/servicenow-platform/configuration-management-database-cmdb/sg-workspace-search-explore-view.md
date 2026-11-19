@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-02-09"
 reading_time_minutes: 7
 breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Search through CMDB tables without having detailed knowledge of the CMDB data mo
 
 ## Access
 
-Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the navigation panel, select the Explore and Search icon.
+Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Explore and Search** tab.
 
 Role required: sn\_cmdb\_user, sn\_cmdb\_editor, or sn\_cmdb\_admin
 

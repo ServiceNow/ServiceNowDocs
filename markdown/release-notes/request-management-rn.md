@@ -1,34 +1,50 @@
 ---
 title: Request Management release notes
-description: The ServiceNow Request Management application enables catalog items to be requested and fulfilled based on defined flows.. See the following sections for release notes by version.
+description: The ServiceNow Request Management application enables catalog items to be requested and fulfilled based on defined flows. Request Management was enhanced and updated in the Zurich release.The ServiceNow Request Management application enables catalog items to be requested and fulfilled based on defined flows. Request Management was enhanced and updated in the Zurich release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/request-management-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
 # Request Management release notes
 
-The ServiceNow® Request Management application enables catalog items to be requested and fulfilled based on defined flows.. See the following sections for release notes by version.
+The ServiceNow® Request Management application enables catalog items to be requested and fulfilled based on defined flows. Request Management was enhanced and updated in the Zurich release.
 
 ## About Request Management
 
--   Request Management streamlines fulfillment workflows, reduces manual effort, and improves visibility into request status for both users and agents.
--   Request Management allows employees to submit requests for services, products, or information through a self-service portal.
+Coral is the new default theme for Next Experience and Core UI, offering a more modern experience.
 
 See [Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_RequestManagement.md) for more information.
 
-## Activation information
+## Activation and other requirements
 
-Request Management is a ServiceNow AI Platform feature that is active by default.
+-   **Activation information**
+
+    Request Management is a ServiceNow AI Platform feature that is active by default.
+
 
 ## Accessibility and localization
 
 -   **Accessibility information**
-    -   Reflow support for Request Management: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
+    -   **Dark theme**
+
+        The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 **Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/it-service-management-rn-landing.md)
+
+## Zurich
+
+The ServiceNow® Request Management application enables catalog items to be requested and fulfilled based on defined flows. Request Management was enhanced and updated in the Zurich release.
+
+### What's changed
+
+-   **Coral theme**
+
+    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 

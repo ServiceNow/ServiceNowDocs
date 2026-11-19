@@ -1,5 +1,5 @@
 ---
-title: Enable HTTP Only Cookie Flag
+title: Enable HTTP Only Cookie Flag \[Updated in Security Center 1.3\]
 description: Use the glide.cookies.http\_only property to enable the HTTPOnly attribute for sensitive cookies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-http-only-cookie-flag.html
@@ -7,18 +7,16 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Enable HTTP Only Cookie Flag
+# Enable HTTP Only Cookie Flag \[Updated in Security Center 1.3\]
 
 Use the **glide.cookies.http\_only** property to enable the HTTPOnly attribute for sensitive cookies.
 
-If the **glide.cookies.http\_only** system property is not set to the recommended value of **true**, then the instance does not require the HTTPOnly attribute for sensitive cookies.
-
-Ensure that the property **glide.cookies.http\_only** is set to **true**.
+Use the HTTPOnly attribute to prevent attacks, such as cross-site scripting, because it doesn't allow access to the cookie using a client-side script, such as JavaScript. It does not eliminate cross site scripting risks but does eliminate some exploitation vectors.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -34,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Configuration name
+Property name
 
 </td><td>
 
@@ -50,11 +48,19 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Data type
+Category
 
 </td><td>
 
-Boolean
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
+
+</td></tr><tr><td>
+
+Purpose
+
+</td><td>
+
+To mitigate the risk of client-side script accessing the protected cookie.
 
 </td></tr><tr><td>
 
@@ -74,29 +80,11 @@ true
 
 </td></tr><tr><td>
 
-Fallback value
+Security risk rating
 
 </td><td>
 
-true
-
-</td></tr><tr><td>
-
-Category
-
-</td><td>
-
-[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-management.md)
-
-</td></tr><tr><td>
-
-Security risk
-
-</td><td>
-
--   Severity score: 8.0
--   CVSS rating: High
--   Security risk details: The HTTPOnly attribute is used to prevent attacks, such as cross-site scripting, because it doesn't allow access to the cookie using a client-side script, such as JavaScript.
+8
 
 </td></tr><tr><td>
 
@@ -104,15 +92,24 @@ Functional impact
 
 </td><td>
 
-None
+This remediation adds an extra HTTPOnly flag in on session cookies, thus protecting them from being stolen. -   If you have custom functionality that requires JavaScript to access the user's cookie, it breaks that functionality. It should not be the case under normal circumstances.
+-   The ServiceNow AI Platform handles session management and there shouldn't be a reason for a custom script to access the user's cookies.
 
 </td></tr><tr><td>
 
-Dependencies and prerequisites
+Security risk
 
 </td><td>
 
-None
+\(Moderate\) Session cookies in the application authenticate an end user and provide implicit access permissions on the application. That means there is a need to secure them from being stolen or exported. HTTP Only flags protect the session cookies from JavaScript injections or cross site scripting vulnerabilities stealing them.
+
+</td></tr><tr><td>
+
+References
+
+</td><td>
+
+[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_AvailableSystemProperties.md)
 
 </td></tr></tbody>
 </table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).

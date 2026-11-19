@@ -1,5 +1,5 @@
 ---
-title: Perform a single-line Agent Client Collector installation on macOS when using a MID Server
+title: Perform a single-line Agent Client Collector installation on macOS
 description: Use an efficient single-line command script to install Agent Client Collector on a machine that uses macOS operating system. Use the manual installation procedure if the agent is not connected to the instance or you want enhanced customization options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/acc-install-macOS-single-line.html
@@ -7,12 +7,12 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [ACC installation on a macOS system, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC installation on a macOS system, ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
 ---
 
-# Perform a single-line Agent Client Collector installation on macOS when using a MID Server
+# Perform a single-line Agent Client Collector installation on macOS
 
 Use an efficient single-line command script to install Agent Client Collector on a machine that uses macOS operating system. Use the manual installation procedure if the agent is not connected to the instance or you want enhanced customization options.
 

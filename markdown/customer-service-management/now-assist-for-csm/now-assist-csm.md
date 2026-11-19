@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Customer Service Management]
@@ -37,7 +37,7 @@ Use the ServiceNow® ServiceNow Otto for Customer Service Management \(CSM\) app
 
 </td><td>
 
-[Use Agentic AI in CSM \[Omitted image "bus-ai-otto.svg"\] Alt text: ServiceNow Otto iconUse the ServiceNow Otto for CSM AI agents to complete tasks autonomously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
+[Use Agentic AI in CSM \[Omitted image "bus-ai-otto.svg"\] Alt text:Use the ServiceNow Otto for CSM AI agents to complete tasks autonomously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
 
 </td><td>
 

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 6
 keywords: [Core concepts, Core building blocks, Coordination mechanisms, Region DSL, How it all renders]
-breadcrumb: [Lux architecture, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Lux architecture, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Core concepts

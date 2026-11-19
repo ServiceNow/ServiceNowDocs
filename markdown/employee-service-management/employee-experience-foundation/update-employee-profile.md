@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Use, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # View employee profile
@@ -50,6 +50,8 @@ For more information, see [Configure the Employee Profile overview widget](https
 [Topic managers and contributors for topic page management]()
 
 [Use the My To-dos page]()
+
+[View advanced portal navigation]()
 
 [Use approval experience]()
 

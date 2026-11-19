@@ -7,9 +7,9 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Request an analytics service \(legacy\)
@@ -52,7 +52,7 @@ Role required: none
 
 After you submit the request, the Analytics team is responsible for reviewing and implementing your requested changes.
 
-**Parent Topic:**[Create and use Core UI dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
+**Parent Topic:**[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
 
 ## Fulfill an analytics request
 
@@ -105,7 +105,7 @@ Role required:
 **Related topics**  
 
 
-[Create and use Core UI dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
+[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
 
 [Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
 
@@ -148,7 +148,7 @@ Core Performance Analytics functionality
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
@@ -156,5 +156,5 @@ Core Performance Analytics functionality
 **Related topics**  
 
 
-[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Zurich\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
 

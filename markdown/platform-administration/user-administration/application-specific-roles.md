@@ -7,9 +7,9 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Base system roles, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Base system roles, Managing roles, User admin, Configure core features, Administer]
 ---
 
 # Application specific roles
@@ -482,7 +482,7 @@ Event Management
 
 </td><td>
 
-[Components installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/r_InstalledWithEventManagement.md)
+
 
 </td></tr><tr><td>
 
@@ -754,7 +754,7 @@ Platform Analytics
 
 </td><td>
 
-Usage Insights
+User Experience Analytics
 
 </td><td>
 

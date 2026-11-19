@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-action-items-in-events.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2025-07-31"
+reading_time_minutes: 4
 breadcrumb: [Creating action items in events, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 

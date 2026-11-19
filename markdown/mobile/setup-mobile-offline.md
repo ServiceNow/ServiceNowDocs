@@ -1,28 +1,22 @@
 ---
-title: Set up offline mode for mobile apps
+title: Set up offline mode for mobile
 description: Setup offline mode for your mobile applications so that users can work without an internet connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/setup-mobile-offline.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Offline mobile apps, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Offline mode, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
-# Set up offline mode for mobile apps
+# Set up offline mode for mobile
 
 Setup offline mode for your mobile applications so that users can work without an internet connection.
 
 ## Before you begin
 
-Role required: mobile\_admin, admin
-
-## About this task
-
-Decide which mobile apps support offline mode to set the foundation for the entire offline experience. The offline capability defined at the app level, whether for the Mobile Agent app, Now Mobile app, or a custom apps, determine whether that app can function without network connectivity. All screens and functions configured as offline within the app inherit this setting, ensuring a consistent experience across navigation tabs, layouts, and UI sections.
-
-**Note:** Offline mode must be enabled at the app level for any screens or functions configured as offline to be available to users without network connectivity.
+Role required: admin
 
 ## Procedure
 
@@ -38,12 +32,12 @@ Decide which mobile apps support offline mode to set the foundation for the enti
 
 4.  Under **Mobile push application**, select which app type the offline scheduled download should be associated with.
 
-    For more information, see [Configure scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/scheduled-offline-caching.md).
+    For more information, see [Scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/scheduled-offline-caching.md).
 
-5.  Under **Settings**, select **Offline enabled**.
+5.  Under **Settings**, toggle **Offline enabled**.
 
 6.  Select **Save**.
 
 
-**Parent Topic:**[ServiceNow mobile applications for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/apps-offline.md)
+**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-offline-mode.md)
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mv-create-and-publish-a-value-template.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-keywords: [create value template, publish value template, AI Control Tower]
-breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+last_updated: "2026-08-12"
+reading_time_minutes: 4
+keywords: [create value template, publish value template, Control Tower]
+breadcrumb: [Value, Configure, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Create and publish a value template
@@ -31,11 +31,15 @@ A template saved as a draft is listed in the Draft state and does not calculate 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home**.
 
 2.  Navigate to **Settings** &gt; **Rules and Templates** &gt; **Templates** &gt; **All templates**.
 
+    \[Omitted image "mv-create-and-publish-a-value-template.png"\] Alt text: Rules and templates page with the All templates tab open, listing published templates by template type, persona, state, and description, with the Create template button.
+
 3.  Select **Create template**.
+
+    \[Omitted image "mv-create-and-publish-template-formula.png"\] Alt text: New metric template form for ITSM Incident Agents – Productivity, with Fulfiller persona, daily agent executions usage, 15-minute time constant, 50% quality constant, and formula preview.
 
 4.  Enter a name, a department, and a description for the template.
 
@@ -81,6 +85,8 @@ A template saved as a draft is listed in the Draft state and does not calculate 
 
 10. Select **Next** to map the AI systems that the metric applies to.
 
+    \[Omitted image "mv-create-and-publish-template-map.png"\] Alt text: Step 2: Mapping page for the ITSM Incident Agents – Productivity template, with Agentic AI selected and two incident agents chosen, ready to map using Map AI systems.
+
 11. Select an AI system type, such as **Generative AI** or **Agentic AI**, and then select the AI systems to map.
 
 12. Select **Map AI systems**.
@@ -91,11 +97,15 @@ A template saved as a draft is listed in the Draft state and does not calculate 
 
 14. Select the AI systems to test, and then select **Validate and calculate**.
 
+    \[Omitted image "mv-create-and-publish-template-test-success.png"\] Alt text: Step 3: Test page for the ITSM Incident Agents – Productivity template, showing a testing-complete message and a Success status for the Incident context AI agent.
+
     You can select up to 10 AI systems at a time. The value job runs and shows the numbers under current productivity or new productivity, depending on whether the AI system already has a template.
 
 15. Select **Publish template**.
 
     If a selected AI system already has a published template, a message states that the existing mapping is retired when you publish. Confirm the override to continue.
+
+    \[Omitted image "mv-create-and-publish-template-published.png"\] Alt text: Published ITSM Incident Agents – Productivity template with a confirmation message, showing template details, locked calculation builder fields, and the formula preview.
 
 
 ## Result

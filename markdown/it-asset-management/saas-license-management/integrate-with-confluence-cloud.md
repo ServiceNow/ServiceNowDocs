@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 12
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrating with Confluence Cloud
@@ -76,6 +76,8 @@ site admin
 Create a Confluence Cloud OAuth 2.0 \(3LO\) application to enable access to the Confluence Cloud API.
 
 ### Before you begin
+
+**Important:** This procedure is applicable for the Zurich release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 16.7.0 and earlier. If you're on version 16.7.1 or later, skip this task and proceed directly to [Obtain the Cloud ID value of Confluence Cloud instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md).
 
 Atlassian Role required: Refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md) table.
 
@@ -185,15 +187,15 @@ If you’re using Software Asset Workspace, the option to create the Confluence 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d114993e678">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d109891e703">
 
 Interface
 
-</th><th align="left" id="d114993e681">
+</th><th align="left" id="d109891e706">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d114993e687">
+</th></tr></thead><tbody><tr><td id="d109891e712">
 
 **Core UI**
 
@@ -204,7 +206,7 @@ Action
 3.  Select **Confluence Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d114993e729">
+</td></tr><tr><td id="d109891e754">
 
 **Software Asset Workspace**
 
@@ -320,6 +322,10 @@ Connection URL
 </td><td>
 
 Provide the URL of your Confluence Cloud instance in the `https://api.atlassian.com/ex/confluence/<Cloud-ID` format. For more information about getting the value of Cloud ID, see [Obtain the Cloud ID value of Confluence Cloud instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrate-with-confluence-cloud.md).
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+The following fields are applicable for the Zurich release, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) store app version 16.7.0 and earlier. Starting with version 16.7.1, these fields aren't available.
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: zurich
 product: Application Manager
 classification: application-manager
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Installing apps, plugins, and products, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Installing apps, plugins, and products, Application Manager, Administering applications, Get started, Administer]
 ---
 
 # Install all applications in a product
@@ -59,15 +59,15 @@ Role required: admin, sn\_appclient.app\_client\_user, or sn\_appclient.app\_cli
 
 8.  Install the product now or schedule installation for a later time.
 
-<table id="choicetable_dm4_3km_yfc"><thead><tr><th align="left" id="d301747e229">
+<table id="choicetable_dm4_3km_yfc"><thead><tr><th align="left" id="d289567e229">
 
 Installation option
 
-</th><th align="left" id="d301747e232">
+</th><th align="left" id="d289567e232">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d301747e238">
+</th></tr></thead><tbody><tr><td id="d289567e238">
 
 **Install now**
 
@@ -77,7 +77,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d301747e262">
+</td></tr><tr><td id="d289567e262">
 
 **Install later**
 

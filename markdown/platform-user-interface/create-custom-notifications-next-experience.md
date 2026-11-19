@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/create-custom-notifications-next-experience.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -158,7 +158,7 @@ Recipient\(s\) listed in event parm1
 
 </td><td>
 
-Option to select whether Parm 1 contains a list of comma-separated sys\_ids. For more information, see [Classic Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/events.md).
+Option to select whether Parm 1 contains a list of comma-separated sys\_ids. For more information, see Classic Events.
 
 </td></tr><tr><td>
 

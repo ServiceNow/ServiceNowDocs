@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
-breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - endpoints, Agent Client Collector, IT Operations Management]
 ---
 
 # Setting exclusion lists for IPs and NICs
@@ -23,6 +23,4 @@ Sample format of the value should be:
 
 -   nic = nameRegex1, nameRegex2, nameRegex3
 -   ip\_addr = IPRegex1, IPRegex2
-
-**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

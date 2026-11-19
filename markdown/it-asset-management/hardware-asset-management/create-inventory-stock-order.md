@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Procurement and fulfillment, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 8
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Create an inventory stock order request
@@ -58,7 +58,7 @@ When you submit the stock order request, the Hardware Stock Order flow starts. T
     -   If the total price is more than $1,000, the request goes to an approver group for approval.
     After the request is approved, you can source it.
 
-4.  Select the request number to open the request.
+4.  Click the request number to open the request.
 
     The price of the request item is set from the cost of the model. The price of the request is the quantity multiplied by the price of the request item.
 
@@ -85,18 +85,72 @@ When you submit the stock order request, the Hardware Stock Order flow starts. T
     To enable **Purchase**, create an active vendor catalog item for the requested model, or an active catalog item for the model with a vendor specified. The vendor company record must also have **Vendor** selected.
 
 
-**Parent Topic:**[Procurement and fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/procurement-fulfillment-ham.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
 
-[Fulfilling hardware asset requests]()
+[Work with hardware normalization]()
+
+[Manage asset bundles from your inventory]()
+
+[Manage your inventory through pallet assets]()
+
+[Manage loaner assets]()
+
+[Donate assets to charity organizations]()
 
 [Use Advanced Shipment Notification]()
 
 [Manage RMA requests]()
 
-[Manage loaner assets]()
+[Create a disposal order]()
+
+[Use a hardware asset request flow]()
+
+[Audit hardware asset inventory]()
+
+[Request a Hardware Asset Refresh]()
+
+[Manage your expiring contracts for leased hardware assets]()
+
+[Reclaim hardware assets]()
+
+[View RFID information of assets]()
+
+[Manage the lifecycle of hardware models with calculated lifecycle templates]()
+
+[Create an internal lifecycle in the Hardware Asset Workspace]()
+
+[Calculate the active lifecycle phase for a model]()
+
+[Receive asset warranty details from Lenovo]()
+
+[Manage stockrooms]()
 
 [Track shipments using the integration framework]()
+
+[Track asset location using indoor maps]()
+
+[Assess performance of Hardware Asset Management]()
+
+[Manage refresh of assets using Zero Touch Refresh]()
+
+[Configure the Total Cost of Ownership of assets]()
+
+[Manage Hardware Asset Management subscriptions]()
+
+[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
+
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
+
+[Manage hardware asset tasks using the Mobile Agent application]()
+
+[Manage asset put away using the Hardware Asset Workspace]()
+
+[Audit your hardware assets by using Asset Attestation]()
+
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Update associated Decision tables for HAM flows]()
 

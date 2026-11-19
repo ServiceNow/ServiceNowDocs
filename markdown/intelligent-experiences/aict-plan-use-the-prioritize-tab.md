@@ -1,16 +1,16 @@
 ---
-title: Prioritizing AI plan in AI Control Tower
+title: Prioritizing AI plan in Control Tower
 description: View and manage AI-related intake items, demands, product ideas, and product feedback, through analytics tiles, contextual filters, and filterable lists in Prioritize tab. All three lists support creation of new records from this tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-plan-use-the-prioritize-tab.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-23"
 reading_time_minutes: 2
-breadcrumb: [Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Prioritizing AI plan in AI Control Tower
+# Prioritizing AI plan in Control Tower
 
 View and manage AI-related intake items, demands, product ideas, and product feedback, through analytics tiles, contextual filters, and filterable lists in Prioritize tab. All three lists support creation of new records from this tab.
 
@@ -114,5 +114,5 @@ sn\_align\_core\_feedback
 
 [AI Plan configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-plan-configuring.md)
 
-[Planning and tracking AI work in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-plan-using.md)
+[Planning and tracking AI work in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-plan-using.md)
 

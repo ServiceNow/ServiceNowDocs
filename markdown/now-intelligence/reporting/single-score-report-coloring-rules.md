@@ -7,9 +7,9 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Create coloring rules for single score reports
@@ -98,5 +98,5 @@ A numerical value that determines the order in which the color rules apply. Rule
 
 The colors you specify in the rules apply to the single score report that you’re editing.
 
-**Parent Topic:**[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/c_AdminsteringReports.md)
 

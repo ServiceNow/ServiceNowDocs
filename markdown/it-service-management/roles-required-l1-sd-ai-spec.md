@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/roles-required-l1-sd-ai-spec.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-14"
 reading_time_minutes: 1
 breadcrumb: [Reference, L1 IT Service Desk AI Specialist, IT Service Management]
 ---
@@ -30,7 +30,7 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-Service Desk Manager \[sn\_itsm\_common.sn\_service\_desk\_manager\]
+Service Desk Manager \[sn\_sow\_itsm\_common.sn\_service\_desk\_manager\]
 
 </td><td>
 

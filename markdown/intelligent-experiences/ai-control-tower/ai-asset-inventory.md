@@ -1,5 +1,5 @@
 ---
-title: AI asset inventory tab in AI Control Tower
+title: AI asset inventory tab in Control Tower
 description: The AI asset inventory includes all the AI-related assets used by an organization, including AI models, prompts, systems, and databases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/ai-asset-inventory.html
@@ -7,12 +7,12 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control Tower Home, Control Tower dashboard, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# AI asset inventory tab in AI Control Tower
+# AI asset inventory tab in Control Tower
 
 The AI asset inventory includes all the AI-related assets used by an organization, including AI models, prompts, systems, and databases.
 
@@ -24,7 +24,7 @@ The **AI asset inventory** tab displays the following widgets. You can view the 
 
     This section displays the number of AI systems, categorized by the providers using a donut chart.
 
-    **Note:** The AI system by provider donut chart doesn’t display the **Other** category when there are more than five providers, which can cause a mismatch between the number of metric labels and the items shown in the list when selecting a metric label.
+    **Note:** The AI system by provider donut chart doesn’t display the Other category when there are more than five providers, which can cause a mismatch between the number of metric labels and the items shown in the list when selecting a metric label.
 
 -   **AI systems by type**
 
@@ -39,7 +39,7 @@ The **AI asset inventory** tab displays the following widgets. You can view the 
     This section displays the number of AI systems classified in the **Providers** and **Components** using bar graph.
 
 
-The following image shows the **AI asset inventory** tab on the AI Control Tower.
+The following image shows the **AI asset inventory** tab on the Control Tower.
 
 \[Omitted image "aict-ai-asset-inventory.png"\] Alt text: AI asset inventory tab that displays all the metric types for AI systems.
 

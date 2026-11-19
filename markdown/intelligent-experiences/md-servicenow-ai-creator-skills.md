@@ -1,26 +1,26 @@
 ---
-title: ServiceNow AI Creator skills dashboard
+title: ServiceNow AI Creator skills
 description: The ServiceNow AI Creator skills dashboard provides insight into how your organization uses AI-powered creator skills—automated code generation, documentation, and testing capabilities—to boost developer productivity. Monitor skill satisfaction, usage patterns, and outcomes to optimize adoption and identify high-performing skills across your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/md-servicenow-ai-creator-skills.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-03"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow AI dashboard, Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [ServiceNow AI dashboard, Dashboards, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# ServiceNow AI Creator skills dashboard
+# ServiceNow AI Creator skills
 
 The ServiceNow AI Creator skills dashboard provides insight into how your organization uses AI-powered creator skills—automated code generation, documentation, and testing capabilities—to boost developer productivity. Monitor skill satisfaction, usage patterns, and outcomes to optimize adoption and identify high-performing skills across your instance.
 
-## Creator skills dashboard overview
+## Creator skills overview
 
 Creator skills are AI-powered agents within ServiceNow that assist users by automating repetitive development tasks. These skills use large language models and ServiceNow specific training to generate code, compose unit tests, write API documentation, and perform other knowledge-intensive tasks. By integrating creator skills into your workflow, your team can accelerate development velocity, reduce manual effort, and maintain consistency across projects.
 
 Creator skills operate within generative AI and are governed by ServiceNow's AI governance and control framework. Each suggestion is tracked, and users can accept, reject, cancel, or ignore recommendations. This feedback loop helps improve skill performance and informs adoption metrics.
 
-To view the ServiceNow AI Creator skills dashboard on AI Control Tower, navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **ServiceNow AI** &gt; **Creator skills**.\[Omitted image "aict-snow-ai-creator-skills.png"\] Alt text: The ServiceNow AI Creator skills dashboard with different widgets displaying the insights.
+To view the ServiceNow AI Creator skills dashboard on Control Tower, navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **ServiceNow AI** &gt; **Creator skills**.\[Omitted image "aict-snow-ai-creator-skills.png"\] Alt text: The ServiceNow AI Creator skills dashboard with different widgets displaying the insights.
 
 ## Skill Satisfaction
 

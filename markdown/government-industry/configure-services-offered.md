@@ -1,18 +1,18 @@
 ---
-title: Configure the portal service catalog for a constituent, business, or agency
-description: Configure the Public Sector Digital Services service catalog so that you can define the type of public service being offered, the service taxonomy, and which agency offers the service. These services are displayed on the Government Service Portal or GOV.UK Design System Service Portal.
+title: Configure the service catalog for a constituent, business, or agency
+description: Configure the Public Sector Digital Services service catalog so that you can define the type of public service being offered, the service taxonomy, and which agency offers the service. These services are displayed on the Government Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/configure-services-offered.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure the portal service catalog for a constituent, business, or agency
+# Configure the service catalog for a constituent, business, or agency
 
-Configure the Public Sector Digital Services service catalog so that you can define the type of public service being offered, the service taxonomy, and which agency offers the service. These services are displayed on the Government Service Portal or GOV.UK Design System Service Portal.
+Configure the Public Sector Digital Services service catalog so that you can define the type of public service being offered, the service taxonomy, and which agency offers the service. These services are displayed on the Government Service Portal.
 
 ## About this task
 

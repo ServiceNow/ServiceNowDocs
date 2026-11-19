@@ -1,6 +1,6 @@
 ---
 title: Explore AI model providers
-description: Explore the AI model providers section in AI Control Tower.
+description: Explore the AI model providers section in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/explore-ai-model-providers.html
 release: zurich
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
-breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Controls, Configurations, Control Tower dashboard, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Explore AI model providers
 
-Explore the AI model providers section in AI Control Tower.
+Explore the AI model providers section in Control Tower.
 
 AI model providers enable you to select data routing, manage third-party LLMs \(Large Language Models\) and SLMs \(Small Language Models\), and configure the third-party LLMs by selecting the allowed model providers.
 
@@ -53,9 +53,9 @@ The AI model providers configured by your organization such as Perplexity, IBM W
 
 For more information on Now LLM Service- LTS model, see 
 
-For information on exploring the scenarios configuring third-party LLMs for all the regions, see [Explore Third-party LLMs and regions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/exploring-third-party-llms-and-data-routing-configuration.md)
+For information on exploring the scenarios configuring third-party LLMs for all the regions, see [Explore the third-party LLMs and regions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/exploring-third-party-llms-and-data-routing-configuration.md)
 
-For information about configuring third-party LLMs through Data routing configuration for APJC region, see [Configure third-party LLMs using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.md)
+For information about configuring third-party LLMs through Data routing configuration for APJC region, see [Configure third-party LLMs using Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.md)
 
 ## Fallback and Spillover
 
@@ -111,7 +111,7 @@ If you have selected an AI provider, which is supported by your organization or 
 
 ## Audit logs
 
-Audit logs show configuration changes made on Data, Approvals, and AI model providers categories in AI Control Tower. You can select the **View audit logs** option to view the Audit logs.
+Audit logs show configuration changes made on Data, Approvals, and AI model providers categories in Control Tower. You can select the **View audit logs** option to view the Audit logs.
 
 \[Omitted image "view-audit-logs.png"\] Alt text: Audit logs.
 
@@ -130,5 +130,5 @@ You can also filter the changes by selecting a date range, starting with the las
 
 In the Multi-instance setup, when a managed \(sub-prod\) instance is added or removed from the syncing instances in the AI inventory information to synchronize with a specific manager \(prod\) instance, the audit logs first display a record of all instances being removed, followed by a separate record indicating the instance being added or removed.
 
-\[Omitted image "audit-logs.png"\] Alt text: AI Control Tower Audit logs.
+\[Omitted image "audit-logs.png"\] Alt text: Audit logs.
 

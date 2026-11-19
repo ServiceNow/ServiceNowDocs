@@ -7,9 +7,9 @@ release: zurich
 product: Search Suggestions
 classification: search-suggestions
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Configuring Search Suggestions, Search Suggestions, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configuring Search Suggestions, Search Suggestions, Search administration, Configure core features, Administer]
 ---
 
 # Prevent the creation of suggestions in special cases
@@ -43,7 +43,7 @@ Search Suggestions generates auto-complete suggestions and search suggestions fr
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `sys_search_suggestion_blacklist.list`.
+    2.  In the navigation filter, enter `sys_search_suggestion_blacklist.list`.
 
     3.  Press Enter.
 

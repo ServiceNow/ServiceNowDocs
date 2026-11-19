@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/communications.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-24"
 reading_time_minutes: 2
 breadcrumb: [Deploy Operational Technology Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -59,6 +59,4 @@ The following table describes how to set up network ports.
 |Sensor|443 \(HTTP\) inbound|&lt;-|Host Setup Computer|Required|Additional support during deployment|
 |Sensor|22 \(SSH\) inbound|&lt;-|Host Setup Computer|Required|Additional support during deployment|
 |MID Server|443|Bi &lt;-&gt;|NOW instance /Web|Required|Communications from the MID Server to the NOW fabric internet facing.|
-
-**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/deploy-ot-discovery-devices-landing.md)
 

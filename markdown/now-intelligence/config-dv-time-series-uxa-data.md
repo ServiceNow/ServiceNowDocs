@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/config-dv-time-series-uxa-data.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 7
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Time series visualizations, Create, Data visualizations, Platform A
 
 The following Data configuration options are available for all time series type visualizations of Usage Insights data.
 
-**Note:** If you add a Platform Analytics data visualization with Usage Insights data to an inline dashboard, the default drilldown for that data visualization is to open the corresponding UXA analytics page. This feature provides a quick and efficient way to drill down and explore specific user behavior from your Platform Analytics dashboard.
+**Note:** If you add a Platform Analytics data visualization with Usage Insights \(UXA\) data to an inline dashboard, the default drilldown for that data visualization is to open the corresponding UXA analytics page. This feature provides a quick and efficient way to drill down and explore specific user behavior from your Platform Analytics dashboard.
 
 <table id="table_wqy_sjr_qtb"><thead><tr><th>
 
@@ -34,7 +34,7 @@ You have selected a Usage Insights data source in [Create time series data visua
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-MetricIf there is more than one metric, you can change the time series chart type for that metric by clicking the Change chart type icon. Also, if there is more than one metric, you can use the More options list to select a main metric and to add a Y-axis for each metric. Lastly, you can set dashboard filters to apply only to specific metrics. For more information, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/chart-options-multi-metrics.md).
+MetricIf there is more than one metric, you can change the time series chart type for that metric by clicking the Change chart type icon. Also, if there is more than one metric, you can use the More options list to select a main metric and to add a Y-axis for each metric. Lastly, you can set dashboard filters to apply only to specific metrics. For more information, see [Multiple metrics in time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/chart-options-multi-metrics.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -136,11 +136,9 @@ Add alternative group by
 
 </td><td>
 
-This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You don't have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
 
-Data snapshots indicators support only reference, Boolean, and choice fields for alternative group bys.
-
-For more information about setting alternative group-bys for multiple metrics, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/select-group-runtime.md).
+For more information about setting alternative group-bys for multiple metrics, see [Multiple metrics in time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/select-group-runtime.md).
 
 **Important:**
 
@@ -212,12 +210,8 @@ Period
 </td><td>
 
 Time interval for each date period. -   Days `D`
--   Weeks `W`
 -   Months `M`
--   Quarters `Q`
 -   Years `Y`
-
- The available periods depend on the time aggregation. A period can't be shorter than the time aggregation unit. If you change the time aggregation to a longer unit than the selected period, the period changes to the shortest period that is still available.
 
  This property applies only when **Set absolute period** is false.
 
@@ -228,8 +222,6 @@ Allow change date range
 </td><td>
 
 When turned on, the viewer has a date range selector control with a set of predefined options.
-
- Not available when **Compare period over period** is turned on.
 
 </td></tr><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/create-configurable-workspace-experience-uib.html
 release: zurich
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Configure, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,13 +20,13 @@ Role required: ui\_builder\_admin, admin
 
 **Note:**
 
-ServiceNow offers prebuilt Configurable Workspace experiences to target specific users and issues like CRM Workspace.
+ServiceNow offers prebuilt Configurable Workspace experiences to target specific users and issues like CSM Configurable Workspace.
 
 These prebuilt workspaces can be updated and modified in UI Builder instead of creating an experience from scratch.
 
 For a list of prebuilt workspaces ServiceNow offers, see [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/list-of-workspaces.md).
 
-To update an existing Configurable Workspace experience, see [Open a Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md)
+To update an existing Configurable Workspace experience, see [Open a Configurable Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md)
 
 ## Procedure
 

@@ -1,6 +1,6 @@
 ---
 title: Create predefined transition condition types
-description: Create predefined transition conditions to reuse the conditions for your change models.
+description: Create predefined transition conditions to reuse the conditions for your Change models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/create-predefined-transition-condition-type.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Create a Change model, Configure, Change Management, IT Service Man
 
 # Create predefined transition condition types
 
-Create predefined transition conditions to reuse the conditions for your change models.
+Create predefined transition conditions to reuse the conditions for your Change models.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: change\_manager
 
 1.  Navigate to **All** &gt; **Application** &gt; **Module** &gt; **Change Model Condition Types**.
 
-    A list of transition conditions for change requests appears.
+    A list of transition conditions for Change requests appears.
 
 2.  Select **New**.
 
@@ -76,9 +76,9 @@ Condition \(Script\)
 
 </td><td>
 
-Script that runs against the record in the **Table name** field and returns `true` when the transition can proceed. This field appears when **script** is selected in the **Condition Type** field.This field is available only when **Transition Script** is selected from **Requires** field.
+Script that runs against the record in the **Table name** field and returns `true` when the transition can proceed. This field appears when **script** is selected in the **Condition Type** field.otherprops="store-2026-09"&gt;This field is available only when **Transition Script** is selected from **Requires** field.
 
-**Note:** To edit this field, . Without it, the script editor is read-only. For more information, see [Model script editor role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/model-script-editor-roles.md).
+**Note:** To edit this field, you need the **change\_model\_script\_admin** role. Without it, the script editor is read-only. For more information, see .
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

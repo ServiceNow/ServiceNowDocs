@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/activity-page.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Activity page
@@ -15,6 +15,4 @@ breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Techno
 The Activity page lists only the Appliance activity on your system.
 
 Your Appliance activity is organized by the most recent activity and shows the date and time the activity took place. The page also displays the Appliance name, the type and subtype of activity, and any additional details.
-
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/using-discovery-console.md)
 

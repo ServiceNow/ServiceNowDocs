@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-05-27"
 reading_time_minutes: 2
 keywords: [license key discovery, ACC-VC, license keys table, license registry configuration, agent client collector]
-breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector, IT Operations Management]
 ---
 
 # License key discovery and access control tables
@@ -136,6 +136,4 @@ The following scheduled job supports license key discovery.
 |Job|Schedule|Condition|
 |---|--------|---------|
 |Refresh License Key Config File|Daily at 8:30 a.m. UTC|Runs only when the **sn\_acc\_vis\_content.enable\_license\_key\_discovery** property is set to `true` and the SAM Professional plugin \(com.snc.samp\) is activated.|
-
-**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

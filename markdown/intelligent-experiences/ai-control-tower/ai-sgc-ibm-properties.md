@@ -7,9 +7,9 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
-breadcrumb: [IBM, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [IBM, Service Graph Connectors for AI Control Tower, AI connections, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI Service Graph Connector for IBM properties

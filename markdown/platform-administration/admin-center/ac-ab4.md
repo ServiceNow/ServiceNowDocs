@@ -7,9 +7,9 @@ release: zurich
 product: Admin Center
 classification: admin-center
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Select your adoption blueprint, Adoption blueprints, Discovering adoption blueprints, Admin Center, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Select your adoption blueprint, Adoption blueprints, Discover, Admin Center, Get started, Administer]
 ---
 
 # Reduce incidents and keep services flowing with AI based automation blueprint
@@ -52,7 +52,7 @@ Use the Event Management application as a single management console to identify 
 
 </td><td>
 
-[Roles installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/r_InstalledWithEventManagement.md)
+[Roles installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/r_RolesInstalledWithEventMgmt.md)
 
 </td><td>
 

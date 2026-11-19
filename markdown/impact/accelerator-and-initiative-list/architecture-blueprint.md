@@ -7,9 +7,9 @@ release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 7
-breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
 
 # Architecture Blueprint
@@ -18,17 +18,15 @@ breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and In
 
 The Architecture Blueprint – Advanced Accelerator provides guidance and insights to develop your Architecture Blueprint artifacts.
 
-### Accelerator Overview
+### Overview
 
 The Architecture Blueprint - Advanced Accelerator provides Impact Customers with example architectural artifacts to support your current ServiceNow environment in order to gain an understanding of the core ServiceNow data architecture, application architecture, and technology infrastructure architecture. An Architecture Blueprint aims to provide you with clear visibility into your ServiceNow architecture to enable more effective platform management, governance, and decision making.
 
-### Package Availability
-
-**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance\), and Advanced Packages.
+**Note:** This Accelerator is available for the Impact Advanced package.
 
 ### What you get
 
--   **Alignment Customer Meeting \(up to 1.5 hrs\)**
+-   **Alignment Customer Meeting \(up to 90 minutes\)**
     -   Introduce Architecture Blueprint Accelerator
     -   Set expectations on process and depth of initiative
     -   Introduce three architecture categories:
@@ -43,13 +41,13 @@ The Architecture Blueprint - Advanced Accelerator provides Impact Customers with
     -   Define scope in reference to the current architecture implementation and state
     -   Identify participant roles for the working meetings, per the defined scope
     -   Request the completion of an intake questionnaire, and any other necessary inputs. See the [Requested information/access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/accelerator-and-initiative-list/architecture-blueprint.md) section for examples.
--   **Three Customer Working Sessions \(up to 2 hrs each\)**
+-   **Three Customer Working Sessions \(up to 120 minutes each\)**
     -   Introduce Architecture Blueprint and Accelerator to Working Session participants
     -   Introduce Architecture Blueprint categories, per the defined scope
     -   Introduce Architecture Blueprint guiding principles, per the defined scope.
     -   Collaborate with a Platform Architect to identify relevant example templates, per the defined scope, and with guidance from the Platform Architect, discuss Stakeholder needs and start to fill out template content.
     -   Discuss the next steps for you to continue refining your templates following the conclusion of the initiative
--   **Follow-up Customer Session \(optional upon Customer request - up to 1 hr\)**
+-   **Follow-up Customer Session \(optional upon Customer request - up to 60 minutes\)**
 
     Opportunity for Q &amp; A related to the Architecture Blueprint guidance
 
@@ -209,8 +207,6 @@ The Architecture Blueprint – Total Accelerator provides guidance and insights 
 ### Overview
 
 The Architecture Blueprint - Total Accelerator provides Impact Customers with example architectural artifacts to support your current ServiceNow environment in order to gain an understanding of the core ServiceNow data architecture, application architecture, and technology infrastructure architecture. An Architecture Blueprint aims to provide you with clear visibility into your ServiceNow architecture to enable more effective platform management, governance, and decision making.
-
-### Package Availability
 
 **Note:** This Accelerator is available for the Impact Total package.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/t\_ExampleIncidentsBySameCaller.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Create defined related lists, Related lists, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -60,5 +60,5 @@ Additional use case: You can enable a similar relationship for the Request table
 **Related topics**  
 
 
-[GlideSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/p_GlideServerAPIs.md)
+[bundle-crapiref.c_GlideSystem]
 

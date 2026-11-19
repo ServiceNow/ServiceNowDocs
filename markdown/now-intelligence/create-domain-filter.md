@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-domain-filter.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 7
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
@@ -98,7 +98,7 @@ The filter applies to all elements on the same dashboard or the same dashboard t
 
 [Configure a True/False filter]()
 
-[Configure a Date filter in the inline editor]()
+[Configure a Date filter]()
 
 [URL filter parameters for dashboard filters]()
 

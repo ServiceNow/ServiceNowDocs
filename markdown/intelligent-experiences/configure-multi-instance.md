@@ -1,18 +1,18 @@
 ---
 title: Multi-instance
-description: The Multi-instance Framework enables a prod \(manager\) instance to manage multiple sub-prod \(managed\) instances and facilitate communication for AI Control Tower.
+description: The Multi-instance Framework enables a prod \(manager\) instance to manage multiple sub-prod \(managed\) instances and facilitate communication for Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/configure-multi-instance.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-27"
 reading_time_minutes: 3
-breadcrumb: [Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring integrations, Configure, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Multi-instance
 
-The Multi-instance Framework enables a prod \(manager\) instance to manage multiple sub-prod \(managed\) instances and facilitate communication for AI Control Tower.
+The Multi-instance Framework enables a prod \(manager\) instance to manage multiple sub-prod \(managed\) instances and facilitate communication for Control Tower.
 
 ## Instance Management Hierarchy Overview
 
@@ -56,7 +56,7 @@ Use this configuration if you want to organize instances into separate managemen
 
 ## After Configuration
 
-After configuring the Multi-instance Framework, enable AI Asset data transfer on the prod instance from the AI Control Tower user interface.
+After configuring the Multi-instance Framework, enable AI Asset data transfer on the prod instance from the Control Tower user interface.
 
 When you configure AI Asset data transfer, the remaining values are automatically configured. No additional setup is required.
 
@@ -68,7 +68,7 @@ The Multi-instance Framework synchronizes assets from sub-prod instances to the 
 
 The framework also synchronizes rules from the prod instance to all sub-prod instances.
 
-**Note:** Starting with the May 2026 release, confirm that both the prod and sub-prod instances are running the same AI Control Tower core version \(6.2.4\), which is the minimum supported version.
+**Note:** Starting with the May 2026 release, confirm that both the prod and sub-prod instances are running the same Control Tower core version \(6.2.4\), which is the minimum supported version.
 
 Upgrade the prod instance to version 6.2.4 when you upgrade a sub-prod instance to confirm the Multi-instance Framework functions correctly.
 

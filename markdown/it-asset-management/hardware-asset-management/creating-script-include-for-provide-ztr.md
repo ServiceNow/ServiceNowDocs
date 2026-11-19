@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure Zero Touch request flow, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage Zero Touch request flow, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Create a Script Include to transform Scratchpad updates from the provider
@@ -33,6 +33,4 @@ Consider the following points when you create the Script Include:
     }
     ```
 
-
-**Parent Topic:**[Configure Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-ztr-flow.md)
 

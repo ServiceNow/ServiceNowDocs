@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/select-api-template.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-07-31"
+reading_time_minutes: 4
 breadcrumb: [Creating an API connector with a generative AI skill, Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -15,8 +15,6 @@ breadcrumb: [Creating an API connector with a generative AI skill, Use, Unified 
 Use the SPC Setup Connector skill to automatically complete configuration steps 3-5 in the Connector builder in the Security Posture Control Workspace.
 
 ## Before you begin
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 The SPC Setup Connector skill is included with ServiceNow Otto for Unified Security Exposure Management and the skill is activated by default. For more information about configuring this skill, see [Configure a generative AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/activate-skills-now-assist-vulnerability-response.md).
 
@@ -106,4 +104,6 @@ You might prefer to use this field if the API page has too many details, if it's
 
 9.  See [Validate your connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/spc-sgc-validate-api-connector.md) in the Security Posture Control product documentation for information about the validation step, publishing your connector, and completing the process.
 
+
+**Parent Topic:**[Creating an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-now-assist-api-connector.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ Integrate Logicmonitor with Event Management to send events into ServiceNow by a
 
 -   Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
 -   The Event Management plugin must be installed on the ServiceNow AI Platform instance.
--   Role required: evt\_mgmt\_integration
+-   Role required: evt\_mgmt\_admin
 
 ## About this task
 
@@ -60,9 +60,9 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) event rules provid
 
     3.  Under the Stages section, select the Add icon \[Omitted image "logicmonitor-add-icon.png"\] Alt text: logicmonitor add icon to add a stage and click **Save**.
 
-    4.  In the new stage, select the Add icon \[Omitted image "logicmonitor-add-icon.png"\] Alt text: logicmonitor add icon to search for the user.
+    4.  When you create the new stage, select the Add icon \[Omitted image "logicmonitor-add-icon.png"\] Alt text: logicmonitor add icon again to search for the user.
 
-    5.  Add the integration as the Contact Method and click **Save**.
+        Add the integration as the Contact Method and click **Save**.
 
 3.  After creating the escalation chain, configure alert rules for the chain you created.
 

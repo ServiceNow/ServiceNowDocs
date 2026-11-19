@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
@@ -380,7 +380,7 @@ Dashboards
 
 </td></tr><tr><td>
 
-Monitor goals and strategies in ServiceNow AI Control Tower
+Monitor goals and strategies in ServiceNow Control Tower
 
 </td><td>
 

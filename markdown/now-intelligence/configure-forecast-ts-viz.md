@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/configure-forecast-ts-viz.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -91,7 +91,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 </td></tr></tbody>
 </table>5.  Select which data to base the forecast on.
 
-<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d59309e223">
+<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d57722e219">
 
 **Visualization date range**
 
@@ -99,7 +99,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 
 All data within the date range of the visualization
 
-</td></tr><tr><td id="d59309e232">
+</td></tr><tr><td id="d57722e228">
 
 **Previous periods**
 
@@ -107,7 +107,7 @@ All data within the date range of the visualization
 
 The number of data periods before the present to base forecasts on. These data periods are the same length as the ones in **Period length**.If you select Previous periods, also specify the number of periods in the **Number of periods to consider** field.
 
-</td></tr><tr><td id="d59309e249">
+</td></tr><tr><td id="d57722e245">
 
 **Specific starting date**
 

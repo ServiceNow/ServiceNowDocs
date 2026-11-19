@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-lpr-playbooks-using-activity-stream.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Using the contextual side panel, Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using the contextual side panel, License and Permit Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using the activity stream in License and Permit Administration

@@ -1,20 +1,20 @@
 ---
-title: AI Agent Studio \(legacy\)
+title: AI Agent Studio
 description: The ServiceNow AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/na-ai-agents.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
-# AI Agent Studio \(legacy\)
+# AI Agent Studio
 
 The ServiceNow® AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
 
-\[Omitted video\] Description: AI Agent Studio overview video.
+\[Omitted video\] Description: AI agents overview video.
 
 Learn more about the concepts behind AI agents and how they can help fit your specific business needs.
 
@@ -24,7 +24,7 @@ Select a tile to get started with AI agents.
 
 <table id="table_aj4_wxf_ldc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about AI agents and AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/exploring-ai-agents.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/exploring-ai-agents.md)
 
 </td><td>
 

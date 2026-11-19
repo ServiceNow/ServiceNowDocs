@@ -7,7 +7,7 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -34,15 +34,15 @@ Role required: service\_mapping\_admin
 
 3.  Either select an existing tag category or create a new tag category.
 
-<table id="choicetable_mmz_qlx_1gc"><thead><tr><th align="left" id="d767746e181">
+<table id="choicetable_mmz_qlx_1gc"><thead><tr><th align="left" id="d753196e179">
 
 Tag category option
 
-</th><th align="left" id="d767746e184">
+</th><th align="left" id="d753196e182">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d767746e190">
+</th></tr></thead><tbody><tr><td id="d753196e188">
 
 **Select an existing tag category**
 
@@ -53,7 +53,7 @@ Action
 3.  Select **Define the tag values** and enter values for the selected category.
 
 
-</td></tr><tr><td id="d767746e214">
+</td></tr><tr><td id="d753196e212">
 
 **Create a new tag category**
 

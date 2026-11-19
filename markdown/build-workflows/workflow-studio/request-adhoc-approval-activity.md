@@ -8,8 +8,8 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
 last_updated: "2026-11-02"
-reading_time_minutes: 1
-breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
+reading_time_minutes: 2
+breadcrumb: [Interactive activities, Playbooks reference, Reference, Workflow Studio, Build workflows]
 ---
 
 # Ask for Ad Hoc Approval activity
@@ -23,6 +23,8 @@ Users with the playbook.admin or pd\_author role can add these activities to a p
 ## Inputs
 
 Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/dot-walking-examples.md).
+
+**Note:** After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/activity-definitions.md).
 
 <table id="table_asm_m4j_35b"><thead><tr><th>
 
@@ -82,11 +84,8 @@ Choice
 
 </td><td>
 
-Under **Schedule** &gt; **Start Rule**, select a start rule for when your stage should start running:-   **When process starts**: Your stage starts running as soon as the playbook starts.
--   **After specific stages**: Your stage starts running after specified stage\(s\) have finished running.
-
-Under Schedule &gt; Start Rule, select a start rule for when your activity should start running:-   **When stage starts**: Your activity starts running as soon as its stage starts running. Your stage starts running when your playbook is triggered.
--   **After specific activities**: Your activity starts running after specified activities have finished running.
+Under **Schedule** &gt; **Start Rule**, select a start rule for when the activity should start running:-   **When stage starts**: The activity starts running as soon as its stage starts running.
+-   **After specific activities**: The activity starts running after specified activities have finished running. You can select one more activities from the available activities. By default, the previous activity is selected.
 
 </td></tr><tr><td>
 
@@ -102,55 +101,37 @@ Option to wait for a duration of time before running an activity or stage. When 
 
 </td></tr><tr><td>
 
-Approver
+Display order
 
 </td><td>
 
-Choice
+Number
 
 </td><td>
 
-Individual users that will receive approval requests.
-
-</td></tr><tr><td>
-
-Approver group
-
-</td><td>
-
-Choice
-
-</td><td>
-
-User Group that will receive approval requests.
-
-</td></tr><tr><td>
-
-Table
-
-</td><td>
-
-Choice
-
-</td><td>
-
-Table that you want to choose the associated record from.
-
-</td></tr><tr><td>
-
-Record
-
-</td><td>
-
-Choice
-
-</td><td>
-
-Associated record for the approval requests.
+Defines the order in which this activity will appear during runtime.**Note:** Select **Show additional options** to see this field.
 
 </td></tr></tbody>
-</table>## Outputs
+</table>## Automation inputs
 
--   Records of your approval requests.
--   The states of your approval requests.
+Open the **Automation** tab to add values for the following inputs.
+
+| | | |
+|---|---|---|
+|Approver|Choice|Individual users that will receive approval requests.|
+|Approver group|Choice|User Group that will receive approval requests.|
+|Table|Choice|Table that you want to choose the associated record from.|
+|Record|Choice|Associated record for the approval requests.|
+
+## Outputs
+
+These outputs can provide data to other activities in your playbook. The outputs are available in the **Automation** tab and you can access this data as activity inputs when you configure your activity:
+
+|Output|Type|Description|
+|------|----|-----------|
+|Flow Data Created date|String|Create date of your approval request.|
+|Approval Record|String|Record of your approval request.|
+|Approval State|String|State of your approval request.|
+
+**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/interactive-activities.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Configure a catalog in Service Portal, Create a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Spoke dependencies
 
-You must activate and set up the [AWS CloudFormation spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/aws-cloudformation.md) to use this application.
+You must activate and set up the AWS CloudFormation spoke to use this application.
 
 ## Catalog items and flows
 

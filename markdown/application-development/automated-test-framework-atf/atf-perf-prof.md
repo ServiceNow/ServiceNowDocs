@@ -7,9 +7,9 @@ release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
+breadcrumb: [Test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
 
 # Performance profiling
@@ -40,8 +40,6 @@ You can execute performance profiling on any of your ATF tests or suites. For ea
 [Parallel testing]()
 
 [Accelerate ATF tests failure resolution]()
-
-[ATF Health Check]()
 
 ## Execute performance profiling
 

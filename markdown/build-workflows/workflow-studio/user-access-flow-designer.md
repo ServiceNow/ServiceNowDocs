@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-12-11"
 reading_time_minutes: 5
-breadcrumb: [Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Flows, Configure, Workflow Studio, Build workflows]
 ---
 
 # User access to Workflow Studio flows
@@ -37,18 +37,6 @@ Description
 Contains Roles
 
 </th></tr></thead><tbody><tr><td>
-
-flow\_admin
-
-</td><td>
-
-Enables limited admin access to all Workflow Studio flow, subflow, and action content.
-
-</td><td>
-
-flow\_designer, flow\_operator, flow\_write\_enabled, action\_designer, action\_category\_creator, action\_write\_enabled, flow\_designer\_scripting, connection\_admin, flow\_report\_viewer
-
-</td></tr><tr><td>
 
 flow\_designer
 
@@ -214,4 +202,11 @@ Specify the user roles necessary to access Workflow Studio flow content. For exa
 Specify additional user roles necessary to access the UI elements of Workflow Studio flows. For example, specify a role to access the buttons to save, test, or activate a flow or to access the option to copy a code snippet. Manage feature access directly through the Feature Access List. For more information, see [Manage access to Workflow Studio flow features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/manage-access-features.md).
 
 **Note:** Your users must have the flow\_designer role to create and edit flows. You can specify the additional roles that a user must have to access particular features or content.
+
+-   **[Manage access to Workflow Studio flow features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/manage-access-features.md)**  
+ Restrict access to individual Workflow Studio flow features by user role. Specify what additional roles a user must have to access an individual feature such as copy a flow.
+-   **[Content filtering for Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/content-filtering-flow-designer.md)**  
+Specify which content a user can access based on the user's role.
+
+**Parent Topic:**[Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configuring-flow-designer.md)
 

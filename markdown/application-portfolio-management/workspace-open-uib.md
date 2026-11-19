@@ -1,16 +1,16 @@
 ---
-title: Open a Configurable Workspace experience in UI Builder
+title: Open a Configurable Workspace experience
 description: Access your Configurable Workspace experience in UI Builder for editing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/workspace-open-uib.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Open a Configurable Workspace experience in UI Builder
+# Open a Configurable Workspace experience
 
 Access your Configurable Workspace experience in UI Builder for editing.
 
@@ -20,7 +20,7 @@ Role required: ui\_builder\_admin or admin
 
 ## Procedure
 
-1.  In the navigation filter, navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
 2.  Select your experience.
 
@@ -29,5 +29,5 @@ Role required: ui\_builder\_admin or admin
 
 ## Result
 
-Your configurable experience opens in UI Builder.
+Your Configurable Workspace experience opens in UI Builder.
 

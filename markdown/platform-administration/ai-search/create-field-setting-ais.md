@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-28"
 reading_time_minutes: 1
-breadcrumb: [Field settings, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Field settings, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Create a field setting for an AI Search indexed source

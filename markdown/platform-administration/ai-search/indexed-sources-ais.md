@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-04"
 reading_time_minutes: 8
-breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Indexed sources in AI Search
@@ -80,13 +80,15 @@ You can configure attributes and field settings for an indexed source to control
 
 ## Indexing content from an indexed source
 
-After you define an indexed source, AI Search begins automatically indexing to reflect changes to records in the selected source table and its specified child tables. The results of all record create, update, and delete operations in these tables are reflected in the search index. AI Search doesn't index content from unmodified records in these tables until you perform a full table index. For more information on indexing behavior, including steps for full table indexing, see [Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexing-content-ais.md).
+After you define an indexed source, AI Search begins automatically indexing to reflect changes to records in the selected source table and its specified child tables. The results of all record create, update, and delete operations in these tables are reflected in the search index. AI Search doesn't index content from unmodified records in these tables until you perform a full table index. For more information about indexing steps and behavior, see [Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexing-content-ais.md).
 
-**Note:** The pre-configured indexed sources included with AI Search only index content from text and string fields on source records. When searching records from these indexed sources, you can use numeric fields to facet or filter your search results, but you can't find records using their numeric field values. To search on a record's numeric field values, copy them into a text or string field so they can be indexed.
+**Note:** The preconfigured indexed sources included with AI Search only index content from text and string fields on source records. When searching records from these indexed sources, you can use numeric fields to facet or filter your search results, but you can't find records using their numeric field values. To search on a record's numeric field values, copy them into a text or string field so they can be indexed.
 
 ## Indexing content from knowledge articles
 
 When indexing content from records in the Knowledge \[kb\_knowledge\] table, AI Search defaults to including content defined in knowledge blocks. Administrators can override this default behavior and configure AI Search to exclude content from knowledge blocks when indexing knowledge articles. For details on making this change, see [Exclude knowledge block content from the AI Search index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/exclude-know-blocks-ais-index.md).
+
+To index content from a knowledge article template table that extends the Knowledge \[kb\_knowledge\] table, add the template table as a child of the Knowledge Table indexed source, then reindex that indexed source. As an example, you might add the FAQ \[kb\_template\_faq\] template table as a child table to the Knowledge Table indexed source. To learn about adding child tables to an indexed source, see [Create an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-indexed-source-ais.md). For more information about reindexing an indexed source, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/index-single-source-ais.md).
 
 ## Multiple indexed sources for the same ServiceNow AI Platform table
 
@@ -100,8 +102,6 @@ Define an indexed source to make content and metadata from ServiceNow AI Platfor
 To limit the set of records indexed from source tables, you can configure retention policies and filter conditions for your indexed sources. AI Search also uses these settings to automatically purge stale records from the index, optimizing search performance.
 -   **[Indexed source guardrails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/indexed-source-guardrails-ais.md)**  
 Reduce index size and increase search performance with guardrails that limit the number of task and alert source records indexed from indexed sources.
--   **[High-churn field detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/high-churn-field-detection-ais.md)**  
-Some indexed source fields change so frequently that repeatedly reindexing them adds load to AI Search without adding search value. AI Search automatically identifies these high-churn fields and lets an admin decide whether to continue indexing them or to exclude them from the index going forward.
 -   **[Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/semantic-index-cfg-ais.md)**  
 The AI Search generalized RAG \(Retrieval-Augmented Generation\) framework offers a streamlined way to configure semantic indexing settings for records indexed from ServiceNow AI Platform® tables.
 -   **[Exclude knowledge block content from the AI Search index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/exclude-know-blocks-ais-index.md)**  

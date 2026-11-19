@@ -7,8 +7,8 @@ release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2025-07-31"
+reading_time_minutes: 2
 breadcrumb: [Chargeback, Processing a Mastercard dispute, Resolving disputes with Mastercard, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -30,8 +30,6 @@ This task displays during one of the possibilities in the chargeback stage:
 -   Arbitration is initiated directly, skipping pre-arbitration.
 
 Review the ruling from Mastercard and choose whether to resolve the dispute or take further action.
-
-If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
 ## Procedure
 
@@ -63,15 +61,15 @@ If Card Data Security is installed and configured, **Attachments** in the contex
 
 11. In the **Response outcome** field, select one of the following options.
 
-<table id="choicetable_p21_t5l_wfc"><thead><tr><th align="left" id="d43431e289">
+<table id="choicetable_p21_t5l_wfc"><thead><tr><th align="left" id="d42100e269">
 
 Selection
 
-</th><th align="left" id="d43431e292">
+</th><th align="left" id="d42100e272">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d43431e298">
+</th></tr></thead><tbody><tr><td id="d42100e278">
 
 **Unresolved**
 
@@ -81,7 +79,7 @@ Select this option if you are not happy with the arbitration response from Maste
 
 For more information about Financial adjustments, see [About Financial adjustments in Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/financial-adjustments.md).
 
-</td></tr><tr><td id="d43431e323">
+</td></tr><tr><td id="d42100e303">
 
 **Resolved**
 
@@ -92,7 +90,7 @@ Select this option if you’re satisfied with the arbitration response and close
 </td></tr></tbody>
 </table>12. Select **Add file** to attach supporting documents to the task.
 
-    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard. For more information, see [Mastercard document requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/mastercard-image-and-document-requirements.md).
+    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard.
 
 
 ## What to do next

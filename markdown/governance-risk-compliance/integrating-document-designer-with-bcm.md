@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/integrating-document-designer-with-bcm.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Starting with BCM release 9.0.x, the ServiceNow Document designer with Microsoft
 
 The Document designer with Microsoft Word application offers a low-code solution, enabling you to configure different aspects of Microsoft Word documents without requiring extensive technical expertise. The templates offered by ServiceNow are designed to align with the company's brand guidelines, confirming consistent and professional documentation.
 
-Use the Document designer with Microsoft Word application to generate intuitive and audit-ready Microsoft Word reports for business impact analysis \(BIAs\), business continuity plans \(BCPs\), and events. Generate these reports directly from your ServiceNow instance. Configure the Microsoft Word templates in the application to include specific data from the records, such as tables and columns, into the reports. Options include using predefined templates, customizing them with low-code implementation, or creating your own templates to meet your company's specific guidelines.
+Use Document designer with Microsoft Word to generate intuitive and audit-ready Microsoft Word reports. Configure the Microsoft Word templates in the application to include specific data from the records, such as tables and columns, into the reports. Options include using predefined templates, customizing them with low-code implementation, or creating your own templates to meet your company's specific guidelines.
 
 You can save these reports either within your ServiceNow instance or as cloud documents in Microsoft SharePoint.
 

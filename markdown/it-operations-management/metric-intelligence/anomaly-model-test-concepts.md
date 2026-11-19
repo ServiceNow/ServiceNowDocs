@@ -7,9 +7,9 @@ release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Exploring Metric Intelligence, Metric Intelligence, IT Operations Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
 
 # Anomaly model testing
@@ -28,4 +28,10 @@ Each chart in the Insights Explorer, contains the Anomaly Test Statistics sectio
 
 -   **Show Bounds**: Displays a computed upper and lower bound for the metric in an anomaly model testing, based on learning of past metric values. The upper and lower bounds always appear together.
 -   **Show Anomaly Scores**: Displays anomaly scores on a virtual axis of 0-10, for an anomaly model test. Color code is based on the score thresholds that are defined in the Anomaly Score to Event Severity Map \[sa\_metric\_anomaly\_score\_to\_event\_severity\_map\] table.
+
+## Use test results to fine-tune anomaly detection
+
+Anomaly model testing uses the [upper and lower bounds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/override-metric-bounds.md) configured for selected series in the anomaly test rule. The anomaly model test results show how many anomaly alerts would have been generated for the tested CIs and metrics based on the specified settings. You can then decide if this result is acceptable. Fine-tune the bounds so that the number of anomaly alerts that are generated is not excessive, but sufficient to accurately indicate an out of bounds score.
+
+**Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)
 

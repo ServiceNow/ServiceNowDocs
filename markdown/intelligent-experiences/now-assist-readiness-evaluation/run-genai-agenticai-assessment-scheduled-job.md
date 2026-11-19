@@ -7,17 +7,15 @@ release: zurich
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: task
-last_updated: "2026-10-06"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
-breadcrumb: [Configure, AI Readiness Evaluation, Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Configure, AI Readiness Evaluation, Enable AI experiences]
 ---
 
 # Run the GenAI/AgenticAI Assessment scheduled job
 
 Before you can view the agentic AI or generative AI assessment results, you must first run the GenAI/AgenticAI Assessment scheduled job.
-
-**Important:** The AI Readiness Evaluation store application is being prepared for deprecation. The readiness assessment capability is now available as a native in-platform feature within the AI Admin Center application. For more information, see [AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-landing-page.md).
 
 ## Before you begin
 

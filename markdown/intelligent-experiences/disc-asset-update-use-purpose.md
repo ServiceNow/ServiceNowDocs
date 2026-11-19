@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/disc-asset-update-use-purpose.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-05"
 reading_time_minutes: 2
 keywords: [AI asset, use and purpose, system autonomy, human involvement, interaction type, intended outcome]
-breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Update the use and purpose of an AI asset
@@ -27,7 +27,7 @@ Use and purpose values describe how an AI system operates and what outcome it pr
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Inventory**.
 
 2.  Open the asset record for the AI asset that you want to update.
 

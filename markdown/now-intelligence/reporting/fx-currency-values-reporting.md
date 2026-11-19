@@ -7,10 +7,10 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [FX Currency, Cannot generate report mismatched currency codes.]
-breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # FX Currency values in reporting
@@ -63,7 +63,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 3.  On the **Type** tab, choose the visualization type that you want to use.
 
-    See [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md).
+    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 4.  On the **Configure** tab, choose how you want to group, stack, and aggregate the report.
 

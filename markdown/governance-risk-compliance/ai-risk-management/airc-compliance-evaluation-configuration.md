@@ -1,21 +1,20 @@
 ---
 title: Create a compliance evaluation configuration
-description: Define the AI systems, control objectives, metrics, and schedule that a compliance evaluation monitors on an ongoing basis.
+description: Create a compliance evaluation configuration that defines which AI systems, control objectives, metrics, and schedule a compliance evaluation applies to.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/ai-risk-management/airc-compliance-evaluation-configuration.html
 release: zurich
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-25"
 reading_time_minutes: 3
-keywords: [compliance evaluation configuration, evaluation frameworks, control objectives]
 breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Create a compliance evaluation configuration
 
-Define the AI systems, control objectives, metrics, and schedule that a compliance evaluation monitors on an ongoing basis.
+Create a compliance evaluation configuration that defines which AI systems, control objectives, metrics, and schedule a compliance evaluation applies to.
 
 ## Before you begin
 
@@ -23,7 +22,7 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager
 
 ## About this task
 
-A compliance evaluation configuration monitors AI systems for compliance and updates evaluation scores on an ongoing basis. Use [evaluation frameworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/mon-ai-exploring-aict-evaluations.md) from ServiceNow® and Traceloop to produce trace, session, or span records for your AI systems. Use these frameworks to produce an evaluation of your AI systems. For information about connecting external AI systems to send trace data, see [Activate evaluation scoring for external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/mon-ai-monitor-external-ai-system.md).
+A compliance evaluation configuration monitors AI systems for compliance and updates evaluation scores on an ongoing basis. Use evaluation frameworks from ServiceNow and Traceloop to produce trace, session, or span records for your AI systems. These frameworks help you derive a comprehensive evaluation of your AI systems.
 
 ## Procedure
 
@@ -45,7 +44,7 @@ Description
 
 </th></tr></thead><tbody><tr><td class="sub-head" colspan="2">
 
-Basic details
+**Basic details**
 
 </td></tr><tr><td>
 
@@ -53,7 +52,7 @@ Evaluation name
 
 </td><td>
 
-Unique, descriptive name for this evaluation, using specific terms that identify the AI system, assessment scope, or version being evaluated \(for example, `Monitoring AI Toxicity`\).
+A unique, descriptive name for this evaluation, using specific terms that identify the AI system, assessment scope, or version being evaluated \(for example, *Monitoring AI Toxicity*\).
 
 </td></tr><tr><td>
 
@@ -61,11 +60,11 @@ Description
 
 </td><td>
 
-Purpose and scope of this evaluation, including what is being assessed, why it matters, and any key constraints or context users should know.
+The purpose and scope of this evaluation, including what is being assessed, why it matters, and any key constraints or context users should know.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-Data scope details
+**Data scope details**
 
 </td></tr><tr><td>
 
@@ -73,7 +72,7 @@ Authority documents
 
 </td><td>
 
-Authority documents that govern this evaluation. The following options are provided: -   **NIST AI Risk Management Framework**
+The authority documents that govern this evaluation. The following options are provided: -   **NIST AI Risk Management Framework**
 -   **EU Artificial Intelligence Act**
 -   **AI Content Safety &amp; Toxicity Standard**
 
@@ -84,7 +83,7 @@ Policies
 
 </td><td>
 
-Policies that this evaluation aligns with or enforces. The following options are provided: -   **Artificial Intelligence Software Development Lifecycle Policy**
+The policies that this evaluation aligns with or enforces. The following options are provided: -   **Artificial Intelligence Software Development Lifecycle Policy**
 -   **Enterprise Artificial Intelligence Governance Policy**
 -   **Internal use of AI Systems**
 
@@ -95,7 +94,7 @@ AI system type
 
 </td><td>
 
-Category of AI system being evaluated. The following options are provided:-   **Agentic AI**
+The category of AI system being evaluated. The following options are provided:-   **Agentic AI**
 -   **Generative AI**
 
 
@@ -105,7 +104,7 @@ Provider
 
 </td><td>
 
-Provider of the AI system. The following options are provided:-   **ServiceNow**
+The provider. The following options are provided:-   **ServiceNow**
 -   **Others**
 
 
@@ -115,7 +114,7 @@ Metric category
 
 </td><td>
 
-Metric category used in this evaluation:-   **Safety**
+The metric category used in this evaluation:-   **Safety**
 -   **Security**
 -   **Quality**
 
@@ -131,7 +130,7 @@ Metric category used in this evaluation:-   **Safety**
 
 8.  Select **Add** to complete the control objective mapping, and then select **Next**.
 
-    \[Omitted image "airc-configure-evaluation-scope-control-obj.png"\] Alt text: Form showing a table of compliance control objectives with check boxes to select controls for evaluation scope.
+    \[Omitted image "airc-configure-evaluation-scope-control-obj.png"\] Alt text: Form showing a table of compliance control objectives with checkboxes to select controls for evaluation scope.
 
 9.  Define the evaluation criteria and frequency in the **Evaluation criteria and frequency** section.
 
@@ -149,9 +148,9 @@ Frequency
 
 </td><td>
 
-Frequency at which the evaluation runs and updates evaluation scores for the AI systems in scope. The following options are provided:-   Daily: Runs the evaluation every day.
--   Weekly: Runs the evaluation once a week.
--   Monthly: Runs the evaluation once a month.
+The frequency at which evaluations are conducted. The following options are provided:-   Daily
+-   Weekly
+-   Monthly
  For example, for AI toxicity, a monthly evaluation monitors control drift.
 
 </td></tr><tr><td>
@@ -160,9 +159,7 @@ Success condition result
 
 </td><td>
 
-Result assigned to an AI system when the evaluation criteria are met. The following options are provided:-   Passed
--   Failed
-
+The result, Passed or Failed, assigned to an AI system when the evaluation criteria is met.
 
 </td></tr></tbody>
 </table>10. In the **All Evaluations** section, define the conditions and the metrics under which the configuration is applicable.
@@ -183,7 +180,7 @@ Name
 
 </td><td>
 
-Name for the evaluation.
+A name for the evaluation.
 
 </td></tr><tr><td>
 
@@ -191,11 +188,11 @@ Conditions
 
 </td><td>
 
-Field, operator, and value that filter which records this configuration applies to, for example, **\[Risk classification\] \[is\] \[High\]**. Select **and** or **or** to combine multiple conditions, and select **New condition set** to add a condition set that is evaluated independently of other condition sets.
+The field, operator, and value that filter which records this configuration applies to, for example, \[Risk classification\] \[is\] \[High\]. Select "and" or "or" to combine multiple conditions, and select **New condition set** to add a condition set that is evaluated independently of other condition sets.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-Metric thresholds
+**Metric thresholds**
 
 </td></tr><tr><td>
 
@@ -203,15 +200,15 @@ Metric
 
 </td><td>
 
-Metric, operator, and threshold value that determine when a control is evaluated as compliant or non-compliant, for example, **\[Toxicity\] \[is\] \[True\]**. Select **Add metric** to define additional metric thresholds for this configuration.
+The metric, operator, and threshold value that determine when a control is evaluated as compliant or non-compliant, for example, \[Toxicity\] \[is\] \[True\]. Select **Add metric** to define additional metric thresholds for this configuration.
 
 </td></tr></tbody>
-</table>    \[Omitted image "airc-configure-evaluation.png"\] Alt text: Compliance evaluation configuration form showing the final step of configuring the evaluation. The form displays evaluation conditions and metric thresholds.
+</table>    \[Omitted image "airc-configure-evaluation.png"\] Alt text: Compliance evaluation configuration form showing the final step of the Configuring evaluation. The form displays evaluation conditions and metric thresholds.
 
 11. Select **Submit**.
 
 
 ## What to do next
 
-The compliance evaluation configuration is ready to be mapped to one or more AI systems. For information about mapping an evaluation configuration to AI systems, see [Use a compliance evaluation on an AI system record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/airc-use-compliance-evaluation-ai-system.md).
+The compliance evaluation configuration is ready to be mapped to one or more AI systems. For information on mapping an evaluation configuration to AI systems, see [Use a compliance evaluation on an AI system record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/ai-risk-management/airc-use-compliance-evaluation-ai-system.md).
 

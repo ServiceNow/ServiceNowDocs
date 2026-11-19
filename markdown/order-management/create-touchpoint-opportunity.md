@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/create-touchpoint-opportunity.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-12"
 reading_time_minutes: 1
-breadcrumb: [Manage touchpoints, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Manage touchpoints, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create a touchpoint from an opportunity
@@ -27,7 +27,7 @@ Touchpoints are interaction records that you associate with a specific opportuni
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  In the **Opportunity - All** list, open the opportunity record.
 
@@ -56,12 +56,10 @@ The touchpoint is created and linked to the opportunity. It appears in the **Tou
 
 To view all touchpoints for the opportunity, select the **Touchpoints** tab.
 
+**Parent Topic:**[Manage touchpoints on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/manage-touchpoints-opportunity.md)
+
 **Related topics**  
 
 
-[Create a touchpoint from a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-touchpoint-lead.md)
-
-[Create new CRM touchpoint form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/create-crm-touchpoint-form.md)
-
-[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-crm-touchpoints.md)
+[create-touchpoint-lead]
 

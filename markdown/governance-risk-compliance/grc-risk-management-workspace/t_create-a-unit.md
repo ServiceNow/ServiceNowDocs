@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring metrics, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Create a metric unit
@@ -18,22 +18,23 @@ Define the units in which the metric scores are displayed. The units can be numb
 
 ## Before you begin
 
-Role required: sn\_grc\_metric.manager, sn\_risk.user and sn\_compliance.user.
+Role required: sn\_grc\_metric.manager, sn\_risk.user, and sn\_compliance.user
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace** &gt; **Metrics** &gt; **Units**.
+1.  Navigate to **All** &gt; **Advanced Risk Assessment** &gt; **Metrics** &gt; **Units**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Name|Name of the unit. For example, `$`.|
-    |Format|Format of the unit. For example, `{0} MWh` gives you the number of Megawatt-hours with the abbreviation MWh.|
+    |Format|Format of the unit. For example, `${0}` displays the value with a currency symbol.|
+    |Unit Family|Family to which the unit belongs. For example, $ can be associated with Currency.|
 
-4.  To save the metric unit, click **Save**.
+4.  To save the metric unit, select **Save**.
 
 
 ## Result

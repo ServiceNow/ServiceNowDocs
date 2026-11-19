@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring MFA, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [Configure MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
 # Reset Multi-factor Authentication \(MFA\) for users
@@ -18,7 +18,7 @@ Administrators can reset MFA for users who deleted the app, lost access to the d
 
 ## Before you begin
 
-Role required: adaptive\_auth\_admin
+Role required: admin
 
 The following procedure describes how a ServiceNow® administrator can reset the MFA validation to unblock users and enable them to re-register MFA.
 
@@ -28,7 +28,7 @@ The following procedure describes how a ServiceNow® administrator can reset the
 
 2.  Search for the user that you want to unblock.
 
-3.  Set the Validated field to **false**.
+3.  Set the Validated to **false**.
 
 4.  Navigate to **All** &gt; **Multi-factor Authentication** &gt; **Web Authentication** &gt; **User Public Credentials \(sys\_user\_public\_credential\)**.
 
@@ -46,4 +46,8 @@ The following procedure describes how a ServiceNow® administrator can reset the
 ## Result
 
 When the unblocked user enters the credentials and logs in, the **Enable multi-factor authentication \(MFA\)** page is displayed. The user can follow the steps on the page to re-register MFA.
+
+## What to do next
+
+If a Zurich upgrade cleared the MFA enrollment of your users, they must enroll again. See [MFA reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/faq-reset-mfa.md).
 

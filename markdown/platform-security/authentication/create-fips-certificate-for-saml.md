@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-02-01"
 reading_time_minutes: 2
 breadcrumb: [\(Optional\) Set keystore properties for signing logout requests for SAML, Service Provider \(SP\) system properties, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ Generate a FIPS 140-2 compliant self-signed BCFKS keystore for use in SAML signi
 
 ## Before you begin
 
-Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
+Role required: admin
 
 Do the following:
 

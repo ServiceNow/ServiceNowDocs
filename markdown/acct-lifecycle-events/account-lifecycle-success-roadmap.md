@@ -1,18 +1,18 @@
 ---
 title: Success initiative roadmap
-description: The success initiative roadmap displays success initiatives and their outcomes over time in a visual timeline. Use it to track initiative progress, filter by status, and adjust the view by timescale or grouping.
+description: The success initiative roadmap shows the status of the success initiatives over a period of time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/acct-lifecycle-events/account-lifecycle-success-roadmap.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
+breadcrumb: [Create a success blueprint, Create a success blueprint template, Customer success, Configure, Customer Success Management]
 ---
 
 # Success initiative roadmap
 
-The success initiative roadmap displays success initiatives and their outcomes over time in a visual timeline. Use it to track initiative progress, filter by status, and adjust the view by timescale or grouping.
+The success initiative roadmap shows the status of the success initiatives over a period of time.
 
 To view this page, follow these steps:
 
@@ -37,5 +37,5 @@ The list of outcomes is displayed in the left panel. Select an outcome from the 
 
 **Note:** By default, you can view the roadmap for a ten year period. You can modify this value in the sn\_acct\_lc.RoadmapTimelineYears.list property.
 
-**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-manage-engage.md)
+**Parent Topic:**[Create a success blueprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/acct-lifecycle-events/account-lifecycle-create-blueprint.md)
 

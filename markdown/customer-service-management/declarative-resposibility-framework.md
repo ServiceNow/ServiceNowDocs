@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/declarative-resposibility-framework.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,11 +16,7 @@ Streamline how you create and update your responsibility definitions and access 
 
 ## Before you begin
 
-Role required: One of the following roles:
-
--   sn\_crm\_customer\_access\_management\_admin
--   sn\_crm\_foundation\_admin
--   admin
+Role required: admin
 
 ## About this task
 
@@ -68,15 +64,7 @@ Roles required
 
 </td><td>
 
-Roles required in addition to responsibilities to get the access.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-Provides a description of the purpose or function of the responsibility access configuration.
+Roles required and responsibilities to get the access.
 
 </td></tr><tr><td>
 
@@ -116,7 +104,7 @@ Relationship filter
 
 </td><td>
 
-Additional conditions to filter the relationship record applicable to the user.
+Additional conditions to filter the relationship records applicable to the user.
 
 </td></tr><tr><td>
 
@@ -178,14 +166,6 @@ Field values script
 </td><td>
 
 Script that returns the valid association values for advanced association logic.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-Provides a description of the purpose or function of the responsibility definition.
 
 </td></tr></tbody>
 </table>    **Note:** To create entries to the **Applies to Relationship**, **Access Levels**, or **Accessible Entities** fields in the Responsibility Access Configuration table, you must migrate all existing configurations for these fields in the global.CSMRelationshipConstantsSNC script include.

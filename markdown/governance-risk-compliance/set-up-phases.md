@@ -1,18 +1,18 @@
 ---
 title: Set up the phases
-description: Set up the phases in the Business Continuity Management application to map them to recovery and event tasks effectively. Users can then tag and execute these phases in the set order.
+description: Set up phases in the Business Continuity Management application to map them to recovery and event tasks. After setup, you can tag phases to tasks and execute them in order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/set-up-phases.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-10-09"
 reading_time_minutes: 3
-breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Set up the phases
 
-Set up the phases in the Business Continuity Management application to map them to recovery and event tasks effectively. Users can then tag and execute these phases in the set order.
+Set up phases in the Business Continuity Management application to map them to recovery and event tasks. After setup, you can tag phases to tasks and execute them in order.
 
 ## Before you begin
 
@@ -66,11 +66,8 @@ For information on mapping event tasks to phases, see [Mapping event tasks to ph
 
 4.  Select **Submit**.
 
-    The configured phase is shown in the list view of the Phases module. It can be tagged to the recovery and event tasks, allowing for more effective tracking and management of these tasks.
+    The phase displays in the Phases module.
 
+    Tag the phase to recovery and event tasks to track and manage them.
 
--   **[Phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/phase-form.md)**  
-To configure phases as part of recovery activities, use the Phase form to set up phases for recovery and event tasks in the BCM Configurable Workspace. You can then associate these phases with recovery and event tasks, enabling you to track their progression effectively.
-
-**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

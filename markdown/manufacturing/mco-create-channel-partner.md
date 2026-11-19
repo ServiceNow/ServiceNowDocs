@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/manufacturing/mco-create-channel-partner.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Set up dealer, Configure, Manufacturing Commercial Operations]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace.**
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CSM/FSM Configurable Workspace.**
 
 2.  Select the List icon.
 
@@ -34,6 +34,8 @@ Role required: admin
 
 6.  Select **Save**.
 
+
+**Parent Topic:**[Set up dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/manufacturing/set-up-dealer.md)
 
 **Related topics**  
 

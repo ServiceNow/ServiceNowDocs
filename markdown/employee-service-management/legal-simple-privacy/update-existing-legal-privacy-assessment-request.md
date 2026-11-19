@@ -7,7 +7,7 @@ release: zurich
 product: Legal Simple Privacy
 classification: legal-simple-privacy
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Requests, Legal Simple Privacy, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal and selecting **My Requests** &gt; **View all requests** from the header.
+    **Note:** If you’re using Legal Service Portal, open the request by navigating to it and selecting **My Requests** &gt; **View all requests** from the header.
 
 2.  Select **My Requests** from the header.
 
@@ -46,15 +46,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 10. Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d233442e154">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d229471e151">
 
 Option
 
-</th><th align="left" id="d233442e157">
+</th><th align="left" id="d229471e154">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d233442e163">
+</th></tr></thead><tbody><tr><td id="d229471e160">
 
 **If the Attachments tab is visible**
 
@@ -65,7 +65,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d233442e202">
+</td></tr><tr><td id="d229471e199">
 
 **If the Documents tab is visible**
 

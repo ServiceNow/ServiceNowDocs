@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/using-playbooks-for-portals.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
@@ -37,7 +37,7 @@ The playbook includes multiple stages. Each stage has one or more activities to 
 
 [Creating an onboarding case with Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-an-onboarding-case-with-portal-playbook.md)
 
-[Creating a guided onboarding case from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
+[Creating a guided onboarding case from CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
 
 [Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/create-an-onboarding-request-from-catalog.md)
 

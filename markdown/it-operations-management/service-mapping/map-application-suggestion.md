@@ -1,20 +1,20 @@
 ---
 title: Map application services based on Automated Service Suggestions
-description: Map a new application service based on automatically generated suggestions. Use the Automated Service Suggestions or Service Fingerprints features to create an application service or add to an existing service.
+description: Map a new application service based on automatically generated suggestions. Use the Automated Service Suggestions or Service Fingerprints features to create a new application service or add to an existing service in a few clicks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/service-mapping/map-application-suggestion.html
 release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Map application services based on Automated Service Suggestions
 
-Map a new application service based on automatically generated suggestions. Use the Automated Service Suggestions or Service Fingerprints features to create an application service or add to an existing service.
+Map a new application service based on automatically generated suggestions. Use the Automated Service Suggestions or Service Fingerprints features to create a new application service or add to an existing service in a few clicks.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: service\_mapping\_admin
 
 ## About this task
 
-Along with automatically generated suggestions, you can identify and choose an application service by using Service Fingerprints suggestions. These suggestions include information about the components in the application service candidates. For more information, see [Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/auto-serv-suggest.md).
+In addition to being provided with automatically generated suggestions, you can also identify and choose an application service by using Service Fingerprints suggestions. The suggestions include information about the components in the application service candidates. For more information, see [Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/auto-serv-suggest.md).
 
 ## Procedure
 
@@ -38,15 +38,15 @@ Along with automatically generated suggestions, you can identify and choose an a
 
 3.  Select an application service either based on candidate suggestions or identify services with desired component.
 
-<table id="sm-auto-sug"><thead><tr><th align="left" id="d540473e165">
+<table id="sm-auto-sug"><thead><tr><th align="left" id="d530694e163">
 
 Search method
 
-</th><th align="left" id="d540473e168">
+</th><th align="left" id="d530694e166">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d540473e174">
+</th></tr></thead><tbody><tr><td id="d530694e172">
 
 **Select from candidates based on a desired component**
 
@@ -57,13 +57,13 @@ Actions
 3.  Select your preferred application service candidate.
 
 
-</td></tr><tr><td id="d540473e201">
+</td></tr><tr><td id="d530694e199">
 
 **Select the candidate using basic details**
 
 </td><td>
 
-1.  Select the **Application Service Suggestions** tab.
+1.  Select the Application Service Suggestions tab.
 2.  Review the list of suggested application services.
 3.  Select your preferred candidate.
 
@@ -81,65 +81,40 @@ Actions
 
 5.  Select **Map application service**.
 
-6.  Either create an application service with the suggested candidate or add the suggested candidate to an existing application service.
+6.  Either create a new application service with the suggested candidate or add the suggested candidate to an existing application service.
 
-7.  -   Select **Create new service**. On the form, fill in the fields.
+<table id="choicetable_mwr_xjr_ycc"><thead><tr><th align="left" id="d530694e288">
 
-<table id="table_xrh_ftl_wkc"><thead><tr><th>
+Action
 
-Field
+</th><th align="left" id="d530694e291">
 
-</th><th>
+Steps
 
-Description
+</th></tr></thead><tbody><tr><td id="d530694e297">
 
-</th></tr></thead><tbody><tr><td>
-
-Name
+**Create a new application service**
 
 </td><td>
 
-Pre-populated, unique name suggested for the new application service.
+1.  Select **Create new service**.
+2.  On the form, fill in the fields. For more information, see [Map application service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/map-application-service-form.md).
 
- Use this name. Enter a unique name, or select **Other name suggestions** for additional options. For more information, see [Name suggestions for application service candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/app-services-name-suggestions.md).
 
-</td></tr><tr><td>
+</td></tr><tr><td id="d530694e325">
 
-Number
-
-</td><td>
-
-Pre-populated unique ID for the application service.
-
-</td></tr><tr><td>
-
-Description
+**Add a candidate to an existing service**
 
 </td><td>
 
-Description of the new application service.
+1.  Select **Add to existing service**.
+2.  Begin entering the name of the existing service and select the desired service from the list.
 
-</td></tr><tr><td>
-
-Service owner
-
-</td><td>
-
-The user who approves of or rejects any change to the mapped application service.
-
-</td></tr><tr><td>
-
-Service group
-
-</td><td>
-
-A specific application services group to which you want to add this service. The default All setting means the application service is available to all groups.
 
 </td></tr></tbody>
-</table>-   Alternatively, to add the suggested candidate to an existing application service, select **Add to existing service**. Start typing the name of an existing service and select the desired service from the list.
-8.  Select **Map service**.
+</table>7.  Select **Map service**.
 
-9.  Select **View map** to view the new or modified application service.
+8.  Select **View map** to view the new or modified application service.
 
 
 **Parent Topic:**[Using Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/using-service-mapping.md)

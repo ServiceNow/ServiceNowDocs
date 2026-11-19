@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/som-product-config-offering-categories.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Create product offerings, Product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Add product catalog categories
@@ -26,11 +26,9 @@ Product offering catalog categories must be published before products can be add
 
 This procedure explains the Product Offering Category tab. To set up categories before adding products, see [Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-create-product-offering-category.md).
 
-**Note:** Creating a product offering category and associating it to the product offering is required for validating product offerings before publishing them using the In Test and Staged intermediate life cycle states. For more information on the life cycle states, see [Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/extended-product-lifecycle-states.md).
-
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select the product offering you are working with.
 
@@ -47,11 +45,9 @@ This procedure explains the Product Offering Category tab. To set up categories 
 
 6.  Select **Save**.
 
-7.  Review the category information and select one of the following options.
+7.  Review the category information and select **Publish**.
 
-    -   Ready for Test
-    -   Publish
-    The category is available to add product offerings or create child categories.
+    The category is published and available to add product offerings too or create child categories.
 
 
 ## What to do next
@@ -62,9 +58,4 @@ This procedure explains the Product Offering Category tab. To set up categories 
 -   [Add a unit of measure to a product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-add-unit-of-measure.md)
 -   [Create a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-create-new-version.md)
 -   [Create product offering relationship groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/som-product-config-relationship-groups.md)
-
-**Related topics**  
-
-
-[Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/extended-product-lifecycle-states.md)
 

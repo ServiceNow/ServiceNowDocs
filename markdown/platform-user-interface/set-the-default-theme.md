@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/set-the-default-theme.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Publish themes, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,9 +16,7 @@ Set a preferred Theme Builder theme as the default for your web experiences when
 
 ## Before you begin
 
-Role required: ui\_builder\_admin
-
-For information on granular roles, see .
+Role required: admin
 
 ## About this task
 
@@ -34,7 +32,7 @@ The default theme is treated as the first theme that is displayed in the Next Ex
 
 2.  From the Home page view, select the Manager page view to see the themes that you have created.
 
-3.  From the Published section, choose the theme that you want to set as the default.
+3.  Choose the theme that you want to set as the default from the Published section.
 
     **Note:** When you have selected the theme that you want to set as the default, verify that you have selected the correct scope for the theme from the application scope picker.
 

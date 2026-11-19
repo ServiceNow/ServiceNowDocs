@@ -1,16 +1,18 @@
 ---
-title: \(Legacy\) Define topic context intent configurations
+title: Define topic context intent configurations
 description: Use pre-chat survey information to determine the appropriate Virtual Agent conversation topic automatically displayed to end users \(requesters\), rather than prompting them to choose from a list of conversation topics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/ac-configure-context-topic-intent.html
 release: zurich
+product: Conversational Interfaces
+classification: conversational-interfaces
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Create chat surveys, General chat settings, Conversational Interfaces Home for NLU, Configure NLU, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
+last_updated: "2025-07-31"
+reading_time_minutes: 3
+breadcrumb: [Using pre-chat surveys with context variables for topic discovery, General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
 
-# \(Legacy\) Define topic context intent configurations
+# Define topic context intent configurations
 
 Use pre-chat survey information to determine the appropriate Virtual Agent conversation topic automatically displayed to end users \(requesters\), rather than prompting them to choose from a list of conversation topics.
 
@@ -113,4 +115,6 @@ Chat context variable that stores the user response to a specific survey questio
 ## Result
 
 The context topic intent configuration is added to the Context Topic \[sys\_cs\_context\_topic\] table. Virtual Agent displays the appropriate conversation topic to users based on the context intent configuration.
+
+**Parent Topic:**[Using pre-chat surveys with context variables for topic discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/using-context-intent-prechat-survey.md)
 

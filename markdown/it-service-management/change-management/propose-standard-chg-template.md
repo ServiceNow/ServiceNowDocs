@@ -24,7 +24,7 @@ Role required: itil, admin
 
 As an IT technician, you can propose a new change template for a change request that you frequently create. This new template is later sent for approval to the change management team, which reviews the request and approves the template as part of the approval process.
 
-**Tip:** In Service Operations Workspace, select the \[Omitted image "list-gray.png"\] Alt text: List icon, and then select **Change Standard Templates** to propose new template. For more information, see [Create and propose a change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/create-change-template-sow.md)
+**Tip:** In Service Operations Workspace, select the \[Omitted image "list-gray.png"\] Alt text: List icon, and then select **Change Standard Templates** to propose new template. For more information, see 
 
 ## Roles for standard change proposals
 
@@ -39,17 +39,15 @@ For the complete role list, see [Components installed with ITSM Roles - Change M
 
 ## Procedure
 
-1.  You can propose a standard change template by navigating to **Change** &gt; **Standard Change** &gt; **Standard Change Catalog** &gt; **Template Management** &gt; **Propose a new Standard Change Template** and filling in the fields on the form.
-
-    |Field|Description|
-    |-----|-----------|
-    |Short description|Short description of the standard change proposal template.|
-    |Requester|User assigned to change requests created from the standard change template.|
-    |Category|Category under which the template is published. For example, Server Standard Changes.|
-    |Assigned to|User assigned to change requests created from the standard change template.|
-    |Configuration item|Configuration item affected by change requests created from the standard change template.|
-    |Sample Change Requests|Change requests provided as samples for the change that you propose. The Change Management team reviews the requests as a part of the approval process.|
-    |Change Request values|Fixed field values applied to change requests created from the standard change template. These values define the repeatable, low-risk part of the change that is approved as a standard change. The available fields are governed by the catalog properties. For more information, see [Configure standard change catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_ConfigureTheStandardChangeCatalog.md)|
+1.  |Field|Description|
+|-----|-----------|
+|Short description|Short description of the standard change proposal template.|
+|Category|Category under which the template is published. For example, Server Standard Changes.|
+|Assignment Group|Group assigned to change requests created from the standard change template.|
+|Assigned to|User assigned to change requests created from the standard change template.|
+|Configuration item|Configuration item affected by change requests created from the standard change template.|
+|Sample Change Requests|Change requests provided as samples for the change that you propose. The Change Management team reviews the requests as a part of the approval process.|
+|Change Request values|Fixed field values applied to change requests created from the standard change template. These values define the repeatable, low-risk part of the change that is approved as a standard change. The available fields are governed by the catalog properties. For more information, see [Configure standard change catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_ConfigureTheStandardChangeCatalog.md)|
 
 2.  Select **Save**.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
+breadcrumb: [Manually create and review your network asset instances, Defining inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Create a telecommunications equipment instance
@@ -32,15 +32,15 @@ You can create the equipment instances that have the inventory category set as E
 
     You can create the following equipment types by selecting the options from the List menu.
 
-<table id="choicetable_mds_dxq_qxb"><thead><tr><th align="left" id="d74866e109">
+<table id="choicetable_mds_dxq_qxb"><thead><tr><th align="left" id="d73326e108">
 
 Option
 
-</th><th align="left" id="d74866e112">
+</th><th align="left" id="d73326e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d74866e118">
+</th></tr></thead><tbody><tr><td id="d73326e117">
 
 **IP Routers, IP Switches, IP Firewalls, IP Load Balancers, Servers, or Virtual Machines**
 
@@ -48,21 +48,21 @@ Description
 
 Creates a record that you’ve selected. To learn more about the fields in the form, see [Router, Switch, Firewall, Virtual Machine, Load Balancer, and Server forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/router-form.md).
 
-</td></tr><tr><td id="d74866e140">
+</td></tr><tr><td id="d73326e139">
 
 **Kubernetes Clusters**
 
 </td><td>
 
-Creates a Kubernetes cluster instance. To learn more about the fields in the form, see [Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/kubernetes-discovery.md).
+Creates a Kubernetes cluster instance. To learn more about the fields in the form, see .
 
-</td></tr><tr><td id="d74866e159">
+</td></tr><tr><td id="d73326e154">
 
 **Kubernetes Pods**
 
 </td><td>
 
-Creates a Kubernetes pod machine instance. To learn more about the fields in the form, see [Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/kubernetes-discovery.md).
+Creates a Kubernetes pod machine instance. To learn more about the fields in the form, see .
 
 </td></tr></tbody>
 </table>3.  Select **New** and then select the equipment type from the list.
@@ -108,14 +108,14 @@ Creates a Kubernetes pod machine instance. To learn more about the fields in the
 
 ## What to do next
 
--   If you want to establish relationships with the other network assets, enter the details in the related tabs. To learn more, see [Related tabs in the Network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
+-   If you want to establish relationships with the other network assets, enter the details in the related tabs. To learn more, see [Related tabs in the network inventory forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/inventory-related-tab.md).
 
 -   To delete an inventory record, see [Delete a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/delete-inventory-record.md).
 
 -   **[Review and update the telecommunications equipment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment.md)**  
 Review and update a network asset instance for your telecommunications equipment. You define the equipment instances so that you can track and manage your network assets in the Telecommunications Network Inventory application.
 
-**Parent Topic:**[Manually creating and reviewing your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
+**Parent Topic:**[Manually create and review your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)
 
 **Related topics**  
 

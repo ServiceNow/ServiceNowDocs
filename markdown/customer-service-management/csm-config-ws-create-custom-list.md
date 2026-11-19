@@ -1,6 +1,6 @@
 ---
 title: Create a customized list of records
-description: Agents can create a customized list of records in CRM Workspace.
+description: Agents can create a customized list of records in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-config-ws-create-custom-list.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Manage cases, Use, Customer Service Management]
 
 # Create a customized list of records
 
-Agents can create a customized list of records in CRM Workspace.
+Agents can create a customized list of records in CSM Configurable Workspace.
 
 ## Before you begin
 

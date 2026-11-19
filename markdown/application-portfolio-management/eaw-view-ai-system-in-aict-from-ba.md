@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-view-ai-system-in-aict-from-ba.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-16"
 reading_time_minutes: 1
-breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # View AI system details from a business application
@@ -53,5 +53,5 @@ The **AI Systems** tab on a business application record shows a summary of each 
 
 [AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-aict.md)
 
-[AI Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower-home-page.md)
+[Control Tower Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-control-tower-home-page.md)
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-create-automation-rule.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-28"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing AI assets in bulk, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing AI assets in bulk, Managing your AI asset inventory, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Create an automation rule
@@ -27,7 +27,7 @@ You can create up to 10 rules and have up to 5 active at a time. If you reach th
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Automation rules**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Automation rules**.
 
 2.  Select **Create rule**.
 

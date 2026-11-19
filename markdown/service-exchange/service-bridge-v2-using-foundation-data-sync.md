@@ -1,5 +1,5 @@
 ---
-title: Configure outbound foundation data sync as providers
+title: Configure foundation data sync as a provider
 description: As a provider, share foundational data with your consumer using foundation data sync \(FDS\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/service-exchange/service-bridge-v2-using-foundation-data-sync.html
@@ -7,12 +7,12 @@ release: zurich
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
 
-# Configure outbound foundation data sync as providers
+# Configure foundation data sync as a provider
 
 As a provider, share foundational data with your consumer using foundation data sync \(FDS\).
 
@@ -72,5 +72,5 @@ After the consumer accepts the subscription, publish it.After the FDS configurat
 
 [Foundation data sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-explore-foundation-data-sync.md)
 
-[Configure inbound foundation data sync as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-using-foundation-data-sync-for-consumer.md)
+[Configure foundation data sync as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-exchange/service-bridge-v2-using-foundation-data-sync-for-consumer.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Discovery for Microsoft Azure
+title: Discovery for Microsoft Azure Cloud
 description: If your cloud resources are in an Azure cloud, create a user identity called a service principal. This grants permissions to the MID Server to access selected resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/azure-cloud-discovery.html
@@ -7,12 +7,12 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2025-07-31"
+reading_time_minutes: 4
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Discovery for Microsoft Azure
+# Discovery for Microsoft Azure Cloud
 
 If your cloud resources are in an Azure cloud, create a user identity called a service principal. This grants permissions to the MID Server to access selected resources.
 
@@ -841,10 +841,4 @@ canonical\_hosted\_zone\_name
  
 
 </td></tr></tbody>
-</table>## Useful information
-
--   [Microsoft Azure discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/azure-discovery-methods.md)
--   [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-azure-service-accounts.md)
--   [Install and configure MID Servers to access cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/mid-server-configuration-cloud.md)
--   [Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
-
+</table>

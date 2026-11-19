@@ -1,5 +1,5 @@
 ---
-title: Define active session timeout exception roles
+title: Define active session timeout exception roles \[New in Security Center 1.3\]
 description: Use a system property to exempt roles from active session timeout limits.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-define-active-session-timeout-exception-roles.html
@@ -7,18 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Define active session timeout exception roles
+# Define active session timeout exception roles \[New in Security Center 1.3\]
 
 Use a system property to exempt roles from active session timeout limits.
 
 Use the **glide.active.session.timeout.exception.roles** system property to exempt roles from an active session timeout limit. The active session timeout feature helps ensure that a hijacked session cannot be used indefinitely without providing authentication information. It is best practice to only consider an active session timeout limit exception for internal integration account roles.
 
-Configure the **glide.active.session.timeout.exception.roles** property to roles which must be exempt from active session timeouts. This property value is a comma separated list of roles. The default value is `edge_encryption,mid_server,maint`.
+Configure the **glide.active.session.timeout.exception.roles** property to roles which should be exempt from active session timeouts. This property value is a comma separated list of roles. The default value is **edge\_encryption,mid\_server,maint**.
 
 ## More information
 

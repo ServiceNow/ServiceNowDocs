@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/view-plans-list-and-generate-pdf.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Managing plans with BCM mobile application, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -20,15 +20,7 @@ Role required: sn\_bcp.plan\_manager, sn\_bcp.plan\_viewer
 
 ## About this task
 
-Users with the following roles can view the plan list icon:
-
--   Business Continuity Management \(BCM\) plan program manager
--   BCM program manager
--   BCM plan manager
--   BCM Plan Viewer
--   BCM plan contributor
-
-Select the icon to view a list of approved plans.
+The plan list icon is available in the BCM mobile application. Tap the icon to view a list of approved plans.
 
 To access the plan list screen, both the BCM mobile application and the BCM planning application must be installed.
 
@@ -54,9 +46,9 @@ To access the plan list screen, both the BCM mobile application and the BCM plan
 
     The PDF is generated and a message is displayed that the selected plan PDF has been successfully generated for download.
 
-4.  To save a particular plan, select **Save** icon in the toolbar, provide a name for the plan in the 'Save the item' dialog box, and tap **Done**.
+4.  Save a particular plan.
 
-    The Save functionality is provided as part of the base version.
+    Tap the **Save** icon in the top toolbar of the plan view. In the **Save the item** dialog box, provide a name and tap **Done**. The Save functionality is available in the base system.
 
     The PDF of the selected plan is saved in the instance. Similarly, as a plan manager or plan viewer, you can view all saved records in the **Saved items** tab of the app.
 

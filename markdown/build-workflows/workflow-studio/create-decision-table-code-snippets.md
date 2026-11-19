@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
+breadcrumb: [Using decision tables, Use, Workflow Studio, Build workflows]
 ---
 
 # Create decision table code snippets

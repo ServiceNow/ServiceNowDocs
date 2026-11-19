@@ -1,5 +1,5 @@
 ---
-title: \(Legacy\) Using regular expressions in entities
+title: Using regular expressions in entities
 description: Learn how to use regular expressions in your NLU entities to establish patterns that help the system locate, match, and manage text.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/using-regular-expressions-nlu.html
@@ -7,12 +7,12 @@ release: zurich
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [\(Legacy\) NLU entities, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
-# \(Legacy\) Using regular expressions in entities
+# Using regular expressions in entities
 
 Learn how to use regular expressions in your NLU entities to establish patterns that help the system locate, match, and manage text.
 

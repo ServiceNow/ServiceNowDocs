@@ -1,18 +1,18 @@
 ---
 title: Configure tabs in the contextual side panel
-description: The contextual side panel in CRM Workspace includes different tools that agents can use to research and resolve customer issues. You can add, rearrange, or hide tabs as well as set default values.
+description: The contextual side panel in CSM Configurable Workspace includes different tools that agents can use to research and resolve customer issues. You can add, rearrange, or hide tabs as well as set default values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/config-csm-ws-side-panel-tabs2.html
 release: zurich
 topic_type: task
 last_updated: "2026-10-07"
 reading_time_minutes: 1
-breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure tabs in the contextual side panel
 
-The contextual side panel in CRM Workspace includes different tools that agents can use to research and resolve customer issues. You can add, rearrange, or hide tabs as well as set default values.
+The contextual side panel in CSM Configurable Workspace includes different tools that agents can use to research and resolve customer issues. You can add, rearrange, or hide tabs as well as set default values.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ The panel can be configured to ensure your agents have access to the necessary i
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-2.  Select the CRM Workspace experience.
+2.  Select the CSM Configurable Workspace experience.
 
 3.  Select the desired record page to open the page in the editor view.
 

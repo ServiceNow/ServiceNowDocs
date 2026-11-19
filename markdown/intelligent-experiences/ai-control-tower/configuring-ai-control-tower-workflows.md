@@ -1,24 +1,37 @@
 ---
-title: Configuring AI Control Tower \(legacy\)
-description: Configure the AI Control Tower workflow.
+title: Configuring Control Tower \(legacy\)
+description: Configure the Control Tower workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-control-tower/configuring-ai-control-tower-workflows.html
 release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# Configuring AI Control Tower \(legacy\)
+# Configuring Control Tower \(legacy\)
 
-Configure the AI Control Tower workflow.
+Configure the Control Tower workflow.
 
 ## Configuration overview
 
-1.  [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.md)
-2.  [Configure AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/configuring-ai-governance.md)
-3.  [Configure multi-instance management for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.md)
+1.  [Activation and installation of Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/activation-and-installation-of-ai-control-tower.md)
+2.  [Configure Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/configuring-ai-governance.md)
+3.  [Configure Multi-Instance management for Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.md)
+
+**Note:**
+
+Some AI capabilities are available only when the required plugins are installed.
+
+-   AI Risk and Asset Management capabilities require the AI Risk and Asset Management for Now Assist plugin \(sn\_aict\_irm\_aiam\). This plugin depends on the following plugins:
+    -   AI Risk and Compliance Integration with Control Tower \(sn\_grc\_ai\_irm\_intg\)
+    -   AI Asset Management \(sn\_ai\_asset\_mgmt\)
+-   Control Tower supports governance of both enterprise AI assets and ServiceNow AI assets, while Control Tower with Now Assist supports governance of ServiceNow AI assets only.
+-   When Control Tower Core \(sn\_ai\_governance\) is used with AI Risk and Compliance in a new IRM deployment, the IRM Standard \(sn\_irm\_std\) plugin is required to make AI intake request forms available. These intake forms are used to submit requests through the Employee Portal for registering AI systems, AI models, and datasets for governance and risk evaluation.
+
+    This requirement applies only to AI intake request forms and does not apply to AI cases, inquiries, or the Anonymous Reporting Center.
+
 

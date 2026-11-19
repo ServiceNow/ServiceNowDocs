@@ -7,9 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
-breadcrumb: [DEX advanced configuration, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Getting started, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Switch ACC from one instance to another
@@ -18,14 +18,14 @@ Switch Agent Client Collector \(ACC\) to a different instance.
 
 ## Before you begin
 
-The Agent Client Collector \(ACC\) must be installed and the ACC registration key must be set up. For information about how to set up and install ACC, see the following topics:
+Confirm you have installed the Agent Client Collector \(ACC\) and set up the ACC registration key. For information on how to set up and install, see:
 
--   [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/create-acc-reg-key.md).
--   [Install the Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-windows.md) or [Manually install Agent Client Collector on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-macOS-manual.md).
+-   [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/setup-acc.md).
+-   [Install Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-windows.md) or [Manually install Agent Client Collector on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-macOS-manual.md).
 
 Role required: agent\_admin and agent\_client\_collector\_admin
 
-For more information about roles, see [Agent Client Collector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-users.md).
+For more information on roles, see [Agent Client Collector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-users.md).
 
 ## About this task
 
@@ -48,15 +48,15 @@ If ACC is already connected to one instance, you can switch the agent to another
     -   `AMER: itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
     -   `EMEA: itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
     -   `APAC: itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
-    For more information about how the agent uses the ITOM Cloud Services Gateway, see [DEX architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-architecture.md).
+    For more information on how the Agent uses the ITOM Cloud Services Gateway, see [DEX Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-architecture.md).
 
 4.  Update the following parameters:
 
-    -   **connect-without-mid**: `true`
-    -   **instance-url**: &lt;full\_instance\_url&gt;, for example, `https://<instance-name>.service-now.com`
-    -   **registration-key**: &lt;registration key value&gt;
+    -   connect-without-mid: true
+    -   instance-url: &lt;full\_instance\_url&gt;, example: https://dex.servicenow.com
+    -   registration-key: &lt;registration key value&gt;
 
-        For more information about how to create a registration key, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/create-acc-reg-key.md).
+        For more information on how to create a registration key, see [Create an ACC registration key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/setup-acc.md).
 
 5.  Save the file.
 
@@ -68,26 +68,24 @@ If ACC is already connected to one instance, you can switch the agent to another
 
     -   On Windows, delete the folder: `/agent-client-collector/cache`.
     -   On macOS:
-        -   For Agent 3.4.1 or later, delete the folder: `/Library/Application Support/servicenow/agent-client-collector/cache`.
-        -   For Agent 3.4.0 or earlier, delete the folder: `/Library/Caches/servicenow/agent-client-collector`.
+        -   For Agent 3.4.1 or above, delete the folder: `/Library/Application Support/servicenow/agent-client-collector/cache`.
+        -   For Agent 3.4.0 or below, delete the folder: `/Library/Caches/servicenow/agent-client-collector`.
 8.  If you have connected this ACC to another instance before, do the following:
 
     1.  Copy your device serial number.
 
-    2.  In the Agent Client Collectors \[sn\_agent\_cmdb\_ci\_agent\] table, search using your device serial number.
+    2.  In the Agent Client Collectors table \(sn\_agent\_cmdb\_ci\_agent\), search using your device serial number.
 
         **Note:** Add the **Agent ID** column to the list view if it isn’t available.
 
     3.  If you find a record, copy the record Agent ID.
 
-    4.  In the Agent Registrations \[sn\_agent\_agent\_registration\] table, search using the record Agent ID.
+    4.  In the Agent Registrations table \(sn\_agent\_agent\_registration\), search using the record Agent ID.
 
     5.  Delete any records resulting from the search.
 
-9.  Start the ACC service by following the steps specific to your operating system.
+9.  Initiate the ACC service by following the steps specific to your operating system.
 
     -   On Windows, open Services as Administrator, then start Agent Client Collector.
     -   On macOS, use the command: `sudo launchctl load -w /Library/LaunchDaemons/com.sn.acc.plist`.
-
-**Parent Topic:**[DEX advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
 

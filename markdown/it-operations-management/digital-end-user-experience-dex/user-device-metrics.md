@@ -1,22 +1,22 @@
 ---
 title: Device metrics page
-description: The Device metrics page displays memory, CPU, disk, GPU, battery, energy, and Wi-Fi metrics for a device over a selected duration.
+description: Access real-time metrics like CPU, memory, disk usage, I/O operations, battery, and energy consumption for insights into system resource utilization, performance, and improvement areas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/user-device-metrics.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
 breadcrumb: [Device details pages, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # Device metrics page
 
-The Device metrics page displays memory, CPU, disk, GPU, battery, energy, and Wi-Fi metrics for a device over a selected duration.
+Access real-time metrics like CPU, memory, disk usage, I/O operations, battery, and energy consumption for insights into system resource utilization, performance, and improvement areas.
 
-## Performance metrics
+## Device metrics — Performance
 
 <table id="table_nbd_jxf_1xb"><thead><tr><th>
 
@@ -60,7 +60,7 @@ Page usage percentage
 
 Trend over the selected duration in the proportion of the page file \(disk-based virtual memory\) used.This field appears on Windows machines only.
 
-A consistently high percentage might indicate that the system is relying heavily on virtual memory due to insufficient physical RAM.
+A consistently high percentage might suggest that the system is relying heavily on virtual memory due to insufficient physical RAM.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Disk usage
 
 </td><td>
 
-Trend over a selected duration in the proportion of the disk storage capacity consumed by data and applications.Elevated disk usage might lead to slower system performance, increased loading times, and potential storage-related issues. Monitoring disk usage helps you manage storage resources and avoid data problems.
+Trend over a selected duration in the proportion of the disk storage capacity consumed by data and applications.Elevated disk usage might lead to slower system performance, increased loading times, and potential storage-related issues. Monitoring disk usage is important for using storage resources better, avoiding data problems, and managing data efficiently.
 
 </td></tr><tr><td>
 
@@ -179,11 +179,11 @@ GPU usage
 
 </td><td>
 
-Percentage of graphics processing unit \(GPU\) capacity in use over time.
+Displays the percentage of graphics processing unit \(GPU\) capacity in use over time.
 
  Monitor GPU utilization to assess graphics performance, identify bottlenecks, and troubleshoot issues with rendering or video performance. The chart shows values from 0% \(idle\) to 100% \(fully utilized\).
 
- To view details, point to any location on the chart to see the GPU usage percentage at that time.
+ **To view details:** Point to any location on the chart to see the GPU usage percentage at that time.
 
  This field appears on Windows machines only.
 
@@ -193,22 +193,22 @@ GPU VRAM Usage
 
 </td><td>
 
-Amount of video random access memory \(VRAM\) in use by the graphics processing unit \(GPU\) over time.
+Displays the amount of video random access memory \(VRAM\) in use by the graphics processing unit \(GPU\) over time.
 
  Monitor VRAM usage to identify memory-intensive applications, detect memory leaks, and troubleshoot performance issues with graphics-heavy tasks like gaming, video editing, or 3D rendering. High VRAM usage can cause stuttering, frame drops, or application crashes.
 
- To view details, point to any location on the chart to see the VRAM usage at that time.
+ **To view details:** Point to any location on the chart to see the VRAM usage at that time.
 
  This field appears on Windows machines only.
 
 </td></tr></tbody>
-</table>## Battery metrics
+</table>## Device metrics — Battery
 
 |Field|Description|
 |-----|-----------|
 |Battery percentage|Trend over a selected duration in the remaining charge percentage of the battery.|
 
-## Energy metrics
+## Device metrics — Energy
 
 <table id="table_grg_xyh_y1c"><thead><tr><th>
 
@@ -248,7 +248,7 @@ GPU energy consumption
 
 </td><td>
 
-Amount of the electrical energy used by the GPU over a selected duration.This field appears on macOS machines only.
+Amount of the electrical energy used by the Graphics Processing Unit \(GPU\) over a selected duration.This field appears on macOS machines only.
 
 Monitoring GPU energy consumption helps improve energy efficiency and understand how GPU performance affects the overall device power consumption. Prolonged high GPU energy usage can also contribute to heat generation, which can reduce battery life on portable devices.
 
@@ -258,7 +258,7 @@ ANE energy consumption
 
 </td><td>
 
-Apple Neural Engine \(ANE\) energy consumption over a selected duration.This field appears on macOS machines only.
+Apple neural engine \(ANE\) energy consumption over a selected duration.This field appears on macOS machines only.
 
 </td></tr><tr><td>
 
@@ -325,7 +325,7 @@ Other energy consumption
 Other energy usage, not covered by specific categories, over a selected duration.This field appears on Windows machines only.
 
 </td></tr></tbody>
-</table>## Wi-Fi metrics
+</table>## Device metrics — Wi-Fi
 
 <table id="table_ad5_wzl_ydc"><thead><tr><th>
 
@@ -352,5 +352,7 @@ Transmit rates
 Wi-Fi transmit rates over a selected duration.This field appears on macOS machines only.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/user-device-details-pages.md)
+</table>To return to the main device metrics page, see [Device details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-workspace-user-details.md).
+
+**Parent Topic:**[Device details pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/user-device-details-pages.md)
 

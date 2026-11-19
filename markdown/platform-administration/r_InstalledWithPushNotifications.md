@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/r\_InstalledWithPushNotifications.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer]
 ---
 
 # Installed with push notifications
@@ -22,8 +22,6 @@ Several types of components are installed with the push notifications plugins.
 [Push notification system]()
 
 [Activate push notifications]()
-
-[Enable push notifications for logged-out users]()
 
 [Push notification properties]()
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-trm-governing-fields.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-24"
 reading_time_minutes: 2
 keywords: [governing TRM product, TPM technology lifecycle, TRM product lifecycle, obsolescence status]
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Governing TRM product fields

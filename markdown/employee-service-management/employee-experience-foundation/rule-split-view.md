@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-19"
 reading_time_minutes: 1
 keywords: [split view, URL rewrite rule, Moveworks, AIX, Employee Center]
-breadcrumb: [Chat assistance for catalog and knowledge, Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
+breadcrumb: [Chat assistance for catalog and knowledge, Tasks and requests, Working with EmployeeWorks capabilities, Configure, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Fix split view for chat-opened records

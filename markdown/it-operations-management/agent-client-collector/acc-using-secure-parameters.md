@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Exploring ACC Framework, Agent Client Collector, IT Operations Management]
 ---
 
 # Secure parameters in Agent Client Collector
@@ -31,4 +31,6 @@ Depending on the coding language in use, implementation of secure parameters may
 -   Enhanced security: Passing sensitive data like usernames and passwords directly in the command line is a security threat, as they could be exposed to unauthorized access or malicious users. Secure parameters ensure that such data is securely handled and hidden from view.
 -   Prevent data exposure: When using secure parameters, the credentials are not written in plain text in the command line, avoiding the risk of them being captured in logs or process listings.
 -   Data flow control: Secure parameters enable controlled and customizable passing of credentials to the script, ensuring the correct handling and timing of sensitive information.
+
+**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

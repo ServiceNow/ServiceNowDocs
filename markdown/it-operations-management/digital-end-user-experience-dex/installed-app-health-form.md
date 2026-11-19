@@ -1,24 +1,24 @@
 ---
-title: Installed application Performance page
-description: The Performance page for an installed application presents details on the location and app version, the number of crashes and freezes, and CPU, memory, and I/O performance.
+title: Installed application — Performance page
+description: The installed application performance section presents details on the location and app version, number of crashes and freezes, as well as the CPU, memory, and I/O performance information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/installed-app-health-form.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Applications list, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
-# Installed application Performance page
+# Installed application — Performance page
 
-The Performance page for an installed application presents details on the location and app version, the number of crashes and freezes, and CPU, memory, and I/O performance.
+The installed application performance section presents details on the location and app version, number of crashes and freezes, as well as the CPU, memory, and I/O performance information.
 
-**Note:** Application performance metrics are available for the previous 2 hours, 24 hours, or 30 days. Select the required time window from the drop-down list to update the visualization.
+**Note:** Access application performance data spanning the past 2 hours, 24 hours, or 30 days by choosing your preferred time frame from the provided drop-down list.
 
-One chart displays the application performance metrics, and the other displays the aggregated metric data for the selected time window.
+The chart on the right side displays the application performance metrics. The chart on the left side displays the aggregated metric data for the selected time window.
 
 <table id="table_qhx_3zy_zwb"><thead><tr><th>
 
@@ -34,7 +34,7 @@ Total number of crashes - Last 2 hours
 
 </td><td>
 
-Aggregate number of crashes in the last 2 hours.**Note:** The number of crashes pertains to applications that emit a Windows application crash event \(event id = 1000\) on crashing such as Microsoft OneDrive, Microsoft Teams, Microsoft Excel, Microsoft OneNote, Microsoft PowerPoint, Microsoft Outlook, and Microsoft Word.
+Total number of crashes in the last 2 hrs. This lists the aggregate value.**Note:** The number of crashes pertains to applications that emit a window app crash event \(event id = 1000\) on crashing such as Microsoft OneDrive, Microsoft Teams, Microsoft Excel, Microsoft OneNote, Microsoft PowerPoint, Microsoft Outlook, and Microsoft Word.
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Total number of freezes - Last 2 hours
 
 </td><td>
 
-Aggregate number of freezes in the last 2 hours.
+Total number of freezes in the last 2 hrs. This lists the aggregate value.
 
 </td></tr><tr><td>
 
@@ -63,9 +63,9 @@ Number of application freezes over the last 2 hours by version.
 </td></tr></tbody>
 </table>|Field|Description|
 |-----|-----------|
-|Average CPU usage - Last 2 hours|Average CPU usage of the application.|
+|Average CPU usage - Last 2 hours|Lists the average CPU usage.|
 |CPU usage - Last 2 hours|The percentage of total processor \(CPU\) capacity consumed by the application.|
-|Average memory usage - Last 2 hours|Average memory usage of the application.|
+|Average memory usage - Last 2 hours|Lists the average memory usage.|
 |Memory usage - Last 2 hours|The percentage of total memory or RAM consumed by the application.|
 |Average I/O read - Last 2 hours|The average speed at which the application reads data from storage \(for example, when opening a large file\).|
 |I/O read - Last 2 hours|The speed at which the application reads data from storage.|

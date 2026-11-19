@@ -1,20 +1,20 @@
 ---
-title: Roles
+title: Roles and responsibilities
 description: After successful integration of Opportunity Management with Service Model Foundation, various roles are added to the list view menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/personas-roles-and-tables-post-integration-oppMgmt.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Opportunity Management for business location, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Roles
+# Roles and responsibilities
 
 After successful integration of Opportunity Management with Service Model Foundation, various roles are added to the list view menu.
 
-## Description of roles
+## Description of roles and their responsibilities
 
 <table id="table_rnc_gcs_ffc"><tbody><tr><td>
 
@@ -99,5 +99,4 @@ Granular role for organization staff to ensure consistent opportunities experien
 None
 
 </td></tr></tbody>
-</table>If a business organization enables [Restricted Customer Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/associate-customers-or-bus-loc-to-so.md), the account and consumer visibility restriction also applies to sales personas such as B2B and B2C sales representatives. In other words, these personas can view only the accounts and consumers supported by their own business organization, and cannot view accounts and consumers supported by other business organizations. For upgrade customers, this restriction has no effect until an admin runs the **Remove Legacy Roles from Loc Mgr Contrib** scheduled job. For more information, see [Enable restricted customer access for Business Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/remove-legacy-contributor-roles-from-loc-mgr-contrib.md)
-
+</table>

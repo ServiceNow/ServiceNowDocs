@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure HR Multi Instance Integration for Provider, Configuring HR Multi Instance Integration, HR Multi Instance Integration, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure for Provider, Configure, HR Multi Instance Integration, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate HR Multi Instance Integration for Provider

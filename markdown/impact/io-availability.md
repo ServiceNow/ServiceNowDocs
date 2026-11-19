@@ -1,20 +1,20 @@
 ---
-title: View instance-level availability
-description: The Availability section shows instance-level availability on a geographic map and instance level ServiceNow generated alerts \(limited alert types\) over the last seven days.
+title: Availability
+description: The Availability section shows instance level availability on a geographic map and instance level ServiceNow generated alerts \(limited alert types\) since the past 7 days.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/io-availability.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
+breadcrumb: [Overview of Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
-# View instance-level availability
+# Availability
 
-The Availability section shows instance-level availability on a geographic map and instance level ServiceNow generated alerts \(limited alert types\) over the last seven days.
+The Availability section shows instance level availability on a geographic map and instance level ServiceNow generated alerts \(limited alert types\) since the past 7 days.
 
-## Instance availability
+## Instance Availability
 
 1.  Navigate to **Impact** &gt; **Platform Health** &gt; **Monitor** &gt; **Go to Instance Observer**.
 2.  Select **Availability** tab and click **Instance Availability** value.
@@ -30,16 +30,9 @@ The Availability section shows instance-level availability on a geographic map a
 
     \[Omitted image "monitoring-alerts-up-down.png"\] Alt text: Instance up or down time filtered by Monitoring alert type.
 
-    \[Omitted image "io-instance-availability.png"\] Alt text: Instance availability in a geographical map.
-
 4.  Select **Detailed Instance Availability** to navigate to the Instances Dashboard
 
 ## Known Issues
 
 A problem or defect of an instance that requires proactive mitigation is listed in the **Known Issues** tab of the **Availability** section.
-
--   **[Cloud availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/cloud-availability.md)**  
-Check specific ServiceNow data center availability, service degradation, or for interruption.
-
-**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-overview.md)
 

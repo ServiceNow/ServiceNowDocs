@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_ActivatePushNotifications.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer]
 ---
 
 # Activate push notifications
@@ -94,8 +94,6 @@ Information that would be helpful for the ServiceNow personnel who are activatin
 
 
 [Push notification system]()
-
-[Enable push notifications for logged-out users]()
 
 [Installed with push notifications]()
 

@@ -7,10 +7,10 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2025-07-31"
+reading_time_minutes: 5
 keywords: [HAM licensing, Hardware Asset Management licensing]
-breadcrumb: [Attestation and conformance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Manage Hardware Asset Management subscriptions
@@ -19,13 +19,77 @@ Save on Hardware Asset Management licensing cost by choosing only the Hardware A
 
 For details on Hardware Asset Management licensing, see [Hardware Asset Management subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-subscription.md).
 
+-   **[Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-license-exclusion.md)**  
+Pay only for the assets using licensed Hardware Asset Management features and exclude an asset for which you don't want to use the licensed features.
 -   **[View the license report for the Hardware Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/view-license-report-ham.md)**  
 View details of the subscriptions purchased and consumed by your organization for the managed IT resource types such as Server, End User Computing Device, Networking Device, Mobile Device, and Telecom Network Inventory using the ITAM License Report.
 
-**Parent Topic:**[Attestation and conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/attestation-compliance-ham.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
 
+[Work with hardware normalization]()
+
+[Manage asset bundles from your inventory]()
+
+[Manage your inventory through pallet assets]()
+
+[Manage loaner assets]()
+
+[Donate assets to charity organizations]()
+
+[Use Advanced Shipment Notification]()
+
+[Manage RMA requests]()
+
+[Create an inventory stock order request]()
+
+[Create a disposal order]()
+
+[Use a hardware asset request flow]()
+
+[Audit hardware asset inventory]()
+
+[Request a Hardware Asset Refresh]()
+
+[Manage your expiring contracts for leased hardware assets]()
+
+[Reclaim hardware assets]()
+
+[View RFID information of assets]()
+
+[Manage the lifecycle of hardware models with calculated lifecycle templates]()
+
+[Create an internal lifecycle in the Hardware Asset Workspace]()
+
+[Calculate the active lifecycle phase for a model]()
+
+[Receive asset warranty details from Lenovo]()
+
+[Manage stockrooms]()
+
+[Track shipments using the integration framework]()
+
+[Track asset location using indoor maps]()
+
+[Assess performance of Hardware Asset Management]()
+
+[Manage refresh of assets using Zero Touch Refresh]()
+
+[Configure the Total Cost of Ownership of assets]()
+
+[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
+
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
+
+[Manage hardware asset tasks using the Mobile Agent application]()
+
+[Manage asset put away using the Hardware Asset Workspace]()
+
 [Audit your hardware assets by using Asset Attestation]()
+
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Update associated Decision tables for HAM flows]()
 

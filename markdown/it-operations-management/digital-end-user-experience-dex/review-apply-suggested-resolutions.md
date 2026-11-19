@@ -1,5 +1,5 @@
 ---
-title: Execute suggested resolutions from incidents with DEX
+title: Execute suggested resolutions from incident investigation with DEX
 description: Review and execute suggested resolutions from the Investigation tab of incident records to resolve detected issues on DEX monitored devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/review-apply-suggested-resolutions.html
@@ -7,12 +7,12 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-12-02"
 reading_time_minutes: 1
-breadcrumb: [Suggested resolutions and remedial actions, Incident diagnostics, suggested resolutions, and remedial actions, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Suggested resolutions and remedial actions, Incident diagnostics and suggested resolutions, DEX for service desk agents, Digital End-User Experience, IT Operations Management]
 ---
 
-# Execute suggested resolutions from incidents with DEX
+# Execute suggested resolutions from incident investigation with DEX
 
 Review and execute suggested resolutions from the Investigation tab of incident records to resolve detected issues on DEX monitored devices.
 
@@ -22,7 +22,7 @@ Role required: sn\_dex.service\_desk\_user, sn\_dex.engineer
 
 ## About this task
 
-Besides the suggested resolutions, you can also run remedial actions from the Action library in incident investigation with DEX. For more information, see [Run remedial actions from the Action library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/remedial-actions-action-library.md).
+In addition to the suggested resolutions, you can run remedial actions from the Action library in incident investigation with DEX. For more information, see [Run remedial actions from the Action library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/remedial-actions-action-library.md).
 
 ## Procedure
 
@@ -45,7 +45,7 @@ Besides the suggested resolutions, you can also run remedial actions from the Ac
 
     2.  If end-user approval is required, contact the end user of the device to obtain approval.
 
-    3.  After the approval is received, select the Playbook icon \[Omitted image "icon-playbook.png"\] Alt text: from the contextual side panel.
+    3.  Once the approval is received, select the Playbook icon \[Omitted image "icon-playbook.png"\] Alt text: from the contextual side panel.
 
     4.  Expand the device name accordion.
 

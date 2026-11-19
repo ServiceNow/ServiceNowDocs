@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/view-bcp-scorecard.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for Business Continuity Planning, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -44,9 +44,9 @@ Your emergency action plan must be customized to your workplace and include info
 
     **Note:** If your plan is in **Approved** state, then you can view the **Plan Usage and Results** section. However, you can view all the details of a plan in the **Plan Details** section irrespective of the plan being in any state. For more information, see [Plan overview scorecards for plan usage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/plan-overview-scorecards.md).
 
-5.  In the scorecard widget, click the go to section icon \(\[Omitted image "GoToSectionIcon.png"\] Alt text: Go to section icon\) to complete sections in **Pending** state.
+5.  In the scorecard widget, click the go to section icon \(\[Omitted image "GoToSectionIcon.png"\] Alt text: Go to section icon\).
 
-    You can identify teams and individuals for unassigned recovery teams or assign groups to carry out specific plan activities.
+    Use this option to complete documentation sections in **Pending** state, identify teams and individuals for unassigned recovery teams, or assign groups to specific plan activities.
 
 6.  To add contributors to the plan, click the **Contributors** field to select the users.
 

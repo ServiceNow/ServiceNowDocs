@@ -1,28 +1,28 @@
 ---
-title: CRM Workspace record pages
-description: A record page provides the base structure for how a record is displayed in CRM Workspace. This includes records such as cases, tasks, and interactions.
+title: CSM Configurable Workspace record pages
+description: A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. This structure includes records such as cases, tasks, and interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-config-workspace-record-pages.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-11-19"
 reading_time_minutes: 6
-breadcrumb: [Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CRM Workspace record pages
+# CSM Configurable Workspace record pages
 
-A record page provides the base structure for how a record is displayed in CRM Workspace. This includes records such as cases, tasks, and interactions.
+A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. This structure includes records such as cases, tasks, and interactions.
 
 ## Record page overview
 
-Record pages include elements such as layouts, containers, and components to display record information. Some record pages leverage additional logic using presets, controllers, and extension points. Pages with preset and controller logic benefit from reusability because they automatically inherit styling, events, and data binding. This reusability makes simplifies configuration and makes the pages upgrade friendly.
+Record pages include elements such as layouts, containers, and components to display record information. Some record pages leverage additional logic using presets, controllers, and extension points. Pages with preset and controller logic benefit from reusability because they automatically inherit styling, events, and data binding. This reusability simplifies configuration and makes the pages upgrade friendly.
 
-Several record pages are included with CRM Workspace. You can use these record pages as is or you can customize them to suit your needs. For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/work-pages.md).
+Several record pages are included with CSM Configurable Workspace. You can use these record pages as is or you can customize them to suit your needs. For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/work-pages.md).
 
-## Record pages available with CRM Workspace
+## Record pages available with CSM Configurable Workspace
 
-Several record pages are included with CRM Workspace.
+Several record pages are included with CSM Configurable Workspace.
 
 <table id="table_hmm_t21_lzb"><thead><tr><th>
 
@@ -38,7 +38,7 @@ Description
 
 </td><td>
 
-This page provides the basic structure for case management, including record information, chat and phone features, and suggestions for resolving issues.**Note:** Use this page to display generative AI elements and functionality available with ServiceNow Otto for Customer Service Management \(CSM\).
+This page provides the basic structure for case management, including record information, chat and phone features, and suggestions for resolving issues.**Note:** Use this page to display generative AI elements and functionality available with [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm.md).
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ This page provides the basic structure for case management, including record inf
 
 </td><td>
 
-This page is designed for front-line agents. It provides a simplified case view that enables agents to quickly gather context, categorize cases, and provide prompt responses to customers.
+This page is designed for front-line agents. It provides a simplified case view that enables agents to gather context quickly, categorize cases, and provide prompt responses to customers.
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ This page is designed for front-line agents. It provides a simplified case view 
 
 </td><td>
 
-This page includes CSM-specific features for interaction management, including interaction information and related search results, and enables agents to accept and respond to live chats, calls, email, and SMS messages.**Note:** Use this page to display generative AI elements and functionality available with ServiceNow Otto for Customer Service Management \(CSM\).
+This page includes CSM-specific features for interaction management, including interaction information and related search results. It also enables agents to accept and respond to live chats, calls, email, and SMS messages.**Note:** Use this page to display generative AI elements and functionality available with [Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/now-assist-csm.md).
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ This page enables agents to manage email conversations with customers using inte
 
 </td><td>
 
-This page provides a component that customers can use for integration with Contact Center as a Service \(CCaaS\) providers. This component has an interface that agents can use to handle customer phone calls.
+This page provides a component that customers can use for integration with Contact Center as a Service \(CCaaS\) providers. It provides an interface that agents can use to handle customer phone calls.
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ This page provides the basic structure for an interaction record, including inte
 </td></tr></tbody>
 </table>## Record page elements
 
-Record pages are made up of different elements that determine how record information is displayed in CRM Workspace.
+Record pages are made up of different elements that determine how record information is displayed in CSM Configurable Workspace.
 
 <table id="table_iyv_lzx_hzb"><thead><tr><th>
 
@@ -162,17 +162,17 @@ An extension point enables subpages, such as viewports and page collections, to 
 </td></tr></tbody>
 </table>## Determining which record page is used
 
-Record pages include several settings that the system uses to determine which record page to use when displaying information in CRM Workspace.
+Record pages include several settings that the system uses to determine which record page to use when displaying information in CSM Configurable Workspace.
 
 -   **Active**: A record page can be active or inactive. The system evaluates active pages when determining which page to use.
 -   **Order**: A record page has an order value. The system uses this order value when determining which page to use. The page with the lowest order value is the default record page.
--   **Conditions**: A record page can have one or more conditions that determine when it is used. For example, a record page can have a condition that specifies a table, such as the Interaction \[interaction\] table. This condition limits the use of the page to records from the Interaction table.
+-   **Conditions**: A record page can have one or more conditions that determine when it’s used. For example, a record page can have a condition that specifies a table, such as the Interaction \[interaction\] table. This condition limits the use of the page to records from the Interaction table.
 -   **Audience**: A record page can have a specified audience. This audience determines who can see the page. If no audience is specified, all users can see the page.
 
 The system chooses a record page by evaluating the conditions, order values, and audience on the available active pages.
 
 -   If there are no active pages with conditions or audience, the system chooses the page with the lowest order value.
--   If there is an active page with one or more conditions and those conditions are met, the system chooses that page.
+-   If there’s an active page with one or more conditions and those conditions are met, the system chooses that page.
 -   If there are two active pages with the same conditions, the system chooses the page with the lowest order value.
 -   If an audience is specified, only those users can see the record page.
 
@@ -191,9 +191,4 @@ Upgrade customers retain their custom record pages. However, the following pages
 -   Interaction record page
 
 For more information about setting the default record pages, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-ws-set-record-page-order.md).
-
-**Note:** Starting with the Australia release, the admin role includes all roles. With this change, the admin role can see the following pages:
-
--   Front-line case page
--   CSM centered chat interaction record page
 

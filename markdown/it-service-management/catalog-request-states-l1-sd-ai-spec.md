@@ -21,5 +21,5 @@ States and resolution codes for incidents and catalog requests that the L1 IT Se
 |Requester completes and submits the drafted request.|Resolved|Submitted|Resolved by catalog request.|
 |Auto-submit enabled; all mandatory variables filled.|On Hold \(Awaiting Caller\)|Open \(submitted automatically\)|Not yet set.|
 |Auto-submit enabled, but a mandatory variable could not be filled.|On Hold \(Awaiting Caller\)|Open \(draft\)|Not yet set.|
-|Requester adds a negative comment to the incident.|In Progress|Closed Incomplete|Not yet set.|
+|Requester replies negatively and the incident is reassigned.|In Progress|Closed Incomplete \(requested item; the parent request stays open\)|Not yet set.|
 

@@ -1,20 +1,20 @@
 ---
 title: Use the site filter
-description: Filter dashboard data by site in the Operational Technology \(OT\) Visibility, Operational Technology Vulnerability Response \(PA\), and the Operational Technology \(OT\) Risk Rollup dashboards.
+description: Use the site in the Operational Technology \(OT\) Visibility dashboard, the Operational Technology Vulnerability Response \(PA\) dashboard, and the OT Vulnerability Risk Rollup dashboard to filter the data by the selected site or sites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/industrial-workspace/use-business-unit-and-site-filters-vr.html
 release: zurich
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-16"
 reading_time_minutes: 1
 breadcrumb: [Site filter in the Industrial Workspace, Use, Industrial Workspace, Operational Technology]
 ---
 
 # Use the site filter
 
-Filter dashboard data by site in the Operational Technology \(OT\) Visibility, Operational Technology Vulnerability Response \(PA\), and the Operational Technology \(OT\) Risk Rollup dashboards.
+Use the site in the Operational Technology \(OT\) Visibility dashboard, the Operational Technology Vulnerability Response \(PA\) dashboard, and the OT Vulnerability Risk Rollup dashboard to filter the data by the selected site or sites.
 
 ## Before you begin
 

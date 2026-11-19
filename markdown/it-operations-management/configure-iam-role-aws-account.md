@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/configure-iam-role-aws-account.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-09-03"
 reading_time_minutes: 4
 breadcrumb: [Setup AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
@@ -84,15 +84,15 @@ During this configuration, you create an IAM role for the trusting account, and 
 
 4.  On the ServiceNow AI Platform, assign the AWS IAM role to the trusting account, using the relevant form, based on the relationship to the trusted account.
 
-<table id="choicetable_g1z_335_zfc"><thead><tr><th align="left" id="d730322e424">
+<table id="choicetable_g1z_335_zfc"><thead><tr><th align="left" id="d717651e422">
 
 Trusted account type
 
-</th><th align="left" id="d730322e427">
+</th><th align="left" id="d717651e425">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d730322e433">
+</th></tr></thead><tbody><tr><td id="d717651e431">
 
 **Management account**
 
@@ -137,7 +137,7 @@ Name of the trusting account for which you are providing access using the IAM ro
 </table>4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d730322e550">
+</td></tr><tr><td id="d717651e548">
 
 **Member or discrete account**
 

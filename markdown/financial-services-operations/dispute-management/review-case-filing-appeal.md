@@ -1,20 +1,20 @@
 ---
-title: Review a case filing appeal
-description: Review a case filing appeal and obtain an acknowledgment from Visa.
+title: Review the case filing appeal
+description: Review the appeal and get an acknowledgment from Visa for the appeal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/financial-services-operations/dispute-management/review-case-filing-appeal.html
 release: zurich
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Collaboration workflow, Chargeback, Processing a Visa dispute, Resolving disputes with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Review a case filing appeal
+# Review the case filing appeal
 
-Review a case filing appeal and obtain an acknowledgment from Visa.
+Review the appeal and get an acknowledgment from Visa for the appeal.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 ## About this task
 
-After reviewing the case filing response, Visa issues a decision letter that supports either the acquirer or the issuer. If either party isn't satisfied with the decision, they can file an appeal.
+After reviewing the case filing response, Visa issues a decision letter that supports either the acquirer or the issuer. If either party isn’t satisfied with the decision, they can file an appeal.
 
 ## Procedure
 
@@ -38,25 +38,27 @@ After reviewing the case filing response, Visa issues a decision letter that sup
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the transaction ID from the playbook.
+5.  Select the **Playbook** tab.
 
-    The **Chargeback** stage is initiated for the transaction.
+6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
 
-6.  Select the **Review case filing appeal** task.
+7.  The **Chargeback** stage is initiated for the transaction.
 
-7.  Review the case filing details and select **Get acknowledgement letter**.
+8.  Select the **Review case filing appeal** activity.
 
-    The acknowledgment letter can also be viewed in the activity stream. After the request runs successfully, the transaction state changes to **Awaiting External Info**. The form is set to read-only mode while waiting for a response from Visa.
+9.  Review the case filing details and select **Get acknowledgement letter**.
 
-8.  View the decision letter from Visa by selecting **Get appeal response**.
+    The acknowledgment letter can also be viewed in the activity stream. After the request executes successfully, the transaction state changes to **Awaiting External Info**. The form is set to read-only mode while waiting on a response from Visa.
+
+10. Visa view the decision letter from Visa by selecting **Get appeal response**.
 
     The decision letter can also be viewed in the activity stream.
 
-9.  In the **Response outcome** field, select your response.
+11. In the **Response outcome** field, select your response.
 
     -   If you select **Unresolved**, the **Reverse provisional credit** option is displayed.
-    -   If you select **Resolved**, and select **Continue**, you accept the decision and issue the final credit.
-10. Select **Close task**.
+    -   If you select **Resolved**, and select **Continue**, you accept the decision and want to issue the final credit.
+12. Select **Close task**.
 
 
 **Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)

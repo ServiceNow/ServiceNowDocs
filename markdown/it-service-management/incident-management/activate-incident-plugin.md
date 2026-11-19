@@ -7,7 +7,7 @@ release: zurich
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Incident Management plugins, Reference, Incident Management, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The Incident plugin activates the following related plugins if they are not already active.
+Incident plugin activates these related plugins if they are not already active.
 
 <table id="table_m4z_wfs_wfb"><thead><tr><th>
 
@@ -54,7 +54,7 @@ Incident Overview Homepage\[com.glideapp.report.itsm.incident.overview\]
 
 </td><td>
 
-Provides the Incident Overview homepage.
+Incident Overview Homepage
 
 </td></tr></tbody>
 </table>## Procedure
@@ -67,18 +67,18 @@ Provides the Incident Overview homepage.
 
 3.  Select **Install** to start the installation process.
 
-    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+    **Note:** When domain separation and delegated Admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/installed-with-incident.md)**  
-Several types of components are installed when you activate the Incident plugin in Incident Management.
+-   **[Components installed with the Incident plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/installed-with-incident.md)**  
+Several types of components are installed with activation of the Incident plugin in Incident Management.
 
 **Parent Topic:**[Incident Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/incident-management/incident-mgmt-plugins.md)
 
 **Related topics**  
 
 
-[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
+[List of Zurich plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/list-of-plugins.md)
 

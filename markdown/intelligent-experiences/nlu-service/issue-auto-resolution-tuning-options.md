@@ -1,5 +1,5 @@
 ---
-title: \(Legacy\) Issue Auto Resolution tuning options
+title: Issue Auto Resolution tuning options
 description: When you are tuning your Issue Auto Resolution model in NLU Workbench, you can adjust the output for several goals: precision, automation, or a balance of the two. Compare how your choice of tuning options affect match rate and coverage, before committing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-options.html
@@ -7,12 +7,12 @@ release: zurich
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [\(Legacy\) Issue Auto Resolution Tuning in NLU, \(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Issue Auto Resolution Tuning in NLU, NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
 ---
 
-# \(Legacy\) Issue Auto Resolution tuning options
+# Issue Auto Resolution tuning options
 
 When you are tuning your Issue Auto Resolution model in NLU Workbench, you can adjust the output for several goals: precision, automation, or a balance of the two. Compare how your choice of tuning options affect match rate and coverage, before committing.
 

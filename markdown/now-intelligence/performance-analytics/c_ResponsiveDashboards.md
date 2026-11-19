@@ -7,9 +7,9 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-08-13"
 reading_time_minutes: 2
-breadcrumb: [Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Working with responsive dashboards
@@ -23,12 +23,6 @@ The ServiceNow AI Platform platform supports two dashboard technologies:
 -   The newer Platform Analytics dashboards, described in [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/analytics-center-dashboards.md)
 -   The older Core UI Responsive Dashboards
 
-Starting in Australia, you can access all dashboards of either type through the [Dashboards library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/find-dashboard-library.md). However, you have Core UI dashboards only on instances that were originally created before the Xanadu release.
-
-**Note:**
-
-Owners of Core UI responsive dashboards have the option to migrate these dashboards to Platform Analytics experience. For more information, see [Migrate dashboards that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-migration-migrate-dbs-you-own.md).
-
 Use Core UI dashboards to:
 
 -   Create and edit Performance Analytics visualizations and other widgets directly from the dashboard.
@@ -37,12 +31,17 @@ Use Core UI dashboards to:
 -   Snap the widgets into a predefined layout, then adjust the layout as desired.
 -   Access information that you use frequently by setting dashboards as your **Home**.
 
+**Note:**
+
+Owners of Core UI responsive dashboards have the option to migrate these dashboards to Platform Analytics experience. For more information, see [Migrate dashboards that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/data-migration-migrate-dbs-you-own.md).
+
 Watch this three-minute video to learn more about flexible layouts, multiple tabs, sharing, converting homepages to dashboards, and enabling responsive dashboards. \[Omitted video\] Description: How to get started using responsive dashboards
 
 ## Benefits
 
 -   Optimize performance with configurable widget loading. For more information on the benefits of configurable widget loading, see [Optimize widget rendering time on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_optimizeWidgetRenderingTime.md).
 -   Use the **Restrict to roles** field to [specify roles required to access the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/restrict-dashboard-access-to-certain-roles.md). Users with any of the specified roles can access the dashboard if they have been given access on the dashboard's **Share** panel.
+-   Responsive dashboards provides information that other tools can't.
 
 ## Limitation
 
@@ -52,6 +51,4 @@ ServiceNow mobile apps don’t give access to dashboards as dashboards aren’t 
 
 
 [Set responsive dashboards as your home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_SetDashboardsAsHome.md)
-
-[Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/differences-between-core-ui-ne-dbs.md)
 

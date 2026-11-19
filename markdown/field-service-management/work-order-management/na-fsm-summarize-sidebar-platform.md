@@ -7,7 +7,7 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
@@ -32,13 +32,13 @@ You can do these actions using Sidebar summarization:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
 
-2.  Expand the **Customer** menu and select **FSM**.
+2.  Expand the **Customer** panel and select **FSM**.
 
 3.  Select **Activate skill** on the **Sidebar summarization** skill card.
 
-    The **Work Order Task** table displayed in the **Choose tables** page is selected by default, and can't be changed.
+    The **Work Order Task** table displayed in the **Choose tables** page is selected by default, and cannot be changed.
 
 4.  Select **Select display** in the **Sidebar summarization** page.
 
@@ -60,21 +60,19 @@ You can do these actions using Sidebar summarization:
 
     \[Omitted image "now-assist-sidebar-discussion.png"\] Alt text: Modal to add participants for discussion
 
-9.  Generate a summary of the Sidebar discussion during the conversation.
+9.  Generate a summary of the Sidebar discussion during the conversation either by using the Summarize quick action \(enter `/Summarize` in the Active sidebar discussion window\), or by selecting the quick action icon \(\[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: icon image\).
 
-    -   Use the Summarize quick action \(enter `/Summarize` in the Active sidebar discussion window\).
-    -   Select the quick action icon \(\[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: icon image\).
 10. After summarizing the Sidebar discussion, you can add it to the work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d97020e289">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d88275e280">
 
 Option
 
-</th><th align="left" id="d97020e292">
+</th><th align="left" id="d88275e283">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d97020e298">
+</th></tr></thead><tbody><tr><td id="d88275e289">
 
 **Save the summary information by adding it to the work notes**
 
@@ -85,7 +83,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d97020e325">
+</td></tr><tr><td id="d88275e316">
 
 **Provide feedback for the summary**
 

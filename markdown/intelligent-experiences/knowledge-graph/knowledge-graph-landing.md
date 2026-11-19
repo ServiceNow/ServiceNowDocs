@@ -7,11 +7,10 @@ release: zurich
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Knowledge Graph, Enterprise Graph, Knowledge Graph schema, Graph Query Builder, natural language queries, generative AI, Gen AI, structured data, Knowledge Graph Designer, schemas]
-audience: administrator
-breadcrumb: [Managing data for AI, Enable AI Experiences]
+keywords: [Knowledge Graphs, Llama 3.1, schemas, generative AI, Gen AI]
+breadcrumb: [Enable AI experiences]
 ---
 
 # Knowledge Graph

@@ -1,31 +1,28 @@
 ---
 title: Create resource assignments for demands
-description: Create and manage resource assignments for demands directly from Next Experience for Demand Management to efficiently manage the work on demands.
+description: Create and manage resource assignments for demands directly from Next Experience for Demand Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-business-management/strategic-planning/create-resource-assignments-dw.html
 release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage resources for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create resource assignments for demands
 
-Create and manage resource assignments for demands directly from Next Experience for Demand Management to efficiently manage the work on demands.
+Create and manage resource assignments for demands directly from Next Experience for Demand Management.
 
 ## Before you begin
 
 Role required: it\_demand\_manager
 
-The demand must have planned dates.
-
 ## About this task
 
--   To create, edit, or remove resource assignment records, you can also use the **Estimate resource requirements** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md).
--   To create, edit, or remove resource assignment records, you can also use the **Create resource assignments** tab in **Details**.
+To create, edit, or remove resource assignment records, you can also use the **Estimate resource requirements** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/use-playbooks-in-dw.md).
 
 ## Procedure
 
@@ -35,28 +32,18 @@ The demand must have planned dates.
 
 3.  Open a demand from the **List** page.
 
-4.  Select the **Resources** tab.
+4.  Select **Details** from the navigation menu.
 
-    The resource grid opens for the demand's timeline, grouped by **Primary Group**.
+5.  Select the **Resource assignments** tab.
 
-5.  To change the effort unit, select the effort unit list and then select **Hours**, **FTE**, or **Person Days**.
+    **Note:** If the **Resource assignments** tab isn't visible, select **More** &gt; **Resource assignments**.
 
-6.  To change the time scale, select the time scale list and then select **Monthly** or **Weekly**.
+6.  Select **New**.
 
-7.  To group the grid differently, select an option from the **Group by** list: **Primary Group**, **Primary Role**, **Primary Skill**, or **None**.
-
-8.  Select **New** or select **New Resource Assignment** from the more actions list.
-
-    \[Omitted image "demand-ra-new.png"\] Alt text: New button on the Resources tab of a demand.
-
-9.  On the New Resource Assignment form, fill in the fields.
+7.  On the Resource assignment form, fill in the fields.
 
     For a description of the field values, see [Resource assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/strategic-planning/create-resource-assignment-form-dw.md) form.
 
-10. Select **Submit**.
+8.  Select **Save**.
 
-
-## Result
-
-The resource assignment appears in the grid. An assignment made for a resource from the resource board must be within the selected date range. If so, it shows up nested under the selected resource in real-time.
 

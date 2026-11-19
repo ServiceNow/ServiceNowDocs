@@ -1,5 +1,5 @@
 ---
-title: Enforce strict elevate privilege
+title: Enforce strict elevate privilege \[New in Security Center 1.3\]
 description: Use the glide.security.strict\_elevate\_privilege property to control whether roles marked as privileged must be manually elevated for the user to be granted the role's capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-enforce-strict-elevate-privilege.html
@@ -7,18 +7,16 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enforce strict elevate privilege
+# Enforce strict elevate privilege \[New in Security Center 1.3\]
 
 Use the **glide.security.strict\_elevate\_privilege** property to control whether roles marked as privileged must be manually elevated for the user to be granted the role's capabilities.
 
-When the **glide.security.strict\_elevate\_privilege** system property is set to **true**, roles marked as privileged must be manually elevated by an admin user when creating a new session. This grants the user the role's capabilities. When set to **false**, roles marked as privileged are automatically elevated during an admin user new session, and don't require manual elevation \(with exception of security\_admin\). Setting this property to the secure value adds an extra layer of security validation to role elevation by privileged user.
-
-Ensure that **glide.security.strict\_elevate\_privilege** is set to **true** as it allows a user with admin to manually elevate to a role they want.
+Set this property to true to add an extra layer of security validation when a privileged user elevates their role.
 
 ## More information
 
@@ -72,14 +70,6 @@ true
 
 </td></tr><tr><td>
 
-Fallback value
-
-</td><td>
-
-true
-
-</td></tr><tr><td>
-
 Category
 
 </td><td>
@@ -94,7 +84,7 @@ Security risk
 
 -   Severity score: 6.7
 -   CVSS score: Medium
--   Security risk details: This risks potential privilege misuse or accidental execution of high-impact actions. Requiring manual elevation adds a deliberate security checkpoint that helps prevent unauthorized or unintended access to sensitive capabilities.
+-   Security risk details: When **glide.security.strict\_elevate\_privilege** is set to false, roles marked as privileged are automatically elevated upon an admin user new session, and do not need to be manually elevated \(with the exception of security\_admin\).
 
 </td></tr><tr><td>
 

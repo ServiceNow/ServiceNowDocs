@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 4
-breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Content security in AI Search
@@ -27,7 +27,8 @@ When indexing records from ServiceNow AI Platform® tables, AI Search preserves 
 -   Scripted table-level ACLs
 -   [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/bp-before-query-business-rules.md)
 -   [Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/ai-search-domain-separation.md)
--   [User criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/t_CreateAUserCriteriaRecord.md) for records indexed from the Knowledge \[kb\_knowledge\] and Catalog Item \[sc\_cat\_item\] tables
+-   [Security data filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/security-data-filters.md)
+-   User criteria for records indexed from the Knowledge \[kb\_knowledge\] and Catalog Item \[sc\_cat\_item\] tables
 
 AI Search doesn't support scripted field-level ACLs or conditional field-level ACLs.
 
@@ -51,9 +52,11 @@ Early binding
 
 Default content security implementation that incorporates security filters into the search query. The system adds relevant security filters for the user to each search query. To appear in the search results, records must match the search query and pass all security filters.
 
- Early binding security supports non-scripted ACLs, Before Query business rules, and domain separation, plus user criteria for records indexed from the kb\_knowledge and sc\_cat\_item tables. If a search matches records that have table-level scripted ACLs, the search query automatically falls back to use late binding security.
+**Note:** If any early binding filter produces an error, the search query automatically falls back to use late binding security.
 
- **Note:** If an early binding filter produces an error, the search query automatically falls back to use late binding security.
+Early binding security supports non-scripted ACLs, Before Query business rules, domain separation, and security data filters. It also supports user criteria for records indexed from the kb\_knowledge and sc\_cat\_item tables.
+
+If a search matches records that have table-level scripted ACLs, the search query automatically falls back to use late binding security.
 
 </td></tr><tr><td>
 
@@ -63,16 +66,14 @@ Late binding
 
 More computationally expensive alternate content security implementation that post-filters search query results. The system applies security filters to the search query just as early binding security does. After retrieving records that match the filtered query, it invokes the [GlideRecord.canRead\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method for each record. To appear in the search results, records must match the search query, pass all security filters, and return **true** for the API method.
 
- Late binding security supports all indexed security features.
-
- By default, late binding security serves as a fallback mechanism for early binding security. You can override this default behavior in the following ways:
+By default, late binding security is only used as a fallback mechanism. The system falls back to using late binding when an early binding security filter produces an error, or when a search matches records that have table-level scripted ACLs. You can override this default behavior and configure AI Search to use late binding security \(instead of early binding security\) for some or all of your search results:
 
 -   To make AI Search use late binding security for all results from an indexed source, set the value of that indexed source's **Force Late Binding** field to **true**.
 -   To make AI Search use late binding security for all search results, set the value of the **Force AI Search to use late binding for ACL evaluation** \(**glide.ais.security.force\_late\_binding**\) system property to **true**.
 
- If AI Search applies late binding security to any results from an indexed source used by a facet, the list of available filter selections for the facet changes. When this happens, the facet only displays field values found in the current page of search results. For details on facets, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-facet-ais.md).
+If AI Search applies late binding security to any results from an indexed source used by a facet, the list of available filter selections for the facet changes. When this happens, the facet only displays field values found in the current page of search results. For details on facets, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-facet-ais.md).
 
- When you enable search result counts for facets in a search application, the counts indicate the number of results that matched the user's search. Late binding security can remove results after they’re counted, causing the actual number of displayed results to be lower than the count. For more information on search result counts for facets, see [Show search result counts for facets on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/display-result-counts-ais.md).
+When you enable search result counts for facets in a search application, the counts indicate the number of results that matched the user's search. Late binding security can remove results after they’re counted, causing the actual number of displayed results to be lower than the count. For more information on search result counts for facets, see .
 
 </td></tr></tbody>
 </table>## Content security for external content

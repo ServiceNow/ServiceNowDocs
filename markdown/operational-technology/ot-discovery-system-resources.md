@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/ot-discovery-system-resources.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-06-30"
+reading_time_minutes: 1
 breadcrumb: [Deploy Operational Technology Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
@@ -94,5 +94,4 @@ Linux
 See [Install OT Discovery Collector on a Linux system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/linux-install-ot-discovery-collector.md) for specific information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Deploy Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/deploy-ot-discovery-devices-landing.md)
-
+</table>

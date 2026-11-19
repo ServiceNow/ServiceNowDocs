@@ -1,21 +1,20 @@
 ---
 title: Delete alert rules
-description: Delete alert rules that you no longer need.
+description: Remove alert rules to adjust monitoring criteria and thresholds.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/delete-metric-rules.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [remove alert rules, alert rule deletion]
-breadcrumb: [Managing alert rules, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Alert rules, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Delete alert rules
 
-Delete alert rules that you no longer need.
+Remove alert rules to adjust monitoring criteria and thresholds.
 
 ## Before you begin
 
@@ -23,7 +22,7 @@ Role required: sn\_dex.admin
 
 ## About this task
 
-Deleted alert rules are removed permanently and can’t be restored.
+Deleting any rules results in their permanent removal, and they can’t be retrieved.
 
 ## Procedure
 
@@ -35,12 +34,14 @@ Deleted alert rules are removed permanently and can’t be restored.
 
     The list of alert rules appears.
 
-4.  Select the check box next to the alert rule that you want to delete.
+4.  Select the check box preceding the name of the alert rule to select it for deletion.
 
 5.  Select **Delete**.
 
-6.  In the confirmation dialog box, select **Delete**.
+6.  In the confirmation window, select **Delete**.
 
     The alert rule is removed from the list.
 
+
+**Parent Topic:**[Managing DEX alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-metrics-metric-rules-management.md)
 

@@ -1,23 +1,23 @@
 ---
-title: Zero Copy Connector for ERP Enterprise Data Foundation content pack models
-description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Enterprise Data Foundation content pack contains models that you might need when interacting with an SAP system.
+title: Zero Copy Connector for ERP Enterprise Data Foundation data product models
+description: The Zero Copy Connector for ERP Enterprise Data Foundation data product contains models that you may need when interacting with an SAP system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/erp-integration-framework/erp-canvas-content-pack-enterprise-data-models.html
 release: zurich
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-10-22"
-reading_time_minutes: 3
-keywords: [erp, canvas, erp canvas, content, pack, content pack, enterprise, data, model, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Enterprise Data Foundation, Available SAP content packs, Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+keywords: [erp, canvas, erp canvas, content, pack, content pack, model]
+breadcrumb: [Enterprise Data Foundation data product, Data products, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
 ---
 
-# Zero Copy Connector for ERP Enterprise Data Foundation content pack models
+# Zero Copy Connector for ERP Enterprise Data Foundation data product models
 
-The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Enterprise Data Foundation content pack contains models that you might need when interacting with an SAP system.
+The Zero Copy Connector for ERP Enterprise Data Foundation data product contains models that you may need when interacting with an SAP system.
 
-## Enterprise Data Foundation content pack models
+## Enterprise Data Foundation data product models
 
 <table id="table_rkl_mml_1fc"><thead><tr><th>
 
@@ -37,7 +37,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-Bank Master Data
+Bank Master Data - Display
 
 </td><td>
 
@@ -69,27 +69,13 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Business Partner - Address
+Business Partner \(available starting in the Zurich Patch 4 release\)
 
 </td><td>
 
-Retrieve all addresses for a business partner, including street, city, and country.
-
-</td><td>
-
-ERP
-
-</td><td>
-
-RFC/BAPI
-
-</td></tr><tr><td>
-
-Business Partner - Bank Data
-
-</td><td>
-
-Retrieve general bank data for a business partner, including account number and bank key.
+-   Create: Create a business partner.
+-   Update: Update business partner information.
+-   Read: Retrieve details about a specific business partner.
 
 </td><td>
 
@@ -97,16 +83,16 @@ ERP
 
 </td><td>
 
-RFC/BAPI
+OData V2
 
 </td></tr><tr><td>
 
-Business Partner - Bank details
+Business Partner - Bank Details
 
 </td><td>
 
--   Create: Create detailed bank information for a business partner.
--   Update: Update detailed bank information, such as the bank account ID and payment methods, for a business partner.
+-   Create: Create bank information for a business partner.
+-   Update: Update bank information, such as the account number and address, for a business partner.
 -   Read: Retrieve detailed bank information for a business partner.
 
 </td><td>
@@ -137,24 +123,6 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Business Partner - General Data
-
-</td><td>
-
--   Create: Create business partner general data.
--   Update: Update business partner general data.
--   Read: Retrieve general data about a specific business partner.
-
-</td><td>
-
-ERP
-
-</td><td>
-
-OData V2
-
-</td></tr><tr><td>
-
 Business Partner - List
 
 </td><td>
@@ -171,25 +139,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Business Partner - Role
-
-</td><td>
-
--   Create: Create a business partner role.
--   Update: Update an existing business partner role, such as changing the required validity data.
--   Read: Retrieve details about business partner roles.
-
-</td><td>
-
-ERP
-
-</td><td>
-
-OData V2
-
-</td></tr><tr><td>
-
-Business Partner - Role
+Business Partner - Roles
 
 </td><td>
 
@@ -207,11 +157,11 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Chart of Accounts
+Chart of Account \(available starting in the Zurich Patch 4 release\)
 
 </td><td>
 
-Retrieve a chart of accounts list.
+Retrieve a chart of account list.
 
 </td><td>
 
@@ -228,6 +178,24 @@ Chart of Accounts
 </td><td>
 
 Retrieve a chart of accounts list.
+
+</td><td>
+
+ERP
+
+</td><td>
+
+RFC/BAPI
+
+</td></tr><tr><td>
+
+Cost Center
+
+</td><td>
+
+-   Create: Create a cost center.
+-   Update: Update cost center information, such as description and category.
+-   Read: Retrieve details about a specific cost center.
 
 </td><td>
 
@@ -252,24 +220,6 @@ ERP
 </td><td>
 
 OData V2
-
-</td></tr><tr><td>
-
-Cost Center
-
-</td><td>
-
--   Create: Create a cost center.
--   Update: Update cost center information, such as description and category.
--   Read: Retrieve details about a specific cost center.
-
-</td><td>
-
-ERP
-
-</td><td>
-
-RFC/BAPI
 
 </td></tr><tr><td>
 
@@ -305,7 +255,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-General Ledger Accounts
+General Ledger \(G/L\) Accounts
 
 </td><td>
 
@@ -321,7 +271,7 @@ OData V2
 
 </td></tr><tr><td>
 
-General Ledger Accounts
+General Ledger \(G/L\) Accounts
 
 </td><td>
 
@@ -337,7 +287,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-General Ledger Accounts - List
+General Ledger \(G/L\) Accounts - List
 
 </td><td>
 
@@ -411,8 +361,8 @@ Material Master - Sales Org Data
 
 </td><td>
 
--   Create: Create sales org data.
--   Update: Update sales org data.
+-   Create:
+-   Update:
 -   Read: Retrieve sales org data, such as tax classification and item category group.
 
 </td><td>
@@ -489,39 +439,7 @@ OData V2
 
 </td></tr><tr><td>
 
-Vendor Bank Details
-
-</td><td>
-
-Retrieve a list of vendor bank information.
-
-</td><td>
-
-Platform
-
-</td><td>
-
-RFC/BAPI
-
-</td></tr><tr><td>
-
-Vendor Bank Details
-
-</td><td>
-
-Retrieve a list of vendor bank information.
-
-</td><td>
-
-Platform
-
-</td><td>
-
-OData V2
-
-</td></tr><tr><td>
-
-Vendor - List
+Vendor - List \(available starting in the Zurich Patch 4 release\)
 
 </td><td>
 
@@ -534,38 +452,6 @@ Platform
 </td><td>
 
 RFC/BAPI
-
-</td></tr><tr><td>
-
-Vendor Location Details
-
-</td><td>
-
-Retrieve a list of vendor location information.
-
-</td><td>
-
-Platform
-
-</td><td>
-
-RFC/BAPI
-
-</td></tr><tr><td>
-
-Vendor Location Details
-
-</td><td>
-
-Retrieve a list of vendor location information.
-
-</td><td>
-
-Platform
-
-</td><td>
-
-OData V2
 
 </td></tr><tr><td>
 
@@ -584,4 +470,5 @@ ERP
 RFC/BAPI
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation data product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)
+

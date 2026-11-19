@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 1
 breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -27,7 +27,7 @@ Learn the process of binding Configuration Items \(CIs\) to alerts. This include
 
     -   Yes: If a node value is provided, Event Management searches the CMDB for a matching host.
     -   No: If no node is found, the system attempts to bind the alert using other available details, such as:
-        -   Alert Type
+        -   CI Type
         -   Additional Information
         -   CI Identifier
     **Note:** For Kubernetes CIs and other non-host CIs, use an event rule with CI field matching instead of relying only on the Node value. Kubernetes CIs follow the same binding approach as other non-host CIs.

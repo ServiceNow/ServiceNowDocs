@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-impact-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
@@ -108,7 +108,7 @@ Yokohama
     -   [Jumpstart Your Knowledge Management](https://www.servicenow.com/docs/access?context=jumpstart-knowledge-management&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Knowledge Management.
     -   [Jumpstart Your Legacy Workflow Migration](https://www.servicenow.com/docs/access?context=jumpstart-legacy-workflow-migration&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Legacy Workflow Migration.
     -   [Jumpstart Your Now Assist for CSM](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-csm&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Now Assist for CSM.
-    -   [Jumpstart Your Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-skill-kit&family=yokohama&ft:locale=en-US): ​Provides a demonstration of the possibilities and capabilities of Now Assist Skill Kit.
+    -   [Jumpstart Your ServiceNow AI Skill Kit](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-skill-kit&family=yokohama&ft:locale=en-US): ​Provides a demonstration of the possibilities and capabilities of Now Assist Skill Kit.
     -   [Jumpstart Your Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-virtual-agent&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Now Assist in Virtual Agent.
     -   [Jumpstart Your Strategic Portfolio Management – Resource Management Workspace](https://www.servicenow.com/docs/access?context=jumpstart-strategic-portfolio-management-resource-management-workspace&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Resource Management Workspace within SPM.
     -   [Jumpstart Your GenAI](https://www.servicenow.com/docs/access?context=jumpstart-gen-ai&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of ServiceNow® Generative AI application \(Artificial Intelligence\)
@@ -131,7 +131,7 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key bundle-ipact.impact-healthscan-store-app\]](https://www.servicenow.com/docs/access?context=impact-healthscan-store-app&family=zurich&ft:locale=en-US)**
+-   **[impact healthscan store app](https://www.servicenow.com/docs/access?context=impact-healthscan-store-app&family=zurich&ft:locale=en-US)**
     -   Implement Scan Engine to enable proactive management of instance quality, compliance, and performance.
     -   Examine ServiceNow instances for violations of the active leading practice definitions and report violations that are stored in the Scan Findings table.
     -   View existing or resolved findings that resulted from the instance scans or from summarized and detailed scan information.
@@ -282,7 +282,7 @@ The new Impact Store Application provides a more efficient, streamlined way for 
 Minor updates have been incorporated into the following accelerators:
 
     -   [Jumpstart Your GenAI](https://www.servicenow.com/docs/access?context=jumpstart-gen-ai&family=yokohama&ft:locale=en-US)
-    -   [Jumpstart Your Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-skill-kit&family=yokohama&ft:locale=en-US)
+    -   [Jumpstart Your ServiceNow AI Skill Kit](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-skill-kit&family=yokohama&ft:locale=en-US)
     -   [Jumpstart Your Document Intelligence](https://www.servicenow.com/docs/access?context=jumpstart-document-intelligence&family=yokohama&ft:locale=en-US)
     -   [On-Demand Value Report](https://www.servicenow.com/docs/access?context=on-demand-value-report&family=yokohama&ft:locale=en-US)
     -   [LSD Maturity Assessment](https://www.servicenow.com/docs/access?context=lsd-maturity-assessment&family=yokohama&ft:locale=en-US)

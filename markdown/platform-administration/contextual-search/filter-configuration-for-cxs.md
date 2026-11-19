@@ -7,9 +7,9 @@ release: zurich
 product: Contextual Search
 classification: contextual-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Contextual search, Search administration, Configure core features, Administer]
 ---
 
 # Filter configuration for contextual search

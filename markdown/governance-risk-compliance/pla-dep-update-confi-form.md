@@ -1,18 +1,18 @@
 ---
 title: Planning dependency update configuration form
-description: Use the Planning dependency update configuration form to configure the plan record, its sources, and preferences such as the plan record name, sources, and notification preferences. You can also schedule an auto-update of the related assets in the plans.
+description: Use this form to configure plan records, data sources, notification preferences, and auto-update schedules for related assets in a plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/pla-dep-update-confi-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Set up Planning dependency update configuration, Configuring planning dependency updates, Dependency Configuration records, General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Planning dependency update configuration form
 
-Use the Planning dependency update configuration form to configure the plan record, its sources, and preferences such as the plan record name, sources, and notification preferences. You can also schedule an auto-update of the related assets in the plans.
+Use this form to configure plan records, data sources, notification preferences, and auto-update schedules for related assets in a plan.
 
 ## Planning dependency update configuration record form
 

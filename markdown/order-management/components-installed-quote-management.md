@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/components-installed-quote-management.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
+breadcrumb: [Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Components Installed with Quote Management
@@ -58,7 +58,7 @@ Quote integrator \[sn\_quote\_mgmt\_core.quote\_integrator\]
 
 </td><td>
 
-Role required to access quote features when using the CPQ Configurator.
+Role required to access quote features when using the advanced configurator.
 
 </td><td>
 
@@ -109,5 +109,7 @@ A granular role created to give read access to quote tables.
 -   sn\_customerservice.customer\_data\_viewer
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-management-reference.md)
+</table>**Parent Topic:**[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/reference-cpq.md)
+
+**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/quote-management-reference.md)
 

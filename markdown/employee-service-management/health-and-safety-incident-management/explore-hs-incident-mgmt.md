@@ -7,7 +7,7 @@ release: zurich
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -37,8 +37,6 @@ Health and Safety Incident Management enables the safety department to receive i
     -   Schedule and track health and safety related meetings and attendees
     -   Log meeting minutes and actions.
     -   Flag meetings and minutes as sensitive
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Personas
 

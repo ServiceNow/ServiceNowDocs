@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-itomoptimization-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
-reading_time_minutes: 5
+last_updated: "2026-11-19"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -128,7 +128,7 @@ Yokohama
 
 </td><td>
 
--   **[\[Placeholder link text to key itom-optimization-landing-page\]](https://www.servicenow.com/docs/access?context=itom-optimization-landing-page&family=yokohama&ft:locale=en-US)**
+-   **[itom optimization landing page](https://www.servicenow.com/docs/access?context=itom-optimization-landing-page&family=yokohama&ft:locale=en-US)**
 
 The following UI changes are applicable for workflow migration:
 
@@ -136,7 +136,7 @@ The following UI changes are applicable for workflow migration:
     -   In the **Resource Block** &gt; **Operations** &gt; **Steps**, within the **Add Operations Steps** dialog box, the **Workflow** check box has been removed from the Add Operations Steps field.
     -   In the **Cloud Catalog Items**, under the **Operation Implementation** drop-down list, the **Workflow** option has been removed.
 
- -   **[\[Placeholder link text to key itom-optimization-landing-page\]](https://www.servicenow.com/docs/access?context=itom-optimization-landing-page&family=yokohama&ft:locale=en-US)**
+ -   **[itom optimization landing page](https://www.servicenow.com/docs/access?context=itom-optimization-landing-page&family=yokohama&ft:locale=en-US)**
     -   Migration of legacy workflows to Workflow Studio flows or subflows.
     -   Policy Rule Actions now supports Workflow Studio subflows instead of legacy workflows.
 

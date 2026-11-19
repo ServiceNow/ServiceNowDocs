@@ -1,24 +1,22 @@
 ---
-title: Enable security jump start plugin \(ACL Rules\)
-description: Activate the Security Jump Start \(ACL Rules\) \(com.snc.system\_security\) plugin to create several important ACLs that validate the Access Controls on some of the key system tables within the ServiceNow AI Platform.
+title: Enable security jump start plugin \(ACL Rules\) \[Updated in Security Center 1.3\]
+description: Activate the Security Jump Start \(ACL Rules\) \(com.snc.system\_securitycom.snc.system\_security\) plugin to create several important ACLs that validate the Access Controls on some of the key system tables within the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-security-jump-start-plugin-acl-rules.html
 release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2025-07-31"
+reading_time_minutes: 2
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enable security jump start plugin \(ACL Rules\)
+# Enable security jump start plugin \(ACL Rules\) \[Updated in Security Center 1.3\]
 
-Activate the Security Jump Start \(ACL Rules\) \(com.snc.system\_security\) plugin to create several important ACLs that validate the Access Controls on some of the key system tables within the ServiceNow AI Platform.
+Activate the Security Jump Start \(ACL Rules\) \(com.snc.system\_security**com.snc.system\_security**\) plugin to create several important ACLs that validate the Access Controls on some of the key system tables within the ServiceNow AI Platform.
 
-Security Jump Start \(ACL Rules\) \(com.snc.system\_security\) plugin creates several important ACLs that validate the Access Controls on some of the key system tables within the Now Platform. These rules provide a jump-start on securing many system tables, making it easier for an organization to get an instance into production. The Security Jump Start \(ACL Rules\) plugin is installed automatically on all new instances.
-
-Ensure that the Security Jump Start \(ACL Rules\) \(com.snc.system\_security\) plugin is activated.
+These rules provide a jump-start on securing many system tables, making it easier for an organization to get an instance into production. The Security Jump Start \(ACL Rules\) plugin is installed automatically on all new instances.
 
 ## More information
 
@@ -32,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Configuration name
+Plugin ID
 
 </td><td>
 
@@ -44,39 +42,7 @@ Configuration type
 
 </td><td>
 
-System Properties \(/sys\_properties\_list.do\)
-
-</td></tr><tr><td>
-
-Data type
-
-</td><td>
-
-N/A
-
-</td></tr><tr><td>
-
-Recommended value
-
-</td><td>
-
-N/A
-
-</td></tr><tr><td>
-
-Default value
-
-</td><td>
-
-N/A
-
-</td></tr><tr><td>
-
-Fallback value
-
-</td><td>
-
-N/A
+System Definition &gt; Plugins
 
 </td></tr><tr><td>
 
@@ -88,13 +54,35 @@ Category
 
 </td></tr><tr><td>
 
-Security risk
+Purpose
 
 </td><td>
 
--   Severity score: 8.1
--   CVSS rating: High
--   Security risk details: Gaps in access control can allow unauthorized users to view, modify, or delete sensitive data, undermining data integrity, confidentiality, and compliance with organizational security policies.
+Activate the Security Jump Start \(ACL Rules\) plugin to achieve proper security compliance. It provides some basic ACLs that secure system tables in the first place instead of creating manually for each system table that comes with default provisioning of an instance. These ACLs are helpful when the newly created instance must quickly move into production.
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+Active
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+None. This is a plugin, not a Glide property, so there is no default value. The plugin is installed by default on zBoot \(resets\).
+
+</td></tr><tr><td>
+
+Security risk rating
+
+</td><td>
+
+8.1
 
 </td></tr><tr><td>
 
@@ -102,16 +90,28 @@ Functional impact
 
 </td><td>
 
-None
+There is significant functional impact if this plugin is installed without auditing of the existing ACLs on the instance. Customer outreach and definitions are required before the remediation can occur.
 
 </td></tr><tr><td>
 
-Dependencies and prerequisites
+Security risk
 
 </td><td>
 
-None
+\(High\) Access control should be enforced to lock down the unintended access to the instance. ACL jumpstart rules were created to provide a starting point on securing many system tables to make it easier for an organization to quickly get into production.
+
+</td></tr><tr><td>
+
+References
+
+</td><td>
+
+[Security jump start - ACL rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/r_SecurityJumpStartACLRules.md)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
+</table>## Steps to configure
+
+If this plugin is not activated on your instance, contact ServiceNow Support. Activating the plugin at this point might modify security access to tables already in use in a production environment. If an administrator is interested in the new ACL rules the plugin provides, you can manually create one or more of them in an existing instance if needed. This list of ACLs may be used as a guideline in that case.
+
+**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

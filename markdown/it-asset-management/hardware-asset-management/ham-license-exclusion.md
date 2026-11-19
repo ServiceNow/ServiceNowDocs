@@ -7,10 +7,10 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2025-07-31"
+reading_time_minutes: 3
 keywords: [HAM licensing, Hardware Asset Management licensing]
-breadcrumb: [Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage Hardware Asset Management subscriptions, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Hardware Asset Management license exclusion
@@ -29,7 +29,7 @@ You can't select and use the excluded assets in the following HAM flows and task
 -   [Lease](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-leased-hw-asts-expiring-contract.md)
 -   [Bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/asset-bundles-concept.md)
 -   [Return Merchandise Authorization \(RMA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/submit-rma-request.md)
--   [Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/audit-your-inventory.md)
+-   [Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-inventory-audit.md)
 -   [RFID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/integrating-rfid.md)
 -   [Asset lifecycle automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/asset-lifecycle-automation.md)
 -   [Pallets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/pallet-assets.md)
@@ -40,5 +40,10 @@ You can't select and use the excluded assets in the following HAM flows and task
 -   **[Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md)**  
 Opt in the Hardware Asset Management \(HAM\) license resource categories that are part of the HAM subscription. You can purchase and opt in the resource categories that you use, and you can opt out and not pay for the categories that you don't use.
 
-**Parent Topic:**[Configuring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configuring-ham.md)
+**Parent Topic:**[Manage Hardware Asset Management subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/managing-ham-subscriptions.md)
+
+**Related topics**  
+
+
+[View the license report for the Hardware Asset Management application]()
 

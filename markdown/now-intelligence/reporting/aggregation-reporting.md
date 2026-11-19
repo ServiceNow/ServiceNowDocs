@@ -1,5 +1,5 @@
 ---
-title: Aggregation in Core UI reporting
+title: Aggregation in reporting
 description: Aggregation enables you to apply calculations to data displayed in reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/aggregation-reporting.html
@@ -7,12 +7,12 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Core UI Reporting reference, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Reporting reference, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Aggregation in Core UI reporting
+# Aggregation in reporting
 
 Aggregation enables you to apply calculations to data displayed in reports.
 
@@ -40,5 +40,5 @@ When you create a report, you can aggregate the data on several calculations inc
 -   **[Aggregate a report on standard deviation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/aggregate-report-standard-dev.md)**  
 When you create a report, you can aggregate the data on several calculations including the number of records, averages, and standard deviation. The standard deviation aggregation shows variation from average values for a duration or numeric field in a visualization.
 
-**Parent Topic:**[Core UI Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-reference.md)
+**Parent Topic:**[Reporting reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-reference.md)
 

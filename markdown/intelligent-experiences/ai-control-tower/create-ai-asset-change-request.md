@@ -7,9 +7,9 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 5
-breadcrumb: [Creating requests for AI assets, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+last_updated: "2025-11-05"
+reading_time_minutes: 6
+breadcrumb: [Creating requests for AI assets, Use, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Create change requests for AI assets
@@ -25,7 +25,7 @@ Role required:
 
 ## About this task
 
-To modify the relationships between related AI assets, a user with the AI asset owner \(sn\_ai\_asset\_mgmt.ai\_asset\_owner\) role can initiate the change process by creating and submitting a change request. After the request is submitted, a user with the AI steward \(sn\_ai\_governance\_ai\_steward\) role can review and approve the request. This approval triggers the AI Control Tower application to create a new AI asset record for the asset that the change request was created for. The asset then automatically enters the onboarding stage of the asset life cycle.
+To modify the relationships between related AI assets, a user with the AI asset owner \(sn\_ai\_asset\_mgmt.ai\_asset\_owner\) role can initiate the change process by creating and submitting a change request. After the request is submitted, a user with the AI steward \(sn\_ai\_governance\_ai\_steward\) role can review and approve the request. This approval triggers the Control Tower application to create a new AI asset record for the asset that the change request was created for. The asset then automatically enters the onboarding stage of the asset life cycle.
 
 You can create change requests for the following AI asset types:
 
@@ -35,7 +35,7 @@ You can create change requests for the following AI asset types:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **AI Control Tower**.
+1.  Navigate to **Workspaces** &gt; **Control Tower**.
 
 2.  If you have the AI asset owner \(sn\_ai\_asset\_mgmt.ai\_asset\_owner\) role, create a change request.
 
@@ -51,11 +51,11 @@ Procedure
 
 </th></tr></thead><tbody><tr><td>
 
-AI Control Tower Home view
+Home view
 
 </td><td>
 
-1.  From the Home view of the AI Control Tower workspace, select the **Create request** drop-down menu.
+1.  From the Home view of the Control Tower workspace, select the **Create request** drop-down menu.
 2.  Select **Create a change request**.
 
 
@@ -65,7 +65,7 @@ Change requests list
 
 </td><td>
 
-1.  From the AI Control Tower workspace, open the AI assets view.
+1.  From the Control Tower workspace, open the AI assets view.
 2.  From the navigation menu of the AI assets view, navigate to **Requests** &gt; **Change requests**.
 3.  Select **Create change request**.
 
@@ -76,7 +76,7 @@ AI asset record
 
 </td><td>
 
-1.  From the AI Control Tower workspace, open the AI assets view.
+1.  From the Control Tower workspace, open the AI assets view.
 2.  From the navigation menu of the AI assets view, locate the **AI asset inventory - Managed** section and then select the subsection for the type of AI asset that you want to create a change request for.
 
 Alternatively, navigate to **Lifecycle** &gt; **Deploy**.
@@ -269,7 +269,7 @@ Change requests list
 
 </td><td>
 
-1.  From the AI Control Tower workspace, open the AI assets view.
+1.  From the Control Tower workspace, open the AI assets view.
 2.  From the navigation menu of the AI assets view, navigate to **Requests** &gt; **Change requests**.
 3.  From the list of available change requests, select the record number for the request that you want to approve.
 
@@ -280,7 +280,7 @@ AI asset record
 
 </td><td>
 
-1.  From the AI Control Tower workspace, open the AI assets view.
+1.  From the Control Tower workspace, open the AI assets view.
 2.  From the navigation menu of the AI assets view, locate the **AI asset inventory - Managed** section and then select the subsection for the type of AI asset that the change request was created for.
 
 Alternatively, navigate to **Lifecycle** &gt; **Deploy**.
@@ -304,9 +304,11 @@ Alternatively, navigate to **Lifecycle** &gt; **Deploy**.
         -   To reject the request, select **Reject**.
     -   If you approved the request, the Status changes to Approved and the State changes to In progress.
 
-        The AI Control Tower application then generates a change task for each asset that is impacted by the request. These change tasks appear on the **Change tasks** tab and specify the actions that must be taken on the impacted assets. Each change task is assigned to a user with the AI asset owner \(sn\_ai\_asset\_mgmt.ai\_asset\_owner\) role. If you have any concerns or need further clarification on the request, you can create additional change tasks manually. After the assigned users complete all change tasks, the AI Control Tower application automatically creates a new AI asset record for the asset that the change request was created for. The State of the request then changes to Completed.
+        The Control Tower application then generates a change task for each asset that is impacted by the request. These change tasks appear on the **Change tasks** tab and specify the actions that must be taken on the impacted assets. Each change task is assigned to a user with the AI asset owner \(sn\_ai\_asset\_mgmt.ai\_asset\_owner\) role. If you have any concerns or need further clarification on the request, you can create additional change tasks manually. After the assigned users complete all change tasks, the Control Tower application automatically creates a new AI asset record for the asset that the change request was created for. The State of the request then changes to Completed.
 
         **Note:** The **Change tasks** tab is not available if the change request was created for a dataset.
 
     -   If you rejected the request, the Status changes to Rejected and the State changes to Completed.
+
+**Parent Topic:**[Creating requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/creating-ai-asset-requests.md)
 

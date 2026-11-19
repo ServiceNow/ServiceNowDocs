@@ -1,23 +1,20 @@
 ---
 title: Incident Management properties
-description: Incident Management properties control features such as copying and creating child incidents. The major incident properties control the promotion of major incident candidates to major incidents.
+description: Incident Management properties are used to control features such as copying and creating child incidents. The major incident properties control the promotion of major incident candidates to major incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/incident-management/incident-management-properties.html
 release: zurich
 product: Incident Management
 classification: incident-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
-keywords: [Incident properties, Major incident properties]
-breadcrumb: [Configuring Incident Management, Incident Management, IT Service Management]
+breadcrumb: [Configure, Incident Management, IT Service Management]
 ---
 
 # Incident Management properties
 
-Incident Management properties control features such as copying and creating child incidents. The major incident properties control the promotion of major incident candidates to major incidents.
-
-## Incident Management
+Incident Management properties are used to control features such as copying and creating child incidents. The major incident properties control the promotion of major incident candidates to major incidents.
 
 These properties are available at **Incident** &gt; **Administration** &gt; **Incident Properties**.
 
@@ -39,7 +36,7 @@ Enable auto closure of incidents based on Resolution date. Setting this to 'No' 
 
 </td><td>
 
-Select the check box to auto-close incidents based on the resolution date of the incident instead of the last updated date. **Note:** Starting with the Madrid release, this property is automatically set to **true** for new customers. Existing customers must set the property to **true** manually.
+Select the check box to auto-close incidents based on the resolution date of the incident instead of the last updated date. **Note:** Starting with the Madrid release, this property is automatically set to **true** for new customers. Existing customers have to set the property to **true** manually.
 
 </td></tr><tr><td>
 
@@ -47,7 +44,7 @@ Number of days \(integer\) after which Resolved incidents are automatically clos
 
 </td><td>
 
-Set the duration in number of business days for the incident auto-close function.
+Set the duration of the incident auto-close function.
 
 </td></tr><tr><td>
 
@@ -55,23 +52,7 @@ Close open Incident Tasks when Incident is closed or canceled\(com.snc.incident.
 
 </td><td>
 
-Select the check box to close an open incident task when an incident is closed or canceled.**Note:** Starting with the Madrid release, this property is set to **true** by default only for new customers.
-
-</td></tr><tr><td>
-
-The number of attempts made before an incident that is waiting for a caller response is automatically resolved if no reply is received. Setting this value to 0 will disable the automation for this instance\(com.snc.incident.strike.count\)
-
-</td><td>
-
-Set the number of attempts for which the notification must be sent to the caller for information. By default, the value is set to 3.**Note:** Starting with the Brazil release, this property is available only for new zBoot customers.
-
-</td></tr><tr><td>
-
-Wait period in business days between two attempts. Incidents will be auto resolved after all the attempts are completed\(com.snc.incident.strike.wait\_period\)
-
-</td><td>
-
-Set the time interval in number of business days that must be maintained between the two attempts. By default, the value is set to 1.**Note:** Starting with the Brazil release, this property is available only for new zBoot customers.
+Select the check box to close an open incident task when an incident is closed or canceled.**Note:** Starting with the Madrid release, this property is automatically set to **true** by default only for the new customers.
 
 </td></tr><tr><td>
 
@@ -127,7 +108,7 @@ Copy attachments from originating incident\(com.snc.incident.copy.attach\)
 
 </td><td>
 
-Select the check box to copy attachments from original incidents when an incident is copied or created.
+Select the check box to be able to copy attachments from original incidents when an incident is copied for created.
 
 </td></tr><tr><td>
 
@@ -151,7 +132,7 @@ List of attributes \(comma-separated\) from Affected CIs \(task\_ci\) related li
 
 </td><td>
 
-Enter the name of the attributes from the Affected CIs related list to copy. These attributes are copied from the original incident to the new incident when you copy or create an incident.
+Enter the name of the attributes from the Affected CIs related list that you want to be copied from the original incident to the new incident when you copy or create an incident.
 
 </td></tr><tr><td>
 
@@ -159,7 +140,7 @@ List of attributes \(comma-separated\) from Impacted Services \(task\_cmdb\_ci\_
 
 </td><td>
 
-Enter the name of the attributes from the Impacted Services related list to copy. These attributes are copied from the original incident to the new incident when you copy or create an incident.
+Enter the name of the attributes from the Impacted Services related list that you want to be copied from the original incident to the new incident when you copy or create an incident.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -203,7 +184,7 @@ Incident work notes style \(glide.ui.incident\_activity.style.work\_notes\)
 
 </td><td>
 
-Enter the HTML syntax of work notes style for incident work notes.
+Enter the HTML syntax of work notes style for incident additional comments.
 
 </td></tr><tr><td>
 
@@ -211,7 +192,7 @@ Communicate problem workaround to incident worknotes \(com.snc.incident.communic
 
 </td><td>
 
-When selected, adds the event to the **Work notes \(Private\)** field instead of the **Additional comments \(Customer visible\)** field. This applies to the incident associated with the problem record when the problem is fixed and the **Share fix** option is triggered.
+Select the check box to add the event as Work notes \(Private\) field instead of the Additional comments \(Customer visible\) field for the incident associated with the problem record when a problem is fixed and the Share fix option is triggered.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -225,7 +206,7 @@ Create Incident in saved state from Interaction\(com.snc.incident.create\_from\_
 
 Select the check box to create an incident with a saved state from an interaction record.Type: Boolean
 
- **Note:** Starting with the Brazil release, this property is automatically set to **true** for new customers. Existing customers must set the property to **true** manually.
+ **Note:** Starting with the Zurich release, this property is automatically set to **true** for new customers. Existing customers have to set the property to **true** manually.
 
 </td></tr><tr><td>
 
@@ -235,7 +216,7 @@ Copy attachments from Interaction to Incident, when created from Interaction\(co
 
 Select the check box to copy the attachments from the interaction record to a new incident record when it's created from the interaction record.Type: Boolean
 
- **Note:** Starting with the Brazil release, this property is automatically set to **true** for new customers. Existing customers must set the property to **true** manually.
+ **Note:** Starting with the Zurich release, this property is automatically set to **true** for new customers. Existing customers have to set the property to **true** manually.
 
 </td></tr></tbody>
 </table>## Major Incident Management
@@ -254,7 +235,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Create major incident from candidate\(sn\_major\_inc\_mgmt.com.snc.incident.mim.major\_incident\_creation\)
+Create major incident from candidate\(sn\_major\_inc\_mgmt.com.snc.incident .mim.major\_incident\_creation\)
 
 </td><td>
 
@@ -275,6 +256,14 @@ PIR export ui page url\(sn\_major\_inc\_mgmt.pir\_export\_pdf\_ui\_page\)
 </td><td>
 
 Associate a custom UI page to an exported post incident report.
+
+</td></tr><tr><td>
+
+PIR publish hours\(sn\_sow\_inc.pir.publish.hours\)
+
+</td><td>
+
+Set how long after resolution a post incident report must be published. The property also drive the PIR banner on the incident record.
 
 </td></tr><tr><td>
 

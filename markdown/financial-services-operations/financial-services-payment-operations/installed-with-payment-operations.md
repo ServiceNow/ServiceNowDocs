@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Reference, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -32,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Case Management Core\[com.sn\_customerservice\]
+Customer Service\[com.sn\_customerservice\]
 
 </td><td>
 

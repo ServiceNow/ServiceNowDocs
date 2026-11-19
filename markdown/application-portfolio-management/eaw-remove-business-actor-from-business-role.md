@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-remove-business-actor-from-business-role.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-01"
 reading_time_minutes: 1
-breadcrumb: [Manage business roles, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Manage business roles, Using business architecture, Working with Portfolio list view, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Remove business actors from a business roles

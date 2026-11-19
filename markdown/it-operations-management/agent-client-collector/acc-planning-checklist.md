@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-10-26"
 reading_time_minutes: 2
-breadcrumb: [Preparing for Agent Client Collector implementation, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Preparing for ACC implementation, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector planning checklist
@@ -113,7 +113,7 @@ Draft ACC Solution Architecture
 
 </td><td>
 
-Work with your ServiceNow account team to define how ACC agents send data to the ServiceNow instance, based on your use cases and differences in server and endpoint deployment techniques. Verify whether direct connections are made using ITOM Cloud Services or MID Servers.For details, see [Agent Client Collector architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-concept.md).
+Work with your ServiceNow account team to define how ACC agents send data to the ServiceNow instance, based on your use cases and differences in server and endpoint deployment techniques. Then verify whether direct connections are made using ITOM Cloud Services or MID Servers.For details, see [Agent Client Collector architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-concept.md).
 
 </td></tr><tr><td align="center">
 

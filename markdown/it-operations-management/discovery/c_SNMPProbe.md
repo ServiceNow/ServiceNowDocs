@@ -25,7 +25,7 @@ Discovery supports SNMP versions 1, 2c, and 3. The default value is ALL. If you 
 The Network Router pattern replaces the several SNMP-related probes for the discovery of routers and switches. See [Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md) for a list of patterns.
 
 -   **[SNMP probe parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_SNMPProbeParameters.md)**  
-You can pass the following parameters to the SNMP probes.
+This list of parameters may be passed to the SNMP probes.
 -   **[Load a MIB module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/t_LoadAMIBModule.md)**  
 You can load an additional Management Information Base \(MIB\) module by creating a new ecc\_agent\_mib record and attaching the actual MIB file to the record.
 -   **[SNMP probe MIB modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_SNMPProbeMIBModules.md)**  

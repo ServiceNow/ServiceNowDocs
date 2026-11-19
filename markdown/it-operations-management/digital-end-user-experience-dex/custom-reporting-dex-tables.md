@@ -1,20 +1,20 @@
 ---
 title: Custom reporting on DEX tables
-description: DEX tables store metrics data that you can use to generate custom reports.
+description: You can use the following listed tables to generate a report for the required metrics on DEX.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/custom-reporting-dex-tables.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-10-22"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # Custom reporting on DEX tables
 
-DEX tables store metrics data that you can use to generate custom reports.
+You can use the following listed tables to generate a report for the required metrics on DEX.
 
 <table id="table_p2b_dxp_mhc"><thead><tr><th>
 
@@ -254,7 +254,7 @@ Insights - Battery health
 
 </td><td>
 
-Battery health, designed capacity, full charge capacity, percentage of designed capacity, battery condition, battery serial number, battery status, chemistry, cycle count, design voltage, installed batteries, estimated runtime, and charge percentageStores multiple records for each device.
+Battery health, designed capacity, full charge capacity, percentage of designed capacity, battery condition, battery serial number, battery status. Chemistry, cycle count, design voltage, installed batteries, estimated runtime, and charge percentage. Stores multiple records for each device.
 
 </td></tr><tr><td>
 
@@ -294,7 +294,7 @@ DEX Application and Device HealthProactive Engagement
 
 </td><td>
 
-Remedial action name, parent record from where the action was executed, action execution record or description, target record or device name on which the action is executed, execution state, and origin or source application of the remedial action
+Remedial action name, parent record from where the action was executed, action execution record or description, target record or device name on which the action is executed, execution state, and origin or source application of the remedial action.
 
 </td></tr><tr><td>
 
@@ -314,7 +314,7 @@ Proactive Engagement
 
 </td><td>
 
-Experience issue ID, issue registry numbers, state, reason for end state, fallback result, origin or source applicationExperience issues have the following sources:
+Experience issue ID, issue registry numbers, state, reason for end state, fallback result, origin or source application.Experience issues have the following sources:
 
 -   DEX Self-service for employees
 -   Employee self-service from Desktop Assistant
@@ -342,7 +342,7 @@ DEX
 
 </td><td>
 
-Software patches, security fixes, feature upgrades, or driver updates released by the OS vendor \(Microsoft/Apple\) but not installed on the device
+Pending updates are software patches, security fixes, feature upgrades, or driver updates that is released by the OS vendor \(Microsoft/Apple\) but are not installed on the device yet.
 
 </td></tr><tr><td>
 
@@ -362,7 +362,7 @@ DEX
 
 </td><td>
 
-Collection of settings, files, and configuration data that defines a user's environment
+A Windows user profile is the collection of settings, files, and configuration data that defines a user's environment.
 
 </td></tr><tr><td>
 
@@ -382,7 +382,7 @@ DEX
 
 </td><td>
 
-List of users currently authenticated on a device, through either the console or a terminal
+Logged-in user activity refers to tracking list of currently authenticated user on a device either through console or terminal.
 
 </td></tr><tr><td>
 
@@ -402,7 +402,7 @@ DEX
 
 </td><td>
 
-Details on memory usage, virtual memory, and device stability, including antivirus status, firewall status, system uptime, current clock speed, and power plan configurationStores one record for each device.
+Device metrics provide details on memory usage, virtual memory, and device stability, including antivirus status, firewall status, system uptime, current clock speed, and power plan configuration. Stores one record for each device.
 
 </td></tr><tr><td>
 
@@ -422,7 +422,7 @@ DEX
 
 </td><td>
 
-Configuration item, SMBIOS BIOS version, name, serial number, version, manufacturer, and computer status. Stores one record for each device
+Configuration item, SMBIOS BIOS version, name, serial number, version, manufacturer, and computer status. Stores one record for each device.
 
 </td></tr><tr><td>
 
@@ -442,7 +442,7 @@ DEX
 
 </td><td>
 
-Configuration item, name, status, description, manufacturer, service, and device class of peripherals connected to a device. Stores multiple records for each device
+Configuration item, name, status, description, manufacturer, service, and device class of peripherals connected to a device. Stores multiple records for each device.
 
 </td></tr><tr><td>
 
@@ -462,7 +462,7 @@ DEX
 
 </td><td>
 
-Configuration item, count of blue screen of death \(BSOD\) events, and event detailsStores one record for each device.
+Configuration item, count of blue screen of death \(BSOD\) events, and event details. Stores one record for each device.
 
 </td></tr><tr><td>
 
@@ -482,7 +482,7 @@ DEX
 
 </td><td>
 
-Configuration item and VPN profile fieldsStores one record for each device.
+Configuration item and VPN profile fields. Stores one record for each device.
 
 </td></tr><tr><td>
 
@@ -502,7 +502,7 @@ DEX
 
 </td><td>
 
-Configuration item, name, interface description, interface index, status, MAC address, link speed, and additional fieldsStores multiple records for each device.
+Configuration item, name, interface description, interface index, status, MAC address, link speed, and additional fields. Stores multiple records for each device.
 
 </td></tr><tr><td>
 
@@ -522,7 +522,7 @@ DEX
 
 </td><td>
 
-Configuration item, volume type, mount point, capacity, volume status, encryption percentage, protection status, encryption method, and key protectorStores multiple records for each device.
+Configuration item, volume type, mount point, capacity, volume status, encryption percentage, protection status, encryption method, and key protector. Stores multiple records for each device.
 
 </td></tr><tr><td>
 
@@ -542,7 +542,7 @@ DEX
 
 </td><td>
 
-Configuration item, platform, locale, status, code set, country code, system device, system directory, build number, build type, service pack major version, service pack minor versionStores one record for each device.
+Configuration item, platform, locale, status, code set, country code, system device, system directory, build number, build type, service pack major version, service pack minor version. Stores one record for each device.
 
 </td></tr><tr><td>
 
@@ -562,7 +562,7 @@ DEX
 
 </td><td>
 
-Configuration item, media loaded, size, and additional fields. Stores multiple records for each deviceThis table doesn't contain CMDB fields.
+Configuration item, media loaded, size, and additional fields. Stores multiple records for each device. This table doesn't contain CMDB fields.
 
 </td></tr><tr><td>
 
@@ -582,7 +582,8 @@ DEX
 
 </td><td>
 
-SSID, channel, physical address, state, authentication, radio type, profile, description, and driver dateStores one record for each device.
+SSID, channel, physical address, state, authentication, radio type, profile, description, and driver date. Stores one record for each device.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Digital End-User Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-reference.md)
+

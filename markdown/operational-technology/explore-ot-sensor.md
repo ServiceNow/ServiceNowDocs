@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/explore-ot-sensor.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -25,6 +25,4 @@ The Appliance page displays a list of all Sensors and Collectors that are associ
 ## Appliances records
 
 The Discovery Sensor for OT is listed on the Appliances page separately from the Collector. If you select the Sensor name from the list, you can open that Sensor record. You can perform the same actions with the Sensor as you would with the Collector. However, Collectors aren't registered to the Console. For more information, see [Appliances page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/appliances-page.md) and [Edit an Appliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/edit-an-appliance.md).
-
-**Parent Topic:**[Discovery Sensor for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-discovery-sensor-landing.md)
 

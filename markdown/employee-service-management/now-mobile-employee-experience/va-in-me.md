@@ -7,9 +7,9 @@ release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Mobile, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configure, Now Mobile app, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Enable Live Agent in the Now Mobile app
@@ -44,8 +44,6 @@ Chat is enabled from the Requests and Knowledge Articles pages by default.
 ## Result
 
 Users can select Chat in the Homepage quick actions menu to ask for help from a live or virtual agent.
-
-**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 
 **Related topics**  
 

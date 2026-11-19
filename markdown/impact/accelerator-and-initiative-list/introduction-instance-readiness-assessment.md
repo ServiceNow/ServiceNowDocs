@@ -7,9 +7,9 @@ release: zurich
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---
 
 # Introduction to Instance Readiness Assessment
@@ -20,18 +20,13 @@ The Introduction to Instance Readiness Assessment Accelerator provides guidance 
 
 Introduction to Instance Readiness Assessment provides Impact customers with an overview of Instance Readiness Assessment.  This proactive approach helps you effectively address issues by guiding you on interpreting findings to enhance instance readiness. This Accelerator highlights the results of the Instance Readiness Assessment, providing key resources and leading  practices for getting started.
 
-## Package Availability
-
-**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\) packages.
+**Note:** This Accelerator is available for the Impact Guided package.
 
 ## What you get
 
 -   **Session preparation**
-
-    The Technical Accelerator Consultant:
-
-    -   Runs the Instance Readiness Assessment
-    -   Reviews Instance Observer related metrics
+    -   Run the Instance Readiness Assessment
+    -   Review Instance Observer related metrics
 -   **Customer coaching session \#1 \(up to 60 minutes\)**
 
     Includes the following:

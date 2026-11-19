@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [OAuth outbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ Create outbound rest message to authorize instance as authorization server.
 
 ## Before you begin
 
-Role required: oauth\_admin
+Role required: admin
 
 ## Procedure
 

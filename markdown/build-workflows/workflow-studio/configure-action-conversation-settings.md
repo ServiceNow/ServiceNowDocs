@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
-breadcrumb: [Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Building actions, Use, Workflow Studio, Build workflows]
 ---
 
 # Configure action conversational settings
@@ -278,7 +278,7 @@ The list of default channels in which this action is available.To learn more abo
 </td></tr></tbody>
 </table>9.  Save the skill.
 
-    You can also test the skill by selecting **Save and test**.
+    You can also test the skill by selecting **Save and test conversation**.
 
 
 **Parent Topic:**[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/actions.md)

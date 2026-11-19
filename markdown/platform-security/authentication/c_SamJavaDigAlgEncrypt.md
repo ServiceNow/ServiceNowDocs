@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Digest token authentication, Token based authentication \(user logins\), Authentication, Access Management]
+breadcrumb: [Digest token authentication, Token based authentication \(User logins\), Authentication, Access Management]
 ---
 
 # Sample Java digest algorithm for encryption

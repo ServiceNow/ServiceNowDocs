@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/manage-io-alerts.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
+breadcrumb: [Alerts in Instance Observer, Overview of Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Manage Instance Observer alerts
@@ -53,6 +53,4 @@ Role required: admin
 
 9.  For further investigation, select **Create a Case** and submit the captured summary information.
 
-
-**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/io-alerts-intro.md)
 

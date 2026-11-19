@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Interactive activities, Playbooks reference, Reference, Workflow Studio, Build workflows]
 ---
 
 # Two Step Instruction activity
@@ -82,11 +82,8 @@ Choice
 
 </td><td>
 
-Under **Schedule** &gt; **Start Rule**, select a start rule for when your stage should start running:-   **When process starts**: Your stage starts running as soon as the playbook starts.
--   **After specific stages**: Your stage starts running after specified stage\(s\) have finished running.
-
-Under Schedule &gt; Start Rule, select a start rule for when your activity should start running:-   **When stage starts**: Your activity starts running as soon as its stage starts running. Your stage starts running when your playbook is triggered.
--   **After specific activities**: Your activity starts running after specified activities have finished running.
+Under **Schedule** &gt; **Start Rule**, select a start rule for when the activity should start running:-   **When stage starts**: The activity starts running as soon as its stage starts running.
+-   **After specific activities**: The activity starts running after specified activities have finished running. You can select one more activities from the available activities. By default, the previous activity is selected.
 
 </td></tr><tr><td>
 
@@ -180,9 +177,11 @@ User responsible for completing the task associated with the activity.**Note:** 
 </td></tr></tbody>
 </table>## Outputs
 
-These outputs can provide data to other activities in your playbook. You can access this data as activity inputs when you configure your activity:
+These outputs can provide data to other activities in your playbook. The outputs are available in the **Automation** tab and you can access this data as activity inputs when you configure your activity:
 
 |Output|Type|Description|
 |------|----|-----------|
 |Record|Reference.Task\[task\]|Reference to the record associated with the activity.|
+
+**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/interactive-activities.md)
 

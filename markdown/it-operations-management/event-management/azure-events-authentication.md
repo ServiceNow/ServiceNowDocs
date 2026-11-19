@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is inst
 
 On the Azure portal, alert correlation rules are defined through the **Correlate alerts** setting within Alert Processing Rules. When **Correlate alerts** is assigned on the Azure portal, the Azure Monitor alerts received on the ServiceNow® instance within 60 minutes are grouped using tag based alert clustering.
 
-Roles required: evt\_mgmt\_integration, evt\_mgmt\_admin, web\_service\_admin, and oauth\_admin
+Roles required: evt\_mgmt\_admin, web\_service\_admin, and oauth\_admin
 
 ## About this task
 
@@ -40,15 +40,15 @@ Configure the Event Management environment for the collection of events from Azu
 
         **Note:** If you have multiple tenants on the Azure portal and you want to use bidirectional functionality to acknowledge, close, or reopen an alert on the Azure Portal, then the URL for the secure webhook has to be in the following format: `https://<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=azuremonitor&event_class=<new_connector_instance_name>`. The &lt;new\_connector\_instance\_name&gt; is the new Azure pull connector instance that you need to create for each tenant with other Azure service principal credentials. To know how to create the pull connector, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
 
-        For servicenowservices.com instances, the rest endpoint has to be `https://<instance-name>.servicenowservices.com/api/sn_em_connector/em/inbound_event?source=azuremonitor&x-sn-apikey=<api-key>`.
+        For servicenowservices.com instances, the rest endpoint has to be `https://<instance-name>.servicenowservices.com/api/sn_em_connector/em/inbound_event?source=azuremonitor`.
 
         For more information about adding a secure webhook to an action group, see [https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups).
 
-    3.  Navigate to **Monitor**, select **Alerts**and then select the **Alert rules** tab.
+    3.  Navigate to **Monitor**, select **Alerts** and then select the **Action groups** tab.
 
     4.  In the Secure Webhook section, make sure that **Yes** is selected for the **Enable the common alert schema** option.
 
-    5.  Add the action group with the secure webhook to an alert rule.
+    5.  Add this action group with the secure webhook to an alert rule.
 
 2.  In the Azure Monitor portal, verify which Azure token is in use by your registered application.
 
@@ -94,15 +94,15 @@ Configure the Event Management environment for the collection of events from Azu
 
 8.  Enter the `OIDC Metadata URL` according to the Azure token used by the registered application, as shown in the following table.
 
-<table id="choicetable_rbx_wgs_ymb"><thead><tr><th align="left" id="d519151e492">
+<table id="choicetable_rbx_wgs_ymb"><thead><tr><th align="left" id="d509153e496">
 
 Azure token
 
-</th><th align="left" id="d519151e495">
+</th><th align="left" id="d509153e499">
 
 OIDC Metadata URL
 
-</th></tr></thead><tbody><tr><td id="d519151e501">
+</th></tr></thead><tbody><tr><td id="d509153e505">
 
 **V2**
 
@@ -114,7 +114,7 @@ In the OIDC Provider Configuration form, add the following URL to the **OIDC Met
 
  **Note:** If attempting to integrate Azure Gov Cloud with the ServiceNow Azure Monitor Connector, remember to change the claim value to `f1f34126-d4ef-40e1-ad4b-bf5d47b4860d`.
 
-</td></tr><tr><td id="d519151e528">
+</td></tr><tr><td id="d509153e532">
 
 **V1**
 

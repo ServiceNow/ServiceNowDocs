@@ -1,0 +1,56 @@
+---
+title: View permissions for a group
+description: Use Access Analyzer to view permissions for a selected group.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/access-control/view-permissions-for-a-group.html
+release: zurich
+product: Access Control
+classification: access-control
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Use Evaluate access, Use Access Analyzer, Access analyzer, Access Management]
+---
+
+# View permissions for a group
+
+Use Access Analyzer to view permissions for a selected group.
+
+## Before you begin
+
+Role required: admin, access\_analyzer\_admin
+
+The following procedure describes the sample steps to view permissions for a selected group \(**Incident Management**\) to view the permissions of an **Incident UI** page using the Evaluate access in Access Analyzer.
+
+**Note:** Access Analyzer is a ServiceNow® Store app.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Access Analyzer** &gt; **Analyze Permissions**.
+
+    The Analyze access and permissions home page is displayed.
+
+2.  Select your criteria as follows.
+
+    |Field|Description|
+    |-----|-----------|
+    |Analyze by|**Group**.|
+    |Select user|User name from the list. For example, **Incident Management**.|
+    |Rule type|Access analysis for a table, a UI page, a REST Endpoint, or a client callable script include. For example, **UI page**.|
+    |UI Page|UI page to analyze. For example, **incident.do**.|
+
+3.  Specify the description in the **Description** field.
+
+4.  Select **Analyze permissions**.
+
+    \[Omitted image "view-permissions-for-a-group.png"\] Alt text: View permission of the group for a UI page
+
+    The **Access results** for the **Incident Management** group are displayed.
+
+    \[Omitted image "permissions-for-a-group.png"\] Alt text: Permission results
+
+    The results can be read by referring to the Legends, access control list \(ACL\), IAccessHandler, and Data filters.
+
+    The overall access for the group is passed, which means that the users within the group \(**Incident Management**\) can access the incident record.
+
+

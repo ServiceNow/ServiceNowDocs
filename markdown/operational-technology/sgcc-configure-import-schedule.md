@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/sgcc-configure-import-schedule.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-20"
 reading_time_minutes: 1
 breadcrumb: [SGC Central, Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -33,7 +33,7 @@ Role required: admin
     -   **Asset Images**: This imports the list of screenshots captured during the discovery process in the cmn\_media table.
 2.  When done, select **Mark as complete**.
 
-    \[Omitted image "sgcc-import-schedules-2.png"\] Alt text: IConfigure import schedules
+    \[Omitted image "image.sgcc-import-schedules-2"\] Alt text: IConfigure import schedules
 
 3.  Navigate to **Confirm connection setup**.
 
@@ -41,8 +41,6 @@ Role required: admin
 
 5.  From this step you can select **View all connections**.
 
-    \[Omitted image "sgcc-confirm-connection-setup-2.png"\] Alt text: Confirm connection setup
+    \[Omitted image "image.sgcc-confirm-connection-setup-2"\] Alt text: Confirm connection setup
 
-
-**Parent Topic:**[SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-central-for-ot-discovery.md)
 

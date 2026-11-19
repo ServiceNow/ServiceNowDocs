@@ -163,3 +163,5 @@ Tables populated by validation findings:
 
 Tables populated by Red Team scan guardrails: Prisma AIRS Red Team Scan Guardrails \[sn\_vul\_prisma\_airs\_red\_team\_scan\_guardrails\].
 
+**Parent Topic:**[Palo Alto Prisma AIRS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/prisma-airs-integration.md)
+

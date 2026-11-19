@@ -7,9 +7,9 @@ release: zurich
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-14"
 reading_time_minutes: 5
-breadcrumb: [Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Dynamic Translation, Translation and localization, Configure core features, Administer]
 ---
 
 # Exploring Dynamic Translation

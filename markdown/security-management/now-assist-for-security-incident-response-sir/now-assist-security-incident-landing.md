@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Security Operations]
 ---
@@ -22,25 +22,17 @@ ServiceNow Otto introduced AI on the platform. As that experience has evolved, t
 
 ## Get started
 
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
--   Foundation: AI basics to deliver insights
--   Advanced: AI to boost productivity across relevant use cases
--   Prime: Act autonomously with all AI assets, and create your own
-
-For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
-
 <table id="table_jlh_dgk_1cc" class="nav-card presentation"><tbody><tr><td>
 
 [Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/exploring-now-assist-security-incident.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure and activate the skills for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/configuring-now-assist-for-security-operations.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to configure and activate the skills for ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/configuring-now-assist-for-security-operations.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Learn how to manage security incidents using ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/using-now-assist-for-security.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Learn how to manage security incidents using ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/now-assist-for-security-incident-response-sir/using-now-assist-for-security.md)
 
 </td></tr></tbody>
 </table>**Important:**

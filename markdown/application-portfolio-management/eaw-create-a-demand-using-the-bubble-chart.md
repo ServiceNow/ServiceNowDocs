@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-create-a-demand-using-the-bubble-chart.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Use bubble chart view, Working with application rationalization, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Create a demand using the bubble chart
@@ -32,15 +32,15 @@ Use a demand as a step to identify cost-saving opportunities on the business app
 
 4.  Select the bubble for the relevant application that you want to create a demand for perform the following.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d36400e92">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d39233e92">
 
 Bubble type
 
-</th><th align="left" id="d36400e95">
+</th><th align="left" id="d39233e95">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d36400e101">
+</th></tr></thead><tbody><tr><td id="d39233e101">
 
 **Single bubble**
 
@@ -51,7 +51,7 @@ Action
 
 \[Omitted image "bubble-chart-menu-create-demand.png"\] Alt text: Create demand button highlighted.
 
-</td></tr><tr><td id="d36400e139">
+</td></tr><tr><td id="d39233e139">
 
 **Grouped bubble**
 

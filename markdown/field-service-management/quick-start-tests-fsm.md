@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/quick-start-tests-fsm.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
-breadcrumb: [Activate, Configure, Field Service Management]
+breadcrumb: [Activate Field Service Management, Configure, Field Service Management]
 ---
 
 # Quick start tests for Field Service Management
@@ -424,7 +424,7 @@ Create a time worked entry as a dispatcher or qualifier
 
 </td><td>
 
-Brazil
+Zurich
 
 </td></tr><tr><td>
 
@@ -439,7 +439,7 @@ Flag a work order task from CSM/FSM Configurable workspace
 
 </td><td>
 
-Brazil
+Zurich
 
 </td></tr></tbody>
 </table>**Related topics**  

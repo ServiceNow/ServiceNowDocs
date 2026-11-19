@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/viewing-account-level-entitlements.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Explore, Subscription Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Explore, Subscription Management, Get started, Administer]
 ---
 
 # Viewing account-level entitlements in Subscription Management
@@ -17,7 +17,7 @@ View an account-level summary of entitlements and consumption in Subscription Ma
 ## Key benefits
 
 -   View and track Now Assist usage across all your instances.
--   View and track Now Assist Creator consumption across all your instances.
+-   View and track Now Assist Creator allocations across all your instances.
 -   View and track cloud capacity entitlements across all your instances.
 
 ## Accessing your account-level entitlements

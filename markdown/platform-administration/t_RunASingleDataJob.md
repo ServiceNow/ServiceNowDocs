@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/t\_RunASingleDataJob.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Normalization and transformation data jobs, Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Normalization and transformation data jobs, Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer]
 ---
 
 # Run a single data job

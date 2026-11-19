@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/portals-psds-exploring.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Explore, Public Sector Digital Services \(PSDS\)]
 ---
@@ -92,5 +92,5 @@ As constituents answer questions and select options presented by Virtual Agent, 
 
 If constituents want to chat with an agent, Virtual Agent hands them off to a live agent. To provide this resource, use the Connect Support feature.
 
-To learn more about chat, see .
+To learn more about chat, see [Configuring the chat channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_ChatFeature.md).
 

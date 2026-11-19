@@ -7,9 +7,9 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 9
-breadcrumb: [NIST RMF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [\(Deprecated\) NIST RMF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # NIST RMF Use Case Accelerator dashboards and reports
@@ -163,5 +163,5 @@ Baseline Security Controls are recommended set of security controls from Nationa
 |Test Plan effectiveness|Provides an overview of the test plan effectiveness of security controls based on the effectiveness of the associated control tests.|
 |Risks|List of Risks grouped by profiles and associated with security controls.|
 
-**Parent Topic:**[NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)
+**Parent Topic:**[\(Deprecated\) NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create a role, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Create a role, Managing roles, User admin, Configure core features, Administer]
 ---
 
 # Assign a role to a user
@@ -42,7 +42,7 @@ You can't delete roles that are assigned to the group from the user record. You 
 
     **Note:**
 
-    The System administrator \(admin\) role provides access to all system features, functions, and data, regardless of security constraints. Avoid assigning this role to users when more targeted roles are available.
+    The System administrator\(admin\) role provides access to all system features, functions, and data, regardless of security constraints. Avoid assigning this role to your users when more targeted roles are available.
 
 4.  Select **Save**.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/bia-use-cases.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
 breadcrumb: [Business impact analysis, Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -38,7 +38,7 @@ You can broadly classify the impact analysis in the categories:
     -   Mitigate for the risks that you may face due to an unexpected event.
 -   **Technical impact analysis**
 
-    If you are an application user or IT manager who manages a datacenter or IT systems, you can determine the impact of downtime on your data and applications. Performing a technical impact analysis helps you analyze the impact of technical changes in the deployed product or application. It provides information about the areas of the information system that may be affected by a change in a particular section or application features.
+    Application users and IT managers who manage a datacenter or IT systems can use technical impact analysis to determine the impact of a downtime on data and applications. Technical impact analysis helps analyze the impact of technical changes in a deployed product or application. It identifies areas of the information system affected by a change in a particular section or feature.
 
 
 ## Goal and method for creating the business impact analysis
@@ -107,7 +107,7 @@ If you are the BCM administrator, you can set up the questions that are relevant
 
 If you are the BCM lead or BCM program manager, you can respond to the assessment questionnaire on the **Assessments** tab of the business impact analysis record. If you mainly use the business services and processes, your answers serve as key data points for the recovery time objective assessment and dependency assessment. Based on your responses, the criticality of the business process or service and recommended timelines are determined.
 
-If you are the BCM lead or BCM program manager who handles the IT systems, data, and applications, your answers serve as key data points. These data points are used for the recovery point objective assessment. Based on the responses received to the questionnaire, the application calculates the criticality of the business process or service and the recommended timelines.
+If you are the BCM lead or BCM program manager who handles IT systems, data, and applications, your answers serve as key data points. These data points inform the recovery point objective assessment. The application calculates the criticality and recommended timelines for the business process or service.
 
 ## Outcome of the impact analysis in BCM
 
@@ -127,7 +127,7 @@ The BCM application displays the key results in the business impact analysis rec
 
 -   **Adjusted RTO**
 
-    The business impact analysis owner can adjust the recovery time objective value for practical reasons. The adjusted value is displayed in the **Adjusted RTO** field in the **Results** section. If you adjusted the RTO value with a reason during the assessment, the reason is displayed in the **Reason for adjusted RTO** field.
+    The business impact analysis owner can adjust the recovery time objective value for practical reasons. The adjusted value is displayed in the **Adjusted RTO** field in the **Results** section. If you adjusted the RTO value during the assessment, enter a reason. The reason is displayed in the **Reason for adjusted RTO** field.
 
 -   **Dependencies**
 

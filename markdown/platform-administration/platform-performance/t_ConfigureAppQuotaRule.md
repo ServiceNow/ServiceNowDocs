@@ -7,9 +7,9 @@ release: zurich
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Application quotas, Configure, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Application quotas, Configure, Platform performance, Maintain and monitor, Administer]
 ---
 
 # Configure an application quota rule
@@ -18,7 +18,7 @@ Configure an application quota rule to limit the number of events or jobs that c
 
 ## Before you begin
 
-Role required: app\_resource\_quota\_admin or admin
+Role required: admin
 
 ## About this task
 

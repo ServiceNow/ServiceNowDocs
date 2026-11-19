@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring shipping, Configure, Enterprise Asset Management, Asset Management]
+breadcrumb: [Managing enterprise asset shipments, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Script include for third-party shipping carrier integrations

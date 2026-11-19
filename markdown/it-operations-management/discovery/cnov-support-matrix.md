@@ -33,12 +33,5 @@ FIPS-140 \(Federal Information Processing Standard 140\) is a US government stan
 
 When the **createServerCi** parameter is set to `true`, the Kubernetes Visibility Agent Informer creates a Windows Server \[cmdb\_ci\_win\_server\] CI for each Windows Kubernetes node. To configure server CIs for all node types, see [Configure server CI creation for Kubernetes nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-config-linux-server-ci.md).
 
--   **[Kubernetes Visibility Agent \(KVA\) Performance Benchmark](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/kva-p-benchmark.md)**  
-Performance tests help you estimate the load, memory, and CPU on the Instance and Kubernetes cluster.
--   **[Discovering Kubevirt Virtual Machines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discover-KVM.md)**  
-KubeVirt provides a unified development platform where developers can build, modify, and deploy applications in both Application Containers and Virtual Machines.
--   **[Running Kubernetes Visibility Agent \(KVA\) at Scale](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/running-kva-at-scale.md)**  
-When you run Kubernetes Visibility Agent \(KVA\) \(formerly CNO for Visibility\) on more than 100 clusters, configure your system properties to help prevent loss of data from the informers.
-
 **Parent Topic:**[Kubernetes Visibility Agent Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-reference.md)
 

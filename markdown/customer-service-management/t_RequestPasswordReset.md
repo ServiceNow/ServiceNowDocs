@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/t\_RequestPasswordReset.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Self-register, Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -22,11 +22,11 @@ Role required: none
 
 1.  Navigate to the customer portal login page.
 
-2.  Select the **reset your password here** link.
+2.  Click the **reset your password here** link.
 
 3.  Enter your **User name** and **Email address**.
 
-4.  Select **Reset Password**.
+4.  Click **Reset Password**.
 
 5.  Create a new password before continuing.
 
@@ -34,13 +34,6 @@ Role required: none
 
 7.  Enter the new password again in the **Validate Password** field.
 
-8.  Select **Submit**.
+8.  Click **Submit**.
 
-
-**Related topics**  
-
-
-[Change your password directly from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_ChangePasswordFromUserForm.md)
-
-[Log in to the Customer Service Portal for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/t_LogInToPortalFirstTime.md)
 

@@ -1,31 +1,31 @@
 ---
-title: Explore ServiceNow Otto in Document Management
-description: ServiceNow Otto in Document Management uses generative AI to extract key insights from documents through seamless conversational interactions, reducing manual effort while improving accuracy and consistency.
+title: Explore Now Assist in Document Management
+description: Now Assist in Document Management uses generative AI to extract key insights from documents through seamless conversational interactions, reducing manual effort while improving accuracy and consistency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/explore-now-assist-in-document-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-08-13"
 reading_time_minutes: 1
 keywords: [explore]
-breadcrumb: [ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Now Assist in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Explore ServiceNow Otto in Document Management
+# Explore Now Assist in Document Management
 
-ServiceNow Otto in Document Management uses generative AI to extract key insights from documents through seamless conversational interactions, reducing manual effort while improving accuracy and consistency.
+Now Assist in Document Management uses generative AI to extract key insights from documents through seamless conversational interactions, reducing manual effort while improving accuracy and consistency.
 
-## ServiceNow Otto in Document Management overview
+## Now Assist in Document Management overview
 
-After you activate and configure, ServiceNow Otto in Document Management uses generative AI to generate key insights from the document through conversational interactions.
+Once activated and configured, Now Assist in Document Management uses generative AI capabilities available to generate key insights of the document through conversational interactions.
 
-## ServiceNow Otto in Document Management users
+## Now Assist in Document Management users
 
 |User|Description|
 |----|-----------|
-|Admin|The sn\_nowassist\_admin.nsa\_admin can configure the skills for ServiceNow Otto in Document Management|
+|Admin|The sn\_nowassist\_admin.nsa\_admin can configure the skills for Now Assist in Document Management|
 
-## ServiceNow Otto in Document Management benefits
+## Now Assist in Document Management benefits
 
 <table id="table_amf_g24_3hc"><thead><tr><th>
 
@@ -35,43 +35,39 @@ Benefit
 
 Feature
 
+</th><th>
+
+Users
+
 </th></tr></thead><tbody><tr><td>
 
 Generate instant summaries and key document insights
 
 </td><td>
 
-[Generate a document summary by using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/generate-document-summary-now-assist.md)
-
-</td></tr><tr><td>
-
-Extract key document insights through conversational interactions using generative AI
+[Generate a document summary by using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/generate-document-summary-now-assist.md)
 
 </td><td>
 
-[Generate summary and ask questions using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ask-questions-faqs-now-assist.md)
+Admin
 
 </td></tr><tr><td>
 
-Redact sensitive information from documents
+Extract key document insights through conversational interactions, powered using generative AI capabilities
 
 </td><td>
 
-[Redact sensitive data from documents using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/redact-sensitive-data-using-AI.md)
-
-</td></tr><tr><td>
-
-Generate audio summaries and interact using voice based queries to extract information from documents
+[Generate summary and ask questions using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/ask-questions-faqs-now-assist.md)
 
 </td><td>
 
-[Generate audio summaries and query documents using voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/generate-audio-summary-voice-questions-now-assist.md)
+Admin
 
 </td></tr></tbody>
 </table>## What to explore next
 
-To learn more about configuring and using ServiceNow Otto in Document Management, see:
+To learn more about configuring and using Now Assist in Document Management, see:
 
--   [Configure ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configure-now-assist-document-management.md)
--   [Use ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/use-now-assist-document-management.md)
+-   [Configure Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configure-now-assist-document-management.md)
+-   [Use Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/use-now-assist-document-management.md)
 

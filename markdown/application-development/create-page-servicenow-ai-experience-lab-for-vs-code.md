@@ -1,6 +1,6 @@
 ---
 title: Create a page
-description: Create a page using the ServiceNow Lux Lab for VS Code extension to create tailored experiences.
+description: Create a page using the ServiceNow AI Experience Lab for VS Code extension to create tailored experiences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/create-page-servicenow-ai-experience-lab-for-vs-code.html
 release: zurich
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow AI Experience Lab for VS Code, Create page, ServiceNow AI Experience Framework]
-breadcrumb: [Create a new experience, Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Create a new experience, Use, ServiceNow AI Experience Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Create a page
 
-Create a page using the ServiceNow Lux Lab for VS Code extension to create tailored experiences.
+Create a page using the ServiceNow® AI Experience Lab for VS Code extension to create tailored experiences.
 
 ## About this task
 
@@ -25,7 +25,7 @@ The following procedure describes how to complete this task manually. You can al
 
 Role required: none
 
-The ServiceNow Lux Lab for VS Code extension requires the following:
+The ServiceNow® AI Experience Lab for VS Code extension requires the following:
 
 <table id="table_imf_rfb_dkc"><thead><tr><th>
 
@@ -103,7 +103,7 @@ ServiceNow instance
 </td></tr></tbody>
 </table>## Procedure
 
-1.  In the ServiceNow Lux Lab for VS Code extension, create an experience or open an existing experience.
+1.  In the ServiceNow® AI Experience Lab for VS Code extension, create an experience or open an existing experience.
 
     For information about creating an experience, see [Create a new experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/create-a-new-experience-servicenow-ai-experience-lab-for-vs-code.md).
 
@@ -127,7 +127,7 @@ ServiceNow instance
 
 4.  Enter a URL route for the new page and select the Enter key.
 
-    After entering the URL route, the ServiceNow Lux Lab for VS Code extension creates the folder and page file using the information you provided.
+    After entering the URL route, the ServiceNow® AI Experience Lab for VS Code extension creates the folder and page file using the information you provided.
 
     \[Omitted image "servicenow-lux-lab-vs-code-page-folder.png"\] Alt text: The pages folder showing a new page subfolder containing page.js.
 

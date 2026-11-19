@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 3
+breadcrumb: [Exploring ACC Framework, Agent Client Collector, IT Operations Management]
 ---
 
 # Domain separation and Agent Client Collector
@@ -28,6 +28,13 @@ Domain separation in ACC allows the isolation of data collected by the Agent Cli
 -   Multi-department collaboration with data isolation: IT and Finance departments can independently monitor their respective systems without data overlap. For example, if there’s an issue with a server in the payment processing system, Finance can run specific checks in their domain without interference from IT.
 -   Regulatory compliance: Domain separation helps comply with regulations like GDPR or SOX by ensuring that only authorized personnel can access sensitive data. For instance, the Compliance department can monitor regulatory checks while being restricted from accessing IT infrastructure data.
 -   Incident management and troubleshooting: IT can troubleshoot network issues, while Finance monitors transaction systems. Domain separation allows both departments to work independently, ensuring faster resolution and preventing data exposure.
+
+-   **[Use case: Data isolation and monitoring with domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-domain-separation-use-case.md)**  
+Optimizing data isolation and monitoring with domain separation ensures financial institutions protect sensitive information, improve operational efficiency, and maintain compliance by securely segregating departmental data.
+-   **[Use case: Regulatory compliance in financial services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-domain-sep-use-case-solution.md)**  
+A financial institution needs to ensure that its data is accessible only to the departments that have authorization for the indicated data.
+
+**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 
 **Related topics**  
 

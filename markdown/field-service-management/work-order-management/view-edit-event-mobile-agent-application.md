@@ -7,9 +7,9 @@ release: zurich
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Personal events, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
+breadcrumb: [Personal events, ServiceNow Agent mobile app, Use, Field Service Management]
 ---
 
 # Edit a personal event in the ServiceNow Agent mobile app
@@ -19,10 +19,6 @@ Edit personal events that you created in ServiceNow Agent if something related t
 ## Before you begin
 
 Role required: wm\_agent
-
-## About this task
-
-If you're editing a break, the break must fall within the break window. The break window shows on the Edit Event screen.
 
 ## Procedure
 
@@ -35,13 +31,6 @@ If you're editing a break, the break must fall within the break window. The brea
 4.  Tap **Edit Event**.
 
 5.  Edit the event information.
-
-    **Note:** If this is a recurring event, select the occurrence the change applies to.
-
-    |Option|Description|
-    |------|-----------|
-    |Edit this event|Applies your changes to only this occurrence.|
-    |Edit this and future events|Applies your changes to this occurrence and all future occurrences.|
 
 6.  Tap **Submit**.
 

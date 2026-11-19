@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ai-workforce-reference.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-13"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [ai specialist reference, ai specialist roles, ai specialist metrics, AI specialist role, AI specialist performance, AI specialist metrics, ai specialist auto-resolve rate, ai specialist coverage rate, ai specialist KB article usage]
-breadcrumb: [Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+keywords: [reference, AI specialist role, AI specialist performance, AI specialist metrics, ai specialist auto-resolve rate, ai specialist coverage rate, ai specialist KB article usage]
+breadcrumb: [Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
 
 # Reference for Autonomous Workforce
@@ -49,14 +49,6 @@ You can filter all performance metrics by date and assignment group.
 |Reassignment reasons|Reasons for reassignment over time|Trend of reassignments to a human agent, broken down by cause.|
 |Follow-ups|Follow up rate \(%\)|Percentage of attempted incidents where the AI specialist needed to ask the requester for more information.|
 |Follow-ups|Count of incidents that required a follow up|Number of incidents that required at least one additional message from the AI specialist.|
-
-### Quality metrics
-
-|Metric|Description|
-|------|-----------|
-|Assessments for closed incidents|Quality assessments generated for completed AI specialist tasks.|
-|Quality score trend|Trend of quality scores based on assessments.|
-|All opportunities|Coaching opportunities identified for the AI specialist.|
 
 ### Detailed view metrics
 

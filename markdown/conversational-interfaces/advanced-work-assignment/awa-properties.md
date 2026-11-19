@@ -7,7 +7,7 @@ release: zurich
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Reference, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -79,4 +79,6 @@ If enabled, the inbox chat window of closed chat interactions appears by default
 
 </td></tr></tbody>
 </table>For information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+
+**Parent Topic:**[Advanced Work Assignment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/advanced-work-assignment/reference-awa.md)
 

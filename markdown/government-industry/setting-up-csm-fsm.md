@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/setting-up-csm-fsm.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
@@ -26,6 +26,8 @@ These workspaces can be modified as required through the UI Builder. Certain fea
 -   List Menu
 -   Public Sector landing page
 -   Customer Central
+
+Certain features, such as auto-reflow, which restructures Configurable Workspace pages vertically when you zoom in, are available on the page-level automatically. However, administrators can disable auto-reflow for selected experiences, pages, or for the entire Configurable Workspace. For information on how to disable this feature, see .
 
 **Note:** You can use guided setup to configure these configurable workspace features. For details, see [Configure Public Sector Digital Services Core using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/configure-psds-foundation-data.md).
 

@@ -7,7 +7,7 @@ release: zurich
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Investigate an inquiry case, Managing payment inquiries, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -32,15 +32,15 @@ An inquiry task is automatically generated for a Beneficiary Claim Non-Receipt -
 
 3.  Open the inquiry task from a payment inquiry case or from the **Inquiry Tasks** list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d76348e99">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d70543e99">
 
 Option
 
-</th><th align="left" id="d76348e102">
+</th><th align="left" id="d70543e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d76348e108">
+</th></tr></thead><tbody><tr><td id="d70543e108">
 
 **From a payment inquiry case**
 
@@ -51,7 +51,7 @@ Steps
 3.  In the case, click the **Inquiry Tasks** tab and click the inquiry task.
 
 
-</td></tr><tr><td id="d76348e141">
+</td></tr><tr><td id="d70543e141">
 
 **From the __Inquiry Tasks__ list**
 

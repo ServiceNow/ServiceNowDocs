@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 13
-breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Flows, Explore, Workflow Studio, Build workflows]
 ---
 
 # Architecture Overview
@@ -113,7 +113,7 @@ Workflow Studio uses the flow or action status to describe the current state of 
 
 -   **Action status**
 
-    The Workflow Studio interface doesn't display the configuration status of actions. To view action status, navigate to the Action Types table \[sys\_hub\_action\_type\_definition\] and display the **Draft state** field.
+    The Workflow Studio interface does not display the configuration status of actions. To view action status, navigate to the Action Types table \[sys\_hub\_action\_type\_definition\] and display the **Draft state** field.
 
     |Action Draft status|Description|
     |-------------------|-----------|
@@ -142,7 +142,7 @@ Use standard ServiceNow AI Platform application development capabilities to crea
 
 Workflow Studio supports collision avoidance. Collision avoidance prevents a user from modifying an object that is being modified in a different update set. For example, User A is editing a flow in a particular update set. User B, who is working in a different update set, attempts to open the same flow. In this situation, the system detects a collision and alerts User B. User B can then choose to either **Cancel** or **Continue**. Selecting **Cancel** takes User B back to the Workflow Studio homepage. Selecting **Continue** opens the flow in read-only mode.
 
-For collision avoidance to work, both users must be in the same application scope, and it must be an application scope other than global. Additionally, the application being modified must be linked to source control.
+For collision avoidance to work, both users must be in the same application scope, and it must be an application scope other than global. Additionally, the application being modified must be linked to source control. For more information, see Collision avoidance.
 
 ## Security
 
@@ -194,4 +194,6 @@ During the design phase, you can test unpublished actions by setting **Show draf
     **Warning:** Disabling **Show draft actions** before publishing your actions removes all draft actions from your flow.
 
 -   Any change you make to an active flow or published action causes it to return to a draft state. If the flow is triggered, the system only runs the activated flow and published actions, and the flow execution details only display what was run. When there is a draft of an active flow, the trigger and actions listed in the flow execution details may be different than those listed in the draft flow.
+
+**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/exploring-flows.md)
 

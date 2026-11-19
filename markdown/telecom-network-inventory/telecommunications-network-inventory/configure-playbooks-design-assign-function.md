@@ -1,5 +1,5 @@
 ---
-title: Configuring Design and Assign function for your network services
+title: Design and Assign function for your network services
 description: Create and configure a Design and Assign function in the Telecommunications Network Inventory application. You can use it to design your network service and assign the network resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.html
@@ -7,12 +7,12 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Configure, Telecommunications Network Inventory]
 ---
 
-# Configuring Design and Assign function for your network services
+# Design and Assign function for your network services
 
 Create and configure a Design and Assign function in the Telecommunications Network Inventory application. You can use it to design your network service and assign the network resources.
 
@@ -67,5 +67,5 @@ This example demonstrates how you can create and configure a playbook to design 
 
 [Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/subflow.md)
 
-[Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/building-a-process.md)
+[bundle-crworkflow.building-a-process]
 

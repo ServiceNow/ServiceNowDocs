@@ -1,19 +1,19 @@
 ---
-title: Edit the profile of an AI specialist in the legacy AI Agent Studio
-description: Modify the profile of an AI specialist in the legacy AI Agent Studio to set its name, description, roles, and assignment groups.
+title: Edit the profile of an AI specialist in AI Agent Studio
+description: Modify the profile of an AI specialist in AI Agent Studio to set its name, description, roles, and assignment groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/modify-aiw-profile.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-13"
+last_updated: "2026-08-11"
 reading_time_minutes: 2
 keywords: [ai specialist profile, ai specialist name, ai specialist icon, ai specialist brand, ai specialist description, ai specialist userid, ai specialist user id, ai specialist title, ai specialist department]
-breadcrumb: [Configure in the legacy AI Agent Studio, Configure, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Configure, Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
 
-# Edit the profile of an AI specialist inthe legacy AI Agent Studio
+# Edit the profile of an AI specialist in AI Agent Studio
 
-Modify the profile of an AI specialist inthe legacy AI Agent Studio to set its name, description, roles, and assignment groups.
+Modify the profile of an AI specialist in AI Agent Studio to set its name, description, roles, and assignment groups.
 
 ## Before you begin
 

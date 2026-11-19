@@ -7,9 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-10-29"
 reading_time_minutes: 2
-breadcrumb: [Zoom call quality monitoring, Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Monitor, Digital End-User Experience, IT Operations Management]
 ---
 
 # Monitor Zoom call quality using DEX
@@ -18,10 +18,10 @@ View detailed metrics for the Zoom calls made by users assigned to this device o
 
 ## Before you begin
 
-Role required: sn\_dex.user
+Role required: admin
 
--   DEX must be set up for Zoom. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md).
--   Advanced monitoring must be configured to monitor Zoom call quality with DEX. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/enable-app-monitor.md).
+-   Set up DEX for Zoom. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md).
+-   Configure advanced monitoring to monitor Zoom calls quality with DEX. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/enable-app-monitor.md).
 
 ## About this task
 
@@ -35,7 +35,7 @@ The detailed Zoom call metrics include call quality, network performance, and ca
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Devices icon \[Omitted image "icon-devices.png"\] Alt text:.
+2.  In the primary navigation pane, select the Devices icon \(\[Omitted image "icon-devices.png"\] Alt text: Devices icon\).
 
 3.  Select a device.
 
@@ -51,11 +51,11 @@ The detailed Zoom call metrics include call quality, network performance, and ca
 
     **Note:** The date range is limited to a maximum of 48 hours within the past 30 days.
 
-    The Zoom calls appear in cards categorized as: **All calls**, **Bad calls**, **Poor calls**, **Fair calls**, and **Good calls**. By selecting one of these cards, you can see the filtered data in Summary and Call quality metrics. You can also use the **Additional filters** to narrow the results.
+    The zoom calls appear in cards categorized as: **All calls**, **Bad calls**, **Poor calls**, **Fair calls**, and **Good calls**. By selecting one of these cards, you can see the filtered data in Summary and Call quality metrics. You can also use Additional filters listed below the cards.
 
     **Tip:** Apply **Additional filters** \(Device type, Version, Network type, Location\) to narrow results and quickly find call details.
 
-7.  To view AI-powered Zoom call quality issues investigations and recommendations, see [Investigate Zoom call issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/investigate-and-resolve-zoom-call-issues.md)
+7.  To view AI-powered Zoom call quality issues investigations and recommendations, see [Investigate Zoom call issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/investigate-and-resolve-zoom-call-issues.md)
 
 8.  Select the **Summary** tab.
 
@@ -71,7 +71,7 @@ The detailed Zoom call metrics include call quality, network performance, and ca
         **Note:**
 
         -   For the Summary metrics description, see [Metrics monitored by DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/metrics-monitored-by-dex-for-zoom.md).
-        -   Selecting anywhere on the **Call quality** or **Call issues** pie chart opens the **Details** page and displays the calls associated with the selected metric. For descriptions of the fields on the Details page, see [Zoom call quality metrics on the Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/call-quality-metrics-monitored-by-dex-for-zoom.md).
+        -   Clicking anywhere on the **Call quality** or **Call issues** pie chart opens the **Details** page and displays the calls associated with the selected metric. For descriptions of the fields on the Details page, see [Zoom call quality metrics on the Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/call-quality-metrics-monitored-by-dex-for-zoom.md).
 9.  Select **Call quality metrics** to get call details.
 
     The following call quality breakdown appears:
@@ -89,5 +89,5 @@ The detailed Zoom call metrics include call quality, network performance, and ca
     **Note:**
 
     -   For Call quality metrics description, see [Metrics monitored by DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/metrics-monitored-by-dex-for-zoom.md).
-    -   Selecting anywhere on the bar graph or pie chart for any call quality metric opens the **Details** page and displays the calls associated with the selected metric. For field descriptions on **Details** page, see [Zoom call quality metrics on the Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/call-quality-metrics-monitored-by-dex-for-zoom.md).
+    -   Clicking anywhere on the bar graph or pie chart for any call quality metric opens the **Details** page and displays the calls associated with the selected metric. For field descriptions on **Details** page, see [Zoom call quality metrics on the Details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/call-quality-metrics-monitored-by-dex-for-zoom.md).
 

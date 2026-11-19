@@ -1,5 +1,5 @@
 ---
-title: Define the network function details
+title: Define network function details
 description: Create a network function record in the Telecommunications Network Inventory application. You can manage the network functions such as 5Physical Network Function \(PNF\), Virtual Network Function \(VNF\) and so on.Created topics for STRY55389656 - DOC1072742
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/telecom-network-inventory/telecommunications-network-inventory/create\_business\_applications.html
@@ -7,12 +7,12 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Manage your network functions, Define inventory records, Use, Telecommunications Network Inventory]
+breadcrumb: [Manage your network functions, Defining inventory records, Use, Telecommunications Network Inventory]
 ---
 
-# Define the network function details
+# Define network function details
 
 Create a network function record in the Telecommunications Network Inventory application. You can manage the network functions such as 5Physical Network Function \(PNF\), Virtual Network Function \(VNF\) and so on.
 

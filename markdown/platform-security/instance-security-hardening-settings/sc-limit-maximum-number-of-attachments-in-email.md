@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-01-22"
 reading_time_minutes: 1
 breadcrumb: [File and resources, Hardening settings, Platform Security]
 ---
@@ -94,7 +94,7 @@ Security risk
 
 -   Severity score: 5.3
 -   CVSS score: Medium
--   Security risk details: A large number of attachments in inbound emails can cause instance performance degradation.
+-   Security risk details: Setting the property value to greater than 30 can lead to degradation issues.
 
 </td></tr><tr><td>
 
@@ -110,8 +110,7 @@ References
 
 </td><td>
 
--   [Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_EmailProperties.md)
--   [Attachment limit properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_AttachmentLimitProperties.md)
+[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_EmailProperties.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-file-resources.md)

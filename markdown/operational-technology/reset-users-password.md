@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/reset-users-password.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Users page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Users page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Force a password reset
@@ -32,11 +32,11 @@ An administrator can force another user to change their password the next time t
 
     The green key changes color to an orange key with backwards slash through it. This means the user needs to change their password the next time they log in. The key image does not display once the user changes their password and logs back in.
 
-    \[Omitted image "password-keys.png"\] Alt text: User keys
+    \[Omitted image "image.password-keys"\] Alt text: User keys
 
     The next time the user logs into the console, the **Change Password** window opens.
 
-    \[Omitted image "change-password-resized.png"\] Alt text: Change Password window
+    \[Omitted image "image.change-password-resized"\] Alt text: Change Password window
 
 4.  Enter a new password and then enter it again to confirm it.
 
@@ -44,6 +44,4 @@ An administrator can force another user to change their password the next time t
 
 5.  Select **Change Password**.
 
-
-**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/users-page.md)
 

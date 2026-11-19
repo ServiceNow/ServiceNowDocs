@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-sbp-add-beneficiary.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [How to Add a beneficiary to a social benefits application, Add a beneficiary, Add a beneficiary to a social benefits application]
-breadcrumb: [Using Social Benefits Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Social Benefits Playbook, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Add a beneficiary to a social benefits application in Social Benefits Playbook

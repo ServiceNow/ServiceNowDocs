@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
-breadcrumb: [Advanced Portal Navigation, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Advanced Portal Navigation, Setup Employee Center browse experience features, Configure, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Configure advanced portal navigation
@@ -24,9 +24,7 @@ Role required: admin and SP admin
 
 ## About this task
 
-Using the advanced portal navigation, you can enable single-select sync across all APN hierarchy levels, replacing level-by-level sync. You can design the primary navigation menu and configure the navigation setup according to employee needs and content priorities. Here is an overview of the navigation workflow:
-
-\[Omitted image "apn-architecture-workflow.png"\] Alt text: APN sync hierarchy workflows
+Using the advanced portal navigation, you can enable single-click sync across all APN hierarchy levels, replacing level-by-level sync. You can design the primary navigation menu and configure the navigation setup as per employee needs and content priorities.
 
 ## Procedure
 
@@ -227,7 +225,7 @@ Advanced portal navigation record is saved and your employees can view the new m
 
 ## What to do next
 
-All active navigation items associated with the portal and taxonomy are fetched and displayed in the related list.
+Alternatively, proceed to [Configure simplified left navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-simplified-nav-as-menu.md). All active navigation items associated with the portal and taxonomy are fetched and displayed in the related list.
 
 -   While creating the record or for subsequent syncs, all the fetched navigation menu items are in the **Active** state by default.
 -   To include any future changes in the service portal menu or root topics in the active taxonomy, you can use **Sync hierarchy** to bring any new topics or menu items.
@@ -238,4 +236,9 @@ All active navigation items associated with the portal and taxonomy are fetched 
 **Note:** For successful sync, ensure that the SP Menu Items are associated with the portal for which the Advanced Portal navigation record is configured.
 
 For more information, see [EC Information architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-information-architecture.md).
+
+**Related topics**  
+
+
+[Simplified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/simple-portal-navigation-ec.md)
 

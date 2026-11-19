@@ -7,7 +7,7 @@ release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -79,7 +79,7 @@ Use the Archive Related Records related list for DLP incidents to add the relate
 
 [Create repeat offender identification rules]()
 
-[Create Additional Incident Data Fields]()
+[Create additional incident data fields]()
 
 [DLP SLA Definition form]()
 

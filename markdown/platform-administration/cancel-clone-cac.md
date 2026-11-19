@@ -1,13 +1,13 @@
 ---
 title: Cancel a clone
-description: You can cancel a clone that is scheduled, requested, or in progress until the Node Repoint state. Canceling a clone retains the target instance as-is in its pre-clone state with its original data.Scheduled clones can't be modified, you must cancel scheduled clones and resubmit the clone schedule.
+description: You can cancel a clone that is scheduled, requested, or in progress until the Node Repoint state. Canceling a clone retains the target instance as-is in its pre-clone state with its original data.You can cancel a clone that is scheduled, requested, or in progress until the Node Repoint state. Canceling a clone retains the target instance as-is in its pre-clone state with its original data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/cancel-clone-cac.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-09-12"
 reading_time_minutes: 1
-breadcrumb: [Manage, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Manage, Instance Clone, Configure core features, Administer]
 ---
 
 # Cancel a clone
@@ -33,22 +33,44 @@ Role required: clone\_admin
     The system stops any current clone activities and sets the **State** to **Canceled**.
 
 
-## Cancel scheduled clones \(legacy\)
+**Parent Topic:**[Managing Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/using-instance-clone.md)
 
-Scheduled clones can't be modified, you must cancel scheduled clones and resubmit the clone schedule.
+## Cancel a clone \(legacy\)
+
+You can cancel a clone that is scheduled, requested, or in progress until the Node Repoint state. Canceling a clone retains the target instance as-is in its pre-clone state with its original data.
 
 ### Before you begin
 
 Role required: clone\_admin
 
+### About this task
+
+After a clone starts, you can view log messages within the related lists at the bottom of the clone request form.
+
 ### Procedure
 
-1.  Select **Instance Clone** &gt; **Active Clones** &gt; **&lt;one-of-your-clones&gt;**.
+1.  Navigate to **All** &gt; **Instance Clone** &gt; **Live Clones** &gt; **Active Clones**.
 
-2.  In the **Related Links**, select **Cancel Clone**.
+    The system displays the list of currently active clones.
 
-    Clones can only be canceled up to Node Repoint stage. The clone can be rolled back once it completes.
+2.  Select the clone that you want to cancel.
 
-    The system stops any current cloning activities and sets the **State** to **Canceled**.
+    The system displays the Instance Clone record.
 
+3.  From the **Related Links**, select **Cancel Clone**.
+
+    The **Cancel Clone** modal displays.
+
+    \[Omitted image "cancel-clone-legacy.png"\] Alt text: Cancel clone
+
+4.  In **Specify Reason** select a reason for the cancellation.
+
+5.  Select **OK**.
+
+    The system stops any current clone activities and sets the **State** to **Canceled**.
+
+
+### What to do next
+
+If you want to restart a canceled clone, you must create a [new clone request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/t_StartAClone.md).
 

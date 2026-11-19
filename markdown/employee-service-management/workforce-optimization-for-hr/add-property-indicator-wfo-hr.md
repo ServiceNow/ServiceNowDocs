@@ -7,9 +7,9 @@ release: zurich
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Setting up Coaching in Workforce Optimization for HR, Configuring Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Set up Coaching, Configure, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure an indicator to display in the Coaching Overview tab in Workforce Optimization for HR

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/itsm-mcp-server-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2026-09-10"
+last_updated: "2026-08-25"
 reading_time_minutes: 4
 keywords: [ITSM MCP Server, Model Context Protocol, incident management, change management, ITSM MCP Server, ITSM MCP Server, change management, service catalog, change.query, change.relation, change.analyze]
-breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
 # ITSM MCP Server release notes
@@ -44,7 +44,7 @@ See [ITSM MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
 **Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/it-service-management-rn-landing.md)
 
-## Brazil Patch 1 and Version 3.3
+## Zurich Patch 13 and Version 3.3
 
 Some of the ITSM MCP tools have been renamed and have also been made available to fulfillers and requesters in ITSM MCP Server in this release.
 
@@ -66,7 +66,7 @@ Some of the ITSM MCP tools have been renamed and have also been made available t
     The **sn\_itsm\_mcp\_server.requester.escalate** tool is turned off by default. Use **sn\_itsm\_mcp\_server.incident.modify** with the **escalate** and **escalation\_reason** inputs instead.
 
 
-## Brazil Patch 0 and Version 3.2
+## Zurich Patch 11 and Version 3.2
 
 Manage incidents, change requests, request items, and on-call schedules with the ITSM MCP Server. Empower requesters to handle their own tickets and access shared tools for approvals and ITSM data queries.
 

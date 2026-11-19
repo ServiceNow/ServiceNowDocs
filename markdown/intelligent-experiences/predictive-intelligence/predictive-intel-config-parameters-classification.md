@@ -7,9 +7,9 @@ release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configuring advanced settings for your ML solutions, Configure Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Configuring advanced settings for your ML solutions, Configure Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
 ---
 
 # Config parameters for model config in classification
@@ -127,8 +127,6 @@ JSON example:
                 }
               }
 ```
-
-**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 

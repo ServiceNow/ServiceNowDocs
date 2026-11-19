@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 13
 breadcrumb: [Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -118,8 +118,6 @@ Use the Parsing category to configure how the action separates data stream eleme
 -   REST or SOAP step Response Body, Stream, or Error Message outputs
 -   Splitter step outputs
 
-\[Omitted image "data-stream-split-parse.png"\] Alt text: Splitting and parsing a stream of user records.
-
 For more information about complex data, see [Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/complex-data.md). Parsing components provide these configuration options.
 
 -   **Splitter step**
@@ -139,7 +137,7 @@ For more information about complex data, see [Complex data](https://raw.githubus
     This is a mandatory Parsing component that only runs on the instance.
 
 
-\[Omitted image "ds-action-diagram.png"\] Alt text: Overview of the REST and SOAP Data Stream action.
+
 
 ## Generate the parsing phase for REST-based Data Stream actions
 
@@ -153,7 +151,7 @@ JDBC data stream action doesn't require pagination. Also, splitter and parser st
 
 The JDBC step generates a complex object for each of the retrieved record. Hence, action preprocessing and transform script in the JDBC data stream action are optional. When using the transform script, action designer must specify the internal name of the table columns in the transform script.
 
-\[Omitted image "data-stream-jdbc.png"\] Alt text: Overview of the JDBC Data Stream action.
+
 
 ## JDBC operations and MID Server timeouts
 

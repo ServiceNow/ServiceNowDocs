@@ -1,26 +1,26 @@
 ---
-title: App launcher Usage Insights
-description: Visually analyze app usage, user behavior, and other information from the Usage Insights dashboard.
+title: App launcher user experience analytics
+description: Visually analyze app usage, user behavior, and other information from the user experience dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/web-applauncher-analytics.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [App Launcher, Setup task management, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
+breadcrumb: [App Launcher, Setup task management, Configure, Employee Center Pro, Employee Center \(Pro\), Employee Service Management]
 ---
 
-# App launcher Usage Insights
+# App launcher user experience analytics
 
-Visually analyze app usage, user behavior, and other information from the Usage Insights dashboard.
+Visually analyze app usage, user behavior, and other information from the user experience dashboard.
 
 You can use the dashboard to view the information about application usage, application engagement, and app launcher adoption. You can track the App launcher usage, analyze app adoption rate, and user activity to drive future business decisions.
 
-Navigate to **Usage Insights** &gt; **Dashboard** for a detailed view and analysis. Click the respective widget or chart for more information.
+Navigate to **User Experience Analytics** &gt; **Dashboard** for a detailed view and analysis. Click the respective widget or chart for more information.
 
-\[Omitted image "applauncher-user-analytics-dashboard.jpg"\] Alt text: Displays usage and adoption data
+
 
 ## User and roles
 

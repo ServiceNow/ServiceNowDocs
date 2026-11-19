@@ -1,23 +1,23 @@
 ---
-title: Monitoring and evaluating AI systems in AI Control Tower
-description: Continuously monitor your ServiceNow and external AI systems to determine whether they meet quality and safety standards, and investigate root causes when they don't.
+title: Monitoring and evaluating AI systems
+description: Continuously monitor your ServiceNow and external AI systems in Super Intelligence Control Tower to determine whether they meet quality and safety standards, and investigate root causes when they don't.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mon-ai-landing.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-04-03"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Monitor AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Monitoring and evaluating AI systems in AI Control Tower
+# Monitoring and evaluating AI systems
 
-Continuously monitor your ServiceNow and external AI systems to determine whether they meet quality and safety standards, and investigate root causes when they don't.
+Continuously monitor your ServiceNow and external AI systems in Super Intelligence Control Tower to determine whether they meet quality and safety standards, and investigate root causes when they don't.
 
 \[Omitted video\] Description: Monitoring overview video, approximately 5 minutes and 44 seconds long.
 
-Watch this short video to learn more about Monitoring in AI Control Tower.
+Watch this short video to learn more about Monitoring in Control Tower.
 
 ## Get started
 

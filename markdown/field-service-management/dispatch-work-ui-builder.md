@@ -1,18 +1,18 @@
 ---
 title: Customize Dispatcher Workspace
-description: Use UI Builder to build pages for CRM Workspace or custom web experiences using Next Experience and custom web components.
+description: Use UI Builder to build pages for CSM Configurable Workspace or custom web experiences using Next Experience and custom web components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/field-service-management/dispatch-work-ui-builder.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Customize Dispatcher Workspace
 
-Use UI Builder to build pages for CRM Workspace or custom web experiences using Next Experience and custom web components.
+Use UI Builder to build pages for CSM Configurable Workspace or custom web experiences using Next Experience and custom web components.
 
 ## UI Builder
 
@@ -24,7 +24,7 @@ UI Builder is a low-code environment. You should be comfortable interacting with
 
 Next Experience components are the base elements of UI Builder pages like Dispatcher Workspace. Components range from core elements like buttons and labels to more complex components like lists and forms. You can change components to update the Dispatcher Workspace user interface or add new ones. You can also create your own components if the ones that come with UI Builder don't fit your needs.
 
-**Important:** You must use a Script Include when making any customizations to Dispatcher Workspace. For more information, see [Extend a Script Include](https://developer.servicenow.com/dev.do#!/learn/courses/vancouver/app_store_learnv2_scripting_vancouver_scripting_in_servicenow/app_store_learnv2_scripting_vancouver_server_side_scripting/app_store_learnv2_scripting_vancouver_extend_a_script_include).
+**Important:** You must use a Script Include when making any customizations to Dispatcher Workspace. For more information, see [Extend a Script Include](https://developer.servicenow.com/dev.do#!/learn/courses/vancouver/app_store_learnv2_scripting_vancouver_scripting_in_servicenow/app_store_learnv2_scripting_vancouver_server_side_scripting/app_store_learnv2_scripting_zurich_extend_a_script_include).
 
 For information on components and how to work with them in UI Builder, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/work-components.md). The components that are available to use are listed on the developer site at [Next Experience Components](https://developer.servicenow.com/dev.do#!/reference/next-experience/components).
 

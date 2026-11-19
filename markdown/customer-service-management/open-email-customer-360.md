@@ -1,18 +1,18 @@
 ---
 title: Compose an email from the ribbon component
-description: As an agent you can compose emails directly from cases within CRM Workspace without having to use an external email client. This capability helps you view and send emails to two different customers simultaneously which saves time and effort instead of having to address and send a separate email message.
+description: As an agent you can compose emails directly from cases within CSM Configurable Workspace without having to use an external email client. This capability helps you view and send emails to two different customers simultaneously which saves time and effort instead of having to address and send a separate email message.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/open-email-customer-360.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Manage email tasks, Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
+breadcrumb: [Manage email tasks, Using CSM Configurable Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
 # Compose an email from the ribbon component
 
-As an agent you can compose emails directly from cases within CRM Workspace without having to use an external email client. This capability helps you view and send emails to two different customers simultaneously which saves time and effort instead of having to address and send a separate email message.
+As an agent you can compose emails directly from cases within CSM Configurable Workspace without having to use an external email client. This capability helps you view and send emails to two different customers simultaneously which saves time and effort instead of having to address and send a separate email message.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ You can compose large emails easily in a full screen view which opens up in a ne
 
 ## Procedure
 
-1.  Open CRM Workspace.
+1.  Open CSM Configurable Workspace.
 
 2.  Select and open the case for which you want to compose an email.
 
@@ -32,7 +32,7 @@ You can compose large emails easily in a full screen view which opens up in a ne
 
 3.  In the ribbon component, click the contact's email address.
 
-    The New Email screen opens in full screen in a new tab. The **To** field is pre-filled with the customer's email id and the **Subject** field contains the original case number and issue..
+    The New Email screen opens in full screen in a new tab. The **To** field is pre-filled with the customer's email id and the **Subject** field contains the original case number and issue. For more information, see [Compose an email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/using-email.md).
 
 4.  Compose your email and click **Send**.
 

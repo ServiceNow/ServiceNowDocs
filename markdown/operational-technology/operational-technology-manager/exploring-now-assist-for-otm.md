@@ -7,7 +7,7 @@ release: zurich
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Explore, Operational Technology Manager, Operational Technology]
 ---
@@ -22,8 +22,6 @@ With generative AI skills and agentic workflows, you can use the following featu
 
 -   An OT CMDB search feature that enables you to search for OT configuration item \(CI\) information and OT device information.
 -   An OTM agentic workflow that automates the import and validation of your OT device data into the OT CMDB.
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Availability notices
 

@@ -1,20 +1,20 @@
 ---
 title: Walk-up Experience appointment booking administration
-description: Create or modify and enable the CSM Walk-up Experience application configuration and the individual service location configurations for the Appointment Booking feature.
+description: Administrators configure the Walk-up Experience application and individual service location settings to enable appointment booking across walk-up queue locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-admin.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Walk-up Experience appointment booking, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Walk-up Experience appointment booking administration
 
-Create or modify and enable the CSM Walk-up Experience application configuration and the individual service location configurations for the **Appointment Booking** feature.
+Administrators configure the Walk-up Experience application and individual service location settings to enable appointment booking across walk-up queue locations.
 
 Administrators can create, modify, and enable the Walk-up Experience application configuration. Appointment booking administrators \(appointment\_booking\_admin\) can create, modify, and enable configurations for service locations within the Walk-up Experience application.
 

@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [use]
-breadcrumb: [Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Governance posture and compliance, Managing risk and compliance, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Reviewing regulatory classification and compliance status
@@ -35,8 +35,6 @@ The Regulatory risk classification widget presents a donut chart that organizes 
 
 How this is calculated:
 
-For the full process, including the properties and records involved, see [Classifying AI assets by regulatory risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-airc-regulatory-classification.md).
-
 -   Managed assets: The risk level shown for an asset comes from the `risk_score` field on the asset's governance details record. This field is populated when the asset's regulatory risk classification assessment completes, and the widget reflects that value in real time on every page load.
 -   Unmanaged assets: The risk level shown for an unmanaged asset comes from the **Use &amp; purpose** field on the asset's governance details record.
 
@@ -51,8 +49,6 @@ Compliance scores measure how well AI systems conform to applicable regulations,
 You can choose to view compliance data by selecting one of two options: **Authority documents** or **Policies**. Additionally, you can view the overall compliance score percentage, along with the number of compliant and non-compliant authority documents and policies, by using the drop-down filter to select specific authority documents or policies. You can also see all the issues that require immediate attention and AI cases related to each authority document or policy.
 
 Compliance score calculation:
-
-For the calculation rules, an example, and how scores are processed, see [Compliance score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-airc-compliance-score-calculation.md).
 
 1.  Each AI system is linked to one or more entities or profiles through the entity map record \(sn\_grc\_ai\_gov\_ai\_system\_entity\_map\).
 2.  Each entity has its own compliance score calculated by the Policy &amp; Compliance engine. The score is based on the state of its controls \(whether controls pass or fail compliance tests and attestations\).

@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [View reports on authorization boundary elements, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [View authorization boundary details, CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Create a boundary filter
@@ -22,17 +22,15 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CAM Workspace**.
+1.  Navigate to **All** &gt; **CAM Workspace** and then select the lists icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
 
-2.  To navigate to the Lists page, select \[Omitted image "ws-list-icon.png"\] Alt text: List icon from the sidebar.
+2.  From the Authorization boundaries in the Risk Management Framework \(RMF\) list, select an authorization boundary record.
 
-3.  From the Authorization boundaries in the Risk Management Framework \(RMF\) list, select an authorization boundary record.
-
-4.  In the **Boundary Filters** related list, select **New**.
+3.  In the **Boundary Filters** related list, select **New**.
 
     \[Omitted image "auth-bound-filter1.png"\] Alt text: New boundary filter.
 
-5.  In the **Create New Boundary Filter** form, fill in the fields.
+4.  In the **Create New Boundary Filter** form, fill in the fields.
 
     |Fields|Descriptions|
     |------|------------|
@@ -49,7 +47,7 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
 
     \[Omitted image "auth-bound-filter3.png"\] Alt text: Adding filter conditions.
 
-6.  Select **Save**.
+5.  Select **Save**.
 
     The boundary filter is created and, if configured as a dynamic filter, begins automatically including assets that meet the specified conditions.
 
@@ -58,5 +56,5 @@ Role required: sn\_irm\_cont\_auth.authorization\_official, sn\_irm\_cont\_auth.
 
 Assets matching the filter conditions are automatically listed in the **System Elements** related list.
 
-**Parent Topic:**[View reports on authorization boundary elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-bound-overview-ws.md)
+**Parent Topic:**[View authorization boundary details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/auth-bound-overview-ws.md)
 

@@ -1,37 +1,40 @@
 ---
 title: Enable user criteria for topics
-description: Enable user criteria to configure topic-level security and visibility settings for topics.
+description: Enable user criteria to configure topic-level access and visibility settings for topics in navigation and popular topics widget.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/enable-user-criteria-topics.html
 release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Unified Taxonomy for Employee Center, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Unified Taxonomy for Employee Center, Setup Employee Center browse experience features, Configure, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Enable user criteria for topics
 
-Enable user criteria to configure topic-level security and visibility settings for topics.
+Enable user criteria to configure topic-level access and visibility settings for topics in navigation and popular topics widget.
 
 ## Before you begin
-
-**Important:** The Topic-based access control is available from the Yokohama family release.
-
-When you have many topics, ensure you set up user criteria for your topics for performance improvement.
 
 Role required: taxonomy\_admin
 
 User criteria required: Taxonomy Manager, Taxonomy Contributor, Topic Manager, Topic Contributor.
 
+**Important:** The Topic-based access control is available from the Yokohama family release.
+
+When you have many topics, setting up user criteria for your topics can help with navigational ease and optimal performance.
+
 ## About this task
 
-Organizations can define who the topic page is **Available for** and **Not Available for** at each topic level, avoiding the need to evaluate content-level access to determine topic visibility. Organizations can make subtopics automatically inherit the same access levels as the parent topic or define their own criteria. Before you configure topic-level visibility, understand the following user criteria basics:
+Organizations can define who the topic page is **Available for** and **Not Available for** at each topic level, avoiding the need to evaluate content-level access to determine topic visibility. Organizations can make subtopics automatically inherit the same access levels as the parent topic or define their own criteria.
+
+**Note:** Remember that the topic visibility on the Mega menu and Popular topics, is driven by the Enable user criteria check option.
+
+Before you configure topic-level visibility, understand the following user criteria basics:
 
 -   Add topic-level hierarchy controls on each topic page overriding the default content-based security for megamenu.
--   Remember that the topic visibility on the Mega menu and Popular topics is driven by the **Enable user criteria check** option.
 -   Enable this option on the parent topics and the subtopics inherit the same user criteria automatically.
 -   Remember that when you disable the topic user criteria toggle, the content security model is applicable.
 -   Simplify the user criteria and improve the page load time.
@@ -48,13 +51,9 @@ Organizations can define who the topic page is **Available for** and **Not Avail
 
     \[Omitted image "associate-topics-tabs.png"\] Alt text: Associating topic to the related tabs
 
-    Understand how it works from the message.
+    Understand how it works from the note and proceed to add criteria for the following options:
 
-    ```
-    Enable user criteria check to determine visibility of the current topic and its child topics in navigation and popular topics widget. The criteria set also applies to child topics. Criteria in connected content still govern content visibility on topic pages
-    ```
-
-    and proceed to add criteria for the following options:
+    **Note:** Enable user criteria check to determine visibility of the current topic and its child topics in navigation and popular topics widget. The criteria set also applies to child topics. Criteria in connected content still govern content visibility on topic pages.
 
     -   **Available for**: Users or user group for whom the topic is visible.
     -   **Not available for**: Users or user group for whom the topic isn't visible.
@@ -66,8 +65,8 @@ Organizations can define who the topic page is **Available for** and **Not Avail
 
     Understand how the user criterion works in the following use cases:
 
-    |Scenario|How the user criteria works|
-    |--------|---------------------------|
+    |Scenario|How user criteria works|
+    |--------|-----------------------|
     |When a new topic is created with no parent|User criteria and visibility remain same as defined at the time of creation.|
     |When a new topic is created with parent|User criteria and visibility of parent is applied to the new topic.|
     |When a topic is moved to a new parent|User criteria and visibility of new parent are applied and old parent criteria are removed. Manual edits remain intact.|
@@ -82,7 +81,7 @@ Organizations can define who the topic page is **Available for** and **Not Avail
 
 6.  Click **Submit** or **Save**.
 
-    **Note:** Topics are visible based on the user criteria associated with it. For more information, see the **Favorites card and access** illustration on [Configure favorites option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/web-configure-favorites-admin.md).
+    **Note:** Topics are visible based on the user criteria associated. For more information, see the **Favorites card and access** illustration on [Configure favorites option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/web-configure-favorites-admin.md).
 
 
 ## Result

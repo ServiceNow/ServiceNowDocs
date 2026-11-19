@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Activity definitions, Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Activity definitions, Stages and activities, Building playbooks, Use, Workflow Studio, Build workflows]
 ---
 
 # Create an action as an activity automation plan

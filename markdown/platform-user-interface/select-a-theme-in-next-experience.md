@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/select-a-theme-in-next-experience.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [choose theme, select theme, theme user preference]
-breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Preferences, Working in Next Experience, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Select a theme in Next Experience
@@ -20,10 +20,6 @@ Personalize your Next Experience instance by selecting a theme and it's variant 
 **Note:** An administrator must enable at least one theme before you can select one as described in this task. For information about theme variants and alternate color palettes, see [Core styles, colors, variants, and alternate color palettes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/difference-themes-variants.md).
 
 Role required: none
-
-You can also watch a short video on how to select a theme.
-
-\[Omitted video\] Description: Select a theme in Next Experience.
 
 ## Procedure
 

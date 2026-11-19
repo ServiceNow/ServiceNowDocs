@@ -1,19 +1,19 @@
 ---
 title: Control enforcement points
-description: The systems that AI Control Tower policies can act on.
+description: The systems that policies in Super Intelligence Control Tower can act on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-pol-enforcement-points.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-27"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, enforcement points, connectors]
-breadcrumb: [Reference, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Control enforcement points
 
-The systems that AI Control Tower policies can act on.
+The systems that policies in Super Intelligence Control Tower can act on.
 
 <table id="table_pol_enforcement_points"><thead><tr><th>
 
@@ -80,5 +80,5 @@ Blocks and unblocks a person's access through their Okta-managed identity.
 Blocks and unblocks AI agents on the ServiceNow AI Platform®.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Control Tower policies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reference.md)
+</table>**Parent Topic:**[Policies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reference.md)
 

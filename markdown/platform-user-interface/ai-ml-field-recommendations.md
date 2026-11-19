@@ -1,18 +1,18 @@
 ---
 title: AI field recommendations
-description: Use AI field recommendations for a list of top recommendations or to fill fields automatically.
+description: Use AI field recommendations for a list of top recommendations or to fill fields automatically in a Workspace form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/ai-ml-field-recommendations.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Forms, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Working on records in your Workspace, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # AI field recommendations
 
-Use AI field recommendations for a list of top recommendations or to fill fields automatically.
+Use AI field recommendations for a list of top recommendations or to fill fields automatically in a Workspace form.
 
 AI predicts a field's value based on the data in the form. AI recommendations can appear in the following ways based on the field configuration:
 

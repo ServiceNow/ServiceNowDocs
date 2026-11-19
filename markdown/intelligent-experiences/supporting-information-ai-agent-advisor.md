@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-02"
 reading_time_minutes: 1
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [Explore, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Explore, AI Agent Advisor, Enable AI experiences]
 ---
 
 # Supporting information for AI Agent Advisor
@@ -30,10 +30,6 @@ AI Admin Center provides features that enable you to set up of your AI solutions
 The Next Experience AI Admin Center workspace is being prepared for future deprecation and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-workspace.md).
 
 In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
-
-## Licensing requirements
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Application information
 

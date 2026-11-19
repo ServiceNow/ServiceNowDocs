@@ -7,9 +7,9 @@ release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Export directly from a URL, Exporting data, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Export directly from a URL, Exporting data, Tables and data, Configure core features, Administer]
 ---
 
 # Call URL export programmatically

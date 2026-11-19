@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-01-07"
 reading_time_minutes: 2
 keywords: [Ansible execution, incident remediation, automation, Service Operations Workspace]
-breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
+breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
 # Execute Ansible playbooks for incidents
@@ -41,15 +41,15 @@ When an incident arrives in SOW, LEAP predicts the automation opportunity group.
 
 3.  Complete the resolution step.
 
-<table id="choicetable_xyd_2f4_skc"><thead><tr><th align="left" id="d239120e133">
+<table id="choicetable_xyd_2f4_skc"><thead><tr><th align="left" id="d236598e131">
 
 If the step has.
 
-</th><th align="left" id="d239120e136">
+</th><th align="left" id="d236598e134">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d239120e142">
+</th></tr></thead><tbody><tr><td id="d236598e140">
 
 **Manual \(no mapped Ansible jobs\)**
 
@@ -59,7 +59,7 @@ Steps
 2.  Select **Step Completed** after you finish it.
 
 
-</td></tr><tr><td id="d239120e166">
+</td></tr><tr><td id="d236598e164">
 
 **Automated \(mapped Ansible jobs\)**
 

@@ -7,7 +7,7 @@ release: zurich
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,10 +44,8 @@ Most ServiceNow products and ServiceNow AI Platform applications align closely w
 The objects in the conceptual CSDM framework must map to the physical model objects \(CIs and CI class tables\) in the CMDB. You can navigate in the platform to see dictionary attributes.
 -   **[CI relationships in the CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/ci-relationships.md)**  
 For configuration management to be most effective, establish relationships between the objects and CIs in the conceptual CSDM.
--   **[Synchronizing life-cycle values for Asset, CI, and IBI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/cmdb-asset-CI-IBI-sync-options.md)**  
+-   **[How life-cycle values for Asset, CI, and IBI are synced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/cmdb-asset-CI-IBI-sync-options.md)**  
 Your organization gains significant value from your ServiceNow AI Platform applications when you take advantage of the option to directly map legacy status values to CSDM **life cycle stage** and **life cycle stage status** values and auto-synchronize the values going forward.
--   **[Asset status values aligned to CSDM life cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-map-csdm-to-asset.md)**  
-Legacy status values for Asset and Hardware Asset CIs are aligned with CSDM life cycle stage and life cycle stage status values.
 -   **[Life cycle mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-mapping-form.md)**  
 Use the Life Cycle Mapping module to specify how existing legacy status values should be converted to CSDM life-cycle value pairs \(**life cycle stage** and **life cycle stage status**\). You map both asset and CI legacy status values to life-cycle value pairs.
 -   **['Foundation' stage reports on the CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-datafdn-dash-foundation-tab.md)**  
@@ -73,5 +71,5 @@ The intangible/logical life-cycle value pairs represent the overall life cycle o
 -   **[Life cycle of product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-product.md)**  
 The product life-cycle value pairs represent the overall life cycle of a product model, a specific version, or a product configuration. The life-cycle values for the product life-cycle process are visible only in Product \(Models\) tables.
 
-**Parent Topic:**[Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
+**Parent Topic:**[Common Service Data Model \(CSDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/view-faqs-business-portal.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # View common questions \(FAQs\) on Business Portal
@@ -20,6 +20,4 @@ You can access the frequently asked questions page by navigating to &gt; **Resou
 
 
 [Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-faq-widget.md)
-
-[Add and configure the Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-faq-widget-inst-optns.md)
 

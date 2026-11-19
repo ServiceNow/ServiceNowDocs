@@ -7,9 +7,9 @@ release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Execute and monitor, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Manage and review automation executions
@@ -33,7 +33,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 5.  Review the information on the Automation Executions page.
 
 
-**Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automations.md)
+**Parent Topic:**[Execute and monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/execute-and-monitor.md)
 
 **Related topics**  
 

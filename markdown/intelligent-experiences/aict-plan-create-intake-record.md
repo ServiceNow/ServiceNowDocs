@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-plan-create-intake-record.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-23"
 reading_time_minutes: 1
-breadcrumb: [Prioritize AI plan intake, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Prioritize AI plan intake, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Create an intake record
@@ -20,7 +20,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home 2.0**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home 2.0**.
 
 2.  Expand the **Plan** menu and select **Prioritize**.
 

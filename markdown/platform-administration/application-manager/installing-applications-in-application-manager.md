@@ -7,9 +7,9 @@ release: zurich
 product: Application Manager
 classification: application-manager
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Installing apps, plugins, and products, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Installing apps, plugins, and products, Application Manager, Administering applications, Get started, Administer]
 ---
 
 # Install an application or plugin
@@ -51,15 +51,15 @@ This topic describes how to install an application or plugin. For information ab
 
 6.  Install the application now or schedule installation for a later time.
 
-<table id="choicetable_kkl_v3m_yfc"><thead><tr><th align="left" id="d228101e205">
+<table id="choicetable_kkl_v3m_yfc"><thead><tr><th align="left" id="d219168e205">
 
 Installation option
 
-</th><th align="left" id="d228101e208">
+</th><th align="left" id="d219168e208">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d228101e214">
+</th></tr></thead><tbody><tr><td id="d219168e214">
 
 **Install now**
 
@@ -69,7 +69,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d228101e238">
+</td></tr><tr><td id="d219168e238">
 
 **Install later**
 

@@ -1,41 +1,35 @@
 ---
-title: Use the Personalize Form menu
-description: Use the Personalize Form menu to add or remove fields from your view.
+title: Use personalize form
+description: Select personalize form to add or remove fields that appear on your form view according to your preferences.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/use-personalize-form.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Forms, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Working on records in your Workspace, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Use the Personalize Form menu
+# Use personalize form
 
-Use the Personalize Form menu to add or remove fields from your view.
+Select personalize form to add or remove fields that appear on your form view according to your preferences.
 
 ## Before you begin
 
-Role required: workspace\_user
+\[Omitted image "more-form-options-personalize-form.png"\] Alt text: More form options personalize form.
+
+Role required: agent
 
 ## Procedure
 
-1.  Open a record in your instance.
+1.  **Note:** You can also utilize right click actions, and right click the form header to display **More form options** list.
 
-2.  From the form header, select the Additional actions icon \(\) or right-click the form header.
+    Select the menu icon \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon.\) on a form.
 
-    The More form options list opens.
+2.  Select **Personalize Form** from the **More form options** list.
 
-    \[Omitted image "more-form-options-personalize-form.png"\] Alt text: More form options personalize form.
+3.  \[Omitted image "more-form-options-personalize-form-card.png"\] Alt text: Personalize form card.
 
-3.  Select **Personalize Form**.
-
-    The Personalize Form dialog box opens.
-
-    \[Omitted image "more-form-options-personalize-form-card.png"\] Alt text: Personalize form card.
-
-4.  Select fields you want to view and deselect fields you don't want to view.
-
-5.  Select **Update Form**.
+4.  Select **Update Form** to submit your changes.
 
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/check-compatibility-of-subflow.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [Configure, MCP Server Console, Enable AI experiences]
 ---
 
 # Check the compatibility of a Subflow or Action

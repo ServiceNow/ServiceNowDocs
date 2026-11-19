@@ -7,7 +7,7 @@ release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Using Help Center, Help Center, In-product help, Adoption services, Configure user experiences]
 ---
@@ -22,15 +22,15 @@ Role required: none
 
 ## Procedure
 
-1.  Open the Help Center by selecting the Help Center icon \[Omitted image "pol-nav-help.png"\] Alt text:.
+1.  Open the Help Center by selecting the Help Center icon \[Omitted image "pol-nav-help.png"\] Alt text: Help Center icon.
 
 2.  Scroll to the bottom of the Help Center menu and select **Provide feedback**.
 
-    \[Omitted image "ads-help-center.png"\] Alt text:
+    \[Omitted image "ads-help-center.png"\] Alt text: Help Center
 
 3.  Rate your experience and provide as much or as little detail in the entry boxes as you want.
 
-    \[Omitted image "provide-feedback-modal.png"\] Alt text: Provide customer feedback to ServiceNow
+    \[Omitted image "provide-feedback-modal.png"\] Alt text: Provide feedback modal
 
     Your feedback is important to us and we appreciate all comments, both positive and negative.
 

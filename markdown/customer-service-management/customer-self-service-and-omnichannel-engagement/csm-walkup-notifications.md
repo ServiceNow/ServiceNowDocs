@@ -1,24 +1,24 @@
 ---
 title: Configure Walk-up Experience notifications
-description: As an administrator, you can create and use notifications to notify requesters about events that impact them while they’re getting their issue addressed through a walk-up experience. Requesters are notified of online appointments that they’ve taken or when their issue is assigned to a store representative by email.
+description: Configure notifications that tell requesters about events that affect them, such as an online appointment or an issue assigned to a store representative.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-notifications.html
 release: zurich
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure Walk-up Experience notifications
 
-As an administrator, you can create and use notifications to notify requesters about events that impact them while they’re getting their issue addressed through a walk-up experience. Requesters are notified of online appointments that they’ve taken or when their issue is assigned to a store representative by email.
+Configure notifications that tell requesters about events that affect them, such as an online appointment or an issue assigned to a store representative.
 
 ## Before you begin
 
-Role required: sn\_csm\_walkup.walkup\_admin
+Role required: admin or sn\_csm\_walkup.walkup\_admin
 
 ## About this task
 

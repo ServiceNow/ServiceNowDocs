@@ -1,5 +1,5 @@
 ---
-title: Explore and manage Core UI dashboards
+title: Explore and manage dashboards
 description: Quickly identify the relationships between Performance Analytics elements, such as dashboards, reports, and indicators. Each dashboard tab has customized interactive filters that enable you to refine the information that the dashboard shows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/explore-manage-dashboards.html
@@ -7,12 +7,12 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Explore and manage Core UI dashboards
+# Explore and manage dashboards
 
 Quickly identify the relationships between Performance Analytics elements, such as dashboards, reports, and indicators. Each dashboard tab has customized interactive filters that enable you to refine the information that the dashboard shows.
 

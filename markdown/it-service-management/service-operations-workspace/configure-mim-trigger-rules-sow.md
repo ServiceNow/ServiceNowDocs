@@ -7,9 +7,9 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 4
+breadcrumb: [Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configure major incident trigger rules
@@ -18,21 +18,21 @@ Create and configure the trigger rules for a major incident to define the condit
 
 ## About this task
 
-Major incident trigger rules are evaluated asynchronously each time a major incident is created or promoted from an incident, provided the following conditions are met:
+You can also configure major incident trigger rules to directly create a major incident, bypassing the candidate step. Major incident trigger rules are evaluated asynchronously each time a major incident is created or promoted from an incident, provided the following conditions are met:
 
 -   The incident record doesn't have the Parent Incident populated, which means that the current incident isn't a child incident.
 -   The major incident isn't proposed or accepted.
 -   The incident is active.
 
-You can also configure major incident trigger rules to directly create a major incident, bypassing the candidate step.
-
-**Note:** Base system trigger rules are available.
+**Note:** This is the base system behavior. However, you can override the implementation by modifying the canEvaluate function in the `MajorIncidentTriggerRules` script include. Base system trigger rules are available.
 
 ## Before you begin
 
 The Major Incident Management plugin must be activated in Service Operations Workspace. For more information, see [Activate Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/install-mim-sow.md).
 
-Role required: admin
+Role required: sn\_mim\_sow\_admin and major\_incident\_manager or incident\_manager, admin
+
+**Note:** If you have sn\_mim\_sow\_admin role, you can access the MIM page in Admin Center page but to configure the trigger rules you must also have major\_incident\_manager or incident\_manager role along with sn\_mim\_sow\_admin role. For more information, see [Roles in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/roles-in-sow.md).
 
 ## Procedure
 

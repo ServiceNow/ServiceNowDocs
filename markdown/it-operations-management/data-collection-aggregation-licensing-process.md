@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/data-collection-aggregation-licensing-process.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
+breadcrumb: [Explore ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
 # Data collection and aggregation for licensing process

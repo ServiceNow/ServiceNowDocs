@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-15"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Evaluating AI systems, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Evaluating AI systems, Managing your AI asset inventory, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Managing evaluation cost

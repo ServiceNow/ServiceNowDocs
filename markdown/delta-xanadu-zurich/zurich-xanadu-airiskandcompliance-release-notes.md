@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-airiskandcompliance-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -160,7 +160,7 @@ Report AI cases or raise AI inquiries by sending an email to a dedicated email a
 
 -   **[360° AI asset view](https://www.servicenow.com/docs/access?context=visualization-of-ai-assest&family=zurich&ft:locale=en-US)**
 
-Use the 360° AI asset view in the AI Control Tower to explore the relationship between your AI assets and all its associated records in a distinctive visualization. This visualization provides valuable insights into how these objects interact and relate to each other within the AI asset. You can view related records such as, datasets, AI model, risks, controls, and assessments.
+Use the 360° AI asset view in the Control Tower to explore the relationship between your AI assets and all its associated records in a distinctive visualization. This visualization provides valuable insights into how these objects interact and relate to each other within the AI asset. You can view related records such as, datasets, AI model, risks, controls, and assessments.
 
 -   **[AI asset offboarding workflow](https://www.servicenow.com/docs/access?context=airc-offboarding-ai-assets&family=zurich&ft:locale=en-US)**
 
@@ -359,7 +359,7 @@ Yokohama
 
 -   **Activation information**
 
-Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** AI Risk and Compliance is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -372,7 +372,7 @@ Zurich
 
 -   **Activation information**
 
-Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** AI Risk and Compliance is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

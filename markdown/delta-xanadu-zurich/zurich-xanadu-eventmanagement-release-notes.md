@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-eventmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
@@ -142,11 +142,11 @@ Yokohama
 
 </td><td>
 
--   **[\[Placeholder link text to key esc-notify-alert-sow-itom\]](https://www.servicenow.com/docs/access?context=esc-notify-alert-sow-itom&family=yokohama&ft:locale=en-US)**
+-   **[esc notify alert sow itom](https://www.servicenow.com/docs/access?context=esc-notify-alert-sow-itom&family=yokohama&ft:locale=en-US)**
 
 Starting in version 26.7.0, execute response subflows automatically, manually, or both for alerts that match specific conditions through the Run Other Response Actions option of Respond Automatic. This enhancement offers better control over automated responses with configurable execution limits and multiple response actions.
 
--   **[\[Placeholder link text to key enrich-alert-sow-itom\]](https://www.servicenow.com/docs/access?context=enrich-alert-sow-itom&family=yokohama&ft:locale=en-US)**
+-   **[enrich alert sow itom](https://www.servicenow.com/docs/access?context=enrich-alert-sow-itom&family=yokohama&ft:locale=en-US)**
 
 Starting in version 26.7.0, link a CI to an alert for more accurate IT component mapping though the Improve Configuration Item \(CI identification option of Enrich Automation. This enhancement improves alert visibility, speeds up issue resolution, and ensures better correlation between alerts and infrastructure components.
 
@@ -191,15 +191,15 @@ Starting in version 2.17.1, added support to enable multiple member accounts to 
 
 Starting in version 2.17.1, you can use the Dynatrace metric connector from the Integrations Launchpad to bring metrics from Dynatrace into ServiceNow Metric Intelligence for visualization, enrichment, dynamic thresholds, and anomaly detection.
 
--   **[\[Placeholder link text to key configure-datadog-connector\]](https://www.servicenow.com/docs/access?context=configure-datadog-connector&family=zurich&ft:locale=en-US)**
+-   **[configure datadog connector](https://www.servicenow.com/docs/access?context=configure-datadog-connector&family=zurich&ft:locale=en-US)**
 
 Starting in version 2.17.1, you can use the out-of-the-box Datadog metric connector to integrate Datadog metrics with ServiceNow Metric Intelligence, enabling anomaly detection, metric visualization, enrichment, and correlation of metric anomalies with events and log alerts.
 
--   **[\[Placeholder link text to key configure-kafka-metrics-connector\]](https://www.servicenow.com/docs/access?context=configure-kafka-metrics-connector&family=zurich&ft:locale=en-US)**
+-   **[configure kafka metrics connector](https://www.servicenow.com/docs/access?context=configure-kafka-metrics-connector&family=zurich&ft:locale=en-US)**
 
 Starting in version 2.17.1, you can use the new Kafka connector to stream time-series metric data from Kafka topics into ServiceNow Metric Intelligence for real-time monitoring, anomaly detection, and alerting.
 
--   **ITOM [\[Placeholder link text to key c\_EM\]](https://www.servicenow.com/docs/access?context=c_EM&family=zurich&ft:locale=en-US) guided setup**
+-   **ITOM [c EM](https://www.servicenow.com/docs/access?context=c_EM&family=zurich&ft:locale=en-US) guided setup**
 
 Starting in 27.2.1, introduced ITOM Event Management guided setup, providing a sequence of tasks that help you install and get started with Event Management efficiently.
 

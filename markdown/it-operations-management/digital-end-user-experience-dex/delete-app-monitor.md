@@ -1,21 +1,20 @@
 ---
 title: Delete an application from the monitoring list
-description: Delete an application from the monitoring list when there’s no longer a need to track its performance or activity. If necessary, you can add the application to the monitoring list later.
+description: Delete an application from the monitoring list when there’s no longer a need to track its performance or activity. If necessary, you can add the application in the monitoring list later.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/delete-app-monitor.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [delete application from monitoring, remove monitored application, delete monitored application, remove application from list]
 breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Delete an application from the monitoring list
 
-Delete an application from the monitoring list when there’s no longer a need to track its performance or activity. If necessary, you can add the application to the monitoring list later.
+Delete an application from the monitoring list when there’s no longer a need to track its performance or activity. If necessary, you can add the application in the monitoring list later.
 
 ## Before you begin
 
@@ -37,10 +36,12 @@ Role required: sn\_dex.admin
 
 5.  Select **Delete selected applications** in the **Actions** drop-down list.
 
-6.  In the confirmation dialog box, select **Delete**.
+6.  On the confirmation window, select **Delete**.
 
 
 ## Result
 
 The application is deleted from the list of monitored applications.
+
+**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-application-monitoring.md)
 

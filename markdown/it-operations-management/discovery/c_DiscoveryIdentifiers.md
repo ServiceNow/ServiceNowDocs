@@ -1,20 +1,20 @@
 ---
 title: Discovery identifiers
-description: After Discovery classifies a configuration item \(CI\), it uses identifiers to determine if the device already exists in the Configuration Management Database \(CMDB\).
+description: After Discovery classifies a configuration item \(CI\), it uses identifiers to determine if the device already exists in the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/c\_DiscoveryIdentifiers.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-24"
 reading_time_minutes: 5
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery identifiers
 
-After Discovery classifies a configuration item \(CI\), it uses identifiers to determine if the device already exists in the Configuration Management Database \(CMDB\).
+After Discovery classifies a configuration item \(CI\), it uses identifiers to determine if the device already exists in the CMDB.
 
 Discovery launches special identity probes that accumulate identification data for each device and feed that data into the identifiers. The identifiers determine the action that Discovery must take for each device. Identifiers accurately determine the identity of the device to avoid the creation of duplicate CIs. This identification step only takes place for the Configuration item type of discovery, not for the other types of discovery.
 

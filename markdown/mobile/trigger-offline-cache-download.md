@@ -1,22 +1,22 @@
 ---
-title: Configure offline caching upon writeback actions
+title: Trigger offline cache download
 description: Trigger offline cache download is an optional button attribute \(sys\_sg\_button\_atribute\_name\) that will generate an offline cache after a successful completion of the assigned writeback action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/trigger-offline-cache-download.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [User-triggered cache updates, Configure offline cache to devices, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Configure properties/action functions, Offline mode, Considerations before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
-# Configure offline caching upon writeback actions
+# Trigger offline cache download
 
 **Trigger offline cache download** is an optional button attribute \(**sys\_sg\_button\_atribute\_name**\) that will generate an offline cache after a successful completion of the assigned writeback action.
 
 ## Before you begin
 
-Role required: mobile\_admin, admin
+Role required: admin
 
 ## Procedure
 
@@ -30,7 +30,7 @@ Role required: mobile\_admin, admin
 
 3.  Select **Functions** from the menu and then select the function to which you want to add this behavior.
 
-4.  Verify that the **Type** field is set to **Action item**.
+4.  Ensure the **Type** field is set to **Action item**.
 
 5.  In the **Button attributes** section, select an existing button attribute record or select **New** to create one.
 
@@ -68,12 +68,12 @@ Value
 
 Enter one of the following values:-   Enter `true` to enable the offline cache download.
 -   Enter `false` to disable the offline cache download.
--   Leave the value empty to use the default value.
-**Note:** By default, the **Trigger offline cache download** value is empty.
+-   Leave the value blank to use the default value.
+**Note:** By default, the **Trigger offline cache download** value is blank.
 
 </td></tr></tbody>
 </table>7.  Select **Save**.
 
 
-**Parent Topic:**[Cache updates triggered by user actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/cache-update-user-action.md)
+**Parent Topic:**[Configure offline mode properties for action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/config-offline-properties-action-funct.md)
 

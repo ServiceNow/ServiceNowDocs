@@ -8,9 +8,9 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
 last_updated: "2026-10-09"
-reading_time_minutes: 8
+reading_time_minutes: 7
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
-breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector for Visibility Content default checks and policies
@@ -184,18 +184,6 @@ Oracle GLAS HW data collection
 
 </td></tr><tr><td>
 
-Software discovery via running processes
-
-</td><td>
-
-A background policy which discovers software without executable files in the configuration table \(**sn\_acc\_vis\_content\_process\_based\_sw\_config**\) and stores them in agent's local DB. The SAM discovery policy \(for Windows and macOS\) and Software Installed Policy \(for Linux\) gathers the information collected by this policy and saves it in the **cmdb\_sam\_sw\_install** table.
-
-</td><td>
-
-Software discovery via running processes
-
-</td></tr><tr><td>
-
 VISC Get application metric
 
 </td><td>
@@ -362,6 +350,4 @@ Gathers per-day usage metrics for the monitored URL from each managed device, an
 </table>## Business rule
 
 The **Enhanced Discovery – On CI Delete** business rule triggers the Endpoint Discovery Check when the CI associated with a given CI is deleted from sn\_agent\_cmdb\_ci\_agent.
-
-**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

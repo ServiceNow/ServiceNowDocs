@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Exploring Collaboration services for Zoom, ServiceNow for Zoom, EmployeeWorks, Employee Service Management]
+breadcrumb: [Explore, ServiceNow for Zoom, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Collaboration services for Zoom Team Chat

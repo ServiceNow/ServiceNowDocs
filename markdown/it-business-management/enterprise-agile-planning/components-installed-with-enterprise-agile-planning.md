@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Reference, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -49,7 +49,8 @@ EAP user \[sn\_apw\_advanced.eap\_user\]
 </td><td>
 
 -   Can create, update, and delete work items
--   Can create iterations such as Planning Intervals and Sprints when a timeline already exists for the team, but can't change iteration dates
+-   Can create iterations such as Planning Intervals and Sprints for a team with an existing timeline, and can set the start and end dates while creating one
+-   Can change the start date and the end date of an iteration that doesn't follow a planning calendar entry
 -   Can access the team's Backlog and Planning Board
 
 </td><td>

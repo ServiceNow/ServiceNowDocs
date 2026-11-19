@@ -1,5 +1,5 @@
 ---
-title: Using Machine Identity Console
+title: Use Machine Identity Console
 description: Manage your service accounts which are used for integrations with ServiceNow using the Machine Identity Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/use-machine-identity-console.html
@@ -7,20 +7,20 @@ release: zurich
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Machine Identity Console, Identity]
 ---
 
-# Using Machine Identity Console
+# Use Machine Identity Console
 
 Manage your service accounts which are used for integrations with ServiceNow using the Machine Identity Console.
 
 ## Before you begin
 
-Role required: mi\_admin
+Role required: admin
 
-Activate the **Machine Identity Management** `com.glide.identity.machine_identity_management` plugin. For more information, see [Activating Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/activate-machine-identity-console.md).
+Activate the **Machine Identity Management** `com.glide.identity.machine_identity_management` plugin. For more information, see [Activate Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/identity/activate-machine-identity-console.md).
 
 ## Procedure
 

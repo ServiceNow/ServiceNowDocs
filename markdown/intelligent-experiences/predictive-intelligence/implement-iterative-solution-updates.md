@@ -7,9 +7,9 @@ release: zurich
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
 ---
 
 # Export trained solutions to production
@@ -46,6 +46,4 @@ Your trained ML solution artifacts, such as solution definitions, template recor
 Depending on where you are in your solution testing, schedule your update set for export to another non-production instance for further testing, or on to production.
 
 **Note:** After you export a similarity solution, click **Refresh similarity window \(Required after Solution Import\)** in the Related Links section of the corresponding ML Solution Definition form.
-
-**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
 

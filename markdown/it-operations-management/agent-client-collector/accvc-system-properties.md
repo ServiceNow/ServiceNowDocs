@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-10-15"
 reading_time_minutes: 12
 keywords: [Agent Client Collector for Visibility, ACC-VC, system properties, sn\_acc\_vis\_content]
-breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector, IT Operations Management]
 ---
 
 # ACC-VC system properties
@@ -579,6 +579,4 @@ The following properties apply only to Windows non-persistent virtual desktop in
 |--------|-----------|
 |**sn\_acc\_vis\_content.np\_vdi.cache\_installed\_software\_enabled**|Caches the full installed software scan on NPVDI endpoints so that it runs only one time for each golden image.|
 |**sn\_acc\_vis\_content.np\_vdi.enhanced\_discovery\_skip\_modules**|Lists the **Enhanced Discovery** modules to skip on NPVDI endpoints.|
-
-**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

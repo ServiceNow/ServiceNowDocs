@@ -7,7 +7,7 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Device details pages, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
@@ -32,7 +32,7 @@ Wi-Fi details
 
 </td><td>
 
-Wi-Fi connection details, including network name, signal strength, Wi-Fi protocol, transmit rate, and basic service set identifier \(BSSID\).
+Wi-Fi connection details, including network name, signal strength, Wi-Fi protocol, transmit rate, and Basic Service Set Identifier \(BSSID\).
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Network category
 
 </td><td>
 
-Network type. For example, Public, Private, DomainAuthenticated.
+Indicates the network type. For example, Public, Private, DomainAuthenticated.
 
 For installed VPNs \(for example, Zscaler\), the DomainAuthenticated value indicates that VPN is connected. However, for cloud VPNs \(for example, GlobalProtect\), you can only infer if VPN is connected by confirming that the Interface description matches your VPN name.
 
@@ -96,7 +96,7 @@ Domain auth type
 
 </td><td>
 
-Type of domain authentication used for the network.For example, Ldap.
+Specifies the type of domain authentication used for the network.For example, Ldap.
 
 </td></tr><tr><td>
 
@@ -125,7 +125,7 @@ Descriptive name of the hardware or virtual interface. For example, network adap
 </td></tr></tbody>
 </table>## App connection stability page
 
-On Windows devices only, the page displays network stability as graphs of latency, packet loss, and jitter.
+Applicable to Windows OS only, information about the network stability is expressed graphically by latency, packet loss, and jitter.
 
 <table id="table_jkj_djz_cdc"><thead><tr><th>
 

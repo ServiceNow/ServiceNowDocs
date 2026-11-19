@@ -1,16 +1,16 @@
 ---
-title: Playbooks and Solutions
+title: Playbooks and solutions
 description: Public Sector Digital Services provides agents across government agencies with a tailored workspace experience to work on cases created by constituents, businesses, and agencies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/using-public-sector-workspace-for-government-agents.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Explore, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Playbooks and Solutions
+# Playbooks and solutions
 
 Public Sector Digital Services provides agents across government agencies with a tailored workspace experience to work on cases created by constituents, businesses, and agencies.
 
@@ -26,8 +26,9 @@ Public Sector Digital Services provides agents across government agencies with a
 
     A playbook provides government service agents with step-by-step guidance through the life cycle of a government service case. Use Playbooks to fulfill requests for license and permits, government records and other public information, or non-emergency service requests, and to review applications for grants or the social benefits programs your agency offers. The workflows that are associated with a specific type of case and the activities that need to be completed to resolve cases of this type are detailed in the playbook. Playbooks also help your agents to visualize the entire life cycle of a workflow.
 
-    Four applications are available with Public Sector Digital Services that enable you to use playbooks:
+    The following applications are available with Public Sector Digital Services that enable you to use playbooks:
 
+    -   Grants Management
     -   Social Benefits Playbook
     -   License and Permit Administration
     -   Information Request Administration
@@ -42,7 +43,7 @@ Public Sector Digital Services provides agents across government agencies with a
 
     Public Sector Digital Services playbooks are setup on and are accessed through the Public Sector Workspace to provide step-by-step guidance to agents for resolving specific types of government service cases, including service requests, information requests, license and permit, and social benefits cases.
 
-    To learn more about CSM Configurable Workspace, see Explore CSM Configurable Workspace.
+    To learn more about CSM Configurable Workspace, see [Explore CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/exploring-configurable-workspace.md).
 
 -   **Mobile Agent**
 

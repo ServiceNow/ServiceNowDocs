@@ -1,20 +1,20 @@
 ---
-title: Web application Overview page
-description: The Overview page for a web application provides information on active alerts, active devices, active incidents, currently impacted devices, and the mean time to resolve incidents.
+title: Web application — Overview page
+description: The overview page for a Web application provides information on the active alerts, active devices, incidents, impacted devices, and the average-to-resolve time for the incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/web-application-overview-form.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Applications list, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
-# Web application Overview page
+# Web application — Overview page
 
-The Overview page for a web application provides information on active alerts, active devices, active incidents, currently impacted devices, and the mean time to resolve incidents.
+The overview page for a Web application provides information on the active alerts, active devices, incidents, impacted devices, and the average-to-resolve time for the incidents.
 
 |Field|Description|
 |-----|-----------|

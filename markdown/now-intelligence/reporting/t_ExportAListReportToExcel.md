@@ -7,9 +7,9 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-02"
 reading_time_minutes: 1
-breadcrumb: [List reports, Core UI Report types, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [List reports, Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Export a list report

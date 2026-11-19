@@ -1,22 +1,22 @@
 ---
 title: Value dashboards
-description: The Value dashboard provides real-time visibility into the productivity gains and financial returns delivered by your AI Control Tower agents. Track hours saved, cost savings, net returns, and system performance to measure ROI and demonstrate AI investment impact.
+description: The Value dashboard provides real-time visibility into the productivity gains and financial returns delivered by your Control Tower agents. Track hours saved, cost savings, net returns, and system performance to measure ROI and demonstrate AI investment impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/md-value-dashboards-enterprise.html
 release: zurich
 topic_type: concept
-last_updated: "2026-11-06"
-reading_time_minutes: 5
-breadcrumb: [Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+last_updated: "2026-11-19"
+reading_time_minutes: 6
+breadcrumb: [Dashboards, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Value dashboards
 
-The Value dashboard provides real-time visibility into the productivity gains and financial returns delivered by your AI Control Tower agents. Track hours saved, cost savings, net returns, and system performance to measure ROI and demonstrate AI investment impact.
+The Value dashboard provides real-time visibility into the productivity gains and financial returns delivered by your Control Tower agents. Track hours saved, cost savings, net returns, and system performance to measure ROI and demonstrate AI investment impact.
 
-The Value dashboard aggregates metrics across all deployed AI agents and systems, enabling you to understand the business impact of your AI Control Tower implementation. Use this dashboard to track productivity improvements, monitor financial returns, compare agent performance, and communicate value to stakeholders.
+The Value dashboard aggregates metrics across all deployed AI agents and systems, enabling you to understand the business impact of your Control Tower implementation. Use this dashboard to track productivity improvements, monitor financial returns, compare agent performance, and communicate value to stakeholders.
 
-To view the Value dashboard on AI Control Tower, navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Value**.\[Omitted image "aict-value-dashboard.png"\] Alt text: View the Value dashboard and the different value metrics.
+To view the Value dashboard on Control Tower, navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **Value**.\[Omitted image "mv-value-dashboard.png"\] Alt text: View the Value dashboard and the different value metrics.
 
 **Note:** All metrics on the Value dashboard default to the last 30 days. Use the time period selector in the top-right corner to adjust the date range and view metrics for different time periods \(for example, last 7 days, last 90 days, or a custom range\).
 
@@ -62,7 +62,42 @@ The Net AI return displays:
 -   Percentage change relative to the previous period
 -   A trend line about how the net returns have evolved over time
 
-Use this metric to demonstrate business value and justify continued investment in AI Control Tower capabilities.
+Use this metric to demonstrate business value and justify continued investment in Control Tower capabilities.
+
+## Usage by user and department page
+
+The Usage by user and department section shows a detailed breakdown of AI costs and adoption across users and departments in your organization. To open the page, select the external link icon on the Usage by user and department card on the Value dashboard. The section currently supports ServiceNow and Anthropic AI systems.
+
+The dashboard displays:
+
+-   **Filters and actions**
+
+    Date range: The period for all data on the page. The default is the last 30 days.
+
+    Sync records: Retrieves the latest usage records.
+
+    Vendor: Shows data for the selected vendor or all supported vendors.
+
+    AI systems: Shows data for all AI systems combined.
+
+-   **Totals for selected AI systems**
+
+    The summary metrics reflect the selected vendor, AI systems, and date range:
+
+    Assists consumed: The total number of assists used.
+
+    Tokens consumed: The total number of tokens used.
+
+    Total cost: The total cost attributed to users.
+
+    Total users: The number of users who consumed AI.
+
+    Departments: The number of departments those users belong to.
+
+-   **Breakdown tables**
+
+    The By department tab lists each department with these columns: usage, assists consumed, tokens consumed, cost, and total users. The By user tab shows the same breakdown for individual users. In both tabs, you can search, filter, and sort the table.
+
 
 ## Total AI cost
 
@@ -92,13 +127,13 @@ The AI system usage section provides insights into how your AI systems are being
 
 -   **Persona mix**
 
-    The Persona mix section indicates which user personas are driving the most value from your AI Control Tower. This metric shows what percentage of your AI systems serve fulfiller personas or other user types.
+    The Persona mix section indicates which user personas are driving the most value from your Control Tower. This metric shows what percentage of your AI systems serve fulfiller personas or other user types.
 
     The persona mix helps target adoption efforts, identify the under-served user groups, and prioritize agent development for high-value personas.
 
 -   **Model performance**
 
-    The Model performance section indicates the AI model types powering your AI Control Tower systems. For example, this metric flags whether all your AI systems are using agentic AI models or if you're using a mix of model types.
+    The Model performance section indicates the AI model types powering your Control Tower systems. For example, this metric flags whether all your AI systems are using agentic AI models or if you're using a mix of model types.
 
     Use this insight to verify consistency in AI capabilities and plan upgrades to newer, higher-performing models.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-01"
+last_updated: "2026-11-16"
 reading_time_minutes: 8
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -33,7 +33,7 @@ To access the Discovery Admin Workspace Schedules page, navigate to **Workspaces
 
     Enables you to choose how you want to discover your resources, through IP-based, Cloud, or Certificate discovery. The **New Discovery** option is available from any tab on the **Schedules** page.
 
-    **Note:** Certificate discovery is available in Discovery Admin Workspace starting with v1.20.0 and requires the Brazil, Australia, or Zurich release starting with patch 8.
+    **Note:** Certificate discovery is available in Discovery Admin Workspace starting with v1.20.8 and requires the Brazil, Australia, or Zurich release starting with Patch 8. Starting with v1.23.0, the **Certificate discovery** option is available only when Certificate Inventory and Management is installed.
 
 -   **Overview tab**
 
@@ -150,7 +150,7 @@ Displays the count of all Discovery errors by category.Select a category to add 
 
     Select a Discovery schedule from the table to view extensive details and update schedule field parameters. For more information, see [Discovery Admin Workspace schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_daw-disco-schedule-details.md).
 
--   **Certificate discovery**
+-   **Certificate Discovery tab**
 
     Provides a centralized view for monitoring and managing certificate Discovery schedules. Depending on the state of your schedules, items that require attention are displayed. Select **Review that list of IP-based schedules** to open the IP-based discovery tab. To resolve certificate schedule errors, select **Review schedules** to open the [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page. To review discovered certificates, select **Go to Certificate Management Workspace** to access the Certificate Inventory and Management Workspace.
 
@@ -160,7 +160,7 @@ Displays the count of all Discovery errors by category.Select a category to add 
     -   URL scans: Collects certificates from a list of URLs that you specify in a new certificate Discovery schedule. For more information, see [Run Certificate Discovery via URL scans in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/daw-discover-certs-url.md).
     Select a Discovery schedule from the table to view extensive details and update schedule field parameters. For more information, see [Discovery Admin Workspace schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/c_daw-disco-schedule-details.md).
 
-    **Note:** Certificate discovery is available in Discovery Admin Workspace starting with v1.20.0 and requires the Brazil, Australia, or Zurich release starting with Patch 8.
+    **Note:** Certificate discovery is available in Discovery Admin Workspace starting with v1.20.8 and requires the Brazil, Australia, or Zurich release starting with Patch 8. Starting with v1.23.0, Certificate Inventory and Management isn't installed with Discovery Admin Workspace. The **Certificate Discovery** tab is disabled until Certificate Inventory and Management is installed.
 
 -   **Discovery status tab**
 

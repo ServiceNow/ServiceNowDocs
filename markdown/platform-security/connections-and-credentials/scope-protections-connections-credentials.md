@@ -7,7 +7,7 @@ release: zurich
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Explore credentials, connections, and aliases, Connections and Credentials, Access Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Explore credentials, connections, and aliases, Connections and Cred
 
 You can classify certain types of Connection &amp; Credential records as belonging to a scope, and extend scope protections to them. These scope policies protect records you create in a table, and prevent interactions with records that are private to another scope.
 
-An **Application** field is available in the Connection \[sys\_connection\] and Discovery Credentials \[discovery\_credentials\] tables for associating these types of records to specific scopes. It is not visible on UI forms in Brazil, but you can easily add it to them. To learn more about these record types, and adding the field to their UI forms, see:
+An **Application** field is available in the Connection \[sys\_connection\] and Discovery Credentials \[discovery\_credentials\] tables for associating these types of records to specific scopes. It is not visible on UI forms in Zurich, but you can easily add it to them. To learn more about these record types, and adding the field to their UI forms, see:
 
 -   [Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/connection-information.md)
 -   [Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/connections-and-credentials/credentials-getting-started.md)
@@ -31,7 +31,7 @@ Restricting the use of a Connection &amp; Credentials record to a specific scope
 
 -   Protects records when queried using a script. If you do a query from the Global scope, and the Connection &amp; Credential record is in a protected scope, it doesn't appear in the query, unless given access to it.
 
-You can customize and grant access to query-restricted records by using Restricted Caller Access. To learn more, see [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/restricted-caller-access-privilege.md). Scoping restrictions also apply to all children tables of the Connection \[sys\_connection\] and Discovery Credentials \[discovery\_credentials\] tables. Empty fields and other scopes are not restricted.
+You can customize and grant access to query-restricted records by using Restricted Caller Access. To learn more, see Restricted caller access privilege settings. Scoping restrictions also apply to all children tables of the Connection \[sys\_connection\] and Discovery Credentials \[discovery\_credentials\] tables. Empty fields and other scopes are not restricted.
 
 **Note:** Scope protections are only enabled for specific secured scopes to avoid confusion when setting up new records. If someone makes a connection in their scoped application scope, it doesn't have automatic scope restriction.
 

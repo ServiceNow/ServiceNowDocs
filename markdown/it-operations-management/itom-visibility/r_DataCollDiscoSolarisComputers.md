@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -51,7 +51,7 @@ Discovery identifies and classifies information about Solaris computers.
 
 -   **Set the preferred IP address version for network adapter discovery**
 
-    Starting with Visibility Content version 6.32.0, if your network adapters support both IPv4 and IPv6, the IPv4 address is populated by default in the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
+    Starting with Visibility Content version 6.32.0, the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table defaults to IPv4 when adapters support both IPv4 and IPv6. To control the preferred IP version, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
 
 
 ## Classifier, probes, and pattern

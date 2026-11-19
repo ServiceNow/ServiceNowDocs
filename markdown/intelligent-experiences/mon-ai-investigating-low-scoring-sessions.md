@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Investigating low-scoring sessions
@@ -28,5 +28,5 @@ View metric breakdowns, the judge's reasoning, and trace and span data for a spe
 -   **[Investigate a low-scoring session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-investigate-session-task.md)**  
 Determine the root cause of a low quality or safety score by working through the session detail, trace timeline, and span-level input and output data.
 
-**Parent Topic:**[Monitoring and evaluating AI systems in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-landing.md)
+**Parent Topic:**[Monitoring and evaluating AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-landing.md)
 

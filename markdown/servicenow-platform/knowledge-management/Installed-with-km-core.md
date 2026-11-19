@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -234,4 +234,5 @@ Knowledge Applied to Tasks\[m2m\_kb\_task\]
 Stores information about articles attached to tasks \(incident, case, or problem\).
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Knowledge Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/knowledge-management-reference.md)
+

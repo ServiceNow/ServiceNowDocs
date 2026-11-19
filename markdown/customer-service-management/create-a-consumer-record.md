@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/create-a-consumer-record.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
@@ -16,15 +16,7 @@ Consumer service agents and managers can create consumer records from the Custom
 
 ## Before you begin
 
-Role required: One of the following roles:
-
--   sn\_crm\_consumer\_data\_manager
--   sn\_crm\_consumer\_relationship\_data\_manager
--   sn\_crm\_foundation\_data\_manager
--   sn\_crm\_foundation\_admin
--   sn\_customerservice.consumer\_agent
--   sn\_customerservice\_manager
--   admin
+Role required: sn\_customerservice.consumer\_agent, sn\_customerservice\_manager, or admin
 
 ## Procedure
 

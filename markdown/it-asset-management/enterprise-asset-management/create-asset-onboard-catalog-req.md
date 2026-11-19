@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, Asset Management]
+breadcrumb: [Use Service Catalog for requests and flows, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create a catalog request for onboarding multiple assets
@@ -36,15 +36,15 @@ A minimum of one asset is required to submit a catalog request. Each catalog req
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_isk_ybf_gzb"><thead><tr><th align="left" id="d198642e92">
+<table id="choicetable_isk_ybf_gzb"><thead><tr><th align="left" id="d189183e92">
 
 Field
 
-</th><th align="left" id="d198642e95">
+</th><th align="left" id="d189183e95">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d198642e101">
+</th></tr></thead><tbody><tr><td id="d189183e101">
 
 **Due by**
 
@@ -52,7 +52,7 @@ Description
 
 Date by when the asset onboarding must be complete.This field is optional.
 
-</td></tr><tr><td id="d198642e112">
+</td></tr><tr><td id="d189183e112">
 
 **Requested for**
 
@@ -60,7 +60,7 @@ Date by when the asset onboarding must be complete.This field is optional.
 
 Person for whom the asset is requested.This field is optional.
 
-</td></tr><tr><td id="d198642e123">
+</td></tr><tr><td id="d189183e123">
 
 **Stockroom**
 
@@ -68,7 +68,7 @@ Person for whom the asset is requested.This field is optional.
 
 Select a stockroom for the assets.
 
-</td></tr><tr><td id="d198642e132">
+</td></tr><tr><td id="d189183e132">
 
 **Is new model?**
 
@@ -80,7 +80,7 @@ Select this check box for a new model you want to create. Once selected, enter t
 -   Short description
 **Note:** The above information is collected for creating a model record. The model record gets created in the Enterprise Asset Workspace.
 
-</td></tr><tr><td id="d198642e161">
+</td></tr><tr><td id="d189183e161">
 
 **Model**
 
@@ -88,7 +88,7 @@ Select this check box for a new model you want to create. Once selected, enter t
 
 Select an existing model record for the assets.
 
-</td></tr><tr><td id="d198642e170">
+</td></tr><tr><td id="d189183e170">
 
 **Add**
 

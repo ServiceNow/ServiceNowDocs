@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/invoice-ops-create-invoice-case.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Creating an invoice case, Case Management for Invoice Operations, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_csm\_invoice.agent, sn\_csm\_invoice.manager, admin
 
 ## Procedure
 
-1.  In CRM Workspace, select **New** from the Invoice Cases list view.
+1.  In CSM Configurable Workspace, select **New** from the Invoice Cases list view.
 
 2.  Add information to the Invoice Case form, such as **Account** and **Contact** and **Short description**.
 

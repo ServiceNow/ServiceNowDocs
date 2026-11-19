@@ -1,27 +1,27 @@
 ---
 title: How monitoring scores contribute to AI value
-description: Quality scores from monitoring can feed the value calculation. The value an AI system reports then reflects how well it performs, not just how often it is used.
+description: Quality scores from monitoring in Super Intelligence Control Tower can feed the value calculation. The value an AI system reports then reflects how well it performs, not just how often it is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mon-ai-monitoring-value.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-08"
 reading_time_minutes: 1
 keywords: [monitoring, value, quality score]
-breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # How monitoring scores contribute to AI value
 
-Quality scores from monitoring can feed the value calculation. The value an AI system reports then reflects how well it performs, not just how often it is used.
+Quality scores from monitoring in Super Intelligence Control Tower can feed the value calculation. The value an AI system reports then reflects how well it performs, not just how often it is used.
 
-Value calculations in AI Control Tower measure productivity by combining how often an AI system is used, how much time it saves per use, and a quality dimension.
+Value calculations in Control Tower measure productivity by combining how often an AI system is used, how much time it saves per use, and a quality dimension.
 
 ```
 Productivity = Usage × Time × Quality
 ```
 
-The quality dimension can be a constant, an indicator, or the quality score that monitoring produces. When a value template uses the quality score, AI Control Tower pulls the live score from the monitoring pipeline into the calculation, so the productivity an AI system reports reflects how well it actually performs.
+The quality dimension can be a constant, an indicator, or the quality score that monitoring produces. When a value template uses the quality score, Control Tower pulls the live score from the monitoring pipeline into the calculation, so the productivity an AI system reports reflects how well it actually performs.
 
 ## Why quality scores improve value accuracy
 

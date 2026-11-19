@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -177,15 +177,15 @@ When you use [translate with Dynamic Translation](https://raw.githubusercontent.
 
     **Important:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the AI Skill Kit .
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d405028e591">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d392700e591">
 
 To
 
-</th><th align="left" id="d405028e594">
+</th><th align="left" id="d392700e594">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d405028e600">
+</th></tr></thead><tbody><tr><td id="d392700e600">
 
 **Evaluate a prompt for each input template**
 
@@ -199,7 +199,7 @@ Do this
 2.  Select **Run Test**.\[Omitted image "now-assist-itsm-evaluate-prompt.png"\] Alt text: Run test for the selected incident record
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the incident state selections and retest as needed.
 
-</td></tr><tr><td id="d405028e639">
+</td></tr><tr><td id="d392700e639">
 
 **Edit the prompt in the AI Skill Kit and test the prompt**
 

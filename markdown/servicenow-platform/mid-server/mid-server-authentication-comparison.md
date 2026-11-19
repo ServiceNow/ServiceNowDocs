@@ -8,7 +8,7 @@ product: MID Server
 classification: mid-server
 topic_type: concept
 last_updated: "2026-10-29"
-reading_time_minutes: 7
+reading_time_minutes: 8
 keywords: [MID Server authentication, basic authentication, mTLS, mutual authentication, IPKI]
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -63,6 +63,8 @@ IPKI authenticates the MID Server to the instance. It doesn't change the service
 [Rekey a MID Server]()
 
 [Add SSL certificates for the MID Server]()
+
+[Specify an external TrustStore for the MID Server]()
 
 [MID Server SSH cryptographic algorithms]()
 

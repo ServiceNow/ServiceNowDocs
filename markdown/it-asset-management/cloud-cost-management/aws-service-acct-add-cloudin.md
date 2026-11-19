@@ -7,9 +7,9 @@ release: zurich
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management]
 ---
 
 # Add an AWS service account
@@ -18,15 +18,13 @@ Add an AWS service account to store the credential and access information.
 
 ## Before you begin
 
-You must perform these tasks:
+You must configure the MID Server for the IAM role. For more information, see [Configure the MID Server for AWS IAM role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/config-mid-iam-roles.md).
 
--   Set up download jobs for billing and price sheet data for the service account.
--   [Configure the MID Server for AWS IAM role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/config-mid-iam-roles.md).
--   Role required: discovery\_admin or sn\_cmp.cloud\_admin
+Role required: discovery\_admin
 
 ## About this task
 
-A service account is a secure record on your instance that stores the credential and access information for your provider account. Discovery uses the information to access your provider account to get data on each resource in each specified datacenter. A cloud account can include multiple service accounts — even service accounts from different providers. For each service account, you specify which datacenters to include in the cloud account.
+A service account is a secure record on your instance that stores the credential and access information for your provider account. Discovery uses the information to access your provider account to get data on each resource in each specified datacenter. A cloud account can include multiple service accounts and even service accounts from different providers. For each service account, you specify which datacenters to include in the cloud account.
 
 ## Procedure
 
@@ -92,7 +90,7 @@ Datacenter discovery status
 
 </td><td>
 
-Status and timestamp of the last execution of Discovery on the datacenter.This value is generated automatically.
+The status and timestamp of the most recent execution of "Discover Datacenters" for this cloud service account. "Discover Datacenters" identifies the datacenters \(regions\) associated with the account.This field is generated automatically and you can't edit it.
 
 </td></tr><tr><td>
 

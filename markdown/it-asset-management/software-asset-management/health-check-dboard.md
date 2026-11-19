@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Success portal view in Software Asset Workspace, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Success portal view in Software Asset Workspace, Software Asset Workspace, Explore, Software Asset Management, IT Asset Management]
 ---
 
 # Health check
@@ -48,7 +48,6 @@ Number of checks available for the following suites:-   SQL Server Config
 -   Windows Server Config
 -   Oracle Database
 -   Java - Oracle
--   WebLogic Server - Oracle
 -   Microsoft 365
 -   General
 
@@ -83,7 +82,6 @@ The number of open records for each of the following suites:-   SQL Server Confi
 -   Windows Server Config
 -   Oracle Database
 -   Java - Oracle
--   WebLogic Server - Oracle
 -   Microsoft 365
 -   General
 

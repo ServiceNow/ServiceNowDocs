@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Moveworks for Employee Center, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
+breadcrumb: [Moveworks for Employee Center, Configure, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Moveworks for Employee Center reference
@@ -58,7 +58,7 @@ Verify the following configuration:
 
 [Getting started with Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
 
-[Install Moveworks for Employee Center application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-install-app.md)
+[Install Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-install-app.md)
 
 [Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md)
 

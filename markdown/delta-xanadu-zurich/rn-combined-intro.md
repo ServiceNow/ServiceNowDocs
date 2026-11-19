@@ -39,8 +39,8 @@ Consolidated page of all release notes for Agent Workspace for HR Case Managemen
 Consolidated page of all release notes for AI Agent Studio from Xanadu to Zurich.
 -   **[Combined AI Analytics release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-aianalytics-release-notes.md)**  
 Consolidated page of all release notes for AI Analytics from Xanadu to Zurich.
--   **[Combined AI Control Tower release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-aicontroltower-release-notes.md)**  
-Consolidated page of all release notes for AI Control Tower from Xanadu to Zurich.
+-   **[Combined AI Cost Management release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-aicostmanagement-release-notes.md)**  
+Consolidated page of all release notes for AI Cost Management from Xanadu to Zurich.
 -   **[Combined AI Desktop Actions release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-aidesktopactions-release-notes.md)**  
 Consolidated page of all release notes for AI Desktop Actions from Xanadu to Zurich.
 -   **[Combined AIOps LEAP release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-aiopsleap-release-notes.md)**  
@@ -145,6 +145,8 @@ Consolidated page of all release notes for Continuous Authorization and Monitori
 Consolidated page of all release notes for Contract Management Pro from Xanadu to Zurich.
 -   **[Combined Contract Management Pro for Legal Service Delivery release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-contractmanagementproforlegalservicedelivery-release-notes.md)**  
 Consolidated page of all release notes for Contract Management Pro for Legal Service Delivery from Xanadu to Zurich.
+-   **[Combined Control Tower release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-controltower-release-notes.md)**  
+Consolidated page of all release notes for Control Tower from Xanadu to Zurich.
 -   **[Combined Conversation Improvement Themes release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-conversationimprovementthemes-release-notes.md)**  
 Consolidated page of all release notes for Conversation Improvement Themes from Xanadu to Zurich.
 -   **[Combined Conversation Insights release notes for upgrades from Xanadu to Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-xanadu-zurich/zurich-xanadu-conversationinsights-release-notes.md)**  

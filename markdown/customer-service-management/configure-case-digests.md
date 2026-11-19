@@ -1,26 +1,26 @@
 ---
 title: Configure case digests
-description: The Case Digests application enables you to provide periodic updates and resolution information about high priority customer service cases to customers and internal stakeholders. You can install the Case Digests application \(com.sn\_csm\_case\_digest\) if you have the admin role.
+description: The case digests feature enables you to provide periodic updates and resolution information about high priority customer service cases to customers and internal stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-case-digests.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure case digests
 
-The Case Digests application enables you to provide periodic updates and resolution information about high priority customer service cases to customers and internal stakeholders. You can install the Case Digests application \(com.sn\_csm\_case\_digest\) if you have the admin role.
+The case digests feature enables you to provide periodic updates and resolution information about high priority customer service cases to customers and internal stakeholders.
 
 ## Before you begin
 
-Role required: csm\_guided\_setup\_user or admin
+Role required: admin
 
 ## About this task
 
-The Case Digests application includes two types of case communication:
+The case digests feature includes two types of case communication:
 
 -   **Case action summary**: While a case is in progress, agents can send periodic case updates that describe actions taken, next steps, and other case-related information.
 -   **Post case review**: When the work on a case has been completed, agents can a post a case review document that captures details about the issue, such as the root cause, mitigation plan, and preventive actions.

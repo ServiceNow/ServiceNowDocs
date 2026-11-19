@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/quick-message.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configure, Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Email client, Notifications, Configure core features, Administer]
 ---
 
 # Composing emails with quick messages

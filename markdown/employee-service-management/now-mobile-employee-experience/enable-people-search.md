@@ -7,9 +7,9 @@ release: zurich
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Mobile, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configure, Now Mobile app, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Define people search as inactive
@@ -34,6 +34,4 @@ Role required: admin
 ## Result
 
 Your users can no longer see search results for other users in the system.
-
-**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 

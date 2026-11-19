@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 5
-breadcrumb: [Flow administration, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Flow administration, Flows, Configure, Workflow Studio, Build workflows]
 ---
 
 # Flow execution details retention
@@ -22,7 +22,9 @@ By default, the system only generates execution details when you run a test. To 
 
 ## Scheduled table cleanup
 
-The system uses a standard table cleaner records to determine when to remove execution details. Each type of flow execution content is stored in its own table and has its own retention period. Once a record is older than its default retention period, it is deleted if it is in a completed state. To learn more about how to find and configure table cleaner records, see [Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-cleaner.md).
+The system uses a standard table cleaner records to determine when to remove execution details. Each type of flow execution content is stored in its own table and has its own retention period. After a record is older than its default retention period, it is deleted if it is in a completed state. To learn more about how to find and configure table cleaner records, see [Table cleaner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/table-cleaner.md).
+
+**Warning:** Avoid modifying the default table cleaner records for flows and subflows. Changing the default table cleaner records can corrupt currently running flows and subflows.
 
 <table id="table_hmm_shn_z2b"><thead><tr><th>
 

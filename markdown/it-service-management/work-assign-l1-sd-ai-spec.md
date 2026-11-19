@@ -101,6 +101,8 @@ Role required: awa\_admin
 
     Navigate to **All** &gt; **User Administration** &gt; **Users**, find and open the user record for the AI specialist, and check the roles in the **Roles** related list.
 
+    If the role is missing, add awa\_agent to the AI specialist user. It isn't assigned by default.
+
 2.  Navigate to **All** &gt; **Advanced Work Assignment** &gt; **Home** &gt; **Assignment rules**.
 
 3.  Select **New** to open the new record form or open an existing assignment rule.

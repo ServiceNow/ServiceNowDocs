@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-05"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Managing assist consumption \(Lux UI\), Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Managing assist consumption \(Lux UI\), Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
 # View your assist consumption in AI Admin Center \(Lux UI\)

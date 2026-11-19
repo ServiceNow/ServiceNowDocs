@@ -1,5 +1,5 @@
 ---
-title: Quick start tests for Core UI Dashboards
+title: Quick start tests for Dashboards
 description: Validate that Dashboards still work after you make any configuration change such as applying an upgrade. Copy and customize these quick start tests to pass when using your instance-specific data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/quick-start-tests-dashboards.html
@@ -7,12 +7,12 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Quick start tests for Core UI Dashboards
+# Quick start tests for Dashboards
 
 Validate that Dashboards still work after you make any configuration change such as applying an upgrade. Copy and customize these quick start tests to pass when using your instance-specific data.
 

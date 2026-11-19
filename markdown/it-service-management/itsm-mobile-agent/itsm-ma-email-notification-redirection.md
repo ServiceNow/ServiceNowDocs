@@ -1,28 +1,28 @@
 ---
-title: ITSM Mobile email notification redirection from the web
-description: Email notification redirection opens task records from email notifications in the ITSM Mobile application instead of the mobile web browser.
+title: ITSM Mobile email notification redirection via web
+description: Redirect the users to the ITSM Mobile application from the mobile web browser to open and view the task records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mobile-agent/itsm-ma-email-notification-redirection.html
 release: zurich
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring ITSM Mobile Agent, ITSM Mobile Agent, IT Service Management]
+breadcrumb: [Configure, ITSM Mobile Agent, IT Service Management]
 ---
 
-# ITSM Mobile email notification redirection from the web
+# ITSM Mobile email notification redirection via web
 
-Email notification redirection opens task records from email notifications in the ITSM Mobile application instead of the mobile web browser.
+Redirect the users to the ITSM Mobile application from the mobile web browser to open and view the task records.
 
-When you select the record link in an email notification on your mobile device, the link opens in the mobile web browser. A pop-up banner prompts you to view the record in the ITSM Mobile application.
+When you select the record link from the email notifications on the mobile, the link opens in the mobile web browser with a pop-up banner prompting you to view the record in the ITSM Mobile application which provides a faster and more intuitive way to access the records.
 
 To enable this feature, set the **Enable universal links** \(**glide.sg.universal\_links.enabled**\) system property to `true`.
 
-The feature uses mobile universal links. For details about how universal links work, see [Universal linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/universal-links-mobile.md).
+The feature is based on the universal linking of mobile. For more information, see [Universal linking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/mobile/universal-links-mobile.md).
 
-The email notification redirection applies to the following types of records:
+The email notification redirection is applicable to the following type of records:
 
 -   Incident
 -   Incident task

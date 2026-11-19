@@ -75,3 +75,5 @@ After configuring the integration, consider the following next steps:
 -   Create custom Vulnerability Crisis Management \(VCM\) workflows to trigger on early warning CVEs.
 -   Review and customize the Early Warning dashboard to fit your team's reporting needs.
 
+**Parent Topic:**[Early Warning for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/armis-early-warning-integration.md)
+

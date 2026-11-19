@@ -7,8 +7,8 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2025-07-31"
+reading_time_minutes: 5
 breadcrumb: [Design and Assign function, Use, Telecommunications Network Inventory]
 ---
 
@@ -32,27 +32,29 @@ After you complete each activity, the network diagram updates and displays the d
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  Select the design and assign icon \(\[Omitted image "icon-design-assign.png"\] Alt text: Design and Assign Icon\).
+    1.  Select the design and assign icon \(\[Omitted image "icon-design-assign.png"\] Alt text: Design and Assign Icon\).
 
-    The Design and Assign home page is displayed.
+        The Design and Assign home page is displayed.
 
-3.  Select **New** &gt; **Create Logical Connection**.
+    2.  Select **New** &gt; **Create Logical Connection**
 
-    A change request is created with **Design in progress** and the Design and Assign window is displayed.
+        A change request is created in Design in progress state. The Design and Assign window is displayed.
 
-4.  On the **Setup request details** card, fill in the fields.
+    3.  On the form, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
-    |Number|Change request number is automatically generated to instantiate a logical connection with the Design in progress state.|
-    |Category|Category of this change request. Select Other if your category isn’t in the list.|
-    |Priority|Priority of this change request.|
-    |Short description|Summary of the design.|
-    |Description|Description of the design in detail.|
+        |Field|Description|
+        |-----|-----------|
+        |Number|The change request number that is automatically generated to instantiate a logical connection with the Design in progress state.|
+        |Category|Category of this change request. Select **Other** if your category isn’t in the list.|
+        |Priority|Priority of this change request.|
+        |Short description|Summary of the design.|
+        |Description|Description of the design in detail.|
 
-5.  Select **Mark complete**.
+    4.  Select **Mark complete**.
 
-6.  On the **Setup logical connection** card, fill in the fields.
+2.  Set up the logical connection card.
+
+    1.  On the Setup logical connection card, fill in the fields.
 
 <table id="table_g5t_gg2_ndc"><thead><tr><th>
 
@@ -76,7 +78,7 @@ Bandwidth
 
 </td><td>
 
-Bandwidth for this logical connection. Only bandwidths compatible with the logical connection model are listed here.**Note:** Lists all bandwidths if no compatible bandwidth is available.
+Bandwidth for this logical connection. Only bandwidths compatible with the logical connection model are listed here.**Note:** This field lists all bandwidths if no compatible bandwidth is available.
 
 </td></tr><tr><td>
 
@@ -105,131 +107,59 @@ Logical connection template
 List of all templates based on the selected logical connection model.
 
 </td></tr></tbody>
-</table>7.  Select **Mark complete**.
+</table>    2.  Select **Mark complete**.
 
-8.  On the **Define end points** card, fill in the fields.
+3.  Define the end points.
 
-    |Field|Description|
-    |-----|-----------|
-    |Start site|Originating network site for this connection.|
-    |Start equipment|Originating equipment for this connection.|
-    |Start interface|Originating network interface for this connection.|
-    |End site|Destination network site for this connection.|
-    |End equipment|Destination equipment for this connection.|
-    |End interface|Destination network interface for this connection.|
+    1.  On the Define end points card, fill in the fields.
 
-9.  Select **Mark complete**.
+        |Field|Description|
+        |-----|-----------|
+        |Start site|Originating network site for this connection.|
+        |Start equipment|Originating equipment for this connection.|
+        |Start interface|Originating network interface for this connection.|
+        |End site|Destination network site for this connection.|
+        |End equipment|Destination equipment for this connection.|
+        |End interface|Destination network interface for this connection.|
 
-10. On the **Assign connection element** card, select **Add** and fill in the fields to select the connection element.
+    2.  Select **Mark complete**.
 
-    To skip this activity, select **Skip**.
+4.  Assign the connection element.
 
-<table id="table_qth_hg2_ndc"><thead><tr><th>
+    **Note:** To skip this activity, select **Skip**.
 
-Field
+    1.  On the Assign connection element card, select **Add**.
 
-</th><th>
+    2.  On the Assign connection element form, fill in the fields.
 
-Description
+    3.  Select **Mark complete**
 
-</th></tr></thead><tbody><tr><td>
+5.  Assign a protection element.
 
-Element type
+    **Note:** To skip this step, select **Skip**.
 
-</td><td>
+    1.  On the Assign protection element card, select **Add**.
 
-Type of connection element. Select one from the list.-   Network Interface
--   Physical Connection
--   Logical Connection
--   Equipment
--   Topology
+    2.  On the form, fill in the fields.
 
+        |Field|Description|
+        |-----|-----------|
+        |Start Site|Originating network site for this protection path.|
+        |Start equipment|Originating equipment for this protection path.|
+        |Model|Model where this protection logical connection is configured. Only compatible models based on the model relationship are displayed.|
+        |End Site|Destination network site for this protection path.|
+        |End equipment|Destination equipment for this protection path.|
+        |Protecting logical connection|Logical connection that acts as redundancy path.|
 
-</td></tr><tr><td>
+    3.  Select **Mark complete**.
 
-Element name
+6.  Define the number element.
 
-</td><td>
+    **Note:** To skip this step, select **Skip**.
 
-Connection element based on the event type that you're selected. By selecting the connection element, the Available capacity and Used capacity fields displays the capacity information of the connection element.
+    1.  On the Define number element card, select **Add**.
 
-</td></tr><tr><td>
-
-Model
-
-</td><td>
-
-Model where this connection element is configured.Only compatible models based on the model relationship are displayed.
-
-</td></tr><tr><td>
-
-Start Site
-
-</td><td>
-
-Originating network site for this connection element.**Note:** This field is available for Physical Connection and Logical Connection element types.
-
-</td></tr><tr><td>
-
-End Site
-
-</td><td>
-
-Destination network site for this connection element.**Note:** This field is available only for Physical Connection and Logical Connection element types.
-
-</td></tr><tr><td>
-
-Start equipment
-
-</td><td>
-
-Originating equipment for this connection element.**Note:** This field is available only for Physical Connection and Logical Connection element types.
-
-</td></tr><tr><td>
-
-End equipment
-
-</td><td>
-
-Destination equipment for this connection element.**Note:** This field is available only for Physical Connection and Logical Connection element types.
-
-</td></tr><tr><td>
-
-Route
-
-</td><td>
-
-Number of routes.
-
-</td></tr><tr><td>
-
-Sequence
-
-</td><td>
-
-Number of sequences.
-
-</td></tr></tbody>
-</table>11. Select **Mark complete**.
-
-12. On the **Assign protection element** card, select **Add** and fill in the fields to select the protection element.
-
-    To skip this step, select **Skip**.
-
-    |Field|Description|
-    |-----|-----------|
-    |Start Site|Originating network site for this protection path.|
-    |Start equipment|Originating equipment for this protection path.|
-    |Model|Model where this protection logical connection is configured. Only compatible models based on the model relationship are displayed.|
-    |End Site|Destination network site for this protection path.|
-    |End equipment|Destination equipment for this protection path.|
-    |Protecting logical connection|Logical connection that acts as redundancy path.|
-
-13. Select **Mark complete**.
-
-14. On the **Define number element** card, select **Add** and fill in the fields to select the number element.
-
-    To skip this step, select **Skip**.
+    2.  On the form, fill in the fields.
 
 <table id="table_t5p_th2_ndc"><thead><tr><th>
 
@@ -288,141 +218,50 @@ Number
 Unassigned numbers are displayed here, and you can select multiple ones.
 
 </td></tr></tbody>
-</table>15. Select **Mark complete**.
+</table>    3.  Select **Mark complete**.
 
-16. On the **Define IP address** card, select **Add** and fill in the fields to select the IP address.
+7.  Define the IP address.
 
-    To skip this step, select **Skip**.
+    **Note:** To skip this step, select **Skip**.
 
-    |Field|Description|
-    |-----|-----------|
-    |IP pool|Parent pool of this IP address allocation.|
-    |IP sub network|IP network subnet of this IP address allocation.|
-    |Allocated IP address|Select the allocated IP addresses.|
+    1.  On the Define IP address card, select **Add**.
 
-17. Select **Mark complete**.
+    2.  On the form, fill in the fields.
 
-18. On the **Set attributes** card, select **Add** and fill in the fields to select the connection element.
+        |Field|Description|
+        |-----|-----------|
+        |IP pool|Parent pool of this IP address allocation.|
+        |IP sub network|IP network subnet of this IP address allocation.|
+        |Allocated IP address|Select the allocated IP addresses.|
 
-    If you want to skip this step, select **Skip**.
+    3.  Select **Mark complete**.
 
-<table id="table_z44_f32_ndc"><thead><tr><th>
+8.  Set the attributes.
 
-Field
+    **Note:** If you want to skip this step, select **Skip**.
 
-</th><th>
+    1.  On the Set attributes card, select **Add**.
 
-Description
+    2.  On the attribute form, fill in the fields.
 
-</th></tr></thead><tbody><tr><td>
+        To learn more about fields, see [Attribute form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/attribute-form.md)
 
-Connection name
-
-</td><td>
-
-Name of the logical connection record. Add connection name, otherwise default name is added
-
-</td></tr><tr><td>
-
-Life cycle stage
-
-</td><td>
-
-Stage of the life cycle that this network asset is in:
-
--   **Deploy**
-
-Network asset that is deployed in your network.
-
--   **Design**
-
-Network asset that is being used for design purposes.
-
--   **End of life**
-
-Network asset that is at the end of its useful life.
-
--   **Inventory**
-
-Network asset that is an inventory item in use in the network.
-
--   **End of life**
-
-Network asset that is missing and can't be located.
-
--   **Operational**
-
-Network asset that is operational.
-
--   **Purchase**
-
-Network asset that is in the purchase phase of its life.
-
-</td></tr><tr><td>
-
-Life cycle stage status
-
-</td><td>
-
-Status of the network asset as it relates to the life cycle stage that it is in:
-
--   **In Maintenance**
-
-Network asset that is currently in maintenance.
-
--   **In Use**
-
-Network asset that is currently in use.
-
--   **Pending Retirement**
-
-Network asset that is currently in maintenance.
-
-</td></tr><tr><td>
-
-Supported by
-
-</td><td>
-
-Name of the person who supports this network asset.
-
-</td></tr><tr><td>
-
-Supported by group
-
-</td><td>
-
-Group that supports the network inventory.
-
-</td></tr><tr><td>
-
-Comments \(Customer visible\)
-
-</td><td>
-
-Any comments.
-
-</td></tr><tr><td>
-
-Operational notes
-
-</td><td>
-
-Free-form operation note text for this network asset. For example, `Check diesel fuel for generator`.
-
-</td></tr></tbody>
-</table>19. On the **Review and submit** card, fill in the fields.
+9.  On the Review and submit card, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Notes|Any additional notes.|
 
-20. Select **Submit**.
+10. Select **Submit**.
 
 
 ## Result
 
-The change tasks are created and executed for each activity. The logical connection record is created with the associated Configuration items \(CI\).
+The change tasks are created and executed for each activity. The logical connection record is created. The created logical connection automatically associates the interface with its corresponding card or equipment.
+
+**Note:**
+
+The system now automatically associates each logical interface with its corresponding card or equipment. With the logical and physical interface alignment enhancement, logical interfaces \(such as VLANs\) and physical interfaces \(such as Gigabyte Ethernet ports\) are mapped to their parent equipment or card. The system establishes a parent relationship for each logical interface using the parent’s unique serial number for accurate identification. This enhancement ensures consistency across systems and prevents duplicate CI creation by aligning identification and relationship logic between logical and physical interfaces.
 
 **Parent Topic:**[Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/using-playbooks-design-assign-inventory-record.md)
 

@@ -1,24 +1,24 @@
 ---
-title: DEX Desktop Assistant
-description: DEX Desktop Assistant provides quick access to self-service and diagnostic tools, notifications about outages and announcements, and support resources.
+title: Use DEX Desktop Assistant
+description: Use DEX Desktop Assistant to get quick access to self-service and diagnostic tools, notifications about outages and announcements, and support resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/use-dex-desktop-exp.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Solve issues, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Digital End-User Experience, IT Operations Management]
 ---
 
-# DEX Desktop Assistant
+# Use DEX Desktop Assistant
 
-DEX Desktop Assistant provides quick access to self-service and diagnostic tools, notifications about outages and announcements, and support resources.
+Use DEX Desktop Assistant to get quick access to self-service and diagnostic tools, notifications about outages and announcements, and support resources.
 
 The DEX Desktop Assistant provides a dedicated communication interface for employees, enabling access to self-service options, IT notifications, and support resources.
 
-Desktop Assistant enables employees to perform network diagnostics, access IT catalogs, use the ServiceNow® Employee Center, and interact with virtual agents for assistance. IT teams can use the tool to issue outage notifications or critical announcements.
+Desktop Assistant facilitates streamlined workflows by enabling employees to perform network diagnostics, access IT catalogs, use the ServiceNow® Employee Center, and interact with virtual agents for assistance. IT teams can use the tool to issue outage notifications or critical announcements, promoting timely communication and efficient support delivery.
 
 <table id="table_r2b_mxq_lwb"><thead><tr><th>
 
@@ -49,7 +49,7 @@ Sections
 
 Sections help you search for items by arranging them sequentially and in logical groups. By default, ServiceNow provides the My resources and Quick links sections.
 
- Desktop Assistant administrators can configure additional sections for the home page. For more information, see [Add a section to the Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/add-home-page-section.md).
+ Desktop Assistant administrators can configure additional sections for the home page. For more information, see [Add a section in the Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/add-home-page-section.md).
 
 </td></tr><tr><td>
 
@@ -57,12 +57,12 @@ Cards
 
 </td><td>
 
-Desktop Assistant provides the following cards with the base system:-   Device health check: Monitor and self-resolve common device health issues. For more information, see [Check device health using Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/check-your-device-s-health-using-desktop-assistant.md).
+Desktop Assistant provides the following cards with the base system:-   Device health check: Monitor and self-resolve common device health issues. For more information, see [Check device health using Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-self-service/check-your-device-s-health-using-desktop-assistant.md).
 -   Network test: Run network diagnostic tests. For more information, see [Test network connectivity of your device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/test-internet-connection.md).
 -   Employee Center: Access the Employee Center portal. For more information, see [Open Employee Center from Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/open-employee-center.md).
 -   Outages: View outages on Employee Center. For more information, see [View outages from Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/open-outages.md).
 
-By default, the Device health check card and the Network test card are mapped to the My resources section. The Employee Center card and the Outages card are mapped to the Quick links section. Desktop Assistant administrators can map cards to any section or remove cards from any section on the home page. To map a card to a section, see [Map a card to a section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/map-card-section.md). To remove a card, see [Delete a card from the Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/delete-card.md).
+By default, the Device health check and Network test cards are mapped to the My resources section and the Employee Center and Outages cards are mapped to the Quick links section. Desktop Assistant administrators can map or remove cards from any section on the home page. For more information, see [Map a card to a section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/map-card-section.md) and [Delete a card from the Desktop Assistant home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/delete-card.md).
 
 </td></tr></tbody>
 </table>**Note:** If you experience issues with Desktop Assistant, troubleshoot them by accessing the logs at these locations:

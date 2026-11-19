@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/t\_CreateFixScripts.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Fix scripts, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
+breadcrumb: [Fix scripts, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
 
 # Create a fix script

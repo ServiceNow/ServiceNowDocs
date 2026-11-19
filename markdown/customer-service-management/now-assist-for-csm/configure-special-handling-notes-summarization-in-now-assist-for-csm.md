@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-21"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -73,7 +73,7 @@ The Special Handling Notes summarization skill uses generative AI to condense le
 
 ## Result
 
-The Special Handling Notes summarization skill is activated. Agents working in the CRM Workspace can view AI-generated summaries of special handling notes on the **Case Insights** section, which supports more consistent customer interactions. Role restrictions control which users and data resources the skill can access.
+The Special Handling Notes summarization skill is activated. Agents working in the CSM Configurable Workspace can view AI-generated summaries of special handling notes on the **Case Insights** section, which supports more consistent customer interactions. Role restrictions control which users and data resources the skill can access.
 
 ## What to do next
 

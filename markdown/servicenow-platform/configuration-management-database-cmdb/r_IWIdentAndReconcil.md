@@ -1,5 +1,5 @@
 ---
-title: Components installed with Identification and Reconciliation
+title: Components installed with IRE
 description: Several types of components are installed with Identification and Reconciliation \(included in the com.snc.cmdb plugin\), including tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/r\_IWIdentAndReconcil.html
@@ -7,12 +7,12 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2025-07-31"
+reading_time_minutes: 4
 breadcrumb: [Reference, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Components installed with Identification and Reconciliation
+# Components installed with IRE
 
 Several types of components are installed with Identification and Reconciliation \(included in the com.snc.cmdb plugin\), including tables.
 
@@ -200,16 +200,6 @@ Reclassification Restrictions\[cmdb\_ire\_reclassification\_restriction\]
 
 Reclassification restriction rules. These rules prevent switch and downgrade reclassification updates for specific source and target classes. For more information, see [Configure CI reclassification during IRE processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/c_CIReclassification.md).
 
-</td></tr><tr><td>
-
-CMDB Deduplication Task Lookup or Related item allowed classes \[cmdb\_duplicate\_lookup\_related\_allowed\_class\]
-
-</td><td>
-
-Configuration table \(typically included in a CI Class Models app\) with entries for related and lookup tables for which you want IRE to generate de-duplication tasks during identification. You can then process those de-duplication tasks to remediate the duplication.
-
- For more information about using this table, see [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md).
-
 </td></tr></tbody>
 </table>## User roles installed
 
@@ -220,5 +210,5 @@ Configuration table \(typically included in a CI Class Models app\) with entries
 **Related topics**  
 
 
-[Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md)
+[Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md)
 

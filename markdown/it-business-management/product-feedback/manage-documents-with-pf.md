@@ -7,9 +7,9 @@ release: zurich
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage Feedback, Feedback, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Manage documentation in Feedback application

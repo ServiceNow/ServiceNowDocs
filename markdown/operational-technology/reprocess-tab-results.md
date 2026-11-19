@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/reprocess-tab-results.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Settings page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Settings page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Reprocess Auto Query results
@@ -89,7 +89,5 @@ Yes / No
 </td></tr></tbody>
 </table>After upgrading to a new query driver version, enable the Reprocess schedule to reevaluate recent scan results using improved logic.
 
-\[Omitted image "reprocess-tab-edit.png"\] Alt text: Settings&gt;Reprocess tab
-
-**Parent Topic:**[Settings page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/settings-page-console.md)
+\[Omitted image "image.reprocess-tab-edit"\] Alt text: Settings&gt;Reprocess tab
 

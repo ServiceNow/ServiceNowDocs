@@ -1,21 +1,20 @@
 ---
 title: Application Registries form
-description: The Application Registries form contains the OAuth client settings for an application registry, such as the client ID, client secret, redirect URL, and token lifespans.
+description: The Application Registries form presents elaborate data on the form's fields and their corresponding descriptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/application-registries-form.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [application registries form fields, oauth client registration, client id field, client secret field, redirect url field, public client, access token lifespan, refresh token lifespan, default grant type, application registry configuration, oauth client configuration]
 breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # Application Registries form
 
-The Application Registries form contains the OAuth client settings for an application registry, such as the client ID, client secret, redirect URL, and token lifespans.
+The Application Registries form presents elaborate data on the form's fields and their corresponding descriptions.
 
 You must have the Desktop Assistant administrator \[sn\_dex\_desktop.admin\] role to access the form.
 
@@ -97,7 +96,7 @@ Accessible from
 
 </td><td>
 
-IP addresses or domains that are authorized to access your OAuth client.When you register your OAuth client, you may be required to provide a list of IP addresses or domains allowed to make requests to the service provider's API.
+IP addresses or domains that are authorized to access your OAuth client.When you register your OAuth client with a service provider, you may be required to provide a list of IP addresses or domains that are allowed to make requests to the service provider's API on behalf of your client.
 
 </td></tr><tr><td>
 
@@ -113,7 +112,7 @@ Refresh Token Lifespan
 
 </td><td>
 
-The duration \(in seconds\) of a user's session before requiring reauthentication in your application.
+The duration of a user's session before requiring reauthentication in your application.
 
 </td></tr><tr><td>
 
@@ -121,7 +120,7 @@ Access Token Lifespan
 
 </td><td>
 
-The duration \(in seconds\) for which an access token is considered valid for use by an application.
+Refers to the period of time during which an access token is considered valid for use by an application.
 
 </td></tr><tr><td>
 
@@ -129,7 +128,7 @@ Default Grant type
 
 </td><td>
 
-Default method used by an OAuth 2.0 authorization server to grant access tokens to client applications.
+Refers to the default method used by an OAuth 2.0 authorization server to grant access tokens to client applications.
 
 </td></tr></tbody>
 </table>To return to the OAuth details page, see [Configure Open Authorization details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/configure-oauth-details.md).

@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure stockrooms, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage stockrooms, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Configure a stockroom for automated sourcing by AI agents
@@ -44,5 +44,5 @@ Role required: ham\_admin
 
 The stockroom is configured for the automatic sourcing options that you selected.
 
-**Parent Topic:**[Configure stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configure-stockrooms-ham.md)
+**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 

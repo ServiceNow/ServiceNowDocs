@@ -5,10 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/resolve-requests.html
 release: zurich
 topic_type: concept
-last_updated: "2026-10-27"
+last_updated: "2026-09-28"
 reading_time_minutes: 8
-keywords: [generate resolution plan]
-breadcrumb: [Platform agentic workflows, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # Platform Generate resolution plan agentic workflow
@@ -20,8 +19,6 @@ Use the Platform Generate resolution plan agentic workflow to fetch task record 
 The Generate resolution plan agentic workflow can help resolve tasks by collecting record details and generating resolution summaries that can be added to comments or work notes. Due to the dynamic nature of AI agents, this agentic workflow can be used for tasks that require complex logic even when provided with minimal details.
 
 The agents, tools, and triggers that are associated with the Generate resolution plan agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Prerequisites and setup
 
@@ -35,7 +32,7 @@ Required role: sn\_uxc\_gen\_ai.platform\_ai\_grp\_workflow.
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/define-sec-controls-aw.md).
 
-In the data access settings, you must also add the necessary roles to enable reading of the tables for the records you want to access. For example, you can add the itil role to the agentic workflow's list of approved roles so that it can access Incident records.
+In the data access settings, you must also add the necessary roles to enable reading of the tables for the records you want to access for potential resolution plans. For example, you can add the itil role to the agentic workflow's list of approved roles so that it can access Incident records.
 
 ## Additional configuration
 
@@ -201,15 +198,34 @@ Related List Tables
 Tables which contain related records that you want the AI agent to explore before generating resolution plans
 
 </td></tr></tbody>
+</table><table><thead><tr><th>
+
+Config field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+agent
+
+</td><td>
+
+Name of the AI agent to use for generating resolution actions
+
+</td></tr><tr><td>
+
+tablesinfo
+
+</td><td>
+
+Table information for providing context for generated action steps
+
+</td></tr></tbody>
 </table>## Accessing the Generate resolution plan agentic workflow
 
-To access the agentic workflow in AI Agent Studio:
-
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
-2.  Select the **Agentic workflows** tab.
-3.  Select **Generate Resolution Plan**.
-
-To access the agentic workflow in the legacy AI Agent Studio:
+To access the agentic workflow:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Generate Resolution Plan**.
@@ -257,7 +273,7 @@ The following table lists the agents that are used in the Generate resolution pl
 |AI agent name|AI agent description|Role required|
 |-------------|--------------------|-------------|
 |Next best action recommendation AI agent|Identifies the steps for resolving tasks by referencing the similar task details and reviewing knowledge articles.|sn\_uxc\_gen\_ai.platform\_ai\_next\_best\_action|
-|Resolution Task Generation AI agent|Analyzes and breaks down each previous resolution step into smaller, actionable substeps, then creates records|sn\_uxc\_gen\_ai.platform\_ai\_resolution\_action\_ai\_agent|
+|Decomposition Agent|Analyzes and breaks down each previous resolution step into smaller, actionable substeps, then creates records|sn\_uxc\_gen\_ai.platform\_ai\_resolution\_action\_ai\_agent|
 
 ## Other Platform agentic workflows
 

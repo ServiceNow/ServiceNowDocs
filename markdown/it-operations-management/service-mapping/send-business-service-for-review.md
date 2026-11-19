@@ -7,7 +7,7 @@ release: zurich
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Review and approval of application service maps, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -24,13 +24,13 @@ Role required: service\_mapping\_admin
 
 ## About this task
 
-While you can fix errors in bulk, you always send application services for review individually, one by one.
+While you can fix errors in bulk, you send application services for review individually, one by one.
 
 Sending application service maps for review is part of the [review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/business-service-approval.md). Typically, you send each application service map for review twice: The first time for the initial owner review and the second time after you implemented owner feedback.
 
 After the initial mapping of application services, you fix errors and send individual application services for review. The system creates a service process task assigned to the service instance owner and sends an email notification about it.
 
-To see documentation for another review phase, click the relevant box in the diagram.
+To see documentation for another review phase, select the relevant box in the diagram.
 
 ![Approval flow for individual application services.](../image/ApproveBSFlow.png)
 
@@ -42,9 +42,9 @@ To see documentation for another review phase, click the relevant box in the dia
 
     2.  Sort the list of planned application services by status and scroll to see services in **In progress** status, or use the filter to narrow the list.
 
-    3.  Click the required service instance.
+    3.  Select the required service instance.
 
-    4.  Click **Actions** &gt; **Send For Review**.
+    4.  Select **Actions** &gt; **Send For Review**.
 
 2.  Alternatively, send an service instance for review from its map:
 
@@ -52,15 +52,15 @@ To see documentation for another review phase, click the relevant box in the dia
 
         The Home page displays only information on service instances that Service Mapping can discover or already discovered. The Home page does not display information on service instances that are created manually or using the API.
 
-    2.  Click the **Approve** tile.
+    2.  Select the **Approve** tile.
 
-    3.  Click **Send For Review**.
+    3.  Select **Send For Review**.
 
-    4.  Click the required service instance.
+    4.  Select the required service instance.
 
         The map for this service instance opens.
 
-    5.  Click **Send For Review** in the upper corner of the window.
+    5.  Select **Send For Review** in the upper corner of the window.
 
 
 ## What to do next

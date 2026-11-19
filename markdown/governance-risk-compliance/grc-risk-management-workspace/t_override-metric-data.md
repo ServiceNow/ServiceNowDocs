@@ -7,9 +7,9 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Override metric data
@@ -26,19 +26,25 @@ After a metric data task is closed, the risk administrator can modify the metric
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace** &gt; **List** &gt; **Metrics** &gt; **My metric data tasks**.
+1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Open the record you want to modify.
+2.  Select the list \[Omitted image "list-icon-risk-workspace.png"\] Alt text: icon.
 
-3.  On the Metric information form, under the Metric input section, select the **Override Metric Data** option.
+3.  Navigate to **Metrics** &gt; **Metrics**.
 
-4.  In the **Overridden metric data** field, provide a new value.
+4.  Open the metrics and select the Metric data tasks tab.
 
-5.  In the **Justification** field, provide a valid justification for overriding the data.
+5.  Open the record you want to modify.
 
-6.  In the **Additional comments** field, provide additional comments, if any.
+6.  On the Metric information form, under the Metric input section, select the **Override Metric Data** option.
 
-7.  Select **Save**.
+7.  In the **Overridden metric data** field, provide a new value.
+
+8.  In the **Justification** field, provide a valid justification for overriding the data.
+
+9.  In the **Additional comments** field, provide additional comments, if any.
+
+10. Select **Save**.
 
 
 ## Result

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/deactivate-l1-sd-ai-spec.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-24"
 reading_time_minutes: 1
 breadcrumb: [Use, L1 IT Service Desk AI Specialist, IT Service Management]
 ---
@@ -16,7 +16,7 @@ Deactivate the L1 IT Service Desk AI Specialist so that it no longer acts on rec
 
 ## Before you begin
 
-Role required: sn\_itsm\_common.sn\_service\_desk\_manager or admin
+Role required: sn\_sow\_itsm\_common.sn\_service\_desk\_manager or admin
 
 ## Procedure
 

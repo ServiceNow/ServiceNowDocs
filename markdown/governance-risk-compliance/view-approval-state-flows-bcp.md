@@ -1,18 +1,18 @@
 ---
 title: View approval state flows for a business plan
-description: View approval state transitions and approver details at each level as you direct the business plan through the approval process.
+description: View the approval state transitions at each level of the approval process. Track approver details as the business plan moves through multiple approval levels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/view-approval-state-flows-bcp.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Structured workflows for Business Continuity Planning, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # View approval state flows for a business plan
 
-View approval state transitions and approver details at each level as you direct the business plan through the approval process.
+View the approval state transitions at each level of the approval process. Track approver details as the business plan moves through multiple approval levels.
 
 ## Before you begin
 

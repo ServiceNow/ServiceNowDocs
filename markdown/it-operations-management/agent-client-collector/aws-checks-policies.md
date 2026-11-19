@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [ACC-M default checks and policies, ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-M default checks and policies, Agent Client Collector Monitoring reference, Agent Client Collector, IT Operations Management]
 ---
 
 # AWS Health Monitoring default checks and policies
@@ -299,7 +299,7 @@ Batch size. Number of tables to fetch metrics in parallel. \(Default value: 10\)
 
 </td><td>
 
-`metrics-dynamodb.rb -r {{.labels.params_ci_region}} {{.labels.params_exclude_tb}} -f {{.labels.params_exclude_tb}} {{end}} {{.labels.params_batch_size}} -b {{.labels.params_filter}} {{end}}`
+`metrics-dynamodb.rb -r {{.labels.params_ci_region}} {{if .labels.params_exclude_tb}} -e {{.labels.params_exclude_tb}} {{end}} {{if .labels.params_batch_size}} -b {{.labels.params_batch_size}} {{end}} {{if .labels.params_filter}} -F {{.labels.params_filter}} {{end}}`
 
 </td></tr></tbody>
 </table><table id="table_dj3_g3s_2sb"><thead><tr><th>

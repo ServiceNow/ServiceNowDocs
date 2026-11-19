@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/dmi.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -74,7 +74,5 @@ The following sections describe the pages available on the DMI.
 
 
 
-\[Omitted image "dmi-sans-rabbitmq.png"\] Alt text: DMI page
-
-**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configure-discovery-sensor-ot.md)
+\[Omitted image "image.dmi-sans-rabbitmq"\] Alt text: DMI page
 

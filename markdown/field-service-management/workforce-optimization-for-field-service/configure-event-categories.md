@@ -7,8 +7,8 @@ release: zurich
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2025-11-12"
+reading_time_minutes: 1
 breadcrumb: [Set up scheduling, Workforce Optimization, Set up workforce, Configure, Field Service Management]
 ---
 
@@ -81,13 +81,6 @@ The following event category configurations are available by default:
                     "readOnly": false,
                     "allowAllUsers": false
                     },
-                    "attendeesFieldForAgent": { //Add attendees to events
-                    "mandatory": true,
-                    "visible":true,
-                    "readOnly": false,
-                    "allowAllUsers": false,
-                    "label":"Attendees"
-                    },
                     "startDate": {
                     "mandatory": true,
                     "readOnly": false
@@ -96,12 +89,7 @@ The following event category configurations are available by default:
                     "mandatory": true,
                     "readOnly": false
                     },
-                     "description":{               //Add text fields to the form
-    		    "mandatory":false,
-    		    "readOnly":false,
-    		    "label":"Notes"
-    		    },
-                    "additionalSelectors":[
+                    "additionalSelectors": [
                     {
                         "fieldLabel": "Select Shift",
                         "table": "sn_shift_planning_shift_plan",

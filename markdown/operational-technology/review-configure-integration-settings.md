@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/review-configure-integration-settings.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -91,7 +91,7 @@ For OT devices, you can select the OT device type to apply the device type to th
 
     1.  Next to the Configure system properties task, select **Configure**.
 
-        \[Omitted image "config-sys-properties-sgc.png"\] Alt text: Configure Systems properties
+        \[Omitted image "image.config-sys-properties-sgc"\] Alt text: Configure Systems properties
 
     2.  The Configure System properties window opens.
     3.  Review the System properties and adjust as needed for your instance configuration.
@@ -153,7 +153,5 @@ Logging level verbosity to use for the application.Default: Info
 
 ## What to do next
 
-The next setup step is to [Set up scheduled import jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/setup-scheduled-jobs.md).
-
-**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-ot-discovery.md)
+The next setup step is to[Set up scheduled import jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/setup-scheduled-jobs.md).
 

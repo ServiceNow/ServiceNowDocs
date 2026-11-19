@@ -1,5 +1,5 @@
 ---
-title: Turn off verbose SQL error messages for import processor
+title: Turn off verbose SQL error messages for import processor \[Updated in Security Center 1.3\]
 description: Configure this property to control whether verbose SQL error messages are displayed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-turn-off-verbose-sql-error-messages-for-import-processor.html
@@ -7,18 +7,16 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Error handling and logging, Hardening settings, Platform Security]
 ---
 
-# Turn off verbose SQL error messages for import processor
+# Turn off verbose SQL error messages for import processor \[Updated in Security Center 1.3\]
 
 Configure this property to control whether verbose SQL error messages are displayed.
 
-If the **glide.import.error\_message.generic** system property is set to **false** a verbose SQL error message is returned, potentially causing sensitive information disclosure.
-
-Ensure that the **glide.import.error\_message.generic** is set to **true** to display a generic error message.
+If the property is set to **false**, then a verbose SQL error message will display which can leak sensitive information. To avoid this, set the property to **true** to display a generic message.
 
 ## More information
 
@@ -72,14 +70,6 @@ true
 
 </td></tr><tr><td>
 
-Fallback value
-
-</td><td>
-
-false
-
-</td></tr><tr><td>
-
 Category
 
 </td><td>
@@ -94,15 +84,7 @@ Security risk
 
 -   Severity score: 3.1
 -   CVSS score: Low
--   Security risk details: If verbose SQL error messages are returned, sensitive information such as database structure, table names, or query details may be exposed. This information can be leveraged by attackers to craft targeted SQL injection attacks or exploit other vulnerabilities, increasing the risk of data breaches and system compromise. Limiting error detail is essential to prevent information disclosure that aids malicious activity.
-
-</td></tr><tr><td>
-
-Functional impact
-
-</td><td>
-
-None
+-   Security risk details: Setting the property to **false** enables verbose SQL messages which can lead to information leakage.
 
 </td></tr><tr><td>
 

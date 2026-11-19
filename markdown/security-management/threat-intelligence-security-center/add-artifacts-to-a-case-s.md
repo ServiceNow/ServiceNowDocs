@@ -7,9 +7,8 @@ release: zurich
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-15"
 reading_time_minutes: 5
-keywords: [add artifacts to case, case artifacts, indicators of compromise]
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -305,15 +304,11 @@ Displays all the associated techniques of a case on the MITRE ATT&amp;CK framewo
 
 [Creating cases using Threat Analyst Workbench]()
 
-[Summarize a Case using generative AI]()
-
 [Creating case task using Threat Analyst Workbench]()
 
 [Working with Investigation Canvas]()
 
 [Run Enrichment Actions within a case]()
-
-[Generate a Case Report using generative AI]()
 
 [Generate a Case Report using a template]()
 

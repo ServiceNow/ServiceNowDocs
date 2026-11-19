@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -24,8 +24,6 @@ Generate a complete user story directly from an epic using Quick story generatio
 
 -   Agile story generation
 -   Generate acceptance criteria
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Role required: sn\_apw\_advanced.eap\_user
 
@@ -50,8 +48,6 @@ Role required: sn\_apw\_advanced.eap\_user
     For example, enter "progress tracking for onboarding steps to help users visualize their journey and reduce abandonment rates" to direct ServiceNow Otto toward a specific area of the epic.
 
 7.  Select **Generate**.
-
-    \[Omitted image "eap-na-quick-story.png"\] Alt text: Generate story modal with a Story context field to enter details.
 
     ServiceNow Otto generates a story title, description, and acceptance criteria based on the epic context and the input you provided.
 

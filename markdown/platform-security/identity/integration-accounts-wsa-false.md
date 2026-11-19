@@ -7,9 +7,9 @@ release: zurich
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Security findings, Exploring Machine Identity Console, Machine Identity Console, Identity]
+breadcrumb: [Security findings, Explore Machine Identity Console, Machine Identity Console, Identity]
 ---
 
 # Integration accounts with Web Service Access set to false

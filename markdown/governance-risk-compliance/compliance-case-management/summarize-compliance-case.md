@@ -7,8 +7,8 @@ release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Case summarization for compliance cases, AI in Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
@@ -53,15 +53,15 @@ If the **Summarize** option isn’t visible, the skill has to be activated by an
 
 7.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d375035e192">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d276607e192">
 
 Option
 
-</th><th align="left" id="d375035e195">
+</th><th align="left" id="d276607e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d375035e201">
+</th></tr></thead><tbody><tr><td id="d276607e201">
 
 **Edit or save the summary**
 
@@ -73,7 +73,7 @@ Description
 
 Once saved to the case record, the summary appears in the **Overview** tab and in the **Activity** stream of the **Details** tab.
 
-</td></tr><tr><td id="d375035e239">
+</td></tr><tr><td id="d276607e239">
 
 **View information about the summary**
 
@@ -83,7 +83,7 @@ Select the information icon \(\[Omitted image "icon-more-info.png"\] Alt text: I
 
  **"AI summarized this using the record details. Check it for accuracy."**
 
-</td></tr><tr><td id="d375035e261">
+</td></tr><tr><td id="d276607e261">
 
 **Expand or collapse the summary card**
 
@@ -93,7 +93,7 @@ Select **View less** to collapse the summary partially, or **View more** to expa
 
  Alternatively, select the **Expand card** icon \(\[Omitted image "3514ebeb5281c378a441ab739e20167a2630a16b.png"\] Alt text: Expand icon.\) or **Collapse card** icon \(\[Omitted image "2ed2a915ca439e54301b2d87d922206f542ed51e.png"\] Alt text: Collapse icon.\) next to **Share to case summary** to fully expand or collapse the summary.
 
-</td></tr><tr><td id="d375035e303">
+</td></tr><tr><td id="d276607e303">
 
 **Provide feedback**
 
@@ -103,7 +103,7 @@ Select the helpful icon \(\[Omitted image "6703440d198d8d4e598de0ee6ca6e4bb6e927
 
 **Note:** User feedback doesn't affect future LLM outputs. It’s collected by ServiceNow® for internal quality monitoring only.
 
-</td></tr><tr><td id="d375035e334">
+</td></tr><tr><td id="d276607e334">
 
 **Copy the summary**
 
@@ -111,7 +111,7 @@ Select the helpful icon \(\[Omitted image "6703440d198d8d4e598de0ee6ca6e4bb6e927
 
 Select the copy icon \(\[Omitted image "b80284abf38e005516cfbb6a89e209fea7668e29.png"\] Alt text: Copy icon.\) to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d375035e352">
+</td></tr><tr><td id="d276607e352">
 
 **Regenerate the summary**
 
@@ -124,6 +124,4 @@ If you think that data might have changed after you viewed the summary, select t
 ## What to do next
 
 The summary reflects case data at the time of generation. As the case progresses, regenerate the summary to capture the latest information, and save it to the record.
-
-**Parent Topic:**[GRC case summarization skill for compliance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/compliance-case-management/compliance-case-summarization-skill.md)
 

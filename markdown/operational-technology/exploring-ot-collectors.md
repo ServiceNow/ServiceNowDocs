@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/exploring-ot-collectors.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -28,6 +28,4 @@ For more information about the OT Discovery Collector or to get help with the ap
 
 -   [Configure the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configuring-the-collector.md)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
-
-**Parent Topic:**[Operational Technology Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-discovery-collectors-landing.md)
 

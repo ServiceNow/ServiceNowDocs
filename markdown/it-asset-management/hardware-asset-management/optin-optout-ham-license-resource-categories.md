@@ -7,10 +7,10 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 keywords: [HAM licensing, Hardware Asset Management licensing]
-breadcrumb: [Hardware Asset Management license exclusion, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Hardware Asset Management license exclusion, Manage Hardware Asset Management subscriptions, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Opt-in or opt-out of HAM license resource categories

@@ -7,9 +7,9 @@ release: zurich
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Types of tracking consent policies, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
+breadcrumb: [Types of tracking consent policies, User privacy, tracking, and consent, Configure, Usage Insights, Platform Analytics]
 ---
 
 # Define how to detect your user's location
@@ -51,9 +51,9 @@ The available detection policy providers are:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage Insights settings** &gt; **Detection Policy Providers**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **UX Analytics settings** &gt; **Detection Policy Providers**.
 
-    The Usage Insights Detection Policy Providers page displays.
+    The User Experience Analytics Detection Policy Providers page displays.
 
 2.  Select any of the detection policy providers to update its Active status and change the order in which the policy is enforced.
 

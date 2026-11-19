@@ -1,18 +1,18 @@
 ---
-title: CRM Workspace list components
-description: List pages in CRM Workspace are made up of multiple components that present record data from tables and enable agents to search, sort and filter, and select records.
+title: CSM Configurable Workspace list components
+description: List pages in CSM Configurable Workspace are made up of multiple components that present record data from tables and enable agents to search, sort and filter, and select records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-config-workspace-list-components.html
 release: zurich
 topic_type: concept
 last_updated: "2026-10-27"
-reading_time_minutes: 2
-breadcrumb: [List pages, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+reading_time_minutes: 3
+breadcrumb: [List pages, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CRM Workspace list components
+# CSM Configurable Workspace list components
 
-List pages in CRM Workspace are made up of multiple components that present record data from tables and enable agents to search, sort and filter, and select records.
+List pages in CSM Configurable Workspace are made up of multiple components that present record data from tables and enable agents to search, sort and filter, and select records.
 
 A list page is a content page that displays records from a table, such as cases or case tasks. List pages use the following components to help agents navigate lists and search, filter, sort, and group records.
 
@@ -33,10 +33,13 @@ The Record List component bundle includes the following components:
 
 -   Record list header
 -   Predicate builder
--   Presentation list
+-   Presentational list
 -   Pagination control
 
-For more information about the component bundle, see [Record List](https://horizon.servicenow.com/workspace/components/record-list?release=brazil).
+For more information about the component bundle, see the following topics:
+
+-   Record list bundle
+-   [Record List](https://horizon.servicenow.com/workspace/components/record-list?release=brazil)
 
 ## Record list header component
 
@@ -62,14 +65,16 @@ The Predicate Builder component enables agents to set conditions from the record
 
 For more information, see [Predicate Builder](https://horizon.servicenow.com/workspace/components/now-predicate-builder?release=brazil).
 
-## Presentation list component
+## Presentational list component
 
-The Presentation list component displays data from the source table in columns and rows. This component also includes:
+The Presentational list component displays data from the source table in columns and rows. This component also includes:
 
--   Edit form: Selecting the pencil icon next to a list item opens the record in the Edit form modal.
+-   Row actions: Icons that enable users to perform actions on the record. The default action is **Edit form**. Selecting the pencil icon next to a record opens the record in the Edit form modal in a side panel.
 -   **Select all** and **Select row** check boxes.
 -   Column headers: Include drag handles that agents can use to reorder columns; labels that describe the column data; and filter, sort, and group options.
 -   Column actions: Provides a menu with additional actions.
+
+With the presentational list component, administrators can also configure highlighted field values and reference links. Highlighted values can draw attention to specific information, such as high priority cases. For more information, see [Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/highlight-list-fields-platform.md).
 
 ## Pagination
 

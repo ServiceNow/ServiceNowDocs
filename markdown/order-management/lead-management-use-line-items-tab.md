@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/lead-management-use-line-items-tab.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Lead Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
 
 # Add line items to a lead
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Leads****All**.
 
@@ -34,7 +34,7 @@ Role required: sales\_agent
     |-----|-----------|
     |Number|System-generated number of the lead line item.|
     |Quantity|Quantity of the lead line item.|
-    |Product Offering|Product offering bundle for the lead line item. Only those product offerings will be visible that are in Staged, In Test, and Published state.|
+    |Product Offering|Product offering bundle for the lead line item.|
     |Unit of Measure|Measuring unit of the lead line item.|
     |Work Notes|Additional information related to the lead line item.|
 
@@ -45,14 +45,7 @@ Role required: sales\_agent
 
 ## What to do next
 
-[Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-use-tasks-tab.md).
+[.Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-use-tasks-tab.md).
 
 **Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-using.md)
-
-**Related topics**  
-
-
-[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-lead-management.md)
-
-[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management.md)
 

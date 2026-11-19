@@ -7,9 +7,9 @@ release: zurich
 product: Talent Feedback
 classification: talent-feedback
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Talent Feedback, Talent Feedback, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Talent Feedback, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Working with Skill feedback in Talent Feedback

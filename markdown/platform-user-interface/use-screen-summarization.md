@@ -1,24 +1,26 @@
 ---
 title: Use Screen Summarization
-description: Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The page and section summaries can be read aloud with a screen reader.
+description: Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/use-screen-summarization.html
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-02-23"
 reading_time_minutes: 1
-breadcrumb: [Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Working on records in your Workspace, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Use Screen Summarization
 
-Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The page and section summaries can be read aloud with a screen reader.
+Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader.
 
 ## Before you begin
 
 Install Screen Summarization by requesting it from the ServiceNow® Store. Visit the [ServiceNow® Store](https://store.servicenow.com/store) to view all the available apps and information about submitting requests to the store.
 
 Role required: workspace\_user
+
+## About this task
 
 \[Omitted video\] Description: Screen Summarization overview and instructions on how to use it
 
@@ -35,7 +37,7 @@ Role required: workspace\_user
 3.  Choose between the following actions:
 
     -   Press Option+P \(Mac\) or Alt+P \(Windows\) for an AI-generated summary of the entire page.
-    -   Press Option+S \(Mac\) or Alt+S \(Windows\) for an AI-generated summary of the selected section.
+    -   Press Option+S \(Mac\) or Alt+S \(Windows\) for an AI-generated summary of the highlighted section.
 
 ## Result
 

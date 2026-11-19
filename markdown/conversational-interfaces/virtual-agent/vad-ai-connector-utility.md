@@ -7,17 +7,15 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-24"
 reading_time_minutes: 1
 keywords: [Virtual Agent, Designer, AI Connector, utility, LLM, GenAI, Generative AI, Now Assist, Custom skills]
-breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library utilities, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # AI Connector utility
 
 Use this utility to link generative AI to custom skills for added versatility in your Virtual Agent LLM \(large language model\) conversations.
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## AI Connector utility properties
 
@@ -86,5 +84,5 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 \[Omitted image "vad-ai-connector-utility-properties-with-skill.png"\] Alt text: AI Connector utility with Web Search skill selected. All input and output mappings derive from the custom skill.
 
-**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer Asset library utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-utilities.md)
 

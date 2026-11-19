@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-28"
 reading_time_minutes: 8
 breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ The Discovery Home page provides a summary of discoveries that were triggered by
 
 To open the Discovery Home page, navigate to **Discovery** &gt; **Home**. The Home page shows the Discovery totals for each of the following categories. Select a tile to view details for that category.
 
-**Tip:** Discovery Admin Workspace provides an updated experience for monitoring discoveries, managing schedules, and resolving errors. For more information, see [Discovery Admin Workspace Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-home.md).
+**Note:** Discovery Admin Workspace provides an updated experience for monitoring discoveries, managing schedules, and resolving errors. For more information, see [Discovery Admin Workspace Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-home.md).
 
 \[Omitted image "DiscoHomeSummary.png"\] Alt text: Discovery Home page
 
@@ -166,7 +166,7 @@ View and resolve Discovery errors from the ServiceNow Home page. Get suggestions
 
 Role required: discovery\_admin
 
-**Note:** You can also investigate and resolve Discovery errors in Discovery Admin Workspace. For more information, see [Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/daw-error-details.md).
+**Note:** You can also investigate and resolve Discovery errors in Discovery Admin Workspace. For more information, see [Discovery Admin Workspace Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md).
 
 ### Procedure
 
@@ -205,7 +205,7 @@ Role required: discovery\_admin
 
     \[Omitted image "CIScheduleMgrErrorInst.png"\] Alt text: Error details and remediation instructions
 
-6.  To begin work, either select the check box next to an error to resolve that specific error or select an action for **ALL** to resolve that error code for all instances of that error.
+6.  Select the check box next to an error to resolve it, or select an action for **ALL** to resolve that error code for all instances.
 
     In this example, the system recommends creating new Windows credentials to resolve this error code.
 
@@ -240,7 +240,7 @@ Role required: discovery\_admin
 
 [Review the logs for horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoveryLog.md)
 
-[ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)
+[The ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)
 
 [Create Discovery schedules for cloud resources]()
 

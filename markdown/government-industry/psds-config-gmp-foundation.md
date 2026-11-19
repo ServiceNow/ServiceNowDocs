@@ -15,7 +15,7 @@ breadcrumb: [Grants Management, Playbooks and Solutions, Configure agent workspa
 Configure the foundational details of Grants Management.
 
 1.  [Configure scripted extension points in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-fdtn-scripted-ext-pt.md)  
-Enable publishing of grant programs and authorized representative activities.
+The grants management application uses a scripted extension point to publish grant programs. Implementing this extension point in the correct application scope lets a grant program move to the Accepting Applications state so that contacts and constituents can submit proposals.
 2.  [Configure the related party extension point in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-fdtn-rpmanagement-ext-pt.md)  
 Remove related parties from a proposal when an applicant removes key personnel or an authorized representative.
 3.  [Configure Restricted Caller Access \(RCA\) for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-fdtn-doc-template-rca.md)  

@@ -7,23 +7,23 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-12"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # ServiceNow Otto for AI Search
 
 The ServiceNow Otto for AI Search application combines the power of search with a large language model \(LLM\) to provide actionable AI-generated or AI-selected answers in user searches. By constraining the context passed to the LLM, ServiceNow Otto for AI Search can increase the likelihood that LLM responses are grounded in indexed content.
 
-## ServiceNow Otto for AI Search overview
+## ServiceNow Otto for AI Searchoverview
 
-In Service Portal, Virtual Agent, Employee Center, and global searches, ServiceNow Otto for AI Search includes the following AI Genius Result configurations:
+In Service Portal, Virtual Agent, Employee Center, and global searches, ServiceNow Otto for AI Search includes the following Genius Result configurations:
 
--   **[Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md)**
+-   **[ServiceNow Otto Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md)**
 
-    Summary Genius Results use your chosen LLM to generate actionable Genius Result answers synthesized from a variety of content sources. Answers can include content from knowledge articles, Service Catalog items, Knowledge Graph schema nodes, enhanced chat searches and conversations, and external content documents and attachments.
+    ServiceNow Otto Summary Genius Results use your chosen LLM to generate actionable Genius Result answers synthesized from a variety of content sources. Answers can include content from knowledge articles, Service Catalog items, Knowledge Graph schema nodes, enhanced chat searches and conversations, and external content documents and attachments.
 
 -   **[Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-qna-genius-results.md)**
 
@@ -33,12 +33,12 @@ In Service Portal, Virtual Agent, Employee Center, and global searches, ServiceN
 
     External Content Q&amp;A Genius Results generate actionable Q&amp;A Genius Result answers from documents in your Microsoft SharePoint Online instance.
 
--   **[Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-catalog-ordering-gr.md)**
+-   **[Now Assist Actions Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/now-assist-catalog-ordering-gr.md)**
 
     Actions Genius Results use the Now LLM Service to select, filter, and display the most relevant Catalog Item and Virtual Agent topic results as answers.
 
 
-If a search is broad or unclear, ServiceNow Otto for AI Search may ask follow‑up questions before answering. This disambiguation step helps clarify what the user is looking for and is configurable. For configuration details, see .
+If a search is broad or unclear, ServiceNow Otto for AI Search may ask follow‑up questions before answering. This disambiguation step helps clarify what the user is looking for and is configurable. For configuration details, see [Configure disambiguation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-configure-disambiguation-manually.md).
 
 AI Genius Result answers enhance search results with actionable answer cards. Each answer card includes links to its source records or external documents.
 
@@ -66,7 +66,7 @@ AI Genius Result answers enhance search results with actionable answer cards. Ea
 
 ## Language support
 
-ServiceNow Otto for AI Search natively supports searches, content, and answers in English. Additional languages are supported through Dynamic Translation. For details on translation functionality and supported languages, see [Dynamic Translation for Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/dynamic-translation-na-gr.md).
+ServiceNow Otto for AI Search natively supports searches, content, and answers in English. Additional languages are supported through Dynamic Translation. For details on translation functionality and supported languages, see [Dynamic Translation for Now Assist Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/dynamic-translation-na-gr.md).
 
 ## Domain support
 

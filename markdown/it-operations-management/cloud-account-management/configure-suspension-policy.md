@@ -7,7 +7,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Control Policy in AWS, Setting up AWS cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -56,4 +56,6 @@ The key element that you must provide to the ServiceNow AI Platform admin is the
 ## What to do next
 
 [Provisioning modes for Cloud Account Management in Cloud Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/supported-provision-modes.md)
+
+**Parent Topic:**[Configuring Service Control Policy in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-account-management/about-service-control-policy.md)
 

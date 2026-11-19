@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mon-ai-investigate-session-task.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-08"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Investigating sessions, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Investigating sessions, Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Investigate a low-scoring session
@@ -25,7 +25,7 @@ Trace and span detail for a session is available only for a limited time. To rev
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** and select the **Evaluated sessions** tab.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** and select the **Evaluated sessions** tab.
 
 2.  In the Evaluated sessions list, find the session that you want to investigate.
 
@@ -41,7 +41,7 @@ Trace and span detail for a session is available only for a limited time. To rev
 
     3.  Close the side panel.
 
-    For example, if the session quality score is 67%, the side panel might show that Task completion scored 50% at 40% weight, while Answer completeness scored 91% at 35% weight. The low Task completion score is the primary contributor to the low quality composite.
+    For example, if the session quality score is 67%, the side panel might show that Answer relevancy scored 50% at 40% weight, while Answer completeness scored 91% at 35% weight. The low Answer relevancy score is the primary contributor to the low quality composite.
 
 5.  On the session detail page, determine which safety metrics are contributing to the low score by reviewing the Safety score card.
 
@@ -51,13 +51,11 @@ Trace and span detail for a session is available only for a limited time. To rev
 
     3.  Close the side panel.
 
-    For example, a Profanity detection score of 0% at 49% weight would immediately explain a low safety composite.
+    For example, a Profanity score of 0% at 49% weight would immediately explain a low safety composite.
 
-6.  Review the score and the judge's reasoning for every evaluated metric in the Session scores and aggregate scores section.
+6.  Identify which metrics are lowering the quality and safety scores by reviewing the lowest scoring metrics on each score card.
 
-    Metrics scored at the session, trace, or span level all roll up here, so you can identify what's driving the quality and safety scores without opening each trace or span. The reasoning explains why the judge assigned each score. For example, a Task completion score of 50% might include reasoning such as "The user's goal was partially accomplished but the agent did not confirm the resolution."
-
-    When a metric's score is an average aggregated from the trace or span level, open an individual span or trace to read the judge's reasoning for each one.
+    Each card lists up to three of the metrics that contribute to the score, starting with the lowest. To learn more about any score, point to the information icon next to the metric name. When a score is an average, the reason points you to open an individual span or trace to read the judge's reasoning for each one.
 
 7.  Identify which trace is responsible for the low score by sorting the traces list.
 
@@ -67,9 +65,9 @@ Trace and span detail for a session is available only for a limited time. To rev
 
 9.  In the trace side panel, determine which metrics failed on that trace by reviewing the trace-level evaluation scores and the judge's reasoning.
 
-    The evaluation scores table shows only the metrics applicable to this trace. Different metrics are available at the trace level than at the session level.
+    The evaluation scores table shows only the metrics applicable to this trace. Different metrics are evaluated at the trace level than at the span level.
 
-    The judge's reasoning tells you what specifically went wrong. For example, an Answer completeness score of 60% with reasoning "The response did not address all aspects of the user's query" tells you the agent's response was incomplete.
+    The judge's reasoning tells you what specifically went wrong. For example, an Answer completeness score of 50% with reasoning "The response covered only some of the relevant information in the retrieved context" tells you the agent's response was incomplete.
 
 10. Determine whether the agent's response addressed the user's request by reviewing the trace-level input and output.
 

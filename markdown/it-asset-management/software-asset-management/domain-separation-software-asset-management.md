@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [References, Software Asset Management, IT Asset Management]
 ---
 
 # Domain separation and Software Asset Management

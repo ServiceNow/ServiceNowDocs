@@ -18,6 +18,8 @@ Review and work on an amendment request for an existing contract.
 
 ## Before you begin
 
+The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group]().
+
 Role required: sn\_cm\_core.contract\_fulfiller
 
 ## About this task
@@ -39,15 +41,15 @@ A sample workflow while working on an amendment request would be:
 
 2.  On the **Lists** tab, navigate to **Contract Requests** and open a contract.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d91319e102">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d90062e112">
 
 Option
 
-</th><th align="left" id="d91319e105">
+</th><th align="left" id="d90062e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d91319e111">
+</th></tr></thead><tbody><tr><td id="d90062e121">
 
 **As an assignee**
 
@@ -59,7 +61,7 @@ Steps
 
 The state and the Contract status of the contract request is Work in progress.
 
-</td></tr><tr><td id="d91319e140">
+</td></tr><tr><td id="d90062e150">
 
 **As a collaborator**
 
@@ -175,13 +177,6 @@ The state and the Contract status of the contract request is Work in progress.
         \[Omitted image "snlc-amend-field-changes.png"\] Alt text: View the field changes due to amendment
 
     -   Attachment pane: View the certificate of completion for the contract and amendment requests if electronic signature was selected.
--   When both amendment and renewal requests are active on the same contract, review the following to avoid conflicts:
-
-    -   Contract dates to prevent overlapping effective periods between the amended contract and the renewed contract
-    -   Terms and pricing changes in both requests
-    -   Effective dates and expiration dates
-    You must manually reconcile any conflicts between the amended original contract and the renewed contract.
-
 
 **Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-amend-landing.md)
 

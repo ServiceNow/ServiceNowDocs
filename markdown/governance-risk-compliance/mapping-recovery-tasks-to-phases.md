@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/mapping-recovery-tasks-to-phases.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-10-06"
 reading_time_minutes: 5
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -16,9 +16,9 @@ Starting with BCM, version 9.x.x, BCM administrators set up active phases for pl
 
 ## Implementing phases in recovery
 
-Organizing recovery and event tasks into logical phases provides a structure and context to the recovery activities. The logical grouping of phases helps you to understand the progression of plans, exercises, and crisis events, maintain flexibility in execution, and navigate complex recovery processes effectively.
+Organizing recovery and event tasks into logical phases provides a structure and context to the recovery activities. The logical grouping of phases helps you to understand the progression of plans, exercises, and crisis events. It maintains flexibility in execution and navigates complex recovery processes effectively.
 
-Phases act as indicators of the current status of plans, exercises, or crisis events. They provide clarity while reviewing the recovery and event tasks. You can tag the recovery tasks and event tasks to an appropriate phase such as Preparation, Recovery, or Post incident review. This mapping ensures structured and efficient handling of recovery tasks and event tasks.
+Phases act as indicators of the current status of plans, exercises, or crisis events. They provide clarity while reviewing the recovery and event tasks. You can tag recovery tasks and event tasks to a phase such as Preparation, Recovery, or Post incident review. This mapping ensures structured and efficient handling of recovery tasks and event tasks.
 
 ## Default active phases
 

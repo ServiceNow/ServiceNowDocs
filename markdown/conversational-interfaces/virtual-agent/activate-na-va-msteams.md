@@ -7,10 +7,10 @@ release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-30"
 reading_time_minutes: 1
-keywords: [Otto, Microsoft, Teams, Virtual, Agent, Integration, MS, MSTeams]
-breadcrumb: [Install, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+keywords: [Now, Assist, Microsoft, Teams, Virtual, Agent, Integration, MS, MSTeams]
+breadcrumb: [Install, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
 # Activate ServiceNow Otto for Virtual Agent for Microsoft Teams

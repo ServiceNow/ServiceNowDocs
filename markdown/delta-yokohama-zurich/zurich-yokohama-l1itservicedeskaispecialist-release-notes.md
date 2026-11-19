@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-l1itservicedeskaispecialist-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -126,7 +126,7 @@ Review how the AI Specialist measures up in each quality area using automaticall
 
  The L1 IT Service Desk AI Specialist is an autonomous worker that helps handle incidents end-to-end without human intervention. It uses knowledge articles and historical data to investigate and resolve high-volume, repeatable level 1 \(L1\) incidents. It communicates directly with requesters and escalates incidents to human agents when confidence is low.
 
- -   **[\[Placeholder link text to key bundle-itsm.autonomous-supervised\]](https://www.servicenow.com/docs/access?context=autonomous-supervised&family=zurich&ft:locale=en-US)**
+ -   **[autonomous supervised](https://www.servicenow.com/docs/access?context=autonomous-supervised&family=zurich&ft:locale=en-US)**
 
 Choose from two types of execution modes for the L1 IT Service Desk AI Specialist during configuration or activation, Autonomous or Supervised. The execution mode of the L1 IT Service Desk AI Specialist determines its autonomy when performing tasks on incidents. You can change the execution mode at any time.
 
@@ -273,7 +273,7 @@ Zurich
 
 -   **Activation information**
 
-Install L1 IT Service Desk AI Specialist by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install L1 IT Service Desk AI Specialist by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Contact your ServiceNow account manager to get started with L1 IT Service Desk AI Specialist.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
-breadcrumb: [Upgrade Console summary, Explore, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Console summary, Explore, Upgrade Console, Upgrade, Administer]
 ---
 
 # Explore Upgrade Preview in Upgrade Console

@@ -7,9 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Desktop Assistant notifications, Desktop Assistant, Solve issues, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Desktop Assistant, Digital End-User Experience, IT Operations Management]
 ---
 
 # View Desktop Assistant notifications
@@ -18,7 +18,7 @@ View notifications to stay up to date with important information and events in r
 
 ## Before you begin
 
-DEX Desktop Assistant \[sn\_dex\_desktop\] application must be installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/download-desktop-experience.md).
+Confirm that the DEX Desktop Assistant \[sn\_dex\_desktop\] application has been installed. For more information, see [Install Application and Device Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/install-app-device-health.md) and [Download and install Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/download-desktop-experience.md).
 
 Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 

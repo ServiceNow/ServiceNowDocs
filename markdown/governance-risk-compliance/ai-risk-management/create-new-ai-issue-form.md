@@ -7,10 +7,9 @@ release: zurich
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [create AI issue form, AI issue fields, issue management]
-breadcrumb: [Create an AI issue, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
+breadcrumb: [Create an AI issue in the AI Risk and Compliance workspace, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Create New AI Issue form

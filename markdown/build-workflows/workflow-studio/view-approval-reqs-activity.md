@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Interactive activities, Playbooks reference, Reference, Workflow Studio, Build workflows]
 ---
 
 # View Approval Requests activity
@@ -82,11 +82,8 @@ Choice
 
 </td><td>
 
-Under **Schedule** &gt; **Start Rule**, select a start rule for when your stage should start running:-   **When process starts**: Your stage starts running as soon as the playbook starts.
--   **After specific stages**: Your stage starts running after specified stage\(s\) have finished running.
-
-Under Schedule &gt; Start Rule, select a start rule for when your activity should start running:-   **When stage starts**: Your activity starts running as soon as its stage starts running. Your stage starts running when your playbook is triggered.
--   **After specific activities**: Your activity starts running after specified activities have finished running.
+Under **Schedule** &gt; **Start Rule**, select a start rule for when the activity should start running:-   **When stage starts**: The activity starts running as soon as its stage starts running.
+-   **After specific activities**: The activity starts running after specified activities have finished running. You can select one more activities from the available activities. By default, the previous activity is selected.
 
 </td></tr><tr><td>
 
@@ -134,4 +131,6 @@ After configuring the required inputs for your activity, you can also choose to 
 |Order by|String|Field you want to use to sort a list of records.|
 |Sort Type|Choice|Option to sort records alphabetically or reverse alphabetically.|
 |Max Results|Integer|Maximum number of results to display to end users.|
+
+**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/interactive-activities.md)
 

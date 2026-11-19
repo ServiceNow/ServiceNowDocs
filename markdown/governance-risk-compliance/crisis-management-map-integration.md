@@ -1,20 +1,20 @@
 ---
 title: Crisis Management map
-description: You can integrate the crisis management application with the Crisis Management map to receive alert feeds on possible threats to your organization's business operations.
+description: The Crisis Management map integrates with the crisis management application to deliver alert feeds on potential threats to business operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/crisis-management-map-integration.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Crisis Management map
 
-You can integrate the crisis management application with the Crisis Management map to receive alert feeds on possible threats to your organization's business operations.
+The Crisis Management map integrates with the crisis management application to deliver alert feeds on potential threats to business operations.
 
-A threat feed is the data intelligence information of a potential or current threat that can pose a danger to an organization. It can stop its business routine or disable its business processes. Threat feeds can include but not limited to:
+A threat feed provides intelligence about potential or current threats. These threats can disrupt an organization's operations or disable its business processes. Threat feeds can include:
 
 -   Severe weather or tornado
 -   Hurricane

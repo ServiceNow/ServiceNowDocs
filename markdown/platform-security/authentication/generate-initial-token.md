@@ -1,5 +1,5 @@
 ---
-title: Generate personal auth initiator URL
+title: Generate Personal Auth Initiator URL
 description: Generate the initial token for a user who doesn’t have access to the credentials page to configure personal authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/generate-initial-token.html
@@ -7,26 +7,26 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Personal authentication, Authentication, Access Management]
 ---
 
-# Generate personal auth initiator URL
+# Generate Personal Auth Initiator URL
 
 Generate the initial token for a user who doesn’t have access to the credentials page to configure personal authentication.
 
 ## Before you begin
 
-Role required: connection\_admin, oauth\_admin
+Role required: connection\_admin
 
 ## About this task
 
-Users without the connection\_admin role can’t access the Credentials page to generate OAuth tokens. These users must generate a personal token using the `oauth_initiator` URL with an additional parameter that indicates that the token is personal and requested for the session user.
+Users without the **connection\_admin** role can’t access the Credentials page to generate OAuth tokens. These users must generate a personal token using the `oauth_initiator` URL with additional parameter indicating that the token is personal and requested for session user.
 
 You can also use the scoped `PersonalAuthAPI` with the `sn_personal_auth` plugin to generate the initiator URL. For more information, see [PersonalAuthAPI - getInitiatorURL\(String aliasId\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/PersonalAuthAPIScoped.md#title_PerAuth-getInitiatorURL_S)
 
-**Note:** If the personal authentication plugin \(`com.snc.sn_ihub_personal_auth`\) is activated, use the scoped API to generate the initiator URL. This API is available only if the plugin is installed.
+**Note:** If the personal authentication plugin \(`com.snc.sn_ihub_personal_auth`\) is activated, use the scoped API to generate the initiator URL. This. API is available only if the plugin is installed.
 
 ## Procedure
 

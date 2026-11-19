@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/create-prompt-assets-newexperience.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-13"
 reading_time_minutes: 3
-breadcrumb: [Creating AI assets manually, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Creating AI assets manually, Managing your AI asset inventory, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Create prompt assets
@@ -28,7 +28,7 @@ When you manually create an AI asset, it defaults to the Design state.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
 
 2.  On the Inventory page, select **Add AI asset**.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/c\_UIActions.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Administer, Form administration, Forms, fields, and lists, Configure core features, Administer]
 ---
 
 # Defining UI actions
@@ -17,6 +17,8 @@ UI actions include the buttons, links, and context menu items on forms and lists
 Administrators and users with the ui\_action\_admin role can define UI actions.
 
 ## UI action controls
+
+Em
 
 You can create a UI action to provide any of these controls:
 

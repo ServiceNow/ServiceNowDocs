@@ -7,9 +7,9 @@ release: zurich
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create an improvement request, Continual Improvement Management, IT Service Management]
+breadcrumb: [Integrated applications, Overview, Continual Improvement Management, IT Service Management]
 ---
 
 # Create application records from improvement initiatives
@@ -112,5 +112,5 @@ If you have not been assigned the required roles, contact your system administra
 
 The application record is created and UI changes display on the source improvement initiative or CIM task record and corresponding application records. For more information, see [Updates after application record creation from improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/updates-app-record-from-initiative.md).
 
-**Parent Topic:**[Create an improvement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/create-cim-request.md)
+**Parent Topic:**[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/continual-improvement-management/cim-integration.md)
 

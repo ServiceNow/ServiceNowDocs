@@ -1,20 +1,20 @@
 ---
 title: DEX policies for persistent VDIs
-description: DEX policies for Windows persistent Virtual Desktop Infrastructures \(VDIs\) define the check instances, frequencies, and parameters for application, network, and device monitoring.
+description: Policy reference for DEX monitoring on Windows persistent Virtual Desktop Infrastructures \(VDI\). Use this reference to understand available check instances, frequencies, and parameters for application, network, and device monitoring.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/dex-policies-persistent-vdis.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-04-02"
 reading_time_minutes: 2
 breadcrumb: [DEX Content Playbook reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # DEX policies for persistent VDIs
 
-DEX policies for Windows persistent Virtual Desktop Infrastructures \(VDIs\) define the check instances, frequencies, and parameters for application, network, and device monitoring.
+Policy reference for DEX monitoring on Windows persistent Virtual Desktop Infrastructures \(VDI\). Use this reference to understand available check instances, frequencies, and parameters for application, network, and device monitoring.
 
 ## Policies for Windows persistent VDIs — Application
 
@@ -46,11 +46,11 @@ os.win.check-app-historical
 
 </td><td>
 
-Collects the application metrics on the persistent VDI Windows device and sends the metric data to MetricBase.
+Collects the application metrics in the persistent VDI Windows device and sends the metric data to Metric Base.
 
 </td><td>
 
-5 minutes
+5 mins
 
 </td><td>
 
@@ -66,7 +66,7 @@ os.win.check-app-sccm-latest
 
 </td><td>
 
-Collects application-specific metrics for the Microsoft System Center Configuration Manager app on the persistent VDI Windows device.
+Collect application-specific metrics for the Microsoft System Center Configuration Manager app on the persistent VDI Windows device.
 
 </td><td>
 
@@ -96,8 +96,8 @@ DEX provides the following policies for persistent VDIs applications.
 
 |Check instance|Description|Frequency|Historical or latest|Check instance parameters|
 |--------------|-----------|---------|--------------------|-------------------------|
-|os.win.check-app-dom-network-historical|Collects Windows installed apps network monitoring metrics like latency, packet loss, and jitter and sends monitoring data to MetricBase and the ServiceNow instance.|10 minutes|Historical|domain\_network\_details|
-|os.win.check-web-app-dom-net-historical|Collects Windows web apps network monitoring metrics like latency, packet loss, and jitter and sends monitoring data to MetricBase and the ServiceNow instance.|10 minutes|Historical|domain\_network\_details|
+|os.win.check-app-dom-network-historical|Collects Windows installed apps network monitoring metrics like latency, packet loss, and jitter and sends monitoring data to Metric Base and the ServiceNow® instance.|10 mins|Historical|domain\_network\_details|
+|os.win.check-web-app-dom-net-historical|Collects Windows Web apps network monitoring metrics like latency, packet loss, and jitter and sends monitoring data to Metric Base and the ServiceNow instance.|10 mins|Historical|domain\_network\_details|
 
 ## Policies for Windows persistent VDIs — Device
 
@@ -157,7 +157,7 @@ Collects Windows device metrics and sends the metric data to MetricBase.
 
 </td><td>
 
-30 minutes
+30 mins
 
 </td><td>
 
@@ -177,7 +177,7 @@ Collects Windows device metrics and sends the metric data to MetricBase.
 
 </td><td>
 
-5 minutes
+5 mins
 
 </td><td>
 
@@ -217,7 +217,7 @@ Collects Windows device metrics and sends the metric data to the ServiceNow inst
 
 </td><td>
 
-5 minutes
+5 mins
 
 </td><td>
 
@@ -273,7 +273,7 @@ os.win.check-system-registry-latest
 
 </td><td>
 
-Gets registry data on a Windows device.
+Gets registry data on Windows device.
 
 </td><td>
 
@@ -288,4 +288,5 @@ Latest
 config\_file\_read
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)
+

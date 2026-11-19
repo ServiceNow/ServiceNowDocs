@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/config-now-platform-core-features.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
-breadcrumb: [Administer the ServiceNow AI Platform]
+breadcrumb: [Administer]
 ---
 
 # Configure ServiceNow AI Platform core features

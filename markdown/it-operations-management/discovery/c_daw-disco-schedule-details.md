@@ -7,10 +7,10 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 keywords: [Discovery, Admin, Workspace]
-breadcrumb: [Schedules, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery Admin Workspace Schedules, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery Admin Workspace schedule details
@@ -28,9 +28,7 @@ The actions available in the schedule header depend on the discovery type:
 -   For an IP-based Discovery schedule, select **Save** to save your changes, or select **Quick ranges** to create a range of IP addresses to discover.
 -   For a cloud or certificate Discovery schedule, select **Edit** to update the schedule. To run any Discovery schedule on demand, select **Discover now**.
 
-**Note:** Certificate discovery is available in Discovery Admin Workspace starting with v1.20.0 and requires the Brazil, Australia, or Zurich release starting with Patch 8.
-
-Starting with v1.22.0, users with the discovery\_operator role can't use the **Save**, **Quick ranges**, **Edit**, or **Delete** options. The only option available to these users is **Discover now**. For more information, see Discovery Operator role access.
+**Note:** Certificate discovery is available in Discovery Admin Workspace starting with v1.20.8 and requires the Brazil, Australia, or Zurich release starting with Patch 8.
 
 ## Key features
 

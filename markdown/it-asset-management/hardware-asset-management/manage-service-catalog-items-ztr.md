@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure Zero Touch request flow, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Manage Zero Touch request flow, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Manage Service Catalog items for the Zero Touch request flow

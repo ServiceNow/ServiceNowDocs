@@ -7,9 +7,9 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Using breakdowns on responsive dashboards
@@ -52,7 +52,7 @@ If a widget uses the same breakdown as the dashboard, the dashboard breakdown do
 -   **[Showing breakdown relations on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_ShowBkdwnRltnsWdgts.md)**  
 A breakdown widget can display 1st level breakdown elements that are related to the element selected for the dashboard. The widget must be on a breakdown dashboard, and that dashboard must include the breakdown sources of the related breakdowns.
 
-**Parent Topic:**[Create and use Core UI dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
+**Parent Topic:**[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
 
 **Related topics**  
 

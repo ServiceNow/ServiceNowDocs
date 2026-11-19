@@ -1,5 +1,5 @@
 ---
-title: Require authorization for RSS requests
+title: Require authorization for RSS requests \[Updated in Security Center 1.3\]
 description: Use the glide.basicauth.required.rss property to designate if incoming RSS requests should require basic authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-rss-request-authorization.html
@@ -7,22 +7,18 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [API and web service, Hardening settings, Platform Security]
 ---
 
-# Require authorization for RSS requests
+# Require authorization for RSS requests \[Updated in Security Center 1.3\]
 
 Use the **glide.basicauth.required.rss** property to designate if incoming RSS requests should require basic authentication.
 
-The **glide.basicauth.required.rss** system property controls basic authorization for inbound RSS requests. If **glide.basicauth.required.rss** isn't set to the recommended value of **true**, then Basic Authentication for RSS format export processor is disabled. This also could be combined with a wrong role within the guest\_user related property, this will lead to unauthenticated access to instance data.
-
-Ensure the property **glide.basicauth.required.rss**exists in the System Properties \[sys\_properties\] table and is set to **true**.
+## More information
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
-
-## More information
 
 <table id="table_ajc_b43_3kb"><thead><tr><th>
 
@@ -34,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Configuration name
+Property name
 
 </td><td>
 
@@ -50,11 +46,19 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Data type
+Category
 
 </td><td>
 
-Boolean
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+
+</td></tr><tr><td>
+
+Purpose
+
+</td><td>
+
+To enforce basic authentication on RSS requests.
 
 </td></tr><tr><td>
 
@@ -66,37 +70,11 @@ true
 
 </td></tr><tr><td>
 
-Default value
+Security risk rating
 
 </td><td>
 
-true
-
-</td></tr><tr><td>
-
-Fallback value
-
-</td><td>
-
-false
-
-</td></tr><tr><td>
-
-Category
-
-</td><td>
-
-[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
-
-</td></tr><tr><td>
-
-Security risk
-
-</td><td>
-
--   Severity score: 7.5
--   CVSS rating: High
--   Security risk details: Unauthenticated access to RSS export data, when combined with misconfigured guest user role, poses a significant risk of unauthorized data exposure.
+7.5
 
 </td></tr><tr><td>
 
@@ -111,11 +89,19 @@ This remediation enforces a combination of authentication methods, in the form o
 
 </td></tr><tr><td>
 
-Dependencies and prerequisites
+Security risk
 
 </td><td>
 
-None
+\(High\) Without appropriate authorization configured on the incoming RSS requests, an unauthorized user can get access to sensitive content/data on the target instance.
+
+</td></tr><tr><td>
+
+References
+
+</td><td>
+
+[RSS basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/c_BasicAuthentication.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-api-web-service.md)

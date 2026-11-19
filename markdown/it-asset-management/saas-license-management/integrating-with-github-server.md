@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 9
-breadcrumb: [Integrating with GitHub, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrating with GitHub, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrate with GitHub Enterprise Server
@@ -76,7 +76,7 @@ Create a GitHub Enterprise Server integration profile to track software subscrip
 
 To create a GitHub Enterprise Server integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: sam\_integrator or admin
 
 **Important:** You must select the **GitHub Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -88,15 +88,15 @@ If you’re using Software Asset Workspace, the option to create the GitHub Serv
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d317338e410">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d302736e410">
 
 Interface
 
-</th><th align="left" id="d317338e413">
+</th><th align="left" id="d302736e413">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d317338e419">
+</th></tr></thead><tbody><tr><td id="d302736e419">
 
 **Core UI**
 
@@ -107,7 +107,7 @@ Action
 3.  Select **GitHub Server Subscription Profile**.
 
 
-</td></tr><tr><td id="d317338e461">
+</td></tr><tr><td id="d302736e461">
 
 **Software Asset Workspace**
 
@@ -250,7 +250,7 @@ The &lt;*api-key*&gt; is the personal access token that you generated in [Genera
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
 
 -   Software Models
 -   Unrecognized Subscription Identifiers

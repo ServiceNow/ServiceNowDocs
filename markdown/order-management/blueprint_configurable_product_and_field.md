@@ -1,18 +1,18 @@
 ---
 title: Blueprint, configurable product, and field UI
-description: View a list of updates and changes made in April 2023.
+description: View a list of updates and changes made in April 202\(3\)
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/blueprint\_configurable\_product\_and\_field.html
 release: zurich
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-10-08"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [ServiceNow CPQ app, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Blueprint, configurable product, and field UI
 
-View a list of updates and changes made in April 2023.
+View a list of updates and changes made in April 202\(3\)
 
 Improvements in Admin usability and readability. No changes in functionality.
 

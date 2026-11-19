@@ -1,13 +1,13 @@
 ---
 title: Hermes Messaging Service roles
-description: Hermes Messaging Service is installed with these roles.Enables users to view topics and namespaces in HermesEnables users to access the Hermes Messaging Service Topic Inspector.Enables users to manage the integration with Apache Kafka, including topics and settings related to Kafka subscriptions.Enables users to manage Kafka namespace definitions.
+description: Hermes Messaging Service is installed with these roles.Enables users to access the Hermes Messaging Service Topic Inspector.Enables users to manage the integration with Apache Kafka, including topics and settings related to Kafka subscriptions.Enables users to manage Kafka namespace definitions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-roles.html
 release: zurich
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Reference, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,26 +31,6 @@ To learn more about managing subscriptions, see [Managing per-user subscriptions
 
 [Hermes Messaging Service domain separation]()
 
-## Hermes Messaging Service viewer \[hermes\_viewer\]
-
-Enables users to view topics and namespaces in Hermes
-
-### Contains Roles
-
-List of roles contained within the role.
-
-None.
-
-### Groups
-
-List of groups this role is assigned to by default.
-
-None.
-
-### Special considerations
-
-None.
-
 ## Hermes Messaging Service administrator \[hermes\_admin\]
 
 Enables users to access the Hermes Messaging Service Topic Inspector.
@@ -59,8 +39,7 @@ Enables users to access the Hermes Messaging Service Topic Inspector.
 
 List of roles contained within the role.
 
--   kafka\_namespace\_admin
--   hermes\_viewer
+None.
 
 ### Groups
 
@@ -80,10 +59,7 @@ Enables users to manage the integration with Apache Kafka, including topics and 
 
 List of roles contained within the role.
 
--   hermes\_viewer
--   stream\_connect\_alert\_viewer
--   view\_changer
--   fd\_read\_flows
+None.
 
 ### Groups
 

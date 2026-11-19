@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-02"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [AI Agent Advisor in AI Admin Center, Use, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [AI Agent Advisor in AI Admin Center, Use, AI Agent Advisor, Enable AI experiences]
 ---
 
 # Edit an AI agent from an automation opportunity\(Next Experience UI\)
@@ -63,6 +63,8 @@ Follow these steps to edit a custom AI agent for an automation opportunity.
 
     For more details on the guided setup forms, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-next-best-action-agent.md).
 
+
+**Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
 
 **Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
 

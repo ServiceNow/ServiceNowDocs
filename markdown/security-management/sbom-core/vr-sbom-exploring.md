@@ -7,7 +7,7 @@ release: zurich
 product: SBOM Core
 classification: sbom-core
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 6
 breadcrumb: [Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
@@ -130,7 +130,7 @@ v6.0, v5.0, v4.0
 -   SBOM Response requires the Vulnerability Response application.
 -   View your component inventory and assess your risk exposure in the SBOM Workspace. Set up rules to create application vulnerable items \(AVITs\) automatically and remediate them with the Application Vulnerability Response workflow.
 -   View component license information that is uploaded with your SBOM files in the [License administration module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sbom-core/vr-sbom-license-overview.md). Classify and resolve \(match\) the components you upload in your Application Vulnerability Response files to licenses so you can see the state of your over-all license compliance.
--   Starting with version 4.0 of Application Vulnerability Response Response, you can view components that are identified as stale or abandoned as ‘Non-compliant’ in the Policy as Code Engine \(PaCE\) interface that is available in the SBOM Workspace.
+-   Starting with version 4.0 of Application Vulnerability Response Response, you can view stale or abandoned components as ‘Non-compliant’ in the Policy as Code Engine \(PaCE\) interface. This interface is available in the SBOM Workspace.
 -   The OSV.dev and Deps.dev integrations are included when you install SBOM Response.
 
     -   OSV.dev is an open-source API that provides vulnerability intelligence information for a given version of a package or library.

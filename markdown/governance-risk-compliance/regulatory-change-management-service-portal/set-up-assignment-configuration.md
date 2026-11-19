@@ -7,9 +7,9 @@ release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Recommend citations on regulatory alerts, Regulatory alerts, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
+breadcrumb: [Train and use the similarity solution to recommend citations on regulatory alerts, Regulatory alerts, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
 # Set up auto-assignment for regulatory alerts
@@ -45,5 +45,5 @@ When a regulatory alert is created without a coordinator, the assignment configu
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Recommend citations on regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/retrain-ml-reg-compliance-mapping.md)
+**Parent Topic:**[Train and use the similarity solution to recommend citations on regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/retrain-ml-reg-compliance-mapping.md)
 

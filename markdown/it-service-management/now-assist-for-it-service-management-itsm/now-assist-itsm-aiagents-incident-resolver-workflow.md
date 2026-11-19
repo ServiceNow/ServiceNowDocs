@@ -1,59 +1,59 @@
 ---
-title: IT Service Management AI agent collection Investigate and resolve ITSM incidents agentic workflow
-description: Use the Investigate and resolve ITSM incidents AI agent team to get recommendations to resolve an incident based on the incident number. Check for related catalog items, Knowledge articles, and similar resolved incidents to generate resolution steps for the incident.
+title: IT Service Management AI agent collection Investigate and recommend incident resolution agentic workflow
+description: Use the Investigate and recommend incident resolution AI agent team to get recommendations to resolve an incident based on the incident number. Check for related catalog items, Knowledge articles, and similar resolved incidents to generate resolution steps for the incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-incident-resolver-workflow.html
 release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [ITSM, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# IT Service Management AI agent collection Investigate and resolve ITSM incidents agentic workflow
+# IT Service Management AI agent collection Investigate and recommend incident resolution agentic workflow
 
-Use the Investigate and resolve ITSM incidents AI agent team to get recommendations to resolve an incident based on the incident number. Check for related catalog items, Knowledge articles, and similar resolved incidents to generate resolution steps for the incident.
+Use the Investigate and recommend incident resolution AI agent team to get recommendations to resolve an incident based on the incident number. Check for related catalog items, Knowledge articles, and similar resolved incidents to generate resolution steps for the incident.
 
-## Investigate and resolve ITSM incidents agentic workflow overview
+## Investigate and recommend incident resolution agentic workflow overview
 
-Using the Investigate and resolve ITSM incidents agentic workflow:
+Using the Investigate and recommend incident resolution agentic workflow:
 
 1.  Check for related catalog items and select the most relevant item.
 2.  Check for Knowledge articles and similar incidents.
 3.  Get recommended steps for incident resolution.
 
-To modify the Investigate and resolve ITSM incidents agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the Investigate and recommend incident resolution agentic workflow, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 **Important:** When you modify an agentic workflow, AI agent, or a tool, make sure that you update all instructions accordingly.
 
 ## Link catalog items and Knowledge articles to incidents
 
-When you make a query or a request in the Now Assist panel, you can get recommendations for relevant catalog items. The recommendations get automatically added to the incident's **Work notes** section. The workflow uses relevant Knowledge articles and similar incidents to get the recommended steps for incident resolution that gets added to the incident's **Work notes** section.
+When you make a query or a request in the ServiceNow Otto® panel, you can get recommendations for relevant catalog items. The recommendations get automatically added to the incident's **Work notes** section. The workflow uses relevant Knowledge articles and similar incidents to get the recommended steps for incident resolution that gets added to the incident's **Work notes** section.
 
 To access the agentic workflow:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
-2.  Select **Investigate and resolve ITSM incidents**.
+2.  Select **Investigate and recommend incident resolution**.
 
 ## Setting manual triggers for the agentic workflow
 
-The Investigate and resolve ITSM incidents agentic workflow is triggered manually based on the following conditions:
+The Investigate and recommend incident resolution agentic workflow is triggered manually based on the following conditions:
 
 **Note:** In the **Define trigger** screen, the value in the **Run as** field must be set to **Assigned to**.
 
 -   **State** is updated to **In progress**
 -   **Assigned to** isn’t empty
 
-## AI agents used in the Investigate and resolve ITSM incidents agentic workflow
+## AI agents used in the Investigate and recommend incident resolution agentic workflow
 
-In the Investigate and resolve ITSM incidents agentic workflow, use specific AI agents for each type of resolution to generate the desired recommendations.
+In the Investigate and recommend incident resolution agentic workflow, use specific AI agents for each type of resolution to generate the desired recommendations.
 
 **Important:** In the Define availability screen for the AI agent, make sure that the **Status** field is enabled to activate the AI agent.
 
-<table id="table_abj_5lk_j2c"><thead><tr><th>
+<table id="table_er1_lb1_dlc"><thead><tr><th>
 
 AI agent
 
@@ -61,17 +61,17 @@ AI agent
 
 AI agent role
 
-</th></tr></thead><tbody><tr><td>
+</th></tr></thead><tbody class="legacy-genai-2025-12"><tr><td>
 
 ITSM incident resolution plan investigation AI agent
 
 </td><td>
 
 1.  Recommends catalog items related to the selected incident.
-2.  Looks up similar incidents and provides an incident resolution. The resolution can also include information from knowledge articles.
+2.  Looks up similar incidents and recommends incident resolution. The resolution can also include information from knowledge articles.
 
 </td></tr></tbody>
-</table>## Generating a recommendation using the Investigate and resolve ITSM incidents agentic workflow
+</table>## Generating a recommendation using the Investigate and recommend incident resolution agentic workflow
 
 In the agentic workflow record:
 
@@ -87,24 +87,24 @@ In the agentic workflow record:
 
         The agent executes the request for the agentic workflow.
 
-    **Example of Investigate and resolve ITSM incidents agentic workflow output in the ServiceNow AI Agent Studio**
+    **Example of Investigate and recommend incident resolution agentic workflow output in the ServiceNow AI Agent Studio**
 
 
-\[Omitted image "now-assist-itsm-aiagents-inv-resolve-inc.png"\] Alt text: Investigate and resolve ITSM incidents agentic workflow output.
+\[Omitted image "now-assist-itsm-aiagents-inv-resolve-inc.png"\] Alt text: Investigate and recommend incident resolution agentic workflow output.
 
-In the AI Agent Studio, the human agent gets notified as soon as the recommendations to resolve incidents get generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent is notified when incident resolution recommendations are generated. Follow the on-screen instructions to complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 
 ## Generating the incident resolution steps in the Otto panel
 
-As a user, do the following in the Now Assist panel:
+As a user, do the following in the ServiceNow Otto® panel:
 
-1.  Open the Now Assist panel and enter the incident number for which you want to generate the incident resolution steps.
+1.  Open the ServiceNow Otto® panel and enter the incident number for which you want to generate the incident resolution steps.
 
-    The Investigate and Resolve ITSM incidents workflow gets triggered and the ITSM Incident Resolution Plan Investigation AI agent takes over the issue resolution.
+    The Investigate and recommend incident resolution workflow gets triggered and the ITSM Incident Resolution Plan Investigation AI agent takes over the issue resolution.
 
 2.  Using AI search, the AI agent retrieves the top 10 most relevant catalog items related to the incident.
 
-    The URLs to these catalog items are added to the **Work notes** section in the incident.\[Omitted image "now-assist-itsm-inv-resol-nap-cat-comment.png"\] Alt text: Now Assist for ITSM Investigate and Resolve ITSM incidents workflow catalog comments
+    The URLs to these catalog items are added to the **Work notes** section in the incident.\[Omitted image "now-assist-itsm-inv-resol-nap-cat-comment.png"\] Alt text: ServiceNow Otto for ITSM Investigate and recommend incident resolution workflow catalog comments
 
 3.  The AI agent gathers all relevant information required for the investigation.
 
@@ -114,6 +114,6 @@ As a user, do the following in the Now Assist panel:
 
     If the AI agent was unable to create a resolution plan, then it displays a message indicating the failure.
 
-    \[Omitted image "now-assist-itsm-inv-resol-nap-plan-comment.png"\] Alt text: Now Assist for ITSM Investigate and Resolve ITSM incidents workflow plan comments
+    \[Omitted image "now-assist-itsm-inv-resol-nap-plan-comment.png"\] Alt text: ServiceNow Otto for ITSM Investigate and recommend incident resolution workflow plan comments
 
 

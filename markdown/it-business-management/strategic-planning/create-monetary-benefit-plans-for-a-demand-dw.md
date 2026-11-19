@@ -7,7 +7,7 @@ release: zurich
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-24"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -38,15 +38,15 @@ The monetary benefit plan breakdown records are automatically created when you s
 
 4.  Create a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d348988e127">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d331521e127">
 
 Option
 
-</th><th align="left" id="d348988e130">
+</th><th align="left" id="d331521e130">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d348988e136">
+</th></tr></thead><tbody><tr><td id="d331521e136">
 
 **Using the __Monetary Benefit Plans__ tab**
 
@@ -60,7 +60,7 @@ Procedure
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d348988e183">
+</td></tr><tr><td id="d331521e183">
 
 **Using the __Financials__ page**
 

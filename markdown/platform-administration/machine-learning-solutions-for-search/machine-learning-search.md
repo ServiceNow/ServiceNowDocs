@@ -7,9 +7,9 @@ release: zurich
 product: Machine Learning solutions for Search
 classification: machine-learning-solutions-for-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Search administration, Configure core features, Administer]
 ---
 
 # Machine learning solutions for Search administration

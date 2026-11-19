@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ You can upgrade, downgrade, or switch the class of a CI by modifying its **Class
 
 ## Before you begin
 
-Role required: sn\_cmdb\_editor, asset, or itil \(In general, the roles required to update a CI\)
+Role required: itil or asset \(In general, the roles required to update a CI\)
 
 ## About this task
 
@@ -73,17 +73,17 @@ For information about CI reclassification by the Identification and Reconciliati
 **Related topics**  
 
 
+[Dependent CIs management]()
+
 [CMDB record types]()
 
 [Related Lists of CI components]()
 
-[Principal Class]()
-
-[Dependent CIs management]()
-
 [Create a CI class]()
+
+[Delete CIs]()
 
 [View and edit class definitions and metadata]()
 
-[Delete CIs]()
+[Principal Class]()
 

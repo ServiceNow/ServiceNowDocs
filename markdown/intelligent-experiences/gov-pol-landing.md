@@ -1,19 +1,19 @@
 ---
-title: Controlling AI asset usage in AI Control Tower
-description: Create AI asset usage policies that automatically respond to detected AI threats or block an AI agent, domain, or model outright.
+title: Controlling AI asset usage
+description: Create AI asset usage policies in Super Intelligence Control Tower that automatically respond to detected AI threats or block an AI agent, domain, or model outright.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-pol-landing.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-26"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Controlling AI asset usage in AI Control Tower
+# Controlling AI asset usage
 
-Create AI asset usage policies that automatically respond to detected AI threats or block an AI agent, domain, or model outright.
+Create AI asset usage policies in Super Intelligence Control Tower that automatically respond to detected AI threats or block an AI agent, domain, or model outright.
 
 ## Get started
 
@@ -31,15 +31,15 @@ Create AI asset usage policies that automatically respond to detected AI threats
 
 </td></tr><tr><td>
 
-[Manage Arc policies\[Omitted image "bus-security.svg"\] Alt text:Control what Arc can do on your users' devices.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-managing-arc-policies.md)
-
-</td><td>
-
 [Review enforcement activity\[Omitted image "bus-discover.svg"\] Alt text:Review and audit policy activity.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)
 
 </td><td>
 
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Details on threat categories and where policies are enforced.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-reference.md)
+
+</td><td>
+
+
 
 </td></tr></tbody>
 </table>**Important:**

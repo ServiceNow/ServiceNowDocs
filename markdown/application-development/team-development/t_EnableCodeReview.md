@@ -7,9 +7,9 @@ release: zurich
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Team Development, Planning your application, Classic app development, Building applications]
+breadcrumb: [Code reviews, Pushing changes, Working with changes, Team Development, Planning your application, Building applications]
 ---
 
 # Enable a code review
@@ -18,16 +18,18 @@ You can require a code review of all changes pushed to an instance.
 
 ## Before you begin
 
-Role required: none
+Role required: admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Team Development** &gt; **Properties**.
 
-2.  Select the **Yes** check box for If this property is set to Yes, code review is required before pushing to this instance \(com.snc.teamdev.requires\_codereview\).
+2.  Select **Yes** for com.snc.teamdev.requires\_codereview.
 
-3.  Click **Save**.
+    Code review is required before pushing to this instance.
 
-    Setting this property adds the Code Review Requests module to the application menu and requires all changes pushed to this instance to remain in the Awaiting Code Review stage until someone in the Team Development Code Reviewers group approves them.
+3.  Select **Save**.
 
+
+**Parent Topic:**[Code reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/team-development/c_CodeReview.md)
 

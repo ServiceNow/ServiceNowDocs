@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/results-filter-host-status.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Results page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Results page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Filter results for Host Status
@@ -22,7 +22,7 @@ Role required: admin
 
 In the Scan Results filtering types, the **Host Status** enables users to view query results based on whether the queried host was **Up** or **Down**. This filter is derived from the **Nmap XML status field** inside the Raw scan output.
 
-\[Omitted image "host-status-filter.png"\] Alt text: Select Host Status
+\[Omitted image "image.host-status-filter"\] Alt text: Select Host Status
 
 **Note:** This filter is based on raw scan output and does not depend on scan type. If a scan output does not contain a host `status state="up|down"` field, it does not match the Host Status filter.
 
@@ -41,11 +41,11 @@ Raw data is useful for debugging and verification because:
 
 1.  Navigate to the Results page.
 
-2.  In the Filter panel, select the plus icon. \[Omitted image "filter-plus-icon.png"\] Alt text:
+2.  In the Filter panel, select the plus icon. \[Omitted image "image.filter-plus-icon"\] Alt text:
 
     The **Select Filter Type** field opens.
 
-    \[Omitted image "add-filter.png"\] Alt text: Select to add filter
+    \[Omitted image "image.add-filter"\] Alt text: Select to add filter
 
 3.  In the Filter field, select Host Status from the drop-down menu.
 
@@ -57,7 +57,7 @@ Raw data is useful for debugging and verification because:
 
     -   **Up** means the target asset responded, that is, the appliance was able to reach it and also got a response back.
     -   **Down** means the target asset did not respond; this could mean it is offline, blocked by firewall, unreachable, or it did not respond.
-    \[Omitted image "filter-host-status-up-down.png"\] Alt text: Choose either Up or Down
+    \[Omitted image "image.filter-host-status-up-down"\] Alt text: Choose either Up or Down
 
 5.  Using the Host Status filter helps to quickly narrow results:
 
@@ -68,6 +68,4 @@ Raw data is useful for debugging and verification because:
     -   Raw data confirms why a host was marked Up/Down \(reason field\).
     -   Raw data shows what Nmap actually returned \(good for support/investigations\).
     -   Raw data helps validate scripts when querying/mapping doesn’t show expected information.
-
-**Parent Topic:**[Results page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/results-page-console.md)
 

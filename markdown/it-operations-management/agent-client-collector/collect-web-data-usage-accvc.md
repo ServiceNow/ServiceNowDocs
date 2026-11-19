@@ -7,10 +7,10 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-25"
 reading_time_minutes: 2
 keywords: [ACC-V, web usage, monitoring, visibility content]
-breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
 # Collect web usage data using Agent Client Collector for Visibility Content
@@ -69,6 +69,4 @@ The ACC agent on each managed device monitors URL activity from Chromium-based b
 After enabling web usage collection, you can view the collected data in the User Web Usage \(sn\_acc\_vis\_content\_user\_web\_usage\) table. Monitor aggregated domain-level statistics in the Application Domain \(sn\_acc\_vis\_content\_application\_domain\) table. Data aggregates from the User Web Usage table to the Application Domain table, including total page views, total unique users, last accessed time, and daily page view trends. By default, this job runs daily.
 
 For details on these tables, see [Web usage data collection tables and fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/web-usage-collection-tables.md).
-
-**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

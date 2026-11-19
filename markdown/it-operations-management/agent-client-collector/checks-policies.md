@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 7
-breadcrumb: [ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 5
+breadcrumb: [ACC deployment - shared between servers and endpoints, Agent Client Collector, IT Operations Management]
 ---
 
 # Checks and policies
@@ -37,7 +37,7 @@ If checks are not running on the agent's devices, your agent may be in CPU prote
 
 In the `acc.yml` configuration file, you can modify the CPU protection mode thresholds which determine when a check is disabled. To re-enable a check, select the check and select **Re-enable disabled check** in the **Actions on selected rows...** drop-down. For details on the CPU protection mode thresholds, see [Agent Client Collector CPU protection thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-set-silent-reference.md). For details on manually turning off data collection, see [Pause Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-enable-silent-mode.md).
 
-Configure the cpu\_protection\_behavior property to determine whether all checks enter CPU protection mode, or only the check with the highest CPU usage that crosses the configured cpu\_percentage\_limit value within the monitoring interval. For details, see [Agent Client Collector CPU protection thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-set-silent-reference.md).
+Configure the **cpu\_protection\_behavior** property to determine which checks enter CPU protection mode. You can set it to apply to all checks, or only the check with the highest CPU usage that crosses the **cpu\_percentage\_limit** value within the monitoring interval. For details, see [Agent Client Collector CPU protection thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-set-silent-reference.md).
 
 A check is marked as **Stale** if it is no longer associated with a policy. To remove a stale check, renable it by selecting the box next to the check and selecting **Re-enable disabled checks** from the **Actions on selected rows...** cell.
 
@@ -81,21 +81,6 @@ If the servicenow base system user does not have privileges to run specific chec
 -   In a macOS system: Ensure that the user running the agent service belongs to a user group with privileges to query all tcp connections on the host.
 -   In a Windows system: Using Windows User Management, add the servicenow user to the groups with the relevant privileges, enabling the user to execute the required commands.
 
-## Executing checks that missed their execution time
-
-A check doesn't execute if the laptop or agent is down during its scheduled execution time. When this happens, the system behavior depends on whether the check has executed previously.
-
--   Check that never executed: The check runs at the agent reconnect time + X \(where X = 0-60 minutes\), and this is the permanent run time of the check.
-
-    For example: Policy X was synced to an agent. Check A in the policy never ran previously and was scheduled to run at 2am. However, the laptop was asleep at that time. The laptop wakes up at 9:09am. After the agent is restored, it notices that check A never ran. Check A is scheduled to run between 9:09am-10:09am and ends up running at 9:54am. The check A interval is every 24 hours, so check A now is scheduled to run daily at 9:54am.
-
--   Check that missed an existing execution time: The previously run check runs at the agent reconnect time + X \(where X = 0-60 minutes\), but in the future, the check reverts to its originally scheduled run time.
-
-    For example: Check A runs once a day and is scheduled to run daily at 9:54am. The laptop was asleep or the agent was not connected from 9am until 1pm. At 1:17pm, the laptop is awake and the agent starts and connects. The agent noticed that check A did not run at 9:54am and schedules it to run between 1:17pm-2:17pm. The check ends up running at 1:37pm. However, the next time check A runs is at 9:54am, its originally scheduled time.
-
-    This scenario takes effect only for checks running at an interval of every 60 minutes or less frequently. Checks that run more often than every 60 minutes at their scheduled interval starting from whenever the agent is up.
-
-
 ## Policies
 
 A **policy** is a combination of the CIs being monitored by the Agent Client Collector and the check definitions that run on those CIs.
@@ -110,5 +95,5 @@ Alerts generated by policies with an event-type check are automatically closed w
 -   Deleting the policy
 -   Modifying the policy filter that determines the monitored CIs
 
-**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-shared-deployment.md)
+**Parent Topic:**[Agent Client Collector deployment - shared between servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

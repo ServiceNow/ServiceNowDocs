@@ -7,7 +7,7 @@ release: zurich
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -23,7 +23,7 @@ Automatically assign the risk event owner, create and assign issues, and route a
 -   **[Define a threshold amount for the risk event response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/define-threshold-amount-risk-event.md)**  
 Define a threshold limit for assigning risk event approvers. A threshold limit is defined to determine if a risk event needs an approver.
 -   **[Report risk events from the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/report-risk-events-serviceportal.md)**  
-When you identify any event that might have a financial or non financial impact on your organization, report it from the ServiceNow, Inc. Service Portal. You can also report any event that has already occurred with a financial or non financial impact.
+When you identify any event that might have a financial or non financial impact on your organization, report it from the Service Portal. You can also report any event that has already occurred with a financial or non financial impact.
 -   **[Report a risk event from Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/report-risk-event-from-employee-center.md)**  
 When you identify any event that might have a financial or non financial impact on your organization, report it from the ServiceNow, Inc. Employee Center. You can also report any event that has already occurred with a financial or non financial impact.
 -   **[Report a risk event from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/report-risk-event-from-incident.md)**  
@@ -32,7 +32,7 @@ If risk event integration is configured, users can report risk events from any u
 A risk event might require associated tasks. Unless these tasks are created and eventually closed, the risk event cannot be closed.
 -   **[Analyze a risk event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/analyze-risk-events.md)**  
 Analyze user-submitted risk events to determine if the risk event is valid and needs further processing.
--   **[Create a risk event entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-new-event-impact.md)**  
+-   **[Create a risk event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/create-new-event-impact.md)**  
 Create a risk event entry to determine the monetary or non-monetary impact of the risk event. A risk event can have multiple risk event entries.
 -   **[Approve a risk event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-risk-management-workspace/approve-a-risk-event.md)**  
 A user with the sn\_risk.manager role must approve a valid risk event. If any risk approver rejects the event, the state of the risk event changes to rejected.

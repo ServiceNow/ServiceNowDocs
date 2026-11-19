@@ -1,5 +1,5 @@
 ---
-title: Agentic AI in the Change Management application
+title: Agentic AI Now Assist for change management
 description: Use the ITSM change management agentic workflows to manage and complete tasks autonomously in the Change Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/now-assist-for-it-service-management-itsm/using-agentic-workflows.html
@@ -7,13 +7,13 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-11-03"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Agentic AI in the Change Management application
+# Agentic AI Now Assist for change management
 
 Use the ITSM change management agentic workflows to manage and complete tasks autonomously in the Change Management application.
 

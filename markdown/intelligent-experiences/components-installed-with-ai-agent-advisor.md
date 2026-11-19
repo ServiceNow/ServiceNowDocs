@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [Reference, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Reference, AI Agent Advisor, Enable AI experiences]
 ---
 
 # Components installed with AI Agent Advisor
@@ -44,8 +44,14 @@ The following tables are installed with AI Agent Advisor.
 
 **Parent Topic:**[AI Agent Advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-reference.md)
 
+**Parent Topic:**[AI Agent Advisor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-agent-advisor-reference.md)
+
 **Related topics**  
 
+
+[Domain separation and AI Agent Advisor]()
+
+[AI Agent Advisor roles]()
 
 [Domain separation and AI Agent Advisor]()
 

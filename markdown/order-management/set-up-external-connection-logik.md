@@ -1,18 +1,18 @@
 ---
-title: Set up an external connection in ServiceNow CPQ
-description: Set up an external connection in ServiceNow CPQ by copying the client ID and client secret of the CPQ.ai Auth record.
+title: Set up External Connection in Logik
+description: Set up an External Connection in Logik by copying the Client ID and Client Secret of the Logik.ai Auth record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/set-up-external-connection-logik.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-12-07"
 reading_time_minutes: 1
-breadcrumb: [Without guided setup, Setting up ServiceNow CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Set up an external connection in ServiceNow CPQ
+# Set up External Connection in Logik
 
-Set up an external connection in ServiceNow CPQ by copying the client ID and client secret of the CPQ.ai Auth record.
+Set up an External Connection in Logik by copying the Client ID and Client Secret of the Logik.ai Auth record.
 
 ## Before you begin
 
@@ -24,41 +24,38 @@ Role required: admin
 
     We will use the integration we created to set up an external connection in ServiceNow CPQ.
 
-2.  Copy the client ID and the client secret.
+2.  Copy the Client ID and Client Secret.
 
-3.  In ServiceNow CPQ, navigate to **Utilities** &gt; **External Connections**.
+3.  In Logik, navigate to **Utilities** &gt; **Exernal Connections**.
 
 4.  Select **New**.
 
-5.  Set the name to `pricing`.
+5.  Set the name to pricing.
 
-6.  Under **Integration Type**, select **External**.
+    If you give a different name, it will require updating the default Enrichment scripts to point to the varname given.
 
-7.  For **Authentication Type**, select **OAuth - Client Credentials Flow**.
+6.  Select “External” under “Integration Type”
 
-8.  Enter the client ID and client secret that you copied in step 2.
+7.  Select “OAuth - Client Credentials Flow” for ‘Authentication Type’
 
-    The token URL is `<Your ServiceNow Instance URL>/oauth_token.do`.
+8.  Fill in Client ID and Client Secret you copied in step 2.
 
-9.  Set the remaining details as follows:
+    Token URL is: https://&lt;site&gt;.service-now.com/oauth\_token.do
 
-    -   Scope: useraccount
-    -   HTTP method: POST
-    -   Host: https://&lt;your ServiceNow Instance URL&gt; with no backslash at the end of URL
-    -   Path: `“/{{pricingPath}}”step`
-    -   Body: `“{{pricingRequest}}”`
-    -   Response Type: application/json
-    -   Timeout \(milliseconds\): 5000 
-10. Make sure that the content type is `application/json`.
+9.  Scope: useraccount
 
-11. Select **Save**.
+10. HTTP method: POST
 
-12. Navigate to **Utilities** &gt; **Settings** and set the pricing connection to the newly created connection.
+11. Host: https://&lt;site&gt;.service-now.comstep
 
-    Pricing setup after external connection is defined.
+12. Path: “/\{\{pricingPath\}\}”step
 
+13. Body: “\{\{pricingRequest\}\}”
 
-## What to do next
+14. Ensure the Content Type is application/json.
 
-[Enable the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/enable-advanced-configurator.md)
+15. Save.
+
+16. Navigate to **Utilities** &gt; **Settings**, then set the Pricing Connection to the newly created connection.
+
 

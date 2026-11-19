@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/r\_PushMessageArchitecture.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer]
 ---
 
 # Push notification system
@@ -62,8 +62,6 @@ The application name is the push application the user is using. The application 
 
 
 [Activate push notifications]()
-
-[Enable push notifications for logged-out users]()
 
 [Installed with push notifications]()
 

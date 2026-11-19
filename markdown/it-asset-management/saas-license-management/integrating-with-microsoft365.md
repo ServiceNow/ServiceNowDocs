@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 13
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 12
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrating with Microsoft Dynamics 365 and Power Apps
@@ -151,24 +151,24 @@ URL that accesses Azure. Typically the URL of the ServiceNow instance.**Importan
 
 7.  Navigate to the Certificates and Secrets section.
 
-8.  Create a client secret by selecting **New client secret** and collect the client secret key.
+8.  Create a client secret and collect the client secret key.
 
     You need the client secret key while configuring your ServiceNow instance.
 
-9.  Under API Permission, select **Add a permission** and then select **APIs my organization uses**.
+9.  Under API Permission, select **+ Add a permission** and then select **APIs my organization uses**.
 
-10. Select **Microsoft Graph** and add the required scopes for **Delegated permissions** or **Application permissions**.
+10. Select Microsoft Graph and add the necessary permissions for both Delegated and Application types as required.
 
     -   `Organization.Read.All`
     -   `User.Read.All`
     -   `Offline_access`
-11. Select **Dynamics CRM** and add the following scope.
+11. Select Dynamics CRM and add the following permission.
 
     `user_impersonation`
 
-    **Note:** User\_impersonation scope is offered only as a Delegated permission in Microsoft Dynamics CRM.
+    **Note:** These steps aren't applicable for user\_impersonation or Microsoft Dynamics CRM connection because the user\_impersonation scope is offered as a Delegated permission in Microsoft Dynamics CRM.
 
-12. Grant admin consent for your application by selecting **Grant admin consent**.
+12. Under Grant consent, select **Grant admin consent**.
 
 13. In the Authentication section, under the Redirect URI, enter the redirect URI of the ServiceNow instance.
 
@@ -279,15 +279,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft D
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d141701e1046">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d136203e1037">
 
 Interface
 
-</th><th align="left" id="d141701e1049">
+</th><th align="left" id="d136203e1040">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d141701e1055">
+</th></tr></thead><tbody><tr><td id="d136203e1046">
 
 **Core UI**
 
@@ -298,7 +298,7 @@ Action
 3.  Select **Microsoft Dynamics 365 and Power Apps Integration Profile**.
 
 
-</td></tr><tr><td id="d141701e1097">
+</td></tr><tr><td id="d136203e1088">
 
 **Software Asset Workspace**
 
@@ -323,100 +323,41 @@ Action
 
 6.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
-7.  In the Create Connection and Credential dialog box, fill in the fields.
+7.  In the Create Connection and Credential dialog box, enter the values you received from [Set up Microsoft Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrating-with-microsoft365.md).
 
-<table id="table_h1c_3p1_vjc"><thead><tr><th>
+    1.  In the **Tenant ID** field, enter your Tenant ID.
 
-Field
+    2.  In the **OAuth Client ID** field, enter the OAuth Client ID.
 
-</th><th>
+    3.  In the **OAuth Client Secret** field, enter the OAuth Client Secret key.
 
-Description
+8.  Select **Create and Get OAuth Token**.
 
-</th></tr></thead><tbody><tr><td>
+    **Important:** For the role required to perform this step, refer to the Download subscriptions row of the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
 
-Connection name
-
-</td><td>
-
-A meaningful name for the connection.
-
-</td></tr><tr><td>
-
-Connection URL
-
-</td><td>
-
-The URL of your Microsoft Dynamics 365 environment. For example, `https://graph.microsoft.com`.
-
-</td></tr><tr><td>
-
-Permission type
-
-</td><td>
-
-The type of permission for the integration profile to access data correctly and securely. Values include:
-
--   **Application Permissions**: Enable the application to access any data without a signed-in user.
--   **Delegated Permissions**: Enable the application to act in place of a signed-in user.
-**Note:** If you have selected Delegated permissions while setting up Microsoft Entra ID, you must select **Delegated Permissions** as the permission type. Similarly, if you have selected Application permissions while setting up Microsoft Entra ID, you must select **Application Permissions** as the permission type.
-
-</td></tr><tr><td>
-
-Tenant ID
-
-</td><td>
-
-The Directory \(tenant\) ID that you copied in [Set up Microsoft Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrating-with-microsoft365.md).
-
-</td></tr><tr><td>
-
-OAuth Client ID
-
-</td><td>
-
-Application \(client\) ID for the application you created in the Azure portal.
-
-</td></tr><tr><td>
-
-OAuth Client Secret
-
-</td><td>
-
-Client secret for the application you created in the Azure portal.
-
-</td></tr><tr><td>
-
-OAuth Redirect URL
-
-</td><td>
-
-`https://<instance-name>.service-now.com/oauth_redirect.do`, where `<instance-name>` is the name of your ServiceNow instance.This field is visible when you select **Delegated Permissions** as the permission type. This value is automatically populated.
-
-</td></tr></tbody>
-</table>8.  Select **Create and Get OAuth Token**.
-
-    **Important:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
-
-9.  If you’re prompted to log in to your Microsoft 365 account, enter your Microsoft 365 credentials and log in to your account.
+9.  If you’re prompted to log in to your Microsoft 365 account, enter your Microsoft 365 credentials and log in to your Microsoft 365 account.
 
 10. Under the **Calculate Activity Subflow** tab, beside the **Connection &amp; Credential** field, select the Preview icon \[Omitted image "preview-icon.png"\].
 
-11. On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
+11. Select **Create New connection and credential alias**.
 
-12. In the Create Connection and Credential dialog box, fill in the fields.
+12. In the Create Connection and Credential window, perform the following.
 
-    |Field|Description|
-    |-----|-----------|
-    |Connection name|A meaningful name for the connection.|
-    |Connection URL|The URL of your Microsoft Dynamics 365 environment. For example, `https://myorg.crm.dynamics.com`.|
-    |OAuth Client ID|Application \(client\) ID for the application you created in the Azure portal.|
-    |OAuth Client Secret|Client secret for the application you created in the Azure portal.|
-    |OAuth Redirect URL|`https://<instance-name>.service-now.com/oauth_redirect.do`, where `<instance-name>` is the name of your ServiceNow instance.|
+    1.  In the **Connection URL** field, enter the connection URL.
+
+        To fetch Connection URL, log in to the Microsoft Admin portal and navigate to **Admin Centers** &gt; **All admin centers** &gt; **Select Dynamics 365 apps** &gt; **Environments**. Select the environment you want to integrate with. The environment URL is the Connection URL.
+
+    2.  Select the permission type to ensure your application accesses data correctly and securely.
+
+        The permission type can be **Application Permissions** or **Delegated Permissions** depending on the application's data access requirements. For more information on permission types, see [Software Asset Management publisher pack for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/microsoft-publisher-pack.md).
+
+    3.  In the **OAuth Client ID** field, enter the OAuth Client ID.
+
+    4.  In the **OAuth Client Secret** field, enter the OAuth Client Secret key.
 
 13. Select **Create and Get OAuth Token**.
 
-    **Important:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
+    **Important:** For the role required to perform this step, refer to the Pull user activity row of the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
 
 14. On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
 
@@ -436,7 +377,7 @@ OAuth Redirect URL
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
 
 -   Software Models
 -   Unrecognized Subscription Identifiers

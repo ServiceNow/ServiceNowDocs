@@ -1,20 +1,20 @@
 ---
 title: Manage configuration items in a release
-description: View and manage the configuration items \(CIs\) in a release. Use the associated CIs to manage change requests and tasks in the release.
+description: View and manage the configuration items \(CIs\) in a release phase to manage the release effectively. These associated CIs can be used for managing change requests and future tasks through the release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/digital-product-release/dpr-work-release-config-items.html
 release: zurich
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
 ---
 
 # Manage configuration items in a release
 
-View and manage the configuration items \(CIs\) in a release. Use the associated CIs to manage change requests and tasks in the release.
+View and manage the configuration items \(CIs\) in a release phase to manage the release effectively. These associated CIs can be used for managing change requests and future tasks through the release.
 
 ## Before you begin
 
@@ -32,45 +32,38 @@ You can add a specific configuration item to a phase only once, although it can 
 
 3.  Select a release from the list to open.
 
-4.  Select **Configuration items**.
+4.  Select **Configuration items** to manage configuration items in the release.
 
-    The list displays all CIs that are associated with the release.
+    The list displays all CIs that are associated with the selected phase.
 
-5.  Add or remove configuration items.
+5.  Select a phase from the **Phase** list to add or remove configuration items of any CI class.
 
-<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d105261e111">
+<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d102430e110">
 
 Option
 
-</th><th align="left" id="d105261e114">
+</th><th align="left" id="d102430e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d105261e120">
+</th></tr></thead><tbody><tr><td id="d102430e119">
 
-**Add existing CIs to a release phase**
+**Add existing CIs to the release phase**
 
 </td><td>
 
 1.  Select **Add**.
-
-A list of available configuration items displays as per the following conditions:
-
-    -   When product-level release settings are configured, only the configuration items of CI classes defined in the release settings are available for selection. If no CI classes are configured in the product settings, all CI classes are available. For more information, see [Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-config-product-release-setting.md).
-
-    -   CIs are filtered by lifecycle stage or operational status based on the value defined in the `sn_dpr.ci_default_query` system property. To control which CIs are available for selection, modify this property. For more information, see [Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/digital-product-release-properties.md).
-
-2.  Select the CIs to add to the release.
+2.  Select the CIs to add to the phase.
 3.  Select **Add**.
- The selected configuration items are added to the phase based on the **sn\_dpr.default\_phase\_for\_cis** system property.
+ The selected configuration items are added to the phase.
 
-</td></tr><tr><td id="d105261e190">
+</td></tr><tr><td id="d102430e149">
 
 **Remove associated CIs from a phase**
 
 </td><td>
 
-1.  Select configuration items form the list to remove from the associated phase.
+1.  Select configuration items form the list that you want to remove from the phase.
 2.  Select **Remove**.
 
 

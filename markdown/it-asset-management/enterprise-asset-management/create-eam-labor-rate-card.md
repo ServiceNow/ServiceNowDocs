@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring asset TCO, Configure, Enterprise Asset Management, Asset Management]
+breadcrumb: [Configuring Total Cost of Ownership for enterprise assets, Create and manage enterprise assets, Manage enterprise models and assets, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create a labor rate card in Enterprise Asset Workspace
@@ -26,15 +26,11 @@ Labor rate cards are included in the base system. Except for the **Number** fiel
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
+1.  Navigate to **Enterprise Asset Workspace** &gt; **Admin center** &gt; **TCO configuration** &gt; **Labor rate card**.
 
-2.  From the Enterprise Asset Workspace, open the Admin center view.
+2.  Select **New**.
 
-3.  From the navigation panel of the Admin center view, navigate to **TCO configuration** &gt; **Labor rate card**.
-
-4.  Select **New**.
-
-5.  On the form, fill in the fields.
+3.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -48,8 +44,10 @@ Labor rate cards are included in the base system. Except for the **Number** fiel
     |Set conditions|Filter to run on the table selected to determine whether this rate card applies to a given task. This field uses the Condition Count widget to preview what records would be returned by the conditions.|
     |Description|Detailed description of the labor rate card.|
 
-6.  Select **Save**.
+4.  Select **Save**.
 
     After a labor rate card is created, expense lines are created based on the value in the **Use time worked** field.
 
+
+**Parent Topic:**[Configuring Total Cost of Ownership for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
 

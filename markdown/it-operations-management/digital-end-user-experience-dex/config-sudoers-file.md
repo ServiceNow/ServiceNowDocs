@@ -1,21 +1,20 @@
 ---
-title: Configure the ServiceNow sudoers file
-description: Configure the ServiceNow sudoers file to grant the servicenow user the permissions to run specific commands with elevated privileges.
+title: Configure ServiceNow sudoers file
+description: Configure the ServiceNow sudoers file to grant the servicenow user the necessary permissions to run specific commands with elevated privileges. This configuration uses a drop-in file in /etc/sudoers.d/ to maintain secure, isolated sudo rules for ServiceNow operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/config-sudoers-file.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [configure sudoers file, sudoers, acc permissions, sudo configuration, servicenow user permissions, grant sudo privileges]
-breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Sudo banner validation, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
-# Configure the ServiceNow sudoers file
+# Configure ServiceNow sudoers file
 
-Configure the ServiceNow sudoers file to grant the servicenow user the permissions to run specific commands with elevated privileges.
+Configure the ServiceNow sudoers file to grant the servicenow user the necessary permissions to run specific commands with elevated privileges. This configuration uses a drop-in file in /etc/sudoers.d/ to maintain secure, isolated sudo rules for ServiceNow operations.
 
 ## Before you begin
 
@@ -23,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Open Terminal with root access by running `sudo -i`.
+1.  Open Terminal with Root Access by running `sudo -i`.
 
 2.  Create and edit the drop-in sudoers file by running `visudo -f /etc/sudoers.d/_servicenow`.
 
@@ -47,16 +46,13 @@ Role required: admin
                             /usr/bin/find, \
                             /usr/bin/pmset, \
                             /usr/bin/open, \
-                            /usr/sbin/networksetup, \
                             /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/app_freeze.sh, \
                             /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/zscaler_zpa_reconnect.sh, \
                             /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/clear_google_chrome_browsing_data.sh, \
                             /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/services.sh, \
                             /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/restart_service.sh *, \
                             /Applications/Zscaler/Zscaler.app/Contents/PlugIns/zscli, \
-                            /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/elevate_temporary_admin.sh, \
-                            /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/flush_dns_mac.sh, \
-                            /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/disk_cleanup.sh *
+                            /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/elevate_temporary_admin.sh
     
     # ServiceNow user permissions
     # _servicenow user can run osqueryi and all SN_ALLOWED commands without password
@@ -76,14 +72,14 @@ Role required: admin
 
 6.  Set the file permissions:
 
-    -   `chown root:wheel /etc/sudoers.d/_servicenow`
-    -   `chmod 440 /etc/sudoers.d/_servicenow`
+    -   chown root:wheel /etc/sudoers.d/\_servicenow
+    -   chmod 440 /etc/sudoers.d/\_servicenow
 7.  Confirm the drop-in directory is included in the sudoers file by running `grep -i includedir /etc/sudoers`.
 
     Expected output: `#includedir /etc/sudoers.d`.
 
 8.  Test permissions for the servicenow user by running `sudo -u _servicenow sudo -l`.
 
-    The output lists all allowed commands, which confirms that the rules are active.
+    List all allowed commands confirming the rules are active.
 
 

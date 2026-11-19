@@ -1,20 +1,20 @@
 ---
-title: Create Business Process form
-description: Use the Create Business Process form in Operational Resilience Workspace to set up a business process and configure its related lists.
+title: Create New Business Process form
+description: Use the Create New Business Process form in Operational Resilience Workspace to set up a business process and configure its related lists.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-new-business-process-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Add a business process to Operational Resilience reporting, Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create Business Process form
+# Create New Business Process form
 
-Use the Create Business Process form in Operational Resilience Workspace to set up a business process and configure its related lists.
+Use the Create New Business Process form in Operational Resilience Workspace to set up a business process and configure its related lists.
 
-## Create Business Process form
+## Create New Business Process form
 
 For a description of the field values, see the following table.
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-09"
 reading_time_minutes: 1
 keywords: [MCP server, MCP catalog, AI Gateway, MCP integration, MCP intake]
-breadcrumb: [MCP server setup, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [MCP server setup, Working with MCP server records, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Add an MCP server from MCP Catalog
@@ -77,7 +77,7 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Result
 
-The MCP server is added to AI Control Tower as an unmanaged asset with a lifecycle status of **In review**.
+The MCP server is added to Control Tower as an unmanaged asset with a lifecycle status of **In review**.
 
 ## What to do next
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/managing-user-subscriptions-v2.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Subscription Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Subscription Management, Get started, Administer]
 ---
 
 # Managing per-user subscriptions in Subscription Management
@@ -16,7 +16,7 @@ Manage your per-user subscription allocations using Subscription Management.
 
 ## Overview of managing per-user subscriptions
 
-To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions is unavailable if you have never used it. Automatic allocation of user-based subscriptions is based on user and group roles. For more information, see .
+To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions is unavailable if you have never used it. Automatic allocation of user-based subscriptions is based on user and group roles.
 
 If you have manually allocated user-based subscriptions before, you can still make manual allocations. To manually allocate user-based subscriptions, follow the process in this infographic.
 

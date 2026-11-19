@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/disc-contain-managed-asset.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-01"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [Reviewing AI asset status, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reviewing AI asset status, Working with AI asset records, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Deactivate a managed AI agent
@@ -17,13 +17,13 @@ Deactivate a managed AI agent directly from its asset record using kill switch p
 
 ## Before you begin
 
-Role required: sn\_ai\_security.operator or sn\_ai\_governance.ai\_steward
+Role required: sn\_ai\_governance.ai\_steward
 
 This action is available only for managed AI agents in the Agentic AI category. It isn't available for unmanaged agents.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
 
 2.  Open the AI asset record for the managed AI agent that you want to deactivate.
 

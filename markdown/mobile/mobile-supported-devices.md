@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/mobile/mobile-supported-devices.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-07-30"
 reading_time_minutes: 3
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---

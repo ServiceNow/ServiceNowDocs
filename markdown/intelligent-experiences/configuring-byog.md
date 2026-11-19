@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/configuring-byog.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-02-13"
 reading_time_minutes: 2
-breadcrumb: [AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configuring a Guardrail Service Provider
@@ -20,18 +20,22 @@ AI Guardian includes default guardrails to detect offensive content, block promp
 
 Custom guardian evaluates prompts and responses in real time, just like the default guardrails. You can set each custom guardrail to log events, block content, or both based on your specific security or content policies.
 
-## ServiceNow supported third-party guardrail service providers
+## Supported guardrail service providers
 
-AI Guardian supports the following cloud AI service providers:
+AI Guardian supports the following guardrail service provider types:
 
--   ServiceNow guardrail: The default provider built into the platform. No additional configuration is required.
--   Third-party providers: Integrate with supported cloud AI safety services. Following are the supported providers:
-    -   Microsoft Azure Content Safety
-    -   Amazon Bedrock
-    -   Google Model Armor
--   Custom \(BYOG\): Create your own guardrail to apply your organization's specific compliance, security, or content policies.
+-   **ServiceNow Guardrail**
 
-Only one guardrail service provider can be active at a time. The selected provider monitors and evaluates all Now Assist interactions for harmful, offensive, or prompt injection content.
+    The default provider built into the platform. No additional configuration is required.
+
+-   **Third-party providers**
+
+    Supported cloud AI safety services that you can integrate with AI Guardian. Supported providers include Microsoft Content Safety, Amazon Bedrock, and Google Model Armor.
+
+-   **Custom guardrail**
+
+    A guardrail you create using the Bring Your Own Guardrail \(BYOG\) feature to apply your organization's specific compliance, security, or content policies.
+
 
 ## Custom guardrails for AI Guardian
 

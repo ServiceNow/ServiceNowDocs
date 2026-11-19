@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/publishing-center-in-ea-workspace.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-02-04"
 reading_time_minutes: 3
-breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Exploring the publishing center in Enterprise Architecture Workspace
@@ -96,5 +96,5 @@ Publishing history provides traceability and operational insight, making it easi
 
 [Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/access-the-published-kb.md)
 
-[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/understand-publishing-output.md)
+[Publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/understand-publishing-output.md)
 

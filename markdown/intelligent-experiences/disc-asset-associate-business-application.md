@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-17"
 reading_time_minutes: 2
 keywords: [business application, AI system, relationships]
-breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Associate a business application with an AI system
@@ -23,11 +23,11 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner
 
 You can associate a business application with an AI system either while creating the AI system asset, or afterward by editing an existing AI system's relationships.
 
-This association requires the Enterprise Architecture for AICT plugin, which installs automatically with AI Control Tower Core at the required version. For upgrade-order considerations, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
+This association requires the Enterprise Architecture for AICT plugin, which installs automatically with Control Tower Core at the required version. For upgrade-order considerations, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **AI Control Tower** &gt; **Inventory**.
+1.  Navigate to **Workspaces** &gt; **Control Tower** &gt; **Inventory**.
 
 2.  On the Inventory page, select **Add AI asset**.
 

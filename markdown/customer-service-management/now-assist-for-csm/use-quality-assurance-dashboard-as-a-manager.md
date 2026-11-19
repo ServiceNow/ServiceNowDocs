@@ -1,21 +1,21 @@
 ---
 title: Use automated quality assurance dashboard as a manager
-description: Access the automated quality assurance dashboard from the CRM Workspace to view detailed agent performance metrics and quality assurance scoring data.
+description: Access the automated quality assurance dashboard from the CSM Configurable Workspace to view detailed agent performance metrics and quality assurance scoring data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-a-manager.html
 release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-02-04"
+reading_time_minutes: 3
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Use automated quality assurance dashboard as a manager
 
-Access the automated quality assurance dashboard from the CRM Workspace to view detailed agent performance metrics and quality assurance scoring data.
+Access the automated quality assurance dashboard from the CSM Configurable Workspace to view detailed agent performance metrics and quality assurance scoring data.
 
 ## Before you begin
 
@@ -24,17 +24,17 @@ Role required: Manager
 Before you begin, confirm you have:
 
 -   Manager role permissions in CSM
--   Access to the CRM Workspace
+-   Access to the CSM Configurable Workspace
 
 ## About this task
 
 The automated quality assurance \(QA\) dashboard provides managers with detailed insights into individual agent performance metrics. This view displays comprehensive QA scoring data at both the agent and case levels, enabling you to monitor, evaluate, and provide feedback on agent interactions.
 
-The automated quality assurance widget serves as an entry point to access the quality assurance supervisor dashboard and is available on the CRM Workspace.
+The automated quality assurance widget serves as an entry point to access the quality assurance supervisor dashboard and is available on the CSM Configurable Workspace.
 
 ## Procedure
 
-1.  Log in to CRM Workspace.
+1.  Log in to CSM Configurable Workspace.
 
 2.  Navigate to the dashboard.
 
@@ -52,31 +52,37 @@ The automated quality assurance widget serves as an entry point to access the qu
 
     You can perform the following actions on the dashboard.
 
-    -   View individual agent quality scores and evaluations
-    -   Filter reports by date range, agent, or quality parameters
-    -   Analyze trends in quality performance over time
-    -   Identify coaching opportunities based on quality assessment results
-    -   Export reports for further analysis or documentation
+    -   View individual agent quality scores and evaluations.
+    -   Filter reports by date range, agent, or quality parameters or by assignment groups. When the **Assignment** filter is applied the trends, breakdowns, list of agents, and cases are all impacted and the dashboard is refreshed to show values based on the assignment group that is selected along with the date range.
+
+        **Note:** You can set filters for both the assignment group and the date.
+
+    -   Analyze trends in quality performance over time.
+    -   Identify coaching opportunities based on quality assessment results.
+    -   Export reports for further analysis or documentation.
+    -   View Auto QA score breakdown by category for a selected date range.
 
 ## Result
 
 From the quality assurance dashboard, you can monitor team performance, review quality metrics, and manage quality assurance processes.
 
+Select any date on the **Trends** graph on the dashboard to view case information. To learn more about trend analysis and reviewed cases, see [Use automated quality assurance dashboard as a live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/use-quality-assurance-dashboard-as-an-agent.md).
+
 The Agent's table presents average Auto QA scores and category scores for each agent. Each category score represents the average of all parameters within that category.
 
-You can use the following features to manage data:
+The Auto QA dashboard displays quality assurance cases and associated agents as a sortable list component. To reorganize agent or case data, select the column header and arrange them in ascending or descending order. A new tab with more information opens when you select an agent or case from the list.
 
--   **Filters:** Use the condition builder to filter by any column
--   **Group By:** Organize data by any column
--   **Sort:** Arrange data by any column
--   **Search:** Find specific information across columns
--   **Export:** Download data as PDF, JPG, or CSV
+-   **Filters:** Use the condition builder to filter by any column.
+-   **Group By:** Organize data by any column.
+-   **Sort:** Arrange data by any column.
+-   **Search:** Find specific information across columns.
+-   **Export:** Download data as PDF, JPG, or CSV.
 
 **Note:**
 
--   Agent performance is rated on a 1-5 scale with color-coded visual indicators. Managers can modify any parameter score as needed.
+-   Agent performance is rated on a 1-5 scale with color-coded visual indicators. Managers can modify parameter scores as needed.
 -   When AI-generated content is present, an alert indicator and AI tagline appear at the top of the review. When you manually edit parameter scores or feedback, the AI tagline is removed and the card component switches to a standard card.
--   When navigating from the dashboard to the case-level view, managers can perform actions such as viewing detailed feedback for a specific case and editing QA parameters to adjust scores for individual evaluation parameters.
+-   When navigating from the dashboard to the case-level view, managers can view detailed feedback for specific cases. They can also edit QA parameters to adjust scores for individual evaluation parameters.
 -   The Category Trend Analysis view includes a drop down where one category is selected by default. Managers can choose any category from the drop down to view its performance trends. Once selected, the trend data updates to display the chosen category’s score over time.
 -   AI alert with AI gradient color theme highlights that the pages are fully generated by AI. You can dismiss the alert by selecting the X on the alert banner.
 

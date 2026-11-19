@@ -1,16 +1,16 @@
 ---
-title: Dashboard and visualization export skill
+title: The dashboard and visualization export skill
 description: Give users generative AI capabilities for creating data visualizations from the ServiceNow Otto panel by activating the dashboard and visualization export skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/activate-db-dv-export-skill.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Configure, Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
-# Dashboard and visualization export skill
+# The dashboard and visualization export skill
 
 Give users generative AI capabilities for creating data visualizations from the ServiceNow Otto panel by activating the dashboard and visualization export skill.
 

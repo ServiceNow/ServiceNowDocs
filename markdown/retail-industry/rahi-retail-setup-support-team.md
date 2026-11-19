@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/retail-industry/rahi-retail-setup-support-team.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Configure, Retail]
 ---
@@ -16,11 +16,11 @@ Set up your retail support team by creating a group then assigning the sn\_retai
 
 ## Before you begin
 
-Role required: user\_admin
+Role required: admin
 
 You can assign a role to a group to grant access to applications and modules to group members.
 
-Before assigning the sn\_retail.support\_agent role to a group of users, you must [Create a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateAGroup.md) and then [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAUserToAGroup.md).
+Before assigning the sn\_retail.support\_agent role to a group of users, you must Create a user group and then Add a user to a group.
 
 When you assign roles to groups rather than to individual users, members of the group inherit the role.
 

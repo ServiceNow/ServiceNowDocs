@@ -7,7 +7,7 @@ release: zurich
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Time cards, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: timecard\_user
 
 ## About this task
 
-Starting Brazil release, users can select a resource assignment to associate it with time cards to calculate the actual efforts and tag them to the respective projects.
+Starting Zurich release, users can select a resource assignment to associate it with time cards to calculate the actual efforts and tag them to the respective projects.
 
 The **Allow time card reporting on** field on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateAProject.md) determines the level at which the time cards for the project tasks can be created.
 
@@ -52,15 +52,15 @@ Time cards can be created automatically or manually.
 
 1.  Create the time card using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d182012e216">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d174288e216">
 
 Option
 
-</th><th align="left" id="d182012e219">
+</th><th align="left" id="d174288e219">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d182012e225">
+</th></tr></thead><tbody><tr><td id="d174288e225">
 
 **From the Time Sheet Portal**
 
@@ -70,7 +70,7 @@ Steps
 2.  Open the week on the **Calendar** for which you want to create the time card.
 
 
-</td></tr><tr><td id="d182012e255">
+</td></tr><tr><td id="d174288e255">
 
 **From a Time sheet related list**
 
@@ -80,7 +80,7 @@ Steps
 2.  In the **Time Cards** related list, click **New**.
 
 
-</td></tr><tr><td id="d182012e279">
+</td></tr><tr><td id="d174288e279">
 
 **From a Time sheet related link**
 

@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [ACC installation on a Linux OS system, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC installation on a Linux system, ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
 # Upgrade the Agent Client Collector manually on a Linux system
@@ -20,7 +20,7 @@ Perform a manual upgrade of your existing Agent Client Collector version on a sy
 
 -   Ensure that you have configured the Agent Client Collector web server. For more information, see [Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-configure-web-server.md).
 -   Restart the MID Web Server.
--   Collect host data, to ensure that all files are up to date. For details, see [Collect data from your system devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/checks-policies-working-with.md).
+-   Collect host data, to ensure that all files are up to date. For details, see [Run host data collection for an agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/collect-host-data-agent.md).
 -   Ensure that you have installed a Linux version of the Agent Client Collector. For more information, see [Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-install-linux-concept.md).
 -   The upgrade procedure is the same for both MID Server and MID-less deployments.
 -   Role required: agent\_client\_collector\_admin

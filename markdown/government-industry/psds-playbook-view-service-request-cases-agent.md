@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-playbook-view-service-request-cases-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Service Request Playbooks, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Service Request Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Track government service requests using Service Request Administration

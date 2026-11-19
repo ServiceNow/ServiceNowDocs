@@ -1,20 +1,20 @@
 ---
 title: DEX system tables for remedial actions
-description: DEX system tables store the configuration settings for remedial actions and track the progress of each remedial action execution.
+description: Definitions for any remedial action are predetermined based on the rules and criteria that store configuration settings for remedial actions. Each execution of the remedial action is maintained in the DEX tables to track the progress of remedial action executions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/dex-sys-table-ra.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Operations Management]
+breadcrumb: [DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # DEX system tables for remedial actions
 
-DEX system tables store the configuration settings for remedial actions and track the progress of each remedial action execution.
+Definitions for any remedial action are predetermined based on the rules and criteria that store configuration settings for remedial actions. Each execution of the remedial action is maintained in the DEX tables to track the progress of remedial action executions.
 
 ## Remedial action configuration
 
@@ -49,7 +49,7 @@ Maps the relationship between tracking and actual execution.
 |dex\_remedial\_action\_execution|Links to UI execution record|
 |remedial\_action\_execution|Links to actual execution record|
 
-**Note:** For more information about the base system remedial actions, see [Digital End-User Experience remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-diff-ra.md).
+**Note:** For more information on the base system remedial actions, see [Digital End-User Experience Remedial Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-diff-ra.md).
 
-**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)
+**Parent Topic:**[DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-remedial-actions.md)
 

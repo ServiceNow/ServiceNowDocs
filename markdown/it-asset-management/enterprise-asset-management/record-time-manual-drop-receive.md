@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Record time worked on Drop off and Receive tasks, Delivering enterprise assets, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
+breadcrumb: [Record time worked on Drop off and Receive tasks, Delivering enterprise assets, Manage work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Record time worked on a Drop off task or Receive task manually

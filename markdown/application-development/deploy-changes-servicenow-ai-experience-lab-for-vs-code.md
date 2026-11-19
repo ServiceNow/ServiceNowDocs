@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Use, ServiceNow AI Experience Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Deploy changes
@@ -22,7 +22,7 @@ The following procedure describes how to complete this task manually. You can al
 
 Role required: none
 
-The ServiceNow Lux Lab for VS Code extension requires the following:
+The ServiceNow® AI Experience Lab for VS Code extension requires the following:
 
 <table id="table_imf_rfb_dkc"><thead><tr><th>
 
@@ -107,7 +107,7 @@ ServiceNow instance
 
 ## Result
 
-The ServiceNow Lux Lab for VS Code extension attempts to deploy your changes. If successful, a notification appears confirming that the deployment to your target instance was successful.
+The ServiceNow® AI Experience Lab for VS Code extension attempts to deploy your changes. If successful, a notification appears confirming that the deployment to your target instance was successful.
 
 \[Omitted image "servicenow-lux-lab-vs-code-deploy-notification.png"\] Alt text: The ServiceNow Lux Lab for VS Code extension after a successful deploy, showing a notification with Open App and Show Output buttons.
 

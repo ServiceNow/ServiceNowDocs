@@ -4,7 +4,7 @@ description: As a contract fulfiller, review the change request, update the cont
 locale: en-US
 release: zurich
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 ---
 
@@ -20,30 +20,27 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Navigate to your workspace.
 
-2.  Go to the contract request listing.
+2.  Select the contract request for which the change request has been submitted.
 
-3.  Select the contract request for which the change request has been submitted.
+    The details of the change request are included in the **Activity** stream and the notification email.
 
-    -   When you have opened a request from the unassigned list, assign it to yourself or the group manager has to assign it to a user.
-    -   When the contract request is assigned, select **Start work**.
-    -   You can get the details of the change request from the Activity stream or the notification email received.
-4.  Select **Contracts request** tab and open the request.
+3.  If the contract request is not already assigned to you, select **Assign to me**.
 
-    You can get the details of the change request from the Activity stream or the notification email received.
+4.  Select **Start work** to work on the change request.
 
 5.  Select the Contract documents tab.
 
 6.  Access and edit the contract document.
 
-<table id="choicetable_szm_zjq_gbc"><thead><tr><th align="left" id="d273672e103">
+<table id="choicetable_szm_zjq_gbc"><thead><tr><th align="left" id="d268648e91">
 
 Choice
 
-</th><th align="left" id="d273672e106">
+</th><th align="left" id="d268648e94">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d273672e112">
+</th></tr></thead><tbody><tr><td id="d268648e100">
 
 **Download contract document from the internal storage**
 
@@ -56,7 +53,7 @@ Steps
 5.  Edit the downloaded document.
 
 
-</td></tr><tr><td id="d273672e151">
+</td></tr><tr><td id="d268648e139">
 
 **Download contract document from the external storage**
 
@@ -70,7 +67,7 @@ The document opens from the external storage.
 3.  Edit the downloaded document.
 
 
-</td></tr><tr><td id="d273672e174">
+</td></tr><tr><td id="d268648e162">
 
 **Edit the contract document directly from the external storage**
 
@@ -101,7 +98,7 @@ The document is automatically saved in the external storage.
 
     For more information, see [Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md).
 
-9.  Return the contract document to the change requester.
+9.  Return the contract document to the requester.
 
     1.  Select **Send document**.
 
@@ -110,7 +107,7 @@ The document is automatically saved in the external storage.
 
 ## Result
 
-The document is sent back to the user and the Contract status updates to Document ready to indicate that the contract document has been updated according to the change request.
+The document is sent back to the user and the Contract status updates to Document ready to indicate that the contract document has addressed the change request.
 
 **Parent Topic:**[Reviewing and finalizing a self-serve contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-review-finalize-contract.md)
 

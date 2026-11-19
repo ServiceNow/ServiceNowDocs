@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-11-07"
 reading_time_minutes: 8
-breadcrumb: [Integrating with Docusign, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrating with Docusign, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrate with Docusign at Account level
@@ -98,7 +98,7 @@ Create a Docusign integration profile at Account level to track software subscri
 
 To create a Docusign integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: sam\_integrator or admin
 
 ### About this task
 
@@ -108,15 +108,15 @@ If you’re using Software Asset Workspace, the option to create the Docusign in
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d55393e550">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d52718e550">
 
 Interface
 
-</th><th align="left" id="d55393e553">
+</th><th align="left" id="d52718e553">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d55393e559">
+</th></tr></thead><tbody><tr><td id="d52718e559">
 
 **Core UI**
 
@@ -127,7 +127,7 @@ Action
 3.  Select **DocuSign Integration Profile**.
 
 
-</td></tr><tr><td id="d55393e601">
+</td></tr><tr><td id="d52718e601">
 
 **Software Asset Workspace**
 
@@ -182,7 +182,7 @@ You can view events performed by individual users up to one year before the curr
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
 
-After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
 
 -   Software Models
 -   Unrecognized Subscription Identifiers

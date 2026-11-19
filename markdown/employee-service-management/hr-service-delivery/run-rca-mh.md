@@ -7,9 +7,9 @@ release: zurich
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Configure Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # RCA approvals for Manager Hub
@@ -44,23 +44,25 @@ After you install Manager Hub, you might encounter Restricted Caller Access \(RC
 **Related topics**  
 
 
-[Activate a scheduled job]()
+[Activate a scheduled job in Manager Hub]()
 
-[Configure important dates]()
+[Configure important dates in Manager Hub]()
 
-[Configure team requests]()
+[Configure manager insights for ServiceNow Otto for HRSD]()
 
-[Configure team data]()
+[Configure team requests in Manager Hub]()
 
-[Configure team column data]()
+[Configure team data in Manager Hub]()
 
-[Configure team filters]()
+[Configure team column data in Manager Hub]()
+
+[Configure team filters in Manager Hub]()
 
 [Set up View as Direct Reports]()
 
-[Configure daily stats]()
+[Configure daily stats in Manager Hub]()
 
-[Configure to do mappings]()
+[Configure to do mappings in Manager Hub]()
 
-[Configure widgets]()
+[Configure widgets in Manager Hub]()
 

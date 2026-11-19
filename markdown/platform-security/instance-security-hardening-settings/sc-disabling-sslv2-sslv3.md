@@ -1,5 +1,5 @@
 ---
-title: Disable outbound SSLv2/SSLv3 connections
+title: Disable outbound SSLv2/SSLv3 connections \[Updated in Security Center 1.3\]
 description: Use the glide.outbound.sslv3.disabled property to force the MID Server to use TLS when making outbound connections, such as REST and SOAP requests. Normally, outbound connections from an instance are forced to use TLS instead of SSL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/instance-security-hardening-settings/sc-disabling-sslv2-sslv3.html
@@ -7,18 +7,14 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Communications, Hardening settings, Platform Security]
 ---
 
-# Disable outbound SSLv2/SSLv3 connections
+# Disable outbound SSLv2/SSLv3 connections \[Updated in Security Center 1.3\]
 
 Use the **glide.outbound.sslv3.disabled** property to force the MID Server to use TLS when making outbound connections, such as REST and SOAP requests. Normally, outbound connections from an instance are forced to use TLS instead of SSL.
-
-The **glide.outbound.sslv3.disabled** system property controls the desired transport encryption protocol. If **glide.outbound.sslv3.disabled** is not set to the recommended value of **true**, then outbound MID server connections such as REST and SOAP requests will use SSL as the transport protocol. SSL was proven to be insecure in 2014.
-
-Ensure that the **glide.outbound.sslv3.disabled** system property exists in the System Properties \[sys\_properties\] table and is set to the value **true**. If the property does not appear in the System Properties \[sys\_properties\] table, add a new record.
 
 ## More information
 
@@ -32,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Configuration name
+Property name
 
 </td><td>
 
@@ -48,11 +44,19 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Data type
+Category
 
 </td><td>
 
-Boolean
+[Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-communications.md)
+
+</td></tr><tr><td>
+
+Purpose
+
+</td><td>
+
+To enforce the use if TLS during all outbound connections from ServiceNow instance.
 
 </td></tr><tr><td>
 
@@ -68,33 +72,15 @@ Default value
 
 </td><td>
 
-true
+false**Important:** The value for the **glide.outbound.sslv3.disabled** property is a safe override and cannot be altered once changed.
 
 </td></tr><tr><td>
 
-Fallback value
+Security risk rating
 
 </td><td>
 
-false
-
-</td></tr><tr><td>
-
-Category
-
-</td><td>
-
-[Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-communications.md)
-
-</td></tr><tr><td>
-
-Security risk
-
-</td><td>
-
--   Severity score: 6.5
--   CVSS rating: Medium
--   Security risk details: SSLv3 has been proven insecure since 2014 due to vulnerabilities like POODLE, making it susceptible to man-in-the-middle attacks and data interception. Allowing SSLv3 undermines transport encryption and exposes sensitive data in transit, violating modern security standards.
+6.5
 
 </td></tr><tr><td>
 
@@ -102,15 +88,15 @@ Functional impact
 
 </td><td>
 
-None
+This remediation enforces the usage of TLS protocol version when communicating on HTTPS. If there are devices that customer/users of the instance are using that do not support TLS communication, there may be a potential outage.
 
 </td></tr><tr><td>
 
-Dependencies and prerequisites
+Security risk
 
 </td><td>
 
-None
+\(Moderate\) Legacy versions of SSL were proven to be insecure when utilized for HTTP secure shell implementation, due to client-side attacks, including BEAST and SSL heart-bleed.
 
 </td></tr></tbody>
 </table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).

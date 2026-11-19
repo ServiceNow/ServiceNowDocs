@@ -1,19 +1,19 @@
 ---
 title: Review and approve an offboarding request
-description: Evaluate an offboarding request submitted by an asset owner and either approve the request to move the asset into the offboarding lifecycle, or reject the request so the asset remains active.
+description: Evaluate an offboarding request that an asset owner submits in Super Intelligence Control Tower, and either approve the request to move the asset into the offboarding lifecycle, or reject the request so the asset remains active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ac-review-offboarding-request.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-16"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Change and offboarding requests, Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Change and offboarding requests, Managing tasks and approvals, Address action items, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Review and approve an offboarding request
 
-Evaluate an offboarding request submitted by an asset owner and either approve the request to move the asset into the offboarding lifecycle, or reject the request so the asset remains active.
+Evaluate an offboarding request that an asset owner submits in Super Intelligence Control Tower, and either approve the request to move the asset into the offboarding lifecycle, or reject the request so the asset remains active.
 
 ## Before you begin
 
@@ -21,7 +21,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Activity Center** &gt; **Work** &gt; **Assigned to you**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Activity Center** &gt; **Work** &gt; **Assigned to you**.
 
 2.  Select the **Requests** sub-tab.
 
@@ -39,15 +39,15 @@ Role required: sn\_ai\_governance.ai\_steward
 
 6.  Approve or reject the offboarding request.
 
-<table><thead><tr><th align="left" id="d51880e128">
+<table><thead><tr><th align="left" id="d41918e131">
 
 Option
 
-</th><th align="left" id="d51880e131">
+</th><th align="left" id="d41918e134">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d51880e137">
+</th></tr></thead><tbody><tr><td id="d41918e140">
 
 **Approve the request.**
 
@@ -55,10 +55,10 @@ Description
 
 1.  Select **Approve**.
 2.  If prompted, record the rationale for the approval.
-3.  Confirm the approval. AI Control Tower moves the asset into the offboarding lifecycle stage and generates the offboarding tasks defined by the offboarding playbook.
+3.  Confirm the approval. Control Tower moves the asset into the offboarding lifecycle stage and generates the offboarding tasks defined by the offboarding playbook.
 
 
-</td></tr><tr><td id="d51880e161">
+</td></tr><tr><td id="d41918e167">
 
 **Reject the request.**
 
@@ -66,7 +66,7 @@ Description
 
 1.  Select **Reject**.
 2.  Record the rationale for the rejection so the requester understands why the asset cannot be retired at this time.
-3.  Confirm the rejection. AI Control Tower closes the offboarding request and the asset remains active.
+3.  Confirm the rejection. Control Tower closes the offboarding request and the asset remains active.
 
 
 </td></tr></tbody>

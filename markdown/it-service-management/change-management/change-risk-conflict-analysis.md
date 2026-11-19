@@ -24,8 +24,8 @@ Analyze the risk of change and review detected conflicts in the following ways.
 -   **[Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-risk-assess-detect-conflict.md)**  
 Change Management features provide ways to calculate and assess the risk of change requests, and to identify and resolve conflicts.
 -   **[Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_RskAsmtCalc.md)**  
-Change Management provides two methods to calculate the risk of a change. The Change Management - Risk Calculator plugin is active by default in the base system, and Change Management - Risk Assessment is optional.
--   **[Migrate to legacy change risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/legacy-change-risk-assessment-migration.md)**  
+There are two methods to calculate the risk of a change. The Change Management- Risk Calculator plugin is activated in the base system by default. Change Management - Risk Assessment is optional.
+-   **[Migrate from legacy change risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/legacy-change-risk-assessment-migration.md)**  
 Users can migrate legacy change risk assessments to versions compatible with the new Change Risk Assessment table schema and logic.
 
 **Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/reference-change-management.md)

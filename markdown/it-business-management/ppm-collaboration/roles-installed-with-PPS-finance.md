@@ -7,9 +7,9 @@ release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Components installed with Project Portfolio Management \(PPM\) Standard, Project Portfolio Management reference, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Components installed with Project Portfolio Management \(PPM\) Standard, Reference, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Roles installed with PPM Standard \(Project Portfolio Management\)
@@ -18,7 +18,7 @@ Roles are added with activation of PPM Standard plugin.
 
 ## Project Portfolio Suite roles
 
-Project Portfolio Suite adds the following roles.
+Project Portfolio Suite includes the following roles.
 
 <table id="roles_PPS"><thead><tr><th>
 
@@ -55,7 +55,7 @@ PPS admin\[it\_pps\_admin\]
 
 </td><td>
 
-Can view and modify the preferences, configurations, and settings for projects, demands, programs, portfolios, resources, time cards, and agile development.
+Can view and modify the preferences, configurations, and settings for projects, demands, programs, portfolios, resources, time cards, agile development, and timeline visualization.
 
 </td><td>
 
@@ -414,7 +414,7 @@ Rate model user\[rate\_model\_user\]
 
 </td><td>
 
-View rate model and rate lines. This is a read-only role.
+View rate model and rate lines.
 
 </td><td>
 

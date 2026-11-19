@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/import-export-assets.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-15"
 reading_time_minutes: 1
-breadcrumb: [Assets page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Assets page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Import or export assets
@@ -31,11 +31,11 @@ Role required: admin
 3.  Import assets
 4.  Select the**Actions** button.
 
-    \[Omitted image "action-button-list-new.png"\] Alt text: Action menu
+    \[Omitted image "image.action-button-list-new"\] Alt text: Action menu
 
 5.  Select Import Assets and the Import Assets window opens.
 
-    \[Omitted image "import-assets-prompt.png"\] Alt text: Import Assets
+    \[Omitted image "image.import-assets-prompt"\] Alt text: Import Assets
 
     The window lists the format you can import to the Console. You can also toggle the available settings in the window to activate them:
 
@@ -43,7 +43,7 @@ Role required: admin
     -   Keep Existing Assets
 6.  When you select Import Ignore Assets, the prompt window opens and displays the additional required information needed.
 
-    \[Omitted image "import-ignored-assets-prompt.png"\] Alt text: Import Ignored Asset
+    \[Omitted image "image.import-ignored-assets-prompt"\] Alt text: Import Ignored Asset
 
     **Note:** The assets file must be in CSV format to upload to the Console.
 
@@ -55,7 +55,7 @@ Role required: admin
 8.  Export assets
 9.  Select the**Actions** button.
 
-    \[Omitted image "action-button-list-new.png"\] Alt text: Action menu
+    \[Omitted image "image.action-button-list-new"\] Alt text: Action menu
 
 10. Select Export Assets by the format you want the output to be.
 
@@ -65,12 +65,10 @@ Role required: admin
 
     In this image, the assets are filtered by the general type Purdue level and the more specific Level 2.
 
-    \[Omitted image "filter-by-purdue-export.png"\] Alt text: Filtered assets
+    \[Omitted image "image.filter-by-purdue-export"\] Alt text: Filtered assets
 
 12. From the Actions menu, select Export Assets for the desired format, either .json or .csv.
 
     The filtered assets are exported.
 
-
-**Parent Topic:**[Assets page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/assets-page-console.md)
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/disc-enable-evaluation.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-29"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [Evaluating AI systems, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Evaluating AI systems, Managing your AI asset inventory, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Enable evaluation for an AI system
@@ -26,19 +26,19 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
 
 2.  On the Overview tab, enable evaluation for one or more AI systems.
 
-<table><thead><tr><th align="left" id="d153037e135">
+<table><thead><tr><th align="left" id="d119386e135">
 
 Option
 
-</th><th align="left" id="d153037e138">
+</th><th align="left" id="d119386e138">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d153037e144">
+</th></tr></thead><tbody><tr><td id="d119386e144">
 
 **Enable evaluation for a single AI system**
 
@@ -50,7 +50,7 @@ Steps
 4.  Select **Turn on evaluation** to confirm.
 
 
-</td></tr><tr><td id="d153037e177">
+</td></tr><tr><td id="d119386e177">
 
 **Enable evaluation for multiple AI systems**
 

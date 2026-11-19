@@ -7,7 +7,7 @@ release: zurich
 product: System Import Sets
 classification: system-import-sets
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Import sets, Imports, Workflow Data Fabric]
 ---
@@ -47,9 +47,9 @@ One import set row is created per transform map, which can cause a large number 
 
 ## Run multiple transforms off a single import set
 
-Users can select multiple transform maps during data import.
+You can select multiple transform maps during data import.
 
-The selected transform maps will be executed on the same import set in the order specified.
+The selected transform maps execute on the same import set in the order specified.
 
 ## Transform map scripts
 

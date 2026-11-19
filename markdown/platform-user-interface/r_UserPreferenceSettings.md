@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-user-interface/r\_UserPreferenceSettings.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 14
 breadcrumb: [User preferences, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -295,7 +295,7 @@ Admin or User
 
 </td><td>
 
-Indicates whether the JavaScript editor and formatting controls are enabled or disabled for the user. The JavaScript editor icon \(\[Omitted image "jscript-icon.png"\] Alt text: JavaScript editor icon\) and formatting controls are available only in instances where the Syntax Editor plugin is active. This record updates automatically when a user clicks the icon to enable or disable script editing. For more information, see [JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/c_SyntaxEditor.md).**True** = enable script editor.
+Indicates whether the JavaScript editor and formatting controls are enabled or disabled for the user. The JavaScript editor icon \(\[Omitted image "jscript-icon.png"\] Alt text: JavaScript editor icon\) and formatting controls are available only in instances where the Syntax Editor plugin is active. This record updates automatically when a user clicks the icon to enable or disable script editing. For more information, see JavaScript syntax editor.**True** = enable script editor.
 
  **False** = disable script editor.
 

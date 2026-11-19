@@ -122,7 +122,7 @@ If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activ
 
 ## Baselines
 
-Create a baseline to capture a snapshot of the financial changes for your demands. You can create on-demand baselines or at a cadence using a scheduler job. For more information, see [Create and compare financial baselines for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-financial-baselines-ppw.md).
+Create a baseline to capture a snapshot of the financial changes for your demands. You can create on-demand baselines or at a cadence using a scheduler job. For more information, see [Create a baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/create-financial-baselines-ppw.md).
 
 Compare baselines to compare the difference in costs between any two baselines.
 

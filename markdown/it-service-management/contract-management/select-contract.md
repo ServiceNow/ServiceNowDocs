@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Contract renewal workflow, Contract Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Contract renewal workflow, Contract Management, Asset Management, IT Service Management]
 ---
 
 # Renew multiple child contracts
@@ -18,7 +18,7 @@ Renew multiple child contracts under the parent contract by using the Contract s
 
 ## Before you begin
 
-Role required: contract\_system\_admin, asset, or contract\_manager
+Role required: asset, contract\_manager
 
 ## About this task
 

@@ -1,20 +1,20 @@
 ---
-title: CRM Workspace form ribbon and components
+title: CSM Configurable Workspace form ribbon and components
 description: The form ribbon provides includes components that display relevant information about a case and provide agents with a quick overview of the case details. These components can include a contact or consumer summary, a timeline, and SLA details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/csm-agent-workspace-ribbon.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-12-16"
 reading_time_minutes: 8
-breadcrumb: [Form features, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CRM Workspace form ribbon and components
+# CSM Configurable Workspace form ribbon and components
 
 The form ribbon provides includes components that display relevant information about a case and provide agents with a quick overview of the case details. These components can include a contact or consumer summary, a timeline, and SLA details.
 
-Agents can use links in the ribbon components to place phone calls or create email messages. Agents can also show or hide the ribbon as needed by clicking a button at the top of the ribbon.
+In addition to viewing case information, agents can use links in the ribbon components to place phone calls or create email messages. Agents can also show or hide the ribbon as needed by clicking a button at the top of the ribbon.
 
 ## Customer Service Management ribbon components
 
@@ -49,9 +49,9 @@ Header
 
 The header includes customer information. -   For B2B customers: Displays either the **Primary Contact** or **Contact**.
 -   For B2C customers: Displays the **Consumer**.
--   For internal contacts with the proxy contact role \(sn\_csm\_proxy\_cont\): Displays the **Internal contact**.
+-   For internal contacts with the proxy contact role \(sn\_customerservice.proxy\_contact\): Displays the **Internal contact**.
 
-**Note:** Requires the Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\) plugin.
+**Note:** Requires the CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\) plugin.
 
 
 </td></tr><tr><td>
@@ -329,13 +329,18 @@ Following are a list of SLA messages displayed and the action required when they
 
 ## Configuring ribbon components
 
-For CRM Workspace, you can create a ribbon setting and add that setting to a ribbon configuration. For more information, see [Set up a ribbon configuration in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-config-ws-ribbon.md).
+You can configure ribbon components as follows:
 
-**Note:** One ribbon configuration, **CRM Workspace Ribbon Config**, is included with CRM Workspace.
+-   For CSM Agent Workspace, you can configure the ribbon layout if you have the workspace administrator role \(workspace\_admin\). This includes the components to display in the ribbon, the order in which the components appear, and the component width. You can also configure display attributes for some of the components.
 
-You can also display the form ribbon in the form ribbon in the Contextual side panel. For more information, see [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-display-header-in-sidebar.md).
+    For some of the components, you can also configure attributes, such as the fields to include in the Customer 360 component.
 
-## Domain separation
+-   For CSM Configurable Workspace, you can create a ribbon setting and add that setting to a ribbon configuration. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-config-ws-ribbon.md).
+
+    **Note:** One ribbon configuration, **CSM/FSM Configurable Workspace Ribbon Config**, is included with CSM Configurable Workspace.
+
+
+You can also display the form ribbon in the Contextual side panel. For more information, see [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/config-csm-display-header-in-sidebar.md).
 
 Ribbon configurations in CSM workspaces support domain separation.
 

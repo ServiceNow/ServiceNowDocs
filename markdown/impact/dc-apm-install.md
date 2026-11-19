@@ -1,24 +1,24 @@
 ---
-title: Install the Data Collection Pack for Enterprise Architecture
+title: Install the Data Collection Pack for APM
 description: To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/impact/dc-apm-install.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection for Enterprise Architecture, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection for APM, Impact Value Management data collection apps, Configuring Impact, Impact]
 ---
 
-# Install the Data Collection Pack for Enterprise Architecture
+# Install the Data Collection Pack for APM
 
 To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
 
 ## Before you begin
 
-The Enterprise Architecture Success Metric Definitions in this application rely on another application. confirm that the required plugins are installed if they are not already. For more information, see [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-install-plugins.md).
+The APM Success Metric Definitions in this application rely on another application. Ensure that the required plugins are installed if they are not already. For more information, see [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-install-plugins.md).
 
-**Note:** If you have Strategic Portfolio Management Data Collection packs activated, navigate to the Enterprise Architecture indicator \(Impact VM - \# of Applications Migrated\) &gt; indicator source \(Impact VM APM - Number of Applications Migrated\) and verify that the state is set to complete.
+**Note:** If you have SPM Data Collection packs activated, navigate to the APM indicator \(Impact VM - \# of Applications Migrated\) &gt; indicator source \(Impact VM APM - Number of Applications Migrated\) and ensure that the state is set to complete.
 
 Role required: Impact user
 
@@ -32,10 +32,8 @@ Role required: Impact user
 
 4.  Search for and select the following:
 
-    -   **Impact VM - Enterprise Architecture- Monthly Data Collection**
-    -   **Impact VM - Enterprise Architecture- Historical Data Collection**
+    -   **Impact VM - APM - Monthly Data Collection**
+    -   **Impact VM - APM - Historical Data Collection**
     If you're having trouble finding the data collection jobs, check whether the required data collection-dependent plugins are installed correctly. See [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/dc-install-plugins.md).
 
-
-**Parent Topic:**[Impact Value Management Data Collection for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/impact/data-collection-apm.md)
 

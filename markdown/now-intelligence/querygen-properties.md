@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/querygen-properties.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-02-03"
+reading_time_minutes: 7
 breadcrumb: [Reference, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
@@ -32,11 +32,12 @@ sn\_query\_gen.default\_source\_type
 
 </td><td>
 
-Fallback source type when the user request and conversation history do not determine whether to use table or indicator data. Accepted values: 'table' \(default\), 'indicator', or 'match\_found\_wins' \(indicator data if a match was found, otherwise table\). Does not apply in agentic mode.
+The data source type that AI Data Explorer uses in responses—table or indicator—when there are no query keywords or explicit context to determine this. Does not apply in agentic mode.
 
--   Type: String
+-   Type: Choice \(table \| indicator\)
 -   Default value: table
 -   Location: System Property \[sys\_properties\] table
+-   Learn more: [Indicator vs Table data source selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/indicator-vs-table-data-source-selection.md)
 
 </td></tr><tr><td>
 

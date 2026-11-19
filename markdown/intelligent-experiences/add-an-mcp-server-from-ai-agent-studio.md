@@ -1,18 +1,18 @@
 ---
 title: Add an MCP server from AI Agent Studio
-description: When you add an MCP server in AI Agent Studio, it's automatically discovered and synced to AI Control Tower.
+description: When you add an MCP server in AI Agent Studio, it's automatically discovered and synced to Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/add-an-mcp-server-from-ai-agent-studio.html
 release: zurich
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [MCP server setup, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [MCP server setup, Working with MCP server records, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Add an MCP server from AI Agent Studio
 
-When you add an MCP server in AI Agent Studio, it's automatically discovered and synced to AI Control Tower.
+When you add an MCP server in AI Agent Studio, it's automatically discovered and synced to Control Tower.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: sn\_aia.admin, sn\_mcp\_client.admin
 
 2.  Select **New**.
 
-    **Note:** In the Create and manage tab of the AI Agent studio, you can add only those MCP servers that have been approved in AI Control Tower.
+    **Note:** In the Create and manage tab of the AI Agent studio, you can add only those MCP servers that have been approved in Control Tower.
 
 3.  Enter the Name.
 
@@ -56,14 +56,14 @@ Role required: sn\_aia.admin, sn\_mcp\_client.admin
 
 10. Select **Save**.
 
-    **Note:** A scheduled job named **AI Agent Studio to AICT-MCP server sync** runs every 15 minutes to synchronize the MCP servers from AI Agent Studio to AI Control Tower.
+    **Note:** A scheduled job named **AI Agent Studio to AICT-MCP server sync** runs every 15 minutes to synchronize the MCP servers from AI Agent Studio to Control Tower.
 
 
 ## Result
 
 After synchronizing, the MCP server shows up in the AI asset inventory with its Status listed as In review, and the lifecycle phase listed as New.
 
-**Note:** After the MCP server is added to the AI Control Tower, it can’t be added again. Additionally, AI Agent Studio will not discover a server that has already been added.
+**Note:** After the MCP server is added to the Control Tower, it can’t be added again. Additionally, AI Agent Studio will not discover a server that has already been added.
 
 ## What to do next
 

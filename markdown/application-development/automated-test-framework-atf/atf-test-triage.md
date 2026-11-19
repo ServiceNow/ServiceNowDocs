@@ -7,9 +7,9 @@ release: zurich
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
+breadcrumb: [Test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
 
 # Accelerate ATF tests failure resolution
@@ -82,6 +82,4 @@ The following list of tables are not supported by the ATF tests failure resoluti
 [Parallel testing]()
 
 [Performance profiling]()
-
-[ATF Health Check]()
 

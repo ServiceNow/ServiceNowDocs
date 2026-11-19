@@ -1,21 +1,20 @@
 ---
 title: Turn off application monitoring
-description: Turn off monitoring for an application in situations where monitoring is causing performance issues or interfering with the functionality of the application.
+description: Disable the monitoring of an application in situations where monitoring is causing performance issues or interfering with the functionality of the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/disable-app-monitor.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-keywords: [disable monitoring, stop monitoring, turn off metrics monitoring, disable application monitoring]
 breadcrumb: [Application monitoring setup, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Turn off application monitoring
 
-Turn off monitoring for an application in situations where monitoring is causing performance issues or interfering with the functionality of the application.
+Disable the monitoring of an application in situations where monitoring is causing performance issues or interfering with the functionality of the application.
 
 ## Before you begin
 
@@ -33,10 +32,12 @@ Role required: sn\_dex.admin
 
     The list of monitored applications appears.
 
-4.  Select the check box next to the application for which you want to turn off monitoring.
+4.  Select the check box next to the application name that you want to turn off.
 
 5.  Select **Turn off metrics monitoring** in the **Actions** drop-down list.
 
     The monitoring of the application is turned off.
 
+
+**Parent Topic:**[DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-application-monitoring.md)
 

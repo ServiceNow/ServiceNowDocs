@@ -1,32 +1,32 @@
 ---
-title: ServiceNow Otto in Document Management
-description: Use ServiceNow Otto in Document Management to get key insights from the document through interactive Q&amp;A, and auto- generated common questions. You can enable your agents to understand the documents so that they can give quick insights.
+title: Now Assist in Document Management
+description: Use ServiceNow Now Assist in Document Management to get key insights from the document through interactive Q&amp;A, and auto- generated common questions. You can enable your agents to understand the documents so that they can give quick insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-document-management.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-08-08"
 reading_time_minutes: 2
 breadcrumb: [Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# ServiceNow Otto in Document Management
+# Now Assist in Document Management
 
-Use ServiceNow Otto in Document Management to get key insights from the document through interactive Q&amp;A, and auto- generated common questions. You can enable your agents to understand the documents so that they can give quick insights.
+Use ServiceNow Now Assist in Document Management to get key insights from the document through interactive Q&amp;A, and auto- generated common questions. You can enable your agents to understand the documents so that they can give quick insights.
 
 ## Get started
 
 <table id="table_n4l_lqg_ggc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/explore-now-assist-in-document-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/explore-now-assist-in-document-management.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure ServiceNow Otto for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configure-now-assist-document-management.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Now Assist for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configure-now-assist-document-management.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use ServiceNow Otto for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/use-now-assist-document-management.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Now Assist for Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/use-now-assist-document-management.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

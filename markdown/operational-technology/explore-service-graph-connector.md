@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/explore-service-graph-connector.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -17,6 +17,4 @@ The Service Graph Connector for ServiceNow Operational Technology \(OT\) Discove
 ## What to do next
 
 Go through each step to install and setup the Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery \(SGC\).
-
-**Parent Topic:**[Service Graph Connector for ServiceNow Operational Technology \(OT\) Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sgc-ot-discovery.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -24,21 +24,21 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] icon.
 
 3.  From the list, select **All Cases**.
 
 4.  Open the case that you want to add an issue to and then select one of the following options.
 
-<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d225201e99">
+<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d403075e97">
 
 Option
 
-</th><th align="left" id="d225201e102">
+</th><th align="left" id="d403075e100">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d225201e108">
+</th></tr></thead><tbody><tr><td id="d403075e106">
 
 **To add an existing issue**
 
@@ -49,7 +49,7 @@ Action
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d225201e134">
+</td></tr><tr><td id="d403075e132">
 
 **To create an issue**
 

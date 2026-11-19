@@ -1,6 +1,6 @@
 ---
 title: Auto Resolve De-Duplication tasks
-description: Use the CMDB Duplicate CI Agent in ServiceNow Otto to automatically identify, analyze, and resolve multiple duplicate CIs using AI based recommendations.
+description: Use the CMDB CI De-duplicator agent in ServiceNow Otto to automatically identify, analyze, and resolve multiple duplicate CIs using AI based recommendations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-agent-dedup-task.html
 release: zurich
@@ -9,12 +9,12 @@ classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-09-15"
 reading_time_minutes: 2
-breadcrumb: [Using AI agents, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using AI Agents, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Auto Resolve De-Duplication tasks
 
-Use the CMDB Duplicate CI Agent in ServiceNow Otto to automatically identify, analyze, and resolve multiple duplicate CIs using AI based recommendations.
+Use the CMDB CI De-duplicator agent in ServiceNow Otto to automatically identify, analyze, and resolve multiple duplicate CIs using AI based recommendations.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: cmdb\_dedup\_admin
 
 This agent analyzes duplicate CIs and generate recommendations covering CI selection, attribute conflict resolution, and relationship merging. Administrators can review and approve recommendations in configurable batches before execution, or configure templates to auto-resolve duplicates without manual intervention.
 
-The CMDB Duplicate CI Agent identifies duplicate CIs and groups them into similar classes and internally uses the [De-Duplication Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md) framework along with the [De-Duplication Task Resolution Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-dupe-task-resolution.md) skill to resolve the duplicates automatically.
+The CMDB CI De-duplicator agent identifies duplicate CIs and groups them into similar classes and internally uses the [De-Duplication Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md) framework along with the De-Duplication Task Resolution Assistant skill to resolve the duplicates automatically.
 
 **Note:** To experience a smoother procedure with the agent, avoid running manual templates at the same time.
 

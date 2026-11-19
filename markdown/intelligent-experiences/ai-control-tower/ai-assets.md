@@ -7,24 +7,28 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control Tower dashboard, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # AI assets
 
 An AI asset refers to a digital tool or resource that uses artificial intelligence to carry out particular tasks or address problems. Examples include machine learning models, chatbots, natural language processing systems, image recognition software, and similar technologies.
 
-## Details
+## AI asset Details
 
-For information on AI inventory, see [AI asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-inventory.md)
+Explore the AI assets view page and its sections:
 
-For information on AI asset Lifecycle, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md)
+-   [AI asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-inventory.md)
+-   [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md)
+-   [Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/approvals.md)
+-   [Cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/cases.md)
+-   [Inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/inquiries.md)
+-   [AI strategies and goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-strategies-and-goals.md)
+-   [AI Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-task-all-security-tasks.md)
 
-For information on approval playbook workflow, see [Create a Playbook workflow in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md).
+For information on Control Tower playbook workflow, see [Create a Playbook workflow in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md).
 
-For information on creating Now Assist approvals task, see [Create a Now Assist approval task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.md).
-
-For information on AI security tasks, see [AI Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-task-all-security-tasks.md).
+For information on creating Now Assist approvals task, see .
 

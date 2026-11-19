@@ -7,9 +7,9 @@ release: zurich
 product: Application Manager
 classification: application-manager
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-04"
 reading_time_minutes: 1
-breadcrumb: [Reference, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, Application Manager, Administering applications, Get started, Administer]
 ---
 
 # Domain separation and Application Manager

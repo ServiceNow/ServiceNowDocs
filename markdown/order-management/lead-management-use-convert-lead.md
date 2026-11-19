@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/lead-management-use-convert-lead.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Lead Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
 
 # Convert a lead into an opportunity
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  In the **Leads - All** list, select the lead that you’re working with.
 
@@ -102,11 +102,4 @@ Details to create an opportunity. To learn more, see [Create an opportunity](htt
 
 
 **Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management-using.md)
-
-**Related topics**  
-
-
-[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configure-lead-management.md)
-
-[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/lead-management.md)
 

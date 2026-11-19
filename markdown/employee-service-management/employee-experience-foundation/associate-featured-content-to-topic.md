@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create and associate topics, Unified Taxonomy for Employee Center, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Create and associate topics, Unified Taxonomy for Employee Center, Setup Employee Center browse experience features, Configure, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Associate featured content to a topic
@@ -38,4 +38,9 @@ Role required: admin
 
 5.  Click **Submit**.
 
+
+**Related topics**  
+
+
+[Featured content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/featured-content.md)
 

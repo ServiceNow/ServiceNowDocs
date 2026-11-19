@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
 ---
 
 # Create a Microsoft 365 integration profile
@@ -18,7 +18,7 @@ Create an integration profile to track software subscriptions and optimize stale
 
 ## Before you begin
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: sam\_integrator or admin
 
 To integrate with Microsoft 365, activate the following plugins:
 
@@ -36,15 +36,15 @@ If you’re using Software Asset Workspace, the option to create the direct inte
 
 1.  From a web browser, open your ServiceNow instance.
 
-<table id="choicetable_w41_4c4_2cc"><thead><tr><th align="left" id="d199155e127">
+<table id="choicetable_w41_4c4_2cc"><thead><tr><th align="left" id="d189696e127">
 
 Interface
 
-</th><th align="left" id="d199155e130">
+</th><th align="left" id="d189696e130">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d199155e136">
+</th></tr></thead><tbody><tr><td id="d189696e136">
 
 **Core UI**
 
@@ -52,7 +52,7 @@ Action
 
 Navigate to **All** &gt; **Software Asset** &gt; **SaaS License** &gt; **Direct Integration Profiles**
 
-</td></tr><tr><td id="d199155e159">
+</td></tr><tr><td id="d189696e159">
 
 **Software Asset Workspace**
 
@@ -152,7 +152,7 @@ The type of permission for the integration profile to access data correctly and 
 
     If the connection is successfully validated, the integration profile downloads subscriptions and activity data.
 
-    **Note:** If the **Download Activity** field is selected without configuring the optional Power BI settings, the Validate connection feature issues the following warning message: "All required APIs are validated successfully, but the optional Power BI API validation has failed."
+    **Note:** If the **Download Activity** field is selected without configuring the optional Power BI settings, the Validate connection feature will issue the following warning message: "All required APIs are validated successfully, but the optional Power BI API validation has failed."
 
 8.  Check the status of the user subscription job by navigating to **Software Asset** &gt; **Administration** &gt; **Job Results**.
 

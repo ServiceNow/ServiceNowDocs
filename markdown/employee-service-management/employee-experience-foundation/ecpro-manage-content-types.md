@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Setup employee communications, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
+breadcrumb: [Setup employee communications, Configure, Employee Center Pro, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Add or modify content type for Content Publishing
@@ -28,15 +28,15 @@ The base system provides content types and content that you can use.
 
 2.  Click **New** or an existing content type to edit.
 
-<table id="choicetable_ztg_fx1_vbb"><thead><tr><th align="left" id="d147977e77">
+<table id="choicetable_ztg_fx1_vbb"><thead><tr><th align="left" id="d146205e78">
 
 Field
 
-</th><th align="left" id="d147977e80">
+</th><th align="left" id="d146205e81">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d147977e86">
+</th></tr></thead><tbody><tr><td id="d146205e87">
 
 **Name**
 
@@ -44,7 +44,7 @@ Description
 
 Unique name that describes the content.
 
-</td></tr><tr><td id="d147977e95">
+</td></tr><tr><td id="d146205e96">
 
 **Category**
 
@@ -58,7 +58,7 @@ The content type category. The types are:-   Portal Content
 
 See [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
-</td></tr><tr><td id="d147977e134">
+</td></tr><tr><td id="d146205e135">
 
 **Associated widgets**
 
@@ -66,7 +66,7 @@ See [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
 Widgets that can show the type of content you are defining or editing.
 
-</td></tr><tr><td id="d147977e143">
+</td></tr><tr><td id="d146205e144">
 
 **Active**
 
@@ -74,7 +74,7 @@ Widgets that can show the type of content you are defining or editing.
 
 Indicates that the content type is active and available to use.
 
-</td></tr><tr><td id="d147977e153">
+</td></tr><tr><td id="d146205e154">
 
 **Value**
 

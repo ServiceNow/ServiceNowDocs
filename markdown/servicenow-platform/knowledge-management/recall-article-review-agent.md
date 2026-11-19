@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Authoring a knowledge article in Agent Workspace, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -48,7 +48,7 @@ The article opens in edit mode and the workflow state of the article is changed 
 **Related topics**  
 
 
-[Edit a knowledge article in Agent Workspace]()
+[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/edit-article-workspace.md)
 
 [Knowledge workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/r_KnowledgeWorkflows.md)
 

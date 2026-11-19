@@ -7,7 +7,7 @@ release: zurich
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Working with the CAB Workbench, Use, Change Management, IT Service Management]
 ---
@@ -32,29 +32,29 @@ You can view the CAB calendar to view and attend specific meetings.
 
 2.  You can perform the following actions from the CAB calendar.
 
-<table id="choicetable_z5r_pbm_jx"><tbody><tr><td id="d232227e86">
+<table id="choicetable_z5r_pbm_jx"><tbody><tr><td id="d226176e86">
 
 **View the calendar**
 
 </td><td>
 
-Select the options in the top right of the CAB calendar to display the calendar in daily, weekly, or monthly view.
+Click the options in the top right of the CAB calendar to display the calendar in daily, weekly, or monthly view.
 
-</td></tr><tr><td id="d232227e98">
+</td></tr><tr><td id="d226176e95">
 
 **View CAB meeting details at a glance**
 
 </td><td>
 
-Select a specific CAB meeting to view details such as the CAB manager, meeting start time, and meeting end time.
+Click a specific CAB meeting to view details such as the CAB manager, meeting start time, and meeting end time.
 
-</td></tr><tr><td id="d232227e110">
+</td></tr><tr><td id="d226176e104">
 
 **Attend a specific CAB meeting**
 
 </td><td>
 
-Select the meeting you want to attend and select **Open** to launch the meeting.
+Click the meeting you want to attend and click **Open** to launch the meeting.
 
 </td></tr></tbody>
 </table>

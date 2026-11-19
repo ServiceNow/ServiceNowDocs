@@ -7,9 +7,9 @@ release: zurich
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-09-03"
 reading_time_minutes: 4
-breadcrumb: [Evaluation dashboard reference, AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Evaluation dashboard References, Reference \(legacy\), Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Evaluation flow for batch evaluations
@@ -169,4 +169,6 @@ Action 9: For Loop over skills
 
         Pause seven seconds before proceeding to the next skill to manage rate limits or throttling.
 
+
+**Parent Topic:**[Evaluation dashboard References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-eval-references.md)
 

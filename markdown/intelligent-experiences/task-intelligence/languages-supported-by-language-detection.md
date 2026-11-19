@@ -7,9 +7,9 @@ release: zurich
 product: Task Intelligence
 classification: task-intelligence
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Task Intelligence references, Task Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Task Intelligence references, Task Intelligence, Enable AI experiences]
 ---
 
 # Languages supported by Task Intelligence

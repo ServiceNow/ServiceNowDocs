@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Create SOAP API access policy, SOAP API access policies, API access policy, Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ Create a single global API access policy to protect all the SOAP APIs.
 
 ## Before you begin
 
--   Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
+-   Role required: admin
 -   Install the **Processor Access policy** \(`com.glide.processor.policy`\) plugin
 -   Make sure that an authentication profile is created. For more information, see [Create an authentication profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/create-authentication-profile.md).
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/install-discovery-sensor-for-ot.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-27"
 reading_time_minutes: 3
 breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -45,8 +45,6 @@ You can register the Sensor after you have installed the OT Discovery Console an
 3.  In the first section of the setup, select **Download &amp; Deploy OT Discovery**.
 
 4.  Select **Configure** and the **Downloads** page opens.
-
-    \[Omitted image "downloads-page-containerized2.png"\] Alt text: Downloads page
 
     **Note:** Read the End User License Agreement \(EULA\) carefully and then check **Agree**.
 
@@ -126,6 +124,4 @@ You can register the Sensor after you have installed the OT Discovery Console an
 ## What to do next
 
 [Register the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/registering-ot-sensor.md)
-
-**Parent Topic:**[Configure the Discovery Sensor for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configure-discovery-sensor-ot.md)
 

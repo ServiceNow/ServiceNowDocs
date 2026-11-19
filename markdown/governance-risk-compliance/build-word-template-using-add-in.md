@@ -1,28 +1,22 @@
 ---
-title: Build the Microsoft Word template using the add-in
-description: Build the Microsoft Word template using the add-in. The Word Templates module provides the Digital resilience incident \(DRI\) Word templates that are used to generate Microsoft Word reports.
+title: Build Microsoft Word template using the add-in
+description: Build Microsoft Word template using the add-in. Microsoft Word Templates module provides the DRIR Microsoft Word templates used to generate Microsoft Word reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/build-word-template-using-add-in.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2025-11-16"
+reading_time_minutes: 2
 breadcrumb: [Generating Microsoft Word reports using Document designer, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Build the Microsoft Word template using the add-in
+# Build Microsoft Word template using the add-in
 
-Build the Microsoft Word template using the add-in. The Word Templates module provides the Digital resilience incident \(DRI\) Word templates that are used to generate Microsoft Word reports.
+Build Microsoft Word template using the add-in. Microsoft Word Templates module provides the DRIR Microsoft Word templates used to generate Microsoft Word reports.
 
 ## Before you begin
 
-Role required: sn\_dri\_inc\_rptg.digital\_resilience\_incident\_manager
-
-## About this task
-
-Before building a Microsoft Word template, sign in to your instance from the Word add-in with your credentials.
-
-\[Omitted image "document-designer-sign-in-dialog.png"\] Alt text: Document designer sign-in dialog.
+Role required: sn\_oper\_res.admin
 
 ## Procedure
 
@@ -30,7 +24,7 @@ Before building a Microsoft Word template, sign in to your instance from the Wor
 
 2.  To create a Microsoft Word template, select **New**.
 
-    The Microsoft Word templates form is displayed.
+    The Word templates form is displayed.
 
 3.  On the form, fill in the fields.
 
@@ -48,7 +42,7 @@ Name
 
 </td><td>
 
-Unique name of the Microsoft Word template for the table that is selected in the **Table** field.
+Unique name of the Word template for the table that is selected in the **Table** field.
 
 </td></tr><tr><td>
 
@@ -72,7 +66,7 @@ Document
 
 </td><td>
 
-Microsoft Word template that was created based on content configuration.**Note:** The document must be a docx file only. If you attach a document that is in any other format, then an error message appears.
+Word template that was created based on content configuration.**Note:** The document must be a docx file only. If you attach a document that is in any other format, then an error message appears.
 
 </td></tr><tr><td>
 
@@ -80,8 +74,8 @@ State
 
 </td><td>
 
-State of the Microsoft Word template record defaults to **Draft**.-   **Draft**: Defaults to Draft state when you open the record.
--   **Published**: State when the Microsoft Word template is published. You can't update a template when it is in the published state.
+State of the Word template record defaults to **Draft**.-   **Draft**: Defaults to Draft state when you open the record.
+-   **Published**: State when the Word template is published. You can't update a template when it is in the published state.
 -   **Edit**: State in which the record details can be updated.
 
 **Note:** The Word template record in the **Edit** state can’t be used for report generation. The record isn't available to select in the Generate report pop-up.
@@ -112,40 +106,33 @@ Post processing action
 
 </td><td>
 
-Option to update the generated Microsoft Word template report with fields from the Report section of the Engagement record.
+Option to update the generated Word template report with fields from the Report section of the Engagement record.
 
 </td></tr></tbody>
-</table>    State transitions for Microsoft Word template are listed:
+</table>4.  To edit an existing pre-defined template, open the desired Microsoft Word template from the list and select the **Edit** UI action.
 
-    -   **Draft** \(initial\)
-    -   **Edit** \(record can be modified; not usable for report generation\)
-    -   **Published** \(active and selectable in the Generate report dialog\).
-4.  To insert a Microsoft 365 reporting item into the template, select the Add Content icon in the ServiceNow ribbon group of Microsoft Word.
+5.  Select **OK**.
 
-    Key features of the ServiceNow ribbon in Microsoft Word are listed:
+6.  To delete an existing Word template, select the **Delete** in the record.
 
-    -   Design Template — Inserts empty data points that populate when a document is generated.
-    -   Add Content — Inserts live data \(reports, charts, visualizations\) into the document directly.
-    -   Manage Content — Lists all content inserted via Add Content, with hyperlinks to navigate to specific content blocks and back to the reporting configuration in ServiceNow.
-    The panel offers the following report types: **Data point**, **Table**, and **Charts** \(bar chart and pie chart\).
+7.  To update an existing Word template, complete the following steps.
 
-    \[Omitted image "document-designer-add-in-panel-tabs.png"\] Alt text: Document designer add-in panel tabs.
+    1.  Update the name, category, table, or active option of the record.
 
-    **Note:** The reporting items that appear in the panel are obtained from the records you created in the Reporting Configurations module. For information, see [Create reporting configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-reporting-configurations.md).
+    2.  To add a brand new document to the Word template, select the **Update** option provided with the Document field.
 
-5.  Select a reporting item and select **Add** to insert the item at the cursor position in the Word document.
+    3.  Select **Click to add..** in the **Document** field.
 
-6.  To edit an existing pre-defined template, open it from the list, select **Edit**, update the details, and select **OK**.
+    4.  In the Choose an attachment file: dialog box, select **Choose file**, and select **OK**.
 
-7.  To delete an existing template, select **Delete** in the record.
+    5.  To update an existing document associated with the template, select the **Update** option provided with the Document field.
 
-8.  To publish the template, select **Publish** in the record.
+    6.  Select **Update** in the Word template record.
 
-    You must publish a template before using it to generate a Microsoft Word report.
+        The Microsoft Word template record is updated and the updated template is displayed in the list view.
 
+8.  To publish the Microsoft Word template, select **Publish** in the record.
 
-**Related topics**  
+    You must publish the Microsoft Word template before you can use it to generate a Microsoft Word report.
 
-
-[Generate a Microsoft Word report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/generate-word-report.md)
 

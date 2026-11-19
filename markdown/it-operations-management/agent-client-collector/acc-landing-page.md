@@ -7,7 +7,7 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [IT Operations Management]
 ---
@@ -26,7 +26,7 @@ Watch this video for an overview of how the Agent Client Collector works.
 
 </td><td>
 
-[Exploring Agent Client Collector\[Omitted image "bus-automated-testing-framework.svg"\] Alt text:Analyze CI data sent to the instance, and provide data to other Agent Client Collector applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector.md)
+[Exploring Agent Client Collector\[Omitted image "bus-automated-testing-framework.svg"\] Alt text:Analyze CI data sent to the instance, and provide data to other Agent Client Collector applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 
 </td><td>
 
@@ -42,7 +42,7 @@ Watch this video for an overview of how the Agent Client Collector works.
 
 </td><td>
 
-[Agent Client Collector Log Analytics\[Omitted image "bus-log-store.svg"\] Alt text:Stream log data from Linux and Windows hosts to a ServiceNow instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-log-analytics.md)
+Agent Client Collector Log Analytics\[Omitted image "bus-log-store.svg"\] Alt text:Stream log data from Linux and Windows hosts to a ServiceNow instance.
 
 </td></tr></tbody>
 </table>

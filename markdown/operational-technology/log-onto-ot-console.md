@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/log-onto-ot-console.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-19"
 reading_time_minutes: 1
 breadcrumb: [Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -23,6 +23,4 @@ You're prompted to fill in your username, email, and password. The window indica
 Copy or note the password you entered or generated. Select the check box next to **I acknowledge I saved this password**.
 
 \[Omitted image "console-log-in-B.png"\] Alt text: Register initial User
-
-**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configure-ot-discovery-console.md)
 

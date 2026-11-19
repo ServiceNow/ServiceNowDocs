@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-administration-console.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---

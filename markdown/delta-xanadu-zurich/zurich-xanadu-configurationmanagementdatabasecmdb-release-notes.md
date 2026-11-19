@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-configurationmanagementdatabasecmdb-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 36
 breadcrumb: [Products combined by family]
 ---
@@ -125,13 +125,13 @@ Starting with version 4.0, the CSDM and the CMDB Data Foundations Dashboards sto
 
 The CMDB Integrations Dashboard has a modernized look and feel with the Next Experience user interface. Starting with Xanadu release, the CMDB Integrations Dashboard is automatically migrated to the Next Experience user interface. For more information on the Next Experience user interface, see [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&family=xanadu&ft:locale=en-US).
 
--   **[\[Placeholder link text to key now-assist-landing-cmdb\]](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=xanadu&ft:locale=en-US)**
+-   **[now assist landing cmdb](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=xanadu&ft:locale=en-US)**
 
 The ServiceNow® ServiceNow Otto for CMDB application brings generative AI to CMDB. The ServiceNow Otto for CMDB application provides the following skills:
 
     -   CI summarization: Shows CI details such as discovery and class, and tallies of records that are related to the CI such as incidents, alerts, and security vulnerabilities, directly on CI forms.
     -   Manage duplicate CIs: Guides you step-by-step through the process of reviewing de-duplication tasks, and then creating and running de-duplication templates to remediate tasks that you choose. As you respond to choices presented by the manage duplicate CIs skill, you receive clear guidance for what should be your next step in the remediation process. This skill also provides root cause analysis to help you prevent future generation of duplicate CIs.
--   **[\[Placeholder link text to key bundle-platcap.now-assist-sgc-landing\]](https://www.servicenow.com/docs/access?context=now-assist-sgc-landing&family=xanadu&ft:locale=en-US)**
+-   **[now assist sgc landing](https://www.servicenow.com/docs/access?context=now-assist-sgc-landing&family=xanadu&ft:locale=en-US)**
 
 The ServiceNow® Now Assist for Service Graph Connectors \(SGC\) application brings in generative AI capabilities to resolve issues within Service Graph Connectors. The Now Assist for SGC application provides the Service Graph Connector diagnosis skill. This skill enables you to troubleshoot issues in a failed import set associated with a Service Graph Connector.
 

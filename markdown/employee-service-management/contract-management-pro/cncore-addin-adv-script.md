@@ -7,7 +7,7 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Manage contract records, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -47,8 +47,6 @@ Because the script for mapping variables using the Microsoft Word add-in for Ser
 
 
 [View a contract record]()
-
-[View contract repository record]()
 
 [Modify a contract record]()
 

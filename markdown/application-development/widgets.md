@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 2
 keywords: [Widgets, Project shape, Choosing a base class, The extends chain may be transitive, Discoverability, Metadata decorators, requiresPageType, Resolving a widget at runtime, See also]
-breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Lux widgets

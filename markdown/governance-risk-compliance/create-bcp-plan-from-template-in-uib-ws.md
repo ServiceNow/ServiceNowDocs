@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-bcp-plan-from-template-in-uib-ws.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-30"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---

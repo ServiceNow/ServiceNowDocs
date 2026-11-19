@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Work with hardware normalization, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Opt-in to the Hardware Asset Management Content Service
@@ -72,8 +72,5 @@ Click **Opt-Out**.
 
 You are returned to the Hardware Asset Management Content Service agreement and you can opt back in at anytime.
 
--   **[Import and export content data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/import-export-ham.md)**  
-Import content data from or export content data to the Hardware Asset Management content library service to support hardware normalization of asset models. On-premise users can import or export data via a zip file using the Manage Hardware Library module.
-
-**Parent Topic:**[Configuring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/configuring-ham.md)
+**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

@@ -7,9 +7,9 @@ release: zurich
 product: Procurement
 classification: procurement
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create a purchase order, Procurement purchase order management for assets, Procurement, Asset Management common applications, IT Service Management]
+breadcrumb: [Create a purchase order, Procurement purchase order management for assets, Procurement, Asset Management, IT Service Management]
 ---
 
 # Purchase order expected delivery date

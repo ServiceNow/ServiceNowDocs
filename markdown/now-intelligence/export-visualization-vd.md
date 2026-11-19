@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/export-visualization-vd.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-25"
 reading_time_minutes: 2
 keywords: [Export a visualization, Export a report, Export a visualization to PDF, Export a visualization to PNG, Export a visualization to JPEG, Export a list visualization to Excel]
 breadcrumb: [Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -25,7 +25,8 @@ Not all visualizations support all output types. Some export options shown in th
 
 | |Supported data visualization export formats|
 |---|-------------------------------------------|
-|Calendar reports, Indicator scorecards, Pivot tables, Geomap|None|
+|Calendar reports, Indicator scorecards, Geomap|None|
+|Pivot tables|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Lists|PDF, Microsoft Excel \(.xls or .xlsx\), Embedded LIST, CSV|
 |Other data visualizations|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Non-data visualization dashboard elements, like Headings|Not applicable|
@@ -70,7 +71,7 @@ Page format
 
 </td><td>
 
-For PDF, PNG, Embedded PNG, and JPEG, select Letter, A4, or A3 to correspond to the paper dimensions of the printed visualization.You can't set the page format when exporting a List.
+For PDF, PNG, Embedded PNG, and JPEG, select Letter, A4, or A3 to correspond to the paper dimensions of the printed visualization.You cannot set the page format when exporting a List.
 
 </td></tr><tr><td>
 

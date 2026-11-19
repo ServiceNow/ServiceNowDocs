@@ -7,9 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Desktop Assistant, Solve issues, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Desktop Assistant, Digital End-User Experience, IT Operations Management]
 ---
 
 # View outages from Desktop Assistant

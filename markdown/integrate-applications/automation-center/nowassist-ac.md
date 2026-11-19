@@ -1,20 +1,20 @@
 ---
 title: ServiceNow Otto for Automation Center
-description: Use ServiceNow Otto for Automation Center helps you use AI features in your ServiceNow instance using Automation Center.
+description: Use ServiceNow Otto for Automation Center to streamline and simplify automation request setup from Task Mining workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/integrate-applications/automation-center/nowassist-ac.html
 release: zurich
 product: Automation Center
 classification: automation-center
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-02-16"
 reading_time_minutes: 3
 breadcrumb: [Use, Automation Center, Workflow Data Fabric]
 ---
 
 # ServiceNow Otto for Automation Center
 
-Use ServiceNow Otto for Automation Center helps you use AI features in your ServiceNow instance using Automation Center.
+Use ServiceNow Otto for Automation Center to streamline and simplify automation request setup from Task Mining workspace.
 
 **Important:**
 
@@ -58,8 +58,6 @@ Explore the benefits of ServiceNow Otto for Automation Center.
 Configure ServiceNow Otto for Automation Center to use all the features.
 -   **[Using ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/use-now-assist.md)**  
 Use ServiceNow Otto for Automation Center to explore available automations in your ServiceNow instance. You can also create an automation request from the Task Mining workspace.
--   **[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/reference.md)**  
-Reference topics provide additional information about the lists and forms that you use to configure and administer Now Assist for Automation Center.
 
 **Parent Topic:**[Using Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/automation-center-use.md)
 

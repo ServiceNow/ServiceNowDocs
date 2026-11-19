@@ -18,7 +18,7 @@ Customize or edit a dashboard by adding sections, filters, images, lists, proces
 
 ## Before you begin
 
-Role required: admin or apw\_admin
+Role required: admin or sn\_align\_core.apw\_admin
 
 ## Procedure
 

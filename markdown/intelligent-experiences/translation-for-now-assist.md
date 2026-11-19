@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/translation-for-now-assist.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-31"
 reading_time_minutes: 6
 keywords: [Translation, Now Assist, Generative AI, GenAI, Native translation]
-breadcrumb: [Configure multilingual service for ServiceNow Otto applications, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Configure multilingual service for Now Assist applications, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Multilingual service for Now Assist
@@ -126,5 +126,5 @@ For more information on tracking Now Assist usage, see [Monitoring Now Assist us
 
 For more information on turning on multilingual services for Now Assist applications, see [Enable translation for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
 
-**Parent Topic:**[Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
+**Parent Topic:**[Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/add-va-properties.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Develop a component for Virtual Agent, Create custom components using ServiceNow CLI, Builder library, Developing your application, Classic app development, Building applications]
+breadcrumb: [Develop a component for Virtual Agent, Create custom components using ServiceNow CLI, Builder library, Developing your application, Building applications]
 ---
 
 # Add properties to communicate with Virtual Agent
@@ -18,7 +18,6 @@ To develop a component for Virtual Agent, add specific properties and actions to
 
 -   Set up your environment. For instructions, see the [ServiceNow® Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/cli/getting-started).
 -   Set up your component project. For instructions, see the [ServiceNow® Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/cli/cli)
--   Develop your component. For instructions, see the ServiceNow® Developer Site
 
 Role required: virtual\_agent\_admin or admin
 

@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -52,14 +52,6 @@ Name of the demand.
 
 </td></tr><tr><td>
 
-Demand experience
-
-</td><td>
-
-Demand experience to associate with this demand, which determines the demand's form view, the modules shown, and any dynamic attributes available. This is an optional field. If no value is selected in this field, the demand is displayed with the default form view and all modules.
-
-</td></tr><tr><td>
-
 Category
 
 </td><td>
@@ -89,23 +81,23 @@ The **Category** field selection determines the selections available in the **Ty
     -   Change
     -   Defect
     -   No Conversion
-For more information, see [Demand details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/demand-form-ppw.md).
+The availability of these choices are also defined by the plugins installed in your instance. For more information, see [Demand details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/demand-form-ppw.md).
 
 </td></tr><tr><td>
 
-Planned start date
+Start date
 
 </td><td>
 
-The preliminary or estimated date when the work is initially planned to begin.
+The preliminary or estimated date when the work is initially planned to begin.**Note:** The **Start date** column label is changed to **Planned start date**. This change is applicable only for new customers who begin using the Zurich version. To facilitate continuity, you continue to see the prior labels.
 
 </td></tr><tr><td>
 
-Planned end date
+Due date
 
 </td><td>
 
-The preliminary or estimated date when the planned work is expected to be completed.
+The preliminary or estimated date when the planned work is expected to be completed.**Note:** The **Due date** column label is changed to **Planned end date**. This change is applicable only for new customers who begin using the Zurich version. To facilitate continuity, you continue to see the prior labels.
 
 </td></tr><tr><td>
 
@@ -126,9 +118,4 @@ Description of the demand.
 ## What to do next
 
 Review and refine the demand details and progress the demand. See [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/update-the-demand-details-ppw.md).
-
-**Related topics**  
-
-
-[Add dynamic attributes to a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/add-dynamic-attributes-to-a-demand-ppw.md)
 

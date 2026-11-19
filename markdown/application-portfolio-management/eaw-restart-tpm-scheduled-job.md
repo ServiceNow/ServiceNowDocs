@@ -1,16 +1,16 @@
 ---
-title: Restart the Populate TPM Discovered Technologies and Lifecycles job
+title: Restart the Populate TLM Discovered Technologies and Lifecycles job
 description: You can restart the Populate TPM Discovered Technologies and Lifecycles job if it encounters any interruptions or failures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-restart-tpm-scheduled-job.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-17"
 reading_time_minutes: 2
-breadcrumb: [Working with Technology Lifecycle Management \(TLM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+breadcrumb: [Working with Technology Lifecycle Management \(TLM\) in EA Workspace, Manage, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
-# Restart the Populate TPM Discovered Technologies and Lifecycles job
+# Restart the Populate TLM Discovered Technologies and Lifecycles job
 
 You can restart the **Populate TPM Discovered Technologies and Lifecycles** job if it encounters any interruptions or failures.
 
@@ -26,9 +26,9 @@ Technology Lifecycle Management \(TLM\) was previously known as Technology Portf
 
 Whether your instance displays TPM or TLM also depends on your application versions. TLM labels appear only when both the Enterprise Architecture Workspace application \(version 9.2.1 or later\) and the Technology Lifecycle Management plugin, sn\_apm\_tpm \(version 1.11.0 or later\), are installed. If either application is on an earlier version, the interface continues to show TPM.
 
-The restart feature enables you to resume the **Populate TPM Discovered Technologies and Lifecycles** job from where it stopped. This ensures that the data population process is completed without having to start the job from the beginning.
+The restart feature enables you to resume the **Populate TPM Discovered Technologies and Lifecycles** job from where it stopped. This ensures that the data population process is completed without having to start the job from the beginning. The job discovers technologies from CMDB and Service Mapping relationships and then populates lifecycle records in the same run. Because both phases run as part of the same job, restarting it resumes both discovery and lifecycle population from the last processed record.
 
-The **Restart** button is set to active on the Populate TPM Discovered Technology Run Log page after one hour with no update to the run log. You can determine whether the job faced any interruption or whether it failed by analyzing the **Records Processed** field value. If the count of TLM discovered technologies in the system stops increasing while the job is running, the job may have stalled or failed.
+The **Restart** button is set to active on the **TLM Discovered Technology Run Log** page after one hour with no update to the run log. You can determine whether the job faced any interruption or whether it failed by analyzing the **Records Processed** field value. If the count of TLM discovered technologies in the system stops increasing while the job is running, the job may have stalled or failed.
 
 ## Procedure
 
@@ -48,11 +48,9 @@ The **Restart** button is set to active on the Populate TPM Discovered Technolog
 **Related topics**  
 
 
-[Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md)
+[Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm.md)
 
-[Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/update-tpm-data.md)
+[Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/update-tpm-data.md)
 
-[View TPM logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tpm-logs.md)
-
-[Scheduled jobs for TLM in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-tpm-scheduled-jobs.md)
+[View Technology Lifecycle Management logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-view-tpm-logs.md)
 

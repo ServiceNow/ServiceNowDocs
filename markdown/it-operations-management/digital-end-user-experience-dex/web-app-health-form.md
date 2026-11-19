@@ -1,20 +1,20 @@
 ---
-title: Web application Performance page
-description: The Performance page for a web application displays engagement metrics and performance metrics, such as sessions and page views, response time, page load time, and failed web requests.
+title: Web application — Performance page
+description: Monitor the application performance to enable proactive detection and resolution of issues, maintain optimal performance, improve user experience, troubleshoot the performance issues, and confirm that the application meets its intended purpose.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/web-app-health-form.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Applications list, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
-# Web application Performance page
+# Web application — Performance page
 
-The Performance page for a web application displays engagement metrics and performance metrics, such as sessions and page views, response time, page load time, and failed web requests.
+Monitor the application performance to enable proactive detection and resolution of issues, maintain optimal performance, improve user experience, troubleshoot the performance issues, and confirm that the application meets its intended purpose.
 
 <table id="table_r4m_pkr_bgc"><thead><tr><th>
 
@@ -30,7 +30,7 @@ Started Sessions
 
 </td><td>
 
-Total number of active user sessions for the application over the last 2 hours, specifically the latest 5 minutes.**Note:** Active user sessions information is vital for determining the server load. It also helps you to determine a suitable time for server maintenance.
+Total number of active user sessions for the application over the last 2 hours, specifically the latest 5 minutes.**Note:** Active user sessions information is vital for determining the server load. It also helps you to determine the perfect time for server maintenance.
 
 </td></tr><tr><td>
 
@@ -49,9 +49,7 @@ Page views
 Frequency with which the users access or view a specific page within the application. Each visit to a page is recorded as one page view, whether it is by a first-time visitor or a returning user.
 
 </td></tr></tbody>
-</table>**Note:** Web application performance metrics are available for the previous 2 hours, 24 hours, or 30 days. Select the required time window from the drop-down list to update the visualization.
-
-<table id="table_mrg_fpf_4wb"><thead><tr><th>
+</table><table id="table_mrg_fpf_4wb"><thead><tr><th>
 
 Field
 
@@ -81,7 +79,7 @@ Average DNS lookup
 
 </td><td>
 
-Average amount of time it takes for a Domain Name System \(DNS\) lookup to be completed during the selected time period.A lower average DNS lookup time is desirable because it contributes to faster web page loading and improved overall internet performance.
+Average amount of time it takes for a Domain Name System \(DNS\) lookup to be completed during the selected time period.A lower average DNS lookup time is desirable, as it contributes to faster web page loading and improved overall internet performance.
 
 </td></tr><tr><td>
 
@@ -89,7 +87,7 @@ Failed web requests
 
 </td><td>
 
-Set of all requests that either return an error code or an HTTP 408 status code or fail to return a success code during the selected time period.
+Set of all requests that either return an Error Code or an HTTP 408 status code or fail to return a Success Code during the selected time period.
 
 </td></tr><tr><td>
 
@@ -108,5 +106,7 @@ Availability
 Measure of the system's operational performance and its ability to be accessible and usable when needed. It’s typically expressed as a percentage, representing the proportion of time the application is functional and available for use.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/application-form.md)
+</table>**Note:** If you set up a page-level monitoring for specific application pages, you can see the collected metrics in the Metrics analyzer. Select one or more pages under **Pages** and narrow down your data by location, OS, or date range.
+
+**Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/application-form.md)
 

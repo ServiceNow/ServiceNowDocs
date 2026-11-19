@@ -8,7 +8,7 @@ product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
@@ -37,8 +37,6 @@ When intraday optimization runs, it determines each technician's starting locati
 3.  Technician's home location \(fallback\)
 
 Admins configure Start and End locations for each technician in their Resource Schedule Attributes. See [Configure an agent's profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/workforce-optimization-for-field-service/configure-an-agent-s-profile.md) for details. The starting location is locked in when the engine runs and remains fixed for task assignments until the next optimization cycle.
-
-Prioritized event optimization responds immediately to critical events instead of waiting for the next scheduled intraday run. When a high-priority event occurs, prioritized optimization triggers shortly after and targets only the specific technicians and tasks affected by the event. This focused approach allows urgent scheduling changes to be handled quickly without rescheduling all tasks in the group or territory.
 
 Dispatchers can manually trigger optimization to run from the Dispatcher Workspace when both conditions are met:
 

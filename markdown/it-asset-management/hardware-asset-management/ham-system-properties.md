@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-19"
 reading_time_minutes: 5
-breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Reference, Hardware Asset Management, IT Asset Management]
 ---
 
 # Hardware Asset Management system properties

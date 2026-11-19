@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-pol-clone-policy.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-27"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Explicit Block, Threat Response, clone]
-breadcrumb: [Managing policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing policies, Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Clone a policy
@@ -30,7 +30,7 @@ For example:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Govern** &gt; **Policies**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Govern** &gt; **Policies**.
 
 2.  Find the policy that you want to clone.
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/configure-ot-discovery-console.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-03-24"
+reading_time_minutes: 3
 breadcrumb: [Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
@@ -165,19 +165,4 @@ After the Console is installed, generate a new Console certificate. For more inf
 
 </td></tr></tbody>
 </table>**Note:** Once installation is complete, and you log in to the Console, you can choose to use the interactive configuration wizard. The wizard guides you to upload your Console license. It also takes you through the getting started with the system, such as: creating a Site, creating a Network Zone, and building your initial Auto Query. For more information, see [Use the Discovery Console for OT interactive configuration wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/console-onboarding-wizard.md).
-
--   **[Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/air-gapped-networks-installation.md)**  
-This section explains the options for air-gapped and non-air-gapped network, installation of Discovery for OT components, and accessing data from scans and queries.
--   **[Requirements for Discovery Console for OT installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/reqs-ot-console-installation.md)**  
-For remote deployment at a facility or on a network, verify that the following requirements are met before installing the Discovery Console for OT.
--   **[Install a Linux operating system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/install-linux-os.md)**  
-Install a Linux operating system on a virtual machine and then install the Discovery Console for OT on the same VM.
--   **[Install the Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/install-discovery-console-ot.md)**  
-Install the Service Graph Connector for OT Discovery before accessing the Discovery for OT packages. You must also install a Linux distribution on the same machine the Discovery Console for OT is installed on.
--   **[Log on to the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/log-onto-ot-console.md)**  
-This sections describes your initial log onto the OT Discovery Collector.
--   **[Generate a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/generate-new-certificate-discovery-for-ot.md)**  
-Generate a certificate to use with the Discovery Console for OT or upload your own certificates. This certificate allows the Console to boot up.
-
-**Parent Topic:**[Discovery Console for Operational Technology \(OT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/ot-discovery-console-landing.md)
 

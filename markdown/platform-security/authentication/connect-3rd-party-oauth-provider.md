@@ -7,7 +7,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [OAuth outbound, OAuth authentication, Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ Configure how the client ID and secret are sent to your OAuth provider.
 
 ## Before you begin
 
-Role required: oauth\_admin
+Role required: admin
 
 ## Procedure
 
@@ -209,7 +209,7 @@ Client Type
 Choose the client type, based on the type of your client. Options:-   **Iframe Embedded**
 -   **Integration as a User**
 -   **Integration as a Service**
-To know more, see [Client type configuration for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/client-type.md).
+To know more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/client-type.md).
 
 </td></tr></tbody>
 </table>    The system creates a record in the Application Registries \[oauth\_entity\] table with type OAuth Provider.

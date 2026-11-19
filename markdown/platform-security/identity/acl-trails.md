@@ -7,21 +7,18 @@ release: zurich
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Identity Audit Results, Identity and Access Audit, Identity]
+breadcrumb: [Identity audit results, Identity and Access Audit, Identity]
 ---
 
 # ACL Trails
 
 Displays audits of ACLs in the ServiceNow® instance.
 
-For a given ACL, ACL Trails show:
+ACL Trails display attribute changes and required role relation changes for an ACL.
 
--   Attribute changes
--   Required role relation changes
-
-To access the ACL Trails, navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **ACL Trails**. The ACL Trails page is displayed with the following information.
+To access the ACL Trails, navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **ACL Trails**. The ACL Trails page displays the following information.
 
 | | |
 |---|---|

@@ -7,9 +7,9 @@ release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Use, Proactive Service Experience Workflows, Product Support for Technology]
+breadcrumb: [Use, Proactive Service Experience Workflows]
 ---
 
 # About escalating incidents
@@ -41,7 +41,7 @@ Based on the defined conditions, such as current stage, category, and sub-catego
 
 \[Omitted image "psew-incident-dec-table.png"\] Alt text: Incident Escalation Policy decision table to configure incident escalation results in Service Operations Workspace
 
-The decision table is provided with the Proactive Service Experience Workflows application. You can modify the conditions that have been defined, and the results to suit your requirements. For more details on updating decision tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/decision-table.md).
+The decision table is provided with the Proactive Service Experience Workflows application. You can modify the conditions that have been defined, and the results to suit your requirements. For more details on updating decision tables, see .
 
 When an incident is escalated, the status of the Needs attention field is updated to **True**. The status can be changed to **False** by the owner of the Assignment Group field.
 

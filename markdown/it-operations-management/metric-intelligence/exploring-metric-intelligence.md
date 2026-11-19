@@ -7,7 +7,7 @@ release: zurich
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Metric Intelligence, IT Operations Management]
 ---
@@ -79,7 +79,7 @@ Monitor your system’s health, performance, and availability through automated 
 
 </td><td>
 
-[Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-monitoring-landing-page.md)
+[Choose and configure metrics to monitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/configure-metric-monitors.md)
 
 </td><td>
 

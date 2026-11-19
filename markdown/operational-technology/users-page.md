@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/users-page.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Users page
@@ -60,17 +60,4 @@ When creating user accounts, you can assign the following roles.
 |User|Can access the Discovery Console for OT with limited permissions.|
 
 **Note:** For more information, see [Set up a Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/users-entra-id-setup.md) next.
-
--   **[Set up a Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/users-entra-id-setup.md)**  
-This section describes how a Discovery Console for OT user can set up an **Microsoft Entra ID** integration.
--   **[Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/create-user-ot-console.md)**  
-Create a user account that can access the Discovery Console for OT.
--   **[Edit a user's information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/edit-user-information.md)**  
-Edit a User's information and keep the user account up to date.
--   **[Force a password reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/reset-users-password.md)**  
-Force a user to reset their password.
--   **[Deactivate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/remove-user.md)**  
-Deactivating a user verifies that they can't access the Discovery Console for OT.
-
-**Parent Topic:**[Use the Discovery Console for OT pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/using-discovery-console.md)
 

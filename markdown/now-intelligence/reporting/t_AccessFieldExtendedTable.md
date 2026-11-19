@@ -7,10 +7,10 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-20"
 reading_time_minutes: 4
 keywords: [related tables, extended tables, dot-walking]
-breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Report on extended tables
@@ -19,13 +19,13 @@ Learn how to include fields from tables that extend the Task table in a single r
 
 ## Before you begin
 
-Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
-
-To include the columns in the report that are unique to the extended tables, a user with the admin role must enable a system property \[glide.ui.list.allow\_extended\_fields\]:
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To include the columns in the report that are unique to the extended tables, a user with the admin role must enable a system property \[glide.ui.list.allow\_extended\_fields\]:
 
 1.  Navigate to **System Properties** &gt; **UI Properties**.
 2.  Enable the property **Allow base table lists \(task, cmdb\_ci, and so on\) to include extended table fields \(incident\_state, os\_version, and the like\), and allow filtering on extended table fields** \(glide.ui.list.allow\_extended\_fields\).
-3.  Select **Save** at the bottom of the page.
+3.  Click **Save** at the bottom of the page.
+
+Role required: report\_admin.
 
 ## About this task
 
@@ -39,10 +39,10 @@ The video shows how to create a report with data from multiple tables using the 
 
 ## Procedure
 
-1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
+1.  Perform one of the following actions:
 
-    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
-
+    -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
+    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Core UI artifacts** &gt; **Reports** and select **New**.
 2.  On the Data tab, name the report `Active Incidents and Problems of Priority 1 or 2`, select the Source type Table, and select the table Task \[task\].
 
     \[Omitted image "report-ext-tables-data.png"\] Alt text: Report on extended tables in Report Designer, Data tab, with report name Active Incidents and Problems of Priority 1 or 2, Source type=Table, and Table=Task
@@ -91,12 +91,12 @@ Watch this five-minute video to learn how to use dot walking to include data fro
 
 Dot-walking provides access to fields on extended, or related, tables, enabling you to report on fields from those tables.
 
-When creating or editing a report, you can access references on extended tables from the Group by/Stack by, column/row, or Trend by fields on the Configure tab. The Add Sort option also enables you to configure the sort order of applicable reference fields on extended tables. Tables that reference other tables are denoted with an arrow \(\[Omitted image "extendedTableArrow.png"\] Alt text:\) icon.
+When creating or editing a report, you can access references on extended tables from the Group by/Stack by, column/row, or Trend by fields on the Configure tab. The Add Sort option also enables you to configure the sort order of applicable reference fields on extended tables. Tables that reference other tables are denoted with an arrow \(\[Omitted image "extendedTableArrow.png"\] Alt text: Show extended table fields arrow\) icon.
 
 Dot-walking references a field by building a chain of field names separated by dots \(periods\). For example, **incident.assigned\_to.company** references the company of the user assigned to an incident. The recommended limit for chain length is three levels.
 
 1.  In a report on the incident table, select **Additional Group By** on the Configure tab.
-2.  Select Assigned to \[+\] and then the structure icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text:\).
+2.  Select Assigned to \[+\] and then the structure icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Report structure icon\).
 
     You now see the related fields in the user table.
 

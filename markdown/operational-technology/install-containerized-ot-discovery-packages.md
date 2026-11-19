@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/install-containerized-ot-discovery-packages.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-01"
 reading_time_minutes: 1
 breadcrumb: [Air-gapped networks and OT Discovery installation, Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -84,6 +84,4 @@ To help meet the air-gapped challenge, ServiceNow provides containerized version
     
     ```
 
-
-**Parent Topic:**[Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/air-gapped-networks-installation.md)
 

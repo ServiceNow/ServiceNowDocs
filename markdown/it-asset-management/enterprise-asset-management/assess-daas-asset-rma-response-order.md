@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-10-23"
 reading_time_minutes: 3
-breadcrumb: [Completing an RMA response order, Managing RMA response orders for defective DaaS assets, Enterprise Asset Management for Providers, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
+breadcrumb: [Completing an RMA response order, Managing RMA response orders for defective DaaS assets, Enterprise Asset Management for Providers, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Complete the RMA assessment task for a defective Device as a Service DaaS asset
@@ -26,15 +26,15 @@ Role required: sn\_eam\_provider.provider\_asset\_technician
 
 2.  Open the Asset tasks list.
 
-<table id="choicetable_lxc_pcp_bhc"><thead><tr><th align="left" id="d328278e78">
+<table id="choicetable_lxc_pcp_bhc"><thead><tr><th align="left" id="d313153e78">
 
 Navigation option
 
-</th><th align="left" id="d328278e81">
+</th><th align="left" id="d313153e81">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d328278e87">
+</th></tr></thead><tbody><tr><td id="d313153e87">
 
 **Provider RMA response order**
 
@@ -47,7 +47,7 @@ Procedure
 5.  On the RMA response order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d328278e129">
+</td></tr><tr><td id="d313153e129">
 
 **Provider RMA response order line**
 
@@ -58,7 +58,7 @@ Procedure
 3.  On the RMA response order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d328278e162">
+</td></tr><tr><td id="d313153e162">
 
 **Provider asset tasks**
 

@@ -1,20 +1,20 @@
 ---
 title: JSON Web token grant workflow
-description: Configuring an OAuth JSON Web Token \(JWT\) bearer grant secures token-based authentication without user interaction.
+description: Use this flow when a client application needs secure, unattended access to ServiceNow resources, either as itself or on behalf of a user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/using-json-web-token-grant.html
 release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [JWT Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [JWT Grant, Inbound Integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # JSON Web token grant workflow
 
-Configuring an OAuth JSON Web Token \(JWT\) bearer grant secures token-based authentication without user interaction.
+Use this flow when a client application needs secure, unattended access to ServiceNow resources, either as itself or on behalf of a user.
 
 ## Before you begin
 

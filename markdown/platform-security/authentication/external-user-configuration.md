@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [Self-registration to ServiceNow instance, Authentication, Access Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 5
+breadcrumb: [Self-register to ServiceNow instance, Authentication, Access Management]
 ---
 
 # Configure a user registration configuration for external users
@@ -18,12 +18,12 @@ Create a user registration configuration record to bootstrap the onboarding proc
 
 ## Before you begin
 
--   Role required: external\_user\_self\_registration\_admin
+-   Role required: admin
 -   [Activate External User Self-Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/external-user-registration-plugin.md)
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **External User Self-Registration** &gt; **User Registration Configurations** and select **New**.
+1.  Navigate to **All** &gt; **External User Self-Registration** &gt; **User Registration Configurations** and click **New**.
 
 2.  On the form, fill in the fields.
 
@@ -49,7 +49,7 @@ Roles assigned to provisioned users
 
 </td><td>
 
-Roles assigned to the provisioned users. The specified roles have to extend or contain the `snc_external` role. The specified role can also be `snc_external` role. For external users, each role must have an `snc_external` to notate an external user. If you have pre-configured roles, the roles should be accessible when you unlock the roles and search for users.
+Roles assigned to the provisioned users. The specified roles have to extend or contains the `snc_external` role. The specified role can also be `snc_external` role. For external users, each role must have an `snc_external` to notate an external user. If you have pre-configured roles, the roles should be accessible when you unlock the roles and search for users.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Enable CAPTCHA
 Option to add a CAPTCHA to the registration form. The default CAPTCHA provider is Google reCAPTCHA.**Note:** To enable CAPTCHA for user registration, follow the steps in [Configure Google reCAPTCHA for external user self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/configure-recaptcha-sp.md).
 
 </td></tr></tbody>
-</table>3.  Select **Submit**.
+</table>3.  Click **Submit**.
 
     A user registration configuration with the default settings is created.
 
@@ -110,9 +110,9 @@ Option to add a CAPTCHA to the registration form. The default CAPTCHA provider i
 
     |Column|Description|
     |------|-----------|
-    |Display in Registration Form|Set any field to display as `True`.|
+    |Display in Registration Form|Set any field you want to display as `True`.|
     |Order|Set an order number to display fields on your form.|
-    |Mandatory|Set any field to make it mandatory as `True`.|
+    |Mandatory|Set any field you want to make it mandatory as `True`.|
     |Validation only field|Set any field you want to use only for validation. For example, registration code.|
 
     You can choose to display the default form fields or you can add custom form fields to the Registration Form. For more information, see [Default registration form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/default-reg-form-fields.md).
@@ -145,7 +145,7 @@ User verification flow
 
 </td><td>
 
-The subflow used to verify the identity of the user. The subflow triggers only when you enable user verification.The **External User Verification** subflow is available by default. You can create a copy of the default subflow in Workflow Studio and modify it according to your requirements. For more information, see[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md) .
+The subflow used to verify the identity of the user. The subflow triggers only when you enable user verification.The **External User Verification** subflow is available by default. You can create a copy of the default subflow in Workflow Studio and modify it according to your requirements. For more information, see .
 
  **Note:** To preview the **External User Verification** subflow in a new tab use the following shortcuts:
 
@@ -166,7 +166,7 @@ The number of hours after which an activation link expires. The default value is
 
 6.  Configure the **Transformation** tab to map self-registered users and activated users.
 
-    There are two transformation maps \(u\_reg\_xmap\_\[number\]\) which automatically map the registered users from the User Acti Req \[number\] table to the Self Registered User \[number\] table. You can create a copy of these default transformation maps and modify the map according to your requirements. For more information, see [Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/c_CreatingNewTransformMaps.md).
+    There are two transformation maps \(u\_reg\_xmap\_\[number\]\) which automatically map the registered users from the User Acti Req \[number\] table to the Self Registered User \[number\] table. You can create a copy of these default transformation maps and modify the map according to your requirements. For more information, see Transform maps.
 
     \[Omitted image "transf\_tab\_eu\_self-reg.png"\] Alt text: Transformation tab of User Registration Configuration
 
@@ -194,5 +194,7 @@ The number of hours after which an activation link expires. The default value is
     |Registration link label|The button name used for registration from the service portal. The default value is Register.|
 
     While making changes or after completing all changes in the user registration configuration, you can use the **Preview Registration Form** button to preview changes in the registration form.
+
+    \[Omitted image "preview\_registration\_form.png"\] Alt text: Registration Form Preview
 
 

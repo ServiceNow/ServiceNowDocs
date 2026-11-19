@@ -7,9 +7,9 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
+breadcrumb: [Create and manage enterprise asset inventory, Manage enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
 ---
 
 # Create a stockroom type for enterprise assets
@@ -26,15 +26,11 @@ Stockroom types are categories of stockrooms. For detailed information on stockr
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
+1.  Navigate to **Enterprise Asset Workspace** &gt; **Inventory** &gt; **Stockroom types**.
 
-2.  From the Enterprise Asset Workspace, open the Admin center view.
+2.  Select **New**.
 
-3.  In the navigation panel of the Admin center view, select **Stockroom types**.
-
-4.  Select **New**.
-
-5.  On the form, fill in the details.
+3.  On the form, fill in the details.
 
     |Field|Description|
     |-----|-----------|
@@ -45,8 +41,10 @@ Stockroom types are categories of stockrooms. For detailed information on stockr
     |Shipment required|Option that determines if stockrooms of this type require shipment by default.|
     |External stockroom|Indicates if stockrooms of this type are managed internally \(check box cleared\) or managed externally by a third party \(check box selected\).|
 
-6.  Select **Save**.
+4.  Select **Save**.
 
     The newly created stockroom type appears in the **Stockroom types** tab.
 
+
+**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/install-discovery-console-ot.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -46,7 +46,7 @@ Important when setting up your VM environment:
 
 4.  Select **Configure** and the **Downloads** page opens.
 
-    \[Omitted image "downloads-page-containerized2.png"\] Alt text: Discovery Downloads page
+    \[Omitted image "image.downloads-page-containerized2"\] Alt text: Discovery Downloads page
 
     **Note:** For downloading and installing the containerized Console and Collector packages, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/air-gapped-networks-installation.md).
 
@@ -123,6 +123,4 @@ Important when setting up your VM environment:
 The installation for the Discovery Console for OT is complete. Before you install the Discovery Sensor for OT package, install the Discovery Console for OT certificate. For more information, see [Generate a certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/generate-new-certificate-discovery-for-ot.md).
 
 **Note:** If you encounter any errors, [Contact Customer Service and Support.](https://support.servicenow.com/now?draw=case)
-
-**Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/configure-ot-discovery-console.md)
 

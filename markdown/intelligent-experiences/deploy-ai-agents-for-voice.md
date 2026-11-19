@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/deploy-ai-agents-for-voice.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
 
 # Deploy AI voice agents
@@ -30,9 +30,7 @@ When you create or edit a voice assistant, you configure communication channels 
 **Note:** AI voice agents support the following:
 
 -   **LLMs \(large language model\):** Azure OpenAI, Google Gemini, and AWS Claude. Now LLM Service is also supported but limited to English language only.
--   **Telephony providers:** Twilio \(WebSocket\), Genesys \(WebSocket and SIP\), Amazon Connect \(PSTN\), 3CLogic \(WebSocket\), Five9 \(SIP\), NICE CXone \(SIP\), and Custom \(SIP\). Mobile and web applications are supported through the Web Real-Time Communication \(WebRTC\) channel.
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
+-   **Telephony providers:** Twilio \(WebSocket\), Genesys \(WebSocket and SIP\), Amazon Connect \(PSTN\), 3CLogic \(WebSocket\), Five9 \(SIP\), and NICE CXone \(SIP\). Mobile and web applications are supported through the Web Real-Time Communication \(WebRTC\) channel.
 
 ## Deploying AI voice agents
 

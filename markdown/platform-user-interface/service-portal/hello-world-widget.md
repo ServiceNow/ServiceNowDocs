@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -32,7 +32,7 @@ Hello World 2 includes an example of how the server script can be used as well.
 
 \[Omitted image "HelloWorld3.png"\] Alt text: Hello World 3 widget, showing the HTML, client, server, and link function scripts in the IDE
 
-For more information on Service Portal APIs, see the [GlideSPSriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md).
+For more information on Service Portal APIs, see the GlideSPSriptable API.
 
 **Parent Topic:**[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/sp-example-widgets.md)
 

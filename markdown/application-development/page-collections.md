@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 6
 keywords: [Page collections, The \_variants/ convention, Declaring a candidate, How resolution works, Switching between siblings, Schema, How a page becomes sys\_aix\_page in general, See also]
-breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Build with Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Lux Page variants
@@ -134,5 +134,5 @@ Outside the variants feature specifically, every page under `pages/` maps to a `
 
 [Create a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/create-a-page.md)
 
-[metadata-and-configuration]
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/metadata-and-configuration.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/metadata-and-configuration.md)
 

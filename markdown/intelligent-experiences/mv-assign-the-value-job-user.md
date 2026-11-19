@@ -1,18 +1,18 @@
 ---
 title: Assign the value job user
-description: Assign an active user to run value jobs so that AI Control Tower can calculate value. When the assigned user is inactive, value calculation stops.
+description: Assign an active user to run value jobs so that Control Tower can calculate value. When the assigned user is inactive, value calculation stops.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mv-assign-the-value-job-user.html
 release: zurich
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Value, Configure, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Assign the value job user
 
-Assign an active user to run value jobs so that AI Control Tower can calculate value. When the assigned user is inactive, value calculation stops.
+Assign an active user to run value jobs so that Control Tower can calculate value. When the assigned user is inactive, value calculation stops.
 
 ## Before you begin
 
@@ -26,15 +26,17 @@ If the user becomes inactive, the value job will not run, and the calculation of
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home**.
 
 2.  Navigate to **Settings** &gt; **Rules and templates** &gt; **Templates** &gt; **Value controls**.
+
+    \[Omitted image "mv-assign-the-value-job-user.png"\] Alt text: Value controls tab with the value.job.user panel open, showing its description and a Value field for selecting the user who runs value calculation jobs.
 
 3.  Select **value.job.user**.
 
 4.  From the **Value** list, select a user.
 
-    You can select any active user, because the AI Control Tower uses the user to run the job rather than to check privileges.
+    You can select any active user, because Control Tower uses the user to run the job rather than to check privileges.
 
 5.  Select **Update**.
 

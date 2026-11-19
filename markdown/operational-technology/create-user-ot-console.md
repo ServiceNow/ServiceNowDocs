@@ -1,39 +1,37 @@
 ---
-title: Create a user
-description: Create a user account that can access the Discovery Console for OT.
+title: Creating a user
+description: Create a User account that can access the Discovery Console for OT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/create-user-ot-console.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Users page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Users page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Create a user
+# Creating a user
 
-Create a user account that can access the Discovery Console for OT.
+Create a User account that can access the Discovery Console for OT.
 
 ## Before you begin
 
-Role required: user
+Role required: admin
 
 ## Procedure
 
-1.  Navigate to the Users page.
+1.  Navigate to the **Users** page.
 
-2.  Select the add icon \[Omitted image "add-icon-msi.jpg"\] Alt text:.
+2.  Select the **Add** \(\[Omitted image "add-icon-msi.jpg"\] Alt text: Add icon\) icon.
 
 3.  On the form, fill in the following fields.
 
     |Field|Description|
     |-----|-----------|
     |Username|Username for the user account.|
-    |Email|Email for the user's account.|
+    |Email|Email for the user account.|
     |Password|Secure password for the user account.|
     |Confirm Password|Retype the password.|
-    |Roles|Roles that the user account needs. If needed, you can select more than one role.|
+    |Roles|Select the roles that the user account needs. If needed, you can select more than one role.|
 
-
-**Parent Topic:**[Users page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/users-page.md)
 

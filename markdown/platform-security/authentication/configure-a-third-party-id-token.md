@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Third Party Token Grant, Inbound integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Third Party Token Grant, Inbound Integrations, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure a third party ID token
@@ -18,7 +18,7 @@ Configure a third-party ID token to enable secure authentication by verifying us
 
 ## Before you begin
 
-Role required: `oauth_admin, mi_admin, admin`
+Role required: `admin`
 
 ## Procedure
 

@@ -7,9 +7,9 @@ release: zurich
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 13
-breadcrumb: [Integrate with SSO providers, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Integrate with SSO providers, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
 # Integrating with Microsoft Entra ID
@@ -139,7 +139,7 @@ Create a Microsoft Entra ID integration profile in your ServiceNow instance.
 
 To create a Microsoft Entra ID integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator
+ServiceNow Role required: sam\_integrator or admin
 
 **Important:** You must select the **Microsoft Entra ID Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -153,15 +153,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft E
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d57341e584">
+<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d54742e584">
 
 Interface
 
-</th><th align="left" id="d57341e587">
+</th><th align="left" id="d54742e587">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d57341e593">
+</th></tr></thead><tbody><tr><td id="d54742e593">
 
 **Core UI**
 
@@ -172,7 +172,7 @@ Action
 3.  Select **Microsoft Entra ID Integration Profile**.
 
 
-</td></tr><tr><td id="d57341e635">
+</td></tr><tr><td id="d54742e635">
 
 **Software Asset Workspace**
 
@@ -314,7 +314,7 @@ Connect a Single Sign-On \(SSO\) app to view all users and groups with access to
 
 ### Before you begin
 
-Role required: sam\_integrator
+Role required: sam\_integrator or admin
 
 ### About this task
 

@@ -41,3 +41,5 @@ Review the fixes that Fix Intelligence for SEM has identified, and see the findi
 -   **[Group findings by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/group-findings-by-fix.md)**  
 Use a remediation task rule to group the findings that share a fix, so your team can remediate them together as a single unit of work.
 
+**Parent Topic:**[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/fix-intel-for-usem-landing.md)
+

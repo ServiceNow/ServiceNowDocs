@@ -1,5 +1,5 @@
 ---
-title: Solving issues on translated Core UI dashboards
+title: Solving issues on translated dashboards
 description: Users can only find translated dashboards under certain configurations. You can translate the dashboard name to make it searchable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/solving-issues-translated-dashboards.html
@@ -7,12 +7,12 @@ release: zurich
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Solving issues on translated Core UI dashboards
+# Solving issues on translated dashboards
 
 Users can only find translated dashboards under certain configurations. You can translate the dashboard name to make it searchable.
 

@@ -7,9 +7,9 @@ release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Signature workflow for a contract request, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Signature workflow for a contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Modify signatories
@@ -49,15 +49,15 @@ Use the **Modify signatories** option to pause the signature process when you wa
 
 6.  Modify signatories.
 
-<table id="choicetable_pq3_jkd_wfc"><thead><tr><th align="left" id="d182863e160">
+<table id="choicetable_pq3_jkd_wfc"><thead><tr><th align="left" id="d180332e160">
 
 Action
 
-</th><th align="left" id="d182863e163">
+</th><th align="left" id="d180332e163">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d182863e169">
+</th></tr></thead><tbody><tr><td id="d180332e169">
 
 **Add signatories**
 
@@ -69,7 +69,7 @@ Steps
 4.  Select **Add**.
  **Note:** The **Add** option is not available for self-served contract requests using contract templates with participant-based signatories.
 
-</td></tr><tr><td id="d182863e211">
+</td></tr><tr><td id="d180332e211">
 
 **Edit signatory**
 
@@ -83,27 +83,28 @@ Signatory details page is displayed.
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d182863e237">
+</td></tr><tr><td id="d180332e237">
 
 **Reorder signatories**
 
 </td><td>
 
-1.  In the **Signing Order** column, select the order value for a signatory.
-2.  Enter the signing order number.
+1.  Select **Reorder**.
 
-To group two or more signatories to sign at the same time, assign them the same signing order.
+Reorder pop-up is displayed.
 
-3.  Select outside the field, or select **Save**.
+2.  For the signatory you want to reorder, select and hold the Reorder icon \(\[Omitted image "cmpro-reorder-icon.png"\] Alt text: Reorder icon\).
+3.  Drag the signatory to the required order.
+4.  Select **Reorder**.
 
 
-</td></tr><tr><td id="d182863e266">
+</td></tr><tr><td id="d180332e275">
 
 **Remove signatories**
 
 </td><td>
 
-1.  Select the signatory by checking the corresponding check box.
+1.  Select the signatory by checking the corresponding checkbox.
 2.  Select **Remove**.
  **Note:** The **Remove** option is not available for self-served contract requests using contract templates with participant-based signatories.
 

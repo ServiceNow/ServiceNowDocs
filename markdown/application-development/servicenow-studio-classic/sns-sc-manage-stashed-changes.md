@@ -1,26 +1,26 @@
 ---
 title: Manage stashed changes
-description: Apply or delete stashed changes in ServiceNow Studio to restore saved work or remove stashes that are no longer needed.
+description: App developers can apply or delete stashed changes from ServiceNow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/servicenow-studio-classic/sns-sc-manage-stashed-changes.html
 release: zurich
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Work with changes in Git, Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Work with changes in Git, Source control in ServiceNow Studio, Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Manage stashed changes
 
-Apply or delete stashed changes in ServiceNow Studio to restore saved work or remove stashes that are no longer needed.
+App developers can apply or delete stashed changes from ServiceNow Studio.
 
 ## Before you begin
 
 [Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 
-At least one stashed change must exist.
+You must have one or more stashed changes.
 
 Role required: admin
 
@@ -34,21 +34,17 @@ Role required: admin
 
 4.  Select **Source control** &gt; **Manage stashes**.
 
-5.  Select the action next to the stash to manage.
+5.  Select the action next to the stash you want to manage.
 
     |Option|Description|
     |------|-----------|
     |**Apply**|Commits the stashed changes to the application and checks for conflicts.|
-    |**Delete**|Permanently removes the stashed changes.|
+    |**Delete**|Removes the stashed changes.|
 
-6.  After applying stashed changes, continue normal pull and push operations to add the changes to the Git repository.
+6.  If you apply the stashed changes to your application, continue normal pull/push operations to add your changes to the Git repository.
 
     For more information, see [Pull changes from a repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-sc-pull-changes-from-repository.md).
 
-
-## Result
-
-The selected action is applied to the stash. If changes were applied, continue with pull and push operations to update the Git repository.
 
 **Parent Topic:**[Work with changes in Git](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/sns-sc-work-with-changes-in-git.md)
 

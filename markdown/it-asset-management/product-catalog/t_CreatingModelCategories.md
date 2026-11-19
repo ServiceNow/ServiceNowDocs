@@ -7,9 +7,9 @@ release: zurich
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Model categories, Product Catalog, Common applications, Asset Management]
+breadcrumb: [Model categories, Product Catalog, IT Asset Management]
 ---
 
 # Create model categories
@@ -18,7 +18,7 @@ You can add custom model categories for your instance.
 
 ## Before you begin
 
-Role required: model\_manager
+Role required: category\_manager
 
 ## About this task
 

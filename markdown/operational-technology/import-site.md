@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/operational-technology/import-site.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sites page, Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Sites page, Using the Discovery Console, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Import Sites
@@ -27,11 +27,11 @@ Role required: admin
 
 4.  Select **Import Sites**.
 
-    \[Omitted image "sites-action-menu.png"\] Alt text: Sites Action menu
+    \[Omitted image "image.sites-action-menu"\] Alt text: Sites Action menu
 
 5.  In the Import Sites window, choose the type of site and the file that you want to import, and select **Save**.
 
-    \[Omitted image "import-sites.png"\] Alt text: Import Sites
+    \[Omitted image "image.import-sites"\] Alt text: Import Sites
 
 6.  Export Sites
 7.  Select the **Actions** button.
@@ -45,7 +45,5 @@ For the exported site, the Sites information is downloaded in the CSV format.
 
 **Note:** The CVS file includes an Ignored IPs column when applicable to the Site.
 
-\[Omitted image "export-ignore.png"\] Alt text: Export CVS
-
-**Parent Topic:**[Sites page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/sites-page.md)
+\[Omitted image "image.export-ignore"\] Alt text: Export CVS
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/quote-get-product-offer.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using product offering recommendations, Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -26,7 +26,7 @@ When you're working on a draft quote and adding or updating products, product of
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All** and select the quote that you want to work on.
 

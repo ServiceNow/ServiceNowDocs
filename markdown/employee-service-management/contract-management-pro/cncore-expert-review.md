@@ -1,22 +1,21 @@
 ---
-title: Manual internal review
-description: Assign contract documents to internal subject matter experts for detailed manual review. Experts can add review tasks, provide feedback, request additional information, and validate contract terms.
+title: Internal review overview
+description: Get your contract document reviewed by internal subject matter experts who have the expertise you need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/contract-management-pro/cncore-expert-review.html
 release: zurich
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Expert review, Manual review, Internal review, Contract review workflow, Subject matter expert review]
 audience: [sn\_cm\_core.contract\_fulfiller, sn\_cm\_core.contract\_reviewer]
-breadcrumb: [Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Manual internal review
+# Internal review overview
 
-Assign contract documents to internal subject matter experts for detailed manual review. Experts can add review tasks, provide feedback, request additional information, and validate contract terms.
+Get your contract document reviewed by internal subject matter experts who have the expertise you need.
 
 A workflow for getting content reviewed by subject matter experts might progress as follows:
 
@@ -47,5 +46,5 @@ As a contract fulfiller, share information requested by the reviewer to proceed 
 -   **[Cancel an internal review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-close-review-task.md)**  
 As a contract fulfiller, cancel a review task irrespective of its state.
 
-**Parent Topic:**[Review contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-review-methods-land.md)
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

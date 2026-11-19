@@ -1,18 +1,18 @@
 ---
-title: AI glossary
-description: Learn about the terms and concepts used on the ServiceNow AI Platform.
+title: Now Assist and Agentic AI glossary
+description: Learn about the terms and concepts used in Now Assist and Now Assist AI agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-glossary.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 7
-breadcrumb: [Implementing AI, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
-# AI glossary
+# Now Assist and Agentic AI glossary
 
-Learn about the terms and concepts used on the ServiceNow AI Platform.
+Learn about the terms and concepts used in Now Assist and Now Assist AI agents.
 
 ## AI Admin Hub
 
@@ -54,7 +54,7 @@ The AI agent is a virtual worker that performs specific tasks leveraging tools f
 
 ## AI compliance
 
-AI compliance refers to the adherence to regulatory requirements, standards, and guidelines governing the development, deployment, and use of artificial intelligence systems. It involves ensuring that AI systems are designed and implemented in a way that meets legal, ethical, and organizational standards. This includes addressing issues related to data privacy, bias, transparency, and accountability. You can manage it through audit trails, model life cycle management, and data masking by using AI Control Tower in ServiceNow AI Platform.
+AI compliance refers to the adherence to regulatory requirements, standards, and guidelines governing the development, deployment, and use of artificial intelligence systems. It involves ensuring that AI systems are designed and implemented in a way that meets legal, ethical, and organizational standards. This includes addressing issues related to data privacy, bias, transparency, and accountability. You can manage it through audit trails, model life cycle management, and data masking by using Control Tower in ServiceNow AI Platform.
 
 ## AI Control Tower
 
@@ -66,7 +66,7 @@ AI governance refers to the set of policies, procedures, and standards that guid
 
 ## AI steward
 
-An AI steward within ServiceNow AI Platform is a governance role responsible for overseeing the life cycle of AI assets, including models, data sets, and prompts. You can use AI stewards in AI Control Tower to coordinate governance activities between legal, security, compliance, and innovation teams for the responsible deployment of AI agents, skills, and models across the platform.
+An AI steward within ServiceNow AI Platform is a governance role responsible for overseeing the life cycle of AI assets, including models, data sets, and prompts. You can use AI stewards in Control Tower to coordinate governance activities between legal, security, compliance, and innovation teams for the responsible deployment of AI agents, skills, and models across the platform.
 
 ## citation
 
@@ -137,6 +137,12 @@ Q&amp;A Genius Results in ServiceNow Otto provide users with concise, actionable
 ## Retrieval Augmented Generation
 
 Retrieval Augmented Generation is a generative AI technique that enhances large language model \(LLM\) outputs by retrieving relevant enterprise content, such as knowledge articles or records and using it as context to generate more accurate and actionable responses. Within ServiceNow, RAG is implemented in products like ServiceNow Otto for AI Search, where it powers Genius Results cards by combining AI Search with generative responses. It is also configurable in AI Agent Studio, allowing admins to define RAG based tools that retrieve external or internal data to support autonomous or supervised agentic workflows.
+
+## Now Assist
+
+Refers to generative AI experiences on the ServiceNow AI Platform. With Now Assist, you can improve productivity and efficiency in your organization with better self-service, faster answers and recommended actions, and empower users to search more effectively.
+
+To learn more about Now Assist, see [Exploring ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm-exploring.md).
 
 ## ServiceNow Otto context menu
 

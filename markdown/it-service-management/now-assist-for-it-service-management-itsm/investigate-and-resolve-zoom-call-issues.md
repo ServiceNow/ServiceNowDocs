@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -20,15 +20,15 @@ Investigate Zoom call performance with ServiceNow Otto for Zoom Call Issues to i
 
 Role required: sn\_dex.user
 
--   DEX for Zoom must be configured. For more information, see .
--   Advanced monitoring must be enabled to capture Zoom call telemetry. For more information, see .
--   ServiceNow Otto for DEX must be enabled to access AI-generated Zoom call diagnostics.
+-   Ensure DEX for Zoom is configured. For more information, see .
+-   Ensure that advanced monitoring is enabled to capture Zoom call telemetry. For more information, see .
+-   Enable ServiceNow Otto for DEX to access AI-generated Zoom call diagnostics.
 
 **Note:** This AI skill requires a minimum platform version of Zurich patch 7.
 
 ## About this task
 
-ServiceNow Otto for Zoom Call Issues processes Zoom telemetry data including audio, video, jitter, latency, and packet loss,along with device and application data to identify root causes. It then provides remedial actions, self-help instructions, and relevant knowledge articles to address the identified issues.
+ServiceNow Otto for Zoom Call Issues analyzes Zoom telemetry such as audio, video, jitter, latency, packet loss, or other issues along with device and application data to identify root causes. It reviews supporting evidence and provides resolutions such as remedial actions, self-help instructions, and relevant knowledge articles to resolve the Zoom call issues.
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
@@ -50,7 +50,7 @@ ServiceNow Otto for Zoom Call Issues processes Zoom telemetry data including aud
 
     **Note:** The date range is limited to a maximum of 48 hours within the past 30 days.
 
-    The Zoom calls appear in cards categorized as: **All calls**, **Bad calls**, **Poor calls**, **Fair calls**, and **Good calls**. By selecting one of these cards, you can see the filtered data in Summary and Call quality metrics.
+    The zoom calls appear in cards categorized as: **All calls**, **Bad calls**, **Poor calls**, **Fair calls**, and **Good calls**. By selecting one of these cards, you can see the filtered data in Summary and Call quality metrics. You can also use Additional filters listed below the cards.
 
     **Tip:** Apply **Additional filters** \(Device type, Version, Network type, and Location\) to narrow down the results and quickly find call details.
 

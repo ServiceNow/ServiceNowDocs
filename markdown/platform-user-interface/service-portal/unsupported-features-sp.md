@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Exploring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -31,7 +31,7 @@ Domain separation at Levels 1-3. However, Service Portal does include support fo
 -   UI actions marked as **Client**
 -   Nested container Catalog variables
 -   Survey wizards
--   [OpenFrame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_OpenFrameOverview.md)
+-   OpenFrame
 
 -   **[Service Catalog forms in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/sc-forms-in-sp.md)**  
 Service Catalog forms are rendered within Service Portal widgets in a two-column layout. Complex forms may not display as expected.

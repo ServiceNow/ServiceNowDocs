@@ -7,7 +7,7 @@ release: zurich
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Authoring a knowledge article in Agent Workspace, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -93,7 +93,7 @@ The mapped catalog items are listed in the Related Items section on the Knowledg
 **Related topics**  
 
 
-[Edit a knowledge article in Agent Workspace]()
+[Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/knowledge-management/edit-article-workspace.md)
 
 [Service Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-catalog/c_IntroductionToCatalogItems.md)
 

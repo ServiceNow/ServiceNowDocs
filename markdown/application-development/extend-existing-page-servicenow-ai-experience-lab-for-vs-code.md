@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Extend an existing experience, Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Extend an existing experience, Use, ServiceNow AI Experience Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Extend an existing page
@@ -22,7 +22,7 @@ The following procedure describes how to complete this task manually. You can al
 
 Role required: none
 
-The ServiceNow Lux Lab for VS Code extension requires the following:
+The ServiceNow® AI Experience Lab for VS Code extension requires the following:
 
 <table id="table_imf_rfb_dkc"><thead><tr><th>
 
@@ -100,7 +100,7 @@ ServiceNow instance
 </td></tr></tbody>
 </table>## Procedure
 
-1.  In the ServiceNow Lux Lab for VS Code extension, open an experience that extends an existing experience.
+1.  In the ServiceNow® AI Experience Lab for VS Code extension, open an experience that extends an existing experience.
 
     For more information about extending existing experiences, see [Extend an existing experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/extending-existing-experience-servicenow-ai-experience-lab-for-vs-code.md).
 
@@ -114,12 +114,12 @@ ServiceNow instance
 
     The list of pages that appear is based on the instance that you're connected to and which pages can be extended. Pages that appear with the circle slash icon \[Omitted image "circle-slash-icon.png"\] Alt text:have already been extended.
 
-    After selecting the page that you want to extend, ServiceNow Lux Lab for VS Code extension loads the folder and page file.
+    After selecting the page that you want to extend, ServiceNow® AI Experience Lab for VS Code extension loads the folder and page file.
 
 
 ## Result
 
-Your page extension is created. You can now add elements to the page and preview as needed. Certain pages aren't previewable in the ServiceNow Lux Lab for VS Code extension and must be previewed by deploying to your instance.
+Your page extension is created. You can now add elements to the page and preview as needed. Certain pages aren't previewable in the ServiceNow® AI Experience Lab for VS Code extension and must be previewed by deploying to your instance.
 
 ## What to do next
 

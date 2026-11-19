@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by
 
 ServiceNow Discovery uses the Cloudian Storage discovery pattern to find Cloudian servers and related disks. Discovering these resources requires installing the Patterns application from the ServiceNow Store.
 
-Discovery uses Cloudian Storage System patterns to find Cloudian Storage system data. Discovering these resources requires installing the Discovery and Service Mapping Patterns and the CMDB CI Class Models applications from the ServiceNow Store, as each application is dependent on the other.
+Discovery uses Cloudian Storage System patterns to find Cloudian Storage system data. Discovering these resources requires installing two applications from the ServiceNow Store: Discovery and Service Mapping Patterns, and CMDB CI Class Models. These applications are dependent on each other.
 
 You can use the patterns for discovering the Cloudian Storage components on the ServiceNow AI Platform using the Paris release or later.
 
@@ -28,7 +28,7 @@ Cloudian is a software-defined data storage company. Cloudian provides turnkey d
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 

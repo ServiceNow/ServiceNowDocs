@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-12"
 reading_time_minutes: 2
-breadcrumb: [Installing Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Installing Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management]
 ---
 
 # Hardware Asset Management on Product Hub
@@ -17,6 +17,8 @@ breadcrumb: [Installing Hardware Asset Management, Configure, Hardware Asset Man
 Product Hub provides a single location to install, update, and manage HAM applications and plugins.
 
 The Product Hub gives administrators a single starting point to install Hardware Asset Management and additional applications, and configure them using the Configuration Console.
+
+**Important:** Product Hub and Configuration Console are available starting from Hardware Asset Management version 16.0.0 \(Zurich Patch 12\).
 
 ## Key benefits
 
@@ -34,10 +36,10 @@ Access to Product Hub requires one of two granular roles, which a system adminis
 
 |Role|Access level|
 |----|------------|
-|ia\_admin|Full access: install, update, and manage HAM applications and plugins|
-|ia\_user|View-only access: browse Product Hub but can't install applications|
+|sn\_ia\_config.ia\_admin|Full access: install, update, and manage HAM applications and plugins|
+|sn\_ia\_config.ia\_user|View-only access: browse Product Hub but can't install applications|
 
-**Note:** System administrators have access to Product hub by default. A system administrator must grant ia\_admin or ia\_user role to other users based on the access level required.
+**Note:** System administrators have access to Product hub by default. A system administrator must grant sn\_ia\_config.ia\_admin or sn\_ia\_config.ia\_user role to other users based on the access level required.
 
 ## How it works
 
@@ -65,9 +67,4 @@ Product Hub is accessible from the Admin Home page through the **Hardware Asset 
 
     **Note:** When the HAM application is installed, Product Hub displays the **Installed**, **Not installed**, and **Updates available** tabs instead of the **Start new setup** option. The **Configure** card is also available and links to the Configuration Console, where administrators can track configuration progress. For more details, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/config-console-ham.md).
 
-
--   **[Install Hardware Asset Management from Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/install-ham-from-product-hub.md)**  
-Install the Hardware Asset Management application on your ServiceNow instance from Product Hub based on your subscription tier.
-
-**Parent Topic:**[Installing Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/installing-ham-app.md)
 

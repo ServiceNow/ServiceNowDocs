@@ -7,9 +7,9 @@ release: zurich
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Working with forms, Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
+breadcrumb: [Forms in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
 ---
 
 # Add embedded lists in Table Builder

@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Add milestones for roadmap items, Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -37,15 +37,15 @@ However, any existing milestones of the project are visible on the roadmap if yo
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d297236e139">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d282473e139">
 
 Roadmap type
 
-</th><th align="left" id="d297236e142">
+</th><th align="left" id="d282473e142">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d297236e148">
+</th></tr></thead><tbody><tr><td id="d282473e148">
 
 **Portfolio plan roadmap**
 
@@ -55,7 +55,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d297236e169">
+</td></tr><tr><td id="d282473e169">
 
 **Free-form roadmap**
 

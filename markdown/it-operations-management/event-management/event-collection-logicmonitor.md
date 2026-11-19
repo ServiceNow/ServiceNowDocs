@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -32,7 +32,7 @@ Role required: evt\_mgmt\_admin
 
 JSON formatted event messages are sent from Logicmonitor. The MID Server transforms the collected event messages by parsing them using the TransformEvents\_MidLogicmonitor script include, located here: **Event Management** &gt; **Integrations** &gt; **PushConnectors**. In the Push Connectors page, click **Logicmonitor Mid Push Connector**.
 
-The default format of the URL to push event messages from Logicmonitor to the MID Server is `http://<MID_Server_IP>:<MID_Web_Server_Port>/api/mid/em/inbound_event?Transform=TransformEvents_MidLogicmonitor`.
+The default format of the URL to push event messages from Logicmonitor to the MID Server is `http://<MID_Server_IP>:<MID_Web_Server_Port>/api/mid/em/inbound_event?Transform=TransformEvents_MidLogicMonitor`.
 
 |Variable|Description|
 |--------|-----------|
@@ -69,9 +69,9 @@ The default format of the URL to push event messages from Logicmonitor to the MI
 
     3.  Under the Stages section, select the Add icon \[Omitted image "logicmonitor-add-icon.png"\] Alt text: logicmonitor add icon to add a stage and click **Save**.
 
-    4.  When you create the new stage, select the Add icon \[Omitted image "logicmonitor-add-icon.png"\] Alt text: logicmonitor add icon again to search for the user.
+    4.  In the new stage, select the Add icon \[Omitted image "logicmonitor-add-icon.png"\] Alt text: logicmonitor add icon to search for the user.
 
-        Add the integration as the Contact Method and click **Save**.
+    5.  Add the integration as the Contact Method and click **Save**.
 
 3.  After creating the escalation chain, configure alert rules for the chain you created.
 

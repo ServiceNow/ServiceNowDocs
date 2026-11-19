@@ -1,35 +1,35 @@
 ---
-title: Technology Product Support Case playbook
-description: The Technology Product Support Case playbook provides step-by-step guidance for resolving technology cases.
+title: Product Support for Technology playbook
+description: The Product Support for Technology playbook provides step-by-step guidance for resolving technology cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook.html
 release: zurich
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 18
-breadcrumb: [Explore, Technology Product Support Case, Product Support for Technology]
+breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
 ---
 
-# Technology Product Support Case playbook
+# Product Support for Technology playbook
 
-The Technology Product Support Case playbook provides step-by-step guidance for resolving technology cases.
+The Product Support for Technology playbook provides step-by-step guidance for resolving technology cases.
 
-\[Omitted image "tech-product-support-playbook-page.png"\] Alt text: The Technology product support case playbook enables agents to focus on the contact and account information, the playbook stages and activities, and information in the contextual side panel.
+\[Omitted image "tech-product-support-playbook-page.png"\] Alt text: The Product Support for Technology playbook enables agents to focus on the contact and account information, the playbook stages and activities, and information in the contextual side panel.
 
 A playbook visualizes a workflow in a simple, task-oriented view and guides the agent through sequences of tasks.
 
 -   A stage in a playbook is a grouped sequence of activities.
 -   An activity in a stage represents an individual task for an agent to complete. Stages can also include automated activities, such as sending a notification to a customer when a stage or activity is complete.
 
-The **Technology product support process page** provides access to the playbook in CSM Configurable Workspace.
+The **Product support for technology process page** provides access to the playbook in CSM Configurable Workspace.
 
 For detailed information about the stages and activities, see [Technology product support case playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.md).
 
 ## Technology product support process page variant
 
-The Technology product support process page variant is included with the Technology Product Support Case application \(sn\_tech\_product\_support\). A page variant is a version of a page that has unique settings. This page variant includes the following settings.
+The Product support for technology process page variant is included with the Product Support for Technology application \(sn\_tech\_product\_support\). A page variant is a version of a page that has unique settings. This page variant includes the following settings.
 
 <table id="table_jcm_z3m_bbc"><thead><tr><th>
 
@@ -45,7 +45,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page variant available to the selected audience. The technology product support process page is active by default.
+Enabling the **Active** check box makes the page variant available to the selected audience. The Product support for technology process page is active by default.
 
 The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see .
 
@@ -55,7 +55,7 @@ Order
 
 </td><td>
 
-Each record page has an order which indicates the page priority. The lower the number, the higher the priority.The default order for the Technology product support process page variant is -100.
+Each record page has an order which indicates the page priority. The lower the number, the higher the priority.The default order for the Product support for technology process page variant is -100.
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ The audience determines who can see the page variant.The Technology product supp
 3.  In the Record section of the Pages and variants list, select **Technology product support process page**.
 4.  Select **Settings** at the top of the page.
 
-## Technology product support process page components
+## Product Support for Technology process page components
 
 Technology product support process page variant includes the following components.
 
@@ -109,7 +109,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/c_Tags.md).
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-user-interface/setting-record-tags-agent-workspace.md).
 
 </td></tr><tr><td>
 
@@ -173,7 +173,7 @@ Playbook
 
 </td><td>
 
-The Technology product support process page includes a horizontal playbook that guides the agent through the following stages:-   Intake
+The Product Support for Technology process page includes a horizontal playbook that guides the agent through the following stages:-   Intake
 -   Triage
 -   Troubleshoot
 -   Resolve
@@ -187,7 +187,7 @@ For more information about the playbook, see [Playbook stages and activities](ht
 
 </td><td>
 
-The contextual side panel component includes different tools that agents can use to research and resolve customer issues. The contextual side panel in the Technology product support process page includes the following tabs.-   Activity stream
+The contextual side panel component includes different tools that agents can use to research and resolve customer issues. The contextual side panel in the Product support for technology process page includes the following tabs.-   Activity stream
 -   Recommended Actions
 -   Related Items
 -   Attachments
@@ -216,7 +216,7 @@ Workspace form view
 
 </td><td>
 
-The Technology product support process page provides agents with the option to toggle between the playbook stages and activities and the record details.When viewing record details, the Technology product support process page uses the Workspace form view, which includes the following sections:
+The Product support for technology process page provides agents with the option to toggle between the playbook stages and activities and the record details.When viewing record details, the Product support for technology process page uses the Workspace form view, which includes the following sections:
 
 -   Case Details
 -   Issue Details
@@ -236,7 +236,7 @@ For more information about the fields that appear in these sections, see [Tech P
 </td></tr></tbody>
 </table>## Action bar
 
-The following actions are available on the Technology product support process page action bar. The specific actions that are available are determined by factors such as the user role, case state, and other attributes.
+The following actions are available on the Product support for technology process page action bar. The specific actions that are available are determined by factors such as the user role, case state, and other attributes.
 
 -   **Record details**: Select this icon to view the record details.
 -   **Playbook details**: Select this icon to view the playbook stages and activities.
@@ -289,7 +289,7 @@ To use the case summarization component with the Technology product support proc
 
 ## Contextual side panel component
 
-The contextual side panel component includes different tools that agents can use to research and resolve customer issues. The contextual side panel in the Technology product support process page includes the following tabs.
+The contextual side panel component includes different tools that agents can use to research and resolve customer issues. The contextual side panel in the Product support for technology process page includes the following tabs.
 
 <table id="table_orh_5rr_m1c"><thead><tr><th>
 
@@ -337,7 +337,7 @@ For more information, see .
 
 </td><td>
 
-The Related Items tab provides access the case related lists.The Technology product support playbook incorporates related list functionality into the contextual side panel. These lists appear in an accordion format that agents can expand and collapse as needed.
+The Related Items tab provides access the case related lists.The Product support for technology playbook incorporates related list functionality into the contextual side panel. These lists appear in an accordion format that agents can expand and collapse as needed.
 
 An indicator displays the number of records available in a related list. When expanded, the records in a related list are displayed in card format.
 
@@ -387,11 +387,11 @@ The Run diagnostics tab provides access to run the diagnose and identify the roo
 </td></tr></tbody>
 </table>## Activity stream component
 
-The Technology product support process page includes the activity stream in the first tab of the contextual side panel.
+The Product support for technology process page includes the activity stream in the first tab of the contextual side panel.
 
 The activity stream component displays a list of the activities occurring on a case record. The activities in the list can be collapsed or expanded. When collapsed, the agent can quickly scan the list to get an overview of case activities. When expanded, the agent can see detailed information individual activities.
 
-\[Omitted image "front-line-case-page-activity-stream.png"\] Alt text: The technology product support playbook activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types.
+\[Omitted image "front-line-case-page-activity-stream.png"\] Alt text: The Product support for technology playbook activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types.
 
 The activities in the activity stream are represented by tiles that use icons and colors to indicate the activity type.
 
@@ -443,9 +443,9 @@ For knowledge articles, an agent can view an article and attach the article to t
 
 ## Related Items component
 
-The Technology product support playbook incorporates related list functionality into the contextual side panel. The Related Items tab provides agents with access to the case related lists. These lists are displayed in an accordion format that agents can expand and collapse as needed.
+The Product support for technology playbook incorporates related list functionality into the contextual side panel. The Related Items tab provides agents with access to the case related lists. These lists are displayed in an accordion format that agents can expand and collapse as needed.
 
-\[Omitted image "front-line-case-page-related-lists.png"\] Alt text: The Technology product support playbook related lists component in the contextual side panel uses an accordion format to expand and display related list items
+\[Omitted image "front-line-case-page-related-lists.png"\] Alt text: The Product support for technology playbook related lists component in the contextual side panel uses an accordion format to expand and display related list items
 
 An indicator displays the number of records available in a related list. When expanded, the records in a related list are displayed in card format. If a related list is empty, agents can select Create one in the list to create a record.
 
@@ -480,7 +480,7 @@ The items in an expanded list are displayed as cards. An expanded list shows one
 
 ## Modeless dialogs
 
-The Technology product support playbook uses modeless dialogs to create comments, work notes, and email messages. The following actions are available from the **Compose** button in the form header:
+The Product support for technology playbook uses modeless dialogs to create comments, work notes, and email messages. The following actions are available from the **Compose** button in the form header:
 
 -   **Compose &gt; Comment**: opens the Compose a comment modeless dialog.
 -   **Compose &gt; Work note**: opens the Compose a work note modeless dialog.
@@ -544,7 +544,7 @@ Creating a case opens a service selector modal and displays the services defined
 
 The system creates the case and launches the playbook associated with the service definition. For more information, see .
 
-**Note:** This action is active by default for the Technology product support process page.
+**Note:** This action is active by default for the Product support for technology process page.
 
 ## Using Now Assist for CSM to generate resolution notes for a case
 

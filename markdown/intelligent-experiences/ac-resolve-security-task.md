@@ -1,19 +1,19 @@
 ---
 title: Resolve a security task
-description: Investigate a security concern that AI Control Tower has detected on a managed AI asset, take the appropriate remediation action, and document the resolution.
+description: Investigate a security concern that Control Tower has detected on a managed AI asset, take the appropriate remediation action, and document the resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/ac-resolve-security-task.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-16"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Security tasks, Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Security tasks, Managing tasks and approvals, Address action items, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Resolve a security task
 
-Investigate a security concern that AI Control Tower has detected on a managed AI asset, take the appropriate remediation action, and document the resolution.
+Investigate a security concern that Control Tower has detected on a managed AI asset, take the appropriate remediation action, and document the resolution.
 
 ## Before you begin
 
@@ -21,17 +21,17 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Activity Center** &gt; **Work** &gt; **Assigned to you**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Activity Center** &gt; **Work** &gt; **Assigned to you**.
 
 2.  Select the **Security tasks** sub-tab.
 
-3.  Select the security task to resolve.
+3.  Select the security task that you want to resolve.
 
-    The task opens in a side panel with the affected asset, the type of security concern, the supporting evidence, work notes, and any recommended remediation actions.
+    The task opens in a side panel with the affected asset, the type of security concern that triggered the task, the supporting evidence, and any recommended remediation actions.
 
 4.  Investigate the security concern.
 
-    Review the evidence in the task and examine the asset's security posture on the asset record's **Security** tab. Determine whether the concern is a true positive that needs remediation or a false positive that can be dismissed.
+    Review the evidence in the task, examine the asset's security posture on the asset record's **Security** tab, and determine whether the concern is a true positive that needs remediation or a false positive that can be dismissed.
 
 5.  Take the remediation action that addresses the security concern.
 
@@ -44,5 +44,5 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 ## Result
 
-The resolved security task no longer appears in the **Assigned to you** view. The asset record's **Security** tab reflects the updated security posture. If the underlying condition recurs, AI Control Tower generates a new security task.
+The resolved security task no longer appears in the **Assigned to you** view. The asset record's **Security** tab reflects the updated security posture. If the underlying condition recurs, Control Tower generates a new security task.
 

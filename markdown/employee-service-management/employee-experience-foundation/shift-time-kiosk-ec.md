@@ -7,9 +7,9 @@ release: zurich
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configure Employee Center Pro Kiosk, Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configure, Employee Center Pro Kiosk, Employee Center Integrations, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Schedule in Employee Center Pro Kiosk

@@ -7,9 +7,9 @@ release: zurich
 product: System Events
 classification: system-events
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [System Events, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [System Events, Configure core features, Administer]
 ---
 
 # System events reference
@@ -29,5 +29,5 @@ You can use script actions to create server-side scripts that perform a variety 
 -   **[Sample scripts from the change events business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-events/r_ChangeEventsSampleScripts.md)**  
 Several scripts are found in the baseline change events business rule.
 
-**Parent Topic:**[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-events/system-events-landing.md)
+**Parent Topic:**[Configure ServiceNow AI Platform core features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/config-now-platform-core-features.md)
 

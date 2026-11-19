@@ -7,8 +7,8 @@ release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-07-07"
+reading_time_minutes: 3
 breadcrumb: [Microsoft Intune, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -165,6 +165,40 @@ Select the Microsoft Intune source field to be used for looking up the assigned 
 
 -   Regular data sources \(SG-Intune Computer, SG-Intune Devices, and SG-Intune Software\)
 -   Advanced data sources \(SG-Intune Device Reports and SG-Intune Software Reports\)
+
+</td></tr></tbody>
+</table>## System property
+
+The following system property is available for Service Graph Connector for Microsoft Intune.
+
+**Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
+
+<table id="table_fgd_ktj_glc"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_intune\_integrat.enable\_software\_removal\_import
+
+</td><td>
+
+Set the property to `true` to speed up software removal for large tenants. Software removal then runs as part of the SG-Intune Software Removal import instead of the Software/Software Reports post-script. Prerequisites:
+
+-   sgc\_admin user role \(see [Service Graph Connector user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sgc-intro.md)\)
+-   Integration Commons for CMDB version 2.26.1 or later
+
+When this property is set to `false`, the post-script removal runs as it did earlier.
+
+-   Type: true \| false
+-   Default value: `false`
+-   Location: System Property \[sys\_properties\] table
+
+For more information about the software removal process, see the [Service Graph Connector for Microsoft Intune - Software removal import \[KB3234519\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3234519) article in the Now Support Knowledge Base.
 
 </td></tr></tbody>
 </table>

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/schedule-meeting-opportunity.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-09"
 reading_time_minutes: 1
-breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
 
 # Schedule a meeting from an opportunity
@@ -27,7 +27,7 @@ When you schedule a meeting from an opportunity, the system automatically associ
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  In the **Opportunity - All** list, open the opportunity record.
 
@@ -54,16 +54,5 @@ To view all meetings for the opportunity, select the **Meetings** tab.
 
 **Note:** The **Meetings** tab displays both meetings linked directly to the opportunity and meetings linked to the opportunity's touchpoints.
 
-**Related topics**  
-
-
-[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-mgmt-using.md)
-
-[Manage touchpoints on an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/manage-touchpoints-opportunity.md)
-
-[Compose emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management-emails-tab.md)
-
-[Add opportunity tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management-tasks-tab.md)
-
-[Collaborate with stakeholders by using the sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-management-sidebars-teams.md)
+**Parent Topic:**[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/opportunity-mgmt-using.md)
 

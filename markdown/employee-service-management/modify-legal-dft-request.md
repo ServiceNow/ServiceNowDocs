@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/modify-legal-dft-request.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2025-07-31"
+reading_time_minutes: 2
 breadcrumb: [Requests, Legal Digital Forensics, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -22,7 +22,7 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal and selecting **My Requests** &gt; **View all requests** from the header.
+    **Note:** If you’re using Legal Service Portal, open the request by navigating to it and selecting **My Requests** &gt; **View all requests** from the header.
 
 2.  Select **My Requests** from the header.
 
@@ -30,15 +30,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 4.  On the Standard Ticket page, review and edit the request details or cancel the request.
 
-<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d238690e102">
+<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d234774e99">
 
 Action
 
-</th><th align="left" id="d238690e105">
+</th><th align="left" id="d234774e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d238690e111">
+</th></tr></thead><tbody><tr><td id="d234774e108">
 
 **Edit request details**
 
@@ -61,7 +61,7 @@ Steps
 4.  Click **Back** to return to the Standard Ticket page.
 The digital forensic request is updated with the new information. The changes appear as comments in the Additional Comments section of the request.
 
-</td></tr><tr><td id="d238690e205">
+</td></tr><tr><td id="d234774e202">
 
 **Cancel the request**
 
@@ -77,15 +77,15 @@ The request is canceled and the cancellation comments appear in the Additional C
 
 6.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d238690e253">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d234774e250">
 
 Option
 
-</th><th align="left" id="d238690e256">
+</th><th align="left" id="d234774e253">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d238690e262">
+</th></tr></thead><tbody><tr><td id="d234774e259">
 
 **If the Attachments tab is visible**
 
@@ -96,7 +96,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d238690e301">
+</td></tr><tr><td id="d234774e298">
 
 **If the Documents tab is visible**
 

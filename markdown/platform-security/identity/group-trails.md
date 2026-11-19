@@ -1,33 +1,29 @@
 ---
-title: Group Trails
-description: Displays audits of groups in the ServiceNow instance.
+title: Group trails
+description: It displays audits of groups in the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/identity/group-trails.html
 release: zurich
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Identity Audit Results, Identity and Access Audit, Identity]
+breadcrumb: [Identity audit results, Identity and Access Audit, Identity]
 ---
 
-# Group Trails
+# Group trails
 
-Displays audits of groups in the ServiceNow® instance.
+It displays audits of groups in the ServiceNow® instance.
 
-For a given group, Group Trails show:
-
--   Attribute changes
--   Membership changes
--   Role changes
+Group Trails display attribute changes, membership changes, and role changes for a group.
 
 To access Group Trails, navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Group Trails**. The Group Trails page is displayed with the following information.
 
 | | |
 |---|---|
 |Group Name|Name of the group.|
-|Group Sys id|Details about the Group sys\_id for the audited record.|
+|Group sys\_id|Details about the Group sys\_id for the audited record.|
 |Source Table|Details about the Source Table where the audit was performed.|
 |Action|Describes the audit action.|
 |Created By|The user who made the change.|

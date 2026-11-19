@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/configure-recommended-actions.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2025-07-31"
+reading_time_minutes: 2
 breadcrumb: [Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
@@ -70,7 +70,6 @@ A recommendation is a way to suggest an action to an agent.
 -   Guidance
 -   Guided decision tree
 -   Field recommendation
--   Playbook
 
 **Note:** New recommendations can only be created from within a rule.
 
@@ -101,7 +100,7 @@ Guided decision tree
 
 </td><td>
 
-A guided flow to follow. A decision tree is a multi-step process that includes a series of questions and answers and results in guidance.**Important:** The Guided Decisions Experience \[com.snc.guided\_decisions\_playbook\_experience\] plugin is planned for deprecation in the Denmark release. For more information, see the [Guided Decisions Experience Deprecation: Migrating Guided Decision Trees to Guided Decision Playbooks](https://support.servicenow.com/kb?sys_kb_id=4c606e1847030f1c3b05ff48436d434d&id=kb_article_view) KB article.
+A guided flow to follow. A decision tree is a multi-step process that includes a series of questions and answers and results in guidance.
 
 </td></tr><tr><td>
 
@@ -110,14 +109,6 @@ Field recommendation
 </td><td>
 
 A recommended value to use for a field. For example, this type of action can recommend the assignment group based on the text in the case short description.
-
-</td></tr><tr><td>
-
-Playbook
-
-</td><td>
-
-An interactive, step-by-step guided workflow that helps agents make decisions and resolve issues. Playbooks appear as action cards in the Recommended Actions panel and can be launched inline without switching applications. For more information, see [Playbooks in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-playbooks.md).
 
 </td></tr></tbody>
 </table>For more information, see [Creating guidance and field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/ra-csm-config-recommendations.md).

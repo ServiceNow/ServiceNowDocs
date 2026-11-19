@@ -7,7 +7,7 @@ release: zurich
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 keywords: [alignment planner workspace, portfolio planning workspace, strategic planner, portfolio planner, strategic planning workspace]
 breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
@@ -503,7 +503,7 @@ Dashboards
 
 </td></tr><tr><td>
 
-Monitor goals and strategies in ServiceNow AI Control Tower
+Monitor goals and strategies in ServiceNow Control Tower
 
 </td><td>
 

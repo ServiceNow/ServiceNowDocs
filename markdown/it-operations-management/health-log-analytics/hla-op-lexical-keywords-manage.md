@@ -7,7 +7,7 @@ release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Influence anomaly detection with lexical keywords, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -30,4 +30,6 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
     To add a specified keyword that is associated with a specific source type, see [Configure source type capabilities in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-source-types.md).
 
+
+**Parent Topic:**[Influence anomaly detection in Health Log Analytics with lexical keywords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-log-anomaly-detection.md)
 

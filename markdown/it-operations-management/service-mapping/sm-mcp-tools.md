@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [MCP tools, Service Mapping, get\_all\_application\_service\_names, get\_all\_application\_service\_for\_server, get\_application\_service\_topology, get\_server\_impact\_graph, get\_unmapped\_topology, create\_top\_down\_service, reference, Now Assist, CMDB]
-breadcrumb: [Service Mapping MCP tools, AI in Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Service Mapping MCP tools, AI in Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Service Mapping MCP tools reference

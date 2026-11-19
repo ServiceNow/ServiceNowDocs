@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/vc-build-agents-in-ba.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-03"
 reading_time_minutes: 3
-breadcrumb: [Build Agent overview, Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
 # Creating custom agentic workflows, in-app agents, and skills with Build Agent
@@ -20,7 +20,7 @@ Before generating any new components, Build Agent scans your instance for existi
 
 All you need to do is describe the business problem you want to solve, and Build Agent determines whether to build an agentic workflow, an agent, or set of skills, and identifies the tools required. Drawing on its understanding of your application context, Build Agent handles the complexity of agent creation for you, with no prior knowledge required and significantly less development time.
 
-As part of the agent and skill creation process, Build Agent guides you through defining access controls and permissions alongside the agent itself, keeping governance integrated from the start. Once created, you can test and activate the agent in AI Agent Studio, then monitor and govern it in AI Control Tower.
+As part of the agent and skill creation process, Build Agent guides you through defining access controls and permissions alongside the agent itself, keeping governance integrated from the start. Once created, you can test and activate the agent in AI Agent Studio, then monitor and govern it in Super Intelligence Control Tower. For more information, see [Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-landing.md).
 
 **Note:** Your entitlements determine whether you have access to agentic workflows, agents, and skills in Build Agent.
 
@@ -51,5 +51,5 @@ Some ServiceNow resources that can provide you with helpful information are:
     Pro Dev Academy session recording on building in-app agents agentically.
 
 
-**Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vc-build-agent-landing.md)
+**Parent Topic:**[AI-assisted ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/vc-build-agent-landing.md)
 

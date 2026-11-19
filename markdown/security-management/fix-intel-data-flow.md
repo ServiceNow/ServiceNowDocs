@@ -21,6 +21,8 @@ Instead of surfacing one vulnerability at a time, Fix Intelligence consolidates 
 
 After fixes are identified, they are available as a list and form in Unified Security Exposure Management Workspace, and as widgets on the **Findings View** and the **Remediation View**. For example, **Findings with fix identified** and **Top fixes by finding count**. Each finding also shows a read-only **Fix** reference linking to the fix that resolves it. To learn how to read and act on this data, see [View fixes in USEM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/view-fixes-in-workspace.md).
 
+**Parent Topic:**[Exploring Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/exploring-fix-intel.md)
+
 **Related topics**  
 
 

@@ -1,21 +1,20 @@
 ---
 title: Create an ACC plugin package
-description: Package a PowerShell script, a Ruby script, and an execution allowlist into an Agent Client Collector \(ACC\) plugin to run remedial actions on endpoints from the platform.
+description: Create an Agent Client Collector \(ACC\) plugin package that includes the PowerShell script defining the remedial action, a Ruby script, and an allowlist to enable execution of the remedial action on an endpoint device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/digital-end-user-experience-dex/create-acc-plugin-structure.html
 release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
-reading_time_minutes: 2
-keywords: [acc plugin package, create plugin structure, acc plugin, remedial action plugin, powershell remedial action, ruby script plugin]
-breadcrumb: [Creating a PowerShell remedial action, Creating DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Creating and executing a PowerShell script-based remedial action, DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Create an ACC plugin package
 
-Package a PowerShell script, a Ruby script, and an execution allowlist into an Agent Client Collector \(ACC\) plugin to run remedial actions on endpoints from the platform.
+Create an Agent Client Collector \(ACC\) plugin package that includes the PowerShell script defining the remedial action, a Ruby script, and an allowlist to enable execution of the remedial action on an endpoint device.
 
 ## Before you begin
 
@@ -23,17 +22,17 @@ Role required: admin
 
 ## Procedure
 
-1.  Create a root folder for the ACC plugin on your local computer and name it.
+1.  Create a root folder for the ACC plugin in your local computer and name it.
 
     For example, `acc-dex-custom`.
 
-2.  In the root folder, create two subfolders named `allowlist` and `bin`.
+2.  In the root folder, create two sub-folders named `allowlist` and `bin`.
 
 3.  Create a PowerShell script using PowerShell or command prompt commands to define the remedial action to run on an endpoint device.
 
-    1.  In the `bin` folder, create a file with the `.ps1` extension.
+    1.  In the `bin` folder, create a `.ps1` file and name it with the `.ps1` extension.
 
-        For example, `CustomScript.ps1`.
+        For example, `CustomScript.ps1`
 
     2.  Open the `.ps1` file and add the commands.
 
@@ -130,16 +129,18 @@ Role required: admin
 
 5.  Create an allowlist file and specify the Ruby script permitted for execution on endpoint devices.
 
-    1.  In the `allowlist` subfolder, create an allowlist JSON file.
+    1.  In the `allowlist` sub-folder, create an allowlist JSON file.
 
         For example, `check-allowlist.json`.
 
-    2.  Define any conditions such as arguments to be accepted as part of the `.rb` script, or create custom logic.
+    2.  Define any conditions such as arguments to be accepted as part of the `.rb` script, or create a custom logic.
 
     3.  Save the file.
 
 6.  Generate a `tar.gz` file for your ACC plugin folder using any utility.
 
-    **Note:** The `tar.gz` file name must match the plugin root folder name. For example, `acc-dex-custom.tar.gz`.
+    **Note:** The `tar.gz` file name must match the plugin root folder name. For example, `acc-dex-custom.tar.gz`
 
+
+**Parent Topic:**[Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/remedial-actions-ps.md)
 

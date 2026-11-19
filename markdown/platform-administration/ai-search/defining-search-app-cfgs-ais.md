@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2025-07-31"
+reading_time_minutes: 3
+breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer]
 ---
 
 # Search application configurations
@@ -36,8 +36,6 @@ For details on enabling AI Search and specifying search application configuratio
 Create a search application configuration to specify AI Search as the search engine for a ServiceNow AI Platform® application. Select a search profile for the application to use. Configure the application's settings for refinement and display of search results.
 -   **[Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/create-facet-ais.md)**  
 Define facets to refine your searches using categories dynamically generated from the current search results.
--   **[Show search result counts for facets on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/display-result-counts-ais.md)**  
-Display search result counts for facets on the results page for AI Search applications that use Seismic components. Search result counts for facets show the number of matching search results for each source facet bucket.
 -   **[Clear facet filters when selecting a new source facet bucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/persist-facets-nav-tabs-ais.md)**  
 Specify whether AI Search applications should preserve existing facet filters when you select a new source facet bucket.
 -   **[Configure source facet buckets in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/config-nav-tabs-ais.md)**  

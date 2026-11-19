@@ -7,7 +7,7 @@ release: zurich
 product: Skills Management
 classification: skills-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Configuring Skills Management, Skills Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,49 +32,49 @@ You can build your skill taxonomy from scratch or use the sample data provided w
 
 1.  Navigate to **All** &gt; **Skills** &gt; **Skill Taxonomy**.
 
-2.  In the **Skills Categories** list, click **New**.
+2.  In the **Skills Categories** list, select **New**.
 
 3.  In the **Name** field, enter a unique name for the category.
 
 4.  In the **Parent** field, select a parent category.
 
-5.  Right-click the form header and click **Save**.
+5.  Right-click the form header and select **Save**.
 
     The category is added to the **Category Hierarchy**.
 
 6.  Add sub-categories or skills.
 
-<table id="choicetable_fnj_ytd_hhb"><thead><tr><th align="left" id="d513287e132">
+<table id="choicetable_fnj_ytd_hhb"><thead><tr><th align="left" id="d508637e135">
 
 To add
 
-</th><th align="left" id="d513287e135">
+</th><th align="left" id="d508637e138">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d513287e141">
+</th></tr></thead><tbody><tr><td id="d508637e144">
 
 **Sub-categories**
 
 </td><td>
 
--   In the **Child Categories** related list, click **New**.
+-   In the **Child Categories** related list, select **New**.
 -   In the **Name** field, enter a unique name for the category.
 
 
-</td></tr><tr><td id="d513287e168">
+</td></tr><tr><td id="d508637e171">
 
 **Skills**
 
 </td><td>
 
 -   Select the **Add Skills** check box.
--   Right-click the form header and click **Save**.
--   In the **Skills** related list, click **New**.
+-   Right-click the **form header** and select **Save**.
+-   In the **Skills** related list, select **New**.
 -   In the **Name** field, enter the name of the skill.
 
 
 </td></tr></tbody>
-</table>7.  Click **Submit**.
+</table>7.  Select **Submit**.
 
 

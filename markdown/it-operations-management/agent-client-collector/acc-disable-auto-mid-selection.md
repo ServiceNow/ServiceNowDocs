@@ -7,9 +7,9 @@ release: zurich
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Automatic MID Server selection, Configuring ACC with a MID Server, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [Automatic MID Server selection, Configuring ACC with a MID Server, ACC deployment - servers, Agent Client Collector, IT Operations Management]
 ---
 
 # Enable automatic MID Server selection
@@ -32,6 +32,8 @@ Role required: agent\_client\_collector\_admin
 ## What to do next
 
 To disable automatic MID Server selection again, set each of the properties back to **false**.
+
+To schedule updates more often than once daily, or execute the job on demand, see [Configure the frequency of updating the agent MID Server list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-update-mid-server-list.md).
 
 **Parent Topic:**[Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-auto-mid-selection.md)
 

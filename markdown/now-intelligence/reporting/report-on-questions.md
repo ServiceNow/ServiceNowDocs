@@ -7,9 +7,9 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Report on questions
@@ -62,10 +62,10 @@ You can apply these steps to any report type as long as the report source has qu
 
 ### Procedure
 
-1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
+1.  Perform one of the following actions:
 
-    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
-
+    -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
+    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Core UI artifacts** &gt; **Reports** and select **New**.
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
 3.  Select a report source that has questions associated with it and click **Next**.
@@ -80,7 +80,7 @@ You can apply these steps to any report type as long as the report source has qu
 
 7.  Continue to configure and style the report according to its report type.
 
-    See [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md).
+    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 
 ## Add additional group by questions to a report
@@ -97,10 +97,10 @@ You can apply these steps to any report type as long as the report source has qu
 
 ### Procedure
 
-1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
+1.  Perform one of the following actions:
 
-    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
-
+    -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
+    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Core UI artifacts** &gt; **Reports** and select **New**.
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
 3.  Select a report source that has questions associated with it and click **Next**.

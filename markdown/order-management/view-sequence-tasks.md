@@ -1,18 +1,18 @@
 ---
 title: View sequence tasks
-description: View sequence tasks assigned to you from the CRM Workspace.
+description: View sequence tasks assigned to you from the CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/view-sequence-tasks.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Customer Engagement Sequences, Sales automation apps, Use, Sales Customer Relationship Management]
+breadcrumb: [Customer Engagement Sequences, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
 
 # View sequence tasks
 
-View sequence tasks assigned to you from the CRM Workspace.
+View sequence tasks assigned to you from the CSM Configurable Workspace.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sequence viewer \[sn\_crm\_sequence.viewer\]
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -38,11 +38,4 @@ Role required: sequence viewer \[sn\_crm\_sequence.viewer\]
 Engage with your prospective customers by following the activities in the sequence steps. For more information, see [Complete predefined customer engagement tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/execute-sequence-steps.md).
 
 **Parent Topic:**[Using Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/using-customer-engagement-sequences.md)
-
-**Related topics**  
-
-
-[Configuring Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/configuring-customer-engagement-sequences.md)
-
-[Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/explore-customer-engagement-sequences.md)
 

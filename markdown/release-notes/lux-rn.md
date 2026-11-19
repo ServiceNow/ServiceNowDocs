@@ -5,10 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/lux-rn.html
 release: zurich
 topic_type: topic
-last_updated: "2026-10-01"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
-keywords: [Lux, Lux release notes, server-side rendering, Lit widgets]
-breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
 # Lux release notes

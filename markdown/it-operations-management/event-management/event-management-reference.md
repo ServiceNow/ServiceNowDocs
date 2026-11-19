@@ -7,8 +7,8 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2025-07-31"
+reading_time_minutes: 4
 breadcrumb: [Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -16,8 +16,14 @@ breadcrumb: [Event Management, ITOM AIOps, IT Operations Management]
 
 Reference topics provide additional information about mapping and fine-tuning application services using Event Management lists and forms.
 
--   **[Components installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/r_InstalledWithEventManagement.md)**  
-Activating the Event Management \(com.glideapp.itom.snac\) plugin adds several roles, scheduled jobs, and tables.
+-   **[Roles installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/r_RolesInstalledWithEventMgmt.md)**  
+Roles used by the Event Management application.
+-   **[Scheduled jobs installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/r_ScheduledJobsInstalledWithEM.md)**  
+List of scheduled jobs that are provided with Event Management.
+-   **[Domain separation properties for Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/system-default-properties-personalizing-domain-separation-event-management-connectors.md)**  
+Properties provide the metadata to identify the domain.
+-   **[Tables installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/r_TblsinstldwithEventMgmt.md)**  
+Tables that are provided when Event Management is activated.
 -   **[Event Management Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/event-content-pack.md)**  
 Platform Analytics Solutions contain preconfigured dashboards. These dashboards contain actionable data visualizations that help you improve your business processes and practices.
 -   **[Machine learning solutions for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/ml-solutions-em.md)**  
@@ -35,13 +41,21 @@ The form for creating or modifying a tag based alert clustering definition displ
 -   **[List of predefined tag-based alert grouping definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/alert-clustering-predefined-definition-list.md)**  
 A list of the predefined alert clustering definitions provided with the Tag Based Alert Clustering Engine  application.
 -   **[Domain properties installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/installed-domain-properties.md)**  
-Use the domain properties installed with Event Management to provide metadata that identifies the appropriate domain table for event creation.
+Use the domain properties installed with Event Management to provide metadata that points to the appropriate table. This metadata identifies the domain in which to create the event.
 -   **[Connector domain metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/connector-domain-metadata.md)**  
 Override push connector default domain metadata values installed with Event Management with the values in the event HTTP request, including the URL, headers, request body \(payload\), and connector parameters. Override pull connector domain metadata values with connector parameters only.
 -   **[Dynatrace connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/dynatrace-connector-instance-form.md)**  
 The Dynatrace connector instance form displays the fields you must fill in when creating a Dynatrace connector instance.
 -   **[Dynatrace connector instance value parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/dynatrace-connector-instance-value-parameters.md)**  
 The following table displays the Dynatrace connector instance value parameters that you can fill in, as needed, when creating a Dynatrace connector instance.
+-   **[Datadog connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/datadog-connector-instance-form.md)**  
+The Datadog connector instance form displays the fields you must fill in when creating a Datadog connector instance.
+-   **[Datadog connector instance value parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/datadog-connector-instance-value-parameters.md)**  
+The following table displays the Datadog connector instance value parameters that you can fill in, as needed, when creating a Datadog connector instance.
+-   **[Kafka connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/kafka-connector-instance-form.md)**  
+The Kafka connector instance form displays the fields you must fill in when creating a Kafka connector instance.
+-   **[Kafka connector instance value parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/kafka-connector-instance-value-parameters.md)**  
+The following table displays the Kafka connector instance value parameters that you can fill in, as needed, when creating a Kafka connector instance.
 -   **[Push connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/push-connector-instance-form.md)**  
 Push Connector Instance form displays the fields that you must fill when you create or modify a connector.
 -   **[Nagios connector instance value parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/nagios-connector-instance-value-parameters.md)**  

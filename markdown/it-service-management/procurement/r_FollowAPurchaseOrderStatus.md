@@ -7,16 +7,16 @@ release: zurich
 product: Procurement
 classification: procurement
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create a purchase order, Procurement purchase order management for assets, Procurement, Asset Management common applications, IT Service Management]
+breadcrumb: [Create a purchase order, Procurement purchase order management for assets, Procurement, Asset Management, IT Service Management]
 ---
 
 # Purchase order status
 
 Purchase orders follow a specific life cycle. The **Status** field on the purchase order record is always read-only.
 
-\[Omitted image "PurchaseOrderStatus.png"\] Alt text: Purchase order status
+\[Omitted image "mmasset0021989-purchase-order-status.png"\] Alt text: Purchase Order status
 
 |Status|Description|
 |------|-----------|

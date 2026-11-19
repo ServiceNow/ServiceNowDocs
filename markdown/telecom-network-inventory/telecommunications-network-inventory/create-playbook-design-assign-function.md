@@ -7,9 +7,9 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Configure Design and Assign function, Configure, Telecommunications Network Inventory]
+breadcrumb: [Design and Assign function, Configure, Telecommunications Network Inventory]
 ---
 
 # Create a playbook for the Design and Assign function
@@ -53,7 +53,7 @@ Role required: admin, playbook.admin
 
 4.  Add and configure your trigger.
 
-    To learn more, see [Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-trigger.md).
+    To learn more, see .
 
     1.  Select the more options icon \(\[Omitted image "more-options.png"\] Alt text: More Options Icon and select **Properties**.
 
@@ -70,7 +70,7 @@ Role required: admin, playbook.admin
 
 5.  Select **Add Stage** to add a stage.
 
-    You must add only one stage for the Design and Assign function. To learn more about the playbook stage, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-stage.md).
+    You must add only one stage for the Design and Assign function. To learn more about the playbook stage, see .
 
 6.  Add and configure the activity.
 
@@ -78,7 +78,7 @@ Role required: admin, playbook.admin
 
     2.  Select the activity that you want to add in the playbook.
 
-        You can select an existing activity that is associated with the Network Inventory Advanced application and update them according to your requirement. You can also create and add new activity. To learn more about creating an activity, see [Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-activity.md).
+        You can select an existing activity that is associated with the Network Inventory Advanced application and update them according to your requirement. You can also create and add new activity. To learn more about creating an activity, see .
 
 <table id="table_kvj_1zg_sdc"><thead><tr><th>
 
@@ -119,7 +119,7 @@ Review and submit design assign
 This activity is used to review and submit a design and assign request. It automatically creates a change task​.
 
 </td></tr></tbody>
-</table>        You can also create an activity. To learn more, see [Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-activity.md).
+</table>        You can also create an activity. To learn more, see .
 
         Your new activity appears in the stage, and the Activity properties panel appears.
 
@@ -161,12 +161,12 @@ When your playbook's trigger conditions are met, your playbook runs.
 
 Update the system property to add the playbook in the Design and Assign home page. To learn more, see [Update system property to configure the Design and Assign home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/update-system-property-configure-design-assign-home-page.md).
 
-**Parent Topic:**[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
+**Parent Topic:**[Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 
 **Related topics**  
 
 
-[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
+[Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 
 [Configure a Design and Assign function example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/configure-design-assign-playbook-use-case.md)
 

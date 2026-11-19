@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
@@ -25,15 +25,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d91632e90">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d88420e90">
 
 Roadmap type
 
-</th><th align="left" id="d91632e93">
+</th><th align="left" id="d88420e93">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d91632e99">
+</th></tr></thead><tbody><tr><td id="d88420e99">
 
 **Portfolio plan roadmap**
 
@@ -43,7 +43,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d91632e120">
+</td></tr><tr><td id="d88420e120">
 
 **Free-form roadmap**
 

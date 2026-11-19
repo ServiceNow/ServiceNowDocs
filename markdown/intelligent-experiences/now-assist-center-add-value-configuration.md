@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-02"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, business value]
-breadcrumb: [AI Admin Center Business Value \(Next Experience UI\), View AI assets usage and performance \(Next Experience UI\), Monitor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [AI Admin Center Business Value \(Next Experience UI\), View AI assets usage and performance \(Next Experience UI\), Monitor, AI Admin Center, Enable AI experiences]
 ---
 
 # Add a value configuration in the AI Admin Center Business Value dashboard\(Next Experience UI\)

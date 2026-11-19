@@ -7,9 +7,9 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-10-29"
 reading_time_minutes: 1
-breadcrumb: [Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Monitor, Digital End-User Experience, IT Operations Management]
 ---
 
 # View Zoom room metrics
@@ -20,14 +20,14 @@ View detailed metrics for your organization's Zoom rooms using DEX.
 
 Role required: admin
 
--   DEX must be set up for Zoom. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md)
--   Advanced monitoring must be configured to monitor Zoom calls with DEX. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/enable-app-monitor.md).
+-   Set up DEX for Zoom. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/configuring-DEX-for-Zoom.md)
+-   Configure advanced monitoring to monitor Zoom calls with DEX. For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/enable-app-monitor.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Applications icon \[Omitted image "icon-applications.png"\] Alt text:.
+2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 
 3.  Select **Zoom**.
 
@@ -39,6 +39,6 @@ Role required: admin
 
     The Zoom rooms details appear in a table that includes the room name, room ID, and the total number of issues. A pie chart also shows the distribution of the Zoom room issues.
 
-6.  Select the issue count link to open the **Details** tab, where you can view the issues and the time they occurred.
+6.  Select the issue count link to open the Details tab, where you can view the issues and the time they occurred.
 
 

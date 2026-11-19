@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Reference, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -72,8 +72,8 @@ sn\_wsd\_rsvsync.use\_default\_tz
 
 </td><td>
 
-This property enables you to use the default time zones during the reservation synchronization.-   Type: true/false
--   Default type: **true**
+This property enables you to use the default time zones during the reservation synchronization.-   Type: String
+-   Default type: **building**
 
 </td></tr><tr><td>
 

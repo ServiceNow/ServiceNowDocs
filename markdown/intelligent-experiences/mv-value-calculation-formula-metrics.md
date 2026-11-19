@@ -1,22 +1,22 @@
 ---
 title: Value calculation formula and metrics
-description: AI Control Tower calculates the productivity value of an AI system by multiplying usage, time saved per invocation, and the acceptance rate.
+description: Control Tower calculates the productivity value of an AI system by multiplying usage, time saved per invocation, and the acceptance rate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mv-value-calculation-formula-metrics.html
 release: zurich
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Value, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Value, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Value calculation formula and metrics
 
-AI Control Tower calculates the productivity value of an AI system by multiplying usage, time saved per invocation, and the acceptance rate.
+Control Tower calculates the productivity value of an AI system by multiplying usage, time saved per invocation, and the acceptance rate.
 
 ## Productivity formula
 
-The AI Control Tower calculates the productivity value of an AI system with the following formula:
+Control Tower calculates the productivity value of an AI system with the following formula:
 
 ```
 Productivity = Usage × Time Saved per invocation × Acceptance Rate

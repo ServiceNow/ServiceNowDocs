@@ -1,21 +1,21 @@
 ---
 title: Mapping logs for contextual alerts in Health Log Analytics
-description: Map your incoming log data to service instances, components, and source types so that Health Log Analytics can generate alerts in context.
+description: Map your logs to service instances, components, and source types so that Health Log Analytics \(HLA\) can generate alerts in context. Contextualizing your log data is especially important when the integration processes logs from multiple service instances and components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/health-log-analytics/il-connector-hla-log-context-mapping.html
 release: zurich
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-01-08"
 reading_time_minutes: 1
-keywords: [integration, mapping, ServiceNow Otto, automatic, log context, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
+keywords: [integration, mapping, automatic, log context, ServiceNow, Health Log Analytics, HLA]
+breadcrumb: [Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Mapping logs for contextual alerts in Health Log Analytics
 
-Map your incoming log data to service instances, components, and source types so that Health Log Analytics can generate alerts in context.
+Map your logs to service instances, components, and source types so that Health Log Analytics \(HLA\) can generate alerts in context. Contextualizing your log data is especially important when the integration processes logs from multiple service instances and components.
 
 **Important:** To enable AI-powered automatic parsing and mapping of log data, the integration must be activated with AI capabilities.
 
@@ -26,9 +26,6 @@ For a walkthrough of how to set up and review AI-suggested mappings, see [AI-ass
 ## Example
 
 A large financial institution might face performance issues with its e-banking application, which relies on various components like web, application, and database servers. Without log context mapping, logs from these components appear isolated, making it difficult to correlate issues. An anomaly in a Tomcat server log might be detected, but without proper context, the operator struggles to assess its impact. Log context mapping enables you to define rules to map logs to the e-banking application service instance and the Tomcat server component. This mapping provides a contextualized view for root cause analysis and resolution.
-
--   **[Map logs to service instances, components, source types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md)**  
-Map your logs to service instances, components, and source types so that Health Log Analytics \(HLA\) can generate contextual alerts.
 
 **Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-implement.md)
 

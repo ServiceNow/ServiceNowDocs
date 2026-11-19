@@ -7,8 +7,8 @@ release: zurich
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-03-12"
+reading_time_minutes: 7
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
 
@@ -167,7 +167,7 @@ Option to reapply assignment rules to existing Active DLP incidents. You can sel
 
 [Create repeat offender identification rules]()
 
-[Create Additional Incident Data Fields]()
+[Create additional incident data fields]()
 
 [DLP SLA Definition form]()
 

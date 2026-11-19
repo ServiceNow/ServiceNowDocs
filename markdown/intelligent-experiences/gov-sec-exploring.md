@@ -1,25 +1,25 @@
 ---
-title: Exploring security in AI Control Tower
-description: The security area of AI Control Tower offers a dashboard-based view of your AI asset security metrics. In addition to tracking metrics, the security area contains the agent map, a tool that gives a node-graph visualization of the relationships between your AI agents, agentic workflows, and tools.
+title: Exploring security in Control Tower
+description: The security area of Control Tower offers a dashboard-based view of your AI asset security metrics. In addition to tracking metrics, the security area contains the agent map, a tool that gives a node-graph visualization of the relationships between your AI agents, agentic workflows, and tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/gov-sec-exploring.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-02"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, explore]
-breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Exploring security in AI Control Tower
+# Exploring security in Control Tower
 
-The security area of AI Control Tower offers a dashboard-based view of your AI asset security metrics. In addition to tracking metrics, the security area contains the agent map, a tool that gives a node-graph visualization of the relationships between your AI agents, agentic workflows, and tools.
+The security area of Control Tower offers a dashboard-based view of your AI asset security metrics. In addition to tracking metrics, the security area contains the agent map, a tool that gives a node-graph visualization of the relationships between your AI agents, agentic workflows, and tools.
 
 ## Managing AI asset security
 
-\[Omitted image "gov-sec-overview.png"\] Alt text: AI Control Tower Security area showing Overview tab metrics.
+\[Omitted image "gov-sec-overview.png"\] Alt text: Security area showing Overview tab metrics.
 
-Use the security area of AI Control Tower to monitor and improve your security posture across your AI asset ecosystem. Monitor overview, design-time, runtime, and post-runtime metrics to identify problem areas and troubleshoot LLM guardrail policy violations. For details about every metric, see [Managing AI asset security reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-reference.md).
+Use the security area of Control Tower to monitor and improve your security posture across your AI asset ecosystem. Monitor overview, design-time, runtime, and post-runtime metrics to identify problem areas and troubleshoot LLM guardrail policy violations. For details about every metric, see [Managing AI asset security reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-reference.md).
 
 ## Security users
 
@@ -38,9 +38,9 @@ Use the security area of AI Control Tower to monitor and improve your security p
 
 ## What to explore next
 
-To learn more about configuring and using AI Control Tower, see:
+To learn more about configuring and using Control Tower, see:
 
--   [Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-configuring.md)
+-   [Configuring security metrics in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-configuring.md)
 -   [Discover your agent network with the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-use-map.md)
 -   [Monitor AI asset security events and recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-use-events.md)
 -   [Managing AI asset security reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-reference.md)
@@ -48,7 +48,7 @@ To learn more about configuring and using AI Control Tower, see:
 -   **[Basic concepts for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-basic-concepts.md)**  
 Learn more about the AI asset security score, agent map, AI asset security events, and internal and external agents.
 -   **[AI agent containment using kill switch protocol manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-exploring-ai-agent-containment.md)**  
-Explore how deactivating AI agents works to enforce guardrails and help improve your security posture.
+Explore how detecting malicious activity and deactivating AI agents works to enforce guardrails and help improve your security posture.
 
-**Parent Topic:**[Managing AI asset security with AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-landing.md)
+**Parent Topic:**[Managing AI asset security with Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-sec-landing.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/opt-out-individual-experiment.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-08-07"
 reading_time_minutes: 1
-breadcrumb: [Experimentation framework, Basic system configuration, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Experimentation framework, Basic system configuration, Get started, Administer]
 ---
 
 # Opt out of an individual experiment

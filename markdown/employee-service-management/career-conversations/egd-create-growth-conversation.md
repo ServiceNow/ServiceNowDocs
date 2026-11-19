@@ -7,9 +7,9 @@ release: zurich
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Using the Career Conversations application, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a growth conversation in Career Conversations
@@ -85,7 +85,7 @@ Reoccurs
 
 </td><td>
 
-The frequency at which the conversation occurs.
+The frequency at which the conversation occurs.**Note:** If a recurring conversation \(series\) is created with no end date specified, the series ends after 2 years by default.
 
 </td></tr><tr><td>
 

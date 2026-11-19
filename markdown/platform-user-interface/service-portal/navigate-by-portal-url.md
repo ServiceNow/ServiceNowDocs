@@ -7,7 +7,7 @@ release: zurich
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Understanding Service Portal, Exploring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -86,7 +86,7 @@ page parameters
 
 </td><td>
 
-Additional parameters are required by some pages to load dynamic content by looking up a record \(table, sys\_id\). Find the `$sp.getParameter` calls in a widget server script to see the parameters that a widget uses. For more detail on this method, see [GlideSPScriptable - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md).
+Additional parameters are required by some pages to load dynamic content by looking up a record \(table, sys\_id\). Find the `$sp.getParameter` calls in a widget server script to see the parameters that a widget uses. For more detail on this method, see GlideSPScriptable - Scoped.
 
  If you don’t include these additional parameters when required, you might get a `You are either not authorized or record is not valid` error message.
 

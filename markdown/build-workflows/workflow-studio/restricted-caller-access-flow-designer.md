@@ -7,9 +7,9 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Flows, Configure, Workflow Studio, Build workflows]
 ---
 
 # Restricted caller access to Workflow Studio flows
@@ -30,6 +30,8 @@ The Restricted Caller Access Privileges table has dedicated source types to iden
 
     For example, suppose you create a custom action that runs the Look Up Records step on a cross-scope table. When caller restriction is enabled for the cross-scope table, the Look Up Records step generates a request to perform a read operation. When you allow the custom action to perform read operations on the cross-scope table you can run the custom action from any context. For example, you can add the custom action to multiple flows or call the custom action from a script. As long as the custom action performs the operation on the allowed target cross-scope resource, the system allows the custom action to run. If you configure the custom action to access another cross-scope table, the custom action generates a separate access privilege request for approval.
 
+
+**Parent Topic:**[Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configuring-flow-designer.md)
 
 ## Upgrade restricted caller access privileges for flows and actions
 

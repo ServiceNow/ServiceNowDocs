@@ -8,9 +8,9 @@ product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: reference
 last_updated: "2026-10-27"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [developer sandbox, sandbox developer, servicenow sandbox enabled, development sandbox, dev sandbox, sandbox management, delegated developer, parallel development, isolated development environment, clone and upgrade sandboxes]
-breadcrumb: [Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Developing your application, Building applications]
 ---
 
 # Developer Sandboxes
@@ -35,16 +35,15 @@ The video explains that Developer Sandboxes are isolated development environment
 
 Use Developer Sandboxes to create isolated development environments where users can develop on the ServiceNow AI Platform in parallel. Sandboxes are temporary because they drift from the base instance configuration the longer they exist. Sandboxes support Git-based workflows of the software development life cycle and help reduce conflicts.
 
+**Note:** Developer Sandboxes is in general availability for Zurich. Developer Sandboxes has limited availability for Xanadu and Yokohama, though a general guideline is to use it in Yokohama or above.
+
 Use Developer Sandboxes to do the following:
 
 -   Provision isolated development environments on demand
 -   Align workspaces to specific stories, developers, test plans, or any custom criteria
 -   Enable true parallel development with controlled, independent environments
 
-After allocation, developers can access their sandbox in the following ways:
-
--   Select the sandbox name on the Sandbox Management Home page.
--   Copy the sandbox URL from the context menu and paste it in a browser.
+**Note:** Cloning and upgrading an instance removes all sandboxes from the instance. For details, see [Cloning and upgrading considerations for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.md).
 
 **Note:** If your instance is in a regulated environment, check with ServiceNow Support for more information about support for Developer Sandboxes.
 
@@ -76,15 +75,4 @@ After allocation, developers can access their sandbox in the following ways:
 -   [Read a Community blog post about Developer Sandboxes](https://www.servicenow.com/community/app-engine-blog/zurich-release-brings-app-dev-to-the-beach/ba-p/3339173)
 -   [Watch a YouTube video demo of merging changes in Git](https://www.youtube.com/watch?v=FmzU7HYlV-g)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
-
--   **[Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/exploring-sandboxes.md)**  
-Developer Sandboxes provide isolated development environments that enable parallel building and testing on top of a shared development instance. Use sandboxes to reduce code conflicts, accelerate delivery, and safely test configurations without affecting other team members' work.
--   **[Cloning and upgrading considerations for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dev-sbx-clone-upgrade-info.md)**  
-You should understand how plugins and sandboxes work before you clone or upgrade an instance with Developer Sandboxes. Back up your work in a sandbox before any clone or upgrade, either by exporting the update sets or committing to source control.
--   **[Developer Sandboxes installation and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/dsb-configuring-landing.md)**  
-Developer Sandboxes installation and configuration covers Developer Sandboxes on your instance. Review entitlements, install the plugins, assign licenses, and look up the roles, tables, and properties that control how sandboxes work.
--   **[Administering Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/developer-sandboxes/administering-sandboxes.md)**  
-If you have permission, you can allocate and retire the sandboxes you've created in your instance.
-
-**Parent Topic:**[Build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-ai-workflow-factory-prime.md)
 

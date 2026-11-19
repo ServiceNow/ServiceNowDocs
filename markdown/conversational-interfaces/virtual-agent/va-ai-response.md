@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: reference
 last_updated: "2026-10-26"
 reading_time_minutes: 1
-breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer Asset library bot responses, Assistant Designer Asset library interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # LLM Text bot response control
@@ -63,5 +63,5 @@ Conditionally show this node if
 No-code condition statement or low-code script that specifies a condition for presenting this node in the conversation. The condition must evaluate to true.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer Asset library bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

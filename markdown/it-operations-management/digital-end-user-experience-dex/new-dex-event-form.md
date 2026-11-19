@@ -7,7 +7,7 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-10-22"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ Name
 
 </td><td>
 
-Name of the event, for example, "Application crash."
+Assigns the event a name, for example "Application crash."
 
 </td></tr><tr><td>
 
@@ -38,7 +38,7 @@ OS Type
 
 </td><td>
 
-Operating system for which the event is configured:-   Windows
+Selects the operating system for which the event is configured:-   Windows
 -   macOS
 
 </td></tr><tr><td>
@@ -47,7 +47,7 @@ Query Type
 
 </td><td>
 
-Message pattern used to identify the event in the log: -   Contains \(Substring\) is used for plain-text matching.
+Selects a message pattern used to identify the event in the log: -   Contains \(Substring\) is used for plain-text matching.
 -   Regex \(Pattern Matching\) is used for regular expression matching.
 
 </td></tr><tr><td>
@@ -56,7 +56,7 @@ Active
 
 </td><td>
 
-Option that activates the event when selected. When the check box is cleared, the event is inactive.
+Selects to activate or deselects to make the event inactive.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Application
 
 </td><td>
 
-Application that owns the record. The default is Application and Device Health.
+Defaults to Application and Device Health, which owns the record.
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Event message
 
 </td><td>
 
-Message for which the event rule searches to trigger an alert.This field is optional on Windows devices, and required on macOS devices.
+Identifies the message for which the event rule searches to trigger an alert.This field is optional on Windows devices, and required on macOS devices.
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Domain
 
 </td><td>
 
-Domain of the record. The default is global.The record is visible across all domains.
+Defaults to global.The record is visible across all domains.
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Log level
 
 </td><td>
 
-Severity level of the log event being monitored, such as Debug, Error, Fault, Info, or Warning.
+Selects the severity level of the log event being monitored, such as Debug, Error, Fault, Info, or Warning.
 
 </td></tr><tr><td>
 
@@ -96,9 +96,9 @@ macOS Category
 
 </td><td>
 
-Logging category associated with the event, used to narrow down log sources.This field only appears for the events on macOS devices.
+Selects the logging category associated with the event, used to narrow down log sources.This field only appears for the events on macOS devices.
 
-Adding a category can improve performance and accuracy.
+This filed is optional. Adding a category could improve the performance and accuracy.
 
 </td></tr><tr><td>
 
@@ -106,9 +106,9 @@ macOS Process
 
 </td><td>
 
-Specific process that generates the event \(for example, kernel or loginwindow\).This field only appears for the events on macOS devices.
+Selects a specific process that generates the event \(for example, kernel or loginwindow\).This field only appears for the events on macOS devices.
 
-Adding a process can improve performance and accuracy.
+This field is optional. Adding a category could improve the performance and accuracy.
 
 </td></tr><tr><td>
 
@@ -116,7 +116,9 @@ macOS Subsystem
 
 </td><td>
 
-Subsystem identifier \(typically in reverse-domain notation, such as com.apple.Authorization\) used to filter logs.This field only appears for the events on macOS devices.
+Selects a subsystem identifier \(typically in reverse-domain notation, such as com.apple.Authorization\) used to filter logs.This field only appears for the events on macOS devices.
+
+This filed is optional.
 
 </td></tr><tr><td>
 
@@ -124,7 +126,9 @@ Windows Event ID\(s\)
 
 </td><td>
 
-Numeric ID used to identify the event in the Windows Event Log.This field only appears for the events on Windows devices.
+Assigns a numeric ID used to identify the event in the Windows Event Log.This field only appears for the events on Windows devices.
+
+This filed is required.
 
 </td></tr><tr><td>
 
@@ -132,7 +136,9 @@ Windows Log Source
 
 </td><td>
 
-Source where the event is recorded, such as Application, System, or Security.This field only appears for the events on Windows devices.
+Identifies the source where the event is recorded, such as Application, System, or Security.This field only appears for the events on Windows devices.
+
+This filed is required.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/digital-end-user-experience-dex/dex-console-reference.md)

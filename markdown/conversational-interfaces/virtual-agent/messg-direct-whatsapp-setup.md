@@ -1,20 +1,20 @@
 ---
 title: Set up Conversational Integration with WhatsApp \(WhatsApp Cloud API\)
-description: Set up the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application so that you can engage requesters in bot conversations. Integrating with ServiceNowVirtual Agent enables you to interact on WhatsApp chat with a Virtual Agent or live agent.
+description: Set up the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application so that you can engage requesters in bot conversations. Integrating with ServiceNowVirtual Agent enables you to interact on WhatsApp chat with a Virtual Agent or Live Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp-setup.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-01-09"
 reading_time_minutes: 5
-breadcrumb: [Configure, WhatsApp Cloud API, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, Conversational Integration with WhatsApp \(WhatsApp Cloud API\), Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
 # Set up Conversational Integration with WhatsApp \(WhatsApp Cloud API\)
 
-Set up the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application so that you can engage requesters in bot conversations. Integrating with ServiceNowVirtual Agent enables you to interact on WhatsApp chat with a Virtual Agent or live agent.
+Set up the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application so that you can engage requesters in bot conversations. Integrating with ServiceNowVirtual Agent enables you to interact on WhatsApp chat with a Virtual Agent or Live Agent.
 
 ## Before you begin
 
@@ -260,6 +260,4 @@ Name of the Token Message Verification record that you created for the inbound h
 
     4.  Select **Update**.
 
-
-**Parent Topic:**[Configure Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/messg-direct-whatsapp-configure.md)
 

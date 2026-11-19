@@ -1,5 +1,5 @@
 ---
-title: Get personal OAuth token \(using GlideOAuthClient\)
+title: Get Personal OAuth Token \(using GlideOAuthClient\)
 description: Check whether the user has a personal OAuth token. Use it to confirm valid access before running REST steps or integrations that require personal OAuth credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/personal-oauth-token.html
@@ -7,18 +7,18 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Personal authentication, Authentication, Access Management]
 ---
 
-# Get personal OAuth token \(using GlideOAuthClient\)
+# Get Personal OAuth Token \(using GlideOAuthClient\)
 
 Check whether the user has a personal OAuth token. Use it to confirm valid access before running REST steps or integrations that require personal OAuth credentials.
 
 ## Before you begin
 
-Role required: oauth\_admin
+Role required: admin
 
 ## About this task
 

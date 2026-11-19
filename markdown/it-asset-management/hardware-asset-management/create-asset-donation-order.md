@@ -7,9 +7,9 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Donate assets to charity organizations, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Donate assets to charity organizations, Use, Hardware Asset Management, IT Asset Management]
 ---
 
 # Create an Asset Donation Order
@@ -72,4 +72,6 @@ Name and quantity of the assets that you want to donate. For example, `Request t
 [Approve or reject an Asset Donation Order]()
 
 [Process an Asset Donation Order]()
+
+[Add a charity organization for donating assets]()
 

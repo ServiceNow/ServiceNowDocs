@@ -1,17 +1,17 @@
 ---
-title: Manage access to an AI specialist in the legacy AI Agent Studio
+title: Manage access to an AI specialist in AI Agent Studio
 description: Control workspace access, user roles, and publishing settings for your AI specialist and its copies configured for specific teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/manage-aiw-access.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-13"
+last_updated: "2026-08-11"
 reading_time_minutes: 3
 keywords: [AI specialist, ai specialist access management, ai specialist workspace access, ai specialist role configuration]
-breadcrumb: [Use in the legacy AI Agent Studio, Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Use, Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
 
-# Manage access to an AI specialist inthe legacy AI Agent Studio
+# Manage access to an AI specialist in AI Agent Studio
 
 Control workspace access, user roles, and publishing settings for your AI specialist and its copies configured for specific teams.
 

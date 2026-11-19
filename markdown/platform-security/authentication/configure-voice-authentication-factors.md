@@ -7,9 +7,9 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-29"
 reading_time_minutes: 1
-breadcrumb: [Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
 # Configure voice input for authentication factors
@@ -47,7 +47,7 @@ Authentication Factor
 
 </td><td>
 
-The factor to configure. Options: **Authenticator App \(TOTP\)**, **Email OTP**, **SMS OTP**, **Soft PIN**.
+Select the factor to configure. Options: **Authenticator App \(TOTP\)**, **Email OTP**, **SMS OTP**, **Soft PIN**.
 
 </td></tr><tr><td>
 
@@ -63,7 +63,7 @@ Service Profile Table
 
 </td><td>
 
-The table for the AI voice agent service.
+Select the table for the AI voice agent service.
 
  Leave empty to apply the configuration to all AI voice agent services.
 
@@ -73,7 +73,7 @@ Service Profile
 
 </td><td>
 
-The specific AI voice agent service that the configuration applies to.
+Select the specific AI voice agent service the configuration applies to.
 
  Leave empty to apply the configuration to all AI voice agent services.
 
@@ -83,11 +83,11 @@ Input Type
 
 </td><td>
 
-How callers provide their response. Options:
+Select how callers provide their response. Options:
 
  -   **Text**: The caller enters the response using the phone keypad.
 -   **Voice**: The caller speaks the response aloud.
- When **Voice** is selected, the **Input Format Description**, **Input Format Example**, and **Input Validation Pattern** fields are displayed with preset values. These fields are preset by the platform.
+ When **Voice** is selected, the **Input Format Description**, **Input Format Example**, and **Input Validation Pattern** fields are displayed with preset values. These fields are read-only.
 
 </td></tr><tr><td>
 
@@ -95,11 +95,9 @@ Input Format Description
 
 </td><td>
 
-Set **Input Type** to Text \(keypad\) or Voice for each factor. Callers can't switch input type at run time.
+This field appears only when **Input Type** is set to **Voice**. Expected format of the spoken response.
 
- This field appears only when **Input Type** is set to **Voice**. Expected format of the spoken response.
-
- Preset by the platform for each factor.
+ Read-only. Preset by the platform for each factor.
 
 </td></tr><tr><td>
 
@@ -109,7 +107,7 @@ Input Format Example
 
 This field appears only when **Input Type** is set to **Voice**. Example spoken responses to guide the voice agent.
 
- Preset by the platform for each factor.
+ Read-only. Preset by the platform for each factor.
 
 </td></tr><tr><td>
 
@@ -119,7 +117,7 @@ Input Validation Pattern
 
 This field appears only when **Input Type** is set to **Voice**. Regular expression pattern used to validate the transcribed response.
 
- Preset by the platform for each factor.
+ Read-only. Preset by the platform for each factor.
 
 </td></tr></tbody>
 </table>    \[Omitted image "kba-service-config-1.png"\] Alt text: Service Configuration form with Input Type set to Voice

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/copy-quiz.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create a quiz, Quiz designer, Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Create a quiz, Quiz designer, Use, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Copy a quiz
@@ -30,15 +30,15 @@ All associated questions \(type\), configurations, categories, metrics, domain s
 
 3.  Perform any of the following steps.
 
-<table id="choicetable_jtx_2dl_l2b"><thead><tr><th align="left" id="d233601e84">
+<table id="choicetable_jtx_2dl_l2b"><thead><tr><th align="left" id="d232708e84">
 
 Option
 
-</th><th align="left" id="d233601e87">
+</th><th align="left" id="d232708e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d233601e93">
+</th></tr></thead><tbody><tr><td id="d232708e93">
 
 **From Platform**
 
@@ -46,7 +46,7 @@ Description
 
 In the title bar, click **Copy**.
 
-</td></tr><tr><td id="d233601e105">
+</td></tr><tr><td id="d232708e105">
 
 **From Platform**
 
@@ -54,7 +54,7 @@ In the title bar, click **Copy**.
 
 In the title bar, select **Copy** from the context menu.
 
-</td></tr><tr><td id="d233601e117">
+</td></tr><tr><td id="d232708e117">
 
 **From quiz designer**
 

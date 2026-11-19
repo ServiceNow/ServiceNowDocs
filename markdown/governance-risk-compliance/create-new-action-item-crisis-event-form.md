@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/create-new-action-item-crisis-event-form.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create task and assessment-type action items, Creating action items, Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Create task and assessment-type action items, Creating action items in crisis events, Structured workflows for crisis events, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Create Action item form for crisis events
 
 Use the Create Action item form in the BCM Configurable Workspace to add action items about a crisis event.
 
-## Create Action item form
+## Action item form
 
 For a description of the field values, see the table.
 
@@ -142,14 +142,6 @@ Due date
 </td><td>
 
 Due date for the action item.
-
-</td></tr><tr><td>
-
-Collaboration thread
-
-</td><td>
-
-Collaboration thread that this action item belongs to, populated automatically when the action item is created from a collaboration thread's **Action items** tab.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Create task and assessment-type action items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/create-action-items-based-on-smart-assessments.md)

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/manage-crisis-event.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for Exercise and Crisis Management, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -151,17 +151,21 @@ Additional information about the crisis event.
 
     -   **Pending Approval**
 
-        When you click **Submit for Approval**, the event is set to **Pending Approval** state. In this state, you can only update the **Work notes** field. If there are any approval rules configured for the event, then approvals are generated and sent to the approvers. If there are no approval records in the requested state for the event, then you can either **Reject** or **Approve** the event.
+        When you click **Submit for Approval**, the event is set to **Pending Approval** state. In this state, you can only update the **Work notes** field.
+
+        If there are any approval rules configured for the event, then approvals are generated and sent to the approvers. If there are no approval records in the requested state for the event, then you can either **Reject** or **Approve** the event.
 
         You can view the approval details in the Approvals related list with its name, level of approval, and the state of the approval.
 
-        Select the Approval History related list to view approval details. The list shows the approval state, approver name, event number, request date, and any comments.
+        Select the Approval History related list to view the approval state, approver name, and event number. Add comments if needed.
 
         **Note:** If you are a BCM Program Manager, then you can see the **Approve** and **Reject** buttons.
 
     -   **Returned**
 
-        When the event is rejected, the state is set to **Returned** state. It can be moved to **Submit for Approval**, **Closed Complete** or **Closed Incomplete** states. Since this is related to an event only certain sections like description, results, and work notes can be updated in the form.
+        When the event is rejected, the state is set to **Returned**. It can be moved to **Submit for Approval**, **Closed Complete**, or **Closed Incomplete**.
+
+        Only certain sections can be updated in this state: description, results, and work notes.
 
         When the event is in **Returned** state, you can edit the state of the event asset.
 

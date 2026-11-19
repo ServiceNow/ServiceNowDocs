@@ -7,9 +7,9 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
 ---
 
 # Create a custom SAP named user type
@@ -65,19 +65,15 @@ After you have added the custom named user, create a software model designating 
 **Related topics**  
 
 
-[SAP publisher pack integration architecture]()
-
 [Tables installed with the SAP publisher pack]()
 
-[Set up SAP integration to establish a connection with SAP]()
+[Deploy the ABAP program for SAP]()
 
-[Establish an SAP connection using basic authentication]()
-
-[Establish an SAP connection using OAuth 2.0]()
-
-[Create software models for SAP]()
+[Establish an SAP connection]()
 
 [Create entitlements for SAP]()
+
+[Create software models for SAP]()
 
 [Map a role to a named user type]()
 

@@ -1,16 +1,16 @@
 ---
-title: KB article tab
+title: KB articles tab
 description: See which articles are retrieved, cited in responses, or left unused. Identify which content is driving successful resolutions and where gaps exist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/perf-kbarticle.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-02"
 reading_time_minutes: 1
 breadcrumb: [View the performance, Use, L1 IT Service Desk AI Specialist, IT Service Management]
 ---
 
-# KB article tab
+# KB articles tab
 
 See which articles are retrieved, cited in responses, or left unused. Identify which content is driving successful resolutions and where gaps exist.
 
@@ -22,7 +22,7 @@ The KB article usage summary tracks how many KB articles the AI specialist retri
 
 -   KB articles used: Number of distinct KB articles the AI specialist referenced during the selected period.
 
--   Total records: Total number of records \(incidents, problems, interactions\) resolved using at least one KB article retrieval.
+-   Total records: Number of incidents where the AI specialist retrieved at least one KB article.
 
 -   Shown in citations: KB articles the AI specialist included in a response to the user. A higher count suggests the AI specialist is actively surfacing relevant content.
 
