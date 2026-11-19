@@ -14,8 +14,8 @@ breadcrumb: [Configure, Sales Customer Relationship Management]
 
 Learn how to configure the features and components that you need for customer and service order processing, depending on whether you are a provider or an enterprise customer.
 
--   **[Install Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-install-providers.md)**  
-You can install the Order Management application \(sn\_ind\_tmt\_orm\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-install-providers.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-install-providers.md)**  
+
 -   **[Configure order enrichment flows using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-order-enrichment.md)**  
 Associate enrichment subflows with the product or service specifications by using the Order Enrichment Flow Policy in Decision Tables.
 -   **[Configure the customer order task policy using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-order-task-policy.md)**  

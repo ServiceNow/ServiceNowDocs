@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [search optimization, data]
-breadcrumb: [Creating users, companies, departments, User administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Creating users, companies, departments, User administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Normalization data services

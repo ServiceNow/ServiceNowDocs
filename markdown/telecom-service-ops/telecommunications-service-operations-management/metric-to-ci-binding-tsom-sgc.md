@@ -1,28 +1,28 @@
 ---
 title: Metric-to-CI binding
-description: Metric-to-CI binding associates metrics collected by a pull connector with configuration items \(CIs\) in the Configuration Management Database \(CMDB\). Default binding logic is used for each supported connector, which you can override with a custom implementation.
+description: Metric-to-CI binding associates metrics collected by a pull connector with configuration items \(CIs\) in the Configuration Management Database \(CMDB\). Each supported connector uses default binding logic, which you can override with a custom implementation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-service-ops/telecommunications-service-operations-management/metric-to-ci-binding-tsom-sgc.html
 release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 breadcrumb: [Performance management: Metric collection, Telecom Assurance, Explore, Telecommunications Service Operations Management]
 ---
 
 # Metric-to-CI binding
 
-Metric-to-CI binding associates metrics collected by a pull connector with configuration items \(CIs\) in the Configuration Management Database \(CMDB\). Default binding logic is used for each supported connector, which you can override with a custom implementation.
+Metric-to-CI binding associates metrics collected by a pull connector with configuration items \(CIs\) in the Configuration Management Database \(CMDB\). Each supported connector uses default binding logic, which you can override with a custom implementation.
 
-## How metric-to-CI binding works
+## Metric-to-CI binding process
 
 When a metric is collected, the platform runs the following sequence to associate each metric with a CMDB CI:
 
 1.  The connector pulls metric data from the vendor and stores it in the metric base \(Clotho\).
 2.  If the metric is not yet bound to a CI, the metric base framework automatically creates an event to record the request for a binding.
-3.  An event field mapping rule fires on the new event. Telecommunications Service Operations Management ships pre-configured event field mapping rules for each supported connector source.
+3.  An event field mapping rule fires on the new event. Telecommunications Service Operations Management ships preconfigured event field mapping rules for each supported connector source.
 4.  The rule delegates to a scripted extension that resolves the appropriate CI for the event. The script updates the `cmdb_ci` field on the event with the resolved CI.
 5.  The binding appears in the Metric to CI mappings table. From that point on, all subsequent metric data for that source-resource pair is associated with the bound CI directly, without creating another event.
 
@@ -32,12 +32,12 @@ If the scripted extension can't resolve a CI, the event's `cmdb_ci` field is lef
 
 No additional configuration is required for CI binding. A scripted extension named `NokiaMPNMetricCIMapper` handles metric-to-CI binding for the MPN pull connector by firing on matching events through an event field mapping rule.
 
-The extension tries the following event fields in order, stopping at the first match. The first lookup uses the CMDB table named in `additional_info.ciClass` on the event \(defaulting to `cmdb_ci`\); the remaining lookups always run against `cmdb_ci`:
+The extension tries the following event fields in order, stopping at the first match. The first lookup uses the CMDB table named in `additional_info.ciClass` on the event \(defaulting to `cmdb_ci`\); the remaining lookups run against `cmdb_ci`.
 
 |Order|Event field|Lookup behavior|
 |-----|-----------|---------------|
 |1|`additional_info.name`|Matched against `name` on the class specified by `additional_info.ciClass`|
-|2|`additional_info.pmDataSource.dn`|Distinguished name traversal in `cmdb_ci`. The deepest matching component wins|
+|2|`additional_info.pmDataSource.dn`|Matched by distinguished name traversal in `cmdb_ci`. The deepest matching component wins|
 |3|`additional_info.pmDataSource.serial_no`|Matched against `serial_number` in `cmdb_ci`|
 |4|`additional_info.pmDataSource.hw_id`|Matched against `name` in `cmdb_ci`|
 |5|`additional_info.pmDataSource.nhg_alias`|Matched against `name` in `cmdb_ci`|
@@ -46,7 +46,7 @@ The `additional_info.name` and `additional_info.pmDataSource.dn` fields can each
 
 On a match, the extension sets the `cmdb_ci` and `ci_type` fields on the event.
 
-## Override the default binding behavior
+## Overriding the default binding behavior
 
 If the shipped lookup logic does not match how your CMDB models the source data, you can override it by providing your own implementation of the `EventFieldMapping` extension point. The platform resolves the implementation at runtime by source name and rule name, so you can substitute your own logic without modifying product code.
 

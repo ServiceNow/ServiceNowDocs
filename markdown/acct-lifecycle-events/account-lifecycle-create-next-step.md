@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-l
 release: brazil
 topic_type: task
 last_updated: "2026-09-30"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [capture next step, meeting next step, follow-up, touchpoint meeting]
 breadcrumb: [Meeting agenda items and next steps, Touchpoints, Customer success, Use, Customer Success Management]
 ---

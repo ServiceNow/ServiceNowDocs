@@ -7,8 +7,8 @@ release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-11-17"
+reading_time_minutes: 6
 breadcrumb: [Configure, WhatsApp Cloud API, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
@@ -259,6 +259,20 @@ Name of the Token Message Verification record that you created for the inbound h
     3.  Enter `lookaside.fbsbx.com` in the trusted media domains field.
 
     4.  Select **Update**.
+
+9.  Enable ServiceNow Otto for Virtual Agent for the WhatsApp channel.
+
+    1.  In the navigation filter of your ServiceNow instance, enter `sys_now_assist_channel_config.list`.
+
+    2.  Select **New**.
+
+    3.  In the **Device Type** field, select **Whatsapp**.
+
+        Accept the default values for the other fields.
+
+    4.  Select **Submit**.
+
+    You can also enable ServiceNow Otto for Virtual Agent for the WhatsApp channel from the display experience settings of your assistant. For more information, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/display-assistant-portal-channel.md).
 
 
 **Parent Topic:**[Configure Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/messg-direct-whatsapp-configure.md)

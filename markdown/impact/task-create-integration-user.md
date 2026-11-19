@@ -34,34 +34,32 @@ The Scan Engine requires a dedicated integration user in each instance. The user
 
 3.  In the **User ID** field, enter a name for the account \(for example, `integration.account`\).
 
-    Fill in the remaining fields as your organization requires. The user ID and password are the only values that directly affect Scan Engine connectivity.
+    Fill in the remaining fields as your organization requires.
 
 4.  Set a password that you can retrieve later.
 
     You will enter this same password as the integration client secret and in the integration user profile. Record it in a secure location before proceeding.
 
-5.  Select **Save**.
+5.  Set **Type** to **Machine**.
 
-6.  On the user record, scroll down to the **Roles** related list and select **Edit**.
+6.  Select the **Internal Integration User** check box.
 
-7.  Search for `sn_se` and add both of the following roles to the user:
+7.  Select **Save**.
+
+8.  On the user record, scroll down to the **Roles** related list and select **Edit**.
+
+9.  Search for `sn_se` and add both of the following roles to the user:
 
     -   `sn_se.internal_rest_integration` – Internal REST Integration
     -   `sn_se.scan_engine_admin` – Scan Engine Admin
-8.  Select **Save**.
+10. Select **Save**.
 
-9.  Repeat this procedure in each additional instance, QA, production, etc., using the same user ID and password.
-
-    Optional: Set the user **Type** to **Machine** or enable **Internal Integration User**. These settings do not affect Scan Engine connectivity but may align with your organization's security policies.
+11. Repeat this procedure in each additional instance, QA, production, etc., using the same user ID and password.
 
 
 ## Result
 
 The integration user account exists in all required instances with the `sn_se.internal_rest_integration` and `sn_se.scan_engine_admin` roles assigned. You are ready to set up the integration authentication.
-
-## What to do next
-
-Proceed to [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md)
 
 **Parent Topic:**[Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-integration-scan-engine.md)
 

@@ -42,15 +42,15 @@ Use the filtering conditions at the bottom of the mapping form to filter out spe
 
 4.  After you have verified that all critical LogRhythm alarm fields are mapped to the ServiceNow AI Platform security incident, and you have set filtering criteria to limit alarm ingestion, choose one to continue the configuration.
 
-<table id="choicetable_r4p_krl_f2b"><thead><tr><th align="left" id="d98411e135">
+<table id="choicetable_r4p_krl_f2b"><thead><tr><th align="left" id="d98614e139">
 
 Option
 
-</th><th align="left" id="d98411e138">
+</th><th align="left" id="d98614e142">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d98411e144">
+</th></tr></thead><tbody><tr><td id="d98614e148">
 
 **Continue or Preview**
 
@@ -58,7 +58,7 @@ Description
 
 The Preview form of the security incident with your mapping configuration is displayed.**Preview** is selected on the progress bar. The next step is to view the security incident with your mapped alarms.
 
-</td></tr><tr><td id="d98411e158">
+</td></tr><tr><td id="d98614e162">
 
 **Update**
 
@@ -66,7 +66,7 @@ The Preview form of the security incident with your mapping configuration is dis
 
 Save your data and return to the **Alarm Profiles** list.
 
-</td></tr><tr><td id="d98411e170">
+</td></tr><tr><td id="d98614e174">
 
 **Previous**
 
@@ -74,7 +74,7 @@ Save your data and return to the **Alarm Profiles** list.
 
 The alarm profile record is displayed.
 
-</td></tr><tr><td id="d98411e179">
+</td></tr><tr><td id="d98614e183">
 
 **Delete**
 

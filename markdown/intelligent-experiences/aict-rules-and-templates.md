@@ -1,6 +1,6 @@
 ---
-title: Configuring rules and templates in AI Control Tower
-description: Configure how AI assets are classified, evaluated, valued, and secured across your organization through rules and templates.
+title: Configuring rules and templates
+description: Use rules and templates in Super Intelligence Control Tower to configure how AI assets are classified, evaluated, valued, and secured across your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-rules-and-templates.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Configuring rules and templates in AI Control Tower
+# Configuring rules and templates
 
-Configure how AI assets are classified, evaluated, valued, and secured across your organization through rules and templates.
+Use rules and templates in Super Intelligence Control Tower to configure how AI assets are classified, evaluated, valued, and secured across your organization.
 
 Rules and templates settings bring together the configuration that drives automated AI governance behavior on your instance.
 
@@ -25,7 +25,7 @@ Rules and templates settings bring together the configuration that drives automa
 
 -   **Evaluation**
 
-    Configure evaluation scoring for ServiceNow and external AI systems. Select which metrics are scored on each evaluated session, and use metric templates to define how individual metric scores aggregate into quality and safety scores. For more information, see [Configuring monitoring and evaluations in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configuring-aict-evaluations.md).
+    Configure evaluation scoring for ServiceNow and external AI systems. Select which metrics are scored on each evaluated session, and use metric templates to define how individual metric scores aggregate into quality and safety scores. For more information, see [Configuring monitoring and evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configuring-aict-evaluations.md).
 
 -   **Templates**
 
@@ -43,8 +43,8 @@ Rules and templates settings bring together the configuration that drives automa
 
 -   **Security**
 
-    Configure security rules and templates that control how AI Control Tower detects and responds to security threats across your AI assets. For more information, see [Configure post-runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md).
+    Configure security rules and templates that control how Control Tower detects and responds to security threats across your AI assets. For more information, see [Configure post-runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md).
 
 
-**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring.md)
+**Parent Topic:**[Configuring Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring.md)
 

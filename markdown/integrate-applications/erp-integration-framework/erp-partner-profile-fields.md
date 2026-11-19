@@ -102,4 +102,5 @@ Message code \(Allowed message types column\)
 A third level of differentiation of message type.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+

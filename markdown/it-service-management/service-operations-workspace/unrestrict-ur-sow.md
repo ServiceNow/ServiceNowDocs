@@ -1,6 +1,6 @@
 ---
 title: Mark the universal request as unrestricted in Service Operations Workspace
-description: You can mark a restricted universal request as unrestricted if you identify that the request doesn't have any sensitive information.
+description: Mark a restricted universal request as unrestricted when it contains no sensitive information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/unrestrict-ur-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Universal Request in Service Operations Workspace, Managing IT serv
 
 # Mark the universal request as unrestricted in Service Operations Workspace
 
-You can mark a restricted universal request as unrestricted if you identify that the request doesn't have any sensitive information.
+Mark a restricted universal request as unrestricted when it contains no sensitive information.
 
 ## Before you begin
 

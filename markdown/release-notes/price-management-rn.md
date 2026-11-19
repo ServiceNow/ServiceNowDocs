@@ -66,12 +66,16 @@ Define pricing rules for individual consumers with a new context variable and re
     -   Upsell quotes
         -   When a source product is swapped, the derived product now gets the required Amend and Add lines.
         -   Derived product split lines are now added within their wrapper line. Previously, a split line could be added outside the wrapper.
+    -   Early renewals
+        -   For early renewals that cover multiple contracts, source lines, target lines, and sold products are now limited to the contract being renewed. Previously, a no-change line could be selected from a different contract.
+        -   No-change lines are now skipped when the parent line is also renewed. Previously, these lines could be inserted under the renewal wrapper.
 -   **[Pricing requests and responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-crm-pricing-api.md)**
 
     Get complete and consistent pricing responses for your integrations.
 
     -   Pricing continues when a setting in the request isn't defined, instead of stopping.
     -   Extra spaces in a **pricing\_elements** value are trimmed, so the list price step is no longer skipped.
+    -   When **use\_external\_code** is true, **product\_offering** returns the external ID code rather than the sys\_id.
     -   In upsell, renewal, and new business quotes, values that aren't numbers, such as support type, are returned as empty strings instead of null.
 -   **Pricing for product instance changes**
 

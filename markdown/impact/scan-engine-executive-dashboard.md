@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-executive-dashboard.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-01"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [Track Platform Health trends, Platform Health, Using Impact, Impact]
 ---
@@ -51,6 +51,7 @@ Platform Health Score
 -   A 0–100 metric showing your overall instance platform risk across five weighted categories.
 -   Combines Security, Performance, Manageability, Upgradeability, and User Experience risk independently so that higher severity violations carry more weight than cosmetic issues.
 -   Each category is scored separately and unaffected by changes in other categories, giving you a stable indicator of true platform health without false shifts.
+-   The score displays as a whole number, rounded to the nearest integer.
 
  For the complete calculation model and category weights, see [Platform Health score calculation model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-health-score-calculation.md).
 

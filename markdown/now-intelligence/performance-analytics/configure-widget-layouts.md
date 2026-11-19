@@ -32,21 +32,21 @@ Role required: User. dashboard\_admin for all dashboards, or any role for dashbo
 
 4.  Perform any of the following actions.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d44543e118">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d41662e120">
 
 Action
 
-</th><th align="left" id="d44543e121">
+</th><th align="left" id="d41662e123">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d44543e127">
+</th></tr></thead><tbody><tr><td id="d41662e129">
 
 **Show or hide the widget border, header, and title**
 
 </td><td>
 
-1.  Point to the widget, then click the gear icon \(\[Omitted image "Pa\_dashboard\_cog.png"\] Alt text: Edit widget icon\).
+1.  Point to the widget, then click the gear icon \(\[Omitted image "Pa\_dashboard\_cog.png"\] Alt text: Widget settings gear icon\).
 2.  In the Edit Widget window, select or clear the boxes to show or hide the border, header, and title.
 
 **Note:** If you hide the header, point to the handlebar at the top of the widget to show the icons.
@@ -56,18 +56,18 @@ Steps
 
  It is not possible to change the title of a widget from within a dashboard. The title is taken from the visualization the widget is based on. Edit the visualization itself to change the title.
 
-</td></tr><tr><td id="d44543e175">
+</td></tr><tr><td id="d41662e177">
 
 **Change the widget title color and header color**
 
 </td><td>
 
-1.  Point to the widget, then click the gear icon \(\[Omitted image "Pa\_dashboard\_cog.png"\] Alt text: Edit widget icon\).
+1.  Point to the widget, then click the gear icon \(\[Omitted image "Pa\_dashboard\_cog.png"\] Alt text: Widget settings gear icon\).
 2.  In the Edit Widget window, click the color picker icon \(\[Omitted image "color-picker.png"\] Alt text: Color picker icon\) for Title color or Header color.
 3.  In the color picker, use the slider to choose a hue and select a color to choose it. You can also enter the hexadecimal code for the color in the **Title color** or **Header color** field. Delete the hexadecimal code to return to the default title or header color.
  **Note:** When you select a dark header color, the icons in the header change to white. When you select a light header color, the icons in the header change to black.
 
-</td></tr><tr><td id="d44543e213">
+</td></tr><tr><td id="d41662e215">
 
 **Resize or change the layout of widgets**
 
@@ -79,7 +79,7 @@ Drag to move and resize widgets.
 -   To make a widget smaller, point to the widget header and press SHIFT as you click the resize icon.
 
 
-</td></tr><tr><td id="d44543e237">
+</td></tr><tr><td id="d41662e239">
 
 **Apply a dashboard background color**
 
@@ -94,7 +94,7 @@ Drag to move and resize widgets.
 
 Core UI dashboard backgrounds are not themeable with custom colors.
 
-</td></tr><tr><td id="d44543e280">
+</td></tr><tr><td id="d41662e282">
 
 **Apply a quick layout to a dashboard**
 
@@ -104,7 +104,7 @@ Core UI dashboard backgrounds are not themeable with custom colors.
 2.  Click a layout to snap the widgets against. Resize or change the layout of widgets as desired.
 
 
-</td></tr><tr><td id="d44543e303">
+</td></tr><tr><td id="d41662e305">
 
 **Delete a widget from the dashboard**
 

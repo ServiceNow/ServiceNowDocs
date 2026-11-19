@@ -1,6 +1,6 @@
 ---
-title: Track a customer complaint case in workspace
-description: Track the status of a retail customer complaint case in Workspace.
+title: Track a customer complaint case in CRM Workspace
+description: Track the status of a retail customer complaint case in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-track-a-customer-complaint-case.html
 release: brazil
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Manage customer complaints, Retail]
 ---
 
-# Track a customer complaint case in workspace
+# Track a customer complaint case in CRM Workspace
 
-Track the status of a retail customer complaint case in Workspace.
+Track the status of a retail customer complaint case in CRM Workspace.
 
 ## Before you begin
 

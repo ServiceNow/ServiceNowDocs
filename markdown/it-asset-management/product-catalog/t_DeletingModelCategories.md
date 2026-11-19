@@ -18,7 +18,7 @@ If a model category is no longer needed, you can delete it.
 
 ## Before you begin
 
-Role required: model\_manager
+Role required: category\_manager
 
 ## About this task
 

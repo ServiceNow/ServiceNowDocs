@@ -73,7 +73,9 @@ Jumpstart Your Event Management provides Impact customers with a comprehensive o
 
 ## Exclusions
 
-This Impact Accelerator in its entirety or portions of the Impact Accelerator Activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers \(except for their internal use\).
+This Impact Accelerator, in whole or in part, may not be available to customers in certain restricted environments or to self-hosted customers. Managed service providers may access it for internal use only.
 
-ServiceNow resources are not responsible for implementing recommendations on a customer's non-production or production instances.
+## Exclusions
+
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

@@ -20,17 +20,10 @@ Intelligent Search for CMDB is supported only on English language instances and 
 
 ## Integration with CMDB Workspace
 
-Intelligent Search for CMDB is integrated into the Home view in the CMDB Workspace store app. For more information, see:
+Intelligent Search for CMDB is integrated into the Explore and Search view in the CMDB Workspace store app. For more information, see:
 
--   [Home view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-home-view.md) \(Intelligent Search section\) for details about how to use Intelligent Search, sample search strings, and helpful tips.
+-   [Explore and Search view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md) \(Intelligent Search section\) for details about how to use Intelligent Search, sample search strings, and helpful tips.
 -   [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) for additional details about CMDB Workspace.
-
-## Integration with Service Graph Workspace
-
-Intelligent Search for CMDB is integrated into the Search and Explore view in the Service Graph Workspace store app. For more information, see:
-
--   [Explore and Search view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md), Search tab for details about how to use Intelligent Search, sample search strings, and helpful tips.
--    for additional details about Service Graph Workspace.
 
 ## Integration with CMDB Query Builder
 
@@ -70,7 +63,7 @@ Any modification to sample searches is reflected in CMDB Workspace,Service Graph
 
 The NLQ Synonym \[nlq\_synonym\] table is pre-populated with synonyms for natural language strings for CMDB table and column names, and relationships. This table is used to match natural language search words to the CMDB query language. For example, the phrase ‘linux server’ has synonyms such as ‘Linux Server’, ‘Server’, and ‘Virtual Machine Instance’.
 
-For details about viewing and adding synonyms customized to your business needs, see NLQ synonyms.
+For details about viewing and adding synonyms customized to your business needs, see [NLQ synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-nlq-synonym.md).
 
 ## CMDB Implicit Relationships
 
@@ -90,5 +83,5 @@ For example, in CMDB Query Builder, you want to see your service offerings that 
 
 Implicit relationships are stored in the NLQ CMDB Implicit Relationship \[nlq\_cmdb\_implicit\_relationship\] table and are used in the CMDB Workspaceand in Service Graph Workspace, and if integrated, also in CMDB Query Builder.
 
-For more information about NLQ in the ServiceNow AI Platform, see Natural Language Query \(NLQ\).
+For more information about NLQ in the ServiceNow AI Platform, see [Natural Language Query \(NLQ\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/natural-language-query.md).
 

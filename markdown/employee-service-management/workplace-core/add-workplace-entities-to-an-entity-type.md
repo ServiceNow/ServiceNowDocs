@@ -9,7 +9,7 @@ classification: workplace-core
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Workplace entity and entity types, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure Workplace entities and entity types, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add workplace entities to an entity type
@@ -37,13 +37,12 @@ Create and associate a workplace entity with an entity type so that it can be ea
     |Field|Description|
     |-----|-----------|
     |Name|Name of the workplace entity.|
-    |Parent|Parent of the workplace entity.|
     |Entity type|Entity type to which the workplace entity belongs.|
-    |Active|Option to activate the workplace entity.|
+    |Active|Option to activate the workplace entity. Select the checkbox so that the entity appears in Workplace Central.|
     |Managed by group|Group that manages the workplace entity. Users of the selected group receive a notification when an allocation for the entity is going to expire.|
     |Managed by|User that manages the workplace entity. The selected user receives a notification when an allocation for the entity is going to expire.|
 
-4.  Select **Submit**.
+4.  Select **Submit** to save the record to establish the parent-child relationship for an entity.
 
 
 ## Result
@@ -59,5 +58,5 @@ To populate the Entity-mapping column for existing workplace entities, the appli
 -   **Set hierarchy from scratch via subflow**: Run this flow to recalculate the entity-mapping columns for the complete hierarchy.
 -   **Process entity updates via subflow**: This flow runs everyday to update the workplace entity-mapping columns only for those workplace entities where the 'update\_type' column is set.
 
-**Parent Topic:**[Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-entity.md)
+**Parent Topic:**[Configure Workplace entities and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-entity.md)
 

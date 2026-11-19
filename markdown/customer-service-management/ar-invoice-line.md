@@ -47,3 +47,8 @@ The following table lists the fields for AR invoice line \[sn\_otc\_invoice\_lin
 |Tax rate string|String|Tax rate % applied on the invoice line - Tax rate in string if tax code and decimal is not used.|
 |Unit of Measure|Reference to Unit|Unit of Measure for the invoice line item quantity.|
 
+**Related topics**  
+
+
+[ar-invoice-access]
+

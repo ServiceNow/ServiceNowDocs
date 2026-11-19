@@ -1,6 +1,6 @@
 ---
 title: Configure the Case create component instance
-description: Configure the Case create component instance so that your users can embed it within their website to address any issues related to product and services from their website directly.
+description: Configure the Case create component instance so users can embed it in their website to report product and service issues directly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/config-case-create-component-on-instance.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Case create component, Configure web components, Configure Web Embe
 
 # Configure the Case create component instance
 
-Configure the Case create component instance so that your users can embed it within their website to address any issues related to product and services from their website directly.
+Configure the Case create component instance so users can embed it in their website to report product and service issues directly.
 
 ## Before you begin
 

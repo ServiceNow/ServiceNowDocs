@@ -1,0 +1,33 @@
+---
+title: Configure updates on Microsoft 365 Admin Center
+description: Avoid anonymous user information in Microsoft 365 reports on activity to be imported to ServiceNow.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/it-asset-management/saas-license-management/conf-update-micro-admin.html
+release: brazil
+product: SaaS License Management
+classification: saas-license-management
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Integrating with Microsoft 365, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
+---
+
+# Configure updates on Microsoft 365 Admin Center
+
+Avoid anonymous user information in Microsoft 365 reports on activity to be imported to ServiceNow.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Log in to [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home) by using your admin credentials.
+
+2.  Navigate to **Settings** &gt; **Services** &gt; **Org settings** &gt; **Reports**.
+
+3.  Deselect the **Display concealed user, group, and site names in all reports** check box.
+
+    For more information about the Microsoft 365 reports showing anonymous user information, see [Microsoft 365 reports show anonymous user names instead of actual user names](https://docs.microsoft.com/en-US/office365/troubleshoot/miscellaneous/reports-show-anonymous-user-name).
+
+

@@ -202,15 +202,15 @@ If you’re using Software Asset Workspace, the option to create the SAP Ariba i
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d236164e797">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d235595e803">
 
 Interface
 
-</th><th align="left" id="d236164e800">
+</th><th align="left" id="d235595e806">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d236164e806">
+</th></tr></thead><tbody><tr><td id="d235595e812">
 
 **Core UI**
 
@@ -221,7 +221,7 @@ Action
 3.  Select **SAP Ariba Integration Profile**.
 
 
-</td></tr><tr><td id="d236164e848">
+</td></tr><tr><td id="d235595e854">
 
 **Software Asset Workspace**
 
@@ -273,7 +273,7 @@ Type of integration profile. This field is automatically set to `Ariba Subscript
 </td></tr></tbody>
 </table>3.  View the required user roles or API permissions to minimize security risks and optimize SaaS licenses.
 
-    In the Download Subscription Subflow section, verify that the **Subflow** field is set to**SAP Ariba Download Subscriptions**. The **Download subscriptions** check box is selected by default and you can't clear it.
+    In the Download Subscription Subflow section, verify that the **Subflow** field is set to **SAP Ariba Download Subscriptions**.
 
 4.  Select **Save**.
 

@@ -8,7 +8,7 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -67,6 +67,13 @@ The Software Asset Management application supports various types of licenses for
 
 
 For more information on license metrics and metric groups, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).
+
+## Learn more
+
+To learn how to manage engineering licenses, see the following topics:
+
+-   [Engineering License overview dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/engineering-license-dashboard-workspace.md)
+-   [View discovered engineering licenses in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/view-disco-englicenses-workspace.md)
 
 -   **[Tables installed with engineering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/components-installed-engg-app.md)**  
 Tables are installed with the Software Asset Management Professional for Engineering Applications store app \(sn\_samp\_eng\_app\).

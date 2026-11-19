@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Creating requests for AI assets, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Creating requests for AI assets, Using Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create offboarding requests for AI assets
@@ -38,7 +38,7 @@ You can create offboarding requests for the following AI asset types:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **AI Control Tower**.
+1.  Navigate to **Workspaces** &gt; **Control Tower**.
 
 2.  If you have the AI asset owner \(sn\_ai\_asset\_mgmt.ai\_asset\_owner\) role, create an offboarding request.
 
@@ -54,11 +54,11 @@ Procedure
 
 </th></tr></thead><tbody><tr><td>
 
-AI Control Tower Home view
+Home view
 
 </td><td>
 
-1.  From the Home view of the AI Control Tower workspace, select the **Create request** drop-down menu.
+1.  From the Home view of the Control Tower workspace, select the **Create request** drop-down menu.
 2.  Select **Create an offboarding request**.
 
 
@@ -68,7 +68,7 @@ Offboarding requests list
 
 </td><td>
 
-1.  From the AI Control Tower workspace, open the AI assets view.
+1.  From the Control Tower workspace, open the AI assets view.
 2.  From the navigation menu of the AI assets view, navigate to **Requests** &gt; **Offboarding requests**.
 3.  Select **Create offboarding request**.
 
@@ -79,7 +79,7 @@ AI asset record
 
 </td><td>
 
-1.  From the AI Control Tower workspace, open the AI assets view.
+1.  From the Control Tower workspace, open the AI assets view.
 2.  From the navigation menu of the AI assets view, locate the **AI asset inventory - Managed** section and then select the subsection for the type of AI asset that you want to retire.
 
 Alternatively, navigate to **Lifecycle** &gt; **Deploy**.
@@ -152,7 +152,7 @@ Offboarding requests list
 
 </td><td>
 
-1.  From the AI Control Tower workspace, open the AI assets view.
+1.  From the Control Tower workspace, open the AI assets view.
 2.  From the navigation menu of the AI assets view, navigate to **Requests** &gt; **Offboarding requests**.
 3.  From the list of available offboarding requests, select the record number for the request that you want to review.
 
@@ -163,7 +163,7 @@ AI asset record
 
 </td><td>
 
-1.  From the AI Control Tower workspace, open the AI assets view.
+1.  From the Control Tower workspace, open the AI assets view.
 2.  From the navigation menu of the AI assets view, locate the **AI asset inventory - Managed** section and then select the subsection for the type of AI asset that the offboarding request was created for.
 
 Alternatively, navigate to **Lifecycle** &gt; **Deploy**.

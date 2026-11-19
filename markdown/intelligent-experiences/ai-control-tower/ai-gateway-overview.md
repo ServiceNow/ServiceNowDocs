@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Gateway
@@ -66,14 +66,14 @@ Roles
 -   AI steward \[sn\_ai\_governance.ai\_steward\] - for approval workflows and policy management
 -   AI Agent admin \[sn\_aia.admin\] – for configuring MCP servers as tools in AI Agent Studio
 
-The AI Gateway application is automatically installed for customers who use AI Control Tower for Now Assist.
+The AI Gateway application is automatically installed for customers who use Control Tower for Now Assist.
 
-If you're using any generative AI features, you already have access to AI Gateway. The AI Gateway is included with all types of pro plus licenses. To use the features in AI Gateway, ensure that both AI Agent Studio and AI Control Tower are available in your instance.
+If you're using any generative AI features, you already have access to AI Gateway. The AI Gateway is included with all types of pro plus licenses. To use the features in AI Gateway, ensure that both AI Agent Studio and Control Tower are available in your instance.
 
 ## What to explore next
 
 -   For information on the process flow of MCP servers, see [Process flow of MCP servers via AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/process-flow-of-mcp-servers-via-ai-gateway.md)
 -   For information on AI Gateway setup tab, see [MCP server record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/view-the-mcp-server-record.md)
 -   For information on AI Gateway in the configuration page, see [AI Gateway settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gateway.md)
--   For information on the roles in AI Control Tower and their role with AI Gateway, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.md)
+-   For information on the roles in Control Tower and their role with AI Gateway, see [Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.md)
 

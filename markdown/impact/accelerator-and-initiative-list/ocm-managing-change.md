@@ -33,7 +33,7 @@ Completion of [OCM: Preparing for Change](https://raw.githubusercontent.com/Serv
 
 ## What You Get
 
-Includes the following CSE-led sessions and activities, as applicable \(up to 1.5 hours each\):
+Includes the following sessions and activities, as applicable \(up to 1.5 hours each\):
 
 -   **Kickoff Session**
     -   Set expectations on the process and depth of resources.

@@ -18,7 +18,7 @@ View the process graph as a node star diagram in the Process Map component on da
 
 When you view a process graph in the Process Map component on dashboards, and want to know the details of one node in the graph, you must use the node star diagram.
 
-To know more about configuring a Process Mining map to view the process graph in the PAR dashboard, see [Configure Process Mining map in PAR dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/config-dashboard.md). For more information about Platform Analytics \(PAR\) dashboards, see .
+To know more about configuring a Process Mining map to view the process graph in the PAR dashboard, see [Configure Process Mining map in PAR dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/config-dashboard.md). For more information about Platform Analytics \(PAR\) dashboards, see [Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/ac-elements.md).
 
 The following process graph displays details about the reassignment analysis.
 

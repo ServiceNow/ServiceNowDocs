@@ -18,7 +18,7 @@ You can activate the Field Service Territory Planning plugin \(com.snc.fsm\_terr
 
 ## Before you begin
 
-Field Service Territory Planning requires the installation of Dispatcher Workspace plugin \(com.snc.uib.fsm\_dispatcher\_workspace\) to access the Territory Planning console.
+Field Service Territory Planning requires the installation of FSM Configurable Dispatcher Workspace \(sn\_fsm\_disp\_wrkspc\) plugin to access the Territory Planning console.
 
 Role required: admin
 

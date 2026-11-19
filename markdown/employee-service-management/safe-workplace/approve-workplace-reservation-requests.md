@@ -26,15 +26,15 @@ Role required: approver\_user
 
 1.  Navigate to a reservation approval task.
 
-<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d717381e71">
+<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d718061e73">
 
 Application
 
-</th><th align="left" id="d717381e74">
+</th><th align="left" id="d718061e76">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d717381e80">
+</th></tr></thead><tbody><tr><td id="d718061e82">
 
 **Now Mobile**
 

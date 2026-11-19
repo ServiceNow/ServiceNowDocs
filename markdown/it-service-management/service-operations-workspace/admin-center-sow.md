@@ -7,7 +7,7 @@ release: brazil
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 breadcrumb: [Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -25,7 +25,7 @@ The Admin Center provides a single page where an admin can access all platform c
 -   **[Manage configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md)**  
 From a single page, quickly access and manage the customizations in Service Operations Workspace \(SOW\) for ITSM, access additional plugins that extend the Service Operations Workspace for ITSM capabilities, and access ServiceNow help.
 -   **[Migrate the existing charts to PAR dashboard in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/migrate-charts-par-dashboard.md)**  
-You can migrate the common customizations and configurations of the existing dashboard to the Performance Analytics dashboard\(PAR dashboard\) using the on-screen migration utility. With this migration, you won't have to re-do the customizations for the PAR dashboard in Service Operations Workspace for ITSM to view the data.
+You can migrate the common customizations and configurations of the existing dashboard to the Performance Analytics dashboard \(PAR dashboard\) using the on-screen migration utility. With this migration, you won't have to redo the customizations for the PAR dashboard in Service Operations Workspace for ITSM to view the data.
 
 **Parent Topic:**[Configuring Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-sow.md)
 

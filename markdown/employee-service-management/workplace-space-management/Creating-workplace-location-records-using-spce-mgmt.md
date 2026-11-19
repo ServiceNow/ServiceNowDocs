@@ -63,6 +63,8 @@ Create a record for every area that is located on a floor.
 Create a record for every room located in an area or a floor. Specify the size of the room. Assign the room to a cost center or a department.
 -   **[Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/add-a-space.md)**  
 Create a space record for every workspace located on a floor. Specify the space type and the size of the space.
+-   **[Configure a space type as usable with Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/assign-a-space-as-usable.md)**  
+Specify if a space type is usable or not by using the Space type configuration functionality. Specify if the space can or cannot be used for reservations.
 -   **[Allocate a cost center, department, or workplace entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/add-cost-center-department-floor.md)**  
 Assign either a cost center, department, or workplace entity to a workplace location. Manage space consumptions, expenses, workplace assignments, and reservations based on an employee cost center, department, or workplace entity.
 -   **[Configure a workspace or desk as flexible or permanent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/assign-a-flex-perm-space.md)**  

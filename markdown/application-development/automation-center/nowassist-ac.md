@@ -58,7 +58,7 @@ Explore the benefits of ServiceNow Otto for Automation Center.
 Configure ServiceNow Otto for Automation Center to use all the features.
 -   **[Using ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/use-now-assist.md)**  
 Use ServiceNow Otto for Automation Center to explore available automations in your ServiceNow instance. You can also create an automation request from the Task Mining workspace.
--   **[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/reference.md)**  
+-   **[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/reference-ac.md)**  
 Reference topics provide additional information about the lists and forms that you use to configure and administer Now Assist for Automation Center.
 
 **Parent Topic:**[Using Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/automation-center-use.md)

@@ -9,7 +9,7 @@ classification: table-administration-and-data-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Building hierarchical queries, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Building hierarchical queries, Table admin, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create a record hierarchy

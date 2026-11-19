@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Using Employee Center, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # View the Recommended for you content

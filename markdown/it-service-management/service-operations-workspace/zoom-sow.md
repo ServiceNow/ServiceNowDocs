@@ -17,15 +17,15 @@ breadcrumb: [Notify in Service Operations Workspace, Collaboration in Service Op
 Use Zoom to schedule conference calls with stakeholders to resolve incidents in Service Operations Workspace.
 
 -   **[Start a conference call using Zoom in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/start-conference-call-zoom.md)**  
-Start a conference call using Zoom to work towards the resolution of an incident.
+Start a conference call using Zoom to work toward the resolution of an incident.
 -   **[Managing Zoom conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-conference-calls-zoom.md)**  
 Add or mute participants in a Zoom conference call in Service Operations Workspace.
 -   **[Leave a Zoom conference call in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/leave-zoom-conference-call.md)**  
-Leave an active conference call. The call will still be active with other participants.
+Leave an active conference call. The call is still active with other participants.
 -   **[End a Zoom conference call in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/end-zoom-conference-call.md)**  
 As a host or a user with the incident manager role, you can end the conference call.
--   **[Reinitiate a conference call from Webex in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/reinitiate-zoom-conference-call.md)**  
-Reinitiate a conference call to discuss about the resolution of an incident.
+-   **[Reinitiate a conference call from Zoom in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/reinitiate-zoom-conference-call.md)**  
+Reinitiate a conference call to discuss the resolution of an incident.
 
 **Parent Topic:**[Notify in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/notify-sow.md)
 

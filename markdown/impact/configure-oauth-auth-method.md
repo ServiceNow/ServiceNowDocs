@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-10-28"
 reading_time_minutes: 3
-breadcrumb: [Register your instance, Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Register your instance in My SN Instances, Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure the OAuth authentication method development instance
@@ -16,7 +16,7 @@ Set up OAuth authentication for instance-to-instance Scan Engine integrations us
 
 ## About this task
 
-OAuth requires a minimum of one provider record and two client records per connection direction. The provider is created on the instance that receives connections \(typically Production\); the client is created on the initiating instance \(typically Development\) and must also be present on the provider instance.
+OAuth requires a minimum of one provider record and two client records per connection direction. The provider is created on the instance that receives connections \(typically Production\). The client is created on the initiating instance \(typically Development\) and must also be present on the provider instance.
 
 **Note:**
 
@@ -29,7 +29,7 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 ## Procedure
 
 1.  Stage 1: Confirm the integration user account
-2.  Confirm that the integration user account exists in both development and production instances, has the required roles assigned, and that the account password is recorded in a secure location for use in later stages.
+2.  Confirm the account exists in both development and production instances, has the required roles assigned, and the account password is recorded in a secure location for later use.
 
     If the account has not been created yet, complete [Create an integration user account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/task-create-integration-user.md) before continuing.
 
@@ -94,7 +94,7 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 19. Stage 5: Set up the SN instances
 20. Navigate to **All** &gt; **Scan Engine** &gt; **My SN Instances**.
 
-    If the My SN Instances record for this instance has not been created yet, complete [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md) before continuing.
+    If the My SN Instances record for this instance has not been created yet, complete [Register your instance in My SN Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md) before continuing.
 
 21. Open the existing instance record and configure the OAuth-specific fields as follows.
 
@@ -117,5 +117,5 @@ Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
 -   **[Configure the OAuth authentication method production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-oauth-auth-method-prod.md)**  
 Export OAuth records from the development instance, import them into the production instance, and correct Key Management Framework \(KMF\) credential encryption. Configure development-to-production authentication so that both instances can validate their connections to each other.
 
-**Parent Topic:**[Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md)
+**Parent Topic:**[Register your instance in My SN Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md)
 

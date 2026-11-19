@@ -32,7 +32,7 @@ After a spend transaction import completes, the **SAM - Label Spend Transactions
     Matches the extracted publisher and product to the existing records in the Software Asset Management Content Library. This linking supports accurate spend reporting and license position tracking.
 
 
-For more details, see [Classify and normalize software spend transactions by using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/classify-normalize-software-spend-transactions.md) and [Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/now-assist-sam-skills-inputs.md).
+For more details, see [Classify and normalize software spend transactions by using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/classify-normalize-software-spend-transactions.md).
 
 Transactions not identified as software are not processed by the Spend transaction software normalization skill.
 
@@ -85,8 +85,6 @@ To access the card, go to **Software Asset Workspace** &gt; **Software asset ove
 [Managing software spend in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/spend-detection-sam-workspace.md)
 
 [AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/exploring-now-assist-sam.md)
-
-[Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/now-assist-sam-skills-inputs.md)
 
 [Generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/explore-generative-ai-skills-now-assist-sam.md)
 

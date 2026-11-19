@@ -23,11 +23,11 @@ Configure the display order of a record page tab in Service Operations Workspace
 -   **[Configure a task record form in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-form-layout-task.md)**  
 Configure a task record form in Service Operations Workspace by modifying the form layout or related lists from the classic ServiceNow AI Platform user interface.
 -   **[Define and customize activity stream tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/define-customize-activity-stream-tags.md)**  
-Define and customize the activity stream tags for the record pages in Service Operations Workspace. The tags helps in filtering the activity from the activity streams as required.
+Define and customize the activity stream tags for the record pages in Service Operations Workspace. The tags help filter the activity from the activity streams as required.
 -   **[Configure the Assign or Resolve dialog box for an incident or change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-assign-resolve-modals-incident.md)**  
 Customize the fields displayed in the Assign and Resolve dialog box for an incident in Service Operations Workspace. Customize the fields displayed in the Assign dialog box for a change request in Service Operations Workspace.
 -   **[Configure the experts On-call panel for an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-experts-on-call-tab.md)**  
-Configure the **Experts on-call** panel for an incident.
+Customize the recommendations that the **Experts on-call** panel displays for an incident.
 -   **[Create a task type for problem or change in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-task-type-sow.md)**  
 Configure a task type that can be used during problem or change creation.
 -   **[Configuring standard record pages in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/srp-service-operations-workspace.md)**  

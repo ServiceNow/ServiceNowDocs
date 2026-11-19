@@ -9,7 +9,7 @@ classification: common-service-data-model-csdm
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Explore, Common Service Data Model \(CSDM\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Products that use and benefit from CSDM guidelines

@@ -7,8 +7,8 @@ release: brazil
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 10
+last_updated: "2026-11-11"
+reading_time_minutes: 9
 breadcrumb: [Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
@@ -24,12 +24,7 @@ When you have the Generative AI plugin installed, you can view the incident patt
 
 ## Prerequisites
 
--   Ensure that the Health and Safety Incident Management application is installed. For more information, see [Install Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md).
--   Configure total annual hours for an establishment. For more information, see [Add total hours worked for an establishment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/add-hs-total-hours-worked-establishment.md).
--   Run the **\[OHS\] Safety Metrics** scheduled job to update the safety metrics on demand. For more information, see [Configure scheduled job to generate frequency rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/configure-job-generate-frequency-rates.md).
-
-    **Note:** The **\[OHS\] Safety Metrics** job is set to run daily by default.
-
+-   Confirm that the Health and Safety Incident Management application is installed. For more information, see [Install Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md).
 
 ## Required roles
 
@@ -41,8 +36,6 @@ When you have the Generative AI plugin installed, you can view the incident patt
 ## Access the Health and Safety Incident Management metrics
 
 Navigate to **Workspaces** &gt; **Health and Safety Workspace** and select the **Incident Management** tab on the Health and Safety dashboard.
-
-**Note:**
 
 -   To view a high-level summary of key incident metrics such as the total incidents and recordable injuries, select the **Highlights** tab.
 -   To view top incident metrics with data broken down by each establishment for localized analysis, select the **Establishment Metrics** tab. Use the **Establishment** filter in this tab to show the data by establishment.

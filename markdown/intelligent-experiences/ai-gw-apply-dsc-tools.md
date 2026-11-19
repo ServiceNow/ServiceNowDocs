@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-22"
 reading_time_minutes: 1
 keywords: [Data Sensitivity Check, MCP tools]
-breadcrumb: [Govern tools and data, AI Gateway, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Govern tools and data, AI Gateway, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Apply the Data Sensitivity Check to a server's tools
@@ -25,7 +25,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Open the MCP server record: navigate to **Settings** &gt; **AI Gateway**, and on the **Overview** tab, select the server name, or in AI Control Tower, navigate to **Inventory** &gt; **Assets** &gt; **MCP servers** and select the server name.
+1.  Open the MCP server record: navigate to **Settings** &gt; **AI Gateway**, and on the **Overview** tab, select the server name, or in Control Tower, navigate to **Inventory** &gt; **Assets** &gt; **MCP servers** and select the server name.
 
 2.  Select the **AI Gateway** tab, and then select the **Policies** sub-tab.
 

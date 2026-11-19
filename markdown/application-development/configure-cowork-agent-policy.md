@@ -29,7 +29,7 @@ You can't edit or delete the **Default Policy**, or add rules to it. To change i
 
 When you use a policy to override the **Default Policy**, add only the rules you want to change. Anything you don't add keeps coming from the **Default Policy**.
 
-You can also manage policies and their rules in AI Control Tower. For more information, see [Manage Arc agent policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-arc-policies-aict.md).
+You can also manage policies and their rules in Control Tower. For more information, see [Manage Arc agent policies in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-arc-policies-aict.md).
 
 ## Procedure
 

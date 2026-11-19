@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vc-and-atf.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-11-03"
+reading_time_minutes: 2
 keywords: [vibe coding, AI-assisted development, automated testing, test generation, application development, quality assurance]
 audience: developer
 breadcrumb: [Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
@@ -24,9 +24,13 @@ When you use agentic development, the ServiceNow AI Platform can:
 
 This means you can go from idea to a working, testable app much faster. After the initial generation, you can refine the app and its tests in ServiceNow Studio or the ServiceNow IDE, and run the ATF tests to verify that the app functions correctly.
 
-**Note:** Build Agent can create, edit, and run ATF tests. For more information, see [Test what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-testing.md).
+**Note:** Build Agent can create, edit, and run ATF tests. Test Agent generates the tests, runs them, and performs root cause analysis on failures. Build Agent then applies fixes and runs the tests again until they pass. For more information, see [Test what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-testing.md) and [Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-landing-page.md).
 
 ATF has a troubleshooting agent to debug test failures on specific metadata. For details, see [ATF troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/atf-troubleshooting-agent-landing-page.md).
+
+Test execution requires you to install the ATF Test Generator and Cloud Runner app and set up a cloud user. For more information, see [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-tg-cr-intro.md).
+
+When you use Autonomous Engineer, Test Agent reads the stories and acceptance criteria in the plan and generates tests as implementation begins, without a separate prompt. For more information, see [Test what you built with Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-test-what-you-built.md).
 
 For full documentation on Automated Test Framework, see [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automated-test-framework-atf/atf-landing-page.md).
 

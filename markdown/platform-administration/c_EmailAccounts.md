@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/platform-administration/c\_Emai
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Create, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+reading_time_minutes: 2
+breadcrumb: [Create, Email Administration, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Email accounts

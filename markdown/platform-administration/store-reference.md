@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [servicenow store, store, app store, application store, app store user documentation, servicenow app store, spoke store, integration store]
-breadcrumb: [ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [ServiceNow Store, Administering applications, Get started, ServiceNow AI Platform]
 ---
 
 # ServiceNow Store reference

@@ -1,6 +1,6 @@
 ---
 title: Decision tables release notes
-description: The ServiceNow decision tables application enable you to separate decision logic from your code by creating and managing decision rules in a structured, readable format in Workflow Studio. See the following sections for release notes by version.Decision tables in Workflow Studio were updated in Brazil patch X to address issues and defects.
+description: The ServiceNow decision tables application enable you to separate decision logic from your code by creating and managing decision rules in a structured, readable format in Workflow Studio. See the following sections for release notes by version.Decision tables in Workflow Studio were updated in Brazil Patch 1 to address issues and defects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/decision-tables-rn.html
 release: brazil
@@ -38,9 +38,9 @@ See [Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceN
 
 **Parent Topic:**[Workflow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/workflow-studio-rn-landing.md)
 
-## Brazil patch X
+## [Brazil Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/brazil-patch-1.md)
 
-Decision tables in Workflow Studio were updated in Brazil patch X to address issues and defects.
+Decision tables in Workflow Studio were updated in Brazil Patch 1 to address issues and defects.
 
 ### What's changed
 

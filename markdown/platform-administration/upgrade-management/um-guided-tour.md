@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Explore, Upgrade Console, Upgrade, ServiceNow AI Platform]
 ---
 
 # Guided upgrade

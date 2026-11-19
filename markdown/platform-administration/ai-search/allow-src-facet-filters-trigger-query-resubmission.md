@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-10-24"
 reading_time_minutes: 2
-breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Allow source facet filters to trigger query resubmission for multi-term search queries
@@ -40,7 +40,7 @@ If you prefer the behavior from previous family releases, allowing query resubmi
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `sys_properties.list`.
+    2.  In the navigation filter, enter `sys_properties.list`.
 
     3.  Press Enter.
 

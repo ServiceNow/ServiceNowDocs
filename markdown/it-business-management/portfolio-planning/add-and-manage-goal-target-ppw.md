@@ -16,13 +16,13 @@ breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portf
 
 Track and manage the relationship between demands and organizational goals or targets directly from the Next Experience for Demand Management. Linking demands to goals or targets supports alignment with strategic priorities and shows how each demand contributes to broader organizational objectives.
 
-## Before you begin
-
-Role required: it\_demand\_manager
-
 ## About this task
 
 To create, edit, or remove goal/target relationship records, you can also use the **Add secondary goals** Playbook activity. For more information, see [Use playbook for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/use-playbooks-in-ppw.md).
+
+## Before you begin
+
+Role required: it\_demand\_manager
 
 ## Procedure
 

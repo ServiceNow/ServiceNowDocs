@@ -1,6 +1,6 @@
 ---
 title: Threat Response policies
-description: Automatically contain an AI agent the moment it crosses a risk threshold you define, instead of waiting for someone to notice and act.
+description: Automatically contain an AI agent the moment it crosses a risk threshold you define in Super Intelligence Control Tower, instead of waiting for someone to notice and act.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-threat-response.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Threat Response, containment]
-breadcrumb: [Explore, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Explore, Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Threat Response policies
 
-Automatically contain an AI agent the moment it crosses a risk threshold you define, instead of waiting for someone to notice and act.
+Automatically contain an AI agent the moment it crosses a risk threshold you define in Super Intelligence Control Tower, instead of waiting for someone to notice and act.
 
 ## Key benefits
 
@@ -36,7 +36,7 @@ The following connectors are supported:
 -   ServiceNow Agents
 -   Agent Client Collector \(ACC\)
 
-A connection between AI Control Tower and an identity provider is optional. Okta is supported.
+A connection between Control Tower and an identity provider is optional. Okta is supported.
 
 A policy can also be changed without leaving stale enforcement behind: editing one reverses what it previously enforced and reapplies enforcement for the updated conditions, so a refined rule doesn't leave an old block sitting in place alongside a new one.
 

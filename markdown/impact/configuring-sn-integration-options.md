@@ -16,7 +16,7 @@ Configure the ServiceNow instance user story integration to create stories in a 
 
 ## Before you begin
 
--   My SN Instances registration and validation must be complete for each instance in this integration. A source instance \(such as development\) and target instance \(such as production\) must be declared and validated. If those instances aren't created and validated, the stories aren't created in the target instance. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
+-   My SN Instances registration and validation must be complete for each instance in this integration. A source instance \(such as development\) and target instance \(such as production\) must be declared and validated. If those instances aren't created and validated, the stories aren't created in the target instance. See [Register your instance in My SN Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
 -   The User Story Table must exist on both the source and target instances before configuring field mappings.
 
 Role required: Scan Engine Admin \(sn\_se.scan\_engine\_admin\).
@@ -36,6 +36,8 @@ Configure this integration on the source instance where the findings originate. 
 4.  Define field mappings in **User Story Field Mapping**.
 
     The mapping script executes once on the source instance and once on the target instance. Use the available script variables to control behavior in each context. Use `isSource` and `isDestination` to scope logic to each instance. Every target field in the `grTask` must exist on the User Story table in the production instance. See [ServiceNow integration script leading practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-sn-integration-options.md) guidance on writing effective field mapping scripts.
+
+5.  Select **Update** to save the configuration.
 
 
 **Parent Topic:**[User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/user-story-integration-properties.md)

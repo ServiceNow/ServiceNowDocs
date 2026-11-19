@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-18"
 reading_time_minutes: 2
 keywords: [Multi-Instance Setup, controller, non-production instance, AMF Core, Multi-Instance Framework]
-breadcrumb: [Multi-Instance Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Multi-Instance Management, Get started, ServiceNow AI Platform]
 ---
 
 # Multi-Instance Setup

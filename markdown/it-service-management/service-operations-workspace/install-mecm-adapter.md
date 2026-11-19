@@ -1,5 +1,5 @@
 ---
-title: Install Microsoft Endpoint Configuration Manager\(MECM\) for Investigation
+title: Install Microsoft Endpoint Configuration Manager \(MECM\) for Investigation
 description: You can install the Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/install-mecm-adapter.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Setting up Investigation Framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Install Microsoft Endpoint Configuration Manager\(MECM\) for Investigation
+# Install Microsoft Endpoint Configuration Manager \(MECM\) for Investigation
 
 You can install the Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
 
@@ -22,7 +22,7 @@ You can install the Microsoft Endpoint Configuration Manager for Investigation \
 
 Starting with the Brazil release, Microsoft Endpoint Configuration Manager for Investigation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-The Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application enables you to retrieve and display the CI metrics information for the affected CIs with the ci\_computer or ci\_server class on the **Investigation** tab of the Incident record. You can configure the display of the CI metrics data using the Investigate Framework module, which is installed along with this application. The CI metrics information of the affected CIs helps you to analyze and resolve the issue.
+The Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application enables you to retrieve and display the CI metrics information for the affected CIs with the ci\_computer or ci\_server class on the **Investigation** tab of the incident record. You can configure the display of the CI metrics data using the Investigate Framework module, which is installed along with this application. The CI metrics information of the affected CIs helps you to analyze and resolve the issue.
 
 The following items are installed with Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application:
 

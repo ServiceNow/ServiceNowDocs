@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/impact-roles.html
 release: brazil
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-11-04"
+reading_time_minutes: 3
 breadcrumb: [General reference, Impact reference, Impact]
 ---
 
@@ -191,101 +191,6 @@ Impact Developer Support
 
 </td></tr><tr><td>
 
-Scan Engine
-
-</td><td>
-
-Scan Engine Admin
-
-</td><td>
-
-sn\_se.scan\_engine\_admin
-
-</td><td>
-
--   Full access to all Scan Engine functions and results
--   Configure and manage Scan Engine
--   Manage exception reasons
--   Manage approval workflows
--   Enable AI-generated code fix capabilities
--   View all scan results and findings
--   Initiate scans
-
-</td></tr><tr><td>
-
-Scan Engine
-
-</td><td>
-
-Scan Engine User
-
-</td><td>
-
-sn\_se.scan\_engine\_user
-
-</td><td>
-
--   Access Scan Engine findings
--   View scan initiation buttons without initiation functions
--   View Scan Engine results
-
-</td></tr><tr><td>
-
-Scan Engine
-
-</td><td>
-
-Exception Approver
-
-</td><td>
-
-sn\_se.scan\_engine\_exception\_approver
-
-</td><td>
-
--   Approve and reject exception reason requests
--   Receive and triage exception notifications
-
-</td></tr><tr><td>
-
-Scan Engine
-
-</td><td>
-
-AI Fix User
-
-</td><td>
-
-sn\_impact\_gen\_ai\_ai\_fix\_user
-
-</td><td>
-
--   Access AI-generated code fix capabilities
--   View code fix suggestions from Now Assist
--   Apply AI-generated remediation code
-
-</td></tr><tr><td>
-
-Scan Engine
-
-</td><td>
-
-Internal REST Integration
-
-</td><td>
-
-sn\_iu\_internal\_rest\_integration
-
-</td><td>
-
--   Enable REST API integration for Scan Engine
--   Sync Scan Engine definitions
--   Sync exception reasons
--   Sync Update Set scanning data
--   Perform automated data synchronization
-
-</td></tr><tr><td>
-
 Instance Observer
 
 </td><td>
@@ -377,6 +282,158 @@ sn\_impact\_common.Impact Partner
 -   Read-only access to Impact
 -   Read access to Capabilities Maps, Product Adoption Roadmaps, Objectives, and Accelerators
 -   Request advisory sessions
+
+</td></tr></tbody>
+</table>## Scan Engine roles and groups
+
+After installation, Scan Engine provides groups that include the Scan Engine roles, so you can assign access by group instead of creating groups manually. The groups don't change the existing Impact role hierarchy.
+
+<table><thead><tr><th>
+
+Role
+
+</th><th>
+
+API Role Name
+
+</th><th>
+
+Included in groups
+
+</th><th>
+
+Key Capabilities
+
+</th></tr></thead><tbody><tr><td>
+
+Scan Engine Admin
+
+</td><td>
+
+sn\_se.scan\_engine\_admin
+
+</td><td>
+
+Scan Engine Admin
+
+</td><td>
+
+-   Full access to all Scan Engine functions and results
+-   Configure and manage Scan Engine
+-   Manage exception reasons
+-   Manage approval workflows
+-   Enable AI-generated code fix capabilities
+-   View all scan results and findings
+-   Initiate scans
+
+</td></tr><tr><td>
+
+Scan Engine User
+
+</td><td>
+
+sn\_se.scan\_engine\_user
+
+</td><td>
+
+-   Scan Engine User
+-   Code Fix User
+
+</td><td>
+
+-   Access Scan Engine findings
+-   Access to scan initiation
+-   View Scan Engine results
+
+</td></tr><tr><td>
+
+Scan Engine Read User
+
+</td><td>
+
+sn\_se.scan\_engine\_read\_user
+
+</td><td>
+
+-   Scan Engine Read User
+-   Scan Engine Exception Approver
+
+</td><td>
+
+-   Read-only access to scan results, findings, and scan definitions
+-   Can't initiate scans
+
+</td></tr><tr><td>
+
+Exception Approver
+
+</td><td>
+
+sn\_se.scan\_engine\_exception\_approver
+
+</td><td>
+
+Scan Engine Exception Approver
+
+</td><td>
+
+-   Approve and reject exception reason requests
+-   Receive and triage exception notifications
+
+</td></tr><tr><td>
+
+AI Fix User
+
+</td><td>
+
+sn\_impact\_gen\_ai.ai\_fix\_user
+
+</td><td>
+
+Code Fix User
+
+</td><td>
+
+-   Access AI-generated code fix capabilities
+-   View code fix suggestions from Now Assist
+-   Apply AI-generated remediation code
+
+</td></tr><tr><td>
+
+Internal REST Integration
+
+</td><td>
+
+sn\_se.internal\_rest\_integration
+
+</td><td>
+
+None
+
+</td><td>
+
+-   Enable REST API calls between instances
+-   Sync Scan Engine definitions
+-   Sync exception reasons
+-   Sync Update Set scanning data
+-   Perform automated data synchronization
+
+</td></tr><tr><td>
+
+Platform REST API Access
+
+</td><td>
+
+snc\_platform\_rest\_api\_access
+
+</td><td>
+
+None
+
+</td><td>
+
+-   Allows REST API access when REST API access control lists are enabled on an instance
+-   Required for the integration user only on instances where REST API access control lists are enabled
 
 </td></tr></tbody>
 </table>**Parent Topic:**[General reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/general-reference.md)

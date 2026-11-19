@@ -69,7 +69,7 @@ Role required: evt\_mgmt\_admin or evt\_aiops\_manager
 
 ## Example
 
-**Tip:** A team new to AI Specialists starts with only Investigate enabled, with root cause and impact analysis on, and Noise Reduction and Remediate off. After two weeks, they review the AI's findings, confirm accuracy, and then enable Noise Reduction. Once they validate automation in an KB, they enable Remediate. This phased approach builds team confidence before expanding AI autonomy.
+**Tip:** A team new to the AIOps AI specialist starts with only Investigation enabled and Noise reduction and Remediation off. After two weeks, they review the AI findings, confirm accuracy, and then enable Noise reduction. Once they validate automation in a KB, they enable Remediation. This phased approach builds team confidence before expanding AI autonomy.
 
 ## What to do next
 

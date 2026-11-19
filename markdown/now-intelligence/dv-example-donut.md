@@ -48,7 +48,7 @@ Use this visualization type when you want to compare subcategories or additional
 
     5.  Select **Add this source**.
 
-    A pie visualization with the current value of the selected data appears in the Visualization Designer. Because the only information you've given is that the visualization represents active incidents, you see only two possible wedges for Active=True and Active=False. You add priority and assignment group in step 4.\[Omitted image "dv-ex-donut-data-source.png"\] Alt text: Untitled donut visualization showing the Incident table as data source
+    A donut visualization with the current value of the selected data appears in the Visualization Designer. Because the only information you've given is that the visualization represents active incidents, you see only two possible wedges for Active=True and Active=False. You add priority in step 4.\[Omitted image "dv-ex-donut-data-source.png"\] Alt text: Untitled donut visualization showing the Incident table as data source
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
@@ -102,7 +102,7 @@ Use this visualization type when you want to compare subcategories or additional
 
         This option adds the number associated with the metric. In this case, 4 is added to the high priority incidents because that is how many high priority incidents there are.
 
-    3.  Select **Show value on the same line** to keep the value with the assignment group name.
+    3.  Select **Show value on the same line** to keep the value with the priority name.
 
     4.  Select **Show legend percentage** to provide more information about the value.
 
@@ -116,7 +116,7 @@ Use this visualization type when you want to compare subcategories or additional
 
     7.  Change the Max legend item width to give those values more or less room.
 
-        \[Omitted image "dv-ex-donut-legend-options.png"\] Alt text: Open incidents by assignment group pie visualization with legend showing value and percentage options
+        \[Omitted image "dv-ex-donut-legend-options.png"\] Alt text: Open incidents by priority donut visualization with legend showing value and percentage options
 
 9.  Clear **Show legend** and select **Show data labels**.
 

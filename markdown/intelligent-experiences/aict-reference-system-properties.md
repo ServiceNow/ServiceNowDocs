@@ -1,6 +1,6 @@
 ---
-title: System properties for AI Control Tower
-description: Several system properties that affect core AI Control Tower are available.
+title: System properties for Super Intelligence Control Tower
+description: Several system properties that affect core Control Tower are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-reference-system-properties.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reference, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# System properties for AI Control Tower
+# System properties for Super Intelligence Control Tower
 
-Several system properties that affect core AI Control Tower are available.
+Several system properties that affect core Control Tower are available.
 
 These properties exist in the System Properties \[sys\_properties\] table. The admin role is necessary to set system properties.
 
@@ -33,7 +33,7 @@ glide.oauth.tool.scan.skill.enabled
 
 </td><td>
 
-Controls whether MCP server tool scanning is performed by a ServiceNow skill customized for AI Control Tower AI asset security. This scan is a more thorough scan that can detect more potential threats than the AI Guardian scan. As a general guideline, use this scan instead of the AI Guardian scan.-   Type: Boolean
+Controls whether MCP server tool scanning is performed by a ServiceNow skill customized for Control Tower AI asset security. This scan is a more thorough scan that can detect more potential threats than the AI Guardian scan. As a general guideline, use this scan instead of the AI Guardian scan.-   Type: Boolean
 -   Default value: `true`
 -   Location: The System Properties \[sys\_properties\] table
 

@@ -45,7 +45,7 @@ var hardwareId = vmResponse.hardwareId;
 
 ```
 
-Line 39 shows the information that the system requires to identify the new virtual server and related CIs for storage in the CMDB. In this case, the service account object ID identifies the account associated with the virtual server, the datacenter object ID identifies the datacenter in which the virtual server lives, and the virtual machine instance object ID identifies the virtual server itself. This identification code block prevents the creation of duplicate CIs.
+Line 39 shows the information that the system requires to identify the new virtual server and related CIs for storage in the CMDB. The service account object ID identifies the account associated with the virtual server. The datacenter object ID identifies the datacenter where the virtual server runs. The virtual machine instance object ID identifies the virtual server itself. This identification code block prevents the creation of duplicate CIs.
 
 ```
 

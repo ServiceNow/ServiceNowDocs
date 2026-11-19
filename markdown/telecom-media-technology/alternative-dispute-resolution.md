@@ -1,6 +1,6 @@
 ---
 title: Customer Dispute Management
-description: Customer Dispute Management provides a structured process to register, investigate, and resolve customer disputes and complaints, including disputes referred to regulatory bodies.
+description: Customer Dispute Management provides a structured process to register, investigate, and resolve customer disputes and complaints, including disputes referred to telecom regulatory bodies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/alternative-dispute-resolution.html
 release: brazil
@@ -13,7 +13,7 @@ breadcrumb: [Explore, Customer Service Problem Management, Telecommunications, M
 
 # Customer Dispute Management
 
-Customer Dispute Management provides a structured process to register, investigate, and resolve customer disputes and complaints, including disputes referred to regulatory bodies.
+Customer Dispute Management provides a structured process to register, investigate, and resolve customer disputes and complaints, including disputes referred to telecom regulatory bodies.
 
 Customer Dispute Management \(CDM\) is a specialized complaint management system within the CRM Workspace. CDM extends complaint case functionality to handle formal dispute resolution processes between customers and organizations.
 
@@ -21,7 +21,7 @@ Customer Dispute Management \(CDM\) is a specialized complaint management system
 
 CDM provides the following benefits:
 
--   Supports compliance with regulatory bodies that require formal, auditable dispute resolution processes.
+-   Supports compliance with telecom regulatory bodies that require formal, auditable dispute resolution processes.
 -   Provides a structured workflow for acknowledging, investigating, and resolving customer disputes.
 -   Maintains an audit trail of investigation findings, proposed resolutions, and customer responses.
 -   Classifies dispute analysis using a hierarchical structure of product, category, subcategory, and reason for consistent analysis reporting.
@@ -33,7 +33,7 @@ A customer dispute moves through four stages:
 -   **Intake**: The dispute is registered with details of the submitter, affected product or service, and supporting documents. The customer or authorized representative receives an email notification confirming registration.
 -   **Investigation**: The agent reviews the customer's previously reported records, links relevant records to the dispute, and documents key findings.
 -   **Resolution and dispute analysis**: The agent drafts a resolution plan, creates resolution tasks, and records a dispute analysis including product, category, subcategory, and dispute reason.
--   **Closure**: The agent proposes the resolution to the customer by email and records whether the customer accepts or rejects it. If the customer rejects the resolution, the agent generates and sends a deadlock letter. The agent notifies the customer of the outcome, records customer feedback, and closes the dispute with a resolution code and closing notes. For disputes submitted by a regulatory body, the agent sends a summary of findings, proposed resolution, and customer feedback.
+-   **Closure**: The agent proposes the resolution to the customer by email and records whether the customer accepts or rejects it. If the customer rejects the resolution, the agent generates and sends a deadlock letter. The agent notifies the customer of the outcome, records customer feedback, and closes the dispute with a resolution code and closing notes. For disputes submitted by a telecom regulatory body, the agent sends a summary of findings, proposed resolution, and customer feedback.
 
 For more information on the steps at each stage, see [CDM playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/cdm-playbook-stages-and-activities.md).
 
@@ -45,7 +45,7 @@ A dispute analysis record captures the analysis of a dispute using a hierarchy o
 
 ## Roles and permissions
 
-The following roles control access to customer dispute, regulatory, and dispute analysis data:
+The following roles control access to customer dispute, telecom regulatory, and dispute analysis data:
 
 |Role|Description|
 |----|-----------|

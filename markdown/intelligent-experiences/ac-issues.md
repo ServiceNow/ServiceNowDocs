@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [issue, action plan, remediation]
-breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing tasks and approvals, Address action items, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Issues

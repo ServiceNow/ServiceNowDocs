@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Operational Sustainability Management]
 ---
 
 # Exploring Operational Sustainability Management \(formerly ESG Management\)
@@ -99,5 +99,5 @@ When using an emission factor in a calculated metric definition \(CMD\), follow 
 -   **[Forecasting planning and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/scenario-analysis-forecast.md)**  
 You can use the forecast planning and analysis feature to simulate various scenarios. The forecast planning and analysis tools enable for the creation, saving, visualization, and comparison of multiple analyses, enabling better planning.
 
-**Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)
+**Parent Topic:**[Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)
 

@@ -38,15 +38,15 @@ The monetary benefit plan breakdown records are automatically created when you s
 
 4.  Create a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d348962e127">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d351080e129">
 
 Option
 
-</th><th align="left" id="d348962e130">
+</th><th align="left" id="d351080e132">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d348962e136">
+</th></tr></thead><tbody><tr><td id="d351080e138">
 
 **Using the __Monetary Benefit Plans__ tab**
 
@@ -60,7 +60,7 @@ Procedure
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d348962e183">
+</td></tr><tr><td id="d351080e185">
 
 **Using the __Financials__ page**
 

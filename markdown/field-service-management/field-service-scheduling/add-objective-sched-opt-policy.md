@@ -22,25 +22,19 @@ Role required: wm\_admin
 
 ## About this task
 
-Objectives set the goals of a Schedule Optimization policy and control how tasks are prioritized during optimization. The following default objectives are included in all policies and cannot be removed.
+Objectives set the goals of a Schedule Optimization policy and control how tasks are prioritized during optimization. All policies include the Maximize task assignment and Minimize travel time objectives, and you can't remove them.
 
-Default objectives:
-
--   Maximize task assignment: Ensures as many tasks as possible are scheduled by adding tasks to agent schedules to maximize productivity.
--   Minimize travel time: Reduces agent travel time by limiting the distance between tasks for all agents.
-
-The following are examples of optional objectives that can be added to further customize optimization behavior.
+Objectives act as levers that adjust optimization to better suit your needs. For example, if you set Minimize Overtime as an objective, Schedule Optimization assigns tasks to technicians during normal hours when possible. If that isn't possible, it assigns tasks even if the technician must work overtime.
 
 Example optional objectives:
 
 -   Maximize High-Priority Task Assignments: Prioritizes urgent tasks.
--   Minimize Under/Over-Skilled Agent Assignments: Matches task complexity with agent skill level.
+-   Minimize Under/Over-Skilled Agent Assignments: Matches task complexity with technician skill level.
 -   Minimize Number of Shifts with Tasks: Limits the number of tasks per shift.
 -   Minimize SLA Violations: Keeps service delivery within agreed time frames.
--   Minimize Overtime: Caps agent work hours within standard time ranges.
--   Maximize Balance in Tasks and Work Hours: Distributes tasks and hours evenly among agents.
+-   Maximize Balance in Tasks and Work Hours: Distributes tasks and hours evenly among technicians.
 
-**Note:** Objectives act as levers that adjust optimization to better suit your needs. For example, if Minimize Overtime is set as an objective, Schedule Optimization assigns tasks to agents during normal hours when possible. If that is not possible, tasks are assigned even if overtime is required. For a list of objectives, see [Objectives and constraints used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/hard-soft-constraints.md).
+For a full list of objectives, see [Objectives and constraints used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/hard-soft-constraints.md).
 
 ## Procedure
 
@@ -54,6 +48,18 @@ Example optional objectives:
 
 5.  In the **Optimization Features** field, select the Lookup icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup icon.\) and select the objective to add.
 
-6.  Select **Submit**.
+    **Note:**
+
+    You can enable only one balance objective for each policy record.
+
+6.  In the **Weight** field, enter a value.
+
+    **Note:** Weight values must be integers greater than 0 and less than 100. Schedule Optimization prioritizes higher-numbered weights.
+
+7.  Right-click the form header and select **Insert and Stay**.
+
+    The record saves so you can add another objective.
+
+8.  When you finish adding objectives, select **Submit**.
 
 

@@ -9,7 +9,7 @@ classification: instance-scan
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Using Instance Scan, Instance Scan, Maintain and monitor, ServiceNow AI Platform]
 ---
 
 # Queue your scan

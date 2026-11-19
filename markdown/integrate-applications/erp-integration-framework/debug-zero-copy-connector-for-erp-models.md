@@ -50,3 +50,5 @@ Keep the following guidance in mind when debugging Zero Copy Connector for ERP m
 5.  Select **Confirm**.
 
 
+**Parent Topic:**[Zero Copy Connector for ERP troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-troubleshooting.md)
+

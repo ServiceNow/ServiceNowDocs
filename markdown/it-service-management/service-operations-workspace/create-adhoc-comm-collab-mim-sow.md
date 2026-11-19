@@ -1,6 +1,6 @@
 ---
-title: Create adhoc communication and collaboration using the Related record tab
-description: Create adhoc communication and collaboration using the incident communication plan related list on the Related records tab of an incident record page.
+title: Create ad hoc communication and collaboration using the Related records tab
+description: Create ad hoc communication and collaboration using the incident communication plan related list on the Related records tab of an incident record page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-adhoc-comm-collab-mim-sow.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Collaborate with stakeholders during a major incident, Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Create adhoc communication and collaboration using the Related record tab
+# Create ad hoc communication and collaboration using the Related records tab
 
-Create adhoc communication and collaboration using the incident communication plan related list on the **Related records** tab of an incident record page.
+Create ad hoc communication and collaboration using the incident communication plan related list on the **Related records** tab of an incident record page.
 
 ## Before you begin
 
@@ -42,7 +42,7 @@ Role required: major\_incident\_manager, itil, ia\_admin, or admin
 
 7.  On the Incident communication task record, add a communication channel.
 
-    1.  Select the **More actions** \(\[Omitted image "mim-more-action-icon.png"\] Alt text: More action icon\) icon and then select **Add communication channel**.
+    1.  Select the **More actions** \(\[Omitted image "mim-more-action-icon.png"\] Alt text:\) icon and then select **Add communication channel**.
 
     2.  On the pop-up window, select **Channel type**.
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-security/high-assuranc
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [High assurance, Continuous Authentication \(CA\), Zero Trust Access, Access Management]
 ---
 
@@ -31,6 +31,8 @@ The users who are performing SSO-based login \(SAML or OIDC\) and whenever there
 After successful SSO authentication, the protected data is displayed to the users for a certain time frame. You can configure the properties to change the time limit based on your requirements. To learn more, see [High assurance session with continuous authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/high-assurance-ca.md).
 
 Performing re-authentication with SSO login \(SAML or OIDC\) creates a high assurance session establishing a secure and trusted connection with the identities \(users\) who are accessing the protected data.
+
+When the user logs in through SSO \(SAML or OIDC\), a default high-assurance session is also established for the length set by the **Default high-assurance session length upon login** property. The platform cannot reliably determine whether the identity provider enforced MFA, so the default session applies to SSO logins whether or not MFA was used.
 
 A high assurance session established for the user is limited to the High Assurance session length \(**glide.zta.high\_assurance.session.timeout**\) system property. If the high assurance session time exceeds the property length, the user is prompted for re-authentication or step-up authentication.
 

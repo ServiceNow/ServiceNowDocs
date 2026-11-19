@@ -19,7 +19,7 @@ If you have the admin role, you can configure the ServiceNow Otto for Third-part
 
 ## ServiceNow Otto for Third-party Risk Management \(TPRM\) configuration overview
 
-**Important:** After installing ServiceNow Otto for TPRM, all ServiceNow Otto for TPRM skills are activated by default.
+**Important:** After installation, all ServiceNow Otto for TPRM skills are made available but remain inactive. Activate each skill after installation. To turn on generative AI skills use the [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 Use the AI Admin Hub console to configure ServiceNow Otto for TPRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md).
 

@@ -40,7 +40,7 @@ If you have a custom ITSM table that must be migrated, you must enable the migra
 -   **[Create a basic authentication configuration to migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-basic-authentication-credential-sow-migration.md)**  
 Authenticate the Table API that the migration utility uses to perform creation, updating, and deletion of records.
 -   **[Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/migrate-itsm-agent-workspace-to-sow.md)**  
-Through a set of simple steps, quickly migrate your ITSM Agent Workspace features including configurations and customizations to Service Operations Workspace for ITSM.
+Migrate your ITSM Agent Workspace features including configurations and customizations to Service Operations Workspace for ITSM.
 
 **Parent Topic:**[Configuring Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-sow.md)
 

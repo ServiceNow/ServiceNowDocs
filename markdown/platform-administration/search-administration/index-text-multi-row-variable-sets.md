@@ -9,7 +9,7 @@ classification: search-administration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Zing indexes words, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Zing indexes words, Zing text indexing and search engine, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Enable indexing of text in multi-row variable sets
@@ -34,7 +34,7 @@ To learn more about variable sets, see [Service catalog variable sets](https://r
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `sys_properties.list`.
+    2.  In the navigation filter, enter `sys_properties.list`.
 
     3.  Press Enter.
 

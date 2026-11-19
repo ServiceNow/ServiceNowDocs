@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-servicenowottoforconfigurationmanagementdatabasecmdb-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -78,7 +78,7 @@ The Assess CMDB Impact agentic workflow identifies the upstream services and CIs
 
 Sometimes you're not sure which integration to use to capture CI data. When you provide Now Assist with the name of a particular CI class, it can recommend the data sources or Service Graph Connectors and ingestion sources that can best populate CMDB data.
 
--   **[\[Placeholder link text to key bundle-platcap.na-cmdb-agent-biz-app-candidate-c\]](https://www.servicenow.com/docs/access?context=na-cmdb-agent-biz-app-candidate-c&family=australia&ft:locale=en-US)**
+-   **[na cmdb agent biz app candidate c](https://www.servicenow.com/docs/access?context=na-cmdb-agent-biz-app-candidate-c&family=australia&ft:locale=en-US)**
 
 The Business application candidate agent discovers and suggests business applications to associate with existing application services in the CMDB, reducing manual mapping effort and improving data governance. The agent uses AI clustering and feedback loops to propose business application candidates for your review.
 
@@ -245,7 +245,7 @@ Australia
 
 -   **Activation information**
 
-Install ServiceNow Otto for CMDB by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install ServiceNow Otto for CMDB by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** ServiceNow Otto for CMDB is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

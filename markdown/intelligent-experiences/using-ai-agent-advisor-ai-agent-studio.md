@@ -30,5 +30,5 @@ For more information, see [AI Agent Studio overview](https://raw.githubuserconte
 
 [AI Agent Advisor in AI Admin Center]()
 
-[AI Agent Advisor in AI Control Tower]()
+[AI Agent Advisor in Control Tower]()
 

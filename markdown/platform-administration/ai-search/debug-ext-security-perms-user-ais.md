@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Administer, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Debug external content security filters for a ServiceNow AI Platform user

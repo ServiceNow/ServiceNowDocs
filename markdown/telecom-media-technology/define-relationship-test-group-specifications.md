@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-26"
 reading_time_minutes: 1
 keywords: [specification to test group relationship, associate test group, product model]
-breadcrumb: [Setting up a test group, Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Set up test group, Set up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Associate a test group to a specifications or product model

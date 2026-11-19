@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-10-22"
 reading_time_minutes: 1
+keywords: [non real time proactive resolution, scheduled job remediation, bulk remediation, battery health remediation, system compliance remediation, dex score trends, automated detection, manual remediation]
 breadcrumb: [Resolve issues, Solve issues, Digital End-User Experience, IT Operations Management]
 ---
 

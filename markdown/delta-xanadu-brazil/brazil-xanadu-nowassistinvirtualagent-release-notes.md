@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-nowassistinvirtualagent-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 78
 breadcrumb: [Products combined by family]
 ---
@@ -422,7 +422,7 @@ Enhancements to Now Assist in Virtual Agent assistants and Now Assist panel Plat
 [Create a chat assistant](https://www.servicenow.com/docs/access?context=create-assistant&family=yokohama&ft:locale=en-US)
 
     -   Configure assistants by domain.
-[\[Placeholder link text to key bundle-convint.assign-na-skills-assistant\]](https://www.servicenow.com/docs/access?context=assign-na-skills-assistant&family=yokohama&ft:locale=en-US)
+[assign na skills assistant](https://www.servicenow.com/docs/access?context=assign-na-skills-assistant&family=yokohama&ft:locale=en-US)
 
     -   Now Assist in Virtual Agent assistants: By default, all global skill types are turned on in Now Assist Admin console.
     -   Now Assist panel Platform assistant: By default, all global skill types, except for Catalog skill, are turned on in Now Assist Admin console.
@@ -519,7 +519,7 @@ In addition to configuring Now Assist in Virtual Agent assistants, admins can co
 
     -   If multiple assistants are created, users can chat simultaneously with multiple assistants. Conversations are independent from each other.
     -   Turn on or off Now Assist panel \(agent or creator\) assistant. Contact support to configure Now Assist panel assistants.
-[\[Placeholder link text to key bundle-convint.assign-na-skills-assistant\]](https://www.servicenow.com/docs/access?context=assign-na-skills-assistant&family=yokohama&ft:locale=en-US)
+[assign na skills assistant](https://www.servicenow.com/docs/access?context=assign-na-skills-assistant&family=yokohama&ft:locale=en-US)
 
     -   Now Assist Topic skill must be turned on at the assistant level for document uploads to be activated when managing the chat experience. For more information, see [Manage chat experience](https://www.servicenow.com/docs/access?context=manage-assistant-chat-experience&family=yokohama&ft:locale=en-US).
     -   Create and manage agentic workflows in Now Assist AI Agents Studio and assign the workflows to the assistant.
@@ -1463,7 +1463,7 @@ Zurich
 
  -   **Agentic support**
 
-The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss in functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features in [\[Placeholder link text to key additional-chat-features\]](https://www.servicenow.com/docs/access?context=additional-chat-features&family=zurich&ft:locale=en-US).
+The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss in functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features in [additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=zurich&ft:locale=en-US).
 
 -   **[ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US)**
 
@@ -1904,7 +1904,7 @@ Yokohama
 
  [Yokohama Patch 6](https://www.servicenow.com/docs/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
 
--   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+-   Use Google Gemini and Anthropic Claude as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 -   Use agentic conversations and view agentic conversational processing flow steps.
 -   View extended entities and records in standard and enhanced chat conversations if they’re associated with the Knowledge Graph natural language query \(NLQ\) schema.
 -   View suggested search queries previously performed in the portal's search bar within enhanced chat conversations.

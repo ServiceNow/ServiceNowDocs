@@ -175,7 +175,7 @@ Interactions
 
 </td><td>
 
-The Interactions table is similar to sys\_cs\_conversation and is created at the same time as the conversation record. It contains much of the same information related to the voice call.
+The Interactions table is similar to sys\_cs\_conversation and is created at the same time as the conversation record. It contains much of the same information related to the voice call.The Call Reason field stores the reason for the call that the contact center provided before the call reached the voice assistant. Values longer than 500 characters are truncated. If the contact center doesn't provide a reason, the field is empty.
 
 </td></tr><tr><td>
 

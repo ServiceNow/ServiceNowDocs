@@ -40,9 +40,26 @@ The default input fields considered for analysis are the following:
 
 You can con figure additional input fields using a Now Assist Skill Config Var Set \[sn\_nowassist\_skill\_config\_var\_set\]. See the Additional configuration section for more information.
 
-The agents and tools associated with the Analyze task trends agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md) by setting the display settings to include ServiceNow Otto assistants. If you want to change this agentic workflow's instructions, you must duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version instead.
+By default, you can enable the agentic workflow so it is accessible in the ServiceNow Otto panel. Optionally, you can add triggers or UI actions to allow users to invoke the agentic workflow in other ways. See [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/channels-access-aw-new.md) and [Add a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aw-new.md) for more information.
+
+The agents and tools that are associated with the agentic workflow are provided by AI applications. If you want to change this agentic workflow, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-ai-asset-new.md), make adjustments, and activate the duplicated version instead.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
+## Sample utterance
+
+After the workflow has been activated in AI Agent Studio, use similar queries to the following to run the agentic workflow with ServiceNow Otto assistants. You can also test this workflow in AI Agent Studio with the same utterance if you have the sn.aia\_admin role.
+
+Each utterance must include the name of the table and the time frame to analyze. If the utterance doesn't include these things, the agentic workflow prompts you for more information.
+
+The time frame specified by the user can't exceed the maximum value set by the Analysis time frame configuration.
+
+When invoking the agentic workflow, if you want to use additional filters, such as assignment group, use the name of the field in the utterance. For example, "Analyze incident trends assigned to the Hardware group" is more likely to analyze the correct records than "Analyze Hardware incident trends."
+
+-   Analyze incident trends related to payment issues within the last two months
+-   Analyze case trends within the last month
+-   Analyze HR case trends with High Priority within the last two years
+-   Analyze incident and problem trends within the last two weeks
 
 ## Prerequisites and setup
 
@@ -266,21 +283,6 @@ If you don't see your UI actions after configuring it in AI Agent Studio, ensure
 You can manually test an agentic workflow execution or access on the Testing page of AI Agent Studio if you have the sn.aia\_admin role and all other roles configured [in the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md). Start a manual test, select a test type and the name of the workflow, and use utterances in the Task field like the following samples. See [Test an agentic workflow execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-use-case.md).
 
 If you want to evaluate the agentic workflow over many different execution logs, run an [automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/execute-aia-eval.md).
-
-## Sample utterance
-
-After the workflow has been activated in AI Agent Studio, use similar queries to the following to run the agentic workflow with ServiceNow Otto assistants. You can also test this workflow in AI Agent Studio with the same utterance if you have the sn.aia\_admin role.
-
-Each utterance must include the name of the table and the time frame to analyze. If the utterance doesn't include these things, the agentic workflow prompts you for more information.
-
-The time frame specified by the user can't exceed the maximum value set by the Analysis time frame configuration.
-
-When invoking the agentic workflow, if you want to use additional filters, such as assignment group, use the name of the field in the utterance. For example, "Analyze incident trends assigned to the Hardware group" is more likely to analyze the correct records than "Analyze Hardware incident trends."
-
--   Analyze incident trends related to payment issues within the last two months
--   Analyze case trends within the last month
--   Analyze HR case trends with High Priority within the last two years
--   Analyze incident and problem trends within the last two weeks
 
 ## Troubleshooting
 

@@ -14,17 +14,19 @@ breadcrumb: [ServiceNow Otto for Retail Service Management \(RSM\), Retail]
 
 ServiceNow Otto for Retail Service Management is an intelligent assistant that helps headquarters support agents efficiently manage and resolve store inquiries and service requests using generative AI.
 
-The Store inquiry AI agent helps in retrieving and analyzing case-related information from knowledge bases, documents, and case repositories. By providing accurate and context-aware support, the AI agent reduces manual effort and improves accuracy, particularly in interpreting store policy queries and drafting relevant responses.
+ServiceNow Otto brings generative AI agents to Retail Service Management \(RSM\). With these capabilities, headquarters \(HQ\) support agents can find answers to store inquiries in similar cases, knowledge articles, and documents, and update the case based on the response they choose.
 
-The Store inquiry AI agent understands store agent intents and performs relevant actions, such as data retrieval or record updates. It provides clear and helpful responses based on available information. This enables efficient support for HQ agents, streamlining interactions and improving the overall experience.
+Within RSM, ServiceNow Otto provides the Store Inquiry AI agent.
 
-## Store inquiry AI agent capabilities
+The Store Inquiry AI agent runs in the ServiceNow Otto panel. For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md). To activate the panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-The Store inquiry AI agent is equipped with the following capabilities:
+## AI plugins for RSM
 
--   Retrieve case details: Access and return information about a specific case, ensuring that AI agent has the necessary details to proceed with the inquiry.
--   Identify similar cases: Find and retrieve cases that share similarities with a given case, facilitating the identification of patterns or relevant precedents.
--   Retrieve documents: Find and retrieve documents that have semantic similarities with the short description of the case.
--   Analyze all the available sources: Analyze past cases, knowledge base articles, and documents to generate accurate answers to store agent queries. This ensures that HQ agents receive relevant and precise information.
--   Update case information: Modify or update the details of an existing case as needed, allowing for the maintenance of accurate and up-to-date case information.
+The ServiceNow Otto for Retail Service Management \(RSM\) plugin and the AI Agents for Retail Service Management plugin together provide the AI capabilities for RSM.
+
+The Store Inquiry AI agent and its trigger are inactive by default. To activate the agent and enable its trigger, see [Enable store inquiry AI agent trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-enable-store-inquiry-ai-agent.md).
+
+## ServiceNow Otto for RSM AI agents
+
+To view a list of all the available agents for ServiceNow Otto for Retail Service Management \(RSM\), see [Retail AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/retail-ai-agents-overview.md).
 

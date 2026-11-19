@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [map device user, device user mapping, dex user mapping, user id mapping, device metric notifications, custom user column mapping]
 breadcrumb: [DEX advanced configuration, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-overview.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-22"
+last_updated: "2026-11-12"
 reading_time_minutes: 3
 breadcrumb: [CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -34,7 +34,8 @@ For more information about working with content pages and components, see the fo
 -   [Creating pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-csm-ws-create-page-variant.md)
 -   [Creating configurable workspace experiences and pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_set-up-configurable-workspace.md)
 -   [Work with components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/work-components.md)
--   [Next Experience Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades)
+-   UIB setup information
+-   [Horizon component documentation](https://horizon.servicenow.com/workspace/components)
 
 ## Viewing information in CRM Workspace
 

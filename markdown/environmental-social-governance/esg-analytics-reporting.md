@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Operational Sustainability Management]
 ---
 
 # Overview pages in the Operational Sustainability Workspace \(formerly ESG Workspace\)
@@ -19,5 +19,5 @@ Goals refer to objectives that an organization sets for itself to make an impact
 -   **[Disclosure overview in the Operational Sustainability Workspace \(formerly ESG Workspace\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/disclosure-overview-esg-workspace.md)**  
 The **Overview** tab for the disclosure records in the Operational Sustainability Workspace is designed for different users to view the state and summary of the disclosures.
 
-**Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)
+**Parent Topic:**[Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)
 

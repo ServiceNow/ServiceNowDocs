@@ -8,7 +8,7 @@ product: Service Exchange
 classification: service-exchange
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 breadcrumb: [Reference, Service Exchange]
 ---

@@ -20,7 +20,7 @@ Run a de-duplication template to run de-duplication tasks that remediate duplica
 
 Role required:
 
--   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
+-   To access the  to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
 -   To perform de-duplication tasks, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
 
 ## About this task

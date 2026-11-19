@@ -8,7 +8,7 @@ product: Incident Management
 classification: incident-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Major incident workbench UI elements, Major incident workbench, Managing major incidents, Incident Management, IT Service Management]
 ---
 
@@ -31,6 +31,19 @@ The post-incident report includes the following sections, where a major incident
 
     **Note:** The information that you provide for **Overview**, **Findings**, and **Timeline** is updated in the Post Incident Report section of the Incident form.
 
+
+You must have any of the following roles to work on different features on the **PIR** tab:
+
+-   For PIR review: sn\_incident\_read or sn\_incident\_write
+-   For PIR update, generate, download, publish or edit co-contributor: major\_incident\_manager, sn\_incident\_write \(report author, assigned to the incident or added as co-contributors\) or admin
+
+After you resolve a major incident, publish the PIR and share it with stakeholders within the time defined in the SLA. To configure the SLA, set the value in positive number of hours in the **PIR publish hours** \(**sn\_sow\_inc.pir.publish.hours**\) system property. This property enables you to set how long after resolution, a post incident report must be published, and drives the PIR banner on the incident record.
+
+After the SLA is configured, the following type of banners are displayed based on the SLA elapsed or time remaining:
+
+-   Information banner - Displays the information "Publish post incident report by &lt;date&gt;&lt;time&gt;" message when less than 70 percentage of the SLA has elapsed since major incident resolution.
+-   Warning banner - Displays the caution message with remaining time "Caution! PIR SLA &lt;n&gt; is approaching. Publish post incident report by &lt;date&gt;&lt;time&gt;." when 70 to 100 percentage of the SLA has elapsed since major incident resolution.
+-   Critical banner - Displays "SLA Breached! Publish post incident report as soon as possible." message when the no time is remaining and SLA is breached.
 
 If you activate the Continual Improvement Management \(CIM\) plugin \(com.sn\_cim\), the Related Improvement Records section is displayed in the report. This section displays the Inbound CIM Integrations records.
 

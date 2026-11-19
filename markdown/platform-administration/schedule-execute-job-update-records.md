@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Updating records safely in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Updating records safely in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Schedule or execute a job to update records
@@ -30,15 +30,15 @@ Consider scheduling the update job to run during non-business hours to minimize 
 
 3.  Determine whether to schedule the update job for a later time or run it right away.
 
-<table id="choicetable_vjl_krf_vtb"><thead><tr><th align="left" id="d268422e88">
+<table id="choicetable_vjl_krf_vtb"><thead><tr><th align="left" id="d268305e90">
 
 Option
 
-</th><th align="left" id="d268422e91">
+</th><th align="left" id="d268305e93">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d268422e97">
+</th></tr></thead><tbody><tr><td id="d268305e99">
 
 **Schedule the update job**
 
@@ -49,7 +49,7 @@ Description
 3.  Select **Update**. Note that you must select **Update** to successfully schedule the job.
 
 
-</td></tr><tr><td id="d268422e127">
+</td></tr><tr><td id="d268305e129">
 
 **Run the update job now**
 

@@ -7,10 +7,10 @@ release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 keywords: [configure metric aggregation job, scheduled job, metric aggregation, TSOM]
-breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure event and metric connectors, Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
 # Configure a metric aggregation job
@@ -152,7 +152,7 @@ Each scheduled job handles one aggregation. The job script defines the source da
 
 The scheduled job runs on the defined schedule. Each run produces the calculated metric and raises an event to bind the metric to a CI. After the metric-to-CI binding completes, the calculated metric is stored in the metric base and is available to view in the Insight Explorer.
 
-**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
+**Parent Topic:**[Configure event and metric connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-event-and-metric-connectors.md)
 
 **Related topics**  
 

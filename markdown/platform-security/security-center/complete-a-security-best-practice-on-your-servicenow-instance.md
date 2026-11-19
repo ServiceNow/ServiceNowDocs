@@ -1,6 +1,6 @@
 ---
 title: Complete a security best practice
-description: Learn how to complete a security best practice on your ServiceNow instance.
+description: Implement a security best practice on your ServiceNow instance by working through its task steps and marking the best practice complete.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/complete-a-security-best-practice-on-your-servicenow-instance.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Security Best Practices, Security posture console, Security Center,
 
 # Complete a security best practice
 
-Learn how to complete a security best practice on your ServiceNow instance.
+Implement a security best practice on your ServiceNow instance by working through its task steps and marking the best practice complete.
 
 ## Before you begin
 
@@ -26,13 +26,13 @@ Complete the following steps to implement security best practices on your Servic
 
 ## Procedure
 
-1.  Access Security Best Practices by selecting **All** on your ServiceNow instance and then entering **best practice**.
+1.  Access Security Best Practices by selecting **All** on your ServiceNow instance and then entering `best practice`.
 
 2.  Apply a filter to view security best practices to implement.
 
-    1.  Navigate to the **Best Practices** table in the UI.
+    1.  Navigate to the Best Practices table in the UI.
 
-    2.  Select the kebab menu, or the item with three vertical dots \(\[Omitted image "ellipsis-vertical-outline-24.svg"\] Alt text: vertical dots\) in the **Status** column.
+    2.  Select the kebab menu, or the item with three vertical dots \[Omitted image "ellipsis-vertical-outline-24.svg"\] Alt text: in the **Status** column.
 
     3.  Select the **Open** and **In progress** options, and then select **apply**.
 
@@ -40,7 +40,7 @@ Complete the following steps to implement security best practices on your Servic
 
 4.  Select **Go to next step**.
 
-5.  Select a task step from the **task steps** list.
+5.  Select a task step from the task steps list.
 
 6.  Select the caret down \(v\) icon to view the implementation instructions for that step.
 
@@ -48,11 +48,11 @@ Complete the following steps to implement security best practices on your Servic
 
 8.  Select **Mark step complete** when you’re done with the task.
 
-    **Note:** You can skip the task if you want to come back to it later, or if it doesn't apply to your organization's goals. In addition, you can reopen a completed task step by selecting the task step, and then selecting **Restart step**.
+    **Note:** You can skip the task to come back to it later, or if it doesn't apply to your organization's goals. In addition, you can reopen a completed task step by selecting the task step, and then selecting **Restart step**.
 
 9.  Select **Complete Best Practice**.
 
-    You can complete a security best practice at any time. You don’t have to complete all the steps and it’s ok if you skip them. However, consider inserting a comment in the Activity subtab when completing a security best practice when you have not completed all the steps for an audit reference.
+    You can complete a security best practice at any time. You don’t have to complete all the steps and it’s ok if you skip them. However, consider inserting a comment in the **Activity** subtab when completing a security best practice when you have not completed all the steps for an audit reference.
 
 
 **Parent Topic:**[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-best-practices-manager.md)

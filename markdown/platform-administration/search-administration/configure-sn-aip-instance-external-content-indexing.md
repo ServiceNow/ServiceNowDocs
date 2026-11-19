@@ -7,10 +7,10 @@ release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-10-28"
-reading_time_minutes: 6
+last_updated: "2026-11-12"
+reading_time_minutes: 7
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [ServiceNow instance external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [ServiceNow instance external content connector, Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure your ServiceNow AI Platform source instance for external content indexing
@@ -25,17 +25,17 @@ Role required: admin and security\_admin
 
 ## About this task
 
-The ServiceNow instance external content connector retrieves searchable content and security principals from a remote ServiceNow AI Platform instance. Content retrieved includes the remote instance's KB article, Service Catalog item, and incident records, plus attachments on those records. To grant the external content connector access to this content, you must configure a non-interactive service user account that the connector will use when running document and user mapping crawls.
+The ServiceNow instance external content connector retrieves searchable content and security principals from a remote ServiceNow AI Platform instance. Content retrieved includes the remote instance's KB article, Service Catalog item, and incident records, plus attachments on those records. To grant the external content connector access to this content, you must configure a non-interactive service user account that the connector will use when running document and user permissions crawls.
 
 Perform all of these steps on the ServiceNow AI Platform instance that you want the external content connector to retrieve searchable content and metadata from. This is your source instance. The instance where the connector runs and populates search applications with the retrieved data is your destination instance.
 
 ## Procedure
 
-1.  On your source instance, create a new non-interactive user and save its user ID.
+1.  On your source instance, create a non-interactive user and save its user ID.
 
-    1.  Create a new user by following the steps from [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/t_CreateAUser.md).
+    1.  Create a user by following the steps from [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/t_CreateAUser.md).
 
-        **Note:** Make sure to select the **Web service access only** option on the new user record. This option designates your new user as a non-interactive user. To learn more about how non-interactive users differ from interactive users, see [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/c_NonInteractiveSessions.md).
+        **Note:** When filling in the User form, set **Identity type** to **Machine** on the new user record. This selection designates your new user as a non-interactive user. To learn more about how non-interactive users differ from interactive users, see [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/c_NonInteractiveSessions.md).
 
     2.  Copy the **User ID** for your new source instance user account and store it in a secure location.
 
@@ -67,7 +67,19 @@ Perform all of these steps on the ServiceNow AI Platform instance that you want 
 
     5.  Select **Submit**.
 
-5.  On your source instance, create and edit ACLs \(access control lists\) to grant users with your new custom role access to the Security Attribute \[sys\_security\_attribute\] table.
+5.  On your source instance, elevate to the security\_admin role.
+
+    1.  In the banner frame, select the icon for your account to open the user menu, then select **Elevate role** \(in Next Experience\) or **Elevate Roles** \(in Core UI\).
+
+        The system displays a checklist of your available privileged roles.
+
+    2.  In the privileged role checklist, select the **ais\_high\_security\_admin** option, then select **Update** \(in Next Experience UI\) or **OK** \(in Core UI\).
+
+        The page reloads and an elevated role indicator appears next to your user name in the user menu. In Next Experience UI, this indicator displays the names of the active privileged roles. In Core UI, the indicator displays the elevated role icon \[Omitted image "icon-elevated-role-ui16.png"\] Alt text:.
+
+        **Note:** When the page reloads, any unsaved edits are lost.
+
+6.  On your source instance, create and edit ACLs \(access control lists\) to grant users with your new custom role access to the Security Attribute \[sys\_security\_attribute\] table.
 
     1.  Navigate to **All** &gt; **System Security** &gt; **Access Control \(ACL\)**.
 
@@ -148,7 +160,7 @@ Insert a new row with the name of your new custom role.
 
     8.  Select **Update**.
 
-6.  On your source instance, assign roles to your new user.
+7.  On your source instance, assign roles to your new user.
 
     1.  Assign your new custom role to your new user by following the steps from [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/user-administration/t_AssignARoleToAUser.md).
 

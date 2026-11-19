@@ -8,7 +8,7 @@ product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
 last_updated: "2026-10-05"
-reading_time_minutes: 6
+reading_time_minutes: 9
 keywords: [smart assessments, demand assessment, portfolio planning]
 breadcrumb: [Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -19,11 +19,11 @@ Smart assessments automatically gather structured, weighted feedback from a dema
 
 Smart assessments replaces the manual assessment instances and assessment results workflow with an assessment workflow that runs automatically. Assessments are created, scored, and used to qualify the demand automatically, so demand managers no longer need to create an assessment or review its results manually.
 
-When a demand moves from the Submitted to Screening state, an assessment is triggered for the demand's stakeholders who are added to the demand to be assessed.
+When a demand moves from the Submitted to Screening state, an assessment is triggered for the demand's stakeholders who are added to the demand to be assessed. If no stakeholder is flagged to be assessed, the user who moves the demand to Screening becomes the sole assessor instead. Moving the demand to Screening again creates new assessment instances.
 
-If the demand does not require an assessment at all, it skips the assessments and moves directly to the Qualified state.
+If the demand does not require an assessment at all, it skips the assessments and moves directly to the Qualified state. A demand manager can also qualify a demand manually at any point, without waiting for an assessment to complete. For more information, see [Qualify a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/qualify-a-demand-ppw.md).
 
-After every open assessment for the demand is completed or cancelled, the demand moves automatically to Qualified, and the individual section scores populate onto the demand. Apart from each assessment's own score, the demand's own **Score** field is calculated as the average of Risk, Size, and Value sections. Risk and size scores are inverted, so a lower risk or size score raises the demand's score. For more information, see [Demand assessment template questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/smart-assessments-overview-ppw.md). Strategic Alignment and Cost sections populate onto the demand but aren't part of this calculation.
+After every open assessment for the demand is completed or cancelled, the demand moves automatically to Qualified, and the individual section scores populate onto the demand. Each section's score is the average of that section's scores across every assessor in the latest assessment group; a section with no scores is left unchanged. Apart from each assessment's own score, the demand's own **Score** field is calculated as the average of Risk, Size, and Value sections. Risk and size scores are inverted, so a lower risk or size score raises the demand's score. For more information, see [Demand assessment template questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/smart-assessments-overview-ppw.md). Strategic Alignment and Cost sections populate onto the demand but aren't part of this calculation.
 
 ## Benefits of smart assessments
 
@@ -51,10 +51,10 @@ Smart assessment access works at three levels. The first is a top-level admin ro
 |Assessment admin \(sn\_smart\_asmt.assessment\_admin\)|Can access and edit templates in every template category. Not assigned to any role by default. You can assign it to whichever user you choose.|
 |Template manager \(sn\_smart\_asmt.template\_manager\)|Can create and modify templates within a template category this user otherwise has access to. Not assigned to any role by default. You can assign it to whichever user you choose, such as a Portfolio Planning admin user.|
 |Assessment actor \(sn\_smart\_asmt.actor\)|Stakeholders for the demand who fill in the smart assessments they're assigned. Separate assignment is required for each stakeholder by the admin.|
-|Assessment reader \(sn\_smart\_asmt.assessment\_reader\)|Demand managers who read smart assessments and their results on demands they manage. Contained automatically with the demand manager role with no separate assignment needed.|
-|Template reader \(sn\_smart\_asmt.template\_reader\)|Demand managers \[demand\_manager\] who read the demand assessment template category. Contained automatically with the demand manager role with no separate assignment needed.|
+|Assessment reader \(sn\_smart\_asmt.assessment\_reader\)|Demand managers who read smart assessments and their results on demands they manage. This is contained with the demand manager role when the Portfolio Planning plugin installs or upgrades \(version 8.19.0\). If your instance was already using smart assessments before this containment was added, confirm the containment exists and add it if it doesn't. If a demand manager can't read assessments, confirm the containment exists and add it if it doesn't.|
+|Template reader \(sn\_smart\_asmt.template\_reader\)|Demand managers \[demand\_manager\] who read the demand assessment template category. This is contained with the demand manager role when the Portfolio Planning plugin installs or upgrades \(version 8.19.0\). If a demand manager can't read the template, confirm the containment exists. Add it if it doesn't exist.|
 
-A user's access to an individual assessment determines whether they can fill it in or only view the responses. A user with the **sn\_smart\_asmt.actor** role who is assigned an open assessment can answer and save it. An admin user must individually assign this role to the stakeholders, including to demand managers if they are required to fill the assessments. For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md).
+A user's access to an individual assessment determines whether they can fill it in or only view the responses. A user with the **sn\_smart\_asmt.actor** role who is assigned an open assessment can answer, save, and submit it. An admin user must individually assign this role to the stakeholders, including to demand managers if they are required to fill the assessments. For more information, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 A user with only read access can view the responses without editing them. For the complete list of Smart Assessment Engine roles, including how template category roles combine with template manager, reader, and contributor roles, see [Roles installed in Smart Assessment Engine](https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.html).
 
@@ -77,11 +77,13 @@ There are two ways to view Smart Assessments:
 
 ## Demand assessment template questions
 
-The predefined Smart assessment template for demand scores a demand across five weighted sections. The purpose of the template is populated as Demand. It mirrors the metric categories used by the classic assessment workflow to compare demands.
+The predefined template, Smart assessment for demand, scores a demand across five weighted sections. The purpose of the template is populated as Demand. It mirrors the metric categories used by the classic assessment workflow to compare demands.
 
 \[Omitted image "demand-smart-assess-questions.png"\] Alt text: Predefined smart assessment questionnaire for a demand.
 
 The Smart Assessment Engine calculates the value of each section per assessment instance using the question weights of the respective sections. For more information about how the Smart Assessment Engine uses section weights, see [Scoring forms](https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/scoring-forms.html).
+
+Before a question's weight is applied, its raw response is normalized to a 0–10 scale. The **Capital cost**, **Operational cost**, **Competitive advantage gain**, **Relation to a corporate initiative**, **Increasing job efficiencies**, **Increasing process consistency and optimization**, and **Need for additional infrastructure or business expansion** questions use relative scaling for this normalization \(minimum 0, maximum 10, scaled to a new range of 0–10, scale definition High\). Every other question in the template uses the Smart Assessment Engine's default normalization. Each section's score is a weighted average of its own questions' normalized scores. The overall per-assessment score is a weighted average of the five sections' normalized scores.
 
 <table id="tbl_smart_asmt_template_questions"><thead><tr><th>
 
@@ -91,13 +93,21 @@ Section
 
 Description
 
+</th><th>
+
+Weight
+
 </th></tr></thead><tbody><tr><td>
 
 Size
 
 </td><td>
 
-Size of the demand relative to the average size \(scale of 1–10\).
+Size of the demand relative to the average demand, on a scale of 1–10, where 10 means very large and 1 means very small.
+
+</td><td>
+
+10
 
 </td></tr><tr><td>
 
@@ -105,11 +115,15 @@ Strategic Alignment
 
 </td><td>
 
-Strategic alignment of the demand. Consists of the following attributes:-   Priority of the demand based on its urgency and importance
--   Relation to a corporate initiative
--   Increasing job efficiencies
--   Increasing process consistency and optimization
--   Competitive advantage gain
+Business valuation of the demand, on a scale of 1–10, where 10 means very high and 1 means very low. Consists of the following attributes:-   Priority of the demand based on its urgency and importance. This question is answered automatically from the demand's Priority field \(Critical = 10, Normal = 5, any other value = 1\). Weight 20, optional.
+-   Relation to a corporate initiative. Weight 10, optional.
+-   Increasing job efficiencies. Weight 20, mandatory.
+-   Increasing process consistency and optimization. Weight 20, mandatory.
+-   Competitive advantage gain. Weight 20, mandatory.
+
+</td><td>
+
+20
 
 </td></tr><tr><td>
 
@@ -117,7 +131,14 @@ Risk
 
 </td><td>
 
-Risk associated with the demand based on delays, compliance and regulatory requirements, infrastructure and business expansion, and dependencies.
+Risk associated with the demand based on delays, compliance, dependencies, and scope, on a scale of 1–10, where 10 means very high and 1 means very low. Consists of the following attributes:-   Susceptibility to time delays. Weight 20, mandatory.
+-   Fulfillment of compliance and regulatory requirements. Weight 15, mandatory.
+-   Need for additional infrastructure or business expansion. Weight 20, mandatory.
+-   Significant dependencies. Weight 20, mandatory.
+
+</td><td>
+
+25
 
 </td></tr><tr><td>
 
@@ -125,7 +146,11 @@ ROI
 
 </td><td>
 
-Impact of the demand based on its expected effect on the business and financial return of the demand based on the projected value.
+Business impact and projected financial return of the demand, on a scale of 1–10, where 10 means very high and 1 means very low.
+
+</td><td>
+
+25
 
 </td></tr><tr><td>
 
@@ -133,16 +158,32 @@ Cost
 
 </td><td>
 
-Labor cost, capital cost, and operational cost of the demand.
+Labor cost, capital cost, and operational cost of the demand, on a scale of 1–10, where 10 means very high and 1 means very low. Applies to operational and strategic demand.
+
+</td><td>
+
+20
 
 </td></tr></tbody>
-</table>The Size, ROI, and Cost questions are answered automatically from existing demand field values. The remaining questions are scored on a scale of 1–10 by the person completing the assessment.
+</table>|Section|Question|Source demand field|Mapping|Weight|Default score|
+|-------|--------|-------------------|-------|------|-------------|
+|Size|Size|**size**|XXL = 10, XL = 8, L = 6, M = 4, any other value = 2|10|2|
+|Strategic Alignment|Priority|**priority**|Critical = 10, Normal = 5, any other value = 1|20|1|
+|ROI|Impact|**impact**|High = 10, Medium = 5, any other value = 1|60|1|
+|ROI|Financial return|**financial\_return**|&gt;$1,000,000 = 10; &gt;$750,000 = 9; &gt;$500,000 = 8; &gt;$250,000 = 6; &gt;$100,000 = 4; &gt;$50,000 = 2; $50,000 or less = 1|40|1|
+|Cost|Labor cost|**labor\_costs**|Same bands as Financial return|0|1|
+|Cost|Capital cost|**capital\_outlay**|Same bands as Financial return, but 0 or empty = 0|50|0|
+|Cost|Operational cost|**operational\_outlay**|Same bands as Capital cost|50|0|
 
-The predefined demand assessment template is the only template the automatic screening state trigger, completion check, and score population use. The template is hardcoded. A user with the **sn\_smart\_asmt.template\_manager** role can create additional smart assessment templates in the Assessment Workspace. Using a different template for demands also requires customizing the **DemandSmartAssessmentUtils** script include to use it. For more information, see  and [Use a custom smart assessment template for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/override-smart-assessment-template-ppw.md).
+The Size, ROI, and Cost questions, along with the Priority question under Strategic Alignment, are answered automatically from existing demand field values. The remaining questions are scored on a scale of 1–10 by the person completing the assessment.
+
+Assessments created from the predefined template are due 14 days after they're triggered.
+
+The predefined demand assessment template is the only template the automatic screening state trigger, completion check, and score population use. The template is hardcoded. A user with the **sn\_smart\_asmt.template\_manager** role can create additional smart assessment templates in the Assessment Workspace. Using a different template for demands also requires customizing the **DemandSmartAssessmentUtils** script include to use it. For more information, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/sae-asmnt-template-create.md) and [Use a custom smart assessment template for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/override-smart-assessment-template-ppw.md).
 
 ## Deleting or resetting a demand
 
 Deleting a demand, or resetting it to draft, automatically cancels any of its smart assessments that are still open. A warning message is displayed when you try to reset a demand to draft that has smart assessments triggered.
 
-If a demand already has classic assessments on it and is reset to Draft, that reset is treated as a fresh assessment flow. It is not a continuation of the old one. Any open old assessments are cancelled. If smart assessments is enabled, a new smart assessment is triggered instead.
+If a demand already has classic assessments on it and is reset to Draft, that reset is treated as a fresh assessment flow. It is not a continuation of the old one. Any open old assessments are cancelled. If smart assessments is enabled, a new smart assessment is triggered instead when the demand is again moved to screening.
 

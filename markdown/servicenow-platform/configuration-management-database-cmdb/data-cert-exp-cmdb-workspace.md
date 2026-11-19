@@ -20,9 +20,9 @@ Use Data Certification in CMDB Workspace to administer Data Certification, creat
 
 Use the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) landing page and views to administer Data Certification:
 
--   Use the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to navigate to CMDB Data Manager to [create a new Certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
+-   Use the  to navigate to CMDB Data Manager to [create a new Certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
 -   Use the My work tile on the CMDB Workspace landing page to access your open and overdue certification tasks that you need to review and process.
--   Use the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to access any certification tasks assigned to you under the Certification tasks section.
+-   Use the  to access any certification tasks assigned to you under the Certification tasks section.
 
 Manage certification tasks in CMDB Workspace:
 

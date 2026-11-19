@@ -53,6 +53,8 @@ The Run Summary module provides a central location to track all optimization act
 -   Run Summary Shifts: Shift plans and the tasks assigned to them.
 -   Validation and exception messages.
 
+**Note:** Run summaries don’t show crew assignments or explain scheduling results for crew-based work.
+
 **Related topics**  
 
 

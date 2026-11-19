@@ -24,26 +24,26 @@ Role required: itil or admin
 
 1.  Perform one of the following actions to start creating an interaction.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d254542e52">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d255248e56">
 
 Option
 
-</th><th align="left" id="d254542e55">
+</th><th align="left" id="d255248e59">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d254542e61">
+</th></tr></thead><tbody><tr><td id="d255248e65">
 
 **From the List menu in the primary navigation**
 
 </td><td>
 
-1.  From the primary navigation, click the list icon \(\[Omitted image "lists\_icon.png"\] Alt text: List icon\).
-2.  Select the add icon \(\[Omitted image "add-icon.png"\] Alt text: add icon\) next to the **List** tab.
+1.  From the primary navigation, select the list icon \(\[Omitted image "lists\_icon.png"\] Alt text:\).
+2.  Select the add icon \(\[Omitted image "add-icon.png"\] Alt text:\) next to the **List** tab.
 3.  Select **New Interaction**.
 
 
-</td></tr><tr><td id="d254542e100">
+</td></tr><tr><td id="d255248e102">
 
 **From an interaction list**
 
@@ -51,7 +51,7 @@ Description
 
 1.  Navigate to a list of interactions.
 
-**Note:** Following lists are available for interactions:
+**Note:** The following lists are available for interactions:
 
     -   Assigned to me
     -   Active
@@ -60,7 +60,7 @@ Description
 
 
 </td></tr></tbody>
-</table>2.  On the form, fill the fields in the **Details** tab.
+</table>2.  On the form, fill in the fields in the **Details** tab.
 
     |Field|Description|
     |-----|-----------|
@@ -68,11 +68,11 @@ Description
     |Type|Mode through which the interaction started. For example, chat, phone, or walk-up.|
     |State|State of the interaction.|
     |Opened for|Name of the user starting the interaction.|
-    |Assigned to|User to whom the interaction is assigned to.|
+    |Assigned to|User to whom the interaction is assigned.|
     |Short description|Detailed description of the interaction|
     |Work notes|Work notes related to the interaction.|
 
-    **Note:** If the Now Assist plugin isn't activated, you must enter the values for **Opened for**, and **Short description** fields to create an interaction.
+    **Note:** If the Now Assist plugin isn't activated, you must enter the values for **Opened for** and **Short description** fields to create an interaction.
 
 3.  Select **Save**.
 

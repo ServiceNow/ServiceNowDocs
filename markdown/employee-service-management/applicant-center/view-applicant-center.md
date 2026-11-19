@@ -22,13 +22,11 @@ Role required: sn\_ta\_hiring\_core.external\_applicant or sn\_ta\_hiring\_core.
 
 ## About this task
 
-An applicant can log in to the Applicant Center without the need for a password to make the process simpler and more accessible. Applicants receiving an invitation to log in to the Applicant Center is a base system behaviour. You can determine at which state, the email is sent to the applicant's registered email address with the magic link.
+An applicant can log in to the Applicant Center without the need for a password to make the process simpler and more accessible. Applicants receiving an invitation to log in to the Applicant Center is a base system behavior. You can determine at which state, the email is sent to the applicant's registered email address with the magic link.
 
 ## Procedure
 
 1.  Go to your registered email address and open the email notification.
-
-
 
 2.  Select **View Applicant Center**.
 

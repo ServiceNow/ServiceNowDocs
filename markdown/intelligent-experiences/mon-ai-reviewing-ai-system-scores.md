@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Reviewing quality and safety scores
@@ -22,9 +22,9 @@ When evaluations are active and sessions have been scored, start with the monito
 When you identify a system that needs closer review, select the **Monitor** tab on the AI system's asset page to see scores, metric breakdowns, trends, and evaluated sessions scoped to that system alone. See [Monitoring an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-asset-monitor.md).
 
 -   **[Monitoring overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-monitoring-overview.md)**  
-Identify low-scoring AI systems quickly by reviewing quality and safety scores, AI-generated insights, and performance trends across your AI portfolio.
+Identify low-scoring AI systems quickly by reviewing quality and safety scores, AI-generated insights, and performance trends across your AI portfolio in Super Intelligence Control Tower.
 -   **[Review scores across your AI portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-review-scores-task.md)**  
 Assess the quality and safety of your AI systems by reviewing scores, identifying low-scoring systems, and learning which metrics are affecting each score.
 
-**Parent Topic:**[Monitoring and evaluating AI systems in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-landing.md)
+**Parent Topic:**[Monitoring and evaluating AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-landing.md)
 

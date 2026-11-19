@@ -34,7 +34,7 @@ To copy a dashboard that is not part of an Platform Analytics Solution, see [Man
 
 2.  In the Solutions list, click the name of the dashboard you want to copy.
 
-3.  On the Solutions form, click the **Duplicate Dashboard** icon \(\[Omitted image "icon-duplicate-dashboard.png"\] Alt text:\).
+3.  On the Solutions form, click the **Duplicate Dashboard** icon \(\[Omitted image "icon-duplicate-dashboard.png"\] Alt text: Duplicate dashboard icon\).
 
     \[Omitted image "dupl-solution-db.png"\] Alt text: Section of Solutions form with Duplicate dashboard icon highlighted
 

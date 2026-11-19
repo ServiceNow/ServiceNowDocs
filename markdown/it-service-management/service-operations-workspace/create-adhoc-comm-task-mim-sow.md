@@ -1,6 +1,6 @@
 ---
-title: Create an adhoc communication task
-description: Create an adhoc communication task as required during the various phases of an incident in Major Incident Management.
+title: Create an ad hoc communication task
+description: Create an ad hoc communication task as required during the various phases of an incident in Major Incident Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-adhoc-comm-task-mim-sow.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Communicating about incidents and major incidents, Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Create an adhoc communication task
+# Create an ad hoc communication task
 
-Create an adhoc communication task as required during the various phases of an incident in Major Incident Management.
+Create an ad hoc communication task as required during the various phases of an incident in Major Incident Management.
 
 ## Before you begin
 
@@ -42,7 +42,7 @@ Compose and sent communication
 
 </td><td>
 
-Indicates when the communication message must be composed and sent. Possible values are:-   Now – The communication message is composed and sent immediately.
+Time when the communication message must be composed and sent. Possible values are:-   Now – The communication message is composed and sent immediately.
 -   Later – The communication message is composed and sent later after a definite time interval.
 
 
@@ -53,8 +53,8 @@ Frequency
 </td><td>
 
 Frequency at which the communication must be composed and sent. Possible values are:-   One time – The communication message is composed and sent only once. After the message is sent, the task is marked as complete.
--   Recurring - The communication message is composed and sent after a repeated time interval. The timer is displayed that shows when the next communication is due to be sent.
-**Note:** For both the frequency settings, you must manually compose, review and sent the message.
+-   Recurring - The communication message is composed and sent after a repeated time interval. A timer shows when the next communication is due to be sent.
+**Note:** For both the frequency settings, you must manually compose, review, and send the message.
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Channels
 
 </td><td>
 
-Channel that must be used to compose and sent communication messages. Possible options are:-   DEX Desktop Assistant: Compose and send the notification message through DEX Desktop Assistant. For more information on DEX Desktop Assistant, see .
+Channel that must be used to compose and send communication messages. Possible options are:-   DEX Desktop Assistant: Compose and send the notification message through DEX Desktop Assistant. For more information on DEX Desktop Assistant, see .
 -   Email – Compose and send the communication message as an email.
 -   SMS – Compose and send the communication message as SMS.
 -   Microsoft Teams notification - Compose and send communication messages as Microsoft Teams notifications.
@@ -95,7 +95,7 @@ Recipients
 
 </td><td>
 
-User, user groups, or list of recipients to whom the communication message must be sent.
+Users, user groups, or lists of recipients to whom the communication message must be sent.
 
 </td></tr></tbody>
 </table>4.  Either save your communication or compose your communication, depending on whether the **Compose and sent communication** field has been set to **Later** or **Now**.

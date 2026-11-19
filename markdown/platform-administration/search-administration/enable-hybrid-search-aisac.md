@@ -7,10 +7,10 @@ release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Manage hybrid search in search applications
@@ -22,7 +22,7 @@ Control hybrid search settings in AI Search applications to optimize search perf
 -   Starting with ServiceNow Otto for AI Search version 15.0.
 -   Must have at least one indexed source with semantic fields and semantic indexing configured.
 
-Role required: ais-admin
+Role required: ais\_admin
 
 ## About this task
 

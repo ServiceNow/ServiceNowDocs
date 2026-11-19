@@ -7,7 +7,7 @@ release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Reference, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -60,6 +60,14 @@ The current status of the account. The available statuses are:-   Active
 
 </td></tr><tr><td>
 
+Last month spend
+
+</td><td>
+
+The actual cloud spend of the account for the previous month. This column appears only if the Cloud Cost Management workspace plugin is enabled.
+
+</td></tr><tr><td>
+
 Owned by
 
 </td><td>
@@ -88,7 +96,7 @@ Security Findings
 
 </td><td>
 
-The total number of security findings.
+The total number of security findings.This column appears only if the Security Operations integration for Cloud Workspace is installed.
 
 </td></tr><tr><td>
 

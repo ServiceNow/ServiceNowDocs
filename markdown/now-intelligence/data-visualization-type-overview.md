@@ -253,7 +253,7 @@ Displays data-driven events in a calendar format.
 
 </td></tr><tr><td>
 
-[Indicator scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-indicator-scorecard.md) \[Omitted image "inline-data-vis-scorecard.png"\] Alt text: Analytics center scorecard report-med
+[Indicator scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-indicator-scorecard.md) \[Omitted image "inline-data-vis-scorecard.png"\] Alt text: Indicator scorecard icon
 
 </td><td>
 

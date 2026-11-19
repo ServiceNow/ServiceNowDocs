@@ -40,7 +40,7 @@ The scheduling system uses demand channel attributes \(conditions and order\) fo
 |Active|Select this option to activate the demand channel.|
 |Order|Order of preference of the demand channel.|
 |Default|If selected, this demand channel becomes the default one. For instance, if the total capacity is 100, and specific channels like "Install" and "Breakfix" take up 30 and 50 respectively, the remaining 20 will be allocated to this default channel.|
-|Table|Select the table used to categorize demand channel. By default, this is set to `wm_task`.|
+|Table|Table that the demand channel applies to. This field is read-only and the default value is `wm_task`.|
 |Condition|Conditions to filter the data. For example, setting the work type as "Installation" ensures the system checks the reservation rule for capacity usage when a task is received.|
 
 5.  Click **Submit**.

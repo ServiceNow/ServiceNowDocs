@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Phone number field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Phone number field type, Reference, Field administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure a territory phone display rule

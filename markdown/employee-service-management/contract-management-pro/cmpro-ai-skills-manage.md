@@ -8,7 +8,7 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
 last_updated: "2025-01-13"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [contract management, now assist, AI skills, ServiceNow Otto, use cases]
 breadcrumb: [Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---

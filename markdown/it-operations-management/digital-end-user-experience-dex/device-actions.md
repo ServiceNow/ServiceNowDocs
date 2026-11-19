@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
+keywords: [dex self service device actions, issue configurations, fix device issues, create device action, device action components]
 breadcrumb: [Configuring DEX Self-service, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

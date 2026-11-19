@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-22"
 reading_time_minutes: 1
 keywords: [quick filter, extension point, script include]
-breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Dispatcher Workspace, CRM Workspace, Configure, Field Service Management]
 ---
 
 # Configure quick filters using an extension point

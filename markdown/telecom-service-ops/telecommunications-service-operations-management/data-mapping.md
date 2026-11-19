@@ -9,7 +9,7 @@ classification: telecommunications-service-operations-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configure Nokia Altiplano SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Nokia Altiplano SGC, Configure service graph connectors, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Mapping Nokia Altiplano CIs and Relationships in CMDB

@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, ServiceNow Store, Administering applications, Get started, ServiceNow AI Platform]
 ---
 
 # Configure ServiceNow Store application notification preferences

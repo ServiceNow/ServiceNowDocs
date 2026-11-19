@@ -19,7 +19,7 @@ Capture multiple job records for a user with the new Jobs \(sn\_hr\_core\_job\) 
 
 ## Jobs table overview
 
-Beginning in the New York release, you can use the new Jobs \(sn\_hr\_core\_job\) table to store multiple job records per user and capture the job history of users within your organization.
+Use the Jobs \(sn\_hr\_core\_job\) table to store multiple job records per user and capture the job history of users within your organization.
 
 ## Jobs table and HR Profile table
 
@@ -64,7 +64,7 @@ In the case of Eva Seahorn, for example, Eva was rehired as a marketing director
 
 ## Supporting multiple jobs in a lifecycle event
 
-Use the Jobs table to create lifecycle event cases where you can specify which job the case pertains to. For example, say that you have an intern that is being transferred to a full-time position. The intern has two associated job records. When an onboarding case for the full-time position is created, the case is associated with the full-time job record, ensuring that downstream activity sets and activities are triggered based on information from that relevant job record. For more information, see [Support multiple jobs in a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/lifecycle-events/adopt-jobs-table.md).
+Use the Jobs table to create lifecycle event cases where you can specify which job the case pertains to. For example, say that you have an intern that is being transferred to a full-time position. The intern has two associated job records. When an onboarding case for the full-time position is created, the case is associated with the full-time job record. This ensures that downstream activity sets and activities are triggered based on information from that job record. For more information, see [Support multiple jobs in a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/lifecycle-events/adopt-jobs-table.md).
 
 **Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 

@@ -8,7 +8,7 @@ product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 

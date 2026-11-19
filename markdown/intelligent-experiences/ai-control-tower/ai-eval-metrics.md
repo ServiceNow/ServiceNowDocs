@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Evaluation dashboard reference, AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Evaluation dashboard reference, Reference \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Evaluation metrics and calculations

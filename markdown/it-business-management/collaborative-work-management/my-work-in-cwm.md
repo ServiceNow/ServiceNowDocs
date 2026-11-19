@@ -8,7 +8,7 @@ product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
@@ -68,7 +68,7 @@ Date
 
 </td><td>
 
-Filter the tasks by their start and end dates.
+Filter the tasks by their start and end dates. The date fields that My Work uses depend on the work item type. See [Date fields used by My Work for each work item type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/my-work-in-cwm.md).
 
 </td></tr><tr><td>
 
@@ -127,7 +127,16 @@ Task by Priority
 Bar chart that groups all work items assigned to you by their priority. Clicking a bar opens a list of tasks that meet the filter criteria for the corresponding bar.For more information on how the tasks are grouped by priority, see [Grouping of tasks in status reports of CWM My Work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/grouping-of-tasks-in-status-reports-of-cwm-my-work.md).
 
 </td></tr></tbody>
-</table>\[Omitted image "cwm-my-work-list-view.png"\] Alt text: List view of work items from My Work.
+</table>|Work item type|Start date|End date|
+|--------------|----------|--------|
+|Story|Start date of the sprint that the story belongs to|End date of the sprint that the story belongs to|
+|Project task|Planned start date|Planned end date|
+|Scrum task|Expected start|Due date|
+|CWM task|Start date|End date|
+|Decision, action, issue, change request, risk, and demand task|None|Due date|
+|All other work item types|Expected start|Due date|
+
+\[Omitted image "cwm-my-work-list-view.png"\] Alt text: List view of work items from My Work.
 
 The List view shows all open work items assigned to you. Select the **Short description** of a work item to view its details in a modal pop-up. Select the **Source** of a work item to open the work item in a new tab.
 

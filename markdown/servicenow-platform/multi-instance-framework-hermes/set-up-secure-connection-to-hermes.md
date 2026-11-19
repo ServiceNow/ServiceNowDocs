@@ -29,7 +29,7 @@ Make sure the following setup is in place:
 
 Role required: hermes\_admin, sn\_kmf.cryptographic\_manager, or admin
 
-For details on assigning KMF roles, see .
+For details on assigning KMF roles, see [Roles installed with Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/kmf-roles.md).
 
 ## Procedure
 
@@ -37,15 +37,15 @@ For details on assigning KMF roles, see .
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d390309e127">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d391194e128">
 
 Option
 
-</th><th align="left" id="d390309e130">
+</th><th align="left" id="d391194e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d390309e136">
+</th></tr></thead><tbody><tr><td id="d391194e137">
 
 **Apply ACLs to namespaces**
 
@@ -58,7 +58,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d390309e178">
+</td></tr><tr><td id="d391194e179">
 
 **Apply ACLs to defined topics**
 

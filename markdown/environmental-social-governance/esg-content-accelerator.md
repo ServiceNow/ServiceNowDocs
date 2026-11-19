@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Explore, Operational Sustainability Management]
 ---
 
 # Unified content management

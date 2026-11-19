@@ -26,15 +26,15 @@ Role required: sn\_sec\_spc\_core.developer
 
 1.  Select one to continue.
 
-<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d141942e89">
+<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d141671e91">
 
 Option
 
-</th><th align="left" id="d141942e92">
+</th><th align="left" id="d141671e94">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d141942e98">
+</th></tr></thead><tbody><tr><td id="d141671e100">
 
 **Select Use ServiceNow Otto®**
 
@@ -42,7 +42,7 @@ Description
 
 See [Create an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/select-api-template.md) for the steps for using ServiceNow Otto®.
 
-</td></tr><tr><td id="d141942e124">
+</td></tr><tr><td id="d141671e126">
 
 **Select one option from a list and __Apply__ to view the template cards that match your selections.**
 

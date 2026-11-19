@@ -43,7 +43,7 @@ Role required: admin
     |Field|Description|
     |-----|-----------|
     |Order|Order of the UXF route|
-    |Workspace|Option where the UXF route will be applicable to. If there is no value in this field, the system picks the Workspace as Service Operations Workspace.|
+    |Workspace|Option where the UXF route applies. If there is no value in this field, the system picks the Workspace as Service Operations Workspace.|
     |Verification type|Verification type to authenticate the user during the password reset process.|
     |Route|Path for the code to reach the destination.|
 

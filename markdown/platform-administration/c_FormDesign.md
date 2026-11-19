@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configure, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Form administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Using the form designer

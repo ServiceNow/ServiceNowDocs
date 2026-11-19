@@ -27,19 +27,19 @@ You can use Employee Slate for ITSM either with Employee Slate for Moveworks or 
 
 ## Procedure
 
-1.  Install the Employee Slate for ITSM plugin to enable the Employee Slate for ITSM application.
+1.  Install the EmployeeWorks Web App for ITSM plugin to enable the Employee Slate for ITSM application.
 
 2.  Integrate Employee Slate for ITSM with either Employee Slate for Moveworks or Employee Slate \(built for Now Assist\).
 
-<table id="choicetable_wsn_kmw_pkc"><thead><tr><th align="left" id="d277224e148">
+<table id="choicetable_wsn_kmw_pkc"><thead><tr><th align="left" id="d278082e150">
 
 To
 
-</th><th align="left" id="d277224e151">
+</th><th align="left" id="d278082e153">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d277224e157">
+</th></tr></thead><tbody><tr><td id="d278082e159">
 
 **Integrate with Employee Slate for Moveworks**
 
@@ -55,7 +55,7 @@ This includes configuring Moveworks chatbot for Employee Slate and configuring E
     -   IT Walk-up Visits plugin
 
 
-</td></tr><tr><td id="d277224e198">
+</td></tr><tr><td id="d278082e200">
 
 **Integrate with Employee Slate \(built for Now Assist\)**
 

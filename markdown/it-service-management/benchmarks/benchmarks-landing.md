@@ -1,6 +1,6 @@
 ---
 title: Benchmarks
-description: The ServiceNow Benchmarks application gives you instant visibility into your key performance indicators \(KPIs\) and trends, as well as comparative insight relative to industry averages of your peers and to the industry top performers. You can contrast the performance of your organization with recognized industry standards, view a side-by-side comparison of performance with global benchmarks, and implement recommendations for improved performance.
+description: The ServiceNow Benchmarks application compares your KPIs and trends with industry averages and top performers, with recommendations to improve.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/benchmarks-landing.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [IT Service Management]
 
 # Benchmarks
 
-The ServiceNow® Benchmarks application gives you instant visibility into your key performance indicators \(KPIs\) and trends, as well as comparative insight relative to industry averages of your peers and to the industry top performers. You can contrast the performance of your organization with recognized industry standards, view a side-by-side comparison of performance with global benchmarks, and implement recommendations for improved performance.
+The ServiceNow® Benchmarks application compares your KPIs and trends with industry averages and top performers, with recommendations to improve.
 
 ## Benchmarks overview
 

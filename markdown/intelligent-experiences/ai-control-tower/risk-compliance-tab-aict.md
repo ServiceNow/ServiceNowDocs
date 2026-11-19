@@ -1,6 +1,6 @@
 ---
-title: Risk and compliance tab in AI Control Tower
-description: The Risk and compliance tab on the AI Control Tower displays the risk classification of AI assets and the compliance posture for selected authority documents and policies.
+title: Risk and compliance tab in Control Tower
+description: The Risk and compliance tab on the Control Tower displays the risk classification of AI assets and the compliance posture for selected authority documents and policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/risk-compliance-tab-aict.html
 release: brazil
@@ -9,12 +9,12 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control Tower Home, Control Tower dashboard, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Risk and compliance tab in AI Control Tower
+# Risk and compliance tab in Control Tower
 
-The Risk and compliance tab on the AI Control Tower displays the risk classification of AI assets and the compliance posture for selected authority documents and policies.
+The Risk and compliance tab on the Control Tower displays the risk classification of AI assets and the compliance posture for selected authority documents and policies.
 
 AI assets refer to the various components and resources that are essential for the development, deployment, and operation of artificial intelligence systems. These assets can include:
 

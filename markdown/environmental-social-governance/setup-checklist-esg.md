@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Operational Sustainability Management \(formerly ESG Management\) implementation, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Operational Sustainability Management \(formerly ESG Management\) implementation, Configure, Operational Sustainability Management]
 ---
 
 # Setup checklist for the Operational Sustainability Management \(formerly ESG Management\) application

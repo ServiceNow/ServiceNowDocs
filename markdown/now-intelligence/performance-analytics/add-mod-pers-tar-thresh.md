@@ -32,7 +32,7 @@ You can either look up the personal targets or thresholds of a user or create a 
 
     1.  Search the records by the Owner.
 
-    2.  When you find the target or threshold that you want to modify, select the info icon \[Omitted image "IconInformation.png"\] Alt text: on the row for that target or threshold record.
+    2.  When you find the target or threshold that you want to modify, select the info icon \[Omitted image "IconInformation.png"\] Alt text: Information icon on the row for that target or threshold record.
 
         \[Omitted image "target-record-open-preview.png"\] Alt text: Opening the preview of a target record.
 

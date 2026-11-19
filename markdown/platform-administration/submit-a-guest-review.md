@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [servicenow store, store, app store, application store, app store user documentation, servicenow app store, review store apps, review app, review application, rate store app, rate application, rate apps, write an app review, anonymous review, anonymous rating, review without logging in, review without signing in, rate without logging in, rate without signing in]
-breadcrumb: [Reviewing apps, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Reviewing apps, ServiceNow Store, Administering applications, Get started, ServiceNow AI Platform]
 ---
 
 # Submit a guest review

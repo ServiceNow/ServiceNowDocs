@@ -160,7 +160,7 @@ Repeat steps 10–13 as needed for each reference field you want to filter on. A
 **Note:** A filter may be converted from the **Check boxes** control type to the **Select Multiple Input** control type for performance reasons.
 
 1.  After you create the filter, add it to a dashboard.
-2.  On the dashboard, select the **Edit widget** icon \(\[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit columns icon\) on each visualization on the dashboard that should follow the filter and select **Follow interactive filter**.
+2.  On the dashboard, select the **Edit widget** icon \(\[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit widget icon\) on each visualization on the dashboard that should follow the filter and select **Follow interactive filter**.
 
 **Parent Topic:**[Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md)
 

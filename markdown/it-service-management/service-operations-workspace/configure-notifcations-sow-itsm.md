@@ -1,6 +1,6 @@
 ---
 title: Configure notifications in Service Operations Workspace for ITSM
-description: Customize notifications that are sent to an agent to update about various changes.
+description: Customize notifications that update an agent about various changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-notifcations-sow-itsm.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configu
 
 # Configure notifications in Service Operations Workspace for ITSM
 
-Customize notifications that are sent to an agent to update about various changes.
+Customize notifications that update an agent about various changes.
 
 ## Before you begin
 

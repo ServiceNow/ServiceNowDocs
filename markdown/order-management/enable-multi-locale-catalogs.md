@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/enable-multi-locale-catalogs.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-11-17"
+reading_time_minutes: 2
 breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -16,7 +16,7 @@ Make product catalogs and offerings available in multiple languages so sales age
 
 ## Before you begin
 
-Role required: sn\_prd\_pm.product\_catalog\_admin, admin
+Role required: sn\_prd\_pm.product\_catalog\_admin, sn\_prd\_pm.product\_catalog\_manager, admin
 
 ## Procedure
 
@@ -38,7 +38,7 @@ Role required: sn\_prd\_pm.product\_catalog\_admin, admin
 
     3.  Enter comma-separated language codes in the **Value** field.
 
-        `en,fr,de`
+        `en,fr,de,ja`
 
     4.  Select **Update**.
 
@@ -57,20 +57,20 @@ Role required: sn\_prd\_pm.product\_catalog\_admin, admin
     3.  Navigate to the respective module and select a record you want to translate.
 
         -   **Offerings** &gt; **Product Offerings**.
-        -   **Offerings** &gt; **Product Offering Catalog**.
+        -   **Offerings** &gt; **Product Offering Catalogs**.
     4.  Regenerate the cache by selecting an option from the More Actions icon \[Omitted image "ellipsis-horizontal-fill-24.svg"\] Alt text: depending on the record type.
 
         |Record type|Option|
         |-----------|------|
-        |Product Offering|**Regenerate Product Offering Cache**|
-        |Product Offering Catalog|**Regenerate Catalog Hierarchy Cache**|
+        |Product Offering|**Regenerate product offering cache**|
+        |Product Offering Catalog|**Regenerate catalog hierarchy cache**|
 
         **Note:** You must regenerate the cache if you're adding translations for a published product offering or catalog.
 
 
 ## Result
 
-A Configuration JSON record is created in the Product Offering Translation \[sn\_prd\_pm\_product\_offering\_translation\] and Product Offering Catalog Translation \[sn\_prd\_pm\_product\_offering\_catalog\_translation\] tables in the specified language respectively. Each row corresponds to a product offering or product catalog per locale.
+Records are created in the specified languages in two tables. In the Product Offering Translation \[sn\_prd\_pm\_product\_offering\_translation\] table, the Configuration JSON field holds the translated product offering. In the Product Offering Catalog Translation \[sn\_prd\_pm\_product\_offering\_catalog\_translation\] table, the Hierarchy JSON field holds the translated catalog category hierarchy. Each row corresponds to a product offering or product catalog per locale.
 
 The products in the product configurator UIs are displayed in the language set in the user preferences, from the list of available languages.
 

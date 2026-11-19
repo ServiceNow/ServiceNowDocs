@@ -1,18 +1,18 @@
 ---
-title: Add an MCP server from AI Control Tower
-description: Add an MCP server manually from AI Control Tower.
+title: Add an MCP server from Control Tower
+description: Add an MCP server manually from Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-add-an-mcp-server-from-ai-control-tower.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [MCP server setup, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [MCP server setup, Working with MCP server records, Discover and manage AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Add an MCP server from AI Control Tower
+# Add an MCP server from Control Tower
 
-Add an MCP server manually from AI Control Tower.
+Add an MCP server manually from Control Tower.
 
 ## Before you begin
 
@@ -46,7 +46,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 10. Select the **Client registration type**.
 
-    **Note:** If you select Dynamic client registration, AI Control Tower automatically receives the Client ID and Client secret. If you select Manual registration, you must create the client externally on the MCP provider side and enter the Client ID and Client secret manually.
+    **Note:** If you select Dynamic client registration, Control Tower automatically receives the Client ID and Client secret. If you select Manual registration, you must create the client externally on the MCP provider side and enter the Client ID and Client secret manually.
 
 11. If you select Manual registration, review and complete the following details:
 

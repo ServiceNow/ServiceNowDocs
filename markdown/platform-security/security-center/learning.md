@@ -1,6 +1,6 @@
 ---
 title: Security learning
-description: Access security learning materials from a single page.
+description: Access security white papers, ebooks, knowledge base articles, product documentation, and community discussions from a single page in Security Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/learning.html
 release: brazil
@@ -14,9 +14,9 @@ breadcrumb: [Security Center, Platform Security]
 
 # Security learning
 
-Access security learning materials from a single page.
+Access security white papers, ebooks, knowledge base articles, product documentation, and community discussions from a single page in Security Center.
 
-Read security white papers, ebooks, knowledge base \(KB\) articles, product documentation, and community discussions from a consolidated view by navigating to **Learning**. The content is organized by headings and descriptive UI cards to make it quick for you to pinpoint the correct resource.
+Read security white papers, ebooks, knowledge base \(KB\) articles, product documentation, and community discussions from a consolidated view by navigating to **Learning**. The content is organized by headings and descriptive UI cards so that you can find the relevant resource.
 
 **Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sec-center-v2.md)
 

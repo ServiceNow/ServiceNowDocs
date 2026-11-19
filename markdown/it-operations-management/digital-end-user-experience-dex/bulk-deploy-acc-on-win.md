@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-10-23"
 reading_time_minutes: 2
+keywords: [bulk deploy acc windows, mass deploy acc, intune acc deployment, microsoft intune, install acc multiple windows devices, line of business app, silent acc installation, agent client collector \(acc\)]
 breadcrumb: [Deploying DEX to employees, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

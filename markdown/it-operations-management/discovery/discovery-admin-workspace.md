@@ -7,7 +7,7 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-27"
+last_updated: "2026-11-16"
 reading_time_minutes: 1
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -42,7 +42,7 @@ Installing Discovery Admin Workspace \(sn\_disco\_workspace\) activates or insta
 -   ITOM Guided Setup - New \(sn\_sow\_guide\_setup\)
 -   CMDB CI Class Models \(sn\_cmdb\_ci\_class\)
 
-**Note:** For on-premises deployments, dependencies aren't installed or updated automatically. For more information, see [Getting apps as an on-premise customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/getting-apps-on-prem.md).
+**Note:** For on-premises deployments, dependencies aren't installed or updated automatically. For more information, see .
 
 For a list of Discovery Admin Workspace application dependencies, see [Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/plugin-app-itom-visibility.md).
 
@@ -52,4 +52,7 @@ The following roles have access to the Discovery Admin Workspace:
 
 -   discovery\_admin
 -   admin
+-   discovery\_operator
+
+Starting with v1.23.0, users who have the discovery\_operator role have read-only access to the Discovery Admin Workspace. For details, see [Discovery Operator role access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-discovery-operator-access.md).
 

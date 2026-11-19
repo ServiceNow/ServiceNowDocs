@@ -7,7 +7,7 @@ release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Create a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Create a work order for the planned work, Manage work orders, Prepa
 
 As a planned work administrator or planner, you can manage schedule occurrences and work orders for planned work directly from the calendar. You can review event occurrences, cancel any duplicate work orders, generate new work orders, or make modifications to the schedule occurrences as needed.
 
-The CSM/FSM Configurable Workspace contains the Planning calendar. The calendar accommodates the schedule occurrences and work orders of a work plan. To access the calendar, navigate to **All** &gt; **Field Service Management** &gt; **Planned Work Management** &gt; **Workspace**
+The CRM Workspace contains the Planning calendar. The calendar accommodates the schedule occurrences and work orders of a work plan. To access the calendar, navigate to **All** &gt; **Field Service Management** &gt; **Planned Work Management** &gt; **Workspace**
 
 The planning calendar facilitates the following tasks:
 

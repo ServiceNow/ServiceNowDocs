@@ -1,6 +1,6 @@
 ---
 title: API parameters to configure Desktop Assistant notifications
-description: Parameters of the sendDANotification\(\) method in the DesktopAppNotificationUtils script include configure Desktop Assistant notifications.
+description: The sendDANotification\(\) method in the DesktopAppNotificationUtils script include accepts these parameters for configuring Desktop Assistant notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/digital-end-user-experience-dex/api-parameters-to-customize-desktop-assistant-notifications.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experi
 
 # API parameters to configure Desktop Assistant notifications
 
-Parameters of the sendDANotification\(\) method in the `DesktopAppNotificationUtils` script include configure Desktop Assistant notifications.
+The sendDANotification\(\) method in the `DesktopAppNotificationUtils` script include accepts these parameters for configuring Desktop Assistant notifications.
 
 <table id="table_z5k_bwb_glb"><thead><tr><th>
 
@@ -46,7 +46,7 @@ Title text displayed at the top of the Desktop Assistant notification card. If o
 
 </td><td>
 
-The `sys_id` values of the intended recipients, sourced from the User \[sys\_user\] table and provided as a comma-separated string.
+List of `sys_id` values of the intended recipients, sourced from the User \(sys\_user\) table and provided as a comma-separated string.
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ The `sys_id` values of the intended recipients, sourced from the User \[sys\_use
 
 </td><td>
 
-The sys\_id of the record that the notification links to.
+Unique identifier \(sys\_id\) of the record that the notification links to.
 
  This parameter works in combination with **referrer\_table**. If only one of these two parameters is provided, the link behavior is unpredictable.
 
@@ -64,7 +64,7 @@ The sys\_id of the record that the notification links to.
 
 </td><td>
 
-The name of the table containing the record that the notification links to. For example, incident or sc\_request.
+Name of the table containing the record that the notification links to. For example, incident or sc\_request.
 
  This parameter works in combination with **referrer\_id**. If only one of these two parameters is provided, the link behavior is unpredictable.
 
@@ -74,17 +74,17 @@ The name of the table containing the record that the notification links to. For 
 
 </td><td>
 
-The source application that triggered the notification. Accepted values are **mim** \(Major Incident Management\) and **pe** \(Proactive Engagement\). The value is case-insensitive. Any other value causes the API to return a 400 error.
+Source application that triggered the notification. Accepted values are **mim** \(Major Incident Management\) and **pe** \(Proactive Engagement\). The value is case-insensitive. Any other value causes the API to return a 400 error.
 
-**Note:** Desktop Assistant sends notifications for a new source only if the source is added as a choice value in the **Notification source** field of the Desktop Assistant notification \[sn\_dex\_desktop\_assistant\_notification\] table. This enables Desktop Assistant to recognize and track the source.
+**Note:** Desktop Assistant sends notifications for a new source only if the source is added as a choice value in the **Notification source** field of the Desktop Assistant notification \(sn\_dex\_desktop\_assistant\_notification\) table. This enables Desktop Assistant to recognize and track the source.
 
 </td></tr></tbody>
 </table>## Parameter interactions and precedence
 
 |Scenario|Behavior|
 |--------|--------|
-|**notification\_message** is empty, missing, or not a string value|Returns a 400 error.|
-|**notification\_title** is missing or not a string value|The Desktop Assistant client displays an empty title. No error is raised.|
+|**notification\_message** is empty, missing, or not a string value.|Returns a 400 error.|
+|**notification\_title** is missing or not a string value.|The Desktop Assistant client displays an empty title. No error is raised.|
 |**source** is not **mim** or **pe**|Returns a 400 error: `Source record missing in Desktop Assistant Notification Source table`|
 |**enable\_push\_notification** is **false**|Returns a 400 error immediately. No record is created and no flow runs.|
 |**notification\_time\_to\_live** is set to more than 7 days|The value is capped at seven days.|

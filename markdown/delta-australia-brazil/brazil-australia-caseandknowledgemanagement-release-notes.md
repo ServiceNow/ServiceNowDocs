@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-caseandknowledgemanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -362,7 +362,7 @@ Brazil
 -   Route and track requests in real time — Route employee requests to the right agents based on skills and track case status in real time.
 -   Leverage AI to improve efficiency — Use ServiceNow Otto AI to help HR agents and managers handle routine inquiries, suggest knowledge articles, and close cases faster.
 
- See [\[Placeholder link text to key hr-service-delivery\]](https://www.servicenow.com/docs/access?context=hr-service-delivery&family=brazil&ft:locale=en-US) for more information.
+ See [hr service delivery](https://www.servicenow.com/docs/access?context=hr-service-delivery&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/rn-combined-intro.md)

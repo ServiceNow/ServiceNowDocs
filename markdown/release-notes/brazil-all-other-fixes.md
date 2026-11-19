@@ -22,7 +22,7 @@ The Brazil release contains important problem fixes.
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
-**Note:** This version is being evaluated for use in the ServiceNow Government Community Cloud \(GCC\) environment.
+**Note:** This ServiceNow AI Platform® major family release is now available in ServiceNow's Regulated Market environments. For more information about services available in isolated environments, see [KB0743854](https://support.servicenow.com/kb_view.do?sysparm_article=KB0743854).
 
 For a downloadable, sortable version of the fixed problems in this release, click [here](https://downloads.docs.servicenow.com/enus/brazil/rn/patches/PRBs-B00.00.xlsx)
 

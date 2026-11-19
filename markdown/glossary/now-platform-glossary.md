@@ -172,19 +172,19 @@ The AI agent is a virtual worker that performs specific tasks leveraging tools f
 
 ### AI compliance
 
-AI compliance refers to the adherence to regulatory requirements, standards, and guidelines governing the development, deployment, and use of artificial intelligence systems. It involves ensuring that AI systems are designed and implemented in a way that meets legal, ethical, and organizational standards. This includes addressing issues related to data privacy, bias, transparency, and accountability. You can manage it through audit trails, model life cycle management, and data masking by using AI Control Tower in ServiceNow AI Platform.
+AI compliance refers to the adherence to regulatory requirements, standards, and guidelines governing the development, deployment, and use of artificial intelligence systems. It involves ensuring that AI systems are designed and implemented in a way that meets legal, ethical, and organizational standards. This includes addressing issues related to data privacy, bias, transparency, and accountability. You can manage it through audit trails, model life cycle management, and data masking by using Control Tower in ServiceNow AI Platform.
 
 ### AI Control Tower
 
-AI Control Tower is a centralized governance hub for managing AI models, agents, and compliance across the ServiceNow AI Platform. It provides visibility into model usage, performance, risk and compliance, and is integrated with AI Admin Hub.
+AI Control Tower is a centralized governance location for managing AI models, agents, and compliance across the ServiceNow AI Platform. It provides visibility into model usage, performance, and risk and compliance.
 
 ### AI governance
 
-AI governance refers to the set of policies, procedures, and standards that guide the development, deployment, and use of AI systems within an organization. It ensures that AI systems are aligned with organizational values, comply with regulatory requirements, and are used in a responsible and transparent manner. In ServiceNow AI Platform, you can manage AI governance through AI Control Tower, AI Trust Guard, and role-based access in AI Admin Hub.
+AI governance refers to the set of policies, procedures, and standards that guide the development, deployment, and use of AI systems within an organization. Its purpose is to help keep AI systems aligned with organizational values and regulatory requirements, and used in a responsible and transparent manner. In ServiceNow AI Platform, you can manage AI governance with AI Control Tower.
 
 ### AI steward
 
-An AI steward within ServiceNow AI Platform is a governance role responsible for overseeing the life cycle of AI assets, including models, data sets, and prompts. You can use AI stewards in AI Control Tower to coordinate governance activities between legal, security, compliance, and innovation teams for the responsible deployment of AI agents, skills, and models across the platform.
+An AI steward within ServiceNow AI Platform is a governance role responsible for overseeing the life cycle of AI assets, including models, data sets, and prompts. You can use AI stewards in Control Tower to coordinate governance activities between legal, security, compliance, and innovation teams for the responsible deployment of AI agents, skills, and models across the platform.
 
 ### alert
 
@@ -1269,8 +1269,6 @@ Designates where custom script logic can be incorporated into your code so you c
 
 ### External Content Connectors
 
-External
-
 External Content Connectors is a ServiceNow® Store application that enables AI Search to index and search content from external repositories like Atlassian Confluence Cloud and Microsoft SharePoint Online. It expands search capabilities to include external content while maintaining original access permissions.
 
 ### external storage
@@ -1854,7 +1852,7 @@ Glossary terms are grouped alphabetically.
 
 ### native translation
 
-A feature in ServiceNow Otto that uses integrated large language models \(LLMs\) to generate responses in the user's preferred language. You can enable and configure it in the AI Admin Hub.
+A feature in ServiceNow Otto that uses integrated large language models \(LLMs\) to generate responses in the user's preferred language. You can enable and configure it in the AI Admin Center: **All** &gt; **AI Admin Center** &gt; **Settings** &gt; **Multilingual Service**.
 
 ### navigation bar
 

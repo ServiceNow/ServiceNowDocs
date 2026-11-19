@@ -138,3 +138,5 @@ When an incident has a child incident, the following actions take place:
 -   If an ITIL user reopens the parent incident, both the parent and child incidents reopen. Both the parent and the child incident state is set to **In Progress**.
 -   If an employee self-service \(ESS\) user reopens the parent incident, the parent incident state is set to **In Progress** but the child incident is not reopened.
 
+The parent-child incident state synchronization is applicable only if the Incident Management Best Practice - Kingston plugin \(com.snc.best\_practice.incident.kingston\) is activated on the instance. The **Sync Child Incident State** business rule that available as part of the plugin helps to synchronize the state of the parent and child incident.
+

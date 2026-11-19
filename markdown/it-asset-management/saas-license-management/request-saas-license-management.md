@@ -80,7 +80,7 @@ User roles and tables are installed with SaaS License Management. Demo data is a
 
 [SaaS License Management setup for large companies]()
 
-[SaaS Overview dashboard]()
+[]()
 
 [Integrate with SaaS applications]()
 

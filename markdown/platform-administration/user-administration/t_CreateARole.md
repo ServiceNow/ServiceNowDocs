@@ -9,7 +9,7 @@ classification: user-administration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Managing roles, User administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create a role

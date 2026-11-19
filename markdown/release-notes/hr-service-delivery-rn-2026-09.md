@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/hr-service-delive
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Case and Knowledge Management release notes, HR Service Delivery release notes, Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -63,6 +63,11 @@ Case and Knowledge Management enhancements and new features in the Brazil releas
 -   **Issue Auto resolution for HR**
 
     Issue Auto resolution for HR is now deprecated and no longer supported or available for new activation. AI Native SKU's provides the latest experience for this functionality.
+
+
+-   **Predict service and transfer HR cases agentic workflow**
+
+    The Predict service and transfer HR cases agentic workflow is no longer deployed, enhanced, or supported. The new Predict service and transfer HR cases AI workflow replaces it and will be available to install when you upgrade to Brazil or later.
 
 
 **Parent Topic:**[Case and Knowledge Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/hr-service-delivery-landing-rn.md)

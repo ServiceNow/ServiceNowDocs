@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [alert groups, group alerts, dex alerts, secondary alerts, primary alert, metric rule alerts, alerts table, events table]
 breadcrumb: [DEX alerts, Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
 ---
 

@@ -18,7 +18,7 @@ As a security incident is being worked on, you can view the details of the event
 
 ## Before you begin
 
-You must have the Security Incident Response Event Management support plugin activated.
+You must activate the Event Management \(com.glideapp.itom.snac\) plugin. This plugin requires a separate subscription.
 
 Role required: si.sn\_agent
 
@@ -30,7 +30,7 @@ Role required: si.sn\_agent
 
     -   Security Incident CI Alerts
     -   Security Incident CI Events
-3.  Click the related list you want to view.
+3.  Select the related list you want to view.
 
     |Related list|Description|
     |------------|-----------|

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-servicenowcpq-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -145,7 +145,7 @@ Configure a complete approval framework for quotes in the Quote Experience in Sa
 Enable sales users to designate a quote as the primary quote for an opportunity and synchronize its lines back to the source opportunity record. The Enable Sync and Disable Sync events, integration, rules, and fields are productized into the Sales CRM quoting experience. Only one quote can be primary at a time per opportunity.
 
 
- -   **[\[Placeholder link text to key cpq-transaction-converse\]](https://www.servicenow.com/docs/access?context=cpq-transaction-converse&family=australia&ft:locale=en-US)**
+ -   **[cpq transaction converse](https://www.servicenow.com/docs/access?context=cpq-transaction-converse&family=australia&ft:locale=en-US)**
 
 Manage transaction lines using natural language. You can upload CSV or XLSX files directly in the chat to add or update lines, map file columns to transaction fields through a guided conversation, preview the changes, and apply or cancel them before execution. Target specific transaction lines by referencing line numbers or ranges in your prompts, enabling precise updates such as modifying field values or removing selected lines.
 

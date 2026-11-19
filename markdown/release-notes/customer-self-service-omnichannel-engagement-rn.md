@@ -1,13 +1,13 @@
 ---
 title: Self-service and omnichannel engagement for CSM release notes
-description: The ServiceNow Customer Service Management \(CSM\) application enables customers to connect with your organization through chat on self-service portals, consumer messaging apps, email, phone calls, and WebRTC voice widgets. See the following sections for release notes by version.The ServiceNow Customer Self-Service and Omnichannel Engagement application helps customers resolve issues through self-service portals and omnichannel interactions. This release adds work order visibility in the Consumer Portal and WebRTC voice calling from portal pages and the Engagement Messenger. It also includes AI Voice Agent integration with Amazon Connect for inbound call routing.
+description: The ServiceNow Customer Service Management \(CSM\) application enables customers to connect with your organization through chat on self-service portals, consumer messaging apps, email, phone calls, and WebRTC voice widgets. See the following sections for release notes by version.The ServiceNow Customer Self-Service and Omnichannel Engagement application helps customers resolve issues through self-service portals and omnichannel interactions. This release adds a dial pad to the voice call widget and extends portal voice calls to guest users.The ServiceNow Customer Self-Service and Omnichannel Engagement application helps customers resolve issues through self-service portals and omnichannel interactions. This release adds work order visibility in the Consumer Portal and WebRTC voice calling from portal pages and the Engagement Messenger. It also includes AI Voice Agent integration with Amazon Connect for inbound call routing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/customer-self-service-omnichannel-engagement-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 3
-keywords: [consumer portal, work orders, portal analytics, communities deprecation, customer self-service]
+reading_time_minutes: 4
+keywords: [voice call widget, dial pad, DTMF, guest user, WebRTC, consumer portal, work orders, portal analytics, communities deprecation, customer self-service]
 breadcrumb: [Customer Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -44,6 +44,20 @@ See [Self-service for Customer Service Management](https://raw.githubusercontent
 
 
 **Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/customer-service-mgmt-rn-landing.md)
+
+## Version 2.0
+
+The ServiceNow® Customer Self-Service and Omnichannel Engagement application helps customers resolve issues through self-service portals and omnichannel interactions. This release adds a dial pad to the voice call widget and extends portal voice calls to guest users.
+
+### What's new
+
+-   **[Enable WebRTC for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/portal-phone-widget.md)**
+
+    Use the voice call widget to send digits during a call and to call without signing in:
+
+    -   Respond to automated voice prompts, such as a menu option or a PIN, using the dial pad during a connected call.
+    -   Start and complete a voice call as a guest user, without signing in to the portal.
+    -   Start a call as a guest user and authenticate during the call by entering a PIN using the dial pad.
 
 ## Version 1.0
 

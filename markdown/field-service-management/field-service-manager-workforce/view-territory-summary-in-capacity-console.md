@@ -18,7 +18,7 @@ The Capacity Console provides a comprehensive summary of territories and demand 
 
 ## Before you begin
 
-Role required: fsm\_adv\_cap\_mgmt.wm\_capacity\_planner, sn\_fsm\_capacity\_mg.wm\_capacity\_write, sn\_fsm\_capacity\_mg.wm\_capacity\_read
+Role required: sn\_fsm\_adv\_cap.wm\_capacity\_planner, sn\_fsm\_capacity\_mg.wm\_capacity\_write, sn\_fsm\_capacity\_mg.wm\_capacity\_read
 
 ## About this task
 
@@ -26,19 +26,19 @@ When you select an event in the calendar or a specific data row, the contextual 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM configurable workspace** &gt; **Capacity console**.
+1.  Navigate to **All** &gt; **CRM Workspace** &gt; **Capacity console**.
 
 2.  View territory or demand channel summary.
 
-<table id="choicetable_awp_znf_c2c"><thead><tr><th align="left" id="d64547e88">
+<table id="choicetable_awp_znf_c2c"><thead><tr><th align="left" id="d64716e90">
 
 To
 
-</th><th align="left" id="d64547e91">
+</th><th align="left" id="d64716e93">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d64547e97">
+</th></tr></thead><tbody><tr><td id="d64716e99">
 
 **View territory summary grouping by territory**
 
@@ -52,7 +52,7 @@ Do this
 3.  Select an event in the calendar to view the territory summary in the CSP.
 
 
-</td></tr><tr><td id="d64547e137">
+</td></tr><tr><td id="d64716e139">
 
 **View territory summary grouping by demand channel**
 
@@ -62,7 +62,7 @@ Do this
 2.  Select an event under the demand channel associated with the selected territory.
 
 
-</td></tr><tr><td id="d64547e161">
+</td></tr><tr><td id="d64716e163">
 
 **View each demand channel details by territory**
 

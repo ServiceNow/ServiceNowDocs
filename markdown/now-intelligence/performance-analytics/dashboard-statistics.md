@@ -122,7 +122,7 @@ Execution time
 Sum of execution time across all runs of the dashboard.
 
 </td></tr></tbody>
-</table>Select the **Personalize List** icon \[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit columns icon to add these columns:
+</table>Select the **Personalize List** icon \[Omitted image "icon-cogwheel-ac.png"\] Alt text: Personalize list icon to add these columns:
 
 |Column|Description|
 |------|-----------|

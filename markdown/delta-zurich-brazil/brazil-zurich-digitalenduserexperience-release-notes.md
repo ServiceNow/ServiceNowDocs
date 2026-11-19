@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-digitalenduserexperience-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
@@ -187,7 +187,7 @@ Resolve device performance and network connectivity issues with two new remedial
 
 Service desk agents can diagnose and resolve Zoom call quality issues using the DEX issue diagnosis and resolution agentic workflow, which integrates Zoom-specific diagnostics that correlate device, network, and application data.
 
--   **[\[Placeholder link text to key create-insights-report\]](https://www.servicenow.com/docs/access?context=create-insights-report&family=australia&ft:locale=en-US)**
+-   **[Create an insights report](https://www.servicenow.com/docs/access?context=create-insights-report&family=australia&ft:locale=en-US)**
 
 Generate an insights report from event log data collected by the DEX agent.
 
@@ -447,7 +447,7 @@ Zurich
 
 -   **Activation information**
 
-Install Digital End-User Experience by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Digital End-User Experience by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Digital End-User Experience is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -460,7 +460,7 @@ Australia
 
 -   **Activation information**
 
-Install Digital End-User Experience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Digital End-User Experience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Digital End-User Experience is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -473,7 +473,7 @@ Brazil
 
 -   **Activation information**
 
-Install Digital End-User Experience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+Install Digital End-User Experience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr></tbody>

@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Exploring GRC: Metrics, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Managing different fiscal years

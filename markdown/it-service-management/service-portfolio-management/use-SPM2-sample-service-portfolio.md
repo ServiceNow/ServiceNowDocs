@@ -8,7 +8,7 @@ product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Install the Service Portfolio Management Sample Content Pack, Configure, Service Portfolio Management, IT Service Management]
 ---
 

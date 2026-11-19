@@ -7,8 +7,8 @@ release: brazil
 product: ITSM Success Dashboard Indicators
 classification: itsm-success-dashboard-indicators
 topic_type: concept
-last_updated: "2026-11-06"
-reading_time_minutes: 8
+last_updated: "2026-11-19"
+reading_time_minutes: 9
 keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 breadcrumb: [Reference, ITSM Success Dashboard indicators, IT Service Management]
 ---

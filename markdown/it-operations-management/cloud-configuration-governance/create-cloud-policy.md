@@ -1,6 +1,6 @@
 ---
 title: Create a cloud policy
-description: A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. It gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.
+description: A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, and catalog item settings. Use a policy to override property values, create approval tasks, reserve IP addresses, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-configuration-governance/create-cloud-policy.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisio
 
 # Create a cloud policy
 
-A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. It gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.
+A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, and catalog item settings. Use a policy to override property values, create approval tasks, reserve IP addresses, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows.
 
 ## Before you begin
 

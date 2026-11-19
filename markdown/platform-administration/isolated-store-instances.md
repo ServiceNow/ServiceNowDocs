@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using a regulated environment, ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Using a regulated environment, ServiceNow Store, Administering applications, Get started, ServiceNow AI Platform]
 ---
 
 # Environments with federal or regional ServiceNow Store instances

@@ -1,6 +1,6 @@
 ---
 title: Activate Change Management - State Model
-description: You can activate the Change Management - State Model plugin \(com.snc.change\_management.state\_model\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+description: Activate the Change Management - State Model plugin \(com.snc.change\_management.state\_model\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ActivateStateModel.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Change Management plugins, Configure, Change Management, IT Service
 
 # Activate Change Management - State Model
 
-You can activate the Change Management - State Model plugin \(com.snc.change\_management.state\_model\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Change Management - State Model plugin \(com.snc.change\_management.state\_model\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 
 ## Before you begin
 
@@ -63,7 +63,7 @@ Change management is used to create and manage change requests. Once this is act
 If you upgraded from a release prior to Geneva, you must [update old state labels to new state labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/state-model-activate-tasks.md).
 
 -   **[Update change request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/state-model-activate-tasks.md)**  
-If you upgraded from a release prior to Geneva, you must update old state labels to new state labels after you activate the Change Management state model.
+Update old state labels to new state labels after you activate the Change Management state model if you upgraded from a release before Geneva.
 -   **[Installed with Change Management - State Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/r_InstalledWithStateModel.md)**  
 Several types of components are installed with the Change Management - State Model.
 
@@ -72,7 +72,7 @@ Several types of components are installed with the Change Management - State Mod
 **Related topics**  
 
 
-[Request ITSM Roles - Change Management]()
+[Request ITSM Roles for Change Management]()
 
 [Activate Business Stakeholder]()
 

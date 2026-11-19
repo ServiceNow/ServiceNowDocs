@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Multi-instance, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Multi-instance, Configuring integrations, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Request a Manager instance
@@ -28,7 +28,7 @@ This task can be performed if you're logged in from a sub-prod \(managed\) insta
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Multi-instance**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Multi-instance**.
 
 2.  Under Request a Manager instance, select **Select a Manager instance** drop-down and select the manager instance.
 

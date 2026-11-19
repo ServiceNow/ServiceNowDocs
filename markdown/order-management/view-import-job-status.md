@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/view-import-job-status.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-17"
 reading_time_minutes: 1
 breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ Check the status of an import job for product catalog or pricing entities.
 
 ## Before you begin
 
-Role required: product\_catalog\_admin for catalog entities and sn\_csm\_pricing\_pricelist\_administrator for pricing entities
+Role required: sn\_prd\_pm.product\_catalog\_admin for catalog entities and sn\_csm\_pricing.pricelist\_administrator for pricing entities
 
 ## Procedure
 

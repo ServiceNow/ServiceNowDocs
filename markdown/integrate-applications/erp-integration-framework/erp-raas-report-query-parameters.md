@@ -52,4 +52,5 @@ Response format
 A valid, sample JSON response from the request.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Obtaining data from Workday using RaaS reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/obtain-data-from-workday-using-raas.md)
+

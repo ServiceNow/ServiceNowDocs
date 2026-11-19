@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Preview tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Preview tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, ServiceNow AI Platform]
 ---
 
 # View previewed upgrade

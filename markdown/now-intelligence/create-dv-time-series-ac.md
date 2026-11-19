@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-dv-time-series-ac.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 13
+last_updated: "2026-11-13"
+reading_time_minutes: 14
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -233,6 +233,17 @@ Description
 
 Display settings: Each visualization type, such as Area and Column, has a different set of display settings. See [Display settings for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/display-settings-ts-charts.md).
 
+</td></tr><tr><td>
+
+Chart variation
+
+</td><td>
+
+Style of bars. Options include:-   Stacked `stacked`: Group by fields are stacked on top of each other.
+-   Side-by-side `grouped`: Group by fields are side-by-side.
+-   Normalized `normalized`: Group by fields are stacked and stretched to fill the chart.
+This property applies only when more than one **Group by** is applied.
+
 </td></tr><tr><td class="sub-head" colspan="2">
 
 Y axis
@@ -364,6 +375,14 @@ Expand legend vertically
 
 When turned on, the legend contents take as much space as needed to fit the legend without scrolling, instead of the maximum 2 lines.
 
+</td></tr><tr><td>
+
+Legend behavior
+
+</td><td>
+
+When the legend is at the top or bottom, it shows two rows of items, and additional items are on following pages. Legend items that are wider than the maximum item width are truncated. When the legend is on the left or right, it has a maximum width and expands to the height of the visualization. If the visualization is resized, a legend on the left or right moves to the bottom automatically.
+
 </td></tr><tr><td class="sub-head" colspan="2">
 
 Data label
@@ -375,6 +394,22 @@ Show data labels
 </td><td>
 
 Option to display the score for each data point.
+
+</td></tr><tr><td>
+
+Metric data label position
+
+</td><td>
+
+Available when Show data labels is selected. Position of the data labels relative to the data points of the metric. The position applies to the data series and the forecast. Labels for the target, forecast range, trend, confidence band, and threshold do not move. The available options depend on the visualization type. See [Display settings for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/display-settings-ts-charts.md). The default is Above.
+
+</td></tr><tr><td>
+
+Show overlapping labels
+
+</td><td>
+
+Available when Show data labels is selected. Display all data labels, even when they are close enough to overlap. When off, labels that would collide are hidden to keep the visualization readable. Turning this on can make the visualization harder to read when many labels overlap. The default is off.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -457,7 +492,7 @@ The following data options are available for all time series type visualizations
 Each time series visualization type has a different set of display settings.
 -   **[Configure a forecast in a time series data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-forecast-ts-viz.md)**  
 If a time series visualization is configured to show forecasts, you can configure the forecasts for that visualization.
--   **[Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/chart-options-multi-metrics.md)**  
+-   **[Multiple metrics in time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/chart-options-multi-metrics.md)**  
 If you are showing multiple metrics in a time series data visualization, you can set the group by, visualization type, and Y-axis scale for each metric. You can also have filters on a dashboard apply only to specific metrics.
 -   **[Period over period comparison in time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/period-over-period-comparison.md)**  
 Period over period comparison overlays several time periods of an indicator on one time series visualization so that you can spot patterns, trends, and anomalies across the periods.

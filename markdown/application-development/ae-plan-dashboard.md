@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ae-plan-dashboard.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-09"
-reading_time_minutes: 3
+last_updated: "2026-11-09"
+reading_time_minutes: 4
 keywords: [Autonomous Engineer, Build Agent, plan dashboard, work items, milestones, pre-flight verification, Overview tab, Work items tab]
 audience: programmer
 breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
@@ -48,7 +48,7 @@ The plan header displays the plan title, a status badge, and a last-updated time
 
 -   **Update sets**
 
-    When the plan completes, a batch update set is available and includes all the update sets for the work items for the plan.
+    When the plan completes, a batch update set is available and includes all the update sets for the work items for the plan. Export the batch update set from the dashboard. For more information, see [Deploying what you built with Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-deployment.md).
 
 
 ## Work items tab

@@ -72,7 +72,7 @@ Before migration, users navigated to **Self Service** &gt; **Dashboards** to vie
 
 You can disable the **Start Moving** and **Activate** Platform Analytics experience options. Create the system property `com.glide.par.coreui.migration.enabled` and set it to `False`. If you set the property to `False` before you migrate any content, both options are turned off. If you set the property to false after you migrate your content, only the **Activate** button is inactive.
 
-If you want to start the migration and view what artifacts are in compatibility mode, and resolve any issues, set the property to `False` after you run the migration to help prevent activation of Platform Analytics experience. If you want to prevent the migration process, set the property to `False` first.
+To start the migration, view artifacts in compatibility mode, and resolve issues, run the migration first. Then set the property to `False` to help prevent activation of Platform Analytics experience. To prevent the migration process entirely, set the property to `False` before migrating.
 
 For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 

@@ -7,7 +7,7 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,6 +16,8 @@ breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Mana
 
 Reference topics provide additional information about the lists, forms, and settings used in Discovery Admin Workspace.
 
+-   **[Discovery Operator role access in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-discovery-operator-access.md)**  
+The discovery\_operator role provides read-only access to the Discovery Admin Workspace. Users with this role can monitor Discovery health, investigate failures, and validate results without changing the Discovery configuration.
 -   **[Discovery Admin Workspace support tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_dawSupportTools.md)**  
 The **Support tools** tab provides tools to investigate and troubleshoot your instance.
 -   **[Application fingerprint suggestion form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-admin-app-fingerprint-form.md)**  

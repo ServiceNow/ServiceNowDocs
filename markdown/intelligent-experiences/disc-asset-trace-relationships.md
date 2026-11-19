@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [asset relationship map, asset map, dependencies, related AI assets, change impact]
-breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing AI asset details, Working with AI asset records, Discover and manage AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Trace the relationships between AI assets
@@ -27,7 +27,7 @@ The asset relationship map shows the current AI asset at the center, with connec
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Inventory**.
 
 2.  Open the AI asset with connections that you want to trace.
 

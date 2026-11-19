@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 163
+reading_time_minutes: 164
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -606,9 +606,9 @@ lifecycleStatus
 
 Current life cycle status of the price list line.Valid values:
 
--   Active
--   Draft
--   Inactive
+-   `Active`
+-   `Draft`
+-   `Inactive`
 
 Data type: String
 
@@ -867,9 +867,9 @@ lifecycleStatus
 
 Current life cycle status of the price list line.Valid values:
 
--   Active
--   Draft
--   Inactive
+-   `Active`
+-   `Draft`
+-   `Inactive`
 
 Data type: String
 
@@ -955,19 +955,19 @@ fields
 
 List of fields to return in the response. Invalid fields are ignored.Valid fields:
 
--   description
--   externalId
--   id
--   internalId
--   internalVersion
--   lastUpdate
--   name
--   productSpecCharacteristic
--   productSpecificationRelationship
--   resourceSpecification
--   serviceSpecification
--   validFor
--   version
+-   `description`
+-   `externalId`
+-   `id`
+-   `internalId`
+-   `internalVersion`
+-   `lastUpdate`
+-   `name`
+-   `productSpecCharacteristic`
+-   `productSpecificationRelationship`
+-   `resourceSpecification`
+-   `serviceSpecification`
+-   `validFor`
+-   `version`
 
 Data type: String
 
@@ -989,8 +989,8 @@ isSellable
 
 </td><td>
 
-Filter product offerings by sellable status. Only offerings with an isSellable value matching the specified value are returned in the response.-   true: Offering is sellable.
--   false: Offering isn't sellable.
+Filter product offerings by sellable status. Only offerings with an isSellable value matching the specified value are returned in the response.-   `true`: Offering is sellable.
+-   `false`: Offering isn't sellable.
 
 Data type: Boolean
 
@@ -1004,22 +1004,22 @@ fields
 
 List of fields to return in the response. Invalid fields are ignored.Valid fields:
 
--   category
--   channel
--   description
--   externalId
--   id
--   internalId
--   internalVersion
--   lastUpdate
--   name
--   productCharacteristic
--   productOfferingPrice
--   productOfferingTerm
--   productSpecification
--   prodSpecCharValueUse
--   validFor
--   version
+-   `category`
+-   `channel`
+-   `description`
+-   `externalId`
+-   `id`
+-   `internalId`
+-   `internalVersion`
+-   `lastUpdate`
+-   `name`
+-   `productCharacteristic`
+-   `productOfferingPrice`
+-   `productOfferingTerm`
+-   `productSpecification`
+-   `prodSpecCharValueUse`
+-   `validFor`
+-   `version`
 
 Data type: String
 
@@ -1057,10 +1057,10 @@ state
 
 Filter product offerings by state. Only product offerings in the specified state are returned in the response.Valid values:
 
--   archived
--   draft
--   published
--   retired
+-   `archived`
+-   `In draft`
+-   `published`
+-   `retired`
 
 Data type: String
 
@@ -1558,8 +1558,8 @@ isBundle
 
 Flag that indicates whether the product offering is a bundle.Possible values:
 
--   true: Product offering is a bundle.
--   false: Single product offering.
+-   `true`: Product offering is a bundle.
+-   `false`: Single product offering.
 
 Data type: Boolean
 
@@ -1573,8 +1573,8 @@ isSellable
 
 Flag that indicates whether the associated product offering can be sold by itself or must be part of a product offering bundle.Possible values:
 
--   true: Can be sold separately.
--   false: Only sold as part of a bundle.
+-   `true`: Can be sold separately.
+-   `false`: Only sold as part of a bundle.
 
 Data type: Boolean
 
@@ -1596,9 +1596,9 @@ lifecycleStatus
 
 Current life cycle status of the product offering. Valid values:
 
--   Active
--   Draft
--   Inactive
+-   `Active`
+-   `Draft`
+-   `Inactive`
 
 Data type: String
 
@@ -1679,8 +1679,8 @@ prodSpecCharValueUse.​productSpecCharacteristicValue.​isDefault
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
--   true: Default value.
--   false: Not the default value.
+-   `true`: Default value.
+-   `false`: Not the default value.
 
 Default: false
 
@@ -1692,8 +1692,8 @@ prodSpecCharValueUse.​productSpecCharacteristicValue.​isMandatory
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
--   true: Mandatory value.
--   false: Not a mandatory value.
+-   `true`: Mandatory value.
+-   `false`: Not a mandatory value.
 
 Default: false
 
@@ -1864,8 +1864,8 @@ productOfferingCharacteristic.​characteristicValueSpecification.​isDefault
 
 Flag that indicates whether the associated characteristic value is the default value for the associated characteristic.Possible values:
 
--   true: Is default value.
--   false: Isn't the default value.
+-   `true`: Is default value.
+-   `false`: Isn't the default value.
 
 Data type: Boolean
 
@@ -1879,8 +1879,8 @@ productOfferingCharacteristic.​characteristicValueSpecification.​isMandatory
 
 Flag that indicates whether the associated characteristic value is mandatory for the associated characteristic.Possible values:
 
--   true: Is mandatory.
--   false: Isn't mandatory.
+-   `true`: Is mandatory.
+-   `false`: Isn't mandatory.
 
 Data type: Boolean
 
@@ -1923,20 +1923,20 @@ productOfferingCharacteristic.​valueType
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
--   Array.Date
--   Array.Datetime
--   Array.Decimal
--   Array.Integer
--   Array.Object
--   Array.Single Line Test
--   Checkbox
--   Choice
--   Date,Address
--   Email
--   Integer,Date/Time
--   Object
--   Single Line Text
--   Yes/No
+-   `Array.Date`
+-   `Array.Datetime`
+-   `Array.Decimal`
+-   `Array.Integer`
+-   `Array.Object`
+-   `Array.Single Line Test`
+-   `Checkbox`
+-   `Choice`
+-   `Date,Address`
+-   `Email`
+-   `Integer,Date/Time`
+-   `Object`
+-   `Single Line Text`
+-   `Yes/No`
 
 Data type: String
 
@@ -2010,8 +2010,8 @@ productOfferingPrice.​priceType
 
 Type of product offering price, one-time or recurring payment.Possible values:
 
--   nonRecurring \(one-time\)
--   recurring
+-   `nonRecurring` \(one-time\)
+-   `recurring`
 
 Data type: String
 
@@ -2099,8 +2099,8 @@ status
 
 Status of the product offering.Possible values:
 
--   draft
--   published
+-   `draft`
+-   `published`
 
 Data type: String
 
@@ -2501,22 +2501,22 @@ fields
 
 List of fields to return in the response. Invalid fields are ignored.Valid fields:
 
--   category
--   channel
--   description
--   externalId
--   id
--   internalId
--   internalVersion
--   lastUpdate
--   name
--   productCharacteristic
--   productOfferingPrice
--   productOfferingTerm
--   productSpecification
--   prodSpecCharValueUse
--   validFor
--   version
+-   `category`
+-   `channel`
+-   `description`
+-   `externalId`
+-   `id`
+-   `internalId`
+-   `internalVersion`
+-   `lastUpdate`
+-   `name`
+-   `productCharacteristic`
+-   `productOfferingPrice`
+-   `productOfferingTerm`
+-   `productSpecification`
+-   `prodSpecCharValueUse`
+-   `validFor`
+-   `version`
 
 Data type: String
 
@@ -2528,8 +2528,8 @@ isSellable
 
 </td><td>
 
-Filter product offerings by sellable status. Only offerings with an isSellable value matching the specified value are returned in the response.-   true: Offering is sellable.
--   false: Offering isn't sellable.
+Filter product offerings by sellable status. Only offerings with an isSellable value matching the specified value are returned in the response.-   `true`: Offering is sellable.
+-   `false`: Offering isn't sellable.
 
 Data type: Boolean
 
@@ -2567,10 +2567,10 @@ state
 
 Filter product offerings by state. Only product offerings in the specified state are returned in the response.Valid values:
 
--   archived
--   draft
--   published
--   retired
+-   `archived`
+-   `In draft`
+-   `published`
+-   `retired`
 
 Data type: String
 
@@ -2607,9 +2607,9 @@ Accept-Language
 
 Specify the language to translate a specific field into. The following fields support translation:
 
--   name
--   displayName
--   description
+-   `name`
+-   `displayName`
+-   `description`
 
 The field to translate must match an existing record in the sys\_translated\_text table for that field and language. Each field requires its own record. A record for name does not translate displayName or description.
 
@@ -3020,8 +3020,8 @@ isBundle
 
 Flag that indicates whether the product offering is a bundle.Possible values:
 
--   true: Product offering is a bundle.
--   false: Single product offering.
+-   `true`: Product offering is a bundle.
+-   `false`: Single product offering.
 
 Data type: Boolean
 
@@ -3035,8 +3035,8 @@ isSellable
 
 Flag that indicates whether the associated product offering can be sold by itself or must be part of a product offering bundle.Possible values:
 
--   true: Can be sold separately.
--   false: Only sold as part of a bundle.
+-   `true`: Can be sold separately.
+-   `false`: Only sold as part of a bundle.
 
 Data type: Boolean
 
@@ -3143,8 +3143,8 @@ prodSpecCharValueUse.​productSpecCharacteristicValue.​isDefault
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
--   true: Default value.
--   false: Not the default value.
+-   `true`: Default value.
+-   `false`: Not the default value.
 
 Default: false
 
@@ -3156,8 +3156,8 @@ prodSpecCharValueUse.​productSpecCharacteristicValue.​isMandatory
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
--   true: Mandatory value.
--   false: Not a mandatory value.
+-   `true`: Mandatory value.
+-   `false`: Not a mandatory value.
 
 Default: false
 
@@ -3328,8 +3328,8 @@ productOfferingCharacteristic.​characteristicValueSpecification.​isDefault
 
 Flag that indicates whether the associated characteristic value is the default value for the associated characteristic.Possible values:
 
--   true: Is default value.
--   false: Isn't the default value.
+-   `true`: Is default value.
+-   `false`: Isn't the default value.
 
 Data type: Boolean
 
@@ -3343,8 +3343,8 @@ productOfferingCharacteristic.​characteristicValueSpecification.​isMandatory
 
 Flag that indicates whether the associated characteristic value is mandatory for the associated characteristic.Possible values:
 
--   true: Is mandatory.
--   false: Isn't mandatory.
+-   `true`: Is mandatory.
+-   `false`: Isn't mandatory.
 
 Data type: Boolean
 
@@ -3387,20 +3387,20 @@ productOfferingCharacteristic.​valueType
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
--   Array.Date
--   Array.Datetime
--   Array.Decimal
--   Array.Integer
--   Array.Object
--   Array.Single Line Test
--   Checkbox
--   Choice
--   Date,Address
--   Email
--   Integer,Date/Time
--   Object
--   Single Line Text
--   Yes/No
+-   `Array.Date`
+-   `Array.Datetime`
+-   `Array.Decimal`
+-   `Array.Integer`
+-   `Array.Object`
+-   `Array.Single Line Test`
+-   `Checkbox`
+-   `Choice`
+-   `Date,Address`
+-   `Email`
+-   `Integer,Date/Time`
+-   `Object`
+-   `Single Line Text`
+-   `Yes/No`
 
 Data type: String
 
@@ -3563,8 +3563,8 @@ status
 
 Status of the product offering.Possible values:
 
--   draft
--   published
+-   `draft`
+-   `published`
 
 Data type: String
 
@@ -4031,8 +4031,8 @@ priceType
 
 Filter results by the pricing method of the product offering.Valid values:
 
--   recurring: Lets businesses charge recurring pricing amounts with a specified frequency.
--   one\_time: Supports one-time or recurring add-on charges and fees for a product offering.
+-   `recurring`: Lets businesses charge recurring pricing amounts with a specified frequency.
+-   `one_time`: Supports one-time or recurring add-on charges and fees for a product offering.
 
 Data type: String
 
@@ -4109,9 +4109,9 @@ Accept-Language
 
 Specify the language to translate a specific field into. The following fields support translation:
 
--   name
--   displayName
--   description
+-   `name`
+-   `displayName`
+-   `description`
 
 The field to translate must match an existing record in the sys\_translated\_text table for that field and language. Each field requires its own record. A record for name does not translate displayName or description.
 
@@ -4206,8 +4206,8 @@ isBundle
 
 Flag that indicates whether the price list line is part of a single product or a bundle of products.Valid values:
 
--   true: Price list line is part of a bundle.
--   false: Price list line isn't part of a bundle.
+-   `true`: Price list line is part of a bundle.
+-   `false`: Price list line isn't part of a bundle.
 
 Data type: Boolean
 
@@ -4229,9 +4229,9 @@ lifecycleStatus
 
 Current life cycle status of the price list line.Valid values:
 
--   Active
--   Draft
--   Inactive
+-   `Active`
+-   `Draft`
+-   `Inactive`
 
 Data type: String
 
@@ -4316,8 +4316,8 @@ priceType
 
 The pricing method of the product offering which is associated with this price list line.Possible values:
 
--   recurring: Charge recurring pricing amounts with a specified frequency. The value of **recurringChargePeriodType** indicates the frequency of the charge.
--   one\_time: One-time or recurring add-on charges and fees for a product offering.
+-   `recurring`: Charge recurring pricing amounts with a specified frequency. The value of **recurringChargePeriodType** indicates the frequency of the charge.
+-   `one_time`: One-time or recurring add-on charges and fees for a product offering.
 
 Data type: String
 
@@ -4369,8 +4369,8 @@ recurringChargePeriodType
 
 The periodicity or frequency of the product offering associated with this price list line. Returns a frequency type if **priceType** was set to `recurring`, otherwise returns an empty string.Possible values:
 
--   annually
--   monthly
+-   `annually`
+-   `monthly`
 
 Data type: String
 
@@ -4702,8 +4702,8 @@ priceType
 
 Filter results by the pricing method of the product offering.Valid values:
 
--   recurring: Lets businesses charge recurring pricing amounts with a specified frequency.
--   one\_time: Supports one-time or recurring add-on charges and fees for a product offering.
+-   `recurring`: Lets businesses charge recurring pricing amounts with a specified frequency.
+-   `one_time`: Supports one-time or recurring add-on charges and fees for a product offering.
 
 Data type: String
 
@@ -4772,9 +4772,9 @@ Accept-Language
 
 Specify the language to translate a specific field into. The following fields support translation:
 
--   name
--   displayName
--   description
+-   `name`
+-   `displayName`
+-   `description`
 
 The field to translate must match an existing record in the sys\_translated\_text table for that field and language. Each field requires its own record. A record for name does not translate displayName or description.
 
@@ -4809,9 +4809,9 @@ Accept-Language
 
 Specify the language to translate a specific field into. The following fields support translation:
 
--   name
--   displayName
--   description
+-   `name`
+-   `displayName`
+-   `description`
 
 The field to translate must match an existing record in the sys\_translated\_text table for that field and language. Each field requires its own record. A record for name does not translate displayName or description.
 
@@ -4906,8 +4906,8 @@ isBundle
 
 Flag that indicates whether the price list line is part of a single product or a bundle of products.Valid values:
 
--   true: Price list line is part of a bundle.
--   false: Price list line isn't part of a bundle.
+-   `true`: Price list line is part of a bundle.
+-   `false`: Price list line isn't part of a bundle.
 
 Data type: Boolean
 
@@ -4929,9 +4929,9 @@ lifecycleStatus
 
 Current life cycle status of the price list line.Valid values:
 
--   Active
--   Draft
--   Inactive
+-   `Active`
+-   `Draft`
+-   `Inactive`
 
 Data type: String
 
@@ -5016,8 +5016,8 @@ priceType
 
 The pricing method of the product offering which is associated with this price list line.Possible values:
 
--   recurring: Charge recurring pricing amounts with a specified frequency. The value of **recurringChargePeriodType** indicates the frequency of the charge.
--   one\_time: One-time or recurring add-on charges and fees for a product offering.
+-   `recurring`: Charge recurring pricing amounts with a specified frequency. The value of **recurringChargePeriodType** indicates the frequency of the charge.
+-   `one_time`: One-time or recurring add-on charges and fees for a product offering.
 
 Data type: String
 
@@ -5069,8 +5069,8 @@ recurringChargePeriodType
 
 The periodicity or frequency of the product offering associated with this price list line. Returns a frequency type if **priceType** was set to `recurring`, otherwise returns an empty string.Possible values:
 
--   annually
--   monthly
+-   `annually`
+-   `monthly`
 
 Data type: String
 
@@ -5277,19 +5277,19 @@ fields
 
 List of fields to return in the response. Invalid fields are ignored.Valid fields:
 
--   description
--   externalId
--   id
--   internalId
--   internalVersion
--   lastUpdate
--   name
--   productSpecCharacteristic
--   productSpecificationRelationship
--   resourceSpecification
--   serviceSpecification
--   validFor
--   version
+-   `description`
+-   `externalId`
+-   `id`
+-   `internalId`
+-   `internalVersion`
+-   `lastUpdate`
+-   `name`
+-   `productSpecCharacteristic`
+-   `productSpecificationRelationship`
+-   `resourceSpecification`
+-   `serviceSpecification`
+-   `validFor`
+-   `version`
 
 Data type: String
 
@@ -5323,7 +5323,7 @@ state
 
 </td><td>
 
-Current state of the order. For this endpoint, this value is always new.Data type: String
+Current state of the order. For this endpoint, this value is always `new`.Data type: String
 
 </td></tr><tr><td>
 
@@ -5671,8 +5671,8 @@ productSpecCharacteristic.​productSpecCharacteristicValue.​isDefault
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
--   true: Default value.
--   false: Not the default value.
+-   `true`: Default value.
+-   `false`: Not the default value.
 
 Default: false
 
@@ -5684,8 +5684,8 @@ productSpecCharacteristic.​productSpecCharacteristicValue.​isMandatory
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
--   true: Mandatory value.
--   false: Not a mandatory value.
+-   `true`: Mandatory value.
+-   `false`: Not a mandatory value.
 
 Default: false
 
@@ -6072,8 +6072,8 @@ status
 
 Status of the product specification.Possible values:
 
--   draft
--   published
+-   `draft`
+-   `published`
 
 Data type: String
 
@@ -6340,19 +6340,19 @@ fields
 
 List of fields to return in the response. Invalid fields are ignored.Valid fields:
 
--   description
--   externalId
--   id
--   internalId
--   internalVersion
--   lastUpdate
--   name
--   productSpecCharacteristic
--   productSpecificationRelationship
--   resourceSpecification
--   serviceSpecification
--   validFor
--   version
+-   `description`
+-   `externalId`
+-   `id`
+-   `internalId`
+-   `internalVersion`
+-   `lastUpdate`
+-   `name`
+-   `productSpecCharacteristic`
+-   `productSpecificationRelationship`
+-   `resourceSpecification`
+-   `serviceSpecification`
+-   `validFor`
+-   `version`
 
 Data type: String
 
@@ -6654,8 +6654,8 @@ productSpecCharacteristic.​productSpecCharacteristicValue.​isDefault
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
--   true: Default value.
--   false: Not the default value.
+-   `true`: Default value.
+-   `false`: Not the default value.
 
 Default: false
 
@@ -6667,8 +6667,8 @@ productSpecCharacteristic.​productSpecCharacteristicValue.​isMandatory
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
--   true: Mandatory value.
--   false: Not a mandatory value.
+-   `true`: Mandatory value.
+-   `false`: Not a mandatory value.
 
 Default: false
 
@@ -7051,8 +7051,8 @@ status
 
 Status of the product specification.Possible values:
 
--   draft
--   published
+-   `draft`
+-   `published`
 
 Data type: String
 
@@ -7933,8 +7933,8 @@ isBundle
 
 Flag that indicates whether the product offering is a bundle.Possible values:
 
--   true: Product offering is a bundle.
--   false: Single product offering.
+-   `true`: Product offering is a bundle.
+-   `false`: Single product offering.
 
 Data type: Boolean
 
@@ -7948,8 +7948,8 @@ isSellable
 
 Flag that indicates whether the associated product offering can be sold by itself or must be part of a product offering bundle.Possible values:
 
--   true: Can be sold separately.
--   false: Only sold as part of a bundle.
+-   `true`: Can be sold separately.
+-   `false`: Only sold as part of a bundle.
 
 Data type: Boolean
 
@@ -8056,8 +8056,8 @@ prodSpecCharValueUse.​productSpecCharacteristicValue.​isDefault
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
--   true: Default value.
--   false: Not the default value.
+-   `true`: Default value.
+-   `false`: Not the default value.
 
 Default: false
 
@@ -8069,8 +8069,8 @@ prodSpecCharValueUse.​productSpecCharacteristicValue.​isMandatory
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
--   true: Mandatory value.
--   false: Not a mandatory value.
+-   `true`: Mandatory value.
+-   `false`: Not a mandatory value.
 
 Default: false
 
@@ -8245,8 +8245,8 @@ productOfferingCharacteristic.​characteristicValueSpecification.​isDefault
 
 Flag that indicates whether the associated characteristic value is the default value for the associated characteristic.Possible values:
 
--   true: Is default value.
--   false: Isn't the default value.
+-   `true`: Is default value.
+-   `false`: Isn't the default value.
 
 Data type: Boolean
 
@@ -8260,8 +8260,8 @@ productOfferingCharacteristic.​characteristicValueSpecification.​isMandatory
 
 Flag that indicates whether the associated characteristic value is mandatory for the associated characteristic.Possible values:
 
--   true: Is mandatory.
--   false: Isn't mandatory.
+-   `true`: Is mandatory.
+-   `false`: Isn't mandatory.
 
 Data type: Boolean
 
@@ -8304,20 +8304,20 @@ productOfferingCharacteristic.​valueType
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
--   Array.Date
--   Array.Datetime
--   Array.Decimal
--   Array.Integer
--   Array.Object
--   Array.Single Line Test
--   Checkbox
--   Choice
--   Date,Address
--   Email
--   Integer,Date/Time
--   Object
--   Single Line Text
--   Yes/No
+-   `Array.Date`
+-   `Array.Datetime`
+-   `Array.Decimal`
+-   `Array.Integer`
+-   `Array.Object`
+-   `Array.Single Line Test`
+-   `Checkbox`
+-   `Choice`
+-   `Date,Address`
+-   `Email`
+-   `Integer,Date/Time`
+-   `Object`
+-   `Single Line Text`
+-   `Yes/No`
 
 Data type: String
 
@@ -8486,8 +8486,8 @@ status
 
 Status of the product offering.Possible values:
 
--   draft
--   published
+-   `draft`
+-   `published`
 
 Data type: String
 
@@ -8576,7 +8576,7 @@ Description
 
 bundledGroupProductOffering
 
-</td><td id="d3041e293">
+</td><td id="d3041e330">
 
 Child groups of product offerings. These show hierarchical sub-grouping.Data type: Array of Objects
 
@@ -8595,7 +8595,7 @@ Child groups of product offerings. These show hierarchical sub-grouping.Data typ
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption
 
-</td><td id="d3041e306">
+</td><td id="d3041e343">
 
 A range of numbers that specifies the lower and upper limits of the number of the associated product offering that can be procured as part of the related bundled product offering.Data type: Object
 
@@ -8610,7 +8610,7 @@ A range of numbers that specifies the lower and upper limits of the number of th
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d3041e319">
+</td><td id="d3041e356">
 
 Lower limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -8618,7 +8618,7 @@ Lower limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d3041e330">
+</td><td id="d3041e367">
 
 Upper limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -8626,7 +8626,7 @@ Upper limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledProductOffering
 
-</td><td id="d3041e341">
+</td><td id="d3041e378">
 
 Child groups of product offerings associated with the bundle. Same format as **bundledProductOffering** specified below.Data type: Array of Objects
 
@@ -8634,7 +8634,7 @@ Child groups of product offerings associated with the bundle. Same format as **b
 
 bundledGroupProductOffering.​id
 
-</td><td id="d3041e395">
+</td><td id="d3041e432">
 
 Sys\_id of the bundled group record. Useful in cases where the parent product offering or group includes multiple groups.Data type: String
 
@@ -8644,7 +8644,7 @@ Table: Product Offering Relationship Group \[sn\_prd\_pm\_product\_offering\_rel
 
 bundledGroupProductOffering.​name
 
-</td><td id="d3041e408">
+</td><td id="d3041e445">
 
 Name of the group of child product offerings.Data type: String
 
@@ -8672,7 +8672,7 @@ List of product offerings included in the product offering bundle. The product o
 
 bundledProductOffering.​bundledProductOfferingOption
 
-</td><td id="d3041e433">
+</td><td id="d3041e470">
 
 Product bundle options such as the default number of product offerings and any upper and lower product offering procurement constraints.Data type: Object
 
@@ -8688,7 +8688,7 @@ Product bundle options such as the default number of product offerings and any u
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferDefault
 
-</td><td id="d3041e446">
+</td><td id="d3041e483">
 
 Default number of product offerings that should be procured as part of the related bundled product offering.Data type: String
 
@@ -8698,7 +8698,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d3041e459">
+</td><td id="d3041e496">
 
 Lower limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -8708,7 +8708,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d3041e472">
+</td><td id="d3041e509">
 
 Upper limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -8718,7 +8718,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​externalId
 
-</td><td id="d3041e485">
+</td><td id="d3041e522">
 
 External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-product-config-offering-relationships.md).
 
@@ -8728,7 +8728,7 @@ Data type: String
 
 bundledProductOffering.​id
 
-</td><td id="d3041e513">
+</td><td id="d3041e550">
 
 Sys\_id or external ID of the bundled product offering.Data type: String
 
@@ -8738,7 +8738,7 @@ Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
 
 bundledProductOffering.​name
 
-</td><td id="d3041e526">
+</td><td id="d3041e563">
 
 Name of the product offering bundle.Data type: String
 
@@ -8746,7 +8746,7 @@ Name of the product offering bundle.Data type: String
 
 bundledProductOffering.​version
 
-</td><td id="d3041e537">
+</td><td id="d3041e574">
 
 Catalog version of the product offering. Data type: String
 
@@ -8841,7 +8841,7 @@ Description of the product offering.Data type: String
 
 displayName
 
-</td><td id="d3041e550">
+</td><td id="d3041e587">
 
 Display name of the product offering.Data type: String
 
@@ -8909,12 +8909,12 @@ Table: In the version field of the Product Offering \[sn\_prd\_pm\_product\_offe
 
 isBundle
 
-</td><td id="d3041e627">
+</td><td id="d3041e664">
 
 Flag that indicates whether the product offering is a bundle.Possible values:
 
--   true: Product offering is a bundle.
--   false: Single product offering.
+-   `true`: Product offering is a bundle.
+-   `false`: Single product offering.
 
 Data type: Boolean
 
@@ -8924,12 +8924,12 @@ Default: false
 
 isSellable
 
-</td><td id="d3041e650">
+</td><td id="d3041e691">
 
 Flag that indicates whether the associated product offering can be sold by itself or must be part of a product offering bundle.Possible values:
 
--   true: Can be sold separately.
--   false: Only sold as part of a bundle.
+-   `true`: Can be sold separately.
+-   `false`: Only sold as part of a bundle.
 
 Data type: Boolean
 
@@ -8969,7 +8969,7 @@ Name of the product offering.Data type: String
 
 prodSpecCharValueUse
 
-</td><td id="d3041e700">
+</td><td id="d3041e748">
 
 Product offering characteristics.Data type: Array of Objects
 
@@ -8989,7 +8989,7 @@ Product offering characteristics.Data type: Array of Objects
 
 prodSpecCharValueUse.​description
 
-</td><td id="d3041e713">
+</td><td id="d3041e761">
 
 Description of the characteristic.Data type: String
 
@@ -9007,7 +9007,7 @@ Data type: String
 
 prodSpecCharValueUse.​productSpecCharacteristicValue
 
-</td><td id="d3041e738">
+</td><td id="d3041e786">
 
 List of the possible values of the characteristic.
 
@@ -9028,12 +9028,12 @@ Data type: Array of Objects
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isDefault
 
-</td><td id="d3041e754">
+</td><td id="d3041e802">
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
--   true: Default value.
--   false: Not the default value.
+-   `true`: Default value.
+-   `false`: Not the default value.
 
 Default: false
 
@@ -9041,12 +9041,12 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isMandatory
 
-</td><td id="d3041e775">
+</td><td id="d3041e827">
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
--   true: Mandatory value.
--   false: Not a mandatory value.
+-   `true`: Mandatory value.
+-   `false`: Not a mandatory value.
 
 Default: false
 
@@ -9054,7 +9054,7 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor
 
-</td><td id="d3041e797">
+</td><td id="d3041e853">
 
 Date and time of when the characteristic is valid.Data type: Object
 
@@ -9068,7 +9068,7 @@ Date and time of when the characteristic is valid.Data type: Object
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor.​startDateTime
 
-</td><td id="d3041e810">
+</td><td id="d3041e866">
 
 Start date and time of when the characteristic value is valid.Data type: String
 
@@ -9078,7 +9078,7 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​value
 
-</td><td id="d3041e823">
+</td><td id="d3041e879">
 
 Value of the characteristic.
 
@@ -9088,7 +9088,7 @@ Data type: String
 
 prodSpecCharValueUse.​validFor
 
-</td><td id="d3041e837">
+</td><td id="d3041e893">
 
 Date range the characteristic is valid for.Data type: Object
 
@@ -9102,7 +9102,7 @@ Date range the characteristic is valid for.Data type: Object
 
 prodSpecCharValueUse.​validFor.​startDateTime
 
-</td><td id="d3041e850">
+</td><td id="d3041e906">
 
 Start date of the characteristic.Data type: String
 
@@ -9112,7 +9112,7 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​valueType
 
-</td><td id="d3041e863">
+</td><td id="d3041e919">
 
 Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Accepted values:
 
@@ -9175,7 +9175,7 @@ Value of the characteristic.Data type: String
 
 productOfferingCharacteristic
 
-</td><td id="d3041e961">
+</td><td id="d3041e1017">
 
 Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-product-config-add-characteristics.md).
 
@@ -9195,7 +9195,7 @@ productOfferingCharacteristic": [ 
 
 productOfferingCharacteristic.​characteristicValueSpecification
 
-</td><td id="d3041e979">
+</td><td id="d3041e1035">
 
 List of characteristic values associated with the product offering characteristic.Data type: Array of Objects
 
@@ -9213,12 +9213,12 @@ List of characteristic values associated with the product offering characteristi
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isDefault
 
-</td><td id="d3041e992">
+</td><td id="d3041e1048">
 
 Flag that indicates whether the associated characteristic value is the default value for the associated characteristic.Possible values:
 
--   true: Is default value.
--   false: Isn't the default value.
+-   `true`: Is default value.
+-   `false`: Isn't the default value.
 
 Data type: Boolean
 
@@ -9228,12 +9228,12 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isMandatory
 
-</td><td id="d3041e1015">
+</td><td id="d3041e1075">
 
 Flag that indicates whether the associated characteristic value is mandatory for the associated characteristic.Possible values:
 
--   true: Is mandatory.
--   false: Isn't mandatory.
+-   `true`: Is mandatory.
+-   `false`: Isn't mandatory.
 
 Data type: Boolean
 
@@ -9243,7 +9243,7 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​value
 
-</td><td id="d3041e1038">
+</td><td id="d3041e1102">
 
 Number or text assigned to the associated product specification characteristic .For example:
 
@@ -9264,7 +9264,7 @@ Data type: String
 
 productOfferingCharacteristic.​name
 
-</td><td id="d3041e1053">
+</td><td id="d3041e1117">
 
 Name of the associated product offering characteristic.Data type: String
 
@@ -9272,24 +9272,24 @@ Name of the associated product offering characteristic.Data type: String
 
 productOfferingCharacteristic.​valueType
 
-</td><td id="d3041e1065">
+</td><td id="d3041e1129">
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
--   Array.Date
--   Array.Datetime
--   Array.Decimal
--   Array.Integer
--   Array.Object
--   Array.Single Line Test
--   Checkbox
--   Choice
--   Date,Address
--   Email
--   Integer,Date/Time
--   Object
--   Single Line Text
--   Yes/No
+-   `Array.Date`
+-   `Array.Datetime`
+-   `Array.Decimal`
+-   `Array.Integer`
+-   `Array.Object`
+-   `Array.Single Line Test`
+-   `Checkbox`
+-   `Choice`
+-   `Date,Address`
+-   `Email`
+-   `Integer,Date/Time`
+-   `Object`
+-   `Single Line Text`
+-   `Yes/No`
 
 Data type: String
 
@@ -9458,12 +9458,12 @@ Table: In the external\_version field of the Product Offering \[sn\_prd\_pm\_pro
 
 status
 
-</td><td id="d3041e1206">
+</td><td id="d3041e1284">
 
 Status of the product offering.Possible values:
 
--   draft
--   published
+-   `draft`
+-   `published`
 
 Data type: String
 
@@ -9940,8 +9940,8 @@ isBundle
 
 Flag that indicates whether the price list line is part of a single product or a bundle of products.Valid values:
 
--   true: Price list line is part of a bundle.
--   false: Price list line isn't part of a bundle.
+-   `true`: Price list line is part of a bundle.
+-   `false`: Price list line isn't part of a bundle.
 
 Data type: Boolean
 
@@ -9965,9 +9965,9 @@ lifeCycleStatus
 
 Required. Current life cycle status of the product list line.Valid values:
 
--   active
--   draft
--   inactive
+-   `active`
+-   `draft`
+-   `inactive`
 
 Data type: String
 
@@ -10064,8 +10064,8 @@ priceType
 
 Required. Filter the price list line by the pricing method of the product offering.Valid values:
 
--   recurring: Charge recurring pricing amounts with a specified frequency. Frequency is set in the **recurringChargePeriodType** parameter.
--   one\_time: Supports one-time or recurring add-on charges and fees for a product offering.
+-   `recurring`: Charge recurring pricing amounts with a specified frequency. Frequency is set in the **recurringChargePeriodType** parameter.
+-   `one_time`: Supports one-time or recurring add-on charges and fees for a product offering.
 
 Data type: String
 
@@ -10121,8 +10121,8 @@ recurringChargePeriodType
 
 Required if **priceType** is recurring. Commitment terms that are selected when the product offering was created.Valid values:
 
--   annually
--   monthly
+-   `annually`
+-   `monthly`
 
 Data type: String
 
@@ -10349,8 +10349,8 @@ isBundle
 
 Flag that indicates whether the price list line is part of a single product or a bundle of products.Valid values:
 
--   true: Price list line is part of a bundle.
--   false: Price list line isn't part of a bundle.
+-   `true`: Price list line is part of a bundle.
+-   `false`: Price list line isn't part of a bundle.
 
 Data type: Boolean
 
@@ -10362,9 +10362,9 @@ lifecycleStatus
 
 Current life cycle status of the price list line.Valid values:
 
--   Active
--   Draft
--   Inactive
+-   `Active`
+-   `Draft`
+-   `Inactive`
 
 Data type: String
 
@@ -10416,8 +10416,8 @@ priceType
 
 The pricing method of the product offering which is associated with this price list line.Possible values:
 
--   recurring: Charge recurring pricing amounts with a specified frequency. The value of **recurringChargePeriodType** indicates the frequency of the charge.
--   one\_time: One-time or recurring add-on charges and fees for a product offering.
+-   `recurring`: Charge recurring pricing amounts with a specified frequency. The value of **recurringChargePeriodType** indicates the frequency of the charge.
+-   `one_time`: One-time or recurring add-on charges and fees for a product offering.
 
 Data type: String
 
@@ -10429,8 +10429,8 @@ recurringChargePeriodType
 
 The periodicity or frequency of the product offering associated with this price list line. Returns a frequency type if **priceType** was set to `recurring`, otherwise returns an empty string.Possible values:
 
--   annually
--   monthly
+-   `annually`
+-   `monthly`
 
 Data type: String
 
@@ -10795,8 +10795,8 @@ productSpecCharacteristic.​productSpecCharacteristicValue.​isDefault
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
--   true: Default value.
--   false: Not the default value.
+-   `true`: Default value.
+-   `false`: Not the default value.
 
 Default: false
 
@@ -10808,8 +10808,8 @@ productSpecCharacteristic.​productSpecCharacteristicValue.​isMandatory
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
--   true: Mandatory value.
--   false: Not a mandatory value.
+-   `true`: Mandatory value.
+-   `false`: Not a mandatory value.
 
 Default: false
 
@@ -11360,8 +11360,8 @@ productSpecCharacteristic.​productSpecCharacteristicValue.​isDefault
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
--   true: Default value.
--   false: Not the default value.
+-   `true`: Default value.
+-   `false`: Not the default value.
 
 Default: false
 
@@ -11373,8 +11373,8 @@ productSpecCharacteristic.​productSpecCharacteristicValue.​isMandatory
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
--   true: Mandatory value.
--   false: Not a mandatory value.
+-   `true`: Mandatory value.
+-   `false`: Not a mandatory value.
 
 Default: false
 
@@ -12890,8 +12890,8 @@ isBundle
 
 Flag that indicates whether the product offering is a bundle.Possible values:
 
--   true: Product offering is a bundle.
--   false: Single product offering.
+-   `true`: Product offering is a bundle.
+-   `false`: Single product offering.
 
 Data type: Boolean
 
@@ -12905,8 +12905,8 @@ isSellable
 
 Flag that indicates whether the associated product offering can be sold by itself or must be part of a product offering bundle.Possible values:
 
--   true: Can be sold separately.
--   false: Only sold as part of a bundle.
+-   `true`: Can be sold separately.
+-   `false`: Only sold as part of a bundle.
 
 Data type: Boolean
 
@@ -13011,8 +13011,8 @@ prodSpecCharValueUse.​productSpecCharacteristicValue.​isDefault
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
--   true: Default value.
--   false: Not the default value.
+-   `true`: Default value.
+-   `false`: Not the default value.
 
 Default: false
 
@@ -13024,8 +13024,8 @@ prodSpecCharValueUse.​productSpecCharacteristicValue.​isMandatory
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
--   true: Mandatory value.
--   false: Not a mandatory value.
+-   `true`: Mandatory value.
+-   `false`: Not a mandatory value.
 
 Default: false
 
@@ -13196,8 +13196,8 @@ productOfferingCharacteristic.​characteristicValueSpecification.​isDefault
 
 Flag that indicates whether the associated characteristic value is the default value for the associated characteristic.Possible values:
 
--   true: Is default value.
--   false: Isn't the default value.
+-   `true`: Is default value.
+-   `false`: Isn't the default value.
 
 Data type: Boolean
 
@@ -13211,8 +13211,8 @@ productOfferingCharacteristic.​characteristicValueSpecification.​isMandatory
 
 Flag that indicates whether the associated characteristic value is mandatory for the associated characteristic.Possible values:
 
--   true: Is mandatory.
--   false: Isn't mandatory.
+-   `true`: Is mandatory.
+-   `false`: Isn't mandatory.
 
 Data type: Boolean
 
@@ -13255,20 +13255,20 @@ productOfferingCharacteristic.​valueType
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
--   Array.Date
--   Array.Datetime
--   Array.Decimal
--   Array.Integer
--   Array.Object
--   Array.Single Line Test
--   Checkbox
--   Choice
--   Date,Address
--   Email
--   Integer,Date/Time
--   Object
--   Single Line Text
--   Yes/No
+-   `Array.Date`
+-   `Array.Datetime`
+-   `Array.Decimal`
+-   `Array.Integer`
+-   `Array.Object`
+-   `Array.Single Line Test`
+-   `Checkbox`
+-   `Choice`
+-   `Date,Address`
+-   `Email`
+-   `Integer,Date/Time`
+-   `Object`
+-   `Single Line Text`
+-   `Yes/No`
 
 Data type: String
 
@@ -13528,7 +13528,7 @@ Description
 
 bundledGroupProductOffering
 
-</td><td id="d3041e293">
+</td><td id="d3041e330">
 
 Child groups of product offerings. These show hierarchical sub-grouping.Data type: Array of Objects
 
@@ -13547,7 +13547,7 @@ Child groups of product offerings. These show hierarchical sub-grouping.Data typ
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption
 
-</td><td id="d3041e306">
+</td><td id="d3041e343">
 
 A range of numbers that specifies the lower and upper limits of the number of the associated product offering that can be procured as part of the related bundled product offering.Data type: Object
 
@@ -13562,7 +13562,7 @@ A range of numbers that specifies the lower and upper limits of the number of th
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d3041e319">
+</td><td id="d3041e356">
 
 Lower limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -13570,7 +13570,7 @@ Lower limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d3041e330">
+</td><td id="d3041e367">
 
 Upper limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -13578,7 +13578,7 @@ Upper limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledProductOffering
 
-</td><td id="d3041e341">
+</td><td id="d3041e378">
 
 Child groups of product offerings associated with the bundle. Same format as **bundledProductOffering** specified below.Data type: Array of Objects
 
@@ -13586,7 +13586,7 @@ Child groups of product offerings associated with the bundle. Same format as **b
 
 bundledGroupProductOffering.​id
 
-</td><td id="d3041e395">
+</td><td id="d3041e432">
 
 Sys\_id of the bundled group record. Useful in cases where the parent product offering or group includes multiple groups.Data type: String
 
@@ -13596,7 +13596,7 @@ Table: Product Offering Relationship Group \[sn\_prd\_pm\_product\_offering\_rel
 
 bundledGroupProductOffering.​name
 
-</td><td id="d3041e408">
+</td><td id="d3041e445">
 
 Name of the group of child product offerings.Data type: String
 
@@ -13604,7 +13604,7 @@ Name of the group of child product offerings.Data type: String
 
 bundledProductOffering
 
-</td><td id="d3041e419">
+</td><td id="d3041e456">
 
 List of product offerings included in the product offering bundle. The product offering bundle inherits all of the attributes of the included product offerings.Data type: Array of Objects
 
@@ -13625,7 +13625,7 @@ List of product offerings included in the product offering bundle. The product o
 
 bundledProductOffering.​bundledProductOfferingOption
 
-</td><td id="d3041e433">
+</td><td id="d3041e470">
 
 Product bundle options such as the default number of product offerings and any upper and lower product offering procurement constraints.Data type: Object
 
@@ -13641,7 +13641,7 @@ Product bundle options such as the default number of product offerings and any u
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferDefault
 
-</td><td id="d3041e446">
+</td><td id="d3041e483">
 
 Default number of product offerings that should be procured as part of the related bundled product offering.Data type: String
 
@@ -13651,7 +13651,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d3041e459">
+</td><td id="d3041e496">
 
 Lower limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -13661,7 +13661,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d3041e472">
+</td><td id="d3041e509">
 
 Upper limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -13671,7 +13671,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​externalId
 
-</td><td id="d3041e485">
+</td><td id="d3041e522">
 
 External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-product-config-offering-relationships.md).
 
@@ -13689,7 +13689,7 @@ Relative link to the associated product offering.Data type: String
 
 bundledProductOffering.​id
 
-</td><td id="d3041e513">
+</td><td id="d3041e550">
 
 Sys\_id or external ID of the bundled product offering.Data type: String
 
@@ -13699,7 +13699,7 @@ Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
 
 bundledProductOffering.​name
 
-</td><td id="d3041e526">
+</td><td id="d3041e563">
 
 Name of the product offering bundle.Data type: String
 
@@ -13707,7 +13707,7 @@ Name of the product offering bundle.Data type: String
 
 bundledProductOffering.​version
 
-</td><td id="d3041e537">
+</td><td id="d3041e574">
 
 Catalog version of the product offering. Data type: String
 
@@ -13862,12 +13862,12 @@ Table: In the version field of the Product Offering \[sn\_prd\_pm\_product\_offe
 
 isBundle
 
-</td><td id="d3041e627">
+</td><td id="d3041e664">
 
 Flag that indicates whether the product offering is a bundle.Possible values:
 
--   true: Product offering is a bundle.
--   false: Single product offering.
+-   `true`: Product offering is a bundle.
+-   `false`: Single product offering.
 
 Data type: Boolean
 
@@ -13877,12 +13877,12 @@ Default: false
 
 isSellable
 
-</td><td id="d3041e650">
+</td><td id="d3041e691">
 
 Flag that indicates whether the associated product offering can be sold by itself or must be part of a product offering bundle.Possible values:
 
--   true: Can be sold separately.
--   false: Only sold as part of a bundle.
+-   `true`: Can be sold separately.
+-   `false`: Only sold as part of a bundle.
 
 Data type: Boolean
 
@@ -13904,9 +13904,9 @@ lifecycleStatus
 
 Current life cycle status of the product offering. Valid values:
 
--   Active
--   Draft
--   Inactive
+-   `Active`
+-   `Draft`
+-   `Inactive`
 
 Data type: String
 
@@ -13924,7 +13924,7 @@ Name of the product offering.Data type: String
 
 prodSpecCharValueUse
 
-</td><td id="d3041e700">
+</td><td id="d3041e748">
 
 Product offering characteristics.Data type: Array of Objects
 
@@ -13944,7 +13944,7 @@ Product offering characteristics.Data type: Array of Objects
 
 prodSpecCharValueUse.​description
 
-</td><td id="d3041e713">
+</td><td id="d3041e761">
 
 Description of the characteristic.Data type: String
 
@@ -13952,7 +13952,7 @@ Description of the characteristic.Data type: String
 
 prodSpecCharValueUse.​name
 
-</td><td id="d3041e724">
+</td><td id="d3041e772">
 
 Name of the characteristic.
 
@@ -13962,7 +13962,7 @@ Data type: String
 
 prodSpecCharValueUse.​productSpecCharacteristicValue
 
-</td><td id="d3041e738">
+</td><td id="d3041e786">
 
 List of the possible values of the characteristic.
 
@@ -13983,12 +13983,12 @@ Data type: Array of Objects
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isDefault
 
-</td><td id="d3041e754">
+</td><td id="d3041e802">
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
--   true: Default value.
--   false: Not the default value.
+-   `true`: Default value.
+-   `false`: Not the default value.
 
 Default: false
 
@@ -13996,12 +13996,12 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isMandatory
 
-</td><td id="d3041e775">
+</td><td id="d3041e827">
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
--   true: Mandatory value.
--   false: Not a mandatory value.
+-   `true`: Mandatory value.
+-   `false`: Not a mandatory value.
 
 Default: false
 
@@ -14009,7 +14009,7 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor
 
-</td><td id="d3041e797">
+</td><td id="d3041e853">
 
 Date and time of when the characteristic is valid.Data type: Object
 
@@ -14023,7 +14023,7 @@ Date and time of when the characteristic is valid.Data type: Object
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor.​startDateTime
 
-</td><td id="d3041e810">
+</td><td id="d3041e866">
 
 Start date and time of when the characteristic value is valid.Data type: String
 
@@ -14033,7 +14033,7 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​value
 
-</td><td id="d3041e823">
+</td><td id="d3041e879">
 
 Value of the characteristic.
 
@@ -14043,7 +14043,7 @@ Data type: String
 
 prodSpecCharValueUse.​validFor
 
-</td><td id="d3041e837">
+</td><td id="d3041e893">
 
 Date range the characteristic is valid for.Data type: Object
 
@@ -14057,7 +14057,7 @@ Date range the characteristic is valid for.Data type: Object
 
 prodSpecCharValueUse.​validFor.​startDateTime
 
-</td><td id="d3041e850">
+</td><td id="d3041e906">
 
 Start date of the characteristic.Data type: String
 
@@ -14067,7 +14067,7 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​valueType
 
-</td><td id="d3041e863">
+</td><td id="d3041e919">
 
 Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Accepted values:
 
@@ -14130,7 +14130,7 @@ Value of the characteristic.Data type: String
 
 productOfferingCharacteristic
 
-</td><td id="d3041e961">
+</td><td id="d3041e1017">
 
 Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-product-config-add-characteristics.md).
 
@@ -14150,7 +14150,7 @@ productOfferingCharacteristic": [ 
 
 productOfferingCharacteristic.​characteristicValueSpecification
 
-</td><td id="d3041e979">
+</td><td id="d3041e1035">
 
 List of characteristic values associated with the product offering characteristic.Data type: Array of Objects
 
@@ -14168,12 +14168,12 @@ List of characteristic values associated with the product offering characteristi
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isDefault
 
-</td><td id="d3041e992">
+</td><td id="d3041e1048">
 
 Flag that indicates whether the associated characteristic value is the default value for the associated characteristic.Possible values:
 
--   true: Is default value.
--   false: Isn't the default value.
+-   `true`: Is default value.
+-   `false`: Isn't the default value.
 
 Data type: Boolean
 
@@ -14183,12 +14183,12 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isMandatory
 
-</td><td id="d3041e1015">
+</td><td id="d3041e1075">
 
 Flag that indicates whether the associated characteristic value is mandatory for the associated characteristic.Possible values:
 
--   true: Is mandatory.
--   false: Isn't mandatory.
+-   `true`: Is mandatory.
+-   `false`: Isn't mandatory.
 
 Data type: Boolean
 
@@ -14198,7 +14198,7 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​value
 
-</td><td id="d3041e1038">
+</td><td id="d3041e1102">
 
 Number or text assigned to the associated product specification characteristic .For example:
 
@@ -14219,7 +14219,7 @@ Data type: String
 
 productOfferingCharacteristic.​name
 
-</td><td id="d3041e1053">
+</td><td id="d3041e1117">
 
 Name of the associated product offering characteristic.Data type: String
 
@@ -14227,24 +14227,24 @@ Name of the associated product offering characteristic.Data type: String
 
 productOfferingCharacteristic.​valueType
 
-</td><td id="d3041e1065">
+</td><td id="d3041e1129">
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
--   Array.Date
--   Array.Datetime
--   Array.Decimal
--   Array.Integer
--   Array.Object
--   Array.Single Line Test
--   Checkbox
--   Choice
--   Date,Address
--   Email
--   Integer,Date/Time
--   Object
--   Single Line Text
--   Yes/No
+-   `Array.Date`
+-   `Array.Datetime`
+-   `Array.Decimal`
+-   `Array.Integer`
+-   `Array.Object`
+-   `Array.Single Line Test`
+-   `Checkbox`
+-   `Choice`
+-   `Date,Address`
+-   `Email`
+-   `Integer,Date/Time`
+-   `Object`
+-   `Single Line Text`
+-   `Yes/No`
 
 Data type: String
 
@@ -14397,8 +14397,8 @@ status
 
 Status of the product offering.Possible values:
 
--   draft
--   published
+-   `draft`
+-   `published`
 
 Data type: String
 
@@ -14822,8 +14822,8 @@ isBundle
 
 Flag that indicates whether the price list line is part of a single product or a bundle of products.Valid values:
 
--   true: Price list line is part of a bundle.
--   false: Price list line isn't part of a bundle.
+-   `true`: Price list line is part of a bundle.
+-   `false`: Price list line isn't part of a bundle.
 
 Data type: Boolean
 
@@ -14847,9 +14847,9 @@ lifeCycleStatus
 
 Required. Current life cycle status of the product list line.Valid values:
 
--   active
--   draft
--   inactive
+-   `active`
+-   `draft`
+-   `inactive`
 
 Data type: String
 
@@ -14946,8 +14946,8 @@ priceType
 
 Required. Filter the price list line by the pricing method of the product offering.Valid values:
 
--   recurring: Charge recurring pricing amounts with a specified frequency. Frequency is set in the **recurringChargePeriodType** parameter.
--   one\_time: Supports one-time or recurring add-on charges and fees for a product offering.
+-   `recurring`: Charge recurring pricing amounts with a specified frequency. Frequency is set in the **recurringChargePeriodType** parameter.
+-   `one_time`: Supports one-time or recurring add-on charges and fees for a product offering.
 
 Data type: String
 
@@ -15003,8 +15003,8 @@ recurringChargePeriodType
 
 Required if **priceType** is recurring. Commitment terms that are selected when the product offering was created.Valid values:
 
--   annually
--   monthly
+-   `annually`
+-   `monthly`
 
 Data type: String
 
@@ -15231,8 +15231,8 @@ isBundle
 
 Flag that indicates whether the price list line is part of a single product or a bundle of products.Valid values:
 
--   true: Price list line is part of a bundle.
--   false: Price list line isn't part of a bundle.
+-   `true`: Price list line is part of a bundle.
+-   `false`: Price list line isn't part of a bundle.
 
 Data type: Boolean
 
@@ -15244,9 +15244,9 @@ lifecycleStatus
 
 Current life cycle status of the price list line.Valid values:
 
--   Active
--   Draft
--   Inactive
+-   `Active`
+-   `Draft`
+-   `Inactive`
 
 Data type: String
 
@@ -15298,8 +15298,8 @@ priceType
 
 The pricing method of the product offering which is associated with this price list line.Possible values:
 
--   recurring: Charge recurring pricing amounts with a specified frequency. The value of **recurringChargePeriodType** indicates the frequency of the charge.
--   one\_time: One-time or recurring add-on charges and fees for a product offering.
+-   `recurring`: Charge recurring pricing amounts with a specified frequency. The value of **recurringChargePeriodType** indicates the frequency of the charge.
+-   `one_time`: One-time or recurring add-on charges and fees for a product offering.
 
 Data type: String
 
@@ -15311,8 +15311,8 @@ recurringChargePeriodType
 
 The periodicity or frequency of the product offering associated with this price list line. Returns a frequency type if **priceType** was set to `recurring`, otherwise returns an empty string.Possible values:
 
--   annually
--   monthly
+-   `annually`
+-   `monthly`
 
 Data type: String
 
@@ -15712,8 +15712,8 @@ productSpecCharacteristic.​productSpecCharacteristicValue.​isDefault
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
--   true: Default value.
--   false: Not the default value.
+-   `true`: Default value.
+-   `false`: Not the default value.
 
 Default: false
 
@@ -15725,8 +15725,8 @@ productSpecCharacteristic.​productSpecCharacteristicValue.​isMandatory
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
--   true: Mandatory value.
--   false: Not a mandatory value.
+-   `true`: Mandatory value.
+-   `false`: Not a mandatory value.
 
 Default: false
 
@@ -16337,8 +16337,8 @@ productSpecCharacteristic.​productSpecCharacteristicValue.​isDefault
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
--   true: Default value.
--   false: Not the default value.
+-   `true`: Default value.
+-   `false`: Not the default value.
 
 Default: false
 
@@ -16350,8 +16350,8 @@ productSpecCharacteristic.​productSpecCharacteristicValue.​isMandatory
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
--   true: Mandatory value.
--   false: Not a mandatory value.
+-   `true`: Mandatory value.
+-   `false`: Not a mandatory value.
 
 Default: false
 

@@ -54,13 +54,13 @@ Creating a Task Mining project enables you to get task-level insights across wor
 
     A notification is displayed when the project is created and ready to use.
 
-7.  Select the Associated projects icon \[Omitted image "icon-asso-proj.png"\] from the right pane.
+7.  Select the Associated projects icon \[Omitted image "icon-asso-proj.png"\] Alt text: Project icon from the right pane.
 
     A list of Task Mining projects associated with the Process Mining project is displayed.
 
 8.  Select **View project** for the project you created.
 
-    The project opens in the Task Mining Workspace. For information on Task Mining analyses, see [Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/task-mining/task-mining-dashboard.md). After project creation once the analysis is available, we can view the task mining user activity dashboard for the selected list of users by clicking **View project**.
+    The project opens in the Task Mining Workspace. For information on Task Mining analyses, see [Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/task-mining/task-mining-dashboard.md). After project creation when the analysis is available, we can view the task mining user activity dashboard for the selected list of users by clicking **View project**.
 
     You can also create a draft project, and continue project creation later from the Associated projects section.
 

@@ -18,6 +18,8 @@ You can activate the Adaptive Authentication plugin \(com.snc.adaptive\_authenti
 
 ## Before you begin
 
+Role required: admin
+
 ## About this task
 
 ## Procedure

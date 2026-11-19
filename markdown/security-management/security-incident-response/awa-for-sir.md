@@ -1,6 +1,6 @@
 ---
 title: Advanced Work Assignment for Security Incident Response
-description: Advanced Work Assignment \(AWA\) intelligently routes and assigns security incidents to security analysts on the basis on their availability, capacity, and skills.
+description: Advanced Work Assignment \(AWA\) intelligently routes and assigns security incidents to security analysts on the basis of their availability, capacity, and skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/awa-for-sir.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Security Incident Response, Enterprise security case management app
 
 # Advanced Work Assignment for Security Incident Response
 
-Advanced Work Assignment \(AWA\) intelligently routes and assigns security incidents to security analysts on the basis on their availability, capacity, and skills.
+Advanced Work Assignment \(AWA\) intelligently routes and assigns security incidents to security analysts on the basis of their availability, capacity, and skills.
 
 AWA streamlines the assignment process, ensuring that critical incidents are handled by the most appropriate and available analysts. AWA improves overall response times and efficiency in security operations.
 
@@ -25,7 +25,7 @@ The ability to make configuration changes requires the AWA admin role \(awa\_adm
 -   AWA uses service channels to route requests. Security incidents are placed in queues. You can create multiple queues for different priorities or groups. Routing conditions like priority or state determine which queue an incident enters.
 -   AWA admins must configure assignment eligibility by adding groups and rules. Only eligible analysts receive assignment notifications.
 -   AWA admins can set how many security incidents a security analyst can handle at once. The default value is 1.
--   AWA analysts can set their availability. Based on the AWA configuration, security analysts can either manually accept or reject incoming security incidents or you can choose to have security incidents be auto-assigned to security analysts.
+-   AWA analysts can set their availability. Based on the AWA configuration, security analysts can either manually accept or reject incoming security incidents. Else, you can choose to have security incidents be auto-assigned to security analysts.
 
 **Note:**
 

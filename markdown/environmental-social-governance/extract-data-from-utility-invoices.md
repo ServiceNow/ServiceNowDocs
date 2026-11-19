@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use generative AI skills, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Use generative AI skills, Now Assist, Use, Operational Sustainability Management]
 ---
 
 # Extract data from utility invoices

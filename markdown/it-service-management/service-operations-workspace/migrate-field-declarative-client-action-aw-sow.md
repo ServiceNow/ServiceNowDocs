@@ -24,19 +24,19 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Declarative Actions** &gt; **Field Decorators**.
 
-2.  Filter the records based for **Implemented As** is set as **Client action**.
+2.  Filter the records where **Implemented As** is set as **Client action**.
 
-3.  View the log in the failed record in the migration process and find the **sys\_Id** of the record from the list of **Related List Actions**.
+3.  View the log in the failed record in the migration process and find the sys\_id of the record from the list of **Related List Actions**.
 
 4.  Select the failed record with the corresponding sys\_id.
 
-5.  Right-click on the header, and select **Insert and Stay**.
+5.  Select and hold \(or right-click\) the header, and then select **Insert and Stay**.
 
 6.  Clear the **Workspace** and **View** fields.
 
 7.  Select the **Experience Restricted** check box.
 
-8.  Update the value in the **Implemented as** field as `UXF Client Action`.
+8.  Update the value in the **Implemented as** field to `UXF Client Action`.
 
 9.  In the **Action configuration** related list, select **Edit**, and then select **SOW Actions** from **Collection** to **Action configurations** list.
 
@@ -44,7 +44,7 @@ Role required: admin
 
 11. Select **Update**.
 
-12. If specify client action key is **ITEM\_SELECTED** or **PREVIEW\_RECORD**, create CREATE\_NEW\_RECORD key with the payload mentioned below in the code block in the sys\_declarative\_action\_payload\_definition table.
+12. If the client action key is **ITEM\_SELECTED** or **PREVIEW\_RECORD**, create CREATE\_NEW\_RECORD key with the payload in the following code block in the sys\_declarative\_action\_payload\_definition table.
 
     This step is performed only once.
 
@@ -84,13 +84,13 @@ Role required: admin
 
 13. Modify the client action created for **ITEM\_SELECTED** and **PREVIEW\_RECORD** declarative actions records.
 
-    When you modify the client action, then the payload Map in action Attributes should be transformed based on the payload.
+    When you modify the client action, transform the payload Map in action Attributes based on the payload.
 
     The following tables are used in the migration process:
 
     -   sys\_ux\_m2m\_action\_assignment\_action\_config
     -   sys\_declarative\_action\_payload\_definition
-    **Note:** The **ITEM\_SELECTED** and **PREVIEW\_RECORD** actions function in the ITSM Agent Workspace but not in SOW. Therefore, a new action payload named "CREATE\_NEW\_RECORD" Is introduced in SOW. While there could be other action payloads that might not function properly, the base system client actions for List continue to work effectively in SOW post-migration.
+    **Note:** The **ITEM\_SELECTED** and **PREVIEW\_RECORD** actions function in the ITSM Agent Workspace but not in SOW. Therefore, a new action payload named "CREATE\_NEW\_RECORD" is introduced in SOW. While there could be other action payloads that might not function properly, the base system client actions for List continue to work effectively in SOW post-migration.
 
 
 **Parent Topic:**[Migration of field decorators from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/field-declarative-actions-aw-sow.md)

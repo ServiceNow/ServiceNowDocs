@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [SAP SuccessFactors external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [SAP SuccessFactors external content connector, Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Update CSV data files for a SAP SuccessFactors external content connector
@@ -43,11 +43,11 @@ Unlike most external content connectors, the SAP SuccessFactors connector doesn'
 
     1.  In the Users data table, use the **Add file** link to attach the CSV data file from the Users custom report.
 
-        This CSV file includes the contains the User Mapping ID and Assignment Profile ID columns. Data from this file populates the user mapping table for the connector. The connector crawls this table during user permission crawls. AI Search uses the retrieved data to find the original document access restrictions to apply for each search user.
+        This CSV file includes the contains the User Mapping ID and Assignment Profile ID columns. Data from this file populates the user mapping table for the connector. The connector crawls this table during user permissions crawls. AI Search uses the retrieved data to find the original document access restrictions to apply for each search user.
 
     2.  In the Library and assignment profiles data table, use the **Add file** link to attach the CSV data file from the Libraries and assignment profiles custom report.
 
-        This CSV file includes the Library ID and Assignment Profile ID columns. Data from this file links assignment profiles to libraries. The connector crawls this table during user permission crawls. AI Search uses the retrieved links to enforce the original document access restrictions for each search user.
+        This CSV file includes the Library ID and Assignment Profile ID columns. Data from this file links assignment profiles to libraries. The connector crawls this table during user permissions crawls. AI Search uses the retrieved links to enforce the original document access restrictions for each search user.
 
     3.  In the Trainings data table, use the **Add file** link to attach the CSV data file from the Training items custom report.
 

@@ -8,7 +8,7 @@ product: Workplace Core
 classification: workplace-core
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -26,15 +26,15 @@ Role required: approver\_user
 
 1.  Navigate to a reservation approval task.
 
-<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d492260e71">
+<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d492338e73">
 
 Application
 
-</th><th align="left" id="d492260e74">
+</th><th align="left" id="d492338e76">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d492260e80">
+</th></tr></thead><tbody><tr><td id="d492338e82">
 
 **Now Mobile**
 
@@ -50,20 +50,20 @@ In the Now Mobile app, open a task from the My Tasks section.
 3.  Approve or reject the request by selecting **Approve** or **Reject**.
 
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 
 
 [Import your workspaces data from an Excel spreadsheet]()
 
-[Add a space type configuration]()
+[]()
 
 [Configure a workplace card]()
 
 [Block a workplace location]()
 
-[Configure Workplace entity and entity types]()
+[Configure Workplace entities and entity types]()
 
 [Managing Neighborhoods]()
 

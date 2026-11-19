@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 1
 keywords: [submit metric data tasks, bulk submission, metric data entry]
-breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Submit metric data tasks for a campaign

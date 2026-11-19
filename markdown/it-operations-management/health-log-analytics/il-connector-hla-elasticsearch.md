@@ -8,7 +8,7 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [Elasticsearch, data input, integration, configuration, ServiceNow, Health Log Analytics, HLA]
 breadcrumb: [Set up integrations from Integrations Launchpad, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -33,6 +33,25 @@ Set up an integration to stream log data seamlessly from Elasticsearch indices t
 
 -   Unless the MID Server and external clients are on the same network, verify that the MID Server has a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
 
+-   Consider whether to pull the log data to a single MID Server or to a MID Server cluster.
+
+    In MID Server clusters, multiple MID Servers are grouped together for failover protection. The active integration runs on a single MID Server in the cluster. If that MID Server fails, the system moves its tasks to the next available MID Server in the cluster in a configured order.
+
+    If you decide to use a MID Server cluster, verify the following:
+
+    -   The MID Server cluster includes only MID Servers that support basic authentication.
+
+        **Note:** mTLS is not supported for log ingestion.
+
+    -   Log ingestion is enabled for each MID Server in the cluster.
+
+        **Note:** If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
+
+    -   No more than the default maximum of 10 integrations will pull logs to a single MID Server.
+
+        A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 integrations running on it, even when that MID Server is down.
+
+
 Role required: evt\_mgmt\_admin
 
 ## About this task
@@ -55,7 +74,7 @@ Set up an integration from the Integrations Launchpad in Service Operations Work
 
 5.  Select the Elasticsearch integration tile.
 
-    **Note:** If you start an integration setup before meeting all prerequisites, a message appears. You can cancel the setup and complete the prior requirements first. Alternatively, you can continue in draft mode and complete the requirements later. Note that you can't activate the integration until you have completed all the prerequisites.
+    **Note:** If you start an integration setup before meeting all prerequisites, a message appears. You can cancel the setup and complete the prior requirements first. Alternatively, you can continue in draft mode and complete the requirements later.
 
 6.  On the **Provide details** form, fill in the fields.
 

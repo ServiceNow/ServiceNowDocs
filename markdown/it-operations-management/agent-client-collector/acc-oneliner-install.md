@@ -67,7 +67,9 @@ ACC\_MID
 The URL of the MID Server websocket.If you are specifying multiple MID Servers, enter a string separated by commas for each MID Server.
 
 </td></tr></tbody>
-</table>3.  To add new check definitions to the allow list, disable the allow list by adding **ACC\_ALLOW\_LIST=0** to the single-line command string.
+</table>3.  To create new check definitions, disable the allow list by adding **ACC\_ALLOW\_LIST=0** to the single-line command string.
+
+    The allow list controls which checks are enabled to run on the agent.
 
     **Note:** This action compromises your system's security and is recommended only as a temporary measure until you finish updating the allow list. After completing the update, re-activate the allow list by removing **ACC\_ALLOW\_LIST=0** from the single-line command string.
 

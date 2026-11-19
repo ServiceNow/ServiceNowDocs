@@ -34,7 +34,7 @@ Conflict detection evaluates both the parent and child configuration items \(CIs
 
 1.  Create a blackout or maintenance schedule.
 
-<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d205200e112">
+<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d205895e114">
 
 **Create a blackout schedule**
 
@@ -44,7 +44,7 @@ Conflict detection evaluates both the parent and child configuration items \(CIs
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d205200e145">
+</td></tr><tr><td id="d205895e147">
 
 **Create a maintenance schedule**
 
@@ -207,7 +207,7 @@ To scope a schedule by CI class and its children, set **Source** to **CI Class**
 Associate the configuration item with the maintenance schedule that is used in the change request.
 
 -   **[Assign a maintenance schedule to configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/use-maintenance-schedule-management.md)**  
-You can review and determine the conflicts in a change schedule by assigning the maintenance schedules to configuration items \(CI\). After you assign a maintenance schedules to the CI, add the CI to the change request.
+Review and determine the conflicts in a change schedule by assigning the maintenance schedules to configuration items \(CI\). After you assign a maintenance schedules to the CI, add the CI to the change request.
 
 **Parent Topic:**[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ConflictDetection.md)
 

@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Daily slow patterns, reference, Discovery]
-breadcrumb: [Daily Slow Patterns, Stats Tools, System Diagnostics, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Daily Slow Patterns, Stats Tools, System Diagnostics, Maintain and monitor, ServiceNow AI Platform]
 ---
 
 # Daily Slow Patterns tables and fields

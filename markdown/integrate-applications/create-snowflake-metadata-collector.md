@@ -139,19 +139,7 @@ MID Server application to use for the collector job. This field appears only whe
     |Snowflake private key file|Upload the private key file to use for authentication.|
     |Private key file password|Password for the private key file, if the key is encrypted and a password is set.|
 
-9.  Select from **Collect all schemas** and **Specify which schema to collect**.
-
-    |Field|Description|
-    |-----|-----------|
-    |Collect all schemas|
-    |Collect all schemas|Catalog all schemas to which the user has access.|
-    |Exclude Schema|Name or regular expression of the database schema to be excluded.|
-    |Include Information Schema|Include the database's Information Schema in catalog collection.|
-    |Specify which schema to collect|
-    |Specify which schema to collect|Catalog only the specified schemas.|
-    |Schema|Name of the database schema to catalog.|
-
-10. Enter the Snowflake connection details.
+9.  Enter the database details.
 
 <table id="table_pjv_hr4_33c"><thead><tr><th>
 
@@ -163,19 +151,19 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Database
-
-</td><td>
-
-Name of the database to connect to. Specify multiple databases by adding one value per line.
-
-</td></tr><tr><td>
-
 Snowflake Role
 
 </td><td>
 
 The role used to execute the query.
+
+</td></tr><tr><td>
+
+Database
+
+</td><td>
+
+Name of the database to connect to. Specify multiple databases by adding one value per line.
 
 </td></tr><tr><td>
 
@@ -186,7 +174,19 @@ Excluded database
 Name or regular expression indicating databases not to catalog when the Database field is empty.**Note:** This parameter is ignored if the Database field is specified.
 
 </td></tr></tbody>
-</table>11. Configure the statistics and sampling options.
+</table>10. Select from **Collect all schemas** and **Specify which schema to collect**.
+
+    |Field|Description|
+    |-----|-----------|
+    |Collect all schemas|
+    |Collect all schemas|Catalog all schemas to which the user has access.|
+    |Exclude Schema|Name or regular expression of the database schema to be excluded.|
+    |Include Information Schema|Include the database's Information Schema in catalog collection.|
+    |Specify which schema to collect|
+    |Specify which schema to collect|Catalog only the specified schemas.|
+    |Schema|Name of the database schema to catalog.|
+
+11. Configure the statistics and sampling options.
 
 <table id="table_ocr_gc4_33c"><thead><tr><th>
 
@@ -248,6 +248,22 @@ Number of days in the past from which to begin harvesting table usage. Default: 
 
 </td></tr><tr><td>
 
+Collect snowflake access history lineage information
+
+</td><td>
+
+Harvest runtime table lineage \(stored procedures, MERGE, Tasks\) from SNOWFLAKE.ACCOUNT\_USAGE.ACCESS\_HISTORY.
+
+</td></tr><tr><td>
+
+Access history lineage lookback days
+
+</td><td>
+
+Number of days in the past at which to begin harvesting runtime lineage from ACCESS\_HISTORY.Default: 7 days
+
+</td></tr><tr><td>
+
 Disable Lineage collection
 
 </td><td>
@@ -265,72 +281,18 @@ Option to skip harvesting extended metadata for data asset types such as databas
 </td></tr></tbody>
 </table>12. Configure the harvesting scope and limits options.
 
-<table id="table_kbn_4lp_33c"><thead><tr><th>
+    |Field|Description|
+    |-----|-----------|
+    |Collect Snowflake Tag Information|Option to harvest metadata about Snowflake tags in or associated with the database specified in the database setting.|
+    |Collect All Snowflake Tag Information|Option to harvest metadata about Snowflake tags regardless of the database in which they reside.|
+    |Collect Snowflake Policy Information|Option to harvest metadata about Snowflake masking and row-access policies in or associated with the database specified in the database setting.|
+    |Collect All Snowflake Policy Information|Option to harvest metadata about Snowflake masking and row-access policies regardless of the database in which they reside.|
+    |Collect Streamlit App Information|Option to harvest metadata about Snowflake Streamlit applications.|
+    |Collect Task Information|Harvest metadata about Snowflake tasks.|
+    |Collect semantic view information|Harvest detailed components of Snowflake semantic views \(metrics, dimensions, facts, logical tables\). Semantic views are collected regardless of this option.|
+    |Exclude system functions|Option to exclude built-in system functions from harvesting.|
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Collect Snowflake Tag Information
-
-</td><td>
-
-Option to harvest metadata about Snowflake tags in or associated with the database specified in the database setting.
-
-</td></tr><tr><td>
-
-Collect All Snowflake Tag Information
-
-</td><td>
-
-Option to harvest metadata about Snowflake tags regardless of the database in which they reside.
-
-</td></tr><tr><td>
-
-Collect Snowflake Policy Information
-
-</td><td>
-
-Option to harvest metadata about Snowflake masking and row-access policies in or associated with the database specified in the database setting.
-
-</td></tr><tr><td>
-
-Collect All Snowflake Policy Information
-
-</td><td>
-
-Option to harvest metadata about Snowflake masking and row-access policies regardless of the database in which they reside.
-
-</td></tr><tr><td>
-
-Collect Streamlit App Information
-
-</td><td>
-
-Option to harvest metadata about Snowflake Streamlit applications.
-
-</td></tr><tr><td>
-
-Enable Sample String Values collection
-
-</td><td>
-
-Option to harvest sample values and histograms for columns containing string data. **Note:** Applies only if Enable column statistics collection is enabled.
-
-</td></tr><tr><td>
-
-Exclude system functions
-
-</td><td>
-
-Option to exclude built-in system functions from harvesting.
-
-</td></tr></tbody>
-</table>13. Configure the connection and reliability options.
+13. Configure the connection and reliability options.
 
 <table id="table_yhb_plp_33c"><thead><tr><th>
 

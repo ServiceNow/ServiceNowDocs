@@ -5,14 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/run-fix-script-sched-job-export.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 2
 breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Add Code field values to catalog entities
 
-Add the **Code** field values for the main product catalog entities. The system uses this field as a way to identify catalog entities uniquely and to determine whether the **Code** field values for an export catalog entity are to be inserted or updated in the target instance.
+Add the Code field values for the main product catalog entities. The system uses this field as a way to identify catalog entities uniquely and to determine whether the Code field values for an export catalog entity are to be inserted or updated in the target instance.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The **Code** values for product catalog entities are system-assigned alphanumeric values based on the catalog entity name, such as the name of a product offering. If the **Code** field values for the main catalog entities are empty, run certain on-demand scheduled jobs and fix scripts to add the **Code** field values for the main product catalog entities.
+The **Code** values for product catalog entities are system-generated values based on the catalog entity name, such as the name of a product offering. If the **Code** field values for the main catalog entities are empty, run certain on-demand scheduled jobs and fix scripts to add the **Code** field values for the main product catalog entities.
 
 Both the scheduled jobs and fix scripts add the **Code** field values for the catalog entities.
 

@@ -7,7 +7,7 @@ release: brazil
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-11"
 reading_time_minutes: 1
 breadcrumb: [Health and Safety injury and illness reports, Health and Safety, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_ohs\_im.compliance\_manager
 
 ## About this task
 
-**Note:** The annual total hours information is used for auto-filing the total hours worked by employees in a year when exporting the injury and illness reports for an establishment, for example OSHA 300A form. When the total hours information is not available for a year in the **Annual information** tab, the system uses the default value from the **Total hours worked** system property in the exported report. For more information, see [Property to set employee hours worked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/configure-hs-property-hours-worked.md).
+For more information, see [Property to set employee hours worked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/configure-hs-property-hours-worked.md).
 
 ## Procedure
 

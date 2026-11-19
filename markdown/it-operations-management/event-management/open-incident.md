@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Promote alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Promote alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create an incident from an alert in Express List
@@ -42,4 +42,6 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     An incident is created from the selected alert and a confirmation message is displayed.
 
+
+**Parent Topic:**[Promoting alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/promoting-alerts-in-express-list.md)
 

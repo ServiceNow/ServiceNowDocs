@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Agent Client Collector, ACC, control enforcement point, Policies]
-breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring security connections, Configuring integrations, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add an Agent Client Collector \(ACC\) connection
@@ -29,7 +29,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Control enforcement points**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Control enforcement points**.
 
 2.  On the **Available connectors** tab, select **ACC**.
 

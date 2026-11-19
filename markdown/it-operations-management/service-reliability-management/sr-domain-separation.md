@@ -43,7 +43,7 @@ The specific conditions indicated by the Basic\* support level rating above rela
 -   Only one catalog item and flow can be set up for each instance. The customer is responsible for setting up team properties to support domain separation as a customization of the existing flows.
 -   The requestor of a team catalog item is associated with the domain and is available as part of the request item. As a result, if needed, the requester can create the team in a specific domain or the catalog Item and extend it to capture the domain another way. In either case, the Service Operations Workspace must make changes to the Integration Hub flows and actions to support this.
 
-For more information, see [Domain separation and On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/domain-separation-on-call-scheduling.md).
+For more information, see .
 
 **Parent Topic:**[Service Reliability Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-reliability-management/service-reliability-management-reference.md)
 

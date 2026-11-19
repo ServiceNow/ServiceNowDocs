@@ -7,7 +7,7 @@ release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 2
 keywords: [service map, system health alerts, configuration items, core components, self-health checks, alert criticality, colored bars, critical alerts, major alerts, minor alerts, component monitoring, log ingestion process, data inputs, log sources, HLA AI Engine, Metric Base, impact visualization]
 breadcrumb: [Viewing system features and health alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]

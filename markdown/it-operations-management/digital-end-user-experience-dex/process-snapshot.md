@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
+keywords: [top processes, process snapshot, cpu usage by process, memory usage by process, high cpu process, incident investigation tab, resource usage graph, top 10 processes]
 breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage employee experience, Digital End-User Experience, IT Operations Management]
 ---
 

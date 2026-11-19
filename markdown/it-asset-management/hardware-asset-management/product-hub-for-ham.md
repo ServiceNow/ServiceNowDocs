@@ -34,10 +34,10 @@ Access to Product Hub requires one of two granular roles, which a system adminis
 
 |Role|Access level|
 |----|------------|
-|ia\_admin|Full access: install, update, and manage HAM applications and plugins|
-|ia\_user|View-only access: browse Product Hub but can't install applications|
+|sn\_ia\_config.ia\_admin|Full access: install, update, and manage HAM applications and plugins|
+|sn\_ia\_config.ia\_user|View-only access: browse Product Hub but can't install applications|
 
-**Note:** System administrators have access to Product hub by default. A system administrator must grant ia\_admin or ia\_user role to other users based on the access level required.
+**Note:** System administrators have access to Product hub by default. A system administrator must grant sn\_ia\_config.ia\_admin or sn\_ia\_config.ia\_user role to other users based on the access level required.
 
 ## How it works
 

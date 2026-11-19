@@ -18,7 +18,7 @@ Use ServiceNow AI Platform environments, products, tools, and skills to develop,
 \[Omitted image "vc-approaches.png"\] Alt text: Agentic development approaches from autonomous to developer-controlled
 
 -   **[Agentic development in ServiceNow AI Platform environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-coding-environments.md)**  
-You can develop apps agentically with AI tools on the ServiceNow AI Platform in a safe, isolated environment using a non-production instance with Developer Sandboxes, or on a Personal Developer Instance \(PDI\).
+You can develop apps agentically with AI tools on the ServiceNow AI Platform in an isolated environment using a non-production instance with Developer Sandboxes, or on a Personal Developer Instance \(PDI\).
 -   **[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-build-agent-landing.md)**  
 Build Agent is the primary AI-powered development tool that works directly with the ServiceNow AI Platform to help you build applications. It generates code based on natural language descriptions, suggests improvements, and automates repetitive development tasks while you retain control of your application.
 -   **[Agentic app creation with ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-code-now-assist-creator.md)**  

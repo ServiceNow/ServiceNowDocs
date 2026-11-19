@@ -1,5 +1,5 @@
 ---
-title: Custom Modal Migration in Standard Record Page
+title: Customize modals in the Standard Record Page
 description: Modify the modal containers inside a record page in the Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/custom-modal-migration-srp.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Configuring standard record pages in Service Operations Workspace, Configuring record pages in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Custom Modal Migration in Standard Record Page
+# Customize modals in the Standard Record Page
 
 Modify the modal containers inside a record page in the Service Operations Workspace.
 
@@ -32,7 +32,7 @@ Standard Record Page \(SRP\) provides options to modify the different modals use
 
 3.  Under the **Pages and Variants** section, under **Record**, select **SRP Record**.
 
-    **Note:** If you are on a version prior to 4.0, you can navigate from **Record SNC** in **UI Builder** to modify the **Overview** tab of an Incident record page.
+    **Note:** If you are on a version before 4.0, you can navigate from **Record SNC** in **UI Builder** to modify the **Overview** tab of an incident record page.
 
 4.  From the left of the UI Builder, navigate to **Modals and popovers** &gt; **Modals**, and select **Modal Container \(Viewport\)**.
 
@@ -42,9 +42,9 @@ Standard Record Page \(SRP\) provides options to modify the different modals use
 
     -   Record Page Modals: Select this option to modify modals across all experiences.
     -   SOW Record Page Modals: Select this option to modify the modals used in Service Operations Workspace.
-6.  Select the \[Omitted image "open-side-panel-tab.png"\] Alt text: Variants in SOW Record page modals. icon to open the variants provided.
+6.  Select the \[Omitted image "open-side-panel-tab.png"\] Alt text: icon to open the variants provided.
 
-7.  Select the \[Omitted image "add-icon.png"\] Alt text: Create new page icon to create a page or to add a new variant to a page.
+7.  Select the \[Omitted image "add-icon.png"\] Alt text: icon to create a page or to add a new variant to a page.
 
     For more information about creating a page and variant, see [Learn UI Builder by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/learning-uib-by-example.md)
 

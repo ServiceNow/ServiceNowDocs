@@ -46,7 +46,7 @@ When an app is disconnected, all SSO subscriptions for the app are deleted and a
 
 [SaaS License Management setup for large companies]()
 
-[SaaS Overview dashboard]()
+[]()
 
 [Integrate with SaaS applications]()
 

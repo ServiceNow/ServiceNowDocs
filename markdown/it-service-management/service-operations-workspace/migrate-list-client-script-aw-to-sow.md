@@ -24,15 +24,15 @@ Role required: admin
 
 ## About this task
 
-At the end of the migration process, a confirmation message specifies if the migration is successful or not. You can review the migration information and perform the post-migration steps to confirm successful migration of your configuration or customization.
+At the end of the migration process, a confirmation message specifies whether the migration is successful. You can review the migration information and perform the post-migration steps to confirm successful migration of your configuration or customization.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Declarative Actions** &gt; **List actions**.
 
-2.  Filter the records based for **Implemented As** is set as **Client script**.
+2.  Filter the records where **Implemented As** is set as **Client script**.
 
-3.  View the log in the failed record in the migration process and find the **sys\_Id** of the record from the list of **List Actions**.
+3.  View the log in the failed record in the migration process and find the sys\_id of the record from the list of **List Actions**.
 
 4.  Select the failed record with the corresponding sys\_id.
 

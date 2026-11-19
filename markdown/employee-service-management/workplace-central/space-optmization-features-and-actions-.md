@@ -109,7 +109,3 @@ When you select a building, the building is opened in a stack plan view where yo
 
 [User Workplace Profile form]()
 
-[]()
-
-[]()
-

@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Subscription Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Subscription Management, Get started, ServiceNow AI Platform]
 ---
 
 # Managing custom tables and applications in Subscription Management

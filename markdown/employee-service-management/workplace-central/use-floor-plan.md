@@ -53,7 +53,7 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
     -   `Assignment ratio`: Ratio of the assigned profiles to the total effective capacity.
     -   `Usable area size (sq. ft.)`: Total usable area of the floor or the selected spaces. This KPI is displayed only if you have installed Workplace Space Management.
     -   `Gross area total (sq. ft.)`: Total gross area of the floor or the selected spaces. This KPI is displayed only if you have installed Workplace Space Management.
-    If you have installed Workplace Space Management, space admins can configure custom KPIs to be displayed on the details panel. For more information about configuring KPIs, see [Create a KPI Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/create-kpi-configuration.md). For the KPIs that Workplace Space Management installs by default, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/default-kpis-installed-with-workplace-space-mgmt.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/default-kpis-installed-with-workplace-space-mgmt.md).
+    If you have installed Workplace Space Management, space admins can configure custom KPIs to be displayed on the details panel. For more information about configuring KPIs, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/create-kpi-configuration.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/create-kpi-configuration.md). For the KPIs that Workplace Space Management installs by default, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/default-kpis-installed-with-workplace-space-mgmt.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/default-kpis-installed-with-workplace-space-mgmt.md).
 
 5.  Select a **View by** option to group spaces on the map.
 
@@ -73,15 +73,15 @@ Role required: sn\_wsd\_core.workplace\_manager or sn\_wsd\_spcmgmt.space\_plann
 
 6.  Perform any of the following actions based on your requirement.
 
-<table id="choicetable_y3x_khj_3vb"><thead><tr><th align="left" id="d503091e285">
+<table id="choicetable_y3x_khj_3vb"><thead><tr><th align="left" id="d503172e282">
 
 Action
 
-</th><th align="left" id="d503091e288">
+</th><th align="left" id="d503172e285">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d503091e294">
+</th></tr></thead><tbody><tr><td id="d503172e291">
 
 **Zoom in or out on the map**
 
@@ -89,7 +89,7 @@ Steps
 
 Use the zoom options \[Omitted image "zoom-options.png"\] Alt text: on the map.
 
-</td></tr><tr><td id="d503091e308">
+</td></tr><tr><td id="d503172e305">
 
 **Change the map to a different floor and building**
 
@@ -97,7 +97,7 @@ Use the zoom options \[Omitted image "zoom-options.png"\] Alt text: on the map.
 
 Select a building and floor from the **Building** and **Floor** list options.
 
-</td></tr><tr><td id="d503091e323">
+</td></tr><tr><td id="d503172e320">
 
 **Search for a user or space**
 
@@ -116,7 +116,7 @@ For more information, see either of the following topics:
     -   [Edit space allocations on the floor plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/edit-space-allocations-floor-plan.md)
 
 
-</td></tr><tr><td id="d503091e366">
+</td></tr><tr><td id="d503172e363">
 
 **Select spaces**
 
@@ -135,7 +135,7 @@ For example, `Department is Finance`. For more information about conditions, see
 
  The details panel displays information about the selected spaces and their assigned users.
 
-</td></tr><tr><td id="d503091e412">
+</td></tr><tr><td id="d503172e409">
 
 **Select a neighborhood**
 
@@ -152,7 +152,7 @@ All spaces on the floor that are allocated to the neighborhood are selected.
 
  Alternatively, for a single neighborhood, you can select the neighborhood from the legend.
 
-</td></tr><tr><td id="d503091e449">
+</td></tr><tr><td id="d503172e446">
 
 **Select Users**
 
@@ -169,7 +169,7 @@ For example, `Workplace profile is Active`. For more information about condition
 3.  Select the users from the list.
  The details panel displays information about the selected users and their assigned spaces.
 
-</td></tr><tr><td id="d503091e487">
+</td></tr><tr><td id="d503172e484">
 
 **Print the map**
 
@@ -182,7 +182,7 @@ For more information about map printing and its options, see [Print a map](https
 
  To print a map, you need the `sn_map_core.map_printer` role.
 
-</td></tr><tr><td id="d503091e520">
+</td></tr><tr><td id="d503172e517">
 
 **Edit space details**
 
@@ -193,7 +193,7 @@ For more information about map printing and its options, see [Print a map](https
 3.  On the Spaces list, edit the details based on your requirement.
 
 
-</td></tr><tr><td id="d503091e544">
+</td></tr><tr><td id="d503172e541">
 
 **Review move information for a space**
 
@@ -209,7 +209,7 @@ For more information about map printing and its options, see [Print a map](https
 4.  On the user card, select the link icon to view the details of the move case.
 
 
-</td></tr><tr><td id="d503091e588">
+</td></tr><tr><td id="d503172e585">
 
 **Display user assignments on the map**
 
@@ -226,7 +226,7 @@ This option is switched on by default.
 4.  Select **Apply**.
 
 
-</td></tr><tr><td id="d503091e639">
+</td></tr><tr><td id="d503172e636">
 
 **View the map as defined in the Map Studio**
 

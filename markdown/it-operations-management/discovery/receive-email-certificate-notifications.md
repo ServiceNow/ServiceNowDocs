@@ -18,7 +18,9 @@ Configure certificate notifications to be delivered via email to relevant recipi
 
 ## Before you begin
 
-Role required: Certificate administrator \(glide.discovery.certs.cert\_admin\_user\_id\) or PKI Admin \(pki\_admin\).
+The **glide.discovery.certs.cert\_admin\_user\_id** property must be set to the user\_name of the certificate administrator user.
+
+Role required: pki\_admin or admin
 
 ## About this task
 

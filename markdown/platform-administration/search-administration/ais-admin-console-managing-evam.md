@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Customizing the result-card interface of an AI Search application by using EVAM

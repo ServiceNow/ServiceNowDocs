@@ -13,7 +13,7 @@ breadcrumb: [Use Scripting Governance Tool, Scripting Governance Tool, Access Ma
 
 # Remove users from the Conditional Script Writer group
 
-Use the Manage scripting access to manually add or remove users from the **Conditional Script Writer** group to control who has scripting access.
+Use the **Manage scripting access** to manually add or remove users from the **Conditional Script Writer** group to control who has scripting access.
 
 ## Before you begin
 
@@ -21,8 +21,8 @@ Role required: security\_admin
 
 **Important:**
 
--   You must have elevate your role `security_admin`. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
--   Until auto-assignment is turned off, a background job continues adding existing and new users to the **Conditional Script Writer** group, which assigns the `snc_required_script_writer_permission` role. It is recommended that you deactivate auto-assignment and manage the removal process to confirm only users with a legitimate scripting need remain in the group.
+-   You must elevate your role to `security_admin`. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+-   Until auto-assignment is turned off, a background job continues adding existing and new users to the **Conditional Script Writer** group, which assigns the `snc_required_script_writer_permission` role. Turn off auto-assignment and manage the removal process to confirm only users with a legitimate scripting need remain in the group.
 
 ## Procedure
 
@@ -38,33 +38,33 @@ Role required: security\_admin
 
 4.  Select **Next**.
 
-    The Manage users in the conditional script writer group page opens with the **Keep list** card displays the number of users retained, and the **Keep in the conditional script writer group** table lists the users you selected.
+    The Manage users in the conditional script writer group page opens. The **Keep list** card displays the number of users retained, and the **Keep in the conditional script writer group** table lists the users you selected.
 
 5.  Review the keep list to confirm it is correct, then select **Schedule removal**.
 
     \[Omitted image "sgt-schedule-removal.png"\] Alt text: Schedule removal
 
-    The **Schedule removal** dialog opens and displays a summary of the pending changes:
+    The **Schedule removal** dialog opens and displays a summary of the pending changes.
 
 6.  Select when the removal job should run in the **Start processing** field:
 
     The following options are available:
 
-    -   Immediately — runs the removal job as soon as you confirm.
-    -   In 1 hour
-    -   In 2 hours
-    -   In 3 hours
-    -   In 5 hours
-    -   In 8 hours
-    -   In 13 hours
+    -   **Immediately** — runs the removal job as soon as you confirm.
+    -   **In 1 hour**
+    -   **In 2 hours**
+    -   **In 3 hours**
+    -   **In 5 hours**
+    -   **In 8 hours**
+    -   **In 13 hours**
 7.  Select **Confirm** to schedule the removal.
 
-    A banner confirms that the `Conditional script writer group member removal job is running or scheduled`. The removal job removes all users not on the keep list from the **Conditional Script Writer** group and disables auto-assignment.
+    A banner confirms that the `Conditional script writer group member removal job is running or scheduled`. The removal job removes all users not on the keep list from the **Conditional Script Writer** group and turns off auto-assignment.
 
 
 ## Result
 
-Users not included in the keep list are removed from the **Conditional Script Writer** group at the scheduled time and lose the `snc_required_script_writer_permission` role. Removal does not affect any other permissions those users hold on the instance. Auto-assignment is also disabled, preventing the background job from re-adding users to the group automatically.
+Users not included in the keep list are removed from the **Conditional Script Writer** group at the scheduled time and lose the `snc_required_script_writer_permission` role. Removal does not affect any other permissions those users hold on the instance. Auto-assignment is also turned off, which helps prevent the background job from re-adding users to the group automatically.
 
 ## What to do next
 

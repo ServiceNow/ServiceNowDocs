@@ -1,6 +1,6 @@
 ---
 title: Configure preferences for security event notification policies
-description: Discover how to customize security event notification policies in Security Center to align with your organization's specific needs.
+description: Customize security event notification policies in Security Center to align with your organization's specific needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/configure-preferences-for-security-event-notifications.html
 release: brazil
@@ -8,13 +8,13 @@ product: Security Center
 classification: security-center
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Security Event Notifications, Security monitoring console, Security Center, Platform Security]
 ---
 
 # Configure preferences for security event notification policies
 
-Discover how to customize security event notification policies in Security Center to align with your organization's specific needs.
+Customize security event notification policies in Security Center to align with your organization's specific needs.
 
 ## Before you begin
 
@@ -50,7 +50,7 @@ What to configure
 
 </td><td>
 
-**Trigger**: The event that starts the policy.
+**Trigger**: the event that starts the policy.
 
 </td></tr><tr><td>
 
@@ -61,9 +61,9 @@ What to configure
 The conditional logic and conditions to apply to your policies.
 
  -   **Condition logic**: two options
-    -   **All conditions must be met to trigger this policy**: all conditions need to be valid for the policy to send notifications.
-    -   **Any of the conditions must be met to trigger this policy**: notifications will be sent if any one of the conditions is valid.
--   **Add Condition**: Select Add Condition and provide the appropriate values for it.
+    -   **All conditions must be met to trigger this policy**: All conditions need to be valid for the policy to send notifications.
+    -   **Any of the conditions must be met to trigger this policy**: Notifications are sent if any one of the conditions is valid.
+-   **Add Condition**: Select **Add Condition** and provide the appropriate values for it.
  You can remove a condition by selecting **Remove condition**.
 
 </td></tr><tr><td>
@@ -72,20 +72,20 @@ The conditional logic and conditions to apply to your policies.
 
 </td><td>
 
-The email body and email recipients:-   **Notification**: Select one of the predefined notification templates. See [Create a custom email for security event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/create-custom-email-for-security-event-notifications.md) for more information.
--   **Add Notification**: Select Add Notification.
+The email body and email recipients:-   **Notification**: Select one of the predefined notification templates. To create a custom notification template, see [Create a custom email for security event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/create-custom-email-for-security-event-notifications.md).
+-   **Add Notification**: Select **Add Notification**.
 -   **Groups**: Select the group who should receive the notification.
 -   **Users**: Select the users who should receive the notification.
 You can remove a notification by selecting **Remove notification**.
 
 </td></tr></tbody>
-</table>    **Note:** If you want to make a policy inactive, select **Deactivate**. If you want to replicate a policy, select the down arrow next to the **Update** \(\[Omitted image "update-ui-image.png"\] Alt text: Update button.\) button.
+</table>    **Note:** To make a policy inactive, select **Deactivate**. To replicate a policy, select the down arrow next to the **Update** \[Omitted image "update-ui-image.png"\] Alt text: button.
 
 5.  Select **Update** to save your settings.
 
 
 -   **[Create a custom email for security event notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/create-custom-email-for-security-event-notifications.md)**  
-Learn how for creating a custom email for security event notifications by configuring new notifications, setting triggers, defining recipients, and crafting email content with dynamic event fields.
+Create a custom email for security event notifications by configuring new notifications, setting triggers, defining recipients, and crafting email content with dynamic event fields.
 
 **Parent Topic:**[Security Event Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-policies.md)
 

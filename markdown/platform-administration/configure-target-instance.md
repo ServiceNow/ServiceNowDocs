@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [register instance, clone target, OAuth setup, basic authentication]
-breadcrumb: [Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Instance Clone, Configure core features, ServiceNow AI Platform]
 ---
 
 # Register an instance for cloning

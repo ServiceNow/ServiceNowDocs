@@ -45,7 +45,7 @@ Care Team Mobile requires Healthcare Operations Core and can be used with the fo
 
 1.  An administrator installs Care Team Mobile on the care team's mobile devices alongside all relevant Care Team Operations applications.
 2.  A nurse notices that a room needs a linen change and creates a request for the Environmental Services department using Care Team Mobile with the Care Team for Environmental Services plugin installed.
-3.  A support agent from the Environmental Services department receives the request and proceeds to change the linens in the room. The support agent then marks the request as Complete using FSM Mobile or CSM/FSM Configurable Workspace.
+3.  A support agent from the Environmental Services department receives the request and proceeds to change the linens in the room. The support agent then marks the request as Complete using FSM Mobile or CRM Workspace.
 4.  The nurse who created the request receives an alert that the linen change request was fulfilled and then accepts the solution.
 
 ## Care Team Mobile benefits

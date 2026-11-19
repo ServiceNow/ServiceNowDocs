@@ -22,11 +22,11 @@ Role required: admin
 
 ## About this task
 
-Using an extension point, you can call the custom scripts to extend the functionality of the **Upcoming** section and also easily integrate customizations without having to alter the base code. For information about extension points, see [Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md).
+Using an extension point, you can call the custom scripts to extend the functionality of the **Upcoming** section and integrate customizations without having to alter the base code. For information about extension points, see [Creating and adding a scripted extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/impl-scripted-ext-pts-base-code.md).
 
 |Extension point|Description|
 |---------------|-----------|
-|sn\_sow.UpcomingLinkProvider|Gets a list of upcoming task records \(changes, incident, requests, and overdue tasks\) for the same day and the next day.|
+|sn\_sow.UpcomingLinkProvider|Gets a list of upcoming task records \(changes, incidents, requests, and overdue tasks\) for the same day and the next day.|
 
 ## Procedure
 
@@ -36,7 +36,7 @@ Using an extension point, you can call the custom scripts to extend the function
 
 3.  Create an implementation using the **Create Implementation** related link or edit an implementation from the Implementations related list.
 
-    Following is an example of how to add a new announcement type for change tasks.
+    The following example shows how to add a new announcement type for change tasks.
 
     -   Name: MyCustomUpcomingLinkProvider\_ChangeTask
     -   Script:
@@ -173,7 +173,7 @@ Using an extension point, you can call the custom scripts to extend the function
 
 4.  Select **Update** and save the script include record.
 
-5.  Create a task to verify if it is displayed as an upcoming task.
+5.  Create a task to verify whether it is displayed as an upcoming task.
 
     For example, create a change task.
 

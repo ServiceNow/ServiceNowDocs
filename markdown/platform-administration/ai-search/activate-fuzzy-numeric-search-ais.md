@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Activate fuzzy numeric search in AI Search
@@ -46,7 +46,7 @@ Fuzzy numeric search includes an indexing component which is activated by defaul
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `sys_properties.list`.
+    2.  In the navigation filter, enter `sys_properties.list`.
 
     3.  Press Enter.
 

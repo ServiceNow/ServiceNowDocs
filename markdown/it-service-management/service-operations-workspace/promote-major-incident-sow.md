@@ -18,7 +18,7 @@ Review the information of the proposed major incident candidate and promote it t
 
 ## Before you begin
 
-You must propose the incident as a major incident candidate. For more information, see [Propose a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/propose-major-incident-sow.md).
+The incident must be proposed as a major incident candidate. For more information, see [Propose a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/propose-major-incident-sow.md).
 
 Role required: major\_incident\_manager or admin
 
@@ -40,7 +40,7 @@ Role required: major\_incident\_manager or admin
 
 6.  Select **Promote** to promote the major incident candidate to a major incident.
 
-    If you want to reject the major incident proposal, you can select **Reject**. This action would convert the major incident candidate back into an incident.
+    To reject the major incident proposal, select **Reject**. This action converts the major incident candidate back into an incident.
 
 7.  On the Promote to Major Incident pop-up window, fill in the details.
 

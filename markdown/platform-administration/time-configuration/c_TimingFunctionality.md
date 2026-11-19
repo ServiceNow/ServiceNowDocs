@@ -9,7 +9,7 @@ classification: time-configuration
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Timing functionality

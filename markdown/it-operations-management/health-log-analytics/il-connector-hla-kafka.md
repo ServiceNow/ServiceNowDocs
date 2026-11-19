@@ -66,21 +66,17 @@ Set up an integration from the Integrations Launchpad in Service Operations Work
 
 5.  Select the Kafka integration tile.
 
-    **Note:** If you start an integration setup before meeting all prerequisites, a message appears. You can cancel the setup and complete the prior requirements first. Alternatively, you can continue in draft mode and complete the requirements later. Note that you can't activate the integration until you have completed all the prerequisites.
+    **Note:** If you start an integration setup before meeting all prerequisites, a message appears. You can cancel the setup and complete the prior requirements first. Alternatively, you can continue in draft mode and complete the requirements later.
 
 6.  On the **Provide details** form, fill in the fields.
 
-    For a description of the fields, see the **Provide details** table in [Apache Kafka integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/il-connector-hla-kafka-fields.md).
+    For a description of all the configuration fields for this integration, see [Apache Kafka integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/il-connector-hla-kafka-fields.md).
 
 7.  Select **Next**.
 
 8.  On the **Set data retrieval method** form, fill in the fields.
 
-    For a description of the fields, see the **Set data retrieval method** table in [Apache Kafka integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/il-connector-hla-kafka-fields.md).
-
 9.  Select **Advanced settings** and fill in the advanced configuration fields.
-
-    For a description of the fields, see the **Advanced settings** table in [Apache Kafka integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/il-connector-hla-kafka-fields.md).
 
 10. Do one of the following.
 

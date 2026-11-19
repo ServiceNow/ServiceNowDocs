@@ -74,7 +74,7 @@ The technologies and lifecycle values are updated in the TPM Discovered Technolo
 **Related topics**  
 
 
-[Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/update-tpm-data.md)
+[Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/update-tpm-data.md)
 
 [Restart the Populate TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
 
@@ -86,7 +86,7 @@ The technologies and lifecycle values are updated in the TPM Discovered Technolo
 
 [View technology portfolio audit risk details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-audit-risk-details.md)
 
-[Update verification status of TPM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-update-verif-status.md)
+[Update verification status of TLM audit details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-update-verif-status.md)
 
-[View TPM logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-tpm-logs.md)
+[View Technology Lifecycle Management logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-view-tpm-logs.md)
 

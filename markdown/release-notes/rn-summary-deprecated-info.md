@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-deprecated-info.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-04"
-reading_time_minutes: 26
+last_updated: "2026-11-19"
+reading_time_minutes: 27
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -73,55 +73,6 @@ Use a single savings profile formula when configuring custom data sets for autom
 -   **[Daily recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-set-up-data-source.md)**
 
 The daily recommendation is no longer visible. Only three default configurations are available for custom data sets.
-
-
-</td></tr><tr><td>
-
-AI Control Tower
-
-</td><td>
-
--   **[V1 AI asset onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-playbooks-reference.md)**
-
-Starting with the Brazil Early Availability release, the V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or have customized the V1 playbook can continue to use it or migrate to the V2 playbook.
-
-For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
--   **[Prompt injection settings removed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
-
-In Settings, under ServiceNow AI systems, the max skill calls and sample rate settings are removed from prompt injection. Instead, adjust these settings in [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-guardian-analytics.md).
-
-
--   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)**
-
-Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
-
--   **[Traceloop Warehouse HTTPS connection removed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md)**
-
-The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
-
--   **[Data integrity incident detection categories removed from external AI setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
-
-All categories are removed. For example, Guardrail Circumvention Attempt and Untrusted Links and Downloads are unavailable in the external AI setting.
-
-
--   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)**
-
-Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
-
--   **[Veza API key authentication deprecated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference-system-properties.md)**
-
-The Veza connector now authenticates using OAuth 2.0 instead of an API key. The sn\_ai\_security.veza.api.key system property is deprecated.
-
--   **[Findings by severity metric removed from Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
-
-The **Findings by severity** metric is removed from the Security Design-time tab, AI security posture subtab.
-
--   **[V1 AI asset onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-playbooks-reference.md)**
-
-The V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or customized the V1 playbook can continue to use it or migrate to the V2 playbook.
-
-For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 
 </td></tr><tr><td>
@@ -388,6 +339,15 @@ Starting with the Brazil release, User Registration Request plugin \(com.snc.use
 Impact
 
 </td><td>
+
+-   **Accelerators retired in this release**
+
+LSD Maturity Assessment, Jumpstart Your Success Dashboard, TuneUp Your Virtual Agent-Assessment, TuneUp Your Virtual Agent-NLU, TuneUp Your Virtual Agent-Performance Monitoring
+
+-   **Role removed from entitlements**
+
+The role Customer Success Manager\(CSM\) has been removed from the entitlements for Guided and Total customers.
+
 
 -   **Accelerators retirement**
 
@@ -661,6 +621,17 @@ Starting with the September 2026 release, Gemma 4 joins our growing portfolio of
 
 </td></tr><tr><td>
 
+ServiceNow Otto for Software Asset Management \(SAM\)
+
+</td><td>
+
+-   **Now LLM Service**
+
+Starting with the October 2026 release, Gemma 4 26B A4B IT and Gemini 3.5 flash models joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
 ServiceNow Otto for Virtual Agent
 
 </td><td>
@@ -756,6 +727,55 @@ Strategic Spend Tracking for PPM
 -   **[Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/ppm-strategic-spend-tracking-overview.md)**
 
 Starting with the Brazil release, Strategic Spend Tracking for PPM is being prepared for future deprecation and it will be hidden. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+Super Intelligence Control Tower
+
+</td><td>
+
+-   **[V1 AI asset onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-playbooks-reference.md)**
+
+Starting with the Brazil Early Availability release, the V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or have customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+-   **[Prompt injection settings removed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+Adjust max skill calls and sample rate settings in [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-guardian-analytics.md). The max skill calls and sample rate settings are removed from prompt injection under **ServiceNow AI systems** in Settings.
+
+
+-   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **[Traceloop Warehouse HTTPS connection removed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md)**
+
+The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
+
+-   **[Data integrity incident detection categories removed from external AI setting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+All categories are removed. For example, Guardrail Circumvention Attempt and Untrusted Links and Downloads are unavailable in the external AI setting.
+
+
+-   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **[Veza API key authentication deprecated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference-system-properties.md)**
+
+The Veza connector now authenticates using OAuth 2.0 instead of an API key. The sn\_ai\_security.veza.api.key system property is deprecated.
+
+-   **[Findings by severity metric removed from Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
+
+The **Findings by severity** metric is removed from the Security Design-time tab, AI security posture subtab.
+
+-   **[V1 AI asset onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-playbooks-reference.md)**
+
+The V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 
 </td></tr><tr><td>

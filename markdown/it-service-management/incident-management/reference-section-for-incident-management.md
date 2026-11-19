@@ -30,7 +30,7 @@ Many of the Incident Management plugins are activated in the base system. You ca
 Help prevent unauthorized access to incident-related tables using Deny-Unless access control lists \(ACLs\). A Deny-Unless authentication ACL restricts access for a non-authenticated user.
 -   **[Incident Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/inci-mgmt-integrations.md)**  
 Incident Management integrations connect your incident response process with other tools so you can automate incident handling and address specific challenges directly.
--   **[Incident Management glossary]()**  
+-   **[Incident Management glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/glossary-landing-im.md)**  
 Definitions of the terms and concepts used in Incident Management, grouped alphabetically.
 
 **Parent Topic:**[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/c_IncidentManagement.md)

@@ -8,7 +8,7 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Collect employee input, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 

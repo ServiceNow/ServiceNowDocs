@@ -24,7 +24,7 @@ Role required: sn\_retail.support\_agent
 
 ## Procedure
 
-1.  In **CSM/FSM Configurable Workspace**, navigate to **Retail Cases**.
+1.  In **CRM Workspace**, navigate to **Retail Cases**.
 
 2.  Select **New**.
 

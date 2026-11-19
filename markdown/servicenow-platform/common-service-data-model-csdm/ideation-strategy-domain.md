@@ -9,7 +9,7 @@ classification: common-service-data-model-csdm
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CSDM data domains, Explore, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CSDM data domains, Explore, Common Service Data Model \(CSDM\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Ideation &amp; Strategy domain in the CSDM model

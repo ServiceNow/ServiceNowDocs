@@ -1,6 +1,6 @@
 ---
 title: Create policy inputs
-description: Policy inputs are variable sources that you can use while evaluating a decision to determine the approval action. You can create multiple policy inputs to evaluate the decision created, and also access the change request table and any table change request references.
+description: Create multiple policy inputs to evaluate the decision created, and also access the change request table and any table change request references. Policy inputs are variable sources that you can use while evaluating a decision to determine the approval action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-policy-input.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Create change approval policies, Creating change approval policies,
 
 # Create policy inputs
 
-Policy inputs are variable sources that you can use while evaluating a decision to determine the approval action. You can create multiple policy inputs to evaluate the decision created, and also access the change request table and any table change request references.
+Create multiple policy inputs to evaluate the decision created, and also access the change request table and any table change request references. Policy inputs are variable sources that you can use while evaluating a decision to determine the approval action.
 
 ## Before you begin
 

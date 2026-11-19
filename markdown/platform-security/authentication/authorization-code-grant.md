@@ -27,7 +27,7 @@ In this flow, ServiceNow functions as both the authorization server \(handling u
     The user initiates the login process from the client application, which redirects them to a ServiceNow login page. After the user logs in and grants consent, the client application receives an authorization code, which it exchanges with the ServiceNow instance for an access token. This is the highly secure and widely used flow for user-facing integrations. It supports both confidential clients \(with a client secret\) and public clients \(using PKCE\).
 
 
-**Note:** To use your own identity provider \(such as Azure AD or Okta\) as the authorization server, consider using the  flow.
+**Note:** To use your own identity provider \(such as Azure AD or Okta\) as the authorization server, consider using the [Third party token grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/third-party-id-token.md) flow.
 
 **Related topics**  
 

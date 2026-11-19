@@ -24,15 +24,15 @@ Role required: sn\_cm\_core.contract\_reviewer
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d78000e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d78058e57">
 
 Method
 
-</th><th align="left" id="d78000e58">
+</th><th align="left" id="d78058e60">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d78000e64">
+</th></tr></thead><tbody><tr><td id="d78058e66">
 
 **Contract Workspace Review tasks listing**
 
@@ -45,7 +45,7 @@ Steps
 5.  Open the review task from the list
 
 
-</td></tr><tr><td id="d78000e114">
+</td></tr><tr><td id="d78058e116">
 
 **Contract Workspace landing page**
 
@@ -56,7 +56,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d78000e147">
+</td></tr><tr><td id="d78058e149">
 
 **Workspace used by your application**
 
@@ -67,7 +67,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d78000e168">
+</td></tr><tr><td id="d78058e170">
 
 **Contract Request Reviews tab**
 
@@ -104,15 +104,15 @@ Steps
 
     The reviewer edits the document, suggest changes through comments, and approve or reject any redlines.
 
-<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d78000e294">
+<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d78058e296">
 
 Type of storage
 
-</th><th align="left" id="d78000e297">
+</th><th align="left" id="d78058e299">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d78000e303">
+</th></tr></thead><tbody><tr><td id="d78058e305">
 
 **Internal storage**
 
@@ -128,7 +128,7 @@ Steps
 5.  Select **Submit**.
 
 
-</td></tr><tr><td id="d78000e347">
+</td></tr><tr><td id="d78058e349">
 
 **External storage**
 

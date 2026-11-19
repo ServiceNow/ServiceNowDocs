@@ -39,3 +39,5 @@ Role required: wm\_agent
 
 The configuration to generate signed PDF summaries at the work order task level is enabled. For more information, see [Close a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/work-order-management/close-wo-wot-mobile.md).
 
+**Note:** Enable **Signature Capture** and **PDF Order Summary** together. If you turn on **PDF Order Summary** and leave **Signature Capture** off, the system doesn't generate a PDF summary.
+

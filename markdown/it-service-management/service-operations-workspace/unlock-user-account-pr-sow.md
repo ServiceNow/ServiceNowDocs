@@ -1,6 +1,6 @@
 ---
 title: Unlock the user account
-description: You can unlock a blocked user to enable them to log in to their system.
+description: Unlock a locked user account so that the user can log in to their system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/unlock-user-account-pr-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Reset password, Managing IT services in your organization, Service 
 
 # Unlock the user account
 
-You can unlock a blocked user to enable them to log in to their system.
+Unlock a locked user account so that the user can log in to their system.
 
 ## About this task
 
@@ -32,8 +32,8 @@ Role required: password\_reset\_admin or password\_reset\_service\_desk
 
 3.  Do one of the following:
 
-    -   Navigate to list of incidents, and select an incident record.
-    -   Navigate to list of interactions, and select an interaction record.
+    -   Navigate to the list of incidents, and select an incident record.
+    -   Navigate to the list of interactions, and select an interaction record.
 4.  Select the **More actions** icon, and then select **Reset password**.
 
     **Note:**
@@ -46,7 +46,7 @@ Role required: password\_reset\_admin or password\_reset\_service\_desk
 
     2.  Select the password reset process for the user.
 
-        **Note:** You can only reset the password using a specified process for three times in a 24-hour time interval.
+        **Note:** You can reset the password up to three times in a 24-hour period by using a specified process.
 
     3.  Select **Continue to verify**.
 
@@ -66,7 +66,7 @@ Email verification
 
 </td><td>
 
-A verification code is sent to the registered email address displayed. Select Send verification code and enter the code in the code in Enter verification code field.
+A verification code is sent to the registered email address displayed. Select **Send verification code** and enter the code in the **Enter verification code** field.
 
  **Note:** You have only three attempts to perform an email verification.
 
@@ -76,7 +76,7 @@ SMS verification
 
 </td><td>
 
-A verification code is sent to the registered mobile numbers. The same verification code is sent to all the registered mobile numbers of the user. Select **Send verification code** and enter the code in the code in **Enter verification code field**.
+A verification code is sent to the registered mobile numbers. The same verification code is sent to all the registered mobile numbers of the user. Select **Send verification code** and enter the code in the **Enter verification code** field.
 
  **Note:**
 
@@ -98,7 +98,7 @@ Personal data verification
 
 </td><td>
 
-Enter the email address of the user in the Enter user’s email address field.
+Enter the email address of the user in the **Enter user’s email address** field.
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ The email address of the user is displayed. You must ask the email address of th
 </td></tr></tbody>
 </table>7.  Select **continue to reset**.
 
-8.  Select **Unlock account** option.
+8.  Select the **Unlock account** option.
 
 
 ## Result

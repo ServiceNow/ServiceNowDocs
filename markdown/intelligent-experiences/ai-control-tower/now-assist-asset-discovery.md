@@ -1,6 +1,6 @@
 ---
 title: Explore Now Assist AI asset discovery
-description: Explore the syncing process of AI assets including models, datasets, prompts, skills, and agentic AI components into the AI Asset Inventory of AI Control Tower.
+description: Explore the syncing process of AI assets including models, datasets, prompts, skills, and agentic AI components into the AI Asset Inventory of Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/now-assist-asset-discovery.html
 release: brazil
@@ -9,19 +9,19 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Explore Now Assist AI asset discovery
 
-Explore the syncing process of AI assets including models, datasets, prompts, skills, and agentic AI components into the AI Asset Inventory of AI Control Tower.
+Explore the syncing process of AI assets including models, datasets, prompts, skills, and agentic AI components into the AI Asset Inventory of Control Tower.
 
 The AI systems are synchronized from source Now Assist skill config record \(sn\_nowassist\_skill\_config\).
 
 1.  The out of the box skill meets the following conditions for an AI system:
     1.  If active, insert.
     2.  If not active, insert only if it belongs to the custom skill category and is published.
-2.  If the skill exists in AI Control Tower and the source Now Assist skill config record is updated, those changes are applied to the AI system record in AI Control Tower. The state for the AI system is mapped as follows based on source Now Assist skill config record state:
+2.  If the skill exists in Control Tower and the source Now Assist skill config record is updated, those changes are applied to the AI system record in Control Tower. The state for the AI system is mapped as follows based on source Now Assist skill config record state:
 
     1.  Active: Mark as Deployed
     2.  Published or Draft: Mark as In Development

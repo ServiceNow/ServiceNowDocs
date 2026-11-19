@@ -55,18 +55,18 @@ You can also block a location directly. Open the location and select the **Block
 
 The workplace location is blocked for the specified period. You can’t make any reservations for the location on the Workplace Reservation Management Reservation portal during this period. All existing reservations that are made on the workplace location are canceled.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 
 
 [Import your workspaces data from an Excel spreadsheet]()
 
-[Add a space type configuration]()
+[]()
 
 [Configure a workplace card]()
 
-[Configure Workplace entity and entity types]()
+[Configure Workplace entities and entity types]()
 
 [Managing Neighborhoods]()
 

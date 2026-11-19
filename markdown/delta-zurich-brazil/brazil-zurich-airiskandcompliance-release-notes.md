@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-airiskandcompliance-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 19
 breadcrumb: [Products combined by family]
 ---
@@ -58,7 +58,7 @@ Brazil
 
 If you're upgrading from an earlier release, upgrade sequentially through each release. Upgrade scripts depend on running in order, and skipping releases can cause data inconsistencies or broken functionality.
 
-**Warning:** If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Installation and upgrade considerations](https://www.servicenow.com/docs/access?context=aict-ea-common-upgrade-considerations&family=brazil&ft:locale=en-US) and [Configure](https://www.servicenow.com/docs/access?context=configuring-ai-risk-and-compliance&family=brazil&ft:locale=en-US).
+**Warning:** If AI Risk and Compliance, EA Workspace, and Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Installation and upgrade considerations](https://www.servicenow.com/docs/access?context=aict-ea-common-upgrade-considerations&family=brazil&ft:locale=en-US) and [Configure](https://www.servicenow.com/docs/access?context=configuring-ai-risk-and-compliance&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -100,7 +100,7 @@ Report AI cases or raise AI inquiries by sending an email to a dedicated email a
 
 -   **[360° AI asset view](https://www.servicenow.com/docs/access?context=visualization-of-ai-assest&family=zurich&ft:locale=en-US)**
 
-Use the 360° AI asset view in the AI Control Tower to explore the relationship between your AI assets and all its associated records in a distinctive visualization. This visualization provides valuable insights into how these objects interact and relate to each other within the AI asset. You can view related records such as, datasets, AI model, risks, controls, and assessments.
+Use the 360° AI asset view in the Control Tower to explore the relationship between your AI assets and all its associated records in a distinctive visualization. This visualization provides valuable insights into how these objects interact and relate to each other within the AI asset. You can view related records such as, datasets, AI model, risks, controls, and assessments.
 
 -   **[AI asset offboarding workflow](https://www.servicenow.com/docs/access?context=airc-offboarding-ai-assets&family=zurich&ft:locale=en-US)**
 
@@ -154,9 +154,9 @@ Use Continuous Controls Monitoring to automate control verification and gather r
 
 After upgrading to version 22.5.x, if you have the AI Asset Owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, you can access and act on risk and compliance life cycle tasks, such as impact assessments and control attestations, from the Activity Center in AI Control Tower. The Activity Center surfaces AI asset tasks, issues, policy exceptions, and AI cases for the asset owner. On the asset record page, all life cycle tasks specific to the assigned assets can be accessed and performed.
 
--   **[AI Risk and Compliance lifecycle tasks in AI Governance](https://www.servicenow.com/docs/access?context=risk-compliance-lifecycle-tasks-aict&family=australia&ft:locale=en-US)**
+-   **[AI Risk and Compliance lifecycle tasks in Control Tower](https://www.servicenow.com/docs/access?context=risk-compliance-lifecycle-tasks-aict&family=australia&ft:locale=en-US)**
 
-After upgrading to version 22.5.x, if you have the AI Steward \[sn\_ai\_governance.ai\_steward\] and AI Risk and Compliance Analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] roles, you can take and manage risk assessments directly from the playbook within the AI Control Tower workspace, without switching between workspaces.
+After upgrading to version 22.5.x, if you have the AI Steward \[sn\_ai\_governance.ai\_steward\] and AI Risk and Compliance Analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] roles, you can take and manage risk assessments directly from the playbook within the Control Tower workspace, without switching between workspaces.
 
 
  -   **[ServiceNow Otto for AI Risk and Compliance](https://www.servicenow.com/docs/access?context=airc-exploring-now-assist&family=australia&ft:locale=en-US)**
@@ -380,7 +380,7 @@ Zurich
 
 -   **Activation information**
 
-Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** AI Risk and Compliance is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -393,7 +393,7 @@ Australia
 
 -   **Activation information**
 
-Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** AI Risk and Compliance is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -406,7 +406,7 @@ Brazil
 
 -   **Activation information**
 
-Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Important:** Governance workstream activities, including impact assessments, risk assessments, control attestations, issues, policy exceptions, AI cases, and AI inquiries, aren't supported in the AI-native experience. This also applies to business configuration and administration activities, such as setting up risk assessment methodologies and assessment templates. Access and view the system of record through the workspace-based experience.
 

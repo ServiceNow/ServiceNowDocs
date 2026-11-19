@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [extension points scripted fortinet license]
-breadcrumb: [Configure Fortinet SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Fortinet SGC, Configure service graph connectors, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Customize scripted extension points

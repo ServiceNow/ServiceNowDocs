@@ -1,6 +1,6 @@
 ---
 title: Security Event Notifications
-description: View, manage, and analyze the default security event notification policies on your ServiceNow instance, as well as access the functionality to create custom policies.
+description: View, manage, and analyze the default security event notification policies on your ServiceNow instance, and access the functionality to create custom policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/security-policies.html
 release: brazil
@@ -14,19 +14,19 @@ breadcrumb: [Security monitoring console, Security Center, Platform Security]
 
 # Security Event Notifications
 
-View, manage, and analyze the default security event notification policies on your ServiceNow instance, as well as access the functionality to create custom policies.
+View, manage, and analyze the default security event notification policies on your ServiceNow instance, and access the functionality to create custom policies.
 
-Access Security Event Notifications from the Security Center homepage by opening the **Security Monitoring Console** in the **Security Consoles** section, then selecting the **Security Event Notifications** tab.
+Access Security Event Notifications from the Security Center home page by opening the **Security Monitoring Console** in the **Security Consoles** section, then selecting the **Security Event Notifications** tab.
 
 \[Omitted image "security-event-notifications-overview.png"\] Alt text: Security events notifications
 
 Customize and create notification policies that trigger email notifications when users perform actions in the ServiceNow AI Platform that might be insecure or require admin monitoring.
 
-Admins can customize the values for the default policies, clone, and edit default policies or create their own custom ones.
+Admins can customize the values for the default policies, copy, and edit default policies or create their own custom ones.
 
 ## Security policies
 
-The Security Event Notifications console displays important information regarding the security policies on your instance. This table includes columns displaying:
+The Security Event Notifications console displays important information regarding the security policies on your instance. The following table describes the columns.
 
 <table id="table_gfh_dbt_wbc"><thead><tr><th>
 
@@ -50,7 +50,7 @@ Status
 
 </td><td>
 
-The status of a policy can be either active or inactive.
+The status of the policy, either active or inactive.
 
 </td></tr><tr><td>
 
@@ -100,11 +100,11 @@ The rate of change for weekly triggers, calculated as a percentage.**Note:** For
 Select **Manage announcement settings** to control whether admins receive banner notifications on this instance. For information on these announcements, see [Security banner announcements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/scc-banner.md).
 
 -   **[Create custom security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/create-a-policy.md)**  
-Learn how to create custom security event notifications that are specific to your organization's needs. This enables you to monitor actions taken by users and groups on your instance and generate notifications for potential security risks.
+Create custom security event notifications that are specific to your organization's needs. This enables you to monitor actions taken by users and groups on your instance and generate notifications for potential security risks.
 -   **[Modify security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/modify-security-event-notification-policies.md)**  
-Learn how to modify the settings of your security event notification policies.
+Modify the settings of your security event notification policies.
 -   **[Configure preferences for security event notification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/configure-preferences-for-security-event-notifications.md)**  
-Discover how to customize security event notification policies in Security Center to align with your organization's specific needs.
+Customize security event notification policies in Security Center to align with your organization's specific needs.
 -   **[Security Event Notifications history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-event-notifications-history.md)**  
 Explore the complete history of security event notifications on your instance.
 

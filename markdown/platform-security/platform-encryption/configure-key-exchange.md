@@ -1,6 +1,6 @@
 ---
-title: Configure Key Exchange
-description: Key Management Framework \(KMF\) generates automatic key exchange requests for supported cryptographic modules during the fresh installation or upgrade of the instance, and manages the data encryption key locally for the instance.
+title: Configure key exchange
+description: Key Management Framework \(KMF\) generates automatic key exchange requests for supported cryptographic modules during installation or upgrade. It manages the data encryption key locally for the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/platform-encryption/configure-key-exchange.html
 release: brazil
@@ -8,13 +8,13 @@ product: Platform Encryption
 classification: platform-encryption
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Key Management Framework Resource Exchange, Key Management Framework, Encryption]
 ---
 
-# Configure Key Exchange
+# Configure key exchange
 
-Key Management Framework \(KMF\) generates automatic key exchange requests for supported cryptographic modules during the fresh installation or upgrade of the instance, and manages the data encryption key locally for the instance.
+Key Management Framework \(KMF\) generates automatic key exchange requests for supported cryptographic modules during installation or upgrade. It manages the data encryption key locally for the instance.
 
 ## Before you begin
 
@@ -31,13 +31,15 @@ Automatic Key Exchange is active by default when cloning an instance, where the 
 -   **Turn off automatic key exchange:** Set the **glide\_encryption.auto\_key\_exchange.enabled** property to **false** for recurring clone requests.
 -   **Send auto key exchange requests**: Set this property to **true**.
 
-**Important:** The base system property is set to **true** by default, meaning that automatic key exchange is activated when cloning an instance. This value must be set to **false** if you're using the [Rekey ciphertext with Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/rekey-keyexchange.md) or the recurring Key Exchange functionality. See [Recurring Key Exchange walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/key-exchange-walkthrough.md) for additional details.
+**Warning:** The base system property is set to **true** by default, meaning that automatic key exchange is activated when cloning an instance. Set this value to **false** if you're using the [Rekey ciphertext with Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/rekey-keyexchange.md) or the recurring Key Exchange functionality. See [Recurring Key Exchange walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/key-exchange-walkthrough.md) for additional details.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Key Management** &gt; **Resource Exchange Requests** &gt; **New**.
 
 2.  On the form, fill in the fields.
+
+    Ad hoc is the most common way to exchange keys. You request keys from a source instance as needed.
 
 <table id="table_inh_bsr_b4b"><thead><tr><th>
 
@@ -67,7 +69,7 @@ Exchange Frequency
 -   **Adhoc**: Enter the sys\_id for the source instance to request the keys from.
 -   **One Time Clone**, **Recurring Clone**: Enter the sys\_id for the target instance that sends the requests.
 
-**Tip:** Enter `stats.do` in the application navigator to locate the instance ID.
+Enter `stats.do` in the application navigator to locate the instance ID.
 
 </td></tr><tr><td>
 
@@ -75,7 +77,7 @@ Exchange Frequency
 
 </td><td>
 
-Enter the host location or name of the source or target instance.**Tip:** For example `instanceA.service-now.com`
+Enter the host location or name of the source or target instance. For example, `instanceA.service-now.com`.
 
 </td></tr><tr><td>
 
@@ -83,7 +85,7 @@ Crypto Specifications
 
 </td><td>
 
-The keys from the crypto specification in a crypto module define the keys to clone. For both one-time and recurring clone requests, your instance automatically creates a **Resource Exchange** module access policy. You don't need to configure a policy manually.**Note:** Select the lookup using list icon \(\[Omitted image "IconUI15GlobalTextSearch.png"\] Alt text: Lookup using list icon.\) to browse the available cryptographic specifications.
+The keys from the crypto specification in a crypto module define the keys to clone. Only crypto specifications with Enroll module for resource exchange selected appear in the list. Select this option on the crypto specification in both the source and target instances. For both one-time and recurring clone requests, your instance automatically creates a **Resource Exchange** module access policy. It's not required to configure a policy manually.**Note:** Select the lookup using list icon \(\[Omitted image "IconUI15GlobalTextSearch.png"\] Alt text: Lookup using list icon.\) to browse the available cryptographic specifications.
 
 </td></tr><tr><td>
 
@@ -117,7 +119,7 @@ Option to enable auto rekeying.
         3.  Change the **Status** field to **Request Approved**.
         4.  Select **Update Request**.
 
-            **Important:** Select **Update Request**, not the standard **Update** button. Using the standard Update button does not complete the approval.
+            **Warning:** Select **Update Request**, not the standard **Update** button. Using the standard Update button does not complete the approval.
 
         5.  Repeat for each remaining **Request Pending** entry.
         **Note:** Not all crypto specifications requested may exist in the source instance. Requests for specifications not found in the source instance do not require approval.

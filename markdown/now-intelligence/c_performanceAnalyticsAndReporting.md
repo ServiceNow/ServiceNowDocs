@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/now-intelligence/c\_performance
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 5
 ---
 
 # Platform Analytics
@@ -25,21 +25,13 @@ Select one of these tiles to learn more about these applications, which help pro
 
 [Now Assist in Platform Analytics \[Omitted image "bus-infographic.svg"\] Alt text: Ask questions about data in plain language and receive AI-powered responses, including Platform Analytics data visualizations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics.md)
 
-</td><td>
+</td></tr><tr><td>
 
 [Performance Analytics \[Omitted image "bus-actionable-analytics.svg"\] Alt text: Improve service delivery times and reduce costs using this set of business-analysis tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 
-</td></tr><tr><td>
+</td><td>
 
 [Usage Insights \[Omitted image "bus-3-person.svg"\] Alt text: Get a dashboard view of how your users work with multiple ServiceNow applications, with full visuals of metrics, interactions, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/user-exp-analytics-landing.md)
-
-</td><td>
-
-[Process Mining \[Omitted image "bus-optimize-manage.svg"\] Alt text: Analyze your data in automated process flows with this application and find ways to improve your enterprise’s workflow efficiency.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-mining.md)
-
-</td><td>
-
-[Task Mining\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Identify task inefficiencies in work tasks by collecting and processing workstation data to provide insights into activities and interactions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/task-mining.md)
 
 </td></tr></tbody>
 </table>## Platform Analytics experience
@@ -48,7 +40,7 @@ Explore the many options for showing data in [data visualizations](https://raw.g
 
 \[Omitted image "db-with-filters-for-lp.png"\] Alt text: Platform Analytics dashboard showing Incidents by category in a data visualization with a filter being selected.
 
-## Now Assist in Platform Analytics
+## ServiceNow Otto for Platform Analytics
 
 Leverage AI to generate insights into data. Ask for data visualizations in the ServiceNow Otto panel.Explore data on your own or with a collaborative group in AI Data Explorer, where you can have not only data visualizations but summaries and conversations.
 
@@ -65,18 +57,6 @@ Learn how to help your business constantly improve. Plan and implement key perfo
 Learn about dashboard-based analytics on the usage of several ServiceNow applications. Administrators can get information on user engagement with both mobile and web applications, including user population, retention, and behavior.
 
 \[Omitted image "uxa-overview.png"\] Alt text: Usage Insights dashboard.
-
-## Process Mining
-
-Discover ways to streamline your business, find bottlenecks and deviations in workflows, filter and compare processes, and more. A comprehensive listing of [Process Mining key terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/key-terms.md) provides all the notable terminology and their definitions, to assist you in getting the most effective performance from your enterprise.
-
-\[Omitted image "analyst-wb.png"\] Alt text: Process mining workbench
-
-## Analysis in Task Mining
-
-Learn how Task Mining helps process owners collect and analyze workstation activities to understand how tasks are performed, identify inefficiencies, and make data-driven decisions.
-
-\[Omitted image "task-mining-task-activity.png"\] Alt text: Task Mining analysis dashboard
 
 ## Reports and dashboards in the Core UI
 
@@ -96,8 +76,6 @@ Give administrators and other stakeholders the ability to work with real-time da
 -   [Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/designing-pa-solution.md)
 -   [Explore your indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/kpi-details.md)
 -   [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/usage-insights/user-exp-analytics-landing.md)
--   [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-mining.md)
--   [Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/task-mining.md)
 -   [Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/classic-vis-overview.md)
 -   [Identify workflow automation opportunities with Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/automation-discovery.md)
 

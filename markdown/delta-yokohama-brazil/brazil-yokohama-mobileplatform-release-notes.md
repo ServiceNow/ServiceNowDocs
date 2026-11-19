@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-mobileplatform-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 21
 breadcrumb: [Products combined by family]
 ---
@@ -242,7 +242,7 @@ Configure push notifications to be sent to users even when they’re logged out 
 
 Enable Voice Agent in SDK-based mobile applications by configuring the External Applications section within the Voice Assistant configuration. Admins with an SDK app configured on the instance can select and save a custom app to activate Voice Agent for that SDK application.
 
--   **Premium chat for mobile Virtual Agent [\[Placeholder link text to key using-premium-chat\]](https://www.servicenow.com/docs/access?context=using-premium-chat&family=australia&ft:locale=en-US)**
+-   **Premium chat for mobile Virtual Agent [using premium chat](https://www.servicenow.com/docs/access?context=using-premium-chat&family=australia&ft:locale=en-US)**
 
 Premium Chat opens a web-based chat experience within your mobile app, ensuring that every feature configured for the web is accessible on your mobile device.
 
@@ -439,7 +439,7 @@ Add custom in-product branding to Virtual Agent.
 
 Launch Virtual Agent directly from your standard search results to chat with the Virtual Agent about the selected search result.
 
--   **[\[Placeholder link text to key mobile-voice-agent\]](https://www.servicenow.com/docs/access?context=mobile-voice-agent&family=australia&ft:locale=en-US)Mobile Voice Agent background calling**
+-   **[mobile voice agent](https://www.servicenow.com/docs/access?context=mobile-voice-agent&family=australia&ft:locale=en-US)Mobile Voice Agent background calling**
 
 Continue a Voice Agent call after backgrounding the mobile app on iOS and Android. Mute, unmute, or end the call from the home screen or lock screen without returning to the app.
 
@@ -468,7 +468,7 @@ Render tables in Virtual Agent with markdown support to keep table sizing consis
 
 Configure the **impersonationEnabled** property to turn off mobile impersonation functionality. With this property, administrators can hide the impersonation option from the mobile app, regardless of assigned user roles.
 
--   **[\[Placeholder link text to key servicenow-lens-mobile\]](https://www.servicenow.com/docs/access?context=servicenow-lens-mobile&family=australia&ft:locale=en-US)**
+-   **[servicenow lens mobile](https://www.servicenow.com/docs/access?context=servicenow-lens-mobile&family=australia&ft:locale=en-US)**
 
 The following changes have been made:
 

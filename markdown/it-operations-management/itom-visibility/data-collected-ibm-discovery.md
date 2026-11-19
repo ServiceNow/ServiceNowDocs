@@ -8,7 +8,7 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 7
+reading_time_minutes: 8
 keywords: [Patterns]
 breadcrumb: [Cloud resource discovery references, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---

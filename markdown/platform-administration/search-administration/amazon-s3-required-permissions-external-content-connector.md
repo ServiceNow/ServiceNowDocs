@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-10-29"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Amazon S3 external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Amazon S3 external content connector, Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # AWS permissions required for Amazon S3 external content connector permission modes
@@ -41,7 +41,7 @@ All modes
 
 </td></tr><tr><td>
 
-Standard user permission crawl
+Standard user permissions crawl
 
 </td><td>
 
@@ -58,7 +58,7 @@ The permissions for all modes, plus the following permissions:-   `iam:GetGroup`
 
 </td></tr><tr><td>
 
-User permission crawl with a connector-created group of all retrieved users
+User permissions crawl with a connector-created group of all retrieved users
 
 </td><td>
 
@@ -66,14 +66,14 @@ The permissions for all modes, plus `iam:ListUsers`.
 
 </td></tr><tr><td>
 
-No user permission crawl with an existing group
+No user permissions crawl with an existing group
 
 </td><td>
 
 The permissions for all modes. This mode requires no IAM permissions.
 
 </td></tr></tbody>
-</table>**Important:** In the standard user permission crawl, if the connector can't list IAM users and roles, it can't resolve the principals in a bucket policy. In that case, the connector indexes no content from the affected buckets. If the connector can't read the policy for a bucket, for example because `s3:GetBucketPolicy` is denied, no user can see content items indexed from that bucket.
+</table>**Important:** In the standard user permissions crawl, if the connector can't list IAM users and roles, it can't resolve the principals in a bucket policy. In that case, the connector indexes no content from the affected buckets. If the connector can't read the policy for a bucket, for example because `s3:GetBucketPolicy` is denied, no user can see content items indexed from that bucket.
 
 **Parent Topic:**[Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/amazon-s3-external-content-connector.md)
 

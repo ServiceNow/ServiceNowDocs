@@ -162,7 +162,7 @@ Use reference qualifiers to specify the users and groups in the recipients field
 **Related topics**  
 
 
-[Create a dashboard with the in-line editor]()
+[Create a Platform Analytics dashboard with the inline editor]()
 
 [Create Core UI dashboards on upgraded instances]()
 

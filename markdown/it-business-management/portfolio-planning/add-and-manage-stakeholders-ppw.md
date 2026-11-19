@@ -42,15 +42,15 @@ To create, edit, or delete demand stakeholders, you can also use the **Add stake
 
 6.  Add a stakeholder, either from the stakeholder registry or as a new record.
 
-<table id="choicetable_xvt_lq4_skc"><thead><tr><th align="left" id="d295554e147">
+<table id="choicetable_xvt_lq4_skc"><thead><tr><th align="left" id="d297538e146">
 
 Goal
 
-</th><th align="left" id="d295554e150">
+</th><th align="left" id="d297538e149">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d295554e156">
+</th></tr></thead><tbody><tr><td id="d297538e155">
 
 **Add an existing stakeholder from registry**
 
@@ -64,14 +64,14 @@ For information about the stakeholder registry, see [Populate the stakeholder re
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d295554e195">
+</td></tr><tr><td id="d297538e194">
 
 **Add a stakeholder to the registry**
 
 </td><td>
 
 1.  Select **New**.
-2.  On the Demand Stakeholder form, fill in the fields.
+2.  Fill in the fields on the demand stakeholder form
 
 For a description of the field values, see [Demand stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-stakeholder-form-ppw.md).
 

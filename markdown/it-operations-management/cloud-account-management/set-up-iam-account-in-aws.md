@@ -183,3 +183,5 @@ AWSCreate an AWS CloudFormation Identity Access Manager \(IAM\) user in the mana
 
 [Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/configure-suspension-policy.md)
 
+**Parent Topic:**[Setting up AWS cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/setting-up-aws-cloud.md)
+

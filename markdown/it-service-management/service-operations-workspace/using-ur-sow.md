@@ -25,11 +25,11 @@ Cancel the Universal Request if the issue is resolved already or you no longer r
 -   **[Use Agent assist in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/agent-assist-ur-sow.md)**  
 Use the Agent assist in Service Operations Workspace to find similar universal requests that are open and closed, knowledge articles, catalog items, and pinned articles.
 -   **[Transfer a primary ticket in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/transfer-primary-task-ur-sow.md)**  
-You can transfer a primary ticket to Universal Request, service set \(department\), or service either with resolution or without resolution.
+Transfer a primary ticket to Universal Request, a service set \(department\), or a service, with or without resolution.
 -   **[Restrict or unrestrict universal request access in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/restrict-ur-sow.md)**  
 Mark a universal request as restricted or unrestricted when you identify that the request contains sensitive information.
 -   **[Mark the universal request as unrestricted in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/unrestrict-ur-sow.md)**  
-You can mark a restricted universal request as unrestricted if you identify that the request doesn't have any sensitive information.
+Mark a restricted universal request as unrestricted when it contains no sensitive information.
 -   **[Universal Request in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/components-installed-ur-sow.md)**  
 Universal Request is activated in Service Operations Workspace when you enable the Universal Request plugin \(com.snc.universal\_request\). This topic provides information about components installed with Universal Request in Service Operations Workspace.
 

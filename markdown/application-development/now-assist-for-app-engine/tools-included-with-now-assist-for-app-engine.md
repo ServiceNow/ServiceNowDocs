@@ -26,7 +26,7 @@ The following table highlights some of the ServiceNow AI Platform tools and appl
 |Tool|Description|Resources for additional information|
 |----|-----------|------------------------------------|
 |AI Agent Studio|Create flexible, adaptive AI agents for App Engine use cases.|[AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-studio.md)|
-|AI Control Tower|Govern AI assets.|[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md)|
+|Control Tower|Govern AI assets.|[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md)|
 |AI Skill Kit|Develop custom skills that can be used in App Engine applications.|[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)|
 |AI Data Kit|Build and maintain datasets to evaluate your custom skills.|[AI Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-kit-landing.md)|
 

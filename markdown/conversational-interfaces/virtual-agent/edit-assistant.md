@@ -7,7 +7,7 @@ release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-12"
 reading_time_minutes: 9
 breadcrumb: [Create a chat assistant, View assistants, Configure assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
 ---
@@ -102,6 +102,7 @@ When editing a chat assistant, actions may differ.
             -   The manually promoted assets can be reordered.
             -   When a promoted asset is deleted by selecting the trash can icon, the asset is demoted from the assistant. The asset still exists within the assistant.
             -   When you select **Add Assets** you can select an **Asset Type** from the drop-down menu and then select a specific existing asset. Select **Save** to promote the asset.
+            -   To set conditions that control when a promoted item is shown, select the **Promoted skills** link. The **Promoted skills** page opens.
             If an asset is promoted, and later it is set to inactive, the asset is not shown in the **Discoverable**, **Visible**, and **Promoted** lists.
 
 5.  From the **Settings** tab, select the page that needs editing.

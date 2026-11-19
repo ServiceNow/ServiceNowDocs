@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-thirdpartyriskmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 34
 breadcrumb: [Products combined by family]
 ---
@@ -500,6 +500,13 @@ After upgrading to version 23.0.7, the **Third party** field is auto-populated w
 After upgrading to version 23.0.7, the SAE default rating scale table is available from the Vendor Management Workspace navigation, under **Assessment Setup**. Previously, this table wasn't accessible from workspace navigation.
 
 
+ -   **[AI in Third-party Risk Management](https://www.servicenow.com/docs/access?context=exploring-now-assist-tprm&family=brazil&ft:locale=en-US) skills are turned off by default**
+
+After upgrading to version 23.0.0, the Third-party Risk Management issue summarization and issue recommendation skills are inactive by default. Previously, these skills were active after installation. To use either skill, an admin must activate it.
+
+Starting with the December 2026 release, many AI assets \(generative AI skills, AI agents, agentic workflows, and AI specialists\) will be OFF by default. If you're actively using AI assets, those will remain ON after the upgrade. To turn on generative AI skills use the [AI Admin Hub](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&family=brazil&ft:locale=en-US). To turn on AI agents, agentic workflows, or AI specialists, use [AI Agent Studio](https://www.servicenow.com/docs/access?context=aias-landing&family=brazil&ft:locale=en-US).
+
+
 </td></tr></tbody>
 </table>## Removed
 
@@ -608,7 +615,7 @@ Zurich
 
 -   **Activation information**
 
-Install Third-party Risk Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Third-party Risk Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Third-party Risk Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -621,7 +628,7 @@ Australia
 
 -   **Activation information**
 
-Install Third-party Risk Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Third-party Risk Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Note:** Third-party Risk Management is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -634,7 +641,7 @@ Brazil
 
 -   **Activation information**
 
-Install Third-party Risk Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+Install Third-party Risk Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Note:** Third-party Risk Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

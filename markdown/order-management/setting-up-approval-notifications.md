@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/setting-up-approval-notifications.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 5
 breadcrumb: [Create an approval configuration, Advanced Approval Management, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -51,7 +51,7 @@ The notification framework handles various approval scenarios in the approval pr
 
 -   **Approval Escalation**
 
-    If the escalation feature is enabled in your approval configuration, an Approval Escalation notification is sent to an approver when they do not act on an approval request within the scheduled timeframe. The notification indicates that the approver no longer needs to approve the final request. Escalation assignees also receive an escalation notification from which they can accept or reject the request.
+    An approval step is escalated when **Allow escalations** is selected in the approval configuration and **Auto escalate** is selected on the approval rule. The step's due date comes from the **Expected days to complete** and the **Escalation schedule** fields, and counts only business hours on that schedule. When the approval escalation SLA breaches, the escalation assignee receives a notification to approve or reject, and the original approvers are told their approval is no longer required. Escalation stops when the step is approved, rejected, or canceled.
 
 -   **Approval Request for Overrides**
 

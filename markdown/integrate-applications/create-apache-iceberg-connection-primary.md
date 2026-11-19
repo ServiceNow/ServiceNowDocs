@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-apache-iceberg-connection-primary.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-17"
 reading_time_minutes: 2
-breadcrumb: [Apache Iceberg, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Apache Iceberg \(Preview\), Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create an Apache Iceberg connection
@@ -26,8 +26,8 @@ Work with your data source admin to create a connection to Apache Iceberg. For a
 
 1.  Navigate to the available primary connectors in Zero Copy Connector Hub in one of the following ways:
 
-    -   Navigate to **All** &gt; **Workflow Data Fabric Hub** &gt; **Available connectors** &gt; **Primary connectors**.
-    -   Navigate to **Admin** &gt; **Workflow Data Fabric Hub** &gt; **Available connectors** &gt; **Primary connectors**.
+    -   Navigate to **All** &gt; **Zero Copy Connector Hub** &gt; **Available connectors** &gt; **Primary connectors**.
+    -   Navigate to **Admin** &gt; **Zero Copy Connector Hub** &gt; **Available connectors** &gt; **Primary connectors**.
 2.  Find the Apache Iceberg connector and select **Connect**.
 
 3.  On the form, fill in the fields.
@@ -46,15 +46,15 @@ Work with your data source admin to create a connection to Apache Iceberg. For a
 
 4.  Configure the object storage system that you want to use with Apache Iceberg.
 
-<table id="choicetable_q5x_dvj_xhc"><thead><tr><th align="left" id="d106040e238">
+<table id="choicetable_q5x_dvj_xhc"><thead><tr><th align="left" id="d107586e244">
 
 Option
 
-</th><th align="left" id="d106040e241">
+</th><th align="left" id="d107586e247">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d106040e247">
+</th></tr></thead><tbody><tr><td id="d107586e253">
 
 **Amazon S3**
 
@@ -66,7 +66,7 @@ Description
 4.  Configure the metastore that you want to use with Apache Iceberg.
 
 
-</td></tr><tr><td id="d106040e271">
+</td></tr><tr><td id="d107586e277">
 
 **Azure Data Lake Storage \(ADLS\)**
 
@@ -79,15 +79,15 @@ Enter the ADLS Access Key.
 
     **Note:** AWS Glue is only applicable when you select Amazon S3 as the object storage system.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d106040e295">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d107586e301">
 
 Option
 
-</th><th align="left" id="d106040e298">
+</th><th align="left" id="d107586e304">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d106040e304">
+</th></tr></thead><tbody><tr><td id="d107586e310">
 
 **Hive Thrift**
 
@@ -101,7 +101,7 @@ Description
 
 `thrift://<host>:<port>`
 
-</td></tr><tr><td id="d106040e339">
+</td></tr><tr><td id="d107586e345">
 
 **AWS Glue**
 
@@ -122,7 +122,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See .
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

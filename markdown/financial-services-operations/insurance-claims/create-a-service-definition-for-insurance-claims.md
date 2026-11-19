@@ -8,7 +8,7 @@ product: Insurance Claims
 classification: insurance-claims
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Creating a service definition for Insurance claims, Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 

@@ -22,7 +22,7 @@ For information on fulfilling work orders, see [Manage work orders](https://raw.
 
 **If the Field Service Management \[com.snc.work\_management\] plugin isn’t installed:**
 
-Work orders aren’t created from Healthcare EVS cases. Instead, agents work on fulfilling those cases directly from the CSM/FSM Configurable Workspace.
+Work orders aren’t created from Healthcare EVS cases. Instead, agents work on fulfilling those cases directly from the CRM Workspace.
 
 Cases created are assigned to assignment groups based on the requesting location associations and are configured normally.
 

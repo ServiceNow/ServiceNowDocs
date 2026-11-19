@@ -7,17 +7,17 @@ release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 8
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Knowledge base articles Genius Results
 
 Knowledge base articles Genius Results use the LLM to generate concise, actionable answers from knowledge article results in Service Portal, Virtual Agent, Employee Center, and global searches.
 
-**Important:** Starting with the Now Assist in AI Search 11 release, the Knowledge base articles Genius Results feature is in maintenance mode. This feature will remain available but will not be updated or supported. Similar and improved functionality is available in the newer Summary Genius Results feature. For more details on this feature, see [Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md).
+**Important:** Starting with the Now Assist in AI Search 11 release, the Knowledge base articles Genius Results feature is in maintenance mode. This feature will remain available but will not be updated or supported. Similar and improved functionality is available in the newer ServiceNow Otto Summary Genius Results feature. For more details on this feature, see [ServiceNow Otto Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/now-assist-multi-content-qna-genius-results.md).
 
 ## Knowledge base articles Genius Results overview
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, ServiceNow Otto for Setup, Get started, ServiceNow AI Platform]
 ---
 
 # Product modules configuration in ServiceNow Otto for Setup

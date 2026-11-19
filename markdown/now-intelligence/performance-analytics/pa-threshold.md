@@ -56,7 +56,7 @@ Thresholds can be set for any indicator. You can specify a breakdown and element
 
 3.  If the threshold should apply only to a specific aggregation of the data, select a time series aggregation.
 
-4.  Click the threshold icon \(\[Omitted image "Threshold\_Icon.png"\] Alt text:\).
+4.  Click the threshold icon \(\[Omitted image "Threshold\_Icon.png"\] Alt text: Threshold icon\).
 
     The Thresholds panel opens.
 
@@ -68,7 +68,7 @@ Thresholds can be set for any indicator. You can specify a breakdown and element
 
     -   To create a threshold, click the plus + sign.
     -   To edit an existing threshold, click it in the Thresholds panel.
-    -   To delete an existing threshold in the Analytics Hub, click the delete icon. \[Omitted image "delete-threshold-ah.png"\] Alt text:
+    -   To delete an existing threshold in the Analytics Hub, click the delete icon. \[Omitted image "delete-threshold-ah.png"\] Alt text: Delete icon
 
         To delete an existing threshold in KPI Details, open it for editing and click **Delete**.
 

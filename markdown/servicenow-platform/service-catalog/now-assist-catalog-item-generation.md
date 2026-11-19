@@ -27,7 +27,7 @@ This skill is available in the following workflow and product.
 
 |Workflow|Product|
 |--------|-------|
-|Creator||
+|Creator|[Exploring ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-now-assist-for-creator.md)|
 
 **Parent Topic:**[AI Authoring for Catalog Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/catalog-item-generation-reference.md)
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Hyperscaler connection with AWS, Using AI Control Tower to create hyperscaler connections, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Hyperscaler connection with AWS, Using Control Tower to create hyperscaler connections, Using Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Connect to AWS from ServiceNow

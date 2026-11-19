@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-central.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-12"
 reading_time_minutes: 4
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -73,7 +73,7 @@ For more information about the Customer history component, see the following top
 
 -   [Customer History component features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-history-component-features.md)
 -   [Configuring the Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-central-configuration.md)
--   [Next Experience Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades)
+-   [Horizon component documentation](https://horizon.servicenow.com/workspace/components)
 
 ## Customer Central plugin
 

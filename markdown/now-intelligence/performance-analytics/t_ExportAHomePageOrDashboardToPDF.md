@@ -32,7 +32,7 @@ Interactive filters that are applied to the dashboard are also applied to the PD
 
 If you do not have Next Experience activated, select **Printer Friendly Version** from the **Settings** menu.
 
-\[Omitted image "settings-icon.png"\] Alt text:
+\[Omitted image "settings-icon.png"\] Alt text: Settings icon
 
 Limitations:
 

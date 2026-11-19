@@ -26,9 +26,9 @@ Role required: admin or sandbox\_manager
 
 You should manually retire sandboxes when your work is complete to maintain a healthy development lifecycle.
 
-**Warning:** Because sandboxes are retired automatically after an upgrade or clone, ensure any work that you want to keep is preserved before upgrading or cloning.
+**Warning:** Because sandboxes are retired automatically after a clone and after upgrades before Brazil Patch 3, ensure any work that you want to keep is preserved before cloning or upgrading.
 
--   For upgrades, you can restore work from the remote update sets that Developer Sandboxes automatically created from prior sandboxes.
+-   For upgrades before Brazil Patch 3, you can restore work from the remote update sets that Developer Sandboxes automatically created from prior sandboxes.
 -   For clones, you must manually save and restore all work in sandboxes.
 -   Any custom table configuration changes or fixes must be reapplied after an upgrade. Contact Now Support to open a case.
 

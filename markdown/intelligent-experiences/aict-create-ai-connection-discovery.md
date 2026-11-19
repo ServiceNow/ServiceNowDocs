@@ -1,6 +1,6 @@
 ---
 title: Create an AI connection for discovery
-description: Bring AI assets from an external platform into your AI asset inventory by creating an AI connection. AI Control Tower authenticates to the platform using your credentials and imports assets on a schedule, so they're governed and monitored alongside AI systems built natively on ServiceNow.
+description: Bring AI assets from an external platform into your AI asset inventory by creating an AI connection. Super Intelligence Control Tower authenticates to the platform using your credentials and imports assets on a schedule, so they're governed and monitored alongside AI systems built natively on ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-create-ai-connection-discovery.html
 release: brazil
@@ -8,35 +8,35 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring connectors, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring connectors, Configuring integrations, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create an AI connection for discovery
 
-Bring AI assets from an external platform into your AI asset inventory by creating an AI connection. AI Control Tower authenticates to the platform using your credentials and imports assets on a schedule, so they're governed and monitored alongside AI systems built natively on ServiceNow.
+Bring AI assets from an external platform into your AI asset inventory by creating an AI connection. Super Intelligence Control Tower authenticates to the platform using your credentials and imports assets on a schedule, so they're governed and monitored alongside AI systems built natively on ServiceNow.
 
 ## Before you begin
 
 Confirm the following are in place:
 
 -   The com.sn\_ai\_disc and sn\_sgc\_central plugins installed on your instance. Without both plugins, the **Connectors** tab doesn't appear.
--   The credentials required to authenticate AI Control Tower to the external platform. Credential requirements vary by connector.
+-   The credentials required to authenticate Control Tower to the external platform. Credential requirements vary by connector.
 
 Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 ## About this task
 
-A connector is the mechanism; an AI connection is the configured instance of a connector on your instance. Create a separate AI connection for each account or environment you want AI Control Tower to discover assets from. A single connector type can support multiple AI connections.
+A connector is the mechanism; an AI connection is the configured instance of a connector on your instance. Create a separate AI connection for each account or environment you want Control Tower to discover assets from. A single connector type can support multiple AI connections.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Connectors**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Connectors**.
 
 2.  On the **Available Connectors** tab, select the connector that you want to use.
 
 3.  On the form, fill in the fields.
 
-    Fields and credential requirements vary by connector. For the complete list of connectors and the fields each one requires, see [AI Control Tower- AI Discovery Connectors \[KB2986990\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2986990).
+    Fields and credential requirements vary by connector. For the complete list of connectors and the fields each one requires, see [Super Intelligence Control Tower- AI Discovery Connectors \[KB2986990\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2986990).
 
 4.  Select **Save**.
 

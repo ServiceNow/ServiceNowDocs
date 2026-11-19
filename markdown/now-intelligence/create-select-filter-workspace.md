@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-select-filter-workspace.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-02"
 reading_time_minutes: 10
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
@@ -20,7 +20,7 @@ Let users filter a dashboard tab on one or more values from a set of choices, su
 
 Role required: In the inline dashboard editor: dashboard\_admin, or you must be the dashboard owner or have had editing rights shared with you.
 
-In the Filter Designer \(**Library** &gt; **Filters** &gt; **New**\): analytics\_filter\_admin or higher
+In the Filter Designer \(**Library** &gt; **Filters** &gt; **New**\): analytics\_filter\_admin, admin
 
 ## About this task
 
@@ -38,7 +38,7 @@ A Multiple select filter lets users select multiple values of a field or breakdo
 
 ## Procedure
 
-1.  Create a filter and select the Single or Multiple Select filter type, as described in [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-filter-library.md).
+1.  Create a filter as described in [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-filter-library.md).
 
 2.  In **Filter source type**, select a Table, an Indicator breakdown, or a Usage Insights source.
 
@@ -85,13 +85,17 @@ A Multiple select filter lets users select multiple values of a field or breakdo
 
     The dashboard applies these values when a user opens the dashboard.
 
-7.  Select the data to filter.
+7.  For multiple select filters, select **Allow reset to default**.
+
+    Single select filters support one default value. Multiple select filters support multiple default values.
+
+8.  Select the data to filter.
 
     Some data to filter is chosen automatically depending on the filter source. For example, if you select the Category indicator breakdown from the Incident.Category breakdown source, the filter automatically filters the Category field on the Incident table and any indicators with the Category breakdown. You can edit the automatic data selection or add more data to filter.
 
     **Note:** Your selection of filter source can impact which data you can filter. For more information, see Step [3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-select-filter-workspace.md).
 
-8.  Under **Other filters to follow**, if the conditions are met, you can select another filter for the current filter to follow in a hierarchy, creating a cascade.
+9.  Under **Other filters to follow**, if the conditions are met, you can select another filter for the current filter to follow in a hierarchy, creating a cascade.
 
     **Note:** You can only set **Other filters to follow** when you're configuring filters on a dashboard, not from the filter designer.
 
@@ -106,17 +110,17 @@ A Multiple select filter lets users select multiple values of a field or breakdo
 
     -   Some filters have a many-to-many relationship, where values on both filters can match multiple values on the other filter. One such filter can follow another only through a connecting table. Only admins can set up these cascading filters. For more information, see [Set a filter to follow another filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/set-filter-to-follow-filter.md).
     -   Two filters can follow each other, but there are additional requirements. For more information, see [Conditions for two filters to follow each other](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/filters-follow-each-other.md).
-9.  Select the **Sort direction**.
+10. Select the **Sort direction**.
 
     If you select **Ascending**, the lowest filtered values are shown first. If you select **Descending**, the highest values are shown first. The user can change this value.
 
-10. To let users clear the values they selected for the filter, enable **Allow user to clear filter**.
+11. To let users clear the values they selected for the filter, enable **Allow user to clear filter**.
 
-11. Set the maximum number of elements that are loaded initially and at each page refresh.
+12. Set the maximum number of elements that are loaded initially and at each page refresh.
 
     The default value is 500.
 
-12. Select **Save**.
+13. Select **Save**.
 
 
 ## Result

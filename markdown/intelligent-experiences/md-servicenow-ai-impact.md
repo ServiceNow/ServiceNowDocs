@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Evaluation dashboard, ServiceNow AI dashboard, Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Evaluation dashboard, ServiceNow AI dashboard, Dashboards, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # ServiceNow AI Impact

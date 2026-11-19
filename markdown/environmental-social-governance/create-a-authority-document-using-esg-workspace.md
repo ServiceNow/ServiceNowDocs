@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management]
 ---
 
 # Create a authority document using Operational Sustainability Workspace

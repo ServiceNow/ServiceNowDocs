@@ -181,6 +181,31 @@ Determines the number of the products and services displayed in the Product Serv
 -   **Default value:** 25
 -   **Location:** System Property \[sys\_properties\] table
 
+</td></tr><tr><td>
+
+sn\_csm\_case\_types.enable\_service\_selector
+
+</td><td>
+
+Enables the Case Type Selector for cases created from the following records:
+
+-   Interaction
+-   Account
+-   Contact
+-   Consumer
+-   Sold Product
+-   Install Base Item
+-   Related lists: child case, case task
+-   List view
+-   Case task list view
+
+ -   **Type**: true \| false
+-   **Default value**: true
+
+**Note:** The `sn_csm_case_types.enable_service_selector` property is set to true for zBoot customers, and can be enabled for upgrade customers.
+
+-   **Location**: System Property \[sys\_properties\] table
+
 </td></tr></tbody>
 </table>## Configuring service definitions for cases and case tasks
 

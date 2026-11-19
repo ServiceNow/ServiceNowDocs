@@ -74,16 +74,16 @@ Role required: admin
 
 3.  In the **Name** field, enter `mid.log.command_audit.enable`.
 
-    In the **Value** field, enter `true`.
+4.  In the **Value** field, enter `true`.
 
-4.  Select **Submit**.
+5.  Select **Submit**.
 
-5.  Restart the MID Server to apply the property.
+6.  Restart the MID Server to apply the property.
 
 
 ### What to do next
 
-To access the MID Server command audit logs, navigate to **All** &gt; **MID Server** &gt; **Audit Logs** &gt; **Command Audit Logs** \[ecc\_agent\_command\_audit\_log\_list.do\]. To view or change this table, the user must have the role agent\_security\_admin.
+To access the MID Server command audit logs, navigate to **All** &gt; **MID Server** &gt; **Audit Logs** &gt; **Command Audit Logs**. To view or change the **Command Audit Logs** \[ecc\_agent\_command\_audit\_log\_list\] table, you must have the agent\_security\_admin role.
 
 ## Command audit logs data
 

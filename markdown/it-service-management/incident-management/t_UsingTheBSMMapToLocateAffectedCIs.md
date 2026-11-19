@@ -30,15 +30,15 @@ Use the **Configuration Item** field when a single CI is the cause of the incide
 
 1.  On the Incident form, associate the CIs.
 
-<table id="choicetable_crl_z1k_yy"><thead><tr><th align="left" id="d81725e73">
+<table id="choicetable_crl_z1k_yy"><thead><tr><th align="left" id="d81850e75">
 
 From where
 
-</th><th align="left" id="d81725e76">
+</th><th align="left" id="d81850e78">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d81725e82">
+</th></tr></thead><tbody><tr><td id="d81850e84">
 
 **Configuration item field**
 
@@ -46,7 +46,7 @@ Action
 
 Select the lookup icon \(\[Omitted image "look-up-icon.png"\] Alt text: The Look up icon\) beside the field and select the CI.
 
-</td></tr><tr><td id="d81725e97">
+</td></tr><tr><td id="d81850e99">
 
 **Affected CIs related list**
 

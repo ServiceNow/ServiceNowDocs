@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-platformanalyticsexperience-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
@@ -57,7 +57,7 @@ When upgrading, all Core UI reports and dashboards are identified as such in the
 
 **Note:** Users who have not migrated their instances to Platform Analytics experience have the option to create dashboards and data visualizations in either Core UI or Next Experience. Next Experience is recommended.
 
-All Core UI public reports are unpublished after upgrading. Report administrators can make these reports available to logged-in users.
+All Core UI public reports are unpublished after upgrading. The unpublished reports are tracked in the table Reports Public \[sys\_report\_public\]. Report administrators can make these reports available to logged-in users.
 
 After upgrading, the Analytics Hub isn't available. Links to the Analytics Hub are redirected to KPI Details.
 
@@ -221,10 +221,6 @@ When you are moved to Next Experience navigation:
     -   The Analytics Overview page and all library pages now contain their own Platform Analytics navigation tree.
     -   The navigation path **Self-Service** &gt; **Dashboards** redirects to **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
     -   The navigation path **Reports** &gt; **View / Run** redirects to **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
--   **[ACL Assessment for Data Visualizations](https://www.servicenow.com/docs/access?context=report-view-acl-dashboard&family=australia&ft:locale=en-US)**
-
-The ACL Assessment for Reports, removed in Australia Patch 4, comes back in Patch 8 with support for Platform Analytics data visualizations. The condition builder for the data source is now also evaluated.
-
 -   **[Sort library records by column values](https://www.servicenow.com/docs/access?context=find-dashboard-library&family=australia&ft:locale=en-US)**
 
 Select the header of any column in a library page to sort the library by that column.
@@ -303,7 +299,7 @@ When scheduling the email of dashboards or data visualizations, limit recipients
 
 -   **[Public reports are unpublished](https://www.servicenow.com/docs/access?context=report-permission-issues&family=australia&ft:locale=en-US)**
 
-On upgrade, all public Core UI reports are unpublished to enhance security control. Report administrators can find the unpublished reports on the Reports Public \[sys\_report\_public\] table. They can then make the reports available through the Sharing UI in the Report Designer.
+On upgrade, all public Core UI reports are unpublished to enhance security control. The system property **glide.report.published\_reports.enabled** is set to `false`. Report administrators can find the unpublished reports on the Reports Public \[sys\_report\_public\] table. They can then make the reports available through the Sharing UI in the Report Designer.
 
 
 </td></tr><tr><td>

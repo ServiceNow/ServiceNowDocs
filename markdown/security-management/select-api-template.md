@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/security-management/select-api-
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Creating an API connector with a generative AI skill, Use, Unified Security Exposure Management, Security Operations]
 ---
 

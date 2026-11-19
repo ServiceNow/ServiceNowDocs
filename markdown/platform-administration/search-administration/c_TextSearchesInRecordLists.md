@@ -9,7 +9,7 @@ classification: search-administration
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Available search options, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Available search options, Zing text indexing and search engine, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # List search finds records from the current table

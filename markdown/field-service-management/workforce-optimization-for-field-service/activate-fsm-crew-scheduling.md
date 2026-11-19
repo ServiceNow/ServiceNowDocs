@@ -20,7 +20,7 @@ You can activate the Field Service Crew Operations plugin \(com.snc.fsm\_crew\_s
 
 Field Service Crew Operations requires the Field Service Management \[com.snc.work\_management\] plugin. For more information about activating Field Service Management, see [Activate Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/t_ActivateFieldServiceManagement.md). Ensure that these plugins are activated before you install Field Service Crew Operations.
 
-Role required: admin.
+Role required: admin
 
 ## About this task
 

@@ -33,7 +33,7 @@ Field Service Advanced Capacity and Reservations Management provides the followi
 **Related topics**  
 
 
-[Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
+[Activate Field Service Advanced Capacity and Reservations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
 
 [Using the Capacity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-manager-workforce/capacity-and-reservation-management-console.md)
 

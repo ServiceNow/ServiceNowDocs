@@ -7,7 +7,7 @@ release: brazil
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [KPI Composer projects, Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -29,7 +29,7 @@ Role required: Anyone with access to a KPI Composer project, including view acce
 
 ## Procedure
 
-1.  Click the journal icon \(\[Omitted image "kpi-composer-journal-icon.png"\] Alt text:\).
+1.  Click the journal icon \(\[Omitted image "kpi-composer-journal-icon.png"\] Alt text: Journal icon\).
 
 2.  Write a journal entry.
 

@@ -20,7 +20,7 @@ Analytics managers can view information about potentially problematic indicators
 
 Visible to roles: pa\_admin and higher.
 
-The book icon \[Omitted image "book-icon.png"\] expands and hides the indicator recommendation panel. It also shows how many recommendation tiles there are. Selecting a tile filters the library on the matching indicators.
+The book icon \[Omitted image "book-icon.png"\] Alt text: Book icon expands and hides the indicator recommendation panel. It also shows how many recommendation tiles there are. Selecting a tile filters the library on the matching indicators.
 
 The following types of recommendations are currently available:
 

@@ -7,7 +7,7 @@ release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-12"
 reading_time_minutes: 4
 keywords: [ServiceNow, Health Log Analytics, HLA, data input, manual, configuration]
 breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]

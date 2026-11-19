@@ -7,8 +7,8 @@ release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-11-06"
-reading_time_minutes: 3
+last_updated: "2026-11-19"
+reading_time_minutes: 4
 breadcrumb: [Configure, SMS with Amazon End User Messaging, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Procure an Amazon Web Services \(AWS\) account with the administrative access to complete the setup of SMS integration and ensure to set up integration on Amazon Web Services before this. To learn how to set up integration on AWS, see [Set up SMS End User Messaging Service and AWS resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/set-up-sms-integration-on-amazon-web-services.md).
+Procure an Amazon Web Services \(AWS\) account with administrative access to complete the SMS integration setup. Before starting, set up integration on AWS. To learn how, see [Set up SMS End User Messaging Service and AWS resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/set-up-sms-integration-on-amazon-web-services.md).
 
 ## Procedure
 
@@ -34,7 +34,7 @@ Procure an Amazon Web Services \(AWS\) account with the administrative access to
 
         |Field|Description|
         |-----|-----------|
-        |Name|Name of the auth token, such as AWSSMSTestAppAuthToken|
+        |Name|Name of the auth token, such as AWSSMSTestAppAuthToken.|
         |Description|Description of the auth token.|
         |Secret|Key value generated while uploading the key material to KMS key during the AWS setup. To learn more about key value, see [Set up SMS End User Messaging Service and AWS resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/set-up-sms-integration-on-amazon-web-services.md).|
         |Domain|Domain of the hash message, such as global.|
@@ -63,18 +63,18 @@ Procure an Amazon Web Services \(AWS\) account with the administrative access to
 
     1.  In the navigation filter, enter `sys_cs_provider.list` and select **New Custom.**
 
-    2.  Select the Provider Channel Identity related list and select **New**.
+    2.  On the **Provider Channel Identity** tab, select **New**.
 
         |Field|Description|
         |-----|-----------|
         |Name|Name of the provider channel identity record, such as VA SMS AWS Adapter Provider.|
-        |Channel|The communication channel of the record, such as AWS EUM.|
+        |Channel|The communication channel of the record, such as SMS.|
         |Short Description|Description of the provider channel identity record.|
         |Inbound ID|The phone number associated with Amazon Web Services that you created.|
         |Message Auth|Name of the message auth, such as VA AWS SMS Test App Message Auth.|
         |Default portal|Portal that is associated with the channel identity record.|
 
-4.  Add the following provider properties in the Provider Properties related list.
+4.  On the **Provider Properties** tab, add the following provider properties.
 
 <table id="table_brc_42w_ydc"><thead><tr><th>
 
@@ -153,72 +153,58 @@ S3 bucket name for storing outbound media.
 
 5.  Add the Identity Access Management \(IAM\) user credentials.
 
-    1.  In the navigation filter, enter `Connection & Credential Aliases` and add the **AWS credentials** for both **AWS\_EUM.** and **Amazon S3**.
+    1.  In the navigation filter, enter `Connection & Credential Aliases` and add the **AWS credentials** for both **AWS\_EUM** and **Amazon S3**.
 
     2.  Select **New** to create a new credential.
 
-    3.  Select the type of AWS credentials from the list and select **Update** to open the AWS Credentials New record form.
+    3.  From the list of credential types, select **AWS Credentials** to open the AWS Credentials New record form.
 
     4.  On the form, fill in the fields.
 
-<table id="table_ypl_tzh_d2c"><thead><tr><th>
+        |Field|Description|
+        |-----|-----------|
+        |Name|Name of the credential.|
+        |Active|Whether the credential is active or not.|
+        |Access Key ID|AWS Access Key ID.|
+        |Secret Access Key|AWS secret access key.|
+        |Credential alias|Alias for the credential. The system fills in this field automatically from the alias record that you opened, such as AWS\_EUM or Amazon S3.|
+        |Authentication Algorithm|AWS IAM Auth.|
 
-Field
+    5.  Select **Submit**.
 
-</th><th>
+6.  Activate SMS in Service Channel.
 
-Description
+    1.  Navigate to **Advanced Work Assignment** &gt; **Settings** &gt; **Service Channels**.
 
-</th></tr></thead><tbody><tr><td>
+    2.  In the **Name** column, search for `SMS`.
 
-Name
+    3.  Select the record.
 
-</td><td>
+    4.  If a message states that the record is in the Conversational SMS Service Channel application but Global is the current application, select **To edit this record click here**.
 
-Name of the credential.
+    5.  Select the **Active** check box.
 
-</td></tr><tr><td>
+    6.  Select **Update**.
 
-Active
+7.  Activate SMS in Presence States.
 
-</td><td>
+    1.  Navigate to **Advanced Work Assignment** &gt; **Settings** &gt; **Presence States**.
 
-Whether the credential is active or not.
+    2.  Open the presence state that agents use when available, such as **Available**.
 
-</td></tr><tr><td>
+    3.  In the **Service channels** field, move **SMS** from the **Available** list to the **Selected** list.
 
-Access Key ID
+    4.  Select **Update**.
 
-</td><td>
+8.  Add agents to the Agent SMS Group.
 
-AWS Access Key ID
+    1.  Navigate to **User Administration** &gt; **Groups**.
 
-</td></tr><tr><td>
+    2.  Open the Agent SMS Group record.
 
-Secret Access Key
+    3.  On the **Group Members** tab, select **Edit** and add the agents who will handle SMS conversations.
 
-</td><td>
-
-AWS Secret Key ID
-
-</td></tr><tr><td>
-
-Credential Alias
-
-</td><td>
-
-Alias for the credential, either EUM or S3.The credential alias is auto-selected.
-
-</td></tr><tr><td>
-
-Algorithm
-
-</td><td>
-
-AWS IAM Auth.
-
-</td></tr></tbody>
-</table>    5.  Select **Submit**.
+    4.  Select **Save**.
 
 
 **Parent Topic:**[Configuring Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-ci-sms-with-aws.md)

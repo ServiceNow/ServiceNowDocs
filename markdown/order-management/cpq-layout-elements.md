@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/cpq-layout-ele
 release: brazil
 topic_type: concept
 last_updated: "2026-08-29"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Set up layouts, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 

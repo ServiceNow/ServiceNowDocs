@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Deactivate, reactivate, or delete an external content connector
@@ -59,7 +59,7 @@ The result depends on which selection you made:
 
 ## What to do next
 
-If you deactivated an external content connector to disable its scheduled crawls, you can still run one-time crawls to update its content and metadata or its permissions. For details on running one-time crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md) and [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
+If you deactivated an external content connector to disable its scheduled crawls, you can still run one-time crawls to update its content and metadata or its permissions. For details on running one-time crawls, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md) and [Create a user permissions crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
 
 If you deleted an external content connector, manually unlink its search source from any search profiles that it's linked to. For details on this procedure, see [Unlink a search source from a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/unlink-search-source-profile-ais.md).
 

@@ -9,7 +9,7 @@ classification: common-service-data-model-csdm
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Reference, Common Service Data Model \(CSDM\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Synchronizing life-cycle values for Asset, CI, and IBI
@@ -95,5 +95,5 @@ When the **csdm.lifecycle.migration.activated** system property is set to true a
 
 [Asset status values aligned to CSDM life cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-map-csdm-to-asset.md)
 
-[bundle-itam.c_ManagingAssets]
+[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_ManagingAssets.md)
 

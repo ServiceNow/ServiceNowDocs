@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Analyze and optimize, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -28,7 +28,7 @@ The visualizations on the Overview page provide the following insights.
 
 -   **Cumulative AI-assisted Actions**
 
-    This area of the dashboard shows the total number of actions completed by AI assistants, aggregated over the selected date range. This metric helps you understand the volume of AI-driven interactions and track growth in AI adoption.
+    This area of the dashboard shows the total number of actions completed by AI assistants, aggregated over the selected date range. This metric helps you understand the volume of AI-driven interactions and track growth in AI adoption. The count includes AI actions from conversational assistants and from agentic executions, at both the execution plan and execution task levels.
 
     \[Omitted image "NAinVA-assistant-designer-analytics-overview-cumulative-actions.png"\] Alt text: Cumulative AI-Assisted Actions.
 
@@ -40,7 +40,7 @@ The visualizations on the Overview page provide the following insights.
 
 -   **Assist Usage Volume**
 
-    This area of the dashboard shows the trend of assists consumed via AI assistants within the selected date range. The assists are determined by the AI actions executed. This metric reveals the assistants that are lowest and highest consumers of assists.
+    This area of the dashboard shows the trend of assists consumed via AI assistants within the selected date range. The assists are determined by the AI actions executed. The totals include assists charged to conversational assistants and to agentic executions, at both the execution plan and execution task levels. This metric reveals the assistants that are lowest and highest consumers of assists.
 
     \[Omitted image "NAinVA-assistant-designer-analytics-overview-assist-usage.png"\] Alt text: Assist Usage Volume.
 
@@ -52,7 +52,7 @@ The visualizations on the Overview page provide the following insights.
 
 -   **Total Assist Usage**
 
-    This area of the dashboard shows the total number of assists consumed by the assistants in the selected date range. The assists are determined by the AI actions executed. Use this metric to optimize assist usage and track progress towards usage goals.
+    This area of the dashboard shows the total number of assists consumed by the assistants in the selected date range. The assists are determined by the AI actions executed. The totals include assists charged to conversational assistants and to agentic executions, at both the execution plan and execution task levels. Use this metric to optimize assist usage and track progress towards usage goals.
 
     \[Omitted image "NAinVA-assistant-designer-analytics-overview-total-usage.png"\] Alt text: Total Assist Usage.
 

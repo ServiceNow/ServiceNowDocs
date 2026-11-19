@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [NLQ Genius Results, Genius Result configurations in the base system, Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [NLQ Genius Results, Genius Result configurations in the base system, Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Display NLQ Genius Result answers in Service Portal search applications
@@ -34,7 +34,7 @@ Administrators should set this system property's value to **true** if the NLQ Ge
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `sys_properties.list`.
+    2.  In the navigation filter, enter `sys_properties.list`.
 
     3.  Press Enter.
 

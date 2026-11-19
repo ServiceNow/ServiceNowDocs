@@ -9,7 +9,7 @@ classification: user-administration
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [User administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [User administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Managing roles

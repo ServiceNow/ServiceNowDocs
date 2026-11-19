@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Amazon SNS Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 

@@ -36,15 +36,15 @@ For detailed information about the available features, refer to [Workplace Agent
 
 2.  On the **Work view** page, depending on what cases or tasks you want to check, you can choose from the following options.
 
-<table id="choicetable_zky_4xr_51c"><thead><tr><th align="left" id="d748187e100">
+<table id="choicetable_zky_4xr_51c"><thead><tr><th align="left" id="d748864e102">
 
 Section
 
-</th><th align="left" id="d748187e103">
+</th><th align="left" id="d748864e105">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d748187e109">
+</th></tr></thead><tbody><tr><td id="d748864e111">
 
 **My work overview**
 
@@ -57,7 +57,7 @@ Check the reports of workplace cases that are assigned to you. Select from the f
 -   Select **All**to view all the cases irrespective of their status.
  The details of the cases are displayed when you select the card. You can further select the case to view the case details in a separate page.
 
-</td></tr><tr><td id="d748187e151">
+</td></tr><tr><td id="d748864e153">
 
 **My work**
 
@@ -70,7 +70,7 @@ Check the reports of workplace cases that are assigned to you. Select from the f
     2.  To apply a filter on the workplace cases, select **Workplace case**.
 
 
-</td></tr><tr><td id="d748187e186">
+</td></tr><tr><td id="d748864e188">
 
 **Group work**
 
@@ -85,7 +85,7 @@ Go to the **Group work** section to view the cases and tasks assigned to the ass
 -   **Open unassigned**: Select this open to view both cases and tasks that are unassigned.
 
 
-</td></tr><tr><td id="d748187e225">
+</td></tr><tr><td id="d748864e227">
 
 **Unassigned work**
 

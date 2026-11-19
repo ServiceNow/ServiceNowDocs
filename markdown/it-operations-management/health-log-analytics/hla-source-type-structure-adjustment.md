@@ -7,7 +7,7 @@ release: brazil
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 3
 keywords: [ServiceNow, Health Log Analytics, HLA, source type structure, change labels, classification, classifying, reclassify, source type]
 breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]

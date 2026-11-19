@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-knowledgecenter-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
@@ -799,7 +799,7 @@ Zurich
 
 </td><td>
 
-[\[Placeholder link text to key australia-patch-5\]](https://www.servicenow.com/docs/access?context=australia-patch-5&family=zurich&ft:locale=en-US)
+[australia patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=zurich&ft:locale=en-US)
 
 -   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 -   Enhance productivity, reduce redundant work, and help ensure that users have access to the latest and most accurate information.

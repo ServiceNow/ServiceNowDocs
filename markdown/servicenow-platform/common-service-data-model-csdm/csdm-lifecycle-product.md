@@ -9,7 +9,7 @@ classification: common-service-data-model-csdm
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Reference, Common Service Data Model \(CSDM\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Life cycle of product entities

@@ -8,7 +8,7 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-08-05"
-reading_time_minutes: 4
+reading_time_minutes: 6
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, platform, entity, entities, operation, input, output, map, field, data]
 breadcrumb: [Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -60,4 +60,25 @@ After you create or clone a model, you can specify how Zero Copy Connector for E
 Each model can have only one create, one read, and one update operation defined.
 
 For more information, see [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/exploring-erp-models.md).
+
+-   **[Create an OData data model with the OData Service Recommender AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-create-odata-model-with-odata-service-recommender.md)**  
+ServiceNow Otto finds the SAP OData service and endpoint that match the data you describe and creates a data model for it if one doesn't already exist.
+-   **[Identify SAP objects for a model with the ERP data query skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-identify-sap-objects-with-erp-data-query.md)**  
+ServiceNow Otto identifies the SAP tables, BAPIs, and OData endpoints that you need to query the data you describe, so you can create ERP models and model operations faster.
+-   **[Create a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-add-new-data-model.md)**  
+Add a model in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to create a dataset containing tables from the ERP system to read and send updates to the ERP system.
+-   **[View and edit models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/view-and-work-with-erp-data-models.md)**  
+Create a holistic dataset by building ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP. Models encompass remote tables and extraction tables from the ERP system, as well as create, read, and update operations.
+-   **[Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-clone-data-model.md)**  
+Clone a standard ERP \(Enterprise Resource Planning\) model that ships with Zero Copy Connector for ERP. After you clone the model you can make modifications, such as adding new fields or tables.
+-   **[Export and import custom models in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-export-and-import-custom-models.md)**  
+Move a custom ERP \(Enterprise Resource Planning\) model from one instance to another by exporting and importing a remote update set.
+-   **[Use model versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-use-model-versioning.md)**  
+Use model versioning in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to determine the version of a model on development and production instances.
+-   **[Adding an entity to a Zero Copy Connector for ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)**  
+Add an entity to a model operation to specify the ERP data that Zero Copy Connector for ERP reads, creates, or updates when the model runs.
+-   **[Run a model with the Explore ERP models agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-run-a-model-with-explore-erp-models.md)**  
+ServiceNow Otto finds the ERP model that you name, asks for any required inputs, and runs the model for you.
+
+**Parent Topic:**[Using Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-systems-connections-and-remote-tables.md)
 

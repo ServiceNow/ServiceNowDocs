@@ -7,7 +7,7 @@ release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 5
 keywords: [dex architecture, cloud-native services, endpoint agents, agent client collector \(acc\), browser extension, dex desktop assistant, shared services architecture, mtls authentication, grpc connection, data security, data isolation, data retention, role-based access, agent registration, certificate signing, hermes messaging service, stream connect]
 breadcrumb: [Explore, Digital End-User Experience, IT Operations Management]
@@ -38,7 +38,7 @@ DEX uses a set of multitenant, cloud-native services called ServiceNow shared se
 -   The instance also pushes data, such as DEX policies, to the agent via this bi-directional channel.
 -   The ServiceNow shared services use the ServiceNow Hermes Messaging Service and Stream Connect to isolate your organization's data.
 
-    For more information, see [Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/hermes-messaging-service.md) and [Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stream-connect-quick-start.md).
+    For more information, see [Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/hermes-messaging-service.md) and Stream Connect.
 
 -   Raw metrics collected from endpoints are processed further using the shared services and eventually pushed to your ServiceNow instance.
 -   Some of the configuration device metrics and agent heartbeats are directly pushed to the ServiceNow instance. The operation is performed over a secured HTTPS channel via a REST endpoint.
@@ -57,7 +57,7 @@ Various security measures help verify that scripts run securely.
 
 -   Role-based access: All actions are available to only specific roles and user criteria within ServiceNow. For example, advanced actions can be assigned to the DEX engineer role and basic actions to the Service Desk.
 
-    For more information, see [Configure the Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/config-remedial-action-fw.md).
+    For more information, see Configure the Remedial Actions Framework.
 
 -   Audit: All action runs are audited in the Remedial Action Executions \[ssn\_reacf\_remedial\_action\_execution\] table.
 

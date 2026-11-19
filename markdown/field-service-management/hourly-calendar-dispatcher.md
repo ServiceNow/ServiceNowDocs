@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Dispatcher Workspace, CRM Workspace, Configure, Field Service Management]
 ---
 
 # Configure an hourly calendar for Dispatcher Workspace

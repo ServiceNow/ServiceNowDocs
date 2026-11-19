@@ -1,6 +1,6 @@
 ---
 title: Measure AI systems
-description: Measure is the AI Control Tower capability for measuring the productivity gains, cost, and net AI return of your AI systems. It brings together value measurement, cost tracking, and dashboards.
+description: Measure is the Super Intelligence Control Tower capability for measuring the productivity gains, cost, and net AI return of your AI systems. It brings together value measurement, cost tracking, and dashboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/measure-ai-landing.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Measure AI systems, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Measure AI systems
 
-Measure is the AI Control Tower capability for measuring the productivity gains, cost, and net AI return of your AI systems. It brings together value measurement, cost tracking, and dashboards.
+Measure is the Super Intelligence Control Tower capability for measuring the productivity gains, cost, and net AI return of your AI systems. It brings together value measurement, cost tracking, and dashboards.
 
 ## Get started
 

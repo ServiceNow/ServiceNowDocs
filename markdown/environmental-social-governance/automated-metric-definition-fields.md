@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Create an automated metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Create an automated metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Automated metric definition fields

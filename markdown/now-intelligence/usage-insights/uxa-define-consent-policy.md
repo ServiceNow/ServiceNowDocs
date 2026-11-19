@@ -34,15 +34,15 @@ This task details how to set the various tracking consent policy options you hav
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_dgs_bbb_gyb"><thead><tr><th align="left" id="d71880e99">
+<table id="choicetable_dgs_bbb_gyb"><thead><tr><th align="left" id="d64414e101">
 
 User consent policy options
 
-</th><th align="left" id="d71880e102">
+</th><th align="left" id="d64414e104">
 
  
 
-</th></tr></thead><tbody><tr><td id="d71880e107">
+</th></tr></thead><tbody><tr><td id="d64414e109">
 
 **Action**
 
@@ -50,7 +50,7 @@ User consent policy options
 
 Procedure
 
-</td></tr><tr><td id="d71880e116">
+</td></tr><tr><td id="d64414e118">
 
 **Apply the same tracking consent policy to all countries.
 
@@ -63,7 +63,7 @@ Procedure
 3.  Select the confirmation check box and then select **Apply**.
 
 
-</td></tr><tr><td id="d71880e143">
+</td></tr><tr><td id="d64414e145">
 
 **Return to the default settings.
 

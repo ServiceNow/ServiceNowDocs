@@ -19,7 +19,7 @@ Add a page to a Lux app. A page is a Lit web component that Lux registers as a r
 
 -   Role required: admin
 -   A scaffolded Lux app \(see the getting-started topic for your app; out of scope here\). You need an existing `pages/` directory and a working `pnpm build`/dev server setup.
--   Familiarity with Lit \(`html`, `customElement`, reactive properties\).
+-   Familiarity with Lit \(`html`, `customElement`, and reactive properties\).
 
 ## About this task
 
@@ -101,7 +101,7 @@ Create a working page that renders at a URL in your app, optionally fetching dat
     }
     ```
 
-    Use `getHeaders(ctx)` from `@servicenow/aiux-components-core` when calling ServiceNow table APIs: it forwards the session cookie and CSRF token in one call. `loader` runs on the server, so no browser globals here either.
+    Use `getHeaders(ctx)` from `@servicenow/aiux-components-core` when calling ServiceNow table APIs: it forwards the session cookie and CSRF token in 1 call. `loader` runs on the server, so no browser globals here either.
 
     **Note:** Route parameters and query parameters on `ctx` are strings: cast them yourself if you need a number or boolean.
 
@@ -123,7 +123,7 @@ Create a working page that renders at a URL in your app, optionally fetching dat
     }
     ```
 
-    You can nest dynamic segments, for example `pages/risk/[riskId]/controls/[controlId]/page.js` for `/risk/:riskId/controls/:controlId`.
+    You can nest dynamic segments, for example: `pages/risk/[riskId]/controls/[controlId]/page.js` for `/risk/:riskId/controls/:controlId`.
 
 5.  Build and check the route.
 
@@ -165,7 +165,7 @@ Create a working page that renders at a URL in your app, optionally fetching dat
 
 ## What to do next
 
--   [Page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/page-collections.md): serving different page implementations from the same route
+-   [Lux Page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/page-collections.md): serving different page implementations from the same route
 -   [Layouts and editable regions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/layouts-and-editable-regions.md): wiring a page into the app's shell and navigation
 -   [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/data-and-apis.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/data-and-apis.md): the full loader contract and `ctx` shape
 

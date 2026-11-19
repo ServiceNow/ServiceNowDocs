@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [desktop assistant theme, customize theme, apply theme, theme css variables, desktop assistant branding, employee center theme, change theme colors]
 breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
@@ -30,15 +31,15 @@ Role required: sn\_dex\_desktop.admin
 
     **Note:** Employee Center \(EC\) Theme is the default theme applied for Desktop Assistant.
 
-<table id="choicetable_eqs_cbd_phc"><thead><tr><th align="left" id="d313734e151">
+<table id="choicetable_eqs_cbd_phc"><thead><tr><th align="left" id="d316377e166">
 
 Method
 
-</th><th align="left" id="d313734e154">
+</th><th align="left" id="d316377e169">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d313734e160">
+</th></tr></thead><tbody><tr><td id="d316377e175">
 
 **Apply another available theme**
 
@@ -52,7 +53,7 @@ The selected theme is updated in the **Theme** field of the Desktop Assistant fo
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d313734e203">
+</td></tr><tr><td id="d316377e218">
 
 **Customize the default theme by modifying specific CSS variables**
 
@@ -67,7 +68,7 @@ The selected theme is updated in the **Theme** field of the Desktop Assistant fo
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d313734e271">
+</td></tr><tr><td id="d316377e286">
 
 **Customize a theme other than the default theme**
 

@@ -16,7 +16,7 @@ Map the different states that are part of your process and the transitions betwe
 
 ## Before you begin
 
-You should be familiar with Process Mining and Process projects. For more information, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-mining.md).
+You should be familiar with Process Mining and Process projects. For more information, see .
 
 The relevant Process project must already exist.
 
@@ -26,13 +26,13 @@ Role required: sn\_process\_optimization\_analyst
 
 The Process Mining Map component enables users to visualize how a process is being executed for a particular data set that is being analyzed. For example, you can show users the number of records for a specific date range, business area, and region.
 
-This component offers similar content on any dashboard that you get from process maps in the Process Mining Workspace. For more information about process maps, see [Process details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/project-view-screen.md).
+This component offers similar content on any dashboard that you get from process maps in the Process Mining Workspace. For more information about process maps, see .
 
 ## Procedure
 
 1.  Create a dashboard, or navigate to a dashboard that you are allowed to edit.
 
-    For more information, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md).
+    For more information, see [Create a Platform Analytics dashboard with the inline editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md).
 
 2.  Select **Edit** to enter editing mode.
 
@@ -78,9 +78,5 @@ Outside of editing mode, a user can expand the settings \[Omitted image "Cogwhee
 **Related topics**  
 
 
-[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-mining.md)
-
-[Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyst-workbench-dashboard.md)
-
-[Refining a process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/analyze-data.md)
+[bundle-cadev.process-mining]
 

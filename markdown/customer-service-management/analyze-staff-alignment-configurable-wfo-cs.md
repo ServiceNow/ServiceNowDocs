@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/ana
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Schedule, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
@@ -40,15 +40,15 @@ Using Demand Forecast, you can:
 
     You can click the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d45727e117">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d45750e119">
 
 To analyze staff alignment
 
-</th><th align="left" id="d45727e120">
+</th><th align="left" id="d45750e122">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d45727e126">
+</th></tr></thead><tbody><tr><td id="d45750e128">
 
 **For each day**
 
@@ -67,7 +67,7 @@ The time slots are color-coded as below to show the coverage of agents in a part
 |Red|The number of agents you have scheduled are less than the demand you have for that interval.|
 |Grey|The demand for the number of agents and the number of agents scheduled is zero for that interval.|
 
-</td></tr><tr><td id="d45727e208">
+</td></tr><tr><td id="d45750e210">
 
 **For a given week**
 
@@ -86,7 +86,7 @@ The **Total coverage/demand** row has indicators for the staff alignment.
 2.  Click any of the indications displayed in the **Total coverage/demand** row to analyze further details on the forecast.
  You can also view the coverage and demand for every hour for each group.
 
-</td></tr><tr><td id="d45727e291">
+</td></tr><tr><td id="d45750e293">
 
 **For a given month**
 

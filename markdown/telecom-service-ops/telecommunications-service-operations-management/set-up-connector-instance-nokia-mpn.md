@@ -7,10 +7,10 @@ release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 keywords: [Nokia MPN, connector instance, Elastic, fault management, alarm collection]
-breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure event and metric connectors, Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
 # Configure elastic connectors for MPN alarm collection
@@ -87,5 +87,5 @@ The alarm collection instance also clears stale alarms: alarms that were cleared
 11. View your configured alarms by navigating to **em\_event.LIST** and searching for `API Alarm Notification`.
 
 
-**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
+**Parent Topic:**[Configure event and metric connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-event-and-metric-connectors.md)
 

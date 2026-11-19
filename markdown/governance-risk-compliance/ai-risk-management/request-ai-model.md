@@ -23,21 +23,21 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(Employee Center\), 
 
 ## About this task
 
-An AI model is a core component of an AI system that performs learning, prediction, classification, or generation based on training data. Requesting an AI model initiates governance review, risk assessment, and life cycle tracking before the model is trained, procured, or deployed. After you submit this request, you land on the confirmation page in Employee Center. The **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page open the corresponding AI model in AI Control Tower instead of the legacy AI Control Tower workspace. The AI model record header also displays the model name and identifier.
+An AI model is a core component of an AI system that performs learning, prediction, classification, or generation based on training data. Requesting an AI model initiates governance review, risk assessment, and life cycle tracking before the model is trained, procured, or deployed. After you submit this request, you land on the confirmation page in Employee Center. The **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page open the corresponding AI model in Control Tower instead of the legacy Control Tower workspace. The AI model record header also displays the model name and identifier.
 
 ## Procedure
 
 1.  Request an AI model using one of the following options.
 
-<table><thead><tr><th align="left" id="d98441e103">
+<table><thead><tr><th align="left" id="d98520e105">
 
 Option
 
-</th><th align="left" id="d98441e106">
+</th><th align="left" id="d98520e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d98441e112">
+</th></tr></thead><tbody><tr><td id="d98520e114">
 
 **Employee Center**
 
@@ -50,14 +50,14 @@ Description
 
 AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-</td></tr><tr><td id="d98441e164">
+</td></tr><tr><td id="d98520e166">
 
 **AI Control Tower**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **AI Control Tower**.
-2.  On the AI Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**.
+2.  On the Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**.
 3.  Select **AI Model**, then select **Add AI Model**.
  **Note:**
 
@@ -66,7 +66,7 @@ An AI Asset owner can complete this option.
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For descriptions of the fields, see [Request an AI model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-model-form.md). For more information about adding an AI model using the AI Control Tower, see [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-model-assets.md).
+    For descriptions of the fields, see [Request an AI model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-model-form.md). For more information about adding an AI model using the Control Tower, see [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-model-assets.md).
 
 3.  To add attachments, select **Add attachments**.
 

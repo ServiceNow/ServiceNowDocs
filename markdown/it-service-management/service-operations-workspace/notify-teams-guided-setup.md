@@ -26,15 +26,15 @@ Role required: admin
 
 2.  Select **Notify**, and then select **Microsoft Teams Guided Setup**.
 
-    Review the sections Pre-published apps and Self-configured apps to consider for setup in your environment.
+    Review the **Pre-published apps** and **Self-configured apps** sections to consider for setup in your environment.
 
-3.  Select **Configure** against **Pre-published apps**.
+3.  Select **Configure** next to **Pre-published apps**.
 
     Use guided setup to step through the configuration. Guided setup assists you with performing the configuration in a sequential process. Guided setup organizes configuration activities into categories and helps you track your progress.
 
 4.  Select **Start** to begin the guided setup for pre-published apps.
 
-    Once you have installed the required plugins and store apps, perform the activities outlined in the **Install Azure Apps and Authorize Notify Connector** section. After that, move on to complete the tasks in the **Configuration Steps** section.
+    After you have installed the required plugins and store apps, perform the activities outlined in the **Install Azure Apps and Authorize Notify Connector** section. After that, move on to complete the tasks in the **Configuration Steps** section.
 
 
 **Parent Topic:**[Configuring Notify in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-notify-sow.md)

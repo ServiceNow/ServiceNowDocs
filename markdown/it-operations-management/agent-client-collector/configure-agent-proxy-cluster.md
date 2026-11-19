@@ -48,6 +48,8 @@ The default CPU threshold value when working with proxy agent clusters is 80%. Y
 
 5.  Select **Submit**.
 
+    The cluster appears on the Proxy agent clusters page.
+
 
 ## Result
 

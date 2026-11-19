@@ -8,7 +8,7 @@ product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Stored cryptography, Hardening settings, Platform Security]
 ---
 
@@ -18,7 +18,9 @@ Disable the use of 3DES static keys on your instance with a system property.
 
 Use the **glide.security.3des.static\_keys\_usable** system property to disable the usage of 3DES static keys on your instance. This property should be set automatically by a scheduled job, the status of which can be checked via the property **glide.security.3des.removal\_job\_status**. In cases where this property isn’t configured to **false**, after the scheduled job runs and the status is `KEYS_DEACTIVATED`, the scheduled job waits until this property is configured to **false** before proceeding with deletion of the 3DES static keys.
 
-Ensure the **glide.security.3des.static\_keys\_usable** exists on the System Properties \[sys\_properties\] table and is set to a value of **false**. Review [KB1704481](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=78789f8347019a50f64de825126d43ad) for further information on 3DES deprecation.
+Ensure the **glide.security.3des.static\_keys\_usable** exists on the System Properties \[sys\_properties\] table and is set to **false**. Review [KB1704481](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=78789f8347019a50f64de825126d43ad) \(link requires ServiceNow Support account\) for further information on 3DES deprecation.
+
+**Note:** This property has been deprecated and will be removed in a future baseline.
 
 ## More information
 

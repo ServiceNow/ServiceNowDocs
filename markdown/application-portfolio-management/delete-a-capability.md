@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/delete-a-capability.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Working with the business portfolio module, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -22,12 +22,18 @@ Role required: sn\_apm.apm\_user
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Business Capability Hierarchy page by clicking the Business Portfolio icon \(\[Omitted image "business-portfolio-icon.png"\] Alt text: Business Portfolio icon\).
+2.  Open the Business Capability Hierarchy page by selecting the Business Portfolio icon \(\[Omitted image "business-portfolio-icon.png"\] Alt text:\).
 
-3.  Right-click the hierarchy ID of a capability that you want delete, then select **Delete**
+3.  Select the row context menu icon \[Omitted image "eaw-icon-menu.png"\] Alt text: of the capability that you want to delete, and then select **Delete**.
+
+    **Note:** Only leaf capabilities can be deleted. If the capability has sub-capabilities, you must delete all of them before you can delete the parent capability.
 
 4.  Confirm the deletion.
 
+
+## Result
+
+The capability is deleted from the business capability hierarchy map.
 
 **Parent Topic:**[Working with the business portfolio module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-work-with-business-portfolio-mod.md)
 

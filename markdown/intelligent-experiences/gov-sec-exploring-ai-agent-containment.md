@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-exploring-ai-agent-containment.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Explore, Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI agent containment using kill switch protocol manually
@@ -19,13 +19,13 @@ AI agents operate as autonomous actors across the enterprise, frequently with el
 
 To deactivate or reinstate an AI agent, you need the sn\_ai\_security.operator role. AI stewards can also do this, because the sn\_ai\_governance.ai\_steward role includes that role.
 
-Control enforcement points \(PEPs\) are part of AI agent containment. CEPs can be identity providers, AI agent runtimes, or infrastructure platforms. Supported AI agent platforms are AWS Bedrock, AWS Bedrock AgentCore, Azure AI Foundry, Gemini Enterprise Agent Platform \(agents with a unique identity only\), and ServiceNow AI agents. The supported identity provider is Okta.
+Control enforcement points \(CEPs\) are part of AI agent containment. CEPs can be identity providers, AI agent runtimes, or infrastructure platforms. Supported AI agent platforms are AWS Bedrock, AWS Bedrock AgentCore, Azure AI Foundry, Gemini Enterprise Agent Platform \(agents with a unique identity only\), and ServiceNow AI agents. The supported identity provider is Okta.
 
-When you contain an AI agent, AI Control Tower issues revocation requests and confirms enforcement completion from each configured CEP before declaring the agent contained.
+When you contain an AI agent, Control Tower issues revocation requests and confirms enforcement completion from each configured CEP before declaring the agent contained.
 
 ## Example: Malicious activity by an AI agent
 
-An AI steward receives a tip from a vendor that an AI agent integrated with their platform is generating suspicious API calls. The steward opens the Security page of AI Control Tower and notices a critical security event involving the AI agent. Upon viewing the AI asset, AI Control Tower alerts the steward that malicious activity was detected. Traceloop data and control enforcement points \(CEPs\) provide a summary of the agent behavior.
+An AI steward receives a tip from a vendor that an AI agent integrated with their platform is generating suspicious API calls. The steward opens the Security page of Control Tower and notices a critical security event involving the AI agent. Upon viewing the AI asset, Control Tower alerts the steward that malicious activity was detected. Traceloop data and control enforcement points \(CEPs\) provide a summary of the agent behavior.
 
 \[Omitted image "gov-sec-malicious-activity.png"\] Alt text: Malicious activity evidence shown for an agent.
 
@@ -39,5 +39,5 @@ Every containment action including the CEP-by-CEP confirmation, produces a compl
 
 To configure and use AI agent containment with kill switch protocol, see [Configure AI agent containment using kill switch protocol manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-ai-agent-containment.md) and [Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md).
 
-**Parent Topic:**[Exploring security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-exploring.md)
+**Parent Topic:**[Exploring security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-exploring.md)
 

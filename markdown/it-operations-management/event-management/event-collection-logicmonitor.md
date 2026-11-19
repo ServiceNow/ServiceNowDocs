@@ -32,7 +32,7 @@ Role required: evt\_mgmt\_admin
 
 JSON formatted event messages are sent from Logicmonitor. The MID Server transforms the collected event messages by parsing them using the TransformEvents\_MidLogicmonitor script include, located here: **Event Management** &gt; **Integrations** &gt; **PushConnectors**. In the Push Connectors page, click **Logicmonitor Mid Push Connector**.
 
-The default format of the URL to push event messages from Logicmonitor to the MID Server is `http://<MID_Server_IP>:<MID_Web_Server_Port>/api/mid/em/inbound_event?Transform=TransformEvents_MidLogicmonitor`.
+The default format of the URL to push event messages from Logicmonitor to the MID Server is `http://<MID_Server_IP>:<MID_Web_Server_Port>/api/mid/em/inbound_event?Transform=TransformEvents_MidLogicMonitor`.
 
 |Variable|Description|
 |--------|-----------|

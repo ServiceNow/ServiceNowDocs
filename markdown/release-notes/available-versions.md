@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/available-versions.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-05"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 breadcrumb: [Learn about the Brazil release, Brazil release notes]
 ---
@@ -18,7 +18,7 @@ The Brazil family includes patches and hotfixes.
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
-**Note:** This version is being evaluated for use in the ServiceNow Government Community Cloud \(GCC\) environment.
+**Note:** This ServiceNow AI Platform® major family release is now available in ServiceNow's Regulated Market environments. For more information about services available in isolated environments, see [KB0743854](https://support.servicenow.com/kb_view.do?sysparm_article=KB0743854).
 
 ## Q4 2026 Patching Program Targets
 
@@ -26,8 +26,8 @@ Targets are subject to change prior to patching. Target versions change only if 
 
 |Releases|Patch target option|Release notes|
 |--------|-------------------|-------------|
-|Australia|[Australia Patch 5b W44](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3228436)|[Australia](https://www.servicenow.com/docs/r/australia/release-notes/available-versions.html)|
-|Zurich|[Zurich Patch 5a W44](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3228388)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
+|Australia|[Australia Patch 5b W46](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3233629)|[Australia](https://www.servicenow.com/docs/r/australia/release-notes/available-versions.html)|
+|Zurich|[Zurich Patch 12a W46](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3233404)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
 |Yokohama|[Yokohama Patch 13 Hotfix 5a W45](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3230085)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
 
 ## Available versions
@@ -51,6 +51,38 @@ Released on
 Availability
 
 </th></tr></thead><tbody><tr><td>
+
+[Brazil Patch 2 W46](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3233407)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/11/12
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Brazil Patch 2 W46](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3233407)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/11/12
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
 
 [Brazil Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/brazil-patch-2.md)
 

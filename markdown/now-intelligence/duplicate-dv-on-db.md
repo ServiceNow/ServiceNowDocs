@@ -27,7 +27,7 @@ Role required: viz\_creator
 
 3.  Select **Edit**.
 
-4.  From the Actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text:\) on the visualization, select **Duplicate**.
+4.  From the Actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions icon\) on the visualization, select **Duplicate**.
 
     A copy of the visualization is added to dashboard.
 
@@ -37,7 +37,7 @@ Role required: viz\_creator
 
 7.  Select **Save** to save the changes to the dashboard.
 
-8.  From the Actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text:\) on the visualization, select **Add to Library** to make the copy available to other users.
+8.  From the Actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions icon\) on the visualization, select **Add to Library** to make the copy available to other users.
 
     When you add the visualization to the library, you must give it a name and, optionally, a description. Other users see the name and description in the list of visualizations in the library.
 

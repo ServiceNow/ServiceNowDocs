@@ -1,6 +1,6 @@
 ---
 title: Process a change request
-description: You can approve, implement, review, and close a change request.
+description: Approve, implement, review, and close a change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ProcessAChangeRequest.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Use, Change Management, IT Service Management]
 
 # Process a change request
 
-You can approve, implement, review, and close a change request.
+Approve, implement, review, and close a change request.
 
 ## Before you begin
 
@@ -30,19 +30,19 @@ As part of processing a change request, ensure that you have [detected any chang
 
 3.  Approve or reject multiple change requests from the list view.
 
-    To see all the approvals routed to you, navigate to **Self-service** &gt; **My Approvals**. Approvers with the `approval_user` role act only on the approval record.
+    To see all the approvals routed to you, navigate to **Service Desk** &gt; **My Approvals**. Approvers with the `approval_user` role act only on the approval record.
 
 4.  You can perform the following actions on a change request based on your role.
 
-<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d261076e126">
+<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d261867e131">
 
 **Approve or reject a change request**
 
 </td><td>
 
-Open the approval record from the **Self-Service** &gt; **My Approvals** module or from the **Approvers** related list on the change request or **Reject** to reject it.The change request changes to the **Scheduled** state if it is approved or to **New** state if it is rejected.
+Open the approval record from the **Service Desk** &gt; **My Approvals** module or from the **Approvers** related list on the change request or **Reject** to reject it.The change request changes to the **Scheduled** state if it is approved or to **New** state if it is rejected.
 
-</td></tr><tr><td id="d261076e159">
+</td></tr><tr><td id="d261867e164">
 
 **Implement a change request**
 
@@ -56,7 +56,7 @@ The system creates theses tasks when the change request enters to **Implement** 
 
 Tasks remain open until you close or cancel them. Canceling a task does not affect the parent change request.
 
-</td></tr><tr><td id="d261076e203">
+</td></tr><tr><td id="d261867e208">
 
 **Review a change request**
 
@@ -64,7 +64,7 @@ Tasks remain open until you close or cancel them. Canceling a task does not affe
 
 Select **Review** after reviewing the details on the change request. The change request is moved to the **Review** state. All open change tasks are set to **Canceled**.
 
-</td></tr><tr><td id="d261076e224">
+</td></tr><tr><td id="d261867e229">
 
 **Close a change request**
 
@@ -72,7 +72,7 @@ Select **Review** after reviewing the details on the change request. The change 
 
 Select **Close** after entering the **Close code** and **Close notes** in the **Closure Information** section.The change request is closed.
 
-</td></tr><tr><td id="d261076e248">
+</td></tr><tr><td id="d261867e253">
 
 **Cancel a change request**
 
@@ -109,9 +109,9 @@ You can associate additional CIs or services with change requests through relate
 -   **[Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/bulk-ci-change.md)**  
 Mass Update CI enables you to apply the same update to a set of configuration items \(CIs\) in a specific CI class. Use Mass Update CI on instances where the Change Management - State Model plugin is active.
 -   **[Use Mass Update CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/use-bulk-mass-ci-changes.md)**  
-You can use the proposed changes in a change request to apply the same update to a set of CIs for a specific CI class.
+Use the proposed changes in a change request to apply the same update to a set of CIs for a specific CI class.
 -   **[Place a change request on hold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_PlaceAChangeRequestOnHold.md)**  
-You can put a change request on hold to get additional information for the created change request.
+Place a change request on hold to get additional information for the created change request.
 -   **[Refresh impacted services and CIs for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/refresh-impacted-services-cis.md)**  
 The Impacted services and CIs related list refreshes its records based on the affected CIs. Records in the Service Offerings and Business Applications related lists also refresh. Use this information to identify impacted services and CIs and take action.
 

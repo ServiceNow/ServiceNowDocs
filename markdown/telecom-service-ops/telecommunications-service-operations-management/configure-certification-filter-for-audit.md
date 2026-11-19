@@ -46,7 +46,7 @@ The following are the audit filters:
 
 3.  Fill in the fields.
 
-    For more guidance, see [Create a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreatingFilters.md).
+    For more guidance, see .
 
 4.  Add the filter conditions.
 

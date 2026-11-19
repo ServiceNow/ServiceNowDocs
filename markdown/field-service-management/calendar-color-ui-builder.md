@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize Dispatcher Workspace with UI Builder, Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Customize Dispatcher Workspace with UI Builder, Dispatcher Workspace, CRM Workspace, Configure, Field Service Management]
 ---
 
 # Customizing the calendar grid in Dispatcher Workspace with UI Builder

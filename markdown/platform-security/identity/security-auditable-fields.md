@@ -18,7 +18,7 @@ Displays table and field level details that are audited in the ServiceNow® inst
 
 Security Auditable Fields displays the details of tables and fields that are audited in the ServiceNow instance.
 
-To access the Security Auditable Fields page, navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Configure Tables &amp; Fields**. The Security Auditable Fields page is displayed with the following information.
+To access the Security Auditable Fields page, navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Configure Tables &amp; Fields**. The Security Auditable Fields page displays the following information.
 
 |Column name|Description|
 |-----------|-----------|

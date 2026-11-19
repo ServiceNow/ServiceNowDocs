@@ -28,7 +28,7 @@ You can customize header label, data source, metric, group by field, and `viewAl
 
 1.  Navigate to **All** &gt; **Service Operations Workspace Admin Center** &gt; **Overview**.
 
-    **Note:** In the Service Operations Workspace UI, the metric cards on the tier 1 landing page are labeled **donuts**. Each cards displays a count from a configured data source.
+    **Note:** In the Service Operations Workspace UI, the metric cards on the tier 1 landing page are labeled **donuts**. Each card displays a count from a configured data source.
 
 2.  On the **Overview** tab from the **Initial Setup** section, select the **Configure the landing page** option.
 
@@ -46,7 +46,7 @@ You can customize header label, data source, metric, group by field, and `viewAl
 
     2.  Select the default dashboard for the SOW landing page from the **Dashboard loaded on the Landing Page** drop-down option. Select **Save**.
     3.  After modifying the elements in the dashboard, select **Save**.
-5.  If the PAR dashboard isn't active on the landing page, edit the **Script** field add the code inside the class **ServiceDeskLandingPageUtils**.
+5.  If the PAR dashboard isn't active on the landing page, edit the **Script** field and add the code inside the class **ServiceDeskLandingPageUtils**.
 
     **Note:** This method is copied from **SowIncidentLandingPageUtilsSNC**. To add a new donut or to remove an existing one you need to copy **getVisualizationConfig** method to **SowIncidentLandingPageUtils** and modify as per your requirement.
 
@@ -119,7 +119,7 @@ You can customize header label, data source, metric, group by field, and `viewAl
 
     **Note:** The `roles` property accepts an array of role names. Only users with the specified roles can view this metric card. If you omit `roles` or leave the array empty, the card is visible to all users.
 
-    To add Problem donut to tier 1 landing page, add additional snippets according to your requirement similar to the code snippet mentioned below.
+    To add Problem donut to tier 1 landing page, add additional snippets according to your requirement similar to the following code snippet.
 
     ```
     {
@@ -137,7 +137,7 @@ You can customize header label, data source, metric, group by field, and `viewAl
     
     ```
 
-    Copy the **fetchTitle** method from **SowIncidentLandingPageUtilsSNC** to add labels for list that is displayed when you select on the donut.
+    Copy the **fetchTitle** method from **SowIncidentLandingPageUtilsSNC** to add labels for a list that is displayed when you select the donut.
 
     ```
         static async fetchTitle(table, selectedField, groupByField, groupMode = false) {
@@ -188,7 +188,7 @@ You can customize header label, data source, metric, group by field, and `viewAl
     
     ```
 
-    Add the labels as mentioned in the below example code block to view them as a list heading when you select the donut.
+    Add the labels as mentioned in the following example code block to view them as a list heading when you select the donut.
 
     ```
        'problem': {  

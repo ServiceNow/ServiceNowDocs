@@ -20,12 +20,12 @@ A Process Mining analyst can create a prefilled Task Mining project while workin
 
 The integration preserves traceability between process-level insights and task-level findings, avoiding fragmented analysis and reducing navigation between tools.
 
-You must install and configure the Process Mining and Task Mining plugins before using the integration. See [Activating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/activating-process-mining.md).
+You must install and configure the Process Mining and Task Mining plugins before using the integration. See .
 
 **Parent Topic:**[Integrating Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining/integrations-for-task-mining.md)
 
 **Related topics**  
 
 
-[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/integration-taskmining.md)
+[integration-taskmining]
 

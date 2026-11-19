@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-amazon-s3-tables-connection.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-17"
 reading_time_minutes: 1
-breadcrumb: [Amazon S3 Tables, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Amazon S3 Tables \(Preview\), Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create an Amazon S3 Tables connection
@@ -26,8 +26,8 @@ Work with your data source admin to create a connection to Amazon S3 Tables. For
 
 1.  Navigate to the available primary connectors in Zero Copy Connector Hub in one of the following ways:
 
-    -   Navigate to **All** &gt; **Workflow Data Fabric Hub** &gt; **Available connectors** &gt; **Primary connectors**.
-    -   Navigate to **Admin** &gt; **Workflow Data Fabric Hub** &gt; **Available connectors** &gt; **Primary connectors**.
+    -   Navigate to **All** &gt; **Zero Copy Connector Hub** &gt; **Available connectors** &gt; **Primary connectors**.
+    -   Navigate to **Admin** &gt; **Zero Copy Connector Hub** &gt; **Available connectors** &gt; **Primary connectors**.
 2.  Find the Amazon S3 Tables connector and select **Connect**.
 
 3.  On the form, fill in the fields.
@@ -126,7 +126,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See .
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

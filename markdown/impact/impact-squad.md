@@ -24,23 +24,6 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Success Manager
-
-</td><td>
-
-Curate and coordinate content, guidelines, and recommendations aligned with your organizational goals and ServiceNow product mix.Key responsibilities:
-
--   Serves as your advocate for business value and orchestration lead across all Impact features and benefits.
--   Manages delivery of Impact Foundations, Impact Accelerators, and the development and execution of your Customer Impact Plan.
--   Oversees a diverse customer portfolio, ensuring deliverables align with goals, business objectives, capabilities, and success metrics.
--   Drives recommendations, addresses roadblocks, provides updates, refines the Customer Impact Plan, and reports on adoption.
--   Conducts periodic business reviews, kick-off calls, and regular check-ins with customers.
--   Coordinates with internal teams \(Sales, Product, Support\) to resolve issues, mitigate risks, and drive customer success.
--   Manages critical risks and mitigation strategies through a predefined process, ensuring smooth onboarding for new customers.
--   Promotes customer advocacy by highlighting success stories and use cases.
-
-</td></tr><tr><td>
-
 Customer Success Executive
 
 </td><td>

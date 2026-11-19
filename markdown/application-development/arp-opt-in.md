@@ -31,15 +31,15 @@ Application Runtime Policy \(ARP\) is an opt-in feature. It must be activated fo
 
 3.  In the **Design and Runtime** section of the custom application form, select one of the following options in the **Application Runtime Policy** field.
 
-<table><thead><tr><th align="left" id="d143094e110">
+<table><thead><tr><th align="left" id="d186271e110">
 
 Value
 
-</th><th align="left" id="d143094e113">
+</th><th align="left" id="d186271e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d143094e119">
+</th></tr></thead><tbody><tr><td id="d186271e119">
 
 **None**
 
@@ -47,7 +47,7 @@ Description
 
 The default. ARP is not enabled for this application and policies aren't automatically created.
 
-</td></tr><tr><td id="d143094e128">
+</td></tr><tr><td id="d186271e128">
 
 **Tracking**
 
@@ -55,7 +55,7 @@ The default. ARP is not enabled for this application and policies aren't automat
 
 ARP is enabled. Policy records are automatically created and approved as you exercise application functionality.**Note:** Tracking mode should only be used during application development. When you're ready to publish your application, change the ARP mode to **Enforcing**.
 
-</td></tr><tr><td id="d143094e142">
+</td></tr><tr><td id="d186271e142">
 
 **Enforcing**
 

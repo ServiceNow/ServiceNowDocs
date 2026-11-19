@@ -38,15 +38,15 @@ The Copy Incident functionality copies the details of an existing incident recor
 
 3.  Copy the incident or create a child incident.
 
-<table id="choicetable_rsq_41q_23b"><thead><tr><th align="left" id="d234412e134">
+<table id="choicetable_rsq_41q_23b"><thead><tr><th align="left" id="d235114e136">
 
 Option
 
-</th><th align="left" id="d234412e137">
+</th><th align="left" id="d235114e139">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d234412e143">
+</th></tr></thead><tbody><tr><td id="d235114e145">
 
 **Copy an incident**
 
@@ -54,7 +54,7 @@ Action
 
 Select the Additional actions icon \[Omitted image "context-menu.png"\] Alt text: and then select **Copy Incident**.**Note:** After the incident is copied, the **Work notes** field of the new incident is updated with the following message: `Created from a similar incident: INCXXXXXX`.
 
-</td></tr><tr><td id="d234412e169">
+</td></tr><tr><td id="d235114e171">
 
 **Create a child incident**
 

@@ -21,7 +21,7 @@ Add or delete tabs from the contextual side panel that is available in all recor
 -   **[Configuring Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configuring-recommended-actions-for-itsm-in-service-operations-workspace.md)**  
 Configure contexts, rules, recommendations, and resource generators to provide agents with AI-powered suggestions when working with incidents, problems, change requests, and other records in Service Operations Workspace in ITSM.
 -   **[Configure the Agent Assist tab in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-the-agent-assist-tab-in-service-operations-workspace.md)**  
-Enable or disable the Agent Assist tab in the contextual side panel for the required record type.
+Turn on or turn off the Agent Assist tab in the contextual side panel for the required record type.
 -   **[Customize the on-call support group recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-supportgroup-oncall-sow.md)**  
 Configure the support group recommendations that should be displayed in the **Experts on-call** panel for an incident.
 

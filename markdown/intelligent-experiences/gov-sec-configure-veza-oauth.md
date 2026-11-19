@@ -1,6 +1,6 @@
 ---
 title: Configure OAuth in Veza
-description: Create an OAuth 2.0 client and an OAuth 2.0 app in your Veza tenant so that AI Control Tower can authenticate to Veza using OAuth 2.0 instead of an API key.
+description: Create an OAuth 2.0 client and an OAuth 2.0 app in your Veza tenant so that Control Tower can authenticate to Veza using OAuth 2.0 instead of an API key.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-configure-veza-oauth.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-09-08"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure Veza access intelligence in the agent map, Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure Veza access intelligence in the agent map, Configure, Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure OAuth in Veza
 
-Create an OAuth 2.0 client and an OAuth 2.0 app in your Veza tenant so that AI Control Tower can authenticate to Veza using OAuth 2.0 instead of an API key.
+Create an OAuth 2.0 client and an OAuth 2.0 app in your Veza tenant so that Control Tower can authenticate to Veza using OAuth 2.0 instead of an API key.
 
 ## Before you begin
 
@@ -21,7 +21,7 @@ Role required: Admin access to your Veza tenant
 
 ## About this task
 
-AI Control Tower uses two separate Veza OAuth 2.0 credentials: an OAuth 2.0 client for the client credential grant, and an OAuth 2.0 app for the authorization code grant. Create the OAuth 2.0 client for system-level \(client credential\) access, and the OAuth 2.0 app for per-user \(authorization code\) access, or both if you want to switch between them later. For more information, see [Configure OAuth for Veza in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-veza-servicenow.md).
+Control Tower uses two separate Veza OAuth 2.0 credentials: an OAuth 2.0 client for the client credential grant, and an OAuth 2.0 app for the authorization code grant. Create the OAuth 2.0 client for system-level \(client credential\) access, and the OAuth 2.0 app for per-user \(authorization code\) access, or both if you want to switch between them later. For more information, see [Configure OAuth for Veza in ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-veza-servicenow.md).
 
 ## Procedure
 

@@ -32,6 +32,8 @@ The Scan Results list view provides two UI action buttons for scan initiation: *
 
     The Scan Results list view displays all previous scans with their status, type, and metadata. This is the primary interface for initiating and monitoring scans.
 
+    **Note:** Create scan filters to exclude applications, tables, or individual records from scans. See [Configure scan filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-filters.md) for details.
+
 2.  Select **Initiate Scan**.
 
     The **Initiate Scan** button intelligently determines the scan type:

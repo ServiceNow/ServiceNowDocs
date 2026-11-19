@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-04-13"
 reading_time_minutes: 1
-breadcrumb: [Configure, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Data Management, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Install Live Archive

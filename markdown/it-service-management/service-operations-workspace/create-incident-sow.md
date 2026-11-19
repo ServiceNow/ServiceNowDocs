@@ -24,26 +24,26 @@ Role required: itil or admin
 
 1.  Perform one of the following actions to start creating an incident.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d429760e52">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d430821e56">
 
 Option
 
-</th><th align="left" id="d429760e55">
+</th><th align="left" id="d430821e59">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d429760e61">
+</th></tr></thead><tbody><tr><td id="d430821e65">
 
 **From the List menu**
 
 </td><td>
 
-1.  From the primary navigation, click the list icon \(\[Omitted image "lists\_icon.png"\] Alt text: List icon\).
-2.  Select the add icon \(\[Omitted image "add-icon.png"\] Alt text: add icon\) next to the **List** tab.
+1.  From the primary navigation, select the list icon \(\[Omitted image "lists\_icon.png"\] Alt text:\).
+2.  Select the add icon \(\[Omitted image "add-icon.png"\] Alt text:\) next to the **List** tab.
 3.  Select **New Incident**.
 
 
-</td></tr><tr><td id="d429760e100">
+</td></tr><tr><td id="d430821e102">
 
 **From an incident list**
 
@@ -51,7 +51,7 @@ Description
 
 1.  Navigate to a list of incidents.
 
-**Note:** Following lists are available for incidents:
+**Note:** The following lists are available for incidents:
 
     -   Assigned to me
     -   Unassigned
@@ -61,7 +61,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d429760e140">
+</td></tr><tr><td id="d430821e142">
 
 **From an interaction**
 
@@ -72,7 +72,7 @@ Description
 
 
 </td></tr></tbody>
-</table>2.  On the form, fill the fields in the **Details** tab.
+</table>2.  On the form, fill in the fields in the **Details** tab.
 
 <table id="table_un2_dyl_n3b"><thead><tr><th>
 

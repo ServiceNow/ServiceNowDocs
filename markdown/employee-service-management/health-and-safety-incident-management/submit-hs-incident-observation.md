@@ -7,7 +7,7 @@ release: brazil
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-12"
 reading_time_minutes: 4
 breadcrumb: [Submit, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Submit, Health and Safety Incident Management, Health and Safety, E
 Submit a safety incident through the Employee Center to report it to the safety department for an investigation.
 
 ## Before you begin
-
-Role required: sn\_ohs\_im.requestor
 
 ## About this task
 
@@ -76,7 +74,7 @@ Select a body part in the visual injury picker, then select **Severity** and **A
 To add multiple injury types to the same body part, select **Add New Injury** and fill in the fields.
 
 4.  Select **Save**.
-If there are more than one affected persons in this incident, add each.
+
 
 </td></tr><tr><td>
 

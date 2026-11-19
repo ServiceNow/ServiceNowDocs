@@ -18,6 +18,8 @@ You can activate the REST API Access Policy plugin \(com.glide.rest.policy\) if 
 
 ## Before you begin
 
+Role required: admin
+
 ## About this task
 
 The following items are installed with REST API Access Policy:

@@ -19,7 +19,9 @@ Choose which **Enhanced Discovery** modules Agent Client Collector for Visibilit
 
 ## Before you begin
 
--   Verify that your instance is prepared for NPVDI agents and that the agent is installed on the golden image as a non-persistent agent. For details, see [Prepare agent deployment on a non-persistent virtual desktop infrastructure machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.md) and [Enable a non-persistent virtual desktop infrastructure agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/enable-npvdi-agent.md).
+-   Verify that your instance is prepared for NPVDI agents and that the agent is installed on the golden image as a non-persistent agent. For details, see:
+    -   [Prepare agent deployment on a non-persistent virtual desktop infrastructure machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.md)
+    -   [Enable a non-persistent virtual desktop infrastructure agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/enable-npvdi-agent.md).
 -   ACC-VC version 2.1.1 or later must be installed.
 -   Role required: admin
 

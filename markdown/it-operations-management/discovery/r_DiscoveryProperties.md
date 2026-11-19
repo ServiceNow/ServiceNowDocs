@@ -1098,9 +1098,7 @@ sn\_disco\_certmgmt.mark\_self\_signed\_for\_incomplete\_chain
 
 </td><td>
 
-Certificate Inventory and Management When discovery captures an incomplete certificate chain, sets the last captured certificate as its own root issuer and issuer. For example, this happens for a server certificate discovered without its root and intermediate certificates.
-
- This doesn't change the certificate's Is self-signed value. Set the value of the property to false to turn this behavior off. This property isn't available in the base system. To change its value, create the property in the System Property \[sys\_properties\] table.
+Certificate Inventory and Management When discovery captures an incomplete certificate chain, sets the last captured certificate as its own root issuer and issuer. For example, this happens for a server certificate discovered without its intermediate and root certificates. This doesn't change the certificate's Is self-signed value. Set to false to turn this behavior off. This property isn't available in the base system. To change its value, create the property in the System Property \[sys\_properties\] table.
 
  -   Type: true \| false
 -   Default value: true \(if the property doesn't exist\)

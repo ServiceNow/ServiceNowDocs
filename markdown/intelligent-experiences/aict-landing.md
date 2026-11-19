@@ -1,6 +1,6 @@
 ---
-title: AI Control Tower
-description: Gain visibility into your organization's AI footprint, manage the lifecycle of AI investments, govern risk and compliance, and measure the business impact of AI with AI Control Tower.
+title: Super Intelligence Control Tower
+description: Gain visibility into your organization's AI footprint, manage the lifecycle of AI investments, govern risk and compliance, and measure the business impact of AI with Super Intelligence Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-landing.html
 release: brazil
@@ -11,23 +11,23 @@ keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Establishing AI governance, Enable AI Experiences]
 ---
 
-# AI Control Tower
+# Super Intelligence Control Tower
 
-Gain visibility into your organization's AI footprint, manage the lifecycle of AI investments, govern risk and compliance, and measure the business impact of AI with AI Control Tower.
+Gain visibility into your organization's AI footprint, manage the lifecycle of AI investments, govern risk and compliance, and measure the business impact of AI with Super Intelligence Control Tower.
 
-\[Omitted video\] Description: AI Control Tower overview video, approximately 3 minutes and 15 seconds long.
+\[Omitted video\] Description: Control Tower overview video, approximately 3 minutes and 15 seconds long.
 
-Watch this short video to learn more about the AI Control Tower application.
+Watch this short video to learn more about Control Tower.
 
 ## Get started
 
 <table id="table_get_started" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn what AI Control Tower can do for your organization and how it supports your AI governance strategy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-exploring.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn what Control Tower can do for your organization and how it supports your AI governance strategy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-exploring.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up AI Control Tower for your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up Control Tower for your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring.md)
 
 </td><td>
 

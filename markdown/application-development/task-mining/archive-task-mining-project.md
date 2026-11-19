@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Navigate to the project you want to archive.
 
-3.  Select the More actions icon \[Omitted image "more-actions-menu-icon.png"\] Alt text: More Actions icon.
+3.  Select the More actions icon \[Omitted image "icon-menu.png"\].
 
     \[Omitted image "tm-archive.png"\] Alt text: The More actions menu and the Archive option highlighted.
 
@@ -38,7 +38,7 @@ Role required: admin
 
 5.  Navigate to the project you archived that you want to reopen.
 
-6.  Select the More actions icon \[Omitted image "more-actions-menu-icon.png"\] Alt text: More Actions icon.
+6.  Select the More actions icon \[Omitted image "icon-menu.png"\].
 
     \[Omitted image "tm-reopen.png"\] Alt text: The More actions menu and the Reopen option highlighted.
 

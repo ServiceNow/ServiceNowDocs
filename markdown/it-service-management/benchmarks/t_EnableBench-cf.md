@@ -1,6 +1,6 @@
 ---
 title: Enable Benchmarks
-description: Enable Benchmarks by opting in to participate in Benchmarks data collection. With Benchmarks you can compare your organization's performance with that of the recognized industry standards.
+description: Enable Benchmarks by opting in to data collection so you can compare your organization's performance with recognized industry standards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t\_EnableBench-cf.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Benchmarks, IT Service Management]
 
 # Enable Benchmarks
 
-Enable Benchmarks by opting in to participate in Benchmarks data collection. With Benchmarks you can compare your organization's performance with that of the recognized industry standards.
+Enable Benchmarks by opting in to data collection so you can compare your organization's performance with recognized industry standards.
 
 ## Before you begin
 
@@ -38,15 +38,15 @@ Six months of global data is available after opting in. If available, the corres
 
 1.  Opt into Benchmarks using the guided setup or by navigating using the application navigator.
 
-<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d437491e137">
+<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d438561e138">
 
 Using
 
-</th><th align="left" id="d437491e140">
+</th><th align="left" id="d438561e141">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d437491e146">
+</th></tr></thead><tbody><tr><td id="d438561e147">
 
 **Guided setup**
 
@@ -56,7 +56,7 @@ Do this
 2.  Go to the **Enable Benchmarks** section and click **Configure**.
 
 
-</td></tr><tr><td id="d437491e182">
+</td></tr><tr><td id="d438561e183">
 
 **Application navigator**
 

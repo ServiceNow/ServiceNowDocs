@@ -66,7 +66,7 @@ You can also record an attribute that is not defined in the namespace. Such an a
 For information about adding Risk and compliance attributes/categories to a change request, see [Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateAChange.md).
 
 -   **[Configure the compliance dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-compliance-dynamic-schema.md)**  
-Review and adjust the dynamic namespace that supports the risk and compliance fields on a change request. Ensure the attributes and categories match the compliance obligations of your organization.
+Review and adjust the compliance dynamic namespace so the risk and compliance attributes and categories on change requests match your organization's obligations.
 
 **Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-change-management.md)
 

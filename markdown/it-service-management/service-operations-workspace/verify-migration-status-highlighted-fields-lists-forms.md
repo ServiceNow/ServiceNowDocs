@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-At the end of the migration process, a confirmation message specifies if the migration is successful or not. You can review the migration information and perform the post-migration steps to ensure successful migration of your configuration or customization.
+At the end of the migration process, a confirmation message specifies whether the migration is successful. You can review the migration information and perform the post-migration steps to ensure successful migration of your configuration or customization.
 
 ## Procedure
 
@@ -34,11 +34,11 @@ At the end of the migration process, a confirmation message specifies if the mig
 
         -   To open SOW, navigate to **All** &gt; **Workspace Experience** &gt; **Workspaces** &gt; **Service Operations Workspace**.
         -   To open ITSM Agent Workspace, enter `<instance-name>.service-now/workspace` in the web browser.
-    2.  Open a record in SOW that is corresponding to the table for which highlighted list and form field configurations are migrated.
+    2.  Open a record in SOW that corresponds to the table for which highlighted list and form field configurations are migrated.
 
-        For example: If you want to verify the highlighted list and form field migration status for an incident, navigate to **List** &gt; **Incident** &gt; **All** and then select any incident record.
+        For example, if you want to verify the highlighted list and form field migration status for an incident, navigate to **List** &gt; **Incident** &gt; **All** and then select any incident record.
 
-    3.  Review the highlighted list and form fields for an incident list and record to ensure if the highlighted values are displayed as in ITSM Agent Workspace.
+    3.  Review the highlighted list and form fields for an incident list and record to verify that the highlighted values are displayed as in ITSM Agent Workspace.
 
     4.  If the highlighted values are not working as expected, navigate to **All** &gt; **sys\_highlighted\_value.list**.
 
@@ -46,9 +46,9 @@ At the end of the migration process, a confirmation message specifies if the mig
 
         For example, table is Incident and field is Priority.
 
-    6.  If more than one record with the same **Table** and **Field** combination exist, open the records to check which records are mapped to the SOW Highlighted value config using the sys\_ux\_m2m\_highlighted\_value\_config record in the UX Highlighted Values Configurations related list.
+    6.  If more than one record with the same **Table** and **Field** combination exists, open the records to check which records are mapped to the SOW Highlighted value config using the sys\_ux\_m2m\_highlighted\_value\_config record in the UX Highlighted Values Configurations related list.
 
-    7.  If there is more than one sys\_highlighted\_value linked to SOW Highlighted value config for that Table and Field combination exist, review the order of the conditions in the Highlighted Value Condition\(sys\_highlighted\_value\_condition\) related list record for each sys\_highlighted\_value.
+    7.  If there is more than one sys\_highlighted\_value linked to SOW Highlighted value config for that Table and Field combination exists, review the order of the conditions in the Highlighted Value Condition\(sys\_highlighted\_value\_condition\) related list record for each sys\_highlighted\_value.
 
         The sys\_highlighted\_value\_condition record with lower order is given precedence when rendering the highlighted color for a field in UI.
 
@@ -56,7 +56,7 @@ At the end of the migration process, a confirmation message specifies if the mig
 
     1.  On the migration completion page in SOW Admin Center, select **View migration details**.
 
-    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text: Error\) icon.
+    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text:\) icon.
 
     3.  Review the logs to determine which items failed during migration.
 

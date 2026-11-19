@@ -35,13 +35,21 @@ The intent and resolution metrics on this page depend on the intents and resolut
 
 Metrics marked with the **AI Inferred** tag are calculated through large language model \(LLM\) transcript analysis. Results may vary and may not be fully accurate. Review AI Inferred metrics before acting on them.
 
+## Roles required
+
+You need the sn\_voice\_aia.admin role to view all the data on the Voice page.
+
+If you want to view the records behind the **Related records** links, you also need the interaction\_agent role. Without this role, the list of records is empty.
+
+If a widget shows **Access Restricted** instead of a value, you do not have reporting access to the data source for that widget. Ask your administrator to review your roles.
+
 ## Overview tab
 
 The **Overview** tab shows high-level conversation volume, resolution performance, and AI voice agent activity for the selected date range.
 
 -   **Total voice conversations**
 
-    This area of the dashboard shows the total number of voice conversations in the selected date range. Select the chart view to see how conversation volume has changed over the selected date range. Use this metric to track growth in voice interactions and set benchmarks for assistant performance. Select **Related records** to view the underlying records.
+    This area of the dashboard shows the total number of voice conversations in the selected date range. This count includes all voice conversations, including those in which no intent was detected. Select the chart view to see how conversation volume has changed over the selected date range. Use this metric to track growth in voice interactions and set benchmarks for assistant performance. Select **Related records** to view the underlying records.
 
     \[Omitted image "aiv-total-voice-conversations.png"\] Alt text: Scorecard showing the total number of voice conversations in the selected date range, with a chart toggle to view conversation volume over time.
 

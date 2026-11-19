@@ -26,8 +26,6 @@ The ServiceNow® Application Runtime Policy module enables optional, automatic g
 The ServiceNow® Automation Center application helps you govern your end-to-end, multi-vendor automation life cycles from one place, and use real-time dashboards to measure automation health and prevent failures. See the following sections for release notes by version.
 -   **[Build Agent and Autonomous Engineer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-agent-rn.md)**  
 The ServiceNow® Build Agent and Autonomous Engineer applications enable developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. See the following sections for release notes by version.
--   **[Partner Passport Portal release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/partner-passport-portal-rn.md)**  
-Partner Passport Portal is available in Workflow Data Fabric that enables you to apply committed fabric credits toward partner applications, such as Boomi. Partner Passport Portal is a new feature in the Brazil release.
 -   **[Data Catalog release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/data-catalog-rn.md)**  
  Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Brazil release.
 -   **[Developer Sandboxes release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
@@ -44,6 +42,8 @@ Lux is a Lit-based platform for building widget-based UI experiences that run on
 Lux Lab is a desktop application for building Lux applications that run on a ServiceNow instance. You create projects, edit code, preview your work, and deploy to your instance from one tool. Release notes are organized by version.
 -   **[Next Experience Components release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/component-rn.md)**  
 The ServiceNow® Next Experience Components application provides the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Brazil release.
+-   **[Partner Passport Portal release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/partner-passport-portal-rn.md)**  
+Partner Passport Portal is available in Workflow Data Fabric that enables you to apply committed fabric credits toward partner applications, such as Boomi. Partner Passport Portal is a new feature in the Brazil release.
 -   **[ReleaseOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/releaseops-rn.md)**  
 The ServiceNow® ReleaseOps application enables you to deploy and validate code from development to production in your ServiceNow environments. See the following sections for release notes by version.
 -   **[Service Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  

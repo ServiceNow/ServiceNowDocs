@@ -1,6 +1,6 @@
 ---
-title: Open tasks from the list in CSM/FSM Configurable Workspace
-description: Quickly open tasks from the list in CSM/FSM Configurable Workspace and see them in Dispatcher Workspace to act on them without searching.
+title: Open tasks from the list in CRM Workspace
+description: Quickly open tasks from the list in CRM Workspace and see them in Dispatcher Workspace to act on them without searching.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/open-task-workspace-list.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
-# Open tasks from the list in CSM/FSM Configurable Workspace
+# Open tasks from the list in CRM Workspace
 
-Quickly open tasks from the list in CSM/FSM Configurable Workspace and see them in Dispatcher Workspace to act on them without searching.
+Quickly open tasks from the list in CRM Workspace and see them in Dispatcher Workspace to act on them without searching.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ When you open multiple tasks, Dispatcher Workspace displays today's date, not th
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **CRM Workspace**.
 
 2.  Select the **List** \[Omitted image "coral-list-icon.png"\] Alt text: List icon.
 

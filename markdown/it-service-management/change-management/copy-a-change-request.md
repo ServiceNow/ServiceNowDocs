@@ -1,6 +1,6 @@
 ---
 title: Copy a change request
-description: You can copy details of an active or canceled change request to a new change request.
+description: Copy the details of an active or canceled change request to a new change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/copy-a-change-request.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Create a change request, Use, Change Management, IT Service Managem
 
 # Copy a change request
 
-You can copy details of an active or canceled change request to a new change request.
+Copy the details of an active or canceled change request to a new change request.
 
 ## Before you begin
 

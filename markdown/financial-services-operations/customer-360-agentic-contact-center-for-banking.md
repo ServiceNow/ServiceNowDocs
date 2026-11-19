@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/c
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [customer 360, customer profile, financial overview, account details, transaction history, service cases, ai-generated customer summary, total deposit, total available credit, total money owed, view customer accounts, view customer cases, customer 360 page, b2c customer, b2b account]
 breadcrumb: [Explore, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
 ---

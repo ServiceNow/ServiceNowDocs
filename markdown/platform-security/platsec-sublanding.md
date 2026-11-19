@@ -85,7 +85,7 @@ Platform security provides capabilities to secure the instance.
 
 </td></tr></tbody>
 </table>-   **[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sec-center-v2.md)**  
-ServiceNow Security Center is an application that consists of a set of tools designed to help your organization maintain the security of your ServiceNow deployments. Using Security Center, you can improve security posture and strengthen compliance levels with a seamless user experience.
+ServiceNow Security Center is an application that consists of a set of tools that help your organization maintain the security of your ServiceNow deployments. Using Security Center, you can improve security posture and strengthen compliance levels.
 -   **[Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md)**  
 The ServiceNow Security Center \(SSC\) hardening settings content contains detailed descriptions and compliance values for the security-related system properties and plugins in the ServiceNow AI Platform. You can set these properties using the hardening settings app in the Security Center.
 -   **[Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-intro.md)**  

@@ -349,7 +349,7 @@ Windows service credentials control the level of privilege on the device. The se
 
 -   The account cannot be a local system or an administrator-level account \(local admin, domain admin, and so on\).
 -   The account must have the **Log on as a service** right, which is required for an account to be used as the log on user for a service.
--   The account must have the **Increase a process working set** privilege, which is required for the MID Server to manage its memory allocation.
+-   The account must have the **Increase a process working set** privilege, which is required for the MID Server to manage its memory allocation. All default users have this privilege.
 
 **Note:**
 

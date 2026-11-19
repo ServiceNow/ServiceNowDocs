@@ -16,7 +16,7 @@ Use LES to create log source configurations, manage multi-topics per source type
 
 -   **[Create a log source configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-create-source-configuration.md)**  
 Regulate and set filters on the logs to be forwarded by creating a log source configuration.
--   **[Export existing logs on demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-export-existing-logs-on-demand.md)**  
+-   **[Export Historical Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-export-existing-logs-on-demand.md)**  
 Replay historical log data from a supported table to a Hermes topic by creating and starting a Backfill Run. Use this process to export logs from a specific time range for analysis or archival.
 -   **[Update system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/update-system-property.md)**  
 Update the glide.les.disable\_logs\_forwarding system property within the Log Export Service application to control log forwarding during migration or database reseeding operations.

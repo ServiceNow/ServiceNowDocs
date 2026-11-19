@@ -7,7 +7,7 @@ release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 keywords: [enable browser extension, dex browser extension, chrome extension, edge extension, web application monitoring]
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Operations Management]
@@ -33,15 +33,15 @@ Role required: none
 
 1.  Install the DEX browser extension for your browser.
 
-<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d557268e115">
+<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d560997e113">
 
 Browser
 
-</th><th align="left" id="d557268e118">
+</th><th align="left" id="d560997e116">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d557268e124">
+</th></tr></thead><tbody><tr><td id="d560997e122">
 
 **Google Chrome**
 
@@ -52,7 +52,7 @@ Steps
 3.  In the confirmation dialog box, select **Add extension**.
 
 
-</td></tr><tr><td id="d557268e160">
+</td></tr><tr><td id="d560997e156">
 
 **Microsoft Edge**
 

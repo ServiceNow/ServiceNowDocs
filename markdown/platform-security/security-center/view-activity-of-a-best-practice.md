@@ -22,9 +22,9 @@ Role required: admin
 
 ## Procedure
 
-1.  Access Security Best Practices Manager by selecting **All** on your ServiceNow instance and then enter best practice.
+1.  Access Security Best Practices Manager by selecting **All** on your ServiceNow instance and then enter `best practice`.
 
-2.  On the Best Practices table, select a security best practice you want to view the activity for in the **Name** column.
+2.  On the Best Practices table, select a security best practice in the **Name** column to view its activity.
 
 3.  Select the **Activity** tab.
 

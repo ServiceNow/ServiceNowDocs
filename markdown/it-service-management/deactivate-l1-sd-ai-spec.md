@@ -16,7 +16,7 @@ Deactivate the L1 IT Service Desk AI Specialist so that it no longer acts on rec
 
 ## Before you begin
 
-Role required: sn\_itsm\_common.sn\_service\_desk\_manager or admin
+Role required: sn\_sow\_itsm\_common.sn\_service\_desk\_manager or admin
 
 ## Procedure
 

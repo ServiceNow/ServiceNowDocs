@@ -41,7 +41,7 @@ SLA has default scheduled jobs to regularly refresh the time calculations on eac
 -   **[SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_SLATimeline.md)**  
 The SLA timeline is a feature of the Service Level Management application. The SLA timeline detail helps you understand the progress of an SLA. The timeline provides detailed insight to the task updates which triggered stage changes during the life cycle of a task SLA.
 -   **[Service Level Agreement \(Legacy\) engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_GetStartedWithSLAs.md)**  
-If you are on an earlier version of the SLA engine, you can upgrade to the 2011 engine to make use of the complete service level management functionality.
+If you are on an earlier version of the SLA engine, you can upgrade to the 2011 engine to use the complete service level management functionality.
 -   **[Task SLA table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/r_TaskSLATable.md)**  
 The Task SLA \[task\_sla\] table stores Task SLA records for the SLAs attached to particular tasks.
 -   **[Domain separation and Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/domain-separation-sla.md)**  
@@ -50,8 +50,10 @@ Domain separation is supported in Service Level Management. Domain separation en
 Validate that Service Level Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 -   **[Configure Service Level Agreement \(SLA\) properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/t_ConfigureSLAProperties.md)**  
 You can configure the SLA engine, logging, and repair properties based on the requirements within your organization.
--   **[Migrate to service level management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_MigrationToServiceLevelMgmt.md)**  
+-   **[Migration to service level management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_MigrationToServiceLevelMgmt.md)**  
 Migrate SLA processing from the escalations engine to use the service level management functionality.
+-   **[Service Level Management glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/glossary-itsm-service-level-management.md)**  
+Learn about the terms and concepts used in Service Level Management.
 
 **Parent Topic:**[Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/service-level-mgmt-landing-page.md)
 

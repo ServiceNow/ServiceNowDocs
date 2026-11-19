@@ -584,4 +584,5 @@ ERP
 RFC/BAPI
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation content pack for SAP master data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)
+

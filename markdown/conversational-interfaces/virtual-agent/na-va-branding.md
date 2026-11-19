@@ -7,7 +7,7 @@ release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Create assistants, Virtual Agent, Conversational Interfaces]
 ---

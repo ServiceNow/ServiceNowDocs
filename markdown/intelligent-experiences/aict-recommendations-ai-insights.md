@@ -1,6 +1,6 @@
 ---
 title: Recommendations and AI insights
-description: Recommendations and AI insights direct your attention to the AI governance work that matters most, so you can resolve high-impact issues without searching for them.
+description: Recommendations and AI insights in Super Intelligence Control Tower direct your attention to the AI governance work that matters most, so you can resolve high-impact issues without searching for them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-recommendations-ai-insights.html
 release: brazil
@@ -8,14 +8,14 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [recommendation, AI insight, Top action items, Activity Center]
-breadcrumb: [Explore, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Explore, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Recommendations and AI insights
 
-Recommendations and AI insights direct your attention to the AI governance work that matters most, so you can resolve high-impact issues without searching for them.
+Recommendations and AI insights in Super Intelligence Control Tower direct your attention to the AI governance work that matters most, so you can resolve high-impact issues without searching for them.
 
-AI Control Tower continuously evaluates your managed AI assets against governance, security, value, risk, and compliance criteria. When AI Control Tower detects an issue or an opportunity, it surfaces that finding as either a recommendation or an AI insight, depending on whether the user is expected to take action or to read contextual information.
+Control Tower continuously evaluates your managed AI assets against governance, security, value, risk, and compliance criteria. When Control Tower detects an issue or an opportunity, it surfaces that finding as either a recommendation or an AI insight, depending on whether the user is expected to take action or to read contextual information.
 
 ## Key benefits
 
@@ -26,9 +26,9 @@ AI Control Tower continuously evaluates your managed AI assets against governanc
 
 ## Recommendations
 
-A recommendation is an action item that AI Control Tower has identified as worth your attention. Each recommendation names the condition that was detected, the outcome it supports, and how you can resolve it.
+A recommendation is an action item that Control Tower has identified as worth your attention. Each recommendation names the condition that was detected, the outcome it supports, and how you can resolve it.
 
-Recommendations appear throughout AI Control Tower.
+Recommendations appear throughout Control Tower.
 
 -   **Your top recommendations on the Home page**
 
@@ -51,25 +51,25 @@ Recommendations appear throughout AI Control Tower.
 
 ## AI Agent Advisor recommendations
 
-When you install AI Agent Advisor, its highest-value automation opportunities also surface as recommendations in AI Control Tower, so you can discover agent-building opportunities without checking AI Admin Center separately. AI Control Tower shows your top automation opportunities, ranked by projected return on investment, up to a limit you can configure with the `sn_aict_genai.aaa_automation_opportunities_limit` property \(10 by default\).
+When you install AI Agent Advisor, its highest-value automation opportunities also surface as recommendations in Control Tower, so you can discover agent-building opportunities without checking AI Admin Center separately. Control Tower shows your top automation opportunities, ranked by projected return on investment, up to a limit you can configure with the `sn_aict_genai.aaa_automation_opportunities_limit` property \(10 by default\).
 
 Each recommendation card shows the opportunity's name and a short description. Selecting the recommendation's action opens the Automation details page for that specific opportunity in AI Admin Center, where you can act on it, such as by building an agent.
 
-This integration requires no setup. The connection activates automatically when both AI Agent Advisor and AI Admin Center are installed on your instance. AI Agent Advisor must also complete at least one mining run before its opportunities appear. If AI Admin Center isn't installed, AI Agent Advisor doesn't send any recommendations to AI Control Tower.
+This integration requires no setup. The connection activates automatically when both AI Agent Advisor and AI Admin Center are installed on your instance. AI Agent Advisor must also complete at least one mining run before its opportunities appear. If AI Admin Center isn't installed, AI Agent Advisor doesn't send any recommendations to Control Tower.
 
-Recommendations stay current on their own, refreshing daily. If an opportunity is still among the top group the next day, AI Control Tower updates the existing recommendation instead of adding a duplicate. If an opportunity drops out of the top group, or no longer exists in AI Admin Center by the time you select it, AI Control Tower removes the recommendation.
+Recommendations stay current on their own, refreshing daily. If an opportunity is still among the top group the next day, Control Tower updates the existing recommendation instead of adding a duplicate. If an opportunity drops out of the top group, or no longer exists in AI Admin Center by the time you select it, Control Tower removes the recommendation.
 
 For details on AI Agent Advisor, see [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-advisor-landing-page.md).
 
 ## AI insights
 
-An AI insight is a contextual fact that AI Control Tower adds to a dashboard to give you a richer reading of the data. Unlike a recommendation, an AI insight does not ask you to take action. It appears as a short line of text near the data it explains, such as "Total productivity gains in last 30 days" or "Three AI systems delivered 82% of total value." AI insights appear inside widgets on the Home page, the Value page, the Risk and Compliance page, Security page, and other AI Control Tower dashboards.
+An AI insight is a contextual fact that Control Tower adds to a dashboard to give you a richer reading of the data. Unlike a recommendation, an AI insight does not ask you to take action. It appears as a short line of text near the data it explains, such as "Total productivity gains in last 30 days" or "Three AI systems delivered 82% of total value." AI insights appear inside widgets on the Home page, the Value page, the Risk and Compliance page, Security page, and other Control Tower dashboards.
 
 When an AI insight is associated with a supervised agent, you can select **Manage with AI** to start a conversation that expands on the insight with deeper analysis.
 
 ## Resolving recommendations
 
-Each recommendation includes a primary resolution that AI Control Tower has selected as the most efficient path to address the underlying issue. Alternatively, you can mark the recommendation as complete if you address the issue another way. For the full procedure, see [Resolving AI recommendations in Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-resolving-ai-recommendations.md).
+Each recommendation includes a primary resolution that Control Tower has selected as the most efficient path to address the underlying issue. Alternatively, you can mark the recommendation as complete if you address the issue another way. For the full procedure, see [Resolving AI recommendations in Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-resolving-ai-recommendations.md).
 
 The following options are available in the **Actions** menu:
 
@@ -77,15 +77,15 @@ The following options are available in the **Actions** menu:
 |------|-----------|
 |**View details**|Provides the reasoning behind the recommendation, the asset or scope it applies to, and the history of earlier runs.|
 |**Complete**|Marks the recommendation as resolved without running the primary resolution action. Use this option when you have addressed the underlying issue in another way.|
-|**Delete**|Removes the recommendation. A deleted recommendation might reappear if AI Control Tower detects the same condition again.|
+|**Delete**|Removes the recommendation. A deleted recommendation might reappear if Control Tower detects the same condition again.|
 
 Depending on how the recommendation was produced, you can use one of the following resolution options:
 
 |Primary resolution|Description|
 |------------------|-----------|
 |**Automate with Otto**|An unsupervised agent runs the resolution workflow on your behalf. When you confirm, the agent executes the steps and updates the recommendation status to **In progress**, then to **Complete** once the work is done. This resolution pattern is used for recommendations where the steps are routine and don't require your input, such as populating missing asset descriptions.|
-|**Manage with Otto**|A supervised agent opens a conversation in the AI Control Tower chat interface. The agent proposes actions, and you accept, refine, or reject each one. This resolution pattern is used for recommendations that benefit from your judgment, such as reviewing the evidence behind a security threat before resolving it.|
-|**Open**|AI Control Tower redirects you to the record, page, or workflow where you can resolve the issue directly. This resolution pattern is used for recommendations that require changes in another part of the product, such as creating tasks in an onboarding playbook.|
+|**Manage with Otto**|A supervised agent opens a conversation in the Control Tower chat interface. The agent proposes actions, and you accept, refine, or reject each one. This resolution pattern is used for recommendations that benefit from your judgment, such as reviewing the evidence behind a security threat before resolving it.|
+|**Open**|Control Tower redirects you to the record, page, or workflow where you can resolve the issue directly. This resolution pattern is used for recommendations that require changes in another part of the product, such as creating tasks in an onboarding playbook.|
 
 When you select **View details** from the action menu, the side panel offers two views:
 
@@ -100,7 +100,7 @@ When you select **View details** from the action menu, the side panel offers two
 
 ## Prioritizing recommendations
 
-AI Control Tower does not show every recommendation it detects. Recommendations are prioritized according to the following factors:
+Control Tower does not show every recommendation it detects. Recommendations are prioritized according to the following factors:
 
 -   **Your role**
 
@@ -112,7 +112,7 @@ AI Control Tower does not show every recommendation it detects. Recommendations 
 
 -   **Confidence**
 
-    Each recommendation carries a confidence level of **Low**, **Medium**, or **High**. Confidence reflects how certain AI Control Tower is that the detected condition is accurate. A high-confidence recommendation ranks above a low-confidence recommendation at the same severity.
+    Each recommendation carries a confidence level of **Low**, **Medium**, or **High**. Confidence reflects how certain Control Tower is that the detected condition is accurate. A high-confidence recommendation ranks above a low-confidence recommendation at the same severity.
 
 -   **Age**
 
@@ -152,7 +152,7 @@ You can manually mark a recommendation as **Complete** or delete it from the act
 
 [Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-activity-center.md)
 
-[ServiceNow Otto in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-convrstn-support.md)
+[ServiceNow Otto in Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-convrstn-support.md)
 
 [Detecting governance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-insight-detection.md)
 

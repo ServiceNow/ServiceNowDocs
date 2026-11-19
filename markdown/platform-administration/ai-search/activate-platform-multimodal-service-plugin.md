@@ -7,9 +7,9 @@ release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Activate the Platform Multimodal Service plugin
@@ -53,7 +53,7 @@ With the plugin activated, administrators have additional configuration options 
 
 -   AI Search administrators can activate multimodal captioning for individual AI Search indexed sources. For details on this procedure, see [Activate multimodal captioning for attachments from an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/activate-multimodal-captioning.md).
 -   Connector administrators can activate multimodal captioning in the crawl settings for an external content connector. To learn about configuring crawl settings for external content connectors, see [Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/cfg-crawl-settings-ext-cont-connector.md).
--   AI Search administrators can select the VLM \(visual learning model\) provider and model used by the Platform Multimodal Service. For details on this process, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
+-   When the AI Search Admin console is installed, AI Search administrators can select the VLM \(visual learning model\) provider and model used by the Platform Multimodal Service. For details on this process, see [Configure multimodal captioning with AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
 
 **Parent Topic:**[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/configuring-ais.md)
 

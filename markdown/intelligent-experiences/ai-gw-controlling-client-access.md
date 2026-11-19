@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-26"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, access management, client access policy, MCP tools, AI Gateway]
-breadcrumb: [Configure, AI Gateway, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, AI Gateway, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Controlling which tools clients can access
@@ -48,7 +48,7 @@ AI Gateway gets a client's allowed tools when it exchanges the client's access t
 
 ## Where you manage client access
 
-You manage client access on the MCP server record. In AI Control Tower, navigate to **Inventory** &gt; **Assets** &gt; **MCP servers**, select the server name, select the **AI Gateway** tab, and then select the **Policies** sub-tab. When client access control is on for the instance, the **Policy categories** list starts with **Access management**, which opens by default. Its count is the number of client access policies on the server.
+You manage client access on the MCP server record. In Control Tower, navigate to **Inventory** &gt; **Assets** &gt; **MCP servers**, select the server name, select the **AI Gateway** tab, and then select the **Policies** sub-tab. When client access control is on for the instance, the **Policy categories** list starts with **Access management**, which opens by default. Its count is the number of client access policies on the server.
 
 The **Access management** card shows whether access management is on for the server and has a toggle switch to turn it on or off. Below the card, the **Client access** list shows the server's client access policies.
 

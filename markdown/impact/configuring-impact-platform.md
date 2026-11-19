@@ -34,7 +34,7 @@ Use the Impact Setup Hub to install Impact and complete a sequence of tasks that
 2.  [Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/assign-roles.md)  
 Assign users to the role groups that control access to Impact, Platform Health, and the Now Assist panel.
 3.  [Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-initial-scan-engine-settings.md)  
-Use Impact Guided Setup to set up the minimum required configuration options in order to run the first system scan.
+Set up the minimum required configuration options to run the first system scan.
 4.  [Register and connect to the data provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-registration.md)  
 Automated registration initiates, establishes, and verifies the secure connection to the Impact Delivery Instance, the provider, into one combined task.
 5.  [Grant temporary instance access to your Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/hop-access-impact-squad.md)  

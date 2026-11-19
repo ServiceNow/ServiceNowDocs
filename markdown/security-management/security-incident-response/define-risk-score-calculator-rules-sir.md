@@ -168,6 +168,8 @@ The Risk Score Calculator is provisioned with one risk-scoring rule as part of t
 **Related topics**  
 
 
+[Setup for the UI Builder]()
+
 [Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
 
 [Set up view of SIR Records]()

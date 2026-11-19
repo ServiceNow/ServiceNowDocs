@@ -26,7 +26,7 @@ Role required: admin, change\_manager
 
 2.  Select the template you want to modify.
 
-3.  From the **More Actions** icon \(\[Omitted image "vertical-more-action.png"\] Alt text: more actions icon\), select **Edit template**.
+3.  From the **More Actions** icon \(\[Omitted image "vertical-more-action.png"\] Alt text:\), select **Edit template**.
 
 4.  Enter your edits in the **Modify a Standard Change Template** form.
 

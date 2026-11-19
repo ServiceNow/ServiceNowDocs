@@ -1,6 +1,6 @@
 ---
 title: Start a conference call using Webex in Service Operations Workspace
-description: Start a conference call using Webex from to work towards the resolution of an incident.
+description: Start a conference call using Webex to work toward the resolution of an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/start-conference-call-webex.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Conference calls with Webex in Service Operations Workspace, Notify
 
 # Start a conference call using Webex in Service Operations Workspace
 
-Start a conference call using Webex from to work towards the resolution of an incident.
+Start a conference call using Webex to work toward the resolution of an incident.
 
 ## Before you begin
 
@@ -24,19 +24,19 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text: List icon\) icon.
+2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text:\) icon.
 
 3.  Select **Incidents** &gt; **Open**.
 
 4.  Select the incident record.
 
-5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text: Collaborate icon\) from the contextual side panel.
+5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text:\) from the contextual side panel.
 
-6.  Select **Calls** tab, and then select plus \(+\) icon.
+6.  Select the **Calls** tab, and then select the plus \(+\) icon.
 
 7.  Select **Start Webex meeting**.
 
-8.  On the form, fill the fields.
+8.  On the form, fill in the fields.
 
 <table id="table_ovh_qxh_web"><thead><tr><th>
 

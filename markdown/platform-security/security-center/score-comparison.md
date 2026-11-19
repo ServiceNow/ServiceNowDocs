@@ -22,7 +22,7 @@ Compare two scans of the same security suite to gain visibility to the health of
 
 Select a scan in the **Scan Suite** list, then select a **First Scan** and **Second Scan** to begin a comparison.
 
-The security scan comparison page displays the security changes in your hardening settings between the first and second scans. Below is an explanation of each card:
+The security scan comparison page displays the security changes in your hardening settings between the first and second scans. The following list explains each card:
 
 -   **Scan findings**
 
@@ -42,7 +42,7 @@ The security scan comparison page displays the security changes in your hardenin
 
 -   **Scan findings**
 
-    List of all scan findings. Select a finding, scan result, or check to view the associated record and find additional details. Use the bottoms in the upper right to filter, refresh, or export the list.
+    List of all scan findings. Select a finding, scan result, or check to view the associated record and find additional details. Use the list buttons to filter, refresh, or export the list.
 
 
 **Parent Topic:**[Security scanner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-scanning.md)

@@ -18,6 +18,8 @@ The Software Asset Management License Position report shows compliance details f
 
 You can view and export the software model compliance list for your environment to understand your license position.
 
+Access this report from **License usage** &gt; **Reports**.
+
 Two license metric results are generated if a software model has two entitlements, one with a perpetual SA license type and the other with a subscription license type. One license metric result where active maintenance is true and the other where the active maintenance is false. In such a scenario, two license position reports are generated, one with active maintenance true and the other one with active maintenance false.
 
 A single license position report is generated if there are any unlicensed installations. A single license position report is also generated if there are any unlicensed subscriptions. If both are present, two license position reports are generated.
@@ -91,35 +93,19 @@ Total cost of rights owned.
 
 </td></tr><tr><td>
 
-Rights owned
+Licenses owned
 
 </td><td>
 
-Sum of all active rights.
+Sum of all active licenses.
 
 </td></tr><tr><td>
 
-Rights used
+Licenses required
 
 </td><td>
 
-Sum of rights allocated in use and not allocated in use.
-
-</td></tr><tr><td>
-
-Rights needed
-
-</td><td>
-
-Rights needed to cover the number of unlicensed installs.
-
-</td></tr><tr><td>
-
-Rights available
-
-</td><td>
-
-Rights owned less rights used.
+Licenses needed to cover the number of unlicensed installs.
 
 </td></tr><tr><td>
 

@@ -1,6 +1,6 @@
 ---
-title: Multilingual service for Now Assist
-description: Now Assist applications use the multilingual capabilities of large language models \(LLMs\) to translate user-generated content.
+title: Multilingual service for ServiceNow Otto
+description: ServiceNow Otto applications use the multilingual capabilities of large language models \(LLMs\) to translate user-generated content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/translation-for-now-assist.html
 release: brazil
@@ -11,13 +11,13 @@ keywords: [Translation, Now Assist, Generative AI, GenAI, Native translation]
 breadcrumb: [Configure multilingual service for ServiceNow Otto applications, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Multilingual service for Now Assist
+# Multilingual service for ServiceNow Otto
 
-Now Assist applications use the multilingual capabilities of large language models \(LLMs\) to translate user-generated content.
+ServiceNow Otto applications use the multilingual capabilities of large language models \(LLMs\) to translate user-generated content.
 
 ## Multilingual service overview
 
-You can configure the multilingual services for Now Assist applications to communicate with your users in their preferred languages. The LLM detects the language used based on the user's language choice in their Language &amp; Region preferences or the contents of the text, such as a conversation message.
+You can configure the multilingual services for ServiceNow Otto applications to communicate with your users in their preferred languages. The LLM detects the language used based on the user's language choice in their Language &amp; Region preferences or the contents of the text, such as a conversation message.
 
 Multilingual support is enabled for multiple LLM providers, such as Now LLM Service, Microsoft Azure OpenAI, Anthropic Claude, and Google Gemini. Azure OpenAI offers the most language support on the ServiceNow AI Platform.
 
@@ -29,7 +29,7 @@ For Dynamic Translation, once non-English content is detected, the translation s
 
 If you enable both native translation and Dynamic Translation, native translation has preference and is used first.
 
-If you have native translation enabled, the LLM checks the user's language to see if it is supported. If the language is supported, only native translation is used and no Dynamic Translation occurs. A small number of languages are not yet natively supported by all models. Now Assist Dynamic Translation is automatically applied to address this for unsupported languages. Additionally, if you have native translation enabled, then LLM requests that return outputs in the fallback language will not be translated by Dynamic Translation. Otherwise, they’ll be returned as-is to the user. This process helps increase skill performance and decrease latency.
+If you have native translation enabled, the LLM checks the user's language to see if it is supported. If the language is supported, only native translation is used and no Dynamic Translation occurs. A small number of languages are not yet natively supported by all models. ServiceNow Otto Dynamic Translation is automatically applied to address this for unsupported languages. Additionally, if you have native translation enabled, then LLM requests that return outputs in the fallback language will not be translated by Dynamic Translation. Otherwise, they’ll be returned as-is to the user. This process helps increase skill performance and decrease latency.
 
 **Note:** If you want to add a language that is not part of the regularly configured languages, you can do so. See the section below, Adding languages beyond the P1, P2, and P3 language groups.
 
@@ -97,8 +97,8 @@ Some providers, such as Azure OpenAI, offer additional language support beyond t
         **Note:** The model for AI Search is named E5FT. If you want to make changes to the language support for AI Search, you can configure that record. After, you need to reindex all sources in the new language.
 
     -   In the **Supported languages** list, add the language and save the record.
--   **Activate the language for Now Assist applications.**
-    -   Go to **All** &gt; **Now Assist Admin** &gt; **Settings** and open the **Multilingual service** tab.
+-   **Activate the language for ServiceNow Otto applications.**
+    -   Go to **All** &gt; **AI Admin Hub** &gt; **Settings** and open the **Multilingual service** tab.
     -   Scroll to the provider you edited, then select the edit button.
     -   Select the language you added and save.
 
@@ -109,7 +109,7 @@ Some providers, such as Azure OpenAI, offer additional language support beyond t
 
 ## Dynamic Translation
 
-Dynamic Translation for Now Assist uses the Microsoft Azure OEM translation service through ServiceNow. Most languages available as a language pack on the ServiceNow platform are supported by Microsoft Azure OEM. Self-localized languages \(languages other than the default language packs\) aren't supported.
+Dynamic Translation for ServiceNow Otto uses the Microsoft Azure OEM translation service through ServiceNow. Most languages available as a language pack on the ServiceNow platform are supported by Microsoft Azure OEM. Self-localized languages \(languages other than the default language packs\) aren't supported.
 
 -   For the list of available language packs, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateALanguage.md).
 -   For more information about Microsoft Azure OEM, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md).
@@ -122,9 +122,9 @@ There are different factors that can go into your decision to use one translatio
 
 For more information on tracking Now Assist usage, see [Monitoring Now Assist usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-## Enabling translation for Now Assist
+## Enabling translation for ServiceNow Otto
 
-For more information on turning on multilingual services for Now Assist applications, see [Enable translation for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
+For more information on turning on multilingual services for ServiceNow Otto applications, see [Enable translation for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
 
 **Parent Topic:**[Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
 

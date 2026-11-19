@@ -38,7 +38,7 @@ To push data directly into an application table from another system, use Web Ser
 
 To handle data transactions that are more complex than writing data to a table, such as sending an attachment or ordering a catalog item, review the available [APIs](https://developer.servicenow.com/dev.do#!/reference/api/rome/rest/c_TableAPI) to see if one exists that supports the required logic.
 
-Use a Scripted REST API or Scripted SOAP Web Service to build REST or SOAP endpoints, respectively. Scripted REST API and Scripted SOAP Web Service endpoints can execute ServiceNow server-side code when the endpoint is consumed by an external system.
+Use [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_CustomWebServices.md) or [Scripted SOAP web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/c_ScriptedWebServices.md) to build REST or SOAP endpoints, respectively. Scripted REST API and Scripted SOAP Web Service endpoints can execute ServiceNow server-side code when the endpoint is consumed by an external system.
 
 Self-Paced Training: [REST Integrations](https://developer.servicenow.com/dev.do#!/learn/courses/rome/app_store_learnv2_rest_rome_rest_integrations)
 

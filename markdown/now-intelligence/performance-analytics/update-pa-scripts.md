@@ -38,7 +38,7 @@ Role required: pa\_admin, admin
 
 3.  In the Source section, click the lock icon next to the list of Fields.
 
-    \[Omitted image "update-scripts-fields-lock.png"\] Alt text: The Fields list in a script record, showing the lock icon
+    \[Omitted image "update-scripts-fields-lock.png"\] Alt text: Lock icon
 
     The Fields selector opens.
 

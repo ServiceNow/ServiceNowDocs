@@ -67,7 +67,7 @@ Action completes without visible result \(macOS\)
 
 </td><td>
 
-Confirm that the sudoers file grants the required permissions to `_servicenow`.For more information, see [Configure the ServiceNow sudoers file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/config-sudoers-file.md).
+Confirm that the sudoers file grants the required permissions to `_servicenow`.To configure the sudoers file, see [Configure the ServiceNow sudoers file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/config-sudoers-file.md).
 
 </td></tr><tr><td>
 
@@ -86,5 +86,5 @@ Action triggers unexpectedly or does not trigger at all
 Check the metric source on the metric definition record. If the metric source does not match the expected evaluation method, the action might trigger incorrectly or not at all.
 
 </td></tr></tbody>
-</table>**Note:** If a symptom persists, contact ServiceNow Customer Support.
+</table>**Note:** If a symptom persists, contact ServiceNow support.
 

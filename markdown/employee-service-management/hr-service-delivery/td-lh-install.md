@@ -1,6 +1,6 @@
 ---
 title: Install the Leader Hub application
-description: Install the Leader Hub application to equip your organizational and HR leaders with the necessary tools to cultivate growth, develop talent, and make critical decisions that guide their organization toward long-term prosperity. The Leader Hub app gives leaders access to data about their organization's talent from the Employee Center.
+description: Install the Leader Hub application to equip your organizational and HR leaders with the necessary tools. These tools cultivate growth, develop talent, and make critical decisions. Those decisions guide the organization toward long-term prosperity. The Leader Hub app gives leaders access to data about their organization's talent from the Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/td-lh-install.html
 release: brazil
@@ -14,11 +14,11 @@ breadcrumb: [Installing and configuring Leader Hub, Leader Hub, HR Service Deliv
 
 # Install the Leader Hub application
 
-Install the Leader Hub application to equip your organizational and HR leaders with the necessary tools to cultivate growth, develop talent, and make critical decisions that guide their organization toward long-term prosperity. The Leader Hub app gives leaders access to data about their organization's talent from the Employee Center.
+Install the Leader Hub application to equip your organizational and HR leaders with the necessary tools. These tools cultivate growth, develop talent, and make critical decisions. Those decisions guide the organization toward long-term prosperity. The Leader Hub app gives leaders access to data about their organization's talent from the Employee Center.
 
 ## Before you begin
 
-The Leader Hub app has a dependency on UI share library\[sn\_ui\_lib\].
+The Leader Hub app has a dependency on UI share library \[sn\_ui\_lib\].
 
 Role required: admin
 

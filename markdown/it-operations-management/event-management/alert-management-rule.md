@@ -94,7 +94,7 @@ By default, the alert grouping job \(**Service Analytics group alerts using RCA/
 Existing alert action rules from an earlier release can be migrated to become alert management rules. You can modify an alert action rule only after migrating it to an alert management rule. For more information, see [Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMCreateAlertRule.md).
 
 -   **[Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-alert-management-rule.md)**  
-Create an alert management rule to track alerts and resolve them by determining the required response, for example, to open an incident or launch remediation action.
+Create an alert management rule to track and resolve alerts, for example, by opening an incident or launching remediation.
 -   **[Event Management subflows in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/subflows-provided.md)**  
 The subflows provided with the base system appear in the Remediation Subflows area of alert management rules.
 -   **[Create a custom subflow for alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-custom-create-incident-subflow.md)**  

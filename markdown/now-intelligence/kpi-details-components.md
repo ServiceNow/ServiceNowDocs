@@ -24,7 +24,7 @@ The date selector uses whatever calendar the indicator uses.
 
 If real-time scores are enabled for the indicator, select in the header whether to view them, using the clock icon \[Omitted image "kpi-details-real-time-icon-off.png"\] Alt text: Real-time scores icon turned off. This icon is transparent when real-time scores are disabled and solid when they are enabled \[Omitted image "real-time-update-icon.png"\] Alt text: Real time icon when real time is activated. For more information, see [Real-time scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/real-time-scores.md).
 
-If a target is set for the selected date, the header shows the target value and the gap between the score on that date and the target, in both absolute and percentage terms. If both target and forecast are shown, as set in [Chart options in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/chart-options.md), a badge shows whether the indicator is on track or off track to meet the target by the review date.
+If a target is set for the selected date, the header shows the target value. It also shows the gap between the score on that date and the target, in both absolute and percentage terms. If both target and forecast are shown, a badge shows whether the indicator is on track or off track to meet the target by the review date.
 
 **Warning:** Real-time scores can differ per viewer and differ from collected scores. Real-time scores are taken directly from the relevant facts tables. Therefore, the Access Control Lists \(ACL\) of those facts tables determine the real-time scores that each logged-in user sees.
 
@@ -52,7 +52,7 @@ Use the sidebar controls to:
 
 ## Process analysis
 
-Besides these three sections, a **Run process analysis** button lets you launch a Process Mining analysis on the indicator. For more information, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/process-mining.md).
+Besides these three sections, a **Run process analysis** button lets you launch a Process Mining analysis on the indicator. For more information, see .
 
 ## More actions menu
 

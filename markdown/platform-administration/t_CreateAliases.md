@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Normal values, Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Normal values, Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create aliases

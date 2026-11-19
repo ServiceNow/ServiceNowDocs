@@ -37,3 +37,5 @@ Share the confirmed email address with the Provisioner or ServiceNow AI Platform
 
 Once you receive an account creation confirmation email on `aws-ccoe@mycompany.com`, set the root credentials manually based on your company's security standards.
 
+**Parent Topic:**[Setting up a root email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/setting-up-root-email.md)
+

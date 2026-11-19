@@ -65,5 +65,5 @@ For more context, refer to [Discovery patterns used by ITOM Visibility](https://
 
 [Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 
-[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-domain-sep-recommended.md)
+[bundle-psec.bp-domain-sep-recommended]
 

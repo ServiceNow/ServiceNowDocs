@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Scripting for email notifications, Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Scripting for email notifications, Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Useful attachment scripts

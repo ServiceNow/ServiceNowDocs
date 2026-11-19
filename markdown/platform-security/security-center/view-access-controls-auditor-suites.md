@@ -1,6 +1,6 @@
 ---
-title: View the Access Controls Auditor Suite
-description: View the checks available in the default Access Controls Auditor Suites to understand which checks are executed when this suite runs.
+title: View the access controls auditor suite
+description: View the checks available in the default access controls auditor suite to understand which checks are executed when this suite runs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/view-access-controls-auditor-suites.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Create a scan suite, Scan suites, Security scanner, Security configuration console, Security Center, Platform Security]
 ---
 
-# View the Access Controls Auditor Suite
+# View the access controls auditor suite
 
-View the checks available in the default Access Controls Auditor Suites to understand which checks are executed when this suite runs.
+View the checks available in the default access controls auditor suite to understand which checks are executed when this suite runs.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ The steps you need to complete to access the default access controls auditor sui
 
 ## Procedure
 
-1.  In Security Center, select the **Scanner** tab, then select **Suites** from the panel on the left.
+1.  In Security Center, select the **Scanner** tab, then select **Suites**.
 
 2.  In the **Scan Suites** page, select **Auditor** from the list.
 
@@ -38,8 +38,8 @@ The steps you need to complete to access the default access controls auditor sui
 
 5.  Analyze the fields associated with the check.
 
-    |Name|Description|
-    |----|-----------|
+    |Field|Description|
+    |-----|-----------|
     |Name|Name of the check.|
     |Application|The application to which the check belongs \(Security Center\).|
     |Category|Category associated with the check.|

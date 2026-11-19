@@ -1,5 +1,5 @@
 ---
-title: Manage definition properties
+title: Configure definition properties
 description: You can configure additional capabilities and configuration options for the definition ruleset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/additional-scan-engine-properties.html
@@ -7,10 +7,10 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
-# Manage definition properties
+# Configure definition properties
 
 You can configure additional capabilities and configuration options for the definition ruleset.
 

@@ -32,15 +32,15 @@ You can also print a project status report from project workspace. To print a re
 
 1.  Create a project status report.
 
-<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d61746e88">
+<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d61918e90">
 
 Option
 
-</th><th align="left" id="d61746e91">
+</th><th align="left" id="d61918e93">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d61746e97">
+</th></tr></thead><tbody><tr><td id="d61918e99">
 
 **From project workspace**
 
@@ -52,7 +52,7 @@ Steps
 
 **Note:** Alternatively, select a status report and select **Copy** from the choice list next to **Create new**. This option copies the selected status report including all fields into the new report.
 
-</td></tr><tr><td id="d61746e150">
+</td></tr><tr><td id="d61918e152">
 
 **From project record**
 

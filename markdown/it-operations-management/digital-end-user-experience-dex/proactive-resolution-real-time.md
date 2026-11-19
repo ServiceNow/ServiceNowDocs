@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
+keywords: [real time proactive resolution, auto correction scripts, alert generation, alert remediation, silent execution, notify and engage, alert correlation, experience issue, automatic remediation]
 breadcrumb: [Resolve issues, Solve issues, Digital End-User Experience, IT Operations Management]
 ---
 

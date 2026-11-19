@@ -26,7 +26,7 @@ To import external datasets into ServiceNow® and create a project with it and m
 -   [Import external data into the audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/import-data.md)
 -   [Validate the imported data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/verify-data.md)
 -   [Create a records table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/create-case-record.md)
--   [Create a project and mine it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/create-project.md)
+-   [Create a project and mine it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-project.md)
 
 \[Omitted image "ext-dataset-arch.png"\] Alt text: External dataset architecture
 

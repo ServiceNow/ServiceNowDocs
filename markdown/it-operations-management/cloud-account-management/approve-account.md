@@ -20,14 +20,25 @@ Approve or deny a cloud account request as an approver. A notification email is 
 
 Role required: sn\_itom\_cam.cw\_approver
 
+## About this task
+
+Approvers don't have access to the Cloud Workspace home page. As an approver, you work from the list of requests that are pending your approval.
+
 ## Procedure
 
-1.  Select **Requests** &gt; **Pending approvals**.
+1.  Navigate to **All** &gt; **Cloud Workspace** &gt; **Manage and Configure**.
 
-2.  Review the request and select **Approve** or **Deny**.
+2.  Select **Requests** &gt; **Pending approvals**.
 
-3.  Confirm your decision.
+3.  Review the request and select **Approve** or **Deny**.
 
+4.  Confirm your decision.
+
+    The following email notifications are sent:
+
+    -   SA Approved Notification: Sent to the requester when the request is approved for provisioning.
+    -   Approved Notification: Sent to the ITOM CW Admin Group when the request is approved for provisioning.
+    -   Denied Notification: Sent to the requester when the request is denied.
 
 **Parent Topic:**[Creating a cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/creating-an-account.md)
 

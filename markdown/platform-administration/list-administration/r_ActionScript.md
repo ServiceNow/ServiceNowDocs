@@ -7,9 +7,9 @@ release: brazil
 product: List Administration
 classification: list-administration
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-09"
 reading_time_minutes: 1
-breadcrumb: [List context menus, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [List context menus, Administer, List administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Action script for list context menus

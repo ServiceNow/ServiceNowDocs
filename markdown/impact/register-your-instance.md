@@ -1,5 +1,5 @@
 ---
-title: Register your instance
+title: Register your instance in My SN Instances
 description: Register each participating ServiceNow instance in the My SN Instances table before configuring any instance-to-instance integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/register-your-instance.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
-# Register your instance
+# Register your instance in My SN Instances
 
 Register each participating ServiceNow instance in the My SN Instances table before configuring any instance-to-instance integration.
 

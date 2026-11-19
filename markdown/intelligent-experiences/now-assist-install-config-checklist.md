@@ -53,7 +53,7 @@ Install the ServiceNow Otto for Spokes application from the ServiceNow Store. Fo
 
 </td></tr><tr><td>
 
-AI Control Tower
+Control Tower
 
 </td><td>
 

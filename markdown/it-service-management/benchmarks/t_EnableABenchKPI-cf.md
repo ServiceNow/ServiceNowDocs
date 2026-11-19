@@ -1,6 +1,6 @@
 ---
 title: Enable a benchmark KPI
-description: Enable KPIs to use in your data reporting.
+description: Enable benchmark KPIs to use in your data reporting, and assign roles to KPI categories to limit who sees the data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t\_EnableABenchKPI-cf.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Benchmarks, IT Service Management]
 
 # Enable a benchmark KPI
 
-Enable KPIs to use in your data reporting.
+Enable benchmark KPIs to use in your data reporting, and assign roles to KPI categories to limit who sees the data.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ KPIs are grouped within categories \(for example, ITSM, ITOM, Security Operation
 
 2.  To enable or disable a KPI, select the KPI slider.
 
-3.  To view more information about a KPI, click the KPI.
+3.  To view more information about a KPI, select the KPI.
 
     Additional information includes description, formula, conditions, and tables from which the data is collected.
 
@@ -48,7 +48,7 @@ KPIs are grouped within categories \(for example, ITSM, ITOM, Security Operation
 
     1.  Navigate to **Benchmarks** &gt; **Administration** &gt; **Category** and select a KPI category.
 
-    2.  To add a role, click **View Roles**.
+    2.  To add a role, select **View Roles**.
 
         **Note:** You must have the admin role to assign roles to categories.
 

@@ -7,7 +7,7 @@ release: brazil
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2026-10-15"
+last_updated: "2026-11-13"
 reading_time_minutes: 1
 breadcrumb: [Explore, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
@@ -27,6 +27,10 @@ Supported features include the following:
     **Note:** Each sandbox can connect to source control with its own git branch. For more information, see [Source control and Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sandboxes-source-control.md).
 
 -   ServiceNow IDE
+-   ServiceNow SDK
+
+    **Warning:** When you use the ServiceNow SDK to deploy an application to a sandbox, the first deployment of that application to the sandbox might take significantly longer than later deployments. This delay occurs because the tables that the application owns are set up during the first deployment.
+
 -   Workflow Studio
 -   App and plugin installation
 

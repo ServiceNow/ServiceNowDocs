@@ -8,7 +8,7 @@ product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
 

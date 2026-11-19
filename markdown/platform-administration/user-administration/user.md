@@ -9,7 +9,7 @@ classification: user-administration
 topic_type: concept
 last_updated: "2026-10-29"
 reading_time_minutes: 4
-breadcrumb: [Explore, User administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Explore, User administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # The User record

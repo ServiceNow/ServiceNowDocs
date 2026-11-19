@@ -1,19 +1,19 @@
 ---
 title: Discover your agent network with the map
-description: Use the agent map to visualize your entire agentic ecosystem, including ServiceNow and third-party AI assets.
+description: Use the agent map to visualize your entire agentic ecosystem, including ServiceNow and third-party AI assets, in Super Intelligence Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-use-map.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Discover your agent network with the map
 
-Use the agent map to visualize your entire agentic ecosystem, including ServiceNow and third-party AI assets.
+Use the agent map to visualize your entire agentic ecosystem, including ServiceNow and third-party AI assets, in Super Intelligence Control Tower.
 
 ## About this task
 
@@ -25,13 +25,13 @@ All of your managed agentic AI assets are listed after the map.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
+Role required: sn\_ai\_governance.ai\_steward
 
 Configure Veza access intelligence to show risk score and other information for each AI asset in the map. For more information, see [Configure Veza access intelligence in the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-veza-access-intelligence.md).
 
 ## Procedure
 
-1.  Navigate to **AI Control Tower** &gt; **Govern** &gt; **Security**.
+1.  Navigate to **Control Tower** &gt; **Govern** &gt; **Security**.
 
 2.  On the **Overview** tab, select the agent map to go to the agent map details.
 

@@ -7,9 +7,9 @@ release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
-breadcrumb: [Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure service graph connectors, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Configure a Fortinet SD-WAN Service Graph Connector

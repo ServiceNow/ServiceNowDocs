@@ -18,7 +18,7 @@ Create a risk assessment project to perform assessments on multiple risks and co
 
 ## Before you begin
 
-Role required: sn\_risk\_advanced.project\_user or sn\_risk\_workspace.operational\_risk\_manager or sn\_risk\_workspace.IT\_risk\_manager, or sn\_risk\_workspace.business\_op\_risk\_manager
+Role required: sn\_risk\_advanced.risk\_asmt\_project\_user or sn\_risk\_advanced.risk\_asmt\_project\_manager, or sn\_risk\_workspace.operational\_risk\_manager or sn\_risk\_workspace.IT\_risk\_manager, or sn\_risk\_workspace.business\_op\_risk\_manager
 
 ## Procedure
 

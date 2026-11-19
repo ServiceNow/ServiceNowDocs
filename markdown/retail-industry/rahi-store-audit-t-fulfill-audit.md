@@ -1,6 +1,6 @@
 ---
 title: Complete a store audit
-description: As an Auditor, open your assigned Store Audit Case in CSM/FSM Workspace, record observations, complete each Audit Task, then close the Store Audit Case.
+description: As an Auditor, open your assigned Store Audit Case in CRM Workspace, record observations, complete each Audit Task, then close the Store Audit Case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-store-audit-t-fulfill-audit.html
 release: brazil
@@ -13,7 +13,7 @@ breadcrumb: [Manage Store Audit, Retail]
 
 # Complete a store audit
 
-As an Auditor, open your assigned Store Audit Case in CSM/FSM Workspace, record observations, complete each Audit Task, then close the Store Audit Case.
+As an Auditor, open your assigned Store Audit Case in CRM Workspace, record observations, complete each Audit Task, then close the Store Audit Case.
 
 ## Before you begin
 
@@ -22,11 +22,11 @@ As an Auditor, open your assigned Store Audit Case in CSM/FSM Workspace, record 
 
 ## About this task
 
-HQ Auditors fulfil exclusively via CSM/FSM Workspace. Location Auditors can also use Retail Mobile. Close each Audit Task before closing the parent Store Audit Case.
+HQ Auditors fulfil exclusively via CRM Workspace. Location Auditors can also use Retail Mobile. Close each Audit Task before closing the parent Store Audit Case.
 
 ## Procedure
 
-1.  Log in to CSM/FSM Workspace and open your assigned Store Audit Case.
+1.  Log in to CRM Workspace and open your assigned Store Audit Case.
 
 2.  On the **Audit tasks** tab, open each Audit Task, add your observations in **Work notes**, complete the questionnaire if one is present, then click **Close Complete** and confirm.
 
@@ -50,5 +50,5 @@ All Audit Tasks are Closed Complete, observations are recorded in the activity s
 
 [Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-overview.md)
 
-[Audit assignment from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
+[Audit assignment from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
 

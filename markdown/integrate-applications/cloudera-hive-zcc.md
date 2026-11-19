@@ -1,5 +1,5 @@
 ---
-title: Cloudera Hive
+title: Cloudera Hive \(Preview\)
 description: The Cloudera Hive connector provides read-only access to data and metadata in Cloudera Hive.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/cloudera-hive-zcc.html
@@ -10,11 +10,15 @@ reading_time_minutes: 1
 breadcrumb: [Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
-# Cloudera Hive
+# Cloudera Hive \(Preview\)
 
 The Cloudera Hive connector provides read-only access to data and metadata in Cloudera Hive.
 
 A connection admin can set up a connection to Cloudera Hive in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Cloudera Hive. This allows users to access Cloudera Hive data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/managing-data-fabric-tables-zcc.md).
+
+**Note:**
+
+This connector is available starting with Australia.
 
 **Important:** The Cloudera Hive primary connector is in preview. A primary connector in preview is developed and supported by ServiceNow, but is still being enhanced to include all planned functionality. While in preview, a connector may have limitations in platform support or available features.
 

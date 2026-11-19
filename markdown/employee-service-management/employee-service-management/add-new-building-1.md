@@ -5,7 +5,7 @@ locale: en-US
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 8
+reading_time_minutes: 9
 ---
 
 # Add a building using Workplace Space Management
@@ -284,6 +284,8 @@ The building is added to the selected region, site, and campus.
 [Add a room using Workplace Space Management]()
 
 [Add a space using Workplace Space Management]()
+
+[Configure a space type as usable with Workplace Space Management]()
 
 [Allocate a cost center, department, or workplace entity]()
 

@@ -8,7 +8,7 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Configure alert collection from SCOM, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -44,6 +44,21 @@ To configure this:
 
 If "Database login with Windows authentication" is NOT selected, you need a Windows credential in the credential store that has read access to the OperationsManagerDW database.
 
+You have a Windows account with the Read-Only Operator role in SCOM, perform the following steps:
+
+In the SCOM Operations Console, go to **Administration** &gt; **Security** &gt; **User Roles** and assign Operations Manager Read-Only Operator role \(use Operator for bi-directional alert close-back\) to a Windows \(Active Directory\) account.
+
+-   Option 1:
+    1.  In ServiceNow, go to **All** &gt; **Connections &amp; Credentials** &gt; **Credentials** and click **New**.
+    2.  Select **Windows Credential**, enter the account, and select it on the connector.
+
+        Keep **Windows authentication** unchecked on the connector.
+
+-   Option 2:
+    1.  On the MID Server host, open **Services** &gt; **MID Server service** &gt; **Properties** &gt; **Log On**, select **This account**, and enter the account.
+    2.  Restart the service.
+    3.  Select **Windows authentication** on the connector.
+
 Upgrading from a previous release: If you are upgrading from a release where a single SCOM connector handled both events and metrics, the upgrade automatically disables metric collection on the old SCOM connector. The upgrade also deprecates the old metric-related parameters and event rules. Your existing SCOM connector continues to handle event collection as before — no action needed for events. To resume metric collection after the upgrade, create a new SCOM Metrics connector instance.
 
 Role required: evt\_mgmt\_admin
@@ -63,6 +78,7 @@ Supported versions:
 -   2016 – version 7.2.117190 and 7.3.13261.0
 -   2019 – version 10.19.10050.0
 -   2022 – version 10.22.10118.0
+-   2025 - version 10.25.10132.0
 
 ## Procedure
 
@@ -183,11 +199,11 @@ SCOM 2025
 
             1.  Navigate to the list of local services, select and hold \(or right-click\) the MID Server service, and select **Properties**.
             2.  In the **Log On** tab, ensure that **This account** is selected with the details of the user in the Windows domain with read access to the SCOM database.
-        2.  **scom\_date\_format**: Default format: M/d/yyyy/ h:mm:ss a
+        2.  **scom\_date\_format**: Default format: M/d/yyyy h:mm:ss a
 
             If you receive an event whose date is in a different format, modify this value to match the format of the incoming event. If you do not, the event does not process correctly.
 
-            For example, an event arrives on June 27, 2019 at 11:25 AM with a listed date of **2019/06/27/ 11:25:00 a**. Modify the **scom\_date\_format** value to **yyyy/M/d/ h:mm:ss a** to match the format of the received event.
+            For example, an event arrives on June 27, 2019 at 11:25 AM with a listed date of **2019/06/27 11:25:00 a**. Modify the **scom\_date\_format** value to **yyyy/M/d h:mm:ss a** to match the format of the received event.
 
             In **scom\_date\_format**, `a` represents AM, and `p` represents PM.
 
@@ -200,8 +216,8 @@ SCOM 2025
 
             Set to **true** to stop only SCOM monitoring alerts bi-directionally. Stopping SCOM monitoring alerts can prevent false alarms on the SCOM console when attempting to update the alerts. When set to **false**, SCOM monitoring alerts continue running bi-directionally for all types of SCOM alerts. Default value = false.
 
-        6.  **scom\_alert\_bulk\_size**: Default value: 500. Number of alerts fetched per SCOM collection cycle.
-        7.  **debug\_enabled**: Default value: false. Set to true to enable debug logging on the MID Server.
+        6.  **scom\_alert\_bulk\_size**: Default value: 1000. Number of alerts fetched per SCOM collection cycle.
+        7.  **debug\_enabled**: Default value: true. Debug logs are written to mid logs only when mid.log.level is set to debug.
     9.  Select and hold \(or right-click\) the form header and select **Save**.
     10. Restart the MID Server service to copy the files.
     11. Select **Test connector** to verify the connection between the MID Server and the connector.
@@ -251,7 +267,7 @@ SCOM 2025
         |-----|-----------|
         |scom\_db\_name|The name of the SCOM data warehouse database. Default is OperationsManagerDW. Change this only if your database has been renamed.|
         |metric\_chunk\_size|Default value is 50000. Maximum number of metric records fetched per batch.|
-        |debug\_enabled|Default is false. Set to true to enable debug logging on the MID Server.|
+        |debug\_enabled|Default is true. Debug logs are written to mid logs only when mid.log.level is set to debug.|
         |log\_payload|Default is false. Set to true to log raw metric payloads for debugging. Set back to false after debugging is complete to avoid overloading the system.|
 
     7.  Right-click the form header and select **Save**.

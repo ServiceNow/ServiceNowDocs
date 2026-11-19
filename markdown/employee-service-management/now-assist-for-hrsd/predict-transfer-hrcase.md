@@ -1,5 +1,5 @@
 ---
-title: Predict service and transfer HR cases agentic workflow
+title: Deprecated Predict service and transfer HR cases agentic workflow
 description: Analyze an HR case and automatically route it to the most appropriate HR service with the predict service and transfer HR cases agentic workflow. Optimize HR Case Management, ensuring that cases are handled by the most appropriate teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/now-assist-for-hrsd/predict-transfer-hrcase.html
@@ -12,9 +12,13 @@ reading_time_minutes: 3
 breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Predict service and transfer HR cases agentic workflow
+# Deprecated Predict service and transfer HR cases agentic workflow
 
 Analyze an HR case and automatically route it to the most appropriate HR service with the predict service and transfer HR cases agentic workflow. Optimize HR Case Management, ensuring that cases are handled by the most appropriate teams.
+
+**Important:** This agentic workflow is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the NowSupport knowledge base.
+
+Use the [Predict service and transfer HR cases AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/predict-service-transfer-hr-cases-ai-agent.md) instead.
 
 ## Overview of Predict service and transfer HR cases agentic workflow
 
@@ -26,13 +30,7 @@ The agents, tools, and triggers that are associated with the Predict service and
 
 You must have HRSD Pro plus for Now Assist installed for the HR Service Delivery AI Agent Collection. When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
-Perform the following steps after you [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-gaf.md).
-
-**Note:** Run the GAF training against HR GAF Group, the skill designated for GAF activation.
-
-1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled jobs**.
-2.  Run **HR service GAF grouping job** with an admin role. This generates **GAF - Run Offline Flow** in the Global scope.
-3.  Run **GAF - Run Offline Flow** and monitor its progress.
+Two AI search profiles for HR cases and HR services are included in the base system. Configure and index both before completing this procedure. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/overview-ais.md)
 
 ## Accessing the Predict service and transfer HR cases agentic workflow
 

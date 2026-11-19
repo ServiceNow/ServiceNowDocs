@@ -26,13 +26,15 @@ Role required: admin
 
 Starting with the Brazil release, a scheduled job is available. The scheduled job executes a batch installation on a newly provisioned instance to automatically install applications such as Major Incident Management applications if the customer has the necessary ServiceNow® entitlements. This job applies only to newly provisioned zBoot instances. If the application isn't installed automatically, you can use this procedure to install and activate the application manually.
 
-You must manually activate the Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) for new and existing customers.
+Incident Management - Major Incident Management plugin \(com.snc.incident.mim\) must be manually activated on new and upgrade instances.
 
-Incident Management - Major Incident Management plugin activates these related plugins if they are not already active:
+Incident Management - Major Incident Management \(com.snc.incident.mim\) plugin activates these related plugins if they are not already active:
 
 -   Incident Communications Management \(com.snc.iam\)
 -   Incident Updates \(com.snc.incident.updates\)
 -   Task-Outage Relationship \(com.snc.task\_outage\)
+-   Major workbench components \(com.snc.major\_workbench\_components\)
+-   WebKit HTML to PDF \(com.snc.whtp\)
 
 <table id="table_fd2_xjb_rbb"><thead><tr><th>
 

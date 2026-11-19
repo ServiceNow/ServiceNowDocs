@@ -18,7 +18,7 @@ Add or update the number of agents to perform a particular type of work for a wo
 
 ## Before you begin
 
-Role required: wm\_admin, wm\_dispatcher
+Role required: wm\_crew\_moderator, wm\_dispatcher
 
 You must select the **Needs Crew** option in the work order task.
 

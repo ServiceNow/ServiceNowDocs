@@ -8,7 +8,7 @@ product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Perform Advanced Risk Assessment, Use, Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -30,7 +30,7 @@ Automated factors help automate the risk assessment process. They don't rely on 
 
 1.  Navigate to **All** &gt; **Advanced Risk Assessment** &gt; **Administration** &gt; **Automated Factors**.
 
-2.  Select **New**.
+2.  Select **New**. Create the factor from this module, not from the base Factor list, which has no New button.
 
 3.  On the form, fill in the fields.
 
@@ -112,7 +112,7 @@ Transform qualitative score
 
 </td><td>
 
-Option to transform the overall group qualitative score based on an interval scale.For example, assume the **User response** field is set to **Percentage**. Transform the percentage value into a qualitative score: 0% to 30% is low, 30% to 60% is medium, and 60% and higher is high. In this case, the ratings 1, 2, and 3 can be assigned to low, medium, and high.
+Option to transform the overall group qualitative score based on an interval scale.For example, assume the **Response type** field is set to **Percentage**. Transform the percentage value into a qualitative score: 0% to 30% is low, 30% to 60% is medium, and 60% and higher is high. In this case, the ratings 1, 2, and 3 can be assigned to low, medium, and high.
 
  This field appears only when **Qualitative** is selected from the**Factor contribution** field.
 
@@ -248,7 +248,7 @@ Frequency
 
 </td><td>
 
-Frequency of when the factor is run.
+Frequency of when the factor is run. The default is Daily.
 
 </td></tr><tr><td>
 
@@ -289,9 +289,15 @@ Date when the factor runs again. This field is automatically set based on the se
 
 6.  Select **Submit**.
 
-7.  Open the factor that you created.
+7.  If you selected **Transform qualitative score**, select the **Qualitative Transformation Criteria** related list. It appears below the form's buttons as soon as you tick Transform qualitative score on a saved factor, before you save it. It does not appear on a new, unsaved factor. Add the lower limit of each range and the score for it.
 
-8.  Select **Publish**.
+8.  Open the factor that you created.
+
+9.  Select **Publish**.
+
+    Publishing is blocked until the Qualitative Transformation Criteria related list has at least one entry. The message is: Add entries to the Qualitative Transformation Criteria related list to publish the factor.
+
+    After you publish, the Factor contribution, Response type, Transform qualitative score and Qualitative weighting fields are locked. The button changes to Draft if no risk assessment methodology uses the factor.
 
 
 ## Result

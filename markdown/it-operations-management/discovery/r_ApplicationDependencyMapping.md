@@ -71,9 +71,9 @@ Before you enable enhanced ADM, make sure that each target host meets the requir
 |AIX|`netstat` with `rmsock`. `lsof` is used if netstat doesn't work.|Yes: `ADME_CMDS`|rmsock must be in the system PATH. AIX netstat doesn't output process IDs, so rmsock resolves the socket addresses in `netstat -Aan` output to process IDs. rmsock is part of the base AIX installation.|
 |CentOS and Ubuntu|`netstat`. `lsof` is used if netstat isn't available, and `ss` is used if neither is available.|Yes: `ADME_CMDS`|At least one of lsof, netstat, or ss must be in the system PATH. If none of these tools is found, ADME logs an error and fails.|
 |HP-UX|`lsof` only. netstat isn't supported.|Yes: `ADME_CMDS`|lsof must be installed and in the system PATH, and its path must match the sudoer entry. Without lsof, ADME can't collect network connection data.|
-|Solaris 11.2 and later|`netstat`|Yes: `ADME_CMDS`, `ADME_PS`, pfiles, and pgrep|Add the lsof installation path to `secure_path` in the sudoers file.|
+|Solaris 11.2 and later|`netstat`|Yes: `ADME_CMDS`, `ADME_PS`, pfiles, and pgrep|None.|
 |Solaris versions earlier than 11.2|`lsof`|Yes: `ADME_CMDS`, `ADME_PS`, pfiles, and pgrep|lsof must be installed, its path must match the sudoer entry, and the path must be in `secure_path` in the sudoers file.|
-|Windows|`netstat`, which is built in|No. Administrative credentials are passed through the Discovery credential record.|[PowerShell 3.0 or later](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_PowerShellForDiscovery.md) on the target host.|
+|Windows|`netstat`|No. Administrative credentials are passed through the Discovery credential record.|[PowerShell 3.0 or later](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_PowerShellForDiscovery.md) on the target host.|
 
 |Permission|Applies to|Notes|
 |----------|----------|-----|
@@ -86,7 +86,7 @@ Before you enable enhanced ADM, make sure that each target host meets the requir
 |SSH access to the target host|AIX, CentOS and Ubuntu, HP-UX, Solaris|The MID Server connects to the target host through SSH.|
 |Write access to `/tmp`|AIX, CentOS and Ubuntu, HP-UX, Solaris|Default staging directory. You can change it with the `glide.discovery.adme.base_dir_unix` property. For more information, see [Configure ADM discovery parameters and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configuring-adm-disco.md).|
 
-**Note:** If you set your Windows server Execution Policy to RemoteSigned or AllSigned, ADME can run PowerShell scripts. You must import the ServiceNow certificate to the trusted publisher in order for the scripts to execute properly.
+**Note:** If Group Policy enforces a RemoteSigned or AllSigned execution policy on target hosts, import the ServiceNow certificate into Trusted Publishers on those hosts.
 
 ## Configure the sudoers file for enhanced ADM
 
@@ -94,7 +94,7 @@ On UNIX and Linux hosts, the Discovery user must have passwordless sudo access t
 
 Each sudoer entry follows the same pattern:
 
--   The `Cmnd_Alias ADME_CMDS` line defines `ADME_CMDS` as the list of commands that enhanced ADM runs. On Solaris, the `Cmnd_Alias ADME_PS` line defines a second list for the process command.
+-   The `Cmnd_Alias ADME_CMDS` line defines `ADME_CMDS` as the list of commands that enhanced ADM runs. On Solaris, the `Cmnd_Alias ADME_PS` line defines a second list for the process commands.
 -   The `discoUser ALL=(root) NOPASSWD:ADME_CMDS` line lets the Discovery user run the listed commands as root without a password. `discoUser` is the user in your Discovery credential.
 -   The `Defaults` line disables `requiretty` so that the commands can run over an SSH session without a terminal.
 
@@ -108,7 +108,7 @@ The command paths in the entries are the default installation directories for ea
     Cmnd_Alias ADME_CMDS = /usr/bin/netstat -Aan, \
                            /usr/sbin/lsof -iTCP -n -P
     discoUser ALL=(root) NOPASSWD:ADME_CMDS
-    Defaults:discoUser ! requiretty
+    Defaults!ADME_CMDS !requiretty
     ```
 
 -   **CentOS and Ubuntu**
@@ -146,15 +146,12 @@ The command paths in the entries are the default installation directories for ea
     Defaults!ADME_CMDS !requiretty
     
     # Standard ADM + ADME process commands:
-    Cmnd_Alias ADME_PS = /usr/ucb/ps
+    Cmnd_Alias ADME_PS = /usr/ucb/ps, /usr/bin/pfiles, /usr/bin/pgrep
     discoUser ALL=(root) NOPASSWD:ADME_PS
     Defaults!ADME_PS !requiretty
-    
-    Disco ALL=(root) /usr/bin/pfiles
-    Disco ALL=(root) /usr/bin/pgrep
     ```
 
-    Add the lsof installation path to `secure_path` in the sudoers file. For example, if lsof is in `/opt/csw/bin`, use `secure_path = /usr/bin:/usr/sbin:/bin:/sbin:/opt/csw/bin`.
+    On Solaris versions earlier than 11.2, add the lsof installation path to `secure_path` in the sudoers file. For example, if lsof is in `/opt/csw/bin`, use `secure_path = /usr/bin:/usr/sbin:/bin:/sbin:/opt/csw/bin`.
 
     **Note:**
 
@@ -177,7 +174,7 @@ To set up and use enhanced ADM, perform these steps:
     -   Windows: Set the `mid.windows.management_protocol` parameter on the MID Server to use WinRM or WMI. This parameter sets the protocol that your MID Server uses to communicate with remote Windows hosts.
 4.  [Create a schedule and run Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 5.  [View the results in the TCP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoTCPConnections.md).
-6.  Optionally control both the size of the TCP tracking file and the payload using parameters on the enhanced ADM probes. See [TCP connection discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoTCPConnections.md) for the names of the probes and parameters.
+6.  Optionally control the size of the TCP tracking file with parameters on the enhanced ADM probes, and the payload size with the `mid.adme.max_result_size` MID Server parameter. See [TCP connection discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/r_DataCollDiscoTCPConnections.md) for the names of the probes and parameters.
 
 -   **[Configure ADM discovery parameters and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/configuring-adm-disco.md)**  
 Using properties, you can enable or disable ADM discovery, and you can set the location of the TCP tracking file for enhanced ADM.

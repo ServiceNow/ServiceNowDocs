@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI asset deduplication, duplicate assets, AI Inventory, AI stewards]
-breadcrumb: [Reviewing duplicate AI assets, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reviewing duplicate AI assets, Managing your AI asset inventory, Discover and manage AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Actions performed on duplicates
@@ -21,7 +21,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Action** &gt; **Review duplicates**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Action** &gt; **Review duplicates**.
 
 2.  Select **Mark assets as duplicates**.
 

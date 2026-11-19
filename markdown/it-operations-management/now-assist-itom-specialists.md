@@ -21,8 +21,8 @@ ITOM AI specialists use AI agents and workflows to investigate alerts and incide
 
 For detailed information, see the following documentation:
 
--   [Autonomous Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-workforce.md)
--   [AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-ai-specialist.md)
+-   
+-   
 
 1.  [AIOps AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/ai-specialist-aiops-overview.md)  
 The AIOps Manager can create, configure, and manage an AI specialist. AI specialist is an AI-powered team member \(not human\) that works alongside your operators, handling routine alert triage so your people can focus on what requires human judgment.

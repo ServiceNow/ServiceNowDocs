@@ -1,6 +1,6 @@
 ---
 title: Request time off using ITSM Virtual Agent
-description: Automate your request for time off using the ITSM Virtual Agent. Type keywords into the chatbot to create and submit your request, which then gets automatically routed to your manager for approval. You can also use Natural Language Understanding to make your time-off request.
+description: Create and submit a time-off request by using the ITSM Virtual Agent, which routes the request to your manager for approval. Enter keywords or use Natural Language Understanding in the chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/va-timeoff-agent-wfo-itsm-sow.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Service Operations Workspace - Scheduling, Workforce Optimization f
 
 # Request time off using ITSM Virtual Agent
 
-Automate your request for time off using the ITSM Virtual Agent. Type keywords into the chatbot to create and submit your request, which then gets automatically routed to your manager for approval. You can also use Natural Language Understanding to make your time-off request.
+Create and submit a time-off request by using the ITSM Virtual Agent, which routes the request to your manager for approval. Enter keywords or use Natural Language Understanding in the chat.
 
 ## Before you begin
 
@@ -40,19 +40,19 @@ Role required: sn\_shift\_planning.agent
 
     The calendar appears with the message, "When do you want to start your time off?"
 
-5.  Select the start date and time for your time-off request and click **Select**.
+5.  Select the start date and time for your time-off request and select **Select**.
 
     The calendar appears with the message, "When do you want to end your time off?"
 
-6.  Select the end date and time for your time-off request and click **Select**.
+6.  Select the end date and time for your time-off request and select **Select**.
 
     The "Would you like to enter the reason for your time off?" message appears.
 
-7.  Select **Yes** and enter the reason for taking time off and click **Enter**.
+7.  Select **Yes** and enter the reason for taking time off and select **Enter**.
 
     The message, "Your time-off request has been submitted and is in your manager's approval queue," appears.
 
-8.  To view the submitted request on your calendar, click **View submitted request \(Request Number\)**.
+8.  To view the submitted request on your calendar, select **View submitted request \(Request Number\)**.
 
 
 **Parent Topic:**[Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md)

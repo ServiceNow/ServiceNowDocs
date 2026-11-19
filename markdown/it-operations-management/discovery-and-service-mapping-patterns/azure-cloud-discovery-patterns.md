@@ -62,7 +62,7 @@ Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servi
 
 ## Azure resources discovery by datacenters
 
-Azure has multiple datacenters around the world, but resources like load balancers and virtual machines are typically deployed in only some of them. The **Azure Datacenter Discovery** pattern executes before all other Azure patterns to identify the datacenters that have resources related to your service account \("active"\) and the datacenters that don't have your resources \("passive"\).
+Azure has multiple datacenters around the world, but resources like load balancers and virtual machines are typically deployed in only some of them. The **Azure Datacenter Discovery** pattern executes before all other Azure patterns. It identifies datacenters that have resources related to your service account \("active"\) and datacenters that don't have your resources \("passive"\).
 
 This model improves the performance of the Azure discovery. This execution model is more efficient than the previous one, in which all datacenters were discovered regardless of having relevant resources in them.
 

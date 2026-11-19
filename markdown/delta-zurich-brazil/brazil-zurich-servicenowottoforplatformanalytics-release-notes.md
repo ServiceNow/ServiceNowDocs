@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-servicenowottoforplatformanalytics-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -229,7 +229,7 @@ AI Data Explorer is available from the ServiceNow Store.
 
 Query Generation, Analytics Generation, and the dashboard and data visualization export skill are installed with Generative AI Controller, which is included as a dependency of all Now Assist applications.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 After installation, activate the relevant skills. For more information, see the relevant Configure topics under [ServiceNow Otto for Platform Analytics](https://www.servicenow.com/docs/access?context=now-assist-platform-analytics&family=zurich&ft:locale=en-US).
 
@@ -256,7 +256,7 @@ AI Data Explorer is available from the ServiceNow Store.
 
 Query Generation, Analytics Generation, and the dashboard and data visualization export skill are installed with Generative AI Controller, which is included as a dependency of all ServiceNow Otto applications.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 After installation, activate the relevant skills. For more information, see the relevant Configure topics under [ServiceNow Otto for Platform Analytics](https://www.servicenow.com/docs/access?context=now-assist-platform-analytics&family=brazil&ft:locale=en-US).
 

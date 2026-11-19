@@ -16,15 +16,15 @@ breadcrumb: [Security metrics, Security monitoring console, Security Center, Pla
 
 View metrics related to user sessions and the frequency of lockouts of the sessions.
 
-The page displays a card displays a trend line for active sessions, representing the number of active sessions on your instance.
+The page displays a card that displays a trend line for active sessions, representing the number of active sessions on your instance.
 
-\[Omitted image "session-man-1.png"\] Alt text: Session management
+\[Omitted image "session-man-1.png"\] Alt text: Session management card with a trend line for active sessions on the instance
 
 Select the card to view additional details.
 
-\[Omitted image "session-man-2.png"\] Alt text: Session management details
+\[Omitted image "session-man-2.png"\] Alt text: Details page for the active sessions metric, with buttons to configure filters, targets, and thresholds
 
-From the details page, you can use the buttons on the edge of the screen to configure filters, KPI signals, targets, and thresholds.
+From the details page, you can use the buttons on the edge of the screen to configure filters, key performance indicator \(KPI\) signals, targets, and thresholds.
 
 Select the **+Create task** button to create a Security Task related to a metric. For details on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-task-manager.md).
 

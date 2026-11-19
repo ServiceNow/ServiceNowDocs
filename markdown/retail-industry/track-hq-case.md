@@ -1,5 +1,5 @@
 ---
-title: Track a store plan on the workspace
+title: Track a store plan on the CRM Workspace
 description: Enable plan creators to track published plan execution end-to-end, overall completion status, parent \(HQ\) cases, HQ tasks, store cases, and store tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/track-hq-case.html
@@ -10,7 +10,7 @@ reading_time_minutes: 2
 breadcrumb: [Track and monitor store plans, Retail]
 ---
 
-# Track a store plan on the workspace
+# Track a store plan on the CRM Workspace
 
 Enable plan creators to track published plan execution end-to-end, overall completion status, parent \(HQ\) cases, HQ tasks, store cases, and store tasks.
 

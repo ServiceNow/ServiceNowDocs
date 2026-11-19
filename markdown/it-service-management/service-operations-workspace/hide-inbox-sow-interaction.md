@@ -1,6 +1,6 @@
 ---
 title: Hide the inbox in Service Operations Workspace
-description: Hide the inbox automatically when a work item, like a chat or call, is accepted. If disabled, the inbox will remain visible even after accepting a work item.
+description: Hide the inbox automatically when a work item, like a chat or call, is accepted. If disabled, the inbox remains visible even after accepting a work item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/hide-inbox-sow-interaction.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configuring Interaction Management in Service Operations Workspace,
 
 # Hide the inbox in Service Operations Workspace
 
-Hide the inbox automatically when a work item, like a chat or call, is accepted. If disabled, the inbox will remain visible even after accepting a work item.
+Hide the inbox automatically when a work item, like a chat or call, is accepted. If disabled, the inbox remains visible even after accepting a work item.
 
 ## Before you begin
 

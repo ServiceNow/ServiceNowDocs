@@ -1,6 +1,6 @@
 ---
-title: AI Gateway tab in AI Control Tower
-description: Explore the AI Gateway tab in the AI Control Tower.
+title: AI Gateway tab in Control Tower
+description: Explore the AI Gateway tab in the Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-gateway-tab.html
 release: brazil
@@ -9,12 +9,12 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control Tower Home, Control Tower dashboard, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# AI Gateway tab in AI Control Tower
+# AI Gateway tab in Control Tower
 
-Explore the AI Gateway tab in the AI Control Tower.
+Explore the AI Gateway tab in the Control Tower.
 
 ## AI Gateway overview
 

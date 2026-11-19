@@ -1,6 +1,6 @@
 ---
 title: Configure Web Embeddables
-description: Web Embeddables enables you to embed the ServiceNow components into external websites outside of the ServiceNow environment. Use the default components or create custom components to interact with the ServiceNow platform. Dedicated APIs support real-time data exchange without requiring users to access the ServiceNow instance directly.
+description: Embed ServiceNow components, such as case lists, catalog items, and knowledge articles, on external websites so users can work with your instance without signing in to it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.html
 release: brazil
@@ -14,7 +14,9 @@ breadcrumb: [Set up self-service, Configure, Customer Service Management]
 
 # Configure Web Embeddables
 
-Web Embeddables enables you to embed the ServiceNow components into external websites outside of the ServiceNow environment. Use the default components or create custom components to interact with the ServiceNow platform. Dedicated APIs support real-time data exchange without requiring users to access the ServiceNow instance directly.
+Embed ServiceNow components, such as case lists, catalog items, and knowledge articles, on external websites so users can work with your instance without signing in to it.
+
+Use the default components or create custom components to interact with the ServiceNow platform. Dedicated APIs support real-time data exchange without requiring users to access the ServiceNow instance directly.
 
 The Web Embeddables homepage displays modules, components, and provides an overview on how to configure and embed components. It also shows Frequently Asked Questions that provide insights into the most common queries asked by users.
 

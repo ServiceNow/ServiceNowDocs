@@ -37,9 +37,9 @@ Select a schedule tile to view the change schedule. For more information, see [C
 -   **[Change schedules view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-schedules-view.md)**  
 The Change Schedules module provides a Gantt or timeline view of change requests based on criteria defined within a Change Schedule Definition.
 -   **[Create a change schedule from the Change Schedules page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-chng-sch-from-chng-sch-page.md)**  
-You can create a change schedule to view all scheduled changes, change tasks, blackout periods, and maintenance windows for any given date, week, month, or year.
+Create a change schedule to view all scheduled changes, change tasks, blackout periods, and maintenance windows for any date, week, month, or year.
 -   **[Create a change schedule from the change schedule definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-chng-sch-from-chng-sch-def.md)**  
-You can define a change schedule from a change schedule definition record. Change schedule definitions help you to define the content that displays in the change summary popover, the users, groups, or roles to share a schedule with, and related span style colors.
+Create a change schedule from a change schedule definition record. Change schedule definitions specify the content in the change summary popover, the users, groups, or roles to share a schedule with, and span style colors.
 -   **[Add related tasks to a change schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/add-related-tasks-to-chng-schedule.md)**  
 Create related definitions to present related tasks for change requests in the change schedule. For example, define a related definition to view the change tasks associated with a change request.
 -   **[Style rules definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/style-rules-definition.md)**  

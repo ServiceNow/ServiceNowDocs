@@ -116,8 +116,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |Now Assist for TPRM|No support\*|
 |Now Assist for IRM|No support\*|
 |[Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
-|[Industry Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/industry-products/industry-products-landing.md)|
-|•[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-overview.md)|Financial Services Card Operations|Basic|
+|[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-overview.md)|Financial Services Card Operations|Basic|
 |Financial Services Deposit Operations|Basic|
 |Financial Services Loan Operations|Basic|
 |[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/domain-separation-financial-services-payment-operations.md)|Basic|
@@ -133,7 +132,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |Now Assist for Financial Services Operations|Basic|
 |Dispute Rules Content Pack for Visa|Basic|
 |Dispute Rules Content Pack for Mastercard|Basic|
-|• [Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-overview.md)|[EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/emr-help-domain-sep.md)|Basic|
+|[Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-overview.md)|[EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/emr-help-domain-sep.md)|Basic|
 |[Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-domain-sep-serv-mgmt-core.md)|Basic|
 |[Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pre-visit-domain-sep.md)|Basic|
 |[Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/pss-domain-sep.md)|Basic|

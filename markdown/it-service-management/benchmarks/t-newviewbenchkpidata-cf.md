@@ -1,6 +1,6 @@
 ---
 title: View benchmark KPI data
-description: Benchmarks KPI data is shown in Benchmarks dashboard built in Next Experience UI. Data includes values for your company instance, and for global data.
+description: View Benchmarks KPI data in the dashboard to compare values for your company instance with global data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/t-newviewbenchkpidata-cf.html
 release: brazil
@@ -9,12 +9,12 @@ classification: benchmarks
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [New Benchmarks Dashboard, Use, Benchmarks, IT Service Management]
+breadcrumb: [Benchmarks Dashboard, Use, Benchmarks, IT Service Management]
 ---
 
 # View benchmark KPI data
 
-Benchmarks KPI data is shown in Benchmarks dashboard built in Next Experience UI. Data includes values for your company instance, and for global data.
+View Benchmarks KPI data in the dashboard to compare values for your company instance with global data.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: sn\_bm\_client.benchmark\_data\_viewer
 
 2.  Select one of the **KPI categories** from the KPI list.
 
-3.  To view the corresponding group of KPIs, click a tab.
+3.  To view the corresponding group of KPIs, select a tab.
 
     **Note:** If the data seems incomplete or incorrect, you can investigate the KPI definition and conditions in **Performance Analytics** &gt; **Sources** &gt; **Indicator Sources**.
 
@@ -36,14 +36,14 @@ Role required: sn\_bm\_client.benchmark\_data\_viewer
 
     **Note:** If a filter category contains fewer than 20 participants, the corresponding data is shown in the **Other** category.
 
-5.  For choice of view, click either the list icon or the card-view icon.
+5.  For choice of view, select either the list icon or the card-view icon.
 
     In card view, clicking a KPI shows the six-month KPI performance trend chart on the card.
 
-6.  To download a report to a PDF file, click the **Download** button.
+6.  To download a report to a PDF file, select the **Download** button.
 
 
 ## What to do next
 
-Click a KPI to view .
+Select a KPI to view .
 

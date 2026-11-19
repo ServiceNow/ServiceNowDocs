@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Search for Curated Experiences, Setup search experience, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [AI Search for Curated Experiences, Setup search experience, Configuring Employee Center, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Improved search functionality

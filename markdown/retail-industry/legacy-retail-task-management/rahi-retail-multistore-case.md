@@ -26,7 +26,7 @@ For information on the setup process, see [Configuring Retail Task Management](h
 
 ## Retail multi-store case process
 
-Using Retail Task Management Core, you can create a multi-store case for their retail organization using the CSM/FSM Configurable Workspace.
+Using Retail Task Management Core, you can create a multi-store case for their retail organization using the CRM Workspace.
 
 Once the case is saved, the **Affected Retail Stores** tab appears where you can select the stores for which child cases should be created.
 

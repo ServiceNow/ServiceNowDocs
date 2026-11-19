@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Verify your connection settings and source system permissions for an external content connector

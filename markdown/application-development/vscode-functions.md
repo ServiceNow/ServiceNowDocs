@@ -48,7 +48,7 @@ Create Now Project
 
 </td><td>
 
-Import existing ServiceNow applications to a Visual Studio Code project. See [Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/create-project.md).
+Import existing ServiceNow applications to a Visual Studio Code project. See [Create a project in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-project.md).
 
 </td></tr><tr><td>
 

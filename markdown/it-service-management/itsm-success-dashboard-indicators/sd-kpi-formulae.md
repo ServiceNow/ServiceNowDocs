@@ -1,6 +1,6 @@
 ---
 title: ITSM Success Dashboard indicators KPI definitions and formulas
-description: Find the definitions and formulas of the KPIs used in ITSM Success Dashboard indicators.
+description: Enable ITSM Success Dashboard and configure settings to understand and use the key performance indicators \(KPIs\) and formulas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/sd-kpi-formulae.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Explore, ITSM Success Dashboard indicators, IT Service Management]
 
 # ITSM Success Dashboard indicators KPI definitions and formulas
 
-Find the definitions and formulas of the KPIs used in ITSM Success Dashboard indicators.
+Enable ITSM Success Dashboard and configure settings to understand and use the key performance indicators \(KPIs\) and formulas.
 
 All the key performance indicators \(KPIs\) and formulas used in the ITSM Success Dashboard are described in the following topics:
 

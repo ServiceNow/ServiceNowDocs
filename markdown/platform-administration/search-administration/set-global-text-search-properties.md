@@ -9,7 +9,7 @@ classification: search-administration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Global search finds records from multiple tables, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Global search finds records from multiple tables, Zing text indexing and search engine, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Set global text search properties

@@ -29,7 +29,7 @@ By default there is a ServiceNow Otto context menu added to the dashboard config
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
-2.  Select [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md) or open the dashboard you want to add the context menu to.
+2.  Select [Create a Platform Analytics dashboard with the inline editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md) or open the dashboard you want to add the context menu to.
 
 3.  Expand **Add New Element**.
 

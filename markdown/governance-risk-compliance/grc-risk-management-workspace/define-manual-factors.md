@@ -8,7 +8,7 @@ product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Perform Advanced Risk Assessment, Use, Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -18,7 +18,7 @@ Create manual factors to evaluate and assess risks on a risk assessment instance
 
 ## Before you begin
 
-Role required: sn\_risk.admin
+Role required: sn\_risk\_advanced.ara\_admin
 
 ## About this task
 
@@ -139,7 +139,7 @@ Option for making the responses mandatory.
 
 </td></tr><tr><td>
 
-Comments required
+Enable mandatory comments
 
 </td><td>
 
@@ -159,7 +159,7 @@ Guidance text
 
 </td><td>
 
-Guidance on how to respond to the factor. If the risk assessor does not understand the factor's question, then this field can help explain the question. For example, if the assessor wants to understand a question about the financial impact of losing a high value asset, the assessor can get guidance from this field.
+Guidance on how to respond to the factor. This field is mandatory. If the risk assessor does not understand the factor's question, then this field can help explain the question. For example, if the assessor wants to understand a question about the financial impact of losing a high value asset, the assessor can get guidance from this field.
 
 </td></tr></tbody>
 </table>4.  Select **Save**.
@@ -179,7 +179,11 @@ Guidance on how to respond to the factor. If the risk assessor does not understa
 
 8.  Open the factor that you created.
 
-9.  Select **Publish**.
+9.  If the User response is Choice, add the choices to the Choices related list. Add them before you publish the factor.
+
+10. Select **Publish**.
+
+    After you publish, the Factor contribution, User response and Qualitative weighting fields are locked. The button changes to Draft if no risk assessment methodology uses the factor.
 
 
 ## Result

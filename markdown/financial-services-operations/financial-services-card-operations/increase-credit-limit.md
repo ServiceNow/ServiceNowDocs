@@ -36,15 +36,15 @@ This credit card task is automatically created when the credit assessment task h
 
 3.  Open the task from a credit card service case or from the Credit Card Task list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d130909e126">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d130899e128">
 
 Option
 
-</th><th align="left" id="d130909e129">
+</th><th align="left" id="d130899e131">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d130909e135">
+</th></tr></thead><tbody><tr><td id="d130899e137">
 
 **From a credit card service case**
 
@@ -55,7 +55,7 @@ Steps
 3.  In the case, click the **Tasks** tab and select the credit card task.
 
 
-</td></tr><tr><td id="d130909e168">
+</td></tr><tr><td id="d130899e170">
 
 **From the Credit Card Task list**
 

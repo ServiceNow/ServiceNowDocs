@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-new-features.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-04"
-reading_time_minutes: 171
+last_updated: "2026-11-19"
+reading_time_minutes: 175
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -137,177 +137,6 @@ Enforce deny-by-default access control for agentic AI record types \(`gen_ai_age
 
 </td></tr><tr><td>
 
-AI Control Tower
-
-</td><td>
-
--   **[ServiceNow Arc policy management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-managing-arc-policies.md)**
-
-Create policies and rules that control ServiceNow Arc usage.
-
--   **[AI Gateway client-based access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gw-controlling-client-access.md)**
-
-Create client access policies that grant each MCP client access to specific tools on an MCP server. When you turn on access management for the server, clients can use only the tools that their policies grant.
-
--   **[Security settings usability improvements and AI usage consent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)**
-
-Configure security settings using new sub-tabs in security settings: Overview, Runtime, Post-runtime, and Security insights. These sub-tabs correspond to metrics they configure, except Security insights. Security insights shows the status of the AICT Security Analyzer agent. In the Runtime sub-tab, the link to configure data patterns changed to go to Anonymization policies in Data Privacy. In the Post-runtime and Security insights sub-tabs, you're prompted to consent to consumption of assists when enabling settings.
-
--   **[Agent containment list filter and rename](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-review-kill-switch-protocol-log.md)**
-
-Filter the list of contained or reinstated agents by a particular agent. The Contained agents list is renamed to Agent containment list.
-
--   **[Post-runtime metrics configuration change and category rename](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
-
-When you select Configure, you're directed to Settings to update your configuration instead of to a side panel. AICT correctness detection is renamed to Correctness detection.
-
-
--   **[Monitor agent activity chart improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-monitoring-overview.md)**
-
-Monitor agentic AI performance over time using new filter options in the Monitor agent activity chart. View the top five lowest performing metrics, top five highest performing metrics, or view performance for a specific metric in the chart.
-
--   **[Session details improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-session-details.md)**
-
-View a list of lowest scoring metrics and the LLM judge's reasoning in the Quality and Safety score cards on the Session details page.
-
--   **Connectors**
-
-Amazon Quick connector is a new connector which is part of discovering Systems, models, and prompts for creating AI connections.
-
--   **[Edit an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-edit-explicit-block-policy.md)**
-
-Change who an Explicit Block policy blocks, what they're blocked from using, or its follow-up actions after the policy is published.
-
--   **[Block AI usage by department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-create-explicit-block-policy.md)**
-
-Scope an Explicit Block policy to a department so everyone in that department is blocked from a specific AI agent, model, or domain.
-
--   **[Use new role to contain AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md)**
-
-Perform AI agent containment \(kill switch\) with the AI Security Operator role. You can deactivate an AI agent without requiring full AI Steward–level access.
-
--   **[Check whether the Security Analyzer agent is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-aict-security-analyzer-agent-ai-agent.md)**
-
-Check the status of the Security Analyzer agent which determines security event severity and insights for your top recommendations, data integrity incident detection, system prompt leakage, correctness detection, prompt injection, and agent goal deviation metrics. Available on the Security Insights tab in Settings &gt; Rules and templates &gt; Security.
-
--   **[Enterprise Architecture for AICT plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md)**
-
-    -   Associate AI systems with business applications whether you use Enterprise Architecture Workspace. The new Enterprise Architecture for AICT plugin stores these associations in its own data model and installs automatically as a dependency of AI Control Tower Core \(app-ai-governance\) application.
-    -   Select business applications while creating an AI system in AI Control Tower. View AI adoption across your business application portfolio on the new **Business portfolio** tab in the AI Control Tower workspace homepage.
-For more information, see [AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md)&gt;.
-
--   **[Cost types and sub-vendor rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mc-ai-cost-types-and-sub-vendor-rates.md)**
-
-Set a rate for a specific service from an integrated vendor, such as an agent platform. The sub-vendor rate takes precedence over the vendor rate. The vendor rate applies to any usage that doesn't have a sub-vendor rate.
-
--   **[Subscription-based costs for AI vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mc-subscription-based-cost-for-ai-vendors.md)**
-
-Record per-seat subscription costs for integrated and non-integrated vendors. Specify the number of licensed seats, the cost per seat, and the contract dates. Optionally, add a one-time setup fee and distribute it over a set number of months so that it's included in the estimated monthly cost.
-
--   **[AI Connector for Amazon](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074844)**
-
-A new source system **Amazon Quick** has been added to the AI Connector for Amazon.
-
--   **[AI Connector for Anthropic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147725)**
-
-Configure the Anthropic AI connection to opt in to discovery with beta APIs.
-
-The October version of the connector supports MID Server.
-
--   **[AI Connector for Salesforce](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074918)**
-
-Establish a sever-to-server integration without manual intervention with JWT connection.
-
--   **[AI Connector for OpenAI](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147723)**
-
-Configure mTLS certificate-based authentication besides the API Key for better security.
-
-The October version of the connector supports X.509 certificate creation.
-
--   **[AI Connector for Microsoft - Copilot Lite](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074871)**
-
-You can n w discover AI agents from Copilot Lite \(Builder Agent\) following a set of prerequisites on the Microsoft Entra admin center.
-
--   **[AI Connector for Google Enterprise - Agent Platform](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074877)**
-
-Configure the Anthropic AI connection to opt in to discovery with beta APIs.
-
-The October version of the connector supports MID Server.
-
-
--   **[Control AI asset usage through policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-landing.md)**
-
-Create AI asset usage policies that automatically respond to detected AI threats or block an AI agent, domain, or model outright.
-
--   **[Add an Azure AI Foundry connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configure-azure-foundry-security-connection.md)**
-
-Connect Azure AI Foundry to AI Control Tower so that policies and AI agent containment using kill switch protocol can reach and act on agents running on Azure AI Foundry.
-
--   **[Add metrics from the AI system record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-ai-system-metrics.md)**
-
-Add evaluation metrics for a specific AI system without changing your organization's global metric configuration.
-
--   **[Add specific metrics for one or more external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-asset-metrics-external.md)**
-
-Add, remove, or adjust the sample rate of metrics for one or more external AI systems, without changing your organization's global metric configuration.
-
--   **[Add specific metrics for one or more ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-asset-metrics-servicenow.md)**
-
-Add or remove metrics for one or more ServiceNow AI systems, without changing your organization's global metric configuration.
-
--   **[Exclude an AI system from a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-exclude-ai-systems-external.md)**
-
-Exclude one or more AI systems from a specific metric, without changing that metric's configuration for every other system.
-
--   **[AI system performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-asset-monitor.md)**
-
-Monitor operational health at a glance, including average latency and token usage per session.
-
--   **[Latency and span counts for sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-evaluated-sessions-overview.md)**
-
-See each session's response time and span count in the evaluated sessions lists and on individual session detail pages.
-
--   **[Scoring bias indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-monitoring-overview.md)**
-
-Learn when a composite score might be skewed. See how many evaluations back each metric, and identify when uneven evaluation coverage is influencing the score more than the configured weight suggests.
-
--   **[Trace data retention controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-trace-retention.md)**
-
-Keep session, trace, and span data for up to 30 days for scoring, or discard it to reduce storage usage, with quality and safety scores staying available either way. Discarding also disables AI Skill Kit insights and hides the evaluated sessions views.
-
--   **[Custom date ranges for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-monitoring-overview.md)**
-
-Analyze exactly the period you need by specifying an exact start and end date, up to 18 months apart.
-
--   **[Review AI security posture in design-time metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
-
-Use AI security posture metrics to identify potential configuration issues in AI agents, tools, MCP servers, and system prompts that could lead to security risk.
-
--   **[AI Inventory Intelligence Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inventory-intelligence-agent.md)**
-
-AI Inventory Intelligence Agent automatically analyzes the AI asset inventory, identifies assets with incomplete metadata, and generates enrichment recommendations to improve data quality and governance readiness.
-
--   **[Configuring connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-connectors.md)**
-    -   The Microsoft connector introduces the A365 agent platform to discover and import AI assets into ServiceNow AI Control Tower.
--   **[Client registration and AI Gateway setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/client-registration.md)**
-    -   The MCP and CIMD registered clients can be edited to update their configuration from the AI Gateway Setup tab.
--   **[Updated playbooks for governing managed assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/dynamic-playbooks-for-governing-managed-assets.md)**
-
-Manage AI assets through structured life cycle workflows using the updated playbooks. These playbooks automate governance tasks, route approvals, and track compliance requirements across onboarding, maintenance, and retirement phases. Use the **Review and switch** button to review the effect on your existing playbooks, flows, and subflows before switching to the new playbook.
-
--   **[Role based data visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mv-data-visibility-by-ai-control-tower-role.md)**
-
-AI Control Tower now scopes value, engagement, and cost data based on the user’s role and assigned AI systems.
-
-AI stewards can view data for all AI systems in an instance. Product owners can view data only for the AI systems that they manage.
-
-Data scope is determined by the **Managed by** field on the AI system record.
-
-Product owners can review and adjust measurements for the AI systems that they manage. Cost configuration remains read-only because vendor-level changes can affect AI systems outside a product owner’s scope.
-
-
-</td></tr><tr><td>
-
 AI Desktop Actions
 
 </td><td>
@@ -355,7 +184,7 @@ AI Risk and Compliance
 
 -   **[Updated playbooks for governing managed assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/dynamic-playbooks-for-governing-managed-assets.md)**
 
-After upgrading to version 23.0.3, manage AI assets through structured life cycle workflows using the updated playbooks in AI Control Tower. These playbooks automate governance tasks, route approvals, and track compliance requirements across onboarding, maintenance, and retirement phases. Use the **Review and switch** button to review the effect on your existing playbooks, flows, and subflows before switching to the new playbook.
+After upgrading to version 23.0.3, manage AI assets through structured life cycle workflows using the updated playbooks in Control Tower. These playbooks automate governance tasks, route approvals, and track compliance requirements across onboarding, maintenance, and retirement phases. Use the **Review and switch** button to review the effect on your existing playbooks, flows, and subflows before switching to the new playbook.
 
 -   **[AI reviewer assist for risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-based-reviewer-assistant-for-assessments.md)**
 
@@ -364,9 +193,9 @@ After upgrading to version 23.0.2, AI Risk and Compliance analysts reviewing ass
 
 -   **[Direct business application associations for AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/request-ai-system-form.md)**
 
-Business applications can be mapped directly to AI system records during intake, without requiring Enterprise Architecture Workspace to be installed. After upgrading AI Control Tower to version 9.0.3 and AI Risk and Compliance to version 23.1.1, Enterprise Architecture for AICT \(com.sn\_ea\_aict\) decouples the AI system-to-business-application association from Enterprise Architecture Workspace. The plugin installs automatically with AI Control Tower Core at the required version.
+Business applications can be mapped directly to AI system records during intake, without requiring Enterprise Architecture Workspace to be installed. After upgrading Control Tower to version 9.0.3 and AI Risk and Compliance to version 23.1.1, Enterprise Architecture for AICT \(com.sn\_ea\_aict\) decouples the AI system-to-business-application association from Enterprise Architecture Workspace. The plugin installs automatically with Control Tower Core at the required version.
 
-**Warning:** If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md), [Enterprise Architecture for AICT plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md), and [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configuring-ai-risk-and-compliance.md).
+**Warning:** If AI Risk and Compliance, EA Workspace, and Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md), [Enterprise Architecture for AICT plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md), and [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configuring-ai-risk-and-compliance.md).
 
 
 </td></tr><tr><td>
@@ -610,9 +439,13 @@ Build Agent and Autonomous Engineer
 
 </td><td>
 
+-   **[Opus 5.5 model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-models-versions.md)**
+
+Starting with Brazil Patch 3, you can use the Anthropic Claude Opus 5.5 model with Build Agent and Autonomous Engineer.
+
 -   **[New model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-models-versions.md)**
 
-Use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent and Autonomous Engineer.
+Starting with Brazil Patch 2, you can use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent and Autonomous Engineer.
 
 
 -   **[New model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-models-versions.md)**
@@ -1055,6 +888,27 @@ Data Catalog
 
 </td><td>
 
+-   **Data Catalog Analytics dashboards**
+
+Track catalog adoption and collector health from dashboards inside Workflow Data Fabric. The Adoption overview tab shows how many users have access to Data Catalog, how many are active, and how activity changes over time. The Collector health tab shows how many collector runs succeeded or failed, which collectors are active, and which collectors have not run recently.
+
+-   **SQL Server Reporting Services \(SSRS\) metadata collector**
+
+Collect and catalog metadata from your SSRS environment. The collector harvests datasets, data sources, folders, KPIs, reports, and linked reports, including lineage between datasets, data sources, and reports.
+
+-   **Databricks Unity Catalog metric views**
+
+The Databricks collector harvests Unity Catalog metric views, including dimensions, measures, YAML definition, source table, filter, and materialization status. Lineage from a metric view to its source table is available even if the metric view has never been queried.
+
+-   **Salesforce OAuth authorization code flow**
+
+The Salesforce collector supports OAuth authorization code flow using a refresh token, alongside the existing username and password and OAuth client ID and secret options.
+
+-   **Download lineage nodes and edges as CSV**
+
+Download the nodes, edges, or both from your current lineage view to a CSV file to analyze dependencies in other tools.
+
+
 -   **Metadata enrichment with ServiceNow Otto**
 
 Accelerate catalog curation using AI-powered enrichment. Enrich asset names and descriptions across multiple assets in a single request, review AI-generated recommendations, and publish richer metadata to your catalog with less manual effort.
@@ -1292,6 +1146,19 @@ The IP Inventory page now includes a **Shazzam** tab that displays Shazzam Summa
 Get a consolidated view of the Kubernetes resources discovered in your environment without leaving the Discovery Admin Workspace. The new Kubernetes explorer dashboard organizes discovered clusters, nodes, namespaces, services, workloads, pods, and Docker images across dedicated tabs. Each tab includes a resource table and visualizations such as data counts, bar charts, and donut charts. Interact with a visualization to filter the table on the same tab. You can also select a resource to open its details page. The details page shows the resource properties and a Dependency View of related configuration items.
 
 
+-   **Monitor discovery with read-only access**
+
+The `discovery_operator` role gives team members read-only access to Discovery Admin Workspace so they can monitor Discovery health, investigate failures, and validate results. Operators can view schedules, diagnostics, anomaly detection, and IP inventory. They can run an existing schedule with **Discover now** and export data from the IP inventory and available insights. Available insights depend on installed plugins and instance configuration.
+
+Operators can't create, edit, or delete schedules, change settings, or install apps, or access the **Content 360**, **Tuning**, and **Settings** pages.
+
+-   **[Filter views by domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_DiscoveryDomainSeparation.md)**
+
+Teams that use multiple domains can view IP-based schedules and anomaly detection data only for the domains they belong to. Users see data from their current domain, its child domains, and the global domain. This separation helps Managed Service Providers \(MSP\) and other multi-tenant organizations manage and monitor Discovery operations while keeping domain-specific data isolated. Domain filtering applies to the **Home**, **Schedules**, and **Diagnostics** tabs.
+
+Domain separation doesn't apply to the **Settings** and **Tuning** tabs, which show the same content in every domain. Cloud and certificate schedules aren't included in this release.
+
+
 </td></tr><tr><td>
 
 Discovery store applications
@@ -1505,6 +1372,11 @@ Evaluate chargeback ineligibility conditions against a fixed Mastercard rule eff
 Employee Slate for ITSM
 
 </td><td>
+
+-   **Surveys for EmployeeWorks**
+
+Answer the questions in a survey assigned to you, save your progress, and submit your responses.
+
 
 -   **[Use Employee Slate for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/use-employee-works-itsm.md)**
     -   Send email notifications to keep you updated on your walk-in visit.
@@ -2016,6 +1888,15 @@ Impact
 
 </td><td>
 
+-   **[Latest Accelerators by release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/new-accelerators-australia-release.md)**
+
+ServiceNow Impact now includes an accelerator that introduces you to the Impact Store App and another that helps build knowledge of Machine Identity Security.
+
+This release includes the following:
+
+    -   Turn insights into action by using value measurement, product adoption, and consumption data to identify meaningful next steps with Introduction to the Impact App.
+    -   Govern non-human identities using the Machine Identity Console and Machine Identity Access Controls with Jumpstart Your Machine Identity Security.
+
 -   **[Use the Impact Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/use-impact-setup-hub.md)**
 
 Configure Impact through an interactive Setup Hub UI that replaces the previous linear guided setup. Setup progress persists across upgrades.
@@ -2491,6 +2372,28 @@ Understand the reasons your machine learning solution made a specific prediction
 Pricing Management
 
 </td><td>
+
+-   **[Consumer context variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-create-context-variable.md)**
+
+Define pricing and eligibility rules for individual consumers with the new system-defined Consumer context variable for transaction lines. The variable references the Consumer \[csm\_consumer\] table.
+
+-   **[Deselected lines in the pricing response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-crm-pricing-api.md)**
+
+Keep a complete view of the transaction in pricing responses by returning deselected lines. When the **price\_all\_lines** request setting is true, lines sent with **selected** set to false are included in the response. Deselected lines don't contribute to derived prices.
+
+
+-   **[Cache for derived price rule results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-related-product-pricing.md)**
+
+Accelerate derived pricing with cached rule matrix results, reducing repeated rule matrix evaluations for source and target product offering pairs. The improvement is especially significant for accounts with many sold products. Caching is enabled by default, and results expire after 72 hours.
+
+-   **[Buyer organization and channel partner context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-create-context-variable.md)**
+
+Tailor pricing and eligibility rules to the buyer organization or channel partner using the new Buyer Organization and Channel Partner context variables for transaction lines. Both system-defined variables reference the Customer Service Organization \[sn\_customer\_service\_organization\] table.
+
+-   **[Extension point for line lookup in derived pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/extension-points-som-pricing.md)**
+
+Customize transaction line lookup for derived pricing by implementing the getLinesFromEntityTableEncodedQuery method of the DerivedProductPriceExtensionPoint extension point. The method returns an encoded query for the lines associated with the current header entity, such as a quote.
+
 
 -   **[Automatic addition of derived product lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-related-product-pricing.md)**
 
@@ -2968,6 +2871,14 @@ Self-service and omnichannel engagement for CSM
 
 </td><td>
 
+-   **[Enable WebRTC for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/portal-phone-widget.md)**
+
+Use the voice call widget to send digits during a call and to call without signing in:
+
+    -   Respond to automated voice prompts, such as a menu option or a PIN, using the dial pad during a connected call.
+    -   Start and complete a voice call as a guest user, without signing in to the portal.
+    -   Start a call as a guest user and authenticate during the call by entering a PIN using the dial pad.
+
 -   **[View work orders on the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/workorders-consumerportal.md)**
 
 View and track work orders directly in the Consumer Portal \(B2C\) using the new Work Orders page.
@@ -3045,6 +2956,22 @@ A scheduled job is now available that executes a batch installation on a new ins
 
 </td></tr><tr><td>
 
+Service Portal
+
+</td><td>
+
+-   **ServiceNow Otto**
+
+The new `glide.sp.otto_onboarding.enabled` system property controls whether the ServiceNow Otto onboarding message is shown to users in all portals. The system property is set to `false` by default, so the ServiceNow Otto message does not appear in portals. Set the system property to `true` to have the ServiceNow Otto message appear on all portals except those listed in the `glide.sp.otto_onboarding.suppressed_portals` property.
+
+
+-   **[Enable identifier-first login in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/identifier-first-login-service-portal.md)**
+
+Use an identifier-first login authentication method in Service Portal where the authentication path is determined by the username or email entered, and evaluated against configured identifier-first login policies.
+
+
+</td></tr><tr><td>
+
 ServiceNow AI Platform core feature
 
 </td><td>
@@ -3071,6 +2998,37 @@ Track day-over-day trends in slow-pattern data with daily snapshots that automat
 ServiceNow Arc
 
 </td><td>
+
+-   **[Windows support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/install-arc-windows.md)**
+
+ServiceNow Arc now supports Windows. On Windows desktop, the Arc application acts as an AI agent that plans and runs multi-step tasks across your enterprise applications, within the governance and security policies your administrators define.
+
+-   **[Arc policies in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-arc-policies-aict.md)**
+
+Administrators author and manage ServiceNow Arc agent policies in Control Tower, on the **Arc policies** tab under **Govern** &gt; **Policies**.
+
+-   **[MCP servers managed by administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-mcp-server-arc.md)**
+
+MCP server connectors that administrators configure on the instance appear in ServiceNow Arc ready to connect, so users don't enter a server URL or client ID.
+
+When an administrator deactivates a connector, Arc ends any active session, blocks reconnection, and tells the user why. After the connector is reactivated, users reconnect it themselves.
+
+-   **[Notifications for approvals and reminders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/notifications-arc.md)**
+
+ServiceNow Arc notifies users about pending approvals and reminders, with one notification for each pending approval before it times out. When users are in another chat, a banner appears at the top of the Arc window. When they're in another app, a desktop notification appears. Users can approve or reject the action from either one.
+
+For more information, see [Turn notifications on or off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-notification-settings.md).
+
+-   **[Fluent app development for MacOs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-development-arc.md)**
+
+Build, deploy, and edit ServiceNow scoped applications from a conversation in ServiceNow Arc, using the Now SDK, which is preinstalled in the sandbox. The agent presents a build plan for approval, then creates a TypeScript project and authors the data model, server and client logic, flows, UI, AI agents, and tests.
+
+App development isn't supported on Windows.
+
+-   **[File preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/preview-files-arc.md)**
+
+Users can preview Word, Excel, PowerPoint, PDF, and PNG files in ServiceNow Arc. From the preview, they can download a file, open it in its native app or its folder, zoom in or out, and view it full screen.
+
 
 -   **[Microsoft 365 and GitHub connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/connectors-in-cowork.md)**
 
@@ -3114,13 +3072,13 @@ View ServiceNow Arc as an application in Usage Insights, with active users, mont
 
 Build funnels, cohorts, and retention reports, and drill down from aggregate charts to individual users and tasks. Data is scoped to your instance only, and user IDs are hashed.
 
--   **[Observability in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/cowork-trace-evaluation.md)**
+-   **[Observability in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/cowork-trace-evaluation.md)**
 
-Register ServiceNow Arc as a managed AI system in AI Control Tower to monitor its use across your organization. Sessions and traces flow into AI Control Tower, where each trace receives quality, safety, and risk assessment scores. You can drill down from a session to its individual steps, including tool calls and policy decisions.
+Register ServiceNow Arc as a managed AI system in Control Tower to monitor its use across your organization. Sessions and traces flow into Control Tower, where each trace receives quality, safety, and risk assessment scores. You can drill down from a session to its individual steps, including tool calls and policy decisions.
 
--   **Kill switch and heartbeat monitoring in AI Control Tower**
+-   **Kill switch and heartbeat monitoring in Control Tower**
 
-Monitor and control ServiceNow Arc across your organization from AI Control Tower. The fleet view shows who installs ServiceNow Arc and who is active. Heartbeat monitoring checks each installation at regular intervals and flags any that stop responding, so you can find offline installations before they affect users. If an agent takes unsafe actions, use the kill switch to stop them from escalating. The kill switch revokes credentials and terminates running actions.
+Monitor and control ServiceNow Arc across your organization from Control Tower. The fleet view shows who installs ServiceNow Arc and who is active. Heartbeat monitoring checks each installation at regular intervals and flags any that stop responding, so you can find offline installations before they affect users. If an agent takes unsafe actions, use the kill switch to stop them from escalating. The kill switch revokes credentials and terminates running actions.
 
 -   **[Predictable retry behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/set-agent-limits-safeguards.md)**
 
@@ -3137,37 +3095,6 @@ Choose a model from Anthropic Claude \(Opus 4.6, 4.7, 4.8, and Sonnet 4.6\), Ope
 -   **Assist metering and entitlements**
 
 User initiated requests consumes assists, recorded in the generative AI log under the feature name ServiceNow Arc Execution. Check your entitlements to determine whether you have access to ServiceNow Arc.
-
-
--   **[Windows support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/install-arc-windows.md)**
-
-ServiceNow Arc now supports Windows. On Windows desktop, the Arc application acts as an AI agent that plans and runs multi-step tasks across your enterprise applications, within the governance and security policies your administrators define.
-
--   **[Arc policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-arc-policies-aict.md)**
-
-Administrators author and manage ServiceNow Arc agent policies in AI Control Tower, on the **Arc policies** tab under **Govern** &gt; **Policies**.
-
--   **[MCP servers managed by administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-mcp-server-arc.md)**
-
-MCP server connectors that administrators configure on the instance appear in ServiceNow Arc ready to connect, so users don't enter a server URL or client ID.
-
-When an administrator deactivates a connector, Arc ends any active session, blocks reconnection, and tells the user why. After the connector is reactivated, users reconnect it themselves.
-
--   **[Notifications for approvals and reminders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/notifications-arc.md)**
-
-ServiceNow Arc notifies users about pending approvals and reminders, with one notification for each pending approval before it times out. When users are in another chat, a banner appears at the top of the Arc window. When they're in another app, a desktop notification appears. Users can approve or reject the action from either one.
-
-For more information, see [Turn notifications on or off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-notification-settings.md).
-
--   **[Fluent app development for MacOs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-development-arc.md)**
-
-Build, deploy, and edit ServiceNow scoped applications from a conversation in ServiceNow Arc, using the Now SDK, which is preinstalled in the sandbox. The agent presents a build plan for approval, then creates a TypeScript project and authors the data model, server and client logic, flows, UI, AI agents, and tests.
-
-App development isn't supported on Windows.
-
--   **[File preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/preview-files-arc.md)**
-
-Users can preview Word, Excel, PowerPoint, PDF, and PNG files in ServiceNow Arc. From the preview, they can download a file, open it in its native app or its folder, zoom in or out, and view it full screen.
 
 
 </td></tr><tr><td>
@@ -3210,19 +3137,25 @@ ServiceNow Otto for Software Asset Management \(SAM\)
 
 </td><td>
 
--   **[Analyze software spend transactions with AI in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/spend-detection-ai-enhancements.md)**
-
-Reduce manual software spend classification with AI-powered detection. The Software Asset Workspace now automatically identifies software purchases from imported transactions, extracts publisher and product details, and matches them to your Software Asset Management Content Library.
-
 -   **[Resolve entitlement import errors by using ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/resolve-entitlement-import-error.md)**
 
-Resolve unmatched publisher and product data that blocks bulk entitlement imports in the Software Asset Workspace using the 5 new AI-powered skills that normalize publisher and product values:
+Resolve unmatched publisher and product data that blocks bulk entitlement imports in Software Asset Workspace by using five new AI-powered skills that normalize publisher and product values:
 
     -   Publisher Search Tags Generation
     -   Product Search Tags Generation
     -   Publisher Match Review
     -   Product Match Review
     -   Product Resolution
+
+-   **[Evaluate software subscription removal candidates at integration profile and software model levels with the enhanced Evaluate Software Reclamation AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/now-assist-sam-evaluate-removal-candidate-workflow.md)**
+
+Launch the Evaluate Software Reclamation AI Agent directly from the **Reclamation** tab of the License usage view in the Software Asset Workspace. The AI agent enables you to evaluate software subscription removal candidates at both the integration profile and software model levels, using reclamation summary data, without leaving your workflow.
+
+
+-   **[Analyze software spend transactions with AI in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/spend-detection-ai-enhancements.md)**
+
+Reduce manual software spend classification with AI-powered detection. The Software Asset Workspace now automatically identifies software purchases from imported transactions, extracts publisher and product details, and matches them to your Software Asset Management Content Library.
+
 
 </td></tr><tr><td>
 
@@ -3240,6 +3173,10 @@ These features were added to premium chat:
     -   Ask a follow-up question about specific content by highlighting text in a ServiceNow Otto response and selecting **Ask a follow-up**. The highlighted text appears as a quote above the input bar and doesn't carry over when you start or switch to a different conversation.
     -   Download generated files that use plain Microsoft Office templates, with no ServiceNow branding applied. Share or edit downloaded Word, PowerPoint, and Excel files without removing extra formatting first.
     -   Download a generated file directly from the chat by selecting the download icon on the attachment in a ServiceNow Otto response.
+-   **[Edit a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/edit-assistant.md)**
+
+Set conditions that control when a promoted item is shown. Select the **Promoted skills** link when editing an assistant.
+
 
 -   **[Cancel live agent request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-integrated-chat.md)**
 
@@ -3634,6 +3571,165 @@ Authenticate using OAUTHBEARER as part of the SASL credential framework for Stre
 -   **[Stream Connect Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stream-connect-dashboard.md)**
 
 Use the Stream Connect Dashboard to view data for Stream Producers, including the number of messages and bytes produced, the rate of production, and the number of messages still pending. Monitor and analyze Stream Producer performance with the Stream Producer CDC Statistics section on each Stream Producer's page. The Stream Connect Dashboard is available from the ServiceNow Store.
+
+
+</td></tr><tr><td>
+
+Super Intelligence Control Tower
+
+</td><td>
+
+-   **[ServiceNow Arc policy management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-managing-arc-policies.md)**
+
+Create policies and rules that control ServiceNow Arc usage.
+
+-   **[AI Gateway client-based access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gw-controlling-client-access.md)**
+
+Create client access policies that grant each MCP \(Model Context Protocol\) client access to specific tools on an MCP server. When you turn on access management for the server, clients can use only the tools that their policies grant.
+
+
+-   **[Monitor agent activity chart improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-monitoring-overview.md)**
+
+Monitor agentic AI performance over time using new filter options in the Monitor agent activity chart. View the top five lowest performing metrics, top five highest performing metrics, or view performance for a specific metric in the chart.
+
+-   **[Session details improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-session-details.md)**
+
+View a list of lowest scoring metrics and the LLM judge's reasoning in the Quality and Safety score cards on the Session details page.
+
+-   **Connectors**
+
+Amazon Quick connector is a new connector which is part of discovering Systems, models, and prompts for creating AI connections.
+
+-   **[Edit an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-edit-explicit-block-policy.md)**
+
+Change who an Explicit Block policy blocks, what they're blocked from using, or its follow-up actions after the policy is published.
+
+-   **[Block AI usage by department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-create-explicit-block-policy.md)**
+
+Scope an Explicit Block policy to a department so everyone in that department is blocked from a specific AI agent, model, or domain.
+
+-   **[Use new role to contain AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md)**
+
+Perform AI agent containment \(kill switch\) with the AI Security Operator role. You can deactivate an AI agent without requiring full AI Steward–level access.
+
+-   **[Check whether the Security Analyzer agent is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-aict-security-analyzer-agent-ai-agent.md)**
+
+Check the status of the Security Analyzer agent which determines security event severity and insights for your top recommendations, data integrity incident detection, system prompt leakage, correctness detection, prompt injection, and agent goal deviation metrics. Available on the Security Insights tab in Settings &gt; Rules and templates &gt; Security.
+
+-   **[Enterprise Architecture for AICT plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md)**
+
+    -   Associate AI systems with business applications whether you use Enterprise Architecture Workspace. The new Enterprise Architecture for AICT plugin stores these associations in its own data model and installs automatically as a dependency of AI Control Tower Core \(app-ai-governance\) application.
+    -   Select business applications while creating an AI system in AI Control Tower. View AI adoption across your business application portfolio on the new **Business portfolio** tab in the AI Control Tower workspace homepage.
+For more information, see [AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md)&gt;.
+
+-   **[Cost types and sub-vendor rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mc-ai-cost-types-and-sub-vendor-rates.md)**
+
+Set a rate for a specific service from an integrated vendor, such as an agent platform. The sub-vendor rate takes precedence over the vendor rate. The vendor rate applies to any usage that doesn't have a sub-vendor rate.
+
+-   **[Subscription-based costs for AI vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mc-subscription-based-cost-for-ai-vendors.md)**
+
+Record per-seat subscription costs for integrated and non-integrated vendors. Specify the number of licensed seats, the cost per seat, and the contract dates. Optionally, add a one-time setup fee and distribute it over a set number of months so that it's included in the estimated monthly cost.
+
+-   **[AI Connector for Amazon](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074844)**
+
+A new source system **Amazon Quick** has been added to the AI Connector for Amazon.
+
+-   **[AI Connector for Anthropic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147725)**
+
+Configure the Anthropic AI connection to opt in to discovery with beta APIs.
+
+The October version of the connector supports MID Server.
+
+-   **[AI Connector for Salesforce](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074918)**
+
+Establish a sever-to-server integration without manual intervention with JWT connection.
+
+-   **[AI Connector for OpenAI](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147723)**
+
+Configure mTLS certificate-based authentication besides the API Key for better security.
+
+The October version of the connector supports X.509 certificate creation.
+
+-   **[AI Connector for Microsoft - Copilot Lite](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074871)**
+
+You can n w discover AI agents from Copilot Lite \(Builder Agent\) following a set of prerequisites on the Microsoft Entra admin center.
+
+-   **[AI Connector for Google Enterprise - Agent Platform](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3074877)**
+
+Configure the Anthropic AI connection to opt in to discovery with beta APIs.
+
+The October version of the connector supports MID Server.
+
+
+-   **[Control AI asset usage through policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-landing.md)**
+
+Create AI asset usage policies that automatically respond to detected AI threats or block an AI agent, domain, or model outright.
+
+-   **[Add an Azure AI Foundry connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configure-azure-foundry-security-connection.md)**
+
+Connect Azure AI Foundry to Control Tower so that policies and AI agent containment using kill switch protocol can reach and act on agents running on Azure AI Foundry.
+
+-   **[Add metrics from the AI system record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-ai-system-metrics.md)**
+
+Add evaluation metrics for a specific AI system without changing your organization's global metric configuration.
+
+-   **[Add specific metrics for one or more external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-asset-metrics-external.md)**
+
+Add, remove, or adjust the sample rate of metrics for one or more external AI systems, without changing your organization's global metric configuration.
+
+-   **[Add specific metrics for one or more ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-asset-metrics-servicenow.md)**
+
+Add or remove metrics for one or more ServiceNow AI systems, without changing your organization's global metric configuration.
+
+-   **[Exclude an AI system from a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-exclude-ai-systems-external.md)**
+
+Exclude one or more AI systems from a specific metric, without changing that metric's configuration for every other system.
+
+-   **[AI system performance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-asset-monitor.md)**
+
+Monitor operational health at a glance, including average latency and token usage per session.
+
+-   **[Latency and span counts for sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-evaluated-sessions-overview.md)**
+
+See each session's response time and span count in the evaluated sessions lists and on individual session detail pages.
+
+-   **[Scoring bias indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-monitoring-overview.md)**
+
+Learn when a composite score might be skewed. See how many evaluations back each metric, and identify when uneven evaluation coverage is influencing the score more than the configured weight suggests.
+
+-   **[Trace data retention controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-trace-retention.md)**
+
+Keep session, trace, and span data for up to 30 days for scoring, or discard it to reduce storage usage, with quality and safety scores staying available either way. Discarding also disables AI Skill Kit insights and hides the evaluated sessions views.
+
+-   **[Custom date ranges for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-monitoring-overview.md)**
+
+Analyze exactly the period you need by specifying an exact start and end date, up to 18 months apart.
+
+-   **[Review AI security posture in design-time metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
+
+Use AI security posture metrics to identify potential configuration issues in AI agents, tools, MCP servers, and system prompts that could lead to security risk.
+
+-   **[AI Inventory Intelligence Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inventory-intelligence-agent.md)**
+
+AI Inventory Intelligence Agent automatically analyzes the AI asset inventory, identifies assets with incomplete metadata, and generates enrichment recommendations to improve data quality and governance readiness.
+
+-   **[Configuring connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-connectors.md)**
+    -   The Microsoft connector introduces the A365 agent platform to discover and import AI assets into ServiceNow AI Control Tower.
+-   **[Client registration and AI Gateway setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/client-registration.md)**
+    -   The MCP and CIMD registered clients can be edited to update their configuration from the AI Gateway Setup tab.
+-   **[Updated playbooks for governing managed assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/dynamic-playbooks-for-governing-managed-assets.md)**
+
+Manage AI assets through structured life cycle workflows using the updated playbooks. These playbooks automate governance tasks, route approvals, and track compliance requirements across onboarding, maintenance, and retirement phases. Use the **Review and switch** button to review the effect on your existing playbooks, flows, and subflows before switching to the new playbook.
+
+-   **[Role based data visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mv-data-visibility-by-ai-control-tower-role.md)**
+
+AI Control Tower now scopes value, engagement, and cost data based on the user’s role and assigned AI systems.
+
+AI stewards can view data for all AI systems in an instance. Product owners can view data only for the AI systems that they manage.
+
+Data scope is determined by the **Managed by** field on the AI system record.
+
+Product owners can review and adjust measurements for the AI systems that they manage. Cost configuration remains read-only because vendor-level changes can affect AI systems outside a product owner’s scope.
 
 
 </td></tr><tr><td>

@@ -20,7 +20,7 @@ Edit the table configuration for Agent Assist to see the required search results
 
 Role required: admin
 
-**Note:** Admin should always be in Global Domain to edit the table configurations of Agent Assist in Service Operations Workspace.
+**Note:** The administrator must be in Global Domain to edit the table configurations of Agent Assist in Service Operations Workspace.
 
 ## About this task
 
@@ -28,7 +28,7 @@ Update the table configuration to get the required search results.
 
 To create a table configuration, see [Configure table for a contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DefineContextualSearchForForm.md).
 
-**Important:** Use this process if you're using a SOW version prior to 4.0. If you're using the version after 4.0, you can use **SOW Sidebar tabs top** Page collection to enable or disable the Agent Assist tab. For more information, see [Edit the table configuration for Agent Assist in Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/edit-the-table-configuration-for-agent-assist-in-service-operations-workspace-using-standard-record-page.md).
+**Important:** Use this process if you're using a SOW version prior to 4.0. If you're using a version later than 4.0, you can use **SOW Sidebar tabs top** Page collection to enable or disable the Agent Assist tab. For more information, see [Edit the table configuration for Agent Assist in Service Operations Workspace using the Standard Record Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/edit-the-table-configuration-for-agent-assist-in-service-operations-workspace-using-standard-record-page.md).
 
 ## Procedure
 
@@ -46,7 +46,7 @@ To create a table configuration, see [Configure table for a contextual search](h
 
 7.  To add the property and relevant sys ID of the table configuration in the **Macroponent Configuration**, do the following:
 
-    1.  Enter the new table name and the sys\_id of the required table configuration.\[Omitted image "screen\_variant\_srp.png"\] Alt text: UX Screen form with callouts the additions to the Macroponent Configuration field
+    1.  Enter the new table name and the sys\_id of the required table configuration.\[Omitted image "screen\_variant\_srp.png"\] Alt text: UX Screen form with callouts for the additions to the Macroponent Configuration field
 
         **Note:** To copy the sys\_id, navigate to **Table Configuration** &gt; **Copy\_sysid**.
 

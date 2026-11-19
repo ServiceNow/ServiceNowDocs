@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Dispatcher Workspace, CRM Workspace, Configure, Field Service Management]
 ---
 
 # Configuring communication from Dispatcher Workspace

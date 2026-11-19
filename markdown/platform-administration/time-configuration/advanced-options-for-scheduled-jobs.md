@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [scheduled jobs, advanced scheduling, repeat interval, starting ending fields]
-breadcrumb: [Scheduled jobs, System scheduler, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Scheduled jobs, System scheduler, Explore, Time configuration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Advanced options for scheduled jobs

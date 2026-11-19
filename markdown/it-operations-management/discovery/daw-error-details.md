@@ -7,8 +7,8 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-11-06"
-reading_time_minutes: 2
+last_updated: "2026-11-19"
+reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Diagnostics, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -55,11 +55,13 @@ After selecting an error, the header displays key information including the erro
 
     The **Context** section of the panel displays metadata collected during the Discovery run for the affected device, such as probe results, lookup parameters, and CMDB match data. Select the **Actions** drop-down to perform an action on the error instance. The fields and actions in this section vary by error type.
 
+    Starting with Discovery Admin Workspace v1.23.0, users with the discovery\_operator role can change error states using the **Mark error as** drop-down menu. Options in the **Actions** drop-down menu that are restricted to administrators aren't available to these users. For more information, see [Discovery Operator role access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-discovery-operator-access.md).
+
     You can also select the ServiceNow Otto icon \(\[Omitted image "now-assist-icon.png"\]\) to open the panel chat and ask Otto to analyze the error code. Otto generates a summary and remediation steps based on the error context.
 
     **Note:**
 
     -   ServiceNow Otto for Error Framework \(com.sn\_ef\_gen\_ai\) is available starting with Australia Patch 3 and requires the ServiceNow Otto for Platform \(sn\_genai\_platform\) plugin.
     -   The Error Analysis and Remediation Workflow and Error Analysis and Remediation Agent are enabled by default with the ServiceNow Otto for Error Framework plugin.
-    -   To interact with an agent, you must first [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    -   To interact with an agent, you must first .
 

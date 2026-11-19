@@ -88,7 +88,7 @@ The Discovery State value is presented as a link to the corresponding Discovery 
 
 If you have opted to manually initiate the Discovery module, or opted for both manual and automatic initiation, then the **Initiate Discovery** related link appears in the Related Links section when the state of the change request matches one of the defined states in the property. When Discovery is triggered, the values in the **Discovery State** and the **Discovery last updated** fields change.
 
-\[Omitted image "cm-integration-discovery"\] Alt text: Affected CIs related list with Discovery State and Discovery last updated fields, and the Initiate Discovery related link
+\[Omitted image "cm-integration-discovery.png"\] Alt text: Affected CIs related list with Discovery State and Discovery last updated fields, and the Initiate Discovery related link
 
 ## Integration with ITOM Visibility
 

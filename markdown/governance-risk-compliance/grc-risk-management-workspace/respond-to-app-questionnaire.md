@@ -18,7 +18,7 @@ Respond to a questionnaire about an application for risk assessment.
 
 ## Before you begin
 
-Role required: sn\_grc.business\_user or sn\_grc.businesss\_user\_lite
+Role required: sn\_grc.business\_user or sn\_grc.business\_user\_lite
 
 ## About this task
 

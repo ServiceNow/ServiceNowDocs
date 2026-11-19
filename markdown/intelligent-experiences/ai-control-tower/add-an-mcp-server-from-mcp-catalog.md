@@ -1,6 +1,6 @@
 ---
 title: Add an MCP server from MCP Catalog
-description: Add an MCP server from the MCP Catalog in AI Control Tower.
+description: Add an MCP server from the MCP Catalog in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/add-an-mcp-server-from-mcp-catalog.html
 release: brazil
@@ -9,12 +9,12 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Process flow of MCP servers via AI Gateway, AI Gateway, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Process flow of MCP servers via AI Gateway, AI Gateway, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add an MCP server from MCP Catalog
 
-Add an MCP server from the MCP Catalog in AI Control Tower.
+Add an MCP server from the MCP Catalog in Control Tower.
 
 ## Before you begin
 
@@ -58,5 +58,5 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Result
 
-The MCP server is added to AI Control Tower with status In review and synced to AI Agent Studio within 15 minutes.
+The MCP server is added to Control Tower with status In review and synced to AI Agent Studio within 15 minutes.
 

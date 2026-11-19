@@ -90,6 +90,22 @@ Legacy
 
 </td></tr><tr><td>
 
+sn\_nowassist\_va.analytics.persistence\_strategy
+
+</td><td>
+
+Controls where response feedback \(thumbs up/down and comments\) is written. Set to one of these values: -   `event`: Writes to the legacy CI Analytics \[sys\_ci\_analytics\] table
+-   `table`: Writes to the structured analytics tables and the **sn\_nowassist\_va\_now\_assist\_analytics\_view** reporting table.
+-   `both`: Writes to both.
+
+Data is collected when the system property is set to `table` or `both` The default value is: `event`
+
+</td><td>
+
+Legacy and premium
+
+</td></tr><tr><td>
+
 sn\_nowassist\_va.display\_default\_catalog\_image
 
 </td><td>

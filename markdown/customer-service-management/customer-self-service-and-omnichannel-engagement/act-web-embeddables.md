@@ -1,6 +1,6 @@
 ---
 title: Activate Web Embeddables
-description: You can enable the ServiceNow Components for Customer Service \(sn\_cx\_components\), Web Components for Guest \(sn\_guest\_component\), and Web Embeddable Core \(sn\_embeddable\_core\) to enable Web Embeddables on your instance. The application establishes related plugins if they aren’t already installed.
+description: Activate Web Embeddables on your instance by enabling the required plugins. The application establishes related plugins if they aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/act-web-embeddables.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure Web Embeddables, Set up self-service, Configure, Customer
 
 # Activate Web Embeddables
 
-You can enable the ServiceNow Components for Customer Service \(sn\_cx\_components\), Web Components for Guest \(sn\_guest\_component\), and Web Embeddable Core \(sn\_embeddable\_core\) to enable Web Embeddables on your instance. The application establishes related plugins if they aren’t already installed.
+Activate Web Embeddables on your instance by enabling the required plugins. The application establishes related plugins if they aren’t already installed.
 
 ## Before you begin
 

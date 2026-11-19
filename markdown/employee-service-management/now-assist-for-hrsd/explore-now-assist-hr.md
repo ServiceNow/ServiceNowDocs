@@ -86,9 +86,9 @@ The admin activates the filters or creates custom filters to enable the Virtual 
     In situations where the LLM incorrectly identifies a phrase as a sensitive topic, employees can opt to continue the interaction with the Virtual Agent.
 
 
-For more information on the out-of-the-box filters and how they are mapped to chat queues and HR case services, see [Sensitivity detection filters mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/reference-sd-info-values.md).
+For more information on the out-of-the-box filters and how they are mapped to chat queues and HR case services, see [Sensitive topics filters mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/reference-sd-info-values.md).
 
-For information on setting up sensitivity detection, see [Configure sensitivity detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/config-na-sd-filters.md).
+For information on setting up sensitivity detection, see [Configure AI guardrails for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-for-hrsd/config-na-sd-filters.md).
 
 ## Sentiment Analysis
 

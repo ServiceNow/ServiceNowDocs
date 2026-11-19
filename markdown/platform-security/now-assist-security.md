@@ -23,7 +23,7 @@ Learn how to secure your Now Assist applications and features.
 
 </td><td>
 
-[Agent traceability and monitoring\[Omitted image "bus-scan.svg"\] Alt text:Use AI Control Tower and agent activity logs to track what your agents do, what data they access, and when, and provide the auditable, explainable records your security and compliance teams require.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/naai-auditing-and-monitoring.md)
+[Agent traceability and monitoring\[Omitted image "bus-scan.svg"\] Alt text:Use Control Tower and agent activity logs to track what your agents do, what data they access, and when, and provide the auditable, explainable records your security and compliance teams require.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/naai-auditing-and-monitoring.md)
 
 </td></tr><tr><td>
 
@@ -43,7 +43,7 @@ Use Agent Role Inheritance, identity types, and granular roles to verify your AI
 -   **[Data protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/naai-data-protection.md)**  
 Learn how ServiceNow security tools such as the Key Management Framework, Field Encryption, and Data Classification work to keep your data secure.
 -   **[Agent traceability and monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/naai-auditing-and-monitoring.md)**  
-Learn how to use tools like AI Control Tower to track, monitor, and report on your AI assets.
+Learn how to use tools like Control Tower to track, monitor, and report on your AI assets.
 -   **[Governance and admin safeguards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/naai-governance-and-admin-safeguards.md)**  
 Find guidance on preparing your instance for AI deployment, maintaining domain separation, and reducing risk across your Now Assist implementation.
 -   **[AI threat protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/naai-threat-protection.md)**  

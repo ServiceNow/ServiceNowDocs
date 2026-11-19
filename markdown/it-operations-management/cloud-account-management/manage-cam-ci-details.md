@@ -7,9 +7,9 @@ release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-11"
 reading_time_minutes: 3
-breadcrumb: [Viewing the cloud asset explorer, Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Viewing cloud assets, Viewing the Cloud asset explorer, Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Managing the Cloud Account Management cloud asset details
@@ -17,6 +17,8 @@ breadcrumb: [Viewing the cloud asset explorer, Viewing Cloud Account Management 
 Use the cloud asset form in the Cloud Account Management to view, edit, and manage cloud asset details such as attributes, health, and records.
 
 The cloud asset form is a centralized, highly organized, and comprehensive set of sections with cloud asset details. Use this form to examine and edit cloud asset attributes, relationships, tags, services and offerings, and account health. You can also view data associated with the cloud asset, resources, activities, and related services.
+
+To open the cloud asset form, select an asset name on the Cloud assets page in Cloud asset explorer. For more information, see [Viewing cloud assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/viewing-cloud-assets.md).
 
 The following sections describe the various sections of the cloud asset form.
 
@@ -72,5 +74,5 @@ This section shows aggregations from the latest CMDB Health test results for the
 
 **Note:** For more information on each section, see [Manage CI details using CI Form in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/ci-form-cmdb-workspace.md).
 
-**Parent Topic:**[Viewing the cloud asset explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/viewing-cloud-asset-explorer.md)
+**Parent Topic:**[Viewing cloud assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/viewing-cloud-assets.md)
 

@@ -9,7 +9,7 @@ classification: contextual-search
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Contextual search plugin, Contextual search plugin, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Contextual search plugin, Contextual search plugin, Contextual search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Components installed with Contextual Search

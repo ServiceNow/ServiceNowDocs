@@ -1,6 +1,6 @@
 ---
-title: AI Control Tower roles
-description: Certain roles are installed along with the installation of the AI Control Tower.
+title: Control Tower roles
+description: Certain roles are installed along with the installation of the Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/roles-installed-with-ai-control-tower.html
 release: brazil
@@ -10,12 +10,12 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
-breadcrumb: [AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# AI Control Tower roles
+# Control Tower roles
 
-Certain roles are installed along with the installation of the AI Control Tower.
+Certain roles are installed along with the installation of the Control Tower.
 
 <table id="table_a4d_hpy_yfc"><thead><tr><th>
 
@@ -39,15 +39,15 @@ AI steward\[sn\_ai\_governance\_ai\_steward\]
 
  The AI steward is responsible for:
 
- -   Configuring AI Control Tower
+ -   Configuring Control Tower
 -   Adoption of AI governance practices.
--   Adoption of managing AI Control Tower and linking the AI asset Inventory.
--   Execution of AI Control Tower initiatives.
--   Understand the AI assets and AI Control Tower policies.
+-   Adoption of managing Control Tower and linking the AI asset Inventory.
+-   Execution of Control Tower initiatives.
+-   Understand the AI assets and Control Tower policies.
 -   Creating AI assets.
 -   Completing the AI asset lifecycle.
 -   Collaboration of cross-functional teams within the organization to confirm that the organization policies are adhered.
--   Creating AI Control Tower Approval Playbook for Now Assist approvals.
+-   Creating Control Tower Approval Playbook for Now Assist approvals.
 -   Configure third-party LLMs and SLMs.
 -   Configure Multi-instance management.
 -   Add and edit a value template.
@@ -74,14 +74,14 @@ AI steward\[sn\_ai\_governance\_ai\_steward\]
 
 </td></tr><tr><td>
 
-AI Control Tower Workspace user \[sn\_ai\_governance\_workspace\_user\]
+Control Tower Workspace user \[sn\_ai\_governance\_workspace\_user\]
 
 </td><td>
 
-The AI Control Tower Workspace user is responsible for:
+The Control Tower Workspace user is responsible for:
 
  -   Own and manage the AI assets.
--   Access the AI Control Tower home page.
+-   Access the Home page.
 -   Exclusive access to the AI portfolio tab.
 
 </td><td>
@@ -99,7 +99,7 @@ The AI asset owner/Product owner is responsible for:
  -   Ensure that AI assets are represented accurately and kept up to date.
 -   Manage AI assets like AI systems, AI models, datasets, and prompts through their asset lifecycle from intake to retirement.
 -   Access My overview, Value, and Adoption tabs.
--   Creating an AI asset from the AI Control Tower home page using **Create AI Asset icon**.
+-   Creating an AI asset from the Home page using **Create AI Asset icon**.
 -   Marking the deploy phase of the AI asset lifecycle task complete. If the AI asset gets deployed, then the state of the task doesn’t change anything automatically in the asset table or the asset governance details record.
 
 </td><td>

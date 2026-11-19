@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Threat Response, threat type]
-breadcrumb: [Reference, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Threat types
@@ -25,5 +25,5 @@ Threat types available in a Threat Response policy.
 |**Sensitive Information Disclosure**|A model exposes confidential, personal, or restricted data in its output.|
 |**System Prompt Leakage**|A model reveals its own underlying instructions or configuration.|
 
-**Parent Topic:**[AI Control Tower policies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reference.md)
+**Parent Topic:**[Policies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reference.md)
 

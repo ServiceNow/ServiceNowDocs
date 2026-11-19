@@ -1,6 +1,6 @@
 ---
 title: Set fulfillment automation level of catalog item for the Success Dashboard indicators
-description: Set the fulfillment automation level of catalog items from manual to fully automated to reduce manual effort and accelerate the turnaround time.
+description: 
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-success-dashboard-indicators/set-fulfillment-automation-level-sdb.html
 release: brazil
@@ -13,8 +13,6 @@ breadcrumb: [ITSM Success Dashboard Admin console, Configure, ITSM Success Dashb
 ---
 
 # Set fulfillment automation level of catalog item for the Success Dashboard indicators
-
-Set the fulfillment automation level of catalog items from manual to fully automated to reduce manual effort and accelerate the turnaround time.
 
 ## Before you begin
 
@@ -34,7 +32,7 @@ The **Fulfillment automation level** field does not change based on how ServiceN
 
     The available options are:
 
-    -   Unspecified: Catalog item is not specified.
+    -   Unspecified: Catalog item is not specified
     -   Manual: Catalog item is set to manual.
     -   Semi-automated: Catalog item is semi-automated.
     -   Fully automated: Catalog item is completely automated.

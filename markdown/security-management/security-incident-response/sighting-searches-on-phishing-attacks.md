@@ -1,5 +1,5 @@
 ---
-title: Sightings searches on user-reported phishing and malware attacks
+title: Legacy: Sightings searches on user-reported phishing and malware attacks
 description: Perform sightings searches on emails or observables to determine how often certain types of attacks, such as phishing attacks or communications with a malicious IP or URL occur in your network. Each occurrence is considered a sighting. Sightings searches for observables must be configured for your log stores or security information and event management \(SIEM\).Search for users who have received phishing emails based on observables such as email subject, sender name, or message ID. You can then contain and eradicate these phishing emails from your organization.Perform sightings searches on observables to find out how many users have visited a malicious or suspicious website within a specific period.Create multiple sightings search configuration records and use them while querying multiple log stores or varying the search parameters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sighting-searches-on-phishing-attacks.html
@@ -8,13 +8,17 @@ product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 10
-breadcrumb: [Manage security threats using the Security Analyst Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
+reading_time_minutes: 11
+breadcrumb: [Legacy: Manage security threats using the Security Analyst Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Sightings searches on user-reported phishing and malware attacks
+# Legacy: Sightings searches on user-reported phishing and malware attacks
 
 Perform sightings searches on emails or observables to determine how often certain types of attacks, such as phishing attacks or communications with a malicious IP or URL occur in your network. Each occurrence is considered a sighting. Sightings searches for observables must be configured for your log stores or security information and event management \(SIEM\).
+
+**Important:**
+
+The Security Incident Response UI \[sn\_app\_secops\_ui\] is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-workspace-landing-page.md) instead.
 
 Watch this three-minute video to learn how to use the sighting search feature to locate phished users, and track phishing and malware observables within the log store on your network.
 
@@ -45,7 +49,7 @@ Configure sighting searches and create saved configurations for SIEMs or other l
 
 [Create sightings search configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sightings-search-configurations.md)
 
-## Perform an email sightings search for user-reported phishing attacks
+## Legacy: Perform an email sightings search for user-reported phishing attacks
 
 Search for users who have received phishing emails based on observables such as email subject, sender name, or message ID. You can then contain and eradicate these phishing emails from your organization.
 
@@ -54,6 +58,10 @@ Search for users who have received phishing emails based on observables such as 
 Role required: sn\_si.analyst
 
 ### About this task
+
+**Important:**
+
+The Security Incident Response UI \[sn\_app\_secops\_ui\] is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-workspace-landing-page.md) instead.
 
 Search the Splunk email traffic logs to gather the list of recipients of a suspicious email. The search can be performed using the email sender, email message ID, or the email subject associated in a security incident as the criteria.
 
@@ -64,7 +72,7 @@ Search the Splunk email traffic logs to gather the list of recipients of a suspi
 
 ### Procedure
 
-1.  To see the security incidents assigned to your team, navigate to **Security Incident** &gt; **Incidents \(New UI\)**.
+1.  To see the security incidents assigned to your team, navigate to **Workspaces** &gt; **Security Incident Response Workspace**.
 
 2.  From the **Security Incidents** list, select one of the filters, such as all **open incidents**, **all incidents assigned to you**, or **all incidents**.
 
@@ -156,7 +164,7 @@ Time window for the search \(for example, the last 24 hours\).
 
 The list of phished users is displayed.
 
-## Perform an observable sightings search for user-reported phishing and malware attacks
+## Legacy: Perform an observable sightings search for user-reported phishing and malware attacks
 
 Perform sightings searches on observables to find out how many users have visited a malicious or suspicious website within a specific period.
 
@@ -165,6 +173,10 @@ Perform sightings searches on observables to find out how many users have visite
 Role required: sn\_si.analyst
 
 ### About this task
+
+**Important:**
+
+The Security Incident Response UI \[sn\_app\_secops\_ui\] is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-workspace-landing-page.md) instead.
 
 You can perform a network traffic search on observables such as the URL, destination host, or the destination IP address associated with a security incident.
 
@@ -175,7 +187,7 @@ You can perform a network traffic search on observables such as the URL, destina
 
 ### Procedure
 
-1.  To see the security incidents that are assigned to your team, navigate to **Security Incident** &gt; **Incidents \(New UI\)**.
+1.  To see the security incidents that are assigned to your team, navigate to **Workspaces** &gt; **Security Incident Response Workspace**.
 
 2.  From the **Security Incidents** list, select a different filter, such as all **Incidents Assigned to Me**, **All Open Incidents**, or **All Incidents**.
 

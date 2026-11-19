@@ -24,15 +24,15 @@ Role required: admin
 
 ## About this task
 
-At the end of the migration process, a confirmation message specifies if the migration is successful or not. You can review the migration information and perform the post-migration steps to confirm successful migration of your configuration or customization.
+At the end of the migration process, a confirmation message specifies whether the migration is successful. You can review the migration information and perform the post-migration steps to confirm successful migration of your configuration or customization.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Declarative Actions** &gt; **List actions**.
 
-2.  Filter the records based for **Implemented As** is set as **Client action**.
+2.  Filter the records where **Implemented As** is set as **Client action**.
 
-3.  View the log in the failed record in the migration process and find the **sys\_Id** of the record from the List Actions list.
+3.  View the log in the failed record in the migration process and find the sys\_id of the record from the List Actions list.
 
 4.  Select the failed record with the corresponding sys\_id.
 
@@ -42,7 +42,7 @@ At the end of the migration process, a confirmation message specifies if the mig
 
 7.  Select the **Experience Restricted** check box.
 
-8.  Update the value in the **Implemented as** field as `UXF Client Action`.
+8.  Update the value in the **Implemented as** field to `UXF Client Action`.
 
 9.  In the Action configuration related list, select **Edit**, and then select **SOW Actions** from the Collection list to the Action configurations list.
 
@@ -75,13 +75,13 @@ At the end of the migration process, a confirmation message specifies if the mig
 
 13. Modify the client action created for **ITEM\_SELECTED** and **PREVIEW\_RECORD** list records.
 
-    When you modify the client action, the payload map in action attributes should be transformed based on the payload.
+    When you modify the client action, transform the payload map in action attributes based on the payload.
 
     The following tables are used in the migration process:
 
     -   M2m Action Assig Ux Action Config \[sys\_ux\_m2m\_action\_assignment\_action\_config\]
     -   Action Payload Definition \[sys\_declarative\_action\_payload\_definition\]
-    **Note:** The **ITEM\_SELECTED** and **PREVIEW\_RECORD** actions function in the ITSM Agent Workspace but not in SOW. Therefore, an action payload named CREATE\_NEW\_RECORD Is introduced in SOW. While there could be other action payloads that might not function properly, the base system client actions for the list continue to work effectively in SOW post-migration.
+    **Note:** The **ITEM\_SELECTED** and **PREVIEW\_RECORD** actions function in the ITSM Agent Workspace but not in SOW. Therefore, an action payload named CREATE\_NEW\_RECORD is introduced in SOW. While there could be other action payloads that might not function properly, the base system client actions for the list continue to work effectively in SOW post-migration.
 
 
 **Parent Topic:**[List actions migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/list-actions-migration-itsm-aw-sow.md)

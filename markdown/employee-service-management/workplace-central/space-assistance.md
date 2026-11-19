@@ -41,7 +41,7 @@ The Workplace Central workspace enables you to manage the space requests submitt
 
 [Space Optimization]()
 
-[Scenario Planning]()
+[Scenario planning]()
 
 [Schedule Planning]()
 

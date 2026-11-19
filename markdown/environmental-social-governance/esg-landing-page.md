@@ -1,5 +1,5 @@
 ---
-title: Operational Sustainability Management \(formerly Environmental, Social, and Governance\)
+title: Operational Sustainability Management
 description: The ServiceNow Operational Sustainability Management application helps you centrally manage your sustainability commitments and report on progress toward your sustainability initiatives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/esg-landing-page.html
@@ -9,7 +9,7 @@ last_updated: "2026-09-10"
 reading_time_minutes: 3
 ---
 
-# Operational Sustainability Management \(formerly Environmental, Social, and Governance\)
+# Operational Sustainability Management
 
 The ServiceNow® Operational Sustainability Management application helps you centrally manage your sustainability commitments and report on progress toward your sustainability initiatives.
 

@@ -1,5 +1,5 @@
 ---
-title: Integration Accounts
+title: Integration accounts
 description: View the trends about the integration accounts that are created on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/integration-accounts.html
@@ -12,11 +12,11 @@ reading_time_minutes: 1
 breadcrumb: [Security metrics, Security monitoring console, Security Center, Platform Security]
 ---
 
-# Integration Accounts
+# Integration accounts
 
 View the trends about the integration accounts that are created on the ServiceNow AI Platform.
 
-Security Center identifies integration accounts as user accounts with the **Internal integration user** field selected on the User \[sys\_user\] record. These accounts are intended to manage integrations between your instance and external applications or systems. To view all integration accounts on your instance, navigate to **All** &gt; **User Administration** &gt; **Users** and filter by **Internal integration user = true**.
+Security Center identifies integration accounts as user accounts with the **Internal integration user** field selected on the User \[sys\_user\] record. These accounts are intended to manage integrations between your instance and external applications or systems. To view all integration accounts on your instance, navigate to **All** &gt; **User Administration** &gt; **Users** and filter by \[**Internal integration user**\] \[**is**\] \[**true**\].
 
 This page displays cards with information on metrics related to integration accounts that are created on the ServiceNow AI Platform. Each card displays a trend line for the following metrics:
 

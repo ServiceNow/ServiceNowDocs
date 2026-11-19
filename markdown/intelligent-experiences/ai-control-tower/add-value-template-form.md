@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add value template form

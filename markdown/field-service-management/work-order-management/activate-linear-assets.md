@@ -42,7 +42,7 @@ Linear asset support for Field Service Management requires activation of the fol
 
 -   **Field Service Management Configurable Workspace \(com.snc.uib.fsm\_agent\_workspace\)**
 
-    Provides the components, lists, and forms to support Field Service Management on CSM Configurable Workspace.
+    Provides the components, lists, and forms to support Field Service Management on CRM Workspace.
 
 
 Role required: admin

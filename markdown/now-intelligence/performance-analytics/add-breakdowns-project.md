@@ -92,7 +92,7 @@ The breakdown definitions that you add to KPI Composer projects are not actual P
 
 ### Procedure
 
-1.  In the Analysis tab, click the 'Group by' icon \(\[Omitted image "kpi-comp-bkdown-icon.png"\] Alt text:\).
+1.  In the Analysis tab, click the 'Group by' icon \(\[Omitted image "kpi-comp-bkdown-icon.png"\] Alt text: Group by icon\).
 
 2.  Click the name of the breakdown you want to define.
 

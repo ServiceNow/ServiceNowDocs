@@ -38,7 +38,7 @@ Review the incident information on the **Overview** tab. If necessary, you can e
 
 3.  On the Summary section, add or edit the information as needed.
 
-    1.  Select the **Edit summary** \(\[Omitted image "mim-edit-icon.png"\] Alt text: Edit summary icon\) icon to edit the fields.
+    1.  Select the **Edit summary** \(\[Omitted image "mim-edit-icon.png"\] Alt text:\) icon to edit the fields.
 
     2.  On the form, fill in the details.
 
@@ -72,7 +72,7 @@ Number
 
 </td><td>
 
-The unique system-generated incident number. This is a read-only field.
+The unique system-generated incident number.
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Opened
 
 </td><td>
 
-The date and time when the incident was created. This is a read-only field.
+The date and time when the incident was created.
 
 </td></tr><tr><td>
 
@@ -135,7 +135,7 @@ Major Incident state
 
 </td><td>
 
-State of the Major incident. **Note:** This field is available only if the Major Incident Management for Service Operations Workspace \(sn\_sow\_mim\) plugin is installed and active. For more information, see [Setting up Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/setup-mim-sow.md).
+State of the major incident. **Note:** This field is available only if the Major Incident Management for Service Operations Workspace \(sn\_sow\_mim\) plugin is installed and active. For more information, see [Setting up Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/setup-mim-sow.md).
 
 </td></tr><tr><td>
 
@@ -146,11 +146,11 @@ Caller
 User who reported the incident.
 
 </td></tr></tbody>
-</table>    3.  Select the **Save Summary** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save icon\) icon.
+</table>    3.  Select the **Save Summary** \(\[Omitted image "mim-save-icon.png"\] Alt text:\) icon.
 
 4.  On the Impact Summary section, edit the information as needed.
 
-    1.  Select the **Edit impact summary** \(\[Omitted image "mim-edit-icon.png"\] Alt text: Edit summary icon\) icon.
+    1.  Select the **Edit impact summary** \(\[Omitted image "mim-edit-icon.png"\] Alt text:\) icon.
 
     2.  On the form, fill in the details.
 
@@ -163,11 +163,11 @@ User who reported the incident.
 
         For the reference fields such as **Configuration item**, **Service offering** and **Service**, you can do the following actions:
 
-        -   Select the **Preview record** icon \(\[Omitted image "inc-preview-record.png"\] Alt text: Preview icon\) to display a preview of that record information on the same page. If necessary, you can also select **Open record** to open the record on a separate tab.
-        -   Select the **Dependency view** icon \(\[Omitted image "dependency-icon-r.png"\] Alt text: Dependency icon\) to view the dependency map of the configuration item \(CI\) in a modal view experience.
-        **Note:** Selecting any empty reference field such as **Configuration item**, **Service offering** and **Service** in SOW displays only the recent selection values instead of automatic searching and displaying the results of the field values available in the system. This change increases the overall performance of the reference fields. This change is applicable only to reference fields with no field values. By default, this change is enabled. To revert this change, set the **Reference search on click** \(**ref\_search\_on\_click**\) UX page property to set to `true`.
+        -   Select the **Preview record** icon \(\[Omitted image "inc-preview-record.png"\] Alt text:\) to display a preview of that record information on the same page. If necessary, you can also select **Open record** to open the record on a separate tab.
+        -   Select the **Dependency view** icon \(\[Omitted image "dependency-icon-r.png"\] Alt text:\) to view the dependency map of the configuration item \(CI\) in a modal view experience.
+        **Note:** Selecting any empty reference field such as **Configuration item**, **Service offering** and **Service** in SOW displays only the recent selection values instead of automatic searching and displaying the results of the field values available in the system. This change increases the overall performance of the reference fields. This change is applicable only to reference fields with no field values. By default, this change is enabled. To revert this change, set the **Reference search on click** \(**ref\_search\_on\_click**\) UX page property to `true`.
 
-    3.  Select the **Save Impact Summary** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save icon\) icon.
+    3.  Select the **Save Impact Summary** \(\[Omitted image "mim-save-icon.png"\] Alt text:\) icon.
 
 5.  On the **Location** field of the Impact section, select **View impacted locations** to view the impacted locations and users on a world map in a separate tab.
 
@@ -179,22 +179,22 @@ User who reported the incident.
 
         -   Caller of the incident.
         -   Callers of the child incidents.
-        -   Service offerings associated with the Incident. This source is only used if Service Portfolio Management Foundation is activated and being used. For more information, see [Activate Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/activate-SPM2-plugin.md).
+        -   Service offerings associated with the incident. This source is only used if Service Portfolio Management Foundation is activated and being used. For more information, see [Activate Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-portfolio-management/activate-SPM2-plugin.md).
     -   Number of impacted locations – Number of unique locations calculated based on the number of users.
     -   Impact world map – Map of impacted locations marked on the world map along with the impacted users. You can view the impacted users counts and details at these locations. You can further narrow down to the continent, country, state, or city level.
     **Note:**
 
     -   The Location section is available only if the Major Incident Management for Service Operations Workspace \(sn\_sow\_mim\) plugin is installed and active, and if the incident is a major incident. For more information, see [Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/mim-in-sow.md).
     -   You can add multiple locations from the Affected location related list in the **Related records** tab of the Major incident record.
-6.  Select the following cards to add or update the configuration items associated with the Incident.
+6.  Select the following cards to add or update the configuration items associated with the incident.
 
     1.  Select the **Affected CIs** card to add or remove the configuration items \(CI\) that are affected by the incident.
 
-    2.  Select the **Impacted Services/CIs** card to add or remove the Configurations items or Services impacted by the incident.
+    2.  Select the **Impacted Services/CIs** card to add or remove the configuration items or services impacted by the incident.
 
     3.  Select the **Assets** card to add or remove the configuration items that users use as assets.
 
-    You can search and filter the Configuration Items \(CI\) based on the configuration class when you add the affected CIs to an incident record.
+    You can search and filter the configuration items \(CIs\) based on the configuration class when you add the affected CIs to an incident record.
 
     When adding a list containing more than 50 child incidents, affected CIs, impacted services/CIs or assets, the Multiple Record Associator \(MRA\) component batch processes in async and helps adding them in background thereby increasing the overall performance of the system. This feature works only if the number of items to be added is more than 50 as the **async Threshold** configuration property is set to 50.
 
@@ -206,7 +206,7 @@ User who reported the incident.
 
     2.  Enter **Probable cause** of the incident.
 
-    3.  Select **Save cause** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save icon\) icon.
+    3.  Select **Save cause** \(\[Omitted image "mim-save-icon.png"\] Alt text:\) icon.
 
 8.  On the Resolution section, add the resolution information to resolve the incident.
 
@@ -221,7 +221,7 @@ User who reported the incident.
         |Resolution code|Category in which the incident is resolved.|
         |Resolution notes|Details on how the incident is resolved.|
 
-    3.  Select the **Save resolution** \(\[Omitted image "mim-save-icon.png"\] Alt text: Save icon\) icon.
+    3.  Select the **Save resolution** \(\[Omitted image "mim-save-icon.png"\] Alt text:\) icon.
 
 9.  On the Compose section, post messages to the activity stream and send emails to stakeholders.
 
@@ -239,9 +239,9 @@ User who reported the incident.
 
     The activity stream supports the following features:
 
-    -   The activity stream in the **Overview** and **Details** tab displays the activity information in tiles that are collapsible. By default, the latest event activity tile, if a work note or additional comment, is expanded and the other consecutive event activity tiles are collapsed. The collapsed tile only displays the time stamp and the activity event source name. This ensures a clean UI and enables you to expand and view the activity information when required. To enable this feature, set the **Enable the expandable activity stream tiles** \(**enableExpandableActivityStreamTiles**\) UX page property to `true`.
+    -   The activity stream in the **Overview** and **Details** tab displays the activity information in tiles that are collapsible. By default, the latest event activity tile, if a work note or additional comment, is expanded and the other consecutive event activity tiles are collapsed. The collapsed tile only displays the timestamp and the activity event source name. This helps provide a clean UI and enables you to expand and view the activity information when required. To enable this feature, set the **Enable the expandable activity stream tiles** \(**enableExpandableActivityStreamTiles**\) UX page property to `true`.
     -   An internal tag is added for the work notes.
-    -   You can define, customize, and apply tags to the activity streams. These tags help you search and filter the activity based on the tags. By default, no pre-defined tags are available in the base system. However, you can use the **Activity stream property** \(**activitystreamprops**\) UX Page Properties for SOW to define and customize your tags for incident records. For more information, see [Define and customize activity stream tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/define-customize-activity-stream-tags.md).
+    -   You can define, customize, and apply tags to the activity streams. These tags help you search and filter the activity based on the tags. By default, no predefined tags are available in the base system. However, you can use the **Activity stream property** \(**activitystreamprops**\) UX Page Properties for SOW to define and customize your tags for incident records. For more information, see [Define and customize activity stream tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/define-customize-activity-stream-tags.md).
 
 **Parent Topic:**[Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/incident-sow.md)
 

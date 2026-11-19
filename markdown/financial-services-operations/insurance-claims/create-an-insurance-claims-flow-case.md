@@ -46,15 +46,15 @@ This procedure references service definitions and products that are used in the 
 
 10. In the Add claim participant form, enter the details of the participant, and then select **Save**.
 
-<table id="choicetable_x5k_v1y_tcc"><thead><tr><th align="left" id="d39961e177">
+<table id="choicetable_x5k_v1y_tcc"><thead><tr><th align="left" id="d39956e179">
 
 Reporter status
 
-</th><th align="left" id="d39961e180">
+</th><th align="left" id="d39956e182">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d39961e186">
+</th></tr></thead><tbody><tr><td id="d39956e188">
 
 **Is a policy participant**
 
@@ -66,7 +66,7 @@ Steps
 -   Enter how the participant is related to the insured in the **Relationship to insured** field.
 
 
-</td></tr><tr><td id="d39961e225">
+</td></tr><tr><td id="d39956e227">
 
 **Is not a policy participant**
 

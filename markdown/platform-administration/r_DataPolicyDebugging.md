@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data policy, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Data policy, Administer, Field administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Data policy debugging

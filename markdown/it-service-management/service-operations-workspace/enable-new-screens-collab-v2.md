@@ -44,7 +44,7 @@ Role required: admin
 
     3.  In the **UX Screens** tab, under **Active**, set the **MS Teams Import** value as **false**.
 
-4.  Map Start MS Teams Chat screen to use the UI Components of Collaboration for Configurable Workspaces \(com.snc.uib.collaboration\) plugin.
+4.  Map the Start MS Teams Chat screen to use the UI Components of Collaboration for Configurable Workspaces \(com.snc.uib.collaboration\) plugin.
 
     1.  Apply the filter and search for **c04230e9ff7da210549fffffffffff1d** in Sys ID.
 

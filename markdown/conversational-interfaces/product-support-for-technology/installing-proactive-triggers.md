@@ -1,5 +1,5 @@
 ---
-title: Installing Proactive Triggers
+title: Install Proactive Triggers
 description: Enable Proactive Triggers so that you can begin working with the feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/installing-proactive-triggers.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---
 
-# Installing Proactive Triggers
+# Install Proactive Triggers
 
 Enable Proactive Triggers so that you can begin working with the feature.
 
@@ -22,17 +22,15 @@ The Proactive Triggers feature \[sn\_pt\] is available as an app and must be ins
 
 Role required: admin
 
-## About this task
-
-The following steps provide a high-level overview of how to enable Proactive Triggers.
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings** &gt; **General**.
 
-2.  Under Proactive triggers, select the [Enable Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/product-support-for-technology/enable-proactive-triggers.md) field toggle switch to enable the feature.
+2.  Under **Proactive triggers**, select the **Enable proactive triggers** toggle switch.
 
-3.  Set the com.glide.cs.advanced-chat-popover system property to **true** in the System Properties \[sys\_properties\] table.
+    For detailed steps, see [Enable Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/product-support-for-technology/enable-proactive-triggers.md).
+
+3.  Set the **com.glide.cs.advanced-chat-popover** system property to **true** in the System Properties \[sys\_properties\] table.
 
     This system property is only applicable to the requester persona.
 

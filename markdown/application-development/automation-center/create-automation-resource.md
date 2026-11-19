@@ -36,7 +36,11 @@ Automation resource types:
 
 ## Procedure
 
-1.  2.  3.  On the **Lists** tab, under **Build**, select **All Automation Tasks**.
+1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation center Home**.
+
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
+
+3.  On the **Lists** tab, under **Build**, select **All Automation Tasks**.
 
 4.  Open the automation task that you want to create and associate an automation resource.
 

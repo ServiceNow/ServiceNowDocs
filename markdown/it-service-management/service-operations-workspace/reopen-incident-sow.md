@@ -24,7 +24,7 @@ Role required: itil or sn\_incident\_write
 
 ## About this task
 
-An agent with incident write \(sn\_incident\_write\) access can view and use the **Reopen** option on the incident record page in SOW to reopen any incident that is assigned to them or other agents. However, on the Portal UI’s such as Service Portal and Employee Service Center \(ESC\) portal, an agent can only view and use the **Reopen** option to reopen an incident if they are the caller or **Opened by** \(Requester\) end user for that incident.
+An agent with incident write \(sn\_incident\_write\) access can view and use the **Reopen** option on the incident record page in SOW to reopen any incident that is assigned to them or other agents. However, on the Portal UIs such as Service Portal and Employee Service Center \(ESC\) portal, an agent can only view and use the **Reopen** option to reopen an incident if they are the caller or **Opened by** \(Requester\) end user for that incident.
 
 Both the caller and the **Opened by** \(Requester\) users can view and use the **Reopen incident** option on the Portal UIs, such as Service Portal and Employee Service Center \(ESC\) portal to reopen a resolved incident.
 
@@ -36,7 +36,7 @@ If an incident state is set to **Closed**, the incident cannot be reopened. Howe
 
 2.  Select **Reopen**.
 
-    A dialog-box opens.
+    A dialog box opens.
 
 3.  Enter **Additional comments \(Customer visible\)**.
 

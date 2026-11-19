@@ -30,7 +30,7 @@ Automation Center provides an integration with the ServiceNow® RPA Hub applicat
 
 ## Integration with Document Intelligence
 
-Automation Center integrates with Document Intelligence enabling you to get the Document Intelligence data into ServiceNow® instance. You can analyze the data from Document Intelligence using Automation Center. For more information, see .
+Automation Center integrates with Document Intelligence enabling you to get the Document Intelligence data into ServiceNow® instance. You can analyze the data from Document Intelligence using Automation Center.
 
 ## Integration with UiPath
 

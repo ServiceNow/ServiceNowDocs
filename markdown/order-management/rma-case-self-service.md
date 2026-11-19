@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/rma-case-self-service.html
 release: brazil
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [RMA AI agentic workflow, Order operations apps, Configure, Sales Customer Relationship Management]
 ---

@@ -17,9 +17,9 @@ Business unit application developers can ship manual segments with their applica
 
 ## Shipping overview
 
-Manual segments are the recommended way to ship domain-specific saved searches with your application. They receive a priority boost over automated segments during search, and the LLM is instructed to retain all their filters unless completely irrelevant—whereas automated segment filters are critiqued individually.
+Manual segments are the recommended way to ship domain-specific saved searches with your application. They receive a priority boost over automated segments during search. The LLM is instructed to retain all their filters unless completely irrelevant, whereas automated segment filters are critiqued individually.
 
-Shipping manual segments with your plugin ensures that users can immediately ask natural language questions about your application's data using business terminology, without waiting for automated segments to be generated from usage patterns.
+Shipping manual segments with your plugin enables users to immediately ask natural language questions about your application's data using business terminology. They don't have to wait for automated segments to be generated from usage patterns.
 
 ## How to ship manual segments
 
@@ -33,9 +33,9 @@ Understanding how manual segments behave during plugin installation is important
 
 -   Business rules are **bypassed** during plugin installation—the async sync will not fire automatically at install time.
 -   The records will be synced into `sn_query_gen_segment` the next time the **Generate Semantic Layer** scheduled job runs \(post-install\) or when the weekly **Sync Segments** job runs.
--   Ensure your plugin does not ship duplicate records. There is no unique constraint at the database level—admins must ensure no duplicate names per entity.
+-   verify your plugin does not ship duplicate records. There is no unique constraint at the database level—admins must verify no duplicate names per entity.
 
-**Important:** Manual segments shipped via plugin will not be immediately available for search after installation. They become active after the next scheduled sync job runs.
+**Important:** Manual segments shipped via plugin will not be immediately available for search after installation. They is set to active after the next scheduled sync job runs.
 
 ## Example: Full configuration for a table
 
@@ -53,7 +53,7 @@ The following example shows manual segments for the `incident` table that could 
 
 -   **Focus on high-value, high-traffic tables**
 
-    Concentrate manual segments on the tables your users ask about most. A handful of well-crafted segments on your app's primary tables will have more impact than broad coverage across rarely-queried tables.
+    Concentrate manual segments on the tables your users ask about most. A handful of well-crafted segments on your application's primary tables will have more impact than broad coverage across rarely-queried tables.
 
 -   **Use business language, not technical codes**
 
@@ -76,7 +76,7 @@ The following example shows manual segments for the `incident` table that could 
 
 Verify the following before including manual segments in your plugin:
 
--   Each target table has an active entity in the semantic layer \(`sn_query_gen_table_config` with **enable\_semantic\_generation = true**\)
+-   Each target table has an active entity defined in the semantic layer \(`sn_query_gen_table_config` record with **enable\_semantic\_generation = true**\)
 -   Segment names are written in plain user language, not technical shorthand
 -   Descriptions are provided for segments where the name alone may be ambiguous
 -   Filters are valid encoded queries and under 2,000 characters for optimal LLM prompt inclusion

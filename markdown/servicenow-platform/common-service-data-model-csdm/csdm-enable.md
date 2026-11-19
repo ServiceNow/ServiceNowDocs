@@ -9,7 +9,7 @@ classification: common-service-data-model-csdm
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, Common Service Data Model \(CSDM\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Activate the CSDM plugin

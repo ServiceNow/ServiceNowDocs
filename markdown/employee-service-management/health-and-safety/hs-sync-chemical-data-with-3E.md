@@ -7,7 +7,7 @@ release: brazil
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [3E Protect, 3E, Integration with third-party services, Health and Safety, Employee Service Management]
 ---
@@ -19,8 +19,6 @@ You can sync details of chemicals, such as hazard identification, chemical ingre
 ## Before you begin
 
 The 3E credentials must be configured in the application registry for the sync with the service provider to process successfully. For more information, see [Configure the application registry for the 3E service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-configure-application-registry-3E.md).
-
-Role required: admin
 
 ## Procedure
 

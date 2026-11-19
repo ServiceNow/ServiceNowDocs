@@ -1,6 +1,6 @@
 ---
 title: Multi-instance Setup
-description: The multi-instance setup enables a prod \(manager\) instance to control, manage, and communicate with multiple sub-prod \(managed\) instances for AI Control Tower.
+description: The multi-instance setup enables a prod \(manager\) instance to control, manage, and communicate with multiple sub-prod \(managed\) instances for Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/multi-instance-management.html
 release: brazil
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configurations, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configurations, Control Tower dashboard, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Multi-instance Setup
 
-The multi-instance setup enables a prod \(manager\) instance to control, manage, and communicate with multiple sub-prod \(managed\) instances for AI Control Tower.
+The multi-instance setup enables a prod \(manager\) instance to control, manage, and communicate with multiple sub-prod \(managed\) instances for Control Tower.
 
 ## AI asset Synchronization
 
@@ -23,7 +23,7 @@ Multi-instance setup uses the multi-instance framework, which helps the user to 
 
 Multi-instance setup synchronizes rules for the sub-prod instances from the prod instance.
 
-**Note:** Starting with the February 2026 release, ensure that both the prod and sub-prod instances are running the same AI Control Tower core version \(5.1.1\), which is the minimum supported version.
+**Note:** Starting with the February 2026 release, ensure that both the prod and sub-prod instances are running the same Control Tower core version \(5.1.1\), which is the minimum supported version.
 
 If there’s any upgrade to version 5.1.1 in a sub-prod, then it’s advisable to upgrade the prod instance to 5.1.1 to ensure Multi-instance framework functions correctly.
 
@@ -52,7 +52,7 @@ If there’s any upgrade to version 5.1.1 in a sub-prod, then it’s advisable t
 
 **Note:** All the preferences mentioned earlier for a sub-prod instance are available in read-only mode, when Multi-instance is configured and enabled.
 
-For information about configuring Multi-instance management for AI Control Tower, see [Configure multi-instance management for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.md)
+For information about configuring Multi-instance management for Control Tower, see [Configure multi-instance management for Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.md)
 
-For information about Data section, see [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/data.md)
+For information about Data section, see [Data sharing, Data overflow processing, and Security &amp; privacy in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/data.md)
 

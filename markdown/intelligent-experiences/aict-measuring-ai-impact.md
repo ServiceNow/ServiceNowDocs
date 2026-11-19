@@ -1,6 +1,6 @@
 ---
 title: Measuring AI systems
-description: Measure quantifies the productivity value delivered by your AI systems and tracks their costs. It also reports the net return on AI, enabling you to determine where to scale, fund, or retire AI.
+description: Measure in Super Intelligence Control Tower quantifies the productivity value delivered by your AI systems and tracks their costs. It also reports the net return on AI, enabling you to determine where to scale, fund, or retire AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-measuring-ai-impact.html
 release: brazil
@@ -8,16 +8,16 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Measuring AI systems
 
-Measure quantifies the productivity value delivered by your AI systems and tracks their costs. It also reports the net return on AI, enabling you to determine where to scale, fund, or retire AI.
+Measure in Super Intelligence Control Tower quantifies the productivity value delivered by your AI systems and tracks their costs. It also reports the net return on AI, enabling you to determine where to scale, fund, or retire AI.
 
 ## Measure overview
 
-Measure is one of the AI Control Tower \(AICT\) pillars \(Discover, Observe, Govern, Secure, Measure\). While the other pillars focus on finding, monitoring, governing, and protecting your AI systems, Measure is responsible for reporting the results produced by those systems. It answers three questions:
+Measure is one of the Control Tower pillars \(Discover, Observe, Govern, Secure, Measure\). While the other pillars focus on finding, monitoring, governing, and protecting your AI systems, Measure is responsible for reporting the results produced by those systems. It answers three questions:
 
 -   What is AI actually delivering?
 -   What is it costing you?
@@ -33,7 +33,7 @@ Measure has three components:
 
 -   **Cost**
 
-    Cost records the actual expenses of your AI, enabling AI Control Tower to compare this against productivity gains and calculate the net AI return. You set it up by inputting your organization's average hourly rate and specifying prices for both integrated and non-integrated vendors.
+    Cost records track the actual expenses of your AI, enabling Control Tower to compare this against productivity gains and calculate the net AI return. You set it up by inputting your organization's average hourly rate and specifying prices for both integrated and non-integrated vendors.
 
 -   **Dashboard**
 

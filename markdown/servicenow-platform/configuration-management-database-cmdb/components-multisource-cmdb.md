@@ -144,7 +144,7 @@ Threshold number of CMDB 360 records that when exceeded for a class, CMDB 360 Co
  -   Type: numeric
 -   Default value: 10 million
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
--   Learn more: [CMDB 360 experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)
+-   Learn more: [CMDB 360 experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)
 
 </td></tr></tbody>
 </table>## Tables

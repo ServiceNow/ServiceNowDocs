@@ -9,7 +9,7 @@ classification: dynamic-translation
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integrate with a translation service provider, Integration with other translation services, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Integrate with a translation service provider, Integration with other translation services, Dynamic Translation, Translation and localization, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create a custom translator configuration

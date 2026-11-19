@@ -322,6 +322,8 @@ The option that you selected is submitted. At any time, you can view your select
 
 [Add a space using Workplace Space Management]()
 
+[Configure a space type as usable with Workplace Space Management]()
+
 [Allocate a cost center, department, or workplace entity]()
 
 [Configure a workspace or desk as flexible or permanent]()

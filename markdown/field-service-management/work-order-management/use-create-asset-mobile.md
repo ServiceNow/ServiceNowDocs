@@ -1,6 +1,6 @@
 ---
 title: Track an asset for a work order task from a mobile device
-description: Track the status of an asset that you used to execute a work order task or an asset that you removed or replaced by using the ServiceNow Agent application on a mobile device. You can track the status of these assets as you're doing the task from a task location.
+description: Track the status of assets used, removed, or replaced during a work order task. Use the ServiceNow Agent application on a mobile device to update asset status from a task location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/work-order-management/use-create-asset-mobile.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, 
 
 # Track an asset for a work order task from a mobile device
 
-Track the status of an asset that you used to execute a work order task or an asset that you removed or replaced by using the ServiceNow Agent application on a mobile device. You can track the status of these assets as you're doing the task from a task location.
+Track the status of assets used, removed, or replaced during a work order task. Use the ServiceNow Agent application on a mobile device to update asset status from a task location.
 
 ## Before you begin
 
@@ -27,7 +27,8 @@ Role required: wm\_agent
 When you record the asset usage, the following actions occur:
 
 -   The Use Part screen displays the assets in the Reserved Part and Available Part list in your inventory and shows the state as **In Stock** and the substate as **Reserved** and **Available**.
--   The Remove Part list displays the assets for all the companies and locations for the work order or work order tasks that you’re working on where the state of the part is **In Stock** and the substate is **Defective**.
+-   The Remove Part list displays assets across all companies and locations for the current work order or work order tasks. The work order or work order tasks part state is **In Stock** and the substate is **Defective**.
+-   The Remove Part list shows only assets that belong to the location of a work order task. If a task has no value in the **Location** field, no assets appear in the Remove Part list for that task. To remove a part for such a task, add a location to the task first.
 
 ## Procedure
 
@@ -53,15 +54,15 @@ When you record the asset usage, the following actions occur:
 
 7.  Record the information about the usage or removal of an asset by tapping one of the following options.
 
-<table id="choicetable_jdq_whz_4fb"><thead><tr><th align="left" id="d30007e203">
+<table id="choicetable_jdq_whz_4fb"><thead><tr><th align="left" id="d30030e211">
 
 Option
 
-</th><th align="left" id="d30007e206">
+</th><th align="left" id="d30030e214">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d30007e212">
+</th></tr></thead><tbody><tr><td id="d30030e220">
 
 **Record asset usage**
 
@@ -82,7 +83,7 @@ Record the usage of an asset:
     6.  Go back to the Use Part screen by tapping the back icon.
  The asset is added to the Asset Usages related list and the state for the part changes to **In Use**.
 
-</td></tr><tr><td id="d30007e283">
+</td></tr><tr><td id="d30030e291">
 
 **Record asset removal**
 
@@ -112,7 +113,7 @@ Record the removal of an asset:
     9.  Go back to the Remove Part screen by tapping the back icon.
  The asset is removed from the Asset Usages related list and the state for the part changes to **In Stock** and the substate changes to **Defective**.
 
-</td></tr><tr><td id="d30007e411">
+</td></tr><tr><td id="d30030e419">
 
 **Record asset replacement**
 

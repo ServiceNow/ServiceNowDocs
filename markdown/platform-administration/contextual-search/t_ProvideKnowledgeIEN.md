@@ -9,7 +9,7 @@ classification: contextual-search
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Define email configuration for contextual search, Managing contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Define email configuration for contextual search, Managing contextual search, Contextual search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Provide knowledge in incident email notification

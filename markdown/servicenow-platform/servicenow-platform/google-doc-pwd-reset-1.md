@@ -28,7 +28,7 @@ Password Reset integration with Google Directory 1.0.3 is the latest version.
 
 If you’re having trouble installing the app, ensure that these dependent plugins are installed:
 
--   Google Directory spoke v 1.3.1 or higher
+-   [Google Directory spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/gdirectory-spoke.md) v 1.3.1 or higher
 -   ServiceNow IntegrationHub Action Template - Data Stream \(com.glide.hub.action\_type.datastream\)
 -   ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)
@@ -58,7 +58,7 @@ Customize the default credential store records and password reset processes to i
 
 -   Request Integration Hub subscription.
 -   Activate Password Reset
--   Activate and set up the Google Directory spoke.
+-   Activate and set up the [Google Directory spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/gdirectory-spoke.md).
 -   Activate Password Reset integration with Google Directory.
 -   Role required: password\_reset\_admin
 

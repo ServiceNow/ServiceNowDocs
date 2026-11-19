@@ -1,6 +1,6 @@
 ---
 title: Configure Walk-up Experience service channel
-description: Configure the Walk-up Experience service channel to meet the needs of your walk-up agents. You can configure the way the tasks are assigned and manage interactions in the Agent Workspace.
+description: Configure the Walk-up Experience service channel to control how tasks are assigned and how agents manage interactions in the Agent Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-config-serv-channel.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set u
 
 # Configure Walk-up Experience service channel
 
-Configure the Walk-up Experience service channel to meet the needs of your walk-up agents. You can configure the way the tasks are assigned and manage interactions in the Agent Workspace.
+Configure the Walk-up Experience service channel to control how tasks are assigned and how agents manage interactions in the Agent Workspace.
 
 ## Before you begin
 

@@ -1,6 +1,6 @@
 ---
 title: Workspace configuration for change requests in Service Operations Workspace
-description: Use the table-based configuration to align the Service Operations Workspace Dynamic Overview Pages with the change process of your organization.Configure the layout of the overview page for Change Management in Service Operations Workspace.Configure or modify fields for change overview cards containing forms to display the fields that you need in the change request form in Service Operations Workspace.Show the activity stream bar for a for a change request in Service Operations Workspace.Configure the order of the cards that display in the Overview section for a change request in Service Operations Workspace.You can configure if the Work notes or Additional comments sections to display for a change request.
+description: Use the table-based configuration to align the Service Operations Workspace Dynamic Overview Pages with the change process of your organization.Configure the layout of the overview page for Change Management in Service Operations Workspace.Configure or modify fields for change overview cards containing forms to display the fields that you need in the change request form in Service Operations Workspace.Show the activity stream bar for a change request in Service Operations Workspace.Configure the order of the cards that display in the Overview section for a change request in Service Operations Workspace.Configure whether the Work notes or Additional comments sections are displayed for a change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-sow-chg-dynamic-overview-pages.html
 release: brazil
@@ -125,7 +125,7 @@ Role required: personalize\_form
 
 ## Show the activity stream bar
 
-Show the activity stream bar for a for a change request in Service Operations Workspace.
+Show the activity stream bar for a change request in Service Operations Workspace.
 
 ### Before you begin
 
@@ -139,14 +139,14 @@ Role required: admin
 
 3.  On the Change Overview Container form for the selected state, enable **Display action bar**.
 
-4.  Right-click on the form header and select **Save**.
+4.  Select and hold \(or right-click\) the form header and select **Save**.
 
     The action bar is shown on the Service Operations Workspace at the bottom of the screen.
 
     \[Omitted image "display-action-bar.png"\] Alt text: Action bar in change request record
 
 
-## Configure the order of the cards in Overview section
+## Configure the order of the cards in the Overview section
 
 Configure the order of the cards that display in the Overview section for a change request in Service Operations Workspace.
 
@@ -158,18 +158,18 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Change** &gt; **Workspace Configuration** &gt; **Overview Card**.
 
-2.  Right-click on Chg overview container column, and select **Group By Chg overview container**.
+2.  Select and hold \(or right-click\) the Chg overview container column, and select **Group By Chg overview container**.
 
 3.  Select a state.
 
 4.  In the **Change Overview Cards** section, modify the order of the overview cards using **Display order**.
 
-5.  Right-click on the form header, and select **Save**.
+5.  Select and hold \(or right-click\) the form header, and select **Save**.
 
 
 ## Configure the journal field of a change request
 
-You can configure if the **Work notes** or **Additional comments** sections to display for a change request.
+Configure whether the **Work notes** or **Additional comments** sections are displayed for a change request.
 
 ### Before you begin
 
@@ -181,8 +181,8 @@ Role required: admin
 
 2.  Select a Chg overview card.
 
-3.  In the **Change Overview Fields** section, to delete select the journal field, and select **Delete** from **Actions on selected rows.**
+3.  In the **Change Overview Fields** section, select the journal field to delete, and then select **Delete** from **Actions on selected rows**.
 
-4.  Right-click on the header and select **Save**.
+4.  Select and hold \(or right-click\) the header and select **Save**.
 
 

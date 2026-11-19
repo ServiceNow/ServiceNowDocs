@@ -72,7 +72,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-itil
+itil, sn\_service\_desk\_agent
 
 </td></tr><tr><td>
 
@@ -106,8 +106,7 @@ Used in agentic workflows
 
 </td><td>
 
--   ITSM Agent Zero
--   Triage and categorize ITSM incident
+Triage and categorize ITSM incident
 
 </td></tr></tbody>
 </table>Learn more about IT Service Management at [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/r_ITServiceManagement.md).

@@ -8,7 +8,7 @@ product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 

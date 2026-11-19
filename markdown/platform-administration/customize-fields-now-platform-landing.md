@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Field administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Customizing fields on the ServiceNow AI Platform

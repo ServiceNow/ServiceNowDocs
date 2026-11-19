@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-10-28"
 reading_time_minutes: 1
-breadcrumb: [Configure exception reason properties, Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Configure exception reason properties, Configure Scan Engine properties, Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure exception approval behavior
@@ -16,7 +16,7 @@ Configure how exception reasons are enforced, approved, and re-evaluated when fi
 
 ## Before you begin
 
-All instances must be registered in My SN Instances before configuring approval settings. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md) for details.
+All instances must be registered in My SN Instances before configuring approval settings. See [Register your instance in My SN Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md) for details.
 
 Role required: Scan Engine admin \(sn\_se.scan\_engine\_admin\)
 

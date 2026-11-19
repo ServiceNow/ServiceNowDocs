@@ -44,15 +44,15 @@ Note the following before you start:
 
 4.  Fill in the fields.
 
-<table><thead><tr><th align="left" id="d700088e159">
+<table><thead><tr><th align="left" id="d704256e161">
 
 Field
 
-</th><th align="left" id="d700088e162">
+</th><th align="left" id="d704256e164">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d700088e168">
+</th></tr></thead><tbody><tr><td id="d704256e170">
 
 **Name**
 
@@ -60,7 +60,7 @@ Description
 
 Name of the connector. The pull connector instance name must match the push connector instance name.
 
-</td></tr><tr><td id="d700088e177">
+</td></tr><tr><td id="d704256e179">
 
 **Description**
 
@@ -68,7 +68,7 @@ Name of the connector. The pull connector instance name must match the push conn
 
 Any optional information that you want to use to identify this record.
 
-</td></tr><tr><td id="d700088e186">
+</td></tr><tr><td id="d704256e188">
 
 **Host IP**
 
@@ -76,7 +76,7 @@ Any optional information that you want to use to identify this record.
 
 Use your Datadog site's API host. For example, `api.datadoghq.eu`
 
-</td></tr><tr><td id="d700088e200">
+</td></tr><tr><td id="d704256e202">
 
 **Credential**
 
@@ -84,7 +84,7 @@ Use your Datadog site's API host. For example, `api.datadoghq.eu`
 
 The ServiceNow credential record that stores your Datadog API key or access token. The authentication method is controlled by the `useAccessToken` connector instance value. For more information, see the Connector instance value parameters table.
 
-</td></tr><tr><td id="d700088e219">
+</td></tr><tr><td id="d704256e221">
 
 **Active**
 
@@ -92,7 +92,7 @@ The ServiceNow credential record that stores your Datadog API key or access toke
 
 This option appears only after the form is saved.
 
-</td></tr><tr><td id="d700088e228">
+</td></tr><tr><td id="d704256e230">
 
 **Bi-directional**
 
@@ -100,7 +100,7 @@ This option appears only after the form is saved.
 
 Select to enable bi-directional exchange of values to and from the external event source. This option is available only when the connector definition has bi-directional values configured. After a work item alert is closed in ServiceNow, the corresponding case is automatically closed in Datadog.
 
-</td></tr><tr><td id="d700088e246">
+</td></tr><tr><td id="d704256e248">
 
 **Last bi-directional status**
 

@@ -41,7 +41,7 @@ To remove a bookmark, choose the filled bookmark icon \[Omitted image "bookmark-
 **Related topics**  
 
 
-[Create a dashboard with the in-line editor]()
+[Create a Platform Analytics dashboard with the inline editor]()
 
 [Create Core UI dashboards on upgraded instances]()
 

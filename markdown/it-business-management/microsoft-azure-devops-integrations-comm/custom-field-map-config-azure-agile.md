@@ -8,7 +8,7 @@ product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Customizing your map configuration for Microsoft Azure DevOps integration, Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---
 

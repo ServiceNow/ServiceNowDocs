@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Regular expressions and patterns, Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Regular expressions and patterns, Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Pattern matching

@@ -30,7 +30,7 @@ Role required: sn\_kpi\_composer.admin or admin for full editing functions
 
 2.  Select the root artifact of one of the library elements in the KPI tree to open its properties.
 
-    Bookmark icons \(\[Omitted image "kpi-comp-bookmark-icon-sm.png"\] Alt text:\) identify the artifacts that are in a library element. The root artifacts, or parent artifacts, are the most top-level artifacts in each library element.
+    Bookmark icons \(\[Omitted image "kpi-comp-bookmark-icon-sm.png"\] Alt text: Bookmark icon\) identify the artifacts that are in a library element. The root artifacts, or parent artifacts, are the most top-level artifacts in each library element.
 
     \[Omitted image "kpi-comp-root-artifacts.png"\] Alt text: A KPI tree with two root artifacts, for each of two library elements.
 
@@ -54,7 +54,7 @@ Role required: sn\_kpi\_composer.admin or admin for full editing functions
     -   Instead of adding a new artifact, you can add another library element, which is then nested inside this library element. For more information, see [Use a library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/use-library-element.md).
 6.  To add indicator definitions to the artifacts in a library element, open the Data Definition tab and follow the instructions in [Create an indicator definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-indicator-definition.md).
 
-7.  Select the information icon \(\[Omitted image "kpi-comp-info-icon-sm.png"\] Alt text:\) to view or edit the library element properties, such as whether the library element is global or personal in scope.
+7.  Select the information icon \(\[Omitted image "kpi-comp-info-icon-sm.png"\] Alt text: Information icon\) to view or edit the library element properties, such as whether the library element is global or personal in scope.
 
     You need the sn\_kpi\_composer.admin or admin role to edit properties. Otherwise, they are read-only.
 

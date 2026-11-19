@@ -45,7 +45,7 @@ The SOW migration utility uses the following sequence to migrate the form header
 
 
 -   **[Perform post-migration tasks for form headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/verify-migration-status-form-headers-sow.md)**  
-Verify that the form header in Service Operations Workspace \(SOW\) are consistent with the form header in ITSM Agent Workspace \(ITSM AW\) and are ready for use in SOW. You can update the migrated form header settings in SOW based on your requirements.
+Verify that the form headers in Service Operations Workspace \(SOW\) are consistent with the form headers in ITSM Agent Workspace \(ITSM AW\) and are ready for use in SOW. You can update the migrated form header settings in SOW based on your requirements.
 
 **Parent Topic:**[Migration of ITSM Agent workspace configurations to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)
 

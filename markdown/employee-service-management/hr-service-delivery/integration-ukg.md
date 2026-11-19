@@ -91,11 +91,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementationPlan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/set-up-ukg.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/set-up-ukg.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like fields, tables, and propertiesGet details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/ref-hrsd-ukg.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/ref-hrsd-ukg.md)
 
 </td></tr><tr><td>
 

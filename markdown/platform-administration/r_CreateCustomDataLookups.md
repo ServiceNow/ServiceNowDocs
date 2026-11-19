@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Data lookup and record matching support, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Data lookup and record matching support, Administer, Field administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create custom data lookups

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-authentication-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 16
 breadcrumb: [Products combined by family]
 ---
@@ -125,7 +125,7 @@ Require a caller who is already authenticated to complete an additional challeng
 
  -   **[Policy-based login experience](https://www.servicenow.com/docs/access?context=next-gen-login-experience&family=brazil&ft:locale=en-US)**
 
-Use the Policy-based experience \(identifier-first login\) framework in the Authentication Console to craft login policies to simplify the login experience by presenting relevant login methods based on user context, such as username or email.
+Use the policy-based login experience in the Authentication Console to create identifier-first login policies that simplify the login experience by presenting relevant login methods based on user context, such as username or email. To turn on the experience, set the glide.authenticate.policy\_based\_login\_experience.enabled property to true, turn on Enable policy-based login in the Authentication Console, and create at least one active identifier-first login policy.
 
 -   **[SAML certificate expiry notifications](https://www.servicenow.com/docs/access?context=c_SAML2.0WebBrowserSSOProfile&family=brazil&ft:locale=en-US)**
 
@@ -350,7 +350,7 @@ Zurich
 
 Authentication is a ServiceNow AI Platform product that is active by default.
 
-Upgrade consideration: if **glide.authenticate.auth.policy.enabled** was `false` before you upgrade to Zurich and a Pre or Post Authentication Policy Context is configured, the upgrade changes the context's default policy and deletes existing MFA enrollment data. Users must enroll in MFA again. See [\[Placeholder link text to key changes-mfa-enforcement\]](https://www.servicenow.com/docs/access?context=changes-mfa-enforcement&family=zurich&ft:locale=en-US).
+Upgrade consideration: if **glide.authenticate.auth.policy.enabled** was `false` before you upgrade to Zurich and a Pre or Post Authentication Policy Context is configured, the upgrade changes the context's default policy and deletes existing MFA enrollment data. Users must enroll in MFA again. See [changes mfa enforcement](https://www.servicenow.com/docs/access?context=changes-mfa-enforcement&family=zurich&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -363,7 +363,7 @@ Australia
 
 Authentication is a ServiceNow AI Platform product that is active by default.
 
-Upgrade consideration: if **glide.authenticate.auth.policy.enabled** was `false` before you upgrade to Zurich and a Pre or Post Authentication Policy Context is configured, the upgrade changes the context's default policy and deletes existing MFA enrollment data. Users must enroll in MFA again. See [\[Placeholder link text to key changes-mfa-enforcement\]](https://www.servicenow.com/docs/access?context=changes-mfa-enforcement&family=australia&ft:locale=en-US).
+Upgrade consideration: if **glide.authenticate.auth.policy.enabled** was `false` before you upgrade to Zurich and a Pre or Post Authentication Policy Context is configured, the upgrade changes the context's default policy and deletes existing MFA enrollment data. Users must enroll in MFA again. See [changes mfa enforcement](https://www.servicenow.com/docs/access?context=changes-mfa-enforcement&family=australia&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -657,7 +657,7 @@ Brazil
 </td><td>
 
 -   Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details.
--   Simplify the login experience by crafting login policies that present relevant methods based on user context with the Policy-based experience - Identifier-first login experience.
+-   Simplify the login experience by creating identifier-first login policies that present relevant methods based on user context with the policy-based login experience.
 -   Act before SSO is disrupted with home page banner alerts when SAML SP signing or encryption keystores are nearing or past expiry.
 -   Authenticate callers in AI voice agent sessions using a one-time passcode delivered to a registered email address, as a standalone, primary, or secondary factor.
 -   Connect ServiceNow to Microsoft Azure and Google Cloud Platform without storing or rotating client secrets, using federated identity based on signed JWTs.

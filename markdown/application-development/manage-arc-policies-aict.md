@@ -1,6 +1,6 @@
 ---
-title: Manage Arc agent policies in AI Control Tower
-description: Create and manage Arc agent policies and their rules in AI Control Tower, so you govern Arc in the same place as the rest of your AI systems.
+title: Manage Arc agent policies in Control Tower
+description: Create and manage Arc agent policies and their rules in Control Tower, so you govern Arc in the same place as the rest of your AI systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/manage-arc-policies-aict.html
 release: brazil
@@ -11,11 +11,11 @@ keywords: [AI Control Tower, agent policy, Arc policies, policy authoring]
 breadcrumb: [Configure, ServiceNow Arc, Extend, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Manage Arc agent policies in AI Control Tower
+# Manage Arc agent policies in Control Tower
 
-Create and manage Arc agent policies and their rules in AI Control Tower, so you govern Arc in the same place as the rest of your AI systems.
+Create and manage Arc agent policies and their rules in Control Tower, so you govern Arc in the same place as the rest of your AI systems.
 
-You manage Arc agent policies on the **Arc policies** tab in AI Control Tower, under **Govern** &gt; **Policies**.
+You manage Arc agent policies on the **Arc policies** tab in Control Tower, under **Govern** &gt; **Policies**.
 
 ## Policies
 

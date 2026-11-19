@@ -80,7 +80,7 @@ For more information, see [Configure a reservable module](https://raw.githubuser
 
 For more information, see:
 
--   [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md)
+-   [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md)
 -   [Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/add-a-space.md)
 -   [Space suggestion Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-concierge/space-suggestion-configuration.md)
 -   [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md).

@@ -37,7 +37,7 @@ An SSO integration is created using a directory integration. When you delete an 
 
 [SaaS License Management setup for large companies]()
 
-[SaaS Overview dashboard]()
+[]()
 
 [Integrate with SaaS applications]()
 

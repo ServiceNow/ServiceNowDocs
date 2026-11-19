@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/utilitie
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 

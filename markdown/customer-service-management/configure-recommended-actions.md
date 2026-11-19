@@ -20,6 +20,10 @@ You can configure recommended actions by following these steps.
 
 <table id="table_jm3_lm4_15b"><thead><tr><th>
 
+Step number
+
+</th><th>
+
 Step
 
 </th><th>
@@ -27,6 +31,10 @@ Step
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+1
+
+</td><td>
 
 [Create a context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-contexts-create.md)
 
@@ -36,13 +44,21 @@ A context enables agents to see recommendations for records from a specific tabl
 
 </td></tr><tr><td>
 
-[Create a context input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-create-context-inputs.md)
+2
+
+</td><td>
+
+\(Optional\) [Create a context input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-create-context-inputs.md)
 
 </td><td>
 
 A context input enables you to associate entities beyond just the context table with a context ensuring that recommendations are updated dynamically as the context evolves.**Note:** This step is not mandatory.
 
 </td></tr><tr><td>
+
+3
+
+</td><td>
 
 [Create a rule for a context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-rules-create.md)
 
@@ -58,6 +74,10 @@ A rule is a set of conditions that applies to a context and determines when a re
 **Note:** New rules can only be created from within a context.
 
 </td></tr><tr><td>
+
+4
+
+</td><td>
 
 [Create a recommendation for a rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-recommendations-create.md)
 

@@ -9,7 +9,7 @@ classification: common-service-data-model-csdm
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Implement, Common Service Data Model \(CSDM\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CSDM implementation stage — Run

@@ -18,7 +18,7 @@ Add agents to a Field Service crew as needed.
 
 ## Before you begin
 
-Role required: wm\_manager, wm\_dispatcher
+Role required: wm\_crew\_moderator, wm\_dispatcher, wm\_manager
 
 ## About this task
 

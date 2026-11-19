@@ -16,7 +16,7 @@ Configure the structure of your retail organization within Retail Core.
 
 ## Before you begin
 
-Role required: sn\_rtl.retail\_admin
+Role required: sn\_retail.retail\_admin
 
 ## About this task
 

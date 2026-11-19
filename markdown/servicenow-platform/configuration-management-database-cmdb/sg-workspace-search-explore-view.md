@@ -18,7 +18,7 @@ Search through CMDB tables without having detailed knowledge of the CMDB data mo
 
 ## Access
 
-Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the navigation panel, select the Explore and Search icon.
+Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Explore and Search** tab.
 
 Role required: sn\_cmdb\_user, sn\_cmdb\_editor, or sn\_cmdb\_admin
 

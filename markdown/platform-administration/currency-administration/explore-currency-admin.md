@@ -9,7 +9,7 @@ classification: currency-administration
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Currency administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Currency administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Exploring currency administration

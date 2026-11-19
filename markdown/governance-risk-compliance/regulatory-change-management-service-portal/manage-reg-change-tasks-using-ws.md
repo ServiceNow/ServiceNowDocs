@@ -36,15 +36,15 @@ The coordinator of the regulatory event alert identifies the steps to comply wit
 
 4.  Review the impact assessment and mark the alert using one of the following options.
 
-<table id="choicetable_utb_d4n_brb"><thead><tr><th align="left" id="d234893e110">
+<table id="choicetable_utb_d4n_brb"><thead><tr><th align="left" id="d235418e112">
 
 Field
 
-</th><th align="left" id="d234893e113">
+</th><th align="left" id="d235418e115">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d234893e119">
+</th></tr></thead><tbody><tr><td id="d235418e121">
 
 **Applicable**
 
@@ -52,7 +52,7 @@ Description
 
 Mark the alert as applicable. After marking the regulatory event alert as **Applicable**, a new regulatory change task is automatically created in the Regulatory Tasks related list in the regulatory alert UI page.
 
-</td></tr><tr><td id="d234893e131">
+</td></tr><tr><td id="d235418e133">
 
 **Not applicable**
 
@@ -67,7 +67,7 @@ Mark the alert as not applicable.
 -   Other
 As a result of this action, the stepper component displays the alert stage as **Completed**.
 
-</td></tr><tr><td id="d234893e167">
+</td></tr><tr><td id="d235418e169">
 
 **Cancel regulatory alert**
 
@@ -75,7 +75,7 @@ As a result of this action, the stepper component displays the alert stage as **
 
 Cancel the regulatory alert.
 
-</td></tr><tr><td id="d234893e176">
+</td></tr><tr><td id="d235418e178">
 
 **Defer**
 

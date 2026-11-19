@@ -27,14 +27,14 @@ Connect Arc to your ServiceNow instance and prepare your workspace and secure sa
 Create a policy to define what ServiceNow Arc can do, which actions need human approval, and which actions are blocked.
 -   **[Configure a ServiceNow Arc agent policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/configure-cowork-agent-policy.md)**  
 Add tool gates, approval patterns, network rules, sandbox rules, capability overrides, connector scopes, and file type rules to a policy to control what Arc can do for the users the policy applies to.
--   **[Manage Arc agent policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-arc-policies-aict.md)**  
-Create and manage Arc agent policies and their rules in AI Control Tower, so you govern Arc in the same place as the rest of your AI systems.
+-   **[Manage Arc agent policies in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-arc-policies-aict.md)**  
+Create and manage Arc agent policies and their rules in Control Tower, so you govern Arc in the same place as the rest of your AI systems.
 -   **[Make auto mode available to Arc users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/make-auto-mode-available.md)**  
 Turn on auto mode for the users a policy covers and choose which tools can use it, so users can let an AI model reviewer approve lower risk actions instead of answering every prompt.
 -   **[Add an MCP server for Arc users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-mcp-server-arc.md)**  
 Make a remote MCP server available to Arc users, so they can connect to it in one step without entering its details themselves.
--   **[Trace evaluation for Arc in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/cowork-trace-evaluation.md)**  
-AI Control Tower scores the traces that Arc sends for quality and safety. Review the scores to understand usage patterns and identify where responses fall short.
+-   **[Trace evaluation for Arc in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/cowork-trace-evaluation.md)**  
+Control Tower scores the traces that Arc sends for quality and safety. Review the scores to understand usage patterns and identify where responses fall short.
 
 **Parent Topic:**[ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cowork-landing.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/approval-configuration-form.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 1
 breadcrumb: [Advanced Approval Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
@@ -13,6 +13,8 @@ breadcrumb: [Advanced Approval Management reference, Configure, price, quote, Re
 # Approval Configuration form
 
 Field descriptions for the Approval Configuration form in Advanced Approval Management.
+
+**Note:** To edit an approval configuration, you need the sn\_adv\_appr\_mgmt.approval\_rule\_writer role, and your application scope must be set to Advanced Approval Management.
 
 <table id="table_iqj_lrv_43c"><thead><tr><th>
 

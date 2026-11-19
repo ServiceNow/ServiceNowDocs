@@ -7,10 +7,10 @@ release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-09"
 reading_time_minutes: 10
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Exploring External Content Connectors
@@ -62,7 +62,7 @@ This release includes the following external content connectors:
 -   Zendesk Guide external content connector
 -   Zoom external content connector
 
-Connector administrators can schedule content and user permission crawls to suit your indexing requirements. If the need arises, connector administrators can also run either type of crawl on demand.
+Connector administrators can schedule content and user permissions crawls to suit your indexing requirements. If the need arises, connector administrators can also run either type of crawl on demand.
 
 **Important:** The External Content Connectors application consumes Integration Hub transactions when feeding crawled content to AI Search. You can monitor available and used transactions for your Integration Hub subscription packages in the Integration Hub Usage Dashboard. For details on transaction monitoring, see [Transaction reports in Integration Hub Usage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/use-the-integration-hub-usage-dashboard.md).
 
@@ -89,7 +89,7 @@ In this External Content Connectors workflow:
 1.  Connector administrators configure connection settings for external content connectors. They configure crawl start points and inclusion/exclusion filters to define the scope of connector crawls. They define schedules that specify when crawls run.
 2.  The system runs connectors at their scheduled times or when connector administrators start one-time crawls. When crawling, connectors retrieve searchable content and security principals from their source systems and feed them to AI Search for indexing.
 3.  Search users are presented with content and metadata from external content source systems when interacting with AI Search applications. AI Search's content security model retains user and group access permissions set in the source system, so users can only view content that they have permission to access.
-4.  Connector administrators review and analyze crawl metrics, crawl histories, and user permission data. They use this information to understand how external data is crawled and indexed, allowing for more effective tuning of crawl settings for their external content connectors.
+4.  Connector administrators review and analyze crawl metrics, crawl histories, and user mapping data. They use this information to understand how external data is crawled and indexed, allowing for more effective tuning of crawl settings for their external content connectors.
 
 **Important:**
 
@@ -99,19 +99,19 @@ When a connector's indexed content item count exceeds 800,000, a warning message
 
 External content connectors that support user permissions crawls can handle permissions for up to five hundred thousand \(500,000\) users and their groups. If a connector retrieves users in excess of this limit, user and group permissions may not be correctly applied to the connector's retrieved content. As a result, the content may not be searchable.
 
-If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. If you need to index more content items than the limit allows, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
+If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. If you need to index more content items than the limit allows, you can create a Customer Service and Support case at [https://support.servicenow.com/now?draw=case](https://support.servicenow.com/now?draw=case) to request a limit increase for the connector.
 
 ## External Content Connectors benefits
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
 |Configure source systems for external content indexing|[Configuring source systems for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/cfg-src-sys-ext-content-indexing.md)|Source system administrators|
-|Create connectors to retrieve searchable content and metadata and user permissions from supported external data source systems|[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/creating-ext-cont-connectors.md)|Connector administrators|
+|Create connectors to retrieve searchable content, users, and access permissions from supported external data source systems|[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/creating-ext-cont-connectors.md)|Connector administrators|
 |Control the scope of external content connector crawls by specifying source system locations to crawl and content types to feed to AI Search for indexing|[Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/cfg-crawl-settings-ext-cont-connector.md)|Connector administrators|
 |Update searchable content and metadata from source systems on demand or on a scheduled recurring basis|[Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md)|Connector administrators|
-|Update user and group access permissions from source systems on demand or on a scheduled recurring basis|[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)|Connector administrators|
+|Update user and group access permissions from source systems on demand or on a scheduled recurring basis|[Create a user permissions crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)|Connector administrators|
 |Review metrics for source system items retrieved by content crawls|[Review crawl history for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/review-crawl-ext-cont-connector.md)|Connector administrators|
-|Review user and group access permissions retrieved by user permission crawls|[Review user permissions for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/review-usr-maps-ext-cont-connector.md)|Search high security administrators|
+|Review user and group access permissions retrieved by user permissions crawls|[Review user mappings for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/review-usr-maps-ext-cont-connector.md)|Search high security administrators|
 |Search content and metadata indexed from external data source systems|[Searching in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/use-ais.md)|AI Search users|
 
 ## Interaction with ServiceNow Otto® Genius Results

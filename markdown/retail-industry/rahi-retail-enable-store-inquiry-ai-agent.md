@@ -26,7 +26,7 @@ ServiceNow Otto for Retail Service Management and the AI Agents for Retail Servi
 
 Role required: sn\_rtl\_stre\_servcs.agent
 
-You must have the Retail Core, Retail Mobile application, and Retail Store Inquiry.
+You must have the Retail Core and Retail Store Services \(sn\_rtl\_stre\_servcs\) applications.
 
 ## Procedure
 
@@ -34,8 +34,14 @@ You must have the Retail Core, Retail Mobile application, and Retail Store Inqui
 
 2.  Navigate to **Manage agentic workflows and AI agents** &gt; **Store inquiry AI agent** on the AI Agent Studio.
 
-3.  Select the **Trigger** &gt; **Add a new trigger** or select the existing trigger and toggle the **Trigger if ON** option to enable the trigger and save it to launch the AI agent automatically.
+3.  Select **Activate** to activate the AI agent.
 
+4.  Select the **Trigger** &gt; **Add a new trigger** or select the existing trigger and toggle the **Trigger if ON** option to enable the trigger and save it to launch the AI agent automatically.
+
+
+## Result
+
+The store inquiry AI agent launches automatically when a case state changes from New to Open and the Assigned to field is not empty.
 
 ## What to do next
 

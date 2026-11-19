@@ -67,8 +67,8 @@ When triggering a scan via the `/scan` endpoint, use one of these modes in your 
 |Mode|Description|
 |----|-----------|
 |`instance_scan`|Full or delta instance scan against all applicable definitions. Include `instance_scan_type` to specify full or delta.|
-|`update_set`|Scans one or more update sets before promotion to production. Include `update_set_sys_ids` array with sys\_ids \(not update set numbers\).|
-|`application_scan`|Scans one or more applications with per-application concurrency. Include `application_sys_ids` array of sys\_ids.|
+|`update_set`|Scans one or more update sets before promotion to production. Include the `update_set_sys_ids` array of sys\_ids, not update set numbers. Send an array even for one update set.|
+|`application_scan`|Scans one or more applications with per-application concurrency. Include the `application_sys_ids` array of sys\_ids. Send an array even for one application.|
 |`content`|Scans raw ServiceNow XML records in-memory, without persisting them. Include `xml_content` with well-formed record\_update XML.|
 
 ## Error codes
@@ -77,9 +77,9 @@ This table lists all error codes returned by the Scan Engine API, their HTTP sta
 
 |Error Code|HTTP Status|Applies to endpoints|Description|
 |----------|-----------|--------------------|-----------|
-|MISSING\_REQUIRED\_FIELD|400|All endpoints|A required field is missing from your request. Check the error message to identify which field is required.|
+|MISSING\_REQUIRED\_FIELD|400|All endpoints|A required field is missing from your request, or `update_set_sys_ids` or `application_sys_ids` is an empty array. Check the error message to identify which field is required.|
 |INVALID\_SCAN\_MODE|400|POST /scan|The `scan_mode` value is not recognized. Verify it matches one of the supported modes: `instance_scan`, `update_set`, `application_scan`, or `content`.|
-|INVALID\_FIELD\_VALUE|400|POST /scan, POST /cancel, GET /findings, GET /resolved\_findings|A field value does not match the expected format or type. Check the error detail for which field needs correction.|
+|INVALID\_FIELD\_VALUE|400|POST /scan, POST /cancel, GET /findings, GET /resolved\_findings|A field value does not match the expected format or type. For example, `update_set_sys_ids` or `application_sys_ids` is a string instead of an array of sys\_id strings. Check the error detail for which field needs correction.|
 |INVALID\_UPDATE\_SET|400|POST /scan \(update\_set mode\)|The supplied update set sys\_id does not exist or is invalid. Verify the sys\_id matches a valid update set record.|
 |INVALID\_XML\_CONTENT|400|POST /scan \(content mode\)|The XML content is not well-formed or is missing the `<record_update>` root element. Validate the XML structure.|
 |INVALID\_APPLICATION|400|POST /scan \(application\_scan mode\)|The supplied application sys\_id does not exist or is invalid. Verify the sys\_id matches a valid application record.|

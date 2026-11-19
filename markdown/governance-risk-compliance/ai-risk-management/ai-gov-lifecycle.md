@@ -1,6 +1,6 @@
 ---
 title: AI governance life cycle
-description: Learn more about how organizations can govern AI from initial demand through deployment and ongoing governance monitoring by using the AI Control Tower and AI Risk and Compliance applications together.
+description: Learn more about how organizations can govern AI from initial demand through deployment and ongoing governance monitoring by using the Control Tower and AI Risk and Compliance applications together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.html
 release: brazil
@@ -15,11 +15,11 @@ breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 
 # AI governance life cycle
 
-Learn more about how organizations can govern AI from initial demand through deployment and ongoing governance monitoring by using the AI Control Tower and AI Risk and Compliance applications together.
+Learn more about how organizations can govern AI from initial demand through deployment and ongoing governance monitoring by using the Control Tower and AI Risk and Compliance applications together.
 
 ## AI governance across the life cycle
 
-Governing AI is a continuous process that spans the entire life cycle of an AI asset, from initial demand and intake through deployment, monitoring, and value realization. You can use the AI Control Tower \(AICT\) and AI Risk and Compliance \(AIRC\) applications together to support a coordinated approach to enterprise AI governance.
+Governing AI is a continuous process that spans the entire life cycle of an AI asset, from initial demand and intake through deployment, monitoring, and value realization. You can use the Control Tower \(AICT\) and AI Risk and Compliance \(AIRC\) applications together to support a coordinated approach to enterprise AI governance.
 
 AICT provides centralized visibility and life cycle state management for AI initiatives across the organization. AIRC delivers risk, regulatory, and ethical governance capabilities that help organizations evaluate whether AI systems are developed and operated responsibly and ethically.
 
@@ -74,11 +74,11 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     The life cycle begins with intake, where new AI use cases, enhancements, and ideas are submitted for governance. Intake establishes a centralized entry point to capture the purpose, scope, intended outcomes, and usage context of an AI system. This phase provides early visibility into AI demand, enabling organizations to identify potential risk, duplication, or misalignment before development begins.
 
-    Any team member with the AI asset owners, AI steward, or AIRC business roles can submit intake-related information with an intake request using the Employee Center to determine whether an AI initiative should enter the governed life cycle based on its intent, scope, and organizational alignment. If you have the AI asset owner or AI steward role, you can review and progress intake requests using the AI Control Tower Workspace after they are submitted through the Employee Center.
+    Any team member with the AI asset owners, AI steward, or AIRC business roles can submit intake-related information with an intake request using the Employee Center to determine whether an AI initiative should enter the governed life cycle based on its intent, scope, and organizational alignment. If you have the AI asset owner or AI steward role, you can review and progress intake requests using the Control Tower Workspace after they are submitted through the Employee Center.
 
     For more information about intake requests in AIRC and AICT, see [Intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc-intake.md), [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-system.md), [Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-model.md), and [Request a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-dataset.md).
 
-    All AI use-case intake, including both in-house and third-party AI use cases, is life cycle-managed in the AI Control Tower application. AI Control Tower is required to register AI systems and use cases that must enter the governed AI life cycle and acts as the system of record for life-cycle tracking and portfolio visibility.
+    All AI use-case intake, including both in-house and third-party AI use cases, is life cycle-managed in the Control Tower application. Control Tower is required to register AI systems and use cases that must enter the governed AI life cycle and acts as the system of record for life-cycle tracking and portfolio visibility.
 
     AIRC doesn't own AI use-case intake. If you have AIRC, you can participate after intake by contributing risk and compliance governance context, such as impact assessments and regulatory evaluation, once an AI use case has been registered in AICT.
 

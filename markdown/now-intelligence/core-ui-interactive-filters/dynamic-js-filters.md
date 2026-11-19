@@ -263,7 +263,7 @@ Textual representation of a complete or partial field name value.For the "is one
     -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics** &gt; **Library**.
 2.  Open the Core UI report visualization that you want to add the dynamic filter to.
 
-3.  Select the filter icon \(\[Omitted image "icon-filter.png"\] Alt text:\) to expand the condition builder.
+3.  Select the filter icon \(\[Omitted image "icon-filter.png"\] Alt text: Filter icon\) to expand the condition builder.
 
 4.  Construct your filter condition.
 

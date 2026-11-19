@@ -22,15 +22,15 @@ Verify that you have reviewed the functionality of external routing and configur
 
 Role required: awa\_external\_user
 
-**Note:** With the installation of the External Routing Support plugin \(com.glide.awa-external\), the awa\_external\_user role is available by default.
+**Note:** With the installation of the External Routing Support plugin \(com.glide.awa.external\), the awa\_external\_user role is available by default.
 
 ## About this task
 
-From Xanadu release, you can add the **External** field to the AWA queue form view. The **External** field is not available by default, but it is available with the installation of the External Routing Support plugin \(com.glide.awa-external\) in Xanadu release. The **External** field can be added to the queue UI form only when the plugin is installed in your instance.
+From Xanadu release, you can add the **External** field to the AWA queue form view. The **External** field is not available by default, but it is available with the installation of the External Routing Support plugin \(com.glide.awa.external\) in Xanadu release. The **External** field can be added to the queue UI form only when the plugin is installed in your instance.
 
 \[Omitted image "external-routing-ui.png"\] Alt text: Queue form displaying the External field to enable third-party routing.
 
-The installation of the External Routing Support plugin \(com.glide.awa-external\), adds demo data for the following:
+The installation of the External Routing Support plugin \(com.glide.awa.external\), adds demo data for the following:
 
 -   An AWA External Provider \(awa\_external\_provider\).
 -   A sys\_alias representing an endpoint for the external provider API.

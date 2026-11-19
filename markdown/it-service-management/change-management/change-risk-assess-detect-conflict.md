@@ -19,7 +19,7 @@ Change Management features provide ways to calculate and assess the risk of chan
 Risk assessment and calculation help you understand the urgency and impact of change requests. [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ConflictDetection.md) helps you schedule change requests with the least impact on stakeholders. These features minimize the risk and cost of rapid changes in your environment.
 
 -   **[Risk Calculator property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/r_ChangeRiskCalculator.md)**  
-The Change Management - Change Risk Calculator plugin enables dynamic calculations of the risk and impact of a change. The administrator specifies how and when risk and impact rules are applied.
+The Change Management- Risk Calculator plugin enables dynamic calculations of the risk and impact of a change. The administrator specifies how and when risk and impact rules are applied.
 -   **[Add or modify risk and impact conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/define-risk-and-impact-conditions.md)**  
 Define the risk calculation rules that determine the risk and impact of a change. The Change Management - Change Risk Calculator plugin is active by default in the base system.
 

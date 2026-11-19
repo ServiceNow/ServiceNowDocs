@@ -18,9 +18,21 @@ Use the Platform Identify ways to improve service agentic workflow to analyze fe
 
 The Identify ways to improve service agentic workflow optimizes service delivery and customer satisfaction by analyzing feedback, metrics, and trends to provide actionable process improvement recommendations. After the analysis is generated, you can continue the conversation to ask follow-up questions or download the analysis as a PDF or Word document.
 
-AI applications provide the agents, tools, and triggers for the Identify ways to improve service agentic workflow. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. To change this agentic workflow's instructions, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version instead.
+By default, you can enable the agentic workflow so it is accessible in the ServiceNow Otto panel. Optionally, you can add triggers or UI actions to allow users to invoke the agentic workflow in other ways. See [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/channels-access-aw-new.md) and [Add a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aw-new.md) for more information.
+
+The agents and tools that are associated with the agentic workflow are provided by AI applications. If you want to change this agentic workflow, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-ai-asset-new.md), make adjustments, and activate the duplicated version instead.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
+## Sample utterance
+
+After the workflow is activated in AI Agent Studio, enter similar phrases to the following in the ServiceNow Otto panel to trigger the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
+
+When invoking the agentic workflow, if you want to use additional filters, such as metric name or category, use the name of the field in the utterance. For example, "Identify ways to improve services for the Hardware category" is more likely to analyze the correct records than "Identify ways to improve Hardware."
+
+-   Make suggestions for continuous service improvement based on surveys within the last 3 months
+-   Summarize surveys to improve Hardware services based on survey results within the last 2 years
+-   Give ideas for improving case resolution based on Post-Case metric type survey results over the last month
 
 ## Prerequisites and setup
 
@@ -200,16 +212,6 @@ If you don't see your UI actions after configuring it in AI Agent Studio, verify
 You can manually test an agentic workflow execution or access on the Testing page of AI Agent Studio if you have the sn.aia\_admin role and all other roles configured [in the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md). Start a manual test, select a test type and the workflow name, and use utterances in the Task field like the following samples. See [Test an agentic workflow execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-use-case.md).
 
 To evaluate the agentic workflow over many different execution logs, run an [automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/execute-aia-eval.md).
-
-## Sample utterance
-
-After the workflow is activated in AI Agent Studio, enter similar phrases to the following in the ServiceNow Otto panel to trigger the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
-
-When invoking the agentic workflow, if you want to use additional filters, such as metric name or category, use the name of the field in the utterance. For example, "Identify ways to improve services for the Hardware category" is more likely to analyze the correct records than "Identify ways to improve Hardware."
-
--   Make suggestions for continuous service improvement based on surveys within the last 3 months
--   Summarize surveys to improve Hardware services based on survey results within the last 2 years
--   Give ideas for improving case resolution based on Post-Case metric type survey results over the last month
 
 ## AI agents used in the Identify ways to improve service agentic workflow
 

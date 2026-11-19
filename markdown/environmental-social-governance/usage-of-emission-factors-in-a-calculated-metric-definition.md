@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Explore, Operational Sustainability Management]
 ---
 
 # Usage of emission factors in a calculated metric definition

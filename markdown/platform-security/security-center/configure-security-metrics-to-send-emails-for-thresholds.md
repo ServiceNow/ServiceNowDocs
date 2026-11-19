@@ -1,6 +1,6 @@
 ---
 title: Configure Security Metrics to send email when thresholds are triggered
-description: Learn how to configure Security Metrics so that your instance generates an email notification when a threshold is triggered.
+description: Configure Security Metrics so that your instance generates an email notification when a threshold is triggered.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/configure-security-metrics-to-send-emails-for-thresholds.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Security metrics, Security monitoring console, Security Center, Pla
 
 # Configure Security Metrics to send email when thresholds are triggered
 
-Learn how to configure Security Metrics so that your instance generates an email notification when a threshold is triggered.
+Configure Security Metrics so that your instance generates an email notification when a threshold is triggered.
 
 ## Before you begin
 
@@ -26,17 +26,17 @@ Role required: admin
 
 2.  Select a metric that you want to set a threshold for in your organization.
 
-    To manage failed logins, you can set a threshold. When the number of failed logins reach this threshold, admins or security experts in your organization are notified. The appropriate Security Metric to target in this case is **users** &gt; **failed logins**.
+    To manage failed logins, you can set a threshold. When the number of failed logins reach this threshold, users with the admin role or security experts in your organization are notified. The appropriate Security Metric to target in this case is **users** &gt; **failed logins**.
 
-3.  Select the **Thresholds** icon.
+3.  Select the Thresholds icon.
 
-4.  Select the **plus \(+\)** icon on the thresholds panel to configure the form.
+4.  Select the plus \(+\) icon on the thresholds panel to configure the form.
 
     The options available are to set the visibility, threshold type, and threshold value.
 
-    1.  For visibility, select **for everyone** if you want everyone to receive the notification, or **for me** if you only want to receive a notification.
+    1.  For visibility, select **for everyone** to send the notification to everyone, or **for me** to send the notification only to you.
 
-    2.  In **threshold type**, select **all time high**.
+    2.  In the **threshold type** field, select **all time high**.
 
         This field triggers the threshold notification.
 
@@ -46,7 +46,7 @@ Role required: admin
 
     Next, the notification must be set up.
 
-6.  Select **all**, and enter **system notification**.
+6.  Select **all**, and enter `system notification`.
 
 7.  Navigate to **email** &gt; **notifications**.
 
@@ -58,9 +58,9 @@ Role required: admin
 
     There are three tabs in the results:
 
-    -   When to send: Specifies what must occur to send the email notification. In this example, once the threshold you previously set is reached, the email is triggered.
-    -   Who will receive: Specifies which users receive the notification. You can add users and groups.
-    -   What it will contain: Specifies the script action that a user can modify to customize the message that users and the group will receive. To learn more about creating script actions, see [Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/r_ScriptActions.md).
+    -   **When to send**: Specifies what must occur to send the email notification. In this example, after the threshold you previously set is reached, the email is triggered.
+    -   **Who will receive**: Specifies which users receive the notification. You can add users and groups.
+    -   **What it will contain**: Specifies the script action that a user can modify to customize the message that users and the group receive. To learn more about creating script actions, see [Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/r_ScriptActions.md).
 
 **Parent Topic:**[Security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sc-metrics.md)
 

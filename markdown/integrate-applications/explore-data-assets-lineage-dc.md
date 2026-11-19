@@ -89,6 +89,7 @@ The lineage diagram has a sidebar that lists every asset, grouped by direction \
         |Field|Description|
         |-----|-----------|
         |**Direction**|Select from **Upstream and downstream**, **Upstream only**, **Downstream only**.|
+        |**Content**|Select from **Nodes and edges**, **Edges only**, **Nodes only**|
         |**Upstream**|Number of upstream levels to include. Select **All levels** or specify a number.|
         |**Downstream**|Number of downstream levels to include. Select **All levels** or specify a number.|
 

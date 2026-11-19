@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/platform-administration/ia-conf
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 7
-breadcrumb: [Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
+reading_time_minutes: 6
+breadcrumb: [Configure, ServiceNow Otto for Setup, Get started, ServiceNow AI Platform]
 ---
 
 # Understand the Configuration page flow in ServiceNow Otto for Setup
@@ -81,8 +81,6 @@ Role required: admin
     Before applying anything, ServiceNow Otto presents one summary of the full proposed configuration and states that no changes have been made yet. Review it, and approve it to apply the changes. ServiceNow Otto then reports which changes were saved and, for any that were not, the reason.
 
     Configuring change governance manually can require one to two days of administrator effort and several weeks of workshops to define and agree on governance rules. With ServiceNow Otto, you can configure change governance through a single conversation. Start with a proposed configuration and review or refine the suggested decisions instead of creating the configuration from scratch.
-
-    The adoption of LitJS components in NAP enables the import and use of reusable components, promoting a scalable and consistent framework while improving development efficiency. You can also select the **ServiceNow Otto** icon on the menu bar to see the Open in expanded view pill that guides you through the configuration process using LitJS components.
 
     The ServiceNow Otto panel shows up and starts the agentic configuration process.
 

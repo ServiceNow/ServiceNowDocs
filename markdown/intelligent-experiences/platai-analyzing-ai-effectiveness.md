@@ -39,5 +39,5 @@ Conversation Improvement Themes automatically surfaces common topics and pattern
 
 **Note:** Analytics capabilities across the platform are consolidating. Monitor the AI Admin Hub console for the latest analytics features added in each release.
 
-To surface recurring themes across conversations and prioritize the improvements with the greatest impact, see [Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/conv-impr-themes-landing.md).
+To surface recurring themes across conversations and prioritize the improvements with the greatest impact, see [\(Deprecated\) Conversation Improvement Themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/conv-impr-themes-landing.md).
 

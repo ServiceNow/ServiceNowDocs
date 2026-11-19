@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 1
 keywords: [publish campaign, campaign cycle, pending publication]
-breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Publish a campaign

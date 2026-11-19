@@ -9,7 +9,7 @@ classification: change-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tutorial: Add a new change management state, Reference, Change Management, IT Service Management]
+breadcrumb: [Tutorial: add a new change management state, Reference, Change Management, IT Service Management]
 ---
 
 # Create a new choice
@@ -24,11 +24,11 @@ Role required: admin
 
 1.  Open the **Change Request** form.
 
-2.  the **State** field label and select **Configure Choices**.
+2.  Right-click the **State** field label and select **Configure Choices**.
 
     The Configuring State Choices slushbucket opens.
 
-3.  Enter the following information and **Add**.
+3.  Enter the following information and select **Add**.
 
     |Field|Description|
     |-----|-----------|
@@ -42,14 +42,14 @@ Role required: admin
 
     \[Omitted image "NewStateTutNewChoice2.png"\] Alt text: Complete field placement
 
-5.  **Save**.
+5.  Select **Save**.
 
     The new choice is created and the **Change Request** form reopens.
 
 
-**Parent Topic:**[Tutorial: Add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
 
-**Previous topic:**[Tutorial: Add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
+**Previous topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
 
 **Next topic:**[Create a custom field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateCustomField.md)
 

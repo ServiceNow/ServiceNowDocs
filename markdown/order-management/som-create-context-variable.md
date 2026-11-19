@@ -80,7 +80,7 @@ Code
 
 </td><td>
 
-System-generated alphanumeric number based on the label name. You can enter your own code to replace the system-generated code.**Note:** After the context variable is used in a published pricing or product eligibility matrix, the **Code** value can't be changed.
+System-generated alphanumeric number based on the label name. You can enter your own code to replace the system-generated code before you save the context variable.**Note:** After you save the context variable or it it's used in a published pricing or product eligibility matrix, the Code value becomes read-only and can't be changed.
 
 </td></tr><tr><td>
 

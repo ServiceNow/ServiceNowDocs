@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create, Provider notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Create, Provider notifications, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Add actions to the notification content

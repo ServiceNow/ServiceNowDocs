@@ -1,6 +1,6 @@
 ---
 title: HR fulfillment instructions
-description: HR fulfillment instructions provide focused and targeted information on how an agent can complete an HR case faster and more efficiently for HR Service Delivery Agent Workspace and legacy HR Case Management.
+description: HR fulfillment instructions provide focused, targeted information on how an agent can complete an HR case faster and more efficiently for HR Service Delivery Agent Workspace and legacy HR Case Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/hr-fulfillment-instructions.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [HR services, HR Administration, Configure, Case and Knowledge Manag
 
 # HR fulfillment instructions
 
-HR fulfillment instructions provide focused and targeted information on how an agent can complete an HR case faster and more efficiently for HR Service Delivery Agent Workspace and legacy HR Case Management.
+HR fulfillment instructions provide focused, targeted information on how an agent can complete an HR case faster and more efficiently for HR Service Delivery Agent Workspace and legacy HR Case Management.
 
 You can configure fulfillment instructions to appear for an HR case by group, HR service, table, conditions, or a combination of multiple requirements. For example, you can configure a different set of fulfillment instructions to appear for HR cases that are based on the employee's location.
 

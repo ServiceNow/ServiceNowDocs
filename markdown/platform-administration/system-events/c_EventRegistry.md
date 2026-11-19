@@ -9,7 +9,7 @@ classification: system-events
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring system events, System Events, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Exploring system events, System Events, Configure core features, ServiceNow AI Platform]
 ---
 
 # Event registry

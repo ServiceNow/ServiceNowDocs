@@ -1,6 +1,6 @@
 ---
 title: Domain separation and Security Incident Response
-description: Domain separation is supported in Security Incident Response. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+description: Domain separation is supported in Security Incident Response\(SIR\). Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/domain-separation-security-incident-response.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Understanding Security Incident Response, Security Incident Respons
 
 # Domain separation and Security Incident Response
 
-Domain separation is supported in Security Incident Response. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+Domain separation is supported in Security Incident Response\(SIR\). Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
 ## Support level: Standard
 
@@ -29,14 +29,19 @@ For more information on support levels, see [Application support for domain sepa
 
 ## Domain separation in SIR overview
 
-In the Security Incident Response application, domain separation enables service providers \(SPs\) to standardize SOC \(Security Operations Center\) and Security Incident Response \(SIR\) procedures across the customer base they serve with lowered operational costs and a higher quality of service. Separate customer workspaces for workflows, dashboards, reports, and so forth, ensures that customer data is separated and never exposed to other clients.
+In the Security Incident Response application, domain separation enables service providers \(SPs\) to standardize SOC \(Security Operations Center\) and SIR procedures. This is for the entire customer base they serve with lowered operational costs and a higher quality of service. Separate customer workspaces for workflows, dashboards, reports, and so forth, ensures that customer data is separated and never exposed to other customers.
+
+Domain separation applies to all SIR application tables and to the shared Security Operations components that SIR is built on. SIR supports whatever domain separation the platform supports, and the standard visibility rules apply: a record in a parent domain can reference artifacts in a child domain, but a record in a child domain can't reference artifacts in a parent domain.
 
 |Release|Support level|Notes|
 |-------|-------------|-----|
+|Brazil|Level 2 \(Data, Requestor, Fulfiller\)|All integrations reside across multiple domains.|
+|Australia|Level 2 \(Data, Requestor, Fulfiller\)|All integrations reside across multiple domains.|
+|Zurich|Level 2 \(Data, Requestor, Fulfiller\)|All integrations reside across multiple domains.|
 |Geneva, Helsinki|No support|Initiation of data-level domain separation|
 |Istanbul|Data only| |
 |Jakarta|Level 2 \(Data, Requestor, Fulfiller\)|**New features**: 3rd-party Integrations support with Level 2 domain separation under a single instance of integration, including Threat Intelligence integrations|
-|Kingston|Level 2 \(Data, Requestor, Fulfiller\)|**New features**: Sighting Search integration for SIR is enabled with multiple instances, but all instances still live under a single domain. Example: If there are two instances of a Splunk integration configured \(SplunkCLOUD and SplunkCORP\), both are still leveraged for incident response activities in a single domain, where the implementation was originally configured.|
+|Kingston|Level 2 \(Data, Requestor, Fulfiller\)|**New features**: Sighting Search integration for SIR is enabled with multiple instances, but all instances still live under a single domain. Example: If two Splunk integrations are configured \(SplunkCLOUD and SplunkCORP\), both are used for incident response. They are used only in the domain where they were originally configured.|
 |London|Level 2 \(Data, Requestor, Fulfiller\)|**New features**: All integrations reside across multiple domains|
 |Madrid|Level 2 \(Data, Requestor, Fulfiller\)|All integrations can now reside across multiple domains. In the above example, SplunkCloud can be domain1 and SplunkCORP domain2.|
 |New York|Level 2 \(Data, Requestor, Fulfiller\)|All integrations reside across multiple domains.|
@@ -46,9 +51,9 @@ In the Security Incident Response application, domain separation enables service
 Domain separation for the Security Incident Response application covers the following product functionality:
 
 -   Security alerts are directed to the appropriate domain of the user whose ID/ credential/ scope generates the incident and is registered as a Security Incident.
--   Alerts generate “observables,”which represent stateful properties or measurable events: Security workflows in the domain of the security incident are used to orchestrate the response.
--   Integrations are configured in the domain of the security incident for response automation.
--   Capabilities are configured in the domain of the security incident for response automation. These capabilities \(as of the Kingston release\) include:
+-   Observables extracted from alerts are stored in the domain of the security incident; security workflows in that domain orchestrate the response.
+-   Integrations and capabilities are configured and activated per domain. These capabilities include:
+
     -   Threat Lookup
     -   Enrich Observable
     -   Enrich Configuration item
@@ -59,13 +64,12 @@ Domain separation for the Security Incident Response application covers the foll
     -   Sighting Search
     -   Email Search and Delete
     -   Publish to Watchlist
+    A capability stays generic across domains while each domain supplies its own implementation \(for example, a Sighting Search can call Splunk in one domain and QRadar in another\).
+
 -   Results from Response Automation \(such as Threat Lookup or Sighting Search\) are stored in the domain of the security incident.
--   Other security incidents are cross-referenced in the same domain of the security incident based on a shared set of observables.
--   Other users are cross-referenced in the domain of the security incident.
--   Configuration Items are cross-referenced in the same domain as the security incident.
--   Manual response tasks are added to the domain of the security incident.
--   Knowledge base articles and run books are referenced in the domain of the security incident.
--   Security Incident Response metrics pertinent to incidents in the domain are displayed on dashboards as well as in reporting.
+-   Related incidents \(by shared observables\), users and configuration items are cross-referenced within the domain of the security incident.
+-   Manual response tasks, knowledge base articles and runbooks are added to or referenced from the domain of the security incident.
+-   Incident metrics are displayed on dashboards and in reports for the incidents in the domain.
 
 **Note:** In the preceding cases, the overarching principles of visibility in separated domains in the NOW Platform apply. As always, an incident in the parent domain can reference artifacts in the child domain, but not the other way around.
 
@@ -102,12 +106,11 @@ Setting up domain separation for Security Incident Response doesn’t require an
 Data can be domain-separated, which means:
 
 -   Security incidents in one domain can’t be viewed from other domains.
--   Observables extracted from the security incident are placed in the same domain and can’t be viewed from other domains.
--   Up to the Kingston release, configured third-party integrations exist in the global domain and are accessible to all other domains in the instance.
--   In the Madrid release, third-party integrations can be configured and activated on a per-domain basis. This means that the integration activated and configured in one domain cannot be leveraged in another domain.
--   Automations that run on the observables using third-party integrations \(for Threat Investigation, Containment, or Eradication\), place their results in the domain of the security incident and the results can’t be viewed from another domain.
--   Orchestration workflows created in one domain aren’t visible in another domain.
--   Capabilities \(as delineated in the preceding capabilities function list\) that are invoked stay generic across domains with domain-specific implementation of the capability being called. For example, a Sighting Search on an IP can invoke a Splunk implementation in one domain and a QRadar implementation in another.
+-   Observables extracted from an incident aren't visible from other domains.
+-   Integrations and their configuration can be set up per domain. Administrators copy a global integration into a domain, then configure it there.
+-   Capabilities, enrichment mappings, security tag rules, filter groups, property overrides, and MITRE ATT&amp;CK data can all be domain-specific.
+-   Capabilities stay generic across domains, but each domain can use its own implementation. For example, a Sighting Search can call Splunk in one domain and QRadar in another.
+-   Automation results are stored in the incident's domain.
 
 ## Configuration
 
@@ -156,10 +159,12 @@ The following tasks must be configured:
 -   Tenant domain owners can create their own incident categories, incident response knowledge base articles, and runbooks to be associated with incident response workflows.
 -   Tenant domain users create and close their own security incidents.
 
+Tenant administrators with the sn\_si.admin role can administer, within their own domain, the SIR administration, email, playbook and capability configuration listed earlier.
+
 ## Business logic and processes that can be domain separated by instance owner
 
 -   Security Incident Response users and groups
--   Security Incident Response integrations \(starting with the Madrid release\)
+-   Security Incident Response integrations \( \(activated per domain\)\)
 -   Email parsing rules for incident creation
 -   Business rules to consolidate multiple events or alerts into a security incident
 -   Workflows for incident response orchestration

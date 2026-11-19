@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/operational-technology/users-pa
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 

@@ -37,5 +37,5 @@ Easily see how many subscriptions for IT Operations Management applications your
 [References\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn about schedule jobs, tables, subscription form and dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-su-licensing-reference.md)
 
 </td></tr></tbody>
-</table>To know about Operational Technology Management \(OTM\) licensing and subscriptions, see [Subscriptions form for the OTM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/otm-subscriptions-form.md).
+</table>To know about Operational Technology Management \(OTM\) licensing and subscriptions, see .
 

@@ -16,7 +16,7 @@ Configure the Exception reason integration to automatically synchronize exceptio
 
 ## Before you begin
 
-My SN Instances registration and authentication must be complete before configuring this integration. Instance names must match the exact instance subdomain. For example, use `testservicesdev` not `DEV`. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
+My SN Instances registration and authentication must be complete before configuring this integration. Instance names must match the exact instance subdomain. For example, use `testservicesdev` not `DEV`. See [Register your instance in My SN Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
 
 **Important:** Verify that instance names in the My SN Instances table match the exact instance subdomain before proceeding.
 
@@ -30,7 +30,7 @@ Role required: sn\_se.scan\_engine\_admin
 
 3.  Configure the integration settings.
 
-    **Important:** Before enabling approvals, ensure your instances are registered in My SN Instances with the exact instance name matching your instance subdomain. For example, use `testservicesdev` not `DEV`. If the instance name is incorrect, the **Enable approvals in production** checkbox will remain greyed out. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md) for details.
+    **Important:** Before enabling approvals, ensure your instances are registered in My SN Instances with the exact instance name matching your instance subdomain. For example, use `testservicesdev` not `DEV`. If the instance name is incorrect, the **Enable approvals in production** checkbox will remain greyed out. See [Register your instance in My SN Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md) for details.
 
     To require production approval before exception reasons take effect, select **Enable approvals in production** on each non-production instance, and specify one or more approval groups on production. Exception reasons will sync in a `Requested` state until approved or rejected.
 

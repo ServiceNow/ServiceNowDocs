@@ -53,8 +53,6 @@ Role required: data\_privacy\_admin and admin
 
     For catalog variables, you will **Define details** and select the scope \(either **Service catalog request** or **Record producer**\), then review the **Data pattern anonymization**.
 
-    **Note:** Data pattern anonymization uses the information currently in the active data pattern table.
-
 6.  Define the details for the new anonymization policy, which will vary depending on the chosen data type.
 
     -   Enter the policy name in the **Name** field, and the policy description in the **Description** field.

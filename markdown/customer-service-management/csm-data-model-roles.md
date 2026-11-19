@@ -108,7 +108,7 @@ Location agent
 
 </td><td>
 
-Create and fulfill cases for the accounts and contacts in the agent's business location
+Create and fulfill cases for the accounts and contacts in the agent's business organization .
 
 </td><td>
 
@@ -125,7 +125,7 @@ Location consumer agent
 
 </td><td>
 
-Create and fulfill cases for the consumers and households in the agent's business location.
+Create and fulfill cases for the consumers and households in the agent's business organization .
 
 </td><td>
 
@@ -142,7 +142,7 @@ Location Manager Fulfiller
 
 </td><td>
 
-Create and update cases for accounts, contacts, consumers, and households that work with the business locations within their location hierarchy.
+Create and update cases for accounts, contacts, consumers, and households that work with the business organizations within their location hierarchy.
 
 </td><td>
 
@@ -220,7 +220,7 @@ None
 
 </td><td>
 
-Views project details and project tasks of their respective business location.
+Views project details and project tasks of their respective business organization.
 
  Marks customer visible project tasks as complete.
 
@@ -242,7 +242,7 @@ None
 
 </td><td>
 
-Views project details and project tasks of their respective business location and child business locations.
+Views project details and project tasks of their respective business organization \(formerly business location\) and child business organizations .
 
  Marks customer visible project tasks as complete.
 
@@ -262,7 +262,7 @@ None
 
 </td><td>
 
-Views all external business location details and location staff
+Views all external organization \(formerly external business location\) details and location staff.
 
 </td><td>
 
@@ -278,7 +278,7 @@ None
 
 </td><td>
 
-Views all internal business location details and location staff.
+Views all internal organization \(formerly internal business location\) details and location staff.
 
 </td><td>
 
@@ -345,7 +345,7 @@ None
 
 </td><td>
 
-A service management agent role for a business location
+A service management agent role for a business organization \(formerly business location\)
 
 </td><td>
 
@@ -375,7 +375,7 @@ Location Support Agent
 
 This role resolves the cases originated from other business organizations, ensuring access to required information and other details, and facilitating efficient coordination with store personnel
 
-**Note:** This role only applies to the internal business location.
+**Note:** This role only applies to the internal organization \(formerly internal business location\).
 
 </td><td>
 
@@ -394,9 +394,9 @@ Location Contributor
 This user:-   works with accounts and contacts, consumers, and households
 -   uses the Customer or Consumer Service Portal to assist customers
 -   search knowledge articles and catalog items.
--   create cases on behalf of their business location, including cases for catalog items \(requests\), and follow up on those cases.
+-   create cases on behalf of their business organization \(formerly business location\), including cases for catalog items \(requests\), and follow up on those cases.
 -   create cases from communication channels available to customers including phone, web, chat, Virtual Agent, and messaging.
--   view and follow up on other cases created for the user's business location.
+-   view and follow up on other cases created for the user's business organization \(formerly business location\).
 
 If also an internal user on a case, this user can:
 
@@ -437,7 +437,7 @@ sn\_service\_org.service\_org\_delete
 
 </td><td>
 
-Provides delete access to service organization, business location, internal business location, and external business location
+Provides delete access to organization core, business organization, internal organization, and external organization
 
 </td><td>
 
@@ -453,7 +453,7 @@ sn\_service\_org.service\_org\_external\_staff\_create
 
 </td><td>
 
-Provides create access to service organization external staff
+Provides create access to external organization staff \(formerly service organization external staff\)
 
 </td><td>
 
@@ -469,7 +469,7 @@ sn\_service\_org.service\_org\_external\_staff\_read
 
 </td><td>
 
-Provides read access to service organization external staff
+Provides read access to external organization staff
 
 </td><td>
 
@@ -485,7 +485,7 @@ sn\_service\_org.service\_org\_external\_staff\_write
 
 </td><td>
 
-Provides write access to service organization external staff
+Provides write access to external organization staff
 
 </td><td>
 
@@ -501,7 +501,7 @@ sn\_service\_org.service\_org\_external\_staff\_delete
 
 </td><td>
 
-Provides delete access to service organization external staff
+Provides delete access to external organization staff
 
 </td><td>
 
@@ -517,7 +517,7 @@ sn\_service\_org.service\_org\_assignment\_group\_create
 
 </td><td>
 
-Provides create access to service organization assignment groups
+Provides create access to organization assignment groups \(formerly service organization assignment groups\)
 
 </td><td>
 
@@ -533,7 +533,7 @@ sn\_service\_org.service\_org\_assignment\_group\_read
 
 </td><td>
 
-Provides read access to service organization assignment groups
+Provides read access to organization assignment groups
 
 </td><td>
 
@@ -549,7 +549,7 @@ sn\_service\_org.service\_org\_assignment\_group\_write
 
 </td><td>
 
-Provides write access to service organization assignment groups
+Provides write access to organization assignment groups
 
 </td><td>
 
@@ -565,7 +565,7 @@ sn\_service\_org.service\_org\_assignment\_group\_delete
 
 </td><td>
 
-Provides delete access to service organization assignment groups
+Provides delete access to organization assignment groups
 
 </td><td>
 

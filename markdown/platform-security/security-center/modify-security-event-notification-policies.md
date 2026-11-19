@@ -1,6 +1,6 @@
 ---
 title: Modify security event notification policies
-description: Learn how to modify the settings of your security event notification policies.
+description: Modify the settings of your security event notification policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/modify-security-event-notification-policies.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Security Event Notifications, Security monitoring console, Security
 
 # Modify security event notification policies
 
-Learn how to modify the settings of your security event notification policies.
+Modify the settings of your security event notification policies.
 
 ## Before you begin
 
@@ -22,15 +22,15 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to the Security Event **Notification** homepage and select any of the policies you want to modify.
+1.  Navigate to the Security Event **Notification** home page and select the policy to modify.
 
-    **Note:** You cannot modify the trigger or condition logic for default policies. To modify these settings, you must first duplicate the policy which can be done by selecting the down arrow next to **Update**, and then selecting **Duplicate**.
+    **Note:** You can't modify the trigger or condition logic for default policies. To modify these settings, you must first duplicate the policy by selecting the down arrow next to **Update**, and then selecting **Duplicate**.
 
-2.  Select **policy settings** to change the settings.
+2.  Select **Policy settings** to change the settings.
 
 3.  Select **Update** to save your changes.
 
-4.  Select **deactivate** until you are ready to start triggering notifications.
+4.  Select **Deactivate** until you are ready to start triggering notifications.
 
 5.  Start triggering notifications by selecting **Activate**.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-team-lead-dashboard.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-29"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [Track Platform Health trends, Platform Health, Using Impact, Impact]
 ---
@@ -48,9 +48,7 @@ Health score
 -   Each category's score is computed independently and never affected by changes in other categories.
 -   Each check compares its findings to a fixed reference point established when the definition was authored, not to the largest finding count in the scan. This ensures that fixing one issue never distorts the weight of an unrelated finding or shifts a category's score.
 -   For a complete explanation of the four-step calculation model, category weights, and formulas, see [Platform Health score calculation model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-health-score-calculation.md).
--   The health score represents the percentage of definition occurrences used across the platform that did not return any findings.
-
- Definition occurrences refers to the total number of times a definition has been executed by the Scan Engine to generate findings.
+-   The score displays as a whole number, rounded to the nearest integer.
 
 </td></tr><tr><td>
 

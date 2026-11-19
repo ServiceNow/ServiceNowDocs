@@ -8,7 +8,7 @@ product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Third-party portal contact roles and permissions, Manage the third-party portal, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 

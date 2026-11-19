@@ -9,7 +9,7 @@ classification: list-administration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, List administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Omit record count in a list
@@ -22,29 +22,29 @@ Role required: workspace\_admin
 
 ## About this task
 
-Calculating the total number of records included in a list that's filtered from large tables can take a long time. Platform displays the total number of records in the list.
+Calculating the total number of records included in a list that's filtered from large tables can take a long time. The list displays the total number of records in the list.
 
 \[Omitted image "pagination-calculation.jpg"\] Alt text: Record calculation
 
-To load lists faster, you can remove the page calculation for all or only specified filtered lists. When you remove the calculation, the total record count is not displayed and the Last Page icon \(\[Omitted image "double-arrow-forward.jpg"\] Alt text: Forward arrows\) is grayed out.
+To load lists faster, you can remove the page calculation for all or only specified filtered lists. When you remove the calculation, the total record count is not displayed and the Last Page icon \[Omitted image "double-arrow-forward.jpg"\] Alt text: is grayed out.
 
 \[Omitted image "no-pagination.jpg"\] Alt text: No pagination
 
 ## Procedure
 
-1.  Open a list, for example navigate to **Incident** &gt; **All**.
+1.  Open a list. For example, navigate to **Incident** &gt; **All**.
 
-2.  Right-click a header in the list and navigate to **Configure** &gt; **List Control**.
+2.  Select and hold \(or right-click\) a header in the list and select **Configure** &gt; **List Control**.
 
 3.  Select **Remove pagination count**.
 
-4.  To omit the record count only in specific view:
+4.  To omit the record count only in specific views:
 
     1.  Select **Remove pagination count for specific views**.
 
-    2.  Beside **Specific list of views prevented from getting full record count**, select the lock icon \(\[Omitted image "icon-lock.png"\] Alt text: Lock icon\).
+    2.  Beside **Specific list of views prevented from getting full record count**, select the lock icon \[Omitted image "icon-lock.png"\] Alt text:.
 
-    3.  Select the search icon \(\[Omitted image "magnifying-glass.png"\] Alt text: Search icon\) and select the view where platform omits the page count.
+    3.  Select the search icon \[Omitted image "magnifying-glass.png"\] Alt text:, and then select the view in which to omit the record count.
 
     4.  Repeat the previous step for as many views as necessary.
 

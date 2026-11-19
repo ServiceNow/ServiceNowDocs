@@ -30,7 +30,7 @@ After you update the CAB board or change request conditions, refresh the CAB mee
 
 1.  Navigate to the CAB meeting whose agenda you want to modify.
 
-<table id="choicetable_mh3_bkv_lz"><tbody><tr><td id="d189758e93">
+<table id="choicetable_mh3_bkv_lz"><tbody><tr><td id="d190430e95">
 
 **Open from the CAB meeting list**
 
@@ -40,7 +40,7 @@ After you update the CAB board or change request conditions, refresh the CAB mee
 2.  Select and open the CAB meeting to modify.
 
 
-</td></tr><tr><td id="d189758e123">
+</td></tr><tr><td id="d190430e125">
 
 **Open from the CAB definition list**
 

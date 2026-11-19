@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Email digests, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email digests, Email and SMS notifications, System notifications, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Enable an email digest in Core UI

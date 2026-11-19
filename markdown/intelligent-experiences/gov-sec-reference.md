@@ -1,19 +1,19 @@
 ---
 title: Managing AI asset security reference
-description: Reference topics provide additional details about the charts and metrics that you use to assess your AI asset security posture in AI Control Tower.
+description: Reference topics provide additional details about the charts and metrics that you use to assess your AI asset security posture in Super Intelligence Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-reference.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-26"
+last_updated: "2026-11-13"
 reading_time_minutes: 14
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, reference]
-breadcrumb: [Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Managing AI asset security reference
 
-Reference topics provide additional details about the charts and metrics that you use to assess your AI asset security posture in AI Control Tower.
+Reference topics provide additional details about the charts and metrics that you use to assess your AI asset security posture in Super Intelligence Control Tower.
 
 ## Overview metrics and calculations
 
@@ -143,7 +143,7 @@ Base system
 
 </td><td>
 
-Action items and recommendations based on analysis of AI asset security event trace data to identify potential threats and guardrail violations. Not shown in domain-separated instances.AI agents are ranked by their number of Critical security events, then High, Medium, and Low events. Agents that have only High, Medium, or Low events are included. Counts include events from the last six months, and cards refresh every hour. Select **Open** to go to the Security tab of the AI agent's record, **Complete** to mark the recommendation as resolved, or **Delete** to remove it.
+Action items and recommendations based on analysis of AI asset security event trace data to identify potential threats and guardrail violations. Not shown in domain-separated instances. Requires that the Security Analyzer agent is on.AI agents are ranked by their number of Critical security events, then High, Medium, and Low events. Agents that have only High, Medium, or Low events are included. Counts include events from the last six months, and cards refresh every hour. Select **Open** to go to the Security tab of the AI agent's record, **Complete** to mark the recommendation as resolved, or **Delete** to remove it.
 
 </td></tr></tbody>
 </table>## Design-time metrics and calculations
@@ -205,7 +205,7 @@ Runtime metrics show potential violations of LLM guardrails and anonymization of
 |Metric|Availability|Description|
 |------|------------|-----------|
 |Sensitive data input|Base system|Shows sensitive data that was identified in user responses to LLM prompts. Sensitive data is content that potentially matches a known sensitive data pattern. Exposure of sensitive data is limited to the LLM in your instance. External AI system metrics are derived from Traceloop guardrails which are set up in [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md).|
-|Sensitive data anonymized|Base system|Shows LLM prompt data that met configured data patterns. This data was anonymized based on the configuration for the pattern in Configuration Data Patterns in Data Privacy. External AI system metrics are derived from Traceloop guardrails which are set up in [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md).|
+|Sensitive data anonymized|Base system|Shows LLM prompt data that met configured data patterns. This data was anonymized based on the configuration for the pattern in Configuration Data Patterns in Data Privacy. External AI system metrics are derived from Traceloop guardrails which are set up in [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md). To view and update anonymization policies, you need the data\_privacy\_admin role.|
 |Total offensive content detected and blocked|Available with AI Guardian|Shows offensive content data provided by AI Guardian. To see data, enable AI Guardian for your instance. For more details, see [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-guardian-analytics.md). External AI system metrics are derived from Traceloop guardrails which are set up in [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md).|
 |Total prompt injection detected and blocked|Available with AI Guardian|Shows prompt injection data provided by AI Guardian. To see data, enable AI Guardian for your instance. For more details, see [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-guardian-analytics.md). External AI system metrics are derived from Traceloop guardrails which are set up in [Configure runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md).|
 
@@ -215,7 +215,7 @@ Post-runtime metrics show potential threats in AI system input and output. Top A
 
 Each cell in the Top AI asset security events heat map contains the number of AI asset security events belonging to that category \(row\) and the timeframe \(column\), based on Coordinated Universal Time \(UTC\).
 
-To configure these metrics, see [Configure post-runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md).
+To configure these metrics, see [Configure post-runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md). If a metric doesn't have multiple LLM analysis configured, then AWS Claude is used.
 
 \[Omitted image "gov-sec-post-runtime-events.png"\] Alt text: Post-runtime tab showing Top AI asset security events.
 
@@ -247,5 +247,5 @@ AI judge model classifications are probabilistic in nature and may be incomplete
 -   **[System properties for AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference-system-properties.md)**  
 System properties that connect Veza access intelligence and limit the age of records evaluated for AI asset security metrics are available. Limiting records can prevent analyzing stale data and reduce unnecessary processing overhead.
 
-**Parent Topic:**[Managing AI asset security with AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-landing.md)
+**Parent Topic:**[Managing AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-landing.md)
 

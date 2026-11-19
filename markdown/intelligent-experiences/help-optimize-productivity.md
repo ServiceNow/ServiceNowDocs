@@ -24,9 +24,17 @@ The agentic workflow performs the following tasks:
 -   Calculates workloads relative to each team member's typical capacity
 -   Enables proactive team management with data-driven insights
 
-The agents, tools, and triggers that are associated with the Help optimize team productivity agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+By default, you can enable the agentic workflow so it is accessible in the ServiceNow Otto panel. Optionally, you can add triggers or UI actions to allow users to invoke the agentic workflow in other ways. See [Select channels and access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/channels-access-aw-new.md) and [Add a trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aw-new.md) for more information.
+
+The agents and tools that are associated with the agentic workflow are provided by AI applications. If you want to change this agentic workflow, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-ai-asset-new.md), make adjustments, and activate the duplicated version instead.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
+## Sample utterance
+
+After the workflow has been activated in AI Agent Studio, enter "Give me optimized assignment evaluations for the Software assignment group" or similar phrases in the ServiceNow Otto panel to trigger the workflow. You must name the specific assignment group you're allocating work for.
+
+You must have the sn.now\_assist\_panel\_user role to run the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
 
 ## Prerequisites and setup
 
@@ -182,12 +190,6 @@ The first step of the guided setup includes a complete list of included AI agent
 You can manually test an agentic workflow execution or access on the Testing page of AI Agent Studio if you have the sn.aia\_admin role and all other roles configured [in the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md). Start a manual test, select a test type and the name of the workflow, and use utterances in the Task field like the following samples. See [Test an agentic workflow execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-use-case.md).
 
 If you want to evaluate the agentic workflow over many different execution logs, run an [automated evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/execute-aia-eval.md).
-
-## Sample utterance
-
-After the workflow has been activated in AI Agent Studio, enter "Give me optimized assignment evaluations for the Software assignment group" or similar phrases in the ServiceNow Otto panel to trigger the workflow. You must name the specific assignment group you're allocating work for.
-
-You must have the sn.now\_assist\_panel\_user role to run the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
 
 ## AI agents used in the Help optimize team productivity agentic workflow
 

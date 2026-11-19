@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # AI Search Admin console

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [email scripts]
-breadcrumb: [Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Scripting for email notifications

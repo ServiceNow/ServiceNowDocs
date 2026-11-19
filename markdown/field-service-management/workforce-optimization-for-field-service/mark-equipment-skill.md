@@ -18,7 +18,7 @@ Designate skills as equipment-related skills so that when a task that requires e
 
 ## Before you begin
 
-Role required: wm\_admin
+Role required: wm\_crew\_moderator
 
 ## Procedure
 

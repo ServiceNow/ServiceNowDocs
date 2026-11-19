@@ -48,15 +48,15 @@ Role required: sn\_portfolio\_safe.safe\_portfolio\_user
 
 7.  To arrange epics within the backlog, use either of the following options.
 
-<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d200564e161">
+<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d200975e163">
 
 Action
 
-</th><th align="left" id="d200564e164">
+</th><th align="left" id="d200975e166">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d200564e170">
+</th></tr></thead><tbody><tr><td id="d200975e172">
 
 **Using the drag feature**
 
@@ -64,7 +64,7 @@ Description
 
 Point to an epic and drag it to the required position.
 
-</td></tr><tr><td id="d200564e179">
+</td></tr><tr><td id="d200975e181">
 
 **Using the keyboard**
 

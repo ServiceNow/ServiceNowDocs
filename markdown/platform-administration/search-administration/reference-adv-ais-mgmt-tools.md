@@ -9,7 +9,7 @@ classification: search-administration
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Advanced AI Search Management Tools, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Advanced AI Search Management Tools, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Advanced AI Search Management Tools reference

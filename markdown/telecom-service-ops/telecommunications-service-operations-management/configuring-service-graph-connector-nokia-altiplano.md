@@ -7,9 +7,9 @@ release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
+last_updated: "2026-11-09"
+reading_time_minutes: 4
+breadcrumb: [Configure service graph connectors, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Configure Nokia Altiplano service graph connector
@@ -24,13 +24,17 @@ This integration uses REST APIs \(via a MID Server\) to ensure the CMDB reflects
 
 |Plugin|ID|
 |------|---|
-|Telecom Service Operations Core|`sn_tsom_core`|
+|Telecom Service Operations Core|sn\_tsom\_core|
 |Service Graph Connector for Nokia Aliplano|sn\_tsom\_altiplano\_connector|
 
 **Note:** External requirements:
 
 -   A running Nokia Altiplano Controller instance with access to its REST northbound API.
 -   A MID Server with secure connectivity to the Altiplano instance.
+
+## Roles and access control
+
+To view and configure Nokia Altiplano setup records, users need the `sn_tsom_core.tsom_visibility_admin` role.For the roles and access requirements for all Telecommunications Service Operations Management applications, see [Roles and access control in Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/tsom-roles-and-access-control.md).
 
 ## Configuration tasks overview
 
@@ -77,4 +81,6 @@ Use the guided setup to simplify the configuration process. This setup provides 
 [System components installed with Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/properties-installed-with-nokia-altiplano.md)
 
 [Telecom Discovery via Nokia Altiplano](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/service-graph-connector-for-nokia-altiplano.md)
+
+[Roles and access control in Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/tsom-roles-and-access-control.md)
 

@@ -1,16 +1,16 @@
 ---
-title: Create an Oracle HCM \(Discovery\) connection
+title: Create an Oracle HCM connection
 description: Establish a zero copy connection to an external Oracle HCM account in Zero Copy Connector Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-oracle-hcm-discovery-connection-zcc.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-24"
 reading_time_minutes: 1
-breadcrumb: [Oracle HCM \(Discovery\), Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Oracle HCM \(REST\), Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
-# Create an Oracle HCM \(Discovery\) connection
+# Create an Oracle HCM connection
 
 Establish a zero copy connection to an external Oracle HCM account in Zero Copy Connector Hub.
 
@@ -20,13 +20,17 @@ Establish a zero copy connection to an external Oracle HCM account in Zero Copy 
 2.  Install the REST Config Framework plugin.
 3.  Install the Oracle HCM plugin.
 
-The Oracle HCM Discovery connector appears in the Zero Copy Connector Hub UI only after both plugins are installed.
+The Oracle HCM \(Discovery\) connector appears in the Zero Copy Connector Hub UI only after both plugins are installed.
 
 Role required: df\_connection\_admin
 
 ## About this task
 
-Work with your data source admin to create a connection to Oracle HCM \(Discovery\).
+**Note:**
+
+Oracle HCM is a **REST** connector. Before you set up this connection, review [REST connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rest-connectors.md) for prerequisites, authentication requirements, and API consumption considerations.
+
+Work with your data source admin to create a connection to Oracle HCM.
 
 ## Procedure
 

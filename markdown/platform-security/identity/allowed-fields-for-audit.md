@@ -1,6 +1,6 @@
 ---
 title: Supported and unsupported fields in Identity and Access Audit
-description: A list of fields that support auditing and those that do not.
+description: Some fields support auditing in Identity and Access Audit, and others do not.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/identity/allowed-fields-for-audit.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Identity and Access Audit, Identity]
 
 # Supported and unsupported fields in Identity and Access Audit
 
-A list of fields that support auditing and those that do not.
+Some fields support auditing in Identity and Access Audit, and others do not.
 
 Audit Fields Validation helps prevent some fields from being selected in the field\_list in the Security Field Audit Config \(sys\_sec\_field\_audit\_config\) table.
 

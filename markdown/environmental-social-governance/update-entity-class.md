@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage entities in Operational Sustainability Management \(formerly ESG Management\), Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Manage entities in Operational Sustainability Management \(formerly ESG Management\), Configure, Operational Sustainability Management]
 ---
 
 # Update an entity class

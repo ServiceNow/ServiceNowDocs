@@ -24,11 +24,11 @@ Role required: admin
 
 ## About this task
 
-At the end of the migration process, a confirmation message specifies if the migration is successful or not. You can review the migration information and perform the post-migration steps to ensure successful migration of your configuration or customization.
+At the end of the migration process, a confirmation message specifies whether the migration is successful. You can review the migration information and perform the post-migration steps to ensure successful migration of your configuration or customization.
 
 ## Procedure
 
-1.  If the migration is successful, perform the following steps to verify list categories and modules are similar in ITSM Agent Workspace and Service Operations Workspace.
+1.  If the migration is successful, perform the following steps to verify that list categories and modules are similar in ITSM Agent Workspace and Service Operations Workspace.
 
     1.  Open SOW for ITSM and ITSM Agent Workspace instances.
 
@@ -44,7 +44,7 @@ At the end of the migration process, a confirmation message specifies if the mig
 
     1.  On the migration completion page in SOW Admin Center, select **View migration details**.
 
-    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text: System logs icon\) icon.
+    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text:\) icon.
 
     3.  Review the logs to determine which items failed during migration.
 

@@ -1,6 +1,6 @@
 ---
 title: Planning your AI strategy, prioritize, and execute
-description: Track your AI portfolio from strategy to delivery. Plan connects goal alignment, intake management, and execution tracking in one place within AI Control Tower. Portfolio managers and AI COE leads get a current view of AI investments without leaving the application.
+description: Track your AI portfolio from strategy to delivery. Plan connects goal alignment, intake management, and execution tracking in one place within Control Tower. Portfolio managers and AI COE leads get a current view of AI investments without leaving the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-landing.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [PLACEHOLDER: Add keywords for search]
-breadcrumb: [Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Plan your AI strategy, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Planning your AI strategy, prioritize, and execute
 
-Track your AI portfolio from strategy to delivery. Plan connects goal alignment, intake management, and execution tracking in one place within AI Control Tower. Portfolio managers and AI COE leads get a current view of AI investments without leaving the application.
+Track your AI portfolio from strategy to delivery. Plan connects goal alignment, intake management, and execution tracking in one place within Control Tower. Portfolio managers and AI COE leads get a current view of AI investments without leaving the application.
 
 ## Get started
 

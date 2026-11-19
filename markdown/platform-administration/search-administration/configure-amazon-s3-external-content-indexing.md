@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-10-27"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Amazon S3 external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Amazon S3 external content connector, Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure Amazon S3 for external content indexing

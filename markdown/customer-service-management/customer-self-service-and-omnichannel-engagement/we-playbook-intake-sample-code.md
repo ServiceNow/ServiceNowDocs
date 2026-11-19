@@ -1,6 +1,6 @@
 ---
 title: Sample code for the Playbook intake component
-description: Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
+description: Use this sample code to run an action when the Playbook intake component triggers an event.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-playbook-intake-sample-code.html
 release: brazil
@@ -14,9 +14,11 @@ breadcrumb: [Playbook intake component, Configure web components, Configure Web 
 
 # Sample code for the Playbook intake component
 
-Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
+Use this sample code to run an action when the Playbook intake component triggers an event.
 
 ## Sample code
+
+Update the sample code for your use case before you embed the component on your webpage.
 
 ```
 { 
@@ -91,7 +93,7 @@ var secondaryURL = '/browse'; // Replace with the URL of the secondary page
 
 open(secondaryURL,'_self'); 
 
-}
+}}
 ```
 
 **Related topics**  

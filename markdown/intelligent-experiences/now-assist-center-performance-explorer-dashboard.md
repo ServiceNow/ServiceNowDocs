@@ -116,7 +116,7 @@ The **Agents** tab displays a list of individual AI agent executions. Use the **
 
 -   **Assists Consumed**
 
-    The number of assist credits consumed by the AI agent during the execution.
+    The number of assists consumed by the AI agent during the execution.
 
 -   **Inferred CSAT**
 

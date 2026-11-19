@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-healthcareoperations-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
-reading_time_minutes: 6
+last_updated: "2026-11-19"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -321,7 +321,7 @@ Brazil
 
 -   **Activation information**
 
-Install each Healthcare Operations app by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+Install each Healthcare Operations app by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 The Care Team Operations AI Chat Assistant and its agents require an HCLS Prime or HCLS Advanced scoped application.
 
@@ -551,11 +551,11 @@ Brazil
 
 </td><td>
 
--   Create ad-hoc or recurring scheduled task plans for care teams across one or more units with Care Team Work Management. See [\[Placeholder link text to key ctwm-landing\]](https://www.servicenow.com/docs/access?context=ctwm-landing&family=brazil&ft:locale=en-US) for more information.
+-   Create ad-hoc or recurring scheduled task plans for care teams across one or more units with Care Team Work Management. See [ctwm landing](https://www.servicenow.com/docs/access?context=ctwm-landing&family=brazil&ft:locale=en-US) for more information.
 -   Submit and track operational requests from a self-service Care Team Portal.
--   Create, assign, and edit care team cases and tasks from Care Team Mobile. See [\[Placeholder link text to key care-team-mobile-landing\]](https://www.servicenow.com/docs/access?context=care-team-mobile-landing&family=brazil&ft:locale=en-US) for more information.
+-   Create, assign, and edit care team cases and tasks from Care Team Mobile. See [care team mobile landing](https://www.servicenow.com/docs/access?context=care-team-mobile-landing&family=brazil&ft:locale=en-US) for more information.
 -   Route and fulfill department-specific requests through the Care Team Operations for Biomed, Care Team Operations for Environmental Services, Care Team Operations for Facilities, and Care Team Operations for Healthcare IT apps.
--   Use a dedicated ServiceNow Otto assistant, the Care Team Operations AI Chat Assistant, for conversational case intake and creation by chat or voice. See [\[Placeholder link text to key hco-now-assist-care-team-chat-assistant\]](https://www.servicenow.com/docs/access?context=hco-now-assist-care-team-chat-assistant&family=brazil&ft:locale=en-US) for more information.
+-   Use a dedicated ServiceNow Otto assistant, the Care Team Operations AI Chat Assistant, for conversational case intake and creation by chat or voice. See [hco now assist care team chat assistant](https://www.servicenow.com/docs/access?context=hco-now-assist-care-team-chat-assistant&family=brazil&ft:locale=en-US) for more information.
 
  All of these apps build on the Healthcare Operations Core data model for locations, organizations, and departments.
 

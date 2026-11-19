@@ -50,7 +50,7 @@ Modify a supported configuration item to clear a change request.
 -   **[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/standard-change-catalog-sow.md)**  
 Standard changes are pre-approved, low-risk changes with a proven history of success. The standard change catalog contains the changes that have been approved by the Change Management application as standard changes.
 -   **[Create a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-change-task-sow.md)**  
-When you need to engage another team or agent for help, create and assign change task. For example, there can be tasks to plan the change, implement the change, and test, and review the work.
+When you need to engage another team or agent for help, create and assign a change task. For example, there can be tasks to plan the change, implement the change, test, and review the work.
 -   **[Work on a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/work-on-change-task-sow.md)**  
 Complete the change task that in turn helps in resolving the associated change.
 -   **[Create a Change Advisory Board \(CAB\) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/cm-create-cab-definition-sow.md)**  

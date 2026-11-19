@@ -36,15 +36,15 @@ The columns available to show or hide are determined by the default list layout 
 
 4.  Update the display of the view on the Board or hide views.
 
-<table id="choicetable_tky_tqc_b1c"><thead><tr><th align="left" id="d335061e121">
+<table id="choicetable_tky_tqc_b1c"><thead><tr><th align="left" id="d337195e123">
 
 Choice
 
-</th><th align="left" id="d335061e124">
+</th><th align="left" id="d337195e126">
 
 Options
 
-</th></tr></thead><tbody><tr><td id="d335061e130">
+</th></tr></thead><tbody><tr><td id="d337195e132">
 
 **Personalize List and Gantt**
 
@@ -54,7 +54,7 @@ Options
 -   Show or hide the columns in the view.
 \[Omitted image "cwm-personalize-list.png"\] Alt text: Personalize List and Gantt views.
 
-</td></tr><tr><td id="d335061e157">
+</td></tr><tr><td id="d337195e159">
 
 **Personalize Kanban**
 
@@ -64,7 +64,7 @@ Change the vertical categorization of task cards using the **Vertical lane** fie
 
  \[Omitted image "cwm-personalize-kanban.png"\] Alt text: Personalize Kanban vertical lane.
 
-</td></tr><tr><td id="d335061e179">
+</td></tr><tr><td id="d337195e181">
 
 **Show or hide views**
 

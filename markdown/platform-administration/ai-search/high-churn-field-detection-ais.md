@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-21"
 reading_time_minutes: 4
 keywords: [high-churn field detection, churn audit]
-breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # High-churn field detection

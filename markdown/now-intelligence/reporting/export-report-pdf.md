@@ -24,7 +24,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select the Core UI report you want to export.
 
-2.  From the More actions menu \[Omitted image "icon-paw-more-actions.png"\], select **Export**.
+2.  From the More actions menu \[Omitted image "icon-paw-more-actions.png"\] Alt text: More actions icon, select **Export**.
 
     \[Omitted image "paw-vd-export.png"\] Alt text: Export option in More actions menu
 

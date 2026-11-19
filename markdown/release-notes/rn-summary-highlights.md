@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-highlights.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-04"
+last_updated: "2026-11-19"
 reading_time_minutes: 83
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -102,21 +102,6 @@ AI Agent Studio
 See [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-agents.md) for more information.
 
 For the Platform AI release notes, see .
-
-</td></tr><tr><td>
-
-AI Control Tower
-
-</td><td>
-
--   Discover and maintain a complete, current inventory of AI systems, models, datasets, and prompts across ServiceNow and external platforms.
--   Track regulatory compliance posture against frameworks like NIST AI RMF and EU AI Act across your entire AI portfolio.
--   Secure AI systems across platforms with automated scoring and access hygiene, model vulnerability and validation findings, real-time guardrails against prompt injection and data leakage, and graduated containment for AI agents.
--   Evaluate the quality and safety of AI interactions across your portfolio using automated scoring, configurable metrics, and trend analysis for both ServiceNow and external AI systems.
--   Quantify the business value of AI investments with productivity, cost savings, and adoption metrics tied to individual AI systems.
--   Coordinate governance work across cross-functional teams with lifecycle playbooks, approval routing, and AI-generated recommendations.
-
-See [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2155,6 +2140,19 @@ See [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/Se
 
 </td></tr><tr><td>
 
+Service Portal
+
+</td><td>
+
+-   ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow® products, including ServiceNow®. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+-   Quickly create a self-service portal with an engaging, mobile-friendly user experience using an easy-to-use, modular UI.
+-   Empower users with self-service, deflect issues, and drive user productivity and satisfaction by providing simple and immediate access to resources.
+-   Connect users to what they’re looking for in a powerful, consumer-grade search experience.
+
+See [Exploring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/exploring-service-portal.md) for more information.
+
+</td></tr><tr><td>
+
 Service Reliability Management
 
 </td><td>
@@ -2382,8 +2380,6 @@ Software Asset Management
 
 See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_SoftwareAssetMgmt.md) for more information.
 
-**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md).
-
 </td></tr><tr><td>
 
 Sourcing and Procurement Operations
@@ -2439,6 +2435,21 @@ Subscription Management
 -   Stay in compliance and avoid unexpected costs by tracking subscription usage and allocations over time.
 
 See [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/subscription-management-landing-page-v2.md) for more information.
+
+</td></tr><tr><td>
+
+Super Intelligence Control Tower
+
+</td><td>
+
+-   Discover and maintain a complete, current inventory of AI systems, models, datasets, and prompts across ServiceNow and external platforms.
+-   Track regulatory compliance posture against frameworks like NIST AI RMF and EU AI Act across your entire AI portfolio.
+-   Secure AI systems across platforms with automated scoring and access hygiene, model vulnerability and validation findings, real-time guardrails against prompt injection and data leakage, and graduated containment for AI agents.
+-   Evaluate the quality and safety of AI interactions across your portfolio using automated scoring, configurable metrics, and trend analysis for both ServiceNow and external AI systems.
+-   Quantify the business value of AI investments with productivity, cost savings, and adoption metrics tied to individual AI systems.
+-   Coordinate governance work across cross-functional teams with lifecycle playbooks, approval routing, and AI-generated recommendations.
+
+See [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md) for more information.
 
 </td></tr><tr><td>
 

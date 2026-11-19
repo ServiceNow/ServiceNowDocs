@@ -55,5 +55,5 @@ Defines the maximum number of automations that can be selected at once for calcu
 -   Default value: **10**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/reference.md)
+</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/reference-ac.md)
 

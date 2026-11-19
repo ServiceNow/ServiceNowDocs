@@ -8,9 +8,9 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Analyze alert impact agentic workflow, Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Analyze alert impact agentic workflow, Responding to and working with alerts in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Analyze alert impact in the ServiceNow Otto panel
@@ -19,7 +19,7 @@ Learn how to use the analyze alert impact agentic workflow in the ServiceNow Ott
 
 ## Before you begin
 
-Make sure ServiceNow Otto for ITOM is installed and observability agents are configured for third-party vendors. For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md) and [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
+Make sure ServiceNow Otto for ITOM is installed and observability agents are configured for third-party vendors. For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md) and [Configure observability tool connections for ITOM AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
@@ -37,7 +37,7 @@ Role required: evt\_mgmt\_operator
 
 5.  Ask a tool-specific question about the alert.
 
-    For example, for New Relic alerts, you can ask `Have there been recent deployments for this alert?`. To better understand the type of data you can query, see the **Overview of data returned** row in the corresponding vendor's table in [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
+    For example, for New Relic alerts, you can ask `Have there been recent deployments for this alert?`. To better understand the type of data you can query, see the **Overview of data returned** row in the corresponding vendor's table in [Configure observability tool connections for ITOM AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
     AI agents analyze your question and respond with a summary or insight. The first response for an alert might take several seconds to appear.
 
@@ -47,4 +47,6 @@ Role required: evt\_mgmt\_operator
 Use the information that you received to understand the alert impact and respond accordingly. You can also ask more questions about the alert.
 
 **Note:** Your conversation in the ServiceNow Otto panel is specific to the alert that you selected in Step 3. To ask about a different alert, open that alert and select the ServiceNow Otto icon to start a new conversation.
+
+**Parent Topic:**[Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/now-assist-itom-agentic-aia.md)
 

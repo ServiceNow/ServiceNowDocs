@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Managing indexed sources, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Managing indexed sources, Using AI Search Admin console, AI Search Admin console, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Define the semantic indexing configuration for an indexed source

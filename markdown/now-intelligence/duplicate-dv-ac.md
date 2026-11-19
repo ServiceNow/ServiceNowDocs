@@ -25,7 +25,7 @@ Role required: viz\_creator
 
 2.  Open the visualization that you want to duplicate.
 
-3.  From the More actions menu on the data visualization's page \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text:\), select **Duplicate**.
+3.  From the More actions menu on the data visualization's page \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions icon\), select **Duplicate**.
 
 4.  Give the duplicate a unique name and select **Duplicate**.
 

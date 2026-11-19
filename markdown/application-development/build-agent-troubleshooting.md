@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/build-agent-troubleshooting.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-12"
 reading_time_minutes: 5
 keywords: [troubleshooting, build failures, empty UI pages, context limits, rate limit errors, deployment issues, debugging, error messages, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
@@ -167,6 +167,16 @@ Long-running prompt times out
 -   Quick check: Your session timeout setting.
 -   Try: For labs and workshops, set **glide.ui.session\_timeout** to `1440` in the System Property \[sys\_properties\] table. Coordinate with the platform admin on a shared instance before changing it.
 -   If still failing, capture: The session length and the prompt that timed out.
+
+</td></tr><tr><td>
+
+Turn is no longer active or grace period has expired error
+
+</td><td>
+
+-   Quick check: Whether the chat sat idle or the browser tab was in the background before the error appeared.
+-   Try: Resubmit the prompt in the same chat. If the error repeats, open a new chat and describe the task again.
+-   If still failing, capture: The exact error text, the prompt you submitted, and the time the error occurred.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-build-agent.md)

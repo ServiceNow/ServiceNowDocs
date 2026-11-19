@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/use\_case\_emb
 release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Use cases, Using ServiceNow CPQ, ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 

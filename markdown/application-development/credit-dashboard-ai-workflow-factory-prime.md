@@ -32,7 +32,7 @@ You can use the Credit Dashboard to track your credit usage and view details abo
 
 The Capability breakdown tab displays detail metrics about each capability you used, when you used the capability, how many credits the capability consumed, the rate of consumption, and more information.
 
-\[Omitted image "aiwfp-capability-breakdown.png"\] Alt text:
+\[Omitted image "aiwfp-capability-breakdown.png"\] Alt text: The Capability breakdown tab displays detailed information about different aspects of your credit usage by capability.
 
 ## Using the Credit Dashboard
 

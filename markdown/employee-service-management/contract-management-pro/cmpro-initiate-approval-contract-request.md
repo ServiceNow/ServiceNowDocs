@@ -38,15 +38,15 @@ You can request for approval of a revision for contract documents from stakehold
 
 3.  In the **Lists** tab, open a request by selecting an option under **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d88653e106">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d88709e108">
 
 Option
 
-</th><th align="left" id="d88653e109">
+</th><th align="left" id="d88709e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d88653e115">
+</th></tr></thead><tbody><tr><td id="d88709e117">
 
 **As an assignee**
 
@@ -58,7 +58,7 @@ Steps
 
 The state of the request is Work in progress and the contract status is also work in progress.
 
-</td></tr><tr><td id="d88653e144">
+</td></tr><tr><td id="d88709e146">
 
 **As a collaborator**
 

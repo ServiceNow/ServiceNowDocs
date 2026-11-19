@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ae-update-sets.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-11-09"
+reading_time_minutes: 3
 keywords: [Autonomous Engineer, update sets, checkpoints, batch update set, deployment]
 breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
@@ -28,11 +28,9 @@ For general information about update sets on the ServiceNow AI Platform, see [Sy
 
 ## How Autonomous Engineer tracks changes
 
-Autonomous Engineer automatically captures changes in a unified update set as you work.
+Autonomous Engineer automatically captures the changes that its agents make in an update set as you work.
 
-**Note:** Manual changes aren't included in the automatically generated update set, and must be deployed separately.
-
-The consolidated update set merges all the update sets created for previous agentic and manual development into a single update set for ease of deployment. The consolidation occurs after you tell Autonomous Engineer that you're done working on a task and no longer require rollback.
+**Note:** The update set captures only the changes that the agents make. It doesn't automatically include changes that you make by hand during or after a plan. To deploy those changes, add them to the update set yourself or move them separately.
 
 Autonomous Engineer automatically captures changes to the app and metadata that you're working on.
 
@@ -42,7 +40,7 @@ When Autonomous Engineer prepares to create the next checkpoint, it checks wheth
 
 ## Deploy update sets
 
-After your changes are ready, you can find the update sets from your Autonomous Engineer session on the **Deployment** tab on the ServiceNow Studio home page.
+After the plan completes, export the batch update set from the plan dashboard. For more information on deploying your changes, see [Deploying what you built with Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-deployment.md).
 
 **Parent Topic:**[Using Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-using-autonomous-engineer.md)
 

@@ -1,6 +1,6 @@
 ---
-title: Configuring pages in AI Control Tower
-description: View and govern your AI portfolio using terms and visualizations tailored to your organization.
+title: Configuring pages
+description: View and govern your AI portfolio in Super Intelligence Control Tower using terms and visualizations tailored to your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configuring-page-widgets.html
 release: brazil
@@ -8,22 +8,22 @@ topic_type: concept
 last_updated: "2026-09-21"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Configuring pages in AI Control Tower
+# Configuring pages
 
-View and govern your AI portfolio using terms and visualizations tailored to your organization.
+View and govern your AI portfolio in Super Intelligence Control Tower using terms and visualizations tailored to your organization.
 
 ## Key benefits
 
--   Present AI Control Tower charts and details in your organization's own terms instead of the default labels.
+-   Present Control Tower charts and details in your organization's own terms instead of the default labels.
 -   Provide data for a specific business unit or reporting period by building a condition into a card.
 -   Direct users from a card to a different list, report, or page instead of the default destination.
 
-AI Control Tower pages ship with a default set of cards, titles, and visualizations that you can configure as needed.
+Control Tower pages ship with a default set of cards, titles, and visualizations that you can configure as needed.
 
-\[Omitted image "aict-edit-home-page.png"\] Alt text: AI Control Tower Home page with editable cards.
+\[Omitted image "aict-edit-home-page.png"\] Alt text: Home page with editable cards.
 
 Every configurable card exposes a set of presentation settings, which let you match a page to the vocabulary and reporting style your organization already uses. For example, you can update a card title and subtitle, the chart type, its data labels and legends, and the number of rows and sort direction in a ranked list. The exact settings available depend on the card.
 
@@ -31,11 +31,11 @@ Cards that read directly from tables on your instance also provide a condition b
 
 ## Required roles
 
-The aix\_config\_admin role is required to edit cards on AI Control Tower pages. The sn\_ai\_governance.workspace\_admin role includes this role.
+The aix\_config\_admin role is required to edit cards on Control Tower pages. The sn\_ai\_governance.workspace\_admin role includes this role.
 
 ## How configurations are saved and applied
 
-Card configurations apply to all AI Control Tower users. Every user sees a saved configuration the next time the page loads.
+Card configurations apply to all Control Tower users. Every user sees a saved configuration the next time the page loads.
 
 Configurations are stored as metadata that layers over the default card, rather than as a copy of the card. When editing a card, an unset or cleared value uses the original behavior.
 
@@ -43,7 +43,7 @@ Configurations are stored as metadata that layers over the default card, rather 
 
 ## Configurations and application upgrades
 
-Configurations remain in place through an application upgrade. When AI Control Tower is upgraded, saved configurations for cards that still exist are reapplied automatically, and the pages continue to show the configured titles, conditions, and display options.
+Configurations remain in place through an application upgrade. When Control Tower is upgraded, saved configurations for cards that still exist are reapplied automatically, and the pages continue to show the configured titles, conditions, and display options.
 
 Cards introduced by a new version appear with their shipped settings, which an administrator can then configure.
 
@@ -69,13 +69,13 @@ Cards introduced by a new version appear with their shipped settings, which an a
     An organization reports on the AI systems it onboarded during the current fiscal year, but the inventory card counts every system on the instance. Because the card reads directly from a table, a workspace administrator adds a condition that limits it to systems created in the last year. The card count and the page it navigates to both reflect the condition.
 
 
--   **[Configure a page card in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configure-widget.md)**  
-Change how a card presents its data so that a page matches the terminology, level of detail, and reporting focus your organization works with.
+-   **[Configure a page card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configure-widget.md)**  
+Change how a card on a Super Intelligence Control Tower page presents its data so that the page matches the terminology, level of detail, and reporting focus your organization works with.
 
-**Parent Topic:**[Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring.md)
+**Parent Topic:**[Configuring Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring.md)
 
 **Related topics**  
 
 
-[Configure a page card in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configure-widget.md)
+[Configure a page card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configure-widget.md)
 

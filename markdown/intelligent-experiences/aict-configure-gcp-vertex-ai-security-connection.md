@@ -1,6 +1,6 @@
 ---
 title: Add a Gemini Enterprise Agent Platform connection
-description: Connect Gemini Enterprise Agent Platform to AI Control Tower using a service account and OAuth 2.0 JWT Bearer authentication, so policies and AI agent containment using kill switch protocol can reach and act on agents running on Gemini Enterprise Agent Platform.
+description: Connect Gemini Enterprise Agent Platform to Super Intelligence Control Tower using a service account and OAuth 2.0 JWT Bearer authentication, so policies and AI agent containment using kill switch protocol can reach and act on agents running on Gemini Enterprise Agent Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configure-gcp-vertex-ai-security-connection.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring security connections, Configuring integrations, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add a Gemini Enterprise Agent Platform connection
 
-Connect Gemini Enterprise Agent Platform to AI Control Tower using a service account and OAuth 2.0 JWT Bearer authentication, so policies and AI agent containment using kill switch protocol can reach and act on agents running on Gemini Enterprise Agent Platform.
+Connect Gemini Enterprise Agent Platform to Super Intelligence Control Tower using a service account and OAuth 2.0 JWT Bearer authentication, so policies and AI agent containment using kill switch protocol can reach and act on agents running on Gemini Enterprise Agent Platform.
 
 ## Before you begin
 
@@ -147,7 +147,7 @@ Gemini Enterprise Agent Platform authenticates using OAuth 2.0 with a JWT Bearer
     -   **Host**: `iam.googleapis.com`.
     -   **Connection URL**: `https://iam.googleapis.com`
     -   **Active**: select this option.
-9.  Navigate to **AI Control Tower** &gt; **Settings** &gt; **Integrations** &gt; **Control Enforcement Points**.
+9.  Navigate to **Control Tower** &gt; **Settings** &gt; **Integrations** &gt; **Control Enforcement Points**.
 
 10. On the **Available connectors** sub-tab, select **Gemini Enterprise Agent Platform**.
 
@@ -162,7 +162,7 @@ Gemini Enterprise Agent Platform authenticates using OAuth 2.0 with a JWT Bearer
 
 ## Result
 
-The connector appears on the **Established connections** sub-tab. AI Control Tower can now use this connection to enforce policies and apply AI agent containment using kill switch protocol to Gemini Enterprise Agent Platform agents that have a unique agent identity configured.
+The connector appears on the **Established connections** sub-tab. Control Tower can now use this connection to enforce policies and apply AI agent containment using kill switch protocol to Gemini Enterprise Agent Platform agents that have a unique agent identity configured.
 
 To verify the setup:
 

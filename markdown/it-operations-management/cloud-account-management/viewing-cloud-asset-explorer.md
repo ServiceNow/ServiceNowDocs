@@ -1,32 +1,44 @@
 ---
-title: Viewing the cloud asset explorer
-description: The dashboard helps cloud governance and operations teams monitor, track, and act on compliance and asset details more efficiently. As an asset viewer, you can view all assets and drill down to see detailed information for each configuration item \(CI\).
+title: Viewing the Cloud asset explorer
+description: Use the cloud asset explorer dashboard to monitor compliance status and asset details across your cloud environment. As an asset viewer, you can view all cloud assets and its relationships with other Configuration Items \(CI\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/cloud-account-management/viewing-cloud-asset-explorer.html
 release: brazil
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-11-11"
+reading_time_minutes: 2
+keywords: [cloud asset explorer, cloud assets]
 breadcrumb: [Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Viewing the cloud asset explorer
+# Viewing the Cloud asset explorer
 
-The dashboard helps cloud governance and operations teams monitor, track, and act on compliance and asset details more efficiently. As an asset viewer, you can view all assets and drill down to see detailed information for each configuration item \(CI\).
+Use the cloud asset explorer dashboard to monitor compliance status and asset details across your cloud environment. As an asset viewer, you can view all cloud assets and its relationships with other Configuration Items \(CI\).
 
-You can access the dashboard in either of two ways.
+You can access the dashboard in the following ways.
 
--   Navigate to **All** &gt; **Cloud Workspace** &gt; **Cloud asset explorer**
--   Navigate to **Workspaces** &gt; **Cloud Workspace** &gt; **Cloud asset explorer**
+-   Navigate to **All** &gt; **Cloud Workspace** &gt; **Monitor and track** &gt; **Cloud asset explorer**
+-   Navigate to **Workspaces** &gt; **Cloud Workspace** &gt; **Monitor and track** &gt; **Cloud asset explorer**
 
-\[Omitted image "cam-cloud-asset-overview.png"\] Alt text: Cloud asset explorer dashboard view
+Cloud asset explorer provides a single, searchable view of the cloud assets that are discovered in your environment across AWS, Azure, GCP, and OCI. You can see how many assets you have by provider and category, filter the list to find a specific asset, and open an asset to review its details.
 
-**Note:** You can enable or disable the Asset collection configuration to list the CIs. For more information, see [Configure cloud asset collection table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/configure-cloud-asset-collection-table.md).
+Cloud asset explorer includes two pages:
 
--   **[Managing the Cloud Account Management cloud asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/manage-cam-ci-details.md)**  
-Use the cloud asset form in the Cloud Account Management to view, edit, and manage cloud asset details such as attributes, health, and records.
+-   [Viewing the cloud asset overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/viewing-cloud-asset-overview.md) summarizes your assets by cloud provider and category.
+-   [Viewing cloud assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/viewing-cloud-assets.md) lists individual assets that you can filter, sort, and group, and open to see their details.
+
+For the roles and groups that control access, see [Cloud Account Management ACL groups, roles, and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/cam-acl-groups-and-roles.md).
+
+To choose which CI classes appear in the list, see [Configure the Cloud Asset Collection Configs table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/configure-cloud-asset-collection-table.md).
+
+When the SecOps integration is configured, you can also see the security findings for each asset. For more information, see [Security findings from SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/viewing-cloud-assets.md).
+
+-   **[Viewing the cloud asset overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/viewing-cloud-asset-overview.md)**  
+The Cloud asset overview page summarizes your discovered cloud assets by provider and category, so you can see how many assets you have across AWS, Azure, GCP, and OCI at a glance.
+-   **[Viewing cloud assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/viewing-cloud-assets.md)**  
+This page displays the Cloud assets view. It lists all compute assets across connected cloud providers such as AWS, Azure, GCP, and OCI. Details include location, cloud account, installation status, owner, discovered dates, ownership attestation, and cost center.
 
 **Parent Topic:**[Viewing Cloud Account Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/about-cam-dashboard.md)
 

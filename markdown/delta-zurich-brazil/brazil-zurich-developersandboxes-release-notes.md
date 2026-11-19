@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-developersandboxes-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
-reading_time_minutes: 8
+last_updated: "2026-11-19"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -220,6 +220,12 @@ The Developer Sandboxes home page is unavailable when Developer Sandboxes is ina
 Brazil
 
 </td><td>
+
+-   **[Sandboxes kept during upgrades](https://www.servicenow.com/docs/access?context=dev-sbx-clone-upgrade-info&family=brazil&ft:locale=en-US)**
+
+Starting with Brazil Patch 3, upgrades keep your sandboxes in Developer Sandboxes instead of deleting them, so you can continue working in a sandbox after an upgrade.
+
+**Note:** A retained sandbox isn't upgraded with the base instance, so it might be out of date or lose some functionality.
 
 -   **[Manual sandbox enablement](https://www.servicenow.com/docs/access?context=dsb-properties-installed&family=brazil&ft:locale=en-US)**
 

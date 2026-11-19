@@ -75,7 +75,7 @@ A schedule plan can be in one of the following states:
 
 [Space Optimization]()
 
-[Scenario Planning]()
+[Scenario planning]()
 
 [Lists module]()
 

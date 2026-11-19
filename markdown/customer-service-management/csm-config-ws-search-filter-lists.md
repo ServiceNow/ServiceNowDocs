@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm
 release: brazil
 topic_type: task
 last_updated: "2026-10-27"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
 

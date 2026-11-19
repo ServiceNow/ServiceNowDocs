@@ -1,6 +1,6 @@
 ---
 title: Walk-up Experience appointment booking
-description: With the CSM Walk-up Experience appointment booking feature, walk-up users can view available appointment windows. The users can also select and book an appointment for a walk-up location using the online Walk-up Check-in feature.
+description: Walk-up users can view available appointment windows and book an appointment for a walk-up location through online check-in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-booking.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set u
 
 # Walk-up Experience appointment booking
 
-With the CSM Walk-up Experience appointment booking feature, walk-up users can view available appointment windows. The users can also select and book an appointment for a walk-up location using the online **Walk-up Check-in** feature.
+Walk-up users can view available appointment windows and book an appointment for a walk-up location through online check-in.
 
 Create time windows for walk-up queue locations enabling requesters to book service appointments.
 
@@ -23,7 +23,7 @@ The Appointment Booking plugin \(com.snc.appointment\_booking\) must be activate
 -   **Appointment Booking Configuration**: Use this module to create an appointment booking. Configure an application and then configure each service within that application.
 -   **Appointment Bookings**: Use this module to view a list of appointments that have been booked for services. This list includes the work orders associated with each appointment.
 
-Appointment booking requires configuration at both the application level, in this case, Walk-up Experience, and at the walk-up queue service level, represented by the actual location of the walk-up queue.
+Appointment booking requires configuration at two levels: the application level \(Walk-up Experience\) and the walk-up queue service level.
 
 The Walk-up Experience application configuration contains settings that apply to all the service locations within the application that support appointment booking.
 
@@ -32,4 +32,17 @@ A service configuration is required for each of the walk-up queue locations with
 **Note:** Both the application configuration and the service configuration must be active to book appointments.
 
 For detailed information about the **Appointment Booking** application, see [Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/managing-appointments.md).
+
+**Related topics**  
+
+
+[Configure Walk-up Experience schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-schedules.md)
+
+[Enable Walk-up Experience appointment-booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-enable-appt-booking.md)
+
+[Configure appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appointment.md)
+
+[Walk-up Experience appointment booking administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-admin.md)
+
+[Appointment booking configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-booking-config.md)
 

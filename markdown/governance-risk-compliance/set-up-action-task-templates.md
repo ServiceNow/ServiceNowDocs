@@ -1,6 +1,6 @@
 ---
 title: Set up action task templates in Regulatory agency profile
-description: Set up action task templates in the Regulatory Body Management Agency Profile \[sn\_reg\_body\_mgmt\_agency\_profile.list\] table. Verify that the action task configurations \(with Smart Assessment Smart Assessment template configurations\) for the selected regulation are correctly set up.
+description: Set up the action task templates in the Regulatory Body Management Agency Profile \[sn\_reg\_body\_mgmt\_agency\_profile\] table. Verify that the action task configurations \(with Smart Assessment Smart Assessment template configurations\) for the selected regulation are correctly set up.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/set-up-action-task-templates.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Configure, Using Digital resilience incident reporting, Manage, Ope
 
 # Set up action task templates in Regulatory agency profile
 
-Set up action task templates in the Regulatory Body Management Agency Profile \[sn\_reg\_body\_mgmt\_agency\_profile.list\] table. Verify that the action task configurations \(with Smart Assessment Smart Assessment template configurations\) for the selected regulation are correctly set up.
+Set up the action task templates in the Regulatory Body Management Agency Profile \[sn\_reg\_body\_mgmt\_agency\_profile\] table. Verify that the action task configurations \(with Smart Assessment Smart Assessment template configurations\) for the selected regulation are correctly set up.
 
 ## Before you begin
 
@@ -20,7 +20,11 @@ Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_inci
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Operational Resilience Workspace** and open the "Regulatory Body Management Agency Profile" \[sn\_reg\_body\_mgmt\_agency\_profile.list\] table for the selected regulation.
+1.  Navigate to **Workspaces** &gt; **Operational Resilience Workspace**, enter `sn_reg_body_mgmt_agency_profile.list` in the **All** menu, and press **Enter**.
+
+    You can also find the Regulatory Body Management Agency Profile \[sn\_reg\_body\_mgmt\_agency\_profile\] table under **System Definition** &gt; **Tables**.
+
+    1.  Open the agency profile record for the selected regulation.
 
 2.  Configure the action tasks with Smart Assessment templates.
 

@@ -1,6 +1,6 @@
 ---
 title: Scripting Governance Tool
-description: Use the Scripting Governance Tool to provide a single, centralised control for managing scripting access across your ServiceNow AI Platform.
+description: Use the Scripting Governance Tool to provide a single, centralized control for managing scripting access across your ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/scripting-governance.html
 release: brazil
@@ -13,7 +13,7 @@ breadcrumb: [Access Management]
 
 # Scripting Governance Tool
 
-Use the Scripting Governance Tool to provide a single, centralised control for managing scripting access across your ServiceNow AI Platform.
+Use the Scripting Governance Tool to provide a single, centralized control for managing scripting access across your ServiceNow AI Platform.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

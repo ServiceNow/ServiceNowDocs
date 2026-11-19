@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, alert analysis, Service Operations Workspace]
-breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Responding to and working with alerts in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View an alert analysis by ServiceNow Otto in Service Operations Workspace
@@ -43,4 +43,6 @@ Role required: evt\_mgmt\_user, evt\_mgmt\_operator
 
 6.  Review the information provided in the alert analysis.
 
+
+**Parent Topic:**[Responding to and working with alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/responding-to-and-working-with-alerts-in-express-list.md)
 

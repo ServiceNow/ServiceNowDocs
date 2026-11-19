@@ -8,7 +8,7 @@ product: Workplace Core
 classification: workplace-core
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Workplace Core, Workplace Service Delivery, Employee Service Manage
 
 The ServiceNow® Workplace Core application manages workplace locations, reservations, visitors, and moves for your organization.
 
-\[Omitted image "covid.wsm\_overview.png"\] Alt text: Workplace Safety Management overview
+\[Omitted image "covid.wsm\_overview.png"\] Alt text: Workplace Core overview
 
 -   **Space administration**
 
@@ -76,9 +76,7 @@ The ServiceNow® Workplace Core application manages workplace locations, reserva
 
 **Note:**
 
-In Workplace Core \[sn\_wsd\_core\] starting with version 2.19.0, the navigation path for Workplace Services Portal is not available in the application context search menu **All** &gt; **Workplace Core**. You can access the Workplace Service from the Employee Center portal home page. Select **Workplace Service**, **Site safety**. For more information, see [Workplace services on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-services-on-employee-center.md).
-
-Workplace Core users using Workplace Core starting with version 2.18.1 can access Workplace services portal from **All** &gt; **Workplace Core** &gt; **Workplace service portal** &gt; **Workplace Service Portal Home**.
+In Workplace Core \[sn\_wsd\_core\] starting with version 2.19.0, the navigation path for Workplace Services Portal is not available in the application context search menu . **All** &gt; **Workplace Core**. You can access the Workplace Services from the Employee Center portal home page. Select **Workplace Service**, **Site safety**. For more information, see [Workplace services on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-services-on-employee-center.md).
 
 ## Use with other Workplace Service Delivery applications
 
@@ -86,8 +84,6 @@ Workplace Core is the core application of the ServiceNow® Workplace Service Del
 
 All Safe Workplace suite applications are available in the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
--   **[Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-services-portal-wsd.md)**  
-The Workplace Service Portal is a self-service portal for employees, delivering workplace services from a central location. Employees can make reservations, view knowledge base articles, submit and review requests, and get help using virtual agent chat support.
 -   **[Workplace services on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-services-on-employee-center.md)**  
 Access workplace-related services using the Employee Center portal, a unified portal that brings all employee-related services together in one place.
 -   **[Virtual Agent for Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/va-conversations-wsd.md)**  

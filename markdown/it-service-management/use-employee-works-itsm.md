@@ -20,6 +20,7 @@ View active outages and degradations using the Service Health Broadcast widget. 
 
 -   Must activate the Service health banner widget in the widget library so that you can view the banner for P1 outages.
 -   Can add or remove quick links from the Home section in the Configuration console.
+-   Must have configured the URL to access the Employee Slate for ITSM homepage.
 
 For more information, see [Configure EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/empworks-configure-employee-slate-moveworks.md).
 

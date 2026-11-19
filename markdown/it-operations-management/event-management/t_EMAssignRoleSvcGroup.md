@@ -46,5 +46,5 @@ Role required: evt\_mgmt\_admin
 **Related topics**  
 
 
-[Roles installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/r_InstalledWithEventManagement.md)
+[Roles installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/r_RolesInstalledWithEventMgmt.md)
 

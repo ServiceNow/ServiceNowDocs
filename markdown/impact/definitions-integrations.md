@@ -18,13 +18,13 @@ When you customize or override a definition on a development instance, use the *
 
 ## Prerequisites
 
--   My SN Instances registration is complete. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
+-   My SN Instances registration is complete. See [Register your instance in My SN Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
 -   Authentication is configured. See [Configure the Basic authentication method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-basic-auth-method.md) or [Configure the OAuth authentication method development instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-oauth-auth-method.md).
 -   Role required: `sn_se.scan_engine_admin`.
 
 ## Where to configure
 
-Manual definition sync actions appear only on instances whose environment is Development. Set the environment on each development record as described in [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
+Manual definition sync actions appear only on instances whose environment is Development. Set the environment on each development record as described in [Register your instance in My SN Instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md).
 
 Selecting **Enable definition synchronization** on a development instance only makes the manual **Sync Definition** action available. It doesn't sync definitions on its own, and the setting is read-only on production. Definitions also don't sync after you clone an instance. To update definitions after a clone, sync them again from a development instance.
 

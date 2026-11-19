@@ -1,5 +1,5 @@
 ---
-title: Security Analyst Workspace properties
+title: Legacy: Security Analyst Workspace properties
 description: These system properties are used to configure the Security Analyst Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-workspace-properties.html
@@ -9,12 +9,16 @@ classification: security-incident-response
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Legacy: Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Security Analyst Workspace properties
+# Legacy: Security Analyst Workspace properties
 
 These system properties are used to configure the Security Analyst Workspace.
+
+**Important:**
+
+The Security Incident Response UI \[sn\_app\_secops\_ui\] is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-workspace-landing-page.md) instead.
 
 There are two types of properties:
 

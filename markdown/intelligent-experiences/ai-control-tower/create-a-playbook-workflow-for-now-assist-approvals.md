@@ -1,6 +1,6 @@
 ---
-title: Create a Playbook workflow in AI Control Tower
-description: Create a Playbook workflow in AI Control Tower for Now Assist approvals to approve or reject an asset.
+title: Create a Playbook workflow in Control Tower
+description: Create a Playbook workflow in Control Tower for Now Assist approvals to approve or reject an asset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.html
 release: brazil
@@ -10,24 +10,24 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large language model]
-breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Using Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Create a Playbook workflow in AI Control Tower
+# Create a Playbook workflow in Control Tower
 
-Create a Playbook workflow in AI Control Tower for Now Assist approvals to approve or reject an asset.
+Create a Playbook workflow in Control Tower for Now Assist approvals to approve or reject an asset.
 
 ## Before you begin
 
-**Important:** The AI Control Tower Approval Playbook for the Now Assist approval isn’t created manually. They’re automatically triggered when an approval request is created while the approval mandate is enabled. To automatically trigger, activate the Automatically trigger playbooks feature under configuration.
+**Important:** The Control Tower Approval Playbook for the Now Assist approval isn’t created manually. They’re automatically triggered when an approval request is created while the approval mandate is enabled. To automatically trigger, activate the Automatically trigger playbooks feature under configuration.
 
 Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **AI Control Tower**.
+1.  Navigate to **Workspaces** &gt; **Control Tower**.
 
-2.  From the AI Control Tower, open the **AI assets** view.
+2.  From the Control Tower, open the **AI assets** view.
 
 3.  From the navigation menu of the AI assets view, navigate to Now Assist **Approvals** and open an Approval record.
 
@@ -58,5 +58,5 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 ## What to do next
 
-If you need to activate any skill from Now Assist Admin, an approval request is now required. The AI Control Tower approvals are integrated with both the builder team on the Skill Kit and Now Assist Admin. You may only use models, skills, or AI systems that have been approved. Approval is granted when the "AI steward approval required" option is enabled.
+If you need to activate any skill from Now Assist Admin, an approval request is now required. The Control Tower approvals are integrated with both the builder team on the Skill Kit and Now Assist Admin. You may only use models, skills, or AI systems that have been approved. Approval is granted when the "AI steward approval required" option is enabled.
 

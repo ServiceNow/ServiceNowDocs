@@ -18,7 +18,7 @@ Dispatchers and agents can cancel appointments for customers.
 
 ## Before you begin
 
-Role required: wm\_dispatch, sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
+Role required: wm\_dispatcher, sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 ## About this task
 

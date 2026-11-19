@@ -8,7 +8,7 @@ product: Unified Map
 classification: unified-map
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 

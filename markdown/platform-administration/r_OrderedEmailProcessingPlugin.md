@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Inbound email, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Specifying the inbound email processing order

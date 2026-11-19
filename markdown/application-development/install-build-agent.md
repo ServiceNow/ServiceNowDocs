@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/install-build-agent.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-04"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
@@ -20,7 +20,7 @@ For the Premium version of Build Agent, install the ServiceNow Otto for Creator 
 The Premium version of Build Agent is part of ServiceNow Otto for Creator, and is a ServiceNow AI Platform® feature that's activated by default when ServiceNow Otto for Creator is installed. You don't need an entitlement to start exploring Build Agent.
 
 -   Review the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   You can use Build Agent on a Personal Development Instance \(PDI\) or in Developer Sandboxes. For more information, see [Accessing Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/access-build-agent.md).
+-   You can use Build Agent on a Personal Developer Instance \(PDI\) or in Developer Sandboxes. For more information, see [Accessing Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/access-build-agent.md).
 -   Build Agent supports the following models:
     -   Azure OpenAI GPT 5.4
     -   Azure OpenAI GPT 5.5
@@ -28,7 +28,7 @@ The Premium version of Build Agent is part of ServiceNow Otto for Creator, and i
         **Note:** GPT 5.5 support is not available in the APAC region.
 
     -   Azure OpenAI GPT 5.6 Sol 
-    -   Azure OpenAI GPT 6.1å Sol 
+    -   Azure OpenAI GPT 6.1 Sol 
     -   Google Gemini 3.8 Flash
     -   Google Gemini 3.7 Flash
     -   Google Gemini 3.5 Flash
@@ -36,6 +36,7 @@ The Premium version of Build Agent is part of ServiceNow Otto for Creator, and i
     -   Claude Opus 4.6
     -   Claude Opus 4.8
     -   Claude Opus 5.0
+    -   Claude Opus 5.5
 
 Role required: admin
 

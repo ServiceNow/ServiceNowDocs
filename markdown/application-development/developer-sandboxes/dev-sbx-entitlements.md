@@ -7,8 +7,8 @@ release: brazil
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: reference
-last_updated: "2026-10-20"
-reading_time_minutes: 1
+last_updated: "2026-11-13"
+reading_time_minutes: 2
 keywords: [developer sandboxes, sandbox entitlements, sandbox license, sandbox license admin, license allocation, sandbox packs, free sandboxes, non-production instances, self-serve license assignment]
 audience: administrator
 breadcrumb: [Install and configure, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
@@ -19,6 +19,8 @@ breadcrumb: [Install and configure, Developer Sandboxes, Build, AI Workflow Fact
 Your company's entitlements determine whether you have access to Developer Sandboxes.
 
 A free pack of four sandboxes is automatically available to all organizations. The free pack can be assigned to one non-production instance and can't be split across instances. You can use the four free sandboxes on the same instance as purchased sandboxes, for a maximum of 34 sandboxes on an instance.
+
+**Note:** The free sandboxes aren't enabled automatically on every Brazil instance. To use them, upgrade your production instance to Brazil and run the license management setup from that production instance. For details on installation, including the plugin that must be installed, see [Developer Sandboxes installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-installing.md). Don't run the license management setup from a development or other non-production instance. For more information, see [License assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dsb-license-allocation-about.md).
 
 In addition to the free sandboxes, Developer Sandboxes entitlements include the following parameters:
 

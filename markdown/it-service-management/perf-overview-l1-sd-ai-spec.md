@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/it-service-management/perf-over
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 7
+reading_time_minutes: 8
 keywords: [L1 Service Desk AI Specialist, performance analytics, overview, incident resolution]
 breadcrumb: [View the performance, Use, L1 IT Service Desk AI Specialist, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Select a visualization on the dashboard to open a filtered list of the records b
 Coverage rate shows how many incidents in your eligible assignment groups the AI specialist durably resolves. Durable auto-resolve rate shows how many of the incidents that the AI specialist attempts it durably resolves.
 
 -   Durable auto-resolve rate \(%\): Incidents durably resolved by the AI specialist divided by incidents attempted by the AI specialist.
--   Coverage rate \(%\): Incidents durably resolved by the AI specialist divided by incidents assigned to eligible groups.
+-   Coverage rate \(%\): Of all closed incidents in the assignment groups the AI specialist works in, the percentage it resolved durably \(not reassigned or reopened\).
 
 Each rate tile shows the value for the selected period and the change from the previous period. Next to the tiles, the Rate trend chart plots both rates for each day in the selected date range. Hover over a point on the chart to see the date and both values.
 
@@ -70,6 +70,8 @@ Identify why incidents are being handed off to a human agent so you can address 
 -   Reasons for reassignment: Shows why incidents were reassigned to a human agent, highlighting areas for improvement.
 -   Reasons for reassignment over time: Tracks how reassignment reasons have changed over time. Use this to identify recurring issues or measure the impact of configuration changes.
 -   Routing decision criteria over time: Shows how many incidents over time were reassigned because a routing decision criterion matched, broken down by the specific criterion that matched. Use this to see which criteria drive reassignments and to check whether a change to your routing criteria affects performance. If you have many criteria, the chart shows the most frequent ones and groups the rest as Other. Past periods keep showing the criterion that matched at the time, even if you later rename or deactivate it.
+
+The Reasons for reassignment and Reasons for reassignment over time charts count closed incidents that the AI specialist handled in autopilot mode and reassigned. These are the same incidents as the Reassigned slice of the Incident outcomes chart. The dashboard Date filter applies to the incident closed date, including for the Routing decision criteria over time chart.
 
 ## Cross-group reassignment outcomes
 

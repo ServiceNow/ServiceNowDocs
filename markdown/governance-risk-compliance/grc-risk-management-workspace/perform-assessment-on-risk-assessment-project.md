@@ -8,7 +8,7 @@ product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Risk assessment project, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -68,23 +68,27 @@ Role required: sn\_grc.business\_user, sn\_risk\_workspace.IT\_risk\_manager, an
 
 10. Respond to all the factors in Inherent, Control, and Residual assessments, and define a risk response strategy for each risk within the project.
 
-    The application automatically saves your responses and calculates the overall risk score.
+    The application automatically saves your responses and calculates the overall risk score. The response options are Accept, Avoid, Mitigate and Transfer, shown as checkboxes, with a rationale box. In the Residual assessment, select **Residual assessment not applicable** if it doesn't apply. Only mandatory factors block submission. The Control assessment is pre-completed from automated factors, so you don't answer it.
 
-11. To view the complete summary of the assessment, select **View summary**.
+11. To create a risk response task for a strategy, select **Create task** next to the strategy.
 
-12. To check for any errors in the assessment before you submit the assessment, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions. icon, and select **Validate**.
+    The Create task dialog box opens. The **Name**, **Plan** and **Assigned to** fields are required. Assigned to is pre-filled with the assessor, and Priority is pre-filled with 4 - Low. The task starts in the Draft state.
 
-    You can see the list of errors, if any, that must be resolved in the side panel for the selected risk.
+12. To view the complete summary of the assessment, select **View summary**.
 
-13. Identify the errors and resolve them.
+13. To check for any errors in the assessment before you submit the assessment, select **Validate** in the header of the project.
 
-14. Select **Validate** to check if the errors have been resolved.
+    Validation runs and locks editing until it finishes. When it finishes with no errors, the header shows Validation status: Validated and the entity count, for example Entities validated 1/1. A message then reads Validation complete, Assessments were validated. Review the assessment summary before you submit. The Error panel has two tabs, Open and Resolved. Errors are grouped under section headings, such as Inherent assessment, with each error's type, message and status. After you change a response, the header shows Validation status: Needs Validation.
 
-15. To submit the risk assessment project for approval, select **Submit**, and select **Confirm Submission**.
+14. Identify the errors and resolve them.
 
-    Assessments are validated again in this stage. Review the assessment summary before you submit. You can’t make any changes after submission.For a project with multiple entities, **Submit** stays disabled until all the risks across all the scoped entities pass validation.
+15. Select **Validate** to check if the errors have been resolved.
 
-16. If an assessable entity is retired while the project is in progress, it's automatically removed from the project.
+16. To submit the risk assessment project for approval, select **Submit**, and select **Confirm Submission**.
+
+    Assessments are validated again in this stage. The Submit dialog also has a View summary option. Review the assessment summary before you submit. You can’t make any changes after submission.For a project with multiple entities, **Submit** stays disabled until all the risks across all the scoped entities pass validation.
+
+17. If an assessable entity is retired while the project is in progress, it's automatically removed from the project.
 
     A note is added to the project's activity log when an entity is removed. If no assessable entities remain in the project, the project is retired.
 

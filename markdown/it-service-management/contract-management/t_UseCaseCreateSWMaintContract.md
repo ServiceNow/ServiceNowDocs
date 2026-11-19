@@ -36,7 +36,7 @@ The goal of this example is to create a contract that shows the total amount of 
 
 5.  Click **New** and enter the following information.
 
-<table id="choicetable_iy4_czk_35"><tbody><tr><td id="d243066e155">
+<table id="choicetable_iy4_czk_35"><tbody><tr><td id="d243768e157">
 
 **Agreement Type**
 
@@ -44,7 +44,7 @@ The goal of this example is to create a contract that shows the total amount of 
 
 Select **Enterprise**.
 
-</td></tr><tr><td id="d243066e167">
+</td></tr><tr><td id="d243768e169">
 
 **Application Model**
 
@@ -59,7 +59,7 @@ Select the application model created in step 1.
 
 7.  In the **Asset Covered** related list, click **New** and enter the following information.
 
-<table id="choicetable_yqm_mzk_35"><tbody><tr><td id="d243066e204">
+<table id="choicetable_yqm_mzk_35"><tbody><tr><td id="d243768e206">
 
 **Asset**
 
@@ -67,7 +67,7 @@ Select the application model created in step 1.
 
 Select the software license created in step 3.
 
-</td></tr><tr><td id="d243066e213">
+</td></tr><tr><td id="d243768e215">
 
 **Date added**
 
@@ -80,7 +80,7 @@ Enter the value.
 
 9.  Continue completing the form with the following information.
 
-<table id="choicetable_smt_zzk_35"><tbody><tr><td id="d243066e240">
+<table id="choicetable_smt_zzk_35"><tbody><tr><td id="d243768e242">
 
 **Payment schedule**
 
@@ -88,7 +88,7 @@ Enter the value.
 
 Select **Annually**.
 
-</td></tr><tr><td id="d243066e252">
+</td></tr><tr><td id="d243768e254">
 
 **Payment amount**
 

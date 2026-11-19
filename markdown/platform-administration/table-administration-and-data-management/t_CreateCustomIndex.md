@@ -9,7 +9,7 @@ classification: table-administration-and-data-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Managing tables and indexes, Table admin, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create a table index
@@ -30,15 +30,15 @@ Creating an index on a large table can significantly affect system performance. 
 
 1.  Access the Index creator in one of the following ways.
 
-<table id="choicetable_vmm_bj2_kyb"><thead><tr><th align="left" id="d291518e69">
+<table id="choicetable_vmm_bj2_kyb"><thead><tr><th align="left" id="d291403e71">
 
 Option
 
-</th><th align="left" id="d291518e72">
+</th><th align="left" id="d291403e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d291518e78">
+</th></tr></thead><tbody><tr><td id="d291403e80">
 
 **Tables &amp; Columns module**
 
@@ -49,7 +49,7 @@ Steps
 3.  Navigate to the Index creator.
 
 
-</td></tr><tr><td id="d291518e111">
+</td></tr><tr><td id="d291403e113">
 
 **Database Indexes related list**
 

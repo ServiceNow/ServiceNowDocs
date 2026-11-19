@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-19"
 reading_time_minutes: 5
 keywords: [AI asset, asset record, asset details, asset relationship map, use and purpose, asset ownership]
-breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Working with AI asset records, Discover and manage AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Managing AI asset details
@@ -54,7 +54,7 @@ To update **Use and purpose** values, see [Update the use and purpose of an AI a
 
 An AI asset can depend on other AI assets. For example, an AI system can use AI models, prompts, and datasets; can invoke other AI systems; and can be associated with one or more business applications. Use the asset relationship map to see these connections, assess the impact of a planned change, and navigate to a related asset's record.
 
-Business application connections require the Enterprise Architecture for AICT plugin, which installs automatically with AI Control Tower Core at the required version. For upgrade-order considerations, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
+Business application connections require the Enterprise Architecture for AICT plugin, which installs automatically with Control Tower Core at the required version. For upgrade-order considerations, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
 
 \[Omitted image "disc-asset-relationship-map.png"\] Alt text: The asset relationship provides a visual depiction of everything related to the current AI asset.
 

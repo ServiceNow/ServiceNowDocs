@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/install-custom
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Customer Engagement Sequences, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -18,6 +18,7 @@ You can install the Customer Engagement Sequences application \(com.sn\_crm\_seq
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Customer Engagement Sequences](https://store.servicenow.com/store/app/9979524e1b47261061c4eb18624bcb83) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   Install the User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) before you load sequence demo data. Sequence demo data does not work without this plugin.
 
 Role required: admin
 

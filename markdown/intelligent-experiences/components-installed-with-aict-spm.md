@@ -1,18 +1,18 @@
 ---
-title: Components installed with AI Control Tower for SPM
-description: User roles are added with the installation of AI Control Tower and Strategic Planning application.
+title: Components installed with Control Tower for SPM
+description: User roles are added with the installation of Control Tower and Strategic Planning application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/components-installed-with-aict-spm.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Components installed with AI Control Tower for SPM
+# Components installed with Control Tower for SPM
 
-User roles are added with the installation of AI Control Tower and Strategic Planning application.
+User roles are added with the installation of Control Tower and Strategic Planning application.
 
 ## Roles installed
 
@@ -36,7 +36,7 @@ AI steward\[sn\_ai\_governance.ai\_steward role\]
 
 </td><td>
 
-Can access features in the Plan menu in AI Control Tower.
+Can access features in the Plan menu in Control Tower.
 
 </td><td>
 

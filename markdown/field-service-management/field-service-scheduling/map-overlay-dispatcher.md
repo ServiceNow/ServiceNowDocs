@@ -30,15 +30,15 @@ Role required: wm\_dispatcher
 
 4.  Choose from the following options.
 
-<table id="choicetable_rtg_3ss_mhc"><thead><tr><th align="left" id="d37940e104">
+<table id="choicetable_rtg_3ss_mhc"><thead><tr><th align="left" id="d37967e106">
 
 Option
 
-</th><th align="left" id="d37940e107">
+</th><th align="left" id="d37967e109">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d37940e113">
+</th></tr></thead><tbody><tr><td id="d37967e115">
 
 **Traffic**
 
@@ -46,7 +46,7 @@ Result
 
 Displays real‑time traffic conditions on the map.
 
-</td></tr><tr><td id="d37940e122">
+</td></tr><tr><td id="d37967e124">
 
 **Agent markers**
 
@@ -54,7 +54,7 @@ Displays real‑time traffic conditions on the map.
 
 Displays agent locations on the map.
 
-</td></tr><tr><td id="d37940e131">
+</td></tr><tr><td id="d37967e133">
 
 **Task markers**
 
@@ -62,7 +62,7 @@ Displays agent locations on the map.
 
 Displays task locations on the map.
 
-</td></tr><tr><td id="d37940e140">
+</td></tr><tr><td id="d37967e142">
 
 **Event markers**
 

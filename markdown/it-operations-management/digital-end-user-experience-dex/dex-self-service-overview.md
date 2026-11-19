@@ -8,7 +8,8 @@ product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
+keywords: [dex self service, dex self service overview, device health check, check device health, suggested resolutions, self help instructions, fallback actions, device actions, resolve device issues]
 breadcrumb: [Explore, Digital End-User Experience, IT Operations Management]
 ---
 
@@ -45,7 +46,7 @@ You can access Device health check from the following sources:
 
 1.  Device health check access from Employee Center, Desktop Assistant, or ServiceNow Otto for ITSM Virtual Agent.
 2.  Device selection if there are multiple devices, where employees can select a device to check its health.
-3.  Device health review by performance category \(Good, Average, or Poor\). For more information about how device health is calculated, see [Device health check calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/Device-health-check-calculation.md).
+3.  Device health review by performance category \(Good, Average, or Poor\). For more information about how device health is calculated, see [Device heath check calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/Device-health-check-calculation.md).
 4.  Device action execution for optimal device performance, even when no issues are detected.
 
     **Note:** You can access the Device actions tab from Employee Center or Desktop Assistant.

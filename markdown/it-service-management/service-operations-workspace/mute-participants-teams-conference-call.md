@@ -24,19 +24,19 @@ Role required: itil
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text: List icon\) icon.
+2.  Select the **List** \(\[Omitted image "list-icon-new.png"\] Alt text:\) icon.
 
 3.  Select **Incidents** &gt; **Open**.
 
 4.  Select an incident that has an active conference call.
 
-5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text: Collaborate icon\) from the contextual side panel.
+5.  Select the **Collaborate** icon \(\[Omitted image "collab-icon-02.png"\] Alt text:\) from the contextual side panel.
 
 6.  Select the **Calls** tab.
 
 7.  Select the active call card.
 
-8.  Mute participants to avoid background noise by selecting the Mute icon \(\[Omitted image "mute-icon-conf-call.png"\] Alt text: Mute icon.\).
+8.  Mute participants to avoid background noise by selecting the Mute icon \(\[Omitted image "mute-icon-conf-call.png"\] Alt text:\).
 
 
 **Parent Topic:**[Managing Microsoft Teams conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-conference-calls-teams.md)

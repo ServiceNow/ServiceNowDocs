@@ -7,7 +7,7 @@ release: brazil
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2026-10-05"
+last_updated: "2026-11-17"
 reading_time_minutes: 9
 keywords: [Skills, Generative AI, Gen AI]
 breadcrumb: [Generative AI skills, Enable AI Experiences]
@@ -124,6 +124,7 @@ Available skills
 -   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/resolve-incident-now-assist.md)
 -   [Sidebar discussion summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-sidebar-discussion.md)
 -   [Suggested steps generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/resolution-steps-generation-now-assist-itsm.md)
+-   Problem Summarization
 
 </td></tr><tr><td>
 
@@ -358,6 +359,17 @@ Available skills
 
 </td></tr><tr><td>
 
+[Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/manufacturing-overview.md)
+
+</td><td>
+
+-   [Quality case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-resolve-a-pnc-case-playbook.md)
+-   [Recall corrective actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/execute-recall-campaigns.md)
+-   [Recommend quality assignment and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-resolve-a-pnc-case-playbook.md)
+-   [Summarize fraudulent claim detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-summarize-fraudulent-claim-detection.md)
+
+</td></tr><tr><td>
+
 [Sales Customer Relationship Management \(Sales CRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/ai-capabilities-sales-crm.md)
 
 </td><td>
@@ -411,13 +423,18 @@ Available skills
 -   [Customer service summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-knowledge-graph.md)
 -   [Deadlock letter draft generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-deadlock-letter.md)
 -   [Generate Telecom Customer 360 insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-ai-insights.md)
--   Remote hands request summarization
 -   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-resolution.md)
 -   [Resolution notes generation for ADR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-resolution-notes-ad.md)
 -   [Service problem case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-case.md)
 -   [Test summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-test.md)
--   
 
+</td></tr><tr><td>
+
+[Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecom-network-inventory.md)
+
+</td><td>
+
+[Remote hands request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/servicenow-otto-skills.md)
 
 </td></tr><tr><td>
 
@@ -607,7 +624,7 @@ Available skills
 
 </td></tr><tr><td>
 
-
+[Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-overview.md)
 
 </td><td>
 
@@ -688,10 +705,10 @@ Creator
 -   [Playbook generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/generate-a-playbook-outline.md)
 -   [Playbook recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/generate-playbook-recommendations.md)
 -   [Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/playbook-summarization.md)
--   [Process inefficiency highlights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/generate-highlights.md)
+-   [Process inefficiency highlights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/generate-highlights.md)
 -   [Robotic Process Automation \(RPA\) bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-bot-generation.md)
 -   [Spoke generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-spk-now-spk-gen.md)
--   [Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/run-worknotes-analysis.md)
+-   [Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/run-worknotes-analysis.md)
 
 </td></tr></tbody>
 </table>## Impact

@@ -7,10 +7,10 @@ release: brazil
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Enable ServiceNow Otto for AI Search Genius Results in AI Search portals and mobile applications
@@ -31,21 +31,23 @@ To learn more about how Genius Results work, see [Genius Results](https://raw.gi
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Search** &gt; **Now Assist in AI Search Setup**.
+1.  Navigate to **All** &gt; **AI Search**
+
+2.  **ServiceNow Otto for AI Search Setup**.
 
     The Set up ServiceNow Otto for AI Search panel displays a list of search profiles associated with AI Search portals and mobile applications and a Prerequisites section for each Genius Result configuration.
 
-2.  If a Genius Result enablement option isn't selectable, follow the guidance in its Prerequisites entry to make it selectable.
+3.  If a Genius Result enablement option isn't selectable, follow the guidance in its Prerequisites entry to make it selectable.
 
     **Note:** After following the Prerequisites guidance, you may need to refresh the Set up panel to make the Genius Result enablement option selectable.
 
-3.  In each search profile row, select the options for the individual Genius Results you want to enable for the associated AI Search portal or mobile application.
+4.  In each search profile row, select the options for the individual Genius Results you want to enable for the associated AI Search portal or mobile application.
 
-    As an example, to enable Q&amp;A Genius Results in Service Portal, select the **Knowledge base articles** option in the **Service Portal Default Search Profile** row.
+    As an example, to enable Knowledge base articles Genius Results in Service Portal, select the **Knowledge base articles** option in the **Service Portal Default Search Profile** row.
 
     **Note:** You can disable a Genius Result for an AI Search portal or mobile application by clearing its option.
 
-4.  Select **Apply Changes**.
+5.  Select **Apply Changes**.
 
 
 ## Result

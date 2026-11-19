@@ -1,6 +1,6 @@
 ---
 title: Create a hyperscaler connection for asset discovery for Azure Foundry
-description: Use the AI Control Tower workspace to create a hyperscaler connection for asset discovery from Azure Foundry.
+description: Use the Control Tower workspace to create a hyperscaler connection for asset discovery from Azure Foundry.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-a-hyperscaler-connection-for-asset-discovery-for-azure.html
 release: brazil
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Connect to Azure from ServiceNow, Hyperscaler connection with Azure, Using AI Control Tower to create hyperscaler connections, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Connect to Azure from ServiceNow, Hyperscaler connection with Azure, Using Control Tower to create hyperscaler connections, Using Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create a hyperscaler connection for asset discovery for Azure Foundry
 
-Use the AI Control Tower workspace to create a hyperscaler connection for asset discovery from Azure Foundry.
+Use the Control Tower workspace to create a hyperscaler connection for asset discovery from Azure Foundry.
 
 ## Before you begin
 
@@ -24,13 +24,13 @@ Role required: admin
 Ensure the plugin AI discovery \(sn\_ai\_disc\) is installed.
 
 -   -   With Generative AI Controller application for Now Assist.
--   With AI Control Tower application.
+-   With Control Tower application.
 
 ## Procedure
 
 1.  Login to Azure portal and ensure to activate your roles.
 
-2.  Navigate to **All** &gt; **AI Control Tower** &gt; **Configuration** &gt; **AI discovery setup**.
+2.  Navigate to **All** &gt; **Control Tower** &gt; **Configuration** &gt; **AI discovery setup**.
 
 3.  Select **Set up now** to create a new connection or if there are existing connection aliases, select **New**.
 
@@ -58,7 +58,7 @@ Ensure the plugin AI discovery \(sn\_ai\_disc\) is installed.
 
 10. Enter the HTTP\(s\) connection and ensure the newly created HTTP\(s\) connection appears active under Connections section on the connection and credential alias page.
 
-    The hyperscaler connection is created, and you can view the connection on AI discovery setup. If a connection is active, it will run based on the given schedule. To manually run, select the connection alias and select **Run** to discover all the agents from Azure Foundry to AI Control Tower.
+    The hyperscaler connection is created, and you can view the connection on AI discovery setup. If a connection is active, it will run based on the given schedule. To manually run, select the connection alias and select **Run** to discover all the agents from Azure Foundry to Control Tower.
 
     To view all the assets discovered from Azure Foundry, see the AI asset inventory view on the AI assets page.
 

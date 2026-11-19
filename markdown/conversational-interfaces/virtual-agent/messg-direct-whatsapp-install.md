@@ -40,7 +40,17 @@ The following applications or plugins are installed with Conversational Integrat
 
     Provides configurations for the agent-initiated messaging capabilities. 
 
-    **Note:** This plugin is required only if agent-initiated messaging is required.
+    **Note:** Optional. This plugin is required only if agent-initiated messaging is required.
+
+-   **Glide Virtual Agent \(com.glide.cs.chatbot\)**
+
+    Enables core Virtual Agent functionality and automatically activates the dependent Virtual Agent plugins.
+
+    **Note:** This plugin requires a Virtual Agent subscription.
+
+-   **Conversational Messaging \(com.glide.messaging.awa\)**
+
+    Enables features for conversational messaging, such as messaging actions in Workspace.
 
 
 ## Procedure

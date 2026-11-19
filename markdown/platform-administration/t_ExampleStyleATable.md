@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Table functions in HTML field editor, Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Table functions in HTML field editor, Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Add a table to an HTML editor

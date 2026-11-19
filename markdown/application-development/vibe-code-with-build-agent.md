@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-code-with-build-agent.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-11-03"
+reading_time_minutes: 5
 breadcrumb: [Build Agent overview, Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
@@ -52,10 +52,15 @@ To maximize Build Agent effectiveness, use the following practices:
 
 ## Where to use Build Agent
 
-Access Build Agent through either of the following options:
+You can use Build Agent on a customer instance or on a Personal Developer Instance \(PDI\).
 
--   Customer instance: Upgrade to a minimum of Zurich and activate Build Agent \(Trial\) with a 25 calls per month limit.
--   Personal developer instance: Request a Zurich or later Personal Development Instance \(PDI\) on the [Developer site](https://developer.servicenow.com/) with a 10 calls per month limit.
+Build Agent is available as a trial app on a freemium model, and is automatically installed on all instances.
+
+After you install the Build Agent \(Trial\) app, your instance receives 100 free user interactions for 30 days at no additional charge. The free interactions enable you to explore Build Agent features at no additional cost.
+
+If you exceed the free interaction limit, you must wait 30 days for a reset, or install the paid version of Build Agent.
+
+To use Build Agent on a PDI, request a PDI beginning with the Zurich release on the [Developer site](https://developer.servicenow.com/). The PDI limit is 25 prompts per user in a rolling 30-day period.
 
 ## Tools for using Build Agent
 
@@ -63,7 +68,7 @@ You can access Build Agent within both ServiceNow Studio and ServiceNow IDE. Bot
 
 ## Limitations of Build Agent
 
-Use Build Agent for creating standalone apps that have limited interaction with flows, deployment, etc. on the ServiceNow AI Platform. For details, see [Limitations of agentic app generation with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-build-agent-limitations.md).
+You complete app files and metadata types that Build Agent doesn't yet support by using builders in ServiceNow Studio. For the metadata that Build Agent supports, see [Supported metadata in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-supported-metadata.md). For more information on limitations, see [Limitations of agentic app generation with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-build-agent-limitations.md).
 
 ## Helpful resources
 

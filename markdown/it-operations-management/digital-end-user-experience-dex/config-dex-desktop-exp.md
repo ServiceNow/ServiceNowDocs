@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [set up desktop assistant, configure desktop assistant, desktop assistant configuration, desktop assistant administrator, employee center, virtual agent]
 breadcrumb: [Configure, Digital End-User Experience, IT Operations Management]
 ---
 

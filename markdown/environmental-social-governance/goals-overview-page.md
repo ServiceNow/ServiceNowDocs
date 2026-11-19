@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Overview pages in the Operational Sustainability Workspace \(formerly ESG Workspace\), Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Overview pages in the Operational Sustainability Workspace \(formerly ESG Workspace\), Operational Sustainability Management]
 ---
 
 # Goals overview in the Operational Sustainability Workspace \(formerly ESG Workspace\)

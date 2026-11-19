@@ -28,19 +28,19 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
 3.  Select **Incident record** and then select **Configure** to configure any of the following tabs.
 
-    -   Overview: Configure any of the following options for the **Overview** tab.
-        -   Tab visibility for tier 1 agents: Configure the visibility settings to display the **Overview** tab for the tier-1 agents. You can also configure the user criteria to include or exclude users with other roles and user groups.
+    -   **Overview**: Configure any of the following options for the **Overview** tab.
+        -   Tab visibility for tier-1 agents: Configure the visibility settings to display the **Overview** tab for the tier-1 agents. You can also configure the user criteria to include or exclude users with other roles and user groups.
 
             **Note:**
 
             -   By default, the **Overview** tab is displayed for the tier-1 agents.
             -   When you choose to hide the **Overview** tab for the tier-1 agents, the **Details** tab opens by default.
             -   This option is available only if the **glide.ux.user\_criteria\_enabled** property is **true**. For more information, see [Enable the user criteria property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/enable-user-criteria-property.md).
-        -   Summary: Configure the fields layout, UI elements and the visible data content on the Summary section of the **Overview** tab.
-        -   Impact: Configure the fields layout, UI elements and the visible data content on the Impact section of the **Overview** tab.
-        -   Cause: Configure the fields layout, UI elements and the visible data content on the Cause section of the **Overview** tab.
-        -   Resolution: Configure the fields layout, UI elements and the visible data content on the Resolution section of the **Overview** tab.
-    -   Details: Configure any of the following options for the **Details** tab.
+        -   Summary: Configure the fields layout, UI elements, and the visible data content on the Summary section of the **Overview** tab.
+        -   Impact: Configure the fields layout, UI elements, and the visible data content on the Impact section of the **Overview** tab.
+        -   Cause: Configure the fields layout, UI elements, and the visible data content on the Cause section of the **Overview** tab.
+        -   Resolution: Configure the fields layout, UI elements, and the visible data content on the Resolution section of the **Overview** tab.
+    -   **Details**: Configure any of the following options for the **Details** tab.
         -   Record: Provides further details on the incident record. Configure the fields layout, UI elements, and the visible data content of the **Details** tab using form builder.
         -   New record: This layout appears when an agent creates an incident record. Configure the fields layout, UI elements, and the visible data content of the **Details** tab using form builder.
     -   Response templates: Create and configure response templates for incidents. Response templates are used as reusable messages that you can copy and paste in the required areas such as email or chat for a quick response. To use the response template feature, the users must have the sn\_templated\_snip.template\_snippet\_reader role. The number of the response templates created for the incident table is displayed in this section. For more information on defining and configuring the response templates for incident tables in Service Operations Workspace, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/response-templates-templated-snippets.md).

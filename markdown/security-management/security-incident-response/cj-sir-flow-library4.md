@@ -42,7 +42,7 @@ For more information, see the [ServiceNow store](https://store.servicenow.com/).
 
 ## Security analyst experience
 
-To understand how to resolve security threats in a step-by-step manner, see [Resolve security threats with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/use-the-playbook.md).
+To understand how to resolve security threats in a step-by-step manner, see [Legacy: Resolve security threats with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/use-the-playbook.md).
 
 ## Deeper understanding of the Child Security Incident Automation playbook with Flow Designer capabilities
 

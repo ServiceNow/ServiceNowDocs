@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-26"
 reading_time_minutes: 2
 keywords: [characteristic mapping, test group, test definition]
-breadcrumb: [Setting up a test group, Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Set up test group, Set up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Map a test group characteristic to a test definition

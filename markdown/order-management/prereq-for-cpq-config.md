@@ -32,7 +32,7 @@ Set the application scope to Quote Experience \(sn\_quote\_mgmt\_adv\)
     -   Order Management \(sn\_ind\_tmt\_orm\)
     -   Product Catalog Management Core \(sn\_prd\_pm\)
     -   Price Management \(sn\_csm\_pricing\)
-    -   Quote Experience
+    -   Quote Experience \(sn\_quote\_mgmt\_adv\)
     -   Product Configurator \(sn\_prd\_config\_ui\)
     -   Customer Life Cycle Management Workflows \(sn\_l2c\_cust\_flows\)
     -   Product and pricing rules \(sn\_csm\_price\_mtrx\)

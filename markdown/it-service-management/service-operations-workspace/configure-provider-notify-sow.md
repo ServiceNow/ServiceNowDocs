@@ -38,13 +38,13 @@ Role required: notify\_admin
     |Order|Order in which the provider appears when multiple providers are configured.|
     |Source table|The table to which this provider must be added.|
     |Condition|Conditions on the source table based on which provider selectors are applied.|
-    |Active|Indicates whether the provider is active.|
-    |Catch-all|Selects this provider if no other Provider Selector matches.|
-    |Manual selection|Disables the automatic selection of this provider, for example, if in a communication plan you want to use this provider only as a forced communication channel.|
+    |Active|Status of the provider, active or inactive.|
+    |Catch-all|Option that selects this provider if no other provider selector matches.|
+    |Manual selection|Option that disables the automatic selection of this provider, for example, to use this provider only as a forced communication channel in a communication plan.|
 
 6.  Select **Submit.**
 
-7.  In the **Provider Selector Choices** section, select **New.**
+7.  In the **Provider Selector Choices** section, select **New**.
 
 8.  Search for the conference provider or the Notify group that contains the phone numbers for initiating a conference.
 

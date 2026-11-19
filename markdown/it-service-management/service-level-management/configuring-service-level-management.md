@@ -19,7 +19,7 @@ You can configure various aspects of Service Level Management based on the speci
 -   **[Service Level Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/sla-plugins.md)**  
 You can activate one or more of the Service Level Management plugins if they are not already active. Some plugins include demo data.
 -   **[Configure Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_ConfigureSLAs.md)**  
-Configure SLAs to define a set amount of time for a task to reach a certain condition, to ensure that incidents are closed or resolved according to the expectations set for customers.
+Configure SLAs to define a time limit for a task to reach a required condition. This helps ensure incidents are closed or resolved within the timeframe expected by customers.
 -   **[Configure SLA retroactive start and pause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/t_UseSLARetroactiveStartAndPause.md)**  
 You can use retroactive start to retain timing information for an SLA when a task record changes. Retroactive pause prevents immediate breaches and notifications when retroactive start is enabled for SLA definitions.
 -   **[Configure the SLA timer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/sla-timer-configurations.md)**  

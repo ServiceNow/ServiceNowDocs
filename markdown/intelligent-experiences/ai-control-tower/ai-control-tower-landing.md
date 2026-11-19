@@ -1,6 +1,6 @@
 ---
-title: AI Control Tower \(legacy\)
-description: The AI Control Tower is a platform that connects different parts of an organization to speed up the AI adoption.
+title: Control Tower \(legacy\)
+description: The Control Tower is a platform that connects different parts of an organization to speed up the AI adoption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/ai-control-tower-landing.html
 release: brazil
@@ -13,23 +13,23 @@ keywords: [Now Assist, Gen AI, Generative AI, AI Governance, Now LLM, large lang
 breadcrumb: [Establishing AI governance, Enable AI Experiences]
 ---
 
-# AI Control Tower \(legacy\)
+# Control Tower \(legacy\)
 
-The AI Control Tower is a platform that connects different parts of an organization to speed up the AI adoption.
+The Control Tower is a platform that connects different parts of an organization to speed up the AI adoption.
 
 ## Get started
 
 <table id="table_edz_k2y_pcc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how you use AI Control Tower to manage and track all the AI systems, and other AI assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/exploring-ai-control-tower.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how you use Control Tower to manage and track all the AI systems, and other AI assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/exploring-ai-control-tower.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Configure all AI Control Tower workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/configuring-ai-control-tower-workflows.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Configure all Control Tower workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/configuring-ai-control-tower-workflows.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to use AI Control Tower.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
+[Use\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to use Control Tower.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
 
 </td><td>
 

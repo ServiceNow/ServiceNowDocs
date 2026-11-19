@@ -1,6 +1,6 @@
 ---
 title: Components installed with DEX Self-service
-description: Several components are installed with DEX Self-service.
+description: Several components are installed with DEX Self-service, including device health categories, issue configurations, and device actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/digital-end-user-experience-dex/components-installed-with-dex-self-service.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [DEX Self-service reference, Reference, Digital End-User Experience,
 
 # Components installed with DEX Self-service
 
-Several components are installed with DEX Self-service.
+Several components are installed with DEX Self-service, including device health categories, issue configurations, and device actions.
 
 ## Device health categories and subcategories
 
@@ -78,7 +78,7 @@ DEX Self-service provides the following base system issue configurations mapped 
 -   Zoom application crash on macOS device
 -   Zoom application crash on Windows device
 
-For more information, see [Issue configurations in DEX Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/issue-config-in-dex-ss.md).
+For details on each issue configuration, see [Issue configurations in DEX Self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/issue-config-in-dex-ss.md).
 
 ## Device actions
 
@@ -96,7 +96,7 @@ macOS
 
 </td><td>
 
-**Reinstall application**This device action is available for the following applications:
+Reinstall applicationThis device action is available for the following applications:
 
 -   Microsoft Teams
 -   Microsoft Outlook
@@ -108,7 +108,7 @@ Windows
 
 </td><td>
 
-**Clear disk space**
+Clear disk space
 
 </td></tr></tbody>
 </table>

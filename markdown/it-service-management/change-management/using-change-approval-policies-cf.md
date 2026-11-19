@@ -25,7 +25,7 @@ The Change Approval Policy workflow activity controls the approval process for a
 -   **[Use the Change Approval Policy workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/use-change-policy-wf-activity.md)**  
 Apply your Change Policy in your Change Request workflow to manage the approvals.
 -   **[Use the Apply Change Approval Policy flow action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/use-apply-change-approval-policy-flow-activity.md)**  
-Apply your change approval policy in the Change Management Workflow Studio action to control the approval process for a change request. You can create user and group approvals according to a change approval policy record.
+Apply your change approval policy in the Change Management Workflow Studio action to control the approval process for a change request. Create user and group approvals according to a change approval policy record.
 -   **[Create a change approval policy using Decision Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-approval-policy-decision-builder.md)**  
 Create a change approval policy in Decision Builder to define the approvals that are generated for your change requests.
 

@@ -20,7 +20,7 @@ Start or import a Microsoft Teams chat from a task record in Service Operations 
 
 Role required: itil or admin
 
-Before you begin, make sure that the Microsoft Teams application is configured for your ServiceNow instance. For more information on configuration, see[Configure Notify connector for Microsoft Teams from Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/notify-teams-guided-setup.md) and the Microsoft Teams integration setup documentation.
+Before you begin, make sure that the Microsoft Teams application is configured for your ServiceNow instance. For more information about configuration, see [Configure Notify connector for Microsoft Teams from Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/notify-teams-guided-setup.md) and the Microsoft Teams integration setup documentation.
 
 ## About this task
 
@@ -30,9 +30,9 @@ When you view or import a Microsoft Teams chat conversation for a task record, t
 
 1.  Open a task record, for example, incident.
 
-2.  From the Sidebar, select the collaborate icon \(\[Omitted image "collab-icon-02.png"\] Alt text: Collaborate\).
+2.  From the Sidebar, select the collaborate icon \(\[Omitted image "collab-icon-02.png"\] Alt text:\).
 
-3.  To view a chat conversation, select the more options icon \(\[Omitted image "more-options-card.png"\] Alt text: more options icon\) on the chat and select **View chat**.
+3.  To view a chat conversation, select the more options icon \(\[Omitted image "more-options-card.png"\] Alt text:\) on the chat and select **View chat**.
 
 4.  To start a chat conversation, perform the following actions.
 
@@ -42,25 +42,25 @@ When you view or import a Microsoft Teams chat conversation for a task record, t
 
     3.  To specify more chat options, select **Show more chat options** and specify a client.
 
-        You can choose Microsoft Teams application or the Microsoft Teams web application.
+        You can choose the Microsoft Teams application or the Microsoft Teams web application.
 
     4.  Select **Start Chat**.
 
         -   A chat conversation is initiated in Microsoft Teams.
         -   All automatic chats are automatically imported to the **Collaborate** panel.
-5.  To view a chat conversation, select the more options icon \(\[Omitted image "more-options-card.png"\] Alt text: more options icon\) on the chat and select **View chat**.
+5.  To view a chat conversation, select the more options icon \(\[Omitted image "more-options-card.png"\] Alt text:\) on the chat and select **View chat**.
 
 6.  To import a chat conversation, perform one of the following actions.
 
-<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d123657e237">
+<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d123881e238">
 
 Option
 
-</th><th align="left" id="d123657e240">
+</th><th align="left" id="d123881e241">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d123657e246">
+</th></tr></thead><tbody><tr><td id="d123881e247">
 
 **Import a chat from any conversation**
 
@@ -71,14 +71,14 @@ Description
 3.  Select the chat and select **Import**.
 
 
-</td></tr><tr><td id="d123657e276">
+</td></tr><tr><td id="d123881e277">
 
 **Import a chat from a conversation in which you are a member**
 
 </td><td>
 
-1.  From the conversation that you're a member of, select the more options icon \(\[Omitted image "more-options-card.png"\] Alt text: more options icon\) and select **View chat**.
-2.  Select the filter chat messages icon \(\[Omitted image "filter-icon.png"\] Alt text: filter chat messages icon\) and select the type of messages you want to view.
+1.  From the conversation that you're a member of, select the more options icon \(\[Omitted image "more-options-card.png"\] Alt text:\) and select **View chat**.
+2.  Select the filter chat messages icon \(\[Omitted image "filter-icon.png"\] Alt text:\) and select the type of messages you want to view.
 3.  Select the required messages and select **Import**.
 
 

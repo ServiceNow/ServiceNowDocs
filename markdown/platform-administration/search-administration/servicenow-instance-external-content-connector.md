@@ -7,10 +7,10 @@ release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-10-21"
+last_updated: "2026-11-16"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # ServiceNow instance external content connector
@@ -19,20 +19,20 @@ The ServiceNow instance external content connector retrieves KB article, Service
 
 The ServiceNow AI Platform instance that you want the external content connector to retrieve searchable content and metadata from is your source instance. The instance where the connector runs and populates search applications with the retrieved data is your destination instance.
 
-Search administrators can run or schedule content crawls to retrieve updated content from your source instance, or user permission crawls to retrieve updated security principals from your source instance. Both types of crawl feed their data to AI Search for indexing on your destination instance.
+Search administrators can run or schedule content crawls to retrieve updated content from your source instance, or user permissions crawls to retrieve updated security principals from your source instance. Both types of crawl feed their data to AI Search for indexing on your destination instance.
 
 In your destination instance, the indexed content and metadata are stored as records in a connector-specific indexed source. Search administrators can create search sources from this indexed source and link them to search profiles to make the indexed records searchable in AI Search applications.
 
 **Important:** Your source and destination instances must be distinct from one another. Don't use the ServiceNow® instance external content connector to feed an instance's content back into itself.
 
-## User permissions
+## User mappings
 
 To view search results from the source instance, a user on the destination instance must satisfy the following conditions:
 
 -   There must be a matching user account defined for them on the source instance, with the same email address.
 -   Their user account on the source instance must have access to the content represented by the search results.
 
-If these conditions aren't satisfied, the destination instance user won't be able to see search results crawled from the source instance.
+If these conditions aren't satisfied, the destination instance user can't see search results crawled from the source instance.
 
 -   **[Configure your ServiceNow AI Platform source instance for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-sn-aip-instance-external-content-indexing.md)**  
 Create and configure a non-interactive service user account on your ServiceNow AI Platform® source instance to allow access by the ServiceNow instance external content connector.
@@ -48,5 +48,5 @@ Specify the content types that you want your ServiceNow instance external conten
 
 [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
 
-[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
+[Create a user permissions crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
 

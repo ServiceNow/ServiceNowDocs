@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure the HTML toolbar
@@ -22,7 +22,7 @@ Role required: admin
 
 1.  Update the toolbar options for your preferred HTML field editor.
 
-<table id="choicetable_twl_kgd_rxb"><tbody><tr><td id="d153348e57">
+<table id="choicetable_twl_kgd_rxb"><tbody><tr><td id="d153242e59">
 
 **htmlArea toolbar**
 
@@ -33,7 +33,7 @@ Role required: admin
 3.  Select the **glide.ui.html.toolbar** property.
 
 
-</td></tr><tr><td id="d153348e90">
+</td></tr><tr><td id="d153242e92">
 
 **TinyMCE**
 

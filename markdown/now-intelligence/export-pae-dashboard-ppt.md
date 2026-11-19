@@ -114,7 +114,7 @@ The dashboard with selected tabs and filters is exported to a PDF or PowerPoint 
 **Related topics**  
 
 
-[Create a dashboard with the in-line editor]()
+[Create a Platform Analytics dashboard with the inline editor]()
 
 [Create Core UI dashboards on upgraded instances]()
 

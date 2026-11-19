@@ -1,6 +1,6 @@
 ---
-title: Frequently Asked Questions
-description: Frequently asked questions about using Access Simulator.
+title: Frequently asked questions
+description: Find answers to frequently asked questions about using Access Simulator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/faq-access-simulator.html
 release: brazil
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Access simulator, Access Analyzer, Access Management]
 ---
 
-# Frequently Asked Questions
+# Frequently asked questions
 
-Frequently asked questions about using Access Simulator.
+Find answers to frequently asked questions about using Access Simulator.
 
 |Questions|Explanation|
 |---------|-----------|

@@ -9,7 +9,7 @@ classification: list-administration
 topic_type: topic
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # ServiceNow AI Platform list administration

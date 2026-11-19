@@ -1,5 +1,5 @@
 ---
-title: Create credential store for Password Reset in Service Operations Workspace
+title: Create a credential store for password reset in Service Operations Workspace
 description: Create a password reset credential store record to configure access to your credential store server while a user is changing or resetting a password.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-cred-store-pr-sow.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Setting up Service Desk assisted Password Reset in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Create credential store for Password Reset in Service Operations Workspace
+# Create a credential store for password reset in Service Operations Workspace
 
 Create a password reset credential store record to configure access to your credential store server while a user is changing or resetting a password.
 
@@ -84,7 +84,7 @@ Child Alias
 
 </td><td>
 
-Child aliases are associated with the base alias. After creating a connection and credential alias, you can create a child alias to configure multiple connections for a password reset credential store.When a password reset request is made, the flow checks whether there are child alias connections at the process level. If the child alias is configured at the credential store level, the flow picks the aliases connections and proceeds with the request.
+Child aliases are associated with the base alias. After creating a connection and credential alias, you can create a child alias to configure multiple connections for a password reset credential store.When a password reset request is made, the flow checks whether there are child alias connections at the process level. If the child alias is configured at the credential store level, the flow picks the alias connections and proceeds with the request.
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Enable password strength
 
 Select the check box to:
 
- -   Option to display the text box for the strength rule script so that you can update the script.
+ -   Display the text box for the strength rule script so that you can update the script.
 -   Display the graphical password strength bar to the user while the user changes or resets the password.
 
 

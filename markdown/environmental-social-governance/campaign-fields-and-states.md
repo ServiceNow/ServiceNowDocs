@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-08-04"
 reading_time_minutes: 1
 keywords: [campaign fields, campaign states, campaign cycle fields, campaign cycle states]
-breadcrumb: [GRC: Metrics reference, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [GRC: Metrics reference, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Campaign fields and states

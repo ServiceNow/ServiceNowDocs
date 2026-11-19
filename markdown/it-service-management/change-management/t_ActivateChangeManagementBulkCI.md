@@ -1,6 +1,6 @@
 ---
 title: Activate Change Management - Mass Update CI
-description: You can activate the Change Management - Mass Update CI plugin \(com.snc.change\_management.mass\_update\_ci\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+description: Activate the Change Management - Mass Update CI plugin \(com.snc.change\_management.mass\_update\_ci\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ActivateChangeManagementBulkCI.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Change Management plugins, Configure, Change Management, IT Service
 
 # Activate Change Management - Mass Update CI
 
-You can activate the Change Management - Mass Update CI plugin \(com.snc.change\_management.mass\_update\_ci\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Change Management - Mass Update CI plugin \(com.snc.change\_management.mass\_update\_ci\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 
 ## Before you begin
 
@@ -70,7 +70,7 @@ Several types of components are installed with the Change Management - Mass upda
 **Related topics**  
 
 
-[Request ITSM Roles - Change Management]()
+[Request ITSM Roles for Change Management]()
 
 [Activate Business Stakeholder]()
 

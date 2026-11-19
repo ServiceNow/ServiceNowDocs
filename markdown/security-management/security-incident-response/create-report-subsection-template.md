@@ -38,15 +38,15 @@ Role required: sn\_msi.workspace\_manager
 
 6.  On the Report subsection form, fill in the fields.
 
-<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d171019e128">
+<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d170988e132">
 
 Field
 
-</th><th align="left" id="d171019e131">
+</th><th align="left" id="d170988e135">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d171019e137">
+</th></tr></thead><tbody><tr><td id="d170988e141">
 
 **Name**
 
@@ -59,7 +59,7 @@ Name of the Report template subsection. For example, Scope.**Note:** The existin
 -   **Progress**: Displays the visualization elements within the report such as the Linked Security Incidents Graphs, Response Tasks Graph, and Collaboration Graphs.
 
 
-</td></tr><tr><td id="d171019e166">
+</td></tr><tr><td id="d170988e170">
 
 **Type**
 
@@ -70,7 +70,7 @@ The report subsection type. The available types are:-   **Primary**: This subsec
 -   **Text side panel**: This subsection accompanies the secondary panel and only supports the text.
 
 
-</td></tr><tr><td id="d171019e193">
+</td></tr><tr><td id="d170988e197">
 
 **Table**
 
@@ -78,7 +78,7 @@ The report subsection type. The available types are:-   **Primary**: This subsec
 
 Name of the report template table.
 
-</td></tr><tr><td id="d171019e202">
+</td></tr><tr><td id="d170988e206">
 
 **MSI report section template**
 
@@ -86,7 +86,7 @@ Name of the report template table.
 
 The MSI Report Template name for which you’re dividing the report into sections.
 
-</td></tr><tr><td id="d171019e212">
+</td></tr><tr><td id="d170988e216">
 
 **Order**
 
@@ -94,7 +94,7 @@ The MSI Report Template name for which you’re dividing the report into section
 
 The order in which the report subsections will be rendered.
 
-</td></tr><tr><td id="d171019e221">
+</td></tr><tr><td id="d170988e225">
 
 **Icon**
 
@@ -102,7 +102,7 @@ The order in which the report subsections will be rendered.
 
 Use the icon to indicate or highlight the section container on the report runtime configuration form.
 
-</td></tr><tr><td id="d171019e230">
+</td></tr><tr><td id="d170988e234">
 
 **Active**
 
@@ -110,7 +110,7 @@ Use the icon to indicate or highlight the section container on the report runtim
 
 Select the check box to create a report subsection for the selected template in the MSIM workspace.**Note:** If the check box is unselected, the MSI Manager can’t create a report subsection for this template in the MSIM workspace.
 
-</td></tr><tr><td id="d171019e242">
+</td></tr><tr><td id="d170988e246">
 
 **Editor - Content**
 

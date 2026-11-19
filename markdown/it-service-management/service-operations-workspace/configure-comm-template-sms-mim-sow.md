@@ -1,6 +1,6 @@
 ---
-title: Configure a communications template for SMS in Major Incident Management
-description: Configure a communication template for SMS in Major Incident Management to help reduce the efforts and time spent in creating and composing communication SMS.
+title: Configure a communication template for SMS in Major Incident Management
+description: Configure a communication template for SMS in Major Incident Management to help reduce the effort and time spent creating and composing communication SMS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-comm-template-sms-mim-sow.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Setting up communication templates and plans in Major Incident Management, Configuring Major Incident Management in Service Operations Workspace, Setting up Major Incident Management in Service Operations Workspace, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Configure a communications template for SMS in Major Incident Management
+# Configure a communication template for SMS in Major Incident Management
 
-Configure a communication template for SMS in Major Incident Management to help reduce the efforts and time spent in creating and composing communication SMS.
+Configure a communication template for SMS in Major Incident Management to help reduce the effort and time spent creating and composing communication SMS.
 
 ## Before you begin
 

@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Process flow of MCP servers via AI Gateway, AI Gateway, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Process flow of MCP servers via AI Gateway, AI Gateway, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Gateway setup and Client Registration

@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # AI Search for Next Experience

@@ -36,18 +36,11 @@ View available primary and community connectors on the **Available connectors** 
 
 ## Types of connectors
 
-A connection admin with the df\_connection\_admin role can create connections to available data sources using primary and community connectors.
+A connection admin with the df\_connection\_admin role can create connections to available data sources using primary, community, and REST connectors.
 
--   **Primary connectors**
-
-    Primary connectors are developed, made available, and supported by ServiceNow. Primary connectors have been enhanced to improve the performance of Glide queries and list view operations. These improvements allow the majority of queries to be executed at the data source.
-
--   **Community connectors**
-
-    Community connectors are developed by the open-source community and made available by ServiceNow. These connectors are certified for essential functionality but are not part of the ServiceNow support scope.
-
-
-For details on creating connections using primary connectors, see [Primary connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/primary-connectors-zcc.md).
-
-For details on creating connections using community connectors, see [Community connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/community-connectors-zcc.md).
+|Connector type|Description|
+|--------------|-----------|
+|[Primary connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/primary-connectors-zcc.md)|Developed, made available, and supported by ServiceNow. Primary connectors have been enhanced to improve the performance of Glide queries and list view operations, allowing the majority of queries to execute at the data source.|
+|[Community connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/community-connectors-zcc.md)|Developed by the open-source community and made available by ServiceNow. These connectors are certified for essential functionality but are not part of the ServiceNow support scope.|
+|[REST connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rest-connectors.md)|Use APIs instead of JDBC to retrieve data and metadata from an external source. REST connectors require the Data Fabric REST Connectors app, included with the Workflow Data Fabric WDF Foundation subscription.|
 

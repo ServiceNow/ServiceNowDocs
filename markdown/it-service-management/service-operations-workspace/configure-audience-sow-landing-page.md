@@ -1,6 +1,6 @@
 ---
 title: Configure the audience for the SOW landing page
-description: Define who can access your SOW landing pages. You can targeted experiences for audiences such as agents and managers.
+description: Define who can access your SOW landing pages. You can target experiences for audiences such as agents and managers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/configure-audience-sow-landing-page.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Access controls in Service Operations Workspace for ITSM, Getting s
 
 # Configure the audience for the SOW landing page
 
-Define who can access your SOW landing pages. You can targeted experiences for audiences such as agents and managers.
+Define who can access your SOW landing pages. You can target experiences for audiences such as agents and managers.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ You can configure the audiences that define who can access the SOW landing pages
 
 By default, the SOW landing page is associated with the following audiences. To access SOW, a user must align with the following criteria.
 
--   The user has the admin role
+-   The user has the admin role.
 -   The user has the sn\_incident\_write role and belongs to the Service Desk user group.
 -   The user has the itil role and belongs to Service Desk user group.
 

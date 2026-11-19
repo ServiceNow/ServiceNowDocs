@@ -7,8 +7,8 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-11-06"
-reading_time_minutes: 4
+last_updated: "2026-11-19"
+reading_time_minutes: 5
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -31,6 +31,8 @@ To access the Discovery Admin Workspace Diagnostics page, navigate to **Workspac
 The Errors tab displays all Discovery errors grouped by refined code. Each error in the list shows the refined code, occurrence count, category, and domain. Use this tab to identify high-impact errors and trigger resolution actions.
 
 Use the **Filter by** options to prioritize the error list by Severity and Category. Selecting the **Domain** drop-down enables you to filter errors based on a specific domain.
+
+Starting with v1.23.0, the **Domain** drop-down lists only the domain selected in the platform domain picker, its child domains, and the global domain. For more information, see [Domain separation and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryDomainSeparation.md).
 
 You can filter the list of errors using the **Search** \(\[Omitted image "daw-search-icon.png"\]\) icon. Use the **Sort by** drop-down menu to organize the results by Refined Code, Category, Severity, and Occurrences in either ascending or descending order.
 
@@ -60,6 +62,8 @@ For more information about how the Error Framework works, see [Error Framework i
 The Anomaly detection tab displays all of the Discovery schedules with anomalies detected in a certain time period. You can configure this time scale on the [Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-admin-workspace-setup.md) page.
 
 **Important:** This tab only displays anomalies when anomaly detection is enabled. Starting with v1.11.0, anomaly detection requires a minimum of five CIs to trigger. For more information, see the [Skip Anomaly Detection for small schedules](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2601541) article in the Now Support Knowledge Base.
+
+Starting with v1.23.0, the Anomaly detection tab displays anomalies for IP-based schedules only in the domain selected in the platform domain picker and the global domain. Anomalies for cloud and certificate schedules aren't filtered by domain.
 
 Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\), then select **Refresh** to refresh the data for each visualization in this section.
 
@@ -141,6 +145,8 @@ Number of Discovery schedules that had a long run time.**Note:** The threshold f
 </table>Selecting any of the indicators filters the table to reflect the schedules represented in the data count. For each entry in the table, you can view details around the type and severity of anomalies.
 
 The **Actions** drop-down menu provides a direct shortcut to the Settings page for configuring anomaly detection. Additionally, the menu includes a **Clear all anomalies** option so that administrators can quickly remove records in the Discovery Schedule Anomaly \[discovery\_schedule\_anomaly\] and Discovery Schedule Anomaly Metrics \[discovery\_schedule\_anomaly\_metrics\] tables.
+
+**Note:** The **Actions** drop-down menu isn't available to users who have the discovery\_operator role. These users can't clear anomalies or open the Settings page from this tab.
 
 Use the **Filter by** options to prioritize and address anomalies. Filter Discovery schedules by name using the **Schedules** drop-down menu. Additionally, you can prioritize the results with the **Severity** drop-down menu, which includes options such as Critical, Major, and Minor. Use the **Anomaly type** drop-down menu to quickly view schedules with the same anomaly. Available options include Failed schedule, Low CI discovery rate, Increased error count, and Long run time.
 

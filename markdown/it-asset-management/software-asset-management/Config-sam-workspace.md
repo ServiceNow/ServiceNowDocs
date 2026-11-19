@@ -81,7 +81,7 @@ When migrating from the Software Asset Management plugin \(ITSM Software Asset M
 -   **[Configure SCCM for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/configure-sccm-sam.md)**  
 Set up Microsoft SCCM for Software Asset Management to populate the Software Installation \[cmdb\_sam\_sw\_install\] table with client software found in your environment. You can also set up SCCM for Client Software Distribution to reclaim unused and underused software.
 -   **[License exclusions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/software-asset-management-license-exclusions.md)**  
-Exclude software on specific configuration items or subscriptions from license calculations, so only the items you choose count toward compliance.
+Exclude software installed on specific configuration items \(CIs\) or subscriptions from license calculations in Software Asset Management, so only the items you choose count toward compliance.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

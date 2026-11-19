@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-product-config-related-contracts.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-17"
 reading_time_minutes: 2
 breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_cata
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** view.
+1.  In the CRM Workspace, select the **List** icon.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select the product offering that you’re working with.
 
@@ -32,7 +32,7 @@ Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_cata
 
     |Field|Description|
     |-----|-----------|
-    |Contracts|Contract to add to the product offering. Select the contract from the list of contracts.|
+    |Contract|Contract to add to the product offering. Select the contract from the list of contracts.|
     |Product offering|System-generated entry reflecting the product offering you’re working with.|
 
 6.  Select **Save**.

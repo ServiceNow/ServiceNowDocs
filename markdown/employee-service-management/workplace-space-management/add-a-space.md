@@ -180,7 +180,7 @@ Space type
 
 </td><td>
 
-Type of the office space. To configure a new space type, see [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
+Type of the office space. To configure a new space type, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
 
 </td></tr><tr><td>
 
@@ -322,9 +322,6 @@ The space is added to the area. The size of the area and the floor are calculate
 
 Add an allocation, that is, associate the space to a cost center, department and workplace entity. For more information on how to add an allocation, see [Allocate a cost center, department, or workplace entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/add-cost-center-department-floor.md). In the procedure, select the Spaces module instead of the Floors module.
 
--   **[Configure a space type as usable with Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/assign-a-space-as-usable.md)**  
-Specify if a space type is usable or not by using the Space type configuration functionality. Specify if the space can or cannot be used for reservations.
-
 **Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
 
 **Related topics**  
@@ -339,6 +336,8 @@ Specify if a space type is usable or not by using the Space type configuration f
 [Add an area using Workplace Space Management]()
 
 [Add a room using Workplace Space Management]()
+
+[Configure a space type as usable with Workplace Space Management]()
 
 [Allocate a cost center, department, or workplace entity]()
 

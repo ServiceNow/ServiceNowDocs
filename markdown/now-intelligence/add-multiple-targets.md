@@ -26,7 +26,7 @@ Role required: pa\_admin, pa\_target\_admin, pa\_power\_user, or admin
 
 1.  Open KPI Details for an indicator.
 
-2.  Click the target icon \(\[Omitted image "target-icon.png"\]\).
+2.  Click the target icon \(\[Omitted image "target-icon.png"\] Alt text: Target icon\).
 
     The **Targets** panel opens.
 

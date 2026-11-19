@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Viewing links between alerts in alert groups, Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups, Working with alert groups in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert links in network traffic-based alert groups
@@ -21,6 +21,8 @@ Service candidates identified by ML Service Mapping, group alerts based on netwo
 \[Omitted image "el-link-view-network-traffic.png"\] Alt text: A map with seven nodes with links between the network traffic-based alerts.
 
 In this sample Link View of a network traffic-based alert group, the dashed lines indicate that there are connected processes running on the CIs. Attributes linked by a solid line share one or more alerts.
+
+**Parent Topic:**[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-link-view.md)
 
 **Related topics**  
 

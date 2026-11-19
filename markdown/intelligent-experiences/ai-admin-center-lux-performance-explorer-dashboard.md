@@ -45,7 +45,7 @@ The **Skills** tab displays a list of individual generative AI skill executions.
 
 -   **Assist Count**
 
-    The number of assist credits consumed by the skill during the execution.
+    The number of assists consumed by the skill during the execution.
 
 -   **Positive Feedback**
 
@@ -92,7 +92,7 @@ The **Assistants** tab displays a list of individual assistant executions. Use t
 
 -   **Total Assist Usage**
 
-    The number of assist credits consumed by the assistant during the execution.
+    The number of assists consumed by the assistant during the execution.
 
 
 ## Agents
@@ -115,7 +115,7 @@ The **Agents** tab displays a list of individual AI agent executions. Use the **
 
 -   **Assist consumption**
 
-    The number of assist credits consumed by the agentic AI asset during the execution.
+    The number of assists consumed by the agentic AI asset during the execution.
 
 -   **Tasks closed**
 

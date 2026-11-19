@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-changes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-04"
-reading_time_minutes: 114
+last_updated: "2026-11-19"
+reading_time_minutes: 120
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -75,104 +75,6 @@ The Analyze task trends agentic workflow now includes citations for representati
 
 </td></tr><tr><td>
 
-AI Control Tower
-
-</td><td>
-
--   **[View input and output in trace details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-session-details.md)**
-
-Toggle between input and output when viewing trace details.
-
--   **[Usability improvements to Security Overview metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
-
-See only actionable items in your top recommendations on the Security Overview tab. In addition, the recommendations rank AI agent insights by number of critical security events and show the agent name, critical event count, and top threat categories. The security events list now matches the list on the Post-runtime tab. The Access issues detailed view includes a description that explains each access issue in plain language—identifying the agent, the operation, the resource, and the denial count.
-
--   **[Domain separation and AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-domain-separation.md)**
-
-Review sensitive data metrics for ServiceNow AI systems in a domain-separated instance. Available on the Runtime tab in Security.
-
--   **[Configure Excessive Agency in Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
-
-Control whether Excessive Agency is enabled in Post-runtime configuration in Security. This setting controls data for Access issues and Privileged AI agents metrics, as well as post-runtime metrics. The setting is off by default.
-
--   **[Post-runtime Security probabilistic metrics and AI agent disabled by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
-
-To reduce token consumption, screening for data integrity incident detection, system prompt leakage, correctness detection, prompt injection, and agent goal deviation is disabled by default. In addition, the Security Analyzer agent that determines security event severity and insights is disabled by default. The default sampling rate for all metrics is 1%. If you're upgrading, your Detection enabled setting for each metric isn’t affected. After upgrading, check your settings in **Settings** &gt; **Rules and templates** &gt; **Security** and adjust if needed.
-
-
--   **[Domain separation and AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-domain-separation.md)**
-
-Use AI Control Tower on a domain-separated instance. In Security, detail pages for Privileged AI agents, Dormant AI agents, Access issues, Security events detected, Agent map, Post-runtime, and AI asset security score include a Domain column that shows the domain the AI asset belongs to, or shows `global` or is empty if domain separation isn't configured. Your top recommendations is replaced by a Security events detected section on the Security dashboard, and Sensitive data metrics aren't shown for ServiceNow AI systems.
-
--   **[Governing AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-ai-asset.md)**
-
-Agent status is renamed to Access posture on the Security tab for an AI asset. Also, Detection time is now the first column in the list of events.
-
--   **[Security design-time metrics reorganized into subtabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
-
-Design-time metrics are organized into three subtabs: AI security posture, AI vulnerabilities, and AI validation. If the AI Security Exposure Management plugin isn't installed, use the source dropdown to filter the metrics by source \(for example, Cisco or HiddenLayer\).
-
--   **[Governing AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-ai-asset.md)**
-
-On the Security tab for an AI asset, access issues and access posture metrics aren't shown for AI models because they're agent-level signals derived from agent identity and permissions. Therefore, they don't apply to AI models.
-
--   **[Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md)**
-
-AI agent containment \(kill switch\) supports retrying a failed or partial containment operation from the asset record or the agent containment list. You can also deactivate any managed AI agent directly from its asset record, whether or not it has an associated security event. AI agent containment \(kill switch\) is now available directly from an AI asset's Overview tab, not just its Security tab, for security events of any severity.
-
--   **[Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-security-connections.md)**
-
-The Security tab under **Settings** &gt; **Integrations** is renamed to Control Enforcement Points.
-
--   **[Add a Gemini Enterprise Agent Platform connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configure-gcp-vertex-ai-security-connection.md)**
-
-The GCP Vertex AI security connector is renamed to Gemini Enterprise Agent Platform.
-
--   **[Agent containment list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-review-kill-switch-protocol-log.md)**
-
-The Kill Switch Protocol Log is renamed the Agent containment list, and the **View details** option on the containment banner is renamed **View containment options**. The list now includes Domain and Actions columns. Containment details now show how the containment was initiated \(Manual or Automated\) and identity and enforcement details. The list can be filtered using the All, In progress, or Contained options, which replace the previous Show all link.
-
--   **[Security dates and times shown in UTC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
-
-Date and time values in the Security tab — including the agent containment list, the Overview tab's Dormant AI agents and Privileged AI agents details, and the Post-runtime tab's security events — are now shown in Coordinated Universal Time \(UTC\) rather than your local timezone.
-
--   **[AI Gateway settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gateway.md)**
-
-Starting in the September 2026 release, AI Gateway is available in AI Control Tower.
-
--   **[Configuring connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-connectors.md)**
-    -   The GCP Vertex AI connector is renamed to Gemini Enterprise Agent Platform.
-    -   The application AI Service Graph Connector for GCP is renamed to AI Service Graph Connector for Google.
-    -   The Salesforce connector is renamed to AI Connector for Salesforce.
--   **[Veza connector authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-create-ai-connection-veza.md)**
-
-The Veza connector now authenticates using OAuth 2.0. Configure an OAuth profile and alias on the platform, then select it from **Settings** &gt; **Integrations** &gt; **Connectors**. Depending on which OAuth credential is active, tokens are either issued per user and tied to user identity, or shared at the system level, replacing API key authentication as the default method. The Veza tile appears in **Settings** &gt; **Integrations** &gt; **Control Enforcement Points**.
-
--   **[Create Asset Task action renamed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-use-events.md)**
-
-The **Create AI Task** action, available on AI asset security events, privileged AI agents, and dormant AI agents, is renamed to **Create Asset Task**.
-
--   **[AI security posture metrics added and renamed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
-
-On the Design-time tab in Security, AI security posture subtab, three metrics were added under **AI assets with critical findings**: **MCP servers**, **Tools**, and **System prompts**.
-
-Several metrics on the same subtab were renamed for clarity:
-
-    -   **Critical findings approaching remediation target** is renamed **Findings approaching remediation target**.
-    -   **Critical findings with remediation overdue** is renamed **Findings with remediation overdue**.
-    -   **Number of findings deferred** is renamed **Findings deferred**.
-    -   **Findings by risk rating** is renamed **Posture findings by risk rating**.
-    -   **Findings by OWASP LLM Top 10** is renamed **Critical findings by OWASP top ten**.
-    -   **Findings by MITRE ATLAS techniques** is renamed **Critical findings by MITRE ATLAS technique**.
-The **Critical findings by platform**, **Critical findings by OWASP top ten**, and **Critical findings by MITRE ATLAS technique** metrics require the AI Security Exposure Management plugin, and are no longer available in the base system.
-
--   **[Updated default Sampling rate and Max skill calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
-
-In **Settings** &gt; **Rules and templates** &gt; **Security**, the default values for Sampling rate and Max skill calls have changed to help ensure efficient, predictable analysis. If you're upgrading, your Sampling rate and Max skill calls are updated to the new defaults. Your Detection enabled setting for each metric is not affected. After upgrading, check your Sampling rate and Max skill calls settings under **Settings** &gt; **Rules and templates** &gt; **Security** and adjust if needed.
-
-
-</td></tr><tr><td>
-
 AI Desktop Actions
 
 </td><td>
@@ -198,7 +100,7 @@ AI Risk and Compliance
 
 -   **[Domain separation and AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-domain-separation.md)**
 
-Domain separation is supported for AI Control Tower. Domain separation enables separation of data, processes, and administrative tasks into logical groupings called domains. Administrators can control several aspects of this separation, including which users can see and access data. For AI Risk and Compliance, domain separation isolates each domain's risk posture while letting administrators at a parent domain see and manage risk across their child domains.
+Domain separation is supported for Control Tower. Domain separation enables separation of data, processes, and administrative tasks into logical groupings called domains. Administrators can control several aspects of this separation, including which users can see and access data. For AI Risk and Compliance, domain separation isolates each domain's risk posture while letting administrators at a parent domain see and manage risk across their child domains.
 
 -   **[Reviewing regulatory classification and compliance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-regulatory-status.md) for unmanaged AI systems**
 
@@ -209,11 +111,11 @@ After upgrading to version 23.0.3, unmanaged AI systems receive a risk classific
 After upgrading to version 23.0.3, the **Save** button in the Compliance evaluation enables AI Risk and Compliance Analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] to maintain the configuration changes in **Draft** state before publishing. A dedicated **Owner** field lets you specify the owner of individual compliance evaluation configurations and displays the owner name in a column. Assigning ownership adds accountability and shows users who configured the rule.
 
 
--   **Links to AI Control Tower updated for Employee Center submissions**
+-   **Links to Control Tower updated for Employee Center submissions**
 
-After upgrading AI Risk and Compliance to version 23.1.1, for AI use case, AI model, and dataset submissions in Employee Center, the **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page now open the corresponding record in AI Control Tower instead of the legacy AI Control Tower workspace. You still land on the Employee Center governance-details page immediately after submitting; only the destination of these links changed.
+After upgrading AI Risk and Compliance to version 23.1.1, for AI use case, AI model, and dataset submissions in Employee Center, the **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page now open the corresponding record in Control Tower instead of the legacy Control Tower workspace. You still land on the Employee Center governance-details page immediately after submitting; only the destination of these links changed.
 
-The Employee Center AI asset list view's redirection link was also updated to open the AI Control Tower inventory.
+The Employee Center AI asset list view's redirection link was also updated to open the Control Tower inventory.
 
 The AI system, AI model, and dataset record headers also display the corresponding record name and identifier after submission.
 
@@ -556,6 +458,15 @@ Data Catalog
 
 </td><td>
 
+-   **ServiceNow collector includes application short descriptions**
+
+The ServiceNow metadata collector harvests the short description field from system application assets. Catalog users get more context when browsing or searching for ServiceNow application metadata.
+
+-   **Metadata Enrichment AI Agent display updates**
+
+Review enrichment suggestions with a more consistent interface. Labels, fonts, and formats are standardized, asset type is now visible in the enrichment view, and terminology uses "data asset" consistently.
+
+
 -   **Graph Explorer performance improvements**
 
 Lineage views open faster by showing the nearest upstream and downstream connections first instead of waiting for the full diagram to load.
@@ -627,6 +538,12 @@ Delegated developers can now create, read, edit, and delete decision tables that
 Developer Sandboxes
 
 </td><td>
+
+-   **[Sandboxes kept during upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/dev-sbx-clone-upgrade-info.md)**
+
+Starting with Brazil Patch 3, upgrades keep your sandboxes in Developer Sandboxes instead of deleting them, so you can continue working in a sandbox after an upgrade.
+
+**Note:** A retained sandbox isn't upgraded with the base instance, so it might be out of date or lose some functionality.
 
 -   **[Manual sandbox enablement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/dsb-properties-installed.md)**
 
@@ -702,6 +619,11 @@ The default value of the **com.glide.ensurer.partitions.cmdb\_ci\_spkg** system 
 -   **[IP Inventory multi-schedule link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/daw-ip-inventory.md)**
 
 IP ranges and IP network discovery ranges that belong to a discovery range set used across multiple schedules now display a linked value in the **Discovery Schedule** column. Select the **Multiple** link to open the associated records in the Discovery Schedule Range \[discovery\_schedule\_range\] table, filtered by the relevant discovery range.
+
+
+-   **Certificate Inventory and Management dependency**
+
+To use certificate discovery, install the application separately. Until it's installed, the **Certificate Discovery** tab on the Schedules page is disabled, and the certificate discovery tile doesn't appear when you create a new discovery schedule. If the application is already installed, upgrading Discovery Admin Workspace doesn't uninstall it.
 
 
 </td></tr><tr><td>
@@ -1289,6 +1211,11 @@ Impact
 
 </td><td>
 
+-   **[Monitor and manage instance health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/scan-engine-overview.md)**
+    -   Assign Scan Engine access with default user groups. Scan Engine now installs with five groups, Scan Engine User, Admin, Read User, Exception Approver, and Code Fix User. You can grant access after installation without creating groups manually.
+    -   Grant Otto Code Fix access within a group. The Code Fix User group provides Code Fix capabilities for Scan Engine findings, along with scan execution, rescanning, and viewing scan results and findings.
+    -   See the same Platform Health score in every view. The Executive, Team Lead, and Platform Owner dashboards now apply the same rounding to the score, so the value matches wherever you view it.
+
 -   **[Maturity assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/maturity-assessment-questionnaire.md)**
 
 Defects and UI improvements are resolved across all assessment steps, including Overview, Assess, Review, Prioritize, and Action Plan. Additional UI changes include:
@@ -1752,6 +1679,62 @@ The default trigger is not set to **Automatic** for demands in any state. You ca
 Pricing Management
 
 </td><td>
+
+-   **[Derived product lines in upsell and renewal quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-related-product-pricing.md)**
+
+Improve derived product line generation and placement in upsell and renewal quotes.
+
+    -   Renewal quotes
+        -   Newly generated split lines for derived products now have the Renew line type and Add action. Previously, these lines had the New line type and Add action.
+        -   Split lines for derived products now inherit the applicable sold product fields from the contract line. Previously, these fields could be missing.
+        -   Derived product lines in renewal quotes now show the correct term. Previously, the term was incorrect and required you to reprice the quote
+    -   Upsell quotes
+        -   When a source product is swapped, the derived product now gets the required Amend and Add lines.
+        -   Derived product split lines are now added within their wrapper line. Previously, a split line could be added outside the wrapper.
+    -   Early renewals
+        -   For early renewals that cover multiple contracts, source lines, target lines, and sold products are now limited to the contract being renewed. Previously, a no-change line could be selected from a different contract.
+        -   No-change lines are now skipped when the parent line is also renewed. Previously, these lines could be inserted under the renewal wrapper.
+-   **[Pricing requests and responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-crm-pricing-api.md)**
+
+Get complete and consistent pricing responses for your integrations.
+
+    -   Pricing continues when a setting in the request isn't defined, instead of stopping.
+    -   Extra spaces in a **pricing\_elements** value are trimmed, so the list price step is no longer skipped.
+    -   When **use\_external\_code** is true, **product\_offering** returns the external ID code rather than the sys\_id.
+    -   In upsell, renewal, and new business quotes, values that aren't numbers, such as support type, are returned as empty strings instead of null.
+-   **Pricing for product instance changes**
+
+Price changes to product instances against the characteristics the sold product already has.
+
+    -   Characteristic-based adjustments for modify, add, change, and disconnect requests on a product instance now use the product model characteristics of the sold product, which pricing previously left out.
+
+-   **[Derived pricing in renewals and amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-related-product-pricing.md)**
+
+Calculate derived prices that reflect the current state of their source lines.
+
+    -   When a contributing product is amended, pricing now carries the auto-renew value from the sold product to generated sold product lines, derived product lines, and other generated lines. Previously, generated lines didn't retain the auto-renew setting, causing lines such as derived product lines to have auto-renew set to false.
+    -   Previously, when a source line was fully terminated \(canceled and disconnected, or canceled and added\), the markdown on the derived product line was zero. Now, the markdown is calculated from the source line's price before cancellation, so the derived line reflects the removed contribution.
+    -   Only sold products whose price list currency matches the transaction currency now contribute to a derived price. Previously, sold products in other currencies could contribute when an account had sold products in multiple currencies.
+    -   During early renewal, derived pricing now skips lines already covered by a consolidated contract line and excludes canceled lines from derived adjustments on renewal lines. Previously, covered lines could be added again when derived lines were generated, and canceled lines with a zero price could affect derived adjustments.
+    -   In early renewal quotes, a terminated source line no longer contributes to its derived product line.
+    -   Improved performance for derived price calculation for accounts with a high number of sold products.
+    -   When all the source lines of a derived product line are terminated, the derived product line is now terminated as well.
+-   **Bundle rollups and margin**
+
+Show accurate bundle totals and margins on quote lines.
+
+    -   Bundle rollups no longer include child lines deleted from the bundle. The cumulative price uses only the remaining lines.
+    -   When the cumulative net price is zero, the cumulative margin percentage is saved as zero instead of an invalid value.
+-   **[Validation of pricing plan conditions before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-pricing-plan.md)**
+
+Prevent pricing plans with invalid conditions from reaching transactions. You can no longer publish a pricing plan with a step condition that can't be evaluated. Publishing is blocked until each step condition is valid.
+
+-   **Context variables and rule matrices**
+
+Keep rule matrix evaluation accurate.
+
+    -   A context variable and a decision table column that differ only by the u\_ prefix such as u\_age\_new or age\_new are now matched, so the rule matrix no longer falls back to its default row.
+    -   The result columns of the Derived Pricing Matrix v2 decision table are loaded whenever the Pricing Matrix plugin is active, not only when demo data is installed.
 
 -   **[Extended product life cycle support in Price Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/extended-product-lifecycle-states.md)**
 
@@ -2321,17 +2304,6 @@ When the AI agent searches for similar change requests, it now returns only chan
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Software Asset Management \(SAM\)
-
-</td><td>
-
--   **[Software Spend Detection Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/spend-detection-sam-workspace.md)**
-
-The Software Spend Detection feature is no longer available in the Core UI. Software Spend Detection is now accessible from the Software Asset Workspace under License operations. Existing imports and spend transactions created in the Core UI are now accessible from the Software Asset Workspace.
-
-
-</td></tr><tr><td>
-
 ServiceNow Otto for Virtual Agent
 
 </td><td>
@@ -2451,6 +2423,10 @@ Understand licensing scope at a glance from the renamed column in the Software M
 
 The **Reclamation** tab in the License usage view on the Software Asset Workspace presents a consolidated view of reclamation candidates across all publishers, SaaS integrations, installed software, and reconciliation flows.
 
+-   **[Software Spend Detection Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/spend-detection-sam-workspace.md)**
+
+The Software Spend Detection feature is no longer available in the Core UI. Software Spend Detection is now accessible from the Software Asset Workspace under License operations. Existing imports and spend transactions created in the Core UI are now accessible from the Software Asset Workspace.
+
 
 </td></tr><tr><td>
 
@@ -2562,6 +2538,117 @@ Cloud capacity storage is now pooled at the account level rather than capped at 
 -   **[Support for Moveworks consumption tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
 Moveworks consumption can now be measured as part of your Assist meter, following the same subscription rules as other assist-based products. For more information about the timeline and required steps for integration, see [Moveworks Assist in Subscription Management: Rollout Timeline, Customer Actions &amp; FAQ \[KB3147691\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147691) on the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+Super Intelligence Control Tower
+
+</td><td>
+
+-   **[Security settings usability improvements and assist consumption consent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)**
+
+Configure security settings using new sub-tabs in security settings: **Overview**, **Runtime**, **Post runtime**, and **Security insights**. The Overview, Runtime, and Post runtime sub-tabs correspond to the metrics they configure. Security insights shows the status of the AICT Security Analyzer agent and lets you enable it. In the Runtime sub-tab, the link to configure data patterns opens Anonymization policies in Data Privacy. In the Post runtime and Security insights sub-tabs, you're prompted to consent to assist consumption when enabling settings.
+
+-   **[Agent containment list filter and rename](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-review-kill-switch-protocol-log.md)**
+
+Filter the list of contained or reinstated agents by a particular agent. The Contained agents list is renamed to Agent containment list.
+
+-   **[Post runtime metrics configuration change and category rename](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+Select **Configure** to go to Settings and update your configuration instead of a side panel. AICT correctness detection is renamed to Correctness detection.
+
+
+-   **[View input and output in trace details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-session-details.md)**
+
+Toggle between input and output when viewing trace details.
+
+-   **[Usability improvements to Security Overview metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
+
+See only actionable items in your top recommendations on the Security Overview tab. In addition, the recommendations rank AI agent insights by number of critical security events and show the agent name, critical event count, and top threat categories. The security events list now matches the list on the Post-runtime tab. The Access issues detailed view includes a description that explains each access issue in plain language—identifying the agent, the operation, the resource, and the denial count.
+
+-   **[Domain separation and AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-domain-separation.md)**
+
+Review sensitive data metrics for ServiceNow AI systems in a domain-separated instance. Available on the Runtime tab in Security.
+
+-   **[Configure Excessive Agency in Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+Control whether Excessive Agency is enabled in Post-runtime configuration in Security. This setting controls data for Access issues and Privileged AI agents metrics, as well as post-runtime metrics. The setting is off by default.
+
+-   **[Post-runtime Security probabilistic metrics and AI agent disabled by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+To reduce token consumption, screening for data integrity incident detection, system prompt leakage, correctness detection, prompt injection, and agent goal deviation is disabled by default. In addition, the Security Analyzer agent that determines security event severity and insights is disabled by default. The default sampling rate for all metrics is 1%. If you're upgrading, your Detection enabled setting for each metric isn’t affected. After upgrading, check your settings in **Settings** &gt; **Rules and templates** &gt; **Security** and adjust if needed.
+
+
+-   **[Domain separation and AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-domain-separation.md)**
+
+Use Control Tower on a domain-separated instance. In Security, detail pages for Privileged AI agents, Dormant AI agents, Access issues, Security events detected, Agent map, Post-runtime, and AI asset security score include a Domain column that shows the domain the AI asset belongs to, or shows `global` or is empty if domain separation isn't configured. Your top recommendations is replaced by a Security events detected section on the Security dashboard, and Sensitive data metrics aren't shown for ServiceNow AI systems.
+
+-   **[Governing AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-ai-asset.md)**
+
+Agent status is renamed to Access posture on the Security tab for an AI asset. Also, Detection time is now the first column in the list of events.
+
+-   **[Security design-time metrics reorganized into subtabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
+
+Design-time metrics are organized into three subtabs: AI security posture, AI vulnerabilities, and AI validation. If the AI Security Exposure Management plugin isn't installed, use the source dropdown to filter the metrics by source \(for example, Cisco or HiddenLayer\).
+
+-   **[Governing AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-ai-asset.md)**
+
+On the Security tab for an AI asset, access issues and access posture metrics aren't shown for AI models because they're agent-level signals derived from agent identity and permissions. Therefore, they don't apply to AI models.
+
+-   **[Contain AI agents manually using kill switch protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md)**
+
+AI agent containment \(kill switch\) supports retrying a failed or partial containment operation from the asset record or the agent containment list. You can also deactivate any managed AI agent directly from its asset record, whether or not it has an associated security event. AI agent containment \(kill switch\) is now available directly from an AI asset's Overview tab, not just its Security tab, for security events of any severity.
+
+-   **[Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-security-connections.md)**
+
+The Security tab under **Settings** &gt; **Integrations** is renamed to Control Enforcement Points.
+
+-   **[Add a Gemini Enterprise Agent Platform connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configure-gcp-vertex-ai-security-connection.md)**
+
+The GCP Vertex AI security connector is renamed to Gemini Enterprise Agent Platform.
+
+-   **[Agent containment list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-review-kill-switch-protocol-log.md)**
+
+The Kill Switch Protocol Log is renamed the Agent containment list, and the **View details** option on the containment banner is renamed **View containment options**. The list now includes Domain and Actions columns. Containment details now show how the containment was initiated \(Manual or Automated\) and identity and enforcement details. The list can be filtered using the All, In progress, or Contained options, which replace the previous Show all link.
+
+-   **[Security dates and times shown in UTC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
+
+Date and time values in the Security tab — including the agent containment list, the Overview tab's Dormant AI agents and Privileged AI agents details, and the Post-runtime tab's security events — are now shown in Coordinated Universal Time \(UTC\) rather than your local timezone.
+
+-   **[AI Gateway settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gateway.md)**
+
+Starting in the September 2026 release, AI Gateway is available in AI Control Tower.
+
+-   **[Configuring connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-connectors.md)**
+    -   The GCP Vertex AI connector is renamed to Gemini Enterprise Agent Platform.
+    -   The application AI Service Graph Connector for GCP is renamed to AI Service Graph Connector for Google.
+    -   The Salesforce connector is renamed to AI Connector for Salesforce.
+-   **[Veza connector authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-create-ai-connection-veza.md)**
+
+The Veza connector now authenticates using OAuth 2.0. Configure an OAuth profile and alias on the platform, then select it from **Settings** &gt; **Integrations** &gt; **Connectors**. Depending on which OAuth credential is active, tokens are either issued per user and tied to user identity, or shared at the system level, replacing API key authentication as the default method. The Veza tile appears in **Settings** &gt; **Integrations** &gt; **Control Enforcement Points**.
+
+-   **[Create Asset Task action renamed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-use-events.md)**
+
+The **Create AI Task** action, available on AI asset security events, privileged AI agents, and dormant AI agents, is renamed to **Create Asset Task**.
+
+-   **[AI security posture metrics added and renamed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
+
+On the Design-time tab in Security, AI security posture subtab, three metrics were added under **AI assets with critical findings**: **MCP servers**, **Tools**, and **System prompts**.
+
+Several metrics on the same subtab were renamed for clarity:
+
+    -   **Critical findings approaching remediation target** is renamed **Findings approaching remediation target**.
+    -   **Critical findings with remediation overdue** is renamed **Findings with remediation overdue**.
+    -   **Number of findings deferred** is renamed **Findings deferred**.
+    -   **Findings by risk rating** is renamed **Posture findings by risk rating**.
+    -   **Findings by OWASP LLM Top 10** is renamed **Critical findings by OWASP top ten**.
+    -   **Findings by MITRE ATLAS techniques** is renamed **Critical findings by MITRE ATLAS technique**.
+The **Critical findings by platform**, **Critical findings by OWASP top ten**, and **Critical findings by MITRE ATLAS technique** metrics require the AI Security Exposure Management plugin, and are no longer available in the base system.
+
+-   **[Updated default Sampling rate and Max skill calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+In **Settings** &gt; **Rules and templates** &gt; **Security**, the default values for Sampling rate and Max skill calls have changed to help ensure efficient, predictable analysis. If you're upgrading, your Sampling rate and Max skill calls are updated to the new defaults. Your Detection enabled setting for each metric is not affected. After upgrading, check your Sampling rate and Max skill calls settings under **Settings** &gt; **Rules and templates** &gt; **Security** and adjust if needed.
 
 
 </td></tr><tr><td>
@@ -2713,6 +2800,13 @@ After upgrading to version 23.0.7, the **Third party** field is auto-populated w
 -   **[Smart Assessment Engine rating scale available from workspace navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/tprm-risk-rating-scales-config.md)**
 
 After upgrading to version 23.0.7, the SAE default rating scale table is available from the Vendor Management Workspace navigation, under **Assessment Setup**. Previously, this table wasn't accessible from workspace navigation.
+
+
+-   **[ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/exploring-now-assist-tprm.md) skills are turned off by default**
+
+After upgrading to version 23.0.0, the Third-party Risk Management issue summarization and issue recommendation skills are inactive by default. Previously, these skills were active after installation. To use either skill, an admin must activate it.
+
+Starting with the December 2026 release, many AI assets \(generative AI skills, AI agents, agentic workflows, and AI specialists\) will be OFF by default. If you're actively using AI assets, those will remain ON after the upgrade. To turn on generative AI skills use the [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md). To turn on AI agents, agentic workflows, or AI specialists, use [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aias-landing.md).
 
 
 </td></tr><tr><td>

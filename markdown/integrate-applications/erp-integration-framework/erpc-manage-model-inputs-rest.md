@@ -103,3 +103,5 @@ Role required: sn\_erp\_integration.erp\_admin
 
 Next, check the output parameters for the operation and update as needed. For more information, see [Select model output parameters for REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs-rest.md).
 
+**Parent Topic:**[Connecting to other ERP systems using REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-rest.md)
+

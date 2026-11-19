@@ -9,7 +9,7 @@ classification: localization-framework
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Artifact configurations, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Artifact configurations, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, ServiceNow AI Platform]
 ---
 
 # Read script helper functions for LFDocumentContentBuilder

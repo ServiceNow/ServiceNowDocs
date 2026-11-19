@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure email agentic workflows, Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure email agentic workflows, Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Enable intent to action workflow from inbound actions

@@ -8,7 +8,7 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [WebSEAL, IBM, Security Access Manager, ISAM]
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -31,7 +31,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     The WebSEAL authentication process includes HTTP header authentication with basic credentials [Basic authentication credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_BasicAuthCredentialsForm.md).
 
-    If you’re running discovery for the first time, configure Credential affinity for Discovery and Orchestration [Credential affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_CredentialAffinity.md).
+    If you’re running discovery for the first time, configure Credential affinity for Discovery and Orchestration .
 
     **Note:** Credential affinity isn’t available In debug mode.
 

@@ -100,18 +100,20 @@ Role required: admin
 
     |Field|Description|
     |-----|-----------|
+    |Connection Information|
     |Connection Name|Name to identify the Kubernetes connection alias record.|
     |Connection URL|IP address and port of the host machine where Kubernetes is installed.|
+    |Credential Information|
     |API Key|Token you obtained from Kubernetes in this format: `Bearer {access token}`.|
 
     \[Omitted image "kubernetes-temp.png"\] Alt text: Configure a connection for the Kubernetes spoke.
 
-6.  Click **Configure Connection**.
+6.  Click **Save**.
 
 
 ### Result
 
-The spoke connection is configured and ready to be used.
+The Kubernetes spoke connection is configured and ready to be used.
 
 ## Turn off remote SSL host verification
 

@@ -26,13 +26,13 @@ Role required: admin
 
 2.  From the UX Applications list, select **Service Operations Workspace**.
 
-3.  For the Admin Panel field, select the \[Omitted image "preview-icon.png"\] Alt text: Preview this record icon.
+3.  For the **Admin Panel** field, select the preview icon \(\[Omitted image "preview-icon.png"\] Alt text:\).
 
 4.  Select **Open Record**.
 
 5.  On the UX App Configuration Service Operations Workspace page, edit the **Landing Path** field to modify the landing page.
 
-    To redirect the user to the Service Operations Workspace home page, enter the value **home**. To redirect the user to the Service Operations Workspace list page, enter the value **list**.
+    To redirect the user to the Service Operations Workspace home page, enter the value `home`. To redirect the user to the Service Operations Workspace list page, enter the value `list`.
 
 
 **Parent Topic:**[Customizing Service Operations Workspace for ITSM to align with your requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-sow-landing-page.md)

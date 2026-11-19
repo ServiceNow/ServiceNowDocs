@@ -44,9 +44,9 @@ Role required: admin
 
 10. Under the configuration side panel, select data sources.
 
-    Th Edit data source screen is displayed where you can change the data of this widget.
+    The Edit data source screen is displayed where you can change the data of this widget.
 
-11. In search sources, type problem, select problem table.
+11. In search sources, enter problem, and then select the problem table.
 
 12. In filters, select the predefined filter.
 

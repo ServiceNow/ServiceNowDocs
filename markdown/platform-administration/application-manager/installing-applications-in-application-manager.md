@@ -9,7 +9,7 @@ classification: application-manager
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Installing apps, plugins, and products, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Installing apps, plugins, and products, Application Manager, Administering applications, Get started, ServiceNow AI Platform]
 ---
 
 # Install an application or plugin
@@ -51,15 +51,15 @@ This topic describes how to install an application or plugin. For information ab
 
 6.  Install the application now or schedule installation for a later time.
 
-<table id="choicetable_kkl_v3m_yfc"><thead><tr><th align="left" id="d228135e205">
+<table id="choicetable_kkl_v3m_yfc"><thead><tr><th align="left" id="d228073e207">
 
 Installation option
 
-</th><th align="left" id="d228135e208">
+</th><th align="left" id="d228073e210">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d228135e214">
+</th></tr></thead><tbody><tr><td id="d228073e216">
 
 **Install now**
 
@@ -69,7 +69,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d228135e238">
+</td></tr><tr><td id="d228073e240">
 
 **Install later**
 

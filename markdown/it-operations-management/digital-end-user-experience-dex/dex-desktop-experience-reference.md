@@ -1,6 +1,6 @@
 ---
 title: DEX Desktop Assistant reference
-description: Information about the forms and the dashboard helps you configure and administer Desktop Assistant.
+description: Look up details about the forms and dashboard that you use to configure and administer Desktop Assistant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/digital-end-user-experience-dex/dex-desktop-experience-reference.html
 release: brazil
@@ -14,18 +14,18 @@ breadcrumb: [Reference, Digital End-User Experience, IT Operations Management]
 
 # DEX Desktop Assistant reference
 
-Information about the forms and the dashboard helps you configure and administer Desktop Assistant.
+Look up details about the forms and dashboard that you use to configure and administer Desktop Assistant.
 
 -   **[Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/dex-desktop-exp-dashboard.md)**  
 The usage metrics dashboard helps you track device connection status, user login status, application version, and the number of incidents created in the Desktop Assistant application. These metrics help you monitor activity between the application and your ServiceNow instance.
 -   **[Components installed with Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/components-installed-with-desktop-assistant.md)**  
 Several types of components are installed with activation of the Desktop Assistant \[sn\_dex\_desktop\] plugin, including user roles and tables.
 -   **[Application Registries form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/application-registries-form.md)**  
-The Application Registries form contains the OAuth client settings for an application registry, such as the client ID, client secret, redirect URL, and token lifespans.
+The Application Registries form contains the fields for registering an OAuth client application, including client credentials, redirect URLs, and token lifespans.
 -   **[DEX system tables for remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/dex-sys-table-ra.md)**  
 DEX system tables store the configuration settings for remedial actions and track the progress of each remedial action execution.
 -   **[API parameters to configure Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/api-parameters-to-customize-desktop-assistant-notifications.md)**  
-Parameters of the sendDANotification\(\) method in the `DesktopAppNotificationUtils` script include configure Desktop Assistant notifications.
+The sendDANotification\(\) method in the `DesktopAppNotificationUtils` script include accepts these parameters for configuring Desktop Assistant notifications.
 -   **[Examples of Desktop Assistant notifications using DesktopAppNotificationUtils](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/examples-da-notifications-script-include.md)**  
 Examples showing the sendDANotification\(\) method of `DesktopAppNotificationUtils` used to send a Major Incident Management \(MIM\) alert and a Proactive Engagement \(PE\) notification.
 -   **[Variables to customize a theme for Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/da-theme-variables.md)**  

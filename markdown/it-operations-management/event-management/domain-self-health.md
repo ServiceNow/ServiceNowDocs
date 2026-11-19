@@ -66,5 +66,5 @@ Further configuration is required for CI creation, receipt of events, and alert 
 **Related topics**  
 
 
-[Domain separation setup and basic administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_DomainSeparationSetup.md)
+[bundle-psec.c_DomainSeparationSetup]
 

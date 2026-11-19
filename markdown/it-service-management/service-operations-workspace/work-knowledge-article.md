@@ -26,15 +26,15 @@ Role required: itil
 
 2.  Perform any of the following actions on the record page.
 
-<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d224286e63">
+<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d224980e65">
 
 Option
 
-</th><th align="left" id="d224286e66">
+</th><th align="left" id="d224980e68">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d224286e72">
+</th></tr></thead><tbody><tr><td id="d224980e74">
 
 **Create a new version of the knowledge article that you can publish**
 
@@ -42,7 +42,7 @@ Description
 
 Select **Checkout**.
 
-</td></tr><tr><td id="d224286e84">
+</td></tr><tr><td id="d224980e86">
 
 **Translate an article after its comparison in its original language and the language it will be translated into**
 
@@ -53,7 +53,7 @@ Select **Checkout**.
 
 **Note:** If Dynamic Translation is enabled, select **Machine Translate** to view machine translations.
 
-</td></tr><tr><td id="d224286e118">
+</td></tr><tr><td id="d224980e120">
 
 **View a knowledge article including the article number, short description, and article content**
 
@@ -61,7 +61,7 @@ Select **Checkout**.
 
 Select **View Article**.
 
-</td></tr><tr><td id="d224286e130">
+</td></tr><tr><td id="d224980e132">
 
 **Initiate the retirement workflow associated with the article**
 
@@ -69,7 +69,7 @@ Select **View Article**.
 
 From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt text:\), select **Retire**. For information about retiring a knowledge article, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_RetiredKnowledgeArticles.md).
 
-</td></tr><tr><td id="d224286e152">
+</td></tr><tr><td id="d224980e154">
 
 **Translate an article into multiple languages**
 
@@ -80,7 +80,7 @@ From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt 
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d224286e184">
+</td></tr><tr><td id="d224980e186">
 
 **Copy the record page URL to easily access the record**
 
@@ -88,7 +88,7 @@ From the more options drop-down \(\[Omitted image "more-actions-icon.png"\] Alt 
 
 Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and select **Copy URL**.
 
-</td></tr><tr><td id="d224286e201">
+</td></tr><tr><td id="d224980e203">
 
 **Reuse a knowledge block when creating or editing the article**
 
@@ -98,7 +98,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 2.  Select the required knowledge block to add it to the article.
 
 
-</td></tr><tr><td id="d224286e224">
+</td></tr><tr><td id="d224980e226">
 
 **Attach a record that helps in quick resolution of the interaction**
 
@@ -110,7 +110,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
  For information on configuring additional search resources, see [Configure search resources for an interaction in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-resources-for-an-interaction.md).
 
-</td></tr><tr><td id="d224286e260">
+</td></tr><tr><td id="d224980e262">
 
 **Add attachments**
 
@@ -118,7 +118,7 @@ Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt tex
 
 From the contextual side panel, select the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text:\). Alternatively, you can drag the attachment into the **Active Chat** window of the interaction.**Note:** The added attachments are displayed in the activity stream in the **Compose** section.
 
-</td></tr><tr><td id="d224286e283">
+</td></tr><tr><td id="d224980e285">
 
 **Create templates for reuse**
 
@@ -126,7 +126,7 @@ From the contextual side panel, select the attachments icon \(\[Omitted image "a
 
 From the contextual side panel, select the templates icon \(\[Omitted image "template-icon.png"\] Alt text:\) and create a template or reuse an existing one.
 
-</td></tr><tr><td id="d224286e298">
+</td></tr><tr><td id="d224980e300">
 
 **Most recent task**
 

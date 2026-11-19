@@ -18,7 +18,7 @@ Activity execution records provide runtime information about activities in a pla
 
 An activity execution represents a runtime execution of your activity. Each time one of your playbooks triggers, records are automatically created for each activity that runs within the triggered playbook.
 
-To access the activity execution records for an In Progress playbook execution, navigate to **Process Automation** &gt; **Process Automation Administration** &gt; **Active Processes**. Alternatively, you can see the activity executions for all playbooks that ran today by navigating to **Process Automation** &gt; **Process Automation Administration** &gt; **Today's Executions**. Select a playbook execution record from the list. Then, you can view the associated activity execution records in the Activity Executions related list.
+To access the activity execution records for an In Progress playbook execution, navigate to **Process Automation** &gt; **Playbook Administration** &gt; **Active Processes**. Alternatively, you can see the activity executions for all playbooks that ran today by navigating to **Process Automation** &gt; **Playbook Administration** &gt; **Today's Executions**. Select a playbook execution record from the list. Then, you can view the associated activity execution records in the Activity Executions related list.
 
 ## Fields
 

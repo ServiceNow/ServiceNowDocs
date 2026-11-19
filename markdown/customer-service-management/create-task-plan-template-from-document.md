@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cre
 release: brazil
 topic_type: task
 last_updated: "2026-09-04"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [task plan template, AI agent, document upload, Now Assist]
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

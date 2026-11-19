@@ -68,6 +68,8 @@ Get a full understanding of everything that you can do when creating a page for 
 UI Builder can be used by application developers with a variety of skill levels. We recommend developers with a high level of experience, sometimes referred to as pro-coders, perform the procedures in this section.
 -   **[Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/component-builder-uib.md)**  
 Learn how to use Component Builder to assemble reusable components for your UI Builder pages.
+-   **[UIB Setup Information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/uib-setup-information.md)**  
+UIB setup documentation provides configuration and property information for UIB components.
 
 **Parent Topic:**[Builder library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/builder-library-table.md)
 

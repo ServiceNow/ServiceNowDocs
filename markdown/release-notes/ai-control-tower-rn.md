@@ -1,20 +1,20 @@
 ---
-title: AI Control Tower release notes
-description: The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. See the following sections for release notes by version.The Brazil Patch 2 release adds improvements for policy management, security, discovery, and client-based access controls for AI Gateway.The Brazil Patch 1 release adds improvements for policy management, improved monitoring visualizations, and more.The Brazil Early Availability release adds support for domain separation, policies, quality and safety metrics for specific assets, and more.
+title: Super Intelligence Control Tower release notes
+description: The ServiceNow Super Intelligence Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. See the following sections for release notes by version.The Brazil Patch 2 release adds improvements for policy management, security, discovery, and client-based access controls for AI Gateway.The Brazil Patch 1 release adds improvements for policy management, improved monitoring visualizations, and more.The Brazil Early Availability release adds support for domain separation, policies, quality and safety metrics for specific assets, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/ai-control-tower-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 16
+reading_time_minutes: 17
 breadcrumb: [AI Experiences release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# AI Control Tower release notes
+# Super Intelligence Control Tower release notes
 
-The ServiceNow® AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. See the following sections for release notes by version.
+The ServiceNow® Super Intelligence Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. See the following sections for release notes by version.
 
-## About AI Control Tower
+## About Control Tower
 
 -   Discover and maintain a complete, current inventory of AI systems, models, datasets, and prompts across ServiceNow and external platforms.
 -   Track regulatory compliance posture against frameworks like NIST AI RMF and EU AI Act across your entire AI portfolio.
@@ -29,11 +29,15 @@ See [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 -   **Activation information**
 
-    Install AI Control Tower by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Control Tower by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 -   **Upgrade information**
 
-    For details on upgrading to the redesigned AI Control Tower experience, see the [AI Control Tower Migration \[KB3144679\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144679) article in Now Support.
+    For details on upgrading to the redesigned Control Tower experience, see the [Super Intelligence Control Tower Migration \[KB3144679\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144679) article in Now Support.
+
+-   **Activating skills, agents, and workflows**
+
+    Starting with the December 2026 release, many AI assets \(generative AI skills, AI agents, agentic workflows, and AI specialists\) will be OFF by default. If you're actively using AI assets, those will remain ON after the upgrade. To turn on generative AI skills use the [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md). To turn on AI agents, agentic workflows, or AI specialists, use [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aias-landing.md).
 
 
 **Important:** AI Risk and Compliance workstream activities, including impact assessments, risk assessments, control attestations, issues, policy exceptions, AI cases, and AI inquiries, aren't supported in the AI-native experience. This also applies to business configuration and administration activities, such as setting up risk assessment methodologies and assessment templates. Access and view the system of record through the workspace-based experience.
@@ -61,19 +65,22 @@ The Brazil Patch 2 release adds improvements for policy management, security, di
 
 -   **[AI Gateway client-based access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gw-controlling-client-access.md)**
 
-    Create client access policies that grant each MCP client access to specific tools on an MCP server. When you turn on access management for the server, clients can use only the tools that their policies grant.
+    Create client access policies that grant each MCP \(Model Context Protocol\) client access to specific tools on an MCP server. When you turn on access management for the server, clients can use only the tools that their policies grant.
 
--   **[Security settings usability improvements and AI usage consent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)**
 
-    Configure security settings using new sub-tabs in security settings: Overview, Runtime, Post-runtime, and Security insights. These sub-tabs correspond to metrics they configure, except Security insights. Security insights shows the status of the AICT Security Analyzer agent. In the Runtime sub-tab, the link to configure data patterns changed to go to Anonymization policies in Data Privacy. In the Post-runtime and Security insights sub-tabs, you're prompted to consent to consumption of assists when enabling settings.
+### What's changed
+
+-   **[Security settings usability improvements and assist consumption consent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configuring.md)**
+
+    Configure security settings using new sub-tabs in security settings: **Overview**, **Runtime**, **Post runtime**, and **Security insights**. The Overview, Runtime, and Post runtime sub-tabs correspond to the metrics they configure. Security insights shows the status of the AICT Security Analyzer agent and lets you enable it. In the Runtime sub-tab, the link to configure data patterns opens Anonymization policies in Data Privacy. In the Post runtime and Security insights sub-tabs, you're prompted to consent to assist consumption when enabling settings.
 
 -   **[Agent containment list filter and rename](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-review-kill-switch-protocol-log.md)**
 
     Filter the list of contained or reinstated agents by a particular agent. The Contained agents list is renamed to Agent containment list.
 
--   **[Post-runtime metrics configuration change and category rename](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+-   **[Post runtime metrics configuration change and category rename](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
 
-    When you select Configure, you're directed to Settings to update your configuration instead of to a side panel. AICT correctness detection is renamed to Correctness detection.
+    Select **Configure** to go to Settings and update your configuration instead of a side panel. AICT correctness detection is renamed to Correctness detection.
 
 
 ### What's deprecated or removed
@@ -86,7 +93,7 @@ The Brazil Patch 2 release adds improvements for policy management, security, di
 
 -   **[Prompt injection settings removed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
 
-    In Settings, under ServiceNow AI systems, the max skill calls and sample rate settings are removed from prompt injection. Instead, adjust these settings in [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-guardian-analytics.md).
+    Adjust max skill calls and sample rate settings in [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-guardian-analytics.md). The max skill calls and sample rate settings are removed from prompt injection under **ServiceNow AI systems** in Settings.
 
 
 ## Brazil Patch 1
@@ -218,7 +225,7 @@ The Brazil Early Availability release adds support for domain separation, polici
 
 -   **[Add an Azure AI Foundry connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configure-azure-foundry-security-connection.md)**
 
-    Connect Azure AI Foundry to AI Control Tower so that policies and AI agent containment using kill switch protocol can reach and act on agents running on Azure AI Foundry.
+    Connect Azure AI Foundry to Control Tower so that policies and AI agent containment using kill switch protocol can reach and act on agents running on Azure AI Foundry.
 
 -   **[Add metrics from the AI system record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-ai-system-metrics.md)**
 
@@ -287,7 +294,7 @@ The Brazil Early Availability release adds support for domain separation, polici
 
 -   **[Domain separation and AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-domain-separation.md)**
 
-    Use AI Control Tower on a domain-separated instance. In Security, detail pages for Privileged AI agents, Dormant AI agents, Access issues, Security events detected, Agent map, Post-runtime, and AI asset security score include a Domain column that shows the domain the AI asset belongs to, or shows `global` or is empty if domain separation isn't configured. Your top recommendations is replaced by a Security events detected section on the Security dashboard, and Sensitive data metrics aren't shown for ServiceNow AI systems.
+    Use Control Tower on a domain-separated instance. In Security, detail pages for Privileged AI agents, Dormant AI agents, Access issues, Security events detected, Agent map, Post-runtime, and AI asset security score include a Domain column that shows the domain the AI asset belongs to, or shows `global` or is empty if domain separation isn't configured. Your top recommendations is replaced by a Security events detected section on the Security dashboard, and Sensitive data metrics aren't shown for ServiceNow AI systems.
 
 -   **[Governing AI asset security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-ai-asset.md)**
 

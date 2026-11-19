@@ -90,5 +90,5 @@ ServiceNow® charges for the following IT Operations Management products:
 **Related topics**  
 
 
-[Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/subscription-management-landing-page-v2.md)
+[bundle-platadm.subscription-management-landing-page-v2]
 

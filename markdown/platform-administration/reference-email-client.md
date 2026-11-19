@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email client, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Reference

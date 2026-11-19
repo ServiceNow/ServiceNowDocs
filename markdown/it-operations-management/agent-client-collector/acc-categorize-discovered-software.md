@@ -19,6 +19,8 @@ Group discovered installed software packages in your environment by business rel
 
 ## Before you begin
 
+Ensure that you have installed Agent Client Collector for Visibility Content.
+
 In the System Properties, verify that the software categorization system property is set to true: `sn_acc_vis_content.sw_categorization.enabled=true`.
 
 Role required: discovery\_admin

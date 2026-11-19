@@ -1,5 +1,5 @@
 ---
-title: Audit assignment from workspace
+title: Audit assignment from CRM Workspace
 description: As a Store Audit Manager, manually assign a Store Audit Case or Audit Task to a specific Auditor, or change the assignment group set by the automated assignment rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-store-audit-t-override-assignment.html
@@ -11,7 +11,7 @@ keywords: [override assignment, reassign audit, audit manager, assigned to]
 breadcrumb: [Manage Store Audit, Retail]
 ---
 
-# Audit assignment from workspace
+# Audit assignment from CRM Workspace
 
 As a Store Audit Manager, manually assign a Store Audit Case or Audit Task to a specific Auditor, or change the assignment group set by the automated assignment rules.
 
@@ -26,7 +26,7 @@ Assignment rules automatically set the assignment group on Store Audit Cases and
 
 ## Procedure
 
-1.  Log in to CSM/FSM Workspace with your Store Audit Manager credentials and open the Store Audit Case or Audit Task you want to reassign.
+1.  Log in to CRM Workspace with your Store Audit Manager credentials and open the Store Audit Case or Audit Task you want to reassign.
 
     Store Audit Cases are in the Store Audit Cases list; Audit Tasks are on the **Audit tasks** tab of the parent case. Both are also visible from the **Retail cases** list.
 

@@ -89,7 +89,7 @@ Set the frequency at which the job for identifying the gaps in the articles is r
 
 ## Result
 
-The skill is activated and gap recommendations appear on the home page. The skill activation does not happen instantly. The configuration inputs have to pass through a Group Action Framework to create the specified cluster of jobs. For more information see, .
+The skill is activated and gap recommendations appear on the home page. The skill activation does not happen instantly. The configuration inputs have to pass through a Group Action Framework to create the specified cluster of jobs. For more information see, [Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/group-action-framework.md).
 
 **Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 
@@ -100,5 +100,5 @@ The skill is activated and gap recommendations appear on the home page. The skil
 
 [Manage potential knowledge gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/address-knowledge-gaps.md)
 
-[bundle-platai.group-action-framework]
+[Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/group-action-framework.md)
 

@@ -43,21 +43,21 @@ While domain separation provides multi-tenancy support, multi-tenancy is still c
 
 Perform the following tasks to set up your domain-separated instance:
 
--   -   **[Create a domain.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_CreateADomain.md)**
+-   -   **Create a domain.**
     -   You can create as many domains as needed, but make sure that you don't create unnecessary domains on the instance. A large number of domains on the instance can impact performance. Before you create new domains, check the domain hierarchy under **Domain Admin** &gt; **Domain Map**. Check whether you actually need to create a new domain, or an existing domain hierarchy can work instead.
 
-        Select a primary domain to indicate the top-level domain in the domain map. The Top domain represents a single common parent domain, which acts as a single parent node, for the Service Provider domains. For more information, see [Select a primary domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_SelectAPrimaryDomain.md).
+        Select a primary domain to indicate the top-level domain in the domain map. The Top domain represents a single common parent domain, which acts as a single parent node, for the Service Provider domains. For more information, see Select a primary domain.
 
-    -   Create the SP domain under the top domain and set the domain as default. Keeping your domains organized is a crucial part of the domain separation process. Ensure that you are aware of the importance of setting a default. The system automatically assigns task and user records that are not already assigned to a domain to the default domain. For more information, see [Make a domain the default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_MakeAnMSPDomainTheDefault.md) for instructions on how to make a default domain.
+    -   Create the SP domain under the top domain and set the domain as default. Keeping your domains organized is a crucial part of the domain separation process. Ensure that you are aware of the importance of setting a default. The system automatically assigns task and user records that are not already assigned to a domain to the default domain. For more information, see Make a domain the default for instructions on how to make a default domain.
 
-    -   Create a domain hierarchy. For more information, see [Create Domain hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-domain-hierarchy.md).
+    -   Create a domain hierarchy. For more information, see Create Domain hierarchy.
 
         Create a domain hierarchy that mirrors organization structures for grouping under the top domain. Because you can perform discovery and provisioning only from the leaf domain, set up leaf domains in the hierarchy that represent concrete entities and organizations.
 
         Based on the domain hierarchy, users have access to data in their home domain and any child domains. The process flows down and the data bubbles up. You can assign user records with a domain value that represents the user’s home domain. While users have no access to data in parent domains, peer domains, or domains in other branches of the hierarchy. A process that is setup in a parent domain is applicable to all child domains. For more information, see
 
-        -   [Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-sp-reference-arch-ds.md)
-        -   [Domain separation architecture data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-what-is-domain-separation.md)
+        -   Service provider reference architecture
+        -   Domain separation architecture data
         Customer data is affected based on domain hierarchies:
 
         -   Parent/child: Process and data affected
@@ -72,7 +72,7 @@ Perform the following tasks to set up your domain-separated instance:
 
                 **Note:** Use sparingly, as Visibility can allow complete access that you may not intend.
 
-    -   [Add a new company](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddANewCompany.md)
+    -   Add a new company
 
         You can add companies that represent vendors, manufacturers, or customers with whom you do business. These companies provide a way to categorize users, groups, and assets.
 
@@ -80,7 +80,7 @@ Perform the following tasks to set up your domain-separated instance:
 
         **Important:** When you create a company for each domain, use a prefix with a unique identifier, such as "COMPANY\_" or "ORG\_".
 
-        To customize the ServiceNow instance for each company, you can enter contact phone numbers, street addresses, and additional notes. You can also customize the company logo and banner text that your end users see at the top of each page. For more information see [Create a new company profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_CreateACompanyProfile.md).
+        To customize the ServiceNow instance for each company, you can enter contact phone numbers, street addresses, and additional notes. You can also customize the company logo and banner text that your end users see at the top of each page. For more information see Create a new company profile.
 
 -   Create user groups and assign roles and domain to the users of each new company. You assign users to companies to associate them with domains. Associate a company with a user to map the user to a domain.
     1.  Navigate to **Organizations** &gt; **Company,** and click **New** to create new users. For more information on creating users, see, [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAUser.md)
@@ -94,7 +94,7 @@ Perform the following tasks to set up your domain-separated instance:
         -   Domain user for each leaf domain. Assign the sn\_cmp.cloud\_service\_user role to cloud users.
         -   \(Optional\) Create users for additional roles in leaf domains \(roles like designer, governor\).
 
-            To provide limited visibility for certain domains to certain users, add them via groups. For more information, see [Grant visibility domains to an individual user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_GrVisDomIndUser.md).
+            To provide limited visibility for certain domains to certain users, add them via groups. For more information, see Grant visibility domains to an individual user.
 
     4.  Create a "contains" domain relationship between the SP domain and the TOP domain.
 

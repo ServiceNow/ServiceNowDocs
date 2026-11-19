@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Manage data growth in Core UI, Data Management, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Migrating non-reference fields to reference fields

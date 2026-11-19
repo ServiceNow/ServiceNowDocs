@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using value templates, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Using value templates, Using Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add a value template
@@ -22,13 +22,13 @@ Role required: \[sn\_ai\_governance\_ai\_steward\]
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **AI Control Tower**.
+1.  Navigate to **Workspaces** &gt; **Control Tower**.
 
 2.  Select the **AI asset inventory** tab and navigate to the asset that you want to assign a value template to.
 
 3.  In the **Value template** tab, select **Add template**.
 
-    \[Omitted image "aict-add-value-template.png"\] Alt text: Value template tab in AI Control Tower.
+    \[Omitted image "aict-add-value-template.png"\] Alt text: Value template tab.
 
 4.  On the Add value template form, fill in the fields.
 

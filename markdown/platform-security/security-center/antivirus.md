@@ -1,6 +1,6 @@
 ---
-title: Antivirus
-description: Displays the trend of when events occur on potentially infected files. See when they are discovered, placed into quarantine, restored, or deleted.
+title: Antivirus metrics
+description: Antivirus metrics display the trend of when events occur on potentially infected files. See when they are discovered, placed into quarantine, restored, or deleted.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/antivirus.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Security metrics, Security monitoring console, Security Center, Platform Security]
 ---
 
-# Antivirus
+# Antivirus metrics
 
-Displays the trend of when events occur on potentially infected files. See when they are discovered, placed into quarantine, restored, or deleted.
+Antivirus metrics display the trend of when events occur on potentially infected files. See when they are discovered, placed into quarantine, restored, or deleted.
 
 This page displays cards with information on metrics related to antivirus activity on your instance. Each card displays a trend line for the following metrics:
 

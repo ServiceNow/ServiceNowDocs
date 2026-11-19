@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-aia-use-cases-list.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-05"
+last_updated: "2026-11-17"
 reading_time_minutes: 7
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [AI agents and agentic workflows, Enable AI Experiences]
@@ -268,7 +268,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Manufacturing Commercial Operations \(MCO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/ai-in-mco.md)
+[Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/manufacturing-overview.md)
 
 </td><td>
 
@@ -312,6 +312,14 @@ Help manage public information requests
 -   [Help remediate bill issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/billissue-remediation-usecase.md)
 -   [Service test and repair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-service-test-repair-agentic-workflow.md)
 -   [Smart Actions for Telecom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-smart-actions-agentic-workflow.md)
+
+</td></tr><tr><td>
+
+[Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecom-network-inventory.md)
+
+</td><td>
+
+[Rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/servicenow-otto-agentic-workflows.md)
 
 </td></tr><tr><td>
 
@@ -444,7 +452,7 @@ Available agentic workflows
 
 </th></tr></thead><tbody><tr><td>
 
-Now Assist for Zero Copy Connector
+[Now Assist for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-overview.md)
 
 </td><td>
 

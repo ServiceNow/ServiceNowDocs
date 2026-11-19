@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/c\_PhoneCommunication.html
 release: brazil
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 6
 keywords: [voice, phone, omnichannel, configure, CTI, OpenFrame, ICC]
 breadcrumb: [Configure omnichannel, Configure, Customer Service Management]
@@ -23,7 +23,7 @@ Voice channel integration in ServiceNow supports two implementation options:
 
     ServiceNow supports voice integration through OpenFrame and Interaction Controls Component \(ICC\) for organizations using third-party CCaaS platforms such as Amazon Connect, Genesys, Five9, 3CLogic, and others. OpenFrame embeds the CTI softphone in the CRM Workspace so agents can access call controls and presence information without leaving ServiceNow.
 
--   Browser-based calling through Web Real-Time Communication \(WebRTC\). See [Enable WebRTC for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/portal-phone-widget.md) to get an overview of how WebRTC voice call works.
+-   Browser-based calling through Web Real-Time Communication \(WebRTC\). See [Enable WebRTC for Voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/portal-phone-widget.md) to get an overview of how WebRTC voice call works.
 
 The following example shows a customer service journey combining voice support with omnichannel capabilities via integration with a third-party CCaaS provider using OpenFrame and ICC.
 
@@ -224,5 +224,5 @@ CSM admin
 </td></tr></tbody>
 </table>**Note:**
 
-For WebRTC-based voice calling, which doesn't require an external contact center platform, configure the voice call widget in your Customer Service Portal or Engagement Messenger. This approach supports browser-to-browser calling without platform dependencies. For more information, see [Enable WebRTC for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/portal-phone-widget.md).
+For WebRTC-based voice calling, which doesn't require an external contact center platform, configure the voice call widget in your Customer Service Portal or Engagement Messenger. This approach supports browser-to-browser calling without platform dependencies. For more information, see [Enable WebRTC for Voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/portal-phone-widget.md).
 

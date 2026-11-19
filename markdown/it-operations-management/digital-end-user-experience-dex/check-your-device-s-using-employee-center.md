@@ -24,15 +24,15 @@ Role required: none
 
 1.  Open Device health check from Employee Center using one of the following options.
 
-<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d814086e81">
+<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d817324e83">
 
 Option
 
-</th><th align="left" id="d814086e84">
+</th><th align="left" id="d817324e86">
 
 Steps to open Device health check
 
-</th></tr></thead><tbody><tr><td id="d814086e90">
+</th></tr></thead><tbody><tr><td id="d817324e92">
 
 **Hardware or Software pages**
 
@@ -48,7 +48,7 @@ The Device health check widget appears, displaying device health categories with
 5.  Select a category to see more details in the Device health check page.
 
 
-</td></tr><tr><td id="d814086e167">
+</td></tr><tr><td id="d817324e169">
 
 **Quick links**
 

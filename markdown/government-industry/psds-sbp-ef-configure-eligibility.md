@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-sbp-ef
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Configure Eligibility Rules Engine, Social Benefits Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -267,15 +267,15 @@ Role required: admin
 
 3.  Do one of the following, depending on what information you want to update.
 
-<table id="choicetable_swn_gw1_3bc"><thead><tr><th align="left" id="d50134e823">
+<table id="choicetable_swn_gw1_3bc"><thead><tr><th align="left" id="d51103e831">
 
 Select...
 
-</th><th align="left" id="d50134e826">
+</th><th align="left" id="d51103e834">
 
 To...
 
-</th></tr></thead><tbody><tr><td id="d50134e832">
+</th></tr></thead><tbody><tr><td id="d51103e840">
 
 **Select the Details tab.**
 
@@ -283,7 +283,7 @@ To...
 
 Edit details such as the policy name, category, date, and description.
 
-</td></tr><tr><td id="d50134e841">
+</td></tr><tr><td id="d51103e849">
 
 **Select the Policy Builder tab.**
 
@@ -291,7 +291,7 @@ Edit details such as the policy name, category, date, and description.
 
 Make changes to the policy logic, and switch between versions to take various actions at the version level. **Note:** Published versions of policies cannot be updated. To make changes to the logic of an existing policy, select **Create a copy** to create a new version of the existing policy that can be updated accordingly.
 
-</td></tr><tr><td id="d50134e855">
+</td></tr><tr><td id="d51103e863">
 
 **Select the Version Management tab.**
 
@@ -299,7 +299,7 @@ Make changes to the policy logic, and switch between versions to take various ac
 
 Manage different versions of a policy.
 
-</td></tr><tr><td id="d50134e864">
+</td></tr><tr><td id="d51103e872">
 
 **Select the Mappings tab.**
 
@@ -307,7 +307,7 @@ Manage different versions of a policy.
 
 Update or review the benefits to which the given policy is mapped.
 
-</td></tr><tr><td id="d50134e874">
+</td></tr><tr><td id="d51103e882">
 
 **Select the Executions tab.**
 

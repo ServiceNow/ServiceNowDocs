@@ -1,6 +1,6 @@
 ---
 title: Configure the experts On-call panel for an incident
-description: Configure the Experts on-call panel for an incident.
+description: Customize the recommendations that the Experts on-call panel displays for an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/customize-experts-on-call-tab.html
 release: brazil
@@ -14,22 +14,22 @@ breadcrumb: [Configuring record pages in Service Operations Workspace for ITSM, 
 
 # Configure the experts On-call panel for an incident
 
-Configure the **Experts on-call** panel for an incident.
+Customize the recommendations that the **Experts on-call** panel displays for an incident.
 
 ## Before you begin
 
 Role required: admin
 
-To configure the Experts On-call panel, ensure that you have added an implementation for the **sn\_sow\_on\_call.ExpertsOnCallTabConfig** extension point.
+To configure the Experts On-call panel, an implementation for the **sn\_sow\_on\_call.ExpertsOnCallTabConfig** extension point must be added.
 
 **Note:**
 
 -   Incident table extension point implementation is added by default. To customize it, edit the script to include **ExpertsOnCallTabConfigForIncident**.
--   Example: If you want to display only the assignment group in the Experts On-call panel, then update the **getRecommendedFieldWatchList** in the script.
+-   Example: To display only the assignment group in the Experts On-call panel, update the **getRecommendedFieldWatchList** in the script.
 
 ## About this task
 
-To add Experts On-call for Problem table, follow the steps:
+To add Experts On-call for the Problem table, follow the steps:
 
 ## Procedure
 

@@ -48,5 +48,5 @@ For creating dashboards: analytics\_admin or analytics\_viewer.
 **Related topics**  
 
 
-[Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md)
+[Create a Platform Analytics dashboard with the inline editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md)
 

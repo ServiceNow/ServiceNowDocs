@@ -19,7 +19,7 @@ Work on change requests and create the approval policies as required to meet you
 -   **[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateAChange.md)**  
 Create a change request to implement a controlled process for modifying approved and supported configuration items \(CIs\).
 -   **[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ProcessAChangeRequest.md)**  
-You can approve, implement, review, and close a change request.
+Approve, implement, review, and close a change request.
 -   **[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/using-change-approval-policies-cf.md)**  
 Use the change approval policy to create change approval definitions and the change approval policy workflow to control the approval process for a change request.
 -   **[Working with the CAB Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/using-cab-workbench-cf.md)**  

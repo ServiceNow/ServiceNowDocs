@@ -76,7 +76,7 @@ The following device types haven’t been verified for IPv6 discovery:
 
 -   **Set the preferred IP address version for network adapter discovery**
 
-    Starting with Visibility Content version 6.32.0, if your network adapters support both IPv4 and IPv6, the IPv4 address is populated by default in the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
+    Starting with Visibility Content version 6.32.0, the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table defaults to IPv4 when adapters support both IPv4 and IPv6. To control the preferred IP version, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
 
 
 ## Classifiers, probes, and patterns

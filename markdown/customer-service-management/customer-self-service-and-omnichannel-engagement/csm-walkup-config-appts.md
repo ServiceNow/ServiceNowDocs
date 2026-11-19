@@ -1,6 +1,6 @@
 ---
 title: Create a Walk-up Experience appointment booking configuration for a service
-description: Create or modify appointment booking configurations for Walk-up Experience services. A service is defined as the actual physical location of a walk-up queue. The information stored in the Walk-up Experience application configuration applies to all services,or queue locations, within the application.
+description: Create an appointment booking configuration for a Walk-up Experience service location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-config-appts.html
 release: brazil
@@ -14,13 +14,15 @@ breadcrumb: [Appointment booking configuration, Walk-up Experience appointment b
 
 # Create a Walk-up Experience appointment booking configuration for a service
 
-Create or modify appointment booking configurations for Walk-up Experience services. A service is defined as the actual physical location of a walk-up queue. The information stored in the Walk-up Experience application configuration applies to all services,or queue locations, within the application.
+Create an appointment booking configuration for a Walk-up Experience service location.
 
 ## Before you begin
 
 Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
 ## About this task
+
+A service is the actual physical location of a walk-up queue. The information stored in the Walk-up Experience application configuration applies to all services,or queue locations, within the application.
 
 To use the appointment booking feature, administrators must create a configuration for each service, or queue location, that is available to walk-up customers. Service configurations are created within the **Walk-up Experience** application configuration, as part of the **Appointment Booking** application.
 

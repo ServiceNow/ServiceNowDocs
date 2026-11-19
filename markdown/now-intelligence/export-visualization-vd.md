@@ -42,7 +42,7 @@ If you have any ServiceNow Otto applications installed, you can probably export 
 
 2.  Select the visualization that you want to export.
 
-3.  From the More actions menu \[Omitted image "icon-paw-more-actions.png"\], select **Export**.
+3.  From the More actions menu \[Omitted image "icon-paw-more-actions.png"\] Alt text: More actions button, select **Export**.
 
     \[Omitted image "paw-vd-export.png"\] Alt text: Export option in More actions menu
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Using GRC: Metrics to provide data
@@ -43,5 +43,5 @@ Submit metric data tasks for a campaign individually, or together as a bulk acti
 -   **[Manage metric data tasks for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/manage-metric-data-tasks-for-a-campaign.md)**  
 Approve, reject, or review metric data tasks for a campaign individually, or together as a bulk action if bulk submission is enabled for the campaign.
 
-**Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)
+**Parent Topic:**[Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)
 

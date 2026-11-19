@@ -53,7 +53,5 @@ For more information, refer to [Activate Virtual Agent for Workplace Service Del
 **Related topics**  
 
 
-[Workplace Service Portal]()
-
 [Workplace services on the Employee Center portal]()
 

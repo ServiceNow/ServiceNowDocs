@@ -36,3 +36,8 @@ Role required: sn\_erp\_integration.erp\_admin
     For a description of the field values, see [Zero Copy Connector for ERP Monitor field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-data-hub-monitor-field-descriptions.md).
 
 
+-   **[Export Zero Copy Connector for ERP transaction data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/monitor-export-telemetry-data.md)**  
+Export Zero Copy Connector for ERP \(Enterprise Resource Planning\) transaction information such as failures and usage. Filter the data as needed and then export to Excel, CSV, JSON, or PDF format.
+
+**Parent Topic:**[Zero Copy Connector for ERP troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-troubleshooting.md)
+

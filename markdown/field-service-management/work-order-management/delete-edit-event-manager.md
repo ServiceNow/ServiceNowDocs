@@ -38,15 +38,15 @@ If the event you're editing is a break, breaks can be moved outside the Break Wi
 
 6.  Edit or delete the event.
 
-<table id="choicetable_wmv_ly5_fhc"><thead><tr><th align="left" id="d52188e108">
+<table id="choicetable_wmv_ly5_fhc"><thead><tr><th align="left" id="d52297e110">
 
 Selection
 
-</th><th align="left" id="d52188e111">
+</th><th align="left" id="d52297e113">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d52188e117">
+</th></tr></thead><tbody><tr><td id="d52297e119">
 
 **Delete**
 
@@ -57,7 +57,7 @@ Action
 
 **Note:** If this is a recurring event, select the occurrence the change applies to. Choose **Delete this event** to delete only this occurrence, or **Delete this and future events** to delete this occurrence and all future occurrences.
 
-</td></tr><tr><td id="d52188e151">
+</td></tr><tr><td id="d52297e153">
 
 **Edit**
 

@@ -24,7 +24,7 @@ Cards
 
 Description
 
-</th></tr></thead><tbody><tr><td colspan="2">
+</th></tr></thead><tbody><tr><td class="sub-head" colspan="2">
 
 Roles and Access
 
@@ -94,7 +94,7 @@ System compliance
 
 </td><td>
 
-Configure compliance system policies, manage applications, and set up metric rules for compliance-related thresholds.For more information, see [Manage your system compliance report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/manage-compliance-report.md).
+Configure compliance system policies, manage applications, and set up metric rules for compliance-related thresholds.To manage the compliance report, see [Manage your system compliance report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/manage-compliance-report.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ File management
 
 </td><td>
 
-Configure and manage the executable files available on the end-user devices.For more information, see [Set up file management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/set-up-file-mgmt.md).
+Configure and manage the executable files available on the end-user devices.To set up file management, see [Set up file management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/set-up-file-mgmt.md).
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Windows registry configuration
 
 Configure the Windows registry keys to identify and manage any mismatch in end-user devices.**Note:** Select the registry key path to edit the key by modifying the path or expected value. You can also delete the key.
 
-For more information, see [Set up Windows registry keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/set-up-win-registry-keys.md).
+To set up registry keys, see [Set up Windows registry keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/set-up-win-registry-keys.md).
 
 </td></tr><tr><td>
 
@@ -138,7 +138,7 @@ Create Remedial Actions
 
 Create your custom remedial actions from check definitions to resolve endpoint-related issues using the Playbook.
 
-</td></tr><tr><td colspan="2">
+</td></tr><tr><td class="sub-head" colspan="2">
 
 Usage and Health Monitoring
 
@@ -164,17 +164,17 @@ Desktop Assistant usage
 
 </td><td>
 
-Get insight into Desktop Assistant usage across all your organization's employees. For more information, see [View Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/view-da-usage-metrics.md).
+Get insight into Desktop Assistant usage across all your organization's employees. To view the usage metrics, see [View Desktop Assistant usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/view-da-usage-metrics.md).
 
 </td></tr></tbody>
 </table>To return to the administration details page, see [DEX Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/dex-workspace-administration-tab.md).
 
 -   **[Application management card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/app-mngmt-card.md)**  
-The Application management card lists the applications in use, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
+The Application management card shows the list of the used applications, application type, end-user OS, and whether an application is included in the metrics or compliance monitoring.
 -   **[Add web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/admin-new-app-form.md)**  
-Using a custom form, you can add an application to be monitored for compliance or performance metrics.
+The Add web or installed application form contains the fields for adding an application to monitor for compliance or performance metrics.
 -   **[Edit web or installed application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/admin-edit-app-form.md)**  
-Using a custom form, you can edit an application to be monitored for compliance or performance metrics.
+The Edit web or installed application form contains the fields for editing an application that's monitored for compliance or performance metrics.
 -   **[Alert rules page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/metric-rule-form.md)**  
 The alert rules page shows information about a specific rule, including its name, app type, rule type, application name, alert severity, and alert status.
 -   **[Agent policies list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/agent-policies-list.md)**  

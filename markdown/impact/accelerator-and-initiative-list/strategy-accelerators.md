@@ -40,7 +40,6 @@ Accelerator outputs and formats have common standardized features, but may diffe
 |[ITOM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ITOM-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[ITSM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/itsm-maturity-assessment.md)| |✓|✓|✓|✓|✓|
 |[Knowledge Management Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/knowledge-management-maturity-assessment.md)| |✓|✓|✓|✓| |
-|[LSD Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/lsd-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[OCM: Preparing for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ocm-preparing-for-change.md)| |✓|✓|✓|✓| |
 |[OCM: Managing Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ocm-managing-change.md)| |✓|✓|✓|✓| |
 |[OCM: Reinforcing and Sustaining Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ocm-reinforcing-sustaining-change.md)| |✓|✓|✓|✓| |

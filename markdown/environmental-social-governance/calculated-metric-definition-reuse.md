@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create a calculated metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Create a calculated metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Calculated metric definition form

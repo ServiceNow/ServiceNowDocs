@@ -20,8 +20,6 @@ Configure the ServiceNow Otto for Software Asset Management \(SAM\) application 
 If you have the admin role, you can install the ServiceNow Otto for Software Asset Management \(SAM\) application. The ServiceNow Otto for Software Asset Management \(SAM\) application integrates generative AI capabilities into your daily workflow tasks.
 -   **[Configuring ServiceNow Otto for Software Asset Management \(SAM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/configure-now-assist-sam.md)**  
 If you have the admin role, you can configure the ServiceNow Otto for Software Asset Management \(SAM\) application to use generative AI skills in the Software Asset Workspace.
--   **[Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/now-assist-sam-skills-inputs.md)**  
-Get a quick overview of the skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 
 **Parent Topic:**[Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/Config-sam-workspace.md)
 

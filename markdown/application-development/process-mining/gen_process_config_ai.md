@@ -19,16 +19,16 @@ Use AI to generate a suggestion for the process configuration fields for a table
 
 ## Before you begin
 
-ServiceNow Otto for Process Mining must be installed and the following skills must be enabled:
+The following skills must be activated:
 
--   Generate process configuration skill: This skill is activated by default.
--   Generate state responsibility mapping skill: This skill is activated by default.
+-   Generate process configuration skill: For more information, see [Generate process configuration using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/activate-pro-config-skill.md).
+-   Generate state responsibility mapping skill: For more information, see [Generate state responsibility mapping using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/activate-gen-state-resp.md).
 
 Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 ## About this task
 
-AI generation analyzes your table's fields and how frequently they change, then suggests which fields to use for your control flow \(state\), team, and agent definitions, along with suggested breakdown, transition work notes, clustering, and root-cause-analysis fields.
+AI generation analyzes your table's fields and how frequently they change. It then suggests which fields to use for your control flow \(state\), team, and agent definitions, along with suggested breakdown, transition work notes, clustering, and root-cause-analysis fields.
 
 ## Procedure
 

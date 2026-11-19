@@ -1,13 +1,13 @@
 ---
 title: Set up OAuth authentication for a clone target
-description: Complete a one-time OAuth setup to register a target instance for cloning. This process generates a Client ID on the target instance and authorizes the connection from the source instance.
+description: Complete a one-time OAuth setup to register a target instance for cloning. This process generates a Client ID on the target instance and authorizes the connection from the source instance.Configure the target instance user for basic authentication when the target instance does not support OAuth authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/setup-clone-oauth.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Register instance for cloning, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+reading_time_minutes: 3
+breadcrumb: [Register instance for cloning, Configure, Instance Clone, Configure core features, ServiceNow AI Platform]
 ---
 
 # Set up OAuth authentication for a clone target
@@ -20,8 +20,12 @@ Both the source and target instances must be on Australia Patch 5 or later to us
 
 Roles required:
 
--   Source instance: clone\_admin
--   Target instance: clone\_admin and oauth\_admin
+|Instance|Initial OAuth setup|Subsequent clone operations|
+|--------|-------------------|---------------------------|
+|Source|clone\_admin, oauth\_admin|clone\_admin, oauth\_user|
+|Target|clone\_admin, oauth\_admin|Not required|
+
+**Note:** The oauth\_admin role is required on both instances only to complete the one-time OAuth provider creation. Users who submit clone operations after setup is complete need the oauth\_user role on the source instance instead.
 
 ## Procedure
 
@@ -35,18 +39,7 @@ Roles required:
 
     The system runs a version compatibility check.
 
-    If the target instance doesn't support OAuth authentication, the system falls back to basic authentication. The target-instance user must have:
-
-    -   the clone\_admin role
-    -   the soap role
-    -   identity\_type set to machine on the user record
-    **Warning:**
-
-    The **identity\_type** field may not appear on the User form by default. If it isn't visible, add it temporarily using Form Layout.
-
-    Users with identity\_type = machine can no longer log in to the instance UI. This configuration supports Basic Auth for automated and integration traffic only.
-
-      recommends using OAuth for cloning. For more information, see [Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/register-target-instance-troubleshooting.md).
+    If the target instance doesn't support OAuth, the system falls back to basic authentication. See [Configure basic authentication fallback for clone targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/setup-clone-oauth.md) for configuration steps.
 
 5.  Select **Setup OAuth on Target**.
 
@@ -56,7 +49,9 @@ Roles required:
 
     The page generates a Client ID.
 
-    If the Client ID is not generated, verify that you have the oauth\_admin role on the target instance and that the page loaded completely before selecting **Set up OAuth**.
+    If the Client ID is not generated, the OAuth provider creation may have failed. This occurs when the user performing the setup does not have the oauth\_admin role on the target instance. Without this role, the system can't create the OAuth provider record and returns an authorization error.
+
+    To resolve this, verify that the user has the oauth\_admin role on the target instance, then reload the OAuth setup page and select **Set up OAuth** again.
 
 7.  Copy the **Client ID**.
 
@@ -84,5 +79,35 @@ The target instance is registered and authorized for clone requests.
 ## What to do next
 
 -   To submit a clone request to the new target, see [Request a clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_StartAClone.md).
--   To reset or re-authorize OAuth for this target, see .
+-   To reset or re-authorize OAuth for this target, see [Reset OAuth for a clone target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/reauthorize-clone-target.md).
+
+## Configure basic authentication fallback for clone targets
+
+Configure the target instance user for basic authentication when the target instance does not support OAuth authentication.
+
+### Before you begin
+
+Role required: clone\_admin
+
+### About this task
+
+Basic authentication requires specific role and identity configuration on the target instance user record.
+
+### Procedure
+
+1.  On the target instance, verify that the user has the clone\_admin role and the soap role.
+
+2.  On the user record, set **identity\_type** to **machine**.
+
+    **Warning:** The **identity\_type** field may not appear on the User form by default. If it isn't visible, add it temporarily using Form Layout. Users with **identity\_type** set to **machine** can no longer log in to the instance UI. This configuration supports Basic Auth for automated and integration traffic only.
+
+
+### Result
+
+The target instance is configured for basic authentication. Clone operations can proceed using Basic Auth for automated and integration traffic.
+
+**Related topics**  
+
+
+[Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/register-target-instance-troubleshooting.md)
 

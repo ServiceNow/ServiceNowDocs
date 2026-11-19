@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Console, Upgrade, ServiceNow AI Platform]
 ---
 
 # Configuring Upgrade Console

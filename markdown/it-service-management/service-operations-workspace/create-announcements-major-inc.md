@@ -18,7 +18,7 @@ Create and manage an announcement to broadcast messages for Service Portal users
 
 ## Before you begin
 
-Role required: announcement\_admin, sp\_admin or admin
+Role required: announcement\_admin, sp\_admin, or admin
 
 As a major\_incident\_manager, you must inherit any of the required roles to create and manage announcements in Major Incident Management.
 
@@ -32,7 +32,7 @@ Announcements can be displayed in an announcement banner or an announcement widg
 
 2.  Select **Manage announcements**.
 
-    A list of all major incident announcement records, is displayed. You can select any announcement record and modify the record. Else, create a new announcement record.
+    A list of all major incident announcement records is displayed. You can select an announcement record and modify it, or create a new announcement record.
 
 3.  Select **New**.
 
@@ -194,8 +194,6 @@ Details page
 
 Page that opens in the current browser tab. **Note:** This option is applicable only if the **Select target** field is set to **Page**.
 
-Available if
-
 </td></tr><tr><td>
 
 Details URL
@@ -236,7 +234,7 @@ Portals that display the announcement. If this field is empty, the announcement 
 
     A **Related records** tab appears.
 
-6.  On the **Related records** tab, you use the following related links.
+6.  On the **Related records** tab, use the following related links.
 
     -   Can View: Contains a list of user criteria to enable the users to view the announcements based on role, department, group, location, or company.
     -   Cannot View: Contains a list of user criteria to block users from viewing the announcements based on role, department, group, location, or company.

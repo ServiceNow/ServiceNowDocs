@@ -73,6 +73,19 @@ After AI Agent Advisor completes an analysis, it produces a prioritized list of 
     -   Type in the search box and select the **Submit search** icon \(\[Omitted image "icon-now-assist-center-search.png"\] Alt text: Submit search icon.\) to filter by search criteria.
     -   Select the filter button \(\[Omitted image "icon-now-assist-center-filter.png"\] Alt text: Filter icon.\), choose one or more filters, and select **Apply**.
     -   Select the **Grid layout** \(\[Omitted image "icon-aiac-lux-grid.png"\] Alt text: Grid layout icon.\) to display the opportunities in a list or **Gallery layout** \(\[Omitted image "icon-aiac-lux-gallery.png"\] Alt text: Gallery layout icon.\) to show them as stacked cards.
+5.  Change the columns that appear in the list table.
+
+    1.  Select the **Personalize columns** button \(\[Omitted image "icon-aiac-lux-personalize.png"\] Alt text: Personalize columns icon.\).
+
+        The **Personalize columns** box opens.
+
+    2.  Customize the columns as needed.
+
+        -   Select an option to add the column to your list. Clear an option to remove it.
+        -   Drag one or more columns to a different location to change the order in which they appear in your list. Columns ordered from top to bottom in the panel appear from left to right in the list table.
+        -   Select **Reset to default** to restore the column configuration before your changes.
+    3.  Select **Apply**.
+
 
 ## What to do next
 

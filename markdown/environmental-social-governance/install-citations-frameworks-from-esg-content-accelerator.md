@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Configure, Operational Sustainability Management]
 ---
 
 # Activate or update a framework and install citations using the Unified content management

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-pricingmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
-reading_time_minutes: 5
+last_updated: "2026-11-19"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -78,7 +78,29 @@ Brazil
 
 </td><td>
 
--   **[Automatic addition of derived product lines](https://www.servicenow.com/docs/access?context=configuring-related-product-pricing&family=brazil&ft:locale=en-US)**
+-   **[Consumer context variable](https://www.servicenow.com/docs/access?context=som-create-context-variable&family=brazil&ft:locale=en-US)**
+
+Define pricing and eligibility rules for individual consumers with the new system-defined Consumer context variable for transaction lines. The variable references the Consumer \[csm\_consumer\] table.
+
+-   **[Deselected lines in the pricing response](https://www.servicenow.com/docs/access?context=sales_crm_pricing-POST-compute-price&family=brazil&ft:locale=en-US)**
+
+Keep a complete view of the transaction in pricing responses by returning deselected lines. When the **price\_all\_lines** request setting is true, lines sent with **selected** set to false are included in the response. Deselected lines don't contribute to derived prices.
+
+
+ -   **[Cache for derived price rule results](https://www.servicenow.com/docs/access?context=configuring-related-product-pricing&family=brazil&ft:locale=en-US)**
+
+Accelerate derived pricing with cached rule matrix results, reducing repeated rule matrix evaluations for source and target product offering pairs. The improvement is especially significant for accounts with many sold products. Caching is enabled by default, and results expire after 72 hours.
+
+-   **[Buyer organization and channel partner context variables](https://www.servicenow.com/docs/access?context=som-create-context-variable&family=brazil&ft:locale=en-US)**
+
+Tailor pricing and eligibility rules to the buyer organization or channel partner using the new Buyer Organization and Channel Partner context variables for transaction lines. Both system-defined variables reference the Customer Service Organization \[sn\_customer\_service\_organization\] table.
+
+-   **[Extension point for line lookup in derived pricing](https://www.servicenow.com/docs/access?context=extension-points-som-pricing&family=brazil&ft:locale=en-US)**
+
+Customize transaction line lookup for derived pricing by implementing the getLinesFromEntityTableEncodedQuery method of the DerivedProductPriceExtensionPoint extension point. The method returns an encoded query for the lines associated with the current header entity, such as a quote.
+
+
+ -   **[Automatic addition of derived product lines](https://www.servicenow.com/docs/access?context=configuring-related-product-pricing&family=brazil&ft:locale=en-US)**
 
 Accelerate quoting for derived pricing by automating the creation and alignment of derived product lines. Sellers add the source products and the derived product to the transaction. The pricing engine then generates the required derived lines, aligns their dates to the source lines that fund them, and keeps them synchronized as the sources change. The engine automatically splits derived lines when a source is ramped or amended, ensuring date ranges remain aligned across all related lines.
 
@@ -122,7 +144,63 @@ Brazil
 
 </td><td>
 
--   **[Extended product life cycle support in Price Management](https://www.servicenow.com/docs/access?context=extended-product-lifecycle-states&family=brazil&ft:locale=en-US)**
+-   **[Derived product lines in upsell and renewal quotes](https://www.servicenow.com/docs/access?context=configuring-related-product-pricing&family=brazil&ft:locale=en-US)**
+
+Improve derived product line generation and placement in upsell and renewal quotes.
+
+    -   Renewal quotes
+        -   Newly generated split lines for derived products now have the Renew line type and Add action. Previously, these lines had the New line type and Add action.
+        -   Split lines for derived products now inherit the applicable sold product fields from the contract line. Previously, these fields could be missing.
+        -   Derived product lines in renewal quotes now show the correct term. Previously, the term was incorrect and required you to reprice the quote
+    -   Upsell quotes
+        -   When a source product is swapped, the derived product now gets the required Amend and Add lines.
+        -   Derived product split lines are now added within their wrapper line. Previously, a split line could be added outside the wrapper.
+    -   Early renewals
+        -   For early renewals that cover multiple contracts, source lines, target lines, and sold products are now limited to the contract being renewed. Previously, a no-change line could be selected from a different contract.
+        -   No-change lines are now skipped when the parent line is also renewed. Previously, these lines could be inserted under the renewal wrapper.
+-   **[Pricing requests and responses](https://www.servicenow.com/docs/access?context=sales_crm_pricing-POST-compute-price&family=brazil&ft:locale=en-US)**
+
+Get complete and consistent pricing responses for your integrations.
+
+    -   Pricing continues when a setting in the request isn't defined, instead of stopping.
+    -   Extra spaces in a **pricing\_elements** value are trimmed, so the list price step is no longer skipped.
+    -   When **use\_external\_code** is true, **product\_offering** returns the external ID code rather than the sys\_id.
+    -   In upsell, renewal, and new business quotes, values that aren't numbers, such as support type, are returned as empty strings instead of null.
+-   **Pricing for product instance changes**
+
+Price changes to product instances against the characteristics the sold product already has.
+
+    -   Characteristic-based adjustments for modify, add, change, and disconnect requests on a product instance now use the product model characteristics of the sold product, which pricing previously left out.
+
+ -   **[Derived pricing in renewals and amendments](https://www.servicenow.com/docs/access?context=configuring-related-product-pricing&family=brazil&ft:locale=en-US)**
+
+Calculate derived prices that reflect the current state of their source lines.
+
+    -   When a contributing product is amended, pricing now carries the auto-renew value from the sold product to generated sold product lines, derived product lines, and other generated lines. Previously, generated lines didn't retain the auto-renew setting, causing lines such as derived product lines to have auto-renew set to false.
+    -   Previously, when a source line was fully terminated \(canceled and disconnected, or canceled and added\), the markdown on the derived product line was zero. Now, the markdown is calculated from the source line's price before cancellation, so the derived line reflects the removed contribution.
+    -   Only sold products whose price list currency matches the transaction currency now contribute to a derived price. Previously, sold products in other currencies could contribute when an account had sold products in multiple currencies.
+    -   During early renewal, derived pricing now skips lines already covered by a consolidated contract line and excludes canceled lines from derived adjustments on renewal lines. Previously, covered lines could be added again when derived lines were generated, and canceled lines with a zero price could affect derived adjustments.
+    -   In early renewal quotes, a terminated source line no longer contributes to its derived product line.
+    -   Improved performance for derived price calculation for accounts with a high number of sold products.
+    -   When all the source lines of a derived product line are terminated, the derived product line is now terminated as well.
+-   **Bundle rollups and margin**
+
+Show accurate bundle totals and margins on quote lines.
+
+    -   Bundle rollups no longer include child lines deleted from the bundle. The cumulative price uses only the remaining lines.
+    -   When the cumulative net price is zero, the cumulative margin percentage is saved as zero instead of an invalid value.
+-   **[Validation of pricing plan conditions before publishing](https://www.servicenow.com/docs/access?context=configuring-pricing-plan&family=brazil&ft:locale=en-US)**
+
+Prevent pricing plans with invalid conditions from reaching transactions. You can no longer publish a pricing plan with a step condition that can't be evaluated. Publishing is blocked until each step condition is valid.
+
+-   **Context variables and rule matrices**
+
+Keep rule matrix evaluation accurate.
+
+    -   A context variable and a decision table column that differ only by the u\_ prefix such as u\_age\_new or age\_new are now matched, so the rule matrix no longer falls back to its default row.
+    -   The result columns of the Derived Pricing Matrix v2 decision table are loaded whenever the Pricing Matrix plugin is active, not only when demo data is installed.
+
+ -   **[Extended product life cycle support in Price Management](https://www.servicenow.com/docs/access?context=extended-product-lifecycle-states&family=brazil&ft:locale=en-US)**
 
 Validate pricing setup against catalog changes earlier in their life cycle by extending product offering life cycle visibility into Price Management.
 

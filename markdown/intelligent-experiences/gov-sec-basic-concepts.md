@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Explore, Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Basic concepts for AI asset security
@@ -37,5 +37,5 @@ The agent map is an interactive map showing the relationships of your AI provide
 
 Internal agents are agents that are provided by ServiceNow. External agents are those provided by third parties, such as Google or Amazon Web Services. On the Runtime and Post-runtime tabs, filter on internal or external agents to compare the security postures of your ServiceNow and third-party agents.
 
-**Parent Topic:**[Exploring security in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-exploring.md)
+**Parent Topic:**[Exploring security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-exploring.md)
 

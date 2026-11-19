@@ -34,4 +34,8 @@ Role required: sn\_dex.admin
 
     The **Remedial action executions** page displays a list of all remedial action executions, including their status and the associated device details.
 
+    **Note:**
+
+    To view details about failed remedial action executions, check the `sys_error`or `sn_agent_acc_error_msg` table.
+
 

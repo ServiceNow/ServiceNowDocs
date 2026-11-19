@@ -80,6 +80,8 @@ Get Case Details
 
 Get relevant knowledge articles
 
+-   **Subflow**
+
 Submit and Fetch Results
 
 
@@ -106,6 +108,14 @@ Triggers
 </td><td>
 
 The agent ships with the trigger StoreInquiryAgentTrigger. It fires when **Assigned to** is not empty and the case state changes from New to Open. It runs once, as the assigned user, in the Now Assist panel. The trigger is inactive by default.
+
+</td></tr><tr><td>
+
+Status
+
+</td><td>
+
+The agent is inactive by default. To activate it, open AI Agent Studio, search for **Store Inquiry AI Agent**, and select **Activate**. After you activate the agent, enable its trigger.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure email agentic workflows, Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure email agentic workflows, Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create and associate actions for intent
@@ -34,15 +34,15 @@ Subflows must be created to invoke subflows to associate an action to the intent
 
 5.  Select the **Type** based on the criteria defined for the intent.
 
-<table id="choicetable_ovz_ssv_3hc"><thead><tr><th align="left" id="d329395e112">
+<table id="choicetable_ovz_ssv_3hc"><thead><tr><th align="left" id="d329306e114">
 
 Type
 
-</th><th align="left" id="d329395e115">
+</th><th align="left" id="d329306e117">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d329395e121">
+</th></tr></thead><tbody><tr><td id="d329306e123">
 
 **Subflow Invocation**
 
@@ -50,7 +50,7 @@ Action
 
 Select the **Subflow** tab and select the subflow that must be triggered when the intent is matched. To create subflows see, [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-subflow.md)
 
-</td></tr><tr><td id="d329395e136">
+</td></tr><tr><td id="d329306e138">
 
 **Reply Email**
 

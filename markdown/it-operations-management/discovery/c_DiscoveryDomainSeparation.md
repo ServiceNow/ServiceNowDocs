@@ -45,6 +45,17 @@ If the SP is remotely managing their customer's data center, there will often be
 
 Once the CIs are assigned to the correct domain, the visibility and read/write access control are provided by the platform through the domain hierarchy. Schedules are visible to users in their respective domains. Cross-domain schedule visibility isn't possible, except for the SP who controls the parent domain and has visibility to all domains.
 
+## Domain separation in Discovery Admin Workspace
+
+Starting with v1.23.0, Discovery Admin Workspace filters IP-based discovery schedules and anomaly detection data by domain on the **Home**, **Schedules**, and **Diagnostics** tabs. Users can view data for their current domain and the global domain. Data from other domains isn't displayed.
+
+If Error Framework is enabled, the **Errors** tab domain picker lists only the domain selected in the platform domain picker, its child domains, and the global domain.
+
+**Warning:**
+
+-   Domain separation isn't yet supported for cloud and certificate discovery schedules.
+-   The **Settings** and **Tuning** tabs don't support domain separation. Their content applies across domains and is the same regardless of the selected domain.
+
 ## Domain separation for MID Server files
 
 You can create versions of these specific MID Server policy records that only a MID Server from the same domain can use. This process separation is supported for records in tables that extend MID Server Synchronized Files \[ecc\_agent\_sync\_file\]:
@@ -84,7 +95,7 @@ Configuring the "Run as" user in a Discovery schedule directs discovered Configu
 
 [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-sep-landing-page.md)
 
-[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/bp-domain-sep-recommended.md)
+[bundle-psec.bp-domain-sep-recommended]
 
 [Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/c_DiscoveryBehaviors.md)
 

@@ -17,7 +17,7 @@ Choose one of these tiles to get started.
 
 <table id="table_btj_11r_r5b" class="nav-card"><tbody><tr><td>
 
-[Administer the ServiceNow AI Platform \[Omitted image "bus-explore.svg"\] Alt text: Learn about the platform and how to configure core features, perform day to day administrator tasks, and upgrade your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/intro-now-platform-landing.md)
+Administer the ServiceNow AI Platform \[Omitted image "bus-explore.svg"\] Alt text: Learn about the platform and how to configure core features, perform day to day administrator tasks, and upgrade your instance.
 
 </td><td>
 
@@ -25,15 +25,15 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[Analyze and optimize business processes \[Omitted image "bus-improve-it-costs.svg"\] Alt text: Measure and accelerate performance with purpose-built analytics solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md)
+Analyze and optimize business processes \[Omitted image "bus-improve-it-costs.svg"\] Alt text: Measure and accelerate performance with purpose-built analytics solutions.
 
 </td></tr><tr><td>
 
-[Secure your instance \[Omitted image "bus-block.svg"\] Alt text:Platform security provides capabilities to secure the instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platsec-landing.md)
+Secure your instance \[Omitted image "bus-block.svg"\] Alt text:Platform security provides capabilities to secure the instance.
 
 </td><td>
 
-[Extend ServiceNow AI Platform capabilities \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Utilize additional applications built into the ServiceNow AI Platform to manage people, work routing, services, and the Configuration Management Database \(CMDB\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/capabilities-bundle-landingpage.md)
+Extend ServiceNow AI Platform capabilities \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Utilize additional applications built into the ServiceNow AI Platform to manage people, work routing, services, and the Configuration Management Database \(CMDB\).
 
 </td><td>
 

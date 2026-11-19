@@ -8,7 +8,7 @@ product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [RAG status, error codes, reference, MPN]
 breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/display-settings-ts-charts.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-11-13"
+reading_time_minutes: 5
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -88,6 +88,22 @@ Show continuous line
 
 Available when **Show 0 when no data available** is not selected. When selected and there is no data for a specific time, there is no gap in the chart and it shows continuous line.
 
+</td></tr><tr><td>
+
+Metric data label position
+
+</td><td>
+
+Position of the data labels relative to the data points of the metric. Options are Above, Middle, and Below. Middle centers the label on the data point. The default is Above.
+
+</td></tr><tr><td>
+
+Show overlapping labels
+
+</td><td>
+
+Option to display values that overlap.**Note:** Only available when **Show data labels** is true.
+
 </td></tr></tbody>
 </table>## Scatter visualization display settings
 
@@ -139,6 +155,22 @@ Show % of total in tooltip
 
 Enable to show the percentage each data point contributes to the total alongside absolute values in the tooltip.
 
+</td></tr><tr><td>
+
+Metric data label position
+
+</td><td>
+
+Position of the data labels relative to the data points of the metric. Options are Above, Middle, and Below. Middle centers the label on the data point. The default is Above.
+
+</td></tr><tr><td>
+
+Show overlapping labels
+
+</td><td>
+
+Option to display values that overlap.**Note:** Only available when **Show data labels** is true.
+
 </td></tr></tbody>
 </table>## Column visualization display settings
 
@@ -189,6 +221,22 @@ Show % of total in tooltip
 </td><td>
 
 Enable to show the percentage each data point contributes to the total alongside absolute values in the tooltip.
+
+</td></tr><tr><td>
+
+Metric data label position
+
+</td><td>
+
+Position of the data labels relative to the columns. Options are Top, Middle, Bottom, and Above. The default is Above. If a label with the Above position does not fit above a column, it moves to the Top position.
+
+</td></tr><tr><td>
+
+Show overlapping labels
+
+</td><td>
+
+Option to display values that overlap.**Note:** Only available when **Show data labels** is true.
 
 </td></tr></tbody>
 </table>Chart variation options:
@@ -270,6 +318,22 @@ Show continuous line
 </td><td>
 
 When selected and there is no data for a specific time, there is no gap in the chart and it shows continuous line.
+
+</td></tr><tr><td>
+
+Metric data label position
+
+</td><td>
+
+Position of the data labels relative to the data points of the metric. Options are Above, Middle, and Below. Middle centers the label on the data point. The default is Above.
+
+</td></tr><tr><td>
+
+Show overlapping labels
+
+</td><td>
+
+Option to display values that overlap.**Note:** Only available when **Show data labels** is true.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-dv-time-series-ac.md)

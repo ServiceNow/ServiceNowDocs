@@ -9,7 +9,7 @@ classification: table-administration-and-data-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Time cards, Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Time cards, Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create a time card
@@ -52,15 +52,15 @@ Time cards can be created automatically or manually.
 
 1.  Create the time card using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d193065e208">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d193011e210">
 
 Option
 
-</th><th align="left" id="d193065e211">
+</th><th align="left" id="d193011e213">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d193065e217">
+</th></tr></thead><tbody><tr><td id="d193011e219">
 
 **From the Time Sheet Portal**
 
@@ -70,7 +70,7 @@ Steps
 2.  Open the week on the **Calendar** for which you want to create the time card.
 
 
-</td></tr><tr><td id="d193065e247">
+</td></tr><tr><td id="d193011e249">
 
 **From a Time sheet related list**
 
@@ -80,7 +80,7 @@ Steps
 2.  In the **Time Cards** related list, click **New**.
 
 
-</td></tr><tr><td id="d193065e271">
+</td></tr><tr><td id="d193011e273">
 
 **From a Time sheet related link**
 

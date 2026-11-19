@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Deleting older or unwanted records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Deleting older or unwanted records in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create a table cleanup rule in Core UI
@@ -22,15 +22,15 @@ Role required: admin
 
 1.  Access the new Auto Flush form in one of the following ways.
 
-<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d73350e52">
+<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d73222e54">
 
 Option
 
-</th><th align="left" id="d73350e55">
+</th><th align="left" id="d73222e57">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d73350e61">
+</th></tr></thead><tbody><tr><td id="d73222e63">
 
 **Using the Data Management Console**
 
@@ -40,7 +40,7 @@ Steps
 2.  On the Overview tab, select **New cleanup rule**.
 
 
-</td></tr><tr><td id="d73350e96">
+</td></tr><tr><td id="d73222e98">
 
 **Using a data management policy**
 

@@ -18,8 +18,8 @@ Use the Service Level Agreement \(SLA\) to define a set amount of time for a tas
 
 -   **[SLA calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/r_SLAAutomation.md)**  
 SLAs are calculated and assessed by a business rule and scheduled jobs that run in the background.
--   **[Repair Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_RepairSLAs.md)**  
-SLA Administrators can repair SLA records to ensure SLA timing and duration information is accurate.
+-   **[Service Level Agreement \(SLA\) repair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_RepairSLAs.md)**  
+SLA administrators can repair SLA records so that SLA timing and duration information is accurate.
 -   **[View SLA timeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/t_ViewSLATimeline.md)**  
 View an SLA timeline to review its details and its progress over time.
 -   **[Add custom business rules to Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/t_AddCustomBusinessRulesToSLAs.md)**  

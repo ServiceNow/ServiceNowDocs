@@ -26,7 +26,7 @@ By default, an interaction or incident record can be created from the new tab me
 
 \[Omitted image "tab-record-creation.png"\] Alt text: Record creation from tab in workspace pages
 
-You can customize the JSON value to provide a variety of options. For example, use this method to create a knowledge article directly from the new tab menu. For more information about knowledge article creation, go to [Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/knowledge-articles-sow.md).
+You can customize the JSON value to provide a variety of options. For example, use this method to create a knowledge article directly from the new tab menu. For more information about knowledge article creation, see [Knowledge Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/knowledge-articles-sow.md).
 
 ## Procedure
 
@@ -38,7 +38,7 @@ You can customize the JSON value to provide a variety of options. For example, u
 
 4.  On the UX Page Property page, when the **Type** field is set to **json**, edit the **Value** field, for example, to add or delete routes or tables.
 
-    To add a new option, for example, to create a knowledge article, add a new JSON object inside the **newTabMenu** object. Provide the name and the action performed when you select the option as a key-value pair inside the **newTabMenu** object. Following is an example for creating a problem.
+    To add a new option, for example, to create a knowledge article, add a new JSON object inside the **newTabMenu** object. Provide the name and the action performed when you select the option as a key-value pair inside the **newTabMenu** object. The following is an example of creating a problem.
 
     ```
     "label": { 

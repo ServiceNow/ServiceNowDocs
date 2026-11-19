@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-21"
 reading_time_minutes: 1
 keywords: [AMF Core, com.glide.amf, ALM MIM Framework, roles, tables]
-breadcrumb: [Install Multi-Instance Setup and AMF Core, Multi-Instance Setup, Multi-Instance Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Install Multi-Instance Setup and AMF Core, Multi-Instance Setup, Multi-Instance Management, Get started, ServiceNow AI Platform]
 ---
 
 # Components installed with AMF Core

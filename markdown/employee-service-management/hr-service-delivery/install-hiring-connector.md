@@ -1,6 +1,6 @@
 ---
 title: Install Hiring Connector for third party integration
-description: You can install the Hiring Connector application \(sn\_ta\_connector\) to integrate with third party applications if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: Users with the admin role can install Hiring Connector \(sn\_ta\_connector\) to integrate with third-party applications.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/hr-service-delivery/install-hiring-connector.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Hiring Experiences, HR Service Delivery, Employee Servic
 
 # Install Hiring Connector for third party integration
 
-You can install the Hiring Connector application \(sn\_ta\_connector\) to integrate with third party applications if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+Users with the admin role can install Hiring Connector \(sn\_ta\_connector\) to integrate with third-party applications.The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 

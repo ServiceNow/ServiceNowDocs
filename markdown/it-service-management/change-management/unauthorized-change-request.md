@@ -20,9 +20,9 @@ As part of the ServiceNow® Service Mapping integration with ServiceNow® ITSM, 
 
 **Note:** Unauthorized change requests are created only for the CIs that are part of the application services. Also, there is a flapper algorithm that uses a learning pattern to minimize false positives.
 
-At times, the discovery process \(horizontal or top-down discovery\) identifies a change on a CI that is not a real change. This identification is due to a measurement error or a different representation of the same value, such as case sensitivity. The learning pattern identifies false positives \(flapper changes\) and prevents unnecessary recomputation and timeline updates. Because an emergency change request is a critical action, only real changes are reported.
+At times, the discovery process \(horizontal or top-down discovery\) identifies a change on a CI property that may not be an actual change by definition. This identification is due to a measurement error or just a different representation of the same value, such as case sensitivity. The learning pattern identifies the false positives \(flapper changes\) and prevents triggering the recomputation and time-line updates as an emergency change request is a critical action. You want to avoid false positives and report only real changes.
 
-The learning pattern identifies the false positives in the following way:
+The learning pattern identifies the false positives as follows:
 
 1.  When a CI property associated with a service changes, the new value \(CI and field pair\) is logged in the flapper’s data table.
 2.  The system runs a nightly job and executes various algorithms on the data that is collected to identify patterns that point to false positives.
@@ -33,31 +33,35 @@ The learning pattern identifies the false positives in the following way:
 
 An unauthorized change request is created when an unplanned CI change activity occurs, and the system triggers the following checks:
 
--   The system checks to see if the CI is part of the allowed CI classes. If it is allowed, then the system checks to see if this specific CI has been flagged previously. If it was flagged and the previously created unauthorized change was within the notification ignore period, then no further action is taken. If not, then further checks are made to see whether this CI is associated with a change request that matches the condition stated in the properties. If not, then the change to the CI that was detected is flagged as unauthorized and a **ci.change.unplanned** event is raised.
+-   The system checks to see if the CI is part of the allowed CI classes. If it is allowed, then the system checks to see if this specific CI has been flagged previously. If it was flagged and the previously created unauthorized change was within the notification ignore period, then no further action is taken. If not, then further checks are made to see whether this CI is associated to a change request that matches the condition stated in the properties. If not, then the change to the CI that was detected is flagged as unauthorized and a **ci.change.unplanned** event is raised.
 -   On receipt of the **ci.change.unplanned** event, the script checks to see if the **Enable event processing** field is **true**. If it is **true**, then an unauthorized change request is created. By default, this property is **false**.
 
 The **ci.change.unplanned** event that is generated automatically triggers the creation of an Emergency type change request.
 
 ## Unauthorized change state flow
 
-An unauthorized change follows a different state flow from a standard change because the implementation has already occurred:
+An unauthorized change follows a different state flow from a standard change because the implementation has already occured:
 
 1.  On creation, the request enters the **Review** state and skips the schedule and implement states.
 2.  If you select **Request Approval**, the state returns to **Authorize** for approval.
-3.  After approval, the request returns to **Review**, and a post-implementation review task is created.
+3.  After approval, the change goes to the **Close** state, and a post-implementation review task is created.
 
-For the standard change state flow, see [State progression for normal, standard, and emergency changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/normal-standard-emergency-states.md). With the help of the following details that are pre-populated on the form, you can identify and review the unauthorized change:
+For the standard change state flow, see [State progression for normal, standard, and emergency changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/normal-standard-emergency-states.md)
+
+## Identify and review unauthorized changes
+
+With the help of the following details that are pre-populated on the form, you can identify and review the unauthorized change:
 
 -   The **Unauthorized** option is selected. This option indicates that the change is an unauthorized change.
 -   The **Assignment group** field is populated with **Change Management**.
 -   The **Configuration item** field is populated with the item that the unauthorized change was made for.
 -   The **Description** field is populated with the changed fields of the configuration item, including the CI field name and its new value.
 
-An email notification is sent to the Assignment group, CI Item managed by, Owned by, and Assigned to members for review and approval. However, if there are many CI changes and there are no open change requests created to include the CIs, the system creates unauthorized change requests on these CIs. When this event occurs, the members receive numerous unauthorized change notification emails. In such a case, you can choose to turn off these notifications. For more information, see [Disable unauthorized change notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/disable-unauth-notification.md).
+An email notification is sent to the Assignment group, CI Item managed by, Owned by, and Assigned to members for review and approval. However, if there are many CI changes and there are no open change requests created to include the CIs, the system creates unauthorized change requests on these CIs. When this event occurs, the members receive numerous unauthorized change notification emails. In such a case, you can choose to disable these notifications. For more information, see [Disable unauthorized change notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/disable-unauth-notification.md).
 
 **Note:** Email notifications are sent only when there is an unplanned change on the CI that is part of an application service \(discovered or manual service\).
 
-Because an unauthorized change records a change that was already implemented, the request enters the **Review** state directly, skipping the Schedule and Implement states. If you select **Request Approval**, the state returns to **Authorize** for sign-off before the request follows the regular process to close.
+Because an authorized change records a change that was already implemented, the request enters the **Review** state directly, skipping the Schedule and Implement states. If you select **Request Approval**, the state returns to **Authorize** for sign-off before the request follows the regular process to close.
 
 ## Assign post-implementation review
 

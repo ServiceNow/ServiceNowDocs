@@ -50,11 +50,11 @@ Role required: admin
 
     2.  Review the similarity examples by clicking the **Similarity Examples** related link on the ML Solution form.
 
-        For more information, see Review solution similarity examples.
+        For more information, see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/review-similarity-examples.md).
 
     3.  In the Solution Statistics related list on the ML Solution form, enter the required value in the **Similarity Score Threshold** field, right-click the ML Solution form, and then click **Save**.
 
-        For more information, see Update your similarity score threshold.
+        For more information, see [Update your similarity score threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/update-similarity-threshold.md).
 
 
 ## Result

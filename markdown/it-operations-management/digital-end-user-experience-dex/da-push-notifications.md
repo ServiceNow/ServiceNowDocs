@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
+keywords: [push notifications, desktop assistant notifications, end user notifications, major incident notifications, proactive engagement, notification limits]
 breadcrumb: [Desktop Assistant, Solve issues, Digital End-User Experience, IT Operations Management]
 ---
 
@@ -43,7 +44,7 @@ Desktop Assistant supports notifications from Major Incident Management and Proa
 
         Each notification is delivered once to every logged-in device.
 
-        You can customize the **Impacted application users in affected location\(s\)** recipient list or create a notification for an incident using this list. For more information, see [Customize recipient list for Major Incident Management updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/recipient-lists-for-mim.md) and [Compose communications for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/compose-communication-mim-sow.md).
+        You can customize the **Impacted application users in affected location\(s\)** recipient list or create a notification for an incident using this list. For more information, see [Customize recipient list for Major Incident Management updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/recipient-lists-for-mim.md) and .
 
 -   Proactive Engagement: Proactive Engagement uses Desktop Assistant to notify users about the following device-related events:
 
@@ -53,7 +54,7 @@ Desktop Assistant supports notifications from Major Incident Management and Proa
     For example, end users receive alerts to restart their devices if they haven’t done so in the recommended duration.
 
 
-To learn more about notifications from Major Incident Management and Proactive Engagement, see [Compose communications for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/compose-communication-mim-sow.md) and [Engagement settings for Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/engagement-settings.md).
+To learn more about notifications from Major Incident Management and Proactive Engagement, see  and [Engagement settings for Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/engagement-settings.md).
 
 ## Configuring notifications
 

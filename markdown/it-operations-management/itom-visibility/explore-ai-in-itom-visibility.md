@@ -8,7 +8,7 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 9
+reading_time_minutes: 8
 keywords: [Now Assist, AI, ITOM Visibility, generative AI, agentic AI]
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -207,7 +207,7 @@ Business App Mapping AI Agent
 
 </td><td>
 
-Automatically creates CSDM "Consumes::Consumed by" relationships between Business Applications and discovered Application Services by invoking the Business App Identification skill. High-confidence matches are connected automatically. Medium-confidence matches are saved to a staging table for administrator review.**Note:** The Business App Mapping AI Agent is available through the Feature Preview Program. For more information, see [Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/feature-preview-program.md).
+Automatically creates CSDM "Consumes::Consumed by" relationships between Business Applications and discovered Application Services by invoking the Business App Identification skill. High-confidence matches are connected automatically. Medium-confidence matches are saved to a staging table for administrator review.**Note:** The Business App Mapping AI Agent is available through the Feature Preview Program. For more information, see .
 
 </td><td>
 

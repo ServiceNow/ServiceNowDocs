@@ -1,6 +1,6 @@
 ---
 title: Place a change request on hold
-description: You can put a change request on hold to get additional information for the created change request.
+description: Place a change request on hold to get additional information for the created change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_PlaceAChangeRequestOnHold.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Process a change request, Use, Change Management, IT Service Manage
 
 # Place a change request on hold
 
-You can put a change request on hold to get additional information for the created change request.
+Place a change request on hold to get additional information for the created change request.
 
 ## Before you begin
 
@@ -32,10 +32,10 @@ Change tasks inherit some state conditions from the parent change request they a
 -   If the change is waiting for approval, the pending approvals are marked **No Longer Required**. When the change request is no longer **On Hold**, the pending approvals are reinstated and are **Awaiting approval**.
 -   The change can progress only to the **Canceled** state while it is **On Hold**.
 -   If a change request is canceled while it is **On Hold**, then its **On Hold** flag is set to **false** so the change cannot be canceled and still be **On Hold**.
--   If the change request is set to **On Hold**, the value of the **On Hold** field for all the active change tasks for that change request is set to **true** and the **On hold reason** is copied from the change request to the change tasks.
--   If you clear the **On Hold** check box in a change request, the **On Hold** field for all the active change tasks for that change request is set to **false** and the **On hold reason** is cleared from the change tasks.
+-   If the change request is set to **On Hold**, the **On Hold** field for all active change tasks is set to **true**. The **On hold reason** is copied from the change request to the change tasks.
+-   If you clear the **On Hold** check box in a change request, the **On Hold** field for all active change tasks is set to **false**. The **On hold reason** is cleared from the change tasks.
 -   If the change request is canceled, all the active change tasks related to that change request are also canceled.
--   A change request can only be closed when all the active change tasks related to that change request are closed or canceled otherwise a pop-up appears notifying that there are open change tasks that require to be closed.
+-   A change request can only be closed when all active change tasks are closed or canceled. If open change tasks remain, a notification appears indicating that they must be closed.
 -   If there are existing change tasks that are manually placed on hold, those change tasks do not get overwritten when the change request is placed to the **On Hold** state. Similarly, when the change request is taken off the hold state, the change tasks that were placed on hold manually stays in the **On Hold** state.
 
 ## Procedure

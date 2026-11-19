@@ -1,6 +1,6 @@
 ---
 title: Create a change schedule from the change schedule definition
-description: You can define a change schedule from a change schedule definition record. Change schedule definitions help you to define the content that displays in the change summary popover, the users, groups, or roles to share a schedule with, and related span style colors.
+description: Create a change schedule from a change schedule definition record. Change schedule definitions specify the content in the change summary popover, the users, groups, or roles to share a schedule with, and span style colors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/create-chng-sch-from-chng-sch-def.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Change schedules, Configure, Change Management, IT Service Manageme
 
 # Create a change schedule from the change schedule definition
 
-You can define a change schedule from a change schedule definition record. Change schedule definitions help you to define the content that displays in the change summary popover, the users, groups, or roles to share a schedule with, and related span style colors.
+Create a change schedule from a change schedule definition record. Change schedule definitions specify the content in the change summary popover, the users, groups, or roles to share a schedule with, and span style colors.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ You can define a change schedule from a change schedule definition record. Chang
 
 ## About this task
 
-To create a change schedule, specify the start and end date fields that you want to be represented in the user interface and also specify the conditions to determine which change requests to display.
+Specify the start and end date fields to display in the user interface. Then specify the conditions to determine which change requests to display.
 
 ## Procedure
 

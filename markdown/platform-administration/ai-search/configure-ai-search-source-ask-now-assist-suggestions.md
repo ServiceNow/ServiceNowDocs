@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure AI Search as the source for Ask ServiceNow Otto suggestions
@@ -53,7 +53,7 @@ For more information on Ask ServiceNow Otto suggestions in enhanced chat, see [E
 
     1.  Navigate to **All**.
 
-    2.  In the navigation field, enter `sys_properties.list`, then press Enter.
+    2.  In the navigation filter, enter `sys_properties.list`, then press Enter.
 
 4.  Search for the **glide.search.suggestions.utterance.use\_ais** system property record and perform the appropriate steps depending on whether it exists or not.
 

@@ -22,7 +22,7 @@ Role required: sn\_hco\_orc.loc\_support\_agent or sn\_hco\_orc.plan author
 
 ## Procedure
 
-1.  Navigate to **CSM/FSM Configurable Workspace** &gt; **Task Plan Templates** &gt; **All Task Plans** &gt; **New**.
+1.  Navigate to **CRM Workspace** &gt; **Task Plan Templates** &gt; **All Task Plans** &gt; **New**.
 
 2.  In **Create new task plan**, select **Operational Rounding**.
 

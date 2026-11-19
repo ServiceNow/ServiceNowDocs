@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Explore, Now Assist, Use, Operational Sustainability Management]
 ---
 
 # Supporting information for ServiceNow Otto for Operational Sustainability Management

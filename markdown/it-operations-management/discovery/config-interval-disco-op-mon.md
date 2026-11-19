@@ -7,7 +7,7 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Discovery Operations Monitor dashboard, Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -20,7 +20,9 @@ Update the data collection time interval for individual visualizations on the Di
 
 Discovery Admin Workspace must be installed, starting with v1.15.0.
 
-Role required: discovery\_admin
+Role required: discovery\_adminor discovery\_operator
+
+**Note:** The discovery\_operator role is available starting with Discovery Admin Workspace v1.23.0. For more information, see [Discovery Operator role access in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-discovery-operator-access.md).
 
 ## Procedure
 
@@ -56,5 +58,5 @@ Role required: discovery\_admin
 
 [Configure the date range for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/config-time-frame-disco-op-mon.md)
 
-[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/common-dashboard-tasks.md)
+[bundle-par.common-dashboard-tasks]
 

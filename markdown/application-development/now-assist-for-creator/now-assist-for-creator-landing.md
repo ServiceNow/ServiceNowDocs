@@ -73,7 +73,7 @@ For more information, see [ServiceNow product tiers](https://raw.githubuserconte
 
 </td><td>
 
-[Process Mining\[Omitted image "bus-elevate.svg"\] Alt text:Identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist.md)
+[Process Mining\[Omitted image "bus-elevate.svg"\] Alt text:Identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/now-assist.md)
 
 </td></tr><tr><td>
 

@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [CI de-duplication experience in a workspace, Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -30,7 +30,7 @@ Remediate a single de-duplilcation task using a de-duplication template in CMDB 
 
 Role required:
 
--   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
+-   To access the  to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
 -   To perform de-duplication tasks, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
 
 ## Procedure
@@ -47,15 +47,15 @@ Role required:
 
 6.  In the Remediate dialog box, choose which method you want to use for remediation, and then select **Remediate**.
 
-<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d272162e210">
+<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d272383e205">
 
 Choice
 
-</th><th align="left" id="d272162e213">
+</th><th align="left" id="d272383e208">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d272162e219">
+</th></tr></thead><tbody><tr><td id="d272383e214">
 
 **Use the Duplicate CI Remediator**
 
@@ -65,7 +65,7 @@ Use the Duplicate CI Remediator built on Core UI to remediate the task.
 
  To continue with this choice of remediation, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
-</td></tr><tr><td id="d272162e241">
+</td></tr><tr><td id="d272383e236">
 
 **Use the Duplicate CI Remediator \(AI\)**
 
@@ -75,7 +75,7 @@ Use the De-duplication task resolution assistant skill to make suggestions for t
 
  The De-duplication task resolution assistant skill skips directly to the final dashboard of the Duplicate CI Remediator where you can review the selections made by the skill.
 
-</td></tr><tr><td id="d272162e259">
+</td></tr><tr><td id="d272383e254">
 
 **Use the Duplicate CI Remediator in Restricted Mode**
 
@@ -85,7 +85,7 @@ Appears only if the **glide.duplicate\_ci\_remediator.enable\_restricted\_mode**
 
  To continue with this choice, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md). Skip to step \#5 in the procedure.
 
-</td></tr><tr><td id="d272162e291">
+</td></tr><tr><td id="d272383e286">
 
 **Remediate using a template**
 

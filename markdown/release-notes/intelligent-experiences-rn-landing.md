@@ -22,8 +22,8 @@ With the ServiceNow® AI Admin Hub application \(formerly Now Assist Admin Conso
 The ServiceNow® AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. See the following sections for release notes by version.
 -   **[AI Agent Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/ai-agents-rn.md)**  
 The ServiceNow® AI agents and AI Agent Studio provide solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. AI Agent Studio was enhanced and updated in the Brazil release.
--   **[AI Control Tower release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/ai-control-tower-rn.md)**  
-The ServiceNow® AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. See the following sections for release notes by version.
+-   **[Super Intelligence Control Tower release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/ai-control-tower-rn.md)**  
+The ServiceNow® Super Intelligence Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. See the following sections for release notes by version.
 -   **[AI Desktop Actions release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/agentic-desktop-rn.md)**  
 The ServiceNow® AI Desktop Actions application enables you to automate repetitive tasks on your desktop and web. These desktop actions are executed by AI agents created in AI Agent Studio.
 -   **[Autonomous Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/autonomous-workforce-rn.md)**  

@@ -26,15 +26,15 @@ Role required: itil
 
     For information about creating an incident in Service Operations Workspace, see [Create an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-incident-sow.md).
 
-2.  On the incident record, use the following information to decide if you want to propose this incident:
+2.  On the incident record, use the following information to decide whether to propose this incident:
 
     -   Incident information on the **Overview** tab
     -   Incident information on the **Details** tab
     -   Incident information on the **Related records** tab
-    -   Record information on the Contextual side panel
+    -   Record information on the contextual side panel
     For more information on the tabs, see [Managing a major incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-major-incident-sow.md).
 
-3.  On the incident record for the incident that you want to propose, select **Propose Major incident.**
+3.  On the incident record for the incident that you want to propose, select **Propose Major incident**.
 
 4.  On the Propose Major incident window, fill in the details.
 

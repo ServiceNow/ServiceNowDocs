@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/build-agent-rn.html
 release: brazil
 topic_type: topic
-last_updated: "2026-09-23"
+last_updated: "2026-11-16"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Build Agent, Test Agent, ATF, automated testing, test suite, Autonomous Engineer, scheduled prompts, scheduled jobs, implementation plan, GraphQL, ACL, playbook, Playbook Designer, optional activity, launcher configuration, playbook permissions, agentic activity]
 breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
@@ -43,9 +43,13 @@ Build Agent and Autonomous Engineer add support for new AI models.
 
 ### What's new
 
+-   **[Opus 5.5 model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-models-versions.md)**
+
+    Starting with Brazil Patch 3, you can use the Anthropic Claude Opus 5.5 model with Build Agent and Autonomous Engineer.
+
 -   **[New model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-models-versions.md)**
 
-    Use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent and Autonomous Engineer.
+    Starting with Brazil Patch 2, you can use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent and Autonomous Engineer.
 
 
 ## October 2026

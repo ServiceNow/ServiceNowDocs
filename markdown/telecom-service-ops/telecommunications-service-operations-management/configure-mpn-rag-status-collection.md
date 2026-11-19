@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [RAG status, connector instance, MPN]
-breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure event and metric connectors, Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
 # Configure elastic connectors for MPN health status collection
@@ -59,5 +59,5 @@ The connector instance for health status collection is created automatically but
 
 The connector instance begins polling the configured MPN Elastic index and calculates a health status for each radio and core server component, using the active rule set.
 
-**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
+**Parent Topic:**[Configure event and metric connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-event-and-metric-connectors.md)
 

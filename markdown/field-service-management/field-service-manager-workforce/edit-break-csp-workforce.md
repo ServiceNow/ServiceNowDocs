@@ -33,15 +33,15 @@ Role required: wm\_manager.
 
 5.  Choose from the following.
 
-<table><thead><tr><th align="left" id="d49453e113">
+<table><thead><tr><th align="left" id="d49568e115">
 
 Option
 
-</th><th align="left" id="d49453e116">
+</th><th align="left" id="d49568e118">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d49453e122">
+</th></tr></thead><tbody><tr><td id="d49568e124">
 
 **__Edit break__**
 
@@ -52,7 +52,7 @@ Change the details of the break.1.  Select **Edit Event**.
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d49453e149">
+</td></tr><tr><td id="d49568e151">
 
 **__Delete break__**
 

@@ -85,7 +85,7 @@ When a user selects `All`, they do not see a report with all filter options appl
 Repeat steps 8-11 as needed for each date field you want to filter on.
 
 1.  After you create the filter, add it to a dashboard.
-2.  On the dashboard, select the **Edit widget** icon \(\[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit columns icon\) on each visualization on the dashboard that should follow the filter and select **Follow interactive filter**.
+2.  On the dashboard, select the **Edit widget** icon \(\[Omitted image "icon-cogwheel-ac.png"\] Alt text: Edit widget icon\) on each visualization on the dashboard that should follow the filter and select **Follow interactive filter**.
 
 **Parent Topic:**[Creating Interactive Filters of different types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/core-ui-interactive-filters/r_AvailableHomepagePublisherTypes.md)
 

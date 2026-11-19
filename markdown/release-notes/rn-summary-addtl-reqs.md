@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-addtl-reqs.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-04"
+last_updated: "2026-11-19"
 reading_time_minutes: 6
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -133,7 +133,7 @@ Customer Engagement Sequences
 
 -   ****
 
-Email-based sequences requires the User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) to be active on your instance so that the sequence can detect email replies from prospects.
+Email-based sequences requires the User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) to be active on your instance so the email can be sent using individual email address and detect email replies from recipients. Sequence demo data requires the User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\).
 
 
 </td></tr><tr><td>
@@ -321,7 +321,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.12.1 or later
+4.14 or later
 
 </td><td>
 

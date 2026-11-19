@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Analyze and optimize, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -58,7 +58,7 @@ The visualizations on the Adoption &amp; Engagement page help you with the follo
 
 -   **Assist to Execution Trend**
 
-    This area of the dashboard shows the average number of assists consumed per execution or action on a given day. For example, if 100 assists were consumed to complete 50 executions, the assist to execution ratio is 2:1. This metric helps you assess how effectively assistants are using assists to deliver desired outcomes.
+    This area of the dashboard shows the average number of assists consumed per execution or action on a given day. For example, if 100 assists were consumed to complete 50 executions, the assist to execution ratio is 2:1. This metric helps you assess how effectively assistants are using assists to deliver desired outcomes. The ratio includes assists and AI actions from conversational assistants and from agentic executions, at both the execution plan and execution task levels.
 
     \[Omitted image "NAinVA-assistant-designer-analytics-adoption-engagement-assist-exe-trend.png"\] Alt text: Assist to Execution Trend.
 

@@ -17,7 +17,7 @@ Connect a supported MCP server to Build Agent to access external tools and resou
 
 ## Before you begin
 
-Before you can enable an MCP server in Build Agent, a user with the sn\_ai\_governance.ai\_steward role must approve it as an AI asset in AI Control Tower. An administrator without this role can't approve the server. Each MCP server requires this approval, regardless of whether the server is enabled by default. For the approval steps, see [Onboard MCP server approval playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-onboard-mcp-server-approval-playbook.md).
+Before you can enable an MCP server in Build Agent, a user with the sn\_ai\_governance.ai\_steward role must approve it as an AI asset in Super Intelligence Control Tower. An administrator without this role can't approve the server. Each MCP server requires this approval, regardless of whether the server is enabled by default. For the approval steps, see [Onboard MCP server approval playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-onboard-mcp-server-approval-playbook.md).
 
 You must have Connect Hub installed.
 
@@ -26,7 +26,7 @@ You must have Connect Hub installed.
 The end-to-end flow for making an MCP server available is:
 
 1.  The administrator adds the MCP server as a Workflow Data Fabric \(WDF\) connection.
-2.  A user with the sn\_ai\_governance.ai\_steward role approves the server as an AI asset in AI Control Tower.
+2.  A user with the sn\_ai\_governance.ai\_steward role approves the server as an AI asset in Super Intelligence Control Tower.
 3.  You authenticate the connection in Personal Integrations.For details, see [Using the Personal Authentication dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/personal-auth-dashboard.md).
 4.  You enable the MCP server in Build Agent settings.
 

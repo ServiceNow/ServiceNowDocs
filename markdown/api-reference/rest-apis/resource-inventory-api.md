@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 45
+reading_time_minutes: 46
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -1437,6 +1437,20 @@ Response body.
 
 Updates a specified resource record.
 
+### Update behavior change in TNI v13.3 \(December 2026\)
+
+Starting with TNI v13.3, released in December 2026, a PATCH request updates only the characteristics included in the **resourceCharacteristic** array. Characteristics not included in the request keep their current values, including fields maintained by other integrations, such as Correlation ID, Asset tag, and Serial number.
+
+In earlier versions, characteristics omitted from the **resourceCharacteristic** array were cleared.
+
+The following rules apply to PATCH requests:
+
+-   To clear a characteristic, send it with `"value": null` or `"value": ""`.
+-   A characteristic sent without a **value** key is ignored and isn't changed.
+-   The **relatedParty** and **resourceRelationship** arrays replace the existing set.
+
+If your integration relied on omitting characteristics to clear them, update it to send those characteristics with `"value": null`.
+
 ### URL format
 
 Default URL: `/api/sn_ni_core/resource/{id}`
@@ -1632,7 +1646,7 @@ Data type: Array of Objects
 ]
 ```
 
- **Note:** Removing relatedParty records from a resource is not supported by this endpoint. Records can be manually deleted from the Teams \[cmdb\_rel\_team\] table.
+ The related parties in the request replace the existing set of related parties for the resource.
 
 </td></tr><tr><td>
 
@@ -1683,7 +1697,11 @@ resourceCharacteristic
 List of characteristics of the resource. The following resource types require specific resource characteristics. -   For Physical Connection and Logical Connection resources, a `Port A` or `Port Z` characteristic is required. If the Lifecycle Stage Status of the resource is In Use, both `Port A` and `Port Z` are required.
 -   For Equipment Holder resources, a `Container Type` characteristic is required.
 
-Data type: Array of Objects
+ Only the characteristics included in the request are updated. Characteristics not included in the request keep their current values.
+
+ **Note:** Previously, characteristics omitted from the **resourceCharacteristic** array were cleared. If your integration relied on that behavior, send those characteristics with `"value": null`.
+
+ Data type: Array of Objects
 
 ```
 "resourceCharacteristic": [
@@ -1705,15 +1723,19 @@ Required if the **resourceCharacteristic** parameter is used.Field name from the
 
 Data type: String
 
-</td></tr><tr><td id="res-char-value-parm">
+</td></tr><tr><td>
 
 resourceCharacteristic.value
 
 </td><td>
 
-Required if the **resourceCharacteristic** parameter is used.The value of the characteristic.
+The value of the characteristic.
 
 Data type: String
+
+ To clear a characteristic, set **value** to `null` or an empty string \(`""`\).
+
+ If a characteristic is sent without a **value** key, the characteristic is ignored and isn't changed.
 
 </td></tr><tr><td>
 
@@ -1743,7 +1765,9 @@ List of related resources. The following resource types require specific related
 -   For Network Interface resources, a relationship to an Equipment or Interface Card resource is required.
 -   For Equipment Holder resources where Container Type is Slot or Sub Slot, a relationship to an Equipment or Interface Card resource is required.
 
-Data type: Array
+ The related resources in the request replace the existing set of related resources for the resource.
+
+ Data type: Array
 
 ```
 "resourceRelationship": [
@@ -1898,11 +1922,11 @@ Name
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d4436e138">
+</th></tr></thead><tbody><tr><td id="d4467e138">
 
 @type
 
-</td><td id="d4436e141">
+</td><td id="d4467e141">
 
 Type of resource.Valid values:
 
@@ -2958,11 +2982,11 @@ Name
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d4436e138">
+</th></tr></thead><tbody><tr><td id="d4467e138">
 
 @type
 
-</td><td id="d4436e141">
+</td><td id="d4467e141">
 
 Type of resource.Valid values:
 
@@ -3105,7 +3129,7 @@ Data type: String
 
 Table: Network Site \[cmdb\_ci\_ni\_site\]
 
-</td></tr><tr><td id="d4436e405">
+</td></tr><tr><td id="d4467e405">
 
 relatedParty
 

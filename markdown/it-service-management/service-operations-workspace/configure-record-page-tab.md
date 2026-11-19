@@ -22,11 +22,11 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
 ## About this task
 
-The record pages \(incident, problem, change, and so on\) in Service Operations Workspace have multiple tabs. Few tabs such as the **Overview** tab of the incident record page are specific to a record page. Few other tabs are common across multiple record pages in multiple workspaces, for example, the **Details** tab. The Details tab is associated with incident, change, problem, and other record pages in multiple workspaces.
+The record pages \(incident, problem, change, and so on\) in Service Operations Workspace have multiple tabs. Some tabs, such as the **Overview** tab of the incident record page are specific to a record page. Other tabs are common across multiple record pages in multiple workspaces, for example, the **Details** tab. The **Details** tab is associated with incident, change, problem, and other record pages in multiple workspaces.
 
 When you modify the order of a common tab in multiple record pages and workspaces, the changes are applicable in all those records and workspaces.
 
-**Note:** When you modify the order of a common tab, the change affects that tab in all associated record pages across multiple workspaces. Modify common tabs only if you want the change to apply universally. To restrict changes to a single workspace, modify record page-specific tabs only.
+**Note:** When you modify the order of a common tab, the change affects that tab in all associated record pages across multiple workspaces. Modify common tabs only when the change must apply universally. To restrict changes to a single workspace, modify record page-specific tabs only.
 
 ## Procedure
 
@@ -34,8 +34,8 @@ When you modify the order of a common tab in multiple record pages and workspace
 
 2.  From the UX App Routes list, select the tab record that you want to modify.
 
-    -   To modify the order of a common tab. For example, the **Details** tab, select **Record Details Tab**. Any changes that you make are applicable to the **Details** tab in all associated record pages in multiple workspaces.
-    -   To modify the order of a record page-specific tab. For example, the **Overview** tab of the incident record page in Service Operations Workspace, select **Overview** whose **App Configuration** is **Service Operations Workspace** and **Parent macroponent** is **Record Page Tabs**. Any changes made are applicable only to the **Overview** tab of the incident record page in Service Operations Workspace.
+    -   To modify the order of a common tab, such as the **Details** tab, select **Record Details Tab**. Any changes that you make are applicable to the **Details** tab in all associated record pages in multiple workspaces.
+    -   To modify the order of a record page-specific tab, such as the **Overview** tab of the incident record page in Service Operations Workspace, select **Overview** whose **App Configuration** is **Service Operations Workspace** and **Parent macroponent** is **Record Page Tabs**. Any changes made are applicable only to the **Overview** tab of the incident record page in Service Operations Workspace.
 3.  On the UX App Route form, modify the **Order** field.
 
     If the UX App Route form doesn’t contain the Order field, add the Order field to the form. For more information about adding a field to the form, see [Show or hide fields on a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).

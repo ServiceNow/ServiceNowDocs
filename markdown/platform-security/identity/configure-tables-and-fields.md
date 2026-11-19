@@ -20,7 +20,7 @@ Configure tables and fields for Identity and Access Audit.
 
 Role required: security\_admin
 
-You must elevate your role to Security Admin to configure tables and fields for Identity and Access Audit.
+You must elevate your role to the security\_admin role to configure tables and fields for Identity and Access Audit.
 
 The following tables can be configured for auditing​:
 

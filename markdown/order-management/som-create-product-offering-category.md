@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-product-offering-category.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-17"
 reading_time_minutes: 3
 breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,7 +16,7 @@ Define a product offering category used to organize similar product offerings in
 
 ## Before you begin
 
-Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_catalog\_manager
+Role required: sn\_prd\_pm.product\_catalog\_admin, sn\_prd\_pm.product\_catalog\_manager
 
 ## About this task
 
@@ -62,7 +62,7 @@ Leaf
 
 </td><td>
 
-Option indicating there are no subcategories for this category. Selecting **Leaf** means the category can have product offers but not subcategories. If **Leaf** isn’t selected, the category can only have subcategories but not product offers.
+Option indicating there are no subcategories for this category. Selecting **Leaf** means the category can have product offers but not subcategories. If **Leaf** isn’t selected, the category can only have subcategories but not product offers. To publish a product offering, you must assign it to a published leaf category.
 
 </td></tr><tr><td>
 
@@ -94,11 +94,10 @@ State
 
 </td><td>
 
-State of the category:-   Draft: Initial state of the category, before it's published.
--   Published: The product category has been published to the catalog. After a category is published, you can update it. You can delete, retire, or archive it if there are no associated product offerings.
+State of the category:-   In Draft: Initial state of the category, before it's published.
+-   Published: The product category has been published to the catalog. After a category is published, you can't update or delete it. You can retire or archive it if there are no associated product offerings.
 -   Retired: Category has been retired and is no longer active. The category can’t be updated.
 -   Archived: Category has been archived and is no longer available for use.
--   Copied to Catalog: The product category has been copied.
 
 
 </td></tr><tr><td>
@@ -107,7 +106,7 @@ Start date
 
 </td><td>
 
-Date and time that the category is available in the catalog. Select the Calendar icon to choose the start date and time, then select **OK**.
+Date that the category is available in the catalog.
 
 </td></tr><tr><td>
 
@@ -115,7 +114,7 @@ End date
 
 </td><td>
 
-Date and time that the category is no longer used in the catalog. Select the Calendar icon to choose the end date and time, then select **OK**
+Date that the category is no longer used in the catalog.
 
 </td></tr><tr><td>
 
@@ -123,7 +122,7 @@ Code
 
 </td><td>
 
-Product code for the category. The system automatically generates a code based on the category **Name** entered, but you can change the value to any desired alphanumeric string.
+Product code for the category. The system automatically generates a code based on the category name entered, but you can change the value. You can change the code only while the category is in the In Draft state. The code can include any character except an asterisk \(\*\) or a percent sign \(%\). When you save, letters are converted to uppercase and any \* or % characters are removed. For example, `pc-ma*c-%12_3` changes to `PC-MAC-12_3`.
 
 </td></tr></tbody>
 </table>5.  Select **Save**.
@@ -134,13 +133,15 @@ Product code for the category. The system automatically generates a code based o
 
     2.  In the Catalog Category form, select the published Catalog to which this category belongs.
 
-    3.  Control where the category appears relative to the catalog's other categories by entering a value in the **Order** field.
+    3.  Control where the category appears relative to the catalog's other categories by entering a value in the **Display order** field.
 
         If left empty, the categories are sorted alphabetically with other unordered categories in this catalog.
 
     4.  Select **Save**.
 
 7.  In the Details tab for the category, select **Publish**.
+
+    You can publish the category only after its catalog or parent category is published.
 
     The category state changes to Published and is added to the selected catalog.
 

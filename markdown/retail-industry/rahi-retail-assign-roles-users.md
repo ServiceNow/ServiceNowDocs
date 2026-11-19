@@ -22,7 +22,7 @@ Role required: user\_admin
 
 Roles control access to features, capabilities, and data in the Retail application.
 
-You can assign roles to individual users or groups. When you apply roles to groups, the members of those groups inherit those roles.
+You can assign roles to individual users or groups. When you apply roles to groups, the members of those groups inherit those roles. Assign roles to groups instead of to individual users wherever you can. When a user moves to another group, the roles of the new group apply automatically.
 
 **Note:**
 
@@ -32,11 +32,11 @@ Users can log in as user\_admin to assign roles.
 
 For the list of roles included with each plugin, see the roles section in each of the plugin links in [Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-installed-with-plugins.md).
 
-For instructions on assigning roles to individual users, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md).
+For instructions on assigning roles to a group, see [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignRoleToGroup.md). To assign roles to an individual user, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **User Administration** &gt; **Users** then open a user record.
+1.  Navigate to **All** &gt; **User Administration** &gt; **Groups** then open the group that you want to give the roles to.
 
 2.  In the **Roles** related list, select **Edit**.
 

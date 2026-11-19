@@ -34,7 +34,7 @@ Set up the features and work flows that you need to manage your organization's f
 
 </td><td>
 
-[Configurable workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Set up configurable workspace for Field Service Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/setting-up-configurable-workspace.md)
+[Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Set up workspace for Field Service Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/setting-up-configurable-workspace.md)
 
 </td><td>
 
@@ -73,9 +73,9 @@ The process for configuring Field Service Management includes:
 
     If your organization needs to track inventory or schedule equipment, configure the Inventory and Resource Scheduling features.
 
-5.  [Setting up CSM/FSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/setting-up-configurable-workspace.md)
+5.  [Setting up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/setting-up-configurable-workspace.md)
 
-    Configure the layouts, filters and sorting for specialized views in the CSM/FSM Configurable Workspace such as Dispatcher Workspace, Territory Planning console, and CSM Agent Workspace.
+    Configure the layouts, filters and sorting for specialized views in the CRM Workspace such as Dispatcher Workspace, Territory Planning console, and CSM Agent Workspace.
 
 6.  [Setting up a Field Service scheduling method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/setting-up-scheduling-methods.md)
 

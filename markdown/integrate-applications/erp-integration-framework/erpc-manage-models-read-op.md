@@ -73,3 +73,10 @@ Next, you must add the read or update entity to the operation. For more informat
 
 You can select the delete icon \(\[Omitted image "trash-outline-24.svg"\]\) on the operation's card to remove any operations you don't need, or to start over.
 
+-   **[Operation-level security for models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-set-operation-level-security-on-a-model.md)**  
+Control access to model operations with user roles and groups.
+-   **[Add joins between ERP tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-join-data-model.md)**  
+Link multiple ERP \(Enterprise Resource Planning\) tables to build an ERP model in Zero Copy Connector for ERP using table joins.
+
+**Parent Topic:**[Using Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-systems-connections-and-remote-tables.md)
+

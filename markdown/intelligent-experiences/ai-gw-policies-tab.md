@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-22"
 reading_time_minutes: 2
 keywords: [AI Gateway, Data Sensitivity Check, sensitive data]
-breadcrumb: [Explore, AI Gateway, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Explore, AI Gateway, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Gateway Policies tab
@@ -43,7 +43,7 @@ The policy applies to a tool only when it's active at every level and connection
 3.  For the tool. A tool follows the server's setting until you change it, which you can do in either of these places:
 
     -   On this tab: in the **Servers running under this policy** list, select the server name. A panel opens that lists the server's tools, each with its own **Active** toggle.
-    -   On the MCP server record: in AI Control Tower, navigate to **Inventory** &gt; **Assets** &gt; **MCP servers**, select the server name, select the **AI Gateway** tab, and then select the **Policies** sub-tab.
+    -   On the MCP server record: in Control Tower, navigate to **Inventory** &gt; **Assets** &gt; **MCP servers**, select the server name, select the **AI Gateway** tab, and then select the **Policies** sub-tab.
     For details, see [Apply the Data Sensitivity Check to a server's tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-gw-apply-dsc-tools.md).
 
 

@@ -21,11 +21,12 @@ Use the Discovery Admin Workspace dashboard to create an Oracle Cloud Infrastruc
 
 Verify the following:
 
--   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-install-prereqs.md).
+-   At least one validated MID Server with a status of **Up** is installed. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
 -   An OCI user in the Oracle Cloud console is configured with an API signing key and the required Identity and Access Management \(IAM\) policies. The MID Server can access the cloud resources to discover.
--   You have created a suitable OCI API credentials in the ServiceNow AI Platform to connect with the OCI user you want to use for discovery. For more information, see [Create Oracle API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-oracle-api-credentials.md).
--   You're using Discovery Admin Workspace v1.13.0.
+-   Suitable OCI API credentials are created in the ServiceNow AI Platform to connect with the OCI user you want to use for discovery. For more information, see [Create Oracle API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-oracle-api-credentials.md).
+-   On a domain-separated instance, the MID Server and the OCI API credentials are in the same domain that you're creating the schedule in.
+-   Discovery Admin Workspace, starting with v1.13.0 is installed.
 
 Role required: discovery\_admin
 
@@ -53,29 +54,29 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d694961e323">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d699089e331">
 
 Option
 
-</th><th align="left" id="d694961e326">
+</th><th align="left" id="d699089e334">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d694961e332">
+</th></tr></thead><tbody><tr><td id="d699089e340">
 
 **Existing cloud account**
 
 </td><td>
 
-Select an existing cloud account on your instance. Once an account is selected, the **Account name** and **Account ID** fields auto-populate.
+Select an existing cloud account on your instance. Once an account is selected, the **Account name**, **Compartment ID**, and **Datacenter URL** fields auto-populate.**Note:** On a domain-separated instance, the cloud account must be in the same domain as the MID Server and the OCI API credentials.
 
-</td></tr><tr><td id="d694961e347">
+</td></tr><tr><td id="d699089e363">
 
 **New cloud account**
 
 </td><td>
 
-Add a new cloud account to your instance by entering an account name, compartment ID, and Datacenter URL.**Note:**
+Add a new cloud account to your instance by entering an Account name, Compartment ID, and Datacenter URL.**Note:**
 
 -   You can access the compartment ID, also referred to as the Oracle Cloud Identifier \(OCID\) of the compartment, in the Oracle Cloud console via **Identity &amp; Security** &gt; **Compartments**.
 -   Example URLs:
@@ -86,13 +87,13 @@ Add a new cloud account to your instance by entering an account name, compartmen
 </td></tr></tbody>
 </table>    Even if the cloud account was previously verified, you can reverify if policies or permissions may have changed by selecting **Verify information.**
 
-9.  Select **Discover all Projects** or **Discover specific Projects**.
+9.  Select **Discover all Member Accounts** or **Discover specific Member Accounts**.
 
-    **Note:** This option displays only when the target cloud account is an Oracle compartment account.
+    **Note:** This option displays only when the target cloud account is an Oracle master account.
 
-    1.  If discovering specific projects, select **Add projects**.
+    1.  If discovering specific member accounts, select **Add member accounts**.
 
-        The Discoverable Projects dialog displays.
+        The Discoverable Member Accounts dialog displays.
 
     2.  Select the check box next to one or more corresponding names and then select **Add**.
 

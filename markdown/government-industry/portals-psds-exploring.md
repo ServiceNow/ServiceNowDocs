@@ -92,5 +92,5 @@ As constituents answer questions and select options presented by Virtual Agent, 
 
 If constituents want to chat with an agent, Virtual Agent hands them off to a live agent. To provide this resource, use the Connect Support feature.
 
-To learn more about chat, see .
+To learn more about chat, see [Configure chat channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_ChatFeature.md).
 

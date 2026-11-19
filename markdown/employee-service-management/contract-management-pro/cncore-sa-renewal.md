@@ -25,15 +25,15 @@ Role required: sn\_cm\_core.contract\_user or sn\_cm\_core.contract\_fulfiller
 
 1.  Navigate to the contract request form.
 
-<table><thead><tr><th align="left" id="d95874e75">
+<table><thead><tr><th align="left" id="d95930e77">
 
 Entry point
 
-</th><th align="left" id="d95874e78">
+</th><th align="left" id="d95930e80">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d95874e84">
+</th></tr></thead><tbody><tr><td id="d95930e86">
 
 **Employee Center \(sn\_cm\_core.contract\_user\)**
 
@@ -44,7 +44,7 @@ Navigation
 3.  Select **Contract Amendment and Renewal request**.
 
 
-</td></tr><tr><td id="d95874e126">
+</td></tr><tr><td id="d95930e128">
 
 **Contract Workspace \(sn\_cm\_core.contract\_fulfiller\)**
 
@@ -59,15 +59,15 @@ Navigation
 
 3.  Enter the contract details.
 
-<table><thead><tr><th align="left" id="d95874e168">
+<table><thead><tr><th align="left" id="d95930e170">
 
 Option
 
-</th><th align="left" id="d95874e171">
+</th><th align="left" id="d95930e173">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d95874e177">
+</th></tr></thead><tbody><tr><td id="d95930e179">
 
 **Select an existing contract**
 
@@ -85,7 +85,7 @@ Steps
 3.  Select **Select** to choose the contract.
 
 
-</td></tr><tr><td id="d95874e221">
+</td></tr><tr><td id="d95930e223">
 
 **Enter contract details manually**
 
@@ -107,15 +107,15 @@ Steps
 
     -   For own paper renewals: Adding documents is optional. Attached documents are classified as supporting documents.
     -   For third-party paper renewals: Attaching at least one contract document is required. Attaching a supporting document is optional. You must classify each attached document.
-<table id="choicetable_eks_mwq_qkc"><thead><tr><th align="left" id="d95874e301">
+<table id="choicetable_eks_mwq_qkc"><thead><tr><th align="left" id="d95930e303">
 
 Method
 
-</th><th align="left" id="d95874e304">
+</th><th align="left" id="d95930e306">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d95874e310">
+</th></tr></thead><tbody><tr><td id="d95930e312">
 
 **Choose a file**
 
@@ -125,7 +125,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d95874e334">
+</td></tr><tr><td id="d95930e336">
 
 **Drag and drop**
 

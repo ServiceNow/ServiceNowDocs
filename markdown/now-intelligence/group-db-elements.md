@@ -30,7 +30,7 @@ Role required: If you have an internal role, you can create dashboards with the 
 
 3.  Select **Edit**.
 
-4.  Select the first item that you want to group and select the Grouping icon \(\[Omitted image "icon-group-dashboard.png"\] Alt text:\) from the item's header menu.
+4.  Select the first item that you want to group and select the Grouping icon \(\[Omitted image "icon-group-dashboard.png"\] Alt text: Group icon\) from the item's header menu.
 
     \[Omitted image "header-menu-group-option.png"\] Alt text: Selected visualization with arrow pointing to the Group option
 

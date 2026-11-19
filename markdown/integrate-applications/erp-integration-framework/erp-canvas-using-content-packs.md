@@ -93,3 +93,5 @@ Before completing the procedure, it may be helpful to review the list of [Availa
 
 Explore the new, cloned model and make changes as needed. For example, edit the mappings, inputs, or outputs. For more information, see [Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md).
 
+**Parent Topic:**[Accelerating SAP integrations with Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
+

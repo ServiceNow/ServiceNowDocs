@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Internationalization support, Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Internationalization support, Administer, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Language filtering for external content

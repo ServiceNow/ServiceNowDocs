@@ -1,6 +1,6 @@
 ---
 title: Create a standard change request from the catalog
-description: You can create a standard change request from the published standard change catalog templates.
+description: Create a standard change request from a published catalog template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_RaiseNewStdCngeFmTempl.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Create a change request, Use, Change Management, IT Service Managem
 
 # Create a standard change request from the catalog
 
-You can create a standard change request from the published standard change catalog templates.
+Create a standard change request from a published catalog template.
 
 ## Before you begin
 
@@ -32,7 +32,7 @@ To create a change request from a pre-approved template, follow this procedure.
 
 2.  Select one of the following options depending on the type of standard change you want to create.
 
-<table id="choicetable_g1t_3h4_rw"><tbody><tr><td id="d98075e82">
+<table id="choicetable_g1t_3h4_rw"><tbody><tr><td id="d98221e87">
 
 **Network Standard Changes**
 
@@ -40,7 +40,7 @@ To create a change request from a pre-approved template, follow this procedure.
 
 Create a standard change request for the network.
 
-</td></tr><tr><td id="d98075e91">
+</td></tr><tr><td id="d98221e96">
 
 **Server Standard Changes**
 

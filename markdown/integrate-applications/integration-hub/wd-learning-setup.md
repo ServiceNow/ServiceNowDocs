@@ -7,8 +7,8 @@ release: brazil
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-11-06"
-reading_time_minutes: 5
+last_updated: "2026-11-19"
+reading_time_minutes: 6
 breadcrumb: [Workday Learning Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 

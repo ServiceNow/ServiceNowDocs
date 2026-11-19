@@ -1,6 +1,6 @@
 ---
-title: Create password reset process in Service Operations Workspace
-description: Create configure credentials, verification methods and settings, and enrollment settings to create a password reset process.
+title: Create a password reset process in Service Operations Workspace
+description: Configure credentials, verification methods and settings, and enrollment settings to create a password reset process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/create-password-reset-process-sow.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 2
 breadcrumb: [Setting up Service Desk assisted Password Reset in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Create password reset process in Service Operations Workspace
+# Create a password reset process in Service Operations Workspace
 
-Create configure credentials, verification methods and settings, and enrollment settings to create a password reset process.
+Configure credentials, verification methods and settings, and enrollment settings to create a password reset process.
 
 ## Before you begin
 
@@ -155,7 +155,7 @@ Display password
 
 Option to display the new password on the screen.
 
- **Note:** Note: This check box is available only when the **Auto-generate password** check box is selected.
+ **Note:** This check box is available only when the **Auto-generate password** check box is selected.
 
 </td></tr><tr><td>
 
@@ -165,10 +165,10 @@ Email/SMS password
 
 Option to send an email or SMS the new password to the user.
 
- **Note:** Note: This check box is available only when the **Auto-generate password** check box is selected.
+ **Note:** This check box is available only when the **Auto-generate password** check box is selected.
 
 </td></tr></tbody>
-</table>9.  Right-click on the form header, and select **Save**.
+</table>9.  Select and hold \(or right-click\) the form header, and select **Save**.
 
 10. For **Password Reset**, enter the required fields in the **Enrollment Reminder** tab.
 
@@ -178,9 +178,9 @@ Option to send an email or SMS the new password to the user.
 
     The **Password Reset Process Groups** related list appears only if the **Apply to all users** check box is not selected.
 
-13. Select the **Active** check box to enable the Password Reset process.
+13. Select the **Active** check box to enable the password reset process.
 
-14. Right-click on the form header, and select **Save**.
+14. Select and hold \(or right-click\) the form header, and select **Save**.
 
     For more information on password reset process, see [Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/t_CreateAPasswordResetProcess.md).
 

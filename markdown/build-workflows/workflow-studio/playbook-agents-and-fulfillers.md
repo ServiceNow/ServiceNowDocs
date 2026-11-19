@@ -57,16 +57,16 @@ Playbooks contain helpful UI features.
     \[Omitted image "playbook-activity-cards.png"\] Alt text: Screenshot showing Playbook activity cards.
 
 
--   **[Add an activity to a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-add-optional-activity.md)**  
-Add preselected optional activities to a Playbook Experience if available.
+-   **[Add an optional activity to a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-add-optional-activity.md)**  
+Add optional activities in Playbook Experience to a running playbook to handle work that the configured stages don't cover.
 -   **[Testing support for playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/testing-support-playbooks.md)**  
 The Automated Test Framework \(ATF\) can be used to create automated tests to confirm your playbooks run as planned.
 -   **[Restart a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/restart-a-playbook.md)**  
 Restart a playbook from the beginning, an activity, or a stage.
 -   **[Cancel a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/cancel-playbook.md)**  
 Cancel a playbook to stop a business workflow when no longer valid.
--   **[Open full lists within a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/full-list-playbook.md)**  
-Open a full list within playbook cards to view and update list items.
+-   **[Open a full list in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/open-full-list-in-playbook.md)**  
+Open a full list from a playbook card to view and update all of its list items.
 -   **[Using the activity stream within a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/activity-stream-in-playbook.md)**  
 Add comments or notes, and view communication and task history for a parent or associated record using the activity stream. The activity stream is available only on cards where an administrator has configured it.
 

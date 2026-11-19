@@ -116,13 +116,13 @@ state
 
 Filter test definitions by the test's current state. Only test definitions in the specified state are returned in the response.Valid values:
 
--   acknowledged
--   canceled
--   completed
--   failed
--   inProgress
--   pending
--   rejected
+-   `acknowledged`
+-   `cancelled`
+-   `completed`
+-   `failed`
+-   `inProgress`
+-   `pending`
+-   `rejected`
 
 Data type: String
 
@@ -389,13 +389,13 @@ state
 
 State the service test is in. Valid values:
 
--   acknowledged
--   canceled
--   completed
--   failed
--   inProgress
--   pending
--   rejected
+-   `acknowledged`
+-   `cancelled`
+-   `completed`
+-   `failed`
+-   `inProgress`
+-   `pending`
+-   `rejected`
 
 Data type: String
 
@@ -1245,13 +1245,13 @@ state
 
 State of the service test.Valid values:
 
--   acknowledged
--   canceled
--   completed
--   failed
--   inProgress
--   pending
--   rejected
+-   `acknowledged`
+-   `cancelled`
+-   `completed`
+-   `failed`
+-   `inProgress`
+-   `pending`
+-   `rejected`
 
 Data type: String
 
@@ -4147,13 +4147,13 @@ state
 
 State the service test is in. Valid values:
 
--   acknowledged
--   canceled
--   completed
--   failed
--   inProgress
--   pending
--   rejected
+-   `acknowledged`
+-   `cancelled`
+-   `completed`
+-   `failed`
+-   `inProgress`
+-   `pending`
+-   `rejected`
 
 Data type: String
 
@@ -7170,13 +7170,13 @@ state
 
 State the service test is in. Valid values:
 
--   acknowledged
--   canceled
--   completed
--   failed
--   inProgress
--   pending
--   rejected
+-   `acknowledged`
+-   `cancelled`
+-   `completed`
+-   `failed`
+-   `inProgress`
+-   `pending`
+-   `rejected`
 
 Data type: String
 
@@ -7841,13 +7841,13 @@ state
 
 State of the service test.Valid values:
 
--   acknowledged
--   canceled
--   completed
--   failed
--   inProgress
--   pending
--   rejected
+-   `acknowledged`
+-   `cancelled`
+-   `completed`
+-   `failed`
+-   `inProgress`
+-   `pending`
+-   `rejected`
 
 Data type: String
 

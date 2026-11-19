@@ -48,4 +48,5 @@ Available in the **Use ERP Data** flow.
  Order, ascending or descending, in which data is returned from an output variable.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Connecting Zero Copy Connector for ERP to ERP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
+

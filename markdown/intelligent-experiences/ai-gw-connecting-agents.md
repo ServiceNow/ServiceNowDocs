@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-23"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use, MCP client, CIMD client, AI Gateway MCP server URL]
-breadcrumb: [AI Gateway, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [AI Gateway, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Connecting agents through AI Gateway
@@ -24,12 +24,12 @@ An agent connects to an MCP server through AI Gateway in two stages:
 
 Before you start, the MCP server must be in the inventory and approved:
 
--   To add the server to the inventory, see [Add an MCP server from AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-an-mcp-server-from-ai-agent-studio.md), [Add an MCP server from MCP Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-add-an-mcp-server-from-mcp-catalog.md), or [Add an MCP server from AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-add-an-mcp-server-from-ai-control-tower.md). For an overview of the ways to add a server, see [MCP server setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mcp-server-setup.md).
+-   To add the server to the inventory, see [Add an MCP server from AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-an-mcp-server-from-ai-agent-studio.md), [Add an MCP server from MCP Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-add-an-mcp-server-from-mcp-catalog.md), or [Add an MCP server from Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-add-an-mcp-server-from-ai-control-tower.md). For an overview of the ways to add a server, see [MCP server setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mcp-server-setup.md).
 -   To approve the server, see [MCP server approval playbook workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-mcp-server-approval-playbook-workflow.md). When the server is approved, the record's header shows **Deployed &amp; Approved**. Until then, the record's **AI Gateway** tab shows that the server hasn't been approved.
 
 ## Register a client
 
-You register clients on the server's record. In AI Control Tower, navigate to **Inventory** &gt; **Assets** &gt; **MCP servers**, select the server name, select the **AI Gateway** tab, and then select the **Setup** sub-tab. The **CIMD and MCP client integration** panel lists the clients registered for the server. If the server has more than one variant, select the variant from the list first. Select **Add client**, and then choose the client type. **MCP client** is selected by default.
+You register clients on the server's record. In Control Tower, navigate to **Inventory** &gt; **Assets** &gt; **MCP servers**, select the server name, select the **AI Gateway** tab, and then select the **Setup** sub-tab. The **CIMD and MCP client integration** panel lists the clients registered for the server. If the server has more than one variant, select the variant from the list first. Select **Add client**, and then choose the client type. **MCP client** is selected by default.
 
 Choose the client type based on the agent platform:
 
@@ -49,7 +49,7 @@ How you connect an agent depends on where the agent runs and how the MCP server 
 |If|Then|Details|
 |---|----|-------|
 |An AI Agent Studio agent already uses the MCP server directly|Update the agent's MCP server tool to use the AI Gateway connection details and the client's credentials.|[Register via AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-register-mcp-servers-via-ai-agent-studio.md)|
-|The MCP server was added in AI Control Tower, and the agent runs in AI Agent Studio|Register the server in AI Agent Studio, and then add it to the agent as a tool.|[Register an MCP server via AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-add-a-new-mcp-server-to-an-agent.md)|
+|The MCP server was added in Control Tower, and the agent runs in AI Agent Studio|Register the server in AI Agent Studio, and then add it to the agent as a tool.|[Register an MCP server via Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-add-a-new-mcp-server-to-an-agent.md)|
 |The agent runs on an external platform, such as Microsoft Copilot Studio, Google Gemini, or Amazon Bedrock|Set the AI Gateway MCP server URL as the agent's MCP server endpoint, and use the registered client's credentials. For the steps, see the platform's documentation.|[Configure agents to use MCP servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configure-agents-to-use-mcp-servers.md)|
 
 ## Connection details

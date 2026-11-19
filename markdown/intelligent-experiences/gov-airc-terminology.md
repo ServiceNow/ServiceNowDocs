@@ -1,6 +1,6 @@
 ---
 title: Risk and Compliance terminology
-description: Key terms used across Risk and Compliance views in AI Control Tower, including compliance score and regulatory risk classification.
+description: Key terms used across Risk and Compliance views in Control Tower, including compliance score and regulatory risk classification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-airc-terminology.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [reference, terminology]
-breadcrumb: [Reference, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Managing risk and compliance, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Risk and Compliance terminology
 
-Key terms used across Risk and Compliance views in AI Control Tower, including compliance score and regulatory risk classification.
+Key terms used across Risk and Compliance views in Control Tower, including compliance score and regulatory risk classification.
 
 ## Regulatory risk classification
 

@@ -105,7 +105,7 @@ A dashboard is shared with a user with edit permissions. On some tabs, the user 
 
 1.  Navigate to the affected dashboard.
 
-2.  From the context menu \[Omitted image "icon-context-p.png"\] Alt text:, select **Dashboard Properties**.
+2.  From the context menu \[Omitted image "icon-context-p.png"\] Alt text: Context menu icon, select **Dashboard Properties**.
 
 3.  Select Launch Dependency Assessment.
 
@@ -113,7 +113,7 @@ A dashboard is shared with a user with edit permissions. On some tabs, the user 
 
 4.  Select the affected tab.
 
-5.  From the context menu \[Omitted image "icon-context-p.png"\] Alt text:, choose **Show Used By**.
+5.  From the context menu \[Omitted image "icon-context-p.png"\] Alt text: Context menu icon, choose **Show Used By**.
 
     The result shows the dashboards where the tab appears.
 

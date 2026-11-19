@@ -24,13 +24,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Declarative Actions** &gt; **Related List actions**.
 
-2.  Filter the records based for **Implemented As** is set as **Server script**.
+2.  Filter the records where **Implemented As** is set as **Server script**.
 
-3.  View the log in the failed record in the migration process and find the **sys\_Id** of the record from the list of **Related List Actions**.
+3.  View the log in the failed record in the migration process and find the sys\_id of the record from the list of **Related List Actions**.
 
 4.  Select the failed record with the corresponding sys\_id.
 
-5.  Right-click on the header, and select **Insert and Stay**.
+5.  Select and hold \(or right-click\) the header, and then select **Insert and Stay**.
 
 6.  Clear the **Workspace** and **View** fields.
 

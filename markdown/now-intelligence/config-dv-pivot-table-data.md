@@ -44,7 +44,7 @@ Label
 
 </td><td>
 
-Label of the metric. By default it is the same as the name of the data source.
+Label of the metric. By default it is the same as the name of the data source.**Note:** If you have multiple metrics on the same data source, consider giving them custom labels. If you are defining group-by fields or breakdowns, this is particularly important. Chart labels in this case show both the metric label and the group-by value, so the metrics need different labels.
 
 </td></tr><tr><td>
 
@@ -121,6 +121,7 @@ The field to group by. You can group by any field in the table including list fi
 **Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
+-   If there are multiple metrics, the metric label is appended to the beginning of the group-by field values in the chart labels.
 -   Fields with continuous values, such as date or integer, are automatically grouped according to any report ranges defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_ReportRanges.md).
 
 </td></tr><tr><td>

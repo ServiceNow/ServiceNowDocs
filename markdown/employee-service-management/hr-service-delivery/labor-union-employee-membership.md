@@ -44,8 +44,6 @@ Employee
 
 The employee and member of a union.Selecting the Lookup using icon \(\[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon\) displays all employees with an HR profile.
 
- **Note:** There is an **Employee Union Membership** tab on an HR profile for employees that are part of an employee union membership. For more information, see .
-
 </td></tr><tr><td>
 
 Labor union

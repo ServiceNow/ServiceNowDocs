@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/plat-ai-aict-security-analyzer-agent-ai-agent.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-11-16"
+reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -17,15 +17,18 @@ This AI agent generates context for a detected AI security event by aggregating 
 
 ## Workflow
 
-For all threats, the agent deterministically executes outcomes in a single finalization step: creating a security incident for critical severity findings with no open duplicate, saving a triage record capturing the full verdict and rationale, and triggering an AI insight for platform-wide visibility after the triage record is committed.
+For all security events, the agent deterministically executes outcomes in a single finalization step: creating a security incident for critical severity events with no open duplicate, saving a triage record capturing the full verdict and rationale, and triggering an AI insight for platform-wide visibility after the triage record is committed.
 
 1.  Retrieve the detected AI security event record and gather its full context, including the related asset, prompt, cross-threat indicators, and recent threat correlation.
-2.  If the event context indicates an error, finalize the analysis immediately with the error details and stop.
-3.  Calculate a confidence score using detection strength, event type risk, prompt authorization signals, and any cross-threat or correlation overrides.
+2.  If the event context indicates an error, finalize the analysis immediately with the error details and stop. If the event is missing, or lacks its event type, asset, or target record, the agent saves a triage record with verdict error, score 0, and the error details.
+3.  Calculate a confidence score \(0-100\) using detection strength, event type risk, prompt authorization signals, and any cross-threat or correlation overrides. Critical events have a score of 90-100.
 4.  Finalize the analysis by determining severity and creating a security incident with no open duplicate. Save a triage record with the full rationale, and trigger an AI insight for platform-wide visibility.
-5.  If finalization fails, present the error and its details to the user.
+5.  If finalization fails, failures appear in the system log and the triage record. If incident creation fails, the triage record is saved with Critical severity and verdict incident\_creation\_failed. No incident is linked. The analysis reports success.
 
-<table><thead><tr><th>
+    If triage save fails, the analysis reports failure and the agent shows an error. Any incident created or matched during the analysis remains and isn't linked to a triage record. If a triage record already existed for the event, it keeps its previous values.
+
+
+<table id="table_onk_rvj_glc"><thead><tr><th>
 
 Field
 
@@ -40,6 +43,8 @@ Allow third party to access this AI agent
 </td><td>
 
 When enabled, third-party AI agents can use this agent. This value is off \(false\) by default. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the External discoverable field.
+
+ **Warning:** Turning on external discovery exposes security event data to outside agents.
 
 </td></tr><tr><td>
 
@@ -65,9 +70,9 @@ Tools
 
 -   **Scripts**
 
-Assess Threat
+Assess Threat - Gathers the event, the asset context \(its system prompt and transaction summary\), cross-threat indicators, and recent threat correlation \(7-day window, up to 20 events\).
 
-Finalize Analysis
+Finalize Analysis - Derives severity from the score, runs the duplicate check, creates the incident, and saves the triage record.
 
 
 </td></tr><tr><td>
@@ -76,7 +81,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-sn\_ai\_governance.ai\_steward
+sn\_ai\_governance.ai\_steward and sn\_ai\_security.viewer
 
 </td></tr><tr><td>
 
@@ -84,7 +89,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-sn\_ai\_governance.ai\_steward
+sn\_ai\_governance.ai\_steward and sn\_ai\_security.viewer
 
 </td></tr><tr><td>
 
@@ -127,8 +132,5 @@ The following metrics are turned off by default so that no AI usage is consumed 
 -   Correctness detection
 -   Data integrity incident detection
 -   Excessive agency
--   Improper input and output handling
--   Prompt injection
--   Sensitive data disclosure
 -   System prompt leakage
 

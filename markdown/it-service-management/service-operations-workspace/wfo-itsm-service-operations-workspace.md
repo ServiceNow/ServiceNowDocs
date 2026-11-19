@@ -31,7 +31,7 @@ Use Service Operations Workspace Learning to review learning courses and paths a
 -   **[Review skills to add to your skill set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/review-skills-wfo-itsm.md)**  
 Evaluate the skill proficiency for an existing skill or add a new skill and request approval to update those skills in your skill set. Get notified when your manager requests a skill review.
 -   **[Take a survey in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/take-survey-sow-wfo-itsm.md)**  
-Complete the survey assigned to you in Service Operations Workspace This feature is available only when the Workforce Optimization for ITSM plugin `sn_wfo_cfg_itsm` is installed.
+Complete the survey assigned to you in Service Operations Workspace. This feature is available only when the Workforce Optimization for ITSM plugin `sn_wfo_cfg_itsm` is installed.
 
 **Parent Topic:**[Optimizing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/optimizing-services-operations-in-organization.md)
 

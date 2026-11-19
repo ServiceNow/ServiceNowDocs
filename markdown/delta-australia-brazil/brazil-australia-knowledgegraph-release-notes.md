@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-knowledgegraph-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,7 @@ Australia
 
 </td><td>
 
--   **[\[Placeholder link text to key using-graph-query-builder\]](https://www.servicenow.com/docs/access?context=using-graph-query-builder&family=australia&ft:locale=en-US)**
+-   **[using graph query builder](https://www.servicenow.com/docs/access?context=using-graph-query-builder&family=australia&ft:locale=en-US)**
 
 A visual interface to build and run Knowledge Graph queries without coding, enabling users to explore entities, relationships, and apply filters easily. It also supports natural language queries converted by LLMs for intuitive querying and offers options to save and reuse the queries later.
 
@@ -109,7 +109,7 @@ Australia
 
 </td><td>
 
--   **[\[Placeholder link text to key access-graph-query-builder\]](https://www.servicenow.com/docs/access?context=access-graph-query-builder&family=australia&ft:locale=en-US)**
+-   **[access graph query builder](https://www.servicenow.com/docs/access?context=access-graph-query-builder&family=australia&ft:locale=en-US)**
 
 New Query Builder section on Knowledge Graph Designer landing page. You can also directly access it from the main menu.
 

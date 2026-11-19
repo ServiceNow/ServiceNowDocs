@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/view-modify-scan-engine-properties.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-29"
+last_updated: "2026-11-04"
 reading_time_minutes: 3
 keywords: [scan engine definitions, customize, active, override]
-breadcrumb: [Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Customize Scan Engine definitions
@@ -40,21 +40,23 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\).
 
     **Note:** Minimum versions required are Scan Engine version 4.0.3 \(Zurich 11\) or Australia AP5.
 
-5.  Modify definition properties
-6.  To modify other definition properties, select **Override Definition**.
+5.  Select **Update**.
+
+6.  Modify definition properties
+7.  To modify other definition properties, select **Override Definition**.
 
     When a definition is overridden, the base system definition will no longer be used in any scan type \(real-time, scheduled, update set, application, or on demand\). All fields in the overridden definition become editable. You can then modify the required and optional fields. Refer to [Create custom Scan Engine definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/create-scan-engine-definitions.md) for complete field details.
 
-7.  When updating an overridden definition, review the override field information.
+8.  When updating an overridden definition, review the override field information.
 
     -   The **Override** field is only visible if a base definition has been overridden using **Override Definition**.
     -   Deleting an overridden definition re-enables the base system definition.
     -   Overridden definitions are considered custom definitions. As a result, they are included in the count of 10 active custom definitions limit for Guided customers.
-8.  Select **Update**.
+9.  Select **Update**.
 
     Related lists appear at the bottom of the definition screen.
 
-<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d60984e202">
+<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d60570e215">
 
 **Applicable Tables**
 
@@ -75,7 +77,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
     -   **Conditions**: Defines the conditions that table records must meet to be scanned.
 
 
-</td></tr><tr><td id="d60984e267">
+</td></tr><tr><td id="d60570e280">
 
 **Findings For This Definition**
 
@@ -83,7 +85,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
 
 Displays any findings, as established by the definition, found during on-demand or scheduled scans.
 
-</td></tr><tr><td id="d60984e276">
+</td></tr><tr><td id="d60570e289">
 
 **Resolved Finding Histories**
 
@@ -91,7 +93,7 @@ Displays any findings, as established by the definition, found during on-demand 
 
 Shows findings that were resolved for this definition.
 
-</td></tr><tr><td id="d60984e285">
+</td></tr><tr><td id="d60570e298">
 
 **Scan Engine Suites**
 
@@ -114,5 +116,5 @@ Follow these steps to create or modify Scan Engine definition suites.
 -   **[Create policies for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/working-policies-scan-engine.md)**  
 Policies let you determine how specific definition findings appear on analytics dashboards; you can ignore them completely or place them in a prioritized view.
 
-**Parent Topic:**[Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-initial-scan-engine-settings.md)
+**Parent Topic:**[Scan Engine properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/scan-engine-properties-overview.md)
 

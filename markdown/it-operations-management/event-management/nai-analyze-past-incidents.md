@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Accelerate alert resolution with past incident analysis, Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Accelerate alert resolution with past incident analysis, Responding to and working with alerts in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Generate a ServiceNow Otto summary of past related incidents
@@ -47,4 +47,6 @@ Role required: evt\_mgmt\_operator
 
     The incident page opens, showing the Overview tab.
 
+
+**Parent Topic:**[Accelerate alert resolution with past incident analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/nai-past-incidents.md)
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Subscription Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, Subscription Management, Get started, ServiceNow AI Platform]
 ---
 
 # Subscription Management roles

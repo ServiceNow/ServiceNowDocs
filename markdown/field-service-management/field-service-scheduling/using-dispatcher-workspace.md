@@ -16,7 +16,7 @@ breadcrumb: [Assigning tasks from Dispatcher Workspace, Scheduling and dispatchi
 
 Dispatcher Workspace is a configurable scheduling application that enables you to efficiently route work to field service agents and monitor their performance.
 
-The CSM/FSM Configurable Workspace contains the Dispatcher Dashboard and Dispatcher Workspace.
+The CRM Workspace contains the Dispatcher Dashboard and Dispatcher Workspace.
 
 -   The Dispatcher Dashboard is the home page and displays the real-time data of the operations and performance of field service agents across their assignments in your organization such as.
     -   Statistics on critical pending dispatch tasks and SLAs breached.

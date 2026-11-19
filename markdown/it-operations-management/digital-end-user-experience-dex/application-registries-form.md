@@ -1,6 +1,6 @@
 ---
 title: Application Registries form
-description: The Application Registries form contains the OAuth client settings for an application registry, such as the client ID, client secret, redirect URL, and token lifespans.
+description: The Application Registries form contains the fields for registering an OAuth client application, including client credentials, redirect URLs, and token lifespans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/digital-end-user-experience-dex/application-registries-form.html
 release: brazil
@@ -15,7 +15,7 @@ breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experi
 
 # Application Registries form
 
-The Application Registries form contains the OAuth client settings for an application registry, such as the client ID, client secret, redirect URL, and token lifespans.
+The Application Registries form contains the fields for registering an OAuth client application, including client credentials, redirect URLs, and token lifespans.
 
 You must have the Desktop Assistant administrator \[sn\_dex\_desktop.admin\] role to access the form.
 
@@ -97,7 +97,7 @@ Accessible from
 
 </td><td>
 
-IP addresses or domains that are authorized to access your OAuth client.When you register your OAuth client, you may be required to provide a list of IP addresses or domains allowed to make requests to the service provider's API.
+IP addresses or domains that are authorized to access your OAuth client.When you register your OAuth client, you might have to provide a list of IP addresses or domains allowed to make requests to the service provider's API.
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ Refresh Token Lifespan
 
 </td><td>
 
-The duration \(in seconds\) of a user's session before requiring reauthentication in your application.
+Duration \(in seconds\) of a user's session before requiring reauthentication in your application.
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ Access Token Lifespan
 
 </td><td>
 
-The duration \(in seconds\) for which an access token is considered valid for use by an application.
+Duration \(in seconds\) for which an access token is considered valid for use by an application.
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ Default Grant type
 
 </td><td>
 
-Default method used by an OAuth 2.0 authorization server to grant access tokens to client applications.
+Default method that an OAuth 2.0 authorization server uses to grant access tokens to client applications.
 
 </td></tr></tbody>
 </table>To return to the OAuth details page, see [Configure Open Authorization details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/configure-oauth-details.md).

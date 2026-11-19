@@ -55,15 +55,15 @@ Role required: sn\_mcp\_server.admin or admin
 
     **Note:** Change the application scope to **Global**.
 
-<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d804202e208">
+<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d805147e210">
 
 Authentication option
 
-</th><th align="left" id="d804202e211">
+</th><th align="left" id="d805147e213">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d804202e217">
+</th></tr></thead><tbody><tr><td id="d805147e219">
 
 **Use the HRSD MCP Server OAuth client entry**
 
@@ -78,7 +78,7 @@ The fields on the Authorization code grant page are automatically populated.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d804202e255">
+</td></tr><tr><td id="d805147e257">
 
 **Set up your own OAuth connection**
 

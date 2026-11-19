@@ -16,7 +16,7 @@ Certain roles, plugin dependencies, and fields must be considered when fulfillin
 
 ## Plugins used by Fulfilment in Portal
 
-Fulfilment in Portal introduces no new plugin. It extends the existing Retail In-store Operations plugin so that Store Cases and Store Tasks generated from store plans can also be viewed and fulfilled from the Retail Portal, in addition to Retail Mobile and Workspace. The embedded questionnaire reuses the existing Smart Assessment components; see [Components installed with Smart Assessments for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-smart-assessments.md).
+Fulfilment in Portal introduces no new plugin. It extends the existing Retail In-store Operations plugin so that Store Cases and Store Tasks generated from store plans can also be viewed and fulfilled from the Retail Portal, in addition to Retail Mobile and CRM Workspace. The embedded questionnaire reuses the existing Smart Assessment components; see [Components installed with Smart Assessments for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-components-smart-assessments.md).
 
 <table id="table_plugins-fulfilment-in-portal"><thead><tr><th>
 

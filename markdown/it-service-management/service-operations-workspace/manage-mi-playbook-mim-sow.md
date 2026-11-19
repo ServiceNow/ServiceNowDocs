@@ -1,6 +1,6 @@
 ---
 title: Manage major incidents using the MI playbook
-description: Manage major incidents using the MI playbook from the contextual side panel or the Playbook tab of an incident record page. This playbook provides a simple, concise, and task-oriented interface for managing the major incident process.
+description: Manage major incidents using the MI playbook from the contextual side panel or the Playbook tab of an incident record page. This playbook provides a task-oriented interface for managing the major incident process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/manage-mi-playbook-mim-sow.html
 release: brazil
@@ -8,13 +8,13 @@ product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Managing major incidents using playbooks, Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Manage major incidents using the MI playbook
 
-Manage major incidents using the MI playbook from the contextual side panel or the **Playbook** tab of an incident record page. This playbook provides a simple, concise, and task-oriented interface for managing the major incident process.
+Manage major incidents using the MI playbook from the contextual side panel or the **Playbook** tab of an incident record page. This playbook provides a task-oriented interface for managing the major incident process.
 
 ## Before you begin
 
@@ -26,13 +26,13 @@ Role required: major\_incident\_manager or admin
 
 ## About this task
 
-The MI playbook in Service Operations Workspace provides a guided approach to the entire major incident process. It provides a way to visualize business process workflows for major incidents in a simple, concise, and task-oriented view.
+The MI playbook in Service Operations Workspace provides a guided approach to the entire major incident process. It provides a way to visualize business process workflows for major incidents in a task-oriented view.
 
 ## Procedure
 
 1.  Open an incident record that has been proposed as a major incident candidate.
 
-2.  Select the **Major Incident Playbooks** \(\[Omitted image "mim-playbook-icon.png"\] Alt text: Major incident playbook\) icon on a contextual side panel to launch the major incident playbook.
+2.  Select the Major Incident Playbooks icon \[Omitted image "mim-playbook-icon.png"\] Alt text: on a contextual side panel to launch the major incident playbook.
 
     The Major Incident Playbook panel opens on the side panel. The panel includes the following tabs:
 
@@ -69,7 +69,7 @@ The MI playbook in Service Operations Workspace provides a guided approach to th
 
         For more information, see [Compose communications for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/compose-communication-mim-sow.md).
 
-    3.  Select the **More actions** \(\[Omitted image "mim-more-action-icon.png"\] Alt text: More action icon\) icon for a communication task and then select **Manage Recipients** to add or manage the recipients for communications.
+    3.  Select the More actions icon \[Omitted image "mim-more-action-icon.png"\] Alt text: for a communication task and then select **Manage Recipients** to add or manage the recipients for communications.
 
         For more information, see [Manage recipients in a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-recipients-mim-sow.md).
 
@@ -89,21 +89,21 @@ The MI playbook in Service Operations Workspace provides a guided approach to th
 
     1.  Select **Adhoc collaboration and communication**.
 
-        This section contains the following collaboration and communication records that are created separately than pre-defined and configured communications and collaboration plans:
+        This section contains the following collaboration and communication records that are created separately from predefined and configured communications and collaboration plans:
 
-        -   Communications – All the communications that you create using the **New communication** option from the **Communicate** tab or using the Incident communication plan related list on the **Related records** tab are displayed in this section. For more information on creating unplanned communications, see [Create an adhoc communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-task-mim-sow.md) and [Create adhoc communication and collaboration using the Related record tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-collab-mim-sow.md).
-        -   Collaboration – All the collaboration records that you create using the Incident Communications plan related list on the **Related records** tab are displayed in this section. For more information on creating unplanned communications and collaboration, see [Create adhoc communication and collaboration using the Related record tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-collab-mim-sow.md).
-    2.  Select the one of the following options for unplanned communications and collaboration.
+        -   Communications – This section displays communications created using the **New communication** option from the **Communicate** tab, or from the Incident communication plan related list on the **Related records** tab. For more information, see [Create an ad hoc communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-task-mim-sow.md) and [Create ad hoc communication and collaboration using the Related records tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-collab-mim-sow.md).
+        -   Collaboration – All the collaboration records that you create using the Incident Communications plan related list on the **Related records** tab are displayed in this section. For more information on creating unplanned communications and collaboration, see [Create ad hoc communication and collaboration using the Related records tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-adhoc-comm-collab-mim-sow.md).
+    2.  Select one of the following options for unplanned communications and collaboration.
 
         -   For unplanned communications, you can do one of the following actions:
             -   Select **Compose** to compose a communication message such as email or SMS. For more information, see [Compose communications for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/compose-communication-mim-sow.md).
-            -   Select the **More actions** \(\[Omitted image "mim-more-action-icon.png"\] Alt text: More action icon\) icon for a communication task and then select **Manage Recipients** to add or manage the recipients list for the communication task. For more information, see [Manage recipients in a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-recipients-mim-sow.md).
+            -   Select the More actions icon \[Omitted image "mim-more-action-icon.png"\] Alt text: for a communication task and then select **Manage Recipients** to add or manage the recipients list for the communication task. For more information, see [Manage recipients in a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-recipients-mim-sow.md).
         -   For unplanned collaboration, you can do one of the following actions:
             -   Start a call - Select **Start** on a collaboration record to start a call with the stakeholders. For more information, see [Collaborate with stakeholders during a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/collaborate-stakeholders-mim-sow.md).
             -   Start a chat – Select **Open discussion** to start a chat with the stakeholders. For more information, see [Collaborate with stakeholders during a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/collaborate-stakeholders-mim-sow.md).
 8.  Select **Resolve**.
 
-    For information on how to resolve a major incident, see, [Resolve and close a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/resolve-close-mim-sow.md).
+    For information on how to resolve a major incident, see [Resolve and close a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/resolve-close-mim-sow.md).
 
 9.  Select **Create Problem**.
 
@@ -111,8 +111,8 @@ The MI playbook in Service Operations Workspace provides a guided approach to th
 
     -   The incident doesn’t have a problem record associated with it.
     -   The Problem Management Best Practice - Madrid - State Model \(com.snc.best\_practice.problem.madrid.state\_model\) plugin is activated on the instance.
-    -   The **Create problem from major incident** flow is inactive on the instance. This flow is shipped as part of the base system in the **Inactive** status. Once activated, it creates a problem record automatically when an incident is promoted to a major incident.
-    You can also configure if the incident field information is copied automatically to the respective fields in a problem record using the **List of attributes \(comma-separated\) that will be copied from the incident to create a new problem** \(**com.snc.problem.create\_from\_incident.attributes**\) system property when a problem record is created. For more information, see [Create a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/create-a-problem-v2.md).
+    -   The **Create problem from major incident** flow is inactive on the instance. This flow is shipped as part of the base system in the **Inactive** status. After it is activated, it creates a problem record automatically when an incident is promoted to a major incident.
+    You can also configure which incident field information is copied to a problem record. Use the **List of attributes \(comma-separated\) that will be copied from the incident to create a new problem** \(**com.snc.problem.create\_from\_incident.attributes**\) system property to control this behavior. For more information, see [Create a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/create-a-problem-v2.md).
 
     A problem record is created automatically. You can select **View Problem** to view the problem record on a separate tab.
 
@@ -122,7 +122,7 @@ The MI playbook in Service Operations Workspace provides a guided approach to th
 
     2.  Select **Mark Complete** to end the major incident process in the **Playbook** side panel.
 
-        You can continue to work on the post incident report review from the **Post Incident Report** tab on the Incident record page. For more information, see [Review and update a post incident report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/review-update-pir-mim-sow.md).
+        You can continue to work on the post incident report review from the **Post Incident Report** tab on the incident record page. For more information, see [Review and update a post incident report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/review-update-pir-mim-sow.md).
 
 
 **Parent Topic:**[Managing major incidents using playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/managing-mi-playbook-sow.md)

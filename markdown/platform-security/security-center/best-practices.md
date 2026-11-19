@@ -1,6 +1,6 @@
 ---
-title: Best Practices
-description: Learn details about the Best Practices in the Security Posture Console.
+title: General security guidelines
+description: General security guidelines in the Security Posture Console cover access control, authentication, encryption, email security, logging, and hardening for your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/best-practices.html
 release: brazil
@@ -12,13 +12,13 @@ reading_time_minutes: 17
 breadcrumb: [Security Best Practices, Security posture console, Security Center, Platform Security]
 ---
 
-# Best Practices
+# General security guidelines
 
-Learn details about the Best Practices in the Security Posture Console.
+General security guidelines in the Security Posture Console cover access control, authentication, encryption, email security, logging, and hardening for your instance.
 
 <table id="table_bmy_gzy_fgc"><thead><tr><th>
 
-Best Practice
+Guideline
 
 </th><th>
 
@@ -54,7 +54,7 @@ Change the default login credentials
 
 </td><td>
 
-Change the passwords on your instance's built-in user accounts, such as admin, ITIL, and employee. These accounts are provisioned with default passwords, unique to your instance, but should be changed as soon as possible.
+Change the passwords on your instance's built-in user accounts, such as admin, ITIL, and employee. These accounts are provisioned with default passwords that are unique to your instance. Change these passwords as soon as possible.
 
  For details on how to change the passwords for user accounts on your instance, see [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/reset-your-password.md).
 
@@ -76,7 +76,7 @@ Configure your email systems to accept mail from your instance by using SPF
 
 If your organization uses Sender Policy Framework \(SPF\) to control inbound email with anti-spam technology, you must configure it to accept email originating from your instance. Configure SPF to query the SPF records dynamically.
 
- If SPF isn’t an option, another approach is to add the mail server IP addresses to your allow list. This configuration must be monitored as the addresses could be subject to change.
+ If SPF isn’t an option, another approach is to add the mail server IP addresses to your allow list. Monitor this configuration because the addresses could change.
 
  For steps and additional details on these solutions, see [KB0535456](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0535456)
 
@@ -86,29 +86,29 @@ Consider limiting file attachments, uploads, and downloads
 
 </td><td>
 
-Restrict attachment uploads by role, file extension, MIME type, or size to help prevent potentially malicious files being stored and delivered from your instance. You can also control which file types can be downloaded, including by MIME type, and prevent image access by unauthenticated users.
+Restrict attachment uploads by role, file extension, MIME type, or size to help prevent potentially malicious files being stored and delivered from your instance. You can also control which file types can be downloaded, including by MIME type, and help prevent image access by unauthenticated users.
 
  These attachment restrictions are controlled by system properties on your instance. For details on their configuration, see [Configure attachment system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DisablingTheDragAndDropFeature.md).
 
 </td></tr><tr><td>
 
-Disable browser SQL messages
+Turn off browser SQL messages
 
 </td><td>
 
-Prevent SQL error messages from being presented in the web browser. Though useful to users and developers, these messages can be used by attackers to learn information about your system or to help guide their attempts to access your data. These messages can be turned off using a system property.
+Avoid showing SQL error messages in the web browser. Though useful to users and developers, these messages can be used by attackers to learn information about your system or to help guide their attempts to access your data. You can turn off these messages by using a system property.
 
  For details on this system property, see [Disable SQL error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-disabling-sql-error-messages.md).
 
 </td></tr><tr><td>
 
-Disable password-less authentication
+Turn off password-less authentication
 
 </td><td>
 
-Help ensure strong authentication by disabling password-less authentication when possible. Without disabling password-less authentication, potential attackers could gain access to your instance by correctly guessing a user name \(such as firstname.lastname or a role title\).
+Help strengthen authentication by turning off password-less authentication when possible. If password-less authentication is turned on, potential attackers could gain access to your instance by correctly guessing a user name \(such as firstname.lastname or a role title\).
 
- You can disable password-less authentication on your instance using a system property. For details on this property see .
+ You can turn off password-less authentication on your instance by using a system property. For details on this property see .
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Encrypt data at rest within the instance
 
 Encrypt your data to maintain its confidentiality and integrity. Data on your instance can be within the database. You can also elect to subscribe to functionality to encrypt the data volume transparently on the backend. The physical disks on which the instance runs can also be encrypted in their entirety to guard data in case of their loss or theft.
 
- You can use different methods of encryption simultaneously for data stored in your instance, depending on your use case and the risks you wish to mitigate. For example, you can choose to transparently encrypt your data at rest using database encryption on most tables, cloud encryption on the entire data volume. You could also use full disk hardware encryption, which also requires a dedicated environment to protect against drive or server theft.
+ You can use different methods of encryption simultaneously for data stored in your instance, depending on your use case and the risks you want to mitigate. For example, you can choose to transparently encrypt your data at rest using database encryption on most tables, cloud encryption on the entire data volume. You could also use full disk hardware encryption, which also requires a dedicated environment to protect against drive or server theft.
 
  Review the encryption options available with in [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/encryption.md).
 
@@ -148,7 +148,7 @@ Use password policies to enforce the length, complexity, expiration, uniqueness,
 
 </td></tr><tr><td>
 
-Ensure automatic account creation
+Control automatic account creation
 
 </td><td>
 
@@ -158,11 +158,11 @@ Use this feature to create user accounts by email dynamically. Activate this fea
 
 </td></tr><tr><td>
 
-Ensure Secure Access to knowledge bases
+Manage access to knowledge bases
 
 </td><td>
 
-Manage access to knowledge bases and articles to help ensure secure and efficient information sharing. You can determine whether certain users or categories of users can access knowledge bases and knowledge articles by controlling contribute and read access.
+Manage access to knowledge bases and articles to help secure information sharing. You can determine whether certain users or categories of users can access knowledge bases and knowledge articles by controlling contribute and read access.
 
  The specific configuration depends on your business needs. Learn about your options for configuring knowledge access at [Managing access to knowledge bases and knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/user-access-knowledge.md).
 
@@ -174,13 +174,13 @@ Ensure that the High Security plugin is installed and activated
 
 Use the High Security plugin \(HSP\) to enhance security management and applying appropriate settings. High Security Settings provides a central location for security settings, creates a distinct security administrator role, a default deny property, and other important security features.
 
- HSP is installed and enabled by default on all new instances. You can request HSP activation for older instances, including instances that have had upgrades from an older version. Enabling HSP should be done only after careful testing in a non-production environment, as activation changes some fundamental properties and behaviors.
+ HSP is installed and enabled by default on all new instances. You can request HSP activation for older instances, including instances that have had upgrades from an older version. Enable HSP only after careful testing in a non-production environment, because activation changes some fundamental properties and behaviors.
 
  For more details on the High Security plugin, see [Enable High Security plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md).
 
 </td></tr><tr><td>
 
-Familiarize yourself with NOW security resources
+Familiarize yourself with ServiceNow security resources
 
 </td><td>
 
@@ -194,7 +194,7 @@ Security information constantly evolves, so it's crucial to stay updated with se
 
 </td></tr><tr><td>
 
-Harden your Instance
+Harden your instance
 
 </td><td>
 
@@ -210,11 +210,11 @@ Install patches as soon as possible
 
 </td><td>
 
-Install patches and platform updates as soon as possible help ensure the highest levels of security for both your instance and those of other customers. Keeping current with updates also enables you to maintain continuous support by conforming to the EOL policy. Use Upgrade Center to help manage the process.
+Install patches and platform updates as soon as possible to help maintain the security of your instance and the instances of other customers. Keeping current with updates also enables you to maintain continuous support by conforming to the end-of-life \(EOL\) policy. Use Upgrade Center to help manage the process.
 
- Security fixes are routinely released for the Now Platform via the patches and hot fixes that accompany product feature updates. Upgrading when new patches and hot fixes are available helps reduce the risk of potential vulnerabilities.
+ Security fixes are routinely released for the ServiceNow AI Platform through the patches and hot fixes that accompany product feature updates. Upgrading when new patches and hot fixes are available helps reduce the risk of potential vulnerabilities.
 
- Information about Now Platform releases, patches, and hot fixes can be found in the Release Notes section of the product documentation. For more information, see [Phase 1 -](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-1.md).
+ You can find information about ServiceNow AI Platform releases, patches, and hot fixes in the Release Notes section of the product documentation. For more information, see [Phase 1 -](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/upgrades-phase-1.md).
 
 </td></tr><tr><td>
 
@@ -222,7 +222,7 @@ Integrate with MFA
 
 </td><td>
 
-Integrate third-party multi-factor authentication \(MFA\) with your existing SAML IdP to provide additional login security. MFA provides a high level of security because authentication requires multiple authentication factors. Something the user knows \(the password\) as well as something they own \(a one-time code, mobile phone, or biometric attributes, such as a fingerprint\).
+Integrate third-party multi-factor authentication \(MFA\) with your existing SAML IdP to provide additional login security. MFA provides a high level of security because authentication requires multiple authentication factors. Something the user knows \(the password\) and something they own \(a one-time code, mobile phone, or biometric attributes, such as a fingerprint\).
 
  Learn more about MFA integration at [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/mfa-landing.md).
 
@@ -232,7 +232,7 @@ Limit accepted email sender domains
 
 </td><td>
 
-Control which domains and users your instance can communicate with via email by using system address filters. These filters can be customized to your requirements.
+Control which domains and users your instance can communicate with by email by using system address filters. These filters can be customized to your requirements.
 
  Learn how to configure trusted domains at .
 
@@ -261,7 +261,7 @@ Transaction logs record all web browser-related activity for an instance and can
 
 -   **Table auditing and record history**
 
-Enable auditing for database tables. Record history is perpetual and enables you to track and view details of any changes made to the data since its creation. By default, only the incident, problem, and change tables are tracked. For other tables, auditing must be enabled manually.
+Enable auditing for database tables. Record history is perpetual and enables you to track and view details of any changes made to the data since its creation. By default, only the incident, problem, and change tables are tracked. For other tables, you must enable auditing manually.
 
 -   **Import logs**
 
@@ -311,7 +311,7 @@ Monitor your instance’s Hardening Compliance level
 
 </td><td>
 
-Ensure that your instances are in compliance with the latest security hardening metrics using the Hardening tool in Security Center. Access this tool in a non-production instance assess impact to your environment. Ideally, the score should be as close to 100% as possible with a minimum score of 83%, without affecting product functionality.
+Verify that your instances comply with the latest security hardening metrics using the Hardening tool in Security Center. Access this tool in a non-production instance assess impact to your environment. Ideally, the score should be as close to 100% as possible with a minimum score of 83%, without affecting product functionality.
 
  Learn more about Security Center's hardening settings tool at [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/security-hardening-settings.md).
 
@@ -321,11 +321,11 @@ Refer your developers to the Secure Coding Guide
 
 </td><td>
 
-Help to ensure that your instance is secure and resistant to unauthorized access as possible using secure coding practices. The ServiceNow Secure Coding guide for Instance developers provides an overview of application security-related GlideScriptable classes and methods offered by ServiceNow. This guide is designed to assist and educate developers while creating and modifying the code on the target Instance. Review the guide at [ServiceNow Secure Coding guide for Instance developers](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0623354).
+Use secure coding practices to help make your instance as secure and resistant to unauthorized access as possible. The ServiceNow Secure Coding guide for Instance developers provides an overview of application security-related GlideScriptable classes and methods offered by ServiceNow. This guide assists and educates developers who create and modify code on the target instance. Review the guide at [ServiceNow Secure Coding guide for Instance developers](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0623354).
 
 </td></tr><tr><td>
 
-Remove the ‘Remember Me’ check box
+Remove the **Remember Me** check box
 
 </td><td>
 
@@ -339,13 +339,13 @@ Restrict access to your instance from unknown IP addresses
 
 </td><td>
 
-Help prevent unauthorized access to your instance by restricting access from IP addresses unrelated to your organization. Anyone trying to access the instance from an unauthorized IP address are denied. If using this approach, consider allowing only your gateway or web proxy external addresses, as well as addresses from which your users access the instance from, including remote users. You can restrict both outbound and inbound access by IP address.
+Help prevent unauthorized access to your instance by restricting access from IP addresses unrelated to your organization. Anyone trying to access the instance from an unauthorized IP address are denied. If using this approach, consider allowing only your gateway or web proxy external addresses, and addresses from which your users access the instance, including remote users. You can restrict both outbound and inbound access by IP address.
 
  Learn how to restrict access to your instance by IP address in [Restrict access to specific IP ranges plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-restrict-access-to-specific-ip-ranges-plugin.md).
 
 </td></tr><tr><td>
 
-Review ServiceNow's guidance on password spray attacks
+Review ServiceNow guidance on password spray attacks
 
 </td><td>
 
@@ -390,7 +390,7 @@ Learn how to use the Key Management Framework \(KMF\) to protect the data on you
 
 </td></tr><tr><td>
 
-Use of certificate-based authentication with integration providers
+Use certificate-based authentication with integration providers
 
 </td><td>
 
@@ -404,13 +404,13 @@ Use SAML authentication
 
 </td><td>
 
-Integrate third-party multi-factor authentication \(MFA\) with your existing SAML IdP to provide additional login security. MFA provides a high level of security because authentication requires multiple authentication factors. Something the user knows \(the password\) as well as something they own \(a one-time code produced by an MFA token or mobile phone, or biometric attributes, such as a fingerprint\).
+Integrate third-party multi-factor authentication \(MFA\) with your existing SAML IdP to provide additional login security. MFA provides a high level of security because authentication requires multiple authentication factors. Something the user knows \(the password\) and something they own \(a one-time code produced by an MFA token or mobile phone, or biometric attributes, such as a fingerprint\).
 
- ServiceNow supports direct MFA integration with local accounts, LDAP, SSO with SAML, OIDC, or Digest.
+ ServiceNow supports direct MFA integration with local accounts, LDAP, single sign-on \(SSO\) with SAML, OpenID Connect \(OIDC\), or Digest.
 
  Adaptive Authentication is a prerequisite for SSO with MFA.
 
- MFA can be enabled for specified users and specified roles, and configured for ease of use. For example you can exempt recognized devices for a number of hours.
+ MFA can be enabled for specified users and specified roles, and configured for ease of use. For example you can exempt recognized devices for several hours.
 
  You can view metrics for MFA use in the Security Center.
 
@@ -425,9 +425,9 @@ Use the email filters feature set to deal with suspect inbound messages
 
 </td><td>
 
-Create email filters to filter out messages marked as suspicious by ServiceNow Antivirus Protection. In addition to virus protection, Antivirus Protection analyzes email for malware and SPAM, scoring and the results adding this information to the message in x-headers. You can use these headers as criteria for the Email Filters Plugin to act on if desired.
+Create email filters to filter out messages marked as suspicious by ServiceNow Antivirus Protection. Antivirus Protection analyzes email for viruses, malware, and spam, and adds the scoring results to the message in x-headers. You can use these headers as criteria for the Email Filters Plugin to act on if desired.
 
- Learn more about ServiceNow's antivirus feature at [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/antivirus-protection.md).
+ Learn more about ServiceNow antivirus feature at [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/antivirus-protection.md).
 
  Learn how to configure email filters on your instance at [Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailFilters.md).
 

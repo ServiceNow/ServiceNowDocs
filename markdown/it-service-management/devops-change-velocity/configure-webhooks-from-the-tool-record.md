@@ -30,15 +30,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner in DevOps Change Veloc
 
     **Note:** You can also select the a Project, Plan, or Repository record and configure the corresponding webhooks for them specifically.
 
-<table id="choicetable_wsy_mkv_w1c"><thead><tr><th align="left" id="d426708e95">
+<table id="choicetable_wsy_mkv_w1c"><thead><tr><th align="left" id="d427769e97">
 
 Options
 
-</th><th align="left" id="d426708e98">
+</th><th align="left" id="d427769e100">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d426708e104">
+</th></tr></thead><tbody><tr><td id="d427769e106">
 
 **Auto configure with existing token**
 
@@ -46,7 +46,7 @@ Description
 
 Configures a webhook with your existing token.
 
-</td></tr><tr><td id="d426708e113">
+</td></tr><tr><td id="d427769e115">
 
 **Auto configure with new token**
 
@@ -54,7 +54,7 @@ Configures a webhook with your existing token.
 
 Configures a webhook with a new token.
 
-</td></tr><tr><td id="d426708e122">
+</td></tr><tr><td id="d427769e124">
 
 **Configure manually**
 

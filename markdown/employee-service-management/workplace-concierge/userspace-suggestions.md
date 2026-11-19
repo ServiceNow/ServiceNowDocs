@@ -65,7 +65,7 @@ Indicates the Space type column option in the Spaces table record. For example, 
 
 -   [Properties installed with Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-concierge/properties-installed-with-workplace-concierge.md)
 -   [Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/add-a-space.md)
--   [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md)
+-   [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md)
 
 
 </td></tr><tr><td>

@@ -8,7 +8,7 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -18,7 +18,7 @@ Configure the SAP Solution Manager \(Solman\) connector instance to enable commu
 
 ## Before you begin
 
-Role required: admin
+Role required: evt\_mgmt\_admin
 
 Supported versions: Tested on SAP Solution Manager 7.2. Might also work on other versions.
 
@@ -108,14 +108,6 @@ The last run time status. Automatically updated.
 
 </td></tr><tr><td>
 
-Event collection schedule \(seconds\)
-
-</td><td>
-
-The frequency in seconds that the system checks for new events from SAP Solman.
-
-</td></tr><tr><td>
-
 Bi-directional
 
 </td><td>
@@ -165,13 +157,7 @@ MID Server that is up and valid. You can configure several MID Servers so that i
     -   **Port**: Default value = `8000`
 6.  Right-click the form header and select **Save**.
 
-7.  Click **Test Connector** to verify the connection between the MID Server and the connector.
-
-    If the test fails, follow the instructions in the error message and then run another test.
-
-    **Note:** Use a network tool such as `ping` to verify the credentials and the network connectivity from the MID Server to the SAP Solman monitor.
-
-8.  After a successful test, select the **Active** check box and click **Update**.
+7.  After a successful test, select the **Active** check box and click **Update**.
 
 
 -   **[SAP configurations for the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/sap-manager-connector.md)**  

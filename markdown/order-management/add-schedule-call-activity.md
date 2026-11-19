@@ -18,7 +18,7 @@ Add a schedule call activity in your sequences to support telesales workflows.
 
 Review feature support information in [Compatibility information for Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/compatibility-matrix-upgrade-info.md).
 
-To support the ability for your agents to initiate outbound calls from the sequence task, your instance must be integrated with platforms such as Amazon Connect. The Omnichannel Callback application \(sn\_omni\_callback\) must also be installed. For more information, see [Install Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/install-omnichannel-callback.md).
+To support the ability for your agents to initiate outbound calls from the sequence task, your instance must be integrated with platforms such as Amazon Connect. The Omnichannel Callback application \(sn\_omni\_callback\) must also be installed. For more information, see .
 
 Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/grant-delegated-developer-permissions.md).
 
@@ -70,5 +70,5 @@ You can add the Schedule call activity with other activities in a stage or in it
 
 [Add decision nodes to a sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/add-decision-nodes-sequences.md)
 
-[Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/omnichannel-callback.md)
+[bundle-convint.omnichannel-callback]
 

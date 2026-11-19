@@ -24,7 +24,7 @@ For example, consider a process project on the Incident \[incident\] table. The 
 
 \[Omitted image "po-map-project-bkdowns.png"\] Alt text: Analyst Workbench showing breakdowns
 
-You can also see and change the breakdowns in the table configuration record for the project. For more information, see [Configure a breakdown definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/configure-breakdown.md).
+You can also see and change the breakdowns in the table configuration record for the project. For more information, see .
 
 In the dashboard where you have added your Process Mining map for this project, you want users to be able to filter the map by Category. Category is a breakdown of the process project, so it is simple to add such a filter. When you create the filter, select the Incident table, then the Category field. This selection automatically applies to both the filter source and the date to filter, as described in [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-select-filter-workspace.md).
 

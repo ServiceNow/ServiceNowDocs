@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-aisearch-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
-reading_time_minutes: 18
+last_updated: "2026-11-19"
+reading_time_minutes: 19
 breadcrumb: [Products combined by family]
 ---
 
@@ -295,7 +295,7 @@ Zurich
 
 </td><td>
 
--   **[Summary Genius Results](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=zurich&ft:locale=en-US)**
+-   **[ServiceNow Otto Summary Genius Results](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=zurich&ft:locale=en-US)**
 
 If you have Now Assist in AI Search installed, Now Assist Multi-Content Response Genius Results are supported in global and workspace search. Activating Now Assist Multi-Content Response Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Now Assist Multi-Content Response Genius Results. Virtual Agent topic citations from Now Assist Multi-Content Response Genius Result answers in global or workspace search open the selected topic in the Now Assist panel so the user can continue their conversation on that topic.
 
@@ -336,7 +336,7 @@ Australia
 
 </td><td>
 
--   **[Summary Genius Results](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=australia&ft:locale=en-US)**
+-   **[ServiceNow Otto Summary Genius Results](https://www.servicenow.com/docs/access?context=now-assist-multi-content-qna-genius-results&family=australia&ft:locale=en-US)**
 
 If you have ServiceNow Otto for AI Search installed, ServiceNow Otto® Summary Genius Results are supported in global and workspace search. Activating ServiceNow Otto® Summary Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Summary Genius Results. Virtual Agent topic citations from ServiceNow Otto® Summary Genius Result answers in global or workspace search open the selected topic in the ServiceNow Otto® panel so the user can continue their conversation on that topic.
 

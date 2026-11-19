@@ -45,7 +45,7 @@ Standard change templates are logically grouped under specific categories. These
 -   **[Configure standard change catalog properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ConfigureTheStandardChangeCatalog.md)**  
 Configure the standard change catalog through the standard change properties.
 -   **[Create a standard change task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-a-standard-change-task-template.md)**  
-You can create a change task template to add to a standard change proposal. If the standard change proposal is approved, the related change tasks are created when the standard change request is created.
+Create a change task template to add to a standard change proposal. If the standard change proposal is approved, the related change tasks are created when the standard change request is created.
 -   **[Attach files to a standard change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/attach-files-change-templates.md)**  
 Attach files, such as documents, spreadsheets, and images, to a standard change proposal. Standard change templates copy any file attached to the template to a change request that the template creates.
 -   **[Modify or retire a standard change template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/manage-standard-change-template.md)**  

@@ -34,7 +34,7 @@ Role required: sn\_dex.admin
 
 4.  Select the **Enabled in DEX Now Assist topic** check box to enable the issue in ServiceNow Otto for ITSM.
 
-    The ITSM Virtual Agent enables you to check your device's health using a prebuilt large language model \(LLM\) topic conversation. For more information, see [ITSM Virtual Agent pre-built LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-va-prebuilt-topics.md).
+    The ITSM Virtual Agent enables you to check your device's health using a prebuilt large language model \(LLM\) topic conversation. For more information, see .
 
 5.  Verify that the issue code in the **Resolution** field is active.
 

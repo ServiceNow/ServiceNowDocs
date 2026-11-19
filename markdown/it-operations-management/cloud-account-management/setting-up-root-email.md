@@ -27,3 +27,8 @@ Shared root email account benefits:
 1.  The app dynamically appends a request ID \(for example, CWSAREQ0000002\) to a predefined root email address \(`aws-ccoe@mycompany.com`\). This process creates a unique email address for each account in a structured format \(`aws-ccoe+CWSAREQ0000002@mycompany.com`\).
 2.  After the account is provisioned, AWS sends emails in this format that are received at a central email account `aws-ccoe@mycompany.com`.
 
+-   **[Set up and verify root email in AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/aws-setup.md)**  
+Create a unique email address to manage several accounts. Having multiple accounts and emails can be a significant challenge for an AWS admin. A single AD email for multiple AWS accounts simplifies management.
+
+**Parent Topic:**[Setting up AWS cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/setting-up-aws-cloud.md)
+

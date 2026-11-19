@@ -18,7 +18,7 @@ You can optionally customize the default values of the **sn\_apm\_tpm.configurat
 
 This feature is available from Technology Lifecycle Management plugin \(sn\_apm\_tpm\) version 1.6.0.
 
-Role required: admin
+Role required: sn\_apm.apm\_admin
 
 ## About this task
 
@@ -52,7 +52,7 @@ You can include other CMDB tables that contain software products, to fetch and v
 
 [Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-tpm.md)
 
-[Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/update-tpm-data.md)
+[Update TLM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/update-tpm-data.md)
 
 [Restart the Populate TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)
 

@@ -21,7 +21,7 @@ The ServiceNow® Configurable Workspace application provides tools to agents, ca
 -   **[Next Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/next-experience-rn.md)**  
 The ServiceNow® Next Experience application delivers an intuitive, personalized experience that enables your organization to drive productivity, improve engagement, and inspire learning with the ServiceNow AI Platform®. See the following sections for release notes by version.
 -   **[Service Portal release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/service-portal-rn.md)**  
-The ServiceNow® Service Portal application enables you to build mobile-friendly self-service experiences for your customers and employees with a modular portal framework. Service Portal was enhanced and updated in the Brazil release.
+The ServiceNow® Service Portal application enables you to build mobile-friendly self-service experiences for your customers and employees with a modular portal framework. See the following sections for release notes by version.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/new-features-changes.md)
 

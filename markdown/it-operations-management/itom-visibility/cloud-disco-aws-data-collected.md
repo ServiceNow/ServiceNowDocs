@@ -7,8 +7,8 @@ release: brazil
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-11-16"
+reading_time_minutes: 3
 keywords: [Patterns]
 breadcrumb: [Cloud resource discovery references, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -40,7 +40,7 @@ Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servi
 
 ## Data collected for AWS Cloud Discovery
 
-The following tables show examples of data collected during AWS Cloud Discovery.
+The following tables show examples of data collected during AWS Cloud Discovery. They don't list every field or every CI class.
 
 |Label|Field Name|
 |-----|----------|
@@ -96,10 +96,8 @@ The following tables show examples of data collected during AWS Cloud Discovery.
 |Label|Field Name|
 |-----|----------|
 |Name|name|
-|State\*|state|
-|CIDR\*|cidr|
-
-\*Not found on VMware vCenter networks.
+|State|state|
+|CIDR|cidr|
 
 |Label|Field Name|
 |-----|----------|
@@ -124,21 +122,8 @@ The following tables show examples of data collected during AWS Cloud Discovery.
 |-----|----------|
 |Name|name|
 |Object ID|object\_id|
-|State|state|
-
-|Label|Field Name|
-|-----|----------|
-|Name|name|
-|Object ID|object\_id|
 |Public IP address|public\_ip\_address|
 |Public DNS|public\_dns|
-
-|Label|Field Name|
-|-----|----------|
-|Name|name|
-|Object ID|object\_id|
-|Sku Name|sku\_name|
-|State|state|
 
 |Label|Field name|
 |-----|----------|
@@ -259,16 +244,7 @@ automated\_backup
 Indicates whether automated backups are enabled and the retention period.
 
 </td></tr></tbody>
-</table>|Label|Field Name|
-|-----|----------|
-|Name|name|
-|Install status|install\_status|
-|Vendor|vendor|
-|Fully qualified domain name|fqdn|
-|Operational status|operational\_status|
-|State|state|
-
-|Label|Field Name|Description|
+</table>|Label|Field Name|Description|
 |-----|----------|-----------|
 |Name|name|The name of the kube-controller-manager leader.|
 |Port|port|The identifier for the Kubernetes apiserver port.|

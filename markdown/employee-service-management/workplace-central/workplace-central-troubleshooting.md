@@ -68,7 +68,3 @@ After transferring Workplace Central data between ServiceNow ServiceNow instance
 
 [User Workplace Profile form]()
 
-[]()
-
-[]()
-

@@ -22,11 +22,9 @@ Request renewal for a certificate and automatically retrieve the certificate for
 
 To renew an existing certificate, make sure the certificate has its extension details populated in the \[sn\_disco\_certmgmt\_certificate\_extension\] table. Currently, these details populate automatically by the Discovery DigiCert CA Pattern or for any certificates created through the automated flow. However, for Entrust certificates, this only works if you [Request certificates using automated flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/request-new-cert-automated-flow.md).
 
-Role required: PKI Admin, Admin, Certificate Owner, or Users that are part of the Certificate Owner Group.
+Role required: **sn\_disco\_certmgmt.pki\_admin**, **sn\_disco\_certmgmt.pki\_approver**, or **sn\_disco\_certmgmt.pki\_user**. The user must also be set as the assigned user or be a member of the assignment group on the certificate task.
 
-The Certificate Owner and Certificate Owner group contains the Certificate Requester role \(minimal role\).
-
-**Note:** Approvals are only supported in the Fulfiller approval experience at this time.
+**Note:** If the user does not meet the role and assignment condition, the task fails with the error: `Incorrect Renew Request`. Approvals are only supported in the Fulfiller approval experience.
 
 ## About this task
 
@@ -38,11 +36,11 @@ For renewing an existing certificate, CSR is mandatory. The requester can use an
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Certificate Management**.
 
-2.  Click **Renew Certificate – Automated flow**.
+2.  Select **Renew Certificate – Automated flow**.
 
 3.  Provide details for the mandatory fields: **CSR** and **Validity Period**.
 
-4.  Fill in or choose additional information on the form, and then click **Submit** to proceed with the order.
+4.  Fill in or choose additional information on the form, and then select **Submit** to proceed with the order.
 
 
 ## Result

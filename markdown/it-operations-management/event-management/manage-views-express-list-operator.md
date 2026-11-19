@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up your workspace, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Set up your workspace, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Identify an assigned Express List view
@@ -38,6 +38,8 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     The Filters pane lists the predefined filters. The Express List table displays the columns configured for the selected view.
 
+
+**Parent Topic:**[Set up your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/set-up-your-workspace.md)
 
 **Related topics**  
 

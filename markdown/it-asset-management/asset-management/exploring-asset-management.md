@@ -20,11 +20,13 @@ You can use the Base Asset Management new user interface, referred to as Asset W
 
 The Base Asset Management application's core functionality remains the same in both the user interfaces.
 
-If you’re using the Base Asset Management application newly from the Vancouver release, the Asset Workspace is installed by default.
+On ServiceNow instances newly provisioned on the San Diego release or later, the Asset Workspace installs by default with the Asset Management application.
+
+The Asset ManagementWorkspace plugin \(sn\_itam\_workspace\) installs automatically only on ServiceNow instances newly provisioned in the San Diego release or later. If you upgraded your instance, install the plugin manually to get all out-of-box workspace actions, such as Build Terms and Conditions on Statement of Work contracts.
 
 **Note:**
 
-Asset Workspace is not installed by default. It is available starting in the San Diego release. It is installed by default only on zBoot ServiceNow instances, not on ServiceNow instances upgraded to the latest version. When the Hardware Asset Management application is activated, the Hardware Asset Workspace replaces the Asset Workspace.
+When the Hardware Asset Management application is activated, the Hardware Asset Workspace replaces the Asset Workspace.
 
 ## Using the Asset Management Workspace
 
@@ -38,7 +40,7 @@ The Asset Workspace contains the following views:
 -   [Model management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/model-management-view-am.md)
 -   [Contract management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/contract-mgmt-view-am.md)
 
-If you’re upgrading to the Vancouver release, you must activate the Asset Management Workspace \(sn\_itam\_workspace\) plugin to use the Asset Workspace.
+If you upgraded from a release before San Diego, you must manually install the Asset Management Workspace \(sn\_itam\_workspace\) plugin to use the Asset Workspace.
 
 **Note:** After moving to Asset Workspace, you can still use the Asset Management classic. For more information, see [Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_AssetManagement.md).
 

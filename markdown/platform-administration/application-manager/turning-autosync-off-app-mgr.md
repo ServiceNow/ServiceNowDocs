@@ -9,7 +9,7 @@ classification: application-manager
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Application Manager, Administering applications, Get started, ServiceNow AI Platform]
 ---
 
 # Deactivating automatic synchronization with the ServiceNow Store

@@ -206,8 +206,6 @@ Integrate Grafana with Event Management by adding Grafana as an authenticated da
 Integrate Honeycomb with Event Management by creating a webhook and configuring it as a trigger in the Honeycomb platform.
 -   **[Integrate Instana events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/instana-integration.md)**  
 Integrate Instana with Event Management by adding Instana as an authenticated data source.
--   **[Integrate ServiceNow Cloud Observability Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/lightstep-event-collection.md)**  
-Integrate ServiceNow Cloud Observability with Event Management by adding a standard webhook in the ServiceNow Cloud Observability platform. Download the Event Management Connector plugin from the ServiceNow Store so you can integrate with ServiceNow Cloud Observability.
 -   **[Integrate Logicmonitor events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/logicmonitor-events-integration.md)**  
 Integrate Logicmonitor with Event Management to send events into ServiceNow by adding a webhook using Basic Authentication, it will also be available with bi-directional functionality.
 -   **[Event collection from Logicmonitor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-collection-logicmonitor.md)**  

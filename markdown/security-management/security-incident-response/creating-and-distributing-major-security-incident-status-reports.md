@@ -95,15 +95,15 @@ State of the status reports. The status reports can be in one of the following s
 
 7.  On the Executive Email Status Report template, fill the sections with the details of the status report.
 
-<table id="choicetable_lfv_mkq_d1c"><thead><tr><th align="left" id="d325529e245">
+<table id="choicetable_lfv_mkq_d1c"><thead><tr><th align="left" id="d326626e249">
 
 Report section
 
-</th><th align="left" id="d325529e248">
+</th><th align="left" id="d326626e252">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d325529e254">
+</th></tr></thead><tbody><tr><td id="d326626e258">
 
 **Updates**
 
@@ -113,7 +113,7 @@ Provide a summary of the status update. This section contains the following:-   
 -   **Append text from last report shared**: Select this option to append the text from the last report shared.
 
 
-</td></tr><tr><td id="d325529e276">
+</td></tr><tr><td id="d326626e280">
 
 **Explanation**
 
@@ -125,7 +125,7 @@ Add an explanation on what has changed since the last status update was done. Th
 -   **Filter elements**: Select the report elements to be included in the report. For example, Key Updates or Next Updates.
 
 
-</td></tr><tr><td id="d325529e308">
+</td></tr><tr><td id="d326626e312">
 
 **Additional Information**
 
@@ -133,7 +133,7 @@ Add an explanation on what has changed since the last status update was done. Th
 
 Provide specific details relevant to the status update.
 
-</td></tr><tr><td id="d325529e317">
+</td></tr><tr><td id="d326626e321">
 
 **Visualizations**
 
@@ -143,7 +143,7 @@ Select the visualizations that best help communicate the status update. -   **In
 -   **Filter elements**: Select the report elements to be included in the report. For example, Incident Impact.
 
 
-</td></tr><tr><td id="d325529e340">
+</td></tr><tr><td id="d326626e344">
 
 **Lists**
 
@@ -250,6 +250,8 @@ Body of the email message.
 [Link additional records to Major Security Incident]()
 
 [Unlink records from Major Security Incident]()
+
+[]()
 
 [Manage tasks in a Major Security Incident]()
 

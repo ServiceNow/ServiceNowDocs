@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-10-23"
 reading_time_minutes: 1
+keywords: [remedial actions, bulk remedial action, bulk remediation, single device remediation, remediate device issues, remedial action status, fix device issues]
 breadcrumb: [Creating DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

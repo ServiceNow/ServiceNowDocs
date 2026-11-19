@@ -7,8 +7,8 @@ release: brazil
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-11-11"
+reading_time_minutes: 8
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -21,6 +21,14 @@ Conduct risk assessments to assess inherent risks, effectiveness of controls, re
 Role required: sn\_grc.business\_user
 
 **Note:** You must manually assign the advanced risk assessment roles to the sn\_grc.business\_user role. To understand how you can adjust the granting of roles and groups, see the [How to adjust granting of roles and groups to use background jobs \[KB0963693\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0963693) article in the Now Support Knowledge Base. You must log in to Now Support to view the article.
+
+The risk response options you can use depend on the Risk Response Configurations tab of the risk assessment methodology \(RAM\). The following options control what you see:
+
+-   **Allow single risk response**: controls whether you can select one risk response strategy or more than one.
+-   **Enable risk response task workflow**: controls whether the Create task button appears for each strategy.
+-   **Allow issue linking with risk assessment**: controls whether the Issues section, with Add existing issues and Create issue, appears.
+-   **Risk response is required**: sets when a risk response is mandatory. **Always** makes a response mandatory for every assessment. **Script** and **Condition** make it depend on a script or a condition that you define. If the option is blank, a response is not required. When it is mandatory and no response is selected, the Risk response step shows the message Risk response is required, and Validate reports that errors must be resolved before you submit.
+-   **Enable risk response workflow**: turns on the risk response step itself. Without it, the response step is not available to the assessor.
 
 ## About this task
 
@@ -35,7 +43,7 @@ The risk assessments yield risk scores that are automatically calculated based o
 
 After performing the assessment, you can define the risk response. Risk response refers to the process of managing identified risks. It’s a planning and decision-making process where the risk managers decide how to deal with each risk. While performing the assessment, you can view detailed reference information on the Contextual side panel. This panel provides information for the risk events, open issues, key indicator breaches, control test results, and control indicator failures.
 
-If the risk assessment in being performed by an assessor's delegate, the **Assessor's delegates** field shows the delegate's name.
+If the risk assessment is being performed by an assessor's delegate, the **Assessor's delegates** field shows the delegate's name.
 
 A risk assessment record progresses through the following statuses:
 
@@ -58,11 +66,11 @@ For more information on statuses, see [Risk Assessment workflow changes from 19.
     -   If you think that the risk assessment must be assigned to someone else, select **Reassign** and fill in the necessary details.
     -   If this risk was previously assessed, to view the previous assessment, select **Review last assessment**.
     -   If the risk assessment is in progress and you want to continue the assessment, select **Resume**.
-3.  To perform inherent assessment, respond to the all inherent assessment questions.
+3.  To perform inherent assessment, respond to all inherent assessment questions.
 
     1.  To view the guidance for a factor, select the question mark icon \(\[Omitted image "show-guidance.jpg"\] Alt text: Show guidance for a factor..
 
-    2.  To view the qualitative and quantitative weightage, select overall rating icon.
+    2.  To view the weightage of a factor, select the Weight icon at the top right of the factor card. The qualitative weight and qualitative score are shown.
 
     The application automatically saves your responses and calculates the overall risk score.
 
@@ -70,9 +78,9 @@ For more information on statuses, see [Risk Assessment workflow changes from 19.
 
     1.  Select the **I would like to change the computed score** option.
 
-    2.  From the **Override inherent risk** field, select the appropriate value.
+    2.  From the **Override inherent risk** field, select the appropriate value. This field is required.
 
-    3.  Enter comments that explain the reasons for the change in the computed score.
+    3.  Enter the comments that explain the reasons for the change in the computed score. The comment is required.
 
 5.  Select **Next**.
 
@@ -111,7 +119,9 @@ For more information on statuses, see [Risk Assessment workflow changes from 19.
 
     1.  Select the appropriate risk responses.
 
-    2.  To create a risk response task, select the **Create task** button, and select the appropriate values.
+    2.  To create a risk response task, select the **Create task** button, which appears on the right of the row of a selected strategy.
+
+        In the Create task dialog box, the **Name** and **Plan** fields are required. The **Assigned to** field is also required, and it is pre-filled with the assessor. The **Priority** field is pre-filled with 4 - Low, and the **Due date** field is optional.
 
         For more information, see [Create a risk response task in the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/create-risk-response-task-risk-workspace.md).
 
@@ -121,13 +131,13 @@ For more information on statuses, see [Risk Assessment workflow changes from 19.
 
     4.  Select **Save task** and review your responses.
 
-        The risk response tasks are created and assigned to the assignee. You can edit the task and modify it to change the owner.
+        The risk response task is created with its number and the state Draft, and it is assigned to the assignee. The task card shows the **Edit task** and **Delete task** buttons. You can edit the task and modify it to change the owner.
 
 12. To link existing issues to the risk assessment, do the following:
 
     You must enable the **Allow issue linking with risk assessment** option on the Risk Assessment Methodology \(RAM\) form to use this feature.
 
-    1.  Select **Add existing issues**.
+    1.  Select **Add existing issues**. The Issues list opens. You can filter it, search it, sort it and move between pages.
 
     2.  Select the issues from the list and select **Add**.
 
@@ -135,9 +145,9 @@ For more information on statuses, see [Risk Assessment workflow changes from 19.
 
     You must enable the **Allow issue linking with risk assessment** option on the Risk Assessment Methodology \(RAM\) form to use this feature.
 
-    1.  Select **Create issue**.
+    1.  Select **Create issue**. The **Issue** dialog box opens in the center of the screen.
 
-    2.  On the Create an issue form, fill in the required details.
+    2.  In the Issue dialog box, fill in the required details. **What is the issue about?** is the only required field. You can also describe the issue in detail, add suggestions, select a priority, change the assignee, and set a date by when the issue must be closed. **Priority** is pre-filled with 4 - Low, and **Assigned to** is pre-filled. **Issue source** is read-only and shows Risk Assessment.
 
     3.  Select **Save**.
 

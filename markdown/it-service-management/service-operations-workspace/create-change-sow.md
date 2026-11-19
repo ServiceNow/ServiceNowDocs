@@ -26,15 +26,15 @@ Role required: itil or admin
 
 1.  Create a new change request.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d306796e55">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d307286e59">
 
 Source
 
-</th><th align="left" id="d306796e58">
+</th><th align="left" id="d307286e62">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d306796e64">
+</th></tr></thead><tbody><tr><td id="d307286e68">
 
 **Change list**
 
@@ -50,7 +50,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d306796e100">
+</td></tr><tr><td id="d307286e104">
 
 **From a change template**
 
@@ -67,11 +67,11 @@ Description
 3.  Select **Templates**.
 4.  Search for and select the required template.
 5.  View the new change request record created using the selected template by selecting **Continue**.
- **Note:** When you select an existing template, information in the predefined fields will be populated. Template fields are either read-only or mandatory depending on the template field policies configured while creating the template.
+ **Note:** When you select an existing template, information in the predefined fields is populated. Template fields are either read-only or mandatory depending on the template field policies configured while creating the template.
 
 For more information on change templates, see [Create and propose a change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-change-template-sow.md).
 
-</td></tr><tr><td id="d306796e165">
+</td></tr><tr><td id="d307286e169">
 
 **Incident**
 
@@ -81,7 +81,7 @@ For more information on change templates, see [Create and propose a change templ
 2.  In the incident record form, select **Create change request**.
 
 
-</td></tr><tr><td id="d306796e187">
+</td></tr><tr><td id="d307286e191">
 
 **Interaction**
 
@@ -91,7 +91,7 @@ For more information on change templates, see [Create and propose a change templ
 2.  In the interaction record form, from the **Create incident** drop-down list, select **Create change**.
 
 
-</td></tr><tr><td id="d306796e211">
+</td></tr><tr><td id="d307286e215">
 
 **Problem**
 
@@ -248,11 +248,11 @@ When you refresh impacted services, the Impacted Services/CIs, Business Applicat
 </td></tr></tbody>
 </table>    3.  Select **Save**.
 
-6.  Assign the change request to relevant user or assignment group.
+6.  Assign the change request to the relevant user or assignment group.
 
     1.  Select **Assign** in the **Assignment** section.
 
-    2.  On the form, fill the fields.
+    2.  On the form, fill in the fields.
 
 <table id="table_u1d_ssf_2xb"><thead><tr><th>
 
@@ -452,12 +452,12 @@ The specific data to associate with the change request. You can select multiple 
         -   Security Scan Summaries
     4.  Select **Submit**.
 
-        **Note:** Once the commits are added in the DevOps data section, you can select **View source** corresponding to the Commits tile to view the source details of the commit like pipeline execution, branch, repository, and so on.
+        **Note:** After the commits are added in the DevOps data section, you can select **View source** corresponding to the Commits tile to view the source details of the commit like pipeline execution, branch, repository, and so on.
 
     5.  To modify the data that is associated with the change request, select **Edit DevOps data**.
 
         1.  Edit the data type and its associations from which DevOps data has been added in the **Select associations** step.
-        2.  Review the DevOps data that’ll be associated to or removed from this change request in **Review data** step.
+        2.  Review the DevOps data that is associated with or removed from this change request in **Review data** step.
         3.  Select **Submit**.
 9.  Select **Risk evaluation** to evaluate the risk for the change.
 
@@ -467,7 +467,7 @@ The specific data to associate with the change request. You can select multiple 
 
 10. Select **New** in **Change task** section.
 
-    For more information to create a change task, refer [Create a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-change-task-sow.md).
+    For more information, see [Create a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-change-task-sow.md).
 
 11. Associate the change with a product or service release.
 
@@ -477,7 +477,7 @@ The specific data to associate with the change request. You can select multiple 
 
     2.  In the Assigned to release dialog box, select the release you want to associate with the change request.
 
-    3.  If its a multi-product release, select the product within the release.
+    3.  If it’s a multi-product release, select the product within the release.
 
     4.  Select the phase of the selected release to which you want to link the change request.
 
@@ -503,10 +503,10 @@ The specific data to associate with the change request. You can select multiple 
 
     The state is moved forward based on the type of change request:
 
-    -   Assess state: Group level approval for a normal change request. Approval records are automatically generated based on the  Change approval policies. You can conduct peer and technical reviews of the proposed change.
+    -   Assess state: Group level approval for a normal change request. Approval records are automatically generated based on the  change approval policies. You can conduct peer and technical reviews of the proposed change.
     -   Authorize state: Approval required by the business stakeholders, or by the Change Advisory Board.
     -   Scheduled state: Pre-approved standard changes.
-    **Note:** To mail the change record, select the more options icon \(\[Omitted image "more-options.png"\] Alt text: More options icon.\) in the content frame and select **Email**. Both the user who requested the change and the user who is assigned to the change are automatically populated in the list of recipients.
+    **Note:** To mail the change record, select the more options icon \(\[Omitted image "more-options.png"\] Alt text:\) in the content frame and select **Email**. Both the user who requested the change and the user who is assigned to the change are automatically populated in the list of recipients.
 
     To view the calendar, select **View Calendar** in the title bar of the Change Request form.
 

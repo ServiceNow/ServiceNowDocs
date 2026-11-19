@@ -28,10 +28,10 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
 3.  Select **Change record** and then select **Configure** to configure any of the following tabs.
 
-    -   Overview: Configure any of the following options for the **Overview** tab.
+    -   **Overview**: Configure any of the following options for the **Overview** tab.
         -   Containers: Defines how the dynamic overview page renders throughout the change lifecycle. This includes the visibility and the order of the sections in the overview page and whether to include the activity stream bar.
         -   Section fields: Define the fields that are shown for each section in the change overview.
-    -   Details: Defines the form view that lets users see all details related to the change.
+    -   **Details**: Defines the form view that lets users see all details related to the change.
     For information about configuring the field layout, UI elements and the visible data content using form builder, see [Customize forms within a form component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/learn-by-example-edit-form-component.md).
 
 

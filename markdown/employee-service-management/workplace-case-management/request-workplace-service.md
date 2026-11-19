@@ -27,7 +27,7 @@ The Workplace Services catalog displays a list of workplace services from which 
     -   Workplace Assignment Type Service
     -   Workplace Allocation Change Service
 -   Space request
--   The above workplace services are triggered automatically based on the type of change implemented while scenario planning. For more information about Space optimization - scenario planning and it's features, refer to [Scenario Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/scenario-planning.md).
+-   The above workplace services are triggered automatically based on the type of change implemented while scenario planning. For more information about Space optimization - scenario planning and it's features, refer to [Scenario planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/scenario-planning.md).
 
 
 You can also use the Virtual agent chat support on the Workplace Service Portal to submit a general inquiry. The chat support enables you to do the following:

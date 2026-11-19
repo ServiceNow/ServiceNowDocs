@@ -1,6 +1,6 @@
 ---
 title: Configure the space man on the landing page
-description: Change the image of the space man to an image your choice.
+description: Change the image of the space man to an image of your choice.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/modify-space-man-landing-page.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Landing page configurations in Service Operations Workspace for ITS
 
 # Configure the space man on the landing page
 
-Change the image of the space man to an image your choice.
+Change the image of the space man to an image of your choice.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ The image on the banner of the header section in the SOW landing page supports c
 
 1.  From the **All** menu, navigate to **db\_image.list**.
 
-2.  Search for sow\_banner.svg.
+2.  Search for `sow_banner.svg`.
 
 3.  Change the image to an image of your choice.
 

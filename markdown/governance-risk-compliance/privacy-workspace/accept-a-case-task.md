@@ -38,15 +38,15 @@ If a case task is of type **Assessment**, a case requires the case task owner to
 
 6.  Depending on your case task type, perform the following steps.
 
-<table id="choicetable_ehd_gyn_pvb"><thead><tr><th align="left" id="d64044e127">
+<table id="choicetable_ehd_gyn_pvb"><thead><tr><th align="left" id="d64089e129">
 
 Choice
 
-</th><th align="left" id="d64044e130">
+</th><th align="left" id="d64089e132">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d64044e136">
+</th></tr></thead><tbody><tr><td id="d64089e138">
 
 **If the task is of type Assessment**
 
@@ -58,7 +58,7 @@ Steps
 4.  Save the **Save**.
 
 
-</td></tr><tr><td id="d64044e169">
+</td></tr><tr><td id="d64089e171">
 
 **If the task is of type Investigation or Others**
 

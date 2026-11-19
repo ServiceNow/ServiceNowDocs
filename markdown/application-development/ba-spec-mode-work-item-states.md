@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ba-spec-mode-work-item-states.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Autonomous Engineer, work item states, plan states, plan dashboard, plan execution, background agent, ATF tests, update set, draft, queued, in progress, needs validation, blocked, cancelled]
 audience: programmer

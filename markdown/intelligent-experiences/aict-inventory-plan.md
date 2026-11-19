@@ -1,5 +1,5 @@
 ---
-title: Planning AI work from Inventory in AI Control Tower
+title: Planning AI work from Inventory in Control Tower
 description: View all planning data for a specific AI system in one location. The Plan tab automatically filters goals, intake items, and delivery records to show only those linked to your selected AI system across Strategize, Prioritize, and Execute workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-inventory-plan.html
@@ -8,20 +8,20 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [AI Plan, Inventory, AI system, product model]
-breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Working with AI asset records, Discover and manage AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Planning AI work from Inventory in AI Control Tower
+# Planning AI work from Inventory in Control Tower
 
 View all planning data for a specific AI system in one location. The Plan tab automatically filters goals, intake items, and delivery records to show only those linked to your selected AI system across Strategize, Prioritize, and Execute workflows.
 
 ## Plan tab overview
 
-The Plan tab appears on the record page of an AI system in AI Control Tower Inventory. It appears only for AI systems, not for other asset types such as AI prompts. The Plan tab provides a focused view of the goals, intake items, and delivery records associated specifically with the AI system you selected.
+The Plan tab appears on the record page of an AI system in Control Tower Inventory. It appears only for AI systems, not for other asset types such as AI prompts. The Plan tab provides a focused view of the goals, intake items, and delivery records associated specifically with the AI system you selected.
 
 To navigate to the Plan tab of an AI system:
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Inventory**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Inventory**.
 2.  Select **AI Systems** as the asset type.
 3.  Select an AI System record to open it.
 4.  Navigate to the Plan tab.
@@ -72,12 +72,12 @@ The Execute sub-tab displays the Project and Epic lists, both filtered to show o
 |Project|pm\_project|Projects where the product model matches the product model of the selected AI system.|
 |Epic|sn\_align\_core\_scrum\_epic|Epics where the product model matches the product model of the selected AI system.|
 
-To create a project or epic, see [Create a project or epic in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-create-project-or-epic.md). To edit an existing project or epic, see [Edit a project or epic in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-edit-project-or-epic.md).
+To create a project or epic, see [Create a project or epic in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-create-project-or-epic.md). To edit an existing project or epic, see [Edit a project or epic in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-edit-project-or-epic.md).
 
 **Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-managing-ai-assets.md)
 
 **Related topics**  
 
 
-[Planning and tracking AI work in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-using.md)
+[Planning and tracking AI work in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-plan-using.md)
 

@@ -30,7 +30,7 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-Service Desk Manager \[sn\_itsm\_common.sn\_service\_desk\_manager\]
+Service Desk Manager \[sn\_sow\_itsm\_common.sn\_service\_desk\_manager\]
 
 </td><td>
 

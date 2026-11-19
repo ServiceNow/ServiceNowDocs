@@ -31,15 +31,15 @@ You can reassign an incident in Core UI and Service Operations Workspace for ITS
 
 2.  Perform one of the following steps.
 
-<table id="choicetable_ftd_4w2_lzb"><thead><tr><th align="left" id="d153083e106">
+<table id="choicetable_ftd_4w2_lzb"><thead><tr><th align="left" id="d153314e108">
 
 Option
 
-</th><th align="left" id="d153083e109">
+</th><th align="left" id="d153314e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d153083e115">
+</th></tr></thead><tbody><tr><td id="d153314e117">
 
 **From the Overview tab of an incident in Service Operations Workspace for ITSM**
 
@@ -47,7 +47,7 @@ Description
 
 Select **Reassign**.
 
-</td></tr><tr><td id="d153083e132">
+</td></tr><tr><td id="d153314e134">
 
 **From the Details tab of an incident in Service Operations Workspace for ITSM**
 
@@ -57,7 +57,7 @@ Select **Reassign**.
 2.  Select **Save**.
 
 
-</td></tr><tr><td id="d153083e164">
+</td></tr><tr><td id="d153314e166">
 
 **Core UI**
 

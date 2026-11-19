@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/breakfix-respond-resolution.html
 release: brazil
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
-breadcrumb: [Manage Break-Fix cases, Retail]
+breadcrumb: [Create and manage Break-Fix cases, Retail]
 ---
 
 # Respond to resolutions through Portal or Mobile
@@ -63,9 +63,9 @@ After HQ proposes a resolution, review it from the portal or mobile app. Accept/
 
 ## What to do next
 
-If you Accepted or Self-Closed, case is resolved and archived. If you Rejected, HQ Support Agents will receive your reason and propose an alternative resolution, which you will review similarly. See [Resolve Cases in Workspace \(HQ Agents\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-resolve-workspace.md) to understand HQ's resolution process.
+If you Accepted or Self-Closed, case is resolved and archived. If you Rejected, HQ Support Agents will receive your reason and propose an alternative resolution, which you will review similarly. See [Resolve Cases in CRM Workspace \(HQ Agents\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-resolve-workspace.md) to understand HQ's resolution process.
 
-**Parent Topic:**[Manage Break-Fix cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-manage-cases.md)
+**Parent Topic:**[Create and manage Break-Fix cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-manage-cases.md)
 
 **Related topics**  
 
@@ -74,7 +74,7 @@ If you Accepted or Self-Closed, case is resolved and archived. If you Rejected, 
 
 [Submit Break-Fix Cases through Portal or Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-submit-case.md)
 
-[Resolve Cases in Workspace through HQ Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-resolve-workspace.md)
+[Resolve Cases in CRM Workspace through HQ Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-resolve-workspace.md)
 
 [Components for Break-Fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-reference.md)
 

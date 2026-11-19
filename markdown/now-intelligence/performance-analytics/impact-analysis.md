@@ -16,7 +16,7 @@ breadcrumb: [Configure advanced features, Performance Analytics \(Indicator data
 
 Dependency Assessment enables you to view, analyze, and edit your performance analytics components including widgets, indicators, and breakdowns, from a single view. The component hierarchy shows relationships between components. Use it to identify who is impacted by a change and what the effects are.
 
-**Important:** Dependency Assessment is a deprecated feature that is not available on net new instances. It does not support Platform Analytics artifacts. It analyzes information only for Core UI Performance Analytics widgets but not Platform Analytics data visualizations. To analyze both Core UI and Platform Analytics experience artifacts, use [Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/data-catalog.md).
+**Important:** Dependency Assessment is a deprecated feature that is not available on net new instances. It does not support Platform Analytics artifacts. It analyzes information only for Core UI Performance Analytics widgets but not Platform Analytics data visualizations. To analyze both Core UI and Platform Analytics experience artifacts, use .
 
 Dependency Assessment consists of several components:
 

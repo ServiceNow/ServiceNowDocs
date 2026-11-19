@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-value-calculation-value-jobs.html
 release: brazil
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
-breadcrumb: [Value, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Value, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Value calculation and value jobs
@@ -16,7 +16,7 @@ Value jobs calculate the productivity value of your AI systems on a schedule. Au
 
 ## Value jobs overview
 
-A value job reads the usage recorded for your AI systems and calculates the productivity value from the mapped value template. The AI Control Tower \(AICT\) runs value jobs on a schedule and calculates value for the previous day. As a result, the Value dashboard shows the value from the previous day.
+A value job reads the usage recorded for your AI systems and calculates the productivity value from the mapped value template. Control Tower runs value jobs on a schedule and calculates value for the previous day. As a result, the Value dashboard shows the value from the previous day.
 
 Value calculation uses Performance Analytics \(PA\) indicators. An out-of-the-box daily PA indicator job calculates the usage scores for the previous day. Any custom indicator you use for value calculation must also be daily. It must complete its run before 1:00 PM each day so the value job can use its scores.
 
@@ -30,12 +30,12 @@ Value jobs provide the following benefits:
 
 ## Automated and manual value jobs
 
-The AI Control Tower runs two kinds of value jobs:
+Control Tower runs two kinds of value jobs:
 
 -   **Automated value job:** Runs each night for ServiceNow AI systems and for third-party AI systems that use a usage integration. The job fetches the usage for the previous day and calculates value.
 -   **Manual value job:** Runs for AI systems that you onboard manually through the inventory intake form and that do not have a usage integration. You create manual indicators, and the job runs on the cadence set by those indicators.
 
-For manual value jobs, the AI Control Tower derives the cadence from the indicator type. A monthly indicator runs as a monthly job, and a quarterly indicator runs as a quarterly job.
+For manual value jobs, Control Tower derives the cadence from the indicator type. A monthly indicator runs as a monthly job, and a quarterly indicator runs as a quarterly job.
 
 ## Failed value jobs
 

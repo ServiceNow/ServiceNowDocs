@@ -82,3 +82,5 @@ Before you use the model, the outputs must match the fields that the report retu
 
 Your changes are saved to the model entity and its field records. The changes are applied the next time the model runs.
 
+**Parent Topic:**[Obtaining data from Workday using RaaS reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/obtain-data-from-workday-using-raas.md)
+

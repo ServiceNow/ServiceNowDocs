@@ -42,7 +42,7 @@ When migrating the search configuration from ITSM Agent Workspace to SOW, the **
 
         You can also navigate to **All** &gt; **sow\_search\_config.list** to compare the application search sources and the order value in the Service Operations Workspace Search Config table with the Agent Workspace Search Config table to understand if migration is successful. The following screenshots depict both application search sources on the Service Operations Workspace Search Config table and the Agent Workspace Search Config table.
 
-        The following screenshot depics the application search sources on the Service Operations Workspace Search Config table. \[Omitted image "mu-search-app-config-sow.png"\] Alt text: Application search sources on the Service Operations Workspace Search Config table
+        The following screenshot depicts the application search sources on the Service Operations Workspace Search Config table. \[Omitted image "mu-search-app-config-sow.png"\] Alt text: Application search sources on the Service Operations Workspace Search Config table
 
         The following screenshot depicts the application search sources on the Agent Workspace Search Config table. \[Omitted image "mu-search-app-config-aw.png"\] Alt text: Application search sources on the Agent Workspace Search Config table
 
@@ -50,7 +50,7 @@ When migrating the search configuration from ITSM Agent Workspace to SOW, the **
 
     1.  On the migration completion page in SOW Admin Center, select **View migration details**.
 
-    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text: Error\) icon.
+    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text:\) icon.
 
     3.  Review the logs to determine which items failed during migration.
 

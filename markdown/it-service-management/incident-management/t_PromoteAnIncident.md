@@ -34,15 +34,15 @@ When the cause of an incident is an error or widespread issue, a problem is gene
 
 3.  Select the **Additional Action** \(\[Omitted image "additional-actions.png"\] Alt text: Additional Action Menu icon\) icon and then select the appropriate option.
 
-<table id="choicetable_s5g_lgw_xy"><thead><tr><th align="left" id="d107191e116">
+<table id="choicetable_s5g_lgw_xy"><thead><tr><th align="left" id="d107393e118">
 
 Task record
 
-</th><th align="left" id="d107191e119">
+</th><th align="left" id="d107393e121">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d107191e125">
+</th></tr></thead><tbody><tr><td id="d107393e127">
 
 **Problem**
 
@@ -50,7 +50,7 @@ Action
 
 Create Problem. For more information, see [Create a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/problem-management/create-a-problem-v2.md).**Note:** Use the property **List of attributes \(comma-separated\) that will be copied from the incident to create a new problem** \(**com.snc.problem.create\_from\_incident.attributes**\) to specify fields on the Incident form. The values of these fields are copied to the respective fields on the Problem form. The property is available for customers starting with the Madrid release.
 
-</td></tr><tr><td id="d107191e150">
+</td></tr><tr><td id="d107393e152">
 
 **Request**
 
@@ -58,7 +58,7 @@ Create Problem. For more information, see [Create a problem](https://raw.githubu
 
 Create Request. For more information, see [Create a request from an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-management/create-request-from-incident.md).
 
-</td></tr><tr><td id="d107191e166">
+</td></tr><tr><td id="d107393e168">
 
 **Change**
 

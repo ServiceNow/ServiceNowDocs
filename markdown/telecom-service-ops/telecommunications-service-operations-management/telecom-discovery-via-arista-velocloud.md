@@ -22,7 +22,7 @@ The Service Graph Connector for Arista VeloCloud discovers SD-WAN inventory from
 -   Keeps the CMDB up to date with the latest CI information.
 -   Uses Integration Hub ETL to provide a graphical representation of VeloCloud SD-WAN networks, device relationships, and dependencies.
 
-**Note:** For a general overview of Service Graph Connector technology, see [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sgc-intro.md).
+**Note:** For a general overview of Service Graph Connector technology, see .
 
 ## Arista VeloCloud SD-WAN architecture
 
@@ -65,7 +65,7 @@ For the full list of VeloCloud Orchestrator endpoints called during discovery, w
 
 ## CMDB Integrations Dashboard
 
-The Integration Commons for CMDB application provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. The dashboard displays metrics for all integration runs. You can filter the view to a specific integration, time duration, or integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-commons-for-cmdb.md).
+The Integration Commons for CMDB application provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. The dashboard displays metrics for all integration runs. You can filter the view to a specific integration, time duration, or integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see .
 
 **Related topics**  
 

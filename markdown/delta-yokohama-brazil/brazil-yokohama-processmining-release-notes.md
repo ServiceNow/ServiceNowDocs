@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-processmining-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
@@ -499,7 +499,7 @@ Brazil
 
 -   **Activation information**
 
-Process Mining is available by default. For details, see [Access](https://www.servicenow.com/docs/access?context=activate-po-plugin&family=brazil&ft:locale=en-US).
+Process Mining is available by default. For details, see [activate po plugin](https://www.servicenow.com/docs/access?context=activate-po-plugin&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -752,7 +752,7 @@ Brazil
 -   Prove every change works — side-by-side comparisons confirm improvements and catch regressions.
 -   Govern humans and AI, together — trace performance across people, automations, and AI agents in one view.
 
- See [Process Optimization](https://www.servicenow.com/docs/access?context=process-mining&family=brazil&ft:locale=en-US) for more information.
+ See [process mining](https://www.servicenow.com/docs/access?context=process-mining&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

@@ -1,6 +1,6 @@
 ---
 title: Reinitiate a conference call from Twilio in Service Operations Workspace
-description: Reinitiate a Twilio conference call that was ended to discuss about the resolution of an incident.
+description: Reinitiate a Twilio conference call that was ended to discuss the resolution of an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/reinitiate-conference-call-telephony.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Conference calls with Twilio in Service Operations Workspace, Notif
 
 # Reinitiate a conference call from Twilio in Service Operations Workspace
 
-Reinitiate a Twilio conference call that was ended to discuss about the resolution of an incident.
+Reinitiate a Twilio conference call that was ended to discuss the resolution of an incident.
 
 ## Before you begin
 

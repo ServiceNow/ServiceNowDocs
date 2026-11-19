@@ -9,7 +9,7 @@ classification: change-management
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Request ITSM Roles - Change Management, Change Management plugins, Configure, Change Management, IT Service Management]
+breadcrumb: [Request ITSM Roles for Change Management, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
 # Components installed with ITSM Roles - Change Management
@@ -209,5 +209,5 @@ Enables tier 1 service desk agents to gather and verify information and to deliv
 -   now\_assist\_panel\_user
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Request ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/request-itsm-roles-cm.md)
+</table>**Parent Topic:**[Request ITSM Roles for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/request-itsm-roles-cm.md)
 

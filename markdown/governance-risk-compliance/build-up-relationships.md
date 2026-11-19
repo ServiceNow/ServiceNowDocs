@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/buil
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Node relationship configurations, Main node configurations: A component of the Data Relationship Framework, Explore, Operational Resilience, Governance, Risk, and Compliance]
 ---
 

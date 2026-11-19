@@ -8,7 +8,7 @@ product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 

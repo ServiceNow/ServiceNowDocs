@@ -185,7 +185,7 @@ This report displays the daily count of the resources of your organization that 
 </td></tr></tbody>
 </table>To populate the Cloud Analytics \[sn\_disco\_cd\_analytics\] table, the Cloud Resources Explorer uses the same set of scheduled jobs as the Performance Analytics Content Pack for Cloud Resources. For more information on the scheduled jobs, see [Cloud Resources dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/cloud-resources-dashboard.md).
 
-To view the details of the OS images discovered in the AWS, Microsoft Azure, and GCP clouds, install Discovery and Service Mapping Patterns store app version 1.0.87 or later in the instance. Also, the **sn\_cmdb\_ci\_class.use\_single\_cloud\_os\_image** property must be set to `true`.
+To view OS image details discovered in the AWS, Microsoft Azure, and GCP clouds, install the Discovery and Service Mapping Patterns store app version 1.0.87 or later. Also set the **sn\_cmdb\_ci\_class.use\_single\_cloud\_os\_image** property to `true`.
 
 ## Filters
 

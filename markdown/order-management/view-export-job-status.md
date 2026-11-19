@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/view-export-job-status.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-17"
 reading_time_minutes: 1
 breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -16,15 +16,15 @@ Check the status of an export job for product catalog or pricing entities to see
 
 ## Before you begin
 
-Role required: product\_catalog\_admin for catalog entities, sn\_csm\_pricing\_pricelist\_administrator for pricing entities
+Role required: sn\_prd\_pm.product\_catalog\_admin for catalog entities, sn\_csm\_pricing.pricelist\_administrator for pricing entities
 
 ## Procedure
 
-1.  In the **CRM Workspace**, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the **CRM Workspace**, select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
-2.  Navigate to **Export** &gt; **Export Catalog**.
+2.  Navigate to **Export** &gt; **Export Entities**.
 
-    The **Export Catalog** list shows the status of export jobs.
+    The **Export Entities** list shows the status of export jobs.
 
 3.  In the **State** column for the export job, view the status.
 

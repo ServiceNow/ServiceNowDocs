@@ -1,6 +1,6 @@
 ---
-title: Filters the security best practices table
-description: Apply filters to return more relevant results for your security best practices.Discover the steps for saving filters in your security best practices for later reuse.Discover the steps for using the filters that you saved for your security best practices.
+title: Filter the security best practices table
+description: Apply filters to return more relevant results for your security best practices.Save the filters that you build on the security best practices table so that you can reapply them the next time you log in to your instance.Reapply a filter that you saved to the security best practices table so that you don't have to rebuild its conditions after you log out.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/apply-filters-to-the-security-best-practices-table.html
 release: brazil
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Security Best Practices, Security posture console, Security Center, Platform Security]
 ---
 
-# Filters the security best practices table
+# Filter the security best practices table
 
 Apply filters to return more relevant results for your security best practices.
 
@@ -22,19 +22,19 @@ Role required: admin
 
 ## Procedure
 
-1.  Access Security Best Practices Manager by selecting **All** on your ServiceNow instance and entering best practice.
+1.  Access Security Best Practices Manager by selecting **All** on your ServiceNow instance and entering `best practice`.
 
-2.  Navigate to the **Best Practices** table and select a field you want to apply a filter to by selecting its kebab menu, or the one with three vertical dots \(\[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text: vertical dots\).
+2.  Navigate to the Best Practices table and select the kebab menu of the field to filter, or the one with three vertical dots \[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text:.
 
-<table id="choicetable_k12_2fy_cbc"><thead><tr><th align="left" id="d179966e74">
+<table id="choicetable_k12_2fy_cbc"><thead><tr><th align="left" id="d180073e75">
 
 Fields
 
-</th><th align="left" id="d179966e77">
+</th><th align="left" id="d180073e78">
 
 Filter
 
-</th></tr></thead><tbody><tr><td id="d179966e83">
+</th></tr></thead><tbody><tr><td id="d180073e84">
 
 **Name**
 
@@ -42,7 +42,7 @@ Filter
 
 Combine a conditional operator with a string of text to return security best practices that match the name you entered.
 
-</td></tr><tr><td id="d179966e92">
+</td></tr><tr><td id="d180073e93">
 
 **Maturity level**
 
@@ -56,7 +56,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Add advanced features
 
 
-</td></tr><tr><td id="d179966e119">
+</td></tr><tr><td id="d180073e120">
 
 **Status**
 
@@ -70,7 +70,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Completed
 
 
-</td></tr><tr><td id="d179966e146">
+</td></tr><tr><td id="d180073e147">
 
 **Priority**
 
@@ -84,7 +84,7 @@ Apply a filter to return security best practices that match the following priori
 -   Not applicable
 
 
-</td></tr><tr><td id="d179966e174">
+</td></tr><tr><td id="d180073e175">
 
 **Goals**
 
@@ -100,7 +100,7 @@ Apply a filter to return security best practices that match one or more of the f
 -   Secure emails
  **Note**: Advanced filters are applied for goals by default. To modify them, select **Make changes** &gt; **Advanced view** &gt; **Select field goals** and then build the rest of the conditions and select **Update**.
 
-</td></tr><tr><td id="d179966e228">
+</td></tr><tr><td id="d180073e229">
 
 **First introduced**
 
@@ -108,7 +108,7 @@ Apply a filter to return security best practices that match one or more of the f
 
 Combine a conditional operator with a string of text to return best practices that were first introduced with the version you entered.
 
-</td></tr><tr><td id="d179966e237">
+</td></tr><tr><td id="d180073e238">
 
 **Changed**
 
@@ -116,7 +116,7 @@ Combine a conditional operator with a string of text to return best practices th
 
 Combine a conditional operator with a string of text to return security best practices that changed in the version you entered.
 
-</td></tr><tr><td id="d179966e246">
+</td></tr><tr><td id="d180073e247">
 
 **Removed**
 
@@ -130,7 +130,7 @@ Combine a conditional operator with a string of text to return security best pra
 
 ## Save a filter for future use
 
-Discover the steps for saving filters in your security best practices for later reuse.
+Save the filters that you build on the security best practices table so that you can reapply them the next time you log in to your instance.
 
 ### Before you begin
 
@@ -138,19 +138,19 @@ Role required: none
 
 ### About this task
 
-After you create filters in the security best practices table, you can save them for use the next time you authenticate into your instance. If you want more flexibility on the type of filters you can create, you can apply an advanced filter.
+After you create filters in the security best practices table, you can save them for use the next time you authenticate into your instance. For more flexibility in the types of filters you can create, apply an advanced filter.
 
 ### Procedure
 
-1.  Select the Show filter \(\[Omitted image "filter-outline-24.svg"\] Alt text: filter icon\) panel icon.
+1.  Select the Show filter panel icon \[Omitted image "filter-outline-24.svg"\] Alt text:.
 
-2.  In the **Filter** dialog panel, scroll down and select **Advanced view**.
+2.  In the Filter dialog panel, scroll down and select **Advanced view**.
 
 3.  Build a filter by adding conditions that contain a field, operator, and values.
 
 4.  Select **Save filter**
 
-5.  Enter the Filter name.
+5.  Enter a name in the **Filter name** field.
 
 6.  Select a permission.
 
@@ -161,7 +161,7 @@ After you create filters in the security best practices table, you can save them
 
 ## Use a saved filter
 
-Discover the steps for using the filters that you saved for your security best practices.
+Reapply a filter that you saved to the security best practices table so that you don't have to rebuild its conditions after you log out.
 
 ### Before you begin
 
@@ -173,11 +173,11 @@ After you log out of your instance your filters are reset to the default setting
 
 ### Procedure
 
-1.  Select the Show filter panel \(\[Omitted image "filter-outline-24.svg"\] Alt text: filter icon\) icon.
+1.  Select the Show filter panel icon \[Omitted image "filter-outline-24.svg"\] Alt text:.
 
 2.  In the Filter dialog box, scroll down and select **Advanced view**.
 
-3.  Select **Use existing filter**, and then select a saved filter from the dropdown list.
+3.  Select **Use existing filter**, and then select a saved filter from the drop-down list.
 
 4.  Select **Update** to apply the saved filter.
 

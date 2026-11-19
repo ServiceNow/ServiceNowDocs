@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-development/ai-work
 release: brazil
 topic_type: concept
 last_updated: "2026-09-09"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [AI workflow factory prime, AI workflow factory]
 breadcrumb: [Agentic app development, Building applications]
 ---
@@ -96,12 +96,12 @@ AI Workflow Factory Prime enables you to discover, build, run, and extend on the
 
 ## Extend
 
--   ****
+-   **[AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/agentic-desktop-landing-page.md)**
 
     ServiceNow® AI Desktop Actions enables you to design, configure, and manage desktop actions that automate repetitive tasks in your desktop and web environment. AI agents can autonomously and semi-autonomously process instructions, generate execution plans, and run desktop actions across legacy systems, thick client applications, and web applications without APIs.
 
 -   **[ServiceNow Arc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-cowork-landing.md)**
 
-    ServiceNow Arc is an enterprise autonomous AI agent that connects to your enterprise applications and systems and executes complex and multi-step tasks autonomously, and operates within defined security, access, and governance policies.
+    ServiceNow Arc is an enterprise autonomous AI agent that connects to your enterprise applications and systems and executes complex and multi-step tasks autonomously. ServiceNow Arc operates within defined security, access, and governance policies.
 
 

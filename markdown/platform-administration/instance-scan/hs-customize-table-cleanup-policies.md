@@ -9,7 +9,7 @@ classification: instance-scan
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Instance Scan table cleanup policies, Configuring Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Instance Scan table cleanup policies, Configuring Instance Scan, Instance Scan, Maintain and monitor, ServiceNow AI Platform]
 ---
 
 # Customize table cleanup policies

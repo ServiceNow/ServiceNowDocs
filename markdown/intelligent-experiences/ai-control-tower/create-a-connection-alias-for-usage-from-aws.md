@@ -1,6 +1,6 @@
 ---
 title: Create a connection alias for usage for AWS
-description: Use the AI Control Tower workspace to create a connection alias for usage for AWS
+description: Use the Control Tower workspace to create a connection alias for usage for AWS
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-a-connection-alias-for-usage-from-aws.html
 release: brazil
@@ -10,12 +10,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Create a hyperscaler connection for usage from AWS, Connect to AWS from ServiceNow, Hyperscaler connection with AWS, Using AI Control Tower to create hyperscaler connections, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Create a hyperscaler connection for usage from AWS, Connect to AWS from ServiceNow, Hyperscaler connection with AWS, Using Control Tower to create hyperscaler connections, Using Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create a connection alias for usage for AWS
 
-Use the AI Control Tower workspace to create a connection alias for usage for AWS
+Use the Control Tower workspace to create a connection alias for usage for AWS
 
 ## Before you begin
 

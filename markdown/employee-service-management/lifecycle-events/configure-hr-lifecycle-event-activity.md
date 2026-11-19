@@ -1409,7 +1409,7 @@ Role required: admin
 
 3.  Select the **Activity Sets** tab.
 
-4.  Use the drag-and-drop method to select an activity with your mouse and hold it and drag it to a different location within the same activity set or into another activity set.
+4.  Select an activity with your mouse and hold it and drag it to a different location within the same activity set or into another activity set.
 
     **Note:** The ordering numbers change automatically.
 
@@ -1427,7 +1427,7 @@ Role required: admin
 
 8.  Another way to edit an activity is to select the Edit Activity icon \(\[Omitted image "le-edit-activity-icon.png"\] Alt text: Lifecycle event - Edit Activity icon\) on an activity.
 
-    The activity appears in a separate window.\[Omitted image "le-edit-activity-brand2.png"\] Alt text:
+    The activity appears in a separate window.\[Omitted image "le-edit-activity-brand2.png"\] Alt text: Journey designer application editing the “Account Setup and Notification” activity within the Onboarding lifecycle event, with activity details and configuration fields displayed.
 
 9.  Edit the **Activity set** and **Display order** fields to change the activity set the activity belongs to and the order it appears.
 

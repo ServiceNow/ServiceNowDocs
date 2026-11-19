@@ -1,6 +1,6 @@
 ---
 title: View CAB meeting details
-description: You can view the details of any past, scheduled, or in-progress CAB meeting.
+description: View the details of any past, scheduled, or in-progress CAB meeting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/view-cab-meeting-details.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Create a single CAB meeting occurrence, Working with the CAB Workbe
 
 # View CAB meeting details
 
-You can view the details of any past, scheduled, or in-progress CAB meeting.
+View the details of any past, scheduled, or in-progress CAB meeting.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: itil, sn\_change\_cab.cab\_manager, sn\_change\_read, sn\_change\
 
 1.  Use one of the following ways to navigate to the CAB meeting.
 
-<table id="choicetable_w32_vdm_jx"><tbody><tr><td id="d423022e52">
+<table id="choicetable_w32_vdm_jx"><tbody><tr><td id="d424083e57">
 
 **CAB meeting**
 
@@ -37,7 +37,7 @@ Role required: itil, sn\_change\_cab.cab\_manager, sn\_change\_read, sn\_change\
 2.  Select the **Go to this meeting in CAB workbench** related link.
 
 
-</td></tr><tr><td id="d423022e114">
+</td></tr><tr><td id="d424083e119">
 
 **CAB workbench**
 

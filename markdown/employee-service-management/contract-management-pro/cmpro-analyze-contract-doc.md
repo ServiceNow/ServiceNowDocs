@@ -35,15 +35,15 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d542899e108">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d543067e110">
 
 Method
 
-</th><th align="left" id="d542899e111">
+</th><th align="left" id="d543067e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d542899e117">
+</th></tr></thead><tbody><tr><td id="d543067e119">
 
 **Contract Workspace listing**
 
@@ -55,7 +55,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d542899e164">
+</td></tr><tr><td id="d543067e166">
 
 **Workspace used by your application**
 
@@ -79,15 +79,15 @@ Steps
 
     The latest versions of the documents are automatically selected for analysis.
 
-<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d542899e232">
+<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d543067e234">
 
 Method
 
-</th><th align="left" id="d542899e235">
+</th><th align="left" id="d543067e237">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d542899e241">
+</th></tr></thead><tbody><tr><td id="d543067e243">
 
 **Run analysis on a single contract document**
 
@@ -97,7 +97,7 @@ Steps
 2.  From the contextual side panel, select **Analyze with AI**.
 
 
-</td></tr><tr><td id="d542899e265">
+</td></tr><tr><td id="d543067e267">
 
 **Run analysis on multiple contract documents**
 

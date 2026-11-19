@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Manage data growth in Core UI, Data Management, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Deleting older or unwanted records in Core UI

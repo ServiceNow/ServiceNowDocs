@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-l
 release: brazil
 topic_type: reference
 last_updated: "2026-09-22"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [skill inputs, Customer Success Management]
 breadcrumb: [Reference, Customer Success Management]
 ---

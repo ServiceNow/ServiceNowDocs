@@ -41,7 +41,7 @@ A range of service requests come preconfigured for use with Care Team Operations
 
 1.  An administrator configures the Care Team Operations for Facilities application.
 2.  A care team member detects a facilities issue and reports it using the Care Team Portal.
-3.  A facilities support agent receives the request as a case or work order and fulfills it using CSM/FSM Configurable Workspace.
+3.  A facilities support agent receives the request as a case or work order and fulfills it using CRM Workspace.
 
 ## Care Team Operations for Facilities benefits
 
@@ -49,7 +49,7 @@ A range of service requests come preconfigured for use with Care Team Operations
 |-------|-------|-----|
 |Automate healthcare operations by enabling facilities support request creation and fulfillment.|[Healthcare Facilities case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-facilities-case-overview.md)|Admin|
 |Create support requests and receive visibility to all Facilities service requests created by your teams.|[Creating service requests in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-facilities-create-request.md)|Nurse, Nurse assistant, Unit secretary|
-|Use CSM/FSM Configurable Workspace to fulfill facilities service requests.|[Fulfilling service requests in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-facilities-fulfilling-requests.md)|Facilities support agent|
+|Use CRM Workspace to fulfill facilities service requests.|[Fulfilling service requests in Care Team Operations for Facilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-facilities-fulfilling-requests.md)|Facilities support agent|
 
 ## What to explore next
 

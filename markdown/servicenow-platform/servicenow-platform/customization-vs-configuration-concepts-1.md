@@ -142,7 +142,7 @@ If you must make a customization, follow these guidelines:
 
 ## How do you handle customizations when you upgrade?
 
-Customizations trigger the platform to create sys\_update\_xml records, which are stored in the Customer Updates table. Platform version upgrades do not update these records. ServiceNow marks them as skipped records in the ServiceNow Upgrade Monitor. To make sure the records port successfully to the upgraded instance, manually process the skipped changes. For more information, see the .
+Customizations trigger the platform to create sys\_update\_xml records, which are stored in the Customer Updates table. Platform version upgrades do not update these records. ServiceNow marks them as skipped records in the ServiceNow Upgrade Monitor. To make sure the records port successfully to the upgraded instance, manually process the skipped changes. For more information, see the [Customer Updates table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_CustomerUpdatesTable.md).
 
 If you have documented all your customizations, including the business justification, compare your documented inventory with the skipped records identified in the Upgrade Monitor. After you filter out low-risk changes that resulted in skipped records, such as field labels or form layouts, decide whether to:
 

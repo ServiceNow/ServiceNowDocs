@@ -25,9 +25,12 @@ An application developer can package both a physical table and a predefined data
 
 By default, a data fabric table included with an application retrieves data from a physical table in the same application using the ServiceNow local instance connector. This makes a snapshot of the latest physical table data accessible from the data fabric table in lists, forms, or scripts when needed.
 
-The instance admin can choose to keep the predefined data fabric table connected to its physical table or change the connection to retrieve external data or data from a different physical table.
+The instance admin can do one of the following:
 
-Connecting to an external data source using requires coordination between the instance admin, connection admin, and data steward. To configure this type of data fabric table, follow the process shown in this infographic.
+-   Keep the predefined data fabric table connected to its physical table or change the connection.
+-   Retrieve external data or data from a different physical table.
+
+Connecting to an external data source using Zero Copy Connectors requires coordination between the instance admin, connection admin, and data steward. To configure this type of data fabric table, follow the process shown in this infographic.
 
 \[Omitted image "mmasset0021028-connecting-a-data-fabric-table-in-an-application-to-external-source-horizontal.png"\] Alt text: Different users in an organization work together to connect an application table to an external data source. View the steps after the infographic for details.
 

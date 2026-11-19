@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-coding-workflow.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-11-03"
+reading_time_minutes: 4
 keywords: [agentic development, workflow, conversational prompts, text-to-code generation, code explanations, optimization suggestions, governance, security, enterprise compliance, scalability, natural language, blueprint, tables, roles, UI components, workflows, full-stack components, JavaScript, metadata, business rules, integration points, automated tests, self-heal, iterative development, deployment, audit trails]
 breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
@@ -26,7 +26,9 @@ ServiceNow provides tools to help you review, refine, and test apps throughout a
 
 ## Step-by-step general workflow
 
-1.  Describe your goal: Provide a clear natural language prompt \(for example, `Create an application that handles several types of issues related to cash management. Create a custom data model with tables for each type of request. Add fields that are typical for these types of issues to each table. Request tables should extend the Task table. Create custom states for each request type to track issue resolution.`\).
+1.  Configure your tools: Confirm that settings, such as MCP server connections, are configured. For more information, see [Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/configure-build-agent.md).
+
+2.  Describe your goal: Provide a clear natural language prompt \(for example, `Create an application that handles several types of issues related to cash management. Create a custom data model with tables for each type of request. Add fields that are typical for these types of issues to each table. Request tables should extend the Task table. Create custom states for each request type to track issue resolution.`\).
 
     Tip:
 
@@ -34,29 +36,29 @@ ServiceNow provides tools to help you review, refine, and test apps throughout a
     -   You can craft a prompt and then feed it to an LLM, such as Claude, and ask for it to be made more specific for ServiceNow.
     For more information on example prompts, see [Example prompts for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-coding-example-prompts.md).
 
-2.  Generate the plan: Build Agent interprets your prompt and creates a blueprint, including tables, roles, UI components, and workflows.
+3.  Generate the plan: Build Agent interprets your prompt and creates a blueprint, including tables, roles, UI components, and workflows.
 
     Benefit: Architectural clarity before coding begins. For more information, see [Vibe coding: Chatting your way to a new app with ServiceNow Build Agent](https://www.servicenow.com/community/developer-advocate-blog/vibe-coding-chatting-your-way-to-a-new-app-with-servicenow-build/ba-p/3383952).
 
     For larger implementations with well-defined requirements, Autonomous Engineer can replace this step. It conducts an interview, generates a structured plan with work items, and builds all work items in parallel. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-autonomous-engineer.md).
 
-3.  Build and generate code: The ServiceNow AI Platform autonomously creates full-stack components using ServiceNow Fluent, JavaScript, and ServiceNow metadata.
+4.  Build and generate code: The ServiceNow AI Platform autonomously creates full-stack components using ServiceNow Fluent, JavaScript, and ServiceNow metadata.
 
     Includes: UI pages, data models, business rules, and integration points. For more information, see [Vibe coding with ServiceNow Build Agent: The future of AI-powered app development](https://www.servicenow.com/community/now-assist-for-creator-articles/zurich-release-vibe-coding-with-servicenow-build-agent-the/ta-p/3408806).
 
-4.  Validate and self-heal: If you're using Build Agent, it generates automated tests and fixes errors without manual intervention.
+5.  Validate and self-heal: If you're using Build Agent, Test Agent generates ATF tests, runs them, and troubleshoots failures. Build Agent applies fixes and runs the tests again until they pass.
 
     Governance: Compliance and security checks are applied automatically. For more information, see [Governance for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-governance.md).
 
-5.  Refine through prompts: Add features or adjust design iteratively \(for example, `Add a Kanban board` or `Improve UI layout for accessibility`\).
+6.  Refine through prompts: Add features or adjust design iteratively \(for example, `Add a Kanban board` or `Improve UI layout for accessibility`\).
 
     For more information, see [Vibe Coding: Chatting your way to a new app with ServiceNow Build Agent on Community](https://www.servicenow.com/community/developer-advocate-blog/vibe-coding-chatting-your-way-to-a-new-app-with-servicenow-build/ba-p/3383952).
 
-6.  Run tests: Run Automated Test Framework to test that the app is working as expected.
+7.  Run tests: Run Automated Test Framework to test that the app is working as expected.
 
     For more information, see [Testing agentically developed apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-and-atf.md).
 
-7.  Deploy securely: Push from a sandbox in Developer Sandboxes with audit trails and enterprise-grade security via Vault Console and Machine Identity Console.
+8.  Deploy securely: Push from a sandbox in Developer Sandboxes with audit trails and enterprise-grade security via Vault Console and Machine Identity Console. Source control is the preferred way to transfer changes between a sandbox and the base instance. You can also move apps between instances using update sets or the application repository.When your app is connected to Git-based source control, you can also manage source control operations from the Build Agent chat panel.
 
     For more information, see [Agentic development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vc-and-deployment.md).
 

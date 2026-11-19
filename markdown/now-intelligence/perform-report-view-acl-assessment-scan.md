@@ -16,7 +16,7 @@ Scan your instance for data visualizations and Core UI reports that users were s
 
 ## Before you begin
 
-Roles required: admin and security\_admin.
+Roles required: admin and security\_admin \(elevated\).
 
 ## About this task
 

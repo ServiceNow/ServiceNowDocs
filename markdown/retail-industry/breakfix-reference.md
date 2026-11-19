@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/breakfix-reference.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 breadcrumb: [Components installed with plugins, Reference, Retail]
 ---
@@ -97,7 +97,7 @@ Technical reference for Break-Fix case states, available actions, critical field
 
 [Break-Fix Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-overview.md)
 
-[Resolve Cases in Workspace through HQ Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-resolve-workspace.md)
+[Resolve Cases in CRM Workspace through HQ Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-resolve-workspace.md)
 
 [Submit Break-Fix Cases through Portal or Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-submit-case.md)
 

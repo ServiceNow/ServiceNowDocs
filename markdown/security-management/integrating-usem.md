@@ -16,12 +16,10 @@ Unified Security Exposure Management supports multiple third-party integrations 
 
 ## How integrations work
 
-Integrations work in the following way:
-
 1.  Vulnerability entries are imported from the National Vulnerability Database \(NVD\) and third-party scanners.
 2.  Asset and detection data are ingested from third-party scanners and matched against assets in your Configuration Management Database \(CMDB\).
 
-    **Note:** To integrate with scanners, use either unified exposure pipeline or standard scanner integration applications.
+    **Note:** To integrate with scanners, use either the unified exposure pipeline or standard scanner integration applications.
 
 3.  Findings are created and:
     -   Risk-scored with business context.
@@ -36,9 +34,11 @@ It centralizes scanner integration through a unified ingestion and normalization
 
 For information about installing the Unified Exposure Pipeline application, see [Install Unified Exposure Pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/install-unified-exposure-pipeline.md).
 
-For information about adding a scanner integration, see .
+For information about adding a scanner integration, see [Configure a scanner integration using the unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/add-scanner-integration-uep.md).
 
 For information about the supported scanner integrations and their target tables, see [Target tables for scanner integrations in unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/uep-scanners-target-tables.md).
+
+For information about scanner integration exposures, see [Scanner integration exposures in unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/uep-scanners-asset-types.md).
 
 ## Standard integration applications
 
@@ -46,7 +46,7 @@ Standard integration applications are created by ServiceNow® and partners and h
 
 <table id="table_mbj_22q_clc"><thead><tr><th>
 
-Scanner Integration
+Scanner integrations
 
 </th><th>
 
@@ -2316,7 +2316,7 @@ ServiceNow
 
 You can manually create integrations not available in the ServiceNow Store. See [Manually create a vulnerability integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/c_VulnerabilityIntegrations.md) for more information.
 
-**Note:** Unified expsoure pipeline cannot be configured alongside custom integrations.
+**Note:** Unified exposure pipeline cannot be configured alongside custom integrations.
 
 **Related topics**  
 

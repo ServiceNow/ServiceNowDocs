@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-26"
 reading_time_minutes: 1
 keywords: [access management, client access policy, MCP server]
-breadcrumb: [Control client access, Configure, AI Gateway, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control client access, Configure, AI Gateway, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Turn access management on or off for an MCP server
@@ -25,7 +25,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  In AI Control Tower, navigate to **Inventory** &gt; **Assets** &gt; **MCP servers** and select the server name.
+1.  In Control Tower, navigate to **Inventory** &gt; **Assets** &gt; **MCP servers** and select the server name.
 
 2.  Select the **AI Gateway** tab, and then select the **Policies** sub-tab.
 

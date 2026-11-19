@@ -1,6 +1,6 @@
 ---
 title: Configure the compliance dynamic schema
-description: Review and adjust the dynamic namespace that supports the risk and compliance fields on a change request. Ensure the attributes and categories match the compliance obligations of your organization.
+description: Review and adjust the compliance dynamic namespace so the risk and compliance attributes and categories on change requests match your organization's obligations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/configure-compliance-dynamic-schema.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Compliance dynamic schema, Configure, Change Management, IT Service
 
 # Configure the compliance dynamic schema
 
-Review and adjust the dynamic namespace that supports the risk and compliance fields on a change request. Ensure the attributes and categories match the compliance obligations of your organization.
+Review and adjust the compliance dynamic namespace so the risk and compliance attributes and categories on change requests match your organization's obligations.
 
 ## Before you begin
 

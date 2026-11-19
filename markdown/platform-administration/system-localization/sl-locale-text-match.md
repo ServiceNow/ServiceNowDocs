@@ -9,7 +9,7 @@ classification: system-localization
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring System Localization, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configuring System Localization, System Localization, Translation and localization, Configure core features, ServiceNow AI Platform]
 ---
 
 # Set case and accent sensitivity on a per-column basis

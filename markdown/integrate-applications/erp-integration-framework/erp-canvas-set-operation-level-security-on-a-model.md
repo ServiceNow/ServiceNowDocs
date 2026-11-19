@@ -8,7 +8,7 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-10-26"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, model, security, operation, model security, integration, data hub, zero, copy, connector, sap]
 breadcrumb: [ERP model operations, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -40,4 +40,6 @@ You can edit these permissions on the existing operations at any time to suit yo
 To learn more about adding an operation, see [Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md).
 
 To clone a model, you must have permissions to access the model operations. For more information, see [Clone an ERP model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-clone-data-model.md).
+
+**Parent Topic:**[Add an operation to a model in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-manage-models-read-op.md)
 

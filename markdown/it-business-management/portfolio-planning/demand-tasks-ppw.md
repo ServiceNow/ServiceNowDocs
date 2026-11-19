@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfoli
 release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
-topic_type: reference
+topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]

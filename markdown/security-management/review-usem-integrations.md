@@ -22,15 +22,14 @@ Navigate to **Workspaces** &gt; **Security Exposure Management** &gt; **Administ
 
 ## Configuring integrations
 
-To configure scanners using unified exposure pipeline, see [Configure a scanner integration using the unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/add-scanner-integration-uep.md).
+You can configure integrations in any of the following ways:
 
-You can also configure scanner integrations or other integrations from ServiceNow Store,
-
-Navigate to **Workspaces** &gt; **Security Exposure Management** &gt; **Administration** and select **Integrations**.
+-   Using the unified exposure pipeline, you can configure scanners. See [Configure a scanner integration using the unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/add-scanner-integration-uep.md).
+-   From ServiceNow Store, you can configure all standard integration applications \(scanners and other integrations\).
 
 ## Reviewing integrations
 
-After navigating to the Integrations dashboard, select **Review** for the required integration.
+Navigate to **Workspaces** &gt; **Security Exposure Management** &gt; **Administration** &gt; **Integrations** and select **Review** for the required integration.
 
 <table id="table_n43_yv4_mbc"><thead><tr><th>
 
@@ -85,7 +84,7 @@ Multiple lines
 
 </td><td>
 
-Provides performance metrics for assignment rules, remediation task rules, CI lookup time, risk rules, and VI creation time for the last 30 days, to identify the cause for any deviations in performance. The performance is calculated based on the time taken for each activity. These parameters are calculated and associated at the integration run level. Each parameter is color coded for easy identification.**Note:** It is not displayed for centralized scanner integrations.
+Provides performance metrics for assignment rules, remediation task rules, CI lookup time, risk rules, and VI creation time for the last 30 days, to identify the cause for any deviations in performance. The performance is calculated based on the time taken for each activity. These parameters are calculated and associated at the integration run level. Each parameter is color coded for easy identification.**Note:** It is not displayed for scanner integrations configured using the unified exposure pipeline.
 
 </td></tr><tr><td>
 
@@ -109,7 +108,7 @@ List
 
 </td><td>
 
-Provides information about the fetch and normalization runs of the integration.**Note:** It is displayed only for centralized scanner integrations.
+Provides information about the fetch and normalization runs of the integration.**Note:** It is displayed only for scanner integrations configured using the unified exposure pipeline.
 
 </td></tr></tbody>
 </table>**Note:** Multiple factors can impact the performance of the integration run, like the amount of data and time taken to process this data.

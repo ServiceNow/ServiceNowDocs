@@ -9,7 +9,7 @@ classification: table-administration-and-data-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Time Sheets, Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Time Sheets, Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Approve or reject a time sheet

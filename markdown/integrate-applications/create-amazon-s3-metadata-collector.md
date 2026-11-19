@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-a
 release: brazil
 topic_type: task
 last_updated: "2026-06-18"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [Amazon S3 metadata collector]
 breadcrumb: [Amazon S3 metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---

@@ -34,15 +34,15 @@ The following steps describe information that is specific to SAP. For general in
 
 1.  Navigate to the software model.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d352821e137">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d352038e139">
 
 Interface
 
-</th><th align="left" id="d352821e140">
+</th><th align="left" id="d352038e142">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d352821e146">
+</th></tr></thead><tbody><tr><td id="d352038e148">
 
 **Core UI**
 
@@ -52,7 +52,7 @@ Action
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d352821e182">
+</td></tr><tr><td id="d352038e184">
 
 **Software Asset Workspace**
 

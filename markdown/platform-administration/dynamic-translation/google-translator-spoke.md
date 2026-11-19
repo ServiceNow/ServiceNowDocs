@@ -9,7 +9,7 @@ classification: dynamic-translation
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Integration with other translation services, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Integration with other translation services, Dynamic Translation, Translation and localization, Configure core features, ServiceNow AI Platform]
 ---
 
 # Google Cloud Translator Service Spoke

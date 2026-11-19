@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Genius Result configurations in the base system

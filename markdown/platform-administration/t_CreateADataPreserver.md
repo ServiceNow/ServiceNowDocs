@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create preservers, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Create preservers, Configure, Instance Clone, Configure core features, ServiceNow AI Platform]
 ---
 
 # Preserve data during an instance clone

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/create-sb-product-offerings.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 5
 breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
 ---
@@ -80,7 +80,7 @@ Offering sub-type
 
 </td><td>
 
-Type of entitlement:-   Warranty
+Category of the offering. This field is optional, has no default value, and is available for both the Product and Entitlement offering types:-   Warranty
 -   Extended warranty
 -   License
 -   Subscription
@@ -148,7 +148,7 @@ Code
 
 </td><td>
 
-System-generated alphanumeric number based on the product name. Although system generated, you can edit the code to represent a SKU or any other industry specific product codes.
+System-generated code based on the product name. Although system generated, you can edit the code to represent a SKU or any other industry specific product codes. The code can include any character except an asterisk \(\*\) or a percent sign \(%\). When you save, letters are converted to uppercase and any \* or % characters are removed. For example, `bl-ui.test/1` changes to `BL-UI.TEST/1`, and `BL*UI` changes to`BLUI`. The code must be unique for the offering version.
 
 </td></tr><tr><td>
 
@@ -275,15 +275,15 @@ Name of the previous version of the product offering, For example:-   When you c
 
 7.  When you finish creating the product offering version, select one of the following actions.
 
-<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d49505e536">
+<table id="choicetable_dt3_z1p_ccc"><thead><tr><th align="left" id="d49536e557">
 
 Action
 
-</th><th align="left" id="d49505e539">
+</th><th align="left" id="d49536e560">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d49505e545">
+</th></tr></thead><tbody><tr><td id="d49536e566">
 
 **Publish**
 
@@ -293,7 +293,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 -   After you publish a product offering, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d49505e563">
+</td></tr><tr><td id="d49536e584">
 
 **Update**
 
@@ -301,7 +301,7 @@ Publish the draft product offering so that you can use it in a product catalog:-
 
 Update the product offering with the new data that you added, but don't publish it for use in a product catalog.
 
-</td></tr><tr><td id="d49505e572">
+</td></tr><tr><td id="d49536e593">
 
 **Copy**
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Express List, Event Management, Alert, Otto]
-breadcrumb: [Viewing an alert group analysis by ServiceNow Otto, Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing an alert group analysis by ServiceNow Otto, Working with alert groups in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View an alert group analysis by ServiceNow Otto in Express List

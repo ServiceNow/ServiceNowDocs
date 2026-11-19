@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-22"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, file type rule, file extensions, file access, arc policies]
-breadcrumb: [Working with Arc policy rules, Managing Arc policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Working with Arc policy rules, Managing Arc policies, Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create a file type rule for an Arc policy
@@ -25,7 +25,7 @@ Arc checks file type rules before it reads or changes a file. Only the extension
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Govern** &gt; **Policies** &gt; **Arc policies**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Govern** &gt; **Policies** &gt; **Arc policies**.
 
 2.  Select the policy you want to update.
 

@@ -18,15 +18,13 @@ Create and configure the trigger rules for a major incident to define the condit
 
 ## About this task
 
-Major incident trigger rules are evaluated asynchronously each time a major incident is created or promoted from an incident, provided the following conditions are met:
+You can also configure major incident trigger rules to directly create a major incident, bypassing the candidate step. Major incident trigger rules are evaluated asynchronously each time a major incident is created or promoted from an incident, provided the following conditions are met:
 
 -   The incident record doesn't have the Parent Incident populated, which means that the current incident isn't a child incident.
 -   The major incident isn't proposed or accepted.
 -   The incident is active.
 
-You can also configure major incident trigger rules to directly create a major incident, bypassing the candidate step.
-
-**Note:** Base system trigger rules are available.
+**Note:** This is the base system behavior. However, you can override the implementation by modifying the canEvaluate function in the `MajorIncidentTriggerRules` script include. Base system trigger rules are available.
 
 ## Before you begin
 
@@ -48,10 +46,10 @@ Role required: admin
 
     The Trigger rules page displays a list of available trigger rules. You can select any available trigger rule and select the following actions:
 
-    -   Activate: Activates the selected trigger rule. The base system major incident trigger rules are inactive by default.
-    -   Delete: Deletes the selected trigger rule.
-    -   Deactivate: Deactivates the selected active trigger rule.
-    -   Copy: Copies the trigger rule along with the information. This option helps in creating a trigger rule using the data of an existing trigger rule.
+    -   **Activate**: Activates the selected trigger rule. The base system major incident trigger rules are inactive by default.
+    -   **Delete**: Deletes the selected trigger rule.
+    -   **Deactivate**: Deactivates the selected active trigger rule.
+    -   **Copy**: Copies the trigger rule along with the information. This option helps in creating a trigger rule using the data of an existing trigger rule.
 4.  Select **New**.
 
 5.  On the form, fill in the fields.
@@ -92,7 +90,7 @@ Action taken on the incident when the trigger rule is executed. Possible values:
 -   **Promote Major Incident**: Incident is promoted directly to a major incident when the trigger rule is executed.
  **Note:** The **Create major incident from candidate** \(**sn\_major\_inc\_mgmt.com.snc.incident .min.major\_incident\_creation**\) system property creates different behaviors depending on which options are selected.
 
- When the system property is set to **Create new**, the following behaviors occur in relation to the **Action to take values**:
+ When the system property is set to **Create new**, the following behaviors occur in relation to the **Action to take** values:
 
  -   **Propose Major Incident**: The incident is proposed as a major incident candidate. After it’s approved, a new major incident is created and the existing incident is marked as its child.
 -   **Promote Major Incident**: A new incident is created and promoted to a major incident. The existing incident is marked as its child.
@@ -116,7 +114,7 @@ Execution order
 
 </td><td>
 
-The sequence that the rules are triggered. The rule with lowest execution order is triggered first. For example, a rule with order = 100 is executed first then a rule with order = 200.
+The sequence in which the rules are triggered. The rule with the lowest execution order is triggered first. For example, a rule with order = 100 is executed first, and then a rule with order = 200.
 
  **Note:** If any of the existing trigger rule conditions are met, the incident is considered to be a major incident candidate. Verification of the remaining rules isn’t required. Otherwise, all the rules are verified based on the execution order.
 

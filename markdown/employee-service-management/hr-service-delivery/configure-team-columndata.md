@@ -83,7 +83,7 @@ Column display fields
 
 </td><td>
 
-Fields of the table that you want to display on the Team members tab in Your team menu in Employee CenterFor example, you want to display time zone, city, state, and country fields \(of employees\) from the sys\_user table on the Location column on the Team members tab in Your team menu in Employee Center
+Fields of the table that you want to display on the Team members tab in Your team menu in Employee CenterFor example, to display time zone, city, state, and country fields from the sys\_user table on the Location column on the Team members tab in Employee Center.
 
 </td></tr><tr><td>
 

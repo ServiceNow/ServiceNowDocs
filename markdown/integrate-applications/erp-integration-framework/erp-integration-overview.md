@@ -1,6 +1,6 @@
 ---
 title: Zero Copy Connector for ERP
-description: Zero Copy Connector for ERP \(Enterprise Resource Planning\) is a ServiceNow scoped application that enables you to retrieve and update data from an ERP system, such as SAP, SuccessFactors, and Workday. This application had two previous names: ERP Data Hub and ERP Canvas.
+description: Zero Copy Connector for ERP is a ServiceNow scoped application that lets you retrieve and update data in ERP systems such as SAP, Oracle EBS, and Workday.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-integration-overview.html
 release: brazil
@@ -15,9 +15,11 @@ breadcrumb: [Workflow Data Fabric]
 
 # Zero Copy Connector for ERP
 
-Zero Copy Connector for ERP \(Enterprise Resource Planning\) is a ServiceNow scoped application that enables you to retrieve and update data from an ERP system, such as SAP, SuccessFactors, and Workday. This application had two previous names: ERP Data Hub and ERP Canvas.
+Zero Copy Connector for ERP is a ServiceNow® scoped application that lets you retrieve and update data in ERP systems such as SAP, Oracle EBS, and Workday.
 
 ## Get started
+
+Previous names for this Enterprise Resource Planning \(ERP\) application are ERP Data Hub and ERP Canvas.
 
 <table id="table_iwv_lpv_klb1" class="nav-card"><tbody><tr><td>
 
@@ -37,7 +39,7 @@ Zero Copy Connector for ERP \(Enterprise Resource Planning\) is a ServiceNow sco
 
 </td><td>
 
-Use Zero Copy Connector AI agent collection\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for Zero Copy Connector for ERP.
+[Use Zero Copy Connector for ERP AI agent collection\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for Zero Copy Connector for ERP.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/ai-in-zero-copy-connector-for-erp.md)
 
 </td><td>
 

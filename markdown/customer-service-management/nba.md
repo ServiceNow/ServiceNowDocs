@@ -102,6 +102,10 @@ Set up the Recommended Actions application so that you can create actions of typ
 
 <table id="table_vcr_lms_h5b"><thead><tr><th>
 
+Step number
+
+</th><th>
+
 Setup task
 
 </th><th>
@@ -109,6 +113,10 @@ Setup task
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+1
+
+</td><td>
 
 [Install the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/install-recommended-actions-cs-app.md)
 
@@ -118,6 +126,10 @@ Download the Recommended Actions application from the ServiceNow® Store.
 
 </td></tr><tr><td>
 
+2
+
+</td><td>
+
 [Assign roles to Recommended Actions users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-csm-installed-components.md)
 
 </td><td>
@@ -125,6 +137,10 @@ Download the Recommended Actions application from the ServiceNow® Store.
 Assign roles to your users to control access to Recommended Actions features and information.
 
 </td></tr><tr><td>
+
+3
+
+</td><td>
 
 [Configuring the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-recommended-actions.md)
 
@@ -141,6 +157,10 @@ Optionally, set up the Guided Decisions Experience application so that you can c
 
 <table id="table_xfr_pf1_1mb"><thead><tr><th>
 
+Step number
+
+</th><th>
+
 Setup task
 
 </th><th>
@@ -148,6 +168,10 @@ Setup task
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+1
+
+</td><td>
 
 [Install the Guided Decisions Experience application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/install-guided-decisions-exp-app-new.md)
 
@@ -157,6 +181,10 @@ Install the Guided Decisions Experience application from the ServiceNow® Store.
 
 </td></tr><tr><td>
 
+2
+
+</td><td>
+
 [Configuring decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configuring-guided-decisions.md)
 
 </td><td>
@@ -164,6 +192,10 @@ Install the Guided Decisions Experience application from the ServiceNow® Store.
 Configure decision trees that agents can use to troubleshoot solutions for customer issues.
 
 </td></tr><tr><td>
+
+3
+
+</td><td>
 
 [Add Guided Decisions to Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-guided-decisions-to-recommended-actions.md)
 

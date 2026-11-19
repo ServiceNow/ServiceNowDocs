@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-security/scan-for-user
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [scripting governance tool, scan for scripting users, conditional script writer group, scripting access audit]
 breadcrumb: [Use Scripting Governance Tool, Scripting Governance Tool, Access Management]
 ---
@@ -19,7 +19,7 @@ Scan your instance to find users who have scripted within a specific time frame.
 
 Role required: security\_admin
 
-**Important:** You must have elevate your role `security_admin`. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+**Important:** You must elevate your role to `security_admin`. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
 ## Procedure
 
@@ -29,38 +29,44 @@ Role required: security\_admin
 
 3.  Select a time period from the drop-down list.
 
-    -   7 days
-    -   15 days
-    -   30 days
-    -   90 days
-    -   120 days
-    -   180 days
+    -   **7 days**
+    -   **15 days**
+    -   **30 days**
+    -   **90 days**
+    -   **120 days**
+    -   **180 days**
     \[Omitted image "sgt-scan-scripting.png"\] Alt text: Scan for scripting users
 
     The default value is **180 days**.
 
 4.  Select how you want to run the scan.
 
-    -   Run this scan now — starts the scan immediately.
-    -   Schedule this scan — runs the scan at a time you specify.
-5.  Select **Done** to scan.
+    -   **Run this scan now** — starts the scan immediately.
+    -   **Schedule this scan** — starts the scan at the date and time that you specify in the **Start this at** field.
+5.  If you selected **Schedule this scan**, enter the date and time to start the scan in the **Start this at** field.
 
-6.  Select the scan record from **View scan** section.
+    This field appears only when **Schedule this scan** is selected. The field defaults to 24 hours from the current date and time. Select the calendar icon to choose a date and time, or enter the value in the `yyyy-MM-dd HH:mm:ss` format.
+
+6.  Select **Done** to scan.
+
+    For a scheduled scan, the **A scan has been scheduled.** message confirms that the scan is queued.
+
+7.  Select the scan record from the **View scan** section.
 
     The following details are available on the **View scan** section.
 
     |Label|Description|
     |-----|-----------|
-    |Scan number|A unique identifier for the scan, for example `SGTSCAN0000001`.|
-    |Status|Status of the scan|
-    |Completed|Completion state of the scan|
-    |Scheduled|Scheduled time of execution for the scan|
-    |Created by|User who initiated the scan|
-    |Action|Actions the scan took|
+    |Scan number|Unique identifier for the scan.|
+    |Status|Current state of the scan. Values include Scheduled and Completed.|
+    |Completed|Date and time that the scan finished. Empty for a scan that hasn't run.|
+    |Scheduled|Date and time that the scan is set to start.|
+    |Created by|User who created the scan.|
+    |Action|Available action for the scan. For a scheduled scan, **Cancel scheduled job** cancels the scan before it runs.|
 
     \[Omitted image "sgt-view-scans.png"\] Alt text: View scan
 
-7.  Select the scan record to open the scan results page.
+8.  Select the scan record to open the scan results page.
 
     The scan results page opens and displays the following information:
 
@@ -73,9 +79,9 @@ Role required: security\_admin
 
     \[Omitted image "sgt-view-scans-result.png"\] Alt text: Scan results page
 
-8.  Review the results and identify users who require action.
+9.  Review the results and identify users who require action.
 
-9.  To act on the results, select **Manage conditional script writers** on the scan results page.
+10. To act on the results, select **Manage conditional script writers** on the scan results page.
 
     The **Manage users in the conditional script writer group** opens, where you can review group membership and remove users who no longer require scripting access using the **Schedule removal** option. To learn more about how to schedule removal, see [Remove users from the Conditional Script Writer group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/remove-conditional-script-writer-users.md).
 

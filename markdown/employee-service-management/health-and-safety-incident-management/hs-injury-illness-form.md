@@ -7,7 +7,7 @@ release: brazil
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-12"
 reading_time_minutes: 7
 breadcrumb: [Reference, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -95,7 +95,7 @@ Sensitive content
 
 Option that indicates that the incident contains sensitive information.Only a user with the Sensitive content user role can view a report marked as sensitive. For more information on roles, see [Components installed with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/components-installed-with-hs-incident-mgmt.md).
 
-**Note:** When you generate a report \(such as OSHA 300 or 300A\), it contains all incidents, including the ones marked as sensitive, according to the template. However, sensitive information is not disclosed in the report as incident details are not included.
+**Note:** When you generate a report \(such as OSHA 300 or 300A\), it contains all incidents, including the ones marked as sensitive, according to the template. However, sensitive information is not disclosed in the report as incident details aren't included.
 
 </td></tr><tr><td>
 

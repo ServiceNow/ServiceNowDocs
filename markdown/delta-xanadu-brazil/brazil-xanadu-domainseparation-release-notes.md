@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-domainseparation-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -113,11 +113,11 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key delete-by-domain\]](https://www.servicenow.com/docs/access?context=delete-by-domain&family=zurich&ft:locale=en-US)**
+-   **[delete by domain](https://www.servicenow.com/docs/access?context=delete-by-domain&family=zurich&ft:locale=en-US)**
 
 Domain Admins may now delete by domain to efficiently manage domains and reduce storage overhead. The tool also includes data recovery and retention, enabling rollbacks and retention policy setting.
 
--   **[\[Placeholder link text to key domain-job-manger\]](https://www.servicenow.com/docs/access?context=domain-job-manger&family=zurich&ft:locale=en-US)**
+-   **[domain job manger](https://www.servicenow.com/docs/access?context=domain-job-manger&family=zurich&ft:locale=en-US)**
 
 Changes to the domain table are now queued sequentially and batched into a single background job. This helps simplify domain table updates. Users are notified when a job needs to be delayed as well when a job needs to start.
 

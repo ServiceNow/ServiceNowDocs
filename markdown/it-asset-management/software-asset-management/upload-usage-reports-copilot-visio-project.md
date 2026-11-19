@@ -51,15 +51,15 @@ You can export the usage reports for Microsoft Copilot, Visio Online, Planner, a
 
 6.  From a web browser, open your ServiceNow instance.
 
-<table id="choicetable_yzk_rml_bcc"><thead><tr><th align="left" id="d171748e220">
+<table id="choicetable_yzk_rml_bcc"><thead><tr><th align="left" id="d171592e222">
 
 Interface
 
-</th><th align="left" id="d171748e223">
+</th><th align="left" id="d171592e225">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d171748e229">
+</th></tr></thead><tbody><tr><td id="d171592e231">
 
 **Core UI**
 
@@ -67,7 +67,7 @@ Action
 
 Open the Integration Profiles \[samp\_sw\_subscription\_profile\] table.Integration profiles open in the list view.
 
-</td></tr><tr><td id="d171748e241">
+</td></tr><tr><td id="d171592e243">
 
 **Software Asset Workspace**
 
@@ -80,15 +80,15 @@ Open the Integration Profiles \[samp\_sw\_subscription\_profile\] table.Integrat
 </td></tr></tbody>
 </table>7.  Apply filters to open integration profiles for a specific Tenant id for which you want to upload the usage reports.
 
-<table id="choicetable_np5_wnl_bcc"><thead><tr><th align="left" id="d171748e287">
+<table id="choicetable_np5_wnl_bcc"><thead><tr><th align="left" id="d171592e289">
 
 Interface
 
-</th><th align="left" id="d171748e290">
+</th><th align="left" id="d171592e292">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d171748e296">
+</th></tr></thead><tbody><tr><td id="d171592e298">
 
 **Core UI**
 
@@ -99,7 +99,7 @@ Action
 3.  Select **Run**.
 
 
-</td></tr><tr><td id="d171748e324">
+</td></tr><tr><td id="d171592e326">
 
 **Software Asset Workspace**
 
@@ -115,15 +115,15 @@ Action
 </td></tr></tbody>
 </table>8.  Add the usage reports to an integration profile.
 
-<table id="choicetable_my4_mcm_bcc"><thead><tr><th align="left" id="d171748e376">
+<table id="choicetable_my4_mcm_bcc"><thead><tr><th align="left" id="d171592e378">
 
 Interface
 
-</th><th align="left" id="d171748e379">
+</th><th align="left" id="d171592e381">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d171748e385">
+</th></tr></thead><tbody><tr><td id="d171592e387">
 
 **Core UI**
 
@@ -137,7 +137,7 @@ Action
 6.  The uploaded CSV files appear next to the Manage Attachments icon.
 
 
-</td></tr><tr><td id="d171748e422">
+</td></tr><tr><td id="d171592e424">
 
 **Software Asset Workspace**
 

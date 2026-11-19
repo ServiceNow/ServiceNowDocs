@@ -62,7 +62,7 @@ For more information about the Reservation planner role, refer to [Components in
 
 [Space Optimization]()
 
-[Scenario Planning]()
+[Scenario planning]()
 
 [Schedule Planning]()
 

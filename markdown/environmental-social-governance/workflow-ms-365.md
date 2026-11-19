@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Microsoft 365 with ServiceNow reporting, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Integrating Microsoft 365 with ServiceNow reporting, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management]
 ---
 
 # Workflow of Microsoft 365 for ServiceNow Reporting

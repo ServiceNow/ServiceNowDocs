@@ -18,7 +18,7 @@ Service-level appointment booking enables customers to easily schedule specific 
 
 ## Before you begin
 
-Role required: appointment\_booking\_admin
+Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
 Verify you have an active application configuration \(**Field Service Order Configuration or Field Service Task Configuration**\) set up. You can create multiple service-level configuration within an application-level configuration.
 

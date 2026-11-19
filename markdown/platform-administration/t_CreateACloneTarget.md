@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Register instance for cloning, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Register instance for cloning, Configure, Instance Clone, Configure core features, ServiceNow AI Platform]
 ---
 
 # Register target instance \(legacy\)

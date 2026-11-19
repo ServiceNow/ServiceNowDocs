@@ -8,7 +8,7 @@ product: Event Management
 classification: event-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -38,9 +38,9 @@ Alerts are grouped based on the analysis of log data. This involves correlating 
 
 </td><td>
 
-An online gaming company enhances server stability by implementing proactive log analytics. They monitor logs from game servers in real-time and use analysis tools to detect patterns of errors that occur before crashes.
+An online gaming company enhances server stability by implementing proactive log analytics. Logs from game servers are monitored in real time, and analysis tools detect error patterns that occur before crashes.
 
- For instance, the analysis reveals that certain error patterns appear about 30 minutes prior to server crashes. By setting up automated alerts for these patterns, the company can initiate remediation actions, such as restarting services or reallocating resources, before a crash occurs. This proactive approach prevents disruptions, minimizes downtime, and improves the gaming experience by addressing issues before they impact players.
+ For instance, certain error patterns appear about 30 minutes before server crashes. Automated alerts for these patterns trigger remediation actions, such as restarting services or reallocating resources, before a crash occurs. This approach minimizes downtime and reduces disruptions before they affect players.
 
 </td></tr><tr><td>
 
@@ -69,7 +69,7 @@ Advanced algorithms automatically identify and group related alerts based on pat
  Automatic alert grouping consists of the following components.
 
 -   Alert Aggregation Learner \(**Service Analytics Alert Aggregation Learner - Daily**\): This offline job runs daily to process past alerts and perform statistical analysis to build alert patterns. For details, see [Configure pattern based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-alert-aggregation.md).
--   Real-time Alert Aggregation job \(**Service Analytics group alerts using RCA/Alert Aggregation**\): This job runs every minute to generate alert aggregation groups based on alert patterns, CMDB relationships, text similarity, user-defined alert clustering tags, and network traffic connection between processes.
+-   Real-time Alert Aggregation job \(**Service Analytics group alerts using RCA/Alert Aggregation**\): This job runs every minute to generate alert aggregation groups. Groups are based on alert patterns, CMDB relationships, text similarity, user-defined alert clustering tags, and network traffic connections between processes.
 
 </td><td>
 
@@ -90,11 +90,11 @@ Mixed Grouping method combines alerts using multiple grouping strategies, such a
 
 Use case for CMDB-based grouping:
 
- A telecommunications company uses CMDB data to manage alerts related to their network infrastructure. Alerts related to a specific network router and its connected devices are grouped together based on their CMDB relationships, enabling the network team to see all related issues and address the root cause efficiently.
+ A telecommunications company uses CMDB data to manage alerts related to their network infrastructure. Alerts related to a specific network router and its connected devices are grouped based on their CMDB relationships. This gives the network team visibility into all related issues so they can address the root cause.
 
  Use case for tag cluster grouping:
 
- An organization without a CMDB manages a Linux server running various services. The IT team uses a **Node** field in each alert to identify the server, and they group all events related to services on the same server based on this node value. For example, they cluster alerts like Service A down and Service B high CPU usage together if they share the same node value.
+ An organization without a CMDB manages a Linux server running various services. The IT team uses a **Node** field in each alert to identify the server. All events related to services on the same server are grouped by node value. For example, alerts like Service A down and Service B high CPU usage are clustered together when they share the same node value.
 
  This approach helps the IT team address server-related issues more efficiently. By clustering alerts for the same node, application, or IP address, the team streamlines their response efforts and resolves issues more effectively, even without a CMDB.
 
@@ -104,7 +104,7 @@ Network-traffic based Grouping
 
 </td><td>
 
-Network-traffic-based alert grouping analyzes network connections between processes across hosts to identify related alerts. This method leverages service candidates detected through ML Service Mapping, ensuring that alerts related to network traffic issues are grouped together for better context and faster alert resolution.
+Network-traffic-based alert grouping analyzes network connections between processes across hosts to identify related alerts. This method uses service candidates detected through ML Service Mapping. Alerts related to network traffic issues are grouped together for better context and faster resolution.
 
 </td><td>
 
@@ -122,9 +122,9 @@ Alerts are grouped by analyzing the text content of alerts to identify similarit
 
 </td><td>
 
-In an organization that uses Zoom rooms for virtual meetings, the IT team receives numerous alerts when the Zoom room server experiences an outage. Each alert might indicate a different Zoom room being down, such as Zoom room no 10 is down, Zoom room no 11 is down, and so on, with the only difference being the room number.
+When a Zoom room server experiences an outage, the IT team receives numerous alerts. Each alert indicates a different Zoom room is down, differing only by room number.
 
- For organizations with a CMDB, these alerts can be grouped using CMDB relations, as the system can correlate the alerts based on the server's impact on all associated Zoom rooms. However, for organizations without a CMDB, text-based grouping can be used. The system applies natural language processing to group alerts with similar descriptions, helping the IT team quickly identify that multiple Zoom rooms are affected by the same underlying server issue. This approach allows the IT team to efficiently address the root cause of the problem, reducing downtime and improving response times.
+ For organizations with a CMDB, these alerts can be grouped using CMDB relations. The system correlates alerts based on the server's impact on all associated Zoom rooms. However, for organizations without a CMDB, text-based grouping can be used. The system applies natural language processing to group alerts with similar descriptions. The IT team can then identify that multiple Zoom rooms are affected by the same underlying server issue, reducing downtime and improving response times.
 
 </td></tr><tr><td>
 
@@ -141,11 +141,11 @@ A system administrator receives multiple alerts about different services failing
  The admin then prioritizes fixing the hardware issue to restore all services.
 
 </td></tr></tbody>
-</table>Manual and rule-based alert grouping differs from algorithm-based grouping mainly in how the parent alert is chosen. In manual, rule-based, or log analytics grouping, one of the real alerts is designated as the parent alert. In Automatic, CMDB, Text-based, Tag Cluster modes, and Network Traffic, a virtual alert, representing the oldest and most severe alert in the group, is created as the parent alert.
+</table>Manual and rule-based alert grouping differs from algorithm-based grouping mainly in how the parent alert is chosen. In manual, rule-based, or log analytics grouping, one of the real alerts is designated as the parent alert. In Automatic, CMDB, Text-based, Tag Cluster, and Network Traffic modes, a virtual alert is created as the parent alert. This virtual alert represents the oldest and most severe alert in the group.
 
 By default, the main alert of the group is the oldest and the alert with the highest severity. There is a script include, GroupingProduceGroupMainAlertHook, using which we can change the main alert selection logic. The method that you should customize is getMainAlert.
 
 **Note:** In domain-separated environments, alert groups are created only for alerts within the same domain.
 
-For information on scheduled jobs and parameters, refer to [Scheduled jobs and parameters for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-grp-jobs-parameters.md). For detailed information on different grouping types, see [Alert grouping types and creation methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/Alert-Groups.md).
+For information on scheduled jobs and parameters, see [Scheduled jobs and parameters for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/alert-grp-jobs-parameters.md). For information on different grouping types, see [Alert grouping types and creation methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/Alert-Groups.md).
 

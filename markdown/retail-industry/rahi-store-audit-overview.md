@@ -25,7 +25,7 @@ Platform assignment rules automatically set the assignment group on the new reco
 
 ## Auditor fulfillment
 
-HQ Auditors complete their assigned Store Audit Cases in CSM/FSM Workspace; Location Auditors can also use Retail Mobile. Fulfillment centers on completing the questionnaire on each Audit Task, recording observations in work notes and comments, and progressing the case through New, Open, and Closed.
+HQ Auditors complete their assigned Store Audit Cases in CRM Workspace; Location Auditors can also use Retail Mobile. Fulfillment centers on completing the questionnaire on each Audit Task, recording observations in work notes and comments, and progressing the case through New, Open, and Closed.
 
 **Note:** The Store Audit Case and Audit Task list views don't have **New** or **Add** buttons—records are only created by the playbook or generation flow. Generated records remain visible from the **Retail cases** list.
 

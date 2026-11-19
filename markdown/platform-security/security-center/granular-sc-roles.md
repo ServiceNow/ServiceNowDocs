@@ -1,6 +1,6 @@
 ---
 title: Granular roles for Security Center
-description: Use the new Security Center admin role to grant users security center administrative capability without using the admin role.
+description: The Security Center admin role grants users Security Center administrative capability without the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/granular-sc-roles.html
 release: brazil
@@ -14,13 +14,13 @@ breadcrumb: [Security Center, Platform Security]
 
 # Granular roles for Security Center
 
-Use the new Security Center admin role to grant users security center administrative capability without using the admin role.
+The Security Center admin role grants users Security Center administrative capability without the admin role.
 
 Beginning with the Security Center 3.2 update available in the ServiceNow Store, the Security Center Admin \(sn\_vsc.security\_center\_admin\) role is available. This role allows users to manage Security Center configurations and access controls while enhancing security through least-privileged access.
 
 <table id="table_g14_xjy_2hc"><thead><tr><th>
 
-Granular Role
+Granular role
 
 </th><th>
 

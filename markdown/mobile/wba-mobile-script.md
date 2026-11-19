@@ -22,7 +22,7 @@ Consider the following offline and online considerations when using navigation c
 
 -   **Write-back actions**
 
-    When using the navigation command sys\_sg\_write\_back\_action\_item.list it opens the Action items table. When you select **Script** in the **Type** field, the script text box opens. Add your mobile script syntax which runs both online and offline.
+    When using the navigation command sys\_sg\_write\_back\_action\_item.list it opens the Action items table. When you select **Script** in the **Type** field, the script text box opens. Add your mobile script syntax which runs both in online and offline.
 
 -   **Write-back action steps**
 
@@ -30,7 +30,7 @@ Consider the following offline and online considerations when using navigation c
 
     -   Online: Use regular script syntax, which supports broader GlideRecord capabilities.
     -   Offline: Use mobile script syntax only, as it is the only syntax that supports offline.
-    -   Both: Use mobile script syntax only, because other scripts can’t mix mobile and non-mobile syntax.
+    -   Both: Use mobile script syntax only, because other scripts can’t mix mobile script and non-mobile script syntax.
 
 **Parent Topic:**[Components that support mobile scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/components-mobile-scripts.md)
 

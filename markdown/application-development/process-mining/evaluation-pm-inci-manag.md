@@ -37,8 +37,3 @@ For more information, see [Run the Process Mining evaluation project](https://ra
 
 **Parent Topic:**[Evaluation projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/evaluate-pm.md)
 
-**Related topics**  
-
-
-[create-db-in-ac]
-

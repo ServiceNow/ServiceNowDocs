@@ -9,7 +9,7 @@ classification: upgrade-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Console tools, Use, Upgrade Console, Upgrade, ServiceNow AI Platform]
 ---
 
 # ATF Test Generator and Cloud Runner tool in Upgrade Console

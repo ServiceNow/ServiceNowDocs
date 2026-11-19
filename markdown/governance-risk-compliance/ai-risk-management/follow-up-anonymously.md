@@ -23,7 +23,7 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(This role is requir
 
 ## About this task
 
-You can report anytime, without sharing your name or contact details. Investigators only see the report details, not who submitted it. The AI case is managed as part of AI Risk and Compliance application and can be viewed in AI Control Tower to support risk and compliance oversight. After you submitted your anonymous AI case, the system generated a report number and a private report key. You need the report key to check status updates or provide additional information later. If you lose the report key, it can’t be recovered and the case can’t be identified or retrieved on your behalf. You need this information to follow up on a case.
+You can report anytime, without sharing your name or contact details. Investigators only see the report details, not who submitted it. The AI case is managed as part of AI Risk and Compliance application and can be viewed in Control Tower to support risk and compliance oversight. After you submitted your anonymous AI case, the system generated a report number and a private report key. You need the report key to check status updates or provide additional information later. If you lose the report key, it can’t be recovered and the case can’t be identified or retrieved on your behalf. You need this information to follow up on a case.
 
 If you have not yet submitted an anonymous AI case, see [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md) for submission steps and field descriptions.
 
@@ -33,15 +33,15 @@ If you have not yet submitted an anonymous AI case, see [Report an AI case anony
 
 2.  Access the Anonymous report center using one of these options.
 
-<table id="choicetable_x32_l4d_l3c"><thead><tr><th align="left" id="d220421e122">
+<table id="choicetable_x32_l4d_l3c"><thead><tr><th align="left" id="d220946e124">
 
 Option
 
-</th><th align="left" id="d220421e125">
+</th><th align="left" id="d220946e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d220421e131">
+</th></tr></thead><tbody><tr><td id="d220946e133">
 
 **Direct portal access**
 
@@ -51,7 +51,7 @@ Description
 2.  Select **Submit a report anonymously**.
 
 
-</td></tr><tr><td id="d220421e155">
+</td></tr><tr><td id="d220946e157">
 
 **Employee center access**
 

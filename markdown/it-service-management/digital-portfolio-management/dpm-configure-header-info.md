@@ -7,7 +7,7 @@ release: brazil
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 2
 breadcrumb: [Configure the Admin Center, Configure, Digital Portfolio Management, IT Service Management]
 ---
@@ -31,6 +31,8 @@ Each solution displays header information for that solution. For example, for a 
 -   Enterprise portfolios and taxonomies
 
 **Note:** You can add up to 7 fields in the **Secondary Values** tab. Fields beyond 7 won’t appear in the DPM Workspace.
+
+If a text banner appears stating that the record isn't found, then the record has been deleted. Contact your admin to create the record.
 
 ## Procedure
 
@@ -69,6 +71,10 @@ Each solution displays header information for that solution. For example, for a 
 
 7.  Select **Update**.
 
+
+If a text banner appears stating that the record isn't found, then the record has been deleted. Only an admin can delete and create a record. Contact your admin to create the record that you're trying to configure.
+
+\[Omitted image "dpmrecordnotfound.png"\] Alt text: After selecting Configure, a text banner displays the message "Record not found."
 
 **Parent Topic:**[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-portfolio-management/dpm-admin-center.md)
 

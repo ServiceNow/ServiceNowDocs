@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-aiskillkit-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -475,7 +475,7 @@ Zurich
 
 -   Use labeling workflows to annotate UI templates.
 -   Use structured output to constrain AI responses to predefined JSON schemas.
--   Improve overisght and compliance with AI Control Tower integration with your custom large language model.
+-   Improve overisght and compliance with Control Tower integration with your custom large language model.
 
  [Zurich Patch 5](https://www.servicenow.com/docs/access?context=zurich-patch-5&family=zurich&ft:locale=en-US)
 

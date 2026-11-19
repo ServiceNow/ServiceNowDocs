@@ -54,7 +54,7 @@ Desktop Assistant user\[sn\_dex\_desktop.user\]
 
 </td><td>
 
-Responsible for using Desktop Assistant. Users with this role can't configure any items within the application.
+Responsible for using Desktop Assistant. They can't configure any items within the application.
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -105,7 +105,7 @@ Desktop Assistant App to Tab Mapping\[sn\_dex\_desktop\_app\_to\_tab\_mapping\]
 
 </td><td>
 
-Records a mapping between the application and its tabs.
+Records a mapping between application and tabs.
 
 </td></tr><tr><td>
 
@@ -153,7 +153,7 @@ Tab to Section Mapping\[sn\_dex\_desktop\_tab\_to\_section\_mapping\]
 
 </td><td>
 
-Specifies all the sections within a page in a tab content.
+Specifies all the sections with in a page in a tab content.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[DEX Desktop Assistant reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/dex-desktop-experience-reference.md)

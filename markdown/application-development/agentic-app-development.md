@@ -25,7 +25,7 @@ To learn more about agentic development, see the following resources:
 
 There are a range of agentic development tools on the ServiceNow AI Platform. Some agentic development tools are autonomous AI agents, such as Build Agent and Autonomous Engineer, which are integrated into ServiceNow Studio and the ServiceNow IDE. These autonomous AI agents can generate full-stack applications and workflows and execute implementation plans independently. Other agentic development tools provide specific, contextual assistance and are embedded within existing products, such as the flow and playbook generation skills in Workflow Studio.
 
-Many agentic development tools share the same underlying AI capabilities, so you can move between tools as your work changes, without needing a new file type, approach, or entitlement. The following table lists the agentic app development tools on the ServiceNow AI Platform.
+Many agentic development tools share the same underlying AI capabilities. Thus, you can move between tools as your work changes, without needing a new file type, approach, or entitlement. The following table lists the agentic app development tools on the ServiceNow AI Platform.
 
 |Application|Description|
 |-----------|-----------|

@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [ServiceNow Otto for Setup, Get started, ServiceNow AI Platform]
 ---
 
 # Explore ServiceNow Otto for Setup
@@ -21,12 +21,6 @@ ServiceNow Otto for Setup offers a guided approach for installing, configuring, 
 This application is available to all users with Foundation SKUs for ITSM, CBS, ITOM, Employee Slate and ESM, and Pro+ SKUs for Simplified ITSM, ITOM and HRSD.
 
 **Note:** ServiceNow Otto for Setup supports tiered SKUs \(Advanced and Prime\) for ITOM, Simplified IT Service Management, HAM and CBS, including entitlement-driven flows and experiences.
-
-Installing ServiceNow Otto for Setup is the first step to experience automatic product installations and implementation of default configurations on your ServiceNow instance.
-
-**Note:** You can install the ServiceNow Otto for Setup application either directly from the [ServiceNow store](https://store.servicenow.com/store/app/9d063fc34704cf10f43984f8736d43b5) or from the prompt on the Admin Home page.
-
-\[Omitted image "ia-pre-install.png"\] Alt text: Image showing the button for installation of ServiceNow Otto for Setup store app
 
 Zero touch install automatically installs ServiceNow Otto for Setup along with selected applications and plugins for net new ServiceNow customers in supported non‑production instances, displays installation status, and enables users to begin configuration without manual setup. A contextual banner appears during initial onboarding to help you get started and you can dismiss it when you no longer need it.
 

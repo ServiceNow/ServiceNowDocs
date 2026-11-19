@@ -72,3 +72,5 @@ The Oracle EBS system appears in the ERP systems list and is available when you 
 
 Add a WADL service to generate model entities and fields automatically from the service definition. For more information, see [WADL service support for Oracle E-Business Suite in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-wadl-support.md) and [Add a WADL service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.md).
 
+**Parent Topic:**[Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md)
+

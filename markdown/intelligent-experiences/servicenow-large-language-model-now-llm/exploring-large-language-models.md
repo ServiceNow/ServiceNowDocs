@@ -105,13 +105,13 @@ Claude 3.7 Sonnet
 
 ## Large language model selection
 
-This selection is supported at various levels such as, skill, skill group and instance levels. However, the controls that define LLMs mapping to different skills, allowed at various global locations, are configured and approved in AI Control Tower by the AI steward. The model provider options for custom skills created in Now Assist skill kit and AI Agent Studio are also configured in AI Control Tower. See [Configure third-party LLMs using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.md) to learn more.
+This selection is supported at various levels such as, skill, skill group and instance levels. However, the controls that define LLMs mapping to different skills, allowed at various global locations, are configured and approved in Control Tower by the AI steward. The model provider options for custom skills created in Now Assist skill kit and AI Agent Studio are also configured in Control Tower. See [Configure third-party LLMs using Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.md) to learn more.
 
 The **Manage large language models** feature enables the admin persona to perform additional actions like:
 
 -   Edit the model provider at the instance, skill group and skill levels
 -   Deactivate active skills which are non-compliant with fallback as **No**. See [Configuring AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-ai-model-providers.md) to learn more.
--   View audit history on policy updates by AI steward in AI Control Tower
+-   View audit history on policy updates by AI steward in Control Tower
 -   Select allowed model providers across domain separated instances.
 
 See [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-large-language-models.md) to learn about managing.

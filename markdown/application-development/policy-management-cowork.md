@@ -25,7 +25,7 @@ The following properties make policy a governance mechanism rather than guidance
 
     Policies live in ServiceNow tables on your instance, not in local configuration that a user can edit.
 
-    You can author policies in Arc tables or in AI Control Tower, on the **Arc policies** tab under **Govern** &gt; **Policies**. For more information, see [Manage Arc agent policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-arc-policies-aict.md).
+    You can author policies in Arc tables or in Control Tower, on the **Arc policies** tab under **Govern** &gt; **Policies**. For more information, see [Manage Arc agent policies in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-arc-policies-aict.md).
 
 -   **Enforcement in code**
 

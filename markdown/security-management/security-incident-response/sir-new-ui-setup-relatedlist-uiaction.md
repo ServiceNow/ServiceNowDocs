@@ -1,5 +1,5 @@
 ---
-title: Related List UI Actions
+title: Legacy: Related List UI Actions
 description: You can add new UI actions to the related lists that appear in the Security Analyst Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/sir-new-ui-setup-relatedlist-uiaction.html
@@ -9,16 +9,20 @@ classification: security-incident-response
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Related List configuration, Additional Security Analyst Workspace configuration, Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Legacy: Related List configuration, Legacy: Additional Security Analyst Workspace configuration, Legacy: Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Related List UI Actions
+# Legacy: Related List UI Actions
 
 You can add new UI actions to the related lists that appear in the Security Analyst Workspace.
 
+**Important:**
+
+The Security Incident Response UI \[sn\_app\_secops\_ui\] is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-workspace-landing-page.md) instead.
+
 **Prerequisites:**
 
-Before you configure any UI actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace. See [Enable UI Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-new-ui-setup-enable-uiaction.md) for details.
+Before you configure any UI actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace. See [Legacy: Enable UI Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-new-ui-setup-enable-uiaction.md) for details.
 
 To add a new Related List UI action, follow these steps:
 
@@ -52,7 +56,7 @@ Type
 
 Select the type of action. This can be:-   Dialog based action: This type of action is used when user interaction or inputs are required to execute specific business logic.
 -   Server side action: This action executes the required business logic without any additional user input.
- **Note:** Before you configure any UI actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace. See [Enable UI Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-new-ui-setup-enable-uiaction.md) for details.
+ **Note:** Before you configure any UI actions, you must perform certain steps to enable them so that they are available for configuration in the Security Analyst Workspace. See [Legacy: Enable UI Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-new-ui-setup-enable-uiaction.md) for details.
 
 </td></tr><tr><td>
 

@@ -1,6 +1,6 @@
 ---
 title: Lux architecture
-description: Lux renders UI as a separate service in front of a ServiceNow instance. It builds pages, sends HTML to the browser, and calls back for data.
+description: Lux renders the UI as a separate service in front of a ServiceNow instance. It builds pages, sends HTML to the browser, and calls back for data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/lux-architecture.html
 release: brazil
@@ -13,17 +13,17 @@ breadcrumb: [Exploring Lux, Lux Development, Building pro-code applications, Dev
 
 # Lux architecture
 
-Lux renders UI as a separate service in front of a ServiceNow instance. It builds pages, sends HTML to the browser, and calls back for data.
+Lux renders the UI as a separate service in front of a ServiceNow instance. It builds pages, sends HTML to the browser, and calls back for data.
 
 This architectural split shapes everything else about how a Lux app behaves.
 
 ## Request pipeline
 
-A request to a Lux app passes through four layers before a response reaches the browser. Each layer has one job: routing, version selection, rendering, and data fetching.
+A request to a Lux app passes through 4 layers before a response reaches the browser. Each layer has one job: routing, version selection, rendering, and data fetching.
 
 -   **HTTP proxy, port 80**
 
-    Entry point for every request, and a plain Node.js HTTP server. It matches the incoming URL against the `/aiux` gateway basename, strips the prefix, injects authentication and forwarding headers, and then forwards the request to the version router. Anything that doesn't start with `/aiux` is proxied straight through to the ServiceNow instance, so Lux intercepts only its own traffic.
+    Entry point for every request, and a plain Node.js HTTP server. It matches the incoming URL against the `/aiux` gateway basename, strips the prefix, injects authentication and forwarding headers, and then forwards the request to the version router. Anything that doesn't start with `/aiux` is proxied straight through to the ServiceNow instance, so Lux only intercepts its own traffic.
 
 -   **Version router, port 3000**
 
@@ -43,7 +43,7 @@ A request to a Lux app passes through four layers before a response reaches the 
 
     Running loaders concurrently instead of sequentially is a deliberate performance choice. A page pulling from several different ServiceNow APIs fires all of those calls at once instead of waiting on each in turn. The results are serialized into the HTML, so the browser doesn't re-fetch them on first paint.
 
-    Loaders don't get the raw request to do this, though. They receive a filtered, loader-safe context exposing only what they need.
+    However, loaders don't get the raw request to do this. They receive a filtered, loader-safe context exposing only what they need.
 
 
 ## How Lux renders pages
@@ -52,21 +52,21 @@ Lux builds pages on the server first, then adds browser behavior second.
 
 When a user opens a Lux app, the framework does the following:
 
-1.  It runs your data-fetching code on the server.
-2.  It builds the UI as an HTML string.
-3.  It streams the HTML to the browser.
+1.  Runs your data-fetching code on the server.
+2.  Builds the UI as an HTML string.
+3.  Streams the HTML to the browser.
 
 The user sees the full content immediately. No blank screen or loading spinner shows while JavaScript downloads.
 
-After the HTML arrives, the browser downloads the JavaScript bundles. Then the JavaScript makes the page interactive. It adds event listeners and reactive behavior to the page elements that already exist. It does not build these elements again.
+After the HTML arrives, the browser downloads the JavaScript bundles. Then, the JavaScript makes the page interactive. It adds event listeners and reactive behavior to the page elements that already exist. It doesn't build these elements again.
 
-After this step, the page works like a single-page app. The browser does later navigation on the client. It does not reload the full page.
+After this step, the page works like a single-page app. The browser does later navigation on the client. It doesn't reload the full page.
 
 This method gives these measurable benefits:
 
--   Content appears fast. The browser does not wait for JavaScript to show content.
+-   Content appears fast. The browser doesn't wait for JavaScript to show content.
 -   The first HTML contains real content, not an empty shell. This helps search engines and assistive technology.
--   Data fetching happens on the server, close to the ServiceNow instance. The browser does not make extra round trips.
+-   Data fetching happens on the server, close to the ServiceNow instance. The browser doesn't make extra round trips.
 
 An experience can declare resource hints in `aiux.json`, under `experienceProperties.resourceHints`. The hints apply to every page of the experience. Lux resolves the hints before it builds the head HTML of the response.
 
@@ -76,7 +76,7 @@ For more about this contract, and for where side effects are allowed, refer to [
 
 ## Built on Lit widgets
 
-All UI in Lux is built with Lit, which provides web components with Shadow DOM. You don't extend Lit's base class directly. You extend a Lux base class that layers SSR support, styling, and data fetching on top of Lit.
+All UIs in Lux are built with Lit, which provides web components with Shadow DOM. You don't extend Lit's base class directly. You extend a Lux base class that layers SSR support, styling, and data fetching on top of Lit.
 
 **Warning:**
 
@@ -84,7 +84,7 @@ Two copies of Lit break hydration. Lit is externalized into a single `lit-core` 
 
 ## Lux building blocks
 
-A handful of concepts recur throughout a Lux app. The following table names each one.
+A handful of concepts recur throughout a Lux app. The following table describes each one.
 
 |Concept|What it is|
 |-------|----------|
@@ -104,7 +104,7 @@ Beyond the request pipeline, the framework groups into a handful of subsystems. 
 |Subsystem|Responsibility|
 |---------|--------------|
 |Rendering and SSR|`@lit-labs/ssr` rendering, hydration, streaming, and the isolate pool that runs untrusted widget code.|
-|Routing and navigation|File-based route resolution, the client-side router, prefetch and hover-prefetch, navigation guards.|
+|Routing and navigation|File-based route resolution, the client-side router, prefetch and hover-prefetch, and navigation guards.|
 |Data and state|Loaders, the Context API, batch fetch, caching, and dirty-state tracking.|
 |Local development|The dev proxy, the widget dev server, hot reload, and the command-line interface \(CLI\).|
 |Build and bundling|Rollup and SWC pipelines that emit separate SSR and browser builds, with Lit externalized into a single `lit-core` bundle.|
@@ -117,7 +117,7 @@ The pipeline you develop against locally is the same pipeline that runs in produ
 
 In production, that pipeline is a cloud deployment sitting in front of many ServiceNow instances rather than something deployed per instance. When someone navigates to `/aiux/*` on their ServiceNow instance, the request is proxied to the Lux deployment. The deployment identifies the tenant from the hostname, runs loaders against that tenant's instance APIs with the user's session, and streams the HTML back.
 
-This shared deployment model has a consequence worth knowing at the architecture level. Because one deployment serves many tenants at once, it has to stay compatible with every ServiceNow version still in use, not just the newest one.
+This shared deployment model has a consequence worth knowing at the architecture level. Because one deployment serves many tenants at once, it has to stay compatible with every ServiceNow version still in use, not just the current one.
 
 For how the files behind these concepts are laid out in a project \(`aiux.json`, `pages/`, the layout, widgets\), see [Project structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/project-structure.md).
 

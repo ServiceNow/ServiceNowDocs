@@ -1,6 +1,6 @@
 ---
 title: Configure global metrics for ServiceNow AI systems
-description: Choose which metrics to evaluate for ServiceNow AI systems and optionally adjust the shared sample rate.
+description: Choose which metrics Super Intelligence Control Tower evaluates for ServiceNow AI systems and optionally adjust the shared sample rate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-configure-global-metrics-servicenow.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure evaluation scoring for ServiceNow AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure evaluation scoring for ServiceNow AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure global metrics for ServiceNow AI systems
 
-Choose which metrics to evaluate for ServiceNow AI systems and optionally adjust the shared sample rate.
+Choose which metrics Super Intelligence Control Tower evaluates for ServiceNow AI systems and optionally adjust the shared sample rate.
 
 ## Before you begin
 
@@ -21,11 +21,11 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 
-After activating evaluation for ServiceNow AI systems, configure the global metrics that AI Control Tower evaluates for every ServiceNow AI system by default and how often they run.
+After activating evaluation for ServiceNow AI systems, configure the global metrics that Control Tower evaluates for every ServiceNow AI system by default and how often they run.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Evaluation**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Rules and templates** &gt; **Evaluation**.
 
 2.  On the **AI evaluations** sub-tab, select **ServiceNow AI systems**.
 
@@ -47,15 +47,15 @@ After activating evaluation for ServiceNow AI systems, configure the global metr
 
     **Important:** Adding more metrics increases the visibility you gain into each session, but also increases assist usage to evaluate it. Select the metrics that give you the insight you need.
 
-<table id="choicetable_add_remove_metrics_sn"><thead><tr><th align="left" id="d272721e180">
+<table id="choicetable_add_remove_metrics_sn"><thead><tr><th align="left" id="d273673e185">
 
 Option
 
-</th><th align="left" id="d272721e183">
+</th><th align="left" id="d273673e188">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d272721e189">
+</th></tr></thead><tbody><tr><td id="d273673e194">
 
 **Add metrics**
 
@@ -67,7 +67,7 @@ Description
 4.  Select **Done**.
 
 
-</td></tr><tr><td id="d272721e219">
+</td></tr><tr><td id="d273673e224">
 
 **Remove metrics**
 

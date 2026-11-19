@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-ques-for-false-positive-or-request-exp.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
-reading_time_minutes: 1
+last_updated: "2026-11-19"
+reading_time_minutes: 2
 breadcrumb: [Questionnaire support in Exception Management via Smart Assessment, Exception Management Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
 

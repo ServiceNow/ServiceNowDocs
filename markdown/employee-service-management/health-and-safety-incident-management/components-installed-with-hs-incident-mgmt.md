@@ -7,7 +7,7 @@ release: brazil
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-11"
 reading_time_minutes: 3
 breadcrumb: [Reference, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -165,12 +165,7 @@ Line manager or supervisor who can:-   View Health and Safety operations landing
 
 </td><td>
 
--   sn\_ohs\_im.requestor
--   sn\_wsd\_core.location\_reader
--   workspace\_user
--   canvas\_user
-
- -   sn\_ohs\_im.incident\_writer\_restricted
+-   sn\_ohs\_im.incident\_writer\_restricted
 -   workspace\_user
 -   sn\_ohs\_im.report\_mapping\_reader
 -   sn\_wsd\_core.location\_reader

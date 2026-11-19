@@ -7,8 +7,8 @@ release: brazil
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-11-06"
-reading_time_minutes: 10
+last_updated: "2026-11-19"
+reading_time_minutes: 11
 keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 breadcrumb: [Reference, Change Management, IT Service Management]
 ---

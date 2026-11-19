@@ -7,10 +7,10 @@ release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Hybrid search in AI Search
@@ -37,6 +37,8 @@ Hybrid search is automatically activated for all search application configuratio
 -   All External Content Connectors indexed sources \[connector-specific tables\]
 
 You can manually configure additional indexed sources to be included in the semantic index, extending hybrid search to those sources as well. For details on this procedure, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/configure-semantic-indexing-ais.md).
+
+The **Document Match Threshold** setting in the Semantic Search Configuration \[ais\_semantic\_search\_configuration\] record controls how closely documents must match a query's meaning. At `0`, hybrid search treats a large share of indexed documents as matches. Raise the value above `0` and test queries in Review and validate to reduce low-relevance results.
 
 In portal search, hybrid search queries the default semantic field names, **title** and **body**. These default field names are specified by the value of the **glide.ais.query.default\_hybrid\_semantic\_fields** system property. If your indexed source's semantic configuration uses non-default semantic field names, you can set the value of the **glide.ais.query.use\_default\_hybrid\_semantic\_fields** system property to **false**. With this value set, hybrid search resolves each indexed source's own semantic field mappings instead of using the default field names.
 
@@ -71,7 +73,7 @@ If you upgrade to ServiceNow Otto for AI Search from a previous version, hybrid 
 
 Activating hybrid search in a search application configuration disables search result counts for facets in that search application configuration. For more information on search result counts for facets, see [Show search result counts for facets on the results page for a search application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/display-result-counts-ais.md).
 
-When you activate hybrid search in a search application configuration, the behavior of the **Most recent** search result sort option changes for the specified search application. Instead of sorting the entire list of search results by last modification date, AI Search first retrieves keyword search results and the most relevant semantic vector search results, then merges those results and sorts them by last modification date. To learn about sorting search results based on recency, see [Change the sort order for your search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/sort-search-results-ais.md).
+Activating hybrid search in a search application configuration changes how the **Most recent** sort option changes for the search application. Instead of sorting the entire list of search results by last modification date, AI Search retrieves keyword search results and the most relevant semantic vector search results, then merges those results and sorts them by last modification date. To learn about sorting search results based on recency, see [Change the sort order for your search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/sort-search-results-ais.md).
 
 **Parent Topic:**[Configuring ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/configuring-now-assist-ais.md)
 

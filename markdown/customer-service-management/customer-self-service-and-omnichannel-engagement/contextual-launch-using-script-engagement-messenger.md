@@ -28,7 +28,7 @@ Role required: ec\_admin and website administrator
 
 **Note:**
 
-If you’re using existing code, verify that you update the script to show the latest version. For example:
+If you’re using existing code, update the script to show the latest version. For example:
 
 ```
 <script src="https://example.service-now.com/scripts/sn_csm_ec.js?v=3.1"></script>

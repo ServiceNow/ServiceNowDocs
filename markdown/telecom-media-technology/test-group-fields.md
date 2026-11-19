@@ -80,7 +80,7 @@ Flow
 
 </td><td>
 
-Flow that an automated test group runs. For how to create a flow, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md).
+Flow that an automated test group runs. For how to create a flow, see .
 
 </td></tr><tr><td>
 

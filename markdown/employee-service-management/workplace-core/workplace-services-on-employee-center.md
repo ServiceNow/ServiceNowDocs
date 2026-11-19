@@ -50,8 +50,6 @@ The base taxonomy, Employee, is installed when you install the Employee Experien
 **Related topics**  
 
 
-[Workplace Service Portal]()
-
 [Virtual Agent for Workplace Service Delivery]()
 
 [Setting up Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/setup-emp-center.md)

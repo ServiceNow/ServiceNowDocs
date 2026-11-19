@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage store plans, Retail]
+breadcrumb: [Create and manage store plans, Retail]
 ---
 
 # Clone a store plan
@@ -45,5 +45,5 @@ The cloned store plan includes the store plan items.
 
 The system creates a copy of the selected Store plan and opens the cloned store plan in a new tab.
 
-**Parent Topic:**[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plans.md)
+**Parent Topic:**[Create and manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plans.md)
 

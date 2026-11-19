@@ -71,7 +71,7 @@ For more information, see [Access to cloud environments for ITOM products](https
 
 In the ServiceNow AI Platform side, there are user configurations needed if you choose to use Discovery.
 
--   You must configure the discovery\_admin role for a user, to be able to run the discovery. For more information, see [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ua-creating-roles.md)
+-   You must configure the discovery\_admin role for a user, to be able to run the discovery. For more information, see 
 -   Discovery runs commands and API queries to access and discover your AWS infrastructure. Before starting to configure Discovery roles and permissions, review the Cloud discovery spreadsheet and verify the REST API permissions.
 
 

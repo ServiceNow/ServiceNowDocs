@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-emrproviderdirectorysyncsync-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -242,7 +242,7 @@ Australia
 
 </td><td>
 
-Install EMR Provider Directory Sync by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install EMR Provider Directory Sync by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
  This application depends on the HL7 FHIR Spoke and on the Healthcare Operations and Healthcare and Life Sciences data-model applications. For the full list, see [Prerequisites for the FHIR integration](https://www.servicenow.com/docs/access?context=hco-fhir-prerequisites&family=australia&ft:locale=en-US).
 
@@ -434,7 +434,7 @@ Australia
 -   Track every sync run in a FHIR Sync Log, with per-resource status and record counts correlated by run.
 -   Classify imported organizations as internal or external business locations using an editable decision table.
 
- See [EMR Provider Directory Sync](https://www.servicenow.com/docs/access?context=hco-fhir-landing&family=australia&ft:locale=en-US) for more information.
+ See [EMR Provider Directory Sync](https://www.servicenow.com/docs/access?context=hco-emr-provider-directory-sync-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

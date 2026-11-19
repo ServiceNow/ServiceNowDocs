@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-d
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Managing data interfaces, Data Products, Workflow Data Fabric]
 ---
 

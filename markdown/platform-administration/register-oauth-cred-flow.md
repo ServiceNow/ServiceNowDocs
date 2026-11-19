@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Send email using client credential flow, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Send email using client credential flow, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Register an OAuth provider

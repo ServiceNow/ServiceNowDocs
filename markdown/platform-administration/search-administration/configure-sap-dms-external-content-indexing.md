@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 13
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [SAP DMS external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [SAP DMS external content connector, Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configure SAP DMS for external content indexing

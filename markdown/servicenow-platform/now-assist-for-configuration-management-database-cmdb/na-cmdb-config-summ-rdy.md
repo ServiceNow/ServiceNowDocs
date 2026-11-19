@@ -47,7 +47,7 @@ HAM
 
 </td><td>
 
-Set up the CMDB success advisor for Hardware Asset Management \(HAM\). See .
+Set up the CMDB success advisor for Hardware Asset Management \(HAM\). See [CMDB success advisor for HAM setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/cmdb-sa-ham-config-settings.md).
 
 </td></tr><tr><td>
 

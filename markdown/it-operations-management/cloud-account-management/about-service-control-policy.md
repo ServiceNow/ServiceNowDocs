@@ -60,3 +60,8 @@ Resources:
             Resource: '*'
 ```
 
+-   **[Set up suspension of an AWS account using service control policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/configure-suspension-policy.md)**  
+Set up a restriction on cloud account creation. For example, when the account owner isn’t in the organization or if there are budget constraints. Using Cloud Account Management, admin adds the account number to the AWS organization's service control policy, promoting existing accounts to continue to function normally while blocking new account creation.
+
+**Parent Topic:**[Setting up AWS cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/setting-up-aws-cloud.md)
+

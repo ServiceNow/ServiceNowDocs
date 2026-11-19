@@ -7,14 +7,14 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-30"
 reading_time_minutes: 2
-breadcrumb: [Manage store plans, Retail]
+breadcrumb: [Create and manage store plans, Retail]
 ---
 
 # Fulfill In-store operations cases and tasks on the Retail Portal
 
 Use the Retail Portal to review and complete In-store operations cases and tasks generated from store plans, including embedded questionnaires.
 
-Store managers and store associates often work on shared devices, back-office tablets, or handheld scanners where Workspace and Retail Mobile aren't available. On the Retail Portal, they can fulfill the Store Cases and Store Tasks generated from store plans without leaving the portal.
+Store managers and store associates often work on shared devices, back-office tablets, or handheld scanners where CRM Workspace and Retail Mobile aren't available. On the Retail Portal, they can fulfill the Store Cases and Store Tasks generated from store plans without leaving the portal.
 
 From a Store Case or Store Task, store staff can:
 
@@ -40,7 +40,7 @@ Complete individual work items tied to a Store Case, including a linked question
 -   **[Complete a questionnaire for a Store Task on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-complete-questionnaire-portal.md)**  
 Complete task-based questionnaires for HQ-to-store communication directly on the Retail Portal.
 
-**Parent Topic:**[Manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plans.md)
+**Parent Topic:**[Create and manage store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plans.md)
 
 **Related topics**  
 

@@ -66,15 +66,15 @@ The application enables you to perform the following actions as you would in the
 
 -   [Create records for your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/create-records-of-workplace-data-wsd.md).
 -   [Configuring spreadsheets to import workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/importing-workspace-data-wsd.md).
--   [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
+-   [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
 -   [Block a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/block-workplace-location.md).
 
 -   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/space-mgmt-overview.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/space-mgmt-overview.md)**  
 
 -   **[Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/space-optimization.md)**  
 As a space planner, you can use the Workplace Central to monitor all your scenarios and workplace-related information from a single page called Space Optimization.
--   **[Scenario Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/scenario-planning.md)**  
-Manage space allocations in your workplace in the most efficient way using the Space optimization scenario planning feature. Adjust your existing space allocations, floor arrangements, and employee seating plan by creating a scenario and deploying it.
+-   **[Scenario planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/scenario-planning.md)**  
+Create what-if scenarios to test space allocations, floor arrangements, and department stacking, and deploy the best plan from Workplace Central.
 -   **[Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/schedule-planning.md)**  
 Manage space assignments to help employees head back to the office.
 

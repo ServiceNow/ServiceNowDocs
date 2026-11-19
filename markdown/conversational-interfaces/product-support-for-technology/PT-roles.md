@@ -1,6 +1,6 @@
 ---
 title: Proactive Triggers roles
-description: Proactive Triggers adds the Proactive Triggers admin role.Users who create proactive rules and have access to related tables and related records.
+description: Proactive Triggers adds the Proactive Triggers admin role.The proactive\_admin role enables users to create proactive rules and access related tables and records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/product-support-for-technology/PT-roles.html
 release: brazil
@@ -9,7 +9,7 @@ classification: product-support-for-technology
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Components installed with the Proactive Triggers feature, Proactive Triggers reference, Proactive Triggers, Manage people and work, Conversational Interfaces]
+breadcrumb: [Installed components, Reference, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---
 
 # Proactive Triggers roles
@@ -48,7 +48,7 @@ Considerations
 
 Proactive Triggers admin
 
- \[sn-pt.proactive\_admin\]
+ \[sn\_pt.proactive\_admin\]
 
 </td><td>
 
@@ -56,7 +56,7 @@ Users who create proactive rules and have access to related tables and related r
 
 </td><td>
 
--   User Criteria Administrator \[user\_critera\_admin\]
+-   User Criteria Administrator \[user\_criteria\_admin\]
 -   Service Portal administrator \[sp\_admin\]
 
 </td><td>
@@ -69,26 +69,26 @@ No
 
 </td><td>
 
-Users assigned this role can access any related tables and records including potentially protected information, as well as proactive rules.
+Users assigned this role can access proactive rules and any related tables and records, including potentially protected information.
 
 </td></tr></tbody>
 </table>**Note:**
 
-Simplify user administration by creating groups that contain all the roles necessary for specific personas rather than to individual users. You can then assign individual users to those groups. When users transition to new roles, you can then re-assign their group memberships, and avoid scenarios where users retain unexpected roles.
+Simplify user administration by creating groups that contain all the roles necessary for specific personas rather than assigning roles to individual users. You can then assign individual users to those groups. When users transition to new roles, you can then reassign their group memberships, and avoid scenarios where users retain unexpected roles.
 
 For details on the administration of users, groups, and roles, see [User Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_UserAdministration.md).
 
 **Parent Topic:**[Components installed with the Proactive Triggers feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/product-support-for-technology/components-installed-with-proactive-triggers.md)
 
-## Proactive Triggers admin \[sn-pt.proactive\_admin\]
+## Proactive Triggers admin \[sn\_pt.proactive\_admin\]
 
-Users who create proactive rules and have access to related tables and related records.
+The proactive\_admin role enables users to create proactive rules and access related tables and records.
 
-### Contains Roles
+### Contains roles
 
 List of roles contained within the role.
 
--   User Criteria Administrator \[user\_critera\_admin\]
+-   User Criteria Administrator \[user\_criteria\_admin\]
 -   Service Portal administrator \[sp\_admin\]
 
 ### Groups

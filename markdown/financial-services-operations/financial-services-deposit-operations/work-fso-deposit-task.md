@@ -50,15 +50,15 @@ If assignment rules are configured, the task is automatically assigned to a depo
 
 3.  Open the task from the case playbook or the deposit task list.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d84421e149">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d84411e151">
 
 Option
 
-</th><th align="left" id="d84421e152">
+</th><th align="left" id="d84411e154">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d84421e158">
+</th></tr></thead><tbody><tr><td id="d84411e160">
 
 **From the case playbook**
 
@@ -70,7 +70,7 @@ Steps
 4.  Under the playbook stages, select the task activity to work on.
 
 
-</td></tr><tr><td id="d84421e191">
+</td></tr><tr><td id="d84411e193">
 
 **From the Deposit task list**
 
@@ -91,15 +91,15 @@ Steps
 
 7.  Close the deposit task.
 
-<table id="choicetable_jcl_dyr_hsb"><thead><tr><th align="left" id="d84421e263">
+<table id="choicetable_jcl_dyr_hsb"><thead><tr><th align="left" id="d84411e265">
 
 Deposit task
 
-</th><th align="left" id="d84421e266">
+</th><th align="left" id="d84411e268">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d84421e272">
+</th></tr></thead><tbody><tr><td id="d84411e274">
 
 **To verify operating instructions for a standing order**
 
@@ -107,7 +107,7 @@ Action
 
 Click **Approve** to approve or **Reject** to reject the request.
 
-</td></tr><tr><td id="d84421e287">
+</td></tr><tr><td id="d84411e289">
 
 **To authorize a deposit request**
 
@@ -115,7 +115,7 @@ Click **Approve** to approve or **Reject** to reject the request.
 
 Click **Approve** to approve or **Reject** to reject the request.**Note:** You can't authorize a deposit task if its parent deposit case is assigned to you.
 
-</td></tr><tr><td id="d84421e305">
+</td></tr><tr><td id="d84411e307">
 
 **-   To update a deposit account to fulfill and close the request
 -   To create and activate account for account origination

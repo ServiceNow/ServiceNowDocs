@@ -1,6 +1,6 @@
 ---
 title: Migrate to legacy change risk assessments
-description: Users can migrate legacy change risk assessments to versions compatible with the new Change Risk Assessment table schema and logic.
+description: Migrate legacy change risk assessments to versions compatible with the new Change Risk Assessment table schema and logic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/legacy-change-risk-assessment-migration.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Analyze change request risk and impact, Reference, Change Managemen
 
 # Migrate to legacy change risk assessments
 
-Users can migrate legacy change risk assessments to versions compatible with the new Change Risk Assessment table schema and logic.
+Migrate legacy change risk assessments to versions compatible with the new Change Risk Assessment table schema and logic.
 
 ## Before you begin
 

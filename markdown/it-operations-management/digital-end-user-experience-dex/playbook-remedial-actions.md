@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [remedial action playbook, playbooks panel, incident investigation, remedial action status, cancel remedial action, action library, suggested resolutions, past remedial actions]
 breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage employee experience, Digital End-User Experience, IT Operations Management]
 ---
 

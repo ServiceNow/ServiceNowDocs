@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-datacatalog-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
-reading_time_minutes: 12
+last_updated: "2026-11-19"
+reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
 
@@ -115,7 +115,24 @@ Australia
 
 </td><td>
 
--   **[Metadata enrichment with ServiceNow Otto](https://www.servicenow.com/docs/access?context=ai-metadata-enrichment-overview-dc&family=australia&ft:locale=en-US)**
+-   **[SQL Server Reporting Services \(SSRS\) metadata collector](https://www.servicenow.com/docs/access?context=sql-server-reporting-services-collector&family=australia&ft:locale=en-US)**
+
+Collect and catalog metadata from your SSRS environment. The collector harvests datasets, data sources, folders, KPIs, reports, and linked reports, including lineage between datasets, data sources, and reports.
+
+-   **[Databricks Unity Catalog metric views](https://www.servicenow.com/docs/access?context=databricks-metadata-collector&family=australia&ft:locale=en-US)**
+
+The Databricks collector harvests Unity Catalog metric views, including dimensions, measures, YAML definition, source table, filter, and materialization status. Lineage from a metric view to its source table is available even if the metric view has never been queried.
+
+-   **[Salesforce OAuth authorization code flow](https://www.servicenow.com/docs/access?context=salesforce-metadata-collector&family=australia&ft:locale=en-US)**
+
+The Salesforce collector supports OAuth authorization code flow using a refresh token, alongside the existing username and password and OAuth client ID and secret options. This aligns the collector with Salesforce External Client App requirements.
+
+-   **[Download lineage nodes and edges as CSV](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=australia&ft:locale=en-US)**
+
+Download the nodes, edges, or both from your current lineage view to a CSV file to analyze dependencies in other tools.
+
+
+ -   **[Metadata enrichment with ServiceNow Otto](https://www.servicenow.com/docs/access?context=ai-metadata-enrichment-overview-dc&family=australia&ft:locale=en-US)**
 
 Accelerate catalog curation using AI-powered enrichment. Enrich asset names and descriptions across multiple assets in a single request, review AI-generated recommendations, and publish richer metadata to your catalog with less manual effort.
 
@@ -123,7 +140,7 @@ Accelerate catalog curation using AI-powered enrichment. Enrich asset names and 
 
 A new "Has lineage" search facet shows how much of your catalog has lineage and which assets have a lineage view in Graph Explorer. Download your current lineage view to CSV to analyze and use the data in other tools.
 
--   **[\[Placeholder link text to key microsoft-fabric-metadata-collector\]](https://www.servicenow.com/docs/access?context=microsoft-fabric-metadata-collector&family=australia&ft:locale=en-US)**
+-   **[microsoft fabric metadata collector](https://www.servicenow.com/docs/access?context=microsoft-fabric-metadata-collector&family=australia&ft:locale=en-US)**
 
 Automatically collect and synchronize metadata from Microsoft Fabric using metadata collectors.
 
@@ -193,11 +210,11 @@ Automatically collect and synchronize metadata from external data platforms usin
 Organize and classify data assets using tags and domains to reflect your organization's structure and governance policies. Apply tags to individual assets or in bulk. Group assets into domains to control visibility and delegate stewardship to responsible teams.
 
 
- -   **[\[Placeholder link text to key amazon-s3-metadata-collector\]](https://www.servicenow.com/docs/access?context=amazon-s3-metadata-collector&family=australia&ft:locale=en-US)**
+ -   **[amazon s3 metadata collector](https://www.servicenow.com/docs/access?context=amazon-s3-metadata-collector&family=australia&ft:locale=en-US)**
 
 Automatically collect and synchronize metadata from Amazon S3 using metadata collectors.
 
--   **[\[Placeholder link text to key teradata-metadata-collector\]](https://www.servicenow.com/docs/access?context=teradata-metadata-collector&family=australia&ft:locale=en-US)**
+-   **[teradata metadata collector](https://www.servicenow.com/docs/access?context=teradata-metadata-collector&family=australia&ft:locale=en-US)**
 
 Automatically collect and synchronize metadata from Teradata using metadata collectors.
 
@@ -232,7 +249,28 @@ Brazil
 
 </td><td>
 
--   **[Metadata enrichment with ServiceNow Otto](https://www.servicenow.com/docs/access?context=ai-metadata-enrichment-overview-dc&family=brazil&ft:locale=en-US)**
+-   **[Data Catalog Analytics dashboards](https://www.servicenow.com/docs/access?context=data-catalog-analytics-overview-dc&family=brazil&ft:locale=en-US)**
+
+Track catalog adoption and collector health from dashboards inside Workflow Data Fabric. The Adoption overview tab shows how many users have access to Data Catalog, how many are active, and how activity changes over time. The Collector health tab shows how many collector runs succeeded or failed, which collectors are active, and which collectors have not run recently.
+
+-   **[SQL Server Reporting Services \(SSRS\) metadata collector](https://www.servicenow.com/docs/access?context=sql-server-reporting-services-collector&family=brazil&ft:locale=en-US)**
+
+Collect and catalog metadata from your SSRS environment. The collector harvests datasets, data sources, folders, KPIs, reports, and linked reports, including lineage between datasets, data sources, and reports.
+
+-   **[Databricks Unity Catalog metric views](https://www.servicenow.com/docs/access?context=databricks-metadata-collector&family=brazil&ft:locale=en-US)**
+
+The Databricks collector harvests Unity Catalog metric views, including dimensions, measures, YAML definition, source table, filter, and materialization status. Lineage from a metric view to its source table is available even if the metric view has never been queried.
+
+-   **[Salesforce OAuth authorization code flow](https://www.servicenow.com/docs/access?context=salesforce-metadata-collector&family=brazil&ft:locale=en-US)**
+
+The Salesforce collector supports OAuth authorization code flow using a refresh token, alongside the existing username and password and OAuth client ID and secret options.
+
+-   **[Download lineage nodes and edges as CSV](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=brazil&ft:locale=en-US)**
+
+Download the nodes, edges, or both from your current lineage view to a CSV file to analyze dependencies in other tools.
+
+
+ -   **[Metadata enrichment with ServiceNow Otto](https://www.servicenow.com/docs/access?context=ai-metadata-enrichment-overview-dc&family=brazil&ft:locale=en-US)**
 
 Accelerate catalog curation using AI-powered enrichment. Enrich asset names and descriptions across multiple assets in a single request, review AI-generated recommendations, and publish richer metadata to your catalog with less manual effort.
 
@@ -240,7 +278,7 @@ Accelerate catalog curation using AI-powered enrichment. Enrich asset names and 
 
 A new "Has lineage" search facet shows how much of your catalog has lineage and which assets have a lineage view in Graph Explorer. Download your current lineage view to CSV to analyze and use the data in other tools.
 
--   **[\[Placeholder link text to key microsoft-fabric-metadata-collector\]](https://www.servicenow.com/docs/access?context=microsoft-fabric-metadata-collector&family=brazil&ft:locale=en-US)**
+-   **[microsoft fabric metadata collector](https://www.servicenow.com/docs/access?context=microsoft-fabric-metadata-collector&family=brazil&ft:locale=en-US)**
 
 Automatically collect and synchronize metadata from Microsoft Fabric using metadata collectors.
 
@@ -330,7 +368,16 @@ Australia
 
 </td><td>
 
--   **[Graph Explorer performance improvements](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=australia&ft:locale=en-US)**
+-   **[ServiceNow collector includes application short descriptions](https://www.servicenow.com/docs/access?context=servicenow-metadata-collector&family=australia&ft:locale=en-US)**
+
+The ServiceNow metadata collector harvests the short description field from system application assets. Catalog users get more context when browsing or searching for ServiceNow application metadata.
+
+-   **[Metadata Enrichment AI Agent display updates](https://www.servicenow.com/docs/access?context=ai-metadata-enrichment-overview-dc&family=australia&ft:locale=en-US)**
+
+Review enrichment suggestions with a more consistent interface. Labels, fonts, and formats are standardized, asset type is now visible in the enrichment view, and terminology uses "asset" consistently.
+
+
+ -   **[Graph Explorer performance improvements](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=australia&ft:locale=en-US)**
 
 Lineage views open faster by showing the nearest upstream and downstream connections first instead of waiting for the full diagram to load.
 
@@ -355,7 +402,16 @@ Brazil
 
 </td><td>
 
--   **[Graph Explorer performance improvements](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=brazil&ft:locale=en-US)**
+-   **[ServiceNow collector includes application short descriptions](https://www.servicenow.com/docs/access?context=servicenow-metadata-collector&family=brazil&ft:locale=en-US)**
+
+The ServiceNow metadata collector harvests the short description field from system application assets. Catalog users get more context when browsing or searching for ServiceNow application metadata.
+
+-   **[Metadata Enrichment AI Agent display updates](https://www.servicenow.com/docs/access?context=ai-metadata-enrichment-overview-dc&family=brazil&ft:locale=en-US)**
+
+Review enrichment suggestions with a more consistent interface. Labels, fonts, and formats are standardized, asset type is now visible in the enrichment view, and terminology uses "data asset" consistently.
+
+
+ -   **[Graph Explorer performance improvements](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=brazil&ft:locale=en-US)**
 
 Lineage views open faster by showing the nearest upstream and downstream connections first instead of waiting for the full diagram to load.
 
@@ -520,7 +576,7 @@ Australia
 
 -   **Activation information**
 
-Install Data Catalog by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Data Catalog by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Data Catalog is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -533,7 +589,7 @@ Brazil
 
 -   **Activation information**
 
-Install Data Catalog by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+Install Data Catalog by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr></tbody>
@@ -811,7 +867,7 @@ Brazil
 -   Collect and synchronize metadata from 14 or more external platforms using automated collectors.
 -   Organize assets with tags and domains to improve discoverability and governance.
 
- See [\[Placeholder link text to key explore-data-catalog\]](https://www.servicenow.com/docs/access?context=explore-data-catalog&family=brazil&ft:locale=en-US) for more information.
+ See [explore data catalog](https://www.servicenow.com/docs/access?context=explore-data-catalog&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

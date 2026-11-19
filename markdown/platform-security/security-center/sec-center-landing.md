@@ -16,15 +16,15 @@ breadcrumb: [Security Center, Platform Security]
 
 Use the Security Center landing page to find the information and tools you need to secure your instance.
 
-\[Omitted image "sec-center-home-1.png"\] Alt text: Security Center homepage
+\[Omitted image "sec-center-home-1.png"\] Alt text: Security Center home page
 
 ## My Security Tasks
 
-The my Security Tasks section displays a list of Security Tasks assigned to you. Open a task by selecting the number to review a tasks details, or select **View all** access the Security Tasks Manager, where all tasks are visible. For more information on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-task-manager.md).
+The My Security Tasks section displays a list of Security Tasks assigned to you. Open a task by selecting the number to review a tasks details, or select **View all** access the Security Tasks Manager, where all tasks are visible. For more information on Security Tasks, see [Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/security-task-manager.md).
 
 ## Instance summary
 
-The instance summary displays a high-level overview of the state of your instance's security. Select the info \(\[Omitted image "info-icon.png"\] Alt text: info icon\) icon on any card for details on what each represents. You can also select any card to navigate to the relevant area of Security Center.
+The instance summary displays a high-level overview of the state of your instance's security. Select the info \[Omitted image "info-icon.png"\] Alt text: icon on any card for details on what each represents. You can also select any card to navigate to the relevant area of Security Center.
 
 ## Access management
 
@@ -48,11 +48,11 @@ Use the tools section to navigate to the tools you need to manage your instance 
 
 ## Additional resources
 
-Use the additional resources section on the edge of screen to navigate to documentation and videos relevant to learning Security Center as well as information on managing instance security.
+Use the additional resources section on the edge of screen to navigate to documentation and videos relevant to learning Security Center and information on managing instance security.
 
-Security center has been updated in Zurich to provide guidance to understand what the tool can do how to use it. This redesign is tailored to assist both new and infrequent users of Security Center. New modal windows appear within security center to demonstrate how these tools can help you achieve your security goals.
+Security Center has been updated in Zurich to provide guidance to understand what the tool can do how to use it. This redesign is tailored to assist both new and infrequent users of Security Center. Modal windows appear within Security Center to demonstrate how these tools can help you achieve your security goals.
 
-\[Omitted image "new-modals.png"\] Alt text: New modal help windows in security center
+\[Omitted image "new-modals.png"\] Alt text: Modal help windows in Security Center
 
 **Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sec-center-v2.md)
 

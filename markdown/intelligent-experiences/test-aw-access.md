@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/test-aw-access.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 3
 breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -60,4 +60,6 @@ Access Analyzer identifies all the ACL calls made in the execution of the agenti
 If the results are different than what you expect or want, you can [redefine the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md) of the agentic workflow.
 
 You can also test an agentic workflow's performance with either a manual test or automated evaluations. See [Test performance manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-use-case.md) or [Evaluate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/execute-aia-eval.md).
+
+After testing and activating your agentic workflow, test access in the Virtual Agent or ServiceNow Otto channels you selected. If you don't see your agentic workflow, ensure that it is activated.
 

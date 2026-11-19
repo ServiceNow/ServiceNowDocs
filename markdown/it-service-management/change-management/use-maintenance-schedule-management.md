@@ -1,6 +1,6 @@
 ---
 title: Assign a maintenance schedule to configuration items
-description: You can review and determine the conflicts in a change schedule by assigning the maintenance schedules to configuration items \(CI\). After you assign a maintenance schedules to the CI, add the CI to the change request.
+description: Review and determine the conflicts in a change schedule by assigning the maintenance schedules to configuration items \(CI\). After you assign a maintenance schedules to the CI, add the CI to the change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/use-maintenance-schedule-management.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Create blackout and maintenance schedules in Change Management, Con
 
 # Assign a maintenance schedule to configuration items
 
-You can review and determine the conflicts in a change schedule by assigning the maintenance schedules to configuration items \(CI\). After you assign a maintenance schedules to the CI, add the CI to the change request.
+Review and determine the conflicts in a change schedule by assigning the maintenance schedules to configuration items \(CI\). After you assign a maintenance schedules to the CI, add the CI to the change request.
 
 ## Before you begin
 
@@ -22,7 +22,9 @@ Role required: itil
 
 ## About this task
 
-When the configuration item with an assigned maintenance schedule is used in the change request, the conflict detection determines the schedule change outside the maintenance window and displays a conflict error message.
+When a configuration item with an assigned maintenance schedule is used in a change request, conflict detection runs automatically.
+
+If the scheduled change falls outside the maintenance window, a conflict error message appears.
 
 ## Procedure
 

@@ -42,15 +42,15 @@ The Cloud cost summarizer generative AI skill generates comprehensive summary of
 
 5.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d108577e136">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d108486e138">
 
 Action
 
-</th><th align="left" id="d108577e139">
+</th><th align="left" id="d108486e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d108577e145">
+</th></tr></thead><tbody><tr><td id="d108486e147">
 
 **Copy to clipboard icon**
 
@@ -58,7 +58,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d108577e154">
+</td></tr><tr><td id="d108486e156">
 
 **Refresh icon**
 
@@ -66,7 +66,7 @@ Copies the summary to a clipboard.
 
 Regenerates the publisher summary.
 
-</td></tr><tr><td id="d108577e163">
+</td></tr><tr><td id="d108486e165">
 
 **Feedback**
 

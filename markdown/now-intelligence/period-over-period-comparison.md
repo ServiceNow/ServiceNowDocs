@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/period-over-period-comparison.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-02"
+last_updated: "2026-11-09"
 reading_time_minutes: 3
 keywords: [period over period, time series, indicator, compare periods]
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -36,8 +36,10 @@ Dashboard filters don't work with a time series that has period over period comp
 The **Compare period over period** setting is hidden, not turned off, in these cases. The visualization then shows a single timeline, and no message appears.
 
 -   The **Period** is Days.
--   The time aggregation unit is the same as the **Period** unit. For example, the time aggregation is By month and the **Period** is Months.
--   The indicator source or the indicator definition uses a business calendar. Standard and Gregorian calendars aren't business calendars.
+-   The indicator source or the indicator definition uses a business calendar.
+
+    **Note:** Gregorian calendars aren't business calendars.
+
 -   The indicator is a Data snapshots indicator with a business calendar defined in its trend settings.
 
 If you add a business calendar to the indicator source or definition, the visualization reverts to a single timeline on the next display.

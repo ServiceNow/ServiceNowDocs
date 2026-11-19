@@ -149,7 +149,7 @@ Each visualization also has a **configurations** property, containing only a **d
 
 The final configuration of the data resource looks like this:
 
-\[Omitted image "db-data-res-mult-viz-config.png"\] Alt text: Complete configuration of dashboard data broker.
+\[Omitted image "db-data-res-mult-viz-config.png"\] Alt text: Complete configuration of the data resource for multiple visualizations.
 
 Lastly, for each data visualization, you bind the following script to the data field. You use the arbitrary **visualizationId** value you gave each visualization as the `vizId` value in the script for that visualization.
 

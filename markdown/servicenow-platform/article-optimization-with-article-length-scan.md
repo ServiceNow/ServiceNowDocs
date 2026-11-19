@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Use Article Length Scan results under Article Optimization for articles to optimize your knowledge center articles.
+Use Article Length Scan results under Article Optimization for articles to optimize your knowledge center articles. Articles created in Markdown are not eligible for AO scans.
 
 The configuration and script for running the scan follow default settings.
 

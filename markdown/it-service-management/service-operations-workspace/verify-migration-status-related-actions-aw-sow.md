@@ -42,13 +42,13 @@ At the end of migration, a confirmation message indicates whether the migration 
 
         Duplicate related list actions might be displayed on the form when you don't migrate the view rule. So, SOW field declarative actions still show up even after migration if the view isn't changed.
 
-        If the migration is successfully completed and not visible in the UI or not working properly the cross-check the conditions in Advance view.
+        If the migration is successfully completed but the actions aren't visible in the UI or aren't working properly, cross-check the conditions in the Advanced view.
 
 2.  If the migration completes with import set errors, perform the following steps.
 
     1.  On the migration completion page in SOW Admin Center, select **View migration details**.
 
-    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text: System logs icon\) icon.
+    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text:\) icon.
 
     3.  Review the logs to determine which items failed during migration.
 

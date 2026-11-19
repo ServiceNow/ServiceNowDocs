@@ -29,3 +29,5 @@ The ACLs cover the tables that store WADL service catalog, endpoint, and schema 
 
 For the authentication methods supported across Oracle REST connections generally, see [Authentication methods for Oracle REST connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-rest-authentication-methods.md).
 
+**Parent Topic:**[Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md)
+

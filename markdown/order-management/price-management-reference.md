@@ -22,8 +22,6 @@ Several types of components are installed with activation of the Context Rule Ma
 System properties available with Pricing Management that enable you to control the precision applied to non-currency pricing values, tune how multiline pricing requests are processed, and set the level of detail captured for pricing engine troubleshooting.
 -   **[Pricing payload field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/r_pricing_payload_field_mapping.md)**  
 Pricing payload fields that ServiceNow Quote Experience sends to the pricing service, with the ServiceNow Quote Experience field each one maps to. Use this reference to check header, line item, and entity metadata values in the payload.
--   **[Pricing response field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/r_pricing_response_field_mapping.md)**  
-Pricing response fields that the pricing service returns to ServiceNow Quote Experience, with the ServiceNow Quote Experience field each one maps to. Use this reference to check header totals, line item prices, and settings in the response.
 
 **Parent Topic:**[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reference-cpq.md)
 

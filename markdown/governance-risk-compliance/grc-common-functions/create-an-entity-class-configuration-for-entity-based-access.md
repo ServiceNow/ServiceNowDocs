@@ -34,7 +34,11 @@ Role required: sn\_grc\_ent\_access.admin
 
     \[Omitted image "entity-class.png"\] Alt text: Entity class.
 
-4.  Activate the configuration by selecting **Activate**.
+4.  Select **Submit**.
+
+    This saves your entity class configuration but doesn't activate it.
+
+5.  To activate the configuration, open the saved configuration and select **Activate**.
 
     An entity class configuration is configured. You can now control the object access for the entities that are associated with that entity class.
 

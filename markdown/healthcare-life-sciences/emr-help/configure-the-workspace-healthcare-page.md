@@ -30,7 +30,7 @@ Set your scope to Healthcare and Life Sciences Service Management Core.
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-2.  In Experiences, open **CSM/FSM Configurable Workspace**.
+2.  In Experiences, open **CRM Workspace**.
 
 3.  In **Pages and Variants** &gt; **Record**, click on **Healthcare record page voltron**.
 

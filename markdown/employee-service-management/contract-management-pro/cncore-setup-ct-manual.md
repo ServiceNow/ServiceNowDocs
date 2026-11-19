@@ -1,20 +1,31 @@
 ---
 title: Create contract template by manually adding content controls
-description: Create contract templates by adding content controls manually.
+description: Create a contract template by adding content controls to a Word document by hand, in Word on Windows, and then uploading the document to the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-setup-ct-manual.html
 release: brazil
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-10-29"
+reading_time_minutes: 2
+keywords: [manual content controls, contract template, Windows]
 breadcrumb: [Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create contract template by manually adding content controls
 
-Create contract templates by adding content controls manually.
+Create a contract template by adding content controls to a Word document by hand, in Word on Windows, and then uploading the document to the platform.
+
+With this method, you add content controls to a Word document yourself, using the Developer tab, and then create the template in the platform by uploading the document. The manual method works only in Word on Windows.
+
+## Setup steps
+
+1.  Add content controls to the Word document, using the tag names for fields, clauses, signatories, and signatures. See [Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-word-doc-tmplt-contls.md).
+2.  Create the contract template in the platform, upload the document, and select **Parse Document**. See [Create a contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-create-contract-template.md).
+3.  Add participants who must sign. See [Create and configure participants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-add-participants.md).
+4.  Map the imported clauses. See [Classify and map imported clauses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-import-clauses.md).
+5.  Publish the template. See [Publish a contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-publish-template.md).
 
 -   **[Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-word-doc-tmplt-contls.md)**  
 As a contract configurator, prepare a Microsoft Word document that you want to import as a contract template by marking the content with content controls so it can be efficiently parsed and reused.
@@ -32,7 +43,7 @@ Update template mappings to pre-fill information that's placed in the contract d
 **Related topics**  
 
 
-[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts]()
+[Create contract template using Word add-in]()
 
 [Publish a contract template]()
 

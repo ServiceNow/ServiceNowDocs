@@ -34,7 +34,7 @@ Role required: admin
 
 2.  On the Microsoft Endpoint Configuration Manager, select **Administration**.
 
-3.  On the Administration section, click **Client Settings**.
+3.  On the Administration section, select **Client Settings**.
 
 4.  Double-click the **Default Client Settings** that is displayed on the right pane of the window.
 

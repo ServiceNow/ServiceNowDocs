@@ -30,17 +30,17 @@ The following procedure describes the steps for comparing user records using the
 
 3.  Select **user 1** and **user 2** for comparison.
 
-    For example, `ITIL User` as **user 1** and `Abel Tuter` as **user 2**.
+    For example, **ITIL User** as **user 1** and **Abel Tuter** as **user 2**.
 
     \[Omitted image "comparing-user-records.png"\] Alt text: Compare user records
 
 4.  Select **Compare user records**.
 
-    The results show in the Details, Roles, and Groups tabs:
+    The results show in the **Details**, **Roles**, and **Groups** tabs:
 
     -   **Details**: Displays the user's metadata.\[Omitted image "comparing-page.png"\] Alt text: Details page
-    -   **Roles**: Displays the roles that are assigned to the user. You can select the role to know more about the role and its entitlements. \[Omitted image "role-compare-user-records.png"\] Alt text: Roles
-    -   **Groups**: Displays the groups that are assigned to the user. You can select the group to know more about the group and its entitlements.\[Omitted image "group-compare-user-records.png"\] Alt text: Group
+    -   **Roles**: Displays the roles that are assigned to the user. You can select the role to learn more about the role and its entitlements. \[Omitted image "role-compare-user-records.png"\] Alt text: Roles
+    -   **Groups**: Displays the groups that are assigned to the user. You can select the group to learn more about the group and its entitlements.\[Omitted image "group-compare-user-records.png"\] Alt text: Group
     Similarly, you can compare different users in the ServiceNow instance to understand the access that's assigned to them.
 
 

@@ -1,19 +1,19 @@
 ---
-title: Exploring policies in AI Control Tower
-description: Learn how policies let you automatically respond to detected AI threats, block AI usage outright, or control what Arc can do on your users' devices, and where policies are enforced across AI Control Tower.
+title: Exploring policies
+description: Learn how policies let you automatically respond to detected AI threats, block AI usage outright, or control what Arc can do on your users' devices, and where policies are enforced across Super Intelligence Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-exploring.html
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, explore]
-breadcrumb: [Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Exploring policies in AI Control Tower
+# Exploring policies
 
-Learn how policies let you automatically respond to detected AI threats, block AI usage outright, or control what Arc can do on your users' devices, and where policies are enforced across AI Control Tower.
+Learn how policies let you automatically respond to detected AI threats, block AI usage outright, or control what Arc can do on your users' devices, and where policies are enforced across Super Intelligence Control Tower.
 
 ## Policies overview
 
@@ -76,7 +76,7 @@ For a complete list, see [Control enforcement points](https://raw.githubusercont
 
 ## Policies workflow
 
-This infographic shows a sample end-to-end workflow of the AI steward sets up policy enforcement points, creates policies, and reviews enforcement activity.
+This infographic shows a sample end-to-end workflow in which the AI steward sets up policy enforcement points, creates policies, and reviews enforcement activity.
 
 \[Omitted image "mmasset0022400-policies-workflow-ai-control-tower-vertical.svg"\] Alt text: Infographic showing policy enforcement configuration and actions taken by the AI steward. For details, refer to the following description.
 
@@ -94,16 +94,16 @@ In this workflow:
 |-------|-------|-----|
 |Respond automatically to a detected threat before it spreads further.|[Create a Threat Response policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-create-threat-response-policy.md)|AI steward|
 |Stop specific AI usage outright, without writing a flow.|[Create an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-create-explicit-block-policy.md)|AI steward|
-|Give specific groups different Arc behavior, without changing the default for everyone.|[Managing ServiceNow Arc policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-managing-arc-policies.md)|AI steward with the Arc admin role|
-|Confirm a policy is working as expected.|[Reviewing policy enforcement activities in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)|AI steward|
+|Give specific groups different Arc behavior, without changing the default for everyone.|[Managing ServiceNow Arc policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-managing-arc-policies.md)|AI steward with the Arc admin role|
+|Confirm a policy is working as expected.|[Reviewing policy enforcement activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)|AI steward|
 
 ## What to explore next
 
 To learn more about configuring and using Policies, see:
 
--   [Configuring policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-configuring.md)
--   [Managing policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-managing-policies.md)
--   [Managing ServiceNow Arc policies in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-managing-arc-policies.md)
--   [Reviewing policy enforcement activities in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)
--   [AI Control Tower policies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reference.md)
+-   [Configuring policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-configuring.md)
+-   [Managing policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-managing-policies.md)
+-   [Managing ServiceNow Arc policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-managing-arc-policies.md)
+-   [Reviewing policy enforcement activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md)
+-   [Policies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reference.md)
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Operational Sustainability Management]
 ---
 
 # Using Operational Sustainability Management \(formerly Environmental, Social, and Governance\)
@@ -32,5 +32,5 @@ To simulate different analyses, create an analysis context and define the metric
 -   **[ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/now-assist-for-esg.md)**  
 Use the ServiceNow Otto for Operational Sustainability application to empower your sustainability teams with Generative AI-powered capabilities to automate and streamline data collection, and confirm accurate, auditable reporting at enterprise scale.
 
-**Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)
+**Parent Topic:**[Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/esg-landing-page.md)
 

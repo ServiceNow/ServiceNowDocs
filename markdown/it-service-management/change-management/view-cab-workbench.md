@@ -1,6 +1,6 @@
 ---
 title: View the CAB calendar
-description: The CAB calendar provides an overview of your CAB meeting schedule to help with planning and managing CAB meetings.
+description: Use the CAB calendar to view and manage your CAB meeting schedule. The calendar provides an overview of upcoming meetings to support planning and coordination.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/view-cab-workbench.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Working with the CAB Workbench, Use, Change Management, IT Service 
 
 # View the CAB calendar
 
-The CAB calendar provides an overview of your CAB meeting schedule to help with planning and managing CAB meetings.
+Use the CAB calendar to view and manage your CAB meeting schedule. The calendar provides an overview of upcoming meetings to support planning and coordination.
 
 ## Before you begin
 
@@ -32,7 +32,7 @@ You can view the CAB calendar to view and attend specific meetings.
 
 2.  You can perform the following actions from the CAB calendar.
 
-<table id="choicetable_z5r_pbm_jx"><tbody><tr><td id="d231863e86">
+<table id="choicetable_z5r_pbm_jx"><tbody><tr><td id="d232555e88">
 
 **View the calendar**
 
@@ -40,7 +40,7 @@ You can view the CAB calendar to view and attend specific meetings.
 
 Select the options in the top right of the CAB calendar to display the calendar in daily, weekly, or monthly view.
 
-</td></tr><tr><td id="d231863e98">
+</td></tr><tr><td id="d232555e97">
 
 **View CAB meeting details at a glance**
 
@@ -48,7 +48,7 @@ Select the options in the top right of the CAB calendar to display the calendar 
 
 Select a specific CAB meeting to view details such as the CAB manager, meeting start time, and meeting end time.
 
-</td></tr><tr><td id="d231863e110">
+</td></tr><tr><td id="d232555e106">
 
 **Attend a specific CAB meeting**
 

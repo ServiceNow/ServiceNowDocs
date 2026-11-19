@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Policy exceptions, Managing tasks and approvals, Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Policy exceptions, Managing tasks and approvals, Address action items, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create a policy exception
@@ -25,7 +25,7 @@ A policy exception documents why an AI asset can't currently meet a control obje
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Activity Center** &gt; **Work** &gt; **Assigned to you**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Activity Center** &gt; **Work** &gt; **Assigned to you**.
 
 2.  Select the **Policy exceptions** sub-tab.
 

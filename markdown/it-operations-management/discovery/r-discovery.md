@@ -18,7 +18,7 @@ ServiceNow Discovery is an automated process that continuously scans and identif
 
 \[Omitted video\] Description: Discovery overviewDiscovery is available as a separate subscription from the rest of the ServiceNow AI Platform. See [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md) for details.
 
-Discovery supports database encryption and full-disk encryption. See [Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/db-full-disk-encryption.md) for details.
+Discovery supports database encryption and full-disk encryption. See  for details.
 
 ## Get started
 
@@ -64,7 +64,7 @@ Discovery supports database encryption and full-disk encryption. See [Database E
 
 **Integrate and develop**
 
- -   [Activate SCCM Asset Intelligence scheduled imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/activate-ai-scheduled-imports.md)
+ -   Activate SCCM Asset Intelligence scheduled imports
 -   [Discovery APIs on the ServiceNow® Developer Site](https://developer.servicenow.com)
 
 </td><td>

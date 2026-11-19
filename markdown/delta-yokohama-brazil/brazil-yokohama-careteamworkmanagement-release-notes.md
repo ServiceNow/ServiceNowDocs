@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-careteamworkmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -99,11 +99,11 @@ Australia
 
 </td><td>
 
--   **[\[Placeholder link text to key bundle-hcls.ctwm-create-care-team-work-plan\]](https://www.servicenow.com/docs/access?context=ctwm-create-care-team-work-plan&family=australia&ft:locale=en-US)**
+-   **[ctwm create care team work plan](https://www.servicenow.com/docs/access?context=ctwm-create-care-team-work-plan&family=australia&ft:locale=en-US)**
 
 Create single or multi‑unit task plans for care teams to support ad hoc or recurring tasks. Multi‑unit work plans can include orchestration cases and tasks, while single‑unit work plans use care team cases and tasks. This feature helps teams coordinate work more efficiently across units and within their own teams.
 
--   **[\[Placeholder link text to key bundle-hcls.ctwm-landing-page\]](https://www.servicenow.com/docs/access?context=ctwm-landing-page&family=australia&ft:locale=en-US)**
+-   **[ctwm landing page](https://www.servicenow.com/docs/access?context=ctwm-landing-page&family=australia&ft:locale=en-US)**
 
 Use the unified Care Team Work Management landing page to view and manage care team cases and care team tasks all in one place. This provides a streamlined and consistent experience across work activities for care team agents.
 
@@ -292,7 +292,7 @@ Australia
 
 -   **Activation information**
 
-Install Care Team Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Care Team Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Care Team Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

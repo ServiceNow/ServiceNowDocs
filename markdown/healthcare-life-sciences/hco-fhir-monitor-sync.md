@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-fhir-monitor-sync.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 1
 keywords: [monitor, sync log, troubleshoot, correlation id]
 breadcrumb: [Run the initial load, EMR Provider Directory Sync, Healthcare Integrations, Healthcare and Life Sciences]
@@ -17,7 +17,7 @@ Review the FHIR Sync Log to confirm that sync runs complete and see how many rec
 
 ## Before you begin
 
-Role required: `sn_hco_intg_fhir.admin`.
+Role required: `sn_hcls_emr_sync.admin`.
 
 ## About this task
 

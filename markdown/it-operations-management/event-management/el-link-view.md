@@ -8,8 +8,8 @@ product: Event Management
 classification: event-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+reading_time_minutes: 5
+breadcrumb: [Working with alert groups in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Viewing links between alerts in alert groups in Express List
@@ -42,6 +42,23 @@ Currently, Link View is supported for several alert groups. For more information
 -   [Alert links in network traffic-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-network-traffic-based-link-view.md)
 -   [Alert links in log analytics-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/log-analytic-based-link-view.md)
 -   [Viewing links between alerts in mixed alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/unified-alert-group-link-view.md)
+
+-   **[Viewing links between alerts in tag-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/tag-based-link-view-express-list.md)**  
+View the connections between alerts in a tag-based alert group in Express List by using Link View. Link View shows how the attributes of the alerts in the group are linked with each other.
+-   **[Viewing links between alerts in rules-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-rule-based-link-view.md)**  
+View the connections between alerts in a rules-based alert group in Express List by using Link View. Link View shows how the attributes of the alerts in the group are linked with each other.
+-   **[Viewing links between alerts in CMDB-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-cmdb-based-link-view.md)**  
+View the connections between alerts in alert groups in Express List that were created based on the proximity of Configuration Items \(CIs\) in the Configuration Management Database \(CMDB\). Link View shows how the attributes of the alerts in the group are linked with each other.
+-   **[Alert links in network traffic-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-network-traffic-based-link-view.md)**  
+View the connections between alerts in network traffic-based alert groups in Express List by using Link View. Network traffic-based alert groups are created by analyzing network traffic connections between processes across hosts.
+-   **[Alert links in log analytics-based alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/log-analytic-based-link-view.md)**  
+Use Link View in Express List to see why alerts in a log analytics-based alert group are correlated together through the visualization of shared attributes.
+-   **[Viewing links between alerts in mixed alert groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/unified-alert-group-link-view.md)**  
+Link View displays the connections between alerts in mixed alert groups in Express List, including how alert attributes relate to each other within the group.
+-   **[View links between alerts in a group in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/view-relationships-between-alerts-in-groups.md)**  
+Use Link View in Express List to view a visual representation of the relationships between alerts in a group.
+
+**Parent Topic:**[Working with alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/working-with-alert-groups.md)
 
 **Related topics**  
 

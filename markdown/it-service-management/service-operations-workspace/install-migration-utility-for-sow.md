@@ -26,12 +26,12 @@ Role required: admin
 
 The Migration Utility for Service Operations Workspace application \(sn\_sow\_migration\) installs the on-screen migration utility that eases the migration process from ITSM Agent Workspace to Service Operations Workspace for ITSM.
 
-The Agent Workspace Migration Request \(sn\_sow\_migration\_aw\_migration\_request\) table is installed with Migration Utility for Service Operations Workspace. This tables stores the following migration request details:
+The Agent Workspace Migration Request \(sn\_sow\_migration\_aw\_migration\_request\) table is installed with Migration Utility for Service Operations Workspace. This table stores the following migration request details:
 
--   Customisations and configurations selected for various features
+-   Customizations and configurations selected for various features
 -   Migration status \(whether the migration is completed or in progress\)
 -   Migration result \(Customizations or configurations that are migrated successfully or failed\)
--   Any post migration message for the selected customizations or configurations
+-   Any postmigration message for the selected customizations or configurations
 
 ## Procedure
 

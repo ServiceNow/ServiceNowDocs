@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/now-intelligence/semantic-layer
 release: brazil
 topic_type: concept
 last_updated: "2026-03-25"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [semantic layer, tuning, AI Data Explorer, query generation]
 breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -40,21 +40,22 @@ Before you tune, verify that the issue is repeatable. The [LLM](https://raw.gith
 
 Tune the semantic layer when:
 
--   The system selects the wrong table or cannot find one. For example, the system could be processing queries on reference fields, and the referenced tables are missing from the semantic layer.
--   A field is missing or the wrong field is selected
--   Your organization uses different terminology than the auto-generated labels
--   The right table or field is selected, but the query is constructed incorrectly
--   Special terminology of your organization is not translated accurately to filter conditions
+-   The system selects the wrong table or cannot find one. For example, the system could be processing queries on reference fields, and the referenced tables are missing from the semantic layer. For another example, the query could span more than one table, but not all the tables are included in the semantic layer.
+-   A field is missing or the wrong field is selected.
+-   Your organization uses different terminology than the auto-generated labels.
+-   The right table or field is selected, but the query is constructed incorrectly.
+-   Special terminology of your organization is not translated accurately to filter conditions.
 
 ## Validation and iteration process
 
-1.  Capture the [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) and expected result.
-2.  Classify the failure as entity, dimension, segment, or ACL.
-3.  If results are wrong for only some users, verify read ACL access to the intended table and fields before retuning.
-4.  Apply one targeted tuning change.
-5.  Retest the same utterance.
-6.  Check **Query Generation** &gt; **Logs** and confirm the improved match path.
-7.  Repeat only if still incorrect.
+1.  Through communication with the user who is reporting an issue, find out what their query \([utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md)\) is, what sort of response they expected, and how the actual response differed from their expectations.
+2.  Open **Query Generation** &gt; **Logs** and find the log that matches the user name, utterance, and date submitted. Capture the response and any error message. See [Query Generation logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/query-generation-logs.md).
+3.  If results are wrong for only some users, verify read ACL access to the intended table and fields before retuning. Also see [Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-aide-secure-scope-apps.md).
+4.  Classify the failure as entity, dimension, segment, or ACL.
+5.  Apply one targeted tuning change.
+6.  Retest the same utterance.
+7.  Check **Query Generation** &gt; **Logs** and confirm the improved match path.
+8.  Repeat only if still incorrect.
 
 -   **[Query Generation Health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/querygen-health-page.md)**  
 The health page shows the state of the Now LLM and AI Search, along with the states of Query Generation system properties, enabled products, and dependency plugins.

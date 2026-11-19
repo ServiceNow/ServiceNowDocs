@@ -9,7 +9,7 @@ classification: common-service-data-model-csdm
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Dynamic CI group and service type, Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Dynamic CI group and service type, Implement, Common Service Data Model \(CSDM\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Set the group for a CI or an entire class of CIs

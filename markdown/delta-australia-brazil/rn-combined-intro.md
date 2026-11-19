@@ -51,8 +51,6 @@ Consolidated page of all release notes for AI Admin Hub from Australia to Brazil
 Consolidated page of all release notes for AI Agent Advisor from Australia to Brazil.
 -   **[Combined AI Agent Studio release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-aiagentstudio-release-notes.md)**  
 Consolidated page of all release notes for AI Agent Studio from Australia to Brazil.
--   **[Combined AI Control Tower release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-aicontroltower-release-notes.md)**  
-Consolidated page of all release notes for AI Control Tower from Australia to Brazil.
 -   **[Combined AI Cost Management release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-aicostmanagement-release-notes.md)**  
 Consolidated page of all release notes for AI Cost Management from Australia to Brazil.
 -   **[Combined AI Desktop Actions release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-aidesktopactions-release-notes.md)**  
@@ -599,6 +597,8 @@ Consolidated page of all release notes for Strategic Spend Tracking for PPM from
 Consolidated page of all release notes for Stream Connect from Australia to Brazil.
 -   **[Combined Subscription Management release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-subscriptionmanagement-release-notes.md)**  
 Consolidated page of all release notes for Subscription Management from Australia to Brazil.
+-   **[Combined Super Intelligence Control Tower release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-superintelligencecontroltower-release-notes.md)**  
+Consolidated page of all release notes for Super Intelligence Control Tower from Australia to Brazil.
 -   **[Combined Supplier Lifecycle Operations release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-supplierlifecycleoperations-release-notes.md)**  
 Consolidated page of all release notes for Supplier Lifecycle Operations from Australia to Brazil.
 -   **[Combined Synthetic Monitoring release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-syntheticmonitoring-release-notes.md)**  

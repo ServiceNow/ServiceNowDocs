@@ -25,11 +25,11 @@ The ServiceNow® Retail product empowers managers and associates to manage daily
 
 </td><td>
 
-[Manage customer complaints\[Omitted image "bus-manage.svg"\] Alt text:Create, track, and close customer complaint cases in Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-customer-complaints.md)
+[Manage customer complaints\[Omitted image "bus-manage.svg"\] Alt text:Create, track, and close customer complaint cases in CRM Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-customer-complaints.md)
 
 </td></tr><tr><td>
 
-[Manage store inquiries\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Create, manage, track, and resolve the store inquiries through the retail portal, workspace, or mobile app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-inquiries.md)
+[Manage store inquiries\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Create, manage, track, and resolve the store inquiries through the retail portal, CRM Workspace, or mobile app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-inquiries.md)
 
 </td><td>
 
@@ -49,7 +49,7 @@ The ServiceNow® Retail product empowers managers and associates to manage daily
 
 </td><td>
 
-[Track and monitor store plans\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Track and monitor store plans from the workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/track-monitor-store-plans.md)
+[Track and monitor store plans\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Track and monitor store plans from the CRM Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/track-monitor-store-plans.md)
 
 </td></tr><tr><td>
 

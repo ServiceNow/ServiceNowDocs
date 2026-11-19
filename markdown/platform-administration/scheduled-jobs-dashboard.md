@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Monitor System Events and Scheduled Jobs dashboard, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Monitor System Events and Scheduled Jobs dashboard, Maintain and monitor, ServiceNow AI Platform]
 ---
 
 # Understand your Scheduled Jobs dashboard

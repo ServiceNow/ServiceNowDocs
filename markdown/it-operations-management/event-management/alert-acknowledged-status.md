@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage alert states in Express List, Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Manage alert states in Express List, Assigning and managing alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Place an alert in the Acknowledged state
@@ -38,4 +38,6 @@ Role required: evt\_mgmt\_admin
 
 6.  Click **Save**.
 
+
+**Parent Topic:**[Manage alert states in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/manage-alert-states-in-express-list.md)
 

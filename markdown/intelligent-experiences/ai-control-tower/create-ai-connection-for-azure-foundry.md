@@ -1,6 +1,6 @@
 ---
 title: Create AI connection for Azure Foundry
-description: Create an AI connection for Azure Foundry in AI Control Tower using the  AI Service Graph Connector for Microsoft.
+description: Create an AI connection for Azure Foundry in Control Tower using the  AI Service Graph Connector for Microsoft.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connection-for-azure-foundry.html
 release: brazil
@@ -9,12 +9,12 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create AI connection for Azure Foundry
 
-Create an AI connection for Azure Foundry in AI Control Tower using the  AI Service Graph Connector for Microsoft.
+Create an AI connection for Azure Foundry in Control Tower using the  AI Service Graph Connector for Microsoft.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **AI Control Tower workspace** &gt; **Configurations** &gt; **AI connections**.
+1.  Navigate to **Control Tower** &gt; **Configurations** &gt; **AI connections**.
 
 2.  Select **Add**.
 

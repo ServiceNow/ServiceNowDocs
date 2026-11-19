@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Stats Tools, System Diagnostics, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Stats Tools, System Diagnostics, Maintain and monitor, ServiceNow AI Platform]
 ---
 
 # Slow events log record detail

@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Responding to and working with alerts in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View anomaly alert metric data on the preview panel in Express List
@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 4.  Choose where to view the anomaly chart.
 
-<table id="choicetable_kfx_rzl_33c"><thead><tr><th align="left" id="d430388e102">
+<table id="choicetable_kfx_rzl_33c"><thead><tr><th align="left" id="d433497e104">
 
 Option
 
-</th><th align="left" id="d430388e105">
+</th><th align="left" id="d433497e107">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d430388e111">
+</th></tr></thead><tbody><tr><td id="d433497e113">
 
 **To view the chart in the preview panel**
 
@@ -51,7 +51,7 @@ Procedure
 
 A chart with a visual representation of the anomaly appears.
 
-</td></tr><tr><td id="d430388e134">
+</td></tr><tr><td id="d433497e136">
 
 **To view the chart in the alert record**
 
@@ -82,4 +82,6 @@ Select the number of the anomaly alert to open the alert record.
 
     For more information, see [Metric Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/metric-intelligence/agent-workspace-ops-intelligence.md).
 
+
+**Parent Topic:**[Responding to and working with alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/responding-to-and-working-with-alerts-in-express-list.md)
 

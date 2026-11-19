@@ -34,7 +34,9 @@ The collector uses Basic Authentication with username and password. ServiceNow d
 
     2.  Complete the required fields.
 
-    3.  Select **Save**.
+    3.  Set the **​Identity type**​ as **Machine**​​​.
+
+    4.  Select **Save**.
 
 4.  Set a password for the user.
 

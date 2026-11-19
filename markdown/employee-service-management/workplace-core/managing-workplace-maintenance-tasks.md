@@ -70,20 +70,20 @@ Filter workplace tasks using criteria such as Short Description, Workplace Locat
 -   **[Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/wsd-tables-purge-policy.md)**  
 Apply the archival policy for Workplace Core to archive old table records.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 
 
 [Import your workspaces data from an Excel spreadsheet]()
 
-[Add a space type configuration]()
+[]()
 
 [Configure a workplace card]()
 
 [Block a workplace location]()
 
-[Configure Workplace entity and entity types]()
+[Configure Workplace entities and entity types]()
 
 [Managing Neighborhoods]()
 

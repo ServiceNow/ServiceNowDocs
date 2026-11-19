@@ -8,7 +8,7 @@ product: Workplace Central
 classification: workplace-central
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Explore, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -58,7 +58,7 @@ To access Space Planning, navigate to **All** &gt; **Workplace Central**, then s
 
 [Space Optimization]()
 
-[Scenario Planning]()
+[Scenario planning]()
 
 [Schedule Planning]()
 

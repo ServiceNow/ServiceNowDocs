@@ -36,7 +36,7 @@ An administrator can [customize the sound](https://raw.githubusercontent.com/Ser
 
 5.  Configure the following system notifications.
 
-    For more information on how to configure system notifications, see Apply notification conditions.
+    For more information on how to configure system notifications, see [Apply notification conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/apply-notification-conditions.md).
 
 <table id="table_k1c_zyj_tz"><thead><tr><th>
 

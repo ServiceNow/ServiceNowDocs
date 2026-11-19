@@ -25,6 +25,9 @@ To access the dashboard, navigate to **Workspaces** &gt; **Discovery Admin Works
 
 -   discovery\_admin
 -   admin
+-   discovery\_operator
+
+**Note:** The discovery\_operator role is available starting with Discovery Admin Workspace v1.23.0. For more information, see [Discovery Operator role access in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/daw-discovery-operator-access.md).
 
 ## Prerequisites
 
@@ -38,7 +41,7 @@ The Discovery Operations Monitor dashboard displays visuals for discovery perfor
 
 **Note:** Metrics are collected for the most recently completed 15-minute window. Data may not reflect activity from the current interval until collection has run. For more information, see [Configure the time interval for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/config-interval-disco-op-mon.md).
 
-Select the info icon \(\[Omitted image "daw-info-icon.png"\]\) to view dashboard details, such as the owner and usage. Select the **More Actions** icon \(\[Omitted image "more-options.png"\]\) to duplicate, share, export, schedule, or print the dashboard. Select **Edit** to access editing mode, where you can update the data source and visualization settings. For more information about editing dashboards, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/common-dashboard-tasks.md).
+Select the info icon \(\[Omitted image "daw-info-icon.png"\]\) to view dashboard details, such as the owner and usage. Select the **More Actions** icon \(\[Omitted image "more-options.png"\]\) to duplicate, share, export, schedule, or print the dashboard. Select **Edit** to access editing mode, where you can update the data source and visualization settings. For more information about editing dashboards, see .
 
 Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\) on a visualization to export it in CSV, JPEG, PNG, or Excel format.
 

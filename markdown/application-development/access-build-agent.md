@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/access-build-agent.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-04"
 reading_time_minutes: 6
-keywords: [Build Agent, ServiceNow Studio, ServiceNow IDE, access, development, AI agent, chat panel, Personal Development Instance, PDI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
+keywords: [Build Agent, ServiceNow Studio, ServiceNow IDE, access, development, AI agent, chat panel, Personal Developer Instance, PDI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
@@ -85,7 +85,7 @@ Use Build Agent in an isolated development environment with Developer Sandboxes.
 
 ## Build Agent and PDIs
 
-You can access Build Agent on a Personal Development Instance \(PDI\). Developers using PDIs get 25 prompts per instance per 30-day cycle.
+You can access Build Agent on a Personal Developer Instance \(PDI\). Developers using PDIs get 25 prompts per instance per 30-day cycle.
 
 PDIs are updated to match the latest Build Agent for a consistent experience across both personal and production-track instances. Developers testing and building on PDIs have access to the same capabilities available in production environments. For more information on PDIs, see [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/personal_developer_instance_guide.md).
 

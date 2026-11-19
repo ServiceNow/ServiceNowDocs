@@ -17,7 +17,7 @@ breadcrumb: [Talent Profile, Hiring Experiences, HR Service Delivery, Employee S
 Install and configure the Talent profile application to get an aggregated view of different talent types at different point in the hiring journey.
 
 -   **[Install Talent profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/install-talent-profile.md)**  
-You can install the Talent profile application \(sn\_ta\_tp\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+Users with the admin role can install the Talent profile application \(sn\_ta\_tp\). The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 -   **[Set up Talent Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/talent-definition-setup.md)**  
 Create a talent profile definition to opt in to Talent Profile.
 -   **[Opt in to Talent Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/opt-in-ta-tp.md)**  

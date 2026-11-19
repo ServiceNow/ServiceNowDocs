@@ -1,6 +1,6 @@
 ---
 title: Benchmark KPIs
-description: You can enable or disable a benchmark KPI, and customize KPI conditions. Integration with Performance Analytics provides daily data collection and drill down capabilities on KPI data.
+description: Enable or disable benchmark KPIs and customize their conditions. Performance Analytics integration provides daily data collection and drill down.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/c\_BenchKPIConfig-cf.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Reference, Benchmarks, IT Service Management]
 
 # Benchmark KPIs
 
-You can enable or disable a benchmark KPI, and customize KPI conditions. Integration with Performance Analytics provides daily data collection and drill down capabilities on KPI data.
+Enable or disable benchmark KPIs and customize their conditions. Performance Analytics integration provides daily data collection and drill down.
 
 Benchmarks offers ITSM, ITOM, Virtual Agent, Security Operations KPIs, Success Dashboard, and Strategic Portfolio Management.
 

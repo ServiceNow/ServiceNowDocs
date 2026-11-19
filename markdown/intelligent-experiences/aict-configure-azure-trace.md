@@ -1,6 +1,6 @@
 ---
 title: Add an Azure trace connection
-description: Monitor AI agents running on Microsoft Azure by adding an Azure trace connection. AI Control Tower collects trace data through your Azure credentials and a MID Server, without requiring SDK instrumentation.
+description: Monitor AI agents running on Microsoft Azure by adding an Azure trace connection. Super Intelligence Control Tower collects trace data through your Azure credentials and a MID Server, without requiring SDK instrumentation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-configure-azure-trace.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring trace connections, Configuring integrations, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add an Azure trace connection
 
-Monitor AI agents running on Microsoft Azure by adding an Azure trace connection. AI Control Tower collects trace data through your Azure credentials and a MID Server, without requiring SDK instrumentation.
+Monitor AI agents running on Microsoft Azure by adding an Azure trace connection. Super Intelligence Control Tower collects trace data through your Azure credentials and a MID Server, without requiring SDK instrumentation.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Traces**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Traces**.
 
 2.  On the **Available** sub-tab, select **Azure**.
 
@@ -41,15 +41,15 @@ Role required: sn\_ai\_governance.ai\_steward
     -   **Application Insights** — collects traces from Azure Monitor Application Insights.
 4.  Fill in the credentials for the source system you selected.
 
-<table id="choicetable-azure-credentials"><thead><tr><th align="left" id="d325601e175">
+<table id="choicetable-azure-credentials"><thead><tr><th align="left" id="d326755e177">
 
 Source system
 
-</th><th align="left" id="d325601e178">
+</th><th align="left" id="d326755e180">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d325601e184">
+</th></tr></thead><tbody><tr><td id="d326755e186">
 
 **Classic Foundry**
 
@@ -72,7 +72,7 @@ The MID Server must be active and validated. Select **Go to Mid server installat
 6.  Select **Active** to begin collecting traces when you save. Clear this option to save the connection without starting collection. You can activate the connection later from its record.
 
 
-</td></tr><tr><td id="d325601e236">
+</td></tr><tr><td id="d326755e238">
 
 **New Foundry**
 
@@ -99,7 +99,7 @@ The default is 30. Set a lower value to return results sooner or set a higher va
 7.  Select **Active** to begin collecting traces when you save. Clear it to save the connection without starting collection. You can activate the connection later from its record.
 
 
-</td></tr><tr><td id="d325601e296">
+</td></tr><tr><td id="d326755e298">
 
 **Application Insights**
 
@@ -132,7 +132,7 @@ The default is 30. Set a lower value to return results sooner or set a higher va
 
 ## Result
 
-The trace connection appears on the **Established** sub-tab. If the connection is active, AI Control Tower begins collecting trace data after the first polling interval.
+The trace connection appears on the **Established** sub-tab. If the connection is active, Control Tower begins collecting trace data after the first polling interval.
 
 ## What to do next
 

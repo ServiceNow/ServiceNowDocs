@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-datamanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -404,7 +404,7 @@ Australia
 
 Data Management and system archiving are ServiceNow AI Platform capabilities that are active by default.
 
-The ability to store archive data in object storage is available with the installation of Live Archive, which requires a separate subscription. For details, see [\[Placeholder link text to key install-data-archiving-plugin\]](https://www.servicenow.com/docs/access?context=install-data-archiving-plugin&family=australia&ft:locale=en-US).
+The ability to store archive data in object storage is available with the installation of Live Archive, which requires a separate subscription. For details, see [install data archiving plugin](https://www.servicenow.com/docs/access?context=install-data-archiving-plugin&family=australia&ft:locale=en-US).
 
 
 </td></tr><tr><td>

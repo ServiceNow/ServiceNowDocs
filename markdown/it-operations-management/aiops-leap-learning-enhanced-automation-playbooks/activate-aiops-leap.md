@@ -22,11 +22,13 @@ Role required: System admin or LEAP admin
 
 and the application scope must be LEAP.
 
+**Note:** If you require a different LLM, change it before activating LEAP. If you change the LLM after activation, you must reapply the LEAP skills. See [Change LEAP large language model \(LLM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/change-leap-large-languauge-model-llm.md).
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **LEAP**.
 
-2.  Select **Admin** &gt; **AI Admin Hub**.
+2.  Select **Admin** &gt; **AI admin Hub**.
 
 3.  Select **AI Skills** &gt; **Platform** &gt; **LEAP**.
 

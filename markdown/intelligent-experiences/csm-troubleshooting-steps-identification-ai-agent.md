@@ -66,8 +66,6 @@ Tools
 
 -   **Script**
 
-Get case details using number and fields
-
 Get document list using comma separated list of 'Id' values
 
 Update the work notes of the case
@@ -99,7 +97,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, platform\_ml\_di.creation\_agent
+sn\_customerservice\_agent or sn\_customerservice.consumer\_agent, and platform\_ml\_di.creation\_agent. The platform\_ml\_di.creation\_agent role is required in addition to one of the other two roles.
 
 </td></tr><tr><td>
 

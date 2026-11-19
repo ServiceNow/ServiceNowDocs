@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [now assist chat, virtual agent chat, desktop assistant chat, dex chat support, create ticket from chat, check ticket status, digital end user experience \(dex\)]
 breadcrumb: [Desktop Assistant, Solve issues, Digital End-User Experience, IT Operations Management]
 ---
 
@@ -32,6 +33,6 @@ Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
     **Note:**
 
-    -   To customize the topics that must be displayed and available on the Show me everything window, see [Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)
+    -   To customize the topics that must be displayed and available on the Show me everything window, see 
     -   To monitor and improve your device performance using ServiceNow Otto in Virtual Agent, see [Check device health using ServiceNow Otto for ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/check-your-device-s-health-using-now-assist-for-itsm.md)
 

@@ -8,7 +8,7 @@ product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace - Scheduling, Workforce Optimization for ITSM in the Service Operations Workspace, Optimizing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -28,13 +28,13 @@ You can receive notifications when your manager makes a schedule plan available 
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Select the Schedule icon \(\[Omitted image "schedule-icon.png"\] Alt text: Schedule icon\).
+2.  Select the Schedule icon \(\[Omitted image "schedule-icon.png"\] Alt text:\).
 
 3.  Select the **Sign up shifts** tab.
 
     You can use keywords to search the schedule plans, and view all schedules with active shifts for your assignment groups that you can sign up for. Use the pagination to scroll through all available schedule plans.
 
-    The current state of each schedule plan displays as a highlight in each card. The table below describes the highlighted value.
+    The current state of each schedule plan displays as a highlight in each card. The following table describes the highlighted value.
 
     |Highlighted value|Description|
     |-----------------|-----------|
@@ -44,13 +44,13 @@ You can receive notifications when your manager makes a schedule plan available 
     |Closed Incomplete|The schedule plan currently does not have shifts for which you could sign up.|
     |Closed Complete|The schedule plan has at least one preferred shift for which you've signed up.|
 
-4.  Select the Overlapping time off icon \(\[Omitted image "overlapping-time-off-icon.png"\] Alt text: Overlapping time off\) to analyze if the time off you have requested or the ones that have been approved overlap with the schedule plan available to you for sign up.
+4.  Select the Overlapping time off icon \(\[Omitted image "overlapping-time-off-icon.png"\] Alt text:\) to analyze if the time off you have requested or the ones that have been approved overlap with the schedule plan available to you for sign up.
 
 5.  To sign up for your preferred shifts, select **Add shifts**.
 
     You can only sign up for shifts in the schedule plan that have not been published yet.
 
-    The Add shifts pop-up appears. You can search for shift using the search bar and select shifts to save as draft.
+    The Add shifts pop-up appears. You can search for a shift using the search bar and select shifts to save as draft.
 
     You can sign up for a maximum number of shifts that your administrator has set up in the **sn\_shift\_planning.max\_shifts\_allowed\_for\_signup** system property.
 
@@ -58,11 +58,11 @@ You can receive notifications when your manager makes a schedule plan available 
 
 7.  Select the plus \(+\) sign and sign up for additional shifts.
 
-    When you have more than one shift, you can reorder them by using the up or down arrows in card for each shift.
+    When you have more than one shift, you can reorder them by using the up or down arrows in the card for each shift.
 
 8.  Select **Submit**.
 
-    All shifts you have added for sign up will be submitted.
+    All shifts you have added for sign-up are submitted.
 
 
 **Parent Topic:**[Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md)

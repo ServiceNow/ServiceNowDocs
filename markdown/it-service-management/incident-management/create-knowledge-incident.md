@@ -61,6 +61,6 @@ When an incident is closed automatically or by the caller, a draft knowledge art
 -   To open a draft article, navigate to **Knowledge** &gt; **My Knowledge Articles** and open the draft by its KB number.
 -   If the article does not appear in **My Knowledge Articles** and the **glide.knowman.submission.workflow** property is enabled, the system creates the article as a knowledge submission. Look for it in the **KB Submissions** related list on the incident form.
 
-    **Note:** Draft articles appear in the knowledge base only after they are reviewed and published. If the draft is still missing from **My Knowledge Articles**, contact your knowledge administrator to verify the configuration of your KCS plugin.
+    **Note:** Draft articles appear in the knowledge base only after they are reviewed and published. If the draft is still missing from **My Knowledge Articles**, contact your knowledge administrator to verify the configuration of your KCS plugin. For more information, see [KB0819409](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0819409).
 
 

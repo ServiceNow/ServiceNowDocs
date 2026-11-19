@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-aicostmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
-reading_time_minutes: 5
+last_updated: "2026-11-19"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -107,7 +107,26 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Integrating with AI providers](https://www.servicenow.com/docs/access?context=integrating-ai-saas-providers&family=zurich&ft:locale=en-US)**
+
+Import AI cost and usage data from Anthropic Claude Enterprise and Microsoft Copilot. Data is refreshed daily.
+
+-   **[Home view](https://www.servicenow.com/docs/access?context=home-view&family=zurich&ft:locale=en-US)**
+
+Use the Home view to review active alerts, total AI spend across Claude and Copilot, and top spenders for a given time period.
+
+-   **[View your AI spend and usage](https://www.servicenow.com/docs/access?context=view-ai-usage-spend&family=zurich&ft:locale=en-US)**
+
+Review month-over-month trends and see spend attributed to products, models, cost centers, departments, and users. Drill down to view spend broken down even further.
+
+-   **[Set up an AI spend limit](https://www.servicenow.com/docs/access?context=set-up-spend-limits&family=zurich&ft:locale=en-US)**
+
+Set monthly spend limits at the account, cost center, and department level. View user spend limits imported from Anthropic. Configure percentage thresholds on spend limits that, when exceeded, trigger alerts.
+
+-   **[Review AI spend alerts](https://www.servicenow.com/docs/access?context=review-resolve-alerts&family=zurich&ft:locale=en-US)**
+
+Review alerts generated when a spend limit threshold is exceeded and take action to avoid over-spend. Each alert is assigned a severity based on how quickly spend is burning against the limit.
+
 
 </td></tr><tr><td>
 
@@ -357,7 +376,12 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install AI Cost Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+**Note:** AI Cost Management is available in the ServiceNow Store. For details, see the following activation information.
 
 </td></tr><tr><td>
 
@@ -367,7 +391,7 @@ Australia
 
 -   **Activation information**
 
-Install AI Cost Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install AI Cost Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Note:** AI Cost Management is available in the ServiceNow Store. For details, see the following activation information.
@@ -380,7 +404,7 @@ Brazil
 
 -   **Activation information**
 
-Install AI Cost Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+Install AI Cost Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Note:** AI Cost Management is available in the ServiceNow Store. For details, see the following activation information.
@@ -632,7 +656,11 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   Track, maintain, and optimize spend across your AI accounts.
+-   Automatically retrieve and process usage and cost data for your AI accounts through supported provider integrations.
+-   Stay ahead of potential AI budget overages through configurable spend limits and alerts.
+
+ See [AI Cost Management](https://www.servicenow.com/docs/access?context=ai-cost-management&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

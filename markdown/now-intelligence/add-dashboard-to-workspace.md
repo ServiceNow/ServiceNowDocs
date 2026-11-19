@@ -20,7 +20,7 @@ Role required: ui\_builder\_admin
 
 ## About this task
 
-To add a dashboard to a page in UI Builder, create the page from the Dashboards page template, as described in [Add Platform Analytics pages to a configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-analytics-center-to-experience.md). You can then either populate the dashboard in the inline editor or expose an existing dashboard. The existing dashboard can be either a technical dashboard or one created in the inline editor. You can expose an entire dashboard or only selected tabs.
+To add a dashboard to a page in UI Builder, create the page from the Dashboards page template, as described in [Create Platform Analytics pages in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-analytics-center-to-experience.md). You can then either populate the dashboard in the inline editor or expose an existing dashboard. The existing dashboard can be either a technical dashboard or one created in the inline editor. You can expose an entire dashboard or only selected tabs.
 
 ## Procedure
 
@@ -34,7 +34,7 @@ To add a dashboard to a page in UI Builder, create the page from the Dashboards 
 
 3.  Create a page in the workspace using the Dashboards page template, or open an existing page created from the template.
 
-    For more information, see [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/reuse-page-definitions.md) and [Add Platform Analytics pages to a configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-analytics-center-to-experience.md).
+    For more information, see  and [Create Platform Analytics pages in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/add-analytics-center-to-experience.md).
 
     **Note:** You cannot add a Dashboard component to a page. You can only create a page from the Dashboards template. This page will include a Dashboard component.
 
@@ -78,7 +78,7 @@ Select event handlers to configure the actions \(events\) provided with the dash
 
 [Create a Platform Analytics workspace from App Engine Studio]()
 
-[Add Platform Analytics pages to a configurable workspace]()
+[Create Platform Analytics pages in UI Builder]()
 
 [Configure custom redirection from a dashboard component]()
 

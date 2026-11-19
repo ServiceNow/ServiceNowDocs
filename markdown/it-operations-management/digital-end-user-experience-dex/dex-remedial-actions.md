@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-10-23"
 reading_time_minutes: 1
+keywords: [custom remedial actions, create remedial action, dex remedial actions, check definitions, diagnostic actions, device remediation, remediate device issues, prebuilt remedial actions, local system account]
 breadcrumb: [Configure, Digital End-User Experience, IT Operations Management]
 ---
 

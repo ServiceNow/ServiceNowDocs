@@ -89,7 +89,7 @@ Create a checklist to track the items for an automation request. A checklist is 
 Edit a task if you want to update the checklist.
 -   **[Clear a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/clear-checklist.md)**  
 Clear a checklist if you no longer need the checklist for your automation request.
--   **[Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/create-template.md)**  
+-   **[Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/create-template-golive.md)**  
 Create a template when you think a golive checklist is useful for multiple automation requests.
 -   **[Update a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/update-template.md)**  
 Update your template if you have changed the checklist and want those changes to reflect in your template.

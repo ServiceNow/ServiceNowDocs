@@ -9,7 +9,7 @@ classification: search-administration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Zing indexes words, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Zing indexes words, Zing text indexing and search engine, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Change the query mode of an indexed table
@@ -34,7 +34,7 @@ Once a table is indexed, the data within the table can be searched through the g
 
 3.  Use the combo box to select a **Default query mode**.
 
-<table id="choicetable_rjr_4mz_yy"><tbody><tr><td id="d120133e103">
+<table id="choicetable_rjr_4mz_yy"><tbody><tr><td id="d119990e105">
 
 **Default**
 
@@ -42,7 +42,7 @@ Once a table is indexed, the data within the table can be searched through the g
 
 The default query mode for a table is an AND query.
 
-</td></tr><tr><td id="d120133e112">
+</td></tr><tr><td id="d119990e114">
 
 **AND**
 
@@ -50,7 +50,7 @@ The default query mode for a table is an AND query.
 
 Matches all search terms.
 
-</td></tr><tr><td id="d120133e121">
+</td></tr><tr><td id="d119990e123">
 
 **OR**
 
@@ -58,7 +58,7 @@ Matches all search terms.
 
 Matches one or more search terms.
 
-</td></tr><tr><td id="d120133e130">
+</td></tr><tr><td id="d119990e132">
 
 **AND\_OR**
 

@@ -1,5 +1,5 @@
 ---
-title: Manage store plans
+title: Create and manage store plans
 description: Manage store plans to plan and schedule generation of cases and tasks to simplify manual efforts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-manage-store-plans.html
@@ -10,16 +10,20 @@ reading_time_minutes: 1
 breadcrumb: [Retail]
 ---
 
-# Manage store plans
+# Create and manage store plans
 
 Manage store plans to plan and schedule generation of cases and tasks to simplify manual efforts.
+
+To create a store plan, see [Create a store plan from the CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/create-plan-workspace.md). After you create the plan, add the case and task details, add the affected stores, schedule the plan, and review the plan details. For the full list of topics, see [Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plan-authoring.md).
+
+To work with a store plan that already exists, see [Monitor a published store plan across multiple stores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-monitor-published-store-plan.md), [Clone a store plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-clone-store-plan.md), or [Delete or deactivate a store plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-deactivate-a-store-plan.md).
 
 -   **[Fulfill In-store operations cases and tasks on the Retail Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-fulfill-in-store-ops-portal.md)**  
 Use the Retail Portal to review and complete In-store operations cases and tasks generated from store plans, including embedded questionnaires.
 -   **[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-manage-store-plan-authoring.md)**  
 Manage store plans to plan and schedule generation of cases and tasks to simplify manual efforts.
 -   **[Monitor a published store plan across multiple stores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-monitor-published-store-plan.md)**  
-Audit or review previously published schedules as needed using the CSM/FSM Configurable Workspace.
+Audit or review previously published schedules as needed using the CRM Workspace.
 -   **[Clone a store plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-clone-store-plan.md)**  
 Clone an existing store plan to create a new store plan that includes the items, conditions, and hierarchy.
 -   **[Delete or deactivate a store plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-deactivate-a-store-plan.md)**  

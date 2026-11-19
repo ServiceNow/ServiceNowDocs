@@ -9,7 +9,7 @@ classification: change-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tutorial: Add a new change management state, Reference, Change Management, IT Service Management]
+breadcrumb: [Tutorial: add a new change management state, Reference, Change Management, IT Service Management]
 ---
 
 # Create a process flow record
@@ -42,7 +42,7 @@ Role required: admin
 5.  **Update**.
 
 
-**Parent Topic:**[Tutorial: Add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_AddNewStateTutorial.md)
 
 **Previous topic:**[Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_CreateNewUIAction.md)
 

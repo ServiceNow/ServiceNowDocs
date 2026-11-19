@@ -27,7 +27,7 @@ In the Zurich release, this List replaces the simple list visualization. On migr
 **Note:**
 
 -   You can include Spotlight information in a list visualization. Configure the list to display information from the Spotlight \[spotlight\] table. For more information, see [Spotlights on Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/spotlights-configurable-workspaces.md). For general information about the Spotlight feature, see [Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/spotlight/spotlight.md).
--   It is not possible to configure auto refresh on the List visualization. To refresh a List visualization on a dashboard, select the More Options icon \[Omitted image "icon-vert-3dot-p.png"\] Alt text: Context menu icon and choose **Refresh**.
+-   It is not possible to configure auto refresh on the List visualization. To refresh a List visualization on a dashboard, select the More Options icon \[Omitted image "icon-vert-3dot-p.png"\] Alt text: More options icon and choose **Refresh**.
 -   The option to show the total number of records is not available in the new List visualization.
 
 ## Procedure
@@ -87,6 +87,7 @@ The field to group by. You can group by any field in the table including list fi
 **Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
+-   If there are multiple metrics, the metric label is appended to the beginning of the group-by field values in the chart labels.
 -   Fields with continuous values, such as date or integer, are automatically grouped according to any report ranges defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_ReportRanges.md).
 
 

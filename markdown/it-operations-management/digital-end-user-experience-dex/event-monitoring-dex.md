@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-10-23"
 reading_time_minutes: 1
+keywords: [event monitoring, system events, windows event log, event id, macos system log, device event monitoring, event log monitoring configurations, monitored events limit, custom events]
 breadcrumb: [Managing alert rules, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

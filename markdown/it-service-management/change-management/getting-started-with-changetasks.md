@@ -36,7 +36,7 @@ Role required: itil or sn\_change\_write
 -   **[View change tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/mobile-view-changetask.md)**  
 View the state, risk, and schedule of change tasks in the Mobile Agent mobile application.
 -   **[Add comments to your change tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/mobile-add-comment-changetask.md)**  
-Add comments to a change task from the Mobile Agent mobile application. For example, to add an insight about the change task or a discussion regarding the change task.
+Add comments to a change task from the Mobile Agent mobile application, such as an insight or a discussion about the task.
 -   **[Resolve or close a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/mobile-resolve-changetask.md)**  
 When you implement the change task, you can close the task from the Mobile Agent mobile application.
 

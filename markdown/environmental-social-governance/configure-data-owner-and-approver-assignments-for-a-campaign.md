@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-08-04"
 reading_time_minutes: 1
 keywords: [data owner, approvers, approval levels, campaign owners]
-breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management]
 ---
 
 # Configure data owner and approver assignments for a campaign

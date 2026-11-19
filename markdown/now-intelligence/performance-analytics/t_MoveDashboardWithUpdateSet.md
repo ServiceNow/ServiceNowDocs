@@ -43,7 +43,7 @@ Additional steps may be necessary if you are moving a dashboard on a scoped appl
 
 3.  Verify that there’s a portal page record associated with each tab.
 
-    1.  Select the context menu icon \(\[Omitted image "icon-context-p.png"\] Alt text:\) and select **Launch Dependency Assessment**.
+    1.  Select the context menu icon \(\[Omitted image "icon-context-p.png"\] Alt text: Context menu icon\) and select **Launch Dependency Assessment**.
 
         \[Omitted image "move-dp-update-da-ex.png"\] Alt text: Dependency assessment example highlighting dashboard and dashboard tab tiles
 
@@ -55,7 +55,7 @@ Additional steps may be necessary if you are moving a dashboard on a scoped appl
 
     The dashboard's tile has the same name as the dashboard itself.
 
-5.  Select the context menu icon \(\[Omitted image "icon-context-p.png"\] Alt text:\) and select **Unload Dashboard**.
+5.  Select the context menu icon \(\[Omitted image "icon-context-p.png"\] Alt text: Context menu icon\) and select **Unload Dashboard**.
 
     Only perform this step after the dashboard is ready to unload, meaning that you’ve added all content to the tabs.
 
@@ -63,7 +63,7 @@ Additional steps may be necessary if you are moving a dashboard on a scoped appl
 
 7.  On the target instance, move the update using standard update set functionality.
 
-    For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_RetrieveAnUpdateSet.md).
+    For more information, see Retrieve an update set.
 
     On the Remote Instance page, the **Retrieved Update Sets** related list shows all retrieved update sets. Select the update set to see if there are errors. Errors are shown on the **Retrieved Update Set** form in a related list called **Update Set Preview Problems**. See [Solving errors on Core UI dashboards moved with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/troubleshooting-dashboard-update-set.md).
 
@@ -71,7 +71,7 @@ Additional steps may be necessary if you are moving a dashboard on a scoped appl
 
     Follow the procedure in [Validate that tabs are moved to a target dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/validate-dashboard-tabs-moved.md).
 
-    If the portal page is missing in the Tab form, select the search icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text:\) next to the **Page** field to search for the associated portal page.
+    If the portal page is missing in the Tab form, select the search icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Search icon\) next to the **Page** field to search for the associated portal page.
 
     **Note:** If you can’t find the associated portal page in the target instance, follow these steps to move each missing portal page through the update:
 
@@ -83,7 +83,7 @@ Additional steps may be necessary if you are moving a dashboard on a scoped appl
 
         The portal page for the current tab is added to the current update set.
 
-    4.  Move the update set to another instance using standard update set functionality. For more information, see [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_RetrieveAnUpdateSet.md).
+    4.  Move the update set to another instance using standard update set functionality. For more information, see Retrieve an update set.
 
 ## Result
 

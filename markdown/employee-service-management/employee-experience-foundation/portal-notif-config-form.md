@@ -8,8 +8,8 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
+reading_time_minutes: 4
+breadcrumb: [Employee Center reference, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Portal notification configuration form

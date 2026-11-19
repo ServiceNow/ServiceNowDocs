@@ -9,7 +9,7 @@ classification: event-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Working with alert groups in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Viewing an alert group analysis by ServiceNow Otto in Express List

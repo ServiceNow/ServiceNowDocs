@@ -30,23 +30,23 @@ At the end of the migration process, a confirmation message specifies if the mig
 
 1.  If the migration is successful, perform the following steps.
 
-    1.  Open SOW and for ITSM Agent Workspace instances.
+    1.  Open SOW and ITSM Agent Workspace instances.
 
         -   To open SOW, navigate to **All** &gt; **Workspace Experience** &gt; **Workspaces** &gt; **Service Operations Workspace**.
-        -   To open for ITSM Agent Workspace, enter `<instance-name>.service-now/workspace` in the web browser.
-    2.  Select **Lists** from the navigation pane to open the **Lists** window in SOW and for ITSM Agent Workspace.
+        -   To open ITSM Agent Workspace, enter `<instance-name>.service-now/workspace` in the web browser.
+    2.  Select **Lists** from the navigation pane to open the **Lists** window in SOW and ITSM Agent Workspace.
 
     3.  Open a record from the available lists to compare in both workspaces.
 
         For example, select an incident by navigating to the **Incidents** list in both workspaces.
 
-    4.  Compare the view of the record, form layout, related lists, and related lists layout SOW and ITSM Agent Workspace records.
+    4.  Compare the view of the record, form layout, related lists, and related lists layout in SOW and ITSM Agent Workspace records.
 
     5.  Check that user interface \(UI\) policies and client scripts of the ITSM Agent Workspace record are working in the SOW record.
 
-        -   UI policies and client scripts that are applicable for the for ITSM Agent Workspace record also work in the SOW record after the migration of views and view rules.
+        -   UI policies and client scripts that are applicable for the ITSM Agent Workspace record also work in the SOW record after the migration of views and view rules.
         -   SOW records open in the same view as ITSM Agent Workspace records.
-    6.  To modify any view rule in SOW to match settings in **All** &gt; **sysrule\_view\_workspace.list**.
+    6.  Modify any view rule in SOW to match the settings in **All** &gt; **sysrule\_view\_workspace.list**.
 
         For more information about configuring view rules, see [Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/t_CreateAViewRule.md).
 
@@ -56,7 +56,7 @@ At the end of the migration process, a confirmation message specifies if the mig
 
     1.  On the migration completion page in SOW Admin Center, select **View migration details**.
 
-    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text: System logs icon\) icon.
+    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text:\) icon.
 
     3.  Review the logs to determine which items failed during migration.
 

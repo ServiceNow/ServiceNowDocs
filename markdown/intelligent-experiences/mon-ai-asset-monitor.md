@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Working with AI asset records, Discover and manage AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Monitoring an AI system
@@ -36,9 +36,9 @@ To start monitoring scores for an AI system, you must activate evaluation scorin
 
 Access monitoring details for an AI system in one of the following ways:
 
--   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory**. Select the AI system asset and then select the **Monitor** tab.
--   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** and select a system name in the **AI systems ranked by score** widget.
--   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** &gt; **Evaluated sessions** and select the AI system name in the **AI system** column.
+-   Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Inventory**. Select the AI system asset and then select the **Monitor** tab.
+-   Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** and select a system name in the **AI systems ranked by score** widget.
+-   Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** &gt; **Evaluated sessions** and select the AI system name in the **AI system** column.
 
 ## Quality and safety score cards
 
@@ -57,7 +57,7 @@ Scores are color coded for quick interpretation:
 Select the side panel icon on a score card to open a detailed breakdown of how the composite score is calculated.
 
 -   See how the score is calculated by expanding the **How is this score calculated?** section, which displays a stacked bar visualization of metric contributions. Each segment's width represents the metric's weight, and its shading represents the metric's score.
--   Review the **Nuances to consider** section for notes about how the average score is derived and how different scoring formats \(binary, percentage, tiered\) affect the calculation.
+-   Review the **Nuances to consider** section for notes about how the average score is derived and how different scoring formats \(binary, percentage, scale\) affect the calculation.
 
 For details on how scores are calculated, see [How evaluation scoring works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-how-evaluation-scoring-works.md).
 

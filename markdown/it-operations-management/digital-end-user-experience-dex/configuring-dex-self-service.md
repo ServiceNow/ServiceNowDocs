@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [dex self service, configure dex self service, set up self service, self service plugin, device health check]
 breadcrumb: [Configure, Digital End-User Experience, IT Operations Management]
 ---
 

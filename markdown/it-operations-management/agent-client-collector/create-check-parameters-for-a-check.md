@@ -1,6 +1,6 @@
 ---
 title: Create check parameters for a check
-description: Create a check parameter to add a configurable input that customizes how a check runs, without changing the underlying script or command.
+description: Create a check parameter to add a configurable input that customizes how an Agent Client Collector check runs, without changing the underlying script or command.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/create-check-parameters-for-a-check.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Collect data from your system devices, ACC deployment - shared betw
 
 # Create check parameters for a check
 
-Create a check parameter to add a configurable input that customizes how a check runs, without changing the underlying script or command.
+Create a check parameter to add a configurable input that customizes how an Agent Client Collector check runs, without changing the underlying script or command.
 
 ## Before you begin
 

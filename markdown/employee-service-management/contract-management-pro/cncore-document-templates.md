@@ -7,8 +7,8 @@ release: brazil
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-10-29"
+reading_time_minutes: 2
 keywords: [Own paper contract template, Contract template, Word document templates, Generate contract, Content controls, Signature tag, Contracts metadata, Configure metadata]
 breadcrumb: [Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -19,21 +19,21 @@ Create contract templates to easily generate Microsoft Word contract documents b
 
 The contract template in Contract Management Pro takes a Microsoft Word document that contains content controls as an input. The content marked by the content controls are parsed and used to create clauses and clause variations.
 
-You can add content controls either manually or by using the Microsoft Word add-in for ServiceNow Contracts. Use only one method for a single contract template.
+You can set up a contract template in more than one way. Choose the method that fits your setup:
+
+-   Manual content controls: Add content controls in Microsoft Word on Windows, then create the template in the platform. See [Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md).
+-   Word add-in: Create the template in the platform, then add content controls with the Microsoft Word add-in for ServiceNow Contracts. See [Create contract template using Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md).
+
+Use one method for each contract template. You can use different methods for different templates in the same instance.
 
 **Note:**
 
-By using Microsoft Word add-in, you can add content controls on macOS as well as Windows systems. The manual method enables you to add content controls only on Windows systems.
+The manual method enables you to add content controls only on Windows systems. The Microsoft Word add-in works on both macOS and Windows systems.
 
-For more information, see the following topics:
-
--   [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md).
--   [Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md).
-
--   **[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)**  
-Create contract templates by using Microsoft Word add-in for ServiceNow Contracts to add content controls.
+-   **[Create contract template using Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)**  
+Create a contract template in the platform, then use the Microsoft Word add-in for Contracts to add content controls to the document and upload it. This method works in Word on Windows and Mac.
 -   **[Create contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-setup-ct-manual.md)**  
-Create contract templates by adding content controls manually.
+Create a contract template by adding content controls to a Word document by hand, in Word on Windows, and then uploading the document to the platform.
 -   **[Publish a contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-publish-template.md)**  
 Publish a contract template to make it available for generating a standard contract document with predefined content when a contract user submits a request.
 -   **[Configure dynamic clauses for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-clause-and-cv.md)**  

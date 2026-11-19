@@ -109,6 +109,8 @@ Define the type of trigger that determines when to start running your playbook.
 Begin building your playbook by adding and configuring the trigger.
 -   **[Create a scheduled trigger for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-scheduled-trigger-definition.md)**  
 Create a scheduled trigger that starts your playbook at the required time and interval. You can schedule a trigger in any time zone, with or without an end date for the schedule.
+-   **[Configure an on-demand trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/configure-on-demand-trigger.md)**  
+Configure an on-demand launcher so that users can start a playbook when they decide the work begins, instead of waiting for a record change or a schedule.
 
 **Parent Topic:**[Understanding the playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-building-blocks.md)
 

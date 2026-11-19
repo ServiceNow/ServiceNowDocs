@@ -1,6 +1,6 @@
 ---
 title: Explore Approvals
-description: Explore the Approvals section on the Configurations page of AI Control Tower.
+description: Explore the Approvals section on the Configurations page of Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/explore-approvals.html
 release: brazil
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Controls, Configurations, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Controls, Configurations, Control Tower dashboard, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Explore Approvals
 
-Explore the **Approvals** section on the Configurations page of AI Control Tower.
+Explore the **Approvals** section on the Configurations page of Control Tower.
 
 The approvals page has two features to set up governance of your approvals for AI assets and workflows.
 

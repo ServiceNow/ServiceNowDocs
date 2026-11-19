@@ -106,5 +106,5 @@ The detailed usage metrics for these Microsoft products \(except Power BI\) are 
 
 ## What to do next
 
-Revalidate the connection and credential details of this integration. For more information, see [Create a Microsoft 365 integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/set-up-microsoft-office-365.md).
+Revalidate the connection and credential details of this integration. For more information, see [Create a Microsoft 365 integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/set-up-microsoft-office-365.md).
 

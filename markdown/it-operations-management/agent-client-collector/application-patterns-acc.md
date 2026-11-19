@@ -86,7 +86,7 @@ sn\_agent.appl\_classification\_behavior
 
 Set value to **full** to enable working with applications patterns and to access pattern commands in the allow-list.Default: simple
 
-**Note:** To enable application pattern execution with the allow-list, use the allow-list template for application patterns. For details, see [Generate a Pattern allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/generate-patterns-allow-list.md).
+**Note:** To enable application pattern execution with the allow-list, use the allow-list template for application patterns. For details, see [Generate a Pattern allow list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/generate-patterns-allow-list.md).
 
 </td></tr><tr><td>
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Explicit Block, Threat Response, delete]
-breadcrumb: [Managing policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing policies, Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Delete a policy
@@ -25,7 +25,7 @@ A policy has no pause or disable state. You must delete the policy to end enforc
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Govern** &gt; **Policies**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Govern** &gt; **Policies**.
 
 2.  Find the policy you want to remove.
 

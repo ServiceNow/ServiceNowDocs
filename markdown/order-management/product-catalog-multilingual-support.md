@@ -24,7 +24,9 @@ Supported multilingual fields
 
 </th></tr></thead><tbody><tr><td>
 
-Product Offering\[sn\_prd\_pm\_product\_offering\]
+Product Offering
+
+ \[sn\_prd\_pm\_product\_offering\]
 
 </td><td>
 
@@ -32,7 +34,9 @@ Name, Display name, Description
 
 </td></tr><tr><td>
 
-Product Offering Catalog\[sn\_prd\_pm\_product\_offering\_catalog\]
+Product Offering Category
+
+ \[sn\_prd\_pm\_product\_offering\_category\]
 
 </td><td>
 
@@ -40,7 +44,19 @@ Name, Description
 
 </td></tr><tr><td>
 
-Product Offering Characteristics\[sn\_prd\_pm\_product\_offering\_characteristic\]
+Product Offering Catalog
+
+ \[sn\_prd\_pm\_product\_offering\_catalog\]
+
+</td><td>
+
+Name, Description
+
+</td></tr><tr><td>
+
+Product Offering Characteristics
+
+ \[sn\_prd\_pm\_product\_offering\_characteristic\]
 
 </td><td>
 
@@ -48,7 +64,9 @@ Name
 
 </td></tr><tr><td>
 
-Product Offering Relationships\[sn\_prd\_pm\_product\_offering\_relationship\]
+Product Offering Relationships
+
+ \[sn\_prd\_pm\_product\_offering\_relationship\]
 
 </td><td>
 
@@ -56,7 +74,9 @@ Display name
 
 </td></tr><tr><td>
 
-Specifications\[sn\_prd\_pm\_specification\]
+Specifications
+
+ \[sn\_prd\_pm\_specification\]
 
 </td><td>
 
@@ -64,7 +84,9 @@ Name, Display name, Description
 
 </td></tr><tr><td>
 
-Specification Categories\[sn\_prd\_pm\_specification\_category\]
+Specification Categories
+
+ \[sn\_prd\_pm\_specification\_category\]
 
 </td><td>
 
@@ -72,7 +94,9 @@ Name
 
 </td></tr><tr><td>
 
-Product Offering Specification Relationship\[sn\_prd\_pm\_specification\_relationship\]
+Product Offering Specification Relationship
+
+ \[sn\_prd\_pm\_specification\_relationship\]
 
 </td><td>
 
@@ -80,7 +104,9 @@ Display name
 
 </td></tr><tr><td>
 
-Product Visuals\[sn\_prd\_pm\_visuals\]
+Product Visuals
+
+ \[sn\_prd\_pm\_visuals\]
 
 </td><td>
 
@@ -88,7 +114,9 @@ Name
 
 </td></tr><tr><td>
 
-Characteristics\[sn\_prd\_pm\_characteristic\]
+Characteristics
+
+ \[sn\_prd\_pm\_characteristic\]
 
 </td><td>
 
@@ -96,7 +124,9 @@ Name, Description
 
 </td></tr><tr><td>
 
-Characteristic Options \[sn\_prd\_pm\_characteristic\_option\]
+Characteristic Options
+
+ \[sn\_prd\_pm\_characteristic\_option\]
 
 </td><td>
 

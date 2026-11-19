@@ -9,7 +9,7 @@ classification: localization-workspace
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Creating email notifications for Localization Workspace, Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Creating email notifications for Localization Workspace, Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create email notifications for translation request due dates
@@ -48,15 +48,15 @@ The following procedure is specific to notifications for Localization Workspace 
 
 4.  On the **When to send** tab, fill in the fields.
 
-<table id="choicetable_fpy_zx4_nhc"><thead><tr><th align="left" id="d249299e191">
+<table id="choicetable_fpy_zx4_nhc"><thead><tr><th align="left" id="d249242e193">
 
 Field
 
-</th><th align="left" id="d249299e194">
+</th><th align="left" id="d249242e196">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d249299e200">
+</th></tr></thead><tbody><tr><td id="d249242e202">
 
 **Send when**
 
@@ -64,7 +64,7 @@ Description
 
 Select `Record inserted or updated`.
 
-</td></tr><tr><td id="d249299e212">
+</td></tr><tr><td id="d249242e214">
 
 **Updated**
 
@@ -72,7 +72,7 @@ Select `Record inserted or updated`.
 
 Select this check box.
 
-</td></tr><tr><td id="d249299e221">
+</td></tr><tr><td id="d249242e223">
 
 **Inserted**
 
@@ -80,7 +80,7 @@ Select this check box.
 
 Clear this check box.
 
-</td></tr><tr><td id="d249299e230">
+</td></tr><tr><td id="d249242e232">
 
 **Conditions**
 
@@ -95,15 +95,15 @@ In the example, two conditions are set:1.  `State is In Progress`
 
 5.  On the **Who will receive** tab, fill in the fields according to your organizational requirements.
 
-<table id="choicetable_kyt_4th_nhc"><thead><tr><th align="left" id="d249299e268">
+<table id="choicetable_kyt_4th_nhc"><thead><tr><th align="left" id="d249242e270">
 
 Field
 
-</th><th align="left" id="d249299e271">
+</th><th align="left" id="d249242e273">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d249299e277">
+</th></tr></thead><tbody><tr><td id="d249242e279">
 
 **Users**
 
@@ -111,7 +111,7 @@ Description
 
 Select the lock icon \[Omitted image "LockIconNE.png"\] to add an individual user from the User \[sys\_user\] table.
 
-</td></tr><tr><td id="d249299e288">
+</td></tr><tr><td id="d249242e290">
 
 **Users/Groups in Fields**
 
@@ -119,7 +119,7 @@ Select the lock icon \[Omitted image "LockIconNE.png"\] to add an individual use
 
 Select the lock icon to add recipients from fields in the Localization Project \[sn\_lf\_project\] table.
 
-</td></tr><tr><td id="d249299e297">
+</td></tr><tr><td id="d249242e299">
 
 **Groups**
 
@@ -127,7 +127,7 @@ Select the lock icon to add recipients from fields in the Localization Project \
 
 Select the lock icon to add a group of users, such as Localization Requestor, from the Group \[sys\_user\_group\] table.
 
-</td></tr><tr><td id="d249299e306">
+</td></tr><tr><td id="d249242e308">
 
 **Subscribable**
 
@@ -138,15 +138,15 @@ Option to enable all users to subscribe to the notification.**Note:** Recipients
 </td></tr></tbody>
 </table>6.  On the **What it will contain** tab, fill in the fields according to your organizational requirements.
 
-<table id="choicetable_bxw_f1p_nhc"><thead><tr><th align="left" id="d249299e330">
+<table id="choicetable_bxw_f1p_nhc"><thead><tr><th align="left" id="d249242e332">
 
 Field
 
-</th><th align="left" id="d249299e333">
+</th><th align="left" id="d249242e335">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d249299e339">
+</th></tr></thead><tbody><tr><td id="d249242e341">
 
 **Email template**
 
@@ -154,7 +154,7 @@ Description
 
 You can search for an existing template.
 
-</td></tr><tr><td id="d249299e348">
+</td></tr><tr><td id="d249242e350">
 
 **Subject**
 
@@ -162,7 +162,7 @@ You can search for an existing template.
 
 You can use variables from the Localization Project \[sn\_lf\_project\] table, available under **Select variables**.
 
-</td></tr><tr><td id="d249299e360">
+</td></tr><tr><td id="d249242e362">
 
 **Message HTML**
 

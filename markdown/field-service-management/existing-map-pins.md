@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the appearance of map n Dispatcher Workspace, Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Configure the appearance of map n Dispatcher Workspace, Dispatcher Workspace, CRM Workspace, Configure, Field Service Management]
 ---
 
 # Map pins in Dispatcher Workspace

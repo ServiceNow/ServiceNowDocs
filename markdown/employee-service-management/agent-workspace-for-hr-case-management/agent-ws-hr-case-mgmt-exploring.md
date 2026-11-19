@@ -148,7 +148,7 @@ Displays a graphical representation of the data related to the teams you belong 
 </td></tr></tbody>
 </table>## My team
 
-\[Omitted image "my-teams-tab.png"\] Alt text: My teams tab
+\[Omitted image "My-teams-tab.png"\] Alt text: My teams tab
 
 Information related to the teams your HR agents belong to display in the **My team** section.
 

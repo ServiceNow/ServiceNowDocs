@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Conversational, Action, Virtual Agent, Designer, GenAI]
 breadcrumb: [Managing asset library items, Build conversations, Virtual Agent, Conversational Interfaces]
 ---

@@ -56,7 +56,7 @@ For more information about how to use Workplace Analytics, see [Working with Wor
 
 [Space Optimization]()
 
-[Scenario Planning]()
+[Scenario planning]()
 
 [Schedule Planning]()
 

@@ -1,6 +1,6 @@
 ---
 title: Working with Skill feedback in Talent Feedback
-description: Skill feedback is one of the main features of Talent Feedback that can be used by managers to request feedback for their employees, and by employees to provide feedback for their peers.
+description: Skill feedback is one of the main features of Talent Feedback. Managers can use it to request feedback for their employees, and by employees to provide feedback for their peers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/employee-service-management/talent-feedback/skill-feedback-feature.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Using Talent Feedback, Talent Feedback, Growth Experiences, HR Serv
 
 # Working with Skill feedback in Talent Feedback
 
-Skill feedback is one of the main features of Talent Feedback that can be used by managers to request feedback for their employees, and by employees to provide feedback for their peers.
+Skill feedback is one of the main features of Talent Feedback. Managers can use it to request feedback for their employees, and by employees to provide feedback for their peers.
 
 -   [Request skill feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/talent-feedback/request-skill-feedback.md)
 

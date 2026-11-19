@@ -1,6 +1,6 @@
 ---
 title: Benchmarks reference
-description: Refer to the different roles, dashboard, KPI categories and trends offered by ServiceNow Benchmarks.
+description: Find reference information about the Benchmarks roles, dashboard, KPI categories, and trends.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/benchmarks/reference-benchmarks.html
 release: brazil
@@ -14,5 +14,5 @@ breadcrumb: [Benchmarks, IT Service Management]
 
 # Benchmarks reference
 
-Refer to the different roles, dashboard, KPI categories and trends offered by ServiceNow Benchmarks.
+Find reference information about the Benchmarks roles, dashboard, KPI categories, and trends.
 

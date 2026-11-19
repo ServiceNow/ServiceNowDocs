@@ -34,19 +34,19 @@ Role required: admin
 
 2.  On the Microsoft Endpoint Configuration Manager, select **Assets and Compliance**.
 
-3.  On the Assets and Compliance section, select **Devices**.
+3.  In the **Assets and Compliance** section, select **Devices**.
 
-    The list of devices are displayed on the right pane of the window.
+    The list of devices is displayed in the right pane of the window.
 
 4.  Select the required CI device from the list.
 
     **Note:** The selected CI device must be Active.
 
-    In case the required CMPivot entity isn’t displayed on the list, extend the hardware inventory to add the CMPivot entity to the list. For more information, see [Extend hardware inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/extend-hardware-entity.md).
+    If the required CMPivot entity isn’t displayed on the list, extend the hardware inventory to add the CMPivot entity to the list. For more information, see [Extend hardware inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/extend-hardware-entity.md).
 
 5.  Select **Start CMPivot**.
 
-    Alternatively, you can also right-click on the device and select **Start CMPivot**.
+    Alternatively, select and hold \(or right-click\) the device and select **Start CMPivot**.
 
     \[Omitted image "start-cmpivot-console.png"\] Alt text: Start CMPivot
 

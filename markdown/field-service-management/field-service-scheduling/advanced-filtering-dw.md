@@ -38,6 +38,18 @@ Role required: wm\_dispatcher.
 
 7.  Add or edit the filter that you want to apply.
 
+    |Field|Description|
+    |-----|-----------|
+    |**User · agentgroup\_user**|Filter by the users who are members of the territory's assignment groups. These are the territory's regular agents.|
+    |**User · terrmember\_user**|Filter by the users added to the territory individually, outside its assignment groups. These are agents assigned to the territory temporarily.|
+    |**Skill**|Filter by the skills of users.|
+    |**Crew · crewgroup\_crew**|Filter by the crews in the territory's assignment groups. These are the territory's regular crews.|
+    |**Crew · terrmember\_crew**|Filter by the crews added to the territory individually, outside its assignment groups. These are crews assigned to the territory temporarily.|
+    |**Skills**|Filter by the skills of crews.|
+    |**Equipment name**|Filter by the name of the equipment.|
+    |**Category**|Filter by the equipment category.|
+    |**Assignment Group**|Filter by the contractor's group name. The field is labeled Assignment Group, but it filters contractors.|
+
 8.  Choose from the following:
 
     -   Select **Save Filter** to name the filter and save it.

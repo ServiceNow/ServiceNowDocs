@@ -41,7 +41,7 @@ For information on tools, see [ITSM MCP Server tools reference](https://raw.gith
 
     -   **1. requester.create\_incident: Create an incident through a guided workflow that searches for self-service solutions, redirects to matching catalog items, and detects duplicate incidents before creating a ticket.**
 
-        **Note:** This tool uses the [Create incident AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itsm-create-incident-ai-agent.md) as an MCP tool. To configure, see [Configure an AI agent as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configure-ai-agent-as-mcp-tool.md).
+        **Note:** This tool uses the [Create incident AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itsm-create-incident-ai-agent.md) as an MCP tool. To configure, see [Configure the Create incident AI agent as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configure-ai-agent-as-mcp-tool.md).
 
         Example prompts:
 
@@ -64,12 +64,6 @@ For information on tools, see [ITSM MCP Server tools reference](https://raw.gith
 
         -   Incident numbers are rejected. To add a comment to an incident, use incident.modify instead -- see [Manage incidents using the ITSM MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/manage-incidents-itsm-mcp-server.md).
         -   Comments are customer-visible only. Work notes aren't accessible to requesters. You can't add comments to closed or canceled tickets.
-    -   **4. task\_approval\_decision: Approve or reject the caller's oldest pending approval on a request item.**
-
-        Example prompts:
-
-        -   "Approve RITM1359964."
-        -   "Reject RITM1359964."
 3.  Review the MCP client application response.
 
     The MCP client application retrieves data from your ServiceNow instance and presents it in the chat. The response includes only data from tickets you own.

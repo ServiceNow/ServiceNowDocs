@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/field-service-management/config
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 19
-breadcrumb: [Configuring Field Service Territory Planning Console, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+reading_time_minutes: 20
+breadcrumb: [Configuring Field Service Territory Planning Console, CRM Workspace, Configure, Field Service Management]
 ---
 
 # Configuring a map overlay

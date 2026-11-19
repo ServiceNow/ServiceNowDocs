@@ -7,9 +7,9 @@ release: brazil
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Resolving slow queries, Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Resolving slow queries, Resolve issues, Platform performance, Maintain and monitor, ServiceNow AI Platform]
 ---
 
 # Review index suggestions for slow queries
@@ -36,7 +36,7 @@ Access index suggestions from the Application Navigator or the Performance homep
 
 4.  Choose the next processing step for the index suggestion.
 
-<table id="choicetable_msd_x4k_tz"><tbody><tr><td id="d187224e106">
+<table id="choicetable_msd_x4k_tz"><tbody><tr><td id="d187165e108">
 
 **Export**
 
@@ -44,7 +44,7 @@ Access index suggestions from the Application Navigator or the Performance homep
 
 Downloads the index suggestion as an .xml file, which can be [exported to a non-production instance for testing and evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/platform-performance/export-index-suggestion.md).
 
-</td></tr><tr><td id="d187224e132">
+</td></tr><tr><td id="d187165e134">
 
 **Ignore**
 
@@ -52,7 +52,7 @@ Downloads the index suggestion as an .xml file, which can be [exported to a non-
 
 Changes the index suggestion state to ignore, which indicates the index suggestion is no longer active and available for index creation. Index suggestions with an Ignore state are listed in the **Index Suggestions &gt; Done** view of the Index Suggestion table.
 
-</td></tr><tr><td id="d187224e144">
+</td></tr><tr><td id="d187165e146">
 
 **Schedule creation**
 

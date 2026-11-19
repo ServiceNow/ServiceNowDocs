@@ -8,7 +8,7 @@ product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
@@ -61,15 +61,15 @@ If an agent is part of more than one assignment group or territory, then dispatc
 
 3.  Assign the work order task to agents.
 
-<table id="choicetable_sbq_vhp_b4b"><thead><tr><th align="left" id="d28382e309">
+<table id="choicetable_sbq_vhp_b4b"><thead><tr><th align="left" id="d28387e313">
 
 To
 
-</th><th align="left" id="d28382e312">
+</th><th align="left" id="d28387e316">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d28382e318">
+</th></tr></thead><tbody><tr><td id="d28387e322">
 
 **Assign a task manually from the task panel**
 
@@ -80,7 +80,7 @@ Do this
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d28382e342">
+</td></tr><tr><td id="d28387e346">
 
 **Assign a task manually from the contextual side panel**
 
@@ -93,7 +93,7 @@ Do this
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d28382e390">
+</td></tr><tr><td id="d28387e394">
 
 **Assign a task manually from the map**
 
@@ -105,7 +105,7 @@ Do this
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d28382e423">
+</td></tr><tr><td id="d28387e427">
 
 **Auto-assign a task from the task panel**
 
@@ -116,7 +116,7 @@ Do this
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d28382e457">
+</td></tr><tr><td id="d28387e461">
 
 **Auto-assign a task from the contextual side panel**
 
@@ -128,7 +128,7 @@ Do this
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d28382e499">
+</td></tr><tr><td id="d28387e503">
 
 **Auto-assign from the task record**
 
@@ -139,7 +139,7 @@ Do this
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d28382e526">
+</td></tr><tr><td id="d28387e530">
 
 **Auto-assign a task from a list**
 
@@ -151,7 +151,7 @@ Do this
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d28382e565">
+</td></tr><tr><td id="d28387e569">
 
 **Auto-assign a task from the map**
 
@@ -232,7 +232,7 @@ Record the duration for executing a task using the Dispatcher Workspace applicat
 
 ### Before you begin
 
-Role required: wm\_dispatcher
+Role required: wm\_dispatcher, wm\_manager
 
 ### Procedure
 
@@ -242,7 +242,9 @@ Role required: wm\_dispatcher
 
 3.  Select **Record Time**.
 
-4.  In the **User** field, select an agent for whom you want to record time.
+4.  In the **User** field, select the technician from the list of technicians that you manage.
+
+    The **User** field defaults to the technician assigned to the task. To record time for a different technician, select the technician.
 
 5.  Enter the time worked.
 
@@ -251,6 +253,8 @@ Role required: wm\_dispatcher
     |Days|Number of days worked on the task.|
     |Time Worked \(Hours\)|Number of hours worked on the task.|
     |Time Worked \(Minutes\)|Number of minutes worked on the task.|
+    |Work Date|The date the work was done|
+    |Category|The type of time being recorded|
 
 6.  In the Comments field, enter any additional notes about the task.
 
@@ -259,7 +263,7 @@ Role required: wm\_dispatcher
 
 ### Result
 
-The time card is automatically created for the user.
+The time worked entry is recorded against the selected technician, and appears as Logged by \[your name\] for \[technician name\]. The time card is automatically created for the technician.
 
 ## Cancel a work order task in Dispatcher Workspace
 

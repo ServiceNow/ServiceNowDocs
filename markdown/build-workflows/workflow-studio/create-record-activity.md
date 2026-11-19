@@ -1,5 +1,5 @@
 ---
-title: Create Record activity
+title: New Record Form activity
 description: Pause the playbook and prompt the end user to create a record in a form view. Use this activity to allow the end user to create a record. This activity requires you to configure the desired table for which record to create, and the desired form view that the end user will see when creating the record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/create-record-activity.html
@@ -7,12 +7,12 @@ release: brazil
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Create Record activity
+# New Record Form activity
 
 Pause the playbook and prompt the end user to create a record in a form view. Use this activity to allow the end user to create a record. This activity requires you to configure the desired table for which record to create, and the desired form view that the end user will see when creating the record.
 
@@ -62,18 +62,6 @@ Information to display about activity usage or outcome.
 
 </td></tr><tr><td>
 
-Run condition
-
-</td><td>
-
-Condition Builder
-
-</td><td>
-
-Conditions that must be met to run an activity or stage. You can use data from prior activities to build conditions.**Note:** Select **Show additional options** to see this field.
-
-</td></tr><tr><td>
-
 Start Rule
 
 </td><td>
@@ -82,11 +70,20 @@ Choice
 
 </td><td>
 
-Under **Schedule** &gt; **Start Rule**, select a start rule for when your stage should start running:-   **When process starts**: Your stage starts running as soon as the playbook starts.
--   **After specific stages**: Your stage starts running after specified stage\(s\) have finished running.
+Under **Schedule** &gt; **Start Rule**, select a start rule for when the activity should start running:-   **When stage starts**: The activity starts running as soon as its stage starts running.
+-   **After specific activities**: The activity starts running after specified activities have finished running. You can select one more activities from the available activities. By default, the previous activity is selected.
 
-Under Schedule &gt; Start Rule, select a start rule for when your activity should start running:-   **When stage starts**: Your activity starts running as soon as its stage starts running. Your stage starts running when your playbook is triggered.
--   **After specific activities**: Your activity starts running after specified activities have finished running.
+</td></tr><tr><td>
+
+Display order
+
+</td><td>
+
+Choice
+
+</td><td>
+
+Option to select the order in which you want to display the activity to end users at run time. From the **Playbook display order** list, select the display order for the activity.
 
 </td></tr><tr><td>
 
@@ -99,6 +96,32 @@ True/False
 </td><td>
 
 Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
+
+</td></tr><tr><td>
+
+Run condition
+
+</td><td>
+
+Condition Builder
+
+</td><td>
+
+Conditions that must be met to run an activity or stage. You can use data from prior activities to build conditions.**Note:** Select **Show additional options** to see this field.
+
+</td></tr><tr><td>
+
+Restart rules
+
+</td><td>
+
+Choice
+
+</td><td>
+
+The restart rule defines how the activity runs when the playbook is restarted. Options are:-   **Skip on restart**: The stage or activity runs only during the initial run. It does not run when the playbook is restarted. Use this rule when you don't want new tasks or records to be created during a restarted run. This is important if the original execution and its resulting record are still relevant.
+-   **Run always**: The activity runs during the initial run and in any restarted run.
+-   **Skip on first run**: The activity runs only during a restarted run. It never runs during the initial run.
 
 </td></tr><tr><td>
 
@@ -139,13 +162,17 @@ Field values to set during record creation.
 </td></tr></tbody>
 </table>## Outputs
 
-These outputs can provide data to other activities in your playbook. You can access this data as activity inputs when you configure your activity:
+These outputs can provide data to other activities in your playbook. The outputs are available in the **Automation** tab and you can access this data as activity inputs when you configure your activity:
 
 |Output|Type|Description|
 |------|----|-----------|
 |Table|Table Name|Table containing new record.|
 |Create Record View|String|Form view used for record creation.|
 |Record Created|Sys ID|Unique identifier of the record that this activity created.|
+
+## AI Agents
+
+You can add AI agents to this activity and configure the agents to perform tasks within this activity. To learn about how to configure AI agents for the activity, see [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/configure-agentic-playbooks.md).
 
 ## Design considerations
 

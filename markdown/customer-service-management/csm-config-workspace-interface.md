@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm
 release: brazil
 topic_type: concept
 last_updated: "2026-10-22"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 

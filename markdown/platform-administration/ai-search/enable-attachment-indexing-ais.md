@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Indexed source attributes, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Indexed source attributes, Indexed sources, Configure, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Enable indexing of attachments for an AI Search indexed source
@@ -34,7 +34,7 @@ By default, AI Search indexes searchable content and metadata \(such as file siz
 -   Plain Text \(`.txt`\)
 -   Portable Document Format \(`.pdf`\) with searchable text
 
-**Note:** The maximum file size for binary files is 25 MB. Keyword indexing processes up to the first 1MB of text. Use semantic search to index data containing between 1MB and 25 MB of text.
+**Note:** The maximum file size for binary files is typically 25 MB. Keyword indexing processes up to the first 1MB of text. Use semantic search to index data containing between 1MB and 25 MB of text.
 
 AI Search provides limited support for encrypted record attachments:
 

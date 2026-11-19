@@ -181,7 +181,7 @@ Message
 Content of the notification message.
 
 </td></tr></tbody>
-</table>    For more information on DEX Desktop Assistant, see .
+</table>    For more information on DEX Desktop Assistant, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/dex-landing-cf.md).
 
     |Field|Description|
     |-----|-----------|

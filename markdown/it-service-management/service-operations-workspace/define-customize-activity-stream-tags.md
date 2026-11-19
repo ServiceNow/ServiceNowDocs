@@ -1,6 +1,6 @@
 ---
 title: Define and customize activity stream tags
-description: Define and customize the activity stream tags for the record pages in Service Operations Workspace. The tags helps in filtering the activity from the activity streams as required.
+description: Define and customize the activity stream tags for the record pages in Service Operations Workspace. The tags help filter the activity from the activity streams as required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/define-customize-activity-stream-tags.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configuring record pages in Service Operations Workspace for ITSM, 
 
 # Define and customize activity stream tags
 
-Define and customize the activity stream tags for the record pages in Service Operations Workspace. The tags helps in filtering the activity from the activity streams as required.
+Define and customize the activity stream tags for the record pages in Service Operations Workspace. The tags help filter the activity from the activity streams as required.
 
 ## Before you begin
 

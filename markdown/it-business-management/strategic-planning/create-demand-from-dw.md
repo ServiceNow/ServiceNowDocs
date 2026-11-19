@@ -58,7 +58,7 @@ Demand experience
 
 </td><td>
 
-Demand experience to associate with this demand, which determines the demand's form view, the modules shown, and any dynamic attributes available. This is an optional field. If no value is selected in this field, the demand is displayed with the default form view and all modules.
+Demand experience to associate with this demand, which determines the demand's form view, the modules shown, and any dynamic attributes available. This is an optional field. If no value is selected in this field, the demand is displayed with the default form view and all modules. After a demand experience is set on a demand, it can't be changed or cleared.
 
 </td></tr><tr><td>
 

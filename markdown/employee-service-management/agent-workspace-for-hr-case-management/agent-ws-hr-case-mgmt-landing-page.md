@@ -24,11 +24,6 @@ HR agents can work on HR cases using HR Service Delivery Core UI, HR Service Del
 
 -   The HR Service Delivery Core UI enables you to create, view, or work on an HR case in a form view.
 -   The HR Service Delivery Agent Workspace \(Classic\) gives you the ability to create custom workspaces from the Agent Workspace framework.
-
-    **Important:**
-
-    -   HR Service Delivery Agent Workspace \(Classic\) is now deprecated and no longer supported or available for new activation. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
-    -   If you are an existing user of HR Service Delivery Agent Workspace \(Classic\), you can migrate to the Agent Workspace for HR Case Management \(Configurable\) for enhanced features and capabilities. See [Migration Guidelines](https://www.servicenow.com/community/hrsd-articles/hr-agent-workspace-migration-guidelines-from-classic-to/ta-p/2310606).
 -   The Agent Workspace for HR Case Management \(Configurable\) is a refactored version of the classic agent workspace experience built on a configurable UI Builder version. This application puts all the tools that you need in one place so that you can interact with employees, respond to inquiries, and resolve issues quickly.
 
     **Note:** If you’re a new customer of HR Service Delivery, activate the Agent Workspace for HR Case Management \(Configurable\) application from the ServiceNow® Store.
@@ -442,19 +437,19 @@ Response templates
 
 <table id="table_rwk_drp_bwb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore Learn more about Agent Workspace for HR Case Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-exploring.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn more about Agent Workspace for HR Case Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-exploring.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/agent-workspace-for-hr-case-management/setup-configurable-hr-agent-workspace.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/agent-workspace-for-hr-case-management/setup-configurable-hr-agent-workspace.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Learn how to use HR Agent Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn how to use HR Agent Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Reference Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

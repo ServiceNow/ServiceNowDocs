@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-10-19"
 reading_time_minutes: 2
-breadcrumb: [Configure Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine properties, Scan Engine properties, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure real-time scanning properties

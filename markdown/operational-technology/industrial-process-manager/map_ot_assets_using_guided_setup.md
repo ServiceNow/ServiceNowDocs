@@ -34,15 +34,15 @@ If you have the admin role, you can use the Industrial Process Manager Guided Se
 
 4.  Select the following task tabs, then select **Configure** to complete the configuration tasks.
 
-<table><thead><tr><th align="left" id="d97473e103">
+<table><thead><tr><th align="left" id="d97465e105">
 
 Task
 
-</th><th align="left" id="d97473e106">
+</th><th align="left" id="d97465e108">
 
 Purpose
 
-</th></tr></thead><tbody><tr><td id="d97473e112">
+</th></tr></thead><tbody><tr><td id="d97465e114">
 
 **Import OT Subnets**
 
@@ -50,7 +50,7 @@ Purpose
 
 Upload a spreadsheet of OT subnets to import subnets from network management platforms.
 
-</td></tr><tr><td id="d97473e121">
+</td></tr><tr><td id="d97465e123">
 
 **Add Sites**
 
@@ -58,7 +58,7 @@ Upload a spreadsheet of OT subnets to import subnets from network management pla
 
 Add a site to each OT subnet so that OT devices with IP addresses matched with the OT subnet record can be mapped to that site automatically.
 
-</td></tr><tr><td id="d97473e130">
+</td></tr><tr><td id="d97465e132">
 
 **Add Equipment Model Entities**
 
@@ -66,7 +66,7 @@ Add a site to each OT subnet so that OT devices with IP addresses matched with t
 
 Add an equipment model entity to the OT subnet record to automatically associate an OT device with the equipment model entity.
 
-</td></tr><tr><td id="d97473e139">
+</td></tr><tr><td id="d97465e141">
 
 **Select Discovery Source\(s\)**
 
@@ -76,7 +76,7 @@ Configure the following OT subnet-mapping system properties to limit the discove
 -   sn\_otsm.map\_all\_ot\_devices.discovery\_sources
 
 
-</td></tr><tr><td id="d97473e158">
+</td></tr><tr><td id="d97465e160">
 
 **Test Mappings**
 
@@ -84,7 +84,7 @@ Configure the following OT subnet-mapping system properties to limit the discove
 
 Validate assigned mappings of individual OT devices, individual OT subnets, multiple selected OT subnets, or all active OT subnets.
 
-</td></tr><tr><td id="d97473e167">
+</td></tr><tr><td id="d97465e169">
 
 **Activate and Schedule**
 

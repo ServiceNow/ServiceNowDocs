@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-22"
 reading_time_minutes: 1
 keywords: [Data Sensitivity Check, sensitive data]
-breadcrumb: [AI Gateway settings, Configure, AI Gateway, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [AI Gateway settings, Configure, AI Gateway, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Activate the Data Sensitivity Check
@@ -23,7 +23,7 @@ Role required: sn\_ai\_governance.ai\_steward or admin
 
 ## Procedure
 
-1.  In AI Control Tower, navigate to **Settings** &gt; **AI Gateway**.
+1.  In Control Tower, navigate to **Settings** &gt; **AI Gateway**.
 
 2.  Select the **Policies** tab.
 

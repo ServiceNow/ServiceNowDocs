@@ -32,7 +32,7 @@ When a technician is assigned to resolve your customer's field service request, 
 To enable this functionality, ensure that you meet the following criteria:
 
 -   Activate the Field Service Management - Customer Experience plugin \(com.snc.fsm\_customer\_experience\).
--   in the sys\_user table, enable the **Geolocation tracked** field for all your field service agents who would be assigned to the customer work orders.
+-   Enable the **Geolocation tracked** field in the sys\_user table for all your field service agents who would be assigned to the customer work orders.
 
     For more information, see [Location tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_LocationTracking.md).
 

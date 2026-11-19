@@ -26,7 +26,7 @@ Designed for service providers and telecom enterprises, this connector enables c
 -   Flexible discovery options: Choose how and when to run discovery based on your needs—whether it’s full bulk loads, targeted filtered discovery, or phased OLT-only imports. Apply custom filters by device IP or name.
 -   Multi-Instance support: Scale effortlessly by onboarding multiple Altiplano instances independently. Configure connection aliases and define import schedules per instance for complete operational flexibility.
 
-**Note:** Supported Nokia Altiplano Controller minimum version is 24.6. For a general overview of Service Graph Connector technology, see [Getting started with Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-sgc-intro.md).
+**Note:** Supported Nokia Altiplano Controller minimum version is 24.6. For a general overview of Service Graph Connector technology, see .
 
 ## Nokia Altiplano SGC Architecture
 
@@ -199,13 +199,13 @@ The following are examples on how you can use the Nokia Altiplano Service Graph 
     -   Logical Components: Logical ports, VLANs, Link Aggregation Groups \(LAGs\), and logical paths between devices
 -   Maintain the integrity of your network data with scheduled, automated reconciliation that:
     -   Detects and responds to real-time changes
-    -   Prevents data drift or stale records
+    -   Helps prevent data drift or stale records
     -   Supports operational processes like service assurance, order fulfillment, and network planning
 -   Discover beyond physical infrastructure by capturing and managing logical connectivity within ServiceNow:
     -   Identify and model logical ports, LAGs, and logical paths like PON and VLAN connections
     -   Link logical CIs with physical components using parent-child and member-of relationships
     -   Enhance diagnostics, impact analysis, and service modeling by visualizing end-to-end logical topologies
--   Leverage ServiceNow’s built-in Extract, Transform, Load \(ETL\) framework to simplify and accelerate integration:
+-   Use ServiceNow’s built-in Extract, Transform, Load \(ETL\) framework to simplify and accelerate integration:
     -   Predefined transformation maps and CI class definitions reduce development overhead
     -   Reuse existing CMDB structures to minimize customization
     -   Rapidly onboard new Altiplano instances and scale across your network infrastructure
@@ -227,7 +227,7 @@ The following are examples on how you can use the Nokia Altiplano Service Graph 
 
 ## CMDB Integrations Dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. You can see metrics for all integration runs. You can filter the view to a specific integration, a specific time duration, or a specific integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integration-commons-for-cmdb.md).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors. You can see metrics for all integration runs. You can filter the view to a specific integration, a specific time duration, or a specific integration run. For more details about monitoring integrations in the CMDB Integrations Dashboard, see .
 
 **Related topics**  
 

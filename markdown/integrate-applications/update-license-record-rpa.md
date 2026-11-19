@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/update-l
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Robot license distribution, Configure, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
 

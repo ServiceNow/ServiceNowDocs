@@ -20,7 +20,7 @@ As a live agent, when you accept a request from the WhatsApp service channel, yo
 
 ## Integrating with Customer Service Management
 
-Integrate the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application with the ServiceNow® Customer Service Management application to enable your customer contacts and consumers to initiate a WhatsApp chat conversation with a Virtual Agent or live agent. An agent can initiate a conversation, or accept a conversation initiated from a WhatsApp chat conversation. For more information, see .
+Integrate the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application with the ServiceNow® Customer Service Management application to enable your customer contacts and consumers to initiate a WhatsApp chat conversation with a Virtual Agent or live agent. An agent can initiate a conversation, or accept a conversation initiated from a WhatsApp chat conversation. For more information, see [Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/messg-integrating-whatsapp-with-csm-whatsapp-cloud.md).
 
 **Parent Topic:**[Configure Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/messg-direct-whatsapp-configure.md)
 

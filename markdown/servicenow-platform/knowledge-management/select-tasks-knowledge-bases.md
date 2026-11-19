@@ -33,7 +33,7 @@ A scheduled job for each task type runs business rules and then executes the sim
 **Note:** For task types other than customer service cases and incidents, a user with the admin role must also perform the following tasks:
 
 -   Assign the sn\_km\_ml.knowledge\_curation\_user role and the appropriate roles for the task type to the users performing the knowledge gap analysis. To assign roles, perform the Assign knowledge curator roles guided setup task, which are available in the Knowledge Demand Insights section of the Knowledge Management guided setup.
--   Create a demand insights dashboard for the task type. To create a dashboard, see Create or configure a responsive dashboard.
+-   Create a demand insights dashboard for the task type. To create a dashboard, see [Create or configure a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_CreateADashboard.md).
 
 ## Procedure
 

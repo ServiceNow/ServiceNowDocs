@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-securitycenter-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -117,7 +117,7 @@ Added two new auditor checks:
 
 The granular admin role enables developers and administrators to complete administrative configuration tasks for Security Center without requiring the full admin role.
 
--   **[\[Placeholder link text to key bundle-psec.access-controls-console\]](https://www.servicenow.com/docs/access?context=access-controls-console&family=zurich&ft:locale=en-US)**
+-   **[access controls console](https://www.servicenow.com/docs/access?context=access-controls-console&family=zurich&ft:locale=en-US)**
 
 Use the new Access Controls console within Security Center to review and remediate access issues and misconfigurations. The Access Controls console provides enhanced visibility and control of your Access Analyzer findings, and streamlines remediation efforts by enabling you to track, prioritize, and resolve access issues by assigning tasks.
 

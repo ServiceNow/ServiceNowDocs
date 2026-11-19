@@ -17,9 +17,9 @@ breadcrumb: [Managing IT services in your organization, Service Operations Works
 The Password Reset for Service Operations Workspace application enforces strong and secure passwords by enabling end users to reset or change their passwords by requesting the service desk agent.
 
 -   **[Reset password using service-desk assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/reset-password-sd-pr-sow.md)**  
-Resetting the password enables the user to log in to their system and resume their work.
+Reset a user password so that the user can log in to their system and resume work.
 -   **[Unlock the user account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/unlock-user-account-pr-sow.md)**  
-You can unlock a blocked user to enable them to log in to their system.
+Unlock a locked user account so that the user can log in to their system.
 -   **[Password Reset in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/pr-sow-reference.md)**  
 This reference topic provides additional information about the lists and forms that you use to configure and administer Password Reset.
 

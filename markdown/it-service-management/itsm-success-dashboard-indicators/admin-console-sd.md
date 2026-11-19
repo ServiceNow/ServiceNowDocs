@@ -42,7 +42,7 @@ Measure Virtual Agent usage in ITSM Success Dashboard indicators with deflection
 -   **[Update the live agent script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/update-live-agent-script-include.md)**  
 Live agent configuration is used in the self-solved deflections \(Deflection using KB articles, Deflection using QnA AIS, Deflection using QnA LLM, and Deflection using ITSM VA\). When you configure these deflections, update the live agent script include. Update the SSADeflectionHelper script to override the *checkInteraction* function.
 -   **[Set fulfillment automation level of catalog item for the Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/set-fulfillment-automation-level-sdb.md)**  
-Set the fulfillment automation level of catalog items from manual to fully automated to reduce manual effort and accelerate the turnaround time.
+
 -   **[Activate Performance Analytics jobs for ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/activae-pa-indicator-jobs-sdb.md)**  
 Activate the Performance Analytics \(PA\) jobs to collect daily and historical data for the ITSM Success Dashboard indicators.
 -   **[KPI configuration for Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/config-kpis-sdb.md)**  

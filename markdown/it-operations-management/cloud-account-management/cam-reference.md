@@ -32,8 +32,10 @@ A list of default policies provided for scanning the cloud accounts.
 Access control lists \(ACLs\), groups, and roles in Cloud Account Management control how access permissions are organized and managed within a cloud environment.
 -   **[Permissions required for Azure Service Principal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/permissions-required-for-azure-service-principal.md)**  
 This table provides the permissions needed to create, close or cancel an Azure subscription, download billing details, and tag subscriptions.
--   **[Cloud Asset Collection table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/cloud-asset-collection-table.md)**  
-Stores metadata of cloud assets collected from providers for IT operations.
+-   **[Cloud Asset Collection Configs table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/cloud-asset-collection-table.md)**  
+The Cloud Asset Collection Configs table is a structured repository in IT Operations Managementthat stores and manages metadata of cloud resources collected from multiple cloud service providers for IT operations.
+-   **[Assets are missing from Cloud Asset Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/cloud-asset-collection-table-troubleshooting.md)**  
+Resolve missing or outdated assets in Cloud asset explorer by checking the Cloud Asset Collection Configs table, the CI relationships, and the asset refresh.
 -   **[Cloud account details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/cloud-accounts-details.md)**  
 The Cloud account details table provides detailed information about each account.
 

@@ -24,17 +24,17 @@ Role required: itil or problem\_coordinator
 
 1.  Create a problem from any of the following sources.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d189588e52">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d190260e56">
 
 Option
 
-</th><th align="left" id="d189588e55">
+</th><th align="left" id="d190260e59">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d189588e61">
+</th></tr></thead><tbody><tr><td id="d190260e65">
 
-**From any Problem list**
+**From any problem list**
 
 </td><td>
 
@@ -52,7 +52,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d189588e108">
+</td></tr><tr><td id="d190260e112">
 
 **From an incident**
 
@@ -63,7 +63,7 @@ Description
 3.  Select **Create problem**.
 
 
-</td></tr><tr><td id="d189588e135">
+</td></tr><tr><td id="d190260e139">
 
 **From a customer interaction regarding an issue with a cause that must be investigated**
 
@@ -76,7 +76,7 @@ Description
 For more information, see [Configure properties for Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-problem-properties-sow.md).
 
 </td></tr></tbody>
-</table>2.  On the problem form, fill the fields in the **Details** tab.
+</table>2.  On the problem form, fill in the fields in the **Details** tab.
 
     For a description of the field values, see [Problem form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/problem-form-sow.md).
 

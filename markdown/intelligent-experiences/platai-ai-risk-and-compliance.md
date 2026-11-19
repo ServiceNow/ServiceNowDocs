@@ -21,11 +21,11 @@ Generative AI introduces a class of risks that traditional risk and control fram
 
 The AI Risk and Compliance application gives your risk and compliance team the structure needed to govern AI responsibly while keeping AI deployments moving. Impact and risk assessments quantify exposure for each AI system, model, and dataset. A regulatory content pack maps requirements from major AI frameworks to your internal controls. AI case management captures investigations, exceptions, and incidents without disrupting development.
 
-## How AI Risk and Compliance works with AI Control Tower
+## How AI Risk and Compliance works with Control Tower
 
-AI Risk and Compliance and AI Control Tower work as a coordinated governance framework. AI Control Tower serves as the system of record for AI assets, managing inventory, life cycle state, and progression across phases. AI Risk and Compliance performs the independent risk, regulatory, and control governance activities that determine whether an AI system can advance through those phases.
+AI Risk and Compliance and Control Tower work as a coordinated governance framework. Control Tower serves as the system of record for AI assets, managing inventory, life cycle state, and progression across phases. AI Risk and Compliance performs the independent risk, regulatory, and control governance activities that determine whether an AI system can advance through those phases.
 
-A typical interaction follows this pattern: an AI use case is submitted through the Employee Center. AI Control Tower creates the inventory record and manages the asset through its life cycle. AI Risk and Compliance evaluates impact and risk during assessment, validates that required controls are implemented during build, and approves or blocks deployment based on residual risk. After deployment, AIRC monitors for new risks and manages the cases and inquiries that arise.
+A typical interaction follows this pattern: an AI use case is submitted through the Employee Center. Control Tower creates the inventory record and manages the asset through its life cycle. AI Risk and Compliance evaluates impact and risk during assessment, validates that required controls are implemented during build, and approves or blocks deployment based on residual risk. After deployment, AIRC monitors for new risks and manages the cases and inquiries that arise.
 
 Neither application replaces the other; together they provide consistent oversight from demand through life cycle closure.
 

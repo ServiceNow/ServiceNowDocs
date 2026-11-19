@@ -21,11 +21,11 @@ Use the Jobs table to create lifecycle event cases where you can specify which j
 
 Role required: sn\_hr\_core.admin
 
-For example, say that you have an intern that is being transferred to a full-time position. The intern has two associated job records. When an onboarding case for the full-time position is created, the case is associated with the full-time job record, ensuring that downstream activity sets and activities are triggered based on information from that relevant job record.
+For example, say that you have an intern that is being transferred to a full-time position. The intern has two associated job records. When an onboarding case for the full-time position is created, the case is associated with the full-time job record. This ensures that downstream activity sets and activities are triggered based on information from that job record.
 
 ## About this task
 
-Beginning in the New York release, you can use the new Jobs \(sn\_hr\_core\_job\) table to store multiple job records per user and capture the job history of users within your organization. See [Capturing multiple job records for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/support-hr-users-with-multiple-jobs.md) for more information.
+You can use the Jobs \(sn\_hr\_core\_job\) table to store multiple job records per user and capture the job history of users within your organization. See [Capturing multiple job records for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/support-hr-users-with-multiple-jobs.md) for more information.
 
 ## Procedure
 
@@ -43,7 +43,8 @@ Beginning in the New York release, you can use the new Jobs \(sn\_hr\_core\_job\
 
     \[Omitted image "multiple-jobs-le-activity-set-ex.png"\] Alt text: A lifecycle event activity set with trigger field set to the subject person's job start date.
 
-4.  If you are not using a third-party integration and need to configure the switch of a primary job, you can use the **Switch primary job** subflow to switch the subject person's primary job through a lifecycle event activity.
+4.  If you're not using a third-party integration, you may need to configure a primary job switch.
+5.  Use the **Switch primary job** subflow to switch the subject person's primary job through a lifecycle event activity.
 
     For example, you can create a lifecycle event activity to switch the primary job of the subject person from the old to the new job by setting the **Activity type** value to **Flow** and the **Flow** value to **Switch primary job**.
 

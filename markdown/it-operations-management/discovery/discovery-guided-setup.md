@@ -7,7 +7,7 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 breadcrumb: [Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---

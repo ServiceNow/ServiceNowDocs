@@ -44,7 +44,7 @@ To create service commitments, each service needs at least one associated servic
 
 6.  Select the **Type** of commitment from the list.
 
-<table id="choicetable_zjg_yyd_d1b"><tbody><tr><td id="d87165e139">
+<table id="choicetable_zjg_yyd_d1b"><tbody><tr><td id="d87297e141">
 
 **Availability or Maintenance Window**
 
@@ -52,7 +52,7 @@ To create service commitments, each service needs at least one associated servic
 
 Used in system processing. If you select **Maintenance Window**, the **Schedule** field is required. Creates Availability records for the service offering based on the outages for that offering. If an Availability commitment exists, when an Outage is created against a service offering with the Availability commitment, it will begin tracking down time and availability.
 
-</td></tr><tr><td id="d87165e157">
+</td></tr><tr><td id="d87297e159">
 
 **Response Time, Delivery or Other**
 
@@ -60,7 +60,7 @@ Used in system processing. If you select **Maintenance Window**, the **Schedule*
 
 Display additional information in the service catalog. This information details the type of service commitment the user may expect from a given service offering. These service commitment types don't provide additional functionality or a homepage gauge.
 
-</td></tr><tr><td id="d87165e166">
+</td></tr><tr><td id="d87297e168">
 
 **Recovery time objective**
 
@@ -68,7 +68,7 @@ Display additional information in the service catalog. This information details 
 
 Guarantee of how long it takes to recover the system from the recovery point. Set the recovery time in the **Time Amount** field that appears when you select this commitment type. This field is available with vendor ticketing.**Note:** These service commitment types don't provide additional functionality or a homepage gauge.
 
-</td></tr><tr><td id="d87165e181">
+</td></tr><tr><td id="d87297e183">
 
 **Recovery point objective**
 
@@ -76,7 +76,7 @@ Guarantee of how long it takes to recover the system from the recovery point. Se
 
 Guarantee of how often backups are performed. Set the backup interval in the **Time amount** field that appears when you select this commitment type. This field is available with vendor ticketing.**Note:** These service commitment types don't provide additional functionality or a homepage gauge.
 
-</td></tr><tr><td id="d87165e196">
+</td></tr><tr><td id="d87297e198">
 
 **SLA**
 

@@ -1,19 +1,19 @@
 ---
-title: Domain separation and AI Control Tower
-description: Domain separation is supported for AI Control Tower. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+title: Domain separation and Super Intelligence Control Tower
+description: Domain separation is supported for Control Tower. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-domain-separation.html
 release: brazil
 topic_type: concept
 last_updated: "2026-10-27"
 reading_time_minutes: 8
-keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, domain separation, AI Control Tower, multi-tenant, MSP]
-breadcrumb: [Reference, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, domain separation, Control Tower, multi-tenant, MSP]
+breadcrumb: [Reference, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Domain separation and AI Control Tower
+# Domain separation and Super Intelligence Control Tower
 
-Domain separation is supported for AI Control Tower. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+Domain separation is supported for Control Tower. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
 ## Support level: Basic\*
 
@@ -29,19 +29,19 @@ For more information on support levels, see [Application support for domain sepa
 
 ## Overview
 
-AI Control Tower helps you discover, govern, monitor, and measure the value of AI systems across your enterprise. If you manage multiple business units or client tenants from a shared instance, such as a managed service provider, domain separation lets you keep each tenant's AI assets, risk posture, security data, and value calculations distinct while administering the deployment from a single instance.
+Control Tower helps you discover, govern, monitor, and measure the value of AI systems across your enterprise. If you manage multiple business units or client tenants from a shared instance, such as a managed service provider, domain separation lets you keep each tenant's AI assets, risk posture, security data, and value calculations distinct while administering the deployment from a single instance.
 
-Sample AI Control Tower use case: When a service provider \(SP\) configures a discovery connector for a client, the client can see all assets from their environment.
+Sample Control Tower use case: When a service provider \(SP\) configures a discovery connector for a client, the client can see all assets from their environment.
 
-## How domain separation works in AI Control Tower
+## How domain separation works in Control Tower
 
-AI Control Tower provides Basic support for domain separation beginning with the September release, across all pillars: inventory and discovery, monitoring, risk, security, and value.
+Control Tower provides Basic support for domain separation beginning with the September release, across all pillars: inventory and discovery, monitoring, risk, security, and value.
 
-Some elements remain common across domains regardless of this support level: playbook rule and template definitions, flows, and the AI Control Tower interface itself are shared. The data and behavior described in the pillar sections later in this topic are specific to each domain.
+Some elements remain common across domains regardless of this support level: playbook rule and template definitions, flows, and the Control Tower interface itself are shared. The data and behavior described in the pillar sections later in this topic are specific to each domain.
 
 Within a domain hierarchy, a parent domain's view generally combines its own domain with all of its child domains, while a child domain's view shows only that domain's own data. Configuration settings, such as evaluation metric sample rates and cost framework rates, are inherited from a parent or global domain by default, and you can override a setting for a specific domain without affecting the global default or other domains.
 
-## Domain separation setup for AI Control Tower
+## Domain separation setup for Control Tower
 
 The base system provides built-in functionality to separate an instance by domain. After an instance is domain-separated, any application that supports domain separation can be installed on that instance.
 
@@ -53,7 +53,7 @@ For more information, see [Domain separation setup and administration](https://r
 
 ## Use cases
 
-The following sections describe how domain separation applies within each pillar of AI Control Tower.
+The following sections describe how domain separation applies within each pillar of Control Tower.
 
 ## Inventory and discovery
 

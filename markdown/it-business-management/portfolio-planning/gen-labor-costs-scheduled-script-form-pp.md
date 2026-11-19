@@ -1,5 +1,5 @@
 ---
-title: Scheduled Script Execution form to generate labor costs for projects and demands
+title: Scheduled Script Execution form to generate labor costs
 description: Use the Scheduled Script Execution form to enable Generate Labor Costs scheduler job for projects and demands.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/portfolio-planning/gen-labor-costs-scheduled-script-form-pp.html
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 breadcrumb: [Form field information for Portfolio Planning, Reference, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Scheduled Script Execution form to generate labor costs for projects and demands
+# Scheduled Script Execution form to generate labor costs
 
 Use the Scheduled Script Execution form to enable Generate Labor Costs scheduler job for projects and demands.
 

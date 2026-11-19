@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Previewing and deleting records in Data Management Console, Manage data growth in Data Management, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Previewing and deleting records in Data Management Console, Manage data growth in Data Management, Data Management, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create a one-time delete rule
@@ -26,15 +26,15 @@ Create a one-time delete rule to delete records once. To delete records on a rec
 
 1.  Access the create rule wizard in the Data Management Console in one of the following ways.
 
-<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d135473e71">
+<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d135397e73">
 
 Option
 
-</th><th align="left" id="d135473e74">
+</th><th align="left" id="d135397e76">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d135473e80">
+</th></tr></thead><tbody><tr><td id="d135397e82">
 
 **Overview tab**
 
@@ -45,7 +45,7 @@ Steps
 3.  Select **Create rule**.
 
 
-</td></tr><tr><td id="d135473e118">
+</td></tr><tr><td id="d135397e120">
 
 **Rules tab**
 
@@ -151,15 +151,15 @@ Consider scheduling the one-time delete rule to run during non-business hours to
 
 1.  On the Set up schedule page, schedule the one-time delete rule to run now or at a later date.
 
-<table id="choicetable_orr_f3t_13c"><thead><tr><th align="left" id="d135473e497">
+<table id="choicetable_orr_f3t_13c"><thead><tr><th align="left" id="d135397e505">
 
 Option
 
-</th><th align="left" id="d135473e500">
+</th><th align="left" id="d135397e508">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d135473e506">
+</th></tr></thead><tbody><tr><td id="d135397e514">
 
 **Schedule later**
 
@@ -167,7 +167,7 @@ Description
 
 Set up a schedule at a later time.
 
-</td></tr><tr><td id="d135473e515">
+</td></tr><tr><td id="d135397e523">
 
 **Execute upon creation**
 
@@ -175,7 +175,7 @@ Set up a schedule at a later time.
 
 Run the one-time delete rule immediately after you finish creating it.
 
-</td></tr><tr><td id="d135473e524">
+</td></tr><tr><td id="d135397e532">
 
 **Run at**
 

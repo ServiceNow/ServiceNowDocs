@@ -59,12 +59,12 @@ Take actions must be enabled. For more information, see [Configure the Access Si
 
     **Note:**
 
-    -   To know more about an ACL \(operation\) in the **Simulated results** view, select its operation link.
+    -   To learn more about an ACL \(operation\) in the **Simulated results** view, select its operation link.
     -   To start the simulation again for a different role, select **Start over**.
     -   To exit the simulation, select **Exit**.
 8.  Select **Next**.
 
-9.  To apply the simulated changes, on the **Take action** view, select **Add and complete** .
+9.  To apply the simulated changes, on the **Take action** view, select **Add and complete**.
 
     \[Omitted image "simulate-add-actions.png"\] Alt text: Actions
 

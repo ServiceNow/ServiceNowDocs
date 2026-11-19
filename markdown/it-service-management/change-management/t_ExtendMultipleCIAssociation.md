@@ -1,6 +1,6 @@
 ---
 title: Extend or disable multiple CI association
-description: The ability to associate multiple CIs to a task can be extended to other types of tasks. You can also disable multiple CI association from the related lists on change request records.
+description: Extend multiple CI association to other task types, or disable it for change requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/t\_ExtendMultipleCIAssociation.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Change Management, IT Service Management]
 
 # Extend or disable multiple CI association
 
-The ability to associate multiple CIs to a task can be extended to other types of tasks. You can also disable multiple CI association from the related lists on change request records.
+Extend multiple CI association to other task types, or disable it for change requests.
 
 ## Before you begin
 

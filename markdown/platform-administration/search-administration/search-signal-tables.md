@@ -9,7 +9,7 @@ classification: search-administration
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Search signals, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Search signals, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Search signal tables

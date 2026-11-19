@@ -9,7 +9,7 @@ classification: search-administration
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Zing displays search suggestions as users enter search terms, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Zing displays search suggestions as users enter search terms, Zing text indexing and search engine, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Enable and disable Search Suggestions in Zing
@@ -39,7 +39,7 @@ On new instances, the first parameter is set to **true** and the second is set t
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `sys_properties.list`.
+    2.  In the navigation filter, enter `sys_properties.list`.
 
     3.  Press Enter.
 

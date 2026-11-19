@@ -60,3 +60,5 @@ Check the executions. After the scheduled job has run, select the **Executions**
 
 \[Omitted image "erpc-view-extraction-executions-ys2.png"\] Alt text: ERP scheduled extraction executions list.
 
+**Parent Topic:**[Retrieving data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-retrieving-data.md)
+

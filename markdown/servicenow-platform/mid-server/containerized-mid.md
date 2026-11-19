@@ -7,7 +7,7 @@ release: brazil
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-13"
 reading_time_minutes: 6
 breadcrumb: [Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,11 +42,11 @@ In order to automatically clean up the down MID Servers on Instance, a scheduled
 
 ## Auto-upgrade
 
-Auto-upgrade works the same way for containerized MID Servers as it does for regular MID Servers. However, it is recommended to disable the auto-upgrade for containerized MID Servers. Whenever a new image is needed, build a new image and deploy it by updating the deployment YAML file then re-apply it.
+Auto-upgrade works the same way for containerized MID Servers as it does for regular MID Servers. However, it is recommended to disable the auto-upgrade for containerized MID Servers. If auto-upgrade stays enabled, each time a container pod is re-created, it starts from the original image and the MID Server must upgrade again. To avoid this, set the **mid.container.autoupgrade.enabled** parameter to false. Whenever a new image is needed, build a new image and deploy it by updating the deployment YAML file then re-apply it.
 
 Containerized MID Server auto-upgrade is controlled by the **mid.container.autoupgrade.enabled** config parameter and is set to true by default. The config parameter is read-only, therefore it can not be synced down from the instance.
 
-Add the config parameter to a MID Server profile and use it with new deployment requests. The settings are then included in deployment YAML file when the deployment request is exported, or when it is manually added to an existing deployment YAML file and re-applied.
+Add the config parameter to a MID Server profile and use it with new deployment requests. The settings are included in the deployment YAML file when the deployment request is exported. The settings are also included when the file is manually updated and re-applied.
 
 ## HealthCheck
 
@@ -77,5 +77,5 @@ Basic operations are supported on container side. For example, you can stop, sta
 
 ## Containerized MID Server Deployment and Auto-configuration
 
-With the [deployment and auto-configuration feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/containerized-mid-deployment.md), an agent admin can enter all required MID Server  settings in a MID Server Profile on the instance and then submit a deployment request to K8s cluster. After the request is  processed, the new MID servers are automatically created and auto-configured. They are ready  to use in seconds.  If the MID Server profile is changed, the related Containerized MID Servers can also be updated on demand.
+The [deployment and auto-configuration feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/containerized-mid-deployment.md) lets an agent admin enter all required MID Server settings in a MID Server Profile on the instance, then submit a deployment request to a K8s cluster. After the request is processed, the new MID Servers are automatically created and auto-configured. They are ready to use in seconds. If the MID Server profile is changed, the related Containerized MID Servers can also be updated on demand.
 

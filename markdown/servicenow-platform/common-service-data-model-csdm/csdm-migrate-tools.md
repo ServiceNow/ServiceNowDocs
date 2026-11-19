@@ -9,7 +9,7 @@ classification: common-service-data-model-csdm
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Synchronize existing data, Configure, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Synchronize existing data, Configure, Common Service Data Model \(CSDM\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Assistance with the CSDM life-cycle synchronization process

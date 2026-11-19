@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
@@ -64,7 +64,7 @@ Several types of components are installed with activation of the Change Manageme
 **Related topics**  
 
 
-[Request ITSM Roles - Change Management]()
+[Request ITSM Roles for Change Management]()
 
 [Activate Business Stakeholder]()
 

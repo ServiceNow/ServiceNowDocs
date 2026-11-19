@@ -22,8 +22,6 @@ A demand task is a unit of work created within a demand. Use demand tasks to bre
 The actual cost and effort are realized cost incurred and time spent for the work performed on a demand and demand task during a specific time period. Calculations are based on approved time cards and the hourly rate for each resource. The hourly rate determines how actual cost and effort vary.
 -   **[Demand Management key terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/r_DemandManagementKeyTerms.md)**  
 Important terms in Demand Management are listed in the table.
--   **[Inputs for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/inputs-for-ai-skills-ppm.md)**  
-Learn about the inputs of each skill for the ServiceNow Otto for Strategic Portfolio Management application. By configuring the inputs for a skill, you can determine how and when a skill is used.
 -   **[Stage fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/r_StageFields.md)**  
 The Stage field on the Ideas list displays the current state of an idea as it moves through the demand life cycle. The current state includes from an idea to a demand and then to the resulting project, enhancement, change, or defect.
 -   **[Composite Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/composite-fields.md)**  

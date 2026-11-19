@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/manage-autonomous-engineer-work-items.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-09"
+last_updated: "2026-11-09"
 reading_time_minutes: 3
 keywords: [Autonomous Engineer, work items, manage, review, retry, roll back, update set, plan dashboard, ATF tests, deploy]
 audience: programmer
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-During execution, background agents build work items in parallel. You can review work items as they reach a ready-for-review state without waiting for all work items to complete. Work items that require your attention, for example, if a background agent generated a question, are highlighted in the plan dashboard and the chat panel.
+During execution, background agents build work items in parallel. You can review work items as they reach a ready-for-review state without waiting for all work items to complete. Work items that require your attention, for example, if a background agent displays a question, are highlighted in the plan dashboard and the chat panel.
 
 ## Procedure
 
@@ -45,14 +45,14 @@ During execution, background agents build work items in parallel. You can review
     |Action|Steps|
     |------|-----|
     |Mark complete|If the work item meets your requirements, mark it complete. The dashboard updates the work item state.|
-    |Edit and retry|If your requirements changed or the output does not match what you intended, edit the work item content directly in the work item record. Then ask Autonomous Engineer to retry. A new background agent runs for the work item.|
+    |Edit and retry|If your requirements changed or the output does not match what you intended, edit the work item content directly in the work item record. Then select the retry option in Autonomous Engineer. A new background agent runs for the work item.|
     |Roll back|If you must undo the changes for a work item, roll back that work item. The rollback applies only to the selected work item and does not affect other work items in the plan.|
 
 5.  Repeat the previous steps for each work item as it is ready for review.
 
-6.  When all work items are complete, export the update set that Autonomous Engineer generated for the plan.
+6.  When all work items are complete, export the batch update set that Autonomous Engineer generated for the plan.
 
-    Autonomous Engineer generates a single update set for the plan when all work items reach a complete state. Export the update set from the plan dashboard and deploy it to a test environment for user acceptance testing, or promote it to production.
+    Autonomous Engineer generates a single batch update set for the plan when all work items reach a complete state. Export the batch update set from the plan dashboard and deploy it to a test environment for user acceptance testing, or promote it to production.
 
 
 ## Result

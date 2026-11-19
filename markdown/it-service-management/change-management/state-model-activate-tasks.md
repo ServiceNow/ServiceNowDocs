@@ -1,6 +1,6 @@
 ---
 title: Update change request states
-description: If you upgraded from a release prior to Geneva, you must update old state labels to new state labels after you activate the Change Management state model.
+description: Update old state labels to new state labels after you activate the Change Management state model if you upgraded from a release before Geneva.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/change-management/state-model-activate-tasks.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Activate Change Management - State Model, Change Management plugins
 
 # Update change request states
 
-If you upgraded from a release prior to Geneva, you must update old state labels to new state labels after you activate the Change Management state model.
+Update old state labels to new state labels after you activate the Change Management state model if you upgraded from a release before Geneva.
 
 ## Before you begin
 

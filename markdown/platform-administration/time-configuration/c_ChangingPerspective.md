@@ -9,7 +9,7 @@ classification: time-configuration
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Timelines, Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Timelines, Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Changes in perspective

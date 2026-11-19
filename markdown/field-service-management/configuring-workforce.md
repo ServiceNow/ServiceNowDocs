@@ -7,14 +7,14 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [CRM Workspace, Configure, Field Service Management]
 ---
 
 # Configuring Workforce
 
 Workforce provides tools for managing schedules, events, and tasks in one workspace.
 
-Workforce is part of the CSM/FSM Configurable Workspace. Use Workforce to:
+Workforce is part of the CRM Workspace. Use Workforce to:
 
 -   View agent schedules and team calendars.
 -   Create personal events.

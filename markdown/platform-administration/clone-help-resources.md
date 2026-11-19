@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [clone help resources, clone documentation, clone support, clone troubleshooting]
-breadcrumb: [Explore, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Explore, Instance Clone, Configure core features, ServiceNow AI Platform]
 ---
 
 # Clone help resources

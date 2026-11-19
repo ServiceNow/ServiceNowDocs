@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/platform-administration/clone-c
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [Definitions tab, Configuration, Definitions, Configuration menu, Exclusions, Preservers, Clone profiles, Multi-instance view, Cleanup scripts, Clone settings, Clone instances]
-breadcrumb: [Explore, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Explore, Instance Clone, Configure core features, ServiceNow AI Platform]
 ---
 
 # Configuration
@@ -35,6 +35,10 @@ The Exclusions page lists the tables that aren't copied during an instance clone
 To view child tables of a table, you can go to the following link and input their table: **\[instance\].service-now.com/now/nav/ui/classic/params/target/generic\_hierarchy\_erd.do**.
 
 By default, the system excludes tables for logging, auditing, notifications, workflow contexts, and license usage. To configure additional exclusions, see [Exclude a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ExcludeATableFromCloning.md).
+
+When you exclude a table, the clone also excludes related records, such as attachments, to prevent orphaned records on the target instance.
+
+**Warning:** If the source or target instance is on MariaDB, the clone does not automatically exclude related records when a table is excluded. Verify that related records are handled separately to avoid orphaned records on the target instance.
 
 For information on guidelines when adding exclusions, see [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/clone-exclusions-guidelines.md).
 

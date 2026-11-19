@@ -9,7 +9,7 @@ classification: telecommunications-service-operations-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure event and metric connectors, Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
 # Configure elastic event pull connectors for MPN
@@ -64,7 +64,7 @@ Roles required: tsom\_assurance\_admin and assigned roles for MID Server.
 7.  Select **Update**.
 
 
-**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
+**Parent Topic:**[Configure event and metric connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-event-and-metric-connectors.md)
 
 **Related topics**  
 

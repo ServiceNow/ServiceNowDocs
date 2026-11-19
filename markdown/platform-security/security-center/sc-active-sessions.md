@@ -1,5 +1,5 @@
 ---
-title: Active Sessions
+title: Active sessions
 description: View the trend line of the active users on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/sc-active-sessions.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Security metrics, Security monitoring console, Security Center, Platform Security]
 ---
 
-# Active Sessions
+# Active sessions
 
 View the trend line of the active users on the ServiceNow AI Platform.
 

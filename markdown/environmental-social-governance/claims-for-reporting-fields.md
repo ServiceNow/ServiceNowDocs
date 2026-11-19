@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create or edit a claim, Claims for reporting, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Create or edit a claim, Claims for reporting, Use, Operational Sustainability Management]
 ---
 
 # Claims for reporting fields

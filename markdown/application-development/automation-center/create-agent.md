@@ -8,7 +8,7 @@ product: Automation Center
 classification: automation-center
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Working with automations, Use, Automation Center, Discover, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
@@ -63,4 +63,6 @@ Consider the following when using this feature:
 
 
 **Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/automations.md)
+
+**Parent Topic:**[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/integrating-with-task-mining.md)
 

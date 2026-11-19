@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Using, WhatsApp Cloud API, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
@@ -40,17 +40,11 @@ The Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application 
 |Dynamic choice|User selects an item from a dynamic list \(partial support\).|
 |Date Time|User selects a calendar date, time \(hours and minutes\), or both.|
 |Carousel|User selects a single item from the carousel.|
+|Input Collector|Gathers up to five pieces of user input in a single node, for topics that use Now Assist Virtual Agent \(NAVA\) with LLM topic discovery.|
 
 For more information about configuring user input controls, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/va-user-inputs.md).
 
 The Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application supports the following bot responses in Assistant Designer.
-
-|Bot response|Description|
-|------------|-----------|
-|Text|Bot sends a plain text string to the user.|
-|Image|Bot sends an image to the user.|
-|Link|Bot sends a web link to the user.|
-|Card|Bot sends selected information from a record on your instance.|
 
 <table id="table_vpr_j54_mqb"><thead><tr><th>
 
@@ -125,14 +119,6 @@ Video
 </td><td>
 
 Bot sends a video link with title, description, and interactive button.
-
-</td></tr><tr><td>
-
-Web UI image card output
-
-</td><td>
-
-Bot sends content from a record in a compact format, including an image with text.
 
 </td></tr><tr><td>
 

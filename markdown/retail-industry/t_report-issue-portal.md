@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/retail-industry/t\_report-issue
 release: brazil
 topic_type: task
 last_updated: "2026-10-05"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [create work item for store, create case, portal, store manager, record producer]
 breadcrumb: [Quick case and task creation for in-store issues, Retail]
 ---

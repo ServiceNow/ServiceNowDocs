@@ -24,7 +24,7 @@ Role required: admin
 
 2.  Open the **par\_dashboard\_permission** table.
 
-3.  Press Ctrl+Click on the Preview Users button \[Omitted image "InfoIcon.png"\] Alt text: info buttonnext to User on the **Columns** tab to open the its dictionary entry.
+3.  Press Ctrl+Click on the Preview Users button \[Omitted image "InfoIcon.png"\] Alt text: Preview iconnext to User on the **Columns** tab to open the its dictionary entry.
 
     Move to the Users Column label to see this button.
 

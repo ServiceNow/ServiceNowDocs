@@ -222,15 +222,15 @@ You can access Skills Overview from Manager Workspace using the Teams or Shift S
 
 2.  Access Skills Overview from either the Teams application or the Shift Scheduling application.
 
-<table id="choicetable_a5f_ty2_hwb"><thead><tr><th align="left" id="d148927e492">
+<table id="choicetable_a5f_ty2_hwb"><thead><tr><th align="left" id="d149546e496">
 
 Application
 
-</th><th align="left" id="d148927e495">
+</th><th align="left" id="d149546e499">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d148927e501">
+</th></tr></thead><tbody><tr><td id="d149546e505">
 
 **Teams**
 
@@ -242,7 +242,7 @@ Actions
 4.  Select a skill from the Skill list.
 
 
-</td></tr><tr><td id="d148927e540">
+</td></tr><tr><td id="d149546e544">
 
 **Shift Scheduling**
 

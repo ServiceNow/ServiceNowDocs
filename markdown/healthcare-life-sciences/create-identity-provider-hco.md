@@ -20,8 +20,8 @@ Ensure that the com.snc.integration.sso.multi.installer plugin is installed on y
 
 **Note:** For the following process to be successful, the following script includes need to be available in Global scope:
 
--   **MultiSSO\_OIDC\_CTO**
--   **OAuthUtilEpic**
+-   **MultiSSO\_OIDC\_CTO\_global**
+-   **OAuthUtilEpic\_global**
 
 If these script includes are in HCLS application scope, they must first be cloned into Global scope before proceeding.
 
@@ -41,7 +41,7 @@ Role required: admin
     -   Client ID – Input the Client ID created from your FHIR app on fhir.epic.com.
     -   Well-Known Configuration IRL – Enter `[https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/.well-known/openid-configuration](https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/.well-known/openid-configuration)`.
 
-        **Note:** Verify this value with Epic as it may be different for your environment.
+        **Note:** Verify this value with Epic as it may be different for your environment. The fhir.epic.com address is Epic's vendor sandbox endpoint. For your test and production instances, use your organization's FHIR server \(Interconnect\) endpoint.
 
 5.  Select **Import.**
 
@@ -58,11 +58,13 @@ Role required: admin
     1.  User Claim – enter **preferred\_username**.
     2.  User Field – select **User ID**.
     3.  OIDC Metadata URL - Enter to your FHIR server \(Interconnect\) URL endpoint. For example, from [https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/.well-known/openid-configuration](https://fhir.epic.com/interconnect-fhir-oauth/api/FHIR/R4/.well-known/openid-configuration) to [https://yourinterconnectendpoint/.well-known/openid-configuration/](https://yourinterconnectendpoint/.well-known/openid-configuration/).
+    **Note:** The **preferred\_username** value that Epic sends must match the **User ID** on the clinician's ServiceNow user record. If the values don't match, the clinician can't sign in.
+
 11. Click **Update**.
 
 12. In the Identity Provider, navigate to the Advanced related list.
 
-13. Update the Single Sign-On Script field to **MultiSSO\_OIDC\_CTO**.
+13. Update the Single Sign-On Script field to **MultiSSO\_OIDC\_CTO\_global**.
 
 14. Ensure the **Active** field is set to true.
 
@@ -72,7 +74,7 @@ Role required: admin
 
 17. Select the OIDC entity record.
 
-18. In the OAuth API Script field, select **OAuthUtilEpic**.
+18. In the OAuth API Script field, select **OAuthUtilEpic\_global**.
 
 19. Click **Update**.
 

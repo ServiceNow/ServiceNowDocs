@@ -9,7 +9,7 @@ classification: upgrade-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reviewing upgrade history, Using Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Reviewing upgrade history, Using Upgrade Center, Upgrade Center, Upgrade, ServiceNow AI Platform]
 ---
 
 # Skipped Records visual task board \(VTB\)

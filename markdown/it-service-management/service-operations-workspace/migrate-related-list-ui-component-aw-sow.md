@@ -24,19 +24,19 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Declarative Actions** &gt; **Related List actions**.
 
-2.  Filter the records based for **Implemented As** is set as **UI component**.
+2.  Filter the records where **Implemented As** is set as **UI component**.
 
-3.  View the log in the failed record in the migration process and find the **sys\_Id** of the record from the list of **Related List Actions**.
+3.  View the log in the failed record in the migration process and find the sys\_id of the record from the list of **Related List Actions**.
 
 4.  Select the failed record with the corresponding sys\_id.
 
-5.  Right-click on the header, and select **Insert and Stay**.
+5.  Select and hold \(or right-click\) the header, and then select **Insert and Stay**.
 
 6.  Clear the **Workspace** and **View** fields.
 
 7.  Select the **Experience Restricted** check box.
 
-8.  Update the value in the **Implemented as** field as `UXF Client Action`.
+8.  Update the value in the **Implemented as** field to `UXF Client Action`.
 
 9.  In the **Action configuration** related list, select **Edit**, and then select **SOW Actions** from **Collection** to **Action configurations** list.
 
@@ -46,9 +46,9 @@ Role required: admin
 
     The migration utility supports MRA and interceptor declarative actions of UI Component type only.
 
-12. For MRA, create an action payload as specified below, update the values in action attributes with component attributes of ITSM Agent Workspace declarative action.
+12. For MRA, create an action payload as specified in the following code block, and update the values in action attributes with component attributes of ITSM Agent Workspace declarative action.
 
-    If no value is filled in the ITSM Agent Workspace declarative action record, then fill the value with \{\{ key \}\}. For example, if the component attributes table is empty then in the payload the value should \{\{table\}\}.
+    If no value is filled in the ITSM Agent Workspace declarative action record, then fill the value with \{\{ key \}\}. For example, if the component attributes table is empty then in the payload the value should be \{\{table\}\}.
 
     ```
     { 
@@ -80,7 +80,7 @@ Role required: admin
             } 
     ```
 
-13. For Interceptor, create an action payload as specified below in the sys\_declarative\_action\_payload\_definition table.
+13. For Interceptor, create an action payload as specified in the following code block in the sys\_declarative\_action\_payload\_definition table.
 
     ```
     { 
@@ -106,11 +106,11 @@ Role required: admin
 
 14. Add an add-on event mapping to the migrated declarative action.
 
-    Find the matching declarative action in SOW and add all the add-on event mapping to the migrated declarative action. Use the following steps to find the equivalent declarative action in SOW.
+    Find the matching declarative action in SOW and add all the add-on event mappings to the migrated declarative action. Use the following steps to find the equivalent declarative action in SOW.
 
     1.  Navigate to **All** &gt; **sys\_ux\_addon\_event\_mapping.list**
 
-    2.  Filter the table and using the migrated `tablename` and **Target Payload Mapping** contains `mra` or `interceptor route`.
+    2.  Filter the table by using the migrated `tablename` and **Target Payload Mapping** contains `mra` or `interceptor route`.
 
     3.  If the record is found, return the declarative action sys\_id.
 
@@ -124,7 +124,7 @@ Role required: admin
 
     The Change\_request interceptor record in ITSM Agent Workspace exists in SOW.
 
-    Migrating workspace space record type selector for the interceptor type of declarative action are:
+    The following tables contain the workspace record type selectors for the interceptor type of declarative actions:
 
     -   ITSM Agent Workspace table: aw\_record\_type\_selector
     -   SOW table: sn\_sow\_interceptor\_record\_type\_selector

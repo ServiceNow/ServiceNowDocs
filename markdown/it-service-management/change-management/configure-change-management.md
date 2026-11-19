@@ -33,15 +33,15 @@ Scaled Change extends change management to complex environments with many config
 -   **[Change schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-schedule.md)**  
 The Change Schedules landing page provides a view of schedules that are categorized under **Pinned Schedules**, **Your Schedules**, and **All Schedules**. The grouping of schedules provides easy access to your most required schedules and saves your time from searching through all the schedules in the system.
 -   **[Configure ability to copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-copy-change-request.md)**  
-You can configure the ability to copy a change request record and its details using system properties.
+Configure the ability to copy a change request record and its details using system properties.
 -   **[Create a change request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-a-change-request-template.md)**  
 Create a template for change requests with predefined supporting tasks. Templates simplify the process of submitting new records by populating fields automatically.
 -   **[Create a change request assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_DefineAnAssignRuleForChange.md)**  
 Define assignment rules to assign change requests automatically to the appropriate group or individual.
 -   **[Add a new change request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_AddNewChangeType.md)**  
-You can add a new change type to your change process. There are several processes involved with adding a change type. These processes include managing script includes and workflows.
+Add a new change type to your change process. There are several processes involved with adding a change type. These processes include managing script includes and workflows.
 -   **[Extend or disable multiple CI association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/t_ExtendMultipleCIAssociation.md)**  
-The ability to associate multiple CIs to a task can be extended to other types of tasks. You can also disable multiple CI association from the related lists on change request records.
+Extend multiple CI association to other task types, or disable it for change requests.
 -   **[State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ChangeStateModel.md)**  
 Change Management offers a state model to move and track change requests through several states.
 -   **[Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/c_ConflictDetection.md)**  

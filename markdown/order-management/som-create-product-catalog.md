@@ -114,7 +114,7 @@ Code
 
 </td><td>
 
-System-generated product code for the catalog. The system automatically generates a code based on the catalog **Name** entered, but you can change the value to any desired alphanumeric string.
+System-generated product code for the catalog. The system automatically generates a code based on the catalog **Name** entered, but you can change the value. The code can include any character except an asterisk \(\*\) or a percent sign \(%\). When you save, letters are converted to uppercase and any \* or % characters are removed. For example, `bl-ui.test/1` is saved as `BL-UI.TEST/1`.
 
 </td></tr><tr><td>
 

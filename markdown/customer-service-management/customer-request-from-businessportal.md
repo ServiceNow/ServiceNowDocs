@@ -22,7 +22,7 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner,
 
 Users can make requests for a product or service from the business portal. Customer administrators, partners, and case managers can also make requests.
 
-**Note:** Creating a request from the business Portal portal requires activation of the Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\). It also requires that the administrator to [provide external customers with access to request records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-itsm-integration-view-request.md).
+**Note:** Creating a request from the business portal requires activation of the Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\). It also requires that the administrator to [provide external customers with access to request records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-itsm-integration-view-request.md).
 
 ## Procedure
 

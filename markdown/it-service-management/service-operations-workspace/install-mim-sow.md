@@ -1,6 +1,6 @@
 ---
 title: Activate Major Incident Management in Service Operations Workspace
-description: Activate the Major Incident Management \(app-sow-mim\) plugin in Service Operations Workspace using Admin Center.
+description: Activate the Major Incident Management \(sn\_sow\_mim\) plugin in Service Operations Workspace using Admin Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/install-mim-sow.html
 release: brazil
@@ -14,15 +14,23 @@ breadcrumb: [Setting up Major Incident Management in Service Operations Workspac
 
 # Activate Major Incident Management in Service Operations Workspace
 
-Activate the Major Incident Management \(app-sow-mim\) plugin in Service Operations Workspace using Admin Center.
+Activate the Major Incident Management \(sn\_sow\_mim\) plugin in Service Operations Workspace using Admin Center.
 
 ## Before you begin
+
+Activate the following plugins:
+
+-   Incident Management - Major Incident Management \[com.snc.incident.mim\]
+-   Task Communications Management \[com.snc.task\_communication\_management\]
+-   Collaboration Services for Task Communications Management \[com.snc.tcm\_collab\_hook\]
 
 Role required: admin
 
 ## About this task
 
 Activating this plugin enables the **Major incident** button on incident records in Service Operations Workspace and unlocks the major incident management workflow, including the major incident workbench, communication plans and post-incident review.
+
+The Incident Communications Management for Service Operations Workspace \(sn\_sow\_icm\) plugin is automatically installed when Major Incident Management for Service Operations Workspace \(sn\_sow\_mim\) plugin is installed.
 
 ## Procedure
 
@@ -35,5 +43,5 @@ Activating this plugin enables the **Major incident** button on incident records
 
 ## What to do next
 
-After Major Incident Management has been activated, you can configure the available features by selecting the Configure option, which redirects you to the **Configuration** tab of the Admin Center. For more information, see [Configuring Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configuring-mim-in-sow.md).
+After Major Incident Management has been activated, you can configure the available features by selecting the **Configure** option, which redirects you to the **Configuration** tab of the Admin Center. For more information, see [Configuring Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configuring-mim-in-sow.md).
 

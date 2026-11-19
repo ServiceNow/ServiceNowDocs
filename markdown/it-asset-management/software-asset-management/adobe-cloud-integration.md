@@ -58,7 +58,7 @@ Manage Adobe Cloud license compliance and optimization by performing the followi
 
         Create a success goal to track the success of Adobe Cloud configuration setup on the Software Asset Management application.
 
-    5.  [​ Set up OAuth on Adobe Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-adobe-cloud-oauth.md)
+    5.  [​ Set up OAuth on Adobe Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrate-with-adobe-cloud.md)
 
         Set up OAuth Server-to-Server credentials on the Adobe Cloud services portal before creating an Adobe Cloud integration profile on the Software Asset Management application.
 
@@ -66,7 +66,7 @@ Manage Adobe Cloud license compliance and optimization by performing the followi
 
     Configure your Software Asset Management application, which includes setting up user accounts, managing licenses, and confirming compliance with Adobe's software usage policies.
 
-    1.  [​ Set up Adobe Cloud integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-adobe-cloud-integration-oauth.md)
+    1.  [​ Set up Adobe Cloud integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrate-with-adobe-cloud.md)
 
         Create an Adobe Cloud integration profile in the Software Asset Management application to import user subscription data, determine license compliance, and identify optimization opportunities. If you manage multiple tenants, create a separate integration profile for each.
 

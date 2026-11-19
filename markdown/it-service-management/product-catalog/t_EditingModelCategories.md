@@ -18,7 +18,7 @@ All default model categories can be edited, except for the Contract model catego
 
 ## Before you begin
 
-Role required: model\_manager
+Role required: category\_manager
 
 ## Procedure
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-dv-bubb
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [Create bubble report, Create bubble visualization]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---

@@ -1,6 +1,6 @@
 ---
-title: Close a customer complaint case in workspace
-description: Provide a resolution and close a customer complaint case in workspace.
+title: Close a customer complaint case in CRM Workspace
+description: Provide a resolution and close a customer complaint case in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-close-customer-case-workspace.html
 release: brazil
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Manage customer complaints, Retail]
 ---
 
-# Close a customer complaint case in workspace
+# Close a customer complaint case in CRM Workspace
 
-Provide a resolution and close a customer complaint case in workspace.
+Provide a resolution and close a customer complaint case in CRM Workspace.
 
 ## Before you begin
 

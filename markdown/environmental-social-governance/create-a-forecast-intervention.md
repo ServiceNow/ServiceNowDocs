@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Set up analysis contexts and analyses, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Set up analysis contexts and analyses, Use, Operational Sustainability Management]
 ---
 
 # Adjust parameters

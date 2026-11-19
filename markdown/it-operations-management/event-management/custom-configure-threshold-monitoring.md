@@ -270,7 +270,7 @@ Script
 
 </td><td>
 
-Custom script to run when called from a monitor. A script template is provided as a guide. You can use the [Health monitor scripts provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/custom-configure-threshold-monitoring.md) as examples of how to author the script, and use the [script editor tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_SyntaxEditor.md).
+Custom script to run when called from a monitor. A script template is provided as a guide. You can use the [Health monitor scripts provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/custom-configure-threshold-monitoring.md) as examples of how to author the script, and use the script editor tools.
 
 Ensure that the custom script includes:Run the monitor function, which is called according to the "monitoring job frequency” setting **runUpdateHealthMonitorScripts\(scriptId\)**. Add this function to run the monitoring logic.
 
@@ -291,7 +291,7 @@ Ensure that the custom script includes:Run the monitor function, which is called
 
     These tables are initialized inside **runInsertHealthMonitorScripts**.
 
-    For more information about script includes and APIs, see:Script includes that are [installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/r_InstalledWithEventManagement.md)
+    For more information about script includes and APIs, see the script includes listed in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md).
 
 5.  Click **Submit**.
 

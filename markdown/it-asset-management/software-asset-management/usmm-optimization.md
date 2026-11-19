@@ -8,7 +8,7 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 

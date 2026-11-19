@@ -7,9 +7,9 @@ release: brazil
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 6
-breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure event and metric connectors, Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
 # Override default metric-to-CI binding
@@ -130,7 +130,7 @@ The shipped behavior is provided by an `EventFieldMapping` implementation that t
 
 New metrics collected from the source are bound to configuration items by your custom implementation.
 
-**Parent Topic:**[Configure Telecom Assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-fault-management.md)
+**Parent Topic:**[Configure event and metric connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-event-and-metric-connectors.md)
 
 **Related topics**  
 

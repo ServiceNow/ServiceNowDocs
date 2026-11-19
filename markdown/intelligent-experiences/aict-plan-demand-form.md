@@ -1,18 +1,18 @@
 ---
 title: Demand form
-description: Learn about the fields on the Demand form. Use this form to create or edit a demand from the Prioritize page in AI Control Tower.
+description: Learn about the fields on the Demand form. Use this form to create or edit a demand from the Prioritize page in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-demand-form.html
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 12
-breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Demand form
 
-Learn about the fields on the Demand form. Use this form to create or edit a demand from the Prioritize page in AI Control Tower.
+Learn about the fields on the Demand form. Use this form to create or edit a demand from the Prioritize page in Control Tower.
 
 <table id="table_olx_smf_cp"><thead><tr><th>
 

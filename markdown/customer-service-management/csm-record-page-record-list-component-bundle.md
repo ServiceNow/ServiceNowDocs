@@ -20,8 +20,8 @@ Starting with the Zurich release, CRM Workspace record pages use the Record List
 
 For more information, see the following topics:
 
--   [Record List Overview](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/record%20list/overview) in the ServiceNow Developer documentation
--   [Record List](https://internal.horizon.servicenow.com/workspace/components/record-list?release=zurich) on the Horizon design system website
+-   [Record list](https://horizon.servicenow.com/workspace/components/record-list?release=brazil)
+-   Record list bundle
 
 ## Upgrade information
 

@@ -7,7 +7,7 @@ release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [AI Control Tower, Agent Client Collector, IT Operations Management]
 ---

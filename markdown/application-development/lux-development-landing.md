@@ -1,6 +1,6 @@
 ---
 title: Lux Development
-description: Lux is a framework for building modern widget-based UI experiences that run on a ServiceNow instance. Create pages, widgets and reusable components, configure experience behavior, and safely extend applications using Lux development tools and frameworks.
+description: Lux is a framework for building modern widget-based UI experiences that run on a ServiceNow instance. Using Lux development tools and frameworks, create pages, widgets and reusable components, configure experience behavior, and safely extend applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/lux-development-landing.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Building pro-code applications, Developing your application, Classi
 
 # Lux Development
 
-Lux is a framework for building modern widget-based UI experiences that run on a ServiceNow instance. Create pages, widgets and reusable components, configure experience behavior, and safely extend applications using Lux development tools and frameworks.
+Lux is a framework for building modern widget-based UI experiences that run on a ServiceNow instance. Using Lux development tools and frameworks, create pages, widgets and reusable components, configure experience behavior, and safely extend applications.
 
 ## Get started
 
@@ -38,7 +38,7 @@ Lux is a framework for building modern widget-based UI experiences that run on a
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Lux reference material](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Lux reference material](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/reference.md)
 
 </td></tr></tbody>
 </table>## Key benefits of Lux
@@ -46,7 +46,7 @@ Lux is a framework for building modern widget-based UI experiences that run on a
 -   Admin configuration changes survive platform upgrades
 -   Extend or override another app's experience without forking it or coordinating release schedules
 -   Users see content instantly with no spinners, and search engines can index the fully rendered markup
--   Lux applies design system styling and theming automatically, letting admins override tokens per tenant without a rebuild
+-   Lux automatically applies design system styles and themes, letting admins override tokens per tenant without a rebuild
 -   Build components and widgets once and reuse across pages, apps, AI placement, and chat surfaces
--   One consistent build-deploy pipeline and architecture across the CLI, Lux Lab, and Maven, regardless of app size
+-   One consistent build-deploy pipeline and architecture across the Command Line Interface \(CLI\), Lux Lab, and Maven, regardless of app size
 

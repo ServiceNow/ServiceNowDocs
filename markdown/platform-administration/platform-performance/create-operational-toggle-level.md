@@ -9,7 +9,7 @@ classification: platform-performance
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Operational toggles, Configure, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Operational toggles, Configure, Platform performance, Maintain and monitor, ServiceNow AI Platform]
 ---
 
 # Create an operational toggle level to define thresholds

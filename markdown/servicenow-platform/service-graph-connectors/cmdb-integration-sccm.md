@@ -44,7 +44,7 @@ The following ServiceNow applications have features that interact with the Servi
 -   [IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/r_ITServiceManagement.md)
     -   Incidents, problems, and changes on discovered configuration items \(CI\).
     -   Automatic device ownership assignment.
--   [Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_SoftwareAssetMgmt.md) and IT Asset Management \(ITAM\)
+-   [Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_SoftwareAssetMgmt.md) and [IT Asset Management \(ITAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/it-asset-management.md)
     -   Tight integration with Software Asset Management Professional and client software distribution workflows.
     -   Inventory Software package and installation tracking.
     -   Software Usage tracking.

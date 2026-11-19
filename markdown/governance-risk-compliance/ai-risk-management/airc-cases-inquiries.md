@@ -1,6 +1,6 @@
 ---
 title: AI cases and inquiries
-description: AI cases and inquiries provide a structured way to report, track, and manage AI-related concerns and questions as part of AI governance in AI Control Tower and AI Risk and Compliance.
+description: AI cases and inquiries provide a structured way to report, track, and manage AI-related concerns and questions as part of AI governance in Control Tower and AI Risk and Compliance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.html
 release: brazil
@@ -15,11 +15,11 @@ breadcrumb: [AI governance life cycle, Explore, AI Risk and Compliance, Governan
 
 # AI cases and inquiries
 
-AI cases and inquiries provide a structured way to report, track, and manage AI-related concerns and questions as part of AI governance in AI Control Tower and AI Risk and Compliance.
+AI cases and inquiries provide a structured way to report, track, and manage AI-related concerns and questions as part of AI governance in Control Tower and AI Risk and Compliance.
 
 ## AI cases and inquiries overview
 
-The AI Case Management application is used as part of AI Risk and Compliance \(AIRC\). It provides the workflows used to review, investigate, and respond to AI‑related risks, incidents, and governance questions associated with AI systems, models, and datasets governed in AI Control Tower \(AICT\). AI cases and inquiries help identify potential issues, capture governance signals, and ensure that AI systems align with organizational policies, regulatory expectations, and ethical principles across the AI life cycle. You can view AI cases and inquiries from the AI Risk and Compliance dashboard.
+The AI Case Management application is used as part of AI Risk and Compliance \(AIRC\). It provides the workflows used to review, investigate, and respond to AI‑related risks, incidents, and governance questions associated with AI systems, models, and datasets governed in Control Tower \(AICT\). AI cases and inquiries help identify potential issues, capture governance signals, and ensure that AI systems align with organizational policies, regulatory expectations, and ethical principles across the AI life cycle. You can view AI cases and inquiries from the AI Risk and Compliance dashboard.
 
 \[Omitted image "ai-case-landing-page.png"\] Alt text: AI cases tab on the AI risk and compliance dashboard.
 

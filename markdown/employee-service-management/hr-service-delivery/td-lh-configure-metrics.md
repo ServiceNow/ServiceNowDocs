@@ -68,7 +68,9 @@ Role required: admin \[sn\_egd\_lh.admin\]
 
     **Tip:** &lt;UIB page&gt; represents the name of the user interface builder \(UIB\) page. The name of the application for which you're configuring metrics is the UIB page name by default. For example, if you're configuring metrics for the Aspirations app and you're using the default UIB page, enter `now/leader-hub-analytics/aspirations`.
 
-12. Select the check box associated with the **Enable on Talent Visibility** field to make your employee engagement metric visible on the Org talent page when you view a card that contains information about an employee.
+12. Select the check box for the **Enable on Talent Visibility** field.
+
+    This makes your employee engagement metric visible on the Org talent page. It appears when you view a card that contains information about an employee.
 
 13. Use the **Domain** field to specify the domain in which your metric configuration data is available.
 

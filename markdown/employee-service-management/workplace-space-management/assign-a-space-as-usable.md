@@ -8,8 +8,8 @@ product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Add a space using Workplace Space Management, Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
+reading_time_minutes: 3
+breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure a space type as usable with Workplace Space Management
@@ -20,7 +20,7 @@ Specify if a space type is usable or not by using the Space type configuration f
 
 Ensure that you have the following:
 
--   The space type is configured in the application. Otherwise, refer to [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
+-   The space type is configured in the application. Otherwise, refer to [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
 -   Workplace Space Management is installed.
 
 Role required: sn\_wsd\_spcmgmt.manager
@@ -45,7 +45,7 @@ Configure a space type as usable. Specify if the space type can be used for rese
 
 4.  Select the **Usable** check box to enable the feature.
 
-5.  Click **Update**.
+5.  Select **Update**.
 
 
 ## Result
@@ -54,5 +54,42 @@ The space type is configured as usable.
 
 The size of all the spaces that are assigned to this space type is calculated in the **Usable size** fields of their areas, floors, and buildings.
 
-**Parent Topic:**[Add a space using Workplace Space Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/add-a-space.md)
+**Parent Topic:**[Managing workplace locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/Creating-workplace-location-records-using-spce-mgmt.md)
+
+**Related topics**  
+
+
+[Add a campus]()
+
+[Add a building using Workplace Space Management]()
+
+[Add a floor using Workplace Space Management]()
+
+[Add an area using Workplace Space Management]()
+
+[Add a room using Workplace Space Management]()
+
+[Add a space using Workplace Space Management]()
+
+[Allocate a cost center, department, or workplace entity]()
+
+[Configure a workspace or desk as flexible or permanent]()
+
+[Update the measurement details of a workplace location]()
+
+[Change the status of a workplace location]()
+
+[Configure a BOMA type]()
+
+[Map a space type with BOMA type]()
+
+[Create a Space Recommender rule]()
+
+[Raise a space assistance request]()
+
+[Create a view-by configuration]()
+
+[]()
+
+[Reviewing allocation changes]()
 

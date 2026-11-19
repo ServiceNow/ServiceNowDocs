@@ -46,7 +46,7 @@ Role required: sn\_wsd\_core.admin
 
 9.  Select **Transform**.
 
-10. Verify that the data records were imported into the Spaces table by navigating to **Workplace Safety Management** &gt; **Space Administration** &gt; **Spaces**
+10. Verify that the data records were imported into the Spaces table by navigating to **Workplace Core** &gt; **Space Administration** &gt; **Spaces**.
 
 
 **Parent Topic:**[Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace/providing-your-workplace-data.md)

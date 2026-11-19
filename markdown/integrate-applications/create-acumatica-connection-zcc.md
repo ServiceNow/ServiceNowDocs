@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Acumatica connection, zero-copy connector, REST connector, data fabric connection, ERP data]
-breadcrumb: [Acumatica, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Acumatica \(REST\), Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Create an Acumatica connection
@@ -26,6 +26,10 @@ The Acumatica connector appears in the Zero Copy Connector Hub UI only after bot
 Role required: df\_connection\_admin
 
 ## About this task
+
+**Note:**
+
+Acumatica is a **REST** connector. Before you set up this connection, review [REST connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rest-connectors.md) for prerequisites, authentication requirements, and API consumption considerations.
 
 After you create this connection, data stewards can use it to create data fabric tables that map to Acumatica data sources.
 

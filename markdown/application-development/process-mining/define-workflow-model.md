@@ -32,7 +32,7 @@ To mine a project, ensure that you have enabled [Audit Log](https://raw.githubus
 
     \[Omitted image "set-obj.png"\] Alt text: Project setup page
 
-    Select **Manage templates** to create or map templates. For more information, see [Create a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/automation-center/create-template.md) and [Map a template to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/map_template_to_table.md).
+    Select **Manage templates** to create or map templates. For more information, see [Create a Process Mining template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/create-template.md) and [Map a template to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/map_template_to_table.md).
 
 
 -   **[Set objectives for Process Mining projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/set-objectives.md)**  

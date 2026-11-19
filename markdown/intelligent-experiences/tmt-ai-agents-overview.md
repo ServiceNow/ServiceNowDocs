@@ -24,6 +24,8 @@ The following AI agents are available for Service Exchange.
 The following agents are available for Telecommunications Customer 360.
 -   **[Telecommunications Network Inventory AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/tni-ai-agents-overview.md)**  
 The following AI agents are available for Telecommunications Network Inventory.
+-   **[Sales CRM for Telecommunications AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/somt-ai-agents-overview.md)**  
+The following AI agents are available for Sales CRM for Telecommunications.
 
 **Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

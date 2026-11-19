@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow AI dashboard, Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [ServiceNow AI dashboard, Dashboards, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # ServiceNow AI Creator skills dashboard
@@ -20,7 +20,7 @@ Creator skills are AI-powered agents within ServiceNow that assist users by auto
 
 Creator skills operate within generative AI and are governed by ServiceNow's AI governance and control framework. Each suggestion is tracked, and users can accept, reject, cancel, or ignore recommendations. This feedback loop helps improve skill performance and informs adoption metrics.
 
-To view the ServiceNow AI Creator skills dashboard on AI Control Tower, navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **ServiceNow AI** &gt; **Creator skills**.\[Omitted image "aict-snow-ai-creator-skills.png"\] Alt text: The ServiceNow AI Creator skills dashboard with different widgets displaying the insights.
+To view the ServiceNow AI Creator skills dashboard on Control Tower, navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **ServiceNow AI** &gt; **Creator skills**.\[Omitted image "aict-snow-ai-creator-skills.png"\] Alt text: The ServiceNow AI Creator skills dashboard with different widgets displaying the insights.
 
 ## Skill Satisfaction
 

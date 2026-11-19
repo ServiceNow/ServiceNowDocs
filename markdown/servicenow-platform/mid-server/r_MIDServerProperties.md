@@ -98,10 +98,10 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     -   Default value: false
 -   **mid.cloud.discovery.bypass.proxy**
 
-    This configuration parameter accepts a comma separated list of DNS/IP addresses of proxy servers. The listed proxy servers are bypassed during Cloud Discovery. To bypass proxies on multiple cloud service providers \(such as AWS or Azure\), a separate MID Server must be set up for each provider. Otherwise, the MID Server proxy configuration is followed normally.
+    This configuration parameter accepts true or false values. If the value is true, all Cloud Discovery REST API calls bypass the proxy. If the value is false, all Cloud Discovery REST API calls go through the proxy. The listed proxy servers are bypassed during Cloud Discovery. To bypass proxies on multiple cloud service providers \(such as AWS or Azure\), a separate MID Server must be set up for each provider. Otherwise, the MID Server proxy configuration is followed normally.
 
     -   Type: string
-    -   Default value: none
+    -   Default value: false
 -   **mid.discovery.file\_transfer\_protocol**
 
     Used to determine the file transfer method used for probes or patterns.
@@ -150,13 +150,17 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     -   Default value: none
 -   **mid.discovery.aws\_ssm.s3\_bucket\_name**
 
-    Because the SSM Run Command console has a 24,000-character limit, results that exceed this limit must be stored in and retrieved from an S3 bucket. For Put File commands, the S3 bucket also serves as a transfer point between the MID Server and the AWS environment, enabling file delivery to target devices via SSM. To configure the MID Server to support these S3-based operations, set the **mid.discovery.aws\_ssm.s3\_bucket\_name** property to the name of the S3 bucket used for SSM Agent discovery.
+    The SSM Run Command console has a 24,000-character limit. Results that exceed this limit must be stored in and retrieved from an S3 bucket. For Put File commands, the S3 bucket also serves as a transfer point between the MID Server and the AWS environment. It enables file delivery to target devices through SSM.
+
+    Set the **mid.discovery.aws\_ssm.s3\_bucket\_name** property to the name of the S3 bucket used for SSM Agent discovery to configure the MID Server to support these S3-based operations.
 
     -   Type: string
     -   Default value: none
 -   **mid.discovery.aws\_ssm.s3\_bucket\_region**
 
-    Because the SSM Run Command console has a 24,000-character limit, results that exceed this limit must be stored in and retrieved from an S3 bucket. For Put File commands, the S3 bucket also serves as a transfer point between the MID Server and the AWS environment, enabling file delivery to target devices via SSM. To configure the MID Server to support these S3-based operations, set the bucket’s region in the **mid.discovery.aws\_ssm.s3\_bucket\_region** property.
+    The SSM Run Command console has a 24,000-character limit. Results that exceed this limit must be stored in and retrieved from an S3 bucket. For Put File commands, the S3 bucket also serves as a transfer point between the MID Server and the AWS environment. It enables file delivery to target devices through SSM.
+
+    Set the bucket’s region in the **mid.discovery.aws\_ssm.s3\_bucket\_region** property to configure the MID Server to support these S3-based operations.
 
     -   Type: string
     -   Default value: none
@@ -239,7 +243,7 @@ Properties control the behavior of all MID Servers or a particular MID Server.
     -   Default value: false
 -   **mid.probe.use\_legacy\_forward\_dns**
 
-    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See  for more information.
+    Enables the legacy DNSNameResolver probe and disables the default DNSNameResolver probe. See [Probes used by Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/r_OrchestrationProbes.md) for more information.
 
     -   Type: true \| false
     -   Default value: false

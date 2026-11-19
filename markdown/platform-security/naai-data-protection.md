@@ -24,7 +24,7 @@ The following topics, all in AI Admin Hub, describe how Now Assist handles your 
 
     Understand how Now Assist transmits, processes, and protects your data, including options to mask sensitive data and control data sharing for model improvements.
 
--   **[Configuring Data Privacy for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md)**
+-   **[Configure Data Privacy for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/data-privacy-classic/configure-now-assist-data-privacy.md)**
 
     Configure how PII is de-identified before it reaches the large language model, including which data types are caught and how anonymization rules are applied.
 

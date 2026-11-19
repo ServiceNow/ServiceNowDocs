@@ -18,7 +18,7 @@ Create crews to assign work order tasks to a predefined group of agents.
 
 ## Before you begin
 
-Role required: wm\_dispatcher, wm\_manager
+Role required: wm\_crew\_moderator, wm\_dispatcher, wm\_manager
 
 ## About this task
 

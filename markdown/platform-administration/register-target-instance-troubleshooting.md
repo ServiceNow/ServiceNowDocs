@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, Instance Clone, Configure core features, ServiceNow AI Platform]
 ---
 
 # Troubleshooting for registering target instance

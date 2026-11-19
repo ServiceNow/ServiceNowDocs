@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/som-create-pro
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -68,7 +68,7 @@ Code
 
 </td><td>
 
-System-generated alphanumeric number based on the product name. Although system generated, you can edit the code to represent a SKU or any other industry-specific product codes.
+System-generated code based on the product name. Although system generated, you can edit the code to represent a SKU or any other industry-specific product codes. The code can include any character except an asterisk \(\*\) or a percent sign \(%\). When you save, letters are converted to uppercase and any \* or % characters are removed. For example, `bl-ui.test/1` is saved as `BL-UI.TEST/1`, and `BL*UI` is saved as `BLUI`. The code must be unique for the offering version. If the saved code matches an existing code, the record isn't saved; enter a different code.
 
 </td></tr><tr><td>
 
@@ -168,7 +168,9 @@ Offering type
 
 Type of product offer. Select one of the following:-   Product: A product entity that an agent or customer can add to a Sales CRM transaction. For example, agents can add products to a lead, opportunity, quote, or order from the CRM Workspace. Customers can add products to an order from the Business Portal.
 -   Entitlement: An entity such as a warranty or subscription that can be added to a lead, opportunity, quote, or order by an agent.
+An entitlement offering can have only entitlement offerings as child offerings. A product offering can have both product and entitlement child offerings. For example, a router product offering can include a warranty entitlement offering as a child, but a warranty entitlement offering can't include the router.
 
+If you add a product offering as a child of an entitlement offering, the relationship isn't saved and you see this error: `Source Product Offering of type "Entitlement" cannot have Target Product Offering of type "Product".` To fix it, select an entitlement offering as the target offering, or change the parent offering type to Product.
 
 </td></tr><tr><td>
 
@@ -176,7 +178,7 @@ Offering sub-type
 
 </td><td>
 
-Type of entitlement. Select one of the following:-   Warranty
+Category of the offering. This field is optional, has no default value, and is available for both the Product and Entitlement offering types. For example, select Subscription for a product offering that is billed as a software subscription, or Warranty for a warranty entitlement offering. Select one of the following:-   Warranty
 -   Extended warranty
 -   License
 -   Subscription
@@ -212,7 +214,7 @@ Product model
 
 </td><td>
 
-Name of the product model.
+Name of the product model.**Important:** If you select a product model and save the offering, all relationship groups of this product offering are deleted. Its child offering relationships are no longer assigned to a relationship group. To keep relationship groups, don't select a product model for the offering.
 
 </td></tr><tr><td>
 
@@ -228,7 +230,7 @@ Pricing method
 
 </td><td>
 
-Pricing method for the product:-   One-time: A single fee for the product.
+Pricing method for the product. This field is optional. In a bundle, child offerings can use a different pricing method from the parent offering. For example, a bundle can include a router with a one-time fee and an internet service with a recurring fee. Select one of the following:-   One-time: A single fee for the product.
 -   Recurring: A fee that occurs at scheduled intervals. You can set the **Periodicity** for a recurring fee.
 **Note:** If you're creating a configurable product offering that can have ramps, select Recurring as the **Pricing method** so that the **Enable ramps** option can be selected.
 

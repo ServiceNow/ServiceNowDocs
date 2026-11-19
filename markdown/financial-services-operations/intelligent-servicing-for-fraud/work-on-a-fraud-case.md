@@ -8,7 +8,7 @@ product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [work on a fraud case, card fraud by alert, process fraud alerts, external fraud detection system, fraud risk evaluation, fraud risk low risk high risk, decision builder fraud rules, investigate fraud cases, fraud case playbook, case disposition, fraud write-off, manager approval for fraud, sn\_bom\_fraud.agent]
 breadcrumb: [Use, Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---

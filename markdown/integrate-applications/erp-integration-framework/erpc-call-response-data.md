@@ -37,3 +37,5 @@ You can then add the **Response** data pill or any of the child **record** data 
 
 For example, you can generate a record for each response from the ERP system, making that data available for use on the ServiceNow AI Platform.
 
+**Parent Topic:**[Working with ERP systems in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-systems.md)
+

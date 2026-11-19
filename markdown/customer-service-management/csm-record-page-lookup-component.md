@@ -24,7 +24,10 @@ The lookup component is available on the following interaction record pages:
 
 **Note:** For some of these interaction record pages, the Lookup component replaces the Lookup &amp; Verify component that was formerly available in the contextual side panel.
 
-For more information about the component usage and configuration, see [Lookup](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/record%20lookup/overview) in the [Next Experience Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades).
+For more information about the component usage and configuration, see the following topics:
+
+-   [Lookup](https://horizon.servicenow.com/workspace/components/record-lookup?release=brazil)
+-   Lookup component setup
 
 ## Using the lookup component
 

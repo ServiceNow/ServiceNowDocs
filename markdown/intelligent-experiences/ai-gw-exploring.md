@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-22"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, explore, AI Gateway, MCP server]
-breadcrumb: [AI Gateway, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [AI Gateway, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Exploring AI Gateway
@@ -48,7 +48,7 @@ Records opened from **Inventory** &gt; **Assets** &gt; **MCP servers** open on t
 
 An MCP server goes through these stages before agents can call its tools through AI Gateway.
 
-1.  The MCP server is added to the inventory. It can sync from AI Agent Studio, or an AI steward can add it from the MCP Catalog or AI Control Tower.
+1.  The MCP server is added to the inventory. It can sync from AI Agent Studio, or an AI steward can add it from the MCP Catalog or Control Tower.
 2.  The AI steward moves the server to managed, which starts the Onboard playbook on the record's **Lifecycle** tab.
 3.  The AI steward completes the playbook's Assess, Build and Test, and Deploy phases. The record shows Deployed &amp; Approved, and its **AI Gateway** tab is ready for client registration.
 4.  The AI steward registers the clients that can connect to the server.

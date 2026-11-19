@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Archiving records in Data Management Console, Manage data growth in Data Management, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Archiving records in Data Management Console, Manage data growth in Data Management, Data Management, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create an archive rule in Data Management Console
@@ -26,15 +26,15 @@ Because you can define multiple archive rules for a table, verify any existing a
 
 1.  Access the create rule wizard in the Data Management Console in one of the following ways.
 
-<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d285942e67">
+<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d285835e69">
 
 Option
 
-</th><th align="left" id="d285942e70">
+</th><th align="left" id="d285835e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d285942e76">
+</th></tr></thead><tbody><tr><td id="d285835e78">
 
 **Overview tab**
 
@@ -45,7 +45,7 @@ Steps
 3.  Select **Create rule**.
 
 
-</td></tr><tr><td id="d285942e114">
+</td></tr><tr><td id="d285835e116">
 
 **Rules tab**
 

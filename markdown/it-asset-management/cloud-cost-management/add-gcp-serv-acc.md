@@ -18,13 +18,11 @@ Add a Google Cloud service account to store the credential and access informatio
 
 ## Before you begin
 
-Role required: discovery\_admin or sn\_cmp.cloud\_admin
-
-Set up download jobs for billing and price sheet data for the service account.
+Role required: discovery\_admin
 
 ## About this task
 
-A service account is a secure record on your instance that stores the credential and access information for your provider account. Discovery uses the information to access your provider account to get data on each resource in each specified datacenter. A cloud account can include multiple service accounts — even service accounts from different providers. For each service account, you specify which datacenters to include in the cloud account.
+A service account is a secure record on your instance that stores the credential and access information for your provider account. Discovery uses the information to access your provider account to get data on each resource in each specified datacenter. A cloud account can include multiple service accounts and even service accounts from different providers. For each service account, you specify which datacenters to include in the cloud account.
 
 ## Procedure
 
@@ -82,7 +80,7 @@ Datacenter Type
 
 </td><td>
 
-Type of the datacenter where the account is hosted.Select **Google Cloud Platform datacenter**.
+Type of the datacenter where the account is hosted.Select **Google datacenter**.
 
 </td></tr><tr><td>
 
@@ -90,7 +88,7 @@ Datacenter discovery status
 
 </td><td>
 
-Status and timestamp of the last execution of Discovery on the datacenter.This value is generated automatically.
+The status and timestamp of the most recent execution of "Discover Datacenters" for this cloud service account. "Discover Datacenters" identifies the datacenters \(regions\) associated with the account.This field is generated automatically and you can't edit it.
 
 </td></tr><tr><td>
 

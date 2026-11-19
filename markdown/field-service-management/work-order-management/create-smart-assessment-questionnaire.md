@@ -96,3 +96,5 @@ You can enable the inherit functionality for a questionnaire template. For examp
 
 A questionnaire with the **Type** set to **Smart Assessment** is created.
 
+**Note:** You can't delete questionnaire records. To retire a questionnaire, make it inactive.
+

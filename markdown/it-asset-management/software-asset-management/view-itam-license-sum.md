@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Subscriptions for Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Subscriptions for Software Asset Management, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View license report for the IT Asset Management application
@@ -24,9 +24,8 @@ Role required: usage\_admin, admin.
 
 The following interactions collect and aggregate the information used for licensing. As a result, you can view statistics on how your organization uses purchased subscription units.
 
-1.  The IT Asset Management applications count CIs and assign them to CI categories each day.
-2.  The IT Asset Management applications report CI counts by CI category to the licensing module each day. If features of the same application report the same CIs as their resources, the CI count is adjusted to remove the duplication.
-3.  The licensing module correlates the daily average CI counts for IT Asset Management applications with the licensing information from the customer contract to produce license statistics.
+1.  The IT Asset Management applications report CI counts by CI category to the licensing module each day. If features of the same application report the same CIs as their resources, the CI count is adjusted to remove the duplication.
+2.  The licensing module correlates the daily average CI counts for IT Asset Management applications with the licensing information from the customer contract to produce license statistics.
 
 ## Procedure
 
@@ -45,7 +44,7 @@ The following interactions collect and aggregate the information used for licens
     |Subscription Unit Ratio|Ratios show the subscription units to managed IT resources, in the form subscription units:resource. The Software Asset Management application has pre-defined values for End User Computing Devices \(1:4\), Servers \(1:1\), IaaS storage \(1:3\), PaaS resources \(1:3\), and SaaS subscription users \(1:15\).|
     |Total Subscription Units Consumed|Number of subscriptions consumed per CI category, for each IT Asset Management application. The licensing module calculates this number by applying the subscription ratio to the CI count for each application's CI category.|
 
-    For licensing purposes, Software Asset Management counts only CIs with software installs that were discovered within the last 90 days or the last discovered date is empty
+    For licensing purposes, Software Asset Management counts only CIs with software installs that were discovered within the last 90 days or the last discovered date is empty.
 
     CIs are also excluded if a custom column is added to the cmdb\_ci\_hardware table and that column is referenced in the **Enter the name of the true/false field added to cmdb\_ci\_hardware table to exclude software installed on selected devices from Software Asset Management** property.
 

@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Install the Theme Builder store application.
+1.  Install the Theme Builder app from the ServiceNow Store.
 
     1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
@@ -30,13 +30,13 @@ Role required: admin
 
 2.  Create a theme using Theme Builder by referring to [Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/tb-create-theme.md).
 
-    Polaris is the default theme for Next Experience, and this theme cannot be copied. So, we must create a theme and publish it for use.
+    Polaris is the default theme for Next Experience, and this theme cannot be copied. You must create a theme and publish it for use.
 
 3.  Use the experience preview to preview the theme in the workspace.
 
-4.  Select **Apply theme** form the drop-down in the top-right corner.
+4.  Select **Apply theme** from the drop-down list in the top-right corner.
 
-    Theme is deployed at the instance level.
+    The theme is deployed at the instance level.
 
 5.  Select **View issues** to review accessibility issues if the theme does not meet accessibility requirements.
 

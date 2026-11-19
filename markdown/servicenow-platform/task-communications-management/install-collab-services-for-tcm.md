@@ -34,7 +34,7 @@ Role required: admin
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/list-of-plugins.md)
 
-[bundle-crint.configure-slack-workspace]
+[Configure Slack workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/configure-slack-workspace.md)
 

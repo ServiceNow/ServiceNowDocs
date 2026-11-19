@@ -1,6 +1,6 @@
 ---
-title: Exploring AI system monitoring in AI Control Tower
-description: Learn how AI Control Tower automatically scores live AI interactions against quality and safety metrics using an OpenTelemetry-based data model of sessions, traces, and spans.
+title: Exploring AI system monitoring
+description: Learn how Super Intelligence Control Tower automatically scores live AI interactions against quality and safety metrics using an OpenTelemetry-based data model of sessions, traces, and spans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-exploring-aict-evaluations.html
 release: brazil
@@ -8,18 +8,18 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, explore]
-breadcrumb: [Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# Exploring AI system monitoring in AI Control Tower
+# Exploring AI system monitoring
 
-Learn how AI Control Tower automatically scores live AI interactions against quality and safety metrics using an OpenTelemetry-based data model of sessions, traces, and spans.
+Learn how Super Intelligence Control Tower automatically scores live AI interactions against quality and safety metrics using an OpenTelemetry-based data model of sessions, traces, and spans.
 
 ## Monitoring overview
 
 An AI system that performs well in testing can drift in production. Models degrade, data sources change, and tool integrations break. Without ongoing evaluation, these problems go undetected until users report them.
 
-Monitoring in AI Control Tower addresses this by automatically scoring a sample of live AI interactions against configurable quality and safety metrics. Scores are aggregated into weighted measures and surfaced alongside trend data so you can detect regressions early and investigate before users are affected.
+Monitoring in Control Tower addresses this by automatically scoring a sample of live AI interactions against configurable quality and safety metrics. Scores are aggregated into weighted measures and surfaced alongside trend data so you can detect regressions early and investigate before users are affected.
 
 -   Get continuous visibility into AI system quality and safety through automated large language model \(LLM\)-based scoring.
 -   Align scoring to your organization's priorities by selecting which metrics are evaluated and how much each one contributes to the overall score.
@@ -63,7 +63,7 @@ Works with AI stewards to understand evaluation results for their specific AI sy
 The monitoring pipeline has four stages:
 
 1.  **Collection.** For ServiceNow AI, trace data is collected automatically. For external AI, trace data is sent to ServiceNow via API using a generated API key.
-2.  **Scoring.** The evaluation engine applies your configured metrics to each sampled session. Metrics are scored by LLM judges, which are custom models fine-tuned for specific evaluation criteria. For ServiceNow AI, the AI Skill Kit Auto Eval engine scores sessions. For external AI, sessions are scored by ServiceNow evaluation models.
+2.  **Scoring.** The evaluation engine applies your configured metrics to each sampled session. Metrics are scored by automated evaluators. For ServiceNow AI, the AI Skill Kit Auto Eval engine scores sessions. For external AI, sessions are scored by ServiceNow evaluation models.
 3.  **Aggregation.** Per-metric scores are combined into composite quality and safety scores using the weighted average formula you define in your metric template.
 4.  **Visualization.** Scores, trends, and session-level detail are available on the overview and through drill-down into individual sessions, traces, and spans.
 
@@ -77,16 +77,16 @@ This infographic shows a sample end-to-end workflow of how different users work 
 
 In this workflow:
 
-1.  The system administrator installs AI Control Tower which includes the Evaluations plugin. The Evaluations plugin enables the evaluation framework, scoring engine, and monitoring components.
+1.  The system administrator installs Control Tower, which includes the Evaluations plugin. The Evaluations plugin enables the evaluation framework, scoring engine, and monitoring components.
 2.  The AI steward activates evaluation scoring for ServiceNow AI systems. For external AI systems, the AI steward generates an API key and configures the external system to send trace data or configures trace connectors to send trace data from a supported cloud platform.
-3.  The AI steward and AI asset owner enable evaluations for individual assets by updating asset records in the AI Control Tower inventory.
+3.  The AI steward and AI asset owner enable evaluations for individual assets by updating asset records in the Control Tower inventory.
 4.  The AI steward configures evaluation metric templates by selecting quality and safety metrics and assigning weights to create a scoring formula.
 5.  The evaluation scoring engine automatically scores a sample of live AI interactions. For ServiceNow AI, the AI Skill Kit Auto Eval engine scores sessions. For external AI, sessions are scored by ServiceNow evaluation models.
 6.  The AI steward and AI asset owner review aggregated quality and safety scores, identify underperforming AI systems, and track trends over time.
 7.  The AI steward and AI Asset owner investigate low-scoring sessions by drilling into session detail, reviewing per-metric scores and judge reasoning, and tracing root causes through individual traces and spans.
 8.  The AI steward coordinates with the AI system owner to adjust the agent's configuration, prompts, or tool access based on investigation findings.
 9.  The AI system owner makes adjustments to agents as necessary.
-10. The AI steward and AI Asset owner verify improvements externally at build time and continue verification in AI Control Tower at run time.
+10. The AI steward and AI Asset owner verify improvements externally at build time and continue verification in Control Tower at run time.
 
 ## ServiceNow AI vs. external AI
 
@@ -99,9 +99,9 @@ Both categories use the same evaluation framework, but they differ in data colle
 |Default quality metrics|Overall task completeness, Tool calling correctness|Task completion, Answer relevancy|
 |Safety metrics|Not available with ServiceNow AI systems|Secrets detection \(additional safety metrics available\)|
 
-## Where monitoring fits in AI Control Tower
+## Where monitoring fits in Control Tower
 
-AI Control Tower provides three complementary governance areas:
+Control Tower provides three complementary governance areas:
 
 -   Inventory manages what AI systems exist and their lifecycle state.
 -   Govern enforces policies, approvals, and compliance requirements.
@@ -113,7 +113,7 @@ Insights depends on inventory, since only managed assets are evaluated. The rela
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Automatically score live AI interactions without manual review using LLM-based judges fine-tuned for evaluation criteria.|[How evaluation scoring works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-how-evaluation-scoring-works.md)|AI steward|
+|Automatically score live AI interactions without manual review using automated evaluators.|[How evaluation scoring works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-how-evaluation-scoring-works.md)|AI steward|
 |Define what quality and safety mean for your organization by selecting metrics and assigning weights to create a custom scoring formula.|[Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configure-metric-templates.md)|AI steward|
 |Track quality and safety trends over time to catch gradual regressions, not just one-off failures.|[Reviewing quality and safety scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-reviewing-ai-system-scores.md)|AI steward, AI asset owner|
 |Drill from portfolio-level scores down to a specific span in a trace to pinpoint exactly where an AI system's behavior broke down.|[Investigating low-scoring sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)|AI steward, AI asset owner|
@@ -121,9 +121,9 @@ Insights depends on inventory, since only managed assets are evaluated. The rela
 
 ## What to explore next
 
-To learn more about configuring and monitoring in AI Control Tower, see:
+To learn more about configuring and monitoring in Control Tower, see:
 
--   [Configuring monitoring and evaluations in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configuring-aict-evaluations.md)
+-   [Configuring monitoring and evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-configuring-aict-evaluations.md)
 -   [Reviewing AI system quality and safety scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-reviewing-ai-system-scores.md)
 -   [Investigating low-scoring sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mon-ai-investigating-low-scoring-sessions.md)
 

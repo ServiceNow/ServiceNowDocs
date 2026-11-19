@@ -28,8 +28,8 @@ To access the DEX issue diagnosis and resolution agentic workflow, make sure tha
 
 **Note:**
 
--   Before you begin, review these [Important considerations for using ServiceNow Otto for IT Service Management \(ITSM\) agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/important-considerations-itsm-agentic-ai.md).
--   For all available ITSM agentic AI applications, see [Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-ai-agents-use-cases.md).
+-   Before you begin, review these .
+-   For all available ITSM agentic AI applications, see .
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-native-sku-overview.md).
 

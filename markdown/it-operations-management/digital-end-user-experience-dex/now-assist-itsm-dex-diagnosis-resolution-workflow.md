@@ -19,6 +19,8 @@ Use the Digital End-User Experience \(DEX\) issue diagnosis and resolution agent
 
 ## DEX issue diagnosis and resolution agentic workflow capabilities
 
+As a prerequisite, enable the ServiceNow Otto panel.
+
 Using the DEX issue diagnosis and resolution agentic workflow:
 
 -   Get automated diagnoses for incidents on DEX monitored end-user devices. Root cause analysis is generated based on sources such as device health check data from 24 hours before the incident to incident time. Similar past incidents are also used. With the integration of Zoom specific diagnostics, you can diagnose Zoom call quality issues by correlating device, network, and application data.
@@ -34,16 +36,13 @@ To access the DEX issue diagnosis and resolution agentic workflow, make sure tha
 
 ## Roles required to access the agentic workflow
 
-To use the DEX issue diagnosis and resolution agentic workflow, you must have one of the following role combinations:
-
--   sn\_dex.service\_desk\_user and itil
--   sn\_dex.engineer and itil
+To use the DEX issue diagnosis and resolution agentic workflow, you must have the `itil` role.
 
 ## Additional requirements to access the agentic workflow
 
 The DEX issue diagnosis and resolution agentic workflow provides incident diagnosis and resolution only when the following requirements are met.
 
--   The agentic workflow must be activated. For more information, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-aia-use-case.md).
+-   The agentic workflow must be activated. For more information, see .
 -   The incident number must be valid.
 -   The incident record must be associated with a single, DEX monitored physical endpoint or device. Only one device configuration item \(CI\) must be configured either as the primary CI in the **Configuration item** field or in the **Affected CIs** list.
 -   The device associated with the incident must have a DEX compatible operating system. For more information, see [DEX system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/dex-sys-requirements.md).
@@ -107,7 +106,7 @@ In the agentic workflow record:
 1.  Review the information in the Define key requirements screen, make updates if necessary, and then select **Continue**.
 2.  In the Define user access screen, review or add roles that can access the use case, and then select **Continue**.
 3.  In the Define data access screen, review the user identity for the AI agent, make updates if necessary, and then select **Continue**.
-4.  In the Define trigger screen, make updates if necessary, and then select **Continue**. For more information about defining triggers, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-use-case-ai-agents.md).
+4.  In the Define trigger screen, make updates if necessary, and then select **Continue**. For more information about defining triggers, see .
 5.  In the Select display screen, choose where to display the agentic workflow output, and then select **Save and test**.
 6.  In the Test details screen, enter your prompt in the **Task** field, and then select **Continue to Test Chat Response**.
 

@@ -73,7 +73,7 @@ The ServiceNow Otto for PSDS application includes the generative AI skills that 
 **Related topics**  
 
 
-[bundle-platai.platform-now-assist-landing]
+[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
 [Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/now-assist-psds-configuring.md)
 

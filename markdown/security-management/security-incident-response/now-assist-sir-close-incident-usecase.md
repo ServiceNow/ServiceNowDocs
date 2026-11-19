@@ -28,7 +28,7 @@ To modify this agentic workflow, you can [duplicate](https://raw.githubuserconte
 The Security incident wrap-up generator expert is used in the Wrap up security incident agentic workflow.
 
 -   **[Close a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/close-sir-incident-aiagent.md)**  
-Chat with an AI agent in the ServiceNow Otto panel to help you close a security incident.
+Use the Wrap up security incident agentic workflow in the ServiceNow Otto panel to cancel open response tasks, generate close notes and post-incident analysis, and close a security incident.
 
 **Parent Topic:**[Using agentic AI workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/using-now-assist-ai-agents-sir.md)
 

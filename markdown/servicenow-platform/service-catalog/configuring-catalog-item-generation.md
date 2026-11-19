@@ -26,5 +26,5 @@ You must activate the Catalog item generation skill.
 
 [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md)
 
-[bundle-platai.configure-a-now-assist-skill]
+[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md)
 

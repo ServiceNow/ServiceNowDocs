@@ -66,6 +66,8 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 -   **[Copy and customize the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/clone-customize-the-demand-summarization-skill-ppm.md)**  
 Copy the base demand summarization skill and customize it with your own fields, related entities, and prompt to summarize demands.
+-   **[Inputs for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/inputs-for-ai-skills-ppm.md)**  
+Learn about the inputs of each skill for the ServiceNow Otto for Strategic Portfolio Management application. By configuring the inputs for a skill, you can determine how and when a skill is used.
 
 **Parent Topic:**[Configuring Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-management/configuring-demand-management.md)
 

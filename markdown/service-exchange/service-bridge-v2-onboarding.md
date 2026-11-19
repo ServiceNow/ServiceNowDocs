@@ -8,7 +8,7 @@ product: Service Exchange
 classification: service-exchange
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
 

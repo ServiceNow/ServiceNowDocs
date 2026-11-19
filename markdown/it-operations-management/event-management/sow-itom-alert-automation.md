@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Alert automation, Alert automation, servicenow, Alert automation, ITOM]
-breadcrumb: [Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert automation in Service Operations Workspace for ITOM

@@ -33,17 +33,17 @@ Approval users use the chat feature in the MCP client to perform, manage, and tr
 
     3.  If needed, add an ad-hoc approver for an approval rule relevant to the quote.
     4.  Submit the quote for approval with a comment.
-    5.  Recall an approval request for the quote to make any changes to the quote.
+    5.  Recall an approval request for the quote to make any changes to the quote. For details, see .
     6.  Update a quote that has been recalled or was rejected, then resubmit for approval.
 -   **Using MCP tools as approver**
 
     As part of approving or rejecting quotes, approvers can do the following using an MCP client:
 
-    1.  Request pending approvals to identify quotes that require action.
+    1.  Request pending approvals to identify quotes that require action. For details, see .
     2.  Request quote header and line details to review the quote.
     3.  Optionally request approval history to review previous decisions on the quote.
     4.  If needed, add an ad-hoc approver for an approval rule relevant to the quote.
-    5.  Act on an approval request by approving or rejecting the quote with a comment.
+    5.  Act on an approval request by approving or rejecting the quote with a comment. For details, see .
 
 -   **[Get quote details in an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/get-quote-details-mcp.md)**  
 Retrieve quote header and line-level information using natural language in a Model Context Protocol \(MCP\) client.

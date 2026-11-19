@@ -20,7 +20,7 @@ View a list of available robots in Automation Center for reference purpose.
 
 Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_user, or sn\_ac.automation\_admin
 
-In addition to the Automation Center roles, you will also need the Robotic Process Automation \(RPA\) roles. For more information on RPA roles, see .
+In addition to the Automation Center roles, you will also need the Robotic Process Automation \(RPA\) roles. For more information on RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/installed-with-rpa-hub.md).
 
 ## About this task
 
@@ -30,7 +30,11 @@ You can't create a robot.
 
 ## Procedure
 
-1.  2.  3.  On the **Lists** tab, under **Monitor**, select **All Robots**.
+1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation center Home**.
+
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
+
+3.  On the **Lists** tab, under **Monitor**, select **All Robots**.
 
 4.  Open the robot that you want to view.
 

@@ -128,7 +128,7 @@ An agent can get quick visibility into the work assigned, view announcements, an
 -   **[Exploring Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/exploring-recommended-actions-for-itsm-in-service-operations-workspace.md)**  
 Recommended Actions for ITSM lets you set up and apply real-time actionable recommendations for speeding up the triaging process. You can resolve issues quickly across various records in the Service Operations Workspace, including incidents, incident tasks, problems, problem tasks, change requests, change tasks, interactions, and requests.
 -   **[Exploring On-call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/on-call-scheduling-in-service-operations-workspace.md)**  
-On-Call Scheduling ensures that dedicated support team members are always available to resolve issues as they arise. You can set up on-call schedules, roster rotations, and escalation policies, escalate notifications for a group, and determine the current contact for an escalation.
+On-Call Scheduling helps make dedicated support team members available to resolve issues as they arise. You can set up on-call schedules, roster rotations, and escalation policies, escalate notifications for a group, and determine the current contact for an escalation.
 
 **Parent Topic:**[Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/sow-landing-page.md)
 

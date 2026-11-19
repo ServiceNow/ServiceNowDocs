@@ -18,6 +18,8 @@ When you implement the change task, you can close the task from the Mobile Agent
 
 ## Before you begin
 
+To close a change task, you must have a write access to the change task record. The itil and sn\_change\_write roles provide this access. For the full list of Change Management roles and what each role allows, see [Components installed with ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/installed-with-cm-itsm-roles.md).
+
 Role required: itil or sn\_change\_write
 
 ## Procedure
@@ -30,6 +32,12 @@ Role required: itil or sn\_change\_write
 
 4.  Tap **Close task**.
 
+    **Note:** If the **Close task** action isn't available, your administrator might have restricted it. For example to the user assigned to the task. Contact your administrator to confirm your access
+
+
+## Result
+
+The change task is closed and it no longer appears in your list of open change tasks.
 
 **Parent Topic:**[Get started with Change Management mobile tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/getting-started-with-changetasks.md)
 

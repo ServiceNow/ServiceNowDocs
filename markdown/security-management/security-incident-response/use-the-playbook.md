@@ -1,5 +1,5 @@
 ---
-title: Resolve security threats with the playbook
+title: Legacy: Resolve security threats with the playbook
 description: Use the Playbook to resolve certain types of security threats in a step-by-step manner. For example, you can resolve phishing attacks and threats caused by malicious code activity using playbooks.The Phishing playbook guides you through the tasks necessary for analyzing and resolving a phishing attack reported by one of your company's employees.As you analyze security threats using the Security Incident Response playbook, you can view knowledge articles for each task if defined by your organization. If knowledge articles are not present, you can create them and associate them with playbook tasks.The Security Analyst Workspace base system includes a series of tasks for each threat category. You can create custom tasks that meet the unique needs of your system or customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/security-incident-response/use-the-playbook.html
@@ -8,11 +8,11 @@ product: Security Incident Response
 classification: security-incident-response
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 10
-breadcrumb: [Manage security threats using the Security Analyst Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
+reading_time_minutes: 11
+breadcrumb: [Legacy: Manage security threats using the Security Analyst Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Resolve security threats with the playbook
+# Legacy: Resolve security threats with the playbook
 
 Use the Playbook to resolve certain types of security threats in a step-by-step manner. For example, you can resolve phishing attacks and threats caused by malicious code activity using playbooks.
 
@@ -22,6 +22,10 @@ Role required: sn\_si.admin or admin
 
 ## About this task
 
+**Important:**
+
+The Security Incident Response UI \[sn\_app\_secops\_ui\] is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-workspace-landing-page.md) instead.
+
 Each group of tasks \(Analysis, Contain, and so forth\) leads you through a series of questions and other activities for resolving the threat.
 
 As you work through each task, enter work notes to help analyze similar attacks in the future. After a threat is identified, you can also use information in the playbook to quarantine the threat, isolate similarly affected assets, and remove malware.
@@ -30,7 +34,7 @@ Knowledge articles, included in each task, provide tips and other information to
 
 The base system includes knowledge articles for each of the playbook tasks. You can, however, [write your own knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/t_CrtScrIncdtKnwArt.md) and [associate them to playbook tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/use-the-playbook.md).
 
-**Note:** For an example of how to use the playbook to analyze and resolve a specific threat, see [Resolving user-reported phishing attacks with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/use-the-playbook.md).
+**Note:** For an example of how to use the playbook to analyze and resolve a specific threat, see [Legacy: Resolving user-reported phishing attacks with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/use-the-playbook.md).
 
 ## Procedure
 
@@ -48,7 +52,7 @@ The base system includes knowledge articles for each of the playbook tasks. You 
 
 4.  If the playbook pane on the right-hand edge of the screen is closed, click the playbook icon \(\[Omitted image "cj-sir-icon-playbook.png"\] Alt text: Playbook\) to open it.
 
-    If no playbook is assigned to the security incident, you can select a playbook from the Selected Playbook choice list. You can also assign a different playbook to the security incident. To include a playbook in the Selected Playbook choice list or to change the playbook for a security incident, see [Enable playbooks for analyst selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-new-ui-add-playbook.md) for details.
+    If no playbook is assigned to the security incident, you can select a playbook from the Selected Playbook choice list. You can also assign a different playbook to the security incident. To include a playbook in the Selected Playbook choice list or to change the playbook for a security incident, see [Legacy: Enable playbooks for analyst selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-new-ui-add-playbook.md) for details.
 
     The playbook specific to the type of security threat opens. It is divided into categories of similar tasks. For example, you use the tasks in the **Analysis** group to determine the validity and scope of the threat. The **Contain** group includes tasks for isolating the threat to a specific user or asset. The tasks in the **Eradicate** group guide you through the process of removing the malware or reimaging the host.
 
@@ -67,11 +71,15 @@ The base system includes knowledge articles for each of the playbook tasks. You 
 **Related topics**  
 
 
-[Add a custom task to the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/use-the-playbook.md)
+[Legacy: Add a custom task to the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/use-the-playbook.md)
 
-## Resolving user-reported phishing attacks with the playbook
+## Legacy: Resolving user-reported phishing attacks with the playbook
 
 The Phishing playbook guides you through the tasks necessary for analyzing and resolving a phishing attack reported by one of your company's employees.
+
+**Important:**
+
+The Security Incident Response UI \[sn\_app\_secops\_ui\] is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-workspace-landing-page.md) instead.
 
 ### How security incidents are created from user-reported phishing attacks
 
@@ -207,13 +215,19 @@ Set the condition builder to:-   **Option:** Select **Short description**.
 
 [Create a Security Incident Response runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/setup-assistant-reference.md)
 
-## Add a custom task to the playbook
+## Legacy: Add a custom task to the playbook
 
 The Security Analyst Workspace base system includes a series of tasks for each threat category. You can create custom tasks that meet the unique needs of your system or customers.
 
 ### Before you begin
 
 Role required: sn\_si.basic or security\_admin
+
+### About this task
+
+**Important:**
+
+The Security Incident Response UI \[sn\_app\_secops\_ui\] is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/sir-workspace-landing-page.md) instead.
 
 ### Procedure
 

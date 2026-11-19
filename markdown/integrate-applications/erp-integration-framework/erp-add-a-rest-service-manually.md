@@ -100,3 +100,5 @@ Complete the following before adding a service manually:
 13. When finished, select **Add entity**.
 
 
+**Parent Topic:**[Connecting to other ERP systems using REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-rest.md)
+

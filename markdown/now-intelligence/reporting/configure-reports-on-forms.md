@@ -52,7 +52,7 @@ The following report types are not supported on forms: List, Pivot, Multilevel P
 
 6.  Select **Configure chart**.
 
-7.  Select the search icon \(\[Omitted image "SearchIcon.png"\] Alt text:\) to select a report.
+7.  Select the search icon \(\[Omitted image "SearchIcon.png"\] Alt text: Search icon\) to select a report.
 
     \[Omitted image "config-form-select-report.png"\] Alt text: Form chart form with the search icon highlighted
 

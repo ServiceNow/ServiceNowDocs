@@ -8,7 +8,8 @@ product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
+keywords: [suggested resolutions, remedial actions, incident investigation, investigation tab, self help instruction, catalog request, help resource, completed actions, resolution status, action library]
 breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage employee experience, Digital End-User Experience, IT Operations Management]
 ---
 

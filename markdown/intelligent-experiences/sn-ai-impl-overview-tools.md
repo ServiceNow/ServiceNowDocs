@@ -21,13 +21,13 @@ The following image illustrates the components of the ServiceNow AI experience. 
 
 ## AI policy
 
-AI governance is defined by your organization and then implemented on the platform using AI Control Tower. AI Control Tower is designed to scale with your organization's AI maturity. It enables end-to-end life cycle management of AI agents and models, from intake and evaluation to deployment and optimization. It also connects governance committees and implementation teams, so that policy decisions are translated into technical configurations and operational controls. The platform includes the AI Risk and Compliance application, which comes with prebuilt content aligned to the EU AI Act and NIST AI Risk Management Framework \(AI RMF\), helping organizations address these requirements and implement responsible AI practices. For more information, see [AI governance on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-governance.md).
+AI governance is defined by your organization and then implemented on the platform using Control Tower. Control Tower is designed to scale with your organization's AI maturity. It enables end-to-end life cycle management of AI agents and models, from intake and evaluation to deployment and optimization. It also connects governance committees and implementation teams, so that policy decisions are translated into technical configurations and operational controls. The platform includes the AI Risk and Compliance application, which comes with prebuilt content aligned to the EU AI Act and NIST AI Risk Management Framework \(AI RMF\), helping organizations address these requirements and implement responsible AI practices. For more information, see [AI governance on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-governance.md).
 
 For real-time guardrail enforcement for AI interactions, you can use AI Guardian to monitor and mitigate risks related to offensive content, sensitive topics, and security threats in generative AI outputs. Admins can configure these guardrails directly in the AI Admin Hub console, and logs are available to track detection events and guide decisions about blocking or escalation.
 
 For more information about these tools, see:
 
--   [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md)
+-   [Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md)
 -   [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-and-compliance.md)
 -   [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-guardian.md)
 
@@ -80,7 +80,7 @@ For more information about these tools and features, see:
     -   [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md)
     -   [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-large-language-models.md)
     -   [Analyzing AI performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-analytics.md)
-    -   [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/translation-for-now-assist.md)
+    -   [Multilingual service for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/translation-for-now-assist.md)
     -   [ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/now-assist-mobile-landing.md)
 -   [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 

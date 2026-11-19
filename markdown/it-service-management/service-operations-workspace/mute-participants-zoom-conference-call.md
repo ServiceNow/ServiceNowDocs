@@ -1,6 +1,6 @@
 ---
 title: Mute participants from a Zoom conference call in Service Operations Workspace
-description: Join an existing conference call to participate in the discussion to resolve an incident.
+description: Mute participants in a Zoom conference call to avoid background noise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-operations-workspace/mute-participants-zoom-conference-call.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Managing Zoom conference calls in Service Operations Workspace, Con
 
 # Mute participants from a Zoom conference call in Service Operations Workspace
 
-Join an existing conference call to participate in the discussion to resolve an incident.
+Mute participants in a Zoom conference call to avoid background noise.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ Role required: itil
 
 7.  Select the active call card.
 
-8.  Mute participants to avoid background noise by selecting the Mute icon \(\[Omitted image "mute-icon-conf-call.png"\] Alt text: Mute icon.\).
+8.  Mute participants to avoid background noise by selecting the **Mute** icon \(\[Omitted image "mute-icon-conf-call.png"\] Alt text: Mute icon.\).
 
 
 **Parent Topic:**[Managing Zoom conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/manage-conference-calls-zoom.md)

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-ai-ski
 release: brazil
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Activate ServiceNow Otto skills, Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -35,7 +35,7 @@ Activate the Document screening AI skill to use ServiceNow Otto for PSDS gen-AI 
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
 
-For more information, see .
+For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 -   Confirm that the following applications and plugins are installed:
 

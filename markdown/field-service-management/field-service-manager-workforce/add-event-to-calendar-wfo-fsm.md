@@ -36,15 +36,15 @@ You can create custom event types and add or remove fields. For more information
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d61589e122">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d61716e124">
 
 To
 
-</th><th align="left" id="d61589e125">
+</th><th align="left" id="d61716e127">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d61589e131">
+</th></tr></thead><tbody><tr><td id="d61716e133">
 
 **Create a meeting, training, or time-off request.**
 
@@ -69,7 +69,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d61589e237">
+</td></tr><tr><td id="d61716e239">
 
 **Create a work shift**
 

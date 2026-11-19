@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Strategic Priority form

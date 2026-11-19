@@ -208,7 +208,7 @@ Space type
 
 </td><td>
 
-Type of the office space. To configure a new space type, see [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
+Type of the office space. To configure a new space type, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
 
 </td></tr><tr id="latitude"><td>
 

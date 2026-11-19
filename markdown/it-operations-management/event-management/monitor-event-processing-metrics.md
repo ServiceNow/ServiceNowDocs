@@ -18,7 +18,7 @@ Extract statistics from your instance to ensure that performance is not affected
 
 ## Before you begin
 
-Ensure that the **Event Management - Collect xmlstats** job is active. Configure this scheduled job by navigating to **System Definition** &gt; **Scheduled Jobs**.
+Ensure that the **Event Management – Collect xmlstats** job is active. Configure this scheduled job by navigating to **System Definition** &gt; **Scheduled Jobs**.
 
 You can control the processing of event statistics using the **evt\_mgmt.event\_processing\_stats\_period** property. For information about configuring this property, see [Configure statistics processing period](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/add-property-statistics-processing-period.md).
 

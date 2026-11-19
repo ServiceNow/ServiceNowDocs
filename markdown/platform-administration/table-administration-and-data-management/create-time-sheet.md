@@ -9,7 +9,7 @@ classification: table-administration-and-data-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Time Sheets, Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Time Sheets, Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create a time sheet
@@ -30,15 +30,15 @@ A user can create only one time sheet per week.
 
 1.  Create the time sheet with one of these options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d230064e78">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d230000e80">
 
 Option
 
-</th><th align="left" id="d230064e81">
+</th><th align="left" id="d230000e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d230064e87">
+</th></tr></thead><tbody><tr><td id="d230000e89">
 
 **From the time sheet menu**
 
@@ -46,7 +46,7 @@ Steps
 
 Navigate to **Time Sheets** &gt; **My Time Sheets** &gt; **Current \(This Week\)**.The time sheet form for the current week opens.
 
-</td></tr><tr><td id="d230064e111">
+</td></tr><tr><td id="d230000e113">
 
 **From the time sheet list**
 

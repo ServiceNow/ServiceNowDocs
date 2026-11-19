@@ -1,5 +1,5 @@
 ---
-title: Security &amp; Privacy tab in AI Control Tower
+title: Security &amp; Privacy tab in Control Tower
 description: Review AI security metrics such as access issues, dormant and privileged AI agents, and map the relationships of your ServiceNow agents, agentic workflows, and tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/security-privacy-tab.html
@@ -9,24 +9,24 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control Tower Home, Control Tower dashboard, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Security &amp; Privacy tab in AI Control Tower
+# Security &amp; Privacy tab in Control Tower
 
 Review AI security metrics such as access issues, dormant and privileged AI agents, and map the relationships of your ServiceNow agents, agentic workflows, and tools.
 
-The **Security &amp; Privacy** tab of AI Control Tower offers a dashboard-based overview of your AI security metrics. The dashboard contains several visualizations detailing AI security metrics. In addition to tracking metrics the **Security &amp; Privacy** tab contains the access map, a tool that gives an node-graph visualization of the relationships between your ServiceNow agents, agentic workflows, and tools. You can use the map to investigate the relationships between your AI agents and workflows further.
+The **Security &amp; Privacy** tab of Control Tower offers a dashboard-based overview of your AI security metrics. The dashboard contains several visualizations detailing AI security metrics. In addition to tracking metrics the **Security &amp; Privacy** tab contains the access map, a tool that gives an node-graph visualization of the relationships between your ServiceNow agents, agentic workflows, and tools. You can use the map to investigate the relationships between your AI agents and workflows further.
 
 **Note:** You can drill down into the data on each widget by selecting the chart.
 
-\[Omitted image "sp-tab-dashboard.png"\] Alt text: The AI Control Tower Dashboard
+\[Omitted image "sp-tab-dashboard.png"\] Alt text: The Control Tower Dashboard
 
 ## ServiceNow AI Insights
 
 ServiceNow AI Insights require that the Now Assist AICT Security Posture Summarizer skill is enabled. For more details, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
-AI Control Tower AI insights summarize positives and potential issues to remediate to improve the overall security posture of your instance.
+Control Tower AI insights summarize positives and potential issues to remediate to improve the overall security posture of your instance.
 
 -   Positives: Enabled settings and features that improve your security posture.
 -   Areas for Attention: Low- to medium-risk items to resolve.
@@ -37,13 +37,13 @@ AI Control Tower AI insights summarize positives and potential issues to remedia
 
 The **Access map** displays a node map detailing the relationships of your ServiceNow® agents, agentic workflows, and tools. You can use the map to review these relationships, configure agent details, and resolve access issues. The map includes filters for both agents and agentic workflows. You can open the access map by either navigating to **All** &gt; **AI Security and Privacy** &gt; **Access Map**, or selecting the link in the dashboard. See [Using the access map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/using-the-access-map.md) to learn how to use access map.
 
-\[Omitted image "sp-tab-access-map.png"\] Alt text: AI Control Tower access map.
+\[Omitted image "sp-tab-access-map.png"\] Alt text: Access map.
 
 If a warning icon appears on any agent, that agent has access issues. Select the warning icon to see details such as the workflow, agent, and tool associated with the access issue.
 
 In Access issues, the User ID is the ID of the user who ran the agent.
 
-\[Omitted image "sp-tab-access-map-2.png"\] Alt text: AI Control Tower access map with access issues shown.
+\[Omitted image "sp-tab-access-map-2.png"\] Alt text: Access map with access issues shown.
 
 ## ServiceNow AI Asset Security Score
 
@@ -55,7 +55,7 @@ The ServiceNow AI asset security score is a measure of the health of your Servic
 
     To see more information about your score, select **See details** in the **Security &amp; Privacy** tab. A list view shows the ServiceNow AI assets that are included in your AI asset security score calculation. Your score is the average of all managed ServiceNow AI assets listed.
 
-    You can exclude an asset from your score by selecting a row and selecting **Mute**. For example, you can mute an AI asset if you determine that remediating the asset’s issue would be a risky change. You can also configure the score to remove security categories from the score or change the weights of security categories. For more information, see [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/data.md).
+    You can exclude an asset from your score by selecting a row and selecting **Mute**. For example, you can mute an AI asset if you determine that remediating the asset’s issue would be a risky change. You can also configure the score to remove security categories from the score or change the weights of security categories. For more information, see [Data sharing, Data overflow processing, and Security &amp; privacy in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/data.md).
 
 <table id="simpletable_nqz_1sl_mhc"><thead><tr><th>
 
@@ -187,18 +187,18 @@ MCP server access metrics include all MCP client-server interactions routed thro
 
 -   **Security policy violations**
 
-    The Security policy violations chart shows violations of ServiceNow security policies detected in LLM output. The data is collected by scanning generative AI logs to detect policy violations in LLM responses. ServiceNow security policies are based on industry best practices and can't be modified. For example, one policy prohibits linking to executable files or malware, directing users to run unverified downloads or macros, or asking users to disable their antivirus protection. For more information about policies and how to configure data for this chart, see [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/data.md).
+    The Security policy violations chart shows violations of ServiceNow security policies detected in LLM output. The data is collected by scanning generative AI logs to detect policy violations in LLM responses. ServiceNow security policies are based on industry best practices and can't be modified. For example, one policy prohibits linking to executable files or malware, directing users to run unverified downloads or macros, or asking users to disable their antivirus protection. For more information about policies and how to configure data for this chart, see [Data sharing, Data overflow processing, and Security &amp; privacy in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/data.md).
 
 -   **Agent goal hijack**
 
-    The Agent goal hijack chart shows when AI agents deviate from their intended role or objective. For example, unauthorized actions or prompt injection attempts. The data is collected by scanning and analyzing agent execution history. For information on how to configure data for this chart, see [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/data.md).
+    The Agent goal hijack chart shows when AI agents deviate from their intended role or objective. For example, unauthorized actions or prompt injection attempts. The data is collected by scanning and analyzing agent execution history. For information on how to configure data for this chart, see [Data sharing, Data overflow processing, and Security &amp; privacy in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/data.md).
 
 -   **AI agent output with PII detected**
 
-    The AI agent output with PII detected chart shows when agents' LLM output contains personally identifiable information \(PII\). The data is collected by scanning LLM output for default PII sensitive data patterns specified in Data Privacy and additional PII patterns. For example, U.S. phone number, credit card number, or U.S. passport ID. For information on how to configure data for this chart, see [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/data.md).
+    The AI agent output with PII detected chart shows when agents' LLM output contains personally identifiable information \(PII\). The data is collected by scanning LLM output for default PII sensitive data patterns specified in Data Privacy and additional PII patterns. For example, U.S. phone number, credit card number, or U.S. passport ID. For information on how to configure data for this chart, see [Data sharing, Data overflow processing, and Security &amp; privacy in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/data.md).
 
 -   **High-risk AI agent output**
 
-    The High-risk AI agent output chart shows when agents' LLM output contains security-vulnerable patterns. The data is collected by scanning LLM output for known vulnerable patterns and potential corresponding attack vectors. For example, HTML tags shouldn't have scripts associated with them for cross-site script attacks \(XSS\), or no stacked SQL queries that could result in SQL injection attacks. For information on how to configure data for this chart, see [Data sharing, Data overflow processing, and Security &amp; privacy in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/data.md).
+    The High-risk AI agent output chart shows when agents' LLM output contains security-vulnerable patterns. The data is collected by scanning LLM output for known vulnerable patterns and potential corresponding attack vectors. For example, HTML tags shouldn't have scripts associated with them for cross-site script attacks \(XSS\), or no stacked SQL queries that could result in SQL injection attacks. For information on how to configure data for this chart, see [Data sharing, Data overflow processing, and Security &amp; privacy in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/data.md).
 
 

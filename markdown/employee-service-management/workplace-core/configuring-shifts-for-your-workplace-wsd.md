@@ -8,7 +8,7 @@ product: Workplace Core
 classification: workplace-core
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -23,20 +23,20 @@ Associate employees with a shift in Workplace Core so that they operate from the
 -   **[Associate areas and spaces with a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/associate-workspaces-with-shifts-wsd.md)**  
 Associate work areas and spaces with a shift in Workplace Core so that they are available only for that shift. Workplace managers can later reserve these workplaces for employees operating in that shift.
 
-**Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
+**Parent Topic:**[Manage Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
 
 
 [Import your workspaces data from an Excel spreadsheet]()
 
-[Add a space type configuration]()
+[]()
 
 [Configure a workplace card]()
 
 [Block a workplace location]()
 
-[Configure Workplace entity and entity types]()
+[Configure Workplace entities and entity types]()
 
 [Managing Neighborhoods]()
 

@@ -1,6 +1,6 @@
 ---
 title: Controls
-description: Explore the Controls section on the configurations page of the AI Control Tower.
+description: Explore the Controls section on the configurations page of the Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/controls.html
 release: brazil
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configurations, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configurations, Control Tower dashboard, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Controls
 
-Explore the **Controls** section on the configurations page of the AI Control Tower.
+Explore the **Controls** section on the configurations page of the Control Tower.
 
 Expand the **Controls** section to explore the sub sections:
 

@@ -7,8 +7,9 @@ release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
+keywords: [switch acc instance, move acc to another instance, change acc instance url, acc instance migration, repoint acc agent, acc registration key]
 breadcrumb: [DEX advanced configuration, Configure, Digital End-User Experience, IT Operations Management]
 ---
 

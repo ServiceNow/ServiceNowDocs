@@ -8,7 +8,7 @@ product: Incident Management
 classification: incident-management
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [Incident properties, Major incident properties]
 breadcrumb: [Configuring Incident Management, Incident Management, IT Service Management]
 ---
@@ -275,6 +275,14 @@ PIR export ui page url\(sn\_major\_inc\_mgmt.pir\_export\_pdf\_ui\_page\)
 </td><td>
 
 Associate a custom UI page to an exported post incident report.
+
+</td></tr><tr><td>
+
+PIR publish hours\(sn\_sow\_inc.pir.publish.hours\)
+
+</td><td>
+
+Set how long after resolution a post incident report must be published. The property also drive the PIR banner on the incident record.
 
 </td></tr><tr><td>
 

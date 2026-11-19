@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/employee-service-management/wor
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Manage, Legal Digital Forensics, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 

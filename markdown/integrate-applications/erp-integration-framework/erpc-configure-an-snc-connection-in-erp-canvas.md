@@ -78,3 +78,5 @@ Confirm that you have the following:
 -   Check the SNC PSE for validity and correct DN entries. For more information, see [Creating or Replacing a PSE](https://help.sap.com/doc/saphelp_nw73ehp1/7.31.19/en-US/59/6b653a0c52425fe10000000a114084/content.htm?no_cache=true) on the SAP help site.
 -   Confirm that the SAP clients are properly configured to use SNC. For more information, see [Configuring MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-mid-server.md).
 
+**Parent Topic:**[Using a Secure Network Communication \(SNC\) connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-use-an-snc-connection-in-erp-canvas.md)
+

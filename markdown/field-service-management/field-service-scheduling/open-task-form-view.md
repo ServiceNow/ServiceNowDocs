@@ -28,7 +28,7 @@ When you open multiple tasks, Dispatcher Workspace displays today's date, not th
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/ FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **CRM Workspace**.
 
 2.  Select the **List** \[Omitted image "coral-list-icon.png"\] Alt text: List icon.
 

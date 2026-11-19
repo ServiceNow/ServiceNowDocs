@@ -28,10 +28,10 @@ Set up the ITSM Success Dashboard indicators so that IT leadership teams and pro
 8.  Activate Performance Analytics jobs. For more information, see [Activate Performance Analytics jobs for ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/activae-pa-indicator-jobs-sdb.md).
 
 -   **[Install ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/install-success-dashboard.md)**  
-Install the ITSM Success Dashboard indicators application \(sn\_sd\_itsm\) if you have the admin role.
+You can install the ITSM Success Dashboard indicators application \(sn\_sd\_itsm\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 -   **[ITSM Success Dashboard Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/admin-console-sd.md)**  
 The ITSM Success Dashboard offers valuable insights to both the leadership team and process owners, enabling them to assess the performance of their product implementation.
--   **[Operational Success Admin dashboard Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/admin-console-os.md)**  
+-   **[Operational Success Admin Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/admin-console-os.md)**  
 The Operational Success dashboard provides a consolidated view of the end-to-end performance of the IT processes that are implemented.
 -   **[Benchmarks admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-success-dashboard-indicators/admin-console-bm.md)**  
 The ServiceNow® Benchmarks application gives you instant visibility into your key performance indicators \(KPIs\) and trends. It also provides comparative insight relative to industry averages of your peers and to the industry top performers.

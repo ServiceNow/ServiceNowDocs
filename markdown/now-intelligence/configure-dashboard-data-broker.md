@@ -76,7 +76,7 @@ This data broker prefetches data only on direct page loads. It does not apply on
 
 [Create a Platform Analytics workspace from App Engine Studio]()
 
-[Add Platform Analytics pages to a configurable workspace]()
+[Create Platform Analytics pages in UI Builder]()
 
 [Add a dashboard to a Dashboards page]()
 

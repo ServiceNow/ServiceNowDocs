@@ -24,7 +24,7 @@ As an ITSM agent or technician, you can use Mobile Agent when connected online t
 -   Approve or reject change requests, requests, and requested items.
 
 -   **[Download the Mobile Agent mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-servicenow-agent.md)**  
-Access Mobile Agent on your mobile device to manage your change tasks.
+Download and install Mobile Agent on your mobile device to manage your change tasks.
 -   **[Get started with Change Management mobile tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/getting-started-with-changetasks.md)**  
 Access Mobile Agent on your mobile device to manage change tasks.
 

@@ -74,7 +74,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-itil
+itil, sn\_service\_desk\_agent
 
 </td></tr><tr><td>
 

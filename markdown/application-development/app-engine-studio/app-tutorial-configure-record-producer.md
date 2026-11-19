@@ -7,7 +7,7 @@ release: brazil
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-06"
 reading_time_minutes: 7
 breadcrumb: [Creating user experiences, App creation tutorial, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
@@ -122,7 +122,7 @@ Follow along to configure the record producer for the employee travel request ap
 
     In our tutorial, we create several questions to collect details about employees' travel requests.
 
-    1.  In the correct question container, hover over the plus icon \[Omitted image "plus-icon.png"\] Alt text: Add icon, then select **+ Insert**.
+    1.  In the correct question container, hover over the plus icon \[Omitted image "plus-icon.png"\] Alt text:, then select **+ Insert**.
 
         In our tutorial, we insert this question in the General Information container.
 
@@ -136,7 +136,7 @@ Follow along to configure the record producer for the employee travel request ap
 
     4.  Select **Continue to Choices** to complete additional configurations for the question.
 
-    5.  In the **Available choices** section, hover over the plus icon \[Omitted image "plus-icon.png"\] Alt text: Add icon, then select **+ Insert**.
+    5.  In the **Available choices** section, hover over the plus icon \[Omitted image "plus-icon.png"\] Alt text:, then select **+ Insert**.
 
     6.  In the **Display name** field, enter `Customer meeting`.
 

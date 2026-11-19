@@ -22,7 +22,7 @@ Role required: wm\_manager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Workforce**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Workforce**.
 
 2.  Select **Map** from the View Controls list.
 

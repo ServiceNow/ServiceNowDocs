@@ -32,7 +32,9 @@ Role required: itil, major\_incident\_manager, communication\_manager, incident\
 
 3.  In the Child Incidents section, select the **Additional actions** icon \[Omitted image "mim-ellipses.png"\] Alt text: Additional actions icon and then select **Find Similar**.
 
-4.  From the Add Similar Incidents dialog box, select the similar incidents that you want to relate to the major incident and then select **Add Selected**.
+4.  From the Add Similar Incidents dialog box, select the similar incidents from the list that you want to relate to the major incident and then select **Add Selected**.
+
+    **Note:** An incident that is already accepted as major incident can't be added as a child incident and is excluded from the similar incident list.
 
     The similar child incidents appear under the Child Incidents section.
 

@@ -36,7 +36,7 @@ Automation resource types:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation Center Home**.
+1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation center Home**.
 
 2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
 

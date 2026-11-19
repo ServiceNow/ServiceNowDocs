@@ -36,15 +36,15 @@ The scheduled job **Fetch Firms Data** pulls the data for outside firms from Leg
 
 2.  Open the outside counsels list.
 
-<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d160728e109">
+<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d160823e111">
 
 Location
 
-</th><th align="left" id="d160728e112">
+</th><th align="left" id="d160823e114">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d160728e118">
+</th></tr></thead><tbody><tr><td id="d160823e120">
 
 **From the Legal Matter module**
 
@@ -52,7 +52,7 @@ Actions
 
 Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **Setup Outside Counsels**.
 
-</td></tr><tr><td id="d160728e145">
+</td></tr><tr><td id="d160823e147">
 
 **From Legal Counsel Center**
 

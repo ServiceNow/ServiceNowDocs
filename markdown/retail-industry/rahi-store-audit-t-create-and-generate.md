@@ -1,6 +1,6 @@
 ---
 title: Create and publish an audit plan
-description: Use the Store audit playbook in CSM/FSM Workspace to author and publish an audit plan. Publishing automatically creates the Store Audit Cases and Audit Tasks for all selected store locations.
+description: Use the Store audit playbook in CRM Workspace to author and publish an audit plan. Publishing automatically creates the Store Audit Cases and Audit Tasks for all selected store locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-store-audit-t-create-and-generate.html
 release: brazil
@@ -13,7 +13,7 @@ breadcrumb: [Manage Store Audit, Retail]
 
 # Create and publish an audit plan
 
-Use the **Store audit** playbook in CSM/FSM Workspace to author and publish an audit plan. Publishing automatically creates the Store Audit Cases and Audit Tasks for all selected store locations.
+Use the **Store audit** playbook in CRM Workspace to author and publish an audit plan. Publishing automatically creates the Store Audit Cases and Audit Tasks for all selected store locations.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ The **Store audit** playbook guides you through configuring the full plan in a s
 
 ## Procedure
 
-1.  Log in to CSM/FSM Workspace with your Plan Author credentials.
+1.  Log in to CRM Workspace with your Plan Author credentials.
 
 2.  In the application navigator, navigate to the **Store audit** menu and click **New**.
 
@@ -60,5 +60,5 @@ A published audit plan exists. Click the **Track plan** tab on the plan record t
 
 [Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-overview.md)
 
-[Audit assignment from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
+[Audit assignment from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
 

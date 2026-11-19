@@ -31,7 +31,7 @@ Role required: sn\_kpi\_composer.user \(own project\), sn\_kpi\_composer.admin \
 
 1.  Navigate to **All** &gt; **KPI Composer** and create or open a project.
 
-2.  In the Analysis tab, click the persona icon \(\[Omitted image "kpi-comp-persona-icon.png"\] Alt text:\) at the top right of the screen.
+2.  In the Analysis tab, click the persona icon \(\[Omitted image "kpi-comp-persona-icon.png"\] Alt text: Persona icon\) at the top right of the screen.
 
 3.  In the Persona dialog, click **Add item**.
 

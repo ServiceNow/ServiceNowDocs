@@ -1,6 +1,6 @@
 ---
-title: Authentication
-description: View trends for metrics related to authentication schemes, such as Multi-Factor Authentication\(MFA\) use, web service accounts, and biometric scanner usage.
+title: Authentication scheme metrics
+description: View trends for metrics related to authentication schemes, such as multi-factor authentication \(MFA\) use, web service accounts, and biometric scanner usage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/sc-metrics-authentication.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Security metrics, Security monitoring console, Security Center, Platform Security]
 ---
 
-# Authentication
+# Authentication scheme metrics
 
-View trends for metrics related to authentication schemes, such as Multi-Factor Authentication\(MFA\) use, web service accounts, and biometric scanner usage.
+View trends for metrics related to authentication schemes, such as multi-factor authentication \(MFA\) use, web service accounts, and biometric scanner usage.
 
 This page displays cards with information on metrics related to authentication. Each card displays a trend line for the following metrics:
 

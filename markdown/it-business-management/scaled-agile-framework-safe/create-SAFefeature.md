@@ -24,15 +24,15 @@ Role required: safe\_art\_user or safe\_admin
 
 1.  Create a feature using any of the following options.
 
-<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d84148e64">
+<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d84057e66">
 
 Option
 
-</th><th align="left" id="d84148e67">
+</th><th align="left" id="d84057e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d84148e73">
+</th></tr></thead><tbody><tr><td id="d84057e75">
 
 **From the Backlog tab**
 
@@ -44,7 +44,7 @@ Steps
 4.  From the Create list, select **Create Feature**. The feature is displayed in the **Backlog** tab with the state as **Backlog**.
 
 
-</td></tr><tr><td id="d84148e121">
+</td></tr><tr><td id="d84057e123">
 
 **From the Feature module**
 
@@ -54,7 +54,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d84148e151">
+</td></tr><tr><td id="d84057e153">
 
 **From the Epics module**
 
@@ -65,7 +65,7 @@ Steps
 3.  In the SAFE Features related list, click **New**.
 
 
-</td></tr><tr><td id="d84148e184">
+</td></tr><tr><td id="d84057e186">
 
 **From the Agile Release Trains module**
 

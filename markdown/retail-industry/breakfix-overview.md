@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/breakfix-overview.html
 release: brazil
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 breadcrumb: [Explore, Retail]
 ---
@@ -21,7 +21,7 @@ Break-Fix Case Management provides an end-to-end solution for managing equipment
 ## Three-Stage Workflow
 
 1.  **Request Submission \(Portal/Mobile\):** Store Manager, Store Associate, or Regional Manager submits case. Requesting store is auto-populated. Equipment is filtered by Install Base buyer organization.
-2.  **HQ Resolution \(Workspace\):** HQ Support Agent reviews case, selects service issue type, and proposes resolution \(troubleshooting, incident, or work order\).
+2.  **HQ Resolution \(CRM Workspace\):** HQ Support Agent reviews case, selects service issue type, and proposes resolution \(troubleshooting, incident, or work order\).
 3.  **Requestor Response \(Portal/Mobile\):** Original requestor reviews proposed resolution and accepts, rejects with reason, or self-closes.
 
 ## Key Characteristics
@@ -44,7 +44,7 @@ Break-Fix Case Management provides an end-to-end solution for managing equipment
 
 -   **HQ Support Agent**
 
-    Resolve cases in workspace. Propose solutions via troubleshooting, incidents, or work orders.
+    Resolve cases in CRM Workspace. Propose solutions via troubleshooting, incidents, or work orders.
 
 
 ## Case State Progression
@@ -76,7 +76,7 @@ Break-Fix Case Management provides an end-to-end solution for managing equipment
 ## Related Tasks
 
 -   [Submit Break-Fix Cases \(Portal and Mobile\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-submit-case.md)
--   [Resolve Cases in Workspace \(HQ Agents\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-resolve-workspace.md)
+-   [Resolve Cases in CRM Workspace \(HQ Agents\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-resolve-workspace.md)
 -   [Respond to Resolutions \(Portal and Mobile\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-respond-resolution.md)
 -   [Break-Fix Reference: States, Fields, and Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-reference.md)
 

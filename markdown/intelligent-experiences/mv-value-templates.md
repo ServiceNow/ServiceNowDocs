@@ -1,28 +1,28 @@
 ---
 title: Value templates
-description: Value templates define how AI Control Tower calculates the productivity value of an AI system. Each template captures a persona, usage indicators, a time value type, and a quality score.
+description: Value templates define how Control Tower calculates the productivity value of an AI system. Each template captures a persona, usage indicators, a time value type, and a quality score.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-value-templates.html
 release: brazil
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
-breadcrumb: [Value, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Value, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Value templates
 
-Value templates define how AI Control Tower calculates the productivity value of an AI system. Each template captures a persona, usage indicators, a time value type, and a quality score.
+Value templates define how Control Tower calculates the productivity value of an AI system. Each template captures a persona, usage indicators, a time value type, and a quality score.
 
 ## Value template overview
 
-A value template, also called a productivity template, is the record that the AI Control Tower \(AICT\) uses to measure the productivity value of an AI system. Each template defines a name, a department, a description, and a persona, and then sets the indicators that determine how usage and time saved are calculated.
+A value template, also called a productivity template, is the record that Control Tower uses to measure the productivity value of an AI system. Each template defines a name, a department, a description, and a persona, and then sets the indicators that determine how usage and time saved are calculated.
 
 Every AI system supports a persona, such as agent, fulfiller, requester, developer, or others. You select the persona that the AI system supports so that value is attributed to the correct group of users.
 
-A value template is reusable. You define it once and map it across as many AI systems as you want, so you don't repeat the same calculation for every skill or agent. The AI Control Tower ships out-of-the-box templates, and you can also create your own.
+A value template is reusable. You define it once and map it across as many AI systems as you want, so you don't repeat the same calculation for every skill or agent. Control Tower ships out-of-the-box templates, and you can also create your own.
 
-The AI Control Tower ships the following out-of-the-box value templates:
+Control Tower ships the following out-of-the-box value templates:
 
 -   Third-party Assets
 -   ServiceNow Skills
@@ -52,7 +52,7 @@ A value template combines the following elements to produce a value calculation:
 
 Two out-of-the-box indicators calculate time saved: one captures the read and write token counts and computes the total time saved, and one counts each consumed assist as one minute saved. When neither indicator fits, you can define a constant baseline, such as five minutes saved per incident summarization, based on your own assessment.
 
-When the time value type uses the quality score, the AI Control Tower reads the score from observability. Observability runs a performance evaluation for each AI agent and AI system against production data.
+When the time value type uses the quality score, Control Tower reads the score from observability. Observability runs a performance evaluation for each AI agent and AI system against production data.
 
 The template elements combine into the productivity value using the following formula: **Productivity = Usage × Time Saved per invocation × Acceptance Rate**. The acceptance rate is the percentage of AI-generated outputs that end users accept, and it corresponds to the quality-score factor. It can be a constant, such as 50 percent, or a Performance Analytics \(PA\) indicator. For the full formula, the metric definitions, and a worked example, see [Value calculation formula and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mv-value-calculation-formula-metrics.md).
 

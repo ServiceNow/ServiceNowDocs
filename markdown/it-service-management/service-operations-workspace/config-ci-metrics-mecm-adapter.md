@@ -22,7 +22,7 @@ Starting with the Brazil release, Microsoft Endpoint Configuration Manager for I
 
 You must ensure the following requirements:
 
--   Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application must be installed along with the investigation framework applications. For more information, see [Install Microsoft Endpoint Configuration Manager\(MECM\) for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/install-mecm-adapter.md) and [Components installed with Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/components-installed-mecm-adapter.md).
+-   Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application must be installed along with the investigation framework applications. For more information, see [Install Microsoft Endpoint Configuration Manager \(MECM\) for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/install-mecm-adapter.md) and [Components installed with Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/components-installed-mecm-adapter.md).
 -   Microsoft Endpoint Configuration Manager Spoke \[sn\_ms\_epcfgmgr\_spk\] must be installed and configured. For more information, see [Microsoft Endpoint Configuration Manager spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/ms-endpoint.md) and [Microsoft SCCM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_MicrosoftSCCMIntegration.md).
 -   Microsoft Endpoint Configuration Manager server must be logged in using the Microsoft remote desktop.
 
@@ -47,7 +47,7 @@ Configure the Restart Service remedial action for Microsoft Endpoint Configurati
 -   **[Configure remedial actions - End Process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/config-ra-end-process.md)**  
 Configure the End Process remedial action for Microsoft Endpoint Configuration Manager for Investigation \(MECM\).
 -   **[Create a script in Microsoft Endpoint Configuration Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/create-mecm-script.md)**  
-Create a script in the Microsoft Endpoint Configuration Manager to configure the display of the processes metrics on the **Investigation** tab of the Incident record.
+Create a script in the Microsoft Endpoint Configuration Manager to configure the display of the process metrics on the **Investigation** tab of the incident record.
 -   **[Extend hardware inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/extend-hardware-entity.md)**  
 Extend the hardware inventory to add the CMPivot entity on the CMPivot entity list in the Microsoft Endpoint Configuration Manager.
 -   **[Verify a CMPivot entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/verify-cmpivot-entity.md)**  

@@ -9,7 +9,7 @@ classification: workplace-core
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Workplace entity and entity types, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure Workplace entities and entity types, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add a workplace entity type
@@ -31,8 +31,7 @@ Role required: Workplace manager
     |Field|Description|
     |-----|-----------|
     |Name|Name of the entity type. For example, Business Unit, Marketing Units, Projects and more.|
-    |Entity-mapping column|Workplace entity reference column from the Workplace Entity table where the denormalized workplace entity information is stored.|
-    |Order|Order of an entity type based on its level in the hierarchy. The lower the order, the higher the entity type is set in the hierarchical structure. The lowest ordered entity type is set in the highest level in the hierarchy. For example, if you set ABC with order 1000 and XYZ with order 600 then XYZ is placed on top in the hierarchy level and ABC is set to lowest.|
+    |Order|Order of an entity type based on its level in the hierarchy. The lower the order, the higher the entity type is set in the hierarchical structure. The lowest ordered entity type is set in the highest level in the hierarchy. For example, if you set ABC with order 1000 and XYZ with order 600, XYZ appears at the top of the hierarchy. ABC is set to the lowest level.|
     |Active|Option to activate the entity type.|
 
 4.  Select **Submit**.
@@ -46,5 +45,5 @@ The entity type is created.
 
 [Add workplace entities to an entity type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-workplace-entities-to-an-entity-type.md)
 
-**Parent Topic:**[Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-entity.md)
+**Parent Topic:**[Configure Workplace entities and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/workplace-entity.md)
 

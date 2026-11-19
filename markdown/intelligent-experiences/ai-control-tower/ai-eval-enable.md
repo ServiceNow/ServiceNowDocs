@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Evaluation tab, AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Evaluation tab, Control Tower Home, Control Tower dashboard, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Enabling evaluations
@@ -117,5 +117,5 @@ Conversation Insights focuses on measuring customer satisfaction and effort. It 
 
 -   Conversation Insights offers a lightweight, cost-free view of the customer experience across all conversations.
 -   The Evaluation dashboard delivers granular, task-focused diagnostics that enable targeted improvements to virtual agent design and performance.
--   Consolidated in AI Agent Analytics and AI Control Tower dashboards, these metrics give users complementary views into virtual agent system health and end-user satisfaction.
+-   Consolidated in AI Agent Analytics and Control Tower dashboards, these metrics give users complementary views into virtual agent system health and end-user satisfaction.
 

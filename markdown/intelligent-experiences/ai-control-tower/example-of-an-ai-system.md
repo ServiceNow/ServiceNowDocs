@@ -1,6 +1,6 @@
 ---
 title: Example of an AI system
-description: The AI Control Tower application and the AI Risk and Compliance application play a critical role in managing and governing the responsible use of AI systems, especially in high-stakes domains such as banking and finance.
+description: The Control Tower application and the AI Risk and Compliance application play a critical role in managing and governing the responsible use of AI systems, especially in high-stakes domains such as banking and finance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/example-of-an-ai-system.html
 release: brazil
@@ -9,14 +9,14 @@ classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI systems, Definitions of AI asset inventory, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [AI systems, Definitions of AI asset inventory, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Example of an AI system
 
-The AI Control Tower application and the AI Risk and Compliance application play a critical role in managing and governing the responsible use of AI systems, especially in high-stakes domains such as banking and finance.
+The Control Tower application and the AI Risk and Compliance application play a critical role in managing and governing the responsible use of AI systems, especially in high-stakes domains such as banking and finance.
 
-While AI risks extend beyond banking and finance, consider an AI system for credit scoring in loan approval as an example. This system interacts with other models, interfaces, monitoring tools, and decision rules. The AI Control Tower solution along with the AI Risk and Compliance application can help to ensure compliance and responsible usage when the AI system is created, built, and deployed.
+While AI risks extend beyond banking and finance, consider an AI system for credit scoring in loan approval as an example. This system interacts with other models, interfaces, monitoring tools, and decision rules. The Control Tower solution along with the AI Risk and Compliance application can help to ensure compliance and responsible usage when the AI system is created, built, and deployed.
 
 For instance, an organization might use AI to generate credit scores for loan approvals and using those scores to make approval decisions. The AI system can be fed a variety of data from the following large language models \(LLMs\):
 

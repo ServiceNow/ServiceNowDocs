@@ -1,5 +1,5 @@
 ---
-title: Example - Restrict a field with a script
+title: Script-based field restriction example
 description: This access control prevents everyone from editing an incident with a category of Software in a list. It is defined by a script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/list-administration/r\_ExampleRestrictAFieldWithAScript.html
@@ -9,10 +9,10 @@ classification: list-administration
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring contextual security, List editor, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Contextual security, List editor, Administer, List administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
-# Example - Restrict a field with a script
+# Script-based field restriction example
 
 This access control prevents everyone from editing an incident with a category of Software in a list. It is defined by a script.
 
@@ -20,7 +20,7 @@ This access control prevents everyone from editing an incident with a category o
 
 -   **Type:** record
 -   **Operation:** list\_edit
--   **Name Incident:**\[incident\]
+-   **Name:** Incident \[incident\]
 -   **Admin overrides:** Clear the check box.
 -   **Script:**
 

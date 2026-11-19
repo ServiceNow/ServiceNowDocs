@@ -30,9 +30,9 @@ IAM consists of three tools you can use to manage access to the data on your ins
 
 -   **Scripting Governance for default group**
 
-    Use the Scripting Governance Tool to configure preferences for the Conditional Script Writer group. Users in this group are assigned the **snc\_required\_script\_writer\_permission** role, which allows users to access scripts and script-like fields across the platform.
+    Use the Scripting Governance Tool to configure preferences for the Conditional Script Writer group. Users in this group are assigned the snc\_required\_script\_writer\_permission role, which allows users to access scripts and script-like fields across the platform.
 
-    With the settings on this console you can turn auto-assignment of this role on or off, as well manually assign users to the group. You can also see information on who is assigned, and scan your instance to find users who have scripted in a specific time frame.
+    With the settings on this console you can turn auto-assignment of this role on or off, and manually assign users to the group. You can also see information on who is assigned, and scan your instance to find users who have scripted in a specific time frame.
 
 
 **Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/sec-center-v2.md)

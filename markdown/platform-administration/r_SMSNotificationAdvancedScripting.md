@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a service provider, Subscription-based notifications, Preferences in Core UI, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Create a service provider, Subscription-based notifications, Preferences in Core UI, Notification Preferences, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # SMS notification advanced scripting

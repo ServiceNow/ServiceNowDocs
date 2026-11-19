@@ -1,6 +1,6 @@
 ---
 title: Service Level Agreement \(Legacy\) engines
-description: If you are on an earlier version of the SLA engine, you can upgrade to the 2011 engine to make use of the complete service level management functionality.
+description: If you are on an earlier version of the SLA engine, you can upgrade to the 2011 engine to use the complete service level management functionality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/service-level-management/c\_GetStartedWithSLAs.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Service Level Management reference, Service Level Management, IT Se
 
 # Service Level Agreement \(Legacy\) engines
 
-If you are on an earlier version of the SLA engine, you can upgrade to the 2011 engine to make use of the complete service level management functionality.
+If you are on an earlier version of the SLA engine, you can upgrade to the 2011 engine to use the complete service level management functionality.
 
 The SLA engine has three versions:
 
@@ -52,7 +52,7 @@ The 2010 SLA engine functionality is concentrated into a number of script includ
 
 </td></tr></tbody>
 </table>-   **[Legacy SLA fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/c_LegacySLAFields.md)**  
-Previously, only a single SLA could be attached to a task via the Escalation engine. The information for the SLA was stored in the task table using the **SLA Due**, **Made SLA**, and **Escalation** fields.
+Previously, only a single SLA could be attached to a task through the Escalation engine. The information for the SLA was stored in the task table using the **SLA Due**, **Made SLA**, and **Escalation** fields.
 -   **[Upgrade SLA to 2011 engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/t_MoveFromThe2010ToThe2011Engine.md)**  
 You can upgrade SLA processing to use the 2011 Engine.
 -   **[Organize the migration process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-level-management/t_OrganizeTheConversionProcess.md)**  

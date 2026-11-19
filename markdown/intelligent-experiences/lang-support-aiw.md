@@ -23,6 +23,8 @@ To detect that language, the AI specialist checks the following sources in order
 2.  Dynamic Translation
 3.  The language set in the user's preferences
 
+See [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/dynamic-translation-overview.md) for more information about installing Dynamic Translation and enabling supported languages.
+
 For example, if a user leaves a comment in Spanish, the underlying LLM supports Spanish, so it reads the Spanish input directly. It then generates a response in Spanish, regardless of the language used in the source material it uses to create that response.
 
 You can set the **glide.ais.translate.enable\_global\_language\_fallback** property to `true` to check for languages outside of the user's locale when no immediate language match is found.

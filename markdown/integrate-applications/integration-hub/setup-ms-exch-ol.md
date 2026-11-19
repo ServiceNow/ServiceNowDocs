@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Microsoft Exchange Online Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -121,7 +121,7 @@ Create a credential record for the Microsoft Exchange Online spoke Mailbox actio
 ### Before you begin
 
 -   Make sure that MID Server is setup and configured
--   Make sure that Power Shell with EXO V2 module is installed. This module is required for executing Mailbox management actions.
+-   Make sure that PowerShell with the ExchangeOnlineManagement \(EXO\) module version 3.6.x or prior is installed. This module is required for executing the Mailbox management actions. Versions 3.7.0 and later aren’t supported.
 -   Role required: admin
 
 ### Procedure
@@ -160,7 +160,7 @@ Configure a connection record for your Microsoft Exchange Online spoke Mailbox a
 ### Before you begin
 
 -   Make sure that MID Server is setup and configured
--   Make sure that Power Shell with EXO V2 module is installed. This module is required for executing Mailbox management actions.
+-   Make sure that PowerShell with the ExchangeOnlineManagement \(EXO\) module version 3.6.x or prior is installed. This module is required for executing the Mailbox management actions. Versions 3.7.0 and later aren’t supported.
 -   Role required: admin
 
 ### Procedure

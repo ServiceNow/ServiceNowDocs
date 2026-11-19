@@ -1,6 +1,6 @@
 ---
 title: Properties installed with Web Embeddables
-description: Configure the properties available with Web Embeddables. Properties are added with the activation of the Web Embeddables plugin.
+description: Configure the system properties that control how Web Embeddables behaves.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/properties-installed-with-web-embeddables.html
 release: brazil
@@ -14,9 +14,9 @@ breadcrumb: [Activate Web Embeddables, Configure Web Embeddables, Set up self-se
 
 # Properties installed with Web Embeddables
 
-Configure the properties available with Web Embeddables. Properties are added with the activation of the Web Embeddables plugin.
+Configure the system properties that control how Web Embeddables behaves.
 
-All system properties are located in the System Properties \[sys\_properties\] table. To access table, navigate to **All** &gt; **System properties** or enter `sys_properties.list` in the navigation filter.
+Properties are added with the activation of the Web Embeddables plugin. All system properties are located in the System Properties \[sys\_properties\] table. To access table, navigate to **All** &gt; **System properties** or enter `sys_properties.list` in the navigation filter.
 
 |Property|Description|Default|
 |--------|-----------|-------|

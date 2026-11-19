@@ -1,6 +1,6 @@
 ---
 title: Create a group and add a component instance
-description: Create a group to model third-party website structure such as page or sections. Use the default group or create new groups to manage the component instances on that page or section.
+description: Create a group to organize component instances by page or section of your third-party website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-create-group-and-add-comp-instance.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure module in Web Embeddables, Configure Web Embeddables, Set
 
 # Create a group and add a component instance
 
-Create a group to model third-party website structure such as page or sections. Use the default group or create new groups to manage the component instances on that page or section.
+Create a group to organize component instances by page or section of your third-party website.
 
 ## Before you begin
 

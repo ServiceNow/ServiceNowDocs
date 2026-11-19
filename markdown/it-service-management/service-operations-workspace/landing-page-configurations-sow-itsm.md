@@ -21,17 +21,17 @@ Customize the records that can be created from the new tab menu in all pages of 
 -   **[Restore the greeting banner on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/restore-greeting-banner.md)**  
 If the greeting banner is closed, restore it to view the agent's shift information.
 -   **[Configure the header message on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/modify-greeting-text.md)**  
-Configure the header message that is part of the greeting text on the landing page. For example, You are on-call until Monday, Mar 21.
+Configure the header message that is part of the greeting text on the landing page. For example, "You are on-call until Monday, Mar 21."
 -   **[Configure the space man on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/modify-space-man-landing-page.md)**  
-Change the image of the space man to an image your choice.
+Change the image of the space man to an image of your choice.
 -   **[Configure the donut color in the Overview section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-donut-color.md)**  
-Create a visual experience that works the best for donuts in the **Overview** section.
+Create a visual experience that works best for donuts in the **Overview** section.
 -   **[Configure tier 1 landing page metric cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/customize-first-level-cards.md)**  
 Configure the data displayed in donuts in the **Overview** section of the tier 1 landing page.
 -   **[Configure the donuts in the tier 2 landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-donut-tier2-landing-page.md)**  
 Configure the data displayed in donuts in the **Overview** section of the tier 2 landing page.
 -   **[Configure the visibility of landing page sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/configure-visibility-landing-page-sections.md)**  
-Configure if few sections of the landing page should be visible or hidden. For example, **Quick links** and **Upcoming** sections.
+Configure whether some sections of the landing page, such as the **Quick links** and **Upcoming** sections, are visible or hidden.
 -   **[Configure the Announcements section on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/modify-announcements-section.md)**  
 Customize an existing announcement or add an announcement for additional tables.
 -   **[Configure the Upcoming section on the landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/service-operations-workspace/modify-upcoming-section.md)**  

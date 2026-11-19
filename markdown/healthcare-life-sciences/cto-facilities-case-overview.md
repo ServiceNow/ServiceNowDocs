@@ -14,7 +14,7 @@ breadcrumb: [Explore, Care Team Operations for Facilities, Healthcare Operations
 
 Use the Healthcare Facilities case \[sn\_cto\_facilities\_case\] to create case types for facilities support requests.
 
-\[Omitted image "cto-facilities-case-overview.png"\] Alt text: A healthcare Facilities case in CSM/FSM Configurable Workspace.
+\[Omitted image "cto-facilities-case-overview.png"\] Alt text: A healthcare Facilities case in CRM Workspace.
 
 If the Field Service Management \[com.snc.work\_management\] plugin is installed, Healthcare Facilities cases automatically generate related work orders, which are assigned to supporting agents with the fulfiller role. If this plugin isn’t installed, support agents must fulfill the case itself.
 

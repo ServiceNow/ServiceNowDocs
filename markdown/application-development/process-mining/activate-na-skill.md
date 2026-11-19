@@ -26,6 +26,8 @@ Role required: admin
 
 2.  Select **Platform** &gt; **Other**.
 
+    **Note:** If you use Process Mining versions earlier than 3.2.0, select **Creator** instead.
+
 3.  Select **Transition Work Notes Analysis** from the list of AI skills for Platform.
 
 4.  Select **Turn on** for the Transition Work Notes Analysis skill.

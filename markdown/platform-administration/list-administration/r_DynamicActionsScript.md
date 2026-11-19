@@ -7,9 +7,9 @@ release: brazil
 product: List Administration
 classification: list-administration
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-09"
 reading_time_minutes: 1
-breadcrumb: [List context menus, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [List context menus, Administer, List administration, Forms, fields, and lists, Configure core features, ServiceNow AI Platform]
 ---
 
 # Dynamic actions script for list context menus
@@ -24,7 +24,7 @@ The following JavaScript variables are available to the dynamic actions script w
 |g\_listId|ID of the list for which the context menu is built.|
 |g\_itemName|Name defined in the UI context menu record.|
 |g\_itemOrder|Order defined in the UI context menu record. Use this variable to pass the value of the **Order** field to the dynamic actions script.|
-|g\_contextMenu.addAction\(item\_id, label, script\_string, order\)|Add options to the context menu and select the order in which they appear.|
+|g\_contextMenu.addAction\(item\_id, label, script\_string, order\)|Method that adds options to the context menu and sets the order in which they appear.|
 
 The following example displays a list title menu item that controls the number of records per page in the list view.
 
@@ -32,5 +32,5 @@ The following example displays a list title menu item that controls the number o
 g_contextMenu.addAction('50', g_itemName, 'showRowsPerPage("50");', g_itemOrder);
 ```
 
-**Note:** The action script for this item must define the showRowsPerPage function so that when selecting this menu item, that function is called with an argument of 50.
+**Note:** The action script for this item must define the showRowsPerPage function so that when a user selects this menu item, that function is called with an argument of 50.
 

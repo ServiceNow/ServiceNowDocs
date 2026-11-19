@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage alerts autonomously agentic workflow, Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Manage alerts autonomously agentic workflow, Responding to and working with alerts in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Review AI-generated alert insights in Express List
@@ -54,15 +54,15 @@ For information about configuring this workflow, see [Configure the manage alert
 
 3.  Review the AI insights through the following options.
 
-<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d147149e216">
+<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d148551e218">
 
 Review AI insights
 
-</th><th align="left" id="d147149e219">
+</th><th align="left" id="d148551e221">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d147149e225">
+</th></tr></thead><tbody><tr><td id="d148551e227">
 
 **Check for the AI Insights badge for alert status**
 
@@ -72,7 +72,7 @@ Procedure
 -   If insights aren't available for an alert, you can initiate the process manually. Details for generating insights are in the following options.
 
 
-</td></tr><tr><td id="d147149e248">
+</td></tr><tr><td id="d148551e250">
 
 **Search for alerts with AI Insights information and key words**
 
@@ -80,7 +80,7 @@ Procedure
 
 Search for content with the free text search. For more information, see [Find alert records in Express List using text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-free-text-search.md).
 
-</td></tr><tr><td id="d147149e264">
+</td></tr><tr><td id="d148551e266">
 
 **Filter using AI Insights filter attribute**
 
@@ -88,7 +88,7 @@ Search for content with the free text search. For more information, see [Find al
 
 Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/filter-express-list.md).
 
-</td></tr><tr><td id="d147149e283">
+</td></tr><tr><td id="d148551e285">
 
 **Review AI insights in the preview panel**
 
@@ -100,7 +100,7 @@ Filter using the **Insights** attribute with a minimum string of two characters.
 -   If the AI Specialist is in the active state, you can see the processing steps of the agentic workflow. After processing completes, the **View AI activity** link appears. Select the link to go to the **AI activity** tab on the alert details page. In the **AI activity** tab, view the detailed report of the alert along with the workflow steps.
 
 
-</td></tr><tr><td id="d147149e338">
+</td></tr><tr><td id="d148551e340">
 
 **Review AI Insights in the alert record overview**
 
@@ -118,3 +118,5 @@ The **Overview** tab is selected by default.
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/itom-autonomous-operator-workflow.md)
+

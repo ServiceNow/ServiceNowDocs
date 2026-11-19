@@ -16,7 +16,7 @@ Synchronize files between the Visual Studio Code workspace \(client/local\) and 
 
 ## Before you begin
 
-[Create your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/create-project.md) and start editing your applications.
+[Create your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-project.md) and start editing your applications.
 
 Role required: none.
 

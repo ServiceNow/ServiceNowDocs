@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/transaction-ma
 release: brazil
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [ServiceNow CPQ with other apps, Integrate, Sales Customer Relationship Management]
 ---
 

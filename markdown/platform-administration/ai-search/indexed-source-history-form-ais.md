@@ -7,9 +7,9 @@ release: brazil
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 1
-breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, AI Search, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Indexed Source History form
@@ -88,7 +88,7 @@ State for the ingestion event. Valid values:
 -   **cancelled**: Ingestion and indexing didn't complete successfully.
 -   **indexed**: Ingestion and indexing completed successfully.
 -   **indexing**: Ingestion and indexing are ongoing.
--   **not\_started**: Ingestion and indexing are pending.
+-   **not\_started**: Ingestion and indexing are pending. If an ingestion event remains in **not\_started**, check its queue size and processed count in the AI Search Index Events \[ais\_index\_queue\_stats\] table. If the queue continues to grow but no events are processed, create a Customer Service and Support case at [https://support.servicenow.com/now?draw=case](https://support.servicenow.com/now?draw=case).
 
 </td></tr><tr><td>
 

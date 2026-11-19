@@ -34,13 +34,13 @@ At the end of the migration process, a confirmation message specifies if the mig
 
         -   To open SOW, navigate to **All** &gt; **Workspace Experience** &gt; **Workspaces** &gt; **Service Operations Workspace**.
         -   To open ITSM Agent Workspace, enter `<instance-name>.service-now/workspace` in the web browser.
-    2.  Open a record in SOW that is corresponding to a table for which UI actions and layouts are migrated.
+    2.  Open a record in SOW that corresponds to a table for which UI actions and layouts are migrated.
 
-        For example: If you want to verify the UI actions and layouts migration status for an incident, navigate to **List** &gt; **Incident** &gt; **All** and then select any incident record.
+        For example, to verify the UI actions and layouts migration status for an incident, navigate to **List** &gt; **Incident** &gt; **All** and then select any incident record.
 
     3.  Review the UI actions and the layout that are migrated from ITSM Agent Workspace to SOW.
 
-    4.  If you want to rearrange the order of the UI actions layout, navigate to **All** &gt; **sys\_ux\_form\_action\_layout.list**
+    4.  To rearrange the order of the UI actions layout, navigate to **All** &gt; **sys\_ux\_form\_action\_layout.list**
 
     5.  Search and select the table for which the UI actions and layout order must be changed.
 
@@ -50,7 +50,7 @@ At the end of the migration process, a confirmation message specifies if the mig
 
     7.  Check whether the sys\_ux\_form\_action\_layout record is unified for the specified table.
 
-        If the sys\_ux\_form\_action\_layout record is unified, **Unify action** button is not visible. If the sys\_ux\_form\_action\_layout record is not unified, select the **Unify action** option to unify the record. After the UI actions are unified, all the UI actions are displayed under UX Form Action Layout Items related list.
+        If the sys\_ux\_form\_action\_layout record is unified, the **Unify action** button is not visible. If the sys\_ux\_form\_action\_layout record is not unified, select the **Unify action** option to unify the record. After the UI actions are unified, all the UI actions are displayed under UX Form Action Layout Items related list.
 
     8.  On the UX Form Action Layout Items related list, change the order of the UI actions as required to rearrange the layout on the record of the targeted table.
 
@@ -58,7 +58,7 @@ At the end of the migration process, a confirmation message specifies if the mig
 
     1.  On the migration completion page in SOW Admin Center, select **View migration details**.
 
-    2.  Select the Go to system logs icon \(\[Omitted image "sb-service-triangle.png"\] Alt text: Error\) icon.
+    2.  Select the **Go to system logs** \(\[Omitted image "sb-service-triangle.png"\] Alt text:\) icon.
 
     3.  Review the logs to determine which items failed during migration.
 

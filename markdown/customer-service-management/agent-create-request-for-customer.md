@@ -39,15 +39,15 @@ Customer service agents can browse the catalog and make a selection to create a 
 
 5.  To complete the request, do one of the following.
 
-<table id="choicetable_vjq_k4q_g3b"><thead><tr><th align="left" id="d127401e118">
+<table id="choicetable_vjq_k4q_g3b"><thead><tr><th align="left" id="d127529e120">
 
 Interface
 
-</th><th align="left" id="d127401e121">
+</th><th align="left" id="d127529e123">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d127401e127">
+</th></tr></thead><tbody><tr><td id="d127529e129">
 
 **CRM Workspace**
 
@@ -60,7 +60,7 @@ Complete these steps:
 3.  Click **Checkout**.
  The system creates the request and displays the request number. Click **View Details** to open the request record.
 
-</td></tr><tr><td id="d127401e172">
+</td></tr><tr><td id="d127529e174">
 
 **Platform interface**
 

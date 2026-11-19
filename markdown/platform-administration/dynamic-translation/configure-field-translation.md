@@ -9,7 +9,7 @@ classification: dynamic-translation
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dynamic translation on forms and activity streams, Translating with Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Dynamic translation on forms and activity streams, Translating with Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, ServiceNow AI Platform]
 ---
 
 # Enable dynamic translation for a field

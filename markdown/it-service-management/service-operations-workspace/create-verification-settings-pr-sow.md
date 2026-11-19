@@ -58,7 +58,7 @@ Description
 
 </td><td>
 
-Detailed information of the password verification method.
+Detailed information about the password verification method.
 
 </td></tr><tr><td>
 

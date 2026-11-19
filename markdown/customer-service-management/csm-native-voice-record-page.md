@@ -291,7 +291,7 @@ The callback context card includes the following information:
 
 **Note:** The Callback Task field is turned off by default.
 
-In UI Builder, the callback context card is configured to use the [Lookup component](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades), which can be used to look up a record on any table in card format. It also uses a data resource that returns the callback task for the specific interaction.
+In UI Builder, the callback context card is configured to use the [Lookup component](https://horizon.servicenow.com/workspace/components/record-lookup?release=brazil), which can be used to look up a record on any table in card format. It also uses a data resource that returns the callback task for the specific interaction.
 
 For more information about the callback feature, see the following topics:
 

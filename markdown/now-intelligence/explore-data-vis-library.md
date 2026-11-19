@@ -157,7 +157,7 @@ Any
 
 </td><td>
 
-Option to add or remove columns in the data visualizations list \(\[Omitted image "icon-personalize-list.png"\] Alt text:\).
+Option to add or remove columns in the data visualizations list \(\[Omitted image "icon-personalize-list.png"\] Alt text: Personalize list icon\).
 
 </td></tr><tr><td>
 

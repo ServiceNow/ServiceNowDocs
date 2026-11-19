@@ -39,15 +39,15 @@ Use the following fields in the playbook experience configuration record to cont
 
 5.  In the **Pending Item Visibility** field, select one of the following options.
 
-<table id="choicetable_zlx_32h_vpb"><thead><tr><th align="left" id="d315085e121">
+<table id="choicetable_zlx_32h_vpb"><thead><tr><th align="left" id="d315674e123">
 
 Option
 
-</th><th align="left" id="d315085e124">
+</th><th align="left" id="d315674e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d315085e130">
+</th></tr></thead><tbody><tr><td id="d315674e132">
 
 **Show pending stages and activities**
 
@@ -58,7 +58,7 @@ Description
 -   Default setting.
 
 
-</td></tr><tr><td id="d315085e151">
+</td></tr><tr><td id="d315674e153">
 
 **Hide pending activity**
 
@@ -68,7 +68,7 @@ Description
 -   If all activities are pending and hidden, the stage is grayed out.
 
 
-</td></tr><tr><td id="d315085e169">
+</td></tr><tr><td id="d315674e171">
 
 **Hide pending activities and stages**
 

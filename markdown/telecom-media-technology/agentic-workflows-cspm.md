@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/agenti
 release: brazil
 topic_type: concept
 last_updated: "2026-09-24"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [AI in Customer Service Problem Management, Explore, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
@@ -28,5 +28,5 @@ The following agentic workflows are available for Customer Service Problem Manag
 
 Agentic workflows included with the base system are read-only. Before you use one, you must duplicate it and adjust the settings for your instance. See [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md).
 
-To activate and configure these workflows, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/configure-agentic-workflows-cspm.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/configure-agentic-workflows-cspm.md).
+To activate and configure these workflows, see [Configure agentic workflows for Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/configure-agentic-workflows-cspm.md).
 

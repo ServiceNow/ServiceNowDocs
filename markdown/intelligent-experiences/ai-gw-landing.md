@@ -1,5 +1,5 @@
 ---
-title: AI Gateway in AI Control Tower
+title: AI Gateway in Control Tower
 description: Route AI agent connections to MCP servers through AI Gateway, so you control which servers and tools agents can reach and what data passes between them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-gw-landing.html
@@ -8,10 +8,10 @@ topic_type: reference
 last_updated: "2026-10-22"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, AI Gateway, MCP server, MCP client, Model Context Protocol]
-breadcrumb: [Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
-# AI Gateway in AI Control Tower
+# AI Gateway in Control Tower
 
 Route AI agent connections to MCP servers through AI Gateway, so you control which servers and tools agents can reach and what data passes between them.
 

@@ -7,7 +7,7 @@ release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
 ---
@@ -31,15 +31,15 @@ Role required: admin, sn\_dex\_desktop.admin
 
 2.  Download and install Desktop Assistant by using installer commands, Desktop Assistant installers, or endpoint management solutions.
 
-<table id="choicetable_zv4_ylt_fgc"><thead><tr><th align="left" id="d453298e140">
+<table id="choicetable_zv4_ylt_fgc"><thead><tr><th align="left" id="d456469e143">
 
 Option
 
-</th><th align="left" id="d453298e143">
+</th><th align="left" id="d456469e146">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d453298e149">
+</th></tr></thead><tbody><tr><td id="d456469e152">
 
 **OS-specific single-line installer commands**
 
@@ -53,7 +53,7 @@ Steps
 4.  When prompted for a password, enter your Active Directory password and press Enter.
  Desktop Assistant is installed, and the instance URL from the installer is automatically populated in the **Instance URL** field of the Desktop Assistant login page.
 
-</td></tr><tr><td id="d453298e203">
+</td></tr><tr><td id="d456469e206">
 
 **Desktop Assistant installer specific to your operating system**
 
@@ -63,7 +63,7 @@ Steps
 2.  For macOS devices, see [Download the Desktop Assistant installer on macOS devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/digital-end-user-experience-dex/download-desktop-exp-mac.md).
 
 
-</td></tr><tr><td id="d453298e263">
+</td></tr><tr><td id="d456469e266">
 
 **Endpoint management solutions such as Jamf or Microsoft Endpoint Configuration Manager \(MECM\) to install on multiple devices**
 

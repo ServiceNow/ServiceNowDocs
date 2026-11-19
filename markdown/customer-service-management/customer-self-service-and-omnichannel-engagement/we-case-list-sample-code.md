@@ -1,6 +1,6 @@
 ---
 title: Sample code for the Case list component
-description: Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
+description: Use this sample code to run an action when the Case list component triggers an event.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-self-service-and-omnichannel-engagement/we-case-list-sample-code.html
 release: brazil
@@ -14,9 +14,11 @@ breadcrumb: [Case list component, Configure web components, Configure Web Embedd
 
 # Sample code for the Case list component
 
-Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
+Use this sample code to run an action when the Case list component triggers an event.
 
 ## Sample code
+
+Update the sample code for your use case before embedding the component on your webpage.
 
 ```
 { 
@@ -51,7 +53,7 @@ var {errorMessage, errorType} = e.detail.payload;
 
 console.log(errorMessage, errorType); 
 
-} 
+}
 ```
 
 **Related topics**  

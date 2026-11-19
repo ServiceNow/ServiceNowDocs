@@ -79,7 +79,7 @@ If product catalog items have been set up in your instance, you can use the **Se
     Install the Customer Life Cycle Management Self service plugin \(sn\_clm\_selfservice\) to perform the **Modify**, **Suspend**, **Resume**, and **Disconnect** actions. The flows can be performed only by the customer personas and only on the sold products where the **Contact** field is the same as the logged in user.
 
     -   Modify a sold product. To learn how to modify a sold product, see [Modify a sold product and hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/modify-a-sold-product.md)
-    -   Suspend a sold product. To learn how to suspend a sold product, see [Supending sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/supending_sold_products.md).
+    -   Suspend a sold product. To learn how to suspend a sold product, see [Suspending sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/supending_sold_products.md).
     -   Resume a sold product. To learn how to resume a sold product, see [Resuming sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/resuming_sold_products.md).
     -   Disconnect a sold product. To learn how to disconnect a sold product, see [Disconnecting sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/disconnecting_sold_products.md)
 

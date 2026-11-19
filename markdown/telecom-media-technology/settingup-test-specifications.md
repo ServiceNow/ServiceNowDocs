@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Set up test configuration records, Configure, Service Test Management, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Setting up test definitions

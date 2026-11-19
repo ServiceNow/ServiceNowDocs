@@ -1,6 +1,6 @@
 ---
 title: Create questionnaire for a store plan
-description: Create questionnaire for a store plan on CSM/FSM Worskpace.
+description: Create questionnaire for a store plan on CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-create-questionnaire.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Retail questionnaire, Retail store plans, Explore, Retail]
 
 # Create questionnaire for a store plan
 
-Create questionnaire for a store plan on CSM/FSM Worskpace.
+Create questionnaire for a store plan on CRM Workspace.
 
 ## Before you begin
 

@@ -8,7 +8,7 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [HR Service Delivery Integration with Cornerstone OnDemand, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 

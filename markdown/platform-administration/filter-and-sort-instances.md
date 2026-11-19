@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Multi-Instance View, Manage, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Manage Multi-Instance View, Manage, Instance Clone, Configure core features, ServiceNow AI Platform]
 ---
 
 # Filter and sort instances

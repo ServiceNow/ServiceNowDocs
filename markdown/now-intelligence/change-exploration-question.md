@@ -27,7 +27,7 @@ Role required: now\_assist\_explorer\_user and ownership or editing rights to th
 
 3.  Locate the question and response of interest.
 
-4.  Select the **Edit question** button \[Omitted image "edit-icon.png"\] Alt text: Edit source icon.
+4.  Select the **Edit question** button \[Omitted image "edit-icon.png"\] Alt text: Edit question icon.
 
     \[Omitted image "nowass-explr-edit-question.png"\] Alt text: The Edit Question button next to the question quoted by a response.
 

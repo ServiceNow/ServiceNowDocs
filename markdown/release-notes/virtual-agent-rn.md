@@ -70,6 +70,10 @@ The ServiceNow® Virtual Agent application provides user assistance through a co
     -   Ask a follow-up question about specific content by highlighting text in a ServiceNow Otto response and selecting **Ask a follow-up**. The highlighted text appears as a quote above the input bar and doesn't carry over when you start or switch to a different conversation.
     -   Download generated files that use plain Microsoft Office templates, with no ServiceNow branding applied. Share or edit downloaded Word, PowerPoint, and Excel files without removing extra formatting first.
     -   Download a generated file directly from the chat by selecting the download icon on the attachment in a ServiceNow Otto response.
+-   **[Edit a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/edit-assistant.md)**
+
+    Set conditions that control when a promoted item is shown. Select the **Promoted skills** link when editing an assistant.
+
 
 ### What's changed
 

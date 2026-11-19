@@ -1,35 +1,35 @@
 ---
-title: Resolve Cases in Workspace through HQ Agents
-description: Review assigned break-fix cases in the CSM/FSM workspace, select a service issue type, and propose resolutions using troubleshooting steps, service incidents, or work orders.
+title: Resolve Cases in CRM Workspace through HQ Agents
+description: Review assigned break-fix cases in the CRM Workspace, select a service issue type, and propose resolutions using troubleshooting steps, service incidents, or work orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/breakfix-resolve-workspace.html
 release: brazil
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
-breadcrumb: [Manage Break-Fix cases, Retail]
+breadcrumb: [Create and manage Break-Fix cases, Retail]
 ---
 
-# Resolve Cases in Workspace through HQ Agents
+# Resolve Cases in CRM Workspace through HQ Agents
 
-Review assigned break-fix cases in the CSM/FSM workspace, select a service issue type, and propose resolutions using troubleshooting steps, service incidents, or work orders.
+Review assigned break-fix cases in the CRM Workspace, select a service issue type, and propose resolutions using troubleshooting steps, service incidents, or work orders.
 
 ## Before you begin
 
--   Break-fix case is assigned to your queue in the workspace
+-   Break-fix case is assigned to your queue in the CRM Workspace
 -   Review case details including affected equipment, store, and description
 -   **Role required:** HQ Support Agent \(BREAKFIX\_AGENT role\)
 -   **Note:** Work order creation requires the FSM integration plugin to be installed.
 
 ## About this task
 
-The CSM/FSM workspace provides your case queue. Service issue type is mandatory before proposing resolution. Selecting "Break-fix Hardware" enables Create Work Order. Selecting "Break-fix IT" enables Create Incident. Troubleshooting steps can be added for either type. When incidents or work orders are created, their state changes and comments are added as work notes on the case.
+The CRM Workspace provides your case queue. Service issue type is mandatory before proposing resolution. Selecting "Break-fix Hardware" enables Create Work Order. Selecting "Break-fix IT" enables Create Incident. Troubleshooting steps can be added for either type. When incidents or work orders are created, their state changes and comments are added as work notes on the case.
 
 **Role Requirements:** The BREAKFIX\_AGENT role is required for all case resolution, including creating work orders—the Create Work Order button appears only if the FSM integration plugin is installed. Creating an incident requires the sn\_incident\_write role assigned to the Break-fix agent.
 
 ## Procedure
 
-1.  Open CSM/FSM workspace
+1.  Open CRM Workspace
 
 2.  Navigate to **Retail Break-fix case** list
 
@@ -72,7 +72,7 @@ Case transitions to "Resolution Proposed" state. Requestor receives notification
 
 If requestor rejects resolution, case reopens to your queue with their reason documented. Propose an alternative resolution. See [Respond to Resolutions \(Portal and Mobile\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-respond-resolution.md) to understand the requestor's actions.
 
-**Parent Topic:**[Manage Break-Fix cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-manage-cases.md)
+**Parent Topic:**[Create and manage Break-Fix cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/breakfix-manage-cases.md)
 
 **Related topics**  
 

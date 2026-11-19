@@ -44,7 +44,7 @@ Role required: admin
 
     Extra languages are available when there are enabled language plugins on the instance.
 
-7.  From the context menu \[Omitted image "ContextMenu.png"\] Alt text: context menu icon, select **Dashboard Properties**.
+7.  From the context menu \[Omitted image "ContextMenu.png"\] Alt text: Context menu icon, select **Dashboard Properties**.
 
 8.  Translate the dashboard name into the target language and select **Update**.
 

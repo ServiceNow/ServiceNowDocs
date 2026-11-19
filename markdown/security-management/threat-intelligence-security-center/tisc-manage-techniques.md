@@ -8,7 +8,7 @@ product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [MITRE techniques, manage techniques, MITRE TAXII]
 breadcrumb: [MITRE-ATT&amp;CK repository, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---

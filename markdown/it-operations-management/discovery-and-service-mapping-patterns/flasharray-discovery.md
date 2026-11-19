@@ -118,7 +118,7 @@ Object ID \[object\_id\]
 
 </td><td>
 
-Credential affinity assigned during discovery to the FlashArray storage. For more information about credential affinity, see [Credential affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_CredentialAffinity.md).
+Credential affinity assigned during discovery to the FlashArray storage. For more information about credential affinity, see Credential affinity for Discovery and Orchestration.
 
 </td></tr><tr><td>
 

@@ -1,6 +1,6 @@
 ---
 title: Configure OAuth for Veza in ServiceNow
-description: Set up two application registries, their OAuth entity scopes and credentials, then link them to the pre-provided connection alias, so that AI Control Tower can authenticate to Veza using OAuth 2.0.
+description: Set up two application registries, their OAuth entity scopes and credentials, then link them to the pre-provided connection alias, so that Control Tower can authenticate to Veza using OAuth 2.0.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-sec-configure-veza-servicenow.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-09-08"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure Veza access intelligence in the agent map, Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configure Veza access intelligence in the agent map, Configure, Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Configure OAuth for Veza in ServiceNow
 
-Set up two application registries, their OAuth entity scopes and credentials, then link them to the pre-provided connection alias, so that AI Control Tower can authenticate to Veza using OAuth 2.0.
+Set up two application registries, their OAuth entity scopes and credentials, then link them to the pre-provided connection alias, so that Control Tower can authenticate to Veza using OAuth 2.0.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Role required: admin
 
 ## About this task
 
-AI Control Tower uses two application registries on the ServiceNow platform: one configured with the client credential grant type for system-level access, and one configured with the authorization code grant type so that each AI steward can get their own per-user token. Each can link to the same pre-provided `SN AI Security Veza Connector` connection alias, but not at the same time.
+Control Tower uses two application registries on the ServiceNow platform: one configured with the client credential grant type for system-level access, and one configured with the authorization code grant type so that each AI steward can get their own per-user token. Each can link to the same pre-provided `SN AI Security Veza Connector` connection alias, but not at the same time.
 
 **Important:** Set the refresh token lifespan to 2,592,000 seconds \(30 days\) on both application registries. This must match the refresh token expiration configured on the Veza side. If the ServiceNow value is longer than the Veza value, token refresh fails after the Veza-side token expires.
 

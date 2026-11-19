@@ -16,7 +16,7 @@ Segments are predefined filter conditions that map business terminology to speci
 
 [Segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) provide non-obvious context to assist the semantic layer in selecting the correct entity, dimension, and values. For example, in the [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) "How many open emergency change requests are there?", a segment identifies that "open" means "active=true" and "emergency" is a Type, not a Priority.
 
-When a user asks a question, the Query Generation engine searches for matching segments and includes their filters in the [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) prompt so the model can reuse them to construct accurate queries.
+When a user asks a question, the Query Generation engine searches for matching segments. It includes their filters in the [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics-glossary.md) prompt, so the model can reuse them to construct accurate queries.
 
 There are two types of segments:
 
@@ -26,7 +26,7 @@ There are two types of segments:
 
 -   **Manual Segments**
 
-    Created by admins via the Manual Segment Config table. Names are user-friendly— for example, "Critical Open Incidents". Manual segments use a two-table data model with automatic synchronization and can be shipped with applications via plugins.
+    Created by admins via the Manual Segment Config table. Names are user-friendly, such as "Critical Open Incidents". Manual segments use a two-table data model with automatic synchronization and can be shipped with applications via plugins.
 
 
 | |Manual Segments|Automated Segments|
@@ -43,7 +43,7 @@ There are two types of segments:
 
 The system uses AI search to find segments that are semantically similar to the user's query. AI search indexes the Name, Description, Entity, and Filter fields in the Segments table, comparing them to the user's query to produce a subset of relevant segments.
 
-In the LLM call, the system passes the Name, Description, Entity, and Filters. The LLM uses the segments as building blocks for generating a new query. For example, if a user asks "Unassigned Incidents located in San Diego" and the segment "Unassigned Incidents" is passed to the LLM, the LLM uses the segment's filter as the starting point and attaches the location filter "San Diego" on top of the segment.
+In the LLM call, the system passes the Name, Description, Entity, and Filters. The LLM uses the segments as building blocks for generating a new query. For example, a user asks "Unassigned Incidents located in San Diego". The segment "Unassigned Incidents" is passed to the LLM, and the LLM uses the segment's filter as the starting point. Then it attaches the location filter "San Diego" on top of the segment.
 
 |Step|Purpose|Output|
 |----|-------|------|
@@ -59,7 +59,7 @@ Manual segments serve two roles at query time:
 
 -   **Entity discovery**
 
-    On first-time queries with no previous context, segment matches can add or boost entities in the entity list. A match against a manual segment name helps identify the intended entity by adding or boosting it in the candidate list. If a user asks "Show me critical open incidents" and a manual segment named "Critical Open Incidents" exists on the Incident \[incident\] table, the `incident` entity gets boosted in the results.
+    On first-time queries with no previous context, segment matches can add or boost entities in the entity list. A match against a manual segment name helps identify the intended entity by adding or boosting it in the candidate list. For example, a user asks "Show me critical open incidents" and a manual segment named "Critical Open Incidents" exists on the Incident \[incident\] table. Therefore, the `incident` entity gets boosted in the results.
 
 -   **Filter provision**
 

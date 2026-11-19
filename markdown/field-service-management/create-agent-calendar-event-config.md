@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring Workforce, CSM/FSM Configurable Workspace, Configure, Field Service Management]
+breadcrumb: [Configuring Workforce, CRM Workspace, Configure, Field Service Management]
 ---
 
 # Create an event configuration
@@ -35,15 +35,15 @@ Role required: agent\_schedule\_admin
 
 1.  Navigate to **Agent Schedule** &gt; **Event Configuration** and perform one of the following actions.
 
-<table id="choicetable_v4z_cfp_gfb"><thead><tr><th align="left" id="d158045e123">
+<table id="choicetable_v4z_cfp_gfb"><thead><tr><th align="left" id="d158687e125">
 
 Option
 
-</th><th align="left" id="d158045e126">
+</th><th align="left" id="d158687e128">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d158045e132">
+</th></tr></thead><tbody><tr><td id="d158687e134">
 
 **Create a configuration from an existing event configuration**
 
@@ -54,7 +54,7 @@ Description
 
 A copy of the selected event type configuration is created.
 
-</td></tr><tr><td id="d158045e155">
+</td></tr><tr><td id="d158687e157">
 
 **Create a new event configuration**
 

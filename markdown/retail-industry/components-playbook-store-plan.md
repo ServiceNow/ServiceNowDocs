@@ -65,7 +65,7 @@ Create Template item
 
 Allows to create only one record through this activity. Displays a form based on the table and form view configured in the corresponding template item configuration, and creates the corresponding template item record.
 
- The form runs any UI policies that apply. The system displays any validation error messages in the Workspace playbook.
+ The form runs any UI policies that apply. The system displays any validation error messages in the CRM Workspace playbook.
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Create template items
 
 Allows to create only multiple records through this activity. Displays the form based on the table and form view configured in the corresponding template item configuration, and creates the corresponding template item records.
 
- The form runs any UI policies that apply. The system displays any validation error messages in the Workspace playbook.
+ The form runs any UI policies that apply. The system displays any validation error messages in the CRM Workspace playbook.
 
 </td></tr><tr><td>
 

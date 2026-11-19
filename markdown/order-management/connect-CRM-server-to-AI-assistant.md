@@ -22,8 +22,8 @@ Connect the Sales CRM server to an AI assistant so that the assistant can manage
     -   Approver Actions
     -   Get Approval Details
     -   Get Pending Approvals List
-    -   Get Quote Details \(this is an MCP tool for Quote Management\)
-    -   Requester Actions
+    -   Requestor Actions
+    -   Get Quote Details \(this is an MCP tool included with the Quote AI Agent application\)
 
 Role required: admin or sn\_mcp\_server.admin
 

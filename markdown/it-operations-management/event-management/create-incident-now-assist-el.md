@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, create an incident, alert, Express List, Now Assist]
-breadcrumb: [Promote alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Promote alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create an incident from an alert with ServiceNow Otto in Express List
@@ -43,4 +43,6 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     An incident with a human-readable, AI-generated description is created from the selected alert and a confirmation message is displayed.
 
+
+**Parent Topic:**[Promoting alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/promoting-alerts-in-express-list.md)
 

@@ -279,15 +279,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft D
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d141733e1046">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d141493e1056">
 
 Interface
 
-</th><th align="left" id="d141733e1049">
+</th><th align="left" id="d141493e1059">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d141733e1055">
+</th></tr></thead><tbody><tr><td id="d141493e1065">
 
 **Core UI**
 
@@ -298,7 +298,7 @@ Action
 3.  Select **Microsoft Dynamics 365 and Power Apps Integration Profile**.
 
 
-</td></tr><tr><td id="d141733e1097">
+</td></tr><tr><td id="d141493e1107">
 
 **Software Asset Workspace**
 
@@ -396,7 +396,7 @@ OAuth Redirect URL
 </td></tr></tbody>
 </table>8.  Select **Create and Get OAuth Token**.
 
-    **Important:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
+    **Important:** For the role required to perform this step, refer to the Download subscriptions row of the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
 
 9.  If you’re prompted to log in to your Microsoft 365 account, enter your Microsoft 365 credentials and log in to your account.
 
@@ -416,7 +416,7 @@ OAuth Redirect URL
 
 13. Select **Create and Get OAuth Token**.
 
-    **Important:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
+    **Important:** For the role required to perform this step, refer to the Pull user activity row of the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
 
 14. On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
 

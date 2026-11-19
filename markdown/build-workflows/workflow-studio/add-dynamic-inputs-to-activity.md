@@ -62,7 +62,7 @@ When a user requests catalog items, you can dynamically present a list of catalo
 
 4.  [Create a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-subflow.md) with the new input.
 
-5.  Navigate to **All** &gt; **Process Automation Administration** &gt; **Activity Definitions**.
+5.  Navigate to **All** &gt; **Playbook Administration** &gt; **Activity Definitions**.
 
 6.  Open or [create the activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-activity-definition.md) to add the new input to.
 

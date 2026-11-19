@@ -38,5 +38,7 @@ For more information, see [Run the Process Mining evaluation project](https://ra
 **Related topics**  
 
 
-[create-db-in-ac]
+[Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-db-in-ac.md)
+
+[Run the Process Mining evaluation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/run-evaluation-project.md)
 

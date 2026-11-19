@@ -31,9 +31,9 @@ Cloud Account Management provides policies that you can use for the following pu
 
 ## Benefits of Cloud Account Management request policies
 
--   Improved governance: Promotes consistent policies across all cloud accounts.
--   Cost savings: Helps prevent overspending by managing accounts efficiently.
--   Enhanced security: Includes security controls as part of performance and availability.
+-   Improved governance: promotes consistent policies across all cloud accounts.
+-   Cost savings: helps prevent overspending by managing accounts efficiently.
+-   Enhanced security: includes security controls as part of performance and availability.
 
 You can automate the account approval process, budget approval process, and configuration assignment process. To help promote consistency with the cloud subscription account creation process, regularly review and update your policies. For more information, see [Review request policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-account-management/viewing-pace-policy.md).
 

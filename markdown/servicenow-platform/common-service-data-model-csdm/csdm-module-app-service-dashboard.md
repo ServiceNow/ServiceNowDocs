@@ -9,7 +9,7 @@ classification: common-service-data-model-csdm
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Navigate, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Navigate, Common Service Data Model \(CSDM\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Monitoring and managing service instance settings

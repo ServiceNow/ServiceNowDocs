@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 

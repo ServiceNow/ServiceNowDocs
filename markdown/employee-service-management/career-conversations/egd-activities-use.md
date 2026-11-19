@@ -8,7 +8,7 @@ product: Career Conversations
 classification: career-conversations
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 

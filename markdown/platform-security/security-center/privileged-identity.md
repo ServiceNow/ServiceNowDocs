@@ -1,5 +1,5 @@
 ---
-title: Privileged Identity
+title: Privileged identity
 description: Analyze data related to metrics for users with privileged identity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/privileged-identity.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Security metrics, Security monitoring console, Security Center, Platform Security]
 ---
 
-# Privileged Identity
+# Privileged identity
 
 Analyze data related to metrics for users with privileged identity.
 

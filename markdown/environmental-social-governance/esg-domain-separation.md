@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Operational Sustainability Management \(formerly ESG\) reference, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Operational Sustainability Management \(formerly ESG\) reference, Operational Sustainability Management]
 ---
 
 # Domain separation and Operational Sustainability Management

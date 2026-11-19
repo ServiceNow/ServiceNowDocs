@@ -30,15 +30,15 @@ Role required: evt\_mgmt\_admin, evt\_mgmt\_operator, or evt\_mgmt\_user
 
 3.  Do one or more of the following.
 
-<table id="choicetable_manualservices"><thead><tr><th align="left" id="d495983e110">
+<table id="choicetable_manualservices"><thead><tr><th align="left" id="d499469e112">
 
 Option
 
-</th><th align="left" id="d495983e113">
+</th><th align="left" id="d499469e115">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d495983e119">
+</th></tr></thead><tbody><tr><td id="d499469e121">
 
 **View alert details for a CI**
 
@@ -48,7 +48,7 @@ In the service map:1.  Click a CI tile.
 2.  Below the map, click the **Alerts** tab and review the listed alerts.
 
 
-</td></tr><tr><td id="d495983e140">
+</td></tr><tr><td id="d499469e142">
 
 **View impact on the CI parent**
 
@@ -59,7 +59,7 @@ In the service map:1.  Click a CI tile.
 3.  Adjust the impact rules as necessary.
 
 
-</td></tr><tr><td id="d495983e164">
+</td></tr><tr><td id="d499469e166">
 
 **Change the map display, map layout, or map indicators**
 
@@ -69,7 +69,7 @@ In the service map header:1.  Click the menu icon.
 2.  Configure the appropriate settings.
 
 
-</td></tr><tr><td id="d495983e182">
+</td></tr><tr><td id="d499469e184">
 
 **Navigate to another application services**
 
@@ -85,7 +85,7 @@ In the service map header:1.  Click the down arrow next to the service name or t
 -   **Warning**: Blue \(lowest severity\).
 
 
-</td></tr><tr><td id="d495983e232">
+</td></tr><tr><td id="d499469e234">
 
 **View properties for a CI**
 

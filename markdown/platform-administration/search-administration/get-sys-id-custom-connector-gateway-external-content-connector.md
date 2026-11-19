@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-28"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Custom Connector Gateway external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Custom Connector Gateway external content connector, Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Get the sys\_id for a Custom Connector Gateway external content connector
@@ -33,7 +33,7 @@ Follow this procedure to obtain the sys\_id for a Custom Connector Gateway exter
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `sn_ext_conn_ccg_configuration.list`.
+    2.  In the navigation filter, enter `sn_ext_conn_ccg_configuration.list`.
 
     3.  Press Enter.
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-list-components.html
 release: brazil
 topic_type: concept
-last_updated: "2026-10-27"
-reading_time_minutes: 2
+last_updated: "2026-11-17"
+reading_time_minutes: 3
 breadcrumb: [List pages, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -25,7 +25,10 @@ The List menu component includes the following tabs:
 -   **Default lists**: displays the lists that have been configured for the selected source. These lists give agents quick access to relevant records.
 -   **My lists**: displays the list created by the agent, which can help streamline repeat workflows. Agents can create their own lists from an existing list or by selecting a new source.
 
-The List menu component is configured by admins in UI Builder. For more information about the component, see [List menu](https://horizon.servicenow.com/workspace/components/now-record-list-menu-connected?release=brazil).
+The List menu component is configured by admins in UI Builder. For more information about the component, see the following topics:
+
+-   [List menu](https://horizon.servicenow.com/workspace/components/now-record-list-menu-connected?release=brazil)
+-   List menu component setup
 
 ## Record List component bundle
 
@@ -33,10 +36,13 @@ The Record List component bundle includes the following components:
 
 -   Record list header
 -   Predicate builder
--   Presentation list
+-   Presentational list
 -   Pagination control
 
-For more information about the component bundle, see [Record List](https://horizon.servicenow.com/workspace/components/record-list?release=brazil).
+For more information about the component bundle, see the following topics:
+
+-   [Record List](https://horizon.servicenow.com/workspace/components/record-list?release=brazil)
+-   Record list bundle
 
 ## Record list header component
 
@@ -62,14 +68,26 @@ The Predicate Builder component enables agents to set conditions from the record
 
 For more information, see [Predicate Builder](https://horizon.servicenow.com/workspace/components/now-predicate-builder?release=brazil).
 
-## Presentation list component
+## Presentational list component
 
-The Presentation list component displays data from the source table in columns and rows. This component also includes:
+The Presentational list component displays data from the source table in columns and rows. This component includes:
 
--   Edit form: Selecting the pencil icon next to a list item opens the record in the Edit form modal.
+-   Row actions: Icons that enable users to perform actions on the record. The default action is **Edit form**. Selecting the pencil icon next to a record opens the record in the Edit form modal in a side panel.
 -   **Select all** and **Select row** check boxes.
 -   Column headers: Include drag handles that agents can use to reorder columns; labels that describe the column data; and filter, sort, and group options.
 -   Column actions: Provides a menu with additional actions.
+
+With the presentational list component, administrators can configure properties such as the following:
+
+-   Highlighted field values that can draw attention to specific information such as high priority cases.
+-   Reference field links that users can select to open records.
+-   Enabling quick actions for records in the list.
+
+For more information about these properties, see the following topics:
+
+-   Presentational List component setup
+-   Presentational List component properties
+-   [Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/highlight-list-fields-platform.md)
 
 ## Pagination
 

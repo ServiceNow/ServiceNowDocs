@@ -35,15 +35,15 @@ After sourcing the new assets, asset refresh is completed through the following 
 
 1.  Select the hardware asset refresh request.
 
-<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d288843e73">
+<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d288548e75">
 
 Interface
 
-</th><th align="left" id="d288843e76">
+</th><th align="left" id="d288548e78">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d288843e82">
+</th></tr></thead><tbody><tr><td id="d288548e84">
 
 **Core UI**
 
@@ -53,7 +53,7 @@ Action
 2.  Select the request number of the enterprise asset refresh request that you want to fulfill.
 
 
-</td></tr><tr><td id="d288843e115">
+</td></tr><tr><td id="d288548e117">
 
 **Enterprise Asset Workspace**
 

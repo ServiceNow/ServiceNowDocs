@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, Express List, alert analysis, alert group, summary, description]
-breadcrumb: [Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Working with alert groups in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Generate an alert group description in Express List using ServiceNow Otto
@@ -35,4 +35,6 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 5.  Restore the original alert group description by selecting the revert icon \(\[Omitted image "icon-revert.png"\] Alt text: Revert icon.\) next to **Update description** and then choosing **Restore**.
 
+
+**Parent Topic:**[Working with alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/working-with-alert-groups.md)
 

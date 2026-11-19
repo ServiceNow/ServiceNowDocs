@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-15"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [GitLab external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [GitLab external content connector, Configure, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Create a GitLab external content connector
@@ -99,10 +99,10 @@ Your new external content connector appears in the Connectors list on the Extern
 
 ## What to do next
 
-To retrieve searchable content and security principals with your new connector, you must configure and run content and user mapping crawls for it. You can modify your new connector's crawl settings and create crawls for it from the External Content Admin Home page even if you skipped these steps during connector creation.
+To retrieve searchable content and security principals with your new connector, you must configure and run content and user permissions crawls for it. You can modify your new connector's crawl settings and create crawls for it from the External Content Admin Home page even if you skipped these steps during connector creation.
 
 -   To learn how to configure your new connector's crawl settings, see [Configure crawl settings for a GitLab external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/configure-crawl-settings-gitlab-external-content-connector.md).
--   For details on creating crawls for your new connector, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md) and [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
+-   For details on creating crawls for your new connector, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-content-crawl-external-content-connector.md) and [Create a user permissions crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
 
 To make content crawled by your new connector searchable in portals and search applications, you must link one of its search sources to the search profile used by each portal or search application. You can use the connector's default search source or create your own custom search sources.
 

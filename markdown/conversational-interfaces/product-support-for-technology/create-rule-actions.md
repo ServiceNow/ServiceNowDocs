@@ -9,7 +9,7 @@ classification: product-support-for-technology
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring Proactive Triggers, Proactive Triggers, Manage people and work, Conversational Interfaces]
+breadcrumb: [Configure, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---
 
 # Create rules and actions for Proactive Triggers
@@ -24,7 +24,7 @@ Role required: sn\_pt.proactive\_admin or admin
 
 ## About this task
 
-Select a default rule in the Proactive Triggers rules list to see how the default rule is defined. Admins or proactive admins can use these rules, change them, or create rules. After a rule is created, the admin creates one or more actions that are triggered by the rule. Actions define the messages that end users see based on the rule and the next steps available for the end users to take. For examples of default rules and action types, see [Exploring Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/product-support-for-technology/proactive-triggers.md).
+The default rules in the Proactive Triggers rules list show how rules are defined. Admins or proactive admins can use these rules, change them, or create rules. After a rule is created, the admin creates one or more actions that are triggered by the rule. Actions define the messages that end users see based on the rule and the next steps available for the end users to take. For examples of default rules and action types, see [Exploring Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/product-support-for-technology/proactive-triggers.md).
 
 ## Procedure
 
@@ -52,7 +52,7 @@ Select a default rule in the Proactive Triggers rules list to see how the defaul
     |Message that launches a virtual agent topic|End users see an HTML pop-up message that directs them to an available Virtual Agent topic.|
     |Message that launches a selection of virtual agent topics|End users see an HTML pop-up message with up to three suggested action buttons that direct them to a relevant Virtual Agent topic.|
 
-    **Note:** If you've created [Live Agent rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/product-support-for-technology/create-rule-actions.md), you can only select Message action types for those rules.
+    **Note:** If you've created live agent rules, you can select only the **Message only** action type for those rules.
 
 7.  On the Proactive Action form, fill in the fields.
 
@@ -62,10 +62,10 @@ Select a default rule in the Proactive Triggers rules list to see how the defaul
 
     |Column|Description|
     |------|-----------|
-    |Label|The button label that appears to end users. Double-click \(or use the keyboard shortcut\) the value to enter a button label up to a maximum of 40 characters. Leave this value empty if you want to have the label auto-populate with the topic title.|
-    |Topic|The Virtual Agent topic that end users interact with after they’ve selected the button. Double-click \(or use the keyboard shortcut\) the value to enter or search for a Virtual Agent topic.|
-    |Active|The active status of the rule action. A rule needs at least one active action for the rule to be triggered. Double-click \(or use the keyboard shortcut\) to select either **true** or **false**. Leave this value empty to auto-populate this value to **true**.|
-    |Order|The button order that is displayed on end users’ screens. Double-click \(or use the keyboard shortcut\) to enter the button preference order. Leave this value empty if you want to auto-populate with the next available order number that increments by one.|
+    |Label|The button label that appears to end users. Double-click the value \(or use the keyboard shortcut\) to enter a button label up to a maximum of 40 characters. Leave this value empty to have the label auto-populate with the topic title.|
+    |Topic|The Virtual Agent topic that end users interact with after they’ve selected the button. Double-click the value \(or use the keyboard shortcut\) to enter or search for a Virtual Agent topic.|
+    |Active|The active status of the rule action. A rule requires at least one active action for the rule to be triggered. Double-click \(or use the keyboard shortcut\) to select either **true** or **false**. Leave this value empty to auto-populate this value to **true**.|
+    |Order|The button order that is displayed on end users’ screens. Double-click \(or use the keyboard shortcut\) to enter the button preference order. Leave this value empty to auto-populate with the next available order number that increments by one.|
 
     **Note:** Up to three buttons can appear in the proactive message.
 

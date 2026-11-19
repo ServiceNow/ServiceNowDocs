@@ -50,7 +50,7 @@ Label
 
 </td><td>
 
-Label of the metric. By default it is the same as the name of the data source.
+Label of the metric. By default it is the same as the name of the data source.**Note:** If you have multiple metrics on the same data source, consider giving them custom labels. If you are defining group-by fields or breakdowns, this is particularly important. Chart labels in this case show both the metric label and the group-by value, so the metrics need different labels.
 
 </td></tr><tr><td>
 

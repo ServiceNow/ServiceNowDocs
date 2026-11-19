@@ -9,7 +9,7 @@ classification: common-service-data-model-csdm
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Common Service Data Model \(CSDM\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CSDM reference
@@ -73,5 +73,5 @@ The intangible/logical life-cycle value pairs represent the overall life cycle o
 -   **[Life cycle of product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-product.md)**  
 The product life-cycle value pairs represent the overall life cycle of a product model, a specific version, or a product configuration. The life-cycle values for the product life-cycle process are visible only in Product \(Models\) tables.
 
-**Parent Topic:**[Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
+**Parent Topic:**[Common Service Data Model \(CSDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
 

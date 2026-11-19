@@ -23,7 +23,7 @@ ServiceNow updates your instance with family releases and patches to keep base s
 |Feature|Customer Actions|Family releases and patches|
 |-------|----------------|---------------------------|
 |Definition|Manual, guided tasks for admins to implement important security changes.|System-driven updates applied automatically during family releases or patches.|
-|Purpose|Address security risks that can’t be resolved by ServiceNow upgrades alone. Designed to avoid disrupting custom configurations.|Keep platform code and functionality current and secure.|
+|Purpose|Address security risks that can’t be resolved by ServiceNow upgrades alone. Avoids disrupting custom configurations.|Keep platform code and functionality current and secure.|
 |Examples|Deprecating weak certificates, enforcing multi-factor authentication \(MFA\), disabling insecure protocols.|Platform version upgrades, patch-level fixes, backend security enhancements.|
 
 Access this tool by navigating to **Customer Actions** within Security Center.
@@ -40,7 +40,7 @@ Access this tool by navigating to **Customer Actions** within Security Center.
 
 -   **Customer Actions timeline**
 
-    A timeline of Customer Actions so that you can prioritize when to implement the steps. The timeline in the preceding image shows the Customer Actions that are overdue, and the ones that are due soon.
+    A timeline of Customer Actions so that you can prioritize when to implement the steps. The timeline shows the Customer Actions that are overdue, and the ones that are due soon.
 
 -   **Actions tabs**
 
@@ -59,7 +59,7 @@ For details on how to review individual Customer Actions, see [View Customer Act
 For information on how to apply the changes recommended by Customer Actions, see [Implement Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/implement-steps-for-critical-updates.md).
 
 -   **[Implement Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/implement-steps-for-critical-updates.md)**  
-Learn how to implement Customer Actions on your instance to increase its security posture.
+Implement Customer Actions on your instance to increase its security posture.
 -   **[View Customer Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/security-center/view-activity-of-critical-updates.md)**  
 See details of all of the activity related to your Customer Actions.
 

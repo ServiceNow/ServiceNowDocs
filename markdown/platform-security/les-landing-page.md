@@ -59,7 +59,7 @@ The following roles can use LES.
 |Experience guided setup for Kafka consumers|[Guided setup for Kafka consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-guided-setup-kafka.md)|System administrator|
 |Experience guided setup for MID server consumers|[Guided setup for MID Server consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-guided-setup-mid-server.md)|System administrator|
 |Examine the log report dashboard to analyze the size of each data log|[Review log report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-use.md)|System administrator or Application admin|
-|Replay historical log data from a supported table to backfill downstream systems retroactively|[Export existing logs on demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-export-existing-logs-on-demand.md)|Application admin or System administrator|
+|Replay historical log data from a supported table to backfill downstream systems retroactively|[Export Historical Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-export-existing-logs-on-demand.md)|Application admin or System administrator|
 
 ## What to explore next
 

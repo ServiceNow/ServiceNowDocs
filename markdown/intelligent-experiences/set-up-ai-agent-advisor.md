@@ -23,6 +23,8 @@ In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are 
 
 ## Before you begin
 
+AI Admin Center must be installed. For more information, see [Confirm installation of AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-install.md).
+
 All required plugins must be installed before attempting to run AI Agent Advisor. For a list of dependencies, see [Supporting information for AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/supporting-information-ai-agent-advisor.md).
 
 Role required: AI Agent Advisor admin \[sn\_agent\_miner.app\_admin\]

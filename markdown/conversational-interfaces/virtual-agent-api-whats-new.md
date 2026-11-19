@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/conversational-interfaces/virtu
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 15
+reading_time_minutes: 14
 breadcrumb: [Explore, Virtual Agent API, Conversational Interfaces]
 ---
 

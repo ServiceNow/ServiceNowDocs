@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/ai-in-sales-crm-for-telecommunications.html
 release: brazil
 topic_type: concept
-last_updated: "2026-11-06"
-reading_time_minutes: 1
+last_updated: "2026-11-19"
+reading_time_minutes: 2
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
@@ -23,7 +23,7 @@ Within Sales CRM for Telecommunications, ServiceNow Otto capabilities fall into 
 
 Most skills and workflows are available directly on the relevant record page, and can also be started conversationally from the ServiceNow Otto panel. For more information about the panel, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md). To activate the panel, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-Most skills are inactive by default. To activate a skill in the AI Admin Hub, follow the general procedure in [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md), selecting the **TMT** workflow group. To customize a skill's prompt directly in AI Skill Kit, see [Clone and edit a ServiceNow skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-and-edit-servicenow-skill.md). For input data and prompt customization sub-steps, see .
+Most skills are inactive by default. To activate a skill in the AI Admin Hub, follow the general procedure in [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md), selecting the **TMT** workflow group. To customize a skill's prompt directly in AI Skill Kit, see [Clone and edit a ServiceNow skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-and-edit-servicenow-skill.md). For input data and prompt customization sub-steps, see [Customize skill inputs and the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-customize-skill-inputs.md).
 
 **Related topics**  
 

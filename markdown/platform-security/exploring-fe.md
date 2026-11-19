@@ -95,7 +95,7 @@ During cloning, encrypted field data and encryption modules are copied to the ta
 
 Until a key exchange is performed, encrypted fields on the cloned instance appear empty or unreadable. This is expected behavior and does not indicate data corruption or loss.
 
-To restore access to encrypted fields on the target instance, complete a key exchange from the source instance. See [Configure Key Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/configure-key-exchange.md).
+To restore access to encrypted fields on the target instance, complete a key exchange from the source instance. See [Configure key exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/platform-encryption/configure-key-exchange.md).
 
 ## What to explore next
 

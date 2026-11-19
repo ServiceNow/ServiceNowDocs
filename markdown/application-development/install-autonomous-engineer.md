@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/install-autonomous-engineer.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-15"
+last_updated: "2026-11-09"
 reading_time_minutes: 1
 keywords: [Autonomous Engineer, install, setup, ServiceNow Studio, Build Agent, agent packs]
 audience: programmer
@@ -55,7 +55,7 @@ For instructions on installing ServiceNow products from the ServiceNow Store, se
 
 ## What to do next
 
-After installing Autonomous Engineer, install the agent pack for the product domain you plan to implement. For more information, see [Agent packs for Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
+You don't need to install agent packs. Agent packs ship as part of each release, and Autonomous Engineer activates the right pack when it needs it. For more information, see [Agent packs for Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 
 **Parent Topic:**[Configure Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/configure-autonomous-engineer.md)
 

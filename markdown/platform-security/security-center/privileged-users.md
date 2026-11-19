@@ -1,5 +1,5 @@
 ---
-title: Privileged Users
+title: Privileged users
 description: View the trend line for the privileged users \(active and inactive\) and their activity on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/security-center/privileged-users.html
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [Security metrics, Security monitoring console, Security Center, Platform Security]
 ---
 
-# Privileged Users
+# Privileged users
 
 View the trend line for the privileged users \(active and inactive\) and their activity on the ServiceNow AI Platform.
 
-The Privileged users overview section displays the trend line for the privileged users \(active and inactive\) and their activity on the ServiceNow AI Platform. Privileged users are users who have been assigned additional roles by admins to access the features like High Security Settings, Import, and Portal users.
+The Privileged users overview section displays the trend line for the privileged users \(active and inactive\) and their activity on the ServiceNow AI Platform. Administrators assign privileged users additional roles to access features such as High Security Settings, Import, and Portal users.
 
-Below is an explanation of the privileged users:
+The following metrics describe privileged users:
 
 -   Total users: Total count of users on your instance.
 -   Active users: Total number of users who initiated sessions on your instance.
@@ -28,7 +28,7 @@ Below is an explanation of the privileged users:
 -   New users: Users who have recently been added to your instance.
 -   Successful logins: Users that have successfully logged in.
 -   Failed logins: Unsuccessful login attempts.
--   Local logins not protected by MFA: Users that logged in without MFA.
+-   Local logins not protected by MFA: Users that logged in without multi-factor authentication \(MFA\).
 -   Users never logged in: Users that have never logged into your instance.
 -   Users not logged in since last month: Users that have not logged in the last 30 days.
 -   Users not logged in since the last 6 months: Users that have not logged in the last 6 months.

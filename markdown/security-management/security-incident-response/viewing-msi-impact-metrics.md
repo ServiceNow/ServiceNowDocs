@@ -123,6 +123,8 @@ Displays collaboration activities in total for all the labelled collaboration ac
 
 [Unlink records from Major Security Incident]()
 
+[]()
+
 [Manage tasks in a Major Security Incident]()
 
 [Track collaboration activity via MSIM workspace]()

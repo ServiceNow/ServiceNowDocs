@@ -9,6 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [install dex locally, dex local installation, dex components, test dex before deployment]
 breadcrumb: [Configure, Digital End-User Experience, IT Operations Management]
 ---
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-snowflake-connection-zcc.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-12"
 reading_time_minutes: 3
 breadcrumb: [Snowflake, Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -21,6 +21,8 @@ You can optimize queries to Snowflake by enabling table statistics. Consult your
 Role required: df\_connection\_admin
 
 ## About this task
+
+This connector supports personal authentication. For more information, see [Personal authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/personal-auth-zcc.md).
 
 Work with your data source admin to create a connection to Snowflake. For additional information about connecting to Snowflake, refer to the [Snowflake documentation](https://docs.snowflake.com/en/user-guide/key-pair-auth).
 
@@ -111,73 +113,33 @@ Option to enable table statistics. Optimize SQL queries using table statistics b
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with Snowflake.
 
-<table id="choicetable_ckm_bgh_b3c"><thead><tr><th align="left" id="d140596e254">
+<table id="choicetable_ckm_bgh_b3c"><thead><tr><th align="left" id="d142546e268">
 
 Option
 
-</th><th align="left" id="d140596e257">
+</th><th align="left" id="d142546e271">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d140596e263">
+</th></tr></thead><tbody><tr><td id="d142546e277">
 
 **JWT**
 
 </td><td>
 
-Option to use key pair authentication.
+Option to use key pair authentication. See [Snowflake authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/snowflake-authentication-method-fields-zcc.md) for the specific fields \(private key, connection user, passphrase, role\).
 
- 1.  Attach the private key using one of the following options:
-    -   Upload the private key file by selecting **Attach PEM file** and selecting the file.
-    -   Copy and paste the contents of the PEM file, ensuring the content begins with:
-
-        ```
------BEGIN PRIVATE KEY-----
-        ```
-
-and ends with:
-
-        ```
------END PRIVATE KEY-----
-        ```
-
-2.  Enter the connection user to connect to Snowflake.
-3.  Enter the passphrase if the private key is secured with a password.
-4.  Enter the role that determines your permissions within Snowflake.
-
-
-</td></tr><tr><td id="d140596e306">
+</td></tr><tr><td id="d142546e296">
 
 **OAuth**
 
 </td><td>
 
-Option to use OAuth authentication.
+Option to use OAuth authentication. Select the OAuth credential type that you want to use.
 
- Select the OAuth credential type that you want to use.
+ -   **Client credentials**: option to enter OAuth credentials directly from your identity provider. See [Snowflake authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/snowflake-authentication-method-fields-zcc.md) for the specific fields \(client ID, client secret, token request URL, scope\).
+-   **Access Token**: option to use a pre-configured OAuth entity profile, with either a shared \(**System**\) or per-user \(**Personal**\) integration type. See [Snowflake authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/snowflake-authentication-method-fields-zcc.md) for the specific fields \(OAuth entity profile, OAuth integration type\).
 
- -   **Client credentials**
-
-Select this option to enter OAuth credentials directly from your identity provider.
-
-    1.  Enter the client ID from your OAuth identity provider.
-    2.  Enter the client secret from your OAuth identity provider.
-    3.  Enter the token request URL from your OAuth identity provider.
-    4.  Enter the scope from your OAuth identity provider.
--   **Access Token**
-
-Select this option if you created a record in the Application Registries \[oauth\_entity\] table with a Snowflake or IdP service principal for authentication.
-
-This option keeps credentials within the instance and uses the ServiceNow AI Platform OAuth framework for token lifecycle management. For details on creating an OAuth entity profile, see [Use a third-party OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/t_UseAThirdPartyOAuthProvider.md). When configuring the profile, select **Client Credentials** as the grant type. If your OAuth provider requires scopes, add them on the OAuth Entity Scopes tab. Consult your data source or identity provider documentation for the required scope values.
-
-Select the OAuth entity profile for your Snowflake or IdP service principal.
-
-Select the OAuth integration type that you want to use:
-
-    -   **System**: Use the selected OAuth entity profile for all users of this connection. This is the default option.
-    -   **Personal**: Require each user to authenticate individually with their own credentials before they can access Snowflake data through this connection. Select **Get OAuth Token** to open the authentication flow in a new browser tab and sign in.
-
-**Note:** Each user can view, renew, or revoke their personal access token from the Personal Integrations Dashboard in the Zero Copy Connector Hub. If a user's token expires or is missing, an alert appears when that user tries to access data assets for this connection, with a link to sign in again.
 
 </td></tr></tbody>
 </table>5.  Select **Connect**.
@@ -192,4 +154,9 @@ A test connection is made to the external data source, verifying that the connec
 If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
+
+**Related topics**  
+
+
+[Snowflake authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/snowflake-authentication-method-fields-zcc.md)
 

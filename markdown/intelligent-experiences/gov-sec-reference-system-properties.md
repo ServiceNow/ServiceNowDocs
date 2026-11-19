@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reference, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Managing AI asset security, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # System properties for AI asset security
@@ -33,7 +33,7 @@ sn\_ai\_security.analyzer\_max\_record\_age\_hours
 
 </td><td>
 
-Limit by record age \(in hours\) the number of AI asset invocation records processed by AI Control Tower for AI asset security metrics. Reducing the record age can prevent analyzing stale data, reduce unnecessary processing overhead, and focus the metric on more recent activity. Increasing the record age includes analysis of older records.
+Limit by record age \(in hours\) the number of AI asset invocation records processed by Control Tower for AI asset security metrics. Reducing the record age can prevent analyzing stale data, reduce unnecessary processing overhead, and focus the metric on more recent activity. Increasing the record age includes analysis of older records.
 
  -   Type: Integer
 -   Default value: 4 hours

@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Create an email notification, Email and SMS notifications, System notifications, Notifications, Configure core features, ServiceNow AI Platform]
 ---
 
 # Baseline email notifications

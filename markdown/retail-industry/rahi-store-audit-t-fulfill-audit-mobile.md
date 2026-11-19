@@ -21,7 +21,7 @@ Role required: `sn_rtl_store_audit.location_auditor`
 
 ## About this task
 
-Location Auditors are the only Auditor persona who can fulfill Store Audit work from Retail Mobile—HQ Auditors fulfill exclusively via CSM/FSM Workspace. Generated Store Audit Cases and Audit Tasks are automatically assigned to your team's assignment group; self-assign or ask your Store Audit Manager to assign a specific record before you start.
+Location Auditors are the only Auditor persona who can fulfill Store Audit work from Retail Mobile—HQ Auditors fulfill exclusively via CRM Workspace. Generated Store Audit Cases and Audit Tasks are automatically assigned to your team's assignment group; self-assign or ask your Store Audit Manager to assign a specific record before you start.
 
 ## Procedure
 
@@ -50,7 +50,7 @@ Location Auditors are the only Auditor persona who can fulfill Store Audit work 
 
 ## Result
 
-The Store Audit Case and its Audit Tasks are fulfilled and closed from Retail Mobile. The Store Audit Manager can review the completed work in CSM/FSM Workspace.
+The Store Audit Case and its Audit Tasks are fulfilled and closed from Retail Mobile. The Store Audit Manager can review the completed work in CRM Workspace.
 
 **Parent Topic:**[Manage Store Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-manage.md)
 
@@ -61,5 +61,5 @@ The Store Audit Case and its Audit Tasks are fulfilled and closed from Retail Mo
 
 [Complete a store audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-fulfill-audit.md)
 
-[Audit assignment from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
+[Audit assignment from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
 

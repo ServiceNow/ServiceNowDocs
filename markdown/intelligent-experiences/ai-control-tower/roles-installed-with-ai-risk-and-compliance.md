@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI Risk and Compliance roles
@@ -159,7 +159,7 @@ AI System Reader
 
 </td><td>
 
-​The AI System Reader can have read access to the AI systems on AI Control Tower workspace and AI Risk and Compliance workspace.​
+​The AI System Reader can have read access to the AI systems on Control Tower workspace and AI Risk and Compliance workspace.​
 
 </td><td>
 

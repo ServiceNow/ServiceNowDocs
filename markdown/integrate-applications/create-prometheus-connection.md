@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-prometheus-connection.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-11-17"
+reading_time_minutes: 2
 breadcrumb: [Prometheus, Community connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
@@ -20,7 +20,7 @@ Role required: df\_connection\_admin
 
 ## About this task
 
-Work with your data source admin to create a connection to Prometheus. For additional information about connecting, refer to the [Prometheus connector documentation](https://trino.io/docs/current/connector/prometheus.html).
+Work with your data source admin to create a connection to Prometheus. For additional information about connecting, refer to the [Prometheus connector documentation](https://prometheus.io/docs/introduction/overview/).
 
 **Note:** This connector was developed by the open-source community and made available through the ServiceNow AI Platform for general use. Functionality can vary and might not cover all use cases supported by primary connectors.
 
@@ -113,15 +113,15 @@ Password associated with the username.
 </td></tr></tbody>
 </table>4.  Configure connection security.
 
-<table id="choicetable_ejt_ldh_b3c"><thead><tr><th align="left" id="d504808e253">
+<table id="choicetable_ejt_ldh_b3c"><thead><tr><th align="left" id="d511470e257">
 
 Option
 
-</th><th align="left" id="d504808e256">
+</th><th align="left" id="d511470e260">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d504808e262">
+</th></tr></thead><tbody><tr><td id="d511470e266">
 
 **Default**
 
@@ -129,7 +129,7 @@ Description
 
 Select this option to use Java security CA certificates to establish a secure connection with the data source.This option uses public certificates that are already available in the Java security truststore.
 
-</td></tr><tr><td id="d504808e273">
+</td></tr><tr><td id="d511470e277">
 
 **TLS**
 
@@ -140,7 +140,7 @@ Select this option if your data source requires one-way SSL and uses its own cer
 </td></tr></tbody>
 </table>5.  If you selected TLS, attach the Base64-encoded truststore PEM file using one of the following options.
 
-<table id="choicetable_iqc_pl2_h3c"><tbody><tr><td id="d504808e291">
+<table id="choicetable_iqc_pl2_h3c"><tbody><tr><td id="d511470e295">
 
 **Attach TrustStore file**
 
@@ -148,7 +148,7 @@ Select this option if your data source requires one-way SSL and uses its own cer
 
 Upload the PEM file by selecting **Attach PEM file** and selecting the file.
 
-</td></tr><tr><td id="d504808e303">
+</td></tr><tr><td id="d511470e307">
 
 **Enter TrustStore file contents**
 
@@ -163,7 +163,15 @@ Copy and paste the contents of the truststore file, ensuring the content begins 
 ```
 
 </td></tr></tbody>
-</table>6.  Select **Connect**.
+</table>6.  In the DataFabric Connector Properties \[sn\_df\_connector\_properties\] table, set properties for queries that retrieve data from Prometheus.
+
+    1.  Enter `sn_df_connector_properties.LIST` in the navigation filter.
+
+    2.  Set the following properties.
+
+        -   **prometheus.max.query.range.duration** — Defines the maximum span of time series data that the Prometheus connector can retrieve in a single query.
+        -   **prometheus.query.chunk.size.duration** — Specifies the duration of each time chunk when splitting a query range into smaller intervals. Accepts standard duration notation \(for example, 1y, 1w, 1d, 1h, 30m\). The connector executes one query per chunk, reducing the risk of timeouts and improving performance on the Prometheus server. For more information, see [Range Vector Selectors](https://prometheus.io/docs/prometheus/1.8/querying/basics/#range-vector-selectors).
+7.  Select **Connect**.
 
 
 ## Result
@@ -172,7 +180,7 @@ A test connection is made to the external data source, verifying that the connec
 
 ## What to do next
 
-If the connection succeeds, configure data steward access on the **Access Control** tab. See .
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-access-connection-zcc.md).
 
 If the connection fails, verify the connection details with your data source administrator and try again.
 

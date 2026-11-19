@@ -56,6 +56,16 @@ When true, hides the dashboard picker on all dashboards in the workspaceDefault:
 
 </td></tr><tr><td>
 
+Picker Encoded Query \[pickerEncodedQuery\]
+
+</td><td>
+
+Limits the dashboards that the dashboard picker lists to those that match an encoded query for the `par_dashboard` table. The query applies in addition to workspace visibility and the viewer's permissions. Leave empty to list all the dashboards that the viewer can access.For more information, see .
+
+Default: empty
+
+</td></tr><tr><td>
+
 Disable sharing \[hideShareButton\]
 
 </td><td>

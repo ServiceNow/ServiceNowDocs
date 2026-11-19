@@ -9,7 +9,7 @@ classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Configure, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure the manage alerts autonomously agentic workflow
@@ -20,7 +20,7 @@ Configure an alert management rule to operate the manage alerts autonomously age
 
 -   [Install ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md). For more information about installing ServiceNow Otto plugins, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   \[Optional\] Additional configuration is required for some skills used in the agentic workflow:
-    -   **Observability skills**: Configure the relevant observability skills to surface data from observability tools integrated with Event Management. See [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
+    -   **Observability skills**: Configure the relevant observability skills to surface data from observability tools integrated with Event Management. See [Configure observability tool connections for ITOM AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
     -   **Log analytics skills**: Install and configure Health Log Analytics to enable analysis of log analytics alerts. See [Configuring Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-configuring.md).
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md).

@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-30"
 reading_time_minutes: 1
-breadcrumb: [Fulfill In-store operations cases and tasks on the Retail Portal, Manage store plans, Retail]
+breadcrumb: [Fulfill In-store operations cases and tasks on the Retail Portal, Create and manage store plans, Retail]
 ---
 
 # Work on a Store Case on the Retail Portal

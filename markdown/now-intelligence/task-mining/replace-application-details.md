@@ -26,6 +26,8 @@ An event filter uses conditions based on application name, URL, or window name t
 
 You can add exceptions to exclude specific screens or pages within captured applications, for example, to avoid collecting data from password fields or payroll screens.
 
+\[Omitted video\] Description: Explore how to create event filters to capture or exclude activity.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Task Mining Workspace**.

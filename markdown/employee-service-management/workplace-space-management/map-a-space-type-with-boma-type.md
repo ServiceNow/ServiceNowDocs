@@ -20,7 +20,7 @@ Using Workplace Space Management, map a space type that you created using Workpl
 
 Ensure the following:
 
--   Space type is configured. To configure a space type, refer to [Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
+-   Space type is configured. To configure a space type, refer to [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/add-space-type-configuration-wsd.md).
 -   BOMA type is configured. To configure a BOMA type, refer to [Configure a BOMA type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/configure-a-boma-type.md).
 
 Role required: sn\_wsd\_core.admin and sn\_wsd\_spcmgmt.manager
@@ -64,6 +64,8 @@ The space type is mapped with a BOMA type. All the spaces that are assigned to t
 [Add a room using Workplace Space Management]()
 
 [Add a space using Workplace Space Management]()
+
+[Configure a space type as usable with Workplace Space Management]()
 
 [Allocate a cost center, department, or workplace entity]()
 

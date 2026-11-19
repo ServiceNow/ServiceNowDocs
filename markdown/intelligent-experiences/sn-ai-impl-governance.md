@@ -83,11 +83,11 @@ For more resources about AI governance, see the following best practices topics:
 
 AI governance is specified in the following tools:
 
--   **AI Control Tower**
+-   **Control Tower**
 
-    The AI Control Tower functions as the central hub for AI strategy, governance, and analytics. It offers enterprise-wide visibility into AI assets, usage patterns, and compliance status, enabling organizations to maintain oversight and accountability. Through automated discovery and inventory of approved AI assets, it streamlines asset management while embedding governance checks and compliance alerts to ensure that all AI deployments remain secure and aligned with organizational policies.
+    The Control Tower functions as the central hub for AI strategy, governance, and analytics. It offers enterprise-wide visibility into AI assets, usage patterns, and compliance status, enabling organizations to maintain oversight and accountability. Through automated discovery and inventory of approved AI assets, it streamlines asset management while embedding governance checks and compliance alerts to ensure that all AI deployments remain secure and aligned with organizational policies.
 
-    For more information, see [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md).
+    For more information, see [Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-landing.md).
 
 -   **AI Admin Hub**
 

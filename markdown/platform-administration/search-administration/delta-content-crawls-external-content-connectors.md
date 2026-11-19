@@ -7,10 +7,10 @@ release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Explore, External Content Connectors, Search administration, Configure core features, ServiceNow AI Platform]
 ---
 
 # Delta content crawls for external content connectors
@@ -52,7 +52,9 @@ If you try to start a one-time full or partial content crawl while a delta conte
 
 ## Delta content crawl history
 
-In the connector editor's **Crawl history** tab, a summary of delta content crawl activity over the last 30 days appears in the **Delta content crawls** section. Delta content crawl history doesn't appear in the **Crawl history** listing.
+In the connector editor's **Crawl history** tab, a summary of delta content crawl activity over the last 30 days appears in the **Delta content crawls** section. To review metrics for delta content crawls over the last 90 days, select **View details**.
+
+Delta content crawls aren't shown in the **Crawl history** section.
 
 ## Limitations of delta content crawls
 

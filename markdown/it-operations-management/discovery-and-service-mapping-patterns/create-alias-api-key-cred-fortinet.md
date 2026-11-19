@@ -48,7 +48,7 @@ Role required: discovery\_admin
 
     6.  Select **Submit**.
 
-        For more information about API Key Credentials form fields, see [API key credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/API-key-credential-form.md).
+        For more information about API Key Credentials form fields, see .
 
 
 ## What to do next

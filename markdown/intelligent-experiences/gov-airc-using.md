@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-03"
 reading_time_minutes: 3
 keywords: [use]
-breadcrumb: [Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing risk and compliance, Govern AI assets, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Reviewing AI governance posture and compliance status
@@ -17,7 +17,7 @@ The Risk &amp; Compliance tab under **Govern** displays regulatory classificatio
 
 ## Overview of Govern
 
-Use the **Risk &amp; Compliance** tab under **Govern** in AI Control Tower to monitor governance activities across your AI portfolio. Review AI asset classifications, identify risk and compliance concerns, track governance work, and investigate issues that require attention.
+Use the **Risk &amp; Compliance** tab under **Govern** in Control Tower to monitor governance activities across your AI portfolio. Review AI asset classifications, identify risk and compliance concerns, track governance work, and investigate issues that require attention.
 
 From here, you can:
 

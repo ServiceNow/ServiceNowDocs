@@ -8,9 +8,9 @@ product: Event Management
 classification: event-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [AI Agents, agentic AI]
-breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Responding to and working with alerts in Express List, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Manage alerts autonomously agentic workflow
@@ -30,7 +30,7 @@ For information on how to review key insights and data derived from the workflow
 
 For information about configuring this workflow, see [Configure the manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-manage-alerts-autonomously-workflow.md).
 
-Use the information on this page to learn about the actions related to the manage alerts autonomously agentic workflow. To modify the workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/clone-aia-usecase.md).
+Use the information on this page to learn about the actions related to the manage alerts autonomously agentic workflow. To modify the workflow, you must duplicate it and adjust the settings according to your requirements. For more information, see .
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -72,4 +72,9 @@ The manage alerts autonomously agentic workflow performs several actions in the 
     -   Provides clear, actionable insights
 
 **Important:** This agentic workflow is turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
+-   **[Review AI-generated alert insights in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/use-ai-insights-express-list.md)**  
+Access alert information in Express List that is consolidated autonomously by AI skills and agents. Use the AI insights badge, column, and filter to monitor alert statuses and review of AI-generated insights.
+
+**Parent Topic:**[Responding to and working with alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/responding-to-and-working-with-alerts-in-express-list.md)
 

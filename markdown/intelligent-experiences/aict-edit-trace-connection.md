@@ -1,6 +1,6 @@
 ---
 title: Edit a trace connection
-description: Update the configuration of an established trace connection to change its credentials, collection frequency, MID Server, or other settings.
+description: Update the configuration of an established trace connection in Super Intelligence Control Tower to change its credentials, collection frequency, MID Server, or other settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-edit-trace-connection.html
 release: brazil
@@ -8,12 +8,12 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring trace connections, Configuring integrations, Configure, Super Intelligence Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
 
 # Edit a trace connection
 
-Update the configuration of an established trace connection to change its credentials, collection frequency, MID Server, or other settings.
+Update the configuration of an established trace connection in Super Intelligence Control Tower to change its credentials, collection frequency, MID Server, or other settings.
 
 ## Before you begin
 
@@ -21,7 +21,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Traces**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Traces**.
 
 2.  On the **Established** sub-tab, select the connection you want to update.
 
@@ -32,7 +32,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Result
 
-The connection is updated. If the connection is active, AI Control Tower uses the new configuration at the next collection interval.
+The connection is updated. If the connection is active, Control Tower uses the new configuration at the next collection interval.
 
 **Parent Topic:**[Configuring trace connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-configuring-trace-connections.md)
 

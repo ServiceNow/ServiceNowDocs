@@ -23,7 +23,7 @@ Define the type of trigger that determines when to start running your playbook.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Process Automation Administration** &gt; **Trigger Definitions**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Playbook Administration** &gt; **Trigger Definitions**.
 
 2.  In the context header, click **New**.
 

@@ -16,18 +16,18 @@ Manage store audit operations by audit assignments, creating and publishing audi
 
 For more information on managing store audits, see
 
--   [Audit assignment from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
+-   [Audit assignment from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)
 -   [Create and publish an audit plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-create-and-generate.md)
 -   [Complete a store audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-fulfill-audit.md)
 
 .
 
--   **[Audit assignment from workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)**  
+-   **[Audit assignment from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-override-assignment.md)**  
 As a Store Audit Manager, manually assign a Store Audit Case or Audit Task to a specific Auditor, or change the assignment group set by the automated assignment rules.
 -   **[Create and publish an audit plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-create-and-generate.md)**  
-Use the **Store audit** playbook in CSM/FSM Workspace to author and publish an audit plan. Publishing automatically creates the Store Audit Cases and Audit Tasks for all selected store locations.
+Use the **Store audit** playbook in CRM Workspace to author and publish an audit plan. Publishing automatically creates the Store Audit Cases and Audit Tasks for all selected store locations.
 -   **[Complete a store audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-fulfill-audit.md)**  
-As an Auditor, open your assigned Store Audit Case in CSM/FSM Workspace, record observations, complete each Audit Task, then close the Store Audit Case.
+As an Auditor, open your assigned Store Audit Case in CRM Workspace, record observations, complete each Audit Task, then close the Store Audit Case.
 -   **[Complete a store audit from Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-fulfill-audit-mobile.md)**  
 As a Location Auditor, take your assigned Store Audit Case and Audit Tasks in Retail Mobile, complete the questionnaire, and close the case.
 -   **[Complete an Audit Task from Retail Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-store-audit-t-complete-audit-task-mobile.md)**  

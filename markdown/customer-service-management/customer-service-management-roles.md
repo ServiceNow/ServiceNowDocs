@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/cus
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 14
+reading_time_minutes: 15
 keywords: [Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Base roles]
 breadcrumb: [Reference, Customer Service Management]
 ---

@@ -20,7 +20,7 @@ Create a de-duplication template that you can then run to apply pre-configured a
 
 Role required:
 
--   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
+-   To access the  to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
 -   To perform de-duplication tasks, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
 
 ## About this task
@@ -178,15 +178,15 @@ When merging duplicate CIs into the main CI:-   Prevents updates to main CI attr
 
 10. **Merge related items**: Select the method to use for merging related items associated with the duplicate CIs into the main CI, and then select **Next**.
 
-<table id="choicetable_azk_5gj_yyb"><thead><tr><th align="left" id="d153379e552">
+<table id="choicetable_azk_5gj_yyb"><thead><tr><th align="left" id="d153752e547">
 
 Choice
 
-</th><th align="left" id="d153379e555">
+</th><th align="left" id="d153752e550">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d153379e561">
+</th></tr></thead><tbody><tr><td id="d153752e556">
 
 **Merge default related items**
 
@@ -194,7 +194,7 @@ Description
 
 Merge only related items in the default related items list, from duplicate CIs into the main CI.
 
-</td></tr><tr><td id="d153379e570">
+</td></tr><tr><td id="d153752e565">
 
 **Do not merge any related items**
 
@@ -202,7 +202,7 @@ Merge only related items in the default related items list, from duplicate CIs i
 
 Don't merge related items from any duplicate CI into the main CI.
 
-</td></tr><tr><td id="d153379e579">
+</td></tr><tr><td id="d153752e574">
 
 **Merge all available related items**
 
@@ -210,7 +210,7 @@ Don't merge related items from any duplicate CI into the main CI.
 
 Merge all related items from all duplicate CIs into the main CI.
 
-</td></tr><tr><td id="d153379e588">
+</td></tr><tr><td id="d153752e583">
 
 **Merge related items based on condition**
 

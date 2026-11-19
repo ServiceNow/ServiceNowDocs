@@ -18,6 +18,8 @@ You can activate the plugin API Key and HMAC Authentication \(`com.glide.tokenba
 
 ## Before you begin
 
+Role required: admin
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.

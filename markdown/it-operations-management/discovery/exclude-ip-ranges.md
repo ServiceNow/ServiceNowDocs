@@ -36,15 +36,15 @@ Role required: discovery\_admin or agent\_admin
 
 5.  Choose one of the following options from the **Type** drop-down list.
 
-<table id="choicetable_vp2_g1m_dgc"><thead><tr><th align="left" id="d75158e112">
+<table id="choicetable_vp2_g1m_dgc"><thead><tr><th align="left" id="d75411e114">
 
 Option
 
-</th><th align="left" id="d75158e115">
+</th><th align="left" id="d75411e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d75158e121">
+</th></tr></thead><tbody><tr><td id="d75411e123">
 
 **IP Address List**
 
@@ -52,7 +52,7 @@ Description
 
 Enables you to exclude non-consecutive IP addresses by listing individual IP addresses in the **Discovery Range Item IPs** related list.**Note:** After you select **IP Address List** as the **Type**, you must right-click the header and select **Save** before you can begin adding IPs to the related list.
 
-</td></tr><tr><td id="d75158e144">
+</td></tr><tr><td id="d75411e146">
 
 **IP Address Range**
 
@@ -60,7 +60,7 @@ Enables you to exclude non-consecutive IP addresses by listing individual IP add
 
 Enables you to exclude a range of IPs by providing the starting and ending IP addresses.
 
-</td></tr><tr><td id="d75158e153">
+</td></tr><tr><td id="d75411e155">
 
 **IP Network**
 

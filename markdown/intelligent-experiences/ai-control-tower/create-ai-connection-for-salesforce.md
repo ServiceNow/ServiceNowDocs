@@ -1,6 +1,6 @@
 ---
 title: Create AI connection for Salesforce
-description: Use the AI Service Graph Connector for Salesforce plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents in AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
+description: Use the AI Service Graph Connector for Salesforce plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents in Control Tower. This usage information is consumed by the Control Tower value dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-control-tower/create-ai-connection-for-salesforce.html
 release: brazil
@@ -9,12 +9,12 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Salesforce, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Salesforce, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring Control Tower \(legacy\), Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create AI connection for Salesforce
 
-Use the AI Service Graph Connector for Salesforce plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents in AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
+Use the AI Service Graph Connector for Salesforce plugin to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents in Control Tower. This usage information is consumed by the Control Tower value dashboard.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **AI Control Tower** &gt; **Configuration** &gt; **AI connection**.
+1.  Navigate to **Control Tower** &gt; **Configuration** &gt; **AI connection**.
 
 2.  Select **Add**.
 

@@ -43,15 +43,15 @@ To learn more, see [Using the order orchestration UI](https://raw.githubusercont
 
 5.  Access the order orchestration UI for a selected order, order line item, or domain order by performing the respective task from the following table.
 
-<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d52169e134">
+<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d52210e136">
 
 Task
 
-</th><th align="left" id="d52169e137">
+</th><th align="left" id="d52210e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d52169e143">
+</th></tr></thead><tbody><tr><td id="d52210e145">
 
 **Review the orchestration plan for an entire customer order**
 
@@ -59,7 +59,7 @@ Description
 
 In the Customer Order form, under Order breakdowns, select **View order orchestration**.
 
-</td></tr><tr><td id="d52169e155">
+</td></tr><tr><td id="d52210e157">
 
 **Review the orchestration plan for a customer order line item**
 
@@ -69,7 +69,7 @@ In the Customer Order form, under Order breakdowns, select **View order orchestr
 2.  Select the **Order Orchestration** tab.
 
 
-</td></tr><tr><td id="d52169e179">
+</td></tr><tr><td id="d52210e181">
 
 **Review the orchestration plan for a domain order associated with a customer order line item**
 

@@ -36,15 +36,15 @@ For more information about executing desktop actions, see .
 
 2.  Choose one of the following options.
 
-<table id="choicetable_hlg_gzl_lkc"><thead><tr><th align="left" id="d188734e123">
+<table id="choicetable_hlg_gzl_lkc"><thead><tr><th align="left" id="d189688e125">
 
 Option
 
-</th><th align="left" id="d188734e126">
+</th><th align="left" id="d189688e128">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d188734e132">
+</th></tr></thead><tbody><tr><td id="d189688e134">
 
 **An existing one**
 
@@ -61,7 +61,7 @@ When you add an on-screen task desktop action, additional fields require configu
 -   **Background tasks**: These actions include prebuilt connectors that enable your AI agents to interact with applications and system components in the background. These connectors streamline automation by offering actions for common tasks, reducing the need for complex scripting. Each connector focuses on a specific application or system area and provides a collection of related methods. You can't create background task actions.
 
 
-</td></tr><tr><td id="d188734e174">
+</td></tr><tr><td id="d189688e176">
 
 **A new desktop action**
 
@@ -72,15 +72,15 @@ Option to create a defined or adaptive desktop action. For more information, see
 </td></tr></tbody>
 </table>3.  If creating a new desktop action, select how you want to create it.
 
-<table id="choicetable_em4_fbm_lkc"><thead><tr><th align="left" id="d188734e192">
+<table id="choicetable_em4_fbm_lkc"><thead><tr><th align="left" id="d189688e194">
 
 Option
 
-</th><th align="left" id="d188734e195">
+</th><th align="left" id="d189688e197">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d188734e201">
+</th></tr></thead><tbody><tr><td id="d189688e203">
 
 **Let AI determine the steps dynamically**
 
@@ -98,7 +98,7 @@ For more information, see .
 
 For more information, see .
 
-</td></tr><tr><td id="d188734e245">
+</td></tr><tr><td id="d189688e247">
 
 **Record a fixed sequence of steps**
 

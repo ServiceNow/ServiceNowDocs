@@ -152,7 +152,7 @@ Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/
 
 </td></tr><tr><td>
 
-\[Omitted image "admin-console-treeview-filter.png"\] Alt text:
+\[Omitted image "admin-console-treeview-filter.png"\] Alt text: tree view interactive filter icon
 
 </td><td>
 
@@ -168,7 +168,7 @@ Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/
 
 </td></tr><tr><td>
 
-\[Omitted image "admin-console-treeview-indicator-widget.png"\] Alt text:
+\[Omitted image "admin-console-treeview-indicator-widget.png"\] Alt text: tree view performance analytics widget icon
 
 </td><td>
 
@@ -188,7 +188,7 @@ Launches the [Bottom-up tree view](https://raw.githubusercontent.com/ServiceNow/
 
 </td></tr><tr><td>
 
-\[Omitted image "admin-console-treeview-widget.png"\] Alt text: tree view other widget icon
+\[Omitted image "admin-console-treeview-widget.png"\] Alt text: Performance Analytics widget icon
 
 </td><td>
 

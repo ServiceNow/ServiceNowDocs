@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/teleco
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 4
 ---
 
 # Telecommunications, Media, and Technology \(TMT\)
@@ -45,7 +45,7 @@ Telecommunications Service Management \(TSM\) breaks down siloed legacy systems 
 
 </td><td>
 
--   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
+-   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-about.md)
 -   [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
 -   [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
 -   [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/assurance-workflows.md)
@@ -80,7 +80,7 @@ Technology Provider Service Management \(TPSM\) automates work for technology pr
 
 </td><td>
 
--   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spmc.md)
+-   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-about.md)
 -   [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
 -   [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
 -   [Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/assurance-workflows.md)
@@ -110,7 +110,7 @@ Open Digital Architecture-aligned REST APIs available across TMT solutions — a
 
 </td><td>
 
-[Browse APIs by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/api-product-type.md)
+
 
 </td></tr></tbody>
 </table>## Additional resources

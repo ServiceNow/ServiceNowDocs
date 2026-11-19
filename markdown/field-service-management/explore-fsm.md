@@ -98,7 +98,7 @@ Field Service Management provides the following benefits:
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Simplify setup using low-code plugins and guided setup.|[Guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/simplified-setup.md)|Administrator|
+|Simplify setup using low-code plugins and guided setup.|Guided setup|Administrator|
 |Optimize task scheduling, auto-assign tasks, and adapt to changing conditions.|[Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/schedule-optimization.md)|Administrator|
 |Automatically capture critical data when creating a work order from a case, incident, problem, change request, or project task record.|[Integrated work order entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/Work-order-fsm.md)|Initiator|
 |Empower customers using Field Service Management - Customer Experience to track en-route agent location and arrival time.|[Customer Experience in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/customer-experience.md)|Initiator|

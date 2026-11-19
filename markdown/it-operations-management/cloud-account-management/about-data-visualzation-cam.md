@@ -28,7 +28,7 @@ The workflow for creating a scan configuration for data visualization.
 
 3.  Define a scan schedule or execute an on-demand scan: Set up a scan schedule or run an on-demand scan to evaluate vulnerabilities based on the selected policies for the specified accounts.
 
-4.  Daily scans:
+4.  Schedule Daily scans:
 
     -   Conduct daily scans to identify vulnerabilities and compliance issues in accounts.
     -   These scans generate reports on violations, severity levels, and account aliases, providing a detailed view of account compliance.

@@ -99,8 +99,6 @@ Workplace user\[sn\_wsd\_core.workplace\_user\]
 -   Requests area or workspace reservations from the Workplace Service Portal or the Now® Mobile app
 -   Schedules arrival to workplace locations using the Workplace Service Portal or the Now® Mobile app
 
- **Note:** From Workplace Core v1.3.2 onwards, this role is required for employees to request reservations from Workplace Service Portal.
-
 </td><td>
 
 None
@@ -390,7 +388,7 @@ Stores the relationship between employees and their designated workspaces.
 
 </td></tr><tr><td>
 
-Workplace Safety User\[sn\_wsd\_core\_workplace\_user\]
+Workplace Core User\[sn\_wsd\_core\_workplace\_user\]
 
 </td><td>
 

@@ -43,5 +43,5 @@ Role required: admin
 
 ## Result
 
-The service selector is now active within the CSM/FSM Configurable Workspace for use with Retail Task Management Core.
+The service selector is now active within the CRM Workspace for use with Retail Task Management Core.
 

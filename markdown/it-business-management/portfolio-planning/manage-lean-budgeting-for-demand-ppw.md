@@ -18,7 +18,7 @@ Capture actual benefits from planned benefits to measure revenue and calculate p
 
 ## Before you begin
 
-A monetary benefit plan exists. For more information, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.md).
+A monetary benefit plan must exist. For more information, see [Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/portfolio-planning/create-and-manage-benefit-plans-ppw.md).
 
 Role required: it\_demand\_manager
 

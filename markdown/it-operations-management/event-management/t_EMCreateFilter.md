@@ -8,7 +8,7 @@ product: Event Management
 classification: event-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Use Scripting Governance Tool
-description: Use the Scripting Governance Tool to provide a single, centralised control for managing scripting access across your ServiceNow AI Platform.
+description: Use the Scripting Governance Tool to provide a single, centralized control for managing scripting access across your ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/use-sgt.html
 release: brazil
@@ -13,15 +13,15 @@ breadcrumb: [Scripting Governance Tool, Access Management]
 
 # Use Scripting Governance Tool
 
-Use the Scripting Governance Tool to provide a single, centralised control for managing scripting access across your ServiceNow AI Platform.
+Use the Scripting Governance Tool to provide a single, centralized control for managing scripting access across your ServiceNow AI Platform.
 
 ## Before you begin
 
 Role required: security\_admin
 
-**Important:** You must have elevate your role `security_admin`. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
+**Important:** You must elevate your role to `security_admin`. See [Elevate to a privileged role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/t_ElevateToAPrivilegedRole.md).
 
-The Scripting Governance Tool helps you review user scripting governance your ServiceNow AI Platform. The **Conditional Script Writer** group grants scripting permissions to its members via the `snc_required_script_writer_permission` role. Users are added to the group by either an automated assignment or manual configuration. You can manage both of these settings from the Scripting Governance Tool.
+The Scripting Governance Tool helps you review user scripting governance on your ServiceNow AI Platform. The **Conditional Script Writer** group grants scripting permissions to its members through the `snc_required_script_writer_permission` role. Users are added to the group by either an automated assignment or manual configuration. You can manage both of these settings from the Scripting Governance Tool.
 
 ## Procedure
 
@@ -43,7 +43,7 @@ Users in Conditional Script Writer Group
 
 </td><td>
 
-Displays the number of users in the **Conditional Script Writer** group. These users are granted the `snc_required_script_writer_permission` until removed from the group.**Note:** The Conditional Script Writer group can no longer be selected as the assignment group on any task or incident based — through the user interface with the base system configuration.
+Displays the number of users in the **Conditional Script Writer** group. These users are granted the `snc_required_script_writer_permission` role until removed from the group.**Note:** The Conditional Script Writer group can no longer be selected as the assignment group on any task or incident based — through the user interface with the base system configuration.
 
 </td></tr><tr><td>
 
@@ -51,7 +51,9 @@ Auto-assignment
 
 </td><td>
 
-Auto-assignment assigns new users to the **Conditional Script Writer** group if the users are `internal users` and has one functional role. You can select the slider to de-activate.**Note:** It is recommended to turn off auto-assignment and take control of who is added to the **Conditional Script Writer** group. Security administrators \(users with the `security_admin` role\) should decide who belongs to this group, because membership determines who on your ServiceNow AI Platform instance has access to scripting.
+Auto-assignment assigns new users to the **Conditional Script Writer** group if the users are `internal users` and have one functional role. To turn off auto-assignment, select the toggle switch.**Note:** Disable auto-assignment and scan for users who should not be blocked from scripting on the ServiceNow AI Platform. Until auto-assignment is disabled, a background job keeps adding existing and new users to the **Conditional Script Writer** group, which assigns the `snc_required_script_writer_permission` role to users.
+
+**Warning:** Turning off auto-assignment can't be undone. After you turn it off, you can't turn it back on.
 
 </td></tr><tr><td>
 
@@ -75,7 +77,7 @@ Groups containing a scripting role
 
 </td><td>
 
-Displays the number of groups that contain a scripting role. By default the **Conditional Script Writer** group has a scripting role.**Note:** It is recommended to manage scripting access exclusively through the **Conditional Script Writer** group. Adding the `snc_required_script_writer_permission` role as a child role to other roles or groups reduces your ability to centrally control who can script on your instance.
+Displays the number of groups that contain a scripting role. By default the **Conditional Script Writer** group has a scripting role.**Note:** Consider managing scripting access exclusively through the **Conditional Script Writer** group. Adding the `snc_required_script_writer_permission` role as a child role to other roles or groups reduces your ability to centrally control who can script on your instance.
 
 </td></tr><tr><td>
 
@@ -83,7 +85,7 @@ Roles containing a scripting role
 
 </td><td>
 
-Displays the number of roles that contain a `snc_required_script_writer_permission` role.**Note:** It is recommended to manage scripting access exclusively through the **Conditional Script Writer** group. Adding the `snc_required_script_writer_permission` role as a child role to other roles or groups reduces your ability to centrally control who can script on your instance.
+Displays the number of roles that contain a `snc_required_script_writer_permission` role.**Note:** Consider managing scripting access exclusively through the **Conditional Script Writer** group. Adding the `snc_required_script_writer_permission` role as a child role to other roles or groups reduces your ability to centrally control who can script on your instance.
 
 </td></tr><tr><td>
 
@@ -99,7 +101,7 @@ View removals
 
 </td><td>
 
-When you schedule for removal of user from the **Conditional Script Writer** group, the details are displayed on the View removals.
+When you schedule the removal of users from the **Conditional Script Writer** group, the details are displayed on the View removals.
 
 </td></tr></tbody>
 </table>    \[Omitted image "scripting-governance-dashboard.png"\] Alt text: Scripting Governance Tool dashboard

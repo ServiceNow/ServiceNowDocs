@@ -1,6 +1,6 @@
 ---
 title: DEX Content Playbook reference
-description: Policies and check definitions are provided by DEX Content Playbook.
+description: Look up details about the policies and check definitions that DEX Content Playbook provides.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/digital-end-user-experience-dex/dex-content-playbook-reference.html
 release: brazil
@@ -14,5 +14,5 @@ breadcrumb: [Reference, Digital End-User Experience, IT Operations Management]
 
 # DEX Content Playbook reference
 
-Policies and check definitions are provided by DEX Content Playbook.
+Look up details about the policies and check definitions that DEX Content Playbook provides.
 

@@ -20,7 +20,7 @@ The configured value is in minutes. A value of zero disables the lifespan limit 
 
 A larger maximum lifespan allows an attacker to persist a stolen session for longer, increasing the scope of a security incident.
 
-To configure the **glide.integrations.active.session.life\_span** propeerty:
+To configure this property:
 
 1.  Navigate to /sys\_properties\_list.do on the instance.
 2.  Ensure the **glide.integrations.active.session.life\_span** property exists and is set to a value greater than `0` and less than or equal to `720` minutes.

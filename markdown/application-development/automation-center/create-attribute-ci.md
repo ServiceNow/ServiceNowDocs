@@ -28,7 +28,11 @@ When data is sent from ServiceNow RPA and flows or any third-party vendor, the c
 
 ## Procedure
 
-1.  2.  3.  On the **Lists** tab, under **Administration**, select **Automation Attributes**.
+1.  Navigate to **All** &gt; **Automation Center** &gt; **Automation center Home**.
+
+2.  Select the list icon \(\[Omitted image "autocenter-list-icon.png"\] Alt text: List icon.\).
+
+3.  On the **Lists** tab, under **Administration**, select **Automation Attributes**.
 
 4.  Select an automation attribute that you want to update, and then select **Edit**.
 

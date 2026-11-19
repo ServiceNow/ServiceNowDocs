@@ -47,7 +47,7 @@ Users
 
 </th></tr></thead><tbody><tr><td>
 
-HR profile and Employee profile data models capture generic details of an employee, while Healthcare Professional data model stores confidential data pertaining to a healthcare professional, such as medical degree and employment history, professional liability insurance details, hospital affiliations, and payer enrollments details. The Healthcare Professional Profile data model enables your organization to access, track, update healthcare profile information throughout the period of employment of the healthcare professional. Healthcare professional profile records are stored confidentially and are not publicly viewable.
+HR profile and Employee profile data models capture generic details of an employee. The Healthcare Professional data model stores confidential data about healthcare professional, such as medical degree and employment history, professional liability insurance details, hospital affiliations, and payer enrollments details. The Healthcare Professional Profile data model enables your organization to access, track, update healthcare profile information throughout the period of employment of the healthcare professional. Healthcare professional profile records are stored confidentially and are not publicly viewable.
 
 </td><td>
 
@@ -74,7 +74,7 @@ Healthcare administrator or HR admin
 
 </td></tr><tr><td>
 
-HR services, such as Healthcare Employee Onboarding Journey, Sign Onboarding Disclosures, Collect Employee Information and Validate, Validate Submitted information, and HR tasks are available to use with the HR Service Delivery for Healthcare application.
+HR services are available to use with the HR Service Delivery for Healthcare application. This includes Healthcare Employee Onboarding Journey, Sign Onboarding Disclosures, Collect Employee Information and Validate, Validate Submitted information, and HR tasks.
 
 </td><td>
 

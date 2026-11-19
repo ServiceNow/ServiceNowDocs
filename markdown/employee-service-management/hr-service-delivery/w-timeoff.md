@@ -31,7 +31,7 @@ Request a time off to Workday from Employee Center. For more information, see [R
 
 ## Limitations
 
--   Custom validations that are supported in Workday are not handled in the ServiceNow application. For example, if an organization has a time off plan configured to enter time off quantity in multiples of 2 or 4, such validations are not supported for such time off plans in the ServiceNow application.
+-   Custom validations that are supported in Workday are not handled in the ServiceNow application. For example, if an organization configures a time off quantity in multiples of 2 or 4, the ServiceNow application doesn't perform validations for such configurations.
 -   A maximum of 25 days of leave, including holidays and non-working days, can be applied from the ServiceNow application.
 
 -   **[Time offs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/config-w-daytimeoff.md)**  

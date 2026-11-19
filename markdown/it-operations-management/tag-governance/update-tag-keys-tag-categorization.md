@@ -36,15 +36,15 @@ Role required: tag\_governance\_admin
 
 4.  Under **CI tag keys**, either add a tag key or delete an existing tag key.
 
-<table id="choicetable_dvx_hzd_5fc"><thead><tr><th align="left" id="d748829e139">
+<table id="choicetable_dvx_hzd_5fc"><thead><tr><th align="left" id="d753365e141">
 
 Action
 
-</th><th align="left" id="d748829e142">
+</th><th align="left" id="d753365e144">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d748829e148">
+</th></tr></thead><tbody><tr><td id="d753365e150">
 
 **Add a tag key**
 
@@ -57,7 +57,7 @@ Steps
 5.  Select **Update** to save your changes.
 
 
-</td></tr><tr><td id="d748829e186">
+</td></tr><tr><td id="d753365e188">
 
 **Delete a tag key**
 

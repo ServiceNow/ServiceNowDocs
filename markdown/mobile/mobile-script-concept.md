@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/mobile/mobile-script-concept.ht
 release: brazil
 topic_type: concept
 last_updated: "2026-10-28"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-processminingforitsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -241,7 +241,7 @@ Brazil
 
 -   **Activation information**
 
-Process Mining is available by default. See [Access](https://www.servicenow.com/docs/access?context=activate-po-plugin&family=brazil&ft:locale=en-US) for more information.
+Process Mining is available by default. See [activate po plugin](https://www.servicenow.com/docs/access?context=activate-po-plugin&family=brazil&ft:locale=en-US) for more information.
 
 
 </td></tr></tbody>
@@ -430,7 +430,7 @@ Brazil
 -   See your real processes, not assumptions — automated discovery maps actual workflow paths from audit logs.
 -   Find where work breaks down — bottleneck and root-cause analysis pinpoint stalled approvals and rework.
 
- See [Process Optimization](https://www.servicenow.com/docs/access?context=process-mining&family=brazil&ft:locale=en-US) for more information.
+ See [process mining](https://www.servicenow.com/docs/access?context=process-mining&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)

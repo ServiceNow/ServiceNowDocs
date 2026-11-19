@@ -145,7 +145,7 @@ IAM User
 
 </td><td>
 
-Multi-Factor Authentication \(MFA\) adds an extra layer of authentication assurance beyond traditional credentials. With MFA enabled, users who sign in to the AWS Console must provide their user name and password, and an authentication code from their physical or virtual MFA token. Enable MFA for all accounts that have a console password.
+Multi-Factor Authentication \(MFA\) adds an extra layer of authentication assurance beyond traditional credentials. With MFA enabled, users who sign in to the AWS Console must provide their user name, password, and an authentication code from their physical or virtual MFA token. Enable MFA for all accounts that have a console password.
 
  Enabling MFA provides increased security for console access. The authenticating principal must possess a device that displays a time-sensitive key and have knowledge of a credential.
 
@@ -199,7 +199,7 @@ IAM User
 
 </td><td>
 
-Access keys consist of an access key ID and secret access key, which are used to sign programmatic requests that you make to AWS. AWS users need their own access keys to make programmatic calls to AWS from the AWS Command Line Interface \(AWS CLI\), Tools for Windows PowerShell, the AWS SDKs, or direct HTTP calls using the APIs for individual AWS services. Rotate all access keys regularly.
+Access keys consist of an access key ID and secret access key, which are used to sign programmatic requests that you make to AWS. AWS users need their own access keys to make programmatic calls to AWS. These calls can be made from the AWS Command Line Interface \(AWS CLI\), Tools for Windows PowerShell, the AWS SDKs, or direct HTTP calls using individual service APIs. Rotate all access keys regularly.
 
  Rotating access keys will reduce the window of opportunity for an access key that is associated with a compromised or terminated account to be used.
 

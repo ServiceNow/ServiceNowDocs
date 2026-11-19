@@ -18,7 +18,8 @@ Create problem records for LEAP from available incident clusters, also known as 
 
 ## Before you begin
 
-Role required: LEAP admin
+-   Plugin required: Problem Management for Service Operations Workspace
+-   Role required: LEAP admin
 
 ## About this task
 

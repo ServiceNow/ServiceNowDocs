@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/field-service-management/r\_Pro
 release: brazil
 topic_type: reference
 last_updated: "2026-10-23"
-reading_time_minutes: 23
+reading_time_minutes: 24
 breadcrumb: [Components installed, Reference, Field Service Management]
 ---
 
@@ -124,7 +124,7 @@ work.management.allow.auto.timecard
 
 </td><td>
 
-Automatically create a time card for a work order task when the task is . Every time the task is resumed, the time taken to work on the task is recorded in the time card. The **Actual Work Duration** field captures the cumulative amount of time worked on the task.-   Type: true/false
+Automatically create time worked records for a work order task when work on the task starts. Every time the task is resumed, the time taken to work on the task is recorded in the time card. The **Actual Work Duration** field captures the cumulative amount of time worked on the task.-   Type: true/false
 -   Default value: false
 -   Location: **Field Service** &gt; **Administration** &gt; **Properties**
 
@@ -134,7 +134,7 @@ work.management.allow.travel.task.timecard
 
 </td><td>
 
-Enables recording the amount of time an agent spent to execute a work order task. The time card is generated when an agent clicks **Start work**.-   Type: true/false
+Enables recording the amount of time an agent spent to execute a work order task. The time card is generated when an agent clicks **Start work**. When this property and**work.management.allow.auto.timecard** are both enabled, time cards are created automatically and capture the duration of the work on the task, including the task's travel time.-   Type: true/false
 -   Default value: false
 -   Location: System Properties list \[sys\_properties\] table
 
@@ -422,7 +422,7 @@ sn\_fsm\_shift\_schdl.break\_buffer\_minutes
 
 Number of minutes of buffer time allowed around break windows.-   Type: Integer
 -   Default value: 0
--   Allowed values: any positive integer — minutes of flexibility added to each side of the break window slot \(for example, a value of 5 expands the slot by 5 minutes on each side\)
+-   Allowed values: any positive integer. The value specifies the number of minutes added to each side of the break window slot \(for example, a value of 5 adds 5 minutes to each side\).
 -   Location: System Properties list \[sys\_properties\] table
 
 </td></tr><tr><td>
@@ -1168,7 +1168,7 @@ work.management.enable.resource.time.indicator
 
 </td><td>
 
-Controls time zone display for work order task. When set to "true", date time fields show on record page forms, task assignment confirmation forms and the time indicator in Dispatcher Workspace is segmented and corresponds with the technician's time zone.
+Controls time zone display for work order task. When set to "true", date time fields show on record page forms and task assignment confirmation forms. The time indicator in Dispatcher Workspace is segmented and corresponds with the technician's time zone.
 
  -   Type: true/ false
 -   Default value: false
@@ -1272,6 +1272,16 @@ sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.calendar\_display\_time\_format
 
 Sets the time format for the Dispatcher Workspace calendar, including the stacked time zone row headers. The default hides seconds. The user's platform time format is not changed.-   Type: string
 -   Default value: HH:mm
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_parts\_src.auto\_create\_transfer\_orders
+
+</td><td>
+
+Determines whether the system automatically sources the unsourced part requirements of a work order task when the task is assigned to a field agent. When set to true, the system checks the active preferred stockrooms of type **Source** or **Both** for the task's assignment group, in their configured order. It uses the first stockroom that meets any model condition and has enough available stock, including substitute models if the part requirement allows them. The system then creates draft transfer order lines from that stockroom to the field agent's **Field Agent** stockroom. Individually tracked parts get one transfer order line for each unit. Other parts get one line for the full quantity. The system doesn't source parts if the agent has no **Field Agent** stockroom. If no preferred stockroom has enough stock, the system skips the part requirement and it stays open for manual sourcing. When set to false, all part sourcing is manual.-   Type: true/ false
+-   Default value: false
 -   Location: System Properties list \[sys\_properties\] table
 
 </td></tr></tbody>

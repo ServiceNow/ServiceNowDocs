@@ -196,5 +196,5 @@ SELECT  workdayID, businessProcessType, processHistory{process, cf_CF_IS_Subproc
 
 The data is now completely imported to your process Mining instance. You can now create a project using this data to analyze improve your processes.
 
-For information on creating a project, see [Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/create-project.md). For information on managing an audit table, see [Managing an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/managing-audit-table.md).
+For information on creating a project, see [Create a project in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-project.md). For information on managing an audit table, see [Managing an audit table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/process-mining/managing-audit-table.md).
 
