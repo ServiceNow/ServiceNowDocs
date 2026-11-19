@@ -1,25 +1,25 @@
 ---
 title: Recommendations for your AI assets
-description: Recommendations for AI assets are automatically generated for you to review and act on.
+description: Recommendations for AI assets are automatically generated in Super Intelligence Control Tower for you to review and act on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/recommendations-aisteward-newexperience.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-17"
 reading_time_minutes: 2
 keywords: [recommendation, Top action items, asset record]
-breadcrumb: [Reviewing AI asset status, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reviewing AI asset status, Working with AI asset records, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Recommendations for your AI assets
 
-Recommendations for AI assets are automatically generated for you to review and act on.
+Recommendations for AI assets are automatically generated in Super Intelligence Control Tower for you to review and act on.
 
 ## Overview of recommendations
 
 Recommendations are automatically generated so that you can identify and address issues before they escalate, without the need for manual monitoring. You can view these recommendations only if you have the AI steward \[sn\_ai\_governance.ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role.
 
-AI Control Tower checks for a range of conditions on your assets on a schedule that varies by recommendation type, giving you a current view of which assets need attention and why.
+Control Tower checks for a range of conditions on your assets on a schedule that varies by recommendation type, giving you a current view of which assets need attention and why.
 
 Recommendations include, but aren't limited to, the following:
 
@@ -34,7 +34,7 @@ For the complete picture of how recommendations are generated, prioritized, and 
 
 You can view recommendations in the following locations:
 
--   AI Control Tower Home page: In the **Top action items** widget.
+-   Home page: In the **Top action items** widget.
 -   Asset record page: In the **Needs attention** section on the **Overview** tab, under the **Recommendations** sub-tab. Select **See all Recommendations in Activity Center** to open the full list.
 -   Activity Center: On the **Recommendations** page.
 

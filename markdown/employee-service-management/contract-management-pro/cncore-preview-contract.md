@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -51,15 +51,15 @@ When multiple contract documents are attached, a separate contract repository re
 
 6.  View the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d790242e125">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d796364e125">
 
 Choice
 
-</th><th align="left" id="d790242e128">
+</th><th align="left" id="d796364e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d790242e134">
+</th></tr></thead><tbody><tr><td id="d796364e134">
 
 **When internal storage is configured**
 
@@ -70,7 +70,7 @@ Steps
 3.  Select download icon to download the document.
 
 
-</td></tr><tr><td id="d790242e155">
+</td></tr><tr><td id="d796364e155">
 
 **When external storage is configured**
 

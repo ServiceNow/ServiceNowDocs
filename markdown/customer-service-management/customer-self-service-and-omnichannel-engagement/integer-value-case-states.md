@@ -7,7 +7,7 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Portal Case Cards widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
@@ -32,4 +32,9 @@ Role required: sp\_admin
 ## Result
 
 The Value column on the Choices page displays the integer values of all the states related to a case.
+
+**Related topics**  
+
+
+[Default highlight color for different case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/portal-case-cards-widget-default-color.md)
 

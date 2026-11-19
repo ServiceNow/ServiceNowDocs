@@ -1,26 +1,27 @@
 ---
 title: Process Mining release notes
-description: The ServiceNow Process Mining application helps analysts and process owners quickly analyze and optimize their business processes.The Brazil release delivers meter-based usage guardrails and a redesigned evaluation project experience so you can control costs and explore Process Mining risk-free. This release also adds automatic content packs and template management capabilities, deeper playbook analytics, and quick starters for transition and finding filters.
+description: The ServiceNow Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Australia release.The ServiceNow Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/process-optimization-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # Process Mining release notes
 
-The ServiceNow® Process Mining application helps analysts and process owners quickly analyze and optimize their business processes.
+The ServiceNow® Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Australia release.
 
 ## About Process Mining
 
--   See your real processes, not assumptions — automated discovery maps actual workflow paths from audit logs.
--   Find where work breaks down — bottleneck and root-cause analysis pinpoint stalled approvals and rework.
--   Accelerate value with proven templates — best-practice content packs give you ready-made starting points.
--   Prove every change works — side-by-side comparisons confirm improvements and catch regressions.
--   Govern humans and AI, together — trace performance across people, automations, and AI agents in one view.
+-   Use parallel processing for playbook data.
+-   Benefit from the new use cases through the enhanced process step filter and rule-based findings.
+-   Mine Agentic AI logs.
+-   Easily identify your improvement opportunities through four new automated findings.
+-   Take advantage of Process Mining and Task Mining integration.
+-   Filter the data from the parent and child tables in the multidimensional projects.
 
 See [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/process-mining.md) for more information.
 
@@ -28,91 +29,79 @@ See [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
 -   **Activation information**
 
-    Process Mining is available by default. For details, see [Access Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activate-po-plugin.md).
+    Process Mining is available by default. For details, see [Activating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/activating-process-mining.md).
 
 
 **Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/analytics-intel-report-rn-landing.md)
 
-## Brazil Early Availability
+## Australia
 
-The Brazil release delivers meter-based usage guardrails and a redesigned evaluation project experience so you can control costs and explore Process Mining risk-free. This release also adds automatic content packs and template management capabilities, deeper playbook analytics, and quick starters for transition and finding filters.
+The ServiceNow® Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Australia release.
 
 ### What's new
 
--   **[Meter-based usage guardrails and controls introduced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/meter-based-guardrails.md)**
+-   **[Parallel processing for playbook data introduced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/export-to-playbook.md)**
 
-    Configure table-level guardrails and mandatory filters to control entitlement usage and prevent unexpected overage charges. Projects with configured guardrails are automatically validated, capped, or flagged before mining starts.
+    Analyze ServiceNow Playbooks, including their stages and individual activities using Process Mining. This capability enables Playbook authors and business process owners to do performance evaluations and optimize Playbooks.
 
--   **[Process Mining for Playbooks enhanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/playbook-project.md)**
 
-    Playbook projects are enhanced:
+-   **[Process Step filter \(Previously Transition filter\) &amp; Rule-based Findings enhanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/rule-based-builder.md)**
 
-    -   to configure and analyze breakdowns based on the trigger record of a playbook
-    -   to filter playbook executions by recency to focus on current performance trends
-    -   to view execution-time histograms for each activity and phase to identify performance patterns and outliers
-    -   to compare playbook variants on overall and per-activity efficiency
--   **[Evaluation project experience improved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/evaluate-pm.md)**
+    Unlock new use cases and drive better process optimization outcomes through the enhanced process step filter and rule-based findings.
 
-    Explore evaluation projects directly from the Process Mining workspace landing page, with guided onboarding that highlights key areas of the interface and suggests where to start exploring. Human Resources and Security Operations users get personal evaluation projects scoped to their own data access, so no administrator impersonation is required.
+-   **[Intent and Activity analysis available with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/now-assist.md)**
 
--   **[AI-assisted process configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/gen_process_config_ai.md)**
+    Efficiently summarize \(human\) agent tasks and their sequence in relation to problem types so you can pinpoint areas for improvement and take concrete actions to optimize your processes.
 
-    Generate process configuration field values with AI directly from the process configuration header, then review, select, and confirm the suggested fields before applying them. Map states to stakeholder responsibilities with AI in the Process details step.
+-   **[Mine Agentic AI logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/set-objectives.md)**
 
--   **Launch Process Mining from any ServiceNow workspace**
+    Create a Process Mining project on Agentic AI data logs by selecting the designated source from a readily available template.
 
-    Create a Process Mining project directly from a list of records from any ServiceNow workspace.
+-   **[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/task-mining.md)**
 
--   **[Project sharing with edit rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-project.md)**
+    Gain insights on the time the workstation users spend and how they accomplish tasks by analyzing their activities. Uncover inefficiencies, standardize best practices, and identify automation opportunities. You can create a Task Mining project from Opportunity details page and Analyst workbench of Process Mining.
 
-    Share a project with other users as **Can view** or **Can edit**. Users with edit rights can modify the project definition and perform mining, but can't share or delete the project.
+-   **[New automated findings introduced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/automated-findings.md)**
 
--   **Contextual Task Mining project names**
+    Use the following automated findings to identify improvement opportunities where records follow specific patterns:
 
-    Task Mining projects launched from Process Mining include the triggering node or improvement opportunity name in the project name, making it easier to distinguish between multiple task mining projects.
+    -   Extreme duration \(Node\): Identifies patterns where records stay in a step for a significantly longer duration than usual
+    -   High touchpoints \(Node\): Identifies patterns where a group of records in a step gets updated more often compared to another group to progress to any next step.
+    -   Extreme touchpoints \(Node\): Identifies patterns where a step requires unusually large number of record updates than the normal range to progress to any next step.
+    -   Slow duration \(Node\): Identifies patterns where a group of records stays longer in a step than the average duration of another group.
+-   **[Multidimensional projects filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/filter-project.md)**
 
--   **Template creation and management introduced**
+    Make analysis easier by filtering multidimensional projects based on child breakdowns and variants as a substitute for filtering on child attributes.
 
-    Create multiple templates per table to support several distinct use cases instead of one generic configuration.
+-   **[Evaluation project for security operations available](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/evaluation-security.md)**
 
--   **Preset filters for transitions introduced**
+    Try out an evaluation project for security incidents, which can provide improvement opportunities based on assignment group changes, time analysis, priority escalations, and automated indicators such as repeated states and assignment groups. You can target a maximum of 3.6K records that have been closed in the last seven days.
 
-    Create filters from the available filters after selecting the Select quick starter from Process steps in Analyst workbench. This makes the process of creating filters easier and faster.
+-   **[Introduced views to the Platform Analytics workspace for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analyst-workbench-dashboard.md)**
 
--   **[Three new system properties added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/components-installed.md)**
+    Display specific activity definitions within the Platform Analytics workspace for Process Mining using views. When working with graphs that contain multiple activity definitions, views help filter the map to show only activities relevant to the problem being analyzed.
 
-    The following three system properties are added:
+-   **[Multidimensional maps are supported on the Opportunity details page and Platform Analytics components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/opportunity-details.md)**
 
-    -   promin.metered\_usage.allow\_unrestricted
-    -   promin.metered\_usage.warning\_limit
-    -   promin.workspace.hide\_from\_navigation
+    Quickly analyze process maps with multiple tables through multidimensional maps on the Opportunity details page and Platform Analytics component of Process Mining.
+
 
 ### What's changed
 
--   **Content packs availability changed**
+-   **[Automated finding names updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/automated-findings.md)**
 
-    Access content packs for the following automatically when the corresponding application plugin is active and the associated table is present:
+    The following automated finding names have been updated to include "Transition" in the name:
 
-    -   IT Service Management
-    -   Customer Service Management
-    -   HR Service Delivery
-    -   Strategic Portfolio Management
-    -   Security Incident Response
-    -   Field Service Management
+    -   Slow duration \(Transition\)
+    -   Extreme duration \(Transition\)
+-   **[Role names changed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/components-installed.md)**
+
+    Role names in Process Mining that previously included "optimization" have been updated to use the term "mining" instead. For example, the sn\_process\_optimization\_admin role has been renamed sn\_process\_mining\_admin.
+
 
 ### What's deprecated or removed
 
--   **Two APIs deprecated**
+You no longer require the now.assist.creator role to access Now Assist features in the Creator Pro Plus package. However, you must enable the relevant Process Mining skill, which serves as the necessary prerequisite. Additionally, you should have appropriate access to the project.
 
-    The following two APIs are deprecated:
-
-    -   promin.api.allow\_no\_role\_mining
-    -   promin.api.auto\_share\_project\_with\_creator
-
-### Plugin information
-
--   **Renamed or changed plugins**
-
-    Now Assist for Process Mining: Renamed to ServiceNow Otto for Process Mining.
-
+Automation Discovery is deprecated. It will be hidden and no longer installed on new instances but will continue to be supported in the Australia release.
 

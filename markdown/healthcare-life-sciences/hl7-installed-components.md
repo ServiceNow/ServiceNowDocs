@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hl7-installed-components.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 1
 keywords: [installed components, HL7 tables, HL7 roles]
 breadcrumb: [HL7 v2.x Integration, Healthcare Integrations, Healthcare and Life Sciences]
@@ -14,6 +14,12 @@ breadcrumb: [HL7 v2.x Integration, Healthcare Integrations, Healthcare and Life 
 # Components installed with HL7 v2.x Integration
 
 Several types of components are installed with activation of the HL7 v2.x Native Integration plugin, including tables, user roles, and Flow Designer actions.
+
+## Plugin details
+
+Plugin name: HL7 v2.x Integration
+
+Scope name: `sn_hl7_v2`
 
 ## Roles installed
 

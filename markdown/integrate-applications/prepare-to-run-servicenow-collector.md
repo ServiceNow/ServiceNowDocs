@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prepare-to-run-servicenow-collector.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
@@ -34,7 +34,9 @@ The collector uses Basic Authentication with username and password. ServiceNow d
 
     2.  Complete the required fields.
 
-    3.  Select **Save**.
+    3.  Set the **​Identity type**​ as **Machine**​​​.
+
+    4.  Select **Save**.
 
 4.  Set a password for the user.
 

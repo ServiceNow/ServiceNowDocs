@@ -7,7 +7,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-01"
 reading_time_minutes: 1
 breadcrumb: [Complete a playbook activity, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -20,21 +20,16 @@ The fields available in the Review and close state depend on the playbook associ
 
 ## Closure comments
 
-Capture resolution details and any follow-up information related to the issue.
+Record a final summary before the issue is closed.
 
 |Field|Description|
 |-----|-----------|
-|**Actual end date**|The date and time when the issue was resolved.|
-|**Close notes**|Information about the issue resolution, lessons learned, improvements made, or follow-up actions.|
+|**Closure comments**|A summary of how the issue was resolved.|
 
 **Parent Topic:**[Complete a playbook activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.md)
 
 **Related topics**  
 
-
-[New state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/new-state-fields.md)
-
-[Analyze state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/analyze-state-fields.md)
 
 [Respond state fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/respond-state-fields.md)
 

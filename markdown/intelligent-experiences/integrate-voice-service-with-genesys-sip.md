@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/integrate-voice-service-with-genesys-sip.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-04"
 reading_time_minutes: 3
 keywords: [Genesys, Genesys Cloud, voice assistant, voice integration, CCaaS, telephony provider, AI voice agent, SIP]
-breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Integrating voice assistant with CCaaS provider, Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Integrate ServiceNow voice assistant with Genesys Cloud service \(SIP\)

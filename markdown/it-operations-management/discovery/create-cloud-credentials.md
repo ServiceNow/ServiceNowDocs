@@ -8,7 +8,7 @@ product: Discovery
 classification: discovery
 topic_type: task
 last_updated: "2026-04-28"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [ITOM, user roles, Now Assist]
 breadcrumb: [ITOM Configuration Console, Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -128,5 +128,5 @@ Enter the sequence in which Discovery tries this credential when it attempts to 
 **Related topics**  
 
 
-[Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/credentials-getting-started.md)
+[bundle-psec.credentials-getting-started]
 

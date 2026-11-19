@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Dispute Rules Content Pack for Visa, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -18,10 +18,12 @@ Learn how the Dispute Rules Content Pack for Visa application leverages question
 
 ## Overview of the application
 
-The Dispute Rules Content Pack for Visa application is a content pack that extends the Financial Services Card Operations application with Visa-specific dispute rule configuration. The Dispute Rules Content Pack for Visa application:
+The Dispute Rules Content Pack for Visa application:
 
--   Supplies decision-table logic that maps responses from the dispute intake questionnaire \(provided by the Financial Services Card Operations application\) to Visa dispute categories and reason codes.
+-   Provides an intake questionnaire for Visa card related disputes and guides on the dispute reason code for the disputed transactions.
 -   Determines eligibility for the disputed transactions based on the **Visa Core Rules and Visa Product and Service Rules**.
+
+The Dispute Rules Content Pack for Visa contains the latest chargeback eligibility rules as of the April store release.
 
 ## Key benefits
 

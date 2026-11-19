@@ -7,7 +7,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-20"
 reading_time_minutes: 4
 keywords: [related tables, extended tables, dot-walking]
 breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
@@ -91,12 +91,12 @@ Watch this five-minute video to learn how to use dot walking to include data fro
 
 Dot-walking provides access to fields on extended, or related, tables, enabling you to report on fields from those tables.
 
-When creating or editing a report, you can access references on extended tables from the Group by/Stack by, column/row, or Trend by fields on the Configure tab. The Add Sort option also enables you to configure the sort order of applicable reference fields on extended tables. Tables that reference other tables are denoted with an arrow \(\[Omitted image "extendedTableArrow.png"\] Alt text:\) icon.
+When creating or editing a report, you can access references on extended tables from the Group by/Stack by, column/row, or Trend by fields on the Configure tab. The Add Sort option also enables you to configure the sort order of applicable reference fields on extended tables. Tables that reference other tables are denoted with an arrow \(\[Omitted image "extendedTableArrow.png"\] Alt text: Show extended table fields arrow\) icon.
 
 Dot-walking references a field by building a chain of field names separated by dots \(periods\). For example, **incident.assigned\_to.company** references the company of the user assigned to an incident. The recommended limit for chain length is three levels.
 
 1.  In a report on the incident table, select **Additional Group By** on the Configure tab.
-2.  Select Assigned to \[+\] and then the structure icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text:\).
+2.  Select Assigned to \[+\] and then the structure icon \(\[Omitted image "Form\_ShowReportStructureIcon.png"\] Alt text: Report structure icon\).
 
     You now see the related fields in the user table.
 

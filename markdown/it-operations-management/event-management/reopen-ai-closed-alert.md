@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-11-02"
 reading_time_minutes: 1
 keywords: [Dashboard, metrics, AI specialist, MTTR, performance]
-breadcrumb: [Manage alert states in Express List, Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Manage alert states in Express List, Assign and manage alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Reopen alert closed by AI Specialist
@@ -45,4 +45,6 @@ When the AI Specialist classifies an alert as noise, it closes the alert automat
 
     **Note:** Select **Reopen**, not **Open**. Reopen is the state transition the system watches for to trigger the classifier bypass and full investigation pipeline. Setting the state to **Open** does not register as an operator override of the AI close, so the alert would not be guaranteed the bypass-and-reinvestigate treatment.
 
+
+**Parent Topic:**[Manage alert states in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/manage-alert-states-in-express-list.md)
 

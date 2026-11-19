@@ -7,7 +7,7 @@ release: australia
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [SOAP web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
@@ -31,11 +31,7 @@ Role required: admin
 
 For example, when a related list is created for the incident table called `u_custom_comments`:
 
-\[Omitted image "HierarchicalIncident.png"\] Alt text:
-
-And `u_comment_items` is created as a related list for `u_custom_comments`:
-
-\[Omitted image "HierarchicalCustomComments.png"\] Alt text:
+And `u_comment_items` is created as a related list for `u_custom_comments`
 
 -   **[WSDL Schema with related records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/web-services/r_WSDLSchemaWithRelatedRecords.md)**  
 When a WSDL for the target Incident table is requested with an additional parameter of **hierarchical=true**, the WSDL schema for the Insert function will reflect available related records that may participate in the hierarchical data payload.

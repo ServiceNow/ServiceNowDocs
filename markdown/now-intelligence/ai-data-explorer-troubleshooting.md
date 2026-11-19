@@ -24,7 +24,7 @@ Go to **Query Generation** &gt; **Administration** &gt; **Logs** to inspect fail
 
 |Symptom|Likely cause|Fix|
 |-------|------------|---|
-|"Unable to understand" response|System cannot find a matching table|Improve entity description; rephrase with table name; verify AI search is running; verify that all Indexed Sources are fully processed.|
+|"Unable to understand" response|System cannot find a matching table|Improve entity description; rephrase with table name; verify AI search is running; verify that all Indexed Sources are fully processed. If your organization uses different terms than the ServiceNow AI Platform|
 |Wrong table selected|Similar table names, no disambiguation|Add semantic usage instructions to differentiate.|
 |Wrong table selected \(permissions\)|User lacks read access to the intended table or fields.|Verify and grant table and field read ACLs for the intended data.|
 |"Error accessing table data" or "Scope access not granted" response|Some data is in protected application scopes that AI Data Explorer cannot access.|Create ACLs granting access to the scope for AI Data Explorer. Approve the subsequently generated Restricted Caller Access \(RCA\) records. For more information, see [Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/enable-aide-secure-scope-apps.md).|

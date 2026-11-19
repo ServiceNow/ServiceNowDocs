@@ -43,11 +43,13 @@ The **DCGEnrichLauncher** script include activates the enrichment review experie
 
 2.  Navigate to **All** &gt; **System Definition** &gt; **Script Includes**.
 
-3.  Filter the list by **Application** = `ServiceNow Data Catalog`, then open **DCGEnrichLauncher**.
+3.  Filter the list by **Application** = `ServiceNow Data Catalog`, and **Name** = `DCGEnrichLauncher`.
 
-    \[Omitted image "dc-bulk-enrich-find-script.png"\] Alt text: Script Includes list filtered by ServiceNow Data Catalog application, showing DCGEnrichLauncher.
+    \[Omitted image "dc-bulk-enrich-find-script.png"\] Alt text: Script Includes list filtered by Application set to ServiceNow Data Catalog and Name set to DCGEnrichLauncher.
 
-4.  Right-click the form header and select **Insert and Stay** to add **DCGEnrichLauncher** to Global application scope.
+4.  Open **DCGEnrichLauncher**.
+
+5.  Right-click the form header and select **Insert and Stay** to add **DCGEnrichLauncher** to Global application scope.
 
     \[Omitted image "dc-bulk-enrich-add-script.png"\] Alt text: DCGEnrichLauncher script include added to the Global application scope.
 

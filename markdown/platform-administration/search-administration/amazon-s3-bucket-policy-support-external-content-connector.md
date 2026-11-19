@@ -1,6 +1,6 @@
 ---
 title: Amazon S3 bucket policy elements supported by the external content connector
-description: In a standard user permission crawl, the Amazon S3 connector evaluates only the policy elements listed here. It doesn't index content items with policy statements that use other elements.
+description: In a standard user permissions crawl, the Amazon S3 connector evaluates only the policy elements listed here. It doesn't index content items with policy statements that use other elements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/amazon-s3-bucket-policy-support-external-content-connector.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Amazon S3 external content connector, Configure, External Content C
 
 # Amazon S3 bucket policy elements supported by the external content connector
 
-In a standard user permission crawl, the Amazon S3 connector evaluates only the policy elements listed here. It doesn't index content items with policy statements that use other elements.
+In a standard user permissions crawl, the Amazon S3 connector evaluates only the policy elements listed here. It doesn't index content items with policy statements that use other elements.
 
 ## Supported actions and effects
 

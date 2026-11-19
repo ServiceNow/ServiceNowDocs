@@ -7,9 +7,9 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-keywords: [ServiceNow Otto, agentic AI, generative AI, Gen AI]
+keywords: [ServiceNow Otto, Agentic AI, generative AI, Gen AI]
 breadcrumb: [DEX, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
@@ -17,11 +17,11 @@ breadcrumb: [DEX, Use agentic AI in IT Service Management, ServiceNow Otto for I
 
 Use the Digital End-User Experience \(DEX\) issue diagnosis and resolution agentic workflow from the ServiceNow Otto panel to diagnose and resolve common issues on DEX monitored devices.
 
-## DEX issue diagnosis and resolution agentic workflow capabilities
+## DEX issue diagnosis and resolution agentic workflow overview
 
 Using the DEX issue diagnosis and resolution agentic workflow:
 
--   Get automated diagnoses for incidents on DEX monitored end-user devices. Root cause analysis is generated based on sources such as device health check data from 24 hours before the incident to incident time. Similar past incidents are also used. With the integration of Zoom specific diagnostics, you can diagnose Zoom call quality issues by correlating device, network, and application data.
+-   Get automated diagnoses for incidents on DEX monitored end-user devices. Root cause analysis is generated based on sources like device health check data from 24 hours before the incident to incident time and similar past incidents. With the integration of Zoom specific diagnostics, you can diagnose Zoom call quality issues by correlating device, network, and application data.
 -   Get resolution plans for detected device issues based on remedial actions and self-help instructions, past incident resolutions, and Knowledge Base articles.
 -   Provide approval and have the resolution summary automatically stamped to the Work notes of an incident record.
 
@@ -36,8 +36,8 @@ To access the DEX issue diagnosis and resolution agentic workflow, make sure tha
 
 To use the DEX issue diagnosis and resolution agentic workflow, you must have one of the following role combinations:
 
--   sn\_dex.service\_desk\_user and itil
--   sn\_dex.engineer and itil
+-   sn\_dex.service\_desk\_user and ITIL
+-   sn\_dex.engineer and ITIL
 
 ## Additional requirements to access the agentic workflow
 
@@ -85,7 +85,7 @@ DEX resolution plan AI agent
 
 </td><td>
 
-Collects DEX resolutions that include remedial actions and self-help instructions, past incident resolutions, and Knowledge Base articles. It then generates a resolution plan with actionable steps to resolve the incident and prompts for confirmation about updating the resolution in the Work notes field of the incident record.If no resolution is found for an incident, the agent returns a message stating so. The incident then requires manual investigation and resolution.
+Collects DEX resolutions that include remedial actions and self-help instructions, past incident resolutions, and Knowledge Base articles. It then generates a resolution plan with actionable steps to resolve the incident and prompts for confirmation about updating the resolution in the Work notes field of the incident record.If no resolution is found for an incident, the agent returns a message stating so. The incident would then require manual investigation and resolution.
 
 </td></tr></tbody>
 </table>## Generating an incident diagnosis and resolution plan in the Service Operations Workspace
@@ -93,10 +93,10 @@ Collects DEX resolutions that include remedial actions and self-help instruction
 Service desk agents can use the agentic workflow to generate incident diagnosis and resolution plan from the Service Operations Workspace.
 
 1.  In the Service Operations Workspace, open the incident record from the Incidents list.
-2.  Select the ServiceNow Otto icon \[Omitted image "now-assist-sn-otto-icon.png"\] Alt text: to open the panel.
-3.  Enter a prompt that includes the phrase "diagnose and resolve". For example, Diagnose and resolve this incident.
+2.  Select the ServiceNow Otto icon \[Omitted image "now-assist-sn-otto-icon.png"\] Alt text: Now Assist icon to open the panel.
+3.  Type your prompt that includes the phrase "diagnose and resolve". For example, Diagnose and resolve this incident.
 
-After the resolution plan is generated, you can execute it directly from the **Investigation** tab of the incident record. For more information, see .
+After the resolution plan is generated, you can execute it directly from the Investigation tab of the incident record. For more information, see .
 
 ## Generating an incident diagnosis and resolution plan in the ServiceNow AI Agent Studio
 
@@ -108,7 +108,7 @@ In the agentic workflow record:
 2.  In the Define user access screen, review or add roles that can access the use case, and then select **Continue**.
 3.  In the Define data access screen, review the user identity for the AI agent, make updates if necessary, and then select **Continue**.
 4.  In the Define trigger screen, make updates if necessary, and then select **Continue**. For more information about defining triggers, see [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-use-case-ai-agents.md).
-5.  In the Select display screen, choose where to display the agentic workflow output, and then select **Save and test**.
+5.  In the Select display screen, choose where you want the agentic workflow output to be displayed, and then select **Save and test**.
 6.  In the Test details screen, enter your prompt in the **Task** field, and then select **Continue to Test Chat Response**.
 
     Example prompt: Diagnose and resolve *incident number*.

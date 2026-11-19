@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Reference, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -384,18 +384,6 @@ pa\_data\_collector or pa\_power\_user
 
 </td></tr><tr><td>
 
-Bucket group mappings
-
-</td><td>
-
-CRUD
-
-</td><td>
-
-pa\_power\_user
-
-</td></tr><tr><td>
-
 Bucket groups
 
 </td><td>
@@ -405,18 +393,6 @@ CRUD
 </td><td>
 
 pa\_data\_collector or pa\_power\_user
-
-</td></tr><tr><td>
-
-Calculated fields
-
-</td><td>
-
-CRUD
-
-</td><td>
-
-pa\_data\_collector
 
 </td></tr><tr><td>
 

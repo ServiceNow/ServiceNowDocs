@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -48,44 +48,13 @@ Use the Search Preview UI to diagnose filter configurations that prevent a searc
 
 8.  Elevate to the ais\_high\_security\_admin role:
 
-    1.  Perform the appropriate action for your version of the UI:
+    1.  In the banner frame, select the icon for your account to open the user menu, then select **Elevate role** \(in Next Experience\) or **Elevate Roles** \(in Core UI\).
 
-<table><thead><tr><th>
+        The system displays a checklist of your available privileged roles.
 
-UI version
-
-</th><th>
-
-Action
-
-</th></tr></thead><tbody><tr><td>
-
-Next Experience UI
-
-</td><td>
-
-In the banner frame, select the icon for your account to open the user menu, then select **Elevate role**.
-
-\[Omitted image "elevate-role-polaris-ui.png"\] Alt text: User menu with Elevate role action highlighted in Next Experience UI.
-
-</td></tr><tr><td>
-
-Core UI
-
-</td><td>
-
-In the banner frame, select your name to open the user menu, then select **Elevate Roles**.\[Omitted image "adv-ais-tools-user-menu-before.png"\] Alt text: User menu with Elevate Roles action highlighted in Core UI.
-
-</td></tr></tbody>
-</table>        A dialog box appears, displaying a checklist of your available privileged roles.
-
-        \[Omitted image "elevate-role-dialog-polaris-ui-ais.png"\] Alt text: Dialog box displaying privileged roles in Next Experience UI.
-
-    2.  In the dialog box, select the **ais\_high\_security\_admin** option, then select **Update** \(in Next Experience UI\) or **OK**.
+    2.  In the privileged role checklist, select the **ais\_high\_security\_admin** option, then select **Update** \(in Next Experience UI\) or **OK** \(in Core UI\).
 
         The page reloads and an elevated role indicator appears next to your user name in the user menu. In Next Experience UI, this indicator displays the names of the active privileged roles. In Core UI, the indicator displays the elevated role icon \[Omitted image "icon-elevated-role-ui16.png"\] Alt text:.
-
-        \[Omitted image "elevated-polaris-ui.png"\] Alt text: User menu showing elevated role indicator in Next Experience UI.
 
         **Note:** When the page reloads, any unsaved edits are lost.
 

@@ -7,9 +7,9 @@ release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-19"
 reading_time_minutes: 4
-breadcrumb: [Exploring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [Exploring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Domain separation and Generative AI Controller

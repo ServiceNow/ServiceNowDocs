@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Components installed with Risk Management, Reference, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ Risk Reader\[sn\_risk.reader\]
 
 </td><td>
 
-Along with the inherited permissions, the risk reader has read-only access rights to the Risk application and modules. The risk reader can do the following in the GRC scope:-   Act on issues assigned to them.
+Along with the inherited permissions, the risk reader has read-only access rights to the Risk application and modules. The risk reader can do the following in the GRC scope:-   them.
 -   Have read access to all Indicator templates.
 -   Can act on indicator tasks assigned to them.
 -   Have read-access to indicators.
@@ -44,7 +44,7 @@ The risk reader can do the following in the Risk Management application:
 
 -   Act on the Remediation tasks assigned to them.
 -   Have read-access to risks.
--   Take classic risk assessment.
+-   Take old risk assessment.
 -   Have read-access to risk statement and risk framework.
 -   Perform advanced risk assessment.
 -   Create risk events.
@@ -57,7 +57,6 @@ The risk reader can do the following in the Risk Management application:
 -   sn\_grc.reader
 -   survey\_reader
 -   sn\_rvw\_feedback.reader
--   sn\_risk\_advanced.risk\_asmt\_project\_reader
 -   sn\_risk\_advanced.ara\_reader
 
 </td></tr><tr><td>
@@ -74,7 +73,7 @@ Contains the reader and business user roles in sn\_grc scope, and the reader rol
 -   control objectives
 -   policy exceptions
 
-The risk user can also create risks. The risk user can be assigned risks and has read-only access to the Policy and Compliance Management application and modules. Risk user can do everything that the risk reader can do. The risk user can do the following in the Risk Management application:
+The risk user can also create risks. The risk user can be assigned risks and has read-only access to the Policy and Compliance Management application and modules. Risk user can do everything that the risk reader can do. The risk reader can do the following in the Risk Management application:
 
 -   Work on risk acceptance tasks and remediation tasks.
 -   Create risks.
@@ -90,9 +89,8 @@ The risk user can also create risks. The risk user can be assigned risks and has
 -   survey\_reader
 -   sn\_grc.business\_user
 -   sn\_risk\_advanced.ara\_creator
--   sn\_risk\_advanced.risk\_asmt\_project\_user
--   sn\_risk\_advanced.ara\_approver
 -   sn\_risk\_advanced.ara\_assessor
+-   sn\_risk\_advanced.ara\_approver
 -   sn\_risk\_advanced.quantitative\_risk\_appetite\_reader
 
 </td></tr><tr><td>

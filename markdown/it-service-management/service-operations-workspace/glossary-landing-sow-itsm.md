@@ -1,6 +1,6 @@
 ---
 title: Service Operations Workspace for ITSM glossary
-description: The glossary defines the terms and concepts used in Service Operations Workspace for ITSM.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.Glossary terms are grouped alphabetically.
+description: The glossary defines the terms and concepts used in Service Operations Workspace for ITSM.Glossary terms that begin with the letter ‘A’.Glossary terms that begin with the letter ‘C’.Glossary terms that begin with the letter ‘E’.Glossary terms that begin with the letter ‘I’.Glossary terms that begin with the letter ‘K’.Glossary terms that begin with the letter ‘M’.Glossary terms that begin with the letter ‘P’.Glossary terms that begin with the letter ‘R’.Glossary terms that begin with the letter ‘S’.Glossary terms that begin with the letter ‘T’.Glossary terms that begin with the letter ‘U’.Glossary terms that begin with the letter ‘Z’.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/glossary-landing-sow-itsm.html
 release: australia
@@ -32,7 +32,7 @@ The glossary defines the terms and concepts used in Service Operations Workspace
 
 ## A
 
-Glossary terms are grouped alphabetically.
+Glossary terms that begin with the letter ‘A’.
 
 ### Agent
 
@@ -46,7 +46,7 @@ An adapter that collects CI metrics data for the Investigation tab in Service Op
 
 ## C
 
-Glossary terms are grouped alphabetically.
+Glossary terms that begin with the letter ‘C’.
 
 ### CI Action Framework
 
@@ -62,7 +62,7 @@ In Recommended Actions for ITSM in Service Operations Workspace, a setting that 
 
 ## E
 
-Glossary terms are grouped alphabetically.
+Glossary terms that begin with the letter ‘E’.
 
 ### Entity View Action Mapper
 
@@ -72,7 +72,7 @@ A definition in Service Operations Workspace in which you define a data source t
 
 ## I
 
-Glossary terms are grouped alphabetically.
+Glossary terms that begin with the letter ‘I’.
 
 ### Interaction Controls Component
 
@@ -82,7 +82,7 @@ A component in Service Operations Workspace that enables Contact Center as a Ser
 
 ## K
 
-Glossary terms are grouped alphabetically.
+Glossary terms that begin with the letter ‘K’.
 
 ### Knowledge Feedback Task
 
@@ -92,7 +92,7 @@ A record that is created when an agent selects Report Knowledge Gap in Service O
 
 ## M
 
-Glossary terms are grouped alphabetically.
+Glossary terms that begin with the letter ‘M’.
 
 ### Microsoft Endpoint Configuration Manager
 
@@ -108,7 +108,7 @@ A component in Service Operations Workspace that batch processes multiple record
 
 ## P
 
-Glossary terms are grouped alphabetically.
+Glossary terms that begin with the letter ‘P’.
 
 ### post incident report
 
@@ -122,7 +122,7 @@ An individual ticket, either an incident or a catalog task, that is linked to a 
 
 ## R
 
-Glossary terms are grouped alphabetically.
+Glossary terms that begin with the letter ‘R’.
 
 ### recommendation
 
@@ -146,7 +146,7 @@ In Recommended Actions for ITSM in Service Operations Workspace, a set of condit
 
 ## S
 
-Glossary terms are grouped alphabetically.
+Glossary terms that begin with the letter ‘S’.
 
 ### service desk group
 
@@ -168,7 +168,7 @@ The basic format in which records appear in Service Operations Workspace, with c
 
 ## T
 
-Glossary terms are grouped alphabetically.
+Glossary terms that begin with the letter ‘T’.
 
 ### Tier 1 agent
 
@@ -180,7 +180,7 @@ An agent who does not belong to a service desk group and handles complex or esca
 
 ## U
 
-Glossary terms are grouped alphabetically.
+Glossary terms that begin with the letter ‘U’.
 
 ### universal request
 
@@ -188,7 +188,7 @@ A parent record in Service Operations Workspace that consolidates related primar
 
 ## Z
 
-Glossary terms are grouped alphabetically.
+Glossary terms that begin with the letter ‘Z’.
 
 ### Zero Touch Service Desk
 

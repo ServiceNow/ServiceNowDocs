@@ -7,8 +7,8 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-03-12"
+reading_time_minutes: 7
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -64,6 +64,8 @@ Automation credentials are secured by encrypting them in the instance with the M
 [MID Server command audit log]()
 
 [Add SSL certificates for the MID Server]()
+
+[Specify an external TrustStore for the MID Server]()
 
 [MID Server SSH cryptographic algorithms]()
 

@@ -1,20 +1,20 @@
 ---
 title: Working with MCP server records
-description: The MCP servers tab on the AI Control Tower Inventory page provides a centralized view of MCP servers registered in your ServiceNow instance.
+description: The MCP servers tab on the Control Tower Inventory page provides a centralized view of MCP servers registered in your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/working-with-mcp-server-records.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-04"
 reading_time_minutes: 1
-breadcrumb: [Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Working with MCP server records
 
-The MCP servers tab on the AI Control Tower Inventory page provides a centralized view of MCP servers registered in your ServiceNow instance.
+The MCP servers tab on the Control Tower Inventory page provides a centralized view of MCP servers registered in your ServiceNow instance.
 
-MCP servers are AI assets that expose tools, resources, and capabilities to AI agents through a standardized protocol. Registering MCP servers in the inventory enables AI Control Tower to govern, classify, and monitor their usage alongside other AI assets. The **MCP servers** tab displays only assets of type MCP server.
+MCP servers are AI assets that expose tools, resources, and capabilities to AI agents through a standardized protocol. Registering MCP servers in the inventory enables Control Tower to govern, classify, and monitor their usage alongside other AI assets. The **MCP servers** tab displays only assets of type MCP server.
 
 ## MCP servers inventory list
 

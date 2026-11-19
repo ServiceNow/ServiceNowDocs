@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/exercise-management-uib.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ Creating an exercise includes these steps:
 -   BCM program manager adds additional details for the exercise such as an asset, plan, and event task.
 -   BCM program manager submits the event task related to the exercise for an approval.
 -   Assigned BCM program manager reviews the details on the event task and approves the exercise.
--   Exercise is moved to the **Approved** state. An approved exercise is moved to the **Archived** state later.
+-   Exercise is moved to the **Approved** state. The BCM program manager then closes the exercise by selecting **Closed complete** or **Closed incomplete**.
 -   BCM program manager can generate the PDF of the details and save a copy for reference.
 
 ## Types of exercises
@@ -48,7 +48,7 @@ If you’re the BCM program manager, you can create an exercise in Business Cont
 
 -   You can also navigate to the List view and select **New** in the Exercises records.
 
-To create an exercise in Business Continuity Workspace, see [Structured workflows for exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md).
+To create an exercise in Business Continuity Workspace, see [Structured workflows for Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/performing-tasks-to-manage-exercise-events.md).
 
 ## Grouping the event tasks
 

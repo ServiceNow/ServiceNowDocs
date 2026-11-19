@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -51,17 +51,17 @@ The Teams related list associates a user group to a CI based on group type, prov
 **Related topics**  
 
 
-[CMDB record types]()
-
-[Principal Class]()
-
 [Dependent CIs management]()
 
-[Create a CI class]()
+[CMDB record types]()
 
-[View and edit class definitions and metadata]()
+[Create a CI class]()
 
 [Reclassify a CI]()
 
 [Delete CIs]()
+
+[View and edit class definitions and metadata]()
+
+[Principal Class]()
 

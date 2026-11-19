@@ -8,7 +8,7 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-10-26"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, workday, raas, rest, report]
 breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -65,4 +65,15 @@ const rows = new API()
 ```
 
 For the full method reference, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
+
+-   **[Workday RaaS report query parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-raas-report-query-parameters.md)**  
+Workday Reports as a Service \(RaaS\) reports take their filters as query parameters rather than path parameters, and each report defines its own set of parameters.
+-   **[Add a Workday RaaS entity to a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-raas-report-service.md)**  
+Use a Workday Reports as a Service \(RaaS\) report in a read model operation by entering the report request URL and a sample response.
+-   **[Manage input parameters for RaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-manage-model-inputs-raas.md)**  
+Specify how fields on the enterprise resource planning \(ERP\) system map to input parameters and their values. This mapping defines the inputs for an operation that reads the ERP system using Workday Reports as a Service \(RaaS\).
+-   **[Manage model output parameters for RaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs-raas.md)**  
+Specify how fields on the enterprise resource planning \(ERP\) system map to output parameters and their values. This mapping defines the outputs for an operation that reads the ERP system using Workday Reports as a Service \(RaaS\).
+
+**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

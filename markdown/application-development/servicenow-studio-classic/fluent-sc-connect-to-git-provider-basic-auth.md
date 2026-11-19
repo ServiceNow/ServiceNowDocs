@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-10-08"
 reading_time_minutes: 1
 keywords: [ServiceNow studio, source control, fluent, pro-code development]
-breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Connect to a Git provider using basic authentication

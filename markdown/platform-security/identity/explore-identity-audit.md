@@ -1,20 +1,20 @@
 ---
 title: Exploring Identity and Access Audit
-description: Use Identity and Access Audit to understand changes made to users, groups, roles, and ACLs.
+description: Use Identity and Access Audit to understand changes made to users, groups, roles, and access control lists \(ACLs\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/explore-identity-audit.html
 release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Identity and Access Audit, Identity]
 ---
 
 # Exploring Identity and Access Audit
 
-Use Identity and Access Audit to understand changes made to users, groups, roles, and ACLs.
+Use Identity and Access Audit to understand changes made to users, groups, roles, and access control lists \(ACLs\).
 
 Identity and Access Audit helps to understand the critical information about who has modified what, where and when in user accounts, groups and roles.
 
@@ -29,8 +29,8 @@ Identity and Access Audit enables you to:
 -   View the changes made in the last 30 days to users, groups, role ACL attributes, role memberships, group memberships, and ACL roles.​
 -   Track the changes in your ServiceNow instance.
 -   Help mitigate potential security and regulatory risks.
--   Support compliance reviews by auditors across different organizational groups.
--   Help reduce threats caused by limited visibility into user group and role changes.
+-   Demonstrate compliance to auditors across different organizational groups.
+-   Help reduce threats caused by limited visibility into changes to users, groups, and roles.
 
 ## User personas in Identity and Access Audit
 
@@ -55,13 +55,13 @@ The following tables can be audited using Identity and Access Audit​:
 
 ## Identity and Access Audit Modules
 
-Identity and Access Audit's modules include:
+Identity and Access Audit's modules are described in the following table.
 
 |Module|Description|
 |------|-----------|
 |Audit Results|Displays audits that occurred in the ServiceNow instance.|
 |Configure Table &amp; Fields|Configure system tables and fields with available fields from Identity and Access Audit.|
-|Configure Retention Period|Configure the retention period for audited data. The maximum period is 30 days.|
+|Configure Retention Period|Configure the retention period for audited data, up to a maximum of 30 days.|
 |User Trails|Displays audits of users.|
 |Group Trails|Displays audits of groups.|
 |Role Trails|Displays audits of roles.|

@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-12"
 reading_time_minutes: 3
 breadcrumb: [List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -54,6 +54,7 @@ You can adjust MID Server properties to reduce the number of ECC queue pages tha
 
 -   These properties are per MID Server. Apply changes to all MID Servers involved in the affected Discovery schedules.
 -   If necessary, increase **mid.discovery.max\_total\_items\_size\_per\_page** and the MID Server JVM heap size accordingly. Setting these values too high can cause out-of-memory errors on the MID Server and instance nodes. Set values appropriate for your environment.
+-   If ECC queue input records from this probe stay in the Ready state, a page might be larger than the instance allows. The **com.glide.attachment.max\_get\_size** system property sets this limit. To resolve the issue, reset the size and count properties to their default values. If the issue continues, contact Now Support and provide the pattern name.
 -   Setting **mid.discovery.should\_minify\_pattern\_payload** to true can reduce payload size without requiring heap size increase.
 -   For environments where a CI has many related items, but fewer total CIs, the primary bottleneck is likely **mid.discovery.max\_related\_count\_per\_page**. Start by increasing that property.
 

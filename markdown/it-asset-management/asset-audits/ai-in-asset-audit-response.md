@@ -7,7 +7,7 @@ release: australia
 product: Asset Audits
 classification: asset-audits
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-18"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Asset Audit Response, IT Asset Management, Asset Management]

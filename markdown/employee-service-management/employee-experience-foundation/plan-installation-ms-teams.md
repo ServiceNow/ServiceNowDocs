@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
+breadcrumb: [Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Plan your installation
@@ -23,7 +23,7 @@ Install the HR Service Delivery integration with Microsoft Teams application to 
 -   **[Install Universal Request integration with Microsoft Teams application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-ur-ms-teams-app.md)**  
 Install the Universal Request integration with Microsoft Teams application \(sn\_uni\_req\_msteams\). You can initiate Microsoft Teams conversations within your ServiceNow instance by using this application. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 -   **[Install Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/setup-notify-ms-teams.md)**  
-Install and activate the Notify connector for Microsoft Teams plugin to be able to initiate a Microsoft Teams meeting directly from a Task record or via the Major Incident Workbench.
+Install and activate the Notify connector for Microsoft Teams plugin to start a Microsoft Teams meeting from a task record or the Major Incident Workbench.
 -   **[Install Meeting Extensions for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/install-meeting-ext-ms-teams.md)**  
 Install and activate the Meeting Extensions for Microsoft Teams plugin to be able to initiate a Microsoft Teams meeting directly from an Incident record.
 

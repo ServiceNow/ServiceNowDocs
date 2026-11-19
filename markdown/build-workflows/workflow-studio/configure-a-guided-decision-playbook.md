@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-13"
 reading_time_minutes: 7
 breadcrumb: [Playbooks patterns, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -61,7 +61,7 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
 
     A decision is what gives a Guided Decision Playbook its guided behavior. At runtime, the Guided Layout bundle renders the decision's branches and the activities that follow each branch as one seamless flow. Containing at least one decision is what distinguishes a Guided Decision Playbook from a standard playbook.
 
-    \[Omitted image "playbook-add-decision.png"\] Alt text: Add a decision option in the playbook.
+    \[Omitted image "playbook-add-decision.png"\] Alt text: Screenshot showing the mini-picker and the Add a decision option.
 
     For information on adding and configuring a Decision activity, see [Decision activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-a-decision-activity.md).
 
@@ -97,7 +97,7 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
 
     The bundle includes the controller and components needed to display the playbook. Adding the bundle wires them together automatically.
 
-    \[Omitted image "playbook-guided-layout.png"\] Alt text: The Guided Layout bundle.
+    \[Omitted image "playbook-guided-layout.png"\] Alt text: Screenshot showing the Guided Layout bundle.
 
     1.  Select **Add content** in the Content panel.
 
@@ -121,15 +121,15 @@ This workflow spans two interfaces. You build the playbook itself in Workflow St
 
     All playbooks require a parent table and sysId to be hardcoded on the controller or provided through a URL. The configuration depends on the execution type you selected in step 1.
 
-<table id="choicetable_obq_nn3_jjc"><thead><tr><th align="left" id="d74763e574">
+<table id="choicetable_obq_nn3_jjc"><thead><tr><th align="left" id="d73578e574">
 
 Type
 
-</th><th align="left" id="d74763e577">
+</th><th align="left" id="d73578e577">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d74763e583">
+</th></tr></thead><tbody><tr><td id="d73578e583">
 
 **Standalone**
 
@@ -140,7 +140,7 @@ Action
 3.  Select the activated playbook you want to render.
 
 
-</td></tr><tr><td id="d74763e610">
+</td></tr><tr><td id="d73578e610">
 
 **Record-driven**
 
@@ -156,7 +156,7 @@ The sysId=-1 binding is required for record-driven playbooks. Without it, the co
 </td></tr></tbody>
 </table>    For more information, see .
 
-    \[Omitted image "playbook-exp-binding.png"\] Alt text: Bind data to parent table.
+    \[Omitted image "playbook-exp-binding.png"\] Alt text: Screenshot showing where to bind data to parent table.
 
 8.  Preview the page in UI Builder to verify the playbook renders correctly at runtime.
 

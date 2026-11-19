@@ -1,17 +1,17 @@
 ---
-title: AI Control Tower reference
-description: Reference topics provide additional information about the roles, tables, data model attributes, and form fields used to configure and administer AI Control Tower.
+title: Super Intelligence Control Tower reference
+description: Reference topics provide additional information about the roles, tables, data model attributes, and form fields used to configure and administer Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-reference.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-14"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, reference]
-breadcrumb: [AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# AI Control Tower reference
+# Super Intelligence Control Tower reference
 
-Reference topics provide additional information about the roles, tables, data model attributes, and form fields used to configure and administer AI Control Tower.
+Reference topics provide additional information about the roles, tables, data model attributes, and form fields used to configure and administer Control Tower.
 

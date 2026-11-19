@@ -155,3 +155,5 @@ Client Personal Security Environment \(PSE\) name. \(Required if **SNC Connectio
 |Password|Password to authenticate and log in to the ERP system.|
 |Credential Name|Alias or name for the login credential.|
 
+**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+

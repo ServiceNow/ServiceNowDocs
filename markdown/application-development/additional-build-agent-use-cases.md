@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Build Agent use cases
@@ -43,7 +43,7 @@ Use the following scenarios to identify specific ways to apply Build Agent in yo
 
 -   **Playbook authoring**
 
-    Use Build Agent to author Playbook Designer artifacts through a conversation. You can have Build Agent do the following for playbooks that it generates:
+    Use Build Agent to author Playbook Designer artifacts through a conversation. As of Australia Patch 6, you can have Build Agent do the following for playbooks that it generates:
 
     -   Generate runtime permissions at the playbook and stage levels
     -   Define on-demand launcher configurations

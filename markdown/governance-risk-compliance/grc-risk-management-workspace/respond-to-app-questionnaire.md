@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Application risk assessment using Advanced Risk Assessment, Integrate, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Respond to a questionnaire about an application for risk assessment.
 
 ## Before you begin
 
-Role required: sn\_grc.business\_user or sn\_grc.businesss\_user\_lite
+Role required: sn\_grc.business\_user or sn\_grc.business\_user\_lite
 
 ## About this task
 

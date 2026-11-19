@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
@@ -38,6 +38,8 @@ Automate an integration and generate reusable actions by importing an OpenAPI Sp
         |-----|-----------|
         |Spoke name|Name to identify the custom spoke.|
         |Description|Description about the custom spoke.|
+        |System|Search and select the external system to integrate.|
+        |Connector type|Select **Spoke** from the list.|
 
         \[Omitted image "spk-gen-new-scope.png"\] Alt text: Create spoke in new scope.
 
@@ -83,10 +85,24 @@ Description
 
 Description about the custom spoke.
 
-</td></tr></tbody>
-</table>        \[Omitted image "spk-gen-existing-scope.png"\] Alt text: Create spoke in an existin scope.
+</td></tr><tr><td>
 
-4.  Click **Continue**.
+System
+
+</td><td>
+
+Search and select the external system to integrate.
+
+</td></tr><tr><td>
+
+Connector type
+
+</td><td>
+
+Select **Spoke** from the list.
+
+</td></tr></tbody>
+</table>4.  Click **Continue**.
 
     Based on the provided name and description, if there are any matching spokes on Store, the spoke details are displayed.\[Omitted image "spoke-gen-store-apps.png"\] Alt text: Matching spokes found on Store.
 
@@ -96,7 +112,7 @@ Description about the custom spoke.
 
     2.  Install the spoke from the Store.
 
-        For more details, see .
+        For more details, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_InstallApplications.md).
 
     3.  After installing the spoke, navigate to the Workflow Studio tab.
 

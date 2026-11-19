@@ -1,18 +1,18 @@
 ---
 title: Resume a customer contract line
-description: Create an order to resume a customer contract line and its child customer contract lines on the CRM Workspace. By resuming a customer contract line, you are restarting the services specified in that customer contract line.
+description: Create an order to resume a customer contract line and its child customer contract lines on the CSM Configurable Workspace. By resuming a customer contract line, you are restarting the services specified in that customer contract line.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/cce-resume-service-contract-line.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Customer management, Use, Customer Service Management]
 ---
 
 # Resume a customer contract line
 
-Create an order to resume a customer contract line and its child customer contract lines on the CRM Workspace. By resuming a customer contract line, you are restarting the services specified in that customer contract line.
+Create an order to resume a customer contract line and its child customer contract lines on the CSM Configurable Workspace. By resuming a customer contract line, you are restarting the services specified in that customer contract line.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_customerservice\_manager and sn\_ind\_tmt\_orm.order\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
 2.  In the Contracts and Entitlements list, select **Customer Contracts**.
 

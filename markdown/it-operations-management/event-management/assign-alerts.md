@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Assign and manage alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Assign alerts in Express List
@@ -38,15 +38,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_qy3_vpd_qbc"><thead><tr><th align="left" id="d629441e133">
+<table id="choicetable_qy3_vpd_qbc"><thead><tr><th align="left" id="d632199e133">
 
 Assignment
 
-</th><th align="left" id="d629441e136">
+</th><th align="left" id="d632199e136">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d629441e142">
+</th></tr></thead><tbody><tr><td id="d632199e142">
 
 **Yourself**
 
@@ -54,7 +54,7 @@ Actions
 
 Select **Assign to you** and then select **OK**.
 
-</td></tr><tr><td id="d629441e157">
+</td></tr><tr><td id="d632199e157">
 
 **Someone else**
 
@@ -66,7 +66,7 @@ Select **Assign to you** and then select **OK**.
 4.  Select the **Assign &lt;number&gt; alerts** button.
 
 
-</td></tr><tr><td id="d629441e193">
+</td></tr><tr><td id="d632199e193">
 
 **Assignment group**
 
@@ -84,4 +84,6 @@ Select **Assign to you** and then select **OK**.
 ## Result
 
 The assigned person appears in the **Assigned to** column and the assignment group appears in the **Assignment group** column in the Express List pane.
+
+**Parent Topic:**[Assigning and managing alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/assigning-and-managing-alerts.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-11"
 reading_time_minutes: 11
 breadcrumb: [Explore, Base Asset Management, Common applications, Asset Management]
 ---
@@ -154,7 +154,7 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
 
     When the **glide.create\_alm\_asset.async** property is set to **false**, assets are created immediately from CIs.
 
-    **Note:** If you upgrade to Brazil from Orlando or earlier, the default value of this property is **false**. Before updating this property, review your processes that depend on an asset value present on a CI and make any necessary changes to account for delayed asset creation.
+    **Note:** If you upgrade to Australia from Orlando or earlier, the default value of this property is **false**. Before updating this property, review your processes that depend on an asset value present on a CI and make any necessary changes to account for delayed asset creation.
 
 -   **glide.asset.create\_ci\_with\_ire**
 
@@ -164,7 +164,7 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
 
     CIs created with the IRE are named using the format `Serial number - Model name` and the source is `SNAssetManagement`. The **Serial number** field is required on assets with model categories that correspond to these CI classes. Asset creation fails if its serial number is present on an existing CI or asset. The **Serial number** field is also required to receive purchase order line items for model categories that correspond to these CI classes. The **Serial number** field isn’t required to create pre-allocated assets, but the serial number must be provided when the asset is allocated.
 
-    The default value of this property is false if you upgrade to Brazil from Orlando or earlier. Before updating this property, review the customizations on the Serial number field and any integrations or flows that use an existing serial number to create an asset.
+    The default value of this property is false if you upgrade to Australia from Orlando or earlier. Before updating this property, review the customizations on the Serial number field and any integrations or flows that use an existing serial number to create an asset.
 
 
 ## Other Asset and CI system properties
@@ -199,6 +199,4 @@ When the CSDM \(csdm.lifecycle.migration.activated\) plugin is activated on your
 ## CMDB success advisor for HAM
 
 Use CMDB success advisor for Hardware Asset Management \(HAM\) to monitor and improve hardware asset data quality in the CMDB. The advisor dashboard provides insights into data coverage, attribute completeness, and recommended data integrations for your hardware asset model categories. For more information, see [Using CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/cmdb-sa-ham-use.md).
-
-**Parent Topic:**[Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/exploring-asset-management.md)
 

@@ -7,10 +7,10 @@ release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-03-17"
 reading_time_minutes: 13
 keywords: [Create record using ServiceNow lens, Scan document using ServiceNow lens, Scan image using ServiceNow lens, Scan scanned document using ServiceNow lens, Scan email using ServiceNow lens]
-breadcrumb: [Use, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Use, ServiceNow AI Lens, Enable AI experiences]
 ---
 
 # Create or update a record in an instance by using ServiceNow AI Lens
@@ -48,7 +48,7 @@ You can create a record in the ServiceNow instance in two ways:
 
         **Tip:** For the best experience, use ServiceNow AI Lens on any Chromium-based browser.
 
-    -   The browser-based experience supports single-screen capture.
+    -   The browser-based experience supports single-screen capture. To capture multiple screens, [Use ServiceNow AI Lens from the desktop application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/create-record-sn-lens.md).
 -   **From the desktop app**: Use the ServiceNow AI Lens desktop app for the full range of capture and analysis capabilities, such as multi-image capture, auto-map Excel column headers with ServiceNow table fields, and file uploads. For more information, see [Using the Lens desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/create-record-sn-lens.md).
 
 ## Procedure
@@ -177,15 +177,15 @@ When you select **Create with Lens** or **Update with Lens** for a form, the Ser
 
     Only the fields that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If you don’t have any supported fields in your form, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d231787e892">
+<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d256818e896">
 
 Option
 
-</th><th align="left" id="d231787e895">
+</th><th align="left" id="d256818e899">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d231787e901">
+</th></tr></thead><tbody><tr><td id="d256818e905">
 
 **If the auto-filled text looks good**
 
@@ -193,7 +193,7 @@ Action
 
 Save the record by selecting **Save**.
 
-</td></tr><tr><td id="d231787e913">
+</td></tr><tr><td id="d256818e917">
 
 **If the auto-filled text requires changes**
 
@@ -323,15 +323,15 @@ When you select **Create with Lens** or **Update with Lens** for a form, the Ser
 
     Only the fields that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If you don’t have any supported fields in your form, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-lens/field-types-supported.md).
 
-<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d231787e1549">
+<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d256818e1553">
 
 Option
 
-</th><th align="left" id="d231787e1552">
+</th><th align="left" id="d256818e1556">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d231787e1558">
+</th></tr></thead><tbody><tr><td id="d256818e1562">
 
 **If the auto-filled text looks good**
 
@@ -339,7 +339,7 @@ Action
 
 Save the record by selecting **Save**.
 
-</td></tr><tr><td id="d231787e1570">
+</td></tr><tr><td id="d256818e1574">
 
 **If the auto-filled text requires changes**
 

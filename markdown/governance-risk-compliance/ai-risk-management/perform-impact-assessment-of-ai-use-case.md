@@ -35,7 +35,7 @@ ServiceNow aims to provide software updates for new or updated major regulations
 
 1.  Navigate to **All** &gt; **AI Control Tower**.
 
-2.  On the AI Control Tower dashboard, navigate to the Tasks section and select the assigned impact assessment task.
+2.  On the Control Tower dashboard, navigate to the Tasks section and select the assigned impact assessment task.
 
 3.  Select **Take assessment**.
 

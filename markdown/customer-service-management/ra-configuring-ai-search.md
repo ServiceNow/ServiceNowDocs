@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-configuring-ai-search.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 4
 breadcrumb: [Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
@@ -18,6 +18,10 @@ You can configure AI search in Recommended Actions by performing these procedure
 
 <table id="table_jm3_lm4_15b"><thead><tr><th>
 
+Step number
+
+</th><th>
+
 Step
 
 </th><th>
@@ -26,6 +30,10 @@ Action
 
 </th></tr></thead><tbody><tr><td>
 
+1
+
+</td><td>
+
 [Enable the AI search tab in UI builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/vancouver/now-components/sn-next-best-action-list-connected/uib-setup)
 
 </td><td>
@@ -33,6 +41,10 @@ Action
 Deselect the **Hide Search** button in UI Builder to display the AI search tab in the contextual side panel of your workspace.
 
 </td></tr><tr><td>
+
+2
+
+</td><td>
 
 [Create a context and select a search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-contexts-create.md)
 
@@ -43,6 +55,10 @@ Deselect the **Hide Search** button in UI Builder to display the AI search tab i
 
 </td></tr><tr><td>
 
+3
+
+</td><td>
+
 [Map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-create-search-result-mapping-for-ai-search.md)
 
 </td><td>
@@ -50,6 +66,10 @@ Deselect the **Hide Search** button in UI Builder to display the AI search tab i
 Map AI search results with guidance inputs to enable the AI search results to be displayed with appropriate actions.
 
 </td></tr><tr><td>
+
+4
+
+</td><td>
 
 [Automatically map AI search results with guidance inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-configuring-ai-search-automatically.md)
 
@@ -59,6 +79,10 @@ Automatically create AI search results for a search configuration application in
 
 </td></tr><tr><td>
 
+5
+
+</td><td>
+
 [Configure dynamic filters in AI Search for Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-configure-contextual-filtering.md)
 
 </td><td>
@@ -67,6 +91,8 @@ Configure AI Search to preprocess contextual inputs from Recommended Actions so 
 
 </td></tr></tbody>
 </table>## Configuring genius results
+
+You must install the ServiceNow Otto for Customer Service Management \(CSM\) is the plugin to use genius result in AI search in Recommended Actions.
 
 In the search profile of your selected search application configuration, link the following Genius Result configurations to display actionable top results. For more information, see [Link a Genius Result configuration to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/link-gr-search-profile-ais.md).
 
@@ -110,7 +136,7 @@ Now Assist Q&amp;A
 
 Displays the top search results extracted from the HTML fields of the records on the Knowledge \[kb\_knowledge\] table and the tables that extend it. Each answer card shows an answer snippet extracted by Now LLM from a knowledge article. For reference, the answer card also includes a link the user can select to view the source knowledge article.**Note:** Now Assist in the AI Search application \(com.ais\_assist\) is required to link the Now Assist Q&amp;A Genius Result configuration to your search profile. For more information, see [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-ais.md).
 
-**Important:** Starting with the Now Assist in AI Search 11 release, the Now Assist Q&amp;A Genius Results feature is in maintenance mode. This feature will remain available but will not be updated or supported. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see [Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md).
+**Important:** Starting with the Now Assist in AI Search 11 release, the Now Assist Q&amp;A Genius Results feature is in maintenance mode. This feature will remain available but will not be updated or supported. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see [ServiceNow Otto Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md).
 
 </td></tr><tr><td>
 
@@ -118,7 +144,7 @@ Now Assist Multi-Content Response
 
 </td><td>
 
-Displays a single top search result that summarizes content from multiple sources. The answer card shows one grouped summary with numbered citations that link to the source records, such as knowledge articles, and Service catalog items. You can select the **Copy summary** button to copy the summary and share it with customers. For more information on theNow Assist Multi-Content Response, see [Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md).\[Omitted image "na-mcr.png"\] Alt text: Now Assist-Multi Content Response in Recommended Actions contextual Side Panel
+Displays a single top search result that summarizes content from multiple sources. The answer card shows one grouped summary with numbered citations that link to the source records, such as knowledge articles, and Service catalog items. You can select the **Copy summary** button to copy the summary and share it with customers. For more information on theNow Assist Multi-Content Response, see [ServiceNow Otto Summary Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md).\[Omitted image "na-mcr.png"\] Alt text: Now Assist-Multi Content Response in Recommended Actions contextual Side Panel
 
 </td></tr></tbody>
 </table>## Customizing Recommended Actions UIB component for AI search

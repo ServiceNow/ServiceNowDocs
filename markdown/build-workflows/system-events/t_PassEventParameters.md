@@ -7,7 +7,7 @@ release: australia
 product: System Events
 classification: system-events
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Managing system events, System Events, Build workflows]
 ---
@@ -18,7 +18,7 @@ Pass two event parameters that send information about a record or related record
 
 ## Before you begin
 
-Role required: admin
+Role required: events\_admin
 
 ## Procedure
 
@@ -60,5 +60,5 @@ if (gr.next()){
 **Related topics**  
 
 
-[bundle-platadm.c_ScriptingForEmailNotifications]
+[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScriptingForEmailNotifications.md)
 

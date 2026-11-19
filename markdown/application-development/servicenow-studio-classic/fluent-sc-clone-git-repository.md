@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-10-08"
 reading_time_minutes: 2
 keywords: [Fluent source control, Clone a git repository, servicenow studio]
-breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Clone a Git repository from ServiceNow Studio

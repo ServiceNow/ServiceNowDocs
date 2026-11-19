@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/adding-analytics-center-to-ws.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics experience, Platform Analytics]
 ---
@@ -21,8 +21,8 @@ Choose from the following ways to add Platform Analytics to your workspace. Thes
 
 -   **[Create a Platform Analytics workspace from App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-analytics-ws-aes.md)**  
 The App Engine Studio includes a prebuilt workspace that you can add to an application. This workspace includes an Analytics Center page, along with the pages that the Analytics Center links to.
--   **[Add Platform Analytics pages to a configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-analytics-center-to-experience.md)**  
-Add an Analytics Overview and its related pages to your own workspace/experience through page templates.
+-   **[Create Platform Analytics pages in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-analytics-center-to-experience.md)**  
+Add Platform Analytics pages to your own workspace/experience through page templates.
 -   **[Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-dashboard-to-workspace.md)**  
 You can add either a technical dashboard or one made in the inline editor to a page you built from the Dashboards page template. Configure the dashboard component on that page.
 -   **[Configure custom redirection from a dashboard component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/config-custom-redirection-from-db.md)**  

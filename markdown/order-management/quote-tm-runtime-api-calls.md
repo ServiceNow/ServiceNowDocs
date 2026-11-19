@@ -1,6 +1,6 @@
 ---
 title: ServiceNow Quote Experience runtime API calls
-description: Reference for the runtime APIs used in the ServiceNow Quote Experience, including their purposes, responses, and a OpenAPI Specification for testing in ServiceNow CPQ.
+description: Reference for the runtime APIs used in the ServiceNow Quote Experience, including their purposes, responses, and a Postman collection for testing in ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/quote-tm-runtime-api-calls.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configur
 
 # ServiceNow Quote Experience runtime API calls
 
-Reference for the runtime APIs used in the ServiceNow Quote Experience, including their purposes, responses, and a OpenAPI Specification for testing in ServiceNow CPQ.
+Reference for the runtime APIs used in the ServiceNow Quote Experience, including their purposes, responses, and a Postman collection for testing in ServiceNow CPQ.
 
 ## API overview
 
@@ -35,7 +35,9 @@ ServiceNow CPQ APIs are divided into two categories: runtime APIs and admin APIs
 
 For details about the API that retrieves metrics for transactions, see [Quote Experience metrics API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-metrics-api.md).
 
-## OpenAPI Specification
+## Postman collection
 
-The following OpenAPI specification describes all available REST endpoints, request payloads, response formats, parameters, and data models for the ServiceNow Quote Experience runtime APIs. For more information, see [KB3229681](https://support.servicenow.com/kb?sys_kb_id=ac68a3a947901b582c31b98a436d435a&id=kb_article_view).
+The following Postman collection provides ready-to-use API requests for the ServiceNow Quote Experience runtime APIs. For more information, see [KB3229681](https://support.servicenow.com/kb?sys_kb_id=ac68a3a947901b582c31b98a436d435a&id=kb_article_view).
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 

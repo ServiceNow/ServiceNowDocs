@@ -7,10 +7,10 @@ release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 keywords: [Now Assist, generative AI]
-breadcrumb: [Creating AI assets, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Creating AI assets, Use, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Create AI system assets
@@ -27,9 +27,9 @@ An AI system is a software artifact that provides AI and machine learning \(ML\)
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **AI Control Tower**.
+1.  Navigate to **Workspaces** &gt; **Control Tower**.
 
-2.  From the AI Control Tower, open the AI assets view.
+2.  From Control Tower, open the AI assets view.
 
 3.  From the navigation menu of the AI assets view, navigate to either **AI asset inventory - Managed** &gt; **AI Systems** or **AI asset inventory - Unmanaged** &gt; **AI Systems**.
 
@@ -323,7 +323,9 @@ Additional use and purpose details
 Additional information or context that helps clarify the specific use and purpose of the AI system.
 
 </td></tr></tbody>
-</table>10. Select **Submit for review**.
+</table>    For more information on classifying AI systems based on regulatory risk at intake by applying a configured Risk Assessment Methodology \(RAM\), see [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/request-ai-system.md).
+
+10. Select **Submit for review**.
 
     **Note:** If you aren’t ready to submit the AI system for review, select **Save** instead. You can then edit it and submit it for review later by navigating to **AI assets** &gt; **Lifecycle** &gt; **Onboard** and then selecting the AI system from the list. When the AI asset record opens, continue editing the AI system details.
 

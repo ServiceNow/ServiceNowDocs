@@ -64,9 +64,7 @@ Flow priority. The value for this field indicates the order of the workflows whe
 
  The flow with the lowest number has the highest priority.
 
- To set the order of operation, enter a value. For example, 100, 200, 300, 400.
-
- The default is 100.
+To set the order of operation, enter a value. For example, 100, 200, 300, 400.The default is 100.
 
 </td></tr><tr><td>
 

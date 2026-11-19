@@ -33,7 +33,7 @@ Follow this procedure to obtain the sys\_id for a Custom Connector Gateway exter
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `sn_ext_conn_ccg_configuration.list`.
+    2.  In the navigation filter, enter `sn_ext_conn_ccg_configuration.list`.
 
     3.  Press Enter.
 

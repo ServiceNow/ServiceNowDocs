@@ -1,20 +1,20 @@
 ---
 title: Using Notify with SMS
-description: Send and receive SMS messages using Notify.
+description: Send SMS messages to one recipient or many by using the Notify sendSMS and sendBulkSMS methods or the send SMS workflow activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/c\_NotifySMS.html
 release: australia
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Using Notify with SMS
 
-Send and receive SMS messages using Notify.
+Send SMS messages to one recipient or many by using the Notify sendSMS and sendBulkSMS methods or the send SMS workflow activity.
 
 Notify stores inbound and outbound SMS messages in the Notify Messages \[notify\_message\] table.
 
@@ -31,7 +31,7 @@ The Notify-Twilio integration provides programmable SMS outbound message status 
 -   **[SMS Statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/r_SMSStatus.md)**  
 Every Twilio SMS message request has a status value which describes the current state of the message. Use this information for troubleshooting SMS related incidents/ issues. Here are few descriptions of possible statuses of SMS sent from Notify through Twilio REST API.
 -   **[Send an SMS with Zoom meeting invite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/send-sms-with-zoom-link.md)**  
-Send an SMS with Zoom meeting invite to ensure that the meeting participants or any newly added participant is updated with the meeting details when the meeting host starts the conference or adds a participant to the conference.
+Send an SMS with the Zoom meeting invite so participants and newly added participants get the meeting details.
 -   **[Outbound communication requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/r_OutboundRequirements.md)**  
 Outbound communications initiated through Notify, such as phone calls and SMS messages, must satisfy recipient number requirements.
 

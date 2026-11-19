@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/use-content-insights-ai-agent.html
 release: australia
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Use, Content Understanding, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Use, Content Understanding, Enable AI experiences]
 ---
 
 # Use Content insights AI agent

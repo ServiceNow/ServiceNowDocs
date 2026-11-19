@@ -8,13 +8,21 @@ product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Explore, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # AI skills for Next Experience for Demand Management
 
 ServiceNow Otto for Strategic Portfolio Management provides AI-powered skills for demand records that help you quickly understand demand details and refine records. These skills improve planning efficiency and support informed decision-making.
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+The following generative AI skills are available for demands and are turned on by default. The skill will be automatically available to appropriate role users for the application. To modify their configurations, turn them off, or reactivate them from **AI Admin Hub**, see [Configure the demand AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/configure-demand-ai-skills-ppw.md).
+
+-   Demand summarization
+-   Identify similar records
+-   Refine records
 
 ## Demand summarization
 

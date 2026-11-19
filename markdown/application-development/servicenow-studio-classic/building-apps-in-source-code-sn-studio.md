@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-10-08"
 reading_time_minutes: 3
 keywords: [Source code, custom applications, pro-code development, ServiceNow Studio]
-breadcrumb: [Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Building apps in source code in ServiceNow Studio

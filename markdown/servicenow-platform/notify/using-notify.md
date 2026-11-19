@@ -1,25 +1,25 @@
 ---
 title: Using Notify
-description: Use the service providers to schedule the conference calls with the stake holders to resolve the incidents.
+description: Use Notify with service providers to schedule conference calls with stakeholders and resolve incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/using-notify.html
 release: australia
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Using Notify
 
-Use the service providers to schedule the conference calls with the stake holders to resolve the incidents.
+Use Notify with service providers to schedule conference calls with stakeholders and resolve incidents.
 
 -   **[Using Notify with SMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NotifySMS.md)**  
-Send and receive SMS messages using Notify.
+Send SMS messages to one recipient or many by using the Notify sendSMS and sendBulkSMS methods or the send SMS workflow activity.
 -   **[Using Notify for making conference calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NotifyConferenceCalls.md)**  
-Notify administrators, major incident managers, or communications managers can manage conference calls.
+Start and manage conference calls with Notify. Call and participant records are created automatically, and default workflows handle calls.
 -   **[Using Notify with tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NotifyOnTask.md)**  
 Notify allows you to initiate conference calls and send SMS alerts from task records.
 -   **[Using Notify with Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_NotifyWithIncidentAlert.md)**  

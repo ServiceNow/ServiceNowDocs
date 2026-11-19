@@ -1,20 +1,20 @@
 ---
 title: Walk-up Experience appointment booking configuration
-description: Create or modify appointment booking configurations for the Walk-up Experience. You can view or modify the Walk-up Experience application appointment booking configuration and create or modify related service appointment configurations.
+description: Appointment booking configurations for the Walk-up Experience control how and when customers can schedule appointments across walk-up queue locations. Modify the default application-level configuration or create service-level configurations for individual queues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-booking-config.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Walk-up Experience appointment booking, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Walk-up Experience appointment booking configuration
 
-Create or modify appointment booking configurations for the Walk-up Experience. You can view or modify the Walk-up Experience application appointment booking configuration and create or modify related service appointment configurations.
+Appointment booking configurations for the Walk-up Experience control how and when customers can schedule appointments across walk-up queue locations. Modify the default application-level configuration or create service-level configurations for individual queues.
 
 The base system Walk-up Experience application includes a default appointment booking configuration that can be modified. By default, the information stored in the Walk-up Experience application appointment booking configuration applies to all services within that application. Services within the Walk-up Experience application are defined as the actual walk-up queue locations. You can create new appointment booking service configurations for the Walk-up Experience application or modify existing configurations.
 

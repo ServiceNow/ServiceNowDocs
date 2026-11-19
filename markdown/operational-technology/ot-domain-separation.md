@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/ot-domain-separation.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-12"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology]
 ---
@@ -28,7 +28,7 @@ For more information on support levels, see [Application support for domain sepa
 
 ## Operational Technology domain separation overview
 
-Because each application can have its own domain separation relationship, no single support level applies to Operational Technology. For more information, see [Domain separation and Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-designer-domain-separation.md).
+Because each application can have its own domain separation relationship, no single support level applies to Operational Technology. For more information, see .
 
 The following table describes the domain separation support levels and use cases for each Operational Technology application.
 

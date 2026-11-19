@@ -22,7 +22,7 @@ Role required: csm\_guided\_setup\_user or admin
 
 Configure the desired entity tables to use special handling notes and then configure the corresponding forms to display either the Special Handling Notes list or pop-up window.
 
-**Note:** Demo and sample data plugins aren't included in the family-to-store migration. The Special Handling Notes Demo Data plugin has no store application and remains installed as a family plugin after you upgrade to Brazil. Its demo data is now delivered with Special Handling Instruction \(com.snc.app\_shn\).
+**Note:** Demo and sample data plugins aren't included in the family-to-store migration. The Special Handling Notes Demo Data plugin has no store application and remains installed as a family plugin after you upgrade to Australia. Its demo data is now delivered with Special Handling Instruction \(com.snc.app\_shn\).
 
 ## Procedure
 

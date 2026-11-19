@@ -137,5 +137,5 @@ Referencing elements in the `pleRequest` object is similar to referencing object
 **Related topics**  
 
 
-[ServiceNow CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-logik-io-scripting-language-reference.md)
+[ServiceNow CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

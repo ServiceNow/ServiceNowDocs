@@ -7,7 +7,7 @@ release: australia
 product: Expense Line
 classification: expense-line
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
@@ -40,7 +40,7 @@ Domain separation is unsupported in Expense Line processing. Domain separation e
 **Related topics**  
 
 
-[Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/c_AssetManagement.md)
+[Asset Management common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/asset-management-core.md)
 
 [Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ITILConfigurationManagement.md)
 

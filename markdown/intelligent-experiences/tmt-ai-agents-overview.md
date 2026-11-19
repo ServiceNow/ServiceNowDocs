@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-08-04"
 reading_time_minutes: 1
-breadcrumb: [Telecom, Media and Tech AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Telecom, Media and Tech AI agents, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Telecommunications, Media and Technology AI agents
@@ -18,12 +18,12 @@ The following AI agents are available for Telecommunications, Media and Technolo
 The following agents are available for Customer Success Management.
 -   **[Customer Service Problem Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/cspm-ai-agents-overview.md)**  
 The following agents are available for Customer Service Problem Management.
--   **[Service Exchange AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/srvc-ex-ai-agents-overview.md)**  
-The following AI agents are available for Service Exchange.
 -   **[Telecommunications Customer 360 AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/c360-ai-agents-overview.md)**  
 The following agents are available for Telecommunications Customer 360.
 -   **[Telecommunications Network Inventory AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/tni-ai-agents-overview.md)**  
 The following AI agents are available for Telecommunications Network Inventory.
+-   **[Sales CRM for Telecommunications AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/somt-ai-agents-overview.md)**  
+The following AI agents are available for Sales CRM for Telecommunications.
 
 **Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-landing-page.md)
 

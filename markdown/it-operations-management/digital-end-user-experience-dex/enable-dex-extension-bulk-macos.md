@@ -1,5 +1,5 @@
 ---
-title: Enable the DEX browser extension on multiple macOS devices
+title: Enable DEX browser extension on multiple macOS devices
 description: Deploy the DEX browser extension to all your organization's employees using Jamf.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/enable-dex-extension-bulk-macos.html
@@ -7,25 +7,25 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [deploy browser extension macos, jamf browser extension, bulk extension mac, configuration profile, force installed extension]
 breadcrumb: [Deploying DEX to employees, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
-# Enable the DEX browser extension on multiple macOS devices
+# Enable DEX browser extension on multiple macOS devices
 
 Deploy the DEX browser extension to all your organization's employees using Jamf.
 
 ## Before you begin
 
-The DEX browser extension ID must be available.
+Obtain the DEX browser extension ID.
 
 Role required: admin
 
 ## About this task
 
-Your organization might have a different method to accomplish this task.
+The following procedure describes how to deploy the DEX browser extension on multiple devices using Jamf. Your organization might have a different method to accomplish this task.
 
 ## Procedure
 
@@ -33,11 +33,11 @@ Your organization might have a different method to accomplish this task.
 
     1.  Navigate to **Computers** &gt; **Configuration Profiles**.
 
-    2.  Select **New**.
+    2.  Select **New.**
 
-    3.  On the **General** tab of the new profile form, enter a meaningful name.
+    3.  In the General tab of the new profile form, provide a meaningful name.
 
-    4.  On the **Application &amp; Custom Settings** tab, select **Upload** &gt; **Add**.
+    4.  In the Application &amp; Custom Settings tab, select **Upload** &gt; **Add**.
 
     5.  Under **Preference Domain**, enter `com.google.chrome`.
 
@@ -64,9 +64,9 @@ Your organization might have a different method to accomplish this task.
         </plist>
         ```
 
-2.  Push the configuration profile to your end-user devices.
+2.  Push the configuration file to your end-user devices.
 
-    1.  On the **Scope** tab of the configuration profile form, select **Add**.
+    1.  In the Scope tab of the configuration profile form, select **Add**.
 
     2.  Add your target computers or computer groups.
 
@@ -77,4 +77,6 @@ Your organization might have a different method to accomplish this task.
     -   Apple system: Navigate to **System Settings** &gt; **Privacy and Security** &gt; **Profiles**.
     -   Terminal: Enter the command `cd /Library/Managed\ Preferences` to navigate to the managed preferences folder and verify that the `com.google.Chrome.plist` file is present.
     -   End-user device: Open Google Chrome and navigate to the `chrome://extensions` page.
+
+**Parent Topic:**[Deploying DEX to employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/deploying-dex-to-employees.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -119,6 +119,8 @@ The properties accept comma separated lists with operators. The first name in th
 [Rekey a MID Server]()
 
 [Add SSL certificates for the MID Server]()
+
+[Specify an external TrustStore for the MID Server]()
 
 [Attach a script file to a file synchronized MID Server]()
 

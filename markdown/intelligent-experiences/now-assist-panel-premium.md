@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-24"
 reading_time_minutes: 25
-breadcrumb: [ServiceNow Otto panel, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [ServiceNow Otto panel, ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Premium chat
@@ -22,7 +22,7 @@ ServiceNow Otto panel premium chat is an AI chat experience built into your Serv
 -   To use the full capabilities of ServiceNow Otto panel, AI Search must be enabled for your portal. Without it, ServiceNow Otto panel functions in a limited capacity. Basic interactions such as predefined topic flows and simple questions and answers are available without AI Search. Knowledge article retrieval, AI responses grounded in instance content, and semantic search capabilities require AI Search. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/enable-ais-sp.md).
 -   ServiceNow Otto skills must be enabled to appear on the ServiceNow Otto panel. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
 -   Conversational aspects of the ServiceNow Otto panel, such as skill detection, are powered by Now LLM Service.
-
+-   
 **Note:**
 
 If your organization's network firewall uses an allow list policy, you must add the premium chat domains to your list of allowed outbound domains before enabling premium chat. The premium chat domains include:

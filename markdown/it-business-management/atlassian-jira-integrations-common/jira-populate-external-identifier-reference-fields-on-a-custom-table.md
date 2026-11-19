@@ -7,7 +7,7 @@ release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Customizing map configuration for your Jira projects, Setting up the integration between Jira and Agile Development 2.0, Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
@@ -22,15 +22,25 @@ Role required: admin or sn\_jira\_int.admin
 
 ## About this task
 
-You can display references of ID, key, Jira project, and the project URL on your custom table form by adding this table to the Populate External Identifier Reference business rule.
+You can display references of ID, key, Jira project, and the project URL on your custom table form. Add an External Identifier reference field to the table and then add the table to the **Populate External Identifier Reference** business rule.
+
+The Populate External Identifier Reference rule populates this field only for the Story, Epic, and Sprint tables. Other tables, such as `rm_scrum_task`, don't have an External Identifier field by default.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Definitions** &gt; **Business Rules**.
+1.  Navigate to **All** &gt; **System Definitions** &gt; **Tables** and open your custom table \(for example, `rm_defect`\).
 
-2.  From the list of business rules, locate and open the Populate External Identifier Reference rule.
+2.  Add an External Identifier reference field to your custom table with the following values.
 
-3.  In the When to run section of the form, include your custom table map by adding it to the filter conditions.
+    -   Type: Reference
+    -   Reference table: `sn_int_common_external_identifiers`
+    -   Column name: `u_external_identifier`
+    -   Column label: External Identifier
+3.  Navigate to **All** &gt; **System Definitions** &gt; **Business Rules**.
+
+4.  From the list of business rules, locate and open the Populate External Identifier Reference rule.
+
+5.  In the When to run section of the form, include your custom table map by adding it to the filter conditions.
 
     For example, if the custom table that you added is Defect, do the following:
 
@@ -38,7 +48,9 @@ You can display references of ID, key, Jira project, and the project URL on your
 
     2.  Set the new clause to **Reference table** **is** **rm\_defect**.
 
-4.  Click **Update**.
+6.  Update the Advanced Script section of the rule to handle the new custom table reference and map the External Identifier field accordingly.
+
+7.  Click **Update**.
 
 
 ## What to do next
@@ -58,4 +70,6 @@ Configure the form layout or personalize the list layout of your custom table to
 [Personalise a v2 list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md)
 
 [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md)
+
+[Populate external identifier on custom tables for Azure DevOps](https://www.servicenow.com/community/spm-articles/populate-external-identifier-on-custom-tables-for-azure-devops/ta-p/3359244)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-customer-contextual-summarization-fso.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure, Agentic Contact Center for Banking, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -27,7 +27,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **** &gt; **AI Skills**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  Select the **Customer** &gt; **FSO** workflow group.
 

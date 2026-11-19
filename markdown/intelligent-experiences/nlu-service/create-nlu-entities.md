@@ -1,5 +1,5 @@
 ---
-title: \(Legacy\) Create a simple entity
+title: Create a simple entity
 description: Create one or more simple entities from words in your utterance examples. An entity is an object of, or context for, an action.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nlu-service/create-nlu-entities.html
@@ -7,12 +7,12 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [\(Legacy\) NLU entities, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
-# \(Legacy\) Create a simple entity
+# Create a simple entity
 
 Create one or more simple entities from words in your utterance examples. An entity is an object of, or context for, an action.
 
@@ -72,5 +72,5 @@ Your utterances can reference a vocabulary source by using the @ handle. If you 
 
 \[Omitted image "create-simple-entity0.png"\] Alt text: How to reference a vocabulary source from within an utterance.
 
-For more information, see [\(Legacy\) NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
+For more information, see [NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
 

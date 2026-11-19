@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/use-itom-mcp-server.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-23"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI in ITOM, IT Operations Management]
@@ -17,7 +17,7 @@ Connect an AI-enabled MCP Client application to your ServiceNow environment usin
 
 ## ITOM MCP Server Console overview
 
-The ITOM MCP Server Console bridges your ServiceNow ITOM environment to any AI-enabled MCP Client, such as Moveworks or AWS Claude. When agents use an MCP Client to ask questions about alerts or CIs, the ITOM MCP Server Console fetches data from the ServiceNow ITOM environment. It performs actions on behalf of the agent through natural language conversation.
+The ITOM MCP Server Console bridges your ServiceNow ITOM environment to any AI-enabled MCP Client, such as Moveworks or AWS Claude. When agents use an MCP Client to ask questions about alerts or CIs, the ITOM MCP Server Console fetches data from the ServiceNow ITOM environment. It also performs actions on behalf of the agent through natural language conversation.
 
 The ITOM MCP Server Console supports these core capabilities for alert investigation and CI reliability:
 

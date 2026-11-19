@@ -1,20 +1,20 @@
 ---
 title: Landing page cards
-description: The landing page cards provide a visual summary of active and impacted devices, and alerts for monitored applications.
+description: The landing page cards provide a visual summary of active and impacted devices, and alerts for monitored applications, facilitating efficient data analysis across various categories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/dashboard-cards.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # Landing page cards
 
-The landing page cards provide a visual summary of active and impacted devices, and alerts for monitored applications.
+The landing page cards provide a visual summary of active and impacted devices, and alerts for monitored applications, facilitating efficient data analysis across various categories.
 
 **Note:** The graphs display the latest data from the last two hours.
 
@@ -40,7 +40,7 @@ Impacted devices
 
 </td><td>
 
-Count of impacted users based on the alerts of both the devices and the applications running on that device.
+Displays the count of impacted users based on the alerts of both the devices and the applications running on that device.
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Devices
 
 </td><td>
 
-World map that shows device counts by location, with options to drill down into specific regions and open the Devices page for details.
+The devices world map shows device counts by location, enables you to drill down into specific regions, and redirects to the Devices page for detailed insights.
 
 </td></tr></tbody>
 </table>To return to the main page, see [Landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-workspace-dashboard-tab.md).

@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -38,6 +38,8 @@ Configure each associated list from the view to handle run time data rendering.
 
 **Related topics**  
 
+
+[Setup for the UI Builder]()
 
 [Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
 

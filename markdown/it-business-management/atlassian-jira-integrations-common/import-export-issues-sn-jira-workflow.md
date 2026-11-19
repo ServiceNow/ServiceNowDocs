@@ -7,7 +7,7 @@ release: australia
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-21"
 reading_time_minutes: 3
 breadcrumb: [Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
@@ -20,7 +20,7 @@ To export and import issues between Agile Development 2.0 and Jira, you must com
 
 ## Importing to Agile Development 2.0 from Jira
 
--   When you create an issue of type epic in a Jira project, an epic is created for the assignment group according to the team integration settings that you configured.
+-   When you create an issue of type epic in a Jira project, an epic is created for the assignment group according to the team integration settings you configured.
 -   When you create an issue of type story in a Jira project, a story is created for the assignment group according to the team integration settings that you configured.
     -   The relationship between the story and its epic is retained as it is in Jira.
     -   The **Assigned To** field in the story displays the user from Jira, only if a user with the same email address is found in Agile Development 2.0.
@@ -53,6 +53,10 @@ To export and import issues between Agile Development 2.0 and Jira, you must com
     -   Updates to the **Assigned To** field in the ServiceNow platform is exported to Jira.
 -   When you add an attachment to a story or an epic, the same attachment is added to the corresponding issue in Jira.
 -   When you add work notes to a story or an epic, they are updated in the corresponding issue in Jira as comments.
+-   When you change the **State** of a story, the change is exported to Jira as a workflow transition.
+
+    **Note:** The export succeeds only if the Jira workflow allows a transition with the mapped name from the current status of the issue. For example, if the workflow has no transition from **To Do** to **Done**, moving a story directly to **Done** leaves the Jira status unchanged. The mapped name is the **External Choice Name** value in the choice map. For more information, see [Customize your workflow state configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/atlassian-jira-integrations-common/custom-choice-map-configuration.md).
+
 -   When you update the assignment group of an existing story in Agile Development 2.0, the issue is recreated in the Jira project that is associated with the updated assignment group.
 -   When you create a sprint for an assignment group in Agile Development 2.0, it is exported to Jira only if you configured the Jira board in the team integration settings.
 

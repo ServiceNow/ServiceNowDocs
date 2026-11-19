@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mcp-client-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-02"
 reading_time_minutes: 3
-breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
 
 # Model Context Protocol Client

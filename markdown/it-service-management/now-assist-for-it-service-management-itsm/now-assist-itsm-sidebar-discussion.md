@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -54,15 +54,15 @@ Summarizing Sidebar chats integrated with Microsoft Teams is supported. For more
 
 5.  Add the summary to the incident work notes, and provide feedback about it.
 
-<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d398452e269">
+<table id="choicetable_oz1_rtx_1cc"><thead><tr><th align="left" id="d389755e269">
 
 Option
 
-</th><th align="left" id="d398452e272">
+</th><th align="left" id="d389755e272">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d398452e278">
+</th></tr></thead><tbody><tr><td id="d389755e278">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -73,7 +73,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d398452e305">
+</td></tr><tr><td id="d389755e305">
 
 **Provide feedback for the summary**
 

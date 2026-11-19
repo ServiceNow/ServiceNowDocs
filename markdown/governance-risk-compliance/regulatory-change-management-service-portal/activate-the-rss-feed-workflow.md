@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Set up the RSS feeds infrastructure, Configure, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-The RCM IT Admin schedules the Pull RSS Feed to Regulatory Change flow to run on a daily, weekly, or monthly basis. The IT Admin also sets the time for the flow.
+The RCM IT Admin schedules the Pull RSS Feed to Regulatory Change flow, including the frequency \(daily, weekly, or monthly\) and the run time.
 
 ## Procedure
 

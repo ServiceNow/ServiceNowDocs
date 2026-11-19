@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Integration for Agent Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
+breadcrumb: [Integration for Agent Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Integrating Notify connector self-configured app with Microsoft Teams
@@ -29,7 +29,7 @@ Register your Microsoft Teams application with your ServiceNow instance for OAut
 -   **[Create a Connection &amp; Credentials alias for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/create-connection-credential-aliases.md)**  
 Create an alias to associate the connection information with the credential data required to complete the application integration in Microsoft Teams.
 -   **[Update the records in the Microsoft Teams Configuration page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/map-app-reg-cred-alias-ms-teams-config.md)**  
-Update the created records in Microsoft Teams to make seamless calls.
+Map the credential alias and application registry records you created to the Notify Microsoft Teams configuration so that you can make calls.
 -   **[Verify OIDC Application Registry creation for a self-configured app setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/verify-oidc-app-reg-creation-st.md)**  
 Verify whether the OIDC Application Registry was created when Microsoft Teams Application Registry was created and mapped to the configuration during a self-configured app setup process.
 

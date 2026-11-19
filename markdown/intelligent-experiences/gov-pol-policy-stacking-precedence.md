@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-23"
 reading_time_minutes: 3
 keywords: [policy stacking, precedence, priority, restrictiveness, user criteria, arc policies]
-breadcrumb: [Managing Arc policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing Arc policies, Controlling AI asset usage, Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Policy stacking and precedence in ServiceNow Arc

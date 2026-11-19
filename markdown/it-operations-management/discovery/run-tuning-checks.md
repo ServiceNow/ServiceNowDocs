@@ -1,13 +1,13 @@
 ---
 title: Run Tuning checks
-description: Tuning checks are scans aimed at optimizing configurations, grouped into suites with each specific check detailed below.
+description: Run Tuning check suites manually to scan your instance for configuration issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/run-tuning-checks.html
 release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-12"
 reading_time_minutes: 1
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -15,7 +15,7 @@ breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discove
 
 # Run Tuning checks
 
-Tuning checks are scans aimed at optimizing configurations, grouped into suites with each specific check detailed below.
+Run Tuning check suites manually to scan your instance for configuration issues.
 
 ## Before you begin
 
@@ -27,7 +27,11 @@ The configured checks are listed under the following tabs:
 
 -   Discovery suite
 -   MID suite
--   Self Monitoring suite
+-   Self monitoring suite
+
+**Note:** The Self monitoring suite creates tasks for the issues it finds instead of tuning recommendations. Its checks and results aren't included in the Tuning **Home** tab reports.
+
+Suites also run automatically on a schedule. To stop a check from running, deactivate it. For more information, see [Edit an existing check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/edit-an-existing-check.md).
 
 ## Procedure
 
@@ -35,17 +39,14 @@ The configured checks are listed under the following tabs:
 
 2.  Select **Checks**.
 
-3.  To manually run a check for Discovery suite, MID suite, or Self Monitoring suite, select **Run now**.
+3.  Select the tab for the suite that you want to run: **Discovery suite**, **MID suite**, or **Self monitoring suite**.
 
-    **Note:**
+4.  Select **Run now**.
 
-    The instance scan can only run one at a time, so wait for the in-progress scan to finish before re-running the suite.
+    **Note:** Only one scan can run at a time. Wait for the in-progress scan to finish before you run another suite.
 
-4.  To access more information about an issue, select the check name.
 
-    **Note:**
+## What to do next
 
-    -   To understand the issue, select the **Show check description** link.
-    -   To know more details on the issue, select the **Documentation on the check** link.
-    -   To view the definition page, select the **Check definition page** link. To edit a check, see [Edit an existing check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/edit-an-existing-check.md).
+After the scan finishes, review the results on the Tuning **Home** tab. For more information, see [Discovery Admin Workspace Tuning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/discovery-admin-workspace-tuning.md).
 

@@ -9,7 +9,7 @@ classification: asset-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [IT Asset Management content request process, IT Asset Management, Asset Management]
+breadcrumb: [ITAM content request, IT Asset Management, Asset Management]
 ---
 
 # Create IT Asset Management content request
@@ -18,7 +18,10 @@ Create a request for new content through the Service Catalog application for the
 
 ## Before you begin
 
-Content request can be made for the Software Asset Management content service and the Hardware Asset Management content service.
+The template for your content category is required:
+
+-   Software Asset Management \(SAM\): [SAM Content Templates for Asset Management Content Request \[KB2499223\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2499223)
+-   Hardware Asset Management \(HAM\): [HAM Content Templates for Asset Management Content Request \[KB2499232\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2499232)
 
 Role required: customer user or partner user
 

@@ -27,6 +27,8 @@ Role required: it\_demand\_user
 
 ## About this task
 
+\[Omitted video\] Description: Identify similar demand records using the identify similar records AI skill.
+
 -   If similar records exist, the related list displays them.
 -   If no similar records are found, a message appears and the related list remains empty.
 

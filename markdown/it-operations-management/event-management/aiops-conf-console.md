@@ -7,8 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-15"
 reading_time_minutes: 1
+keywords: [AI specialist, AIOps, NOC, Setup Hub, Otto]
 breadcrumb: [Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -16,9 +17,17 @@ breadcrumb: [Configure, Event Management, ITOM AIOps, IT Operations Management]
 
 The ITOM Configuration console gives administrators a single place to complete all Event Management setup steps — from installing plugins to configuring alert automations.
 
-The console contains two modules: Discovery and Event Management.
+Event Management helps you take control of your IT alerts from start to finish. The Event Management module walks you through each setup stage, from connecting monitoring tools to measuring results.
 
-Discovery guides you through the end-to-end setup of your IT infrastructure scanning. It covers assigning administrators, deploying and validating MID servers, configuring IP and cloud credentials, scheduling discovery runs, and reviewing schedules. It also includes diagnostics to identify discovery errors and detect anomalies, ensuring your environment is fully validated. It also includes diagnostics to identify discovery errors and detect anomalies. This ensures your environment is fully validated before you promote your configuration to production.
+## Setup process overview
 
-Event Management helps you take control of your IT alerts from start to finish. It begins with assigning administrators, setting up integration accounts, and installing the necessary integrations to connect your monitoring tools. From there, you can review and enrich incoming alerts, create incidents automatically, and reduce noise by grouping, ignoring, or delaying alerts. The platform also provides structured training for your operations team on key tools such as Service Operations Workspace, Express List, and Service Dashboard. Finally, built-in dashboards help you report on outcomes and measure progress before promoting your configuration to production.
+The Event Management module guides you through these stages:
+
+1.  Assign administrators. Assign the roles that let your team configure and manage Event Management.
+2.  Connect your monitoring tools. Set up integration accounts and install the integrations that bring alerts from your monitoring tools into the platform.
+3.  Review and enrich alerts. Review incoming alerts and enrich them with additional context so your operations team can act on them.
+4.  Automate incident creation. Create incidents automatically from alerts.
+5.  Reduce alert noise. Group related alerts, ignore alerts that need no action, or delay alerts to give them time to clear.
+6.  Train your operations team. Use structured training on key tools such as Service Operations Workspace, Express List, and Service Dashboard.
+7.  Report on outcomes. Use built-in dashboards to measure progress, and then promote your configuration to production.
 

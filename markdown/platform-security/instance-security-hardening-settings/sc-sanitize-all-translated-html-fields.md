@@ -7,7 +7,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-true
+&lt;none&gt;
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Security risk
 
 -   Severity score: 4.6
 -   CVSS score: Medium
--   Security risk details: Sanitizing HTML elements is a general guideline to ensure an attacker can't embed malicious content that may lead to Cross Site Scripting \(XSS\) attacks.
+-   Security risk details: Sanitizing HTML elements is best practice to ensure an attacker cannot embed malicious content that may lead to Cross Site Scripting \(XSS\) attacks.
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Functional impact
 
 </td><td>
 
-Allows users to access any table information if the widget is set to public and included in the property's value.
+Allows customers to access any table information if the widget is set to public and included in the property's value.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)

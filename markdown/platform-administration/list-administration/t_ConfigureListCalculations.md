@@ -1,6 +1,6 @@
 ---
 title: Configure list calculations
-description: You can configure list calculations for columns, which calculate column totals, minimums, maximums, and averages.
+description: Configure list calculations to display column totals, minimums, maximums, and averages below a list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/t\_ConfigureListCalculations.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Configure, List administration, Forms, fields, and lists, Configure
 
 # Configure list calculations
 
-You can configure list calculations for columns, which calculate column totals, minimums, maximums, and averages.
+Configure list calculations to display column totals, minimums, maximums, and averages below a list.
 
 ## Before you begin
 
@@ -27,11 +27,11 @@ You can configure list calculations for multiple columns in the same list. List 
 **Note:**
 
 -   List calculations are also available in list reports.
--   List calculations for a calculated field can only operate on the \*current values stored in the database for each record and not the values as calculated fresh when the list is rendered.
+-   List calculations for a calculated field can only operate on the current values stored in the database for each record. They cannot use the values as calculated fresh when the list is rendered.
 
 ## Procedure
 
-1.  In a list of records, right-click the header of a numeric column you want to evaluate with list calculations.
+1.  In a list of records, select and hold \(or right-click\) the header of a numeric column you want to evaluate with list calculations.
 
 2.  Select **Configure** &gt; **List Calculations**.
 

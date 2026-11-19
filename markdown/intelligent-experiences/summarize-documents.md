@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/summarize-documents.html
 release: australia
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Content insights AI agent, Use, Content Understanding, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Content insights AI agent, Use, Content Understanding, Enable AI experiences]
 ---
 
 # Summarize documents and images

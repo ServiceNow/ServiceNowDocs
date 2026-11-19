@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-touchpoint-lead.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-11"
 reading_time_minutes: 1
 breadcrumb: [Manage touchpoints, Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -27,7 +27,7 @@ Touchpoints are interaction records that you associate with a specific lead. Whe
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All** and open the lead record.
 

@@ -1,18 +1,18 @@
 ---
 title: Document Intelligence for Customer Service
-description: Use the Document Intelligence for Customer Service feature to extract relevant information from email and case attachments, such as credit card numbers or customer addresses. Add that information to cases.
+description: Use the Document Intelligence for Customer Service feature to extract relevant information from email and case attachments, such as credit card numbers or customer addresses, and add that information to cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-document-intelligence.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Document Intelligence for Customer Service
 
-Use the Document Intelligence for Customer Service feature to extract relevant information from email and case attachments, such as credit card numbers or customer addresses. Add that information to cases.
+Use the Document Intelligence for Customer Service feature to extract relevant information from email and case attachments, such as credit card numbers or customer addresses, and add that information to cases.
 
 \[Omitted image "doc-intel-case-fields-predicted.png"\] Alt text: Case details tab displaying Predicted or Predicted from Docintel labels under certain field values, such as Account or Vendor name, alerting agents that the information was extracted by Document Intelligence.
 
@@ -20,11 +20,11 @@ Agents can review values for extracted fields and make corrections as needed by 
 
 ## Predicted field values
 
-In CRM Workspace and Core UI, the fields on the Case form that contain Document Intelligence predicted values are identified with an AI icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI icon\) and label. These fields also include an information icon that displays a message with additional context about the predicted values.
+In CSM Configurable Workspace and Core UI, the fields on the Case form that contain Document Intelligence predicted values are identified with an AI icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI icon\) and label. These fields also include an information icon that displays a message with additional context about the predicted values.
 
 **Note:** The system displays the AI icon automatically. The agent doesn’t need to refresh the record page.
 
-In CRM Workspace and Core UI, the fields on the Case form that contain Document Intelligence predicted values are identified with the message `Predicted from DocIntel`.
+In CSM Configurable Workspace and Core UI, the fields on the Case form that contain Document Intelligence predicted values are identified with the message `Predicted from DocIntel`.
 
 ## Prediction banner
 
@@ -37,7 +37,7 @@ The system displays a banner at the top of a case record that contains one or mo
 
 Once an agent reviews the field, the banner is removed.
 
-The banner is displayed for records in the Case table, extensions of the Case table, and interaction records. The banner is displayed in the Core UI and CRM Workspace.
+The banner is displayed for records in the Case table, extensions of the Case table, and interaction records. The banner is displayed in the Core UI and CSM Configurable Workspace.
 
 The banner can be enabled or disabled by the **sn\_csm\_ml\_task.ui.banner.enabled** system property.
 
@@ -58,7 +58,12 @@ Access the DocIntel Admin experience through the Task Intelligence Admin Console
     **Note:** If Document Intelligence Admin isn’t installed, the home page displays a link that you can use to download and activate the application.
 
 
-For more information, see [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-di-use-case.md).
+For more information, see the following topics:
+
+-   [Create a Document Intelligence use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intel-create-di-use-case.md)
+-   [Monitor Document Intelligence performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/doc-intel-monitor-performance.md)
+
+.
 
 ## Use Cases list
 
@@ -73,31 +78,33 @@ Each use case has an MLUC ID number that is automatically assigned when the use 
 
 ## Document classification
 
-With the system administrator role, you can create document classification use cases and define the classes or categories for the AI to detect and apply to documents. This process is useful in situations where there are multiple types of documents that must be evaluated.
+With the system administrator role, you can create [document classification use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-document-classification-use-cases.md) and define the classes or categories for the AI to detect and apply to documents. This process is useful in situations where there are multiple types of documents that must be evaluated.
 
 Set up a document classification use case in the following steps.
 
-1.  Create a document classification use case.
+1.  [Create a document classification use case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/set-up-document-classification-use-cases.md)
 
     Define the name and properties for the use case.
 
-2.  Create a document class.
+2.  [Create a document class.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-document-classes.md)
 
     Define the classes or categories that the AI learns to detect and apply to documents.
 
-3.  Create a document task for document classification and upload sample documents for each class.
-4.  Train a use case.
+3.  [Create a document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/upload-documents-for-extraction.md) for document classification and upload sample documents for each class.
+4.  [Train a use case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/train-a-use-case.md)
 
     Initiate a training job to provide user inputs from completed document tasks to the AI for continuous improvement.
 
 
 -   **[How Document Intelligence for Customer Service works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-docintel-how-it-works.md)**  
-Document Intelligence for Customer Service extracts relevant information from email and case attachments and adds it to fields on the case record.
+Document Intelligence for Customer Service performs a series of steps to extract relevant information from email and case attachments and add that information to fields on the case record.
 
 **Parent Topic:**[Task Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-task-intelligence.md)
 
 **Related topics**  
 
+
+[Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/document-intelligence-landing.md)
 
 [Configure Document Intelligence for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-doc-intel-configuring-.md)
 

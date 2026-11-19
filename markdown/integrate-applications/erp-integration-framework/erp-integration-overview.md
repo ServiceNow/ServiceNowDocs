@@ -37,7 +37,7 @@ Zero Copy Connector for ERP \(Enterprise Resource Planning\) is a ServiceNow sco
 
 </td><td>
 
-Use Zero Copy Connector AI agent collection\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for Zero Copy Connector for ERP.
+[Use Zero Copy Connector AI agent collection\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for Zero Copy Connector for ERP.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
 
 </td><td>
 

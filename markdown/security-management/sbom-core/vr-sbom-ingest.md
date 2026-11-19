@@ -7,7 +7,7 @@ release: australia
 product: SBOM Core
 classification: sbom-core
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
@@ -31,15 +31,15 @@ Role required: sn\_sbom\_core.sbom\_ingest
 
     The method you use to upload your files depends on whether you have the SBOM Core or SBOM Response applications installed.
 
-<table id="choicetable_xcf_543_czb"><thead><tr><th align="left" id="d146031e86">
+<table id="choicetable_xcf_543_czb"><thead><tr><th align="left" id="d146542e86">
 
 Option
 
-</th><th align="left" id="d146031e89">
+</th><th align="left" id="d146542e89">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d146031e95">
+</th></tr></thead><tbody><tr><td id="d146542e95">
 
 **If you have installed SBOM Core**
 
@@ -58,7 +58,7 @@ The file name is displayed on the Choose an attachment file page.
 5.  Select **OK**.
 
 
-</td></tr><tr><td id="d146031e153">
+</td></tr><tr><td id="d146542e153">
 
 **If you have installed SBOM Response starting with v4.0**
 

@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -62,7 +62,7 @@ When a user requests catalog items, you can dynamically present a list of catalo
 
 4.  [Create a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-subflow.md) with the new input.
 
-5.  Navigate to **All** &gt; **Process Automation Administration** &gt; **Activity Definitions**.
+5.  Navigate to **All** &gt; **Playbook Administration** &gt; **Activity Definitions**.
 
 6.  Open or [create the activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-activity-definition.md) to add the new input to.
 

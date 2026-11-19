@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Identity Center, Identity]
 ---
@@ -25,7 +25,7 @@ Identity Metrics for administrators has the trends for the following:
 -   Inactive sessions
 -   Identity types
 
-**Note:** You need the `privileged_role_config_admind` to manage role configurations in the Identity Center, including adding, deleting, creating, reading, and viewing reports in the **sys\_icenter\_role\_config** table.
+**Note:** You need the `privileged_role_config_admind` to manage role configurations in the Identity Center, including adding, deleting, creating, reading, and viewing reports in the sys\_icenter\_role\_config table.
 
 To learn more, see the [Security Center Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sc-metrics.md).
 

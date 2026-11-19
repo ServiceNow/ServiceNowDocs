@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-recruitmentworkspace-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -140,7 +140,7 @@ Create and assign tasks to your job applicants or internal stakeholders, and man
 
 Collaborate with the hiring manager on the job requisition in the activity stream.
 
--   **[\[Placeholder link text to key bundle-emplsm.send-targeted-emails\]](https://www.servicenow.com/docs/access?context=send-targeted-emails&family=zurich&ft:locale=en-US)**
+-   **[send targeted emails](https://www.servicenow.com/docs/access?context=send-targeted-emails&family=zurich&ft:locale=en-US)**
 
 Send targeted emails to the internal and external talent types from different access points in the Recruitment workspace for effective communication.
 
@@ -342,7 +342,7 @@ Zurich
 
 -   **Activation information**
 
-Install Recruiter Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Recruiter Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Recruitment workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -355,7 +355,7 @@ Australia
 
 -   **Activation information**
 
-Install Recruitment workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Recruitment workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Recruitment workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

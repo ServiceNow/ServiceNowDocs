@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-10-26"
 reading_time_minutes: 1
 keywords: [developer sandboxes, single sign-on, SSO, sandbox login]
-breadcrumb: [Install and configure, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Install and configure, Developer Sandboxes, Developing your application, Building applications]
 ---
 
 # Single sign-on for Developer Sandboxes
@@ -31,6 +31,4 @@ The following properties must be set in the base instance before developers can 
 
 -   Disable ACR: `sys_property glide.sso.acr.enable = false`
 -   Enable SSO: `glide.authenticate.multisso.enabled = true`
-
-**Parent Topic:**[Developer Sandboxes installation and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dsb-configuring-landing.md)
 

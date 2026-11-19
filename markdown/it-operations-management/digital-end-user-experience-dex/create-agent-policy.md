@@ -1,21 +1,21 @@
 ---
 title: Create an agent policy
-description: Create an agent policy by configuring a filter that determines the configuration items \(CIs\) to run the checks and the metrics that are collected.
+description: Create an agent policy by configuring a filter that determines the Configuration Items \(CI\) to run the checks and the metrics that are collected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/create-agent-policy.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [create agent policy, agent policy, dex agent policy, configure policy checks, monitored cis]
-breadcrumb: [Collecting DEX metrics, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Managing DEX Agent policy, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Create an agent policy
 
-Create an agent policy by configuring a filter that determines the configuration items \(CIs\) to run the checks and the metrics that are collected.
+Create an agent policy by configuring a filter that determines the Configuration Items \(CI\) to run the checks and the metrics that are collected.
 
 ## Before you begin
 
@@ -33,39 +33,39 @@ Role required: admin
 
 4.  Select **New**.
 
-5.  Enter a descriptive name and description for the policy.
+5.  Provide a descriptive name and description for the policy.
 
-    **Note:** In the **Publish status** field, the value is set to **Draft**. After you create and save the policy, the **Publish status** value changes to **Ready to publish**. In the **Hierarchy** field, the value is set to **None**. If you create a child for the current policy, the value changes to **Parent**.
+    **Note:** In the **Publish status**, the value is set to *Draft*. After you create and save the policy, the **Publish status** value changes to *Ready to publish*. In the **Hierarchy** field, the value is set to *None*. If you create a child for the current policy, the value changes to *Parent*.
 
 6.  On the **Monitored CIs** tab, select one of the following options.
 
-<table id="choicetable_en5_d41_52c"><thead><tr><th align="left" id="d434673e163">
+<table id="choicetable_en5_d41_52c"><thead><tr><th align="left" id="d437031e158">
 
 Option
 
-</th><th align="left" id="d434673e166">
+</th><th align="left" id="d437031e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d434673e172">
+</th></tr></thead><tbody><tr><td id="d437031e167">
 
 **Manual calculation**
 
 </td><td>
 
-Select to exclude the policy from scheduled policy calculation, ignoring any changes to the policy impacted CIs.Select this option when the policy monitors a single CI. The option enables you to avoid a long completion time for the **Refresh and Publish Monitoring Policies** scheduled job.
+Select to exclude the policy from scheduled policy calculation, ignoring any changes to the policy impacted CIs.Select this option when the policy monitors a single CI. The option enables you to avoid a long completion time for the Refresh and Publish Monitoring Policies scheduled job.
 
-</td></tr><tr><td id="d434673e186">
+</td></tr><tr><td id="d437031e178">
 
 **Monitored CI type by filter**
 
 </td><td>
 
-1.  In the **Monitored CI type** field, select the CI type that you want the policy checks to monitor.
-2.  In the **Filter** field, configure a filter so that the policy checks monitor only CI types that meet the specified criteria. CI **tags** are included in the available criteria.
+1.  In the **Monitored CI type** field, select the CI type, which you want the policy checks to monitor.
+2.  In the **Filter** field, configure a filter so that the policy checks monitor only CI types, which meet the specified criteria. CI **tags** are included in the available criteria.
 
 
-</td></tr><tr><td id="d434673e213">
+</td></tr><tr><td id="d437031e205">
 
 **Monitored CI type by script**
 
@@ -73,7 +73,7 @@ Select to exclude the policy from scheduled policy calculation, ignoring any cha
 
 Specify the monitored CIs using a script. Using a script enables you to create a CI filter for several tables related to each other. For example, you can set a filter in both a Linux servers table and an Oracle table when searching for a CI.
 
-</td></tr><tr><td id="d434673e224">
+</td></tr><tr><td id="d437031e216">
 
 **Monitored CI type by CMDB Group**
 
@@ -92,15 +92,15 @@ Specify the monitored CIs by using CMDB group queries. When selected, the **Moni
 
 9.  On the **Scheduling** tab, select one of the following options.
 
-<table id="choicetable_elq_mdb_52c"><thead><tr><th align="left" id="d434673e289">
+<table id="choicetable_elq_mdb_52c"><thead><tr><th align="left" id="d437031e281">
 
 Option
 
-</th><th align="left" id="d434673e292">
+</th><th align="left" id="d437031e284">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d434673e298">
+</th></tr></thead><tbody><tr><td id="d437031e290">
 
 **Interval-based scheduling**
 
@@ -108,7 +108,7 @@ Steps
 
 Configure the time interval \(in seconds\) to indicate the frequency with which the policy's checks run.
 
-</td></tr><tr><td id="d434673e307">
+</td></tr><tr><td id="d437031e299">
 
 **Cron-based scheduling**
 
@@ -127,7 +127,7 @@ The specified cron expression operates in the time zone of the machine hosting t
 </td></tr></tbody>
 </table>    **Note:** If an **Interval** or **Cron** value was specified for the check definition, that value overrides the value configured in either of these fields.
 
-10. On the **Credentials** tab, select one of the following options.
+10. On the **Credentials** tab, select one of the following.
 
     |Options|Steps|
     |-------|-----|

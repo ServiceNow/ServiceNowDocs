@@ -1,20 +1,20 @@
 ---
-title: Installed application Devices page
-description: The devices lists capture data regarding All devices, Active devices, and Impacted devices. This information helps with security and access control and provides insights into user behavior and application usage.
+title: Installed application — Devices page
+description: The devices lists capture data regarding All devices, Active devices, and Impacted devices. This information helps with security and access control, as well as providing insights into user behavior and application usage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/installed-app-users-form.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Applications list, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
-# Installed application Devices page
+# Installed application — Devices page
 
-The devices lists capture data regarding All devices, Active devices, and Impacted devices. This information helps with security and access control and provides insights into user behavior and application usage.
+The devices lists capture data regarding All devices, Active devices, and Impacted devices. This information helps with security and access control, as well as providing insights into user behavior and application usage.
 
 <table id="table_lsb_btf_4wb"><thead><tr><th>
 
@@ -30,7 +30,7 @@ Device
 
 </td><td>
 
-Active or impacted device that is connected to DEX.
+Active or Impacted device that is connected to DEX.
 
 </td></tr><tr><td>
 
@@ -54,13 +54,13 @@ App version
 
 </td><td>
 
-App version installed on the device.
+This lists the app version present on the device.
 
 </td></tr></tbody>
 </table>**Note:**
 
--   Both device name filter and app version filter are available on installed applications. You can use these filters to search all the devices listed in the *dex\_device* table.
--   You can use the app versions drop-down list to search for all the versions present in the *dex\_application\_version* table.
+-   Both device name filter and app version filter are available on installed applications. This allows us to search all the devices listed in the *dex\_device* table.
+-   The app versions drop-down allows us to search for all the versions present in the *dex\_application\_version* table.
 -   The All Devices table lists devices where the app was accessed at least once \(for Windows\) and have the application installed \(for macOS\). This data refreshes every 24 hours.
 -   There can be multiple records for a device if it has multiple versions of the same application.
 
@@ -78,7 +78,7 @@ Device
 
 </td><td>
 
-Active or impacted device that is connected to DEX.
+Active or Impacted device that is connected to DEX.
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Alerts
 
 </td><td>
 
-Number of active alerts for the application on the device.Only Impacted devices page has this field.
+This field represents the number of active alerts for the application on the device.Only Impacted devices page has this field.
 
 **Note:** Select the alert count column to access the device alerts page.
 
@@ -122,6 +122,8 @@ Number of active alerts for the application on the device.Only Impacted devices 
 -   The Active devices list displays the Agent Client Collector \(ACC\) installed on their devices.
 -   By default, sorting is available only on the Impacted devices page and displays all devices on with ACC is installed for the latest 1000 records.
 -   The list displays active devices and refreshes every 5 minutes, a maximum of 1000 devices are listed. If no new data is available, the last available data is displayed.
+
+Selecting the user name takes you to the details page of that user. For detailed information on a user and associated applications, see [Device details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-workspace-user-details.md).
 
 **Parent Topic:**[Applications list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/application-form.md)
 

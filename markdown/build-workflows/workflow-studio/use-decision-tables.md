@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
 breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 
 Decision tables built in Workflow Studio are executed in flows with flow logic or in scripts with API calls.
 
-Although decision tables are built in Workflow Studio, the actual execution of the decision takes place in other applications. Keeping decision actions separate from these applications allows the decisions to be reused and called when needed.
+Although decision tables are built in Workflow Studio, the actual execution of the decision takes place in other applications. Keeping decision actions separate from these applications enables decisions to be reused and called when needed.
 
 ## Decision tables in flows
 

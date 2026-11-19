@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/scan-engine-diagnostic-dashboards.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Platform Health, Using Impact, Impact]
+breadcrumb: [Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
 ---
 
 # Track Platform Health trends
@@ -16,7 +16,7 @@ Analytics Dashboards provide a graphical way to view detailed information relati
 
 Analytics Dashboards vary depending on your ServiceNow role. As each role has specific needs and responsibilities, the dashboard is tailored to provide relevant insights and metrics per role.
 
-Each dashboard role has a correlative relationship with its corresponding dashboard view. Users will only be able to access dashboard views associated to the roles their account has been granted. Access refreshed dashboards each time a scan is completed.
+Each dashboard role has a correlative relationship with its corresponding dashboard view. Users will only be able to access dashboard views associated to the roles their account has been granted.
 
 <table id="table_z2w_4vz_chc"><thead><tr><th>
 

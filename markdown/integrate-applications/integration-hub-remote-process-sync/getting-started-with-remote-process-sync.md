@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 20
 breadcrumb: [Integration Hub Remote Process Sync, Workflow Data Fabric]
 ---
@@ -23,6 +23,8 @@ Learn the basics of setting up a Remote Process Sync integration in order to lin
 Before deciding to move forward with Remote Process Sync as your integration framework, consider how this framework compares to other multi-instance ServiceNow AI Platform® integrations. While solutions such as [Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/instance-data-replication.md) and the [Remote Instance spoke]() support simple multi-instance integrations, Remote Process Sync supports more complex multi-instance integration use cases, focusing on integrating instances by high-level business processes.
 
 **Note:** Remote Process Sync replaces the eBonding spoke for integrating instances.
+
+\[Omitted image "idr-remotespoke-rps-comparison.png"\] Alt text: Instance Data Replication and the Remote Instance spoke support simple integrations for an entire table or using ServiceNow AI Platform APIs. Remote Process Sync supports more complex multi-instance integrations.
 
 If you choose to use Remote Process Sync as your multi-instance integration framework, the next step is to learn about the difference between:
 

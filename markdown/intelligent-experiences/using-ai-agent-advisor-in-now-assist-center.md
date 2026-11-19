@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-02"
 reading_time_minutes: 2
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [Use, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Use, AI Agent Advisor, AI Admin Center, Enable AI experiences]
 ---
 
 # AI Agent Advisor in AI Admin Center
@@ -60,7 +60,7 @@ Edit a custom AI agent that was created for an automation opportunity.
 **Related topics**  
 
 
-[AI Agent Advisor in AI Control Tower]()
+[AI Agent Advisor in Control Tower]()
 
 [AI Agent Advisor in AI Agent Studio]()
 

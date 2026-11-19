@@ -7,8 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [integration flow, ATS integration, Integration Hub, job requisition data, create integration flow]
 breadcrumb: [Send job requisitions to the ATS, ATS integration, Integrate, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Monitoring an AI system, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Monitoring an AI system, Working with AI asset records, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Review scores for an AI system
@@ -27,9 +27,9 @@ When a specific AI system needs attention, determine which metrics are affecting
 
 1.  Navigate to the **Monitor** tab for the AI system that you want to review in one of the following ways:
 
-    -   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory**. Select the AI system asset and then select the **Monitor** tab.
-    -   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** and select a system name in the **AI systems ranked by score** widget.
-    -   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** &gt; **Evaluated sessions** and select the AI system name in the **AI system** column.
+    -   Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Inventory**. Select the AI system asset and then select the **Monitor** tab.
+    -   Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** and select a system name in the **AI systems ranked by score** widget.
+    -   Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** &gt; **Evaluated sessions** and select the AI system name in the **AI system** column.
 2.  Set the date range for the data you want to review.
 
     Select the date range picker and choose a time period. The default is **Last 30 days**. Select **Custom range** to specify an exact start and end date, up to 18 months apart.
@@ -38,11 +38,11 @@ When a specific AI system needs attention, determine which metrics are affecting
 
 3.  Assess overall quality performance by reviewing the **Average overall Quality score** card.
 
-    For example, if the quality score is 88%, the data sources table might show that Task completion \(weight 40%\) scored 88% while Answer completeness \(weight 35%\) scored 86%. A low score on a heavily weighted metric has a larger impact on the composite.
+    For example, if the quality score is 88%, the data sources table might show that Answer relevancy \(weight 40%\) scored 88% while Answer completeness \(weight 35%\) scored 86%. A low score on a heavily weighted metric has a larger impact on the composite.
 
 4.  Assess overall safety performance by reviewing the **Average overall Safety score** card.
 
-    For example, if the Instruction adherence score is lower than Secrets detection or Sexism detection, the agent may be handling sensitive data and language correctly but still straying from its approved response guidance. Reviewing the traces where Instruction adherence dipped lowest will show which specific exchanges the judge flagged and why.
+    For example, if the Instruction adherence score is lower than Secrets detection or Sexism, the agent may be handling sensitive data and language correctly but still straying from its approved response guidance. Reviewing the spans where Instruction adherence dipped lowest shows which specific responses the judge flagged and why.
 
 5.  Confirm which metrics are scoring this AI system by reviewing the **Metrics evaluated** card.
 
@@ -77,7 +77,7 @@ When a specific AI system needs attention, determine which metrics are affecting
 
     Solid lines represent metrics that contribute to this AI system's overall quality or safety score. Dotted lines represent metrics that are collected but don't contribute to those scores. You can point to a data point on the chart to see the exact score for that date.
 
-    For example, a gradual decline in Task completion from 90% to 72% over three weeks indicates a quality regression for this AI system that warrants session-level investigation.
+    For example, a gradual decline in Answer relevancy from 90% to 72% over three weeks indicates a quality regression for this AI system that warrants session-level investigation.
 
     To add a dotted-line metric to your scoring formula, see [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-configure-metric-templates.md).
 

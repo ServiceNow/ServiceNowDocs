@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/hidden-insights.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Questions and responses in an exploration, Use, AI Data Explorer, S
 Generate a deeper level of analysis that can reveal new insights, enabling you to make more informed decisions.
 
 Extended analysis requires the analytics hidden insight skill from Query Generation to be active. For more information, see [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/enable-query-generation.md).
+
+For extended analysis to apply to Workflow Data Fabric tables, the system property **sn\_query\_gen.hidden.insights.wdf.enabled** must be created and set to `true`.
 
 To turn on extended analysis for an exploration, select it in the **Ask a question about data** field. You have the same choice when you launch AI Data Explorer in a data visualization or list.
 

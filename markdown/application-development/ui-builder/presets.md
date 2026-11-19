@@ -7,9 +7,9 @@ release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
+breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
 
 # Automatically configure components using presets
@@ -31,7 +31,7 @@ From the Configuration pane, you can select whether to apply a preset to the sel
 
 You can override values configured by a preset but in doing so you assume ownership of the component configuration and maintenance.
 
-Sub-pages do not inherit controllers and are not able to use presets in Brazil.
+Sub-pages do not inherit controllers and are not able to use presets in Australia.
 
 \[Omitted image "preset-list-example.png"\] Alt text: Heading component properties configured by a preset.
 

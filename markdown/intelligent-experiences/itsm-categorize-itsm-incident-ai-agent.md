@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itsm-categorize-itsm-incident-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-14"
 reading_time_minutes: 2
-breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Categorize ITSM incident AI agent
@@ -72,7 +72,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-itil
+itil, sn\_service\_desk\_agent
 
 </td></tr><tr><td>
 
@@ -106,8 +106,7 @@ Used in agentic workflows
 
 </td><td>
 
--   ITSM Agent Zero
--   Triage and categorize ITSM incident
+Triage and categorize ITSM incident
 
 </td></tr></tbody>
 </table>Learn more about IT Service Management at [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md).

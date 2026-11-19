@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/manage-access-connection-zcc.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-11"
 reading_time_minutes: 2
 breadcrumb: [Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -73,7 +73,7 @@ The df\_data\_steward role is granted to or removed from the selected roles. Eac
     -   df\_FINANCE\_data\_steward
 3.  The instance admin identifies the users who are responsible for creating and maintaining data fabric tables for the ITSM and finance applications.
 4.  The instance admin assigns the ITSM users to the df\_ITSM\_data\_steward role and the finance users to the df\_FINANCE\_data\_steward role.
-5.  The connection admin grants the df\_data\_steward role to ITSM data stewards by adding to the df\_ITSM\_data\_steward role to the ITSM connection in Zero Copy Connector Hub.
+5.  The connection admin grants the df\_data\_steward role to ITSM data stewards by adding the df\_ITSM\_data\_steward role to the ITSM connection in Zero Copy Connector Hub.
 6.  The connection admin grants the df\_data\_steward role to finance data stewards by adding the df\_FINANCE\_data\_steward role to the finance connection in Zero Copy Connector Hub.
 
 After access is granted, ITSM data stewards can only access and manage external ITSM data, while finance data stewards can only access and manage external finance data.

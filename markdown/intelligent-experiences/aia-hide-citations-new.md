@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-15"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Citations in Now Assist AI agents, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Citations in Now Assist AI agents, Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
 ---
 
 # Disable citations in AI Agent Studio

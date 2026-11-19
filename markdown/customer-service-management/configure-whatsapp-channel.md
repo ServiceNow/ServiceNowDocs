@@ -1,11 +1,11 @@
 ---
 title: Configure WhatsApp channel
-description: Configure WhatsApp as a consumer messaging channel within ServiceNow Customer Service Management using the WhatsApp Cloud API. WhatsApp integrates with ServiceNow Otto - Virtual Agent, to answer customer questions, with conversations routing to agents through the CRM Workspace. Twilio integration is also supported but offers more limited functionality than the Cloud API.
+description: Configure WhatsApp as a consumer messaging channel within ServiceNow Customer Service Management using the WhatsApp Cloud API. WhatsApp integrates with ServiceNow Otto - Virtual Agent, to answer customer questions, with conversations routing to agents through the CSM Configurable Workspace. Twilio integration is also supported but offers more limited functionality than the Cloud API.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-whatsapp-channel.html
 release: australia
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 6
 keywords: [WhatsApp, omnichannel, configure]
 breadcrumb: [Configure consumer messaging apps, Configure omnichannel, Configure, Customer Service Management]
@@ -13,13 +13,13 @@ breadcrumb: [Configure consumer messaging apps, Configure omnichannel, Configure
 
 # Configure WhatsApp channel
 
-Configure WhatsApp as a consumer messaging channel within ServiceNow Customer Service Management using the WhatsApp Cloud API. WhatsApp integrates with ServiceNow Otto - Virtual Agent, to answer customer questions, with conversations routing to agents through the CRM Workspace. Twilio integration is also supported but offers more limited functionality than the Cloud API.
+Configure WhatsApp as a consumer messaging channel within ServiceNow Customer Service Management using the WhatsApp Cloud API. WhatsApp integrates with ServiceNow Otto - Virtual Agent, to answer customer questions, with conversations routing to agents through the CSM Configurable Workspace. Twilio integration is also supported but offers more limited functionality than the Cloud API.
 
 Here's an example of a customer service journey combining WhatsApp support with omnichannel.
 
 Amara is a customer support director at a global e-commerce company managing support across multiple channels. Customers increasingly prefer WhatsApp for support, but the team was handling WhatsApp conversations outside of ServiceNow through a separate platform, creating data silos and inconsistent service levels.
 
-After setting up WhatsApp channel integration through the WhatsApp Cloud API \(or Twilio\), the team can now receive WhatsApp conversations directly in the CRM Workspace. They get the same queue management, assignment routing, and interaction tracking as other channels.
+After setting up WhatsApp channel integration through the WhatsApp Cloud API \(or Twilio\), the team can now receive WhatsApp conversations directly in the CSM Configurable Workspace. They get the same queue management, assignment routing, and interaction tracking as other channels.
 
 After setting this up, the customer saw support friction drop for WhatsApp-first users, and three channels became one unified workspace. First-response time improved by 35%, and agents now see all customer interactions \(WhatsApp, chat, email, phone\) in a single queue.
 
@@ -31,16 +31,120 @@ The following diagram shows the WhatsApp configuration workflow for administrato
 
 Every channel \(chat, email, WhatsApp\) requires the following foundational setup.
 
-| |Configuration step|Description|Role|
-|---|------------------|-----------|----|
-|1|[Create service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-awa-channel-case-tasks.md)|Service channel is created automatically during plugin installation for each channel \(chat, email, WhatsApp\). This is the container that routes customer interactions.|System \(automatic\)|
-|2|[Create a queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-queue.md)|Create a queue under each service channel in Omnichannel &gt; Administration &gt; Queues. The queue holds interactions waiting for an available agent. Each queue has a name, description, and optional schedule for availability windows.|CSM Admin|
-|3|[Configure AWA routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-assignment-rule.md)|Create an assignment rule in Advanced Work Assignment that determines how interactions are routed to agents. Examples: Most Capacity \(assigns to agent with most free time\), Least Busy, Round Robin. Create an assignment group with agents who have the required roles \(**sn\_customerservice\_agent**, **sn\_customerservice.consumer\_agent, awa\_agent**\). Link the rules and group to the queue.|CSM Admin|
-|4|[Set agent presence state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-experience.md)|Add the channel to the Available presence state, so agents are eligible to receive interactions from that channel. Without this step, the queue has no target agents.|CSM Admin|
-|5|[Activate channel in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-set-up.md)|Verify that the channel appears in the CRM Workspace. To confirm, assign a test interaction to an agent; the WhatsApp messaging UI appears only once an interaction is assigned. Agents must see the channel in their workspace interface to receive and manage interactions.|CSM Admin|
-|6|[Configure wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-wrap-up-codes-email-interactions.md)|Navigate to Interaction &gt; Wrap Up Codes to create categorization codes for interactions. Then navigate to Interaction &gt; Wrap-up configuration to assign these codes so agents can categorize interactions for reporting.|CSM Admin|
+<table id="configure-whatsapp-channel-table-1"><thead><tr><th>
 
-## WhatsApp integration options
+ 
+
+</th><th>
+
+Configuration step
+
+</th><th>
+
+Description
+
+</th><th>
+
+Role
+
+</th></tr></thead><tbody><tr><td>
+
+1
+
+</td><td>
+
+[Create service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-awa-channel-case-tasks.md)
+
+</td><td>
+
+Service channel is created automatically during plugin installation for each channel \(chat, email, WhatsApp\). This is the container that routes customer interactions.
+
+</td><td>
+
+System \(automatic\)
+
+</td></tr><tr><td>
+
+2
+
+</td><td>
+
+[Create a queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-queue.md)
+
+</td><td>
+
+Create a queue under each service channel in Omnichannel &gt; Administration &gt; Queues. The queue holds interactions waiting for an available agent. Each queue has a name, description, and optional schedule for availability windows.
+
+</td><td>
+
+CSM Admin
+
+</td></tr><tr><td>
+
+3
+
+</td><td>
+
+[Configure AWA routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-create-assignment-rule.md)
+
+</td><td>
+
+Create an assignment rule in Advanced Work Assignment that determines how interactions are routed to agents. Examples: Most Capacity \(assigns to agent with most free time\), Least Busy, Round Robin. Create an assignment group with agents who have the required roles \(**sn\_customerservice\_agent**, **sn\_customerservice.consumer\_agent, awa\_agent**\). Link the rules and group to the queue.
+
+</td><td>
+
+CSM Admin
+
+</td></tr><tr><td>
+
+4
+
+</td><td>
+
+[Set agent presence state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/agent-experience.md)
+
+</td><td>
+
+Add the channel to the Available presence state, so agents are eligible to receive interactions from that channel. Without this step, the queue has no target agents.
+
+</td><td>
+
+CSM Admin
+
+</td></tr><tr><td>
+
+5
+
+</td><td>
+
+5. [Activate channel in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-set-up.md)
+
+</td><td>
+
+Verify that the channel appears in the CSM Configurable Workspace. To confirm, assign a test interaction to an agent; the WhatsApp messaging UI appears only once an interaction is assigned. Agents must see the channel in their workspace interface to receive and manage interactions.
+
+</td><td>
+
+CSM Admin
+
+</td></tr><tr><td>
+
+6
+
+</td><td>
+
+[Configure wrap-up codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-wrap-up-codes-email-interactions.md)
+
+</td><td>
+
+Navigate to Interaction &gt; Wrap Up Codes to create categorization codes for interactions. Then navigate to Interaction &gt; Wrap-up configuration to assign these codes so agents can categorize interactions for reporting.
+
+</td><td>
+
+CSM Admin
+
+</td></tr></tbody>
+</table>## WhatsApp integration options
 
 WhatsApp configuration follows two separate paths: WhatsApp Cloud API or Twilio. Both paths share configuration steps.
 

@@ -23,7 +23,7 @@ Role required: sn\_risk\_advanced.risk\_asmt\_project\_reader and sn\_risk\_adva
 
 ## About this task
 
-You can perform the bulk risk assessment either from the Employee Center or AI Control Tower Workspace.
+You can perform the bulk risk assessment either from the Employee Center or Control Tower Workspace.
 
 ## Procedure
 
@@ -37,7 +37,7 @@ You can perform the bulk risk assessment either from the Employee Center or AI C
 
     4.  Open the risk assessment project that you want to assess.
 
-2.  To perform bulk risk assessment from the AI Control Tower Workspace, do the following:
+2.  To perform bulk risk assessment from the Control Tower Workspace, do the following:
 
     1.  Navigate to **All** &gt; **AI Control Tower**.
 

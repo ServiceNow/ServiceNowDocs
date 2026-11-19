@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [AI assets, Enable AI experiences]
 ---
 
 # ServiceNow AI agents library

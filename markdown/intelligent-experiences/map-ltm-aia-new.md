@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-10-15"
 reading_time_minutes: 1
-breadcrumb: [Set up long-term memory, AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Set up long-term memory, AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
 ---
 
 # Map Long-term memory category

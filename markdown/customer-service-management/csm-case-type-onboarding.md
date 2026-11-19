@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-case-type-onboarding.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 14
-breadcrumb: [Playbook applications, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Applications, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case Playbook for Onboarding
@@ -16,9 +16,9 @@ Use the Case Playbook for Onboarding to manage the process for taking on new cus
 
 The onboarding playbook provides the activities and tasks that agents can perform during the onboarding process. Agents can also create and assign tasks as needed and use the playbook to communicate with the customer.
 
-Use the Case Playbook for Onboarding for cases that were created by using the onboarding case type. This playbook is available for both CRM Workspace and CSM Agent Workspace. In the CSM workspaces, the playbook appears in the **Playbook** tab on the case record.
+Use the Case Playbook for Onboarding for cases that were created by using the onboarding case type. This playbook is available for both CSM Configurable Workspace and CSM Agent Workspace. In the CSM Workspaces, the playbook appears in the **Playbook** tab on the case record.
 
-**Note:** If you have the admin role, you can configure a playbook to use compact mode in CRM Workspace. Use the compact mode to move the playbook from a tab in the workspace to a tab in the contextual side panel.
+**Note:** If you have the admin role, you can configure a playbook to use compact mode in CSM Configurable Workspace. Use the compact mode to move the playbook from a tab in the Workspace to a tab in the contextual side panel.
 
 ## Case Playbook for Onboarding application
 
@@ -65,7 +65,7 @@ Focused activity view
 
 Feature that determines how the stages and activities appear in the playbook.
 
- The Case Playbook for Onboarding uses the [Focused activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-layout.md), which enables agents to see
+ The Case Playbook for Onboarding uses the [Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-select-activity-view.md), which enables agents to see
 
 -   The end-to-end life cycle of the onboarding workflow in the playbook life-cycle panel.
 -   The current stage is expanded and the current activity is highlighted within the playbook life-cycle panel.
@@ -83,7 +83,7 @@ Feature that displays the following information:
 -   Ribbon information, such as the case overview, customer details, timeline, and SLAs
 -   Dynamic related records
 
- The activity stream and ribbon information are available in CRM Workspace only.
+ The activity stream and ribbon information are available in CSM Configurable Workspace only.
 
  For more information about using the contextual side panel, see the following topics:
 
@@ -110,7 +110,7 @@ Compact mode
 
 </td><td>
 
-Mode that moves the playbook from a tab in the workspace to the contextual side panel. Agents can complete the playbook activities in the side panel while they are viewing the other tabs in the record page. This mode is available in CRM Workspace only.
+Mode that moves the playbook from a tab in the Workspace to the contextual side panel. Agents can complete the playbook activities in the side panel while they are viewing the other tabs in the record page. This mode is available in CSM Configurable Workspace only.
 
 Users with the admin role can configure a playbook to use compact mode in the playbook component configuration in UI Builder.
 
@@ -128,7 +128,7 @@ Feature that displays the records in the contextual side panel. These records dy
 -   Open the list in a new tab
 -   Create new records
 
- The dynamic related records feature is available in CRM Workspace only.
+ The dynamic related records feature is available in CSM Configurable Workspace only.
 
  For more information, see [Viewing related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-viewing-rel-records.md).
 
@@ -455,7 +455,7 @@ When the customer accepts the resolution, the Resolve stage completes and the Cl
 </td></tr></tbody>
 </table>## Process-based page variant for onboarding case type
 
-The Case Playbook for Onboarding v5.0 application includes a process-based page variant that you can activate and use with the onboarding case type in CRM Workspace. This page includes the following features:
+The Case Playbook for Onboarding v5.0 application includes a process-based page variant that you can activate and use with the onboarding case type in CSM Configurable Workspace. This page includes the following features:
 
 -   Horizontal stage picker in the record that provides an end-to-end view of the onboarding process.
 -   Related list tabs that are displayed in the Dynamic Related Records component in the contextual side panel.
@@ -464,7 +464,7 @@ The Case Playbook for Onboarding v5.0 application includes a process-based page 
 -   Email templates that are displayed in the contextual side panel.
 -   Customization of the start and end states of the approval flow as fields in the Approval request activity.
 
-Agents can create tasks as needed and view and update the case details. For more information, see [Playbook pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-pages.md).
+Agents can create tasks as needed and view and update the case details. For more information, see [Configure templates and pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-pages.md).
 
 ## Guided Playbook for Onboarding Request
 

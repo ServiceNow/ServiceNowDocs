@@ -76,7 +76,7 @@ You need the AI Worker Manager \[sn\_aia.worker\_manager\] role.
 
 ## Collection interaction limits
 
-To prevent prolonged back-and-forth conversations, the L1 IT Service Desk AI Specialist has limits on how many clarification exchanges it will attempt before escalating to a human service desk agent. If the requester does not respond or consistently provides incomplete information, the AI specialist:
+To prevent prolonged back-and-forth conversations, the L1 IT Service Desk AI Specialist limits how many requester replies it answers, based on the **Replies before reassigning** setting. When the requester replies more times than that setting allows, the AI specialist:
 
 -   Records what information was successfully collected
 -   Documents what required variables remain unfilled

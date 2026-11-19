@@ -46,3 +46,5 @@ Role required: sn\_erp\_integration.erp\_admin
 9.  Select **Save**.
 
 
+**Parent Topic:**[Creating and changing SAP business entities with IDoc in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/create-and-change-sap-business-entities-with-idoc.md)
+

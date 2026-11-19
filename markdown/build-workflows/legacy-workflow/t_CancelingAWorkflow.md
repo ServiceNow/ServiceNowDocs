@@ -7,7 +7,7 @@ release: australia
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-10"
 reading_time_minutes: 2
 breadcrumb: [Administering workflow contexts, Workflow administration, Classic Workflow, Build workflows]
 ---
@@ -32,7 +32,7 @@ Canceling a workflow attempts to stop the workflow gracefully by injecting a can
 
 3.  Configure form layout to add **On-cancel script** field to form.
 
-    For detailed information about configuring form layout, see .
+    For detailed information about configuring form layout, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/configure-form-layout.md).
 
 4.  Select the **Cancel** related link.
 

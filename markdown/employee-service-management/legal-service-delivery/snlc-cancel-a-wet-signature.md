@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Signature workflow for a request, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -28,15 +28,15 @@ The state of the contract request should be Awaiting signature.
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d736932e74">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d742260e74">
 
 Method
 
-</th><th align="left" id="d736932e77">
+</th><th align="left" id="d742260e77">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d736932e83">
+</th></tr></thead><tbody><tr><td id="d742260e83">
 
 **__Employee Center__**
 
@@ -47,7 +47,7 @@ Actions
 3.  Open the non-disclosure agreement request.
 
 
-</td></tr><tr><td id="d736932e116">
+</td></tr><tr><td id="d742260e116">
 
 **__Legal Service Portal__**
 

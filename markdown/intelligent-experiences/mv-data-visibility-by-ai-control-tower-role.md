@@ -1,32 +1,32 @@
 ---
 title: Role based data visibility
-description: AI Control Tower shows value, engagement, and cost data for the AI systems in a user’s scope. AI stewards can view data for all AI systems in an instance. Product owners can view data only for the AI systems that they manage.
+description: Control Tower shows value, engagement, and cost data for the AI systems in a user’s scope. AI stewards can view data for all AI systems in an instance. Product owners can view data only for the AI systems that they manage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-data-visibility-by-ai-control-tower-role.html
 release: australia
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
-breadcrumb: [Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Role based data visibility
 
-AI Control Tower shows value, engagement, and cost data for the AI systems in a user’s scope. AI stewards can view data for all AI systems in an instance. Product owners can view data only for the AI systems that they manage.
+Control Tower shows value, engagement, and cost data for the AI systems in a user’s scope. AI stewards can view data for all AI systems in an instance. Product owners can view data only for the AI systems that they manage.
 
-AI Control Tower supports two responsibility levels. AI stewards oversee AI systems at the instance level. Product owners oversee individual AI systems.
+Control Tower supports two responsibility levels. AI stewards oversee AI systems at the instance level. Product owners oversee individual AI systems.
 
-To access AI Control Tower, users must have either the AI steward role \(`sn_ai_governance.ai_steward`\) or the product owner \(`sn_ai_governance_ai_asset_owner`\) role. Users without one of these roles can’t access the application.
+To access Control Tower, users must have either the AI steward role \(`sn_ai_governance.ai_steward`\) or the product owner \(`sn_ai_governance_ai_asset_owner`\) role. Users without one of these roles can’t access the application.
 
 ## Data scope for each role
 
-Data scope is based on the **Managed by** field on the AI system record. If the **Managed by** field lists a user, that AI system is in the user’s scope. AI Control Tower filters value, engagement, and cost data to that scope.
+Data scope is based on the **Managed by** field on the AI system record. If the **Managed by** field lists a user, that AI system is in the user’s scope. Control Tower filters value, engagement, and cost data to that scope.
 
 A product owner’s scope is always a subset of an AI steward’s scope. For example, an AI steward might see all AI systems in the instance, while a product owner sees only the AI systems that they manage.
 
 Only deployed AI systems are included in calculations. Retired AI systems and AI systems in other states are excluded. As a result, the number of AI systems shown in a chart can be lower than the number of AI systems in the user’s scope.
 
-If a product owner doesn’t manage any AI systems, AI Control Tower shows zero values and empty widgets.
+If a product owner doesn’t manage any AI systems, Control Tower shows zero values and empty widgets.
 
 ## Why access differs
 
@@ -43,5 +43,5 @@ Product owners use scoped data to review value and engagement results, map AI sy
 
 [Feature access by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mv-feature-access-by-role.md)
 
-[Review value and engagement insights for AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/review-ai-system-value-and-engagement-data.md)
+[Review AI system value and engagement data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/review-ai-system-value-and-engagement-data.md)
 

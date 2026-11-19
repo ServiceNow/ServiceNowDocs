@@ -1,6 +1,6 @@
 ---
 title: Assign the Service Desk Manager role from SOW Admin Center
-description: Assign the Service Desk Manager \[sn\_itsm\_common.sn\_service\_desk\_manager\] role to add the L1 IT Service Desk AI Specialist to your team \(assignment group\) to help with incident resolution.
+description: Assign the Service Desk Manager \[sn\_sow\_itsm\_common.sn\_service\_desk\_manager\] role to add the L1 IT Service Desk AI Specialist to your team \(assignment group\) to help with incident resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/assign-sdm-role-l1-sd-ai-spec.html
 release: australia
@@ -14,11 +14,11 @@ breadcrumb: [Configure, L1 IT Service Desk AI Specialist, IT Service Management]
 
 # Assign the Service Desk Manager role from SOW Admin Center
 
-Assign the Service Desk Manager \[sn\_itsm\_common.sn\_service\_desk\_manager\] role to add the L1 IT Service Desk AI Specialist to your team \(assignment group\) to help with incident resolution.
+Assign the Service Desk Manager \[sn\_sow\_itsm\_common.sn\_service\_desk\_manager\] role to add the L1 IT Service Desk AI Specialist to your team \(assignment group\) to help with incident resolution.
 
 ## About this task
 
-You can assign the Service Desk Manager \[sn\_itsm\_common.sn\_service\_desk\_manager\] role manually using the Service Operations Workspace \(SOW\) Admin Center.
+You can assign the Service Desk Manager \[sn\_sow\_itsm\_common.sn\_service\_desk\_manager\] role manually using the Service Operations Workspace \(SOW\) Admin Center.
 
 Additionally, if you are an existing customer, the Service Desk Manager role is automatically assigned to users who meet any of the criteria below during the upgrade process using a fix script:
 
@@ -44,9 +44,9 @@ Role required: admin
 
     The Service desk manager page displays the following two tabs:
 
-    -   Service Desk Managers – Contains list of users and user groups assigned to the Service Desk manager \[sn\_itsm\_common.sn\_service\_desk\_manager\] role.
-    -   All available groups and users - Contains list of users and user groups that are available for assigning the Service Desk manager \[sn\_itsm\_common.sn\_service\_desk\_manager\] role.
-    **Note:** If no user or user group is currently assigned to the Service Desk manager \[sn\_itsm\_common.sn\_service\_desk\_manager\] role, the **Service Desk Managers** tab displays the **Assign Service Desk manager** role action, which redirects you to the **All available groups and users** tab.
+    -   Service Desk Managers – Contains list of users and user groups assigned to the Service Desk manager \[sn\_sow\_itsm\_common.sn\_service\_desk\_manager\] role.
+    -   All available groups and users - Contains list of users and user groups that are available for assigning the Service Desk manager \[sn\_sow\_itsm\_common.sn\_service\_desk\_manager\] role.
+    **Note:** If no user or user group is currently assigned to the Service Desk manager \[sn\_sow\_itsm\_common.sn\_service\_desk\_manager\] role, the **Service Desk Managers** tab displays the **Assign Service Desk manager** role action, which redirects you to the **All available groups and users** tab.
 
 4.  Select the **All available groups and users** tab.
 

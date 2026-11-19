@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/sap-ecc-primary-zcc.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Primary connectors, Manage zero copy connections, Zero Copy Connect
 The SAP ECC connector provides read-only access to data and metadata from an SAP ECC system.
 
 A connection admin can set up a connection to SAP ECC in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from SAP ECC. This allows users to access SAP ECC data through the table list view or by using GlideRecord scripts.
+
+**Note:**
+
+This connector is available starting with Yokohama patch 5.
 
 For details on implementation, refer to [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-integration-overview.md).
 

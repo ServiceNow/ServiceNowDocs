@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/exploring-zcc.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-03-12"
+reading_time_minutes: 5
 breadcrumb: [Zero Copy Connectors, Workflow Data Fabric]
 ---
 
@@ -23,6 +23,24 @@ The Zero Copy Connectors application provides a view where you can browse data s
 -   Fuel AI agents and workflows on the ServiceNow AI Platform with external data using data fabric tables.
 -   Provide data to AI-powered features on the ServiceNow AI Platform, expand workflow automation, and enrich metrics and analytics with enterprise data.
 
+## End-to-end workflow
+
+This infographic shows a sample end-to-end workflow of different users working together. The users can gather requirements, establish a zero copy connection, and create a data fabric table in the Zero Copy Connectors application.
+
+\[Omitted image "mmasset0020810-workflow-data-fabric-hub-workflow-horizontal.png"\] Alt text: Different users in an organization work together to define data requirements, establish a connection, and build data fabric tables for consumption. View the steps after the infographic for details.
+
+In this workflow:
+
+1.  A data consumer meets with a data steward and the connection admin to discuss data requirements for a new application on the ServiceNow AI Platform.
+2.  The connection admin gathers the data requirements and meets with the data source admin to create a service account. This provides access to the schema and tables needed for the new application.
+3.  The connection admin establishes a secure connection to the external data lake in the Zero Copy Connector Hub using the service account credentials provided by the data source admin. See [Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-connections-zcc.md).
+4.  The connection admin configures access controls in the connection details. This allows the data steward to access the connection to view data assets in the external data lake and create a data fabric table. See [Manage access to an established connection using roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-access-connection-zcc.md).
+5.  The data steward selects the established connection in the Zero Copy Connector Hub and creates a data fabric table. See [Create a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-data-fabric-table-zcc.md).
+6.  The data steward explores the available schema, selects a source table with the required data, and maps columns between the source table and the data fabric table. See [Create a data fabric table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/create-data-fabric-table-zcc.md).
+7.  The data steward works with the data consumer to review the data fabric table and verify that it meets the business needs of the application.
+8.  The data consumer begins developing the new application and accesses the data fabric table and its external data in real time just like any table on the ServiceNow AI Platform.
+9.  The data source admin monitors the external schema for consistency and communicates future schema changes to the connection admin and data steward.
+
 ## Zero Copy Connectors users
 
 |User|Description|
@@ -31,24 +49,6 @@ The Zero Copy Connectors application provides a view where you can browse data s
 |Data steward|Creates data fabric tables that provide access to external data, and maintains data quality to meet the business needs of data consumers.|
 |Data consumer|Accesses data fabric tables to develop applications. Defines an application's data requirements and coordinates with the data steward to refine data.|
 
-## End-to-end workflow
-
-This infographic shows a sample end-to-end workflow of different users working together to gather requirements, establish a zero copy connection, and create a data fabric table in the Zero Copy Connectors application.
-
-\[Omitted image "mmasset0020810-workflow-data-fabric-hub-workflow-horizontal.png"\] Alt text: Different users in an organization work together to define data requirements, establish a connection, and build data fabric tables for consumption. View the steps after the infographic for details.
-
-In this workflow:
-
-1.  A data consumer meets with a data steward and the connection admin to discuss data requirements for a new application on the ServiceNow AI Platform.
-2.  The connection admin gathers the data requirements and meets with the data source admin to create a service account that can access the schema and tables needed for the new application.
-3.  The connection admin establishes a secure connection to the external data lake in the Zero Copy Connector Hub using the service account credentials provided by the data source admin.
-4.  The connection admin configures access controls in the connection details, ensuring the data steward can access the connection to view data assets in the external data lake and create a data fabric table.
-5.  The data steward selects the established connection in the Zero Copy Connector Hub and creates a data fabric table.
-6.  The data steward explores the available schema, selects a source table with the required data, and maps columns between the source table and the data fabric table.
-7.  The data steward works with the data consumer to review the data fabric table and ensure that it meets the business needs of the application.
-8.  The data consumer begins developing the new application and accesses the data fabric table and its external data in real time just like any table on the ServiceNow AI Platform.
-9.  The data source admin monitors the external schema for consistency and communicates future schema changes to the connection admin and data steward.
-
 ## Zero Copy Connectors benefits
 
 |Benefit|Feature|Users|
@@ -56,13 +56,11 @@ In this workflow:
 |Access real-time data from external sources directly, without copying any data to your instance.|[Zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connections-zcc.md)|Connection admin|
 |Create a virtual representation of data from an outside source and make it accessible to data consumers on the instance as if it's stored locally.|[Data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-fabric-tables-zcc.md)|Data steward, data consumer|
 |Map internal or external data to a predefined data fabric table in an application using a zero copy connection.|[Data fabric tables included with applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mapping-application-tables-zcc.md)|Instance admin, connection admin, data steward|
+|Let each user see only the data they can access at the source, instead of using a shared service account.|[Personal authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/personal-auth-zcc.md)|Connection admin, data consumer|
 
 ## Differences between Zero Copy Connectors and Integration Hub
 
-Choose whether to use Zero Copy Connectors or Integration Hub to integrate with external systems.
-
--   When you want to retrieve real-time data from external sources without storing it on your instance, use Zero Copy Connectors.
--   When you want advanced import and transformation options or customizable integrations, use Integration Hub.
+For a comparison of Zero Copy Connectors and Integration Hub, see [Differences between Zero Copy Connectors and Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/zcc-vs-integration-hub.md).
 
 ## What to explore next
 

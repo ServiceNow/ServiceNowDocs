@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 15
 breadcrumb: [Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -23,7 +23,7 @@ This table lists the connectors that are provided with Event Management.
 **Note:**
 
 -   The Azure Metrics and AWS CloudWatch Metrics connectors display in the base system only when the Operational Intelligence plugin \(com.snc.sa.metric\) is activated.
--   All connectors support external credential storage solutions. For details on configuring external credential storage, see [External credential storage configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/external_cred_storage_configuration.md).
+-   All connectors support external credential storage solutions. For details on configuring external credential storage, see External credential storage configuration.
 
 <table id="table_lzz_dcm_s1c"><thead><tr><th>
 

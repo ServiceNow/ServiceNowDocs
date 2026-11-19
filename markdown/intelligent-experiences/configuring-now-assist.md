@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-22"
 reading_time_minutes: 4
 keywords: [Configuring, Now Assist Admin, console, ServiceNow AI Platform, GenAI, Generative AI]
-breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Overview tab in AI Admin Hub
@@ -76,5 +76,5 @@ The AI Admin Hub console contains the **AI Admin Hub checklist** with additional
 -   Discover the [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-overview.md).
 -   Explore the [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skills/now-assist-skills.md) available.
 -   [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md).
--   [Analyzing Now Assist usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-analytics-and-monitoring.md).
+-   [Analyzing generative AI usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-analytics-and-monitoring.md).
 

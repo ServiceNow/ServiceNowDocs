@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/launch-studio.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Monitor, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -36,15 +36,15 @@ Role required: sn\_rpa\_fdn.rpa\_developer, sn\_rpa\_fdn.rpa\_support\_user or s
 
 7.  Select one of the following options depending on whether you are on a remote or local machine.
 
-<table id="choicetable_r3f_bsy_vqb"><thead><tr><th align="left" id="d218548e151">
+<table id="choicetable_r3f_bsy_vqb"><thead><tr><th align="left" id="d220231e151">
 
 Option
 
-</th><th align="left" id="d218548e154">
+</th><th align="left" id="d220231e154">
 
 Action and description
 
-</th></tr></thead><tbody><tr><td id="d218548e160">
+</th></tr></thead><tbody><tr><td id="d220231e160">
 
 **Remote Machine**
 
@@ -64,7 +64,7 @@ Ensure to add the robot and connect to the Unattended Robot application.
 
  The associated package version opens in the selected robot machine.
 
-</td></tr><tr><td id="d218548e210">
+</td></tr><tr><td id="d220231e210">
 
 **Local Machine**
 

@@ -1,20 +1,20 @@
 ---
 title: Using the access map
-description: Learn how to use the Access map in AI Control Tower.
+description: Learn how to use the Access map in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/using-the-access-map.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Use, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Using the access map
 
-Learn how to use the **Access map** in AI Control Tower.
+Learn how to use the **Access map** in Control Tower.
 
 ## Before you begin
 

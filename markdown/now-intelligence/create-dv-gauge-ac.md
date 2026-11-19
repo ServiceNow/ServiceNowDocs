@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/crea
 release: australia
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 8
+reading_time_minutes: 7
 keywords: [Create gauge report, Create gauge visualization]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -153,7 +153,7 @@ Show refresh option
 
 </td><td>
 
-Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is hidden.
+Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is always hidden.
 
 </td></tr><tr id="ac-dv-show-export-option"><td>
 
@@ -357,7 +357,7 @@ Allow chart interaction
 
 </td><td>
 
-Enable an event to occur when a user selects a visualization or one of its segments.
+Enable an event to occur when a user clicks in a visualization or one of its segments.
 
 </td></tr><tr><td>
 
@@ -365,15 +365,12 @@ Action
 
 </td><td>
 
-Choose the event that occurs when a user selects in a visualization or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-chart-interactions.md).
+Choose the event that occurs when a user clicks in a chart or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** \[chartInteractionEnabled\] is true. -   **Go to data view** opens the records view in a Core UI list or KPI Details relevant to the associated segment or visualization. Records do not open in Workspace embedded lists.
 
--   **Go to data view** opens a list view, KPI Details page, or Usage Insights overview page relevant to the associated segment or visualization. For table data, a system property determines whether a Core UI list or a Platform Analytics list opens. For more information, see [Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/visualization-drilldown-in-config-ws.md).
+Usage Insights data sources redirect to the appropriate user, sessions, page, event pages that are based on corresponding usage data.
+
 -   **Go to URL** opens the specified URL, which can be on the instance or external. You have the option of specifying a page name to appear in the tooltip, for those visualizations with tooltips.
--   **Drill down to chart** \(Visualization Designer only\) Opens a different data visualization that is filtered by the selected data. You can add a drill-down visualization for each metric on the parent visualization.
 
-**Note:** The last level of drill down in the Platform Analytics experience is always a Core UI list. Records don't open in Workspace embedded lists.
-
-**Drill down to chart** supports only table data sources.
 
 </td></tr></tbody>
 </table>10. Select **Save** to continue editing the visualization, or **Save and close** to return to the Analytics Overview main screen.

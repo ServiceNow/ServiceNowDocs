@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-05-17"
 reading_time_minutes: 3
 breadcrumb: [Override AI Search theming, AI Search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---

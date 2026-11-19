@@ -17,7 +17,7 @@ Add, edit, and delete the routing criteria that determine which incidents the L1
 
 ## Before you begin
 
-Role required: sn\_itsm\_common.sn\_service\_desk\_manager
+Role required: sn\_sow\_itsm\_common.sn\_service\_desk\_manager
 
 ## About this task
 

@@ -7,7 +7,7 @@ release: australia
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use Microsoft Outlook Add-In for Legal Service Delivery, Microsoft Outlook Add-In for Legal Service Delivery, Integration with Third-party applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfille
 
 3.  View the legal request.
 
-<table id="choicetable_spn_5bq_bcc"><thead><tr><th align="left" id="d344815e122">
+<table id="choicetable_spn_5bq_bcc"><thead><tr><th align="left" id="d346781e122">
 
 Method
 
-</th><th align="left" id="d344815e125">
+</th><th align="left" id="d346781e125">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d344815e131">
+</th></tr></thead><tbody><tr><td id="d346781e131">
 
 **Using search**
 
@@ -53,7 +53,7 @@ Legal requests and matters matching the search criteria will be displayed.
 2.  Select the legal request or matter.
 
 
-</td></tr><tr><td id="d344815e165">
+</td></tr><tr><td id="d346781e165">
 
 **For an email**
 

@@ -17,3 +17,8 @@ breadcrumb: [Available SAP content packs, Content packs, Using, Zero Copy Connec
 
 The Zero Copy Connector for ERP Hire to Retire content pack contains models and process extensions that manage the employee lifecycle.
 
+-   **[Zero Copy Connector for ERP Hire to Retire content pack models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-content-pack-recruit-to-retire-data-models.md)**  
+The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Hire to Retire content pack contains models that you might need when interacting with an SAP SuccessFactors system. Hire to Retire is a process that manages the employee lifecycle.
+
+**Parent Topic:**[Available Zero Copy Connector for ERP content packs for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.md)
+

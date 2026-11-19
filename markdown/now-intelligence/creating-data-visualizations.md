@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/creating-data-visualizations.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 keywords: [Create visualization, Create data visualization]
 breadcrumb: [Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -17,7 +17,7 @@ See how to create data visualizations using different data sources.
 
 \[Omitted video\] Description: How to create a data visualization in the Visualization Designer.
 
-**Note:** In the Brazil release, visualizations are based on Highcharts version 12.3.0.
+**Note:** In the Australia release, visualizations are based on Highcharts version 12.3.0.
 
 Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/platform-analytics-roles.md).
 
@@ -46,7 +46,7 @@ Use a single score to show a value as a number or percentage. Visualize how the 
 -   **[Create a box plot data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-box-plot.md)**  
 Use a boxplot to show the median and lower and upper quartiles of numeric data along with outliers. You can also compare the distribution of different groups of this data.
 -   **[Create a bubble data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-bubble-ac.md)**  
-Use bubble visualizations to show multiple separate metrics on a single visualization, to answer binary questions, such as whether two fields have a relationship, and to highlight patterns.
+Use bubble visualizations to show multiple separate metrics on a single visualization and to answer binary questions, such as whether two fields have a relationship, and to highlight patterns.
 -   **[Create a dial data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-dial-ac.md)**  
 Use a dial visualization to show where a value lies between expected minimum and maximum values. Use the dial visualization to show how a value compares to a target or benchmark, track progress, or to identify areas for improvement.
 -   **[Create a gauge data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-dv-gauge-ac.md)**  

@@ -7,9 +7,9 @@ release: australia
 product: Conversational Intelligence
 classification: conversational-intelligence
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Conversation Insights, Analyzing AI effectiveness, Enable AI Experiences]
+breadcrumb: [Conversation Insights, Enable AI experiences]
 ---
 
 # Install Conversation Insights

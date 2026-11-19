@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/connections-zcc.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Explore, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
@@ -37,47 +37,12 @@ A role containing the df\_data\_steward role is required to access established c
 
 View established connections by navigating to **Admin** &gt; **Zero Copy Connector Hub** &gt; **Established connections** or **All** &gt; **Zero Copy Connector Hub** &gt; **Established connections**.
 
-## Monitoring connection status
-
-Determine whether a connection requires an update by checking the status on the **Established connections** tab.
-
--   **Connected**
-
-    The connection to the data source has been tested and established.
-
--   **Deactivated**
-
-    The connection to the data source has been deactivated by the connection admin.
-
--   **Needs configuration**
-
-    The connection attributes or authentication information are missing from the connection details.
-
--   **Needs mapping**
-
-    The connection has been tested and established, but the data isn't mapped to a data fabric table.
-
--   **Not connected**
-
-    The connection details have been added, but the connection to the data source isn't working.
+**Related topics**  
 
 
-## Data steward access
+[Monitoring established connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/monitoring-connection-status-zcc.md)
 
-The connection admin determines which data stewards can access a specific connection by granting the df\_data\_steward role to one or more roles on the **Access Controls** tab in an established connection.
+[Data steward access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/steward-access-zcc.md)
 
-The data steward's primary goal is to provide quality data to consumers to meet their business needs. Additionally, data stewards have the following responsibilities:
-
--   Understanding business applications and the data that users need.
--   Communicating data access requirements to integration admins.
--   Creating data fabric tables and mapping data from external sources.
--   Maintaining the quality and integrity of data.
-
-## Use cases
-
--   Access data from an external data source without importing and storing it on your instance. Customer order information is often stored in an external Customer Relationship Management \(CRM\) system, with the data ultimately residing in an external data lake such as Snowflake. When a customer calls to report a product issue, an agent working on the ServiceNow AI Platform opens a request and accesses the customer's full order history directly from Snowflake. The customer's order history stays in Snowflake, the system of record, but is available to the agent in real time on the ServiceNow AI Platform.
--   Provide end-to-end details to agents with real-time data from an outside source. When a customer calls to make a warranty service claim against a vehicle, an agent working on the ServiceNow AI Platform can access extended warranty details from an external data lake in real time using a zero copy connection. The customer service agent can update the service request ticket with the latest warranty details directly from the data lake, ensuring the latest warranty information is used in the service ticket.
--   Access data across multiple ServiceNow instances without replication. With the ServiceNow Remote Instance connector, you can access records from other instances locally, without moving, duplicating, or setting up complex ETL processes. For example, if you manage several ServiceNow instances and need to consolidate data for reporting or workflow decisions, designate one instance as your central processing instance and create zero copy connections to query tables on your other instances in real time. Data remains in its original location and isn't persisted on the processing instance, so you can maintain compliance with data residency requirements while gaining unified visibility across your organization.
-
-For more information, see [Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-connections-zcc.md).
+[Use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/use-cases-zcc.md)
 

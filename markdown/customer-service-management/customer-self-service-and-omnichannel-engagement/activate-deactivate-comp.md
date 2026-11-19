@@ -1,22 +1,24 @@
 ---
 title: Activate or deactivate a component
-description: Activate or deactivate a component to show or hide every instance of the components across third-party websites. By default, the ServiceNow components are active.
+description: Activate or deactivate a component to show or hide all of its instances on third-party websites.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-deactivate-comp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Update or create web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Activate or deactivate a component
 
-Activate or deactivate a component to show or hide every instance of the components across third-party websites. By default, the ServiceNow components are active.
+Activate or deactivate a component to show or hide all of its instances on third-party websites.
 
 ## Before you begin
+
+By default, the ServiceNow components are active.
 
 Role required: sn\_embeddable\_core.emb\_admin
 

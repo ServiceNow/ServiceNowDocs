@@ -7,7 +7,7 @@ release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Analytics and Reporting, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -68,6 +68,8 @@ sn\_wsd\_rsvsync.admin
 |Events in error, unable to be processed by provider over last 30 days|Step time series\[Omitted image "step-time-series-small.png"\] Alt text: step time series icon|Number of events generated with errors that could not be processed by provider over the last 30 days.|
 |Events in error not sent to provider over last 30 days|Step time series\[Omitted image "step-time-series-small.png"\] Alt text: step time series icon|Number of events generated with errors that were not sent to the provider over the last 30 days.|
 |List of all events in error state over last 30 days|List|List of all the events that have been in the error state over the last 30 days.|
+
+**Parent Topic:**[Analytics and Reporting Solutions for Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/analytics-reporting-calendar-sync.md)
 
 **Parent Topic:**[Manage Workplace Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/workplace-dashboards-wsd-central.md)
 

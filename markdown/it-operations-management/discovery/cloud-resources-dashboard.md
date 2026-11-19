@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-05"
 reading_time_minutes: 8
 breadcrumb: [Cloud discovery reporting, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -186,5 +186,5 @@ Synchronization is not needed if:
 -   If a job is marked as failed in the Cloud Dashboard Job Status \[sn\_disco\_cd\_cloud\_dashboard\_job\_status\] table, the reason for the failure is logged in the system logs. Filter the system log table by the job sys\_id to fetch the error message.
 -   If IP-based discovery is used to discover the vCenter, the service account field of the VMware resource is left blank.
 -   The System Administrator should not delete the records from the analytics table since records deleted from the analytics table are not populated again by the scheduled job. Deletion of records leads to data inconsistency in the analytics table.
--   To ensure complete refresh of the VMware records \(including the service accounts\) after changing the VMware resource discovery mechanism, delete the VMware records from the Cloud Dashboard Job Status \[sn\_disco\_cd\_cloud\_dashboard\_job\_status\] table and run the schedule job. In the Cloud Dashboard Job Status table, the provider field of all VMware resources is set to **vmware**. Use either vCenter IP discovery or service account discovery to discover the VMware resources.
+-   After changing the VMware resource discovery mechanism, delete the VMware records from the Cloud Dashboard Job Status \[sn\_disco\_cd\_cloud\_dashboard\_job\_status\] table. Then run the scheduled job to refresh all records, including service accounts. In the Cloud Dashboard Job Status table, the provider field of all VMware resources is set to **vmware**. Use either vCenter IP discovery or service account discovery to discover the VMware resources.
 

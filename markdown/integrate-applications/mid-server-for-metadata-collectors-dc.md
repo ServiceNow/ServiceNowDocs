@@ -1,6 +1,6 @@
 ---
 title: MID Server for metadata collectors
-description: When your source is behind a firewall or requires on-premises handling, deploy metadata collectors on a MID Server you host to harvest metadata from on-premises and privately networked data sources.
+description: Deploy metadata collectors on a MID Server to harvest metadata from on-premises and privately networked data sources. Use this approach when your source is behind a firewall or requires on-premises handling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/mid-server-for-metadata-collectors-dc.html
 release: australia
@@ -13,11 +13,13 @@ breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric
 
 # MID Server for metadata collectors
 
-When your source is behind a firewall or requires on-premises handling, deploy metadata collectors on a MID Server you host to harvest metadata from on-premises and privately networked data sources.
+Deploy metadata collectors on a MID Server to harvest metadata from on-premises and privately networked data sources. Use this approach when your source is behind a firewall or requires on-premises handling.
 
 To harvest metadata from on-premises and privately networked data sources, you deploy metadata collectors on a MID Server within your network. This is one of two [deployment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/metadata-collector-deployment-models.md) available for metadata collectors.
 
 The Management, Instrumentation, and Discovery \(MID\) Server facilitates secure communication and data movement between your ServiceNow instance and external data sources. A configured and validated MID Server is required to connect to the data source. For more information, see the [MID Server documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+
+**Warning:** If your organization operates in a regulated market, use MID Server for metadata collectors. For details, see [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854).
 
 ## System requirements
 

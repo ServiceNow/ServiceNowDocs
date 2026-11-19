@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Event Management, ITOM AIOps, IT Operations Management]
+last_updated: "2026-07-20"
+reading_time_minutes: 4
+breadcrumb: [Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Express List in the Service Operations Workspace for ITOM
@@ -103,6 +103,25 @@ The **Default Time Range** field is introduced on the Express List view in the f
 Administrators can configure the default time range for a predefined Express List view by using the **Default Time Range** field. The default value is **Last 24 hours**.
 
 The **evt\_mgmt.express\_list.all\_time\_days** system property controls the number of days included in the **All time** range. It does not affect the default time range.
+
+-   **[AI in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/exploring-ai-in-express-list.md)**  
+ServiceNow Otto for ITOM provides generative AI skills and agentic workflows in Express List that help operators triage alerts, investigate incidents, and respond faster.
+-   **[Configure ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/now-assist-itom-configure.md)**  
+Enable Event Management users to view alert analyses that ServiceNow Otto for ITOM creates using generative AI.
+-   **[Set up your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/set-up-your-workspace.md)**  
+Learn how to set up your individual Express List workspace to suit your needs.
+-   **[Assigning and managing alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/assigning-and-managing-alerts.md)**  
+Learn how to assign and manage alerts in Express List.
+-   **[Responding to and working with alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/responding-to-and-working-with-alerts-in-express-list.md)**  
+Learn how to respond to an alert and manage its workflow.
+-   **[Working with alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/working-with-alert-groups.md)**  
+Learn how to manage alert groups.
+-   **[Promoting alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/promoting-alerts-in-express-list.md)**  
+Learn how to promote an alert to an incident or generate a case.
+-   **[Express List reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/express-list-reference.md)**  
+Reference topics provide additional information for configuring and using Express List.
+
+**Parent Topic:**[Using Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/user-guide.md)
 
 **Related topics**  
 

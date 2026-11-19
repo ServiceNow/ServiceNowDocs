@@ -28,3 +28,5 @@ The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Hire to Retire 
 |Job Requisition|Retrieve a list of job requisitions and information such as title, location, and description.|ERP|OData V2|
 |Position|Retrieve a list of positions \(approved job requisitions\).|ERP|OData V2|
 
+**Parent Topic:**[Zero Copy Connector for ERP Hire to Retire content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-recruit-to-retire-content-pack.md)
+

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-adoptionservices-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -137,7 +137,7 @@ Xanadu
 
 </td><td>
 
--   **[\[Placeholder link text to key guided-setup\]](https://www.servicenow.com/docs/access?context=guided-setup&family=xanadu&ft:locale=en-US)**
+-   **[guided setup](https://www.servicenow.com/docs/access?context=guided-setup&family=xanadu&ft:locale=en-US)**
 
 Use the new Guided Setup player process backend powered by the Playbooks backend. App development team admins that create Guided Setups for their products now have all capabilities that are part of the Playbooks. This change creates a similar Guided Setup player experience with new visual enhancements to the UI.
 

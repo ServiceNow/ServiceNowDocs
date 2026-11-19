@@ -1,21 +1,21 @@
 ---
 title: Configure ServiceNow Otto for Smart Assessment Engine \(SAE\)
-description: If you have the admin role, you can configure ServiceNow Otto for SAE so that your agents can use the generative AI skills.
+description: Configure ServiceNow Otto for SAE to enable generative AI skills for the assessment response assist workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/smart-assessment-engine/configure-servicenow-otto-for-smart-assessment-engine.html
 release: australia
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 keywords: [configure]
 breadcrumb: [ServiceNow Otto for SAE, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Configure ServiceNow Otto for Smart Assessment Engine \(SAE\)
 
-If you have the admin role, you can configure ServiceNow Otto for SAE so that your agents can use the generative AI skills.
+Configure ServiceNow Otto for SAE to enable generative AI skills for the assessment response assist workflow.
 
 ## ServiceNow Otto for SAE Configuration overview
 

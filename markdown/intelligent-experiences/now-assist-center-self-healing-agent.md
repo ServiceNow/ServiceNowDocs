@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-28"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Using the ServiceNow Otto panel conversational experience, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Using the ServiceNow Otto panel conversational experience, AI Admin Center, Enable AI experiences]
 ---
 
 # Self-service conversational troubleshooting

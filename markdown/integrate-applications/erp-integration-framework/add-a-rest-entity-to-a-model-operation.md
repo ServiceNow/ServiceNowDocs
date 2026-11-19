@@ -74,3 +74,5 @@ Take the following actions:
 -   Configure pagination parameters to control how data is retrieved in batches.
 -   Define input parameters and output fields.
 
+**Parent Topic:**[Connecting to other ERP systems using REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-use-rest.md)
+

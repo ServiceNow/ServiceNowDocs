@@ -103,3 +103,5 @@ Role required: sn\_erp\_integration.erp\_admin
     7.  Select **Submit**.
 
 
+**Parent Topic:**[Connecting Zero Copy Connector for ERP to ERP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
+

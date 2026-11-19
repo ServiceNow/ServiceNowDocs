@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-10-05"
 reading_time_minutes: 1
-breadcrumb: [Assign roles, Configuring Impact, Impact]
+breadcrumb: [Configure Team Dev scanning properties, Configure Scan Engine properties, Activate Scan Engine and review settings, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Create a development team
@@ -20,20 +20,24 @@ Role required: impact app admin, admin
 
 ## Procedure
 
-1.  Under **New team**, enter a **Team name**.
+1.  Navigate to **ALL** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
 
-2.  Search for and select a **Team lead**.
+2.  In the **Team Leads** related list, select **New**.
 
-3.  Under **My team - users**, search for and add the users on the team.
+3.  Under **New team**, enter a **Team name**.
+
+4.  Search for and select a **Team lead**.
+
+5.  Under **My team - users**, search for and add the users on the team.
 
     Optionally, add existing groups under **My team - Groups**.
 
-4.  Select **Create team**.
+6.  Select **Create team**.
 
     The team is added to the **Current development team** list, showing its users and team lead.
 
-5.  Repeat these steps for each development team you need.
+7.  Repeat these steps for each development team you need.
 
 
-**Parent Topic:**[Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/assign-roles.md)
+**Parent Topic:**[Configure Team Dev scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/teamdev-scanning-properties.md)
 

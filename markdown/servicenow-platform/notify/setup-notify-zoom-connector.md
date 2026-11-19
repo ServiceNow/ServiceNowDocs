@@ -1,20 +1,20 @@
 ---
 title: Set up Notify Zoom connector in Zoom
-description: Use the Notify Zoom connector to expand the Notify communication channel by managing and initiating a Zoom meeting directly from any task record such as an incident or a change.
+description: Use the Notify Zoom connector to manage and start Zoom meetings from any task record, such as an incident or change.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/setup-notify-zoom-connector.html
 release: australia
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure Notify Zoom connector in Notify, Configuring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Set up Notify Zoom connector in Zoom
 
-Use the Notify Zoom connector to expand the Notify communication channel by managing and initiating a Zoom meeting directly from any task record such as an incident or a change.
+Use the Notify Zoom connector to manage and start Zoom meetings from any task record, such as an incident or change.
 
 ## Before you begin
 

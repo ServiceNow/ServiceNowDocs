@@ -1,20 +1,20 @@
 ---
 title: Test the ServiceNow components in a sandbox environment
-description: Enables you to test the ServiceNow components on your sandbox instance without setting up a custom URL and authentication. It isn’t recommended to use this method for production or non-production instance.
+description: Test ServiceNow components on a sandbox instance before you set up a custom URL and authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/test-sn-comp-we.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Set up Web Embeddables, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Test the ServiceNow components in a sandbox environment
 
-Enables you to test the ServiceNow components on your sandbox instance without setting up a custom URL and authentication. It isn’t recommended to use this method for production or non-production instance.
+Test ServiceNow components on a sandbox instance before you set up a custom URL and authentication.
 
 Sandbox testing lets you see a component on a test page before you set up a custom URL and authentication.
 

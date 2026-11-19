@@ -23,7 +23,7 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(This role is requir
 
 ## About this task
 
-You can report anytime, without sharing your name or contact details. Investigators only see the report details, not who submitted it. The AI case is managed as part of AI Risk and Compliance application and can be viewed in AI Control Tower to support risk and compliance oversight. After you submitted your anonymous AI case, the system generated a report number and a private report key. You need the report key to check status updates or provide additional information later. If you lose the report key, it can’t be recovered and the case can’t be identified or retrieved on your behalf. You need this information to follow up on a case.
+You can report anytime, without sharing your name or contact details. Investigators only see the report details, not who submitted it. The AI case is managed as part of AI Risk and Compliance application and can be viewed in Control Tower to support risk and compliance oversight. After you submitted your anonymous AI case, the system generated a report number and a private report key. You need the report key to check status updates or provide additional information later. If you lose the report key, it can’t be recovered and the case can’t be identified or retrieved on your behalf. You need this information to follow up on a case.
 
 If you have not yet submitted an anonymous AI case, see [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md) for submission steps and field descriptions.
 
@@ -33,15 +33,15 @@ If you have not yet submitted an anonymous AI case, see [Report an AI case anony
 
 2.  Access the Anonymous report center using one of these options.
 
-<table id="choicetable_x32_l4d_l3c"><thead><tr><th align="left" id="d220403e122">
+<table id="choicetable_x32_l4d_l3c"><thead><tr><th align="left" id="d219614e122">
 
 Option
 
-</th><th align="left" id="d220403e125">
+</th><th align="left" id="d219614e125">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d220403e131">
+</th></tr></thead><tbody><tr><td id="d219614e131">
 
 **Direct portal access**
 
@@ -51,7 +51,7 @@ Description
 2.  Select **Submit a report anonymously**.
 
 
-</td></tr><tr><td id="d220403e155">
+</td></tr><tr><td id="d219614e155">
 
 **Employee center access**
 
@@ -101,7 +101,7 @@ Use the report to add new information or to respond to investigator comments.
 
 [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
 
-[Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
+[Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
 
 [AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md)
 

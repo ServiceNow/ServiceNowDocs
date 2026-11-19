@@ -7,7 +7,7 @@ release: australia
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Usage Insights, Platform Analytics]
 ---
@@ -27,7 +27,7 @@ Drill down into usage data with standard and custom filters.
 -   **[User retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/view-retention-analytics.md)**  
 User retention reports help you understand how often your users visit your application to better understand if it meets your users' needs and expectations.
 -   **[Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/uxa-cohorts.md)**  
-A cohort is a group of users separated from other users by similar traits or actions. Cohorts enable you to group users together based on common behavior to analyze how many users complete certain predetermined actions in a given time frame.
+A cohort is a group of users separated from other users by similar traits or actions. Cohorts enable you to group users based on common behavior to analyze how many users complete certain predetermined actions in a given time frame.
 -   **[Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/conversations.md)**  
 The conversations view brings ServiceNow Otto chat activity into Usage Insights. It reports engagement metrics such as total chat users, live agent transfers, and chat-related events — from starting a conversation to rendering a chat response to selecting a chat action.
 -   **[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/usage-insights/funnel-reports-uxa.md)**  

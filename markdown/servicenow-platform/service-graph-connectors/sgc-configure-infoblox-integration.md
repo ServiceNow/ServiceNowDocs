@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 9
 breadcrumb: [Infoblox, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -41,13 +41,13 @@ Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
 1.  Ensure that the application scope is set to the Service Graph Connector for Infoblox application by using the application picker.
 
-    For more information, see Application picker.
+    For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationPicker.md).
 
 2.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **Infoblox** &gt; **Setup**.
 
 3.  On the Getting started page, select **Get Started**.
 
-4.  Configure the authentication credentials and HTTP connection details for sending requests to the Infoblox API.
+4.  Configure the authentication credentials and HTTPS connection details for sending requests to the Infoblox API.
 
     1.  Configure your Infoblox authentication credentials.
 
@@ -57,13 +57,13 @@ Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 
             For example, `Infoblox Credential`.
 
-        4.  In the **User name** field, enter the user name that is used to authenticate the HTTP request when this authentication profile is enabled.
-        5.  In the **Password** field, enter the password for the user name that is used to authenticate the HTTP request.
+        4.  In the **User name** field, enter the user name that is used to authenticate the HTTPS request when this authentication profile is enabled.
+        5.  In the **Password** field, enter the password for the user name that is used to authenticate the HTTPS request.
         6.  Select **Update**to return to the guided setup page.
         7.  Set the Configure Infoblox authentication credentials task to complete by selecting **Mark as Complete**.
     2.  Configure the Infoblox connection settings.
 
-        1.  For the Configure Infoblox HTTP connection task, select **Configure**to open the HTTP\(s\) Connection page in a new browser tab.
+        1.  For the Configure Infoblox HTTP connection task, select **Configure**to open the HTTP\(S\) Connection page in a new browser tab.
         2.  Review the fields and in the **Name** field and enter the Infoblox instance name.
         3.  Use the URL builder to build the connection string or in the **Connection URL** field, enter the Infoblox base URL in the following format: `https://*&lt;base-URL&gt;*`.
         4.  In the **api\_version** field of the Attributes section, enter the [version of WAPI](https://ipam.illinois.edu/wapidoc/) you’re using.
@@ -248,7 +248,7 @@ Name of the MID application used by the connector.This field appears only when t
 
     4.  On the Scheduled Data Import form, verify the field values for the scheduled job.
 
-        For more information, see .
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     5.  Select **Update**.
 

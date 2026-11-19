@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Self-health monitors for Event Management, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -226,7 +226,7 @@ Additional information
 Further information about the monitor.
 
 </td></tr></tbody>
-</table>3.  On the Monitoring Configuration form, next to the **Script** field, click the search icon to open the Health Monitor Scripts form.
+</table>3.  On the Monitoring Configuration form, next to the **Script** field, click the search icon.
 
     To create a custom health monitor script, click **New**.
 
@@ -270,7 +270,7 @@ Script
 
 </td><td>
 
-Custom script to run when called from a monitor. A script template is provided as a guide. You can use the [Health monitor scripts provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/custom-configure-threshold-monitoring.md) as examples of how to author the script, and use the [script editor tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/c_SyntaxEditor.md).
+Custom script to run when called from a monitor. A script template is provided as a guide. You can use the [Health monitor scripts provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/custom-configure-threshold-monitoring.md) as examples of how to author the script, and use the script editor tools.
 
 Ensure that the custom script includes:Run the monitor function, which is called according to the "monitoring job frequency” setting **runUpdateHealthMonitorScripts\(scriptId\)**. Add this function to run the monitoring logic.
 
@@ -291,7 +291,7 @@ Ensure that the custom script includes:Run the monitor function, which is called
 
     These tables are initialized inside **runInsertHealthMonitorScripts**.
 
-    For more information about script includes and APIs, see:Script includes that are [installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/r_InstalledWithEventManagement.md)
+    For more information about script includes and APIs, see the script includes listed in [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 5.  Click **Submit**.
 

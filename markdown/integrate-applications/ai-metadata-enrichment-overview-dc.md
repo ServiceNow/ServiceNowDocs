@@ -44,10 +44,7 @@ The workspace includes:
 
 ## Prerequisites
 
-This capability requires ServiceNow Otto to be configured and Data Catalog to be installed. For more information, see [Metadata enrichment prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/ai-enrichment-prerequisites-dc.md).
+This capability requires ServiceNow Otto to be configured and Data Catalog to be installed.
 
-**Related topics**  
-
-
-[ai-enrichment-troubleshooting-dc]
+For more information, see [Metadata enrichment prerequisites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/ai-enrichment-prerequisites-dc.md).
 

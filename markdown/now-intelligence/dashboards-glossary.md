@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dashboards-glossary.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-18"
 reading_time_minutes: 2
 keywords: [dashboard glossary, dashboard terms, bookmark dashboard, dashboard category, certified dashboard, dashboard, data visualization, dashboard element, dashboard filter, filter group, inline editor, dashboard editor, Platform Analytics library, dashboards library, dashboard tab, top stage, dashboard top stage, widget, dashboard widget]
-breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Reference, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
 # Dashboard terms

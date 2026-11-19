@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-09"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Zendesk Guide external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -25,7 +25,7 @@ Role required: none
 
 ## About this task
 
-The Zendesk Guide external content connector retrieves documents and user permissions from your Zendesk source system using the Zendesk API.
+The Zendesk Guide external content connector retrieves documents, users, and access permissions from your Zendesk source system using the Zendesk API.
 
 To allow the connector to access your Zendesk source system via the Zendesk API, you must create an API token in the Zendesk Admin Center. Your connector administrator can use this API token to configure the Zendesk Guide external connector for proper connection to your source system.
 

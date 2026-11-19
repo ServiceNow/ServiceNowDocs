@@ -7,8 +7,8 @@ release: australia
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-03-12"
+reading_time_minutes: 5
 breadcrumb: [Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -76,15 +76,15 @@ When the generative AI experience is configured for catalog item request submiss
 
     Additionally, you can customize the fallback process by configuring your own record producer or by building additional logic in a new subflow.
 
-<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d572501e321">
+<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d573191e321">
 
 Option
 
-</th><th align="left" id="d572501e324">
+</th><th align="left" id="d573191e324">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d572501e330">
+</th></tr></thead><tbody><tr><td id="d573191e330">
 
 **Configure your own record producer. For example, to change the inputs in a Virtual Agent conversation.**
 
@@ -96,7 +96,7 @@ Description
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d572501e369">
+</td></tr><tr><td id="d573191e369">
 
 **Build additional logic in a new subflow. For example, to refer to a new record producer for each business.**
 
@@ -115,9 +115,9 @@ Description
 
 
 </td></tr></tbody>
-</table>4.  Configure URL navigation settings to specify where the generated ticket link in the Virtual Agent chat opens, see .
+</table>4.  Configure URL navigation settings to specify where the generated ticket link in the Virtual Agent chat opens, see [Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ac-configure-url-navigation.md).
 
-    For information about URL navigation in Virtual Agent, see . For information about Virtual Agent scripts, see .
+    For information about URL navigation in Virtual Agent, see [URL navigation in Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/url-navigation-ci.md). For information about Virtual Agent scripts, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/virtual-agent-scripts.md).
 
 
 

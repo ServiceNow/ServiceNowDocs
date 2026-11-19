@@ -48,7 +48,7 @@ When you install the MCP for Enterprise Architecture plugin, these tools, script
 **Related topics**  
 
 
-[Components installed with Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-installed-with-eaw.md)
+[eaw-installed-with-eaw]
 
 [Enterprise Architecture Workspace access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-access-roles.md)
 

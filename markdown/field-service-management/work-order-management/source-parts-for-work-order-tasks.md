@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Part requirements, Manage inventory in FSM, Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
@@ -57,4 +57,6 @@ You can source parts for the work order task either manually or automatically.
 ## What to do next
 
 Complete the transfer orders: If the agent sources parts from other stockrooms or assignment groups, a transfer order line is created automatically. You can then complete the transfer order, ensuring the parts are moved to the designated location.
+
+**Note:** If a work order task is closed before all parts are delivered, parts that are received or delivered afterward are released automatically. Their status changes from **Reserved** to **Available**, so you can use them for other tasks.
 

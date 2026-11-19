@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-04-22"
 reading_time_minutes: 3
 breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -50,7 +50,7 @@ Enable fulfiller creation of Core UI dashboardscom.snc.par.coreui.dashboard\_cre
 
 </td><td>
 
-Allows any internal user to create Core UI dashboards on an upgraded instance. The instance must not have been net new on Xanadu or later, or Core UI dashboards are not supported and this property has no effect.When the `true` value of this property is in effect, you can create Core UI dashboards through the **Create new** button in the Dashboards library.
+Allows any internal user to create Core UI dashboards on an upgraded instance, using the Core UI workflow. The instance must not have been net new on Xanadu or later, or Core UI dashboards are not supported and this property has no effect.When the `true` value of this property is in effect, you can create Core UI dashboards through the **Create new** button in the Dashboards library.
 
 -   Type: true \| false
 -   Default value: true

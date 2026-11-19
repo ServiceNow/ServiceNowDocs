@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ For more information, see [Create routing policies for EJBCA ACME certificates](
 
 Perform the following task to use EJBCA ACME to automate your certificate life cycle:
 
-1.  [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md)
+1.  
 2.  [Configure base API URL for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/configure-base-api-url-for-ejbca-acme.md)
 3.  [Validate EJBCA ACME base API URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/validate-ejbca-acme-base-api-url.md)
 

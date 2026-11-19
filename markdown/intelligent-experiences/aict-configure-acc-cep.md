@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-configure-acc-cep.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-27"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Agent Client Collector, ACC, control enforcement point, Policies]
-breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring security connections, Configuring integrations, Configure, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Add an Agent Client Collector \(ACC\) connection
@@ -29,7 +29,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Control enforcement points**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Settings** &gt; **Integrations** &gt; **Control enforcement points**.
 
 2.  On the **Available connectors** tab, select **ACC**.
 
@@ -50,7 +50,7 @@ The connection is created and appears on the **Established connections** tab.
 
 ## What to do next
 
-ACC is configured as a control enforcement point for explicit block policies. For details, see [Create an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-create-explicit-block-policy.md).
+ACC is configured as an control enforcement point for explicit block policies. For details, see [Create an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-create-explicit-block-policy.md).
 
 **Parent Topic:**[Configuring security connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-security-connections.md)
 

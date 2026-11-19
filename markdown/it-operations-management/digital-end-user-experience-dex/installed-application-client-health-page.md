@@ -1,5 +1,5 @@
 ---
-title: Installed application Client health page
+title: Installed application — Client health page
 description: The installed application Client health section presents details on the devices on which the Microsoft Configuration Manager \(MCM\) policy has run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/installed-application-client-health-page.html
@@ -7,16 +7,16 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Applications list, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
-# Installed application Client health page
+# Installed application — Client health page
 
 The installed application Client health section presents details on the devices on which the Microsoft Configuration Manager \(MCM\) policy has run.
 
-## Installed application client health page for MCM
+## Installed application client health page — MCM
 
 <table id="table_x5l_4lv_w2c"><thead><tr><th>
 
@@ -76,7 +76,7 @@ Metric name
 
 </td><td>
 
-Name of one of the following actions that run on the device:-   Unassigned site codes
+Name of one of the following actions that run on the device.-   Unassigned site codes
 -   More than one client crashes
 -   Log level is not 1
 -   Provisioning mode state is true
@@ -105,7 +105,7 @@ Devices where MCM action didn't run in the last 24 hours
 
 </td><td>
 
-Name of one of the following actions that run on the device:-   Discovery data collection cycle
+Name of one of the following actions that run on the device.-   Discovery data collection cycle
 -   File collection cycle
 -   Hardware inventory cycle
 -   Software inventory cycle

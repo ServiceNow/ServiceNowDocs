@@ -1,18 +1,18 @@
 ---
 title: Order case record page
-description: The Order case record page displays information about order cases and the associated list of order case line items in CRM Workspace.
+description: The Order case record page displays information about order cases and the associated list of order case line items in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-order-ops-order-case-record-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 breadcrumb: [Order case pages, Order Operations Case Management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Order case record page
 
-The Order case record page displays information about order cases and the associated list of order case line items in CRM Workspace.
+The Order case record page displays information about order cases and the associated list of order case line items in CSM Configurable Workspace.
 
 \[Omitted image "csm-order-ops-order-case-page.png"\] Alt text: Order case page with customer and account information, SLA, and case details. Center panel displays the Order Case Line list. Page also includes the configurable side panel.
 
@@ -182,7 +182,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page available to the selected audience. The Order case record page is active by default.The active setting combined with the page order determines the page that CRM Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-set-record-page-order.md).
+Enabling the **Active** check box makes the page available to the selected audience. The Order case record page is active by default.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -212,7 +212,7 @@ The audience determines who can see a record page. The Order case record page do
 </table>To access the settings for this page variant:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Select the **CRM Workspace** experience.
+2.  Select the **CSM/FSM Configurable Workspace** experience.
 3.  In the Record section of the Pages and variants list, select **Front-line case page**.
 4.  Select **Settings** at the top of the page.
 

@@ -4,7 +4,7 @@ description: As a matter owner, work on a legal matter assigned to you to resolv
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 ---
 
@@ -37,15 +37,15 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d325086e128">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d326819e128">
 
 Option
 
-</th><th align="left" id="d325086e131">
+</th><th align="left" id="d326819e131">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d325086e137">
+</th></tr></thead><tbody><tr><td id="d326819e137">
 
 **As an assignee**
 
@@ -57,7 +57,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d325086e166">
+</td></tr><tr><td id="d326819e166">
 
 **As a collaborator**
 

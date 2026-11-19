@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 1
 breadcrumb: [Personal events, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -19,10 +19,6 @@ Edit personal events that you created in ServiceNow Agent if something related t
 ## Before you begin
 
 Role required: wm\_agent
-
-## About this task
-
-If you're editing a break, the break must fall within the break window. The break window shows on the Edit Event screen.
 
 ## Procedure
 

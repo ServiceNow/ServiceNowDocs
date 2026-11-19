@@ -1,26 +1,26 @@
 ---
-title: Example - Restrict a field with a condition
-description: This access control prevents everyone from editing a Critical Incident in a list. It is defined by a condition.
+title: Condition-based field restriction example
+description: This access control prevents most users from editing a critical incident in a list. It is defined by a data condition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/r\_ExRestrictAFieldWithACondition.html
 release: australia
 product: List Administration
 classification: list-administration
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-09"
 reading_time_minutes: 1
-breadcrumb: [Configuring contextual security, List editor, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Contextual security, List editor, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Example - Restrict a field with a condition
+# Condition-based field restriction example
 
-This access control prevents everyone from editing a Critical Incident in a list. It is defined by a condition.
+This access control prevents most users from editing a critical incident in a list. It is defined by a data condition.
 
-\[Omitted image "RestrictCriticalEvents.png"\] Alt text:
+\[Omitted image "RestrictCriticalEvents.png"\] Alt text: This ACL rule sets a condition using the Data Condition builder.
 
 -   **Type:** record
 -   **Operation:** list\_edit
--   **Name Incident:**\[incident\]
--   **Admin overrides:** Clear the check box.
--   **Condition:** Priority is not 1 - Critical
+-   **Name:** Incident \[incident\]
+-   **Decision Type:** Allow If
+-   **Data Condition:** \[**Priority**\] \[**is not**\] \[**1 - Critical**\]
 

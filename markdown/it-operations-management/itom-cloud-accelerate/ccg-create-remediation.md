@@ -7,7 +7,7 @@ release: australia
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Remediation, Use, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -70,7 +70,7 @@ Requires approval
 
 </td><td>
 
-Option to enforce approval for the remediation action. For more information on approvals, see [Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/r_Approvals.md).
+Option to enforce approval for the remediation action. For more information on approvals, see Approvals.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Reference, Base Asset Management, Common applications, Asset Manage
 Several types of components are installed with Model Management.
 
 Demo data is available with Model Management.
-
-**Parent Topic:**[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/references-asset-management.md)
 
 ## Business rules installed with Model Management
 
@@ -184,8 +182,42 @@ Shows the **Is an option** field if the selected **Manufacturer** name starts wi
 
 Model Management includes user roles.
 
-|Role|Contains Roles|Description|
-|----|--------------|-----------|
-|category\_manager|model manager|Can create, edit, and delete model categories.|
-|model\_manager|none|Can create new CMDB models. The model manager role can control the base models and any model extensions that are not hardware, software, or consumables. Hardware and consumable models are controlled by the asset manager \(asset\) role. Software models are controlled by the software asset manager \(sam\) role.|
+<table id="table_x3v_gt2_cp"><thead><tr><th>
 
+Role
+
+</th><th>
+
+Contains Roles
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+category\_manager
+
+</td><td>
+
+model manager
+
+</td><td>
+
+Can create, edit, and delete model categories.
+
+</td></tr><tr><td>
+
+model\_manager
+
+</td><td>
+
+-   catalog\_editor
+-   canvas\_user
+
+</td><td>
+
+Can create CMDB models. Users with the model\_manager or asset role can create, edit, and delete hardware and consumable models. Creating, editing, and deleting model categories requires the category\_manager role, which contains the model\_manager role. The asset role contains the category\_manager role.
+
+</td></tr></tbody>
+</table>

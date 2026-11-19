@@ -7,7 +7,7 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manager Hub, HR Service Delivery, Employee Service Management]
 ---
@@ -16,9 +16,11 @@ breadcrumb: [Manager Hub, HR Service Delivery, Employee Service Management]
 
 Learn how to set up and start using Manager Hub.
 
+\[Omitted image "manager-hub.png"\] Alt text: Overview
+
 ## 1. Activating application
 
-Activate ServiceNow Manager Hub from ServiceNow Store.
+Activate Manager Hub from ServiceNow Store.
 
 **Note:** Manager Hub is available with the Employee Center Pro application. Some of the features of Manager Hub work only when the HR Service Delivery and Employee Journey Management applications are activated.
 

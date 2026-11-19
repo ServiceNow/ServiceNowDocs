@@ -7,8 +7,9 @@ release: australia
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [Hiring Core components, installed components, Hiring Core roles, tables installed, scheduled jobs]
 breadcrumb: [Reference, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Role Trails
+title: Role trails
 description: Displays audits of roles in the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/role-trails.html
@@ -7,12 +7,12 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Identity Audit Results, Identity and Access Audit, Identity]
 ---
 
-# Role Trails
+# Role trails
 
 Displays audits of roles in the ServiceNow® instance.
 

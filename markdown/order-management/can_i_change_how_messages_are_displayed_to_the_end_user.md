@@ -24,7 +24,7 @@ However, you can override this behavior, such as to show an icon which can be ho
 
 \[Omitted image "cpq-messages-tooltip.png"\] Alt text: Field showing the tooltip message style
 
-In the layout editor, add `{“messageDisplayType”: “<type>”}` in the field properties \(the gear icon\) of the element where you want to add the custom message display type. Add `{"messageDisplayType": "<type>"}` to the raw value.
+In the layout editor, add `{“messageDisplayType”: “<type>”}` to the raw value in the field properties \(the gear icon\) of the element where you want to add the custom message display type.
 
 Accepted type values are `above`, `below`, `popup`, and `tooltip`. The following table provides more information.
 

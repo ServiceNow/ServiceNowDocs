@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dv-example-bubble.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-23"
 reading_time_minutes: 4
 breadcrumb: [Bubble visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---

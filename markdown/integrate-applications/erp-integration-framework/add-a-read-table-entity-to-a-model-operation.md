@@ -68,3 +68,5 @@ Role required: sn\_erp\_integration.erp\_admin
         Deleting an entity removes all of its related field mappings and table joins.
 
 
+**Parent Topic:**[Adding an entity to a Zero Copy Connector for ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
+

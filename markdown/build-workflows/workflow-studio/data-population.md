@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: concept
 last_updated: "2026-11-03"
 reading_time_minutes: 5
-breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Data pills

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/view-general-details-bcp.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Structured workflows for Business Continuity Planning, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -44,15 +44,14 @@ Role required: sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
 
 9.  To create a copy of the plan, click the **Copy** button.
 
-    If you have the permission to edit a BIA, then you can also copy the BIA. A BCM planner and program manager can delete a plan and its related table records when the plan is in Draft, In Review, and Returned states. BCM admin can delete a plan irrespective of its state.
+    If you have the permission to edit the plan, you can also copy it. A BCM planner and program manager can delete a plan and its related table records when the plan is in Draft, In Review, and Returned states. BCM admin can delete a plan irrespective of its state.
 
     1.  Enter the name of the new plan in the Copy plan pop-up.
 
     2.  Click **Confirm**.
 
         -   The copy action creates an exact replica of the plan with the name that you enter in the Copy plan pop-up. The copied plan is moved to **Draft** state.
-        -   The action copies the plan assets, plan documentation sections, recovery teams, and loss scenarios to the copied plan. It also copies the related asset dependencies, recovery strategies, and recovery tasks.
+        -   The action copies plan assets, documentation sections, recovery teams, loss scenarios, related asset dependencies, recovery strategies, and recovery tasks to the new plan.
         -   The documentation sections of the copied plan are in **Pending** state. Edit each section, if required, and move it to **Complete** state.
         -   Dependencies are populated when the plan is copied.
-        -   The copied plan retains the original plan's **Plan owner** and **Plan owner group** values.
 

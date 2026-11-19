@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/t\_PublishApplicationsToAnUpdateSet.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
+breadcrumb: [Application sharing, Administer your apps, Deploying applications, Building applications]
 ---
 
 # Publish an application to an Update Set

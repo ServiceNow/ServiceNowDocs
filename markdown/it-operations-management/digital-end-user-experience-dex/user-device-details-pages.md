@@ -1,37 +1,37 @@
 ---
 title: Device details pages
-description: The device details pages show the health of a device, including alerts, incidents, battery, and hardware, plus its applications, running processes, performance, Wi-Fi and network experience, and custom queries.
+description: The device details provide a comprehensive view of device health, including alerts, incidents, battery status, and hardware details. It also tracks applications, running processes, app and device performance, battery, and Wi-Fi data. Network monitoring offers connection details, performance metrics, device metrics, network experience, and access. Additionally, you can access custom queries for more detailed insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/user-device-details-pages.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # Device details pages
 
-The device details pages show the health of a device, including alerts, incidents, battery, and hardware, plus its applications, running processes, performance, Wi-Fi and network experience, and custom queries.
+The device details provide a comprehensive view of device health, including alerts, incidents, battery status, and hardware details. It also tracks applications, running processes, app and device performance, battery, and Wi-Fi data. Network monitoring offers connection details, performance metrics, device metrics, network experience, and access. Additionally, you can access custom queries for more detailed insights.
 
 -   **[Device health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/user-health-card.md)**  
 The health of a device includes critical device specifics like type, name, OS, model, location, and CPU. Additionally, it includes metrics like device and battery health, events from the last 24 hours, OS details, pending updates, incident, and alert specifics.
 -   **[Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/user-applications.md)**  
-The Applications page displays details about applications, such as name, version, type, and the number of alerts, incidents, and impacted devices.
+View essential details for managing applications such as application name, version, type, number of incidents, alerts, and impacted devices.
 -   **[Running processes page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/user-running-process-cards.md)**  
-The Running processes page displays CPU and memory usage and details about each running process, which help you identify performance bottlenecks that affect the digital experience.
+Observe running process metrics to gain insights into how running processes are performing and identify performance bottlenecks or issues that might be impacting the digital experience.
 -   **[Application performance pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/user-application-metrics-cards.md)**  
-The Application performance pages display performance and usage data for a specific installed or web application, such as CPU and memory usage, response time, and crashes.
+Access performance and usage data for a specific application to evaluate its efficiency, identify bottlenecks, and make informed optimization decisions.
 -   **[Advanced app metrics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/adanced-app-metrics-page.md)**  
-The Advanced app metrics page displays health, cache, management point, log, and inventory details for the Microsoft Configuration Manager \(MCM\) client on a device.
+Access the advanced app metrics for the Microsoft Configuration Manager \(MCM\).
 -   **[Device metrics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/user-device-metrics.md)**  
-The Device metrics page displays memory, CPU, disk, GPU, battery, energy, and Wi-Fi metrics for a device over a selected duration.
+Access real-time metrics like CPU, memory, disk usage, I/O operations, battery, and energy consumption for insights into system resource utilization, performance, and improvement areas.
 -   **[Network experience pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/network-experience-pages.md)**  
 The Network experience pages display information about multiple facets of the network configuration. This information includes connection details, stability metrics, path metrics, and live application hops.
 -   **[Access page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/user-logins-card.md)**  
-The Access page displays user login details, such as the user name, user type, login type, and last login time, and the user profiles on a device.
+View essential user login details, including the user name, user type, login type, the timestamp of the last login, and the host. By displaying these crucial pieces of information, users can easily identify themselves, understand their assigned user type and login method, and effectively manage their login information.
 
 **Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-console-reference.md)
 

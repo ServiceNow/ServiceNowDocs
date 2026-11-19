@@ -23,6 +23,10 @@ Role required:
 -   Create and manage pages and subpages - it\_demand\_user, it\_demand\_manager, demand\_approver
 -   Read pages and subpages - apw\_read, ppm\_read
 
+## About this task
+
+\[Omitted video\] Description: Create pages and subpages for your demand Docs
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
@@ -35,15 +39,15 @@ Role required:
 
 5.  Create a blank page, start with a predefined template, or duplicate a page.
 
-<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d288461e105">
+<table id="choicetable_yrn_2mf_zjc"><thead><tr><th align="left" id="d289480e130">
 
 Goal
 
-</th><th align="left" id="d288461e108">
+</th><th align="left" id="d289480e133">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d288461e114">
+</th></tr></thead><tbody><tr><td id="d289480e139">
 
 **Create a blank page**
 
@@ -51,7 +55,7 @@ Actions
 
 Select **Create page**.
 
-</td></tr><tr><td id="d288461e126">
+</td></tr><tr><td id="d289480e151">
 
 **Create a page from a template**
 
@@ -61,7 +65,7 @@ Select **Create page**.
 2.  In the card for the template that you want to use, select **Use**.
 
 
-</td></tr><tr><td id="d288461e153">
+</td></tr><tr><td id="d289480e178">
 
 **Duplicate a page**
 

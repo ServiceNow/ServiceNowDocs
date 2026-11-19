@@ -7,14 +7,14 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-19"
 reading_time_minutes: 1
-breadcrumb: [CSM centered chat interaction record page, Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CSM centered chat interaction record page, Record pages, Record pages and page templates, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Customer History component
 
 The Customer History component displays customer, consumer, or account history information, depending on the field selections on the interaction record.
 
-The Customer History component appears after the Interaction Controls component. This component is included with the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central.md) plugin, which is activated as part of the CRM Workspace application.
+The Customer History component appears after the Interaction Controls component. This component is included with the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central.md) plugin, which is activated as part of the CSM Configurable Workspace application.
 
 The Customer History component includes the **Customer** tab. This tab displays customer, consumer, or account history information, depending on the customer information provided on the interaction record. This tab also includes a search field, filter, and date range selector that agents can use to find specific information in the history.
 

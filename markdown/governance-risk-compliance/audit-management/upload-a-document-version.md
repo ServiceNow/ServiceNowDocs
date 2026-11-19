@@ -7,9 +7,9 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-18"
 reading_time_minutes: 1
-breadcrumb: [Document version workflow, Using Document Management System in Audit Workspace, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Document version workflow, Using Document Management System in Audit Workspace, Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Upload a version of a document
@@ -36,20 +36,18 @@ For more information on the states a version moves through, see [Document versio
 
 4.  Select **New version**.
 
-5.  Attach the updated file.
+5.  Attach the updated file, and enter a description for the version.
 
-6.  Enter a description for the version.
-
-7.  To require review and approval before the version is published, add a reviewer and one or more approvers.
+6.  To require review and approval before the version publishes, add a reviewer and one or more approvers.
 
     For the steps, see [Set reviewers and approvers for a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/set-reviewers-and-approvers-for-a-document.md).
 
-8.  Save the version.
+7.  Save the version.
 
-    The version is created with a state of **Draft**.
+    The version is created in the **Draft** state.
 
-9.  Select **Submit**.
+8.  Select **Submit**.
 
-    If you added a reviewer or an approver, the version moves to **Awaiting review** or **Awaiting approval**. If you did not add a reviewer or an approver, the version is published immediately and the previous version is retired.
+    If you added a reviewer or an approver, the version moves to **Awaiting review** or **Awaiting approval**. If you didn't add a reviewer or an approver, the version publishes immediately and the previous version is retired.
 
 

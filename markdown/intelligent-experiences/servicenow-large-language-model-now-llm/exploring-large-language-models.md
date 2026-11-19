@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Large language models and providers, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
 # Large language models on the ServiceNow AI Platform
@@ -105,13 +105,13 @@ Claude 3.7 Sonnet
 
 ## Large language model selection
 
-This selection is supported at various levels such as, skill, skill group and instance levels. However, the controls that define LLMs mapping to different skills, allowed at various global locations, are configured and approved in AI Control Tower by the AI steward. The model provider options for custom skills created in Now Assist skill kit and AI Agent Studio are also configured in AI Control Tower. See [Configure third-party LLMs using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.md) to learn more.
+This selection is supported at various levels such as, skill, skill group and instance levels. However, the controls that define LLMs mapping to different skills, allowed at various global locations, are configured and approved in Control Tower by the AI steward. The model provider options for custom skills created in Now Assist skill kit and AI Agent Studio are also configured in Control Tower. See [Configure third-party LLMs using Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.md) to learn more.
 
 The **Manage large language models** feature enables the admin persona to perform additional actions like:
 
 -   Edit the model provider at the instance, skill group and skill levels
 -   Deactivate active skills which are non-compliant with fallback as **No**. See [Configuring AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-ai-model-providers.md) to learn more.
--   View audit history on policy updates by AI steward in AI Control Tower
+-   View audit history on policy updates by AI steward in Control Tower
 -   Select allowed model providers across domain separated instances.
 
 See [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-large-language-models.md) to learn about managing.
@@ -127,5 +127,5 @@ Different AI search tools may return different answers for the same or similar s
 -   **[Providers and Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/servicenow-large-language-model-now-llm/providers-and-models.md)**  
 You can bring your own large language model \(LLM\) provider and API to use with Now Assist.
 
-**Parent Topic:**[Large language models and providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platai-large-language-models-providers.md)
+**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-products.md)
 

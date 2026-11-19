@@ -1,18 +1,18 @@
 ---
 title: Upsell or Downsell a customer contract line
-description: Upsell or downsell a customer contract line on the CRM Workspace. You can reduce or increase the quantities of the products specified in the customer contract line.
+description: Upsell or downsell a customer contract line on the CSM Configurable Workspace. You can reduce or increase the quantities of the products specified in the customer contract line.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cce-upsell-downsell-service-contract.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Upsell or Downsell a customer contract line
 
-Upsell or downsell a customer contract line on the CRM Workspace. You can reduce or increase the quantities of the products specified in the customer contract line.
+Upsell or downsell a customer contract line on the CSM Configurable Workspace. You can reduce or increase the quantities of the products specified in the customer contract line.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
 2.  In the list view, navigate to **Contracts and Entitlements** &gt; **Customer Contracts**.
 

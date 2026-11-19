@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-threatintelligencesecuritycenter-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -225,7 +225,7 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key bundle-security.tisc-canvas-internal-intel\]](https://www.servicenow.com/docs/access?context=tisc-canvas-internal-intel&family=zurich&ft:locale=en-US)**
+-   **[tisc canvas internal intel](https://www.servicenow.com/docs/access?context=tisc-canvas-internal-intel&family=zurich&ft:locale=en-US)**
 
 Introduced **Add From Internal Intelligence** option to include the data from the internal systems.
 
@@ -265,7 +265,7 @@ Introduced an **Add Observable\(s\) to Security Control List** drop-down list to
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
- -   **[\[Placeholder link text to key bundle-security.tisc-canvas-internal-intel\]](https://www.servicenow.com/docs/access?context=tisc-canvas-internal-intel&family=zurich&ft:locale=en-US)**
+ -   **[tisc canvas internal intel](https://www.servicenow.com/docs/access?context=tisc-canvas-internal-intel&family=zurich&ft:locale=en-US)**
 
 Aggregate and analyze the data from internal systems through internal intelligence included in the Investigation Canvas module to help you identify potential threats more effectively.
 
@@ -423,7 +423,7 @@ Zurich
 
 -   **Activation information**
 
-Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Threat Intelligence Security Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -436,7 +436,7 @@ Australia
 
 -   **Activation information**
 
-Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Threat Intelligence Security Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

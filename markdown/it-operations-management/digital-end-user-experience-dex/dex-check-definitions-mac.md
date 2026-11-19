@@ -7,7 +7,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 10
 breadcrumb: [DEX Content Playbook reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
@@ -33,7 +33,7 @@ In the check definition parameters:
 -   appSysId = sys\_id of the application.
 -   primaryProcess = list of primary processes for the application separated by a pipe symbol \( \| \). The first process that exists on the endpoint device is given priority. For example: Webex.app or Microsoft Teams.app \| Microsoft Teams Classic.app.
 
-    **Note:** When determining priority based on process availability on an endpoint device, follow this logic: If the primary process for the Teams application is Microsoft Teams.app on one endpoint device and it’s Microsoft Teams classic.app on another endpoint device, then the process that is present on the endpoint device first is given precedence.
+    **Note:** When determining priority based on process availability on an endpoint device, follow this logic: If the primary process for the Teams application is Microsoft Teams.app on one end-point device and it’s Microsoft Teams classic.app on another end-point device, then the process that is present on the endpoint device first is given precedence.
 
 -   secondaryProcesses = list of secondary processes for the application separated by a pipe symbol \( \| \). For example: Cisco WebEx Start.app \| webexmtaV2.app.
 
@@ -142,7 +142,7 @@ os.mac.check-app-is-installed
 
 </td><td>
 
-Checks whether the application is installed on the device.**Note:** This check definition doesn’t require the application to be in a running state.
+Checks if the application is installed or not on the device.**Note:** This check definition doesn’t require the application to be in a running state.
 
 </td></tr><tr><td>
 
@@ -157,7 +157,7 @@ os.mac.check-app-is-running
 
 </td><td>
 
-Checks whether the application is in a running state.
+Checks whether the application is in a running state or not.
 
 </td></tr><tr><td>
 
@@ -430,7 +430,7 @@ os.mac.check-system-logged-in-users
 
 </td><td>
 
-Retrieves the details of users currently logged in to the device.
+Retrieves the detail of users currently logged in to the device.
 
 </td></tr><tr><td>
 
@@ -523,7 +523,7 @@ Retrieves the system’s compliance details. This includes the list of all confi
 -   This check definition provides the following details:
     -   **Condition for app to be said as compliant**: Every process mentioned in primary process should be running.
     -   **Condition for metric value to be said as compliant**: Value should be matching with the configured expected value.
--   The score is then calculated using this formula: Score = \(Compliant applications + Compliant metric values\) / \(Total applications and metric values - Failed ones\) \* 100
+-   The score is then calculated using this formula: Score = \( Complaint Application + Compliant metric value\) / \(Total Applications and metric value - Failed Ones\) \*100
 
 </td></tr><tr><td>
 
@@ -531,7 +531,7 @@ os.mac.check-system-vpn-details
 
 </td><td>
 
-Gets the VPN details for the device.
+Get the VPN details for your device.
 
 </td></tr><tr><td>
 
@@ -539,11 +539,11 @@ os.mac.check-system-energy-consumption
 
 </td><td>
 
-Gets the energy consumed by the macOS device in the next 5 minutes.**Note:** It's important to consider the following:
+Gets Energy consumed by Mac machine in coming 5 minutes.**Note:** It's important to consider the following:
 
--   Add `/usr/bin/powermetrics` to the sudo permissions.
--   The check takes approximately five minutes to complete because it calculates the energy consumed in the next five minutes.
--   This check definition doesn't work if the agent is installed with Rosetta turned on, on M1, M2, or M3 machines.
+-   /usr/bin/powermetrics must be added to sudo Permissions.
+-   The check takes approximately five minutes to get completed as it’s calculating energy consumed in the coming five minutes
+-   This check definition doesn't work if agent is installed with rosetta enabled on M1, M2, M3 machines.
 
 </td></tr><tr><td>
 
@@ -551,7 +551,7 @@ os.mac.check-system-power-consumption
 
 </td><td>
 
-Gets the power consumption for the macOS device.
+Gets Power consumption for mac device.
 
 </td></tr><tr><td>
 
@@ -652,7 +652,7 @@ None
 
 </td><td>
 
-Retrieves a list of all running processes along with their disk usage in bytes, Process ID \(PID\), Parent Process ID \(PPID\), and name.
+Retrieves a list of all running processes along with their disk usage in Bytes, Process ID \(PID\), Parent Process ID \(PPID\), and name.
 
 </td></tr><tr><td>
 
@@ -690,7 +690,7 @@ service\_type =&lt;Type of service\(one of user, system or all\)
 
 </td><td>
 
-Retrieves the list of all services with PID, service name, status, and service type.
+Retrieves the list of all services with PID, Service Name, Status, Service Type.
 
 </td></tr></tbody>
 </table>## Check definitions — Remedial Actions
@@ -735,7 +735,7 @@ os.mac.action-restart-service
 
 </td><td>
 
-Restarts the logged-in user's service that matches the specified service name.
+Restarts logged user services that take a service name as input to the system.
 
 </td></tr><tr><td>
 
@@ -747,7 +747,7 @@ os.mac.action-execute-jamf-policy
 
 </td><td>
 
-Executes the Jamf policy either with a policy ID or with a predefined action. Predefined actions are set by DEX administrators in the dex\_jamf\_policy table. Service desk agents can select and run the predefined actions because they might not have access to Jamf policy IDs. Jamf policy has information about the application name, package version information, action to be performed \(for example, install or uninstall\), information on enabled on self service, defined in the Jamf server.**Note:** Jamf client must be installed on the device to execute the Jamf policy.
+Execute the Jamf policy either with a policy ID or with a predefined action. Predefined actions are set by the DEX admins in dex\_jamf\_policy table. The service desk agents are able to select and run the predefined actions as they might not have access to Jamf policy IDs. Jamf policy has information about the application name, package version information, action to be performed \(for example, install or uninstall\), information on enabled on self service, defined in the Jamf server.**Note:** Jamf client must be installed on the device to execute the Jamf policy.
 
 </td></tr><tr><td>
 
@@ -787,7 +787,7 @@ None
 
 </td><td>
 
-Restarts OneDrive on the end user's device.
+Restarts one drive on the end-user's machine.
 
 </td></tr><tr><td>
 
@@ -811,7 +811,7 @@ None
 
 </td><td>
 
-Clears all the files in the recycle bin.
+Purging Recycle Bin will clear all the files in the recycle bin.
 
 </td></tr><tr><td>
 
@@ -823,7 +823,7 @@ None
 
 </td><td>
 
-Clears the settings and removes all the installed Google Chrome extensions on all the Google Chrome profiles.
+This action clears the settings and removes all the installed Google Chrome extensions on all the Google Chrome profiles.
 
 </td></tr><tr><td>
 
@@ -835,7 +835,7 @@ power\_mode - Automatic, High power, Low power.
 
 </td><td>
 
-Toggles through different power modes on the user's macOS device.
+This action toggles through different power modes in a user mac device.
 
 </td></tr><tr><td>
 
@@ -849,7 +849,8 @@ duration
 
 </td><td>
 
-Grants users temporary administrator access for a period of time to perform specific tasks.
+Elevates temporary admin access to users for a period of time to perform specific tasks without compromising on security.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)
+

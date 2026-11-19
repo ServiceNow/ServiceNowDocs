@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/config-custom-redirection-from-db.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
@@ -70,7 +70,7 @@ All redirections from data visualizations on that dashboard open your specified 
 
 [Create a Platform Analytics workspace from App Engine Studio]()
 
-[Add Platform Analytics pages to a configurable workspace]()
+[Create Platform Analytics pages in UI Builder]()
 
 [Add a dashboard to a Dashboards page]()
 

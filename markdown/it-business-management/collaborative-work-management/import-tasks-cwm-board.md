@@ -7,7 +7,7 @@ release: australia
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-26"
 reading_time_minutes: 3
 breadcrumb: [Import tasks using ServiceNow Otto, Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -48,8 +48,6 @@ Role required: sn\_cwm\_ai.cwm\_ai\_user or lens\_user
 5.  Upload your file by dragging it onto the upload area or by selecting **Select file**.
 
     The file is processed and the wizard advances to the **Field mapping** step automatically.
-
-    **Note:** Dates that don't match the format set in the `glide.sys.date_format` system property are left blank after import.
 
     \[Omitted image "cwm-import-upload-file.png"\] Alt text: Upload file step with AI scanning the uploaded file.
 

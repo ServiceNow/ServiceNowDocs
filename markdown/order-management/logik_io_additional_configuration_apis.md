@@ -62,11 +62,13 @@ ServiceNow CPQ configurations can be deleted, but it is not typically necessary.
 
 |HTTP method|DELETE|
 |-----------|------|
-|URL|https://&lt;tenant&gt;.&lt;sector&gt;.logik.io/api/&lt;uuid&gt;|
+|URL|https://&lt;tenant&gt;.&lt;sector&gt;.cpq/api/&lt;uuid&gt;|
 |Path parameters|&lt;uuid&gt;|32 character ServiceNow CPQ configuration UUID|required|
 |Query parameters|N/A|
 
-Sample URL: [https://dev1.test.logik.io/api/71e62fe7-e59b-4a91-94af-64718e0d4eae](https://dev1.test.logik.io/api/71e62fe7-e59b-4a91-94af-64718e0d4eae)
+Sample URL:
+
+https://dev1.test.cpq/api/71e62fe7-e59b-4a91-94af-64718e0d4eae
 
 Sample response:
 

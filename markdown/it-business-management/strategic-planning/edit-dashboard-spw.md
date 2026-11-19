@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Create a dashboard, Use, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -55,15 +55,15 @@ You can use the following elements to create or edit your dashboard.
 
 3.  From the dashboard header, select **Edit**.
 
-<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d123223e230">
+<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d124136e230">
 
 For this
 
-</th><th align="left" id="d123223e233">
+</th><th align="left" id="d124136e233">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d123223e239">
+</th></tr></thead><tbody><tr><td id="d124136e239">
 
 **Add a tab**
 
@@ -77,7 +77,7 @@ A new tab appears with the default name New Tab.
 3.  Press Enter to update the name of the tab.
 
 
-</td></tr><tr><td id="d123223e265">
+</td></tr><tr><td id="d124136e265">
 
 **Add a dashboard element**
 

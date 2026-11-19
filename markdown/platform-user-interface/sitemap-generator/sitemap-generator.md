@@ -7,7 +7,7 @@ release: australia
 product: Sitemap Generator
 classification: sitemap-generator
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Improving search engine optimization for portals, Service Portal, Configure UIs and portals, Configure user experiences]
 ---

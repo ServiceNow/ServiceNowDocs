@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-nowassistindocumentintelligence-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -103,7 +103,7 @@ Turn on image mode to process images more efficiently for use cases that use a m
 
 -   **[Model provider flexibility at the use case level](https://www.servicenow.com/docs/access?context=llms-now-assist-document-intelligence&family=zurich&ft:locale=en-US)**
 
-Choose a model provider at the use case level, including a Now Assist default option that uses the instance-level model selected in AI Control Tower.
+Choose a model provider at the use case level, including a Now Assist default option that uses the instance-level model selected in Control Tower.
 
 -   **[Information extraction for Operational Sustainability Risk Management](https://www.servicenow.com/docs/access?context=filter-citations-and-authority-documents-for-esg&family=zurich&ft:locale=en-US)**
 

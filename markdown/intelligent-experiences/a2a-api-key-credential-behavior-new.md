@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-10-16"
 reading_time_minutes: 1
-breadcrumb: [Integrate external AI agents, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Integrate external AI agents, AI Agent Studio, Enable AI experiences]
 ---
 
 # A2A API Key credential behavior

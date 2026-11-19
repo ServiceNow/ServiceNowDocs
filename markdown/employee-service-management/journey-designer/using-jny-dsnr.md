@@ -7,7 +7,7 @@ release: australia
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -22,12 +22,12 @@ Journey designer enables managers, mentors, and employees to create and manage p
 Journey plan configuration template management is a collaborative effort that includes ServiceNow admins, journey template owners, and team experts.
 -   **[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-working-with-journeys.md)**  
 Managers, employees, and mentors access journeys from the Employee Center \(EC\).
+-   **[Journeys in EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/journey-experience-ew.md)**  
+Employee Journeys in EmployeeWorks Web App brings journeys and lifecycle events together in one unified experience powered by ServiceNow's AI-native employee experience platform.
 -   **[Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jny-report-dashboards.md)**  
 Dashboards are configurable graphic displays of key metrics, reports, and other widgets on a single screen.
 -   **[Now Assist Virtual Agent topics for Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/jd-va-topic.md)**  
 Complete the Journey designer related tasks from Employee Center using the Now Assist Virtual Agent topics.
--   **[AI in Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/agentic-wf-jny-dsgnr-na-hrsd.md)**  
-Use agentic workflows and ServiceNow Otto for HRSD to facilitate and manage employee journeys throughout the different stages of the employee's career. These workflows, powered by a single or team of AI agents, help your organization by automating procedures for managers while simultaneously curating custom experiences for employees.
 
 **Parent Topic:**[Journey designer]()
 

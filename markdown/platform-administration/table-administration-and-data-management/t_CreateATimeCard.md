@@ -7,7 +7,7 @@ release: australia
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Time cards, Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: timecard\_user
 
 ## About this task
 
-Starting Brazil release, users can select a resource assignment to associate it with time cards to calculate the actual efforts and tag them to the respective projects.
+Starting Australia release, users can select a resource assignment to associate it with time cards to calculate the actual efforts and tag them to the respective projects.
 
 The **Allow time card reporting on** field on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/t_CreateAProject.md) determines the level at which the time cards for the project tasks can be created.
 
@@ -52,15 +52,15 @@ Time cards can be created automatically or manually.
 
 1.  Create the time card using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d192936e208">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d192503e208">
 
 Option
 
-</th><th align="left" id="d192936e211">
+</th><th align="left" id="d192503e211">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d192936e217">
+</th></tr></thead><tbody><tr><td id="d192503e217">
 
 **From the Time Sheet Portal**
 
@@ -70,7 +70,7 @@ Steps
 2.  Open the week on the **Calendar** for which you want to create the time card.
 
 
-</td></tr><tr><td id="d192936e247">
+</td></tr><tr><td id="d192503e247">
 
 **From a Time sheet related list**
 
@@ -80,7 +80,7 @@ Steps
 2.  In the **Time Cards** related list, click **New**.
 
 
-</td></tr><tr><td id="d192936e271">
+</td></tr><tr><td id="d192503e271">
 
 **From a Time sheet related link**
 

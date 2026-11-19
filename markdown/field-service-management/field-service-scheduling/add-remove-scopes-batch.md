@@ -1,24 +1,22 @@
 ---
 title: Add or remove scopes from an optimization batch
-description: Add a scope to a batch to include it in optimization runs, or remove a scope to reduce the number of scopes the batch contains.
+description: Add scopes to optimization batches or remove a scope from a batch if the number of scopes in a batch becomes too large to manage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/add-remove-scopes-batch.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Batches and scopes, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Add or remove scopes from an optimization batch
 
-Add a scope to a batch to include it in optimization runs, or remove a scope to reduce the number of scopes the batch contains.
+Add scopes to optimization batches or remove a scope from a batch if the number of scopes in a batch becomes too large to manage.
 
 ## Before you begin
-
-To add a scope, create it first. See [Create a scope for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/create-an-optimization-job-soe.md).
 
 Role required: wm\_admin
 
@@ -28,29 +26,14 @@ Role required: wm\_admin
 
 2.  Select the optimization batch that you want to add or remove a scope from.
 
-3.  In the **Optimization Scopes** tab, select **Edit**.
+3.  Select **Edit**.
 
 4.  Select the scope.
 
-5.  Add or remove the scope:
+5.  Either add the scope to or remove the scope from the optimization batch.
 
     -   To add the scope, select **Add**.
     -   To remove the scope, select **Remove**.
 6.  Select **Save**.
 
-    **Note:** When you add an existing scope, a copy of the scope is created and linked to the batch. If the scope is used in more than one batch, schedule the batches so their run times don't overlap. For more information, see [Schedule Optimization batches and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/batches-and-scopes.md).
-
-
-## Result
-
-The batch includes the scope you added, or no longer includes the scope you removed.
-
-**Related topics**  
-
-
-[Batches and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/batches-and-scopes.md)
-
-[Create a scope for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/create-an-optimization-job-soe.md)
-
-[Create a batch for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/create-an-optimization-batch.md)
 

@@ -29,10 +29,14 @@ Role required: sp\_admin
 3.  On the Customer Support page, in the **Quick start config** field, modify the JSON as shown.
 
     ```
-    "headerSearch": {
-                    "display_search": true,
-    "search_placeholder_text": "Search articles and request items",
-    "exclude_search_for_pages": "csm_home_new"
+    {
+      "headerSearch": {
+        "display_search": true,
+        "search_placeholder_text": "Search articles and request items",
+        "exclude_search_for_pages": "csm_home_new"
+      }
+    }
+    
     ```
 
     **Note:** You can also modify the placeholder text. The default text is `Search articles and request items`.

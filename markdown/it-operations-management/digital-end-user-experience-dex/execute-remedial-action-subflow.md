@@ -7,10 +7,10 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-10-01"
 reading_time_minutes: 2
 keywords: [remedial action, subflow, Workflow Studio, device remediation]
-breadcrumb: [Triggering remedial actions from flows, Creating DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Trigger remedial actions from flows, DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Execute remedial action subflow
@@ -28,17 +28,17 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Remedial Actions Framework** &gt; **Administration** &gt; **Remedial actions**.
 
-2.  Select a remedial action and copy its sys\_id.
+2.  Select a remedial action and copy its sys ID.
 
 3.  In the Remedial Action parameters related list on the remedial action record, note the column name of each required parameter.
 
 4.  Navigate to **All** &gt; **Configuration** &gt; **Computers**.
 
-5.  Select the device to run the remedial action on, and copy the sys\_id of its computer configuration item \(CI\).
+5.  Select the device to run the remedial action on, and copy the sys ID of its computer configuration item \(CI\).
 
-    **Warning:** Copy the sys\_id of the `cmdb_ci_computer` record, not the sys\_id of the agent record.
+    **Warning:** Copy the sys ID of the `cmdb_ci_computer` record, not the sys ID of the agent record.
 
-6.  To track the run, copy the sys\_id of a remedial action origin from **All** &gt; **Remedial Actions Framework** &gt; **Administration** &gt; **Remedial action origins**.
+6.  To track the run, copy the sys ID of a remedial action origin from **All** &gt; **Remedial Actions Framework** &gt; **Administration** &gt; **Remedial action origins**.
 
     The origin is used to track the run in the remedial action execution record. Each run creates a remedial action execution record.
 
@@ -52,12 +52,12 @@ Role required: admin
 
 11. Enter the inputs that you prepared.
 
-    |Input|Value|
-    |-----|-----|
-    |device\_id|The sys\_id of the computer CI.|
-    |remedial\_action\_id|The sys\_id of the remedial action.|
+    |Input|Value to enter|
+    |-----|--------------|
+    |device\_id|The sys ID of the computer CI.|
+    |remedial\_action\_id|The sys ID of the remedial action.|
     |action\_params|A JSON object that maps the column name of each remedial action parameter to its value. If the remedial action has no parameters, enter `{}`.|
-    |origin\_sys\_id \(optional\)|The sys\_id of the remedial action origin.|
+    |origin\_sys\_id \(optional\)|The sys ID of the remedial action origin.|
 
     For example, the `action_params` value for a remedial action with two parameters looks like this:
 
@@ -76,7 +76,7 @@ Role required: admin
 
 13. Review the subflow outputs.
 
-    If the remedial action completes successfully, the outputs show the message `Remedial action completed successfully` and a status of completed. For all outputs and messages, see [Execute remedial action subflow inputs and outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/execute-remedial-action-subflow-reference.md).
+    If the remedial action completes successfully, the outputs show the message Remedial action completed successfully and a status of completed. For all outputs and messages, see [Execute remedial action subflow inputs and outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/execute-remedial-action-subflow-reference.md).
 
 
 ## Result
@@ -86,4 +86,6 @@ The remedial action runs on the device, and the subflow outputs report the outco
 ## What to do next
 
 To review the execution record, see [View remedial action execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/view-remedial-action-execution.md).
+
+**Parent Topic:**[Trigger remedial actions from flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/Trigger-ra-flow.md)
 

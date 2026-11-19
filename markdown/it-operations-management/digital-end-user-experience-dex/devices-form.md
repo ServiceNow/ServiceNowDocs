@@ -7,7 +7,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
@@ -74,7 +74,7 @@ Matches assigned to
 
 </td><td>
 
-Indication of whether the device that the user is using to connect to DEX is assigned to the user's name. **Note:** The field displays **Yes** when the user is the owner of the device. For shared devices, **Yes** is displayed as the value only when the user is the owner of the device.
+Indicates whether the device that the user is using to connect to DEX is assigned to the user's name. **Note:** The field displays **Yes** when the user is the owner of the device. For shared devices, **Yes** is displayed as the value only when the user is the owner of the device.
 
 </td></tr><tr><td>
 
@@ -117,5 +117,7 @@ Incidents
 Total count of active incidents for the device.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-console-reference.md)
+</table>To return to the main devices page, see [Devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-workspace-devices-tab.md).
+
+**Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-console-reference.md)
 

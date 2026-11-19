@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Additional Cloud Provisioning and Governance setup on day 2, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -35,7 +35,7 @@ You can run Discovery on-demand.
 
 1.  Navigate to the Cloud Service Accounts \[cmdb\_ci\_cloud\_service\_account\_list\] table.
 
-    For more information on directly navigating to a table, see [Navigate directly to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/t_NavigateDirectlyToATable.md).
+    For more information on directly navigating to a table, see Navigate directly to a table.
 
 2.  Select the service account whose LDCs you want to discover.
 

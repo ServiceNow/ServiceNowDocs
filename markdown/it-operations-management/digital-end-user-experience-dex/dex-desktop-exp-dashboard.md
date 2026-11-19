@@ -7,7 +7,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
@@ -36,9 +36,9 @@ Connection Status
 
 Shows whether the device is connected to a ServiceNow instance.
 
- **Note:** If a user remains inactive for 6 hours, their connection status is considered Down, even if they're still logged in but not active.
+ **Note:** If a user remains inactive for 6 hours, their connection status is considered as "down", even if they're still logged in but not active.
 
- This information helps you troubleshoot connectivity issues and make sure that the device can access the resources it needs.
+ This information helps you troubleshoot connectivity issues and make sure that the device is able to access the resources it needs.
 
 </td><td>
 
@@ -50,9 +50,9 @@ Logged in
 
 </td><td>
 
-Indicates whether a user is logged in to the device. The login status of a user is updated when they either log in or log out.
+Indicates whether a user is logged in to the device or not. The login status of a user is updated when they either log in or log out.
 
- This information helps you determine whether the device is in use and track user activity over time.
+ This information helps you determine whether the device is in use or not and track user activity over time.
 
 </td><td>
 

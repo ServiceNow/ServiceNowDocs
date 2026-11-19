@@ -7,14 +7,16 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+last_updated: "2026-08-24"
+reading_time_minutes: 8
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage obligations in the Hardware Asset Workspace
 
 Obligation Management in the Hardware Asset Workspace enables you to create obligation records to define specific instructions and obligation task types required to fulfill a contract obligation.
+
+**Important:** This feature is available only with Hardware Asset Management Prime SKU, starting from Hardware Asset Management version 16.0.0 and Australia patch 6.
 
 Hardware contracts such as leases, warranties, maintenance agreements, and purchase agreements each include specific commitments. Without proper tracking, organizations risk:
 
@@ -62,26 +64,78 @@ The following workflow describes how users create and manage obligations for har
 -   **[Create an obligation record in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-obligation-records-ham.md)**  
 Create an obligation record for signed contracts in the Hardware Asset Workspace to fulfill the responsibilities specified in the contract through obligation tasks.
 
-**Parent Topic:**[Asset lifecycle and disposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-lifecycle-disposal-ham.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
 
-[Request a Hardware Asset Refresh]()
+[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
 
-[Manage refresh of assets using Zero Touch Refresh]()
+[Work with hardware normalization]()
+
+[Manage asset bundles from your inventory]()
+
+[Manage your inventory through pallet assets]()
+
+[Manage loaner assets]()
+
+[Donate assets to charity organizations]()
+
+[Use Advanced Shipment Notification]()
+
+[Manage RMA requests]()
+
+[Create an inventory stock order request]()
+
+[Create a disposal order]()
+
+[Fulfilling hardware asset requests]()
+
+[Audit hardware asset inventory]()
+
+[Request a Hardware Asset Refresh]()
 
 [Manage your expiring contracts for leased hardware assets]()
 
 [Reclaim hardware assets]()
 
-[Create a disposal order]()
+[View RFID information of assets]()
 
-[Donate assets to charity organizations]()
+[Manage the lifecycle of hardware models with calculated lifecycle templates]()
+
+[Create an internal lifecycle in the Hardware Asset Workspace]()
 
 [Calculate the active lifecycle phase for a model]()
 
-[Manage asset bundles from your inventory]()
+[Receive asset warranty details from Lenovo]()
+
+[Manage stockrooms]()
+
+[Track shipments using the integration framework]()
+
+[Track asset location using indoor maps]()
+
+[Assess performance of Hardware Asset Management]()
+
+[Manage refresh of assets using Zero Touch Refresh]()
+
+[Configure the Total Cost of Ownership of assets]()
+
+[Manage Hardware Asset Management subscriptions]()
+
+[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
+
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
+
+[Manage hardware asset tasks using the Mobile Agent application]()
+
+[Manage asset put away using the Hardware Asset Workspace]()
+
+[Audit your hardware assets by using Asset Attestation]()
 
 [Manage contract repository agentic workflow in the Hardware Asset Workspace]()
+
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Update associated Decision tables for HAM flows]()
 

@@ -7,7 +7,7 @@ release: australia
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
@@ -18,7 +18,7 @@ Specify chat context variables, also called Live Agent chat variables, for stori
 
 ## Before you begin
 
-Virtual Agent provides pre-built context variables. Before you add a variable, review the list of [available Live Agent context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/live-agent-chat-context-vars.md).
+Virtual Agent provides prebuilt context variables. Before you add a variable, review the list of [available Live Agent context variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/live-agent-chat-context-vars.md).
 
 Role required: virtual\_agent\_admin or admin
 

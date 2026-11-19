@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-09-24"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine reference, Impact reference, Impact]
+breadcrumb: [Impact reference, Impact]
 ---
 
 # Supported record types for Real-time prevention monitoring with AI
@@ -29,5 +29,5 @@ Following are the supported script-related tables that generate AI-suggested fix
 |sys\_ui\_list\_script\_client|List control scripts|
 |sys\_ui\_script|UI scripts|
 
-**Parent Topic:**[Scan Engine reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/scan-engine-reference.md)
+**Parent Topic:**[Impact reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/impact-reference.md)
 

@@ -1,13 +1,13 @@
 ---
 title: Generate a knowledge article with ServiceNow Otto
-description: Generate knowledge articles for resolved and closed cases within the CRM Workspace and classic environment using ServiceNow Otto.
+description: Generate knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment using ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/now-assist-for-csm/Now-Assist-generate-article-csm-workspace.html
 release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-20"
 reading_time_minutes: 4
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
@@ -15,7 +15,7 @@ breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Manage
 
 # Generate a knowledge article with ServiceNow Otto
 
-Generate knowledge articles for resolved and closed cases within the CRM Workspace and classic environment using ServiceNow Otto.
+Generate knowledge articles for resolved and closed cases within the CSM Configurable Workspace and classic environment using ServiceNow Otto.
 
 ## Before you begin
 
@@ -41,7 +41,7 @@ Role required: agent
 
 ## About this task
 
-In the CRM Workspace and classic environment, generate knowledge article information for a case by selecting **Create Knowledge** on the case record. The Use AI to draft this article modal opens. Choose to write the article yourself or draft it with ServiceNow Otto, then review and edit the text.
+In the CSM Configurable Workspace and classic environment, generate knowledge article information for a case by selecting **Create Knowledge** on the case record. The Use AI to draft this article modal opens. Choose to write the article yourself or draft it with ServiceNow Otto, then review and edit the text.
 
 **Note:**
 
@@ -49,7 +49,7 @@ The Create Knowledge UI action is available to customer service agents with assi
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
 
 2.  Open a case assigned to you.
 

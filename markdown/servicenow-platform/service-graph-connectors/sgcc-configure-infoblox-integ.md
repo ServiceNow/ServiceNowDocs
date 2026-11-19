@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Infoblox, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -87,7 +87,7 @@ User name
 
 </td><td>
 
-User name for authenticating the HTTP request.
+User name for authenticating the HTTPS request.
 
 </td></tr><tr><td>
 
@@ -95,7 +95,7 @@ Password
 
 </td><td>
 
-Password for the user name used for authenticating the HTTP request.
+Password for the user name used for authenticating the HTTPS request.
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ MID Server for the connection.This field appears only when you select the **Use 
 
         If you leave this field empty or set it to `Default`, the data sources within the connector import data from all the network views.
 
-    3.  In the **API version** field, enter the [version of WAPI](https://ipam.illinois.edu/wapidoc/) you’re using.
+    3.  In the **API version** field, enter the version of WAPI that you’re using.
 
         For more information about the Infoblox API, see the [Infoblox Developer documentation](https://www.infoblox.com/wp-content/uploads/infoblox-deployment-infoblox-rest-api.pdf).
 
@@ -164,7 +164,7 @@ MID Server for the connection.This field appears only when you select the **Use 
 
     4.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see .
+        For more information, see [Schedule a data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_ScheduleADataImport.md#table_r53_5hm_xp).
 
     5.  Select **Save**.
 

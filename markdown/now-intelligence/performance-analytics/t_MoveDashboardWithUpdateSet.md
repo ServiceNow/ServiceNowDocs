@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [move a dashboard, move a responsive dashboard]
 breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
@@ -43,7 +43,7 @@ Additional steps may be necessary if you are moving a dashboard on a scoped appl
 
 3.  Verify that there’s a portal page record associated with each tab.
 
-    1.  Select the context menu icon \(\[Omitted image "icon-context-p.png"\] Alt text:\) and select **Launch Dependency Assessment**.
+    1.  Select the context menu icon \(\[Omitted image "icon\_menu3lines.png"\] Alt text:\) and select **Launch Dependency Assessment**.
 
         \[Omitted image "move-dp-update-da-ex.png"\] Alt text: Dependency assessment example highlighting dashboard and dashboard tab tiles
 
@@ -55,7 +55,7 @@ Additional steps may be necessary if you are moving a dashboard on a scoped appl
 
     The dashboard's tile has the same name as the dashboard itself.
 
-5.  Select the context menu icon \(\[Omitted image "icon-context-p.png"\] Alt text:\) and select **Unload Dashboard**.
+5.  Select the context menu icon \(\[Omitted image "icon\_menu3lines.png"\] Alt text: context menu icon\) and select **Unload Dashboard**.
 
     Only perform this step after the dashboard is ready to unload, meaning that you’ve added all content to the tabs.
 

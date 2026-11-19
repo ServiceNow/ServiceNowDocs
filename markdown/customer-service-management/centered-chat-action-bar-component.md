@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-19"
 reading_time_minutes: 1
-breadcrumb: [CSM centered chat interaction record page, Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CSM centered chat interaction record page, Record pages, Record pages and page templates, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Action bar component
@@ -27,12 +27,12 @@ The action bar on the CSM centered chat interaction record page includes the fol
 
 **Note:** The specific actions available are determined by factors such as the user role and other attributes.
 
-The CSM centered chat interaction record page supports actions from the following Customer Service Management and CRM Workspace plugins:
+The CSM centered chat interaction record page supports actions from the following Customer Service Management and CSM Configurable Workspace plugins:
 
 -   Case Management Core \(com.sn\_customerservice\)
 -   CRM Workspace Core \(com.snc.agent\_workspace.csm\)
 -   CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)
--   CRM Workspace Foundation \(com.snc.uib.cwf\_workspace\)
+-   CSM Configurable Workspace Foundation \(com.snc.uib.cwf\_workspace\)
 -   Major Issue Management \(com.sn\_majorissue\_mgt\)
 -   Customer Service with Service Management \(com.sn\_cs\_sm\)
 -   Customer Service with Request Management \(com.sn\_cs\_sm\_request\)

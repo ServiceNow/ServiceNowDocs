@@ -1,12 +1,12 @@
 ---
 title: Update an established connection
-description: Keep connection details current by updating service account information, authentication, or security settings.Monitor and troubleshoot a connection by viewing the connection log.Temporarily disable the connection between data fabric tables and their data source by deactivating a connection.Manage data assets and access control in a deactivated connection by reactivating it.Remove an established connection and its data fabric tables.
+description: Keep connection details current by updating service account information, authentication, or security settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/configure-connection-details-zcc.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
@@ -55,163 +55,18 @@ The system tests the connection. If connection succeeds, the changes are saved.
 
 ## What to do next
 
-If the connection fails, [View the connection log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-connection-details-zcc.md). Review the connection details with the data source admin and try again.
+If the connection fails, [View the connection log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/view-connection-log-zcc.md). Review the connection details with the data source admin and try again.
 
 If your changes impact data fabric tables, ensure the proper access is configured on the **Access Controls** tab.
 
-**Parent Topic:**[Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-connections-zcc.md)
-
-## View the connection log
-
+-   **[View the connection log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/view-connection-log-zcc.md)**  
 Monitor and troubleshoot a connection by viewing the connection log.
-
-### Before you begin
-
-Role required: df\_connection\_admin
-
-### Procedure
-
-1.  Navigate to the **Established connections** tab in Zero Copy Connector Hub in one of the following ways:
-
-    -   Navigate to **All** &gt; **Zero Copy Connector Hub** &gt; **Established connections**.
-    -   Navigate to **Admin** &gt; **Zero Copy Connector Hub** &gt; **Established connections**.
-2.  Select the connection that you want to monitor.
-
-3.  Select the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and select **View Connection Logs**.
-
-
-### Result
-
-The Data Fabric Logs \[df\_log\] table appears, displaying log entries for the current day related to this connection.
-
-### What to do next
-
-Review the log entries and consult your data source administrator if necessary. Update the connection details if any connection attributes are incorrect. See [Update an established connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-connection-details-zcc.md).
-
-## Deactivate a connection
-
+-   **[Deactivate a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/deactivate-connnection-zcc.md)**  
 Temporarily disable the connection between data fabric tables and their data source by deactivating a connection.
-
-### Before you begin
-
-Role required: df\_connection\_admin
-
-### About this task
-
-A connection admin can stop queries to an external data source or prevent changes to data mapping by deactivating a connection. When a connection is deactivated, external data isn't available from any data fabric tables using the connection.
-
-### Procedure
-
-1.  Navigate to the **Established connections** tab in Zero Copy Connector Hub in one of the following ways:
-
-    -   Navigate to **All** &gt; **Zero Copy Connector Hub** &gt; **Established connections**.
-    -   Navigate to **Admin** &gt; **Zero Copy Connector Hub** &gt; **Established connections**.
-2.  Select the connection that you want to deactivate.
-
-3.  Select the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and select **Deactivate**.
-
-4.  Confirm that you want to deactivate the connection by selecting **Deactivate**.
-
-
-### Result
-
-The connection is deactivated.
-
--   External data is no longer pulled by any data fabric table using the connection.
--   The **Data Assets** tab and **Access Control** tabs aren't accessible in the connection.
-
-### What to do next
-
-To update the connection information or access the **Data Assets** or **Access Control** tabs again, you must reactivate the connection. See [Reactivate a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/configure-connection-details-zcc.md).
-
-## Reactivate a connection
-
+-   **[Reactivate a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/reactivate-connnection-zcc.md)**  
 Manage data assets and access control in a deactivated connection by reactivating it.
-
-### Before you begin
-
-Role required: df\_connection\_admin
-
-### About this task
-
-A connection admin can reactivate a connection that's been temporarily deactivated.
-
-### Procedure
-
-1.  Navigate to the **Established connections** tab in Zero Copy Connector Hub in one of the following ways:
-
-    -   Navigate to **All** &gt; **Zero Copy Connector Hub** &gt; **Established connections**.
-    -   Navigate to **Admin** &gt; **Zero Copy Connector Hub** &gt; **Established connections**.
-2.  Select the connection that you want to reactivate.
-
-    **Note:** View all deactivated connections by selecting **Deactivated** in the **Status** list.
-
-3.  Select **Reactivate**.
-
-4.  Review and update connection details as needed.
-
-5.  Select **Save and connect**.
-
-
-### Result
-
-The connection is activated.
-
--   External data is pulled by any data fabric table using the connection.
--   The **Data Assets** tab and **Access Control** tabs are accessible in the connection.
-
-## Delete a connection
-
+-   **[Delete a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/delete-connection-zcc.md)**  
 Remove an established connection and its data fabric tables.
 
-### Before you begin
-
-Role required: df\_connection\_admin
-
-### About this task
-
-A connection admin can remove an established connection from the Zero Copy Connector Hub by deleting the connection. To delete the connection, you must delete all the data fabric tables using the connection first.
-
-### Procedure
-
-1.  Navigate to the **Established connections** tab in Zero Copy Connector Hub in one of the following ways:
-
-    -   Navigate to **All** &gt; **Zero Copy Connector Hub** &gt; **Established connections**.
-    -   Navigate to **Admin** &gt; **Zero Copy Connector Hub** &gt; **Established connections**.
-2.  Select the connection that you want to delete.
-
-    The current connection information is displayed on the **Connection details** tab.
-
-3.  Delete the connection immediately if it doesn't have any associated tables or delete the associated tables and then delete the connection.
-
-<table id="choicetable_wv5_lmf_w2c"><tbody><tr><td id="d537223e780">
-
-**Delete a connection without any associated tables**
-
-</td><td>
-
-1.  Select the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and select **Delete**.
-2.  In the confirmation dialog box, select **Delete**.
-
-
-</td></tr><tr><td id="d537223e810">
-
-**Delete a connection with associated tables**
-
-</td><td>
-
-1.  Select the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and select **Delete**.
-2.  In the message that appears about deleting associated tables, select **View tables**.
-3.  In the **Data fabric tables** tab, delete each associated table by selecting the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and selecting **Delete**.
-4.  Navigate back to **Established connections**.
-5.  Select the connection that you want to delete again.
-6.  Select the More Actions icon \(\[Omitted image "more-actions-menu-icon.png"\] Alt text: More actions icon\), and select **Delete**.
-7.  In the confirmation dialog box, select **Delete**.
-
-
-</td></tr></tbody>
-</table>
-### Result
-
-The connection and any associated tables are deleted from the Zero Copy Connector Hub.
+**Parent Topic:**[Managing zero copy connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-connections-zcc.md)
 

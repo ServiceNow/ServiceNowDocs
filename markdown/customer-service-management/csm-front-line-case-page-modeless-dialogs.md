@@ -1,18 +1,18 @@
 ---
 title: Modeless dialogs
-description: Modeless dialogs are windows that overlay the main window content in CRM Workspace. Customer service agents can use modeless dialogs to create and post comments and work notes to the activity stream and to compose and send emails.
+description: Modeless dialogs are windows that overlay the main window content in CSM Configurable Workspace. Customer service agents can use modeless dialogs to create and post comments and work notes to the activity stream and to compose and send emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-front-line-case-page-modeless-dialogs.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 15
-breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 16
+breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Modeless dialogs
 
-Modeless dialogs are windows that overlay the main window content in CRM Workspace. Customer service agents can use modeless dialogs to create and post comments and work notes to the activity stream and to compose and send emails.
+Modeless dialogs are windows that overlay the main window content in CSM Configurable Workspace. Customer service agents can use modeless dialogs to create and post comments and work notes to the activity stream and to compose and send emails.
 
 A modeless dialog is a window that appears in a workspace as an overlay on top of the main window content. This overlay enables agents to interact with the window content and the overlay content at the same time. Agents can use modeless dialogs to do the following:
 
@@ -74,6 +74,19 @@ To post a comment or work note, select one of the following actions from the Com
 -   **Post Work notes**
 
 The system posts the comment or work note to the activity stream. Saving the case record also posts the comment or work note to the activity stream.
+
+</td></tr><tr><td>
+
+Add a link to a knowledge article
+
+</td><td>
+
+To add a link to a knowledge article:1.  Select the Recommended Actions tab in the contextual side panel.
+2.  View the list of knowledge articles or search for an article.
+3.  Select the More Actions menu on the knowledge article card.
+4.  Select **Attach and add link in comment** or **Add link in work note** or **Attach and add link in email**.
+
+The workspace switches to the relevant tab. The inserted link displays the knowledge article title and article number as a hyperlink, in the format `Article Title: KB0012345`.
 
 </td></tr><tr><td>
 
@@ -220,7 +233,7 @@ To add a link to a knowledge article:1.  Select the Recommended Actions tab in t
 3.  Select the More Actions menu on the knowledge article card.
 4.  Select **Attach and add link in email**.
 
-The system adds a link to the knowledge article in the body of the email.
+The system inserts the knowledge article title and article number as a hyperlink in the body of the email, in the format `Article Title: KB0012345`.
 
 </td></tr><tr><td>
 
@@ -472,7 +485,7 @@ To remove the HTML tags, enable the **glide.ui.journal.use\_html** system proper
 1.  In the navigation filter, enter **sys\_properties.list** to display a list of the properties stored in the System Properties \[sys\_properties\] table.
 2.  Search for the **glide.ui.journal.use\_html** property in the **Name** column.
 3.  Set the **Value** field to true and select **Update**.
-4.  Return to CRM Workspace and refresh the page.
+4.  Return to CSM Configurable Workspace and refresh the page.
 
 Setting this property to true enables the Rich Text Editor for the **Additional comments** and **Work notes** fields on the case record and removes the HTML tags.
 

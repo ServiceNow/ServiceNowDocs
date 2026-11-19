@@ -8,7 +8,7 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-10-22"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [oracle, ebs, wadl, isg, xsd, zero copy connector for erp, oracle e-business suite, oracle ebs wadl, wadl service, wadl service discovery, integrated soa gateway, isg alias, pl/sql integration service]
 breadcrumb: [Connecting to Oracle EBS, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -38,4 +38,6 @@ After fields are generated, a validation strategy is set on the operation based 
 ## Related tasks and reference
 
 To add a WADL service, see [Add a WADL service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-wadl-service-manually.md).
+
+**Parent Topic:**[Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Regulatory change tasks
-description: When a manager or user marks an unassigned regulatory alert as applicable, a regulatory change task is created. It is used to analyze the impact of the regulatory change and coordinate the required compliance activities.
+description: When a manager or user marks an unassigned regulatory alert as applicable, a regulatory change task is created. Use the task to analyze the impact of the regulatory change and coordinate compliance activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-task.html
 release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
 # Regulatory change tasks
 
-When a manager or user marks an unassigned regulatory alert as applicable, a regulatory change task is created. It is used to analyze the impact of the regulatory change and coordinate the required compliance activities.
+When a manager or user marks an unassigned regulatory alert as applicable, a regulatory change task is created. Use the task to analyze the impact of the regulatory change and coordinate compliance activities.
 
 A regulatory change task serves as the parent record for all action tasks created to address an applicable regulatory alert. Action tasks represent the specific activities required to implement regulatory changes, such as updating policies, controls, or risk statements in the regulatory library.
 

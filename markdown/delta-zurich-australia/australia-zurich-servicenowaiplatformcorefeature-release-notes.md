@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-servicenowaiplatformcorefeature-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
-reading_time_minutes: 14
+last_updated: "2026-11-19"
+reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
 
@@ -195,6 +195,10 @@ Reduce manual entry errors through a new Address field type for Core UI and Work
 -   **[New dot-walk scoping security properties and table attribute](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&family=australia&ft:locale=en-US)**
 
 Strengthen scope boundary enforcement when dot-walking across application scopes using Reference Fields through additional properties and a table attribute. For more information, see the [Dot-Walk Scoping Security Enhancement \[KB2793170\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2793170) article in the Now Support Knowledge Base.
+
+-   **[New system properties for guest session memory management](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&family=australia&ft:locale=en-US)**
+
+Reduce memory pressure from guest sessions during high-memory states using two new system properties. Use **glide.session.guest.max\_for\_memory\_remediation** to set the maximum number of guest sessions retained when a node is under memory pressure, and **glide.session.guest.min\_idle\_ms\_for\_eviction** to set the minimum idle time before a guest session is eligible for eviction.
 
 
 </td></tr></tbody>

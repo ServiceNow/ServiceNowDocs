@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-13"
 reading_time_minutes: 4
 keywords: [ai specialist reference, ai specialist roles, ai specialist metrics, AI specialist role, AI specialist performance, AI specialist metrics, ai specialist auto-resolve rate, ai specialist coverage rate, ai specialist KB article usage]
-breadcrumb: [Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Autonomous Workforce, Enable AI experiences]
 ---
 
 # Reference for Autonomous Workforce

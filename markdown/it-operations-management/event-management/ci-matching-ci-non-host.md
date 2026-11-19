@@ -1,20 +1,20 @@
 ---
 title: Bind non-host CIs using CI field matching
-description: If no match is found using the Node field, the system uses the CI identifier field to match alerts with non-host CIs based on attributes like Name, FQDN, IP, or MAC. This ensures accurate alert association, improving visibility, troubleshooting, and root cause analysis for diverse infrastructure components.
+description: If no match is found using the Node field, the system uses attributes from the Additional information field to match alerts with non-host CIs. It compares those attributes against columns in the selected CI type's table. This ensures accurate alert association, improving visibility, troubleshooting, and root cause analysis for diverse infrastructure components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/ci-matching-ci-non-host.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 2
 breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Bind non-host CIs using CI field matching
 
-If no match is found using the **Node** field, the system uses the **CI identifier** field to match alerts with non-host CIs based on attributes like Name, FQDN, IP, or MAC. This ensures accurate alert association, improving visibility, troubleshooting, and root cause analysis for diverse infrastructure components.
+If no match is found using the **Node** field, the system uses attributes from the **Additional information** field to match alerts with non-host CIs. It compares those attributes against columns in the selected CI type's table. This ensures accurate alert association, improving visibility, troubleshooting, and root cause analysis for diverse infrastructure components.
 
 ## Before you begin
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -127,7 +127,7 @@ Max Idle time
 
 </td><td>
 
-Set a time limit for inactivity during discovery to automatically cancel stalled processes and log the event. A discovery is only considered idle if no input records are processed and nothing remains in the processing state; idle time is measured from the most recent change to an ECC Queue record. The configured idle time is fixed at the start of the discovery and won’t reflect any edits until the next run. If no value is entered in this field, this schedule runs until complete or cancelled.**Note:** By default, the **Max Idle time** field doesn’t display in the Discovery Schedule form. To include this parameter, open the Discovery Schedules \[discovery\_schedule\] table, add the column, and configure the Max Idle time directly in the table. For information about customizing columns in tables, see [Personalize a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_PersonalLists.md).
+Set a time limit for inactivity during discovery to automatically cancel stalled processes and log the event. A discovery is only considered idle if no input records are processed and nothing remains in the processing state; idle time is measured from the most recent change to an ECC Queue record. The configured idle time is fixed at the start of the discovery and won’t reflect any edits until the next run. If no value is entered in this field, this schedule runs until complete or cancelled.**Note:** By default, the **Max Idle time** field doesn’t display in the Discovery Schedule form. To include this parameter, open the Discovery Schedules \[discovery\_schedule\] table, add the column, and configure the Max Idle time directly in the table. For information about customizing columns in tables, see .
 
 </td></tr><tr><td>
 

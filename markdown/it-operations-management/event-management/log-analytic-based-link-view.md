@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Viewing links between alerts in alert groups, Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Viewing links between alerts in alert groups, Work with alert groups, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert links in log analytics-based alert groups
@@ -29,4 +29,6 @@ In this sample Link View, a component attribute is shown for each child alert in
 The Link View legend lists the meaning of the symbols used to represent the attributes. You can toggle between hiding and showing attributes types to reduce noise. For a description of each attribute, see [Attributes in Express List Link View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/link-view-tags-icons-descriptions.md).
 
 \[Omitted image "el-link-view-log-analytics-legend.png"\] Alt text: Sample log analytics-based Link View legend.
+
+**Parent Topic:**[Viewing links between alerts in alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-link-view.md)
 

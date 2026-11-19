@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-23"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Playbooks, Workflow Studio, Build workflows]
@@ -67,7 +67,7 @@ We take an example of enabling an employee onboarding playbook to new employees 
 
 -   **Step 3: Configure the MCP client**
 
-    Configure MCP clients to connect to the server and use the tool. For more information, see 
+    Configure MCP clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md)
 
 -   **Step 4: Use the playbook from the MCP client**
 

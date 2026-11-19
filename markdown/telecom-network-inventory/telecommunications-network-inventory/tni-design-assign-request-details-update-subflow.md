@@ -7,7 +7,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Subflows, Reference, Telecommunications Network Inventory]
 ---
@@ -35,7 +35,7 @@ The following table lists the input fields in the TNI Design Assign Request Deta
 |Change Task|The change task that is associated with Review and submit activity.|Reference.Change Task|
 |Ignore Validation Error|Ignores any validation errors.|True/False|
 
-To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
+To learn more about the variable data types, see Flow Designer input and output data variables.
 
 ## Output
 
@@ -54,7 +54,7 @@ The TNI Design Assign Request Details Update subflow output are as follows.
 
 [Logical Connection Creation subflow]()
 
-[Physical Connection Creation subflow]()
+[Physical connection creation subflow]()
 
 [Design Assign Connection Element Creation subflow]()
 

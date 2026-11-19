@@ -1,14 +1,14 @@
 ---
 title: Optional activities
-description: Enable your agents and fulfillers to add additional activities as they go through a playbook.As a Playbooks administrator, add an optional activity to a playbook that Playbook Experience agents and fulfillers can choose to add and complete during the playbook runtime.
+description: Enable your agents and fulfillers to add additional activities as they go through a playbook.As a Playbooks administrator, add an optional activity to a playbook that Playbook Experience agents can choose to add and complete during the playbook runtime.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/optional-activities.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-11-06"
+reading_time_minutes: 2
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -16,23 +16,25 @@ breadcrumb: [Stages and activities, Understanding the playbook components, Build
 
 Enable your agents and fulfillers to add additional activities as they go through a playbook.
 
-## Overview
+## How optional activities work
 
-Admins enable and add optional activities in the Workflow Studio Playbooks builder, while agents and fulfillers add and complete optional activities in Playbook Experience.
-
-As an example, if you have a playbook for a Security Incident, a playbook admin could add an optional activity for a virus scan. When the activity runs, the optional virus scan activity would take the parent Security Incident record and run third-party virus scanning integrations on Configuration Management Database \(CMDB\) assets associated with the parent record. The security analyst can decide at runtime whether to run a virus scan based on their assessment of the situation.
+Admins enable and add optional activities in the Playbooks designer, while agents add and complete optional activities in Playbook Experience. For more information about optional activities in Playbook Experience, see [Add an optional activity to a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-add-optional-activity.md).
 
 The flow of working with optional activities:
 
 1.  Turn on and add optional activities to a playbook in Workflow Studio.
-2.  Optional activities are configured like other activities. To see [design an automated process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/design-automated-process.md).
+2.  Optional activities are configured like other activities. For more information, see [Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/add-configure-activity.md).
 3.  Agents add optional activities in Playbook Experience.
+
+## Optional activities in a change request playbook
+
+A playbook for a change request can include two optional activities. A global optional activity escalates the change to the CAB chair at any point in the run. A stage-specific optional activity requests more information from the requester while the review stage is active. The agent adds either activity only when a particular change calls for it.
 
 **Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
 
 ## Add an Optional Activity to a playbook
 
-As a Playbooks administrator, add an optional activity to a playbook that Playbook Experience agents and fulfillers can choose to add and complete during the playbook runtime.
+As a Playbooks administrator, add an optional activity to a playbook that Playbook Experience agents can choose to add and complete during the playbook runtime.
 
 ### Before you begin
 
@@ -52,7 +54,7 @@ Role required: playbook.admin or pd\_author
 
     \[Omitted image "optional-activities.png"\] Alt text: Toggle on Optional activities
 
-    The optional activities swimlane opens.
+    The optional activities swimlane view opens.
 
 5.  Add an optional activity.
 
@@ -60,4 +62,10 @@ Role required: playbook.admin or pd\_author
 
 6.  Configure your activity the way that you would configure a regular activity.
 
+    For more information, see [Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/add-configure-activity.md).
+
+
+### What to do next
+
+Agents and fulfillers can now add this activity while the playbook is running in Playbook Experience. For more information, see [Add an optional activity to a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-add-optional-activity.md).
 

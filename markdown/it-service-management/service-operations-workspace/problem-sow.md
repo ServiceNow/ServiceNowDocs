@@ -1,20 +1,20 @@
 ---
 title: Problem Management in Service Operations Workspace
-description: When you have recurring incidents or a major incident, you can create a problem to identify the root cause of the incidents and help prevent them from happening again. Use Service Operations Workspace to manage problems through their life cycle, share workarounds or fixes with related incidents, and create known error articles to help deflect incidents.
+description: Create problems to find the root cause of recurring or major incidents, share workarounds or fixes, and create known error articles in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/problem-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-03-12"
+reading_time_minutes: 5
 breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Problem Management in Service Operations Workspace
 
-When you have recurring incidents or a major incident, you can create a problem to identify the root cause of the incidents and help prevent them from happening again. Use Service Operations Workspace to manage problems through their life cycle, share workarounds or fixes with related incidents, and create known error articles to help deflect incidents.
+Create problems to find the root cause of recurring or major incidents, share workarounds or fixes, and create known error articles in Service Operations Workspace.
 
 \[Omitted image "problem-sow.png"\] Alt text: Problem record in Service Operations Workspace
 
@@ -49,11 +49,11 @@ All fields that are available on the Problem form in ServiceNow AI Platform are 
 
 For information on how you can configure fields in this tab, see [Configuring Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configuring-problem-management-sow.md).
 
-## Problem tasks tab
+## Problem Tasks tab
 
-This section displays problem tasks associated with this problem. Problem tasks are created when you need help from other teams to identify a fix for the problem. For information about creating a problem task, see [Create a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-problem-task-sow.md).
+This section displays problems tasks associated with this problem. Problem tasks are created when you need help from other teams to identify a fix for the problem. For information about creating a problem task, see [Create a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-problem-task-sow.md).
 
-## Fix tasks tab
+## Fix Tasks tab
 
 This section displays fix tasks associated with the problem. In Service Operations Workspace, only change requests are configured as fix tasks. For information about the **List of related task records \(comma-separated\) to track as fixes for this Problem** property where the fix tasks are configured, see [Configure properties for Problem Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/configure-problem-properties-sow.md).
 
@@ -77,13 +77,13 @@ Investigate the root cause of recurring incidents or a major incident. Provide a
 -   **[Work on a problem in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-on-problem-sow.md)**  
 Manage problems and problem tasks through their life cycle, share workarounds or fixes with related incidents, and create known error articles to help deflect incidents.
 -   **[Problem Management models in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/problem-mgmt-models-sow.md)**  
-You can use Problem Management models to tailor processes for specific use cases.
+Use Problem Management models to tailor processes for specific use cases.
 -   **[Create a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-problem-task-sow.md)**  
 When you need to engage another team or agent for help, create and assign a problem task.
 -   **[Work on a problem task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/work-on-problem-task-sow.md)**  
 Manage problems and problem tasks through their life cycle, share workarounds or fixes with related incidents, and create known error articles to help deflect incidents.
 -   **[Problem Management in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/reference-problem-management-sow.md)**  
-Find additional information about Problem Management in Service Operations Workspace.
+Find reference information about Problem Management in Service Operations Workspace.
 
 **Parent Topic:**[Managing IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/managing-services-operations-in-organization.md)
 

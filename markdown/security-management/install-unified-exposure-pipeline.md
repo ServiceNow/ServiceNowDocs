@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-11-03"
 reading_time_minutes: 1
-breadcrumb: [Install Unified Security Exposure Management, Installing Security Exposure Management Workspace applications, Implement, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Install Unified Security Exposure Management, Installing Unified Security Exposure Management applications, Implement, Unified Security Exposure Management, Security Operations]
 ---
 
 # Install Unified Exposure Pipeline
@@ -18,6 +18,8 @@ You can install the Unified Exposure Pipeline application \(sn\_vul\_int\_cmn\) 
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+
+For information about unified exposure pipeline, see [Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/integrating-usem.md).
 
 Role required: admin
 

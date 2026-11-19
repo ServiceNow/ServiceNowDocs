@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-db-in-ac.html
 release: australia
 topic_type: task
-last_updated: "2026-11-02"
-reading_time_minutes: 4
+last_updated: "2026-11-09"
+reading_time_minutes: 5
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -20,7 +20,11 @@ The dashboard inline editor doesn’t automatically save your dashboard when you
 
 Role required: Any user with an internal role can create dashboards with the inline editor.
 
-**Note:** Data visualizations based on table data are automatically shared with users that you share a dashboard with.
+**Note:**
+
+-   The user must be allowed to create dashboards. By default, anybody with an internal role can create a dashboard, but your organization might restrict this permission.
+-   This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
+-   Data visualizations based on table data are automatically shared with users that you share a dashboard with.
 
 ## Procedure
 

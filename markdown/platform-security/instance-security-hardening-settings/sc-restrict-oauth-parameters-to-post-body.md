@@ -1,27 +1,20 @@
 ---
-title: Restrict oauth parameters to POST body
-description: Use the glide.oauth.allow.parameters.in.post.body.only property restricts OAuth credentials to POST request bodies when set to true.
+title: Restrict oauth parameters to POST body \[New in Security Center 1.3\]
+description: Use the glide.oauth.allow.parameters.in.post.body.only property to control the inbound OAuth authentication's acceptance of access tokens. Access tokens are sensitive and should only be accepted when located within a POST request body.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-restrict-oauth-parameters-to-post-body.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Data protection, Hardening settings, Platform Security]
 ---
 
-# Restrict oauth parameters to POST body
+# Restrict oauth parameters to POST body \[New in Security Center 1.3\]
 
-Use the **glide.oauth.allow.parameters.in.post.body.only** property restricts OAuth credentials to POST request bodies when set to `true`.
-
-Use the **glide.oauth.allow.parameters.in.post.body.only** property to control how the OAuth token endpoint \(/oauth\_token.do\) accepts OAuth credentials. When set to `true`, this property restricts OAuth parameters \(such as client\_id, client\_secret, authorization codes, and refresh tokens\) to POST request bodies only. OAuth credentials submitted using HTTP headers continue to be accepted.
-
-To set up this property:
-
-1.  Navigate to `/sys_properties_list.do` on the ServiceNow instance.
-2.  Ensure **glide.oauth.allow.parameters.in.post.body.only** exists and is set to `true`.
+Use the **glide.oauth.allow.parameters.in.post.body.only** property to control the inbound OAuth authentication's acceptance of access tokens. Access tokens are sensitive and should only be accepted when located within a POST request body.
 
 ## More information
 
@@ -67,14 +60,6 @@ true
 
 </td></tr><tr><td>
 
-Fallback value
-
-</td><td>
-
-false
-
-</td></tr><tr><td>
-
 Default value
 
 </td><td>
@@ -97,7 +82,7 @@ Security risk
 
 -   Severity score: 4.2
 -   CVSS score: Medium
--   Security risk details: If **glide.oauth.allow.parameters.in.post.body.only** isn't set to the recommended value of **true**, OAuth credentials such as client\_id, client\_secret, authorization codes, and refresh tokens could be present in the URL query string. These credentials could linger in client and infrastructure logs and potentially lead to account takeover if those logs are leaked.
+-   Security risk details: If **glide.oauth.allow.parameters.in.post.body.only** isn't set to the recommended value of **true**, access tokens could be present in the GET request parameter. These access tokens could linger in client and infrastructure logs and potentially lead to account takeover if those logs are leaked.
 
 </td></tr><tr><td>
 
@@ -105,7 +90,7 @@ Dependencies and prerequisites
 
 </td><td>
 
-Plugin OAuth 2.0
+None
 
 </td></tr><tr><td>
 

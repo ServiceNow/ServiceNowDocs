@@ -1,6 +1,6 @@
 ---
 title: Intelligent solutions system properties
-description: Administrators can configure the Change Management Intelligent solutions system properties to use Predictive Intelligence capabilities.
+description: Administrators can configure the Change Management Intelligent solutions system properties to use predictive intelligence \(PI\) capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/change-management/change-mgmt-intelligentsoln-properties.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Predictive Intelligence for Change Management, Configure, Change Ma
 
 # Intelligent solutions system properties
 
-Administrators can configure the Change Management Intelligent solutions system properties to use Predictive Intelligence capabilities.
+Administrators can configure the Change Management Intelligent solutions system properties to use predictive intelligence \(PI\) capabilities.
 
 By configuring these properties, you enable the Change Management application to:
 
@@ -23,7 +23,7 @@ By configuring these properties, you enable the Change Management application to
 
 Navigate to **Change** &gt; **Intelligent Solution Configuration** to view and edit the properties.
 
-## Risk Intelligence properties
+## Risk Intelligence Properties
 
 The risk prediction surfaces on the change request based on the `chg_ml_prop_risk.usage` property. When set to **View risk value**, the prediction appears in an information message on the change request form. When set to **Set risk value**, the predicted value is written to the **Risk** field. For the conceptual overview, see [Predictive Intelligence for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-mgmt-intelligent-solutions.md). For components installed with the plugin, see [Components installed with Change Management - Risk Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/installed-with-risk-intelligence.md).
 
@@ -75,11 +75,11 @@ Threshold \[chg\_ml\_prop\_risk.classification\_confidence\_threshold\]
 The minimum confidence value for the returned results.
 
 </td></tr></tbody>
-</table>## Standard change proposal properties
+</table>## Standard Change Proposal Properties
 
 |Property|Description|
 |--------|-----------|
-|Minimum quality level \[chg\_ml\_prop\_sctp.quality\]|Minimum cluster quality to use for standard change candidates.|
+|Minimum quality level \[chg\_ml\_prop\_sctp.quality\]|Minimum cluster quality to use for Standard Change candidate.|
 
 **Parent Topic:**[Predictive Intelligence for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-mgmt-intelligent-solutions.md)
 

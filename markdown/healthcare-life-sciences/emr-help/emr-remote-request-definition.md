@@ -7,7 +7,7 @@ release: australia
 product: EMR Help
 classification: emr-help
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Data model tables, Reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -20,7 +20,7 @@ The Remote Request Definition \[sn\_ind\_rmt\_help\_request\_defn\] table stores
 
 The Remote Request Definition \[sn\_ind\_rmt\_help\_request\_defn\] table has the following features:
 
--   Extends the Application File \[sys\_metadata\] table that uses the update\_synch dictionary attribute to enable customizations. For more information, see Customizations tracked by update sets.
+-   Extends the Application File \[sys\_metadata\] table that uses the update\_synch dictionary attribute to enable customizations. For more information, see [Customizations tracked by update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/customizations-tracked-update-sets.md).
 -   Models a request parameter originating from an EMR system.
 
 Role required to configure the table: sn\_ind\_rmt\_help.admin.
@@ -49,7 +49,7 @@ Reference
 
 Represents the record producer associated with the remote request definition.
 
- For more information, see 
+ For more information, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefRecProdInSCat.md)
 
 </td></tr><tr><td>
 

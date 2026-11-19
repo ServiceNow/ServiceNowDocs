@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Finding alerts that are similar to the alert that you are currently investigatin
 
 ## Finding similar alerts
 
-Alert similarity applies natural language processing \(NLP\) based on ServiceNow AI Platform machine learning \(ML\) as implemented in [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/predictive-intelligence.md).
+Alert similarity applies natural language processing \(NLP\) based on ServiceNow AI Platform machine learning \(ML\) as implemented in Predictive Intelligence.
 
 ML logic filters out irrelevant information and provides further information to help you understand the cause of alerts. You can view solutions used to resolve similar alerts and the probable root cause.
 

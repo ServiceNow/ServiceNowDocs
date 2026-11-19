@@ -21,7 +21,9 @@ See the video to understand how generative AI provides agents with suggested, pe
 
 ## Before you begin
 
-Role required: admin
+Role required: agent
+
+**Note:** To generate replies in a language other than English, a multilingual service must be enabled for ServiceNow Otto for CSM and the language must be activated on your instance. For the list of supported languages and the difference between native translation and Dynamic Translation, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/translation-for-now-assist.md).
 
 ## About this task
 
@@ -30,11 +32,14 @@ You can do these actions by using the AI icon:
 -   Generate a recommended reply that is based on the context of the conversation.
 -   Refine the recommendation by elaborating or shortening the response.
 
-**Note:** The Chat reply recommendation skill is on the Chat skill card in the Customer group.
+**Note:**
+
+-   The recommended reply is generated in the session language of the user. Language detection relies on the user's session language. With native translation, the chat text is sent to the model as-is and the model responds in the same language. If both native translation and Dynamic Translation are enabled, native translation is used first, and Dynamic Translation is applied automatically for languages that the model doesn't support natively. Language coverage varies by model provider. For more info, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md)
+-   The Chat reply recommendation skill is on the Chat skill card in the Customer group.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+1.  Navigate to **Workspaces** &gt; **CSM Configurable Workspace**.
 
 2.  Open the inbox and accept the chat interaction.
 
@@ -46,17 +51,15 @@ You can do these actions by using the AI icon:
 
 4.  In the chat message window, either type a response, or leave blank, and then select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-    \[Omitted image "now-assist-chat-reply-recommendation.png"\] Alt text: Modal that shows a chat recommendation from the agent.
-
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d34744e162">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d34721e168">
 
 Chat message window
 
-</th><th align="left" id="d34744e165">
+</th><th align="left" id="d34721e171">
 
 AI icon
 
-</th></tr></thead><tbody><tr><td id="d34744e171">
+</th></tr></thead><tbody><tr><td id="d34721e177">
 
 **Typed response**
 
@@ -73,7 +76,7 @@ Provides the option to refine your response:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d34744e205">
+</td></tr><tr><td id="d34721e211">
 
 **Left blank**
 
@@ -83,6 +86,8 @@ Generates a recommended reply that is based on the context of the conversation u
 
 </td></tr></tbody>
 </table>    The reply response appears in the AI icon modal.
+
+    **Note:** Refine and tone options apply in the session language. If the generated reply appears in a different language than expected, confirm that the language is activated in Now Assist Admin and supported by your selected model provider.
 
 5.  Review the generated reply and select **Refine** to modify the response, or select **Insert** to paste the response into the chat message window.
 

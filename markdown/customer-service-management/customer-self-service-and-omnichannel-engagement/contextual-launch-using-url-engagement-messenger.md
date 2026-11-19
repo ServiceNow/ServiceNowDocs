@@ -9,7 +9,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Deep linking feature, Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Deep linking feature, Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Launch a feature in Engagement Messenger using URL parameters

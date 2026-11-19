@@ -1,19 +1,18 @@
 ---
 title: Data Catalog release notes
-description: Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Brazil release.The October 2026 release adds AI-powered catalog enrichment, lineage enhancements, a Microsoft Fabric collector, MID Server routing, collector notifications, and data classification with Vault.The September 2026 release adds bulk glossary management, cloud-based metadata collectors, rich text editing for data assets, and SAP HANA and Salesforce collectors.
+description: The ServiceNow Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Australia release.This release adds an SSRS metadata collector and Databricks Unity Catalog metric view support. It also adds Salesforce OAuth authorization code flow and the ability to download lineage nodes and edges as CSV.The October 2026 release adds AI-powered catalog enrichment, lineage enhancements, a Microsoft Fabric collector, MID Server routing, collector notifications, and data classification with Vault.The September 2026 release adds bulk glossary management, cloud-based metadata collectors, rich text editing for data assets, and SAP HANA and Salesforce collectors.The ServiceNow Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/data-catalog-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-keywords: [data catalog, metadata collectors, Microsoft Fabric, MID Server, Vault, lineage, AI enrichment, data catalog, glossary, metadata collectors, SAP HANA, Salesforce, lineage]
-breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+last_updated: "2026-04-16"
+reading_time_minutes: 9
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # Data Catalog release notes
 
-Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Brazil release.
+The ServiceNow® Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Australia release.
 
 ## About Data Catalog
 
@@ -23,9 +22,11 @@ Data Catalog application is the self-service discovery layer within the Workflow
 -   Collect and synchronize metadata from 14 or more external platforms using automated collectors.
 -   Organize assets with tags and domains to improve discoverability and governance.
 
-See  for more information.
+See [Explore Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/explore-data-catalog.md) for more information.
 
 ## Activation and other requirements
+
+**Important:** Data Catalog is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
@@ -34,7 +35,41 @@ See  for more information.
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 
-## October 2026 store
+## November 2026
+
+This release adds an SSRS metadata collector and Databricks Unity Catalog metric view support. It also adds Salesforce OAuth authorization code flow and the ability to download lineage nodes and edges as CSV.
+
+### What's new
+
+-   **SQL Server Reporting Services \(SSRS\) metadata collector**
+
+    Collect and catalog metadata from your SSRS environment. The collector harvests datasets, data sources, folders, KPIs, reports, and linked reports, including lineage between datasets, data sources, and reports.
+
+-   **Databricks Unity Catalog metric views**
+
+    The Databricks collector harvests Unity Catalog metric views, including dimensions, measures, YAML definition, source table, filter, and materialization status. Lineage from a metric view to its source table is available even if the metric view has never been queried.
+
+-   **Salesforce OAuth authorization code flow**
+
+    The Salesforce collector supports OAuth authorization code flow using a refresh token, alongside the existing username and password and OAuth client ID and secret options. This aligns the collector with Salesforce External Client App requirements.
+
+-   **Download lineage nodes and edges as CSV**
+
+    Download the nodes, edges, or both from your current lineage view to a CSV file to analyze dependencies in other tools.
+
+
+### What's changed
+
+-   **ServiceNow collector includes application short descriptions**
+
+    The ServiceNow metadata collector harvests the short description field from system application assets. Catalog users get more context when browsing or searching for ServiceNow application metadata.
+
+-   **Metadata Enrichment AI Agent display updates**
+
+    Review enrichment suggestions with a more consistent interface. Labels, fonts, and formats are standardized, asset type is now visible in the enrichment view, and terminology uses "asset" consistently.
+
+
+## October 2026
 
 The October 2026 release adds AI-powered catalog enrichment, lineage enhancements, a Microsoft Fabric collector, MID Server routing, collector notifications, and data classification with Vault.
 
@@ -80,12 +115,12 @@ The October 2026 release adds AI-powered catalog enrichment, lineage enhancement
 
     Lineage views open faster by showing the nearest upstream and downstream connections first instead of waiting for the full diagram to load.
 
--   **ServiceNow collector lineage from Import Set Transform Maps**
+-   **ServiceNow collector lineage from Import Set Transform Map**
 
     The ServiceNow collector harvests lineage edges based on the platform's native Import Set Transform Map framework.
 
 
-## September 2026 store
+## September 2026
 
 The September 2026 release adds bulk glossary management, cloud-based metadata collectors, rich text editing for data assets, and SAP HANA and Salesforce collectors.
 
@@ -93,21 +128,23 @@ The September 2026 release adds bulk glossary management, cloud-based metadata c
 
 -   **Bulk import and export glossary terms**
 
-    Manage large volumes of glossary terms by importing and exporting them in bulk through XLSX files. Preview changes before committing, and get detailed feedback on any rows that fail so you can correct and re-upload. Reduce glossary enrichment time significantly.
-
--   **Cloud collectors for metadata collection**
-
-    Collect metadata from your data sources without hosting and maintaining a MID Server.
+    Quickly manage large volumes of glossary terms by importing and exporting them in bulk through XLSX files. Preview changes before committing, and get detailed feedback on any rows that fail so you can correct and re-upload. Skip manual entry and reduce glossary enrichment time significantly.
 
 -   **Rich text editing and image embedding in data assets**
 
-    Document your data assets with rich text formatting and embedded images. Use bold, italics, lists, and links to format content, and embed images directly into catalog fields and resize them as needed.
+    Document your data assets with rich text formatting and embedded images. Edit with bold, italics, lists, and links, then embed images directly into catalog fields and resize them as needed.
 
--   **[SAP HANA metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/sap-hana-metadata-collector.md)**
+-   **Cloud collectors for metadata collection**
+
+    ****
+
+    Collect metadata from your data sources without hosting and maintaining a MID Server.
+
+-   **SAP HANA metadata collector**
 
     Automatically collect and synchronize metadata from SAP HANA using metadata collectors.
 
--   **[Salesforce metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/salesforce-metadata-collector.md)**
+-   **Salesforce metadata collector**
 
     Automatically collect and synchronize metadata from Salesforce using metadata collectors.
 
@@ -116,7 +153,7 @@ The September 2026 release adds bulk glossary management, cloud-based metadata c
 
 -   **Data assets lineage improvements**
 
-    Transform nodes now display transformations and processing steps in your lineage diagram with enhanced visualizations. Interact with transform nodes to view additional details about what data transformations occur at each step, to help you understand your data flow more clearly. Lineage graphs now load progressively by level, to reduce timeout risk when viewing large graphs. The system displays lineage in stages, allowing you to explore relationships without waiting for the entire graph to load, which improves overall responsiveness and performance.
+    Transform nodes now display transformations and processing steps in your lineage diagram with enhanced visualizations. Interact with transform nodes to view additional details about what data transformations occur at each step, helping you understand your data flow more clearly.Lineage graphs now load progressively by level, reducing the risk of timeouts when viewing large graphs. The system displays lineage in stages, allowing you to explore relationships without waiting for the entire graph to load, which improves overall responsiveness and performance.
 
 
 ### Plugin information
@@ -135,4 +172,81 @@ The September 2026 release adds bulk glossary management, cloud-based metadata c
 
     Metadata Collectors Core \(sn\_dcg\_cc\): Replaced by ServiceNow Data Catalog \(sn\_dcg\_app\).
 
+
+## Australia
+
+The ServiceNow® Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Australia release.
+
+### What's new
+
+-   **[Search and discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/explore-data-assets-in-data-catalog.md)**
+
+    Find data assets across your organization using keyword search, filters, and faceted browsing in a unified self-service interface. Browse assets by type, domain, tag, or owner, and preview schema and sample data directly from search results to evaluate assets without opening each record.
+
+-   **[Asset details and relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-data-asset-details.md)**
+
+    View comprehensive details for each data asset including schema, field descriptions, ownership, data classifications, and data relationships, including lineage.
+
+-   **[Business glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-glossary-term.md)**
+
+    Define and manage business terms and associate them with data assets to establish a shared vocabulary across teams. Link glossary terms to catalog assets so that business and technical users understand the meaning and context of data using consistent, organization-approved definitions.
+
+-   **[Metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)**
+
+    Automatically collect and synchronize metadata from external data platforms using metadata collectors. Collectors support 14+ platforms including Snowflake, BigQuery, Databricks, dbt Cloud, Tableau, Power BI, and Fivetran. Schedule collection runs or trigger them on demand to keep catalog content current as source systems evolve.
+
+-   **[Tags and domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-tags-dc.md)**
+
+    Organize and classify data assets using tags and domains to reflect your organization's structure and governance policies. Apply tags to individual assets or in bulk. Group assets into domains to control visibility and delegate stewardship to responsible teams.
+
+
+-   ****
+
+    Automatically collect and synchronize metadata from Amazon S3 using metadata collectors.
+
+-   ****
+
+    Automatically collect and synchronize metadata from Teradata using metadata collectors.
+
+-   **Data quality for data assets**
+
+    Review data quality information for table and column assets directly in the Data Catalog. The Overview tab surfaces a quality summary — overall status, rule count, passed rules, and last evaluation time — and the new Quality tab lists each rule with its source, asset type, category, status, and last run time. External data quality tools submit rule results through the Data Quality API.
+
+-   **Classifier field for columns**
+
+    View column-level classification directly from a data asset's Columns tab. The new Classifier field shows the classification assigned to each column by the ServiceNow collector, or displays null if classification hasn't run on the table. Access to this feature depends on your entitlements.
+
+-   **Email notifications for owner and steward assignments for data assets**
+
+    When you add or remove an owner or steward on a data asset, the system sends an email notification to that user.
+
+-   **[Clone metadata collector connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/configure-metadata-collectors-dc.md)**
+
+    Clone an existing metadata collector connection to create data source connection faster. When you clone a connection, the system copies the connection type, collection settings, filters, and advanced parameters to a new connection record with an auto-generated name. Sensitive information is not carried over. Update credentials and any other environment-specific details before activating the new connection.
+
+-   **[Data quality for data assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/view-data-asset-details.md)**
+
+    Review data quality information for table and column assets, including the overall data quality status, the total number of rules, the number of passed rules, and any quality badges awarded to the resource. View each rule with its source, asset type, asset name, category, status, and last run time, and filter or search to locate a specific rule. External data quality tools submit rule results through the Data Quality API.
+
+-   **[Azure Data Factory metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/azure-data-factory-metadata-collector.md)**
+
+    Automatically collect and synchronize metadata from Azure Data Factory using metadata collectors.
+
+
+### What's changed
+
+-   **[ServiceNow metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/servicenow-metadata-collector.md)**
+
+    Control how the collector harvests metadata. Enable an API size limit to cap the volume of data retrieved per request, exclude Glide artifacts from harvesting, and harvest Platform Analytics artifacts.
+
+
+### Plugin information
+
+-   **New plugins**
+
+    The following plugins are new in Australia:
+
+    -   ServiceNow Data Catalog \(sn\_dcg\_app\): Provides a self-service search and discovery interface for browsing data assets. Manages the core data model and business logic for catalog asset governance and enables automated metadata collection and integration connectivity with external data platforms.
+    -   Graph Explorer \(sn\_hexplorer\): Provides visualization of data flow and business context relationships across systems with column-level lineage tracking. Enables interactive catalog navigation with upstream and downstream data flows and dependency insights.
+    -   Workflow Data Fabric Connect Hub \(sn\_wdf\_connect\_hub\): Provides the central hub for managing external data source connections used by Workflow Data Fabric and Data Catalog.
 

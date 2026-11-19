@@ -7,8 +7,8 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-03-12"
+reading_time_minutes: 6
 breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -21,6 +21,8 @@ Alert management rules provided with the base system as a store application \(Al
 Users with the evt\_mgmt\_admin role can use the alert management rule designer to create and customize alert management rules to act on specified alerts. Define rules with filters to determine which alerts the rule applies to. You can create rules to launch applications, URLs, subflows, remediation actions, or take other actions, such as to open an incident. For more information, see [Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-alert-management-rule.md).
 
 Users with the evt\_mgmt\_operator role can manually run alert management rules.
+
+To automate alert responses with an easier interface, you can also create a respond automation in Service Operations Workspace. For more information, see [Create Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/respond-alert-sow-itom.md).
 
 ## Alert management rule flow
 
@@ -94,7 +96,7 @@ By default, the alert grouping job \(**Service Analytics group alerts using RCA/
 Existing alert action rules from an earlier release can be migrated to become alert management rules. You can modify an alert action rule only after migrating it to an alert management rule. For more information, see [Migrate an alert action rule to an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/t_EMCreateAlertRule.md).
 
 -   **[Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-alert-management-rule.md)**  
-Create an alert management rule to track alerts and resolve them by determining the required response, for example, to open an incident or launch remediation action.
+Create an alert management rule to track and resolve alerts, for example, by opening an incident or launching remediation.
 -   **[Event Management subflows in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/subflows-provided.md)**  
 The subflows provided with the base system appear in the Remediation Subflows area of alert management rules.
 -   **[Create a custom subflow for alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/create-custom-create-incident-subflow.md)**  

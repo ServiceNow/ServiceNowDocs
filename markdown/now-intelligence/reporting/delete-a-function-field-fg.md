@@ -7,7 +7,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-17"
 reading_time_minutes: 1
 breadcrumb: [Report on function fields, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Role required: admin, function\_field\_admin
 
 Function fields are stored as columns on the table that you create them on. To delete a function field, you delete the associated column.
 
-**Important:** No check is made on a where a function field is used when you delete. In addition, deleting a function field is not reversible.
+**Important:** &gt;No check is made on a where a function field is used when you delete. In addition, deleting a function field is not reversible.
 
 ## Procedure
 

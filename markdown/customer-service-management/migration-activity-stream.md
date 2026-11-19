@@ -1,28 +1,30 @@
 ---
 title: Activity stream
-description: Learn about how the Workspace Activity stream functions in Configurable Workspace.
+description: Learn about how the CSM Agent Workspace Activity stream functions in CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/migration-activity-stream.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-25"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CRM Workspace, Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Migrate to CSM Configurable Workspace, Migrating to CSM Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activity stream
 
-Learn about how the Workspace Activity stream functions in Configurable Workspace.
+Learn about how the CSM Agent Workspace Activity stream functions in CSM Configurable Workspace.
 
-Activity stream enables agents to communicate with requesters and make internal notes about the work done on a record. Configure the Activity stream and Activity stream Compose components in UI Builder to set up Activity stream in Configurable Workspace.
+Activity stream enables agents to communicate with requesters and make internal notes about the work done on a record. Configure the Activity stream and Activity stream Compose components in UI Builder to set up Activity stream in CSM Configurable Workspace.
+
+The activity stream is where agents communicate with customers and add internal work notes on a record. If you don't configure it, agents can't see communication history or post updates from CSM Configurable Workspace.
 
 For more information about the Activity Stream component, see the [Next Experience Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades) and select Activity Stream from the list of Next Experience Components.
 
 ## Activity Stream corresponding parameters
 
-Workspace Activity stream matched with Configurable Workspace parameters.
+CSM Agent Workspace Activity stream matched with CSM Configurable Workspace parameters.
 
-**Note:** Not every Configurable Workspace component parameter has a corresponding Workspace \(legacy\) parameter.
+**Note:** Not every CSM Configurable Workspace component parameter has a corresponding CSM Agent Workspace \(legacy\) parameter.Parameters with an empty legacy column are new capabilities that are available only in CSM Configurable Workspace.
 
 |Component|Legacy component name|Legacy component parameter name|UIB component parameter name|
 |---------|---------------------|-------------------------------|----------------------------|

@@ -1,18 +1,18 @@
 ---
-title: Monitoring AI plan execution in AI Control Tower
-description: Monitor the delivery status of AI-related projects and epics from a single page in AI Control Tower, with widgets and lists that update dynamically when you apply filters.
+title: Monitoring AI plan execution in Control Tower
+description: Monitor the delivery status of AI-related projects and epics from a single page in Control Tower, with widgets and lists that update dynamically when you apply filters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-plan-execute.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-28"
 reading_time_minutes: 2
-breadcrumb: [Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Monitoring AI plan execution in AI Control Tower
+# Monitoring AI plan execution in Control Tower
 
-Monitor the delivery status of AI-related projects and epics from a single page in AI Control Tower, with widgets and lists that update dynamically when you apply filters.
+Monitor the delivery status of AI-related projects and epics from a single page in Control Tower, with widgets and lists that update dynamically when you apply filters.
 
 ## Execute page overview
 
@@ -65,7 +65,7 @@ The Project and Epic lists show individual AI-related records from their source 
 
 [AI Plan configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-configuring.md)
 
-[Planning and tracking AI work in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-using.md)
+[Planning and tracking AI work in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-using.md)
 
-[AI Control Tower plan reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-reference.md)
+[Control Tower plan reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-plan-reference.md)
 

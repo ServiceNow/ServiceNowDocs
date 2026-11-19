@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/record-usage-entitlement.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Customer Contracts and Entitlements, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -26,17 +26,17 @@ When an entitlement moves to the Active state, usage records are created. You ca
 
 ## Procedure
 
-1.  Navigate to the ServiceNow AI Platform interface or the CRM Workspace.
+1.  Navigate to the ServiceNow AI Platform interface or the CSM Configurable Workspace.
 
-<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d185377e72">
+<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d180063e72">
 
 Interface
 
-</th><th align="left" id="d185377e75">
+</th><th align="left" id="d180063e75">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d185377e81">
+</th></tr></thead><tbody><tr><td id="d180063e81">
 
 **Platform interface**
 
@@ -44,28 +44,28 @@ Action
 
 Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements** &gt; **Customer Contracts**.
 
-</td></tr><tr><td id="d185377e105">
+</td></tr><tr><td id="d180063e105">
 
-**CRM Workspace**
+**CSM Configurable Workspace**
 
 </td><td>
 
--   Navigate to **All** &gt; **Workspace Experience** &gt; **Workspaces** &gt; **CRM Workspace**.
+-   Navigate to **All** &gt; **Workspace Experience** &gt; **Workspaces** &gt; **CSM Configurable Workspace**.
 -   In the list view, navigate to **Contracts and Entitlements** &gt; **Entitlements**.
 
 
 </td></tr></tbody>
 </table>2.  Record the usage on an entitlement.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d185377e158">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d180063e158">
 
 From
 
-</th><th align="left" id="d185377e161">
+</th><th align="left" id="d180063e161">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d185377e167">
+</th></tr></thead><tbody><tr><td id="d180063e167">
 
 **Customer Contracts**
 
@@ -77,7 +77,7 @@ Do this
 4.  From the Entitlement Usages related list, open the usage record.
 
 
-</td></tr><tr><td id="d185377e191">
+</td></tr><tr><td id="d180063e191">
 
 **Entitlements**
 

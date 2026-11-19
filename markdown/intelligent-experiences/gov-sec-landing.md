@@ -1,17 +1,17 @@
 ---
-title: Managing AI asset security with AI Control Tower
+title: Managing AI asset security with Control Tower
 description: Review AI asset security metrics such as access issues, dormant and privileged AI agents, and map the relationships of your ServiceNow agents, agentic workflows, and tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-sec-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-05-04"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Managing AI asset security with AI Control Tower
+# Managing AI asset security with Control Tower
 
 Review AI asset security metrics such as access issues, dormant and privileged AI agents, and map the relationships of your ServiceNow agents, agentic workflows, and tools.
 

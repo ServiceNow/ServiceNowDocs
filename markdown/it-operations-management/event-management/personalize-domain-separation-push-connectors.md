@@ -1,26 +1,26 @@
 ---
 title: Configure domain separation for push connector events
-description: Configure push connectors to create events in domains other than the user's currently logged-in or MID Server domain.
+description: Configure push connectors to personalize domain separation of events so you can create events in different domains.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/personalize-domain-separation-push-connectors.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Connector domain personalization, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure domain separation for push connector events
 
-Configure push connectors to create events in domains other than the user's currently logged-in or MID Server domain.
+Configure push connectors to personalize domain separation of events so you can create events in different domains.
 
 ## Before you begin
 
 Make sure that you have the following setup:
 
--   You have read access to the domain information table for the evt\_mgmt\_integration role \(default table: core\_company\). For more information, see [Configure an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_CreateAnACLRule.md).
+-   You have read access to the domain information table for the evt\_mgmt\_integration role \(default table: core\_company\). For more information, see .
 -   You enabled the **evt\_mgmt.connector\_enable\_custom\_domain\_separation** .system property.
 -   You installed the following plug-ins in the ServiceNow AI Platform® instance:
     -   Event Management \(**com.glideapp.itom.snac**\)
@@ -44,15 +44,15 @@ Role required: evt\_mgmt\_admin
 
 4.  In the **Push Connector Configurations** screen, determine whether events should be created in the provided domain or the domain provided in the payload of each event.
 
-<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d308016e187">
+<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d310247e183">
 
 Domain creation location
 
-</th><th align="left" id="d308016e190">
+</th><th align="left" id="d310247e186">
 
 Parameter and values
 
-</th></tr></thead><tbody><tr><td id="d308016e196">
+</th></tr></thead><tbody><tr><td id="d310247e192">
 
 **The provided domain**
 
@@ -62,7 +62,7 @@ Parameter and values
 -   **Value**: domain-identifier
 
 
-</td></tr><tr><td id="d308016e218">
+</td></tr><tr><td id="d310247e214">
 
 **The domain provided in the payload of each event**
 
@@ -94,7 +94,7 @@ Parameter and values
 
 Events are created in the domain referred to by the domain identifier.
 
-**Note:** The table that stores domain information records \(for example, core\_company\) must be domain separated. For more information, see [Domain-separate a custom table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/bp-ds-custom-table.md).
+**Note:** The table that stores domain information records \(for example, core\_company\) must be domain separated. For more information, see .
 
 **Parent Topic:**[Event Management Connectors domain personalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/domain-separation-connectors-personalization.md)
 

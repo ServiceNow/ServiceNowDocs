@@ -7,7 +7,7 @@ release: australia
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,15 +26,15 @@ Role required: it\_demand\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d231668e85">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d231950e85">
 
 Choice
 
-</th><th align="left" id="d231668e88">
+</th><th align="left" id="d231950e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d231668e94">
+</th></tr></thead><tbody><tr><td id="d231950e94">
 
 **Using list actions**
 
@@ -45,7 +45,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d231668e124">
+</td></tr><tr><td id="d231950e124">
 
 **Using related links**
 
@@ -56,7 +56,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d231668e151">
+</td></tr><tr><td id="d231950e151">
 
 **Activate a scheduled job**
 

@@ -7,9 +7,9 @@ release: australia
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
-breadcrumb: [Graph Query Builder, Knowledge Graph, Managing data for AI, Enable AI Experiences]
+breadcrumb: [Graph Query Builder, Knowledge Graph, Enable AI experiences]
 ---
 
 # Access Graph Query Builder

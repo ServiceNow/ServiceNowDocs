@@ -7,9 +7,9 @@ release: australia
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, Learning Core, HR Service Delivery, Employee Service Management]
+breadcrumb: [Exploring Learning Core, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
 # Learning Core Home page
@@ -18,11 +18,11 @@ Learning Core home page provides a consolidated view of the learning catalogs an
 
 ## Learning Catalogs
 
-Click a tile to view the complete details of a specific catalog such as course items that it contains, managers to whom the catalog is viewable, users to whom the catalog is assigned.
+Select a tile to view the complete details of a specific catalog such as course items that it contains, managers to whom the catalog is viewable, users to whom the catalog is assigned.
 
 ## Learning Sources
 
-Click a source link to open the learning system source record in [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-integrations-framework.md).
+Select a source link to open the learning system source record in [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/hr-integrations-framework.md).
 
 ## Catalogs
 

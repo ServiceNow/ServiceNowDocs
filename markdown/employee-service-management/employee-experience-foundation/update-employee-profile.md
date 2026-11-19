@@ -7,9 +7,9 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
+breadcrumb: [Using Employee Center, Employee Center, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # View employee profile
@@ -62,6 +62,8 @@ For more information, see [Configure the Employee Profile overview widget](https
 [View the Recommended for you content]()
 
 [Use Employee Center from Zoom]()
+
+[Use Employee Profile with HR Service Delivery]()
 
 [Use Personalized Answers]()
 

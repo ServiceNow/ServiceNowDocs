@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 13
 breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -279,15 +279,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft D
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d141713e1046">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d141772e1046">
 
 Interface
 
-</th><th align="left" id="d141713e1049">
+</th><th align="left" id="d141772e1049">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d141713e1055">
+</th></tr></thead><tbody><tr><td id="d141772e1055">
 
 **Core UI**
 
@@ -298,7 +298,7 @@ Action
 3.  Select **Microsoft Dynamics 365 and Power Apps Integration Profile**.
 
 
-</td></tr><tr><td id="d141713e1097">
+</td></tr><tr><td id="d141772e1097">
 
 **Software Asset Workspace**
 
@@ -396,7 +396,7 @@ OAuth Redirect URL
 </td></tr></tbody>
 </table>8.  Select **Create and Get OAuth Token**.
 
-    **Important:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
+    **Important:** For the role required to perform this step, refer to the Download subscriptions row of the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
 
 9.  If you’re prompted to log in to your Microsoft 365 account, enter your Microsoft 365 credentials and log in to your account.
 
@@ -416,7 +416,7 @@ OAuth Redirect URL
 
 13. Select **Create and Get OAuth Token**.
 
-    **Important:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
+    **Important:** For the role required to perform this step, refer to the Pull user activity row of the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
 
 14. On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
 
@@ -454,7 +454,7 @@ Review all automatically generated reclamation rules to reclaim user subscriptio
 
 Create software entitlements for the automatically generated software models to track used software against owned software.
 
--   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
+-   For more information on creating software entitlements in the Software Asset Management Core UI, see [Create entitlements in Software Asset Management Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/track-software-rights.md).
 -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-entitlements-workspace.md).
 -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

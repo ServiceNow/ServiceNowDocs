@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [dashboard, delete a dashboard, how to clone a dashboard, duplicate a dashboard, copy a dashboard, set a dashboard favorite, bookmark a dashboard, favorite a dashboard]
 breadcrumb: [Working with responsive dashboards, Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
@@ -108,7 +108,7 @@ Role required: Users can edit dashboards that they own, or ones that they have t
 
 2.  From the dashboard picker, select the dashboard that you want to rename.
 
-3.  From the context menu \(\[Omitted image "icon-context-p.png"\] Alt text: Context menu icon\), select **Dashboard Properties**.
+3.  From the context menu \(\[Omitted image "icon\_menu3lines.png"\] Alt text: Context menu icon\), select **Dashboard Properties**.
 
 4.  In the name field, enter the new name for the dashboard.
 
@@ -169,7 +169,7 @@ Role required: none
 
 2.  From the dashboard picker, select the dashboard that you want to mark as a favorite.
 
-3.  Select the context menu \(\[Omitted image "icon-context-p.png"\] Alt text:\) and select **Create Favorite**.
+3.  Select the context menu \(\[Omitted image "icon\_menu3lines.png"\] Alt text:\) and select **Create Favorite**.
 
 
 ### Result

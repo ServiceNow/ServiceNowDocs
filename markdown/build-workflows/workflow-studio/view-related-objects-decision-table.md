@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
 breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
@@ -30,9 +30,9 @@ Role required: none
 
 3.  Open a decision table.
 
-4.  Select the Decision table menu options icon \(\[Omitted image "dec-table-menu-options.png"\] Alt text: elipsis\) and select **See Related Objects**.
+4.  Select the Decision table menu options icon \(\[Omitted image "dec-table-menu-options.png"\] Alt text: ellipsis\) and select **See Related Objects**.
 
-    A list of related objects opens, showing you where your decision table is used in flows, playbooks, and subflows. Depending on your role, you may see an empty \(or not as full\) list with a number next to **Number of objects hidden by security constraints**.
+    A list of related objects opens, showing where your decision table is used in flows, playbooks, and subflows. Depending on your role, you may see an empty list with a number next to **Number of objects hidden by security constraints**.
 
 5.  Select a related object to open it in Workflow Studio.
 

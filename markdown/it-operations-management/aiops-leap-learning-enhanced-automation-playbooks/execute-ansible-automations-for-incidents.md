@@ -41,15 +41,15 @@ When an incident arrives in SOW, LEAP predicts the automation opportunity group.
 
 3.  Complete the resolution step.
 
-<table id="choicetable_xyd_2f4_skc"><thead><tr><th align="left" id="d238571e133">
+<table id="choicetable_xyd_2f4_skc"><thead><tr><th align="left" id="d240758e133">
 
 If the step has.
 
-</th><th align="left" id="d238571e136">
+</th><th align="left" id="d240758e136">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d238571e142">
+</th></tr></thead><tbody><tr><td id="d240758e142">
 
 **Manual \(no mapped Ansible jobs\)**
 
@@ -59,7 +59,7 @@ Steps
 2.  Select **Step Completed** after you finish it.
 
 
-</td></tr><tr><td id="d238571e166">
+</td></tr><tr><td id="d240758e166">
 
 **Automated \(mapped Ansible jobs\)**
 

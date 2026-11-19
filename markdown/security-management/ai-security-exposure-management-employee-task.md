@@ -83,3 +83,5 @@ The finding moves through the following states based on the task outcome and the
 |Resolved|The next integration run confirms the finding is no longer present.|Closed|
 |Resolved|The next integration run finds the issue still present.|Open \(the task reopens and the owner is notified\)|
 
+**Parent Topic:**[Using AI remediation workflows with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/ai-security-exposure-employee-workflow.md)
+

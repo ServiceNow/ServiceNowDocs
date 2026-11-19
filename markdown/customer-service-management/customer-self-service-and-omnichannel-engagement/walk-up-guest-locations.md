@@ -1,20 +1,20 @@
 ---
 title: Configure Walk-up Experience locations for guest users
-description: Configure walk-up locations for guest-users so they can select a location while making appointments.
+description: Make a walk-up location available to guest users so they can select it when they book an appointment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/walk-up-guest-locations.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure Walk-up Experience locations for guest users
 
-Configure walk-up locations for guest-users so they can select a location while making appointments.
+Make a walk-up location available to guest users so they can select it when they book an appointment.
 
 ## Before you begin
 
@@ -28,15 +28,15 @@ Role required: sn\_csm\_walkup.walkup\_admin, catalog\_admin
 
 2.  Select a location that the guest user needs access to.
 
-3.  Click the Preview this record icon \( \[Omitted image "preview-record.png"\] Alt text: Preview this record icon.\) next to the **Catalog item** field.
+3.  Select the Preview this record icon \( \[Omitted image "preview-record.png"\] Alt text: Preview this record icon.\) next to the **Catalog item** field.
 
 4.  In the Record Producer window, click **Open Record**.
 
 5.  Under Related Links, click the Available For tab.
 
-6.  Click **Edit**.
+6.  Select **Edit**.
 
-7.  Move **Any Guest User** from the **Collection** list to the **Available For** list and click **Save**.
+7.  Move **Any Guest User** from the **Collection** list to the **Available For** list and select **Save**.
 
 8.  Under **Related Links**, click the Variable Sets tab.
 
@@ -46,13 +46,13 @@ Role required: sn\_csm\_walkup.walkup\_admin, catalog\_admin
 
     2.  Select the **sn\_appointment** variable.
 
-    3.  Click the Permission tab.
+    3.  Select the Permission tab.
 
     4.  For the **Read roles** and **Write roles**, move the public, snc\_internal, and snc\_external roles from the **Available** list to the **Selected** list.
 
         **Note:** **Create roles** is also required for the correct auto-population of the information in the guest records.
 
-    5.  Click **Done**.
+    5.  Select **Done**.
 
     6.  Repeat these actions for the **sn\_appointment\_macro** variable.
 

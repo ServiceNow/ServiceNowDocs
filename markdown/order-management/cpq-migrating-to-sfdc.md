@@ -1,28 +1,28 @@
 ---
 title: Migrate a blueprint to an SFDC-integrated destination
-description: Learn how to migrate a CPQ blueprint to a Salesforce-integrated ServiceNow CPQ environment. Recreate configurable products, update Product2 IDs, and verify connections to ensure accurate data mapping and seamless integration between Salesforce and ServiceNow CPQ.
+description: Migrate a CPQ blueprint to a Salesforce-integrated ServiceNow CPQ environment. Recreate configurable products, update Product2 IDs, and verify connections for accurate data mapping and integration between Salesforce and ServiceNow CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-migrating-to-sfdc.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Set up blueprints, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Migrate a blueprint to an SFDC-integrated destination
 
-Learn how to migrate a CPQ blueprint to a Salesforce-integrated ServiceNow CPQ environment. Recreate configurable products, update Product2 IDs, and verify connections to ensure accurate data mapping and seamless integration between Salesforce and ServiceNow CPQ.
+Migrate a CPQ blueprint to a Salesforce-integrated ServiceNow CPQ environment. Recreate configurable products, update Product2 IDs, and verify connections for accurate data mapping and integration between Salesforce and ServiceNow CPQ.
 
 ## Before you begin
 
-If necessary, perform the steps in [Migrate a blueprint from environment to environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-migrating-env-to-env.md).
+If needed, perform the steps mentioned in the [Migrate a blueprint between environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown) topic.in .
 
-If necessary, install the ServiceNow CPQ Managed Package for Salesforce in the destination. For installation instructions, see [Set up environments linked to Salesforce orgs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/installation-and-setup-guide-for-environments-linked-to-salesforce-org.md).
+If needed, install the ServiceNow CPQ Managed Package for Salesforce in the destination. For installation instructions, see [Installation and setup guide for environments linked to Salesforce orgs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
-Ensure that the appropriate Salesforce users have access to ServiceNow CPQ.
+Confirm that the appropriate Salesforce users have access to ServiceNow CPQ.
 
-Role required: \(unknown\)
+Role required: admin
 
 ## Procedure
 
@@ -36,29 +36,29 @@ Role required: \(unknown\)
 
     3.  In the blueprint.yaml file, locate the line that reads `-id: <oldProduct2Id`.
 
-    4.  Replace the Product2 ID from the old org with the the new one that you just created, and save the blueprint.yaml file.
+    4.  Replace the Product2 ID from the old org with the new one that you just created, and save the blueprint.yaml file.
 
 2.  Add all other products from the old org that were referenced in any product rules.
 
-    Don’t forget to create pricebook entries for all your products! These records will be auto-replicated in our ServiceNow CPQ product cache every fifteen minutes. Wait at least fifteen minutes before continuing with the tests described below.
+    You must create pricebook entries for all your products! These records will be auto-replicated in our ServiceNow CPQ product cache every fifteen minutes. Wait at least fifteen minutes before continuing with the tests described in the following steps.
 
-3.  Test the destination by walking through quote creation and configuration, and investigate and resolve any errors that you encounter.
+3.  Test the destination by walking through quote creation and configuration.
 
-4.  Verify that external or SFDC API calls complete successfully and point to the right external system endpoints.
+4.  Confirm that external or SFDC API calls complete successfully and point to the right external system endpoints.
 
     See External Connections setup in ServiceNow CPQ Admin.
 
 
 ## What to do next
 
-After the import, configurable product IDs will not be the same as in the original blueprint—they are unique across organizations. To keep the references in rules accurate, if the setting for the ProductId field is set to Product Code, you can create new configurable products as needed and assign them the same product code.
+After the import, configurable product IDs will not be the same as in the original blueprint. They are unique across organizations. To keep the references in rules accurate, create configurable products as needed and assign them the same product code if the ProductId field is set to Product Code.
 
 **Related topics**  
 
 
 [Testing in non-production environments before migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-env-to-env-bp-migration-intro.md)
 
-[Migrate a blueprint from environment to environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-migrating-env-to-env.md)
+[Migrate a blueprint between environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-[Set up environments linked to Salesforce orgs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/installation-and-setup-guide-for-environments-linked-to-salesforce-org.md)
+[Installation and setup guide for environments linked to Salesforce orgs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

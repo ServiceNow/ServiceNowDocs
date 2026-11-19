@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/disc-discovering-servicenow-assets.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-05"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Discovering AI assets, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Discovering AI assets, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Discovering ServiceNow AI assets automatically

@@ -1,52 +1,54 @@
 ---
-title: Add an activity to a playbook
-description: Add preselected optional activities to a Playbook Experience if available.
+title: Add an optional activity to a playbook
+description: Add optional activities in Playbook Experience to a running playbook to handle work that the configured stages don't cover.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/playbook-add-optional-activity.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-04"
 reading_time_minutes: 1
 breadcrumb: [Running Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Add an activity to a playbook
+# Add an optional activity to a playbook
 
-Add preselected optional activities to a Playbook Experience if available.
+Add optional activities in Playbook Experience to a running playbook to handle work that the configured stages don't cover.
 
 ## Before you begin
 
 Role required: agent
 
+Optional activities must be configured for the playbook.
+
 ## About this task
 
-Add and complete optional playbook activities in a running playbook. This example shows how an optional activity can be added to a playbook. Playbook admins must pre-configure optional activities. You cannot insert an optional activity as the first activity in a stage or between two finished activities. Some optional activities can be added to any stage while others can only be added to a single stage. If optional activities are not configured for a playbook, no optional activities will be available.
+An administrator configures which optional activities are available, and whether an activity can be added to any stage or only to a single stage. If no optional activities are configured for a playbook, none are available to add. For more information, see [Optional activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/optional-activities.md).
+
+You can't add an optional activity as the first activity in a stage or between two finished activities.
 
 ## Procedure
 
 1.  Open a playbook in workspace.
 
-2.  Select the action menu icon \(\[Omitted image "playbook-ellipses.png"\] Alt text: Playbook action menu icon\).
+2.  Select the Action menu icon \[Omitted image "playbook-ellipses.png"\] Alt text: Playbook action menu icon.
 
 3.  Select **Add Activity**.
 
     \[Omitted image "playbook-add-activity-button.png"\] Alt text: Add Activity button to add optional activities.
 
-    **Note:** **Add Activity** will not display if no optional activities available in this stage.
+    **Note:** **Add activity** appears only when optional activities are configured for the stage.
 
-4.  Select **+ Add activity here** in the location you want to add the activity to the playbook.
+4.  Select **+ Add activity here** in the position where you want the activity.
 
     \[Omitted image "playbook-add-activity-here.png"\] Alt text: Add an activity to a playbook by selecting + Add activity here.
 
-5.  Select the activity you would like to add to the playbook.
+5.  Select the activity to add to the playbook.
 
     \[Omitted image "playbook-add-activity-select.png"\] Alt text: Add activity modal.
 
 6.  Select **Done**.
-
-    The selected optional activity appears in your playbook.
 
 
 ## Result
@@ -54,6 +56,10 @@ Add and complete optional playbook activities in a running playbook. This exampl
 The selected optional activity appears in your playbook.
 
 \[Omitted image "playbook-add-activity-complete.png"\] Alt text: Optional activities appear in the location selected.
+
+If the activity doesn't appear, the selected position might not accept an optional activity. Select a position that isn't the first activity in the stage or between two finished activities.
+
+If the activity you need isn't listed, it might not be configured for this stage. Contact your administrator.
 
 **Parent Topic:**[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 

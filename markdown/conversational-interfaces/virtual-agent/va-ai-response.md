@@ -9,7 +9,7 @@ classification: virtual-agent
 topic_type: reference
 last_updated: "2026-10-26"
 reading_time_minutes: 1
-breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # LLM Text bot response control

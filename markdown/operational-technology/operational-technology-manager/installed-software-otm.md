@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Reference, Operational Technology Manager, Operational Technology]
 ---
@@ -24,9 +24,9 @@ The installed software for a CI varies depending on if you have the Software Ass
 -   Software Model \[cmdb\_software\_product\_model\]
 -   Software Installation \[cmdb\_sam\_sw\_install\]
 
-For more information about how the table structure for managing software installations behaves differently when SAM is activated, see [Discovery with Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/c_DiscoSWAssetMgmtTableSchema.md).
+For more information about how the table structure for managing software installations behaves differently when SAM is activated, see .
 
-You can also configure a computer CI to display Software Asset Management data. For more information, see [Configure a CI to display Software Asset Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-ci-to-display-sam-data.md).
+You can also configure a computer CI to display Software Asset Management data. For more information, see .
 
 ## View installed software for OT devices
 

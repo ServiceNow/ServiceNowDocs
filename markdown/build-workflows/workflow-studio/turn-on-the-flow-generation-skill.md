@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-29"
 reading_time_minutes: 1
 breadcrumb: [Flow generation, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---

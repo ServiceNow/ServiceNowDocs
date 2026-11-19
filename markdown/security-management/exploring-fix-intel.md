@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/security-management/e
 release: australia
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Fix Intel, Fix Intelligence, remediation, Armis]
 breadcrumb: [Fix Intelligence for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
@@ -56,6 +56,11 @@ Fixes are identified and normalized for all exposure findings ingested through t
 
 -   [Install Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-fix-intel.md)
 
+
+-   **[How Fix Intelligence for Security Exposure Management works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-intel-data-flow.md)**  
+Fix Intelligence for Security Exposure Management enriches your exposure findings with normalized fix information and stores each unique fix as a Fix record. The feature links every fix to the findings it resolves and rolls up a risk score per fix. Your team can remediate by fix instead of one finding at a time.
+
+**Parent Topic:**[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-intel-for-usem-landing.md)
 
 **Related topics**  
 

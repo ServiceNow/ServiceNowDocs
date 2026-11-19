@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-27"
 reading_time_minutes: 1
-breadcrumb: [Assigning and managing alerts, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Assign and manage alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Highlight alerts by condition in Express List
@@ -18,7 +18,7 @@ Learn how to apply color-coded highlights to alerts in the Express List based on
 
 ## Before you begin
 
-Role required: evt\_mgmt\_admin
+Role required: admin
 
 ## About this task
 
@@ -137,4 +137,6 @@ Select the size of the highlight or icon \(for example, Small or Medium\). Mediu
 
     The highlight conditions appear on the alerts in the Express List.
 
+
+**Parent Topic:**[Assigning and managing alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/assigning-and-managing-alerts.md)
 

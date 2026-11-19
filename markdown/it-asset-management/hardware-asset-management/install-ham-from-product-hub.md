@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-13"
 reading_time_minutes: 2
 breadcrumb: [Hardware Asset Management on Product Hub, Installing Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -21,7 +21,7 @@ Install the Hardware Asset Management application on your ServiceNow instance fr
 -   The Hardware Asset Management application must be licensed for your ServiceNow instance.
 -   To access the Admin Home page, install the application that matches your SKU type: ServiceNow Otto for Setup \(sn\_ia\) version 5.0.10 or later for AI Native SKUs, or Setup Hub \(sn\_ia\_base\) version 3.0.4 or later for non-AI Native SKUs.
 
-Role required: ia\_admin
+Role required: sn\_ia\_config.ia\_admin
 
 ## About this task
 

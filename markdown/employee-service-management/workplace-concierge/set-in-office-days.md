@@ -7,7 +7,7 @@ release: australia
 product: Workplace Concierge
 classification: workplace-concierge
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Set Employee Presence, Workplace Concierge, Workplace Service Delivery, Employee Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the employee presence dashboard from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d785180e57">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d790980e57">
 
 Location
 
-</th><th align="left" id="d785180e60">
+</th><th align="left" id="d790980e60">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d785180e66">
+</th></tr></thead><tbody><tr><td id="d790980e66">
 
 **Workplace Service Portal**
 
@@ -52,7 +52,7 @@ The portal homepage opens.
 3.  Select **Employee Presence**.
 
 
-</td></tr><tr><td id="d785180e136">
+</td></tr><tr><td id="d790980e136">
 
 **Employee Center**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-virtual-agent-conversation.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ ServiceNow NLU enables discovery of the chatbot topics based on either the keywo
 
 1.  Navigate to the Customer Service Management portal.
 
-2.  Select the chat icon \( \[Omitted image "chat-icon.png"\] Alt text: Chat icon.\).
+2.  Select **Chat**.
 
     You can select **Show Me Everything** to display all available topics or enter keywords to narrow down the results to relevant topics.
 
@@ -44,15 +44,15 @@ ServiceNow NLU enables discovery of the chatbot topics based on either the keywo
 
 4.  Use
 
-<table id="choicetable_cfq_4xm_rgb"><thead><tr><th align="left" id="d333912e152">
+<table id="choicetable_cfq_4xm_rgb"><thead><tr><th align="left" id="d332890e149">
 
 To
 
-</th><th align="left" id="d333912e155">
+</th><th align="left" id="d332890e152">
 
 Follow these steps
 
-</th></tr></thead><tbody><tr><td id="d333912e161">
+</th></tr></thead><tbody><tr><td id="d332890e158">
 
 **Check the status of a case**
 
@@ -72,7 +72,7 @@ Follow these steps
     -   Contact an agent.
 
 
-</td></tr><tr><td id="d333912e221">
+</td></tr><tr><td id="d332890e222">
 
 **Get help with a product**
 
@@ -92,7 +92,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
 -   Contact an agent
 
 
-</td></tr><tr><td id="d333912e270">
+</td></tr><tr><td id="d332890e271">
 
 **Get help with an order**
 
@@ -111,7 +111,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
     -   Contact an agent
 
 
-</td></tr><tr><td id="d333912e327">
+</td></tr><tr><td id="d332890e330">
 
 **Get help**
 
@@ -119,7 +119,7 @@ Enter a keyword for your issue. The chatbot returns a list of related knowledge 
 
 If you’re an anonymous user not logged in to the application, enter keywords for your issue. The chatbot returns a list of related knowledge articles that have been made public. If there are no matching articles that would help resolve the issue, you can choose to be transferred to a live agent.
 
-</td></tr><tr><td id="d333912e349">
+</td></tr><tr><td id="d332890e352">
 
 **Submit Request**
 
@@ -135,7 +135,7 @@ If you’re an anonymous user not logged in to the application, enter keywords f
 3.  Select the link displayed and exit the virtual agent if you don’t have any further request.
 
 
-</td></tr><tr><td id="d333912e398">
+</td></tr><tr><td id="d332890e403">
 
 **Create Case**
 
@@ -150,7 +150,7 @@ Creates a case from Virtual Agent. You need the following fields to create a cas
 -   consumer\_sys\_id
 The values of the fields can be empty. If the account, contact, and consumer fields are empty, the logged-in user details are populated. The topic block returns the variable case\_sys\_id from the topic block.
 
-</td></tr><tr><td id="d333912e428">
+</td></tr><tr><td id="d332890e433">
 
 **Update Case**
 
@@ -166,7 +166,7 @@ Updates a case from Virtual agent. You need the following two fields to update a
 -   enable\_product\_update - If set to true, the Add product information option is displayed. It updates the asset and model information.
 The topic block returns the variable case\_sys\_id
 
-</td></tr><tr><td id="d333912e465">
+</td></tr><tr><td id="d332890e468">
 
 **Log a complaint**
 
@@ -184,7 +184,7 @@ Select this option to create a complaint case from Virtual Agent. Provide a brie
 
 **Note:** This option is available with the [Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-complaint-overview.md) application.
 
-</td></tr><tr><td id="d333912e520">
+</td></tr><tr><td id="d332890e514">
 
 **Request a callback**
 

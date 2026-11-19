@@ -1,6 +1,6 @@
 ---
 title: Monitoring overview
-description: Identify low-scoring AI systems quickly by reviewing quality and safety scores, AI-generated insights, and performance trends across your AI portfolio.
+description: Identify low-scoring AI systems quickly by reviewing quality and safety scores, AI-generated insights, and performance trends across your AI portfolio in Super Intelligence Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-monitoring-overview.html
 release: australia
@@ -8,12 +8,12 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reviewing scores, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reviewing scores, Monitoring and evaluating AI systems, Monitor AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Monitoring overview
 
-Identify low-scoring AI systems quickly by reviewing quality and safety scores, AI-generated insights, and performance trends across your AI portfolio.
+Identify low-scoring AI systems quickly by reviewing quality and safety scores, AI-generated insights, and performance trends across your AI portfolio in Super Intelligence Control Tower.
 
 ## Key benefits
 
@@ -34,7 +34,7 @@ The AI steward \[sn\_ai\_governance.ai\_steward\] or AI asset owner \[sn\_ai\_as
 
 ## Accessing the monitoring overview
 
-View the monitoring overview by navigating to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** &gt; **Overview**.
+View the monitoring overview by navigating to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** &gt; **Overview**.
 
 ## Your top recommendations
 
@@ -50,11 +50,11 @@ Each insight card provides the following actions:
 
 -   **__Open__**
 
-    Navigates to the location where you can act on the insight. For ServiceNow AI agents, this option takes you to actionable recommendations in the AI Skill Kit. For external AI systems, this option takes you to the related AI asset page in AI Control Tower.
+    Navigates to the location where you can act on the insight. For ServiceNow AI agents, this option takes you to actionable recommendations in the AI Skill Kit. For external AI systems, this option takes you to the related AI asset page in Control Tower.
 
 -   **__Complete__**
 
-    Marks the insight as resolved and removes it from the list. Use this options after you have addressed the underlying issue.
+    Marks the insight as resolved and removes it from the list. Use this option after you have addressed the underlying issue.
 
 -   **__Delete__**
 
@@ -150,7 +150,7 @@ Point to a data point on the chart to see the exact score for that date.
 
 -   **Identifying a quality regression during a weekly review**
 
-    An AI steward opens the monitoring overview on Monday morning. The quality score card shows 68% \(orange\), down from 82% the previous week. The administrator selects the score card and sees that Task completion dropped from 88% to 54%. The AI systems ranked by score widget shows a specific incident resolution agent at the bottom of the list. The administrator selects that system, opens the lowest-scoring session, and discovers that a downstream API integration started returning timeout errors over the weekend. The administrator files an incident and monitors subsequent sessions to verify the fix.
+    An AI steward opens the monitoring overview on Monday morning. The quality score card shows 68% \(orange\), down from 82% the previous week. The administrator selects the score card and sees that Answer relevancy dropped from 88% to 54%. The AI systems ranked by score widget shows a specific incident resolution agent at the bottom of the list. The administrator selects that system, opens the lowest-scoring session, and discovers that a downstream API integration started returning timeout errors over the weekend. The administrator files an incident and monitors subsequent sessions to verify the fix.
 
 -   **Responding to an AI-generated insight**
 
@@ -158,7 +158,7 @@ Point to a data point on the chart to see the exact score for that date.
 
 -   **Monitoring a newly deployed agent**
 
-    After deploying a new ServiceNow ITSM agent, the product owner opens the monitoring overview and filters to the new system using the AI systems ranked by score widget. Over the first week, the trend chart shows Tool choice accuracy starting at 62% and improving to 78% as the team adjusts the agent's tool configuration. The owner uses the scoring breakdown side panel to confirm which metrics are improving and which still need attention.
+    After deploying a new ServiceNow ITSM agent, the product owner opens the monitoring overview and filters to the new system using the AI systems ranked by score widget. Over the first week, the trend chart shows Tool calling correctness starting at 62% and improving to 78% as the team adjusts the agent's tool configuration. The owner uses the scoring breakdown side panel to confirm which metrics are improving and which still need attention.
 
 
 **Parent Topic:**[Reviewing quality and safety scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mon-ai-reviewing-ai-system-scores.md)

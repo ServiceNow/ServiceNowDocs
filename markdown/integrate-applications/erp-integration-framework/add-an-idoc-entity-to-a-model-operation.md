@@ -58,3 +58,5 @@ Role required: sn\_erp\_integration.erp\_admin
 
 Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples of using the API, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
 
+**Parent Topic:**[Creating and changing SAP business entities with IDoc in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/create-and-change-sap-business-entities-with-idoc.md)
+

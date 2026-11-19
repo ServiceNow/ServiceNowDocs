@@ -1,22 +1,22 @@
 ---
-title: Install the Data Collection Pack for Security Operations
+title: Install the Data Collection Pack for SecOps
 description: To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/dc-secops-install.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for Security Operations, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for SecOps, Enable data collection for Value Management, Configuring Impact, Impact]
 ---
 
-# Install the Data Collection Pack for Security Operations
+# Install the Data Collection Pack for SecOps
 
 To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
 
 ## Before you begin
 
-The Security Operations Success Metric Definitions in this application rely on another applications. confirm that the required plugins are installed if they are not already installed. For more information, see [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/dc-install-plugins.md).
+The SecOps Success Metric Definitions in this application rely on another applications. Ensure that the required plugins are installed if they are not already installed. For more information, see [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/dc-install-plugins.md).
 
 Role required: Impact users
 
@@ -35,5 +35,5 @@ Role required: Impact users
     If you're having trouble finding the data collection jobs, check whether the required data collection-dependent plugins are installed correctly. See [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/dc-install-plugins.md).
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-secops.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-secops.md)
 

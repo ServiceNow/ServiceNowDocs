@@ -1,20 +1,20 @@
 ---
 title: Create an action for an 'on Resource Limit exceeded' policy
-description: Set the on Resource limits exceeded policy to automatically run approval subflows or send notifications when a template-based catalog item order exceeds defined resource limits.
+description: Set the on Resource limits exceeded policy to run approval subflows or send notifications when a template-based catalog item exceeds resource limits or quotas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/create-action-on-resource-limits-exceeded.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create an action for an 'on Resource Limit exceeded' policy
 
-Set the **on Resource limits exceeded** policy to automatically run approval subflows or send notifications when a template-based catalog item order exceeds defined resource limits.
+Set the **on Resource limits exceeded** policy to run approval subflows or send notifications when a template-based catalog item exceeds resource limits or quotas.
 
 ## Before you begin
 
@@ -24,13 +24,13 @@ You must have configured the following items:
 -   Cloud policy
 -   Approval policy
 -   Email notification
--   [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-subflow.md)
+-   
 
 Role required: sn\_cmp.cloud\_governor or cloud\_admin
 
 ## About this task
 
-The **On resource limit exceeded** base system policy action has a default ServiceNow approval policy rule configured by default. You can trigger other actions such as notifications or a custom approval subflow when the resource limit is exceeded. Modify the base system policy action or create a custom policy for your instance.
+The **On resource limit exceeded** base system policy action has a default ServiceNow approval policy rule configured by default. You can trigger other actions such as notifications or a custom approval subflow when the resource limit is exceeded. To do so, modify the base system policy action or create a custom policy for your instance.
 
 ## Procedure
 
@@ -60,15 +60,15 @@ The **On resource limit exceeded** base system policy action has a default Servi
 
     2.  Click **Create** next to the action you want to occur when the quota is exceeded.
 
-<table id="choicetable_xpc_mhp_znb"><thead><tr><th align="left" id="d241673e263">
+<table id="choicetable_xpc_mhp_znb"><thead><tr><th align="left" id="d243805e262">
 
 Option
 
-</th><th align="left" id="d241673e266">
+</th><th align="left" id="d243805e265">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d241673e272">
+</th></tr></thead><tbody><tr><td id="d243805e271">
 
 **ServiceNow Approval**
 
@@ -79,7 +79,7 @@ Steps
 3.  Select the **Assignment group** to which this action applies.
 
 
-</td></tr><tr><td id="d241673e312">
+</td></tr><tr><td id="d243805e311">
 
 **Custom Approval**
 
@@ -89,7 +89,7 @@ Steps
 2.  Select an existing custom workflow in the **Subflow** field.
 
 
-</td></tr><tr><td id="d241673e343">
+</td></tr><tr><td id="d243805e342">
 
 **Send aNotification**
 

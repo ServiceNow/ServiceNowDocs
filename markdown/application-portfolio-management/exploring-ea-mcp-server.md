@@ -1,19 +1,19 @@
 ---
 title: Explore MCP for Enterprise Architecture
-description: MCP for Enterprise Architecture gives enterprise architects and application portfolio managers direct access to business application insights, capability mappings, architectural relationships, and rationalization data. Access this data from the AI client you already use, without opening the ServiceNow instance.
+description: MCP for Enterprise Architecture provides enterprise architects and application portfolio managers direct access to business application insights, capability mappings, architectural relationships, and rationalization data. Access this data from any AI client, without opening the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/exploring-ea-mcp-server.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-24"
-reading_time_minutes: 4
+last_updated: "2026-10-03"
+reading_time_minutes: 3
 keywords: [EA MCP server]
 breadcrumb: [MCP for Enterprise Architecture, Enterprise Architecture]
 ---
 
 # Explore MCP for Enterprise Architecture
 
-MCP for Enterprise Architecture gives enterprise architects and application portfolio managers direct access to business application insights, capability mappings, architectural relationships, and rationalization data. Access this data from the AI client you already use, without opening the ServiceNow instance.
+MCP for Enterprise Architecture provides enterprise architects and application portfolio managers direct access to business application insights, capability mappings, architectural relationships, and rationalization data. Access this data from any AI client, without opening the ServiceNow instance.
 
 ## MCP for Enterprise Architecture overview
 
@@ -51,7 +51,6 @@ To learn more about configuring and using MCP for Enterprise Architecture, see t
 -   [Configure MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configuring-ea-mcp-server.md)
 -   [Using MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/using-ea-mcp-server.md)
 -   [MCP for Enterprise Architecture reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/reference-ea-mcp-server.md)
--   [Example prompts for MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/ea-mcp-server-example-prompts.md)
 
 **Parent Topic:**[MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/ea-mcp-server-landing-page.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ Role required: it\_demand\_manager
 
 3.  To create a financial baseline of a demand, use either of the options.
 
-<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d362469e86">
+<table id="choicetable_zvg_42n_1cb"><thead><tr><th align="left" id="d362486e86">
 
 Option
 
-</th><th align="left" id="d362469e89">
+</th><th align="left" id="d362486e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d362469e95">
+</th></tr></thead><tbody><tr><td id="d362486e95">
 
 **From a related link**
 
@@ -49,7 +49,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d362469e122">
+</td></tr><tr><td id="d362486e122">
 
 **From a related list**
 

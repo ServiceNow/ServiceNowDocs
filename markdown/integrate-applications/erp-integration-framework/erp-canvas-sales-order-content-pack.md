@@ -17,3 +17,10 @@ breadcrumb: [Available SAP content packs, Content packs, Using, Zero Copy Connec
 
 The Zero Copy Connector for ERP Quote to Cash content pack contains models and process extensions sales order processing.
 
+-   **[Zero Copy Connector for ERP Quote to Cash content pack models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-content-pack-sales-order-models.md)**  
+The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Quote to Cash content pack contains models that you might need when interacting with an SAP system.
+-   **[Zero Copy Connector for ERP Quote to Cash content pack process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-content-pack-sales-order-process-extensions.md)**  
+The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Quote to Cash content pack contains process extensions that you might need when interacting with an SAP system.
+
+**Parent Topic:**[Available Zero Copy Connector for ERP content packs for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-available-content-packs.md)
+

@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring ACC with a MID Server, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -18,7 +18,8 @@ Enable Agent Client Collector monitoring on the MID Server by configuring the Ag
 
 ## Before you begin
 
-Role required: evt\_mgmt\_admin
+-   Ensure that you have installed Agent Client Collector Monitoring.
+-   Role required: evt\_mgmt\_admin
 
 ## Procedure
 

@@ -1,18 +1,18 @@
 ---
-title: Internal Business Location form
-description: In the Customer Service Management \(CSM\) application, the Service Model Foundation uses the Internal Business Location \(IBL\) form to store information about an internal business location. This information includes the staff members assigned to that location, cases, sold products, and install base items created for customers.
+title: Internal Organization form
+description: In the Customer Service Management \(CSM\) application, the Service Model Foundation uses the Internal Organization \(formerly Internal Business Location\) form to store information about an internal business organization. This information includes the staff members assigned to that location, cases, sold products, and install base items created for customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/data-model-business-location-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
 
-# Internal Business Location form
+# Internal Organization form
 
-In the Customer Service Management \(CSM\) application, the Service Model Foundation uses the Internal Business Location \(IBL\) form to store information about an internal business location. This information includes the staff members assigned to that location, cases, sold products, and install base items created for customers.
+In the Customer Service Management \(CSM\) application, the Service Model Foundation uses the Internal Organization \(formerly Internal Business Location\) form to store information about an internal business organization. This information includes the staff members assigned to that location, cases, sold products, and install base items created for customers.
 
 **Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
@@ -30,7 +30,7 @@ Number
 
 </td><td>
 
-Automatically generated number of the internal business location. By default, the location numbers start with the prefix IBL.
+Automatically generated number of the internal organization. By default, the location numbers start with the prefix IBL.
 
 </td></tr><tr><td>
 
@@ -38,7 +38,7 @@ Name
 
 </td><td>
 
-Name of the internal business location.
+Name of the internal organization.
 
 </td></tr><tr><td>
 
@@ -56,8 +56,8 @@ Business function
 </td><td>
 
 Type of functions offered at a business location. Select the following business function:-   Service: Select this type if a business location provides service-related functions, such as providing support, or resolving cases for accounts, consumers, or other business locations.
--   Sales: Select this type if a business location provides sales-related activities, such as creating or managing orders, generating quotes, handling opportunities or leads, managing pricing, offering product recommendations, or supporting account-based selling for accounts, consumers, or other business locations.
--   Service and Sales: Select both service and sales if the business location is providing both service-related and sales-related activities.
+-   Sales: Select this type if a business location provides sales-related activities, such as creating or managing orders, generating quotes, handling opportunities or leads, managing pricing, offering product recommendations, or supporting account-based selling for accounts, consumers, or other business organizations.
+-   Service and Sales: Select both service and sales if the business organization is providing both service-related and sales-related activities.
 
 **Note:** You can create and manage orders and cases by selecting both types of business functions.
 
@@ -68,15 +68,15 @@ Manager
 
 </td><td>
 
-Manager of the internal business location.**Note:** Only internal users can be added as managers for the internal business locations.
+Manager of the internal organization.**Note:** Only internal users can be added as managers for the internal organizations .
 
 </td></tr><tr><td>
 
-Parent Internal Business Location
+Parent Internal Organization \(formerly Parent Internal Business Location\)
 
 </td><td>
 
-Parent of the business location. Use this field to create a parent-child hierarchy.
+Parent of the business organization. Use this field to create a parent-child hierarchy.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Street
 
 </td><td>
 
-Street address of the internal business location.
+Street address of the internal organization .
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ City
 
 </td><td>
 
-City where the internal business location is located.
+City where the internal organization is located.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ State/Province
 
 </td><td>
 
-State or province where the internal business location is located.
+State or province where the internal organization is located.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ ZIP/Postal code
 
 </td><td>
 
-ZIP code or postal code for the internal business location.
+ZIP code or postal code for the internal organization.
 
 </td></tr><tr><td>
 
@@ -124,11 +124,20 @@ Associate a channel partner to add roles in the Service Organization tab.
 
 </td></tr><tr><td>
 
-Excluded from hierarchy overrides
+Business organizations served
 
 </td><td>
 
-Enabling this, the hierarchy agents can't view the location or its details.
+Types of business organizations that are served at a business location. -   **Criteria based**: Enables staff members within a organization to create and resolve cases for organizations that meet with specific criteria.
+-   **Hierarchy based**: Enables staff members within a organizations to create and resolve cases for organizations that are linked to the organization cores through hierarchical relationships.
+
+</td></tr><tr><td>
+
+Restricted
+
+</td><td>
+
+Restrict all organization hierarchy contributors and agents from accessing this organization
 
 </td></tr><tr><td>
 
@@ -136,7 +145,7 @@ Website
 
 </td><td>
 
-Web address for the internal business location.
+Web address for the internal organization.
 
 </td></tr><tr><td>
 
@@ -144,7 +153,7 @@ Email
 
 </td><td>
 
-Email ID used by the internal business location.
+Email ID used by the internal organization.
 
 </td></tr><tr><td>
 
@@ -152,7 +161,7 @@ Phone
 
 </td><td>
 
-Phone number for the internal business location.
+Phone number for the internal organization.
 
 </td></tr><tr><td>
 
@@ -160,7 +169,7 @@ Open date
 
 </td><td>
 
-Date on which the business location becomes operational and available for customers.
+Date on which the business organization becomes operational and available for customers.
 
 </td></tr><tr><td>
 
@@ -168,7 +177,7 @@ Close date
 
 </td><td>
 
-Date on which the business location becomes non-operational and unavailable for customers.**Note:** The closed date must not be earlier than the open date.
+Date on which the business organization becomes non-operational and unavailable for customers.**Note:** The closed date must not be earlier than the open date.
 
 </td></tr><tr><td>
 
@@ -176,7 +185,7 @@ Status
 
 </td><td>
 
-Current status of the business location whether In progress, Operational, non-operational, or closed.
+Current status of the business organization whether In progress, Operational, non-operational, or closed.
 
 </td></tr><tr><td>
 
@@ -184,12 +193,12 @@ Description
 
 </td><td>
 
-Description of the business location.
+Description of the business organization .
 
 </td></tr></tbody>
-</table>## Internal business location related lists
+</table>## Internal Organization related lists
 
-The Internal Business Location form includes the following related lists.
+The Internal Organization form includes the following related lists.
 
 <table id="table_wts_433_gmb"><thead><tr><th>
 
@@ -205,26 +214,26 @@ Members
 
 </td><td>
 
-Internal users \(users with the snc\_internal role\) who have been added as staff members at this business location. -   Staff members can create cases for customers at their business locations.
+Internal users \(users with the snc\_internal role\) who have been added as staff members at this business organization. -   Staff members can create cases for customers at their business locations.
 -   Staff members can access customer cases and information where the **Service Organization** field on the Case form matches their business locations.
 
 For more information, see [Add staff members to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/add-staff-members-biz-loc.md).
 
 </td></tr><tr><td>
 
-Child Internal Business Locations
+Child Internal Organizations \(formerly Child Internal Business Locations\)
 
 </td><td>
 
-List of internal business location of the current parent business location.For more information, see [Create an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-internal-business-location.md).
+List of internal organizations \(formerly internal business location\) of the current parent business location.For more information, see [Create an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-internal-business-location.md).
 
 </td></tr><tr><td>
 
-Child External Business Locations
+Child External Organizations \(formerly Child External Business Locations\)
 
 </td><td>
 
-List of external business location of the current parent business location.For more information, see [Create an external organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-external-business-location.md).
+List of external organizations \(formerly external business locations\) of the current parent business location.For more information, see [Create an external organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-external-business-location.md).
 
 </td></tr><tr><td>
 
@@ -240,7 +249,7 @@ Available Services
 
 </td><td>
 
-List of services supported by the business location.For more information, see [Setting up products and available services at a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/products-services-at-bus-loc.md).
+List of services supported by the business location.For more information, see [Setting up products and available services at a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/products-services-at-bus-loc.md).
 
 </td></tr><tr><td>
 
@@ -248,7 +257,7 @@ Organization Customer Criteria
 
 </td><td>
 
-List of customers that are supported by an internal business location.For more information, see [Define the configuration type for customers or business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-customer-criteria-to-service-organization.md).
+List of customers that are supported by an internal business location.For more information, see [Define the configuration type for customers or business organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/associate-customer-criteria-to-service-organization.md).
 
 </td></tr><tr><td>
 

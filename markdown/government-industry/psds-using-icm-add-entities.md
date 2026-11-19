@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-using-icm-add-entities.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-09"
 reading_time_minutes: 13
 breadcrumb: [Using Entity Management, Investigative Case Management, Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---

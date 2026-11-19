@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/using-ea-mcp-server.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-23"
+last_updated: "2026-06-27"
 reading_time_minutes: 1
 keywords: [EA MCP server]
 breadcrumb: [MCP for Enterprise Architecture, Enterprise Architecture]
@@ -23,6 +23,8 @@ For step-by-step instructions, see [Access Enterprise Architecture data using MC
 
 -   **[Access Enterprise Architecture data using MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/access-ea-data-using-mcp-tools.md)**  
 Use MCP \(Model Context Protocol\) tools to query live Enterprise Architecture data—including business application insights, capability mappings, and rationalization data—from any MCP-compatible AI assistant.
+-   **[Example prompts for MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/ea-mcp-server-example-prompts.md)**  
+High-value prompts that you can use with MCP for Enterprise Architecture, with the role that typically asks each one and the outcome it drives.
 
 **Parent Topic:**[MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/ea-mcp-server-landing-page.md)
 

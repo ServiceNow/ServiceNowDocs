@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [AI Search Admin console, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -35,11 +35,11 @@ Improve AI Search functionality by adding extra features through supported appli
 Review the AI Search introductory video, follow links to the AI Search documentation and ServiceNow Community forum, or view answers to commonly asked questions about AI Search.
 -   **[Customizing the result-card interface of an AI Search application by using EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-managing-evam.md)**  
 You can customize the appearance and layout of the result-card interface in AI Search applications by accessing Entity View Action Mapper \(EVAM\) configurations from the AI Search Admin console. This helps to enhance usability, clarity of search results, making them easier to read and navigate.
--   **[Manage hybrid search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/enable-hybrid-search-aisac.md)**  
-Control hybrid search settings in AI Search applications to optimize search performance. Activate hybrid search to create context-aware results that provide both search precision and contextual relevance. Deactivating hybrid search generates results that rely solely on keyword-based queries.
 -   **[Managing indexed sources from the AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-managing-indexed-source.md)**  
 If you have the ais\_admin role, you can create, view, or edit indexed sources directly from the AI Search Admin console.
--   **[Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md)**  
+-   **[Manage hybrid search in search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/enable-hybrid-search-aisac.md)**  
+Control hybrid search settings in AI Search applications to optimize search performance. Enable hybrid search to create context-aware results that combine keyword matching with semantic understanding. Disabling it generates results that rely solely on keyword-based queries.
+-   **[Configure multimodal captioning with AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md)**  
 Use the AI Search Admin console to select the visual language model \(VLM\) provider and model for multimodal captioning.
 -   **[Configure multi-content synthesized sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multi-content-synthesis-sources.md)**  
 Configure indexed sources so that AI Search includes content from multiple sources when generating responses. When you configure a source for synthesis, the large language model draws from that source alongside others to produce more complete, contextually relevant answers.

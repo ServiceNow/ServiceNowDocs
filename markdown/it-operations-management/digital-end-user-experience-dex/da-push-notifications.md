@@ -7,16 +7,16 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Desktop Assistant, Solve issues, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Desktop Assistant, Digital End-User Experience, IT Operations Management]
 ---
 
 # Desktop Assistant notifications
 
 Desktop Assistant notifications enable your organization to communicate important updates to end users instantly, regardless of their device activity. This feature enables delivering critical information, supporting Major Incident Management and Proactive Engagement.
 
-Desktop Assistant notifications inform end users of critical updates. These notifications provide updates for awareness but aren’t directly actionable.
+Desktop Assistant notifications provide a reliable way to inform end users of critical updates with minimal effort. These notifications provide updates for awareness but aren’t directly actionable.
 
 Desktop Assistant supports an optimum number of 400,000 notifications per day, with a maximum rate of 10,000 notifications per minute.
 
@@ -31,7 +31,7 @@ Notifications should appear on end users’ devices within two minutes of genera
 Desktop Assistant supports notifications from Major Incident Management and Proactive Engagement.
 
 -   Major Incident Management: Major Incident Management sends real-time updates about critical incidents to recipients in the following base system recipient lists.
-    -   All users in affected location\(s\): Updates are sent to all configured recipients in affected locations. For example, a Major Incident Management notification informs all employees in an affected location of a sudden network outage so that they’re aware of the issue.
+    -   All users in affected location\(s\): Updates are sent to all configured recipients in affected locations. For example, a Major Incident Management notification informs all employees in an affected location of a sudden network outage, ensuring they’re aware of the issue.
     -   Impacted application users in affected location\(s\): Updates are sent only to impacted recipients in affected locations. To make sure only relevant users receive updates, the recipient list includes users with application usage above zero during a specified aggregation period and frequency. The aggregation period and frequency can be configured to one of the following options:
 
         -   Daily: 1–7 days
@@ -43,17 +43,15 @@ Desktop Assistant supports notifications from Major Incident Management and Proa
 
         Each notification is delivered once to every logged-in device.
 
-        You can customize the **Impacted application users in affected location\(s\)** recipient list or create a notification for an incident using this list. For more information, see [Customize recipient list for Major Incident Management updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/recipient-lists-for-mim.md) and [Compose communications for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/compose-communication-mim-sow.md).
+        You can customize the **Impacted application users in affected location\(s\)** recipient list or create a notification for an incident using this list. For more information, see [Customize recipient list for Major Incident Management updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/recipient-lists-for-mim.md) and .
 
 -   Proactive Engagement: Proactive Engagement uses Desktop Assistant to notify users about the following device-related events:
 
     -   Actions that users must take to maintain device health.
-    -   Issues detected on devices.
+    -   Issues detected on devices
     -   Steps to remediate issues by following the self-help instructions or using the linked resources.
     For example, end users receive alerts to restart their devices if they haven’t done so in the recommended duration.
 
-
-To learn more about notifications from Major Incident Management and Proactive Engagement, see [Compose communications for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/compose-communication-mim-sow.md) and [Engagement settings for Proactive Engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/engagement-settings.md).
 
 ## Configuring notifications
 
@@ -64,7 +62,7 @@ DEX administrators with the sn\_dex\_desktop.admin role can configure and manage
 
     The TTL value can be set to a maximum of seven days. Older notifications exceeding the TTL are automatically discarded.
 
--   Settings to turn Desktop Assistant notifications on or off. For more information, see [Turn notifications on or off](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/enable-notification.md).
+-   Enable and disable Desktop Assistant notifications. For more information, see [Enable or disable notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/enable-notification.md).
 
 Users with the sn\_dex\_desktop.notification\_template\_viewer role have read-only access to view the Desktop Assistant Notification Template table.
 

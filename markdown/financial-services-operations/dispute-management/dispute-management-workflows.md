@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -82,7 +82,7 @@ During this stage, the card network, card issuing bank, merchant bank or acquire
 
 **Note:** Issuer banks don’t contact merchants directly about disputed transactions. However, merchants enrolled in Ethoca Alerts or Verifi CDRN receive notifications of potential disputes, enabling them to work with cardholders to resolve issues and help prevent chargebacks.
 
-In this stage, agents can also work on transactions identified as friendly fraud. For more information, see [Detect friendly fraud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/resolve-friendly-fraud.md).
+In this stage, agents can also work on transactions identified as friendly fraud. For more information, see [Resolve friendly fraud disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/resolve-friendly-fraud.md).
 
 ## Chargeback
 

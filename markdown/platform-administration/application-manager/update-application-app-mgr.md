@@ -7,7 +7,7 @@ release: australia
 product: Application Manager
 classification: application-manager
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Updating apps, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -55,15 +55,15 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 8.  Install the update now or schedule installation for a later time.
 
-<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d97945e244">
+<table id="choicetable_a33_l3m_yfc"><thead><tr><th align="left" id="d97961e244">
 
 Installation option
 
-</th><th align="left" id="d97945e247">
+</th><th align="left" id="d97961e247">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d97945e253">
+</th></tr></thead><tbody><tr><td id="d97961e253">
 
 **Install now**
 
@@ -73,7 +73,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d97945e277">
+</td></tr><tr><td id="d97961e277">
 
 **Install later**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/add-products-with-cpq-config.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -20,9 +20,9 @@ Role required: sales agent, order agent, customer
 
 ## Procedure
 
-1.  Create a transaction, such as an opportunity or a quote, in the CRM Workspace.
+1.  Create a transaction, such as an opportunity or a quote, in the CSM Configurable Workspace.
 
-    1.  Navigate to **Workspaces** &gt; **CRM Workspace**, and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+    1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**, and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
     2.  Navigate to the module for the transaction, for example **Quotes** &gt; **All**, and select **New** to create the transaction.
 

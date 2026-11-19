@@ -92,6 +92,8 @@ The stage progress chevron supports theming using CSS custom properties. The fol
 |`--lgk-ProgressStep-chevron-label-fontSize`|Font size for stage labels in the chevron.|
 |`--lgk-ProgressStep-chevron-label-fontWeight`|Font weight for stage labels in the chevron.|
 
+**Parent Topic:**[Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-layouts.md)
+
 **Related topics**  
 
 

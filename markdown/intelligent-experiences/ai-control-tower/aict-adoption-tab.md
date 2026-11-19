@@ -1,5 +1,5 @@
 ---
-title: Adoption tab in AI Control Tower
+title: Adoption tab in Super Intelligence Control Tower
 description: Use the Adoption dashboard page to view data about user engagement and feedback, and adoption of every type of AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/aict-adoption-tab.html
@@ -7,12 +7,12 @@ release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Control Tower Home, Control Tower dashboard, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
-# Adoption tab in AI Control Tower
+# Adoption tab in Super Intelligence Control Tower
 
 Use the Adoption dashboard page to view data about user engagement and feedback, and adoption of every type of AI.
 
@@ -22,7 +22,7 @@ The **Usage** tab includes indicators on daily AI actions, daily unique users wh
 
 The high-level indicators on the Adoption dashboard page provide an overview of user engagement.
 
-\[Omitted image "aict-adoption-full.png"\] Alt text: Adoption tab in AI Control Tower.
+\[Omitted image "aict-adoption-full.png"\] Alt text: Adoption tab.
 
 -   **Total AI actions**
 

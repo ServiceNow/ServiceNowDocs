@@ -7,8 +7,8 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
 
@@ -38,7 +38,7 @@ The following table lists the input fields in the Create CI From Template functi
 |Stockroom Location|Name of the stockroom location where the asset is located.|String|
 |Asset|Name of the asset that is associated with this record.|String|
 
-To learn more about the variable data types, see [Flow Designer input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
+To learn more about the variable data types, see Flow Designer input and output data variables.
 
 ## Output
 

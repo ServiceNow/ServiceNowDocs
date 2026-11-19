@@ -19,7 +19,7 @@ Create templates that you can assign to the equipment model entities that you cr
 -   **[Create an equipment model template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-equipment-model-template.md)**  
 Create an equipment model template record that identifies and describes the use of the template. After you create an equipment model template, you can create hierarchical levels and types for it.
 -   **[Create sorting levels for equipment model templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-equipment-model-template-levels.md)**  
-Create and assign hierarchical levels for your equipment model template to control how equipment is sorted and organized.
+Create and assign hierarchical levels for your equipment model template. When you assign levels in the equipment model template, they can be sorted and structured.
 -   **[Create equipment model level types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/create-equipment-model-template-type.md)**  
 Create granular level types within each equipment model template level that you created. The granular level types that you create within that level describe the type of production processes within it.
 

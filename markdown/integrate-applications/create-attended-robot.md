@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-attended-robot.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Robots, Use, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
 ---
@@ -34,15 +34,15 @@ An attended robot is mapped to only one user.
 
 2.  Create a robot by doing one of the following actions.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d345036e109">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d347344e109">
 
 Option
 
-</th><th align="left" id="d345036e112">
+</th><th align="left" id="d347344e112">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d345036e118">
+</th></tr></thead><tbody><tr><td id="d347344e118">
 
 **From the list icon**
 
@@ -53,7 +53,7 @@ Action
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d345036e157">
+</td></tr><tr><td id="d347344e157">
 
 **From the plus icon**
 

@@ -1,20 +1,20 @@
 ---
 title: Configure CORS \(Cross-Origin Resource Sharing\) rules before embedding ServiceNow components
-description: Configure a CORS rule to enable cross-domain requests between ServiceNow components and the website that you want to embed the web components.
+description: Add a CORS rule so ServiceNow components can make cross-domain requests to your website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-cors-for-web-components.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Set up Web Embeddables, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure CORS \(Cross-Origin Resource Sharing\) rules before embedding ServiceNow components
 
-Configure a CORS rule to enable cross-domain requests between ServiceNow components and the website that you want to embed the web components.
+Add a CORS rule so ServiceNow components can make cross-domain requests to your website.
 
 ## Before you begin
 

@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-25"
 reading_time_minutes: 6
 keywords: [Patterns]
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -118,7 +118,7 @@ Object ID \[object\_id\]
 
 </td><td>
 
-Credential affinity assigned during discovery to the FlashArray storage. For more information about credential affinity, see [Credential affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_CredentialAffinity.md).
+Credential affinity assigned during discovery to the FlashArray storage. For more information about credential affinity, see Credential affinity for Discovery and Orchestration.
 
 </td></tr><tr><td>
 

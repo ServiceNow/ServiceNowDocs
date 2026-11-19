@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/explore-measure.html
 release: australia
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
-breadcrumb: [Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Exploring Measure
 
 Measure helps you determine whether your AI systems deliver more value than they cost. It brings value and cost data together in dashboards so that you can compare productivity gains with AI spend.
 
-Measure is one of the AI Control Tower pillars. It helps you quantify the value your AI systems deliver, track what they cost, and monitor the results over time. Measure includes the following components.
+Measure is one of the Control Tower pillars. It helps you quantify the value your AI systems deliver, track what they cost, and monitor the results over time. Measure includes the following components.
 
 ## Value
 
@@ -26,7 +26,7 @@ Value jobs are scheduled tasks that run at set intervals—daily \(default\), mo
 
 ## Cost
 
-Cost records the actual expenses associated with your AI systems, enabling AI Control Tower to compare these costs against productivity gains and calculate the net return on investment. You configure costs by entering your organization's average hourly rate and defining prices for integrated and non-integrated vendors. The cost configuration converts token usage and ServiceNow Assist consumption into monetary costs.
+Cost records the actual expenses associated with your AI systems, enabling Control Tower to compare these costs against productivity gains and calculate the net return on investment. You configure costs by entering your organization's average hourly rate and defining prices for integrated and non-integrated vendors. The cost configuration converts token usage and ServiceNow Assist consumption into monetary costs.
 
 ## Dashboards
 

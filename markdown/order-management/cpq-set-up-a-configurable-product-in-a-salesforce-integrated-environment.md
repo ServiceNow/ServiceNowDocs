@@ -1,46 +1,46 @@
 ---
 title: Set up a configurable product in a Salesforce-integrated environment
-description: A configurable product links a blueprint to the configuration experience for the product. Learn how to set up a configurable product in an environment that is integrated with Salesforce. This procedure is valid for users whose Salesforce Managed Package was installed in June 2022 or later.
+description: Configure a Salesforce product to use external configuration with ServiceNow blueprints when using current Salesforce Managed Package installations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Setting up configurable products, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up a configurable product in a Salesforce-integrated environment
 
-A configurable product links a blueprint to the configuration experience for the product. Learn how to set up a configurable product in an environment that is integrated with Salesforce. This procedure is valid for users whose Salesforce Managed Package was installed in June 2022 or later.
+Configure a Salesforce product to use external configuration with ServiceNow blueprints when using current Salesforce Managed Package installations.
 
 ## Before you begin
 
-Role required: Admin
+Role required: admin
 
 ## About this task
 
 If your ServiceNow CPQ SF Managed Package was installed in June 2022 or later, follow these steps to associate a configurable product with a blueprint.
 
-**Note:** If your ServiceNow CPQ SF Managed Package was installed before June 2022, see [Set up a configurable product in a Salesforce-integrated environment \(older managed package\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment-older-managed-package.md).
+**Note:** If your ServiceNow CPQ SF Managed Package was installed before June 2022, see [Set up a configurable product in legacy Salesforce environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment-older-managed-package.md).
 
 ## Procedure
 
-1.  On the Salesforce Products tab, find the Product2 record to connect to a ServiceNow CPQ configuration experience \(blueprint\).
+1.  On the Salesforce Products tab, locate the Product2 record to connect to a ServiceNow CPQ configuration experience \(blueprint\).
 
 2.  Associate the Product with a Price Book entry.
 
     The amount can be $0.00, but a value must be entered.
 
-3.  Set the product to **Active** and **Enabled**, and then click **Save**.
+3.  Set the product to **Active** and **Enabled**, then select **Save**.
 
 4.  On the SFDC Products tab, select the list view to ServiceNow CPQ View.
 
-5.  Find the Product Name of the Product2 record created in step 3, and click the **Click Here** link under View ServiceNow CPQ Setup column.
+5.  Locate the Product Name of the Product2 record created in step 3, then select the **Click Here** link under View ServiceNow CPQ Setup column.
 
-6.  Click **Associate Blueprint**.
+6.  Select **Associate Blueprint**.
 
-7.  Select the desired blueprint, and then click **Save**.
+7.  Select the desired blueprint, then select **Save**.
 
 
 **Related topics**  

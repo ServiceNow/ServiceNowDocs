@@ -1,18 +1,18 @@
 ---
 title: Activity timer log
-description: The activity timer log feature automatically tracks the time that agents spend working on cases and interactions in CRM Workspace. The feature monitors agent activity, pauses when agents navigate away from records, and provides detailed time reports for project tracking.
+description: The activity timer log feature automatically tracks the time that agents spend working on cases and interactions in CSM Configurable Workspace. The feature monitors agent activity, pauses when agents navigate away from records, and provides detailed time reports for project tracking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-ws-time-tracking.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-18"
+last_updated: "2026-09-16"
 reading_time_minutes: 3
-breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activity timer log
 
-The activity timer log feature automatically tracks the time that agents spend working on cases and interactions in CRM Workspace. The feature monitors agent activity, pauses when agents navigate away from records, and provides detailed time reports for project tracking.
+The activity timer log feature automatically tracks the time that agents spend working on cases and interactions in CSM Configurable Workspace. The feature monitors agent activity, pauses when agents navigate away from records, and provides detailed time reports for project tracking.
 
 ## Activity timer log overview
 
@@ -40,11 +40,11 @@ The Time Entry table stores the start and stop events and the time captured for 
 
 When the system administrator configures the activity timer log feature, the timer component appears in the record header next to the short description. Agents can use this timer to view the time elapsed on a record.
 
-\[Omitted image "activity-timer-log-component.png"\] Alt text: The timer component appears in the record header next to the short description and displays the elapsed time for the record.
+\[Omitted image "activity-timer-log-component.png"\] Alt text: case page with timer component
 
 ## My Timelog list
 
-For customer service agents and consumer agents, the List view in CRM Workspace includes the **Timelog** &gt; **My Timelog** list.
+For customer service agents and consumer agents, the List view in CSM Configurable Workspace includes the **Timelog** &gt; **My Timelog** list.
 
 -   Select **My Timelog** to view records you have worked on. The entry for each record includes these fields:
 
@@ -64,7 +64,7 @@ The **My Timelog** list includes these default filter conditions:
 -   Start and end time: Yesterday's data appears by default.
 -   User: The current logged-in user. Agents can only view their own data.
 
-Agents can filter and sort the information in this list to see different views. For example, agents can view all of the entries for a single record or the total time worked on a record. For more information, see the table descriptions in [Activity timer log components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activity-timer-log-components.md).
+Agents can filter and sort the information in this list to see different views. For example, agents can filter to see all of the entries for a single record or the total time worked on a record. For more information, see the table descriptions in [Activity timer log components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activity-timer-log-components.md).
 
 ## Plugin
 
@@ -76,7 +76,7 @@ For more information about activating the plugin and configuring this feature, s
 
 ## Record pages with the activity timer log feature
 
-The activity timer log feature is available on these [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-record-pages.md) in CRM Workspace:
+The activity timer log feature is available on these [record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-config-workspace-record-pages.md) in CSM Configurable Workspace:
 
 -   CSM default record page
 -   Front-line case page

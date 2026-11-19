@@ -38,15 +38,15 @@ Users with an assigned cmdb\_ot\_isa\_admin role can view equipment model entiti
 
 5.  Review the downstream production processes for the equipment model, or map a new one.
 
-<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d25288e127">
+<table id="choicetable_nnq_bxc_3qb"><thead><tr><th align="left" id="d25263e127">
 
 Task
 
-</th><th align="left" id="d25288e130">
+</th><th align="left" id="d25263e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d25288e136">
+</th></tr></thead><tbody><tr><td id="d25263e136">
 
 **Review the downstream production processes for the selected equipment model entity**
 
@@ -54,7 +54,7 @@ Description
 
 Proceed to the next step and review the Downstream process form.
 
-</td></tr><tr><td id="d25288e145">
+</td></tr><tr><td id="d25263e145">
 
 **Map a downstream production process**
 
@@ -65,7 +65,7 @@ Proceed to the next step and review the Downstream process form.
 3.  Click **Save**.
 
 
-</td></tr><tr><td id="d25288e172">
+</td></tr><tr><td id="d25263e172">
 
 **Remove a downstream process**
 

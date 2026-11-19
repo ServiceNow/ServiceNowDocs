@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/customer-success-ai-agents-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-11-06"
-reading_time_minutes: 1
-breadcrumb: [Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+last_updated: "2026-11-19"
+reading_time_minutes: 3
+breadcrumb: [Telecommunications, Media and Technology AI agents, Telecom, Media and Tech AI agents, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Customer Success Management AI agents

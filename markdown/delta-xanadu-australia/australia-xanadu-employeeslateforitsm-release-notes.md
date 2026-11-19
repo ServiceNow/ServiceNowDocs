@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-employeeslateforitsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -108,6 +108,7 @@ Australia
 </td><td>
 
 -   **[Use](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=australia&ft:locale=en-US)**
+    -   Answer the questions in a survey assigned to you, save your progress, and submit your responses.
     -   Send email notifications to keep you updated on your walk-in visit.
     -   Send email notifications when a user subscribes to a service to keep them informed of the subscription status.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-10-23"
 reading_time_minutes: 4
-breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Create a page variant

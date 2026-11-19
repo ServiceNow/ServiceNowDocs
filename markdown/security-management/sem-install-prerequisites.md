@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-install-prerequisites.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Installing Security Exposure Management Workspace applications, Implement, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Installing Unified Security Exposure Management applications, Implement, Unified Security Exposure Management, Security Operations]
 ---
 
 # Migration upgrade prerequisites

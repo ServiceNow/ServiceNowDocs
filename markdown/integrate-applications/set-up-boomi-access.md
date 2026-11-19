@@ -52,11 +52,11 @@ Installing the store application doesn't give you access to the Boomi platform. 
 
 ## Result
 
-You get a confirmation email from Boomi after you submit the request form. Boomi sends a welcome email with account access details. You can purchase a plan before the welcome email arrives.
+You get a confirmation email from Boomi after you submit the request form. Boomi sends a welcome email with account access details. You can buy a plan before the welcome email arrives.
 
 ## What to do next
 
-Purchase a plan. For more information, see [Purchase a Boomi plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/purchase-boomi-plan.md).
+Buy a plan. For more information, see [Purchase a Boomi plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/purchase-boomi-plan.md).
 
 **Parent Topic:**[Boomi partner application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-boomi-plans.md)
 

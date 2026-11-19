@@ -1,40 +1,49 @@
 ---
-title: Set up a configurable product in a Salesforce-integrated environment \(older managed package\)
-description: A configurable product links a Blueprint to the configuration experience for the product. Learn how to set up a configurable product in an environment that is integrated with Salesforce. This procedure is valid for users whose Salesforce Managed Package was installed before June 2022.
+title: Set up a configurable product in legacy Salesforce environment
+description: Set up external product configuration in Salesforce to connect with ServiceNow blueprints when using legacy managed package installations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-set-up-a-configurable-product-in-a-salesforce-integrated-environment-older-managed-package.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-05-07"
+reading_time_minutes: 1
+keywords: [configurable product, Salesforce integration, blueprint, CPQ]
 breadcrumb: [Setting up configurable products, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Set up a configurable product in a Salesforce-integrated environment \(older managed package\)
+# Set up a configurable product in legacy Salesforce environment
 
-A configurable product links a Blueprint to the configuration experience for the product. Learn how to set up a configurable product in an environment that is integrated with Salesforce. This procedure is valid for users whose Salesforce Managed Package was installed before June 2022.
+Set up external product configuration in Salesforce to connect with ServiceNow blueprints when using legacy managed package installations.
 
 ## Before you begin
 
-Role required: Admin
+Your Salesforce Managed Package must be installed before June 2022.
+
+Role required: admin
 
 ## About this task
 
-If your SF Managed Package was installed before June 2022, follow these steps to associate a configurable product with a Blueprint.
+A configurable product associates a blueprint with the configuration experience for the product. Use this procedure for environments with Salesforce Managed Packages installed before June 2022.
 
 ## Procedure
 
-1.  On the Salesforce Configurable Products tab, click **Enable/Disable external configuration**.
+1.  Navigate to the Salesforce Configurable Products tab.
 
-2.  Find the Product2 record to connect to a ServiceNow CPQ configuration experience \(blueprint\), and set the corresponding Enable/Disable Externally Configurable checkbox to true, and save.
+2.  Enable external configuration by selecting **Enable External Configuration**.
 
-3.  Click **Save**.
+3.  Locate the Product2 record to connect to a ServiceNow CPQ configuration experience.
 
-4.  On the Configurable Products page, click the **View Setup** link associated with the product name of the Product2 record created in step 1.
+4.  Select the **Externally Configurable** check box for the product.
 
-5.  Click **Add Blueprint**.
+5.  Save the configuration by selecting **Save**.
 
-6.  Select a Blueprint, and then click **Save**.
+6.  Access the blueprint setup by selecting the **View Setup** link for the configured product.
+
+7.  Add a blueprint by selecting **Add Blueprint**.
+
+8.  Select the desired blueprint from the available options.
+
+9.  Complete the setup by selecting **Save**.
 
 
 **Related topics**  

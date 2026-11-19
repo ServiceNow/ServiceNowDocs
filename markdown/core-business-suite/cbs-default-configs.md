@@ -1,18 +1,18 @@
 ---
-title: Core Business Suite default configurations
-description: Details of the default configurations for Core Business Suite.
+title: Core Business Suite Foundation default configurations
+description: Details of the default configurations for Core Business Suite Foundation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/cbs-default-configs.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-28"
 reading_time_minutes: 1
-breadcrumb: [Install Core Business Suite, Configure, Core Business Suite]
+breadcrumb: [Install Core Business Suite Foundation, Configure, Core Business Suite]
 ---
 
-# Core Business Suite default configurations
+# Core Business Suite Foundation default configurations
 
-Details of the default configurations for Core Business Suite.
+Details of the default configurations for Core Business Suite Foundation.
 
 These default configurations are applied automatically when Apply default configurations is selected during installation.
 
@@ -26,11 +26,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Global settings
+Now Assist
 
 </td><td>
 
-Configures mandatory global settings that define core Core Business Suite behavior and access.
+Enables the Now Assist Virtual Agent in the Employee center.
 
 </td></tr><tr><td>
 
@@ -43,14 +43,6 @@ Applies default Employee Center settings to establish the Core Business Suite us
 -   Home page – Configures the layout and components of the employee landing page.
 -   Quick links – Provides shortcuts to frequently used tools and resources.
 
-</td></tr><tr><td>
-
-Business unit topic mapping
-
-</td><td>
-
-Configures mappings that route Employee Center requests to the appropriate business units.
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/set-up-cbs.md)
+</table>**Parent Topic:**[Install Core Business Suite Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/set-up-cbs.md)
 

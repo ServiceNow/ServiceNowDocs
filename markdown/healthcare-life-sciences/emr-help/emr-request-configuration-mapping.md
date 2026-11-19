@@ -7,7 +7,7 @@ release: australia
 product: EMR Help
 classification: emr-help
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Data model tables, Reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -18,7 +18,7 @@ The Request configuration mapping \[sn\_ind\_rmt\_help\_defn\_param\_data\_map\]
 
 The Request configuration mapping \[sn\_ind\_rmt\_help\_defn\_param\_data\_map\] table has the following features:
 
--   Extends the Application File \[sys\_metadata\] table that uses the update\_synch dictionary attribute to enable customizations. For more information, see Customizations tracked by update sets.
+-   Extends the Application File \[sys\_metadata\] table that uses the update\_synch dictionary attribute to enable customizations. For more information, see [Customizations tracked by update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/customizations-tracked-update-sets.md).
 -   For a request definition, maps each active request parameter to a specific column in the corresponding request data table.
 
 Role required to configure the table: sn\_ind\_rmt\_help.admin.

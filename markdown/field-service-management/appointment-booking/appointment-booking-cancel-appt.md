@@ -7,7 +7,7 @@ release: australia
 product: Appointment Booking
 classification: appointment-booking
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Managing appointments from a work order or work order task, Managing appointments on behalf of a customer, Managing appointments, Use, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Dispatchers and agents can cancel appointments for customers.
 
 ## Before you begin
 
-Role required: wm\_dispatch, sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
+Role required: wm\_dispatcher, sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 ## About this task
 

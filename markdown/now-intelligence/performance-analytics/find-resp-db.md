@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [what role is needed to see dashboards]
 breadcrumb: [Working with responsive dashboards, Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
@@ -41,7 +41,7 @@ On the Dashboards Overview, each tile contains information about the dashboard i
 
     -   **Recent** shows up to nine dashboards that you have visited recently. The most recent are shown first.
     -   **Owned by me** shows the dashboards that you have created and those dashboards to which you have been assigned ownership.
-    -   **Shared with me** shows the dashboards which have been shared with you as a user, or member of a group or role.
+    -   **Shared with me** shows the dashboards which have been shared with you, a role you have, or a group that you are a member of.
     -   **All** shows all the dashboards that you have access to.
     All tabs except for the Recent tab are sorted in ascending order by:
 

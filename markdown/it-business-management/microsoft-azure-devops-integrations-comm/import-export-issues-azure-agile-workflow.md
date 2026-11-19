@@ -7,7 +7,7 @@ release: australia
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-28"
 reading_time_minutes: 5
 breadcrumb: [Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---

@@ -1,16 +1,16 @@
 ---
-title: Configure a Date filter in the inline editor
+title: Configure a Date filter
 description: Let users select predefined periods or specify custom start and end dates for the data on a dashboard tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-date-filter-workspace.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-11-02"
+reading_time_minutes: 3
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
 
-# Configure a Date filter in the inline editor
+# Configure a Date filter
 
 Let users select predefined periods or specify custom start and end dates for the data on a dashboard tab.
 

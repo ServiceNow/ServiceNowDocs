@@ -7,8 +7,8 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2025-09-25"
+reading_time_minutes: 2
 keywords: [Sentiment Analysis, GenAI Insights, Case Manager Dashboard, Customer Experience, Base system Insights]
 breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -21,14 +21,12 @@ The sentiment analysis dashboard provides a comprehensive view of customer senti
 
 ## Entry Point Widget
 
-The sentiment snapshot widget can be accessed from the CRM Workspace and Workforce Optimization home page. It displays a preview of the dashboard of the sentiment trend over time, using the average sentiment score per day. You can access more detailed information by selecting **View dashboard** and navigate to the details page.
+The sentiment snapshot widget can be accessed from the CSM Configurable Workspace and Workforce Optimization home page. It displays a preview of the dashboard of the sentiment trend over time, using the average sentiment score per day. You can access more detailed information by selecting **View dashboard** and navigate to the details page.
 
 **Note:**
 
 -   The sentiment analysis dashboard can only be managed by customer service managers. The sentiment analysis case skill must be activated so that future cases can pick up sentiment.
 -   The entry point in Core UI to access the sentiment analysis dashboard is **Customer Service ** &gt; **Now Assist Dashboards** &gt; **Sentiment Analysis Dashboard**.
-
-\[Omitted image "sentiment-trends-dashboard.png"\] Alt text: Dashboard showing sentiment trend line chart, sentiment breakdown by channel, and multiple bar charts for negative and positive drivers, assignment groups, escalation impact, and case counts by channel.
 
 ## In-depth View Page – Data Visualizations
 

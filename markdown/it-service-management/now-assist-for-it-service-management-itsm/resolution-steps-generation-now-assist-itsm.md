@@ -1,5 +1,5 @@
 ---
-title: Suggested steps generation in ServiceNow Otto for IT Service Management \(ITSM\)
+title: Generate suggested steps in ServiceNow Otto for IT Service Management \(ITSM\)
 description: Generate suggested steps automatically by analyzing clusters of closed incidents with similar incident resolution in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/resolution-steps-generation-now-assist-itsm.html
@@ -7,13 +7,13 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Suggested steps generation in ServiceNow Otto for IT Service Management \(ITSM\)
+# Generate suggested steps in ServiceNow Otto for IT Service Management \(ITSM\)
 
 Generate suggested steps automatically by analyzing clusters of closed incidents with similar incident resolution in the ServiceNow Otto for IT Service Management \(ITSM\) application.
 
@@ -57,15 +57,15 @@ Data from the short description field and the filter conditions set in the incid
 
     The steps to resolve the incident appear in a **Recommendations** pop-up window in the incident record. This action may take a few minutes.
 
-<table id="choicetable_mpv_t1l_ljc"><thead><tr><th align="left" id="d203947e248">
+<table id="choicetable_mpv_t1l_ljc"><thead><tr><th align="left" id="d199900e248">
 
 If
 
-</th><th align="left" id="d203947e251">
+</th><th align="left" id="d199900e251">
 
 Then
 
-</th></tr></thead><tbody><tr><td id="d203947e257">
+</th></tr></thead><tbody><tr><td id="d199900e257">
 
 **You're using LEAP**
 
@@ -73,7 +73,7 @@ Then
 
 The LEAP Resolution Steps Recommendation will appear.\[Omitted image "now-assist-itsm-recommended-actions-leap.png"\] Alt text: LEAP recommended actions
 
-</td></tr><tr><td id="d203947e274">
+</td></tr><tr><td id="d199900e274">
 
 **You're using Suggested steps**
 

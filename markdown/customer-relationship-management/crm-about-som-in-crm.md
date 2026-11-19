@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-about-som-in-crm.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-28"
 reading_time_minutes: 1
 breadcrumb: [About CRM, Customer Relationship Management]
 ---
@@ -24,7 +24,7 @@ Sales CRM manages the lead-to-cash lifecycle through applications covering lead 
 
 |Connection|Sales CRM role|CSM / FSM role|
 |----------|--------------|--------------|
-|Order case management|Creates order cases when issues arise with an order, such as quantity changes, delivery updates, or billing discrepancies.|CSM provides the case management framework that Sales CRM extends for order-related issues. Service agents handle order cases in CRM Workspace.|
+|Order case management|Creates order cases when issues arise with an order, such as quantity changes, delivery updates, or billing discrepancies.|CSM provides the case management framework that Sales CRM extends for order-related issues. Service agents handle order cases in CSM Configurable Workspace.|
 |Shared customer data|Order, contract, and entitlement data created in Sales CRM is available to service agents without manual synchronization.|CSM maintains the shared customer data model. Agents can see what the customer has ordered and what they are entitled to.|
 |Field service fulfillment|Triggers work order creation in FSM for order types that require on-site installation or configuration.|FSM receives work orders from Sales CRM fulfillment workflows and dispatches technicians to complete the required on-site tasks.|
 

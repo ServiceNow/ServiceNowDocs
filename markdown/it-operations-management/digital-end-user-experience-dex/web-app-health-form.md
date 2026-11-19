@@ -1,20 +1,20 @@
 ---
-title: Web application Performance page
-description: The Performance page for a web application displays engagement metrics and performance metrics, such as sessions and page views, response time, page load time, and failed web requests.
+title: Web application — Performance page
+description: Monitoring application performance helps detect and resolve issues before they affect users. Use performance data to identify bottlenecks, troubleshoot problems, and verify that the application behaves as expected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/web-app-health-form.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Applications list, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
-# Web application Performance page
+# Web application — Performance page
 
-The Performance page for a web application displays engagement metrics and performance metrics, such as sessions and page views, response time, page load time, and failed web requests.
+Monitoring application performance helps detect and resolve issues before they affect users. Use performance data to identify bottlenecks, troubleshoot problems, and verify that the application behaves as expected.
 
 <table id="table_r4m_pkr_bgc"><thead><tr><th>
 
@@ -30,7 +30,7 @@ Started Sessions
 
 </td><td>
 
-Total number of active user sessions for the application over the last 2 hours, specifically the latest 5 minutes.**Note:** Active user sessions information is vital for determining the server load. It also helps you to determine a suitable time for server maintenance.
+Total number of active user sessions for the application over the last 2 hours, specifically the latest 5 minutes.**Note:** Active user sessions information is vital for determining the server load. It also helps you to determine the perfect time for server maintenance.
 
 </td></tr><tr><td>
 
@@ -81,7 +81,7 @@ Average DNS lookup
 
 </td><td>
 
-Average amount of time it takes for a Domain Name System \(DNS\) lookup to be completed during the selected time period.A lower average DNS lookup time is desirable because it contributes to faster web page loading and improved overall internet performance.
+Average amount of time it takes for a Domain Name System \(DNS\) lookup to be completed during the selected time period.A lower average DNS lookup time is desirable, as it contributes to faster web page loading and improved overall internet performance.
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Failed web requests
 
 </td><td>
 
-Set of all requests that either return an error code or an HTTP 408 status code or fail to return a success code during the selected time period.
+Set of all requests that either return an Error Code or an HTTP 408 status code or fail to return a Success Code during the selected time period.
 
 </td></tr><tr><td>
 

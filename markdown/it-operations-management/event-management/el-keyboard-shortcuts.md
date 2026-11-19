@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Reference, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Express List keyboard shortcuts

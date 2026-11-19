@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-07-20"
 reading_time_minutes: 1
 keywords: [Content Insights, AI agent, configure]
-breadcrumb: [Configure, Content Understanding, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Configure, Content Understanding, Enable AI experiences]
 ---
 
 # Configure Content insights AI agent

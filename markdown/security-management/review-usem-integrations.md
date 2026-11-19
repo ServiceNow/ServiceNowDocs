@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/review-usem-integrations.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-16"
-reading_time_minutes: 4
+last_updated: "2026-03-12"
+reading_time_minutes: 5
 breadcrumb: [Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -22,15 +22,14 @@ Navigate to **Workspaces** &gt; **Security Exposure Management** &gt; **Administ
 
 ## Configuring integrations
 
-To configure scanners using unified exposure pipeline, see [Configure a scanner integration using the unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/add-scanner-integration-uep.md).
+You can configure integrations in any of the following ways:
 
-You can also configure scanner integrations or other integrations from ServiceNow Store,
-
-Navigate to **Workspaces** &gt; **Security Exposure Management** &gt; **Administration** and select **Integrations**.
+-   Using the unified exposure pipeline, you can configure scanners. See [Configure a scanner integration using the unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/add-scanner-integration-uep.md).
+-   From ServiceNow Store, you can configure all standard integration applications \(scanners and other integrations\).
 
 ## Reviewing integrations
 
-After navigating to the Integrations dashboard, select **Review** for the required integration.
+Navigate to **Workspaces** &gt; **Security Exposure Management** &gt; **Administration** &gt; **Integrations** and select **Review** for the required integration.
 
 <table id="table_n43_yv4_mbc"><thead><tr><th>
 
@@ -50,7 +49,7 @@ Integration runs
 
 </td><td>
 
-Vertical Bar\[Omitted image "trend.svg"\] Alt text: Bar
+Vertical Bar
 
 </td><td>
 
@@ -85,7 +84,7 @@ Multiple lines
 
 </td><td>
 
-Provides performance metrics for assignment rules, remediation task rules, CI lookup time, risk rules, and VI creation time for the last 30 days, to identify the cause for any deviations in performance. The performance is calculated based on the time taken for each activity. These parameters are calculated and associated at the integration run level. Each parameter is color coded for easy identification.**Note:** It is not displayed for centralized scanner integrations.
+Provides performance metrics for assignment rules, remediation task rules, CI lookup time, risk rules, and VI creation time for the last 30 days, to identify the cause for any deviations in performance. The performance is calculated based on the time taken for each activity. These parameters are calculated and associated at the integration run level. Each parameter is color coded for easy identification.**Note:** It is not displayed for scanner integrations configured using the unified exposure pipeline.
 
 </td></tr><tr><td>
 
@@ -109,7 +108,7 @@ List
 
 </td><td>
 
-Provides information about the fetch and normalization runs of the integration.**Note:** It is displayed only for centralized scanner integrations.
+Provides information about the fetch and normalization runs of the integration.**Note:** It is displayed only for scanner integrations configured using the unified exposure pipeline.
 
 </td></tr></tbody>
 </table>**Note:** Multiple factors can impact the performance of the integration run, like the amount of data and time taken to process this data.
@@ -144,4 +143,9 @@ During integration execution, multiple processes are generated, and data is rece
 
 -   sn\_sec\_cmn.record\_threshold\_heartbeat: Defines the number of processed records, after which the heartbeat \(timestamp\) is sent to the import queue entry.
 -   sn\_sec\_cmn.maximum\_heartbeat\_delay: Defines the time after which the import queue entry must be timed out.
+
+-   **[Configure a scanner integration using the unified exposure pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/add-scanner-integration-uep.md)**  
+For a scanner, normalize assets, labels, and detections into one consistent format before this data reaches Unified Security Exposure Management.
+
+**Parent Topic:**[Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/integrating-usem.md)
 

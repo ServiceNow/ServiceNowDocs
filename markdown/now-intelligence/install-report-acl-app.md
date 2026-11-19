@@ -16,7 +16,7 @@ The ACL Assessment for Data Visualizations enables you to identify users that do
 
 ## Before you begin
 
-Your Brazil instance must be on Brazil Patch 2 or later.
+Your Australia instance must be on Australia Patch 8 or later.
 
 Roles required: admin and security\_admin.
 

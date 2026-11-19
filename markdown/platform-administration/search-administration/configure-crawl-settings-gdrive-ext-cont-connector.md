@@ -7,8 +7,8 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-11-06"
+reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Google Drive external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -43,7 +43,7 @@ When a connector's indexed content item count exceeds 800,000, a warning message
 
 External content connectors that support user permissions crawls can handle permissions for up to five hundred thousand \(500,000\) users and their groups. If a connector retrieves users in excess of this limit, user and group permissions may not be correctly applied to the connector's retrieved content. As a result, the content may not be searchable.
 
-If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. If you need to index more content items than the limit allows, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
+If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. If you need to index more content items than the limit allows, you can create a Customer Service and Support case at [https://support.servicenow.com/now?draw=case](https://support.servicenow.com/now?draw=case) to request a limit increase for the connector.
 
 ## Procedure
 
@@ -53,7 +53,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 3.  In the connector editor's **Settings** tab, select **Crawl settings**.
 
-4.  Select one of the following **Content filtering** options:
+4.  Select one of the following **Content** options:
 
     -   To crawl all eligible shared drives from the source system, select **Crawl all content**.
     -   To crawl only a specified set of eligible shared drives from the source system, select **Include only these drives**, then use the **Add URL** field and **Add** button to enter URLs for shared drives that you want to include in the crawl.
@@ -64,7 +64,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
         For example, you might enter `https://drive.google.com/drive/folders/X5pOsb29NYITGMZMGEq` to exclude searchable content from the specified shared drive.
 
-5.  Select one of the following **Attachment filtering** options:
+5.  Select one of the following **Attachments** options:
 
     -   To retrieve all attachments with supported file extensions from the source system, select **Crawl all attachments**.
     -   To retrieve only attachments with specified file extensions from the source system, select **Include only these file extensions**, then use the **File extensions to include** field to enter attachment file extensions you want the connector to include when crawling.
@@ -84,8 +84,12 @@ If one of your connectors reaches the content indexing limit, you can update its
     This option is only available when the Platform Multimodal Service plugin is activated on your instance.
 
     -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
-    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
-7.  Select **Save**.
+    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning with AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
+7.  To enable filtering of Google Drive content by label, select **Crawl labels for Google Drive content**.
+
+    Filtering your Google Drive content by label makes the connector only retrieve content that has one or more of your specified labels applied. Use this feature to exert fine grained control over the documents retrieved by content crawls. To learn more about filtering by label, see [Filter content by label for a Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/filter-content-label-google-drive-external-content-connector.md).
+
+8.  Select **Save**.
 
 
 ## Result

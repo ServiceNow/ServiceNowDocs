@@ -56,11 +56,11 @@ One or more customer resource is requested. The specific number of resources pro
 |System Administrators|Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.|✓| |
 |Trusted Service Partners|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
 
-## Requested Information/Access
+## Requested information / access
 
-**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+Refer to the applicable Impact Accelerator description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
 ## Exclusions
 
-ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
+ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
 

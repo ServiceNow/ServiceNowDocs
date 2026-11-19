@@ -7,8 +7,8 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-08-12"
+reading_time_minutes: 3
 breadcrumb: [Installing Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -17,6 +17,8 @@ breadcrumb: [Installing Hardware Asset Management, Configure, Hardware Asset Man
 Product Hub provides a single location to install, update, and manage HAM applications and plugins.
 
 The Product Hub gives administrators a single starting point to install Hardware Asset Management and additional applications, and configure them using the Configuration Console.
+
+**Important:** Product Hub and Configuration Console are available starting from Hardware Asset Management version 16.0.0 \(Australia Patch 6\).
 
 ## Key benefits
 
@@ -34,10 +36,10 @@ Access to Product Hub requires one of two granular roles, which a system adminis
 
 |Role|Access level|
 |----|------------|
-|ia\_admin|Full access: install, update, and manage HAM applications and plugins|
-|ia\_user|View-only access: browse Product Hub but can't install applications|
+|sn\_ia\_config.ia\_admin|Full access: install, update, and manage HAM applications and plugins|
+|sn\_ia\_config.ia\_user|View-only access: browse Product Hub but can't install applications|
 
-**Note:** System administrators have access to Product hub by default. A system administrator must grant ia\_admin or ia\_user role to other users based on the access level required.
+**Note:** System administrators have access to Product hub by default. A system administrator must grant sn\_ia\_config.ia\_admin or sn\_ia\_config.ia\_user role to other users based on the access level required.
 
 ## How it works
 
@@ -70,4 +72,9 @@ Product Hub is accessible from the Admin Home page through the **Hardware Asset 
 Install the Hardware Asset Management application on your ServiceNow instance from Product Hub based on your subscription tier.
 
 **Parent Topic:**[Installing Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/installing-ham-app.md)
+
+**Related topics**  
+
+
+[Install Hardware Asset Management from the ServiceNow Store]()
 

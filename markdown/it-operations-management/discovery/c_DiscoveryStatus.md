@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -20,7 +20,7 @@ The Discovery status provides a summary of a Discovery launched from a schedule.
 
 To access the Discovery Status form, navigate to **Discovery** &gt; **Status** and open the status record for a Discovery.
 
-Each record in the Status list represents the execution of a Discovery by a schedule. It displays high-level information such as the date of the Discovery, the mode, the number of probe messages sent to devices, and the number of sensor records that were processed. A status record contains data that can help you troubleshoot a failed discovery. Use this data to troubleshoot the behavior of individual probes and sensors or even run those elements separately. Use the status controls to enter probe/sensor threads at any point for a specific Discovery, and then follow the process in either direction. You can also clearly see which classification probe ran and discovered a particular device by viewing the classification probe column in the device list.
+Each record in the Status list represents the execution of a Discovery by a schedule. It displays high-level information such as the date of the Discovery and the mode. It also shows the number of probe messages sent to devices and the number of sensor records processed. A status record contains data that can help you troubleshoot a failed discovery. Use this data to troubleshoot the behavior of individual probes and sensors or even run those elements separately. Use the status controls to enter probe/sensor threads at any point for a specific Discovery, and then follow the process in either direction. You can also clearly see which classification probe ran and discovered a particular device by viewing the classification probe column in the device list.
 
 -   **Refresh**: Refreshes the related tabs, including the **Discovery Log** and **ECC Queue** for discoveries still in progress.
 -   **Discovery timeline**: The Discovery timeline is a graphical display of a discovery, including information about each probe and sensor that was used.
@@ -126,8 +126,8 @@ Indicates that state changes were logged during this Discovery. These states can
 You can manually cancel a discovery while it is in progress from the Discovery Status record.
 -   **[Discovery timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/c_DiscoveryStatusTimelines.md)**  
 A Discovery timeline generates a graphical display of a Discovery Status record, including information about each probe and sensor that was used in the discovery.
--   **[ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)**  
-The External Communication Channel \(ECC\) queue is a connection point between your ServiceNow instance and other systems that integrate with it, most commonly a MID Server.
+-   **[The ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)**  
+The External Communication Channel \(ECC\) Queue is a connection point between your ServiceNow instance and other systems that integrate with it, most commonly a MID Server.
 -   **[Discovery device history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_DiscoveryStatusDevices.md)**  
 The **Devices** Related list in the Discovery Status form provides a summary list of all the devices scanned.
 

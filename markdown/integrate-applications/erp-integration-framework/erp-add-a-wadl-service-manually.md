@@ -86,3 +86,5 @@ The service is added and its entities and fields are generated from the schema d
 
 Map the generated input and output fields for the operation. For more information, see [Manage input parameters for model operation with a REST entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-manage-model-inputs-rest.md).
 
+**Parent Topic:**[Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md)
+

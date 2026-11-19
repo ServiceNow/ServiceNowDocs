@@ -7,7 +7,7 @@ release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Creating a cloud account, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -24,9 +24,9 @@ Role required: sn\_itom\_cam.cw\_requester
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Cloud Workspace** &gt; **Manage and Configure** &gt; **Requests** &gt; **All requests**.
+1.  Navigate to **All** &gt; **Cloud Workspace**.
 
-2.  Select **Create new request**.
+2.  From the Home page, select **Request**.
 
 3.  On the Request new cloud account form, fill in the fields.
 
@@ -36,6 +36,4 @@ Role required: sn\_itom\_cam.cw\_requester
 
 4.  Select **Submit**.
 
-
-**Parent Topic:**[Creating a cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/creating-an-account.md)
 

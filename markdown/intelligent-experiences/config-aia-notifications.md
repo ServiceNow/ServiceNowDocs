@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/config-aia-notifications.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-10-27"
 reading_time_minutes: 1
-breadcrumb: [Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Configure, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Add recipients to usage spike, execution failure, and latency error email notifications

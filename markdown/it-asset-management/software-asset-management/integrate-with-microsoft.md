@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 11
 breadcrumb: [Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -183,19 +183,19 @@ Manage Microsoft 365 license compliance and optimization by performing the follo
 
     Configure your Software Asset Management \(SAM\) application, which includes setting up user accounts, managing licenses, and confirming compliance with Microsoft's software usage policies.
 
-    1.  [Register application on Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/register-microsoft-app.md)
+    1.  [Register application on Microsoft Entra ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/register-microsoft-app.md)
 
         Register an application on Microsoft Entra ID \(formerly Azure Active Directory\) that enables the retrieval of all subscriptions provisioned in the Microsoft 365 admin center.
 
-    2.  [Configure Power BI usage to get usage information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/enable-service-principal-authentication-microsoft.md)
+    2.  [Configure Power BI usage to get usage information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/enable-service-principal-authentication-microsoft.md)
 
         Enable service principal authentication for Power BI read-only APIs to enable your application access to Power BI service content and APIs. This access helps optimize your Microsoft 365 subscriptions, such as downgrading subscriptions from Office 365 E5 to Office 365 E3 or removing Power BI low-usage subscriptions​.
 
-    3.  [Prevent anonymous user information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/conf-update-micro-admin.md)
+    3.  [Prevent anonymous user information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/conf-update-micro-admin.md)
 
         By default, Microsoft hides the user names of subscribers in the Microsoft 365 Admin Center, preventing ServiceNow from accurately tracking Microsoft 365 license usage. To resolve this issue, disable this anonymization feature in the Microsoft 365 Admin Center.
 
-    4.  [Set up a Microsoft 365 integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/set-up-microsoft-office-365.md)
+    4.  [Set up a Microsoft 365 integration profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/set-up-microsoft-office-365.md)
 
         Create a Microsoft 365 integration profile in the Software Asset Management application to import user subscription data, determine license compliance, and identify optimization opportunities. If you manage multiple tenants, create a separate integration profile for each.
 

@@ -1,18 +1,18 @@
 ---
 title: Demand form
-description: Learn about the fields on the Demand form. Use this form to create or edit a demand from the Prioritize page in AI Control Tower.
+description: Learn about the fields on the Demand form. Use this form to create or edit a demand from the Prioritize page in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-plan-demand-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-04-29"
 reading_time_minutes: 12
-breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Reference, Plan AI strategy, prioritize, and execute, Plan your AI strategy, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Demand form
 
-Learn about the fields on the Demand form. Use this form to create or edit a demand from the Prioritize page in AI Control Tower.
+Learn about the fields on the Demand form. Use this form to create or edit a demand from the Prioritize page in Control Tower.
 
 <table id="table_olx_smf_cp"><thead><tr><th>
 
@@ -142,7 +142,7 @@ The preliminary or estimated date when the work is initially planned to begin. T
 This date is changed to **Planned start date** when the demand is converted to a project.**Note:**
 
 -   When you change the planned start date of a demand or project, the associated cost plans and resource assignments also change. The **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property controls the behavior for a demand date change. This property isn't enabled by default.
--   The **Start date** column label is changed to **Planned start date**. This change is applicable only for new customers who begin using the Brazil version. If you're upgrading to the Brazil release from an earlier release, you will continue to see the prior labels.
+-   The **Start date** column label is changed to **Planned start date**. This change is applicable only for new customers who begin using the Australia version. If you're upgrading to the Australia release from an earlier release, you will continue to see the prior labels.
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ The preliminary or estimated date when the planned work is expected to be comple
 
 **Note:**
 
--   The **Due date** column label is changed to **Planned end date**. This change is applicable only for new customers who begin using the Brazil version. If you're upgrading to the Brazil release from an earlier release, you will continue to see the prior labels.
+-   The **Due date** column label is changed to **Planned end date**. This change is applicable only for new customers who begin using the Australia version. If you're upgrading to the Australia release from an earlier release, you will continue to see the prior labels.
 -   This date is changed to **Planned end date** when the demand is converted to a project.
 
 </td></tr><tr><td>

@@ -7,7 +7,7 @@ release: australia
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -93,7 +93,7 @@ After making their changes, users can save the updated case, which makes the fol
 
 [Create a Workplace task template]()
 
-[Smart Assessment for Workplace Case and Task]()
+[Smart Assessment for workplace cases and tasks]()
 
 [Automating seat assignment for new hires]()
 

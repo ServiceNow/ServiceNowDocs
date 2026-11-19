@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/mysql-authentication-method-fields-zcc.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-27"
 reading_time_minutes: 1
 keywords: [MySQL, authentication, zero copy connector]
-breadcrumb: [Reference, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Connection form fields, Reference, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # MySQL authentication method fields
@@ -42,7 +42,7 @@ Fields that appear on the New MySQL Connection form depending on the selected au
 |Azure client secret|Client secret for the Azure AD service principal. Required.|
 |Azure token scope|OAuth scope requested for the Azure AD token. Not required.|
 
-**Parent Topic:**[Zero Copy Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/reference-zcc.md)
+**Parent Topic:**[Connection form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connection-form-fields-zcc.md)
 
 **Related topics**  
 

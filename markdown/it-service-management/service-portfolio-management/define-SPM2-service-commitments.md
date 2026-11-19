@@ -7,7 +7,7 @@ release: australia
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2026-10-22"
+last_updated: "2026-10-19"
 reading_time_minutes: 3
 breadcrumb: [Service offerings in Service Portfolio Management, Use, Service Portfolio Management, IT Service Management]
 ---
@@ -34,17 +34,17 @@ To create service commitments, each service needs at least one associated servic
 
 2.  Open a service offering record.
 
-3.  In the Service Commitments related list, select **New**.
+3.  In the Service Commitments related links, select **New**.
 
-4.  \[Omitted image "spm2-offering-service-commitments-list.png"\] Alt text: Related links include Service Commitments.
+    \[Omitted image "spm2-offering-service-commitments-list.png"\] Alt text: Service Commitments related list on a service offering.
 
-5.  Give the commitment a descriptive name.
+4.  Give the commitment a descriptive name.
 
-    You can specify any kind of service.
+    For example, a common descriptive name is "99.9% 24x7." You can specify any kind of service.
 
-6.  Select the **Type** of commitment from the list.
+5.  Select the **Type** of commitment from the list.
 
-<table id="choicetable_zjg_yyd_d1b"><tbody><tr><td id="d87541e139">
+<table id="choicetable_zjg_yyd_d1b"><tbody><tr><td id="d85280e153">
 
 **Availability or Maintenance Window**
 
@@ -52,15 +52,15 @@ To create service commitments, each service needs at least one associated servic
 
 Used in system processing. If you select **Maintenance Window**, the **Schedule** field is required. Creates Availability records for the service offering based on the outages for that offering. If an Availability commitment exists, when an Outage is created against a service offering with the Availability commitment, it will begin tracking down time and availability.
 
-</td></tr><tr><td id="d87541e157">
+</td></tr><tr><td id="d85280e171">
 
 **Response Time, Delivery or Other**
 
 </td><td>
 
-Display additional information in the service catalog. This information details the type of service commitment the user may expect from a given service offering. These service commitment types don't provide additional functionality or a homepage gauge.
+Display additional information in the service catalog. This information details the type of service commitment the user may expect from a given service offering. These service commitment types do not provide additional functionality or a homepage gauge.
 
-</td></tr><tr><td id="d87541e166">
+</td></tr><tr><td id="d85280e180">
 
 **Recovery time objective**
 
@@ -68,7 +68,7 @@ Display additional information in the service catalog. This information details 
 
 Guarantee of how long it takes to recover the system from the recovery point. Set the recovery time in the **Time Amount** field that appears when you select this commitment type. This field is available with vendor ticketing.**Note:** These service commitment types don't provide additional functionality or a homepage gauge.
 
-</td></tr><tr><td id="d87541e181">
+</td></tr><tr><td id="d85280e195">
 
 **Recovery point objective**
 
@@ -76,7 +76,7 @@ Guarantee of how long it takes to recover the system from the recovery point. Se
 
 Guarantee of how often backups are performed. Set the backup interval in the **Time amount** field that appears when you select this commitment type. This field is available with vendor ticketing.**Note:** These service commitment types don't provide additional functionality or a homepage gauge.
 
-</td></tr><tr><td id="d87541e196">
+</td></tr><tr><td id="d85280e210">
 
 **SLA**
 
@@ -85,24 +85,26 @@ Guarantee of how often backups are performed. Set the backup interval in the **T
 Allows commitments defined by a service level agreement \(SLA\) that tracks whether a vendor provides a level of service for a defined percentage of the time. The SLA results are calculated automatically and can be viewed on the My Services - SLAs homepage or by navigating to **Services** &gt; **Service Offering SLAs** &gt; **SLA Results**.
 
 </td></tr></tbody>
-</table>7.  Select a **Contract** for this service commitment.
+</table>6.  Select a **Contract** for this service commitment.
 
     This information is used when creating vendor credit records.
 
-    **Tip:** If you don't see task \(SLAs for incidents related to service commitments\), then contact your Administrator. When **Contract** is entered in the Reference field of the incident, then the Use reference qualifier field should be set to **Advanced**, and the global business rule **contractFilter** must be entered in the **Reference qual** field.
+    **Tip:** If you don't see the Contracts \(SLAs for incidents related to service commitments\), then contact your Administrator. When **Contract** is entered in the Reference field of the incident, then the Use reference qualifier field should be set to **Advanced**, and the global business rule **contractFilter** must be entered in the **Reference qual** field.
 
-8.  Enter the information to calculate credit owed by the vendor for any contract breaches.
+7.  Enter the information to calculate credit owed by the vendor for any contract breaches.
 
     These fields are available with vendor ticketing:
 
     -   **Breach penalty amount**: Amount assessed per unit of time for a breach.
     -   **Per**: Unit of time used to calculate the total credit owed for a breach.
     -   **Breach penalty time**: Amount of free time provided by the vendor per breach.
-9.  Complete the form and select **Submit**.
+8.  Complete the form and select **Submit**.
 
-    \[Omitted image "spm2-commitment-record-form.png"\] Alt text: Commitment record form.The Service Offering form opens, and the new commitment appears in the Service Commitment related list.
+    \[Omitted image "spm2-commitment-record-form.png"\] Alt text: Service commitment form for a 99.9% availability commitment, showing Type, Percentage avail, and breach penalty fields.
 
-10. Select **New** to add another service commitment or select **Edit** to add an existing commitment to this offering.
+    The Service Offering form opens, and the new commitment appears in the Service Commitment related list.
+
+9.  Select **New** to add another service commitment or select **Edit** to add an existing commitment to this offering.
 
 
 **Parent Topic:**[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-portfolio-management/SPM2-service-offerings.md)

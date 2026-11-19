@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/install-autonomous-engineer.html
 release: australia
 topic_type: task
-last_updated: "2026-10-15"
+last_updated: "2026-11-09"
 reading_time_minutes: 1
 keywords: [Autonomous Engineer, install, setup, ServiceNow Studio, Build Agent, agent packs]
 audience: programmer
-breadcrumb: [Configure, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Configure, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Install Autonomous Engineer
@@ -42,20 +42,20 @@ For instructions on installing ServiceNow products from the ServiceNow Store, se
 
     Autonomous Engineer and Build Agent are installed on your instance.
 
-5.  Enable the Autonomous Engineer skills:
+5.  Enable the Autonomous Engineer skill:
 
     1.  Navigate to **All** &gt; **AI Admin Hub****Skills**.
 
     2.  Select the **Creator** tab.
 
-    3.  Locate Autonomous Engineer prompt, Autonomous Engineer work item creation, and Autonomous Engineer work item execution in the skills list and select **Turn on** for each of them.
+    3.  Locate Autonomous Engineer in the skills list and select **Turn on**.
 
-    The skills are enabled for all admin users.
+    The skill is enabled for all admin users.
 
 
 ## What to do next
 
-After installing Autonomous Engineer, install the agent pack for the product domain you plan to implement. For more information, see [Agent packs for Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
+You don't need to install agent packs. Agent packs ship as part of each release, and Autonomous Engineer activates the right pack when it needs it. For more information, see [Agent packs for Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 **Parent Topic:**[Configure Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configure-autonomous-engineer.md)
 

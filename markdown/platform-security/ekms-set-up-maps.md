@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/ekms-set-up-maps.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-02"
 reading_time_minutes: 2
 breadcrumb: [Configuring External Key Management Service, External Key Management Service, Field Encryption, Encryption]
 ---
@@ -16,7 +16,7 @@ Configure module access policies in External Key Management Service \(EKMS\) to 
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_kmf.admin or sn\_kmf.cryptographic\_manager
 
 Confirm that you have:
 
@@ -25,13 +25,15 @@ Confirm that you have:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Enterprise** &gt; **Configurations** &gt; **Access Policies**.
+1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience** &gt; **Configurations** &gt; **Access Policies**.
 
     **Note:** For additional information, refer to [Configure module access policies for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/create-module-access-policy.md).
 
-2.  Select **Configure**.
+2.  Select **Create New**.
 
-3.  Complete the Module Access Policy \(MAP\) form.
+3.  Select **Configure**.
+
+4.  Complete the Module Access Policy \(MAP\) form.
 
 <table id="table_w2n_qfy_j3c"><thead><tr><th>
 
@@ -106,7 +108,9 @@ Select one of the following:-   **StrictReject** rejects access under all circum
 
 
 </td></tr></tbody>
-</table>
+</table>    \[Omitted image "ekms-create-map-track-ui.png"\] Alt text: Example of completed MAP form.
+
+
 ## Result
 
 The Module Access Policy for the script is available in the system.

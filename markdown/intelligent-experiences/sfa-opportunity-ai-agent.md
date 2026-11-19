@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-05"
 reading_time_minutes: 2
-breadcrumb: [Sales Automation AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Sales Automation AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Opportunity AI agent
@@ -26,7 +26,7 @@ The agent helps users manage opportunities and their related records through nat
 6.  Apply changes to touchpoints, opportunity tasks, competitors, associated contacts, and meetings directly.
 7.  Report the result, including the reason for any failure, and provide up to three next steps the user can take.
 
-<table><thead><tr><th>
+<table id="table_gfn_wv5_5kc"><thead><tr><th>
 
 Field
 

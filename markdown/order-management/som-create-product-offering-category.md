@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-create-product-offering-category.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -18,13 +18,9 @@ Define a product offering category used to organize similar product offerings in
 
 Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_catalog\_manager
 
-## About this task
-
-**Note:** Creating a product offering category and associating it to the product offering is required for validating product offerings before publishing them using the In Test and Staged intermediate life cycle states. For more information on the life cycle states, see [Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/extended-product-lifecycle-states.md).
-
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Offerings** &gt; **Product Offering Categories**.
 
@@ -132,13 +128,7 @@ Product code for the category. The system automatically generates a code based o
 
     1.  In the Catalogs tab, select **New**.
 
-    2.  In the Catalog Category form, select the published Catalog to which this category belongs.
-
-    3.  Control where the category appears relative to the catalog's other categories by entering a value in the **Order** field.
-
-        If left empty, the categories are sorted alphabetically with other unordered categories in this catalog.
-
-    4.  Select **Save**.
+    2.  In the Catalog Category form, select the published Catalog to which this category belongs and select **Save**.
 
 7.  In the Details tab for the category, select **Publish**.
 

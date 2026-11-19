@@ -7,7 +7,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
@@ -42,15 +42,15 @@ The Cloud cost summarizer generative AI skill generates comprehensive summary of
 
 5.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d108557e136">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d108527e136">
 
 Action
 
-</th><th align="left" id="d108557e139">
+</th><th align="left" id="d108527e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d108557e145">
+</th></tr></thead><tbody><tr><td id="d108527e145">
 
 **Copy to clipboard icon**
 
@@ -58,7 +58,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d108557e154">
+</td></tr><tr><td id="d108527e154">
 
 **Refresh icon**
 
@@ -66,7 +66,7 @@ Copies the summary to a clipboard.
 
 Regenerates the publisher summary.
 
-</td></tr><tr><td id="d108557e163">
+</td></tr><tr><td id="d108527e163">
 
 **Feedback**
 

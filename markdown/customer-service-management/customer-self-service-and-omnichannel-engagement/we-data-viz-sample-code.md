@@ -1,6 +1,6 @@
 ---
 title: Sample code for the Data visualization component
-description: Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
+description: Use this sample code to run an action when the Data visualization component triggers an event.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-data-viz-sample-code.html
 release: australia
@@ -14,9 +14,11 @@ breadcrumb: [Data visualization component, Configure web components, Configure W
 
 # Sample code for the Data visualization component
 
-Sample code is provided to define an action when an event is triggered. Update the sample code for your use case before embedding the component on your webpage.
+Use this sample code to run an action when the Data visualization component triggers an event.
 
 ## Sample code
+
+Update the sample code for your use case before embedding the component on your webpage.
 
 ```
 { 
@@ -49,7 +51,7 @@ var {title, type, params, data} = e.detail.payload;
 
 console.log(title, type, params, data); 
 
-}
+}}
 ```
 
 **Related topics**  

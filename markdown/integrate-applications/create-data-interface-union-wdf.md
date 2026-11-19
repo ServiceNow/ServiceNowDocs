@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-data-interface-union-wdf.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-26"
 reading_time_minutes: 3
 breadcrumb: [Managing data interfaces, Data Products, Workflow Data Fabric]
 ---

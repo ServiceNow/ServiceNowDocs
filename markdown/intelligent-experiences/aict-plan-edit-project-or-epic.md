@@ -1,19 +1,19 @@
 ---
-title: Edit a project or epic in AI Control Tower
-description: Update the details of a project or epic from the Execute page in AI Control Tower to reflect changes in scope, state, priority, or other information.
+title: Edit a project or epic in Control Tower
+description: Update the details of a project or epic from the Execute page in Control Tower to reflect changes in scope, state, priority, or other information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-plan-edit-project-or-epic.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-28"
 reading_time_minutes: 1
 keywords: [edit project, edit epic, update project, update epic, Execute, AI Plan]
-breadcrumb: [Monitor AI Plan execution, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Monitor AI Plan execution, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Edit a project or epic in AI Control Tower
+# Edit a project or epic in Control Tower
 
-Update the details of a project or epic from the Execute page in AI Control Tower to reflect changes in scope, state, priority, or other information.
+Update the details of a project or epic from the Execute page in Control Tower to reflect changes in scope, state, priority, or other information.
 
 ## Before you begin
 
@@ -21,7 +21,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home 2.0**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home 2.0**.
 
 2.  Navigate to **Plan** &gt; **Execute**.
 

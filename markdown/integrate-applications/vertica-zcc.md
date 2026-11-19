@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/vertica-zcc.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Community connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Community connectors, Manage zero copy connections, Zero Copy Conne
 The OpenText Analytics Database \(Vertica\) connector provides read-only access to data and metadata from an OpenText Analytics Database \(Vertica\) database.
 
 A connection admin can create a connection to an OpenText Analytics Database \(Vertica\) database and give data stewards access to that connection in Zero Copy Connector Hub. A data steward can select the established connection to create a data fabric table and map data from the OpenText Analytics Database \(Vertica\). This allows users to retrieve external data through the table list view or GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md).
+
+**Note:**
+
+This connector is available starting with Yokohama patch 5.
 
 **Related topics**  
 

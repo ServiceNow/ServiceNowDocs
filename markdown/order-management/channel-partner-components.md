@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/channel-partner-components.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relation
 
 View the various components on the channel partner form to get a consolidated overview of all the entities associated with the channel partner.
 
-<table id="table_cpb_tg5_kkc"><thead><tr><th>
+<table id="table_cyc_v5f_zfc"><thead><tr><th>
 
 UI component
 
@@ -24,15 +24,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Business Profile
-
-</td><td>
-
-Details associated with the channel partner.To learn more information about the details, see .
-
-</td></tr><tr><td>
-
-Channel Partner Company Info
+Partner Overview
 
 </td><td>
 
@@ -42,19 +34,75 @@ Information associated with the channel partner. You can view the following info
 
 </td></tr><tr><td>
 
-Company Address
+Details
 
 </td><td>
 
-Address of the company
+Details associated with the channel partner.To learn more information about the details, see [Create Channel Partner record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-channel-partner-record.md).
 
 </td></tr><tr><td>
 
-Notes
+Members
 
 </td><td>
 
-Work notes
+Members associated with the channel partner.
+
+</td></tr><tr><td>
+
+Cases
+
+</td><td>
+
+Cases associated with the channel partner.
+
+</td></tr><tr><td>
+
+Partnerships
+
+</td><td>
+
+Partnerships between the channel partner and partner program.
+
+</td></tr><tr><td>
+
+Child Channel Partners
+
+</td><td>
+
+Channel partners that have the current channel partner as their parent.
+
+</td></tr><tr><td>
+
+Install Base Items
+
+</td><td>
+
+Install base items associated with the channel partner.
+
+</td></tr><tr><td>
+
+Deal registrations
+
+</td><td>
+
+Deal registrations associated with the channel partner.
+
+</td></tr><tr><td>
+
+Opportunities
+
+</td><td>
+
+Opportunities associated with the channel partner.
+
+</td></tr><tr><td>
+
+Quotes
+
+</td><td>
+
+Quotes associated with the channel partner.
 
 </td></tr><tr><td>
 
@@ -62,22 +110,8 @@ Register Partner Staff
 
 </td><td>
 
-Register staff to an enterprise.To learn more about registering partner staff, see .
+Register staff to an enterprise. To learn more about registering partner staff, see [Register Partner Staff on workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/register-partner-staff-on-workspace.md).
 
 </td></tr></tbody>
-</table>|UI component|Description|
-|------------|-----------|
-|Members|Members associated with the channel partner.|
-|Cases|Cases associated with the channel partner.|
-|Partnerships|Partnerships between the channel partner and partner program.|
-|Child Channel Partners|Channel partners that have the current channel partner as their parent.|
-|Sold Products|Products and services that have been sold to an account or a consumer. A sold product can have child and parent sold items in a hierarchical structure.|
-|Install Base Items|Install base items associated with the channel partner.|
-|Deal registrations|Deal registrations associated with the channel partner.|
-|Opportunities|Opportunities associated with the channel partner.|
-|Quotes|Quotes associated with the channel partner.|
-|Customer Orders| |
-|Partner Criteria|Filtering rules for accounts and consumers that partners can access when raising deals, orders, quotes, and opportunities.|
-
-**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management-reference.md)
+</table>**Parent Topic:**[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management-reference.md)
 

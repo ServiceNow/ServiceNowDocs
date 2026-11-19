@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ae-resiliency.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-08"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 keywords: [Autonomous Engineer, resiliency, stuck agent, automatic retry, background agents, work items, execution]
 audience: programmer
-breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Overview, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Resilience in Autonomous Engineer

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/spo-procurement-request-tracking-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-14"
 reading_time_minutes: 2
-breadcrumb: [Sourcing and Procurement Operations AI agents, Sourcing and Procurement Operations, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Sourcing and Procurement Operations AI agents, Sourcing and Procurement Operations, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Procurement request tracking AI agent
@@ -104,7 +104,7 @@ Used in agentic workflows
 
 </td><td>
 
-Conversational intake for sourcing and procurement
+Help fulfill procurement requests
 
 </td></tr></tbody>
 </table>Learn more about Sourcing and Procurement Operations at [Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/psm-overview.md).

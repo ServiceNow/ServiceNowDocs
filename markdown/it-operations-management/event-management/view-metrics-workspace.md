@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Respond to alerts, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View metrics for an alert
@@ -51,6 +51,8 @@ Role required: evt\_mgmt\_admin
 
 7.  Click the **Insights Explorer** button to view metrics by dragging and dropping them onto a timeline.
 
+
+**Parent Topic:**[Responding to and working with alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/responding-to-and-working-with-alerts-in-express-list.md)
 
 **Related topics**  
 

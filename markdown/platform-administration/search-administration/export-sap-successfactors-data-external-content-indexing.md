@@ -1,13 +1,13 @@
 ---
 title: Export SAP SuccessFactors Learning data for external content indexing
-description: Export user, library and assignment, and training item data from your SAP SuccessFactors Learning environment. The SAP SuccessFactors external content connector needs this exported data to index your content and user permissions for search.
+description: Export user, library and assignment, and training item data from your SAP SuccessFactors Learning environment. The SAP SuccessFactors external content connector needs this exported data to index your content, users, and access permissions for search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/export-sap-successfactors-data-external-content-indexing.html
 release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-09"
 reading_time_minutes: 7
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [SAP SuccessFactors external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -15,7 +15,7 @@ breadcrumb: [SAP SuccessFactors external content connector, Configure, External 
 
 # Export SAP SuccessFactors Learning data for external content indexing
 
-Export user, library and assignment, and training item data from your SAP SuccessFactors Learning environment. The SAP SuccessFactors external content connector needs this exported data to index your content and user permissions for search.
+Export user, library and assignment, and training item data from your SAP SuccessFactors Learning environment. The SAP SuccessFactors external content connector needs this exported data to index your content, users, and access permissions for search.
 
 ## Before you begin
 

@@ -1,26 +1,26 @@
 ---
 title: Customization vs configuration with ServiceNow Studio
-description: There are important differences between customizing and configuring ServiceNow applications. The ServiceNow platform is built to embrace customization and configuration, but how you do so can have significant impacts on ServiceNow support, upgrading to future ServiceNow platform versions, and the functionality of the ServiceNow platform.
+description: Understand the differences between customizing and configuring ServiceNow applications. The ServiceNow platform supports both customization and configuration. How you do so can significantly affect ServiceNow support, upgrading to future ServiceNow platform versions, and the functionality of the ServiceNow platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/servicenow-studio-classic/sn-studio-custom-vs-config.html
 release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 10
-breadcrumb: [Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Customization vs configuration with ServiceNow Studio
 
-There are important differences between customizing and configuring ServiceNow applications. The ServiceNow platform is built to embrace customization and configuration, but how you do so can have significant impacts on ServiceNow support, upgrading to future ServiceNow platform versions, and the functionality of the ServiceNow platform.
+Understand the differences between customizing and configuring ServiceNow applications. The ServiceNow platform supports both customization and configuration. How you do so can significantly affect ServiceNow support, upgrading to future ServiceNow platform versions, and the functionality of the ServiceNow platform.
 
-The general rules around customization are:
+Follow these general rules for customization:
 
--   Customize an application only if it extends the original intent of the application. For example, add IT functionality to ITSM but don’t add a travel workflow. Instead of over-customizing an application, create a new application using App Engine products, such as Creator Studio or ServiceNow Studio.
+-   Customize an application only if it extends the original intent of the application. For example, add IT functionality to ITSM but do not add a travel workflow. Instead of over-customizing an application, create an application using App Engine products, such as Creator Studio or ServiceNow Studio.
 -   Configure as much as you can before customizing an application.
--   If you add code or make other modifications to out-of-the-box functionality, you own them.
+-   If you add code or make other modifications to out-of-the-box/base system functionality, you own them.
 
 ## What is configuration?
 

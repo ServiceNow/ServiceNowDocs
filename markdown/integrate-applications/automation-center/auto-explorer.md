@@ -7,7 +7,7 @@ release: australia
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-18"
 reading_time_minutes: 2
 breadcrumb: [Use, ServiceNow Otto for Automation Center, Use, Automation Center, Workflow Data Fabric]
 ---
@@ -24,8 +24,8 @@ Run the fix script to be able to view the results of the Automation explorer. Fo
 
 **Note:** You can control how catalog items are onboarded as automations using the sn\_ac.auto\_onboarding\_catalog\_items system property. Users with sn\_ac.automation\_admin can edit the system property.
 
--   True \(default\): New catalog items are onboarded automatically and appear on the automation dashboard immediately. However, the time and cost savings aren't displayed.
--   False: New catalog items are onboarded manually using the Automation Explorer feature. Generating this data takes longer, but the dashboard shows an expanded summary with time and cost savings for each catalog item.
+-   True: New catalog items are onboarded automatically and appear on the automation dashboard immediately. However, the time and cost savings aren't displayed.
+-   False \(default\): New catalog items are onboarded manually using the Automation Explorer feature. Generating this data takes longer, but the dashboard shows an expanded summary with time and cost savings for each catalog item.
 
 ## Procedure
 
@@ -39,7 +39,7 @@ Run the fix script to be able to view the results of the Automation explorer. Fo
 
 3.  Select your search method.
 
-<table id="choicetable_rrb_zjf_q3c"><tbody><tr><td id="d93013e123">
+<table id="choicetable_rrb_zjf_q3c"><tbody><tr><td id="d94425e123">
 
 **If you know the automation type**
 
@@ -47,7 +47,7 @@ Run the fix script to be able to view the results of the Automation explorer. Fo
 
 Select the relevant automation type card to begin a focused search.
 
-</td></tr><tr><td id="d93013e132">
+</td></tr><tr><td id="d94425e132">
 
 **If you don't know the automation type**
 

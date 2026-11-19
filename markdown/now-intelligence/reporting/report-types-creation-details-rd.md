@@ -7,7 +7,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 9
 breadcrumb: [Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -122,10 +122,4 @@ Provides visual interpretation of numerical data by indicating the number of dat
 |\[Omitted image "inline-data-vis-geomap.png"\] Alt text: Data visualization geomap type - icon|[Map reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_MapReport.md)|Displays data on a geographical map image.|
 |\[Omitted image "inline-data-vis-96px-pivot-table.png"\] Alt text: Data visualization pivot table type - large|[Pivot tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_PivotTables.md)|Aggregates data from a table to display the source of summarized data. This functionality is expanded in [multilevel pivot reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_MultilevelPivotCharts.md).|
 |\[Omitted image "inline-data-vis-96px-pyramid.png"\] Alt text: Data visualization pyramid type - large|[Pyramid reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_CreateFunnelAndPyramidCharts.md)|Visualizes a variation on a bar report using pyramid sections instead of rectangles. \(Found in the Other reports section.\)|
-
-## Choosing a report type
-
-Choose a report type based on the story that you want data to tell.
-
-\[Omitted image "data-vis-diagram.png"\] Alt text: Report type uses
 

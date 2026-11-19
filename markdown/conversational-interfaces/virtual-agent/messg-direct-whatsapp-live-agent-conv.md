@@ -7,9 +7,9 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using, WhatsApp Cloud API, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
+breadcrumb: [Using, Conversational Integration with WhatsApp \(WhatsApp Cloud API\), Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
 # Transfer WhatsApp chat conversations to live agents
@@ -35,13 +35,15 @@ Role required: admin
 
     1.  Navigate to **Advanced Work Assignment** &gt; **Settings** &gt; **Service Channels**.
 
-    2.  In the **Name** column of the Queues list, search for `WhatsApp`.
+    2.  In the **Name** column of the Service Channels list, search for `WhatsApp`.
 
-    3.  Select **WhatsApp**.
+    3.  Select **Whatsapp**.
 
-    4.  On the Service Channel form, select the **Active** check box.
+    4.  If a message states that the record is in another application but Global is the current application, select **here** to edit the record.
 
-    5.  Select **Update**.
+    5.  On the Service Channel form, select the **Active** check box.
+
+    6.  Select **Update**.
 
     For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
 
@@ -72,6 +74,18 @@ Role required: admin
     4.  Select **Update**.
 
     For more information, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.md).
+
+4.  Add agents to the Agent Whatsapp Group.
+
+    1.  Navigate to **User Administration** &gt; **Groups**.
+
+    2.  Open the Agent Whatsapp Group record.
+
+    3.  On the **Group Members** tab, select **Edit**.
+
+    4.  Add the agents who will handle WhatsApp conversations.
+
+    5.  Select **Save**.
 
 
 **Parent Topic:**[Using Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/messg-direct-whatsapp-using.md)

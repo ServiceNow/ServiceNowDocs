@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-adjust-component-wcag.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Edit components, Component styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -34,15 +34,15 @@ The total number of accessibility violations are indicated on the red numbered b
 
 1.  From the Editor page, access the accessibility violations in one of the two ways listed in the following table.
 
-<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d116917e110">
+<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d116249e110">
 
 Option
 
-</th><th align="left" id="d116917e113">
+</th><th align="left" id="d116249e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d116917e119">
+</th></tr></thead><tbody><tr><td id="d116249e119">
 
 **From Accessibility inspector**
 
@@ -54,7 +54,7 @@ Description
 
 **Note:** The Component Editor page appears and the configurable style panel displays the editable hooks available for the selected component.
 
-</td></tr><tr><td id="d116917e158">
+</td></tr><tr><td id="d116249e158">
 
 **From the Component styles menu**
 

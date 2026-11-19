@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-picklist-extensions-tutorial.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -87,7 +87,7 @@ Role required: Admin
 
 18. Click **Save Mapping**, and then in the upper right corner, click **Save**.
 
-19. Add the picklist extension field to the layout via the Logik Admin UI or by CSV upload, and deploy.
+19. Add the picklist extension field to the layout via the ServiceNow CPQ Admin UI or by CSV upload, and deploy.
 
     For more information, see [Displaying a picklist extension on a layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/csv_layouts_how_do_i_display_a_picklist_extension.md).\[Omitted image "cpq-picklist-extensions-ples-5.png"\] Alt text: Picklist extensions
 

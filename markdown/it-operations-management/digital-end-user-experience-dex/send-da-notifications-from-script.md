@@ -1,5 +1,5 @@
 ---
-title: Send a Desktop Assistant notification from a server-side script
+title: Send a Desktop Assistant notification from server-side script
 description: Use DesktopAppNotificationUtils to send Desktop Assistant notifications to users from a server-side script.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/send-da-notifications-from-script.html
@@ -7,12 +7,12 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [Customizing Desktop Assistant notifications using API parameters, Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Customizing Desktop Assistant notifications using API parameters, Set up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
-# Send a Desktop Assistant notification from a server-side script
+# Send a Desktop Assistant notification from server-side script
 
 Use `DesktopAppNotificationUtils` to send Desktop Assistant notifications to users from a server-side script.
 
@@ -30,7 +30,7 @@ Role required: sn\_dex\_desktop.admin or admin
 
 3.  Navigate to the server-side context where you want to trigger the notification.
 
-    For example, use a background script for testing, or a business rule, a scheduled job, or a flow script step for production use.
+    For example, a Background Script for testing, a business rule, scheduled job, or flow script step for production use.
 
 4.  Call sendDANotification\(\) with **notification\_message**, **recipient\_list**, and **source** as the minimum required parameters.
 
@@ -54,9 +54,9 @@ Role required: sn\_dex\_desktop.admin or admin
 
     For examples of sending Desktop Assistant notifications using `DesktopAppNotificationUtils`, see [Examples of Desktop Assistant notifications using DesktopAppNotificationUtils](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/examples-da-notifications-script-include.md).
 
-5.  Check the return value to confirm that the API call was successful.
+5.  Check the return value to confirm the API call was successful.
 
-    A successful call returns a `responseCode` of `200` and a `notification_id` in the `metadata` field of the response object. Any other response code indicates that the notification was not queued, and the `message` field of the response object states the reason.
+    A successful call returns a `responseCode` of **200** and a `notification_id` in the `metadata` field of the response object. Any other response code indicates that the notification was not queued, and the `message` field of the response object states the reason.
 
 6.  Verify that the notification was delivered to the Desktop Assistant client.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/manage-boomi-plans.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-23"
+last_updated: "2026-10-29"
 reading_time_minutes: 1
 keywords: [Boomi plans, Partner Passport Portal]
 breadcrumb: [Partner Passport Portal, Workflow Data Fabric]
@@ -22,7 +22,7 @@ Before you set up Boomi and purchase a Boomi plan, verify that your subscription
 -   **[Set up Boomi access in Partner Passport Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/set-up-boomi-access.md)**  
 Install the Boomi store application and request a Boomi account before you purchase your first Boomi plan.
 -   **[Purchase a Boomi plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/purchase-boomi-plan.md)**  
-Purchase a Boomi plan with fabric credits to add connections and transactions to your Boomi account.
+Buy a Boomi plan with fabric credits to add connections and transactions to your Boomi account.
 
 **Parent Topic:**[Partner Passport Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/partner-passport-portal.md)
 

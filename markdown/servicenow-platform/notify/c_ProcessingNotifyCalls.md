@@ -1,20 +1,20 @@
 ---
 title: How Notify processes incoming calls
-description: Notify processes incoming calls using workflow activities.
+description: Notify processes an incoming call by running the workflow for the called number and exchanging actions with the telephony provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/c\_ProcessingNotifyCalls.html
 release: australia
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Notify voice and SMS capabilities, Exploring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # How Notify processes incoming calls
 
-Notify processes incoming calls using workflow activities.
+Notify processes an incoming call by running the workflow for the called number and exchanging actions with the telephony provider.
 
 Any Notify activity that manages incoming phone calls creates a record on the Notify Workflow Activity \[notify\_wf\_activity\] table. Each notify\_wf\_activity record is associated with a single call. These records store JSON data detailing the actions to send to the telephony provider.
 

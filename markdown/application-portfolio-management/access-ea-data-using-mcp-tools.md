@@ -27,8 +27,6 @@ When you send a message, the AI assistant selects the relevant MCP tool from the
 
 **Note:** Claude is used as an example AI assistant. Steps may vary depending on the AI client you use.
 
-## About this task
-
 ## Procedure
 
 1.  Open the Claude application.
@@ -69,6 +67,4 @@ When you send a message, the AI assistant selects the relevant MCP tool from the
 [Working with the business portfolio module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-business-portfolio-mod.md)
 
 [Enterprise Architecture Workspace access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-access-roles.md)
-
-[Example prompts for MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/ea-mcp-server-example-prompts.md)
 

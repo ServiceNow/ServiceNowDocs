@@ -7,7 +7,7 @@ release: australia
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Configure a Lifecycle Events trigger for activity sets, Lifecycle Events evaluation interval, Configure a lifecycle event, Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---

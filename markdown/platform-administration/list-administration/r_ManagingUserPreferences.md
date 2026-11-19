@@ -7,7 +7,7 @@ release: australia
 product: List Administration
 classification: list-administration
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-11-09"
 reading_time_minutes: 1
 breadcrumb: [List editor, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,8 +20,8 @@ To view and manage list editor user preferences, navigate to **User Administrati
 
 |User preference name|Description|
 |--------------------|-----------|
-|list\_edit\_enable|Set the value to **true** to enable or **false** to disable list editing. Default value is **true**.|
-|list\_edit\_double|Set the value to **true** for double-click or **false** for single-click. Default value is **true**.|
+|list\_edit\_enable|Option to turn list editing on \(**true**\) or off \(**false**\). Default value is **true**.|
+|list\_edit\_double|Option to open a cell for editing with a double-click \(**true**\) or a single click \(**false**\). Default value is **true**.|
 
 **Related topics**  
 

@@ -7,10 +7,10 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [generative AI for IT Operations Management, generative AI for ITOM, alert group analysis, Express List]
-breadcrumb: [Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Work with alert groups, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View an alert group analysis by ServiceNow Otto in Express List
@@ -63,6 +63,8 @@ Refresh the alert analysis.**Note:** Refreshing regenerates the results. Past re
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Working with alert groups in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/working-with-alert-groups.md)
+
 **Related topics**  
 
 

@@ -1,20 +1,20 @@
 ---
-title: Third-party library support in Brazil
+title: Third-party library support in Australia
 description: Review which common third-party libraries are supported, partially supported, or unsupported by the ServiceNow IDE and ServiceNow SDK.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/third-party-library-support.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [JavaScript modules and third-party libraries, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [JavaScript modules and third-party libraries, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
 
-# Third-party library support in Brazil
+# Third-party library support in Australia
 
 Review which common third-party libraries are supported, partially supported, or unsupported by the ServiceNow IDE and ServiceNow SDK.
 
-The following third-party libraries have been tested in the Brazil release. Libraries with partial support or no support are limited by server-side scripting features that aren't currently supported by the JavaScript engine. For more information about feature support for server-side scripts, see [JavaScript engine feature support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/javascript-engine-feature-support.md).
+The following third-party libraries have been tested in the Australia release. Libraries with partial support or no support are limited by server-side scripting features that aren't currently supported by the JavaScript engine. For more information about feature support for server-side scripts, see [JavaScript engine feature support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/javascript-engine-feature-support.md).
 
 **Note:** The libraries tested were prioritized based on their number of Node Package Manager \(npm\) downloads, applicability to the ServiceNow AI Platform, and user interest. For questions or requests to test additional third-party libraries, see the [ServiceNow IDE, SDK, and Fluent forum](https://www.servicenow.com/community/servicenow-ide-sdk-and-fluent/bd-p/ide-sdk-fluent-forum) in the ServiceNow Community.
 
@@ -32,7 +32,6 @@ The following third-party libraries have been tested in the Brazil release. Libr
 -   diff
 -   docxtemplater
 -   extend
--   fast-csv
 -   html-parser-lite
 -   iconv-lite
 -   inherits
@@ -65,8 +64,7 @@ The following third-party libraries have been tested in the Brazil release. Libr
 
 -   @aws-sdk/client-s3
 -   effect
--   jszip
--   minimatch
+-   fast-csv
 -   underscore.string
 -   util
 
@@ -79,7 +77,9 @@ The following third-party libraries have been tested in the Brazil release. Libr
 -   deep-equal
 -   eml-parser
 -   exceljs
+-   jszip
 -   jws
+-   minimatch
 -   qs
 -   unzipper
 

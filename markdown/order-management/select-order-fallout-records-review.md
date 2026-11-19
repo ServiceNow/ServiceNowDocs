@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/select-order-fallout-records-review.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Managing order fallout, Order Management, Use, Sales Customer Relationship Management]
 ---
@@ -20,11 +20,11 @@ Role required: sn\_fallout\_mgmt.fallout\_manager, sn\_fallout\_mgmt.fallout\_ag
 
 ## About this task
 
-You select fallout records to review in CRM Workspace. You can also review and track all fallout records for a specific order by using the **Fallouts \(n\)** icon where n is the number of fallouts. This icon appears when you view the related fallout record.
+You select fallout records to review in CSM Configurable Workspace. You can also review and track all fallout records for a specific order by using the **Fallouts \(n\)** icon where n is the number of fallouts. This icon appears when you view the related fallout record.
 
 ## Procedure
 
-1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
+1.  Navigate to  **Workspaces** &gt; **CSM/FSM Configurable Workspace** .
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 

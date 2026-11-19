@@ -5,10 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/lux-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-10-01"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
-keywords: [Lux, Lux release notes, server-side rendering, Lit widgets]
-breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # Lux release notes
@@ -26,7 +25,7 @@ Lux is a Lit-based platform for building widget-based UI experiences that run on
 -   Share data across widgets with the Context API, and across pages with layout data.
 -   Deploy your scoped application to an instance on its own schedule with the ServiceNow SDK.
 
-See the Lux documentation for more information, .
+See the Lux documentation for more information, [Lux Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/lux-development-landing.md).
 
 ## Activation and other requirements
 

@@ -5,11 +5,11 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vc-refine-sns.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-03"
 reading_time_minutes: 2
 keywords: [ServiceNow Studio, vibe coding, Build Agent, AI-assisted development, application development, developer tools, code refinement, metadata editing, Automated Test Framework, ATF, application files, access control lists, ACL, record producers, update sets]
 audience: developer
-breadcrumb: [Build Agent overview, Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Agentic development app refinement in ServiceNow Studio
@@ -40,7 +40,7 @@ To review and refine your app from Build Agent in ServiceNow Studio, follow thes
 
     -   ServiceNow Studio provides a tabbed, IDE-like interface for navigation and editing.
     -   You can refine code, add business logic, and manage metadata across your app's scope.
-    -   Use Build Agent for update set management, cross-scope editing, and safe deployment.
+    -   Use Build Agent for update set management, cross-scope editing, and deployment.Update set management in Build Agent is available beginning with Australia Patch 3. For more information, see [Update sets and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-update-sets.md).
 5.  Iterate with Build Agent.
 
     -   Use the Build Agent panel to edit metadata for your application.

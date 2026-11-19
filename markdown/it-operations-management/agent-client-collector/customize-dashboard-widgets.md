@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Understanding the Monitoring Technology Dashboard, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -40,14 +40,14 @@ Role required: agent\_client\_collector\_admin
 
     \[Omitted image "configuration-tab-monitor-tech-dashboard.png"\] Alt text: Monitoring Technology Dashboard Configuration tab
 
-    For details on working with data visualizations, see [Data visualizations in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md) [Data visualizations in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
+    For details on working with data visualizations, see Data visualizations in the Analytics Center Data visualizations in the Analytics Center.
 
 8.  Select **Save and close**.
 
 
 ## Result
 
-Your customized widgets are saved in the Data Visualizations library, and can be used to configure a customized dashboard \(see [Create a dashboard with the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-db-in-ac.md)\).
+Your customized widgets are saved in the Data Visualizations library, and can be used to configure a customized dashboard \(see Create a dashboard with the In-line editor\).
 
 **Parent Topic:**[Understanding the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/monitor-tech-dashboard-concept.md)
 

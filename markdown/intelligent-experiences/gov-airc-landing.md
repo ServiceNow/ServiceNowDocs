@@ -1,18 +1,18 @@
 ---
-title: Managing risk and compliance in AI Control Tower
-description: Gain visibility into AI-related risks, compliance posture, and governance outcomes for your AI portfolio in AI Control Tower.
+title: Managing risk and compliance in Control Tower
+description: Gain visibility into AI-related risks, compliance posture, and governance outcomes for your AI portfolio in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-airc-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Govern AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Managing risk and compliance in AI Control Tower
+# Managing risk and compliance in Control Tower
 
-Gain visibility into AI-related risks, compliance posture, and governance outcomes for your AI portfolio in AI Control Tower.
+Gain visibility into AI-related risks, compliance posture, and governance outcomes for your AI portfolio in Control Tower.
 
 ## Get started
 

@@ -1,20 +1,20 @@
 ---
 title: Configure the ServiceNow component instance
-description: Configure the component instance so that your user can embed the components onto their website to access component-related data in real-time.
+description: Configure a ServiceNow component instance so you can embed it on a website to show real-time data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-servicenow-web-components-instance.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Set up Web Embeddables, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the ServiceNow component instance
 
-Configure the component instance so that your user can embed the components onto their website to access component-related data in real-time.
+Configure a ServiceNow component instance so you can embed it on a website to show real-time data.
 
 ## Before you begin
 
@@ -74,6 +74,8 @@ This procedure outlines the high-level steps that you must follow to set up Web 
 ## Result
 
 The global and component codes are ready to be shared with the third-party admin to embed component instance on their third-party webpage.
+
+\[Omitted video\] Description: Configure the ServiceNow components instance
 
 ## What to do next
 

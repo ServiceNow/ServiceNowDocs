@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Source document import tasks, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -65,7 +65,7 @@ The states of the source document import task are the following:
 -   Deferred
 -   Closed
 
-If the alert is marked as applicable and the source document task moves to the **Closed** state, the regulatory alert record is automatically moved to **Closed**.
+If the alert is marked as applicable and the source document task moves to the Closed state, the regulatory alert record is automatically moved to the Closed state.
 
 **Parent Topic:**[Source document import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/source-doc-import-task.md)
 

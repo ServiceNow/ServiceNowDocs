@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -25,7 +25,7 @@ Verify the following:
 -   You have installed the Generative AI Controller plugin \(sn\_generative\_ai\).
 -   You have installed the AI Skill Kit plugin \(sn\_skill\_builder\).
 -   You have installed the ServiceNow Otto for IT Operations Management \(ITOM\) plugin. For more information, see [Install the ServiceNow Otto for IT Operations Management \(ITOM\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/install-now-assist-itom.md).
--   You have activated the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   You have activated the ServiceNow Otto panel. For more information, see .
 -   You have activated the following assistants:
 
     -   ServiceNow Otto - Platform assistant
@@ -33,7 +33,7 @@ Verify the following:
     For more information, see [Configure assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 -   You have activated Now LLM Service as a provider. For more information, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md).
--   You have set up AI Search. For more information, see [AI Search readiness for AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-ai-search.md).
+-   You have set up AI Search. For more information, see .
 -   You have installed the following ServiceNow Otto for Setup applications from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
     -   ServiceNow Otto for Setup \(sn\_ia\)
     -   ServiceNow Otto for Setup Common \(sn\_ia\_common\)

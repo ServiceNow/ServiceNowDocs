@@ -7,7 +7,7 @@ release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Setting up a root email, Setting up AWS cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -36,4 +36,6 @@ Role required: Email / AD admin
 Share the confirmed email address with the Provisioner or ServiceNow AI Platform admin for configuration purposes.
 
 Once you receive an account creation confirmation email on `aws-ccoe@mycompany.com`, set the root credentials manually based on your company's security standards.
+
+**Parent Topic:**[Setting up a root email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-account-management/setting-up-root-email.md)
 

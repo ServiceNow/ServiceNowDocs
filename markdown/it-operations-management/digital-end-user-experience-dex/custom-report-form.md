@@ -1,20 +1,20 @@
 ---
 title: Custom insights report form
-description: The Custom insights report form contains the options that you use to create a report of metrics collected across your digital space.
+description: Custom insights report gives you an ability to create a custom insights report for metrics collected across your digital space.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/custom-report-form.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # Custom insights report form
 
-The Custom insights report form contains the options that you use to create a report of metrics collected across your digital space.
+Custom insights report gives you an ability to create a custom insights report for metrics collected across your digital space.
 
 <table id="table_zfv_2wf_f3c"><thead><tr><th>
 
@@ -26,11 +26,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Device or application drop-down list
+Device or application drop-down menu
 
 </td><td>
 
-Device or application performance data to include in the report.
+Selects a device or application performance.
 
 </td></tr><tr><td>
 
@@ -38,7 +38,7 @@ Latest
 
 </td><td>
 
-Option to report the most recent metrics data available.
+Specifies the most recent metrics data available.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Point in time
 
 </td><td>
 
-Option to limit the report to a specific date and time.
+Limits the report to a specific date and time.
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Date and time for report
 
 </td><td>
 
-Specific date and time for the collected results.Available when you select the **Point in time** option.
+Determines specific date and time for the collected results.Available when you select the **Point in time** option.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Select metric
 
 </td><td>
 
-Metric for the query.
+Selects a metric for the query
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Select operator
 
 </td><td>
 
-Operator to apply to the metric query.Options include equals, greater than, less than, and other comparison types.
+Selects an operator to apply to the metric query.Options include equals, greater than, less than, and other comparison types.
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Enter value
 
 </td><td>
 
-Threshold value for the metric.
+Contains the threshold value for the metric
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Filter by Department
 
 </td><td>
 
-Filter that limits report results to devices or applications associated with a specific department.
+Limits report results to devices or applications associated with a specific department.
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Filter by Device List
 
 </td><td>
 
-Filter that limits report results to devices that belong to a predefined device list.
+Limits report results to devices that belong to a predefined device list.
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Filter by Operating System
 
 </td><td>
 
-Filter that limits report results to devices running a specific operating system.
+Limits report results to devices running a specific operating system.
 
 </td></tr><tr><td>
 

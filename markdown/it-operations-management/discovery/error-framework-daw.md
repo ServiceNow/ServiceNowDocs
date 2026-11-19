@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Diagnostics, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -93,7 +93,7 @@ Error Framework is enabled by default. Administrators can disable it by setting 
 
     -   ServiceNow Otto for Error Framework \(com.sn\_ef\_gen\_ai\) is available in Australia Patch 3 and requires the ServiceNow Otto for Platform \(sn\_genai\_platform\) plugin. If the plugin is not enabled, the panel displays a prompt to enable it.
     -   The Error Analysis and Remediation Workflow and Error Analysis and Remediation Agent are enabled by default with the ServiceNow Otto for Error Framework plugin.
-    -   To interact with an agent, you must first [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    -   To interact with an agent, you must first .
 
 ## Roles
 

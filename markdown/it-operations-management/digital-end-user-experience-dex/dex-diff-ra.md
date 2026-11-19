@@ -7,7 +7,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 15
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
@@ -290,7 +290,7 @@ Elevate temporary admin access
 
 </td><td>
 
-`user_name` \(Windows\) or `user_id` as email \(macOS\)`duration` — drop-down list: 1, 2, 4, or 8 hours
+`user_name` \(Windows\) or `user_id` as email \(macOS\)`duration` — dropdown: 1, 2, 4, or 8 hours
 
 </td><td>
 
@@ -343,7 +343,7 @@ macOS: Sudo permissions
 
 </td><td>
 
-Executes the Jamf policy either with a policy ID or with a predefined action.Predefined actions, configured by DEX administrators in dex\_jamf\_policy\_table, can be selected and executed by service desk agents, who don't have access to the policy IDs.
+Executes the Jamf policy either with a policy ID or with a predefined action.Predefined actions, configured by DEX admins in dex\_jamf\_policy\_table, can be selected and executed by service desk agents, who don't have access to the policy IDs.
 
 </td><td>
 
@@ -460,11 +460,11 @@ Adjusts the following permissions:-   Execute: controls whether programs or scri
 
 </td><td>
 
-Lock down or restore USB access at the permission level instantly, without endpoint management console access. Possible use cases may include the following:-   Lock down USB write access to help prevent data exfiltration during a security investigation.
+Lock down or restore USB access at the permission level instantly, without endpoint management console access. Possible use cases may include the following:-   Lock down USB write access to prevent data exfiltration during a security investigation.
 -   Restore specific USB permissions for an authorized use case after a temporary restriction.
--   Enforce DLP policies by restricting USB Execute access to help prevent running unauthorized code.
--   Help prevent unauthorized execution of files from USB devices.
--   Help prevent data leakage or unauthorized file transfers to USB devices.
+-   Enforce DLP policies by restricting USB Execute access to prevent running unauthorized code.
+-   Prevent unauthorized execution of files from USB devices.
+-   Prevent data leakage or unauthorized file transfers to USB devices.
 
 </td></tr><tr><td>
 
@@ -657,7 +657,7 @@ Uninstall an application
 
 </td><td>
 
-`app_name` \(selected from a preconfigured drop-down list in the UI\)
+`app_name` \(selected from a pre-configured dropdown in the UI\)
 
 </td><td>
 
@@ -687,9 +687,9 @@ Windows: Local System Account
 
 </td><td>
 
-Removes temporary files and cache data from multiple system locations. It targets the following locations:-   Temp directory of the current logged-in user profile \(`%USERPROFILE%\AppData\Local\Temp`\)
--   Windows system temp directory \(`C:\Windows\Temp`\)
--   Windows Explorer thumbnail cache databases \(`%USERPROFILE%\AppData\Local\Microsoft\Windows\Explorer`\) to free up disk space and resolve performance degradation.
+Removes temporary files and cache data from multiple system locations. It targets the-   current logged-in user's profile temp directory- \(%USERPROFILE%\\AppData\\Local\\Temp\),
+-   Windows system temp directory - \(C:\\Windows\\Temp\)
+-   clears Windows Explorer thumbnail cache databases - \(%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\Explorer\) to free up disk space and resolve performance degradation.
 
 </td><td>
 
@@ -736,7 +736,7 @@ Starts a Windows service that is currently not running. If the service has depen
 
 </td><td>
 
-Auto-remediate Windows services that stop unexpectedly.
+Remediate Windows services that stop unexpectedly.
 
 </td></tr><tr><td>
 
@@ -756,7 +756,7 @@ Stops a Windows service that is currently running, including dependent services 
 
 </td><td>
 
-Give administrators and agents an explicit way to stop a Windows service and its dependents, distinct from the existing **Restart service** action, which assumes the service is already running.
+Give admins/agents an explicit way to stop a Windows service and its dependents, distinct from the existing Restart service action, which assumes the service is already running.
 
 </td></tr></tbody>
 </table>**Note:** \* For the Disk cleanup for low disk space action, temporary files are deleted from the following device locations.
@@ -769,11 +769,11 @@ Give administrators and agents an explicit way to stop a Windows service and its
     -   `"C:\Windows\System32\LogFiles"="*.*"`
     -   `"C:\ProgramData\Microsoft\Windows\WER\ReportQueue"= "*.*"`
 -   macOS:
-    -   `$HOME/Library/Caches/*/` = cache files older than 7 days \(excluding Homebrew\)
-    -   `$HOME/Library/Developer/Xcode/DerivedData/*/` = Xcode build artifacts \(if Xcode is installed\)
-    -   `$HOME/Library/Caches/Homebrew/` = Homebrew package download cache \(if Homebrew is installed\)
-    -   `$HOME/Library/Caches/Homebrew/*/` = Homebrew package download cache in subdirectories \(if Homebrew is installed\)
-    -   `/tmp/*/` = temporary files older than 3 days
+    -   $HOME/Library/Caches/\*/ = cache files older than 7 days \(excluding Homebrew\)
+    -   $HOME/Library/Developer/Xcode/DerivedData/\*/ = Xcode build artifacts \(if Xcode is installed\)
+    -   $HOME/Library/Caches/Homebrew/ = Homebrew package download cache \(if Homebrew is installed\)
+    -   $HOME/Library/Caches/Homebrew/\*/ = Homebrew package download cache in subdirectories \(if Homebrew is installed\)
+    -   /tmp/\*/ = temporary files older than 3 days
 
 **Parent Topic:**[DEX Application and Device Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-console-reference.md)
 

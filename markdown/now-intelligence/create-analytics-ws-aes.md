@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-analytics-ws-aes.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
@@ -23,7 +23,7 @@ For more information about using App Engine Studio to create a workspace with an
 **Related topics**  
 
 
-[Add Platform Analytics pages to a configurable workspace]()
+[Create Platform Analytics pages in UI Builder]()
 
 [Add a dashboard to a Dashboards page]()
 

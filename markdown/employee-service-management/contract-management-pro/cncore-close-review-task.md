@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manual internal review, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d114524e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d115190e55">
 
 Method
 
-</th><th align="left" id="d114524e58">
+</th><th align="left" id="d115190e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d114524e64">
+</th></tr></thead><tbody><tr><td id="d115190e64">
 
 **Contract Workspace listing**
 
@@ -44,7 +44,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d114524e111">
+</td></tr><tr><td id="d115190e111">
 
 **Contract Workspace landing page**
 
@@ -55,7 +55,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d114524e144">
+</td></tr><tr><td id="d115190e144">
 
 **Workspace used by your application**
 
@@ -66,7 +66,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d114524e165">
+</td></tr><tr><td id="d115190e165">
 
 **Reviews tab**
 

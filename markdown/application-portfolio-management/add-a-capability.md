@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/add-a-capability.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Working with the business portfolio module, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_apm.apm\_user
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Business Capability Hierarchy page by selecting the Business Portfolio icon \(\[Omitted image "business-portfolio-icon.png"\] Alt text: Business Portfolio icon\).
+2.  Open the Business Capability Hierarchy page by selecting the Business Portfolio icon \(\[Omitted image "business-portfolio-icon.png"\] Alt text:\).
 
 3.  Select **New Capability**.
 
@@ -32,12 +32,14 @@ Role required: sn\_apm.apm\_user
 
 5.  Select **Create**.
 
-6.  Create a child capability for the capability that you created.
+6.  Create a sub-capability for the capability that you created.
 
-    1.  Right-click on the hierarchy ID of the capability.
+    To create a sub-capability, see [Create a sub-capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-sub-capability.md).
 
-    2.  Select **Create sub-capability**.
 
+## Result
+
+The business capability is added to the capability hierarchy map.
 
 **Parent Topic:**[Working with the business portfolio module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-business-portfolio-mod.md)
 

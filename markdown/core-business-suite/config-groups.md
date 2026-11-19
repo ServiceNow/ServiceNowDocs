@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/core-business-suite/config-groups.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-22"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Core Business Suite \(CBS\), Configure Core Business Suite using Otto, Configure, Core Business Suite]
 ---
@@ -16,33 +16,36 @@ Configure groups and roles for Core Business Suite business units through the No
 
 ## Before you begin
 
-Ensure that Now Assist in Virtual Agent is installed. For more information, see .
+Ensure that the following are activated:
 
-Role required: admin, sn\_cbs.admin
+-   AI search \([Activate AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/activate-ai-search.md)\)
+-   Now Assist panel \([Manage ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/enable-now-assist-panel.md)\)
+
+Role required: admin
 
 ## Procedure
 
 1.  Navigate to **Admin** &gt; **Admin Home**.
 
-2.  On the Core Business Suite card, select **View product overview**.
+2.  On the Core Business Suite Foundation card, select **View product overview**.
 
 3.  In the Configuration insights section, select **Configure**.
 
     The Configure Core Business Suite page opens in the Configuration Console.
 
-4.  Select **Manage Groups** under the CBS business unit you want to configure \(for example, Human Resources, Legal, Finance, Health and Safety, Workplace Services, or Source-to-Pay\).
+4.  Select **Manage Groups** under the business unit that you want to configure \(for example, Human Resources, Legal, Finance, Health and Safety, Workplace Services, or Source-to-Pay\).
 
 5.  Select **Configure with Now Assist**.
 
-    Now Assist opens the conversational panel, detects the current page context, and invokes the Groups and Roles Agent.
+    Now Assist opens the conversational panel, detects the current page context, and invokes the Groups and Roles agent.
 
     **Note:** Now Assist guides you through follow‑up questions and requests confirmation before completing an action.
 
-6.  Select an option or enter a natural‑language prompt.
+6.  Select one of the following options or enter a natural‑language prompt.
 
     -   Assign user\(s\) to a group
     -   Assign roles\(s\) to a group
-    -   Create Group
+    -   Create group
     Example prompts:
 
     -   `Add [username] to the [group name]`

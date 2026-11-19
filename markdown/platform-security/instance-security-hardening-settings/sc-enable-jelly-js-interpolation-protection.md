@@ -1,5 +1,5 @@
 ---
-title: Enable Jelly JS interpolation protection
+title: Enable Jelly JS Interpolation Protection
 description: Use the glide.ui.jelly.js\_interpolation.protect property to ensure that any JavaScript about to be executed on a Jelly page is protected from injection with the help of Jelly interpolation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-enable-jelly-js-interpolation-protection.html
@@ -7,12 +7,12 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Enable Jelly JS interpolation protection
+# Enable Jelly JS Interpolation Protection
 
 Use the **glide.ui.jelly.js\_interpolation.protect** property to ensure that any JavaScript about to be executed on a Jelly page is protected from injection with the help of Jelly interpolation.
 
@@ -70,7 +70,7 @@ Default value
 
 </td><td>
 
-true in Australia and newer, false prior
+&lt;none&gt;
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Fallback value
 
 </td><td>
 
-true in Australia and newer, false prior
+false
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Functional impact
 
 </td><td>
 
-Enabling this property causes the platform to reject Jelly JavaScript expressions that aren't explicitly recognized as safe or marked as SAFE. Instance owners should test custom UI pages, macros, and portal widgets that use Jelly-interpolated JavaScript expressions after making this change. Confirm that legitimate expressions continue to render as expected. Custom Jelly content that relies on dynamic, unmarked expressions require updates to use the SAFE designation to continue functioning.
+None
 
 </td></tr><tr><td>
 

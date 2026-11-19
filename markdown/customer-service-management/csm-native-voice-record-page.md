@@ -1,22 +1,22 @@
 ---
 title: CSM voice interaction record page
-description: The CSM voice interaction record page provides a component that customers can use for integration with Contact Center as a Service \(CCaaS\) providers. This page provides an interface that agents can use to handle customer phone calls.
+description: The CSM voice interaction record page provides a component that customers can use for integration with Contact Center as a Service \(CCaaS\) providers and an interface that agents can use to handle customer phone calls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-native-voice-record-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 17
-breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Record pages, Record pages and page templates, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CSM voice interaction record page
 
-The CSM voice interaction record page provides a component that customers can use for integration with Contact Center as a Service \(CCaaS\) providers. This page provides an interface that agents can use to handle customer phone calls.
+The CSM voice interaction record page provides a component that customers can use for integration with Contact Center as a Service \(CCaaS\) providers and an interface that agents can use to handle customer phone calls.
 
 \[Omitted image "voice-interaction-record-page.png"\] Alt text: CSM voice interaction record page with the Interaction Controls Component and Customer History component displayed in the side panel.
 
-The CSM voice interaction record page enables CCaaS providers to display native voice integrations in CRM Workspace. Using CCaaS call controls integrated in the page, agents can do the following:
+The CSM voice interaction record page enables CCaaS providers to display native voice integrations in CSM Configurable Workspace. Using CCaaS call controls integrated in the page, agents can do the following:
 
 -   Accept calls directly from the agent inbox.
 -   Manage call transfers and conferences.
@@ -50,7 +50,7 @@ The CSM voice interaction record page includes the following components:
 
 ## Plugin
 
-The CSM voice interaction record page template and page variant are included with the CRM Workspace plugin \(com.snc.uib.csm\_agent\_workspace\).
+The CSM voice interaction record page template and page variant are included with the CSM Configurable Workspace application \(com.snc.uib.csm\_agent\_workspace\).
 
 The CSM voice interaction record page template and page variant are available to users when the Interaction Controls Component plugin \(com.app\_interaction\_control\) is installed.
 
@@ -63,11 +63,11 @@ The Interaction Controls Component plugin has the following dependencies:
 
 The CSM voice interaction record template enables customers to create voice interaction record page variants and customize them as needed. This template includes customizable views for different CCaaS providers as well as real-time updates and notifications.
 
-Record pages and page variants created with this template enable agents to manage phone calls with customers and external users. These pages and variants display information that helps agents to resolve issues. Use this template to customize and extend CSM functionality around phone interaction management. Additionally, you can configure a CCaaS provider to integrate features such as call transcript.
+Record pages and page variants created with this template enable agents to manage phone calls with customers and external users and to display information that helps agents to resolve issues. Use this template to customize and extend CSM functionality around phone interaction management. Additionally, you can configure a CCaaS provider to integrate features such as call transcript.
 
 ## CSM voice interaction record page variant
 
-The CSM voice interaction record page variant is included with the CRM Workspace plugin and has a dependency on the Interaction Controls Component plugin. This page variant is available for users with the interaction controls enabled. For more information, see [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-native-voice-record-page.md).
+The CSM voice interaction record page variant is included with the CSM Configurable Workspace plugin and has a dependency on the Interaction Controls Component plugin. This page variant is available for users with the interaction controls enabled. For more information, see [OpenFrame configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-native-voice-record-page.md).
 
 This page variant includes the following settings.
 
@@ -85,7 +85,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page variant available to the selected audience. The CSM voice interaction record page variant is inactive by default.The active setting combined with the page order determines the page that CRM Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-set-record-page-order.md).
+Enabling the **Active** check box makes the page variant available to the selected audience. The CSM voice interaction record page variant is inactive by default.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ The audience determines who can see the page variant. The CSM voice interaction 
 </table>To access the settings for this page variant:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Select the **CRM Workspace** experience.
+2.  Select the **CSM/FSM Configurable Workspace** experience.
 3.  In the Record section of the Pages and variants list, select **CSM voice interaction record page**.
 4.  Select **Settings** at the top of the page.
 
@@ -245,7 +245,9 @@ For more information about the integration with CCaaS providers, see the followi
 
 ## Callback actions component
 
-The Callback actions component appears at the top of the left panel on the CSM voice interaction record page when it’s associated with a callback task. Agents can use this component to manage customer callback requests directly from the CRM Workspace.
+The Callback actions component appears at the top of the left panel on the CSM voice interaction record page when it’s associated with a callback task. Agents can use this component to manage customer callback requests directly from the CSM/FSM Configurable Workspace.
+
+**Note:** Prerequisite for CCaaS callbacks: Verify that agents are configured through their contact center integration to receive callbacks and access the ServiceNow Workspace. Agent profiles are synced automatically when agents log in through the contact center connector in OpenFrame. For example, an agent must be able to log in to both the contact center and ServiceNow workspace. The agent presence state must match between both systems, as callbacks only route to available agents. In some cases, the state "available" might be labeled differently in the contact center, such as "on queue." Presence mismatches can prevent agents from receiving callbacks.
 
 The callback actions component contains:
 
@@ -301,7 +303,7 @@ For more information about the callback feature, see the following topics:
 
 ## Customer History component
 
-The Customer History component appears below the Interaction Controls Component in the left panel. This component is included with the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central.md) plugin, which is activated as part of the CRM Workspace application.
+The Customer History component appears below the Interaction Controls Component in the left panel. This component is included with the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central.md) plugin, which is activated as part of the CSM Configurable Workspace application.
 
 The Customer History component includes the **Customer** tab. This tab displays customer, consumer, or account history information, depending on the customer information provided on the interaction record. This tab also includes a search field, filter, and date range selector that agents can use to find specific information in the history.
 
@@ -340,8 +342,8 @@ When an account is selected on the interaction record, the account history is di
 </td></tr></tbody>
 </table>Refreshing the customer history information:
 
--   When an agent selects a different customer on the interaction record and then saves the record: the agent must select **Refresh** on the Customer History component to update the information. The agent can also refresh the record page.
--   If there’s new activity while the page is open: the agent must refresh the Customer History component or the record page to display the new activity in the Customer HIstory tab. For example, if the agent selects **Create Case** on the interaction record.
+-   When an agent selects a different customer on the interaction record and then saves the record, the agent must select **Refresh** on the Customer History component to update the information. The agent can also refresh the record page.
+-   If there’s new activity while the page is open, the agent must refresh the Customer History component or the record page to display the new activity in the Customer HIstory tab. For example, if the agent selects **Create Case** on the interaction record.
 
 ## Live call transcript
 
@@ -369,12 +371,12 @@ The action bar component contains the actions available to users while working o
     -   **Discuss**: Opens a pop-up window to start a Sidebar discussion.
     -   **Associate Record**: Opens a new record in a subtab that the agent can use to link a record to the current interaction. This new record is displayed in the Related Tasks related list.
 
-The CSM voice interaction record page supports actions from the following Customer Service Management and CRM Workspace plugins:
+The CSM voice interaction record page supports actions from the following Customer Service Management and CSM Configurable Workspace plugins:
 
--   Case Management Core \(com.sn\_customerservice\)
--   CRM Workspace Core \(com.snc.agent\_workspace.csm\)
--   CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)
--   CRM Workspace Foundation \(com.snc.uib.cwf\_workspace\)
+-   Customer Service \(com.sn\_customerservice\)
+-   CSM/FSM Configurable WS Foundation \(com.snc.uib.cwf\_workspace\)
+-   CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\)
+-   CSM Workspace \(com.snc.agent\_workspace.csm\)
 -   Major Issue Management \(com.sn\_majorissue\_mgt\)
 -   Customer Service with Service Management \(com.sn\_cs\_sm\)
 -   Customer Service with Request Management \(com.sn\_cs\_sm\_request\)
@@ -416,7 +418,7 @@ Depending on the source type, agents can do the following:
 
 For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba-use-ai-search.md).
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CRM Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 </td></tr><tr><td>
 
@@ -461,7 +463,7 @@ The Collaborate component enables agents to communicate with stakeholders and ot
 </td></tr></tbody>
 </table>## OpenFrame configuration
 
-The CSM voice interaction record page variant is included with the CRM Workspace plugin \(com.snc.uib.csm\_agent\_workspace\). This page variant is available to users when:
+The CSM voice interaction record page variant is included with the CSM Configurable Workspace application \(com.snc.uib.csm\_agent\_workspace\). This page variant is available to users when:
 
 -   The Interaction Controls Component plugin \(com.app\_interaction\_control\) is installed.
 -   Interaction controls in the OpenFrame configuration are enabled.

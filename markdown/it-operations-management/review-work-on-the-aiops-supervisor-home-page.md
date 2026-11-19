@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/review-work-on-the-aiops-supervisor-home-page.html
 release: australia
 topic_type: task
-last_updated: "2026-10-18"
+last_updated: "2026-11-02"
 reading_time_minutes: 2
 keywords: [AIOps Supervisor, AIOps AI Specialist, Service Operations Workspace, Event Management, evt\_mgmt\_operator]
-breadcrumb: [Overseeing AIOps AI specialist, Manage the AI specialist, AIOps AI Specialist, ITOM AIOps specialists, AI in ITOM AIOps, ITOM AIOps, IT Operations Management]
+breadcrumb: [Overseeing AIOps AI Specialist, Manage the AI specialist, AIOps AI Specialist, ITOM AIOps specialists, AI in ITOM AIOps, ITOM AIOps, IT Operations Management]
 ---
 
 # Review work on the AIOps Supervisor home page
@@ -27,7 +27,7 @@ Role required: evt\_mgmt\_operator
 
 2.  From the **Service Operations Workspace** navigation menu, select **Home**.
 
-    If the AIOps Supervisor home page does not appear, a customized home page might be configured. To show the AIOps Supervisor home page, revert to the default home page. For more information, see [Customize Service Operations Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-service-operations-workspace-landing-page.md).
+    If the AIOps Supervisor home page does not appear, a customized home page might be configured. To show the AIOps Supervisor home page, revert to the default home page. For more information, see .
 
 3.  Set the assignment group scope.
 

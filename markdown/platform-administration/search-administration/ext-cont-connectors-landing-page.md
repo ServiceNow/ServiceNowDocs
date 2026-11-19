@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -37,7 +37,7 @@ The External Content Connectors ServiceNow® Store application enables AI Search
 
 </td><td>
 
-[Review\[Omitted image "bus-log-store.svg"\] Alt text:Review crawl histories, analytics, and user permissions for your external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/reviewing-external-content-connector-results-and-analytics.md)
+[Review\[Omitted image "bus-log-store.svg"\] Alt text:Review crawl histories, analytics, and user mappings for your external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/reviewing-external-content-connector-results-and-analytics.md)
 
 </td><td>
 

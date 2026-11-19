@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/impact-squad.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-07"
 reading_time_minutes: 4
 breadcrumb: [Exploring Impact, Impact]
 ---
@@ -28,7 +28,7 @@ Customer Success Manager
 
 </td><td>
 
-Curate and coordinate content, guidelines, and recommendations aligned with your organizational goals and ServiceNow product mix.Key responsibilities:
+Acts as the primary point of contact for curating and coordinating content, guidelines, and recommendations aligned with your organizational goals and ServiceNow product mix.Key responsibilities:
 
 -   Serves as your advocate for business value and orchestration lead across all Impact features and benefits.
 -   Manages delivery of Impact Foundations, Impact Accelerators, and the development and execution of your Customer Impact Plan.
@@ -97,7 +97,7 @@ The CIP contains information related to the following:
 -   Training
 -   Platform Health
 
-The CIP serves as a roadmap to help you achieve your goals, track progress, set expectations, and adapt strategies. It involves stakeholders, such as executive sponsors, platform owners, architects, product owners, and service owners .
+The CIP serves as a roadmap to help you achieve your goals, track progress, set expectations, and adapt strategies. It involves stakeholders, such as executive sponsors, platform owners, architects, product owners, and service owners, .
 
 ## Impact Steady State
 
@@ -122,7 +122,7 @@ Based on your Impact package, the deliverable outputs may vary:
 The standard initiatives are executed in consistent, timely intervals to keep you on pace and consists of the following:
 
 -   Periodic Support Review \(PSR\): A quarterly report of your cases, problems, changes, and real availability, including service metrics, instance performance data, and upgrade and patch information.
--   Review of Outcome Insights: A progress review to assess how well success metrics align with target improvements outlined in [Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/value-library/impact-in-platform-business-outcomes.md).​ ​Guidance on approaches to data collection for this review will be delivered by the Impact squad, with an overview of configuration alternatives, including Impact ’s Value Management applications.
+-   Review of Outcome Insights: A progress review to assess how well success metrics align with target improvements outlined in [Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/value-library/impact-in-platform-business-outcomes.md).​ ​Guidance on approaches to data collection for this review will be delivered by the Impact squad, with an overview of configuration alternatives, including Impact ’s Value Management applications.
 -   Quarterly Impact Review Executive Briefing \(QIR Executive Briefing\): A strategic level conversation with customer executives that focuses on the outcomes and value that Impact is delivering toward achieving your business priorities, including holistic support and value realization reviews.
 
 **Note:** Some Foundations may be re-invoked on request during the Steady State phase as an Accelerator. For more information on the operating model, reach out to your Impact Squad.​

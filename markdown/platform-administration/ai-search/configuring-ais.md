@@ -105,12 +105,12 @@ Search profiles contain settings for a search experience, including synonyms, st
 A search application configuration specifies the search engine and settings to use for search in a ServiceNow AI Platform® application. When you choose AI Search as an application's search engine, you can select a search profile for the application and configure its search result display and refinement settings.
 -   **[Activate fuzzy numeric search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-fuzzy-numeric-search-ais.md)**  
 Activate fuzzy numeric search to let users find indexed records by their Number field values without needing to enter alphabetic prefixes or leading zeroes.
--   **[Allow source facet filters to trigger query resubmission for multi-term search queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/allow-src-facet-filters-trigger-query-resubmission.md)**  
-Allow source facet filter selections to reduce the search result count used by the system when checking whether to resubmit multi-term search queries using the OR operator.
 -   **[Configure EVAM display settings for search results in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-search-result-card-opts.md)**  
 Customize display settings for Search Result EVAM \(Entity View Action Mapping\) cards in portal and non-portal AI Search applications.
--   **[Show borders between search result cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/show-borders-search-result-cards.md)**  
-Display borders between search result cards in portal search and in global and workspace search.
+-   **[Show borders between search result cards in portal search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/show-borders-search-result-cards-portal-search.md)**  
+Display borders between search result cards on the search results page for portal search applications.
+-   **[Show borders between search result cards in global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/show-borders-search-result-cards-global-search.md)**  
+Display borders between search result cards on the global search results page.
 -   **[Enabling and configuring AI Search in ServiceNow AI Platform applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-configure-apps-ais.md)**  
 Configure and use the AI Search engine in the Customer Service Management, Now Mobile, Service Portal, and Virtual Agent applications.
 -   **[Create a custom search matcher for global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-search-matcher-ais.md)**  

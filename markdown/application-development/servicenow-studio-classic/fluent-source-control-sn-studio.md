@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-10-08"
 reading_time_minutes: 2
-breadcrumb: [Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Fluent source control in ServiceNow Studio

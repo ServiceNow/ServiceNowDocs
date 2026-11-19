@@ -1,20 +1,20 @@
 ---
 title: Configure Lobby Settings
-description: You can override the lobby settings in your instance to allow the participants to join the conference call without waiting in the lobby.
+description: Override the lobby settings in your instance so participants can join the conference call without waiting in the lobby.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/configure-lobby-settings.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Notify connector, Microsoft Teams integration for Agent Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configure Notify connector, Microsoft Teams integration for Agent Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Configure Lobby Settings
 
-You can override the lobby settings in your instance to allow the participants to join the conference call without waiting in the lobby.
+Override the lobby settings in your instance so participants can join the conference call without waiting in the lobby.
 
 ## Before you begin
 

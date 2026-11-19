@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/lead-management-use-line-items-tab.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Leads****All**.
 
@@ -34,7 +34,7 @@ Role required: sales\_agent
     |-----|-----------|
     |Number|System-generated number of the lead line item.|
     |Quantity|Quantity of the lead line item.|
-    |Product Offering|Product offering bundle for the lead line item. Only those product offerings will be visible that are in Staged, In Test, and Published state.|
+    |Product Offering|Product offering bundle for the lead line item.|
     |Unit of Measure|Measuring unit of the lead line item.|
     |Work Notes|Additional information related to the lead line item.|
 

@@ -7,9 +7,9 @@ release: australia
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configuring Now Mobile, EmployeeWorks, Employee Service Management]
+breadcrumb: [Configuring Now Mobile, Now Mobile app, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # AI Search in mobile

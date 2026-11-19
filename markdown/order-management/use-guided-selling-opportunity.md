@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/use-guided-selling-opportunity.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-23"
 reading_time_minutes: 3
 keywords: [guided selling, action center, playbook, stage exit criteria, opportunity]
 breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
@@ -31,7 +31,7 @@ The sn\_opty\_mgmt\_core.opportunity\_admin role can move the stage of Opportuni
 
 ## Procedure
 
-1.  In the CRM Workspace, navigate to **Opportunity** &gt; **All** and select the opportunity to open.
+1.  In the CSM Configurable Workspace, navigate to **Opportunity** &gt; **All** and select the opportunity to open.
 
 2.  Select the **Overview** tab.
 

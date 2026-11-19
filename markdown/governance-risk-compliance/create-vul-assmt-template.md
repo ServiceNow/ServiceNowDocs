@@ -1,18 +1,18 @@
 ---
-title: Set up the Vulnerability Assessment Template
-description: Create the Vulnerability Assessment Template by defining the assessment parameters for Operational vulnerability. The assessment template is based on the Metric type assessment. It helps you to define important assessment details such as the assessment duration, associated tables, filter conditions, and so on.
+title: Set up the Vulnerability Assessment Templates
+description: Create the Vulnerability Assessment Templates by defining the assessment parameters for Operational vulnerability. The assessment template is based on the Metric type assessment. It helps you to define important assessment details such as the assessment duration, associated tables, filter conditions, and so on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-vul-assmt-template.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Setting up the Operational vulnerability module, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Set up the Vulnerability Assessment Template
+# Set up the Vulnerability Assessment Templates
 
-Create the Vulnerability Assessment Template by defining the assessment parameters for Operational vulnerability. The assessment template is based on the Metric type assessment. It helps you to define important assessment details such as the assessment duration, associated tables, filter conditions, and so on.
+Create the Vulnerability Assessment Templates by defining the assessment parameters for Operational vulnerability. The assessment template is based on the Metric type assessment. It helps you to define important assessment details such as the assessment duration, associated tables, filter conditions, and so on.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_oper\_res.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Operational Vulnerability** &gt; **Vulnerability Assessment Template**.
+1.  Navigate to **All** &gt; **Operational Vulnerability** &gt; **Vulnerability Assessment Templates**.
 
 2.  To create the Vulnerability Assessment \(Assessment Metric Type\) template, select **New**.
 

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-05"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, performance]
-breadcrumb: [View AI assets usage and performance \(Next Experience UI\), Monitor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [View AI assets usage and performance \(Next Experience UI\), Monitor, AI Admin Center, Enable AI experiences]
 ---
 
 # AI Admin Center Performance Explorer dashboard\(Next Experience UI\)
@@ -116,7 +116,7 @@ The **Agents** tab displays a list of individual AI agent executions. Use the **
 
 -   **Assists Consumed**
 
-    The number of assist credits consumed by the AI agent during the execution.
+    The number of assists consumed by the AI agent during the execution.
 
 -   **Inferred CSAT**
 

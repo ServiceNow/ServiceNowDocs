@@ -44,8 +44,8 @@ For the complete role list, see [Components installed with ITSM Roles - Change M
     |Field|Description|
     |-----|-----------|
     |Short description|Short description of the standard change proposal template.|
-    |Requester|User assigned to change requests created from the standard change template.|
     |Category|Category under which the template is published. For example, Server Standard Changes.|
+    |Assignment Group|Group assigned to change requests created from the standard change template.|
     |Assigned to|User assigned to change requests created from the standard change template.|
     |Configuration item|Configuration item affected by change requests created from the standard change template.|
     |Sample Change Requests|Change requests provided as samples for the change that you propose. The Change Management team reviews the requests as a part of the approval process.|

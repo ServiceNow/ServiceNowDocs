@@ -66,7 +66,7 @@ For more information, see the [ServiceNow AI documentation](https://raw.githubus
 
 Some ServiceNow resources that can provide you with helpful information are:
 
--   **Brazil release notes**
+-   **Australia release notes**
 
     [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/l1-it-service-desk-ai-specialist-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/l1-it-service-desk-ai-specialist-rn.md)
 

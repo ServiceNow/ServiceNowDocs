@@ -7,7 +7,7 @@ release: australia
 product: Goal Framework
 classification: goal-framework
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
 breadcrumb: [Explore, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -16,13 +16,13 @@ breadcrumb: [Explore, Goal Framework and Goal Framework for SPM, Strategic Portf
 
 The integration of Goal Framework or Goal Framework for SPM with other ServiceNow applications helps portfolio, product, and program managers to optimize planning and track goals for their products.
 
-## Goal Framework with AI Control Tower workspace
+## Goal Framework with Control Tower workspace
 
-The ServiceNow® AI Control Tower workspace enables you to track and monitor all your strategic priorities, goals, and targets categorized as Artificial Intelligence in Goal Framework.
+The ServiceNow® Control Tower workspace enables you to track and monitor all your strategic priorities, goals, and targets categorized as Artificial Intelligence in Goal Framework.
 
-Populate the **Type** field for strategic priorities and the **Category** field for goals with the **Artificial Intelligence** option to monitor their progress in the AI Control Tower workspace. For more information, see [Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/create-strategic-priority.md) and [Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/create-goal.md).
+Populate the **Type** field for strategic priorities and the **Category** field for goals with the **Artificial Intelligence** option to monitor their progress in the Control Tower workspace. For more information, see [Create a strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/create-strategic-priority.md) and [Create a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/goal-framework/create-goal.md).
 
-When AI Control Tower is installed, the **AI strategy** tab appears in the AI Control Tower workspace, featuring different widgets for AI strategies, goals, and targets details. For more information, see [AI strategy tab in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-strategy-ai-control-tower.md).
+When Control Tower is installed, the **AI strategy** tab appears in the Control Tower workspace, featuring different widgets for AI strategies, goals, and targets details. For more information, see [AI strategy tab in Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-strategy-ai-control-tower.md).
 
 ## Goal Framework with Operational Sustainability Workspace
 

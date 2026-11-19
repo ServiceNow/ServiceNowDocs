@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-playbook-product-support.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Playbook applications, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Applications, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case Playbook for Product Support
@@ -16,9 +16,9 @@ Use the Case Playbook for Product Support to guide agents through the steps that
 
 A product support case captures the information about the customer, the product, and the reported issue. The product support playbook provides the activities and tasks that agents can perform to research and resolve the issue. Agents can also create and assign tasks as needed and use the playbook to communicate with the customer.
 
-The Case Playbook for Product Support is available for both CRM Workspace and CSM Agent Workspace. In the CSM workspaces, the playbook appears in the **Playbook** tab on the case record.
+The Case Playbook for Product Support is available for both CSM Configurable Workspace and CSM Agent Workspace. In the CSM Workspaces, the playbook appears in the **Playbook** tab on the case record.
 
-**Note:** If you have the admin role, you can configure a playbook to use the compact mode in CRM Workspace. Use the compact mode to move the playbook from a tab in the workspace to a tab in the contextual side panel.
+**Note:** If you have the admin role, you can configure a playbook to use the compact mode in CSM Configurable Workspace. Use the compact mode to move the playbook from a tab in the Workspace to a tab in the contextual side panel.
 
 ## Case Playbook for Product Support application
 
@@ -55,7 +55,7 @@ Focused activity view
 
 Feature that determines how the stages and activities appear in the playbook.
 
- The Case Playbook for Product Support uses the [Focused activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-layout.md), which enables agents to see
+ The Case Playbook for Product Support uses the[Select a playbook activity view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/playbook-select-activity-view.md) , which enables agents to see
 
 -   The end-to-end life cycle of the product support workflow in the playbook life-cycle panel.
 -   The current stage is expanded and the current activity is highlighted within the playbook life-cycle panel.
@@ -73,7 +73,7 @@ Feature that displays the following information in the contextual side panel:
 -   Ribbon information, such as the case overview, customer details, timeline, and SLAs
 -   Dynamic related records
 
-**Note:** The activity stream and ribbon information are available in CRM Workspace only.
+**Note:** The activity stream and ribbon information are available in CSM Configurable Workspace only.
 
  For more information about using the contextual side panel, see
 
@@ -100,7 +100,7 @@ Compact mode
 
 </td><td>
 
-Mode that moves the playbook from a tab in the workspace to the contextual side panel. Agents can complete the playbook activities in the side panel while they’re viewing the other tabs in the record page. **Note:** This mode is available in CRM Workspace only.
+Mode that moves the playbook from a tab in the Workspace to the contextual side panel. Agents can complete the playbook activities in the side panel while they’re viewing the other tabs in the record page. **Note:** This mode is available in CSM Configurable Workspace only.
 
  Users with the admin role can configure a playbook to use the compact mode in the playbook component configuration in UI Builder.
 
@@ -118,7 +118,7 @@ Feature that displays the records in the contextual side panel. These records dy
 -   Open the list in a new tab
 -   Create new records
 
-**Note:** The dynamic related records feature is available in CRM Workspace only.
+**Note:** The dynamic related records feature is available in CSM Configurable Workspace only.
 
  For more information, see [Viewing related records in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbooks-viewing-rel-records.md).
 
@@ -146,7 +146,9 @@ The playbook stage picker enables agents to see the entire product support workf
 -   Use the filter in the stage picker to filter activities by the assigned user or the activity state.
 -   Select an activity to display the details in the playbook work area.
 
-The following example shows the different stages and activities in a playbook. \[Omitted image "playbook-product-support.png"\] Alt text: Focused view of the various stages and activities in the product case playbook lifecycle, along with the case details.
+The following example shows the different stages and activities in a playbook.
+
+\[Omitted image "create-new-onboarding-case.png"\] Alt text: Focused view of the various stages and activities in the product case playbook lifecycle, along with the case details.
 
 ## Using the Playbook Actions menu
 
@@ -252,7 +254,7 @@ This activity shows the following read-only fields:-   **Closed by**: the agent 
 </td></tr></tbody>
 </table>## Process-based page variant for cases
 
-The Case Playbook for Product Support v5.0 application includes a process-based page variant that you can activate and use with cases in CRM Workspace. This page includes the following features:
+The Case Playbook for Product Support v5.0 application includes a process-based page variant that you can activate and use with cases in CSM Configurable Workspace. This page includes the following features:
 
 -   A horizontal stage picker at the top of the record that provides an end-to-end view of the complaint process. Activities within each stage are stacked in the activity viewer.
 -   Displays the related list tabs in the Dynamic Related Records component in the contextual side panel.
@@ -261,5 +263,5 @@ The Case Playbook for Product Support v5.0 application includes a process-based 
 -   Displays the email templates in the contextual side panel.
 -   Supports case summarization card on the left panel.
 
-Agents can create tasks as needed as well as view and update case details. For more information, see [Playbook pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-pages.md).
+Agents can create tasks as needed as well as view and update case details. For more information, see [Configure templates and pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-pages.md).
 

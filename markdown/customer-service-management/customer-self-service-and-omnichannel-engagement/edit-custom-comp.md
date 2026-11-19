@@ -1,22 +1,24 @@
 ---
 title: Edit a custom component
-description: Edit a custom component to further customize its design and properties as per the requirement. You can only edit a custom component that is in a deactivated state. Prebuilt components cannot be modified.
+description: Edit a custom component to change its design and properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/edit-custom-comp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Update or create web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Edit a custom component
 
-Edit a custom component to further customize its design and properties as per the requirement. You can only edit a custom component that is in a deactivated state. Prebuilt components cannot be modified.
+Edit a custom component to change its design and properties.
 
 ## Before you begin
+
+**Note:** You can edit a custom component only when it is deactivated. You can’t modify prebuilt components.
 
 Beginning with the Zurich release, Component UI Builder is enabled by default in your instance. Existing customers on release versions before Zurich release, you must enable Component UI Builder in your instance to edit a component. Make sure you’re referring UI Builder version 27.2 or above for editing component.
 

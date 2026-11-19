@@ -7,9 +7,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-24"
 reading_time_minutes: 1
-breadcrumb: [Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Configure the Manage contract repository agentic workflow for HAM
@@ -19,6 +19,10 @@ Install the ServiceNow Otto for Contract Management Pro plugin \(sn\_cm\_gen\_ai
 ## Before you begin
 
 Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
+
+## About this task
+
+**Important:** Obligation Management in the Hardware Asset Workspace is available only with Hardware Asset Management Prime SKU, starting from Hardware Asset Management version 16.0.0 and Australia patch 6.
 
 ## Procedure
 
@@ -48,8 +52,6 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 ## Result
 
 When a warranty, maintenance, lease, or purchase contract record is created, the **Initiate contract extraction** button is displayed on the contract form.
-
-**Parent Topic:**[Integrations and advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/integrations-advncd-configs.md)
 
 **Related topics**  
 

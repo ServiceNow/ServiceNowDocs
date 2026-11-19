@@ -25,7 +25,7 @@ Runtime clients can be set up that provide a token for authentication of runtime
 1.  Navigate to the Utilities tab of the left hand navigation pane, and click **Runtime Clients**.
 2.  Click **New** in the upper right corner.
 
-## Configure the client
+## Configure the new client
 
 \[Omitted image "cpq-runtime-client-add.png"\] Alt text: Add a runtime client interface
 
@@ -33,7 +33,7 @@ Runtime clients can be set up that provide a token for authentication of runtime
 2.  Setting the User ID will attach it to any calls authenticated by this runtime client. This may be useful for tracking the origin of the calls.
 3.  For Permissions, choose either Config or Config and Flightpath. Config will allow for launching configurations. Flightpath will allow for accessing Flightpath data of the configuration for use with debugging.
 4.  Optionally, set an expiration date for the runtime client. This expiration date can be changed to extend or shorten the time frame during which this token can be used.
-5.  Users must specify the origins of calls that aree made using this token as authentication. In the origins box, add the desired URL, such as `https://<yourCPQUrlName>.<sector>.logik.io` or `*.salesforce.com`. click `Add Origin` to add the origin, and continue adding more.
+5.  Users must specify the origins of calls that aree made using this token as authentication. In the origins box, add the desired URL, such as `https://<yourCPQUrlName>.<sector>.ServiceNow CPQ` or `*.salesforce.com`. click `Add Origin` to add the origin, and continue adding more.
 
     **Note:** Make sure that your origin does not have a trailing slash. For example, use `*.salesforce.com` and not `*.salesforce.com/`.
 

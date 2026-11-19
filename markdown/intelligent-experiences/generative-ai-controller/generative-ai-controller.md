@@ -7,10 +7,10 @@ release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Gen AI, Generative AI, LLM, Large language model]
-breadcrumb: [Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [AI Admin Hub, Enable AI experiences]
 ---
 
 # Generative AI Controller
@@ -19,7 +19,7 @@ Use Generative AI Controller to integrate your ServiceNow applications with thir
 
 ## Get started
 
-Configure Generative AI Controller to set up your preferred external LLM provider, manage data privacy and AI Guardian controls, and monitor generative AI activity through logs. For more information about building custom generative AI skills and workflows, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platai-generative-ai-skills.md).
+Configure Generative AI Controller to set up your preferred external LLM provider, manage data privacy and AI Guardian controls, and monitor generative AI activity through logs. For more information about building custom generative AI skills and workflows, see .
 
 <table id="table_uc5_2v3_wwb" class="nav-card"><tbody><tr><td>
 

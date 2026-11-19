@@ -1,18 +1,18 @@
 ---
-title: Request a TRM product in Enterprise Architecture Workspace
-description: Submit a request to add a software or hardware product to the TRM library and optionally include one or more lifecycle records with the request.
+title: Request a TRM product
+description: You can request a TRM product using the TRM catalog to add a new software or hardware to the TRM library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-request-a-trm-products.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 2
 breadcrumb: [Working with Technology Reference Model \(TRM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Request a TRM product in Enterprise Architecture Workspace
+# Request a TRM product
 
-Submit a request to add a software or hardware product to the TRM library and optionally include one or more lifecycle records with the request.
+You can request a TRM product using the TRM catalog to add a new software or hardware to the TRM library.
 
 ## Before you begin
 
@@ -24,34 +24,14 @@ Role required: sn\_apm.apm\_user
 
 2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon \[Omitted image "technology-portfolio-icon.png"\] Alt text:.
 
-3.  In the **TRM catalog** tab, select **Request TRM product**.
+3.  Select **Request TRM product**.
 
-4.  On the **Details** tab, fill in the fields.
+4.  On the form, fill in the fields.
 
-    For a description of the field values, see [Request TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-product-request-form.md).
+    For field information, see [Request TRM product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-product-request-form.md).
 
-5.  Include lifecycle records with the request by selecting the **TRM product lifecycles** tab, then select **Create lifecycle**.
+5.  Select **Create**.
 
-    **Note:**
-
-    -   For software products: You can add up to 5 version and edition combinations, with a maximum of 10 phases per combination.
-    -   For hardware products: You can add up to 5 hardware models, with a maximum of 10 phases per hardware model.
-    1.  For a software product, enter the **Version**, **Edition**, **TRM phase**, **Phase start date**, and **Phase end date**.
-
-    2.  For a hardware product, select the **Hardware model**, then fill in the **TRM phase**, **Phase start date**, and **Phase end date**.
-
-        The **Model number** and **Barcode** fields are populated automatically when you select a hardware model.
-
-    3.  To add more phases to the same version or hardware model, select the add TRM lifecycle phase icon \[Omitted image "bubble-chart-zoom-in.png"\] Alt text:.
-
-    4.  To add another version and edition group or hardware model group, select **Add version and edition** for software product or select **Add model** for hardware model.
-
-6.  Select **Submit**.
-
-
-## Result
-
-A confirmation message appears with the request number, for example: `Request for TRM product is created successfully: TRMPREQ0000000`. Select the request number to track the status of the request. The request is routed to an Enterprise Architect for approval.
 
 **Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-trm.md)
 
@@ -62,7 +42,7 @@ A confirmation message appears with the request number, for example: `Request fo
 
 [View all TRM phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-trm-phases.md)
 
-[Create a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle.md)
+[Add a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle.md)
 
 [View all TRM categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/view-all-trm-categories.md)
 
@@ -72,13 +52,11 @@ A confirmation message appears with the request number, for example: `Request fo
 
 [View all TRM products grouped by product category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-all-trm-products-grouped-by-product-category.md)
 
-[Request a TRM product lifecycle in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-request-a-trm-product-lifecycle.md)
+[Request a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-request-a-trm-product-lifecycle.md)
 
 [Associate an Architectural Artifact to a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-assoicate-artifact-trm-prod.md)
 
-[Create TRM product lifecycles in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
+[Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
 
 [Run a job to sync TRM product names in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-schedule-job-sync-trm-product-names.md)
-
-[Approve or reject TRM requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-approve-trm-req.md)
 

@@ -61,3 +61,5 @@ After you save the configuration with this option selected, it cannot be turned 
 
 Configuration Compliance stops creating test results for the posture findings that are routed to AI Security. This avoids the same finding appearing twice, once as a Configuration Compliance test result and once as an AI Security finding. Any Configuration Compliance test results already created for AI resources before you enable this option are not removed. Only new findings are affected.
 
+**Parent Topic:**[Wiz AI Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/wiz-ai-sem-integration.md)
+

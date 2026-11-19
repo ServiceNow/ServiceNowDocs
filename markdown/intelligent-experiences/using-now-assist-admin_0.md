@@ -1,29 +1,31 @@
 ---
 title: Using AI Admin Hub
-description: Use AI Admin Hub to explore the AI plugins and skills available to you. Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center.
+description: Use AI Admin Hub to explore the AI plugins and skills available to you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/using-now-assist-admin\_0.html
 release: australia
 topic_type: concept
 last_updated: "2026-10-21"
 reading_time_minutes: 1
-breadcrumb: [AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [AI Admin Hub, Enable AI experiences]
 ---
 
 # Using AI Admin Hub
 
-Use AI Admin Hub to explore the AI plugins and skills available to you. Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center.
+Use AI Admin Hub to explore the AI plugins and skills available to you.
 
-**Note:** Starting with the Brazil release, AI Admin Hub is being prepared for future deprecation and replacement by [AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-landing-page.md). Everything you manage here is available in AI Admin Center, plus more tools to manage and get the most from AI. You can continue to use AI Admin Hub for a limited time during the transition. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
+-   **[AI skill details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-details.md)**  
+Explore details of AI skills, security and usage data.
 -   **[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-a-now-assist-skill.md)**  
-Activate AI skills by configuring settings such as display locations. After the skills have been activated, they can be used across the ServiceNow AI Platform based on the availability and display settings you choose.
+Configure the triggers, settings, and display locations for AI skills to enable generative AI capabilities across the ServiceNow AI Platform.
 -   **[Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/edit-a-now-assist-skill.md)**  
 Edit the configuration of an AI skill to choose the inputs or triggers and the display location of the skill output.
 -   **[Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)**  
 Create a copy of an AI skill using the **Make a copy** function in AI Admin Hub. With a copy of the skill, you can experiment with skill settings and tailor the skill to fit your business needs.
--   **[Analyzing Now Assist usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-analytics-and-monitoring.md)**  
-Use the Now Assist analytics and monitoring tools in the Overview page to review the summaries, skill usage information, and issues that need your attention.
+-   **[Archive an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/archive-a-now-assist-skill.md)**  
+The 'Archive' option enables you to archive copies and custom AI skills.
+-   **[Analyzing generative AI usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-analytics-and-monitoring.md)**  
+Use the analytics and monitoring tools in the AI Admin Hub overview page to review the summaries, skill usage information, and issues that need your attention.
 
 **Parent Topic:**[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-now-assist-landing.md)
 

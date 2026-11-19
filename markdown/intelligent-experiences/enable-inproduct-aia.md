@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/enable-inproduct-aia.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-02-04"
 reading_time_minutes: 1
 keywords: [agentic ai]
-breadcrumb: [In-product agentic AI, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [In-product agentic AI, Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # Enable the in-product experience for agentic workflows

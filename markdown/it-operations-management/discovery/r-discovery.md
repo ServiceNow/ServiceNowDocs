@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ ServiceNow Discovery is an automated process that continuously scans and identif
 
 \[Omitted video\] Description: Discovery overviewDiscovery is available as a separate subscription from the rest of the ServiceNow AI Platform. See [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md) for details.
 
-Discovery supports database encryption and full-disk encryption. See [Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/db-full-disk-encryption.md) for details.
+Discovery supports database encryption and full-disk encryption. See  for details.
 
 ## Get started
 
@@ -64,7 +64,7 @@ Discovery supports database encryption and full-disk encryption. See [Database E
 
 **Integrate and develop**
 
- -   [Activate SCCM Asset Intelligence scheduled imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/activate-ai-scheduled-imports.md)
+ -   Activate SCCM Asset Intelligence scheduled imports
 -   [Discovery APIs on the ServiceNow® Developer Site](https://developer.servicenow.com)
 
 </td><td>

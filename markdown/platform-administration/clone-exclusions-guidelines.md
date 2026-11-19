@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/clone-exclusions-guidelines.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Reference, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ A reference topic that includes general guidelines to exclude a table from cloni
 
 -   **Workflow context data**
 
-    Excluded workflow context data includes records stored in the wf\_context table, and in related tables with names starting with a prefix of wf\_. If workflow contexts were included, this process helps to prevent the occurrence of workflow timer syncing issues. Issues can occur due to the length of the cloning process.
+    Excluded workflow context data includes records stored in the wf\_context table, and in related tables with names starting with a prefix of wf\_. If workflow contexts were included, this process helps to prevent the occurrence of workflow timer synchronizing issues. Issues can occur due to the length of the cloning process.
 
 -   **Excluding child tables of the task table**
 

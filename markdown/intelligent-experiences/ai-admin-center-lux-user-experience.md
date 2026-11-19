@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-01"
 reading_time_minutes: 8
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Admin Center, Now Assist Center, AI, AI setup, AI Admin Center, Now Assist Center, AI, AI setup, AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [Explore, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Explore, AI Admin Center, Enable AI experiences]
 ---
 
 # AI Admin Center user experience \(Lux UI\)
@@ -133,7 +133,7 @@ The Asset library page shows you all the AI assets in your instance.
 
 </td></tr><tr><td>
 
-Assist consumption
+Assist management
 
 </td><td>
 
@@ -141,7 +141,7 @@ Assist consumption
 
 </td><td>
 
-The Assist consumption page shows the amount of assists consumed by the AI skills and uses on your instance.
+The Assist management page shows the amount of assists consumed by the AI skills and uses on your instance.
 
 </td></tr><tr><td>
 

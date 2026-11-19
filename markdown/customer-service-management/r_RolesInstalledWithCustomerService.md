@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/r\_RolesInstalledWithCustomerService.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 10
+last_updated: "2026-03-12"
+reading_time_minutes: 11
 breadcrumb: [Components installed with Customer Service Management, Reference, Customer Service Management]
 ---
 
@@ -500,7 +500,7 @@ Users with the proxy case creator role can create customer service cases directl
 
 </td></tr><tr><td>
 
-Proxy contact\[sn\_csm\_proxy\_cont\]
+Proxy contact\[sn\_customerservice.proxy\_contact\]
 
 </td><td>
 
@@ -510,7 +510,7 @@ Role that enables employees to create cases for customer accounts and contacts. 
 -   Add work notes and comments to any case.
 -   Update the watch list of any case.
 
-**Note:** The Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\) plugin adds this role.
+**Note:** The CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\) plugin adds this role.
 
 </td><td>
 
@@ -661,6 +661,38 @@ Role for REST APIs related to CSM web services\[csm\_ws\_integration\]
 </td><td>
 
 snc\_internal
+
+</td></tr><tr><td>
+
+Document template admin \[sn\_csm\_doctemplate.admin \]
+
+</td><td>
+
+Role required to create, view, update and delete records in the Document Template​ tables.
+
+</td><td>
+
+sn\_csm\_doctemplate.viewer
+
+</td></tr><tr><td>
+
+Case Type Configuration admin \[sn\_scm\_case\_type.config\_admin\]
+
+</td><td>
+
+Role required to create, view, update and delete records in the following tables:-   Case Type
+-   Service Definition
+-   Service to Service Relationship
+-   Service Definition Category Relationship
+-   Product Service Relationship
+-   Catalog Service Relationship
+-   Service Definition Customer Criteria
+-   Service definition category
+-   Service definition user criteria
+
+</td><td>
+
+sn\_csm\_case\_type.config\_viewer
 
 </td></tr></tbody>
 </table>-   **[Internal user data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-service-internal-user-data.md)**  

@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -17,7 +17,7 @@ breadcrumb: [Configure, External Content Connectors, Search administration, Conf
 
 The Zendesk Guide external content connector retrieves articles and attachments from knowledge bases in your Zendesk Guide source system and makes their content and metadata searchable in AI Search applications.
 
-Connector administrators can run or schedule content crawls to retrieve updated content and access permissions from your source system, or user permission crawls to retrieve updated security principals from your source system. Both types of crawl feed their data to AI Search for indexing.
+Connector administrators can run or schedule content crawls to retrieve updated content and access permissions from your source system, or user permissions crawls to retrieve updated security principals from your source system. Both types of crawl feed their data to AI Search for indexing.
 
 The indexed content and metadata are stored as records in a connector-specific indexed source. Search administrators can create search sources from this indexed source and link them to search profiles to make the indexed records searchable in AI Search applications.
 
@@ -26,7 +26,7 @@ Create an API token in Zendesk Admin Center to allow the Zendesk Guide external 
 -   **[Create a Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-zendesk-guide.md)**  
 Create an external content connector to retrieve searchable content and security principals from your Zendesk source system.
 -   **[Configure crawl settings for a Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-zendesk-guide-external-content-connector.md)**  
-Specify the article locales and attachment file types you want your Zendesk Guide external content connector to crawl when running content crawls. Define inclusion or exclusion filters for domains to restrict the set of users the crawl retrieves access permissions for when running user permission crawls.
+Specify the article locales and attachment file types you want your Zendesk Guide external content connector to crawl when running content crawls. Define inclusion or exclusion filters for domains to restrict the set of users the crawl retrieves access permissions for when running user permissions crawls.
 
 **Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 
@@ -35,5 +35,5 @@ Specify the article locales and attachment file types you want your Zendesk Guid
 
 [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md)
 
-[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
+[Create a user permissions crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,17 +20,10 @@ Intelligent Search for CMDB is supported only on English language instances and 
 
 ## Integration with CMDB Workspace
 
-Intelligent Search for CMDB is integrated into the Home view in the CMDB Workspace store app. For more information, see:
+Intelligent Search for CMDB is integrated into the Explore and Search view in the CMDB Workspace store app. For more information, see:
 
--   [Home view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-home-view.md) \(Intelligent Search section\) for details about how to use Intelligent Search, sample search strings, and helpful tips.
+-   [Explore and Search view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md) \(Intelligent Search section\) for details about how to use Intelligent Search, sample search strings, and helpful tips.
 -   [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) for additional details about CMDB Workspace.
-
-## Integration with Service Graph Workspace
-
-Intelligent Search for CMDB is integrated into the Search and Explore view in the Service Graph Workspace store app. For more information, see:
-
--   [Explore and Search view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md), Search tab for details about how to use Intelligent Search, sample search strings, and helpful tips.
--    for additional details about Service Graph Workspace.
 
 ## Integration with CMDB Query Builder
 

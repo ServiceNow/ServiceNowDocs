@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-onboarding.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-11-03"
+reading_time_minutes: 3
 keywords: [configure]
-breadcrumb: [Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Onboarding for agentic development
@@ -25,16 +25,21 @@ The following checklist helps to ensure your environment is properly configured,
 3.  Confirm that the plugins for the tools that you want to use are installed and activated. For more information, see the following topics:
     -   [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/install-build-agent.md)
 
-        **Note:** You can also connect a supported MCP server to Build Agent, for example, to accelerate the conversion of Figma designs into enterprise-grade applications. For more information, see [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/accelerate-design-to-development-with-figma-mcp-server.md).
+        **Note:** You can also connect a supported MCP server to Build Agent, for example, to accelerate the conversion of Figma designs into enterprise-grade applications. For more information, see [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/accelerate-design-to-development-with-figma-mcp-server.md).For more information on connecting supported MCP servers, see [Connect Build Agent to a supported MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-connct-mcp-server.md).
+
+    -   [Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/configure-build-agent.md)
+    -   [Install Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/install-autonomous-engineer.md)
+
+        **Note:** Autonomous Engineer is a separate application available in the ServiceNow Store. Installing Autonomous Engineer also installs Build Agent as a dependency. Installing Build Agent alone does not install Autonomous Engineer.
 
     -   [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
-4.  Install Developer Sandboxes, which is not required for agentic development but provides a helpful instance to experiment with development. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/sandboxes-landing.md).
+4.  Request Developer Sandboxes, which is not required for agentic development but provides an isolated environment to experiment with development. Developer Sandboxes is a paid standalone product. Check your entitlements to determine whether you have access. For more information, see [Developer Sandboxes entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-entitlements.md) and [Developer Sandboxes installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dev-sbx-installing.md).
 
 ServiceNow Studio and ServiceNow IDE are automatically available on every instance, so you don't need to confirm their installation.
 
 ## Prepare your development environment
 
-1.  Use Developer Sandboxes to allocate a sandbox for safe, isolated agentic development. For more information, see [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/sandboxes-landing.md).
+1.  Use Developer Sandboxes to allocate a sandbox for isolated agentic development.Allocating a sandbox requires the admin or sandbox\_manager role. For more information, see [Allocate a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/allocating-sandboxes.md). If you don't have either role, see [Requesting sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/dsb-requesting-sandboxes.md).
 2.  Validate compliance policies and security controls.
 3.  Enable Vault Console and Machine Identity Console for sensitive data protection and API governance.
 
@@ -55,6 +60,4 @@ See [General guidelines for agentic development](https://raw.githubusercontent.c
 ## Engage with the development community
 
 Check out [ServiceNow Community](https://www.servicenow.com/community/) to connect with other developers and share ideas.
-
-**Parent Topic:**[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vibe-coding-landing.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Collect data from your system devices, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
@@ -75,7 +75,7 @@ Role required: agent\_client\_collector\_admin
 
     3.  Select the type of credentials you want to create.
 
-        For details on creating credentials, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/connection-alias.md).
+        For details on creating credentials, see Create a Connection and Credential alias.
 
     4.  Enter values in the fields on the page to assign credentials to your selected credential type.
 

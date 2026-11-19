@@ -1,30 +1,30 @@
 ---
 title: Managing your AI asset inventory
-description: Track every AI system, model, prompt, and dataset across your enterprise and control which assets participate in governance, monitoring, and risk workflows.
+description: Use Super Intelligence Control Tower to track every AI system, model, prompt, and dataset across your enterprise and control which assets participate in governance, monitoring, and risk workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/disc-ai-asset-inventory.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-05"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Managing your AI asset inventory
 
-Track every AI system, model, prompt, and dataset across your enterprise and control which assets participate in governance, monitoring, and risk workflows.
+Use Super Intelligence Control Tower to track every AI system, model, prompt, and dataset across your enterprise and control which assets participate in governance, monitoring, and risk workflows.
 
 ## Key benefits
 
-The AI asset inventory is the central record of AI assets in your organization. Assets that AI Control Tower discovers or identifies through traces appears here, organized by asset type.
+The AI asset inventory is the central record of AI assets in your organization. Assets that Control Tower discovers or identifies through traces appears here, organized by asset type.
 
 -   Get a complete picture of every AI asset across your organization, including assets discovered automatically and those added manually or through connectors.
 -   Control which assets participate in governance, monitoring, and risk workflows by setting management status directly from the inventory list.
 -   Filter and refine the asset list by type, risk classification, lifecycle state, asset status, and management status to focus on what needs attention.
 -   Add assets manually when a connector or trace can't reach them. See [Creating AI assets manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/creating-ai-assets-newexperience.md).
 
-For the ways AI Control Tower adds assets to your inventory automatically, see [Discovering AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-discovering-ai-assets.md).
+For the ways Control Tower adds assets to your inventory automatically, see [Discovering AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-discovering-ai-assets.md).
 
 \[Omitted image "disc-inventory.png"\] Alt text: Example AI asset inventory showing a list of AI assets showing asset types, asset states, asset status, management status, and evaluation status.
 
@@ -32,7 +32,7 @@ For the ways AI Control Tower adds assets to your inventory automatically, see [
 
 |Column|Description|
 |------|-----------|
-|Name|The name of the AI asset as registered in AI Control Tower.|
+|Name|The name of the AI asset as registered in Control Tower.|
 |Asset type|The category of the AI asset, such as AI dataset, AI prompt, AI model,MCP server, or AI system.|
 |State|The operational state of an AI asset.|
 |Status|The governance status of the asset within its current phase.|
@@ -48,11 +48,11 @@ The AI steward \[sn\_ai\_governance.ai\_steward\] or AI system owner \[sn\_ai\_a
 
 ## Accessing the AI asset inventory
 
-Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
+Navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Inventory** &gt; **Assets**.
 
 ## AI systems
 
-An AI system is a deployed AI application or capability that your organization uses to perform work. Examples include Now Assist skills, AI agents built in AI Agent Studio, and AI-powered applications running on external platforms. AI systems are the primary unit of governance in AI Control Tower, and the assets you classify for risk, assign stewards to, monitor for performance, and measure for value.
+An AI system is a deployed AI application or capability that your organization uses to perform work. Examples include Now Assist skills, AI agents built in AI Agent Studio, and AI-powered applications running on external platforms. AI systems are the primary unit of governance in Control Tower, and the assets you classify for risk, assign stewards to, monitor for performance, and measure for value.
 
 In the Inventory, AI systems are identified by asset type: Agentic AI, Generative AI, or Classic AI. Select the **AI systems** tab to filter to these three types together.
 
@@ -86,7 +86,7 @@ A prompt is a system prompt or prompt template that shapes the behavior of an AI
 
 ## Reviewing duplicate AI assets
 
-AI asset deduplication can detect assets in your inventory that perform the same function, such as when two teams independently build similar AI agents to solve the same problem. AI Control Tower surfaces these likely duplicates as a group for an AI steward to review. The AI steward can then confirm the group as true duplicates or dismiss it, before changes are made to relevant asset records. For more information, see [Duplicate AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/review-duplicates.md).
+AI asset deduplication can detect assets in your inventory that perform the same function, such as when two teams independently build similar AI agents to solve the same problem. Control Tower surfaces these likely duplicates as a group for an AI steward to review. The AI steward can then confirm the group as true duplicates or dismiss it, before changes are made to relevant asset records. For more information, see [Duplicate AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/review-duplicates.md).
 
 ## Managing the status of AI assets
 

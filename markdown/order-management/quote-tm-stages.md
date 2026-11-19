@@ -40,31 +40,23 @@ Stages enable administrators to assign distinct permissions to determine how per
 
 ## Behavior on open transaction
 
-The **Behavior on Open Transaction** stage setting determines which event actions run when a user opens a transaction in that stage. Administrators can configure the **Refresh Product Data** toggle to refresh product data when the transaction opens, and can add one or more rule groupings or integrations to run on open.
+The **Behavior on Open Transaction** stage setting determines which rule groupings and integrations run when a user opens a transaction in that stage. Administrators can configure the **Refresh Product Data** toggle to refresh product data when the transaction opens, and can add one or more rule groupings or integrations to run on open.
 
 ## Behavior on idle timeout
 
-The **Behavior on Idle Timeout** stage setting defines an event that triggers after a user remains inactive for a specified period. Administrators can define one such event per stage. If the event fails on its first execution, it is not retried or requeued. Supported action types are rule groups, integrations, and reprice \(if enabled\).
+The **Behavior on Idle Timeout** stage setting defines an event that triggers after a user remains inactive for a specified period. Administrators can define one such event per stage. If the event fails on its first execution, it is not retried or requeued. Supported action types are rule groups and integrations.
 
 Note the following guidelines when configuring idle timeout behavior:
 
 -   Set the idle time carefully to balance user convenience with session management and system efficiency.
--   Test all configured rule groups and integrations in a non-production environment before enabling them in live stages.
-
-## Stage-specific pricing behavior
-
-When pricing is enabled, you can configure how repricing behaves at each stage:
-
--   Behavior on Open Transaction: Runs the Reprice event action when a user opens a quote in the stage.
--   Behavior on Idle Timeout: Runs the Reprice event action after a user has been inactive for the specified period.
--   Allow Automatic Repricing: Reprices the quote automatically when pricing is out of date and the configured delay has elapsed since the last pricing call.
+-   Test all configured rule groups and integrations in a nonproduction environment before enabling them in live stages.
 
 ## Deleting a stage
 
 Deleting a stage is restricted because deleting a stage that is in use by transactions can cause data issues. Contact [ServiceNow Support](https://support.servicenow.com) if a stage deletion is required.
 
-**Related topics**  
+-   **[Create a quote transaction stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-stage.md)**  
+Create a stage in the ServiceNow Quote Experience administration interface to define a phase in the quoting process, set entry criteria, and configure what happens when a user opens a transaction or remains inactive in that stage.
 
-
-[Pricing in the ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/pricing-in-quote-experience.md)
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
 

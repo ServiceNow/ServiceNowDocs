@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Customize Playbook Experience, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -33,7 +33,7 @@ After creating a UI Builder page, you can customize Playbook Experience pages to
 
 2.  Open the **UI Builder** experience that you want to work in, or create a new experience.
 
-    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, seeConfigure how users interact with your applications in UI Builder
+    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, see Configure how users interact with your applications in UI Builder
 
 3.  In your **UI Builder** experience, you can:
 
@@ -44,7 +44,7 @@ After creating a UI Builder page, you can customize Playbook Experience pages to
 
     **Note:** You can still create and add custom components when you use a template.
 
-    \[Omitted image "playbook-select-template.png"\] Alt text: Select a playbook template.
+    \[Omitted image "playbook-templates.png"\] Alt text: Customizable Playbook templates in UI Builder.
 
 4.  If you're using a Playbook Experience template, **Create** your page.
 

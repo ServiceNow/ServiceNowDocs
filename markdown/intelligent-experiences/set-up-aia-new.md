@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/set-up-aia-new.html
 release: australia
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-06-11"
 reading_time_minutes: 1
-breadcrumb: [Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
 ---
 
 # Set up AI Agent Studio
@@ -16,7 +16,7 @@ The default \(base system\) AI agents provide preconfigured agentic workflows th
 
 ## Before you begin
 
-Role required: sn\_aia.admin
+Role required: sn\_aia\_admin
 
 ## About this task
 

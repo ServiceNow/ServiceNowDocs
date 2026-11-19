@@ -1,29 +1,24 @@
 ---
 title: Minimize session activity timeout duration
-description: Use the glide.ui.session\_timeout property to set the session activity timeout duration in minutes.
+description: Use the glide.ui.session\_timeout property to designate, in minutes, activity timeout value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-session-activity-timeout.html
 release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
 # Minimize session activity timeout duration
 
-Use the **glide.ui.session\_timeout** property to set the session activity timeout duration in minutes.
+Use the **glide.ui.session\_timeout** property to designate, in minutes, activity timeout value.
 
-The **glide.ui.session\_timeout** property controls the inactive session timeout for authenticated users, specified in minutes. If this property is not set to the recommended value of 30 minutes or less, the session may remain valid for extended periods without user activity.
+The **glide.ui.session\_timeout** system property determines the user session timeout, which determines how long a user session stays active. If **glide.ui.session\_timeout** is not set to the recommended value of `60` minutes or less, then the session may stay valid for long even without activity. This could provide too large of a time window to enable session hijacking attacks.
 
-A long session timeout allows inactive sessions to remain valid for extended periods, increasing the chance that an attacker could hijack the session before it expires.
-
-To configure the **glide.ui.session\_timeout** property:
-
-1.  Navigate to /sys\_properties\_list.do on the instance.
-2.  Confirm the **glide.ui.session\_timeout** property doesn't exist in the sys\_properties table or is set to 30 minutes or less.
+Ensure that the property **glide.ui.session\_timeout** is set to `60` or less.
 
 ## More information
 
@@ -65,7 +60,7 @@ Recommended value
 
 </td><td>
 
-30 or less
+60 or less
 
 </td></tr><tr><td>
 
@@ -73,7 +68,7 @@ Default value
 
 </td><td>
 
-30
+&lt;none&gt;
 
 </td></tr><tr><td>
 
@@ -107,9 +102,7 @@ Functional impact
 
 </td><td>
 
-Reducing the **glide.ui.session\_timeout** property lowers the amount of idle time allowed before a user's session ends automatically, requiring re-authentication. Users who leave a session idle longer than the configured value \(for example, while completing a long form, waiting on an approval, or stepping away between tasks\) will be logged out and must sign in again.
-
- Administrators should verify that long-running interactive workflows still complete comfortably within the new timeout window. They should also confirm that any automation or integration currently relying on a long-lived interactive UI sessions is migrated to a dedicated authentication method. Use OAuth or a service account rather than depending on session longevity.
+This remediation enforces timely expiration of user account. No functionality impact, however User experience is altered.
 
 </td></tr><tr><td>
 
@@ -117,8 +110,10 @@ Dependencies and prerequisites
 
 </td><td>
 
-The **glide.ui.session\_timeout** property is capped by the static property **glide.ui.max\_session\_timeout**, which limits the maximum effective value to 1440 minutes.
+None
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-session-management.md)
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+
+**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

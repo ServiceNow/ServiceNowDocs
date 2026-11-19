@@ -7,7 +7,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-08"
 reading_time_minutes: 20
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -26,7 +26,7 @@ The AI Assets Inventory API requires the sn\_ai\_governance.integration.rest rol
 
 This API belongs to the sn\_ai\_governance namespace.
 
-See [AI asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-inventory.md) for more information about managing AI assets inventory in the [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-landing.md).
+See [AI asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-inventory.md) for more information about managing AI assets inventory in the [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-landing.md).
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/rest-apis/api-rest.md)
 

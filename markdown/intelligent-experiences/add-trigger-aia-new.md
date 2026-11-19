@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-trigger-aia-new.html
 release: australia
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-06-04"
 reading_time_minutes: 2
-breadcrumb: [Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add a trigger to an AI agent

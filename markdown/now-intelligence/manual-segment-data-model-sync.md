@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/manual-segment-data-model-sync.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-04-16"
+reading_time_minutes: 4
 keywords: [manual segments, data model, sync behavior, query generation, semantic layer]
 breadcrumb: [Segments, Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -30,15 +30,16 @@ Manual segments use a two-table architecture that separates configuration from r
 
 ## Configuration table fields
 
-The `sn_query_gen_segment_table_`configuration table contains the following fields for defining manual segments:
+The `sn_query_gen_segment_table_config` table contains the following fields for defining manual segments:
 
 |Field|Column Name|Max Length|Required|Purpose|
 |-----|-----------|----------|--------|-------|
-|Table Name|**table\_name**|—|Yes|The table \(entity\) the segment applies to. Must have an active entity in the semantic layer.|
 |Name|**name**|255 chars|Yes|User-friendly name that the LLM matches against during semantic search.|
+|Active|**active**|—|No|Defaults to **true**. When **false**, the segment is deactivated and excluded from search.|
 |Description|**description**|4,000 chars|No|Optional clarification using commonly-used terms. Helps the LLM understand when to apply the segment.|
 |Filter|**filter**|4,000 chars|Yes|Encoded query defining the segment's filter conditions. Uses the condition builder \(v2\).|
-|Active|**active**|—|No|Defaults to **true**. When **false**, the segment is deactivated and excluded from search.|
+|Domain|**sys\_domain**|—|No|On domain-separated instances, specify here the domain to which the segment applies. At search time, segments are filtered by the user's domain context.|
+|Entity|**table\_name**|—|Yes|The table \(entity\) that the segment applies to. The table must have a record in the Semantic Table Configurations \[sn\_query\_gen\_table\_config\] table. The value of Enable Semantic Generation on that record must be `true`.|
 
 ## Synced table fields
 

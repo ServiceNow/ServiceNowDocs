@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/c\_TargetThresholdColorsAttribute.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Percent complete field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -53,14 +53,18 @@ If a target field is not specified, the target of 100 is assumed.
 
 2.  Select **Configure Dictionary** from the pop-up menu.
 
-3.  In the Dictionary Entry form, add the following attribute:
+3.  Select **Dictionary Entry** &gt; **View** &gt; **Advanced** to make the **Attributes** field available.
 
-    **target\_field=percent\_complete\_target**
+4.  In the **Attributes** field, enter **target\_field=\[target\_field\_name\]**
 
-4.  Update the dictionary record.
+    ```
+    target_field=target_percent_complete
+    ```
+
+5.  Update the dictionary record.
 
     In the list, a gray bar appears behind the colored bar to indicate the target value. The gray target bar appears only if you defined a target field.
 
-    \[Omitted image "PercentComplete4.png"\] Alt text: Percent complete
+    \[Omitted image "PercentComplete4.png"\] Alt text: Feature task list with the % complete column color-coded based on comparison to the Target % complete column.
 
 

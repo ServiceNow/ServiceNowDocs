@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/air-gapped-networks-installation.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-24"
 reading_time_minutes: 2
 breadcrumb: [Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
@@ -42,7 +42,7 @@ For more information, see [Install containerized OT Discovery packages](https://
 -   **[Install containerized OT Discovery packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/install-containerized-ot-discovery-packages.md)**  
 Install the OT Discovery containerized packages on your network.
 -   **[Install containerized OT Discovery components on Rocky 10](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/install-containerized-ot-discovery-rocky-10.md)**  
-Install the containerized packages for the Discovery Console for OT and the OT Discovery Collector onto a machine with Rocky 10 OS.
+Install the containerized packages for the Discovery Console for OT and the OT Discovery Collector on a machine running Rocky Linux 10.
 
 **Parent Topic:**[Configure the Discovery Console for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/configure-ot-discovery-console.md)
 

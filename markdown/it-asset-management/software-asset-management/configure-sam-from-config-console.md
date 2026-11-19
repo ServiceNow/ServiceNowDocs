@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-18"
 reading_time_minutes: 3
 keywords: [Configuration Console, SAM setup, software asset management]
 breadcrumb: [Configuration Console for Software Asset Management, Software Asset Management installation methods, Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
@@ -67,7 +67,7 @@ Configured items show a completed status. Progress cards update as you mark item
 
 To replicate a configuration from another instance, upload an existing update set on the Product Hub page. You can upload one `.xml` file at a time.
 
--   **[Configure Software Asset Management using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
+-   **[Configure Software Asset Management using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-sam-using-ai.md)**  
 Use the AI conversational experience to configure Content service setup, groups, and users in the Configuration Console as a guided alternative to manual configuration.
 -   **[SSO integration in Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-sso-integration-config-console.md)**  
 The SSO \(Single Sign-On\) module under the Software integrations module in the Configuration Console displays a tile for each supported SSO provider. Use these tiles to create SSO integration profiles that capture managed applications and their usage data for software asset tracking.

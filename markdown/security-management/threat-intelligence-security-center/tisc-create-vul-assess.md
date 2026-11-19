@@ -7,9 +7,8 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
-keywords: [vulnerability assessment, zero day vulnerability, automated flows, flow designer, TISC Tags]
 breadcrumb: [Working with automated flows, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

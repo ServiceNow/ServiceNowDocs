@@ -1,22 +1,22 @@
 ---
-title: CRM API Core
+title: Sales and Service API Core
 description: Enables seamless tracking and management of Sales Customer Relationship Management workflows through structured inbound and outbound request handling, configurable flow processing, and integration with external systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/sales-and-services-api-core.html
 release: australia
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
-# CRM API Core
+# Sales and Service API Core
 
 Enables seamless tracking and management of Sales Customer Relationship Management workflows through structured inbound and outbound request handling, configurable flow processing, and integration with external systems.
 
-## Overview of CRM API Core
+## Overview of Sales and Service API Core
 
-The CRM API Core \(com.sn\_tmt\_core\) plugin has three key components.
+The Sales and Service API Core \(com.sn\_tmt\_core\) plugin has three key components.
 
 <table id="table_t1y_j4g_xgc"><thead><tr><th>
 

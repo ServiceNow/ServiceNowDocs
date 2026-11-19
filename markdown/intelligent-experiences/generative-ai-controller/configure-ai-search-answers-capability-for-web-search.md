@@ -7,10 +7,10 @@ release: australia
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [AI Search answers, Websearch, Web search]
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configure AI search answers capability for web search
@@ -72,15 +72,15 @@ Azure**Note:** Azure doesn’t currently support web search.
 
 6.  Complete one of the following actions based on the following scenarios.
 
-<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d53706e206">
+<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d58232e206">
 
 Scenario
 
-</th><th align="left" id="d53706e209">
+</th><th align="left" id="d58232e209">
 
 Action required
 
-</th></tr></thead><tbody><tr><td id="d53706e215">
+</th></tr></thead><tbody><tr><td id="d58232e215">
 
 **Connection is available**
 
@@ -88,7 +88,7 @@ Action required
 
 If a connection is already available within the Connections related list, continue to the next step.
 
-</td></tr><tr><td id="d53706e224">
+</td></tr><tr><td id="d58232e224">
 
 **Connection isn’t available and must be created**
 

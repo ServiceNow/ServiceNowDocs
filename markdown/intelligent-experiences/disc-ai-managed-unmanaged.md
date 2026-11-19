@@ -1,18 +1,18 @@
 ---
 title: Managed and unmanaged AI assets
-description: Control whether an AI asset participates in governance workflows by changing the status in AI Control Tower.
+description: Control whether an AI asset participates in governance workflows by changing the status in Super Intelligence Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/disc-ai-managed-unmanaged.html
 release: australia
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Managed and unmanaged AI assets
 
-Control whether an AI asset participates in governance workflows by changing the status in AI Control Tower.
+Control whether an AI asset participates in governance workflows by changing the status in Super Intelligence Control Tower.
 
 You can set or change the management status of any asset directly from the inventory list. Use these guidelines to decide when to move assets between states:
 

@@ -1,16 +1,16 @@
 ---
-title: Walk-up Check-in on the Consumer Portal
+title: Walk-up Check-in on Consumer Portal
 description: Schedule a walk-up appointment at a service center from the Consumer Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/walkup-checkin.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service Management]
 ---
 
-# Walk-up Check-in on the Consumer Portal
+# Walk-up Check-in on Consumer Portal
 
 Schedule a walk-up appointment at a service center from the Consumer Portal.
 
@@ -20,6 +20,10 @@ Install Walk-up for CSM \(com.snc.walkup\_for\_csm\) app from [ServiceNow store]
 
 Role required: sn\_customerservice.consumer or sn\_customerservice.unified\_consumer
 
+## About this task
+
+Walk-up check-in lets you schedule an in-person appointment at your nearest service center directly from the Consumer Portal. The portal detects your location and displays available service centers so you can choose a convenient time slot.
+
 ## Procedure
 
 1.  Navigate to the Consumer Portal.
@@ -28,11 +32,13 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.unified\_cons
 
     The application searches for your nearest service center.
 
-3.  To schedule an appointment, see [Schedule appointments or join a queue from the Self Service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-walkup-checkin-online.md).
+3.  Schedule an appointment.
+
+    For details, see [Schedule appointments or join a queue from the Self Service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-walkup-checkin-online.md).
 
 
 **Related topics**  
 
 
-[Schedule appointments or join a queue from the Self Service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-walkup-checkin-online.md)
+[Get product help from the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-case-on-consumer-portal.md)
 

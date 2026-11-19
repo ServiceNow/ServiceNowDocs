@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/pss-case-contributor.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -24,5 +24,5 @@ If the CSM Contributor User plugin \(com.snc.csm\_contributor\_user\) is install
 
 As an administrator, you can include the record producer for creating enrollment cases in a service  catalog and display the service  catalog  as a module on the Consumer Service Portal page. Users with the contributor profile can then use the module to create enrollment cases.
 
-For more information, see Record Producer and Set up a service catalog . 
+For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_RecordProducer.md) and [Set up a service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_SetUpAServiceCatalog.md) . 
 

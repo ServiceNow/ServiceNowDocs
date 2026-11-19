@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/data-sources.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -17,8 +17,6 @@ A data source is a loading mechanism that maps UI elements to specific database 
 ## Concept
 
 Data sources enable the mapping of various types of data, such as input values, input actions, and descriptive elements to UI elements on the screen. This mapping is achieved by querying and filtering data from specific tables and fields in the database, and then associating the data with the corresponding UI elements. The mechanism uses an identifier to connect a UI element to a specific data field within a record. This mapping enables the UI element to retrieve and display the specified data.
-
-**Note:** Data sources aren't supported in offline.
 
 ## Data source variables
 

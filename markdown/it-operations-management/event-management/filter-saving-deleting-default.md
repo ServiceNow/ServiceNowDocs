@@ -7,9 +7,9 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Filtering the alert display in the Express List pane, Set up your workspace, Express List, Event Management, ITOM AIOps, IT Operations Management]
+breadcrumb: [Filtering the alert display in the Express List pane, Set up your workspace, Express List, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Save a custom filter in Express List
@@ -59,4 +59,6 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
     2.  Select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) and select **Delete filter**.
 
+
+**Parent Topic:**[Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/filter-express-list.md)
 

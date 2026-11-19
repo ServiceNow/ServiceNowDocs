@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/som-exploring.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 breadcrumb: [Sales Customer Relationship Management]
 ---
@@ -63,12 +63,12 @@ With the Sales CRM applications, your organization can improve sales and order p
 
 |Benefits|Application or key feature|Persona|
 |--------|--------------------------|-------|
-|Hire and engage channel partners to sell your products and services, helping you to grow and improve your business.|[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)|Channel partners|
+|Hire and engage channel partners to sell your products and services, helping you to grow and improve your business.|[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/partner-relationship-management.md)|Channel partners|
 
 |Benefits|Application or key feature|Persona|
 |--------|--------------------------|-------|
 |Create and manage product catalogs for commercial and technical product offerings. Commercial catalogs can be used by your agents to create opportunities, quotes, and orders.|[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/product-catalog-managment.md)|Product catalog administrator or manager|
-|Create the workflows for your organization and configure the metadata for your various Sales Customer Relationship Management entities.|[CRM Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)|Agent, admin to configure|
+|Create the workflows for your organization and configure the metadata for your various Sales Customer Relationship Management entities.|[Lead to Cash Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/lead-to-cash.md)|Agent, admin to configure|
 
 |Benefits|Application or key feature|Persona|
 |--------|--------------------------|-------|

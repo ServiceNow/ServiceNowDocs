@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/configuring-dispatcher-workspace.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
@@ -16,7 +16,7 @@ Configure the Dispatcher Workspace to optimize task management and agent assignm
 
 ## Dispatcher Workspace configuration
 
-Administrators configure the filters, sorting options, and ad-hoc filters to facilitate dispatchers while working in Dispatcher Workspace.
+Watch this short video to see how administrators configure the filters, sorting options, and ad-hoc filters to facilitate dispatchers while working in the Dispatcher Workspace.
 
 ## Configuration overview
 
@@ -76,13 +76,11 @@ The steps for setting up Dispatcher Workspace are:
 
 14. [Customize Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/dispatch-work-ui-builder.md)
 
-    Use UI Builder to build pages for CRM Workspace or custom web experiences using Next Experience and custom web components.
+    Use UI Builder to build pages for CSM Configurable Workspace or custom web experiences using Next Experience and custom web components.
 
 
 **Related topics**  
 
 
 [Using Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/using-dispatcher-workspace.md)
-
-[Field service holiday schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/fsm-holiday-schedule.md)
 

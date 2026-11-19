@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-30"
 reading_time_minutes: 1
 keywords: [Microsoft SQL Server, SSL, connection security configurations, zero copy connector]
-breadcrumb: [Reference, Zero Copy Connectors, Workflow Data Fabric]
+breadcrumb: [Connection form fields, Reference, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
 # Microsoft SQL Server connection security configuration fields
@@ -37,7 +37,7 @@ Fields that appear under Connection security configurations on the New Microsoft
 |Server Certificate Source: Custom CA|Truststore|File containing the certificate\(s\) used to verify the Microsoft SQL Server server's identity. Required.|
 |Server Certificate Source: Custom CA|Truststore password|Password for the truststore file. Required when Store type is JKS or PKCS12; not required when Store type is PEM.|
 
-**Parent Topic:**[Zero Copy Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/reference-zcc.md)
+**Parent Topic:**[Connection form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/connection-form-fields-zcc.md)
 
 **Related topics**  
 

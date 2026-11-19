@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-ir-playbooks-using-activity-stream.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Using the contextual side panel, Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---

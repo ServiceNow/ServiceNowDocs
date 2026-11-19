@@ -1,32 +1,36 @@
 ---
 title: Configure appointment booking
-description: Create or modify appointment booking configurations for Walk-up Experience services. A service is defined as the actual physical location of a walk-up queue. The information stored in the Walk-up Experience application configuration applies to all services or queue locations within the application.
+description: Create or modify appointment booking configurations for Walk-up Experience services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appointment.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Walk-up Experience appointment booking, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure appointment booking
 
-Create or modify appointment booking configurations for Walk-up Experience services. A service is defined as the actual physical location of a walk-up queue. The information stored in the Walk-up Experience application configuration applies to all services or queue locations within the application.
+Create or modify appointment booking configurations for Walk-up Experience services.
 
 ## Before you begin
 
 Role required: sn\_csm\_walkup.walkup\_admin
 
+## About this task
+
+A service is the actual physical location of a walk-up queue. The information stored in the Walk-up Experience application configuration applies to all services or queue locations within the application.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **CSM Walk-up Experience** &gt; **Administration** &gt; **Appointment Configurations**.
 
-2.  Click **New** to create a new service configuration.
+2.  Select **New** to create a new service configuration.
 
-    Alternatively, you can click an existing service configuration to modify data.
+    Alternatively, you can select an existing service configuration to modify data.
 
 3.  In the Appointment Booking Service Configuration form, fill in the following fields as needed.
 
@@ -94,11 +98,11 @@ Catalog item
 
 The service in the service catalog for which you are creating this appointment booking configuration. Click the lookup icon and select the associated service from the Record Producers list.
 
- You must create a record producer for each walk-up service location.
+ You must create a record producer for each walk-up service location. For more information, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DefRecProdInSCat.md).
 
 **Note:** The catalog item must exist in the service catalog.
 
- If you are using appointment booking with work orders, create a work order template before you configure appointment booking.
+ If you're using appointment booking with work orders, create a work order template before you configure appointment booking.
 
 </td></tr><tr><td>
 

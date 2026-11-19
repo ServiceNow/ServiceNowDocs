@@ -97,7 +97,7 @@ Log Viewer
 
 </td><td>
 
-Opens the **Log Viewer**, which shows the frequency of anomalies in the log data during a specific time period. For more information, see [Review alert-related logs on the Log Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept.md). **Note:** The Log Viewer option appears only if the Service Operations Workspace Log Analytics application is installed.
+Opens the **Log Viewer**, which shows the frequency of anomalies in the log data during a specific time period. For more information, see [Log Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/hla-op-logs-log-viewer-concept-sow.md). **Note:** The Log Viewer option appears only if the Service Operations Workspace Log Analytics application is installed.
 
 </td></tr></tbody>
 </table>7.  When you have resolved any data streaming issues and fixed the configuration, select **Test and save**.

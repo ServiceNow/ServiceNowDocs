@@ -7,7 +7,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -28,7 +28,7 @@ Role required: security\_admin.
 
 2.  Add an access control record with the following information.
 
-<table id="choicetable_ojc_l32_s4"><tbody><tr><td id="d184132e110">
+<table id="choicetable_ojc_l32_s4"><tbody><tr><td id="d181486e110">
 
 **_Type_**
 
@@ -36,7 +36,7 @@ Role required: security\_admin.
 
 `record`
 
-</td></tr><tr><td id="d184132e125">
+</td></tr><tr><td id="d181486e125">
 
 **_Operation_**
 
@@ -44,7 +44,7 @@ Role required: security\_admin.
 
 ``report_on``
 
-</td></tr><tr><td id="d184132e143">
+</td></tr><tr><td id="d181486e143">
 
 **_Name_ \(table\)**
 

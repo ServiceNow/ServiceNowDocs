@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/service-management-for-the-enterprise/t\_ActivateServiceManagement.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Service Management]
 ---
@@ -46,9 +46,9 @@ After the Service Management Core plugin has been activated, you can activate ot
 **Related topics**  
 
 
-[Process flow formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ProcessFlowFormatter.md)
+[bundle-platadm.r_ProcessFlowFormatter]
 
-[State flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_StateFlows.md)
+[bundle-platcap.c_StateFlows]
 
-[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_ManagedDocuments.md)
+[bundle-platcap.c_ManagedDocuments]
 

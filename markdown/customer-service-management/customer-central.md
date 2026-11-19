@@ -5,28 +5,28 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-central.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 5
+breadcrumb: [CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Customer Central
 
 Customer Central provides customer service agents with all the information about the customer in one central place. It enables them to quickly zoom in on the customer issues and provide efficient and supportive service to their customers.
 
-Customer service agents or location agents can view customer central on the interaction, case, account, contact, or consumer records in CRM Workspace in the form of two views: Customer Information and Customer History.
+Customer service agents or location agents can view customer central on the interaction, case, account, contact, or consumer records in CSM Configurable Workspace as two tabs: Customer Information and Customer History. Customer Central isn't available on incident or request records.
 
-Starting with the Yokohama release, the [Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central.md) displays customer activity information on some record pages in CRM Workspace.
+Starting with the Yokohama release, the [Customer History component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central.md) displays customer activity information on some record pages in CSM Configurable Workspace.
 
-## Customer Information view
+## Customer Information tab
 
-The Customer Information view displays key information about the customer and a view of all recent customer touch points with the service organization. It contains a number of predefined lists, records, reports, and report groups that are highly configurable, or you can create your own. You can also configure the number of days to display the data for.
+The Customer Information tab displays key information about the customer and a view of all recent customer touch points with the service organization. It contains a number of predefined lists, records, reports, and report groups that are highly configurable, or you can create your own. You can also configure the number of days to display the data for.
 
-\[Omitted image "customer-information.jpg"\] Alt text: Customer Information tab displaying customer contact information and recent engagements with the customer, including chat interactions, high priority, and recent cases and phone calls.
+\[Omitted image "customer-information.jpg"\] Alt text: Customer Information tab on an account record displaying the account's primary contact, phone, and address, high-priority case counts, a cases overview chart, and recent cases, chats, and SMS conversations.
 
-## Customer History view
+## Customer History tab
 
-The Customer History view displays all the recent customer touch points with the service organization in the form of an activity feed. If the [Enable facets check box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-history-component-features.md) is selected in UI Builder, facets appear on the left-hand side. Otherwise, a filter icon is displayed. The data in the activity feed is displayed based on the facet or filter you select. It contains a number of predefined categories and activities that are highly configurable, or you can create your own. You can also select a date range to display the data for.
+The Customer History tab displays all the recent customer touch points with the service organization in the form of an activity feed. If the [Enable facets check box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-history-component-features.md) is selected in UI Builder, facets appear on the left-hand side. Otherwise, a filter icon is displayed. The data in the activity feed is displayed based on the facet or filter you select. It contains a number of predefined categories and activities that are highly configurable, or you can create your own. You can also select a date range to display the data for.
 
 \[Omitted image "customer-activity.png"\] Alt text: Customer History tab listing different categories of customer engagement activities and the activity feed details for a selected facet.
 
@@ -53,7 +53,7 @@ The Customer History component displays customer, consumer, or account history i
 
 The Customer History component includes the Customer tab. This tab displays customer, consumer, or account history information, depending on the customer information provided on the interaction record. This tab includes a search field, filter, and date range selector that agents can use to find specific information in the history.
 
-The Customer History component is available on the following record pages in CRM Workspace:
+The Customer History component is available on the following record pages in CSM Configurable Workspace:
 
 -   [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-front-line-case-page.md): Appears in the contextual side panel.
 -   [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-native-voice-record-page.md): Appears in the left pane.
@@ -77,7 +77,7 @@ For more information about the Customer history component, see the following top
 
 ## Customer Central plugin
 
-The Customer Central application \(com.sn\_csm\_customer\_central\) is activated with the CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CRM Workspace application is activated with the Case Management Core plugin \(com.sn\_customerservice\).
+The Customer Central application \(com.sn\_csm\_customer\_central\) is activated with the CSM Configurable Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CSM Configurable Workspace application is activated with the Customer Service plugin \(com.sn\_customerservice\).
 
 Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store. Any new enhancements to this application are delivered through the Customer Central store app.
 

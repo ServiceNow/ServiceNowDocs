@@ -1,24 +1,24 @@
 ---
 title: Create a connected Zoom application
-description: Create a connected application in your Zoom account to set up OAuth 2.0 authentication between the Zoom APIs and DEX for Zoom. After creating the connected app, you can add scopes that enable you to perform different actions from the DEX for Zoom.
+description: Create a connected application in your Zoom account to establish an OAuth 2.0 level of authentication between the Zoom APIs and the DEX for Zoom on the ServiceNow AI Platform. After creating the connected app, you can add scopes that enable you to perform different actions from the DEX for Zoom.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/create-a-connected-zoom-app.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring DEX for Zoom, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Create a connected Zoom application
 
-Create a connected application in your Zoom account to set up OAuth 2.0 authentication between the Zoom APIs and DEX for Zoom. After creating the connected app, you can add scopes that enable you to perform different actions from the DEX for Zoom.
+Create a connected application in your Zoom account to establish an OAuth 2.0 level of authentication between the Zoom APIs and the DEX for Zoom on the ServiceNow AI Platform. After creating the connected app, you can add scopes that enable you to perform different actions from the DEX for Zoom.
 
 ## Before you begin
 
-1.  A Zoom account is required.
+1.  Create a Zoom account
 2.  Role required: Zoom admin
 
 ## About this task
@@ -35,7 +35,7 @@ Creating the connected app is a one-time activity.
 
 4.  Select **Create**.
 
-5.  Select the default name of the app and update the name.
+5.  Double-click the default name of the app and update the name.
 
     \[Omitted image "zoom-spk-app-name.png"\] Alt text: Update general app name.
 
@@ -43,7 +43,7 @@ Creating the connected app is a one-time activity.
 
 7.  Select **Save**.
 
-8.  Under the **App Credentials** section, copy the Client ID and Client secret and store them in a secure place.
+8.  Under the **App Credentials** section, copy the Client ID and Client secret and store them at a secure place.
 
     \[Omitted image "zoom-spk-client-id-secret.png"\] Alt text: Client ID and client secret.
 

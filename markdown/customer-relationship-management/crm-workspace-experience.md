@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-relationship-management/crm-workspace-experience.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-28"
 reading_time_minutes: 1
 breadcrumb: [Customer Relationship Management]
 ---
@@ -18,7 +18,7 @@ The workspace experience applications give administrators and implementation par
 
 -   **[Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-relationship-management/crm-configurable-workspace.md)**
 
-    Understand how CRM Workspace provides a unified, configurable environment for agents to manage cases, access customer information, and use resolution tools, all without leaving the workspace.
+    Understand how CSM Configurable Workspace provides a unified, configurable environment for agents to manage cases, access customer information, and use resolution tools, all without leaving the workspace.
 
 -   **[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-relationship-management/crm-playbooks.md)**
 

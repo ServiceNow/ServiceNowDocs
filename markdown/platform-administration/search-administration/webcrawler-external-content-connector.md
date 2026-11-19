@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-09-04"
+last_updated: "2026-11-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -27,7 +27,9 @@ Each Webcrawler connector can retrieve up to 30,000 items \(URLs\) from its sour
 
 **Note:** This is an exception to the general content crawl limit of one million \(1,000,000\) items.
 
-By default, you can configure up to three Webcrawler connectors for custom web sources. If you need to retrieve items from more than three custom web sources, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the Webcrawler connector.
+The webcrawler considers the `robots.txt` configuration of target websites when crawling content. Website owners remain responsible for defining and maintaining `robots.txt` directives. Crawling behavior may be limited by these directives, which can affect content discovery and indexing results.
+
+By default, you can configure up to three Webcrawler connectors for custom web sources. If you need to retrieve items from more than three custom web sources, you can create a Customer Service and Support case at [https://support.servicenow.com/now?draw=case](https://support.servicenow.com/now?draw=case) to request a limit increase for the Webcrawler connector.
 
 -   **[Predefined web sources for the Webcrawler external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/webcrawler-predefined-web-sources.md)**  
 The Webcrawler external content connector provides access to a curated set of predefined public web sources. Search administrators can run Webcrawler connector crawls to make content from these web sources searchable within the ServiceNow AI Platform®.

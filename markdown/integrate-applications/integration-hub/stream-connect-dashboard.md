@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 14
 breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
@@ -250,14 +250,14 @@ Each individual consumer page has the following components.
     -   Topics writing to: The total number of topics the producer is writing to.
     -   Messages produced rate: The average number of messages produced per second.
     -   Bytes produced rate: The average number of bytes produced per second.
-    -   Undelivered messages: The total number of undelivered messages for the producer. If you're viewing data for a Stream Producer, this shows Pending messages instead of Undelivered messages. Pending messages refers to the messages in the staging table for this producer that are waiting to be produced.
+    -   Undelivered messages: The total number of undelivered messages for the producer.
     -   Messages produced: Shows the number of messages produced over the last seven days.
     -   Bytes Produced: Shows the number of bytes produced over the last seven days.
     This data is updated every hour. The Messages produced and Bytes produced charts can be filtered to display data for the **Last 2 days**, **Last 24 hours**, **Last 7 days**, or a **Custom range**.
 
 -   **22. Statistics**
 
-    Displays producer statistics, including the date, number of produced messages and bytes, topic alias, and domain. If you're viewing data for a Stream Producer, this section also shows the Stream Producer CDC Statistics.
+    Displays producer statistics, including the date, number of produced messages and bytes, topic alias, and domain.
 
 
 For a detailed description of Producer data and statistics, see [Viewing producer statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/producer-statistics.md).

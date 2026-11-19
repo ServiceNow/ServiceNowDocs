@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ia-configure-il.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2025-12-04"
 reading_time_minutes: 7
 breadcrumb: [Configure, ServiceNow Otto for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -42,7 +42,7 @@ Role required: admin
 
 3.  Select **Get Started** on the modules.
 
-    You are redirected to the first configuration of the selected module. See [Configure the Platform module in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md) for more information on Platform configuration steps.
+    You are redirected to the first configuration of the selected module. See [Platform module configuration in ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ia-config-platform-il.md) for more information on Platform configuration steps.
 
 4.  Find a console item efficiently using the Search configurations search bar on the left navigation.
 
@@ -50,7 +50,7 @@ Role required: admin
 
     **Note:** The configurations that are pre-configured are marked with a checkmark and a magic wand. You can modify the default configurations that are preconfigured and marked with a Magic icon.
 
-6.  Select the Manage Task icon \[Omitted image "image.ia-manage-task-icon"\] Alt text: on a selected console item.
+6.  Select the Manage Task icon \[Omitted image "ia-manage-task-icon.png"\] Alt text: on a selected console item.
 
     You can then either create a new task or open a related task. If you select the Create a task option, the Product Console Task form. Fill up the fields on the form and select **Submit** to create a new task for the console item.
 

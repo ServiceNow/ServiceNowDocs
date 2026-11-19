@@ -1,19 +1,19 @@
 ---
 title: Example prompts for MCP for Enterprise Architecture
-description: Example prompts that you can use with MCP for Enterprise Architecture, with the role that typically asks each one and the outcome it produces.
+description: High-value prompts that you can use with MCP for Enterprise Architecture, with the role that typically asks each one and the outcome it drives.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/ea-mcp-server-example-prompts.html
 release: australia
 topic_type: reference
 last_updated: "2026-10-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [EA MCP server, example prompts]
-breadcrumb: [Reference, MCP for Enterprise Architecture, Enterprise Architecture]
+breadcrumb: [Use MCP server, MCP for Enterprise Architecture, Enterprise Architecture]
 ---
 
 # Example prompts for MCP for Enterprise Architecture
 
-Example prompts that you can use with MCP for Enterprise Architecture, with the role that typically asks each one and the outcome it produces.
+High-value prompts that you can use with MCP for Enterprise Architecture, with the role that typically asks each one and the outcome it drives.
 
 To answer these prompts, your AI assistant can combine several MCP for EA tools in one response. The results depend on the EA data in your instance. For the tools that are available, see [Explore MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/exploring-ea-mcp-server.md).
 
@@ -30,12 +30,10 @@ To answer these prompts, your AI assistant can combine several MCP for EA tools 
 |`Does this diagram match what actually exists in our CMDB? Show me missing components, undocumented integrations, and outdated relationships.`|Enterprise architect|Trustworthy diagrams, by closing the gap between documented architecture and the operational landscape.|
 |`Identify single points of failure, security gaps, and integration bottlenecks in this architecture, and suggest how to fix them.`|Solution architect or capability owner|Stronger resilience and security designs, with concrete improvement recommendations before the design goes into build.|
 
-**Parent Topic:**[MCP for Enterprise Architecture reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/reference-ea-mcp-server.md)
+**Parent Topic:**[Using MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/using-ea-mcp-server.md)
 
 **Related topics**  
 
-
-[Access Enterprise Architecture data using MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/access-ea-data-using-mcp-tools.md)
 
 [MCP for Enterprise Architecture tool parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/ea-mcp-server-tool-parameters.md)
 

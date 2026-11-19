@@ -7,9 +7,9 @@ release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Evaluation tab, AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Evaluation tab, Control Tower Home, Control Tower dashboard, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Human feedback for evaluations

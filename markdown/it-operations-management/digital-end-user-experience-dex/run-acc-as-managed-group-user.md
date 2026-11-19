@@ -7,10 +7,10 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-10-22"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [run acc managed group user, acc service account, managed group, run agent client collector as user, service log on account]
-breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Install ACC on Windows, Installing DEX on your local machine, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Run ACC as a managed group user
@@ -19,14 +19,14 @@ Run Agent Client Collector \(ACC\) from a managed group account to meet your org
 
 ## Before you begin
 
-A user must be created and added to the following groups:
+Create a user and add the user to the following groups:
 
 -   Remote Desktop users: Required to fetch the logged-in user details.
--   Performance Monitor users: Required to fetch all performance-related metrics at the application and device level.
--   ServiceNow users: Granted privileges for Performance Monitor, Log on as a service, and Debug program.
--   Administrator users: Equivalent to a local system user, provides access to fetch information about BitLocker, energy consumption, and so on.
+-   Performance Monitor users: Required to fetch all performance-related metrics of application and device level.
+-   ServiceNow users: Has privileges to Performance Monitor, Log on as a service, and Debug program.
+-   Administrator users: Equivalent to a local system user, provides access to fetch information on Bit locker, energy consumption, and so on.
 
-Role required: none
+Role required: admin
 
 ## Procedure
 
@@ -36,10 +36,12 @@ Role required: none
 
 3.  Select **Properties**.
 
-4.  Select the **Log On** tab.
+4.  Select the **Log on** tab.
 
 5.  Select the user that you created.
 
 6.  Select **OK**.
 
+
+**Parent Topic:**[Install ACC for DEX on Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/install-acc-for-dex-windows.md)
 

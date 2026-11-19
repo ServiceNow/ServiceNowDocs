@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/important-choices-reference.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Update the Important choices module, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Update the Importance choices module, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # GRC Choices form

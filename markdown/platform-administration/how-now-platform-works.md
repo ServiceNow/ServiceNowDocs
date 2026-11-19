@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/how-now-platform-works.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-08"
 reading_time_minutes: 6
 breadcrumb: [Get started, Administer the ServiceNow AI Platform]
 ---
@@ -13,8 +13,6 @@ breadcrumb: [Get started, Administer the ServiceNow AI Platform]
 # How the ServiceNow AI Platform works
 
 The ServiceNow AI Platform is the unified foundation for every ServiceNow product, bringing together AI, data, workflows, and security on a single data model.
-
-## Video overview
 
 \[Omitted video\] Description: Overview of ServiceNow AI Platform architecture
 
@@ -62,7 +60,7 @@ The Workflow Data Fabric enables connections between instances and external serv
 
 The ServiceNow AI Platform delivers [AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-products.md) and intelligent [AI Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/na-ai-agents.md) that go beyond recommendations to take action—running workflows across enterprise systems, all governed by your business rules and policies. Now Assist, generative AI, and flexible large language model \(LLM\) integration bring AI capabilities across every department.
 
-The platform supports prompt customization and prebuilt AI experiences, with full visibility through [AI Control Tower \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-control-tower-landing.md). Customize and extend capabilities with AI Agent Fabric to fit your organization's needs.
+The platform supports prompt customization and prebuilt AI experiences, with full visibility through [Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-landing.md). Customize and extend capabilities with AI Agent Fabric to fit your organization's needs.
 
 ## Platform agentic workflows
 

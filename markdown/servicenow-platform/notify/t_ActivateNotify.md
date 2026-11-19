@@ -1,20 +1,20 @@
 ---
 title: Activate Notify
-description: You can activate the Notify \(com.snc.notify\) plugin if you are an administrator. This plugin includes demo data and activates related plugins if they are not already active.
+description: Activate the Notify \(com.snc.notify\) plugin, which includes demo data and activates related plugins that are not already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/t\_ActivateNotify.html
 release: australia
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configuring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Activate Notify
 
-You can activate the Notify \(com.snc.notify\) plugin if you are an administrator. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Notify \(com.snc.notify\) plugin, which includes demo data and activates related plugins that are not already active.
 
 ## Before you begin
 
@@ -76,7 +76,7 @@ When migrating to Notify from the Legacy Notify functionality, several changes a
 **Related topics**  
 
 
-[bundle-platadm.list-of-plugins]
+[List of plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/list-of-plugins.md)
 
-[bundle-platadm.r_ConfigureE.164PhoneNumberFields]
+[E.164 phone number field configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/r_ConfigureE.164PhoneNumberFields.md)
 

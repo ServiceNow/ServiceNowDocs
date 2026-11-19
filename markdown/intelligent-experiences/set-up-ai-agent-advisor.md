@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/set-up-ai-agent-advisor.html
 release: australia
 topic_type: task
-last_updated: "2026-11-03"
+last_updated: "2026-10-02"
 reading_time_minutes: 2
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
-breadcrumb: [Configure, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Configure, AI Agent Advisor, AI Admin Center, Enable AI experiences]
 ---
 
 # Confirm installation of AI Agent Advisor

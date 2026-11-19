@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/customize-column-descriptions.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-17"
 reading_time_minutes: 2
 keywords: [semantic layer, column descriptions, usage instructions, query generation, dimensions, Semantic Column Configuration, update sets]
 breadcrumb: [Customizing semantic metadata, Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]

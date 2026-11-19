@@ -1,6 +1,6 @@
 ---
 title: Configure user mapping settings for an external content connector
-description: Override the default field mappings for an external content connector's user permission crawls. Specify the fields that uniquely identify user security principals in your source system and users in your ServiceNow AI Platform instance. Optionally execute a custom script to transform security principal IDs before they're compared with the IDs of users in your instance.
+description: Override the default field mappings for an external content connector's user permissions crawls. Specify the fields that uniquely identify user security principals in your source system and users in your ServiceNow AI Platform instance. Optionally execute a custom script to transform security principal IDs before they're compared with the IDs of users in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-user-mapping-settings-external-content-connector.html
 release: australia
@@ -8,14 +8,14 @@ product: Search Administration
 classification: search-administration
 topic_type: task
 last_updated: "2026-10-22"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure user mapping settings for an external content connector
 
-Override the default field mappings for an external content connector's user permission crawls. Specify the fields that uniquely identify user security principals in your source system and users in your ServiceNow AI Platform® instance. Optionally execute a custom script to transform security principal IDs before they're compared with the IDs of users in your instance.
+Override the default field mappings for an external content connector's user permissions crawls. Specify the fields that uniquely identify user security principals in your source system and users in your ServiceNow AI Platform® instance. Optionally execute a custom script to transform security principal IDs before they're compared with the IDs of users in your instance.
 
 ## Before you begin
 
@@ -23,11 +23,13 @@ Role required: sn\_ext\_conn.xcc\_admin or admin
 
 ## About this task
 
-User permission crawls for external content connectors retrieve user security principals from your source system and map them to users in your ServiceNow AI Platform instance. A user security principal from the source system should map to no more than one user in your instance.
+User permissions crawls for external content connectors retrieve user security principals from your source system and map them to users in your ServiceNow AI Platform instance. A user security principal from the source system should map to no more than one user in your instance.
 
 Each external content connector specifies a predefined source system field that the connector uses as the unique identifier for user security principals in the source system. As an example, a connector might specify a username or email address field as the principal identifier for its source system. All connectors default to using the email field from the Users \[sys\_user\] table as the unique identifier for users in your ServiceNow AI Platform instance.
 
 If you need to specify a different field as the identifier for source system principals or instance users, you can override the default field selections for the external content connector. You can optionally execute a custom script to transform source field values to make them match destination field values for users in your ServiceNow AI Platform instance.
+
+**Note:** The Amazon S3 external content connector includes additional optional user mapping settings. For details on configuring these optional settings, see [Configure permission mode and user mapping settings for an Amazon S3 external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-amazon-s3-permission-settings-external-content-connector.md), [Amazon S3 external content connector permission modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/amazon-s3-permission-modes-external-content-connector.md), [Amazon S3 bucket policy elements supported by the external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/amazon-s3-bucket-policy-support-external-content-connector.md), and [AWS permissions required for Amazon S3 external content connector permission modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/amazon-s3-required-permissions-external-content-connector.md).
 
 ## Procedure
 
@@ -45,7 +47,7 @@ If you need to specify a different field as the identifier for source system pri
 
     Only perform this step if you want to transform source system field values before they're compared with destination field values in your ServiceNow AI Platform instance. As an example, if your source system identifies user security principals with user IDs like `beth.anglin` but your ServiceNow AI Platform instance users have email-based usernames like `beth.anglin@example.com`, you might use the script to append the @ symbol and your domain name to each user security principal ID so that it correctly matches a ServiceNow AI Platform username.
 
-    **Warning:** The system executes your custom script for each user security principal retrieved by the external content connector's user permission crawl. A long-running script can affect performance for the user mapping crawl. Keep your custom scripts as simple as possible.
+    **Warning:** The system executes your custom script for each user security principal retrieved by the external content connector's user permissions crawl. A long-running script can affect performance for the user permissions crawl. Keep your custom scripts as simple as possible.
 
     The custom script must include a function that transforms the incoming field value for a user from the connector's source system to an output value that will be used to match a user in the ServiceNow AI Platform's User \[sys\_user\] table. Continuing the previous example, you might define this custom script to transform bare usernames into user email addresses in your domain:
 
@@ -109,11 +111,11 @@ If you need to specify a different field as the identifier for source system pri
 
 The external content connector is updated with your modified user mapping settings.
 
-If you configured a custom script, any script errors encountered during user permission crawls are recorded in the Alerts section of the connector's crawl details page. To learn about accessing the crawl details page from an external content connector's crawl history entry, see [Review crawl history for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/review-crawl-ext-cont-connector.md).
+If you configured a custom script, any script errors encountered during user permissions crawls are recorded in the Alerts section of the connector's crawl details page. To learn about accessing the crawl details page from an external content connector's crawl history entry, see [Review crawl history for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/review-crawl-ext-cont-connector.md).
 
 ## What to do next
 
-To retrieve updated user permissions from your source system using your modified settings, create and run a user permission crawl for the external content connector that you edited. To learn about creating and running user permission crawls, see [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
+To retrieve updated user mappings from your source system using your modified settings, create and run a user permissions crawl for the external content connector that you edited. To learn about creating and running user permissions crawls, see [Create a user permissions crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
 
 **Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 

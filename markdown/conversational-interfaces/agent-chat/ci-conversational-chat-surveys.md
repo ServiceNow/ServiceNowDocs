@@ -7,7 +7,7 @@ release: australia
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Explore, Agent Chat, Conversational Interfaces]
 ---
@@ -31,7 +31,7 @@ After creating the surveys, administrators configure the surveys to run as conve
 
 ## Activating and deactivating pre-chat surveys in Now Assist
 
-By default, you can manage pre-chat surveys by navigating to **All** &gt; **Conversational interfaces** &gt; **Settings** and and opening **Pre-chat surveys** in the **General** tab. Now Assist honors these settings in both Virtual Agent and Self-service.
+By default, you can manage pre-chat surveys by navigating to **All** &gt; **Conversational interfaces** &gt; **Settings** and opening **Pre-chat surveys** in the **General** tab. Now Assist honors these settings in both Virtual Agent and Self-service.
 
 You can also turn pre-chat surveys on and off specifically for Now Assist Self Service. Navigate to **All** &gt; **sys\_properties.list**, and under **com.glide.cs.nass.prechat.enabled** set the value to `True` or `False`.
 
@@ -53,7 +53,7 @@ Setting up chat surveys involves these main steps:
 
     Determine the pre-chat questionnaire to be presented to your requesters based on conditions that you apply.
 
--   **[4. Define post-chat survey configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/advanced-work-assignment/define-post-chat-survey-config.md)**
+-   **[4. Define post-chat survey configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/define-post-chat-survey-config.md)**
 
     Control the post-chat questionnaire displayed to your requesters to gather feedback on their experience with live agents.
 

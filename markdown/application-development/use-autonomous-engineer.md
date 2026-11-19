@@ -1,26 +1,28 @@
 ---
 title: Use Autonomous Engineer to implement an application
-description: Use Autonomous Engineer \(powered by Build Agent\) to generate a plan from your requirements and build all work items in parallel, without creating each artifact individually. When implementing a ServiceNow product or application, Autonomous Engineer uses agent packs to give background agents product-specific domain knowledge.
+description: Use Autonomous Engineer \(powered by Build Agent\) to generate a plan from your requirements and build all work items in parallel, without creating each artifact individually. Autonomous Engineer uses agent packs to give background agents the knowledge to build custom applications on the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/use-autonomous-engineer.html
 release: australia
 topic_type: task
-last_updated: "2026-10-22"
+last_updated: "2026-11-10"
 reading_time_minutes: 5
-keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Autonomous Engineer, agent packs, Build Agent, implementation plan, work items, parallel execution, agile user stories, ATF tests, update set, ServiceNow Studio, plan dashboard, MCP server, application development, requirements interview, ServiceNow products]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Autonomous Engineer, agent packs, Build Agent, implementation plan, work items, parallel execution, agile user stories, ATF tests, update set, ServiceNow Studio, plan dashboard, MCP server, application development, requirements interview]
 audience: programmer
-breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Use, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Use Autonomous Engineer to implement an application
 
-Use Autonomous Engineer \(powered by Build Agent\) to generate a plan from your requirements and build all work items in parallel, without creating each artifact individually. When implementing a ServiceNow product or application, Autonomous Engineer uses agent packs to give background agents product-specific domain knowledge.
+Use Autonomous Engineer \(powered by Build Agent\) to generate a plan from your requirements and build all work items in parallel, without creating each artifact individually. Autonomous Engineer uses agent packs to give background agents the knowledge to build custom applications on the platform.
 
 ## Before you begin
 
 **Note:** You must install the Autonomous Engineer app from the ServiceNow Store. Check your entitlements to see whether you can use Autonomous Engineer.
 
 Role required: admin
+
+## About this task
 
 ## Procedure
 
@@ -38,6 +40,7 @@ Role required: admin
     |------|-----|
     |**Describe your requirements in plain language**|Enter a description of what you plan to implement in the chat panel. Include as much detail as available. See [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-example-prompts.md) for some ideas.|
     |**Upload a file of requirements**|Attach a file, such as a CSV of user stories, to the chat panel.|
+    |**Read requirements from a connected tool**|Ask Autonomous Engineer in the chat panel to read the requirements from a connected MCP server, such as a project management tool. To connect a server, see [MCP connections and Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-mcp-connections.md).|
 
 4.  Answer any interview questions that Autonomous Engineer asks to clarify your requirements.
 
@@ -97,7 +100,7 @@ Role required: admin
 
 13. When a work item reaches the Needs validation status, open it to verify the results and mark it complete.
 
-    A work item in Needs validation status shows a validation section with Test Agent \(ATF\) test results and a list of the artifacts that were created. If you used an agent pack, the tests are product-specific.
+    A work item in Needs validation status shows a validation section with Test Agent \(ATF\) test results and a list of the artifacts that were created.
 
     If the results look correct, select **Mark as complete**. To make changes, edit the work item content and ask Autonomous Engineer to retry.
 

@@ -1,6 +1,6 @@
 ---
 title: Configure crawl settings for a Zendesk Guide external content connector
-description: Specify the article locales and attachment file types you want your Zendesk Guide external content connector to crawl when running content crawls. Define inclusion or exclusion filters for domains to restrict the set of users the crawl retrieves access permissions for when running user permission crawls.
+description: Specify the article locales and attachment file types you want your Zendesk Guide external content connector to crawl when running content crawls. Define inclusion or exclusion filters for domains to restrict the set of users the crawl retrieves access permissions for when running user permissions crawls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-crawl-settings-zendesk-guide-external-content-connector.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Zendesk Guide external content connector, Configure, External Conte
 
 # Configure crawl settings for a Zendesk Guide external content connector
 
-Specify the article locales and attachment file types you want your Zendesk Guide external content connector to crawl when running content crawls. Define inclusion or exclusion filters for domains to restrict the set of users the crawl retrieves access permissions for when running user permission crawls.
+Specify the article locales and attachment file types you want your Zendesk Guide external content connector to crawl when running content crawls. Define inclusion or exclusion filters for domains to restrict the set of users the crawl retrieves access permissions for when running user permissions crawls.
 
 ## Before you begin
 
@@ -25,9 +25,9 @@ Role required: sn\_ext\_conn.xcc\_admin
 
 ## About this task
 
-This task is optional. By default, the Zendesk Guide external content connector crawls all users from the source system during user permission crawls. During content crawls, it defaults to retrieving help center articles from all locales and retrieving all attachments with supported file extensions. Only perform this task if you want the connector to use any of the following non-default settings:
+This task is optional. By default, the Zendesk Guide external content connector crawls all users from the source system during user permissions crawls. During content crawls, it defaults to retrieving help center articles from all locales and retrieving all attachments with supported file extensions. Only perform this task if you want the connector to use any of the following non-default settings:
 
--   Inclusion or exclusion filters for the user accounts to access on the source system when running user permission crawls
+-   Inclusion or exclusion filters for the user accounts to access on the source system when running user permissions crawls
 -   Inclusion or exclusion filters for the help center article locales to crawl when running content crawls
 -   Inclusion or exclusion filters for the attachment file extensions to retrieve when running content crawls
 
@@ -41,7 +41,7 @@ When a connector's indexed content item count exceeds 800,000, a warning message
 
 External content connectors that support user permissions crawls can handle permissions for up to five hundred thousand \(500,000\) users and their groups. If a connector retrieves users in excess of this limit, user and group permissions may not be correctly applied to the connector's retrieved content. As a result, the content may not be searchable.
 
-If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. If you need to index more content items than the limit allows, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
+If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. If you need to index more content items than the limit allows, you can create a Customer Service and Support case at [https://support.servicenow.com/now?draw=case](https://support.servicenow.com/now?draw=case) to request a limit increase for the connector.
 
 ## Procedure
 
@@ -51,12 +51,12 @@ If one of your connectors reaches the content indexing limit, you can update its
 
 3.  In the connector editor's **Settings** tab, select **Crawl settings**.
 
-4.  Select one of the following **User permission filtering** options:
+4.  Select one of the following **User mapping filtering** options:
 
-    -   To retrieve user permissions for all users from the source system, select **Map all users**.
-    -   To only retrieve user permissions for users from specified domains in the source system, select **Map only these users**, then use the **Add domain for user email addresses to include** field and **Add** button to enter domains whose users you want to include in the user permission crawl.
+    -   To retrieve user mappings for all users from the source system, select **Map all users**.
+    -   To only retrieve user mappings for users from specified domains in the source system, select **Map only these users**, then use the **Add domain for user email addresses to include** field and **Add** button to enter domains whose users you want to include in the user permissions crawl.
 
-        For example, you might enter `example.com` to include only user permissions for users from the specified domain.
+        For example, you might enter `example.com` to include only user mappings for users from the specified domain.
 
 5.  Select one of the following **Locale filtering** options:
 
@@ -89,7 +89,7 @@ If one of your connectors reaches the content indexing limit, you can update its
     This option is only available when the Platform Multimodal Service plugin is activated on your instance.
 
     -   For details on activating the plugin, see [Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md).
-    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
+    -   To learn how to select the VLM \(visual learning model\) provider and model used for the Platform Multimodal Service, see [Configure multimodal captioning with AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
 8.  Select **Save and validate**.
 
 

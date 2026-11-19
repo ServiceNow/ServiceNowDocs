@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/domain-order-attribute-somt.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-06"
 reading_time_minutes: 4
 breadcrumb: [Defining attribute mapping, Product offerings and catalogs, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -36,7 +36,7 @@ If a decomposition rule depends on an attribute-mapping rule, the order decompos
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+1.  In the CSM Configurable Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Specifications** and select a specification type.
 
@@ -135,11 +135,7 @@ Source characteristic that you select.
 
 ## Result
 
- 
-
 The order fulfillment process evaluates the attribute-mapping rules that you define. The attribute values are propagated from the domain orders that are associated with the source specification to the domain orders that are associated with the target specification.
-
- 
 
 ## What to do next
 

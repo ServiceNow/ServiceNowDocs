@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/ba-configure-custom-skills-rules.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-03"
 reading_time_minutes: 4
 keywords: [custom skills, custom rules, build agent, configure, instructions, ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Configure custom skills and rules
@@ -16,6 +16,8 @@ breadcrumb: [Configure, Build Agent, Build, AI Workflow Factory Prime, Agentic a
 Create and manage custom skills and rules, or instructions to control how Build Agent behaves during a session. Rules are preloaded into every session automatically. Skills are available on demand when you or the agent invokes them by name.
 
 ## Before you begin
+
+You must be on Australia Patch 5 or later to work with custom skills and rules.
 
 Role required: admin
 
@@ -47,19 +49,17 @@ Each skill or rule instruction has an **Applies To** setting that controls which
 
 1.  Navigate to **All** &gt; **App Development** &gt; **ServiceNow Studio**.
 
-2.  Select the Conversations icon \[Omitted image "ba-sns-otto-nav-icon.png"\] Alt text: in the Navigator panel to open Build Agent.
-
-3.  Select the Settings icon \[Omitted image "ba-settings-icon.png"\] Alt text: in the Build Agent chat panel.
+2.  Select the Settings icon \[Omitted image "ba-settings-icon.png"\] Alt text: in the Build Agent chat panel.
 
     \[Omitted image "ba-settings-panel-1.png"\] Alt text: Build Agent panel showing greeting message and the Settings button
 
-4.  Select the tab for the type of instruction you're creating.
+3.  Select the tab for the type of instruction you're creating.
 
     -   Select the **Skills** tab to create a custom skill.
     -   Select the **Rules** tab to create a custom rule.
-5.  Select the **Create skill** or **Create rule** button.
+4.  Select the **Create skill** or **Create rule** button.
 
-6.  On the form, fill in the fields.
+5.  On the form, fill in the fields.
 
 <table><thead><tr><th>
 
@@ -142,17 +142,17 @@ Instruction text that Build Agent follows. Plain text only, maximum 65,000 chara
 
     \[Omitted image "ba-new-custom-rule.png"\] Alt text: New rule editor form with Name, Type, Applies To, Active, Description, and Instructions for Build Agent fields, alongside the Rules settings panel listing existing custom rules with toggle switches.
 
-7.  Select **Save**.
+6.  Select **Save**.
 
     The new skill or rule appears in the settings panel list. The panel updates automatically to reflect the change.
 
-8.  Edit an existing instruction by selecting its Open rule record icon.
+7.  Edit an existing instruction by selecting its Open rule record icon.
 
     Make changes to the instruction, then select **Save**.
 
     \[Omitted image "ba-instruction-edit.png"\] Alt text: Rules panel showing two rule cards with toggles and edit icons
 
-9.  Enable or disable an instruction by selecting its toggle.
+8.  Enable or disable an instruction by selecting its toggle.
 
     \[Omitted image "ba-instruction-toggle.png"\] Alt text: Skills tab showing the toggle enabled for the add\_comments skill, highlighted with a purple box.
 

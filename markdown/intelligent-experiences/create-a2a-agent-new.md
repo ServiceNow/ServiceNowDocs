@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: task
 last_updated: "2026-10-16"
-reading_time_minutes: 6
-breadcrumb: [Integrate external AI agents, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+reading_time_minutes: 7
+breadcrumb: [Integrate external AI agents, AI Agent Studio, Enable AI experiences]
 ---
 
 # Create an external AI agent
@@ -113,7 +113,7 @@ The URL that points to the external AI agent's Agent Card. The URL should includ
 
     Choose which credentials access your external AI agent's execution endpoint. You can select an existing alias or create one. If you create one, a modal displays with options for configuring an OAuth or API Key authentication.
 
-    **Note:** For more information about the API Key credential, see .
+    **Note:** For more information about the API Key credential, see [A2A API Key credential behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/a2a-api-key-credential-behavior.md).
 
 6.  Configure access control lists \(ACLs\) for the external AI agent.
 

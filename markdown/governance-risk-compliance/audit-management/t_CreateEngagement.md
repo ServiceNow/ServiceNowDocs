@@ -7,8 +7,8 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Manage engagements, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
@@ -21,8 +21,6 @@ Audit managers create engagements to manage audit information and collect entiti
 Role required: sn\_audit.admin or sn\_audit.manager
 
 **Note:** For more information on engagements, see [Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/c_Engagements.md).
-
-Starting with Audit Management version 23.x.x, you can store supporting documents in Microsoft Word or PDF formats on evidence, engagement, and control test records. Use the ServiceNow Otto® panel to ask questions or summarize documents. Use voice assist to enable voice chat and audio summaries. For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/manage-documents-panel.md).
 
 ## About this task
 
@@ -121,7 +119,7 @@ Auditors
 
 </td><td>
 
-Auditors assigned to the engagement.
+Auditors were assigned to the engagement.
 
 </td></tr><tr><td>
 
@@ -337,14 +335,6 @@ Option to enable confidentiality of the record. Only the assigned users or group
 
 </td></tr></tbody>
 </table>3.  Select **Submit**.
-
-4.  Attach a document with the record in the Document panel.
-
-5.  Ask questions about the document in the ServiceNow Otto® panel.
-
-6.  Use voice assist to navigate documents with voice commands and receive audio summaries.
-
-    For more information, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/manage-documents-panel.md).
 
 
 **Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/audit-management/c_Engagements.md)

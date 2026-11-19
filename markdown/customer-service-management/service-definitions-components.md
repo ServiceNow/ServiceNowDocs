@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/service-definitions-components.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Customer service case types, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -206,7 +206,7 @@ sn\_csm\_case\_types.case\_type\_single\_field\_select
 
 </td><td>
 
-Set this property to true to enable the case type single select feature in CRM Workspace. When enabled, an agent can use this feature to create a case of a specific type with a single selection in the case type selector screen.-   **Type:** true \| false
+Set this property to true to enable the case type single select feature in CSM Configurable Workspace. When enabled, an agent can use this feature to create a case of a specific type with a single selection in the case type selector screen.-   **Type:** true \| false
 -   **Default value:** false
 -   **Location:** System Property \[sys\_properties\] table
 

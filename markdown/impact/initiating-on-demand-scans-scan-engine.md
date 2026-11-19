@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/initiating-on-demand-scans-scan-engine.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
 keywords: [application scans, Suite Scan, scan engine, Team Dev]
-breadcrumb: [Initiate and monitor scans, Scan your instance, Platform Health, Using Impact, Impact]
+breadcrumb: [Run on-demand scans, Run your first scan, Run Impact Guided Setup, Configuring Impact, Impact]
 ---
 
 # Initiate application scans
@@ -48,10 +48,12 @@ Role required: scan\_engine\_admin or system administrator
 
 View application health scores in the Application Health dashboard by navigating to **ALL** &gt; **Impact** &gt; **Platform Health** &gt; **Application Health**. Health scores are calculated based on finding severity, count, and policy impact.
 
+**Parent Topic:**[Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/using-impact-scan-engine.md)
+
 **Related topics**  
 
 
-[Configure application scanning properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configure-application-scanning-properties.md)
+[configure-application-scanning-properties]
 
 [Customize Scan Engine definition suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/create-scan-engine-definition-suites.md)
 

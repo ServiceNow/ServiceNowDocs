@@ -1,20 +1,20 @@
 ---
 title: DEX Insights reports
-description: The Digital End-User Experience \(DEX\) Insights tab provides reports on the user device battery health, system compliance, system performance, and system time.
+description: The Digital End-User Experience \(DEX\) Insights tab provides reports on the user device battery health, system compliance, system performance, and system time, which enables efficient monitoring and issue identification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/insights-reports.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # DEX Insights reports
 
-The Digital End-User Experience \(DEX\) Insights tab provides reports on the user device battery health, system compliance, system performance, and system time.
+The Digital End-User Experience \(DEX\) Insights tab provides reports on the user device battery health, system compliance, system performance, and system time, which enables efficient monitoring and issue identification.
 
 ## Battery health
 
@@ -48,7 +48,7 @@ Operating system
 
 </td><td>
 
-OS that manages and controls the device hardware and enables the execution of applications such as Windows or macOS.
+OS that manages and controls the device hardware, as well as enables the execution of applications such as Windows or macOS.
 
 </td></tr><tr><td>
 
@@ -118,8 +118,8 @@ Last time the record was updated.
 |User|Owner of the device.|
 |Event Name|Name of the event monitored on this device.|
 |Event Count|Number of the registered events on this device.|
-|OS Type|OS that manages and controls the device hardware and enables the execution of applications such as Windows or macOS.|
-|Log Level|Severity level of the log event being monitored, such as Debug, Error, Fault, Info, or Warning.|
+|OS Type|OS that manages and controls the device hardware, as well as enables the execution of applications such as Windows or macOS.|
+|Log Level|Selects the severity level of the log event being monitored, such as Debug, Error, Fault, Info, or Warning.|
 
 ## File management
 
@@ -222,7 +222,7 @@ Operating system
 
 </td><td>
 
-OS that manages and controls the device hardware and enables the execution of applications such as Windows or macOS.
+OS that manages and controls the device hardware, as well as enables the execution of applications such as Windows or macOS.
 
 </td></tr><tr><td>
 
@@ -313,7 +313,7 @@ Excessive I/O write operations might lead to performance bottlenecks, increased 
 |Boot time|Amount of time took for the device to boot.|
 |Up time|Amount of time that the device has been running.|
 |Time since provisioning|Amount of time that has passed since the device was provisioned.|
-|Last boot timestamp|Date and time when the last boot started.|
+|Last boot timestamp|Indicates when the boot time started.|
 |Last refresh time|Last time the device record was updated.|
 
 ## Windows registry

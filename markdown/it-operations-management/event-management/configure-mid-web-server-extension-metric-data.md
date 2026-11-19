@@ -7,7 +7,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure the MID Web Server extension, MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Provide added security to your MID Web Server extension by using key-based authe
 
 ## Before you begin
 
-**Note:** This procedure is only for compatibility with releases prior to Brazil. For details on the procedure in the Brazil release for configuring the MID Web Server, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-mid-web-server-extension.md).
+**Note:** This procedure is only for compatibility with releases prior to Australia. For details on the procedure in the Australia release for configuring the MID Web Server, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-mid-web-server-extension.md).
 
 -   Deploy and start a MID Server.
 -   Configure a MID Web Server extension and select Keybased as the authentication type. For details, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/configure-mid-web-server-extension.md).

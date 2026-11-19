@@ -25,7 +25,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** After installing ServiceNow Otto for TPRM, all ServiceNow Otto for TPRM skills are activated by default.
+**Important:** After installation, all ServiceNow Otto for TPRM skills are made available but remain inactive. Activate each skill after installation. To turn on generative AI skills use the [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 By default, a TPRM issue in the Third-party Risk Management application shows the options to create a summary in any state. After you generate the summary, you can choose to share the summary and populate the Work notes of the TPRM issue. Adding the summary to the work notes helps the risk analyst to get a quick glance at the latest summary version.
 

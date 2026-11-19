@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/configure-db-summarization-skill-nacm.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-02"
 reading_time_minutes: 1
 breadcrumb: [Add a ServiceNow Otto context menu, Add elements, Edit a dashboard, Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---

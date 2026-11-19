@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/io-receive-notification-third-party.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-28"
 reading_time_minutes: 4
 breadcrumb: [Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---

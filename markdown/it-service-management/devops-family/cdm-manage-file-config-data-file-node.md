@@ -7,7 +7,7 @@ release: australia
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 keywords: [File nodes in CDM, File attachments in config data, Attach files in CDM application, collection, deployable]
 breadcrumb: [Viewing and editing config data, Using DevOps Config, DevOps Config, IT Service Management]
@@ -19,7 +19,7 @@ Add and manage files using file nodes in the config data model of a CDM app or i
 
 ## Before you begin
 
-**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
+**Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Role required: cdm\_editor or cdm\_admin
 
@@ -38,15 +38,15 @@ App developers and members of the authoring group of the app can access the file
 
 2.  Open a DevOps Config app or a component library to add a file node to its config data model.
 
-<table id="choicetable_mr1_r1p_1yb"><thead><tr><th align="left" id="d154985e114">
+<table id="choicetable_mr1_r1p_1yb"><thead><tr><th align="left" id="d151314e115">
 
 Option
 
-</th><th align="left" id="d154985e117">
+</th><th align="left" id="d151314e118">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d154985e123">
+</th></tr></thead><tbody><tr><td id="d151314e124">
 
 **Adding a file node in an app**
 
@@ -57,7 +57,7 @@ Steps
 3.  Select **Edit config data** to [open a changeset.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-changeset-cr-u.md)
 
 
-</td></tr><tr><td id="d154985e162">
+</td></tr><tr><td id="d151314e163">
 
 **Adding a file node in a component library**
 
@@ -97,15 +97,15 @@ Steps
 
     **Note:** All actions on the file node or its file attachment can only be done via the More actions menu on the file node.
 
-<table id="choicetable_o2f_b2n_1yb"><thead><tr><th align="left" id="d154985e306">
+<table id="choicetable_o2f_b2n_1yb"><thead><tr><th align="left" id="d151314e307">
 
 Action
 
-</th><th align="left" id="d154985e309">
+</th><th align="left" id="d151314e310">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d154985e315">
+</th></tr></thead><tbody><tr><td id="d151314e316">
 
 **Rename the file node**
 
@@ -115,7 +115,7 @@ Steps
 2.  In the Rename dialog box, enter a new name of the file node in the **Node name** field.
  If the file node is included in the collection, it’s renamed there as well.
 
-</td></tr><tr><td id="d154985e342">
+</td></tr><tr><td id="d151314e343">
 
 **Extract variables**
 
@@ -127,7 +127,7 @@ Steps
 
  You can then resolve all the extracted variables. Define the extracted variables and then select **Apply variables** from the form context menu. This action replaces all extracted variables in the file content with the defined variable values.
 
-</td></tr><tr><td id="d154985e372">
+</td></tr><tr><td id="d151314e373">
 
 **Delete the file node**
 
@@ -142,7 +142,7 @@ Steps
 -   If the file node was created in a previously committed changeset and is deleted in the currently opened changeset, then the file node is deleted from the config data but the file attachment remains in the system.
 
 
-</td></tr><tr><td id="d154985e410">
+</td></tr><tr><td id="d151314e411">
 
 **Download the file attachment**
 
@@ -150,7 +150,7 @@ Steps
 
 Select the more actions icon next to the file node, and then select **Download file** from the menu.Alternatively, you can download the file by selecting the file node and then selecting **Download** on the File information pane.
 
-</td></tr><tr><td id="d154985e428">
+</td></tr><tr><td id="d151314e429">
 
 **Replace the file attachment**
 
@@ -160,7 +160,7 @@ Select the more actions icon next to the file node, and then select **Download f
 2.  In the Replace file dialog box, attach a file from your system, and select **Replace file**.
 
 
-</td></tr><tr><td id="d154985e452">
+</td></tr><tr><td id="d151314e453">
 
 **Override an included file node**
 

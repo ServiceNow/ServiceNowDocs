@@ -141,12 +141,12 @@ Document crawls
 
 </td></tr><tr><td>
 
-User permission crawls
+User permissions crawls
 
 </td><td>
 
-**Dual score:**-   First value shows the number of successful user permission crawls run for the connector in the selected date range.
--   Second value shows the number of failed user permission crawls run for the connector in the selected date range.
+**Dual score:**-   First value shows the number of successful user permissions crawls run for the connector in the selected date range.
+-   Second value shows the number of failed user permissions crawls run for the connector in the selected date range.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/reference-ext-cont-connectors.md)

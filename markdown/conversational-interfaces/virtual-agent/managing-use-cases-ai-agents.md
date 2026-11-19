@@ -8,9 +8,9 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
 last_updated: "2026-10-24"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Virtual Agent, Designer, AI Agents]
-breadcrumb: [Managing asset library items, Build conversations, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Getting started with the Asset library in Assistant Designer, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
 # Managing AI agents in Assistant Designer
@@ -19,15 +19,17 @@ AI agents created in AI Agent Studio appear in Assistant Designer, where you can
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
+**Note:** An updated Assistant Designer Asset library user interface is available when you install ServiceNow Otto in Virtual Agent. This content assumes that you can see the list view. If ServiceNow Otto in Virtual Agent is not installed, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+
 **Role required**: virtual\_agent\_admin
 
-When you select an AI agent, it opens in AI Agent Studio. AI agents currently can't be created or edited in Assistant Designer. You can only view them in Assistant Designer. They can be created, edited, tested, and deleted only in AI Agent Studio. For more details, see [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md).
+When you select an AI agent, it opens in AI Agent Studio. AI agents currently can't be created or edited in Virtual Agent Designer. You can only view them in Assistant Designer. They can be created, edited, tested, and deleted only in AI Agent Studio. For more details, see [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md).
 
 ## AI agents in Assistant Designer
 
 Select the **AI agents** option to see all the AI agents activated for Assistant Designer.
 
-\[Omitted image "vad-ai-agent.png"\] Alt text: AI agents in the Assistant Designer Asset library.
+\[Omitted image "vad-ai-agent.png"\] Alt text: AI agents in Assistant Designer's Asset library.
 
 |Column|Description|
 |------|-----------|
@@ -106,10 +108,10 @@ For detailed information about creating AI agents, see [Create an AI agent](http
 -   **[AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/ai-agent-custom-skill.md)**  
 An AI agent custom skill performs a task that you pass to it from a Virtual Agent topic, such as consolidating the content of a knowledge base article.
 
-**Parent Topic:**[Managing asset library items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/managing-asset-library-items.md)
+**Parent Topic:**[Getting started with the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 
 **Related topics**  
 
 
-[Configuring agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/agentic-conversations-vad.md)
+[Agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/agentic-conversations-vad.md)
 

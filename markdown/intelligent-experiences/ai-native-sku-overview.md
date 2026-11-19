@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-native-sku-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 keywords: [AI native, Foundation, Advanced, Prime, AI tiers, ITSM, CSM, HRSD, Industry]
-breadcrumb: [Implementing AI, Getting started with AI, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
 # ServiceNow product tiers
@@ -46,9 +46,9 @@ Every offering has a set of platform-level AI capabilities powering the skills, 
 
     AI Action Fabric is the communication layer that enables ServiceNow AI agents to collaborate with each other and with third-party AI systems. It uses open protocols to facilitate this collaboration. These protocols include Agent-to-Agent \(A2A\) and Model Context Protocol \(MCP\). Foundation and Advanced tiers include A2A outbound connectivity; Prime adds inbound MCP Server Console capability, enabling external platforms to invoke ServiceNow agents directly. For implementation details, see [Enable MCP and A2A for your agentic workflows](https://www.servicenow.com/community/now-assist-articles/enable-mcp-and-a2a-for-your-agentic-workflows-with-faqs-updated/ta-p/3373907).
 
--   **[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-landing.md)**
+-   **[Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-landing.md)**
 
-    AI Control Tower is included in every tier \(Foundation, Advanced, and Prime\) with the same capabilities at each. It discovers and visualizes ServiceNow AI assets automatically, and external AI with setup. It also allows you to manage ServiceNow AI assets \(governs, secures, observes, and measures\). Full management of external AI assets \(govern, secure, observe, measure\) requires a separate AI Control Tower for Enterprise AI license. For configuration guidance, see [Exploring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-exploring.md) and [Configuring AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring.md).
+    Control Tower is included in every tier \(Foundation, Advanced, and Prime\) with the same capabilities at each. It discovers and visualizes ServiceNow AI assets automatically, and external AI with setup. It also allows you to manage ServiceNow AI assets \(governs, secures, observes, and measures\). Full management of external AI assets \(govern, secure, observe, measure\) requires a separate AI Control Tower for Enterprise AI license. For configuration guidance, see [Exploring Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-exploring.md) and [Configuring Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring.md).
 
 -   **[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-integrations-applications.md)**
 
@@ -68,7 +68,7 @@ Every offering has a set of platform-level AI capabilities powering the skills, 
 To begin implementing the capabilities offered at each tier on your instance, see the following resources.
 
 -   [Now Assist overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/exploring-now-assist-platform.md) — Learn about the applications and features that make up the AI experience.
--   [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-landing.md) — Learn about the importance of AI governance to ensure responsible use, regulatory compliance, and alignment with enterprise goals.
+-   [Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-landing.md) — Learn about the importance of AI governance to ensure responsible use, regulatory compliance, and alignment with enterprise goals.
 -   [Data readiness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sn-ai-impl-data-readiness.md) — Learn how to prepare your instance data for AI.
 
 ## Related ServiceNow applications and features
@@ -76,7 +76,7 @@ To begin implementing the capabilities offered at each tier on your instance, se
 -   [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-overview.md)
 -   [Exploring Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/exploring-now-assist-platform.md)
 -   [AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-studio.md)
--   [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-landing.md)
+-   [Super Intelligence Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-landing.md)
 -   [Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/create-integrations-applications.md)
 -   [RaptorDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/raptordb.md)
 -   [Now Assist for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/release-notes/now-assist-for-itsm-rn.md)

@@ -1,24 +1,24 @@
 ---
 title: Datasets
-description: Explore datasets in detail with examples.
+description: Explore the datasets in detail with examples.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/ai-datasets.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Definitions of AI asset inventory, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Definitions of AI asset inventory, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Datasets
 
-Explore datasets in detail with examples.
+Explore the datasets in detail with examples.
 
 A dataset is a collection of data used to train or evaluate an AI model. You can think of it as a large spreadsheet with rows representing examples and columns for features or labels. Datasets can also come in other formats, such as images, audio, or video. They help models learn patterns and decide.
 
-Mapping datasets within the AI Control Tower is important for tracking data sources, ownership, and other key details, making it a vital part of the organization's AI governance program.
+Mapping datasets within the Control Tower is important for tracking data sources, ownership, and other key details, making it a vital part of the organization's AI governance program.
 
 Examples:
 

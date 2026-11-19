@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/healthcare-integrations-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-17"
 reading_time_minutes: 1
 breadcrumb: [Healthcare and Life Sciences]
 ---
@@ -18,7 +18,7 @@ Healthcare systems exchange patient, practitioner, organizational, and clinical 
 
 ## HL7 FHIR Integration
 
-The [Healthcare Operations HL7 FHIR Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-fhir-landing.md) reads the following HL7 FHIR R4 provider-directory resources from a FHIR R4-conformant server:
+The [EMR Provider Directory Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/hco-emr-provider-directory-sync-landing.md) reads the following HL7 FHIR R4 provider-directory resources from a FHIR R4-conformant server:
 
 -   Organization
 -   Location

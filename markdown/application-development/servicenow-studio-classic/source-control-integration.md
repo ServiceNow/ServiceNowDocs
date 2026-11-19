@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-07"
 reading_time_minutes: 3
-breadcrumb: [Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Source control integration in ServiceNow Studio

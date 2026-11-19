@@ -7,7 +7,7 @@ release: australia
 product: SBOM Core
 classification: sbom-core
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-06-25"
 reading_time_minutes: 5
 breadcrumb: [Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
@@ -207,7 +207,7 @@ Starting with v4.0 of SBOM Core, the following enhancements were made to support
     -   Metadata
     -   Individual vulnerabilities
     -   Components
--   View imported component data for declared and concluded licenses for SBOM files in versions 1.5 and later of CycloneDX in two new license fields:
+-   View imported component data for declared and concluded licenses for SBOM files in versions 1.4 and later of CycloneDX in two new license fields:
     -   **Declared**
     -   **Concluded**
 -   SBOM parsing support is extended for the following CycloneDX component types:

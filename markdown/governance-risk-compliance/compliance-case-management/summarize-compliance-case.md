@@ -7,7 +7,7 @@ release: australia
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Case summarization for compliance cases, AI in Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -53,15 +53,15 @@ If the **Summarize** option isn’t visible, the skill has to be activated by an
 
 7.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d375041e192">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d373148e192">
 
 Option
 
-</th><th align="left" id="d375041e195">
+</th><th align="left" id="d373148e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d375041e201">
+</th></tr></thead><tbody><tr><td id="d373148e201">
 
 **Edit or save the summary**
 
@@ -73,7 +73,7 @@ Description
 
 Once saved to the case record, the summary appears in the **Overview** tab and in the **Activity** stream of the **Details** tab.
 
-</td></tr><tr><td id="d375041e239">
+</td></tr><tr><td id="d373148e239">
 
 **View information about the summary**
 
@@ -83,7 +83,7 @@ Select the information icon \(\[Omitted image "icon-more-info.png"\] Alt text: I
 
  **"AI summarized this using the record details. Check it for accuracy."**
 
-</td></tr><tr><td id="d375041e261">
+</td></tr><tr><td id="d373148e261">
 
 **Expand or collapse the summary card**
 
@@ -93,7 +93,7 @@ Select **View less** to collapse the summary partially, or **View more** to expa
 
  Alternatively, select the **Expand card** icon \(\[Omitted image "66907e1ce6766faada8088d73c14d9de4491ca7e.png"\] Alt text: Expand icon.\) or **Collapse card** icon \(\[Omitted image "74dbd45feaa8ef28f6657562fcd820404ca1b69c.png"\] Alt text: Collapse icon.\) next to **Share to case summary** to fully expand or collapse the summary.
 
-</td></tr><tr><td id="d375041e303">
+</td></tr><tr><td id="d373148e303">
 
 **Provide feedback**
 
@@ -103,7 +103,7 @@ Select the helpful icon \(\[Omitted image "782b0af82d02a8f89b5683cfe66de267c3a4c
 
 **Note:** User feedback doesn't affect future LLM outputs. It’s collected by ServiceNow® for internal quality monitoring only.
 
-</td></tr><tr><td id="d375041e334">
+</td></tr><tr><td id="d373148e334">
 
 **Copy the summary**
 
@@ -111,7 +111,7 @@ Select the helpful icon \(\[Omitted image "782b0af82d02a8f89b5683cfe66de267c3a4c
 
 Select the copy icon \(\[Omitted image "4a77b72651daa7f80649c76601bbaafcf4b6f999.png"\] Alt text: Copy icon.\) to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d375041e352">
+</td></tr><tr><td id="d373148e352">
 
 **Regenerate the summary**
 

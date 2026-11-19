@@ -1,6 +1,6 @@
 ---
 title: Crawling content with External Content Connectors
-description: Search administrators can use the External Content Connectors application to run one-time document and user permission crawls on demand. They can review connector-specific crawl history and analytics and details of user and group mappings retrieved from external data sources.
+description: Search administrators can use the External Content Connectors application to run one-time document and user permissions crawls on demand. They can review connector-specific crawl history and analytics and details of user and group mappings retrieved from external data sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/using-ext-cont-connectors.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [External Content Connectors, Search administration, Configure core 
 
 # Crawling content with External Content Connectors
 
-Search administrators can use the External Content Connectors application to run one-time document and user permission crawls on demand. They can review connector-specific crawl history and analytics and details of user and group mappings retrieved from external data sources.
+Search administrators can use the External Content Connectors application to run one-time document and user permissions crawls on demand. They can review connector-specific crawl history and analytics and details of user and group mappings retrieved from external data sources.
 
 To access the External Content Connectors application, navigate to **All** &gt; **External Content Connectors** &gt; **External Content Admin Home**.
 
@@ -27,8 +27,8 @@ On the application's main page, the Connectors list shows your external content 
 Retrieve searchable content and metadata from your source system with a content crawl. Run the crawl as a one-time task or schedule it to run on a recurring basis.
 -   **[Activate delta content crawling for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/activate-delta-content-crawling-external-content-connector.md)**  
 Reduce content crawl time for your external content connector by enabling delta content crawls, which ignore unchanged content items from your source system.
--   **[Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)**  
-Retrieve security principals from your source system with a user permission crawl. Run the crawl as a one-time task or schedule it to run on a recurring basis.
+-   **[Create a user permissions crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md)**  
+Retrieve security principals from your source system with a user permissions crawl. Run the crawl as a one-time task or schedule it to run on a recurring basis.
 -   **[Cancel a running external content connector crawl](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cancel-ext-cont-connector-crawl.md)**  
 Cancel a running crawl for an external content connector to prevent the connector from retrieving and feeding additional documents or access permissions to AI Search for indexing.
 -   **[Refresh content for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/refresh-content-external-content-connector.md)**  

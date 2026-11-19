@@ -144,3 +144,5 @@ Specific value of the parameter.-   For **Input** parameters, accept the system-
 
 Next, check the output parameters for the operation and update as needed. For more information, see [Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md).
 
+**Parent Topic:**[Managing Zero Copy Connector for ERP model inputs, outputs, and field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-manage-models.md)
+

@@ -7,7 +7,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ You can modify specific CSS variables to customize themes for Desktop Assistant.
 
 |Variable|Description|Order|
 |--------|-----------|-----|
-|brand-primary-darkest|Darkest shade of the brand's primary color.|1|
+|brand-primary-darkest|The darkest shade of the brand's primary color.|1|
 |brand-primary-darker|Slightly lighter shade than the darkest shade of the brand's primary color.|2|
 |brand-primary|Primary brand color used in the UI.|3|
 |brand-primary-lighter|Lighter shade than the primary brand color.|4|
@@ -286,7 +286,7 @@ color-grey
 
 </td><td>
 
-Neutral gray color used for elements such as borders and backgrounds.
+Neutral grey color used for elements such as borders and backgrounds.
 
 </td><td>
 
@@ -311,9 +311,9 @@ Color for hyperlinks.
 |btn-primary-color|Text color for primary buttons.|`$text-white`|
 |btn-primary-bg|Background color for primary buttons.|`$brand-primary`|
 |brand-primary|Primary brand color used across the UI.|`#4f52bd!default;`|
-|brand-primary-darker|Darker shade of the primary brand color.|`#333579`|
+|brand-primary-darker|A darker shade of the primary brand color.|`#333579`|
 |brand-primary-darkest|Darkest shade of the primary brand color.|`#1D1E46`|
-|brand-primary-lighter|Lighter shade of the primary brand color.|`#8789D2`|
+|brand-primary-lighter|A lighter shade of the primary brand color.|`#8789D2`|
 |brand-primary-lightest|Lightest shade of the primary brand color.|`#D1D2EE`|
 
 |Variable|Description|Default|
@@ -330,7 +330,7 @@ Color for hyperlinks.
 |border-secondary|Secondary border color used for less prominent UI elements.|`#ACB2BE`|
 |border-tertiary|Tertiary border color used for background borders.|`#DADDE2`|
 |border-width-xs|Extra-small border width used for UI elements like thin lines or light dividers.|`1px`|
-|border-style-solid|Border style set to solid.|`solid`|
+|border-style-solid|Sets the border style to solid.|`solid`|
 |border-radius-base|Base border radius for rounding corners of UI elements.|`4px`|
 |input-border|Border style for input fields.|`$border-primary`|
 

@@ -7,10 +7,10 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-06-25"
 reading_time_minutes: 1
 keywords: [convert application source, Visibility Content, DEX migration, sn\_acc\_vis\_content\_application]
-breadcrumb: [DEX advanced configuration, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Advanced configuration, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Convert an application source to DEX
@@ -46,7 +46,7 @@ Before you convert an application source, verify that the application record has
 
 ## Result
 
-The Source field is updated to `sn_dex`. The application is managed by DEX and visible in DEX Self-service application queries and monitoring views.
+The Source field is updated to `sn_dex`. The application is now managed by DEX and visible in DEX Self-service application queries and monitoring views.
 
 **Note:** After conversion, the application counts toward the DEX monitored application limit \(default: 200 applications\). The limit is controlled by the **sn\_dex.max\_monitored\_apps** system property.
 
@@ -57,5 +57,5 @@ After converting the application source:
 -   Confirm that the application appears in the DEX Application Management view. See [DEX application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-application-monitoring.md).
 -   Enable performance or compliance monitoring on the application record. See [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/enable-app-monitor.md).
 
-**Parent Topic:**[DEX advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
+**Parent Topic:**[Advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
 

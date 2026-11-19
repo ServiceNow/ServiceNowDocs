@@ -7,7 +7,7 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
@@ -19,7 +19,7 @@ To work effectively with intent and activity analysis using AI, you must activat
 This section covers the following topics:
 
 -   **[Activate Intent and Activity Analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-intent-skill.md)**  
-Activate the Intent and Activity Analysis skill to use AI to understand the intent of the requester and gain insight into the related tasks and actions needed to complete the tasks.
+Activate the skill to use AI to understand the intent of the requester and gain insight into the related tasks and actions needed to complete the tasks.
 -   **[Configure intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/configure-intent.md)**  
 Configure intent and activity analysis for a process table so that any project that is based on the process table has work notes analysis configured.
 

@@ -8,7 +8,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-09-28"
-reading_time_minutes: 24
+reading_time_minutes: 23
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -297,34 +297,12 @@ The following status codes apply to this HTTP action. For a list of possible sta
 
 ### Response body parameters \(JSON or XML\)
 
-<table><thead><tr><th>
+|Parameter|Description|
+|---------|-----------|
+| |
+| |
 
-Parameter
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-status
-
-</td><td>
-
-Always `SUCCESS` for a 202 response.Data type: String
-
-</td></tr><tr><td>
-
-message
-
-</td><td>
-
-Human-readable confirmation message.Data type: String
-
-Example: `Successfully delivered ingest request.`
-
-</td></tr></tbody>
-</table>### cURL request
+### cURL request
 
 Example POST request to `/xcc-ingest`.
 
@@ -514,34 +492,12 @@ The following status codes apply to this HTTP action. For a list of possible sta
 
 ### Response body parameters \(JSON or XML\)
 
-<table><thead><tr><th>
+|Parameter|Description|
+|---------|-----------|
+| |
+| |
 
-Parameter
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-status
-
-</td><td>
-
-Always `SUCCESS` for a 202 response.Data type: String
-
-</td></tr><tr><td>
-
-message
-
-</td><td>
-
-Human-readable confirmation message.Data type: String
-
-Example: `Successfully delivered ingest request.`
-
-</td></tr></tbody>
-</table>### cURL request
+### cURL request
 
 Example POST request to `/xcc-ingest`.
 
@@ -677,34 +633,12 @@ The following status codes apply to this HTTP action. For a list of possible sta
 
 ### Response body parameters \(JSON or XML\)
 
-<table><thead><tr><th>
+|Parameter|Description|
+|---------|-----------|
+| |
+| |
 
-Parameter
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-status
-
-</td><td>
-
-Always `SUCCESS` for a 202 response.Data type: String
-
-</td></tr><tr><td>
-
-message
-
-</td><td>
-
-Human-readable confirmation message.Data type: String
-
-Example: `Successfully delivered ingest request.`
-
-</td></tr></tbody>
-</table>### cURL request
+### cURL request
 
 Example POST request to `/xcc-ingest`.
 
@@ -834,34 +768,12 @@ The following status codes apply to this HTTP action. For a list of possible sta
 
 ### Response body parameters \(JSON or XML\)
 
-<table><thead><tr><th>
+|Parameter|Description|
+|---------|-----------|
+| |
+| |
 
-Parameter
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-status
-
-</td><td>
-
-Always `SUCCESS` for a 202 response.Data type: String
-
-</td></tr><tr><td>
-
-message
-
-</td><td>
-
-Human-readable confirmation message.Data type: String
-
-Example: `Successfully delivered ingest request.`
-
-</td></tr></tbody>
-</table>### cURL request
+### cURL request
 
 Example POST request to `/xcc-ingest`.
 
@@ -1027,34 +939,12 @@ The following status codes apply to this HTTP action. For a list of possible sta
 
 ### Response body parameters \(JSON or XML\)
 
-<table><thead><tr><th>
+|Parameter|Description|
+|---------|-----------|
+| |
+| |
 
-Parameter
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-status
-
-</td><td>
-
-Always `SUCCESS` for a 202 response.Data type: String
-
-</td></tr><tr><td>
-
-message
-
-</td><td>
-
-Human-readable confirmation message.Data type: String
-
-Example: `Successfully delivered ingest request.`
-
-</td></tr></tbody>
-</table>### cURL request
+### cURL request
 
 Example POST request to `/xcc-ingest`.
 
@@ -1197,34 +1087,12 @@ The following status codes apply to this HTTP action. For a list of possible sta
 
 ### Response body parameters \(JSON or XML\)
 
-<table><thead><tr><th>
+|Parameter|Description|
+|---------|-----------|
+| |
+| |
 
-Parameter
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-status
-
-</td><td>
-
-Always `SUCCESS` for a 202 response.Data type: String
-
-</td></tr><tr><td>
-
-message
-
-</td><td>
-
-Human-readable confirmation message.Data type: String
-
-Example: `Successfully delivered ingest request.`
-
-</td></tr></tbody>
-</table>### cURL request
+### cURL request
 
 Example POST request to `/xcc-ingest`.
 
@@ -1367,34 +1235,12 @@ The following status codes apply to this HTTP action. For a list of possible sta
 
 ### Response body parameters \(JSON or XML\)
 
-<table><thead><tr><th>
+|Parameter|Description|
+|---------|-----------|
+| |
+| |
 
-Parameter
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-status
-
-</td><td>
-
-Always `SUCCESS` for a 202 response.Data type: String
-
-</td></tr><tr><td>
-
-message
-
-</td><td>
-
-Human-readable confirmation message.Data type: String
-
-Example: `Successfully delivered ingest request.`
-
-</td></tr></tbody>
-</table>### cURL request
+### cURL request
 
 Example POST request to `/xcc-ingest`.
 

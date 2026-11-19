@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-11-02"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configuring ServiceNow AI settings, Configure, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Configuring ServiceNow AI settings, Configure, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Configuring builder controls
@@ -36,7 +36,7 @@ Approval isn't required for any asset type by default. When approval isn't requi
 
 ## Automatic approval requests
 
-When automatic approval requests are on, approval playbooks are triggered automatically for AI assets, so no one has to request approval. When they're off, which is the default, AI asset managers must request approval for each asset. For more information about the playbooks that run these approvals, see [AI Control Tower playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-playbooks-reference.md).
+When automatic approval requests are on, approval playbooks are triggered automatically for AI assets, so no one has to request approval. When they're off, which is the default, AI asset managers must request approval for each asset. For more information about the playbooks that run these approvals, see [Control Tower playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-playbooks-reference.md).
 
 -   **[Require AI steward approval for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-ai-steward-approval.md)**  
 Make sure every AI system, MCP server, or AI model is reviewed before deployment by requiring AI steward approval for that asset type and starting approval requests automatically.

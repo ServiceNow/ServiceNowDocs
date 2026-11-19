@@ -21,7 +21,7 @@ For descriptions of the gateway, private relay, and Gateway Controller, see [Exp
 
 ## How it works
 
-The figure shows the connections between the customer network and the ServiceNow network.\[Omitted image "reverse-tunnel-architecture-diagram.png"\] Alt text: The relay connects outbound to the instance on port 443 and to the gateway on the admin and data ports. The relay forwards requests to the data source.
+The figure shows the connections between the customer network and the ServiceNow network.\[Omitted image "reverse-tunnel-architecture-diagram.png"\] Alt text: The private relay connects outbound to the instance on port 443 and to the gateway on the admin and data ports. The relay forwards requests to the data source.
 
 Reverse Tunnel components communicate in the following sequence:
 

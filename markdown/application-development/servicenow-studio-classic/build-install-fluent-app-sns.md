@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-10-08"
 reading_time_minutes: 2
 keywords: [Fluent application, Build and install application, ServiceNow Studio]
-breadcrumb: [Building apps in source code in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Building apps in source code in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Build and install a Fluent app in ServiceNow Studio

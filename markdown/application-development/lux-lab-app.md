@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 6
 keywords: [Lux Lab, System requirements, Installation, First launch, What's in the window, Project templates, Run and preview actions, Deployment, Privacy]
-breadcrumb: [Development tooling, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Development tooling, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Lux Lab

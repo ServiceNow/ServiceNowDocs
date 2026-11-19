@@ -7,7 +7,7 @@ release: australia
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -197,19 +197,19 @@ Select an application to learn about the Service Graph Connector available for i
 
 <table id="table_ip4_44q_byb" class="nav-card"><tbody><tr><td>
 
-Claroty CTD\[Omitted image "sgc-claroty.png"\] Alt text: Claroty CTD logo.
+[Claroty CTD\[Omitted image "sgc-claroty.png"\] Alt text: Claroty CTD logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/sgc-cmdb-integration-claroty-ctd.md)
 
 </td><td>
 
-Microsoft Defender for IoT \(On-premises Management Console\)\[Omitted image "sgc-iot-onpremise.png"\] Alt text: A decorative graphic for Microsoft Defender for IoT on-premises management console.
+[Microsoft Defender for IoT \(On-premises Management Console\)\[Omitted image "sgc-iot-onpremise.png"\] Alt text: A decorative graphic for Microsoft Defender for IoT on-premises management console.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/integration-sgc-microsoft-defender-iot-on-prem.md)
 
 </td><td>
 
-Microsoft Defender for IoT \(Azure\)\[Omitted image "sgc-iot-azure.png"\] Alt text: A decorative graphic for Microsoft Defender for IoT Azure graphic.
+[Microsoft Defender for IoT \(Azure\)\[Omitted image "sgc-iot-azure.png"\] Alt text: A decorative graphic for Microsoft Defender for IoT Azure graphic.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/integration-sgc-microsoft-defender-iot-azure.md)
 
 </td></tr><tr><td>
 
-Operational Technology \(Excel import\)\[Omitted image "sgc-ms-excel.png"\] Alt text: Microsoft Excel logo.
+[Operational Technology \(Excel import\)\[Omitted image "sgc-ms-excel.png"\] Alt text: Microsoft Excel logo.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/service-graph-connector-for-OT-excel.md)
 
 </td><td>
 

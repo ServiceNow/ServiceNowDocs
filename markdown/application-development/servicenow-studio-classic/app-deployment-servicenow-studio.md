@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-10-08"
 reading_time_minutes: 2
-breadcrumb: [Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # App deployment in ServiceNow Studio

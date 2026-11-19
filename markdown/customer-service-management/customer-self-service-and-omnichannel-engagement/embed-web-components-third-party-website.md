@@ -1,20 +1,20 @@
 ---
 title: Embed ServiceNow components instance on the third-party website
-description: Embed the global code and component code for configured components on your third-party website so customers can use them.
+description: Add the global code and component code for configured components on your third-party website so customers can use them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/embed-web-components-third-party-website.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Embed ServiceNow components instance on the third-party website
 
-Embed the global code and component code for configured components on your third-party website so customers can use them.
+Add the global code and component code for configured components on your third-party website so customers can use them.
 
 ## Before you begin
 

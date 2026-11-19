@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -83,7 +83,7 @@ Auto-populated
 
 </td><td>
 
-Choose an application scope, such as Global or Now Assist Agent for Requester.
+Choose an application scope, such as Global or ServiceNow Otto® Agent for Requester.
 
 </td></tr><tr><td>
 

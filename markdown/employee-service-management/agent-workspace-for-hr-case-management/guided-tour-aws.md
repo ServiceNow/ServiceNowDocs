@@ -7,9 +7,9 @@ release: australia
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, Agent Workspace, HR Service Delivery, Employee Service Management]
+breadcrumb: [Exploring Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Use Guided Tours in Agent Workspace for HR Case Management

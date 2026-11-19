@@ -27,3 +27,5 @@ Explore the API for interacting with Zero Copy Connector for ERP models. For det
 |Error text|Details about any errors that have occurred.|
 |Created|Date and time that the error occurred.|
 
+**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+

@@ -7,7 +7,7 @@ release: australia
 product: Asset Audits
 classification: asset-audits
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
 breadcrumb: [Fulfilling evidence requests, Asset Audit Response, IT Asset Management, Asset Management]
 ---
@@ -128,7 +128,7 @@ Report
 
 </td><td>
 
-Report that contains the supporting information or data that you want to collect and submit. If you use this option, the user who is assigned to this evidence record must run the selected report to collect the information or data.**Note:** This field appears only if you set the **Evidence type** field to **Report**.
+Report that contains the supporting information or data that you want to collect and submit. If you use this option, the user who is assigned to this evidence record must run the selected report to collect this information or data.**Note:** This field appears only if you set the **Evidence type** field to **Report**.
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Data Visualization
 
 </td><td>
 
-Data visualization report that contains the supporting information or data that you want to collect and submit. If you use this option, the user who is assigned to this evidence record must run the selected report to collect the information or data.**Note:** This field appears only if you set the **Evidence type** field to **Data Visualization**.
+Report that contains the supporting information or data that you want to collect and submit. If you use this option, the user who is assigned to this evidence record must run the selected report to collect this information or data.**Note:** This field appears only if you set the **Evidence type** field to **Data Visualization**.
 
 </td></tr><tr><td>
 
@@ -149,13 +149,11 @@ URL of the website or shared online folder that contains the supporting informat
 </td></tr></tbody>
 </table>    4.  Select **Save**.
 
-        The form closes and you're automatically redirected to the new evidence record. The record is added to the Asset Evidence related list.
+        The evidence record is added to the Asset Evidence related list.
 
     5.  Repeat steps b to d for each evidence record that you want to create.
 
     The assigned user can begin collecting the required evidence. After the evidence is collected, the user can upload it by using the **Attachment** option in the contextual side panel of the evidence record. After the evidence is successfully uploaded, the user can update the **Status** field to **Complete**.
-
-    **Note:** If an evidence record has an Evidence type of Report or Data Visualization, the assigned user can view the associated report by selecting **View Report** on the evidence record header. The complete detailed report opens in a new browser tab, providing comprehensive insight into the supporting information or data that you want to collect and submit.
 
 5.  Create remediation rules to identify any data gaps that are discovered during the evidence collection process.
 

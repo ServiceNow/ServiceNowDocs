@@ -1,18 +1,18 @@
 ---
 title: Callback requests by agents
-description: Agents can create callback requests on behalf of customers directly from CRM Workspace when customers request a return call or when follow-up is needed.
+description: Agents can create callback requests on behalf of customers directly from CSM Configurable Workspace when customers request a return call or when follow-up is needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/callback-requests-agents-customer.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use omnichannel callback, Customer communication, Use, Customer Service Management]
 ---
 
 # Callback requests by agents
 
-Agents can create callback requests on behalf of customers directly from CRM Workspace when customers request a return call or when follow-up is needed.
+Agents can create callback requests on behalf of customers directly from CSM Configurable Workspace when customers request a return call or when follow-up is needed.
 
 ## When to use agent-scheduled callbacks
 

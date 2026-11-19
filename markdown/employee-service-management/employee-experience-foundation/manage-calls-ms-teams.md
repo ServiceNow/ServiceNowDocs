@@ -1,15 +1,15 @@
 ---
 title: Manage calls in Microsoft Teams
-description: Manage conference calls in Microsoft Teams by muting or unmuting participants, or ending the call.As a manager or a conference call host, you can mute conference participants to avoid distraction.As the host or a user with the manager role, you can end a conference call after the discussion ends.
+description: Manage conference calls in Microsoft Teams by muting or unmuting participants, or ending the call.Mute an individual participant or all participants in a conference call to avoid distraction.End a conference call after the discussion ends to disconnect all users from the call.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/manage-calls-ms-teams.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use Notify connector for Microsoft Teams, Use Microsoft Teams integration for Agent Experience, Use, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
+breadcrumb: [Use Notify connector for Microsoft Teams, Use Microsoft Teams integration for Agent Experience, Use, ServiceNow for Microsoft Teams and Microsoft 365, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Manage calls in Microsoft Teams
@@ -20,7 +20,7 @@ Manage conference calls in Microsoft Teams by muting or unmuting participants, o
 
 ## Mute participants from Microsoft Teams
 
-As a manager or a conference call host, you can mute conference participants to avoid distraction.
+Mute an individual participant or all participants in a conference call to avoid distraction.
 
 ### Before you begin
 
@@ -36,15 +36,15 @@ Role required: notify\_admin, major\_incident\_manager, communications\_manager,
 
 3.  Mute an individual participant or mute all participants.
 
-<table id="choicetable_ixy_kbr_tnb"><thead><tr><th align="left" id="d257880e129">
+<table id="choicetable_ixy_kbr_tnb"><thead><tr><th align="left" id="d259243e134">
 
 Option
 
-</th><th align="left" id="d257880e132">
+</th><th align="left" id="d259243e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d257880e138">
+</th></tr></thead><tbody><tr><td id="d259243e143">
 
 **Mute an individual participant**
 
@@ -54,7 +54,7 @@ Action
 2.  Click **Mute**.
 
 
-</td></tr><tr><td id="d257880e159">
+</td></tr><tr><td id="d259243e164">
 
 **Mute all participants**
 
@@ -66,7 +66,7 @@ Click the **Mute all** button that appears on the top of the participant list.
 </table>
 ## End a call from Microsoft Teams
 
-As the host or a user with the manager role, you can end a conference call after the discussion ends.
+End a conference call after the discussion ends to disconnect all users from the call.
 
 ### Before you begin
 

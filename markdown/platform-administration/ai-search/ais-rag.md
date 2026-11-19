@@ -1,6 +1,6 @@
 ---
 title: AI Search RAG \(Retrieval-Augmented Generation\)
-description: The AI Search RAG \(Retrieval-Augmented Generation\) capability provides a framework that enhances the search accuracy of AI Search results by narrowing the focus of your large language model \(LLM\) to a specific, contextual data set, instead of the vast, general data it was trained on.
+description: The AI Search RAG \(Retrieval-Augmented Generation\) capability provides a framework that enhances the search accuracy of AI Search results by using relevant indexed data to provide context for the LLM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/ai-search/ais-rag.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Semantic index configuration for indexed sources, Indexed sources, 
 
 # AI Search RAG \(Retrieval-Augmented Generation\)
 
-The AI Search RAG \(Retrieval-Augmented Generation\) capability provides a framework that enhances the search accuracy of AI Search results by narrowing the focus of your large language model \(LLM\) to a specific, contextual data set, instead of the vast, general data it was trained on.
+The AI Search RAG \(Retrieval-Augmented Generation\) capability provides a framework that enhances the search accuracy of AI Search results by using relevant indexed data to provide context for the LLM.
 
 ## AI Search RAG overview
 
@@ -26,7 +26,7 @@ RAG \(Retrieval Augmented Generation\) technology helps enhance search capabilit
 
 -   **Searching**
 
-    Find the most relevant results from the indexed data using a query. It includes RAG retrieval API to run search on indexed data of the search profile, and RAG capability that manages the RAG process, including retriever and re-ranker to deliver relevant results.
+    Finds the most relevant results from indexed data for a query. It includes a RAG retrieval API that searches indexed data and RAG capabilities that retrieve and rank results.
 
 
 Components of AI Search RAG
@@ -46,7 +46,7 @@ The AI Search RAG system works by first organizing data into a searchable format
 
 AI Search RAG uses the advanced search methods, such as semantic or vector search to find relevant and more context-oriented information from the configured indexed sources. The semantic search further uses embedding model to retrieve the most relevant data based on the user search query for embedding generation. This retrieved information along with the search query then prompts the LLM model to generate the relevant response.
 
-An embedding model is the engine behind RAG that helps it to search and retrieve the correct information from the indexed sources and embed that information into vector map before sending it to the LLM model. ServiceNow AI Search RAG uses the default ServiceNow Embedding \(E5\) model and it also supports additional third-party embedding models, such as Azure OpenAI Embedding and Gemini Text Embedding. You can also bring your own third-party hosted custom embedding model to create embeddings for your RAG use case.
+In a RAG system, the embedding model helps identify and retrieve relevant information from indexed sources. The retrieved content is represented as vectors and then passed to the LLM to help generate accurate responses. ServiceNow AI Search RAG uses the default ServiceNow Embedding \(E5\) model. It also supports additional third-party embedding models, such as Azure OpenAI Embedding and Gemini Text Embedding. You can also bring your own third-party hosted custom embedding model to create embeddings for your RAG use case.
 
 ## Activating AI Search RAG \(Retrieval-Augmented Generation\)
 

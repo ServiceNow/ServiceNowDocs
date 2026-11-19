@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-sold-product-contract.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Sold products, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
@@ -34,18 +34,18 @@ A sold product can be part of multiple contracts. If a sold product is deleted, 
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Contracts** &gt; **Service Contracts**.
 
-2.  Select a contract you want to add a sold product to.
+2.  Click a contract you want to add a sold product to.
 
-3.  On the **Products Covered** related list, select **New** to associate sold products to the contract.
+3.  On the **Products Covered** related list, click **New** to associate sold products to the contract.
 
     The list of sold products is filtered based on the account.
 
-    Select **Run filter** to see a list of all sold products. You can only add the sold products that belong to the account selected or to the account hierarchy.
+    Click **Run filter** to see a list of all sold products. You can only add the sold products that belong to the account selected or to the account hierarchy.
 
-4.  Select **Save**.
+4.  Click **Save**.
 
-5.  On the **Products Covered** related list, select the **Add All Child Sold Products** related list action to add all child sold products to the contract without having to select each item individually​.​
+5.  On the **Products Covered** related list, click the **Add All Child Sold Products** related list action to add all child sold products to the contract without having to select each item individually​.​
 
-6.  Select **Update**.
+6.  Click **Update**.
 
 

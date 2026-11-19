@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -291,10 +291,4 @@ Exchange reference date
 Budget Reference Rate from where the exchange rate is retrieved.
 
 </td></tr></tbody>
-</table>-   **[Cost rollup in project currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-costing-project-currency.md)**  
-Cost rollup calculation in projects and sub-projects with different currencies varies with the budget reference rate. The rate at which the amount is converted depends on the conversion rate.
--   **[Project currency in cost and benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-currency-cost-benefit-plans.md)**  
-The currency fields in cost and benefit plans defaults to the project currency of the project.
-
-**Parent Topic:**[Project Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-management-reference.md)
-
+</table>

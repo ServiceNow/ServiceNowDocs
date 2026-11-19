@@ -42,7 +42,7 @@ Metadata collectors progress through the following states as you configure and v
 -   **[Metadata collector deployment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/metadata-collector-deployment-models.md)**  
 Choose how to deploy metadata collectors based on your network accessibility and security needs. Deploy on a MID Server you host, or use ServiceNow-managed cloud infrastructure.
 -   **[MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mid-server-for-metadata-collectors-dc.md)**  
-When your source is behind a firewall or requires on-premises handling, deploy metadata collectors on a MID Server you host to harvest metadata from on-premises and privately networked data sources.
+Deploy metadata collectors on a MID Server to harvest metadata from on-premises and privately networked data sources. Use this approach when your source is behind a firewall or requires on-premises handling.
 -   **[Enable Vault classification for a metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/enable-vault-classification.md)**  
 Enable a metadata collector to classify harvested columns using ServiceNow Vault.
 -   **[Amazon Redshift metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/amazon-redshift-metadata-collector.md)**  
@@ -81,6 +81,8 @@ Salesforce metadata collector provides read-only access to metadata from a Sales
 Provides read-only access to metadata from a ServiceNow instance.
 -   **[Snowflake metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/snowflake-metadata-collector.md)**  
 The Snowflake metadata collector provides read-only access to metadata from an external Snowflake account.
+-   **[SQL Server Reporting Services \(SSRS\) metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/sql-server-reporting-services-collector.md)**  
+The SQL Server Reporting Services \(SSRS\) metadata collector extracts metadata from your SSRS environment into the data catalog. Extracted metadata includes datasets, data sources, folders, KPIs, reports, and linked reports.
 -   **[Tableau metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/tableau-metadata-collector.md)**  
 Tableau metadata collector provides read-only access to metadata from a Tableau account.
 -   **[Teradata metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/teradata-metadata-collector.md)**  

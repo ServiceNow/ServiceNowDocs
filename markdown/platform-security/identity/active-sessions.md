@@ -1,24 +1,24 @@
 ---
 title: Viewing Active Sessions in Identity Center
-description: Displays the information about the user sessions.
+description: Displays the user sessions that are open on the instance so that you can decide whether to extend or terminate them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/identity/active-sessions.html
 release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Identity Center for users, Identity Center, Identity]
 ---
 
 # Viewing Active Sessions in Identity Center
 
-Displays the information about the user sessions.
+Displays the user sessions that are open on the instance so that you can decide whether to extend or terminate them.
 
 Active sessions are the sessions that are open on the current  ServiceNow®  instance with different browsers or devices.
 
-The **Active Sessions** tab in the Identity Center helps you to identify your sessions based on the Browser, IP Address, and Sessions ID. Using this information you can take required actions such as extending or terminating the session.
+The Active Sessions tab in the Identity Center helps you to identify your sessions based on the Browser, IP Address, and Sessions ID. Using this information you can take required actions such as extending or terminating the session.
 
 Using this information can help determine if the sessions are real and not a security concern.
 

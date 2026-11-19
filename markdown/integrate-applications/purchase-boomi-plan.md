@@ -1,6 +1,6 @@
 ---
 title: Purchase a Boomi plan
-description: Purchase a Boomi plan with fabric credits to add connections and transactions to your Boomi account.
+description: Buy a Boomi plan with fabric credits to add connections and transactions to your Boomi account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/purchase-boomi-plan.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Boomi partner application, Partner Passport Portal, Workflow Data F
 
 # Purchase a Boomi plan
 
-Purchase a Boomi plan with fabric credits to add connections and transactions to your Boomi account.
+Buy a Boomi plan with fabric credits to add connections and transactions to your Boomi account.
 
 ## Before you begin
 
@@ -35,7 +35,7 @@ You can purchase a plan again at any time. Purchasing the plan that you have aga
 
 2.  On the **Partner Applications** tab, on the Boomi card, select **Get started**.
 
-    If you've already purchased a plan, select **Manage plan** instead.
+    If you've already bought a plan, select **Manage plan** instead.
 
 3.  In the **Purchase** step, select a plan.
 

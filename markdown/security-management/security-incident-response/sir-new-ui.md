@@ -1,5 +1,5 @@
 ---
-title: Manage security threats using the Security Analyst Workspace
+title: Legacy: Manage security threats using the Security Analyst Workspace
 description: Security Incident Response includes a new user interface called the Security Analyst Workspace that features powerful tools for assisting in analysis, including the playbook, peek view, and tabs for working on multiple security incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/sir-new-ui.html
@@ -7,14 +7,18 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Manage security threats using the Security Analyst Workspace
+# Legacy: Manage security threats using the Security Analyst Workspace
 
 Security Incident Response includes a new user interface called the Security Analyst Workspace that features powerful tools for assisting in analysis, including the playbook, peek view, and tabs for working on multiple security incidents.
+
+**Important:**
+
+The Security Incident Response UI \[sn\_app\_secops\_ui\] is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use the [Security Incident Response Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/sir-workspace-landing-page.md) instead.
 
 Purpose-built for security analysts, the powerful tools in the Security Analyst Workspace allow you to analyze the ever-growing volume of data associated with security incidents. And automated actions significantly reduce the security incident investigation time, which can be the difference between stopping an attack and suffering a breach.
 
@@ -38,7 +42,7 @@ Simply click the quick filter you want to use.
 
 **Note:** You can click an **Edit** button to identify which quick filters you want displayed on the list screen. A minimum of one filter must be selected, up to a maximum of six.
 
-You can define additional quick filters, as well as primary filters for the Security Analyst Workspace, using the classic environment. For more information, see [Set up primary and secondary filters for Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/set-up-filters-for-new-ui.md).
+You can define additional quick filters, as well as primary filters for the Security Analyst Workspace, using the classic environment. For more information, see [Legacy: Set up primary and secondary filters for Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/set-up-filters-for-new-ui.md).
 
 ## Personalize the security incident list
 
@@ -105,5 +109,5 @@ Use the **Incident Timeline** tab during your investigation for tracking purpose
 
 ## Handle security incidents using the Playbook
 
-Resolve certain types of security threats in a step-by-step manner using the built-in Security Analyst Playbooks. For example, an analyst can use the playbook to resolve phishing attacks and threats caused by malicious code activities. For more information, see [Resolve security threats with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/use-the-playbook.md).
+Resolve certain types of security threats in a step-by-step manner using the built-in Security Analyst Playbooks. For example, an analyst can use the playbook to resolve phishing attacks and threats caused by malicious code activities. For more information, see [Legacy: Resolve security threats with the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/use-the-playbook.md).
 

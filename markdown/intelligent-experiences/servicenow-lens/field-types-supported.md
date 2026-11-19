@@ -7,9 +7,9 @@ release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-04"
 reading_time_minutes: 1
-breadcrumb: [Reference, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Reference, ServiceNow AI Lens, Enable AI experiences]
 ---
 
 # Field types supported

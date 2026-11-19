@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/md-engagement-dashboard-enterprise.html
 release: australia
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
-breadcrumb: [Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Dashboards, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Engagement dashboard
@@ -16,7 +16,7 @@ The Engagement dashboard provides visibility into AI system usage patterns acros
 
 The Engagement dashboard displays aggregated data about LLM-related actions and AI system usage across your enterprise. Use this dashboard to monitor AI adoption trends, identify systems that require attention, and understand usage patterns by department and location.
 
-To view the Engagement dashboard, navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Engagement**.\[Omitted image "aict-engagement-dashboard.png"\] Alt text: View the Engagement dashboard and the different usage patterns.
+To view the Engagement dashboard, navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **Engagement**.\[Omitted image "aict-engagement-dashboard.png"\] Alt text: View the Engagement dashboard and the different usage patterns.
 
 **Note:** All metrics on the Engagement dashboard default to the last 30 days. Use the time period selector in the top-right corner to adjust the date range and view metrics for different time periods \(for example, last 7 days, last 90 days, or a custom range\).
 

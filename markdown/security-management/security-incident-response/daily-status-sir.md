@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -40,6 +40,8 @@ Edit a report template to reuse an existing template to create a new template.
 
 **Related topics**  
 
+
+[Setup for the UI Builder]()
 
 [Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
 

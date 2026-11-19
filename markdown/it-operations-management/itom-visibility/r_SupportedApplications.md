@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 101
 keywords: [ITOM, Visibility, ServiceNow, Discovery, Cloud, API, Permissions, Patterns, AWS, Azure, GCP, IBM, Oracle, OCI]
 breadcrumb: [Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
@@ -6675,7 +6675,14 @@ Horizontal
 
 </td><td>
 
-IBM Cloud Load Balancer, IBM Cloud Location Groups, IBM Cloud Network, IBM Cloud Organizations and Spaces, IBM Cloud Resource Groups, IBM Cloud SSH Key, IBM Cloud Storage, IBM Cloud Virtual Server
+-   IBM Cloud Load Balancer
+-   IBM Cloud Location Groups
+-   IBM Cloud Network
+-   IBM Cloud Organizations and Spaces
+-   IBM Cloud Resource Groups
+-   IBM Cloud SSH Key
+-   IBM Cloud Storage
+-   IBM Cloud Virtual Server
 
 </td></tr><tr><td>
 
@@ -7758,6 +7765,36 @@ Horizontal and top-down
 </td><td>
 
 mongos server
+
+</td></tr><tr><td>
+
+[MongoDB mongod server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/mongod-db-pattern.md)
+
+</td><td>
+
+Windows
+
+ UNIX
+
+</td><td>
+
+N/A
+
+</td><td>
+
+WMI
+
+ WinRM
+
+ SSH
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+mongod DB
 
 </td></tr><tr><td>
 

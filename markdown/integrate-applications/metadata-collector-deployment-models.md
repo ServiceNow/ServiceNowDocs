@@ -17,17 +17,19 @@ Choose how to deploy metadata collectors based on your network accessibility and
 
 Metadata collectors harvest metadata — schemas, tables, columns, and lineage — from your data sources and upload it to your ServiceNow instance for cataloging and governance. You can deploy collectors in two ways: on a MID Server within your network, or in ServiceNow-managed cloud infrastructure. The choice depends on your source's network accessibility and whether you want to manage your own infrastructure.
 
+**Warning:** If your organization operates in a regulated market, use MID Server for metadata collectors. For details, see [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854).
+
 ## Deployment model selection
 
 Select a deployment model using the **Use MID server** toggle on the metadata collector configuration form.
 
-\[Omitted image "dc-metadata-collector-mid-server.png"\] Alt text: Select deployment model
+\[Omitted image "dc-metadata-collector-mid-server.png"\] Alt text: Metadata collector configuration form showing the Use MID server toggle.
 
 When a collector is configured to run on a MID Server, three routing models control how the system assigns a MID Server to the collection job. For details on each routing model, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 
 ## MID Server collectors \(on-premises\)
 
-The collector runs as a job on a MID Server you host, inside your network. The MID Server reaches the source directly, then pushes the harvested metadata back to your ServiceNow instance over the existing MID Server connection.
+The collector runs as a job on a MID Server you host, inside your network. The MID Server reaches the source directly, then pushes the harvested metadata back to your ServiceNow instance over the existing MID Server connection. This is the required deployment model for regulated market environments.
 
 For system requirements and configuration guidelines, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 
@@ -49,7 +51,7 @@ Requirements:
 |-------------|--------------------------|---------------------------|
 |Who runs the process|You, on your infrastructure|ServiceNow|
 |Network exposure needed|None inbound; MID Server reaches out|Source must be reachable from ServiceNow's cloud|
-|Best for|Sources behind a firewall or VPN, strict data residency requirements|Internet-reachable or cloud-native sources, no appetite for hosting infrastructure|
+|Best for|Sources behind a firewall or VPN, strict data residency requirements, regulated market environments|Internet-reachable or cloud-native sources, no appetite for hosting infrastructure|
 |Ongoing maintenance|You patch and size the MID Server|None|
 
 ## What gets harvested

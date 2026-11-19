@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -94,7 +94,7 @@ Enable altering of planned date\(s\) for task in WIP/Closed com.snc.project.enab
 
 </td><td>
 
-If set to true, this property enables you to change the planned start date for tasks even if they are in the Work in progress state or any of the closed states.Default value: false
+When set to true, this property enables you to change the planned start date for tasks in Work in Progress or closed states.Default value: false
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Proje
 
 </td><td>
 
-If set to true, this property changes the start dates for a resource plan, cost plan, and benefit plan when there is a change in the project or demand start dates. **Note:** The start date of benefit plans with the offset type **None** does not change with the project or demand date change.
+When set to true, this property updates resource, cost, and benefit plan start dates when project or demand start dates change. **Note:** The start date of benefit plans with the offset type **None** does not change with the project or demand date change.
 
  Default value: true
 
@@ -112,7 +112,7 @@ Retain users &amp; resource plan state as confirmed / allocated when project mov
 
 </td><td>
 
-If set to true, this property retains the confirmed or allocated state of a resource plan, booked resources, and planned daily contour when a property is moved. On moving the project, the resource plan is reallocated or reconfirmed based on the availability of the resources in the future time period to which the project is moved.**Note:** This property is enabled only when the **Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Project Start Date Change** property has been set to true.
+When set to true, this property retains the confirmed or allocated state, booked resources, and planned daily contour when a resource plan is moved. When you move a project, the resource plan is reallocated or reconfirmed based on resource availability in the new time period.**Note:** This property is enabled only when the **Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Project Start Date Change** property has been set to true.
 
  Default value: true
 

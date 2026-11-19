@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/article-optimization-with-article-length-scan.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Use Article Length Scan results under Article Optimization for articles to optimize your knowledge center articles.
+Use Article Length Scan results under Article Optimization for articles to optimize your knowledge center articles. Articles created in Markdown are not eligible for AO scans.
 
 The configuration and script for running the scan follow default settings.
 

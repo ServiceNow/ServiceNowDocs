@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-servicenowcpq.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [use]
 breadcrumb: [Configure, price, quote apps, Use, Sales Customer Relationship Management]
@@ -17,9 +17,9 @@ Agents and customers use the Configurator to customize configurable products in 
 
 ## ServiceNow CPQ Configurator overview
 
-With the Configurator, agents and customers can configure offerings dynamically based on customer needs or product attributes, without having extensive knowledge of product structures and hierarchies. Agents use the configurator in the CRM Workspace, while customers use the configurator in the Business Portal for self-service transactions.
+With the Configurator, agents and customers can configure offerings dynamically based on customer needs or product attributes, without having extensive knowledge of product structures and hierarchies. Agents use the configurator in the CSM Configurable Workspace, while customers use the configurator in the Business Portal for self-service transactions.
 
-\[Omitted image "cpq-config-workspace-portal.png"\] Alt text: Example product bundle displayed in the CRM Workspace and the Business Portal.
+\[Omitted image "cpq-config-workspace-portal.png"\] Alt text: Example product bundle displayed in the CSM Configurable Workspace and the Business Portal.
 
 When adding products to Sales Customer Relationship Management transactions, agents and customers select a customizable product offering from the product catalog, which automatically launches the configurator. The configurator displays the available features and options that can be selected for the product.
 

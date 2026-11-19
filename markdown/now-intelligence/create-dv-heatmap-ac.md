@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-dv-heatmap-ac.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 keywords: [Create heatmap report, Create heatmap visualization]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -137,7 +137,7 @@ Show refresh option
 
 </td><td>
 
-Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is hidden.
+Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is always hidden.
 
 </td></tr><tr id="ac-dv-show-export-option"><td>
 
@@ -178,7 +178,7 @@ Specify the text color of the title. The default title color is black, but you c
 
     -   Indicator \(available in the base system\). You can filter the indicator scores by breakdowns and elements.
 
-        **Note:** Benchmark indicators aren't supported.
+        **Note:** Benchmark indicators are not supported.
 
         \[Omitted image "dv-ind-source-con-filter.png"\] Alt text: Conditional filter for indicator data source on data visualization.
 
@@ -285,7 +285,7 @@ Allow chart interaction
 
 </td><td>
 
-Enable an event to occur when a user selects a visualization or one of its segments.
+Enable an event to occur when a user clicks in a visualization or one of its segments.
 
 </td></tr><tr><td>
 

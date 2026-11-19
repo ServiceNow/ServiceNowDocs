@@ -18,7 +18,7 @@ The default demand workflow playbook includes predefined stages and activities t
 
 ## Overview of the stages
 
-The demand workflow playbook is the only predefined playbook for demands. When the AI Control Tower Core plugin is installed, the demand workflow playbook includes an additional AI checkpoint stage after the Estimate demand cost and effort stage.
+The demand workflow playbook is the only predefined playbook for demands. When the Control Tower Core plugin is installed, the demand workflow playbook includes an additional AI checkpoint stage after the Estimate demand cost and effort stage.
 
 The playbook consists of seven stages, including the AI checkpoint stage. These stages contain certain activities that consist of forms and related lists. You can view the details of an entry by selecting it from the list. All mandatory form fields in an activity must be filled to mark it as complete. Any activity in any stage can be skipped. To enable the following activities, an activity can be marked as complete or skipped. After an activity is enabled, you can return to it at any time and restart it. If you restart an activity, you must complete or skip it and all subsequent activities. You can also restart a playbook, but all information is lost.
 
@@ -315,7 +315,7 @@ When you complete the previous activities, the playbook moves the demand to the 
 
 This stage associates AI systems with the demand so that AI impacts are identified before the demand is approved. Identify the AI systems that the demand creates or affects so that AI impacts are known before the demand is approved.
 
-**Note:** If the AI Control Tower Core plugin is installed, the AI checkpoint stage is available for the demand workflow playbook.
+**Note:** If the Control Tower Core plugin is installed, the AI checkpoint stage is available for the demand workflow playbook.
 
 \[Omitted image "demand-playbook4.png"\] Alt text: The Associate AI systems activity in the AI checkpoint stage.
 
@@ -342,7 +342,7 @@ Form
 </td><td>
 
 Add AI systems to the demand by selecting from the existing systems or creating one.-   To link existing systems, use the **Product** and **Impacted AI systems** fields.
--   To create an AI system, select the **Create new AI system** link. This option is available only when AI Control Tower is installed and the investment type of the demand is set to artificial intelligence. For more information, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md).
+-   To create an AI system, select the **Create new AI system** link. This option is available only when Control Tower is installed and the investment type of the demand is set to artificial intelligence. For more information, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-system-assets.md).
 
 </td></tr></tbody>
 </table>## Confirm demand readiness for review

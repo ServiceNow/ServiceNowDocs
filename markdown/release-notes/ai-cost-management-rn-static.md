@@ -7,7 +7,7 @@ release: australia
 topic_type: topic
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Asset Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [Asset Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # AI Cost Management release notes
@@ -20,7 +20,7 @@ The ServiceNow® AI Cost Management application gives you comprehensive visibili
 -   Automatically retrieve and process usage and cost data for your AI accounts through supported provider integrations.
 -   Stay ahead of potential AI budget overages through configurable spend limits and alerts.
 
-See  for more information.
+See [AI Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/ai-cost-management.md) for more information.
 
 ## Activation and other requirements
 
@@ -39,23 +39,23 @@ Version 1.0 is the initial release of AI Cost Management.
 
 ### What's new
 
--   ****
+-   **[Integrating with AI providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/integrating-ai-saas-providers.md)**
 
     Import AI cost and usage data from Anthropic Claude Enterprise and Microsoft Copilot. Data is refreshed daily.
 
--   ****
+-   **[Home view in the AI Cost Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/home-view.md)**
 
     Use the Home view to review active alerts, total AI spend across Claude and Copilot, and top spenders for a given time period.
 
--   ****
+-   **[View your AI spend and usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/view-ai-usage-spend.md)**
 
     Review month-over-month trends and see spend attributed to products, models, cost centers, departments, and users. Drill down to view spend broken down even further.
 
--   ****
+-   **[Set up an AI spend limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/set-up-spend-limits.md)**
 
     Set monthly spend limits at the account, cost center, and department level. View user spend limits imported from Anthropic. Configure percentage thresholds on spend limits that, when exceeded, trigger alerts.
 
--   ****
+-   **[Review AI spend alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/review-resolve-alerts.md)**
 
     Review alerts generated when a spend limit threshold is exceeded and take action to avoid over-spend. Each alert is assigned a severity based on how quickly spend is burning against the limit.
 

@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-29"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Creating external content connectors, Explore, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -46,9 +46,9 @@ When you create multiple external content connectors of the same type on the sam
 
     As an example, if two different Microsoft SharePoint Online external content connectors both retrieve the same file from the same site, only one copy of the retrieved file is indexed and appears in your search results.
 
--   **User permissions are specific to an individual external content connector, not shared between all external content connectors of the same type**
+-   **User mappings are specific to an individual external content connector, not shared between all external content connectors of the same type**
 
-    Admins need to run a separate user permission crawl for each external content connector of the same type. In the preceding examples, each Microsoft SharePoint Online external content connector requires its own user permission crawl. Running a user permission crawl for the first Microsoft SharePoint Online external content connector doesn't populate security principals for the second connector.
+    Admins need to run a separate user permissions crawl for each external content connector of the same type. In the preceding examples, each Microsoft SharePoint Online external content connector requires its own user permissions crawl. Running a user permissions crawl for the first Microsoft SharePoint Online external content connector doesn't populate security principals for the second connector.
 
 -   **The system executes crawl jobs for external content connectors of the same type in parallel if sufficient resources are available**
 

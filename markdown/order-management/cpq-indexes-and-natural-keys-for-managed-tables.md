@@ -62,5 +62,5 @@ Some factors associated with natural keys and Indexes might hamper table import.
 
 [Minimizing table queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/table_queries.md)
 
-[The lookup function: commands and syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-the-lookup-function-commands-and-syntax.md)
+[The lookup function: commands and syntax](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

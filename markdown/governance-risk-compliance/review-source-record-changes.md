@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/review-source-record-changes.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-27"
 reading_time_minutes: 3
 keywords: [review changes, source record, DRIR case, incident changes, field changes]
 breadcrumb: [Source record change notifications, Reporting incidents from SOW and SIR Workspace in DRIR, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]

@@ -7,7 +7,7 @@ release: australia
 product: Product Feedback
 classification: product-feedback
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -30,6 +30,8 @@ Integrate the Idea portal with Feedback application to enable collaboration of p
 Configure non-planning items to link your feedback or product idea records to navigate quickly between related items.
 -   **[Configure filters for feedback or product idea overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/configure-feedback-or-idea-overview-page.md)**  
 Configure the filters for the feedback or product idea overview page to display information based on the preferences of your users. Use filters to find and engage with feedback and product ideas that are the most relevant to their interests.
+-   **[Configure the feedback AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/configure-feedback-summarization-skill.md)**  
+Configure the generative AI skills for feedback by defining their triggers, display locations, and access settings to make them available to users.
 
 **Parent Topic:**[Feedback in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/product-feedback-landing.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Reference, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
@@ -67,24 +67,22 @@ In the template \(macro\) XML code, add a `<div>` element where you want to crea
 
 ## Adding a button
 
-Add the logic for the button in the `WSDConfigurableCardDataInjector` script include. Make sure to add the logic inside the `extendCardsData` method. For example, add a button that redirects to creating a case:
+Add the logic for the button in the `WSDConfigurableCardDataInjector` script include. Make sure to add the logic inside the `extendCardsData` method. For example:
 
 ```javascript
 /* Adding functionality for a custom button */
 extendCardsData: function(cards) {
-    cards.forEach(function (card) {
+    cards.forEach(function(card) {
         if (card.type === 'space') {
             card.data.actions.secondary.push({
-                label: gs.getMessage('Report a cleaning issue'),
-                id: 'cleaning_request',
-                action: 'redirect',
-                icon: 'fa-broom',
-                url: '/sp?id=sc_cat_item&sys_id=<itemId>&sysparm_space=' + card.data.sysId,
-                target: '_self', isDisabled: false, type: 'secondary'
-                });
-            }
-        });
-    return cards;
+                label: 'Custom Action',
+                id: 'custom_action',
+                action: 'custom_action',
+                isDisabled: false,
+                type: 'secondary'
+            });
+        }
+    }
 });
 ```
 

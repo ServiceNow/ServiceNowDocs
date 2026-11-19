@@ -51,3 +51,5 @@ Role required: sn\_erp\_integration.erp\_admin
     For a detailed description of the column values, see [Outbound message IDoc status for IDoc log tab fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-idoc-status-for-idoc-log-tab-columns.md).
 
 
+**Parent Topic:**[Creating and changing SAP business entities with IDoc in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/create-and-change-sap-business-entities-with-idoc.md)
+

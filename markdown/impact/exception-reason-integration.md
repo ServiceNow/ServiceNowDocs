@@ -1,25 +1,20 @@
 ---
 title: Exception reason integration
-description: You can synchronize exception reasons from non-production to Production instances after a record is created or updated.
+description: You can synchronize exception reasons from non-production to Production instances once a record is created or updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/exception-reason-integration.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-27"
+last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Exception reason integration
 
-You can synchronize exception reasons from non-production to Production instances after a record is created or updated.
+You can synchronize exception reasons from non-production to Production instances once a record is created or updated.
 
 When a developer creates or updates an exception reason on a non-production instance, the integration automatically propagates that change to the production instance. If production approvals are enabled, the exception reason enters a Requested state and triggers an approval workflow before taking effect.
-
-## Where to configure
-
--   On each non-production instance where you want exceptions approved in production, select **Enable approvals in production**.
--   On production, specify the approval group in the **Approval group\(s\)** field on the **Exception Reason** tab of Scan Engine Properties, in the **Exception Behaviour** section. That group is notified when a new exception is raised.
 
 ## Approval workflow
 
@@ -27,8 +22,8 @@ When **Enable approvals in production** is selected in Scan Engine Properties, t
 
 1.  A developer creates or updates an exception reason on the non-production instance.
 2.  The exception reason is synced to production in a `Requested` state.
-3.  An approval request is sent to the configured approval group\(s\).
-4.  After the request is approved or rejected, the status syncs back to the instance where the exception was raised.
+3.  An approval request is sent to the configured Approval Group\(s\).
+4.  Once approved or rejected, the status syncs back to the developer instance.
 
 ## Prerequisites
 

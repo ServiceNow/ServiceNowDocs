@@ -1,27 +1,27 @@
 ---
-title: Managing Zoom conference calls in Service Operations Workspace
-description: Add or mute participants in a Zoom conference call in Service Operations Workspace.
+title: Manage Zoom conference calls in Service Operations Workspace
+description: Add or mute participants during a Zoom conference call in Service Operations Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/manage-conference-calls-zoom.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Conference calls with Zoom in Service Operations Workspace, Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Use Zoom to make conference calls in Service Operations Workspace, Notify in Service Operations Workspace, Collaboration in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Managing Zoom conference calls in Service Operations Workspace
+# Manage Zoom conference calls in Service Operations Workspace
 
-Add or mute participants in a Zoom conference call in Service Operations Workspace.
+Add or mute participants during a Zoom conference call in Service Operations Workspace.
 
 -   **[Add participants to an existing Zoom call in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/add-participants-zoom-conference-call.md)**  
-Add a participant to a conference call so that they can join the discussion to resolve the incident.
+Add a participant to a conference call to participate in the discussion to resolve the incident.
 -   **[Join a conference call from Zoom in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/join-conference-call-zoom.md)**  
 Join an existing conference call to participate in the discussion to resolve an incident.
 -   **[Mute participants from a Zoom conference call in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/mute-participants-zoom-conference-call.md)**  
 Join an existing conference call to participate in the discussion to resolve an incident.
 
-**Parent Topic:**[Conference calls with Zoom in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/zoom-sow.md)
+**Parent Topic:**[Use Zoom to make conference calls in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/zoom-sow.md)
 

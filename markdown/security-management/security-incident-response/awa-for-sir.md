@@ -1,20 +1,20 @@
 ---
 title: Advanced Work Assignment for Security Incident Response
-description: Advanced Work Assignment \(AWA\) intelligently routes and assigns security incidents to security analysts on the basis on their availability, capacity, and skills.
+description: Advanced Work Assignment \(AWA\) intelligently routes and assigns security incidents to security analysts on the basis of their availability, capacity, and skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/security-incident-response/awa-for-sir.html
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Advanced Work Assignment for Security Incident Response
 
-Advanced Work Assignment \(AWA\) intelligently routes and assigns security incidents to security analysts on the basis on their availability, capacity, and skills.
+Advanced Work Assignment \(AWA\) intelligently routes and assigns security incidents to security analysts on the basis of their availability, capacity, and skills.
 
 AWA streamlines the assignment process, ensuring that critical incidents are handled by the most appropriate and available analysts. AWA improves overall response times and efficiency in security operations.
 

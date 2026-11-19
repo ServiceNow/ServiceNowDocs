@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/ask-expl-questions.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ To ask a question in an exploration, launch AI Data Explorer from a data visuali
 
 **Note:**
 
--   The question you ask has to be about data in either indicators orone of the tables listed in the Query Generation Semantic Table Configuration table. These tables can include database views or Workflow Data Fabric tables. For more information, see [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-table-semantic-layer.md).
+-   The question you ask has to be about either an indicator ordata in one of the tables listed in the Query Generation Semantic Table Configuration table. These tables can include database views or Workflow Data Fabric tables. For more information, see [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-table-semantic-layer.md).
 -   The system first looks for a relevant indicator to be the data source. If it does not find one, it falls back on table data sources.
 -   If the data is from a protected application scope, access to that scope must be configured for AI Data Explorer. For more information, see [Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/enable-aide-secure-scope-apps.md).
 -   When you have submitted a question, you cannot submit another question or do other work in the exploration until your question is processed. You can cancel the processing of your question.
@@ -36,8 +36,6 @@ When you write a question in an exploration, the AI converts the question to a d
     You can add the list or visualization to a dashboard or change its height by interacting with controls in its corner. Point at the corner to make the controls appear. For more information, see [Add a data visualization from an exploration to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-data-viz-from-expl-to-dboard.md).
 
     \[Omitted image "change-viz-height.png"\] Alt text: Controls in the corner of a data visualization, with height adjustment control selected.
-
-    If the data visualization is on an indicator, information about the indicator score is displayed. If the data visualization is a single score, sparkline and score change information is included.
 
 
 ## Viewing the response source

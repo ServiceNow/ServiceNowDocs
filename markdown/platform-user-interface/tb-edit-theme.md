@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-user-interface/tb-edit-theme.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [customize theme, edit theme, manage theme, change theme]
 breadcrumb: [Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
@@ -61,15 +61,15 @@ For information on granular roles, see [Granular admin roles](https://raw.github
     -   Publish: makes the theme available for use.
 3.  Choose the theme you want to edit using one of the following ways.
 
-<table id="choicetable_v1x_lnb_qfc"><thead><tr><th align="left" id="d53163e241">
+<table id="choicetable_v1x_lnb_qfc"><thead><tr><th align="left" id="d52261e241">
 
 Page
 
-</th><th align="left" id="d53163e244">
+</th><th align="left" id="d52261e244">
 
 Option
 
-</th></tr></thead><tbody><tr><td id="d53163e250">
+</th></tr></thead><tbody><tr><td id="d52261e250">
 
 **Manager \(Grid view\)**
 
@@ -77,7 +77,7 @@ Option
 
 From the Published or Unpublished section, choose the theme you want to edit and select **Edit**.
 
-</td></tr><tr><td id="d53163e262">
+</td></tr><tr><td id="d52261e262">
 
 **Manager \(List view\)**
 
@@ -85,7 +85,7 @@ From the Published or Unpublished section, choose the theme you want to edit and
 
 From the Published or Unpublished section, choose the theme you want to edit and select the pencil icon \[Omitted image "pencil-icon.png"\] Alt text:.
 
-</td></tr><tr><td id="d53163e276">
+</td></tr><tr><td id="d52261e276">
 
 **Editor**
 

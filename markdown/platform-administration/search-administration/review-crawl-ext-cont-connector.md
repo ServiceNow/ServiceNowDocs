@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Review, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -44,7 +44,7 @@ You can select an individual crawl history record to examine a crawl in more det
     The Statistics tab shows details about items encountered during the crawl.
 
     -   For content crawls, this tab shows document statistics and crawl speed in documents per second. For explanations of these document statistics, see [Statistics for external content connector content crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/document-statistics-external-content-connectors.md).
-    -   For user permission crawls, this tab shows permission statistics and crawl speed in users per second. For explanations of these permission statistics, see [Statistics for external content connector user permission crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/permission-statistics-external-content-connectors.md).
+    -   For user permissions crawls, this tab shows permission statistics and crawl speed in users per second. For explanations of these permission statistics, see [Statistics for external content connector user permissions crawls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/permission-statistics-external-content-connectors.md).
 5.  To view entries for any alerts encountered during the crawl, navigate to the Alerts tab.
 
     Alerts include informational, debugging, warning, and error events logged by the connector during its crawl.

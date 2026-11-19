@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-26"
 reading_time_minutes: 1
 keywords: [regulatory change management, RCM, GRC, configuration, compliance setup, regulatory content providers, regulatory intelligence integration]
 breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/operational-technology-setup-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-09-10"
+last_updated: "2026-08-27"
 reading_time_minutes: 1
-breadcrumb: [Operational Technology release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [Operational Technology release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # Operational Technology Setup release notes
@@ -21,7 +21,7 @@ The ServiceNow® Operational Technology \(OT\) Setup application to help configu
 
 See [Operational Technology Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/ot-setup-landing.md) for more information.
 
-**Important:** For Now LLM Service model updates for each release, see .
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 ## Activation and other requirements
 

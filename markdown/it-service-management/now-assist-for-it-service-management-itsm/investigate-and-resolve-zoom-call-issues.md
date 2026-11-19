@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -20,9 +20,9 @@ Investigate Zoom call performance with ServiceNow Otto for Zoom Call Issues to i
 
 Role required: sn\_dex.user
 
--   DEX for Zoom must be configured. For more information, see .
--   Advanced monitoring must be enabled to capture Zoom call telemetry. For more information, see .
--   ServiceNow Otto for DEX must be enabled to access AI-generated Zoom call diagnostics.
+-   Ensure DEX for Zoom is configured. For more information, see [Configuring DEX for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configuring-DEX-for-Zoom.md).
+-   Ensure that advanced monitoring is enabled to capture Zoom call telemetry. For more information, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/enable-app-monitor.md).
+-   Enable ServiceNow Otto for DEX to access AI-generated Zoom call diagnostics.
 
 **Note:** This AI skill requires a minimum platform version of Zurich patch 7.
 
@@ -34,7 +34,9 @@ ServiceNow Otto for Zoom Call Issues processes Zoom telemetry data including aud
 
 ## Procedure
 
-1.  2.  In the primary navigation pane, select the Devices icon \[Omitted image "image.icon-devices"\].
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
+
+2.  In the primary navigation pane, select the Devices icon \[Omitted image "icon-devices.png"\].
 
 3.  Select a device.
 
@@ -50,7 +52,7 @@ ServiceNow Otto for Zoom Call Issues processes Zoom telemetry data including aud
 
     **Note:** The date range is limited to a maximum of 48 hours within the past 30 days.
 
-    The Zoom calls appear in cards categorized as: **All calls**, **Bad calls**, **Poor calls**, **Fair calls**, and **Good calls**. By selecting one of these cards, you can see the filtered data in Summary and Call quality metrics.
+    The zoom calls appear in cards categorized as: **All calls**, **Bad calls**, **Poor calls**, **Fair calls**, and **Good calls**. By selecting one of these cards, you can see the filtered data in Summary and Call quality metrics. You can also use Additional filters listed below the cards.
 
     **Tip:** Apply **Additional filters** \(Device type, Version, Network type, and Location\) to narrow down the results and quickly find call details.
 
@@ -69,7 +71,7 @@ ServiceNow Otto for Zoom Call Issues processes Zoom telemetry data including aud
 
     Remedial actions, self-help instructions, and related knowledge articles are displayed to help resolve Zoom call issues.
 
-10. To view the detailed metrics for the Zoom calls made by users assigned to this device or logged in within the past 15 days, see .
+10. To view the detailed metrics for the Zoom calls made by users assigned to this device or logged in within the past 15 days, see [Monitor Zoom call quality using DEX](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/monitor-zoom-call-quality-using-dex.md).
 
 
 ## Result

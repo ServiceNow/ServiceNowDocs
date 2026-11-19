@@ -1,6 +1,6 @@
 ---
 title: Control which roles can personalize lists
-description: You can control who can create personal lists.
+description: Specify which roles can create personal lists. By default, all users can create them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/list-administration/t\_ControlAccessToTheListMechanic.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Personal lists, Administer, List administration, Forms, fields, and
 
 # Control which roles can personalize lists
 
-You can control who can create personal lists.
+Specify which roles can create personal lists. By default, all users can create them.
 
 ## Before you begin
 
@@ -26,6 +26,6 @@ Role required: admin
 
 2.  Locate the property labeled **List of roles \(comma-separated\) that can use Personal Lists. If blank, all can use** \(**glide.ui.list\_mechanic.roles**\).
 
-3.  Enter the roles for which personal lists are available, separated by commas, or leave the field blank to allow access for all users \(default\).
+3.  Enter the roles for which personal lists are available, separated by commas, or leave the field empty to give all users access \(default\).
 
 

@@ -1,20 +1,20 @@
 ---
 title: Legal Matter Management
-description: The ServiceNow Legal Matter Management application enables you to complete legal requests that need cross-departmental tasking and a workflow with a mechanism to store supporting documents and track important milestones.
+description: The ServiceNow Legal Matter Management application enables you to complete legal requests that need cross-departmental tasking and a workflow with a mechanism to store supporting documents and track important milestones. AI workflow summarizes matters, helping legal teams quickly understand context and resolve issues
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-matter-management/legal-matter-management-landing-page.html
 release: australia
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Legal Matter Management
 
-The ServiceNow® Legal Matter Management application enables you to complete legal requests that need cross-departmental tasking and a workflow with a mechanism to store supporting documents and track important milestones.
+The ServiceNow® Legal Matter Management application enables you to complete legal requests that need cross-departmental tasking and a workflow with a mechanism to store supporting documents and track important milestones. AI workflow summarizes matters, helping legal teams quickly understand context and resolve issues
 
 -   With its embedded record-level security, maintain the confidential and sensitive information of each record. Define a standardized process and workflow for various matter types using matter templates.
 -   With attorney client privilege workflow, you can mark matter as privileged and confidential to protect sensitive legal communications and comply with attorney-client privilege requirements.

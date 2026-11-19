@@ -7,7 +7,7 @@ release: australia
 product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
@@ -22,15 +22,15 @@ Verify that you have reviewed the functionality of external routing and configur
 
 Role required: awa\_external\_user
 
-**Note:** With the installation of the External Routing Support plugin \(com.glide.awa-external\), the awa\_external\_user role is available by default.
+**Note:** With the installation of the External Routing Support plugin \(com.glide.awa.external\), the awa\_external\_user role is available by default.
 
 ## About this task
 
-From Xanadu release, you can add the **External** field to the AWA queue form view. The **External** field is not available by default, but it is available with the installation of the External Routing Support plugin \(com.glide.awa-external\) in Xanadu release. The **External** field can be added to the queue UI form only when the plugin is installed in your instance.
+From Xanadu release, you can add the **External** field to the AWA queue form view. The **External** field is not available by default, but it is available with the installation of the External Routing Support plugin \(com.glide.awa.external \) in Xanadu release. The **External** field can be added to the queue UI form only when the plugin is installed in your instance.
 
 \[Omitted image "external-routing-ui.png"\] Alt text: Queue form displaying the External field to enable third-party routing.
 
-The installation of the External Routing Support plugin \(com.glide.awa-external\), adds demo data for the following:
+The installation of the External Routing Support plugin \(com.glide.awa.external\), adds demo data for the following:
 
 -   An AWA External Provider \(awa\_external\_provider\).
 -   A sys\_alias representing an endpoint for the external provider API.
@@ -38,8 +38,8 @@ The installation of the External Routing Support plugin \(com.glide.awa-external
 
 **Note:**
 
--   If the customer modifies the default AWA Queue form view, the **External** field is not added to the form even if the external routing plugin is installed as the installation does not override the customer configurations and it must be manually added to the form.
--   Installing AWA without this plugin still enables AWA and Agent Chat to function normally, and does not result in any errors or warning logs due to code attempting to access tables or fields that do not exist.
+-   If you modify the default AWA Queue form view, the **External** field is not added automatically. The installation does not override your configurations, so you must add the field to the form manually.
+-   Installing AWA without this plugin still enables AWA and Agent Chat to function normally. No errors or warning logs occur from code attempting to access tables or fields that don't exist.
 
 If External \(with external partner\) and internal AWA queues are mixed up with the respective service channel in an External Partner outbound payload-defined configuration, then a warning message is displayed.
 

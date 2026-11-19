@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [HAM licensing, Hardware Asset Management licensing]
 breadcrumb: [Hardware Asset Management subscription, Explore, Hardware Asset Management, IT Asset Management, Asset Management]

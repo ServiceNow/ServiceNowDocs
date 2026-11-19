@@ -1,15 +1,15 @@
 ---
 title: Spreadsheet view in Table Builder
-description: Use Spreadsheet view in Table Builder to work with your application data records and data structure in a spreadsheet format.Add a new data record within Table Builder Spreadsheet view.Edit individual data records within Table Builder Spreadsheet view.Sort your data records by a specific field column within Table Builder Spreadsheet view.Show a filtered list of data records that contain matching data for a selected field within Table Builder Spreadsheet view.Display only the data records you want to see in your list by setting up a conditional query within Table Builder Spreadsheet view.Edit field properties such as the field label, type, attributes, and default values within Table Builder Spreadsheet view.Add new field columns to a selected table within Table Builder Spreadsheet view.Duplicate an existing field column within a table shown in Table Builder Spreadsheet view.Change the order in which your columns are displayed within Table Builder Spreadsheet view.Choose whether to hide or show specific field columns within Table Builder Spreadsheet view.Pin specific columns to always display on the left when you scroll to the right in a table with a large number of field columns within Table Builder Spreadsheet view. Pinned columns are saved for each individual user, not globally. The next time a user logs in, any columns they pinned will be shown.Delete a field column for a selected table within Table Builder Spreadsheet view.
+description: Use Spreadsheet view in Table Builder to work with your application data records and data structure in a spreadsheet format.Add a data record within Table Builder Spreadsheet view.Edit individual data records within Table Builder Spreadsheet view.Sort your data records by a specific field column within Table Builder Spreadsheet view.Show a filtered list of data records that contain matching data for a selected field within Table Builder Spreadsheet view.Display only the data records you want to see in your list by setting up a conditional query within Table Builder Spreadsheet view.Edit field properties such as the field label, type, attributes, and default values within Table Builder Spreadsheet view.Add field columns to a selected table within Table Builder Spreadsheet view.Duplicate an existing field column within a table shown in Table Builder Spreadsheet view.Change the order in which your columns are displayed within Table Builder Spreadsheet view.Choose whether to hide or show specific field columns within Table Builder Spreadsheet view.Pin specific columns to always display on the left when you scroll to the right in a table with a large number of field columns within Table Builder Spreadsheet view. Pinned columns are saved for each individual user, not globally. The next time a user logs in, any columns they pinned will be shown.Delete a field column for a selected table within Table Builder Spreadsheet view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.html
 release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 14
-breadcrumb: [Working with data, Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
+breadcrumb: [Data in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
 ---
 
 # Spreadsheet view in Table Builder
@@ -32,9 +32,9 @@ Use the following procedures to edit table field structure and any imported data
 
 **Parent Topic:**[Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/table-builder.md)
 
-## Add a new data record
+## Add a data record
 
-Add a new data record within Table Builder **Spreadsheet** view.
+Add a data record within Table Builder **Spreadsheet** view.
 
 ### Before you begin
 
@@ -47,8 +47,6 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
     **Note:** Spreadsheet view displays by default. You can also access Spreadsheet view from the Additional actions menu \(\[Omitted image "tb-data-addl-actions-menu.png"\] Alt text: Additional actions menu.\).
 
 2.  Select the **Add new record** icon \(\[Omitted image "icn-us2-add-data-record.png"\] Alt text: Add new record icon.\).
-
-    \[Omitted image "scr-us2-add-record.png"\] Alt text: Add new record.
 
 3.  Make your changes to the data record.
 
@@ -72,8 +70,6 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
     **Note:** Spreadsheet view displays by default. You can also access Spreadsheet view from the Additional actions menu \(\[Omitted image "tb-data-addl-actions-menu.png"\] Alt text: Additional actions menu.\).
 
 2.  Click into any editable data record field to launch the data for editing.
-
-    \[Omitted image "edit-data-record-tb.png"\] Alt text: Edit a field on the record
 
 3.  Make your changes to the data.
 
@@ -102,8 +98,6 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
     -   Sort A to Z or Sort Oldest to Newest \(ascending order\)
     -   Sort Z to A or Sort Newest to Oldest \(descending order\)
-    \[Omitted image "scr-us2-sort-data.png"\] Alt text: Sort by a to z.
-
     The list of records will then display in the order you chose.
 
 
@@ -121,13 +115,13 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
     **Note:** Spreadsheet view displays by default. You can also access Spreadsheet view from the Additional actions menu \(\[Omitted image "tb-data-addl-actions-menu.png"\] Alt text: Additional actions menu.\).
 
-2.  Select and hold \(or right-click\) the data record in a cell to create a filtered list of records that contain the matching data, \(e.g., show all records where **Short description** is "Can't read email".\).
+2.  Select and hold \(or right-click\) a data record in a cell to create a filtered list of records with matching data.
 
-    \[Omitted image "scr-vs2-show-matching.png"\] Alt text: Show matching data records.
+    For example, show all records where **Short description** is "Can't read email".
 
-    A filtered list of records with matching data displays and a new filter query is added and accessible when you click the **Filter** button at the top of the grid.
+    A filtered list of records with matching data displays. A filter query is added and accessible when you select the **Filter** button at the top of the grid.
 
-    **Note:** To remove the filtering you just added, select the **Filter** button, and then delete the new filter condition from the list. See [Filter your data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
+    **Note:** To remove the filter you added, select the **Filter** button and delete the filter condition from the list. See [Filter your data records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/tb-sprdsht-view.md).
 
 
 ## Filter your data records
@@ -151,8 +145,6 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
     **Note:** When a number appears to the right of the **Filter** button, it means that there are existing filters set for the view.
 
     The Filter window displays \(along with any filter criteria that has already been set\). In this case, an existing filter is set to display records where **Age** is 35.
-
-    \[Omitted image "scr-us2-filter-data.png"\] Alt text: Filter data.
 
 3.  Enter your filtering query to specify which data records you want to display.
 
@@ -184,8 +176,6 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
     The Properties pane displays for the selected field column.
 
-    \[Omitted image "scr-us2-field-properties-pane.png"\] Alt text: Column properties displayed
-
 4.  Edit the desired field property for the column.
 
     See [Field configuration in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/form-builder-glide-family-release/field-parameters.md) for more information on field properties.
@@ -193,9 +183,9 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 5.  Select **Save**.
 
 
-## Add new columns
+## Add columns
 
-Add new field columns to a selected table within Table Builder **Spreadsheet** view.
+Add field columns to a selected table within Table Builder **Spreadsheet** view.
 
 ### Before you begin
 
@@ -209,23 +199,23 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Select the **+ Add field** button.
 
-    **Note:** You can also select the **Additional actions** icon \(\[Omitted image "icn-us2-ellipsis-column.png"\] Alt text: Additional actions icon.\) to launch a column-specific list of actions, and then select **Insert column left** or **Insert column right** to insert the new column in a specific place within the table.
+    **Note:** You can also select the **Additional actions** icon \(\[Omitted image "icn-us2-ellipsis-column.png"\] Alt text: Additional actions icon.\) to launch a column-specific list of actions, and then select **Insert column left** or **Insert column right** to insert the column in a specific place within the table.
 
-    The Add a new column window displays.
+    The Add a column window displays.
 
-    \[Omitted image "scr-us2-add-column.png"\] Alt text: Add new column.
+    \[Omitted image "scr-us2-add-column.png"\] Alt text: Add column.
 
-3.  Enter the following information for your new field column.
+3.  Enter the following information for your field column.
 
-<table id="choicetable_bs2_1yy_5wb"><thead><tr><th align="left" id="d212463e1154">
+<table id="choicetable_bs2_1yy_5wb"><thead><tr><th align="left" id="d285917e1069">
 
 Field
 
-</th><th align="left" id="d212463e1157">
+</th><th align="left" id="d285917e1072">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d212463e1163">
+</th></tr></thead><tbody><tr><td id="d285917e1078">
 
 **Column label**
 
@@ -233,7 +223,7 @@ Description
 
 Unique label for the column.
 
-</td></tr><tr><td id="d212463e1172">
+</td></tr><tr><td id="d285917e1087">
 
 **Column name**
 
@@ -241,7 +231,7 @@ Unique label for the column.
 
 Database name for the column.
 
-</td></tr><tr><td id="d212463e1181">
+</td></tr><tr><td id="d285917e1096">
 
 **Type**
 
@@ -256,15 +246,15 @@ Type of information that the column contains. For example, to contain plain text
 </td></tr></tbody>
 </table>4.  Select **Advanced settings** to expand it and enter any additional properties for your new field column.
 
-<table id="choicetable_mjz_hbz_5wb"><thead><tr><th align="left" id="d212463e1224">
+<table id="choicetable_mjz_hbz_5wb"><thead><tr><th align="left" id="d285917e1139">
 
 Field
 
-</th><th align="left" id="d212463e1227">
+</th><th align="left" id="d285917e1142">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d212463e1233">
+</th></tr></thead><tbody><tr><td id="d285917e1148">
 
 **Function field**
 
@@ -272,7 +262,7 @@ Description
 
 A function field generates a value based on simple computations of other fields and constants. The **Function definition** field then displays, where you define a function.
 
-</td></tr><tr><td id="d212463e1248">
+</td></tr><tr><td id="d285917e1163">
 
 **Mandatory**
 
@@ -280,7 +270,7 @@ A function field generates a value based on simple computations of other fields 
 
 Option that you can select so that the data that your users enter in the field is required before they can save their changes to the form.
 
-</td></tr><tr><td id="d212463e1260">
+</td></tr><tr><td id="d285917e1175">
 
 **Read only**
 
@@ -288,7 +278,7 @@ Option that you can select so that the data that your users enter in the field i
 
 Option that you can select so that the field is not editable by the form users.
 
-</td></tr><tr><td id="d212463e1272">
+</td></tr><tr><td id="d285917e1187">
 
 **Default value**
 
@@ -316,11 +306,9 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Hover over the header for the column to duplicate, and then select the **Additional actions** icon \(\[Omitted image "icn-us2-ellipsis-column.png"\] Alt text: Additional actions icon.\) to launch a column-specific list of actions.
 
-3.  Select **Duplicate column**from the menu.
+3.  Select **Duplicate column** from the menu.
 
     The text "copy" is automatically appended to the existing column label.
-
-    \[Omitted image "scr-us2-duplicate-column.png"\] Alt text: Duplicate column.
 
 4.  Edit the **Column label** to the desired display name for the duplicated field column.
 
@@ -349,8 +337,6 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Click to select the **Column handle** icon \(\[Omitted image "icn-us2-column-handle.png"\] Alt text: Column handle icon.\) for a column and then drag the column to the desired locations in the table.
 
-    \[Omitted image "scr-us2-drag-column.png"\] Alt text: Drag and drop column.
-
     **Note:** If your table contains many table columns, select the **Manage columns** menu to view a compact list of column names, and then visually drag and drop within this list to order your table columns.
 
 
@@ -370,15 +356,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Choose one of the following options.
 
-<table id="choicetable_tm2_b3j_twb"><thead><tr><th align="left" id="d212463e1688">
+<table id="choicetable_tm2_b3j_twb"><thead><tr><th align="left" id="d285917e1580">
 
 Action
 
-</th><th align="left" id="d212463e1691">
+</th><th align="left" id="d285917e1583">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d212463e1697">
+</th></tr></thead><tbody><tr><td id="d285917e1589">
 
 **Hide a column**
 
@@ -394,7 +380,7 @@ Using the **Manage columns** button:
 2.  Select **Hide** from the menu to hide the column from view.
 
 
-</td></tr><tr><td id="d212463e1746">
+</td></tr><tr><td id="d285917e1638">
 
 **Unhide a column**
 
@@ -426,15 +412,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Choose one of the following options to pin or unpin a field column.
 
-<table id="choicetable_br1_bkj_twb"><thead><tr><th align="left" id="d212463e1881">
+<table id="choicetable_br1_bkj_twb"><thead><tr><th align="left" id="d285917e1773">
 
 Action
 
-</th><th align="left" id="d212463e1884">
+</th><th align="left" id="d285917e1776">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d212463e1890">
+</th></tr></thead><tbody><tr><td id="d285917e1782">
 
 **Pin a column**
 
@@ -444,7 +430,7 @@ Steps
 2.  Select **Pin** from the menu to pin the column to the left side of your view.
 
 
-</td></tr><tr><td id="d212463e1921">
+</td></tr><tr><td id="d285917e1813">
 
 **Unpin a column**
 

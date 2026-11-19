@@ -7,7 +7,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Application risk assessment using Advanced Risk Assessment, Integrate, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -76,7 +76,7 @@ Assessment target
 
 </td><td>
 
-The table records selected to be assessed, otherwise known as the assessment scope. Multiple tables can be added as the assessment target making the scope a combination of records from each table. You must select `Entity`.
+The table records selected to be assessed, otherwise known as the assessment scope. Multiple tables can be added as the assessment target making the scope a combination of records from each table. You can add other tables as targets, for example `Business Unit`.
 
 </td></tr></tbody>
 </table>3.  Select **Create**.
@@ -88,4 +88,6 @@ The table records selected to be assessed, otherwise known as the assessment sco
 
 
 [Using the template designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-template-designer.md)
+
+[Template versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/template-versioning.md)
 

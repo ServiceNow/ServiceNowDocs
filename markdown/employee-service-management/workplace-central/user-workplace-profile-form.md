@@ -7,7 +7,7 @@ release: australia
 product: Workplace Central
 classification: workplace-central
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -110,7 +110,5 @@ Location privacy setting for the workplace profile. This field is automatically 
 
 [Neighborhood User Assignment Rule form]()
 
-[]()
-
-[]()
+[Resolving custom variant issues in Workplace Central]()
 

@@ -1,19 +1,19 @@
 ---
-title: Create a project or epic in AI Control Tower
-description: Create a project or epic from the Execute page to track AI-related delivery work in AI Control Tower.
+title: Create a project or epic in Control Tower
+description: Create a project or epic from the Execute page to track AI-related delivery work in Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-plan-create-project-or-epic.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-28"
 reading_time_minutes: 1
 keywords: [create project, create epic, Execute, AI Plan]
-breadcrumb: [Monitor AI Plan execution, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Monitor AI Plan execution, Use, Plan AI strategy, prioritize, and execute, Plan your AI strategy, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# Create a project or epic in AI Control Tower
+# Create a project or epic in Control Tower
 
-Create a project or epic from the Execute page to track AI-related delivery work in AI Control Tower.
+Create a project or epic from the Execute page to track AI-related delivery work in Control Tower.
 
 ## Before you begin
 
@@ -21,7 +21,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home 2.0**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home 2.0**.
 
 2.  Navigate to **Plan** &gt; **Execute**.
 

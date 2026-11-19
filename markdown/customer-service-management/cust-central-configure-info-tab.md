@@ -1,18 +1,18 @@
 ---
-title: Configure the Customer Information view using CRM Workspace
-description: Configure the display of the Customer Information view using CRM Workspace.
+title: Configure the Customer Information view using CSM Configurable Workspace
+description: Configure the display of the Customer Information view using CSM Configurable Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/cust-central-configure-info-tab.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Configure the Customer Information view using CRM Workspace
+# Configure the Customer Information view using CSM Configurable Workspace
 
-Configure the display of the Customer Information view using CRM Workspace.
+Configure the display of the Customer Information view using CSM Configurable Workspace.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: csm\_guided\_setup\_user or admin
 
 The Customer Information view displays all touch points that a customer has had with a contact center in the form of information cards.
 
-**Note:** The following steps can be used to configure the Customer Information view in CRM Workspace. This workspace is configured using UI Builder.
+**Note:** The following steps can be used to configure the Customer Information view in CSM Configurable Workspace. This workspace is configured using UI Builder.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ The Customer Information view displays all touch points that a customer has had 
 
 2.  On the Getting Started page of the guided setup, select **Get Started**
 
-3.  In the Customer Central - Customer Information for CRM Workspace category, view the list of tasks to configure the feature.
+3.  In the Customer Central - Customer Information for CSM Configurable Workspace category, view the list of tasks to configure the feature.
 
     |Task|Description|
     |----|-----------|

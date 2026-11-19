@@ -7,10 +7,10 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [mcm client health, microsoft configuration manager, mcm metrics, mcm versions, configuration manager \(mcm\)]
-breadcrumb: [MCM monitoring, Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [MCM monitoring overview, Monitor, Digital End-User Experience, IT Operations Management]
 ---
 
 # View client health with MCM
@@ -19,11 +19,11 @@ View client health metrics with the Microsoft Configuration Manager \(MCM\) appl
 
 ## Before you begin
 
--   MCM must be added or enabled for monitoring.
+-   Add or enable MCM for monitoring.
 
     For more details, see [Add an application for monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/add-new-application.md).
 
--   Advanced monitoring must be configured for MCM.
+-   Configure Advanced monitoring for MCM.
 
     For more details, see [Enable application monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/enable-app-monitor.md).
 
@@ -36,12 +36,12 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Applications icon \[Omitted image "icon-applications.png"\] Alt text:.
+2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 
 3.  Select **Microsoft Configuration Manager \(MCM\)**.
 
 4.  Select **Client health**.
 
-    For more information, see [Installed application Client health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/installed-application-client-health-page.md).
+    For more information, see [Installed application — Client health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/installed-application-client-health-page.md).
 
 

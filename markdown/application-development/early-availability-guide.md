@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/early-availability-guide.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
+breadcrumb: [Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
 
 # Early Availability guide

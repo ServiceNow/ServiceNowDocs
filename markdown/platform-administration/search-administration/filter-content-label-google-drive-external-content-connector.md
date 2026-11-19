@@ -7,8 +7,8 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-11-06"
+reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Google Drive external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,6 +18,8 @@ breadcrumb: [Google Drive external content connector, Configure, External Conten
 Configure a label filter for your Google Drive external content connector. The connector only retrieves content that has one or more of your specified label values applied.
 
 ## Before you begin
+
+The **Crawl labels for Google Drive content** option must be selected in the crawl settings for your Google Drive external content connector. For details about this option, see [Configure crawl settings for a Google Drive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-gdrive-ext-cont-connector.md).
 
 Role required: admin
 
@@ -35,7 +37,7 @@ To learn more about labels and their IDs and values in Google Drive, see the [La
 
     1.  Select **All**.
 
-    2.  In the navigation field, enter `sn_ext_conn_base_connector_configuration.list`.
+    2.  In the navigation filter, enter `sn_ext_conn_base_connector_configuration.list`.
 
     3.  Press Enter.
 

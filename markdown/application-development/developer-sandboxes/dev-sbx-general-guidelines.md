@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: concept
 last_updated: "2026-10-26"
 reading_time_minutes: 3
-breadcrumb: [Explore, Developer Sandboxes, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, Developer Sandboxes, Developing your application, Building applications]
 ---
 
 # General guidelines and use cases for Developer Sandboxes
@@ -75,6 +75,4 @@ You can use Developer Sandboxes with System Update Sets, but a more forward-look
 ## Developer Sandboxes FAQs
 
 See the ServiceNow Community article on [Developer Sandboxes: FAQ and Getting Started Guide](https://www.servicenow.com/community/app-engine-blog/developer-sandboxes-faq-and-getting-started-guide/ba-p/3433961).
-
-**Parent Topic:**[Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/developer-sandboxes/exploring-sandboxes.md)
 

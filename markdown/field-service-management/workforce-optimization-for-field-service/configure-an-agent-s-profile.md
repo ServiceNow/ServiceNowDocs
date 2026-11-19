@@ -7,8 +7,8 @@ release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 4
 breadcrumb: [Users, Set up workforce, Configure, Field Service Management]
 ---
 
@@ -79,7 +79,7 @@ Edit existing skills
     1.  In the **Agent Schedules** related list, do one of the following:
 
         -   To view an agent schedule, select a schedule record.
-        -   To add a new schedule for the agent, select **New**.
+        -   To add schedule for the agent, select **New**.
         -   In the **Agent Work Schedule** form, fill in the fields as needed:
 
             |Field|Description|
@@ -202,7 +202,9 @@ Pre shift max travel time
 
 </td><td>
 
-The maximum travel time allowed before the agent starts the scheduled shift.
+The maximum travel time allowed before the agent starts the scheduled shift.**Note:**
+
+This duration is applicable for scheduling and assigning tasks with Schedule Optimization.
 
 </td></tr><tr><td>
 
@@ -220,7 +222,9 @@ Post shift max travel time
 
 </td><td>
 
-The maximum travel time allowed after the agent ends the scheduled shift.
+The maximum travel time allowed after the agent ends the scheduled shift.**Note:**
+
+This duration is applicable for scheduling and assigning tasks with Schedule Optimization.
 
 </td></tr><tr><td>
 

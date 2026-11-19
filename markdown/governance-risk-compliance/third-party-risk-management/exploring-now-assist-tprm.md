@@ -31,7 +31,7 @@ Starting with Australia Patch 5, Now Assist for Third-party Risk Management is n
 
 ServiceNow Otto for TPRM includes generative AI capabilities that help you interpret and act on TPRM records more efficiently. These capabilities support tasks such as summarizing TPRM issue details and recommending TPRM issues.
 
-**Note:** The TPRM GenAI User \[sn\_tprm\_genai.nowassist\_user\] role is granted to Third-party Assessment reviewers \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] after you install the ServiceNow Otto for TPRM application. For more information about all TPRM roles, see [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
+**Note:** The TPRM GenAI User \[sn\_tprm\_genai.nowassist\_user\] role is granted to Third-party Assessment reviewers \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] after you install the ServiceNow Otto for TPRM application. The skills are inactive after install, and you must activate each one. To turn on generative AI skills use the [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md). For more information about all TPRM roles, see [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
 
 <table id="table_p1h_lgx_12c"><thead><tr><th>
 

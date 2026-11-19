@@ -7,7 +7,7 @@ release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,8 @@ Create problem records for LEAP from available incident clusters, also known as 
 
 ## Before you begin
 
-Role required: LEAP admin
+-   Plugin required: Problem Management for Service Operations Workspace
+-   Role required: LEAP admin
 
 ## About this task
 

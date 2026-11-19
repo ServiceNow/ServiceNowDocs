@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/rest-connectors.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-24"
 reading_time_minutes: 1
 breadcrumb: [Explore, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -41,5 +41,5 @@ The **Connection Alias** can reference an HTTP connection configured with any of
 
 [jira-zcc]
 
-[Acumatica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/acumatica-zcc.md)
+[Acumatica \(REST\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/acumatica-zcc.md)
 

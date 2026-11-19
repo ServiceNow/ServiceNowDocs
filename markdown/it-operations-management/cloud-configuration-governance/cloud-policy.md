@@ -1,13 +1,13 @@
 ---
 title: Policies for Cloud Provisioning
-description: A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. It gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.
+description: A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, and catalog item settings. Use a policy to override property values, create approval tasks, reserve IP addresses, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/cloud-configuration-governance/cloud-policy.html
 release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 keywords: [order of execution]
 breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
@@ -15,7 +15,7 @@ breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administratio
 
 # Policies for Cloud Provisioning
 
-A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. It gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.
+A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, and catalog item settings. Use a policy to override property values, create approval tasks, reserve IP addresses, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows.
 
 ## A user requests a stack that triggers an approval policy
 
@@ -70,7 +70,7 @@ Order of execution for all other policy types:
 
 ## About operations in policies
 
-Triggers are often based on user requests and the operations \(start, stop, provision, or de-provision\) that can run on a blueprint, a catalog item, a resource, or a stack. Some trigger types do not specify a cloud operation. For example, the on Lease End trigger fires independently of any operation.
+Triggers are often based on user requests and cloud operations. Operations such as start, stop, provision, or de-provision can run on a blueprint, catalog item, resource, or stack. Some trigger types do not specify a cloud operation. For example, the on Lease End trigger fires independently of any operation.
 
 ## About policy rules
 
@@ -95,7 +95,7 @@ A base system cloud policy, Lease End ServiceNow, uses the on Lease end trigger 
 -   **[Triggers for cloud policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/policy-triggers-cloud-mgt.md)**  
 Triggers are events that set the policy engine in motion. For example, the on Catalog item request end trigger fires after a user submits a request form. When the trigger for a policy fires, the policy engine tests the conditions specified in the policy rule. If the conditions are met, the engine performs the actions specified in the rule.
 -   **[Create a cloud policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-cloud-policy.md)**  
-A cloud policy can override a property value set by a user, create an approval task, reserve an IP address, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows. It gives you system-wide control over approvals, resource operations, blueprint operations, or catalog item settings.
+A cloud policy gives you system-wide control over approvals, resource operations, blueprint operations, and catalog item settings. Use a policy to override property values, create approval tasks, reserve IP addresses, pre-populate or hide form fields, execute custom scripts, call the Cloud API, or start or abort subflows.
 -   **[Create a cloud approval policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-cloud-approval-policy.md)**  
 A cloud approval policy specifies the users who must approve a specified cloud activity before the activity can proceed. Approvers can include the manager of the user making a request, a specified user or group, or users with a specified role. You can specify multiple approvers. Approvals occur in the order that you specify.
 -   **[Create a cloud policy group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/create-cloud-policy-group.md)**  

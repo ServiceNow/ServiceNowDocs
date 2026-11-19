@@ -7,7 +7,7 @@ release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -15,4 +15,9 @@ breadcrumb: [Workplace Calendar Synchronization, Workplace Service Delivery, Emp
 # Analytics and Reporting Solutions for Workplace Calendar Synchronization
 
 Monitor the status of reservation synchronizations.
+
+-   **[Synchronization Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-synchronization-dashboard.md)**  
+Use this dashboard to track the reservation synchronization. Monitor number of events and calendar items created in the application and other details related to them.
+
+**Parent Topic:**[Workplace Calendar Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-feat.md)
 

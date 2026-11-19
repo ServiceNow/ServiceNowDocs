@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -236,9 +236,7 @@ Non-monetary actual benefit
 Actual benefit value that is rolled up from the actual benefit in the non-monetary benefit plan breakdown.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/form-field-information-for-project-management.md)
-
-**Related topics**  
+</table>**Related topics**  
 
 
 [Create a non-monetary benefit plan for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.md)

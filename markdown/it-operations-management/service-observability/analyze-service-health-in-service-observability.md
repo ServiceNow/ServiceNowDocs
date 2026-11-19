@@ -7,7 +7,7 @@ release: australia
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Generative AI for IT Operations Management, Generative AI for ITOM, Service Observability dashboard analysis, Now Assist panel]
 breadcrumb: [Monitoring and investigating, Service Observability, ITOM AIOps, IT Operations Management]
@@ -21,13 +21,13 @@ Use the Analyze Service Health skill to view an analysis of all Service Observab
 
 The analyze service health skill uses generative AI to analyze all available Service Observability dashboards for the selected service.
 
-When you ask the skill to analyze a service's health, it generates an optimized version of the Service Observability charts for a service, whether or not they are currently displayed. It then analyzes the data, taking the time period shown into account, and reports any insights it finds. It also analyzes general service health. With these insights on service health, operators can assess service impact, identify root causes, and streamline incident response.
+When you ask the skill to analyze a service's health, it generates an optimized version of the Service Observability charts for a service. This applies whether or not the charts are currently displayed. It analyzes the data for the displayed time period and reports any insights it finds. It also analyzes general service health. With these insights, operators can assess service impact, identify root causes, and streamline incident response.
 
 \[Omitted image "so\_NAService.png"\] Alt text: AI found insights on three dashboards.
 
 The skill's results remain available for an hour and don't automatically refresh. You need to rerun the skill to view a new analysis.
 
-Once the skill is [activated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/activate-the-analyze-service-health-skill.md), it automatically runs for you in incident investigation from the **Investigate** tab in Incident Management. See [Digital End-User Experience and Service Observability UI experience on investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dex-so-metric-views-investigate-tab.md) for more information.
+Once the skill is [activated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-observability/activate-the-analyze-service-health-skill.md), it automatically runs for you in incident investigation from the **Investigate** tab in Incident Management. See  for more information.
 
 Note the following:
 

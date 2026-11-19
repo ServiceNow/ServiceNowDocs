@@ -7,7 +7,7 @@ release: australia
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 9
 breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -27,7 +27,7 @@ Subscription identifiers uniquely identify your SaaS and SSO applications. Each 
 
 [SaaS License Management setup for large companies]()
 
-[SaaS Overview dashboard]()
+[]()
 
 [Integrate with SaaS applications]()
 
@@ -79,7 +79,7 @@ Subscription identifiers update either automatically or manually depending on th
 
     A dot indicates that there are discrepancies between the associated subscription identifier and data that is provided in the latest content updates.
 
-3.  On the Software Model form, open the software model suggestions by clicking the warning icon \[Omitted image "image.warning-icon"\] next to the **Display name** field.
+3.  On the Software Model form, open the software model suggestions by clicking the warning icon \[Omitted image "warning-icon.png"\] next to the **Display name** field.
 
     The Software Model Suggestions dialog box opens.
 

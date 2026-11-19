@@ -1,27 +1,26 @@
 ---
 title: Use AI to explore dashboards with Dashboard Summary
-description: The Dashboard Summary is your AI companion for instant insight into Platform Analytics dashboard and workspace content. Use the summary to help you understand your data and uncover meaningful patters for decision making. The Dashboard Summary is available with any Now Assist application.
+description: The Dashboard Summary is your AI companion for instant insight into Platform Analytics dashboard content to help users understand their data and uncover meaningful patters for decision making. The Dashboard summary is available with any Now Assist application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/dashboard-summary-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-07-29"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Use AI to explore dashboards with Dashboard Summary
 
-The Dashboard Summary is your AI companion for instant insight into Platform Analytics dashboard and workspace content. Use the summary to help you understand your data and uncover meaningful patters for decision making. The Dashboard Summary is available with any Now Assist application.
+The Dashboard Summary is your AI companion for instant insight into Platform Analytics dashboard content to help users understand their data and uncover meaningful patters for decision making. The Dashboard summary is available with any Now Assist application.
 
 ## Get started
 
 Requirements;
 
+-   Australia Patch 3
 -   Any Now Assist application
 -   Platform Analytics experience Bundle v8.4 store application.
-
-**Note:** The Dashboard Summary is not available on technical dashboards.
 
 <table id="table_crq_v4l_w2c" class="nav-card presentation"><tbody><tr><td>
 

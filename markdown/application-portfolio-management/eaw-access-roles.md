@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-access-roles.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-28"
+last_updated: "2026-06-09"
 reading_time_minutes: 16
 keywords: [access roles, permissions, role capabilities, enterprise architect, application portfolio, business architecture, technology portfolio, data certification, modeling, AI systems]
 breadcrumb: [Install Enterprise Architecture Workspace, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
@@ -25,6 +25,8 @@ The following roles are available in Enterprise Architecture Workspace. After ac
 |sn\_apm.apm\_analyst|Create and manage key portfolio records such as business applications and digital integrations. Approve or reject requests when assigned to the Enterprise Architect group. Includes all permissions of sn\_apm.apm\_admin.|Enterprise architect, solution architect|
 |sn\_apm.apm\_user|Create and update portfolio data across business architecture, information portfolio, technology portfolio, modeling, and data certification.|Application owner, business analyst, portfolio manager|
 |sn\_apm.apm\_read|Read-only access to all pages and records in Enterprise Architecture Workspace. Cannot create or update data. For more information, see [Business stakeholder role for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-business-stakeholder-role.md).|Business stakeholder, executive, auditor|
+
+Users with Enterprise Architecture Workspace roles and certain platform roles, such as ITIL and other CMDB related roles, may be able to create or edit Business Application records by default.
 
 **Note:** The global admin role continues to function through role inheritance. However, Enterprise Architecture now uses feature-specific granular admin roles. Use sn\_apm.apm\_admin instead of admin for application-level administration wherever possible. For more information, see [Granular admin role changes in Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-gran-admin-role-changes.md).
 
@@ -300,34 +302,6 @@ Activate the Read only roles for Enterprise Architecture plugin
 </td><td>
 
  
-
-</td></tr><tr><td>
-
-Run the scheduled job to sync TRM product names with linked ServiceNow Otto for SAM software product names
-
-</td><td align="center">
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td><td align="center">
-
- 
-
-</td><td align="center">
-
- 
-
-</td><td align="center">
-
- 
-
-</td><td align="center">
-
- 
-
-</td><td>
-
-Requires the admin role. Run on demand from **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 
 </td></tr><tr><td>
 
@@ -1666,9 +1640,15 @@ View all data domains, information objects, architectural artifacts, artifact ve
  
 
 </td></tr></tbody>
-</table>## Technology Portfolio Management \(TPM\)
+</table>## Technology Lifecycle Management \(TLM\)
 
-Technology Portfolio Management tracks software and hardware lifecycle data for business applications and application services.
+Technology Lifecycle Management tracks software and hardware lifecycle data for business applications and application services.
+
+**Important:**
+
+Technology Lifecycle Management \(TLM\) was previously known as Technology Portfolio Management \(TPM\). TPM and TLM refer to the same feature. Table names and scheduled job names continue to use TPM and haven't been renamed.
+
+Whether your instance displays TPM or TLM also depends on your application versions. TLM labels appear only when both the Enterprise Architecture Workspace application \(version 9.2.1 or later\) and the Technology Lifecycle Management plugin, sn\_apm\_tpm \(version 1.11.0 or later\), are installed. If either application is on an earlier version, the interface continues to show TPM.
 
 <table id="table_section_tpm"><thead><tr><th>
 
@@ -1700,7 +1680,7 @@ Notes
 
 </th></tr></thead><tbody><tr><td>
 
-Activate the TPM plugin
+Activate the TLM plugin
 
 </td><td align="center">
 
@@ -1736,11 +1716,11 @@ Update the system property to gather software from CMDB
 
 </td><td align="center">
 
- 
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
- 
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -1756,7 +1736,7 @@ Update the system property to gather software from CMDB
 
 </td></tr><tr><td>
 
-Update TPM lifecycle data for a business application or application service
+Update TLM lifecycle data for a business application or application service
 
 </td><td align="center">
 
@@ -1840,7 +1820,7 @@ View technology portfolio audit risk details and update verification status
 
 </td></tr><tr><td>
 
-Run the job to populate TPM lifecycle data
+Run the job to populate TLM lifecycle data
 
 </td><td align="center">
 
@@ -1868,7 +1848,7 @@ Run the job to populate TPM lifecycle data
 
 </td></tr><tr><td>
 
-Run the scheduled job to update TPM data
+Run the scheduled job to update TLM data
 
 </td><td align="center">
 
@@ -1896,7 +1876,7 @@ Run the scheduled job to update TPM data
 
 </td></tr><tr><td>
 
-Run the scheduled job to generate TPM risk; restart the TPM scheduled job
+Run the scheduled job to generate TLM risk; restart the TLM scheduled job
 
 </td><td align="center">
 
@@ -1924,7 +1904,7 @@ Run the scheduled job to generate TPM risk; restart the TPM scheduled job
 
 </td></tr><tr><td>
 
-View TPM logs; run the job to populate TPM lifecycle identifiers
+View TLM logs; run the job to populate TLM lifecycle identifiers
 
 </td><td align="center">
 
@@ -2374,6 +2354,34 @@ View TRM products, categories, phases, technical debt, and lifecycle timelines
 </td><td>
 
  
+
+</td></tr><tr><td>
+
+Run the scheduled job to sync TRM product names with linked ServiceNow Otto for SAM software product names
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Requires the admin role. Run on demand from **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 
 </td></tr></tbody>
 </table>## Enterprise modeling and visualization
@@ -4753,8 +4761,4 @@ View your assigned entities
 [Business stakeholder role for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-business-stakeholder-role.md)
 
 [Granular admin role changes in Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-gran-admin-role-changes.md)
-
-[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/install-ea-workspace.md)
-
-[Components installed with Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-installed-with-eaw.md)
 

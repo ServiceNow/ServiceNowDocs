@@ -70,7 +70,7 @@ Next Experience for Demand Management enables end-to-end planning and management
 
     Summarize demands and refine them using AI.
 
-14. [Create AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-ai-systems-from-dw-ppw.md)
+14. [Associate AI systems with demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/create-ai-systems-from-dw-ppw.md)
 
     Link AI systems to a demand directly from Next Experience for Demand Management.
 

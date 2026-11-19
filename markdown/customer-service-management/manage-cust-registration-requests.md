@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/manage-cust-registration-requests.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
@@ -33,15 +33,15 @@ Role required: sn\_customerservice.customer\_admin
 
 1.  Navigate to the customer portal.
 
-2.  Select **Approvals**.
+2.  Click **Approvals**.
 
     The Approvals list displays registration requests with these states: **Requested** and **No Longer Required**.
 
-3.  Select a request in the Approvals list with a state of **Requested**.
+3.  Click a request in the Approvals list with a state of **Requested**.
 
 4.  If desired, add any **Comments** to this request.
 
-5.  Select **Approve**.
+5.  Click **Approve**.
 
     A user account is created and an email is sent to the contact’s email address with a user ID and temporary password. The user is also assigned these roles: sn\_esm\_user and snc\_external.
 
@@ -93,11 +93,11 @@ Role required: sn\_customerservice.customer\_admin
 
 1.  Navigate to the customer portal.
 
-2.  Select **My Approvals**.
+2.  Click **My Approvals**.
 
-3.  Select a request in the Approvals list with a state of **Requested**.
+3.  Click a request in the Approvals list with a state of **Requested**.
 
-4.  Select **Reject**.
+4.  Click **Reject**.
 
     An email regarding the rejection is sent to the requestor’s email address.
 

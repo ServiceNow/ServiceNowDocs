@@ -1,22 +1,22 @@
 ---
 title: Device location determination
-description: Device location determination identifies the number of impacted devices at each location based on configurable logic.
+description: Identify and determine the number of impacted devices based on the location by defining a custom logic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/location-determination.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [DEX advanced configuration, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Advanced configuration, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Device location determination
 
-Device location determination identifies the number of impacted devices at each location based on configurable logic.
+Identify and determine the number of impacted devices based on the location by defining a custom logic.
 
-Identify the number of impacted devices by location by configuring custom logic for location determination. Device location can be set using three predefined configurations. DEX administrators configure this behavior using the **sn\_dex.location\_determination** system property. This property controls how DEX determines the location of each device in the Computer \[cmdb\_ci\_computer\] table, which is used for reporting and alerting.
+Identify the number of impacted devices by location by configuring custom logic for location determination. Device location can be set using three predefined configurations. DEX administrators configure this behavior using the **sn\_dex.location\_determination** system property. This property controls how DEX determines the location of each device in the \[cmdb\_ci\_computer\] table, which is used for reporting and alerting.
 
 ## default\_gateway\_determined\_location
 
@@ -41,7 +41,7 @@ Location determination logic: DEX prefers the device’s assigned location and f
 -   Use the device’s location from cmdb\_ci\_computer.
 -   If unavailable, use the owner’s location from sys\_user.
 
-If neither option is set, the device is marked as Remote \(see Remote location format logic\).
+If neither of the option is set, the device is marked as Remote \(see Remote location format logic\).
 
 **Note:**
 
@@ -65,5 +65,5 @@ When a device is marked as Remote, DEX uses GeoIP to determine the Region or Sta
 
 When `sn_dex.location_determination` is set to `geoIP_determined_location`, to make the Geomap work on the DEX dashboard, no manual configuration is required. DEX automatically populates the state, country, latitude, and longitude values.
 
-**Parent Topic:**[DEX advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
+**Parent Topic:**[Advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-advanced-configuration.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Strategic spend tracking, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -33,10 +33,6 @@ You can analyze the total expenses, and drill down to what is contributing to th
 |End user and goal|Required role|
 |-----------------|-------------|
 |Business Planner: Needs visibility into strategies and goals for projects and demands in the organization.|business\_planner|
-
-**Note:**
-
-Starting with the Brazil release, Business Planner plugin and Business Planner role are being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Indicators
 

@@ -1,20 +1,24 @@
 ---
-title: Apache Iceberg
+title: Apache Iceberg \(Preview\)
 description: The Apache Iceberg connector provides read-only access to data and metadata in the Iceberg format.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/apache-iceberg-primary-zcc.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
 
-# Apache Iceberg
+# Apache Iceberg \(Preview\)
 
 The Apache Iceberg connector provides read-only access to data and metadata in the Iceberg format.
 
 A connection admin can set up a connection to Apache Iceberg in the Zero Copy Connector Hub and grant data stewards access to this connection. Data stewards can then use the established connection to create a data fabric table and map data from Apache Iceberg. This allows users to access Apache Iceberg data through the table list view or by using GlideRecord scripts. For details on creating data fabric tables and mapping data, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md).
+
+**Note:**
+
+This connector is available starting with Zurich patch 9.
 
 **Important:** The Apache Iceberg primary connector is in preview. A primary connector in preview is developed and supported by ServiceNow, but is still being enhanced to include all planned functionality. While in preview, a connector may have limitations in platform support or available features.
 

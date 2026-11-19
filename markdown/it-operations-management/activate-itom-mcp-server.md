@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/activate-itom-mcp-server.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-04-27"
 reading_time_minutes: 1
 keywords: [MCP Server, ITOM, OAuth, Model Context Protocol]
 breadcrumb: [Use the ITOM MCP Server Console, AI in ITOM, IT Operations Management]
@@ -64,11 +64,7 @@ Role required: sn\_mcp\_server.admin
 **Related topics**  
 
 
-[MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mcp-platform-manager-landing.md)
-
-[Configuring MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configuring-mcp-server-console.md)
+[bundle-platai.mcp-server-console-landing]
 
 [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/connect-mcp-server-client.md)
-
-[Install Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-mcp-client.md)
 

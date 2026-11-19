@@ -7,7 +7,7 @@ release: australia
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create a scripted REST API, Scripted REST APIs, REST APIs, Web services, API implementation, API implementation and reference]
 ---
@@ -28,15 +28,15 @@ Role required: web\_service\_admin
 
     If you navigate through the scripted REST API record, most fields in the REST Response record are pre-populated.
 
-<table id="choicetable_mvh_34d_j3c"><thead><tr><th align="left" id="d753301e63">
+<table id="choicetable_mvh_34d_j3c"><thead><tr><th align="left" id="d723694e64">
 
 Option
 
-</th><th align="left" id="d753301e66">
+</th><th align="left" id="d723694e67">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d753301e72">
+</th></tr></thead><tbody><tr><td id="d723694e73">
 
 **Navigate through a scripted REST API record**
 
@@ -48,7 +48,7 @@ Procedure
 4.  In the **Response Schema** tab, select **New**.
 
 
-</td></tr><tr><td id="d753301e117">
+</td></tr><tr><td id="d723694e118">
 
 **Navigate directly to the REST Response record**
 

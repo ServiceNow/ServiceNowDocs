@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-05"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, performance]
-breadcrumb: [View AI assets usage and performance \(Lux UI\), Monitor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [View AI assets usage and performance \(Lux UI\), Monitor, AI Admin Center, Enable AI experiences]
 ---
 
 # Performance Explorer dashboard in AI Admin Center \(Lux UI\)
@@ -45,7 +45,7 @@ The **Skills** tab displays a list of individual generative AI skill executions.
 
 -   **Assist Count**
 
-    The number of assist credits consumed by the skill during the execution.
+    The number of assists consumed by the skill during the execution.
 
 -   **Positive Feedback**
 
@@ -92,7 +92,7 @@ The **Assistants** tab displays a list of individual assistant executions. Use t
 
 -   **Total Assist Usage**
 
-    The number of assist credits consumed by the assistant during the execution.
+    The number of assists consumed by the assistant during the execution.
 
 
 ## Agents
@@ -115,7 +115,7 @@ The **Agents** tab displays a list of individual AI agent executions. Use the **
 
 -   **Assist consumption**
 
-    The number of assist credits consumed by the agentic AI asset during the execution.
+    The number of assists consumed by the agentic AI asset during the execution.
 
 -   **Tasks closed**
 

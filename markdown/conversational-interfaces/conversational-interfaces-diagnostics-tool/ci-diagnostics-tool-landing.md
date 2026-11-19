@@ -7,9 +7,9 @@ release: australia
 product: Conversational Interfaces Diagnostics Tool
 classification: conversational-interfaces-diagnostics-tool
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage people and work, Conversational Interfaces]
+breadcrumb: [Conversational Interfaces]
 ---
 
 # Conversational Interfaces Diagnostic Tool

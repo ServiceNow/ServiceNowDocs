@@ -7,9 +7,9 @@ release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Learning UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
+breadcrumb: [Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
 
 # Learn UI Builder using other ServiceNow resources
@@ -26,7 +26,7 @@ Additional ServiceNow resources
 
 </th></tr></thead><tbody><tr><td rowspan="6">
 
-UI Builder is a web user interface builder. Use UI Builder to build pages for CRM Workspace, App Engine Studio generated workspaces and portals, or custom web experiences using Next Experience Components and custom web components.
+UI Builder is a web user interface builder. Use UI Builder to build pages for CSM Configurable Workspace, App Engine Studio generated workspaces and portals, or custom web experiences using Next Experience Components and custom web components.
 
 </td><td>
 

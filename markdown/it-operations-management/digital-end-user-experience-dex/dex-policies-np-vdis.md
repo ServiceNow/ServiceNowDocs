@@ -1,20 +1,20 @@
 ---
 title: DEX policies for non-persistent VDIs
-description: DEX policies for Windows non-persistent \(NP\) Virtual Desktop Infrastructures \(VDIs\) define the check instances, frequencies, and parameters for application, network, and device monitoring.
+description: Policy reference for DEX monitoring on Windows non-persistent \(NP\) Virtual Desktop Infrastructures \(VDI\). Use this reference to understand available check instances, frequencies, and parameters for application, network, and device monitoring.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/dex-policies-np-vdis.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-04-02"
 reading_time_minutes: 1
 breadcrumb: [DEX Content Playbook reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
 # DEX policies for non-persistent VDIs
 
-DEX policies for Windows non-persistent \(NP\) Virtual Desktop Infrastructures \(VDIs\) define the check instances, frequencies, and parameters for application, network, and device monitoring.
+Policy reference for DEX monitoring on Windows non-persistent \(NP\) Virtual Desktop Infrastructures \(VDI\). Use this reference to understand available check instances, frequencies, and parameters for application, network, and device monitoring.
 
 ## Policies for Windows — Application
 
@@ -46,11 +46,11 @@ os.win.check-app-historical
 
 </td><td>
 
-Collects app metrics from the non-persistent VDI Windows machine and sends metric data to MetricBase and the ServiceNow instance.
+Collects apps metrics from nonpersistent VDI Windows machine and sends metric data to Metric Base and ServiceNow® Instance.
 
 </td><td>
 
-5 minutes
+5 mins
 
 </td><td>
 
@@ -66,7 +66,7 @@ os.win.check-app-sccm-latest
 
 </td><td>
 
-Collects application-specific metrics for the Microsoft System Center Configuration Manager app on the Windows device.
+Collect application-specific metrics for the Microsoft System Center Configuration Manager app on theWindows device
 
 </td><td>
 
@@ -91,6 +91,8 @@ DEX provides the following policies for non-persistent VDI devices.
 
 | | | | | |
 |---|---|---|---|---|
-|os.win.check-system-metrics-historical|Collects all historical metrics.|5 minutes|Historical|memory\_details, io\_usage\_write, io\_usage\_read, cpu\_usage|
+|os.win.check-system-metrics-historical|Collects all historical metrics.|5 mins|Historical|memory\_details, io\_usage\_write, io\_usage\_read, cpu\_usage|
 |os.win.check-system-metrics-latest|Collects all latest metrics.|24 hours|Latest|cpu\_usage|
+
+**Parent Topic:**[DEX Content Playbook reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-content-playbook-reference.md)
 

@@ -4,10 +4,12 @@ description: Capture user input from pre-chat surveys to use as utterances or ke
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/conversational-interfaces/using-context-intent-prechat-survey.html
 release: australia
+product: Conversational Interfaces
+classification: conversational-interfaces
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create chat surveys, General chat settings, Conversational Interfaces Home for NLU, Configure NLU, \(Legacy\) Virtual Agent for NLU, Conversational Interfaces]
+breadcrumb: [General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
 
 # Using pre-chat surveys with context variables for topic discovery
@@ -20,11 +22,16 @@ A good example of this is the CSP Anonymous Pre-Chat Survey, which is included w
 
 \[Omitted image "csp-anonymous-prechat-survey.png"\] Alt text: Settings for the Please briefly describe your issue question in Survey Designer.
 
-The user response can be passed to Virtual Agent for use in topic discovery. In order to do this, you must create a record for it in General Chat Settings.
+The user response can be passed to Virtual Agent for use in topic discovery. To do this, you must create a record for it in General Chat Settings.
 
 \[Omitted image "ci-topic-context-intent-card.png"\] Alt text: General Chat settings Channels and routing tab, with View All button highlighted in Topic context intent card.
 
 The Pre-chat short description as NLU intent record allows the CSP Anonymous Pre-Chat Survey input to function a bit like an NLU intent. When the survey runs, the interaction's short\_description is used as the search text for the conversation. Virtual Agent uses this input for topic discovery so that users don't have to select a topic from the Greetings screen.
 
 \[Omitted image "prechat-short-description-nlu-intent.png"\] Alt text: Context topic intent record view corresponding with the pre-chat survey, with context and condition fields highlighted.
+
+-   **[Define topic context intent configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ac-configure-context-topic-intent.md)**  
+Use pre-chat survey information to determine the appropriate Virtual Agent conversation topic automatically displayed to end users \(requesters\), rather than prompting them to choose from a list of conversation topics.
+
+**Parent Topic:**[General chat settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/ci-configuring-chat-features.md)
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Otto Agentic workflows, AI in Manufacturing Commercial Operations, Explore, Manufacturing Commercial Operations]
+breadcrumb: [ServiceNow Otto skills, AI in Manufacturing Commercial Operations, Explore, Manufacturing Commercial Operations]
 ---
 
 # Execute recall campaigns faster agentic workflow

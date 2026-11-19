@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-casemanagementforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -96,7 +96,7 @@ Australia
 
 </td><td>
 
--   **[\[Placeholder link text to key add-dependencies-between-template-item\]](https://www.servicenow.com/docs/access?context=add-dependencies-between-template-item&family=australia&ft:locale=en-US)**
+-   **[add dependencies between template item](https://www.servicenow.com/docs/access?context=add-dependencies-between-template-item&family=australia&ft:locale=en-US)**
 
 Create and manage dependencies between template items using the supported dependency types. Users can apply a template at any time after the template is published. Validate dependencies using built‑in checks \(including circular dependency validation\) to help prevent invalid dependency definitions.
 
@@ -105,7 +105,7 @@ The following dependency types are supported:
     -   Finish to- start: the successor task starts when the predecessor task is completed.
     -   Start after start: the successor task starts when the predecessor task is started.
     -   Start together: both tasks start at the same time.
--   **[\[Placeholder link text to key share-a-task-plan-template-from-the-workspace\]](https://www.servicenow.com/docs/access?context=share-a-task-plan-template-from-the-workspace&family=australia&ft:locale=en-US)**
+-   **[share a task plan template from the workspace](https://www.servicenow.com/docs/access?context=share-a-task-plan-template-from-the-workspace&family=australia&ft:locale=en-US)**
 
 Provide a visual governance experience to define and manage user access enabling business process owners to configure relationships with clarity.
 
@@ -138,7 +138,7 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key sharing-task-plan-template\]](https://www.servicenow.com/docs/access?context=sharing-task-plan-template&family=zurich&ft:locale=en-US)**
+-   **[sharing task plan template](https://www.servicenow.com/docs/access?context=sharing-task-plan-template&family=zurich&ft:locale=en-US)**
 
 Sharing task plan templates ensures that only authorized users can access, edit, or share templates based on their role and location, preventing misuse and maintaining operational integrity. Sharing task plant template features include:
 

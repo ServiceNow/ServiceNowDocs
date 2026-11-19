@@ -7,9 +7,9 @@ release: australia
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-04"
 reading_time_minutes: 1
-breadcrumb: [Tagging in Knowledge Graph Designer, Using Enterprise graph schema, Knowledge Graph, Managing data for AI, Enable AI Experiences]
+breadcrumb: [Tagging in Knowledge Graph Designer, Using Enterprise graph schema, Knowledge Graph, Enable AI experiences]
 ---
 
 # Managing Knowledge Graph tags

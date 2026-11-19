@@ -7,9 +7,9 @@ release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
+breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
 
 # UI Builder quick start

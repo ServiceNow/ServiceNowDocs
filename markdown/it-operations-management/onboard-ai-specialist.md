@@ -19,7 +19,7 @@ Add the AIOps specialist to your team so it can start receiving and acting on al
 
 Very you have the following setting
 
--   Platform version Brazil Patch 2 or later.
+-   Platform version Australia Patch 8 or later.
 -   ServiceNow Otto for IT Operations Management \(ITOM\) application, version 2.10.0 or later.
 -   AIOps Experience application, version 27.2.68 or later.
 -   AIOps AI Specialist \(sn\_ai\_aiops\_force\) plugin, version 3.0.0 or later.
@@ -66,7 +66,7 @@ Role required: evt\_mgmt\_admin or evt\_aiops\_manager
 Configure the AI specialist's alert scope and task modules before activating it. See [Configure alert scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-alert-scope-ai-specialist.md) and [Configure task modules for the AIOps AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-task-modules-ai-specialist.md).
 
 -   **[Configure alert scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-alert-scope-ai-specialist.md)**  
-Define which alerts your AI specialist receives by setting filter conditions—the AI specialist is only assigned alerts that match all active conditions.
+Define which alerts your AI Specialist receives by setting filter conditions—the AI Specialist is only assigned alerts that match all active conditions.
 -   **[AIOps AI Specialist's task modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/task-modules.md)**  
 Task modules are the AI Specialist's built-in capabilities. Each module handles a distinct part of the alert lifecycle, and you control which modules are active and how they behave.
 -   **[Configure task modules for the AIOps AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-task-modules-ai-specialist.md)**  

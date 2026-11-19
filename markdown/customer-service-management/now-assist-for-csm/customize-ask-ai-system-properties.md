@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-21"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -73,5 +73,5 @@ The Ask AI system property is updated. The new value takes effect for the Ask AI
 ## What to do next
 
 -   To configure the second Ask AI property, select its name from the list and repeat this procedure.
--   Test the Ask AI feature in the CRM Workspace to verify that the updated questions appear as expected.
+-   Test the Ask AI feature in the CSM Configurable Workspace to verify that the updated questions appear as expected.
 

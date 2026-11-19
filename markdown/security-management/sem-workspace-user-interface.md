@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-workspace-user-interface.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-16"
+last_updated: "2026-09-03"
 reading_time_minutes: 7
 keywords: [Security exposure management, workspace, Finding, Remediation, Watch topic]
 breadcrumb: [Explore, Unified Security Exposure Management, Security Operations]
@@ -60,8 +60,6 @@ Explore detailed guidance for each Security Exposure Management Workspace view:
 [Remediation view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-workspaces-ui-remediation-module.md)
 
 [Viewing the Cloud Exposure View dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vr-cloud-exposure-view-db.md)
-
-[Security Assets page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-security-assets-page.md)
 
 [Security Exposure Management Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-unified-approval-rules-explore.md)
 

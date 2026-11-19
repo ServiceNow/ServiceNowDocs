@@ -16,7 +16,7 @@ breadcrumb: [Reference, Industrial Process Manager, Operational Technology]
 
 You can use the User Criteria form to determine whether certain users can access the equipment model entities for specific sites.
 
-**Note:** User criteria configurations aren't available with the ISA Equipment Model version 4.2.0. For more information see, [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/granular-access-control-isa-equipment.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/granular-access-control-isa-equipment.md).
+**Note:** User criteria configurations aren't available with the ISA Equipment Model version 4.2.0. For more information see, .
 
 The following table describes the user criteria form fields.
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-15"
 reading_time_minutes: 2
 keywords: [global LLM, AI agent LLM, use case LLM, agentic workflow LLM, GPT-4, GPT-4o, GPT4, GPT4o]
-breadcrumb: [AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [AI Agent Studio settings, Configure AI Agent Studio, AI Agent Studio, Enable AI experiences]
 ---
 
 # Select the LLM for AI agents and agentic workflows

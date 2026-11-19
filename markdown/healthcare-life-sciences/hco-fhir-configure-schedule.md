@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/healthcare-life-sciences/hco-fhir-configure-schedule.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-16"
 reading_time_minutes: 1
 keywords: [schedule, scheduled job, sync cadence]
 breadcrumb: [Prerequisites for the FHIR integration, EMR Provider Directory Sync, Healthcare Integrations, Healthcare and Life Sciences]
@@ -17,7 +17,7 @@ Adjust how often the EMR Provider Directory Sync imports data by editing the **F
 
 ## Before you begin
 
-Role required: `sn_hco_intg_fhir.admin`.
+Role required: `sn_hcls_emr_sync.admin`.
 
 ## About this task
 

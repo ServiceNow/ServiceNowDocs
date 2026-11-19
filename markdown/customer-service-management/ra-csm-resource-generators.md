@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/ra-csm-resource-generators.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement I
 
 Resource generators in Recommended Actions provide resources that you can use as inputs to actions such as guidances and field recommendations.
 
-Resource generators provide resources such as a knowledge article, a set of cases, or a field value that you can use in recommendations. Agents can use these recommendations in the Recommended Actions panel in a workspace such as CRM Workspace.
+Resource generators provide resources such as a knowledge article, a set of cases, or a field value that you can use in recommendations. Agents can use these recommendations in the Recommended Actions panel in a workspace such as CSM Configurable Workspace.
 
 Another way to think of a resource generator is as a function with inputs and outputs. For example, you can create a resource generator that predicts a knowledge article and then use that knowledge article as a recommended action for a case.
 

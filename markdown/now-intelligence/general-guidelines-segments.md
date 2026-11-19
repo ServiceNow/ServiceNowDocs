@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/general-guidelines-segments.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-25"
 reading_time_minutes: 4
 breadcrumb: [Segments, Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
@@ -31,6 +31,10 @@ Manual segments are the recommended way to ship domain-specific saved searches w
 -   **Start with high-value, high-traffic tables**
 
     Focus manual segments on the tables your users ask about most. A handful of well-crafted segments on incident, sc\_req\_item, or your application's primary table will have more impact than broad coverage across rarely-queried tables.
+
+-   **Check that your tables are in the semantic layer**
+
+    The target table for a manual segment must have a corresponding record in the Semantic Table Config \[sn\_query\_gen\_table\_config\] table. The value of Enable Semantic Generation in that record must be `true`.
 
 -   **Pair every choice-heavy filter with a clear name**
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,9 +24,9 @@ You can view user analytics tracking for the portal in the Usage Insights applic
 
 Usage Insights for Service Portal provides views for monitoring the key performance indicators \(KPIs\) of web applications built on Service Portal. You can use these insights to optimize your portal.
 
-For example, Usage Insights tracks when a user orders a catalog item or views a knowledge article. You can use this data to infer which items or articles are the most popular among users. For more information on user-triggered events that are tracked automatically, see [Service Portal events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-analytics-events.md).
+For example, Usage Insights tracks when a user orders a catalog item or views a knowledge article. You can determine which items or articles are the most popular among users. For more information on user-triggered events that are tracked automatically, see [Service Portal events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/sp-analytics-events.md).
 
--   **Note:** Usage Insights tracking is enabled for all portals by default. You need to enable tracking for a portal only if you enabled tracking for some portals but not others in a previous version. For more information, see [Track Usage Insights in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/create-sp-analytics-settings.md).
+-   **Note:** Usage Insights tracking is enabled for all portals by default. Enable tracking for a portal only if you previously enabled tracking for some portals but not others. For more information, see [Track Usage Insights in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/create-sp-analytics-settings.md).
 
 -   **Note:** If you make certain key changes to portals, such as changing the sys\_id, data is not carried over and you see a different dashboard.
 

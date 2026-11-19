@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-10-28"
 reading_time_minutes: 2
-breadcrumb: [Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Integrations across multiple instances

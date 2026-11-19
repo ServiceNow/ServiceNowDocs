@@ -9,7 +9,7 @@ classification: predictive-intelligence
 topic_type: reference
 last_updated: "2026-10-07"
 reading_time_minutes: 3
-breadcrumb: [Predictive Intelligence references, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Predictive Intelligence references, Predictive Intelligence, Enable AI experiences]
 ---
 
 # Predictive Intelligence properties

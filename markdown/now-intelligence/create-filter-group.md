@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-filter-group.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-11-02"
+reading_time_minutes: 4
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -16,15 +16,15 @@ Create a set of filters that you can apply simultaneously. When you have multipl
 
 ## Before you begin
 
-Role required: dashboard\_admin, or any role if you are the dashboard owner or have had editing rights shared with you.
+Role required: dashboard\_admin, or you must be the dashboard owner or have had editing rights shared with you.
 
 ## About this task
 
-If you have many filters that apply to many visualizations on a dashboard, it can take a long time to apply all the filters. Each filter whose value you set makes a separate call to the ServiceNow AI Platform. You can speed this process up by organizing filters into groups, where you make a single call to apply multiple filters at once.
+If you have many filters that apply to many visualizations on a dashboard, it can take a long time to apply all the filters. Each filter whose value you set makes a separate call to the ServiceNow AI Platform. You can speed this process up by organizing filters into groups, where you make a single call to apply multiple filters at the same time.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Dashboards**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
 2.  Locate and open or create the dashboard to which you want to add a filter group.
 
@@ -32,7 +32,7 @@ If you have many filters that apply to many visualizations on a dashboard, it ca
 
 3.  Select **Add new element** and add a Filter Group element.
 
-4.  In the **UI Element** section, configure the appearance of the filter group
+4.  In the **UI Element** section, configure the appearance of the filter group.
 
 <table id="table_odb_qdh_xcc"><thead><tr><th>
 
@@ -113,9 +113,10 @@ Turn on to have the group border and radius match the pill border and radius. Av
 
     You can add filters of any type except Domain. The filter configuration is the same as for the Filter component:
 
-    -   [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-select-filter-workspace.md)
-    -   [Configure a True/False filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-boolean-filter-workspace.md)
-    -   [Configure a Date filter in the inline editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-date-filter-workspace.md)
+    -   [Single select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-select-filter-workspace.md): A single value from a set of choices. Single select is the default filter type.
+    -   [Multiple select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-select-filter-workspace.md): More than one value from a set of choices, such as both High and Critical Priority
+    -   [Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-date-filter-workspace.md): A calendar date. You can also set a time. Automatically applies to all indicator data on page or tab.
+    -   [True/False](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-boolean-filter-workspace.md): Whether a field value is true or false. Can also be used with indicator breakdowns that are based on a [bucket group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) with only two values. The labels for 'true' and 'false' can be customized. The viewer can select **\(empty\)** to clear their selection.
     When you complete the configuration of each filter, select **Back to group configuration**.
 
 6.  Configure any additional settings that you want to change.
@@ -134,7 +135,7 @@ Show group apply
 
 </td><td>
 
-Turn on to enable applying all filters in the group together. When disabled, changes to any individual filters in the group apply immediately.Default: on
+Turn on to enable applying all filters in the group together. When not selected, changes to any individual filters in the group apply immediately.Default: on
 
 </td></tr><tr><td>
 
@@ -150,7 +151,7 @@ Show group reset
 
 </td><td>
 
-Turn on to enable clearing all filters in the group together.Default: off
+Turn on to enable resetting all filters in the group to their default values together.Default: off
 
 </td></tr><tr><td>
 

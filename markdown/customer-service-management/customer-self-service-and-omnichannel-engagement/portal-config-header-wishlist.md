@@ -7,7 +7,7 @@ release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure the Portal Polaris Header widget for your portal, Portal Polaris Header widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
@@ -32,7 +32,7 @@ Role required: sp\_admin
 
     4.  Select **Open Record** on the Instance with Menu pop-up window.
 
-    5.  On the Portal revamp demo menu page, in the **Additional options, JSON format** field, modify the JSON as shown.
+    5.  On the Instance with Menu page, in the **Additional options, JSON format** field, modify the JSON as shown.
 
         ```
         {

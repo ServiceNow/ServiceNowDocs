@@ -7,7 +7,7 @@ release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 # Strategic Spend Tracking for PPM
 
 Strategic Spend Tracking for PPM enables project or demand managers to evaluate the strategic value of organization’s projects and demands. You can identify the purpose and benefits of executing demands and projects and how they contribute to achieving company's strategies and goals.
-
-**Note:** Starting with the Brazil release, Strategic Spend Tracking for PPM is being prepared for future deprecation and it will be hidden. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Strategic Spend Tracking for PPM enables demand and project managers to determine how and where funding is being spent during the execution of a demand or project.
 
@@ -34,7 +32,7 @@ Each demand and project contributes to achieving one or multiple organizational 
 Install the Strategic Spend Tracking for PPM application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 -   **[Allocate or modify the strategy and goal percentage for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/associate-goal-strategy-prj.md)**  
 Allocate the percentage of a project's total cost, benefit, and budget to help achieve the strategic objectives that the project fulfills. You can also view the breakdown of the project's financial data based on the allocated percentage.
--   **[Allocate or modify the strategy and goal percentage for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/associate-goal-strategy-dmd.md)**  
+-   **[Allocate strategy and goal percentage for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/associate-goal-strategy-dmd.md)**  
 Allocate the percentage of a demand's total cost, benefit, and budget towards achievement of strategic objectives that the demand fulfills. You can also view the breakdown of the demand's financial data based on the allocated percentage.
 -   **[Strategic Spend Tracking for PPM dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/ppm-strategic-spend-tracking-dashboard.md)**  
 The Strategic Spend Tracking for PPM dashboard helps business planners track planned costs, actual costs, and benefits for projects aligned to organizational goals. Use it to understand how financial performance trends over time.

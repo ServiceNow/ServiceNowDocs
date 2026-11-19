@@ -81,6 +81,8 @@ When processing search query text, AI Search uses tokenization settings for the 
 
 AI Search compares your search query terms with terms from indexed content and metadata, returning search results for indexed records or documents that contain matches. When your search terms are in the same language as the indexed terms, AI Search processes both sets of terms with the same tokenization settings, producing predictable matches and search results. If your search terms aren't in the same language as the indexed terms, AI Search processes the two sets of terms with different tokenization settings and matching may be unpredictable.
 
+As an example, AI Search might split a Japanese term into different tokens in indexed content than in a search query. This can happen with names and compound words. When the tokens don’t match, search results might not include content you expect. You cannot customize tokenization.
+
 ## Language dependence for search features
 
 The following search features are language-dependent and supported only for the listed languages.

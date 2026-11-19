@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,6 +30,8 @@ View and update specific details related to the major security incident such as 
 In the workspace, use the linking records functionality to link any related Security Incident records and its child security incidents, Remediation Tasks from Vulnerability Response, and Security Cases from Threat Intelligence to a Major Security Incident \(MSI\) record.
 -   **[Unlink records from Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/unlinking-msi-records.md)**  
 Using the Major Security Incident Management workspace, unlink the major security incident records from the Linked Records section.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/close-msi.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/close-msi.md)**  
+
 -   **[Manage tasks in a Major Security Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/tasks-tab.md)**  
 The Task tab enables you to track and manage all the tasks associated with a major security incident from the MSIM workspace. You can view the various tasks using the default Visual Task Board \(Kanban view\) or the List view.
 -   **[Track collaboration activity via MSIM workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/security-incident-response/collab-tab.md)**  

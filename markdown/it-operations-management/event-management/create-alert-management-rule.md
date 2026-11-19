@@ -1,20 +1,20 @@
 ---
 title: Create an alert management rule
-description: Create an alert management rule to track alerts and resolve them by determining the required response, for example, to open an incident or launch remediation action.
+description: Create an alert management rule to track and resolve alerts, for example, by opening an incident or launching remediation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/event-management/create-alert-management-rule.html
 release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 8
+last_updated: "2026-11-16"
+reading_time_minutes: 9
 breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create an alert management rule
 
-Create an alert management rule to track alerts and resolve them by determining the required response, for example, to open an incident or launch remediation action.
+Create an alert management rule to track and resolve alerts, for example, by opening an incident or launching remediation.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin, flow\_designer
 
 ## About this task
 
-**Note:** Use [Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/respond-alert-sow-itom.md) in Service Operations Workspace, the updated way to automate alert responses with an easier interface.
+**Note:** Use [Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/respond-alert-sow-itom.md) in Service Operations Workspace, the updated way to automate alert responses.
 
 Use alert management rules to track and resolve alerts.
 
@@ -70,7 +70,7 @@ Open sensor dashboard in PRTG
 
 </td><td>
 
-The sensor dashboard in the Paessler PRTG Network Monitor \(PRTG\) application opens.
+Open the sensor dashboard in the Paessler PRTG Network Monitor \(PRTG\) application.
 
 </td><td>
 
@@ -176,13 +176,13 @@ No
 </td></tr></tbody>
 </table>If your instance was upgraded from Kingston, the alert action rules that were provided with the Kingston base system are available to you. However, if you modified any of the rules, the changes made are not carried over.
 
-Alert management rules run 5 seconds after an alert is updated, resetting the timer if updates occur within that window. This delay ensures remediation actions, such as incident creation, are triggered only when the issue is clear and stable, reducing duplicates and unnecessary noise. To change the default 5-second delay, create the **evt\_mgmt.alert\_rule\_delay** property on the **All** &gt; **System Properties** &gt; **All Properties** and change the value. To know how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Alert management rules run 5 seconds after an alert is updated, resetting the timer if updates occur within that window. This delay helps trigger remediation actions, such as incident creation, only when the issue is clear and stable, which reduces duplicates and unnecessary noise. To change the default 5-second delay, create the **evt\_mgmt.alert\_rule\_delay** property on the **All** &gt; **System Properties** &gt; **All Properties** and change the value. To learn how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 ## Procedure
 
 1.  Navigate to **Event Management** &gt; **Rules** &gt; **Alert Management Rules**.
 
-2.  Click **New** and then fill in the fields.
+2.  Select **New** and then fill in the fields.
 
 <table id="table_jgd_nn5_xy"><thead><tr><th>
 
@@ -209,7 +209,7 @@ Active
 Check box for enabling the rule. If this check box is selected, you must specify:
 
 -   in the **Alert Filter** section, an alert filter
--   in the **Actions** section, at least one of any of these actions:
+-   in the **Actions** section, at least one of these actions:
     -   active subflow
     -   workflow
     -   quick response
@@ -248,12 +248,14 @@ Assignment group
 
 </td><td>
 
-Assignment group that works on the alert.If no assignment group is defined in the alert rule, then this alert rule is considered as a global rule.
+Group that limits the rule to alerts assigned to it. The rule doesn't assign the alert to the group.If no assignment group is defined in the alert rule, the rule is considered a global rule. A global rule applies to alerts in any assignment group, including alerts with no assignment group.
 
-When the rules are running – first the global rules run and then the rules that belong to the assignment group of the alert.
+If an assignment group is defined, the rule is evaluated only for alerts whose **Assignment group** field matches. For example, the rule doesn't run for an alert with an empty **Assignment group** field.
+
+First, the global rules run and then the rules that belong to the assignment group of the alert.
 
 </td></tr></tbody>
-</table>3.  Click **Alert Filter** and specify conditions for alerts that this rule is applied to.
+</table>3.  Select **Alert Filter** and specify conditions for alerts that this rule is applied to.
 
 <table id="table_j12_ff5"><thead><tr><th>
 
@@ -269,9 +271,9 @@ Rule is activated when
 
 </td><td>
 
-Rule execution takes place when:-   **Alert changes to filter**–content changes to the alert cause the alert to match the filter. If the filter is matched on following update of the alert, the rule is not applied. If the alert was closed and then reopens, at the next update of the alert and the filter is matched, the rule is applied. Thereafter, when there is an update of the alert, the rule is no longer applied.
+Rule execution takes place when:-   **Alert changes to filter** \(default\)–the rule runs each time an update moves the alert from not matching the filter to matching it. If the filter is still matched on following updates of the alert, the rule is not applied again. If the alert stops matching the filter and later matches it again, the rule runs again. If the alert was closed and then reopened, the rule is applied at the next update that matches the filter. Thereafter, when there is an update of the alert, the rule is no longer applied.
 -   **Alert matches filter**–the content of the alert matches the filter. On following update of the alert and if the filter is matched, the rule runs and is applied to the alert. The rule remains applied for every matching update.
-
+**Note:** The rule is evaluated only when the alert is updated. For **Alert changes to filter**, the rule must be evaluated on an update in which the alert doesn't match the filter, so that it can run again when the alert next matches. If you select **Stop search for additional rules** on another rule, rules after it aren't evaluated for that update, and a later rule set to **Alert changes to filter** might not run as expected. If several rules apply to the same alert, select **Search for additional rules**.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -283,7 +285,7 @@ Preview
 
 </td><td>
 
-Function to preview alerts that match the specified condition. A hyperlink shows how many alerts match the filter. \[Omitted image "alert-preview-filter.png"\] Alt text: Alert Preview filter If you click the hyperlink, the browser opens another tab that lists alerts in the Alerts \[em\_alert\_list\] table. The list shows which alerts match the rule, including closed alerts. Alerts that have already been run by the rule are not marked in any way. You can click any alert to view further details.
+Function to preview alerts that match the specified condition. A hyperlink shows how many alerts match the filter. \[Omitted image "alert-preview-filter.png"\] Alt text: Alert Preview filter If you select the hyperlink, the browser opens another tab that lists alerts in the Alerts \[em\_alert\_list\] table. The list shows which alerts match the rule, including closed alerts. Alerts that have already been run by the rule are not marked in any way. You can select any alert to view further details.
 
 </td></tr><tr><td>
 
@@ -291,9 +293,9 @@ Conditions
 
 </td><td>
 
-Conditions that, if fulfilled, cause the filter to be applied. For more information about building conditions, see [Using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-cond-state-using-cond-build.md).To add another condition, click **New Criteria**.
+Conditions that, if fulfilled, cause the filter to be applied. For more information about building conditions, see Using the condition builder.To add another condition, select **New Criteria**.
 
-**Note:** The **Created on** condition is not invoked when running the **Event Management - Evaluate Alert Management Rules** job. Instead, use the **Updated on** condition, as the job detects alerts based on the time they were updated and not on the time they were created.
+**Note:** The **Created on** condition is not invoked when running the **Event Management - Evaluate Alert Management Rules** job. Instead, use the **Updated on** condition, because the job detects alerts based on the time they were updated and not on the time they were created.
 
 </td></tr><tr><td>
 
@@ -301,12 +303,12 @@ Related List Conditions
 
 </td><td>
 
-Conditions to include a relationship with another table in the filter.1.  Click **Table** and select the required table.
+Conditions to include a relationship with another table in the filter.1.  Select **Table** and select the required table.
 2.  Specify the conditions for this filter.
 For more information about creating related lists, see [Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/create-related-list-query.md).
 
 </td></tr></tbody>
-</table>4.  Click **Actions**.
+</table>4.  Select **Actions**.
 
     In this section, you can configure the following action types as a response to alerts or to remediate alerts:
 
@@ -318,7 +320,7 @@ For more information about creating related lists, see [Add related list conditi
 
     1.  Under **Subflow**, double-click the cell.
 
-    2.  Click the search icon \[Omitted image "LookupUsingList.png"\] Alt text: Look-up icon.
+    2.  Select the search icon \[Omitted image "LookupUsingList.png"\] Alt text:.
 
         The list of subflows provided with the base system appears. For more information, see [Event Management subflows in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/subflows-provided.md).
 
@@ -333,7 +335,7 @@ For more information about creating related lists, see [Add related list conditi
         |Name|Description|
         |----|-----------|
         |Automatic|The subflow is executed automatically when the rule is matched.|
-        |Manual|Execute the subflow if required when the rule is matched.|
+        |Manual|The subflow is executed manually if required when the rule is matched.|
         |Both|When the rule is matched, the subflow is executed automatically and you can optionally execute the subflow again manually.|
 
     6.  Under **Automatic executions limit**, double-click the cell and enter the integer number of times to execute the subflow.
@@ -346,7 +348,7 @@ For more information about creating related lists, see [Add related list conditi
 
         \[Omitted image "link-to-flow-designer.png"\] Alt text: Link to subflow
 
-6.  To add instructions to launch applications or to open browser windows, in the Launch Applications area:
+6.  To add instructions to launch applications or to open browser windows, in the Launch Applications section:
 
     1.  Under **Display Name**, double-click the cell.
 
@@ -356,9 +358,9 @@ For more information about creating related lists, see [Add related list conditi
 
         The **Active** field is automatically updated.
 
-        Any URL-based action can utilize the alert parameters and the URLs can refer to wikis, messaging services, REST APIs, and so on.
+        Any URL-based action can use the alert parameters and the URLs can refer to wikis, messaging services, REST APIs, and so on.
 
-7.  Click **Submit**.
+7.  Select **Submit**.
 
 
 ## Result

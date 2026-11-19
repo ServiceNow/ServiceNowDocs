@@ -1,5 +1,5 @@
 ---
-title: Enable CAPTCHA for external user registration
+title: Enable CAPTCHA for External User Registration
 description: The sn\_ext\_usr\_reg.captchaEnabled controls if CAPTCHA will be validated for external user registration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-enable-captcha-external-user-registration.html
@@ -7,12 +7,12 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Enable CAPTCHA for external user registration
+# Enable CAPTCHA for External User Registration
 
 The **sn\_ext\_usr\_reg.captchaEnabled** controls if CAPTCHA will be validated for external user registration.
 
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-true
+&lt;none&gt;
 
 </td></tr><tr><td>
 

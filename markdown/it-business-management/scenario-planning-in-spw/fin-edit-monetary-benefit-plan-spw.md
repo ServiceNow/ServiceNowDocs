@@ -7,7 +7,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Create monetary benefit plans, Manage financials for planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -33,15 +33,15 @@ Edit a planned monetary benefit plan to revise the benefits, dates, offset, and 
 
 4.  Update a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d202687e103">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d203001e103">
 
 Option
 
-</th><th align="left" id="d202687e106">
+</th><th align="left" id="d203001e106">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d202687e112">
+</th></tr></thead><tbody><tr><td id="d203001e112">
 
 **Using Monetary benefit plan related list**
 
@@ -52,7 +52,7 @@ Procedure
 3.  In the Details tab, edit the required fields and select **Save**.
 
 
-</td></tr><tr><td id="d202687e139">
+</td></tr><tr><td id="d203001e139">
 
 **Using finanicals record page**
 

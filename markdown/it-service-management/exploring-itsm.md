@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/exploring-itsm.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-01"
 reading_time_minutes: 4
 keywords: [explore]
 breadcrumb: [IT Service Management]

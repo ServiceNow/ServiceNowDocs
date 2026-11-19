@@ -7,7 +7,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 16
 breadcrumb: [Core UI Report types, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -165,7 +165,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 3.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d33644e423">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d33476e423">
 
 **Data source**
 
@@ -173,15 +173,15 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/c_ReportSources.md).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d33644e442">
+</td></tr><tr><td id="d33476e442">
 
 **Table**
 
 </td><td>
 
-The raw data from a table with no filters applied. When you select a table, its short description appears below the table name.For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md).
+The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md)
 
-</td></tr><tr><td id="d33644e461">
+</td></tr><tr><td id="d33476e461">
 
 **External import**
 
@@ -189,7 +189,7 @@ The raw data from a table with no filters applied. When you select a table, its 
 
 Choose an existing imported report source, or select the Upload icon \(\[Omitted image "upload-icon.png"\] Alt text: Upload icon\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d33644e486">
+</td></tr><tr><td id="d33476e486">
 
 **MetricBase**
 
@@ -327,7 +327,7 @@ Mathematical calculation to perform on the data. The default is **Count**, which
 
 Change the look of your trendbox report.
 
-When you create or edit a report, select the **Style** tab for options to configure the look of your report. The options are organized under two or more of the following tabs: **General**, **Title**, **Legend**, and **Axis**. To see how the report looks with the changed settings, select **Save**.
+When you create or edit a report, click the **Style** tab for options to configure the look of your report. The options are organized under two or more of the following tabs: **General**, **Title**, **Legend**, and **Axis**. To see how the report looks with the changed settings, click **Save**.
 
 <table id="table_h1l_1jh_yq"><thead><tr><th>
 
@@ -379,7 +379,7 @@ Decimal precision
 
 </td><td id="decimalPrecisionEntry">
 
-Number of decimal places to show. You can show from zero to four decimal places. Default value: 2. To change the default value, create the system property glide.chart.decimal.precision and specify the value. **Note:** Percentage labels don't change accordingly with the decimal precision specified.
+Number of decimal places to show. You can show from zero to four decimal places. Default value: 2. To change the default value, create the system property glide.chart.decimal.precision and specify the value. **Note:** Percentage labels do not change accordingly with the decimal precision specified.
 
  \[Omitted image "DecimalPrecision-BarReport.png"\] Alt text: Decimal precision - Bar report \[Omitted image "DecimalPrecision-DonutReport.png"\] Alt text: Decimal precision - Donut report
 
@@ -527,7 +527,7 @@ From
 
 </td><td>
 
-Specify a minimum Y-axis value to limit the amount of information in the report. If you select an aggregation field that is not of the type **Number**, the **From** and **To** fields aren't available.**Note:**
+Specify a minimum Y-axis value to limit the amount of information in the report. If you select an aggregation field that is not of the type **Number**, the **From** and **To** fields are not available.**Note:**
 
 Depending on configured [Highcharts](https://api.highcharts.com/highcharts/yAxis.min) settings, the minimum value may be rounded up or down. If you require the settings that affect this changed, contact the administrator.
 
@@ -537,7 +537,7 @@ To
 
 </td><td>
 
-Specify a maximum Y-axis value to limit the amount of information in the report. If you select an aggregation field that is not of the type **Number**, the **From** and **To** fields aren't available.**Note:**
+Specify a maximum Y-axis value to limit the amount of information in the report. If you select an aggregation field that is not of the type **Number**, the **From** and **To** fields are not available.**Note:**
 
 Depending on configured [Highcharts](https://api.highcharts.com/highcharts/yAxis.min) settings, the minimum value may be rounded up or down. If you require the settings that affect this changed, contact the administrator.
 

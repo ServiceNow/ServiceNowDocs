@@ -9,7 +9,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure AI Search for Business and Consumer Portal
@@ -42,7 +42,7 @@ AI Search is disabled by default. You can enable it by updating the portal recor
 
 5.  In the **Search Results Configuration** field, search and select the required search results configuration.
 
-    A search result configuration defines how search results are displayed. A search result configuration is selected by default, but you can select a different configuration if needed.
+    A search result configuration defines how search results are displayed. No search result configuration is selected by default, so you must select one.
 
     You can modify existing search results configuration record such as CSM Search or create and configure your own search results configuration.
 

@@ -43,7 +43,7 @@ Three currency display options are available:
 **Related topics**  
 
 
-[Show rollup pricing in the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/display-rollup-pricing-in-the-shopping-cart.md)
+[Show rollup pricing in the shopping cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 [How price is displayed on a layout with multiple BOMs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/how_does_pricing_on_multiple_boms_displayed_on_a_layout_behave.md)
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-conversationimprovementthemes-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
-reading_time_minutes: 3
+last_updated: "2026-11-19"
+reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,14 +67,7 @@ Zurich
 
 </td><td>
 
--   **[Determine effective and ineffective conversations](https://www.servicenow.com/docs/access?context=conv-impr-themes-use&family=zurich&ft:locale=en-US)**
-
-Analyze conversation quality data over time and classify them into effective and ineffective conversations.
-
--   **[Categorize conversations into themes](https://www.servicenow.com/docs/access?context=conv-impr-themes-use&family=zurich&ft:locale=en-US)**
-
-Identify recurring patterns linked to low or high conversation quality and categorize user requests into actionable themes.
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -192,10 +185,8 @@ Zurich
 
 -   **Activation information**
 
-Install Conversation Improvement Themes by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Conversation Improvement Themes is no longer available from the ServiceNow Store.
 
-
-**Important:** Conversation Improvement Themes is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -340,11 +331,7 @@ Zurich
 
 </td><td>
 
--   Use automated theme detection with a domain-specific large language model \(LLM\) theme classification framework to tag Knowledge Base articles, catalog items, Virtual Agent \(VA\) topics, and agents into themes.
--   Receive thematic insights by breaking down poor and good-quality conversations into top underlying themes.
--   Compare themes based on whether they lead to good or bad conversations.
-
- See [Conversation Improvement Themes](https://www.servicenow.com/docs/access?context=conv-impr-themes-landing&family=zurich&ft:locale=en-US) for more information.
+Starting with the December 2026 release, Conversation Improvement Themes is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 </td></tr><tr><td>
 

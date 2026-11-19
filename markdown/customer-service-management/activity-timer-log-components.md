@@ -1,18 +1,18 @@
 ---
 title: Activity timer log components
-description: The activity timer log feature is available with the Activity Timer Reporting application \(sn\_at\_rpt\). This application adds user tables, user roles, UI Builder page properties, a script include, and a scheduled job.
+description: The activity timer log feature is available with the Activity Timer Reporting application. This application adds user tables, user roles, UIB page properties, a script include, and a scheduled job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activity-timer-log-components.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-16"
+last_updated: "2026-09-21"
 reading_time_minutes: 2
-breadcrumb: [Activity timer log, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Activity timer log, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activity timer log components
 
-The activity timer log feature is available with the Activity Timer Reporting application \(sn\_at\_rpt\). This application adds user tables, user roles, UI Builder page properties, a script include, and a scheduled job.
+The activity timer log feature is available with the Activity Timer Reporting application. This application adds user tables, user roles, UIB page properties, a script include, and a scheduled job.
 
 ## Tables
 
@@ -28,7 +28,7 @@ The activity timer log feature adds the following tables.
 |Attributes|Attributes for the entry, such as the record state and short description.|
 |Record|The record type and number. For example, Case: CS0001008.|
 |Session|The session ID.|
-|Source|The record page that the agent was using in CRM Workspace.|
+|Source|The record page that the agent was using in CSM Configurable Workspace.|
 |Table|The table that stores the record in the **Record** field.|
 |Timer running|The start and stop times for the entry.|
 |Timestamp|The timestamp for the start and stop times.|

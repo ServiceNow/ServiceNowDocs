@@ -1,20 +1,20 @@
 ---
 title: Start a conference call
-description: Start a conference call from a task or an incident communication plan by inviting one or more users to join a call. The conference will not start until at least two participants join.
+description: Start a conference call from a task or an incident communication plan by inviting users. The call starts only after at least two participants join.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/start-a-conference-call.html
 release: australia
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Using Notify for making conference calls, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Start a conference call
 
-Start a conference call from a task or an incident communication plan by inviting one or more users to join a call. The conference will not start until at least two participants join.
+Start a conference call from a task or an incident communication plan by inviting users. The call starts only after at least two participants join.
 
 ## Before you begin
 
@@ -50,7 +50,7 @@ Call participants can include:
 
 6.  To select ad-hoc participants,
 
-<table id="choicetable_b2f_p4c_lq"><tbody><tr><td id="d173952e151">
+<table id="choicetable_b2f_p4c_lq"><tbody><tr><td id="d175480e157">
 
 **Click the reference lookup icon, and select the relevant user.**
 
@@ -58,7 +58,7 @@ Call participants can include:
 
 Click **Add to selected**.
 
-</td></tr><tr><td id="d173952e163">
+</td></tr><tr><td id="d175480e169">
 
 **Enter the participant's phone number**
 

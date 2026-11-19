@@ -1,20 +1,20 @@
 ---
-title: Creating PowerShell script-based remedial actions
-description: You can create a custom remedial action by using a PowerShell script packaged in an Agent Client Collector \(ACC\) plugin and executed on endpoint devices through a check definition.
+title: Creating and executing a PowerShell script-based remedial action
+description: A custom remedial action can be created using a PowerShell script packaged in an Agent Client Collector \(ACC\) plugin and executed on endpoint devices through a check definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/remedial-actions-ps.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-10-23"
-reading_time_minutes: 1
-breadcrumb: [Creating DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [DEX remedial actions, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
-# Creating PowerShell script-based remedial actions
+# Creating and executing a PowerShell script-based remedial action
 
-You can create a custom remedial action by using a PowerShell script packaged in an Agent Client Collector \(ACC\) plugin and executed on endpoint devices through a check definition.
+A custom remedial action can be created using a PowerShell script packaged in an Agent Client Collector \(ACC\) plugin and executed on endpoint devices through a check definition.
 
 The ACC plugin contains the PowerShell script that defines the remedial action using commands and a Ruby script that calls the PowerShell script from the ServiceNow instance. When the signed ACC plugin is uploaded to a ServiceNow instance, the ACC agent downloads the plugin and executes the remedial action through a check definition you create.
 
@@ -25,4 +25,15 @@ Creating and executing a PowerShell script-based custom remedial action includes
 3.  Uploading the signed plugin package to the ServiceNow instance. For more information, see [Create and edit Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/create-edit-assets.md).
 4.  Creating a check definition and linking it to the ACC plugin to enable the ACC agent to download it and execute the remedial action on the endpoint device. For more information, see [Create a check definition for a custom remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/create-check-def-remedial-actions.md).
 5.  Testing the check definition to verify if the ACC plugin is linked and the remedial action runs successfully. For more information, see [Test a check definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/test-check-def.md).
+
+-   **[Create an ACC plugin package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/create-acc-plugin-structure.md)**  
+Package a PowerShell script, a Ruby script, and an execution allowlist into an Agent Client Collector \(ACC\) plugin to run remedial actions on endpoints from the platform.
+-   **[Sign and verify an ACC plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/sign-verify-plugin.md)**  
+Create a self-signed certificate for an Agent Client Collector \(ACC\) plugin and verify the signature to enable validation of the signed plugin on endpoint devices.
+-   **[Create a check definition for a custom remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/create-check-def-remedial-actions.md)**  
+Create a check definition and link it to the Agent Client Collector \(ACC\) plugin to enable the ACC agent to run a custom remedial action.
+-   **[Test a check definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/test-check-def.md)**  
+Test a check definition on an endpoint device to verify that the Agent Client Collector \(ACC\) plugin is linked and the custom remedial action defined in the script runs successfully.
+
+**Parent Topic:**[DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-remedial-actions.md)
 

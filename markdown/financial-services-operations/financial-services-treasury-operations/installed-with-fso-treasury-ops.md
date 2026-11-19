@@ -7,7 +7,7 @@ release: australia
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 breadcrumb: [Reference, Treasury Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -30,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Case Management Core\[com.sn\_customerservice\]
+Customer Service\[com.sn\_customerservice\]
 
 </td><td>
 

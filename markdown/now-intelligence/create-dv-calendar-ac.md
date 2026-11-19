@@ -50,7 +50,7 @@ Calendar report limitations:
 
 4.  In the configuration panel, configure the **Component header**.
 
-<table><thead><tr><th>
+<table id="table_szd_jyh_njc"><thead><tr><th>
 
 Field
 
@@ -104,7 +104,7 @@ Show description
 
 </td><td>
 
-Adds an information icon \(\[Omitted image "icon-info.png"\] Alt text: Information icon\) to the visualization. This icon opens the component description in a pop-up.
+Adds an information icon to the visualization. This icon opens the component description in a pop-up.
 
 </td></tr></tbody>
 </table>5.  In the **Data** section, specify the source table, predefined condition, date range, and filter options.
@@ -139,7 +139,7 @@ Edit filter table
 
 </td><td>
 
-Conditions for filtering event records. This filter is applied when the end user views the calendar. Users can filter further if a filter component is added to the page. **Note:** This property adds a filter condition to the table and predefined conditions, if any are applied.
+Conditions for filtering event records. This filter is applied when the end user views the calendar. Users can filter further if a filter component is added to the page. **Note:** This property adds a filter condition in addition to the table and predefined conditions, if any are applied.
 
 </td></tr><tr><td>
 
@@ -155,9 +155,15 @@ End date field
 
 </td><td>
 
-Field to report on as the ending event. You must select a date field. Hidden if you select **Hide end date**.
+Field to report on as the ending event. You must select a date field. Default value: Closed \[closed\_at\]
 
-Default value: Closed \[closed\_at\]
+</td></tr><tr><td>
+
+Hide end date
+
+</td><td>
+
+Check box to hide the end date field. Events without an end date run for 1 hour.
 
 </td></tr><tr><td>
 
@@ -165,15 +171,15 @@ Highlight based on
 
 </td><td>
 
-Choose a field that has platform-defined field styling to highlight calendar events by configured colors. For more information, see [Define field styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineFieldStyles.md).
+Select a value in the drop-down to visually highlight the calendar events by its configured colors.
 
 </td></tr><tr><td>
 
-Allow change highlighting field
+Allow change highlighting
 
 </td><td>
 
-Select this option to enable users to choose the field that governs highlighting.
+Check box to enable **Highlight based on** field.
 
 </td></tr><tr><td>
 

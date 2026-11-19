@@ -1,18 +1,18 @@
 ---
 title: Configure dynamic related records
-description: System administrators can configure the dynamic related records feature to display related records in the contextual side panel in CRM Workspace. These records dynamically change based on the context of the current record or playbook activity.
+description: System administrators can configure the dynamic related records feature to display related records in the contextual side panel in CSM Configurable Workspace. These records dynamically change based on the context of the current record or playbook activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/dynamic-related-records-configure.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure dynamic related records
 
-System administrators can configure the dynamic related records feature to display related records in the contextual side panel in CRM Workspace. These records dynamically change based on the context of the current record or playbook activity.
+System administrators can configure the dynamic related records feature to display related records in the contextual side panel in CSM Configurable Workspace. These records dynamically change based on the context of the current record or playbook activity.
 
 Configuring the dynamic related records feature involves several types of records. See the following table for details about these record types.
 

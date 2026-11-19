@@ -1,19 +1,19 @@
 ---
-title: AI Control Tower email notifications
-description: Identify the email notifications that AI Control Tower sends automatically, the events that trigger each notification, and the recipients. These notifications keep AI Stewards, asset owners, and assignees informed so that they can take action promptly on AI asset approvals and lifecycle events.
+title: Email notifications in Super Intelligence Control Tower
+description: Identify the email notifications that Control Tower sends automatically, the events that trigger each notification, and the recipients. These notifications keep AI Stewards, asset owners, and assignees informed so that they can take action promptly on AI asset approvals and lifecycle events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-email-notifications.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-05-11"
 reading_time_minutes: 1
-keywords: [AI Control Tower, notifications, email, approval request]
-breadcrumb: [Reference, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+keywords: [Control Tower, notifications, email, approval request]
+breadcrumb: [Reference, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
-# AI Control Tower email notifications
+# Email notifications in Super Intelligence Control Tower
 
-Identify the email notifications that AI Control Tower sends automatically, the events that trigger each notification, and the recipients. These notifications keep AI Stewards, asset owners, and assignees informed so that they can take action promptly on AI asset approvals and lifecycle events.
+Identify the email notifications that Control Tower sends automatically, the events that trigger each notification, and the recipients. These notifications keep AI Stewards, asset owners, and assignees informed so that they can take action promptly on AI asset approvals and lifecycle events.
 
 The notifications listed in this topic are part of the base system and are sent automatically when the trigger condition is met. To customize notification content or recipients, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 

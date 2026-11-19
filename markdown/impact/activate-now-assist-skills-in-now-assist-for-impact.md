@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/activate-now-assist-skills-in-now-assist-for-impact.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-28"
 reading_time_minutes: 1
-breadcrumb: [Guided Setup \(Legacy\), Configuring Impact, Impact]
+breadcrumb: [Configuring Impact, Impact]
 ---
 
 # Activate Now Assist Skills for Impact
@@ -58,5 +58,9 @@ Role required: Impact Platform owner, Impact Admin, Impact Portfolio Owner
     Your skill is configured.
 
 
-**Parent Topic:**[Impact Guided Setup \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/guided-setup-impact-in-app.md)
+**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/configuring-impact-platform.md)
+
+**Previous topic:**[Grant temporary instance access to your Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/hop-access-impact-squad.md)
+
+**Next topic:**[Enable data collection for Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/data-collection-toolkit.md)
 

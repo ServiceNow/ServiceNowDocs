@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Schedules, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -39,7 +39,7 @@ If the status is Active or Starting, selecting the **Refresh** icon \(\[Omitted 
 
     The **Details** tab includes visualizations that provide detailed information about the Discovery status. The visualizations provide an overview of the schedule's performance and current status for IP-based, cloud-based, and certificate discoveries. Key metrics include devices and IPs discovered, cloud resources identified, certificates collected, and errors encountered during the run.
 
-    **Note:** Certificate discovery is available in Discovery Admin Workspace starting with v1.20.0 and requires the Brazil, Australia, or Zurich release starting with Patch 8.
+    **Note:** Certificate discovery is available in Discovery Admin Workspace starting with v1.20.8 and requires the Brazil, Australia, or Zurich release starting with Patch 8.
 
     Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\), then select **Refresh** to refresh the data for each visualization in this section, or export the data as a CSV or Excel file.
 

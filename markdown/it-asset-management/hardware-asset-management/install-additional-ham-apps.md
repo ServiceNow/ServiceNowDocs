@@ -7,7 +7,7 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-13"
 reading_time_minutes: 1
 breadcrumb: [Install HAM from Product Hub, Hardware Asset Management on Product Hub, Installing Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
@@ -20,7 +20,7 @@ Install the HAM applications and plugins included in your subscription tier that
 
 The HAM application must be installed in your ServiceNow instance.
 
-Role required: ia\_admin
+Role required: sn\_ia\_config.ia\_admin
 
 ## About this task
 

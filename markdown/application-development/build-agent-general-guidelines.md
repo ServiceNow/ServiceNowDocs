@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent-general-guidelines.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-24"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # General guidelines for Build Agent
@@ -45,6 +45,10 @@ Use the following guidelines to get better results from Build Agent.
 -   **Be comprehensive**
 
     One detailed prompt can provide better results than several vague ones. Include tables, fields, roles, and automation in a single prompt.
+
+-   **Use the planning tool**
+
+    For complex apps, ask Build Agent to create a plan first. Review and approve before it starts building.
 
 -   **Let Build Agent interview you**
 

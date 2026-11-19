@@ -242,7 +242,7 @@ You can configure the Unix - Active Processes probe to elevate privileges.
 
 The Apache mod\_jk module forwards requests from the Apache web server to a Servlet container, such as Tomcat.
 
-Additional mod\_jk directives can also manage load balancing. Discovery populates the CMDB when it detects an Apache Server. If the mod\_jk module is running on the web server as a load balancer, Discovery populates the related information to the CMDB.
+Additional mod\_jk directives can also manage load balancing. Discovery populates the CMDB when it detects an Apache Server. When the Apache Web Server process is detected, Discovery checks for the mod\_jk module. If the module is running as a load balancer, the related information populates to the CMDB.
 
 -   The MID Server user account to explore the target server must have access to the httpd.conf configuration file in the /etc/httpd/conf/ folder.
 -   Discovery uses secure shell \(SSH\) commands to identify the following associated elements:
@@ -272,7 +272,7 @@ Discovery uses the Unix - Active Processes probe to identify an Apache server th
 
     Apache – JK Module:
 
-    If the mod\_jk module is running as a load balancer on the server, the sensor of this probe populates information in the following tables. The Load Balancer Service \[cmdb\_ci\_lb\_service\], Load Balancer Pool \[cmdb\_ci\_lb\_pool\], and Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\] tables are populated.
+    If the mod\_jk module is running as a load balancer on the server, the sensor of this probe populates information in the following tables. Load Balancer Service \[cmdb\_ci\_lb\_service\], Load Balancer Pool \[cmdb\_ci\_lb\_pool\], and Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\].
 
 
 ### Data Collected
@@ -354,7 +354,7 @@ Discovery uses the Unix - Active Processes probe to identify an Apache server th
 
     Apache - Get Proxy Module:
 
-    If the mod\_proxy module is running as a load balancer on the server, the sensor of this probe populates information in the following tables. Load Balancer Service \[cmdb\_ci\_lb\_service\], Load Balancer Pool \[cmdb\_ci\_lb\_pool\], and Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\].
+    If the mod\_proxy module is running as a load balancer on the server, the sensor of this probe populates information in the following tables: Load Balancer Service \[cmdb\_ci\_lb\_service\], Load Balancer Pool \[cmdb\_ci\_lb\_pool\], and Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\].
 
 
 ### Data Collected

@@ -7,8 +7,8 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 9
+last_updated: "2026-03-12"
+reading_time_minutes: 8
 breadcrumb: [SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
@@ -20,14 +20,9 @@ You can create or update a SAML 2.0 SSO configuration from the Multi-Provider SS
 
 Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
-**Note:** Banner alerts are displayed on the instance when SAML SP signing or encryption keystores are approaching or past their expiry date. There are two separate banners — one for signing certificates and one for encryption certificates — each linking to a dedicated customer action in Security Center.
-
 ## About this task
 
-**Note:**
-
--   Banner alerts are displayed on the instance when SAML SP signing or encryption keystores are approaching or past their expiry date. There are two separate banners — one for signing certificates and one for encryption certificates — each linking to a dedicated customer action in Security Center. To know more, see [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/security-center/sec-center-v2.md).
--   New to the Jakarta release, you must validate your configuration by using the Test Connection functionality before you can activate your IdP configuration. You can still use the Update functionality to save your configuration data, but it is not an active configuration without a successful test connection.
+**Note:** New to the Jakarta release, you must validate your configuration by using the Test Connection functionality before you can activate your IdP configuration. You can still use the Update functionality to save your configuration data, but it is not an active configuration without a successful test connection.
 
 ## Procedure
 
@@ -39,7 +34,7 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
     -   To create configuration, select **New** &gt; **SAML**.
 3.  Enter the IdP information by one of the following methods.
 
-<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d242347e140">
+<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d230499e119">
 
 **Using a metadata descriptor URL**
 
@@ -47,7 +42,7 @@ Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 Select the URL check box and enter the URL of the IdP that you're using.
 
-</td></tr><tr><td id="d242347e149">
+</td></tr><tr><td id="d230499e128">
 
 **Using metadata descriptor XML file**
 
@@ -55,7 +50,7 @@ Select the URL check box and enter the URL of the IdP that you're using.
 
 Select the XML check box and paste in the XML data generated from the IdP you're using.
 
-</td></tr><tr><td id="d242347e158">
+</td></tr><tr><td id="d230499e137">
 
 **Entering metadata manually**
 
@@ -244,7 +239,7 @@ No
 
 </td><td>
 
-Choose the client type, based on the type of your client. Options:**Iframe Embedded**.**Note:** If client type field is required for your configuration, you can edit the form and add the field. To know more, see [Client type configuration for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/client-type.md).
+Choose the client type, based on the type of your client. Options:**Iframe Embedded**.**Note:** If client type field is required for your configuration, you can edit the form and add the field. To know more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/client-type.md).
 
 </td></tr></tbody>
 </table>4.  Encryption And Signing tab

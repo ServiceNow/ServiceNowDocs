@@ -1,16 +1,16 @@
 ---
-title: Configure, price, quote
+title: Configure, price, quote apps
 description: Explore tools that support the configuration, pricing, and quoting of sales offerings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/configure-price-quote-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-05-08"
 reading_time_minutes: 2
 breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
 
-# Configure, price, quote
+# Configure, price, quote apps
 
 Explore tools that support the configuration, pricing, and quoting of sales offerings.
 

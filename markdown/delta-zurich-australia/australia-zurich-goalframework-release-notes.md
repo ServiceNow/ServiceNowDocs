@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-goalframework-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -69,7 +69,7 @@ Zurich
 
 -   **[Goal Framework and AI Control Tower](https://www.servicenow.com/docs/access?context=better-together-with-other-apps-gf&family=zurich&ft:locale=en-US)**
 
-Categorize your strategic priorities and goals as Artificial Intelligence to track and monitor strategy progress from the AI Control Tower workspace.
+Categorize your strategic priorities and goals as Artificial Intelligence to track and monitor strategy progress from the Control Tower workspace.
 
 Use the **Type** field for strategic priorities and the **Category** field for goals to classify them as Artificial Intelligence and monitor their progress in the AI Control Tower workspace.
 
@@ -209,7 +209,7 @@ Zurich
 
 -   **Activation information**
 
-Install Goal Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Goal Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Goal Framework is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -222,7 +222,7 @@ Australia
 
 -   **Activation information**
 
-Install Goal Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Goal Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Goal Framework is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
@@ -362,7 +362,7 @@ Zurich
 
 </td><td>
 
--   Categorize your strategic priorities and goals as Artificial Intelligence to track and monitor their progress from the AI Control Tower workspace.
+-   Categorize your strategic priorities and goals as Artificial Intelligence to track and monitor their progress from the Control Tower workspace.
 -   View only active goals in reference fields when creating a goal relationship or defining a parent goal.
 
  See [Goal Framework](https://www.servicenow.com/docs/access?context=goal-framework&family=zurich&ft:locale=en-US) for more information.

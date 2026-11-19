@@ -8,14 +8,14 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 4
 keywords: [Lux Lab for VS Code, Requirements, Instance connections, What it provides, Commands, Workflow]
-breadcrumb: [Development tooling, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Development tooling, Exploring Lux, Lux Development, Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Lux Lab for VS Code
 
 ServiceNow Lux Lab for VS Code brings project creation, instance browsing, local preview, build, and deployment into Visual Studio Code. It ships alongside the standalone Lux Lab desktop app as a separate product.
 
-Use the Lux Lab VS Code extension, rather than the standalone Lux Lab app, when you want the same build/preview/deploy workflow inside an editor you already use. The extension adds project creation, instance browsing, local preview, build, and deployment commands to VS Code.
+When you want the same build/preview/deploy workflow inside an editor you already have, use the Lux Lab VS Code extension, rather than the standalone Lux Lab app. The extension adds project creation, instance browsing, local preview, build, and deployment commands to VS Code.
 
 For the desktop app, see [Lux Lab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/lux-lab-app.md).
 
@@ -109,7 +109,7 @@ You connect to an instance from **Instance Explorer** in the [Lux Lab](https://r
 
 -   **OAuth**
 
-    You enter a profile alias, open the authorization URL the extension displays, authorize in the browser, and paste the returned code into a masked input. The extension exchanges it using Authorization Code with PKCE and stores the token in VS Code SecretStorage. You don't enter a username or password in the extension.
+    You enter your username, password, and a profile alias, then open the authorization URL the extension displays, authorize in the browser, and paste the returned code into a masked input. The extension exchanges it using Authorization Code with PKCE and stores the token in VS Code SecretStorage.
 
     Remote instances must use HTTPS.
 

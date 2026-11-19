@@ -7,7 +7,7 @@ release: australia
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [View territory and demand channel summary, Using the Capacity Console, Capacity, Managing workforce, Use, Field Service Management]
 ---
@@ -18,7 +18,7 @@ The Capacity Console provides flexibility for capacity planners and managers to 
 
 ## Before you begin
 
-Role required: fsm\_adv\_cap\_mgmt.wm\_capacity\_planner, sn\_fsm\_capacity\_mg.wm\_capacity\_write
+Role required: sn\_fsm\_adv\_cap.wm\_capacity\_planner, sn\_fsm\_capacity\_mg.wm\_capacity\_write
 
 ## About this task
 

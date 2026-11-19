@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-service-contributor-users.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 11
+last_updated: "2026-03-12"
+reading_time_minutes: 10
 breadcrumb: [Configure contributor users, User management, Set up your environment, Configure, Customer Service Management]
 ---
 
@@ -67,38 +67,6 @@ This user can:
 -   Search knowledge articles and catalog items.
 -   Create cases for customers who visit a business organization, including cases for catalog items \(requests\).
 -   Create cases from communication channels available to customers including phone, web, chat, Virtual Agent, and messaging.
-
- If also an internal user on a case, this user can:
-
--   Add additional comments and attachments
--   Accept or reject a solution
--   Close a case
--   Receive notifications of case updates
--   Read work notes
-
-</td></tr><tr><td>
-
-Requester for customers linked to an organization
-
-</td><td>
-
-A requester who can create cases on behalf of customers associated with an organization using a criteria.
-
-This user:
-
--   Works with accounts, consumers and households.
--   Uses the Customer or Consumer Service Portal to assist customers.
-
-Roles:-   Business Organization Consumer Contributor \(sn\_bus\_loc.business\_org\_consumer\_contributor\)
--   Business Organization Account Contributor \(sn\_bus\_loc.business\_org\_account\_contributor\)
-
-</td><td>
-
-This user can:
-
--   Search knowledge articles and catalog items.
--   Create cases for customers at your business organization who visit your business organization, including cases for catalog items \(requests\).
--   Create cases for customers at your business organization from communication channels available to customers including phone, web, chat, Virtual Agent, and messaging.
 
  If also an internal user on a case, this user can:
 
@@ -255,7 +223,7 @@ Requested By
 
 </td><td>
 
-This field displays the name of the requester. If this field is filled in and the **Account**, **Consumer**, and **Requester Organization** fields are empty, the customer for the case is an employee. This field is included with the Case Management Core plugin \(com.sn\_customerservice\).
+This field displays the name of the requester. If this field is filled in and the **Account**, **Consumer**, and **Requester Organization** fields are empty, the customer for the case is an employee. This field is included with the Customer Service plugin \(com.sn\_customerservice\).
 
 </td></tr></tbody>
 </table>The Customer Service plugin adds two fields to the Notes section of the Case form for contributor users.

@@ -7,9 +7,9 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-04-28"
 reading_time_minutes: 3
-breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Customizing Desktop Assistant notifications using API parameters
@@ -24,16 +24,16 @@ By default, Major Incident Management \(MIM\) and Proactive Engagement \(PE\) se
 
 ## Desktop Assistant notification delivery process
 
-1.  Server-side trigger: A server-side component such as a business rule, Flow Designer action, or scheduled job initiates the notification delivery process by calling the sendDANotification\(\) method on the `DesktopAppNotificationUtils` script include.
-2.  Validation and record creation: The script include validates the input parameters and inserts a record into the Desktop Assistant notification \[sn\_dex\_desktop\_assistant\_notification\] table if validation succeeds. This record stores the notification title, message body, recipient list or device list, source, and expiry date.
+1.  Server-side trigger: A server-side component such as a business rule, Flow Designer action, or Scheduled Job initiates the notification delivery process by calling the sendDANotification\(\) method on the `DesktopAppNotificationUtils` script include.
+2.  Validation and record creation: The script include validates the input parameters and inserts a record into the Desktop Assistant notification \(sn\_dex\_desktop\_assistant\_notification\) table if validation succeeds. This record stores the notification title, message body, recipient list or device list, source, and expiry date.
 3.  Asynchronous background processing: Creating the notification record triggers the desktop\_assistant\_notification\_call background flow. This flow runs asynchronously, allowing the original caller to continue without waiting for delivery processing to complete.
-4.  Notification preparation and queuing: The background flow calls the internal DesktopNotificationAPI.sendNotification\(\) method, which prepares the notification for delivery and inserts rows into the Desktop Assistant Notification Queue \[sn\_dex\_desktop\_notify\_queue\] table. Each row in this table represents one delivery attempt for one device token.
+4.  Notification preparation and queuing: The background flow calls the internal DesktopNotificationAPI.sendNotification\(\) method, which prepares the notification for delivery and inserts rows into the Desktop Assistant Notification Queue \(sn\_dex\_desktop\_notify\_queue\) table. Each row in this table represents one delivery attempt for one device token.
 5.  Notification delivery to the endpoint: The Agent Client Collector \(ACC\) running on the end user's device retrieves pending entries from the queue and delivers the notification to the Desktop Assistant client.
 
     By default, notification delivery is event-driven. The platform triggers the **sn\_dex\_desktop.triggerCheckdef** event, which signals the ACC agent to check for new notifications.
 
 
-## Notification display in the Desktop Assistant client
+## How notifications appear in the Desktop Assistant client
 
 Each Desktop Assistant notification appears as a card in the Desktop Assistant notification panel. The notification card displays the title, message body, and a timestamp indicating when the notification was sent.
 
@@ -46,9 +46,11 @@ The **sn\_dex\_desktop.sn\_desktop\_assistant.notification\_time\_to\_live** sys
 **Related topics**  
 
 
+[Setting up DEX Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/config-dex-desktop-exp.md)
+
 [Desktop Assistant notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/da-push-notifications.md)
 
-[Send a Desktop Assistant notification from a server-side script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/send-da-notifications-from-script.md)
+[Send a Desktop Assistant notification from server-side script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/send-da-notifications-from-script.md)
 
 [Examples of Desktop Assistant notifications using DesktopAppNotificationUtils](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/examples-da-notifications-script-include.md)
 

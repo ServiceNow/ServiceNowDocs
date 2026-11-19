@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Certification filters, CMDB Compliance, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ You can create as many versions of a filter as necessary. You can then designate
 
 ## Before you begin
 
-Role required: sn\_cmdb\_admin and certification\_admin have full access, and sn\_cmdb\_editor has read access
+Role required: certification\_admin
 
 ## Procedure
 

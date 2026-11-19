@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Using the Planning attributes, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,15 +26,15 @@ Role required: pps\_admin, sn\_align\_core.apw\_admin
 
 2.  Use the following options to create or edit a planning attribute.
 
-<table id="choicetable_bwd_pjg_cxb"><thead><tr><th align="left" id="d45246e76">
+<table id="choicetable_bwd_pjg_cxb"><thead><tr><th align="left" id="d46520e76">
 
 Option
 
-</th><th align="left" id="d45246e79">
+</th><th align="left" id="d46520e79">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d45246e85">
+</th></tr></thead><tbody><tr><td id="d46520e85">
 
 **To create an attribute**
 
@@ -54,7 +54,7 @@ The attribute is created and the planning attributes screen is displayed.
 6.  Set the planning attribute to active using the **Active** option to enable it for resource or financial planning.
 
 
-</td></tr><tr><td id="d45246e136">
+</td></tr><tr><td id="d46520e136">
 
 **To update an attribute**
 

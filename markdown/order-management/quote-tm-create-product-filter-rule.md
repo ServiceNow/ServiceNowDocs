@@ -61,3 +61,5 @@ Role required: admin
     The rule is active. Only products matching the filter logic are displayed when users open the catalog from within a quote.
 
 
+**Parent Topic:**[Advanced product filtering for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-advanced-product-filtering.md)
+

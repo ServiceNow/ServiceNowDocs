@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/ea-mcp-server-landing-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-06-27"
+reading_time_minutes: 1
 keywords: [EA MCP server]
 breadcrumb: [Enterprise Architecture]
 ---
@@ -43,7 +43,7 @@ MCP for Enterprise Architecture connects any MCP-compatible AI assistant to your
 
 </td></tr></tbody>
 </table>-   **[Explore MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/exploring-ea-mcp-server.md)**  
-MCP for Enterprise Architecture gives enterprise architects and application portfolio managers direct access to business application insights, capability mappings, architectural relationships, and rationalization data. Access this data from the AI client you already use, without opening the ServiceNow instance.
+MCP for Enterprise Architecture provides enterprise architects and application portfolio managers direct access to business application insights, capability mappings, architectural relationships, and rationalization data. Access this data from any AI client, without opening the ServiceNow instance.
 -   **[Configure MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configuring-ea-mcp-server.md)**  
 The EA MCP server connects your ServiceNow instance to an MCP-compatible AI assistant, enabling natural language access to EA data. To set up the connection, install the application and configure the server.
 -   **[Using MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/using-ea-mcp-server.md)**  

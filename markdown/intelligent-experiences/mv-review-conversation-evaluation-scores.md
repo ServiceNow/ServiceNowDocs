@@ -1,19 +1,19 @@
 ---
 title: Review conversation evaluation scores
-description: Review auto-evaluation scores for Virtual Agent conversations in AI Control Tower to track conversation quality over time.
+description: Review auto-evaluation scores for Virtual Agent conversations in Control Tower to track conversation quality over time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-review-conversation-evaluation-scores.html
 release: australia
 topic_type: task
 last_updated: "2026-09-23"
 reading_time_minutes: 1
-keywords: [review, conversation evaluation, AI Control Tower]
-breadcrumb: [Evaluate conversations, Use, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+keywords: [review, conversation evaluation, Control Tower]
+breadcrumb: [Evaluate conversations, Use, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Review conversation evaluation scores
 
-Review auto-evaluation scores for Virtual Agent conversations in AI Control Tower to track conversation quality over time.
+Review auto-evaluation scores for Virtual Agent conversations in Control Tower to track conversation quality over time.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Compare the average auto-evaluation score with the average human feedback score 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Insights** &gt; **ServiceNow AI** &gt; **** &gt; **Evaluation**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Insights** &gt; **ServiceNow AI** &gt; **** &gt; **Evaluation**.
 
 2.  Select the **Evaluation** tab.
 

@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [AWS Virtual Server, EC2 instances, AWS discovery, AWS patterns, virtual machines]
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -135,7 +135,7 @@ Operational status of the resource. For example: Operational, Non-Operational, o
 </td></tr></tbody>
 </table>**Note:**
 
-If you have reactivated a retired virtual machine \(VM\) and want its active state to be accurately reflected in the **Operational status** and **Install Status** fields in the Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] table, set the **sn\_itom\_pattern.discover\_aws\_instance\_statuses** MID Server property to **true**. Note that this setting involves additional API calls—one for each page of the pattern execution—which may impact performance if you're managing a large number of VMs.
+If you have reactivated a retired virtual machine \(VM\), set the **sn\_itom\_pattern.discover\_aws\_instance\_statuses** MID Server property to **true**. This reflects the active state accurately in the **Operational status** and **Install Status** fields in the Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] table. Note that this setting involves additional API calls—one for each page of the pattern execution—which may impact performance if you're managing a large number of VMs.
 
 <table id="table_storage_mapping"><thead><tr><th>
 

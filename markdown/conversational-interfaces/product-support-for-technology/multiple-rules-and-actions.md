@@ -9,7 +9,7 @@ classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Proactive Triggers, Proactive Triggers, Manage people and work, Conversational Interfaces]
+breadcrumb: [Configure, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---
 
 # Multiple Proactive Triggers rules and actions
@@ -22,24 +22,26 @@ An admin then creates rules and defines actions that are triggered by those rule
 
 Multiple rules can be defined with the same trigger type references \(for example, catalog item, knowledge, portal home, URL\) as long as the **Order** and **Delay time** settings are different. Multiple rules defined on the same trigger type references let you layer messages based on how long the end user is on the page.
 
-A rule can include more than one action, but ensure that you apply the action to different users in the **Applies to** fields.
+A rule can include more than one action, but each action must apply to different users in the **Applies to** field.
 
 If you have errors when you create a rule, check the following fields to see if there's a conflict:
-
-**Tip:** The error message that appears includes a link that you can select to help you identify the conflicts.
-
-\[Omitted image "conflict-error-message-link.png"\] Alt text: Error message link.
 
 -   **Trigger type**
 -   **Delay time**
 -   **Order**
 
-It may be necessary to clear the rule's history for the rule to function as anticipated. When you set your rule's **Frequency** field to **Once per user** and you want to run the rule again, you must clear the history. Clearing the history lets you apply the rule again for that user. To clear the rule's history, select **Clear History** on the rule's Proactive Rule form. After the history clears, an admin must reactivate the rule.
+**Tip:**
 
-\[Omitted image "ci-proactive-triggers-new-rule-button.png"\] Alt text: Clear History.
+The error message that appears includes a link that you can select to help you identify the conflicts.
+
+\[Omitted image "conflict-error-message-link.png"\] Alt text: Rule conflict error message that includes a link to the conflicting rules.
+
+You might need to clear the rule's history for the rule to run as expected. When you set your rule's **Frequency** field to **Once per user** and the rule must run again for that user, you must clear the history. Clearing the history lets you apply the rule again for that user. To clear the rule's history, select **Clear History** on the rule's Proactive Rule form. After the history clears, an admin must reactivate the rule.
+
+\[Omitted image "ci-proactive-triggers-new-rule-button.png"\] Alt text: Clear History button on the Proactive Rule form.
 
 **Related topics**  
 
 
-[Manage Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/product-support-for-technology/manage-proactive-triggers-2.md)
+[Monitoring Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/product-support-for-technology/manage-proactive-triggers-2.md)
 

@@ -19,7 +19,7 @@ Reference topics provide additional information about decision tables properties
 -   **[Decision Builder system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/decision-designer-system-properties.md)**  
 Use system properties to set limits on the maximum number of inputs and decisions for decision tables created in Decision Builder.
 -   **[Domain separation and Decision Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/domain-separation-decision-builder.md)**  
-This is an overview of domain separation as it pertains to Decision Builder. Domain separation allows you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
+Domain separation in Decision Builder enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control which users can see and access data within each domain.
 
 **Parent Topic:**[Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/workflow-studio-decision-tables-landing.md)
 

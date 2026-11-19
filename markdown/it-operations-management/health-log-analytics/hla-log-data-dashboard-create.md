@@ -7,7 +7,7 @@ release: australia
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Dashboards for real-time visualization of log data, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -48,7 +48,7 @@ Role required: evt\_mgmt\_operator or viz\_admin
     3.  Select **Create new dashboard**.
 4.  Add an element to the dashboard.
 
-    Various elements are available to help you organize and populate the information on the dashboard. For more information, see [Analytics Center dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/ac-elements.md).
+    Various elements are available to help you organize and populate the information on the dashboard. For more information, see Analytics Center dashboard elements.
 
     1.  Select **Add new element**.
 
@@ -70,7 +70,7 @@ Role required: evt\_mgmt\_operator or viz\_admin
 
         You can choose from various types of graphs and charts.
 
-        For detailed information, see [Data visualizations in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
+        For detailed information, see Data visualizations in the Analytics Center.
 
     3.  In the Data section, select **+ Add data source**.
 
@@ -100,7 +100,7 @@ Role required: evt\_mgmt\_operator or viz\_admin
         2.  Specify the start and end date for the absolute period in the appropriate calendars.
     9.  Adjust the other settings of the visualization as needed.
 
-        For detailed information on settings for all the visualization types, select the link for the relevant type in [Data visualizations in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center-data-visualizations.md).
+        For detailed information on settings for all the visualization types, select the link for the relevant type in Data visualizations in the Analytics Center.
 
     10. Add more elements as needed.
 
@@ -112,5 +112,5 @@ Role required: evt\_mgmt\_operator or viz\_admin
 **Related topics**  
 
 
-[Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/share-db-in-ac.md)
+[bundle-par.share-db-in-ac]
 

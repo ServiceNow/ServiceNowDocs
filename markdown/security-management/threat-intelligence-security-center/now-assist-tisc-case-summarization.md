@@ -7,9 +7,8 @@ release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-12"
 reading_time_minutes: 3
-keywords: [Case summarization, AI case summary, Threat case analysis, Now Assist summarization, Generative AI summaries, Case overview, Threat case highlights]
 breadcrumb: [Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 

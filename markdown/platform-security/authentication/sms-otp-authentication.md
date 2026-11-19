@@ -1,5 +1,5 @@
 ---
-title: SMS one-time passcode \(OTP\) authentication
+title: SMS One-time passcode \(OTP\) authentication
 description: SMS one-time password \(OTP\) authentication is a method used to verify user identity by sending a temporary, numeric code to the user's registered mobile number. The user enters this code to complete authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/authentication/sms-otp-authentication.html
@@ -10,10 +10,10 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SMS One-time Passcode, OTP, authentication, ServiceNow, secondary factor, identity verification, medium-risk scenarios, SIM-swapping, interception, delays, mobile network availability]
-breadcrumb: [Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
-# SMS one-time passcode \(OTP\) authentication
+# SMS One-time passcode \(OTP\) authentication
 
 SMS one-time password \(OTP\) authentication is a method used to verify user identity by sending a temporary, numeric code to the user's registered mobile number. The user enters this code to complete authentication.
 
@@ -28,17 +28,17 @@ SMS OTP factor can also be used for step-up authentication. For more information
 
 The SMS OTP method offers the following advantages:
 
--   Familiar to users
+-   Familiar and easy for users to adopt
 -   No additional app installation required
--   Deploys and integrates with SMS delivery providers
+-   Simple to deploy and integrate
 
 ## Important considerations
 
-The SMS method has several considerations to keep in mind:
+While SMS method is a convenient authentication method, there are several considerations to keep in mind:
 
 -   Vulnerable to SIM-swapping, interception, and delivery delays.
 -   Reliant on mobile network availability.
 -   Not recommended as the sole authentication factor for high-risk or sensitive operations.
 
-SMS OTP can enhance overall security when used appropriately. For detailed configuration instructions, see [Multi-factor authentication providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/multi-factor-authentication-providers.md).
+SMS OTP can enhance overall security when used appropriately. For detailed configuration instructions, see [Multi-factor authentication Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/multi-factor-authentication-providers.md).
 

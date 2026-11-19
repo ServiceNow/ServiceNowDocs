@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/manufacturing/mco-report-an-issue.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Quality issue management for the dealer, Dealer portal, Use, Manufacturing Commercial Operations]
 ---
@@ -20,7 +20,7 @@ Role required: Product Non-conformance Submitter \(sn\_mfg\_qm.product\_non\_con
 
 ## About this task
 
-This task appears only when ServiceNow Otto Otto capabilities are not available.
+This task appears only when Now Assist capabilities aren't available.
 
 ## Procedure
 

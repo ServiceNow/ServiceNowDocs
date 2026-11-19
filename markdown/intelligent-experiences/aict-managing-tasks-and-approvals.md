@@ -1,21 +1,21 @@
 ---
 title: Managing AI tasks and approvals in Activity Center
-description: Track and resolve the governance work that AI Control Tower generates as your AI portfolio grows, such as lifecycle tasks, security tasks, cases, and risk assessments.
+description: Track and resolve the governance work that Super Intelligence Control Tower generates as your AI portfolio grows, such as lifecycle tasks, security tasks, cases, and risk assessments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-managing-tasks-and-approvals.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-17"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
-breadcrumb: [Address action items, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Address action items, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Managing AI tasks and approvals in Activity Center
 
-Track and resolve the governance work that AI Control Tower generates as your AI portfolio grows, such as lifecycle tasks, security tasks, cases, and risk assessments.
+Track and resolve the governance work that Super Intelligence Control Tower generates as your AI portfolio grows, such as lifecycle tasks, security tasks, cases, and risk assessments.
 
-As AI Control Tower discovers new assets, evaluates their quality and safety, monitors them for risk and security concerns, and tracks their progress through the lifecycle, it produces a continuous stream of items that need human judgment. AI Control Tower can route these items to users who can track and resolve the items in Activity Center. For the AI-generated recommendations that Activity Center also surfaces, see [Resolving AI recommendations in Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-resolving-ai-recommendations.md).
+As Control Tower discovers new assets, evaluates their quality and safety, monitors them for risk and security concerns, and tracks their progress through the lifecycle, it produces a continuous stream of items that need human judgment. Control Tower can route these items to users who can track and resolve the items in Activity Center. For the AI-generated recommendations that Activity Center also surfaces, see [Resolving AI recommendations in Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-resolving-ai-recommendations.md).
 
 ## Types of governance work
 
@@ -27,7 +27,7 @@ Activity Center surfaces the following governance work:
 
 -   **Security tasks**
 
-    Tasks generated when AI Control Tower detects a security threat, policy violation, or access concern on a managed AI asset. Security tasks route to the AI steward or security team responsible for the affected asset. For more information, see [Security tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ac-security-tasks.md).
+    Tasks generated when Control Tower detects a security threat, policy violation, or access concern on a managed AI asset. Security tasks route to the AI steward or security team responsible for the affected asset. For more information, see [Security tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ac-security-tasks.md).
 
 -   **Requests**
 
@@ -39,7 +39,7 @@ Activity Center surfaces the following governance work:
 
 -   **Risk assessments**
 
-    An evaluation of a managed AI asset's inherent, control, and residual risk that AI Control Tower generates automatically when the asset is onboarded or its use and purpose changes. For more information, see [Risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ac-risk-assessments.md).
+    An evaluation of a managed AI asset's inherent, control, and residual risk that Control Tower generates automatically when the asset is onboarded or its use and purpose changes. For more information, see [Risk assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ac-risk-assessments.md).
 
 -   **Issues**
 
@@ -60,7 +60,7 @@ Activity Center surfaces the following governance work:
 
 ## Where governance work appears
 
-Governance work surfaces in three places in AI Control Tower:
+Governance work surfaces in three places in Control Tower:
 
 -   **Home page**
 

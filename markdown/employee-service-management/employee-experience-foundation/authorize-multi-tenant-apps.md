@@ -1,20 +1,20 @@
 ---
 title: Authorize pre-published Azure apps to grant required permissions
-description: Authorize the pre-published apps to enable ServiceNow to make API calls to Microsoft to enable each of the ServiceNow for Teams application workflows.
+description: Authorize the pre-published Azure apps so your instance can make API calls to Microsoft and support each ServiceNow for Teams application workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/employee-experience-foundation/authorize-multi-tenant-apps.html
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Integrate, Integration for Agent Experience, Setup for integrating pre-published apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
+breadcrumb: [Integrate, Integration for Agent Experience, Setup for integrating pre-published apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, Employee Center \(Pro\), Employee Service Management]
 ---
 
 # Authorize pre-published Azure apps to grant required permissions
 
-Authorize the pre-published apps to enable ServiceNow to make API calls to Microsoft to enable each of the ServiceNow for Teams application workflows.
+Authorize the pre-published Azure apps so your instance can make API calls to Microsoft and support each ServiceNow for Teams application workflow.
 
 ## Before you begin
 

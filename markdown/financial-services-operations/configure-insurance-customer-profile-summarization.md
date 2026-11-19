@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/configure-insurance-customer-profile-summarization.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-21"
 reading_time_minutes: 2
 breadcrumb: [Configuring Agentic Contact Center for Insurance, Agentic Contact Center for Insurance, Insurance applications, Financial Services Operations \(FSO\)]
 ---
@@ -33,7 +33,7 @@ When the skill is not activated, the **Customer summary** section is not display
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **** &gt; **AI Skills**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  Select the **Customer** &gt; **FSO** workflow group.
 

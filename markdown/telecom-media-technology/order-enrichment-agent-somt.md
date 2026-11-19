@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/telecom-media-technology/order-enrichment-agent-somt.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Standalone AI agents, Use agentic workflows, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Standalone AI agents, Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent collection order enrichment AI agent
@@ -28,7 +28,7 @@ When an OLI is created, if an enrichment process isn’t defined for that order 
 
 If the specification enrichment tasks defined in the decision table aren’t available, the default flow trigger enrichment AI agent is triggered. This agent creates the enrichment tasks for an order line item during the enrichment process. To configure the order enrichment flows using Decision Tables, see [Configure order enrichment flows using Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/configure-order-enrichment.md).
 
-To modify the order enrichment AI agent, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the order enrichment AI agent, , and adjust the settings according to your requirements.
 
 Role required: sn\_somt\_gen\_ai.sales\_and\_order\_fulfillment\_ai\_agent
 
@@ -48,5 +48,5 @@ To access the use case testing page:
 -   Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
 -   On the Overview page, select **Test use cases**.
 
-To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/test-aia-use-case.md).
+To test the use case, see .
 

@@ -62,7 +62,7 @@ Task
 
 </td><td>
 
-Lookup list to select the change request or standard change proposal.**Note:** The standard change proposal is available for selection only from Brazil.
+Lookup list to select the change request or standard change proposal.**Note:** The standard change proposal is available for selection only from Australia .
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Order
 
 </td><td>
 
-Order that the agenda items are reviewed during the CAB meeting.
+Order that the agenda items will be reviewed during the CAB meeting.
 
 </td></tr><tr><td>
 

@@ -49,3 +49,10 @@ AI Security Exposure Management imports these two types of AI security findings 
     -   Open-source model vulnerabilities that are identified by Wiz as Model Risk findings.
     -   AI posture findings \(configuration findings\) that are identified by Wiz as Agent Risk, or MCP servers that are deployed or hosted in cloud compute instances, such as EC2 or containers. For these types of findings, both the AI asset that is impacted and the compute instance that is hosting the AI asset are made available in the AI posture findings through the discovered AI asset.
 
+-   **[Configure the Wiz AI Security Exposure Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/wiz-ai-sem-configure.md)**  
+Configure the integration to send a sub-set of cloud configuration findings relevant to AI security to the AI posture findings table in AI Security Exposure Management.
+-   **[Wiz AI Security Exposure Management Integration data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/wiz-ai-sem-mapping.md)**  
+Wiz resource types, severities, statuses, and posture finding fields map to AI Security values when AI Security Exposure Management routing is enabled.
+
+**Parent Topic:**[Unified Security Exposure Management integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/integrating-usem.md)
+

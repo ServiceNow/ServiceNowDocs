@@ -1,6 +1,6 @@
 ---
 title: Activity Center
-description: Track and act on the governance work generated across AI Control Tower from a single workspace, including lifecycle tasks, security tasks, change and offboarding requests, and AI recommendations.
+description: Track and act on the governance work generated across Super Intelligence Control Tower from a single workspace, including lifecycle tasks, security tasks, change and offboarding requests, and AI recommendations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-activity-center.html
 release: australia
@@ -8,28 +8,28 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Explore, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Activity Center
 
-Track and act on the governance work generated across AI Control Tower from a single workspace, including lifecycle tasks, security tasks, change and offboarding requests, and AI recommendations.
+Track and act on the governance work generated across Super Intelligence Control Tower from a single workspace, including lifecycle tasks, security tasks, change and offboarding requests, and AI recommendations.
 
 ## Key benefits
 
--   Find every piece of governance work that needs your attention across AI Control Tower in one place, instead of switching between asset records, dashboards, and email.
+-   Find every piece of governance work that needs your attention across Control Tower in one place, instead of switching between asset records, dashboards, and email.
 -   Distinguish work assigned to you, work your team owns, work with no owner, and work you've submitted, so you can focus on what's yours and route what isn't. Team-level visibility is available to the AI steward.
--   Resolve AI-generated recommendations directly or hand them off to the part of AI Control Tower where the resolution happens.
+-   Resolve AI-generated recommendations directly or hand them off to the part of Control Tower where the resolution happens.
 
 \[Omitted image "aict-activity-center.png"\] Alt text: Unassigned lifecycle tasks in Activity Center.
 
 ## Required roles
 
-The AI steward \[sn\_ai\_governance.ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role is required to access the **Activity Center** in AI Control Tower.
+The AI steward \[sn\_ai\_governance.ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role is required to access the **Activity Center** in Control Tower.
 
 ## Accessing Activity Center
 
-Access the **Activity Center** in AI Control Tower by navigating to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Activity Center**. Select **Work** to track governance work items or **Recommendations** to review AI-generated recommendations.
+Access the **Activity Center** in Control Tower by navigating to **All** &gt; **Control Tower** &gt; **Home** &gt; **Activity Center**. Select **Work** to track governance work items or **Recommendations** to review AI-generated recommendations.
 
 ## Use cases
 

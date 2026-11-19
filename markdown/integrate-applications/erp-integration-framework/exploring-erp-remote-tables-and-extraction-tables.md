@@ -51,3 +51,5 @@ A developer creates an extraction table linked to the Purchase Orders model. The
 
 For instant needs, such as obtaining the current status of a PO for a supplier, the developer also configures a remote table pointing to the same model. When a procurement team member opens a PO record and needs live data, the remote table queries SAP directly and returns the current value on demand.
 
+**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
+

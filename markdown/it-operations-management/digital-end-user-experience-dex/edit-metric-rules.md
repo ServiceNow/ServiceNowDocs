@@ -7,10 +7,10 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [modify alert rules, update monitoring criteria]
-breadcrumb: [Managing alert rules, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Alert rules, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Edit alert rules
@@ -39,4 +39,6 @@ Role required: sn\_dex.admin
 
     **Note:** If you edit an existing alert action or proactive resolution, the changes are saved even if the alert rule is closed without saving.
 
+
+**Parent Topic:**[Managing DEX alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-metrics-metric-rules-management.md)
 

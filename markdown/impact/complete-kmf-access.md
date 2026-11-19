@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-10-28"
 reading_time_minutes: 2
-breadcrumb: [Scan Engine integrations, Activate Scan Engine and review settings, Configuring Impact, Impact]
+breadcrumb: [Scan Engine integrations, Configuring Impact, Impact]
 ---
 
 # Grant Key Management Framework access on an instance

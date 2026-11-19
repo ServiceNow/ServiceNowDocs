@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-employeeslate-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -77,11 +77,11 @@ Zurich
 
 Replaces traditional browse navigation with an AI-powered search bar and personalized canvas, supporting service delivery across departments.
 
--   **[EmployeeWorks home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=zurich&ft:locale=en-US)**
+-   **[Configure home page](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=zurich&ft:locale=en-US)**
 
 Provides a homepage centered on an AI-powered search bar with five configurable widgets: To-dos, Employee Communications, Trending Content, Quick Links, and Holiday Calendar.
 
--   **Interactive split view [EmployeeWorks home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=zurich&ft:locale=en-US)**
+-   **Interactive split view [Configure home page](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=zurich&ft:locale=en-US)**
 
 Displays content alongside the conversation for seamless interaction with forms, articles, and tasks.
 
@@ -101,7 +101,7 @@ Displays organizational hierarchies with employee details and supports contextua
 
 Displays targeted banner announcements on the homepage, linked to knowledge articles or other resources.
 
--   **Visual content authoring [EmployeeWorks home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=zurich&ft:locale=en-US)**
+-   **Visual content authoring [Configure home page](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=zurich&ft:locale=en-US)**
 
 Provides a content library accessible from the profile icon where authors can create, filter, and publish announcements, with Now Assist generating content from a prompt.
 
@@ -154,7 +154,7 @@ Depending on your license, you will have access to certain application features,
 
 Replaces traditional browse navigation with an AI-powered search bar and personalized canvas, supporting service delivery across departments.
 
--   **[EmployeeWorks home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=australia&ft:locale=en-US)**
+-   **[Configure home page](https://www.servicenow.com/docs/access?context=emp-slate-home-page&family=australia&ft:locale=en-US)**
 
 Provides a homepage centered on an AI-powered search bar with five configurable widgets: To-dos, Employee Communications, Trending Content, Quick Links, and Holiday Calendar.
 
@@ -324,7 +324,7 @@ Employee Slate requires Zurich Patch 9 or later and an AI assistant \(Moveworks 
     -   Set up data sources and search configurations
     -   Configure assistant-specific settings in Moveworks or Now Assist setup
     -   Content author or content manager role required for authoring experience access
-For more information, see [\[Placeholder link text to key emp-slate-setup-flow\]](https://www.servicenow.com/docs/access?context=emp-slate-setup-flow&family=zurich&ft:locale=en-US).
+For more information, see [empw config](https://www.servicenow.com/docs/access?context=empw-config&family=zurich&ft:locale=en-US).
 
 
 **Important:** Employee Slate is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -339,7 +339,7 @@ Australia
 
 Access the Employee Slate setup experience through the profile icon to configure branding, data sources for search, and experience settings.
 
-For more information, see [Configuration flow](https://www.servicenow.com/docs/access?context=emp-slate-setup-flow&family=australia&ft:locale=en-US).
+For more information, see [Configure](https://www.servicenow.com/docs/access?context=empw-config&family=australia&ft:locale=en-US).
 
 
 **Important:** Employee Slate is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -494,7 +494,7 @@ Zurich
 -   Manage and create content from content library with conversational content generation.
 -   Navigate organizational hierarchies with an integrated search experience for detailed employee information access.
 
- For more information, see [\[Placeholder link text to key employee-slate-landing-page\]](https://www.servicenow.com/docs/access?context=employee-slate-landing-page&family=zurich&ft:locale=en-US) documentation.
+ For more information, see [employee slate landing page](https://www.servicenow.com/docs/access?context=employee-slate-landing-page&family=zurich&ft:locale=en-US) documentation.
 
 </td></tr><tr><td>
 
@@ -511,7 +511,7 @@ Australia
 -   Manage and create content from content library with conversational content generation.
 -   Navigate organizational hierarchies with an integrated search experience for detailed employee information access.
 
- For more information, see [\[Placeholder link text to key employee-slate-landing-page\]](https://www.servicenow.com/docs/access?context=employee-slate-landing-page&family=australia&ft:locale=en-US) documentation.
+ For more information, see [employee slate landing page](https://www.servicenow.com/docs/access?context=employee-slate-landing-page&family=australia&ft:locale=en-US) documentation.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)

@@ -69,3 +69,5 @@ The cloned model is created and opens on the model details page.
 
 Next, manage the model to specify additional criteria, such as the tables it reads and joins. You can also define create, read, and update operations, and input/output parameters. For more information, see [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/exploring-erp-models.md).
 
+**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
+

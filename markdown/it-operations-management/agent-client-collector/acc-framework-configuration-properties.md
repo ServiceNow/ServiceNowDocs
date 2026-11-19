@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
@@ -116,7 +116,7 @@ When set to **true**, the instance sends a list of MID Servers to the agents. To
 
 **Note:** This property determines only whether a list of MID Servers is sent to the agent.
 
--   If this property was previously set to **true** and is then set to **false**, automatic MID selection is performed on the previously sent MID Server list if the **auto-mid-selection** property is set to **true** in the acc.yml file.
+-   If this property was previously set to **true** and is then set to **false**, automatic MID selection is performed on the previously sent MID Server list. This applies only if the **auto-mid-selection** property is set to **true** in the `acc.yml` file.
 -   If this property is set to **true** and the **auto-mid-selection** property in the acc.yml file is set to **false**, no automatic MID Server selection is performed.
 
 </td></tr><tr><td>

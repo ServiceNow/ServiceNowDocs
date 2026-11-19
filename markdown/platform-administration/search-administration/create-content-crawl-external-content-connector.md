@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-06"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Crawl, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -19,7 +19,7 @@ Retrieve searchable content and metadata from your source system with a content 
 
 ## Before you begin
 
-To run crawls for external content connectors, your instance must have inbound mTLS support enabled. For details on verifying that this feature is enabled on your instance, see [Verify whether inbound mTLS support is activated for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/verify-adcv2-inbound-mtls-enabled.md).
+To run crawls for external content connectors, your instance must have inbound mTLS support enabled. For details on verifying that this feature is enabled on your instance, see [Verify inbound mTLS support activation for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/verify-adcv2-inbound-mtls-enabled.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 
@@ -29,11 +29,11 @@ Search administrators can retrieve searchable content and metadata from an exter
 
 **Note:** Both full and partial content crawls honor the crawl settings defined for your external content connector, including any inclusion/exclusion content filters. Running a full content crawl doesn't bypass these settings.
 
-Some external content connectors include an **Update user permissions** content crawl option. When you select this option, running the crawl launches both a content crawl and a user permission crawl for your source system. For more details on user permission crawls, see [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
+Some external content connectors include a **Crawl user permissions** content crawl option. When you select this option, running the crawl launches both a content crawl and a user permissions crawl for your source system. For more details on user permissions crawls, see [Create a user permissions crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
 
 You can run a content crawl as a one-time task or set it to recur on a scheduled basis.
 
-**Note:** Starting with External Content Connectors 6.0, the External Content Connectors application allows a maximum of five connector crawls to run simultaneously on your ServiceNow AI Platform® instance. Both content crawls and user permission crawls count against this limit. You can schedule and run external content connector crawls throughout the day to avoid overlap, or create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase.
+**Note:** Starting with External Content Connectors 6.0, the External Content Connectors application allows a maximum of five connector crawls to run simultaneously on your ServiceNow AI Platform® instance. Both content crawls and user permissions crawls count against this limit. You can schedule and run external content connector crawls throughout the day to avoid overlap, or create a Customer Service and Support case at [https://support.servicenow.com/now?draw=case](https://support.servicenow.com/now?draw=case) to request a limit increase.
 
 ## Procedure
 
@@ -54,9 +54,9 @@ You can run a content crawl as a one-time task or set it to recur on a scheduled
 
     **Note:** If the **Partial content crawl** tile isn't shown, the external content connector only supports full content crawls.
 
-5.  To configure your content crawl to launch a user permission crawl \(retrieving security principals from your source system\) when it runs, select the **Update user mappings** option.
+5.  To configure your content crawl to launch a user permissions crawl \(retrieving security principals from your source system\) when it runs, select the **Crawl user permissions** option.
 
-    **Note:** If the **Update user permissions** option isn't shown, the external content connector doesn't support launching user permission crawls from content crawls.
+    **Note:** If the **Crawl user permissions** option isn't shown, the external content connector doesn't support launching user permissions crawls from content crawls.
 
 6.  To make your content crawl run on a recurrent schedule, select the **Make recurring** option, then specify the schedule options.
 

@@ -7,10 +7,10 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-03-12"
+reading_time_minutes: 10
 keywords: [Dispose hardware assets, Hardware disposal, Retire asset, Scrap hardware, Decommission asset]
-breadcrumb: [Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a disposal order
@@ -39,15 +39,15 @@ Starting with Hardware Asset Management 15.0.0 version, the asset resale option 
 
 1.  Navigate to **All** &gt; **Hardware Asset Workspace** &gt; **Inventory view**.
 
-<table id="choicetable_l5h_scg_kyb"><thead><tr><th align="left" id="d372165e147">
+<table id="choicetable_l5h_scg_kyb"><thead><tr><th align="left" id="d370930e147">
 
 Interface
 
-</th><th align="left" id="d372165e150">
+</th><th align="left" id="d370930e150">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d372165e156">
+</th></tr></thead><tbody><tr><td id="d370930e156">
 
 **Core UI**
 
@@ -55,7 +55,7 @@ Action
 
 Navigate to **All** &gt; **Inventory** &gt; **Create Disposal Order**.
 
-</td></tr><tr><td id="d372165e177">
+</td></tr><tr><td id="d370930e177">
 
 **Hardware Asset Workspace**
 
@@ -187,28 +187,80 @@ Enhance asset management by reselling eligible retired hardware assets instead o
 -   **[Perform bulk update of resale value for the assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/bulk-update-resale-value-asset-state.md)**  
 Update the resale values for assets planned for disposal, and indicate that you want to resell them instead of disposing of them, to streamline the asset resale process.
 
-**Parent Topic:**[Asset lifecycle and disposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-lifecycle-disposal-ham.md)
+**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/using-ham-classic.md)
 
 **Related topics**  
 
 
-[Request a Hardware Asset Refresh]()
+[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
 
-[Manage refresh of assets using Zero Touch Refresh]()
+[Work with hardware normalization]()
+
+[Manage asset bundles from your inventory]()
+
+[Manage your inventory through pallet assets]()
+
+[Manage loaner assets]()
+
+[Donate assets to charity organizations]()
+
+[Use Advanced Shipment Notification]()
+
+[Manage RMA requests]()
+
+[Create an inventory stock order request]()
+
+[Fulfilling hardware asset requests]()
+
+[Audit hardware asset inventory]()
+
+[Request a Hardware Asset Refresh]()
 
 [Manage your expiring contracts for leased hardware assets]()
 
 [Reclaim hardware assets]()
 
-[Donate assets to charity organizations]()
+[View RFID information of assets]()
+
+[Manage the lifecycle of hardware models with calculated lifecycle templates]()
+
+[Create an internal lifecycle in the Hardware Asset Workspace]()
 
 [Calculate the active lifecycle phase for a model]()
 
-[Manage asset bundles from your inventory]()
+[Receive asset warranty details from Lenovo]()
+
+[Manage stockrooms]()
+
+[Track shipments using the integration framework]()
+
+[Track asset location using indoor maps]()
+
+[Assess performance of Hardware Asset Management]()
+
+[Manage refresh of assets using Zero Touch Refresh]()
+
+[Configure the Total Cost of Ownership of assets]()
+
+[Manage Hardware Asset Management subscriptions]()
+
+[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
+
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
+
+[Manage hardware asset tasks using the Mobile Agent application]()
+
+[Manage asset put away using the Hardware Asset Workspace]()
+
+[Audit your hardware assets by using Asset Attestation]()
+
+[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
 
 [Manage obligations in the Hardware Asset Workspace]()
 
-[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Update associated Decision tables for HAM flows]()
 
 [Resale hardware assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-resale-order.md)
 

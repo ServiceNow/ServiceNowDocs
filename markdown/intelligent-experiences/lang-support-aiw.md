@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-13"
 reading_time_minutes: 1
 keywords: [language support ai specialists, multilingual support ai specialists, language support ai workforce, multilingual support ai workforce, language support autonomous workforce, multilingual support autonomous workforce, translation ai specialists, translation ai workforce, translation autonomous workforce]
-breadcrumb: [Explore, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Explore, Autonomous Workforce, Enable AI experiences]
 ---
 
 # Multilingual support for AI specialists
@@ -22,6 +22,8 @@ To detect that language, the AI specialist checks the following sources in order
 1.  An AI skill that detects the language of the record's activity
 2.  Dynamic Translation
 3.  The language set in the user's preferences
+
+See [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/dynamic-translation-overview.md) for more information about installing Dynamic Translation and enabling supported languages.
 
 For example, if a user leaves a comment in Spanish, the underlying LLM supports Spanish, so it reads the Spanish input directly. It then generates a response in Spanish, regardless of the language used in the source material it uses to create that response.
 

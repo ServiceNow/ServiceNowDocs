@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 11
 breadcrumb: [Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -129,7 +129,7 @@ Run As
 
 Option to specify the user that runs the flow. You can select the system user or the user who initiates the session. Select the user who initiates the session option when updates should come from the user who triggered the flow. For example, use this option when you want the incident record comments to come from the user who started the flow. Settings for the Run as option in a flow don't apply to child subflows.
 
- To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see OAuth 2.0 credentials.
+ To create a flow that can run with a personal OAuth token, select the user who initiates the session option. If the user who is running the flow has a personal OAuth token, the flow runs with that token. For more information about creating a personal OAuth token, see [OAuth 2.0 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/oauth-2-credentials.md).
 
 </td></tr><tr><td>
 
@@ -142,7 +142,7 @@ Roles that the flow runs with. This option is only available when **Run as** is 
 </td></tr></tbody>
 </table>## Printing flows
 
-Workflow Studio supports multipage printing for flows, subflows, actions, and flow execution details. For a list of supported browsers, see Browser support.
+Workflow Studio supports multipage printing for flows, subflows, actions, and flow execution details. For a list of supported browsers, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/browser-support.md).
 
 ## Roles
 
@@ -250,7 +250,7 @@ Enable flows to catch errors. Run a sequence of actions and subflows to identify
 -   **[Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-execution-analysis-landing.md)**  
 Analyze flow execution details to identify errors and suggest potential fixes.
 -   **[Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-generation-landing.md)**  
-Use ServiceNow Otto for Creator to create a flow or subflow from a text description.
+Use AI to create a flow or subflow from a text description.
 -   **[Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-generation-with-images-landing.md)**  
 Create a flow or a subflow from an image by using ServiceNow Otto for Creator.
 -   **[Flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-history.md)**  
@@ -267,10 +267,8 @@ Enable citizen developers to create their own flow templates. Flow Templates gui
 Enable users with coding experience to write inline scripts that set and modify input values during the configuration of an action or flow. Use inline scripts to modify input values that require small format conversions, data transformations, or math operations.
 -   **[Save as you go flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/save-as-you-go-flows.md)**  
 Save flows, subflows, and actions automatically as you work on them.
--   **[Troubleshoot a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/troubleshoot-a-flow.md)**  
-Analyze a failed flow to check for data issues, identify potential conflicts, and receive targeted recommendations to resolve the error.
 -   **[Summarize a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/summarize-a-flow.md)**  
-Generate a summary of a flow or flow execution details with AI.
+Generate a summary of a flow or flow execution details with ServiceNow Otto for Creator.
 -   **[Flow variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-variables.md)**  
 Similar to Workflow scratchpad variables, create variables that you can use and modify directly in your flow. Access flow variables as data pills directly in the Data panel.
 

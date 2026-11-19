@@ -1,18 +1,18 @@
 ---
 title: Add costs for other vendors
-description: Configuring costs for LLM vendors without direct integrations with AI Control Tower requires manual input. You must manually enter token usage, direct costs, or a per-seat subscription. AI Control Tower can then include these costs in total AI cost calculations.
+description: Configuring costs for LLM vendors without direct integrations with Control Tower requires manual input. You must manually enter token usage, direct costs, or a per-seat subscription. Control Tower can then include these costs in total AI cost calculations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mc-add-and-configure-costs-for-non-integrated-vendors.html
 release: australia
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 3
-breadcrumb: [Cost, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Cost, Configure, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Add costs for other vendors
 
-Configuring costs for LLM vendors without direct integrations with AI Control Tower requires manual input. You must manually enter token usage, direct costs, or a per-seat subscription. AI Control Tower can then include these costs in total AI cost calculations.
+Configuring costs for LLM vendors without direct integrations with Control Tower requires manual input. You must manually enter token usage, direct costs, or a per-seat subscription. Control Tower can then include these costs in total AI cost calculations.
 
 ## Before you begin
 

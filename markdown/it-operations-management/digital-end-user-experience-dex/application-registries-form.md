@@ -1,13 +1,13 @@
 ---
 title: Application Registries form
-description: The Application Registries form contains the OAuth client settings for an application registry, such as the client ID, client secret, redirect URL, and token lifespans.
+description: The Application Registries form presents elaborate data on the form's fields and their corresponding descriptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/application-registries-form.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [application registries form fields, oauth client registration, client id field, client secret field, redirect url field, public client, access token lifespan, refresh token lifespan, default grant type, application registry configuration, oauth client configuration]
 breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experience, IT Operations Management]
@@ -15,7 +15,7 @@ breadcrumb: [DEX Desktop Assistant reference, Reference, Digital End-User Experi
 
 # Application Registries form
 
-The Application Registries form contains the OAuth client settings for an application registry, such as the client ID, client secret, redirect URL, and token lifespans.
+The Application Registries form presents elaborate data on the form's fields and their corresponding descriptions.
 
 You must have the Desktop Assistant administrator \[sn\_dex\_desktop.admin\] role to access the form.
 
@@ -129,7 +129,7 @@ Default Grant type
 
 </td><td>
 
-Default method used by an OAuth 2.0 authorization server to grant access tokens to client applications.
+Refers to the default method used by an OAuth 2.0 authorization server to grant access tokens to client applications.
 
 </td></tr></tbody>
 </table>To return to the OAuth details page, see [Configure Open Authorization details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/configure-oauth-details.md).

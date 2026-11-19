@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-agentclientcollector-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -71,11 +71,11 @@ Zurich
 
 Starting in version 6.0.0, perform selective and high-volume upgrades on ACC agents when not using a MID Server by using products such as DEX and ACC-VC.
 
--   **[\[Placeholder link text to key verify-agent-functionality\]](https://www.servicenow.com/docs/access?context=verify-agent-functionality&family=zurich&ft:locale=en-US)**
+-   **[verify agent functionality](https://www.servicenow.com/docs/access?context=verify-agent-functionality&family=zurich&ft:locale=en-US)**
 
 Starting in version 6.0.0, verify that an agent is functioning properly by performing a self-test on the agent.
 
--   **[\[Placeholder link text to key acc-workspace-dashboard\]](https://www.servicenow.com/docs/access?context=acc-workspace-dashboard&family=zurich&ft:locale=en-US)**
+-   **[acc workspace dashboard](https://www.servicenow.com/docs/access?context=acc-workspace-dashboard&family=zurich&ft:locale=en-US)**
 
 Starting in version 6.0.0, view a list of agents and their statuses on the ACC Workspace dashboard.
 
@@ -129,7 +129,7 @@ Starting in version 5.0, configuration data files have a maximum size of 10MB.
 Starting in version 5.0, enable easier connection of Agent Client Collector to a proxy server by using a proxy auto-configuration \(PAC\) file.
 
 
- -   **[\[Placeholder link text to key gcp-config-file\]](https://www.servicenow.com/docs/access?context=gcp-config-file&family=zurich&ft:locale=en-US)**
+ -   **[gcp config file](https://www.servicenow.com/docs/access?context=gcp-config-file&family=zurich&ft:locale=en-US)**
 
 Starting in version 3.15.0, GCP checks provide added support to configure metrics through a configuration file in JSON format.
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-10-13"
 reading_time_minutes: 3
-breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
 # Autonomous Workforce

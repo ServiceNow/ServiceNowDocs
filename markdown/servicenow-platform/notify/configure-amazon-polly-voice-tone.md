@@ -1,20 +1,20 @@
 ---
 title: Configure Amazon Polly as default voice tone for text to speech
-description: You can configure Amazon Polly as the default voice by overriding the default voice tone for text to speech.
+description: Override the default voice tone in the Twilio Direct driver property so text to speech uses an Amazon Polly voice.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/notify/configure-amazon-polly-voice-tone.html
 release: australia
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure Notify with Twilio, Configuring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure Amazon Polly as default voice tone for text to speech
 
-You can configure Amazon Polly as the default voice by overriding the default voice tone for text to speech.
+Override the default voice tone in the Twilio Direct driver property so text to speech uses an Amazon Polly voice.
 
 ## Before you begin
 

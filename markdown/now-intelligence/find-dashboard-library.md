@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/find-dashboard-library.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Use Platform Analytics dashboards to access, organize, and share data in a visua
 
 ## Dashboard overview
 
-On Brazil instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
+On Australia instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
 
 To find dashboards in Platform Analytics, navigate to the [library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dashboards-glossary.md) at **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**. You can also navigate to this library from other Platform Analytics library pages.
 
@@ -72,7 +72,7 @@ Option for filtering the Dashboards list to display the data based on the follow
 -   **Certified**: Dashboards that an administrator has certified \(company approved and recommended for use\). For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/certify-db-ac.md).
 -   **Owned by me**: Dashboards that you own.
 -   **Recently opened by me**: Dashboards that you recently opened.
--   **Shared with me**: Dashboards that other users have shared with you.
+-   **Shared with me**: Dashboards that other users have shared with you, a role you have, or a group you belong to.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Launches the condition builder. For more information on using the condition buil
 
  The condition builder for dashboards has the following extra options:
 
--   Saved filters: Options to use a previously saved filter or to save the filter you're currently building. If you save the current filter, you name it and set who can access it.
+-   Saved filters: Options to use a previously saved filter or to save the filter you are currently building. If you save the current filter, you name it and set who can access it.
 -   Show/Hide labels: Option to show or hide labels for the fields **Field** and **Operator** in the condition builder.
 
 </td></tr><tr><td>

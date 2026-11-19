@@ -1,20 +1,20 @@
 ---
 title: Knowledge Article view on mobile device
-description: Access and view knowledge articles on your mobile phones with an interface optimized for smaller screens. The component automatically adapts its layout for touch devices, reorganizing the header, controls, and content to provide a better reading experience on mobile.
+description: Read knowledge articles on a phone with a layout optimized for small screens and touch.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-mobile-adaptive-knowledge-comp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Mobile-responsive Web Embeddables, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Knowledge Article view on mobile device
 
-Access and view knowledge articles on your mobile phones with an interface optimized for smaller screens. The component automatically adapts its layout for touch devices, reorganizing the header, controls, and content to provide a better reading experience on mobile.
+Read knowledge articles on a phone with a layout optimized for small screens and touch.
 
 ## Mobile responsive for Knowledge article view component
 

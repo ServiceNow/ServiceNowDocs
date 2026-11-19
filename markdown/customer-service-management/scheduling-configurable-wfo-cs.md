@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/scheduling-configurable-wfo-cs.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
@@ -40,7 +40,7 @@ Move one or more agents from their current shift to a shift in the same schedule
 Set recurring meetings or training sessions for your team from the Schedule tab. You can create daily, weekly, monthly, or yearly meetings.
 -   **[Monitor schedule adherence of your agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/view-schedule-adherence-configurable-wfo.md)**  
 Use schedule adherence to evaluate whether or not your agents are adhering to their assigned schedules. You can look for areas where low-value activity can be eliminated or reduced and further analyze staffing levels throughout the day.
--   **[Analyze adherence and conformance from the time worked summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/analyze-time-worked-summary-configurable-wfo-cs.md)**  
+-   **[Analyze conformance from time worked summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/analyze-time-worked-summary-configurable-wfo-cs.md)**  
 View the time worked summary of your team members to determine if your teams are adhering to the planned schedules. You can also use historical adherence, which is a reporting view of real-time adherence, to see how well your agents have followed their schedules in the past.
 -   **[Analyze staff alignment using Demand Forecast](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/analyze-staff-alignment-configurable-wfo-cs.md)**  
 Use Demand Forecast to plan the number of staff members that you require so that you have enough agents to do the job.

@@ -7,7 +7,7 @@ release: australia
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Notify, Manage service capabilities, Extend ServiceNow AI Platform 
 Configure and use Notify application with the third-party applications in your environment to resolve the incidents.
 
 -   **[Activate Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/t_ActivateNotify.md)**  
-You can activate the Notify \(com.snc.notify\) plugin if you are an administrator. This plugin includes demo data and activates related plugins if they are not already active.
+Activate the Notify \(com.snc.notify\) plugin, which includes demo data and activates related plugins that are not already active.
 -   **[Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/t_ConfigureNotifyWithTwilio.md)**  
 Configure Notify to use the Twilio telephony service.
 -   **[Configure Notify Zoom connector in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/configure-notify-zoom-connector.md)**  

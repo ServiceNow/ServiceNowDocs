@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-07-12"
 reading_time_minutes: 3
-breadcrumb: [Generative AI skills, Enable AI Experiences]
+breadcrumb: [Enable AI experiences]
 ---
 
 # Content Understanding

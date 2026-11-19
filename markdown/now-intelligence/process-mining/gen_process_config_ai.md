@@ -1,5 +1,5 @@
 ---
-title: Generate process configuration with AI
+title: Generate process configuration using AI
 description: Use AI to generate a suggestion for the process configuration fields for a table, instead of selecting each field manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/gen\_process\_config\_ai.html
@@ -7,28 +7,30 @@ release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-08-20"
 reading_time_minutes: 1
 keywords: [process mining, process configuration, ai, now assist]
 breadcrumb: [Creating process configuration, Use, Process Mining, Platform Analytics]
 ---
 
-# Generate process configuration with AI
+# Generate process configuration using AI
 
 Use AI to generate a suggestion for the process configuration fields for a table, instead of selecting each field manually.
 
 ## Before you begin
 
-ServiceNow Otto for Process Mining must be installed and the following skills must be enabled:
+The following skills must be activated:
 
--   Generate process configuration skill: This skill is activated by default.
--   Generate state responsibility mapping skill: This skill is activated by default.
+-   Generate process configuration skill: For more information, see [Generate process configuration using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-pro-config-skill.md).
+-   Generate state responsibility mapping skill: For more information, see [Generate state responsibility mapping using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/activate-gen-state-resp.md).
 
 Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 ## About this task
 
-AI generation analyzes your table's fields and how frequently they change, then suggests which fields to use for your control flow \(state\), team, and agent definitions, along with suggested breakdown, transition work notes, clustering, and root-cause-analysis fields.
+AI analyzes your table's fields and how frequently they change, then suggests which fields to use for your control flow \(state\), team, and agent definitions, along with suggested breakdown, work notes, and root-cause-analysis fields.
+
+**Note:** AI recommendation for clustering and intent and activity analysis is not supported.
 
 ## Procedure
 

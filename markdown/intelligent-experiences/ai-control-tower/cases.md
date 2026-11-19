@@ -1,20 +1,20 @@
 ---
 title: Cases
-description: You can view all the assigned and unassigned AI cases in a list view in the AI Control Tower.
+description: You can view all the assigned and unassigned AI cases in a list view in the Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-control-tower/cases.html
 release: australia
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI assets, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [AI assets, Control Tower dashboard, Explore, Control Tower \(legacy\), Enable AI experiences]
 ---
 
 # Cases
 
-You can view all the assigned and unassigned AI cases in a list view in the AI Control Tower.
+You can view all the assigned and unassigned AI cases in a list view in the Control Tower.
 
 ## Cases list view
 
@@ -26,5 +26,5 @@ The following image displays all the AI cases in a list view.
 
 \[Omitted image "aict-cases.png"\] Alt text: List view of the cases on the AI assets page.
 
-For information about creating AI cases from the AI cases tab in the AI Control Tower workspace, see [Create an AI case in the AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/create-ai-case-in-the-ai-control-tower.md)
+For information about creating AI cases from the AI cases tab in the Control Tower workspace, see [Create an AI case in the Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/create-ai-case-in-the-ai-control-tower.md)
 

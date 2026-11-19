@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/service-order-mgt-state-values.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-03-12"
+reading_time_minutes: 7
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
 
@@ -100,6 +100,14 @@ Service order that has been approved and is being actively worked on. To learn m
 
 </td></tr><tr><td>
 
+Revision in progress
+
+</td><td>
+
+As part of the Inflight Order Change functions, when you are currently in the process of updating the service order, it moves to this state.
+
+</td></tr><tr><td>
+
 Awaiting information
 
 </td><td>
@@ -120,7 +128,7 @@ Assessing cancellation
 
 </td><td>
 
-Cancellation request that has been submitted for the service order.
+Cancellation request that has been submitted for the service order. As part of the Inflight Order Change functions, when a cancellation request is submitted for the service order, it moves to this state.
 
 </td></tr><tr><td>
 
@@ -150,7 +158,12 @@ All associated service order line items are complete. **Note:** After your agent
 -   The **State** field for each of the individual captured service order line items is set to Completed.
 
 </td></tr></tbody>
-</table>## Order Line Item form states
+</table>**Note:** To learn more about Inflight Order Change functions and how they affect the Revision in Process, Assessing Cancellation, Cancellation in Progress, and Canceled service order states, see
+
+-   
+-   
+
+## Order Line Item form states
 
 Use the **State** field on the Order Line Item form to determine the current processing state for an individual service order line item. You can also use it to perform certain types of order actions, such as canceling a line item.
 
@@ -293,7 +306,12 @@ Completed
 Service order line item and all associated and external service order tasks that are complete. It is a system-assigned state.**Note:** After your agents complete all fulfillment tasks for the entire product, service, or resource order, the state is automatically set to Closed Complete.
 
 </td></tr></tbody>
-</table>## Order task form states
+</table>**Note:** To learn more about Inflight Order Change functions and how they affect the Revision in Process, Assessing Cancellation, Cancellation in Progress, and Canceled service order line item states, see
+
+-   
+-   
+
+## Order task form states
 
 Use the **State** field on the Order Task form to determine the processing state for an order task.
 

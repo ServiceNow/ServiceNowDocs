@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-cases-case-tasks-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 11
+last_updated: "2026-03-12"
+reading_time_minutes: 10
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -83,7 +83,7 @@ Case tasks can be manually created from cases or automatically from case playboo
 
 If the value in the **Parent case** or **Parent** fields is updated, the customer information in the **Account**, **Contact**, or **Consumer** fields is also updated.
 
-Depending on a user's assigned roles, case tasks appear in a number of different Case Task list in the application navigator in CRM Workspace, including:
+Depending on a user's assigned roles, case tasks appear in a number of different Case Task list in the application navigator in CSM Configurable Workspace, including:
 
 -   My Case Task
 -   My Open
@@ -294,30 +294,12 @@ This user can perform the following on the customer-visible case tasks for the c
 
 </td></tr><tr><td>
 
-Business Org Account Contributor\[sn\_bus\_loc.business\_org\_account\_contributor\]
-
-</td><td>
-
-This user can perform the following on the customer-visible case tasks for the cases of the accounts that they have access to at their service organization \(business location\): -   View and update case tasks and the fields on the case task record that they have access to.
--   Close case tasks in Business Location Service Portal \(BLSP\).
-
-</td></tr><tr><td>
-
 Consumer contributor \[sn\_customerservice.consumer\_contributor\]
 
 </td><td>
 
 This user can perform the following on the customer-visible case tasks for the cases of consumers that they have access to: -   View and update case tasks and the fields on the case task record that they have access to.
 -   Close case tasks in portal.
-
-</td></tr><tr><td>
-
-Business Org Consumer Contributor\[sn\_bus\_loc.business\_org\_consumer\_contributor\]
-
-</td><td>
-
-This user can perform the following on the customer-visible case tasks for the cases of consumers and households that they have access to at their service organization \(business location\):-   View and update case tasks and the fields on the case task record that they have access to.
--   Close case tasks in BLSP.
 
 </td></tr><tr><td>
 
@@ -387,7 +369,7 @@ The users can see the following fields on the Case Task lists and forms: **Accou
 
 ## Scheduled job for case tasks
 
-Case task enhancements in the Brazil release add several fields to the case task record. After upgrading to the Brazil release, you can run a scheduled job that populates these fields for active case tasks.
+Case task enhancements in the Australia release add several fields to the case task record. After upgrading to the Australia release, you can run a scheduled job that populates these fields for active case tasks.
 
 **Note:** It is recommended that you run the scheduled job during planned downtime.
 

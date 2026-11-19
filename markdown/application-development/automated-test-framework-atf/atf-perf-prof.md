@@ -7,9 +7,9 @@ release: australia
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
 ---
 
 # Performance profiling
@@ -40,8 +40,6 @@ You can execute performance profiling on any of your ATF tests or suites. For ea
 [Parallel testing]()
 
 [Accelerate ATF tests failure resolution]()
-
-[ATF Health Check]()
 
 ## Execute performance profiling
 

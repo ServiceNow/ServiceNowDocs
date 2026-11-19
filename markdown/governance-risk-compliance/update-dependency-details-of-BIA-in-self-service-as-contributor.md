@@ -1,24 +1,24 @@
 ---
 title: Update dependencies of BIAs in Self-Service
-description: Update BIA dependency details including impact category results, RPO Impact analysis responses, dependency group state, and work notes in the BCM application.
+description: Use contributor role to update the impact category result, RPO Impact analysis responses, state of the impact dependency group, and the work notes in the Activity section.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/update-dependency-details-of-BIA-in-self-service-as-contributor.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Update dependencies of BIAs in Self-Service
 
-Update BIA dependency details including impact category results, RPO Impact analysis responses, dependency group state, and work notes in the BCM application.
+Use contributor role to update the impact category result, RPO Impact analysis responses, state of the impact dependency group, and the work notes in the **Activity** section.
 
 ## Before you begin
 
 Role required: sn\_bcm.contributor or sn\_bcm.viewer
 
-You can update the dependency details of a business impact analysis \(BIA\) if you are a BCM contributor on the Contributors list. You can also update these details if you are a BCM viewer.
+If you are a BCM contributor and are part of the Contributors list or you are a BCM viewer, you can update the dependency details of a BIA.
 
 ## Procedure
 
@@ -32,6 +32,10 @@ You can update the dependency details of a business impact analysis \(BIA\) if y
 
 5.  To update the record, select **Update**.
 
+
+## Result
+
+**Note:** You cannot add or update dependency items when the business impact analysis is in the **Pending approval** state. Make your dependency updates before the business impact analysis is submitted for approval, or wait until it returns to an editable state.
 
 **Parent Topic:**[Structured workflows for BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/bia-tasks-performed-by-bia-owner.md)
 

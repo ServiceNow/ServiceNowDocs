@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Manage Drop off tasks, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
@@ -46,15 +46,15 @@ Role required: sn\_eam.asset\_technician
 
     You can only add enterprise assets that are in your personal stockroom and that aren't reserved and aren't part of any workflows.
 
-<table id="choicetable_p5z_d2w_tfc"><thead><tr><th align="left" id="d292964e158">
+<table id="choicetable_p5z_d2w_tfc"><thead><tr><th align="left" id="d292490e158">
 
 UI option
 
-</th><th align="left" id="d292964e161">
+</th><th align="left" id="d292490e161">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d292964e167">
+</th></tr></thead><tbody><tr><td id="d292490e167">
 
 **Add assets button**
 
@@ -67,7 +67,7 @@ Action
 3.  Tap **Submit**.
 
 
-</td></tr><tr><td id="d292964e208">
+</td></tr><tr><td id="d292490e208">
 
 **Assets tab**
 

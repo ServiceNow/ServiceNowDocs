@@ -1,18 +1,18 @@
 ---
 title: Search and filter lists
-description: Agents can search and filter records in lists in CRM Workspace. Agents can also sort and group records.
+description: Agents can search and filter records in lists in CSM Configurable Workspace. Agents can also sort and group records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-ws-search-filter-lists.html
 release: australia
 topic_type: task
 last_updated: "2026-10-27"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
 
 # Search and filter lists
 
-Agents can search and filter records in lists in CRM Workspace. Agents can also sort and group records.
+Agents can search and filter records in lists in CSM Configurable Workspace. Agents can also sort and group records.
 
 ## Before you begin
 

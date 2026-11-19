@@ -25,7 +25,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** After installing ServiceNow Otto for TPRM, all ServiceNow Otto for TPRM skills are activated by default.
+**Important:** After installation, all ServiceNow Otto for TPRM skills are made available but remain inactive. Activate each skill after installation. To turn on generative AI skills use the [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 The recommendation skill helps third-party risk assessors quickly identify issues by generating AI-driven suggestions based on the content of assessment responses. Recommendations simplify the process of associating issues and creating tasks, and are accessible when an external assessment questionnaire has received responses.
 

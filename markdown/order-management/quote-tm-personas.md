@@ -28,3 +28,8 @@ Personas aren't part of the ServiceNow Quote Experience blueprint. They are not 
 
 To assign a user account to a persona, the user must first be created using the User Access function in Utilities. User accounts that aren't in the User Access list can't be assigned to a persona.
 
+-   **[Create a transaction persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-create-persona.md)**  
+Create a persona in ServiceNow Quote Experience to define a user type and assign user accounts to it in ServiceNow CPQ.
+
+**Parent Topic:**[Configuring ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/sales-crm-tm-quoting-configure.md)
+

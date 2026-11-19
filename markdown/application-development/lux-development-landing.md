@@ -1,18 +1,18 @@
 ---
 title: Lux Development
-description: Lux is a framework for building modern widget-based UI experiences that run on a ServiceNow instance. Create pages, widgets and reusable components, configure experience behavior, and safely extend applications using Lux development tools and frameworks.
+description: Lux is a framework for building modern widget-based UI experiences that run on a ServiceNow instance. Using Lux development tools and frameworks, you can create pages, widgets and reusable components, configure experience behavior, and safely extend applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/lux-development-landing.html
 release: australia
 topic_type: reference
 last_updated: "2026-10-01"
 reading_time_minutes: 1
-breadcrumb: [Building pro-code applications, Developing your application, Classic app development, Building applications]
+breadcrumb: [Building pro-code applications, Developing your application, Building applications]
 ---
 
 # Lux Development
 
-Lux is a framework for building modern widget-based UI experiences that run on a ServiceNow instance. Create pages, widgets and reusable components, configure experience behavior, and safely extend applications using Lux development tools and frameworks.
+Lux is a framework for building modern widget-based UI experiences that run on a ServiceNow instance. Using Lux development tools and frameworks, you can create pages, widgets and reusable components, configure experience behavior, and safely extend applications.
 
 ## Get started
 
@@ -38,7 +38,7 @@ Lux is a framework for building modern widget-based UI experiences that run on a
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Lux reference material](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automation-center/reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Lux reference material](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/reference.md)
 
 </td></tr></tbody>
 </table>## Key benefits of Lux

@@ -7,10 +7,10 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [installed application metrics, cpu usage, memory usage, application performance, view installed app metrics]
-breadcrumb: [Monitor application performance, Manage employee experience, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Monitor, Digital End-User Experience, IT Operations Management]
 ---
 
 # View metrics of an installed application
@@ -27,12 +27,12 @@ Role required: sn\_dex.user
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  In the primary navigation pane, select the Applications icon \[Omitted image "icon-applications.png"\] Alt text:.
+2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 
 3.  Select an installed application name.
 
 4.  Select **Performance** under **Application metrics**.
 
-    You can view information on the number of crashes, CPU usage, memory and I/O performance, and memory usage trends. For more information on the metrics, see [Installed application Performance page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/installed-app-health-form.md).
+    You can view information on the number of crashes, CPU usage, memory and I/O performance, and memory usage trends. For more information on the metrics, see [Installed application — Performance page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/installed-app-health-form.md).
 
 

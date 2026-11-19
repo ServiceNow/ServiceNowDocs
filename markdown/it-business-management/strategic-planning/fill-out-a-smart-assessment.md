@@ -26,7 +26,9 @@ Role required:
 
 ## About this task
 
-Smart assessments are available at a demand level and the entire demands module level. Use the module level Smart Assessments menu item to view all assessments assigned to you across demands. Demand managers can view all assessments assigned to users but can't make any edits to them.
+Smart assessments are available at a demand level and the entire demands module level. Use the module level Smart Assessments menu item to view all assessments assigned to you across demands. Demand managers can view all assessments assigned to users but can't make any edit or submit them if they are not the assigned stakeholders for the assessment.
+
+An assessment created from the predefined template is due 14 days after it's triggered.
 
 ## Procedure
 
@@ -52,7 +54,11 @@ Smart assessments are available at a demand level and the entire demands module 
 
 7.  Use the **Next** and **Previous** options to navigate between sections.
 
-8.  Select **Save**.
+8.  Select **Submit** when you're ready to submit your assessment.
+
+    The **Submit** button is available when you have answered all the required questions.
+
+    \[Omitted image "demand-assessment-submit.png"\] Alt text: The Submit button is available in the assessment post answering all questions.
 
 
 ## Result

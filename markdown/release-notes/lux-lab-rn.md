@@ -8,7 +8,7 @@ topic_type: topic
 last_updated: "2026-10-05"
 reading_time_minutes: 1
 keywords: [Lux Lab, Lux Lab release notes, Lux applications, desktop application]
-breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # Lux Lab release notes
@@ -25,7 +25,7 @@ Lux Lab is a desktop application for building Lux applications that run on a Ser
 -   Get started quickly with a first-launch setup that checks your environment and signs you in to your instance.
 -   Create store applications with a custom scope that doesn't require your instance's company code.
 
-For more information, see .
+For more information, see [Lux Lab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/lux-lab-landing.md).
 
 ## Activation and other requirements
 
@@ -79,7 +79,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.12.1 or later
+4.14 or later
 
 </td><td>
 

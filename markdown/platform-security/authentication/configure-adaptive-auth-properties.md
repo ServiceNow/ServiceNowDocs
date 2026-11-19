@@ -7,7 +7,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Adaptive authentication, Authentication, Access Management]
 ---
@@ -102,11 +102,11 @@ Yes \| No
 
 </td></tr><tr><td>
 
-Maximum number of trusted devices a user can register \(glide.trusted.device.max.count\)
+Maximum number of trusted device a user can register \(glide.trusted.device.max.count\)
 
 </td><td>
 
-It is the maximum number of trusted devices a user can register.
+It is the maximum number of trusted device a user can register.
 
 </td><td>
 
@@ -137,4 +137,6 @@ Option to enable the Session Validation feature. Set this to true after activati
 Yes \| No
 
 </td></tr></tbody>
-</table>
+</table>    **Note:** An upgrade to Zurich can change **glide.authenticate.auth.policy.enabled** and the default policy of the Pre and Post Authentication Policy Contexts. See [Changes due to the Multi-factor Authentication enforcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/authentication/changes-mfa-enforcement.md).
+
+

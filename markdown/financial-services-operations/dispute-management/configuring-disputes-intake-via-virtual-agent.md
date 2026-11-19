@@ -7,7 +7,7 @@ release: australia
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
@@ -35,7 +35,7 @@ Use the AI Admin Hub console to configure ServiceNow Otto for FSO. This console 
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **** &gt; **AI Skills**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  Select the **Customer** &gt; **FSO** workflow group.
 

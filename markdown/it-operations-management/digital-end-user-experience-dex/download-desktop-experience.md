@@ -7,9 +7,9 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 2
-breadcrumb: [Setting up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Set up Desktop Assistant, Configure, Digital End-User Experience, IT Operations Management]
 ---
 
 # Download and install Desktop Assistant
@@ -18,10 +18,10 @@ Download and install Desktop Assistant by using operating system-specific instal
 
 ## Before you begin
 
--   The Digital End-User Experience application must be installed. For more information, see [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/install-app-device-health.md).
--   Desktop Assistant client version 2.6.0 or later must be installed on end-user computers because this is the minimum version supported by this version of the Desktop Assistant application.
+-   Make sure that you have installed the Digital End-User Experience application. For more information, see [Install Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/install-app-device-health.md).
+-   Make sure that you install Desktop Assistant client version 2.6.0 or higher on end-user computers, as this is the minimum version supported by this version of the Desktop Assistant application.
 
-**Note:** You can install Desktop Assistant on 75,000 devices for each instance.
+**Note:** You can install Desktop Assistant on 75000 devices for each instance.
 
 Role required: admin, sn\_dex\_desktop.admin
 
@@ -31,15 +31,15 @@ Role required: admin, sn\_dex\_desktop.admin
 
 2.  Download and install Desktop Assistant by using installer commands, Desktop Assistant installers, or endpoint management solutions.
 
-<table id="choicetable_zv4_ylt_fgc"><thead><tr><th align="left" id="d453585e140">
+<table id="choicetable_zv4_ylt_fgc"><thead><tr><th align="left" id="d455701e136">
 
 Option
 
-</th><th align="left" id="d453585e143">
+</th><th align="left" id="d455701e139">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d453585e149">
+</th></tr></thead><tbody><tr><td id="d455701e145">
 
 **OS-specific single-line installer commands**
 
@@ -50,22 +50,22 @@ Steps
  1.  In the Single-line Installer commands table, select the Copy single line install command icon \[Omitted image "icon-installer-blue.png"\] Alt text: for your operating system.
 2.  On your computer, open Terminal.app \(macOS\) or run PowerShell \(Windows\) as administrator.
 3.  Paste the command and press Enter.
-4.  When prompted for a password, enter your Active Directory password and press Enter.
+4.  When prompted for a password, enter your active directory password and press Enter.
  Desktop Assistant is installed, and the instance URL from the installer is automatically populated in the **Instance URL** field of the Desktop Assistant login page.
 
-</td></tr><tr><td id="d453585e203">
+</td></tr><tr><td id="d455701e194">
 
 **Desktop Assistant installer specific to your operating system**
 
 </td><td>
 
-1.  For Windows devices, see [Download the Desktop Assistant installer on Windows devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/download-desktop-exp-win.md).
-2.  For macOS devices, see [Download the Desktop Assistant installer on macOS devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/download-desktop-exp-mac.md).
+1.  For Windows devices, see [Download Desktop Assistant installer on Windows devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/download-desktop-exp-win.md).
+2.  For macOS devices, see [Download Desktop Assistant installer on macOS devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/download-desktop-exp-mac.md).
 
 
-</td></tr><tr><td id="d453585e263">
+</td></tr><tr><td id="d455701e252">
 
-**Endpoint management solutions such as Jamf or Microsoft Endpoint Configuration Manager \(MECM\) to install on multiple devices**
+**Endpoint management solutions like Jamf or Microsoft Endpoint Configuration Manager \(MECM\) to install on multiple devices**
 
 </td><td>
 

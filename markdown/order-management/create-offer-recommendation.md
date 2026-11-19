@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/create-offer-recommendation.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configuring product offering recommendations, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -22,7 +22,7 @@ Role required: Role required: sn\_prd\_pm.product-catalog\_manager, sn\_prd\_pm.
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** view.
+1.  In the CSM Configurable Workspace, select the **List** view.
 
 2.  Navigate to **Recommendations** &gt; **Product Offering Recommendations** and select **New**.
 
@@ -76,7 +76,7 @@ Order
 
 </td><td>
 
-Number that determines the sequence in which the recommendation is displayed in the contextual side panel of theCRM Workspace.
+Number that determines the sequence in which the recommendation is displayed in the contextual side panel of theCSM Configurable Workspace.
 
 </td></tr><tr><td>
 

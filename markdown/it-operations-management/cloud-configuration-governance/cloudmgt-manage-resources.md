@@ -7,7 +7,7 @@ release: australia
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Manage a stack, Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -28,9 +28,11 @@ Role required: sn\_cmp.cloud\_service\_user
 
     \[Omitted image "resource-details.png"\] Alt text: resource details
 
-2.  Navigate to the appropriate resource type to see the list of resources that you are interested in.
+2.  Navigate to the appropriate resource type.
 
-    Click a resource name to view specific details about that resource.
+    The list of resources for that type appears.
+
+3.  Select a resource name to view its details.
 
     \[Omitted image "resourcename-details.png"\] Alt text: Details pertaining to a specific resource.
 

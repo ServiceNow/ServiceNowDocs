@@ -63,3 +63,5 @@ sap_customer_gr.getValue('name');
 
 ```
 
+**Parent Topic:**[Zero Copy Connector for ERP standard remote and extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
+

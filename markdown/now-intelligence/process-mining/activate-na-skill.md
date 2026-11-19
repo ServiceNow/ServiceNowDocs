@@ -1,20 +1,20 @@
 ---
-title: Activate transition work notes analysis skill
-description: Activate the Tsransition Work Notes Analysis skill to be able to use ServiceNow Otto for Process Mining to analyse work notes.
+title: Activate work notes analysis skill
+description: Activate the Work Notes Analysis skill to be able to use ServiceNow Otto for Process Mining to analyse work notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/process-mining/activate-na-skill.html
 release: australia
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with transition work notes using AI, Configure, ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
+breadcrumb: [Working with work notes using AI, Configure, ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
 
-# Activate transition work notes analysis skill
+# Activate work notes analysis skill
 
-Activate the Tsransition Work Notes Analysis skill to be able to use ServiceNow Otto for Process Mining to analyse work notes.
+Activate the Work Notes Analysis skill to be able to use ServiceNow Otto for Process Mining to analyse work notes.
 
 ## Before you begin
 
@@ -26,12 +26,14 @@ Role required: admin
 
 2.  Select **Platform** &gt; **Other**.
 
-3.  Select **Transition Work Notes Analysis** from the list of AI skills for Platform.
+    **Note:** If you use Process Mining versions earlier than 3.2.0, select **Creator** instead.
 
-4.  Select **Turn on** for the Transition Work Notes Analysis skill.
+3.  Select **Work Notes Analysis** from the list of AI skills for Creator.
+
+4.  Select **Turn on** for the Work Notes Analysis skill.
 
     The skill is activated for your instance.
 
 
-**Parent Topic:**[Working with transition work notes using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/worknotes.md)
+**Parent Topic:**[Working with work notes using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/worknotes.md)
 

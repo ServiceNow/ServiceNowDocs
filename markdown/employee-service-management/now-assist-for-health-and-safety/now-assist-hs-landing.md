@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Health and Safety, Employee Service Management]
 ---

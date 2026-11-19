@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/clone-ai-asset-new.html
 release: australia
 topic_type: task
-last_updated: "2026-10-23"
+last_updated: "2026-06-06"
 reading_time_minutes: 1
-breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
 
 # Duplicate an agentic AI asset

@@ -1,14 +1,14 @@
 ---
 title: Automate user resolution for SaaS license management using ServiceNow Otto for Software Asset Management \(SAM\)
-description: Automatically generate user resolution rules to ensure accurate mapping of incoming SaaS subscription data to SAM users.
+description: Automatically generate user resolution rules to ensure accurate mapping of incoming SaaS subscription data to SAM users.Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to resolve SaaS users. A trigger initiates an action, such as when the system generates user resolution rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/automate-userresolution-saas-now-assist-sam.html
 release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Use generative AI skills, Using AI in Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -18,15 +18,58 @@ Automatically generate user resolution rules to ensure accurate mapping of incom
 
 ## Before you begin
 
-Role required: sam\_integrator
-
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 **Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 Starting with the Australia Patch 4 release, Azure OpenAI is the default model provider for the SaaS user resolution generative AI skill.
 
-Ensure that you have the latest compatible versions of the Software Asset Management plugin and the Software Asset Management - SaaS License Management plugin.
+Before you use the SaaS user resolution skill, install the following plugin and the store apps that match your platform release version.
+
+<table id="table_saas_user_res_plugins"><thead><tr><th>
+
+Platform release
+
+</th><th>
+
+Plugin
+
+</th><th>
+
+Store apps
+
+</th></tr></thead><tbody><tr><td>
+
+Zurich Patch 4 or later patches
+
+</td><td>
+
+Software Asset Management Professional \[com.snc.samp\]
+
+</td><td>
+
+-   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 5.2.5 or later
+-   Software Asset Workspace \[sn\_sam\_workspace\] - 10.0.4 or later
+-   Software Asset Management - SaaS License Management \[sn\_sam\_saas\_int\] - 16.0.8 or later
+
+</td></tr><tr><td>
+
+Australia or later releases
+
+</td><td>
+
+Software Asset Management Professional \[com.snc.samp\]
+
+</td><td>
+
+-   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 6.1.1 or later
+-   Software Asset Workspace - 11.0.0 or later
+-   Software Asset Management - SaaS License Management \[sn\_sam\_saas\_int\] - 17.0.5 or later
+
+</td></tr></tbody>
+</table>Role required: sam\_integrator
+
+## About this task
 
 After activation, the SaaS user resolution skill operates automatically generating user resolution rules and resolving users without any manual intervention. To view the resolved users and the corresponding user resolution rules, perform the following steps.
 
@@ -56,4 +99,24 @@ After activation, the SaaS user resolution skill operates automatically generati
 
 
 **Parent Topic:**[Using generative AI skills in ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-now-assist-sam.md)
+
+## SaaS user resolution skill - Triggers and Inputs
+
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to resolve SaaS users. A trigger initiates an action, such as when the system generates user resolution rules.
+
+### Triggers for SaaS user resolution skill
+
+The following table lists the trigger for the SaaS user resolution skill.
+
+|Trigger|Description|
+|-------|-----------|
+|Auto-triggered|User resolution rules are automatically generated upon the activation of the SaaS user resolution skill.|
+
+### Inputs for the SaaS user resolution skill
+
+The following table lists the inputs for the SaaS user resolution skill.
+
+|Input|Description|
+|-----|-----------|
+|List of fields with the String and Email type.|User \[sys\_user\]|
 

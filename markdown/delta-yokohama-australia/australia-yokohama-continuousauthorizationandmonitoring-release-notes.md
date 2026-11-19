@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-continuousauthorizationandmonitoring-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
@@ -99,7 +99,7 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key cam-workflow-configurator\]](https://www.servicenow.com/docs/access?context=cam-workflow-configurator&family=zurich&ft:locale=en-US)**
+-   **[cam workflow configurator](https://www.servicenow.com/docs/access?context=cam-workflow-configurator&family=zurich&ft:locale=en-US)**
 
 Streamline governance, risk, and compliance processes with the CAM Workflow Configuration. This feature allows administrators to:
 
@@ -110,7 +110,7 @@ Streamline governance, risk, and compliance processes with the CAM Workflow Conf
     -   Set up workflow-specific approval configurations.
     -   Perform risk assessments across CAM objects.
     -   Migrate the NIST RMF flow to workflow configuration for improved standardization.
--   **[\[Placeholder link text to key add-child-boundary\]](https://www.servicenow.com/docs/access?context=add-child-boundary&family=zurich&ft:locale=en-US)**
+-   **[add child boundary](https://www.servicenow.com/docs/access?context=add-child-boundary&family=zurich&ft:locale=en-US)**
 
 Introducing a new Child Boundaries list that enables a one-to-many boundary hierarchy, allowing you to create relationships between boundaries. This hierarchy is visualized in both the sidebar and diagram view, showing one parent boundary with multiple child boundaries. OSCAL export and import now include the parent boundary relationship if present.
 
@@ -124,7 +124,7 @@ Linking boundary operational status to the package life cycle ensures seamless i
 
     -   Automatic update of boundary status to Operational when a package moves to the Monitor state.
     -   Transition of Boundary status to Reauthorize as the Package Authorization date approaches. This update maintains synchronization between package and boundary states, enhancing overall system coherence.
--   **[\[Placeholder link text to key export-oscal-files-from-authorization-package\]](https://www.servicenow.com/docs/access?context=export-oscal-files-from-authorization-package&family=zurich&ft:locale=en-US)**
+-   **[export oscal files from authorization package](https://www.servicenow.com/docs/access?context=export-oscal-files-from-authorization-package&family=zurich&ft:locale=en-US)**
 
 Generating and downloading OSCAL SSP and POA&amp;M files is supported directly from within a authorization package. The supported file types include:
 
@@ -392,7 +392,7 @@ Yokohama
 
 -   **Activation information**
 
-Install CAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install CAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Continuous Authorization and Monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -405,7 +405,7 @@ Zurich
 
 -   **Activation information**
 
-Install CAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install CAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** CAM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
@@ -418,7 +418,7 @@ Australia
 
 -   **Activation information**
 
-Install Continuous Authorization and Monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install Continuous Authorization and Monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Important:** Continuous Authorization and Monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.

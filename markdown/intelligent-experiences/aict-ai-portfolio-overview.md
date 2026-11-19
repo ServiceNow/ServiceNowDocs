@@ -1,19 +1,19 @@
 ---
 title: AI portfolio overview
-description: Act on the AI governance work that matters most, review the state of your AI portfolio, and track the value your AI assets deliver on the Home page in AI Control Tower.
+description: Act on the AI governance work that matters most, review the state of your AI portfolio, and track the value your AI assets deliver on the Home page in Super Intelligence Control Tower.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aict-ai-portfolio-overview.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-22"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Explore, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # AI portfolio overview
 
-Act on the AI governance work that matters most, review the state of your AI portfolio, and track the value your AI assets deliver on the **Home** page in AI Control Tower.
+Act on the AI governance work that matters most, review the state of your AI portfolio, and track the value your AI assets deliver on the **Home** page in Super Intelligence Control Tower.
 
 ## Key benefits
 
@@ -26,22 +26,22 @@ The **Home** page provides a portfolio-level view of all AI assets across your o
 
 **Note:** If you have the AI Asset Owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, the **Home** page displays details only for the AI assets that you're assigned to manage.
 
-\[Omitted image "aict-home.png"\] Alt text: Access an overview of your AI portfolio on the Home tab in AI Control Tower.
+\[Omitted image "aict-home.png"\] Alt text: Access an overview of your AI portfolio on the Home tab.
 
 ## Required roles
 
-The AI steward \[sn\_ai\_governance.ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role is required to access the **Home** page in AI Control Tower.
+The AI steward \[sn\_ai\_governance.ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role is required to access the **Home** page in Control Tower.
 
 ## Accessing the overview
 
-Access an overview of your AI portfolio on the **Home** page in AI Control Tower by navigating to **All** &gt; **AI Control Tower** &gt; **Home**.
+Access an overview of your AI portfolio on the **Home** page in Control Tower by navigating to **All** &gt; **Control Tower** &gt; **Home**.
 
 ## Use cases
 
--   Act on the recommendations AI Control Tower has surfaced for you from the **Your top recommendations** widget.
+-   Act on the recommendations Control Tower has surfaced for you from the **Your top recommendations** widget.
     -   Review each recommendation and resolve it using the primary action on the card.
     -   Select **See all Recommendations in Activity Center** to open the full list of recommendations for your portfolio. For more information, see [Recommendations and AI insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-recommendations-ai-insights.md).
--   Check how much work is waiting for you across AI Control Tower from the **Pending work items** widget.
+-   Check how much work is waiting for you across Control Tower from the **Pending work items** widget.
     -   Review the total count of work items assigned to you or created by you, spanning recommendations, lifecycle tasks, and the other work types tracked in Activity Center.
     -   Select the widget to open **Activity Center** and work through the underlying items. For more information, see [Addressing your AI action items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-addressing-ai-action-items.md).
 -   Review the size and composition of your AI inventory.
@@ -62,7 +62,7 @@ Access an overview of your AI portfolio on the **Home** page in AI Control Tower
 -   Review your governance workload in the **Lifecycle tasks needing attention** table.
     -   Select **By inventory** to view a list of AI assets with the most pending tasks. Use this view to identify the assets that are consuming the most governance capacity. If you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, this view is scoped to the assets you own.
     -   If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, select **By team** to view a list of tasks for team members. Use this view to identify team members who may be overloaded or falling behind.
--   If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, use the **Get started with AI Control Tower** widget to launch a guided setup experience that helps you configure AI Control Tower.
+-   If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, use the **Get started with Super Intelligence Control Tower** widget to launch a guided setup experience that helps you configure Control Tower.
     -   Track your overall setup progress and see the milestone you're currently working on.
     -   Select **Set up now** to open guided setup, or select **Continue** to pick up where you left off.
 

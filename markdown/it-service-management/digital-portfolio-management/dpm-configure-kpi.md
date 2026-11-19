@@ -7,7 +7,7 @@ release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Explore, Digital Portfolio Management, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Explore, Digital Portfolio Management, IT Service Management]
 
 Define and configure the key performance indicator \(KPI\) groups in DPM that matter most to you. When you associate KPI groups with your services and applications, you can analyze their performance in a centralized area.
 
-\[Omitted video\] Description: Use KPI groups.
+\[Omitted video\] Description: Configure KPI Groups
 
 With KPI groups, you can analyze the performance of each solution in several ways:
 
@@ -58,14 +58,63 @@ Two KPI groups enable flexible reporting on solutions in enterprise portfolios.
 
 ## KPI groups for service instances
 
-KPI groups aren’t inherited for service instances, but you can do the following with the **Availability insights** KPI group for service instances:
+Since service instances can be in two different types of portfolios, the service instance inherits KPI groups from two different places. See the table for how KPI groups work in the following use cases.
 
--   View and assess the availability for service instances that you own or are responsible for.
--   Map the Availability insights KPI group to one-to-many applications services.
--   View availability commitments and commitment performance on the Run tab of your service instance.
--   View all commitments listed on the Info tab of the service instance.
+<table id="table_e25_ll4_zzb"><thead><tr><th>
 
-**Parent Topic:**[Exploring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-explore-cfw.md)
+View
+
+</th><th>
+
+KPIs shown
+
+</th><th>
+
+Conditions
+
+</th></tr></thead><tbody><tr><td>
+
+Enterprise portfolio service instance preview
+
+</td><td>
+
+The inherited KPI groups from the enterprise portfolio.
+
+ If there isn't an enterprise portfolio KPI group, then an empty state is shown.
+
+</td><td>
+
+The service instance enterprise portfolio type contains service instances and isn't linked to a business application type.
+
+ You can link a service instance to a business application enterprise portfolio type using cmdb\_rel\_ci. The parent should be a business application and the supporting item should be a service instance. The required relationship is **Consumes: Consumed by**.
+
+</td></tr><tr><td>
+
+Service instances detail page \(Run tab\) from an enterprise portfolio
+
+</td><td>
+
+-   All inherited KPI groups display, regardless from where you navigated.
+-   Also, the KPI groups added directly to that service instance display.
+
+</td><td>
+
+Service instance is added and its parent enterprise portfolio is mapped with its KPI group type.
+
+</td></tr><tr><td>
+
+Service instance from a personal portfolio or from a list
+
+</td><td>
+
+All KPI groups
+
+</td><td>
+
+No conditions.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Exploring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-explore-cfw.md)
 
 **Related topics**  
 

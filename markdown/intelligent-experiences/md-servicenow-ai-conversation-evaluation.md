@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/md-servicenow-ai-conversation-evaluation.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-03"
 reading_time_minutes: 3
-breadcrumb: [Evaluation dashboard, ServiceNow AI dashboard, Dashboards, Explore, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Evaluation dashboard, ServiceNow AI dashboard, Dashboards, Explore, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # ServiceNow AI Conversation evaluation
@@ -18,7 +18,7 @@ The ServiceNow AI Conversation evaluation dashboard displays AI response quality
 
 The ServiceNow AI Conversation evaluation dashboard displays key performance indicators \(KPIs\), trend analysis, volume metrics, and detailed evaluation records. These metrics collectively provide visibility into AI response quality and user satisfaction levels.
 
-To view the ServiceNow AI Conversation evaluation dashboard on AI Control Tower, navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **ServiceNow AI** &gt; **Evaluation** &gt; **Conversation evaluation**. \[Omitted image "aict-snow-ai-evaluation-dashboard.png"\] Alt text: The ServiceNow AI Conversation evaluation dashboard with different widgets displaying the insights.
+To view the ServiceNow AI Conversation evaluation dashboard on Control Tower, navigate to **All** &gt; **Control Tower** &gt; **Home** &gt; **Insights** &gt; **ServiceNow AI** &gt; **Evaluation** &gt; **Conversation evaluation**. \[Omitted image "aict-snow-ai-evaluation-dashboard.png"\] Alt text: The ServiceNow AI Conversation evaluation dashboard with different widgets displaying the insights.
 
 **Note:** You can filter the Evaluation dashboard view by:
 

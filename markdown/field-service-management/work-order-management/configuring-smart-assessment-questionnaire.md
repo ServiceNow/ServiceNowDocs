@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Questionnaires, Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---
@@ -46,6 +46,4 @@ The steps for setting up Smart Assessment are:
 
 
 [Smart Assessment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/smart-assessment-components.md)
-
-[Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/work-order-management/configuring-smart-assessment-questionnaire.md)
 

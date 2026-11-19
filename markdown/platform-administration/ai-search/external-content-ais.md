@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-05"
 reading_time_minutes: 6
 breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configure, AI Search, Search administration, Configure core feature
 
 With a subscription for the External Content for AI Search plugin, you can enable AI Search users to search content and metadata from documents in external repositories and remote tables.
 
-The External Content for AI Search plugin enables you to index documents located outside of your ServiceNow AI Platform® instance, such as those stored in SharePoint collections, Confluence sites, and [remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md). Indexing these documents makes their content and metadata searchable in AI Search.
+The External Content for AI Search plugin enables you to index documents located outside of your ServiceNow AI Platform® instance, such as those stored in third-party document repositories and [remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/remote-tables.md). Indexing these documents makes their content and metadata searchable in AI Search.
 
 AI Search displays search results for indexed external documents just as it does for indexed ServiceNow AI Platform records. Users don't need to perform any special searches to match content and metadata from external documents.
 
@@ -44,7 +44,7 @@ Search connector applications
 
 </td><td>
 
-Search connector applications available in the ServiceNow Store provide simple tools for indexing content and metadata from documents in supported external sources. They handle some of the configuration work, such as creation of external content schema tables, for you. Each search connector application supports a specific external document source \(or set of sources\). For example, the [SharePoint Online Search Connector](https://store.servicenow.com/sn_appstore_store.do#!/store/application/32e3b8addb2a5450e7048d7e13961908/) only supports documents in SharePoint collections, while the [Raytion Connector Hub for AI Search](https://store.servicenow.com/sn_appstore_store.do#!/store/application/f7a8af54db9ee01035d0c6cd13961901/) supports multiple document sources. If no search connector application is available for your external document source, you must use the Integration Hub AI Search spoke or the External Content REST API to index content and metadata for documents from that source.
+Search connector applications available in the ServiceNow Store provide simple tools for indexing content and metadata from documents in supported external sources. They handle some of the configuration work, such as creation of external content schema tables, for you. Most search connector applications only support a specific external document source. The [Raytion Connector Hub for AI Search](https://store.servicenow.com/sn_appstore_store.do#!/store/application/f7a8af54db9ee01035d0c6cd13961901/) supports multiple document sources. If no search connector application is available for your external document source, you must use the Integration Hub AI Search spoke or the External Content REST API to index content and metadata for documents from that source.
 
  Search connector applications provide the most straightforward way to index document content and metadata from supported external sources.
 

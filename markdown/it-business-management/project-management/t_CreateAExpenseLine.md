@@ -76,10 +76,6 @@ If you create an expense line without populating the **Cost Plan** field, a [sys
 
 [Create and manage waterfall projects]()
 
-[Schedule a project from a start date]()
-
-[Apply or change a task constraint]()
-
 [Update a project]()
 
 [Copy a project]()

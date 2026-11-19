@@ -1,37 +1,42 @@
 ---
 title: Set up a configurable product in a headless environment
-description: A configurable product links a blueprint to the configuration experience for the product. Learn how to set up a configurable product in a headless environment.
+description: Configure a product links a blueprint to the configuration experience in a headless environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-set-up-a-configurable-product-in-a-headless-environment.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [configurable product, headless environment, blueprint, CPQ]
 breadcrumb: [Setting up configurable products, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up a configurable product in a headless environment
 
-A configurable product links a blueprint to the configuration experience for the product. Learn how to set up a configurable product in a headless environment.
+Configure a product links a blueprint to the configuration experience in a headless environment.
 
 ## Before you begin
 
-Role required: Admin
+Role required: admin
 
 ## About this task
 
-In headless use cases, the configurable product is the link between the blueprint that you have created in ServiceNow CPQ and the configuration that launches for end users when they select the product. A Products tab appears in the Utilities section of the ServiceNow CPQ navigation pane.
-
-\[Omitted image "cpq-products-tab.png"\] Alt text: menu
+In headless use cases, the configurable product links the blueprint that you created in ServiceNow CPQ to the configuration that launches for end users when they select the product.
 
 ## Procedure
 
-1.  Click the tab for the product that you want to configure.
+1.  Navigate to the Products tab in the Utilities section of the ServiceNow CPQ navigation pane.
 
-2.  Upload a CSV file with the following headers and the appropriate information for your product.
+    \[Omitted image "cpq-products-tab.png"\] Alt text: Products tab in the Utilities section of the navigation pane
 
-    \[Omitted image "cpq-configurable-product-csv.png"\] Alt text: CSV file for configurable products
+2.  Select the tab for the product that you want to configure.
 
-    If "configurable" is set to TRUE, the configurable product is automatically created in the ServiceNow CPQ environment.
+3.  Upload a CSV file with the required headers and product information.
+
+    The CSV file must include the following headers with appropriate information for your product:
+
+    \[Omitted image "cpq-configurable-product-csv.png"\] Alt text: CSV file headers for configurable products
+
+    If **configurable** is set to **TRUE**, the configurable product is automatically created in the ServiceNow CPQ environment.
 
 

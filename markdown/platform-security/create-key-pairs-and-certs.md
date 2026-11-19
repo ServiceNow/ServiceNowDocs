@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/create-key-pairs-and-certs.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure, Code Signing, Platform Security]
 ---
@@ -50,6 +50,4 @@ RSASSA\_PKCS1\_V1\_5\_SHA\_512
 </table>## Certificate specifications
 
 Certificates must be signed by a public certificate authority.
-
-**Parent Topic:**[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/config-code-signing.md)
 

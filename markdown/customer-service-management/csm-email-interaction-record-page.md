@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-email-interaction-record-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 10
-breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Record pages, Record pages and page templates, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Email Interaction record page
@@ -16,7 +16,7 @@ The Email interaction record page enables agents to manage email conversations w
 
 ## Email interaction record page variant
 
-The Email interaction record page variant is included with the CRM Workspace plugin \(com.snc.uib.csm\_agent\_workspace\). This page variant includes the following settings.
+The Email interaction record page variant is included with the CSM Configurable Workspace application \(com.snc.uib.csm\_agent\_workspace\). This page variant includes the following settings.
 
 \[Omitted image "email-interaction-record-page.png"\] Alt text: email-interaction-record-page
 
@@ -34,7 +34,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page variant available to the selected audience. The Email Interaction record page variant is inactive by default.The active setting combined with the page order determines the page that CRM Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-set-record-page-order.md).
+Enabling the **Active** check box makes the page variant available to the selected audience. The Email Interaction record page variant is inactive by default.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ The audience determines who can see the page variant. The Email Interaction reco
 </table>To access the settings for this page variant:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Select the **CRM Workspace** experience.
+2.  Select the **CSM/FSM Configurable Workspace** experience.
 3.  In the Record section of the Pages and variants list, select **Email Interaction page**.
 4.  Select **Settings** at the top of the page.
 
@@ -172,7 +172,7 @@ The contextual side panel component includes different tools that agents can use
 </td></tr></tbody>
 </table>## Customer History component
 
-The Customer History component appears below the Interaction Controls Component in the left panel. This component is included with the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central.md) plugin, which is activated as part of the CRM Workspace application.
+The Customer History component appears below the Interaction Controls Component in the left panel. This component is included with the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-central.md) plugin, which is activated as part of the CSM Configurable Workspace application.
 
 The Customer History component includes the **Customer** tab. This tab displays customer, consumer, or account history information, depending on the customer information provided on the interaction record. This tab also includes a search field, filter, and date range selector that agents can use to find specific information in the history.
 
@@ -232,12 +232,12 @@ The [workspace dock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     -   **Discuss**: Opens a pop-up window to start a Sidebar discussion.
     -   **Associate Record**: Opens a new record in a sub tab that the agent can use to link a record to the current interaction. This new record is displayed in the Related Tasks related list.
 
-The Email Interaction record page supports actions from the following Customer Service Management and CRM Workspace plugins:
+The Email Interaction record page supports actions from the following Customer Service Management and CSM Configurable Workspace plugins:
 
--   Case Management Core \(com.sn\_customerservice\)
--   CRM Workspace Core \(com.snc.agent\_workspace.csm\)
--   CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)
--   CRM Workspace Foundation \(com.snc.uib.cwf\_workspace\)
+-   Customer Service \(com.sn\_customerservice\)
+-   CSM/FSM Configurable WS Foundation \(com.snc.uib.cwf\_workspace\)
+-   CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\)
+-   CSM Workspace \(com.snc.agent\_workspace.csm\)
 -   Major Issue Management \(com.sn\_majorissue\_mgt\)
 -   Customer Service with Service Management \(com.sn\_cs\_sm\)
 -   Customer Service with Request Management \(com.sn\_cs\_sm\_request\)
@@ -284,10 +284,14 @@ Depending on the source type, agents can do the following:
 -   Flag an article.
 -   Mark an article as helpful.
 -   Order a catalog item.
+-   Attach and add a link in email.
+
+The workspace switches to the relevant tab. The inserted link displays the knowledge article title and article number as a hyperlink, in the format `Article Title: KB0012345`.
+
 
 For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba-use-ai-search.md).
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CRM Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 </td></tr><tr><td>
 

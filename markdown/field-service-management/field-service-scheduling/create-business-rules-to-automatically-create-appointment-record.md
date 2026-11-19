@@ -7,7 +7,7 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -33,7 +33,7 @@ By creating a business rule, you can:
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Business Rules**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  In the **Name** field, enter your business rule name.
 
@@ -54,11 +54,14 @@ By creating a business rule, you can:
     For example, add the below script to creates appointment record.
 
     ```
-    (sn_apptmnt_booking.AppointmentBooking_Factory().getWrapperType(sn_apptmnt_booking.AppointmentBookingConstants.APPOINTMENT_BOOKING_IMPL);
+    (function executeRule(current, previous /*null when async*/) {
+     
+        var sn_appointment = (sn_apptmnt_booking.AppointmentBooking_Factory().getWrapperType(sn_apptmnt_booking.AppointmentBookingConstants.APPOINTMENT_BOOKING_IMPL));
         var sn_appointmentJSON = JSON.parse(sn_appointment);
-        // creating an appointment <br>
+        // creating an appointment
         var appointmentId = helper.submitAppointmentFromPortal(sn_appointment, current, sn_appointmentJSON.config.opened_for, sn_appointmentJSON.config.location, current.short_description);
-    )
+     
+    })(current, previous);
     ```
 
 9.  Click **Submit**.

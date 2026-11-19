@@ -7,7 +7,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Manual internal review, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_cm\_core.contract\_reviewer
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d77988e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d78160e55">
 
 Method
 
-</th><th align="left" id="d77988e58">
+</th><th align="left" id="d78160e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77988e64">
+</th></tr></thead><tbody><tr><td id="d78160e64">
 
 **Contract Workspace Review tasks listing**
 
@@ -45,7 +45,7 @@ Steps
 5.  Open the review task from the list
 
 
-</td></tr><tr><td id="d77988e114">
+</td></tr><tr><td id="d78160e114">
 
 **Contract Workspace landing page**
 
@@ -56,7 +56,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d77988e147">
+</td></tr><tr><td id="d78160e147">
 
 **Workspace used by your application**
 
@@ -67,7 +67,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d77988e168">
+</td></tr><tr><td id="d78160e168">
 
 **Contract Request Reviews tab**
 
@@ -104,15 +104,15 @@ Steps
 
     The reviewer edits the document, suggest changes through comments, and approve or reject any redlines.
 
-<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d77988e294">
+<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d78160e294">
 
 Type of storage
 
-</th><th align="left" id="d77988e297">
+</th><th align="left" id="d78160e297">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77988e303">
+</th></tr></thead><tbody><tr><td id="d78160e303">
 
 **Internal storage**
 
@@ -128,7 +128,7 @@ Steps
 5.  Select **Submit**.
 
 
-</td></tr><tr><td id="d77988e347">
+</td></tr><tr><td id="d78160e347">
 
 **External storage**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nava-configure-disambiguation-manually.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-30"
 reading_time_minutes: 1
-breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configure disambiguation
@@ -37,7 +37,7 @@ Disambiguation or clarification helps the assistant handle situations where the 
     -   ServiceNow Otto panel enhanced chat
     then use this configuration:
 
-<table id="table_pkn_sn1_53c"><thead><tr><th>
+<table id="table_qhd_z5b_gkc"><thead><tr><th>
 
 Property
 

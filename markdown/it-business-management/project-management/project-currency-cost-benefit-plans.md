@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Multicurrency fields in project-related forms, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,14 +22,12 @@ The **Entered Currency** field of the cost plan defaults to the project currency
 
 Similarly, the **Entered Currency** field of the benefit plan defaults to the project currency of the project if multicurrency plugin is installed, irrespective of the views – default or functional currency. However, if multicurrency plugin is not installed, the **Entered Currency** field of the benefit plan defaults to the functional currency of the project.
 
-**Parent Topic:**[Multicurrency fields in project-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/multicurrency-fields-project-form.md)
-
 **Related topics**  
 
 
 [Enable project currency view in project-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/enable-project-currency-view.md)
 
-[Updates in cost plan and recalculation of cost in project currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/change-cost-calculated-project-currency.md)
+[Update cost plan and recalculate costs in project currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/change-cost-calculated-project-currency.md)
 
 [Multicurrency in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/multicurrency-pps.md)
 

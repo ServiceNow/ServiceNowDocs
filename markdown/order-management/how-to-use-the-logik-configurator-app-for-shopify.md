@@ -31,7 +31,7 @@ After downloading the ServiceNow CPQ app it will automatically appear in the App
 
 To start using the app, the ServiceNow CPQ environment details and a token must be entered in the ServiceNow CPQ settings section of the app landing screen. For more information about creating a ServiceNow CPQ token, see [Set up a runtime client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-set-up-a-runtime-client.md).
 
-**Note:** Confirm the storefront and the Admin URLs are added as an origin for the token. All stores should also include the following static URL to their list of origins: [https://shpfy-connect.ecommerce.logik.io](https://shpfy-connect.ecommerce.logik.io).
+**Note:** Ensure the storefront and the Admin URLs are added as an origin for the token. All stores should also include the following static URL to their list of origins: [https://shpfy-connect.ecommerce.](https://shpfy-connect.ecommerce.logik.io/).
 
 ## ServiceNow CPQ app Admin screen overview
 
@@ -44,7 +44,7 @@ To start using the app, the ServiceNow CPQ environment details and a token must 
 
 ## Managing products
 
-When the app is installed and the **ServiceNow CPQ settings** have been successfully saved, an automated catalog sync begins. The custom ServiceNow CPQ attribute is added to the product details Admin page.
+When the app is installed and the **ServiceNow CPQ settings** have been successfully saved, an automated catalog sync will begin and the custom ServiceNow CPQ attribute is added to the product details Admin page.
 
 ## Product catalog synchronization
 
@@ -142,11 +142,11 @@ The ServiceNow CPQ Shopify app is not required for users who wish to integrate S
 
 Here are some considerations when using the app for your headless implementation:
 
-The app streamlines the setup with ServiceNow CPQ and reduces the overall need for custom middleware. It provides a product sync between platforms, a custom ServiceNow CPQ Configurable product attribute, and Draft Order functionality.
+The app will streamline the setup with ServiceNow CPQ and reduce the overall need for custom middleware by providing a product sync between platforms, a custom ServiceNow CPQ Configurable product attribute and Draft Order functionality.
 
 A Custom UI can be used in place of the ServiceNow CPQ app block which is completely optional.
 
-Saving a configuration automatically triggers the ServiceNow CPQ add to cart function, which facilitates dynamic pricing and attributes. You can disable automated add to cart on save through a DevOps request.
+Saving a configuration, even heedlessly, will trigger the ServiceNow CPQ add to cart function which facilitates dynamic pricing and attributes Automated add to cart on save can be disabled through a DevOps request.
 
 ## Clearing app settings
 

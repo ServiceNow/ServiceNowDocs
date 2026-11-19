@@ -1,13 +1,13 @@
 ---
 title: Test connectivity to the ServiceNow instance
-description: Test network connectivity from a device to your ServiceNow instance to confirm that the device can download the agent installation script for DEX.
+description: Test the ServiceNow DEX instance network connectivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/test-connectivity-to-instance.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [test instance connectivity, network connectivity, curl test, mtls, mutual transport layer security \(mtls\), test connection to instance]
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Operations Management]
@@ -15,7 +15,7 @@ breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User E
 
 # Test connectivity to the ServiceNow instance
 
-Test network connectivity from a device to your ServiceNow instance to confirm that the device can download the agent installation script for DEX.
+Test the ServiceNow DEX instance network connectivity.
 
 ## Before you begin
 
@@ -38,16 +38,18 @@ Role required: agent\_client\_collector\_admin
 
     -   Without a proxy: `curl –verbose -L https://<servicenow instance>/api/sn_agent/agents/install_agent -o install_script.sh`
     -   With a proxy: `curl --verbose –-proxy <HOST_NAME>:<PORT> -L https://<servicenow instance>/api/sn_agent/agents/install_agent -o install_script.sh`
-    The command downloads a script written into `install_script.sh`.
+    The command downloads a script written into install\_script.sh.
 
-2.  From the All menu, navigate to the Agent scripts \[sn\_agent\_script\] table.
+2.  From the All menu, navigate to the Agent scripts table \(sn\_agent\_script\).
 
-3.  Select the install\_script record and confirm that its content matches the content of the `install_script.sh` file.
+3.  Select the install\_script record and confirm that its content matches the content of the install\_script.sh file.
 
 
 ## Result
 
-The match confirms that the connection is established with the ServiceNow instance.
+The match confirms that the connection is established with the ServiceNow® instance.
 
 If there’s no match, fix your network connection issues.
+
+**Parent Topic:**[Installing DEX on your local machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/installing-dex-local.md)
 

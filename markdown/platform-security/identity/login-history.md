@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Identity Center for users, Identity Center, Identity]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Identity Center for users, Identity Center, Identity]
 
 Provides details about your login history.
 
-The Login History tab in the Identity Center helps you with your login information and the status of your login.
+The **Login History** tab in the Identity Center helps you with your login information and the status of your login.
 
 You can use the filters to specify login actions to help security investigations. Filter can help determine if the activity was real or suspicious and report the information to your administrator.
 

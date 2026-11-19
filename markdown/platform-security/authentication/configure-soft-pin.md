@@ -7,9 +7,9 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Soft PIN authentication, Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
+breadcrumb: [Soft PIN authentication, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
 # Configure Soft PIN
@@ -59,7 +59,7 @@ Perform the following:
 
 You can use your Soft PIN to authenticate with AI voice agents.
 
-**Note:** Users are eligible for Soft PIN enrollment only if their user ID is present in **sys\_user** table. If it's missing, an enrollment failure message is displayed.
+**Note:** Users are eligible for Soft PIN enrollment only if their user ID is present in **sys\_user** table. If its missing, an enrollment failure message is displayed.
 
 -   **Update your Soft PIN**
 

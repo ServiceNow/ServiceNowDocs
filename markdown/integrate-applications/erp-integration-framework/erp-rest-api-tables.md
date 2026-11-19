@@ -34,3 +34,5 @@ Oracle E-Business Suite services described by WADL documents use their own set o
 |sn\_erp\_integration\_input\_mapping|Stores input mappings, including the pagination\_type field and the pagination\_operator field used for offset and limit tracking.|
 |sn\_erp\_integration\_model\_table\_field|Stores field metadata parsed from service definitions, whether OpenAPI specifications or WADL and XML Schema Definition documents.|
 
+**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
+

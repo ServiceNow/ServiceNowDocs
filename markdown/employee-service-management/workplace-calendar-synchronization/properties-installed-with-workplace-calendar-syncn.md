@@ -7,8 +7,8 @@ release: australia
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Reference, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -72,8 +72,8 @@ sn\_wsd\_rsvsync.use\_default\_tz
 
 </td><td>
 
-This property enables you to use the default time zones during the reservation synchronization.-   Type: true/false
--   Default type: **true**
+This property enables you to use the default time zones during the reservation synchronization.-   Type: String
+-   Default value: **building**
 
 </td></tr><tr><td>
 
@@ -114,4 +114,22 @@ This property enables you specify the number of months that you want a sync to r
 -   **Default value**: 2
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Workplace Calendar Synchronization references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-calendar-synchronization/workplace-calendar-sync-references.md)
+
+**Related topics**  
+
+
+[Components installed with Workplace Calendar Synchronization]()
+
+[Scheduled jobs installed with Workplace Calendar Synchronization]()
+
+[Flows installed with Workplace Calendar Synchronization]()
+
+[Instance scan findings]()
+
+[Provider form]()
+
+[Third-party OAuth Provider form]()
+
+[Resolving connection setup issues in Workplace Calendar Synchronization]()
+

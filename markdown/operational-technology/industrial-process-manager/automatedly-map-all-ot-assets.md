@@ -7,7 +7,7 @@ release: australia
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Automated Mapping Across Zone-based IP Network Groups, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
@@ -42,7 +42,7 @@ OT devices are automatically mapped to the Equipment Model Entities listed on al
 Create an OT subnet mapping to associate with an equipment model entity.
 -   **[Map all OT devices within a subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/map-all-ot-assets-within-subnet.md)**  
 An OT admin can trigger automated mapping of all OT devices within a selected subnet.
--   **[Use the Equipment Model Manager to map OT devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/map-ot-devices-in-iw.md)**  
+-   **[Map OT devices to equipment model entities from the Equipment Model Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/map-ot-devices-in-iw.md)**  
 Map Operational Technology \(OT\) devices to equipment model entities from the Equipment Model Manager in the Industrial Workspace.
 -   **[Map an individual OT device to an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/automatedly-map-ot-assets-to-isa-entities.md)**  
 Perform on-demand mapping of an OT device to the ISA equipment model entity for the sites that you have access to.

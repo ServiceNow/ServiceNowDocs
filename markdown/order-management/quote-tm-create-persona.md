@@ -49,3 +49,5 @@ Role required: admin
 
 Assign the persona to a view to define its field and event access at each stage. For more information, see [Create a transaction view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-configure-view.md).
 
+**Parent Topic:**[Quote transaction personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-personas.md)
+

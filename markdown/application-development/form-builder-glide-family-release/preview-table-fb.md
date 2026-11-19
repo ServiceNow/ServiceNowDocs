@@ -7,9 +7,9 @@ release: australia
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with data, Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
+breadcrumb: [Data in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
 ---
 
 # Preview your data in Table Builder
@@ -34,9 +34,7 @@ Each row in Table Builder represents a column from your table. Previewing the ta
 
 1.  On the **Data** tab, select **Preview**.
 
-2.  From the new tab, review the table preview as shown in the following example.
-
-    \[Omitted image "example-table-preview.png"\] Alt text: Example table preview.
+2.  From the new tab, review the table preview.
 
 
 ## What to do next

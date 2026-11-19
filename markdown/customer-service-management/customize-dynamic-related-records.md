@@ -1,18 +1,18 @@
 ---
 title: Customize the dynamic related records for a playbook page
-description: Customize the dynamic related records for a playbook page to display in the contextual side panel in CRM Workspace. These records dynamically change depending on the context of the current record or playbook activity.
+description: Customize the dynamic related records for a playbook page to display in the contextual side panel in CSM Configurable Workspace. These records dynamically change depending on the context of the current record or playbook activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customize-dynamic-related-records.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Configure templates and pages, Workspace, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Customize the dynamic related records for a playbook page
 
-Customize the dynamic related records for a playbook page to display in the contextual side panel in CRM Workspace. These records dynamically change depending on the context of the current record or playbook activity.
+Customize the dynamic related records for a playbook page to display in the contextual side panel in CSM Configurable Workspace. These records dynamically change depending on the context of the current record or playbook activity.
 
 ## Before you begin
 

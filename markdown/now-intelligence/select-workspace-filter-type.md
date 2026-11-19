@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/select-workspace-filter-type.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-02"
 reading_time_minutes: 3
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
@@ -26,7 +26,7 @@ Role required: dashboard\_admin, or you must be the dashboard owner or have had 
 
     If the dashboard is in the inline editor, you see an **Edit** button. If it is a technical dashboard, you see an **Edit in UI Builder** button. In the latter case, go to [Create a filter on a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-filter-tech-dashboard.md).
 
-3.  If you are in a different application scope than the dashboard, use the application picker to select the correct scope.
+3.  If you're in a different application scope than the dashboard, use the application picker to select the correct scope.
 
     \[Omitted image "app-scope-picker.png"\] Alt text: Application scope picker
 
@@ -37,18 +37,18 @@ Role required: dashboard\_admin, or you must be the dashboard owner or have had 
 6.  Select **Filter** then either a new or a saved filter.
 
     -   Select **New filter** to create a filter from scratch.
-    -   Select **Saved filter** to reuse a filter from the library.
+    -   Select **Saved filter** to reuse a filter from the library. After you choose the saved filter, go to the last step.
     When you select **New filter**, the **Configuration** panel opens for the selected filter. When you select **Saved filter**, you can choose an existing filter to add to the dashboard.
 
-7.  If you are creating a new filter, select the type of data to filter.
+7.  If you're creating a new filter, select the type of data to filter.
 
-    Other configuration options vary depending on the data type you select. After you select the filter type, follow the instructions on the linked page to continue configuration.
+    Other configuration options vary depending on the data type you select.
 
     -   [Single select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-select-filter-workspace.md): A single value from a set of choices. Single select is the default filter type.
     -   [Multiple select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-select-filter-workspace.md): More than one value from a set of choices, such as both High and Critical Priority
     -   [Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-date-filter-workspace.md): A calendar date. You can also set a time. Automatically applies to all indicator data on page or tab.
     -   [True/False](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-boolean-filter-workspace.md): Whether a field value is true or false. Can also be used with indicator breakdowns that are based on a [bucket group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) with only two values. The labels for 'true' and 'false' can be customized. The viewer can select **\(empty\)** to clear their selection.
-8.  Choose the **Filter Element**.
+8.  If you're creating a new filter, choose the **Filter Element**.
 
     Element options depend on the filter type, but include Pill, Checkboxes, and Typeahead.
 
@@ -56,12 +56,20 @@ Role required: dashboard\_admin, or you must be the dashboard owner or have had 
 
     This name is the name that the user sees.
 
-10. Position the filter.
+10. Complete the settings that are specific to the filter type you selected.
+
+    |Filter type|Instructions|
+    |-----------|------------|
+    |**Single select or Multiple select**|[Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-select-filter-workspace.md)|
+    |**Date**|[Configure a Date filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-date-filter-workspace.md)|
+    |**True/False**|[Configure a True/False filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-boolean-filter-workspace.md)|
+
+11. Position the filter.
 
     If the dashboard has tabs, putting the filter in a tab affects only the visualizations in that tab. If the dashboard has no tabs, or you place the filter above the tabs, it affects all visualizations in the dashboard.
 
 
 ## What to do next
 
-**Note:** Filter values persist across user sessions. When a viewer reopens a dashboard, whatever values they last selected for any filters on the dashboard are preselected. This feature applies only to dashboards created in the inline editor, not technical dashboards.
+**Note:** Filter values persist across user sessions. When a viewer reopens an in-line dashboard, whatever values they last selected for any filters on the dashboard are preselected. This feature applies only to dashboards created in the inline editor, not technical dashboards.
 

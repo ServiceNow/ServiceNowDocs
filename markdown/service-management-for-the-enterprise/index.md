@@ -1,12 +1,12 @@
 ---
-title: Brazil Service Management
+title: Australia Service Management
 locale: en-US
 release: australia
 bundle: sm4e
 doc_type: toc
 ---
 
-# Brazil Service Management
+# Australia Service Management
 
 - [Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_ServiceManagement.md) -- Service Management (SM) refers to the ServiceNow service management applications you install, such as Facilities Service Management. Each of these applications allow you to manage business functions that require a request-type workflow where requests are approved, qualified, assigned, and completed.
   - [Activate Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/t_ActivateServiceManagement.md) -- The Service Management Core plugin is activated automatically when you activate any service management application.

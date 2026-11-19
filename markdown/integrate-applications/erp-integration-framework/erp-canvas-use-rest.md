@@ -8,7 +8,7 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-08-24"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
@@ -45,4 +45,17 @@ When a system is established, the heartbeats are set to active and the status is
 Zero Copy Connector for ERP supports most Workday APIs. For more information about services, see the [Workday REST Services Directory](https://community.workday.com/sites/default/files/file-hosting/restapi/) in the Workday Community.
 
 For steps to add a REST entity to a model operation, see [Obtaining data from Workday using REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/obtain-data-from-workday-using-rest-api.md) and [Add a REST entity to a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-a-rest-entity-to-a-model-operation.md).
+
+-   **[Add a REST entity to a model operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/add-a-rest-entity-to-a-model-operation.md)**  
+Specify the REST entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for a read, update, or create operation.
+-   **[REST API connector for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-rest-api-connector.md)**  
+Use the REST API connector to connect to any RESTful API with standardized API specification formats.
+-   **[Add a REST service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-add-a-rest-service-manually.md)**  
+When adding an entity to a model using REST, if the service you need isn't listed, add the service manually in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
+-   **[Manage input parameters for model operation with a REST entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erpc-manage-model-inputs-rest.md)**  
+Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values. This defines the inputs for an operation that reads, creates, or updates the ERP system using REST.
+-   **[Select model output parameters for REST](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs-rest.md)**  
+Specify how fields on the ERP \(Enterprise Resource Planning\) system map to output parameters and their values. This defines the outputs for an operation that reads, creates, or updates the ERP system using REST.
+
+**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

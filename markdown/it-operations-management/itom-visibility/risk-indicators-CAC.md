@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-17"
 reading_time_minutes: 1
 keywords: [risk assessment, vulnerability indicators, compliance, security metrics]
 breadcrumb: [Explore, Cryptographic Asset Compliance, ITOM Visibility, IT Operations Management]
@@ -23,19 +23,21 @@ Cryptographic Asset Compliance evaluates assets against policies and raises a ri
 
 For certificates:
 
--   Weak algorithm: Uses a deprecated or quantum-vulnerable algorithm.
--   Trusted CA risk: Issued by an untrusted or unrecognized certificate authority. For more information, see [Configure trusted certificate authorities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/add-trusted-certificate-authorities.md).
--   No owner: Has no assigned owner or responsible party.
--   No environment: Is not classified by environment.
--   No renewal process: Has no defined renewal workflow.
+-   Weak Algorithm: Uses a deprecated or quantum-vulnerable algorithm.
+-   Trusted CA Risk: Issued by an untrusted or unrecognized certificate authority. For more information, see [Configure trusted certificate authorities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/add-trusted-certificate-authorities.md).
+-   No Owner: Has no assigned owner or responsible party.
+-   No Environment: Is not classified by environment.
+-   No Renewal: Has no defined renewal workflow.
 
 For AWS KMS keys and Azure Key Vault keys:
 
--   Weak algorithm: Uses a weak or insufficient algorithm or key size.
+-   Weak Algorithm: Uses a weak or insufficient algorithm or key size.
 -   Not PQC ready: Does not use a post-quantum-safe algorithm.
--   Not rotated \(AWS KMS keys\): Has not been rotated within the recommended period.
--   Pending deletion \(AWS KMS keys\): Is scheduled for deletion.
--   Expired \(Azure Key Vault keys\): Is expired or lacks a proper expiration date.
+-   Pending Deletion \(AWS KMS keys\): Is scheduled for deletion.
+-   Expired \(Azure Key Vault keys\): Has an expiration date that has passed.
+-   Key Disabled \(AWS KMS keys and Azure Key Vault keys\): Key is disabled. No other risk indicators are shown for a disabled key.
+-   Expiring Soon \(Azure Key Vault keys\): Expires within 30 days.
+-   No Renewal: For AWS KMS keys, is older than 365 days or has no creation date. For Azure Key Vault keys, has no expiration date.
 
 ## Risk levels
 

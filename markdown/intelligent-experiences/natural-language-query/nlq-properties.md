@@ -7,9 +7,9 @@ release: australia
 product: Natural Language Query
 classification: natural-language-query
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Natural Language Query References, Natural Language Query, Machine learning and natural language capabilities, Enable AI Experiences]
+breadcrumb: [Natural Language Query References, Natural Language Query, Enable AI experiences]
 ---
 
 # NLQ properties

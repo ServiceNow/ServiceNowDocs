@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
 breadcrumb: [Regulatory alerts, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 ## About this task
 
-Citations were downloaded from a third-party provider, but only users with subscription licenses could access them. You can also create citations from an authority document by using Compliance Workspace.
+Citations can come from a third-party provider or you can create them from an authority document by using Compliance Workspace.
 
 ## Procedure
 

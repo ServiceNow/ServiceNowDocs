@@ -5,17 +5,17 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/sn-aia-use-cases-list.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-05"
+last_updated: "2026-11-17"
 reading_time_minutes: 7
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [AI assets, Enable AI experiences]
 ---
 
 # Agentic workflows
 
 Agentic workflows are AI‑driven workflow orchestrations that use one or more AI agents to achieve a specific outcome. They go beyond single‑step automation by dynamically planning, executing, and adapting actions based on context, data, and intermediate results.
 
-Agentic workflows handle routine but variable procedures, such as investigation, remediation, and analysis, where the exact steps may differ from case to case.
+Agentic workflows are designed to handle routine but variable procedures, such as investigation, remediation, and analysis, where the exact steps may differ from case to case.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -27,7 +27,7 @@ For more information about the in-product agentic AI experience, see [In-product
 
 ## What an agentic workflow does
 
-Agentic workflows can:
+Agentic workflows are designed to:
 
 -   Achieve an outcome, not just complete a task
 
@@ -39,7 +39,7 @@ Agentic workflows can:
 
 -   Adapt to variability
 
-    Workflows can adjust execution paths based on conditions, findings, or system responses, making them suitable for non-deterministic scenarios such as troubleshooting or analysis.
+    Workflows can adjust execution paths based on conditions, findings, or system responses, making them suitable for non deterministic scenarios such as troubleshooting or analysis.
 
 -   Operate across systems and records
 
@@ -86,19 +86,11 @@ Available agentic workflows
 
 </td><td>
 
-[ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-visibility-landing-page.md)
-
--   [Pattern diagnostic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/pattern-diagnostic-agentic-workflow.md)
--   [Analyze potential impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-itom-analyze-potential-impact-workflow.md)
--   [Firewall management task creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/firewall-rule-requests-ai-workflow.md)
-
- [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md)
-
--   Triage and analyze alerts
 -   [Analyze alert impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
+-   [Agent Client Collector \(ACC\) diagnostic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/use-acc-diagnostic-workflow.md)
 -   [Analyze potential impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-itom-analyze-potential-impact-workflow.md)
 -   [Manage alerts autonomously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-autonomous-operator-workflow.md)
--   [Agent Client Collector \(ACC\) diagnostic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/use-acc-diagnostic-workflow.md)
+-   Triage and analyze alerts
 
 </td></tr><tr><td>
 
@@ -155,7 +147,6 @@ Available agentic workflows
 -   [Schedule a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-schedule-change-agentic-workflow.md)
 -   [Suggest configuration items for a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-suggest-configuration-items-for-a-change-request.md)
 -   [Triage and categorize ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-catincidents-usecase.md)
--   [Who is On Call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-aiagents-on-call-usecase.md)
 -   [Wrap-up and resolve ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/now-assist-itsm-wrap-up-resolve-incident-aw.md)
 
 </td></tr><tr><td>
@@ -268,7 +259,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Manufacturing Commercial Operations \(MCO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/ai-in-mco.md)
+[Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/manufacturing/manufacturing-overview.md)
 
 </td><td>
 
@@ -276,7 +267,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/bun-public-sector-landing-page.md)
+[Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/government-industry/bun-public-sector-landing-page.md)
 
 </td><td>
 
@@ -284,7 +275,7 @@ Help manage public information requests
 
 </td></tr><tr><td>
 
-[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md)
+[Sales Customer Relationship Management \(Sales CRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md)
 
 </td><td>
 
@@ -292,43 +283,27 @@ Help manage public information requests
 
 </td></tr><tr><td>
 
-[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
-
-</td><td>
-
--   Analyze risk and recommend solutions
--   Draft and schedule touchpoint meetings
--   Monitor engagement health
--   Support renewals and expansions
-
-</td></tr><tr><td>
-
-[Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/telecom-media-tech-landing.md)
+[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-spmc.md)
 
 </td><td>
 
 -   [Analyze network incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/network-incident-analysis-usecase.md)
 -   [Customer voice quality issue resolutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-customer-voice.md)
 -   [Help remediate bill issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/billissue-remediation-usecase.md)
--   [Service test and repair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-service-test-repair-agentic-workflow.md)
--   [Smart Actions for Telecom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-smart-actions-agentic-workflow.md)
+-   [Monitor engagement health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-monitor-health.md)
+-   [Recommend risk signal solutions agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-resolve-risk.md)
+-   [Service Exchange onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-register-consumer-users-sb.md)
+-   [Service Exchange Knowledge Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-service-exchange-assistant-se.md)
+-   [Support renewals and expansions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-renewal-analyzer.md)
+-   [Trigger risk mitigation touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-media-technology/now-assist-tmt-touchpoint-meeting-scheduler.md)
 
 </td></tr><tr><td>
 
-[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
+[Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/telecom-network-inventory.md)
 
 </td><td>
 
--   Service Exchange Knowledge Assistant
--   Service Exchange onboarding
-
-</td></tr><tr><td>
-
-[ServiceNow Otto for Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/now-assist-for-healthcare-and-life-sciences.md)
-
-</td><td>
-
-[Request care team assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/healthcare-life-sciences/hco-now-assist-request-assistance.md)
+[Rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/servicenow-otto-agentic-workflows.md)
 
 </td></tr></tbody>
 </table>## Employee experiences
@@ -398,7 +373,6 @@ Available agentic workflows
 -   [Resolve critical HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-issue-resolve-critical.md)
 -   [Generate onboarding ramp-up plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/onboarding-ramp-up-plan-agentic-wf.md)
 -   [Recommend catalog and order guide tasks in Onboarding Journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/onboarding-ramp-up-plan-agentic-wf.md)
--   [Offboarding knowledge transfer plan generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/offboarding-knowledge-x-agentic-wf.md)
 -   [Schedule interviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/use-ai-agents-to-schedule-interviews.md)
 
 </td></tr><tr><td>
@@ -428,7 +402,6 @@ Available agentic workflows
 -   [Help manage workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/manage-workplace-reservations-agent-ai.md)
 -   [Manage temporary space closures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/maintenance-meeting-room-agent-ai.md)
 -   [Optimize cleaning activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/optimize-cleaning-activities-agent.md)
--   Process images for new tasks
 -   [Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/workplace-concierge-ai-agent.md)
 
 </td></tr></tbody>
@@ -464,17 +437,19 @@ Available agentic workflows
 
 </td><td>
 
--   [Analyze incident trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/incident-trends.md)
+-   [Analyze task trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/incident-trends.md)
 -   [Classify tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/classify-tasks.md)
 -   [Error Analysis and Remediation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/error-framework-daw.md)
 -   [Generate my work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generate-work-plan.md)
 -   [Generate resolution plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/resolve-requests.md)
 -   [Help optimize team productivity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/help-optimize-productivity.md)
+-   [Identify escalation signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/identify-escalation.md)
 -   [Identify ways to improve services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/service-improvement.md)
--   [Investigate IT problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/problem-investigation.md)
+-   [Investigate problems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/problem-investigation.md)
 -   [Notification agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/notification-creation-agent.md)
 -   [Process images for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/images-tasks.md)
 -   [Suggest survey responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/survey-suggest.md)
+-   [Task closure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/task-closure.md)
 
 </td></tr><tr><td>
 
@@ -493,8 +468,6 @@ Available agentic workflows
 </td><td>
 
 -   [Access observer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-access-observer-config.md)
--   Classify assets with ServiceNow Vault agents
--   Field encryption and auto-generate access policies
 -   [Field encryption with Vault module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-field-encryption-module.md)
 -   [Securing custom apps with Vault agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-securing-custom-apps-agents.md)
 -   [Summarize access observer logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/now-assist-vault-access-observer-logs.md)

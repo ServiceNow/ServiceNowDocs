@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-new-roles-installed.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -165,6 +165,25 @@ Create, read, update, and delete records in the `sn_sec_calculator` scope.
 </td><td>
 
 sn\_sec\_calculator.read
+
+</td></tr><tr><td>
+
+Vulnerability Response
+
+</td><td>
+
+sn\_vul.vulnerability\_admin
+
+</td><td>
+
+Configure integrations, rules, and workflows in Unified Security Exposure Management.
+
+</td><td>
+
+-   sn\_vul\_int\_cmn.write
+-   sn\_vul\_int\_cmn.read
+
+ **Note:** Both roles are available only when the unified exposure pipeline is installed. For information about installing the Unified Exposure Pipeline application, see [Install Unified Exposure Pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/install-unified-exposure-pipeline.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Security Exposure Management Workspace Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-components-installed.md)

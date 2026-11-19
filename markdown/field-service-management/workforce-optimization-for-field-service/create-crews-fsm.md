@@ -7,7 +7,7 @@ release: australia
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Crew Operations, Set up workforce, Configure, Field Service Management]
 ---
@@ -18,7 +18,7 @@ Create crews to assign work order tasks to a predefined group of agents.
 
 ## Before you begin
 
-Role required: wm\_dispatcher, wm\_manager
+Role required: wm\_crew\_moderator, wm\_dispatcher, wm\_manager
 
 ## About this task
 

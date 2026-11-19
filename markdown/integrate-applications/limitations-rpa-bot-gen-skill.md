@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/limitations-rpa-bot-gen-skill.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 keywords: [Now Assist, generative AI]
 breadcrumb: [Reference, RPA Hub, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
@@ -55,7 +55,7 @@ The limitations of the RPA bot generation skill are as follows.
 
 -   **Expression-based components**
 
-    For components that require expressions, such as Decision or Expression, and so on, expressions in these components aren’t automatically populated in the Brazil release.
+    For components that require expressions, such as Decision or Expression, and so on, expressions in these components aren’t automatically populated in the Australia release.
 
 -   **Hallucinated components**
 

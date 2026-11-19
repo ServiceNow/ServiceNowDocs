@@ -5,16 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-front-line-case-page.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 20
-breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Record pages, Record pages and page templates, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Front-line case page
 
 The Front-line case page provides a simplified case view that enables front-line agents to quickly gather context, categorize cases, and provide prompt responses to customers.
-
-\[Omitted image "front-line-case-page-template.png"\] Alt text: Front-line case page enables agents to focus on four main areass: contact information, case details, activity stream, and contextual side panel
 
 The Front-line case page focuses on the essential functionality that front-line or tier 1 agents need:
 
@@ -23,11 +21,11 @@ The Front-line case page focuses on the essential functionality that front-line 
 -   View related information
 -   Search for knowledge articles
 
-The Front-line case page is included with the CRM Workspace application.
+The Front-line case page is included with the CSM Configurable Workspace application.
 
 ## Front-line case page variant
 
-The Front-line case page variant is included with the CRM Workspace application. This variant includes the following settings.
+The Front-line case page variant is included with the CSM Configurable Workspace application. This variant includes the following settings.
 
 <table id="table_zqv_lvv_q1c"><thead><tr><th>
 
@@ -43,7 +41,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page variant available to the selected audience. The Front-line case page variant is active for new and upgrade customers.The active setting combined with the other page variant settings determines the page that CRM Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-set-record-page-order.md).
+Enabling the **Active** check box makes the page variant available to the selected audience. The Front-line case page variant is active for new and upgrade customers.The active setting combined with the other page variant settings determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -75,13 +73,13 @@ For more information, see [Learn about audiences](https://raw.githubusercontent.
 </table>To access the settings for this page variant:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Select the **CRM Workspace** experience.
+2.  Select the **CSM/FSM Configurable Workspace** experience.
 3.  In the Record section of the Pages and variants list, select **Front-line case page**.
 4.  Select **Settings** at the top of the page.
 
 ## Roles
 
-The CRM Workspace application includes the following role: Front-line agent role \(sn\_cwf\_wrkspc.frontline\_agent\). Agents with this role have access to the Front-line case page in CRM Workspace.
+The CSM Configurable Workspace application includes the following role: Front-line agent role \(sn\_cwf\_wrkspc.frontline\_agent\). Agents with this role have access to the Front-line case page in CSM Configurable Workspace.
 
 The Front-line case page variant includes the CSM - Front-line Agent audience, which includes the sn\_cwf\_wrkspc.frontline\_agent role.
 
@@ -182,7 +180,7 @@ The case summarization component appears above the activity stream. When an agen
 -   Post the summary to the activity stream.
 -   Refresh the summary.
 
-The case summarization component requires the ServiceNow Otto for Customer Service Management \(CSM\) application to be activated and configured. For more information, see the [Case summarization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-front-line-case-page.md) section below.
+The case summarization component requires the Now Assist for Customer Service Management \(CSM\) application to be activated and configured. For more information, see the [Case summarization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-front-line-case-page.md) section below.
 
 </td></tr><tr><td>
 
@@ -217,12 +215,12 @@ For more information, see the following sections:
 </td></tr></tbody>
 </table>## Action bar component
 
-The Front-line case page supports actions from the following Customer Service Management and CRM Workspace plugins:
+The Front-line case page supports actions from the following Customer Service Management and CSM Configurable workspace plugins:
 
--   Case Management Core \(com.sn\_customerservice\)
--   CRM Workspace Core \(com.snc.agent\_workspace.csm\)
--   CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)
--   CRM Workspace Foundation \(com.snc.uib.cwf\_workspace\)
+-   Customer Service \(com.sn\_customerservice\)
+-   CSM/FSM Configurable WS Foundation \(com.snc.uib.cwf\_workspace\)
+-   CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\)
+-   CSM Workspace \(com.snc.agent\_workspace.csm\)
 -   Major Issue Management \(com.sn\_majorissue\_mgt\)
 -   Customer Service with Service Management \(com.sn\_cs\_sm\)
 -   Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\)
@@ -289,16 +287,14 @@ Using this component, agents can:
 
 **Note:** If the case does not contain enough text to summarize, the system displays the following message: "This case doesn't have the minimum number of words required for summarization yet."
 
-To use the case summarization component with the Front-line case page, activate the ServiceNow Otto for Customer Service Management \(CSM\) application and configure the case summarization skill in the AI Admin Hub. For more information, see:
+To use the case summarization component with the Front-line case page, activate the Now Assist for Customer Service Management \(CSM\) application and configure the case summarization skill in the Now Assist Admin console. For more information, see:
 
--   [Supporting information for ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)
--   [Configuring ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md)
+-   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)
+-   [Configure the case summarization skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
 
 ## Activity stream component
 
 The activity stream component displays a list of the activities occurring on a case record. The activities in the list can be collapsed or expanded. When collapsed, the agent can quickly scan the list to get an overview of case activities. When expanded, the agent can see detailed information on individual activities.
-
-\[Omitted image "front-line-case-page-activity-stream.png"\] Alt text: The front-line case page activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types
 
 The activities in the activity stream are represented by tiles that use icons and colors to indicate the activity type.
 
@@ -375,7 +371,7 @@ Suggested Actions tab: This tab displays relevant actions to agents based on the
 
 For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba-use-ai-search.md).
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CRM Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 </td></tr><tr><td>
 
@@ -386,7 +382,7 @@ Record Information
 The Record Information tab includes the following information: record overview and SLAs.-   The **Overview** card displays relevant information about the record including account and contact, case priority, and state.
 -   The Task SLA cards component displays cards with the record SLA information, including time remaining, the SLA state, and any breaches. For more information, see [Task SLA cards component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-record-page-sla-card-component.md).
 
-**Note:** The cards that appear in the Record Information tab can be configured in the **Front-line Case Page Ribbon Config** ribbon configuration. For more information, see [Set up a ribbon configuration in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-ribbon.md).
+**Note:** The cards that appear in the Record Information tab can be configured in the **Front-line Case Page Ribbon Config** ribbon configuration. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-ribbon.md).
 
 </td></tr><tr><td>
 
@@ -418,10 +414,7 @@ Email Templates
 
 </td><td>
 
-The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include:-   The recipients \(email addresses in the To, Cc, and Bcc fields\)
--   The sender
--   The subject of the email
--   Text to include in the message body
+The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include the recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the subject of the email, and text to include in the message body.
 
 </td></tr><tr><td>
 
@@ -502,7 +495,7 @@ From the Recommendations tab in the contextual side panel, agents can use [model
 -   Attach and add a link to an email.
 -   Add a link to a work note.
 
-Selecting these actions displays the comment, work note, or email modeless dialog. Once the guidance is executed, it is marked as Complete. After an action is completed, an entry is posted in the case record activity stream.
+Selecting these actions displays the comment, work note, or email modeless dialog. The inserted link displays the knowledge article title and article number as a hyperlink, in the format `Article Title: KB0012345`. Once the guidance is executed, it is marked as Complete. After an action is completed, an entry is posted in the case record activity stream.
 
 To display the knowledge article links that are added to the modeless dialogs with the **Attach and share article** guidance, the system administrator needs to manually enable the rich text editor:
 

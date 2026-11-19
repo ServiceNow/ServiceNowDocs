@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 3
 keywords: [configure AI preferences, usage limits, insights, summaries]
-breadcrumb: [Tasks and requests, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
+breadcrumb: [Tasks and requests, Working with EmployeeWorks capabilities, Configure, ServiceNow EmployeeWorks Web App, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure tasks and requests
@@ -34,7 +34,7 @@ Configure the following AI preferences to manage smart prioritization for tasks 
 
 ## Procedure
 
-1.  Follow the instructions here to [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/eslate-config-admin-console.md).
+1.  Follow the instructions here to [Configure branding and theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/eslate-config-admin-console.md).
 
 2.  Expand the **Tasks and requests** section and select **Tasks** to view the read-only list with task types, table, conditions, search, and configure tasks.
 

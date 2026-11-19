@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -60,15 +60,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 7.  Select one of the following in the **Use AI to draft this article?** modal.
 
-<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d394040e239">
+<table id="choicetable_cql_m25_vcc"><thead><tr><th align="left" id="d396099e245">
 
 Option
 
-</th><th align="left" id="d394040e242">
+</th><th align="left" id="d396099e248">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d394040e248">
+</th></tr></thead><tbody><tr><td id="d396099e254">
 
 **Yes, draft with ServiceNow Otto**
 
@@ -76,7 +76,7 @@ Description
 
 Use ServiceNow Otto to draft an article based on task details.You can review and edit the article before it is published.
 
-</td></tr><tr><td id="d394040e264">
+</td></tr><tr><td id="d396099e270">
 
 **No, write it myself**
 

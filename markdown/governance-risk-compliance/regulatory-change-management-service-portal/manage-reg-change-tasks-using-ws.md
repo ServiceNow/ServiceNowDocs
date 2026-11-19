@@ -7,7 +7,7 @@ release: australia
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -36,15 +36,15 @@ The coordinator of the regulatory event alert identifies the steps to comply wit
 
 4.  Review the impact assessment and mark the alert using one of the following options.
 
-<table id="choicetable_utb_d4n_brb"><thead><tr><th align="left" id="d234875e110">
+<table id="choicetable_utb_d4n_brb"><thead><tr><th align="left" id="d234031e110">
 
 Field
 
-</th><th align="left" id="d234875e113">
+</th><th align="left" id="d234031e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d234875e119">
+</th></tr></thead><tbody><tr><td id="d234031e119">
 
 **Applicable**
 
@@ -52,7 +52,7 @@ Description
 
 Mark the alert as applicable. After marking the regulatory event alert as **Applicable**, a new regulatory change task is automatically created in the Regulatory Tasks related list in the regulatory alert UI page.
 
-</td></tr><tr><td id="d234875e131">
+</td></tr><tr><td id="d234031e131">
 
 **Not applicable**
 
@@ -67,7 +67,7 @@ Mark the alert as not applicable.
 -   Other
 As a result of this action, the stepper component displays the alert stage as **Completed**.
 
-</td></tr><tr><td id="d234875e167">
+</td></tr><tr><td id="d234031e167">
 
 **Cancel regulatory alert**
 
@@ -75,7 +75,7 @@ As a result of this action, the stepper component displays the alert stage as **
 
 Cancel the regulatory alert.
 
-</td></tr><tr><td id="d234875e176">
+</td></tr><tr><td id="d234031e176">
 
 **Defer**
 

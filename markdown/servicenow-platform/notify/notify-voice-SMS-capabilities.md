@@ -7,7 +7,7 @@ release: australia
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Exploring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,7 +36,7 @@ Notify enables applications to send outgoing SMS messages to team members, custo
 Notify provides a way for applications to start and manage a conference, send/receive SMS, send/receive calls and present them with IVR like system.
 
 -   **[How Notify processes incoming calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/c_ProcessingNotifyCalls.md)**  
-Notify processes incoming calls using workflow activities.
+Notify processes an incoming call by running the workflow for the called number and exchanging actions with the telephony provider.
 
 **Parent Topic:**[Exploring Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/notify/exploring-notify.md)
 

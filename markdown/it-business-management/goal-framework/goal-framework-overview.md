@@ -110,7 +110,7 @@ For an example of the structure of a strategy from the strategic plan level down
 |Fiscal calendars for goals|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 |Associate work with goals|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 |Automate actual value of targets|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
-|Monitor goals and strategies in ServiceNow AI Control Tower|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
+|Monitor goals and strategies in ServiceNow Control Tower|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 
 **Note:** The Goal Framework for SPM application is an extension to the Goal Framework application. When you install the Goal Framework for SPM application, you get all the features of Goal Framework as well as the target automation feature.
 

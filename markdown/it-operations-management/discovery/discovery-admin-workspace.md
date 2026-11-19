@@ -42,7 +42,7 @@ Installing Discovery Admin Workspace \(sn\_disco\_workspace\) activates or insta
 -   ITOM Guided Setup - New \(sn\_sow\_guide\_setup\)
 -   CMDB CI Class Models \(sn\_cmdb\_ci\_class\)
 
-**Note:** For on-premises deployments, dependencies aren't installed or updated automatically. For more information, see [Getting apps as an on-premise customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/getting-apps-on-prem.md).
+**Note:** For on-premises deployments, dependencies aren't installed or updated automatically. For more information, see .
 
 For a list of Discovery Admin Workspace application dependencies, see [Plugins or applications installed with ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/plugin-app-itom-visibility.md).
 

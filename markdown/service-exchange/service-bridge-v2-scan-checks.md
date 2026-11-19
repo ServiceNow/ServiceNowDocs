@@ -7,8 +7,8 @@ release: australia
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-05-13"
+reading_time_minutes: 1
 keywords: [instance scan checks, health dashboard, system health, scan suites]
 breadcrumb: [Service Exchange Center, Explore, Service Exchange]
 ---
@@ -41,18 +41,16 @@ These Service Exchange scan checks are available through the Service Exchange He
 
 **Note:** The Service Exchange Health plugin is backward compatible. If you're using an older version of the Service Exchange application, you can install this plugin to use its features.
 
+## Health Dashboard
+
+The Service Exchange Health Dashboard consolidates findings, errors, and scan task statuses into a single view. You can select any widget to view information about the scan checks.
+
+Each scan task includes a work note that contains a link to relevant known error documentation. This documentation provides step-by-step guidance that may help you resolve the problem.
+
+You can access the Health Dashboard from the Service Exchange **Administration** menu.
+
 **Related topics**  
 
 
 [List of scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/service-bridge-v2-list-of-scan-checks-in-sb.md)
-
-[Execute a scan suite as a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/se-execute-scan-check.md)
-
-[Execute a scan suite as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/se-con-execute-scan-check.md)
-
-[Modify the scan suite schedule as a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/se-execute-scan-check.md)
-
-[se-scan-check-details]
-
-[Manage a scan check as a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-exchange/se-execute-scan-check.md)
 

@@ -7,8 +7,8 @@ release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 3
 breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
@@ -20,11 +20,11 @@ Create advanced appointment schedules to offer customers specific time slots—l
 
 Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
-Ensure you have already enabled the **Advanced Configuration** option in the service configuration and created a service configuration rule.
+The **Advanced Configuration** option must be enabled in the service configuration, and a service configuration rule must exist.
 
 ## About this task
 
-For each service, you can define multiple advanced schedules that override the default availability, based on conditions specified in service configuration rules.
+Each service can have multiple advanced configurations. Each configuration requires either a rule or a start date and an end date. If you specify dates, the configuration applies between those dates. Otherwise, it applies when the conditions in the rule are met.
 
 ## Procedure
 
@@ -80,7 +80,7 @@ End date
 
 </td><td>
 
-End date of the appointment booking window.
+End date of the appointment booking window.**Note:** Specify both a start date and an end date if you don't select a rule for the advanced configuration.
 
 </td></tr><tr><td>
 
@@ -120,7 +120,9 @@ Rule
 
 </td><td>
 
-The name of the service configuration rule based on which you are scheduling configurations on an advanced level.
+The name of the service configuration rule based on which you are scheduling appointments on an advanced level.The advanced configuration is applied when the conditions of the rule are met.
+
+**Note:** You must specify a rule if you don't specify start or end dates.
 
 </td></tr><tr><td>
 
@@ -152,7 +154,11 @@ Appointments per window
 
 </td><td>
 
-Number of appointments available per slot. Applicable primarily for manual task assignment method. This number determines the available appointments that are displayed on the **Select Appointment** window. If the task assignment method is either auto-assignment or by dynamic scheduling, this setting does not apply unless you provide a location. The configuration defaults to the number of appointments per window if the location is not provided.
+Number of appointments available per slot. Applicable primarily for manual task assignment method.
+
+This number determines the available appointments that are displayed on the **Select Appointment** window. If the task assignment method is either auto-assignment or by dynamic scheduling, this setting does not apply unless you provide a location.
+
+The configuration defaults to the number of appointments per window if the location is not provided.
 
 </td></tr><tr><td>
 

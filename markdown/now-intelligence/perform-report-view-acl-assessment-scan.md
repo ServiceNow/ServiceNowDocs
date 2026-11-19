@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/perform-report-view-acl-assessment-scan.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [ACL Assessment for Data Visualizations, Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Scan your instance for data visualizations and Core UI reports that users were s
 
 ## Before you begin
 
-Roles required: admin and security\_admin.
+Roles required: admin and security\_admin \(elevated\).
 
 ## About this task
 

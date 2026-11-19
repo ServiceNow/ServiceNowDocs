@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/funnel-table-data.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Create a funnel visualization, Data visualization in ITOM, AIOps Dashboards in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -138,7 +138,7 @@ Field
 
 Source field from the data set for the selected metric.**Note:** The data appears in a format that matches the field type. For example, an integer field like **Priority** is shown as a number. A duration field like **Business duration** from the \[Incident\] table is displayed in days, hours, and minutes.
 
-If function fields were created in Report Designer for the table, they are available in the drop-down list. For more information, see [Report on function fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/function-fields-reporting.md).
+If function fields were created in Report Designer for the table, they are available in the drop-down list. For more information, see .
 
 </td></tr><tr><td>
 
@@ -146,7 +146,7 @@ Format values
 
 </td><td>
 
-Formatting style for displaying metric values. Select to open the Formatting values dialog.For more information, see [Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/value-formatting-reports.md).
+Formatting style for displaying metric values. Select to open the Formatting values dialog.For more information, see .
 
 </td></tr><tr><td colspan="2">
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Create a change task to implement a controlled process for modifying approved an
 
 ## Before you begin
 
-For general information on Change requests, see [Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/using-change-management.md).
+For general information on Change requests, see .
 
 Role required: srm\_manager, srm\_responder, or srm\_admin
 

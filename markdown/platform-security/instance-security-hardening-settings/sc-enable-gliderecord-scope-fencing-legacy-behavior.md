@@ -1,5 +1,5 @@
 ---
-title: Disable GlideRecord scope fencing legacy behavior
+title: Disable GlideRecord Scope Fencing Legacy Behavior
 description: The glide.record.legacy\_cross\_scope\_access\_policy\_in\_script property disables scope fencing allowing scoped apps to access global script interfaces. It was created as a patch to GlideRecord's cross scope access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-enable-gliderecord-scope-fencing-legacy-behavior.html
@@ -7,16 +7,16 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Platform Security]
 ---
 
-# Disable GlideRecord scope fencing legacy behavior
+# Disable GlideRecord Scope Fencing Legacy Behavior
 
 The **glide.record.legacy\_cross\_scope\_access\_policy\_in\_script** property disables scope fencing allowing scoped apps to access global script interfaces. It was created as a patch to GlideRecord's cross scope access.
 
-GlideRecord provided cross scope create and update access to tables that were not configured with that level of access. To prevent customers from having applications broken when this scoped access behavior was patched, the property **glide.record.legacy\_cross\_scope\_access\_policy\_in\_script** was created. When set to **true**, cross scope access falls back onto legacy behavior \(insecure\). This property disables scope fencing, allowing scoped apps to access global script interfaces.
+GlideRecord provided cross scope create/update access to tables that were not configured with that level of access. In order to prevent customers from having applications broken when this scoped access behavior was patched, the property **glide.record.legacy\_cross\_scope\_access\_policy\_in\_script** was created. When set to **true**, cross scope access falls back onto legacy behavior \(insecure\). This property disables scope fencing, allowing scoped apps to access global script interfaces.
 
 Set the **glide.record.legacy\_cross\_scope\_access\_policy\_in\_script** system property to **false**. When not present in the System Properties \[sys\_properties\] table, the default value is **true**.
 
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-false
+&lt;none&gt;
 
 </td></tr><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/financial-services-operations/request-generative-ai-capabilities-in-fso.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [generative AI for financial services operations now assist panel, generative AI for FSO now assist panel]
 breadcrumb: [AI capabilities, AI in FSO, Explore, Financial Services Operations \(FSO\)]
@@ -41,15 +41,15 @@ For more information about the ServiceNow Otto panel, see [ServiceNow Otto panel
 
 3.  If you have enabled the Case summarization skill, you can use ServiceNow Otto panel to summarize a case using generative AI.
 
-<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d28831e239">
+<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d28796e239">
 
 Option
 
-</th><th align="left" id="d28831e242">
+</th><th align="left" id="d28796e242">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28831e248">
+</th></tr></thead><tbody><tr><td id="d28796e248">
 
 **Summarize a case**
 
@@ -61,9 +61,7 @@ Description
 
 
 </td></tr></tbody>
-</table>    \[Omitted image "now-assist-fso-panel.png"\] Alt text: ServiceNow Otto panel with case summarization generation.
-
-4.  If you have AI agents enabled, use ServiceNow Otto panel to converse with agents for assistance with various tasks, such as ACH dispute resolution and generating customer insights.
+</table>4.  If you have AI agents enabled, use ServiceNow Otto panel to converse with agents for assistance with various tasks, such as ACH dispute resolution and generating customer insights.
 
 
 **Related topics**  

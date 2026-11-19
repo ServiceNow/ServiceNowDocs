@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-10-08"
 reading_time_minutes: 1
-breadcrumb: [Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # ServiceNow Studio and Build Agent tutorial

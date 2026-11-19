@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vc-build-agent-limitations.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-03"
 reading_time_minutes: 2
-breadcrumb: [Build Agent overview, Develop, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Limitations of agentic app generation with Build Agent
@@ -36,6 +36,18 @@ To understand the upper limit of what Build Agent can do, review the ServiceNow 
 -   [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-fluent.md)
 
 If ServiceNow Fluent does not support a metadata type, Build Agent cannot update it unless you provide precise platform-specific instructions.
+
+## Regulated environments
+
+Build Agent, Autonomous Engineer, and Test Agent depend on off-instance services that haven't completed the security compliance review required for regulated hosting environments. As a result, Build Agent v2, which begins with Australia Patch 0 and Zurich 8, isn't available in GCC, NSC, or FedRAMP environments.
+
+**Note:** As of Australia Patch 6, Build Agent, Autonomous Engineer, and Test Agent support ServiceNow Protected Platform for Australia, the EU, and Singapore.
+
+For the options that are available in regulated environments, see [Build Agent limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-limitations.md).
+
+## Limitations of Autonomous Engineer
+
+Limitations that apply to Build Agent also apply to Autonomous Engineer. For more information, see [Autonomous Engineer limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-limitations.md).
 
 **Parent Topic:**[Agentic ServiceNow AI Platform development with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/vc-build-agent-landing.md)
 

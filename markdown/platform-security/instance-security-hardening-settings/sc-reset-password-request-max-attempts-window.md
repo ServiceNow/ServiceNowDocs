@@ -1,5 +1,5 @@
 ---
-title: Control lockout time for invalid password reset attempts
+title: Control Lockout Time for Invalid Password Reset Attempts
 description: The password\_reset.request.max\_attempt\_window property controls the number of minutes a user must wait to reset or change their password after exceeding the maximum number of unsuccessful attempts that is set with the password\_reset.request.max\_attempt property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/instance-security-hardening-settings/sc-reset-password-request-max-attempts-window.html
@@ -7,12 +7,12 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Control lockout time for invalid password reset attempts
+# Control Lockout Time for Invalid Password Reset Attempts
 
 The **password\_reset.request.max\_attempt\_window** property controls the number of minutes a user must wait to reset or change their password after exceeding the maximum number of unsuccessful attempts that is set with the **password\_reset.request.max\_attempt** property.
 
@@ -68,7 +68,7 @@ Default value
 
 </td><td>
 
-1440
+&lt;none&gt;
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Completing an RMA response order, Managing RMA response orders for defective DaaS assets, Enterprise Asset Management for Providers, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_eam\_provider.provider\_asset\_technician
 
 2.  Open the Asset tasks list.
 
-<table id="choicetable_lxc_pcp_bhc"><thead><tr><th align="left" id="d259332e122">
+<table id="choicetable_lxc_pcp_bhc"><thead><tr><th align="left" id="d258844e122">
 
 Navigation option
 
-</th><th align="left" id="d259332e125">
+</th><th align="left" id="d258844e125">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d259332e131">
+</th></tr></thead><tbody><tr><td id="d258844e131">
 
 **Provider RMA response order**
 
@@ -56,7 +56,7 @@ Procedure
 5.  On the RMA response order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d259332e175">
+</td></tr><tr><td id="d258844e175">
 
 **Provider RMA response order line**
 
@@ -70,7 +70,7 @@ Procedure
 3.  On the RMA response order line record, select the **Asset tasks** tab.
 
 
-</td></tr><tr><td id="d259332e210">
+</td></tr><tr><td id="d258844e210">
 
 **Provider asset tasks**
 

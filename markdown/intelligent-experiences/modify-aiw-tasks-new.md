@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-10-13"
 reading_time_minutes: 6
 keywords: [ai specialist tasks, ai specialist actions, ai specialist capabilities, ai specialist configure, ai specialist settings, ai specialist classify assign, ai specialist triage diagnose, ai specialist investigate resolve, ai specialist response formatting, ai specialist reassign]
-breadcrumb: [Configure in AI Agent Studio, Configure, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Configure in AI Agent Studio, Configure, Autonomous Workforce, Enable AI experiences]
 ---
 
 # Edit the tasks of an AI specialist in AI Agent Studio

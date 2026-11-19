@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/workspace-dashboard-use.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Application service health information, Create or delete user view, Application service details, Manage list, Unified map and impact paths, Alert metric trends, CI health in metric explorer]
 breadcrumb: [Configure, ITOM AIOps, IT Operations Management]
@@ -17,7 +17,7 @@ The Service Operations Workspace monitors services within your Event Management 
 
 **Note:** The Operator Workspace interface is available only to customers who have upgraded from a release prior to the Utah release. New customers as of the Utah release can use the Service Operations Workspace for ITOM, which offers an enhanced UI for managing alerts.
 
-You can configure the Service Operations Workspace to remain logged in for up to 24 hours. For more information, see [Manage user sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ManageUserSessions.md).
+You can configure the Service Operations Workspace to remain logged in for up to 24 hours. For more information, see Manage user sessions.
 
 -   **[View application service health information in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/workspace-dashboard.md)**  
 Monitor the health of services and filter the information that you want to view, allowing you to focus on the most relevant data and make informed decisions quickly.
@@ -46,7 +46,7 @@ Configure the metrics you want to be visible for Service Operations Workspace al
 -   **[View CI health in Metric Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/view-metric-explorer.md)**  
 View the health and performance of an alert's CI using Metric Explorer, to help troubleshoot problematic areas in the CI.
 -   **[View alert metric trends in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/customize-alert-metrics-itom.md)**  
-View the metrics for an alert and adjust the time range to see the trends for the alert or its associated Configuration Item \(CI\).
+View the metrics for an alert and adjust the time range to see the trends for either the alert or its associated Configuration Item \(CI\).
 
 **Parent Topic:**[Configuring Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/configure-sow-itom.md)
 

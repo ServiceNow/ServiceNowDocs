@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/add-contracts-related-list.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Administer Customer Contracts and Entitlements, Administer, Customer Service Management]
 ---
@@ -22,21 +22,21 @@ Role required: manager
 
 To see the contracts associated with Accounts, Consumers, and Households, respectively, on the same page, you must add the related list manually on the form.
 
-**Note:** You can only add the related list on the platform interface in the Workspace view. The same setting is implemented on the CRM Workspace.
+**Note:** You can only add the related list on the platform interface in the Workspace view. The same setting is implemented on the CSM Configurable Workspace.
 
 ## Procedure
 
 1.  Add related lists to sold products and install base items.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d337175e65">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d336239e65">
 
 Add to
 
-</th><th align="left" id="d337175e68">
+</th><th align="left" id="d336239e68">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d337175e74">
+</th></tr></thead><tbody><tr><td id="d336239e74">
 
 **Accounts**
 
@@ -46,7 +46,7 @@ Procedure
 2.  Select the account.
 
 
-</td></tr><tr><td id="d337175e107">
+</td></tr><tr><td id="d336239e107">
 
 **Consumers**
 
@@ -56,7 +56,7 @@ Procedure
 2.  Select the consumer.
 
 
-</td></tr><tr><td id="d337175e140">
+</td></tr><tr><td id="d336239e140">
 
 **Households**
 

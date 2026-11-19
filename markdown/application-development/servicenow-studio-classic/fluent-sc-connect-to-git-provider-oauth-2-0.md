@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-10-08"
 reading_time_minutes: 5
 keywords: [Oauth, ServiceNow Studio, Git provider, OAuth 2.0 credentials, pro-code development, ServiceNow Studio]
-breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Fluent source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
 ---
 
 # Connect to a Git provider using OAuth 2.0

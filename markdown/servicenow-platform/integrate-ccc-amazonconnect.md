@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/i
 release: australia
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Integrating Voice with other applications, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -20,6 +20,11 @@ Connect ServiceNow Voice of your ServiceNow instance with the Amazon Connect ins
 -   Review the pricing policies for the services provisioned during this setup. Required services, resources, and roles are set up in your AWS account.
 -   Create a service account in your ServiceNow instance to allow communication from your AWS account to your ServiceNow instance. If you do not have the permissions to create service accounts on your instance, contact your ServiceNow administrator for creating this service account.
 -   If you want to use the **AI Voice Agents** capability, then your Admin would have to enable the feature in your instance.
+-   Install the latest versions of the following plugins:
+    -   ServiceNow Voice UI Components
+    -   ServiceNow Voice for CSM
+    -   ServiceNow Voice
+    -   ServiceNow Voice with Amazon Connect
 
 Role required: sn\_cti\_amzn\_cct.admin
 
@@ -160,7 +165,7 @@ Deploy Lex Bot
 
 </td><td>
 
-Build voice-based conversational interfaces for your users. For more information on Lex Bot, see the Amazon [documentation](https://docs.aws.amazon.com/lex/latest/dg/chatbot-service.html)
+Build voice-based conversational interfaces for your users. For more information on Lex Bot, see the Amazon [documentation](https://docs.aws.amazon.com/lex/latest/dg/chatbot-service.html)**Note:** If you have selected ServiceNow **AI Voice Agents**, you're not required to Deploy Lex Bot
 
 </td></tr><tr><td>
 
@@ -178,7 +183,7 @@ Import Contact Flows
 
 -   To enable Advanced Work Assignment \(AWA\) Voice Routing, check the checkbox under the **AWA Voice Routing** heading. Complete the steps specified in the setup guide:
 
-    -   Complete AWS Lambda and Oauth credential setup.
+    -   Complete [AWS Lambda](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/aws-lambda-spoke.md) and Oauth credential setup.
     -   Download the recommended hold music using the link in the setup guide \(you can choose your own hold music, but it cannot be longer than 5 seconds\).
     -   Upload the hold music. See the [AWS documentation](https://docs.aws.amazon.com/connect/latest/adminguide/prompts.html#howto-prompts).
 -   Define a call tree for inbound and outbound calls between Amazon Connect and your ServiceNow instance. For more information on contact flows, see the Amazon [documentation](https://docs.aws.amazon.com/connect/latest/adminguide/connect-contact-flows.html).
@@ -190,7 +195,7 @@ Import Contact Flows
 
 -   Set up call transfer flows through Amazon Connect using Transfer to Agent Flow and Transfer to Queue Flow. The transfer flows are reusable and can also be applied to ServiceNow Voice for ITSM.
 
--   Amazon Connect \(Phone\) is a placeholder phone channel for Amazon Connect integration. For queues that you implement in your Amazon Connect instance, you can use this channel to create corresponding Advanced Work Assignment queues. For an example implementation, see  or .
+-   Amazon Connect \(Phone\) is a placeholder phone channel for Amazon Connect integration. For queues that you implement in your Amazon Connect instance, you can use this channel to create corresponding Advanced Work Assignment queues. For an example implementation, see [Associate Amazon Connect queues for ITSM to a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/setup-cloudcallcenter-itsm-configurable-workspace.md) or [Associate Amazon Connect queues with CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setup-amazonconnect-configurable-csm.md).
 
 </td></tr><tr><td>
 
@@ -234,7 +239,7 @@ To use the native voice control in ServiceNow Workspace, follow the steps in the
 
 **Note:** If a queue with the same ServiceNow Voice External ID is already mapped to an Amazon Connect queue, clear and update the Provider Queue ID field on the existing record instead of creating a duplicate queue.
 
-See .
+See [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contact-center-integration-with-icc.md).
 
 </td></tr></tbody>
 </table>

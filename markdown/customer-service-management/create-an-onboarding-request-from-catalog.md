@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/create-an-onboarding-request-from-catalog.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use Playbooks for Portals, Customer communication, Use, Customer Service Management]
+breadcrumb: [Using Playbooks for Portals, Customer communication, Use, Customer Service Management]
 ---
 
 # Create an onboarding request from the service catalog
@@ -16,13 +16,13 @@ Create a new onboarding request from the Customer or Consumer Service Portals by
 
 ## Before you begin
 
-Role required: sn\_customerservice.customer, sn\_customerservice.consumer, sn\_csm\_proxy\_cont, admin
+Role required: sn\_customerservice.customer, sn\_customerservice.consumer, sn\_customerservice.proxy\_contact, admin
 
 ## Procedure
 
 1.  Create a request by going to either the portal landing page or the portal menu header and then doing one of the following actions.
 
-<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d253678e63">
+<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d251576e63">
 
 **__Request Something__**
 
@@ -30,7 +30,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.consumer, sn\_c
 
 On the portal landing page, select the **Request Something** link.
 
-</td></tr><tr><td id="d253678e76">
+</td></tr><tr><td id="d251576e76">
 
 **__Requests__**
 
@@ -57,7 +57,7 @@ The system processes the request, creates the request and any other related reco
 
 [Creating an onboarding case with Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-an-onboarding-case-with-portal-playbook.md)
 
-[Creating a guided onboarding case from CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
+[Creating a guided onboarding case from CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-a-guided-onboarding-case-from-workspace.md)
 
 [Create an onboarding request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/create-an-onboarding-request-from-catalog.md)
 

@@ -1,29 +1,24 @@
 ---
 title: Create a batch for Schedule Optimization
-description: Create an optimization batch to determine the interval at which Schedule Optimization should run. Set the start date, batch start time and end time, and run frequency for the related scope.
+description: Create an optimization batch to determine the interval at which optimization should run. Set the start date, batch start time and end time, and run frequency for the related scope.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/field-service-scheduling/create-an-optimization-batch.html
 release: australia
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Batches and scopes, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create a batch for Schedule Optimization
 
-Create an optimization batch to determine the interval at which Schedule Optimization should run. Set the start date, batch start time and end time, and run frequency for the related scope.
+Create an optimization batch to determine the interval at which optimization should run. Set the start date, batch start time and end time, and run frequency for the related scope.
 
 ## Before you begin
 
 [Configure the policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/create-policies-schedule-optimization.md) and [Scheduling attribute configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/configure-scheduling-attributes.md).
-
-Verify that your agent work schedules are set up correctly:
-
--   Work schedule structure: Set up a repeating schedule for each technician, such as a weekly or monthly pattern. Individual day exceptions can override this base schedule. Schedules with single, individual day entries won't work for optimization.
--   Agent availability: Verify technicians are marked as **Free** in their schedules for the time periods covered by the batch. Technicians marked as **Busy** will not receive task assignments.
 
 Role required: wm\_admin
 
@@ -31,7 +26,13 @@ Role required: wm\_admin
 
 \[Omitted video\] Description: This video demonstrates how to create a batch for Schedule Optimization
 
-For information about batch limits, run frequency, and how batches and scopes work together, see [Schedule Optimization batches and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/batches-and-scopes.md).
+Key considerations for optimizing your schedules:
+
+-   Batch configuration: You can configure up to 36 batches within a 24-hour period for optimizations. Each batch must last at least two hours, and there should be no more than three overlapping batches. For instance, you might have Batch 1 from midnight to 02:00, Batch 2 from 01:00 to 03:00, and Batch 3 from 02:00 to 04:00
+-   Frequency settings: Optimizations runs are supported on a continuous or fixed schedule. The default frequency for optimization runs is every seven days. However, you have the flexibility to choose from several options to adjust the run frequency. You can set optimizations to run once, every day, or at intervals of 30, 60, 90, 120, or 180 days, based on your specific needs.
+-   Time relative scopes: The start time of a scope is relative to the batch start time. If the batch starts today, but the scope start time is tomorrow, the optimization will focus on agents and tasks for the given scope for the next day.
+-   Optimizing across territories: When dealing with agents and tasks spanning multiple territories, the system intelligently consolidates all overlapping territories into a single set. This ensures a streamlined and effective scheduling process.
+-   System data: The system tracks task eligibility across territories and calculate associations between territories and their overlaps. This data helps in identifying agent and geographical overlaps, creating a comprehensive list of related territories.
 
 ## Procedure
 
@@ -70,18 +71,9 @@ For information about batch limits, run frequency, and how batches and scopes wo
 
 ## Result
 
-At each defined interval, the batch triggers the Schedule Optimization process. Work order tasks are automatically assigned to the most suitable technician, and the **Assigned To** field is updated accordingly. To verify the next scheduled trigger time, see [KB2142495](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2142495).
+At each defined interval, the batch triggers the Schedule Optimization process. Work order tasks are automatically assigned to the most suitable agent, and the **Assigned To** field is updated accordingly. To verify the next scheduled trigger time, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB2142495](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2142495).
 
-**Note:** Schedule Optimization doesn’t detect changes you make to agents or tasks during an optimization run. It considers changes to technicians and tasks during the next optimization run.
+**Note:** Schedule Optimization doesn’t detect changes you make to agents or tasks during an optimization run. The system considers changes to agents and tasks during the next optimization run.
 
-You can [View Schedule Optimization logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/view-schedule-optimization-logs.md) to gather insights from each optimization attempt. To understand how tasks were processed and assigned during Schedule Optimization runs, see [Run summaries overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.md).
-
-**Related topics**  
-
-
-[Batches and scopes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/batches-and-scopes.md)
-
-[Create a scope for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/create-an-optimization-job-soe.md)
-
-[Add or remove scopes from an optimization batch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/add-remove-scopes-batch.md)
+You can [View Schedule Optimization logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/view-schedule-optimization-logs.md) to gather insights from each optimization attempt. To understand how tasks were processed and assigned during Schedule Optimization runs, see [Schedule Optimization run summaries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.md).
 

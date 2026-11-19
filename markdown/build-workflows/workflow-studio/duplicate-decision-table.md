@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-22"
 reading_time_minutes: 1
 breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
@@ -26,7 +26,7 @@ Role required: admin, decision\_table\_admin, or delegated developer
 
 2.  On the homepage, select **Decision tables**.
 
-3.  Open the decision table you want to duplicate.
+3.  Open the decision table to duplicate.
 
 4.  Select the Decision table menu options icon \(\[Omitted image "dec-table-menu-options.png"\] Alt text:\) and select **Duplicate Decision Table**.
 
@@ -62,7 +62,7 @@ Version to duplicate
 
 </td><td>
 
-Version of the table you want to duplicate. This field is only available when draft authoring is enabled on the original table and there is a draft and a published version. You can select **Draft** or **Published**.
+Version of the table to duplicate. This field is only available when draft authoring is enabled on the original table and there is a draft and a published version. You can select **Draft** or **Published**.
 
 </td></tr><tr><td>
 

@@ -1,18 +1,18 @@
 ---
-title: Account details form
-description: Use the Account Details form to create or review account information for customers and partners.
+title: Account Details form
+description: The Accounts Details form enables you to create or review account details for a customer or for a partner.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/account-details-form-fields.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-27"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
 
-# Account details form
+# Account Details form
 
-Use the Account Details form to create or review account information for customers and partners.
+The Accounts Details form enables you to create or review account details for a customer or for a partner.
 
 <table id="table_qrh_qrq_4nb"><thead><tr><th>
 
@@ -52,7 +52,7 @@ Parent Account
 
 </td><td>
 
-Name of the parent account, if any, for this account. -   For example, if the account is a national branch of a multinational corporation, the parent account is the multinational corporation account.
+Name of the parent account, if any, for this account. -   For example, if you are setting up an account that is a national branch of a multi-national corporation, the parent account is the one for the multi-national corporation.
 -   If there isn't a parent account, leave this field empty.
 
 </td></tr><tr><td>
@@ -133,7 +133,7 @@ Country
 
 </td><td>
 
-Name of the country for the account.
+Name of the city for the account.
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Notes
 
 </td><td>
 
-Free-form note text for the account.
+Free form note text for the customer account.
 
 </td></tr><tr><td>
 
@@ -173,7 +173,7 @@ Assumed name
 
 </td><td>
 
-Trade name or doing business as \(DBA\) name used publicly.
+The trade name or DBA \(Doing Business As\) used publicly.
 
 </td></tr><tr><td>
 
@@ -197,7 +197,7 @@ Tax ID
 
 </td><td>
 
-Unique tax identification number for regulatory purposes.
+Unique tax identification number for regulatory purpose.
 
 </td></tr><tr><td>
 
@@ -216,7 +216,5 @@ Sales Owner
 The internal contact responsible for managing the account relationship.
 
 </td></tr></tbody>
-</table>**Note:** When you create an account through the account creation API, the value you provide for **Legal entity name** is saved with the account record.
-
-**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-reference.md)
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/order-mgt-reference.md)
 

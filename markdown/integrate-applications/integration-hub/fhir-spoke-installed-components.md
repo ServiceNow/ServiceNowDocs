@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-06-16"
+last_updated: "2026-11-16"
 reading_time_minutes: 2
 keywords: [installed components, FHIR actions, connection alias]
 breadcrumb: [HL7 FHIR Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
@@ -16,6 +16,12 @@ breadcrumb: [HL7 FHIR Spoke, Integration Hub spokes, Build integrations, Integra
 # Components installed with the HL7 FHIR Spoke
 
 Several types of components are installed with the HL7 FHIR Spoke, including Workflow Studio actions, a Connection &amp; Credential Alias and configuration template, script includes, and application menu modules. The spoke installs no custom tables or roles.
+
+## Plugin details
+
+Plugin name: HL7 FHIR Spoke
+
+Scope name: `sn_hl7_fhir_spoke`
 
 ## Flow Designer actions installed
 

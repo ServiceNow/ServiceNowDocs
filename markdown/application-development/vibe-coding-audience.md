@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/vibe-coding-audience.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-11-03"
 reading_time_minutes: 2
-breadcrumb: [Explore, Agentic development guide, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Who should use this guide
@@ -29,7 +29,7 @@ This guide is for a range of people building apps agentically on the ServiceNow 
     -   Seeking guidance on general guidelines for agentic development
     -   Evaluating which AI tools best fit your use case
 
-**Note:** Build Agent requires the admin role.
+**Note:** Build Agentand Autonomous Engineer require the admin role.
 
 ## What this guide covers
 
@@ -53,7 +53,7 @@ This guide focuses on agentic development tools and workflows. It does not cover
 -   Traditional ServiceNow development without AI assistance
 -   Detailed product-specific documentation \(links are provided to dedicated product docs\)
 
-For comprehensive product documentation, see the dedicated documentation for Build Agent, ServiceNow Otto for Creator, and other ServiceNow development tools.
+For comprehensive product documentation, see the dedicated documentation for Build Agent,Autonomous Engineer, ServiceNow Otto for Creator, and other ServiceNow development tools.
 
 ## Understanding your needs
 
@@ -64,6 +64,4 @@ As you explore this documentation, consider the following questions:
 -   Your use case: Are you building custom applications from scratch, extending existing ServiceNow functionality, or automating specific workflows?
 
 Different AI development approaches and tools will be better suited to different needs. This guide helps you identify the right approach for your situation.
-
-**Parent Topic:**[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/exploring-vibe-coding.md)
 

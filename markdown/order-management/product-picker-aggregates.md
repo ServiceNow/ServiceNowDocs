@@ -99,7 +99,7 @@ When you create a new aggregate, provide the following details:
 
 ## Configuring aggregates through the admin APIs
 
-For steps to create and configure an aggregate using API calls, see [Adding a product picker aggregate using APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-adding-a-product-picker-aggregate-using-apis.md).
+For steps to create and configure an aggregate using API calls, see [Adding a product picker aggregate using APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown).
 
 ## Viewing a product picker aggregate
 

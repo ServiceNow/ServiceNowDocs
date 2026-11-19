@@ -16,7 +16,7 @@ Learn how to write data to a third-party application suh as Salesforce by using 
 
 ## Prerequisites
 
-This article assumes that you have a ServiceNow CPQ environment that is integrated to a corresponding Salesforce environment. Before you continue, see [Installing the Salesforce Transaction Manager Integration Package extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.md) to complete the necessary integrations.
+This article assumes that you have a ServiceNow CPQ environment that is integrated to a corresponding Salesforce environment. Before you continue, see [Installing the Salesforce ServiceNow Quote Experience Integration Package extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/installing-the-salesforce-transaction-manager-integration-package-extension.md) to complete the necessary integrations.
 
 When the end user initiates a function that writes ServiceNow CPQ data back to the corresponding Salesforce transaction record, ServiceNow CPQ must have the Salesforce transaction’s record identifier on hand. To understand how to retrieve the Salesforce transaction ID and save it into ServiceNow CPQ for future use, see [ServiceNow Quote Experience Integration - GET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/transaction-manager-integration-get.md).
 

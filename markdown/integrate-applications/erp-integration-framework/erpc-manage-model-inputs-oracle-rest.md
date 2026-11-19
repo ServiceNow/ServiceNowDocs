@@ -115,3 +115,5 @@ Role required: sn\_erp\_integration.erp\_admin
     Model validation runs automatically when REST is the selected protocol.
 
 
+**Parent Topic:**[Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md)
+

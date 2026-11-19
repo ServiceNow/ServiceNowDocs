@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-10-16"
 reading_time_minutes: 3
-breadcrumb: [AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
 
 # Create an agentic workflow

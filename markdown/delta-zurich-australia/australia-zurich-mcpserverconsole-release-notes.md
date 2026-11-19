@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-mcpserverconsole-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -133,11 +133,11 @@ The ServiceNow AI Platform now brings you an AI native experience with three lic
 With this release, you can now create tools from additional categories like, Subflow, Action, REST APIs, Knowledge graphs and Now Assist skills.
 
 
- -   **[\[Placeholder link text to key create-a-tool-from-a-playbook\]](https://www.servicenow.com/docs/access?context=create-a-tool-from-a-playbook&family=australia&ft:locale=en-US)**
+ -   **[create a tool from a playbook](https://www.servicenow.com/docs/access?context=create-a-tool-from-a-playbook&family=australia&ft:locale=en-US)**
 
 Create a tool from a Playbook to expose it to Model Context Protocol \(MCP\) clients from MCP server.
 
--   **[\[Placeholder link text to key create-a-tool-from-a-search\]](https://www.servicenow.com/docs/access?context=create-a-tool-from-a-search&family=australia&ft:locale=en-US)**
+-   **[create a tool from a search](https://www.servicenow.com/docs/access?context=create-a-tool-from-a-search&family=australia&ft:locale=en-US)**
 
 Create a tool from a Search to expose it to Model Context Protocol \(MCP\) clients from MCP server.
 

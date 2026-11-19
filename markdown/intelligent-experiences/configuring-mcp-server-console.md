@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configuring-mcp-server-console.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-29"
 reading_time_minutes: 3
 keywords: [configure]
-breadcrumb: [MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [MCP Server Console, Enable AI experiences]
 ---
 
 # Configuring MCP Server Console

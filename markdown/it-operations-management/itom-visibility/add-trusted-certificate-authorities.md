@@ -19,7 +19,7 @@ Configure certificate authorities \(CAs\) that your organization trusts and acti
 
 ## Before you begin
 
-Role required: sn\_itom\_cac.admin
+Role required: Cryptographic Asset admin \(sn\_itom\_cac.admin\)
 
 ## Procedure
 
@@ -27,7 +27,7 @@ Role required: sn\_itom\_cac.admin
 
 2.  Select the Settings icon \[Omitted image "settings-display-icon.png"\] Alt text:.
 
-3.  If **Policies** is not already selected, select it in the **Settings** tab.
+3.  In the **Settings** tab, select **Policies** if it is not already selected.
 
 4.  In the Policy form, select **Certificate authority trust**.
 
@@ -37,17 +37,15 @@ Role required: sn\_itom\_cac.admin
 
     2.  In the Data sources panel, select **Add**.
 
-        **Note:** If the **Add** button is not visible, select **Create copy** to duplicate the policy version.
-
-    3.  Complete the fields in the Add API Variable dialog box.
+    3.  In the Add API Variable dialog box, fill in the fields.
 
         |Field|Description|
         |-----|-----------|
-        |Label|Display name for the variable, for example, `Trusted CA List`.|
+        |Label|Display name for the variable, for example`Trusted CA List`.|
         |Name|Internal name that the policy uses to reference the variable.|
-        |Type|Data type of the variable. Select **Data Array**.|
+        |Type|Data type of the variable, which should be Data Array.|
         |Mandatory|Option that determines whether a value is required for the variable.|
-        |Description|Notes about the variable.|
+        |Description|Optional notes about the variable.|
         |Default value|The CAs that your organization trusts, as a JSON array of quoted names. For example, `["Test CA 1","Test CA 2"]`.|
 
     4.  Select **Save**.

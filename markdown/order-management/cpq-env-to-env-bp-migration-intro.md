@@ -28,9 +28,9 @@ Because all maintenance and development must be tested in a non-production envir
 **Related topics**  
 
 
-[Migrate a blueprint from environment to environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-migrating-env-to-env.md)
+[Migrate a blueprint between environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-[Migrate a blueprint to an SFDC-integrated destination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-migrating-to-sfdc.md)
+[Migrate a blueprint to an SFDC-integrated destination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
 [The fullBlueprintMigration parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-fullblueprintmigration-param.md)
 

@@ -7,10 +7,10 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2024-12-19"
 reading_time_minutes: 1
 keywords: [Kubernetes discovery, Docker container, ITOM Licensing V4]
-breadcrumb: [Kubernetes discovery using patterns, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Disable Docker container CI discovery
@@ -26,7 +26,9 @@ Role required: discovery\_admin \(granted automatically with 2026 Packaging SKU\
 
 ## About this task
 
-In large environments, container instances can generate a high volume of CIs. The **sn\_itom\_pattern.bring\_discovery\_container** system property controls whether the Kubernetes, Kubernetes Event, Docker Pattern, and Amazon AWS - ECS patterns discover both Docker container and Docker image CIs, or only Docker image CIs.
+In large environments, container instances can generate a high volume of CIs. The **sn\_itom\_pattern.bring\_discovery\_container** system property controls discovery behavior for the Kubernetes, Kubernetes Event, Docker Pattern, and Amazon AWS - ECS patterns.
+
+Use this property to discover both Docker container and Docker image CIs, or only Docker image CIs.
 
 By default, the property is set to true and both Docker Container \[cmdb\_ci\_docker\_container\] and Docker Image \[cmdb\_ci\_docker\_image\] are populated. When set to false, only Docker Image \[cmdb\_ci\_docker\_image\] is populated.
 
@@ -49,5 +51,5 @@ By default, the property is set to true and both Docker Container \[cmdb\_ci\_do
 
 Run discovery again to apply the changes.
 
-**Parent Topic:**[Kubernetes discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/kubernetes-discovery.md)
+**Parent Topic:**[Discovery for containerized resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/container-discovery.md)
 

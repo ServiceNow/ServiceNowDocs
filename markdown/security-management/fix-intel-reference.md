@@ -20,3 +20,5 @@ Activating the Fix Intelligence for Security Exposure Management plugin \(`sn_vu
 -   **[Understanding Fix records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/understanding-fix-records.md)**  
 A Fix record represents a single remediation action that resolves one or more findings.
 
+**Parent Topic:**[Fix Intelligence for Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/fix-intel-for-usem-landing.md)
+

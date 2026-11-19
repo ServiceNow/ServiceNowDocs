@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Security auditable fields, Identity and Access Audit, Identity]
 ---
@@ -20,7 +20,7 @@ Configure tables and fields for Identity and Access Audit.
 
 Role required: security\_admin
 
-You must elevate your role to Security Admin to configure tables and fields for Identity and Access Audit.
+Your role must be elevated to Security Admin to configure tables and fields for Identity and Access Audit.
 
 The following tables can be configured for auditing​:
 
@@ -40,7 +40,7 @@ The following tables can be configured for auditing​:
 
 1.  Navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Configure Tables &amp; Fields**.
 
-2.  Select the table that you need to audit.
+2.  Select the table that you want to audit.
 
     For example, **sys\_user**.
 

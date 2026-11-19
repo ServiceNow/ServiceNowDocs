@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-edit-or-duplicate-published-value-template.html
 release: australia
 topic_type: task
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 1
-breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Value, Configure, Measure AI systems, Measure AI systems, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Edit a published value template
@@ -57,13 +57,13 @@ Draft
 </td></tr></tbody>
 </table>## Procedure
 
-1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Home**.
+1.  Navigate to **All** &gt; **Control Tower** &gt; **Home**.
 
 2.  Navigate to **Settings** &gt; **Rules and templates** &gt; **Templates** &gt; **All templates**.
 
 3.  Select the template that you want to edit.
 
-    To reuse a published template as a starting point, select **Duplicate template**.You can duplicate the template with or without its mapping records. The cloned template is created in the draft state, so you can edit all of its fields before you publish it.
+    To reuse a published template as a starting point, select **Duplicate template**.You can duplicate the template with or without its mapping records. The cloned template is created in the draft state, so you can edit all of its fields before you publish it.\[Omitted image "mv-edit-duplicate-value-template.png"\] Alt text: Published ITSM Incident Agents – Productivity template page showing the calculation overview, template details, two mapped agentic AI systems, and the Duplicate template and Edit template buttons.
 
 4.  Select **Edit template**.
 
@@ -73,11 +73,11 @@ Draft
 
     1.  To add a mapping, select an option from the **AI system type** list, select an option from the **AI system** list, and then select **Map AI systems**.
 
-        When you add an AI system, the AI Control Tower starts calculating value for it against this template.
+        When you add an AI system, Control Tower starts calculating value for it against this template.
 
-    2.  To remove the mapping, select \[Omitted image "image.ad-delete-icon"\] Alt text: Delete icon beside the AI system type that you want to delete.
+    2.  To remove the mapping, select \[Omitted image "ad-delete-icon.png"\] Alt text: Delete icon beside the AI system type that you want to delete.
 
-        Each deployed AI system must have a published template so that value calculation continues. When you map the AI system to another published template, the AI Control Tower retires the earlier mapping. A message explains this when you try to remove the only mapping.
+        Each deployed AI system must have a published template so that value calculation continues. When you map the AI system to another published template, Control Tower retires the earlier mapping. A message explains this when you try to remove the only mapping.
 
 7.  Select **Save**.
 

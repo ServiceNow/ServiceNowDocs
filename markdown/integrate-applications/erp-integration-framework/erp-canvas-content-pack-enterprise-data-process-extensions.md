@@ -25,3 +25,5 @@ The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Enterprise Data
 |Search for a material|Search for a material.|
 |Update material details|Update the description of an existing material and, optionally, update attributes such as sales data.|
 
+**Parent Topic:**[Zero Copy Connector for ERP Enterprise Data Foundation content pack for SAP master data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-enterprise-data-foundation-content-pack.md)
+

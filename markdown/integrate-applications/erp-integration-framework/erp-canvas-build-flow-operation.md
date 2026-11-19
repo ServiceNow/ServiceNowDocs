@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-10-22"
 reading_time_minutes: 4
 keywords: [zero copy connector for erp, use erp data action, workflow studio, build erp flow, test flow action, flow input parameters, filter erp data, read or update erp data]
-breadcrumb: [Build applications and flows with ERP data, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Building applications and flows with ERP data from Zero Copy Connector for ERP, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Building flows with the Zero Copy Connector for ERP Use ERP Data action
@@ -58,4 +58,6 @@ To use ERP data for processes or tasks outside of Zero Copy Connector for ERP, u
 
 
 **Note:** Zero Copy Connector for ERP appears as **ERP Integration** when you work with it in Workflow Studio.
+
+**Parent Topic:**[Building applications and flows with ERP data from Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-canvas-building-with-erp-data.md)
 

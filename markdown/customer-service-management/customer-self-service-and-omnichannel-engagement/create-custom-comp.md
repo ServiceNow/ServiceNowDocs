@@ -1,22 +1,24 @@
 ---
 title: Create a custom component
-description: Create a custom component to present information, capture user input, or offer interactive functionality on a third party website. You can also clone the existing component and customize it.
+description: Create a custom component to show information, capture user input, or add interactive features on a third-party website.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/create-custom-comp.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Update or create web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Create a custom component
 
-Create a custom component to present information, capture user input, or offer interactive functionality on a third party website. You can also clone the existing component and customize it.
+Create a custom component to show information, capture user input, or add interactive features on a third-party website.
 
 ## Before you begin
+
+You can also clone an existing component and customize it. For details, see [Clone a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/clone-comp.md).
 
 -   Beginning with the Zurich release, Component UI Builder is enabled by default in your instance.
 -   Existing customers on release versions before Zurich release, you must enable Component UI Builder in your instance by activating UI Builder plugin \(sn\_ui\_builder\) to create a custom component.
@@ -27,7 +29,7 @@ Role required: sn\_embeddable\_core.emb\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Web Embedabbles** &gt; **Homepage**.
+1.  Navigate to **All** &gt; **Web Embeddable** &gt; **Homepage**.
 
 2.  In the Manage components section, select **Create component**.
 

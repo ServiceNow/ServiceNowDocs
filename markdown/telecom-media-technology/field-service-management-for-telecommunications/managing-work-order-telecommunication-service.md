@@ -7,7 +7,7 @@ release: australia
 product: Field Service Management for Telecommunications
 classification: field-service-management-for-telecommunications
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Field Service Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -25,5 +25,5 @@ This feature supports the following:
 -   Fetch the details of a work order
 -   Cancel a work order
 
-The Telecommunication Open API application uses the TM Forum 697 Service Order Management API specification to create and manage work orders for the field services. To learn more, see [Work Order Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/work-order-mgmt-api.md).
+The Telecommunication Open API application uses the TM Forum 697 Service Order Management API specification to create and manage work orders for the field services. To learn more, see .
 

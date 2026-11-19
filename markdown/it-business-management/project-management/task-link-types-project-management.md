@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-18"
 reading_time_minutes: 1
 breadcrumb: [Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -23,12 +23,10 @@ Task links define the dependency relationship between tasks. Linking tasks creat
 |Finish-to-Finish|FF|Task B cannot finish until Task A finishes.|
 |Start-to-Finish|SF|Task B cannot finish until Task A starts.|
 
-**Parent Topic:**[Project Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-management-reference.md)
-
 **Related topics**  
 
 
-[Schedule a project from a start date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/schedule-a-project-pm.md)
+[Assign a project schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_UseAProjectSchedule.md)
 
-[Project scheduling in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-scheduling.md)
+[Project scheduling in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-schedules-tasks.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Navigating the Usage Insights for Web Embeddable application
-description: Learn how to navigate the Usage Insights application to view telemetry data for Web Embeddables. Access user analytics dashboards that display metrics organized by module and page to understand component user interactions across your external websites.
+description: Open the Usage Insights dashboards to see how users interact with Web Embeddables components, with metrics organized by module and page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/customer-self-service-and-omnichannel-engagement/we-user-analytics.html
 release: australia
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
 breadcrumb: [Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Navigating the Usage Insights for Web Embeddable application
 
-Learn how to navigate the Usage Insights application to view telemetry data for Web Embeddables. Access user analytics dashboards that display metrics organized by module and page to understand component user interactions across your external websites.
+Open the Usage Insights dashboards to see how users interact with Web Embeddables components, with metrics organized by module and page.
 
 Different users have different rights and privileges in the Usage Insights application. Users with any Usage Insights viewer role can access the Web Embeddables application by navigating to **All** &gt; **Platform Analytics** &gt; **Usage Insights**. Select the application name from the All Application list that matches the Web Embeddables module name. Analytics for each Web Embeddables module are tracked separately as individual applications. To track analytics for a module, include the Web Embeddables module ID with the page title in the global embed code.
 
@@ -24,7 +24,7 @@ When you launch Usage Insights it displays three tabs based on the selected All 
 
 -   **Overview**
 
-    The Overview tab allows you to view aggregate usage within a given time frame across all your tracked components. There are number of filters you can configure to see scores for Active users, Sessions, and Average session duration, as well as a list showing usage by individual components.
+    The Overview tab displays aggregate usage within a given time frame across all tracked components. You can configure filters to see scores for Active users, Sessions, and Average session duration, and view usage by individual components.
 
 -   **Dashboard**
 

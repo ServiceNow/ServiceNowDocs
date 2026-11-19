@@ -7,7 +7,7 @@ release: australia
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Manage Walk-up Experience queue and interactions, Walk-up Experience, IT Service Management]
 ---
@@ -43,7 +43,7 @@ The agents can view associated walk-up location stockrooms in following ways:
 
     For example, you can select **Consumables** to see a list of all available consumables. The inventory list tabs include the following.
 
-<table id="choicetable_u5y_21l_f2b"><tbody><tr><td id="d265493e152">
+<table id="choicetable_u5y_21l_f2b"><tbody><tr><td id="d260721e152">
 
 **Hardware**
 
@@ -51,7 +51,7 @@ The agents can view associated walk-up location stockrooms in following ways:
 
 Cables, connectors, batteries, and more.
 
-</td></tr><tr><td id="d265493e161">
+</td></tr><tr><td id="d260721e161">
 
 **Consumables**
 
@@ -59,7 +59,7 @@ Cables, connectors, batteries, and more.
 
 Computer monitors, video equipment, tablets, laptops, computer mouse, and more.
 
-</td></tr><tr><td id="d265493e170">
+</td></tr><tr><td id="d260721e170">
 
 **Software Licenses**
 
@@ -67,7 +67,7 @@ Computer monitors, video equipment, tablets, laptops, computer mouse, and more.
 
 Available software programs and tools.
 
-</td></tr><tr><td id="d265493e179">
+</td></tr><tr><td id="d260721e179">
 
 **Other Assets**
 

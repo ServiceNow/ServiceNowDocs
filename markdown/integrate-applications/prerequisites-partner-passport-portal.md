@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/prerequisites-partner-passport-portal.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-23"
+last_updated: "2026-10-29"
 reading_time_minutes: 1
 keywords: [Partner Passport Portal, prerequisites, Boomi]
 breadcrumb: [Boomi partner application, Partner Passport Portal, Workflow Data Fabric]

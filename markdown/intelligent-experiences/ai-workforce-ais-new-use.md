@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-10-13"
 reading_time_minutes: 1
 keywords: [use ai specialist, use ai workforce, use autonomous workforce, ai specialist performance, ai specialist activity, ai specialist management, ai specialist copy, ai specialist deactivate]
-breadcrumb: [Use, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Use, Autonomous Workforce, Enable AI experiences]
 ---
 
 # Use AI specialists in AI Agent Studio

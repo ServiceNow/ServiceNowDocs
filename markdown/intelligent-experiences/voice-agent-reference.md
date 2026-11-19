@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/voice-agent-reference.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2025-08-14"
 reading_time_minutes: 15
-breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # AI voice agent reference
@@ -175,7 +175,7 @@ Interactions
 
 </td><td>
 
-The Interactions table is similar to sys\_cs\_conversation and is created at the same time as the conversation record. It contains much of the same information related to the voice call.
+The Interactions table is similar to sys\_cs\_conversation and is created at the same time as the conversation record. It contains much of the same information related to the voice call.The Call Reason field stores the reason for the call that the contact center provided before the call reached the voice assistant. Values longer than 500 characters are truncated. If the contact center doesn't provide a reason, the field is empty.
 
 </td></tr><tr><td>
 

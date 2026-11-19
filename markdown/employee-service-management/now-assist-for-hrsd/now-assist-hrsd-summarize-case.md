@@ -7,8 +7,8 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-03-12"
+reading_time_minutes: 6
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
@@ -17,6 +17,8 @@ breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \
 Quickly understand the case context and respond to inquiries by using the case summarization skill.
 
 ## Before you begin
+
+[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md).
 
 Role required: sn\_hr\_core.case\_writer
 
@@ -49,15 +51,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
     -   Canceled or Suspended: Summary isn’t visible
 5.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d506606e170">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d508706e188">
 
 Option
 
-</th><th align="left" id="d506606e173">
+</th><th align="left" id="d508706e191">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d506606e179">
+</th></tr></thead><tbody><tr><td id="d508706e197">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -68,7 +70,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d506606e209">
+</td></tr><tr><td id="d508706e227">
 
 **Expand or collapse the summary**
 
@@ -76,7 +78,7 @@ Procedure
 
 Select the **Show more** or **Show less** button to see more or fewer summary details.
 
-</td></tr><tr><td id="d506606e224">
+</td></tr><tr><td id="d508706e242">
 
 **Provide feedback for the summary**
 
@@ -84,7 +86,7 @@ Select the **Show more** or **Show less** button to see more or fewer summary de
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d506606e247">
+</td></tr><tr><td id="d508706e265">
 
 **Copy the case summary**
 
@@ -92,7 +94,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d506606e263">
+</td></tr><tr><td id="d508706e281">
 
 **View the information about the case summary**
 

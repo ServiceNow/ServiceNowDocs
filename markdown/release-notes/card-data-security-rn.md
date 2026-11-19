@@ -1,18 +1,18 @@
 ---
-title: Card Data Security release notes
-description: The ServiceNow Card data security application helps you tokenize sensitive data in card disputes, such as primary account numbers \(PANs\) and documents, in Financial Services Operations dispute workflows. Card data security was enhanced and updated in the Brazil release.View, select, and download individual files within a ZIP attachment directly in the Disputes workspace, without leaving the platform.
+title: Card data security release notes
+description: The ServiceNow Card data security application helps you tokenize sensitive data in card disputes, such as primary account numbers \(PANs\) and documents, in Financial Services Operations dispute workflows. Card data security was enhanced and updated in the Australia release.The ServiceNow Card data security application helps you tokenize sensitive data in card disputes, such as primary account numbers \(PANs\) and documents, in Financial Services Operations dispute workflows. Card data security was enhanced and updated in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/card-data-security-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
-# Card Data Security release notes
+# Card data security release notes
 
-The ServiceNow® Card data security application helps you tokenize sensitive data in card disputes, such as primary account numbers \(PANs\) and documents, in Financial Services Operations dispute workflows. Card data security was enhanced and updated in the Brazil release.
+The ServiceNow® Card data security application helps you tokenize sensitive data in card disputes, such as primary account numbers \(PANs\) and documents, in Financial Services Operations dispute workflows. Card data security was enhanced and updated in the Australia release.
 
 ## About Card data security
 
@@ -32,14 +32,33 @@ See [Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 **Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/financial-services-operations-rn-landing.md)
 
-## Version 2.2.1
+## Australia
 
-View, select, and download individual files within a ZIP attachment directly in the Disputes workspace, without leaving the platform.
+The ServiceNow® Card data security application helps you tokenize sensitive data in card disputes, such as primary account numbers \(PANs\) and documents, in Financial Services Operations dispute workflows. Card data security was enhanced and updated in the Australia release.
 
 ### What's new
 
--   **[View files in ZIP attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/manage-attachments-in-card-data-security.md)**
+-   **[View documents in the tokenizer service vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/card-data-security-component.md)**
 
-    Preview and download individual files within a ZIP attachment directly in the Merchant tab of the Disputes workspace. Select a file from the file list to preview it, then download it if you need a copy.
+    Use the Card data security container to display documents in the tokenizer service vault without storing sensitive documents in your ServiceNow instance.
+
+-   **[PAN display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/reveal-a-pan-using-card-data-security.md)**
+
+    Display, mask, or redact PAN values in the workspace with the Card data security container.
+
+-   **[Updated attachment panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/manage-attachments-in-card-data-security.md)**
+
+    View external documents from card networks, acquirers, and merchants at the transaction level of a dispute, which are stored in the tokenizer service vault.
+
+-   **[Mastercard and Visa integration updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/spokes.md)**
+
+    Updated Mastercard and Visa actions and integrations to support document download in Card data security.
+
+
+### What's changed
+
+-   **[Attachments panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/manage-attachments-in-card-data-security.md)**
+
+    A UI builder page has been added to display external documents from card networks, acquirers, and merchants at the transaction level when Card data security is installed.
 
 

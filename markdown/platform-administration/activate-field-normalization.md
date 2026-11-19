@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/activate-field-normalization.html
 release: australia
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ Activate the Field Normalization \[com.snc.field\_normalization\] plugin to inst
 
 ## Before you begin
 
-Role required: admin.
+Role required: normalizer
 
 ## Procedure
 
@@ -36,5 +36,5 @@ Role required: admin.
 **Related topics**  
 
 
-[List of plugins \(Brazil\)]()
+[List of plugins \(Australia\)]()
 

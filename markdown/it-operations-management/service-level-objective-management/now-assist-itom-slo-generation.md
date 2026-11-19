@@ -25,7 +25,7 @@ The SLO creator agent requires ServiceNow Otto for ITOM and Service Reliability 
 2.  For each service or CI, the agent analyzes critical alerts, incidents, and outages, including data from related CIs.
 3.  The agent uses existing availability commitments, when available, or business criticality to determine the SLO target.
 4.  For every service or CI that it analyzes, the agent generates one SLO with up to 10 SLIs.
-5.  The relevant team manager receives an email when the SLO is generated.
+5.  The relevant team manger receives an email when the SLO is generated.
 6.  The generated SLO is active by default and the assigned team receives an email when the error budget falls to 25% or below.
 
     SRM managers and responders can review, edit, or turn off generated SLOs.
@@ -43,7 +43,7 @@ Access the SLO creator agent in AI Agent Studio to manage security controls or d
 2.  Select the **AI agents** tab.
 3.  Select **SLO Creator Agent**.
 
-The SLO Creator Agent page lets you manage the agent, including defining security controls. To modify the agent, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-aia-usecase.md) and adjust the settings.
+The SLO Creator Agent page lets you manage the agent, including defining security controls. To modify the agent, duplicate it and adjust the settings.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 

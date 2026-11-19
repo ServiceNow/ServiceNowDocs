@@ -18,6 +18,8 @@ Learn about the terms and concepts used in Zero Copy Connector for ERP.
 
 **Important:** Starting with the Zurich release, ERP Semantic Mining is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
+**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/erp-integration-framework/erp-integration-reference.md)
+
 ## BAPI
 
 ## candidate

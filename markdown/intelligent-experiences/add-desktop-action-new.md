@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/add-desktop-action-new.html
 release: australia
 topic_type: task
-last_updated: "2026-10-23"
-reading_time_minutes: 6
+last_updated: "2026-06-05"
+reading_time_minutes: 7
 keywords: [desktop action, AI agent tool, agentic desktop, Desktop action parameter record]
-breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio, Enable AI experiences]
 ---
 
 # Add a desktop action tool to an AI agent
@@ -17,7 +17,7 @@ Add a desktop action as a tool to an AI agent so that AI agents can automate tas
 
 ## Before you begin
 
-Familiarize yourself with desktop actions. For more information, see  documentation.
+Familiarize yourself with desktop actions. For more information, see [AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/agentic-desktop-landing-page.md) documentation.
 
 Role required: sn\_aia.admin
 
@@ -28,7 +28,7 @@ Desktop actions are tools that AI agents use to interact with web and desktop ap
 -   Create a defined desktop action in the AI Desktop Actions client application on the Windows machine, then add it as a tool to an AI agent.
 -   Configure an adaptive desktop action in AI Agent Studio during AI agent tool configuration.
 
-For more information about executing desktop actions, see .
+For more information about executing desktop actions, see [Examples of executing desktop actions using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/use-agentic-desktop.md).
 
 ## Procedure
 
@@ -36,15 +36,15 @@ For more information about executing desktop actions, see .
 
 2.  Choose one of the following options.
 
-<table id="choicetable_hlg_gzl_lkc"><thead><tr><th align="left" id="d188721e123">
+<table id="choicetable_hlg_gzl_lkc"><thead><tr><th align="left" id="d208461e137">
 
 Option
 
-</th><th align="left" id="d188721e126">
+</th><th align="left" id="d208461e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d188721e132">
+</th></tr></thead><tbody><tr><td id="d208461e146">
 
 **An existing one**
 
@@ -61,7 +61,7 @@ When you add an on-screen task desktop action, additional fields require configu
 -   **Background tasks**: These actions include prebuilt connectors that enable your AI agents to interact with applications and system components in the background. These connectors streamline automation by offering actions for common tasks, reducing the need for complex scripting. Each connector focuses on a specific application or system area and provides a collection of related methods. You can't create background task actions.
 
 
-</td></tr><tr><td id="d188721e174">
+</td></tr><tr><td id="d208461e188">
 
 **A new desktop action**
 
@@ -72,15 +72,15 @@ Option to create a defined or adaptive desktop action. For more information, see
 </td></tr></tbody>
 </table>3.  If creating a new desktop action, select how you want to create it.
 
-<table id="choicetable_em4_fbm_lkc"><thead><tr><th align="left" id="d188721e192">
+<table id="choicetable_em4_fbm_lkc"><thead><tr><th align="left" id="d208461e206">
 
 Option
 
-</th><th align="left" id="d188721e195">
+</th><th align="left" id="d208461e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d188721e201">
+</th></tr></thead><tbody><tr><td id="d208461e215">
 
 **Let AI determine the steps dynamically**
 
@@ -90,15 +90,15 @@ Option to configure adaptive desktop actions that enable the AI agent to plan ex
 
 -   **Desktop applications**: AI agents run these desktop actions in the AI Desktop Actions client application on the macOS machine.
 
-For more information, see .
+For more information, see [Adaptive desktop actions for desktop and web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai_desktop_actions_adaptive.md).
 
 **Warning:** This is a beta feature in this release. Functionality, behavior, and execution logic may change in subsequent releases. Test these desktop actions thoroughly in a test environment before deploying to production. Report issues or feedback through your support channels.
 
 -   **Web based applications**: AI agents run these desktop actions in the Google Chrome browser through a browser extension.
 
-For more information, see .
+For more information, see [Adaptive desktop actions for web-based tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/web-agents-overview.md).
 
-</td></tr><tr><td id="d188721e245">
+</td></tr><tr><td id="d208461e270">
 
 **Record a fixed sequence of steps**
 

@@ -7,7 +7,7 @@ release: australia
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Generative AI for IT Operations Management, Generative AI for ITOM, Service Observability dashboard analysis, Now Assist panel]
 breadcrumb: [Monitoring and investigating, Service Observability, ITOM AIOps, IT Operations Management]
@@ -21,7 +21,7 @@ Use the analyze Service Observability dashboard skill to view an analysis of a s
 
 The analyze Service Observability dashboard skill uses generative AI to summarize a single Service Observability dashboard, including calling out insights found in the charts. This summary helps operators quickly orient to and understand a particular dashboard.
 
-When you ask the skill to analyze a dashboard, it generates an optimized version of the Service Observability charts on the dashboard and analyzes the data, taking the time period shown into account. It then reports any insights it finds.
+When you ask the skill to analyze a dashboard, it generates an optimized version of the Service Observability charts on the dashboard. It analyzes the data for the displayed time period and reports any insights it finds.
 
 \[Omitted image "so\_NADashboard.png"\] Alt text: The skill found two insights on the Service dashboard
 

@@ -7,7 +7,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -67,6 +67,8 @@ Role required: sn\_msi.workspace\_manager and sn\_msi.workspace\_responder
 [Update Major Security Incident details]()
 
 [Unlink records from Major Security Incident]()
+
+[]()
 
 [Manage tasks in a Major Security Incident]()
 

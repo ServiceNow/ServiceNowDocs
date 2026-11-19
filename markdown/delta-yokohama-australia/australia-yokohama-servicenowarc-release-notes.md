@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-servicenowarc-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-11-06"
+last_updated: "2026-11-19"
 reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
@@ -254,9 +254,9 @@ User initiated requests consumes assists, recorded in the generative AI log unde
 
 ServiceNow Arc now supports Windows. On Windows desktop, the Arc application acts as an AI agent that plans and runs multi-step tasks across your enterprise applications, within the governance and security policies your administrators define.
 
--   **[Arc policies in AI Control Tower](https://www.servicenow.com/docs/access?context=manage-arc-policies-aict&family=australia&ft:locale=en-US)**
+-   **[Arc policies in Control Tower](https://www.servicenow.com/docs/access?context=manage-arc-policies-aict&family=australia&ft:locale=en-US)**
 
-Administrators author and manage ServiceNow Arc agent policies in AI Control Tower, on the **Arc policies** tab under **Govern** &gt; **Policies**.
+Administrators author and manage ServiceNow Arc agent policies in Control Tower, on the **Arc policies** tab under **Govern** &gt; **Policies**.
 
 -   **[MCP servers managed by administrators](https://www.servicenow.com/docs/access?context=add-mcp-server-arc&family=australia&ft:locale=en-US)**
 
@@ -471,7 +471,7 @@ Zurich
 
 -   **Activation information**
 
-Install ServiceNow Arc by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install ServiceNow Arc by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Note:** ServiceNow Arc is available in the ServiceNow Store. For details, see the activation information below.
@@ -484,7 +484,7 @@ Australia
 
 -   **Activation information**
 
-Install ServiceNow Arc by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
+Install ServiceNow Arc by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Note:** ServiceNow Arc is available in the ServiceNow Store. For details, see the activation information below.

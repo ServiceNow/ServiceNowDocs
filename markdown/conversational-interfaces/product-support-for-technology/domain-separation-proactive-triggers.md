@@ -9,7 +9,7 @@ classification: product-support-for-technology
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Proactive Triggers reference, Proactive Triggers, Manage people and work, Conversational Interfaces]
+breadcrumb: [Reference, Proactive Triggers, Manage people and work, Conversational Interfaces]
 ---
 
 # Domain separation and Proactive Triggers
@@ -28,11 +28,11 @@ Sample use case: When a service provider \(SP\) uses chat to respond to a tenant
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-separated-apps.md).
 
-## Overview
+## Support level
 
 The Proactive Triggers rich text pop-up messages provide users with actions according to real-time Proactive Triggers data. Domain separation is enabled and supported at the basic level.
 
-## How domain separation works in Proactive Triggers
+## Domain separation in Proactive Triggers
 
 Each domain has its own set of rules and trigger types that are evaluated independently of other domains.
 

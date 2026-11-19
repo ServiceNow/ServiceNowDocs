@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/reviewing-ai-asset-status.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-28"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+breadcrumb: [Working with AI asset records, Discover and manage AI assets, Super Intelligence Control Tower, Enable AI experiences]
 ---
 
 # Reviewing AI asset status
@@ -63,7 +63,7 @@ Track the productivity, usage, and returns this asset has delivered over a selec
 Review this asset's activity stream from the **Activity** list. Use the filter and settings controls to narrow the stream to the activity types you want to review.
 
 -   **[Recommendations for your AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/recommendations-aisteward-newexperience.md)**  
-Recommendations for AI assets are automatically generated for you to review and act on.
+Recommendations for AI assets are automatically generated in Super Intelligence Control Tower for you to review and act on.
 -   **[Deactivate a managed AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-contain-managed-asset.md)**  
 Deactivate a managed AI agent directly from its asset record using kill switch protocol, even if the agent has no associated security event.
 

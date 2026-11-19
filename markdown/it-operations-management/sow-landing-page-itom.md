@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/sow-landing-page-itom.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Service Operations Workspace ITOM subscriptions]
 breadcrumb: [Explore, ITOM AIOps, IT Operations Management]
@@ -23,7 +23,7 @@ For information regarding subscriptions for ITOM Service Operations Workspace, c
 
 When setting up the Service Operations Workspace, it's crucial to configure both IT Operations Management \(ITOM\) for managing alerts and IT Service Management \(ITSM\) for resolving incidents and delivering services. This integrated setup ensures access to the full range of features, facilitating comprehensive management of IT operations and service quality.
 
-To know about the ITSM features, see [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/sow-landing-page.md).
+To know about the ITSM features, see .
 
 ## Request apps on the Store
 

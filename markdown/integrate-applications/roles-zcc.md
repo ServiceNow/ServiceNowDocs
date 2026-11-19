@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/roles-zcc.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Reference, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -36,7 +36,7 @@ None.
 
 ### Special considerations
 
-A user with the df\_connection\_admin role can create and manage connections in Zero Copy Connector Hub, and can also create and manage data fabric tables just like a user with the a role that contains the df\_data\_steward role.
+A user with the df\_connection\_admin role can create and manage connections in Zero Copy Connector Hub, and can also create and manage data fabric tables just like a user with a role that contains the df\_data\_steward role.
 
 ## Data steward \[df\_data\_steward\]
 

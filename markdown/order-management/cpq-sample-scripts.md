@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/cpq-sample-scripts.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Setting up enrichments and rules scripting, ServiceNow CPQ Configur
 
 View a selection of commonly requested sample scripts.
 
-This article shows some commonly requested sample scripts. If you would like to see more examples, please send a message to [documentation@logik.io](mailto:documentation@logik.io) with your suggestions.
+This article shows some commonly requested sample scripts.
 
 Sample number field determination:
 
@@ -197,5 +197,5 @@ if (yourVariable.includes("CU")) {
 **Related topics**  
 
 
-[ServiceNow CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/cpq-logik-io-scripting-language-reference.md)
+[ServiceNow CPQ scripting language reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 

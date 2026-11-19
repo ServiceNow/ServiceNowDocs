@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-reference-landing.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-28"
-reading_time_minutes: 2
+last_updated: "2025-07-31"
+reading_time_minutes: 1
 keywords: [Now Assist, reference, user roles, data usage, domain separation, Generative AI, Gen AI]
-breadcrumb: [AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [AI Admin Hub, Enable AI experiences]
 ---
 
 # AI Admin Hub reference
@@ -25,8 +25,8 @@ Domain separation is supported for ServiceNow Otto panel. Domain separation enab
 The Now Assist Conversational Help skills architecture solves latency by fetching answers hosted at the nearest location, which is best suited to the user.
 -   **[AI Admin Hub roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/roles-installed-with-now-assist-admin.md)**  
 Certain roles are required to use AI Admin Hub functionality. The base admin \(sys\_admin\) role does not automatically grant or include the following roles, so assign these directly to users who require them.
--   **[User data usage policy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/user-data-usage-policy-now-assist.md)**  
-Now Assist is designed to keep user data safe and secure. You can also mask sensitive data or opt-out of sharing data for model improvements.
+-   **[User data usage policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/user-data-usage-policy-now-assist.md)**  
+Your data is safe and secure with ServiceNow user data usage policy for generative AI. You can also mask sensitive data or opt-out of sharing data for model improvements.
 -   **[Troubleshoot an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/troubleshoot-a-now-assist-skill.md)**  
 Run diagnostics for a skill on the AI Admin Hub console to get information about the status of your skill configuration. The availability of diagnostics depends on the skill.
 -   **[ServiceNow Otto panel system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nap-sys-props.md)**  

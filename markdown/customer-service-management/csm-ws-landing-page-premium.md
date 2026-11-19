@@ -1,37 +1,37 @@
 ---
-title: CSM landing page - Premium
-description: The CSM landing page - Premium provides users with lists of assigned cases and case tasks and agent, group, and organization metrics.
+title: CSM Landing Page - Premium
+description: The CSM Landing Page - Premium provides users with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-ws-landing-page-premium.html
 release: australia
 topic_type: concept
-last_updated: "2026-10-22"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Landing pages, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
+breadcrumb: [Landing pages, CSM Configurable Workspace features, CSM Configurable Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# CSM landing page - Premium
+# CSM Landing Page - Premium
 
-The CSM landing page - Premium provides users with lists of assigned cases and case tasks and agent, group, and organization metrics.
+The CSM Landing Page - Premium provides users with lists of assigned cases and case tasks as well as agent, group, and organization metrics.
 
-Customer service agents and managers can use the CSM landing page - Premium to quickly scan and prioritize work, access records, and track performance. Administrators can customize landing pages in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/using-ui-builder.md) to meet their unique business needs.
+Customer service agents and managers can use the CSM Landing Page - Premium to quickly scan and prioritize work, access records, and track performance. Administrators can customize landing pages in [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/using-ui-builder.md) to meet their unique business needs.
 
-The CSM landing page - Premium includes components that display case information, plus visualizations that further break down the component data. For example, the **High priority cases** component includes visualizations for P1 and escalated cases, plus cases that need attention. It also includes additional indicators and visualizations in the **Performance** and **Organization's Performance** sections. Each of the visualizations is connected to a data source.
+The CSM Landing Page - Premium includes components that display case information, plus visualizations that further break down the component data. For example, the **High priority cases** component includes visualizations for P1 and escalated cases, plus cases that need attention. It also includes additional indicators and visualizations in the **Performance** and **Organization's Performance** sections. Each of the visualizations is connected to a data source.
 
-The CSM landing page - Premium is available with the following plugins:
+The CSM Landing Page - Premium is available with the following plugins:
 
--   CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)
+-   CSM Configurable Workspace \(sn\_csm\_wrkspc\)
 -   Performance Analytics - Content Pack - Customer Service Management - Advanced \(com.snc.pa.customer\_service\_advanced\)
 
-**Note:** Upgrade customers who haven't customized the existing CRM Workspace landing page are automatically upgraded to the landing page available with the Brazil release. Upgrade customers who have customized the existing CRM Workspace landing page must manually accept the Brazil landing page.
+**Note:** Upgrade customers who haven’t customized the existing CSM Configurable Workspace landing page are automatically upgraded to the landing page available with the Australia release. Upgrade customers who have customized the existing CSM Configurable Workspace landing page must manually accept the Australia landing page.
 
-\[Omitted image "csm-config-ws-polaris-case-section.png"\] Alt text: Landing page to track your active cases and important items. For the text description, refer to the CSM landing page and CSM landing page - Premium sections and components table.
+\[Omitted image "csm-config-ws-polaris-case-section.png"\] Alt text: Landing page to track your active cases and important items. For the text description, refer to the CSM Landing Page and CSM Landing Page - Premium sections and components table.
 
-\[Omitted image "csm-config-ws-polaris-performance-section.png"\] Alt text: Landing page with agent and organization performance data. For the text description, refer to the CSM landing page and CSM landing page - Premium sections and components table.
+\[Omitted image "csm-config-ws-polaris-performance-section.png"\] Alt text: Landing page with agent and organization performance data. For the text description, refer to the CSM Landing Page and CSM Landing Page - Premium sections and components table that follows.
 
-## CSM landing page - Premium sections and components
+## CSM Landing Page - Premium sections and components
 
-The CSM landing page includes different sections and components that display important items, record lists, and performance data.
+The CSM Landing Page includes different sections and components that display important items, record lists, and performance data.
 
 <table id="table_j5g_b4d_gsb"><thead><tr><th>
 
@@ -94,18 +94,18 @@ Organization's Performance
 This section includes indicators that track the organization's performance. -   **CSAT**: Customer satisfaction score for the last 7 days.
 -   **New vs closed cases**: Daily aggregation of new and closed cases for the last 7 days.
 
-Select an indicator to view a KPI details page.**Note:** This section is available for the CSM landing page - Premium, which requires activation of the Performance Analytics - Content Pack - Customer Service Management - Advanced plugin.
+Select an indicator to view a KPI details page.**Note:** This section is available for the CSM Landing Page - Premium, which requires activation of the Performance Analytics - Content Pack - Customer Service Management - Advanced plugin.
 
 </td></tr></tbody>
-</table>## Creating landing pages for CRM Workspace
+</table>## Create a landing page for CSM Configurable Workspace
 
-Use UI Builder to create landing pages for your agents. For more information, see [Create a CRM Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-landing-page.md).
+Use UI Builder to create landing pages for your agents. For more information, see [Create a CSM Configurable Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/config-csm-config-ws-landing-page.md).
 
-## Creating multiple landing pages
+## Create multiple landing pages
 
 You can create multiple landing pages. However, only a single landing page is displayed for a user. The landing page that is displayed for you depends on the following settings:
 
 -   The setting of the **Active** field. This field must be set to true for a landing page to be displayed.
 -   The **Order** of the landing page. Pages with a lower-order value take precedence over pages with a higher-order value.
--   Permissions, if defined, determine whether you can see a landing page based on your role or assignment group membership. Multiple roles and assignment group conditions are treated as OR conditions.
+-   If permissions are defined, you can see a landing page if you have the required role or are a member of the required assignment group. Multiple roles and assignment group conditions are treated as OR conditions.
 

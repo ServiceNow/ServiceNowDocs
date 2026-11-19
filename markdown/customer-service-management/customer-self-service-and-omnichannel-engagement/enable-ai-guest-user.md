@@ -9,7 +9,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Feature configuration, Set up Engagement Messenger, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Feature configuration, Engagement Messenger, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Enable AI Search in Engagement Messenger for unauthenticated users

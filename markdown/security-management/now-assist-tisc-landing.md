@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/now-assist-tisc-landing.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-05-12"
 reading_time_minutes: 3
 breadcrumb: [Security Operations]
 ---

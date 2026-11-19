@@ -9,7 +9,7 @@ classification: system-update-sets
 topic_type: task
 last_updated: "2026-10-27"
 reading_time_minutes: 2
-breadcrumb: [Working with update sets, System update sets, Deploying applications, Classic app development, Building applications]
+breadcrumb: [Working with update sets, System update sets, Deploying applications, Building applications]
 ---
 
 # Retrieve an update set

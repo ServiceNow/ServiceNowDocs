@@ -20,7 +20,7 @@ Make actionable decisions faster by combining relevant reports and widgets onto 
 
 Role required: Any user who can create a report can add it to a responsive dashboard.
 
-This topic refers to Reporting in the Core UI. If your instance is a new Brazil instance or migrated to Platform Analytics experience, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dashboard-tasks.md).
+This topic refers to Reporting in the Core UI. If your instance is a new Australia instance or migrated to Platform Analytics experience, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/common-dashboard-tasks.md).
 
 Watch this eight-minute video to learn about generating reports, creating reports in the Report Designer, and sharing and scheduling reports.
 

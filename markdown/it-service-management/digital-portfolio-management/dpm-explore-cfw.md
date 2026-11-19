@@ -7,7 +7,7 @@ release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-28"
 reading_time_minutes: 6
 breadcrumb: [Digital Portfolio Management, IT Service Management]
 ---
@@ -33,7 +33,7 @@ The DPM Workspace enables you to:
 
 |User|Description|
 |----|-----------|
-|DPM admin|The DPM admin role sets up the DPM Workspace environment, including the tabs that show, key performance indicator \(KPI\) groups and thresholds, and integrations with other ServiceNow and third party applications.|
+|DPM admin|The DPM admin role sets up the DPM Workspace environment, including the tabs that show, key performance indicator \(KPI\) groups and thresholds, and integrations with other ServiceNow and third-party applications.|
 |DPM manager|The DPM manager role works in the DPM Workspace environment to view all solutions and their KPI metrics.|
 
 ## Digital Portfolio Management workflow

@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Identity Center for users, Identity Center, Identity]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Identity Center for users, Identity Center, Identity]
 
 Provide details about your registered mobile devices on the ServiceNow instance.
 
-The Registered Mobile Devices tab in the Identity Center displays the details about your registered devices that were used to access the ServiceNow instance.
+The **Registered Mobile Devices** tab in the Identity Center displays the details about your registered devices that were used to access the ServiceNow instance.
 
 If the Adaptive Authentication module is enabled and a registered mobile device is enrolled, the Identity Center displays the details about your registered devices.
 

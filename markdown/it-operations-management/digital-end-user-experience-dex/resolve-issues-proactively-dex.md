@@ -1,20 +1,20 @@
 ---
-title: Proactive issue resolution with DEX
-description: Digital End-User Experience \(DEX\) detects and resolves device and application issues before users report them, which reduces disruptions for employees.
+title: Resolve issues proactively with DEX Proactive Resolution
+description: Use ServiceNow, Inc. Digital End-User Experience \(DEX\) to detect and resolve device and application issues before users report them, reducing disruptions and improving the end-user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/resolve-issues-proactively-dex.html
 release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-05-13"
 reading_time_minutes: 2
-breadcrumb: [Solve issues, Digital End-User Experience, IT Operations Management]
+breadcrumb: [Digital End-User Experience, IT Operations Management]
 ---
 
-# Proactive issue resolution with DEX
+# Resolve issues proactively with DEX Proactive Resolution
 
-Digital End-User Experience \(DEX\) detects and resolves device and application issues before users report them, which reduces disruptions for employees.
+Use ServiceNow, Inc. Digital End-User Experience \(DEX\) to detect and resolve device and application issues before users report them, reducing disruptions and improving the end-user experience.
 
 DEX supports two proactive resolution strategies depending on how quickly an issue must be addressed:
 
@@ -43,10 +43,10 @@ Proactive resolution is a way DEX helps you resolve device and application issue
 
 -   **Custom insights reports and bulk remediation**
 
-    Identify a population of devices that meet a condition and remediate them as a group. See [Create an insights report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/create-insights-report.md), [Trigger bulk remediation from Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/trigger-bulk-remediation-insights.md), and [Creating DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-remedial-actions.md) for more details.
+    Identify a population of devices that meet a condition and remediate them as a group. See [Create an insights report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/create-insights-report.md), [Trigger bulk remediation from Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/trigger-bulk-remediation-insights.md), and [DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-remedial-actions.md) for more details.
 
 -   **Metric Analyzer**
 
-    Investigate device and application metrics interactively when no metric rule has been authored yet. See [View collected metrics with Metrics analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/view-dex-metrics.md) and [Creating DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-remedial-actions.md) for more details.
+    Investigate device and application metrics interactively when no metric rule has been authored yet. See [View collected metrics with Metrics analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/view-dex-metrics.md) and [DEX remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/digital-end-user-experience-dex/dex-remedial-actions.md) for more details.
 
 

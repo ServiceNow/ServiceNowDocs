@@ -1,20 +1,20 @@
 ---
 title: Standard change catalog
-description: Standard changes are pre-approved, low-risk changes with a proven history of success. The standard change catalog contains the changes that have been approved by the Change Management application as standard changes.
+description: Request, review, and approve standard change templates and pre-approved, low-risk standard changes from the standard change catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/service-operations-workspace/standard-change-catalog-sow.html
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Standard change catalog
 
-Standard changes are pre-approved, low-risk changes with a proven history of success. The standard change catalog contains the changes that have been approved by the Change Management application as standard changes.
+Request, review, and approve standard change templates and pre-approved, low-risk standard changes from the standard change catalog.
 
 The standard change catalog enables you to perform the following activities:
 
@@ -22,7 +22,7 @@ The standard change catalog enables you to perform the following activities:
 -   Request pre-approved standard changes.
 -   Determine access to standard change templates at the user level.
 
-    **Note:** You must have read access to the standard change template. Make sure you have the correct roles to access the templates.
+    **Note:** You must have read access to the standard change template. Please ensure you have the correct roles to access the templates.
 
 
 You can propose, modify, and retire standard change templates based on the requirements of your organization.

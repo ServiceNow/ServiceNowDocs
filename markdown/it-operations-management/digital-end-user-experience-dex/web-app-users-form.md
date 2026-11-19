@@ -1,5 +1,5 @@
 ---
-title: Web application Devices page
+title: Web application — Devices page
 description: The Active devices and Impacted devices lists display device details, recent user login information, login location, and last application access time. Use this data to review security posture, manage access control, and analyze usage patterns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/digital-end-user-experience-dex/web-app-users-form.html
@@ -7,12 +7,12 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Applications list, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Operations Management]
 ---
 
-# Web application Devices page
+# Web application — Devices page
 
 The Active devices and Impacted devices lists display device details, recent user login information, login location, and last application access time. Use this data to review security posture, manage access control, and analyze usage patterns.
 
@@ -30,7 +30,7 @@ Device
 
 </td><td>
 
-Active or impacted device that is connected to DEX.
+Active or Impacted device that is connected to DEX.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Last logged in location
 
 </td><td>
 
-Geographical position or physical location of the device where the application was recently accessed.**Note:** The device location is important in an outage or emergency situation when it’s important to be able to locate impacted devices and users to assist. Device location data can be used to identify the extent and severity of the outage, prioritize restoration efforts, and direct resources to the affected areas.
+The geographical position or physical location of the device where the application was recently accessed.**Note:** The device location is important in an outage or emergency situation when it’s important to be able to locate impacted devices and users to assist. Device location data can be used to identify the extent and severity of the outage, prioritize restoration efforts, and direct resources to the affected areas.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Alerts
 
 </td><td>
 
-Number of active alerts for the application on the device.Only Impacted devices page has this field.
+This field represents the number of active alerts for the application on the device.Only Impacted devices page has this field.
 
 **Note:** Select the alert count column to access the device alerts page.
 

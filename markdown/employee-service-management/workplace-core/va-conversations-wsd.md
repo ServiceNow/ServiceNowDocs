@@ -7,9 +7,9 @@ release: australia
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Workplace Core, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Workplace Safety Management, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Virtual Agent for Workplace Service Delivery
@@ -53,7 +53,7 @@ For more information, refer to [Activate Virtual Agent for Workplace Service Del
 **Related topics**  
 
 
-[Workplace Service Portal]()
+[]()
 
 [Workplace services on the Employee Center portal]()
 

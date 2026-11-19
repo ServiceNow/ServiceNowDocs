@@ -7,7 +7,7 @@ release: australia
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-11-10"
 reading_time_minutes: 2
 breadcrumb: [Configure the Admin Center, Configure, Digital Portfolio Management, IT Service Management]
 ---
@@ -40,11 +40,11 @@ Each solution displays header information for that solution. For example, for a 
 
 3.  Select **Configure**.
 
-    You must be in the correct application scope to edit the record. If you're in a different scope, then a text banner displays for you to select a link to edit the record.
+    You must be in the correct application scope to edit the record. If you're in a different scope, then a text banner displays for you to select a link to edit the record. If a text banner appears stating that the record isn't found, then the record has been deleted. Contact your admin to create the record.
 
 4.  Review the field names in the **Secondary Values** tab.
 
-    The field names represent the information displayed on the solution header in the DPM Workspace. Only 7 field names are displayed in the DPM Workspace.
+    The field names represent the information displayed on the solution header in the DPM Workspace. Only 7 fields are displayed in the DPM Workspace.
 
 5.  Configure the fields from the list view.
 
@@ -69,6 +69,10 @@ Each solution displays header information for that solution. For example, for a 
 
 7.  Select **Update**.
 
+
+If a text banner appears stating that the record isn't found, then the record has been deleted. Only an admin can delete and create a record. Contact your admin to create the record that you're trying to configure.
+
+\[Omitted image "dpmrecordnotfound.png"\] Alt text: After selecting Configure, a text banner displays the message "Record not found."
 
 **Parent Topic:**[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/digital-portfolio-management/dpm-admin-center.md)
 

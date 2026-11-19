@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/explore-retail-projects-spm-r.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-05"
 reading_time_minutes: 7
 keywords: [SPM Retail]
 breadcrumb: [Explore, Retail Strategic Portfolio Management Suite, Strategic Portfolio Management]
@@ -42,7 +42,7 @@ For example, a New Store Opening template comes preloaded with tasks organized a
 
 Some of the work in a store life cycle project is completed by the store itself rather than by a headquarters team. Set the **Visible to customer** field on a project task to let the assigned store team see that task and act on it in Retail. A project task without this field set remains visible only to headquarters.
 
-Store personas see only the project tasks for the retail organization that they belong to. A a task that is tagged to one store isn't visible to the another staff. For information about how store teams work these tasks, see .
+Store personas see only the project tasks for the retail organization that they belong to. A task that is tagged to one store isn't visible to the another staff. For information about how store teams work these tasks, see .
 
 ## Retail-specific project fields that enable structured tracking
 
